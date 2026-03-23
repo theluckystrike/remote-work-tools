@@ -344,11 +344,11 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 
 ## Related Articles
 
-- [How to Set Up Remote Pair Programming Sessions](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)
-- [How to Set Up Remote Pair Programming Workflow Guide](/remote-work-tools/how-to-set-up-remote-pair-programming-workflow-guide/)
-- [Best Tools for Remote Pair Programming Sessions in 2026](/remote-work-tools/best-tools-remote-pair-programming-sessions-2026/)
-- [Remote Pair Programming Tools Compared 2026](/remote-work-tools/remote-pair-programming-tools-compared/)
-- [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
+- [How to Set Up Remote Pair Programming Sessions](/how-to-set-up-remote-pair-programming-sessions-guide/)
+- [How to Set Up Remote Pair Programming Workflow Guide](/how-to-set-up-remote-pair-programming-workflow-guide/)
+- [Best Tools for Remote Pair Programming Sessions in 2026](/best-tools-remote-pair-programming-sessions-2026/)
+- [Remote Pair Programming Tools Compared 2026](/remote-pair-programming-tools-compared/)
+- [Best Tools for Remote Pair Programming 2026](/remote-pair-programming-tools-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

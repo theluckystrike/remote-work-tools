@@ -249,10 +249,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Remote Work Lactation Room Policy Template for Employees on](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
-- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
-- [Remote Team Vulnerability Disclosure Policy Template](/remote-work-tools/remote-team-vulnerability-disclosure-policy-template-for-dis/)
-- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
-- [Remote Work Employer Childcare Stipend Policy Template](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
+- [Remote Work Lactation Room Policy Template for Employees on](/remote-work-lactation-room-policy-template-for-employees-on-/)
+- [How to Create a Remote Work Policy Document](/remote-work-policy-document-guide/)
+- [Remote Team Vulnerability Disclosure Policy Template](/remote-team-vulnerability-disclosure-policy-template-for-dis/)
+- [Meeting Free Day Policy for Remote Teams Guide](/meeting-free-day-policy-for-remote-teams-guide/)
+- [Remote Work Employer Childcare Stipend Policy Template](/remote-work-employer-childcare-stipend-policy-template-for-d/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -266,10 +266,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
-- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
-- [Remote Team Referral Program Template for Distributed](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
-- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
-- [Remote Team Security Awareness Training Platform Comparison](/remote-work-tools/remote-team-security-awareness-training-platform-comparison-/)
+- [Hybrid Work Manager Training Program Template for Leading](/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
+- [How to Transition Team Rituals from Fully Remote to Hybrid](/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
+- [Remote Team Referral Program Template for Distributed](/remote-team-referral-program-template-for-distributed-compan/)
+- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+- [Remote Team Security Awareness Training Platform Comparison](/remote-team-security-awareness-training-platform-comparison-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

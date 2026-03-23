@@ -318,10 +318,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
-- [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
-- [How to Create Remote Work Stipend Policy That Is Legally](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
-- [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)
-- [Remote Work Lactation Room Policy Template for Employees on](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
+- [How to Create a Remote Work Policy Document](/remote-work-policy-document-guide/)
+- [How to Create Bring Your Own Device Policy for Remote Teams](/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [How to Create Remote Work Stipend Policy That Is Legally](/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
+- [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-caregiver-leave-policy-template-for-distributed-/)
+- [Remote Work Lactation Room Policy Template for Employees on](/remote-work-lactation-room-policy-template-for-employees-on-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

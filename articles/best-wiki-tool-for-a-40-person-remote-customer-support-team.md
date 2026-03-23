@@ -281,19 +281,19 @@ A well-implemented wiki reduces agent onboarding time by 40% and improves first-
 
 ## Related Reading
 
-- [Front vs HelpScout for Remote Customer Support: A](/remote-work-tools/front-vs-helpscout-for-remote-customer-support/)
-- [Shared Inbox Tool for a 4 Person Remote Customer Success](/remote-work-tools/shared-inbox-tool-for-a-4-person-remote-customer-success-tea/)
-- [Auto-assign severity based on rules](/remote-work-tools/remote-team-sop-template-for-customer-escalation-process-acr/)
-- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
-- [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
+- [Front vs HelpScout for Remote Customer Support: A](/front-vs-helpscout-for-remote-customer-support/)
+- [Shared Inbox Tool for a 4 Person Remote Customer Success](/shared-inbox-tool-for-a-4-person-remote-customer-success-tea/)
+- [Auto-assign severity based on rules](/remote-team-sop-template-for-customer-escalation-process-acr/)
+- [Best Practice for Remote Team Documentation Scaling When](/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
+- [Page Title](/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
 
 ## Related Articles
 
-- [How to Set Up a Remote Team Wiki from Scratch](/remote-work-tools/how-to-set-up-a-remote-team-wiki-from-scratch/)
-- [Best Knowledge Base Platform for Remote Support Team](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
-- [Best Shared Inbox Tools for Remote Support Teams](/remote-work-tools/best-shared-inbox-tools-for-remote-support-teams/)
-- [Front vs HelpScout for Remote Customer Support](/remote-work-tools/front-vs-helpscout-for-remote-customer-support/)
-- [Notion vs Coda for a 3-Person Remote Content Team](/remote-work-tools/notion-vs-coda-for-a-3-person-remote-content-team/)
+- [How to Set Up a Remote Team Wiki from Scratch](/how-to-set-up-a-remote-team-wiki-from-scratch/)
+- [Best Knowledge Base Platform for Remote Support Team](/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
+- [Best Shared Inbox Tools for Remote Support Teams](/best-shared-inbox-tools-for-remote-support-teams/)
+- [Front vs HelpScout for Remote Customer Support](/front-vs-helpscout-for-remote-customer-support/)
+- [Notion vs Coda for a 3-Person Remote Content Team](/notion-vs-coda-for-a-3-person-remote-content-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

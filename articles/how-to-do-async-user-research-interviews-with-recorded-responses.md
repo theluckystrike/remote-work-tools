@@ -1037,10 +1037,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Recommended recording setup for user research](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
-- [Best Remote User Research Tools 2026](/remote-work-tools/remote-user-research-tools-2026/)
-- [Best Data Collection Tools for Remote User Research Teams](/remote-work-tools/best-data-collection-tool-for-remote-user-research-teams-gat/)
-- [Async Product Discovery Process for Remote Teams](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
-- [Best Tool for Remote Product Managers Running Async Customer](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
+- [Recommended recording setup for user research](/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
+- [Best Remote User Research Tools 2026](/remote-user-research-tools-2026/)
+- [Best Data Collection Tools for Remote User Research Teams](/best-data-collection-tool-for-remote-user-research-teams-gat/)
+- [Async Product Discovery Process for Remote Teams](/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Best Tool for Remote Product Managers Running Async Customer](/best-tool-for-remote-product-managers-running-async-customer/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

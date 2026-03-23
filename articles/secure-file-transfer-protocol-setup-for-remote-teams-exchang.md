@@ -327,10 +327,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Upload large file with chunked upload](/remote-work-tools/best-file-sharing-solution-for-remote-agency-large-design-fi/)
-- [Video Conferencing Setup for a Remote Team of 3 Cofounders](/remote-work-tools/video-conferencing-setup-for-a-remote-team-of-3-cofounders/)
-- [Best Two-Factor Authentication Setup for Remote Team Shared](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
-- [Secure Remote Desktop Solution Comparison for Distributed](/remote-work-tools/secure-remote-desktop-solution-comparison-for-distributed-te/)
-- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
+- [Upload large file with chunked upload](/best-file-sharing-solution-for-remote-agency-large-design-fi/)
+- [Video Conferencing Setup for a Remote Team of 3 Cofounders](/video-conferencing-setup-for-a-remote-team-of-3-cofounders/)
+- [Best Two-Factor Authentication Setup for Remote Team Shared](/best-two-factor-authentication-setup-for-remote-team-shared-/)
+- [Secure Remote Desktop Solution Comparison for Distributed](/secure-remote-desktop-solution-comparison-for-distributed-te/)
+- [How to Build a Remote Team Handbook from Scratch](/how-to-build-a-remote-team-handbook-from-scratch/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

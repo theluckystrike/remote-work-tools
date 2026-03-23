@@ -410,10 +410,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
-- [Best Tool for Remote Team Async Introductions](/remote-work-tools/best-tool-for-remote-team-async-introductions-connecting-new/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
-- [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [Best Tool for Remote Team Async Introductions](/best-tool-for-remote-team-async-introductions-connecting-new/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [How to Handle Remote Team Subculture Formation When](/how-to-handle-remote-team-subculture-formation-when-departme/)
+- [Async Team Building Activities for Distributed Teams](/async-team-building-activities-for-distributed-teams-differe/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -663,10 +663,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
-- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
-- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
-- [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
-- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [Check your router's current firmware version](/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
+- [Security Tools for a Fully Remote Company Under 20 Employees](/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
+- [How to Set Up HIPAA Compliant Home Office for Remote](/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+- [How to Audit Remote Employee Device Security Compliance](/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

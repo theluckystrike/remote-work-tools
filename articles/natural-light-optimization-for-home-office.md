@@ -332,10 +332,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
-- [Ring Light vs Panel Light for Video Calls: A Developer Guide](/remote-work-tools/ring-light-vs-panel-light-for-video-calls/)
-- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
-- [Best Remote Work Monitor Light Bar 2026](/remote-work-tools/best-remote-work-monitor-light-bar-2026/)
-- [Best Webcam Lighting Setup Under $100 for Professional](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
+- [Home Office Lighting Setup for Productivity](/home-office-lighting-setup-for-productivity-guide/)
+- [Ring Light vs Panel Light for Video Calls: A Developer Guide](/ring-light-vs-panel-light-for-video-calls/)
+- [Best Lighting Setup for Video Calls in Basement Home Office](/best-lighting-setup-for-video-calls-in-basement-home-office/)
+- [Best Remote Work Monitor Light Bar 2026](/best-remote-work-monitor-light-bar-2026/)
+- [Best Webcam Lighting Setup Under $100 for Professional](/best-webcam-lighting-setup-under-100-dollars/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

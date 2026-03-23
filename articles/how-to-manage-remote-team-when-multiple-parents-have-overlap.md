@@ -284,10 +284,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
-- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
-- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
+- [How to Manage Standups for a Remote QA Team of 7](/how-to-manage-standups-for-a-remote-qa-team-of-7/)
+- [How to Manage Multi-Repo Projects with Remote Team](/how-to-manage-multi-repo-projects-with-remote-team/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [How to Handle Remote Team Subculture Formation When](/how-to-handle-remote-team-subculture-formation-when-departme/)
+- [How to Create Remote Work Playbook for Team](/how-to-create-remote-work-playbook-for-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

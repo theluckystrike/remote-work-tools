@@ -263,10 +263,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Screen Sharing Tools for Presenting Designs to Clients](/remote-work-tools/screen-sharing-tool-for-presenting-designs-to-clients-remote/)
-- [Best Screen Sharing Tool for a Remote Tutoring Team of 6](/remote-work-tools/best-screen-sharing-tool-for-a-remote-tutoring-team-of-6/)
-- [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
-- [How to Prevent Laptop Overheating During Long Video Call](/remote-work-tools/how-to-prevent-laptop-overheating-during-long-video-call-ses/)
-- [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
+- [Best Screen Sharing Tools for Presenting Designs to Clients](/screen-sharing-tool-for-presenting-designs-to-clients-remote/)
+- [Best Screen Sharing Tool for a Remote Tutoring Team of 6](/best-screen-sharing-tool-for-a-remote-tutoring-team-of-6/)
+- [Best Screen Recording Tools for Async Communication](/best-screen-recording-async-communication/)
+- [How to Prevent Laptop Overheating During Long Video Call](/how-to-prevent-laptop-overheating-during-long-video-call-ses/)
+- [macOS: Screen recording permission is required](/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

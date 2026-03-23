@@ -243,10 +243,10 @@ Legal matter data is subject to attorney-client privilege and, in many jurisdict
 
 ## Related Articles
 
-- [Remote Legal Research Tool Comparison for Distributed Law](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
-- [Remote Legal Billing Software Comparison for Distributed](/remote-work-tools/remote-legal-billing-software-comparison-for-distributed-law/)
-- [Best Remote Legal Team Document Collaboration Tool](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
-- [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
-- [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
+- [Remote Legal Research Tool Comparison for Distributed Law](/remote-legal-research-tool-comparison-for-distributed-law-fi/)
+- [Remote Legal Billing Software Comparison for Distributed](/remote-legal-billing-software-comparison-for-distributed-law/)
+- [Best Remote Legal Team Document Collaboration Tool](/best-remote-legal-team-document-collaboration-tool-for-contr/)
+- [Best Document Collaboration for a Remote Legal Team of 12](/best-document-collaboration-for-a-remote-legal-team-of-12/)
+- [Remote Architecture Collaboration Tool for Distributed](/remote-architecture-collaboration-tool-for-distributed-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

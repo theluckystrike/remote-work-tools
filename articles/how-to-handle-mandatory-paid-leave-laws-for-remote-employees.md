@@ -303,10 +303,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)
-- [How to Set Up Compliant Remote Employee Benefits](/remote-work-tools/how-to-set-up-compliant-remote-employee-benefits-across-mult/)
-- [How to Handle Employment Law Differences for Remote Teams](/remote-work-tools/how-to-handle-employment-law-differences-for-remote-teams-ac/)
-- [Remote Worker Ergonomic Equipment Reimbursement](/remote-work-tools/remote-worker-ergonomic-equipment-reimbursement-legal-obliga/)
-- [Best Compliance Tool for Managing Remote Employees](/remote-work-tools/best-compliance-tool-for-managing-remote-employees-across-mu/)
+- [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-caregiver-leave-policy-template-for-distributed-/)
+- [How to Set Up Compliant Remote Employee Benefits](/how-to-set-up-compliant-remote-employee-benefits-across-mult/)
+- [How to Handle Employment Law Differences for Remote Teams](/how-to-handle-employment-law-differences-for-remote-teams-ac/)
+- [Remote Worker Ergonomic Equipment Reimbursement](/remote-worker-ergonomic-equipment-reimbursement-legal-obliga/)
+- [Best Compliance Tool for Managing Remote Employees](/best-compliance-tool-for-managing-remote-employees-across-mu/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

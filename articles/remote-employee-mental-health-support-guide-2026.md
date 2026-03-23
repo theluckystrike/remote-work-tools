@@ -292,17 +292,17 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 
 ## Related Reading
 
-- [How to Detect and Prevent Burnout in Remote Employees Early Warning Signs](/remote-work-tools/how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-signs/)
-- [Best Remote Team Wellness Program Ideas for Distributed Organizations](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
-- [Remote Work Burnout Prevention Tools Guide](/remote-work-tools/remote-work-burnout-prevention-tools/)
-- [Return to Office Mental Health Support Resources](/remote-work-tools/return-to-office-mental-health-support-resources-for-employe/)
+- [How to Detect and Prevent Burnout in Remote Employees Early Warning Signs](/how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-signs/)
+- [Best Remote Team Wellness Program Ideas for Distributed Organizations](/best-remote-team-wellness-program-ideas-for-distributed-orga/)
+- [Remote Work Burnout Prevention Tools Guide](/remote-work-burnout-prevention-tools/)
+- [Return to Office Mental Health Support Resources](/return-to-office-mental-health-support-resources-for-employe/)
 
 ## Related Articles
 
-- [Return to Office Mental Health Support Resources](/remote-work-tools/return-to-office-mental-health-support-resources-for-employe/)
-- [How to Monitor Remote Employee Endpoint Health](/remote-work-tools/how-to-monitor-remote-employee-endpoint-health-without-invad/)
-- [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
-- [Best Shared Inbox Tools for Remote Support Teams](/remote-work-tools/best-shared-inbox-tools-for-remote-support-teams/)
-- [How to Monitor Remote Team Tool Response Times for](/remote-work-tools/how-to-monitor-remote-team-tool-response-times-for-identifyi/)
+- [Return to Office Mental Health Support Resources](/return-to-office-mental-health-support-resources-for-employe/)
+- [How to Monitor Remote Employee Endpoint Health](/how-to-monitor-remote-employee-endpoint-health-without-invad/)
+- [Remote Working Parent Self Care Checklist for Avoiding](/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
+- [Best Shared Inbox Tools for Remote Support Teams](/best-shared-inbox-tools-for-remote-support-teams/)
+- [How to Monitor Remote Team Tool Response Times for](/how-to-monitor-remote-team-tool-response-times-for-identifyi/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

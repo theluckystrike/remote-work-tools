@@ -526,20 +526,20 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 
 ## Related Reading
 
-- [How to Secure Remote Team Kubernetes Clusters](/remote-work-tools/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
-- [Best Container Registry Tool for Remote Teams](/remote-work-tools/best-container-registry-tool-for-remote-teams-sharing-docker/)
-- [Setting Up Harbor for Container Registry](/remote-work-tools/setting-up-harbor-for-container-registry/)
-- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
+- [How to Secure Remote Team Kubernetes Clusters](/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
+- [Best Container Registry Tool for Remote Teams](/best-container-registry-tool-for-remote-teams-sharing-docker/)
+- [Setting Up Harbor for Container Registry](/setting-up-harbor-for-container-registry/)
+- [How to Set Up a Soundproof Home Office When Working](/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
 
 ---
 
 ## Related Articles
 
-- [Setting Up a Remote Dev Server with Hetzner](/remote-work-tools/setting-up-remote-dev-server-with-hetzner/)
-- [How to Secure Remote Team Kubernetes Clusters with Network P](/remote-work-tools/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
-- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
-- [How to Create a Remote Dev Environment Template](/remote-work-tools/how-to-create-a-remote-dev-environment-template/)
-- [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
+- [Setting Up a Remote Dev Server with Hetzner](/setting-up-remote-dev-server-with-hetzner/)
+- [How to Secure Remote Team Kubernetes Clusters with Network P](/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
+- [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
+- [How to Create a Remote Dev Environment Template](/how-to-create-a-remote-dev-environment-template/)
+- [How to Automate Dev Environment Setup: A Practical Guide](/how-to-automate-dev-environment-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

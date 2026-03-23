@@ -322,10 +322,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
-- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
-- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
-- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+- [How to Maintain Remote Team Culture When Transitioning](/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [Best Tool for Hybrid Team Async Updates When Some Use Office](/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
+- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
+- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

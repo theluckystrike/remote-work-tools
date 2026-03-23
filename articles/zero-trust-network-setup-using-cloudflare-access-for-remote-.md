@@ -272,10 +272,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Set Up Zero Trust Network Access for Distributed](/remote-work-tools/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
-- [Zero Trust Remote Access Setup Guide for Small Engineering](/remote-work-tools/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
-- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
-- [How to Implement Just-in-Time Access for Remote Team](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
-- [How to Implement Least Privilege Access for Remote Team](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
+- [How to Set Up Zero Trust Network Access for Distributed](/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
+- [Zero Trust Remote Access Setup Guide for Small Engineering](/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
+- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
+- [How to Implement Just-in-Time Access for Remote Team](/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
+- [How to Implement Least Privilege Access for Remote Team](/how-to-implement-least-privilege-access-for-remote-team-clou/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -404,10 +404,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best CRM for Solo Consultant Managing 30 Active Clients](/remote-work-tools/best-crm-for-solo-consultant-managing-30-active-clients-remo/)
-- [Notion Database Templates for a Solo Recruiter Working Remot](/remote-work-tools/notion-database-templates-for-a-solo-recruiter-working-remot/)
-- [Project Management for a Solo Developer with 8 Client](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
-- [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
-- [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
+- [Best CRM for Solo Consultant Managing 30 Active Clients](/best-crm-for-solo-consultant-managing-30-active-clients-remo/)
+- [Notion Database Templates for a Solo Recruiter Working Remot](/notion-database-templates-for-a-solo-recruiter-working-remot/)
+- [Project Management for a Solo Developer with 8 Client](/project-management-for-a-solo-developer-with-8-client-projec/)
+- [How to Set Up Shared Notion Workspace with Remote Agency](/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
+- [How to Manage Multiple Freelance Clients Effectively](/how-to-manage-multiple-freelance-clients-effectively/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

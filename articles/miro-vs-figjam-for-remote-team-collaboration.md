@@ -323,10 +323,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
-- [CodePen vs CodeSandbox for Remote Collaboration](/remote-work-tools/codepen-vs-codesandbox-for-remote-collaboration/)
-- [Remote Team Cross Timezone Collaboration Protocol When Scali](/remote-work-tools/remote-team-cross-timezone-collaboration-protocol-when-scali/)
-- [Best Whiteboard Tool for a Remote Team of 10 Product](/remote-work-tools/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
-- [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
+- [Figma vs Sketch for Remote Design Collaboration](/figma-vs-sketch-for-remote-design-collaboration/)
+- [CodePen vs CodeSandbox for Remote Collaboration](/codepen-vs-codesandbox-for-remote-collaboration/)
+- [Remote Team Cross Timezone Collaboration Protocol When Scali](/remote-team-cross-timezone-collaboration-protocol-when-scali/)
+- [Best Whiteboard Tool for a Remote Team of 10 Product](/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
+- [How to Create a Remote Team Values Wall Using Miro Board](/how-to-create-remote-team-values-wall-using-miro-board/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

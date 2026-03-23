@@ -253,10 +253,10 @@ Prefer GitHub when your team already reviews infrastructure changes there. Co-lo
 
 ## Related Articles
 
-- [Best Practices for Remote Incident Communication](/remote-work-tools/best-practices-for-remote-incident-communication/)
-- [Remote Team Security Incident Response Plan Template](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [How to Scale Remote Team Incident Response Process](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
-- [How to Set Up Remote Team Incident Response Process 2026](/remote-work-tools/how-to-set-up-remote-team-incident-response-process-2026/)
-- [Best Tools for Remote Team Incident Postmortems in 2026](/remote-work-tools/best-tools-for-remote-team-incident-postmortems-2026/)
+- [Best Practices for Remote Incident Communication](/best-practices-for-remote-incident-communication/)
+- [Remote Team Security Incident Response Plan Template](/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [How to Scale Remote Team Incident Response Process](/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [How to Set Up Remote Team Incident Response Process 2026](/how-to-set-up-remote-team-incident-response-process-2026/)
+- [Best Tools for Remote Team Incident Postmortems in 2026](/best-tools-for-remote-team-incident-postmortems-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

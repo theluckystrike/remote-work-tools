@@ -274,10 +274,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Async Mentorship Program Structure for Remote Junior Develop](/remote-work-tools/async-mentorship-program-structure-for-remote-junior-develop/)
-- [How to Onboard Remote Interns Effectively With Structured](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)
-- [How to Create Remote Team Internal Mobility Program for Grow](/remote-work-tools/how-to-create-remote-team-internal-mobility-program-for-grow/)
-- [How to Set Up Remote Team Mentoring Program 2026](/remote-work-tools/how-to-set-up-remote-team-mentoring-program-2026/)
-- [How to Create Remote Team Skip Level Meeting Program](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
+- [Async Mentorship Program Structure for Remote Junior Develop](/async-mentorship-program-structure-for-remote-junior-develop/)
+- [How to Onboard Remote Interns Effectively With Structured](/how-to-onboard-remote-interns-effectively-with-structured-me/)
+- [How to Create Remote Team Internal Mobility Program for Grow](/how-to-create-remote-team-internal-mobility-program-for-grow/)
+- [How to Set Up Remote Team Mentoring Program 2026](/how-to-set-up-remote-team-mentoring-program-2026/)
+- [How to Create Remote Team Skip Level Meeting Program](/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -298,10 +298,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
-- [Best Grocery Delivery Service Strategy for Remote Working](/remote-work-tools/best-grocery-delivery-service-strategy-for-remote-working-pa/)
-- [Remote Team Metrics Collection Strategy for Measuring](/remote-work-tools/remote-team-metrics-collection-strategy-for-measuring-deploy/)
-- [Git Branching Strategy for Remote Teams](/remote-work-tools/git-branching-strategy-remote-teams/)
-- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
+- [Remote Team Culture Building Strategies Guide](/remote-team-culture-building-strategies-guide/)
+- [Best Grocery Delivery Service Strategy for Remote Working](/best-grocery-delivery-service-strategy-for-remote-working-pa/)
+- [Remote Team Metrics Collection Strategy for Measuring](/remote-team-metrics-collection-strategy-for-measuring-deploy/)
+- [Git Branching Strategy for Remote Teams](/git-branching-strategy-remote-teams/)
+- [How to Create Remote Work Playbook for Team](/how-to-create-remote-work-playbook-for-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

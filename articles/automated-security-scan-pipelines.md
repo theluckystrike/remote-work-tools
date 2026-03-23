@@ -388,9 +388,9 @@ Track scan metrics over time by posting results to a dashboard. A rising false-p
 
 ## Related Reading
 
-- [Best Tools for Remote Team Secret Sharing](/remote-work-tools/remote-team-secret-sharing-tools/)
-- [How to Automate Pull Request Labeling](/remote-work-tools/automate-pull-request-labeling/)
-- [How to Create Automated Dependency Audit](/remote-work-tools/automated-dependency-audit/)
+- [Best Tools for Remote Team Secret Sharing](/remote-team-secret-sharing-tools/)
+- [How to Automate Pull Request Labeling](/automate-pull-request-labeling/)
+- [How to Create Automated Dependency Audit](/automated-dependency-audit/)
 
 ---
 

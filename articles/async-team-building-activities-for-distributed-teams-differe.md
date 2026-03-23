@@ -250,10 +250,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
-- [Best Tool for Remote Team Async Introductions](/remote-work-tools/best-tool-for-remote-team-async-introductions-connecting-new/)
-- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-- [Async Team Retrospective Using Shared Documents and Recorded](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
-- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [Best Tool for Remote Team Async Introductions](/best-tool-for-remote-team-async-introductions-connecting-new/)
+- [Best Async Project Management Tools for Distributed Teams](/best-async-project-management-tools-for-distributed-teams-2026/)
+- [Async Team Retrospective Using Shared Documents and Recorded](/async-team-retrospective-using-shared-documents-and-recorded/)
+- [Remote Team Async Standup Template Guide](/remote-team-async-standup-template-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -383,9 +383,9 @@ Run both: Keel for staging instant-deploy, ArgoCD for production GitOps. Use Kee
 
 ## Related Reading
 
-- [How to Set Up ArgoCD for GitOps Workflows](/remote-work-tools/argocd-gitops-workflow-setup/)
-- [How to Automate Docker Container Updates](/remote-work-tools/automate-docker-container-updates/)
-- [How to Create Automated Rollback Systems](/remote-work-tools/automated-rollback-systems/)
+- [How to Set Up ArgoCD for GitOps Workflows](/argocd-gitops-workflow-setup/)
+- [How to Automate Docker Container Updates](/automate-docker-container-updates/)
+- [How to Create Automated Rollback Systems](/automated-rollback-systems/)
 
 ---
 

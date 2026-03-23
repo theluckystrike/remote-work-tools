@@ -261,10 +261,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Run a Remote Client Kickoff Meeting for a New Project](/remote-work-tools/how-to-run-remote-client-kickoff-meeting-for-new-project/)
-- [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
-- [How to Create Effective Project Templates for Remote Work](/remote-work-tools/how-to-create-effective-project-templates-remote-work/)
-- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
-- [How to Create Shared Project Timeline With Remote Agency Cli](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
+- [How to Run a Remote Client Kickoff Meeting for a New Project](/how-to-run-remote-client-kickoff-meeting-for-new-project/)
+- [Best Practice for Remote Team Cross Functional Project](/best-practice-for-remote-team-cross-functional-project-kicko/)
+- [How to Create Effective Project Templates for Remote Work](/how-to-create-effective-project-templates-remote-work/)
+- [.communication-charter.yml - add to your project repo](/how-to-create-remote-team-communication-charter-template-for/)
+- [How to Create Shared Project Timeline With Remote Agency Cli](/how-to-create-shared-project-timeline-with-remote-agency-cli/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

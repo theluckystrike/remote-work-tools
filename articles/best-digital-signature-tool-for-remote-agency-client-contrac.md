@@ -307,19 +307,19 @@ Digital signature tools provide the infrastructure, but your implementation dete
 
 ## Related Reading
 
-- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
-- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
-- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
-- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
-- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
+- [Best Client Intake Form Builder for Remote Agency Onboarding](/best-client-intake-form-builder-for-remote-agency-onboarding/)
+- [Best Client Portal for Remote Design Agency 2026 Comparison](/best-client-portal-for-remote-design-agency-2026-comparison/)
+- [Example: Create a booking via API](/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
+- [Client Project Status Dashboard Setup for Remote Agency](/client-project-status-dashboard-setup-for-remote-agency-team/)
+- [How to Create Client Communication Charter for Remote](/how-to-create-client-communication-charter-for-remote-agency/)
 
 ## Related Articles
 
-- [Best Contract Management Tool for Remote Agency Multiple](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-cli/)
-- [Remote Agency Client NDA and Contract Signing Workflow](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
-- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
-- [Best Whiteboard Tool for Remote Client Brainstorming](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
-- [Client Document Sharing Portals for Remote Teams](/remote-work-tools/client-document-sharing-portal-comparison-for-remote-agencie/)
+- [Best Contract Management Tool for Remote Agency Multiple](/best-contract-management-tool-for-remote-agency-multiple-cli/)
+- [Remote Agency Client NDA and Contract Signing Workflow](/remote-agency-client-nda-and-contract-signing-workflow-digit/)
+- [How to Set Up Harvest for Remote Agency Client Time Tracking](/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
+- [Best Whiteboard Tool for Remote Client Brainstorming](/best-whiteboard-tool-for-remote-client-brainstorming-session/)
+- [Client Document Sharing Portals for Remote Teams](/client-document-sharing-portal-comparison-for-remote-agencie/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

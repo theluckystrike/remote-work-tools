@@ -242,11 +242,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Element Matrix Messenger for Team Communication](/remote-work-tools/element-matrix-messenger-for-team-communication/)
-- [Best Tools for Remote QA Testing Workflows](/remote-work-tools/best-tools-remote-qa-testing-workflows/)
-- [How to Secure Slack and Teams Channels for Remote Team](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
-- [Secure Remote Desktop Solution Comparison for Distributed](/remote-work-tools/secure-remote-desktop-solution-comparison-for-distributed-te/)
-- [Best Tools for Remote Solidity Teams Coordinating Smart](/remote-work-tools/best-tools-for-remote-solidity-teams-coordinating-smart-cont/)
+- [Element Matrix Messenger for Team Communication](/element-matrix-messenger-for-team-communication/)
+- [Best Tools for Remote QA Testing Workflows](/best-tools-remote-qa-testing-workflows/)
+- [How to Secure Slack and Teams Channels for Remote Team](/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
+- [Secure Remote Desktop Solution Comparison for Distributed](/secure-remote-desktop-solution-comparison-for-distributed-te/)
+- [Best Tools for Remote Solidity Teams Coordinating Smart](/best-tools-for-remote-solidity-teams-coordinating-smart-cont/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

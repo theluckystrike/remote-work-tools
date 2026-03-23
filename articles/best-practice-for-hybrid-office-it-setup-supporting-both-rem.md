@@ -244,9 +244,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Set Up Zero Trust Network Access for Distributed](/remote-work-tools/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
-- [Example ndss configuration snippet](/remote-work-tools/how-to-set-up-hybrid-office-guest-wifi-for-visitors-and-cont/)
-- [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)
-- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
-- [Zero Trust Remote Access Setup Guide for Small Engineering](/remote-work-tools/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
+- [How to Set Up Zero Trust Network Access for Distributed](/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
+- [Example ndss configuration snippet](/how-to-set-up-hybrid-office-guest-wifi-for-visitors-and-cont/)
+- [How to Setup Vpn Secure Remote Access Office Resources](/how-to-setup-vpn-secure-remote-access-office-resources/)
+- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
+- [Zero Trust Remote Access Setup Guide for Small Engineering](/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

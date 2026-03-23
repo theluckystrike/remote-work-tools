@@ -312,9 +312,9 @@ for r in releases:
 
 ## Related Reading
 
-- [How to Automate Pull Request Labeling](/remote-work-tools/automate-pull-request-labeling/)
-- [Best Tools for Remote Team Post-Mortems](/remote-work-tools/remote-team-post-mortem-tools/)
-- [Best Tools for Remote Team Sprint Velocity](/remote-work-tools/remote-team-sprint-velocity-tools/)
+- [How to Automate Pull Request Labeling](/automate-pull-request-labeling/)
+- [Best Tools for Remote Team Post-Mortems](/remote-team-post-mortem-tools/)
+- [Best Tools for Remote Team Sprint Velocity](/remote-team-sprint-velocity-tools/)
 
 ---
 

@@ -445,15 +445,15 @@ Make async videos accessible to your whole team:
 - [Best Screen Recording Async Communication](/best-screen-recording-async-communication/)
 - [Best Open Source Screen Recording Tool for Remote Team Async](/best-open-source-screen-recording-tool-for-remote-team-async.)
 - [Async Pair Programming Workflow Using Recorded Walkthroughs](/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-- [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
+- [How to Set Up Home Office in Studio Apartment Without Walls](/how-to-set-up-home-office-in-studio-apartment-without-walls/)
 ---
 
 ## Related Articles
 
-- [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
-- [Best Tool for Recording Quick 2-Minute Video Updates to Team](/remote-work-tools/best-tool-for-recording-quick-2-minute-video-updates-to-team/)
-- [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
-- [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
-- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
+- [How to Set Up Home Office in Studio Apartment Without Walls](/how-to-set-up-home-office-in-studio-apartment-without-walls/)
+- [Best Tool for Recording Quick 2-Minute Video Updates to Team](/best-tool-for-recording-quick-2-minute-video-updates-to-team/)
+- [macOS: Screen recording permission is required](/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
+- [Best Screen Recording Tools for Async Communication](/best-screen-recording-async-communication/)
+- [Home Office Lighting Setup for Productivity](/home-office-lighting-setup-for-productivity-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

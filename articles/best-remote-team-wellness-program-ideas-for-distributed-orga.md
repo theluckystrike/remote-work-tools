@@ -295,10 +295,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Wellness Check App for Mobile: Tracking Team](/remote-work-tools/remote-team-wellness-check-app-for-mobile-tracking-team-mora/)
-- [Distributed Team Wellness Challenge Ideas](/remote-work-tools/distributed-team-wellness-challenge-ideas-steps-meditation-water-tracking/)
-- [Remote Team Referral Program Template for Distributed](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
-- [Remote Employee Belonging and Inclusion Program Ideas](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [Remote Team Wellness Check App for Mobile: Tracking Team](/remote-team-wellness-check-app-for-mobile-tracking-team-mora/)
+- [Distributed Team Wellness Challenge Ideas](/distributed-team-wellness-challenge-ideas-steps-meditation-water-tracking/)
+- [Remote Team Referral Program Template for Distributed](/remote-team-referral-program-template-for-distributed-compan/)
+- [Remote Employee Belonging and Inclusion Program Ideas](/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

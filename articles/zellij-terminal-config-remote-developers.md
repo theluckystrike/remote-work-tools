@@ -312,10 +312,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [tmux Config Guide for Remote Developers](/remote-work-tools/tmux-config-guide-remote-developers/)
-- [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [How to Optimize macOS for Remote Development](/remote-work-tools/how-to-optimize-macos-for-remote-development/)
-- [Remote Ideation Session Facilitation Guide](/remote-work-tools/remote-ideation-session-facilitation-guide/)
+- [tmux Config Guide for Remote Developers](/tmux-config-guide-remote-developers/)
+- [Best Terminal Multiplexer for Remote Pair Programming](/best-terminal-multiplexer-for-remote-pair-programming/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [How to Optimize macOS for Remote Development](/how-to-optimize-macos-for-remote-development/)
+- [Remote Ideation Session Facilitation Guide](/remote-ideation-session-facilitation-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

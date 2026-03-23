@@ -295,10 +295,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Tools for Remote Team Sprint Planning](/remote-work-tools/best-tools-for-remote-sprint-planning/)
-- [How to Run Sprints with a Remote Team of 4 Engineers](/remote-work-tools/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
-- [Best Tools for Remote Team Sprint Planning (2026)](/remote-work-tools/best-tools-for-remote-team-sprint-planning-2026/)
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
-- [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
+- [Best Tools for Remote Team Sprint Planning](/best-tools-for-remote-sprint-planning/)
+- [How to Run Sprints with a Remote Team of 4 Engineers](/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
+- [Best Tools for Remote Team Sprint Planning (2026)](/best-tools-for-remote-team-sprint-planning-2026/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [Sprint {{ sprint_number }} Preparation](/remote-team-sprint-planning-communication-template-for-distr/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

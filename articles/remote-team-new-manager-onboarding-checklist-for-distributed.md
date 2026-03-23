@@ -307,9 +307,9 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
-- [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
-- [Remote Team Middle Management Onboarding Guide for New](/remote-work-tools/remote-team-middle-management-onboarding-guide-for-new-layer/)
-- [Remote Manager One on One Question Template for Distributed](/remote-work-tools/remote-manager-one-on-one-question-template-for-distributed-team-check-ins/)
-- [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
+- [Remote Team Onboarding Tools and Checklist](/remote-team-onboarding-tools-checklist/)
+- [Best Tool for Remote Team Onboarding Checklist Automation](/best-tool-for-remote-team-onboarding-checklist-automation-at/)
+- [Remote Team Middle Management Onboarding Guide for New](/remote-team-middle-management-onboarding-guide-for-new-layer/)
+- [Remote Manager One on One Question Template for Distributed](/remote-manager-one-on-one-question-template-for-distributed-team-check-ins/)
+- [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -243,10 +243,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Escalation Protocols for Remote Engineering Teams](/remote-work-tools/escalation-protocols-for-remote-engineering-teams/)
-- [How to Create Remote Team Escalation Communication Template](/remote-work-tools/how-to-create-remote-team-escalation-communication-template-/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Scale Remote Team Social Events From Informal Chats](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
-- [How to Set Up Remote Team On-Call Rotation 2026](/remote-work-tools/how-to-set-up-remote-team-on-call-rotation-2026/)
+- [Escalation Protocols for Remote Engineering Teams](/escalation-protocols-for-remote-engineering-teams/)
+- [How to Create Remote Team Escalation Communication Template](/how-to-create-remote-team-escalation-communication-template-/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [How to Scale Remote Team Social Events From Informal Chats](/how-to-scale-remote-team-social-events-from-informal-chats-t/)
+- [How to Set Up Remote Team On-Call Rotation 2026](/how-to-set-up-remote-team-on-call-rotation-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

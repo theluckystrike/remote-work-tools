@@ -262,10 +262,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
-- [How to Run Async Book Clubs for Distributed Engineering](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-- [Remote Team Podcast Club Format for Professional Development](/remote-work-tools/remote-team-podcast-club-format-for-professional-development/)
-- [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Run Book Clubs for a Remote Engineering Team of 40](/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
+- [How to Run Async Book Clubs for Distributed Engineering](/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [Remote Team Podcast Club Format for Professional Development](/remote-team-podcast-club-format-for-professional-development/)
+- [Reading schedule generator for async book clubs](/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

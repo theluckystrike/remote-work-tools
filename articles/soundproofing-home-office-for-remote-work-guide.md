@@ -317,10 +317,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
-- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
-- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)
-- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
-- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
+- [How to Add Sound Dampening to Home Office Door Cheaply](/how-to-add-sound-dampening-to-home-office-door-cheaply/)
+- [How to Set Up a Soundproof Home Office When Working](/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
+- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-home-office-tax-deductions-2026/)
+- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
+- [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -493,9 +493,9 @@ Go apps in Unit run as native shared libraries — no interpreter overhead, no p
 
 ## Related Reading
 
-- [How to Set Up Keel for Continuous Delivery](/remote-work-tools/keel-continuous-delivery-setup/)
-- [How to Create Automated Rollback Systems](/remote-work-tools/automated-rollback-systems/)
-- [How to Automate Docker Container Updates](/remote-work-tools/automate-docker-container-updates/)
+- [How to Set Up Keel for Continuous Delivery](/keel-continuous-delivery-setup/)
+- [How to Create Automated Rollback Systems](/automated-rollback-systems/)
+- [How to Automate Docker Container Updates](/automate-docker-container-updates/)
 
 ---
 

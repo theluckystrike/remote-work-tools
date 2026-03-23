@@ -409,10 +409,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
-- [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
-- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
-- [How to Write Good Remote Meeting Agendas](/remote-work-tools/how-to-write-good-remote-meeting-agendas/)
-- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
+- [Remote Team One on One Meeting Template for Engineering](/remote-team-one-on-one-meeting-template-for-engineering-mana/)
+- [Remote Team Meeting Cadence Template for Engineering](/remote-team-meeting-cadence-template-for-engineering-manager/)
+- [Remote Meeting Agenda Template for Engineering Teams](/remote-meeting-agenda-template-for-engineering-teams/)
+- [How to Write Good Remote Meeting Agendas](/how-to-write-good-remote-meeting-agendas/)
+- [Async Weekly Recap Email Template for Remote Team Leads 2026](/async-weekly-recap-email-template-for-remote-team-leads-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

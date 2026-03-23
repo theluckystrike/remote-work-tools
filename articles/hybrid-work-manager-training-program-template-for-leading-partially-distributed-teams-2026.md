@@ -249,10 +249,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Hybrid Work Manager Training Program Template](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
-- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
-- [Remote Team Referral Program Template for Distributed](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
-- [Remote Employee Belonging and Inclusion Program Ideas](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+- [Hybrid Work Manager Training Program Template](/hybrid-work-manager-training-program-template-for-leading-pa/)
+- [How to Transition Team Rituals from Fully Remote to Hybrid](/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
+- [Remote Team Referral Program Template for Distributed](/remote-team-referral-program-template-for-distributed-compan/)
+- [Remote Employee Belonging and Inclusion Program Ideas](/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
+- [How to Maintain Remote Team Culture When Transitioning](/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

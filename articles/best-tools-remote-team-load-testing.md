@@ -356,20 +356,20 @@ For most remote teams: use k6 in CI for automated regression tests, Gatling for 
 
 ## Related Reading
 
-- [Best Tools for Remote Team API Mocking](/remote-work-tools/best-tools-remote-team-api-mocking/)
-- [How to Set Up Netdata for Server Monitoring](/remote-work-tools/how-to-set-up-netdata-for-server-monitoring/)
-- [How to Create Automated Status Pages](/remote-work-tools/how-to-create-automated-status-pages/)
+- [Best Tools for Remote Team API Mocking](/best-tools-remote-team-api-mocking/)
+- [How to Set Up Netdata for Server Monitoring](/how-to-set-up-netdata-for-server-monitoring/)
+- [How to Create Automated Status Pages](/how-to-create-automated-status-pages/)
 
-- [Deploy a secure Element (Matrix) server for pen test](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
+- [Deploy a secure Element (Matrix) server for pen test](/remote-team-penetration-testing-coordination-guide-for-distr/)
 ---
 
 ## Related Articles
 
-- [Best Tools for Remote QA Testing Workflows](/remote-work-tools/best-tools-remote-qa-testing-workflows/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Track Remote Team Use Rate Without Invasive](/remote-work-tools/how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/)
-- [Remote Team Shadow IT Discovery and Management Guide for IT](/remote-work-tools/remote-team-shadow-it-discovery-and-management-guide-for-it-/)
-- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
+- [Best Tools for Remote QA Testing Workflows](/best-tools-remote-qa-testing-workflows/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [How to Track Remote Team Use Rate Without Invasive](/how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/)
+- [Remote Team Shadow IT Discovery and Management Guide for IT](/remote-team-shadow-it-discovery-and-management-guide-for-it-/)
+- [Best Tools for Remote Team Retrospectives 2026](/best-tools-for-remote-team-retrospectives-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

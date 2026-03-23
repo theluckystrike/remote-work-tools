@@ -253,10 +253,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
-- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
-- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
-- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [Async Weekly Recap Email Template for Remote Team Leads 2026](/async-weekly-recap-email-template-for-remote-team-leads-2026/)
+- [How to Handle Remote Team Subculture Formation When](/how-to-handle-remote-team-subculture-formation-when-departme/)
+- [Best Format for Remote Team Weekly Written Status Update](/best-format-for-remote-team-weekly-written-status-update-rep/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/how-to-run-remote-team-retrospective-focused-on-team-health/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

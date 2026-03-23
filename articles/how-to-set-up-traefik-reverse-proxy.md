@@ -550,20 +550,20 @@ docker logs -f traefik 2>&1 | grep -E "(error|warn|router|service)"
 
 ## Related Reading
 
-- [How to Set Up Portainer for Docker Management](/remote-work-tools/how-to-set-up-portainer-for-docker-management/)
-- [How to Automate SSL Certificate Renewal](/remote-work-tools/how-to-automate-ssl-certificate-renewal/)
-- [How to Set Up Netdata for Server Monitoring](/remote-work-tools/how-to-set-up-netdata-for-server-monitoring/)
-- [How to Set Freelance Developer Rates in 2026](/remote-work-tools/how-to-set-freelance-developer-rates-2026/)
+- [How to Set Up Portainer for Docker Management](/how-to-set-up-portainer-for-docker-management/)
+- [How to Automate SSL Certificate Renewal](/how-to-automate-ssl-certificate-renewal/)
+- [How to Set Up Netdata for Server Monitoring](/how-to-set-up-netdata-for-server-monitoring/)
+- [How to Set Freelance Developer Rates in 2026](/how-to-set-freelance-developer-rates-2026/)
 
 ---
 
 ## Related Articles
 
-- [How to Set Up Portainer for Docker Management](/remote-work-tools/how-to-set-up-portainer-for-docker-management/)
-- [Setting Up Keycloak for Team SSO](/remote-work-tools/setting-up-keycloak-for-team-sso/)
-- [Optimize Docker for Slow Connections When Working Remotely](/remote-work-tools/docker-optimize-slow-connection-remote-work/)
-- [Nix vs Docker for Reproducible Dev Environments](/remote-work-tools/nix-vs-docker-for-reproducible-dev-environments/)
-- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
+- [How to Set Up Portainer for Docker Management](/how-to-set-up-portainer-for-docker-management/)
+- [Setting Up Keycloak for Team SSO](/setting-up-keycloak-for-team-sso/)
+- [Optimize Docker for Slow Connections When Working Remotely](/docker-optimize-slow-connection-remote-work/)
+- [Nix vs Docker for Reproducible Dev Environments](/nix-vs-docker-for-reproducible-dev-environments/)
+- [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

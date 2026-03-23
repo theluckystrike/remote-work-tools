@@ -417,10 +417,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Essential Contract Clauses Every Freelance Developer Should](/remote-work-tools/freelance-developer-contract-clauses-to-include/)
-- [Remote Employee Intellectual Property Assignment Clause](/remote-work-tools/remote-employee-intellectual-property-assignment-clause-temp/)
-- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
-- [How to Transition From Employee to Freelancer](/remote-work-tools/how-to-transition-from-employee-to-freelancer/)
-- [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
+- [Essential Contract Clauses Every Freelance Developer Should](/freelance-developer-contract-clauses-to-include/)
+- [Remote Employee Intellectual Property Assignment Clause](/remote-employee-intellectual-property-assignment-clause-temp/)
+- [Best Contract Templates for Freelance Developers](/best-contract-templates-for-freelance-developers/)
+- [How to Transition From Employee to Freelancer](/how-to-transition-from-employee-to-freelancer/)
+- [How to Get Recurring Clients as a Freelance Developer](/how-to-get-recurring-clients-as-freelance-developer/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

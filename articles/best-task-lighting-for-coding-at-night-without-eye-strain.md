@@ -437,9 +437,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
-- [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
-- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
-- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
-- [Best Smart Lighting for Home Office Developers](/remote-work-tools/best-smart-lighting-for-home-office-developers/)
+- [Home Office Lighting Setup for Productivity](/home-office-lighting-setup-for-productivity-guide/)
+- [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
+- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/best-webcam-lighting-setup-under-100-dollars/)
+- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/best-desk-lamp-for-home-office-coding/)
+- [Best Smart Lighting for Home Office Developers](/best-smart-lighting-for-home-office-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

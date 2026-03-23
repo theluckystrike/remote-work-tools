@@ -342,9 +342,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best After School Activity Scheduling App for Remote Parents](/remote-work-tools/best-after-school-activity-scheduling-app-for-remote-parents/)
-- [calendar_manager.py - Manage childcare-aware calendar blocks](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
-- [Best Calendar Tool for a Remote Executive Team of 5](/remote-work-tools/best-calendar-tool-for-a-remote-executive-team-of-5/)
-- [Remote Team Deployment Pipeline Best Practices](/remote-work-tools/remote-team-deployment-pipeline-best-practices/)
-- [Remote Working Parent Burnout Prevention Checklist](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
+- [Best After School Activity Scheduling App for Remote Parents](/best-after-school-activity-scheduling-app-for-remote-parents/)
+- [calendar_manager.py - Manage childcare-aware calendar blocks](/best-calendar-blocking-strategy-for-remote-working-parents-m/)
+- [Best Calendar Tool for a Remote Executive Team of 5](/best-calendar-tool-for-a-remote-executive-team-of-5/)
+- [Remote Team Deployment Pipeline Best Practices](/remote-team-deployment-pipeline-best-practices/)
+- [Remote Working Parent Burnout Prevention Checklist](/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

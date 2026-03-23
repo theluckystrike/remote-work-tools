@@ -342,10 +342,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
-- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
-- [Brazil Digital Nomad Visa Process and Tax Implications](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
-- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
-- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
+- [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/spain-digital-nomad-visa-requirements-2026/)
+- [Brazil Digital Nomad Visa Process and Tax Implications](/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
+- [Portugal Digital Nomad Visa Application Guide](/portugal-digital-nomad-visa-application-guide/)
+- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

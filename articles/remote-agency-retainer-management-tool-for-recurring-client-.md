@@ -241,10 +241,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
-- [Best Contract Management Tool for Remote Agency Multiple](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-cli/)
-- [Client Retention Strategies for Freelancers 2026](/remote-work-tools/client-retention-strategies-for-freelancers-2026/)
-- [Share with client](/remote-work-tools/client-document-sharing-portal-comparison-for-remote-agencie/)
-- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [How to Set Up Harvest for Remote Agency Client Time Tracking](/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
+- [Best Contract Management Tool for Remote Agency Multiple](/best-contract-management-tool-for-remote-agency-multiple-cli/)
+- [Client Retention Strategies for Freelancers 2026](/client-retention-strategies-for-freelancers-2026/)
+- [Share with client](/client-document-sharing-portal-comparison-for-remote-agencie/)
+- [How to Set Up Basecamp for Remote Agency Client](/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

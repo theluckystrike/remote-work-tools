@@ -315,9 +315,9 @@ Two full business cycles (typically 14 days) to account for weekday/weekend beha
 
 ## Related Reading
 
-- [Best Tools for Remote Team Sprint Velocity](/remote-work-tools/remote-team-sprint-velocity-tools/)
-- [Best Tools for Remote Team Post-Mortems](/remote-work-tools/remote-team-post-mortem-tools/)
-- [Best Tools for Remote Team Changelog Review](/remote-work-tools/remote-team-changelog-review-tools/)
+- [Best Tools for Remote Team Sprint Velocity](/remote-team-sprint-velocity-tools/)
+- [Best Tools for Remote Team Post-Mortems](/remote-team-post-mortem-tools/)
+- [Best Tools for Remote Team Changelog Review](/remote-team-changelog-review-tools/)
 
 ---
 

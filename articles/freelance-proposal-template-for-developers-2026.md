@@ -254,11 +254,11 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
-- [Best Proposal Tool for a Solo Freelance UX Designer Remotely](/remote-work-tools/best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/)
-- [How to Write Freelance Proposals That Win](/remote-work-tools/how-to-write-freelance-proposals-that-win/)
-- [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
-- [Best Proposal Software for Remote Web Development Agency](/remote-work-tools/best-proposal-software-for-remote-web-development-agency-202/)
-- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
+- [Best Proposal Tool for a Solo Freelance UX Designer Remotely](/best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/)
+- [How to Write Freelance Proposals That Win](/how-to-write-freelance-proposals-that-win/)
+- [NDA Template for Freelance Software Developers](/nda-template-for-freelance-software-developers/)
+- [Best Proposal Software for Remote Web Development Agency](/best-proposal-software-for-remote-web-development-agency-202/)
+- [Best Contract Templates for Freelance Developers](/best-contract-templates-for-freelance-developers/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

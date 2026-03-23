@@ -241,10 +241,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Freelance Proposal Template for Developers in 2026](/remote-work-tools/freelance-proposal-template-for-developers-2026/)
-- [Best Proposal Tool for a Solo Freelance UX Designer Remotely](/remote-work-tools/best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/)
-- [How to Write Async Project Proposals That Get Approved](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
-- [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
-- [How to Scope Freelance Development Projects](/remote-work-tools/how-to-scope-freelance-development-projects/)
+- [Freelance Proposal Template for Developers in 2026](/freelance-proposal-template-for-developers-2026/)
+- [Best Proposal Tool for a Solo Freelance UX Designer Remotely](/best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/)
+- [How to Write Async Project Proposals That Get Approved](/how-to-write-async-project-proposals-that-get-approved-remotely/)
+- [How to Manage Multiple Freelance Clients Effectively](/how-to-manage-multiple-freelance-clients-effectively/)
+- [How to Scope Freelance Development Projects](/how-to-scope-freelance-development-projects/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

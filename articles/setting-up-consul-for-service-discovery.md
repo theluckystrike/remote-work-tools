@@ -388,20 +388,20 @@ consul kv import @kv-backup.json
 
 ## Related Reading
 
-- [Setting Up pgBouncer for Connection Pooling](/remote-work-tools/setting-up-pgbouncer-for-connection-pooling/)
-- [How to Set Up Traefik Reverse Proxy](/remote-work-tools/how-to-set-up-traefik-reverse-proxy/)
-- [How to Set Up Netdata for Server Monitoring](/remote-work-tools/how-to-set-up-netdata-for-server-monitoring/)
-- [Async Product Discovery Process for Remote Teams](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Setting Up pgBouncer for Connection Pooling](/setting-up-pgbouncer-for-connection-pooling/)
+- [How to Set Up Traefik Reverse Proxy](/how-to-set-up-traefik-reverse-proxy/)
+- [How to Set Up Netdata for Server Monitoring](/how-to-set-up-netdata-for-server-monitoring/)
+- [Async Product Discovery Process for Remote Teams](/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
 
 ---
 
 ## Related Articles
 
-- [Async Product Discovery Process for Remote Teams](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
-- [Setting Up Jaeger for Distributed Tracing](/remote-work-tools/setting-up-jaeger-distributed-tracing/)
-- [Remote Agency Client Data Security Compliance Checklist](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
-- [Setting Up pgBouncer for Connection Pooling](/remote-work-tools/setting-up-pgbouncer-for-connection-pooling/)
-- [Setting Up a Remote Dev Server with Hetzner](/remote-work-tools/setting-up-remote-dev-server-with-hetzner/)
+- [Async Product Discovery Process for Remote Teams](/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Setting Up Jaeger for Distributed Tracing](/setting-up-jaeger-distributed-tracing/)
+- [Remote Agency Client Data Security Compliance Checklist](/remote-agency-client-data-security-compliance-checklist-for-proposals/)
+- [Setting Up pgBouncer for Connection Pooling](/setting-up-pgbouncer-for-connection-pooling/)
+- [Setting Up a Remote Dev Server with Hetzner](/setting-up-remote-dev-server-with-hetzner/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

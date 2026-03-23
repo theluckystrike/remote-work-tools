@@ -444,9 +444,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [How to Set Up a Remote Team Wiki from Scratch](/remote-work-tools/how-to-set-up-a-remote-team-wiki-from-scratch/)
-- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
-- [Best Practice for Remote Team Onboarding Wiki](/remote-work-tools/best-practice-for-remote-team-onboarding-wiki-organizing-fir/)
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
-- [How to Set Up Remote Team Documentation Culture in 2026](/remote-work-tools/how-to-set-up-remote-team-documentation-culture-2026/)
+- [How to Set Up a Remote Team Wiki from Scratch](/how-to-set-up-a-remote-team-wiki-from-scratch/)
+- [Best Practice for Remote Team Documentation Scaling When](/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
+- [Best Practice for Remote Team Onboarding Wiki](/best-practice-for-remote-team-onboarding-wiki-organizing-fir/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Set Up Remote Team Documentation Culture in 2026](/how-to-set-up-remote-team-documentation-culture-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

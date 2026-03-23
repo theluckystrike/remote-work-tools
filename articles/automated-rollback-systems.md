@@ -431,9 +431,9 @@ Keep rollback procedures in your team runbook so the on-call engineer knows what
 
 ## Related Reading
 
-- [How to Set Up Keel for Continuous Delivery](/remote-work-tools/keel-continuous-delivery-setup/)
-- [How to Automate Docker Container Updates](/remote-work-tools/automate-docker-container-updates/)
-- [How to Set Up ArgoCD for GitOps Workflows](/remote-work-tools/argocd-gitops-workflow-setup/)
+- [How to Set Up Keel for Continuous Delivery](/keel-continuous-delivery-setup/)
+- [How to Automate Docker Container Updates](/automate-docker-container-updates/)
+- [How to Set Up ArgoCD for GitOps Workflows](/argocd-gitops-workflow-setup/)
 
 ---
 

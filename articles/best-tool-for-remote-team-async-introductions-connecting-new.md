@@ -313,10 +313,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
-- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
-- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
-- [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
-- [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [Best Tool for Hybrid Team Async Updates When Some Use Office](/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/how-to-build-remote-team-async-culture-from-scratch-2026/)
+- [Async Team Building Activities for Distributed Teams](/async-team-building-activities-for-distributed-teams-differe/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

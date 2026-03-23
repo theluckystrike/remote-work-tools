@@ -412,10 +412,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
-- [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
-- [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
-- [Best Whiteboard Tool for Remote Client Brainstorming](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
-- [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
+- [How to Run Effective Remote Client Workshops Using Miro](/how-to-run-effective-remote-client-workshops-using-miro-board/)
+- [How to Run Effective Remote Workshops](/how-to-run-effective-remote-workshops/)
+- [How to Create Client Project Retrospective Format for Remote](/how-to-create-client-project-retrospective-format-for-remote/)
+- [Best Whiteboard Tool for Remote Client Brainstorming](/best-whiteboard-tool-for-remote-client-brainstorming-session/)
+- [How to Set Up HubSpot for Remote Agency Client Pipeline](/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

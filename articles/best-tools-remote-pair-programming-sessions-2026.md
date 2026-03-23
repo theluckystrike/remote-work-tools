@@ -547,9 +547,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Remote Pair Programming Tools Compared 2026](/remote-work-tools/remote-pair-programming-tools-compared/)
-- [How to Set Up Remote Pair Programming Sessions in 2026](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-2026/)
-- [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
-- [How to Set Up Remote Pair Programming Sessions](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)
-- [How to Set Up Remote Pair Programming Workflow Guide](/remote-work-tools/how-to-set-up-remote-pair-programming-workflow-guide/)
+- [Remote Pair Programming Tools Compared 2026](/remote-pair-programming-tools-compared/)
+- [How to Set Up Remote Pair Programming Sessions in 2026](/how-to-set-up-remote-pair-programming-sessions-2026/)
+- [Best Tools for Remote Pair Programming 2026](/remote-pair-programming-tools-2026/)
+- [How to Set Up Remote Pair Programming Sessions](/how-to-set-up-remote-pair-programming-sessions-guide/)
+- [How to Set Up Remote Pair Programming Workflow Guide](/how-to-set-up-remote-pair-programming-workflow-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

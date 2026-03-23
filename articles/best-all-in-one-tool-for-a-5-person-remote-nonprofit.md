@@ -322,10 +322,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Monday vs Asana for a Nonprofit Remote Team of 30](/remote-work-tools/monday-vs-asana-for-a-nonprofit-remote-team-of-30/)
-- [Remote Team Grant and Funding Tracking Tool for Distributed](/remote-work-tools/remote-team-grant-and-funding-tracking-tool-for-distributed-/)
-- [Documentation Platform for a 15 Person Remote Data Science T](/remote-work-tools/documentation-platform-for-a-15-person-remote-data-science-t/)
-- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
-- [Best Project Tracking Tool for Remote Hardware Engineering](/remote-work-tools/best-project-tracking-tool-for-remote-hardware-engineering-t/)
+- [Monday vs Asana for a Nonprofit Remote Team of 30](/monday-vs-asana-for-a-nonprofit-remote-team-of-30/)
+- [Remote Team Grant and Funding Tracking Tool for Distributed](/remote-team-grant-and-funding-tracking-tool-for-distributed-/)
+- [Documentation Platform for a 15 Person Remote Data Science T](/documentation-platform-for-a-15-person-remote-data-science-t/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [Best Project Tracking Tool for Remote Hardware Engineering](/best-project-tracking-tool-for-remote-hardware-engineering-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

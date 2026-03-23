@@ -331,10 +331,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
-- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
-- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
-- [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)
-- [How to Secure Slack and Teams Channels for Remote Team](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
+- [Slack Channel Strategy for a Remote Company with 75](/slack-channel-strategy-for-a-remote-company-with-75-employee/)
+- [How to Optimize Slack for Large Remote Teams](/how-to-optimize-slack-for-large-remote-teams/)
+- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
+- [Slack vs Discord for a Remote Team of 15 Developers](/slack-vs-discord-for-a-remote-team-of-15-developers/)
+- [How to Secure Slack and Teams Channels for Remote Team](/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

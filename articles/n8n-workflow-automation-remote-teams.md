@@ -320,18 +320,18 @@ Then reference credentials by name in workflow nodes — never paste raw API key
 
 ## Related Reading
 
-- [Automation Tools for Freelance Business Operations](/remote-work-tools/automation-tools-for-freelance-business-operations/)
-- [Async Standup Alternative Using GitHub Commit Summaries Automatically](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
-- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
-- [How to Run Remote Accounting Firm with Distributed Staff](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
+- [Automation Tools for Freelance Business Operations](/automation-tools-for-freelance-business-operations/)
+- [Async Standup Alternative Using GitHub Commit Summaries Automatically](/async-standup-alternative-using-github-commit-summaries-automatically/)
+- [CI/CD Pipeline for Solo Developers: GitHub Actions](/ci-cd-pipeline-solo-developer-github-actions/)
+- [How to Run Remote Accounting Firm with Distributed Staff](/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
 
 ## Related Articles
 
-- [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
-- [Slack Workflow Builder Automation Stopped Running Fix 2026](/remote-work-tools/slack-workflow-builder-automation-stopped-running-fix-2026/)
-- [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
-- [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
-- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [GitHub Actions Workflow for Remote Dev Teams](/github-actions-remote-dev-workflow/)
+- [Slack Workflow Builder Automation Stopped Running Fix 2026](/slack-workflow-builder-automation-stopped-running-fix-2026/)
+- [Best Onboarding Automation Workflow for Remote Companies](/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
+- [Best Bug Tracking Tools for Remote QA Teams](/best-bug-tracking-tools-for-remote-qa-teams/)
+- [Best Business Intelligence Tool for Small Remote Teams](/best-business-intelligence-tool-for-small-remote-teams-witho/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

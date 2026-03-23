@@ -326,10 +326,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Build Remote Team Engineering Career Ladder 2026](/remote-work-tools/how-to-build-remote-team-engineering-career-ladder-2026/)
-- [Remote Employee Career Development Plan Template](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
-- [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
-- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
+- [How to Build Remote Team Engineering Career Ladder 2026](/how-to-build-remote-team-engineering-career-ladder-2026/)
+- [Remote Employee Career Development Plan Template](/remote-employee-career-development-plan-template-for-distrib/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Create Onboarding Documentation for Remote Teams](/how-to-create-onboarding-documentation-remote-teams/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

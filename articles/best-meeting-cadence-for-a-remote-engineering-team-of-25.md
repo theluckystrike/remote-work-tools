@@ -390,10 +390,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
-- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
-- [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
-- [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
-- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
+- [Remote Team Meeting Cadence Template for Engineering](/remote-team-meeting-cadence-template-for-engineering-manager/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [Best Practice for Remote Team Meeting Structure That Scales](/best-practice-for-remote-team-meeting-structure-that-scales-/)
+- [Best Practice for Remote Team Meeting Hygiene When Calendar](/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
+- [Remote Team One on One Meeting Template for Engineering](/remote-team-one-on-one-meeting-template-for-engineering-mana/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -330,10 +330,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Calculate Productive Overlap Hours for Remote](/remote-work-tools/how-to-calculate-productive-overlap-hours-for-remote-pair-pr/)
-- [Remote Employee Time Zone Overlap Optimization: Scheduling](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-scheduling-team-meetings/)
-- [How to Schedule Meetings Across 8 Hour Timezone Difference](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
-- [How to Build a Daily Routine as a Remote Worker Adjusting](/remote-work-tools/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
-- [Remote Employee Time Zone Overlap Optimization Tool](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-sche/)
+- [How to Calculate Productive Overlap Hours for Remote](/how-to-calculate-productive-overlap-hours-for-remote-pair-pr/)
+- [Remote Employee Time Zone Overlap Optimization: Scheduling](/remote-employee-time-zone-overlap-optimization-tool-for-scheduling-team-meetings/)
+- [How to Schedule Meetings Across 8 Hour Timezone Difference](/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
+- [How to Build a Daily Routine as a Remote Worker Adjusting](/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
+- [Remote Employee Time Zone Overlap Optimization Tool](/remote-employee-time-zone-overlap-optimization-tool-for-sche/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

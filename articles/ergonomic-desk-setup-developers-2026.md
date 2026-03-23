@@ -243,18 +243,18 @@ At end of day:
 
 ## Related Reading
 
-- [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
-- [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/remote-work-tools/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
-- [Multi-Monitor Linux Workstation Setup Guide](/remote-work-tools/multi-monitor-linux-workstation-setup-guide/)
-- [How to Mount Monitor on Wall Behind Standing Desk Setup](/remote-work-tools/how-to-mount-monitor-on-wall-behind-standing-desk-setup/)
+- [Back Pain Prevention for Remote Workers 2026](/back-pain-prevention-for-remote-workers-2026/)
+- [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
+- [Multi-Monitor Linux Workstation Setup Guide](/multi-monitor-linux-workstation-setup-guide/)
+- [How to Mount Monitor on Wall Behind Standing Desk Setup](/how-to-mount-monitor-on-wall-behind-standing-desk-setup/)
 
 ## Related Articles
 
-- [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
-- [L-Shaped Desk vs Straight Desk for Home Office](/remote-work-tools/l-shaped-desk-vs-straight-desk-for-home-office/)
-- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-tools/remote-work-ergonomic-assessment-checklist/)
-- [How to Fit Ergonomic Chair and Standing Desk in Tiny Room](/remote-work-tools/how-to-fit-ergonomic-chair-and-standing-desk-in-tiny-room/)
-- [Best Standing Desk Under $500 for Remote Developers 2026](/remote-work-tools/best-standing-desk-under-500-for-remote-developers-2026/)
+- [Best Standing Desk for Home Office 2026](/best-standing-desk-for-home-office-2026/)
+- [L-Shaped Desk vs Straight Desk for Home Office](/l-shaped-desk-vs-straight-desk-for-home-office/)
+- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-ergonomic-assessment-checklist/)
+- [How to Fit Ergonomic Chair and Standing Desk in Tiny Room](/how-to-fit-ergonomic-chair-and-standing-desk-in-tiny-room/)
+- [Best Standing Desk Under $500 for Remote Developers 2026](/best-standing-desk-under-500-for-remote-developers-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

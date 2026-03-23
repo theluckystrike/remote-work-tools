@@ -402,10 +402,10 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
-- [How to Create Remote Team Career Ladder Documentation](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
-- [How to Build Remote Team Engineering Career Ladder 2026](/remote-work-tools/how-to-build-remote-team-engineering-career-ladder-2026/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [How to Set Up Remote Team Learning and Development Program](/remote-work-tools/how-to-set-up-remote-team-learning-and-development-program-2026/)
-- [How to Create Remote Team Leadership Development Pipeline Fo](/remote-work-tools/how-to-create-remote-team-leadership-development-pipeline-fo/)
+- [How to Create Remote Team Career Ladder Documentation](/how-to-create-remote-team-career-ladder-documentation-for-gr/)
+- [How to Build Remote Team Engineering Career Ladder 2026](/how-to-build-remote-team-engineering-career-ladder-2026/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [How to Set Up Remote Team Learning and Development Program](/how-to-set-up-remote-team-learning-and-development-program-2026/)
+- [How to Create Remote Team Leadership Development Pipeline Fo](/how-to-create-remote-team-leadership-development-pipeline-fo/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

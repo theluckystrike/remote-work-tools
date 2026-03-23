@@ -278,10 +278,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
-- [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
-- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
-- [Async Decision-Making Framework for Remote Teams](/remote-work-tools/articles/how-to-set-up-async-decision-making-framework-guide/)
-- [Remote Team Collaboration Quality Framework (2026)](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
+- [Best Practice for Remote Team Decision Making Framework That](/best-practice-for-remote-team-decision-making-framework-that/)
+- [Remote Team Async Decision-Making Framework](/remote-team-async-decision-making-framework/)
+- [How to Create Remote Team Architecture Decision Record](/how-to-create-remote-team-architecture-decision-record-templ/)
+- [Async Decision-Making Framework for Remote Teams](/articles/how-to-set-up-async-decision-making-framework-guide/)
+- [Remote Team Collaboration Quality Framework (2026)](/best-framework-for-evaluating-remote-team-collaboration-qual/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

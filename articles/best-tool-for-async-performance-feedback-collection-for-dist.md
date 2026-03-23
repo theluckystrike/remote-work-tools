@@ -338,10 +338,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
-- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
-- [Best Tools for Async Video Feedback on Creative Work in 2026](/remote-work-tools/best-tools-for-async-video-feedback-on-creative-work-2026/)
-- [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [How to Build Async Feedback Culture on a Fully Remote Team](/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+- [Do Async Performance Reviews for Remote Engineering Teams](/how-to-do-async-performance-reviews-for-remote-engineering-t/)
+- [Best Tools for Async Video Feedback on Creative Work in 2026](/best-tools-for-async-video-feedback-on-creative-work-2026/)
+- [Best Remote Team Async Daily Check In Format Replacing](/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

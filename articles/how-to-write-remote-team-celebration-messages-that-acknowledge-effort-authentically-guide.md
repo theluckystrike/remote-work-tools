@@ -412,10 +412,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Distributed Team Holiday Celebration Ideas Across Cultures](/remote-work-tools/distributed-team-holiday-celebration-ideas-across-cultures-a/)
-- [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
-- [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
-- [How to Celebrate Employee Anniversaries on Fully Remote](/remote-work-tools/how-to-celebrate-employee-anniversaries-on-fully-remote-team/)
-- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Distributed Team Holiday Celebration Ideas Across Cultures](/distributed-team-holiday-celebration-ideas-across-cultures-a/)
+- [Best Practice for Remote Team Direct Message vs Channel](/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
+- [Remote Team Culture Building Strategies Guide](/remote-team-culture-building-strategies-guide/)
+- [How to Celebrate Employee Anniversaries on Fully Remote](/how-to-celebrate-employee-anniversaries-on-fully-remote-team/)
+- [Best Virtual Team Building Activity Platform for Remote](/best-virtual-team-building-activity-platform-for-remote-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

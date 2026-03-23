@@ -399,10 +399,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Fit Ergonomic Chair and Standing Desk in Tiny Room](/remote-work-tools/how-to-fit-ergonomic-chair-and-standing-desk-in-tiny-room/)
-- [Ergonomic Desk Setup Guide for Developers 2026](/remote-work-tools/ergonomic-desk-setup-developers-2026/)
-- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-tools/remote-work-ergonomic-assessment-checklist/)
-- [Travel Ergonomic Setup for Remote Workers Guide](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
-- [Best Second Hand Ergonomic Chair Brands to Buy Used 2026](/remote-work-tools/best-second-hand-ergonomic-chair-brands-to-buy-used-2026/)
+- [How to Fit Ergonomic Chair and Standing Desk in Tiny Room](/how-to-fit-ergonomic-chair-and-standing-desk-in-tiny-room/)
+- [Ergonomic Desk Setup Guide for Developers 2026](/ergonomic-desk-setup-developers-2026/)
+- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-ergonomic-assessment-checklist/)
+- [Travel Ergonomic Setup for Remote Workers Guide](/travel-ergonomic-setup-for-remote-workers-guide/)
+- [Best Second Hand Ergonomic Chair Brands to Buy Used 2026](/best-second-hand-ergonomic-chair-brands-to-buy-used-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

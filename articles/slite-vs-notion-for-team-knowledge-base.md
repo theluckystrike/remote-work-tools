@@ -411,9 +411,9 @@ Review each tool's privacy policy and terms of service carefully. Most tools pro
 
 ## Related Articles
 
-- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
-- [Best Tools for Remote Team Documentation 2026: Notion](/remote-work-tools/best-remote-team-documentation-tools-2026/)
-- [GitBook vs Notion for Technical Documentation](/remote-work-tools/gitbook-vs-notion-for-technical-documentation/)
-- [Coda vs Notion for Project Documentation](/remote-work-tools/coda-vs-notion-for-project-documentation/)
-- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
+- [Best Tools for Remote Team Knowledge Base 2026](/best-tools-for-remote-team-knowledge-base-2026/)
+- [Best Tools for Remote Team Documentation 2026: Notion](/best-remote-team-documentation-tools-2026/)
+- [GitBook vs Notion for Technical Documentation](/gitbook-vs-notion-for-technical-documentation/)
+- [Coda vs Notion for Project Documentation](/coda-vs-notion-for-project-documentation/)
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/how-to-manage-remote-team-knowledge-base-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

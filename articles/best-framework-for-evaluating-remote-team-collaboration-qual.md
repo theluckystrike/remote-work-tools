@@ -234,9 +234,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
-- [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
-- [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
-- [Async Decision-Making Framework for Remote Teams](/remote-work-tools/articles/how-to-set-up-async-decision-making-framework-guide/)
-- [How to Create Remote Team Decision Making Framework for Dist](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [Best Practice for Remote Team Decision Making Framework That](/best-practice-for-remote-team-decision-making-framework-that/)
+- [How to Create Decision Log Documentation for Remote Teams](/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [Remote Team Async Decision-Making Framework](/remote-team-async-decision-making-framework/)
+- [Async Decision-Making Framework for Remote Teams](/articles/how-to-set-up-async-decision-making-framework-guide/)
+- [How to Create Remote Team Decision Making Framework for Dist](/how-to-create-remote-team-decision-making-framework-for-dist/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

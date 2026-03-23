@@ -297,10 +297,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Productivity Tracking Tools for Remote Teams 2026](/remote-work-tools/remote-team-productivity-tracking-2026/)
-- [Migrating from Google Forms to Typeform for Remote Team](/remote-work-tools/migrating-from-google-forms-to-typeform-for-remote-team-surv/)
-- [Virtual Meeting Etiquette Best Practices: A Developer Guide](/remote-work-tools/virtual-meeting-etiquette-best-practices/)
-- [Jitsi Meet vs Zoom: Privacy Comparison for Developers](/remote-work-tools/jitsi-meet-vs-zoom-privacy-comparison/)
-- [Productivity Tips for Digital Nomads on the Road](/remote-work-tools/productivity-tips-for-digital-nomads-on-the-road/)
+- [Productivity Tracking Tools for Remote Teams 2026](/remote-team-productivity-tracking-2026/)
+- [Migrating from Google Forms to Typeform for Remote Team](/migrating-from-google-forms-to-typeform-for-remote-team-surv/)
+- [Virtual Meeting Etiquette Best Practices: A Developer Guide](/virtual-meeting-etiquette-best-practices/)
+- [Jitsi Meet vs Zoom: Privacy Comparison for Developers](/jitsi-meet-vs-zoom-privacy-comparison/)
+- [Productivity Tips for Digital Nomads on the Road](/productivity-tips-for-digital-nomads-on-the-road/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

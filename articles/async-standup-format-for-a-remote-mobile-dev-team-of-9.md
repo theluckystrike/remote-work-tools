@@ -379,10 +379,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
-- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
-- [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
-- [Best Practice for Hybrid Team Standup Format Accommodating M](/remote-work-tools/best-practice-for-hybrid-team-standup-format-accommodating-m/)
-- [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+- [Remote Team Async Standup Template Guide](/remote-team-async-standup-template-guide/)
+- [How to Manage Standups for a Remote QA Team of 7](/how-to-manage-standups-for-a-remote-qa-team-of-7/)
+- [Best Tools for Remote Team Async Standups in 2026](/best-tools-for-remote-team-async-standups-2026/)
+- [Best Practice for Hybrid Team Standup Format Accommodating M](/best-practice-for-hybrid-team-standup-format-accommodating-m/)
+- [Best Remote Team Async Daily Check In Format Replacing](/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

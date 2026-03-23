@@ -235,10 +235,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
-- [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
-- [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
-- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
-- [Best Remote Work Headset with Microphone 2026](/remote-work-tools/best-remote-work-headset-with-microphone-2026/)
+- [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/audio-setup-for-hybrid-conference-rooms-guide/)
+- [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
+- [Example room configuration](/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
+- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
+- [Best Remote Work Headset with Microphone 2026](/best-remote-work-headset-with-microphone-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -358,10 +358,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [OpenVPN client configuration snippet](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
-- [How to Set Up Zero Trust Network Access for Distributed](/remote-work-tools/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
-- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
-- [Remote Work Home Network Security Guide](/remote-work-tools/home-network-security-remote-work/)
-- [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
+- [OpenVPN client configuration snippet](/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
+- [How to Set Up Zero Trust Network Access for Distributed](/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
+- [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
+- [Remote Work Home Network Security Guide](/home-network-security-remote-work/)
+- [Check your router's current firmware version](/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

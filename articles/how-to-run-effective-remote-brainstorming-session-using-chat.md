@@ -366,10 +366,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Virtual Whiteboard for Remote Team Brainstorming](/remote-work-tools/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)
-- [Remote Team Retrospective Silent Brainstorming Technique](/remote-work-tools/remote-team-retrospective-silent-brainstorming-technique-for/)
-- [Best Whiteboard Tool for Remote Client Brainstorming](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
-- [Remote Ideation Session Facilitation Guide](/remote-work-tools/remote-ideation-session-facilitation-guide/)
-- [Best Session Recording Tool for Remote Team Privileged](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)
+- [Best Virtual Whiteboard for Remote Team Brainstorming](/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)
+- [Remote Team Retrospective Silent Brainstorming Technique](/remote-team-retrospective-silent-brainstorming-technique-for/)
+- [Best Whiteboard Tool for Remote Client Brainstorming](/best-whiteboard-tool-for-remote-client-brainstorming-session/)
+- [Remote Ideation Session Facilitation Guide](/remote-ideation-session-facilitation-guide/)
+- [Best Session Recording Tool for Remote Team Privileged](/best-session-recording-tool-for-remote-team-privileged-acces/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

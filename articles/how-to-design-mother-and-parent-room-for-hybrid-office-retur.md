@@ -258,10 +258,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
-- [Hybrid Office Space Planning Tool for Facilities Managers](/remote-work-tools/hybrid-office-space-planning-tool-for-facilities-managers-op/)
-- [Speakerphone for Hybrid Meeting Rooms Comparison](/remote-work-tools/speakerphone-for-hybrid-meeting-rooms-comparison/)
-- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
-- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
+- [Recommended equipment configuration for hybrid meeting rooms](/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [Hybrid Office Space Planning Tool for Facilities Managers](/hybrid-office-space-planning-tool-for-facilities-managers-op/)
+- [Speakerphone for Hybrid Meeting Rooms Comparison](/speakerphone-for-hybrid-meeting-rooms-comparison/)
+- [Meeting Room Booking System for Hybrid Office 2026](/meeting-room-booking-system-for-hybrid-office-2026/)
+- [Calculate pod count based on floor space and team size](/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

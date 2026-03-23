@@ -475,20 +475,20 @@ For a team of 5-50 developers publishing a handful of internal packages, Verdacc
 
 ## Related Reading
 
-- [How to Set Up Gitea for Self-Hosted Git](/remote-work-tools/how-to-set-up-gitea-self-hosted-git/)
-- [How to Set Up Renovate for Dependency Updates](/remote-work-tools/how-to-set-up-renovate-dependency-updates/)
-- [Best Secrets Management Tool for Remote Dev Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
-- [Claude Code NPM Package Development Guide](/remote-work-tools/claude-code-npm-package-development-guide/)
+- [How to Set Up Gitea for Self-Hosted Git](/how-to-set-up-gitea-self-hosted-git/)
+- [How to Set Up Renovate for Dependency Updates](/how-to-set-up-renovate-dependency-updates/)
+- [Best Secrets Management Tool for Remote Dev Teams](/best-secrets-management-tool-for-remote-development-teams-us/)
+- [Claude Code NPM Package Development Guide](/claude-code-npm-package-development-guide/)
 
 ---
 
 ## Related Articles
 
-- [Node.js and npm](/remote-work-tools/claude-code-npm-package-development-guide/)
-- [Setting Up Harbor for Container Registry](/remote-work-tools/setting-up-harbor-for-container-registry/)
-- [Best Container Registry Tool for Remote Teams Sharing](/remote-work-tools/best-container-registry-tool-for-remote-teams-sharing-docker/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Secure Slack and Teams Channels for Remote Team](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
+- [Node.js and npm](/claude-code-npm-package-development-guide/)
+- [Setting Up Harbor for Container Registry](/setting-up-harbor-for-container-registry/)
+- [Best Container Registry Tool for Remote Teams Sharing](/best-container-registry-tool-for-remote-teams-sharing-docker/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [How to Secure Slack and Teams Channels for Remote Team](/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

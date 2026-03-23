@@ -267,10 +267,10 @@ Encrypt intake data locally before queueing it for transmission, using the clini
 
 ## Related Articles
 
-- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
-- [Remote Agency Client Data Security Compliance Checklist](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
-- [Remote Team Financial Dashboard Tool for CFO](/remote-work-tools/remote-team-financial-dashboard-tool-for-cfo-tracking-distri/)
-- [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
-- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
+- [Best Client Intake Form Builder for Remote Agency Onboarding](/best-client-intake-form-builder-for-remote-agency-onboarding/)
+- [Remote Agency Client Data Security Compliance Checklist](/remote-agency-client-data-security-compliance-checklist-for-proposals/)
+- [Remote Team Financial Dashboard Tool for CFO](/remote-team-financial-dashboard-tool-for-cfo-tracking-distri/)
+- [Remote Architecture Collaboration Tool for Distributed](/remote-architecture-collaboration-tool-for-distributed-teams/)
+- [Review assignment logic (example)](/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

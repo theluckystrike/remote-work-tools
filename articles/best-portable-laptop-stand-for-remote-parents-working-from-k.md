@@ -362,9 +362,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Ergonomic Laptop Stand for Remote Workers](/remote-work-tools/ergonomic-laptop-stand-for-remote-workers/)
-- [Roost Stand vs Nexstand Laptop Stand Comparison](/remote-work-tools/roost-stand-vs-nexstand-laptop-stand-comparison/)
-- [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/remote-work-tools/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)
-- [How to Set Up Ergonomic Workspace in Airbnb for Month-Long](/remote-work-tools/how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/)
-- [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
+- [Ergonomic Laptop Stand for Remote Workers](/ergonomic-laptop-stand-for-remote-workers/)
+- [Roost Stand vs Nexstand Laptop Stand Comparison](/roost-stand-vs-nexstand-laptop-stand-comparison/)
+- [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)
+- [How to Set Up Ergonomic Workspace in Airbnb for Month-Long](/how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/)
+- [Best Practice for Hybrid Office Kitchen and Shared Space](/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

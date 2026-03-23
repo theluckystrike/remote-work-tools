@@ -554,10 +554,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
-- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
-- [Client Feedback Collection Tool for Remote Development](/remote-work-tools/client-feedback-collection-tool-for-remote-development-agenc/)
-- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Best Practice for Remote Team Documentation Feedback Loop](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
+- [Example: Feedback webhook handler](/async-customer-feedback-synthesis-workflow-for-remote-produc/)
+- [How to Build Async Feedback Culture on a Fully Remote Team](/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+- [Client Feedback Collection Tool for Remote Development](/client-feedback-collection-tool-for-remote-development-agenc/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [Best Practice for Remote Team Documentation Feedback Loop](/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

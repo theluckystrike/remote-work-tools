@@ -312,10 +312,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create Remote Team Career Ladder Documentation](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
-- [How to Build Remote Team Engineering Career Ladder 2026](/remote-work-tools/how-to-build-remote-team-engineering-career-ladder-2026/)
-- [How to Create Remote Team Decision Making Framework for Dist](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [How to Create New Hire Welcome Ritual for Remote Team](/remote-work-tools/how-to-create-new-hire-welcome-ritual-for-remote-team/)
-- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
+- [How to Create Remote Team Career Ladder Documentation](/how-to-create-remote-team-career-ladder-documentation-for-gr/)
+- [How to Build Remote Team Engineering Career Ladder 2026](/how-to-build-remote-team-engineering-career-ladder-2026/)
+- [How to Create Remote Team Decision Making Framework for Dist](/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [How to Create New Hire Welcome Ritual for Remote Team](/how-to-create-new-hire-welcome-ritual-for-remote-team/)
+- [How to Create Remote Work Playbook for Team](/how-to-create-remote-work-playbook-for-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

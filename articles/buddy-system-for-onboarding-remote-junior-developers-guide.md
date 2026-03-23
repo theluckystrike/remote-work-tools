@@ -317,10 +317,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
-- [How to Create Remote Onboarding Buddy Program Template](/remote-work-tools/how-to-create-remote-onboarding-buddy-program-template-for-n/)
-- [Buddy Responsibilities Charter](/remote-work-tools/how-to-set-up-remote-developer-onboarding-buddy-system-for-n/)
-- [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
-- [Remote Employee Belonging and Inclusion Program Ideas](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
+- [How to Create Remote Buddy System Program for Onboarding](/how-to-create-remote-buddy-system-program-for-onboarding-new/)
+- [How to Create Remote Onboarding Buddy Program Template](/how-to-create-remote-onboarding-buddy-program-template-for-n/)
+- [Buddy Responsibilities Charter](/how-to-set-up-remote-developer-onboarding-buddy-system-for-n/)
+- [Remote Team Onboarding Tools and Checklist](/remote-team-onboarding-tools-checklist/)
+- [Remote Employee Belonging and Inclusion Program Ideas](/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

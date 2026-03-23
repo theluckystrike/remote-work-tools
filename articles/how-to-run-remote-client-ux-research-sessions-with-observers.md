@@ -446,10 +446,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Data Collection Tools for Remote User Research Teams](/remote-work-tools/best-data-collection-tool-for-remote-user-research-teams-gat/)
-- [Best Remote User Research Tools 2026](/remote-work-tools/remote-user-research-tools-2026/)
-- [Recommended recording setup for user research](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
-- [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
-- [Best Session Recording Tool for Remote Team Privileged](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)
+- [Best Data Collection Tools for Remote User Research Teams](/best-data-collection-tool-for-remote-user-research-teams-gat/)
+- [Best Remote User Research Tools 2026](/remote-user-research-tools-2026/)
+- [Recommended recording setup for user research](/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
+- [Communication Tools for a Remote Research Team of 12](/communication-tools-for-a-remote-research-team-of-12-scienti/)
+- [Best Session Recording Tool for Remote Team Privileged](/best-session-recording-tool-for-remote-team-privileged-acces/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

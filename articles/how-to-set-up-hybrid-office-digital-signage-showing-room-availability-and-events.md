@@ -297,10 +297,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Digital Signage for Hybrid Office Communication](/remote-work-tools/digital-signage-for-hybrid-office-communication/)
-- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
-- [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
-- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
-- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
+- [Digital Signage for Hybrid Office Communication](/digital-signage-for-hybrid-office-communication/)
+- [Meeting Room Booking System for Hybrid Office 2026](/meeting-room-booking-system-for-hybrid-office-2026/)
+- [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/return-to-office-tools-for-hybrid-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

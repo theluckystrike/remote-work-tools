@@ -350,9 +350,9 @@ tmux attach -t "$SESSION"
 
 ## Related Reading
 
-- [Remote Team Neovim Setup and Config Sharing](/remote-work-tools/remote-team-neovim-setup-config-sharing/)
-- [Remote Team fish Shell Setup Guide](/remote-work-tools/remote-team-fish-shell-setup/)
-- [How to Set Up Teleport for Secure Access](/remote-work-tools/teleport-secure-access-setup/)
+- [Remote Team Neovim Setup and Config Sharing](/remote-team-neovim-setup-config-sharing/)
+- [Remote Team fish Shell Setup Guide](/remote-team-fish-shell-setup/)
+- [How to Set Up Teleport for Secure Access](/teleport-secure-access-setup/)
 
 ---
 

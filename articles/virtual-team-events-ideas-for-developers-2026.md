@@ -289,10 +289,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Virtual Team Building Activities That Developers: Discover](/remote-work-tools/virtual-team-building-activities-that-developers-actually-enjoy/)
-- [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-en/)
-- [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
-- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
-- [Remote Team Bonding Activities That Actually Work](/remote-work-tools/remote-team-bonding-activities-that-actually-work/)
+- [Virtual Team Building Activities That Developers: Discover](/virtual-team-building-activities-that-developers-actually-enjoy/)
+- [Virtual Team Building Activities That Developers Actually](/virtual-team-building-activities-that-developers-actually-en/)
+- [Best Virtual Team Trivia Platform for Remote Social Events](/best-virtual-team-trivia-platform-for-remote-social-events-2/)
+- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
+- [Remote Team Bonding Activities That Actually Work](/remote-team-bonding-activities-that-actually-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

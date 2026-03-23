@@ -49,7 +49,7 @@ A well-designed home office directly impacts productivity, health, and work sati
 - [Best Remote Work Desk Accessories Under 50 Dollars 2026](/best-remote-work-desk-accessories-under-50-dollars-2026/)
 - [Best Remote Work Monitor Under 300 Dollars 2026](/best-remote-work-monitor-under-300-dollars-2026/)
 - [Best Remote Work Standing Desk Converter Under $200 2026](/best-remote-work-standing-desk-converter-under-200-dollars-2026/)
-- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/best-webcam-lighting-setup-under-100/)
+- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/best-webcam-lighting-setup-under-100/)
 - [Best Router Placement for Home Office on Second Floor WiFi](/best-router-placement-for-home-office-on-second-floor-wifi/)
 - [Best Second Hand Ergonomic Chair Brands to Buy Used 2026](/best-second-hand-ergonomic-chair-brands-to-buy-used-2026/)
 - [Best Smart Lighting for Home Office Developers](/best-smart-lighting-for-home-office-developers/)

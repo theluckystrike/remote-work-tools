@@ -264,11 +264,11 @@ find /backups -mtime +30 -delete
 
 ## Related Articles
 
-- [Best Knowledge Base Platform for Remote Support Team](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
-- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
-- [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
-- [Best Knowledge Base Tool for Remote Team That Works Offline](/remote-work-tools/best-knowledge-base-tool-for-remote-team-that-works-offline-/)
-- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
+- [Best Knowledge Base Platform for Remote Support Team](/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/how-to-manage-remote-team-knowledge-base-guide/)
+- [How to Create a Client-Facing Knowledge Base for a Remote](/how-to-create-client-facing-knowledge-base-for-remote-agency/)
+- [Best Knowledge Base Tool for Remote Team That Works Offline](/best-knowledge-base-tool-for-remote-team-that-works-offline-/)
+- [How to Handle Knowledge Base Handoff When Remote Developer](/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

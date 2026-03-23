@@ -382,10 +382,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
-- [Best Tools for Remote Team Standup Meetings 2026](/remote-work-tools/best-tools-for-remote-team-standup-meetings-2026/)
-- [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
-- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
-- [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
+- [Remote Team Async Standup Template Guide](/remote-team-async-standup-template-guide/)
+- [Best Tools for Remote Team Standup Meetings 2026](/best-tools-for-remote-team-standup-meetings-2026/)
+- [Best Tools for Remote Team Async Standups in 2026](/best-tools-for-remote-team-async-standups-2026/)
+- [How to Run Remote Team Daily Standup in Slack Without Bot](/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
+- [Loom vs Vimeo Record for Async Standup Updates Comparison](/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

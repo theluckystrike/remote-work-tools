@@ -307,10 +307,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Practice for Measuring Remote Team Alignment](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
-- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
-- [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
-- [Best Tool for Remote Team Async Introductions](/remote-work-tools/best-tool-for-remote-team-async-introductions-connecting-new/)
-- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
+- [Best Practice for Measuring Remote Team Alignment](/best-practice-for-measuring-remote-team-alignment-using-asyn/)
+- [Daily Check In Tools for Remote Teams 2026](/daily-check-in-tools-for-remote-teams-2026/)
+- [Best Tools for Remote Team Async Standups in 2026](/best-tools-for-remote-team-async-standups-2026/)
+- [Best Tool for Remote Team Async Introductions](/best-tool-for-remote-team-async-introductions-connecting-new/)
+- [Best Tools for Remote Team Metrics Dashboards](/best-tools-remote-team-metrics-dashboards/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -478,10 +478,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
-- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
-- [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
-- [How to Write Good Remote Meeting Agendas](/remote-work-tools/how-to-write-good-remote-meeting-agendas/)
-- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
+- [Best Practice for Remote Team Cross Functional Project](/best-practice-for-remote-team-cross-functional-project-kicko/)
+- [Project Kickoff: [Project Name]](/how-to-create-remote-team-project-kickoff-documentation-temp/)
+- [How to Create Client Project Retrospective Format for Remote](/how-to-create-client-project-retrospective-format-for-remote/)
+- [How to Write Good Remote Meeting Agendas](/how-to-write-good-remote-meeting-agendas/)
+- [Remote Team One on One Meeting Template for Engineering](/remote-team-one-on-one-meeting-template-for-engineering-mana/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

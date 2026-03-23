@@ -269,10 +269,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
-- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
-- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
-- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
-- [Async Interview Process for Hiring Remote Developers No Live](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)
+- [GitHub Actions Workflow for Remote Dev Teams](/github-actions-remote-dev-workflow/)
+- [Example: Finding interview slots across time zones](/remote-team-hiring-manager-training-program-for-first-time-m/)
+- [CI/CD Pipeline for Solo Developers: GitHub Actions](/ci-cd-pipeline-solo-developer-github-actions/)
+- [How to Track Remote Team Hiring Pipeline Velocity](/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
+- [Async Interview Process for Hiring Remote Developers No Live](/async-interview-process-for-hiring-remote-developers-no-live/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

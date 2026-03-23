@@ -356,10 +356,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Set Up Hybrid Office Digital Signage Showing Room](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
-- [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
-- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
-- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
-- [How to Set Up Hybrid Office Wayfinding System for Employees](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
+- [How to Set Up Hybrid Office Digital Signage Showing Room](/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
+- [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/return-to-office-tools-for-hybrid-teams/)
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
+- [How to Set Up Hybrid Office Wayfinding System for Employees](/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

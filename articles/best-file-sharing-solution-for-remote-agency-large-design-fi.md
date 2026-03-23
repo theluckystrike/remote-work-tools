@@ -401,10 +401,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Secure File Transfer Protocol Setup for Remote Teams](/remote-work-tools/secure-file-transfer-protocol-setup-for-remote-teams-exchang/)
-- [Chrome Extension Compress Images Before Upload](/remote-work-tools/chrome-extension-compress-images-before-upload/)
-- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
-- [Best Client Approval Workflow Tool for Remote Design Teams](/remote-work-tools/best-client-approval-workflow-tool-for-remote-design-teams/)
-- [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
+- [Secure File Transfer Protocol Setup for Remote Teams](/secure-file-transfer-protocol-setup-for-remote-teams-exchang/)
+- [Chrome Extension Compress Images Before Upload](/chrome-extension-compress-images-before-upload/)
+- [Best Client Portal for Remote Design Agency 2026 Comparison](/best-client-portal-for-remote-design-agency-2026-comparison/)
+- [Best Client Approval Workflow Tool for Remote Design Teams](/best-client-approval-workflow-tool-for-remote-design-teams/)
+- [Best Design Collaboration Tools for Remote Teams](/best-design-collaboration-tools-for-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

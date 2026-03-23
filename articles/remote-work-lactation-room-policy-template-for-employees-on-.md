@@ -630,10 +630,10 @@ This self-service approach reduces HR burden and gives employees agency over the
 
 ## Related Articles
 
-- [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)
-- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
-- [Remote Team Vulnerability Disclosure Policy Template](/remote-work-tools/remote-team-vulnerability-disclosure-policy-template-for-dis/)
-- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
-- [Remote Work Employer Childcare Stipend Policy Template](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
+- [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-caregiver-leave-policy-template-for-distributed-/)
+- [How to Create a Remote Work Policy Document](/remote-work-policy-document-guide/)
+- [Remote Team Vulnerability Disclosure Policy Template](/remote-team-vulnerability-disclosure-policy-template-for-dis/)
+- [Meeting Free Day Policy for Remote Teams Guide](/meeting-free-day-policy-for-remote-teams-guide/)
+- [Remote Work Employer Childcare Stipend Policy Template](/remote-work-employer-childcare-stipend-policy-template-for-d/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

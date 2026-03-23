@@ -258,10 +258,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
-- [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)
-- [How to Create Interest-Based Slack Channels for Remote](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
-- [Best Practice for Remote Team Slack Do Not Disturb](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
-- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+- [How to Optimize Slack for Large Remote Teams](/how-to-optimize-slack-for-large-remote-teams/)
+- [Slack vs Discord for a Remote Team of 15 Developers](/slack-vs-discord-for-a-remote-team-of-15-developers/)
+- [How to Create Interest-Based Slack Channels for Remote](/how-to-create-interest-based-slack-channels-for-remote-cultu/)
+- [Best Practice for Remote Team Slack Do Not Disturb](/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
+- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

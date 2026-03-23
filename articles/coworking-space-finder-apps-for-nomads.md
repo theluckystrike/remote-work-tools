@@ -395,10 +395,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Coworking Space Day Pass Guide](/remote-work-tools/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
-- [Best Coworking Space Day Pass Apps 2026](/remote-work-tools/best-coworking-space-day-pass-apps-2026/)
-- [How to Find Coworking Spaces in Medellín Colombia](/remote-work-tools/how-to-find-coworking-spaces-in-medellin-colombia-with-video/)
-- [Coworking Space Membership vs Day Pass Comparison](/remote-work-tools/coworking-space-membership-vs-day-pass-comparison/)
-- [Infrastructure evaluation script concept](/remote-work-tools/best-coworking-spaces-in-canggu-bali-with-backup-generators-and-fast-internet/)
+- [Coworking Space Day Pass Guide](/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
+- [Best Coworking Space Day Pass Apps 2026](/best-coworking-space-day-pass-apps-2026/)
+- [How to Find Coworking Spaces in Medellín Colombia](/how-to-find-coworking-spaces-in-medellin-colombia-with-video/)
+- [Coworking Space Membership vs Day Pass Comparison](/coworking-space-membership-vs-day-pass-comparison/)
+- [Infrastructure evaluation script concept](/best-coworking-spaces-in-canggu-bali-with-backup-generators-and-fast-internet/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

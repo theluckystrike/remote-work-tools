@@ -341,18 +341,18 @@ This review takes 30 minutes, can be done async over a shared doc, and prevents 
 
 ## Related Reading
 
-- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
-- [Prometheus Monitoring Setup for Remote Infrastructure](/remote-work-tools/prometheus-monitoring-remote-infrastructure/)
-- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
-- [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
+- [CI/CD Pipeline for Solo Developers: GitHub Actions](/ci-cd-pipeline-solo-developer-github-actions/)
+- [Prometheus Monitoring Setup for Remote Infrastructure](/prometheus-monitoring-remote-infrastructure/)
+- [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
+- [Best Mobile Device Management for Enterprise Remote Teams](/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
 
 ## Related Articles
 
-- [How to Automate Infrastructure Cost Alerts](/remote-work-tools/how-to-automate-infrastructure-cost-alerts/)
-- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
-- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
-- [Best Secrets Management Tool for Remote Development Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
-- [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
+- [How to Automate Infrastructure Cost Alerts](/how-to-automate-infrastructure-cost-alerts/)
+- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-engineering-team-infrastructure-cost-per-deploy-track/)
+- [Migrating from AWS CodeCommit to GitHub for Remote Team](/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
+- [Best Secrets Management Tool for Remote Development Teams](/best-secrets-management-tool-for-remote-development-teams-us/)
+- [Best Mobile Device Management for Enterprise Remote Teams](/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

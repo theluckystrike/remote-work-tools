@@ -645,10 +645,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
-- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-- [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
-- [How to Create Async Standup Templates in Slack](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
-- [How to Run Remote Engineering Standups That Work](/remote-work-tools/how-to-run-remote-engineering-standups/)
+- [How to Manage Standups for a Remote QA Team of 7](/how-to-manage-standups-for-a-remote-qa-team-of-7/)
+- [Async Standup Format for a Remote Mobile Dev Team of 9](/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+- [Best Tools for Remote Team Async Standups in 2026](/best-tools-for-remote-team-async-standups-2026/)
+- [How to Create Async Standup Templates in Slack](/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+- [How to Run Remote Engineering Standups That Work](/how-to-run-remote-engineering-standups/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

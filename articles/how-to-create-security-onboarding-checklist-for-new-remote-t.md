@@ -288,10 +288,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
-- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
-- [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
-- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
-- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
+- [Security Tools for a Fully Remote Company Under 20 Employees](/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
+- [Remote Team Onboarding Tools and Checklist](/remote-team-onboarding-tools-checklist/)
+- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
+- [Example: Export Miro board via API](/how-to-help-remote-team-workshops-using-miro-with-stru/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

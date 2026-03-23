@@ -255,10 +255,10 @@ Yes, with caution. Share a view-only folder or a curated subset of documents—t
 
 ## Related Articles
 
-- [Remote Sales Team Forecasting Tool Comparison for Distribute](/remote-work-tools/remote-sales-team-forecasting-tool-comparison-for-distribute/)
-- [Industry match (40% weight)](/remote-work-tools/remote-sales-team-crm-workflow-optimization-for-distributed-/)
-- [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
-- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
-- [Best Shared Inbox Tools for Remote Support Teams](/remote-work-tools/best-shared-inbox-tools-for-remote-support-teams/)
+- [Remote Sales Team Forecasting Tool Comparison for Distribute](/remote-sales-team-forecasting-tool-comparison-for-distribute/)
+- [Industry match (40% weight)](/remote-sales-team-crm-workflow-optimization-for-distributed-/)
+- [How to Set Up HubSpot for Remote Agency Client Pipeline](/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
+- [Required security configurations for company laptops](/how-to-create-remote-team-acceptable-use-policy-for-company-/)
+- [Best Shared Inbox Tools for Remote Support Teams](/best-shared-inbox-tools-for-remote-support-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

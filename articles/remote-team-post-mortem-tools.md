@@ -285,9 +285,9 @@ if overdue and SLACK_HOOK:
 
 ## Related Reading
 
-- [Best Tools for Remote Team Changelog Review](/remote-work-tools/remote-team-changelog-review-tools/)
-- [Best Tools for Remote Team Sprint Velocity](/remote-work-tools/remote-team-sprint-velocity-tools/)
-- [How to Create Automated Rollback Systems](/remote-work-tools/automated-rollback-systems/)
+- [Best Tools for Remote Team Changelog Review](/remote-team-changelog-review-tools/)
+- [Best Tools for Remote Team Sprint Velocity](/remote-team-sprint-velocity-tools/)
+- [How to Create Automated Rollback Systems](/automated-rollback-systems/)
 
 ---
 

@@ -414,10 +414,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
-- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
-- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
-- [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
-- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Hybrid Meeting Equity Tips for Remote Participants](/hybrid-meeting-equity-tips-for-remote-participants/)
+- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
+- [Example room configuration](/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
+- [Best Video Conferencing Setup for Hybrid Rooms](/best-video-conferencing-setup-for-hybrid-rooms/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

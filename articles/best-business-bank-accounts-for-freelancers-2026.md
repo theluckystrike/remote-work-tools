@@ -469,10 +469,10 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
-- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
-- [How to Separate Business and Personal Finances](/remote-work-tools/how-to-separate-business-and-personal-finances-freelance/)
-- [Format: INV-2026-0001](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
-- [How to Build a Location Independent Business](/remote-work-tools/how-to-build-a-location-independent-business/)
-- [How to Incorporate as a Freelance Developer](/remote-work-tools/how-to-incorporate-as-a-freelance-developer/)
+- [First 90 Days as a Freelance Developer: A Complete Guide](/first-90-days-as-freelance-developer-guide/)
+- [How to Separate Business and Personal Finances](/how-to-separate-business-and-personal-finances-freelance/)
+- [Format: INV-2026-0001](/how-to-open-business-bank-account-as-remote-freelancer-livin/)
+- [How to Build a Location Independent Business](/how-to-build-a-location-independent-business/)
+- [How to Incorporate as a Freelance Developer](/how-to-incorporate-as-a-freelance-developer/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -231,10 +231,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Obsidian vs Notion for Personal Knowledge Management](/remote-work-tools/obsidian-vs-notion-for-personal-knowledge-management/)
-- [Best Note-Taking Apps for Remote Workers 2026](/remote-work-tools/best-note-taking-apps-remote-workers-2026/)
-- [Obsidian for Remote Team Knowledge Management](/remote-work-tools/obsidian-remote-team-knowledge-management/)
-- [How to Set Up Second Brain for Developers](/remote-work-tools/how-to-set-up-second-brain-for-developers/)
-- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+- [Obsidian vs Notion for Personal Knowledge Management](/obsidian-vs-notion-for-personal-knowledge-management/)
+- [Best Note-Taking Apps for Remote Workers 2026](/best-note-taking-apps-remote-workers-2026/)
+- [Obsidian for Remote Team Knowledge Management](/obsidian-remote-team-knowledge-management/)
+- [How to Set Up Second Brain for Developers](/how-to-set-up-second-brain-for-developers/)
+- [Remote Developer Code Review Workflow Tools for Teams](/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -375,9 +375,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Team hours (as datetime.time objects converted to hours)](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
-- [RescueTime vs Toggl Track](/remote-work-tools/rescue-time-vs-toggl-track-productivity-comparison/)
-- [How to Manage Work-Life Balance as a Remote Developer](/remote-work-tools/how-to-manage-work-life-balance-remote-developer/)
-- [Productivity Tracking Tools for Remote Teams 2026](/remote-work-tools/remote-team-productivity-tracking-2026/)
-- [Hybrid Work Productivity Comparison Study](/remote-work-tools/hybrid-work-productivity-comparison-study-remote-vs-office-vs-hybrid-days-2026/)
+- [Team hours (as datetime.time objects converted to hours)](/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
+- [RescueTime vs Toggl Track](/rescue-time-vs-toggl-track-productivity-comparison/)
+- [How to Manage Work-Life Balance as a Remote Developer](/how-to-manage-work-life-balance-remote-developer/)
+- [Productivity Tracking Tools for Remote Teams 2026](/remote-team-productivity-tracking-2026/)
+- [Hybrid Work Productivity Comparison Study](/hybrid-work-productivity-comparison-study-remote-vs-office-vs-hybrid-days-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

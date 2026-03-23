@@ -256,10 +256,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
-- [Remote Team Vulnerability Disclosure Policy Template](/remote-work-tools/remote-team-vulnerability-disclosure-policy-template-for-dis/)
-- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
-- [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)
-- [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [How to Create a Remote Work Policy Document](/remote-work-policy-document-guide/)
+- [Remote Team Vulnerability Disclosure Policy Template](/remote-team-vulnerability-disclosure-policy-template-for-dis/)
+- [Meeting Free Day Policy for Remote Teams Guide](/meeting-free-day-policy-for-remote-teams-guide/)
+- [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-caregiver-leave-policy-template-for-distributed-/)
+- [How to Create Bring Your Own Device Policy for Remote Teams](/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

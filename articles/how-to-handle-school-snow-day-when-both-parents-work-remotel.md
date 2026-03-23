@@ -365,10 +365,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Manage Remote Team When Multiple Parents Have](/remote-work-tools/how-to-manage-remote-team-when-multiple-parents-have-overlap/)
-- [Best After School Activity Scheduling App for Remote Parents](/remote-work-tools/best-after-school-activity-scheduling-app-for-remote-parents/)
-- [Best Noise Gate Microphone Setting for Remote Parents](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
-- [Remote Working Parent Burnout Prevention Checklist](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
-- [Add to crontab for daily school-day reminders](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
+- [How to Manage Remote Team When Multiple Parents Have](/how-to-manage-remote-team-when-multiple-parents-have-overlap/)
+- [Best After School Activity Scheduling App for Remote Parents](/best-after-school-activity-scheduling-app-for-remote-parents/)
+- [Best Noise Gate Microphone Setting for Remote Parents](/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
+- [Remote Working Parent Burnout Prevention Checklist](/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
+- [Add to crontab for daily school-day reminders](/remote-working-parent-productivity-hack-using-time-blocking-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

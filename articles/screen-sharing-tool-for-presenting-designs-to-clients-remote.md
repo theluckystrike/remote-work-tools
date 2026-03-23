@@ -332,9 +332,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Screen Sharing Solutions for Hybrid Meetings](/remote-work-tools/screen-sharing-solutions-for-hybrid-meetings/)
-- [Best Screen Sharing Tool for a Remote Tutoring Team of 6](/remote-work-tools/best-screen-sharing-tool-for-a-remote-tutoring-team-of-6/)
-- [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
-- [Best Open Source Screen Recording Tools for Remote Team](/remote-work-tools/best-open-source-screen-recording-tool-for-remote-team-async/)
-- [Best Annotation Tool for Remote Design Review with Clients](/remote-work-tools/best-annotation-tool-for-remote-design-review-with-clients-2/)
+- [Screen Sharing Solutions for Hybrid Meetings](/screen-sharing-solutions-for-hybrid-meetings/)
+- [Best Screen Sharing Tool for a Remote Tutoring Team of 6](/best-screen-sharing-tool-for-a-remote-tutoring-team-of-6/)
+- [Best Screen Recording Tools for Async Communication](/best-screen-recording-async-communication/)
+- [Best Open Source Screen Recording Tools for Remote Team](/best-open-source-screen-recording-tool-for-remote-team-async/)
+- [Best Annotation Tool for Remote Design Review with Clients](/best-annotation-tool-for-remote-design-review-with-clients-2/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

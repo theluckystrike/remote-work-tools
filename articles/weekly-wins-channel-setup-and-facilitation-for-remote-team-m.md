@@ -383,10 +383,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
-- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
-- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
-- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
-- [Weekly Remote Team Ritual Ideas Beyond Standup Meetings Guid](/remote-work-tools/weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/)
+- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
+- [Best Remote Team Social Channel Ideas for Building Genuine](/best-remote-team-social-channel-ideas-for-building-genuine-c/)
+- [Generate weekly team activity report from GitHub](/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
+- [Remote Team Handbook Section Template for Defining](/remote-team-handbook-section-template-for-defining-communica/)
+- [Weekly Remote Team Ritual Ideas Beyond Standup Meetings Guid](/weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

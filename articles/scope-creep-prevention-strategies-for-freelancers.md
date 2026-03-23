@@ -287,10 +287,10 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
-- [Remote Agency Scope Change Request Workflow for Client](/remote-work-tools/remote-agency-scope-change-request-workflow-for-client-projects/)
-- [How to Scope Freelance Development Projects](/remote-work-tools/how-to-scope-freelance-development-projects/)
-- [Client Retention Strategies for Freelancers 2026](/remote-work-tools/client-retention-strategies-for-freelancers-2026/)
-- [Essential Contract Clauses Every Freelance Developer Should](/remote-work-tools/freelance-developer-contract-clauses-to-include/)
-- [How to Run a Remote Client Kickoff Meeting for a New Project](/remote-work-tools/how-to-run-remote-client-kickoff-meeting-for-new-project/)
+- [Remote Agency Scope Change Request Workflow for Client](/remote-agency-scope-change-request-workflow-for-client-projects/)
+- [How to Scope Freelance Development Projects](/how-to-scope-freelance-development-projects/)
+- [Client Retention Strategies for Freelancers 2026](/client-retention-strategies-for-freelancers-2026/)
+- [Essential Contract Clauses Every Freelance Developer Should](/freelance-developer-contract-clauses-to-include/)
+- [How to Run a Remote Client Kickoff Meeting for a New Project](/how-to-run-remote-client-kickoff-meeting-for-new-project/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -342,20 +342,20 @@ Copy `.env.example` to `.env.local` and fill in values. Ask in #dev-setup for se
 
 ## Related Reading
 
-- [Remote Team Git Hooks Standardization Guide](/remote-work-tools/remote-team-git-hooks-standardization-guide/)
-- [How to Set Up Portainer for Docker Management](/remote-work-tools/how-to-set-up-portainer-for-docker-management/)
-- [How to Set Up Woodpecker CI for Self-Hosted](/remote-work-tools/how-to-set-up-woodpecker-ci-for-self-hosted/)
+- [Remote Team Git Hooks Standardization Guide](/remote-team-git-hooks-standardization-guide/)
+- [How to Set Up Portainer for Docker Management](/how-to-set-up-portainer-for-docker-management/)
+- [How to Set Up Woodpecker CI for Self-Hosted](/how-to-set-up-woodpecker-ci-for-self-hosted/)
 
-- [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
+- [How to Automate Dev Environment Setup: A Practical Guide](/how-to-automate-dev-environment-setup/)
 ---
 
 ## Related Articles
 
-- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
-- [Remote Team Environment Provisioning Tool for Spinning Up](/remote-work-tools/remote-team-environment-provisioning-tool-for-spinning-up-de/)
-- [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
-- [Setting Up a Remote Dev Server with Hetzner](/remote-work-tools/setting-up-remote-dev-server-with-hetzner/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
+- [Remote Team Environment Provisioning Tool for Spinning Up](/remote-team-environment-provisioning-tool-for-spinning-up-de/)
+- [How to Automate Dev Environment Setup: A Practical Guide](/how-to-automate-dev-environment-setup/)
+- [Setting Up a Remote Dev Server with Hetzner](/setting-up-remote-dev-server-with-hetzner/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

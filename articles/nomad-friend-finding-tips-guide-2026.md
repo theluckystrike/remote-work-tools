@@ -307,17 +307,17 @@ These conversations feel awkward but prevent disappointment when someone suddenl
 
 **Related Articles**
 
-- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
-- [Remote Team Conflict Resolution Framework for Managers](/remote-work-tools/remote-team-conflict-resolution-framework-for-managers-handl/)
-- [How to Set Up Remote Hiring Pipeline with Async Interviews](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Best Tools for Remote Team Knowledge Base 2026](/best-tools-for-remote-team-knowledge-base-2026/)
+- [Remote Team Conflict Resolution Framework for Managers](/remote-team-conflict-resolution-framework-for-managers-handl/)
+- [How to Set Up Remote Hiring Pipeline with Async Interviews](/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
 
 ## Related Articles
 
-- [Nomad Networking Events Guide 2026](/remote-work-tools/nomad-networking-events-guide-2026/)
-- [How to Combat Loneliness as a Digital Nomad](/remote-work-tools/how-to-combat-loneliness-as-a-digital-nomad/)
-- [How to Network as a Digital Nomad Developer](/remote-work-tools/how-to-network-as-a-digital-nomad-developer/)
-- [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)
-- [Nomad Twitter Community Guide 2026](/remote-work-tools/nomad-twitter-community-guide-2026/)
+- [Nomad Networking Events Guide 2026](/nomad-networking-events-guide-2026/)
+- [How to Combat Loneliness as a Digital Nomad](/how-to-combat-loneliness-as-a-digital-nomad/)
+- [How to Network as a Digital Nomad Developer](/how-to-network-as-a-digital-nomad-developer/)
+- [Best Backpack for Digital Nomad Developers: A Practical](/best-backpack-for-digital-nomad-developers/)
+- [Nomad Twitter Community Guide 2026](/nomad-twitter-community-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

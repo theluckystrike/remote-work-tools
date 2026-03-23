@@ -354,10 +354,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
-- [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
-- [Best Tools for Remote Team OKR Tracking in 2026](/remote-work-tools/best-tools-for-remote-team-okr-tracking-2026/)
-- [Virtual Craft Workshop Ideas for Remote Team Creative](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
-- [How to help Remote Team Workshops Using Miro with Structured Communication](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
+- [OKR Tracking for a Remote Product Team of 12 People](/okr-tracking-for-a-remote-product-team-of-12-people/)
+- [How to Run Effective Remote Workshops](/how-to-run-effective-remote-workshops/)
+- [Best Tools for Remote Team OKR Tracking in 2026](/best-tools-for-remote-team-okr-tracking-2026/)
+- [Virtual Craft Workshop Ideas for Remote Team Creative](/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
+- [How to help Remote Team Workshops Using Miro with Structured Communication](/how-to-help-remote-team-workshops-using-miro-with-stru/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

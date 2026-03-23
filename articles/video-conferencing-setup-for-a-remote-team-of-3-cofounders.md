@@ -378,10 +378,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
-- [How to Move from Loom to Claap for Remote Team Async Video](/remote-work-tools/how-to-move-from-loom-to-claap-for-remote-team-async-video-m/)
-- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
+- [Best Video Conferencing Setup for Hybrid Rooms](/best-video-conferencing-setup-for-hybrid-rooms/)
+- [How to Move from Loom to Claap for Remote Team Async Video](/how-to-move-from-loom-to-claap-for-remote-team-async-video-m/)
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [How to Handle Remote Team Subculture Formation When](/how-to-handle-remote-team-subculture-formation-when-departme/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

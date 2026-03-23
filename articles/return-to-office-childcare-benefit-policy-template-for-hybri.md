@@ -347,10 +347,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Return to Office Parking and Commute Benefit Policy](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
-- [Remote Work Employer Childcare Stipend Policy Template](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
-- [Bring Your Own Device Policy for Hybrid Work](/remote-work-tools/bring-your-own-device-policy-for-hybrid-work/)
-- [Transit Benefits for Hybrid Employees Guide](/remote-work-tools/transit-benefits-for-hybrid-employees-guide/)
-- [How to Create Hybrid Office Quiet Zone Policy for Employees](/remote-work-tools/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
+- [Return to Office Parking and Commute Benefit Policy](/return-to-office-parking-and-commute-benefit-policy-template/)
+- [Remote Work Employer Childcare Stipend Policy Template](/remote-work-employer-childcare-stipend-policy-template-for-d/)
+- [Bring Your Own Device Policy for Hybrid Work](/bring-your-own-device-policy-for-hybrid-work/)
+- [Transit Benefits for Hybrid Employees Guide](/transit-benefits-for-hybrid-employees-guide/)
+- [How to Create Hybrid Office Quiet Zone Policy for Employees](/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

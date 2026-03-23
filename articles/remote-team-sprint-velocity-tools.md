@@ -423,9 +423,9 @@ When velocity drops, checking 3 retros back usually surfaces the systemic cause.
 
 ## Related Reading
 
-- [Best Tools for Remote Team A/B Testing](/remote-work-tools/remote-team-ab-testing-tools/)
-- [Best Tools for Remote Team Post-Mortems](/remote-work-tools/remote-team-post-mortem-tools/)
-- [Best Tools for Remote Team Changelog Review](/remote-work-tools/remote-team-changelog-review-tools/)
+- [Best Tools for Remote Team A/B Testing](/remote-team-ab-testing-tools/)
+- [Best Tools for Remote Team Post-Mortems](/remote-team-post-mortem-tools/)
+- [Best Tools for Remote Team Changelog Review](/remote-team-changelog-review-tools/)
 
 ---
 

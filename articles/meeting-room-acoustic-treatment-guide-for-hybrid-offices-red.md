@@ -435,10 +435,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
-- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
-- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
-- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
-- [How to Set Up Hybrid Office Digital Signage Showing Room](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
+- [Meeting Room Booking System for Hybrid Office 2026](/meeting-room-booking-system-for-hybrid-office-2026/)
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
+- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
+- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+- [How to Set Up Hybrid Office Digital Signage Showing Room](/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

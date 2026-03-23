@@ -282,10 +282,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
-- [Best USB-C Hubs for Remote Workers in 2026](/remote-work-tools/articles/best-remote-work-usb-c-hub-for-laptop-2026/)
-- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
-- [Air Quality Monitoring for Hybrid Office Spaces](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
-- [List available color profiles](/remote-work-tools/external-monitor-color-matching-for-macbook-dual-display-setup/)
+- [Best Air Purifier for Home Office Productivity](/best-air-purifier-for-home-office-productivity/)
+- [Best USB-C Hubs for Remote Workers in 2026](/articles/best-remote-work-usb-c-hub-for-laptop-2026/)
+- [Home Office Air Circulation Fan That Is Quiet for Calls](/home-office-air-circulation-fan-that-is-quiet-for-calls/)
+- [Air Quality Monitoring for Hybrid Office Spaces](/air-quality-monitoring-for-hybrid-office-spaces/)
+- [List available color profiles](/external-monitor-color-matching-for-macbook-dual-display-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

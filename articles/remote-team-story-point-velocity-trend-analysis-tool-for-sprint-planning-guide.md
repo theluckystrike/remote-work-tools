@@ -406,10 +406,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)
-- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
-- [Best Tools for Remote Team Sprint Planning (2026)](/remote-work-tools/best-tools-for-remote-team-sprint-planning-2026/)
-- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Track Remote Team Velocity Metrics](/how-to-track-remote-team-velocity-metrics/)
+- [How to Track Remote Team Hiring Pipeline Velocity](/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
+- [Best Tools for Remote Team Sprint Planning (2026)](/best-tools-for-remote-team-sprint-planning-2026/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -384,10 +384,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
-- [How to Create Asynchronous Client Update Format for Remote P](/remote-work-tools/how-to-create-asynchronous-client-update-format-for-remote-p/)
-- [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
-- [How to Run a Remote Client Kickoff Meeting for a New Project](/remote-work-tools/how-to-run-remote-client-kickoff-meeting-for-new-project/)
-- [Remote Agency Client Satisfaction Survey Template](/remote-work-tools/remote-agency-client-satisfaction-survey-template-and-automa/)
+- [How to Set Up Basecamp for Remote Agency Client](/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [How to Create Asynchronous Client Update Format for Remote P](/how-to-create-asynchronous-client-update-format-for-remote-p/)
+- [Run Effective Remote Client Workshops Using Miro](/how-to-run-effective-remote-client-workshops-using-miro-boar/)
+- [How to Run a Remote Client Kickoff Meeting for a New Project](/how-to-run-remote-client-kickoff-meeting-for-new-project/)
+- [Remote Agency Client Satisfaction Survey Template](/remote-agency-client-satisfaction-survey-template-and-automa/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

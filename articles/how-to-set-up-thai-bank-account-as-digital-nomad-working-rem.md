@@ -253,10 +253,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Open a Business Bank Account as a Remote Freelancer](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
-- [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
-- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
-- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
-- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Open a Business Bank Account as a Remote Freelancer](/how-to-open-business-bank-account-as-remote-freelancer-livin/)
+- [How to Get Paid Internationally as Digital Nomad](/how-to-get-paid-internationally-as-digital-nomad/)
+- [Portugal Digital Nomad Visa Application Guide](/portugal-digital-nomad-visa-application-guide/)
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/spain-digital-nomad-visa-requirements-2026/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/hungary-digital-nomad-visa-white-card-application-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -299,10 +299,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Hybrid Office Badge Access Tracking Tool for Understanding](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
-- [Badge Access Systems for Hybrid Workplaces 2026](/remote-work-tools/badge-access-systems-for-hybrid-workplaces-2026/)
-- [How to Implement Just-in-Time Access for Remote Team](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
-- [How to Implement Geo-Fencing Access Controls for Remote](/remote-work-tools/how-to-implement-geo-fencing-access-controls-for-remote-team/)
-- [Hybrid Office Locker System for Employees Who Hot Desk](/remote-work-tools/hybrid-office-locker-system-for-employees-who-hot-desk/)
+- [Hybrid Office Badge Access Tracking Tool for Understanding](/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
+- [Badge Access Systems for Hybrid Workplaces 2026](/badge-access-systems-for-hybrid-workplaces-2026/)
+- [How to Implement Just-in-Time Access for Remote Team](/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
+- [How to Implement Geo-Fencing Access Controls for Remote](/how-to-implement-geo-fencing-access-controls-for-remote-team/)
+- [Hybrid Office Locker System for Employees Who Hot Desk](/hybrid-office-locker-system-for-employees-who-hot-desk/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -315,10 +315,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Remote Team Conflict Resolution Framework Guide](/remote-work-tools/remote-team-conflict-resolution-framework-guide/)
-- [.GitHub/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
-- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
+- [Remote Team Conflict Resolution Framework Guide](/remote-team-conflict-resolution-framework-guide/)
+- [.GitHub/workflows/conflict-escalation.yaml](/remote-team-conflict-resolution-over-chat-when-video-call-is/)
+- [Best Practice for Remote Team Decision Making Framework That](/best-practice-for-remote-team-decision-making-framework-that/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [How to Write Remote Team Postmortem Communication Template](/how-to-write-remote-team-postmortem-communication-template-f/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

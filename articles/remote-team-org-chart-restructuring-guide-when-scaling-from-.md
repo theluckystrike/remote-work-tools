@@ -408,10 +408,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [Best Tool for Remote Team Org Directory with Timezone](/remote-work-tools/best-tool-for-remote-team-org-directory-with-timezone-and-av/)
-- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
-- [How to Scale Remote Team From 5 to 20 Without Losing](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
+- [How to Maintain Remote Team Culture When Transitioning](/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [Best Tool for Remote Team Org Directory with Timezone](/best-tool-for-remote-team-org-directory-with-timezone-and-av/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/how-to-run-remote-team-retrospective-focused-on-team-health/)
+- [How to Scale Remote Team From 5 to 20 Without Losing](/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

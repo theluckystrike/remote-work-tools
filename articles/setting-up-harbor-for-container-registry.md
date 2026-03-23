@@ -489,20 +489,20 @@ Key metrics to alert on: `harbor_project_artifact_total` (artifact count growth)
 
 ## Related Reading
 
-- [How to Set Up Kubernetes Dev Cluster Remotely](/remote-work-tools/how-to-set-up-kubernetes-dev-cluster-remotely/)
-- [Best Container Registry Tool for Remote Teams](/remote-work-tools/best-container-registry-tool-for-remote-teams-sharing-docker/)
-- [Setting Up Keycloak for Team SSO](/remote-work-tools/setting-up-keycloak-for-team-sso/)
-- [How to Automate Docker Container Updates](/remote-work-tools/automate-docker-container-updates/)
+- [How to Set Up Kubernetes Dev Cluster Remotely](/how-to-set-up-kubernetes-dev-cluster-remotely/)
+- [Best Container Registry Tool for Remote Teams](/best-container-registry-tool-for-remote-teams-sharing-docker/)
+- [Setting Up Keycloak for Team SSO](/setting-up-keycloak-for-team-sso/)
+- [How to Automate Docker Container Updates](/automate-docker-container-updates/)
 
 ---
 
 ## Related Articles
 
-- [Best Container Registry Tool for Remote Teams Sharing](/remote-work-tools/best-container-registry-tool-for-remote-teams-sharing-docker/)
-- [Setting Up Keycloak for Team SSO](/remote-work-tools/setting-up-keycloak-for-team-sso/)
-- [How to Set Up Verdaccio Private npm Registry](/remote-work-tools/how-to-set-up-verdaccio-private-npm-registry/)
-- [Setting Up Grafana Dashboards for Remote Teams](/remote-work-tools/setting-up-grafana-dashboards-for-remote-teams/)
-- [How to Set Up Portainer for Docker Management](/remote-work-tools/how-to-set-up-portainer-for-docker-management/)
+- [Best Container Registry Tool for Remote Teams Sharing](/best-container-registry-tool-for-remote-teams-sharing-docker/)
+- [Setting Up Keycloak for Team SSO](/setting-up-keycloak-for-team-sso/)
+- [How to Set Up Verdaccio Private npm Registry](/how-to-set-up-verdaccio-private-npm-registry/)
+- [Setting Up Grafana Dashboards for Remote Teams](/setting-up-grafana-dashboards-for-remote-teams/)
+- [How to Set Up Portainer for Docker Management](/how-to-set-up-portainer-for-docker-management/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

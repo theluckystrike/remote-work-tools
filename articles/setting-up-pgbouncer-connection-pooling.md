@@ -306,20 +306,20 @@ Monitor `sv_idle` in `SHOW POOLS`. If idle servers are consistently > 20% of poo
 
 ## Related Reading
 
-- [How to Automate Database Backup Verification](/remote-work-tools/how-to-automate-database-backup-verification/)
-- [How to Set Up Netdata for Server Monitoring](/remote-work-tools/how-to-set-up-netdata-for-server-monitoring/)
-- [Setting Up Consul for Service Discovery](/remote-work-tools/setting-up-consul-for-service-discovery/)
+- [How to Automate Database Backup Verification](/how-to-automate-database-backup-verification/)
+- [How to Set Up Netdata for Server Monitoring](/how-to-set-up-netdata-for-server-monitoring/)
+- [Setting Up Consul for Service Discovery](/setting-up-consul-for-service-discovery/)
 
-- [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/remote-work-tools/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
+- [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
 ---
 
 ## Related Articles
 
-- [How to Build a Remote Team Runbook Library 2026](/remote-work-tools/how-to-build-remote-team-runbook-library-2026/)
-- [Setting Up Consul for Service Discovery](/remote-work-tools/setting-up-consul-for-service-discovery/)
-- [Secure File Transfer Protocol Setup for Remote Teams](/remote-work-tools/secure-file-transfer-protocol-setup-for-remote-teams-exchang/)
-- [Setting Up a Remote Dev Server with Hetzner](/remote-work-tools/setting-up-remote-dev-server-with-hetzner/)
-- [How to Set Up Ansible for Remote Server Management](/remote-work-tools/how-to-set-up-ansible-remote-server-management/)
+- [How to Build a Remote Team Runbook Library 2026](/how-to-build-remote-team-runbook-library-2026/)
+- [Setting Up Consul for Service Discovery](/setting-up-consul-for-service-discovery/)
+- [Secure File Transfer Protocol Setup for Remote Teams](/secure-file-transfer-protocol-setup-for-remote-teams-exchang/)
+- [Setting Up a Remote Dev Server with Hetzner](/setting-up-remote-dev-server-with-hetzner/)
+- [How to Set Up Ansible for Remote Server Management](/how-to-set-up-ansible-remote-server-management/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

@@ -273,10 +273,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Remote Workflow Tool for Distributed Legal Assistants](/remote-work-tools/best-remote-workflow-tool-for-distributed-legal-assistants-m/)
-- [How to Handle Social Security Contributions When Working](/remote-work-tools/how-to-handle-social-security-contributions-when-working-remotely-from-eu-country-temporarily/)
-- [Best Practice for Hybrid Office Mail and Package Handling](/remote-work-tools/best-practice-for-hybrid-office-mail-and-package-handling-fo/)
-- [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
-- [Best Remote Legal Team Document Collaboration Tool](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
+- [Best Remote Workflow Tool for Distributed Legal Assistants](/best-remote-workflow-tool-for-distributed-legal-assistants-m/)
+- [How to Handle Social Security Contributions When Working](/how-to-handle-social-security-contributions-when-working-remotely-from-eu-country-temporarily/)
+- [Best Practice for Hybrid Office Mail and Package Handling](/best-practice-for-hybrid-office-mail-and-package-handling-fo/)
+- [Best Document Collaboration for a Remote Legal Team of 12](/best-document-collaboration-for-a-remote-legal-team-of-12/)
+- [Best Remote Legal Team Document Collaboration Tool](/best-remote-legal-team-document-collaboration-tool-for-contr/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

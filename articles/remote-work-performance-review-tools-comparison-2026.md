@@ -461,10 +461,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Remote HR Performance Review Tools Comparison for Managing](/remote-work-tools/remote-hr-performance-review-tools-comparison-for-managing-d/)
-- [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
-- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
-- [Best Tool for Async Performance Feedback Collection for Dist](/remote-work-tools/best-tool-for-async-performance-feedback-collection-for-dist/)
-- [Remote Employee Performance Improvement Plan Guide](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)
+- [Remote HR Performance Review Tools Comparison for Managing](/remote-hr-performance-review-tools-comparison-for-managing-d/)
+- [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-employee-performance-tracking-tool-comparison-for-dis/)
+- [Do Async Performance Reviews for Remote Engineering Teams](/how-to-do-async-performance-reviews-for-remote-engineering-t/)
+- [Best Tool for Async Performance Feedback Collection for Dist](/best-tool-for-async-performance-feedback-collection-for-dist/)
+- [Remote Employee Performance Improvement Plan Guide](/how-to-create-remote-employee-performance-improvement-plan-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

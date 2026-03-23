@@ -410,10 +410,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
-- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
-- [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
-- [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
+- [Remote Team Architecture Decision Record Template for Async](/remote-team-architecture-decision-record-template-for-async-/)
+- [Async Code Review Process Without Zoom Calls Step by Step](/async-code-review-process-without-zoom-calls-step-by-step/)
+- [Remote Team Async Standup Template Guide](/remote-team-async-standup-template-guide/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/how-to-build-remote-team-async-culture-from-scratch-2026/)
+- [Async Team Building Activities for Distributed Teams](/async-team-building-activities-for-distributed-teams-differe/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -466,10 +466,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Create a Morning Routine for Remote Work](/remote-work-tools/how-to-create-morning-routine-for-remote-work/)
-- [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
-- [Best After School Activity Scheduling App for Remote Parents](/remote-work-tools/best-after-school-activity-scheduling-app-for-remote-parents/)
-- [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
-- [How to Build a Daily Routine as a Remote Worker Adjusting](/remote-work-tools/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
+- [How to Create a Morning Routine for Remote Work](/how-to-create-morning-routine-for-remote-work/)
+- [Remote Working Parent Daily Routine Template](/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [Best After School Activity Scheduling App for Remote Parents](/best-after-school-activity-scheduling-app-for-remote-parents/)
+- [Remote Working Parent Self Care Checklist for Avoiding](/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
+- [How to Build a Daily Routine as a Remote Worker Adjusting](/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

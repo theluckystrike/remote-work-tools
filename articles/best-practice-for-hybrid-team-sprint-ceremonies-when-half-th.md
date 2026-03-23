@@ -326,10 +326,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
-- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
-- [Speakerphone for Hybrid Meeting Rooms Comparison](/remote-work-tools/speakerphone-for-hybrid-meeting-rooms-comparison/)
-- [Best Practice for Hybrid Team Meeting Scheduling Respecting](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
-- [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
+- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+- [Best Video Conferencing Setup for Hybrid Rooms](/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Speakerphone for Hybrid Meeting Rooms Comparison](/speakerphone-for-hybrid-meeting-rooms-comparison/)
+- [Best Practice for Hybrid Team Meeting Scheduling Respecting](/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
+- [Hybrid Meeting Equity Tips for Remote Participants](/hybrid-meeting-equity-tips-for-remote-participants/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

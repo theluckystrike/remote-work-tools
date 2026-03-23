@@ -311,10 +311,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Diversity Sourcing Strategy for Remote Teams](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
-- [Remote Team Hiring Rubric Template for Consistent](/remote-work-tools/remote-team-hiring-rubric-template-for-consistent-evaluation/)
-- [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
-- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
-- [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
+- [Diversity Sourcing Strategy for Remote Teams](/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
+- [Remote Team Hiring Rubric Template for Consistent](/remote-team-hiring-rubric-template-for-consistent-evaluation/)
+- [Remote Team Culture Building Strategies Guide](/remote-team-culture-building-strategies-guide/)
+- [Example: Timezone-aware scheduling](/best-applicant-tracking-system-for-remote-companies-hiring-a/)
+- [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

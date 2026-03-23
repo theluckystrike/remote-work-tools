@@ -248,10 +248,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Best Remote Work Project Handoff Documentation Template](/remote-work-tools/remote-work-tools/best-remote-work-project-handoff-documentation-template-2026/)
-- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
-- [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
-- [Remote Agency Client Satisfaction Survey Template](/remote-work-tools/remote-agency-client-satisfaction-survey-template-and-automa/)
-- [Remote Agency Client Communication Cadence Template](/remote-work-tools/remote-agency-client-communication-cadence-template-for-proj/)
+- [Best Remote Work Project Handoff Documentation Template](/best-remote-work-project-handoff-documentation-template-2026/)
+- [How to Set Up Basecamp for Remote Agency Client](/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [How to Set Up HubSpot for Remote Agency Client Pipeline](/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
+- [Remote Agency Client Satisfaction Survey Template](/remote-agency-client-satisfaction-survey-template-and-automa/)
+- [Remote Agency Client Communication Cadence Template](/remote-agency-client-communication-cadence-template-for-proj/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

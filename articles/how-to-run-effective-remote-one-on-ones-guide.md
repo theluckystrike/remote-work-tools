@@ -419,11 +419,11 @@ Start this week with a shared 1:1 agenda doc. Invite your report to contribute. 
 
 ## Related Articles
 
-- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
-- [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
-- [How to Run Effective Remote Team Demos and Showcases 2026](/remote-work-tools/how-to-run-effective-remote-team-demos-and-showcases-2026/)
-- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [How to Run Effective Remote One-on-One Meetings](/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [How to Run Effective Remote Workshops](/how-to-run-effective-remote-workshops/)
+- [How to Run Effective Remote Team Demos and Showcases 2026](/how-to-run-effective-remote-team-demos-and-showcases-2026/)
+- [Remote Meeting Agenda Template for Engineering Teams](/remote-meeting-agenda-template-for-engineering-teams/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

@@ -386,10 +386,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
-- [Best Tools for Remote Design System Management](/remote-work-tools/best-tools-remote-design-system-management/)
-- [Best Client Approval Workflow Tool for Remote Design Teams](/remote-work-tools/best-client-approval-workflow-tool-for-remote-design-teams/)
-- [How to Set Up Remote Design Handoff Workflow](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
-- [Best Design Token Management Tool for Remote Teams](/remote-work-tools/best-design-token-management-tool-for-remote-teams-maintaining-brand-consistency/)
+- [Figma vs Sketch for Remote Design Collaboration](/figma-vs-sketch-for-remote-design-collaboration/)
+- [Best Tools for Remote Design System Management](/best-tools-remote-design-system-management/)
+- [Best Client Approval Workflow Tool for Remote Design Teams](/best-client-approval-workflow-tool-for-remote-design-teams/)
+- [How to Set Up Remote Design Handoff Workflow](/how-to-set-up-remote-design-handoff-workflow-between-designe/)
+- [Best Design Token Management Tool for Remote Teams](/best-design-token-management-tool-for-remote-teams-maintaining-brand-consistency/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

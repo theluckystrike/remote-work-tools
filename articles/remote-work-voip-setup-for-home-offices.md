@@ -283,19 +283,19 @@ asterisk -rx "sip show registry"
 
 ## Related Reading
 
-- [Best Headset for Remote Work Video Calls](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Best Noise Cancelling Microphones for Home Offices](/remote-work-tools/best-noise-cancelling-microphones-for-home-offices-busy-streets/)
-- [Best Remote Work Network Diagnostic Toolkit](/remote-work-tools/remote-work-network-diagnostic-toolkit/)
-- [Best Desk for Corner Home Office Room Layout Setup 2026](/remote-work-tools/best-desk-for-corner-home-office-room-layout-setup-2026/)
+- [Best Headset for Remote Work Video Calls](/best-headset-for-remote-work-video-calls/)
+- [Best Noise Cancelling Microphones for Home Offices](/best-noise-cancelling-microphones-for-home-offices-busy-streets/)
+- [Best Remote Work Network Diagnostic Toolkit](/remote-work-network-diagnostic-toolkit/)
+- [Best Desk for Corner Home Office Room Layout Setup 2026](/best-desk-for-corner-home-office-room-layout-setup-2026/)
 ---
 
 ## Related Articles
 
-- [Home Lab Setup Guide for Remote Developers](/remote-work-tools/home-lab-setup-guide-remote-developers/)
-- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
-- [Remote Developer Home Office Monitor Setup Guide](/remote-work-tools/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)
+- [Home Lab Setup Guide for Remote Developers](/home-lab-setup-guide-remote-developers/)
+- [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [How to Set Up HIPAA Compliant Home Office for Remote](/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+- [Remote Developer Home Office Monitor Setup Guide](/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -454,11 +454,11 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 
 ## Related Articles
 
-- [How to Manage Remote Team Tech Debt Backlog](/remote-work-tools/how-to-manage-remote-team-tech-debt-backlog/)
-- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
-- [How to Manage Remote Journalism Team Across International](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
+- [How to Manage Remote Team Tech Debt Backlog](/how-to-manage-remote-team-tech-debt-backlog/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/)
+- [How to Manage Remote Journalism Team Across International](/how-to-manage-remote-journalism-team-across-international-bu/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [How to Manage Multi-Repo Projects with Remote Team](/how-to-manage-multi-repo-projects-with-remote-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

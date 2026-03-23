@@ -296,10 +296,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Run Async Book Clubs for Distributed Engineering](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-- [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
-- [Remote Team Book Club Format and Facilitation Guide](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
-- [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
-- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
+- [How to Run Async Book Clubs for Distributed Engineering](/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [How to Run Book Clubs for a Remote Engineering Team of 40](/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
+- [Remote Team Book Club Format and Facilitation Guide](/remote-team-book-club-format-and-facilitation-guide-developers/)
+- [Async Team Building Activities for Distributed Teams](/async-team-building-activities-for-distributed-teams-differe/)
+- [Do Async Performance Reviews for Remote Engineering Teams](/how-to-do-async-performance-reviews-for-remote-engineering-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

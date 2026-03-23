@@ -269,10 +269,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
-- [Best Visitor Management System for Hybrid Offices Tracking W](/remote-work-tools/best-visitor-management-system-for-hybrid-offices-tracking-w/)
-- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
-- [Remote Employee Equipment Return](/remote-work-tools/remote-employee-equipment-return-shipping-logistics-and-trac/)
-- [How to Set Up Hybrid Office Wayfinding System for Employees](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
+- [Recommended equipment configuration for hybrid meeting rooms](/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [Best Visitor Management System for Hybrid Offices Tracking W](/best-visitor-management-system-for-hybrid-offices-tracking-w/)
+- [Meeting Room Booking System for Hybrid Office 2026](/meeting-room-booking-system-for-hybrid-office-2026/)
+- [Remote Employee Equipment Return](/remote-employee-equipment-return-shipping-logistics-and-trac/)
+- [How to Set Up Hybrid Office Wayfinding System for Employees](/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

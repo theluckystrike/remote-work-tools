@@ -348,11 +348,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Manage Remote Team Across More Than 8 Timezones Guide](/remote-work-tools/how-to-manage-remote-team-across-more-than-8-timezones-guide/)
-- [Remote Manager Time Management Framework for Leading](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
-- [How to Manage Remote Team Across 5 Plus Time Zones Guide](/remote-work-tools/how-to-manage-remote-team-across-5-plus-time-zones-guide/)
-- [How to Manage Remote Team Handoffs Across Time Zones](/remote-work-tools/how-to-manage-remote-team-handoffs-across-time-zones/)
-- [How to Manage Remote Journalism Team Across International](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
+- [How to Manage Remote Team Across More Than 8 Timezones Guide](/how-to-manage-remote-team-across-more-than-8-timezones-guide/)
+- [Remote Manager Time Management Framework for Leading](/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
+- [How to Manage Remote Team Across 5 Plus Time Zones Guide](/how-to-manage-remote-team-across-5-plus-time-zones-guide/)
+- [How to Manage Remote Team Handoffs Across Time Zones](/how-to-manage-remote-team-handoffs-across-time-zones/)
+- [How to Manage Remote Journalism Team Across International](/how-to-manage-remote-journalism-team-across-international-bu/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -411,9 +411,9 @@ When emoji problems occur, use this systematic approach.
 
 ## Related Articles
 
-- [How to Create Team Norms Around Emoji Reactions in Slack](/remote-work-tools/how-to-create-team-norms-around-emoji-reactions-in-slack/)
-- [Best Practice for Remote Team Slack Emoji Reactions](/remote-work-tools/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
-- [Best Practice for Remote Team Emoji and Gif Culture Keeping](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
-- [Slack List View Sorting Not Saving Preference Fix 2026](/remote-work-tools/slack-list-view-sorting-not-saving-preference-fix-2026/)
-- [Slack Workflow Builder Automation Stopped Running Fix 2026](/remote-work-tools/slack-workflow-builder-automation-stopped-running-fix-2026/)
+- [How to Create Team Norms Around Emoji Reactions in Slack](/how-to-create-team-norms-around-emoji-reactions-in-slack/)
+- [Best Practice for Remote Team Slack Emoji Reactions](/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
+- [Best Practice for Remote Team Emoji and Gif Culture Keeping](/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
+- [Slack List View Sorting Not Saving Preference Fix 2026](/slack-list-view-sorting-not-saving-preference-fix-2026/)
+- [Slack Workflow Builder Automation Stopped Running Fix 2026](/slack-workflow-builder-automation-stopped-running-fix-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

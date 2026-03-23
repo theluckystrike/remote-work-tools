@@ -312,10 +312,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
-- [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/remote-work-tools/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
-- [Best Keyboard for Quiet Typing During Video Calls in Open](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
-- [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
-- [Wrist Exercises for Programmers](/remote-work-tools/wrist-exercises-for-programmers-prevent-rsi/)
+- [Example: A simple keyboard macro concept](/best-external-keyboard-for-laptop-remote-workers/)
+- [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
+- [Best Keyboard for Quiet Typing During Video Calls in Open](/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
+- [How to Reduce Wrist Pain from Coding on Laptop All Day](/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
+- [Wrist Exercises for Programmers](/wrist-exercises-for-programmers-prevent-rsi/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

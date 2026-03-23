@@ -357,9 +357,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Sales Team Demo Environment Setup for Distributed](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
-- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
-- [WireGuard VPN Setup for Remote Dev Teams (2026)](/remote-work-tools/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
-- [DNS Filtering Setup for Remote Team Endpoint Security](/remote-work-tools/dns-filtering-setup-for-remote-team-endpoint-security-using-/)
-- [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
+- [Remote Sales Team Demo Environment Setup for Distributed](/remote-sales-team-demo-environment-setup-for-distributed-sol/)
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/how-to-create-security-onboarding-checklist-for-new-remote-t/)
+- [WireGuard VPN Setup for Remote Dev Teams (2026)](/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
+- [DNS Filtering Setup for Remote Team Endpoint Security](/dns-filtering-setup-for-remote-team-endpoint-security-using-/)
+- [How to Automate Dev Environment Setup: A Practical Guide](/how-to-automate-dev-environment-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

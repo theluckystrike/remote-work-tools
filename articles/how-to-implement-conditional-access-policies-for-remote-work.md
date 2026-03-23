@@ -247,10 +247,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Implement Just-in-Time Access for Remote Team](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
-- [How to Implement Geo-Fencing Access Controls for Remote](/remote-work-tools/how-to-implement-geo-fencing-access-controls-for-remote-team/)
-- [How to Implement Least Privilege Access for Remote Team](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
-- [Best Privileged Access Management Tool for Remote IT Admins](/remote-work-tools/best-privileged-access-management-tool-for-remote-it-admins-/)
-- [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [How to Implement Just-in-Time Access for Remote Team](/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
+- [How to Implement Geo-Fencing Access Controls for Remote](/how-to-implement-geo-fencing-access-controls-for-remote-team/)
+- [How to Implement Least Privilege Access for Remote Team](/how-to-implement-least-privilege-access-for-remote-team-clou/)
+- [Best Privileged Access Management Tool for Remote IT Admins](/best-privileged-access-management-tool-for-remote-it-admins-/)
+- [How to Create Bring Your Own Device Policy for Remote Teams](/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

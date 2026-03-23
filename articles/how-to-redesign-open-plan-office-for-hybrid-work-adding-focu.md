@@ -333,10 +333,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Hybrid Office Space Planning Tool for Facilities Managers](/remote-work-tools/hybrid-office-space-planning-tool-for-facilities-managers-op/)
-- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
-- [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
-- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
-- [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
+- [Hybrid Office Space Planning Tool for Facilities Managers](/hybrid-office-space-planning-tool-for-facilities-managers-op/)
+- [Meeting Room Booking System for Hybrid Office 2026](/meeting-room-booking-system-for-hybrid-office-2026/)
+- [Best Practice for Hybrid Office Kitchen and Shared Space](/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/return-to-office-tools-for-hybrid-teams/)
+- [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

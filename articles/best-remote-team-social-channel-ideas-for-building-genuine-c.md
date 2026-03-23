@@ -315,10 +315,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
-- [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
-- [Best Virtual Coffee Chat Tool for Remote Teams Building](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
-- [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
-- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
+- [Best Virtual Team Building Activity Platform for Remote](/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Best Virtual Team Trivia Platform for Remote Social Events](/best-virtual-team-trivia-platform-for-remote-social-events-2/)
+- [Best Virtual Coffee Chat Tool for Remote Teams Building](/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
+- [Best Practice for Remote Team README Files in Repositories](/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

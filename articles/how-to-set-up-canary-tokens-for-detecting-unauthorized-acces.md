@@ -345,9 +345,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create Automated Canary Deployments](/remote-work-tools/how-to-create-automated-canary-deployments/)
-- [Best Design Token Management Tool for Remote Teams](/remote-work-tools/best-design-token-management-tool-for-remote-teams-maintaining-brand-consistency/)
-- [Best Tools for Remote Design System Management](/remote-work-tools/best-tools-remote-design-system-management/)
-- [How to Implement Least Privilege Access for Remote Team](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
-- [Best Two-Factor Authentication Setup for Remote Team Shared](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
+- [How to Create Automated Canary Deployments](/how-to-create-automated-canary-deployments/)
+- [Best Design Token Management Tool for Remote Teams](/best-design-token-management-tool-for-remote-teams-maintaining-brand-consistency/)
+- [Best Tools for Remote Design System Management](/best-tools-remote-design-system-management/)
+- [How to Implement Least Privilege Access for Remote Team](/how-to-implement-least-privilege-access-for-remote-team-clou/)
+- [Best Two-Factor Authentication Setup for Remote Team Shared](/best-two-factor-authentication-setup-for-remote-team-shared-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

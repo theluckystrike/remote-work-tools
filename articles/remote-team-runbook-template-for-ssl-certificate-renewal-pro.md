@@ -289,10 +289,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Automate SSL Certificate Renewal](/remote-work-tools/how-to-automate-ssl-certificate-renewal/)
-- [Remote Team Runbook Template for Deploying Hotfix](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
-- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Certificate Based Authentication Setup for Remote Team VPN](/certificate-based-authentication-setup-for-remote-team-vpn-c/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [How to Automate SSL Certificate Renewal](/how-to-automate-ssl-certificate-renewal/)
+- [Remote Team Runbook Template for Deploying Hotfix](/remote-team-runbook-template-for-deploying-hotfix-to-product/)
+- [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

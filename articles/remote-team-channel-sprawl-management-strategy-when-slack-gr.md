@@ -358,9 +358,9 @@ Not immediately. Rename channels in batches over several months, prioritizing hi
 
 ## Related Articles
 
-- [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
-- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
-- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
-- [Weekly Wins Channel Setup and Facilitation for Remote Team](/remote-work-tools/weekly-wins-channel-setup-and-facilitation-for-remote-team-m/)
-- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
+- [Slack Channel Strategy for a Remote Company with 75](/slack-channel-strategy-for-a-remote-company-with-75-employee/)
+- [How to Optimize Slack for Large Remote Teams](/how-to-optimize-slack-for-large-remote-teams/)
+- [Best Remote Team Social Channel Ideas for Building Genuine](/best-remote-team-social-channel-ideas-for-building-genuine-c/)
+- [Weekly Wins Channel Setup and Facilitation for Remote Team](/weekly-wins-channel-setup-and-facilitation-for-remote-team-m/)
+- [#eng-announcements Channel Guidelines](/best-practice-for-remote-team-announcement-channel-keeping-s/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

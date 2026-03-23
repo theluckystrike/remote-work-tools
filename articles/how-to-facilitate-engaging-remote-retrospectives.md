@@ -326,10 +326,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
-- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
-- [Best Tools for Remote Team Retrospective Facilitation 2026](/remote-work-tools/best-tools-for-remote-team-retrospective-facilitation-2026/)
-- [How to Run Remote Team Retrospective That Actually Improves](/remote-work-tools/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
+- [How to Run Remote Retrospectives That Generate Action Items](/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
+- [Best Tools for Remote Team Retrospectives 2026](/best-tools-for-remote-team-retrospectives-2026/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [Best Tools for Remote Team Retrospective Facilitation 2026](/best-tools-for-remote-team-retrospective-facilitation-2026/)
+- [How to Run Remote Team Retrospective That Actually Improves](/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

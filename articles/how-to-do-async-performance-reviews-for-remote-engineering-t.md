@@ -291,10 +291,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Do Async Performance Reviews for Remote Engineering](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
-- [Best Tool for Async Performance Feedback Collection for Dist](/remote-work-tools/best-tool-for-async-performance-feedback-collection-for-dist/)
-- [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
-- [Remote Work Tools: All Guides and Reviews](/remote-work-tools/guides-hub/)
-- [Remote Work Performance Review Tools Comparison 2026](/remote-work-tools/remote-work-performance-review-tools-comparison-2026/)
+- [How to Do Async Performance Reviews for Remote Engineering](/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
+- [Best Tool for Async Performance Feedback Collection for Dist](/best-tool-for-async-performance-feedback-collection-for-dist/)
+- [How to Run Async Architecture Reviews for Distributed](/how-to-run-async-architecture-reviews-for-distributed-engine/)
+- [Remote Work Tools: All Guides and Reviews](/guides-hub/)
+- [Remote Work Performance Review Tools Comparison 2026](/remote-work-performance-review-tools-comparison-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

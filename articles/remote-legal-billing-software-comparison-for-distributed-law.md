@@ -317,10 +317,10 @@ New billing software requires team adjustment:
 - Escalation procedures for billing questions
 ---
 
-- [Remote Work Comparisons Hub](/remote-work-tools/)
-- [Remote Legal Research Tool Comparison for Distributed.](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
-- [Best Remote Legal Team Document Collaboration Tool for.](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
-- [Remote Law Firm Client Communication Portal Comparison.](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
+- [Remote Work Comparisons Hub](/)
+- [Remote Legal Research Tool Comparison for Distributed.](/remote-legal-research-tool-comparison-for-distributed-law-fi/)
+- [Best Remote Legal Team Document Collaboration Tool for.](/best-remote-legal-team-document-collaboration-tool-for-contr/)
+- [Remote Law Firm Client Communication Portal Comparison.](/remote-law-firm-client-communication-portal-comparison-for-d/)
 
 ## Frequently Asked Questions
 
@@ -346,10 +346,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Remote Legal Research Tool Comparison for Distributed Law](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
-- [Best Remote Workflow Tool for Distributed Legal Assistants](/remote-work-tools/best-remote-workflow-tool-for-distributed-legal-assistants-m/)
-- [Remote Law Firm Client Portal Comparison (2026)](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
-- [Best Remote Legal Team Document Collaboration Tool](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
-- [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
+- [Remote Legal Research Tool Comparison for Distributed Law](/remote-legal-research-tool-comparison-for-distributed-law-fi/)
+- [Best Remote Workflow Tool for Distributed Legal Assistants](/best-remote-workflow-tool-for-distributed-legal-assistants-m/)
+- [Remote Law Firm Client Portal Comparison (2026)](/remote-law-firm-client-communication-portal-comparison-for-d/)
+- [Best Remote Legal Team Document Collaboration Tool](/best-remote-legal-team-document-collaboration-tool-for-contr/)
+- [Best Document Collaboration for a Remote Legal Team of 12](/best-document-collaboration-for-a-remote-legal-team-of-12/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

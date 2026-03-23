@@ -408,18 +408,18 @@ Notion and Confluence win on onboarding ease and collaborative editing. Obsidian
 
 ## Related Reading
 
-- [Obsidian vs Logseq for Developer Notes](/remote-work-tools/obsidian-vs-logseq-for-developer-notes/)
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
-- [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
-- [Best Practice for Hybrid Team Knowledge Transfer](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
+- [Obsidian vs Logseq for Developer Notes](/obsidian-vs-logseq-for-developer-notes/)
+- [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
+- [How to Create Decision Log Documentation for Remote Teams](/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [Best Practice for Hybrid Team Knowledge Transfer](/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
 
 ## Related Articles
 
-- [Best Tools for Remote Team Knowledge Graphs](/remote-work-tools/best-tools-remote-team-knowledge-graphs/)
-- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
-- [Obsidian vs Notion for Personal Knowledge Management](/remote-work-tools/obsidian-vs-notion-for-personal-knowledge-management/)
-- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
-- [Best Note-Taking Apps for Remote Workers 2026](/remote-work-tools/best-note-taking-apps-remote-workers-2026/)
+- [Best Tools for Remote Team Knowledge Graphs](/best-tools-remote-team-knowledge-graphs/)
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/how-to-manage-remote-team-knowledge-base-guide/)
+- [Obsidian vs Notion for Personal Knowledge Management](/obsidian-vs-notion-for-personal-knowledge-management/)
+- [Best Tools for Remote Team Knowledge Base 2026](/best-tools-for-remote-team-knowledge-base-2026/)
+- [Best Note-Taking Apps for Remote Workers 2026](/best-note-taking-apps-remote-workers-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

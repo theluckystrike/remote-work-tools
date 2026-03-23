@@ -324,10 +324,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
-- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
-- [Speakerphone for Hybrid Meeting Rooms Comparison](/remote-work-tools/speakerphone-for-hybrid-meeting-rooms-comparison/)
-- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
-- [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
+- [Best Video Conferencing Setup for Hybrid Rooms](/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
+- [Speakerphone for Hybrid Meeting Rooms Comparison](/speakerphone-for-hybrid-meeting-rooms-comparison/)
+- [Recommended equipment configuration for hybrid meeting rooms](/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/audio-setup-for-hybrid-conference-rooms-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

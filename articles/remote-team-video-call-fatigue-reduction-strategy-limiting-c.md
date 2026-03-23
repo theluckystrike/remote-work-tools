@@ -250,10 +250,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Camera On vs Camera Off Debate in Remote Meetings](/remote-work-tools/camera-on-vs-camera-off-debate-remote-meetings/)
-- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
-- [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
-- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
-- [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
+- [Camera On vs Camera Off Debate in Remote Meetings](/camera-on-vs-camera-off-debate-remote-meetings/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [Best Practice for Remote Team Meeting Hygiene When Calendar](/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
+- [Best Practice for Remote Team Meeting Structure That Scales](/best-practice-for-remote-team-meeting-structure-that-scales-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

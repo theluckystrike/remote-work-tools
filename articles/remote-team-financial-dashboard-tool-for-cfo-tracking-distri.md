@@ -393,10 +393,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Analytics Dashboard for a Remote Growth Team of 4](/remote-work-tools/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
-- [Best Expense Management Platform for Remote Teams with Recei](/remote-work-tools/best-expense-management-platform-for-remote-teams-with-recei/)
-- [Remote Team Grant and Funding Tracking Tool for Distributed](/remote-work-tools/remote-team-grant-and-funding-tracking-tool-for-distributed-/)
-- [Remote Team Handbook Section Template for Writing Expense Re](/remote-work-tools/remote-team-handbook-section-template-for-writing-expense-re/)
-- [Remote Sales Team Commission Tracking Tool for Distributed](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
+- [Best Analytics Dashboard for a Remote Growth Team of 4](/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
+- [Best Expense Management Platform for Remote Teams with Recei](/best-expense-management-platform-for-remote-teams-with-recei/)
+- [Remote Team Grant and Funding Tracking Tool for Distributed](/remote-team-grant-and-funding-tracking-tool-for-distributed-/)
+- [Remote Team Handbook Section Template for Writing Expense Re](/remote-team-handbook-section-template-for-writing-expense-re/)
+- [Remote Sales Team Commission Tracking Tool for Distributed](/remote-sales-team-commission-tracking-tool-for-distributed-s/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

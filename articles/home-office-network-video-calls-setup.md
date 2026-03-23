@@ -272,10 +272,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
-- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
-- [Best Mesh WiFi for Home Office Video Calls: A Technical](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
-- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
-- [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
+- [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
+- [Test upload/download speed to common video call servers](/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
+- [Best Mesh WiFi for Home Office Video Calls: A Technical](/best-mesh-wifi-for-home-office-video-calls/)
+- [Best Lighting Setup for Video Calls in Basement Home Office](/best-lighting-setup-for-video-calls-in-basement-home-office/)
+- [How to Share Home Office with Partner Both on Calls](/how-to-share-home-office-with-partner-both-on-calls/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

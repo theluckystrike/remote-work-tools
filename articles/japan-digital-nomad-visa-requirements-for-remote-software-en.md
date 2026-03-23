@@ -311,10 +311,10 @@ Completing these tasks ensures you're legally established and can work comfortab
 
 ## Renewal and Extension
 
-- [Remote Work Guides Hub](/remote-work-tools/)
-- [South Korea Digital Nomad Visa Application Requirements for Remote Workers 2026](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
-- [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Remote Work Guides Hub](/)
+- [South Korea Digital Nomad Visa Application Requirements for Remote Workers 2026](/south-korea-digital-nomad-visa-application-requirements-for-/)
+- [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [Hungary Digital Nomad Visa White Card Application for.](/hungary-digital-nomad-visa-white-card-application-for-remote/)
 
 ## Frequently Asked Questions
 
@@ -340,10 +340,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
-- [South Korea Digital Nomad Visa Application Requirements](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
-- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/spain-digital-nomad-visa-requirements-2026/)
+- [South Korea Digital Nomad Visa Application Requirements](/south-korea-digital-nomad-visa-application-requirements-for-/)
+- [Montenegro Digital Nomad Visa Application Process for Remote](/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Portugal Digital Nomad Visa Application Guide](/portugal-digital-nomad-visa-application-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

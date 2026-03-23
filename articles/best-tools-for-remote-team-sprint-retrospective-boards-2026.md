@@ -389,11 +389,11 @@ This works for distributed timezones but loses real-time energy.
 
 ## Related Articles
 
-- [Best Tools for Remote Team Retrospective Facilitation 2026](/remote-work-tools/best-tools-for-remote-team-retrospective-facilitation-2026/)
-- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
-- [How to Run Remote Team Retrospective That Actually Improves](/remote-work-tools/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
-- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
-- [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
+- [Best Tools for Remote Team Retrospective Facilitation 2026](/best-tools-for-remote-team-retrospective-facilitation-2026/)
+- [Best Tools for Remote Team Retrospectives 2026](/best-tools-for-remote-team-retrospectives-2026/)
+- [How to Run Remote Team Retrospective That Actually Improves](/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [How to Run Remote Retrospectives That Generate Action Items](/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

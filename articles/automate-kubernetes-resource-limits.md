@@ -296,9 +296,9 @@ else:
 
 ## Related Reading
 
-- [Prometheus Alerting for Remote Infrastructure](/remote-work-tools/prometheus-alerting-remote-infra-setup/)
-- [How to Set Up ArgoCD for GitOps Workflows](/remote-work-tools/argocd-gitops-workflow-setup/)
-- [How to Set Up Keel for Continuous Delivery](/remote-work-tools/keel-continuous-delivery-setup/)
+- [Prometheus Alerting for Remote Infrastructure](/prometheus-alerting-remote-infra-setup/)
+- [How to Set Up ArgoCD for GitOps Workflows](/argocd-gitops-workflow-setup/)
+- [How to Set Up Keel for Continuous Delivery](/keel-continuous-delivery-setup/)
 
 ---
 

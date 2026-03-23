@@ -318,9 +318,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Reduce Eye Strain as a Remote Developer](/remote-work-tools/how-to-reduce-eye-strain-remote-developer/)
-- [Base brightness decreases with more monitors](/remote-work-tools/how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/)
-- [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
-- [Best Remote Work Monitor Light Bar 2026](/remote-work-tools/best-remote-work-monitor-light-bar-2026/)
-- [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
+- [How to Reduce Eye Strain as a Remote Developer](/how-to-reduce-eye-strain-remote-developer/)
+- [Base brightness decreases with more monitors](/how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/)
+- [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
+- [Best Remote Work Monitor Light Bar 2026](/best-remote-work-monitor-light-bar-2026/)
+- [Best Task Lighting for Coding at Night Without Eye Strain](/best-task-lighting-for-coding-at-night-without-eye-strain/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

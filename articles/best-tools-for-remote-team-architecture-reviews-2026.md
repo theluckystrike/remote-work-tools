@@ -394,11 +394,11 @@ Results:
 
 ## Related Articles
 
-- [How to Create Remote Team Architecture Documentation](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
-- [Best Tools for Remote Team Documentation Reviews 2026](/remote-work-tools/best-tools-for-remote-team-documentation-reviews-2026/)
-- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
-- [Best Tools for Remote Team Sprint Retrospective Boards 2026](/remote-work-tools/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
-- [Remote Team Information Architecture Overhaul Guide When](/remote-work-tools/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
+- [How to Create Remote Team Architecture Documentation](/how-to-create-remote-team-architecture-documentation-using-d/)
+- [Best Tools for Remote Team Documentation Reviews 2026](/best-tools-for-remote-team-documentation-reviews-2026/)
+- [Best Tools for Remote Team Retrospectives 2026](/best-tools-for-remote-team-retrospectives-2026/)
+- [Best Tools for Remote Team Sprint Retrospective Boards 2026](/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
+- [Remote Team Information Architecture Overhaul Guide When](/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
 {% endraw %}
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

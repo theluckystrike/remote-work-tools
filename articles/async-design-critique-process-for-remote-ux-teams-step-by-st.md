@@ -427,11 +427,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Best Tools for Async Annotation and Commenting on Design](/remote-work-tools/best-tools-for-async-annotation-and-commenting-on-design-moc/)
-- [How to Set Up Remote Design Handoff Workflow](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
-- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
-- [Best Annotation Tool for Remote Design Review with Clients](/remote-work-tools/best-annotation-tool-for-remote-design-review-with-clients-2/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [Best Tools for Async Annotation and Commenting on Design](/best-tools-for-async-annotation-and-commenting-on-design-moc/)
+- [How to Set Up Remote Design Handoff Workflow](/how-to-set-up-remote-design-handoff-workflow-between-designe/)
+- [How to Build Async Feedback Culture on a Fully Remote Team](/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+- [Best Annotation Tool for Remote Design Review with Clients](/best-annotation-tool-for-remote-design-review-with-clients-2/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Related Reading

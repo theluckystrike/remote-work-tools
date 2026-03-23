@@ -256,10 +256,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Secrets Management Tool for Remote Development Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
-- [Secure Secrets Injection Workflow for Remote Teams](/remote-work-tools/secure-secrets-injection-workflow-for-remote-teams-using-has/)
-- [Best Password Manager for Remote Development Teams](/remote-work-tools/best-password-manager-for-remote-development-teams/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [How to Scale Remote Team Access Management When Onboarding](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
+- [Best Secrets Management Tool for Remote Development Teams](/best-secrets-management-tool-for-remote-development-teams-us/)
+- [Secure Secrets Injection Workflow for Remote Teams](/secure-secrets-injection-workflow-for-remote-teams-using-has/)
+- [Best Password Manager for Remote Development Teams](/best-password-manager-for-remote-development-teams/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [How to Scale Remote Team Access Management When Onboarding](/how-to-scale-remote-team-access-management-when-onboarding-m/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

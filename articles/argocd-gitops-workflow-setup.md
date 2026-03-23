@@ -388,9 +388,9 @@ argocd app sync myapp-staging --prune --force
 
 ## Related Reading
 
-- [How to Set Up Keel for Continuous Delivery](/remote-work-tools/keel-continuous-delivery-setup/)
-- [How to Create Automated Rollback Systems](/remote-work-tools/automated-rollback-systems/)
-- [How to Automate Kubernetes Resource Limits](/remote-work-tools/automate-kubernetes-resource-limits/)
+- [How to Set Up Keel for Continuous Delivery](/keel-continuous-delivery-setup/)
+- [How to Create Automated Rollback Systems](/automated-rollback-systems/)
+- [How to Automate Kubernetes Resource Limits](/automate-kubernetes-resource-limits/)
 
 ---
 

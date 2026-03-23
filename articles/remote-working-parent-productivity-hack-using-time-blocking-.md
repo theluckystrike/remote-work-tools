@@ -373,10 +373,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Set Up Remote Work Time Blocking System Guide](/remote-work-tools/how-to-set-up-remote-work-time-blocking-system-guide/)
-- [How to Manage Remote Team When Multiple Parents Have](/remote-work-tools/how-to-manage-remote-team-when-multiple-parents-have-overlap/)
-- [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
-- [calendar_manager.py - Manage childcare-aware calendar blocks](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
-- [How to Handle School Snow Day When Both Parents Work](/remote-work-tools/how-to-handle-school-snow-day-when-both-parents-work-remotel/)
+- [How to Set Up Remote Work Time Blocking System Guide](/how-to-set-up-remote-work-time-blocking-system-guide/)
+- [How to Manage Remote Team When Multiple Parents Have](/how-to-manage-remote-team-when-multiple-parents-have-overlap/)
+- [Remote Working Parent Daily Routine Template](/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [calendar_manager.py - Manage childcare-aware calendar blocks](/best-calendar-blocking-strategy-for-remote-working-parents-m/)
+- [How to Handle School Snow Day When Both Parents Work](/how-to-handle-school-snow-day-when-both-parents-work-remotel/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

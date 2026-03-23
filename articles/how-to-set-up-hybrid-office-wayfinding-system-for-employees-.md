@@ -272,10 +272,10 @@ Yes, but require explicit opt-in. A Slack slash command like `/whereis @colleagu
 
 ## Related Articles
 
-- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
-- [Hybrid Office Locker System for Employees Who Hot Desk](/remote-work-tools/hybrid-office-locker-system-for-employees-who-hot-desk/)
-- [Hybrid Office Access Control System Upgrade for Flexible](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
-- [Office Hoteling Software for Hybrid Teams 2026](/remote-work-tools/office-hoteling-software-for-hybrid-teams-2026/)
-- [Best Visitor Management System for Hybrid Offices Tracking W](/remote-work-tools/best-visitor-management-system-for-hybrid-offices-tracking-w/)
+- [Meeting Room Booking System for Hybrid Office 2026](/meeting-room-booking-system-for-hybrid-office-2026/)
+- [Hybrid Office Locker System for Employees Who Hot Desk](/hybrid-office-locker-system-for-employees-who-hot-desk/)
+- [Hybrid Office Access Control System Upgrade for Flexible](/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
+- [Office Hoteling Software for Hybrid Teams 2026](/office-hoteling-software-for-hybrid-teams-2026/)
+- [Best Visitor Management System for Hybrid Offices Tracking W](/best-visitor-management-system-for-hybrid-offices-tracking-w/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

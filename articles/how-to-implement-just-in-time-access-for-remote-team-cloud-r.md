@@ -287,18 +287,18 @@ Yes, and it is especially valuable for external parties. Contractors often recei
 
 ## Related Reading
 
-- [How to Implement Geo-Fencing Access Controls for Remote](/remote-work-tools/how-to-implement-geo-fencing-access-controls-for-remote-team/)
-- [How to Implement Least Privilege Access for Remote Team](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
-- [Best Cloud Access Security Broker for Remote Teams Using](/remote-work-tools/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
-- [Using Microsoft Graph API to create named locations](/remote-work-tools/how-to-implement-conditional-access-policies-for-remote-work/)
-- [How to Secure Remote Team Database Access with Just-in-Time](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
+- [How to Implement Geo-Fencing Access Controls for Remote](/how-to-implement-geo-fencing-access-controls-for-remote-team/)
+- [How to Implement Least Privilege Access for Remote Team](/how-to-implement-least-privilege-access-for-remote-team-clou/)
+- [Best Cloud Access Security Broker for Remote Teams Using](/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
+- [Using Microsoft Graph API to create named locations](/how-to-implement-conditional-access-policies-for-remote-work/)
+- [How to Secure Remote Team Database Access with Just-in-Time](/how-to-secure-remote-team-database-access-with-just-in-time-/)
 
 ## Related Articles
 
-- [How to Implement Least Privilege Access for Remote Team](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
-- [Just-in-Time Database Access for Remote Teams](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
-- [How to Implement Geo-Fencing Access Controls for Remote](/remote-work-tools/how-to-implement-geo-fencing-access-controls-for-remote-team/)
-- [How to Scale Remote Team Access Management When Onboarding](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
-- [Best Privileged Access Management Tool for Remote IT Admins](/remote-work-tools/best-privileged-access-management-tool-for-remote-it-admins-/)
+- [How to Implement Least Privilege Access for Remote Team](/how-to-implement-least-privilege-access-for-remote-team-clou/)
+- [Just-in-Time Database Access for Remote Teams](/how-to-secure-remote-team-database-access-with-just-in-time-/)
+- [How to Implement Geo-Fencing Access Controls for Remote](/how-to-implement-geo-fencing-access-controls-for-remote-team/)
+- [How to Scale Remote Team Access Management When Onboarding](/how-to-scale-remote-team-access-management-when-onboarding-m/)
+- [Best Privileged Access Management Tool for Remote IT Admins](/best-privileged-access-management-tool-for-remote-it-admins-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

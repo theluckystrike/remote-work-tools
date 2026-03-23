@@ -1,7 +1,7 @@
 title: "Remote Work Tools"
 description: "Reviews, comparisons, and guides for the best remote work tools, apps, and productivity software"
-url: "https://theluckystrike.github.io"
-baseurl: "/remote-work-tools"
+url: "https://welikeremotestack.com"
+baseurl: ""
 permalink: /:title/
 theme: minima
 twitter:
@@ -19,4 +19,4 @@ defaults:
       path: "articles"
     values:
       layout: default
-      image: /remote-work-tools/assets/og-default.svg
+      image: /assets/og-default.svg

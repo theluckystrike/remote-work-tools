@@ -324,20 +324,20 @@ alias grep='grep --color=auto'
 
 ## Related Reading
 
-- [Remote Team Terminal Emulator Comparison 2026](/remote-work-tools/remote-team-terminal-emulator-comparison/)
-- [Remote Team Git Hooks Standardization Guide](/remote-work-tools/remote-team-git-hooks-standardization-guide/)
-- [How to Create a Remote Dev Environment Template](/remote-work-tools/how-to-create-a-remote-dev-environment-template/)
-- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
+- [Remote Team Terminal Emulator Comparison 2026](/remote-team-terminal-emulator-comparison/)
+- [Remote Team Git Hooks Standardization Guide](/remote-team-git-hooks-standardization-guide/)
+- [How to Create a Remote Dev Environment Template](/how-to-create-a-remote-dev-environment-template/)
+- [Best Employee Recognition Platform for Distributed Teams](/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
 
 ---
 
 ## Related Articles
 
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
-- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
-- [How to Track Remote Team Use Rate Without Invasive](/remote-work-tools/how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/)
-- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [How to Handle Remote Team Subculture Formation When](/how-to-handle-remote-team-subculture-formation-when-departme/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/how-to-run-remote-team-retrospective-focused-on-team-health/)
+- [How to Track Remote Team Use Rate Without Invasive](/how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/)
+- [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

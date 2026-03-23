@@ -290,11 +290,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Async Capacity Planning Process for Remote: Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
-- [Best Tools for Remote Team Capacity Planning](/remote-work-tools/best-tools-remote-team-capacity-planning-2026/)
-- [Best Tools for Remote Team Capacity Planning in 2026](/remote-work-tools/best-tools-for-remote-team-capacity-planning-2026/)
-- [Best Practice for Remote Team Quarterly Planning Process](/remote-work-tools/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
+- [Async Capacity Planning Process for Remote: Managers](/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
+- [Best Tools for Remote Team Capacity Planning](/best-tools-remote-team-capacity-planning-2026/)
+- [Best Tools for Remote Team Capacity Planning in 2026](/best-tools-for-remote-team-capacity-planning-2026/)
+- [Best Practice for Remote Team Quarterly Planning Process](/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Related Reading

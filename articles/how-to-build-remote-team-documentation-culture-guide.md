@@ -434,11 +434,11 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
-- [How to Set Up Remote Team Documentation Culture in 2026](/remote-work-tools/how-to-set-up-remote-team-documentation-culture-2026/)
-- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
-- [Code Review Guide](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
-- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Set Up Remote Team Documentation Culture in 2026](/how-to-set-up-remote-team-documentation-culture-2026/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/)
+- [Code Review Guide](/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
+- [Best Practice for Remote Team Documentation Scaling When](/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

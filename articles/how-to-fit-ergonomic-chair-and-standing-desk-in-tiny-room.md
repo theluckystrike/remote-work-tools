@@ -369,10 +369,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Ergonomic Desk Setup Guide for Developers 2026](/remote-work-tools/ergonomic-desk-setup-developers-2026/)
-- [Best Desk for Corner Home Office Room Layout Setup 2026](/remote-work-tools/best-desk-for-corner-home-office-room-layout-setup-2026/)
-- [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
-- [Best Standing Desk Under $500 for Remote Developers 2026](/remote-work-tools/best-standing-desk-under-500-for-remote-developers-2026/)
-- [Best Compact Standing Desk for Small Apartment Home Office](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)
+- [Ergonomic Desk Setup Guide for Developers 2026](/ergonomic-desk-setup-developers-2026/)
+- [Best Desk for Corner Home Office Room Layout Setup 2026](/best-desk-for-corner-home-office-room-layout-setup-2026/)
+- [Best Standing Desk for Home Office 2026](/best-standing-desk-for-home-office-2026/)
+- [Best Standing Desk Under $500 for Remote Developers 2026](/best-standing-desk-under-500-for-remote-developers-2026/)
+- [Best Compact Standing Desk for Small Apartment Home Office](/best-compact-standing-desk-for-small-apartment-home-office-2/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

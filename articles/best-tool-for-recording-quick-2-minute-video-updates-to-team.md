@@ -266,10 +266,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
-- [Veed API - Upload and process video](/remote-work-tools/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
-- [How to Move from Loom to Claap for Remote Team Async Video](/remote-work-tools/how-to-move-from-loom-to-claap-for-remote-team-async-video-m/)
-- [Best Tool for Remote Teams Recording and Transcribing](/remote-work-tools/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
-- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
+- [Best Screen Recording Tools for Async Communication](/best-screen-recording-async-communication/)
+- [Veed API - Upload and process video](/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
+- [How to Move from Loom to Claap for Remote Team Async Video](/how-to-move-from-loom-to-claap-for-remote-team-async-video-m/)
+- [Best Tool for Remote Teams Recording and Transcribing](/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
+- [Best Tool for Hybrid Team Async Updates When Some Use Office](/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

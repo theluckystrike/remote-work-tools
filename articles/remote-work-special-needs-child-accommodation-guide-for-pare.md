@@ -230,10 +230,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [Best Mobile Presentation Remote App for Remote Speakers](/remote-work-tools/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
-- [Remote Work Employer Childcare Stipend Policy Template](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
-- [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-distraction-elimination-guide-2026/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [Best Mobile Presentation Remote App for Remote Speakers](/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
+- [Remote Work Employer Childcare Stipend Policy Template](/remote-work-employer-childcare-stipend-policy-template-for-d/)
+- [Remote Working Parent Self Care Checklist for Avoiding](/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

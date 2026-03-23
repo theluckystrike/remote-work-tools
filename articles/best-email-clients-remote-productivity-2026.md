@@ -424,10 +424,10 @@ For hybrid approaches: Thunderbird for sensitive client work, Superhuman for hig
 
 ## Related Articles
 
-- [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
-- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
-- [Shared Inbox Setup for Remote Agency Client Support Emails](/remote-work-tools/shared-inbox-setup-for-remote-agency-client-support-emails/)
-- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
-- [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
+- [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
+- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+- [Shared Inbox Setup for Remote Agency Client Support Emails](/shared-inbox-setup-for-remote-agency-client-support-emails/)
+- [How to Set Up Basecamp for Remote Agency Client](/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [How to Create a Client-Facing Knowledge Base for a Remote](/how-to-create-client-facing-knowledge-base-for-remote-agency/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

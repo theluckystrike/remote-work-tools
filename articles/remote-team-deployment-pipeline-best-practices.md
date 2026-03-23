@@ -357,16 +357,16 @@ GitHub Actions covers most small-to-mid-size remote teams with less operational 
 - [How to Secure Remote Team CI/CD Pipeline from Supply Chain Attacks](/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
 - [Best Deploy Workflow for a Remote Infrastructure Team of 3](/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
 - [CI/CD Pipeline Tools for a Remote Team of 2 Backend Developers](/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-develope/)
-- [Hybrid Team Social Events: Best Practices (2026)](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
+- [Hybrid Team Social Events: Best Practices (2026)](/best-practice-for-hybrid-team-social-events-including-both-r/)
 ---
 
 ## Related Articles
 
-- [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
-- [Remote Team Metrics Collection Strategy for Measuring](/remote-work-tools/remote-team-metrics-collection-strategy-for-measuring-deploy/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
-- [Remote Team Runbook Template for Deploying Hotfix](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
+- [Best Deploy Workflow for a Remote Infrastructure Team of 3](/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
+- [Remote Team Metrics Collection Strategy for Measuring](/remote-team-metrics-collection-strategy-for-measuring-deploy/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
+- [Remote Team Runbook Template for Deploying Hotfix](/remote-team-runbook-template-for-deploying-hotfix-to-product/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

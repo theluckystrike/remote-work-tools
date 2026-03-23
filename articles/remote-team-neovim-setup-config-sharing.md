@@ -516,9 +516,9 @@ The first time Neovim opens a directory with `.nvim.lua`, it asks the developer 
 
 ## Related Reading
 
-- [Remote Team tmux Config Sharing Guide](/remote-work-tools/remote-team-tmux-config-sharing/)
-- [Remote Team fish Shell Setup Guide](/remote-work-tools/remote-team-fish-shell-setup/)
-- [How to Set Up Teleport for Secure Access](/remote-work-tools/teleport-secure-access-setup/)
+- [Remote Team tmux Config Sharing Guide](/remote-team-tmux-config-sharing/)
+- [Remote Team fish Shell Setup Guide](/remote-team-fish-shell-setup/)
+- [How to Set Up Teleport for Secure Access](/teleport-secure-access-setup/)
 
 ---
 

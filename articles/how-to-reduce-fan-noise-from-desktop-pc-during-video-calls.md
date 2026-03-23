@@ -380,10 +380,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Prevent Laptop Overheating During Long Video Call](/remote-work-tools/how-to-prevent-laptop-overheating-during-long-video-call-ses/)
-- [How to Stop Dog Barking During Video Calls: A Complete](/remote-work-tools/how-to-stop-dog-barking-during-video-calls-work-from-home/)
-- [How to Hide Messy Room During Video Calls: Practical](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
-- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
-- [Best Keyboard for Quiet Typing During Video Calls in Open](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
+- [How to Prevent Laptop Overheating During Long Video Call](/how-to-prevent-laptop-overheating-during-long-video-call-ses/)
+- [How to Stop Dog Barking During Video Calls: A Complete](/how-to-stop-dog-barking-during-video-calls-work-from-home/)
+- [How to Hide Messy Room During Video Calls: Practical](/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
+- [Home Office Network Setup for Video Calls](/home-office-network-video-calls-setup/)
+- [Best Keyboard for Quiet Typing During Video Calls in Open](/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

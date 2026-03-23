@@ -404,10 +404,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Preserve Async Communication Culture When Team Moves](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
-- [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
-- [How to Avoid Miscommunication in Async Written Messages](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remote-teams/)
-- [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [How to Preserve Async Communication Culture When Team Moves](/how-to-preserve-async-communication-culture-when-team-moves-/)
+- [How to Write Effective Async Messages for Remote Work](/how-to-write-effective-async-messages-remote-work/)
+- [How to Avoid Miscommunication in Async Written Messages](/how-to-avoid-miscommunication-in-async-written-messages-remote-teams/)
+- [Remote Team Growth Stage Communication Audit](/remote-team-growth-stage-communication-audit-identifying-bot/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

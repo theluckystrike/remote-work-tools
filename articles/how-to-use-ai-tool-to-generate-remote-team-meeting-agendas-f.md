@@ -303,10 +303,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Automate Meeting Notes with AI Tools 2026](/remote-work-tools/automate-meeting-notes-ai-tools-2026/)
-- [How to Create Remote Team Inclusive Meeting Practices Guide](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
-- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
-- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
-- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
+- [Automate Meeting Notes with AI Tools 2026](/automate-meeting-notes-ai-tools-2026/)
+- [How to Create Remote Team Inclusive Meeting Practices Guide](/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [Best Tools for Remote Team Retrospectives 2026](/best-tools-for-remote-team-retrospectives-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

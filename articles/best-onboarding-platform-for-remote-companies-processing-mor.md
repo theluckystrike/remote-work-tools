@@ -257,10 +257,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
-- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
-- [Remote HR Onboarding Platform Comparison for Hiring](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
-- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
-- [Remote-First Onboarding Automation Pipeline 2026](/remote-work-tools/remote-first-onboarding-automation-pipeline-2026/)
+- [Best Onboarding Automation Workflow for Remote Companies](/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-team-onboarding-automation-2026/)
+- [Remote HR Onboarding Platform Comparison for Hiring](/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
+- [Best Onboarding Tools for a Remote Team Hiring 3 People](/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
+- [Remote-First Onboarding Automation Pipeline 2026](/remote-first-onboarding-automation-pipeline-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

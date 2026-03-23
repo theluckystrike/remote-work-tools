@@ -407,10 +407,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Tools for Remote Team Sprint Planning](/remote-work-tools/best-tools-for-remote-sprint-planning/)
-- [Best Tools for Remote Team Sprint Planning (2026)](/remote-work-tools/best-tools-for-remote-team-sprint-planning-2026/)
-- [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
-- [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
-- [Best Tools for Remote Design Sprints: A Practical Guide](/remote-work-tools/best-tools-for-remote-design-sprints/)
+- [Best Tools for Remote Team Sprint Planning](/best-tools-for-remote-sprint-planning/)
+- [Best Tools for Remote Team Sprint Planning (2026)](/best-tools-for-remote-team-sprint-planning-2026/)
+- [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
+- [Sprint {{ sprint_number }} Preparation](/remote-team-sprint-planning-communication-template-for-distr/)
+- [Best Tools for Remote Design Sprints: A Practical Guide](/best-tools-for-remote-design-sprints/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

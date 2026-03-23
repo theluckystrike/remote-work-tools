@@ -368,10 +368,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Notion Database Templates for a Solo Recruiter Working Remot](/remote-work-tools/notion-database-templates-for-a-solo-recruiter-working-remot/)
-- [Coda vs Notion for Project Documentation](/remote-work-tools/coda-vs-notion-for-project-documentation/)
-- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-- [How to Structure Jira for a Remote Team of 50 Developers](/remote-work-tools/how-to-structure-jira-for-a-remote-team-of-50-developers/)
-- [Notion API Integration Returning 502 Errors Fix (2026)](/remote-work-tools/notion-api-integration-returning-502-errors-fix-2026/)
+- [Notion Database Templates for a Solo Recruiter Working Remot](/notion-database-templates-for-a-solo-recruiter-working-remot/)
+- [Coda vs Notion for Project Documentation](/coda-vs-notion-for-project-documentation/)
+- [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [How to Structure Jira for a Remote Team of 50 Developers](/how-to-structure-jira-for-a-remote-team-of-50-developers/)
+- [Notion API Integration Returning 502 Errors Fix (2026)](/notion-api-integration-returning-502-errors-fix-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -367,9 +367,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
-- [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
-- [Remote Work Internet Redundancy Setup Guide](/remote-work-tools/remote-work-internet-redundancy-setup-guide/)
-- [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
-- [Best Fiber Internet Providers in Lisbon for Remote](/remote-work-tools/best-fiber-internet-providers-in-lisbon-for-remote-developer/)
+- [Remote Work Internet Backup Solutions Comparison](/remote-work-internet-backup-solutions-comparison/)
+- [Backblaze vs CrashPlan for Remote Work Backup](/backblaze-vs-crashplan-for-remote-work-backup/)
+- [Remote Work Internet Redundancy Setup Guide](/remote-work-internet-redundancy-setup-guide/)
+- [Best Backup Solutions for Remote Developer Machines](/best-backup-solutions-for-remote-developer-machines/)
+- [Best Fiber Internet Providers in Lisbon for Remote](/best-fiber-internet-providers-in-lisbon-for-remote-developer/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

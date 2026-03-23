@@ -279,11 +279,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Run Monthly Virtual Game Night for Remote Developers](/remote-work-tools/how-to-run-monthly-virtual-game-night-for-remote-developers/)
-- [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
-- [Best Virtual Office Platforms for Remote Teams 2026](/remote-work-tools/best-virtual-office-platforms-for-remote-teams-2026/)
-- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
-- [Virtual Happy Hour Alternatives for Remote Teams](/remote-work-tools/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)
+- [How to Run Monthly Virtual Game Night for Remote Developers](/how-to-run-monthly-virtual-game-night-for-remote-developers/)
+- [Best Virtual Team Trivia Platform for Remote Social Events](/best-virtual-team-trivia-platform-for-remote-social-events-2/)
+- [Best Virtual Office Platforms for Remote Teams 2026](/best-virtual-office-platforms-for-remote-teams-2026/)
+- [Best Virtual Team Building Activity Platform for Remote](/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Virtual Happy Hour Alternatives for Remote Teams](/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

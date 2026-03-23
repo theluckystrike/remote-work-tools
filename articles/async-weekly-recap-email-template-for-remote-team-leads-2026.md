@@ -298,10 +298,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
-- [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
-- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
-- [Best Tool for Remote Team Async Introductions](/remote-work-tools/best-tool-for-remote-team-async-introductions-connecting-new/)
+- [Best Format for Remote Team Weekly Written Status Update](/best-format-for-remote-team-weekly-written-status-update-rep/)
+- [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
+- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [Best Tool for Remote Team Async Introductions](/best-tool-for-remote-team-async-introductions-connecting-new/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -326,8 +326,8 @@ Yes, the underlying concepts transfer to Firefox extensions (WebExtensions API i
 
 ## Related Articles
 
-- [Chrome Extension Compress Images Before Upload](/remote-work-tools/chrome-extension-compress-images-before-upload/)
-- [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
-- [Chrome Extension MLA Citation Generator: A Developer Guide](/remote-work-tools/chrome-extension-mla-citation-generator/)
+- [Chrome Extension Compress Images Before Upload](/chrome-extension-compress-images-before-upload/)
+- [Chrome Extension Linear Issue Tracker: Practical Guide](/chrome-extension-linear-issue-tracker/)
+- [Chrome Extension MLA Citation Generator: A Developer Guide](/chrome-extension-mla-citation-generator/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

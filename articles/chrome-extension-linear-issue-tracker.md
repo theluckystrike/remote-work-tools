@@ -432,9 +432,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
-- [Best Project Management CLI Tools 2026](/remote-work-tools/best-project-management-cli-tools-2026/)
-- [Shortcut vs Linear Issue Tracking Comparison](/remote-work-tools/shortcut-vs-linear-issue-tracking-comparison/)
-- [Best Browser Extensions for Developer Productivity](/remote-work-tools/best-browser-extensions-for-developer-productivity/)
-- [Linear vs Shortcut for a Remote Startup of 8 Engineers](/remote-work-tools/linear-vs-shortcut-for-a-remote-startup-of-8-engineers/)
+- [Google Scholar Chrome Extension Development Guide](/google-scholar-chrome-extension/)
+- [Best Project Management CLI Tools 2026](/best-project-management-cli-tools-2026/)
+- [Shortcut vs Linear Issue Tracking Comparison](/shortcut-vs-linear-issue-tracking-comparison/)
+- [Best Browser Extensions for Developer Productivity](/best-browser-extensions-for-developer-productivity/)
+- [Linear vs Shortcut for a Remote Startup of 8 Engineers](/linear-vs-shortcut-for-a-remote-startup-of-8-engineers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

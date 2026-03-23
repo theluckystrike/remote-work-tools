@@ -365,10 +365,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [How to Prevent Burnout as Remote Developer](/remote-work-tools/how-to-prevent-burnout-as-remote-developer/)
-- [How to Reduce Slack Notification Fatigue for Remote](/remote-work-tools/how-to-reduce-slack-notification-fatigue-for-remote-develope/)
-- [How to Create Remote Team Architecture Documentation](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-distraction-elimination-guide-2026/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [How to Prevent Burnout as Remote Developer](/how-to-prevent-burnout-as-remote-developer/)
+- [How to Reduce Slack Notification Fatigue for Remote](/how-to-reduce-slack-notification-fatigue-for-remote-develope/)
+- [How to Create Remote Team Architecture Documentation](/how-to-create-remote-team-architecture-documentation-using-d/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

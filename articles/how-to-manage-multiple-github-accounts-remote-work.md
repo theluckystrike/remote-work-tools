@@ -340,19 +340,19 @@ Place this in `.git/hooks/pre-commit` and make it executable with `chmod +x .git
 
 ## Related Reading
 
-- [How to Manage Remote Team When Multiple Parents Have](/remote-work-tools/how-to-manage-remote-team-when-multiple-parents-have-overlap/)
-- [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
-- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
-- [How to Manage Work-Life Balance as a Remote Developer](/remote-work-tools/how-to-manage-work-life-balance-remote-developer/)
-- [Best Business Bank Accounts for Freelancers 2026: A](/remote-work-tools/best-business-bank-accounts-for-freelancers-2026/)
+- [How to Manage Remote Team When Multiple Parents Have](/how-to-manage-remote-team-when-multiple-parents-have-overlap/)
+- [How to Manage Multiple Freelance Clients Effectively](/how-to-manage-multiple-freelance-clients-effectively/)
+- [Generate weekly team activity report from GitHub](/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
+- [How to Manage Work-Life Balance as a Remote Developer](/how-to-manage-work-life-balance-remote-developer/)
+- [Best Business Bank Accounts for Freelancers 2026: A](/best-business-bank-accounts-for-freelancers-2026/)
 
 ## Related Articles
 
-- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
-- [Best SSH Key Management Solution for Distributed Remote](/remote-work-tools/best-ssh-key-management-solution-for-distributed-remote-engi/)
-- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
-- [Best Project Management Tools with GitHub Integration](/remote-work-tools/best-project-management-tools-with-github-integration/)
-- [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
+- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
+- [Best SSH Key Management Solution for Distributed Remote](/best-ssh-key-management-solution-for-distributed-remote-engi/)
+- [Migrating from AWS CodeCommit to GitHub for Remote Team](/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
+- [Best Project Management Tools with GitHub Integration](/best-project-management-tools-with-github-integration/)
+- [Remote Work Security Hardening Checklist](/remote-work-security-hardening-checklist/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

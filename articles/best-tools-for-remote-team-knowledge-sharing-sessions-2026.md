@@ -292,11 +292,11 @@ The cost of confusion—employees repeating work, onboarding taking 3x longer, c
 
 ## Related Articles
 
-- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
-- [Best Practice for Hybrid Team Knowledge Transfer](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
-- [How to Prevent Knowledge Silos When Remote Team Grows Past](/remote-work-tools/how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/)
-- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
-- [Best Tools for Remote Team Knowledge Graphs](/remote-work-tools/best-tools-remote-team-knowledge-graphs/)
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/how-to-manage-remote-team-knowledge-base-guide/)
+- [Best Practice for Hybrid Team Knowledge Transfer](/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
+- [How to Prevent Knowledge Silos When Remote Team Grows Past](/how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/)
+- [How to Handle Knowledge Base Handoff When Remote Developer](/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
+- [Best Tools for Remote Team Knowledge Graphs](/best-tools-remote-team-knowledge-graphs/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

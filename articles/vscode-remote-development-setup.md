@@ -383,10 +383,10 @@ With `terminal.integrated.enablePersistentSessions: true`, VS Code reconnects an
 
 ## Related Articles
 
-- [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
-- [How to Optimize macOS for Remote Development](/remote-work-tools/how-to-optimize-macos-for-remote-development/)
-- [Best Mobile Presentation Remote App for Remote Speakers](/remote-work-tools/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
-- [How to Set Up Remote Pair Programming Sessions in 2026](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-2026/)
-- [How to Set Up Remote Pair Programming Workflow Guide](/remote-work-tools/how-to-set-up-remote-pair-programming-workflow-guide/)
+- [Remote Code Review Tools Comparison 2026](/remote-code-review-tools-comparison-2026/)
+- [How to Optimize macOS for Remote Development](/how-to-optimize-macos-for-remote-development/)
+- [Best Mobile Presentation Remote App for Remote Speakers](/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
+- [How to Set Up Remote Pair Programming Sessions in 2026](/how-to-set-up-remote-pair-programming-sessions-2026/)
+- [How to Set Up Remote Pair Programming Workflow Guide](/how-to-set-up-remote-pair-programming-workflow-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

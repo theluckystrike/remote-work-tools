@@ -456,20 +456,20 @@ Small teams sometimes skip the token pipeline because it feels heavyweight. The 
 
 ## Related Reading
 
-- [How to Scale Remote Team Design System Documentation](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
-- [Best Design Token Management Tool for Remote Teams](/remote-work-tools/best-design-token-management-tool-for-remote-teams-maintaini/)
-- [Best Remote Design Collaboration Tool for UX Teams](/remote-work-tools/best-remote-design-collaboration-tool-for-ux-teams-using-fig/)
-- [Best Design Token Management Tool for Remote Teams](/remote-work-tools/best-design-token-management-tool-for-remote-teams-maintaining-brand-consistency/)
+- [How to Scale Remote Team Design System Documentation](/how-to-scale-remote-team-design-system-documentation-when-pr/)
+- [Best Design Token Management Tool for Remote Teams](/best-design-token-management-tool-for-remote-teams-maintaini/)
+- [Best Remote Design Collaboration Tool for UX Teams](/best-remote-design-collaboration-tool-for-ux-teams-using-fig/)
+- [Best Design Token Management Tool for Remote Teams](/best-design-token-management-tool-for-remote-teams-maintaining-brand-consistency/)
 
 ---
 
 ## Related Articles
 
-- [Best Tools for Remote Team Design System Documentation 2026](/remote-work-tools/best-tools-for-remote-team-design-system-documentation-2026/)
-- [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
-- [Best Design Token Management Tool for Remote Teams](/remote-work-tools/best-design-token-management-tool-for-remote-teams-maintaining-brand-consistency/)
-- [How to Set Up Remote Design Handoff Workflow](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
-- [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
+- [Best Tools for Remote Team Design System Documentation 2026](/best-tools-for-remote-team-design-system-documentation-2026/)
+- [Best Design Collaboration Tools for Remote Teams](/best-design-collaboration-tools-for-remote-teams/)
+- [Best Design Token Management Tool for Remote Teams](/best-design-token-management-tool-for-remote-teams-maintaining-brand-consistency/)
+- [How to Set Up Remote Design Handoff Workflow](/how-to-set-up-remote-design-handoff-workflow-between-designe/)
+- [Figma vs Sketch for Remote Design Collaboration](/figma-vs-sketch-for-remote-design-collaboration/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

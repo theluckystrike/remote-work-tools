@@ -328,10 +328,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best USB Switch for Sharing Keyboard and Mouse Between Work](/remote-work-tools/best-usb-switch-for-sharing-keyboard-mouse-between-work-personal-pc/)
-- [Cable Management Solutions for Home Office Setup](/remote-work-tools/cable-management-solutions-for-home-office-setup/)
-- [Best Under Desk Cable Tray for Clean Home Office Setup 2026](/remote-work-tools/best-under-desk-cable-tray-for-clean-home-office-setup-2026/)
-- [Best Mechanical Keyboard for Remote Developers: Discover](/remote-work-tools/best-mechanical-keyboard-for-remote-developers/)
-- [Remote Developer Home Office Monitor Setup Guide](/remote-work-tools/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)
+- [Best USB Switch for Sharing Keyboard and Mouse Between Work](/best-usb-switch-for-sharing-keyboard-mouse-between-work-personal-pc/)
+- [Cable Management Solutions for Home Office Setup](/cable-management-solutions-for-home-office-setup/)
+- [Best Under Desk Cable Tray for Clean Home Office Setup 2026](/best-under-desk-cable-tray-for-clean-home-office-setup-2026/)
+- [Best Mechanical Keyboard for Remote Developers: Discover](/best-mechanical-keyboard-for-remote-developers/)
+- [Remote Developer Home Office Monitor Setup Guide](/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

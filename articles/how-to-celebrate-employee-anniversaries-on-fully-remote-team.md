@@ -255,10 +255,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
-- [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
-- [How to Handle Remote Employee Underperformance](/remote-work-tools/how-to-handle-remote-employee-underperformance-conversation-/)
-- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
-- [Remote Employee Mental Health Support Guide 2026](/remote-work-tools/remote-employee-mental-health-support-guide-2026/)
+- [Best Employee Recognition Platform for Distributed Teams](/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
+- [Simple Slack kudos automation using Slack API](/best-remote-employee-recognition-program-ideas-for-distribut/)
+- [How to Handle Remote Employee Underperformance](/how-to-handle-remote-employee-underperformance-conversation-/)
+- [How to Build a Remote Team Handbook from Scratch](/how-to-build-a-remote-team-handbook-from-scratch/)
+- [Remote Employee Mental Health Support Guide 2026](/remote-employee-mental-health-support-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

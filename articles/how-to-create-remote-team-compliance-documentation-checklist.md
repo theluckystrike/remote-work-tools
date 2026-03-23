@@ -368,10 +368,10 @@ SOX does not specify a minimum frequency, but quarterly reviews are the accepted
 
 ## Related Articles
 
-- [Best API Tools for Automating Remote Team Compliance](/remote-work-tools/best-api-tools-for-automating-remote-team-compliance-reporti/)
-- [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
-- [Remote Team Documentation Culture Guide (2026)](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
-- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
+- [Best API Tools for Automating Remote Team Compliance](/best-api-tools-for-automating-remote-team-compliance-reporti/)
+- [How to Create Onboarding Documentation for Remote Teams](/how-to-create-onboarding-documentation-remote-teams/)
+- [Remote Team Documentation Culture Guide (2026)](/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

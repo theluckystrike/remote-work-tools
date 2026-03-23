@@ -507,10 +507,10 @@ q4_focus: "Annual Review & Looking Ahead"
 
 ## Related Articles
 
-- [Skip Level Meeting Guide for Remote Organizations](/remote-work-tools/skip-level-meeting-guide-for-remote-organizations/)
-- [How to Run Effective Skip Level Meetings with Remote](/remote-work-tools/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
-- [How to Run Effective Remote Team Skip Level Meetings 2026](/remote-work-tools/how-to-run-effective-remote-team-skip-level-meetings-2026/)
-- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
-- [How to Create Remote Team Inclusive Meeting Practices Guide](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
+- [Skip Level Meeting Guide for Remote Organizations](/skip-level-meeting-guide-for-remote-organizations/)
+- [How to Run Effective Skip Level Meetings with Remote](/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
+- [How to Run Effective Remote Team Skip Level Meetings 2026](/how-to-run-effective-remote-team-skip-level-meetings-2026/)
+- [How to Set Up Remote Team Communication Audit](/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [How to Create Remote Team Inclusive Meeting Practices Guide](/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -239,10 +239,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team OKR and Goal Tracking 2026](/remote-work-tools/remote-team-okr-goal-tracking-2026/)
-- [Best Tools for Remote Team OKR Tracking in 2026](/remote-work-tools/best-tools-for-remote-team-okr-tracking-2026/)
-- [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
-- [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/remote-work-tools/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
-- [Parse: Accomplished X. Next: Y. Blockers: Z](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
+- [Remote Team OKR and Goal Tracking 2026](/remote-team-okr-goal-tracking-2026/)
+- [Best Tools for Remote Team OKR Tracking in 2026](/best-tools-for-remote-team-okr-tracking-2026/)
+- [OKR Tracking for a Remote Product Team of 12 People](/okr-tracking-for-a-remote-product-team-of-12-people/)
+- [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
+- [Parse: Accomplished X. Next: Y. Blockers: Z](/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

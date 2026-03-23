@@ -240,10 +240,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Track all critical accounts requiring phone verification](/remote-work-tools/how-to-maintain-us-phone-number-while-working-remotely-from-/)
-- [Best Two-Factor Authentication Setup for Remote Team Shared](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
-- [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
-- [Remote Work Backup Strategy for Developers](/remote-work-tools/remote-work-backup-strategy-for-developers/)
-- [Best Grocery Delivery Service Strategy for Remote Working](/remote-work-tools/best-grocery-delivery-service-strategy-for-remote-working-pa/)
+- [Track all critical accounts requiring phone verification](/how-to-maintain-us-phone-number-while-working-remotely-from-/)
+- [Best Two-Factor Authentication Setup for Remote Team Shared](/best-two-factor-authentication-setup-for-remote-team-shared-/)
+- [Focus Apps for Remote Workers with ADHD](/focus-apps-for-remote-workers-with-adhd/)
+- [Remote Work Backup Strategy for Developers](/remote-work-backup-strategy-for-developers/)
+- [Best Grocery Delivery Service Strategy for Remote Working](/best-grocery-delivery-service-strategy-for-remote-working-pa/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

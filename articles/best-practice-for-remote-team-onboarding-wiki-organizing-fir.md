@@ -238,10 +238,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
-- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
-- [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
-- [How to Set Up a Remote Team Wiki from Scratch](/remote-work-tools/how-to-set-up-a-remote-team-wiki-from-scratch/)
-- [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-team-onboarding-automation-2026/)
+- [Best Onboarding Tools for a Remote Team Hiring 3 People](/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
+- [Remote Team Onboarding Tools and Checklist](/remote-team-onboarding-tools-checklist/)
+- [How to Set Up a Remote Team Wiki from Scratch](/how-to-set-up-a-remote-team-wiki-from-scratch/)
+- [How to Create Onboarding Documentation for Remote Teams](/how-to-create-onboarding-documentation-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

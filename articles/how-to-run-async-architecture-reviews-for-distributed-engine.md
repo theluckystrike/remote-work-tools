@@ -379,10 +379,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Do Async Performance Reviews for Remote Engineering](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
-- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
-- [Best Tools for Remote Team Architecture Reviews 2026](/remote-work-tools/best-tools-for-remote-team-architecture-reviews-2026/)
-- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
+- [How to Do Async Performance Reviews for Remote Engineering](/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
+- [Do Async Performance Reviews for Remote Engineering Teams](/how-to-do-async-performance-reviews-for-remote-engineering-t/)
+- [Best Tools for Remote Team Architecture Reviews 2026](/best-tools-for-remote-team-architecture-reviews-2026/)
+- [Best Async Project Management Tools for Distributed Teams](/best-async-project-management-tools-for-distributed-teams-2026/)
+- [Async Code Review Process Without Zoom Calls Step by Step](/async-code-review-process-without-zoom-calls-step-by-step/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

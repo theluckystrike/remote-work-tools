@@ -237,11 +237,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Async Product Discovery Process for Remote Teams](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
-- [Async Capacity Planning Process for Remote: Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
-- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Async Decision-Making Framework for Remote Teams](/remote-work-tools/articles/how-to-set-up-async-decision-making-framework-guide/)
+- [Async Product Discovery Process for Remote Teams](/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Async Capacity Planning Process for Remote: Managers](/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [Async Decision-Making Framework for Remote Teams](/articles/how-to-set-up-async-decision-making-framework-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Related Reading

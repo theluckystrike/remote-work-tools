@@ -302,10 +302,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
-- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
-- [Best Tool for Remote Team Async Onboarding with Self Paced L](/remote-work-tools/best-tool-for-remote-team-async-onboarding-with-self-paced-l/)
-- [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
-- [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-team-onboarding-automation-2026/)
+- [Best Onboarding Tools for a Remote Team Hiring 3 People](/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
+- [Best Tool for Remote Team Async Onboarding with Self Paced L](/best-tool-for-remote-team-async-onboarding-with-self-paced-l/)
+- [Example: Trigger BambooHR onboarding workflow via API](/best-onboarding-platform-for-remote-companies-processing-mor/)
+- [Best Tool for Remote Team Onboarding Checklist Automation](/best-tool-for-remote-team-onboarding-checklist-automation-at/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

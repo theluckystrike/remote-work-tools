@@ -269,11 +269,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
-- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
-- [Async Product Discovery Process for Remote Teams](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
-- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
-- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
+- [Best Bug Tracking Tools for Remote QA Teams](/best-bug-tracking-tools-for-remote-qa-teams/)
+- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
+- [Async Product Discovery Process for Remote Teams](/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Remote Work Tools Hub](/guides-hub/)
+- [Do Async Performance Reviews for Remote Engineering Teams](/how-to-do-async-performance-reviews-for-remote-engineering-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Related Reading

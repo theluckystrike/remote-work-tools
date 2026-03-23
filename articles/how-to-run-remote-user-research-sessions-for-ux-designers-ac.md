@@ -487,10 +487,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
-- [Best Remote User Research Tools 2026](/remote-work-tools/remote-user-research-tools-2026/)
-- [Best Data Collection Tools for Remote User Research Teams](/remote-work-tools/best-data-collection-tool-for-remote-user-research-teams-gat/)
-- [How to Run Remote Client UX Research Sessions with Observers](/remote-work-tools/how-to-run-remote-client-ux-research-sessions-with-observers/)
-- [Remote Legal Research Tool Comparison for Distributed Law](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
+- [How to Do Async User Research Interviews with Recorded](/how-to-do-async-user-research-interviews-with-recorded-responses/)
+- [Best Remote User Research Tools 2026](/remote-user-research-tools-2026/)
+- [Best Data Collection Tools for Remote User Research Teams](/best-data-collection-tool-for-remote-user-research-teams-gat/)
+- [How to Run Remote Client UX Research Sessions with Observers](/how-to-run-remote-client-ux-research-sessions-with-observers/)
+- [Remote Legal Research Tool Comparison for Distributed Law](/remote-legal-research-tool-comparison-for-distributed-law-fi/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

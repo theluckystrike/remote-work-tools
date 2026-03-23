@@ -489,20 +489,20 @@ Configure `default_delete_branch_after_merge: true` to keep the branch list clea
 
 ## Related Reading
 
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
-- [How to Create Automated Deployment Notifications](/remote-work-tools/how-to-create-automated-deployment-notifications/)
-- [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
-- [How to Set Up Woodpecker CI for Self-Hosted](/remote-work-tools/how-to-set-up-woodpecker-ci-for-self-hosted/)
+- [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
+- [How to Create Automated Deployment Notifications](/how-to-create-automated-deployment-notifications/)
+- [Best Practice for Remote Team README Files in Repositories](/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [How to Set Up Woodpecker CI for Self-Hosted](/how-to-set-up-woodpecker-ci-for-self-hosted/)
 
 ---
 
 ## Related Articles
 
-- [SSH Tunnels for Remote Database Access](/remote-work-tools/ssh-tunnels-remote-database-access/)
-- [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
-- [How to Set Up Woodpecker CI for Self-Hosted](/remote-work-tools/how-to-set-up-woodpecker-ci-for-self-hosted/)
-- [Setting Up Keycloak for Team SSO](/remote-work-tools/setting-up-keycloak-for-team-sso/)
-- [How to Manage Multiple GitHub Accounts for Remote Work](/remote-work-tools/how-to-manage-multiple-github-accounts-remote-work/)
+- [SSH Tunnels for Remote Database Access](/ssh-tunnels-remote-database-access/)
+- [Linux Server Hardening Guide for Remote Developers](/linux-server-hardening-remote-developers/)
+- [How to Set Up Woodpecker CI for Self-Hosted](/how-to-set-up-woodpecker-ci-for-self-hosted/)
+- [Setting Up Keycloak for Team SSO](/setting-up-keycloak-for-team-sso/)
+- [How to Manage Multiple GitHub Accounts for Remote Work](/how-to-manage-multiple-github-accounts-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

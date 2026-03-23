@@ -400,9 +400,9 @@ This structure gives the client what they need to make a decision without creati
 
 ## Related Articles
 
-- [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
-- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
-- [Remote DevOps Team Dependency Update Workflow for](/remote-work-tools/remote-devops-team-dependency-update-workflow-for-coordinati/)
-- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
-- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [How to Create Client Project Retrospective Format for Remote](/how-to-create-client-project-retrospective-format-for-remote/)
+- [Best Format for Remote Team Weekly Written Status Update](/best-format-for-remote-team-weekly-written-status-update-rep/)
+- [Remote DevOps Team Dependency Update Workflow for](/remote-devops-team-dependency-update-workflow-for-coordinati/)
+- [How to Create Client Communication Charter for Remote](/how-to-create-client-communication-charter-for-remote-agency/)
+- [How to Set Up Basecamp for Remote Agency Client](/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

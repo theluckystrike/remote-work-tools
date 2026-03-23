@@ -312,10 +312,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Remote Legal Team Document Collaboration Tool](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
-- [Best Remote Workflow Tool for Distributed Legal Assistants](/remote-work-tools/best-remote-workflow-tool-for-distributed-legal-assistants-m/)
-- [Best Collaboration Suite for a 10 Person Remote Law Firm](/remote-work-tools/best-collaboration-suite-for-a-10-person-remote-law-firm/)
-- [Miro vs FigJam for Remote Team Collaboration](/remote-work-tools/miro-vs-figjam-for-remote-team-collaboration/)
-- [CodePen vs CodeSandbox for Remote Collaboration](/remote-work-tools/codepen-vs-codesandbox-for-remote-collaboration/)
+- [Best Remote Legal Team Document Collaboration Tool](/best-remote-legal-team-document-collaboration-tool-for-contr/)
+- [Best Remote Workflow Tool for Distributed Legal Assistants](/best-remote-workflow-tool-for-distributed-legal-assistants-m/)
+- [Best Collaboration Suite for a 10 Person Remote Law Firm](/best-collaboration-suite-for-a-10-person-remote-law-firm/)
+- [Miro vs FigJam for Remote Team Collaboration](/miro-vs-figjam-for-remote-team-collaboration/)
+- [CodePen vs CodeSandbox for Remote Collaboration](/codepen-vs-codesandbox-for-remote-collaboration/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

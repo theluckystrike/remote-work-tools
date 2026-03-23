@@ -365,10 +365,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
-- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
-- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
-- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
-- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+- [Remote Team Communication Strategy Guide](/remote-team-communication-strategy-guide/)
+- [Remote Team Handbook Section Template for Defining](/remote-team-handbook-section-template-for-defining-communica/)
+- [Communication Norms for a Remote Team of 20 Across 4](/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
+- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

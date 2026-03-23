@@ -387,9 +387,9 @@ fi
 
 ## Related Reading
 
-- [How to Create Automated Security Scan Pipelines](/remote-work-tools/automated-security-scan-pipelines/)
-- [How to Automate Pull Request Labeling](/remote-work-tools/automate-pull-request-labeling/)
-- [Best Tools for Remote Team Secret Sharing](/remote-work-tools/remote-team-secret-sharing-tools/)
+- [How to Create Automated Security Scan Pipelines](/automated-security-scan-pipelines/)
+- [How to Automate Pull Request Labeling](/automate-pull-request-labeling/)
+- [Best Tools for Remote Team Secret Sharing](/remote-team-secret-sharing-tools/)
 
 ---
 

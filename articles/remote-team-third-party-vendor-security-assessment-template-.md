@@ -317,10 +317,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
-- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
-- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
-- [Remote Team Security Incident Response Plan Template](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [Security Checklist Example](/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
+- [Security Tools for a Fully Remote Company Under 20 Employees](/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
+- [Remote Team Security Incident Response Plan Template](/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [Remote Team Handbook Template](/remote-team-handbook-template-for-writing-remote-interview-p/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

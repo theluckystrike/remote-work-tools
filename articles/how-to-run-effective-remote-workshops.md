@@ -281,11 +281,11 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
-- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
-- [How to Run Remote Workshop for Product Managers Defining](/remote-work-tools/how-to-run-remote-workshop-for-product-managers-defining-qua/)
-- [How to Write Good Remote Meeting Agendas](/remote-work-tools/how-to-write-good-remote-meeting-agendas/)
-- [How to Run Effective Remote One on Ones Guide](/remote-work-tools/how-to-run-effective-remote-one-on-ones-guide/)
+- [Run Effective Remote Client Workshops Using Miro](/how-to-run-effective-remote-client-workshops-using-miro-boar/)
+- [How to Run Effective Remote Client Workshops Using Miro](/how-to-run-effective-remote-client-workshops-using-miro-board/)
+- [How to Run Remote Workshop for Product Managers Defining](/how-to-run-remote-workshop-for-product-managers-defining-qua/)
+- [How to Write Good Remote Meeting Agendas](/how-to-write-good-remote-meeting-agendas/)
+- [How to Run Effective Remote One on Ones Guide](/how-to-run-effective-remote-one-on-ones-guide/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

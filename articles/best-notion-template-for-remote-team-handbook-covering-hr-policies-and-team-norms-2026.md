@@ -378,10 +378,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-- [Remote Team Handbook](/remote-work-tools/how-to-structure-remote-team-handbook-table-of-contents-cove/)
-- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
-- [How to Structure Remote Team Handbook: Policies, Processes](/remote-work-tools/how-to-structure-remote-team-handbook-covering-policies-proc/)
-- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Remote Team Handbook](/how-to-structure-remote-team-handbook-table-of-contents-cove/)
+- [How to Build a Remote Team Handbook from Scratch](/how-to-build-a-remote-team-handbook-from-scratch/)
+- [How to Structure Remote Team Handbook: Policies, Processes](/how-to-structure-remote-team-handbook-covering-policies-proc/)
+- [Remote Team Handbook Section Template for Defining](/remote-team-handbook-section-template-for-defining-communica/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

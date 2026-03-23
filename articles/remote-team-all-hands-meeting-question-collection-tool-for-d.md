@@ -240,10 +240,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Tool for Async Performance Feedback Collection for Dist](/remote-work-tools/best-tool-for-async-performance-feedback-collection-for-dist/)
-- [Client Feedback Collection Tool for Remote Development](/remote-work-tools/client-feedback-collection-tool-for-remote-development-agenc/)
-- [Best Data Collection Tools for Remote User Research Teams](/remote-work-tools/best-data-collection-tool-for-remote-user-research-teams-gat/)
-- [Remote Team Metrics Collection Strategy for Measuring](/remote-work-tools/remote-team-metrics-collection-strategy-for-measuring-deploy/)
-- [Remote Manager One on One Question Template for Distributed](/remote-work-tools/remote-manager-one-on-one-question-template-for-distributed-team-check-ins/)
+- [Best Tool for Async Performance Feedback Collection for Dist](/best-tool-for-async-performance-feedback-collection-for-dist/)
+- [Client Feedback Collection Tool for Remote Development](/client-feedback-collection-tool-for-remote-development-agenc/)
+- [Best Data Collection Tools for Remote User Research Teams](/best-data-collection-tool-for-remote-user-research-teams-gat/)
+- [Remote Team Metrics Collection Strategy for Measuring](/remote-team-metrics-collection-strategy-for-measuring-deploy/)
+- [Remote Manager One on One Question Template for Distributed](/remote-manager-one-on-one-question-template-for-distributed-team-check-ins/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

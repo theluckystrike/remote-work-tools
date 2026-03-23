@@ -359,9 +359,9 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 
 ## Related Articles
 
-- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
-- [Remote Team Communication Breakdown](/remote-work-tools/remote-team-communication-breakdown-warning-signs-when-growi/)
-- [How to Handle Remote Team Growing Pains When Communication](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)
-- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
-- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
+- [How to Set Up Remote Team Communication Audit](/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [Remote Team Communication Breakdown](/remote-team-communication-breakdown-warning-signs-when-growi/)
+- [How to Handle Remote Team Growing Pains When Communication](/how-to-handle-remote-team-growing-pains-when-communication-n/)
+- [Remote Team Communication Strategy Guide](/remote-team-communication-strategy-guide/)
+- [How to Handle Remote Team Subculture Formation When](/how-to-handle-remote-team-subculture-formation-when-departme/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

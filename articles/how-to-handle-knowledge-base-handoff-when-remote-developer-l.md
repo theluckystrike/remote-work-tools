@@ -386,10 +386,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
-- [Best Knowledge Base Platform for Remote Support Team](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
-- [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
-- [Self-Hosted Knowledge Base for Remote Support Team](/remote-work-tools/self-hosted-knowledge-base-for-remote-support-team-replacing/)
-- [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/how-to-manage-remote-team-knowledge-base-guide/)
+- [Best Knowledge Base Platform for Remote Support Team](/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
+- [How to Create a Client-Facing Knowledge Base for a Remote](/how-to-create-client-facing-knowledge-base-for-remote-agency/)
+- [Self-Hosted Knowledge Base for Remote Support Team](/self-hosted-knowledge-base-for-remote-support-team-replacing/)
+- [Remote Team Knowledge Base Contribution Guidelines Template](/remote-team-knowledge-base-contribution-guidelines-template-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -355,10 +355,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-- [South Korea Digital Nomad Visa Application Requirements](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
-- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
-- [Japan Digital Nomad Visa Requirements for Remote Software](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
+- [Montenegro Digital Nomad Visa Application Process for Remote](/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [South Korea Digital Nomad Visa Application Requirements](/south-korea-digital-nomad-visa-application-requirements-for-/)
+- [Portugal Digital Nomad Visa Application Guide](/portugal-digital-nomad-visa-application-guide/)
+- [Japan Digital Nomad Visa Requirements for Remote Software](/japan-digital-nomad-visa-requirements-for-remote-software-en/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

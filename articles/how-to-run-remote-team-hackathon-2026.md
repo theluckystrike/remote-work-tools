@@ -402,11 +402,11 @@ Rotating themes keep it fresh.
 
 ## Related Articles
 
-- [How to Run Remote Developer Hackathon for Distributed](/remote-work-tools/how-to-run-remote-developer-hackathon-for-distributed-engine/)
-- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
-- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
+- [How to Run Remote Developer Hackathon for Distributed](/how-to-run-remote-developer-hackathon-for-distributed-engine/)
+- [How to Manage Multi-Repo Projects with Remote Team](/how-to-manage-multi-repo-projects-with-remote-team/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [How to Create Remote Work Playbook for Team](/how-to-create-remote-work-playbook-for-team/)
+- [How to Manage Standups for a Remote QA Team of 7](/how-to-manage-standups-for-a-remote-qa-team-of-7/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

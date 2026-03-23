@@ -281,10 +281,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Implement Least Privilege Access for Remote Team](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
-- [How to Implement Just-in-Time Access for Remote Team](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
-- [Best Privileged Access Management Tool for Remote IT Admins](/remote-work-tools/best-privileged-access-management-tool-for-remote-it-admins-/)
-- [Identity and Access Management Platform Comparison](/remote-work-tools/identity-and-access-management-platform-comparison-for-remot/)
-- [Manage Client Access Permissions for Remote Teams](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [How to Implement Least Privilege Access for Remote Team](/how-to-implement-least-privilege-access-for-remote-team-clou/)
+- [How to Implement Just-in-Time Access for Remote Team](/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
+- [Best Privileged Access Management Tool for Remote IT Admins](/best-privileged-access-management-tool-for-remote-it-admins-/)
+- [Identity and Access Management Platform Comparison](/identity-and-access-management-platform-comparison-for-remot/)
+- [Manage Client Access Permissions for Remote Teams](/how-to-manage-client-access-permissions-across-remote-team-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

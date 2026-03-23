@@ -344,10 +344,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
-- [Best Tools for Remote Team Daily Health Checks](/remote-work-tools/best-tools-remote-team-daily-health-checks/)
-- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
-- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [Best Remote Team Async Daily Check In Format Replacing](/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+- [Best Tools for Remote Team Daily Health Checks](/best-tools-remote-team-daily-health-checks/)
+- [Daily Check In Tools for Remote Teams 2026](/daily-check-in-tools-for-remote-teams-2026/)
+- [How to Run Remote Team Daily Standup in Slack Without Bot](/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

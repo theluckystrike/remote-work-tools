@@ -236,10 +236,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [WireGuard Team VPN: Multi-User Setup Guide](/remote-work-tools/wireguard-team-vpn-multi-user-setup/)
-- [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)
-- [Best VPN for Remote Development Teams with Split Tunneling](/remote-work-tools/best-vpn-for-remote-development-teams-with-split-tunneling-2/)
-- [Best VPN for Remote Workers in Thailand Avoiding Geo](/remote-work-tools/best-vpn-for-remote-workers-in-thailand-avoiding-geo-restric/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [WireGuard Team VPN: Multi-User Setup Guide](/wireguard-team-vpn-multi-user-setup/)
+- [How to Setup Vpn Secure Remote Access Office Resources](/how-to-setup-vpn-secure-remote-access-office-resources/)
+- [Best VPN for Remote Development Teams with Split Tunneling](/best-vpn-for-remote-development-teams-with-split-tunneling-2/)
+- [Best VPN for Remote Workers in Thailand Avoiding Geo](/best-vpn-for-remote-workers-in-thailand-avoiding-geo-restric/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

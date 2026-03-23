@@ -232,10 +232,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
-- [Best Smart Lighting for Home Office Developers](/remote-work-tools/best-smart-lighting-for-home-office-developers/)
-- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
-- [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
-- [Best Webcam Lighting Setup Under $100 for Professional](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
+- [Best Lighting Setup for Video Calls in Basement Home Office](/best-lighting-setup-for-video-calls-in-basement-home-office/)
+- [Best Smart Lighting for Home Office Developers](/best-smart-lighting-for-home-office-developers/)
+- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/best-webcam-lighting-setup-under-100-dollars/)
+- [Best Task Lighting for Coding at Night Without Eye Strain](/best-task-lighting-for-coding-at-night-without-eye-strain/)
+- [Best Webcam Lighting Setup Under $100 for Professional](/best-webcam-lighting-setup-under-100-dollars/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

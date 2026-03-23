@@ -264,10 +264,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Avoid Miscommunication in Async Written Messages](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remote-teams/)
-- [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
-- [How to Make Async Communication Inclusive for Non-Native](/remote-work-tools/how-to-make-async-communication-inclusive-for-non-native-eng/)
-- [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
-- [Best Async Voice Message Tools for Remote Teams 2026](/remote-work-tools/best-async-voice-message-tools-for-remote-teams-2026-comparison/)
+- [How to Avoid Miscommunication in Async Written Messages](/how-to-avoid-miscommunication-in-async-written-messages-remote-teams/)
+- [How to Write Effective Async Messages for Remote Work](/how-to-write-effective-async-messages-remote-work/)
+- [How to Make Async Communication Inclusive for Non-Native](/how-to-make-async-communication-inclusive-for-non-native-eng/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/how-to-build-remote-team-async-culture-from-scratch-2026/)
+- [Best Async Voice Message Tools for Remote Teams 2026](/best-async-voice-message-tools-for-remote-teams-2026-comparison/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

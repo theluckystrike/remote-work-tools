@@ -290,10 +290,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Weekly Remote Team Ritual Ideas Beyond Standup Meetings Guid](/remote-work-tools/weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/)
-- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
-- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
-- [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
+- [Weekly Remote Team Ritual Ideas Beyond Standup Meetings Guid](/weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/)
+- [How to Create Remote Work Playbook for Team](/how-to-create-remote-work-playbook-for-team/)
+- [How to Maintain Remote Team Culture When Transitioning](/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+- [How to Build a Remote Team Handbook from Scratch](/how-to-build-a-remote-team-handbook-from-scratch/)
+- [Remote Team Culture Building Strategies Guide](/remote-team-culture-building-strategies-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

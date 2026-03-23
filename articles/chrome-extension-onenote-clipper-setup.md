@@ -329,10 +329,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
-- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [Install OpenConnect (common in enterprise environments)](/remote-work-tools/remote-employee-digital-workspace-setup-guide-for-first-day-/)
-- [Chrome Extension Newsletter Design Tool: A Developer's Guide](/remote-work-tools/chrome-extension-newsletter-design-tool/)
+- [Chrome Extension Linear Issue Tracker: Practical Guide](/chrome-extension-linear-issue-tracker/)
+- [Google Scholar Chrome Extension Development Guide](/google-scholar-chrome-extension/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [Install OpenConnect (common in enterprise environments)](/remote-employee-digital-workspace-setup-guide-for-first-day-/)
+- [Chrome Extension Newsletter Design Tool: A Developer's Guide](/chrome-extension-newsletter-design-tool/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

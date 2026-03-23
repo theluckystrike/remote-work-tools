@@ -309,9 +309,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Mouse Pad for Wrist Support During Long Coding Sessions](/remote-work-tools/best-mouse-pad-for-wrist-support-during-long-coding-sessions/)
-- [Best Remote Work Ergonomic Mouse 2026](/remote-work-tools/best-remote-work-ergonomic-mouse-2026/)
-- [Wrist Exercises for Programmers](/remote-work-tools/wrist-exercises-for-programmers-prevent-rsi/)
-- [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
-- [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
+- [Best Mouse Pad for Wrist Support During Long Coding Sessions](/best-mouse-pad-for-wrist-support-during-long-coding-sessions/)
+- [Best Remote Work Ergonomic Mouse 2026](/best-remote-work-ergonomic-mouse-2026/)
+- [Wrist Exercises for Programmers](/wrist-exercises-for-programmers-prevent-rsi/)
+- [How to Reduce Wrist Pain from Coding on Laptop All Day](/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
+- [Back Pain Prevention for Remote Workers 2026](/back-pain-prevention-for-remote-workers-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

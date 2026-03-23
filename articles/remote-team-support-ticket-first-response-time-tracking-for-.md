@@ -262,10 +262,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Tool for Tracking Remote Team Asynchronous Response](/remote-work-tools/best-tool-for-tracking-remote-team-asynchronous-response-lat/)
-- [How to Monitor Remote Team Tool Response Times for](/remote-work-tools/how-to-monitor-remote-team-tool-response-times-for-identifyi/)
-- [Remote Team Security Incident Response Plan Template](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [How to Scale Remote Team Incident Response Process](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
-- [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
+- [Best Tool for Tracking Remote Team Asynchronous Response](/best-tool-for-tracking-remote-team-asynchronous-response-lat/)
+- [How to Monitor Remote Team Tool Response Times for](/how-to-monitor-remote-team-tool-response-times-for-identifyi/)
+- [Remote Team Security Incident Response Plan Template](/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [How to Scale Remote Team Incident Response Process](/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [Scale Remote Team Incident Response From Startup to Mid-Size](/how-to-scale-remote-team-incident-response-process-from-star/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

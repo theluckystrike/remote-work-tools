@@ -317,10 +317,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Coworking Space Finder Apps for Nomads](/remote-work-tools/coworking-space-finder-apps-for-nomads/)
-- [Coworking Space Day Pass Guide](/remote-work-tools/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
-- [Best Coworking Space Day Pass Apps 2026](/remote-work-tools/best-coworking-space-day-pass-apps-2026/)
-- [Infrastructure evaluation script concept](/remote-work-tools/best-coworking-spaces-in-canggu-bali-with-backup-generators-and-fast-internet/)
-- [Coworking Space Membership vs Day Pass Comparison](/remote-work-tools/coworking-space-membership-vs-day-pass-comparison/)
+- [Coworking Space Finder Apps for Nomads](/coworking-space-finder-apps-for-nomads/)
+- [Coworking Space Day Pass Guide](/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
+- [Best Coworking Space Day Pass Apps 2026](/best-coworking-space-day-pass-apps-2026/)
+- [Infrastructure evaluation script concept](/best-coworking-spaces-in-canggu-bali-with-backup-generators-and-fast-internet/)
+- [Coworking Space Membership vs Day Pass Comparison](/coworking-space-membership-vs-day-pass-comparison/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

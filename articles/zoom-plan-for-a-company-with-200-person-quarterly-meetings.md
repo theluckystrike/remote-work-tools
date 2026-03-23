@@ -326,10 +326,10 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
-- [Cheapest Video Call Tool for Weekly 50 Person All Hands](/remote-work-tools/cheapest-video-call-tool-for-weekly-50-person-all-hands-meet/)
-- [Zoom Meeting Password Not Accepted by Participants Fix 2026](/remote-work-tools/zoom-meeting-password-not-accepted-by-participants-fix-2026/)
-- [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-work-tools/remote-team-toolkit-for-a-60-person-saas-company-2026/)
-- [Meeting Schedule Template for a 30 Person Remote Product Org](/remote-work-tools/meeting-schedule-template-for-a-30-person-remote-product-org/)
-- [Remote 1 on 1 Meeting Tool Comparison for Distributed](/remote-work-tools/remote-1-on-1-meeting-tool-comparison-for-distributed-manage/)
+- [Cheapest Video Call Tool for Weekly 50 Person All Hands](/cheapest-video-call-tool-for-weekly-50-person-all-hands-meet/)
+- [Zoom Meeting Password Not Accepted by Participants Fix 2026](/zoom-meeting-password-not-accepted-by-participants-fix-2026/)
+- [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-team-toolkit-for-a-60-person-saas-company-2026/)
+- [Meeting Schedule Template for a 30 Person Remote Product Org](/meeting-schedule-template-for-a-30-person-remote-product-org/)
+- [Remote 1 on 1 Meeting Tool Comparison for Distributed](/remote-1-on-1-meeting-tool-comparison-for-distributed-manage/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

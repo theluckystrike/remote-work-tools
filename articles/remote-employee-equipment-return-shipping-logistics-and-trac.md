@@ -337,10 +337,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Worker Ergonomic Equipment Reimbursement](/remote-work-tools/remote-worker-ergonomic-equipment-reimbursement-legal-obliga/)
-- [How to Create Hybrid Work Equipment Checkout System for Shar](/remote-work-tools/how-to-create-hybrid-work-equipment-checkout-system-for-shar/)
-- [Best Tool for Tracking Remote Employee Work Permits](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
-- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
-- [Remote Employee Output-Based Performance Measurement](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
+- [Remote Worker Ergonomic Equipment Reimbursement](/remote-worker-ergonomic-equipment-reimbursement-legal-obliga/)
+- [How to Create Hybrid Work Equipment Checkout System for Shar](/how-to-create-hybrid-work-equipment-checkout-system-for-shar/)
+- [Best Tool for Tracking Remote Employee Work Permits](/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
+- [How to Create a Remote Work Policy Document](/remote-work-policy-document-guide/)
+- [Remote Employee Output-Based Performance Measurement](/remote-employee-output-based-performance-measurement-framewo/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

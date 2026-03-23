@@ -384,10 +384,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
-- [Trello vs GitHub Projects for a 5-Person Open Source Team](/remote-work-tools/trello-vs-github-projects-for-5-person-open-source-team/)
-- [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
-- [Project Management for a Solo Developer with 8 Client](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
-- [Git Branching Strategy for Remote Teams](/remote-work-tools/git-branching-strategy-remote-teams/)
+- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
+- [Trello vs GitHub Projects for a 5-Person Open Source Team](/trello-vs-github-projects-for-5-person-open-source-team/)
+- [Best Project Management Tool for Solo Freelance Developers](/best-project-management-tool-for-solo-freelance-developers-2026/)
+- [Project Management for a Solo Developer with 8 Client](/project-management-for-a-solo-developer-with-8-client-projec/)
+- [Git Branching Strategy for Remote Teams](/git-branching-strategy-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -493,10 +493,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Nix vs Docker for Reproducible Dev Environments](/remote-work-tools/nix-vs-docker-for-reproducible-dev-environments/)
-- [How to Create a Remote Dev Environment Template](/remote-work-tools/how-to-create-a-remote-dev-environment-template/)
-- [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
-- [Optimize Docker for Slow Connections When Working Remotely](/remote-work-tools/docker-optimize-slow-connection-remote-work/)
-- [Setting Up a Remote Dev Server with Hetzner](/remote-work-tools/setting-up-remote-dev-server-with-hetzner/)
+- [Nix vs Docker for Reproducible Dev Environments](/nix-vs-docker-for-reproducible-dev-environments/)
+- [How to Create a Remote Dev Environment Template](/how-to-create-a-remote-dev-environment-template/)
+- [How to Automate Dev Environment Setup: A Practical Guide](/how-to-automate-dev-environment-setup/)
+- [Optimize Docker for Slow Connections When Working Remotely](/docker-optimize-slow-connection-remote-work/)
+- [Setting Up a Remote Dev Server with Hetzner](/setting-up-remote-dev-server-with-hetzner/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -397,9 +397,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Run Effective Remote One on Ones Guide](/remote-work-tools/how-to-run-effective-remote-one-on-ones-guide/)
-- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [How to Run Effective Skip Level Meetings with Remote](/remote-work-tools/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
-- [Best Mobile Presentation Remote App for Remote Speakers](/remote-work-tools/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
+- [How to Run Effective Remote One on Ones Guide](/how-to-run-effective-remote-one-on-ones-guide/)
+- [How to Include Remote Workers in Office Meetings](/how-to-include-remote-workers-in-office-meetings/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [How to Run Effective Skip Level Meetings with Remote](/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
+- [Best Mobile Presentation Remote App for Remote Speakers](/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

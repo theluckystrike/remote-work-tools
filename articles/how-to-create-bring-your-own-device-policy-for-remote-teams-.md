@@ -262,10 +262,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Bring Your Own Device Policy for Hybrid Work](/remote-work-tools/bring-your-own-device-policy-for-hybrid-work/)
-- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
-- [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
-- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
-- [Remote Team Vulnerability Disclosure Policy Template](/remote-work-tools/remote-team-vulnerability-disclosure-policy-template-for-dis/)
+- [Bring Your Own Device Policy for Hybrid Work](/bring-your-own-device-policy-for-hybrid-work/)
+- [How to Create a Remote Work Policy Document](/remote-work-policy-document-guide/)
+- [Example: Minimum device requirements for team members](/how-to-implement-device-management-policy-for-fully-remote-s/)
+- [Meeting Free Day Policy for Remote Teams Guide](/meeting-free-day-policy-for-remote-teams-guide/)
+- [Remote Team Vulnerability Disclosure Policy Template](/remote-team-vulnerability-disclosure-policy-template-for-dis/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -433,10 +433,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
-- [Remote Work Playbook Template for Startups](/remote-work-tools/remote-work-playbook-template-for-startups/)
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
-- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
-- [How to Organize Remote Team Runbook Documentation for](/remote-work-tools/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
+- [How to Create Remote Work Playbook for Team](/how-to-create-remote-work-playbook-for-team/)
+- [Remote Work Playbook Template for Startups](/remote-work-playbook-template-for-startups/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/)
+- [How to Organize Remote Team Runbook Documentation for](/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

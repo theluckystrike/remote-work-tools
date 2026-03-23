@@ -299,10 +299,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Window Management Tools for Developers](/remote-work-tools/best-window-management-tools-for-developers/)
-- [Best Webcam for Zoom Calls in a Bright Window Behind You](/remote-work-tools/best-webcam-for-zoom-calls-in-a-bright-window-behind-you/)
-- [Best Tools for Remote QA Testing Workflows](/remote-work-tools/best-tools-remote-qa-testing-workflows/)
-- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
-- [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
+- [Best Window Management Tools for Developers](/best-window-management-tools-for-developers/)
+- [Best Webcam for Zoom Calls in a Bright Window Behind You](/best-webcam-for-zoom-calls-in-a-bright-window-behind-you/)
+- [Best Tools for Remote QA Testing Workflows](/best-tools-remote-qa-testing-workflows/)
+- [Google Scholar Chrome Extension Development Guide](/google-scholar-chrome-extension/)
+- [Chrome Extension Linear Issue Tracker: Practical Guide](/chrome-extension-linear-issue-tracker/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

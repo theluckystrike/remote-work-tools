@@ -299,10 +299,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
-- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
-- [Best Webcam for Remote Work Under 100 Dollars 2026](/remote-work-tools/best-webcam-for-remote-work-under-100-dollars-2026/)
-- [Best External Webcams for Remote Work in 2026](/remote-work-tools/articles/best-remote-work-external-webcam-2026/)
-- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [Best Webcam for Home Office Remote Work: A Technical Guide](/best-webcam-for-home-office-remote-work/)
+- [How to Include Remote Workers in Office Meetings](/how-to-include-remote-workers-in-office-meetings/)
+- [Best Webcam for Remote Work Under 100 Dollars 2026](/best-webcam-for-remote-work-under-100-dollars-2026/)
+- [Best External Webcams for Remote Work in 2026](/articles/best-remote-work-external-webcam-2026/)
+- [How to Run Effective Remote One-on-One Meetings](/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

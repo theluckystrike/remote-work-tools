@@ -387,9 +387,9 @@ aws lambda put-provisioned-concurrency-config \
 
 ## Related Reading
 
-- [How to Set Up Semaphore CI for Remote Teams](/remote-work-tools/how-to-set-up-semaphore-ci-for-remote-teams/)
-- [How to Automate Container Image Scanning](/remote-work-tools/how-to-automate-container-image-scanning/)
-- [How to Automate npm Package Publishing](/remote-work-tools/how-to-automate-npm-package-publishing/)
+- [How to Set Up Semaphore CI for Remote Teams](/how-to-set-up-semaphore-ci-for-remote-teams/)
+- [How to Automate Container Image Scanning](/how-to-automate-container-image-scanning/)
+- [How to Automate npm Package Publishing](/how-to-automate-npm-package-publishing/)
 
 ---
 

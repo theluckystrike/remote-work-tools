@@ -339,11 +339,11 @@ Monitor these metrics to understand documentation health:
 
 ## Related Articles
 
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
-- [How to Build Remote Team Documentation Culture Guide](/remote-work-tools/how-to-build-remote-team-documentation-culture-guide/)
-- [How to Set Up Remote Team Documentation Culture in 2026](/remote-work-tools/how-to-set-up-remote-team-documentation-culture-2026/)
-- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
-- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Build Remote Team Documentation Culture Guide](/how-to-build-remote-team-documentation-culture-guide/)
+- [How to Set Up Remote Team Documentation Culture in 2026](/how-to-set-up-remote-team-documentation-culture-2026/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/)
+- [Example OpenAPI specification snippet](/best-practice-for-remote-team-api-documentation-keeping-inte/)
 **How long does it take to complete this setup?**
 
 For a straightforward setup, expect 30 minutes to 2 hours depending on your familiarity with the tools involved. Complex configurations with custom requirements may take longer. Having your credentials and environment ready before starting saves significant time.
@@ -366,10 +366,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
-- [How to Build Remote Team Documentation Culture Guide](/remote-work-tools/how-to-build-remote-team-documentation-culture-guide/)
-- [How to Set Up Remote Team Documentation Culture in 2026](/remote-work-tools/how-to-set-up-remote-team-documentation-culture-2026/)
-- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
-- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Build Remote Team Documentation Culture Guide](/how-to-build-remote-team-documentation-culture-guide/)
+- [How to Set Up Remote Team Documentation Culture in 2026](/how-to-set-up-remote-team-documentation-culture-2026/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/)
+- [Best Practice for Remote Team Documentation Scaling When](/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

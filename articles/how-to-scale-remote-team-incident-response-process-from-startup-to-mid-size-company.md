@@ -331,10 +331,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
-- [Remote Team Security Incident Response Plan Template](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [How to Set Up Remote Team Incident Response Process 2026](/remote-work-tools/how-to-set-up-remote-team-incident-response-process-2026/)
-- [Incident Management Setup for a Remote DevOps Team of 5](/remote-work-tools/incident-management-setup-for-a-remote-devops-team-of-5/)
-- [Best Tools for Remote Team Incident Postmortems in 2026](/remote-work-tools/best-tools-for-remote-team-incident-postmortems-2026/)
+- [Scale Remote Team Incident Response From Startup to Mid-Size](/how-to-scale-remote-team-incident-response-process-from-star/)
+- [Remote Team Security Incident Response Plan Template](/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [How to Set Up Remote Team Incident Response Process 2026](/how-to-set-up-remote-team-incident-response-process-2026/)
+- [Incident Management Setup for a Remote DevOps Team of 5](/incident-management-setup-for-a-remote-devops-team-of-5/)
+- [Best Tools for Remote Team Incident Postmortems in 2026](/best-tools-for-remote-team-incident-postmortems-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

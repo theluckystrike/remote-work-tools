@@ -345,18 +345,18 @@ For a pure development workstation where you want tiling and keyboard control, i
 
 ## Related Reading
 
-- [How to Set Up a Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
-- [Best Ultrawide Monitor for Programming Remote Work](/remote-work-tools/best-ultrawide-monitor-for-programming-remote-work/)
-- [Ergonomic Desk Setup Guide for Developers 2026](/remote-work-tools/ergonomic-desk-setup-developers-2026/)
-- [How to Set Up Dual Monitor Arms on Remote Work Desk](/remote-work-tools/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
+- [How to Set Up a Linux Workstation for Remote Work](/how-to-set-up-linux-workstation-for-remote-work/)
+- [Best Ultrawide Monitor for Programming Remote Work](/best-ultrawide-monitor-for-programming-remote-work/)
+- [Ergonomic Desk Setup Guide for Developers 2026](/ergonomic-desk-setup-developers-2026/)
+- [How to Set Up Dual Monitor Arms on Remote Work Desk](/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
 
 ## Related Articles
 
-- [How to Set Up Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
-- [How to Set Up a Portable Coding Workstation](/remote-work-tools/how-to-set-up-portable-coding-workstation/)
-- [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
-- [Portable Monitor Setup for Digital Nomads](/remote-work-tools/portable-monitor-setup-for-digital-nomads/)
-- [Ergonomic Desk Setup Guide for Developers 2026](/remote-work-tools/ergonomic-desk-setup-developers-2026/)
+- [How to Set Up Linux Workstation for Remote Work](/how-to-set-up-linux-workstation-for-remote-work/)
+- [How to Set Up a Portable Coding Workstation](/how-to-set-up-portable-coding-workstation/)
+- [Monitor Setup for Remote Developer](/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
+- [Portable Monitor Setup for Digital Nomads](/portable-monitor-setup-for-digital-nomads/)
+- [Ergonomic Desk Setup Guide for Developers 2026](/ergonomic-desk-setup-developers-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

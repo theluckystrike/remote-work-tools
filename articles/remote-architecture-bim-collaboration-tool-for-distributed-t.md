@@ -346,10 +346,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
-- [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
-- [Best Collaboration Tool for Remote Machine Learning Teams](/remote-work-tools/best-collaboration-tool-for-remote-machine-learning-teams-sharing-experiment-results/)
-- [CodePen vs CodeSandbox for Remote Collaboration](/remote-work-tools/codepen-vs-codesandbox-for-remote-collaboration/)
-- [Miro vs FigJam for Remote Team Collaboration](/remote-work-tools/miro-vs-figjam-for-remote-team-collaboration/)
+- [Remote Architecture Collaboration Tool for Distributed](/remote-architecture-collaboration-tool-for-distributed-teams/)
+- [Figma vs Sketch for Remote Design Collaboration](/figma-vs-sketch-for-remote-design-collaboration/)
+- [Best Collaboration Tool for Remote Machine Learning Teams](/best-collaboration-tool-for-remote-machine-learning-teams-sharing-experiment-results/)
+- [CodePen vs CodeSandbox for Remote Collaboration](/codepen-vs-codesandbox-for-remote-collaboration/)
+- [Miro vs FigJam for Remote Team Collaboration](/miro-vs-figjam-for-remote-team-collaboration/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

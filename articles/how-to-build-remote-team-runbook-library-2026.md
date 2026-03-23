@@ -507,11 +507,11 @@ Compare to:
 
 ## Related Articles
 
-- [How to Organize Remote Team Runbook Documentation for](/remote-work-tools/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
-- [Migration runbook example structure](/remote-work-tools/best-tool-for-remote-teams-creating-interactive-runbooks-wit/)
-- [Remote Team Runbook Template for Database Failover](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
-- [How to Create Remote Team Runbook Templates](/remote-work-tools/how-to-create-remote-team-runbook-templates/)
-- [How to Build a Remote Team Troubleshooting Guide from Past](/remote-work-tools/how-to-build-remote-team-troubleshooting-guide-from-past-inc/)
+- [How to Organize Remote Team Runbook Documentation for](/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
+- [Migration runbook example structure](/best-tool-for-remote-teams-creating-interactive-runbooks-wit/)
+- [Remote Team Runbook Template for Database Failover](/remote-team-runbook-template-for-database-failover-procedure/)
+- [How to Create Remote Team Runbook Templates](/how-to-create-remote-team-runbook-templates/)
+- [How to Build a Remote Team Troubleshooting Guide from Past](/how-to-build-remote-team-troubleshooting-guide-from-past-inc/)
 1. [On-Call Rotation Best Practices for Remote Teams](/articles/oncall-rotation-remote/)
 2. [Incident Response Playbooks: From Detection to Resolution](/articles/incident-response-playbooks/)
 3. [Chaos Engineering: Testing Your Runbooks at Scale](/articles/chaos-engineering-testing/)

@@ -398,10 +398,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Screen Brightness Settings for Eye Health](/remote-work-tools/screen-brightness-settings-for-eye-health-developers/)
-- [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
-- [Best Remote Work Monitor Light Bar 2026](/remote-work-tools/best-remote-work-monitor-light-bar-2026/)
-- [Best Monitor Refresh Rate for Remote Workers: Reducing Eye](/remote-work-tools/best-monitor-refresh-rate-for-remote-workers-reducing-eye-strain-during-video-calls/)
-- [Base brightness decreases with more monitors](/remote-work-tools/how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/)
+- [Screen Brightness Settings for Eye Health](/screen-brightness-settings-for-eye-health-developers/)
+- [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
+- [Best Remote Work Monitor Light Bar 2026](/best-remote-work-monitor-light-bar-2026/)
+- [Best Monitor Refresh Rate for Remote Workers: Reducing Eye](/best-monitor-refresh-rate-for-remote-workers-reducing-eye-strain-during-video-calls/)
+- [Base brightness decreases with more monitors](/how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

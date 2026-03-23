@@ -326,10 +326,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/remote-work-tools/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
-- [Best Remote Work Ergonomic Mouse 2026](/remote-work-tools/best-remote-work-ergonomic-mouse-2026/)
-- [Wrist Exercises for Programmers](/remote-work-tools/wrist-exercises-for-programmers-prevent-rsi/)
-- [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
-- [Best Keyboard Wrist Rest for Split Keyboard Tenting Setup](/remote-work-tools/best-keyboard-wrist-rest-for-split-keyboard-tenting-setup/)
+- [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
+- [Best Remote Work Ergonomic Mouse 2026](/best-remote-work-ergonomic-mouse-2026/)
+- [Wrist Exercises for Programmers](/wrist-exercises-for-programmers-prevent-rsi/)
+- [How to Reduce Wrist Pain from Coding on Laptop All Day](/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
+- [Best Keyboard Wrist Rest for Split Keyboard Tenting Setup](/best-keyboard-wrist-rest-for-split-keyboard-tenting-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

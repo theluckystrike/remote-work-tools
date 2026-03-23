@@ -222,10 +222,10 @@ Platform choice matters less than these factors:
 
 ## Related Articles
 
-- [Freelance Developer to Product Builder Transition](/remote-work-tools/freelance-developer-to-product-builder-transition/)
-- [Freelance Developer Networking Strategies Online](/remote-work-tools/freelance-developer-networking-strategies-online/)
-- [How to Incorporate as a Freelance Developer](/remote-work-tools/how-to-incorporate-as-a-freelance-developer/)
-- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
-- [How to Set Freelance Developer Rates in 2026](/remote-work-tools/how-to-set-freelance-developer-rates-2026/)
+- [Freelance Developer to Product Builder Transition](/freelance-developer-to-product-builder-transition/)
+- [Freelance Developer Networking Strategies Online](/freelance-developer-networking-strategies-online/)
+- [How to Incorporate as a Freelance Developer](/how-to-incorporate-as-a-freelance-developer/)
+- [First 90 Days as a Freelance Developer: A Complete Guide](/first-90-days-as-freelance-developer-guide/)
+- [How to Set Freelance Developer Rates in 2026](/how-to-set-freelance-developer-rates-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

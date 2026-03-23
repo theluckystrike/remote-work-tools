@@ -226,20 +226,20 @@ warn "No tests modified. Are you sure tests aren't needed?" if has_src_changes &
 
 ## Related Reading
 
-- [Remote Team Git Hooks Standardization Guide](/remote-work-tools/remote-team-git-hooks-standardization-guide/)
-- [Best Tools for Remote Team Code Ownership](/remote-work-tools/best-tools-remote-team-code-ownership/)
-- [How to Create Remote Team Playbook Templates](/remote-work-tools/how-to-create-remote-team-playbook-templates/)
+- [Remote Team Git Hooks Standardization Guide](/remote-team-git-hooks-standardization-guide/)
+- [Best Tools for Remote Team Code Ownership](/best-tools-remote-team-code-ownership/)
+- [How to Create Remote Team Playbook Templates](/how-to-create-remote-team-playbook-templates/)
 
-- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
+- [Async Code Review Process Without Zoom Calls Step by Step](/async-code-review-process-without-zoom-calls-step-by-step/)
 ---
 
 ## Related Articles
 
-- [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
-- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
-- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-- [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
-- [Best Wiki Template for Remote Team Engineering Design](/remote-work-tools/best-wiki-template-for-remote-team-engineering-design-docume/)
+- [Remote Code Review Tools Comparison 2026](/remote-code-review-tools-comparison-2026/)
+- [Remote Team Handbook Template](/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Best Practice for Remote Team Code Review Comments](/best-practice-for-remote-team-code-review-comments-keeping-f/)
+- [Best Wiki Template for Remote Team Engineering Design](/best-wiki-template-for-remote-team-engineering-design-docume/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

@@ -351,11 +351,11 @@ Check the export options before committing. Most tools let you export your data,
 
 ## Related Articles
 
-- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-- [How to Do Async Code Pairing with Recorded Screen Share](/remote-work-tools/how-to-do-async-code-pairing-with-recorded-screen-share-sessions/)
-- [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
-- [How to Preserve Async Communication Culture When Team Moves](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
-- [How to Do Async Performance Reviews for Remote Engineering](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
+- [Remote Developer Code Review Workflow Tools for Teams](/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+- [How to Do Async Code Pairing with Recorded Screen Share](/how-to-do-async-code-pairing-with-recorded-screen-share-sessions/)
+- [Remote Code Review Tools Comparison 2026](/remote-code-review-tools-comparison-2026/)
+- [How to Preserve Async Communication Culture When Team Moves](/how-to-preserve-async-communication-culture-when-team-moves-/)
+- [How to Do Async Performance Reviews for Remote Engineering](/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Related Reading

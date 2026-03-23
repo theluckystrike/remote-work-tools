@@ -505,20 +505,20 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 
 ## Related Reading
 
-- [How to Set Up Ansible for Remote Server Management](/remote-work-tools/how-to-set-up-ansible-remote-server-management/)
-- [Remote Work Backup Strategy for Developers](/remote-work-tools/remote-work-backup-strategy-for-developers/)
-- [Best Practice for Remote Team Escalation Paths](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
-- [How to Automate Docker Container Updates](/remote-work-tools/automate-docker-container-updates/)
+- [How to Set Up Ansible for Remote Server Management](/how-to-set-up-ansible-remote-server-management/)
+- [Remote Work Backup Strategy for Developers](/remote-work-backup-strategy-for-developers/)
+- [Best Practice for Remote Team Escalation Paths](/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
+- [How to Automate Docker Container Updates](/automate-docker-container-updates/)
 
 ---
 
 ## Related Articles
 
-- [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
-- [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
-- [Remote Onboarding Best Practices Guide 2026](/remote-work-tools/remote-onboarding-best-practices-guide-2026/)
-- [How to Set Up Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Linux Server Hardening Guide for Remote Developers](/linux-server-hardening-remote-developers/)
+- [Remote Work Security Hardening Checklist](/remote-work-security-hardening-checklist/)
+- [Remote Onboarding Best Practices Guide 2026](/remote-onboarding-best-practices-guide-2026/)
+- [How to Set Up Linux Workstation for Remote Work](/how-to-set-up-linux-workstation-for-remote-work/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -430,9 +430,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Async Retrospective Tools and Process Guide](/remote-work-tools/async-retrospective-tools-and-process/)
-- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
-- [Async Team Retrospective Using Shared Documents and Recorded](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
-- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-- [Best Tools for Remote Team Retrospective Facilitation 2026](/remote-work-tools/best-tools-for-remote-team-retrospective-facilitation-2026/)
+- [Async Retrospective Tools and Process Guide](/async-retrospective-tools-and-process/)
+- [Best Tools for Remote Team Retrospectives 2026](/best-tools-for-remote-team-retrospectives-2026/)
+- [Async Team Retrospective Using Shared Documents and Recorded](/async-team-retrospective-using-shared-documents-and-recorded/)
+- [Best Async Project Management Tools for Distributed Teams](/best-async-project-management-tools-for-distributed-teams-2026/)
+- [Best Tools for Remote Team Retrospective Facilitation 2026](/best-tools-for-remote-team-retrospective-facilitation-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

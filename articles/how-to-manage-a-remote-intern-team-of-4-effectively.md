@@ -340,10 +340,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Onboard Remote Interns Effectively With Structured](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)
-- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
-- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
-- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [How to Onboard Remote Interns Effectively With Structured](/how-to-onboard-remote-interns-effectively-with-structured-me/)
+- [How to Manage Standups for a Remote QA Team of 7](/how-to-manage-standups-for-a-remote-qa-team-of-7/)
+- [How to Manage Multi-Repo Projects with Remote Team](/how-to-manage-multi-repo-projects-with-remote-team/)
+- [How to Set Up Remote Team Communication Audit](/how-to-set-up-remote-team-communication-audit-identifying-un/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

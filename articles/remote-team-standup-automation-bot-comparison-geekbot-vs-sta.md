@@ -290,8 +290,8 @@ Once you have good questions, implementing them in a bot takes 15 minutes.
 
 ## Related Articles
 
-- [Best Tools for Remote Team Standup Meetings 2026](/remote-work-tools/best-tools-for-remote-team-standup-meetings-2026/)
-- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
-- [Standup Bot Comparison for Remote Engineering Teams](/remote-work-tools/standup-bot-comparison-for-remote-engineering-teams/)
-- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
-- [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
+- [Best Tools for Remote Team Standup Meetings 2026](/best-tools-for-remote-team-standup-meetings-2026/)
+- [How to Run Remote Team Daily Standup in Slack Without Bot](/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
+- [Standup Bot Comparison for Remote Engineering Teams](/standup-bot-comparison-for-remote-engineering-teams/)
+- [How to Manage Standups for a Remote QA Team of 7](/how-to-manage-standups-for-a-remote-qa-team-of-7/)
+- [Best Tools for Remote Team Async Standups in 2026](/best-tools-for-remote-team-async-standups-2026/)

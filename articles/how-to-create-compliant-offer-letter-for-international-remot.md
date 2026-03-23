@@ -275,10 +275,10 @@ There's no universal answer. Paying in local currency protects the employee from
 
 ## Related Articles
 
-- [How to Set Up Compliant Remote Employee Benefits](/remote-work-tools/how-to-set-up-compliant-remote-employee-benefits-across-mult/)
-- [How to Negotiate Remote Work in Job Offer Guide](/remote-work-tools/how-to-negotiate-remote-work-in-job-offer-guide/)
-- [How to Handle Employment Law Differences for Remote Teams](/remote-work-tools/how-to-handle-employment-law-differences-for-remote-teams-ac/)
-- [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
-- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
+- [How to Set Up Compliant Remote Employee Benefits](/how-to-set-up-compliant-remote-employee-benefits-across-mult/)
+- [How to Negotiate Remote Work in Job Offer Guide](/how-to-negotiate-remote-work-in-job-offer-guide/)
+- [How to Handle Employment Law Differences for Remote Teams](/how-to-handle-employment-law-differences-for-remote-teams-ac/)
+- [How to Create Bring Your Own Device Policy for Remote Teams](/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [Required security configurations for company laptops](/how-to-create-remote-team-acceptable-use-policy-for-company-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -409,10 +409,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Natural Light Optimization for Home Office](/remote-work-tools/natural-light-optimization-for-home-office/)
-- [Best Webcam Lighting Setup Under $100 for Professional](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
-- [Best Remote Work Monitor Light Bar 2026](/remote-work-tools/best-remote-work-monitor-light-bar-2026/)
-- [Ring Light vs Panel Light for Video Calls: A Developer Guide](/remote-work-tools/ring-light-vs-panel-light-for-video-calls/)
-- [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
+- [Natural Light Optimization for Home Office](/natural-light-optimization-for-home-office/)
+- [Best Webcam Lighting Setup Under $100 for Professional](/best-webcam-lighting-setup-under-100-dollars/)
+- [Best Remote Work Monitor Light Bar 2026](/best-remote-work-monitor-light-bar-2026/)
+- [Ring Light vs Panel Light for Video Calls: A Developer Guide](/ring-light-vs-panel-light-for-video-calls/)
+- [Redshift - Linux/Unix blue light filter](/best-home-office-setup-for-software-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -257,10 +257,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
-- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [.GitHub/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
-- [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
+- [Project Kickoff: [Project Name]](/how-to-create-remote-team-project-kickoff-documentation-temp/)
+- [How to Create Client Communication Charter for Remote](/how-to-create-client-communication-charter-for-remote-agency/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [.GitHub/communication.yml](/how-to-create-remote-team-communication-charter-that-new-hir/)
+- [Cross Timezone Communication Strategies for Remote Teams](/cross-timezone-communication-strategies-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

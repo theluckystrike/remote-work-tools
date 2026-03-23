@@ -258,10 +258,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Buddy System for Onboarding Remote Junior Developers Guide](/remote-work-tools/buddy-system-for-onboarding-remote-junior-developers-guide/)
-- [How to Create Remote Onboarding Buddy Program Template](/remote-work-tools/how-to-create-remote-onboarding-buddy-program-template-for-n/)
-- [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
-- [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
-- [communication-preferences.yaml](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
+- [Buddy System for Onboarding Remote Junior Developers Guide](/buddy-system-for-onboarding-remote-junior-developers-guide/)
+- [How to Create Remote Onboarding Buddy Program Template](/how-to-create-remote-onboarding-buddy-program-template-for-n/)
+- [How to Create Remote Buddy System Program for Onboarding](/how-to-create-remote-buddy-system-program-for-onboarding-new/)
+- [Remote Team Onboarding Tools and Checklist](/remote-team-onboarding-tools-checklist/)
+- [communication-preferences.yaml](/remote-team-onboarding-communication-checklist-for-first-two/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

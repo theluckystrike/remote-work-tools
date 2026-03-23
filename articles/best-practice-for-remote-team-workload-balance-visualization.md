@@ -370,10 +370,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Remote Team Workload Distribution Tool for Managers](/remote-work-tools/remote-team-workload-distribution-tool-for-managers-balancin/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
-- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
-- [Best Tools for Remote Team Capacity Planning in 2026](/remote-work-tools/best-tools-for-remote-team-capacity-planning-2026/)
+- [Remote Team Workload Distribution Tool for Managers](/remote-team-workload-distribution-tool-for-managers-balancin/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/how-to-run-remote-team-retrospective-focused-on-team-health/)
+- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
+- [Best Tools for Remote Team Capacity Planning in 2026](/best-tools-for-remote-team-capacity-planning-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

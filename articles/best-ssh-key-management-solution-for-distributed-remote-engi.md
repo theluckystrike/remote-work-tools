@@ -317,10 +317,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [SSH Tunnels for Remote Database Access](/remote-work-tools/ssh-tunnels-remote-database-access/)
-- [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
-- [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
-- [How to Scale Remote Team Access Management When Onboarding](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
-- [Best Secrets Management Tool for Remote Development Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
+- [SSH Tunnels for Remote Database Access](/ssh-tunnels-remote-database-access/)
+- [Remote Work Security Hardening Checklist](/remote-work-security-hardening-checklist/)
+- [Linux Server Hardening Guide for Remote Developers](/linux-server-hardening-remote-developers/)
+- [How to Scale Remote Team Access Management When Onboarding](/how-to-scale-remote-team-access-management-when-onboarding-m/)
+- [Best Secrets Management Tool for Remote Development Teams](/best-secrets-management-tool-for-remote-development-teams-us/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

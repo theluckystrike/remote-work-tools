@@ -263,11 +263,11 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
-- [How to Celebrate Employee Anniversaries on Fully Remote](/remote-work-tools/how-to-celebrate-employee-anniversaries-on-fully-remote-team/)
-- [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
-- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
-- [Remote HR Onboarding Platform Comparison for Hiring](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
+- [Simple Slack kudos automation using Slack API](/best-remote-employee-recognition-program-ideas-for-distribut/)
+- [How to Celebrate Employee Anniversaries on Fully Remote](/how-to-celebrate-employee-anniversaries-on-fully-remote-team/)
+- [Best Observability Platform for Remote Teams Correlating](/best-observability-platform-for-remote-teams-correlating-log/)
+- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
+- [Remote HR Onboarding Platform Comparison for Hiring](/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Related Reading

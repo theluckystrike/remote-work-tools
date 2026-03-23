@@ -375,10 +375,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Coworking Space Day Pass Guide](/remote-work-tools/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
-- [Coworking Space Membership vs Day Pass Comparison](/remote-work-tools/coworking-space-membership-vs-day-pass-comparison/)
-- [Coworking Space Finder Apps for Nomads](/remote-work-tools/coworking-space-finder-apps-for-nomads/)
-- [Hot Desk Booking Software Comparison 2026](/remote-work-tools/hot-desk-booking-software-comparison-2026/)
-- [How to Find Coworking Spaces in Medellín Colombia](/remote-work-tools/how-to-find-coworking-spaces-in-medellin-colombia-with-video/)
+- [Coworking Space Day Pass Guide](/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
+- [Coworking Space Membership vs Day Pass Comparison](/coworking-space-membership-vs-day-pass-comparison/)
+- [Coworking Space Finder Apps for Nomads](/coworking-space-finder-apps-for-nomads/)
+- [Hot Desk Booking Software Comparison 2026](/hot-desk-booking-software-comparison-2026/)
+- [How to Find Coworking Spaces in Medellín Colombia](/how-to-find-coworking-spaces-in-medellin-colombia-with-video/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

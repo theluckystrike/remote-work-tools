@@ -346,9 +346,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
-- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
-- [Digital Signage for Hybrid Office Communication](/remote-work-tools/digital-signage-for-hybrid-office-communication/)
-- [Remote Team First 90 Days Plan Template for Senior Hires](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
+- [Example: Generating a staggered schedule for a 6-person team](/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/return-to-office-tools-for-hybrid-teams/)
+- [Review assignment logic (example)](/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
+- [Digital Signage for Hybrid Office Communication](/digital-signage-for-hybrid-office-communication/)
+- [Remote Team First 90 Days Plan Template for Senior Hires](/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

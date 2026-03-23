@@ -342,10 +342,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
-- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
-- [How to Present Sprint Demos to Non-Technical Remote Clients](/remote-work-tools/how-to-present-sprint-demos-to-non-technical-remote-clients/)
-- [How to Incorporate as a Freelance Developer](/remote-work-tools/how-to-incorporate-as-a-freelance-developer/)
-- [Notion Setup for Solo Freelancer Managing 5 Clients](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
+- [How to Manage Multiple Freelance Clients Effectively](/how-to-manage-multiple-freelance-clients-effectively/)
+- [First 90 Days as a Freelance Developer: A Complete Guide](/first-90-days-as-freelance-developer-guide/)
+- [How to Present Sprint Demos to Non-Technical Remote Clients](/how-to-present-sprint-demos-to-non-technical-remote-clients/)
+- [How to Incorporate as a Freelance Developer](/how-to-incorporate-as-a-freelance-developer/)
+- [Notion Setup for Solo Freelancer Managing 5 Clients](/notion-setup-for-solo-freelancer-managing-5-clients/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

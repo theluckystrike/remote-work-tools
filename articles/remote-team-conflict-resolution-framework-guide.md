@@ -561,10 +561,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Conflict Resolution Framework for Managers](/remote-work-tools/remote-team-conflict-resolution-framework-for-managers-handl/)
-- [.GitHub/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
-- [How to Create Remote Team Decision Making Framework for Dist](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
+- [Remote Team Conflict Resolution Framework for Managers](/remote-team-conflict-resolution-framework-for-managers-handl/)
+- [.GitHub/workflows/conflict-escalation.yaml](/remote-team-conflict-resolution-over-chat-when-video-call-is/)
+- [How to Create Remote Team Decision Making Framework for Dist](/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [Remote Team Async Decision-Making Framework](/remote-team-async-decision-making-framework/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

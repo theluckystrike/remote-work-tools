@@ -288,10 +288,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
-- [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
-- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
-- [Best Tools for Remote Team Design System Documentation 2026](/remote-work-tools/best-tools-for-remote-team-design-system-documentation-2026/)
-- [Best Tools for Remote Design System Management](/remote-work-tools/best-tools-remote-design-system-management/)
+- [Example: GitHub Actions workflow for assessment tracking](/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [GitHub Actions Workflow for Remote Dev Teams](/github-actions-remote-dev-workflow/)
+- [Migrating from AWS CodeCommit to GitHub for Remote Team](/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
+- [Best Tools for Remote Team Design System Documentation 2026](/best-tools-for-remote-team-design-system-documentation-2026/)
+- [Best Tools for Remote Design System Management](/best-tools-remote-design-system-management/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

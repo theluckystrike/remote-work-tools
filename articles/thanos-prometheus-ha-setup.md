@@ -489,9 +489,9 @@ Thanos in S3 storage can accumulate significant costs if retention and downsampl
 
 ## Related Reading
 
-- [Prometheus Alerting for Remote Infrastructure](/remote-work-tools/prometheus-alerting-remote-infra-setup/)
-- [How to Set Up MinIO for Artifact Storage](/remote-work-tools/minio-artifact-storage-setup/)
-- [Prometheus Monitoring Setup for Remote Infrastructure](/remote-work-tools/prometheus-monitoring-remote-infrastructure/)
+- [Prometheus Alerting for Remote Infrastructure](/prometheus-alerting-remote-infra-setup/)
+- [How to Set Up MinIO for Artifact Storage](/minio-artifact-storage-setup/)
+- [Prometheus Monitoring Setup for Remote Infrastructure](/prometheus-monitoring-remote-infrastructure/)
 
 ---
 

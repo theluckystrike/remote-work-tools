@@ -405,10 +405,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Create Remote Team Escalation Communication Template](/remote-work-tools/how-to-create-remote-team-escalation-communication-template-/)
-- [Best Practice for Remote Team Escalation Paths That Scale](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
-- [How to Set Up Remote Team On-Call Rotation 2026](/remote-work-tools/how-to-set-up-remote-team-on-call-rotation-2026/)
-- [How to Write Runbooks for Remote Engineering Teams](/remote-work-tools/how-to-write-runbooks-remote-engineering-teams/)
-- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
+- [How to Create Remote Team Escalation Communication Template](/how-to-create-remote-team-escalation-communication-template-/)
+- [Best Practice for Remote Team Escalation Paths That Scale](/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
+- [How to Set Up Remote Team On-Call Rotation 2026](/how-to-set-up-remote-team-on-call-rotation-2026/)
+- [How to Write Runbooks for Remote Engineering Teams](/how-to-write-runbooks-remote-engineering-teams/)
+- [Do Async Performance Reviews for Remote Engineering Teams](/how-to-do-async-performance-reviews-for-remote-engineering-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -266,10 +266,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Asynchronous Team Retrospective Tools Methods Process](/remote-work-tools/asynchronous-team-retrospective-tools-methods-process/)
-- [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
-- [How to Organize Remote Team Retrospective Learnings](/remote-work-tools/how-to-organize-remote-team-retrospective-learnings-document/)
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
-- [Async Retrospective Tools and Process Guide](/remote-work-tools/async-retrospective-tools-and-process/)
+- [Asynchronous Team Retrospective Tools Methods Process](/asynchronous-team-retrospective-tools-methods-process/)
+- [Async Team Building Activities for Distributed Teams](/async-team-building-activities-for-distributed-teams-differe/)
+- [How to Organize Remote Team Retrospective Learnings](/how-to-organize-remote-team-retrospective-learnings-document/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [Async Retrospective Tools and Process Guide](/async-retrospective-tools-and-process/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

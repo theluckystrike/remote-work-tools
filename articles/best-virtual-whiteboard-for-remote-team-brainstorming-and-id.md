@@ -343,10 +343,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Whiteboard Tool for Remote Client Brainstorming](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
-- [Best Whiteboard Tool for a Remote Team of 10 Product](/remote-work-tools/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
-- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
-- [Best Virtual Coffee Chat Tool for Remote Teams Building](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
-- [Remote Team Retrospective Silent Brainstorming Technique](/remote-work-tools/remote-team-retrospective-silent-brainstorming-technique-for/)
+- [Best Whiteboard Tool for Remote Client Brainstorming](/best-whiteboard-tool-for-remote-client-brainstorming-session/)
+- [Best Whiteboard Tool for a Remote Team of 10 Product](/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
+- [Best Virtual Team Building Activity Platform for Remote](/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Best Virtual Coffee Chat Tool for Remote Teams Building](/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
+- [Remote Team Retrospective Silent Brainstorming Technique](/remote-team-retrospective-silent-brainstorming-technique-for/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -243,10 +243,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Tools for Remote Team Sprint Planning](/remote-work-tools/best-tools-for-remote-sprint-planning/)
-- [Best Tools for Remote Team Sprint Planning (2026)](/remote-work-tools/best-tools-for-remote-team-sprint-planning-2026/)
-- [Best Sprint Planning Tools for Remote Scrum Masters](/remote-work-tools/best-sprint-planning-tools-for-remote-scrum-masters/)
-- [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
-- [How to Scale Remote Team Sprint Ceremonies When Splitting](/remote-work-tools/how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/)
+- [Best Tools for Remote Team Sprint Planning](/best-tools-for-remote-sprint-planning/)
+- [Best Tools for Remote Team Sprint Planning (2026)](/best-tools-for-remote-team-sprint-planning-2026/)
+- [Best Sprint Planning Tools for Remote Scrum Masters](/best-sprint-planning-tools-for-remote-scrum-masters/)
+- [Sprint {{ sprint_number }} Preparation](/remote-team-sprint-planning-communication-template-for-distr/)
+- [How to Scale Remote Team Sprint Ceremonies When Splitting](/how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

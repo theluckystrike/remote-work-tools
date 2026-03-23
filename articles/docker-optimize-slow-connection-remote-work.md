@@ -288,18 +288,18 @@ The `type=gha` cache stores Docker layer cache in GitHub Actions Cache storage (
 
 ## Related Reading
 
-- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
-- [Nix vs Docker for Reproducible Dev Environments](/remote-work-tools/nix-vs-docker-for-reproducible-dev-environments/)
-- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
-- [How to Handle Mail and Legal Address When Working Remotely](/remote-work-tools/how-to-handle-mail-and-legal-address-when-working-remotely-f/)
+- [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
+- [Nix vs Docker for Reproducible Dev Environments](/nix-vs-docker-for-reproducible-dev-environments/)
+- [CI/CD Pipeline for Solo Developers: GitHub Actions](/ci-cd-pipeline-solo-developer-github-actions/)
+- [How to Handle Mail and Legal Address When Working Remotely](/how-to-handle-mail-and-legal-address-when-working-remotely-f/)
 
 ## Related Articles
 
-- [Nix vs Docker for Reproducible Dev Environments](/remote-work-tools/nix-vs-docker-for-reproducible-dev-environments/)
-- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
-- [How to Set Up Fluentd for Log Collection](/remote-work-tools/how-to-set-up-fluentd-for-log-collection/)
-- [How to Set Up Portainer for Docker Management](/remote-work-tools/how-to-set-up-portainer-for-docker-management/)
-- [How to Set Up Traefik Reverse Proxy](/remote-work-tools/how-to-set-up-traefik-reverse-proxy/)
+- [Nix vs Docker for Reproducible Dev Environments](/nix-vs-docker-for-reproducible-dev-environments/)
+- [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
+- [How to Set Up Fluentd for Log Collection](/how-to-set-up-fluentd-for-log-collection/)
+- [How to Set Up Portainer for Docker Management](/how-to-set-up-portainer-for-docker-management/)
+- [How to Set Up Traefik Reverse Proxy](/how-to-set-up-traefik-reverse-proxy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

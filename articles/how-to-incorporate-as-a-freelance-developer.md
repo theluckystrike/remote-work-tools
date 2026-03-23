@@ -333,10 +333,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
-- [How to Set Freelance Developer Rates in 2026](/remote-work-tools/how-to-set-freelance-developer-rates-2026/)
-- [Llc vs Sole Proprietor for Freelance Developers](/remote-work-tools/llc-vs-sole-proprietor-for-freelance-developers/)
-- [How to Separate Business and Personal Finances](/remote-work-tools/how-to-separate-business-and-personal-finances-freelance/)
-- [Tax Deductions Guide for Freelance Developers 2026](/remote-work-tools/tax-deductions-guide-for-freelance-developers-2026/)
+- [First 90 Days as a Freelance Developer: A Complete Guide](/first-90-days-as-freelance-developer-guide/)
+- [How to Set Freelance Developer Rates in 2026](/how-to-set-freelance-developer-rates-2026/)
+- [Llc vs Sole Proprietor for Freelance Developers](/llc-vs-sole-proprietor-for-freelance-developers/)
+- [How to Separate Business and Personal Finances](/how-to-separate-business-and-personal-finances-freelance/)
+- [Tax Deductions Guide for Freelance Developers 2026](/tax-deductions-guide-for-freelance-developers-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -364,20 +364,20 @@ Common causes of consistent SLA violations:
 
 ## Related Reading
 
-- [Best Practice for Remote Team Direct Message vs Channel Messaging](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-mess/)
-- [Async Standup Format for a Remote Mobile Dev Team](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-- [Best Notification Batching Strategies for Async-First Remote Teams](/remote-work-tools/best-notification-batching-strategies-for-async-first-remote-teams/)
-- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
+- [Best Practice for Remote Team Direct Message vs Channel Messaging](/best-practice-for-remote-team-direct-message-vs-channel-mess/)
+- [Async Standup Format for a Remote Mobile Dev Team](/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+- [Best Notification Batching Strategies for Async-First Remote Teams](/best-notification-batching-strategies-for-async-first-remote-teams/)
+- [Async Weekly Recap Email Template for Remote Team Leads 2026](/async-weekly-recap-email-template-for-remote-team-leads-2026/)
 
 ---
 
 ## Related Articles
 
-- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
-- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
-- [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
-- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
-- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [How to Set Up Remote Team Communication Audit](/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [Remote Team Communication Strategy Guide](/remote-team-communication-strategy-guide/)
+- [How to Write Remote Team Postmortem Communication Template](/how-to-write-remote-team-postmortem-communication-template-f/)
+- [Communication Norms for a Remote Team of 20 Across 4](/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+- [Remote Team Handbook Section Template for Defining](/remote-team-handbook-section-template-for-defining-communica/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

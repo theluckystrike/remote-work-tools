@@ -1299,11 +1299,11 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-- [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
-- [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
-- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-- [Remote Team Book Club Format and Facilitation Guide](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
+- [Reading schedule generator for async book clubs](/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [How to Run Book Clubs for a Remote Engineering Team of 40](/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
+- [Async Team Building Activities for Distributed Teams](/async-team-building-activities-for-distributed-teams-differe/)
+- [Best Async Project Management Tools for Distributed Teams](/best-async-project-management-tools-for-distributed-teams-2026/)
+- [Remote Team Book Club Format and Facilitation Guide](/remote-team-book-club-format-and-facilitation-guide-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

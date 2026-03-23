@@ -383,10 +383,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
-- [How to Detect and Prevent Burnout in Remote Employees](/remote-work-tools/how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-signs/)
-- [Remote Working Parent Support Group Template for Distributed](/remote-work-tools/remote-working-parent-support-group-template-for-distributed/)
-- [How to Create Remote Team Working Agreement Template for New](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
-- [Best Meal Delivery Service Comparison for Remote Working](/remote-work-tools/best-meal-delivery-service-comparison-for-remote-working-fam/)
+- [Remote Working Parent Self Care Checklist for Avoiding](/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
+- [How to Detect and Prevent Burnout in Remote Employees](/how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-signs/)
+- [Remote Working Parent Support Group Template for Distributed](/remote-working-parent-support-group-template-for-distributed/)
+- [How to Create Remote Team Working Agreement Template for New](/how-to-create-remote-team-working-agreement-template-for-new/)
+- [Best Meal Delivery Service Comparison for Remote Working](/best-meal-delivery-service-comparison-for-remote-working-fam/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

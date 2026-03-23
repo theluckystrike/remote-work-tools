@@ -478,20 +478,20 @@ curl -X POST \
 
 ## Related Reading
 
-- [Setting Up Loki for Remote Log Aggregation](/remote-work-tools/setting-up-loki-remote-log-aggregation/)
-- [Setting Up Jaeger for Distributed Tracing](/remote-work-tools/setting-up-jaeger-distributed-tracing/)
-- [Best Observability Platform for Remote Teams](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
-- [Best Analytics Dashboard for a Remote Growth Team of 4](/remote-work-tools/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
+- [Setting Up Loki for Remote Log Aggregation](/setting-up-loki-remote-log-aggregation/)
+- [Setting Up Jaeger for Distributed Tracing](/setting-up-jaeger-distributed-tracing/)
+- [Best Observability Platform for Remote Teams](/best-observability-platform-for-remote-teams-correlating-log/)
+- [Best Analytics Dashboard for a Remote Growth Team of 4](/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
 
 ---
 
 ## Related Articles
 
-- [Best API Tools for Automating Remote Team Compliance](/remote-work-tools/best-api-tools-for-automating-remote-team-compliance-reporti/)
-- [Best Analytics Dashboard for a Remote Growth Team of 4](/remote-work-tools/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
-- [Best Remote Work Tools for Java Teams Migrating from](/remote-work-tools/best-remote-work-tools-for-java-teams-migrating-from-monolit/)
-- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
-- [Best Tool for Remote Teams Recording and Transcribing](/remote-work-tools/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
+- [Best API Tools for Automating Remote Team Compliance](/best-api-tools-for-automating-remote-team-compliance-reporti/)
+- [Best Analytics Dashboard for a Remote Growth Team of 4](/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
+- [Best Remote Work Tools for Java Teams Migrating from](/best-remote-work-tools-for-java-teams-migrating-from-monolit/)
+- [Best Business Intelligence Tool for Small Remote Teams](/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [Best Tool for Remote Teams Recording and Transcribing](/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

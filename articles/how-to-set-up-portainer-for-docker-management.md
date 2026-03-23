@@ -278,20 +278,20 @@ curl -s -X POST \
 
 ## Related Reading
 
-- [How to Set Up Netdata for Server Monitoring](/remote-work-tools/how-to-set-up-netdata-for-server-monitoring/)
-- [How to Set Up Woodpecker CI for Self-Hosted](/remote-work-tools/how-to-set-up-woodpecker-ci-for-self-hosted/)
-- [How to Set Up Traefik Reverse Proxy](/remote-work-tools/how-to-set-up-traefik-reverse-proxy/)
+- [How to Set Up Netdata for Server Monitoring](/how-to-set-up-netdata-for-server-monitoring/)
+- [How to Set Up Woodpecker CI for Self-Hosted](/how-to-set-up-woodpecker-ci-for-self-hosted/)
+- [How to Set Up Traefik Reverse Proxy](/how-to-set-up-traefik-reverse-proxy/)
 
-- [How to Set Up Ansible for Remote Server Management](/remote-work-tools/how-to-set-up-ansible-remote-server-management/)
+- [How to Set Up Ansible for Remote Server Management](/how-to-set-up-ansible-remote-server-management/)
 ---
 
 ## Related Articles
 
-- [How to Set Up Traefik Reverse Proxy](/remote-work-tools/how-to-set-up-traefik-reverse-proxy/)
-- [Setting Up Keycloak for Team SSO](/remote-work-tools/setting-up-keycloak-for-team-sso/)
-- [Optimize Docker for Slow Connections When Working Remotely](/remote-work-tools/docker-optimize-slow-connection-remote-work/)
-- [Nix vs Docker for Reproducible Dev Environments](/remote-work-tools/nix-vs-docker-for-reproducible-dev-environments/)
-- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
+- [How to Set Up Traefik Reverse Proxy](/how-to-set-up-traefik-reverse-proxy/)
+- [Setting Up Keycloak for Team SSO](/setting-up-keycloak-for-team-sso/)
+- [Optimize Docker for Slow Connections When Working Remotely](/docker-optimize-slow-connection-remote-work/)
+- [Nix vs Docker for Reproducible Dev Environments](/nix-vs-docker-for-reproducible-dev-environments/)
+- [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

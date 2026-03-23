@@ -317,10 +317,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
-- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
-- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
-- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
-- [How to Handle Hybrid Meeting Whiteboard Challenge](/remote-work-tools/how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-physical-participants/)
+- [Hybrid Meeting Equity Tips for Remote Participants](/hybrid-meeting-equity-tips-for-remote-participants/)
+- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+- [How to Include Remote Workers in Office Meetings](/how-to-include-remote-workers-in-office-meetings/)
+- [How to Transition Team Rituals from Fully Remote to Hybrid](/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
+- [How to Handle Hybrid Meeting Whiteboard Challenge](/how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-physical-participants/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

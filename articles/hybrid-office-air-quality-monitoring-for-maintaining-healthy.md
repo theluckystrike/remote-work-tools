@@ -300,10 +300,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Air Quality Monitoring for Hybrid Office Spaces](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
-- [Hybrid Office Fire Safety and Evacuation Plan Update](/remote-work-tools/hybrid-office-fire-safety-and-evacuation-plan-update-for-var/)
-- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
-- [Home Office Ventilation Solutions When Room Has No Window](/remote-work-tools/home-office-ventilation-solutions-when-room-has-no-window/)
-- [Hybrid Office Space Planning Tool for Facilities Managers](/remote-work-tools/hybrid-office-space-planning-tool-for-facilities-managers-op/)
+- [Air Quality Monitoring for Hybrid Office Spaces](/air-quality-monitoring-for-hybrid-office-spaces/)
+- [Hybrid Office Fire Safety and Evacuation Plan Update](/hybrid-office-fire-safety-and-evacuation-plan-update-for-var/)
+- [Best Air Purifier for Home Office Productivity](/best-air-purifier-for-home-office-productivity/)
+- [Home Office Ventilation Solutions When Room Has No Window](/home-office-ventilation-solutions-when-room-has-no-window/)
+- [Hybrid Office Space Planning Tool for Facilities Managers](/hybrid-office-space-planning-tool-for-facilities-managers-op/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -330,11 +330,11 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
-- [Best Knowledge Base Platform for Remote Support Team](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
-- [Best Knowledge Base Search Tool for Remote Teams with Docs](/remote-work-tools/best-knowledge-base-search-tool-for-remote-teams-with-docs-across-multiple-platforms/)
-- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
-- [Self-Hosted Knowledge Base for Remote Support Team](/remote-work-tools/self-hosted-knowledge-base-for-remote-support-team-replacing/)
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/how-to-manage-remote-team-knowledge-base-guide/)
+- [Best Knowledge Base Platform for Remote Support Team](/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
+- [Best Knowledge Base Search Tool for Remote Teams with Docs](/best-knowledge-base-search-tool-for-remote-teams-with-docs-across-multiple-platforms/)
+- [Slite vs Notion for Team Knowledge Base](/slite-vs-notion-for-team-knowledge-base/)
+- [Self-Hosted Knowledge Base for Remote Support Team](/self-hosted-knowledge-base-for-remote-support-team-replacing/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

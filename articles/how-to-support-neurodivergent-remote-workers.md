@@ -352,10 +352,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
-- [Remote Employee Mental Health Support Guide 2026](/remote-work-tools/remote-employee-mental-health-support-guide-2026/)
-- [Response Time Expectations for Remote Workers Guide](/remote-work-tools/response-time-expectations-for-remote-workers-guide/)
-- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
-- [Time Audit for Remote Workers: A Practical How-To Guide](/remote-work-tools/time-audit-for-remote-workers-how-to-guide-2026/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-distraction-elimination-guide-2026/)
+- [Remote Employee Mental Health Support Guide 2026](/remote-employee-mental-health-support-guide-2026/)
+- [Response Time Expectations for Remote Workers Guide](/response-time-expectations-for-remote-workers-guide/)
+- [How to Include Remote Workers in Office Meetings](/how-to-include-remote-workers-in-office-meetings/)
+- [Time Audit for Remote Workers: A Practical How-To Guide](/time-audit-for-remote-workers-how-to-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

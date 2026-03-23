@@ -314,10 +314,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
-- [Obsidian for Remote Team Knowledge Management](/remote-work-tools/obsidian-remote-team-knowledge-management/)
-- [How to Use AI Tools to Generate Remote Team Meeting](/remote-work-tools/how-to-use-ai-tool-to-generate-remote-team-meeting-agendas-f/)
-- [Best Journaling Apps for Remote Worker Reflection](/remote-work-tools/best-journaling-apps-for-remote-worker-reflection/)
-- [Obsidian vs Logseq for Developer Notes](/remote-work-tools/obsidian-vs-logseq-for-developer-notes/)
+- [How to Include Remote Workers in Office Meetings](/how-to-include-remote-workers-in-office-meetings/)
+- [Obsidian for Remote Team Knowledge Management](/obsidian-remote-team-knowledge-management/)
+- [How to Use AI Tools to Generate Remote Team Meeting](/how-to-use-ai-tool-to-generate-remote-team-meeting-agendas-f/)
+- [Best Journaling Apps for Remote Worker Reflection](/best-journaling-apps-for-remote-worker-reflection/)
+- [Obsidian vs Logseq for Developer Notes](/obsidian-vs-logseq-for-developer-notes/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

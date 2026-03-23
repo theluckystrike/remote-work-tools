@@ -376,20 +376,20 @@ curl -s "http://127.0.0.1:19999/api/v1/alarms?all" | jq '.alarms | to_entries[] 
 
 ## Related Reading
 
-- [How to Set Up Traefik Reverse Proxy](/remote-work-tools/how-to-set-up-traefik-reverse-proxy/)
-- [How to Automate Database Backup Verification](/remote-work-tools/how-to-automate-database-backup-verification/)
-- [How to Set Up Portainer for Docker Management](/remote-work-tools/how-to-set-up-portainer-for-docker-management/)
-- [How to Set Up Ansible for Remote Server Management](/remote-work-tools/how-to-set-up-ansible-remote-server-management/)
+- [How to Set Up Traefik Reverse Proxy](/how-to-set-up-traefik-reverse-proxy/)
+- [How to Automate Database Backup Verification](/how-to-automate-database-backup-verification/)
+- [How to Set Up Portainer for Docker Management](/how-to-set-up-portainer-for-docker-management/)
+- [How to Set Up Ansible for Remote Server Management](/how-to-set-up-ansible-remote-server-management/)
 
 ---
 
 ## Related Articles
 
-- [WireGuard Team VPN: Multi-User Setup Guide](/remote-work-tools/wireguard-team-vpn-multi-user-setup/)
-- [How to Set Up Portainer for Docker Management](/remote-work-tools/how-to-set-up-portainer-for-docker-management/)
-- [How to Set Up Ansible for Remote Server Management](/remote-work-tools/how-to-set-up-ansible-remote-server-management/)
-- [Prometheus Monitoring Setup for Remote Infrastructure](/remote-work-tools/prometheus-monitoring-remote-infrastructure/)
-- [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
+- [WireGuard Team VPN: Multi-User Setup Guide](/wireguard-team-vpn-multi-user-setup/)
+- [How to Set Up Portainer for Docker Management](/how-to-set-up-portainer-for-docker-management/)
+- [How to Set Up Ansible for Remote Server Management](/how-to-set-up-ansible-remote-server-management/)
+- [Prometheus Monitoring Setup for Remote Infrastructure](/prometheus-monitoring-remote-infrastructure/)
+- [Linux Server Hardening Guide for Remote Developers](/linux-server-hardening-remote-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

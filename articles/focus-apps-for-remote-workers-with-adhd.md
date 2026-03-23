@@ -444,10 +444,10 @@ Use this guide to diagnose and fix focus problems:
 
 ## Related Articles
 
-- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
-- [Best Note-Taking Apps for Remote Workers 2026](/remote-work-tools/best-note-taking-apps-remote-workers-2026/)
-- [How to Create Team Agreements Around Meeting-Free Focus Time](/remote-work-tools/how-to-create-team-agreements-around-meeting-free-focus-time/)
-- [Best Ambient Noise Apps for Focus While Coding](/remote-work-tools/best-ambient-noise-apps-for-focus-while-coding/)
-- [Fake Commute for Remote Workers](/remote-work-tools/fake-commute-for-remote-workers-transition-rituals-that-work/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-distraction-elimination-guide-2026/)
+- [Best Note-Taking Apps for Remote Workers 2026](/best-note-taking-apps-remote-workers-2026/)
+- [How to Create Team Agreements Around Meeting-Free Focus Time](/how-to-create-team-agreements-around-meeting-free-focus-time/)
+- [Best Ambient Noise Apps for Focus While Coding](/best-ambient-noise-apps-for-focus-while-coding/)
+- [Fake Commute for Remote Workers](/fake-commute-for-remote-workers-transition-rituals-that-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

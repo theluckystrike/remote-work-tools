@@ -270,11 +270,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Create Remote Employee Exit Interview Process](/remote-work-tools/how-to-create-remote-employee-exit-interview-process-for-distributed-teams/)
-- [Async Product Discovery Process for Remote Teams](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
-- [Best Tools for Remote Team Technical Interviews 2026](/remote-work-tools/best-tools-for-remote-team-technical-interviews-2026/)
-- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
-- [Best Tool for Remote Product Managers Running Async Customer](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
+- [How to Create Remote Employee Exit Interview Process](/how-to-create-remote-employee-exit-interview-process-for-distributed-teams/)
+- [Async Product Discovery Process for Remote Teams](/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Best Tools for Remote Team Technical Interviews 2026](/best-tools-for-remote-team-technical-interviews-2026/)
+- [Example: Finding interview slots across time zones](/remote-team-hiring-manager-training-program-for-first-time-m/)
+- [Best Tool for Remote Product Managers Running Async Customer](/best-tool-for-remote-product-managers-running-async-customer/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Related Reading

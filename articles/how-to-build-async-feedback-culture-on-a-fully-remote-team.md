@@ -345,10 +345,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
-- [How to Set Up Remote Team Peer Feedback Process](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
-- [Best Tools for Async Video Feedback on Creative Work in 2026](/remote-work-tools/best-tools-for-async-video-feedback-on-creative-work-2026/)
-- [Remote Team Manager Peer Feedback Exchange Template](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [Example: Feedback webhook handler](/async-customer-feedback-synthesis-workflow-for-remote-produc/)
+- [How to Set Up Remote Team Peer Feedback Process](/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
+- [Best Tools for Async Video Feedback on Creative Work in 2026](/best-tools-for-async-video-feedback-on-creative-work-2026/)
+- [Remote Team Manager Peer Feedback Exchange Template](/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -362,18 +362,18 @@ Self-hosting the full stack costs a fraction of hosted alternatives like Datadog
 
 ## Related Reading
 
-- [Prometheus Monitoring Setup for Remote Infrastructure](/remote-work-tools/prometheus-monitoring-remote-infrastructure/)
-- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
-- [Home Lab Setup Guide for Remote Developers](/remote-work-tools/home-lab-setup-guide-remote-developers/)
-- [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
+- [Prometheus Monitoring Setup for Remote Infrastructure](/prometheus-monitoring-remote-infrastructure/)
+- [CI/CD Pipeline for Solo Developers: GitHub Actions](/ci-cd-pipeline-solo-developer-github-actions/)
+- [Home Lab Setup Guide for Remote Developers](/home-lab-setup-guide-remote-developers/)
+- [Best Observability Platform for Remote Teams Correlating](/best-observability-platform-for-remote-teams-correlating-log/)
 
 ## Related Articles
 
-- [How to Onboard Remote Interns Effectively With Structured](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)
-- [Diversity Sourcing Strategy for Remote Teams](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
-- [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [Remote Work Tools: All Guides and Reviews](/remote-work-tools/guides-hub/)
+- [How to Onboard Remote Interns Effectively With Structured](/how-to-onboard-remote-interns-effectively-with-structured-me/)
+- [Diversity Sourcing Strategy for Remote Teams](/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
+- [Best Observability Platform for Remote Teams Correlating](/best-observability-platform-for-remote-teams-correlating-log/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [Remote Work Tools: All Guides and Reviews](/guides-hub/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

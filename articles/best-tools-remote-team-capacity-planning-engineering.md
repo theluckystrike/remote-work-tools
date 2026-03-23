@@ -387,20 +387,20 @@ Teams with strong lightning talk cultures report better knowledge distribution, 
 
 ## Related Reading
 
-- [How to Run Remote Team Lightning Talks](/remote-work-tools/how-to-run-remote-team-lightning-talks-keeping-presentations/)
-- [Async Video Messaging Tools for Distributed Teams](/remote-work-tools/best-async-video-messaging-tools-for-distributed-teams-2026/)
-- [Best Remote Team Social Channel Ideas](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
-- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
+- [How to Run Remote Team Lightning Talks](/how-to-run-remote-team-lightning-talks-keeping-presentations/)
+- [Async Video Messaging Tools for Distributed Teams](/best-async-video-messaging-tools-for-distributed-teams-2026/)
+- [Best Remote Team Social Channel Ideas](/best-remote-team-social-channel-ideas-for-building-genuine-c/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 
 ---
 
 ## Related Articles
 
-- [How to Run Remote Team Lightning Talks Keeping](/remote-work-tools/how-to-run-remote-team-lightning-talks-keeping-presentations/)
-- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
-- [Best Mobile Presentation Remote App for Remote Speakers](/remote-work-tools/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
-- [How to Onboard Remote Interns Effectively With Structured](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)
-- [Setting Up Grafana Dashboards for Remote Teams](/remote-work-tools/setting-up-grafana-dashboards-for-remote-teams/)
+- [How to Run Remote Team Lightning Talks Keeping](/how-to-run-remote-team-lightning-talks-keeping-presentations/)
+- [Remote Work Tools Hub](/guides-hub/)
+- [Best Mobile Presentation Remote App for Remote Speakers](/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
+- [How to Onboard Remote Interns Effectively With Structured](/how-to-onboard-remote-interns-effectively-with-structured-me/)
+- [Setting Up Grafana Dashboards for Remote Teams](/setting-up-grafana-dashboards-for-remote-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

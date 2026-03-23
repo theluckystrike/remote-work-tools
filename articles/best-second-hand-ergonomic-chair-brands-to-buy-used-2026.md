@@ -432,10 +432,10 @@ Used chairs offer the best value: 60-70% discount from new, 90%+ of the comfort 
 
 ## Related Articles
 
-- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-tools/remote-work-ergonomic-assessment-checklist/)
-- [Herman Miller vs Steelcase for Remote Developers](/remote-work-tools/herman-miller-vs-steelcase-for-remote-developers/)
-- [How to Set Up Ergonomic Workspace in Airbnb for Month-Long](/remote-work-tools/how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/)
-- [Ergonomic Desk Setup Guide for Developers 2026](/remote-work-tools/ergonomic-desk-setup-developers-2026/)
-- [How to Build a Productive Home Office for Under $500](/remote-work-tools/how-to-build-a-productive-home-office-for-under-500/)
+- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-ergonomic-assessment-checklist/)
+- [Herman Miller vs Steelcase for Remote Developers](/herman-miller-vs-steelcase-for-remote-developers/)
+- [How to Set Up Ergonomic Workspace in Airbnb for Month-Long](/how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/)
+- [Ergonomic Desk Setup Guide for Developers 2026](/ergonomic-desk-setup-developers-2026/)
+- [How to Build a Productive Home Office for Under $500](/how-to-build-a-productive-home-office-for-under-500/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

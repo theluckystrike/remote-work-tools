@@ -319,9 +319,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Schedule Meetings Across 8 Hour Timezone Difference](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
-- [Team hours (as datetime.time objects converted to hours)](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
-- [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
-- [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
-- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
+- [How to Schedule Meetings Across 8 Hour Timezone Difference](/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
+- [Team hours (as datetime.time objects converted to hours)](/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
+- [Cross Timezone Communication Strategies for Remote Teams](/cross-timezone-communication-strategies-remote-teams/)
+- [Example: project-update.yml - Scheduled updates structure](/how-to-manage-client-expectations-when-team-works-asynchrono/)
+- [Best Async Project Management Tools for Distributed Teams](/best-async-project-management-tools-for-distributed-teams-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

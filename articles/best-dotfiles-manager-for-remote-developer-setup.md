@@ -310,11 +310,11 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Manage Dotfiles Across Remote Machines](/remote-work-tools/manage-dotfiles-across-remote-machines/)
-- [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
-- [Remote Work Backup Strategy for Developers](/remote-work-tools/remote-work-backup-strategy-for-developers/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [Three-Two Hybrid Work Model Implementation Guide](/remote-work-tools/three-two-hybrid-work-model-implementation-guide/)
+- [Manage Dotfiles Across Remote Machines](/manage-dotfiles-across-remote-machines/)
+- [Best Backup Solutions for Remote Developer Machines](/best-backup-solutions-for-remote-developer-machines/)
+- [Remote Work Backup Strategy for Developers](/remote-work-backup-strategy-for-developers/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [Three-Two Hybrid Work Model Implementation Guide](/three-two-hybrid-work-model-implementation-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 ```

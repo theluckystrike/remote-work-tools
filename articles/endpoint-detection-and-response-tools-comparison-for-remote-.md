@@ -385,9 +385,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Productboard vs Aha for Remote Product Management](/remote-work-tools/productboard-vs-aha-for-remote-product-management/)
-- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
-- [Remote Law Firm Client Portal Comparison (2026)](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
-- [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
-- [Client Document Sharing Portals for Remote Teams](/remote-work-tools/client-document-sharing-portal-comparison-for-remote-agencie/)
+- [Productboard vs Aha for Remote Product Management](/productboard-vs-aha-for-remote-product-management/)
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/how-to-create-security-onboarding-checklist-for-new-remote-t/)
+- [Remote Law Firm Client Portal Comparison (2026)](/remote-law-firm-client-communication-portal-comparison-for-d/)
+- [Figma vs Sketch for Remote Design Collaboration](/figma-vs-sketch-for-remote-design-collaboration/)
+- [Client Document Sharing Portals for Remote Teams](/client-document-sharing-portal-comparison-for-remote-agencie/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

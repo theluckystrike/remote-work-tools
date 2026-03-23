@@ -279,10 +279,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Employee Mental Health Support Guide 2026](/remote-work-tools/remote-employee-mental-health-support-guide-2026/)
-- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
-- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
-- [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
-- [How to Monitor Remote Employee Endpoint Health](/remote-work-tools/how-to-monitor-remote-employee-endpoint-health-without-invad/)
+- [Remote Employee Mental Health Support Guide 2026](/remote-employee-mental-health-support-guide-2026/)
+- [Everyone gets home office base](/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/return-to-office-tools-for-hybrid-teams/)
+- [Return to Office Employee Survey Template](/return-to-office-employee-survey-template-measuring-sentimen/)
+- [How to Monitor Remote Employee Endpoint Health](/how-to-monitor-remote-employee-endpoint-health-without-invad/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

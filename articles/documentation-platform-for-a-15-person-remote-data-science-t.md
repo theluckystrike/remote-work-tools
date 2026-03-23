@@ -43,7 +43,7 @@ A 15-person remote data science team has documentation needs that differ fundame
 - [Metrics That Matter](#metrics-that-matter)
 - [Scaling Documentation for Growth](#scaling-documentation-for-growth)
 - [Budget and ROI](#budget-and-roi)
-- [- [Remote Work Guides Hub](/remote-work-tools/)](#remote-work-guides-hubremote-work-tools)
+- [- [Remote Work Guides Hub](/)](#remote-work-guides-hubremote-work-tools)
 
 ## The Data Science Documentation Problem
 
@@ -417,10 +417,10 @@ Teams with strong documentation report:
 
 For a 15-person team, debugging 30% faster saves ~10-15 hours/week across the team. At $100/hour loaded cost = $1000-1500/week = $52K-78K/year in productivity. ROI easily 10:1.
 
-## - [Remote Work Guides Hub](/remote-work-tools/)
-- [Best Wiki Tool for a 40-Person Remote Customer Support Team](/remote-work-tools/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
-- [How to Create Decision Log Documentation for Remote Teams: Recording Context Behind Choices](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
-- [Best Practice for Remote Team README Files in Repositories: Standardizing Developer Documentation](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+## - [Remote Work Guides Hub](/)
+- [Best Wiki Tool for a 40-Person Remote Customer Support Team](/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
+- [How to Create Decision Log Documentation for Remote Teams: Recording Context Behind Choices](/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [Best Practice for Remote Team README Files in Repositories: Standardizing Developer Documentation](/best-practice-for-remote-team-readme-files-in-repositories-s/)
 
 ## Frequently Asked Questions
 
@@ -446,11 +446,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Developer Documentation Collaboration Tools for Maint](/remote-work-tools/remote-developer-documentation-collaboration-tools-for-maint/)
-- [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-work-tools/remote-team-toolkit-for-a-60-person-saas-company-2026/)
-- [Install Storybook for your design system package](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
-- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [Remote Developer Documentation Collaboration Tools for Maint](/remote-developer-documentation-collaboration-tools-for-maint/)
+- [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-team-toolkit-for-a-60-person-saas-company-2026/)
+- [Install Storybook for your design system package](/how-to-scale-remote-team-design-system-documentation-when-pr/)
+- [Daily Check In Tools for Remote Teams 2026](/daily-check-in-tools-for-remote-teams-2026/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

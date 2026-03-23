@@ -405,11 +405,11 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Tools for Remote Team Sprint Planning](/remote-work-tools/best-tools-for-remote-sprint-planning/)
-- [Best Sprint Planning Tools for Remote Scrum Masters](/remote-work-tools/best-sprint-planning-tools-for-remote-scrum-masters/)
-- [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
-- [Best Tools for Remote Team Capacity Planning in 2026](/remote-work-tools/best-tools-for-remote-team-capacity-planning-2026/)
-- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
+- [Best Tools for Remote Team Sprint Planning](/best-tools-for-remote-sprint-planning/)
+- [Best Sprint Planning Tools for Remote Scrum Masters](/best-sprint-planning-tools-for-remote-scrum-masters/)
+- [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
+- [Best Tools for Remote Team Capacity Planning in 2026](/best-tools-for-remote-team-capacity-planning-2026/)
+- [Async Capacity Planning Process for Remote Engineering](/async-capacity-planning-process-for-remote-engineering-manag/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

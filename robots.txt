@@ -1,13 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemaps
-Sitemap: https://theluckystrike.github.io/remote-work-tools/sitemap.xml
-Sitemap: https://theluckystrike.github.io/remote-work-tools/sitemap-topics.xml
-
-# Crawl-delay (be polite)
-Crawl-delay: 1
-
-# Block non-content paths
-Disallow: /assets/
-Disallow: /404.html
+Sitemap: https://welikeremotestack.com/sitemap.xml

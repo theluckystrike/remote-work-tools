@@ -321,10 +321,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
-- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
-- [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
-- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)
-- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
+- [Soundproofing Home Office for Remote Work Guide](/soundproofing-home-office-for-remote-work-guide/)
+- [How to Set Up a Soundproof Home Office When Working](/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
+- [How to Share Home Office with Partner Both on Calls](/how-to-share-home-office-with-partner-both-on-calls/)
+- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-home-office-tax-deductions-2026/)
+- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -304,10 +304,10 @@ Consult a tax professional specializing in US expat taxation before establishing
 
 ## Common Pitfalls to Avoid
 
-- [Remote Work Guides Hub](/remote-work-tools/)
-- [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
-- [Barbados Welcome Stamp Visa for Remote Workers: 12-Month.](/remote-work-tools/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)
-- [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [Remote Work Guides Hub](/)
+- [Greece Digital Nomad Visa Renewal Process for Remote Workers](/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
+- [Barbados Welcome Stamp Visa for Remote Workers: 12-Month.](/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)
+- [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/montenegro-digital-nomad-visa-application-process-for-remote/)
 
 ## Frequently Asked Questions
 
@@ -333,10 +333,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
-- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
-- [Indonesia Second Home Visa for Remote Workers](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
-- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
+- [Thailand Long Term Visa for Remote Workers 2026](/thailand-long-term-visa-for-remote-workers-2026/)
+- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
+- [Indonesia Second Home Visa for Remote Workers](/indonesia-second-home-visa-for-remote-workers-application-an/)
+- [Montenegro Digital Nomad Visa Application Process for Remote](/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [Mexico City Digital Nomad Guide for Remote Workers](/mexico-city-digital-nomad-guide-remote-workers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

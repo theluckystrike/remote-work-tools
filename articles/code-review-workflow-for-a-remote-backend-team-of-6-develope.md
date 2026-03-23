@@ -457,9 +457,9 @@ Check the export options before committing. Most tools let you export your data,
 
 ## Related Articles
 
-- [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
-- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
-- [Simple assignment: rotate through combinations](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
-- [Remote Employee Intellectual Property Assignment Clause](/remote-work-tools/remote-employee-intellectual-property-assignment-clause-temp/)
-- [Code Review Tools for Solo Freelance Developers](/remote-work-tools/code-review-tools-for-solo-freelance-developers/)
+- [Remote Code Review Tools Comparison 2026](/remote-code-review-tools-comparison-2026/)
+- [Example: GitHub Actions workflow for assessment tracking](/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Simple assignment: rotate through combinations](/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
+- [Remote Employee Intellectual Property Assignment Clause](/remote-employee-intellectual-property-assignment-clause-temp/)
+- [Code Review Tools for Solo Freelance Developers](/code-review-tools-for-solo-freelance-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

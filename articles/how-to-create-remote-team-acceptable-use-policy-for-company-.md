@@ -293,10 +293,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
-- [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
-- [Best Endpoint Security Solution for Remote Employees](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
-- [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
-- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
+- [Security Tools for a Fully Remote Company Under 20 Employees](/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [How to Create Bring Your Own Device Policy for Remote Teams](/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [Best Endpoint Security Solution for Remote Employees](/best-endpoint-security-solution-for-remote-employees-using-p/)
+- [Check your router's current firmware version](/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/how-to-create-security-onboarding-checklist-for-new-remote-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

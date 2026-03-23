@@ -3,7 +3,7 @@ title: "Best Remote Work Project Handoff Documentation Template"
 description: "Templates for handing off projects between remote team members. Notion and Confluence templates, async handoff checklists, video walkthrough best practices"
 author: Remote Work Tools Guide
 date: 2026-03-21
-permalink: /remote-work-tools/best-remote-work-project-handoff-documentation-template-2026/
+permalink: /best-remote-work-project-handoff-documentation-template-2026/
 reviewed: true
 score: 9
 voice-checked: true
@@ -296,11 +296,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Set Up Remote Design Handoff Workflow](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
-- [Remote Agency Client Offboarding Checklist and Handoff Docum](/remote-work-tools/remote-agency-client-offboarding-checklist-and-handoff-docum/)
-- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
-- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Set Up Remote Design Handoff Workflow](/how-to-set-up-remote-design-handoff-workflow-between-designe/)
+- [Remote Agency Client Offboarding Checklist and Handoff Docum](/remote-agency-client-offboarding-checklist-and-handoff-docum/)
+- [How to Handle Knowledge Base Handoff When Remote Developer](/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
+- [Remote Team Handbook Template](/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 
 ```
 
@@ -493,10 +493,10 @@ Set up your first handoff doc today. Improve it after your first use. By the fif
 
 ## Related Articles
 
-- [How to Set Up Remote Design Handoff Workflow](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
-- [Remote Agency Client Offboarding Checklist and Handoff Docum](/remote-work-tools/remote-agency-client-offboarding-checklist-and-handoff-docum/)
-- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
-- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Set Up Remote Design Handoff Workflow](/how-to-set-up-remote-design-handoff-workflow-between-designe/)
+- [Remote Agency Client Offboarding Checklist and Handoff Docum](/remote-agency-client-offboarding-checklist-and-handoff-docum/)
+- [How to Handle Knowledge Base Handoff When Remote Developer](/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
+- [Remote Team Handbook Template](/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -369,10 +369,10 @@ Neighborhood?
 ```
 ---
 
-- [Remote Work Guides Hub](/remote-work-tools/)
-- [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
-- [Best Neighborhoods in Lisbon for Remote Workers with.](/remote-work-tools/best-neighborhoods-in-lisbon-for-remote-workers-with-fast-wi/)
-- [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
+- [Remote Work Guides Hub](/)
+- [How to Optimize Internet Speed for Remote Work](/how-to-optimize-internet-speed-for-remote-work/)
+- [Best Neighborhoods in Lisbon for Remote Workers with.](/best-neighborhoods-in-lisbon-for-remote-workers-with-fast-wi/)
+- [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
 
 ## Frequently Asked Questions
 
@@ -398,10 +398,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
-- [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
-- [How to Test Internet Speed and Reliability Before Moving](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)
-- [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
-- [Remote Work Internet Speed Requirements by Task Type](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
+- [How to Optimize Internet Speed for Remote Work](/how-to-optimize-internet-speed-for-remote-work/)
+- [Remote Work Internet Backup Solutions Comparison](/remote-work-internet-backup-solutions-comparison/)
+- [How to Test Internet Speed and Reliability Before Moving](/how-to-test-internet-speed-reliability-before-moving-to-bali/)
+- [How to Set Up Reliable Backup Internet for Remote Work](/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
+- [Remote Work Internet Speed Requirements by Task Type](/remote-work-internet-speed-requirements-by-task-type-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

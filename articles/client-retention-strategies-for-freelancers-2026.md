@@ -398,10 +398,10 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
-- [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
-- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
-- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
-- [How to Handle Client Calls Across 8 Hour Time Difference](/remote-work-tools/how-to-handle-client-calls-across-8-hour-time-difference/)
-- [How to Handle Emergency Client Communication for Remote](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)
+- [How to Create Client Project Retrospective Format for Remote](/how-to-create-client-project-retrospective-format-for-remote/)
+- [How to Create Client Communication Charter for Remote](/how-to-create-client-communication-charter-for-remote-agency/)
+- [How to Set Up Basecamp for Remote Agency Client](/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [How to Handle Client Calls Across 8 Hour Time Difference](/how-to-handle-client-calls-across-8-hour-time-difference/)
+- [How to Handle Emergency Client Communication for Remote](/how-to-handle-emergency-client-communication-for-remote-agen/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

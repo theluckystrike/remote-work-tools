@@ -455,10 +455,10 @@ Maintain records for legal/regulatory purposes:
 
 ## Looking Ahead
 
-- [Remote Work Guides Hub](/remote-work-tools/)
-- [Remote Architecture BIM Collaboration Tool for.](/remote-work-tools/remote-architecture-bim-collaboration-tool-for-distributed-t/)
-- [How to Create Remote Team Architecture Documentation.](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
-- [Best Remote Legal Team Document Collaboration Tool for.](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
+- [Remote Work Guides Hub](/)
+- [Remote Architecture BIM Collaboration Tool for.](/remote-architecture-bim-collaboration-tool-for-distributed-t/)
+- [How to Create Remote Team Architecture Documentation.](/how-to-create-remote-team-architecture-documentation-using-d/)
+- [Best Remote Legal Team Document Collaboration Tool for.](/best-remote-legal-team-document-collaboration-tool-for-contr/)
 
 ## Frequently Asked Questions
 
@@ -484,10 +484,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Architecture BIM Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-bim-collaboration-tool-for-distributed-t/)
-- [Best Phishing Simulation Tool for Training Distributed](/remote-work-tools/best-phishing-simulation-tool-for-training-distributed-remot/)
-- [Remote 1 on 1 Meeting Tool Comparison for Distributed](/remote-work-tools/remote-1-on-1-meeting-tool-comparison-for-distributed-manage/)
-- [Best Tools for Remote Team Architecture Reviews 2026](/remote-work-tools/best-tools-for-remote-team-architecture-reviews-2026/)
-- [Best Collaboration Tool for Remote Machine Learning Teams](/remote-work-tools/best-collaboration-tool-for-remote-machine-learning-teams-sharing-experiment-results/)
+- [Remote Architecture BIM Collaboration Tool for Distributed](/remote-architecture-bim-collaboration-tool-for-distributed-t/)
+- [Best Phishing Simulation Tool for Training Distributed](/best-phishing-simulation-tool-for-training-distributed-remot/)
+- [Remote 1 on 1 Meeting Tool Comparison for Distributed](/remote-1-on-1-meeting-tool-comparison-for-distributed-manage/)
+- [Best Tools for Remote Team Architecture Reviews 2026](/best-tools-for-remote-team-architecture-reviews-2026/)
+- [Best Collaboration Tool for Remote Machine Learning Teams](/best-collaboration-tool-for-remote-machine-learning-teams-sharing-experiment-results/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

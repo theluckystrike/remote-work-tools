@@ -306,10 +306,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Work Backup Strategy for Developers](/remote-work-tools/remote-work-backup-strategy-for-developers/)
-- [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
-- [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
-- [Three-Two Hybrid Work Model Implementation Guide](/remote-work-tools/three-two-hybrid-work-model-implementation-guide/)
-- [Git Branching Strategy for Remote Teams](/remote-work-tools/git-branching-strategy-remote-teams/)
+- [Remote Work Backup Strategy for Developers](/remote-work-backup-strategy-for-developers/)
+- [Best Dotfiles Manager for Remote Developer Setup](/best-dotfiles-manager-for-remote-developer-setup/)
+- [Best Backup Solutions for Remote Developer Machines](/best-backup-solutions-for-remote-developer-machines/)
+- [Three-Two Hybrid Work Model Implementation Guide](/three-two-hybrid-work-model-implementation-guide/)
+- [Git Branching Strategy for Remote Teams](/git-branching-strategy-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

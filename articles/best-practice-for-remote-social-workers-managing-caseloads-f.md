@@ -414,9 +414,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Agency Subcontractor Client Communication Boundaries](/remote-work-tools/remote-agency-subcontractor-client-communication-boundaries-/)
-- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
-- [How to Handle Emergency Client Communication for Remote](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)
-- [Remote Agency Client Communication Cadence Template](/remote-work-tools/remote-agency-client-communication-cadence-template-for-proj/)
-- [Project Management for a Solo Developer with 8 Client](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
+- [Remote Agency Subcontractor Client Communication Boundaries](/remote-agency-subcontractor-client-communication-boundaries-/)
+- [How to Create Client Communication Charter for Remote](/how-to-create-client-communication-charter-for-remote-agency/)
+- [How to Handle Emergency Client Communication for Remote](/how-to-handle-emergency-client-communication-for-remote-agen/)
+- [Remote Agency Client Communication Cadence Template](/remote-agency-client-communication-cadence-template-for-proj/)
+- [Project Management for a Solo Developer with 8 Client](/project-management-for-a-solo-developer-with-8-client-projec/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

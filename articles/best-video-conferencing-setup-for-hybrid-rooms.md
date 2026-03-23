@@ -393,10 +393,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
-- [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
-- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
-- [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
-- [Video Conferencing Setup for a Remote Team of 3 Cofounders](/remote-work-tools/video-conferencing-setup-for-a-remote-team-of-3-cofounders/)
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
+- [Example room configuration](/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
+- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
+- [Hybrid Meeting Equity Tips for Remote Participants](/hybrid-meeting-equity-tips-for-remote-participants/)
+- [Video Conferencing Setup for a Remote Team of 3 Cofounders](/video-conferencing-setup-for-a-remote-team-of-3-cofounders/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -417,20 +417,20 @@ The goal is to know, not guess, how long recovery takes. Teams that have done th
 
 ## Related Reading
 
-- [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
-- [How to Set Up MinIO for Team Object Storage](/remote-work-tools/how-to-set-up-minio-team-object-storage/)
-- [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
-- [Podcast Guesting Strategy for Freelance Developers](/remote-work-tools/podcast-guesting-strategy-for-freelance-developers/)
+- [Best Backup Solutions for Remote Developer Machines](/best-backup-solutions-for-remote-developer-machines/)
+- [How to Set Up MinIO for Team Object Storage](/how-to-set-up-minio-team-object-storage/)
+- [Best Dotfiles Manager for Remote Developer Setup](/best-dotfiles-manager-for-remote-developer-setup/)
+- [Podcast Guesting Strategy for Freelance Developers](/podcast-guesting-strategy-for-freelance-developers/)
 
 ---
 
 ## Related Articles
 
-- [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
-- [Manage Dotfiles Across Remote Machines](/remote-work-tools/manage-dotfiles-across-remote-machines/)
-- [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
-- [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
-- [Git Branching Strategy for Remote Teams](/remote-work-tools/git-branching-strategy-remote-teams/)
+- [Best Backup Solutions for Remote Developer Machines](/best-backup-solutions-for-remote-developer-machines/)
+- [Manage Dotfiles Across Remote Machines](/manage-dotfiles-across-remote-machines/)
+- [Backblaze vs CrashPlan for Remote Work Backup](/backblaze-vs-crashplan-for-remote-work-backup/)
+- [Best Dotfiles Manager for Remote Developer Setup](/best-dotfiles-manager-for-remote-developer-setup/)
+- [Git Branching Strategy for Remote Teams](/git-branching-strategy-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

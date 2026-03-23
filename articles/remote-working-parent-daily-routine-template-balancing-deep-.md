@@ -276,10 +276,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Build a Daily Routine as a Remote Worker Adjusting](/remote-work-tools/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
-- [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
-- [Best Quick Exercise Routine for Remote Parents With Only 15](/remote-work-tools/best-quick-exercise-routine-for-remote-parents-with-only-15-/)
-- [Remote Working Parent Support Group Template for Distributed](/remote-work-tools/remote-working-parent-support-group-template-for-distributed/)
-- [Remote Working Parent Burnout Prevention Checklist](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
+- [How to Build a Daily Routine as a Remote Worker Adjusting](/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
+- [Remote Working Parent Self Care Checklist for Avoiding](/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
+- [Best Quick Exercise Routine for Remote Parents With Only 15](/best-quick-exercise-routine-for-remote-parents-with-only-15-/)
+- [Remote Working Parent Support Group Template for Distributed](/remote-working-parent-support-group-template-for-distributed/)
+- [Remote Working Parent Burnout Prevention Checklist](/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -273,10 +273,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
-- [Malaysia Digital Nomad Pass De Rantau Application for Remote](/remote-work-tools/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
-- [Sri Lanka Digital Nomad Visa Requirements and Coworking](/remote-work-tools/sri-lanka-digital-nomad-visa-requirements-and-coworking-scen/)
-- [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
-- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/spain-digital-nomad-visa-requirements-2026/)
+- [Malaysia Digital Nomad Pass De Rantau Application for Remote](/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
+- [Sri Lanka Digital Nomad Visa Requirements and Coworking](/sri-lanka-digital-nomad-visa-requirements-and-coworking-scen/)
+- [Mexico City Digital Nomad Guide for Remote Workers](/mexico-city-digital-nomad-guide-remote-workers/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/hungary-digital-nomad-visa-white-card-application-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

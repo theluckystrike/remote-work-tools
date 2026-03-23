@@ -273,10 +273,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
-- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
-- [How to Handle Remote Team Growing Pains When Communication](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)
-- [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
-- [How to Handle Remote Team Reorg Communication When](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
+- [Remote Team Growth Stage Communication Audit](/remote-team-growth-stage-communication-audit-identifying-bot/)
+- [Remote Team Communication Strategy Guide](/remote-team-communication-strategy-guide/)
+- [How to Handle Remote Team Growing Pains When Communication](/how-to-handle-remote-team-growing-pains-when-communication-n/)
+- [Communication Tools for a Remote Research Team of 12](/communication-tools-for-a-remote-research-team-of-12-scienti/)
+- [How to Handle Remote Team Reorg Communication When](/how-to-handle-remote-team-reorg-communication-when-restructu/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

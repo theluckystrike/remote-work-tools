@@ -337,10 +337,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
-- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
-- [Code Review Tools for Solo Freelance Developers](/remote-work-tools/code-review-tools-for-solo-freelance-developers/)
-- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
-- [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
+- [GitHub Actions Workflow for Remote Dev Teams](/github-actions-remote-dev-workflow/)
+- [Example: GitHub Actions workflow for assessment tracking](/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Code Review Tools for Solo Freelance Developers](/code-review-tools-for-solo-freelance-developers/)
+- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
+- [Best Project Management Tool for Solo Freelance Developers](/best-project-management-tool-for-solo-freelance-developers-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -511,18 +511,18 @@ Does this change require documentation updates?
 
 ## Related Reading
 
-- [Asynchronous Code Review Process Without Zoom Calls](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [Best All-in-One Tool for Remote Team Collaboration](/remote-work-tools/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
-- [Best Async Project Management Tools for Distributed Teams 2026](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-- [Remote Work Tools Guides Hub](/remote-work-tools/)
+- [Asynchronous Code Review Process Without Zoom Calls](/async-code-review-process-without-zoom-calls-step-by-step/)
+- [Best All-in-One Tool for Remote Team Collaboration](/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
+- [Best Async Project Management Tools for Distributed Teams 2026](/best-async-project-management-tools-for-distributed-teams-2026/)
+- [Remote Work Tools Guides Hub](/)
 
 ## Related Articles
 
-- [Best Knowledge Base Platform for Remote Support Team](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
-- [Self-Hosted Knowledge Base for Remote Support Team](/remote-work-tools/self-hosted-knowledge-base-for-remote-support-team-replacing/)
-- [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
-- [Best Knowledge Base Tool for Remote Team That Works Offline](/remote-work-tools/best-knowledge-base-tool-for-remote-team-that-works-offline-/)
-- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
+- [Best Knowledge Base Platform for Remote Support Team](/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
+- [Self-Hosted Knowledge Base for Remote Support Team](/self-hosted-knowledge-base-for-remote-support-team-replacing/)
+- [How to Create a Client-Facing Knowledge Base for a Remote](/how-to-create-client-facing-knowledge-base-for-remote-agency/)
+- [Best Knowledge Base Tool for Remote Team That Works Offline](/best-knowledge-base-tool-for-remote-team-that-works-offline-/)
+- [Best Tools for Remote Team Knowledge Base 2026](/best-tools-for-remote-team-knowledge-base-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

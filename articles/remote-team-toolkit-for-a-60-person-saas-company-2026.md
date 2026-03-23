@@ -596,9 +596,9 @@ Start with a small pilot group of willing early adopters. Let them use it for 2-
 
 ## Related Articles
 
-- [Zoom Plan for a Company with 200 Person Quarterly Meetings](/remote-work-tools/zoom-plan-for-a-company-with-200-person-quarterly-meetings/)
-- [How to Set Up Single Sign-On for Remote Team SaaS Applications](/remote-work-tools/how-to-set-up-single-sign-on-for-remote-team-saas-applicatio/)
-- [How to Scale Remote Team Incident Response Process From Startup to Mid-Size Company](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [Zoom Plan for a Company with 200 Person Quarterly Meetings](/zoom-plan-for-a-company-with-200-person-quarterly-meetings/)
+- [How to Set Up Single Sign-On for Remote Team SaaS Applications](/how-to-set-up-single-sign-on-for-remote-team-saas-applicatio/)
+- [How to Scale Remote Team Incident Response Process From Startup to Mid-Size Company](/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

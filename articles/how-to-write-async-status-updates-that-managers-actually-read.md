@@ -384,10 +384,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
-- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
-- [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
-- [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
-- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
+- [Example: project-update.yml - Scheduled updates structure](/how-to-manage-client-expectations-when-team-works-asynchrono/)
+- [Best Tool for Hybrid Team Async Updates When Some Use Office](/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
+- [How to Replace Daily Standups with Async Text Updates](/how-to-replace-daily-standups-with-async-text-updates-effect/)
+- [Loom vs Vimeo Record for Async Standup Updates Comparison](/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
+- [Best Format for Remote Team Weekly Written Status Update](/best-format-for-remote-team-weekly-written-status-update-rep/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -268,10 +268,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Remote Work Ergonomic Mouse 2026](/remote-work-tools/best-remote-work-ergonomic-mouse-2026/)
-- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-tools/remote-work-ergonomic-assessment-checklist/)
-- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [Remote Employee Equipment Return](/remote-work-tools/remote-employee-equipment-return-shipping-logistics-and-trac/)
+- [Best Remote Work Ergonomic Mouse 2026](/best-remote-work-ergonomic-mouse-2026/)
+- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-ergonomic-assessment-checklist/)
+- [How to Create a Remote Work Policy Document](/remote-work-policy-document-guide/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [Remote Employee Equipment Return](/remote-employee-equipment-return-shipping-logistics-and-trac/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -374,10 +374,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
-- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
-- [How to Preserve Async Communication Culture When Team Moves](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
-- [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
-- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
+- [Remote Team Culture Building Strategies Guide](/remote-team-culture-building-strategies-guide/)
+- [Best Tool for Hybrid Team Async Updates When Some Use Office](/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
+- [How to Preserve Async Communication Culture When Team Moves](/how-to-preserve-async-communication-culture-when-team-moves-/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/how-to-build-remote-team-async-culture-from-scratch-2026/)
+- [How to Transition Team Rituals from Fully Remote to Hybrid](/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

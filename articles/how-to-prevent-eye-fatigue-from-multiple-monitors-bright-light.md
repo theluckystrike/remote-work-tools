@@ -435,10 +435,10 @@ Address any "no" answers immediately. Eye health degrades quickly if ignored.
 
 ## Related Articles
 
-- [Screen Brightness Settings for Eye Health](/remote-work-tools/screen-brightness-settings-for-eye-health-developers/)
-- [Best Remote Work Monitor Light Bar 2026](/remote-work-tools/best-remote-work-monitor-light-bar-2026/)
-- [How to Reduce Eye Strain as a Remote Developer](/remote-work-tools/how-to-reduce-eye-strain-remote-developer/)
-- [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
-- [Natural Light Optimization for Home Office](/remote-work-tools/natural-light-optimization-for-home-office/)
+- [Screen Brightness Settings for Eye Health](/screen-brightness-settings-for-eye-health-developers/)
+- [Best Remote Work Monitor Light Bar 2026](/best-remote-work-monitor-light-bar-2026/)
+- [How to Reduce Eye Strain as a Remote Developer](/how-to-reduce-eye-strain-remote-developer/)
+- [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
+- [Natural Light Optimization for Home Office](/natural-light-optimization-for-home-office/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

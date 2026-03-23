@@ -259,10 +259,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
-- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
-- [Best Remote Work Monitor Under 300 Dollars 2026](/remote-work-tools/best-remote-work-monitor-under-300-dollars-2026/)
-- [Portable Monitor Setup for Digital Nomads](/remote-work-tools/portable-monitor-setup-for-digital-nomads/)
-- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
+- [Best External Display for MacBook Air M4 Home Office Setup](/best-external-display-for-macbook-air-m4-home-office-setup/)
+- [Best Lighting Setup for Video Calls in Basement Home Office](/best-lighting-setup-for-video-calls-in-basement-home-office/)
+- [Best Remote Work Monitor Under 300 Dollars 2026](/best-remote-work-monitor-under-300-dollars-2026/)
+- [Portable Monitor Setup for Digital Nomads](/portable-monitor-setup-for-digital-nomads/)
+- [Home Office Lighting Setup for Productivity](/home-office-lighting-setup-for-productivity-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

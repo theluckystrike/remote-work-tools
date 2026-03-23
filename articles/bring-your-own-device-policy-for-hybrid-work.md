@@ -251,10 +251,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
-- [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
-- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
-- [Return to Office Parking and Commute Benefit Policy](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
-- [Best Endpoint Security Solution for Remote Employees](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
+- [How to Create Bring Your Own Device Policy for Remote Teams](/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [Example: Minimum device requirements for team members](/how-to-implement-device-management-policy-for-fully-remote-s/)
+- [How to Audit Remote Employee Device Security Compliance](/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [Return to Office Parking and Commute Benefit Policy](/return-to-office-parking-and-commute-benefit-policy-template/)
+- [Best Endpoint Security Solution for Remote Employees](/best-endpoint-security-solution-for-remote-employees-using-p/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

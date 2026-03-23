@@ -405,10 +405,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Detect and Prevent Burnout in Remote Employees](/remote-work-tools/how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-signs/)
-- [Remote Work Burnout Prevention Tools Guide](/remote-work-tools/remote-work-burnout-prevention-tools/)
-- [Remote Working Parent Burnout Prevention Checklist](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
+- [How to Detect and Prevent Burnout in Remote Employees](/how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-signs/)
+- [Remote Work Burnout Prevention Tools Guide](/remote-work-burnout-prevention-tools/)
+- [Remote Working Parent Burnout Prevention Checklist](/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-distraction-elimination-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

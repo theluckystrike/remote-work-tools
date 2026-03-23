@@ -445,9 +445,9 @@ Loom and Jam can be used productively on the first attempt. The bigger learning 
 
 ## Related Articles
 
-- [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
-- [Best Tool for Recording Quick 2-Minute Video Updates to Team](/remote-work-tools/best-tool-for-recording-quick-2-minute-video-updates-to-team/)
-- [Best Open Source Screen Recording Tools for Remote Team](/remote-work-tools/best-open-source-screen-recording-tool-for-remote-team-async/)
-- [How to Set Up a Home Office Recording Studio](/remote-work-tools/how-to-set-up-home-office-recording-studio/)
-- [Best Session Recording Tool for Remote Team Privileged](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)
+- [Best Screen Recording Tools for Async Communication](/best-screen-recording-async-communication/)
+- [Best Tool for Recording Quick 2-Minute Video Updates to Team](/best-tool-for-recording-quick-2-minute-video-updates-to-team/)
+- [Best Open Source Screen Recording Tools for Remote Team](/best-open-source-screen-recording-tool-for-remote-team-async/)
+- [How to Set Up a Home Office Recording Studio](/how-to-set-up-home-office-recording-studio/)
+- [Best Session Recording Tool for Remote Team Privileged](/best-session-recording-tool-for-remote-team-privileged-acces/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -333,10 +333,10 @@ destinations.forEach(dest => {
 ```
 ---
 
-- [Remote Work Guides Hub](/remote-work-tools/)
-- [Best Portable WiFi Hotspot Device for Remote Workers Traveling Across Europe 2026](/remote-work-tools/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
-- [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
-- [Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
+- [Remote Work Guides Hub](/)
+- [Best Portable WiFi Hotspot Device for Remote Workers Traveling Across Europe 2026](/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
+- [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
+- [Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace](/travel-ergonomic-setup-for-remote-workers-guide/)
 
 ## Frequently Asked Questions
 
@@ -362,10 +362,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Portable WiFi Hotspot Device for Remote Workers: 2026](/remote-work-tools/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
-- [Best Portable WiFi Hotspot for Digital Nomads](/remote-work-tools/best-portable-wifi-hotspot-for-digital-nomads/)
-- [Mobile Hotspot vs Tethering for Remote Work Reliability in](/remote-work-tools/remote-work-mobile-hotspot-vs-tethering-which-is-better-for-/)
-- [Best Sim Card and Mobile Data Plan for Remote Workers](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
-- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [Best Portable WiFi Hotspot Device for Remote Workers: 2026](/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
+- [Best Portable WiFi Hotspot for Digital Nomads](/best-portable-wifi-hotspot-for-digital-nomads/)
+- [Mobile Hotspot vs Tethering for Remote Work Reliability in](/remote-work-mobile-hotspot-vs-tethering-which-is-better-for-/)
+- [Best Sim Card and Mobile Data Plan for Remote Workers](/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
+- [How to Audit Remote Employee Device Security Compliance](/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

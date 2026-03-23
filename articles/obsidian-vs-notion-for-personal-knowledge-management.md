@@ -380,10 +380,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Obsidian for Remote Team Knowledge Management](/remote-work-tools/obsidian-remote-team-knowledge-management/)
-- [Obsidian vs Logseq for Developer Notes](/remote-work-tools/obsidian-vs-logseq-for-developer-notes/)
-- [Best Note-Taking Apps for Remote Workers 2026](/remote-work-tools/best-note-taking-apps-remote-workers-2026/)
-- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
-- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
+- [Obsidian for Remote Team Knowledge Management](/obsidian-remote-team-knowledge-management/)
+- [Obsidian vs Logseq for Developer Notes](/obsidian-vs-logseq-for-developer-notes/)
+- [Best Note-Taking Apps for Remote Workers 2026](/best-note-taking-apps-remote-workers-2026/)
+- [Slite vs Notion for Team Knowledge Base](/slite-vs-notion-for-team-knowledge-base/)
+- [Best Tools for Remote Team Knowledge Base 2026](/best-tools-for-remote-team-knowledge-base-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

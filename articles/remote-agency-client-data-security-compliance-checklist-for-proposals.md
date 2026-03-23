@@ -230,10 +230,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [How to Handle Confidential Client Data on Remote Team](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
-- [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
-- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
-- [How to Create Automated Client Progress Report for Remote](/remote-work-tools/how-to-create-automated-client-progress-report-for-remote-pr/)
-- [Best Cloud Access Security Broker for Remote Teams](/remote-work-tools/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
+- [How to Handle Confidential Client Data on Remote Team](/how-to-handle-confidential-client-data-on-remote-team-device/)
+- [How to Create Remote Team Compliance Documentation](/how-to-create-remote-team-compliance-documentation-checklist/)
+- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
+- [How to Create Automated Client Progress Report for Remote](/how-to-create-automated-client-progress-report-for-remote-pr/)
+- [Best Cloud Access Security Broker for Remote Teams](/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

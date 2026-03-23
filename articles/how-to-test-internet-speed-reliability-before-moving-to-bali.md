@@ -266,10 +266,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
-- [Best Fiber Internet Providers in Lisbon for Remote](/remote-work-tools/best-fiber-internet-providers-in-lisbon-for-remote-developer/)
-- [Remote Work Internet Speed Requirements by Task Type](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
-- [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
-- [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
+- [How to Optimize Internet Speed for Remote Work](/how-to-optimize-internet-speed-for-remote-work/)
+- [Best Fiber Internet Providers in Lisbon for Remote](/best-fiber-internet-providers-in-lisbon-for-remote-developer/)
+- [Remote Work Internet Speed Requirements by Task Type](/remote-work-internet-speed-requirements-by-task-type-guide/)
+- [Remote Work Internet Backup Solutions Comparison](/remote-work-internet-backup-solutions-comparison/)
+- [Mexico City Digital Nomad Guide for Remote Workers](/mexico-city-digital-nomad-guide-remote-workers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

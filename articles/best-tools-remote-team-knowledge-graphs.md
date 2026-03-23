@@ -304,20 +304,20 @@ Enterprise with existing Neo4j:      Neo4j Bloom
 
 ## Related Reading
 
-- [Best Knowledge Base Platform for Remote Support Teams](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-custome/)
-- [How to Create a Remote Team Tech Radar](/remote-work-tools/how-to-create-remote-team-tech-radar/)
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
-- [Best Knowledge Base Search Tool for Remote Teams with Docs](/remote-work-tools/best-knowledge-base-search-tool-for-remote-teams-with-docs-across-multiple-platforms/)
+- [Best Knowledge Base Platform for Remote Support Teams](/best-knowledge-base-platform-for-remote-support-team-custome/)
+- [How to Create a Remote Team Tech Radar](/how-to-create-remote-team-tech-radar/)
+- [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
+- [Best Knowledge Base Search Tool for Remote Teams with Docs](/best-knowledge-base-search-tool-for-remote-teams-with-docs-across-multiple-platforms/)
 
 ---
 
 ## Related Articles
 
-- [Obsidian for Remote Team Knowledge Management](/remote-work-tools/obsidian-remote-team-knowledge-management/)
-- [How to Manage Remote Team Knowledge Base: Complete Guide](/remote-work-tools/how-to-manage-remote-team-knowledge-base-guide/)
-- [How to Prevent Knowledge Silos When Remote Team Grows Past](/remote-work-tools/how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/)
-- [Best Knowledge Base Platform for Remote Support Team](/remote-work-tools/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
-- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
+- [Obsidian for Remote Team Knowledge Management](/obsidian-remote-team-knowledge-management/)
+- [How to Manage Remote Team Knowledge Base: Complete Guide](/how-to-manage-remote-team-knowledge-base-guide/)
+- [How to Prevent Knowledge Silos When Remote Team Grows Past](/how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/)
+- [Best Knowledge Base Platform for Remote Support Team](/best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/)
+- [Best Tools for Remote Team Knowledge Base 2026](/best-tools-for-remote-team-knowledge-base-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

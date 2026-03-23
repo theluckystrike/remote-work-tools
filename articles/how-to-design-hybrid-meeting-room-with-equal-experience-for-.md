@@ -306,10 +306,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
-- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
-- [How to Handle Hybrid Meeting Whiteboard Challenge](/remote-work-tools/how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-physical-participants/)
-- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
-- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
+- [Hybrid Meeting Equity Tips for Remote Participants](/hybrid-meeting-equity-tips-for-remote-participants/)
+- [Best Video Conferencing Setup for Hybrid Rooms](/best-video-conferencing-setup-for-hybrid-rooms/)
+- [How to Handle Hybrid Meeting Whiteboard Challenge](/how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-physical-participants/)
+- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
+- [How to Include Remote Workers in Office Meetings](/how-to-include-remote-workers-in-office-meetings/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

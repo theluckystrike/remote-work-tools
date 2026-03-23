@@ -307,10 +307,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
-- [Remote Work Backup Strategy for Developers](/remote-work-tools/remote-work-backup-strategy-for-developers/)
-- [Manage Dotfiles Across Remote Machines](/remote-work-tools/manage-dotfiles-across-remote-machines/)
-- [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
-- [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
+- [Best Dotfiles Manager for Remote Developer Setup](/best-dotfiles-manager-for-remote-developer-setup/)
+- [Remote Work Backup Strategy for Developers](/remote-work-backup-strategy-for-developers/)
+- [Manage Dotfiles Across Remote Machines](/manage-dotfiles-across-remote-machines/)
+- [Remote Work Internet Backup Solutions Comparison](/remote-work-internet-backup-solutions-comparison/)
+- [Backblaze vs CrashPlan for Remote Work Backup](/backblaze-vs-crashplan-for-remote-work-backup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

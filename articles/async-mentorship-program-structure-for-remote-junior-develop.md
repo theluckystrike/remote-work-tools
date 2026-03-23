@@ -339,11 +339,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
-- [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
-- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
-- [How to Onboard Remote Interns Effectively With Structured](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)
-- [How to Structure an Async All Hands Update for 100 Employees](/remote-work-tools/how-to-structure-an-async-all-hands-update-for-100-employees/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/how-to-build-remote-team-async-culture-from-scratch-2026/)
+- [How to Write Effective Async Messages for Remote Work](/how-to-write-effective-async-messages-remote-work/)
+- [Remote Team Async Standup Template Guide](/remote-team-async-standup-template-guide/)
+- [How to Onboard Remote Interns Effectively With Structured](/how-to-onboard-remote-interns-effectively-with-structured-me/)
+- [How to Structure an Async All Hands Update for 100 Employees](/how-to-structure-an-async-all-hands-update-for-100-employees/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Related Reading

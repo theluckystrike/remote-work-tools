@@ -457,11 +457,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
-- [How to Set Up Remote Team Peer Feedback Process](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
-- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
-- [Remote Team Manager Peer Feedback Exchange Template](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
-- [Best Tools for Async Video Feedback on Creative Work in 2026](/remote-work-tools/best-tools-for-async-video-feedback-on-creative-work-2026/)
+- [How to Build Async Feedback Culture on a Fully Remote Team](/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+- [How to Set Up Remote Team Peer Feedback Process](/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
+- [Example: Feedback webhook handler](/async-customer-feedback-synthesis-workflow-for-remote-produc/)
+- [Remote Team Manager Peer Feedback Exchange Template](/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
+- [Best Tools for Async Video Feedback on Creative Work in 2026](/best-tools-for-async-video-feedback-on-creative-work-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Related Reading

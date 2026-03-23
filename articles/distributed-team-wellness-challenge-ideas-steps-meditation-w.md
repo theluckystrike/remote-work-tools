@@ -243,10 +243,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Remote Team Wellness Program Ideas for Distributed](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
-- [Remote Team Wellness Check App for Mobile: Tracking Team](/remote-work-tools/remote-team-wellness-check-app-for-mobile-tracking-team-mora/)
-- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
-- [Remote Team Grant and Funding Tracking Tool for Distributed](/remote-work-tools/remote-team-grant-and-funding-tracking-tool-for-distributed-/)
-- [Distributed Team Holiday Celebration Ideas Across Cultures](/remote-work-tools/distributed-team-holiday-celebration-ideas-across-cultures-a/)
+- [Best Remote Team Wellness Program Ideas for Distributed](/best-remote-team-wellness-program-ideas-for-distributed-orga/)
+- [Remote Team Wellness Check App for Mobile: Tracking Team](/remote-team-wellness-check-app-for-mobile-tracking-team-mora/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/how-to-run-remote-team-retrospective-focused-on-team-health/)
+- [Remote Team Grant and Funding Tracking Tool for Distributed](/remote-team-grant-and-funding-tracking-tool-for-distributed-/)
+- [Distributed Team Holiday Celebration Ideas Across Cultures](/distributed-team-holiday-celebration-ideas-across-cultures-a/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

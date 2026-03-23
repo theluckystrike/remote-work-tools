@@ -314,9 +314,9 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
-- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
-- [How to Create Remote Team Decision Making Framework for Dist](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
-- [Best Practice for Measuring Remote Team Alignment](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
+- [Remote Team Async Decision-Making Framework](/remote-team-async-decision-making-framework/)
+- [Remote Team Architecture Decision Record Template for Async](/remote-team-architecture-decision-record-template-for-async-/)
+- [How to Create Remote Team Decision Making Framework for Dist](/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [Best Practice for Remote Team README Files in Repositories](/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Best Practice for Measuring Remote Team Alignment](/best-practice-for-measuring-remote-team-alignment-using-asyn/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

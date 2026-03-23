@@ -275,9 +275,9 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Trello vs GitHub Projects for a 5-Person Open Source Team](/remote-work-tools/trello-vs-github-projects-for-5-person-open-source-team/)
-- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
-- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
-- [How to Structure Jira for a Remote Team of 50 Developers](/remote-work-tools/how-to-structure-jira-for-a-remote-team-of-50-developers/)
-- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
+- [Trello vs GitHub Projects for a 5-Person Open Source Team](/trello-vs-github-projects-for-5-person-open-source-team/)
+- [Migrating from AWS CodeCommit to GitHub for Remote Team](/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
+- [How to Manage Multi-Repo Projects with Remote Team](/how-to-manage-multi-repo-projects-with-remote-team/)
+- [How to Structure Jira for a Remote Team of 50 Developers](/how-to-structure-jira-for-a-remote-team-of-50-developers/)
+- [Generate weekly team activity report from GitHub](/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

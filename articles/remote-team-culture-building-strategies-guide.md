@@ -348,10 +348,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Preserving Remote Team Culture When Doubling in Size](/remote-work-tools/best-practice-for-preserving-remote-team-culture-when-doubling-in-size/)
-- [Hybrid Work Culture Building Strategies Guide](/remote-work-tools/hybrid-work-culture-building-strategies-guide/)
-- [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [Preserving Remote Team Culture When Doubling in Size](/best-practice-for-preserving-remote-team-culture-when-doubling-in-size/)
+- [Hybrid Work Culture Building Strategies Guide](/hybrid-work-culture-building-strategies-guide/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/how-to-build-remote-team-async-culture-from-scratch-2026/)
+- [How to Maintain Remote Team Culture When Transitioning](/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -326,10 +326,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
-- [How to Create Remote Team Values and Principles Document](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
-- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
-- [How to Set Up Remote Team Documentation Culture in 2026](/remote-work-tools/how-to-set-up-remote-team-documentation-culture-2026/)
-- [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Create Remote Team Values and Principles Document](/how-to-create-remote-team-values-and-principles-document-col/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/)
+- [How to Set Up Remote Team Documentation Culture in 2026](/how-to-set-up-remote-team-documentation-culture-2026/)
+- [How to Create a Remote Team Values Wall Using Miro Board](/how-to-create-remote-team-values-wall-using-miro-board/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

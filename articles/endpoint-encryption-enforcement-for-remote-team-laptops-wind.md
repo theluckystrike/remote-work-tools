@@ -257,10 +257,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Handle Confidential Client Data on Remote Team](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
-- [How to Implement Remote Team macOS FileVault Enforcement](/remote-work-tools/a91-how-to-implement-remote-team-macos-filevault-enforcement-through-mdm-policy/)
-- [DNS Filtering Setup for Remote Team Endpoint Security](/remote-work-tools/dns-filtering-setup-for-remote-team-endpoint-security-using-/)
-- [Best Endpoint Security Solution for Remote Employees](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
-- [Best Backup Solution for Remote Employee Laptops](/remote-work-tools/best-backup-solution-for-remote-employee-laptops-automatic-a/)
+- [How to Handle Confidential Client Data on Remote Team](/how-to-handle-confidential-client-data-on-remote-team-device/)
+- [How to Implement Remote Team macOS FileVault Enforcement](/a91-how-to-implement-remote-team-macos-filevault-enforcement-through-mdm-policy/)
+- [DNS Filtering Setup for Remote Team Endpoint Security](/dns-filtering-setup-for-remote-team-endpoint-security-using-/)
+- [Best Endpoint Security Solution for Remote Employees](/best-endpoint-security-solution-for-remote-employees-using-p/)
+- [Best Backup Solution for Remote Employee Laptops](/best-backup-solution-for-remote-employee-laptops-automatic-a/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

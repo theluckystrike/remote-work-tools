@@ -345,10 +345,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Handle Health Insurance as Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
-- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
-- [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
-- [Brazil Digital Nomad Visa Process and Tax Implications](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
-- [Best Travel Insurance for Digital Nomads 2026](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
+- [How to Handle Health Insurance as Digital Nomad Working](/how-to-handle-health-insurance-as-digital-nomad-working-from/)
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/spain-digital-nomad-visa-requirements-2026/)
+- [Thailand Long Term Visa for Remote Workers 2026](/thailand-long-term-visa-for-remote-workers-2026/)
+- [Brazil Digital Nomad Visa Process and Tax Implications](/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
+- [Best Travel Insurance for Digital Nomads 2026](/best-travel-insurance-for-digital-nomads-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

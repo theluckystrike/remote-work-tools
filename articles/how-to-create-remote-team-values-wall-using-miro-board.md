@@ -386,10 +386,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create Remote Team Values and Principles Document](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
-- [How to Create Remote Team Values Documentation That Stays](/remote-work-tools/how-to-create-remote-team-values-documentation-that-stays-au/)
-- [Miro vs FigJam for Remote Team Collaboration](/remote-work-tools/miro-vs-figjam-for-remote-team-collaboration/)
-- [Best Tools for Remote Team Sprint Retrospective Boards 2026](/remote-work-tools/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+- [How to Create Remote Team Values and Principles Document](/how-to-create-remote-team-values-and-principles-document-col/)
+- [How to Create Remote Team Values Documentation That Stays](/how-to-create-remote-team-values-documentation-that-stays-au/)
+- [Miro vs FigJam for Remote Team Collaboration](/miro-vs-figjam-for-remote-team-collaboration/)
+- [Best Tools for Remote Team Sprint Retrospective Boards 2026](/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
+- [How to Maintain Remote Team Culture When Transitioning](/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

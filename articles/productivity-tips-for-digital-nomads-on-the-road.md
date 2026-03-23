@@ -403,10 +403,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Best Portable WiFi Hotspot for Digital Nomads](/remote-work-tools/best-portable-wifi-hotspot-for-digital-nomads/)
-- [Portable Monitor Setup for Digital Nomads](/remote-work-tools/portable-monitor-setup-for-digital-nomads/)
-- [Manage Dotfiles Across Remote Machines](/remote-work-tools/manage-dotfiles-across-remote-machines/)
-- [Remote Work Backup Strategy for Developers](/remote-work-tools/remote-work-backup-strategy-for-developers/)
-- [Best Travel Insurance for Digital Nomads 2026](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
+- [Best Portable WiFi Hotspot for Digital Nomads](/best-portable-wifi-hotspot-for-digital-nomads/)
+- [Portable Monitor Setup for Digital Nomads](/portable-monitor-setup-for-digital-nomads/)
+- [Manage Dotfiles Across Remote Machines](/manage-dotfiles-across-remote-machines/)
+- [Remote Work Backup Strategy for Developers](/remote-work-backup-strategy-for-developers/)
+- [Best Travel Insurance for Digital Nomads 2026](/best-travel-insurance-for-digital-nomads-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

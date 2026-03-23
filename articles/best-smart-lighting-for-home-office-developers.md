@@ -252,10 +252,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
-- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
-- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
-- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
-- [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
+- [Home Office Lighting Setup for Productivity](/home-office-lighting-setup-for-productivity-guide/)
+- [Best Lighting Setup for Video Calls in Basement Home Office](/best-lighting-setup-for-video-calls-in-basement-home-office/)
+- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/best-desk-lamp-for-home-office-coding/)
+- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/best-webcam-lighting-setup-under-100-dollars/)
+- [Best Task Lighting for Coding at Night Without Eye Strain](/best-task-lighting-for-coding-at-night-without-eye-strain/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

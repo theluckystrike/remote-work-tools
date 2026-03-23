@@ -450,10 +450,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
-- [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
-- [Preserving Remote Team Culture When Doubling in Size](/remote-work-tools/best-practice-for-preserving-remote-team-culture-when-doubling-in-size/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [Remote Team Documentation Culture Guide (2026)](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
+- [How to Transition Team Rituals from Fully Remote to Hybrid](/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
+- [Remote Team Culture Building Strategies Guide](/remote-team-culture-building-strategies-guide/)
+- [Preserving Remote Team Culture When Doubling in Size](/best-practice-for-preserving-remote-team-culture-when-doubling-in-size/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [Remote Team Documentation Culture Guide (2026)](/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

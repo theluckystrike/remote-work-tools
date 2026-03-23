@@ -571,10 +571,10 @@ For small-medium teams, managed tools like Figma are typically more cost-effecti
 
 ## Related Articles
 
-- [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
-- [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
-- [Best Tools for Remote Design System Management](/remote-work-tools/best-tools-remote-design-system-management/)
-- [How to Set Up Remote Design Handoff Workflow](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
-- [Best Tools for Remote Team Design System Documentation 2026](/remote-work-tools/best-tools-for-remote-team-design-system-documentation-2026/)
+- [Best Design Collaboration Tools for Remote Teams](/best-design-collaboration-tools-for-remote-teams/)
+- [Figma vs Sketch for Remote Design Collaboration](/figma-vs-sketch-for-remote-design-collaboration/)
+- [Best Tools for Remote Design System Management](/best-tools-remote-design-system-management/)
+- [How to Set Up Remote Design Handoff Workflow](/how-to-set-up-remote-design-handoff-workflow-between-designe/)
+- [Best Tools for Remote Team Design System Documentation 2026](/best-tools-for-remote-team-design-system-documentation-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

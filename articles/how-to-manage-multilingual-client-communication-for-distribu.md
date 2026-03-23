@@ -325,10 +325,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
-- [How to Handle Emergency Client Communication for Remote](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)
-- [Best Translation Tool for Remote Teams Multilingual](/remote-work-tools/best-translation-tool-for-remote-teams-multilingual-communic/)
-- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
-- [Remote Agency Subcontractor Client Communication Boundaries](/remote-work-tools/remote-agency-subcontractor-client-communication-boundaries-/)
+- [How to Create Client Communication Charter for Remote](/how-to-create-client-communication-charter-for-remote-agency/)
+- [How to Handle Emergency Client Communication for Remote](/how-to-handle-emergency-client-communication-for-remote-agen/)
+- [Best Translation Tool for Remote Teams Multilingual](/best-translation-tool-for-remote-teams-multilingual-communic/)
+- [Communication Norms for a Remote Team of 20 Across 4](/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+- [Remote Agency Subcontractor Client Communication Boundaries](/remote-agency-subcontractor-client-communication-boundaries-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

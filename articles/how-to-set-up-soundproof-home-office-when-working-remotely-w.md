@@ -301,10 +301,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
-- [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
-- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
-- [Pink noise filter approximation](/remote-work-tools/best-white-noise-machine-for-home-office-blocking-toddler-no/)
-- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)
+- [Soundproofing Home Office for Remote Work Guide](/soundproofing-home-office-for-remote-work-guide/)
+- [How to Add Sound Dampening to Home Office Door Cheaply](/how-to-add-sound-dampening-to-home-office-door-cheaply/)
+- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
+- [Pink noise filter approximation](/best-white-noise-machine-for-home-office-blocking-toddler-no/)
+- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-home-office-tax-deductions-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

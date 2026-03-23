@@ -301,18 +301,18 @@ Yes, for most 10-person teams it is the simplest option. At $99 per device per y
 
 ## Related Reading
 
-- [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
-- [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
-- [Endpoint Encryption Enforcement for Remote Team Laptops](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
-- [Bitwarden Vault Export Backup Guide](https://theluckystrike.github.io/privacy-tools-guide/bitwarden-vault-export-backup-guide/)
-- [VPN Authentication Methods Compared Certificate Vs](https://theluckystrike.github.io/privacy-tools-guide/vpn-authentication-methods-compared-certificate-vs-username-password-security/)
+- [Best Backup Solutions for Remote Developer Machines](/best-backup-solutions-for-remote-developer-machines/)
+- [Backblaze vs CrashPlan for Remote Work Backup](/backblaze-vs-crashplan-for-remote-work-backup/)
+- [Endpoint Encryption Enforcement for Remote Team Laptops](/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
+- [Bitwarden Vault Export Backup Guide](https://securetoolsguide.com/bitwarden-vault-export-backup-guide/)
+- [VPN Authentication Methods Compared Certificate Vs](https://securetoolsguide.com/vpn-authentication-methods-compared-certificate-vs-username-password-security/)
 
 ## Related Articles
 
-- [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
-- [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
-- [Endpoint Encryption Enforcement for Remote Team Laptops](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
-- [Secure Remote Desktop Solution Comparison for Distributed](/remote-work-tools/secure-remote-desktop-solution-comparison-for-distributed-te/)
-- [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
+- [Backblaze vs CrashPlan for Remote Work Backup](/backblaze-vs-crashplan-for-remote-work-backup/)
+- [Remote Work Internet Backup Solutions Comparison](/remote-work-internet-backup-solutions-comparison/)
+- [Endpoint Encryption Enforcement for Remote Team Laptops](/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
+- [Secure Remote Desktop Solution Comparison for Distributed](/secure-remote-desktop-solution-comparison-for-distributed-te/)
+- [How to Set Up Reliable Backup Internet for Remote Work](/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

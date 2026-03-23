@@ -409,18 +409,18 @@ If you can't confidently take 2 weeks vacation without obsessively checking emai
 
 ## Related Reading
 
-- [Best Meeting Scheduler Tools for Remote Teams](/remote-work-tools/best-meeting-scheduler-tools-for-remote-teams/)
-- [How to Schedule Meetings Across 8-Hour Timezone Differences](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
-- [Maker Schedule for Remote Developers Guide 2026](/remote-work-tools/maker-schedule-for-remote-developers-guide-2026/)
-- [Best Tools for Remote Team Capacity Planning in 2026](/remote-work-tools/best-tools-for-remote-team-capacity-planning-2026/)
+- [Best Meeting Scheduler Tools for Remote Teams](/best-meeting-scheduler-tools-for-remote-teams/)
+- [How to Schedule Meetings Across 8-Hour Timezone Differences](/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
+- [Maker Schedule for Remote Developers Guide 2026](/maker-schedule-for-remote-developers-guide-2026/)
+- [Best Tools for Remote Team Capacity Planning in 2026](/best-tools-for-remote-team-capacity-planning-2026/)
 
 ## Related Articles
 
-- [Best Meeting Scheduler Tools for Remote Teams](/remote-work-tools/best-meeting-scheduler-tools-for-remote-teams/)
-- [Best After School Activity Scheduling App for Remote Parents](/remote-work-tools/best-after-school-activity-scheduling-app-for-remote-parents/)
-- [Best Calendar Tool for a Remote Executive Team of 5](/remote-work-tools/best-calendar-tool-for-a-remote-executive-team-of-5/)
-- [WorldTimeBuddy Alternatives for Remote Scheduling](/remote-work-tools/worldtimebuddy-alternatives-for-remote-scheduling/)
-- [Remote Employee Time Zone Overlap Optimization Tool](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-sche/)
+- [Best Meeting Scheduler Tools for Remote Teams](/best-meeting-scheduler-tools-for-remote-teams/)
+- [Best After School Activity Scheduling App for Remote Parents](/best-after-school-activity-scheduling-app-for-remote-parents/)
+- [Best Calendar Tool for a Remote Executive Team of 5](/best-calendar-tool-for-a-remote-executive-team-of-5/)
+- [WorldTimeBuddy Alternatives for Remote Scheduling](/worldtimebuddy-alternatives-for-remote-scheduling/)
+- [Remote Employee Time Zone Overlap Optimization Tool](/remote-employee-time-zone-overlap-optimization-tool-for-sche/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

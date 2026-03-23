@@ -262,10 +262,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Async Interview Process for Hiring Remote Developers No Live](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)
-- [Async Product Discovery Process for Remote Teams](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
-- [Best Tool for Remote Product Managers Running Async Customer](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
-- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
-- [Async Capacity Planning Process for Remote: Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Async Interview Process for Hiring Remote Developers No Live](/async-interview-process-for-hiring-remote-developers-no-live/)
+- [Async Product Discovery Process for Remote Teams](/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Best Tool for Remote Product Managers Running Async Customer](/best-tool-for-remote-product-managers-running-async-customer/)
+- [Remote Team Handbook Template](/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [Async Capacity Planning Process for Remote: Managers](/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -324,16 +324,16 @@ Fix: After each implementation review, the designer checks whether any deviation
 - [Best Design Collaboration Tools for Remote Teams](/best-design-collaboration-tools-for-remote-teams/)
 - [Async Design Critique Process for Remote UX Teams](/async-design-critique-process-for-remote-ux-teams-step-by-st.)
 - [Best Remote Design Collaboration Tool for UX Teams Using Figma](/best-remote-design-collaboration-tool-for-ux-teams-using-fig.)
-- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
+- [Async Code Review Process Without Zoom Calls Step by Step](/async-code-review-process-without-zoom-calls-step-by-step/)
 ---
 
 ## Related Articles
 
-- [Best Tools for Async Annotation and Commenting on Design](/remote-work-tools/best-tools-for-async-annotation-and-commenting-on-design-moc/)
-- [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
-- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-- [How to Set Up Remote Design Handoff Workflow](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
-- [Best Tools for Async Video Feedback on Creative Work in 2026](/remote-work-tools/best-tools-for-async-video-feedback-on-creative-work-2026/)
+- [Best Tools for Async Annotation and Commenting on Design](/best-tools-for-async-annotation-and-commenting-on-design-moc/)
+- [Best Design Collaboration Tools for Remote Teams](/best-design-collaboration-tools-for-remote-teams/)
+- [Best Async Project Management Tools for Distributed Teams](/best-async-project-management-tools-for-distributed-teams-2026/)
+- [How to Set Up Remote Design Handoff Workflow](/how-to-set-up-remote-design-handoff-workflow-between-designe/)
+- [Best Tools for Async Video Feedback on Creative Work in 2026](/best-tools-for-async-video-feedback-on-creative-work-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

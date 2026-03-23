@@ -451,10 +451,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Digital Nomad Packing List for Developers](/remote-work-tools/digital-nomad-packing-list-for-developers/)
-- [How to Network as a Digital Nomad Developer](/remote-work-tools/how-to-network-as-a-digital-nomad-developer/)
-- [Malaysia Digital Nomad Pass De Rantau Application for Remote](/remote-work-tools/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
-- [Pet Friendly Digital Nomad Destinations 2026](/remote-work-tools/pet-friendly-digital-nomad-destinations-2026/)
-- [Nomad Friend Finding Tips Guide 2026](/remote-work-tools/nomad-friend-finding-tips-guide-2026/)
+- [Digital Nomad Packing List for Developers](/digital-nomad-packing-list-for-developers/)
+- [How to Network as a Digital Nomad Developer](/how-to-network-as-a-digital-nomad-developer/)
+- [Malaysia Digital Nomad Pass De Rantau Application for Remote](/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
+- [Pet Friendly Digital Nomad Destinations 2026](/pet-friendly-digital-nomad-destinations-2026/)
+- [Nomad Friend Finding Tips Guide 2026](/nomad-friend-finding-tips-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -328,20 +328,20 @@ The `[skip ci]` tag prevents the changelog update commit from triggering another
 
 ## Related Reading
 
-- [Remote Team Git Hooks Standardization Guide](/remote-work-tools/remote-team-git-hooks-standardization-guide/)
-- [How to Set Up Woodpecker CI for Self-Hosted](/remote-work-tools/how-to-set-up-woodpecker-ci-for-self-hosted/)
-- [How to Create Automated Canary Deployments](/remote-work-tools/how-to-create-automated-canary-deployments/)
+- [Remote Team Git Hooks Standardization Guide](/remote-team-git-hooks-standardization-guide/)
+- [How to Set Up Woodpecker CI for Self-Hosted](/how-to-set-up-woodpecker-ci-for-self-hosted/)
+- [How to Create Automated Canary Deployments](/how-to-create-automated-canary-deployments/)
 
-- [Automate Invoice Generation for Freelancers](/remote-work-tools/automate-invoice-generation-freelancers/)
+- [Automate Invoice Generation for Freelancers](/automate-invoice-generation-freelancers/)
 ---
 
 ## Related Articles
 
-- [Best Changelog Tools for Remote Product Teams](/remote-work-tools/best-changelog-tools-for-remote-product-teams/)
-- [Automate Invoice Generation for Freelancers](/remote-work-tools/automate-invoice-generation-freelancers/)
-- [Example celebration message generator (Python)](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
-- [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
-- [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
+- [Best Changelog Tools for Remote Product Teams](/best-changelog-tools-for-remote-product-teams/)
+- [Automate Invoice Generation for Freelancers](/automate-invoice-generation-freelancers/)
+- [Example celebration message generator (Python)](/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
+- [How to Write Effective Async Messages for Remote Work](/how-to-write-effective-async-messages-remote-work/)
+- [How to Automate Dev Environment Setup: A Practical Guide](/how-to-automate-dev-environment-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

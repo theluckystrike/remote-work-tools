@@ -252,10 +252,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
-- [Optimize Docker for Slow Connections When Working Remotely](/remote-work-tools/docker-optimize-slow-connection-remote-work/)
-- [How to Create a Remote Dev Environment Template](/remote-work-tools/how-to-create-a-remote-dev-environment-template/)
-- [How to Set Up Fluentd for Log Collection](/remote-work-tools/how-to-set-up-fluentd-for-log-collection/)
-- [How to Set Up Portainer for Docker Management](/remote-work-tools/how-to-set-up-portainer-for-docker-management/)
+- [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
+- [Optimize Docker for Slow Connections When Working Remotely](/docker-optimize-slow-connection-remote-work/)
+- [How to Create a Remote Dev Environment Template](/how-to-create-a-remote-dev-environment-template/)
+- [How to Set Up Fluentd for Log Collection](/how-to-set-up-fluentd-for-log-collection/)
+- [How to Set Up Portainer for Docker Management](/how-to-set-up-portainer-for-docker-management/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

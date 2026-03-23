@@ -397,9 +397,9 @@ changelog-sections:
 
 ## Related Reading
 
-- [How to Create Automated Security Scan Pipelines](/remote-work-tools/automated-security-scan-pipelines/)
-- [Best Tools for Remote Team Changelog Review](/remote-work-tools/remote-team-changelog-review-tools/)
-- [How to Create Automated Dependency Audit](/remote-work-tools/automated-dependency-audit/)
+- [How to Create Automated Security Scan Pipelines](/automated-security-scan-pipelines/)
+- [Best Tools for Remote Team Changelog Review](/remote-team-changelog-review-tools/)
+- [How to Create Automated Dependency Audit](/automated-dependency-audit/)
 
 ---
 

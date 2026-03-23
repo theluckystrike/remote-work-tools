@@ -352,20 +352,20 @@ This posts a comment on each PR showing the monthly cost delta (e.g., "+$47.20/m
 
 ## Related Reading
 
-- [How to Set Up Netdata for Server Monitoring](/remote-work-tools/how-to-set-up-netdata-for-server-monitoring/)
-- [How to Create Automated Status Pages](/remote-work-tools/how-to-create-automated-status-pages/)
-- [How to Automate Database Backup Verification](/remote-work-tools/how-to-automate-database-backup-verification/)
-- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
+- [How to Set Up Netdata for Server Monitoring](/how-to-set-up-netdata-for-server-monitoring/)
+- [How to Create Automated Status Pages](/how-to-create-automated-status-pages/)
+- [How to Automate Database Backup Verification](/how-to-automate-database-backup-verification/)
+- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-engineering-team-infrastructure-cost-per-deploy-track/)
 
 ---
 
 ## Related Articles
 
-- [AWS Cost Management for Remote Teams](/remote-work-tools/aws-cost-management-remote-teams-guide/)
-- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
-- [Best Tools for Remote Team Daily Health Checks](/remote-work-tools/best-tools-remote-team-daily-health-checks/)
-- [Coworking Space Membership vs Day Pass Comparison](/remote-work-tools/coworking-space-membership-vs-day-pass-comparison/)
-- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
+- [AWS Cost Management for Remote Teams](/aws-cost-management-remote-teams-guide/)
+- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-engineering-team-infrastructure-cost-per-deploy-track/)
+- [Best Tools for Remote Team Daily Health Checks](/best-tools-remote-team-daily-health-checks/)
+- [Coworking Space Membership vs Day Pass Comparison](/coworking-space-membership-vs-day-pass-comparison/)
+- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

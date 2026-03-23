@@ -475,11 +475,11 @@ class DiscoveryMetrics:
 
 ## Related Articles
 
-- [Best Tool for Remote Product Managers Running Async Customer](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
-- [Async Interview Process for Hiring Remote Developers No Live](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)
-- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Best Async Voice Message Tools for Remote Teams 2026](/remote-work-tools/best-async-voice-message-tools-for-remote-teams-2026-comparison/)
-- [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
+- [Best Tool for Remote Product Managers Running Async Customer](/best-tool-for-remote-product-managers-running-async-customer/)
+- [Async Interview Process for Hiring Remote Developers No Live](/async-interview-process-for-hiring-remote-developers-no-live/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [Best Async Voice Message Tools for Remote Teams 2026](/best-async-voice-message-tools-for-remote-teams-2026-comparison/)
+- [How to Do Async User Research Interviews with Recorded](/how-to-do-async-user-research-interviews-with-recorded-responses/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Related Reading

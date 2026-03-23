@@ -334,10 +334,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Asynchronous Team Retrospective Tools Methods Process](/remote-work-tools/asynchronous-team-retrospective-tools-methods-process/)
-- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
-- [Async Team Retrospective Using Shared Documents and Recorded](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
-- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-- [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
+- [Asynchronous Team Retrospective Tools Methods Process](/asynchronous-team-retrospective-tools-methods-process/)
+- [Best Tools for Remote Team Retrospectives 2026](/best-tools-for-remote-team-retrospectives-2026/)
+- [Async Team Retrospective Using Shared Documents and Recorded](/async-team-retrospective-using-shared-documents-and-recorded/)
+- [Best Async Project Management Tools for Distributed Teams](/best-async-project-management-tools-for-distributed-teams-2026/)
+- [How to Run Remote Retrospectives That Generate Action Items](/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

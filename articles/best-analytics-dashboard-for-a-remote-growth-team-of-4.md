@@ -407,10 +407,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
-- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
-- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
-- [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
-- [Best Practice for Measuring Remote Team Alignment](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
+- [Best Tools for Remote Team Metrics Dashboards](/best-tools-remote-team-metrics-dashboards/)
+- [Best Virtual Team Building Activity Platform for Remote](/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Best Business Intelligence Tool for Small Remote Teams](/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [Best Practice for Remote Team README Files in Repositories](/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Best Practice for Measuring Remote Team Alignment](/best-practice-for-measuring-remote-team-alignment-using-asyn/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

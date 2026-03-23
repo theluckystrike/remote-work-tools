@@ -345,9 +345,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Noise Gate Settings for Blue Yeti Microphone Home](/remote-work-tools/best-noise-gate-settings-for-blue-yeti-microphone-home-offic/)
-- [Pink noise filter approximation](/remote-work-tools/best-white-noise-machine-for-home-office-blocking-toddler-no/)
-- [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
-- [Best Noise Gate Microphone Setting for Remote Parents](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
-- [Best Noise Cancelling Setup for Remote Work from Busy Bali](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
+- [Best Noise Gate Settings for Blue Yeti Microphone Home](/best-noise-gate-settings-for-blue-yeti-microphone-home-offic/)
+- [Pink noise filter approximation](/best-white-noise-machine-for-home-office-blocking-toddler-no/)
+- [Noise Cancelling Headphones vs Earbuds for Remote Work](/noise-cancelling-headphones-vs-earbuds-remote-work/)
+- [Best Noise Gate Microphone Setting for Remote Parents](/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
+- [Best Noise Cancelling Setup for Remote Work from Busy Bali](/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

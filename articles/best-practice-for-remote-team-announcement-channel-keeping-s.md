@@ -286,10 +286,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
-- [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
-- [Weekly Wins Channel Setup and Facilitation for Remote Team](/remote-work-tools/weekly-wins-channel-setup-and-facilitation-for-remote-team-m/)
-- [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
-- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
+- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
+- [Slack Channel Strategy for a Remote Company with 75](/slack-channel-strategy-for-a-remote-company-with-75-employee/)
+- [Weekly Wins Channel Setup and Facilitation for Remote Team](/weekly-wins-channel-setup-and-facilitation-for-remote-team-m/)
+- [Best Practice for Remote Team Direct Message vs Channel](/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
+- [Remote Team Communication Strategy Guide](/remote-team-communication-strategy-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

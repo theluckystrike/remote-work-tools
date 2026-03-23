@@ -303,9 +303,9 @@ Both tools store data on third-party servers. Review each tool's privacy policy 
 
 ## Related Articles
 
-- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-- [Best Tools for Remote Team Documentation 2026: Notion](/remote-work-tools/best-remote-team-documentation-tools-2026/)
-- [Notion vs ClickUp for a Remote Startup Under 10 Employees](/remote-work-tools/notion-vs-clickup-for-a-remote-startup-under-10-employees/)
-- [Notion vs Coda for a 3-Person Remote Content Team](/remote-work-tools/notion-vs-coda-for-a-3-person-remote-content-team/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Best Tools for Remote Team Documentation 2026: Notion](/best-remote-team-documentation-tools-2026/)
+- [Notion vs ClickUp for a Remote Startup Under 10 Employees](/notion-vs-clickup-for-a-remote-startup-under-10-employees/)
+- [Notion vs Coda for a 3-Person Remote Content Team](/notion-vs-coda-for-a-3-person-remote-content-team/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

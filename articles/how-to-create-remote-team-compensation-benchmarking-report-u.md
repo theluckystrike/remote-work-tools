@@ -488,10 +488,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create Automated Client Progress Report for Remote](/remote-work-tools/how-to-create-automated-client-progress-report-for-remote-pr/)
-- [How to Create Remote Team Architecture Documentation](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
-- [How to Create Remote Team Skip Level Meeting Program](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
-- [How to Create New Hire Welcome Ritual for Remote Team](/remote-work-tools/how-to-create-new-hire-welcome-ritual-for-remote-team/)
-- [How to Create Interest-Based Slack Channels for Remote](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
+- [How to Create Automated Client Progress Report for Remote](/how-to-create-automated-client-progress-report-for-remote-pr/)
+- [How to Create Remote Team Architecture Documentation](/how-to-create-remote-team-architecture-documentation-using-d/)
+- [How to Create Remote Team Skip Level Meeting Program](/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
+- [How to Create New Hire Welcome Ritual for Remote Team](/how-to-create-new-hire-welcome-ritual-for-remote-team/)
+- [How to Create Interest-Based Slack Channels for Remote](/how-to-create-interest-based-slack-channels-for-remote-cultu/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

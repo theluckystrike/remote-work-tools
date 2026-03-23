@@ -409,10 +409,10 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 
 ## Related Articles
 
-- [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
-- [Mexico Temporary Resident Visa for Remote Workers Earning](/remote-work-tools/mexico-temporary-resident-visa-for-remote-workers-earning-fo/)
-- [Indonesia Second Home Visa for Remote Workers](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
-- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Thailand Long Term Visa for Remote Workers 2026](/thailand-long-term-visa-for-remote-workers-2026/)
+- [Mexico Temporary Resident Visa for Remote Workers Earning](/mexico-temporary-resident-visa-for-remote-workers-earning-fo/)
+- [Indonesia Second Home Visa for Remote Workers](/indonesia-second-home-visa-for-remote-workers-application-an/)
+- [Montenegro Digital Nomad Visa Application Process for Remote](/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/hungary-digital-nomad-visa-white-card-application-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

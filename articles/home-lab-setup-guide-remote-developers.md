@@ -311,18 +311,18 @@ For offsite backup, Restic against a Backblaze B2 bucket costs roughly $0.006/GB
 
 ## Related Reading
 
-- [Prometheus Monitoring Setup for Remote Infrastructure](/remote-work-tools/prometheus-monitoring-remote-infrastructure/)
-- [How to Set Up WireGuard VPN Server for Small Remote Development Teams](/remote-work-tools/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
-- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
-- [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
+- [Prometheus Monitoring Setup for Remote Infrastructure](/prometheus-monitoring-remote-infrastructure/)
+- [How to Set Up WireGuard VPN Server for Small Remote Development Teams](/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
+- [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
+- [Redshift - Linux/Unix blue light filter](/best-home-office-setup-for-software-developers/)
 
 ## Related Articles
 
-- [Remote Work VoIP Setup for Home Offices](/remote-work-tools/remote-work-voip-setup-for-home-offices/)
-- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
-- [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
+- [Remote Work VoIP Setup for Home Offices](/remote-work-voip-setup-for-home-offices/)
+- [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [How to Set Up HIPAA Compliant Home Office for Remote](/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+- [Best Webcam for Home Office Remote Work: A Technical Guide](/best-webcam-for-home-office-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

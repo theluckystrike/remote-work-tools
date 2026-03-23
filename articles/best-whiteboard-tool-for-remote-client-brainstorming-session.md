@@ -594,10 +594,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Virtual Whiteboard for Remote Team Brainstorming](/remote-work-tools/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)
-- [Best Whiteboard Tool for a Remote Team of 10 Product](/remote-work-tools/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
-- [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
-- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
-- [Miro vs FigJam for Remote Team Collaboration](/remote-work-tools/miro-vs-figjam-for-remote-team-collaboration/)
+- [Best Virtual Whiteboard for Remote Team Brainstorming](/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)
+- [Best Whiteboard Tool for a Remote Team of 10 Product](/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
+- [Run Effective Remote Client Workshops Using Miro](/how-to-run-effective-remote-client-workshops-using-miro-boar/)
+- [How to Run Effective Remote Client Workshops Using Miro](/how-to-run-effective-remote-client-workshops-using-miro-board/)
+- [Miro vs FigJam for Remote Team Collaboration](/miro-vs-figjam-for-remote-team-collaboration/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

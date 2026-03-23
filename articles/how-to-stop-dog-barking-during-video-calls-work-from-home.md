@@ -258,9 +258,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Reduce Fan Noise from Desktop PC During Video Calls](/remote-work-tools/how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/)
-- [How to Prevent Laptop Overheating During Long Video Call](/remote-work-tools/how-to-prevent-laptop-overheating-during-long-video-call-ses/)
-- [How to Hide Messy Room During Video Calls: Practical](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
-- [Best Whiteboard Tools for Video Calls](/remote-work-tools/best-whiteboard-tools-for-video-calls/)
-- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
+- [How to Reduce Fan Noise from Desktop PC During Video Calls](/how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/)
+- [How to Prevent Laptop Overheating During Long Video Call](/how-to-prevent-laptop-overheating-during-long-video-call-ses/)
+- [How to Hide Messy Room During Video Calls: Practical](/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
+- [Best Whiteboard Tools for Video Calls](/best-whiteboard-tools-for-video-calls/)
+- [Home Office Network Setup for Video Calls](/home-office-network-video-calls-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

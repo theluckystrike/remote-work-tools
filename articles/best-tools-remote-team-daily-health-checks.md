@@ -402,20 +402,20 @@ For teams already on Slack, Geekbot and Standuply are the practical choices. For
 
 ## Related Reading
 
-- [Async Standup Alternative Using GitHub Commit Summaries](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
-- [Best Remote Team Async Daily Check-in Format](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-stand/)
-- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
-- [Best Pulse Survey Tool for Measuring Remote Employee](/remote-work-tools/best-pulse-survey-tool-for-measuring-remote-employee-engagem/)
+- [Async Standup Alternative Using GitHub Commit Summaries](/async-standup-alternative-using-github-commit-summaries-automatically/)
+- [Best Remote Team Async Daily Check-in Format](/best-remote-team-async-daily-check-in-format-replacing-stand/)
+- [Best Tools for Remote Team Metrics Dashboards](/best-tools-remote-team-metrics-dashboards/)
+- [Best Pulse Survey Tool for Measuring Remote Employee](/best-pulse-survey-tool-for-measuring-remote-employee-engagem/)
 
 ---
 
 ## Related Articles
 
-- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
-- [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
-- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
-- [Best Tools for Remote Team Standup Meetings 2026](/remote-work-tools/best-tools-for-remote-team-standup-meetings-2026/)
-- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
+- [Daily Check In Tools for Remote Teams 2026](/daily-check-in-tools-for-remote-teams-2026/)
+- [Best Remote Team Async Daily Check In Format Replacing](/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/how-to-run-remote-team-retrospective-focused-on-team-health/)
+- [Best Tools for Remote Team Standup Meetings 2026](/best-tools-for-remote-team-standup-meetings-2026/)
+- [Best Tools for Remote Team Metrics Dashboards](/best-tools-remote-team-metrics-dashboards/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

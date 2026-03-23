@@ -245,10 +245,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Implement Just-in-Time Access for Remote Team](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
-- [How to Implement Geo-Fencing Access Controls for Remote](/remote-work-tools/how-to-implement-geo-fencing-access-controls-for-remote-team/)
-- [How to Present Remote Team Credentials to Prospective Agency](/remote-work-tools/how-to-present-remote-team-credentials-to-prospective-agency/)
-- [How to Scale Remote Team Access Management When Onboarding](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
-- [Zero Trust Remote Access Setup Guide for Small Engineering](/remote-work-tools/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
+- [How to Implement Just-in-Time Access for Remote Team](/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
+- [How to Implement Geo-Fencing Access Controls for Remote](/how-to-implement-geo-fencing-access-controls-for-remote-team/)
+- [How to Present Remote Team Credentials to Prospective Agency](/how-to-present-remote-team-credentials-to-prospective-agency/)
+- [How to Scale Remote Team Access Management When Onboarding](/how-to-scale-remote-team-access-management-when-onboarding-m/)
+- [Zero Trust Remote Access Setup Guide for Small Engineering](/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

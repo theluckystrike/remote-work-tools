@@ -186,9 +186,9 @@ A $100 microphone in a treated room beats a $300 microphone in a reflective room
 
 ## Related Reading
 
-- [Remote Work Audio Interface Comparison](/remote-work-tools/remote-work-audio-interface-comparison/)
-- [Remote Work Webcam Comparison Guide 2026](/remote-work-tools/remote-work-webcam-comparison-2026/)
-- [Best Acoustic Foam Placement for Home Office Zoom Call Quality](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
+- [Remote Work Audio Interface Comparison](/remote-work-audio-interface-comparison/)
+- [Remote Work Webcam Comparison Guide 2026](/remote-work-webcam-comparison-2026/)
+- [Best Acoustic Foam Placement for Home Office Zoom Call Quality](/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
 
 ---
 

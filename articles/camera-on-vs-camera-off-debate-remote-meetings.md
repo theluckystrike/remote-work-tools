@@ -330,9 +330,9 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Meeting Camera Guidelines](/remote-work-tools/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)
-- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
-- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
-- [How to Hide Messy Room During Video Calls Without Virtual](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-background/)
-- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Meeting Camera Guidelines](/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
+- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
+- [How to Hide Messy Room During Video Calls Without Virtual](/how-to-hide-messy-room-during-video-calls-without-virtual-background/)
+- [Best Video Conferencing Setup for Hybrid Rooms](/best-video-conferencing-setup-for-hybrid-rooms/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

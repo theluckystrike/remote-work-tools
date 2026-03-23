@@ -412,10 +412,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
-- [Notion Setup for Solo Freelancer Managing 5 Clients](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
-- [How to Manage Multilingual Client Communication](/remote-work-tools/how-to-manage-multilingual-client-communication-for-distributed-agency-team/)
-- [How to Scope Freelance Development Projects](/remote-work-tools/how-to-scope-freelance-development-projects/)
-- [Best Tools for Managing Client Contracts Invoices Freelance](/remote-work-tools/best-tools-for-managing-client-contracts-invoices-freelance-developer/)
+- [How to Get Recurring Clients as a Freelance Developer](/how-to-get-recurring-clients-as-freelance-developer/)
+- [Notion Setup for Solo Freelancer Managing 5 Clients](/notion-setup-for-solo-freelancer-managing-5-clients/)
+- [How to Manage Multilingual Client Communication](/how-to-manage-multilingual-client-communication-for-distributed-agency-team/)
+- [How to Scope Freelance Development Projects](/how-to-scope-freelance-development-projects/)
+- [Best Tools for Managing Client Contracts Invoices Freelance](/best-tools-for-managing-client-contracts-invoices-freelance-developer/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

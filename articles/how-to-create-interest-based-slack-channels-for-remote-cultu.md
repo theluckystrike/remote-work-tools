@@ -426,10 +426,10 @@ seasonal_channels:
 
 ## Related Articles
 
-- [How to Secure Slack and Teams Channels for Remote Team](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
-- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
-- [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
-- [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)
-- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
+- [How to Secure Slack and Teams Channels for Remote Team](/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
+- [How to Optimize Slack for Large Remote Teams](/how-to-optimize-slack-for-large-remote-teams/)
+- [Slack Channel Strategy for a Remote Company with 75](/slack-channel-strategy-for-a-remote-company-with-75-employee/)
+- [Slack vs Discord for a Remote Team of 15 Developers](/slack-vs-discord-for-a-remote-team-of-15-developers/)
+- [Best Remote Team Social Channel Ideas for Building Genuine](/best-remote-team-social-channel-ideas-for-building-genuine-c/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

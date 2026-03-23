@@ -376,10 +376,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
-- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
-- [How to Handle Remote Team Growing Pains When Communication](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)
-- [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
-- [How to Handle Remote Team Reorg Communication When](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
+- [How to Set Up Remote Team Communication Audit](/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [Remote Team Communication Strategy Guide](/remote-team-communication-strategy-guide/)
+- [How to Handle Remote Team Growing Pains When Communication](/how-to-handle-remote-team-growing-pains-when-communication-n/)
+- [Remote Team Growth Stage Communication Audit](/remote-team-growth-stage-communication-audit-identifying-bot/)
+- [How to Handle Remote Team Reorg Communication When](/how-to-handle-remote-team-reorg-communication-when-restructu/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

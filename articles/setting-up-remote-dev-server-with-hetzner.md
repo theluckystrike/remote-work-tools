@@ -345,16 +345,16 @@ For developers in Europe or with European client bases, Hetzner is the clear def
 - [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
 - [Best Remote Dev Server Setup for Async Teams](/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
 - [Remote Team Deployment Pipeline Best Practices](/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
-- [WireGuard VPN Setup for Remote Dev Teams (2026)](/remote-work-tools/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
+- [WireGuard VPN Setup for Remote Dev Teams (2026)](/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
 ---
 
 ## Related Articles
 
-- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
-- [How to Create a Remote Dev Environment Template](/remote-work-tools/how-to-create-a-remote-dev-environment-template/)
-- [How to Set Up a Kubernetes Dev Cluster Remotely](/remote-work-tools/how-to-set-up-kubernetes-dev-cluster-remotely/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [Secure File Transfer Protocol Setup for Remote Teams](/remote-work-tools/secure-file-transfer-protocol-setup-for-remote-teams-exchang/)
+- [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
+- [How to Create a Remote Dev Environment Template](/how-to-create-a-remote-dev-environment-template/)
+- [How to Set Up a Kubernetes Dev Cluster Remotely](/how-to-set-up-kubernetes-dev-cluster-remotely/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [Secure File Transfer Protocol Setup for Remote Teams](/secure-file-transfer-protocol-setup-for-remote-teams-exchang/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

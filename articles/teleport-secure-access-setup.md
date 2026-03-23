@@ -425,10 +425,10 @@ outputs:
 
 ## Related Reading
 
-- [Best Tools for Remote Team Secret Sharing](/remote-work-tools/remote-team-secret-sharing-tools/)
-- [How to Create Automated Security Scan Pipelines](/remote-work-tools/automated-security-scan-pipelines/)
-- [How to Set Up ArgoCD for GitOps Workflows](/remote-work-tools/argocd-gitops-workflow-setup/)
-- [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)
+- [Best Tools for Remote Team Secret Sharing](/remote-team-secret-sharing-tools/)
+- [How to Create Automated Security Scan Pipelines](/automated-security-scan-pipelines/)
+- [How to Set Up ArgoCD for GitOps Workflows](/argocd-gitops-workflow-setup/)
+- [How to Setup Vpn Secure Remote Access Office Resources](/how-to-setup-vpn-secure-remote-access-office-resources/)
 
 ---
 

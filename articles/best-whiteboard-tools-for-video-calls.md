@@ -255,10 +255,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Tools for Async Video Feedback on Creative Work in 2026](/remote-work-tools/best-tools-for-async-video-feedback-on-creative-work-2026/)
-- [How to Stop Dog Barking During Video Calls: A Complete](/remote-work-tools/how-to-stop-dog-barking-during-video-calls-work-from-home/)
-- [Best Tools for Remote Team Retrospective Facilitation 2026](/remote-work-tools/best-tools-for-remote-team-retrospective-facilitation-2026/)
-- [Best Whiteboard Tool for Remote Client Brainstorming](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
-- [Video Walkthrough Tools for Presenting Code Changes](/remote-work-tools/video-walkthrough-tools-for-presenting-code-changes-to-non-t/)
+- [Best Tools for Async Video Feedback on Creative Work in 2026](/best-tools-for-async-video-feedback-on-creative-work-2026/)
+- [How to Stop Dog Barking During Video Calls: A Complete](/how-to-stop-dog-barking-during-video-calls-work-from-home/)
+- [Best Tools for Remote Team Retrospective Facilitation 2026](/best-tools-for-remote-team-retrospective-facilitation-2026/)
+- [Best Whiteboard Tool for Remote Client Brainstorming](/best-whiteboard-tool-for-remote-client-brainstorming-session/)
+- [Video Walkthrough Tools for Presenting Code Changes](/video-walkthrough-tools-for-presenting-code-changes-to-non-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

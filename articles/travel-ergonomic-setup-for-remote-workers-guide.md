@@ -267,10 +267,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-tools/remote-work-ergonomic-assessment-checklist/)
-- [Best Remote Work Ergonomic Mouse 2026](/remote-work-tools/best-remote-work-ergonomic-mouse-2026/)
-- [Ergonomic Laptop Stand for Remote Workers](/remote-work-tools/ergonomic-laptop-stand-for-remote-workers/)
-- [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
-- [Ergonomic Desk Setup Guide for Developers 2026](/remote-work-tools/ergonomic-desk-setup-developers-2026/)
+- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-ergonomic-assessment-checklist/)
+- [Best Remote Work Ergonomic Mouse 2026](/best-remote-work-ergonomic-mouse-2026/)
+- [Ergonomic Laptop Stand for Remote Workers](/ergonomic-laptop-stand-for-remote-workers/)
+- [Back Pain Prevention for Remote Workers 2026](/back-pain-prevention-for-remote-workers-2026/)
+- [Ergonomic Desk Setup Guide for Developers 2026](/ergonomic-desk-setup-developers-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

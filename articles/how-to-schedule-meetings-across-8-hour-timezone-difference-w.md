@@ -428,10 +428,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Manage Timezone Overlap When Working Remotely](/remote-work-tools/how-to-manage-timezone-overlap-when-working-remotely-from-so/)
-- [How to Handle Client Calls Across 8 Hour Time Difference](/remote-work-tools/how-to-handle-client-calls-across-8-hour-time-difference/)
-- [Example on-call schedule that uses timezone difference](/remote-work-tools/how-to-negotiate-flexible-hours-with-us-employer-when-workin/)
-- [Multi Timezone Team Calendar Setup Scheduling Across Regions](/remote-work-tools/multi-timezone-team-calendar-setup-scheduling-across-regions/)
-- [How to Calculate Productive Overlap Hours for Remote](/remote-work-tools/how-to-calculate-productive-overlap-hours-for-remote-pair-pr/)
+- [How to Manage Timezone Overlap When Working Remotely](/how-to-manage-timezone-overlap-when-working-remotely-from-so/)
+- [How to Handle Client Calls Across 8 Hour Time Difference](/how-to-handle-client-calls-across-8-hour-time-difference/)
+- [Example on-call schedule that uses timezone difference](/how-to-negotiate-flexible-hours-with-us-employer-when-workin/)
+- [Multi Timezone Team Calendar Setup Scheduling Across Regions](/multi-timezone-team-calendar-setup-scheduling-across-regions/)
+- [How to Calculate Productive Overlap Hours for Remote](/how-to-calculate-productive-overlap-hours-for-remote-pair-pr/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

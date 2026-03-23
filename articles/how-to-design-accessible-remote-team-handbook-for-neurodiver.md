@@ -281,11 +281,11 @@ Update the handbook when policies change, tools evolve, or user feedback indicat
 
 ## Related Articles
 
-- [Remote Team Handbook: Structure and Template](/remote-work-tools/how-to-structure-remote-team-handbook-table-of-contents-cove/)
-- [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
-- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
-- [How to Structure Remote Team Handbook: Policies, Processes](/remote-work-tools/how-to-structure-remote-team-handbook-covering-policies-proc/)
-- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Remote Team Handbook: Structure and Template](/how-to-structure-remote-team-handbook-table-of-contents-cove/)
+- [Best Notion Template for Remote Team Handbook Covering HR](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
+- [How to Build a Remote Team Handbook from Scratch](/how-to-build-a-remote-team-handbook-from-scratch/)
+- [How to Structure Remote Team Handbook: Policies, Processes](/how-to-structure-remote-team-handbook-covering-policies-proc/)
+- [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -342,10 +342,10 @@ This is a leadership and culture issue, not a tool issue. Review action items at
 
 ## Related Articles
 
-- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
-- [Best Tools for Remote Team Sprint Retrospective Boards 2026](/remote-work-tools/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
-- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
-- [How to Run Remote Team Retrospective That Actually Improves](/remote-work-tools/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
-- [How to Organize Remote Team Retrospective Learnings](/remote-work-tools/how-to-organize-remote-team-retrospective-learnings-document/)
+- [Best Tools for Remote Team Retrospectives 2026](/best-tools-for-remote-team-retrospectives-2026/)
+- [Best Tools for Remote Team Sprint Retrospective Boards 2026](/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [How to Run Remote Team Retrospective That Actually Improves](/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
+- [How to Organize Remote Team Retrospective Learnings](/how-to-organize-remote-team-retrospective-learnings-document/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -309,10 +309,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Install Twilio CLI](/remote-work-tools/how-to-set-up-local-phone-number-for-business-calls-while-wo/)
-- [How to Handle Two Factor Authentication Apps When Changing](/remote-work-tools/how-to-handle-two-factor-authentication-apps-when-changing-s/)
-- [Best SIP Phone Software for Remote Workers: A Technical](/remote-work-tools/best-sip-phone-software-for-remote-workers/)
-- [RescueTime vs Toggl Track](/remote-work-tools/rescue-time-vs-toggl-track-productivity-comparison/)
-- [How to Track Project Dependencies Remote Team](/remote-work-tools/how-to-track-project-dependencies-remote-team/)
+- [Install Twilio CLI](/how-to-set-up-local-phone-number-for-business-calls-while-wo/)
+- [How to Handle Two Factor Authentication Apps When Changing](/how-to-handle-two-factor-authentication-apps-when-changing-s/)
+- [Best SIP Phone Software for Remote Workers: A Technical](/best-sip-phone-software-for-remote-workers/)
+- [RescueTime vs Toggl Track](/rescue-time-vs-toggl-track-productivity-comparison/)
+- [How to Track Project Dependencies Remote Team](/how-to-track-project-dependencies-remote-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

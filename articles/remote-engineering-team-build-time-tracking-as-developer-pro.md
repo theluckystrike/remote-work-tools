@@ -375,18 +375,18 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Reading
 
-- [Remote Team Support Ticket First Response Time Tracking for](/remote-work-tools/remote-team-support-ticket-first-response-time-tracking-for-/)
-- [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
-- [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
-- [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Remote Team Support Ticket First Response Time Tracking for](/remote-team-support-ticket-first-response-time-tracking-for-/)
+- [How to Run Book Clubs for a Remote Engineering Team of 40](/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
+- [How to Get Recurring Clients as a Freelance Developer](/how-to-get-recurring-clients-as-freelance-developer/)
+- [Reading schedule generator for async book clubs](/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [Example: GitHub Actions workflow for assessment tracking](/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
 
 ## Related Articles
 
-- [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
-- [How to Build Remote Team Documentation Culture Guide](/remote-work-tools/how-to-build-remote-team-documentation-culture-guide/)
-- [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
-- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
-- [How to Build Trust on Fully Remote Teams](/remote-work-tools/how-to-build-trust-on-fully-remote-teams/)
+- [GitHub Actions Workflow for Remote Dev Teams](/github-actions-remote-dev-workflow/)
+- [How to Build Remote Team Documentation Culture Guide](/how-to-build-remote-team-documentation-culture-guide/)
+- [How to Build Remote Team Async Culture from Scratch 2026](/how-to-build-remote-team-async-culture-from-scratch-2026/)
+- [How to Build a Remote Team Handbook from Scratch](/how-to-build-a-remote-team-handbook-from-scratch/)
+- [How to Build Trust on Fully Remote Teams](/how-to-build-trust-on-fully-remote-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -236,9 +236,9 @@ A 10-person remote law firm needs a collaboration suite that respects legal conf
 The key is matching tools to actual workflow needs rather than accumulating platforms. Start with core communication and document tools, add practice management to tie everything together, and layer on automation as your team becomes comfortable with the stack.
 
 {% endraw %}
-- [Remote Law Firm Client Communication Portal Comparison.](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
-- [Best All-in-One Tool for a 5 Person Remote Nonprofit](/remote-work-tools/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
-- [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
+- [Remote Law Firm Client Communication Portal Comparison.](/remote-law-firm-client-communication-portal-comparison-for-d/)
+- [Best All-in-One Tool for a 5 Person Remote Nonprofit](/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
+- [Best Document Collaboration for a Remote Legal Team of 12](/best-document-collaboration-for-a-remote-legal-team-of-12/)
 
 ## Frequently Asked Questions
 
@@ -264,9 +264,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Law Firm Client Portal Comparison (2026)](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
-- [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
-- [Best Remote Legal Team Document Collaboration Tool](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
-- [Best All-in-One Tool for a 5 Person Remote Nonprofit](/remote-work-tools/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
-- [Remote Team Collaboration Quality Framework (2026)](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
+- [Remote Law Firm Client Portal Comparison (2026)](/remote-law-firm-client-communication-portal-comparison-for-d/)
+- [Best Document Collaboration for a Remote Legal Team of 12](/best-document-collaboration-for-a-remote-legal-team-of-12/)
+- [Best Remote Legal Team Document Collaboration Tool](/best-remote-legal-team-document-collaboration-tool-for-contr/)
+- [Best All-in-One Tool for a 5 Person Remote Nonprofit](/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
+- [Remote Team Collaboration Quality Framework (2026)](/best-framework-for-evaluating-remote-team-collaboration-qual/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

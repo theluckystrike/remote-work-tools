@@ -317,10 +317,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)
-- [Best VPN for Remote Workers in Thailand Avoiding Geo](/remote-work-tools/best-vpn-for-remote-workers-in-thailand-avoiding-geo-restric/)
-- [How to Structure Jira for a Remote Team of 50 Developers](/remote-work-tools/how-to-structure-jira-for-a-remote-team-of-50-developers/)
-- [Best Mobile VPN Configuration for Remote Workers Accessing](/remote-work-tools/best-mobile-vpn-configuration-for-remote-workers-accessing-d/)
-- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
+- [How to Setup Vpn Secure Remote Access Office Resources](/how-to-setup-vpn-secure-remote-access-office-resources/)
+- [Best VPN for Remote Workers in Thailand Avoiding Geo](/best-vpn-for-remote-workers-in-thailand-avoiding-geo-restric/)
+- [How to Structure Jira for a Remote Team of 50 Developers](/how-to-structure-jira-for-a-remote-team-of-50-developers/)
+- [Best Mobile VPN Configuration for Remote Workers Accessing](/best-mobile-vpn-configuration-for-remote-workers-accessing-d/)
+- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

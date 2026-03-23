@@ -328,10 +328,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Noise Cancelling Microphones for Home Offices Busy](/remote-work-tools/best-noise-cancelling-microphones-for-home-offices-busy-streets/)
-- [Best Ambient Noise Apps for Focus While Coding](/remote-work-tools/best-ambient-noise-apps-for-focus-while-coding/)
-- [Best Noise Cancelling Setup for Remote Work from Busy Bali](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
-- [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
-- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
+- [Best Noise Cancelling Microphones for Home Offices Busy](/best-noise-cancelling-microphones-for-home-offices-busy-streets/)
+- [Best Ambient Noise Apps for Focus While Coding](/best-ambient-noise-apps-for-focus-while-coding/)
+- [Best Noise Cancelling Setup for Remote Work from Busy Bali](/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
+- [Noise Cancelling Headphones vs Earbuds for Remote Work](/noise-cancelling-headphones-vs-earbuds-remote-work/)
+- [How to Set Up a Soundproof Home Office When Working](/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

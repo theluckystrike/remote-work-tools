@@ -244,10 +244,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
-- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
-- [Best Webcam Lighting Setup Under $100 for Professional](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
-- [Ring Light vs Panel Light for Video Calls: A Developer Guide](/remote-work-tools/ring-light-vs-panel-light-for-video-calls/)
-- [Best Smart Lighting for Home Office Developers](/remote-work-tools/best-smart-lighting-for-home-office-developers/)
+- [Home Office Lighting Setup for Productivity](/home-office-lighting-setup-for-productivity-guide/)
+- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/best-webcam-lighting-setup-under-100-dollars/)
+- [Best Webcam Lighting Setup Under $100 for Professional](/best-webcam-lighting-setup-under-100-dollars/)
+- [Ring Light vs Panel Light for Video Calls: A Developer Guide](/ring-light-vs-panel-light-for-video-calls/)
+- [Best Smart Lighting for Home Office Developers](/best-smart-lighting-for-home-office-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

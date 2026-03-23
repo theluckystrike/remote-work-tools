@@ -264,10 +264,10 @@ A shutdown ritual matters more than a shutdown time. Your end-of-day notes serve
 
 ## Related Articles
 
-- [How to Prevent Remote Work Isolation for Solo Team Members](/remote-work-tools/how-to-prevent-remote-work-isolation-for-solo-team-members/)
-- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
-- [Best Practice for Remote Team Documentation Feedback Loop](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
-- [Best Tools for Remote Team Daily Health Checks](/remote-work-tools/best-tools-remote-team-daily-health-checks/)
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Prevent Remote Work Isolation for Solo Team Members](/how-to-prevent-remote-work-isolation-for-solo-team-members/)
+- [Daily Check In Tools for Remote Teams 2026](/daily-check-in-tools-for-remote-teams-2026/)
+- [Best Practice for Remote Team Documentation Feedback Loop](/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
+- [Best Tools for Remote Team Daily Health Checks](/best-tools-remote-team-daily-health-checks/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

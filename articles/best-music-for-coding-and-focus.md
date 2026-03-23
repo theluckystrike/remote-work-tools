@@ -393,10 +393,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Brain.fm vs Endel: Focus Music Comparison for Developers](/remote-work-tools/brain-fm-vs-endel-focus-music-comparison/)
-- [Top 10 AI Tools for Developers in 2024](/remote-work-tools/top-10-ai-tools-for-developers-in-2024/)
-- [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
-- [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)
-- [Best Practice for Remote Team Slack Do Not Disturb](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
+- [Brain.fm vs Endel: Focus Music Comparison for Developers](/brain-fm-vs-endel-focus-music-comparison/)
+- [Top 10 AI Tools for Developers in 2024](/top-10-ai-tools-for-developers-in-2024/)
+- [How to Reduce Wrist Pain from Coding on Laptop All Day](/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
+- [Post new team playlist additions to Slack every 4 hours](/distributed-team-music-playlist-collaboration-for-remote-work/)
+- [Best Practice for Remote Team Slack Do Not Disturb](/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

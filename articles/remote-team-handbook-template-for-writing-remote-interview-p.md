@@ -410,10 +410,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-- [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
-- [Remote Team Handbook: Structure and Template](/remote-work-tools/how-to-structure-remote-team-handbook-table-of-contents-cove/)
-- [Remote Team Hiring Rubric Template for Consistent](/remote-work-tools/remote-team-hiring-rubric-template-for-consistent-evaluation/)
-- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Best Notion Template for Remote Team Handbook Covering HR](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
+- [Remote Team Handbook: Structure and Template](/how-to-structure-remote-team-handbook-table-of-contents-cove/)
+- [Remote Team Hiring Rubric Template for Consistent](/remote-team-hiring-rubric-template-for-consistent-evaluation/)
+- [Remote Team Handbook Section Template for Defining](/remote-team-handbook-section-template-for-defining-communica/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -372,20 +372,20 @@ Run this during your work day for a week, then share the log with your ISP when 
 
 ## Related Reading
 
-- [Best Mesh WiFi for Home Office Video Calls](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
-- [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
-- [Remote Work VoIP Setup for Home Offices](/remote-work-tools/remote-work-voip-setup-for-home-offices/)
-- [Freelance Developer Toolkit: Essential Apps 2026](/remote-work-tools/freelance-developer-toolkit-essential-apps-2026/)
+- [Best Mesh WiFi for Home Office Video Calls](/best-mesh-wifi-for-home-office-video-calls/)
+- [How to Set Up Reliable Backup Internet for Remote Work](/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
+- [Remote Work VoIP Setup for Home Offices](/remote-work-voip-setup-for-home-offices/)
+- [Freelance Developer Toolkit: Essential Apps 2026](/freelance-developer-toolkit-essential-apps-2026/)
 
 ---
 
 ## Related Articles
 
-- [Remote Work Home Network Security Guide](/remote-work-tools/home-network-security-remote-work/)
-- [How to Secure Remote Team Kubernetes Clusters with Network P](/remote-work-tools/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
-- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
-- [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
-- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
+- [Remote Work Home Network Security Guide](/home-network-security-remote-work/)
+- [How to Secure Remote Team Kubernetes Clusters with Network P](/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
+- [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
+- [How to Optimize Internet Speed for Remote Work](/how-to-optimize-internet-speed-for-remote-work/)
+- [Home Office Network Setup for Video Calls](/home-office-network-video-calls-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

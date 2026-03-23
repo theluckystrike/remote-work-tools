@@ -307,10 +307,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Story Point Velocity Trend Analysis Tool](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
-- [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)
-- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
-- [How to Secure Remote Team CI/CD Pipeline From Supply Chain](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
-- [Remote Team Deployment Pipeline Best Practices](/remote-work-tools/remote-team-deployment-pipeline-best-practices/)
+- [Remote Team Story Point Velocity Trend Analysis Tool](/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
+- [How to Track Remote Team Velocity Metrics](/how-to-track-remote-team-velocity-metrics/)
+- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
+- [How to Secure Remote Team CI/CD Pipeline From Supply Chain](/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
+- [Remote Team Deployment Pipeline Best Practices](/remote-team-deployment-pipeline-best-practices/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

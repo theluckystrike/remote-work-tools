@@ -429,10 +429,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
-- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
-- [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
-- [Remote Work Internet Speed Requirements by Task Type](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
-- [Veed API - Upload and process video](/remote-work-tools/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
+- [Home Office Network Setup for Video Calls](/home-office-network-video-calls-setup/)
+- [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
+- [How to Optimize Internet Speed for Remote Work](/how-to-optimize-internet-speed-for-remote-work/)
+- [Remote Work Internet Speed Requirements by Task Type](/remote-work-internet-speed-requirements-by-task-type-guide/)
+- [Veed API - Upload and process video](/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -325,10 +325,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Practice for Remote Team Escalation Paths That Scale](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
-- [Remote Team Security Incident Response Plan Template](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [How to Create Remote Team Escalation Communication Template](/remote-work-tools/how-to-create-remote-team-escalation-communication-template-/)
-- [Escalation Protocols for Remote Engineering Teams](/remote-work-tools/escalation-protocols-for-remote-engineering-teams/)
-- [Remote Team Support Ticket First Response Time Tracking](/remote-work-tools/remote-team-support-ticket-first-response-time-tracking-for-/)
+- [Best Practice for Remote Team Escalation Paths That Scale](/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
+- [Remote Team Security Incident Response Plan Template](/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [How to Create Remote Team Escalation Communication Template](/how-to-create-remote-team-escalation-communication-template-/)
+- [Escalation Protocols for Remote Engineering Teams](/escalation-protocols-for-remote-engineering-teams/)
+- [Remote Team Support Ticket First Response Time Tracking](/remote-team-support-ticket-first-response-time-tracking-for-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

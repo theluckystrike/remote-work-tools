@@ -374,10 +374,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Manager One on One Question Template for Distributed](/remote-work-tools/remote-manager-one-on-one-question-template-for-distributed-team-check-ins/)
-- [Hybrid Work Manager Training Program Template](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
-- [Best Remote Team Wellness Program Ideas for Distributed](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
-- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
-- [Remote Employee Belonging and Inclusion Program Ideas](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
+- [Remote Manager One on One Question Template for Distributed](/remote-manager-one-on-one-question-template-for-distributed-team-check-ins/)
+- [Hybrid Work Manager Training Program Template](/hybrid-work-manager-training-program-template-for-leading-pa/)
+- [Best Remote Team Wellness Program Ideas for Distributed](/best-remote-team-wellness-program-ideas-for-distributed-orga/)
+- [Remote Team Handbook Template](/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [Remote Employee Belonging and Inclusion Program Ideas](/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

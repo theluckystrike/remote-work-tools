@@ -243,18 +243,18 @@ Track trends over time. A dropping eNPS during a hiring wave signals cultural er
 
 ## Related Reading
 
-- [Remote Team Communication Guidelines That Actually Work](/remote-work-tools/remote-team-communication-guidelines-that-actually-work/)
-- [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/how-to-run-remote-retrospectives-that-generate-action-items/)
-- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
-- [Hybrid Team Social Events: Best Practices (2026)](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
+- [Remote Team Communication Guidelines That Actually Work](/remote-team-communication-guidelines-that-actually-work/)
+- [How to Run Remote Retrospectives That Generate Action Items](/how-to-run-remote-retrospectives-that-generate-action-items/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
+- [Hybrid Team Social Events: Best Practices (2026)](/best-practice-for-hybrid-team-social-events-including-both-r/)
 
 ## Related Articles
 
-- [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [Remote Team Documentation Culture Guide (2026)](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
-- [How to Build Remote Team Culture Without Mandatory Fun](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
+- [Remote Team Culture Building Strategies Guide](/remote-team-culture-building-strategies-guide/)
+- [How to Maintain Remote Team Culture When Transitioning](/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [Remote Team Documentation Culture Guide (2026)](/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
+- [How to Build Remote Team Culture Without Mandatory Fun](/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

@@ -243,9 +243,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Zero Trust Remote Access Setup Guide for Small Engineering](/remote-work-tools/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
-- [Download and install cloudflared](/remote-work-tools/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
-- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
-- [OpenVPN client configuration snippet](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
-- [How to Implement Just-in-Time Access for Remote Team](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
+- [Zero Trust Remote Access Setup Guide for Small Engineering](/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
+- [Download and install cloudflared](/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
+- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
+- [OpenVPN client configuration snippet](/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
+- [How to Implement Just-in-Time Access for Remote Team](/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

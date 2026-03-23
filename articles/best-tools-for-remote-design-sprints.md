@@ -343,10 +343,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Tools for Remote Team Sprint Planning](/remote-work-tools/best-tools-for-remote-sprint-planning/)
-- [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
-- [Best Tools for Remote Team Sprint Retrospective Boards 2026](/remote-work-tools/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
-- [Best Sprint Planning Tools for Remote Scrum Masters](/remote-work-tools/best-sprint-planning-tools-for-remote-scrum-masters/)
-- [How to Set Up Remote Design Handoff Workflow](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
+- [Best Tools for Remote Team Sprint Planning](/best-tools-for-remote-sprint-planning/)
+- [Best Design Collaboration Tools for Remote Teams](/best-design-collaboration-tools-for-remote-teams/)
+- [Best Tools for Remote Team Sprint Retrospective Boards 2026](/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
+- [Best Sprint Planning Tools for Remote Scrum Masters](/best-sprint-planning-tools-for-remote-scrum-masters/)
+- [How to Set Up Remote Design Handoff Workflow](/how-to-set-up-remote-design-handoff-workflow-between-designe/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

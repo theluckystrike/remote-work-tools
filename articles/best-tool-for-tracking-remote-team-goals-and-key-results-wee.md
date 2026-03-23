@@ -301,10 +301,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
-- [Remote Team OKR and Goal Tracking 2026](/remote-work-tools/remote-team-okr-goal-tracking-2026/)
-- [Best Project Management CLI Tools 2026](/remote-work-tools/best-project-management-cli-tools-2026/)
-- [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
-- [Best Tools for Remote Team OKR Tracking in 2026](/remote-work-tools/best-tools-for-remote-team-okr-tracking-2026/)
+- [Example Linear API query for OKR progress](/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
+- [Remote Team OKR and Goal Tracking 2026](/remote-team-okr-goal-tracking-2026/)
+- [Best Project Management CLI Tools 2026](/best-project-management-cli-tools-2026/)
+- [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
+- [Best Tools for Remote Team OKR Tracking in 2026](/best-tools-for-remote-team-okr-tracking-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

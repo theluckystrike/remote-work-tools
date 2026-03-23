@@ -229,10 +229,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Figma Organization Structure for a Remote Design Team of 8](/remote-work-tools/figma-organization-structure-for-a-remote-design-team-of-8/)
-- [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)
-- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
-- [Remote Team Handbook](/remote-work-tools/how-to-structure-remote-team-handbook-table-of-contents-cove/)
-- [How to Structure Remote Team Handbook: Policies, Processes](/remote-work-tools/how-to-structure-remote-team-handbook-covering-policies-proc/)
+- [Figma Organization Structure for a Remote Design Team of 8](/figma-organization-structure-for-a-remote-design-team-of-8/)
+- [Slack vs Discord for a Remote Team of 15 Developers](/slack-vs-discord-for-a-remote-team-of-15-developers/)
+- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
+- [Remote Team Handbook](/how-to-structure-remote-team-handbook-table-of-contents-cove/)
+- [How to Structure Remote Team Handbook: Policies, Processes](/how-to-structure-remote-team-handbook-covering-policies-proc/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

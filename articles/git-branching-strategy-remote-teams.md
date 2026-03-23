@@ -270,18 +270,18 @@ gh pr list --state closed --limit 50 --json headRefName,closedAt \
 
 ## Related Reading
 
-- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
-- [Async Code Review Process Without Zoom Calls](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
-- [How to Handle Remote Team Reorg Communication When](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
+- [CI/CD Pipeline for Solo Developers: GitHub Actions](/ci-cd-pipeline-solo-developer-github-actions/)
+- [Async Code Review Process Without Zoom Calls](/async-code-review-process-without-zoom-calls-step-by-step/)
+- [Remote Code Review Tools Comparison 2026](/remote-code-review-tools-comparison-2026/)
+- [How to Handle Remote Team Reorg Communication When](/how-to-handle-remote-team-reorg-communication-when-restructu/)
 
 ## Related Articles
 
-- [Diversity Sourcing Strategy for Remote Teams](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
-- [GitHub Pull Request Workflow for Distributed Teams](/remote-work-tools/github-pull-request-workflow-for-distributed-teams/)
-- [Remote Team Employer Branding Strategy for Attracting](/remote-work-tools/remote-team-employer-branding-strategy-for-attracting-distributed-talent-at-scale-guide-2026/)
-- [Remote Work Backup Strategy for Developers](/remote-work-tools/remote-work-backup-strategy-for-developers/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Diversity Sourcing Strategy for Remote Teams](/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
+- [GitHub Pull Request Workflow for Distributed Teams](/github-pull-request-workflow-for-distributed-teams/)
+- [Remote Team Employer Branding Strategy for Attracting](/remote-team-employer-branding-strategy-for-attracting-distributed-talent-at-scale-guide-2026/)
+- [Remote Work Backup Strategy for Developers](/remote-work-backup-strategy-for-developers/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

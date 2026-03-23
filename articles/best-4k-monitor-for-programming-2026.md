@@ -373,10 +373,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Developer Home Office Monitor Setup Guide](/remote-work-tools/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)
-- [Example: Checking monitor USB-C capabilities](/remote-work-tools/best-ultrawide-monitor-for-programming-remote-work/)
-- [Best Remote Work Monitor Under 300 Dollars 2026](/remote-work-tools/best-remote-work-monitor-under-300-dollars-2026/)
-- [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
-- [How to Set Up Dual Monitor Arms on Remote Work Desk](/remote-work-tools/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
+- [Remote Developer Home Office Monitor Setup Guide](/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)
+- [Example: Checking monitor USB-C capabilities](/best-ultrawide-monitor-for-programming-remote-work/)
+- [Best Remote Work Monitor Under 300 Dollars 2026](/best-remote-work-monitor-under-300-dollars-2026/)
+- [Monitor Setup for Remote Developer](/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
+- [How to Set Up Dual Monitor Arms on Remote Work Desk](/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

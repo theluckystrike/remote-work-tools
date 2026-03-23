@@ -364,11 +364,11 @@ A: Only in large orgs (500+ people). For most teams, one level of skip-level is 
 
 ## Related Articles
 
-- [How to Create Remote Team Skip Level Meeting Program](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
-- [How to Run Effective Skip Level Meetings with Remote](/remote-work-tools/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
-- [Skip Level Meeting Guide for Remote Organizations](/remote-work-tools/skip-level-meeting-guide-for-remote-organizations/)
-- [Best Practice for Hybrid Team Meeting Scheduling Respecting](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [How to Create Remote Team Skip Level Meeting Program](/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
+- [How to Run Effective Skip Level Meetings with Remote](/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
+- [Skip Level Meeting Guide for Remote Organizations](/skip-level-meeting-guide-for-remote-organizations/)
+- [Best Practice for Hybrid Team Meeting Scheduling Respecting](/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

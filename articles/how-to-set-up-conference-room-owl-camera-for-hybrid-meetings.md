@@ -233,10 +233,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
-- [Camera On vs Camera Off Debate in Remote Meetings](/remote-work-tools/camera-on-vs-camera-off-debate-remote-meetings/)
-- [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
-- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
-- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
+- [Camera On vs Camera Off Debate in Remote Meetings](/camera-on-vs-camera-off-debate-remote-meetings/)
+- [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/audio-setup-for-hybrid-conference-rooms-guide/)
+- [Best Video Conferencing Setup for Hybrid Rooms](/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Recommended equipment configuration for hybrid meeting rooms](/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

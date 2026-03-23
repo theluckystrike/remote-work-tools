@@ -359,10 +359,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
-- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
-- [How to Handle Employment Law Differences for Remote Teams](/remote-work-tools/how-to-handle-employment-law-differences-for-remote-teams-ac/)
-- [Chrome Security Headers Extension](/remote-work-tools/chrome-security-headers-extension/)
-- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
+- [Security Tools for a Fully Remote Company Under 20 Employees](/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [How to Audit Remote Employee Device Security Compliance](/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [How to Handle Employment Law Differences for Remote Teams](/how-to-handle-employment-law-differences-for-remote-teams-ac/)
+- [Chrome Security Headers Extension](/chrome-security-headers-extension/)
+- [Required security configurations for company laptops](/how-to-create-remote-team-acceptable-use-policy-for-company-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

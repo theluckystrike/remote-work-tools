@@ -5,7 +5,7 @@ last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 title: "Best Remote Work Webcam Lighting Setup Under $100 (2026)"
 description: "Compare affordable webcam lighting solutions for home offices. Includes real product names, prices, lux measurements, and color temperature comparisons."
-permalink: /remote-work-tools/best-webcam-lighting-setup-under-100-dollars/
+permalink: /best-webcam-lighting-setup-under-100-dollars/
 categories: [guides]
 tags: [remote-work-tools, hardware, home-office, best-of, remote-work]
 reviewed: true
@@ -423,10 +423,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Webcam Lighting Setup Under $100 for Professional](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
-- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
-- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
-- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
-- [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
+- [Best Webcam Lighting Setup Under $100 for Professional](/best-webcam-lighting-setup-under-100-dollars/)
+- [Home Office Lighting Setup for Productivity](/home-office-lighting-setup-for-productivity-guide/)
+- [Best Lighting Setup for Video Calls in Basement Home Office](/best-lighting-setup-for-video-calls-in-basement-home-office/)
+- [Best Video Conferencing Setup for Hybrid Rooms](/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Best Task Lighting for Coding at Night Without Eye Strain](/best-task-lighting-for-coding-at-night-without-eye-strain/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

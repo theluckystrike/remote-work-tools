@@ -531,20 +531,20 @@ A healthy Renovate setup for a mid-sized JS project typically generates 5-15 mer
 
 ## Related Reading
 
-- [How to Automate Code Quality Gates for Remote Teams](/remote-work-tools/how-to-automate-code-quality-gates-remote-teams/)
-- [How to Set Up Verdaccio Private npm Registry](/remote-work-tools/how-to-set-up-verdaccio-private-npm-registry/)
-- [Best DevsSecOps Toolchain for Remote Teams](/remote-work-tools/best-devsecops-toolchain-for-remote-teams-integrating-securi/)
-- [How to Automate Docker Container Updates](/remote-work-tools/automate-docker-container-updates/)
+- [How to Automate Code Quality Gates for Remote Teams](/how-to-automate-code-quality-gates-remote-teams/)
+- [How to Set Up Verdaccio Private npm Registry](/how-to-set-up-verdaccio-private-npm-registry/)
+- [Best DevsSecOps Toolchain for Remote Teams](/best-devsecops-toolchain-for-remote-teams-integrating-securi/)
+- [How to Automate Docker Container Updates](/automate-docker-container-updates/)
 
 ---
 
 ## Related Articles
 
-- [Best Tools for Remote Team Dependency Tracking](/remote-work-tools/best-tools-remote-team-dependency-tracking/)
-- [Remote DevOps Team Dependency Update Workflow for](/remote-work-tools/remote-devops-team-dependency-update-workflow-for-coordinati/)
-- [Best Remote Collaboration Tool for Technical Architects](/remote-work-tools/best-remote-collaboration-tool-for-technical-architects-docu/)
-- [How to Write Async Status Updates That Managers Actually](/remote-work-tools/how-to-write-async-status-updates-that-managers-actually-read/)
-- [How to Manage Multiple GitHub Accounts for Remote Work](/remote-work-tools/how-to-manage-multiple-github-accounts-remote-work/)
+- [Best Tools for Remote Team Dependency Tracking](/best-tools-remote-team-dependency-tracking/)
+- [Remote DevOps Team Dependency Update Workflow for](/remote-devops-team-dependency-update-workflow-for-coordinati/)
+- [Best Remote Collaboration Tool for Technical Architects](/best-remote-collaboration-tool-for-technical-architects-docu/)
+- [How to Write Async Status Updates That Managers Actually](/how-to-write-async-status-updates-that-managers-actually-read/)
+- [How to Manage Multiple GitHub Accounts for Remote Work](/how-to-manage-multiple-github-accounts-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

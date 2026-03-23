@@ -416,10 +416,10 @@ Export format for accountant:
 ```
 ---
 
-- [Remote Work Guides Hub](/remote-work-tools/)
-- [Best Time Tracking Tools for Remote Freelancers: A.](/remote-work-tools/best-time-tracking-tools-for-remote-freelancers/)
-- [Daily Workflow for a Solo Remote Technical Writer 2026](/remote-work-tools/daily-workflow-for-a-solo-remote-technical-writer-2026/)
-- [Best Whiteboarding Tool for Remote Architects Doing System Design Sessions 2026](/remote-work-tools/best-whiteboarding-tool-for-remote-architects-doing-system-d/)
+- [Remote Work Guides Hub](/)
+- [Best Time Tracking Tools for Remote Freelancers: A.](/best-time-tracking-tools-for-remote-freelancers/)
+- [Daily Workflow for a Solo Remote Technical Writer 2026](/daily-workflow-for-a-solo-remote-technical-writer-2026/)
+- [Best Whiteboarding Tool for Remote Architects Doing System Design Sessions 2026](/best-whiteboarding-tool-for-remote-architects-doing-system-d/)
 
 ## Frequently Asked Questions
 
@@ -445,10 +445,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
-- [Best Tool for Tracking Remote Employee Work Permits](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
-- [Productivity Tracking Tools for Remote Teams 2026](/remote-work-tools/remote-team-productivity-tracking-2026/)
-- [Best Project Tracking Tool for Remote Hardware Engineering](/remote-work-tools/best-project-tracking-tool-for-remote-hardware-engineering-t/)
-- [Best Time Tracking Tools for Remote Freelancers](/remote-work-tools/best-time-tracking-tools-for-remote-freelancers/)
+- [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-employee-performance-tracking-tool-comparison-for-dis/)
+- [Best Tool for Tracking Remote Employee Work Permits](/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
+- [Productivity Tracking Tools for Remote Teams 2026](/remote-team-productivity-tracking-2026/)
+- [Best Project Tracking Tool for Remote Hardware Engineering](/best-project-tracking-tool-for-remote-hardware-engineering-t/)
+- [Best Time Tracking Tools for Remote Freelancers](/best-time-tracking-tools-for-remote-freelancers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

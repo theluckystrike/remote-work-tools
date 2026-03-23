@@ -369,10 +369,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
-- [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)
-- [How to Handle Remote Team Growing Pains When Communication](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)
-- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
-- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+- [How to Set Up Remote Team Communication Audit](/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [Slack vs Discord for a Remote Team of 15 Developers](/slack-vs-discord-for-a-remote-team-of-15-developers/)
+- [How to Handle Remote Team Growing Pains When Communication](/how-to-handle-remote-team-growing-pains-when-communication-n/)
+- [Communication Norms for a Remote Team of 20 Across 4](/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

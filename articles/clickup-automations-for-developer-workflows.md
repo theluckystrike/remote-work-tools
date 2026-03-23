@@ -364,10 +364,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Notion vs ClickUp for Engineering Teams: A Practical](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
-- [Notion vs ClickUp for a Remote Startup Under 10 Employees](/remote-work-tools/notion-vs-clickup-for-a-remote-startup-under-10-employees/)
-- [Basecamp vs ClickUp for a 25-Person Remote Creative Agency](/remote-work-tools/basecamp-vs-clickup-for-a-25-person-remote-creative-agency/)
-- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-- [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
+- [Notion vs ClickUp for Engineering Teams: A Practical](/notion-vs-clickup-for-engineering-teams/)
+- [Notion vs ClickUp for a Remote Startup Under 10 Employees](/notion-vs-clickup-for-a-remote-startup-under-10-employees/)
+- [Basecamp vs ClickUp for a 25-Person Remote Creative Agency](/basecamp-vs-clickup-for-a-25-person-remote-creative-agency/)
+- [Remote Developer Code Review Workflow Tools for Teams](/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+- [Example: Add a client to a specific project list](/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

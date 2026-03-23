@@ -706,9 +706,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
-- [How to Run Remote Team Retrospective That Actually Improves](/remote-work-tools/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
-- [Best Tools for Remote Team Sprint Retrospective Boards 2026](/remote-work-tools/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
-- [How to help Engaging Remote Retrospectives](/remote-work-tools/how-to-help-engaging-remote-retrospectives/)
-- [Async Retrospective Tools and Process Guide](/remote-work-tools/async-retrospective-tools-and-process/)
+- [Best Tools for Remote Team Retrospectives 2026](/best-tools-for-remote-team-retrospectives-2026/)
+- [How to Run Remote Team Retrospective That Actually Improves](/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
+- [Best Tools for Remote Team Sprint Retrospective Boards 2026](/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
+- [How to help Engaging Remote Retrospectives](/how-to-help-engaging-remote-retrospectives/)
+- [Async Retrospective Tools and Process Guide](/async-retrospective-tools-and-process/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

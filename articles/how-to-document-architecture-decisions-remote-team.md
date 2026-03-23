@@ -273,10 +273,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
-- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
-- [Best Tools for Remote Architecture Decision Records](/remote-work-tools/best-tools-for-remote-architecture-decision-records/)
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
-- [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [How to Create Remote Team Architecture Decision Record](/how-to-create-remote-team-architecture-decision-record-templ/)
+- [Remote Team Architecture Decision Record Template for Async](/remote-team-architecture-decision-record-template-for-async-/)
+- [Best Tools for Remote Architecture Decision Records](/best-tools-for-remote-architecture-decision-records/)
+- [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
+- [How to Create Decision Log Documentation for Remote Teams](/how-to-create-decision-log-documentation-for-remote-teams-re/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

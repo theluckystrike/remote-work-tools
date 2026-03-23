@@ -413,9 +413,9 @@ export default function () {
 
 ## Related Reading
 
-- [How to Set Up Caddy for Internal Tools](/remote-work-tools/how-to-set-up-caddy-for-internal-tools/)
-- [How to Create Automated Database Indexing Alerts](/remote-work-tools/how-to-create-automated-database-indexing-alerts/)
-- [How to Create Automated Performance Budgets](/remote-work-tools/how-to-create-automated-performance-budgets/)
+- [How to Set Up Caddy for Internal Tools](/how-to-set-up-caddy-for-internal-tools/)
+- [How to Create Automated Database Indexing Alerts](/how-to-create-automated-database-indexing-alerts/)
+- [How to Create Automated Performance Budgets](/how-to-create-automated-performance-budgets/)
 
 ---
 

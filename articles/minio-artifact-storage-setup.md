@@ -530,9 +530,9 @@ mc replicate add \
 
 ## Related Reading
 
-- [How to Set Up Thanos for Prometheus HA](/remote-work-tools/thanos-prometheus-ha-setup/)
-- [Best Tools for Remote Team Wiki Maintenance](/remote-work-tools/remote-team-wiki-maintenance-tools/)
-- [How to Automate Docker Container Updates](/remote-work-tools/automate-docker-container-updates/)
+- [How to Set Up Thanos for Prometheus HA](/thanos-prometheus-ha-setup/)
+- [Best Tools for Remote Team Wiki Maintenance](/remote-team-wiki-maintenance-tools/)
+- [How to Automate Docker Container Updates](/automate-docker-container-updates/)
 
 ---
 

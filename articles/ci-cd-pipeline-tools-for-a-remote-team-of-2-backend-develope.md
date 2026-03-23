@@ -389,10 +389,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
-- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
-- [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
-- [Best Collaborative Coding Tools for Remote Teams](/remote-work-tools/best-collaborative-coding-tools-for-remote-teams/)
-- [Best API Tools for Automating Remote Team Compliance](/remote-work-tools/best-api-tools-for-automating-remote-team-compliance-reporti/)
+- [Best Deploy Workflow for a Remote Infrastructure Team of 3](/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
+- [Best Tools for Remote Team Retrospectives 2026](/best-tools-for-remote-team-retrospectives-2026/)
+- [Migrating from AWS CodeCommit to GitHub for Remote Team](/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
+- [Best Collaborative Coding Tools for Remote Teams](/best-collaborative-coding-tools-for-remote-teams/)
+- [Best API Tools for Automating Remote Team Compliance](/best-api-tools-for-automating-remote-team-compliance-reporti/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

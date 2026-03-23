@@ -302,10 +302,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Wiki Commenting and Review Tool for Remote Teams](/remote-work-tools/best-wiki-commenting-and-review-tool-for-remote-teams-collab/)
-- [Best Knowledge Base Search Tool for Remote Teams with Docs](/remote-work-tools/best-knowledge-base-search-tool-for-remote-teams-with-docs-across-multiple-platforms/)
-- [Best Tool for Remote Teams Recording and Transcribing](/remote-work-tools/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
-- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [Best Wiki Commenting and Review Tool for Remote Teams](/best-wiki-commenting-and-review-tool-for-remote-teams-collab/)
+- [Best Knowledge Base Search Tool for Remote Teams with Docs](/best-knowledge-base-search-tool-for-remote-teams-with-docs-across-multiple-platforms/)
+- [Best Tool for Remote Teams Recording and Transcribing](/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
+- [Best Business Intelligence Tool for Small Remote Teams](/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

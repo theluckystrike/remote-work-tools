@@ -437,10 +437,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
-- [How to Build Remote Team Engineering Career Ladder 2026](/remote-work-tools/how-to-build-remote-team-engineering-career-ladder-2026/)
-- [Remote Team Hiring Rubric Template for Consistent](/remote-work-tools/remote-team-hiring-rubric-template-for-consistent-evaluation/)
-- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
-- [Remote Team Metrics Collection Strategy for Measuring](/remote-work-tools/remote-team-metrics-collection-strategy-for-measuring-deploy/)
+- [Example: Timezone-aware scheduling](/best-applicant-tracking-system-for-remote-companies-hiring-a/)
+- [How to Build Remote Team Engineering Career Ladder 2026](/how-to-build-remote-team-engineering-career-ladder-2026/)
+- [Remote Team Hiring Rubric Template for Consistent](/remote-team-hiring-rubric-template-for-consistent-evaluation/)
+- [Example: Finding interview slots across time zones](/remote-team-hiring-manager-training-program-for-first-time-m/)
+- [Remote Team Metrics Collection Strategy for Measuring](/remote-team-metrics-collection-strategy-for-measuring-deploy/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

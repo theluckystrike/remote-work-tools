@@ -365,20 +365,20 @@ jobs:
 
 ## Related Reading
 
-- [Remote Team Code Review Checklist Template](/remote-work-tools/remote-team-code-review-checklist-template/)
-- [How to Create a Remote Dev Environment Template](/remote-work-tools/how-to-create-a-remote-dev-environment-template/)
-- [How to Create Automated Status Pages](/remote-work-tools/how-to-create-automated-status-pages/)
-- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
+- [Remote Team Code Review Checklist Template](/remote-team-code-review-checklist-template/)
+- [How to Create a Remote Dev Environment Template](/how-to-create-a-remote-dev-environment-template/)
+- [How to Create Automated Status Pages](/how-to-create-automated-status-pages/)
+- [Calculate reasonable response windows based on overlap](/how-to-create-remote-team-communication-playbook-for-new-man/)
 
 ---
 
 ## Related Articles
 
-- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
-- [How to Organize Remote Team Playbook Documentation for](/remote-work-tools/how-to-organize-remote-team-playbook-documentation-for-repea/)
-- [Remote Work Playbook Template for Startups](/remote-work-tools/remote-work-playbook-template-for-startups/)
-- [Best Tools for Remote Team Incident Postmortems in 2026](/remote-work-tools/best-tools-for-remote-team-incident-postmortems-2026/)
-- [How to Create Remote Team Runbook Templates](/remote-work-tools/how-to-create-remote-team-runbook-templates/)
+- [How to Create Remote Work Playbook for Team](/how-to-create-remote-work-playbook-for-team/)
+- [How to Organize Remote Team Playbook Documentation for](/how-to-organize-remote-team-playbook-documentation-for-repea/)
+- [Remote Work Playbook Template for Startups](/remote-work-playbook-template-for-startups/)
+- [Best Tools for Remote Team Incident Postmortems in 2026](/best-tools-for-remote-team-incident-postmortems-2026/)
+- [How to Create Remote Team Runbook Templates](/how-to-create-remote-team-runbook-templates/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

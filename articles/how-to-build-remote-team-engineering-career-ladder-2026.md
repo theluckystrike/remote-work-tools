@@ -353,11 +353,11 @@ A: Career ladders support this. L4/L5 is pure IC; no management required.
 
 ## Related Articles
 
-- [How to Create Remote Team Career Ladder Documentation](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
-- [Remote Employee Career Development Plan Template](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
-- [How to Create Remote Team Promotion Criteria Transparent](/remote-work-tools/how-to-create-remote-team-promotion-criteria-transparent-and/)
-- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
-- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
+- [How to Create Remote Team Career Ladder Documentation](/how-to-create-remote-team-career-ladder-documentation-for-gr/)
+- [Remote Employee Career Development Plan Template](/remote-employee-career-development-plan-template-for-distrib/)
+- [How to Create Remote Team Promotion Criteria Transparent](/how-to-create-remote-team-promotion-criteria-transparent-and/)
+- [How to Run Effective Remote One-on-One Meetings](/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [How to Build a Remote Team Handbook from Scratch](/how-to-build-a-remote-team-handbook-from-scratch/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

@@ -190,7 +190,7 @@ The practical challenge for hybrid workers is that transit schedules do not care
 
 The best approach is to set your hybrid office days first based on collaboration value—which meetings require in-person presence, which teammates you need to work alongside—and then optimize your departure times around transit schedules rather than the reverse. Most transit apps provide real-time arrivals and forward-looking schedule data that makes it straightforward to identify the latest comfortable departure time from home for a given arrival target at the office.
 
-For teams that use [async communication tools](/remote-work-tools/), commute time becomes a genuinely productive async window rather than dead time. Reading a Slack thread on the train and drafting a reply counts as real work time, and the transit benefit makes this mode of working economically optimal.
+For teams that use [async communication tools](/), commute time becomes a genuinely productive async window rather than dead time. Reading a Slack thread on the train and drafting a reply counts as real work time, and the transit benefit makes this mode of working economically optimal.
 
 ### Managing Variable Schedules
 
@@ -281,10 +281,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Return to Office Parking and Commute Benefit Policy](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
-- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
-- [Example: Benefit request data structure](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)
-- [Remote HR Benefits Administration Platform for Distributed](/remote-work-tools/remote-hr-benefits-administration-platform-for-distributed-global-teams-2026-review/)
-- [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
+- [Return to Office Parking and Commute Benefit Policy](/return-to-office-parking-and-commute-benefit-policy-template/)
+- [How to Transition Team Rituals from Fully Remote to Hybrid](/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
+- [Example: Benefit request data structure](/return-to-office-childcare-benefit-policy-template-for-hybri/)
+- [Remote HR Benefits Administration Platform for Distributed](/remote-hr-benefits-administration-platform-for-distributed-global-teams-2026-review/)
+- [Hybrid Work Manager Training Program Template for Leading](/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

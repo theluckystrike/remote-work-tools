@@ -342,20 +342,20 @@ For most remote teams: use Scalar for external developer-facing docs, Redoc for 
 
 ## Related Reading
 
-- [Best Tools for Remote Team API Mocking](/remote-work-tools/best-tools-remote-team-api-mocking/)
-- [Best Tools for Remote Team Load Testing](/remote-work-tools/best-tools-remote-team-load-testing/)
-- [Remote Team Code Review Checklist Template](/remote-work-tools/remote-team-code-review-checklist-template/)
-- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [Best Tools for Remote Team API Mocking](/best-tools-remote-team-api-mocking/)
+- [Best Tools for Remote Team Load Testing](/best-tools-remote-team-load-testing/)
+- [Remote Team Code Review Checklist Template](/remote-team-code-review-checklist-template/)
+- [Example OpenAPI specification snippet](/best-practice-for-remote-team-api-documentation-keeping-inte/)
 
 ---
 
 ## Related Articles
 
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
-- [How to Manage Remote Team Documentation Debt: Complete Guide](/remote-work-tools/remote-work-tools/)
-- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
-- [Best Tools for Remote Team Documentation Reviews 2026](/remote-work-tools/best-tools-for-remote-team-documentation-reviews-2026/)
-- [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [How to Manage Remote Team Documentation Debt: Complete Guide](/)
+- [Example OpenAPI specification snippet](/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [Best Tools for Remote Team Documentation Reviews 2026](/best-tools-for-remote-team-documentation-reviews-2026/)
+- [How to Create Onboarding Documentation for Remote Teams](/how-to-create-onboarding-documentation-remote-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

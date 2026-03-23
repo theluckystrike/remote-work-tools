@@ -445,11 +445,11 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Handbook](/remote-work-tools/how-to-structure-remote-team-handbook-table-of-contents-cove/)
-- [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
-- [How to Structure Remote Team Handbook: Policies, Processes](/remote-work-tools/how-to-structure-remote-team-handbook-covering-policies-proc/)
-- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-- [How to Create Remote Team Operations Handbook From Scratch](/remote-work-tools/how-to-create-remote-team-operations-handbook-from-scratch-step-by-step/)
+- [Remote Team Handbook](/how-to-structure-remote-team-handbook-table-of-contents-cove/)
+- [Best Notion Template for Remote Team Handbook Covering HR](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
+- [How to Structure Remote Team Handbook: Policies, Processes](/how-to-structure-remote-team-handbook-covering-policies-proc/)
+- [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [How to Create Remote Team Operations Handbook From Scratch](/how-to-create-remote-team-operations-handbook-from-scratch-step-by-step/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```
 {% endraw %}

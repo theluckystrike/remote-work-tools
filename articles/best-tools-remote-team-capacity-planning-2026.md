@@ -413,20 +413,20 @@ This document gets posted to Notion and reviewed asynchronously by engineering m
 
 ## Related Reading
 
-- [Async Capacity Planning Process for Remote Engineering Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [How to Coordinate Remote SRE Team Capacity Planning](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
-- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
-- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
+- [Async Capacity Planning Process for Remote Engineering Managers](/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [How to Coordinate Remote SRE Team Capacity Planning](/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
+- [Best Tools for Remote Team Metrics Dashboards](/best-tools-remote-team-metrics-dashboards/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 
 ---
 
 ## Related Articles
 
-- [Best Tools for Remote Team Capacity Planning in 2026](/remote-work-tools/best-tools-for-remote-team-capacity-planning-2026/)
-- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
-- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
-- [Async Capacity Planning Process for Remote: Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [Best Tools for Remote Team Sprint Planning (2026)](/remote-work-tools/best-tools-for-remote-team-sprint-planning-2026/)
+- [Best Tools for Remote Team Capacity Planning in 2026](/best-tools-for-remote-team-capacity-planning-2026/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
+- [Async Capacity Planning Process for Remote Engineering](/async-capacity-planning-process-for-remote-engineering-manag/)
+- [Async Capacity Planning Process for Remote: Managers](/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Best Tools for Remote Team Sprint Planning (2026)](/best-tools-for-remote-team-sprint-planning-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

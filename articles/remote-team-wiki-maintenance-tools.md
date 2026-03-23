@@ -300,9 +300,9 @@ jobs:
 
 ## Related Reading
 
-- [How to Set Up MinIO for Artifact Storage](/remote-work-tools/minio-artifact-storage-setup/)
-- [Best Tools for Remote Team Changelog Review](/remote-work-tools/remote-team-changelog-review-tools/)
-- [Best Tools for Remote Team Post-Mortems](/remote-work-tools/remote-team-post-mortem-tools/)
+- [How to Set Up MinIO for Artifact Storage](/minio-artifact-storage-setup/)
+- [Best Tools for Remote Team Changelog Review](/remote-team-changelog-review-tools/)
+- [Best Tools for Remote Team Post-Mortems](/remote-team-post-mortem-tools/)
 
 ---
 

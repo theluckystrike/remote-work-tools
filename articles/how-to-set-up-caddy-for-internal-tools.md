@@ -353,9 +353,9 @@ sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keyc
 
 ## Related Reading
 
-- [ArgoCD GitOps Workflow Setup](/remote-work-tools/argocd-gitops-workflow-setup/)
-- [How to Set Up Flux CD for GitOps](/remote-work-tools/how-to-set-up-flux-cd-for-gitops/)
-- [How to Set Up Backstage Developer Portal](/remote-work-tools/how-to-set-up-backstage-developer-portal/)
+- [ArgoCD GitOps Workflow Setup](/argocd-gitops-workflow-setup/)
+- [How to Set Up Flux CD for GitOps](/how-to-set-up-flux-cd-for-gitops/)
+- [How to Set Up Backstage Developer Portal](/how-to-set-up-backstage-developer-portal/)
 
 ---
 

@@ -321,10 +321,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Collaboration Zones in Hybrid Office Layout](/remote-work-tools/collaboration-zones-in-hybrid-office-layout/)
-- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
-- [How to Create Hot Desking Floor Plan for Hybrid Office](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
-- [Return to Office Parking and Commute Benefit Policy](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
-- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
+- [Collaboration Zones in Hybrid Office Layout](/collaboration-zones-in-hybrid-office-layout/)
+- [Everyone gets home office base](/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [How to Create Hot Desking Floor Plan for Hybrid Office](/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
+- [Return to Office Parking and Commute Benefit Policy](/return-to-office-parking-and-commute-benefit-policy-template/)
+- [How to Create a Remote Work Policy Document](/remote-work-policy-document-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

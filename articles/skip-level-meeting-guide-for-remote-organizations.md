@@ -315,10 +315,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Run Effective Skip Level Meetings with Remote](/remote-work-tools/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
-- [How to Create Remote Team Skip Level Meeting Program](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
-- [How to Run Effective Remote Team Skip Level Meetings 2026](/remote-work-tools/how-to-run-effective-remote-team-skip-level-meetings-2026/)
-- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
-- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
+- [How to Run Effective Skip Level Meetings with Remote](/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
+- [How to Create Remote Team Skip Level Meeting Program](/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
+- [How to Run Effective Remote Team Skip Level Meetings 2026](/how-to-run-effective-remote-team-skip-level-meetings-2026/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -363,10 +363,10 @@ ping -c 3 github.com >> connectivity_log.txt
 After 2 weeks, analyze trends. If you see consistent degradation during peak hours, the space isn't suitable for production work.
 ---
 
-- [Remote Work Guides Hub](/remote-work-tools/)
-- [How to Find Coworking Spaces in Medellín Colombia with.](/remote-work-tools/how-to-find-coworking-spaces-in-medellin-colombia-with-video/)
-- [Sri Lanka Digital Nomad Visa Requirements and Coworking.](/remote-work-tools/sri-lanka-digital-nomad-visa-requirements-and-coworking-scen/)
-- [UPS Battery Backup for Home Office Setup 2026](/remote-work-tools/ups-battery-backup-for-home-office-setup-2026/)
+- [Remote Work Guides Hub](/)
+- [How to Find Coworking Spaces in Medellín Colombia with.](/how-to-find-coworking-spaces-in-medellin-colombia-with-video/)
+- [Sri Lanka Digital Nomad Visa Requirements and Coworking.](/sri-lanka-digital-nomad-visa-requirements-and-coworking-scen/)
+- [UPS Battery Backup for Home Office Setup 2026](/ups-battery-backup-for-home-office-setup-2026/)
 
 ## Frequently Asked Questions
 
@@ -392,10 +392,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
-- [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
-- [How to Test Internet Speed and Reliability Before Moving](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)
-- [Coworking Space Day Pass Guide](/remote-work-tools/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
-- [Coworking Space Finder Apps for Nomads](/remote-work-tools/coworking-space-finder-apps-for-nomads/)
+- [How to Set Up Reliable Backup Internet for Remote Work](/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
+- [Remote Work Internet Backup Solutions Comparison](/remote-work-internet-backup-solutions-comparison/)
+- [How to Test Internet Speed and Reliability Before Moving](/how-to-test-internet-speed-reliability-before-moving-to-bali/)
+- [Coworking Space Day Pass Guide](/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
+- [Coworking Space Finder Apps for Nomads](/coworking-space-finder-apps-for-nomads/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

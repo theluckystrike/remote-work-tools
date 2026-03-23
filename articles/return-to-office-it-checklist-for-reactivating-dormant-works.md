@@ -239,10 +239,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Quick save script for terminal workflows](/remote-work-tools/how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/)
-- [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
-- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
-- [How to Set Up Zero Trust Network Access for Distributed](/remote-work-tools/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
-- [How to Secure Remote Team Kubernetes Clusters with Network P](/remote-work-tools/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
+- [Quick save script for terminal workflows](/how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/)
+- [Check your router's current firmware version](/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
+- [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
+- [How to Set Up Zero Trust Network Access for Distributed](/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
+- [How to Secure Remote Team Kubernetes Clusters with Network P](/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

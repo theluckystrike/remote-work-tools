@@ -423,9 +423,9 @@ The more formats you provide, the more people can engage with the content in the
 
 ## Related Articles
 
-- [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
-- [How to Run Remote Team Retrospective That Actually Improves](/remote-work-tools/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
-- [How to Run Effective Remote One on Ones Guide](/remote-work-tools/how-to-run-effective-remote-one-on-ones-guide/)
-- [Async Retrospective Tools and Process Guide](/remote-work-tools/async-retrospective-tools-and-process/)
-- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
+- [How to Run Remote Retrospectives That Generate Action Items](/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
+- [How to Run Remote Team Retrospective That Actually Improves](/how-to-run-remote-team-retrospective-that-actually-improves-process-2026/)
+- [How to Run Effective Remote One on Ones Guide](/how-to-run-effective-remote-one-on-ones-guide/)
+- [Async Retrospective Tools and Process Guide](/async-retrospective-tools-and-process/)
+- [How to Include Remote Workers in Office Meetings](/how-to-include-remote-workers-in-office-meetings/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

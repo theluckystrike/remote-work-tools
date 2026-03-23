@@ -408,10 +408,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
-- [How to Create Asynchronous Client Update Format for Remote P](/remote-work-tools/how-to-create-asynchronous-client-update-format-for-remote-p/)
-- [How to Run Sprints with a Remote Team of 4 Engineers](/remote-work-tools/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
-- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
-- [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
+- [Async Weekly Recap Email Template for Remote Team Leads 2026](/async-weekly-recap-email-template-for-remote-team-leads-2026/)
+- [How to Create Asynchronous Client Update Format for Remote P](/how-to-create-asynchronous-client-update-format-for-remote-p/)
+- [How to Run Sprints with a Remote Team of 4 Engineers](/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
+- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
+- [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

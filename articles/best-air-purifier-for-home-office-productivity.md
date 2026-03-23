@@ -245,10 +245,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
-- [Air Quality Monitoring for Hybrid Office Spaces](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
-- [How to Cool Home Office Without Air Conditioning During](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
-- [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
-- [Home Office Ventilation Solutions When Room Has No Window](/remote-work-tools/home-office-ventilation-solutions-when-room-has-no-window/)
+- [Home Office Air Circulation Fan That Is Quiet for Calls](/home-office-air-circulation-fan-that-is-quiet-for-calls/)
+- [Air Quality Monitoring for Hybrid Office Spaces](/air-quality-monitoring-for-hybrid-office-spaces/)
+- [How to Cool Home Office Without Air Conditioning During](/how-to-cool-home-office-without-air-conditioning-during-summer/)
+- [Best External Display for MacBook Air M4 Home Office Setup](/best-external-display-for-macbook-air-m4-home-office-setup/)
+- [Home Office Ventilation Solutions When Room Has No Window](/home-office-ventilation-solutions-when-room-has-no-window/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

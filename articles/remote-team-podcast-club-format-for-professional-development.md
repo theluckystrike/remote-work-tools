@@ -388,10 +388,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Book Club Format and Facilitation Guide](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
-- [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
-- [Podcast Guesting Strategy for Freelance Developers](/remote-work-tools/podcast-guesting-strategy-for-freelance-developers/)
-- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-- [How to Set Up Remote Team Learning and Development Program](/remote-work-tools/how-to-set-up-remote-team-learning-and-development-program-2026/)
+- [Remote Team Book Club Format and Facilitation Guide](/remote-team-book-club-format-and-facilitation-guide-developers/)
+- [How to Run Book Clubs for a Remote Engineering Team of 40](/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
+- [Podcast Guesting Strategy for Freelance Developers](/podcast-guesting-strategy-for-freelance-developers/)
+- [Best Notion Template for Remote Team Handbook](/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [How to Set Up Remote Team Learning and Development Program](/how-to-set-up-remote-team-learning-and-development-program-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

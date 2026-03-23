@@ -270,10 +270,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Separate Business and Personal Finances](/remote-work-tools/how-to-separate-business-and-personal-finances-freelance/)
-- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
-- [Best Business Bank Accounts for Freelancers 2026](/remote-work-tools/best-business-bank-accounts-for-freelancers-2026/)
-- [How to Run Remote Team Quarterly Business Review](/remote-work-tools/how-to-run-remote-team-quarterly-business-review-for-distrib/)
-- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
+- [How to Separate Business and Personal Finances](/how-to-separate-business-and-personal-finances-freelance/)
+- [First 90 Days as a Freelance Developer: A Complete Guide](/first-90-days-as-freelance-developer-guide/)
+- [Best Business Bank Accounts for Freelancers 2026](/best-business-bank-accounts-for-freelancers-2026/)
+- [How to Run Remote Team Quarterly Business Review](/how-to-run-remote-team-quarterly-business-review-for-distrib/)
+- [Get recent workflow run durations](/remote-engineering-team-build-time-tracking-as-developer-pro/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

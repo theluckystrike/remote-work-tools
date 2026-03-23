@@ -176,8 +176,8 @@ Track these metrics to know whether your async check-in process is working:
 
 ## Related Articles
 
-- [Best Remote Team Async Daily Check In Format Replacing Standup Meetings](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
-- [Best Virtual Meeting Room for Recurring Remote Client Check-Ins](/remote-work-tools/best-virtual-meeting-room-for-recurring-remote-client-check-/)
-- [How to Secure Remote Employee Home WiFi Network for Company Data](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
+- [Best Remote Team Async Daily Check In Format Replacing Standup Meetings](/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+- [Best Virtual Meeting Room for Recurring Remote Client Check-Ins](/best-virtual-meeting-room-for-recurring-remote-client-check-/)
+- [How to Secure Remote Employee Home WiFi Network for Company Data](/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -269,10 +269,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Create Remote Team Internal Mobility Program for Grow](/remote-work-tools/how-to-create-remote-team-internal-mobility-program-for-grow/)
-- [Best Two-Factor Authentication Setup for Remote Team Shared](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
-- [Remote Team Shadow IT Discovery and Management Guide for IT](/remote-work-tools/remote-team-shadow-it-discovery-and-management-guide-for-it-/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)
+- [How to Create Remote Team Internal Mobility Program for Grow](/how-to-create-remote-team-internal-mobility-program-for-grow/)
+- [Best Two-Factor Authentication Setup for Remote Team Shared](/best-two-factor-authentication-setup-for-remote-team-shared-/)
+- [Remote Team Shadow IT Discovery and Management Guide for IT](/remote-team-shadow-it-discovery-and-management-guide-for-it-/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [How to Setup Vpn Secure Remote Access Office Resources](/how-to-setup-vpn-secure-remote-access-office-resources/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

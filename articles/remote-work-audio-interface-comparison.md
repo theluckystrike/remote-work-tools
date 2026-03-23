@@ -215,9 +215,9 @@ pw-metadata -n settings 0 clock.rate 44100
 
 ## Related Reading
 
-- [Remote Work Webcam Comparison Guide 2026](/remote-work-tools/remote-work-webcam-comparison-2026/)
-- [Remote Work Microphone Comparison Guide 2026](/remote-work-tools/remote-work-microphone-comparison-2026/)
-- [Best Acoustic Foam Placement for Home Office Zoom Call Quality](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
+- [Remote Work Webcam Comparison Guide 2026](/remote-work-webcam-comparison-2026/)
+- [Remote Work Microphone Comparison Guide 2026](/remote-work-microphone-comparison-2026/)
+- [Best Acoustic Foam Placement for Home Office Zoom Call Quality](/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
 
 ---
 

@@ -437,10 +437,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Noise Cancelling Microphones for Home Offices Busy](/remote-work-tools/best-noise-cancelling-microphones-for-home-offices-busy-streets/)
-- [Pink noise filter approximation](/remote-work-tools/best-white-noise-machine-for-home-office-blocking-toddler-no/)
-- [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
-- [Best Portable White Noise Speaker for Remote Parents Taking](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)
-- [Best Noise Gate Microphone Setting for Remote Parents](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
+- [Best Noise Cancelling Microphones for Home Offices Busy](/best-noise-cancelling-microphones-for-home-offices-busy-streets/)
+- [Pink noise filter approximation](/best-white-noise-machine-for-home-office-blocking-toddler-no/)
+- [Noise Cancelling Headphones vs Earbuds for Remote Work](/noise-cancelling-headphones-vs-earbuds-remote-work/)
+- [Best Portable White Noise Speaker for Remote Parents Taking](/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)
+- [Best Noise Gate Microphone Setting for Remote Parents](/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

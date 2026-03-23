@@ -379,9 +379,9 @@ notifications:
 
 ## Related Reading
 
-- [How to Automate AWS Lambda Deployments](/remote-work-tools/how-to-automate-aws-lambda-deployments/)
-- [How to Set Up Flux CD for GitOps](/remote-work-tools/how-to-set-up-flux-cd-for-gitops/)
-- [ArgoCD GitOps Workflow Setup](/remote-work-tools/argocd-gitops-workflow-setup/)
+- [How to Automate AWS Lambda Deployments](/how-to-automate-aws-lambda-deployments/)
+- [How to Set Up Flux CD for GitOps](/how-to-set-up-flux-cd-for-gitops/)
+- [ArgoCD GitOps Workflow Setup](/argocd-gitops-workflow-setup/)
 
 ---
 

@@ -421,10 +421,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Remote Team Podcast Club Format for Professional Development](/remote-work-tools/remote-team-podcast-club-format-for-professional-development/)
-- [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
-- [Best Freelance Platforms for Software Developers](/remote-work-tools/best-freelance-platforms-for-software-developers/)
-- [Slack Communities for Freelance Remote Developers](/remote-work-tools/slack-communities-for-freelance-remote-developers/)
-- [Cold Outreach Templates for Freelance Developers](/remote-work-tools/cold-outreach-templates-for-freelance-developers/)
+- [Remote Team Podcast Club Format for Professional Development](/remote-team-podcast-club-format-for-professional-development/)
+- [Best Communities for Freelance Developers 2026](/best-communities-for-freelance-developers-2026/)
+- [Best Freelance Platforms for Software Developers](/best-freelance-platforms-for-software-developers/)
+- [Slack Communities for Freelance Remote Developers](/slack-communities-for-freelance-remote-developers/)
+- [Cold Outreach Templates for Freelance Developers](/cold-outreach-templates-for-freelance-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

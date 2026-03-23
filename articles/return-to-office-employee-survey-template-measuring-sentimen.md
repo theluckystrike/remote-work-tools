@@ -287,11 +287,11 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Install Storybook for your design system package](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
-- [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-work-tools/remote-team-toolkit-for-a-60-person-saas-company-2026/)
-- [Remote Developer Documentation Collaboration Tools for Maint](/remote-work-tools/remote-developer-documentation-collaboration-tools-for-maint/)
-- [Best Onboarding Survey Template for Measuring Remote New](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
-- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
+- [Install Storybook for your design system package](/how-to-scale-remote-team-design-system-documentation-when-pr/)
+- [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-team-toolkit-for-a-60-person-saas-company-2026/)
+- [Remote Developer Documentation Collaboration Tools for Maint](/remote-developer-documentation-collaboration-tools-for-maint/)
+- [Best Onboarding Survey Template for Measuring Remote New](/best-onboarding-survey-template-for-measuring-remote-new-hir/)
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/return-to-office-tools-for-hybrid-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

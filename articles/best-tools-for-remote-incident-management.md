@@ -252,11 +252,11 @@ For very small teams (under five engineers), consider starting with PagerDuty's 
 
 ## Related Articles
 
-- [Best Tools for Remote Team Incident Postmortems in 2026](/remote-work-tools/best-tools-for-remote-team-incident-postmortems-2026/)
-- [Best Tools for Remote Team Incident Communication 2026](/remote-work-tools/best-tools-for-remote-team-incident-communication-2026/)
-- [Incident Management Setup for a Remote DevOps Team of 5](/remote-work-tools/incident-management-setup-for-a-remote-devops-team-of-5/)
-- [Best Practices for Remote Incident Communication](/remote-work-tools/best-practices-for-remote-incident-communication/)
-- [How to Scale Remote Team Incident Response Process](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [Best Tools for Remote Team Incident Postmortems in 2026](/best-tools-for-remote-team-incident-postmortems-2026/)
+- [Best Tools for Remote Team Incident Communication 2026](/best-tools-for-remote-team-incident-communication-2026/)
+- [Incident Management Setup for a Remote DevOps Team of 5](/incident-management-setup-for-a-remote-devops-team-of-5/)
+- [Best Practices for Remote Incident Communication](/best-practices-for-remote-incident-communication/)
+- [How to Scale Remote Team Incident Response Process](/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```
 ```

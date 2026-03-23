@@ -309,10 +309,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Best Meal Delivery Service Comparison for Remote Working](/remote-work-tools/best-meal-delivery-service-comparison-for-remote-working-fam/)
-- [Best Practice for Remote Real Estate Photographers](/remote-work-tools/best-practice-for-remote-real-estate-photographers-deliverin/)
-- [Best Practice for Measuring Remote Team Alignment](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
-- [Best Quick Healthy Snack Prep Ideas for Remote Working](/remote-work-tools/best-quick-healthy-snack-prep-ideas-for-remote-working-parents/)
-- [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Best Meal Delivery Service Comparison for Remote Working](/best-meal-delivery-service-comparison-for-remote-working-fam/)
+- [Best Practice for Remote Real Estate Photographers](/best-practice-for-remote-real-estate-photographers-deliverin/)
+- [Best Practice for Measuring Remote Team Alignment](/best-practice-for-measuring-remote-team-alignment-using-asyn/)
+- [Best Quick Healthy Snack Prep Ideas for Remote Working](/best-quick-healthy-snack-prep-ideas-for-remote-working-parents/)
+- [Best Practice for Remote Team README Files in Repositories](/best-practice-for-remote-team-readme-files-in-repositories-s/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

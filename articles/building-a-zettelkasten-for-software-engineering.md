@@ -468,10 +468,10 @@ This approach gets the benefits of personal knowledge capture without the chaos 
 
 ## Related Articles
 
-- [Best One on One Meeting Tool for Remote Engineering](/remote-work-tools/best-one-on-one-meeting-tool-for-remote-engineering-managers/)
-- [Notion vs ClickUp for Engineering Teams: A Practical](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
-- [Obsidian vs Logseq for Developer Notes](/remote-work-tools/obsidian-vs-logseq-for-developer-notes/)
-- [Best Note-Taking Apps for Remote Workers 2026](/remote-work-tools/best-note-taking-apps-remote-workers-2026/)
-- [Async Engineering Proposal Process Using GitHub Discussions](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
+- [Best One on One Meeting Tool for Remote Engineering](/best-one-on-one-meeting-tool-for-remote-engineering-managers/)
+- [Notion vs ClickUp for Engineering Teams: A Practical](/notion-vs-clickup-for-engineering-teams/)
+- [Obsidian vs Logseq for Developer Notes](/obsidian-vs-logseq-for-developer-notes/)
+- [Best Note-Taking Apps for Remote Workers 2026](/best-note-taking-apps-remote-workers-2026/)
+- [Async Engineering Proposal Process Using GitHub Discussions](/async-engineering-proposal-process-using-github-discussions-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

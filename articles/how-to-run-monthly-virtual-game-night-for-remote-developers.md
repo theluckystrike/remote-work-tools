@@ -261,10 +261,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Virtual Board Game Platforms for Remote Team Social Events](/remote-work-tools/virtual-board-game-platforms-for-remote-team-social-events/)
-- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
-- [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-en/)
-- [Best Virtual Coffee Chat Tool for Remote Teams Building](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
-- [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
+- [Virtual Board Game Platforms for Remote Team Social Events](/virtual-board-game-platforms-for-remote-team-social-events/)
+- [Best Virtual Team Building Activity Platform for Remote](/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Virtual Team Building Activities That Developers Actually](/virtual-team-building-activities-that-developers-actually-en/)
+- [Best Virtual Coffee Chat Tool for Remote Teams Building](/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
+- [Best Virtual Team Trivia Platform for Remote Social Events](/best-virtual-team-trivia-platform-for-remote-social-events-2/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

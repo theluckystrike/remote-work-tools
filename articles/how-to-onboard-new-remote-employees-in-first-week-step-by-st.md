@@ -259,10 +259,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
-- [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
-- [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
-- [Remote Team Environment Provisioning Tool for Spinning Up](/remote-work-tools/remote-team-environment-provisioning-tool-for-spinning-up-de/)
-- [Remote Onboarding Communication Checklist (2026)](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
+- [Remote Team Onboarding Tools and Checklist](/remote-team-onboarding-tools-checklist/)
+- [How to Automate Dev Environment Setup: A Practical Guide](/how-to-automate-dev-environment-setup/)
+- [How to Create Onboarding Documentation for Remote Teams](/how-to-create-onboarding-documentation-remote-teams/)
+- [Remote Team Environment Provisioning Tool for Spinning Up](/remote-team-environment-provisioning-tool-for-spinning-up-de/)
+- [Remote Onboarding Communication Checklist (2026)](/remote-team-onboarding-communication-checklist-for-first-two/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

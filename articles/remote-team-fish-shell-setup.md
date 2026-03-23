@@ -297,9 +297,9 @@ echo "fish setup complete. Open a new terminal or run: exec fish"
 
 ## Related Reading
 
-- [Remote Team Neovim Setup and Config Sharing](/remote-work-tools/remote-team-neovim-setup-config-sharing/)
-- [Remote Team tmux Config Sharing Guide](/remote-work-tools/remote-team-tmux-config-sharing/)
-- [How to Set Up Teleport for Secure Access](/remote-work-tools/teleport-secure-access-setup/)
+- [Remote Team Neovim Setup and Config Sharing](/remote-team-neovim-setup-config-sharing/)
+- [Remote Team tmux Config Sharing Guide](/remote-team-tmux-config-sharing/)
+- [How to Set Up Teleport for Secure Access](/teleport-secure-access-setup/)
 
 ---
 

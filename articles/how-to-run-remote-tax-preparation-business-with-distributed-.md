@@ -251,10 +251,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Tool for Tracking Remote Worker Tax Obligations](/remote-work-tools/best-tool-for-tracking-remote-worker-tax-obligations-across-/)
-- [Best Practice for Remote Accountants Handling Client Tax](/remote-work-tools/best-practice-for-remote-accountants-handling-client-tax-doc/)
-- [Tax Deduction Tracking Tools for Remote Freelancers](/remote-work-tools/freelancer-tax-deduction-tracking-2026/)
-- [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
-- [How to Register as Self-Employed Remote Worker in Portugal](/remote-work-tools/how-to-register-as-self-employed-remote-worker-in-portugal-f/)
+- [Best Tool for Tracking Remote Worker Tax Obligations](/best-tool-for-tracking-remote-worker-tax-obligations-across-/)
+- [Best Practice for Remote Accountants Handling Client Tax](/best-practice-for-remote-accountants-handling-client-tax-doc/)
+- [Tax Deduction Tracking Tools for Remote Freelancers](/freelancer-tax-deduction-tracking-2026/)
+- [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
+- [How to Register as Self-Employed Remote Worker in Portugal](/how-to-register-as-self-employed-remote-worker-in-portugal-f/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

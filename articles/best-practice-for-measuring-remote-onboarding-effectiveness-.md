@@ -242,10 +242,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
-- [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
-- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
-- [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
-- [Hybrid Work Onboarding Process for New Hires](/remote-work-tools/hybrid-work-onboarding-process-for-new-hires/)
+- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
+- [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-team-onboarding-automation-2026/)
+- [How to Create Onboarding Documentation for Remote Teams](/how-to-create-onboarding-documentation-remote-teams/)
+- [Hybrid Work Onboarding Process for New Hires](/hybrid-work-onboarding-process-for-new-hires/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

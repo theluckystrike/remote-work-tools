@@ -300,18 +300,18 @@ The index should live in the same location as the runbooks (Obsidian vault, Conf
 
 ## Related Reading
 
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
-- [Obsidian for Remote Team Knowledge Management](/remote-work-tools/obsidian-remote-team-knowledge-management/)
-- [Async Decision Making with RFC Documents for Engineering Teams](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
-- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
+- [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
+- [Obsidian for Remote Team Knowledge Management](/obsidian-remote-team-knowledge-management/)
+- [Async Decision Making with RFC Documents for Engineering Teams](/async-decision-making-with-rfc-documents-for-engineering-teams/)
+- [Async Release Notes Writing Process for Distributed](/async-release-notes-writing-process-for-distributed-engineering-teams/)
 
 ## Related Articles
 
-- [Remote Incident Response Runbook Guide (2026)](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
-- [Migration runbook example structure](/remote-work-tools/best-tool-for-remote-teams-creating-interactive-runbooks-wit/)
-- [How to Organize Remote Team Runbook Documentation for](/remote-work-tools/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
-- [How to Build a Remote Team Runbook Library 2026](/remote-work-tools/how-to-build-remote-team-runbook-library-2026/)
-- [Best GitBook Alternative for Remote Engineering Teams](/remote-work-tools/best-gitbook-alternative-for-remote-engineering-teams-publis/)
+- [Remote Incident Response Runbook Guide (2026)](/remote-team-runbook-creation-guide-for-incident-response-wit/)
+- [Migration runbook example structure](/best-tool-for-remote-teams-creating-interactive-runbooks-wit/)
+- [How to Organize Remote Team Runbook Documentation for](/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
+- [How to Build a Remote Team Runbook Library 2026](/how-to-build-remote-team-runbook-library-2026/)
+- [Best GitBook Alternative for Remote Engineering Teams](/best-gitbook-alternative-for-remote-engineering-teams-publis/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

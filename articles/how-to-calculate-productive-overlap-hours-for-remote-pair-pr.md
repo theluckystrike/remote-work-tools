@@ -477,10 +477,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Team hours (as datetime.time objects converted to hours)](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
-- [Remote Employee Time Zone Overlap Optimization: Scheduling](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-scheduling-team-meetings/)
-- [How to Manage Timezone Overlap When Working Remotely](/remote-work-tools/how-to-manage-timezone-overlap-when-working-remotely-from-so/)
-- [Remote Employee Time Zone Overlap Optimization Tool](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-sche/)
-- [How to Build a Daily Routine as a Remote Worker Adjusting](/remote-work-tools/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
+- [Team hours (as datetime.time objects converted to hours)](/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
+- [Remote Employee Time Zone Overlap Optimization: Scheduling](/remote-employee-time-zone-overlap-optimization-tool-for-scheduling-team-meetings/)
+- [How to Manage Timezone Overlap When Working Remotely](/how-to-manage-timezone-overlap-when-working-remotely-from-so/)
+- [Remote Employee Time Zone Overlap Optimization Tool](/remote-employee-time-zone-overlap-optimization-tool-for-sche/)
+- [How to Build a Daily Routine as a Remote Worker Adjusting](/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

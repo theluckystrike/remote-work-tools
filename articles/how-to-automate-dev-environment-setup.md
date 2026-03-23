@@ -285,10 +285,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
-- [How to Create a Remote Dev Environment Template](/remote-work-tools/how-to-create-a-remote-dev-environment-template/)
-- [Remote Team Environment Provisioning Tool for Spinning Up](/remote-work-tools/remote-team-environment-provisioning-tool-for-spinning-up-de/)
-- [Developer environment bootstrap script](/remote-work-tools/how-to-onboard-new-remote-employees-in-first-week-step-by-st/)
-- [Install OpenConnect (common in enterprise environments)](/remote-work-tools/remote-employee-digital-workspace-setup-guide-for-first-day-/)
+- [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
+- [How to Create a Remote Dev Environment Template](/how-to-create-a-remote-dev-environment-template/)
+- [Remote Team Environment Provisioning Tool for Spinning Up](/remote-team-environment-provisioning-tool-for-spinning-up-de/)
+- [Developer environment bootstrap script](/how-to-onboard-new-remote-employees-in-first-week-step-by-st/)
+- [Install OpenConnect (common in enterprise environments)](/remote-employee-digital-workspace-setup-guide-for-first-day-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

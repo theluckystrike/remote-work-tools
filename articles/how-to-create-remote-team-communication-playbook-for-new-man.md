@@ -469,10 +469,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
-- [How to Calculate Productive Overlap Hours for Remote](/remote-work-tools/how-to-calculate-productive-overlap-hours-for-remote-pair-pr/)
-- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
-- [Remote Team Support Ticket First Response Time Tracking](/remote-work-tools/remote-team-support-ticket-first-response-time-tracking-for-/)
-- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
+- [Cross Timezone Communication Strategies for Remote Teams](/cross-timezone-communication-strategies-remote-teams/)
+- [How to Calculate Productive Overlap Hours for Remote](/how-to-calculate-productive-overlap-hours-for-remote-pair-pr/)
+- [Remote Team Communication Strategy Guide](/remote-team-communication-strategy-guide/)
+- [Remote Team Support Ticket First Response Time Tracking](/remote-team-support-ticket-first-response-time-tracking-for-/)
+- [How to Create Remote Work Playbook for Team](/how-to-create-remote-work-playbook-for-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -418,17 +418,17 @@ Yes — and you should. Use a Prometheus client library (`prometheus-client` for
 
 ## Related Reading
 
-- [How to Secure Your Remote Team CI/CD Pipeline from Supply Chain Attacks](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
-- [Home Lab Setup Guide for Remote Developers](/remote-work-tools/home-lab-setup-guide-remote-developers/)
-- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
-- [Prometheus Alerting for Remote Infrastructure](/remote-work-tools/prometheus-alerting-remote-infra-setup/)
+- [How to Secure Your Remote Team CI/CD Pipeline from Supply Chain Attacks](/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
+- [Home Lab Setup Guide for Remote Developers](/home-lab-setup-guide-remote-developers/)
+- [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
+- [Prometheus Alerting for Remote Infrastructure](/prometheus-alerting-remote-infra-setup/)
 
 ## Related Articles
 
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [Remote Work VoIP Setup for Home Offices](/remote-work-tools/remote-work-voip-setup-for-home-offices/)
-- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
-- [How to Monitor Remote Employee Endpoint Health](/remote-work-tools/how-to-monitor-remote-employee-endpoint-health-without-invad/)
-- [Setting Up Grafana Dashboards for Remote Teams](/remote-work-tools/setting-up-grafana-dashboards-for-remote-teams/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [Remote Work VoIP Setup for Home Offices](/remote-work-voip-setup-for-home-offices/)
+- [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
+- [How to Monitor Remote Employee Endpoint Health](/how-to-monitor-remote-employee-endpoint-health-without-invad/)
+- [Setting Up Grafana Dashboards for Remote Teams](/setting-up-grafana-dashboards-for-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

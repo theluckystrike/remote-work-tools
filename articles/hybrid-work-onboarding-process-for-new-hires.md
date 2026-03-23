@@ -272,10 +272,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote-First Onboarding Automation Pipeline 2026](/remote-work-tools/remote-first-onboarding-automation-pipeline-2026/)
-- [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
-- [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
-- [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
-- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
+- [Remote-First Onboarding Automation Pipeline 2026](/remote-first-onboarding-automation-pipeline-2026/)
+- [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
+- [Example: Trigger BambooHR onboarding workflow via API](/best-onboarding-platform-for-remote-companies-processing-mor/)
+- [Best Onboarding Automation Workflow for Remote Companies](/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-team-onboarding-automation-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

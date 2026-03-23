@@ -288,11 +288,11 @@ The best choice depends on your existing tools. Start with Geekbot for simplicit
 
 ## Related Articles
 
-- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
-- [How to Run Remote Engineering Standups That Work](/remote-work-tools/how-to-run-remote-engineering-standups/)
-- [Best Tools for Remote Team Standup Meetings 2026](/remote-work-tools/best-tools-for-remote-team-standup-meetings-2026/)
-- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
-- [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
+- [How to Manage Standups for a Remote QA Team of 7](/how-to-manage-standups-for-a-remote-qa-team-of-7/)
+- [How to Run Remote Engineering Standups That Work](/how-to-run-remote-engineering-standups/)
+- [Best Tools for Remote Team Standup Meetings 2026](/best-tools-for-remote-team-standup-meetings-2026/)
+- [Remote Team Async Standup Template Guide](/remote-team-async-standup-template-guide/)
+- [How to Replace Daily Standups with Async Text Updates](/how-to-replace-daily-standups-with-async-text-updates-effect/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

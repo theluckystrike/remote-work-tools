@@ -259,18 +259,18 @@ Keep PRs small, use templates, and enforce conversation resolution before merge.
 
 ## Related Reading
 
-- [Async Code Review Process Without Zoom Calls](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [Code Review Workflow for a Remote Backend Team of 6 Developers](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
-- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
-- [Best Practice for Remote Employee Peer Review Calibration](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
+- [Async Code Review Process Without Zoom Calls](/async-code-review-process-without-zoom-calls-step-by-step/)
+- [Code Review Workflow for a Remote Backend Team of 6 Developers](/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
+- [CI/CD Pipeline for Solo Developers: GitHub Actions](/ci-cd-pipeline-solo-developer-github-actions/)
+- [Best Practice for Remote Employee Peer Review Calibration](/best-practice-for-remote-employee-peer-review-calibration-ac/)
 
 ## Related Articles
 
-- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
-- [Code Review Tools for Solo Freelance Developers](/remote-work-tools/code-review-tools-for-solo-freelance-developers/)
-- [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
+- [Remote Developer Code Review Workflow Tools for Teams](/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
+- [Best Practice for Remote Team Code Review Comments](/best-practice-for-remote-team-code-review-comments-keeping-f/)
+- [Code Review Tools for Solo Freelance Developers](/code-review-tools-for-solo-freelance-developers/)
+- [Best Tools for Remote Pair Programming 2026](/remote-pair-programming-tools-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

@@ -500,10 +500,10 @@ Here's exactly what happens when you apply:
 
 ## Related Articles
 
-- [Remote Team Runbook Template for SSL Certificate Renewal](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
-- [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
-- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
-- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-- [Montenegro Digital Nomad Visa Application Process for Remote](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [Remote Team Runbook Template for SSL Certificate Renewal](/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
+- [Certificate Based Authentication Setup for Remote Team VPN](/certificate-based-authentication-setup-for-remote-team-vpn-c/)
+- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Montenegro Digital Nomad Visa Application Process for Remote](/montenegro-digital-nomad-visa-application-process-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

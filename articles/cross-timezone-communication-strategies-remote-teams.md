@@ -344,10 +344,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
-- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
-- [Remote Team Cross Timezone Collaboration Protocol When Scali](/remote-work-tools/remote-team-cross-timezone-collaboration-protocol-when-scali/)
-- [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
-- [How to Handle Remote Team Growing Pains When Communication](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)
+- [How to Set Up Remote Team Communication Audit](/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [Remote Team Communication Strategy Guide](/remote-team-communication-strategy-guide/)
+- [Remote Team Cross Timezone Collaboration Protocol When Scali](/remote-team-cross-timezone-collaboration-protocol-when-scali/)
+- [Communication Tools for a Remote Research Team of 12](/communication-tools-for-a-remote-research-team-of-12-scienti/)
+- [How to Handle Remote Team Growing Pains When Communication](/how-to-handle-remote-team-growing-pains-when-communication-n/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -386,10 +386,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Remote Team OKR and Goal Tracking 2026](/remote-work-tools/remote-team-okr-goal-tracking-2026/)
-- [Best Tools for Remote Team OKR Tracking in 2026](/remote-work-tools/best-tools-for-remote-team-okr-tracking-2026/)
-- [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/remote-work-tools/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
-- [Best Whiteboard Tool for a Remote Team of 10 Product](/remote-work-tools/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
-- [How to Run Remote Workshop for Product Managers Defining](/remote-work-tools/how-to-run-remote-workshop-for-product-managers-defining-qua/)
+- [Remote Team OKR and Goal Tracking 2026](/remote-team-okr-goal-tracking-2026/)
+- [Best Tools for Remote Team OKR Tracking in 2026](/best-tools-for-remote-team-okr-tracking-2026/)
+- [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
+- [Best Whiteboard Tool for a Remote Team of 10 Product](/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
+- [How to Run Remote Workshop for Product Managers Defining](/how-to-run-remote-workshop-for-product-managers-defining-qua/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

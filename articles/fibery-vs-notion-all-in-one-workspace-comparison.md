@@ -310,10 +310,10 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 ## Related Articles
 
-- [Best Tools for Remote Team Documentation 2026: Notion](/remote-work-tools/best-remote-team-documentation-tools-2026/)
-- [Coda vs Notion for Project Documentation](/remote-work-tools/coda-vs-notion-for-project-documentation/)
-- [Notion vs ClickUp for Engineering Teams: A Practical](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
-- [Notion Database Templates for a Solo Recruiter Working Remot](/remote-work-tools/notion-database-templates-for-a-solo-recruiter-working-remot/)
-- [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
+- [Best Tools for Remote Team Documentation 2026: Notion](/best-remote-team-documentation-tools-2026/)
+- [Coda vs Notion for Project Documentation](/coda-vs-notion-for-project-documentation/)
+- [Notion vs ClickUp for Engineering Teams: A Practical](/notion-vs-clickup-for-engineering-teams/)
+- [Notion Database Templates for a Solo Recruiter Working Remot](/notion-database-templates-for-a-solo-recruiter-working-remot/)
+- [How to Set Up Shared Notion Workspace with Remote Agency](/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

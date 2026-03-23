@@ -265,10 +265,10 @@ Accuracy depends almost entirely on automation rather than manual effort. If you
 
 ## Related Articles
 
-- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
-- [How to Create Shared Project Timeline With Remote Agency Cli](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
-- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
-- [Remote Agency Client Communication Cadence Template](/remote-work-tools/remote-agency-client-communication-cadence-template-for-proj/)
-- [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
+- [How to Set Up Basecamp for Remote Agency Client](/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [How to Create Shared Project Timeline With Remote Agency Cli](/how-to-create-shared-project-timeline-with-remote-agency-cli/)
+- [How to Set Up Harvest for Remote Agency Client Time Tracking](/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
+- [Remote Agency Client Communication Cadence Template](/remote-agency-client-communication-cadence-template-for-proj/)
+- [How to Create Client Project Retrospective Format for Remote](/how-to-create-client-project-retrospective-format-for-remote/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

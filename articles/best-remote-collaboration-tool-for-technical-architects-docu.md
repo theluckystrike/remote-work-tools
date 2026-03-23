@@ -290,10 +290,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [How to Track Project Dependencies Remote Team](/remote-work-tools/how-to-track-project-dependencies-remote-team/)
-- [Remote DevOps Team Dependency Update Workflow for](/remote-work-tools/remote-devops-team-dependency-update-workflow-for-coordinati/)
-- [Best Whiteboarding Tool for Remote Architects Doing System](/remote-work-tools/best-whiteboarding-tool-for-remote-architects-doing-system-d/)
-- [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
-- [Remote Architecture BIM Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-bim-collaboration-tool-for-distributed-t/)
+- [How to Track Project Dependencies Remote Team](/how-to-track-project-dependencies-remote-team/)
+- [Remote DevOps Team Dependency Update Workflow for](/remote-devops-team-dependency-update-workflow-for-coordinati/)
+- [Best Whiteboarding Tool for Remote Architects Doing System](/best-whiteboarding-tool-for-remote-architects-doing-system-d/)
+- [Remote Architecture Collaboration Tool for Distributed](/remote-architecture-collaboration-tool-for-distributed-teams/)
+- [Remote Architecture BIM Collaboration Tool for Distributed](/remote-architecture-bim-collaboration-tool-for-distributed-t/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

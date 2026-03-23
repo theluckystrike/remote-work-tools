@@ -407,15 +407,15 @@ For most remote engineering teams self-hosting on Hetzner, DigitalOcean, or simi
 - [Incident Management Setup for a Remote DevOps Team of 5](/incident-management-setup-for-a-remote-devops-team-of-5/)
 - [Remote Engineering Team Infrastructure Cost Per Deploy Tracking](/remote-engineering-team-infrastructure-cost-per-deploy-track/)
 - [Best Deploy Workflow for a Remote Infrastructure Team of 3](/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
-- [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/remote-work-tools/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
+- [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
 ---
 
 ## Related Articles
 
-- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
-- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
-- [Best Password Sharing Solution for Remote Teams 2026](/remote-work-tools/best-password-sharing-solution-for-remote-teams-2026/)
-- [Best Container Registry Tool for Remote Teams Sharing](/remote-work-tools/best-container-registry-tool-for-remote-teams-sharing-docker/)
-- [Best Tool for Remote Teams Recording and Transcribing](/remote-work-tools/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
+- [Best Tools for Remote Team Metrics Dashboards](/best-tools-remote-team-metrics-dashboards/)
+- [Best Business Intelligence Tool for Small Remote Teams](/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [Best Password Sharing Solution for Remote Teams 2026](/best-password-sharing-solution-for-remote-teams-2026/)
+- [Best Container Registry Tool for Remote Teams Sharing](/best-container-registry-tool-for-remote-teams-sharing-docker/)
+- [Best Tool for Remote Teams Recording and Transcribing](/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

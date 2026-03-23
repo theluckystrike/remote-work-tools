@@ -5,7 +5,7 @@ last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 title: "How to Manage Remote Team Documentation Debt: Complete Guide"
 description: "Practical guide to identifying, measuring, and reducing documentation debt. Includes audit frameworks, templates, and tool comparisons for distributed teams."
-permalink: /remote-work-tools/
+permalink: /
 categories: [guides]
 tags: [remote-work-tools, documentation, best-of, remote-work]
 reviewed: true
@@ -701,10 +701,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
-- [Remote Team Documentation Culture Guide (2026)](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
-- [How to Set Up Remote Team Documentation Culture in 2026](/remote-work-tools/how-to-set-up-remote-team-documentation-culture-2026/)
-- [How to Build Remote Team Documentation Culture Guide](/remote-work-tools/how-to-build-remote-team-documentation-culture-guide/)
-- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [Remote Team Documentation Culture](/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [Remote Team Documentation Culture Guide (2026)](/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
+- [How to Set Up Remote Team Documentation Culture in 2026](/how-to-set-up-remote-team-documentation-culture-2026/)
+- [How to Build Remote Team Documentation Culture Guide](/how-to-build-remote-team-documentation-culture-guide/)
+- [Example OpenAPI specification snippet](/best-practice-for-remote-team-api-documentation-keeping-inte/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -327,20 +327,20 @@ echo "MySQL backup verified successfully"
 
 ## Related Reading
 
-- [Setting Up pgBouncer for Connection Pooling](/remote-work-tools/setting-up-pgbouncer-for-connection-pooling/)
-- [How to Set Up Netdata for Server Monitoring](/remote-work-tools/how-to-set-up-netdata-for-server-monitoring/)
-- [How to Automate Infrastructure Cost Alerts](/remote-work-tools/how-to-automate-infrastructure-cost-alerts/)
+- [Setting Up pgBouncer for Connection Pooling](/setting-up-pgbouncer-for-connection-pooling/)
+- [How to Set Up Netdata for Server Monitoring](/how-to-set-up-netdata-for-server-monitoring/)
+- [How to Automate Infrastructure Cost Alerts](/how-to-automate-infrastructure-cost-alerts/)
 
-- [Automate Expense Reports for Remote Workers](/remote-work-tools/automate-expense-reports-remote-workers/)
+- [Automate Expense Reports for Remote Workers](/automate-expense-reports-remote-workers/)
 ---
 
 ## Related Articles
 
-- [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
-- [Remote Work Backup Strategy for Developers](/remote-work-tools/remote-work-backup-strategy-for-developers/)
-- [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
-- [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
-- [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
+- [Backblaze vs CrashPlan for Remote Work Backup](/backblaze-vs-crashplan-for-remote-work-backup/)
+- [Remote Work Backup Strategy for Developers](/remote-work-backup-strategy-for-developers/)
+- [How to Set Up Reliable Backup Internet for Remote Work](/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
+- [Best Backup Solutions for Remote Developer Machines](/best-backup-solutions-for-remote-developer-machines/)
+- [Remote Work Internet Backup Solutions Comparison](/remote-work-internet-backup-solutions-comparison/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

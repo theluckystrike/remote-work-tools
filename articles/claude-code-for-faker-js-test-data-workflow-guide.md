@@ -280,10 +280,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Node.js and npm](/remote-work-tools/claude-code-npm-package-development-guide/)
-- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-- [Code Review Guidelines](/remote-work-tools/how-to-scale-remote-team-code-review-process-when-engineerin/)
-- [Remote Agency Client Data Security Compliance Checklist](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
-- [Code Review Tools for Solo Freelance Developers](/remote-work-tools/code-review-tools-for-solo-freelance-developers/)
+- [Node.js and npm](/claude-code-npm-package-development-guide/)
+- [Remote Developer Code Review Workflow Tools for Teams](/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+- [Code Review Guidelines](/how-to-scale-remote-team-code-review-process-when-engineerin/)
+- [Remote Agency Client Data Security Compliance Checklist](/remote-agency-client-data-security-compliance-checklist-for-proposals/)
+- [Code Review Tools for Solo Freelance Developers](/code-review-tools-for-solo-freelance-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

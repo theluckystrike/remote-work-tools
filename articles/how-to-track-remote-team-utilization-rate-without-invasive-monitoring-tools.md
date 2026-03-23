@@ -294,18 +294,18 @@ The goal is understanding whether the team is productive, not proving individual
 
 ## Related Reading
 
-- [How to Track Project Dependencies in a Remote Team: A](/remote-work-tools/how-to-track-project-dependencies-remote-team/)
-- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
-- [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)
-- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
-- [How to Build Remote Team Culture Without Mandatory Fun](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
+- [How to Track Project Dependencies in a Remote Team: A](/how-to-track-project-dependencies-remote-team/)
+- [How to Track Remote Team Hiring Pipeline Velocity](/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
+- [How to Track Remote Team Velocity Metrics](/how-to-track-remote-team-velocity-metrics/)
+- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-engineering-team-infrastructure-cost-per-deploy-track/)
+- [How to Build Remote Team Culture Without Mandatory Fun](/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
 
 ## Related Articles
 
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Measure Remote Team Productivity Without Surveillance](/remote-work-tools/how-to-measure-remote-team-productivity-without-surveillance/)
-- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
-- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
-- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
+- [How to Measure Remote Team Productivity Without Surveillance](/how-to-measure-remote-team-productivity-without-surveillance/)
+- [How to Handle Remote Team Subculture Formation When](/how-to-handle-remote-team-subculture-formation-when-departme/)
+- [Best Virtual Team Building Activity Platform for Remote](/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Generate weekly team activity report from GitHub](/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

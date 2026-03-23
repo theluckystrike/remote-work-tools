@@ -337,10 +337,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Chrome Extension Window Resizer Testing](/remote-work-tools/chrome-extension-window-resizer-testing/)
-- [Best Window Management Tools for Developers](/remote-work-tools/best-window-management-tools-for-developers/)
-- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
-- [Chrome Extension Webcam Settings Adjuster Guide](/remote-work-tools/chrome-extension-webcam-settings-adjuster/)
-- [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
+- [Chrome Extension Window Resizer Testing](/chrome-extension-window-resizer-testing/)
+- [Best Window Management Tools for Developers](/best-window-management-tools-for-developers/)
+- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/best-webcam-lighting-setup-under-100-dollars/)
+- [Chrome Extension Webcam Settings Adjuster Guide](/chrome-extension-webcam-settings-adjuster/)
+- [Best Webcam for Home Office Remote Work: A Technical Guide](/best-webcam-for-home-office-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

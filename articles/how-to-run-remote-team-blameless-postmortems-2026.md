@@ -360,11 +360,11 @@ A: Post-incident tracking dashboard. If blocked, escalate. If deprioritized, tha
 
 ## Related Articles
 
-- [Best Tools for Remote Team Incident Postmortems in 2026](/remote-work-tools/best-tools-for-remote-team-incident-postmortems-2026/)
-- [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
-- [How to Write Postmortem Reports for Remote Teams](/remote-work-tools/how-to-write-postmortem-reports-for-remote-teams/)
-- [How to Build a Remote Team Troubleshooting Guide from Past](/remote-work-tools/how-to-build-remote-team-troubleshooting-guide-from-past-inc/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [Best Tools for Remote Team Incident Postmortems in 2026](/best-tools-for-remote-team-incident-postmortems-2026/)
+- [How to Write Remote Team Postmortem Communication Template](/how-to-write-remote-team-postmortem-communication-template-f/)
+- [How to Write Postmortem Reports for Remote Teams](/how-to-write-postmortem-reports-for-remote-teams/)
+- [How to Build a Remote Team Troubleshooting Guide from Past](/how-to-build-remote-team-troubleshooting-guide-from-past-inc/)
+- [Remote Team Charter Template Guide 2026](/remote-team-charter-template-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

@@ -338,10 +338,10 @@ Podgorica neighborhoods for remote workers:
 
 ## Moving Forward
 
-- [Remote Work Guides Hub](/remote-work-tools/)
-- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
-- [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-- [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
+- [Remote Work Guides Hub](/)
+- [Portugal Digital Nomad Visa Application Guide](/portugal-digital-nomad-visa-application-guide/)
+- [Hungary Digital Nomad Visa White Card Application for.](/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Greece Digital Nomad Visa Renewal Process for Remote Workers](/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
 
 ## Frequently Asked Questions
 
@@ -367,10 +367,10 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 ## Related Articles
 
-- [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
-- [South Korea Digital Nomad Visa Application Requirements](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
-- [Brazil Digital Nomad Visa Process and Tax Implications](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
-- [Japan Digital Nomad Visa Requirements for Remote Software](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
+- [Hungary Digital Nomad Visa White Card Application for Remote](/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Portugal Digital Nomad Visa Application Guide](/portugal-digital-nomad-visa-application-guide/)
+- [South Korea Digital Nomad Visa Application Requirements](/south-korea-digital-nomad-visa-application-requirements-for-/)
+- [Brazil Digital Nomad Visa Process and Tax Implications](/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
+- [Japan Digital Nomad Visa Requirements for Remote Software](/japan-digital-nomad-visa-requirements-for-remote-software-en/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

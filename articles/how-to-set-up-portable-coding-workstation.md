@@ -425,15 +425,15 @@ Working from different networks and locations introduces security risks:
 - [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
 - [Setting Up a Remote Dev Server with Hetzner](/setting-up-remote-dev-server-with-hetzner/)
 - [Best Portable Monitor Setup for Digital Nomads](/portable-monitor-setup-for-digital-nomads/)
-- [How to Set Up Dual Monitor Arms on Remote Work Desk](/remote-work-tools/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
+- [How to Set Up Dual Monitor Arms on Remote Work Desk](/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
 ---
 
 ## Related Articles
 
-- [Portable Monitor Setup for Digital Nomads](/remote-work-tools/portable-monitor-setup-for-digital-nomads/)
-- [Best Portable WiFi Hotspot for Digital Nomads](/remote-work-tools/best-portable-wifi-hotspot-for-digital-nomads/)
-- [Best Portable WiFi Hotspot Device for Remote Workers: 2026](/remote-work-tools/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
-- [Best Portable WiFi Hotspot Device for Remote Workers](/remote-work-tools/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
-- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
+- [Portable Monitor Setup for Digital Nomads](/portable-monitor-setup-for-digital-nomads/)
+- [Best Portable WiFi Hotspot for Digital Nomads](/best-portable-wifi-hotspot-for-digital-nomads/)
+- [Best Portable WiFi Hotspot Device for Remote Workers: 2026](/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
+- [Best Portable WiFi Hotspot Device for Remote Workers](/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
+- [Portable Dev Environment with Docker 2026](/portable-dev-environment-docker-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

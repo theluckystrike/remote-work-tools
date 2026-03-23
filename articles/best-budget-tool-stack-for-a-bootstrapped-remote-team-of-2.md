@@ -441,10 +441,10 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 ## Related Articles
 
-- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
-- [How to Monitor Remote Team Tool Response Times for](/remote-work-tools/how-to-monitor-remote-team-tool-response-times-for-identifyi/)
-- [Best Tools for Remote Team Metrics Dashboards](/remote-work-tools/best-tools-remote-team-metrics-dashboards/)
-- [How to Handle Remote Team Tool Consolidation When Rapid](/remote-work-tools/how-to-handle-remote-team-tool-consolidation-when-rapid-grow/)
-- [Best API Tools for Automating Remote Team Compliance](/remote-work-tools/best-api-tools-for-automating-remote-team-compliance-reporti/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [How to Monitor Remote Team Tool Response Times for](/how-to-monitor-remote-team-tool-response-times-for-identifyi/)
+- [Best Tools for Remote Team Metrics Dashboards](/best-tools-remote-team-metrics-dashboards/)
+- [How to Handle Remote Team Tool Consolidation When Rapid](/how-to-handle-remote-team-tool-consolidation-when-rapid-grow/)
+- [Best API Tools for Automating Remote Team Compliance](/best-api-tools-for-automating-remote-team-compliance-reporti/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

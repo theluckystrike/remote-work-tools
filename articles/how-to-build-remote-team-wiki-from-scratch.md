@@ -429,11 +429,11 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [How to Set Up a Remote Team Wiki from Scratch](/remote-work-tools/how-to-set-up-a-remote-team-wiki-from-scratch/)
-- [Best Practice for Remote Team Documentation Training](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
-- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
-- [Best Practice for Remote Team Onboarding Wiki](/remote-work-tools/best-practice-for-remote-team-onboarding-wiki-organizing-fir/)
-- [Best Wiki Tool for a 40-Person Remote Customer Support Team](/remote-work-tools/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
+- [How to Set Up a Remote Team Wiki from Scratch](/how-to-set-up-a-remote-team-wiki-from-scratch/)
+- [Best Practice for Remote Team Documentation Training](/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
+- [How to Build a Remote Team Handbook from Scratch](/how-to-build-a-remote-team-handbook-from-scratch/)
+- [Best Practice for Remote Team Onboarding Wiki](/best-practice-for-remote-team-onboarding-wiki-organizing-fir/)
+- [Best Wiki Tool for a 40-Person Remote Customer Support Team](/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

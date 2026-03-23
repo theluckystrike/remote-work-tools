@@ -297,10 +297,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Quick Exercise Routine for Remote Parents With Only 15](/remote-work-tools/best-quick-exercise-routine-for-remote-parents-with-only-15-/)
-- [How to Build a Daily Routine as a Remote Worker Adjusting](/remote-work-tools/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
-- [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
-- [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
-- [How to Create a Remote Work Policy Document](/remote-work-tools/remote-work-policy-document-guide/)
+- [Best Quick Exercise Routine for Remote Parents With Only 15](/best-quick-exercise-routine-for-remote-parents-with-only-15-/)
+- [How to Build a Daily Routine as a Remote Worker Adjusting](/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
+- [Remote Working Parent Daily Routine Template](/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [Remote Work Distraction Elimination Guide 2026](/remote-work-distraction-elimination-guide-2026/)
+- [How to Create a Remote Work Policy Document](/remote-work-policy-document-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

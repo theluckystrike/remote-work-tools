@@ -278,10 +278,10 @@ Trying to change everything at once. Pick one or two practices, implement them w
 
 ## Related Articles
 
-- [Example: Benefit request data structure](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)
-- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
-- [Transit Benefits for Hybrid Employees Guide](/remote-work-tools/transit-benefits-for-hybrid-employees-guide/)
-- [Remote Work Lactation Room Policy Template for Employees on](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
-- [How to Create Hybrid Office Quiet Zone Policy for Employees](/remote-work-tools/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
+- [Example: Benefit request data structure](/return-to-office-childcare-benefit-policy-template-for-hybri/)
+- [Everyone gets home office base](/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [Transit Benefits for Hybrid Employees Guide](/transit-benefits-for-hybrid-employees-guide/)
+- [Remote Work Lactation Room Policy Template for Employees on](/remote-work-lactation-room-policy-template-for-employees-on-/)
+- [How to Create Hybrid Office Quiet Zone Policy for Employees](/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

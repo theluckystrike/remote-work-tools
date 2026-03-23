@@ -265,10 +265,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
-- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
-- [How to Set Up Conference Room Owl Camera for Hybrid](/remote-work-tools/how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/)
-- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
-- [Video Conferencing Setup for a Remote Team of 3 Cofounders](/remote-work-tools/video-conferencing-setup-for-a-remote-team-of-3-cofounders/)
+- [Best Video Conferencing Setup for Hybrid Rooms](/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
+- [How to Set Up Conference Room Owl Camera for Hybrid](/how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/)
+- [Meeting Room Booking System for Hybrid Office 2026](/meeting-room-booking-system-for-hybrid-office-2026/)
+- [Video Conferencing Setup for a Remote Team of 3 Cofounders](/video-conferencing-setup-for-a-remote-team-of-3-cofounders/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
