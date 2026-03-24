@@ -850,6 +850,7 @@
 
 
 
+
 layout: default
 title: "How to Do Async Code Pairing with Recorded Screen Share"
 description: "Learn how to conduct effective async code pairing sessions using recorded screen shares. Complete 2026 guide for remote development teams"
@@ -873,6 +874,7 @@ score: 9
 intent-checked: true
 voice-checked: true
 ---
+
 
 
 
