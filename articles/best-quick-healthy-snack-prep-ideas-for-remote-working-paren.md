@@ -78,7 +78,7 @@ Components:
 - Handful of baby carrots (pre-cut)
 - Handful of cucumber slices (pre-cut)
 - 10-12 almonds
-Total prep time: 2 minutes
+Total prep time - 2 minutes
 ```
 
 The Meeting-Ready Cheese Plate
@@ -124,7 +124,7 @@ Create a simple notification system using cron and your preferred notification t
 ```bash
 #!/bin/bash
 snack-reminder.sh
-Add to crontab: 0 10,12,14,16 * * 1-5 /path/to/snack-reminder.sh
+Add to crontab - 0 10,12,14,16 * * 1-5 /path/to/snack-reminder.sh
 
 HOUR=$(date +%H)
 NOTIFICATION_TITLE="Snack Break "
@@ -178,12 +178,12 @@ Sunday 2-Hour Prep Session
 
 Structure your weekly prep to maximize efficiency:
 
-Hour 1: Proteins (35 minutes)
+Hour 1 - Proteins (35 minutes)
 - Boil 18 eggs in batches (20 min, do this first)
 - Roast chickpeas (20 min in oven during egg cooking)
 - Cook chicken breast strips if adding meat protein (optional, 15 min)
 
-Hour 2: Vegetables and Assembly (55 minutes)
+Hour 2 - Vegetables and Assembly (55 minutes)
 - Wash and prep vegetables (20 min)
 - Portion proteins into containers (10 min)
 - Mix component snacks (cheese + nuts, yogurt + granola) (10 min)
@@ -243,7 +243,7 @@ PANTRY:
 - Rolled oats (bulk) ($2-3)
 - Whole grain crackers ($3)
 
-Total: $35-45 for week of snacking
+Total - $35-45 for week of snacking
 ```
 
 Shopping the same list weekly saves decision fatigue and enables meal planning precision.
@@ -262,9 +262,9 @@ The most sustained energy comes from combinations including:
 This combination keeps blood glucose stable for 2-3 hours:
 
 ```
-Energy lasting 30 minutes: Sugar/fruit only
-Energy lasting 45 minutes: Carbs + protein (crackers + cheese)
-Energy lasting 2+ hours: Protein + fat + fiber (nuts + yogurt + berries)
+Energy lasting 30 minutes - Sugar/fruit only
+Energy lasting 45 minutes - Carbs + protein (crackers + cheese)
+Energy lasting 2+ hours - Protein + fat + fiber (nuts + yogurt + berries)
 ```
 
 A snack of just berries causes a 30-minute energy peak followed by a crash. The same berries with Greek yogurt and granola sustains energy for hours.

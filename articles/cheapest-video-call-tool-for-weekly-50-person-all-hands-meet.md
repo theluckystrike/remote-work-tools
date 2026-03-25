@@ -24,7 +24,7 @@ Table of Contents
 - [Top Budget-Friendly Options](#top-budget-friendly-options)
 - [Cost Comparison at Scale](#cost-comparison-at-scale)
 - [Integration Considerations for Developer Teams](#integration-considerations-for-developer-teams)
-- [Advanced: Video Call Configuration for Developer Powerusers](#advanced-video-call-configuration-for-developer-powerusers)
+- [Advanced - Video Call Configuration for Developer Powerusers](#advanced-video-call-configuration-for-developer-powerusers)
 - [Real-World Scenarios and Pricing Impact](#real-world-scenarios-and-pricing-impact)
 - [Recommendations by Use Case](#recommendations-by-use-case)
 
@@ -121,7 +121,7 @@ const zoomApiCall = async (token) => {
 };
 ```
 
-Zoom's advantage: the most mature meeting experience with reliable video quality. The downside: higher per-user cost than Google or Microsoft alternatives.
+Zoom's advantage - the most mature meeting experience with reliable video quality. The downside: higher per-user cost than Google or Microsoft alternatives.
 
 Jitsi Meet (Self-Hosted)
 
@@ -168,7 +168,7 @@ Developer teams benefit most from tools with strong API support. Microsoft Teams
 
 Google Meet has limited API access compared to Teams and Zoom. If your team needs programmatic meeting management, factor this into your decision.
 
-Advanced: Video Call Configuration for Developer Powerusers
+Advanced - Video Call Configuration for Developer Powerusers
 
 If you're automating meeting creation and management, here's a configuration template for each platform:
 
@@ -283,13 +283,13 @@ function New-RecurringTeamsMeeting {
 
 Real-World Scenarios and Pricing Impact
 
-Scenario 1: Early-stage startup (25 people, growing to 50)
+Scenario 1 - Early-stage startup (25 people, growing to 50)
 - Current cost with Zoom Pro: $15.99 × 25 = $400/month
 - Projected cost at 50 people: $800/month
 
 Switch to Google Workspace ($6/user/month). Cost at 50 people: $300/month. Annual savings: $6,000. The Google Meet feature set is sufficient for all-hands meetings, you get screen sharing, recording, 150 participants, and excellent integration with email and calendars.
 
-Scenario 2: Distributed remote team (50 people across US, Europe, Asia)
+Scenario 2 - Distributed remote team (50 people across US, Europe, Asia)
 - Need reliable video quality, strong timezone support, good integration with existing tools
 - Current setup: Zoom Business at $19.99/user/month = $1,000/month
 
@@ -298,7 +298,7 @@ Options:
 2. Switch to Teams ($12.50/user/month = $625/month = $7,500/year). saves $4,500/year, adds Microsoft 365 benefits
 3. Hybrid approach: Google Meet for internal all-hands, Zoom for customer-facing calls. Average cost: $600/month
 
-Scenario 3: DevOps-capable team wanting maximum control
+Scenario 3 - DevOps-capable team wanting maximum control
 - Self-hosted Jitsi on DigitalOcean
 - Cost: $30/month for standard droplet, $50/month for high-traffic droplet
 - Annual cost: $360-600 for unlimited everything
@@ -307,15 +307,15 @@ Scenario 3: DevOps-capable team wanting maximum control
 
 Recommendations by Use Case
 
-Startup with Google Workspace: Use Meet, it's included, supports 150 participants, and integrates with your existing calendar. Recording to Drive is convenient. Revisit if you exceed 100 people frequently.
+Startup with Google Workspace - Use Meet, it's included, supports 150 participants, and integrates with your existing calendar. Recording to Drive is convenient. Revisit if you exceed 100 people frequently.
 
-Enterprise with Microsoft 365: Teams makes sense for deep Outlook and SharePoint integration. The Graph API enables powerful automation. You're already paying for the suite, so the marginal cost of Teams is minimal.
+Enterprise with Microsoft 365 - Teams makes sense for deep Outlook and SharePoint integration. The Graph API enables powerful automation. You're already paying for the suite, so the marginal cost of Teams is minimal.
 
-Budget-conscious team with DevOps skills: Self-hosted Jitsi costs roughly $30-50/month total and gives you full control over data and infrastructure. Budget 4 hours/month for maintenance. Ideal if meeting privacy is paramount.
+Budget-conscious team with DevOps skills: Self-hosted Jitsi costs roughly $30-50/month total and gives you full control over data and infrastructure. Budget 4 hours/month for maintenance. Ideal if meeting privacy is essential.
 
 Remote-first company needing reliability: Zoom remains the gold standard for meeting quality and stability. Pay the premium if video reliability impacts client perception or customer outcomes directly.
 
-Hybrid on-prem/remote: Combine Google Meet for internal all-hands (cheaper, simpler) with Zoom for client calls (better quality perception). Total cost: ~$15/user/month.
+Hybrid on-prem/remote - Combine Google Meet for internal all-hands (cheaper, simpler) with Zoom for client calls (better quality perception). Total cost: ~$15/user/month.
 
 The final decision should factor in not just per-user cost but also your team's existing tool stack, integration needs, timezone distribution, and whether video quality perception affects your business.
 

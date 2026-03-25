@@ -109,7 +109,7 @@ Dependabot or Renovate can automatically create pull requests when dependencies 
 .github/dependabot.yml
 version: 2
 updates:
-  - package-ecosystem: "npm"
+  - package-environment: "npm"
     directory: "/"
     schedule:
       interval: "weekly"

@@ -23,17 +23,17 @@ Table of Contents
 - [Overview](#overview)
 - [The Remote Work Problem](#the-remote-work-problem)
 - [Core System Architecture](#core-system-architecture)
-- [Step 1: Calendar Foundation Setup](#step-1-calendar-foundation-setup)
-- [Step 2: Automation - Slack Integration](#step-2-automation-slack-integration)
-- [Step 3: Focus Tools Integration](#step-3-focus-tools-integration)
-- [Step 4: Communication Tool Setup](#step-4-communication-tool-setup)
-- [Step 5: Task Capture System](#step-5-task-capture-system)
-- [Step 6: Complete Automation Example](#step-6-complete-automation-example)
+- [Step 1 - Calendar Foundation Setup](#step-1-calendar-foundation-setup)
+- [Step 2 - Automation - Slack Integration](#step-2-automation-slack-integration)
+- [Step 3 - Focus Tools Integration](#step-3-focus-tools-integration)
+- [Step 4 - Communication Tool Setup](#step-4-communication-tool-setup)
+- [Step 5 - Task Capture System](#step-5-task-capture-system)
+- [Step 6 - Complete Automation Example](#step-6-complete-automation-example)
 - [Real-World Weekly Time Budget](#real-world-weekly-time-budget)
 - [Implementation Checklist](#implementation-checklist)
 - [Troubleshooting](#troubleshooting)
 - [Metrics to Track](#metrics-to-track)
-- [Advanced: Team-Wide Implementation](#advanced-team-wide-implementation)
+- [Advanced - Team-Wide Implementation](#advanced-team-wide-implementation)
 
 Remote work enables flexibility but destroys boundaries. Without structure, deep work time gets hijacked by Slack, meetings, and interruptions. Time blocking, protecting specific calendar blocks for focused work, is the most effective productivity system for remote workers. This guide builds a complete time blocking system using Google Calendar, Slack automation, and focus tools.
 
@@ -68,7 +68,7 @@ A complete time blocking setup uses:
 4. Communication Tool Integration (Slack, Microsoft Teams)
 5. Capture System (task list for interruptions)
 
-Step 1: Calendar Foundation Setup
+Step 1 - Calendar Foundation Setup
 
 Google Calendar Configuration
 
@@ -122,9 +122,9 @@ Outlook uses same principle:
 3. Set events as "Out of Office" (stronger than "Busy")
 4. Out of Office automatically sets status to "Do Not Disturb"
 
-Outlook Advantage: Integration with Outlook status updates automatically.
+Outlook Advantage - Integration with Outlook status updates automatically.
 
-Step 2: Automation - Slack Integration
+Step 2 - Automation - Slack Integration
 
 Native Slack Integration (Easiest)
 
@@ -175,18 +175,18 @@ Setup Steps:
 5. Action 2: Focus@Will - Start Session
 6. Action 3: Forest app - Start Focus Session
 
-Cost: Zapier free tier (100 tasks/month), $19.99+/month (advanced)
+Cost - Zapier free tier (100 tasks/month), $19.99+/month (advanced)
 
 Make.com Alternative (More Powerful)
 
 Make.com (formerly Integromat) offers stronger automation:
 
-Advantage: Conditional logic, multiple tool chains, better error handling
+Advantage - Conditional logic, multiple tool chains, better error handling
 
 Example automation:
 
 ```
-Trigger: Google Calendar event starts
+Trigger - Google Calendar event starts
   IF: Event title contains "Deep Work"
     - Update Slack status
     - Mute all notifications (Mac: AppleScript)
@@ -199,9 +199,9 @@ Trigger: Google Calendar event starts
     - Set "Available" status
 ```
 
-Cost: Make.com free tier ($0, limited), $10.59+/month (pro)
+Cost - Make.com free tier ($0, limited), $10.59+/month (pro)
 
-Step 3: Focus Tools Integration
+Step 3 - Focus Tools Integration
 
 Forest App (Gamified Focus)
 
@@ -229,7 +229,7 @@ Integration:
 - Start session automatically when Deep Work block begins
 - Calendar shows forest growth (visual proof of focus time)
 
-Cost: Free (limited), $3.99/month or $27.99/year (pro, all features)
+Cost - Free (limited), $3.99/month or $27.99/year (pro, all features)
 
 Freedom App (Website/App Blocker)
 
@@ -244,13 +244,13 @@ Setup:
 3. Create schedule: "Work Days 9am-12pm, 2:15-3:45pm"
 4. Integrate with Zapier (trigger Freedom session at Deep Work start)
 
-Advanced Feature: Freedom integrates with Google Calendar directly.
+Advanced Feature - Freedom integrates with Google Calendar directly.
 
 1. Settings > Calendar > Connect Google Calendar
 2. Create rule: "Block when event title contains 'Deep Work'"
 3. Freedom auto-blocks at calendar event start
 
-Cost: $7.99/month or $39.99/year
+Cost - $7.99/month or $39.99/year
 
 Focus@Will (Music + Focus)
 
@@ -273,9 +273,9 @@ How It Works:
 - Dashboard shows cumulative focus time
 - Integrates with Zapier for auto-start
 
-Cost: Free (limited), $5.99/month
+Cost - Free (limited), $5.99/month
 
-Step 4: Communication Tool Setup
+Step 4 - Communication Tool Setup
 
 Slack Integration (Complete)
 
@@ -287,8 +287,8 @@ Set automatic response during Deep Work blocks:
 
 ```
 Workflow Builder > Create New Workflow
-Trigger: Status changes to "Deep Work - DND"
-Action: Send message in #general and to DMs:
+Trigger - Status changes to "Deep Work - DND"
+Action - Send message in #general and to DMs:
 
 "Starting deep focus session until {END_TIME}.
 I'll respond to messages after this block.
@@ -308,9 +308,9 @@ During Deep Work blocks, disable notifications:
 Create workflow to capture urgent items:
 
 ```
-Trigger: Someone DMs "urgent"
-Action: Create task in todo.txt or Asana
-Action: Reply: "Captured - I'll respond after focus block"
+Trigger - Someone DMs "urgent"
+Action - Create task in todo.txt or Asana
+Action - Reply: "Captured - I'll respond after focus block"
 ```
 
 This prevents notification while capturing urgent work.
@@ -324,7 +324,7 @@ Teams similar to Slack:
 3. Notifications > Focus Assist (mute all)
 4. Teams > Calendar integration (same as Slack)
 
-Step 5: Task Capture System
+Step 5 - Task Capture System
 
 Interruptions will happen. Capture them instead of breaking focus.
 
@@ -343,17 +343,17 @@ After Deep Work Blocks:
 
 Tools for Capture
 
-Option 1: Notes App (Simplest)
+Option 1 - Notes App (Simplest)
 - Keep Apple Notes or Google Keep open
 - Quick text entry: "Client called re: invoice"
 - Review post-focus
 
-Option 2: Task Manager (Better)
+Option 2 - Task Manager (Better)
 - Asana, Linear, or Todoist inbox
 - Quick task creation: "/task Client invoice question"
 - Auto-prioritization
 
-Option 3: Dedicated Log (Most Structured)
+Option 3 - Dedicated Log (Most Structured)
 ```
 Interrupt Log Template:
 
@@ -365,11 +365,11 @@ Interrupt Log Template:
 
 Review log post-focus block. Handle high urgency, defer rest.
 
-Step 6: Complete Automation Example
+Step 6 - Complete Automation Example
 
 Full Zapier/Make Workflow
 
-Scenario: You have a Deep Work block 9am-12pm Monday-Friday.
+Scenario - You have a Deep Work block 9am-12pm Monday-Friday.
 
 Automation Sequence (at 8:55am):
 
@@ -397,9 +397,9 @@ At 12:00pm (Block Ends):
 - Auto-message: "Back online. Checking messages now."
 - Notifications → Re-enabled
 
-Total setup time: 30 minutes for complete automation.
+Total setup time - 30 minutes for complete automation.
 
-Time saved: 2+ hours weekly (vs manual status changes, app switching).
+Time saved - 2+ hours weekly (vs manual status changes, app switching).
 
 Real-World Weekly Time Budget
 
@@ -441,28 +441,28 @@ Implementation Checklist
 
 Troubleshooting
 
-Problem: Calendar invites still come during deep work blocks.
+Problem - Calendar invites still come during deep work blocks.
 
 Solution:
 - Ensure calendar is shared with team + marked "Busy"
 - Ask meeting organizers to check your calendar before inviting
 - Use "Auto-decline" rule (accept only if organizer flags urgent)
 
-Problem: Notifications still penetrate despite muting.
+Problem - Notifications still penetrate despite muting.
 
 Solution:
 - Check allowlist exceptions (likely calendar/meeting notifications)
 - Use phone DND mode (more aggressive than app settings)
 - Close email/Slack apps entirely during focus block
 
-Problem: Automation triggers late (Zapier delay).
+Problem - Automation triggers late (Zapier delay).
 
 Solution:
 - Trigger automation 5 minutes before block starts
 - Use Make.com instead (faster response, more reliable)
 - Manual backup: Set phone alarms for block start/end
 
-Problem: Team still messages during blocks.
+Problem - Team still messages during blocks.
 
 Solution:
 - Emphasize in team meeting: "I'm genuinely unavailable 9-12pm"
@@ -492,7 +492,7 @@ Interruption Log:
 - Urgent vs non-urgent ratio
 - Follow-up: Did post-focus processing resolve items quickly?
 
-Advanced: Team-Wide Implementation
+Advanced - Team-Wide Implementation
 
 Individual time blocking is good. Team-wide adoption is better.
 

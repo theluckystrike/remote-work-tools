@@ -21,11 +21,11 @@ Changing SIM cards frequently while traveling internationally creates a specific
 Table of Contents
 
 - [Understanding the Core Problem](#understanding-the-core-problem)
-- [Strategy 1: Use Authenticator Apps with Cloud Backup](#strategy-1-use-authenticator-apps-with-cloud-backup)
-- [Strategy 2: Export and Store Recovery Codes Properly](#strategy-2-export-and-store-recovery-codes-properly)
-- [Strategy 3: Use Hardware Tokens as Primary 2FA](#strategy-3-use-hardware-tokens-as-primary-2fa)
-- [Strategy 4: Keep a Static Number Through VoIP](#strategy-4-keep-a-static-number-through-voip)
-- [Strategy 5: Prepare Before You Travel](#strategy-5-prepare-before-you-travel)
+- [Strategy 1 - Use Authenticator Apps with Cloud Backup](#strategy-1-use-authenticator-apps-with-cloud-backup)
+- [Strategy 2 - Export and Store Recovery Codes Properly](#strategy-2-export-and-store-recovery-codes-properly)
+- [Strategy 3 - Use Hardware Tokens as Primary 2FA](#strategy-3-use-hardware-tokens-as-primary-2fa)
+- [Strategy 4 - Keep a Static Number Through VoIP](#strategy-4-keep-a-static-number-through-voip)
+- [Strategy 5 - Prepare Before You Travel](#strategy-5-prepare-before-you-travel)
 - [What to Do If You're Locked Out](#what-to-do-if-youre-locked-out)
 - [Building Your Long-Term Setup](#building-your-long-term-setup)
 
@@ -42,7 +42,7 @@ Authenticator apps tied to a specific device also create issues. If you switch p
 
 The solution isn't to avoid 2FA, it's to build redundancy into your authentication strategy before you need it.
 
-Strategy 1: Use Authenticator Apps with Cloud Backup
+Strategy 1 - Use Authenticator Apps with Cloud Backup
 
 The most reliable approach for frequent travelers is using authenticator apps that support cloud synchronization. These apps store your 2FA secrets in encrypted cloud storage, allowing you to restore them on any new device.
 
@@ -77,7 +77,7 @@ bw create item login \
 
 This approach means your 2FA codes travel with your password vault. When you get a new phone, you install the password manager app, log in, and all your TOTP codes are immediately available.
 
-Strategy 2: Export and Store Recovery Codes Properly
+Strategy 2 - Export and Store Recovery Codes Properly
 
 Every serious service provides recovery codes when you enable 2FA. The common mistake is storing these digitally in an unsecured location or worse, not storing them at all.
 
@@ -91,9 +91,9 @@ For developers, a proper recovery code storage strategy involves:
 Encrypting recovery codes with GPG for storage
 Create a text file with recovery codes
 cat > ~/2fa-recovery-codes.txt << 'EOF'
-GitHub: 123456-789ABC
+GitHub - 123456-789ABC
 AWS:    ABCD-1234-EFGH-5678
-Stripe: recovery-code-here
+Stripe - recovery-code-here
 EOF
 
 Encrypt with GPG (you'll be prompted for a passphrase)
@@ -108,7 +108,7 @@ gpg --decrypt ~/2fa-recovery-codes.txt.gpg
 
 The GPG approach gives you military-grade encryption for your recovery codes. Store the encrypted file in cloud storage (Dropbox, Google Drive, iCloud) and remember your passphrase.
 
-Strategy 3: Use Hardware Tokens as Primary 2FA
+Strategy 3 - Use Hardware Tokens as Primary 2FA
 
 Hardware security keys like YubiKey or Titan provide the most travel-resistant authentication method. These devices don't depend on phone numbers, SIM cards, or internet connectivity. You plug in or tap the key to authenticate.
 
@@ -154,7 +154,7 @@ async function registerHardwareKey() {
 
 The key advantage for frequent SIM changers: hardware tokens work regardless of your phone number. You could lose your phone entirely and still authenticate with your YubiKey.
 
-Strategy 4: Keep a Static Number Through VoIP
+Strategy 4 - Keep a Static Number Through VoIP
 
 If you need a consistent phone number for SMS-based 2FA, consider a VoIP service that provides a persistent number. Google Voice (US only), Skype, or services like NumberBarn give you a number that stays constant regardless of your physical SIM card.
 
@@ -166,7 +166,7 @@ However, this approach has caveats:
 
 For developers who primarily use authenticator apps, this serves as a backup for services that insist on SMS verification.
 
-Strategy 5: Prepare Before You Travel
+Strategy 5 - Prepare Before You Travel
 
 The most important strategy is preparation. Before changing SIM cards or traveling:
 

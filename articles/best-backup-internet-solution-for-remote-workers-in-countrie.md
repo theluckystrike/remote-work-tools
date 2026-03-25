@@ -18,14 +18,14 @@ A mobile hotspot paired with a high-capacity power bank provides the fastest set
 
 Table of Contents
 
-- [Solution 1: Mobile Hotspot with Power Bank](#solution-1-mobile-hotspot-with-power-bank)
-- [Solution 2: Dedicated Mobile Router with Multiple SIM Cards](#solution-2-dedicated-mobile-router-with-multiple-sim-cards)
-- [Solution 3: Starlink with Battery Backup](#solution-3-starlink-with-battery-backup)
-- [Solution 4: UPS + LTE Modem Combination](#solution-4-ups-lte-modem-combination)
-- [Solution 5: Community Mesh Networks](#solution-5-community-mesh-networks)
+- [Solution 1 - Mobile Hotspot with Power Bank](#solution-1-mobile-hotspot-with-power-bank)
+- [Solution 2 - Dedicated Mobile Router with Multiple SIM Cards](#solution-2-dedicated-mobile-router-with-multiple-sim-cards)
+- [Solution 3 - Starlink with Battery Backup](#solution-3-starlink-with-battery-backup)
+- [Solution 4 - UPS + LTE Modem Combination](#solution-4-ups-lte-modem-combination)
+- [Solution 5 - Community Mesh Networks](#solution-5-community-mesh-networks)
 - [Implementation Checklist](#implementation-checklist)
 - [Recommended Configuration for Developers](#recommended-configuration-for-developers)
-- [Cost Comparison: Backup Internet Solutions](#cost-comparison-backup-internet-solutions)
+- [Cost Comparison - Backup Internet Solutions](#cost-comparison-backup-internet-solutions)
 - [Implementation Decision Matrix](#implementation-decision-matrix)
 - [Testing Your Backup Solution](#testing-your-backup-solution)
 - [Regional Considerations](#regional-considerations)
@@ -34,7 +34,7 @@ When the main power grid goes down, your primary internet connection typically f
 
 The challenge becomes more complex when you consider that mobile networks may also be affected during widespread outages. Cell towers have battery backup, but their capacity is limited, and increased usage during outages can strain available bandwidth.
 
-Solution 1: Mobile Hotspot with Power Bank
+Solution 1 - Mobile Hotspot with Power Bank
 
 The simplest backup option is using your smartphone as a mobile hotspot. Most modern smartphones support this functionality, and when paired with a charged power bank, you can maintain connectivity for several hours.
 
@@ -47,9 +47,9 @@ On iOS, go to Settings > Cellular > Personal Hotspot
 
 Mobile hotspots have real limitations. Data caps may be restrictive, and network speeds vary significantly depending on location and congestion. For video-heavy work, team calls, client presentations, live screen sharing, most mobile data plans throttle after 5-15 GB, often at the worst time. Test your carrier's throttled speed before relying on this as a primary backup. If throttled speeds fall below 3 Mbps upload, video calls become unreliable.
 
-A practical improvement: keep a second SIM from a different carrier preloaded with data and slotted in your phone's dual-SIM slot. When your primary carrier experiences congestion during a grid outage, switching to the secondary takes seconds rather than requiring new hardware.
+A practical improvement - keep a second SIM from a different carrier preloaded with data and slotted in your phone's dual-SIM slot. When your primary carrier experiences congestion during a grid outage, switching to the secondary takes seconds rather than requiring new hardware.
 
-Solution 2: Dedicated Mobile Router with Multiple SIM Cards
+Solution 2 - Dedicated Mobile Router with Multiple SIM Cards
 
 For more reliable backup connectivity, consider investing in a dedicated mobile router (MiFi device). These devices support multiple SIM cards, allowing you to switch between carriers when one network experiences issues.
 
@@ -77,7 +77,7 @@ The GL.iNet GL-X3000 and Peplink MAX BR1 Mini are popular choices among remote w
 
 For data plans, research carrier reliability specifically during outage events in your area. In many regions, the carrier that offers the fastest normal speeds performs worst during grid outages due to tower generator capacity limitations. Ask local remote workers which carrier they trust during outages, not which is fastest day-to-day.
 
-Solution 3: Starlink with Battery Backup
+Solution 3 - Starlink with Battery Backup
 
 Starlink has become a major improvement for remote workers in underserved regions. Unlike traditional terrestrial infrastructure, Starlink's satellite network operates independently of local power grids.
 
@@ -89,8 +89,8 @@ Required equipment:
 - 12V battery or portable power station
 
 Connect the power supply to your battery:
-Red wire: Positive (+)
-Black wire: Negative (-)
+Red wire - Positive (+)
+Black wire - Negative (-)
 Ensure voltage matches (19.5V for standard Starlink)
 ```
 
@@ -102,7 +102,7 @@ Power consumption is the key planning factor. The standard Starlink dish draws 5
 
 Latency on Starlink averages 25-60ms, compared to 5-20ms for terrestrial fiber. For most remote work, video calls, async collaboration, file uploads, this is imperceptible. Real-time applications like remote desktop sessions to latency-sensitive cloud servers may feel slightly sluggish, but typical developer workflows on tools like VS Code Remote or GitHub Codespaces work acceptably.
 
-Solution 4: UPS + LTE Modem Combination
+Solution 4 - UPS + LTE Modem Combination
 
 A traditional uninterruptible power supply (UPS) combined with an LTE modem provides protection. This setup keeps your primary router running during outages while using cellular as the backup link.
 
@@ -125,7 +125,7 @@ When sizing an UPS, calculate the combined wattage of everything it needs to sup
 
 For extended outages, consider a rackmount or external battery expansion kit. APC's Smart-UPS series and CyberPower's OL series support external battery modules, extending runtime to 4-8 hours at moderate loads. This approach costs more than a power bank but provides cleaner power delivery and protects against voltage fluctuations that can damage equipment.
 
-Solution 5: Community Mesh Networks
+Solution 5 - Community Mesh Networks
 
 In some regions, community mesh networks provide decentralized internet access. These volunteer-run networks use interconnected nodes to share bandwidth and create resilient local infrastructure.
 
@@ -162,13 +162,13 @@ Recommended Configuration for Developers
 For developers and power users who need reliable connectivity:
 
 ```
-Primary: Fiber/cable internet → Primary router
+Primary - Fiber/cable internet → Primary router
  ↓
 UPS-backed network switch
  ↓
 Devices
 
-Backup: LTE/5G modem → Secondary router
+Backup - LTE/5G modem → Secondary router
 ```
 
 This configuration provides automatic failover when the primary connection drops. Configure your routers to detect connection failures and switch automatically:
@@ -187,7 +187,7 @@ fi
 
 Developers running local development servers or self-hosted services should also plan for the IP address change that occurs when switching to a backup connection. Services that rely on static IP whitelisting (corporate VPNs, database access controls) may require re-authentication. Keep credentials and re-auth procedures documented and accessible offline.
 
-Cost Comparison: Backup Internet Solutions
+Cost Comparison - Backup Internet Solutions
 
 Selecting a backup strategy requires balancing upfront costs, recurring expenses, and reliability needs.
 
@@ -262,23 +262,23 @@ Backup internet validation script
 
 echo "Testing backup connectivity..."
 
-Test 1: Basic connectivity
+Test 1 - Basic connectivity
 echo "Test 1: Can reach external services?"
 ping -c 4 8.8.8.8
 
-Test 2: Bandwidth adequacy
+Test 2 - Bandwidth adequacy
 echo "Test 2: Sufficient speed for video calls?"
 speedtest --simple
 
-Test 3: Latency acceptable for real-time?
+Test 3 - Latency acceptable for real-time?
 echo "Test 3: Latency acceptable?"
 ping -c 10 meet.google.com | tail -1
 
-Test 4: Failover automation
+Test 4 - Failover automation
 echo "Test 4: Failover works automatically?"
 Unplug primary connection, verify secondary activates within 30 seconds
 
-Test 5: Load test - simulate actual work
+Test 5 - Load test - simulate actual work
 echo "Test 5: Handle typical daily workload?"
 Run backup for 4-8 hours of normal work, track stability
 

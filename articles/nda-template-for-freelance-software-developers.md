@@ -50,9 +50,9 @@ Below is an NDA template tailored for freelance software development engagements
 ```markdown
 NON-DISCLOSURE AGREEMENT
 
-Effective Date: [Date]
-Disclosing Party: [Client Company Name]
-Receiving Party: [Your Name/Company]
+Effective Date - [Date]
+Disclosing Party - [Client Company Name]
+Receiving Party - [Your Name/Company]
 
 1. Definition of Confidential Information
 
@@ -104,11 +104,11 @@ The Receiving Party acknowledges that unauthorized disclosure of Confidential In
 - This Agreement shall be governed by the laws of [Jurisdiction]
 - This Agreement may not be amended without written consent
 
-Disclosing Party: _______________________
-Date: _______________________
+Disclosing Party - _______________________
+Date - _______________________
 
-Receiving Party: _______________________
-Date: _______________________
+Receiving Party - _______________________
+Date - _______________________
 ```
 
 Key Clauses Every Developer NDA Should Include

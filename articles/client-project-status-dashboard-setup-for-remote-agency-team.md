@@ -186,9 +186,9 @@ Client-Facing Versus Internal Views
 
 Remote agencies must balance transparency with security. Create separate views for different audiences:
 
-Internal Dashboard: Full access to issues, time logs, internal notes, budget calculations, and team communication.
+Internal Dashboard - Full access to issues, time logs, internal notes, budget calculations, and team communication.
 
-Client Dashboard: Filtered view showing only deliverables, milestone completion, and scheduled reviews. Use read-only tokens or generate shareable links that expire.
+Client Dashboard - Filtered view showing only deliverables, milestone completion, and scheduled reviews. Use read-only tokens or generate shareable links that expire.
 
 A practical approach uses role-based rendering on the frontend:
 

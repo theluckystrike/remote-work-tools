@@ -19,12 +19,12 @@ Escalation paths in remote teams function differently than in co-located organiz
 
 Building escalation paths that actually work as you scale from 10 to 100+ employees requires more than a static contact list. It demands a tiered system that accounts for issue severity, time zone coverage, and the increasing complexity of organizational structure.
 
-The Core Problem: Static Escalation Lists Fail at Scale
+The Core Problem - Static Escalation Lists Fail at Scale
 
 Most teams start with something like this:
 
 ```
-Escalation: Team Lead → Engineering Manager → CTO
+Escalation - Team Lead → Engineering Manager → CTO
 ```
 
 This works when you have 8 people. It fails catastrophically when you have 80. The team lead becomes a bottleneck. The CTO gets woken up for password reset issues. Engineers in Sydney have no idea who their "team lead" is when the San Francisco lead is asleep.
@@ -38,7 +38,7 @@ Tiered Escalation Framework for Remote Teams
 
 A practical escalation framework separates issues into three tiers based on severity and required response time.
 
-Tier 1: Team-Level Resolution (Response: Same Day)
+Tier 1 - Team-Level Resolution (Response: Same Day)
 
 Tier 1 covers blockers that your immediate team can resolve. This includes technical questions, code review delays, and resource conflicts. The escalation path here is horizontal within your team, not upward.
 
@@ -63,7 +63,7 @@ escalation_path:
     action: DM team lead directly
 ```
 
-Tier 2: Cross-Team Coordination (Response: 4 Hours)
+Tier 2 - Cross-Team Coordination (Response: 4 Hours)
 
 Tier 2 handles issues requiring coordination between teams or decision-making beyond your immediate scope. This includes blocked projects, dependency conflicts, and prioritization disagreements.
 
@@ -88,7 +88,7 @@ escalation_path:
     action: Escalate to program manager or tech lead
 ```
 
-Tier 3: Critical Incident Response (Response: Immediate)
+Tier 3 - Critical Incident Response (Response: Immediate)
 
 Tier 3 is reserved for production outages, security incidents, and issues affecting customers. This tier should have on-call rotation and predefined response procedures.
 
@@ -175,21 +175,21 @@ Scaling Escalation as Your Organization Grows
 
 When you move from 20 to 50 to 100+ employees, your escalation structure must evolve. The key is adding layers without adding confusion.
 
-Stage 1: Startup (5-20 people)
+Stage 1 - Startup (5-20 people)
 
 Everyone knows everyone. A single flat escalation path works:
 ```
 Individual Contributor → Founding Engineer → CTO
 ```
 
-Stage 2: Growth (20-50 people)
+Stage 2 - Growth (20-50 people)
 
 Introduce team leads and functional areas:
 ```
 IC → Team Lead → Department Head → VP Engineering → CTO
 ```
 
-Stage 3: Scale (50-200+ people)
+Stage 3 - Scale (50-200+ people)
 
 Implement formal tiers with on-call rotations, defined SLAs, and clear escalation triggers:
 ```
@@ -203,13 +203,13 @@ At this stage, you also need:
 
 Common Pitfalls to Avoid
 
-The "Always Escalate" culture: When teams lack confidence or trust, everything escalates to leadership. Monitor escalation rates and coach teams on appropriate self-resolution.
+The "Always Escalate" culture - When teams lack confidence or trust, everything escalates to leadership. Monitor escalation rates and coach teams on appropriate self-resolution.
 
-Stale escalation contacts: Update your escalation matrix quarterly. People change teams, roles, and responsibilities. A contact list from 6 months ago is dangerous.
+Stale escalation contacts - Update your escalation matrix quarterly. People change teams, roles, and responsibilities. A contact list from 6 months ago is dangerous.
 
-No escalation criteria: Telling someone to "escalate if blocked" without defining what "blocked" means leads to either over-escalation or silent suffering.
+No escalation criteria - Telling someone to "escalate if blocked" without defining what "blocked" means leads to either over-escalation or silent suffering.
 
-Ignoring time zones completely: Your escalation path must include explicit coverage for every time zone where employees work. If someone in Tokyo is blocked at midnight JST, who do they contact?
+Ignoring time zones completely - Your escalation path must include explicit coverage for every time zone where employees work. If someone in Tokyo is blocked at midnight JST, who do they contact?
 
 Building a Culture of Healthy Escalation
 
@@ -227,7 +227,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -239,7 +239,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

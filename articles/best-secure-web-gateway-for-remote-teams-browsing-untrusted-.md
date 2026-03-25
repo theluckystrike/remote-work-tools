@@ -25,7 +25,7 @@ Table of Contents
 - [Evaluating Secure Web Gateway Solutions](#evaluating-secure-web-gateway-solutions)
 - [Comparing Major Providers](#comparing-major-providers)
 - [Handling Exceptions and Override Requests](#handling-exceptions-and-override-requests)
-- [Implementation Pattern: Tiered Access Control](#implementation-pattern-tiered-access-control)
+- [Implementation Pattern - Tiered Access Control](#implementation-pattern-tiered-access-control)
 - [Common Configuration Mistakes to Avoid](#common-configuration-mistakes-to-avoid)
 - [Building Your Implementation Roadmap](#building-your-implementation-roadmap)
 - [Platform Comparison and Pricing](#platform-comparison-and-pricing)
@@ -126,7 +126,7 @@ Zscaler Internet Access is the enterprise standard. It handles massive scale, of
 
 Cisco Umbrella sits between the two: more enterprise-capable than Cloudflare but less complex than Zscaler. Umbrella's DNS-layer approach is easy to deploy as a first step, with agent-based enforcement available for stricter policies. Teams already invested in Cisco's networking stack benefit from native integrations.
 
-Palo Alto Prisma Access is worth considering for teams with complex security requirements and a preference for Palo Alto's ecosystem. Its CASB features provide visibility into SaaS application usage that pure SWGs lack.
+Palo Alto Prisma Access is worth considering for teams with complex security requirements and a preference for Palo Alto's environment. Its CASB features provide visibility into SaaS application usage that pure SWGs lack.
 
 Handling Exceptions and Override Requests
 
@@ -143,7 +143,7 @@ Document every exception decision. When you revisit your policies quarterly, the
 
 For time-sensitive situations where a blocked site is causing an immediate work stoppage, give a small number of senior team members a break-glass process: a documented way to temporarily allow access for up to 24 hours while the formal exception request is processed. This prevents the workaround behavior that undermines gateway effectiveness.
 
-Implementation Pattern: Tiered Access Control
+Implementation Pattern - Tiered Access Control
 
 A practical approach for development teams uses tiered access based on role and context:
 
@@ -309,12 +309,12 @@ If you can't afford agent-based solutions, DNS filtering provides 60-70% of the 
 
 ```bash
 Configure Team DNS in your router or MDM solution
-Primary DNS: 1.1.1.2 (Cloudflare - Malware protection)
-Secondary DNS: 1.0.0.2 (Cloudflare - Family-friendly + malware)
+Primary DNS - 1.1.1.2 (Cloudflare - Malware protection)
+Secondary DNS - 1.0.0.2 (Cloudflare - Family-friendly + malware)
 
 Or use your corporate DNS with filtering enabled
-Primary DNS: 10.0.0.1 (your corporate DNS)
-Secondary DNS: 8.8.8.8 (Google fallback)
+Primary DNS - 10.0.0.1 (your corporate DNS)
+Secondary DNS - 8.8.8.8 (Google fallback)
 
 Test configuration
 nslookup suspicious-domain.com 1.1.1.2
@@ -325,13 +325,13 @@ DNS filtering is not foolproof, sophisticated users can bypass it, but it blocks
 
 Rollout Checklist
 
-Week 1: Enable logging-only mode on all clients. Track blocked requests without enforcing blocks.
+Week 1 - Enable logging-only mode on all clients. Track blocked requests without enforcing blocks.
 
-Week 2: Analyze logs. Identify top 10 blocked domain categories. Create allowlist for business-critical categories (documentation, package managers, video conferencing).
+Week 2 - Analyze logs. Identify top 10 blocked domain categories. Create allowlist for business-critical categories (documentation, package managers, video conferencing).
 
-Week 3: Enable blocking mode with allowlist. Expect 5-10% of team to hit blocks. Respond within 2 hours with either unblock or workaround.
+Week 3 - Enable blocking mode with allowlist. Expect 5-10% of team to hit blocks. Respond within 2 hours with either unblock or workaround.
 
-Week 4: Review blocked requests again. Fine-tune policies based on real usage.
+Week 4 - Review blocked requests again. Fine-tune policies based on real usage.
 
 This gradual rollout prevents the common scenario where IT locks down too tight and everyone resents the tool.
 

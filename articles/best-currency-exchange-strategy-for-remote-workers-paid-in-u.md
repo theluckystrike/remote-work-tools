@@ -18,20 +18,20 @@ The best currency exchange strategy for remote workers paid in USD living in Tha
 
 Table of Contents
 
-- [Understanding the Thailand Banking ecosystem](#understanding-the-thailand-banking-ecosystem)
+- [Understanding the Thailand Banking environment](#understanding-the-thailand-banking-environment)
 - [Recommended Multi-Account Strategy](#recommended-multi-account-strategy)
 - [Automation for Regular Income](#automation-for-regular-income)
 - [Avoiding Common Mistakes](#avoiding-common-mistakes)
 - [Tax Considerations](#tax-considerations)
 - [Practical Recommendation](#practical-recommendation)
 - [Advanced Conversion Strategies for Tech Professionals](#advanced-conversion-strategies-for-tech-professionals)
-- [Detailed Comparison: Every Conversion Method](#detailed-comparison-every-conversion-method)
+- [Detailed Comparison - Every Conversion Method](#detailed-comparison-every-conversion-method)
 - [Accounting and Tax Record Keeping](#accounting-and-tax-record-keeping)
 - [Currency Risk Management](#currency-risk-management)
 - [When to Get Professional Help](#when-to-get-professional-help)
 - [The Bottom Line](#the-bottom-line)
 
-Understanding the Thailand Banking ecosystem
+Understanding the Thailand Banking environment
 
 Thailand imposes strict capital controls on foreign currency. You cannot simply wire USD to a Thai bank and expect favorable rates. Most Thai banks offer poor exchange rates, typically 2-4% below the market rate, and charge additional transfer fees.
 
@@ -45,7 +45,7 @@ The optimal setup involves maintaining accounts in both currencies:
 2. Thai bank account: For local expenses and withdrawals
 3. Intermediary service: For large conversions when rates are favorable
 
-Step 1: Maintain Your USD Base
+Step 1 - Maintain Your USD Base
 
 Services like Wise (formerly TransferWise) and Payoneer provide USD accounts with virtual bank details. Your clients or employer pays into these USD accounts, and you can hold balances in USD without immediate conversion.
 
@@ -84,7 +84,7 @@ while True:
 
 This script monitors exchange rates and alerts you when the baht strengthens against the dollar, meaning you get more baht for your dollars.
 
-Step 2: Choose Your Conversion Method
+Step 2 - Choose Your Conversion Method
 
 Not all conversion methods are equal. Here's a practical comparison:
 
@@ -97,7 +97,7 @@ Not all conversion methods are equal. Here's a practical comparison:
 
 For most developers, Wise offers the best balance of low fees, reliable rates, and ease of use. You can fund your Wise account with USD, then convert to THB and send to your Thai bank.
 
-Step 3: Thai Bank Account Considerations
+Step 3 - Thai Bank Account Considerations
 
 To open a Thai bank account as a foreigner, you typically need:
 
@@ -153,16 +153,16 @@ Avoiding Common Mistakes
 
 Several mistakes cost remote workers in Thailand significant money:
 
-Mistake 1: Converting everything at once
+Mistake 1 - Converting everything at once
 Converting your entire income each month at a single rate exposes you to currency fluctuations. A better approach is dollar-cost averaging, converting portions throughout the month when rates are favorable.
 
-Mistake 2: Using credit cards for cash advances
+Mistake 2 - Using credit cards for cash advances
 Never use credit card cash advances for currency conversion. Fees typically exceed 5% plus high interest rates from day one.
 
-Mistake 3: Ignoring crypto as an intermediary
+Mistake 3 - Ignoring crypto as an intermediary
 Some developers use USDT (Tether) as an intermediary. You can buy USDT with USD on Binance, transfer to a Thai exchange like Bitkub, then sell for THB. This can be cheaper than direct conversion but requires more setup and carries crypto volatility risk.
 
-Mistake 4: Keeping too much in Thai banks
+Mistake 4 - Keeping too much in Thai banks
 Thai bank accounts earn minimal interest (around 0.5% annually). Keep only what you need for expenses in THB. Keep the rest in USD where it retains value.
 
 Tax Considerations
@@ -185,23 +185,23 @@ For most developers paid in USD living in Thailand, the recommended setup is:
 
 Monitor rates weekly and set up alerts. The Thai baht is relatively stable but can swing 5-10% annually based on tourism revenue and economic conditions.
 
-The most important action: stop converting at Thai banks directly. The convenience is not worth the 3-5% loss on every transaction. Using an intermediary service like Wise can save you thousands of baht per year.
+The most important action - stop converting at Thai banks directly. The convenience is not worth the 3-5% loss on every transaction. Using an intermediary service like Wise can save you thousands of baht per year.
 
 Advanced Conversion Strategies for Tech Professionals
 
 Developers earning significant USD amounts can implement more sophisticated approaches:
 
-Strategy 1: Forward Contracts for Predictable Expenses
+Strategy 1 - Forward Contracts for Predictable Expenses
 
 If you know you'll need specific baht amounts (rent, insurance) on specific dates, some banks offer forward contracts that lock in exchange rates:
 
 - Bangkok Bank Forward: Lock rate 30-90 days ahead
-- Cost: Typically 0.5-1% premium over current rate
+- Cost - Typically 0.5-1% premium over current rate
 - Benefit: Reduces uncertainty; protects against sudden baht appreciation
 
 You know you need 200,000 THB in 60 days for rent. Forward contract at 32 THB/USD locks in your rate, protecting against the rate climbing to 33 or higher.
 
-Strategy 2: Multi-Currency Checking Accounts
+Strategy 2 - Multi-Currency Checking Accounts
 
 Some banks allow holding USD directly in Thailand without immediate conversion:
 
@@ -211,7 +211,7 @@ Some banks allow holding USD directly in Thailand without immediate conversion:
 
 Keeps your money in USD, avoiding early conversion losses while still maintaining Thai banking infrastructure.
 
-Strategy 3: Cryptocurrency as Intermediary (Advanced)
+Strategy 3 - Cryptocurrency as Intermediary (Advanced)
 
 For tech professionals comfortable with crypto, USDT-based conversions can be cheaper than Wise for amounts over $5,000:
 
@@ -221,12 +221,12 @@ For tech professionals comfortable with crypto, USDT-based conversions can be ch
 4. Transfer THB to Thai bank
 
 Cost comparison for $10,000 transfer:
-- Wise: $120-150 (1.2-1.5%)
+- Wise - $120-150 (1.2-1.5%)
 - Crypto: $30-40 (0.3-0.4%)
 
-Risks: Crypto volatility, exchange platform risk, learning curve. Only appropriate if you're already familiar with crypto and have significant amounts to transfer.
+Risks - Crypto volatility, exchange platform risk, learning curve. Only appropriate if you're already familiar with crypto and have significant amounts to transfer.
 
-Strategy 4: Timing Your Transfers Strategically
+Strategy 4 - Timing Your Transfers Strategically
 
 Exchange rates fluctuate based on:
 - US Fed interest rate announcements (Thursday releases)
@@ -245,7 +245,7 @@ Worst times:
 
 Set up price alerts on XE.com or OANDA to notify when your target rate is reached.
 
-Detailed Comparison: Every Conversion Method
+Detailed Comparison - Every Conversion Method
 
 Understanding tradeoffs helps you pick the right method for each situation:
 
@@ -293,7 +293,7 @@ Currency Risk Management
 
 Rather than converting constantly, some developers manage currency risk differently:
 
-Hedge Strategy 1: Keep Expenses in USD
+Hedge Strategy 1 - Keep Expenses in USD
 
 - Receive USD income into Wise or Payoneer
 - Use USD-denominated cards (Wise card) for expenses where possible
@@ -301,7 +301,7 @@ Hedge Strategy 1: Keep Expenses in USD
 
 This minimizes conversion frequency and exposure to rate fluctuations.
 
-Hedge Strategy 2: Geographic Diversification
+Hedge Strategy 2 - Geographic Diversification
 
 If you have flexibility, maintain accounts in multiple countries:
 - USD account (US bank or Wise)
@@ -311,7 +311,7 @@ If you have flexibility, maintain accounts in multiple countries:
 
 Convert based on which currency is strongest, using the best rates. This requires discipline but reduces single-currency risk.
 
-Hedge Strategy 3: Dollar-Cost Averaging
+Hedge Strategy 3 - Dollar-Cost Averaging
 
 Convert fixed amounts weekly or bi-weekly rather than lump-sum conversions. Smooths volatility across time.
 

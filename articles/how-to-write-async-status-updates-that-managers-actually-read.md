@@ -53,11 +53,11 @@ The SPARC Framework for Effective Async Updates
 
 Use the SPARC framework to structure every status update:
 
-- Status: What happened since the last update?
-- Progress: How does this move the project forward?
-- Assistance: What do you need from others?
-- Risks: What's blocking you or could cause delays?
-- Commitments: What will you deliver by when?
+- Status - What happened since the last update?
+- Progress - How does this move the project forward?
+- Assistance - What do you need from others?
+- Risks - What's blocking you or could cause delays?
+- Commitments - What will you deliver by when?
 
 Here's a template that applies this framework:
 
@@ -95,11 +95,11 @@ Daily Quick Update Template
 ```
 [Date] Update
 
-Completed: [Task 1], [Task 2]
-In Progress: [Task] - on track / at risk / blocked
-Blockers: [List only if something is actually blocking you]
-Today: [What you're working on now]
-Help needed: [Specific request, if any]
+Completed - [Task 1], [Task 2]
+In Progress - [Task] - on track / at risk / blocked
+Blockers - [List only if something is actually blocking you]
+Today - [What you're working on now]
+Help needed - [Specific request, if any]
 ```
 
 Examples That Work
@@ -120,7 +120,7 @@ Strong Update (Emulate)
 >
 > Help needed: @manager - can you review the Figma mockups and confirm the metrics displayed match priorities?
 
-Notice the difference: specific tasks, measurable progress, clear deadlines, and a specific ask.
+Notice the difference - specific tasks, measurable progress, clear deadlines, and a specific ask.
 
 Writing Tips That Drive Results
 
@@ -178,7 +178,7 @@ The 80/20 Rule for Status Updates
 
 Spend 80% of your update explaining the 20% of work that most impacts your manager's concerns. Identify what keeps your manager awake at night, shipping deadlines, customer escalations, technical risk, resource constraints, and lead with how you're addressing those concerns.
 
-Apply this filter: "If my manager only reads the first three sentences of this update, will they know the one thing they most need to know?" If the answer is no, restructure your opening.
+Apply this filter - "If my manager only reads the first three sentences of this update, will they know the one thing they most need to know?" If the answer is no, restructure your opening.
 
 Creating Credibility Through Precision
 
@@ -221,7 +221,7 @@ Template for Escalation Updates
 When something needs immediate attention, use this format:
 
 ```
-PRIORITY: [GREEN/YELLOW/RED]
+PRIORITY - [GREEN/YELLOW/RED]
 
 SITUATION:
 [What happened, when, measurable impact]
@@ -264,27 +264,27 @@ Status Update Red Flags Your Manager Notices
 
 Managers unconsciously evaluate status updates based on patterns. These red flags signal deeper problems:
 
-Red Flag #1: Consistent vagueness
+Red Flag #1 - Consistent vagueness
 - Pattern: "Made progress on project," "Working on feature," "Testing stuff"
 - What it signals: Either you don't understand the work, or you're hiding something
 - Manager action: Assumes you're lost and needs closer oversight
 
-Red Flag #2: All green signals with no blockers
+Red Flag #2 - All green signals with no blockers
 - Pattern: Week after week of "everything on track, no issues"
 - What it signals: You're not being honest, or not aware of problems
 - Manager action: Distrusts your assessments, adds backup plans
 
-Red Flag #3: Asking for the same help repeatedly
+Red Flag #3 - Asking for the same help repeatedly
 - Pattern: "Still waiting on X from team Y" for 3+ weeks
 - What it signals: You're passive about escalation
 - Manager action: Questions your problem-solving skills
 
-Red Flag #4: Incomplete time accounting
+Red Flag #4 - Incomplete time accounting
 - Pattern: "Spent time on [task]" without context on duration or impact
 - What it signals: Disorganized, inefficient use of time
 - Manager action: Suspects you're unproductive, may increase monitoring
 
-Red Flag #5: Reactive vs. proactive tone
+Red Flag #5 - Reactive vs. proactive tone
 - Pattern: "Had to deal with," "Got stuck on," "Had to switch to"
 - What it signals: Victim mentality, lacking initiative
 - Manager action: May not trust you with autonomy
@@ -321,22 +321,22 @@ Recovery From Bad Update Patterns
 
 If your status updates aren't landing well:
 
-Week 1: Diagnose
+Week 1 - Diagnose
 - Re-read your last 5 updates as if you were your manager
 - Write down what's vague, unclear, or concerning
 - Identify which red flags apply to you
 
-Week 2: Reset
+Week 2 - Reset
 - Send a single high-quality update using the SPARC framework
 - Make it noticeably better than previous weeks
 - Include a note: "Shifting to more detailed updates going forward"
 
-Week 3-4: Consistency
+Week 3-4 - Consistency
 - Maintain quality for 2 more weeks
 - Don't revert to old patterns
 - Build new habit
 
-Week 5+: Monitor
+Week 5+ - Monitor
 - Evaluate manager response
 - Does the tone of feedback change? (Good sign)
 - Are follow-up questions fewer and more strategic? (Good sign)
@@ -345,7 +345,7 @@ People trust new patterns after 3-4 repetitions. Give yourself that runway.
 
 Status Updates As Career Documentation
 
-One underrated value: your status updates become your performance review documentation. Managers reference them when writing reviews, discussing promotions, or preparing references.
+One underrated value - your status updates become your performance review documentation. Managers reference them when writing reviews, discussing promotions, or preparing references.
 
 This means:
 - Consistently highlight your impact, not just activity
@@ -381,7 +381,7 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 Related Articles
 
-- [Example: project-update.yml - Scheduled updates structure](/how-to-manage-client-expectations-when-team-works-asynchrono/)
+- [Example - project-update.yml - Scheduled updates structure](/how-to-manage-client-expectations-when-team-works-asynchrono/)
 - [Best Tool for Hybrid Team Async Updates When Some Use Office](/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
 - [How to Replace Daily Standups with Async Text Updates](/how-to-replace-daily-standups-with-async-text-updates-effect/)
 - [Loom vs Vimeo Record for Async Standup Updates Comparison](/loom-vs-vimeo-record-for-async-standup-updates-comparison/)

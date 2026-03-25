@@ -53,11 +53,11 @@ The Three-Point Lighting Foundation
 
 Professional video lighting uses a three-point setup: key light, fill light, and back light. Each serves a distinct purpose in creating dimension and eliminating shadows.
 
-Key Light: Your primary light source, positioned 45 degrees to one side and slightly above eye level. This creates the main illumination and defines your face. For basement offices, a ring light or LED panel works well as a key light. Position it directly in front of you, slightly above camera height, for even illumination without harsh shadows.
+Key Light - Your primary light source, positioned 45 degrees to one side and slightly above eye level. This creates the main illumination and defines your face. For basement offices, a ring light or LED panel works well as a key light. Position it directly in front of you, slightly above camera height, for even illumination without harsh shadows.
 
-Fill Light: A softer light on the opposite side, at about half the intensity of your key light. This fills in shadows created by the key light without eliminating them entirely. A desk lamp with a diffused bulb or a second LED panel set to lower intensity works effectively.
+Fill Light - A softer light on the opposite side, at about half the intensity of your key light. This fills in shadows created by the key light without eliminating them entirely. A desk lamp with a diffused bulb or a second LED panel set to lower intensity works effectively.
 
-Back Light: Positioned behind you, this separates you from the background and adds depth. It prevents you from blending into whatever is behind you, which in a basement might be a wall or shelving unit.
+Back Light - Positioned behind you, this separates you from the background and adds depth. It prevents you from blending into whatever is behind you, which in a basement might be a wall or shelving unit.
 
 For a minimal basement setup, you can achieve good results with just two lights: a key light in front and a back light behind. The fill light is optional but improves quality.
 
@@ -65,18 +65,18 @@ Budget-Friendly Equipment Options
 
 You don't need expensive equipment to achieve solid results. Here's what works for different budgets:
 
-Under $50: Desk Lamp Solution
+Under $50 - Desk Lamp Solution
 A simple desk lamp with a daylight bulb (6500K) positioned to your side provides adequate key lighting. Add a white poster board on the opposite side to bounce light back as a makeshift fill.
 
 ```bash
-Quick test: point your phone camera at yourself
+Quick test - point your phone camera at yourself
 If you see dark shadows under eyes, move light closer or add fill
 ```
 
-Under $150: LED Panel Setup
+Under $150 - LED Panel Setup
 Two LED panels (one key, one fill) in the 5000K range provide professional-quality lighting. Look for panels with adjustable brightness and color temperature. Brands like Neewer and Elgato offer reliable options in this price bracket.
 
-Under $300: Complete Professional Setup
+Under $300 - Complete Professional Setup
 A dedicated video light like the Elgato Key Light Air or Lume Cube with a diffused front creates soft, professional illumination. Add a back light for separation, and you have a broadcast-quality setup.
 
 Smart Lighting Automation
@@ -212,7 +212,7 @@ This automation adjusts from cooler (more energetic) light in the afternoon to w
 
 Final Recommendations
 
-Start simple: a single quality LED panel or ring light positioned correctly solves 80% of basement lighting problems. Add a second light for fill when your budget allows. Integrate with your video conferencing tools if you want automatic scene changes.
+Start simple - a single quality LED panel or ring light positioned correctly solves 80% of basement lighting problems. Add a second light for fill when your budget allows. Integrate with your video conferencing tools if you want automatic scene changes.
 
 The best lighting setup is one you actually use. Complex automation is worthless if it sits unused. Begin with a basic two-light setup, test it during real calls, then add automation layers as needed.
 
@@ -228,7 +228,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -240,7 +240,7 @@ AI tools evolve rapidly, with major updates every few months. Feature comparison
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

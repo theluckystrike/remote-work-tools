@@ -30,22 +30,22 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Trust Is Earned in Small Deposits
+Step 1 - Trust Is Earned in Small Deposits
 
 In remote settings, trust accumulates through small, consistent actions rather than grand gestures. Every pull request review, every status update, every meeting attendance builds or erodes your trust account. Understanding this dynamic helps you make better decisions about how you communicate and deliver work.
 
 The core principle is reliability: do what you say you will do, when you say you will do it. When this pattern breaks, the trust repair process is slow and difficult. Prevention through realistic commitments is far more effective than recovery through apologies.
 
-Step 2: Communication Patterns That Build Trust
+Step 2 - Communication Patterns That Build Trust
 
 Over-Communicate Context
 
 In office settings, context is shared through casual conversations and ambient awareness. Remote teams must deliberately transmit this context. When making decisions, share not just the decision but the reasoning behind it.
 
 ```markdown
-Step 3: Decision: Migrate Database to PostgreSQL
+Step 3 - Decision: Migrate Database to PostgreSQL
 
-Decision: We will migrate from MySQL to PostgreSQL over the next quarter.
+Decision - We will migrate from MySQL to PostgreSQL over the next quarter.
 
 Why:
 - Better JSON support reduces our need for separate document storage
@@ -66,7 +66,7 @@ Timeline:
 - Week 3: Data migration (with rollback plan)
 - Week 4: Cutover and monitoring
 
-Owner: @sarah
+Owner - @sarah
 ```
 
 This level of documentation might seem excessive, but it demonstrates respect for your team's intelligence and enables true async collaboration. Team members can understand and potentially contribute to decisions without requiring synchronous discussion.
@@ -95,18 +95,18 @@ A short video works well for:
 
 Tools like Loom or Vidyard integrate with common workflows. The key is keeping videos short, under three minutes when possible, and providing a written summary for accessibility and searchability.
 
-Step 4: Transparency Practices for Technical Teams
+Step 4 - Transparency Practices for Technical Teams
 
 Share Work Openly and Early
 
 The instinct to polish work before sharing it is counterproductive in remote teams. Early visibility enables course correction before investment becomes sunk cost, and it demonstrates your commitment to collaboration.
 
-A simple practice: share incomplete work with explicit status markers.
+A simple practice - share incomplete work with explicit status markers.
 
 ```markdown
-Step 5: WIP: API Rate Limiting Implementation
+Step 5 - WIP: API Rate Limiting Implementation
 
-Status: In progress (60% complete)
+Status - In progress (60% complete)
 
 What works:
 - Token bucket algorithm implemented
@@ -121,7 +121,7 @@ Next steps:
 - Integration tests
 - Load testing
 
-Preview: http://staging-api.example.com/docs
+Preview - http://staging-api.example.com/docs
 ```
 
 This transparency accomplishes several trust-building goals: it shows you're making progress, invites help with blockers, and gives stakeholders visibility into timelines.
@@ -136,22 +136,22 @@ When team members can find information independently, they feel enabled rather t
 - Design documents with explicit review periods
 
 ```markdown
-ADR-003: Use Event Sourcing for User Activity Tracking
+ADR-003 - Use Event Sourcing for User Activity Tracking
 
-Step 6: Status
+Step 6 - Status
 Accepted
 
-Step 7: Context
+Step 7 - Context
 We need to track user activity for analytics, audit trails, and personalization features.
 Traditional relational approaches have served us well, but the analytics team
 needs flexible querying and the audit team needs complete change history.
 
-Step 8: Decision
+Step 8 - Decision
 We will implement event sourcing for user activity tracking, storing each
 activity as an immutable event in Kafka, with projections to both PostgreSQL
 (for real-time queries) and Elasticsearch (for analytics).
 
-Step 9: Consequences
+Step 9 - Consequences
 Positive
 - Complete audit trail without additional tables
 - Easy to add new analytics views without schema changes
@@ -170,17 +170,17 @@ Mitigation
 
 This pattern creates institutional memory and demonstrates that decisions were made thoughtfully, reducing second-guessing and building confidence in team competence.
 
-Step 10: Reliability Systems
+Step 10 - Reliability Systems
 
 Commit to Explicit Agreements
 
 Vague commitments destroy trust through repeated small disappointments. Train your team to make specific, measurable commitments:
 
-Instead of: "I'll work on the API this week."
-Say: "I'll have the user endpoint ready for review by Wednesday EOD."
+Instead of - "I'll work on the API this week."
+Say - "I'll have the user endpoint ready for review by Wednesday EOD."
 
-Instead of: "I'll look into the bug."
-Say: "I'll diagnose the root cause and update the issue with findings by tomorrow."
+Instead of - "I'll look into the bug."
+Say - "I'll diagnose the root cause and update the issue with findings by tomorrow."
 
 This precision feels uncomfortable at first but dramatically improves team coordination. When circumstances change and commitments can't be met, communicate early and propose alternatives.
 
@@ -195,7 +195,7 @@ Trust grows when people see their feedback is valued and acted upon. Establish r
 
 The key is demonstrating that feedback leads to action. Track feedback and report back on what changed as a result.
 
-Step 11: Build Personal Connection
+Step 11 - Build Personal Connection
 
 Trust operates at both professional and personal levels. Remote teams often excel professionally while struggling personally, which limits the depth of collaboration possible.
 
@@ -205,9 +205,9 @@ Invest in casual interaction through:
 - Virtual co-working sessions where people work on personal projects together
 - Personal updates at the start of meetings
 
-One effective practice: start each team meeting with a brief round-robin where each person shares one non-work update. Keep it to 30 seconds. Over time, these small shares build genuine connection.
+One effective practice - start each team meeting with a brief round-robin where each person shares one non-work update. Keep it to 30 seconds. Over time, these small shares build genuine connection.
 
-Step 12: Tools That Support Trust-Building
+Step 12 - Tools That Support Trust-Building
 
 While trust is fundamentally about behavior rather than tools, certain tools help trust-building practices:
 

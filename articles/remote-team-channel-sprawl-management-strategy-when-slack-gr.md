@@ -162,13 +162,13 @@ Using Slack's Built-in Features
 
 Slack provides organizational features that reduce manual work:
 
-Channel Browser: Use this regularly to search and filter channels by member count, creation date, and activity.
+Channel Browser - Use this regularly to search and filter channels by member count, creation date, and activity.
 
-Slack Connect: For external collaborations, use shared channels instead of creating separate workspaces.
+Slack Connect - For external collaborations, use shared channels instead of creating separate workspaces.
 
-Directory & Segmentation: Organize channels using Slack's built-in directory features so users can browse by category.
+Directory & Segmentation - Organize channels using Slack's built-in directory features so users can browse by category.
 
-Retention Policies: Set workspace-level and channel-level retention to auto-delete old messages, reducing clutter.
+Retention Policies - Set workspace-level and channel-level retention to auto-delete old messages, reducing clutter.
 
 Practical Cleanup Workflow
 
@@ -214,7 +214,7 @@ Public channel sprawl is visible and manageable. Private channel sprawl is harde
 
 Private channels tend to grow for two reasons: people create them to discuss sensitive topics (HR, performance, compensation), and people create them out of habit when a public channel would serve equally well.
 
-Establish a policy: private channels are for genuinely confidential topics only. Define the list explicitly in your governance documentation. Common valid reasons include HR discussions, executive strategy, legal matters, and security incident response. Everything else should default to public.
+Establish a policy - private channels are for genuinely confidential topics only. Define the list explicitly in your governance documentation. Common valid reasons include HR discussions, executive strategy, legal matters, and security incident response. Everything else should default to public.
 
 For admins who need to audit private channel count without reading content, Slack's admin API returns channel metadata including member count and creation date for private channels, even if the admin is not a member:
 
@@ -323,17 +323,17 @@ Slack Organization Models for Large Teams
 
 As your organization grows past 200 channels, consider these structural alternatives:
 
-Model 1: Monolithic Workspace (Recommended to 300 channels)
+Model 1 - Monolithic Workspace (Recommended to 300 channels)
 
 Keep everything in one Slack workspace with strict governance. Use the automation above to maintain order.
 
-Model 2: Department-Based Workspaces
+Model 2 - Department-Based Workspaces
 
 Split into separate workspaces per major department (Engineering, Sales, Operations, Product). Each maintains their own channel hygiene. Use Slack Connect (shared channels) for cross-functional work.
 
-Tradeoff: Adds complexity but prevents any single workspace from exceeding 150 channels.
+Tradeoff - Adds complexity but prevents any single workspace from exceeding 150 channels.
 
-Model 3: Time-Zone Workspaces
+Model 3 - Time-Zone Workspaces
 
 Create separate Slack workspaces per major geographic region (US, Europe, APAC). Company-wide announcements flow through shared channels. This is rarely necessary but works for organizations with deep geographic distribution.
 

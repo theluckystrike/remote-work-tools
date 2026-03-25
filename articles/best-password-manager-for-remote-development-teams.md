@@ -80,7 +80,7 @@ op inject -f .env.example -o .env
 
 This approach keeps secrets out of your repository while maintaining developer convenience.
 
-Bitwarden: Open Source and Self-Hostable
+Bitwarden - Open Source and Self-Hostable
 
 Bitwarden offers an open-source alternative that appeals to teams with specific privacy requirements or those wanting to self-host their password infrastructure. The browser extension and desktop app provide solid core functionality, while the command-line interface enables developer workflows.
 
@@ -135,7 +135,7 @@ bw update collection_member --organizationId YOUR_ORG_ID \
 
 The paid teams plan includes audit logs and advanced access controls suitable for remote development environments.
 
-HashiCorp Vault: Infrastructure-Level Security
+HashiCorp Vault - Infrastructure-Level Security
 
 For teams with significant infrastructure needs, HashiCorp Vault provides enterprise-grade secret management. While steeper to set up than consumer-focused password managers, it offers capabilities that align with complex development workflows.
 

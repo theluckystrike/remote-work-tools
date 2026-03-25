@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Physical Backdrops: The Simplest Solution
+Step 1 - Physical Backdrops: The Simplest Solution
 
 The most reliable way to hide room clutter is to block it from the camera's view entirely. Physical backdrops work in any lighting condition and require zero computational resources. Unlike virtual backgrounds that require processing power and can glitch mid-call, physical solutions are foolproof.
 
@@ -84,7 +84,7 @@ $200+:    Permanent painted accent wall or wallpaper
 
 The motorized system is excellent for flexibility, pull down the backdrop when you need it, roll it up when you don't. This preserves wall space when you're not on camera.
 
-Step 2: Lighting Techniques to Minimize Visible Clutter
+Step 2 - Lighting Techniques to Minimize Visible Clutter
 
 Strategic lighting does more than just improve video quality, it can actively hide mess by drawing attention away from cluttered areas.
 
@@ -92,7 +92,7 @@ Three-Point Lighting Basics
 
 Position a key light in front of and slightly above your face. This becomes the primary light source and creates the main illumination for your video. Place a fill light on the opposite side at lower intensity to soften shadows. Add a backlight behind you to separate your silhouette from the background.
 
-The key insight for hiding mess: make your background significantly darker than your face. Viewers naturally look toward the brightest area of the frame.
+The key insight for hiding mess - make your background significantly darker than your face. Viewers naturally look toward the brightest area of the frame.
 
 ```python
 Python script to estimate optimal light ratios
@@ -105,7 +105,7 @@ def calculate_light_ratio(key_lux, fill_lux, ambient_lux):
     ratio = total_foreground / max(ambient_lux, 1)
     return ratio
 
-Recommended: foreground should be 2-3x brighter than background
+Recommended - foreground should be 2-3x brighter than background
 recommended_ratio = calculate_light_ratio(800, 400, 200)
 print(f"Recommended light ratio: {recommended_ratio:.1f}:1")
 ```
@@ -116,7 +116,7 @@ For developers working with minimal desk space, a desk-mounted LED panel provide
 
 Place inexpensive LED strip lights on your desk's rear edge, facing the wall. This creates subtle uplighting that brightens the immediate background while keeping your face as the focal point.
 
-Step 3: Camera Angle and Field of View Optimization
+Step 3 - Camera Angle and Field of View Optimization
 
 Your camera angle determines how much of your room appears in frame. Adjusting this is often the quickest fix for hiding clutter.
 
@@ -149,7 +149,7 @@ calculate_camera_distance() {
 calculate_camera_distance
 ```
 
-Step 4: OBS Virtual Camera: Advanced Background Control
+Step 4 - OBS Virtual Camera: Advanced Background Control
 
 For users comfortable with slightly more setup, OBS (Open Broadcaster Software) provides powerful background handling without AI-dependent virtual backgrounds.
 
@@ -177,7 +177,7 @@ Combining Physical and Digital Approaches
 
 The most effective solution combines multiple techniques. Use a physical backdrop for the outer frame, position lighting to minimize background visibility, and apply light OBS blur for the final polish. This layered approach provides redundancy, if one element fails, others compensate.
 
-Step 5: Quick Solutions for Last-Minute Calls
+Step 5 - Quick Solutions for Last-Minute Calls
 
 When you need to hide mess immediately without preparation:
 
@@ -187,7 +187,7 @@ When you need to hide mess immediately without preparation:
 - Use background blur built into Zoom, Google Meet, or Teams, this uses simpler processing than full virtual backgrounds and often works better with less reliable results
 - Move one item into the camera's blind spot, often one repositioned object dramatically improves the frame
 
-Step 6: Workspace Design for Always-On Video
+Step 6 - Workspace Design for Always-On Video
 
 As video calls become more frequent, design your workspace with always-visible backgrounds in mind.
 
@@ -202,8 +202,8 @@ Setup (60-90 minutes of work):
 4. Position a desk lamp to light your face without creating harsh shadows
 5. Test the framing with your camera and adjust until the background is professional
 
-Cost: $30-50 for fabric and basic setup
-Benefit: One-time setup that works for all future calls
+Cost - $30-50 for fabric and basic setup
+Benefit - One-time setup that works for all future calls
 
 ```
 Example corner setup:
@@ -226,7 +226,7 @@ Visible clutter on your desk ruins even the best backdrop. Implement desk organi
 
 A clear desk requires 5-10 minutes of daily tidying but transforms your on-camera presence.
 
-Step 7: Platform-Specific Recommendations
+Step 7 - Platform-Specific Recommendations
 
 Different video platforms handle backgrounds differently. Optimize for your platform:
 
@@ -250,7 +250,7 @@ Google Meet's blur feature is simple but effective for quick hides:
 3. Select "Blur" under background
 4. Adjust blur strength (higher = less room visible)
 
-Trade-off: Heavy blur looks artificial but requires no setup. Light blur preserves some detail while hiding obvious mess.
+Trade-off - Heavy blur looks artificial but requires no setup. Light blur preserves some detail while hiding obvious mess.
 
 Microsoft Teams Background
 
@@ -263,7 +263,7 @@ Teams offers both blur and image backgrounds:
 
 Teams' implementation is reliable, making it a good platform for custom backgrounds.
 
-Step 8: Emergency Solutions When You're Already on Camera
+Step 8 - Emergency Solutions When You're Already on Camera
 
 Sometimes you realize mid-call that your background is terrible. Quick fixes:
 
@@ -275,7 +275,7 @@ Sometimes you realize mid-call that your background is terrible. Quick fixes:
 
 The best solution remains forward planning, set up your corner before you need it, so last-minute video calls don't trigger panic.
 
-Step 9: Test Your Background Setup
+Step 9 - Test Your Background Setup
 
 Before relying on your background for important calls, validate that it works:
 

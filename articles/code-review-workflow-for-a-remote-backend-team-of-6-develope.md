@@ -18,7 +18,7 @@ Implement a rotation-based review assignment system to prevent bottlenecks, spli
 
 Table of Contents
 
-- [The Foundation: Review Cadence and Assignment](#the-foundation-review-cadence-and-assignment)
+- [The Foundation - Review Cadence and Assignment](#the-foundation-review-cadence-and-assignment)
 - [Time Zone Coordination](#time-zone-coordination)
 - [PR Description Template](#pr-description-template)
 - [What Changed](#what-changed)
@@ -44,7 +44,7 @@ Table of Contents
 - [Measuring Success and Iteration](#measuring-success-and-iteration)
 - [Building Review Culture](#building-review-culture)
 
-The Foundation: Review Cadence and Assignment
+The Foundation - Review Cadence and Assignment
 
 With a team of six developers working remotely, you need structured guidelines for who reviews what and when. A simple rotation system prevents bottlenecks and ensures everyone stays familiar with different parts of your codebase.
 
@@ -100,7 +100,7 @@ Review Checklist for Backend Code
 
 Every reviewer should verify these items systematically:
 
-1. Correctness: Does the code do what it claims? Are edge cases handled?
+1. Correctness - Does the code do what it claims? Are edge cases handled?
 2. Security: No exposed secrets, proper input validation, parameterized queries
 3. Performance: N+1 queries avoided, appropriate indexing, caching where beneficial
 4. Error handling: Graceful failures, meaningful error messages, proper logging
@@ -144,7 +144,7 @@ jobs:
       - uses: github/codeql-action/analyze@v2
 ```
 
-Automate: linting, unit tests, security scanning, and required checklist verification. This frees reviewers to focus on logic and architecture rather than style violations.
+Automate - linting, unit tests, security scanning, and required checklist verification. This frees reviewers to focus on logic and architecture rather than style violations.
 
 Metrics That Matter
 
@@ -184,7 +184,7 @@ Platform Comparison
 |----------|----------|----------------|------|
 | GitHub | Smaller teams, open source | Low | Free-$231/month |
 | GitLab | Self-hosted requirements, CI focus | Medium | Free-$99/user/month |
-| Bitbucket | Atlassian ecosystem teams | Medium | Free-$6/user/month |
+| Bitbucket | Atlassian environment teams | Medium | Free-$6/user/month |
 | Gitea | Minimal infrastructure overhead | Medium | Free |
 
 For most 6-person backend teams, GitHub remains the standard choice due to:
@@ -193,7 +193,7 @@ For most 6-person backend teams, GitHub remains the standard choice due to:
 - Strong community and documentation
 - Reasonable pricing (Teams plan $231/month covers unlimited private repos)
 
-Code Review Tool Ecosystem (GitHub-specific)
+Code Review Tool environment (GitHub-specific)
 
 Beyond the base platform, consider these tools:
 
@@ -211,7 +211,7 @@ For a bootstrapped team, start with free tools only:
 - GitHub code scanning (free)
 - GitHub Actions for CI (free for private repos)
 
-Total cost: $0 initially
+Total cost - $0 initially
 
 Scaling Review Workflow to 6+ Developers
 
@@ -219,7 +219,7 @@ Team Structure Optimization
 For exactly 6 developers, organize reviews like this:
 
 ```
-Core teams: 3 people per backend subsystem
+Core teams - 3 people per backend subsystem
  API Layer (3 devs)
     REST endpoints
     GraphQL resolvers
@@ -332,10 +332,10 @@ Checklist
 
 Performance Bottlenecks and Solutions
 
-Problem: One Person Bottlenecks Reviews
-Symptom: PRs blocked waiting for senior reviewer
+Problem - One Person Bottlenecks Reviews
+Symptom - PRs blocked waiting for senior reviewer
 
-Solution: Distribute review load by domain
+Solution - Distribute review load by domain
 ```yaml
 Code ownership:
   - docs/*: anyone
@@ -354,10 +354,10 @@ Use GitHub CODEOWNERS file:
 /src/cache/ @eve @frank
 ```
 
-Problem: Too Many Review Rounds
-Symptom: PR has 5+ rounds of comments
+Problem - Too Many Review Rounds
+Symptom - PR has 5+ rounds of comments
 
-Root cause: Unclear requirements, bad PR description, or nitpicky reviews
+Root cause - Unclear requirements, bad PR description, or nitpicky reviews
 
 Solution:
 1. Enforce detailed PR descriptions upfront
@@ -366,10 +366,10 @@ Solution:
  - Comment: Nice-to-have improvement
 3. Approve with minor suggestions rather than blocking
 
-Problem: PRs Merging with Known Issues
-Symptom: "We'll fix it later" becomes a pattern
+Problem - PRs Merging with Known Issues
+Symptom - "We'll fix it later" becomes a pattern
 
-Solution: Establish approval criteria
+Solution - Establish approval criteria
 ```
 Approval means:
 1. Tests pass
@@ -385,20 +385,20 @@ NOT approved if:
 
 Measuring Success and Iteration
 
-Month 1: Baseline
+Month 1 - Baseline
 Establish current state:
 - Average PR size (lines changed)
 - Average time to merge
 - Average review rounds
 - Reviewer satisfaction
 
-Month 2: Targeted Improvements
+Month 2 - Targeted Improvements
 Pick ONE bottleneck from analysis:
 - If slow merges: Improve PR templates
 - If many rounds: Clarify approval criteria
 - If uneven load: Implement CODEOWNERS
 
-Month 3+: Continuous Optimization
+Month 3+ - Continuous Optimization
 - Review metrics monthly
 - Retrospective on process quarterly
 - Celebrate when metrics improve
@@ -424,11 +424,11 @@ Start with these patterns, measure their impact, and refine based on your specif
 
 90-Day Implementation Plan
 ```
-Week 1-2: Document current state, establish baseline metrics
-Week 3-4: Implement PR template, GitHub CODEOWNERS
-Week 5-8: Run sprint with new process, gather feedback
-Week 9-10: Adjust based on feedback, measure improvements
-Week 11-12: Celebrate wins, plan next iteration
+Week 1-2 - Document current state, establish baseline metrics
+Week 3-4 - Implement PR template, GitHub CODEOWNERS
+Week 5-8 - Run sprint with new process, gather feedback
+Week 9-10 - Adjust based on feedback, measure improvements
+Week 11-12 - Celebrate wins, plan next iteration
 ```
 
 Most teams report 30-40% improvement in code review throughput within 8 weeks of implementing structured review practices.

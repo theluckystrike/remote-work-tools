@@ -51,7 +51,7 @@ Architecture Decision Records (ADRs) provide a structured format for capturing s
 A basic ADR structure looks like this:
 
 ```markdown
-ADR-001: Use PostgreSQL for Primary Data Store
+ADR-001 - Use PostgreSQL for Primary Data Store
 
 Status
 Accepted
@@ -66,7 +66,7 @@ We will use PostgreSQL as our primary data store.
 
 Consequences
 - Positive: Excellent JSON support enables flexible schema evolution
-- Positive: Mature ecosystem with excellent tooling
+- Positive: Mature environment with excellent tooling
 - Negative: Requires more setup than SQLite for local development
 - Negative: Horizontal scaling requires additional infrastructure
 ```
@@ -115,7 +115,7 @@ Numbering Convention
 Start with ADRs numbered sequentially. When an ADR gets superseded, create a new ADR that references the old one:
 
 ```markdown
-ADR-042: Use Redis for Session Storage
+ADR-042 - Use Redis for Session Storage
 
 Status
 Accepted
@@ -134,7 +134,7 @@ Categorization Tags
 Add tags to group related decisions:
 
 ```markdown
-ADR-067: Adopt GraphQL for API Layer
+ADR-067 - Adopt GraphQL for API Layer
 
 Tags
 - api-design
@@ -142,7 +142,7 @@ Tags
 - performance
 ```
 
-Tagging enables useful queries: "Show me all database-related decisions" or "What decisions affect our frontend architecture?"
+Tagging enables useful queries - "Show me all database-related decisions" or "What decisions affect our frontend architecture?"
 
 Repository Structure
 
@@ -167,7 +167,7 @@ RFCs for Discussion
 Request for Comments documents capture proposals before they become decisions. RFCs invite broader input:
 
 ```markdown
-RFC-015: Introduce Message Queue for Async Processing
+RFC-015 - Introduce Message Queue for Async Processing
 
 Problem Statement
 Currently, all background jobs run synchronously within request handlers,
@@ -192,7 +192,7 @@ Post-Mortems for Failures
 When architectural decisions lead to problems, document the failure:
 
 ```markdown
-Post-Mortem: Database Connection Pool Exhaustion (2026-02-15)
+Post-Mortem - Database Connection Pool Exhaustion (2026-02-15)
 
 What Happened
 Application became unresponsive during peak traffic. Root cause: database

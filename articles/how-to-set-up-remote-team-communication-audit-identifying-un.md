@@ -16,21 +16,21 @@ voice-checked: true
 
 {% raw %}
 
-Conduct a remote team communication audit by mapping current communication ecosystem, categorizing meetings and channels, calculating true costs, implementing targeted changes, and establishing persistent norms, recovering hours per week while ensuring intentional rather than habitual tool usage. Audits reveal that typical teams waste 6+ hours weekly on unnecessary meetings and maintain unused channels that create notification fatigue.
+Conduct a remote team communication audit by mapping current communication environment, categorizing meetings and channels, calculating true costs, implementing targeted changes, and establishing persistent norms, recovering hours per week while ensuring intentional rather than habitual tool usage. Audits reveal that typical teams waste 6+ hours weekly on unnecessary meetings and maintain unused channels that create notification fatigue.
 
 Table of Contents
 
 - [Why Your Remote Team Needs a Communication Audit](#why-your-remote-team-needs-a-communication-audit)
-- [Step 1: Map Your Current Communication ecosystem](#step-1-map-your-current-communication-ecosystem)
-- [Step 2: Categorize and Evaluate](#step-2-categorize-and-evaluate)
-- [Step 3: Calculate the Cost](#step-3-calculate-the-cost)
-- [Step 4: Implement Changes](#step-4-implement-changes)
-- [Step 5: Establish Communication Norms](#step-5-establish-communication-norms)
-- [Practical Example: The 25-Person Engineering Team](#practical-example-the-25-person-engineering-team)
+- [Step 1 - Map Your Current Communication environment](#step-1-map-your-current-communication-environment)
+- [Step 2 - Categorize and Evaluate](#step-2-categorize-and-evaluate)
+- [Step 3 - Calculate the Cost](#step-3-calculate-the-cost)
+- [Step 4 - Implement Changes](#step-4-implement-changes)
+- [Step 5 - Establish Communication Norms](#step-5-establish-communication-norms)
+- [Practical Example - The 25-Person Engineering Team](#practical-example-the-25-person-engineering-team)
 - [Tools That Help](#tools-that-help)
 - [Moving Forward](#moving-forward)
 
-Remote teams often accumulate communication debt over time. What starts as a handful of Slack channels and weekly syncs grows into a sprawling communication ecosystem where nobody knows why certain meetings exist or which channels actually drive value. A structured communication audit helps you reclaim focus time, reduce notification overload, and ensure your team's communication tools serve their actual needs.
+Remote teams often accumulate communication debt over time. What starts as a handful of Slack channels and weekly syncs grows into a sprawling communication environment where nobody knows why certain meetings exist or which channels actually drive value. A structured communication audit helps you reclaim focus time, reduce notification overload, and ensure your team's communication tools serve their actual needs.
 
 This guide provides a practical framework for auditing remote team communication, with scripts and methodologies you can apply immediately.
 
@@ -40,7 +40,7 @@ Most remote teams fall into communication patterns without intentional design. N
 
 A communication audit forces you to answer uncomfortable questions: Which meetings actually require synchronous participation? Which channels have gone silent? Where is information getting lost because it's scattered across too many tools?
 
-Step 1: Map Your Current Communication ecosystem
+Step 1 - Map Your Current Communication environment
 
 Before you can optimize, you need visibility. Gather data across all your communication tools.
 
@@ -115,7 +115,7 @@ def analyze_meetings(calendar_export):
 
 The goal is to see how many hours per week your team spends in meetings and identify recurring meetings that could be async.
 
-Step 2: Categorize and Evaluate
+Step 2 - Categorize and Evaluate
 
 Once you have data, categorize each meeting and channel by its purpose and value.
 
@@ -129,7 +129,7 @@ Create a simple classification for your meetings:
 4. Status - Progress updates that could be async
 5. Social - Team building, optional connection time
 
-For each recurring meeting, ask: Could this information be communicated asynchronously? If yes, mark it as a candidate for elimination or conversion.
+For each recurring meeting, ask - Could this information be communicated asynchronously? If yes, mark it as a candidate for elimination or conversion.
 
 Channel Categories
 
@@ -141,7 +141,7 @@ Apply similar logic to your communication channels:
 - Social: Non-work conversation
 - Archive-candidates: No messages in 30+ days
 
-Step 3: Calculate the Cost
+Step 3 - Calculate the Cost
 
 Now comes the uncomfortable part, translating time into money.
 
@@ -159,7 +159,7 @@ def calculate_meeting_cost(meetings, hourly_rate=100):
 
 A team of 10 people with an average of $100/hour, spending 10 hours per week in meetings, burns $480,000 annually on synchronous communication. Even small optimizations, eliminating one unnecessary recurring meeting, represent significant savings.
 
-Step 4: Implement Changes
+Step 4 - Implement Changes
 
 With data in hand, you can now make informed decisions.
 
@@ -207,7 +207,7 @@ for CHANNEL in $CHANNELS; do
 done
 ```
 
-Step 5: Establish Communication Norms
+Step 5 - Establish Communication Norms
 
 The audit is only valuable if results persist. Establish communication norms:
 
@@ -216,7 +216,7 @@ The audit is only valuable if results persist. Establish communication norms:
 - Meeting budgets: Limit total meeting hours per person per week
 - No-meeting days: Consider blocking focus time without meetings
 
-Practical Example: The 25-Person Engineering Team
+Practical Example - The 25-Person Engineering Team
 
 A mid-sized remote engineering team conducted their audit and found:
 

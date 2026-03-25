@@ -26,7 +26,7 @@ Table of Contents
 - [Introduction (30 seconds)](#introduction-30-seconds)
 - [Main Demonstration (2-4 minutes)](#main-demonstration-2-4-minutes)
 - [Client-Facing Summary (30 seconds)](#client-facing-summary-30-seconds)
-- [Practical Example: Presenting a Bug Fix](#practical-example-presenting-a-bug-fix)
+- [Practical Example - Presenting a Bug Fix](#practical-example-presenting-a-bug-fix)
 - [Tools Comparison at a Glance](#tools-comparison-at-a-glance)
 - [Best Practices for Client Communication](#best-practices-for-client-communication)
 - [Automating Documentation with Video Links](#automating-documentation-with-video-links)
@@ -94,7 +94,7 @@ For web projects, recording directly in the browser sometimes works better than 
 
 Creating Effective Code Walkthroughs
 
-Step 1: Prepare Your Environment
+Step 1 - Prepare Your Environment
 
 Before recording, set up your screen for clarity:
 
@@ -103,7 +103,7 @@ Before recording, set up your screen for clarity:
 3. Prepare the starting point: Open the relevant files or PR
 4. Test audio levels: Ensure your voice records clearly
 
-Step 2: Structure Your Presentation
+Step 2 - Structure Your Presentation
 
 Organize your walkaround with a clear beginning, middle, and end:
 
@@ -122,7 +122,7 @@ Client-Facing Summary (30 seconds)
 - Confirm what this means for their project
 ```
 
-Step 3: Add Annotations During Recording
+Step 3 - Add Annotations During Recording
 
 Most screen recording tools let you draw or highlight during recording. Use these features to:
 
@@ -130,7 +130,7 @@ Most screen recording tools let you draw or highlight during recording. Use thes
 - Draw arrows connecting related elements
 - Type temporary labels for clarification
 
-Step 4: Edit for Clarity
+Step 4 - Edit for Clarity
 
 After recording, trim unnecessary sections:
 
@@ -138,7 +138,7 @@ After recording, trim unnecessary sections:
 - Cut retakes or mistakes
 - Add text overlays for important terms
 
-Practical Example: Presenting a Bug Fix
+Practical Example - Presenting a Bug Fix
 
 Imagine you fixed a login issue for a client. Here's how to present it effectively:
 
@@ -186,7 +186,7 @@ Store your walkthroughs alongside your code changes for future reference. In you
 
 ```markdown
 Video Explanation
-[Loom: Password reset fix walkthrough](https://loom.com/share/your-video-id)
+[Loom - Password reset fix walkthrough](https://loom.com/share/your-video-id)
 
 Changes Made
 - Updated authentication timeout in config/auth.php
@@ -222,17 +222,17 @@ System Preferences → Displays → More Space
 Select highest resolution while keeping text readable
 
 2. Increase font size in IDE
-VS Code: Editor: Font Size → 16-18pt recommended
-IntelliJ: Preferences → Appearance & Behavior → Font → Size 16+
-Vim: set guifont=Monaco:h18
+VS Code - Editor: Font Size → 16-18pt recommended
+IntelliJ - Preferences → Appearance & Behavior → Font → Size 16+
+Vim - set guifont=Monaco:h18
 
 3. Hide distracting UI elements
-VS Code: Toggle sidebar with Cmd+B
-Terminal: Hide menu bar (defaults write com.apple.universalaccess NSRequiresAquaSystemAppearance -bool no)
+VS Code - Toggle sidebar with Cmd+B
+Terminal - Hide menu bar (defaults write com.apple.universalaccess NSRequiresAquaSystemAppearance -bool no)
 
 4. Enable focus mode if available
 macOS: Focus → Do Not Disturb (enable)
-Disable notifications: System Preferences → Notifications → Do Not Disturb
+Disable notifications - System Preferences → Notifications → Do Not Disturb
 
 5. Test audio levels
 Use built-in mic test or external USB microphone
@@ -308,7 +308,7 @@ VIDEO WALKTHROUGH SCRIPT
 Generated from {self.start_sha}..{self.end_sha}
 
 INTRO (30 seconds)
-Start with: "This video explains the changes we made to {', '.join(files[:2])}"
+Start with - "This video explains the changes we made to {', '.join(files[:2])}"
 
 Point to make:
 - What was the original issue?
@@ -336,7 +336,7 @@ Translate to business impact:
 - "The fix is live and monitoring shows [Z]"
 
 CLOSING
-Offer follow-up: "Let me know if you have any questions about these changes"
+Offer follow-up - "Let me know if you have any questions about these changes"
 """
         return script
 
@@ -425,7 +425,7 @@ For teams that prefer interactive documentation over video, embed runnable code 
         <h3>Step 1: The Problem</h3>
         <p>Users were experiencing timeouts after 30 seconds when resetting passwords.</p>
         <div class="client-impact">
-            Impact: 15% of password reset attempts failed, frustrating users.
+            Impact - 15% of password reset attempts failed, frustrating users.
         </div>
     </div>
 
@@ -567,7 +567,7 @@ library.catalog_video(
     }
 )
 
-Later: Find the video by ticket
+Later - Find the video by ticket
 results = library.search_videos(ticket_id='PROJ-1247')
 for result in results:
     print(f"{result['title']} ({result['duration_seconds']}s)")

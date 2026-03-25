@@ -18,7 +18,7 @@ voice-checked: true
 
 Working as a solo remote technical writer means you juggle multiple documentation projects without a team to lean on. Your workflow directly impacts how much you accomplish and how well you maintain work-life boundaries when your home is also your office. This guide walks through a practical daily structure that scales with your workload and keeps momentum steady across weeks and months.
 
-Morning: Context Switching and Priority Setting
+Morning - Context Switching and Priority Setting
 
 Start your day with a 15-minute planning session before opening any documentation tool. Check your task tracker, review any feedback from stakeholders, and identify your top three priorities for the day. This prevents the common trap of reacting to whatever lands in your inbox first.
 
@@ -45,7 +45,7 @@ This approach keeps you in your text editor and avoids context switching to a se
 
 The morning planning session has an additional benefit: it forces you to acknowledge what's actually in motion. Solo writers often carry invisible mental overhead, half-finished sections, pending stakeholder questions, version inconsistencies, that creates a low-level cognitive drain all day. Externalizing that overhead into a task file each morning clears the mental RAM for actual writing.
 
-Mid-Morning: Deep Documentation Work
+Mid-Morning - Deep Documentation Work
 
 Block 2-3 hours for your most cognitively demanding documentation work. This is when you write new content, restructure existing docs, or tackle complex API references. Protect this window ruthlessly, no meetings, no Slack, no email.
 
@@ -71,7 +71,7 @@ Solo writers face a particular challenge with complex topics: no colleague to re
 
 For API documentation specifically, follow this sequence: what the endpoint does, when you'd use it, what it requires, what it returns, what can go wrong, and a complete working example. This structure means engineers can scan to the "what can go wrong" section directly when they hit an error, rather than reading from the top each time.
 
-Midday: Review and Collaboration Windows
+Midday - Review and Collaboration Windows
 
 Schedule a focused hour for reviewing pull requests, responding to comments, and handling asynchronous communication. If you work with developers across time zones, align this window with their end of day so feedback loops stay tight.
 
@@ -104,7 +104,7 @@ Break this cycle by front-loading context. Before sending a draft for engineerin
 
 This annotation typically takes 10 minutes to write and cuts review round trips in half because engineers know where to focus rather than reviewing the entire document equally.
 
-Afternoon: Maintenance and Quick Tasks
+Afternoon - Maintenance and Quick Tasks
 
 Reserve the afternoon for lower-energy work: updating screenshots, fixing broken links, polishing existing pages, and handling small fixes that don't require deep focus. This rhythm works because your mental energy naturally dips after lunch.
 
@@ -167,7 +167,7 @@ Low Priority
 
 Review this file every Friday. Each week, resolve at least one high-priority item before starting new content. This prevents your docs from becoming systematically outdated over time, which is the most common failure mode for solo writer documentation sets.
 
-End of Day: Wrap-Up and Tomorrow's Setup
+End of Day - Wrap-Up and Tomorrow's Setup
 
 Spend the last 15 minutes of your workday preparing for tomorrow. Update your task file with tomorrow's priorities, note any incomplete work, and briefly journal what you accomplished. This creates a clean mental boundary between work and personal time, a critical practice when your office is your home.
 
@@ -184,7 +184,7 @@ In Progress:
 Blockers:
 - Waiting on engineering for v2.3 feature specs
 
-Tomorrow Priority 1: Complete troubleshooting section
+Tomorrow Priority 1 - Complete troubleshooting section
 ```
 
 Automating Repetitive Tasks

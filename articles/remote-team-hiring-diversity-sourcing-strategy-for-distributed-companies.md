@@ -1948,6 +1948,9 @@
 
 
 
+
+
+
 layout: default
 title: "Diversity Sourcing Strategy for Remote Teams"
 description: "Building diverse remote teams requires more than good intentions, it demands systematic approaches to sourcing, evaluating, and welcoming talent across"
@@ -1962,6 +1965,9 @@ voice-checked: true
 reviewed: true
 intent-checked: true
 ---
+
+
+
 
 
 
@@ -3938,9 +3944,9 @@ Specialized Diversity Job Boards
 
 Standard job boards often reproduce existing biases in who applies. Diversify your channels by posting to platforms specifically designed to reach underrepresented groups:
 
-- Underrepresented Developer Communities: GitHub's diversity initiatives, Women Who Code job boards, and Black Tech Jobs connect you with qualified candidates often missed by mainstream channels.
-- Global Talent Platforms: Toptal, Turing, and similar platforms vet engineers globally and can filter for diverse candidate pools.
-- University Pipeline Programs: Partner with HBCUs, Hispanic-serving institutions, and universities with strong diversity initiatives for early-career hiring.
+- Underrepresented Developer Communities - GitHub's diversity initiatives, Women Who Code job boards, and Black Tech Jobs connect you with qualified candidates often missed by mainstream channels.
+- Global Talent Platforms - Toptal, Turing, and similar platforms vet engineers globally and can filter for diverse candidate pools.
+- University Pipeline Programs - Partner with HBCUs, Hispanic-serving institutions, and universities with strong diversity initiatives for early-career hiring.
 - Disability-inclusive job boards: Platforms like Inclusively and AbilityJobs connect you with candidates who bring unique perspectives and are often overlooked by mainstream recruiting.
 
 Building Relationships with Community Organizations
@@ -4064,17 +4070,17 @@ Pair new hires with mentors who are specifically trained in inclusive onboarding
 ```markdown
 Onboarding Week Structure for Remote Hires
 
-Day 1-2: Foundation
+Day 1-2 - Foundation
 - Equipment setup and access verification
 - Company values and mission deep detailed look
 - Assigned buddy introduction (30-minute check-in)
 
-Day 3-4: Team Integration
+Day 3-4 - Team Integration
 - 1:1 with direct manager
 - Team structure and workflow overview
 - First project assignment with clear first-week deliverable
 
-Day 5: Check-in
+Day 5 - Check-in
 - Buddy check-in: Any confusion or concerns?
 - Manager check-in: Expectations alignment
 - HR check-in: Administrative questions, benefits enrollment
@@ -4095,7 +4101,7 @@ Time Zone Equity in Practice
 
 Distributed teams serving global markets often implicitly disadvantage team members in non-headquarters time zones. If your company schedules all-hands meetings at 9 AM Pacific, you're asking team members in Europe and Asia to join late evenings or early mornings consistently. This asymmetric burden falls disproportionately on employees who joined specifically because the role was advertised as remote.
 
-Practical remedies: rotate meeting times quarterly so the inconvenience distributes, record all company-wide sessions, and explicitly state that attendance at odd-hours recordings carries the same professional standing as synchronous participation. When you treat global team members as full participants rather than after-thoughts, retention across all demographics improves.
+Practical remedies - rotate meeting times quarterly so the inconvenience distributes, record all company-wide sessions, and explicitly state that attendance at odd-hours recordings carries the same professional standing as synchronous participation. When you treat global team members as full participants rather than after-thoughts, retention across all demographics improves.
 
 Frequently Asked Questions
 

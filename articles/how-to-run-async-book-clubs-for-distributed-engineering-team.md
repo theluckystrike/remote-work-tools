@@ -20,12 +20,12 @@ Running a book club across distributed engineering teams presents unique challen
 Table of Contents
 
 - [Why Async Book Clubs Work for Engineering Teams](#why-async-book-clubs-work-for-engineering-teams)
-- [Step 1: Choose Your Reading Format and Cadence](#step-1-choose-your-reading-format-and-cadence)
-- [Step 2: Set Up Your Discussion Infrastructure](#step-2-set-up-your-discussion-infrastructure)
-- [Week 3 Discussion: Chapters 5-6](#week-3-discussion-chapters-5-6)
-- [Step 3: help Engagement Without Meetings](#step-3-help-engagement-without-meetings)
-- [Step 4: Connect Reading to Real Work](#step-4-connect-reading-to-real-work)
-- [Step 5: Maintain Long-Term Momentum](#step-5-maintain-long-term-momentum)
+- [Step 1 - Choose Your Reading Format and Cadence](#step-1-choose-your-reading-format-and-cadence)
+- [Step 2 - Set Up Your Discussion Infrastructure](#step-2-set-up-your-discussion-infrastructure)
+- [Week 3 Discussion - Chapters 5-6](#week-3-discussion-chapters-5-6)
+- [Step 3 - help Engagement Without Meetings](#step-3-help-engagement-without-meetings)
+- [Step 4 - Connect Reading to Real Work](#step-4-connect-reading-to-real-work)
+- [Step 5 - Maintain Long-Term Momentum](#step-5-maintain-long-term-momentum)
 - [Platform Comparison for Async Book Clubs](#platform-comparison-for-async-book-clubs)
 - [Recommended Reading Schedules by Book Type](#recommended-reading-schedules-by-book-type)
 - [Discussion Format That Drives Deep Engagement](#discussion-format-that-drives-deep-engagement)
@@ -45,7 +45,7 @@ Distributed engineering teams often struggle to find shared time for learning ac
 
 The async approach also produces better written artifacts. When discussions happen in writing rather than conversation, you create a searchable knowledge base your team can reference later. Instead of losing insights after an one-hour meeting, you build lasting documentation of what your team learned.
 
-Step 1: Choose Your Reading Format and Cadence
+Step 1 - Choose Your Reading Format and Cadence
 
 Successful async book clubs start with realistic expectations about reading pace. Engineering teams typically handle 1-2 chapters per week, depending on technical density. Avoid ambitious schedules that lead to participant burnout.
 
@@ -89,7 +89,7 @@ book = {
 
 This approach ensures consistent weekly reading without overwhelming participants.
 
-Step 2: Set Up Your Discussion Infrastructure
+Step 2 - Set Up Your Discussion Infrastructure
 
 Your discussion platform matters significantly for async engagement. Threaded discussions work better than linear chat because they allow multiple conversations to happen simultaneously. Common effective options include dedicated Slack channels with thread organization, Notion pages with comment threads, or GitHub discussions on a dedicated repository.
 
@@ -102,9 +102,9 @@ Create a clear structure for each discussion thread. For each reading segment, e
 Here's a sample discussion template teams use:
 
 ```markdown
-Week 3 Discussion: Chapters 5-6
+Week 3 Discussion - Chapters 5-6
 
-Reading: "Building Microservices" by Sam Newman, Chapters 5-6
+Reading - "Building Microservices" by Sam Newman, Chapters 5-6
 
 Discussion Prompts
 1. What microservices boundaries has your team struggled with?
@@ -119,7 +119,7 @@ Deep Dives
 Reply to this comment with detailed thoughts on any prompt.
 ```
 
-Step 3: help Engagement Without Meetings
+Step 3 - help Engagement Without Meetings
 
 The async format doesn't require real-time meetings, but some synchronous touchpoints help maintain momentum. Consider optional monthly video calls for live discussion of that month's highlights. These calls work best as supplements, not replacements, for async discussions.
 
@@ -127,7 +127,7 @@ For help, rotate the moderator role among participants. Each week, a different t
 
 Track participation informally to identify disengagement early. If someone stops contributing, a private check-in often reveals whether the timing is wrong, the book isn't resonating, or something else needs adjustment.
 
-Step 4: Connect Reading to Real Work
+Step 4 - Connect Reading to Real Work
 
 The most valuable async book clubs tie discussions directly to team challenges. When reading about domain-driven design, ask team members to identify bounded contexts in your current system. When reading about testing strategies, have engineers propose experiments for your next sprint.
 
@@ -148,7 +148,7 @@ Let's discuss how the three ways apply to our release process.
 could we implement in the next sprint?
 ```
 
-Step 5: Maintain Long-Term Momentum
+Step 5 - Maintain Long-Term Momentum
 
 Book clubs often fade after a few months. Sustained programs require intentional design choices:
 
@@ -162,15 +162,15 @@ Platform Comparison for Async Book Clubs
 
 Choosing the right platform significantly affects participation and engagement. Here's how common options compare:
 
-Slack with threads: Free setup, already familiar. Create a #book-club channel with each week's reading as a thread. Drawback: poor searchability for book discussions after a month, threads get buried, hard to reference previous books. Best for small teams (under 10 people).
+Slack with threads - Free setup, already familiar. Create a #book-club channel with each week's reading as a thread. Drawback - poor searchability for book discussions after a month, threads get buried, hard to reference previous books. Best for small teams (under 10 people).
 
-Notion database: $10/month for Team plan. Create a database with properties for book, week, chapter, discussion status. Each week becomes a new page with embedded discussion. Better for archival and reference. Learning curve steeper than Slack but worth it for recurring clubs.
+Notion database - $10/month for Team plan. Create a database with properties for book, week, chapter, discussion status. Each week becomes a new page with embedded discussion. Better for archival and reference. Learning curve steeper than Slack but worth it for recurring clubs.
 
-GitHub Discussions: Free if using GitHub. Create a dedicated repo like "engineering-book-club" with discussions for each book. Integrates with your code workflow naturally. Perfect for technical books where code examples matter. Limited community features compared to Slack.
+GitHub Discussions - Free if using GitHub. Create a dedicated repo like "engineering-book-club" with discussions for each book. Integrates with your code workflow naturally. Perfect for technical books where code examples matter. Limited community features compared to Slack.
 
-Mighty Networks: $20-40/month. Purpose-built community tool with built-in discussion threads, member profiles, and event coordination. Overkill for most teams but excellent if you're running multiple learning groups.
+Mighty Networks - $20-40/month. Purpose-built community tool with built-in discussion threads, member profiles, and event coordination. Overkill for most teams but excellent if you're running multiple learning groups.
 
-Airtable: $10-20/month. Highly flexible, create a base for books with related tables for chapters, participants, and discussion threads. Can automate reading reminders. More setup required but scales to multiple groups.
+Airtable - $10-20/month. Highly flexible, create a base for books with related tables for chapters, participants, and discussion threads. Can automate reading reminders. More setup required but scales to multiple groups.
 
 Cost analysis for an 8-person team running one club:
 - Slack: $0 (already using it)
@@ -208,14 +208,14 @@ Discussion Format That Drives Deep Engagement
 Standard discussion prompts often generate surface-level responses. This template structures conversations for actual learning:
 
 ```markdown
-Week 3: Chapter 5-6 Discussion
-Book: Building Microservices by Sam Newman
+Week 3 - Chapter 5-6 Discussion
+Book - Building Microservices by Sam Newman
 
 Quick Context (Read this first)
 These chapters cover communication patterns and the choreography vs. orchestration tradeoff. We faced similar decisions in our payment service redesign last year.
 
 Your 2-Minute Reflection
-Post a 2-3 sentence response: What one concept from these chapters changed how you think about our architecture?
+Post a 2-3 sentence response - What one concept from these chapters changed how you think about our architecture?
 [These get responses from everyone because they're low-friction]
 
 Deep Dives (Choose one to contribute to)
@@ -232,7 +232,7 @@ What didn't the book address that's relevant to our stack?
 [Thread for critical thinking]
 
 Tie to Work
-Next sprint consideration: The circuit breaker pattern from Chapter 5 could improve our timeout handling. Worth an experiment on the API gateway?
+Next sprint consideration - The circuit breaker pattern from Chapter 5 could improve our timeout handling. Worth an experiment on the API gateway?
 ```
 
 This format works because:

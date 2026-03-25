@@ -32,17 +32,17 @@ The process has to work across time zones. Nobody should be blocked waiting for 
 
 ---
 
-Tool 1: Notion (Best for Async Input)
+Tool 1 - Notion (Best for Async Input)
 
 Notion's commenting system lets distributed team members add observations to specific sections of a post-mortem doc without waiting for a meeting. Use a database with templates for consistent structure.
 
 Post-Mortem Database Template in Notion:
 
 ```markdown
-Incident: [Brief Description]. [Date]
+Incident - [Brief Description]. [Date]
 
-Severity: P1 / P2 / P3
-Duration: [start time] → [end time] (X minutes)
+Severity - P1 / P2 / P3
+Duration - [start time] → [end time] (X minutes)
 Services affected:
 Customers affected: ~N users
 
@@ -136,7 +136,7 @@ def create_postmortem(title: str, severity: str, service: str):
 Triggered from your incident management tool or PagerDuty webhook
 if __name__ == "__main__":
     create_postmortem(
-        title=f"Incident: Payment service 500s. {datetime.utcnow().strftime('%Y-%m-%d')}",
+        title=f"Incident - Payment service 500s. {datetime.utcnow().strftime('%Y-%m-%d')}",
         severity="P1",
         service="payments",
     )
@@ -144,7 +144,7 @@ if __name__ == "__main__":
 
 ---
 
-Tool 2: Jeli (Purpose-Built)
+Tool 2 - Jeli (Purpose-Built)
 
 Jeli imports PagerDuty/Opsgenie timelines, Slack message history, and deployment logs automatically. The distributed team adds annotations and context without building a timeline from scratch.
 
@@ -152,8 +152,8 @@ PagerDuty webhook to create Jeli investigation:
 
 ```bash
 Configure in PagerDuty → Integrations → Webhooks
-Endpoint: https://app.jeli.io/api/v1/incidents/pagerduty
-Event: incident.triggered (P1/P2 only)
+Endpoint - https://app.jeli.io/api/v1/incidents/pagerduty
+Event - incident.triggered (P1/P2 only)
 
 Manually create an investigation from CLI
 curl -X POST https://app.jeli.io/api/v1/investigations \
@@ -171,7 +171,7 @@ Jeli automatically imports the Slack conversation from the incident channel into
 
 ---
 
-Tool 3: GitHub Issues (Free, Integrated)
+Tool 3 - GitHub Issues (Free, Integrated)
 
 For teams already living in GitHub, a structured GitHub Issue template is the lowest-friction option.
 
@@ -181,16 +181,16 @@ For teams already living in GitHub, a structured GitHub Issue template is the lo
 ---
 name: Post-Mortem
 about: Document an incident for learning and improvement
-title: "Post-Mortem: [Brief description]. [YYYY-MM-DD]"
+title: "Post-Mortem - [Brief description]. [YYYY-MM-DD]"
 labels: post-mortem, needs-review
 assignees: ""
 ---
 
 Summary
 
-Severity: <!-- P1/P2/P3 -->
-Duration: <!-- HH:MM UTC → HH:MM UTC (X minutes) -->
-Impact: <!-- N users affected, X% error rate -->
+Severity - <!-- P1/P2/P3 -->
+Duration - <!-- HH:MM UTC → HH:MM UTC (X minutes) -->
+Impact - <!-- N users affected, X% error rate -->
 
 Timeline
 
@@ -269,17 +269,17 @@ if overdue and SLACK_HOOK:
 
 Running the Async Post-Mortem Process
 
-Hour 0: Incident resolved. Create the post-mortem document immediately with just the title and timeline stub. Don't write conclusions yet.
+Hour 0 - Incident resolved. Create the post-mortem document immediately with just the title and timeline stub. Don't write conclusions yet.
 
-Hours 1, 24: Everyone involved adds their observations asynchronously. Use comments for additions, not edits. Keep to facts, not blame.
+Hours 1, 24 - Everyone involved adds their observations asynchronously. Use comments for additions, not edits. Keep to facts, not blame.
 
-Hour 24, 48: Incident lead synthesizes the timeline into root cause analysis. Drafts action items with owners (who must be consulted, not just assigned).
+Hour 24, 48 - Incident lead synthesizes the timeline into root cause analysis. Drafts action items with owners (who must be consulted, not just assigned).
 
-Hour 48: Review comment period opens. Team has 48 hours to add corrections.
+Hour 48 - Review comment period opens. Team has 48 hours to add corrections.
 
-Hour 96: Document marked final. Action items are filed as tickets.
+Hour 96 - Document marked final. Action items are filed as tickets.
 
-Week 4: Action item owners report progress. Incomplete items get re-scheduled, not silently dropped.
+Week 4 - Action item owners report progress. Incomplete items get re-scheduled, not silently dropped.
 
 ---
 

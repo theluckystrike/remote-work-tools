@@ -25,7 +25,7 @@ Table of Contents
 - [Automating Humidity Control](#automating-humidity-control)
 - [Practical Setup Recommendations](#practical-setup-recommendations)
 - [Monitoring Long-Term Trends](#monitoring-long-term-trends)
-- [Quick Win: Humidity Alerts](#quick-win-humidity-alerts)
+- [Quick Win - Humidity Alerts](#quick-win-humidity-alerts)
 - [Remote Work Scenarios Where Humidity Becomes a Crisis](#remote-work-scenarios-where-humidity-becomes-a-crisis)
 - [Comparing Humidity Control Approaches](#comparing-humidity-control-approaches)
 - [Integrating Humidity Data Into Your Productivity Tracking](#integrating-humidity-data-into-your-productivity-tracking)
@@ -165,7 +165,7 @@ history:
 
 Review monthly to adjust your target humidity based on seasonal changes and personal comfort feedback.
 
-Quick Win: Humidity Alerts
+Quick Win - Humidity Alerts
 
 Even without full automation, receive notifications when humidity exits your comfort zone:
 

@@ -26,7 +26,7 @@ Table of Contents
 - [Building a Monitoring Dashboard](#building-a-monitoring-dashboard)
 - [Practical Deployment Recommendations](#practical-deployment-recommendations)
 - [Product Recommendations by Use Case](#product-recommendations-by-use-case)
-- [Comparison Table: Popular Dehumidifiers for Home Office](#comparison-table-popular-dehumidifiers-for-home-office)
+- [Comparison Table - Popular Dehumidifiers for Home Office](#comparison-table-popular-dehumidifiers-for-home-office)
 - [Automation Workflows](#automation-workflows)
 
 Understanding Basement Humidity Dynamics
@@ -245,7 +245,7 @@ Aer Comfort 70-Pint Smart Dehumidifier ($800-950)
 - Premium pricing
 - Best for: Larger tech-focused setups, HVAC integration needs
 
-Comparison Table: Popular Dehumidifiers for Home Office
+Comparison Table - Popular Dehumidifiers for Home Office
 
 | Model | Price | Capacity (pints) | Coverage (sq ft) | WiFi | Noise (dB) | Energy Factor | Best For |
 |-------|-------|------------------|------------------|------|-----------|---------------|----------|

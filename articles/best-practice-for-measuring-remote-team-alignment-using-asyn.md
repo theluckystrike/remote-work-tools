@@ -32,8 +32,8 @@ Table of Contents
 
 - [Why Async Strategy Updates Work for Alignment](#why-async-strategy-updates-work-for-alignment)
 - [Building Your Async Strategy Update Cadence](#building-your-async-strategy-update-cadence)
-- [Strategy Update: [Date]](#strategy-update-date)
-- [Measuring Alignment: Practical Approaches](#measuring-alignment-practical-approaches)
+- [Strategy Update - [Date]](#strategy-update-date)
+- [Measuring Alignment - Practical Approaches](#measuring-alignment-practical-approaches)
 - [Implementing the Cadence](#implementing-the-cadence)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Measuring Improvement Over Time](#measuring-improvement-over-time)
@@ -64,7 +64,7 @@ The Update Format
 Structure each strategy update identically. Consistency reduces friction and makes comparison over time possible. Here's a practical template:
 
 ```markdown
-Strategy Update: [Date]
+Strategy Update - [Date]
 
 Current Focus Area
 What the team should prioritize right now
@@ -94,7 +94,7 @@ Each update requires a response from team members. Without response, you have no
 For technical teams, use a simple acknowledgment with optional questions:
 
 ```
-Status: [Understood / Need Clarification / Disagree]
+Status - [Understood / Need Clarification / Disagree]
 
 Questions or concerns (optional):
 -
@@ -102,7 +102,7 @@ Questions or concerns (optional):
 
 For non-technical stakeholders, allow more open-ended responses but require at least a brief acknowledgment.
 
-Measuring Alignment: Practical Approaches
+Measuring Alignment - Practical Approaches
 
 Alignment is not binary. Your team members exist on a spectrum from fully aligned to actively misaligned. Here is how to measure this spectrum using async data.
 
@@ -110,7 +110,7 @@ Response Analysis
 
 Track three metrics from each update cycle:
 
-Response Rate: What percentage of team members respond within the expected timeframe? A response rate below 80% signals engagement problems, not alignment success.
+Response Rate - What percentage of team members respond within the expected timeframe? A response rate below 80% signals engagement problems, not alignment success.
 
 ```python
 Simple response rate calculation
@@ -127,12 +127,12 @@ responses = [
 ]
 
 rate = calculate_response_rate(responses, 4, "2026-03-15T17:00:00Z")
-Returns: 50% (2 of 4 responded on time)
+Returns - 50% (2 of 4 responded on time)
 ```
 
-Clarification Requests: Track how many team members need clarification. High clarification rates indicate unclear communication or misalignment in priorities.
+Clarification Requests - Track how many team members need clarification. High clarification rates indicate unclear communication or misalignment in priorities.
 
-Disagreement Indicators: When team members explicitly disagree or raise concerns, this represents healthy conflict. Track these and ensure they receive proper follow-up.
+Disagreement Indicators - When team members explicitly disagree or raise concerns, this represents healthy conflict. Track these and ensure they receive proper follow-up.
 
 Comprehension Checks
 
@@ -175,10 +175,10 @@ Implementing the Cadence
 
 Start with weekly updates and adjust based on your team's needs. Here's a practical implementation schedule:
 
-Monday: Publish strategy update for the week
-Tuesday-Wednesday: Team members review and respond
-Thursday: Leadership reviews response data and addresses gaps
-Friday: Follow-up communication for significant misalignment
+Monday - Publish strategy update for the week
+Tuesday-Wednesday - Team members review and respond
+Thursday - Leadership reviews response data and addresses gaps
+Friday - Follow-up communication for significant misalignment
 
 Do not skip the follow-up step. Identifying misalignment means nothing without correction.
 
@@ -186,13 +186,13 @@ Common Pitfalls to Avoid
 
 Several patterns undermine async alignment efforts:
 
-Updating Too Frequently: Daily strategy updates cause fatigue and reduce response quality. Weekly or bi-weekly strikes the right balance.
+Updating Too Frequently - Daily strategy updates cause fatigue and reduce response quality. Weekly or bi-weekly strikes the right balance.
 
-Requiring Long Responses: If responding takes more than five minutes, participation drops. Keep responses short and structured.
+Requiring Long Responses - If responding takes more than five minutes, participation drops. Keep responses short and structured.
 
-Ignoring the Data: Collecting alignment data without acting on it breeds cynicism. When you identify misalignment, address it explicitly.
+Ignoring the Data - Collecting alignment data without acting on it breeds cynicism. When you identify misalignment, address it explicitly.
 
-Making Updates One-Way: Strategy updates should invite dialogue. Closed-loop communication where leadership broadcasts without listening destroys alignment over time.
+Making Updates One-Way - Strategy updates should invite dialogue. Closed-loop communication where leadership broadcasts without listening destroys alignment over time.
 
 Measuring Improvement Over Time
 
@@ -302,17 +302,17 @@ Real-World Alignment Failure Case Study
 
 Company failed at async alignment with this common pattern:
 
-Month 1: CEO launches strategy update cadence. 95% response rate. Positive sentiment. Team engaged.
+Month 1 - CEO launches strategy update cadence. 95% response rate. Positive sentiment. Team engaged.
 
-Month 2: Updates continue, but leadership doesn't act on clarification requests. Same questions appear in Month 3 responses.
+Month 2 - Updates continue, but leadership doesn't act on clarification requests. Same questions appear in Month 3 responses.
 
-Month 3: Response rate drops to 60%. Sentiment turns negative. Team comments: "They don't listen to our feedback."
+Month 3 - Response rate drops to 60%. Sentiment turns negative. Team comments: "They don't listen to our feedback."
 
-Month 4: Update cadence quietly stops. CEO frustrated that team doesn't understand strategy. Team frustrated that strategy changes without notice.
+Month 4 - Update cadence quietly stops. CEO frustrated that team doesn't understand strategy. Team frustrated that strategy changes without notice.
 
-Root cause: Leadership treated updates as broadcast, not dialogue. Alignment requires listening.
+Root cause - Leadership treated updates as broadcast, not dialogue. Alignment requires listening.
 
-Fix: After each update, leadership explicitly responds:
+Fix - After each update, leadership explicitly responds:
 - Thank you for X clarification requests
 - Semantic Alignment Scoring
 
@@ -358,19 +358,19 @@ Seasonal Alignment Patterns
 
 Alignment typically follows predictable patterns:
 
-Q1 (January-March): Alignment is high. Everyone reset over holidays, strategy feels fresh.
+Q1 (January-March) - Alignment is high. Everyone reset over holidays, strategy feels fresh.
 
-Q2 (April-June): Alignment begins declining. Execution creates new details; original strategy feels abstract.
+Q2 (April-June) - Alignment begins declining. Execution creates new details; original strategy feels abstract.
 
-Q3 (July-September): Alignment is lowest. Execution details have accumulated; strategy feels disconnected from daily work.
+Q3 (July-September) - Alignment is lowest. Execution details have accumulated; strategy feels disconnected from daily work.
 
-Q4 (October-December): Alignment improves slightly. Approaching year-end planning creates fresh strategic thinking.
+Q4 (October-December) - Alignment improves slightly. Approaching year-end planning creates fresh strategic thinking.
 
 Account for this seasonality. Plan extra alignment-building activities in Q2-Q3. Launch major strategy shifts in Q1 or Q4 when alignment naturally improves.
 
 Alignment vs. Agreement
 
-An important distinction: alignment is not agreement.
+An important distinction - alignment is not agreement.
 
 - Alignment means everyone understands the direction and what they need to do
 - Agreement means everyone thinks the direction is correct
@@ -389,7 +389,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -401,7 +401,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

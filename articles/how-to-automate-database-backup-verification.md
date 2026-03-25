@@ -69,19 +69,19 @@ cleanup() {
 }
 trap cleanup EXIT
 
-Step 1: Download backup
+Step 1 - Download backup
 log "Downloading backup from $BACKUP_S3_PATH"
 START=$(date +%s)
 aws s3 cp "$BACKUP_S3_PATH" /tmp/backup.dump
 DOWNLOAD_TIME=$(($(date +%s) - START))
 log "Download complete in ${DOWNLOAD_TIME}s ($(du -sh /tmp/backup.dump | cut -f1))"
 
-Step 2: Create test database
+Step 2 - Create test database
 log "Creating test database: $TEST_DB"
 psql -h "$PG_HOST" -p "$PG_PORT" -U "$PG_SUPERUSER" \
   -c "CREATE DATABASE $TEST_DB;" postgres
 
-Step 3: Restore
+Step 3 - Restore
 log "Restoring backup..."
 START=$(date +%s)
 pg_restore \
@@ -92,7 +92,7 @@ pg_restore \
 RESTORE_TIME=$(($(date +%s) - START))
 log "Restore complete in ${RESTORE_TIME}s"
 
-Step 4: Run verification checks
+Step 4 - Run verification checks
 PSQL="psql -h $PG_HOST -p $PG_PORT -U $PG_SUPERUSER -d $TEST_DB -t --no-align"
 
 Check critical tables exist
@@ -135,7 +135,7 @@ if [[ "$latest_record" < "$expected_cutoff" ]]; then
   exit 1
 fi
 
-Step 5: Record success metrics
+Step 5 - Record success metrics
 log "SUCCESS: Backup verified"
 log "Download: ${DOWNLOAD_TIME}s | Restore: ${RESTORE_TIME}s | Users: $user_count"
 

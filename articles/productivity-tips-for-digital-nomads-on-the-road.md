@@ -74,7 +74,7 @@ npm cache ls > ~/cache/npm-packages.txt
 npm pack $(cat ~/cache/npm-packages.txt)
 ```
 
-Offline-first development: Choose tools that function without continuous connectivity. VS Code with Remote-SSH extensions requires internet, but local editors like Neovim with locally-installed language servers continue working during outages.
+Offline-first development - Choose tools that function without continuous connectivity. VS Code with Remote-SSH extensions requires internet, but local editors like Neovim with locally-installed language servers continue working during outages.
 
 Network Testing Script
 
@@ -134,7 +134,7 @@ const meetingScheduler = (teamMembers) => {
   });
 };
 
-// Usage: node schedule.js
+// Usage - node schedule.js
 meetingScheduler([
   { name: "You (Bali)", timezoneOffset: -8 },
   { name: "Team (London)", timezoneOffset: 0 },
@@ -238,31 +238,31 @@ Mental/emotional signals:
 - Cynicism about work or travel
 - Difficulty with decision-making
 
-The distinction: Regular fatigue is temporary and responsive to rest. Burnout is persistent despite rest and usually requires structural changes (slower travel pace, more consistent accommodation, sabbatical period).
+The distinction - Regular fatigue is temporary and responsive to rest. Burnout is persistent despite rest and usually requires structural changes (slower travel pace, more consistent accommodation, sabbatical period).
 
 The 3-Month Location Minimum
 
 Research on digital nomad burnout consistently shows that moving every 2-4 weeks increases burnout risk significantly. After testing many approaches, the optimal pattern emerges:
 
-Month 1: Exploration phase
+Month 1 - Exploration phase
 - Tour the city, try different cafés and co-working spaces
 - Meet the local community
 - Fine-tune your setup for climate and work style
 - Still building familiarity, not peak productivity
 
-Month 2: Flow phase
+Month 2 - Flow phase
 - Deep work becomes easier as environment is familiar
 - You've found reliable venues and routines
 - Relationships with regular café staff and co-workers
 - Peak productivity window
 
-Month 3: Integration phase
+Month 3 - Integration phase
 - Balance between exploring and working
 - Solidified routines mean less cognitive load
 - Can mentor new nomads arriving in the location
 - Time to consider your next move
 
-After Month 3: Decision time
+After Month 3 - Decision time
 - Stay longer if the location still feels good
 - Move on if you've reached the saturation point
 - Moving too quickly = constant setup overhead

@@ -20,20 +20,20 @@ Hetzner offers the best price-to-performance ratio for cloud dev servers in Euro
 Table of Contents
 
 - [Architecture](#architecture)
-- [Step 1: Create the Server](#step-1-create-the-server)
-- [Step 2: Cloud-Init Configuration](#step-2-cloud-init-configuration)
-- [Step 3: Install and Configure code-server](#step-3-install-and-configure-code-server)
-- [Step 4: Tailscale for Secure Access](#step-4-tailscale-for-secure-access)
-- [Step 5: Dev Environment Setup with mise](#step-5-dev-environment-setup-with-mise)
-- [Step 6: Persistent Docker Services](#step-6-persistent-docker-services)
-- [Step 7: Automated Snapshots](#step-7-automated-snapshots)
-- [Step 8: Dotfiles Sync](#step-8-dotfiles-sync)
+- [Step 1 - Create the Server](#step-1-create-the-server)
+- [Step 2 - Cloud-Init Configuration](#step-2-cloud-init-configuration)
+- [Step 3 - Install and Configure code-server](#step-3-install-and-configure-code-server)
+- [Step 4 - Tailscale for Secure Access](#step-4-tailscale-for-secure-access)
+- [Step 5 - Dev Environment Setup with mise](#step-5-dev-environment-setup-with-mise)
+- [Step 6 - Persistent Docker Services](#step-6-persistent-docker-services)
+- [Step 7 - Automated Snapshots](#step-7-automated-snapshots)
+- [Step 8 - Dotfiles Sync](#step-8-dotfiles-sync)
 - [Cost Calculation](#cost-calculation)
 - [Firewalla for Hetzner Firewall (Optional)](#firewalla-for-hetzner-firewall-optional)
 - [Comparing Hetzner to Alternatives](#comparing-hetzner-to-alternatives)
 - [Related Reading](#related-reading)
 
-The core idea is simple: instead of lugging a powerful laptop everywhere, or trying to sync dev environments across multiple machines, you run everything on a single cloud server. Your local machine becomes a thin client. Any laptop. even a base MacBook Air or a cheap Chromebook. can be your full workstation via browser or SSH.
+The core idea is simple - instead of lugging a powerful laptop everywhere, or trying to sync dev environments across multiple machines, you run everything on a single cloud server. Your local machine becomes a thin client. Any laptop. even a base MacBook Air or a cheap Chromebook. can be your full workstation via browser or SSH.
 
 Architecture
 
@@ -49,7 +49,7 @@ Your projects (on-server, backed up to Hetzner Object Storage)
 
 This architecture has meaningful advantages over local development. The server is always on. long-running jobs, build caches, and Docker services persist between sessions. You get consistent performance regardless of where you're working. And because the server is on Hetzner's network, git operations, Docker pulls, and package downloads are significantly faster than on a home connection.
 
-Step 1: Create the Server
+Step 1 - Create the Server
 
 ```bash
 Install hcloud CLI
@@ -77,9 +77,9 @@ Get the IP
 hcloud server ip dev-server
 ```
 
-Location selection: Hetzner operates datacenters in Nuremberg (nbg1), Falkenstein (fsn1), Helsinki (hel1), and Ashburn VA (ash). Pick the one closest to your primary clients or CI systems, not closest to you. latency to the server over SSH is negligible; latency between your server and external services matters more.
+Location selection - Hetzner operates datacenters in Nuremberg (nbg1), Falkenstein (fsn1), Helsinki (hel1), and Ashburn VA (ash). Pick the one closest to your primary clients or CI systems, not closest to you. latency to the server over SSH is negligible; latency between your server and external services matters more.
 
-Step 2: Cloud-Init Configuration
+Step 2 - Cloud-Init Configuration
 
 ```yaml
 cloud-init.yaml
@@ -119,7 +119,7 @@ runcmd:
 
 Cloud-init runs on first boot and gives you a fully configured server in about 3-4 minutes. No manual SSH steps, no post-boot scripts to remember. The entire configuration is in version control.
 
-Step 3: Install and Configure code-server
+Step 3 - Install and Configure code-server
 
 ```bash
 SSH into the server
@@ -141,9 +141,9 @@ sudo systemctl restart code-server@dev
 
 code-server gives you VS Code in the browser. full extension support, integrated terminal, git integration. For extensions that don't work well in the browser (debuggers for some languages, for example), Remote-SSH is the better option and is covered in Step 4.
 
-One important note: bind code-server to 127.0.0.1, not 0.0.0.0. You never want code-server exposed directly to the internet. Access it only through the Tailscale tunnel.
+One important note - bind code-server to 127.0.0.1, not 0.0.0.0. You never want code-server exposed directly to the internet. Access it only through the Tailscale tunnel.
 
-Step 4: Tailscale for Secure Access
+Step 4 - Tailscale for Secure Access
 
 Tailscale creates a private network between your devices without exposing the server to the internet.
 
@@ -160,7 +160,7 @@ ssh -i ~/.ssh/hetzner_dev -L 8080:localhost:8080 dev@100.x.x.x
 Open http://localhost:8080 in your browser
 ```
 
-Better: use VS Code Remote-SSH directly:
+Better - use VS Code Remote-SSH directly:
 
 ```json
 // ~/.ssh/config
@@ -171,11 +171,11 @@ Host hetzner-dev
     ServerAliveInterval 60
 ```
 
-Then in VS Code: Remote-SSH → Connect to Host → hetzner-dev
+Then in VS Code - Remote-SSH → Connect to Host → hetzner-dev
 
 With `--ssh` flag, Tailscale manages SSH keys automatically. You can remove the Hetzner server from all public networks and rely entirely on Tailscale for access. This is the recommended setup: no public SSH port, no exposed services, no firewall rules to maintain for your own access.
 
-Step 5: Dev Environment Setup with mise
+Step 5 - Dev Environment Setup with mise
 
 mise (formerly rtx) is an unified tool version manager that replaces nvm, rbenv, pyenv, and goenv with a single tool. It reads `.mise.toml` files in project directories and switches versions automatically.
 
@@ -207,7 +207,7 @@ DATABASE_URL = "postgresql://localhost:5432/myapp_dev"
 
 When you `cd` into a project directory, mise reads the `.mise.toml` and activates the correct toolchain. No more "works on my machine" issues from version mismatches across team members. everyone uses the same `.mise.toml` in the repository.
 
-Step 6: Persistent Docker Services
+Step 6 - Persistent Docker Services
 
 ```yaml
 ~/docker-compose.yml. persistent dev services
@@ -246,9 +246,9 @@ docker compose up -d
 Services start automatically on server reboot
 ```
 
-The `restart: unless-stopped` policy means your Postgres and Redis instances are always running when the server is. No more "wait for the database to start" in your morning routine, and no state loss between sessions. Mailhog captures all outgoing email from your dev environment so you can test transactional emails without a real SMTP server.
+The `restart - unless-stopped` policy means your Postgres and Redis instances are always running when the server is. No more "wait for the database to start" in your morning routine, and no state loss between sessions. Mailhog captures all outgoing email from your dev environment so you can test transactional emails without a real SMTP server.
 
-Step 7: Automated Snapshots
+Step 7 - Automated Snapshots
 
 ```bash
 snapshot.sh. run via cron
@@ -278,7 +278,7 @@ Hetzner charges €0.0119 per GB per month for snapshots. A typical dev server s
 
 For project data specifically, also consider Hetzner Object Storage (S3-compatible, €4.43/month for 1TB) combined with `restic` or `rclone` for automated project backup. This gives you independent recovery for your code and databases even if the server itself needs to be rebuilt from scratch.
 
-Step 8: Dotfiles Sync
+Step 8 - Dotfiles Sync
 
 ```bash
 Use chezmoi for dotfiles management
@@ -288,7 +288,7 @@ Initialize from your dotfiles repo
 chezmoi init https://github.com/yourusername/dotfiles.git
 chezmoi apply
 
-On any new server: two commands and you're configured
+On any new server - two commands and you're configured
 ```
 
 chezmoi is preferable to bare git for dotfiles because it handles machine-specific values (different SSH keys, different email addresses per machine) cleanly via templates. Your `.zshrc`, `.gitconfig`, shell aliases, and tmux config are all in one place and applied consistently across every machine you use.

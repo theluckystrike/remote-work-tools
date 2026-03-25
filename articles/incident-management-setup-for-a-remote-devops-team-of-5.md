@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Defining Incident Severity Levels
+Step 1 - Defining Incident Severity Levels
 
 Establishing clear severity levels upfront prevents over-escalation and ensures appropriate response times. For a team of five, use a four-tier system:
 
@@ -41,7 +41,7 @@ Establishing clear severity levels upfront prevents over-escalation and ensures 
 
 Document these levels in your team wiki and ensure every team member can reference them quickly during an incident.
 
-Step 2: Build the On-Call Rotation
+Step 2 - Build the On-Call Rotation
 
 With five team members, a simple weekly rotating on-call schedule works well. Each person takes one week, then rotates. Here is a basic schedule structure in YAML:
 
@@ -67,7 +67,7 @@ rotation:
 
 The primary on-call handles all initial alerts. The secondary on-call provides backup if the primary is unavailable or overwhelmed. Define clear handoff procedures: the outgoing on-call should summarize active issues and any pending changes to the incoming person.
 
-Step 3: Create Effective Runbooks
+Step 3 - Create Effective Runbooks
 
 Runbooks are step-by-step guides for handling specific incidents. They reduce cognitive load during stressful situations and ensure consistent responses regardless of who handles the incident.
 
@@ -83,38 +83,38 @@ Structure each runbook with these sections:
 Here is an example runbook for high CPU usage:
 
 ```markdown
-Runbook: High CPU Usage
+Runbook - High CPU Usage
 
-Step 4: Trigger
+Step 4 - Trigger
 - CPU usage exceeds 90% on any production server for more than 5 minutes
 
-Step 5: Immediate Actions
+Step 5 - Immediate Actions
 1. Check if this is expected (batch job, heavy load)
 2. Identify affected servers: `kubectl top nodes`
 
-Step 6: Diagnosis
+Step 6 - Diagnosis
 1. Identify processes: `top -c` (Linux) or `Get-Process` (Windows)
 2. Check for recent deployments: `kubectl rollout history deployment/your-app`
 3. Review logs: `kubectl logs -l app=your-app --tail=100`
 
-Step 7: Resolution
+Step 7 - Resolution
 1. If deployment issue: `kubectl rollout undo deployment/your-app`
 2. If runaway process: `kill -15 <PID>` (graceful) or `kill -9 <PID>` (force)
 3. Scale up temporarily: `kubectl scale deployment/your-app --replicas=6`
 
-Step 8: Verification
+Step 8 - Verification
 - CPU drops below 70% on affected servers
 - Response times return to normal
 - No error spikes in logs
 
-Step 9: Follow-up
+Step 9 - Follow-up
 - Document root cause in incident report
 - Schedule post-mortem within 48 hours
 ```
 
 Build runbooks incrementally. Start with the five most common incident types your team faces, then expand as you encounter new scenarios.
 
-Step 10: Set Up Alert Routing
+Step 10 - Set Up Alert Routing
 
 Alert routing ensures the right person receives the right notifications. Use a tiered approach:
 
@@ -159,38 +159,38 @@ receivers:
       to: 'platform-team@example.com'
 ```
 
-Step 11: Incident Communication Templates
+Step 11 - Incident Communication Templates
 
 During an incident, clear communication prevents confusion. Prepare templates for common scenarios:
 
 Initial Incident Alert (Slack):
 ```
  INCIDENT SEV{{severity}}: {{title}}
-Affected: {{services}}
-On-call: {{responder}}
-Status: Investigating
-Update thread: {{thread_link}}
+Affected - {{services}}
+On-call - {{responder}}
+Status - Investigating
+Update thread - {{thread_link}}
 ```
 
 Status Update:
 ```
  INCIDENT UPDATE #{{incident_id}}
-Status: {{investigating|identified|monitoring|resolved}}
-Current understanding: {{brief_description}}
-Next action: {{next_steps}}
-ETA for resolution: {{eta}}
+Status - {{investigating|identified|monitoring|resolved}}
+Current understanding - {{brief_description}}
+Next action - {{next_steps}}
+ETA for resolution - {{eta}}
 ```
 
 Incident Resolution:
 ```
  INCIDENT RESOLVED #{{incident_id}}
-Duration: {{duration}}
-Root cause: {{brief_explanation}}
-Follow-up: {{ticket_links}}
-Post-mortem: {{date}}
+Duration - {{duration}}
+Root cause - {{brief_explanation}}
+Follow-up - {{ticket_links}}
+Post-mortem - {{date}}
 ```
 
-Step 12: Post-Incident Review Process
+Step 12 - Post-Incident Review Process
 
 After resolving any SEV1 or SEV2 incident, conduct a blameless post-mortem within 48 hours. The goal is identifying systemic improvements, not assigning blame.
 
@@ -205,7 +205,7 @@ Use this template:
 
 Track action items in your project management tool and assign clear owners. Review open action items in each team meeting until resolved.
 
-Step 13: Putting It All Together
+Step 13 - Putting It All Together
 
 Start by defining your severity levels and documenting them. Build runbooks for your top five most common incidents. Configure alert routing to notify the right people. Practice your incident response in a tabletop exercise before you need it.
 

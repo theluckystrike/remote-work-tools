@@ -218,13 +218,13 @@ Practical Considerations
 
 When implementing badge-based use tracking, consider these operational factors:
 
-Privacy implications: Badge data tracks individual movements. Aggregate data for reporting, and anonymize individual identifiers unless explicit consent exists for personal tracking.
+Privacy implications - Badge data tracks individual movements. Aggregate data for reporting, and anonymize individual identifiers unless explicit consent exists for personal tracking.
 
-Data retention: Access logs can grow large quickly. Establish retention policies, typically 12-24 months of detailed data with longer-term aggregates.
+Data retention - Access logs can grow large quickly. Establish retention policies, typically 12-24 months of detailed data with longer-term aggregates.
 
-System limitations: Badge systems record entry, not actual desk usage. Someone badging in at 9 AM and leaving at 5 PM may not sit at a desk the entire time. Supplement with desk sensors if precise occupancy is critical.
+System limitations - Badge systems record entry, not actual desk usage. Someone badging in at 9 AM and leaving at 5 PM may not sit at a desk the entire time. Supplement with desk sensors if precise occupancy is critical.
 
-API rate limits: Most commercial badge systems impose API limits. Cache data locally and sync incrementally rather than pulling full datasets repeatedly.
+API rate limits - Most commercial badge systems impose API limits. Cache data locally and sync incrementally rather than pulling full datasets repeatedly.
 
 Practical recommendations from Badge Analytics
 

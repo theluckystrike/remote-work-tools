@@ -64,7 +64,7 @@ Remote design agencies benefit enormously from asynchronous feedback workflows. 
 Use a shared feedback document or project management tool to collect comments. Structure the document so clients can provide feedback in specific sections corresponding to each design deliverable:
 
 ```markdown
-Design Review: Homepage Mockup v2
+Design Review - Homepage Mockup v2
 
 Overall Impression
 [Client provides general reaction to the design]
@@ -103,11 +103,11 @@ When feedback arrives, resist the urge to immediately start making changes. Inst
 
 Create a simple classification system:
 
-Critical Issues: Bugs, broken functionality, or major misalignment with brand guidelines that would prevent the design from going live.
+Critical Issues - Bugs, broken functionality, or major misalignment with brand guidelines that would prevent the design from going live.
 
-Substantial Changes: Significant layout shifts, wholesale color scheme changes, or modifications to core user flows.
+Substantial Changes - Significant layout shifts, wholesale color scheme changes, or modifications to core user flows.
 
-Refinements: Minor adjustments to spacing, typography tweaks, or small visual enhancements.
+Refinements - Minor adjustments to spacing, typography tweaks, or small visual enhancements.
 
 For each revision round, establish a rule that you will only address one category at a time. This prevents the common pattern where minor tweaks get implemented while critical issues remain outstanding. A Figma comment workflow can track these categories effectively:
 
@@ -179,7 +179,7 @@ This response acknowledges the client's input, explains the boundary clearly, an
 
 Revision Management Tools and Software
 
-Option 1: Frame.io (Design Feedback Focused)
+Option 1 - Frame.io (Design Feedback Focused)
 - Cost: Free tier (1 project), $12-50/month paid
 - Built for design review: comment directly on frames
 - Version history: All versions visible with annotations
@@ -192,11 +192,11 @@ Workflow:
 Frame.io project created → Share link with client
 Client reviews frames → Comments pinned to specific areas
 Designer sees feedback immediately → Can respond inline
-Version control: Each iteration gets new version number
-Approval tracking: When did client approve frame 3?
+Version control - Each iteration gets new version number
+Approval tracking - When did client approve frame 3?
 ```
 
-Option 2: Figma (Design System Native)
+Option 2 - Figma (Design System Native)
 - Cost: Free tier limited, $12-60/month paid
 - Comments directly on designs
 - Version history built in
@@ -215,7 +215,7 @@ Designer response inline:
 Resolved:  (client closes the comment)
 ```
 
-Option 3: Asana Project Management
+Option 3 - Asana Project Management
 - Cost: $10-30.49/user/month
 - Not design-focused but good for revision tracking
 - Subtasks for each revision item
@@ -223,7 +223,7 @@ Option 3: Asana Project Management
 - Timeline tracking (are revisions on schedule?)
 - Best for: Larger agencies with complex projects
 
-Option 4: Notion (Custom Revision Database)
+Option 4 - Notion (Custom Revision Database)
 - Cost: Free to $10/user/month
 - Database approach: Each revision round as entry
 - Properties: Revision #, Items to fix, Status, Due date, Completed date
@@ -243,7 +243,7 @@ Each revision has subtasks:
   [ ] Test mobile responsiveness
 ```
 
-Option 5: Basecamp (Full Project Management)
+Option 5 - Basecamp (Full Project Management)
 - Cost: $99-349/month flat rate (unlimited users)
 - Message boards for feedback
 - To-do lists for revision items
@@ -291,10 +291,10 @@ Revision Reserve Strategy
 Add buffer to protect your margin:
 
 ```
-Base estimate: 2 revision rounds
-Buffer (20%): +0.4 rounds
-Total quoted: 2 revision rounds
-Actual available: 2.4 rounds (gives you headroom)
+Base estimate - 2 revision rounds
+Buffer (20%) - +0.4 rounds
+Total quoted - 2 revision rounds
+Actual available - 2.4 rounds (gives you headroom)
 
 If client uses exactly 2 rounds, you've made 20% extra profit.
 If client uses all 2.4 rounds, you break even on estimated time.
@@ -320,9 +320,9 @@ def track_revision_metrics(project_data):
     return metrics
 
 Track for 12 months
-If avg > estimate: Increase buffer in future bids
-If scope_creep > 20%: Improve upfront requirements gathering
-If turnaround > 5 days: Communicate tighter deadlines to clients
+If avg > estimate - Increase buffer in future bids
+If scope_creep > 20% - Improve upfront requirements gathering
+If turnaround > 5 days - Communicate tighter deadlines to clients
 ```
 
 Example data from 10 projects:
@@ -335,9 +335,9 @@ C | 3 | 4 | Yes | Yes | 5 |
 D | 2 | 2 | No | No | 2 |
 E | 1 | 2 | Yes | Yes | 6 |
 
-Average: 2.0 estimated, 2.6 actual, 60% over, 40% scope creep, 4.6 days per round
+Average - 2.0 estimated, 2.6 actual, 60% over, 40% scope creep, 4.6 days per round
 
-Insight: Increase estimate to 3 rounds for next similar projects
+Insight - Increase estimate to 3 rounds for next similar projects
 ```
 
 Revision Prevention Through Better Requirements
@@ -381,9 +381,9 @@ Share this 2-week before design starts. Answers prevent 30-40% of revision round
 
 Communication Templates for Revision Management
 
-Email: Revision Round Closure
+Email - Revision Round Closure
 ```
-Subject: [Project]. Revision Round 2 Complete
+Subject - [Project]. Revision Round 2 Complete
 
 Hi [Client],
 
@@ -394,7 +394,7 @@ I've completed all the revision items from your feedback:
  Updated footer links
  Tested mobile responsiveness
 
-Updated designs are here: [Frame.io / Figma link]
+Updated designs are here - [Frame.io / Figma link]
 
 This completes revision round 2 of 2 included in the scope.
 
@@ -409,9 +409,9 @@ Best,
 [Your Name]
 ```
 
-Email: Scope Creep Offer
+Email - Scope Creep Offer
 ```
-Subject: [Project]. Design Expansion Opportunity
+Subject - [Project]. Design Expansion Opportunity
 
 Hi [Client],
 

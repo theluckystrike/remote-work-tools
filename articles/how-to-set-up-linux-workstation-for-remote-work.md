@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Choose Your Distribution
+Step 1 - Choose Your Distribution
 
 The distribution you choose sets the foundation for your entire setup. For remote work stability, you want something with long-term support and a predictable release cycle.
 
@@ -36,7 +36,7 @@ Ubuntu LTS provides the broadest hardware compatibility and the largest knowledg
 
 For most remote workers, Ubuntu 24.04 LTS or Fedora 40 strike the right balance between stability and modern tooling. Install with the full desktop environment, you can always strip down unnecessary packages later.
 
-Step 2: Desktop Environment Selection
+Step 2 - Desktop Environment Selection
 
 Your desktop environment determines how you interact with your system daily. Three options work well for remote work scenarios:
 
@@ -48,7 +48,7 @@ i3 or Sway suit users comfortable with keyboard-driven workflows. These tiling w
 
 Install your preferred environment and stick with it for at least a month before switching. Context switching between environments fragments your muscle memory and reduces productivity.
 
-Step 3: Essential Security Configuration
+Step 3 - Essential Security Configuration
 
 Remote work means your machine connects through various networks, making security critical from day one.
 
@@ -95,7 +95,7 @@ Disk Encryption
 
 If you work with sensitive data, enable LUKS encryption during installation. For existing systems, you can encrypt home directories, though full-disk encryption provides stronger guarantees.
 
-Step 4: Development Environment Setup
+Step 4 - Development Environment Setup
 
 A consistent development environment accelerates remote work productivity.
 
@@ -143,7 +143,7 @@ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 
 These tools let you switch between project dependencies without system-wide changes.
 
-Step 5: Remote Work Productivity Tools
+Step 5 - Remote Work Productivity Tools
 
 Communication Stack
 
@@ -193,7 +193,7 @@ sudo apt install keepassxc
 
 Generate unique passwords for every service and store them in your password manager.
 
-Step 6: Network and Connectivity
+Step 6 - Network and Connectivity
 
 Remote work requires reliable network configuration.
 
@@ -219,7 +219,7 @@ nmcli device wifi connect "YourNetwork" password "YourPassword"
 
 Make it executable and keep it in your path.
 
-Step 7: Backup Strategy
+Step 7 - Backup Strategy
 
 Remote work increases your machine's importance, you are your own data center.
 
@@ -246,7 +246,7 @@ rclone config  # Initial setup
 rclone sync ~/Documents remote:documents
 ```
 
-Step 8: System Maintenance
+Step 8 - System Maintenance
 
 A well-maintained system stays reliable.
 

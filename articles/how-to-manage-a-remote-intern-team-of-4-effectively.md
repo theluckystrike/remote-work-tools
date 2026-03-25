@@ -19,12 +19,12 @@ Managing four remote interns requires a different approach than managing senior 
 
 Table of Contents
 
-- [The Foundation: Clear Communication Channels](#the-foundation-clear-communication-channels)
-- [Task Management: Breaking Work Into Digestible Pieces](#task-management-breaking-work-into-digestible-pieces)
-- [Task: Implement User Authentication Flow](#task-implement-user-authentication-flow)
-- [Code Review: Building a Learning Loop](#code-review-building-a-learning-loop)
-- [Onboarding: Getting Remote Interns Productive Fast](#onboarding-getting-remote-interns-productive-fast)
-- [Measuring Success: What to Track](#measuring-success-what-to-track)
+- [The Foundation - Clear Communication Channels](#the-foundation-clear-communication-channels)
+- [Task Management - Breaking Work Into Digestible Pieces](#task-management-breaking-work-into-digestible-pieces)
+- [Task - Implement User Authentication Flow](#task-implement-user-authentication-flow)
+- [Code Review - Building a Learning Loop](#code-review-building-a-learning-loop)
+- [Onboarding - Getting Remote Interns Productive Fast](#onboarding-getting-remote-interns-productive-fast)
+- [Measuring Success - What to Track](#measuring-success-what-to-track)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Building a Lasting Program](#building-a-lasting-program)
 - [Intern Compensation Structure](#intern-compensation-structure)
@@ -34,20 +34,20 @@ Table of Contents
 - [Post-Internship Path](#post-internship-path)
 - [Common Intern Management Mistakes](#common-intern-management-mistakes)
 
-The Foundation: Clear Communication Channels
+The Foundation - Clear Communication Channels
 
 Remote intern teams succeed or fail based on how information flows. For a four-person intern team, establish three distinct communication tiers:
 
-Tier 1: Daily async check-ins (Slack/Discord)
+Tier 1 - Daily async check-ins (Slack/Discord)
 Each intern posts a brief update by 10 AM local time covering:
 - What they completed yesterday
 - What they're working on today
 - Any blockers or questions
 
-Tier 2: Weekly video syncs (30 minutes)
+Tier 2 - Weekly video syncs (30 minutes)
 A structured meeting with a rotating presenter format. Each intern spends 5 minutes demoing their work, then the team discusses challenges together.
 
-Tier 3: Bi-weekly 1:1s (20 minutes)
+Tier 3 - Bi-weekly 1:1s (20 minutes)
 Private meetings focused on career development, feedback, and concerns that shouldn't go public.
 
 Here's a simple Slack bot you can deploy to automate daily check-in reminders:
@@ -83,15 +83,15 @@ if __name__ == "__main__":
 
 Schedule this with a GitHub Action or cron job to run Monday through Friday.
 
-Task Management: Breaking Work Into Digestible Pieces
+Task Management - Breaking Work Into Digestible Pieces
 
 Interns often struggle with large, vague tasks. For remote intern work, break assignments into 2-4 hour chunks with clear acceptance criteria. Use a structured format for task creation:
 
 ```
-Task: Implement User Authentication Flow
+Task - Implement User Authentication Flow
 
-Expected outcome: Users can sign up, log in, and reset passwords
-Time estimate: 3-4 hours
+Expected outcome - Users can sign up, log in, and reset passwords
+Time estimate - 3-4 hours
 Prerequisites:
 - Completed onboarding setup
 - Reviewed authentication documentation
@@ -102,13 +102,13 @@ Definition of done:
 - [ ] Failed login shows appropriate error message
 Resources:
 - Senior dev: @jane (for questions)
-- Documentation: /docs/auth-guide.md
+- Documentation - /docs/auth-guide.md
 - Similar PR for reference: #142
 ```
 
 This format removes ambiguity and helps interns understand exactly what's expected. It also makes it easier for you to review their work without playing guess-the-requirement.
 
-Code Review: Building a Learning Loop
+Code Review - Building a Learning Loop
 
 Code review is where interns learn the most, but it can also be discouraging if handled poorly. Establish these practices for your remote intern team:
 
@@ -144,33 +144,33 @@ This way, your code review comments focus on logic, architecture, and learning o
 
 Frame feedback as teaching. Instead of "This is wrong," write "Consider using X because Y. Here's a good resource on this pattern: [link]."
 
-Onboarding: Getting Remote Interns Productive Fast
+Onboarding - Getting Remote Interns Productive Fast
 
 A remote intern's first week sets the tone. Here's a day-by-day onboarding checklist:
 
-Day 1: Environment setup
+Day 1 - Environment setup
 - Video call to meet the team
 - GitHub organization invite
 - Development environment setup (provide a detailed guide)
 - First "good first issue" assigned
 
-Day 2: Codebase orientation
+Day 2 - Codebase orientation
 - Walkthrough of architecture documentation
 - Local environment working
 - First commit merged (even if small)
 
-Day 3-4: Paired coding
+Day 3-4 - Paired coding
 - Shadow a senior developer for code reviews
 - Pair program on a small feature
 - Start working on first substantive task
 
-Day 5: First presentation
+Day 5 - First presentation
 - Intern presents what they learned about the codebase
 - Team asks questions and offers guidance
 
 This compressed timeline gets interns contributing within their first week, building confidence and momentum.
 
-Measuring Success: What to Track
+Measuring Success - What to Track
 
 For a four-person intern team, track these metrics weekly:
 
@@ -279,20 +279,20 @@ Post-Internship Path
 
 What happens after the program ends determines its real success:
 
-Path 1: Return Offer (Best Case)
+Path 1 - Return Offer (Best Case)
 - Offer within 2 weeks of program end
 - Include:
  - Salary based on market, not "intern rate"
  - Signing bonus ($500-2,000)
  - Start date flexibility (can start after school ends)
 
-Path 2: Extended Internship
+Path 2 - Extended Internship
 - Some interns aren't ready for full-time yet
 - Offer part-time continuation during school year
 - Typically 10-15 hrs/week for $20-30/hr
 - Provides continued pipeline and keeps relationship active
 
-Path 3: Warm Rejection
+Path 3 - Warm Rejection
 - If not offering position, still invest in relationship
 - Write detailed feedback on strengths
 - Introduce to other companies in your network
@@ -302,16 +302,16 @@ Former interns you've treated well become your best recruiting channel. Invest a
 
 Common Intern Management Mistakes
 
-Mistake 1: Treating interns as free labor
+Mistake 1 - Treating interns as free labor
 This destroys motivation and burns out your program. Interns should produce 60-70% as much as a junior, not serve as cheap developers.
 
-Mistake 2: No career development focus
+Mistake 2 - No career development focus
 If your internship is just task completion, you're wasting their time. Plan their growth as carefully as you'd plan a junior's growth.
 
-Mistake 3: Expecting them to figure things out
+Mistake 3 - Expecting them to figure things out
 Interns need significantly more structure than juniors. Provide templates, examples, and clear documentation.
 
-Mistake 4: Skipping real feedback
+Mistake 4 - Skipping real feedback
 "You're doing great!" means nothing. Specific, developmental feedback is the greatest gift you can give an intern.
 ---
 

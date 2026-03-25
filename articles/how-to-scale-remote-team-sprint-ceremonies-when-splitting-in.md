@@ -39,7 +39,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Squad-Specific Ceremonies: Keep Them Lean
+Step 1 - Squad-Specific Ceremonies: Keep Them Lean
 
 Each squad should maintain minimal synchronous ceremonies while pushing information to async channels.
 
@@ -80,7 +80,7 @@ async function collectStandupUpdates(channelId, userIds) {
 
 This script runs at a scheduled time each morning, collects responses from the previous 24 hours, and posts a consolidated view to the squad channel. Team members can catch up asynchronously without everyone being online simultaneously.
 
-Sprint Planning: Two-Hour Workshop Max
+Sprint Planning - Two-Hour Workshop Max
 
 For sprint planning, maintain a synchronous session but limit it to two hours maximum. Structure the agenda:
 
@@ -91,7 +91,7 @@ For sprint planning, maintain a synchronous session but limit it to two hours ma
 
 The key is moving individual story selection to async. Each developer reviews the sprint backlog beforehand and adds comments to tickets they intend to pick up. The synchronous portion focuses purely on coordination.
 
-Step 2: Cross-Squad Coordination: The Scrum of Scrums Alternative
+Step 2 - Cross-Squad Coordination: The Scrum of Scrums Alternative
 
 Rather than scheduling a separate "Scrum of Scrums" meeting that nobody enjoys, embed coordination into existing workflows.
 
@@ -177,14 +177,14 @@ jobs:
 
 This automation posts a dependency status report every Wednesday, giving teams visibility without requiring a live meeting.
 
-Step 3: Scaling Retrospectives: Rotate and Specialize
+Step 3 - Scaling Retrospectives: Rotate and Specialize
 
 Full-team retrospectives don't scale beyond two or three squads. Implement a rotating focus model:
 
-Week 1: Each squad runs their own retro (async or sync)
-Week 2: One squad presents findings to engineering leadership
-Week 3: Action items from all squads are consolidated and prioritized
-Week 4: Follow-up on previous action items
+Week 1 - Each squad runs their own retro (async or sync)
+Week 2 - One squad presents findings to engineering leadership
+Week 3 - Action items from all squads are consolidated and prioritized
+Week 4 - Follow-up on previous action items
 
 This distributes the retro load while still surfacing cross-team issues.
 
@@ -195,24 +195,24 @@ For async retros, use a structured document template:
 ```markdown
 Sprint {{sprintNumber}} Retrospective - {{squadName}}
 
-Step 4: What Went Well
+Step 4 - What Went Well
 - [ ]
 
-Step 5: What Could Improve
+Step 5 - What Could Improve
 - [ ]
 
-Step 6: Action Items
+Step 6 - Action Items
 | Item | Owner | Due |
 |------|-------|-----|
 |      |       |     |
 
-Step 7: Cross-Squad Blockers to Escalate
+Step 7 - Cross-Squad Blockers to Escalate
 -
 ```
 
 Each squad fills this out asynchronously. The Scrum Master or Engineering Manager consolidates cross-squad blockers and raises them in the next coordination touchpoint.
 
-Step 8: Practical Scheduling: Time Zone Consideration
+Step 8 - Practical Scheduling: Time Zone Consideration
 
 When squads span multiple time zones, ceremony timing requires deliberate rotation:
 

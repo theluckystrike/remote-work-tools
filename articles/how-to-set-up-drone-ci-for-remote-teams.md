@@ -17,15 +17,15 @@ tags: [remote-work-tools, remote-work]
 
 Drone CI is a container-native CI system where every pipeline step runs in a Docker container. There's no plugin system to fight with, no shared state between steps by default, and pipeline configs are just YAML that any developer can understand. For remote teams that self-host, Drone's simplicity reduces the operational burden compared to Jenkins.
 
-Remote teams get a specific benefit from Drone: the pipeline definition lives in the repository as `.drone.yml`, so every team member. regardless of time zone. has full visibility into what CI does and can propose changes through a standard pull request. There's no admin-only config hidden in a Jenkins web UI that only one person understands.
+Remote teams get a specific benefit from Drone - the pipeline definition lives in the repository as `.drone.yml`, so every team member. regardless of time zone. has full visibility into what CI does and can propose changes through a standard pull request. There's no admin-only config hidden in a Jenkins web UI that only one person understands.
 
 ---
 
 Architecture
 
 Drone has two components:
-- Server: Manages the web UI, API, and pipeline queue. One instance.
-- Runner: Executes pipeline steps on Docker. Run as many as needed.
+- Server - Manages the web UI, API, and pipeline queue. One instance.
+- Runner - Executes pipeline steps on Docker. Run as many as needed.
 
 Runners communicate with the server over HTTP. The server stores state in SQLite or PostgreSQL.
 

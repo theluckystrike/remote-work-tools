@@ -19,19 +19,19 @@ Your loud mechanical keyboard echoes through your home office during client call
 
 Table of Contents
 
-- [Understanding Keyboard Noise: Decibels and Perception](#understanding-keyboard-noise-decibels-and-perception)
+- [Understanding Keyboard Noise - Decibels and Perception](#understanding-keyboard-noise-decibels-and-perception)
 - [Silent Switch Types and Specifications](#silent-switch-types-and-specifications)
-- [Keyboard Comparison: Silent Switch Boards](#keyboard-comparison-silent-switch-boards)
+- [Keyboard Comparison - Silent Switch Boards](#keyboard-comparison-silent-switch-boards)
 - [Silent vs. Standard Mechanical Comparison](#silent-vs-standard-mechanical-comparison)
 - [Sound Testing Methodology](#sound-testing-methodology)
-- [Remote Work Considerations: Microphone Pickup](#remote-work-considerations-microphone-pickup)
+- [Remote Work Considerations - Microphone Pickup](#remote-work-considerations-microphone-pickup)
 - [Real-World Remote Work Scenarios](#real-world-remote-work-scenarios)
 - [Switch Lifespan and Durability](#switch-lifespan-and-durability)
 - [Budget Allocation for Remote Keyboard](#budget-allocation-for-remote-keyboard)
 - [Recommendation by Use Case](#recommendation-by-use-case)
 - [Final Word](#final-word)
 
-Understanding Keyboard Noise: Decibels and Perception
+Understanding Keyboard Noise - Decibels and Perception
 
 Mechanical keyboards produce noise from two sources: the switch activation and key bottoming out. Silent switches address the switch mechanism. Case damping reduces bottoming noise.
 
@@ -65,11 +65,11 @@ Real-world test results (using calibrated SPL meter, 50cm distance):
 
 Testing conducted in residential environment with typical office noise baseline (~42dB). During Zoom calls, Cherry MX Silent Red registers as "quiet mechanical keyboard" rather than "typing is barely noticeable."
 
-Sound signature: Soft, muffled thump. No clicky noise. The stem itself is recessed with rubber dampener, eliminating the metallic spring ping of standard switches.
+Sound signature - Soft, muffled thump. No clicky noise. The stem itself is recessed with rubber dampener, eliminating the metallic spring ping of standard switches.
 
-Price: $0.70-$1.20 per switch (120-switch keyboard would cost $84-$144 in switch costs alone)
+Price - $0.70-$1.20 per switch (120-switch keyboard would cost $84-$144 in switch costs alone)
 
-Tactile feedback: None. Linear switches appeal to people who like smooth, uninterrupted travel. Developers typing code benefit from linearity since you don't need tactile feedback to confirm keystroke registration.
+Tactile feedback - None. Linear switches appeal to people who like smooth, uninterrupted travel. Developers typing code benefit from linearity since you don't need tactile feedback to confirm keystroke registration.
 
 Gateron Silent Brown (Tactile)
 
@@ -88,11 +88,11 @@ Real-world test results:
 
 Slightly noisier than Cherry MX Silent Red due to tactile stem design, but the bump provides feedback that many developers prefer. You know the key registered without hearing an audible click.
 
-Sound signature: Soft thump with slight dampened tactile bump sound. More similar to typing on a rubber dome keyboard than Cherry MX.
+Sound signature - Soft thump with slight dampened tactile bump sound. More similar to typing on a rubber dome keyboard than Cherry MX.
 
-Price: $0.35-$0.65 per switch (significantly cheaper than Cherry)
+Price - $0.35-$0.65 per switch (significantly cheaper than Cherry)
 
-Tactile feedback: 65cN bump force creates noticeable tactile sensation. Popular with developers who type fast and rely on feel confirmation.
+Tactile feedback - 65cN bump force creates noticeable tactile sensation. Popular with developers who type fast and rely on feel confirmation.
 
 Outemu Silent Mechanical (Budget Option)
 
@@ -111,11 +111,11 @@ Real-world test results:
 
 Noticeably louder than Cherry or Gateron. The shorter travel distance also reduces feedback feel. Outemu switches are significantly cheaper but longevity concerns emerge after 6-12 months of heavy use.
 
-Price: $0.10-$0.20 per switch
+Price - $0.10-$0.20 per switch
 
 Budget-friendly for testing mechanical keyboards, but long-term durability questionable for full-time remote developers typing 50+ hours per week.
 
-Keyboard Comparison: Silent Switch Boards
+Keyboard Comparison - Silent Switch Boards
 
 Silent switches alone don't guarantee quiet typing. Case damping, stabilizer quality, and PCB mounting affect overall noise.
 
@@ -127,7 +127,7 @@ Specifications:
 - Switch: Keychron Gateron Silent Brown (default) or upgradeable to Cherry MX Silent Red
 - Case: Aluminum body with gasket-mounted PCB
 - Layout: 75% (compact, no numpad)
-- Wireless: Bluetooth 5.1 + USB-C wired
+- Wireless - Bluetooth 5.1 + USB-C wired
 - Battery: 4,000mAh (50-hour runtime)
 - Customization: QMK firmware, remappable keys
 
@@ -150,9 +150,9 @@ The gasket mounting system isolates the PCB from the case, reducing vibration tr
 - Premium price point ($200+ with switches)
 - Overkill features if you don't care about RGB or wireless
 
-Price: $180-$220 (barebones) + $50-$100 for switches if not included
+Price - $180-$220 (barebones) + $50-$100 for switches if not included
 
-Best for: Remote developers who want professional appearance, wireless capability, and are willing to spend for quality. The 75% layout offers numpad convenience without full 104-key desk footprint.
+Best for - Remote developers who want professional appearance, wireless capability, and are willing to spend for quality. The 75% layout offers numpad convenience without full 104-key desk footprint.
 
 Leopold FC660M (Cherry MX Silent Red with Topre-inspired design)
 
@@ -187,9 +187,9 @@ Wooden case provides natural vibration dampening that aluminum cases cannot matc
 - Harder to find (limited availability, order from Korea takes time)
 - Smaller 65% layout may feel cramped if you use function keys frequently
 
-Price: $180-$250 depending on origin and switch choice
+Price - $180-$250 depending on origin and switch choice
 
-Best for: Remote developers prioritizing silence above all else, who don't need wireless, and work in minimalist environments. Leopold resells on secondary markets for $150-$200.
+Best for - Remote developers prioritizing silence above all else, who don't need wireless, and work in minimalist environments. Leopold resells on secondary markets for $150-$200.
 
 Durgod Hades 68 (Gateron Silent Brown)
 
@@ -222,9 +222,9 @@ Louder than Leopold/Keychron due to tray mount design (no gasket isolation), but
 - Single backlight color limiting
 - Plastic case has more resonance than wood/aluminum
 
-Price: $80-$120
+Price - $80-$120
 
-Best for: Budget-conscious remote developers, students, or anyone testing mechanical keyboards. Noise acceptable for home offices but audible on Zoom calls. The option to add dampening materials yourself makes it upgradeable.
+Best for - Budget-conscious remote developers, students, or anyone testing mechanical keyboards. Noise acceptable for home offices but audible on Zoom calls. The option to add dampening materials yourself makes it upgradeable.
 
 Silent vs. Standard Mechanical Comparison
 
@@ -246,7 +246,7 @@ Testing conducted using:
 
 Results represent peak levels during typing, not sustained averages. Actual Zoom audio pickup depends on microphone positioning and settings.
 
-Remote Work Considerations: Microphone Pickup
+Remote Work Considerations - Microphone Pickup
 
 Your keyboard noise only matters if your microphone picks it up. Microphone placement and gain settings control this more than keyboard choice.
 
@@ -261,25 +261,25 @@ Using standard USB webcam microphone (positioned 30cm away):
 Microphone gain optimization:
 Reducing microphone gain by -6dB (halving amplitude) makes 52dB keyboard sound like 49dB baseline. Most USB mics allow this in Zoom settings. If you're using a budget microphone, gain adjustment is more impactful than keyboard choice.
 
-Best practice: Use headset microphone (positioned at mouth, not keyboard) rather than built-in webcam microphone. A $40 headset microphone captures your voice clearly while suppressing keyboard noise better than positioning an USB mic optimally.
+Best practice - Use headset microphone (positioned at mouth, not keyboard) rather than built-in webcam microphone. A $40 headset microphone captures your voice clearly while suppressing keyboard noise better than positioning an USB mic optimally.
 
 Real-World Remote Work Scenarios
 
-Scenario 1: Morning standup meeting (5-10 people)
+Scenario 1 - Morning standup meeting (5-10 people)
 - Leopold FC660M: No one comments on typing noise
 - Keychron Q1: Only noticeable if you're typing during others' updates
 - Durgod Hades: Colleagues ask you to stop typing during screen share
 
-Scenario 2: Pair programming (screen sharing + co-editing)
-- Leopold/Keychron: Acceptable. Other developer occasionally hears typing, not distracting
+Scenario 2 - Pair programming (screen sharing + co-editing)
+- Leopold/Keychron - Acceptable. Other developer occasionally hears typing, not distracting
 - Durgog Hades: Typing is audible enough that partner suggests working separately
 
-Scenario 3: Client calls (executive presence)
+Scenario 3 - Client calls (executive presence)
 - Leopold FC660M: Professional audio quality, zero noise concerns
 - Keychron Q1: Professional, only noticeable during extended typing
 - Durgod Hades: Recommend avoiding typing during client speaking
 
-Scenario 4: Async Loom recordings (video + audio)
+Scenario 4 - Async Loom recordings (video + audio)
 - Leopold/Keychron: Clean audio, typing is background acceptable
 - Durgod Hades: Typing becomes prominent in recording, may require re-recording
 
@@ -297,7 +297,7 @@ Cherry MX exceeds specifications, while Gateron and Outemu tend toward lower end
 
 Budget Allocation for Remote Keyboard
 
-Total cost consideration: keyboard + switches + keycaps + case modifications.
+Total cost consideration - keyboard + switches + keycaps + case modifications.
 
 Budget option ($120 total):
 - Durgog Hades 68 ($100)
@@ -316,7 +316,7 @@ Premium ($280+ total):
 
 Recommendation by Use Case
 
-Quiet office/shared space: Leopold FC660M (48-52dB absolute minimum)
+Quiet office/shared space - Leopold FC660M (48-52dB absolute minimum)
 
 Home office with family/roommates: Keychron Q1 (49-54dB, wireless convenient for moving between rooms)
 
@@ -324,7 +324,7 @@ Solo home office with mic discipline: Durgod Hades with foam dampening ($100, st
 
 Testing mechanical keyboards for first time: Durgod Hades ($100, upgrade if you love mechanical feel)
 
-Frequently on Zoom/client calls: Leopold or Keychron (prioritize reliability and silence)
+Frequently on Zoom/client calls - Leopold or Keychron (prioritize reliability and silence)
 
 Final Word
 

@@ -25,9 +25,9 @@ Table of Contents
 - [Comparing Top EOR Services for Engineering Teams](#comparing-top-eor-services-for-engineering-teams)
 - [Making Your Decision](#making-your-decision)
 - [Implementation Example](#implementation-example)
-- [Regional Deep Dive: Eastern Europe](#regional-deep detailed look-eastern-europe)
-- [Regional Deep Dive: Latin America](#regional-deep detailed look-latin-america)
-- [Regional Deep Dive: Asia-Pacific](#regional-deep detailed look-asia-pacific)
+- [Regional Deep Dive - Eastern Europe](#regional-deep detailed look-eastern-europe)
+- [Regional Deep Dive - Latin America](#regional-deep detailed look-latin-america)
+- [Regional Deep Dive - Asia-Pacific](#regional-deep detailed look-asia-pacific)
 - [Evaluating Salary Ranges by Country](#evaluating-salary-ranges-by-country)
 - [Common EOR Pitfalls to Avoid](#common-eor-pitfalls-to-avoid)
 - [API and Integration Deep Dive](#api-and-integration-deep detailed look)
@@ -107,29 +107,29 @@ Deel
 
 Deel has become one of the most recognized EOR platforms, offering employment in over 90 countries. They provide both contractor management and full-time employment options. Their platform includes built-in compliance checks, automated payroll, and equity management tools.
 
-Strengths: Strong US presence, excellent developer-focused features, equity handling
-Considerations: Pricing can be higher than some competitors for smaller teams
+Strengths - Strong US presence, excellent developer-focused features, equity handling
+Considerations - Pricing can be higher than some competitors for smaller teams
 
 Remote
 
 Formerly known as Remby, Remote offers employment in 50+ countries with a focus on compliant onboarding. They provide competitive benefits packages and handle complex scenarios like remote-to-onsite transitions.
 
-Strengths: Strong European coverage, transparent pricing, benefits-first approach
-Considerations: Limited coverage in some Asian markets compared to competitors
+Strengths - Strong European coverage, transparent pricing, benefits-first approach
+Considerations - Limited coverage in some Asian markets compared to competitors
 
 Oyster
 
 Oyster specializes in remote team hiring with employment options in 180+ countries. They emphasize compliant employment contracts and provide benefits administration. Their platform appeals to companies prioritizing employee experience.
 
-Strengths: Extensive global coverage, strong compliance documentation, team management features
-Considerations: Pricing structure may be less predictable for variable team sizes
+Strengths - Extensive global coverage, strong compliance documentation, team management features
+Considerations - Pricing structure may be less predictable for variable team sizes
 
 Pilot
 
 Pilot focuses on US-based remote teams, offering employment in all 50 states. While their international coverage is more limited, they excel at handling US employment complexity, including state-specific compliance requirements.
 
-Strengths: Excellent US coverage, strong payroll features, startup-friendly pricing
-Considerations: Limited to primarily US-focused hiring needs
+Strengths - Excellent US coverage, strong payroll features, startup-friendly pricing
+Considerations - Limited to primarily US-focused hiring needs
 
 Making Your Decision
 
@@ -169,7 +169,7 @@ eor_provider:
     equipment_budget: 1500
 ```
 
-Regional Deep Dive: Eastern Europe
+Regional Deep Dive - Eastern Europe
 
 Poland, Romania, Ukraine, and Czech Republic have become popular hiring destinations due to strong engineering talent and reasonable compensation expectations.
 
@@ -186,7 +186,7 @@ Remote's Eastern Europe approach:
 
 For cost-conscious teams seeking strong technical talent, Eastern Europe offers the best value. Both Deel and Remote have strong infrastructure here.
 
-Regional Deep Dive: Latin America
+Regional Deep Dive - Latin America
 
 Mexico, Argentina, and Colombia attract developers seeking US proximity and cultural alignment.
 
@@ -203,7 +203,7 @@ Oyster's Latin America approach:
 
 For US-based companies hiring Latin American developers, Deel offers fastest onboarding and clearest tax compliance.
 
-Regional Deep Dive: Asia-Pacific
+Regional Deep Dive - Asia-Pacific
 
 Philippines, India, Singapore, and Vietnam offer cost-effective hiring but require more diligent quality assessment.
 

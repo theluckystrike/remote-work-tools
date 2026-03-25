@@ -137,7 +137,7 @@ OIDC Authentication (Keycloak)
 Harbor Admin UI > Administration > Configuration > Authentication
   Auth Mode: OIDC Provider
   OIDC Provider Name: Company SSO
-  OIDC Endpoint: https://auth.example.com/realms/company
+  OIDC Endpoint - https://auth.example.com/realms/company
   OIDC Client ID: harbor
   OIDC Client Secret: your-client-secret
   OIDC Scope: openid,email,profile,groups
@@ -252,7 +252,7 @@ curl -X POST "https://registry.example.com/api/v2.0/registries" \
     "insecure": false
   }'
 
-Create replication rule: push production to ECR on push
+Create replication rule - push production to ECR on push
 curl -X POST "https://registry.example.com/api/v2.0/replication/policies" \
   -H "Content-Type: application/json" \
   -u "admin:your-admin-password" \
@@ -275,7 +275,7 @@ Daily Garbage Collection
 ```bash
 Schedule GC via Harbor admin UI:
 Administration > Garbage Collection > GC Settings
-Schedule: Daily at 02:00 UTC
+Schedule - Daily at 02:00 UTC
 
 Or trigger manually
 curl -X POST "https://registry.example.com/api/v2.0/system/gc/schedule" \
@@ -289,13 +289,13 @@ Pull Images
 ```bash
 Login
 docker login registry.example.com
-Username: alice (or robot account)
-Password: your-password or token
+Username - alice (or robot account)
+Password - your-password or token
 
 Pull
 docker pull registry.example.com/production/my-app:v1.2.3
 
-Kubernetes: create imagePullSecret
+Kubernetes - create imagePullSecret
 kubectl create secret docker-registry harbor-secret \
   --docker-server=registry.example.com \
   --docker-username=robot$ci-robot \
@@ -485,7 +485,7 @@ metric:
   path: /metrics
 ```
 
-Key metrics to alert on: `harbor_project_artifact_total` (artifact count growth), `harbor_jobservice_job_total` with status `Error` (replication or scan job failures), and `harbor_registry_request_duration_seconds` for pull latency. A Grafana dashboard built on these three signals covers the most common operational failure modes without requiring deep Harbor expertise.
+Key metrics to alert on - `harbor_project_artifact_total` (artifact count growth), `harbor_jobservice_job_total` with status `Error` (replication or scan job failures), and `harbor_registry_request_duration_seconds` for pull latency. A Grafana dashboard built on these three signals covers the most common operational failure modes without requiring deep Harbor expertise.
 
 Related Reading
 

@@ -20,14 +20,14 @@ Building an async product discovery process for remote teams using recorded inte
 Table of Contents
 
 - [Why Async Discovery with Recorded Interviews Works](#why-async-discovery-with-recorded-interviews-works)
-- [Step 1: Set Up Your Recording Infrastructure](#step-1-set-up-your-recording-infrastructure)
-- [Step 2: Structure Your Discovery Interview](#step-2-structure-your-discovery-interview)
-- [Interview Guide: Feature Discovery Session](#interview-guide-feature-discovery-session)
-- [Step 3: Create Your Async Review Workflow](#step-3-create-your-async-review-workflow)
+- [Step 1 - Set Up Your Recording Infrastructure](#step-1-set-up-your-recording-infrastructure)
+- [Step 2 - Structure Your Discovery Interview](#step-2-structure-your-discovery-interview)
+- [Interview Guide - Feature Discovery Session](#interview-guide-feature-discovery-session)
+- [Step 3 - Create Your Async Review Workflow](#step-3-create-your-async-review-workflow)
 - [Interview #14 - Enterprise User Discovery](#interview-14-enterprise-user-discovery)
-- [Step 4: Synthesize Findings Async](#step-4-synthesize-findings-async)
-- [Step 5: Iterate and Improve Your Process](#step-5-iterate-and-improve-your-process)
-- [Practical Example: Weekly Discovery Cycle](#practical-example-weekly-discovery-cycle)
+- [Step 4 - Synthesize Findings Async](#step-4-synthesize-findings-async)
+- [Step 5 - Iterate and Improve Your Process](#step-5-iterate-and-improve-your-process)
+- [Practical Example - Weekly Discovery Cycle](#practical-example-weekly-discovery-cycle)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Tools That Support Async Discovery](#tools-that-support-async-discovery)
 - [Moving Forward](#moving-forward)
@@ -41,12 +41,12 @@ Table of Contents
 - [Detailed Observation Template](#detailed-observation-template)
 - [Interview Observation Form](#interview-observation-form)
 - [Async Synthesis Meeting Alternative](#async-synthesis-meeting-alternative)
-- [Day 1-3: Individual Review](#day-1-3-individual-review)
-- [Day 4-5: Clustering](#day-4-5-clustering)
-- [Day 6-7: Refinement](#day-6-7-refinement)
-- [Day 8: Synthesis Document](#day-8-synthesis-document)
-- [Day 9: Alignment Check](#day-9-alignment-check)
-- [Timeline: 2 weeks from interviews to decisions](#timeline-2-weeks-from-interviews-to-decisions)
+- [Day 1-3 - Individual Review](#day-1-3-individual-review)
+- [Day 4-5 - Clustering](#day-4-5-clustering)
+- [Day 6-7 - Refinement](#day-6-7-refinement)
+- [Day 8 - Synthesis Document](#day-8-synthesis-document)
+- [Day 9 - Alignment Check](#day-9-alignment-check)
+- [Timeline - 2 weeks from interviews to decisions](#timeline-2-weeks-from-interviews-to-decisions)
 - [Metrics for Async Discovery Process](#metrics-for-async-discovery-process)
 
 This approach works particularly well for remote product teams with members across multiple time zones, freelance product managers working with clients globally, or distributed startups that cannot afford to synchronize everyone for live interviews.
@@ -61,7 +61,7 @@ The benefits extend beyond scheduling. Recorded sessions allow repeated viewing,
 
 There's a quality dimension too. Research from IDEO and Nielsen Norman Group consistently shows that users reveal more in recorded interviews that they know will be watched by multiple stakeholders, the interview framing signals that the company takes their input seriously. Async review also lets team members with domain expertise watch with focused attention, rather than half-listening while managing their own video call presence.
 
-Step 1: Set Up Your Recording Infrastructure
+Step 1 - Set Up Your Recording Infrastructure
 
 You need reliable recording tools that capture both video and audio clearly. Several options work well for product discovery:
 
@@ -75,7 +75,7 @@ Grain and Dovetail are specialized tools built specifically for user research. B
 
 For the actual interview setup, position the camera to show both the interviewer and any materials being discussed. Use a dedicated microphone rather than built-in laptop audio, a $50 USB microphone eliminates audio quality as a reason for team members to skip watching recordings. Test recording quality before conducting actual user interviews.
 
-Step 2: Structure Your Discovery Interview
+Step 2 - Structure Your Discovery Interview
 
 A well-structured interview yields better recordings. Prepare a discussion guide that covers:
 
@@ -90,7 +90,7 @@ Keep each interview to 45-60 minutes maximum. Longer sessions produce lower qual
 Example interview guide structure in markdown:
 
 ```markdown
-Interview Guide: Feature Discovery Session
+Interview Guide - Feature Discovery Session
 
 Opening
 - Thank participant for their time
@@ -117,9 +117,9 @@ Closing
 11. Any questions for us?
 ```
 
-One underappreciated element: the closing question "who else should we talk to?" is your most effective recruiting tool. Warm referrals from existing participants produce better interview candidates than cold outreach to your user base, and participants referred by peers arrive already primed to engage candidly.
+One underappreciated element - the closing question "who else should we talk to?" is your most effective recruiting tool. Warm referrals from existing participants produce better interview candidates than cold outreach to your user base, and participants referred by peers arrive already primed to engage candidly.
 
-Step 3: Create Your Async Review Workflow
+Step 3 - Create Your Async Review Workflow
 
 Recording interviews is only valuable if your team actually reviews them. Establish a systematic async review workflow:
 
@@ -148,7 +148,7 @@ Key Insights
 3. Export functionality is a blocker for larger teams
 ```
 
-Step 4: Synthesize Findings Async
+Step 4 - Synthesize Findings Async
 
 After several interviews, synthesize findings without requiring a live synthesis meeting:
 
@@ -173,7 +173,7 @@ Distribute this summary async. Team members comment and react over 24-48 hours. 
 
 Quote curation is worth a dedicated step. Extract 5-10 direct user quotes that represent the findings compellingly. Verbatim quotes from interviews carry persuasive weight with stakeholders that paraphrased summaries don't. When making a case for a product decision to leadership, "seven users told us they abandon the flow at step 3" lands differently when followed by a 20-second video clip of a real user saying it.
 
-Step 5: Iterate and Improve Your Process
+Step 5 - Iterate and Improve Your Process
 
 Your async discovery process will improve with use. Track metrics that matter:
 
@@ -185,19 +185,19 @@ Adjust your approach based on what you learn. If reviews are lagging, try shorte
 
 A 5-minute highlight reel is often more effective than asking engineers or designers to watch a full 45-minute session. Tools like Grain, Dovetail, and even Loom's chapter feature let you clip the most relevant 3-5 moments and share those segments alone. Most team members will watch a 5-minute clip; fewer will commit to watching a full interview when competing priorities exist.
 
-Practical Example: Weekly Discovery Cycle
+Practical Example - Weekly Discovery Cycle
 
 A remote product team spanning UTC-8 to UTC+8 might run this weekly cadence:
 
-Monday: Conduct 2-3 user interviews (some team members watch live if their timezone allows)
+Monday - Conduct 2-3 user interviews (some team members watch live if their timezone allows)
 
-Tuesday: Team members watch recordings asynchronously. Each person adds 3-5 timestamped observations to the shared document.
+Tuesday - Team members watch recordings asynchronously. Each person adds 3-5 timestamped observations to the shared document.
 
-Wednesday: Product manager reviews all observations, updates the affinity map, and identifies top themes.
+Wednesday - Product manager reviews all observations, updates the affinity map, and identifies top themes.
 
-Thursday: Product manager publishes discovery summary. Team members comment with questions or additional context.
+Thursday - Product manager publishes discovery summary. Team members comment with questions or additional context.
 
-Friday: Quick async check - does anyone object to the proposed priorities? If consensus forms, move forward. If not, flag for discussion.
+Friday - Quick async check - does anyone object to the proposed priorities? If consensus forms, move forward. If not, flag for discussion.
 
 This cadence keeps discovery flowing without requiring everyone to synchronize their calendars. It also creates a natural 5-day feedback loop: insights from Monday's interviews inform Friday's product decisions, maintaining momentum that live-only teams often lose when scheduling delays push synthesis meetings weeks out.
 
@@ -352,10 +352,10 @@ Use this template when watching recorded interviews:
 ```markdown
 Interview Observation Form
 
-Interviewer: [Name]
-Participant: [Role/Segment]
-Date: [YYYY-MM-DD]
-Duration: [Minutes]
+Interviewer - [Name]
+Participant - [Role/Segment]
+Date - [YYYY-MM-DD]
+Duration - [Minutes]
 
 Emotional Reactions (Watch for facial expressions, tone)
 - [00:45] - When you mentioned X, participant smiled/frowned
@@ -383,9 +383,9 @@ Competitive Context
 - [Alternative approach] - Manual workaround: [process]
 
 Overall Sentiment
-Enthusiasm level: [ ] Very High [ ] High [ ] Neutral [ ] Low [ ] Very Low
-Likelihood to adopt solution: [1-10]
-Best contact for follow-up: [Email/Slack handle]
+Enthusiasm level - [ ] Very High [ ] High [ ] Neutral [ ] Low [ ] Very Low
+Likelihood to adopt solution - [1-10]
+Best contact for follow-up - [Email/Slack handle]
 
 Key Insights
 1. [Insight from this interview]
@@ -400,36 +400,36 @@ Instead of live synthesis meetings, use this async process:
 ```markdown
 Async Synthesis Workflow (No Live Meeting Required)
 
-Day 1-3: Individual Review
+Day 1-3 - Individual Review
 - Each team member watches 2-3 assigned interviews
 - Records observations using template above
 - Posts observations to shared document
 
-Day 4-5: Clustering
+Day 4-5 - Clustering
 - Product manager reviews all observations
 - Groups similar themes together
 - Creates preliminary affinity map
 - Posts draft to team channel for feedback
 
-Day 6-7: Refinement
+Day 6-7 - Refinement
 - Team comments on groupings
 - Suggest alternative themes
 - Highlight strongest supporting quotes
 - Vote on priority of themes
 
-Day 8: Synthesis Document
+Day 8 - Synthesis Document
 - Product manager drafts discovery summary
 - Include: themes, quotes, frequency, confidence
 - Post to team Slack
 - Async comments for 24 hours
 
-Day 9: Alignment Check
+Day 9 - Alignment Check
 - Async poll: "Do you agree with top 3 findings?"
 - If 70%+ agreement: move forward
 - If not: schedule brief 30-min discussion
 - Document final findings
 
-Timeline: 2 weeks from interviews to decisions
+Timeline - 2 weeks from interviews to decisions
 ```
 
 Metrics for Async Discovery Process

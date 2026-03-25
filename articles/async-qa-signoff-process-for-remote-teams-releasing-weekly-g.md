@@ -25,7 +25,7 @@ The key benefits include eliminating meeting scheduling overhead, providing a pe
 
 Building Your Async QA Signoff Workflow
 
-Step 1: Define Clear Signoff Categories
+Step 1 - Define Clear Signoff Categories
 
 Not all changes require the same level of review. Categorize your signoffs to avoid over-processing:
 
@@ -54,7 +54,7 @@ signoff_categories:
     slack_channel: "#qa-routine"
 ```
 
-Step 2: Structure Your Pull Request for Async Review
+Step 2 - Structure Your Pull Request for Async Review
 
 Effective async QA starts with well-structured pull requests. Reviewers need context, test coverage details, and clear acceptance criteria to provide meaningful signoff.
 
@@ -83,15 +83,15 @@ Testing Notes
 - Network: 3G throttle, offline mode
 ```
 
-Step 3: Implement Async Review Comments
+Step 3 - Implement Async Review Comments
 
 Use a structured comment format to make async feedback actionable. Here's a template your team can adopt:
 
 ```markdown
-QA Review: [Feature Name]
+QA Review - [Feature Name]
 
-Reviewer: @username
-Date: YYYY-MM-DD
+Reviewer - @username
+Date - YYYY-MM-DD
 
 Findings
 
@@ -108,10 +108,10 @@ Signoff Status
 - [ ] Needs revision (block release)
 - [ ] Needs discussion (schedule sync)
 
-Notes: Overall the feature works well. The validation issue should be fixed before merge.
+Notes - Overall the feature works well. The validation issue should be fixed before merge.
 ```
 
-Step 4: Automate Reminders and Status Updates
+Step 4 - Automate Reminders and Status Updates
 
 Weekly release cadence demands automation to keep async processes moving. Set up reminders that prompt reviewers without creating notification fatigue:
 
@@ -137,7 +137,7 @@ def check_pending_signoffs():
                 # Integration with Slack would go here
 ```
 
-Step 5: Handle Disagreements Asynchronously
+Step 5 - Handle Disagreements Asynchronously
 
 When reviewers disagree, avoid the temptation to immediately schedule a meeting. Use async discussion to clarify:
 
@@ -151,14 +151,14 @@ Document disagreements and their resolution in the PR for future reference:
 ```markdown
 Discussion Log
 
-Issue: Button color contrast does not meet WCAG AA standards
+Issue - Button color contrast does not meet WCAG AA standards
 
 - @reviewer1 (2026-03-14): The current #4A90D9 fails contrast ratio. Need #2E6DA4 or higher.
 - @developer (2026-03-14): The darker shade looks too similar to secondary buttons.
 - @reviewer1 (2026-03-14): What about #1E5F8C? Passes AA and distinguishable from #3A7BC8.
 - @developer (2026-03-15): Tested #1E5F8C - works well. Updating now.
 
-Resolution: Changed button to #1E5F8C per @reviewer1 suggestion.
+Resolution - Changed button to #1E5F8C per @reviewer1 suggestion.
 ```
 
 Slack Integration for Remote Teams
@@ -183,7 +183,7 @@ jobs:
           fields: repo, message, author
           custom_payload: |
             {
-              "text": "QA Review Needed: ${{ github.event.pull_request.title }}",
+              "text": "QA Review Needed - ${{ github.event.pull_request.title }}",
               "blocks": [
                 {
                   "type": "section",

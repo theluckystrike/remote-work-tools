@@ -55,7 +55,7 @@ Email remains the gold standard for asynchronous, documented communication. Use 
 - Formal approvals and contracts
 - status updates that need to be referenced later
 
-A good rule: if the information needs to be searchable in 6 months, use email.
+A good rule - if the information needs to be searchable in 6 months, use email.
 
 When to Use Slack
 
@@ -139,7 +139,7 @@ Status Indicators:
 - Set email out-of-office for extended absences
 - Block calendar time for deep work
 
-Code Snippet: Channel Preference Configuration
+Code Snippet - Channel Preference Configuration
 
 For teams using Slack and email integrations, consider this pattern for automated routing:
 

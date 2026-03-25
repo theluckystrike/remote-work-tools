@@ -31,7 +31,7 @@ Table of Contents
 - [Digital Tools for Distraction Prevention](#digital-tools-for-distraction-prevention)
 - [Managing Interruptions From Others](#managing-interruptions-from-others)
 - [Measuring Distraction Quantitatively](#measuring-distraction-quantitatively)
-- [The Exception: Collaborative Flow](#the-exception-collaborative-flow)
+- [The Exception - Collaborative Flow](#the-exception-collaborative-flow)
 - [Workspace Optimization for Different Work Modes](#workspace-optimization-for-different-work-modes)
 - [The 90-Minute Focus Ultradian Rhythm](#the-90-minute-focus-ultradian-rhythm)
 - [Digital Hygiene Routines](#digital-hygiene-routines)
@@ -82,7 +82,7 @@ On Linux, use `dunst` configuration or `mako` for notification daemon control. C
 ```bash
 #!/bin/bash
 toggle-notifications.sh
-Usage: ./toggle-notifications.sh [on|off]
+Usage - ./toggle-notifications.sh [on|off]
 
 case "$1" in
     on)
@@ -162,7 +162,7 @@ For longer sessions, time-blocking works better:
 ```bash
 #!/bin/bash
 focus-timer.sh
-Usage: ./focus-timer.sh [minutes]
+Usage - ./focus-timer.sh [minutes]
 
 MINUTES=${1:-25}
 END_TIME=$(( $(date +%s) + MINUTES * 60 ))
@@ -175,7 +175,7 @@ while [ $(date +%s) -lt $END_TIME ]; do
 done
 
 echo -e "\nFocus session complete!"
-Optional: Play a notification sound
+Optional - Play a notification sound
 afplay /System/Library/Sounds/Glass.aif
 ```
 
@@ -204,45 +204,45 @@ Physical Equipment Investments That Actually Reduce Distraction
 
 Some tools genuinely improve focus more than others. This is worth budget allocation.
 
-Noise-canceling headphones ($150-400): Sony WH-1000XM5 ($398), Apple AirPods Max ($549), or Bose QuietComfort 45 ($350). Active noise cancellation reduces intermittent distractions by 15-20dB. For developers in households with activity, this is transformative. They also work over video calls without feedback.
+Noise-canceling headphones ($150-400): Sony WH-1000XM5 ($398), Apple AirPods Max ($549), or Bose QuietComfort 45 ($350). Active noise cancellation reduces intermittent distractions by 15-20dB. For developers in households with activity, this is changing. They also work over video calls without feedback.
 
-Monitor upgrade (cost varies): Poor monitor quality causes eye strain which pulls focus constantly. If using a screen from 2015+, upgrading to a modern 27" 4K display ($300-600) with USB-C connectivity reduces cable clutter and improves long-session comfort.
+Monitor upgrade (cost varies) - Poor monitor quality causes eye strain which pulls focus constantly. If using a screen from 2015+, upgrading to a modern 27" 4K display ($300-600) with USB-C connectivity reduces cable clutter and improves long-session comfort.
 
-Monitor light filter ($30-50): Reduces blue light without software, improving late-afternoon focus. Examples: BenQ ScreenBar ($65-110) clips to monitor top and provides ambient bias lighting that reduces contrast fatigue.
+Monitor light filter ($30-50) - Reduces blue light without software, improving late-afternoon focus. Examples - BenQ ScreenBar ($65-110) clips to monitor top and provides ambient bias lighting that reduces contrast fatigue.
 
 Mechanical keyboard with quiet switches ($80-200): Satisfying to use, ergonomic, customizable. Switches labeled "quiet" (like Cherry MX Silent, ~65dB) maintain responsiveness without auditory feedback that can distract. Mechanical keyboards also last 5+ years, amortizing the cost.
 
-Standing desk converter ($200-400): Sit-stand alternation prevents the physical stagnation that manifests as attention drift. When your body feels stuck, your mind follows. Examples: Fully Jarvis ($300-400), VESA monitor arm ($150-250).
+Standing desk converter ($200-400): Sit-stand alternation prevents the physical stagnation that manifests as attention drift. When your body feels stuck, your mind follows. Examples - Fully Jarvis ($300-400), VESA monitor arm ($150-250).
 
 These aren't luxury items, they're tools that maintain attention over 8-hour work days.
 
 Digital Tools for Distraction Prevention
 
-Forest (free to $4.99 one-time): Gamified focus timer that grows virtual trees while you work. If you leave the app, the tree dies. Works better for some people than traditional timers.
+Forest (free to $4.99 one-time) - Gamified focus timer that grows virtual trees while you work. If you leave the app, the tree dies. Works better for some people than traditional timers.
 
-Cold Turkey ($39 one-time): Nuclear-grade website blocker. Once activated, you cannot disable it until time expires. Prevents the "just quickly check email" backslide.
+Cold Turkey ($39 one-time) - Nuclear-grade website blocker. Once activated, you cannot disable it until time expires. Prevents the "just quickly check email" backslide.
 
-RescueTime (free/$9/month): Tracks how you spend time on your computer automatically. Runs silently in background, generates weekly reports showing what stole your focus. Data-driven self-awareness often drives behavior change without requiring conscious effort.
+RescueTime (free/$9/month) - Tracks how you spend time on your computer automatically. Runs silently in background, generates weekly reports showing what stole your focus. Data-driven self-awareness often drives behavior change without requiring conscious effort.
 
-SelfControl (free, macOS): Completely disables your internet for a set time period. Cannot be quit or overridden short of restarting your computer. Extreme, but effective.
+SelfControl (free, macOS) - Completely disables your internet for a set time period. Cannot be quit or overridden short of restarting your computer. Extreme, but effective.
 
-Toggl Track (free/$9/month): Time-tracking app that integrates with your task manager. Before each deep work session, start a timer. At session end, review what you actually accomplished. Prevents the "I was busy but what did I complete?" feeling.
+Toggl Track (free/$9/month) - Time-tracking app that integrates with your task manager. Before each deep work session, start a timer. At session end, review what you actually accomplished. Prevents the "I was busy but what did I complete?" feeling.
 
 For developers specifically:
 
 GitHub Copilot focusing: Disable autocomplete during flow sessions. Autocomplete can fragment attention if you're trying to think through logic. Re-enable after your session to maintain velocity on routine code.
 
-IDE customization: Use VS Code's Zen Mode + full-screen + hide sidebars + remove git indicators during focus time. Re-enable when you need to switch context.
+IDE customization - Use VS Code's Zen Mode + full-screen + hide sidebars + remove git indicators during focus time. Re-enable when you need to switch context.
 
 Managing Interruptions From Others
 
 A distraction-free workspace also means others respect your focus time.
 
-Visual signal: Wear headphones or use a "Do Not Disturb" sign. Research shows that even noise-canceling headphones act as a social signal that discourages interruption, even if not actively blocking sound.
+Visual signal - Wear headphones or use a "Do Not Disturb" sign. Research shows that even noise-canceling headphones act as a social signal that discourages interruption, even if not actively blocking sound.
 
-Scheduled interruption windows: Tell housemates/family "I'm available 12-1pm for questions, unavailable 1-4pm." Clear boundaries work better than vague "don't bother me."
+Scheduled interruption windows - Tell housemates/family "I'm available 12-1pm for questions, unavailable 1-4pm." Clear boundaries work better than vague "don't bother me."
 
-Slack status automation: Use status to indicate focus time:
+Slack status automation - Use status to indicate focus time:
 
 ```bash
 Script to set Slack status during focus blocks
@@ -256,7 +256,7 @@ slackcli message "Setting status: Deep work - back at [end time]"
 Set status (requires Slack API token)
 slackcli status-set "In deep work, back at 3pm" :no_entry:
 
-More practical: Just change your profile picture to indicate focus
+More practical - Just change your profile picture to indicate focus
 File a "Do Not Disturb" image as your profile
 
 sleep $((FOCUS_MINUTES * 60))
@@ -267,19 +267,19 @@ Measuring Distraction Quantitatively
 
 Track focus improvements over time:
 
-Deep work hours per week: Measure time spent in focused sessions. Week 1: 5 hours. Week 4: 12 hours (after optimizations). Chart this monthly.
+Deep work hours per week - Measure time spent in focused sessions. Week 1: 5 hours. Week 4: 12 hours (after optimizations). Chart this monthly.
 
-Code quality metrics: If distraction decreases, code review comments should decrease (fewer bugs from rushed work). Bug escape rate (bugs found in QA vs. production) is a proxy for focus quality.
+Code quality metrics - If distraction decreases, code review comments should decrease (fewer bugs from rushed work). Bug escape rate (bugs found in QA vs. production) is a proxy for focus quality.
 
-Completion rate: How many tasks do you complete as planned vs. interruptions forcing context switches? Track weekly. Improvement indicates workspace changes work.
+Completion rate - How many tasks do you complete as planned vs. interruptions forcing context switches? Track weekly. Improvement indicates workspace changes work.
 
-Subjective focus rating: Rate your ability to focus 1-10 each week. Simple self-assessment correlates with productivity surprisingly well.
+Subjective focus rating - Rate your ability to focus 1-10 each week. Simple self-assessment correlates with productivity surprisingly well.
 
-The Exception: Collaborative Flow
+The Exception - Collaborative Flow
 
 Sometimes distraction-free goes too far. Pair programming, real-time debugging with a colleague, or rapid iteration with teammates requires interruption-ready focus.
 
-Collaborative focus: Different from solitary focus. Have a second workspace setup (different chair, different area) where collaborative work happens. This trains your brain: in the collaboration chair, interruptions are expected and beneficial.
+Collaborative focus - Different from solitary focus. Have a second workspace setup (different chair, different area) where collaborative work happens. This trains your brain: in the collaboration chair, interruptions are expected and beneficial.
 
 Maintain the distraction-free area for solo work. Use the collaborative area for pair sessions. This separation prevents the "I was interrupted" frustration during collaborative work.
 

@@ -28,7 +28,7 @@ Table of Contents
 - [Collaboration and Review Workflows](#collaboration-and-review-workflows)
 - [Export and Portability](#export-and-portability)
 - [Which Platform Suits Your Team](#which-platform-suits-your-team)
-- [Implementation Workflows: Real Team Examples](#implementation-workflows-real-team-examples)
+- [Implementation Workflows - Real Team Examples](#implementation-workflows-real-team-examples)
 - [Team Size and Growth Impact on Platform Choice](#team-size-and-growth-impact-on-platform-choice)
 - [Migration Paths and Hybrid Strategies](#migration-paths-and-hybrid-strategies)
 - [Automation and CI/CD Integration](#automation-and-cicd-integration)
@@ -39,7 +39,7 @@ Platform Architecture
 
 GitBook treats documentation as code. Content lives in git repositories, typically Markdown or AsciiDoc files that version control tracks. This approach means documentation inherits familiar developer workflows: pull requests for changes, code reviews for content, and branching strategies for releases. The platform renders these files into searchable, styled documentation sites with built-in search, versioning, and customization options.
 
-Notion treats documentation as database entries. Every page is a block that can contain other blocks, text, code, embeds, databases, and more. The flexibility allows rapid creation and restructuring without technical setup. However, this comes with tradeoffs: content lives in Notion's cloud, tied to their ecosystem and export capabilities.
+Notion treats documentation as database entries. Every page is a block that can contain other blocks, text, code, embeds, databases, and more. The flexibility allows rapid creation and restructuring without technical setup. However, this comes with tradeoffs: content lives in Notion's cloud, tied to their environment and export capabilities.
 
 For developer teams, the architectural difference matters. GitBook aligns with infrastructure-as-code thinking, declarative, version-controlled, auditable. Notion aligns with notes-as-you-go thinking, fast creation, organic structure, less formalism.
 
@@ -179,9 +179,9 @@ Choose Notion when:
 
 Many teams use both, GitBook for formal API and release documentation, Notion for internal wikis and collaborative drafting.
 
-Implementation Workflows: Real Team Examples
+Implementation Workflows - Real Team Examples
 
-Scenario 1: Mid-size SaaS company (12 engineers, 4-week release cycle)
+Scenario 1 - Mid-size SaaS company (12 engineers, 4-week release cycle)
 
 This team uses GitBook for customer-facing API documentation and Notion for internal technical specifications:
 
@@ -241,14 +241,14 @@ Notion used internally:
 - Release notes drafting (team collaborates on announcements)
 - Known bugs and limitations (shared with support team)
 
-The separation is clear: GitBook is the public contract, Notion is the internal thinking space.
+The separation is clear - GitBook is the public contract, Notion is the internal thinking space.
 
-Scenario 2: Early-stage startup (5 engineers, no formal release process)
+Scenario 2 - Early-stage startup (5 engineers, no formal release process)
 
 This team runs entirely on Notion, documenting everything in one place:
 
 ```
-Notion Workspace: "Engineering Hub"
+Notion Workspace - "Engineering Hub"
  Database: "API Endpoints" (400 pages)
     Properties:
       - Endpoint Path (GET /users/:id)
@@ -303,7 +303,7 @@ Many teams outgrow Notion. The migration process:
 
 ```bash
 1. Export Notion database as CSV/JSON
-Available from: https://notion.so/api/v1
+Available from - https://notion.so/api/v1
 
 2. Convert Notion exports to Markdown
 python3 notion-to-markdown.py \
@@ -331,12 +331,12 @@ Running GitBook + Notion in parallel:
 Many established teams maintain both:
 
 ```
-Customer-facing API Docs: GitBook (versioned, formal)
+Customer-facing API Docs - GitBook (versioned, formal)
  /api/v2/ (latest stable)
  /api/v1/ (legacy support)
  /api/v3-beta/ (preview of upcoming)
 
-Internal Engineering Wiki: Notion
+Internal Engineering Wiki - Notion
  Design decisions (why we chose this approach)
  Implementation guides (how to contribute)
  Release planning (upcoming features)
@@ -350,7 +350,7 @@ Automation and CI/CD Integration
 GitBook excels when documentation integrates into development workflows:
 
 ```yaml
-GitHub Actions workflow: Validate docs on every PR
+GitHub Actions workflow - Validate docs on every PR
 name: Validate Documentation
 
 on: [pull_request]
@@ -451,7 +451,7 @@ docs/
 Notion handles this through databases and sorting:
 
 ```
-Database: "Documentation Pages"
+Database - "Documentation Pages"
  Property: "Category" (REST API, Webhook, SDK, Guide)
  Property: "Subcategory" (v3, v2, v1)
  Property: "Audience" (public, internal, partners)

@@ -47,13 +47,13 @@ For teams of five to twenty developers, this approach reduces meeting overhead w
 
 Building Your First Async Standup Template
 
-Step 1: Create a New Workflow
+Step 1 - Create a New Workflow
 
 Open Workflow Builder from your Slack workspace menu and select Create to start a new workflow. Name it something descriptive like "Daily Async Standup" or "Engineering Check-in."
 
 Choose a trigger type. For standups, Scheduled works best, select days of the week and a time that gives everyone enough buffer before their workday begins. Many teams use 9 AM or 10 AM local time, which allows team members in other time zones to respond before their day starts.
 
-Step 2: Design the Response Form
+Step 2 - Design the Response Form
 
 Add a Form step to collect responses. This form becomes the interactive element your team members complete when prompted.
 
@@ -71,7 +71,7 @@ Consider adding additional fields based on your team's needs:
 
 The form should take two to three minutes to complete. Longer forms reduce participation rates.
 
-Step 3: Configure Response Handling
+Step 3 - Configure Response Handling
 
 After the form step, add an Send a message step. This delivers the completed response to a designated channel or to the user directly.
 
@@ -117,7 +117,7 @@ The condition checks if the blocker field contains text:
 
 ```
 If: {{form_response.blockers}} is not empty
-Then: Send a message to #engineering-alerts
+Then - Send a message to #engineering-alerts
 ```
 
 This ensures blockers get immediate attention rather than sitting in a channel that everyone scans later.
@@ -200,10 +200,10 @@ Geekbot (Slack Integration)
 Configuration example:
 ```
 Daily standup at 9:00 AM
-Question 1: Yesterday accomplishment (text)
-Question 2: Today plans (text)
-Question 3: Blockers (dropdown: none, minor, blocking)
-Responses: Private to manager + team channel summary
+Question 1 - Yesterday accomplishment (text)
+Question 2 - Today plans (text)
+Question 3 - Blockers (dropdown: none, minor, blocking)
+Responses - Private to manager + team channel summary
 ```
 
 Standup Bot (Slack App)
@@ -352,7 +352,7 @@ Slack → Notion Database
 Archive standup responses in Notion for historical reference and team knowledge:
 
 ```bash
-Slack Workflow: When standup form submitted
+Slack Workflow - When standup form submitted
 → Send HTTP POST to Notion API
 → Creates database entry with timestamp + responses
 → Automatically tagged by team member

@@ -44,16 +44,16 @@ Cost breakdown for dog owners:
 - Pet insurance: €25-40/month
 - Total monthly: €1,545-€2,420 for a single dog owner
 
-Internet: 150 Mbps down/50 Mbps up average (reliable)
-Pet-friendly neighborhoods: Alcântara (waterfront, dog parks), Belém (parks nearby), Intendente (affordable, mixed)
+Internet - 150 Mbps down/50 Mbps up average (reliable)
+Pet-friendly neighborhoods - Alcântara (waterfront, dog parks), Belém (parks nearby), Intendente (affordable, mixed)
 
-Visa requirements: Portugal's D7 Passive Income Visa and Digital Nomad Visa both explicitly allow pets. You'll need:
+Visa requirements - Portugal's D7 Passive Income Visa and Digital Nomad Visa both explicitly allow pets. You'll need:
 - Proof of consistent income (€3,700+/month for digital nomad visa)
 - Health insurance covering you and your pet
 - Veterinary health certificate within 30 days of arrival
 - EU pet passport or pet travel certificate
 
-Why Lisbon: Affordable European housing, legal visa pathway, expanding pet infrastructure, extensive parks for dogs, reasonable vet costs.
+Why Lisbon - Affordable European housing, legal visa pathway, expanding pet infrastructure, extensive parks for dogs, reasonable vet costs.
 
 Mexico City, Mexico. Best Budget Option
 
@@ -73,8 +73,8 @@ Recommended pet-friendly co-working spaces:
 - Selina Mexico. Mixed co-living/coworking, pet-friendly floors
 - Workspace (multiple locations). $300-500/month, some allow dogs
 
-Internet: 100-150 Mbps typical in Roma/Condesa
-Pet-friendly neighborhoods: Roma (walkable, cafes), Condesa (upscale, parks), Coyoacán (residential, quieter)
+Internet - 100-150 Mbps typical in Roma/Condesa
+Pet-friendly neighborhoods - Roma (walkable, cafes), Condesa (upscale, parks), Coyoacán (residential, quieter)
 
 Import requirements:
 - Veterinary health certificate (issued within 10 days of travel)
@@ -82,7 +82,7 @@ Import requirements:
 - Import permit from SENASICA (Mexican agriculture authority)
 - Processing: 2-3 weeks, costs ~$100-200
 
-Why Mexico City: Lowest overall costs for pet nomads, welcoming local culture toward animals, extensive park system, affordable vet care, temperate climate year-round.
+Why Mexico City - Lowest overall costs for pet nomads, welcoming local culture toward animals, extensive park system, affordable vet care, temperate climate year-round.
 
 Chiang Mai, Thailand. Best for Extended Stays
 
@@ -103,8 +103,8 @@ Pet-friendly accommodations:
 - Manawan Hotel. Pet rooms available, €40-60/night
 - Various Airbnb properties (search "pets allowed"), typically $300-600/month
 
-Internet: 100+ Mbps in Nimman/Old City areas
-Pet-friendly neighborhoods: Nimman Road (most expat-friendly, best infrastructure), Old City (quieter, cheaper)
+Internet - 100+ Mbps in Nimman/Old City areas
+Pet-friendly neighborhoods - Nimman Road (most expat-friendly, best infrastructure), Old City (quieter, cheaper)
 
 Thailand import requirements:
 - 30-day advance notice to Thai agricultural ministry
@@ -112,7 +112,7 @@ Thailand import requirements:
 - Health certificate from vet in origin country
 - Processing: 4-6 weeks, requires planning
 
-Why Chiang Mai: Cheapest option for pet owners, developed expat community with pet resources, reasonable vet care, longer-stay visa options.
+Why Chiang Mai - Cheapest option for pet owners, developed expat community with pet resources, reasonable vet care, longer-stay visa options.
 
 Barcelona, Spain. Best Urban Infrastructure
 
@@ -133,17 +133,17 @@ Pet-friendly accommodations:
 - MOB (coworking). Pet-friendly areas, €200-350/month
 - Selina Barcelona. Pet-friendly coworking/coliving
 
-Internet: 200+ Mbps typical (excellent reliability)
-Pet-friendly neighborhoods: Gràcia (young, pet-friendly vibe), Born (trendy, parks), Sarrià (residential, quieter)
+Internet - 200+ Mbps typical (excellent reliability)
+Pet-friendly neighborhoods - Gràcia (young, pet-friendly vibe), Born (trendy, parks), Sarrià (residential, quieter)
 
-Dog-friendly beaches: Bogatell, Mar Bella, Llevant (specific hours, typically early morning)
+Dog-friendly beaches - Bogatell, Mar Bella, Llevant (specific hours, typically early morning)
 
-Visa requirements: Similar to Portugal, Spain's Digital Nomad Visa requires:
+Visa requirements - Similar to Portugal, Spain's Digital Nomad Visa requires:
 - Proof of income (€2,300+/month approximately)
 - Pet health certificate
 - EU pet passport or travel document
 
-Why Barcelona: Best urban pet infrastructure in Europe, reliable internet, vibrant expat community, extensive metro with pet access policies, beaches.
+Why Barcelona - Best urban pet infrastructure in Europe, reliable internet, vibrant expat community, extensive metro with pet access policies, beaches.
 
 Practical Tools for Planning
 
@@ -154,7 +154,7 @@ Check pet import requirements for any country
 curl -s "https://api.petrelocation.com/requirements?country=PORTUGAL" | jq .
 
 Find pet-friendly Airbnb (using Airbnb CLI or manual search filters)
-Use search filters: "Pets allowed" + "Wifi" + specific dates
+Use search filters - "Pets allowed" + "Wifi" + specific dates
 ```
 
 For tracking vet appointments and vaccination records across multiple countries, consider maintaining a digital health passport:
@@ -239,13 +239,13 @@ Factor these into your cost-of-living calculations. Some destinations, like Mexi
 
 Cost Optimization Strategies
 
-1. Source local pet food: European pet food costs 2-3x more than local alternatives. In Mexico and Thailand, premium pet food costs similar to US prices. Cat food in Chiang Mai: $20-30/month vs €50-80 in Lisbon.
+1. Source local pet food: European pet food costs 2-3x more than local alternatives. In Mexico and Thailand, premium pet food costs similar to US prices. Cat food in Chiang Mai - $20-30/month vs €50-80 in Lisbon.
 
 2. Negotiate pet deposit refunds: In Portugal and Mexico, landlords often agree to pet deposits as refundable when you leave. Request this explicitly in your rental agreement.
 
 3. Purchase pet insurance before moving: International pet insurance obtained before relocation is cheaper and covers pre-existing conditions better. Providers like Healthy Paws and Trupanion cost $15-40/month for international coverage.
 
-4. Choose pet-friendly coworking over co-living: Pet-friendly coworking spaces often have fewer restrictions than co-living facilities. Compare: Private apartment ($1,500 + €150 pet) vs Coliving ($1,200 + $200 "pet fee" + communal animal stress).
+4. Choose pet-friendly coworking over co-living: Pet-friendly coworking spaces often have fewer restrictions than co-living facilities. Compare - Private apartment ($1,500 + €150 pet) vs Coliving ($1,200 + $200 "pet fee" + communal animal stress).
 
 5. Build vet relationships early: Establishing relationships with local vets in your first month often grants discounts on routine care. First visit to vet, ask about membership plans or multi-visit discounts.
 

@@ -24,7 +24,7 @@ Table of Contents
 - [Categories of Project Management Tools for Freelancers](#categories-of-project-management-tools-for-freelancers)
 - [Time Tracking Integration](#time-tracking-integration)
 - [Integrating Multiple Tools](#integrating-multiple-tools)
-- [Tool Comparison: Freelancer-Focused Criteria](#tool-comparison-freelancer-focused-criteria)
+- [Tool Comparison - Freelancer-Focused Criteria](#tool-comparison-freelancer-focused-criteria)
 - [Client-Facing Communication and Reporting](#client-facing-communication-and-reporting)
 - [Choosing Your Tool Stack](#choosing-your-tool-stack)
 
@@ -106,7 +106,7 @@ curl -X POST https://api.linear.app/graphql \
 
 Linear's keyboard-driven interface appeals to developers who avoid mouse interaction. The linear issue import tool handles bulk migrations from other platforms.
 
-Linear pricing for freelancers: the free plan covers one team and unlimited members, which works well when each client gets its own team in your workspace. The Pro plan at $8/user/month adds advanced analytics and priority support, but the free tier handles most freelance workflows.
+Linear pricing for freelancers - the free plan covers one team and unlimited members, which works well when each client gets its own team in your workspace. The Pro plan at $8/user/month adds advanced analytics and priority support, but the free tier handles most freelance workflows.
 
 PocketBase provides an open-source backend that you can self-host to build custom project management:
 
@@ -159,9 +159,9 @@ Time Tracking Integration
 
 Project management without time tracking is incomplete for freelancers. The tools above work well alongside dedicated time trackers:
 
-- Toggl Track: The free tier covers solo freelancers with unlimited projects. The CLI client (`toggl`) pairs well with Taskwarrior. start a timer when you begin a task, stop when it's done.
-- Kimai: Open-source, self-hostable, and generates professional invoices. Pairs well with PocketBase for a fully self-hosted stack.
-- Harvest: $12/month for solo, integrates with Linear and GitHub. Worth it if clients require detailed time reports.
+- Toggl Track - The free tier covers solo freelancers with unlimited projects. The CLI client (`toggl`) pairs well with Taskwarrior. start a timer when you begin a task, stop when it's done.
+- Kimai - Open-source, self-hostable, and generates professional invoices. Pairs well with PocketBase for a fully self-hosted stack.
+- Harvest - $12/month for solo, integrates with Linear and GitHub. Worth it if clients require detailed time reports.
 
 A minimal Toggl workflow from the terminal:
 
@@ -215,7 +215,7 @@ if __name__ == '__main__':
     sync_taskwarrior_to_linear()
 ```
 
-Tool Comparison: Freelancer-Focused Criteria
+Tool Comparison - Freelancer-Focused Criteria
 
 | Tool | Price | Data Ownership | CLI | API | Self-Hostable |
 |------|-------|---------------|-----|-----|---------------|

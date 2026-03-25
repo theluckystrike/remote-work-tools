@@ -21,11 +21,11 @@ Cross-functional projects bring together diverse expertise from engineering, des
 Table of Contents
 
 - [Why Kickoff Agendas Fail in Remote Settings](#why-kickoff-agendas-fail-in-remote-settings)
-- [Pre-Meeting Preparation: The Async Foundation](#pre-meeting-preparation-the-async-foundation)
+- [Pre-Meeting Preparation - The Async Foundation](#pre-meeting-preparation-the-async-foundation)
 - [The 90-Minute Kickoff Agenda Template](#the-90-minute-kickoff-agenda-template)
 - [Team Roster Template](#team-roster-template)
-- [Async Follow-Up: Cementing Agreements](#async-follow-up-cementing-agreements)
-- [Kickoff Summary: [Project Name]](#kickoff-summary-project-name)
+- [Async Follow-Up - Cementing Agreements](#async-follow-up-cementing-agreements)
+- [Kickoff Summary - [Project Name]](#kickoff-summary-project-name)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Measuring Kickoff Effectiveness](#measuring-kickoff-effectiveness)
 - [Tools for Remote Kickoff Execution: Comparison and Configuration](#tools-for-remote-kickoff-execution-comparison-and-configuration)
@@ -39,7 +39,7 @@ Most remote kickoff meetings fall apart because they treat the meeting as a stat
 
 A successful remote kickoff accomplishes three things: establishes shared understanding of the problem space, defines clear ownership and boundaries, and creates a communication contract for the project duration. Without these elements, your cross-functional team starts already behind.
 
-Pre-Meeting Preparation: The Async Foundation
+Pre-Meeting Preparation - The Async Foundation
 
 Before any synchronous meeting, distribute context asynchronously. Send participants a pre-read document 24-48 hours before the kickoff containing:
 
@@ -54,7 +54,7 @@ The 90-Minute Kickoff Agenda Template
 
 Structure your remote kickoff into distinct phases. Here's a tested template:
 
-Phase 1: Context Setting (15 minutes)
+Phase 1 - Context Setting (15 minutes)
 
 The project sponsor or product owner presents the business context. Keep this focused on outcomes, not implementation details. Cover:
 
@@ -64,7 +64,7 @@ The project sponsor or product owner presents the business context. Keep this fo
 
 Avoid exploring technical architecture in this phase, engineers will ask, but redirect to the "how" discussions later.
 
-Phase 2: Team Introduction and Role Clarity (15 minutes)
+Phase 2 - Team Introduction and Role Clarity (15 minutes)
 
 Each functional area briefly introduces themselves and their involvement. For each role, clarify:
 
@@ -80,7 +80,7 @@ Team Roster Template
 
 Distribute this roster after the meeting as the source of truth for questions about ownership.
 
-Phase 3: Scope and Boundaries (20 minutes)
+Phase 3 - Scope and Boundaries (20 minutes)
 
 This is the most critical phase for preventing scope creep. Explicitly define:
 
@@ -91,7 +91,7 @@ This is the most critical phase for preventing scope creep. Explicitly define:
 
 Use a collaborative whiteboard to visually map scope. Engineers, designers, and product should collaboratively draw boundary lines around the problem space.
 
-Phase 4: Technical Deep Dive (20 minutes)
+Phase 4 - Technical Deep Dive (20 minutes)
 
 Engineering leads present technical approach, architecture decisions, and integration points. Include:
 
@@ -102,7 +102,7 @@ Engineering leads present technical approach, architecture decisions, and integr
 
 For remote presentations, use a tool that allows real-time annotation so participants can ask questions directly on the diagram.
 
-Phase 5: Timeline and Milestones (10 minutes)
+Phase 5 - Timeline and Milestones (10 minutes)
 
 Present the project schedule with clear checkpoints:
 
@@ -119,7 +119,7 @@ const projectMilestones = {
 
 Identify which milestones require cross-functional sign-off and assign owners.
 
-Phase 6: Communication Contract (10 minutes)
+Phase 6 - Communication Contract (10 minutes)
 
 Establish how the team will communicate throughout the project:
 
@@ -131,7 +131,7 @@ Establish how the team will communicate throughout the project:
 
 Create a dedicated Slack channel with the naming convention `#project-{name}-updates` and share it during this phase.
 
-Async Follow-Up: Cementing Agreements
+Async Follow-Up - Cementing Agreements
 
 After the meeting, send a summary document within 24 hours containing:
 
@@ -143,7 +143,7 @@ After the meeting, send a summary document within 24 hours containing:
 Use a template like:
 
 ```markdown
-Kickoff Summary: [Project Name]
+Kickoff Summary - [Project Name]
 
 Decisions
 - [Decision 1]: Confirmed approach is [details]
@@ -161,13 +161,13 @@ Open Questions
 
 Common Pitfalls to Avoid
 
-Over-inviting attendees: Limit kickoffs to directly involved team members. Extra observers dilute discussion quality and waste time.
+Over-inviting attendees - Limit kickoffs to directly involved team members. Extra observers dilute discussion quality and waste time.
 
 Skipping the out-of-scope discussion: Without explicit boundaries, scope naturally expands. Force this conversation early.
 
-No decision documentation: Verbal agreements evaporate. Written summaries prevent "I thought we agreed to..." later.
+No decision documentation - Verbal agreements evaporate. Written summaries prevent "I thought we agreed to..." later.
 
-Ignoring time zones: Rotate meeting times if the project spans significant time zone differences. Consider recording for those who cannot attend live.
+Ignoring time zones - Rotate meeting times if the project spans significant time zone differences. Consider recording for those who cannot attend live.
 
 Measuring Kickoff Effectiveness
 
@@ -196,7 +196,7 @@ Pre-Read Template in Notion
 Document Properties
 - Project Name: [Text]
 - Due Date: [Date]
-- Audience: [Multiple select - Engineering, Design, Product, etc.]
+- Audience - [Multiple select - Engineering, Design, Product, etc.]
 - Status: [Select - Draft, Ready for review, Locked]
 - Comments Count: [Rollup - count of comments]
 
@@ -210,16 +210,16 @@ Document Sections
 
 Set Notion's commenting permissions to "Anyone with access can comment" so participants flag concerns asynchronously before the meeting. Filter the database view by "Status = Locked" to identify documents ready for the kickoff.
 
-Limitations: Notion's real-time collaboration feels slower than Google Docs on poor connections; consider using it primarily for archival, not live editing during the meeting.
+Limitations - Notion's real-time collaboration feels slower than Google Docs on poor connections; consider using it primarily for archival, not live editing during the meeting.
 
-Real-Time Whiteboarding: Scope Mapping Tools
+Real-Time Whiteboarding - Scope Mapping Tools
 
 Miro ($10-$20/user/month)
 
 Miro's infinite canvas and template library make it ideal for the Phase 3 scope-definition section. Pre-create a template with swimlanes for in-scope, out-of-scope, and assumptions:
 
 ```yaml
-Miro Board Template: Project Scope Map---
+Miro Board Template - Project Scope Map---
 Content:
  - Swimlane 1: "In Scope"
  - Frame: Core features and functionality
@@ -242,7 +242,7 @@ Sharing Settings:
 
 During the meeting, share Miro's screen and have each functional lead add sticky notes to their respective swimlanes. Use Miro's voting feature to prioritize uncertain items for discussion.
 
-Limitations: Miro requires all participants to have accounts; free tier limits board count. For cost-conscious teams, consider Excalidraw as an alternative.
+Limitations - Miro requires all participants to have accounts; free tier limits board count. For cost-conscious teams, consider Excalidraw as an alternative.
 
 Excalidraw (Free, $10/month for Excalidraw+)
 
@@ -316,7 +316,7 @@ Search and Retrieval:
  - Enable keyword highlighting for "decision", "deadline", "owner"
 ```
 
-Use the transcription to create searchable decision logs. Query: "We will use [technology]" returns all architectural decisions made during kickoffs.
+Use the transcription to create searchable decision logs. Query - "We will use [technology]" returns all architectural decisions made during kickoffs.
 
 Decision Documentation Tools
 
@@ -325,10 +325,10 @@ Arc.dev or Loom ($5-$25/month) for async video documentation of technical decisi
 ```markdown
 Decision Record Template (Video + Async)
 
-Title: Choosing [Technology/Approach]
-Date: [Kickoff date]
-Participants: [Names]
-Status: [Proposed, Accepted, Deprecated]
+Title - Choosing [Technology/Approach]
+Date - [Kickoff date]
+Participants - [Names]
+Status - [Proposed, Accepted, Deprecated]
 
 Context:
 - What problem necessitated this decision?
@@ -455,7 +455,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -467,7 +467,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

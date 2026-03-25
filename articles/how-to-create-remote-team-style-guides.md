@@ -20,7 +20,7 @@ Style guides solve a specific remote work problem: code review comments about fo
 Table of Contents
 
 - [What Belongs in a Style Guide](#what-belongs-in-a-style-guide)
-- [Code Style: Automate Everything](#code-style-automate-everything)
+- [Code Style - Automate Everything](#code-style-automate-everything)
 - [Naming Conventions Document](#naming-conventions-document)
 - [Python](#python)
 - [API Endpoints](#api-endpoints)
@@ -59,7 +59,7 @@ An engineering style guide for remote teams should cover:
 
 Anything in the style guide that isn't automated will be inconsistently followed. Prioritize enforcing what you can.
 
-Code Style: Automate Everything
+Code Style - Automate Everything
 
 ```yaml
 .github/workflows/lint.yml
@@ -381,7 +381,7 @@ Different team setups warrant different tool choices. Here is a comparison of th
 |---|---|---|---|---|
 | Ruff | Python | Format + lint | Fast | Replaces flake8, isort, black |
 | Mypy | Python | Types | Moderate | Strict mode catches most type bugs |
-| ESLint | TypeScript/JS | Lint | Fast | Plugin ecosystem is large |
+| ESLint | TypeScript/JS | Lint | Fast | Plugin environment is large |
 | Prettier | TypeScript/JS | Format | Very fast | Zero config for most projects |
 | commitlint | Any | Commit msg | Fast | Requires npm even in Python repos |
 | golangci-lint | Go | Lint + format | Fast | Wraps 50+ Go linters |
@@ -417,7 +417,7 @@ Error response format. be explicit:
 Versioning strategy. pick one and document it:
 
 - URL versioning (`/v1/users`, `/v2/users`). most common, easy to route
-- Header versioning (`Accept: application/vnd.company.v2+json`). clean URLs, harder to test in a browser
+- Header versioning (`Accept - application/vnd.company.v2+json`). clean URLs, harder to test in a browser
 - Query param (`?version=2`). avoid; hard to cache and inconsistent
 
 Document which approach your team uses. Engineers creating new endpoints need to know without asking.

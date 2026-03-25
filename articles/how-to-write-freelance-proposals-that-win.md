@@ -45,7 +45,7 @@ Before typing a single word, research the client and their project. Read their w
 
 If you skip this step, your proposal reads like every other generic pitch. The client senses it, and your response rate drops.
 
-For example, if a client needs a React migration from a legacy framework, do not write "I will migrate your frontend to React." Write: "I see you're currently running Angular 1.8 and facing performance issues with your dashboard. Lead with Understanding
+For example, if a client needs a React migration from a legacy framework, do not write "I will migrate your frontend to React." Write - "I see you're currently running Angular 1.8 and facing performance issues with your dashboard. Lead with Understanding
 
 Start with a brief acknowledgment of their situation. Reference something specific from your research. This takes thirty seconds but transforms your email from "generic freelancer" to "someone who actually gets it."
 
@@ -57,7 +57,7 @@ you're running WooCommerce but hitting performance bottlenecks during peak traff
 I've worked with similar WooCommerce-to-headless migrations, and I believe I can help.
 ```
 
-The Solution Section: Be Specific, Not Vague
+The Solution Section - Be Specific, Not Vague
 
 Avoid generic statements like "I will build a high-quality website." Instead, break the work into concrete deliverables. For developers, this means speaking in terms they understand:
 
@@ -82,14 +82,14 @@ Proposed Approach
 
 This level of detail accomplishes several things. It shows competence, gives the client confidence in your process, and makes scope disputes less likely because everything is documented.
 
-Pricing: Justify Your Value
+Pricing - Justify Your Value
 
 Never just dump a number. Explain what the client gets for that investment. If you charge a premium rate, briefly state why:
 
 ```
 Investment
 
-Total: $8,500 (fixed price)
+Total - $8,500 (fixed price)
 
 This includes:
 - All development work listed above
@@ -111,7 +111,7 @@ identify during the audit phase.
 
 This manages expectations while keeping the door open.
 
-Code Samples: Prove You Can Actually Code
+Code Samples - Prove You Can Actually Code
 
 Since you are targeting developers and technical clients, include relevant code snippets that demonstrate your expertise. Not to show off, but to build trust:
 
@@ -137,7 +137,7 @@ async function processPayment(order, paymentMethod) {
 
 This snippet is relevant to the project, readable, and proves you write clean, modern JavaScript.
 
-Closing: Clear Call to Action
+Closing - Clear Call to Action
 
 End with a specific next step. Do not write "Let me know if you have questions." Instead:
 
@@ -185,7 +185,7 @@ date: ${DATE}
 status: draft
 ---
 
-Proposal: ${PROJECT_NAME} for ${CLIENT_NAME}
+Proposal - ${PROJECT_NAME} for ${CLIENT_NAME}
 
 Table of Contents
 

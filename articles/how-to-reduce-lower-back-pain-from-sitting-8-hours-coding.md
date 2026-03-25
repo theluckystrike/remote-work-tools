@@ -26,7 +26,7 @@ Table of Contents
 - [Strength Training for Coders](#strength-training-for-coders)
 - [Desk Modifications for Lumbar Health](#desk-modifications-for-lumbar-health)
 - [Sleep Optimization for Back Repair](#sleep-optimization-for-back-repair)
-- [When Pain Persists: Professional Help](#when-pain-persists-professional-help)
+- [When Pain Persists - Professional Help](#when-pain-persists-professional-help)
 - [The 30-Day Implementation Plan](#the-30-day-implementation-plan)
 - [Your Back Is an Investment](#your-back-is-an-investment)
 
@@ -56,7 +56,7 @@ Ideal sitting posture checklist:
 4. hips slightly above knees (2-3 inches)
 5. No pressure on back of thighs
 
-Quick check: Can you slide your fist under your thigh?
+Quick check - Can you slide your fist under your thigh?
 If yes, your chair is too high.
 If no, your chair might be too low.
 ```
@@ -96,9 +96,9 @@ Monitor Distance and Height
 
 ```bash
 Monitor positioning for lumbar health:
-Distance: 20-26 inches (arm's length)
-Height: Top of screen at eye level
-Tilt: 10-20 degrees backward
+Distance - 20-26 inches (arm's length)
+Height - Top of screen at eye level
+Tilt - 10-20 degrees backward
 
 Why this matters:
 - Incorrect height = forward head posture
@@ -142,7 +142,7 @@ How to:
 4. Switch legs
 5. Repeat 3x each side
 
-Target: Glutes and lower lumbar
+Target - Glutes and lower lumbar
 ```
 
 2. Piriformis Stretch
@@ -153,7 +153,7 @@ How to:
 3. Hold 30 seconds
 4. Switch sides
 
-Target: Deep hip rotators that tighten from sitting
+Target - Deep hip rotators that tighten from sitting
 ```
 
 3. Spinal Twist (Supine)
@@ -165,7 +165,7 @@ How to:
 4. Hold 60 seconds
 5. Switch sides
 
-Target: Thoracic and lumbar rotation
+Target - Thoracic and lumbar rotation
 ```
 
 4. Cat-Cow Flow
@@ -176,7 +176,7 @@ How to:
 3. Drop belly down (cow), hold 3 seconds
 4. Repeat 10x slowly
 
-Target: Entire spinal mobility
+Target - Entire spinal mobility
 ```
 
 Code Your Own Movement Reminders
@@ -199,7 +199,7 @@ function movement-reminder() {
     done
 }
 
-Start in background: movement-reminder &
+Start in background - movement-reminder &
 ```
 
 ```python
@@ -225,30 +225,30 @@ These three movements directly combat sitting damage:
 
 1. Glute Bridges
 ```bash
-Frequency: 3x per week
-Sets: 3 | Reps: 15-20 | Rest: 60 seconds
+Frequency - 3x per week
+Sets - 3 | Reps: 15-20 | Rest: 60 seconds
 
-Why: Sitting deactivates glutes; weak glutes = lumbar overload
-Form: Squeeze glutes at top, don't arch lower back excessively
+Why - Sitting deactivates glutes; weak glutes = lumbar overload
+Form - Squeeze glutes at top, don't arch lower back excessively
 ```
 
 2. Dead Bug (Anti-Extension)
 ```bash
-Frequency: 3x per week
-Sets: 3 | Reps: 10 each side | Rest: 45 seconds
+Frequency - 3x per week
+Sets - 3 | Reps: 10 each side | Rest: 45 seconds
 
-Why: Strengthens core without spine compression
-Form: Lower back pressed into floor, slow controlled movements
-Progression: Add light weight or resistance band
+Why - Strengthens core without spine compression
+Form - Lower back pressed into floor, slow controlled movements
+Progression - Add light weight or resistance band
 ```
 
 3. Bird Dog
 ```bash
-Frequency: 3x per week
-Sets: 3 | Reps: 10 each side | Rest: 45 seconds
+Frequency - 3x per week
+Sets - 3 | Reps: 10 each side | Rest: 45 seconds
 
-Why: Builds coordination and anti-rotation core strength
-Form: Opposite arm and leg extend simultaneously, hold 3 seconds
+Why - Builds coordination and anti-rotation core strength
+Form - Opposite arm and leg extend simultaneously, hold 3 seconds
 ```
 
 ```javascript
@@ -273,10 +273,10 @@ Standing desks help but require strategy:
 
 ```bash
 Optimal sit-stand schedule for lower back health:
-Hour 1: Sitting (focused work)
-Hour 2: Standing (meetings, lighter tasks)
-Hour 3: Sitting (debugging, complex coding)
-Hour 4: Standing (code reviews, emails)
+Hour 1 - Sitting (focused work)
+Hour 2 - Standing (meetings, lighter tasks)
+Hour 3 - Sitting (debugging, complex coding)
+Hour 4 - Standing (code reviews, emails)
 Repeat...
 
 - NEVER stand for 8 hours
@@ -304,9 +304,9 @@ Your lower back repairs itself during sleep. Optimize recovery:
 
 ```bash
 Sleep positions for lumbar health:
-BEST: Side sleeping with pillow between knees
-GOOD: Back sleeping with pillow under knees
-AVOID: Stomach sleeping (rotates lumbar overnight)
+BEST - Side sleeping with pillow between knees
+GOOD - Back sleeping with pillow under knees
+AVOID - Stomach sleeping (rotates lumbar overnight)
 
 Mattress guidelines:
 - Medium-firm is ideal for most
@@ -314,7 +314,7 @@ Mattress guidelines:
 - If you wake with more pain than you slept with, mattress is wrong
 ```
 
-When Pain Persists: Professional Help
+When Pain Persists - Professional Help
 
 Some situations require medical intervention:
 
@@ -336,22 +336,22 @@ What to seek:
 
 The 30-Day Implementation Plan
 
-Week 1: Setup
+Week 1 - Setup
 - [ ] Adjust chair height and add lumbar support
 - [ ] Position monitor at eye level
 - [ ] Start 25-5 movement schedule
 
-Week 2: Movement
+Week 2 - Movement
 - [ ] Add daily stretching routine (morning or evening)
 - [ ] Implement terminal movement reminder
 - [ ] Try standing desk for 1 hour daily
 
-Week 3: Strength
+Week 3 - Strength
 - [ ] Start glute bridges (3x/week)
 - [ ] Add dead bugs to routine
 - [ ] Begin bird dog exercise
 
-Week 4: Habit
+Week 4 - Habit
 - [ ] Review and optimize sleep position
 - [ ] Maintain all previous changes
 - [ ] Notice and address pain triggers

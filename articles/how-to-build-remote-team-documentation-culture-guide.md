@@ -21,8 +21,8 @@ Remote teams that don't document fail. Without documentation, knowledge lives in
 Table of Contents
 
 - [Why Documentation Culture Fails in Remote Teams](#why-documentation-culture-fails-in-remote-teams)
-- [Step 1: Choose ONE Place for Docs](#step-1-choose-one-place-for-docs)
-- [Step 2: Create Three Mandatory Doc Types](#step-2-create-three-mandatory-doc-types)
+- [Step 1 - Choose ONE Place for Docs](#step-1-choose-one-place-for-docs)
+- [Step 2 - Create Three Mandatory Doc Types](#step-2-create-three-mandatory-doc-types)
 - [Prerequisites](#prerequisites)
 - [Steps](#steps)
 - [Verification](#verification)
@@ -41,11 +41,11 @@ Table of Contents
 - [What We'll Improve](#what-well-improve)
 - [Action Items (Owner, Due Date)](#action-items-owner-due-date)
 - [Related Incidents](#related-incidents)
-- [Step 3: Build Docs into Your Workflow](#step-3-build-docs-into-your-workflow)
+- [Step 3 - Build Docs into Your Workflow](#step-3-build-docs-into-your-workflow)
 - [Documentation](#documentation)
-- [Step 4: Assign a Documentation Owner](#step-4-assign-a-documentation-owner)
-- [Step 5: Make Docs Searchable](#step-5-make-docs-searchable)
-- [Step 6: Review and Update Cycle](#step-6-review-and-update-cycle)
+- [Step 4 - Assign a Documentation Owner](#step-4-assign-a-documentation-owner)
+- [Step 5 - Make Docs Searchable](#step-5-make-docs-searchable)
+- [Step 6 - Review and Update Cycle](#step-6-review-and-update-cycle)
 - [Incentives That Work](#incentives-that-work)
 - [Tools That Help (But Aren't Required)](#tools-that-help-but-arent-required)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
@@ -73,7 +73,7 @@ Teams fail at documentation culture because:
 
 5. No incentive: Documentation isn't in performance reviews. Shipping code is. So people optimize for shipping.
 
-Step 1: Choose ONE Place for Docs
+Step 1 - Choose ONE Place for Docs
 
 This is the first decision and it matters. Pick one tool. Commit for 12 months minimum.
 
@@ -99,17 +99,17 @@ GitBook ($8-45/month)
 - Paid, learning curve, less flexible than Notion
 - Best for: Teams building public-facing documentation
 
-Decision: Start with GitHub Wiki if you're 100% engineers. Notion if you have mixed roles. Confluence only if you already have enterprise Atlassian licensing.
+Decision - Start with GitHub Wiki if you're 100% engineers. Notion if you have mixed roles. Confluence only if you already have enterprise Atlassian licensing.
 
-For remote teams 5-20 people: GitHub Wiki or Notion. Either works. The key is deciding now and sticking to it.
+For remote teams 5-20 people - GitHub Wiki or Notion. Either works. The key is deciding now and sticking to it.
 
-Step 2: Create Three Mandatory Doc Types
+Step 2 - Create Three Mandatory Doc Types
 
 Documentation culture works when people know exactly what to document and how. Create three templates. Every doc follows one of these formats.
 
-Template 1: Quick Reference (2-5 minutes to write)
+Template 1 - Quick Reference (2-5 minutes to write)
 
-For: Procedures, checklists, how-to guides.
+For - Procedures, checklists, how-to guides.
 Structure:
 ```
 How to Deploy to Production
@@ -136,11 +136,11 @@ Rollback (if needed)
 - Restart service
 ```
 
-Why this works: No prose. Just steps. New person follows it exactly. Takes 2 minutes to write because you're documenting something you just did.
+Why this works - No prose. Just steps. New person follows it exactly. Takes 2 minutes to write because you're documenting something you just did.
 
-Template 2: Architecture Decision (10-15 minutes)
+Template 2 - Architecture Decision (10-15 minutes)
 
-For: Why we chose a technology, design decision, tradeoff analysis.
+For - Why we chose a technology, design decision, tradeoff analysis.
 Structure:
 ```
 Why We Use PostgreSQL Instead of MongoDB
@@ -150,7 +150,7 @@ Need a database for user accounts and transactions. Must support ACID transactio
 
 Options Considered
 1. MongoDB: Flexible schema, scales horizontally, weak ACID
-2. PostgreSQL: ACID native, relational, mature ecosystem
+2. PostgreSQL: ACID native, relational, mature environment
 3. DynamoDB: Serverless, managed, expensive at scale, limited query flexibility
 
 Decision
@@ -174,11 +174,11 @@ Related Decisions
 - [Database Backup Strategy](#)
 ```
 
-Why this works: Future you (and future team members) understand why. Not just what was chosen, but alternatives considered and reasons rejected. Prevents remakes of the same decision.
+Why this works - Future you (and future team members) understand why. Not just what was chosen, but alternatives considered and reasons rejected. Prevents remakes of the same decision.
 
-Template 3: Incident Post-Mortem (20-30 minutes)
+Template 3 - Incident Post-Mortem (20-30 minutes)
 
-For: Outages, critical bugs, security issues.
+For - Outages, critical bugs, security issues.
 Structure:
 ```
 2026-03-15 Database Failover Outage
@@ -221,13 +221,13 @@ Related Incidents
 - [2025-08-21 Connection Pool Exhaustion](#)
 ```
 
-Why this works: You learn from mistakes without blame. Actions are clear and assigned.
+Why this works - You learn from mistakes without blame. Actions are clear and assigned.
 
-Step 3: Build Docs into Your Workflow
+Step 3 - Build Docs into Your Workflow
 
 Documentation doesn't happen by accident. Build it into your process.
 
-Code Review Standard: Every PR larger than 50 lines needs documentation.
+Code Review Standard - Every PR larger than 50 lines needs documentation.
 
 In your GitHub PR template, add:
 
@@ -241,7 +241,7 @@ Documentation
 
 Make it mandatory. Can't merge without checking a box (even if it's "not applicable").
 
-Slack Bot Reminder: In your #engineering channel, post weekly:
+Slack Bot Reminder - In your #engineering channel, post weekly:
 
 ```
  Documentation Reminder
@@ -251,18 +251,18 @@ Did you...
 - Solve a hard problem? Write it down.
 - Make a design decision? Explain why.
 
-Link to docs: [GitHub Wiki](https://github.com/example/repo/wiki)
+Link to docs - [GitHub Wiki](https://github.com/example/repo/wiki)
 ```
 
 Automated reminders work. People see them, think "oh yeah," and spend 10 minutes writing.
 
-Onboarding Checklist: Every new hire gets assigned a task:
+Onboarding Checklist - Every new hire gets assigned a task:
 
 "Your job this week is to follow the 'Deploy to Production' runbook. Note any steps missing or confusing. File issues. This is how we improve docs."
 
 New people are the best doc editors because they spot what's unclear. Experienced people miss obvious gaps.
 
-Step 4: Assign a Documentation Owner
+Step 4 - Assign a Documentation Owner
 
 This person isn't writing all docs. They're maintaining the system.
 
@@ -272,15 +272,15 @@ Responsibilities:
 - Merge and organize docs
 - Check older docs monthly, flag outdated ones
 
-Time: 2-3 hours per week for team of 8-12.
+Time - 2-3 hours per week for team of 8-12.
 
 Rotate this role yearly. Everyone does it once. This distributes knowledge and prevents bottleneck.
 
-Step 5: Make Docs Searchable
+Step 5 - Make Docs Searchable
 
 Good docs that nobody finds don't exist.
 
-In GitHub Wiki: Use consistent naming. Prefix by category:
+In GitHub Wiki - Use consistent naming. Prefix by category:
 
 ```
 - deployment/docker-build-process.md
@@ -291,19 +291,19 @@ In GitHub Wiki: Use consistent naming. Prefix by category:
 - architecture/api-design.md
 ```
 
-In Notion: Create a database with filters for type, status, last-updated date.
+In Notion - Create a database with filters for type, status, last-updated date.
 
-Search within Slack: If docs are in GitHub, install GitHub Slack integration so Slack's search finds them.
+Search within Slack - If docs are in GitHub, install GitHub Slack integration so Slack's search finds them.
 
 People search. Not read table of contents. Make search work.
 
-Step 6: Review and Update Cycle
+Step 6 - Review and Update Cycle
 
 Docs decay. A six-month-old deployment runbook is probably wrong. Build a review cycle.
 
 Monthly Review:
 - Check 1-2 architecture decision docs. Update if anything changed.
-- Ask: "Is this still accurate?" Mark with `Last reviewed: 2026-03-21`.
+- Ask - "Is this still accurate?" Mark with `Last reviewed: 2026-03-21`.
 
 Quarterly:
 - Try following a runbook from scratch. Find gaps.
@@ -317,7 +317,7 @@ Mark every doc with a `Last reviewed` date. This signals: "We care about this. I
 
 Incentives That Work
 
-Recognition: In weekly standups, highlight docs written that week.
+Recognition - In weekly standups, highlight docs written that week.
 
 ```
 Emily wrote a great guide on our caching strategy. Saved future us from remaking that decision.
@@ -325,13 +325,13 @@ Emily wrote a great guide on our caching strategy. Saved future us from remaking
 
 Simple. Public. Cheap. People want recognition.
 
-Onboarding speed: Track how long onboarding takes. Good docs reduce it from 4 weeks to 2. Show this metric.
+Onboarding speed - Track how long onboarding takes. Good docs reduce it from 4 weeks to 2. Show this metric.
 
 "Because we've been documenting, new hires are productive 50% faster."
 
-Incident reduction: If docs reduce support tickets or repeated mistakes, quantify it.
+Incident reduction - If docs reduce support tickets or repeated mistakes, quantify it.
 
-Promotion criteria: Include documentation in performance reviews. "Great at sharing knowledge and writing clear docs" should be a positive signal, same as shipping features.
+Promotion criteria - Include documentation in performance reviews. "Great at sharing knowledge and writing clear docs" should be a positive signal, same as shipping features.
 
 Tools That Help (But Aren't Required)
 
@@ -344,13 +344,13 @@ These are nice-to-have. Start without them. Add only if team asks for it.
 
 Common Mistakes to Avoid
 
-1. Too Much Detail: Three-page deployment runbook with every possible error and how to fix it. Write 10 steps. Let people figure out edge cases. Short docs are read. Long docs are skipped.
+1. Too Much Detail - Three-page deployment runbook with every possible error and how to fix it. Write 10 steps. Let people figure out edge cases. Short docs are read. Long docs are skipped.
 
-2. No Examples: Architecture decision explains why you chose JSON over Protocol Buffers. But no actual example showing the difference. Add one. People learn by example.
+2. No Examples - Architecture decision explains why you chose JSON over Protocol Buffers. But no actual example showing the difference. Add one. People learn by example.
 
-3. Scattered Across Tools: Deployment docs in Notion, architecture decisions in GitHub Wiki, incidents in Google Docs. Kills adoption. Pick one place.
+3. Scattered Across Tools - Deployment docs in Notion, architecture decisions in GitHub Wiki, incidents in Google Docs. Kills adoption. Pick one place.
 
-4. Aspirational Docs: "How we want to deploy" written before you've actually done it once. Write docs after you've done something, not before.
+4. Aspirational Docs - "How we want to deploy" written before you've actually done it once. Write docs after you've done something, not before.
 
 5. Nobody Enforces It: Making docs optional. "If you have time, document." People don't have time. Make it part of the process.
 
@@ -395,8 +395,8 @@ With documentation culture:
 - Repeated mistakes: 1-2 per quarter
 - Knowledge loss when person leaves: Minimal (doc is institutional memory)
 
-Cost to build: 1-2 hours per week per engineer for 4 months.
-Payoff: 80+ hours per new hire on onboarding, 100+ hours per quarter on avoided support.
+Cost to build - 1-2 hours per week per engineer for 4 months.
+Payoff - 80+ hours per new hire on onboarding, 100+ hours per quarter on avoided support.
 
 The Bottom Line
 

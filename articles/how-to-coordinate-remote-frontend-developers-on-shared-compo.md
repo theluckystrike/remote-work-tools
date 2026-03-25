@@ -30,7 +30,7 @@ Table of Contents
 - [Create Documentation Standards](#create-documentation-standards)
 - [Establish Communication Channels](#establish-communication-channels)
 - [Implement Automated Quality Gates](#implement-automated-quality-gates)
-- [Practical Example: Adding a New Component](#practical-example-adding-a-new-component)
+- [Practical Example - Adding a New Component](#practical-example-adding-a-new-component)
 - [Putting It All Together](#putting-it-all-together)
 - [Managing Cross-Team Dependencies](#managing-cross-team-dependencies)
 - [Handling Disagreement on Component Design](#handling-disagreement-on-component-design)
@@ -113,12 +113,12 @@ Use automated releases with semantic-release or changesets. When a major release
 ```markdown
  Component Library v3.0 Release Planned
 
-Scheduled: [Date]
+Scheduled - [Date]
 Breaking changes:
 - Button `variant` prop renamed to `appearance`
 - Modal default behavior changed to not trap focus
 
-Migration session: [Link to async recording]
+Migration session - [Link to async recording]
 ```
 
 Create Documentation Standards
@@ -170,7 +170,7 @@ Example GitHub Actions quality gates
 
 Require all checks to pass before PRs can merge. This removes dependence on specific reviewers being available.
 
-Practical Example: Adding a New Component
+Practical Example - Adding a New Component
 
 Here's how a remote developer adds a new component following these practices:
 

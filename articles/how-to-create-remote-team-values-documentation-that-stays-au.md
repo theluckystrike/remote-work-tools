@@ -43,7 +43,7 @@ For remote teams, the stakes are higher. Without in-person interactions to reinf
 
 Building Values Documentation That Survives Growth
 
-Step 1: Extract Values from Observable Behavior
+Step 1 - Extract Values from Observable Behavior
 
 Before writing anything, observe how your team actually operates. In remote settings, this means reviewing async communication patterns, meeting help styles, and how feedback flows through your tools.
 
@@ -62,7 +62,7 @@ Observed Behaviors Week 1
 
 These concrete examples reveal your actual values far more accurately than a brainstorming session. When you document the behavior first, the values emerge naturally from evidence rather than aspiration.
 
-Step 2: Write Values as Behavioral Commitments
+Step 2 - Write Values as Behavioral Commitments
 
 Transform abstract concepts into specific commitments. Instead of "we value learning," write what learning looks like in your daily workflow:
 
@@ -83,7 +83,7 @@ learning:
 
 This format works because it answers the question every remote worker faces: "What does this value mean in practice when I'm staring at my screen at 2 AM trying to meet a deadline?"
 
-Step 3: Create Decision-Making Frameworks
+Step 3 - Create Decision-Making Frameworks
 
 Values become useful when they guide decisions. For remote teams, build simple frameworks that help people make choices aligned with your values:
 
@@ -100,7 +100,7 @@ Choosing Communication Channels
 This framework reflects our value of "respect for time" by matching effort to complexity, and "async-first" by defaulting to written communication.
 ```
 
-Step 4: Build Version Control Into Your Documentation
+Step 4 - Build Version Control Into Your Documentation
 
 Since your team already uses Git for code, use it for values documentation too. This approach provides several advantages:
 
@@ -120,7 +120,7 @@ Open PR for team discussion
 
 Treat your values repository like any other critical documentation, review quarterly, update based on team feedback, and archive outdated versions.
 
-Step 5: Integrate Values Into Existing Workflows
+Step 5 - Integrate Values Into Existing Workflows
 
 Documentation that lives in a standalone file gets forgotten. Embed values into tools and processes your team already uses:
 
@@ -137,9 +137,9 @@ What problem does this solve?
 
 How does this reflect our team values?
 
-- [ ] Learning: Does this code or review teach something?
-- [ ] Transparency: Would someone reading this understand the decision?
-- [ ] Ownership: Are we committing to maintaining this code?
+- [ ] Learning - Does this code or review teach something?
+- [ ] Transparency - Would someone reading this understand the decision?
+- [ ] Ownership - Are we committing to maintaining this code?
 ```
 
 Maintaining Authenticity as You Scale
@@ -174,7 +174,7 @@ Slack Integration
 Create a Slack workflow that surfaces values during critical moments:
 
 ```yaml
-Example Slack workflow: Daily values reminder
+Example Slack workflow - Daily values reminder
 trigger: every_monday_morning
 channels: [#general, #engineering]
 message: |
@@ -281,15 +281,15 @@ Document this session, publish the findings, and update your documentation accor
 
 Practical Tools for Values Collaboration
 
-Notion: Database of values with examples, linked to team members who best embody each value. Works well for teams already using Notion.
+Notion - Database of values with examples, linked to team members who best embody each value. Works well for teams already using Notion.
 
-GitHub Pages: Host your values documentation as a website. Makes it searchable and forces clear writing.
+GitHub Pages - Host your values documentation as a website. Makes it searchable and forces clear writing.
 
-Figma: Create visual representations of values as component libraries. Useful for design-focused teams.
+Figma - Create visual representations of values as component libraries. Useful for design-focused teams.
 
-Miro: Collaborative values mapping with your distributed team. Generates visual artifacts you can reference.
+Miro - Collaborative values mapping with your distributed team. Generates visual artifacts you can reference.
 
-Loom: Record short videos showing values in action. Particularly effective for onboarding.
+Loom - Record short videos showing values in action. Particularly effective for onboarding.
 
 The Long Game
 

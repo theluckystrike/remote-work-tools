@@ -26,9 +26,9 @@ Table of Contents
 - [When Ambient Noise Might Not Help](#when-ambient-noise-might-not-help)
 - [App Comparison Table](#app-comparison-table)
 - [Task-Specific Sound Profiles and Recommendations](#task-specific-sound-profiles-and-recommendations)
-- [Noise Color Reference: What They Actually Mean](#noise-color-reference-what-they-actually-mean)
+- [Noise Color Reference - What They Actually Mean](#noise-color-reference-what-they-actually-mean)
 - [Science-Backed Volume Recommendations](#science-backed-volume-recommendations)
-- [DIY Setup: Creating Your Own Ambient Sound Library](#diy-setup-creating-your-own-ambient-sound-library)
+- [DIY Setup - Creating Your Own Ambient Sound Library](#diy-setup-creating-your-own-ambient-sound-library)
 
 Why Ambient Noise Works for Developers
 
@@ -233,7 +233,7 @@ Open-Office Background (Meeting Prep, Quick Tasks)
 - Example setup: Heavy coffee shop + occasional noise spikes
 - Duration: 20-30 minute blocks
 
-Noise Color Reference: What They Actually Mean
+Noise Color Reference - What They Actually Mean
 
 "White noise," "pink noise," and "brown noise" are technical terms that matter when fine-tuning your setup:
 
@@ -274,9 +274,9 @@ Volume matters more than you think. Here's the research-backed guidance:
 ```
 OSHA Occupational Noise Exposure Guidelines:
 
-At 85dB: Safe for 8 hours (ear damage starts around 85dB)
-At 90dB: Maximum 1 hour per day
-At 95dB: Maximum 14 minutes per day
+At 85dB - Safe for 8 hours (ear damage starts around 85dB)
+At 90dB - Maximum 1 hour per day
+At 95dB - Maximum 14 minutes per day
 
 Recommended Ambient Noise Levels for Coding:
 
@@ -285,14 +285,14 @@ Recommended Ambient Noise Levels for Coding:
 60-70dB: Maximum for extended periods (border of concert noise)
 >70dB: Not recommended for full work day
 
-Health Note: Extended exposure to noise above 70dB can cause
+Health Note - Extended exposure to noise above 70dB can cause
 hearing damage and fatigue. Keep ambient noise below 60dB for
 full 8-hour work days.
 ```
 
 Use your phone's decibel meter app to measure your ambient sound setup. You want 45-55dB for most coding, loud enough to mask disruptions, quiet enough to avoid fatigue.
 
-DIY Setup: Creating Your Own Ambient Sound Library
+DIY Setup - Creating Your Own Ambient Sound Library
 
 If you don't want to pay for apps, you can create your own ambient sound setup using free resources:
 
@@ -322,7 +322,7 @@ sleep 2
 Set volume to 40%
 ```
 
-The advantage: complete control, no subscriptions, works offline, no ads.
+The advantage - complete control, no subscriptions, works offline, no ads.
 
 Frequently Asked Questions
 
@@ -332,7 +332,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -344,7 +344,7 @@ AI tools evolve rapidly, with major updates every few months. Feature comparison
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Barco ClickShare API: Starting a presentation session"
+title: "Barco ClickShare API - Starting a presentation session"
 description: "Wireless presentation systems like Cisco Webex Room Navigator, Crestron AirMedia, and Extron XTP transform BYOD laptops into shared displays without dongles"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -29,7 +29,7 @@ Table of Contents
 - [Implementation Timeline and Rollout Strategy](#implementation-timeline-and-rollout-strategy)
 - [Rollout Pitfalls to Avoid](#rollout-pitfalls-to-avoid)
 - [Integration with Zoom, Teams, and Google Meet](#integration-with-zoom-teams-and-google-meet)
-- [Comparison: BYOD vs. Fixed Setup](#comparison-byod-vs-fixed-setup)
+- [Comparison - BYOD vs. Fixed Setup](#comparison-byod-vs-fixed-setup)
 - [Troubleshooting Connection Issues](#troubleshooting-connection-issues)
 
 Wireless presentation systems have become essential infrastructure for hybrid meeting rooms. The best solutions enable screen mirroring from any laptop without requiring dedicated software installations, support multiple presentation formats, and integrate with existing video conferencing platforms. This guide evaluates leading systems and provides implementation patterns for development teams building meeting room solutions.
@@ -53,7 +53,7 @@ Barco ClickShare CX Series
 Barco's ClickShare CX series remains a top choice for enterprise deployments. The CX-50 Gen 2 supports wireless presentation with HDMI input, USB-C connectivity, and integration with video conferencing platforms including Zoom, Microsoft Teams, and Google Meet.
 
 ```bash
-Barco ClickShare API: Starting a presentation session
+Barco ClickShare API - Starting a presentation session
 curl -X POST https://clickhare.device.local/api/v1/session/start \
   -H "Authorization: Bearer ${CLICKSHARE_API_KEY}" \
   -H "Content-Type: application/json" \
@@ -201,39 +201,39 @@ The best wireless presentation system for your organization depends on existing 
 
 Pricing and Budget Considerations
 
-Barco ClickShare CX Series: $800-1200 per unit. Expect $2500-4000 per room with installation and cabling.
+Barco ClickShare CX Series - $800-1200 per unit. Expect $2500-4000 per room with installation and cabling.
 
-Microsoft Wireless Display Adapter: $50-80 per unit. Cheapest option but limited to Microsoft ecosystem.
+Microsoft Wireless Display Adapter - $50-80 per unit. Cheapest option but limited to Microsoft environment.
 
-Kramer VIA GO²: $1200-1500 per unit. Mid-range pricing with advanced collaboration features.
+Kramer VIA GO² - $1200-1500 per unit. Mid-range pricing with advanced collaboration features.
 
-Cisco Webex Board: $1500-2000 for integrated display. All-in-one solution eliminates separate hardware.
+Cisco Webex Board - $1500-2000 for integrated display. All-in-one solution eliminates separate hardware.
 
 For a 10-room deployment, costs range from $500 (minimal Microsoft setup) to $40,000 (enterprise Barco). Most organizations find the sweet spot at $2000-3500 per room for mid-tier solutions.
 
 Implementation Timeline and Rollout Strategy
 
-Month 1: Pilot Phase
+Month 1 - Pilot Phase
 - Select one meeting room
 - Install chosen system
 - Document setup process and common issues
 - Gather feedback from 20+ users
 - Cost: 1-2K for hardware + installation time
 
-Month 2: Refinement
+Month 2 - Refinement
 - Address issues from pilot feedback
 - Update documentation
 - Train meeting room admin
 - Prepare for broader rollout
 - Cost: Minimal (documentation time)
 
-Month 3-4: Rollout
+Month 3-4 - Rollout
 - Install in remaining meeting rooms
 - Batch training sessions
 - Monitor adoption and troubleshoot
 - Cost: Hardware for all rooms
 
-Month 5+: Optimization
+Month 5+ - Optimization
 - Gather usage data
 - Optimize network configuration
 - Plan upgrades or maintenance
@@ -242,16 +242,16 @@ Most organizations take 3-4 months from initial planning to full deployment acro
 
 Rollout Pitfalls to Avoid
 
-Pitfall 1: Selecting system before network assessment
+Pitfall 1 - Selecting system before network assessment
 Some systems require specific WiFi bands or network architecture. Assess your network first, then select hardware that fits your infrastructure.
 
-Pitfall 2: Assuming all laptops will work
+Pitfall 2 - Assuming all laptops will work
 Test with your actual fleet of laptops. Some older models have display driver issues that prevent wireless connection. Budget for 5-10% of users needing workarounds (USB-to-HDMI adapter backup).
 
-Pitfall 3: Under-training users
+Pitfall 3 - Under-training users
 Most adoption failures stem from lack of training, not system limitations. Plan 30-minute hands-on sessions for first-time users.
 
-Pitfall 4: Not providing technical support
+Pitfall 4 - Not providing technical support
 Someone needs to troubleshoot WiFi connectivity, forgotten pins, and other issues. Designate a "presentation system expert" or support queue.
 
 Integration with Zoom, Teams, and Google Meet
@@ -265,7 +265,7 @@ Critical integration points:
 
 This prevents the common hybrid meeting problem where the remote participant sees the presenter's desktop instead of the actual presentation content.
 
-Comparison: BYOD vs. Fixed Setup
+Comparison - BYOD vs. Fixed Setup
 
 BYOD approach (everyone brings their own laptop):
 - Flexibility, latest OS support, no device management
@@ -284,11 +284,11 @@ Common problems and quick fixes:
 
 "Device not found": Often a WiFi connectivity issue, not hardware. Verify the laptop and presentation system are on the same network subnet.
 
-Latency/lag on screen: Typically caused by laptop CPU overload. Close background applications and disable video effects (if screen-sharing at high resolution).
+Latency/lag on screen - Typically caused by laptop CPU overload. Close background applications and disable video effects (if screen-sharing at high resolution).
 
-Audio out of sync: Presentation system audio may be delayed relative to video. Use the video conferencing audio (Zoom/Teams/Meet) instead of the system's audio output.
+Audio out of sync - Presentation system audio may be delayed relative to video. Use the video conferencing audio (Zoom/Teams/Meet) instead of the system's audio output.
 
-Dropout every 30 seconds: Indicates WiFi interference. Switch to 5GHz band if the system supports it, or temporarily move the presentation system away from other WiFi sources.
+Dropout every 30 seconds - Indicates WiFi interference. Switch to 5GHz band if the system supports it, or temporarily move the presentation system away from other WiFi sources.
 
 Test your specific setup with actual presenters before deploying to production meetings. Different laptop models and OS versions sometimes have unpredictable compatibility.
 ---

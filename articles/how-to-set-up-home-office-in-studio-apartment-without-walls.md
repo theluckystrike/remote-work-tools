@@ -20,15 +20,15 @@ Create a dedicated home office in a studio apartment by using vertical space wit
 
 Table of Contents
 
-- [The Core Challenge: Defining Space Without Walls](#the-core-challenge-defining-space-without-walls)
-- [Zone Planning: Mapping Your Studio](#zone-planning-mapping-your-studio)
+- [The Core Challenge - Defining Space Without Walls](#the-core-challenge-defining-space-without-walls)
+- [Zone Planning - Mapping Your Studio](#zone-planning-mapping-your-studio)
 - [Furniture Solutions That Define Spaces](#furniture-solutions-that-define-spaces)
 - [Organization Systems for Maximum Efficiency](#organization-systems-for-maximum-efficiency)
 - [Creating Visual Boundaries](#creating-visual-boundaries)
 - [Managing Noise and Distractions](#managing-noise-and-distractions)
 - [Lighting Setup for Productivity](#lighting-setup-for-productivity)
 - [Making It Feel Professional on Video Calls](#making-it-feel-professional-on-video-calls)
-- [The Psychological Aspect: Creating Work-Life Boundaries](#the-psychological-aspect-creating-work-life-boundaries)
+- [The Psychological Aspect - Creating Work-Life Boundaries](#the-psychological-aspect-creating-work-life-boundaries)
 - [Quick-Start Checklist](#quick-start-checklist)
 - [Workflow Templates for Studio Office Setup](#workflow-templates-for-studio-office-setup)
 - [6:30-7:00 AM: Pre-Work](#630-700-am-pre-work)
@@ -42,13 +42,13 @@ Table of Contents
 
 This guide walks through practical strategies for carving out a functional home office in a studio apartment, from zone planning to organization systems that actually work.
 
-The Core Challenge: Defining Space Without Walls
+The Core Challenge - Defining Space Without Walls
 
 Unlike traditional apartments with separate rooms, a studio forces you to get creative with space definition. The good news? Your open layout is actually an advantage. You have full control over how you divide and use every square foot, without being constrained by existing doorways or wall placements.
 
 The key is thinking in zones. Even without physical walls, you can create psychological boundaries that signal "work mode" versus "relaxation mode" to your brain.
 
-Zone Planning: Mapping Your Studio
+Zone Planning - Mapping Your Studio
 
 Before buying anything, map out your studio's natural zones. Most studio apartments naturally fall into distinct areas:
 
@@ -113,7 +113,7 @@ Everything in your studio needs a designated home. Use consistent containers:
 
 Creating Visual Boundaries
 
-Room Dividers: The Obvious Solution
+Room Dividers - The Obvious Solution
 
 Freestanding room dividers are the most direct way to create separation. Options include:
 
@@ -180,7 +180,7 @@ In a small space, position your camera carefully:
 - Angle slightly to avoid showing too much of your living area
 - Good lighting in front of you (not behind) prevents silhouette effect
 
-The Psychological Aspect: Creating Work-Life Boundaries
+The Psychological Aspect - Creating Work-Life Boundaries
 
 Ritualistic Transitions
 
@@ -345,13 +345,13 @@ Start with the basics ($500 budget: desk, used chair, lamp, basic storage) and u
 
 Pro Tips from Studio-Based Remote Workers
 
-Establish departure rituals: Even though you live there, create a symbolic departure. Some people change clothes again, close the divider, or take a walk around the building. This signals to your brain that work is over.
+Establish departure rituals - Even though you live there, create a symbolic departure. Some people change clothes again, close the divider, or take a walk around the building. This signals to your brain that work is over.
 
-Use white noise strategically: A cheap white noise machine during work hours masks apartment sounds (neighbor noise, HVAC) and creates an acoustic boundary even without physical walls.
+Use white noise strategically - A cheap white noise machine during work hours masks apartment sounds (neighbor noise, HVAC) and creates an acoustic boundary even without physical walls.
 
-Invest in a good power strip: Studio apartments often have limited outlets. A multi-outlet power strip with surge protection keeps your workspace functional and safe.
+Invest in a good power strip - Studio apartments often have limited outlets. A multi-outlet power strip with surge protection keeps your workspace functional and safe.
 
-Keep a "work only" water bottle: Small rituals like a specific cup or bottle for work hours create psychological markers that your brain recognizes as work time.
+Keep a "work only" water bottle - Small rituals like a specific cup or bottle for work hours create psychological markers that your brain recognizes as work time.
 
 Document your video call background: Take a screenshot of your best camera angle with ideal lighting. Review it monthly to maintain professional appearance for remote meetings.
 

@@ -24,10 +24,10 @@ Table of Contents
 - [Tool Stack by Category](#tool-stack-by-category)
 - [The 30-60-90 Day Framework](#the-30-60-90-day-framework)
 - [First Week Checklist (New Hire)](#first-week-checklist-new-hire)
-- [Day 1: Access and Orientation](#day-1-access-and-orientation)
-- [Day 2: Dev Environment Working](#day-2-dev-environment-working)
-- [Day 3-4: First Contribution](#day-3-4-first-contribution)
-- [Day 5: Week 1 Retrospective](#day-5-week-1-retrospective)
+- [Day 1 - Access and Orientation](#day-1-access-and-orientation)
+- [Day 2 - Dev Environment Working](#day-2-dev-environment-working)
+- [Day 3-4 - First Contribution](#day-3-4-first-contribution)
+- [Day 5 - Week 1 Retrospective](#day-5-week-1-retrospective)
 - [First Week Checklist (Manager/Buddy)](#first-week-checklist-managerbuddy)
 - [Before Day 1](#before-day-1)
 - [Day 1](#day-1)
@@ -50,7 +50,7 @@ Most onboarding delays come from access. Someone has to manually add each new hi
 #!/bin/bash
 provision-new-hire.sh
 Provisions a new remote engineer's access
-Usage: ./provision-new-hire.sh USERNAME EMAIL GITHUB_HANDLE TEAM
+Usage - ./provision-new-hire.sh USERNAME EMAIL GITHUB_HANDLE TEAM
 
 set -e
 
@@ -125,19 +125,19 @@ The 30-60-90 Day Framework
 
 Onboarding for a remote engineer should have three phases with different objectives:
 
-Days 1-30: Get oriented
+Days 1-30 - Get oriented
 - Get all access working
 - Understand the codebase at a high level
 - Make first production contribution (however small)
 - Know where to find documentation and who to ask for what
 
-Days 31-60: Build context
+Days 31-60 - Build context
 - Complete a small feature independently
 - Participate in code reviews on both sides (give and receive)
 - Understand the deployment process
 - Build relationships with direct teammates
 
-Days 61-90: Contribute fully
+Days 61-90 - Contribute fully
 - Own a full feature from ticket to deploy
 - Run or contribute to a team ceremony (retro, planning)
 - Identify at least one thing to improve in onboarding for the next hire
@@ -147,31 +147,31 @@ First Week Checklist (New Hire)
 ```markdown
 Week 1 Onboarding Checklist
 
-Day 1: Access and Orientation
+Day 1 - Access and Orientation
 - [ ] Slack: Join workspace, set up notifications, join team channels
 - [ ] GitHub: Accept org invite, set up 2FA, clone main repos
 - [ ] Dev environment: Clone repo, run `make setup` or `docker compose up`
 - [ ] 1Password: Accept invite, save all shared credentials
 - [ ] Read: Team handbook (Notion link)
 - [ ] Read: Engineering principles doc
-- [ ] Meet: Manager 1:1 (30 min. context, expectations, immediate next steps)
+- [ ] Meet - Manager 1:1 (30 min. context, expectations, immediate next steps)
 
-Day 2: Dev Environment Working
+Day 2 - Dev Environment Working
 - [ ] Run the full test suite locally (confirm it passes)
 - [ ] Deploy to staging environment once (follow the runbook)
 - [ ] Set up local aliases and dotfiles
 - [ ] Explore the codebase: read the README, find the main entry points
 - [ ] Meet: Buddy engineer (intro call, 30 min)
 
-Day 3-4: First Contribution
+Day 3-4 - First Contribution
 - [ ] Find a "good first issue" label in Linear/GitHub
 - [ ] Make a small change, open a PR
 - [ ] Go through the full review cycle for your PR
 - [ ] Watch one past incident postmortem (Notion link)
 - [ ] Meet: 2 other team members (ask buddy to intro)
 
-Day 5: Week 1 Retrospective
-- [ ] Meet: Manager check-in (15 min. what was unclear? what's next?)
+Day 5 - Week 1 Retrospective
+- [ ] Meet - Manager check-in (15 min. what was unclear? what's next?)
 - [ ] Document: Add at least one thing to the onboarding doc that was missing or unclear
 - [ ] Set: 30-day goals with manager
 ```
@@ -186,7 +186,7 @@ Before Day 1
 - [ ] Assign a buddy (senior engineer, not manager)
 - [ ] Create onboarding Notion page with: team contacts, key docs, current priorities
 - [ ] Add to all recurring team meetings
-- [ ] Notify team in Slack: "Alice joins Monday. please say hello!"
+- [ ] Notify team in Slack - "Alice joins Monday. please say hello!"
 - [ ] Prepare a "good first issue". tag it in Linear/GitHub
 
 Day 1

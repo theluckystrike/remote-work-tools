@@ -57,7 +57,7 @@ nvim-config/
  .nvimrc.local.example
 ```
 
-The key decision: commit `lazy-lock.json`. This pins every plugin to the exact version everyone else is running. Without the lock file, `Lazy! restore` resolves to the latest-stable of each plugin, which can differ between installs by weeks.
+The key decision - commit `lazy-lock.json`. This pins every plugin to the exact version everyone else is running. Without the lock file, `Lazy! restore` resolves to the latest-stable of each plugin, which can differ between installs by weeks.
 
 The `snippets/` directory is optional but valuable. shared code snippets for the languages your team writes every day.
 
@@ -335,7 +335,7 @@ Open PR for team review
 git add lazy-lock.json
 git commit -m "chore: update nvim plugins $(date +%Y-%m-%d)"
 gh pr create --title "Neovim plugin updates $(date +%Y-%m-%d)" \
-  --body "Weekly plugin update. Test: git checkout <branch> && nvim +Lazy! restore"
+  --body "Weekly plugin update. Test - git checkout <branch> && nvim +Lazy! restore"
 ```
 
 The PR body should note any plugins with major version bumps. A reviewer who uses that plugin regularly should test before approving.

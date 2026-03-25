@@ -21,10 +21,10 @@ Two-person backend teams face unique automation challenges. You have enough code
 Table of Contents
 
 - [What Small Remote Teams Actually Need](#what-small-remote-teams-actually-need)
-- [GitHub Actions: The Default Choice](#github-actions-the-default-choice)
-- [GitLab CI: Strong Free Tier](#gitlab-ci-strong-free-tier)
-- [CircleCI: Speed and Parallelism](#circleci-speed-and-parallelism)
-- [Tool Comparison: What to Choose as a Two-Person Team](#tool-comparison-what-to-choose-as-a-two-person-team)
+- [GitHub Actions - The Default Choice](#github-actions-the-default-choice)
+- [GitLab CI - Strong Free Tier](#gitlab-ci-strong-free-tier)
+- [CircleCI - Speed and Parallelism](#circleci-speed-and-parallelism)
+- [Tool Comparison - What to Choose as a Two-Person Team](#tool-comparison-what-to-choose-as-a-two-person-team)
 - [Specialized Tools for Small Teams](#specialized-tools-for-small-teams)
 - [Keeping Pipelines Fast Across Time Zones](#keeping-pipelines-fast-across-time-zones)
 - [Recommendations by Use Case](#recommendations-by-use-case)
@@ -40,7 +40,7 @@ Before examining specific tools, consider what matters most for a two-person bac
 - Strong GitHub/GitLab integration: Most backend teams already host code on these platforms
 - Deployment flexibility: Support for various hosting targets (AWS, GCP, Heroku, self-hosted)
 
-GitHub Actions: The Default Choice
+GitHub Actions - The Default Choice
 
 For teams already using GitHub, Actions provides the lowest friction path to CI/CD. The workflow configuration lives in your repository, and the free tier includes substantial compute time.
 
@@ -100,9 +100,9 @@ For deployment, add a job that runs after tests pass:
           ssh -o StrictHostKeyChecking=no $SERVER "cd /app && git pull && npm run deploy"
 ```
 
-The `needs: test` dependency ensures deployment only happens after successful tests. The `if` condition restricts deployment to the main branch.
+The `needs - test` dependency ensures deployment only happens after successful tests. The `if` condition restricts deployment to the main branch.
 
-GitLab CI: Strong Free Tier
+GitLab CI - Strong Free Tier
 
 If your team uses GitLab, their CI/CD offering deserves attention. The free tier includes 400 pipeline minutes monthly with unlimited CI/CD minutes on self-hosted runners, a significant advantage for teams wanting more control.
 
@@ -147,7 +147,7 @@ deploy:
 
 The `cache` directive works similarly to GitHub Actions. Artifacts pass build outputs between stages, useful for multi-stage deployments or passing compiled assets.
 
-CircleCI: Speed and Parallelism
+CircleCI - Speed and Parallelism
 
 CircleCI excels at execution speed through smart resource allocation and efficient container reuse. Their free tier includes 6,000 build minutes monthly, generous for two-person teams.
 
@@ -209,7 +209,7 @@ CircleCI's strength lies in parallelism. Split tests across multiple containers 
           command: npm run test -- --split-by=tests
 ```
 
-Tool Comparison: What to Choose as a Two-Person Team
+Tool Comparison - What to Choose as a Two-Person Team
 
 Choosing a CI/CD platform affects your day-to-day workflow more than most infrastructure decisions. Here is how the main options compare for small remote backend teams:
 
@@ -223,7 +223,7 @@ Choosing a CI/CD platform affects your day-to-day workflow more than most infras
 | Secrets management | Built-in | Built-in | Built-in |
 | Best for | GitHub-hosted repos | GitLab monorepos | Speed-sensitive pipelines |
 
-For most two-person teams starting fresh, GitHub Actions is the lowest-friction choice. If your team already uses GitLab for issue tracking and merge requests, staying in that ecosystem avoids context switching. CircleCI makes sense when build times have become a productivity bottleneck.
+For most two-person teams starting fresh, GitHub Actions is the lowest-friction choice. If your team already uses GitLab for issue tracking and merge requests, staying in that environment avoids context switching. CircleCI makes sense when build times have become a productivity bottleneck.
 
 Specialized Tools for Small Teams
 
@@ -237,7 +237,7 @@ Automated dependency updates prevent security vulnerabilities without manual eff
 .github/dependabot.yml
 version: 2
 updates:
-  - package-ecosystem: "npm"
+  - package-environment: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -328,13 +328,13 @@ on:
 
 Recommendations by Use Case
 
-API backend with PostgreSQL: GitHub Actions with `postgres` service container for testing. Use matrix builds to test multiple Node.js versions.
+API backend with PostgreSQL - GitHub Actions with `postgres` service container for testing. Use matrix builds to test multiple Node.js versions.
 
-Microservices architecture: GitLab CI works well with monorepo setups. Use `rules` to filter which services deploy based on changed paths.
+Microservices architecture - GitLab CI works well with monorepo setups. Use `rules` to filter which services deploy based on changed paths.
 
-Serverless functions: AWS SAM or Serverless Framework with GitHub Actions. The `aws-actions/configure-aws-credentials` action handles authentication.
+Serverless functions - AWS SAM or Serverless Framework with GitHub Actions. The `aws-actions/configure-aws-credentials` action handles authentication.
 
-Containerized applications: CircleCI excels with Docker support. Use `setup_remote_docker` for building and pushing images.
+Containerized applications - CircleCI excels with Docker support. Use `setup_remote_docker` for building and pushing images.
 
 Infrastructure as Code
 

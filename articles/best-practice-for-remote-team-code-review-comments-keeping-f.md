@@ -73,9 +73,9 @@ Addressing Logic Issues
 
 When you spot a potential bug or flawed logic, frame the comment as a question or observation rather than a directive:
 
-Harsh: "This is wrong. The API expects a string, not an object."
+Harsh - "This is wrong. The API expects a string, not an object."
 
-Constructive: "I'm seeing the API call passing `userConfig` as an object on line 45. The endpoint documentation shows it expects `{ key: string }` format. Will this serialize correctly, or should we extract the relevant string property first?"
+Constructive - "I'm seeing the API call passing `userConfig` as an object on line 45. The endpoint documentation shows it expects `{ key: string }` format. Will this serialize correctly, or should we extract the relevant string property first?"
 
 The second version shows you've considered the context, acknowledges you might be wrong, and invites collaboration rather than demanding compliance.
 
@@ -83,9 +83,9 @@ Suggesting Alternative Approaches
 
 Remote teams often have diverse backgrounds with different solution patterns. Suggest alternatives without dismissing the author's work:
 
-Harsh: "Use a map instead of this for loop. It's more Pythonic."
+Harsh - "Use a map instead of this for loop. It's more Pythonic."
 
-Constructive: "This loop works well here. An alternative approach using `map()` would eliminate the mutable accumulator and could make the transformation logic more composable. Here's an example:
+Constructive - "This loop works well here. An alternative approach using `map()` would eliminate the mutable accumulator and could make the transformation logic more composable. Here's an example:
 
 ```python
 Alternative approach for consideration
@@ -100,26 +100,26 @@ Handling Style Preferences
 
 Code style discussions generate more friction than almost any other review topic. Establish team linters and style guides upfront, then limit style comments to educational opportunities:
 
-Harsh: "Use f-strings instead of.format(). Everyone knows they're better."
+Harsh - "Use f-strings instead of.format(). Everyone knows they're better."
 
-Constructive: "This uses `.format()` syntax. Our style guide recommends f-strings for new code, they're slightly more readable and have marginally better performance. Not blocking, but worth updating if you're touching this area anyway."
+Constructive - "This uses `.format()` syntax. Our style guide recommends f-strings for new code, they're slightly more readable and have marginally better performance. Not blocking, but worth updating if you're touching this area anyway."
 
-The key difference: framing style preferences as team standards rather than personal opinions, and offering flexibility with "not blocking."
+The key difference - framing style preferences as team standards rather than personal opinions, and offering flexibility with "not blocking."
 
 Establishing Team Review Norms
 
 Individual comment practices scale through team agreements. Consider establishing these norms explicitly:
 
-Response time expectations: Define SLA for review turnaround. In async teams, 24-48 hours shows respect for authors waiting on feedback.
+Response time expectations - Define SLA for review turnaround. In async teams, 24-48 hours shows respect for authors waiting on feedback.
 
-Comment prefixes: Some teams use tags to clarify intent:
+Comment prefixes - Some teams use tags to clarify intent:
 
 - `[suggestion]` - Optional improvement, author's choice
 - `[question]` - Seeking clarification, not criticism
 - `[nit]` - Trivial preference, not worth blocking
 - `[required]` - Actual blocker requiring change
 
-Approval etiquette: Define what "approved with comments" means versus "changes requested." GitHub's review features help enforce these distinctions.
+Approval etiquette - Define what "approved with comments" means versus "changes requested." GitHub's review features help enforce these distinctions.
 
 Modeling Constructive Feedback at Scale
 
@@ -291,7 +291,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -303,7 +303,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

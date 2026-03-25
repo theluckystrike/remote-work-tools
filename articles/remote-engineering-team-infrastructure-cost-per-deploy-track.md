@@ -54,13 +54,13 @@ Before implementing tracking, define the metrics that matter. The essential meas
 
 Each deployment triggers a chain of resource allocation. Capturing the full lifecycle. from the moment the deploy starts until resources stabilize. gives you accurate cost attribution.
 
-A practical benchmark: for most web applications, the cost spike from a rolling deploy (ECS or Kubernetes) runs 15-30% above baseline while the new containers warm up and the old containers drain connections. Canary and blue-green deployments often show higher per-deploy costs because they run two full environments briefly, but they reduce rollback costs significantly.
+A practical benchmark - for most web applications, the cost spike from a rolling deploy (ECS or Kubernetes) runs 15-30% above baseline while the new containers warm up and the old containers drain connections. Canary and blue-green deployments often show higher per-deploy costs because they run two full environments briefly, but they reduce rollback costs significantly.
 
 Implementing Cost Tracking in Your Deploy Pipeline
 
 The most effective approach integrates cost tracking directly into your CI/CD pipeline. Here's a practical implementation using common tools.
 
-Step 1: Tag Resources Consistently
+Step 1 - Tag Resources Consistently
 
 Tagging is the foundation of cost attribution. Every infrastructure resource should carry metadata that links it to a deploy. Use tags like `deploy-id`, `environment`, `service`, and `commit-sha`:
 
@@ -82,7 +82,7 @@ resource "aws_instance" "app_server" {
 
 Consistent tagging enables your cloud provider's cost explorer to group spending by deploy.
 
-Step 2: Capture Deploy Events
+Step 2 - Capture Deploy Events
 
 Emit events at key pipeline stages that record what is being deployed and when:
 
@@ -119,7 +119,7 @@ GitHub Actions example
     COMMIT_SHA: ${{ github.sha }}
 ```
 
-Step 3: Calculate Post-Deploy Costs
+Step 3 - Calculate Post-Deploy Costs
 
 After deployment completes, query your cloud provider's cost data and attribute it to the specific deploy. Here's a Python script using the AWS Cost Explorer API:
 

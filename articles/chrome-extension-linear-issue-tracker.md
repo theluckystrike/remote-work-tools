@@ -22,10 +22,10 @@ Table of Contents
 - [Practical Chrome Extensions for Linear](#practical-chrome-extensions-for-linear)
 - [Setting Up Your Extension Workflow](#setting-up-your-extension-workflow)
 - [Limitations and Alternatives](#limitations-and-alternatives)
-- [Building Your Custom Extension: Complete Example](#building-your-custom-extension-complete-example)
+- [Building Your Custom Extension - Complete Example](#building-your-custom-extension-complete-example)
 - [Linear Extension Workflow Optimization](#linear-extension-workflow-optimization)
 - [Performance Tips for Extension Users](#performance-tips-for-extension-users)
-- [Comparison: Extensions vs. Native Apps](#comparison-extensions-vs-native-apps)
+- [Comparison - Extensions vs. Native Apps](#comparison-extensions-vs-native-apps)
 
 Why Use Chrome Extensions with Linear
 
@@ -42,7 +42,7 @@ Practical Chrome Extensions for Linear
 
 The official Linear browser extension provides core functionality directly in Chrome. After installing, you can create issues, view your inbox, and access recent projects without opening a new tab.
 
-Installation: Search for "Linear" in the Chrome Web Store or visit linear.app/downloads. Sign in with your Linear account to activate the extension.
+Installation - Search for "Linear" in the Chrome Web Store or visit linear.app/downloads. Sign in with your Linear account to activate the extension.
 
 Key Features:
 - Quick issue creation from the extension popup
@@ -56,7 +56,7 @@ When you click the extension icon, a popup appears showing your inbox count and 
 
 This extension bridges GitHub pull requests with Linear issues. When viewing a PR that references a Linear issue (like `LINE-123`), the extension displays the issue status directly in the GitHub UI.
 
-Use Case: You're reviewing a PR and want to check if the linked issue is already resolved. Instead of opening Linear in a new tab, you see the issue status inline.
+Use Case - You're reviewing a PR and want to check if the linked issue is already resolved. Instead of opening Linear in a new tab, you see the issue status inline.
 
 ```javascript
 // The extension detects patterns like LINEAR-123 in PR descriptions
@@ -157,11 +157,11 @@ Integration with Development Workflow
 
 Combine extensions with your existing tools for maximum efficiency:
 
-Code Review: Use the GitHub connector to see Linear issue status while reviewing PRs. If the issue is marked "In Progress," request changes before merging.
+Code Review - Use the GitHub connector to see Linear issue status while reviewing PRs. If the issue is marked "In Progress," request changes before merging.
 
-Bug Reporting: When users report bugs in your app, use Quick Add to create issues immediately while the context is fresh. Include the URL and any console errors.
+Bug Reporting - When users report bugs in your app, use Quick Add to create issues immediately while the context is fresh. Include the URL and any console errors.
 
-Documentation: Create issues for outdated documentation directly from docs.linear.app or your own wikis.
+Documentation - Create issues for outdated documentation directly from docs.linear.app or your own wikis.
 
 Limitations and Alternatives
 
@@ -173,7 +173,7 @@ Chrome extensions work within browser constraints. For deeper integration, consi
 
 Extensions work best for quick actions and context-aware issue creation. Reserve complex issue management for the full Linear interface.
 
-Building Your Custom Extension: Complete Example
+Building Your Custom Extension - Complete Example
 
 For teams wanting tighter Linear integration, building a simple custom extension beats any off-the-shelf solution:
 
@@ -395,7 +395,7 @@ Upload to your internal store at chrome.google.com/webstore (requires developer 
 Or use policies to force install via chrome policies JSON
 ```
 
-Comparison: Extensions vs. Native Apps
+Comparison - Extensions vs. Native Apps
 
 | Feature | Extension | Linear App | VS Code Extension |
 |---------|-----------|------------|------------------|

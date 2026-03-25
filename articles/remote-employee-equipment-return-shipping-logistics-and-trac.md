@@ -205,9 +205,9 @@ Questions? Reply to this email.`
   in_transit: {
     subject: "Your Equipment is On Its Way",
     body: `Tracking: {{trackingNumber}}
-Carrier: {{carrier}}
+Carrier - {{carrier}}
 
-Track your shipment: {{trackingUrl}}`
+Track your shipment - {{trackingUrl}}`
   },
 
   delivered: {

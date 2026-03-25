@@ -72,8 +72,8 @@ against three downstream services. Under load, queued transactions
 caused cascading timeouts...
 ```
 
-Cost: Free (GitHub Pages hosting)
-Limitations: No server-side rendering without a separate deployment target; forms require a third-party service like Formspree.
+Cost - Free (GitHub Pages hosting)
+Limitations - No server-side rendering without a separate deployment target; forms require a third-party service like Formspree.
 
 Framer
 
@@ -103,8 +103,8 @@ export function GitHubStatus({ username }) {
 }
 ```
 
-Cost: $15-$25/month for custom domain
-Limitations: Vendor lock-in; migrating away requires rebuilding from scratch
+Cost - $15-$25/month for custom domain
+Limitations - Vendor lock-in; migrating away requires rebuilding from scratch
 
 Webflow
 
@@ -135,8 +135,8 @@ const response = await fetch(
 )
 ```
 
-Cost: $23-$39/month
-Limitations: Steeper learning curve than Framer; generated code is verbose
+Cost - $23-$39/month
+Limitations - Steeper learning curve than Framer; generated code is verbose
 
 Next.js on Vercel
 
@@ -160,8 +160,8 @@ portfolio/
      ProjectCard.tsx
 ```
 
-Cost: Free on Vercel hobby tier; $20/month for team features
-Limitations: Requires developer setup time; overkill for a simple showcase
+Cost - Free on Vercel hobby tier; $20/month for team features
+Limitations - Requires developer setup time; overkill for a simple showcase
 
 Contact Forms Without a Backend
 

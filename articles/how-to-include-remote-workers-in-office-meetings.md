@@ -160,7 +160,7 @@ Start a shared terminal session for pair programming
 tmux new-session -s shared-review -d
 Grant another user access
 tmux lock-session -t shared-review
-Users join via: tmux attach-session -t shared-review
+Users join via - tmux attach-session -t shared-review
 ```
 
 For code-specific discussions, setting up a collaborative IDE environment ensures remote developers can participate in architectural decisions as they happen.
@@ -169,11 +169,11 @@ Establishing Meeting Norms
 
 Create explicit guidelines for hybrid meetings that your team documents and enforces. These norms should address:
 
-Speaking order: Use hand-raise features or explicit verbal cues so remote participants can signal when they want to speak. The meeting facilitator should actively monitor for these signals rather than relying on in-room participants to notice.
+Speaking order - Use hand-raise features or explicit verbal cues so remote participants can signal when they want to speak. The meeting facilitator should actively monitor for these signals rather than relying on in-room participants to notice.
 
-Chat monitoring: Assign someone to watch the meeting chat and surface questions or comments that remote participants type. In-room participants often don't see chat messages, so verbalizing them creates awareness.
+Chat monitoring - Assign someone to watch the meeting chat and surface questions or comments that remote participants type. In-room participants often don't see chat messages, so verbalizing them creates awareness.
 
-Decision documentation: Type meeting notes in real-time and read back action items at the end. This ensures remote workers confirm their understanding matches what was discussed.
+Decision documentation - Type meeting notes in real-time and read back action items at the end. This ensures remote workers confirm their understanding matches what was discussed.
 
 A markdown template for meeting notes that enforces this:
 
@@ -186,7 +186,7 @@ Attendees
 
 Discussion Notes
 
-Topic: Q2 Roadmap Priorities
+Topic - Q2 Roadmap Priorities
 - Alice presented initial priorities
 - Charlie (remote): Suggested prioritizing API reliability over new features
 - Bob agreed with Charlie's assessment
@@ -356,7 +356,7 @@ Next Steps
 - [Owner] will follow up async on [topic]
 ---
 
-Share this with: All attendees + team Slack channel
+Share this with - All attendees + team Slack channel
 Response required from remote workers by: [date]
 ```
 

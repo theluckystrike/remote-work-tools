@@ -137,7 +137,7 @@ Premium ($700+):
 - Steelcase Leap: $1,000 (best overall ergonomics)
 - Autonomous SmartDesk Chair: $900 (with motorized lumbar support)
 
-Best Value: Secretlab Omega 2022 ($550) combines Herman Miller-level support at mid-range pricing.
+Best Value - Secretlab Omega 2022 ($550) combines Herman Miller-level support at mid-range pricing.
 
 4. Keyboard and Mouse Placement
 
@@ -210,7 +210,7 @@ Recommended Products:
 - Dyson Lightcycle: $600 (premium, mimics natural daylight cycle)
 - TaoTronics LED Desk Lamp: $40 (budget, adjustable brightness)
 
-Pro Tip: Position your desk perpendicular to windows, not facing them (prevents backlit monitor).
+Pro Tip - Position your desk perpendicular to windows, not facing them (prevents backlit monitor).
 
 6. Monitor Positioning for Multiple Screens
 
@@ -273,30 +273,30 @@ POSTURE (during 1-hour work session)
 
 Common Ergonomic Mistakes and Fixes
 
-Mistake 1: Laptop as Primary Monitor
+Mistake 1 - Laptop as Primary Monitor
 - Problem: Screen too low, keyboard too high, forces hunching
 - Fix: Use external monitor on stand + separate keyboard ($100-300 total)
 
-Mistake 2: Standing Desk Without Sitting
+Mistake 2 - Standing Desk Without Sitting
 - Problem: Feet and lower back strain from standing 8 hours daily
 - Fix: Alternate sitting/standing every 30 minutes
 - Standing Desk Mat: $50-150 (reduces foot fatigue)
 
-Mistake 3: Adjustable Desk Left at Same Height
+Mistake 3 - Adjustable Desk Left at Same Height
 - Problem: Defeats purpose of adjustable desk
 - Fix: Set 3-4 height presets; switch every 30 minutes
 
-Mistake 4: Mouse Too Far
+Mistake 4 - Mouse Too Far
 - Problem: Shoulder and arm strain from reaching
 - Fix: Move keyboard and mouse closer to body, reduce desk depth
 
-Mistake 5: Ignoring Early Pain
+Mistake 5 - Ignoring Early Pain
 - Problem: RSI develops silently over months
 - Fix: Address pain within first week (90% success rate for early intervention)
 
 Budget Ergonomic Setup
 
-Total Budget: $500-800
+Total Budget - $500-800
 
 - Adjustable standing desk or manual desk: $300-400
 - Ergonomic chair (Secretlab Omega used or budget alternative): $250-350
@@ -305,7 +305,7 @@ Total Budget: $500-800
 - Desk lamp: $40-60
 - Total: $490-585
 
-Premium Setup: $2,000-3,000
+Premium Setup - $2,000-3,000
 
 - Electric standing desk (Fully Jarvis): $800-1,200
 - Premium chair (Steelcase Leap): $1,000
@@ -327,15 +327,15 @@ An occupational therapist can perform detailed ergonomic assessment and recommen
 
 Implementation Plan
 
-Week 1: Perform assessment checklist. Identify 2-3 biggest problems.
+Week 1 - Perform assessment checklist. Identify 2-3 biggest problems.
 
-Week 2: Fix highest-impact issues (monitor height, keyboard position, chair support).
+Week 2 - Fix highest-impact issues (monitor height, keyboard position, chair support).
 
-Week 3-4: Address secondary issues (lighting, mouse position).
+Week 3-4 - Address secondary issues (lighting, mouse position).
 
-Month 2+: Monitor for pain. Adjust setup based on how you feel after 1-2 hour work sessions.
+Month 2+ - Monitor for pain. Adjust setup based on how you feel after 1-2 hour work sessions.
 
-Month 3+: Re-assess quarterly. Update setup as needs change.
+Month 3+ - Re-assess quarterly. Update setup as needs change.
 
 Frequently Asked Questions
 

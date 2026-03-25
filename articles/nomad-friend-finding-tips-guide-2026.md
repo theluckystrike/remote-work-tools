@@ -34,8 +34,8 @@ Table of Contents
 - [Tool Stack for Nomad Friendships](#tool-stack-for-nomad-friendships)
 - [Friendship Types and Maintenance Requirements](#friendship-types-and-maintenance-requirements)
 - [The Long-Distance Friendship Maintenance Protocol](#the-long-distance-friendship-maintenance-protocol)
-- [Preventing Loneliness: The Backup Plan](#preventing-loneliness-the-backup-plan)
-- [Friendship Deals: What to Discuss Early](#friendship-deals-what-to-discuss-early)
+- [Preventing Loneliness - The Backup Plan](#preventing-loneliness-the-backup-plan)
+- [Friendship Deals - What to Discuss Early](#friendship-deals-what-to-discuss-early)
 
 Why Nomad Friendship Differs From Regular Social Networking
 
@@ -90,21 +90,21 @@ Building Your Own Nomad Community
 
 Rather than only joining existing communities, consider creating one:
 
-Start a weekly event: Many cities lack regular nomad meetups. Creating a weekly "remote work Wednesday" at a consistent café requires minimal effort but fills a clear gap.
+Start a weekly event - Many cities lack regular nomad meetups. Creating a weekly "remote work Wednesday" at a consistent café requires minimal effort but fills a clear gap.
 
 ```markdown
 Example Meetup.md template
 
 [City] Digital Nomad Meetup
-When: Every Wednesday, 6-8 PM
-Where: [Café name], [Address]
-Format: Show up anytime, stay as long as you want
-This week: Lightning talks (5 min each) - sign up at the door
+When - Every Wednesday, 6-8 PM
+Where - [Café name], [Address]
+Format - Show up anytime, stay as long as you want
+This week - Lightning talks (5 min each) - sign up at the door
 
 No agenda, no pressure, just nomads connecting.
 ```
 
-Create a local Slack or Discord: Many smaller cities lack dedicated nomad communication channels. Creating one and actively inviting people you meet fills this gap while establishing you as a community organizer.
+Create a local Slack or Discord - Many smaller cities lack dedicated nomad communication channels. Creating one and actively inviting people you meet fills this gap while establishing you as a community organizer.
 
 Relationship Maintenance Across Time Zones
 
@@ -141,11 +141,11 @@ Most nomad relationships stay in the first category, and that's fine. Focus ener
 
 Common Mistakes to Avoid
 
-Over-reliance on dating apps: Apps like Tinder work but mix friendship and dating signals, creating confusion. Dedicated friend-finding apps or community platforms provide clearer intent.
+Over-reliance on dating apps - Apps like Tinder work but mix friendship and dating signals, creating confusion. Dedicated friend-finding apps or community platforms provide clearer intent.
 
 Only connecting with other nomads: Local friends provide grounding and cultural immersion that nomad-only circles miss. Language exchanges, hobby groups, and local tech meetups offer this balance.
 
-Neglecting async relationships: Not all friendships require real-time presence. Discord communities, Twitter/X conversations, and GitHub collaborations maintain connections between physical meetups.
+Neglecting async relationships - Not all friendships require real-time presence. Discord communities, Twitter/X conversations, and GitHub collaborations maintain connections between physical meetups.
 
 Practical First Steps
 
@@ -163,35 +163,35 @@ Structured Friend-Finding System
 
 Successful nomads treat friendship building like a project with measurable milestones:
 
-Month 1: Discovery Phase
+Month 1 - Discovery Phase
 
-Week 1-2: Research
+Week 1-2 - Research
 - Join city-specific Slack communities and Discord servers
 - Read Nomad List city guide comments to identify recurring advice givers
 - Follow 10-15 local tech/startup accounts on Twitter/X
 - Save Meetup.com groups you plan to attend
 
-Week 3-4: Attendance
+Week 3-4 - Attendance
 - Attend 3 different meetup groups (aim for variety: tech, language exchange, hobby-based)
 - Note which events have highest density of nomads
 - Collect contact info for 2-3 people at each event
 - Commit to returning to 1-2 events next month
 
-Month 2-3: Connection Phase
+Month 2-3 - Connection Phase
 
-Active outreach: Send personal messages to people you met:
+Active outreach - Send personal messages to people you met:
 ```
-Template: "Hi [name], loved meeting you at [event] last week. Your thoughts on [specific thing you discussed] stuck with me. Would you be interested in [coffee/coworking] this week?"
+Template - "Hi [name], loved meeting you at [event] last week. Your thoughts on [specific thing you discussed] stuck with me. Would you be interested in [coffee/coworking] this week?"
 ```
 
 Specificity matters. "Let's hang out" has 20% response rate. "Interested in working from [café] Friday 2-5pm?" has 60% response rate.
 
-Parallel deepening: With people you've met 2+ times, move communication off Meetup/Slack to signal real friendship:
+Parallel deepening - With people you've met 2+ times, move communication off Meetup/Slack to signal real friendship:
 - Exchange personal numbers or Telegram
 - Create a shared interest (co-working days, language practice, gym partner)
 - Suggest doing something non-event-related (hiking, dinner, coding session)
 
-Month 4+: Maintenance Phase
+Month 4+ - Maintenance Phase
 
 Relationship tracking system (simple Google Sheet works):
 ```
@@ -271,7 +271,7 @@ For casual friends (bi-quarterly):
 
 This structure makes it clear you value them without requiring constant messaging.
 
-Preventing Loneliness: The Backup Plan
+Preventing Loneliness - The Backup Plan
 
 Even with a structured approach, some weeks feel isolating. Create a backup plan:
 
@@ -292,7 +292,7 @@ Solo activities with community elements:
 
 The combination prevents the "I'm surrounded by people but lonely" feeling that plagues some nomads.
 
-Friendship Deals: What to Discuss Early
+Friendship Deals - What to Discuss Early
 
 When a new friendship shows promise, clarifying expectations prevents misalignment:
 

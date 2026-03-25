@@ -132,13 +132,13 @@ Game Sessions That Developers Actually Enjoy
 
 Avoid generic party games. Instead, choose activities that appeal to technical minds:
 
-Code golf competitions: Who can solve a simple problem in the fewest characters. Great for quick 15-minute breaks.
+Code golf competitions - Who can solve a simple problem in the fewest characters. Great for quick 15-minute breaks.
 
-Regex challenges: Given a string, write a regex to extract specific patterns. Competitive and educational.
+Regex challenges - Given a string, write a regex to extract specific patterns. Competitive and educational.
 
 Architecture reviews of bad software: Watch videos of notoriously bad code or UI decisions and discuss what went wrong.
 
-Terminal games: Compete on command-line games like nethack, vi clones, or custom CLI challenges your team creates.
+Terminal games - Compete on command-line games like nethack, vi clones, or custom CLI challenges your team creates.
 
 Set up a simple leaderboard:
 
@@ -275,18 +275,18 @@ Bonding Activity Calendar for Full-Year Coverage
 Build variety without decision fatigue by planning a full calendar:
 
 ```yaml
-January: Technical book club starts
-February: Build day challenge
-March: Pair programming rotations launch
-April: Spring co-working sessions
-May: Virtual team cooking class
-June: Async show-and-tell focus
-July: Game tournaments during summer schedule
-August: Lower activity (people take vacation)
-September: Back-to-school boost, lunch pairs
-October: Technical detailed look presentations
-November: Gratitude/appreciation month
-December: Low-pressure social hangouts
+January - Technical book club starts
+February - Build day challenge
+March - Pair programming rotations launch
+April - Spring co-working sessions
+May - Virtual team cooking class
+June - Async show-and-tell focus
+July - Game tournaments during summer schedule
+August - Lower activity (people take vacation)
+September - Back-to-school boost, lunch pairs
+October - Technical detailed look presentations
+November - Gratitude/appreciation month
+December - Low-pressure social hangouts
 ```
 
 This planning eliminates "what should we do?" decision-making. Activities are pre-scheduled and built around seasonal patterns.
@@ -296,7 +296,7 @@ Budget Allocation for Bonding Activities
 Not all bonding requires spending, but some investments amplify culture:
 
 ```
-Annual team bonding budget: $2,000-5,000 for 20 people
+Annual team bonding budget - $2,000-5,000 for 20 people
 
 50%: Experience costs
   - Virtual escape room license ($200/month)

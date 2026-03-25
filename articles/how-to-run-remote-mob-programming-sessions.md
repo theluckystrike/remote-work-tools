@@ -21,7 +21,7 @@ Table of Contents
 
 - [The Core Structure](#the-core-structure)
 - [Tool Setup](#tool-setup)
-- [Tool Comparison: Live Share vs Tuple vs Gitpod](#tool-comparison-live-share-vs-tuple-vs-gitpod)
+- [Tool Comparison - Live Share vs Tuple vs Gitpod](#tool-comparison-live-share-vs-tuple-vs-gitpod)
 - [Session Structure (90 minutes)](#session-structure-90-minutes)
 - [WIP Commits for Rotation](#wip-commits-for-rotation)
 - [Navigator Anti-Patterns](#navigator-anti-patterns)
@@ -39,18 +39,18 @@ Remote mob programming needs more explicit structure than in-person because ther
 Roles:
 - Driver: types the code (shares screen, receives directions)
 - Navigator: decides what to type next (the team collectively; one voice at a time)
-- Mob: everyone else. observing, thinking ahead, flagging issues
+- Mob - everyone else. observing, thinking ahead, flagging issues
 
 Timing:
 - 15-minute rotations (driver becomes part of mob, navigator becomes driver, mob member becomes navigator)
 - Use a visible timer the whole group can see
 - Short break every 90 minutes
 
-The golden rule: The driver types only what the navigator says. No initiative, no "I think we should also...". that goes through the navigator.
+The golden rule - The driver types only what the navigator says. No initiative, no "I think we should also...". that goes through the navigator.
 
 Tool Setup
 
-Option 1: VS Code Live Share + Video Call
+Option 1 - VS Code Live Share + Video Call
 
 Live Share lets multiple people edit the same file simultaneously, but in mob sessions only the driver types.
 
@@ -82,7 +82,7 @@ Live Share limitations:
 - Terminal sharing requires explicit permission
 - Extension version mismatches cause issues. everyone should be on the same VS Code version
 
-Option 2: Tuple
+Option 2 - Tuple
 
 Tuple is purpose-built for pair/mob programming with low-latency screen sharing and audio.
 
@@ -103,7 +103,7 @@ Key Tuple features for mob sessions:
 - Direct audio without video codec overhead
 ```
 
-Option 3: Gitpod or Codebase (Cloud IDE Mob)
+Option 3 - Gitpod or Codebase (Cloud IDE Mob)
 
 For teams across multiple operating systems or without powerful local machines:
 
@@ -132,7 +132,7 @@ vscode:
 
 Everyone opens the same Gitpod workspace URL and uses Live Share within it. no local environment required.
 
-Tool Comparison: Live Share vs Tuple vs Gitpod
+Tool Comparison - Live Share vs Tuple vs Gitpod
 
 Picking the wrong tool is the fastest way to kill engagement in a remote mob session. Here is how the main options compare:
 
@@ -237,7 +237,7 @@ Tools for the Timer
 
 ```bash
 Terminal timer (visible to driver who shares screen)
-Install: brew install terminal-notifier
+Install - brew install terminal-notifier
 countdown() {
   local seconds=$1
   while [ $seconds -gt 0 ]; do
@@ -262,9 +262,9 @@ Session Notes Template
 ```markdown
 Mob Session. [date]
 
-Goal: [one sentence]
-Attendees: @alice (nav1), @bob (driver1), @carol (driver2), @david (nav2)
-Duration: 90 min
+Goal - [one sentence]
+Attendees - @alice (nav1), @bob (driver1), @carol (driver2), @david (nav2)
+Duration - 90 min
 
 What we built / decided:
 - [specific outcome]

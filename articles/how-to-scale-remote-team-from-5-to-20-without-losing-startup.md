@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Communication Bottleneck
+Step 1 - The Communication Bottleneck
 
 Your first scaling challenge appears in how your team shares information. With 5 people, you can share context in seconds. With 20, you need systems.
 
@@ -39,27 +39,27 @@ The solution isn't more meetings, it's better async documentation. Every decisio
 Here's a practical template for technical decision documents that scales:
 
 ```markdown
-RFC: Migrate Authentication Service to Auth0
+RFC - Migrate Authentication Service to Auth0
 
-Step 2: Problem Statement
+Step 2 - Problem Statement
 Current auth service requires dedicated maintenance. Security patches, token refresh logic, and password reset flows consume ~20% of one engineer's time monthly.
 
-Step 3: Proposed Solution
+Step 3 - Proposed Solution
 Implement Auth0 with custom claims for role-based access control.
 
-Step 4: Timeline
+Step 4 - Timeline
 - Week 1: Proof of concept with staging environment
 - Week 2: Migrate non-critical user flows
 - Week 3: Full migration and rollback plan testing
 
-Step 5: Questions for Reviewers
+Step 5 - Questions for Reviewers
 1. How does this impact our mobile app authentication flow?
 2. Are there compliance considerations for EU user data?
 ```
 
 This RFC format works because it forces authors to think through the full context while giving reviewers a structured way to provide input asynchronously.
 
-Step 6: Preserve Autonomy Through Clear Standards
+Step 6 - Preserve Autonomy Through Clear Standards
 
 Startup culture thrives on autonomy, individual contributors making decisions without excessive approval chains. The risk at scale is that autonomy becomes chaos when 20 people make independent choices without alignment.
 
@@ -77,7 +77,7 @@ const reviewGuidelines = {
 
 These guidelines answer the question "can I merge this?" without requiring a manager approval. Developers know exactly where they have freedom and where they need input.
 
-Step 7: Build Onboarding Into Your Growth
+Step 7 - Build Onboarding Into Your Growth
 
 Every new hire tests your ability to scale. At 5 people, you can onboard personally, walk them through the codebase, introduce them to customers, explain your unwritten rules. At 20, that approach doesn't scale and creates inconsistent experiences.
 
@@ -104,7 +104,7 @@ echo "Environment ready. Run 'npm run dev' to start."
 
 The goal isn't to replace human interaction, it's to remove friction so your team can focus on mentorship and cultural transmission rather than repetitive setup questions.
 
-Step 8: Maintain Cultural Connection Remotely
+Step 8 - Maintain Cultural Connection Remotely
 
 Culture doesn't happen in company values documents, it happens in how people interact daily. Remote work amplifies this challenge because you lose casual hallway conversations and spontaneous lunches.
 
@@ -135,38 +135,38 @@ rituals:
 
 These rituals scale because they're designed for async participation and don't require everyone to be online simultaneously.
 
-Step 9: Document Your Decision-Making
+Step 9 - Document Your Decision-Making
 
 As teams grow, the same questions get answered repeatedly. "Why did we choose PostgreSQL over MongoDB?" "Why do we require two approvals for billing changes?" Without documentation, each new team member repeats this research, and senior engineers burn out answering the same questions.
 
 Maintain a decision log (often called an ADR - Architecture Decision Record):
 
 ```markdown
-ADR-004: Use PostgreSQL as Primary Database
+ADR-004 - Use PostgreSQL as Primary Database
 
-Step 10: Status: Accepted
+Step 10 - Status: Accepted
 
-Step 11: Context
+Step 11 - Context
 We need a database that handles relational data, supports complex queries, and has strong JSON support for flexible schemas.
 
-Step 12: Decision
+Step 12 - Decision
 Use PostgreSQL 15 with Citus extension for future sharding capability.
 
-Step 13: Consequences
-- Positive: Strong ecosystem, excellent documentation, Heroku/RDS managed options
+Step 13 - Consequences
+- Positive: Strong environment, excellent documentation, Heroku/RDS managed options
 - Negative: Horizontal scaling requires more planning than NoSQL options
 
-Step 14: Review Date
+Step 14 - Review Date
 2026-06-16
 ```
 
 This ADR format creates institutional memory that preserves the reasoning behind technical choices, allowing new team members to understand context without interrogating everyone.
 
-Step 15: Maintaining Code Quality During Growth
+Step 15 - Maintaining Code Quality During Growth
 
 As teams grow, code quality often suffers unless you intentionally maintain standards. Implement these practices:
 
-Automated code quality gates: Configure CI/CD to block merges that violate standards:
+Automated code quality gates - Configure CI/CD to block merges that violate standards:
 
 ```yaml
 .github/workflows/quality-gate.yml
@@ -192,9 +192,9 @@ Code review standards that scale:
 - For documentation/tests: Can self-approve after review
 - Maximum PR age: 24 hours before escalation
 
-Refactoring time allocation: Reserve 20% of sprint capacity for technical debt paydown. Growing teams accumulate technical debt; without dedicated refactoring time, it compounds exponentially.
+Refactoring time allocation - Reserve 20% of sprint capacity for technical debt paydown. Growing teams accumulate technical debt; without dedicated refactoring time, it compounds exponentially.
 
-Step 16: Communication Patterns That Scale
+Step 16 - Communication Patterns That Scale
 
 As your team grows from 5 to 20, communication patterns must evolve:
 
@@ -217,7 +217,7 @@ As your team grows from 5 to 20, communication patterns must evolve:
 - Architecture review board: Weekly RFC review
 - Officer sync: Department heads, twice weekly
 
-Step 17: Build Leaders Without Losing Culture
+Step 17 - Build Leaders Without Losing Culture
 
 At 5 people, one strong leader can maintain culture. At 20, you need distributed leadership. Identify potential leads early:
 
@@ -237,15 +237,15 @@ Transition path to team leads:
 
 This gradual transition develops leaders while maintaining continuity.
 
-Step 18: Trust But Verify Your Scaling
+Step 18 - Trust But Verify Your Scaling
 
 The final principle is measurement. You need feedback loops that tell you whether your scaling efforts are working:
 
-- Onboarding time: How long until new hires are productive? Track this across cohorts. Target: 5-7 days to first PR.
+- Onboarding time: How long until new hires are productive? Track this across cohorts. Target - 5-7 days to first PR.
 - Code review turnaround: Are PRs blocking? Measure time from request to approval. Target: <24 hours.
-- Meeting load: How many hours per week in synchronous meetings? Track weekly. Target: <8 hours/week.
+- Meeting load: How many hours per week in synchronous meetings? Track weekly. Target - <8 hours/week.
 - Documentation coverage: Can new hires find answers without asking? Survey at 30/60/90 days.
-- Employee satisfaction: Monthly pulse surveys on culture, autonomy, clarity. Target: >4/5 on all dimensions.
+- Employee satisfaction: Monthly pulse surveys on culture, autonomy, clarity. Target - >4/5 on all dimensions.
 
 ```javascript
 // Example: Simple metrics tracking
@@ -292,7 +292,7 @@ function generateScalingReport(metrics) {
 }
 ```
 
-Step 19: Preventing Manager Bottlenecks
+Step 19 - Preventing Manager Bottlenecks
 
 A common failure mode when scaling: the founding team becomes a bottleneck because all decisions flow through them. Prevent this:
 

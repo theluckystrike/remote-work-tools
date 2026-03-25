@@ -21,14 +21,14 @@ Table of Contents
 
 - [Understanding Switch Types for Coding](#understanding-switch-types-for-coding)
 - [Layout Considerations](#layout-considerations)
-- [Programmability: Why It Matters for Developers](#programmability-why-it-matters-for-developers)
+- [Programmability - Why It Matters for Developers](#programmability-why-it-matters-for-developers)
 - [Build Quality and Durability](#build-quality-and-durability)
 - [Wireless Considerations](#wireless-considerations)
 - [Price Tiers and Value](#price-tiers-and-value)
 - [Recommendations by Use Case](#recommendations-by-use-case)
 - [Popular Mechanical Keyboards for Remote Developers (with Pricing)](#popular-mechanical-keyboards-for-remote-developers-with-pricing)
 - [Switch Selection Guide for Coding](#switch-selection-guide-for-coding)
-- [Build Your Own Keyboard: Workflow](#build-your-own-keyboard-workflow)
+- [Build Your Own Keyboard - Workflow](#build-your-own-keyboard-workflow)
 - [Keycap Profile Matters More Than Most Developers Think](#keycap-profile-matters-more-than-most-developers-think)
 - [Sound Dampening for Video Calls](#sound-dampening-for-video-calls)
 - [Maintenance and Longevity](#maintenance-and-longevity)
@@ -61,7 +61,7 @@ Split Keyboards for Ergonomics
 
 Split keyboards separate the key array into two halves, allowing custom angle adjustment. This reduces wrist strain for developers spending eight-plus hours daily at their desks.
 
-Programmability: Why It Matters for Developers
+Programmability - Why It Matters for Developers
 
 The defining advantage of mechanical keyboards for developers lies in programmability. Most quality mechanical keyboards support custom firmware or VIA/QMK configuration, enabling powerful optimizations.
 
@@ -172,13 +172,13 @@ Popular Mechanical Keyboards for Remote Developers (with Pricing)
 | Drop CTRL | $179 | TKL | Various | QMK | Hotswap, RGB |
 | Corne Keyboard Kit | $50-150 | Split 42-key | Various | QMK | DIY minimalists |
 
-Budget Option ($79-99): Keychron K6 Pro combines wireless, programmability, and compact size at reasonable cost. The 65% layout removes numpad without sacrificing arrow keys.
+Budget Option ($79-99) - Keychron K6 Pro combines wireless, programmability, and compact size at reasonable cost. The 65% layout removes numpad without sacrificing arrow keys.
 
-Mid-Range Standard ($99-160): Leopold FC900R or Ducky One 2 Mini offer excellent build quality, quiet operation for video calls, and premium keycaps. Leopold is less flashy but more durable.
+Mid-Range Standard ($99-160) - Leopold FC900R or Ducky One 2 Mini offer excellent build quality, quiet operation for video calls, and premium keycaps. Leopold is less flashy but more durable.
 
-Ergonomic Specialist ($200+): For developers with RSI concerns, Kinesis Advantage2 or Moonlander split keyboard reduces strain through key repositioning and sculpted ergonomics. Higher upfront cost pays dividends in pain reduction.
+Ergonomic Specialist ($200+) - For developers with RSI concerns, Kinesis Advantage2 or Moonlander split keyboard reduces strain through key repositioning and sculpted ergonomics. Higher upfront cost pays dividends in pain reduction.
 
-DIY Enthusiast ($50-150): Corne Keyboard or other split 42-key kits appeal to developers comfortable soldering. Open-source designs, fully customizable, significantly lower cost.
+DIY Enthusiast ($50-150) - Corne Keyboard or other split 42-key kits appeal to developers comfortable soldering. Open-source designs, fully customizable, significantly lower cost.
 
 Switch Selection Guide for Coding
 
@@ -206,31 +206,31 @@ Clicky Switches (Use with Caution):
 - Examples: Cherry MX Blue, Kailh Click
 - Pricing: $0.40-1.20 per switch
 
-Most Popular Among Remote Developers: Tactile switches (Browns) strike the best balance. You get feedback without the disruption that clicky switches cause during calls.
+Most Popular Among Remote Developers - Tactile switches (Browns) strike the best balance. You get feedback without the disruption that clicky switches cause during calls.
 
-Build Your Own Keyboard: Workflow
+Build Your Own Keyboard - Workflow
 
 For developers willing to invest time, building a custom keyboard pays dividends:
 
-Step 1: Choose a PCB and Case ($50-150)
-Popular options: ID87, Varmilo VB87M, Unified Daughterboard. PCB determines layout, case determines aesthetics and sound.
+Step 1 - Choose a PCB and Case ($50-150)
+Popular options - ID87, Varmilo VB87M, Unified Daughterboard. PCB determines layout, case determines aesthetics and sound.
 
-Step 2: Source Switches ($25-100)
+Step 2 - Source Switches ($25-100)
 Select switch type, purchase 100+ switches for your layout. Hot-swap PCBs simplify installation.
 
-Step 3: Select Keycaps ($30-120)
+Step 3 - Select Keycaps ($30-120)
 PBT keycaps resist shine better than ABS. Choose profile (Cherry, SA, MT3) based on hand size and preference.
 
-Step 4: Stabilizers and Mounting ($10-40)
+Step 4 - Stabilizers and Mounting ($10-40)
 Quality stabilizers prevent spacebar rattle. Some keyboards use gasket mounting (springs beneath the PCB) for refined feel.
 
-Step 5: Assembly (2-4 hours)
+Step 5 - Assembly (2-4 hours)
 Solder components if your PCB requires it. Hot-swap PCBs are simpler. Test every switch before closing the case.
 
-Step 6: Firmware Configuration (1-2 hours)
+Step 6 - Firmware Configuration (1-2 hours)
 Program keymaps using QMK. Test extensively, flashing firmware is forgiving, but it's tedious to test everything.
 
-Total cost: $150-400 | Total time: 6-12 hours | Result: Perfectly optimized keyboard matched to your exact workflow
+Total cost - $150-400 | Total time: 6-12 hours | Result: Perfectly optimized keyboard matched to your exact workflow
 
 Keycap Profile Matters More Than Most Developers Think
 

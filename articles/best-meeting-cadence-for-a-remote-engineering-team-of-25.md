@@ -22,9 +22,9 @@ Table of Contents
 - [The Core Meeting Structure](#the-core-meeting-structure)
 - [Meeting-Free Days](#meeting-free-days)
 - [Async Alternatives to Reduce Meeting Load](#async-alternatives-to-reduce-meeting-load)
-- [Status: Proposed](#status-proposed)
-- [Author: @engineer](#author-engineer)
-- [Reviewers: @team-leads](#reviewers-team-leads)
+- [Status - Proposed](#status-proposed)
+- [Author - @engineer](#author-engineer)
+- [Reviewers - @team-leads](#reviewers-team-leads)
 - [Tools That Support Meeting Efficiency](#tools-that-support-meeting-efficiency)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Detailed Meeting Schedule for 25-Person Teams](#detailed-meeting-schedule-for-25-person-teams)
@@ -146,11 +146,11 @@ Decision Documents
 Instead of scheduling a meeting to decide something, use a decision document:
 
 ```markdown
-RFC: Adopt GraphQL for Customer API
+RFC - Adopt GraphQL for Customer API
 
-Status: Proposed
-Author: @engineer
-Reviewers: @team-leads
+Status - Proposed
+Author - @engineer
+Reviewers - @team-leads
 
 Context
 Our current REST API has grown complex...
@@ -356,15 +356,15 @@ If engineers report that meetings interrupt their work, reduce the cadence. If t
 
 Common Meeting Schedule Mistakes
 
-Too Many All-Hands: Weekly all-hands for 25 people creates excessive overhead. Monthly or bi-weekly is sufficient if you have async updates.
+Too Many All-Hands - Weekly all-hands for 25 people creates excessive overhead. Monthly or bi-weekly is sufficient if you have async updates.
 
-No Meeting-Free Days: Without protected focus time, engineers context-switch constantly. This destroys deep work and increases burnout.
+No Meeting-Free Days - Without protected focus time, engineers context-switch constantly. This destroys deep work and increases burnout.
 
-All Meetings at Bad Times: Rotating meeting times so no one always gets early mornings or late nights prevents timezone fatigue.
+All Meetings at Bad Times - Rotating meeting times so no one always gets early mornings or late nights prevents timezone fatigue.
 
-Unclear Meeting Agendas: Meetings without stated purposes often run over and feel unproductive. Always require an agenda before scheduling.
+Unclear Meeting Agendas - Meetings without stated purposes often run over and feel unproductive. Always require an agenda before scheduling.
 
-Missing Decisions: Meetings that don't result in clear decisions or action items shouldn't happen. Convert them to async updates.
+Missing Decisions - Meetings that don't result in clear decisions or action items shouldn't happen. Convert them to async updates.
 
 Frequently Asked Questions
 

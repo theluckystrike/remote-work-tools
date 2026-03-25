@@ -53,7 +53,7 @@ Quick Desk Checklist
 Run through this checklist right now:
 
 1. Screen height: Can you look at the top third of your screen without tilting your head?
-2. Distance: Is your screen about an arm's length away?
+2. Distance - Is your screen about an arm's length away?
 3. Keyboard position: Are your elbows at a 90-degree angle when typing?
 4. Shoulder position: Are your shoulders relaxed, not hunched toward your ears?
 
@@ -104,7 +104,7 @@ Set Reminders with Scripts
 You already use scripts to automate your development workflow. Use a simple script to remind yourself to check your posture.
 
 ```bash
-Mac: Use launchd to remind yourself every 30 minutes
+Mac - Use launchd to remind yourself every 30 minutes
 Save as ~/Library/LaunchAgents/com.posture-reminder.plist
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -184,15 +184,15 @@ Monitor Stands and Laptop Stands (Budget: $30-150)
 - Amazon Basics Monitor Riser: $25, basic but functional for laptops/screens
 - Fully Jarvis Dual Monitor Arm: $80-120, articulating arm that extends 20+ inches
 
-Use this measurement: When sitting normally, the top third of your screen should be at eye level, not requiring you to look down at all.
+Use this measurement - When sitting normally, the top third of your screen should be at eye level, not requiring you to look down at all.
 
 External Keyboards for Proper Wrist Position
 - Keychron K3 Pro: $100, mechanical, wireless, 75% size (compact), works on multiple devices
-- Apple Magic Keyboard: $99, if you're in Apple ecosystem
+- Apple Magic Keyboard: $99, if you're in Apple environment
 - Logitech MX Keys: $100, quiet mechanical, excellent battery life
 - Budget option: Microsoft Wired Keyboard 600: $30
 
-Key feature: Look for keyboards with built-in wrist rest or at least a flat typing surface.
+Key feature - Look for keyboards with built-in wrist rest or at least a flat typing surface.
 
 Mice That Reduce Strain
 - Logitech MX Master 3S: $100, ergonomic, reduces repetitive strain
@@ -224,7 +224,7 @@ Every 20 minutes:
 - Look at something 20 feet away for 20 seconds
 - This relaxes your eye muscles and breaks the forward head posture trigger
 
-Set a timer: `while true; do sleep 1200 && echo "Look away"; done`
+Set a timer - `while true; do sleep 1200 && echo "Look away"; done`
 
 Neck Pain Emergency Response
 When your neck starts bothering you:
@@ -251,8 +251,8 @@ Morning routine:
 5. Neck stretch (right): 30 seconds
 6. Upper trap stretch: 30 seconds each side (60 seconds)
 
-Total time: 3-4 minutes
-Best time: Before starting work or after lunch break
+Total time - 3-4 minutes
+Best time - Before starting work or after lunch break
 ```
 
 Ergonomic Workstations by Budget
@@ -261,15 +261,15 @@ Minimal Budget ($50-100)
 - Laptop stand made from books or cardboard
 - External wireless keyboard ($20-30)
 - External mouse ($15-30)
-Total investment: $50-100
-Effectiveness: 70% (gets screen to eye level, biggest impact)
+Total investment - $50-100
+Effectiveness - 70% (gets screen to eye level, biggest impact)
 
 Moderate Budget ($200-400)
 - Monitor arm ($100-150)
 - Ergonomic keyboard ($80-100)
 - Trackball mouse ($60-80)
-Total investment: $240-330
-Effectiveness: 90% (precise positioning, proper wrist posture)
+Total investment - $240-330
+Effectiveness - 90% (precise positioning, proper wrist posture)
 
 Full Setup ($800-1,500)
 - Motorized standing desk ($500-800)
@@ -277,8 +277,8 @@ Full Setup ($800-1,500)
 - Ergonomic chair used ($300-500)
 - Mechanical keyboard ($100-150)
 - Quality mouse ($80-100)
-Total investment: $1,280-1,950
-Effectiveness: 95% (can't improve much beyond this)
+Total investment - $1,280-1,950
+Effectiveness - 95% (can't improve much beyond this)
 
 Most people see 80% improvement with moderate budget setup. Full setup matters more for people with chronic pain.
 

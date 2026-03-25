@@ -49,7 +49,7 @@ Google Workspace Security Settings for Law Firms
 Admin console configuration example
 
 Restrict external sharing
-AdminSDK: {
+AdminSDK - {
   sharing: {
     allowExternalSharing: false,
     domainWhitelist: ["yourfirm.com"],
@@ -190,7 +190,7 @@ Based on the requirements above, here is a practical stack recommendation:
 | Client Portal | Clio (included) |. |
 | E-Signature | DocuSign Business | $100 |
 
-Total monthly investment: Approximately $945 before adding legal-specific tools like Westlaw or LexisNexis.
+Total monthly investment - Approximately $945 before adding legal-specific tools like Westlaw or LexisNexis.
 
 This stack prioritizes simplicity, each tool integrates with the others, training overhead is low, and the monthly cost per attorney under $100 is reasonable for legal technology.
 

@@ -17,7 +17,7 @@ voice-checked: true
 
 Most remote engineering standups are either pointless status reports or anxiety-inducing performance theater. The goal of a standup is coordination. surfacing blockers and dependencies so the team can help. This guide covers both async and synchronous formats that achieve that goal without wasting time.
 
-First Decision: Async or Synchronous
+First Decision - Async or Synchronous
 
 Choose async if:
 - Your team spans 4+ timezones
@@ -33,7 +33,7 @@ Choose synchronous if:
 
 Most teams over 6 people default to async. Most teams under 6 can make synchronous work.
 
-Async Format 1: Geekbot or Standuply
+Async Format 1 - Geekbot or Standuply
 
 Geekbot and Standuply both integrate with Slack to send each engineer a DM at a configured time, collect responses, and post a summary to the team channel.
 
@@ -48,38 +48,38 @@ Questions (3 is the sweet spot):
 Optional add-on for remote teams:
 4. Energy level today (1-5). gives the team visibility on who might be struggling
 
-Schedule: 9:30am in each engineer's local timezone
-Deadline: 2 hours after send (posts summary at 11:30am local)
-Post to: #team-standup
-Format: Thread per person (not one long message)
+Schedule - 9:30am in each engineer's local timezone
+Deadline - 2 hours after send (posts summary at 11:30am local)
+Post to - #team-standup
+Format - Thread per person (not one long message)
 ```
 
 What makes async standup responses useful:
 
 ```
-Bad: "Working on the payment thing"
-Good: "Continuing work on #456. Stripe webhook retry logic.
+Bad - "Working on the payment thing"
+Good - "Continuing work on #456. Stripe webhook retry logic.
        Should be done by EOD. Blocker: waiting for QA to confirm
        test environment is set up."
 
-Bad: "Meetings"
-Good: "Mostly in planning sessions. Did a quick fix for #460
+Bad - "Meetings"
+Good - "Mostly in planning sessions. Did a quick fix for #460
        (null pointer in order service) which is now in code review."
 ```
 
 Create a template engineers can paste and fill in:
 
 ```
-Yesterday: [PR/issue #] - [brief description]
-Today: [PR/issue #] - [brief description, % complete or ETA if known]
-Blockers: [none | specific blocker + who can unblock]
+Yesterday - [PR/issue #] - [brief description]
+Today - [PR/issue #] - [brief description, % complete or ETA if known]
+Blockers - [none | specific blocker + who can unblock]
 ```
 
 Respecting async responses:
 
 Engineers should not be expected to respond to standup messages in real time. The standup is a status snapshot, not a conversation. If someone has a blocker, the IC or team lead follows up in a thread. not in the standup post.
 
-Async Format 2: GitHub-Based Standup
+Async Format 2 - GitHub-Based Standup
 
 For engineering teams that prefer keeping everything in GitHub:
 
@@ -136,7 +136,7 @@ jobs:
           SLACK_WEBHOOK: ${{ secrets.SLACK_STANDUP_WEBHOOK }}
 ```
 
-Synchronous Format: The 15-Minute Rule
+Synchronous Format - The 15-Minute Rule
 
 If you run synchronous standups, they must end in 15 minutes. No exceptions. When they run long, it's because they're solving problems in real time. which should happen in a different channel.
 
@@ -148,8 +148,8 @@ Synchronous standup structure:
  Keep it to 30 seconds each. Long discussions go in a follow-up."
 
 [0:02 - 0:12] Round robin
-Each person: "Yesterday I worked on X. Today I'm doing Y. [Blocker or none]."
-NOT: "Well, so we were looking at this issue and the problem is that..."
+Each person - "Yesterday I worked on X. Today I'm doing Y. [Blocker or none]."
+NOT - "Well, so we were looking at this issue and the problem is that..."
 If it takes more than 30 seconds, say "let's take that to a thread."
 
 [0:12 - 0:15] Blocker matching
@@ -165,7 +165,7 @@ Common synchronous standup failure modes:
  Fix: Only share info the team needs to act on
 
 2. Problem-solving in standup: Someone raises a bug and the team starts debugging
- Fix: "Let's take that to a follow-up. who else needs to be involved?"
+ Fix - "Let's take that to a follow-up. who else needs to be involved?"
 
 3. Waiting for latecomers: Starting 3-5 minutes late becomes the norm
  Fix: Start at the scheduled time, latecomers join where you are
@@ -208,7 +208,7 @@ Signs your standup needs changing:
 
 If engineers say the last one, that's actually a success signal. your transparency is good enough that standup is redundant. In that case, reduce to 3x/week or switch to a "blockers only" format.
 
-Tool Comparison: Standup Platforms
+Tool Comparison - Standup Platforms
 
 Different tools handle async standups differently. Choose based on your team's existing communication stack:
 
@@ -245,9 +245,9 @@ FYI
 ---
 Example of good response:
 Yesterday: #456 - Implemented Stripe webhook retry logic, merged and deployed
-Today: #457 - Building invoice export feature (~30% done), should finish EOD
-Blockers: Need clarity on invoice CSV schema from @product
-FYI: PR #455 ready for review, straightforward auth fix
+Today - #457 - Building invoice export feature (~30% done), should finish EOD
+Blockers - Need clarity on invoice CSV schema from @product
+FYI - PR #455 ready for review, straightforward auth fix
 ```
 
 Table of Contents
@@ -280,9 +280,9 @@ Engineering Standups at Different Team Sizes
 
 ```bash
 Daily async example
-Schedule: 9:30 AM UTC (auto-sends DM)
-Deadline: 11:00 AM UTC (posts summary)
-Summary format: @username's update → [yesterday] [today] [blockers]
+Schedule - 9:30 AM UTC (auto-sends DM)
+Deadline - 11:00 AM UTC (posts summary)
+Summary format - @username's update → [yesterday] [today] [blockers]
 ```
 
 10-20 person teams: Async daily, weekly sync meeting for cross-team blockers.
@@ -360,13 +360,13 @@ def standup_health(org_name, team_name):
 
 Standup Anti-Patterns in Remote Teams
 
-Standup as Performance Review: Engineers feel watched, responses become defensive and political. Fix: Explicitly state that standups track coordination, not performance.
+Standup as Performance Review - Engineers feel watched, responses become defensive and political. Fix - Explicitly state that standups track coordination, not performance.
 
-Status Report Theater: Standups become where engineers recite work nobody asked about. Fix: Remind team that standup is for blockers; other updates go in PRs and tickets.
+Status Report Theater - Standups become where engineers recite work nobody asked about. Fix - Remind team that standup is for blockers; other updates go in PRs and tickets.
 
-Async Responses Ignored: Engineers post async responses that nobody reads. Fix: Have the tech lead or manager explicitly acknowledge key responses in the summary.
+Async Responses Ignored - Engineers post async responses that nobody reads. Fix - Have the tech lead or manager explicitly acknowledge key responses in the summary.
 
-Same Blocker Every Day: Engineer reports the same blocker 3 days in a row with no resolution. Fix: Any blocker reported twice gets escalated to tech lead immediately.
+Same Blocker Every Day - Engineer reports the same blocker 3 days in a row with no resolution. Fix - Any blocker reported twice gets escalated to tech lead immediately.
 
 Integration with Incident Response
 

@@ -35,7 +35,7 @@ Table of Contents
 - [Building Your Own Focus Playlist System](#building-your-own-focus-playlist-system)
 - [Using Music as a Task Context Marker](#using-music-as-a-task-context-marker)
 - [Music Streaming Platforms Comparison for Developers](#music-streaming-platforms-comparison-for-developers)
-- [Automation: Smart Music Switching by Task](#automation-smart-music-switching-by-task)
+- [Automation - Smart Music Switching by Task](#automation-smart-music-switching-by-task)
 - [Integrating Focus Music with tmux Workflows](#integrating-focus-music-with-tmux-workflows)
 - [Headphone Hardware for Optimal Music Experience](#headphone-hardware-for-optimal-music-experience)
 - [Advanced Playlist Recommendations by Language/Framework](#advanced-playlist-recommendations-by-languageframework)
@@ -56,7 +56,7 @@ Different tasks impose different cognitive loads, and music should be calibrated
 
 High intrinsic load tasks. writing a new algorithm, debugging a race condition, learning an unfamiliar codebase. benefit from zero or near-zero extraneous load. At most, use pure drone ambient (no rhythm, no melody) or silence. Low intrinsic load tasks. writing boilerplate, formatting code, writing documentation for something you built. tolerate richer music with more structure, since the main job doesn't demand maximum mental bandwidth.
 
-A practical heuristic: if you catch yourself listening *to* the music rather than *past* it, the music is too complex for the task at hand.
+A practical heuristic - if you catch yourself listening *to* the music rather than *past* it, the music is too complex for the task at hand.
 
 Best Music Genres for Coding
 
@@ -182,11 +182,11 @@ Spotify:
 - Cost: $11.99/month (Premium)
 - Best for: Playlist discovery, pre-made focus playlists, API access
 - Developer advantage: Full API with rate limits suitable for automation scripts
-- Feature: Can sort by "Energy" and "Instrumentalness" metrics. great for filtering
+- Feature - Can sort by "Energy" and "Instrumentalness" metrics. great for filtering
 
 Apple Music:
 - Cost: $11.99/month (individual), $19.99/month (family)
-- Best for: Lossless audio quality, integration with Apple ecosystem
+- Best for: Lossless audio quality, integration with Apple environment
 - Developer advantage: Limited API but works well with macOS automation
 - Feature: Spatial Audio with Dolby Atmos on compatible headphones
 
@@ -214,7 +214,7 @@ Free Tier Comparison:
 - Apple Music: No free tier (requires paid subscription)
 - Amazon Music Free: Limited to 15 hours monthly, ad-supported
 
-Automation: Smart Music Switching by Task
+Automation - Smart Music Switching by Task
 
 For developers who want to eliminate manual playlist switching, here's a complete automation framework:
 
@@ -309,7 +309,7 @@ The quality of your audio playback matters as much as your music selection. For 
 Noise-Canceling Headphones for Open Environments:
 - Sony WH-1000XM5: $399, excellent ANC, 30-hour battery, comfortable
 - Bose QuietComfort Ultra: $429, premium ANC, less bass heavy
-- Apple AirPods Max: $549, spatial audio, ecosystem locked
+- Apple AirPods Max: $549, spatial audio, environment locked
 
 Budget Options (Under $150):
 - Soundcore Space A40: $100, solid ANC, good value
@@ -325,23 +325,23 @@ Earbuds vs. Over-Ear:
 - Over-ear: Better isolation, more comfortable for long sessions
 - For full-time coding work, over-ear provides meaningfully better experience for 8+ hour sessions
 
-One underrated consideration: ear fatigue. IEMs (in-ear monitors) seated deep in the ear canal can cause physical fatigue after 3-4 hours. If you code all day, over-ear headphones or open-back designs are far more sustainable. Pair noise-canceling over-ear headphones with lower-volume ambient music rather than cranking IEMs to compensate for isolation limitations.
+One underrated consideration - ear fatigue. IEMs (in-ear monitors) seated deep in the ear canal can cause physical fatigue after 3-4 hours. If you code all day, over-ear headphones or open-back designs are far more sustainable. Pair noise-canceling over-ear headphones with lower-volume ambient music rather than cranking IEMs to compensate for isolation limitations.
 
 Advanced Playlist Recommendations by Language/Framework
 
 Different programming languages and frameworks have different cognitive demands:
 
-Python/Data Science: Lo-fi hip hop or ambient electronic. High-level abstraction requires less syntactic focus; music can stay in background. Data cleaning and EDA sessions pair especially well with continuous lo-fi streams.
+Python/Data Science - Lo-fi hip hop or ambient electronic. High-level abstraction requires less syntactic focus; music can stay in background. Data cleaning and EDA sessions pair especially well with continuous lo-fi streams.
 
-JavaScript/TypeScript: Baroque classical or video game soundtracks. Async operations and callback chains benefit from structured, mathematically complex music. React component trees and TypeScript type gymnastics pair well with Bach's Brandenburg Concertos.
+JavaScript/TypeScript - Baroque classical or video game soundtracks. Async operations and callback chains benefit from structured, mathematically complex music. React component trees and TypeScript type gymnastics pair well with Bach's Brandenburg Concertos.
 
-Systems Programming (Rust/C++): Minimal or silence for complex problems. Occasional classical for routine tasks like refactoring. Memory ownership errors and lifetime annotations demand full attention. silence is the right call here.
+Systems Programming (Rust/C++) - Minimal or silence for complex problems. Occasional classical for routine tasks like refactoring. Memory ownership errors and lifetime annotations demand full attention. silence is the right call here.
 
-DevOps/Infrastructure: Upbeat lo-fi or post-rock. Configuration debugging is mentally demanding but not creative; upbeat tempo helps maintain focus during long Terraform plan reviews or Kubernetes log analysis.
+DevOps/Infrastructure - Upbeat lo-fi or post-rock. Configuration debugging is mentally demanding but not creative; upbeat tempo helps maintain focus during long Terraform plan reviews or Kubernetes log analysis.
 
-Front-end/Design Work: Varied music encouraged. Visual work benefits from broader musical inspiration; rotation prevents habituation. Instrumental pop or indie film soundtracks work particularly well.
+Front-end/Design Work - Varied music encouraged. Visual work benefits from broader musical inspiration; rotation prevents habituation. Instrumental pop or indie film soundtracks work particularly well.
 
-Code Review: Baroque classical or ambient. Reading others' code requires careful attention to naming, logic flow, and edge cases. music with too much rhythmic energy pulls attention away from the detail work.
+Code Review - Baroque classical or ambient. Reading others' code requires careful attention to naming, logic flow, and edge cases. music with too much rhythmic energy pulls attention away from the detail work.
 
 These aren't rules. they're patterns from thousands of developers. Experiment to find your optimal pairing.
 
@@ -355,7 +355,7 @@ Certain coding tasks benefit from silence or minimal audio:
 - Pair programming: Discussing code requires clear communication
 - Production incident response: On-call events require complete audio attention to calls and alerts
 
-A practical rule: any task where you need to simultaneously read and think deeply benefits from silence. Reserve music for tasks where reading and thinking alternate (code review, routine debugging) or where the task is primarily mechanical (formatting, refactoring to a known pattern).
+A practical rule - any task where you need to simultaneously read and think deeply benefits from silence. Reserve music for tasks where reading and thinking alternate (code review, routine debugging) or where the task is primarily mechanical (formatting, refactoring to a known pattern).
 
 Quick Start Recommendations
 

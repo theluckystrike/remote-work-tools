@@ -74,8 +74,8 @@ def get_client_messages(token, matter_id):
     return response.json()
 ```
 
-Strengths: Extensive API documentation, strong mobile support, billing integration.
-Weaknesses: Higher cost for solo practitioners, limited customization on the client portal.
+Strengths - Extensive API documentation, strong mobile support, billing integration.
+Weaknesses - Higher cost for solo practitioners, limited customization on the client portal.
 
 MyCase
 
@@ -107,8 +107,8 @@ async function sendPortalMessage(apiKey, caseId, message) {
 }
 ```
 
-Strengths: Affordable pricing, intuitive client interface, built-in payment processing.
-Weaknesses: API rate limits restrict high-volume integrations.
+Strengths - Affordable pricing, intuitive client interface, built-in payment processing.
+Weaknesses - API rate limits restrict high-volume integrations.
 
 Filevine
 
@@ -127,8 +127,8 @@ curl -X GET "https://api.filevine.io/v1/projects/{projectId}/notes" \
   }'
 ```
 
-Strengths: Highly customizable workflows, powerful reporting, excellent for complex litigation.
-Weaknesses: Steeper learning curve, requires more setup time.
+Strengths - Highly customizable workflows, powerful reporting, excellent for complex litigation.
+Weaknesses - Steeper learning curve, requires more setup time.
 
 Head-to-Head Feature Comparison
 
@@ -229,11 +229,11 @@ Compliance and Legal Considerations
 
 Remote law firms must navigate specific compliance requirements:
 
-State Bar Rules: Many state bar associations have specific requirements for electronic communications with clients. Ensure your chosen portal maintains proper confidentiality and preserves attorney-client privilege.
+State Bar Rules - Many state bar associations have specific requirements for electronic communications with clients. Ensure your chosen portal maintains proper confidentiality and preserves attorney-client privilege.
 
-Data Residency: Some jurisdictions require client data to remain within specific geographic boundaries. Verify your provider's data center locations before implementation.
+Data Residency - Some jurisdictions require client data to remain within specific geographic boundaries. Verify your provider's data center locations before implementation.
 
-Retention Policies: Implement automated message retention that aligns with your jurisdiction's document preservation requirements. Most platforms offer configurable retention periods.
+Retention Policies - Implement automated message retention that aligns with your jurisdiction's document preservation requirements. Most platforms offer configurable retention periods.
 
 Client Onboarding Best Practices for Remote Firms
 

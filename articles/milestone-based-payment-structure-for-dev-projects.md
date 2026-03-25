@@ -35,28 +35,28 @@ Effective milestone structures share common elements. Each milestone needs a cle
 Here's a practical example for a web application project:
 
 ```
-Project: E-commerce Platform Development
-Total Budget: $15,000
+Project - E-commerce Platform Development
+Total Budget - $15,000
 
-Milestone 1: Discovery & Requirements
+Milestone 1 - Discovery & Requirements
 - Deliverable: Technical specification document, wireframes, API schema
 - Acceptance Criteria: Client sign-off on documented requirements
-- Payment: $2,000 (13.3%)
+- Payment - $2,000 (13.3%)
 - Timeline: 1 week
 
-Milestone 2: Core Infrastructure
+Milestone 2 - Core Infrastructure
 - Deliverable: Repository setup, CI/CD pipeline, database schema, authentication system
 - Acceptance Criteria: Passing test suite, deployed to staging environment
-- Payment: $3,500 (23.3%)
+- Payment - $3,500 (23.3%)
 - Timeline: 2 weeks
 
-Milestone 3: Feature Development
+Milestone 3 - Feature Development
 - Deliverable: Product catalog, shopping cart, checkout flow, payment integration
 - Acceptance Criteria: All features functional on staging, no critical bugs
-- Payment: $5,000 (33.3%)
+- Payment - $5,000 (33.3%)
 - Timeline: 4 weeks
 
-Milestone 4: Testing & Launch
+Milestone 4 - Testing & Launch
 - Deliverable: QA completed, production deployment, documentation
 - Acceptance Criteria: Site live, client acceptance test passed
 - Payment: $4,500 (30%)
@@ -82,7 +82,7 @@ A typical formula:
 
 Adjust based on your project type. Infrastructure-heavy projects may warrant larger early percentages. Design-heavy projects might spread costs more evenly.
 
-Code Snippet: Milestone Tracking System
+Code Snippet - Milestone Tracking System
 
 For managing multiple concurrent projects with milestone payments, build a simple tracking system. Here's a Python class for milestone management:
 
@@ -175,16 +175,16 @@ Here's a simple change order template:
 
 ```
 Change Order #001
-Project: [Project Name]
-Date: [Date]
-Requested Change: [Description]
+Project - [Project Name]
+Date - [Date]
+Requested Change - [Description]
 
 Impact Assessment:
 - Additional effort: [X] hours
 - Timeline impact: [+Y] days
 - Cost impact: $[Amount]
 
-Client Approval: _______________ Date: _______________
+Client Approval - _______________ Date: _______________
 ```
 
 This documentation protects both parties. The client understands exactly what they're paying for, and you maintain fair compensation for additional work.

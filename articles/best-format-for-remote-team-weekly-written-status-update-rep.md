@@ -39,7 +39,7 @@ Table of Contents
 - [Accomplishments](#accomplishments)
 - [Current Focus](#current-focus)
 - [Blockers](#blockers)
-- [The Meta-Update: Measuring Update Effectiveness](#the-meta-update-measuring-update-effectiveness)
+- [The Meta-Update - Measuring Update Effectiveness](#the-meta-update-measuring-update-effectiveness)
 - [Troubleshooting Common Problems](#troubleshooting-common-problems)
 - [Customizing for Your Team's Work Style](#customizing-for-your-teams-work-style)
 
@@ -57,7 +57,7 @@ Core Components of an Effective Weekly Status Format
 
 The most useful weekly status updates contain four distinct sections. Each section serves a specific purpose and helps different team members extract the information they need.
 
-Section 1: Accomplishments Since Last Update
+Section 1 - Accomplishments Since Last Update
 
 Start with what you completed. This isn't a granular task list but rather a summary of meaningful progress. Focus on deliverables that moved the project forward, problems you solved, or decisions you made.
 
@@ -73,7 +73,7 @@ Accomplishments
 
 Avoid listing every commit or minor adjustment. Instead, highlight work that had tangible impact. This helps team leads understand velocity and managers recognize contributions.
 
-Section 2: Current Focus and Priorities
+Section 2 - Current Focus and Priorities
 
 Describe what you're working on now and what you plan to complete before the next update. This section helps teammates understand where you are in case they need to coordinate dependencies.
 
@@ -82,15 +82,15 @@ Example format:
 ```
 Current Focus
 
-Working on: Payment webhook integration for Stripe
-Expected completion: Wednesday, March 18
+Working on - Payment webhook integration for Stripe
+Expected completion - Wednesday, March 18
 
-Blocked by: Waiting for API credentials from backend team (ticket #892)
+Blocked by - Waiting for API credentials from backend team (ticket #892)
 ```
 
 Being explicit about blockers is essential. A status update that hides problems doesn't help anyone. If you're stuck on something, state it clearly so others can offer assistance or adjust their own work accordingly.
 
-Section 3: Upcoming Plans
+Section 3 - Upcoming Plans
 
 Look ahead to the next week. What work do you anticipate starting or continuing? This section enables project managers to identify potential scheduling conflicts and helps team members coordinate hand-offs.
 
@@ -104,7 +104,7 @@ Upcoming Plans
 - Prepare demo for sprint review on Friday
 ```
 
-Section 4: Notes and Observations
+Section 4 - Notes and Observations
 
 This flexible section captures anything that doesn't fit elsewhere. You might mention something you learned, a process improvement you noticed, or context that would help others understand your work better.
 
@@ -144,7 +144,7 @@ Here's a template you can adapt for your team:
 ```markdown
 Weekly Status Update - [Name]
 
-Week of: [Date Range]
+Week of - [Date Range]
 
 Accomplishments
 -
@@ -170,7 +170,7 @@ If your team uses Git, you can pull update data programmatically:
 Get your commits from the past week
 git log --author="your.email@company.com" --since="1 week ago" --oneline --pretty=format:"%h %s"
 
-Alternative: Get commits with dates
+Alternative - Get commits with dates
 git log --author="your.email@company.com" --since="1 week ago" --date=short --pretty=format:"%ad %s"
 ```
 
@@ -332,14 +332,14 @@ Post weekly updates directly to Slack using slash commands and workflows:
 
 ```
 /update
-Accomplishments: Fixed critical bug in payment processing
-Current Focus: Building transaction history feature
-Blockers: None
+Accomplishments - Fixed critical bug in payment processing
+Current Focus - Building transaction history feature
+Blockers - None
 ```
 
 Use Slack's workflow builder to route updates to appropriate channels. Engineering updates go to #engineering-status, product to #product-updates, etc.
 
-The Meta-Update: Measuring Update Effectiveness
+The Meta-Update - Measuring Update Effectiveness
 
 Track whether your update system is working:
 
@@ -353,20 +353,20 @@ If participation drops below 80% or people report spending more than 20 minutes 
 
 Troubleshooting Common Problems
 
-Problem: Blocker updates are ignored
-- Solution: Create explicit workflow for addressing blockers. Manager must respond to blocker within 24 hours with action plan.
+Problem - Blocker updates are ignored
+- Solution - Create explicit workflow for addressing blockers. Manager must respond to blocker within 24 hours with action plan.
 
-Problem: Updates become task lists (too granular)
-- Solution: Remind team to report outcomes, not tasks. "Completed database migration" not "1. Install PostgreSQL 2. Configure settings 3. Run migrations"
+Problem - Updates become task lists (too granular)
+- Solution - Remind team to report outcomes, not tasks. "Completed database migration" not "1. Install PostgreSQL 2. Configure settings 3. Run migrations"
 
-Problem: Some team members write novels, others write one line
-- Solution: Set a standard length (200-300 words) and enforce it. Short updates are better than long ones.
+Problem - Some team members write novels, others write one line
+- Solution - Set a standard length (200-300 words) and enforce it. Short updates are better than long ones.
 
-Problem: Blockers from last week are still blocked
-- Solution: Create explicit escalation. If item blocked more than two weeks, it automatically escalates to team lead.
+Problem - Blockers from last week are still blocked
+- Solution - Create explicit escalation. If item blocked more than two weeks, it automatically escalates to team lead.
 
-Problem: No one reads the updates
-- Solution: Mention specific updates in one-on-ones and team meetings. When updates get referenced, people take them seriously.
+Problem - No one reads the updates
+- Solution - Mention specific updates in one-on-ones and team meetings. When updates get referenced, people take them seriously.
 
 Customizing for Your Team's Work Style
 
@@ -374,13 +374,13 @@ The best weekly update format adapts to your team culture:
 
 For creative teams (design, content): Add a "what inspired me this week" section. Creativity benefits from exposure to ideas.
 
-For operations teams: Add metrics and KPI performance. Weekly updates should mirror business rhythms.
+For operations teams - Add metrics and KPI performance. Weekly updates should mirror business rhythms.
 
-For distributed startups: Keep format minimal. Add this process once you hit 10+ people; earlier teams often move too fast for weekly syncs.
+For distributed startups - Keep format minimal. Add this process once you hit 10+ people; earlier teams often move too fast for weekly syncs.
 
-For regulatory/compliance work: Add compliance and risk items. Weekly updates become audit trail.
+For regulatory/compliance work - Add compliance and risk items. Weekly updates become audit trail.
 
-For customer-facing teams: Add customer feedback section. Keep organization attuned to customer sentiment.
+For customer-facing teams - Add customer feedback section. Keep organization attuned to customer sentiment.
 
 The core four sections (accomplishments, current focus, upcoming plans, notes) stay constant. Everything else adapts to your context.
 

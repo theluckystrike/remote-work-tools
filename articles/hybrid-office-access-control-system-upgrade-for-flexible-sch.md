@@ -223,9 +223,9 @@ Security Considerations
 
 When integrating access control with booking systems, several security practices protect both physical and digital assets.
 
-Credential Management: Store API keys and access tokens securely using environment variables or secrets management services. Never commit credentials to version control.
+Credential Management - Store API keys and access tokens securely using environment variables or secrets management services. Never commit credentials to version control.
 
-Rate Limiting: Implement rate limiting on access control APIs to prevent abuse:
+Rate Limiting - Implement rate limiting on access control APIs to prevent abuse:
 
 ```python
 from functools import wraps
@@ -252,7 +252,7 @@ def grant_access(payload):
     pass
 ```
 
-Audit Logging: Every access event should generate an immutable audit log entry for compliance and investigation purposes.
+Audit Logging - Every access event should generate an immutable audit log entry for compliance and investigation purposes.
 
 Platform Integration Options
 

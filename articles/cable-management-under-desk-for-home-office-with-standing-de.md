@@ -27,7 +27,7 @@ Table of Contents
 - [Monitor Arm and Cable Integration](#monitor-arm-and-cable-integration)
 - [Wireless Solutions to Reduce Cable Count](#wireless-solutions-to-reduce-cable-count)
 - [Cable Labeling and Documentation](#cable-labeling-and-documentation)
-- [Desk Position: Low (28")](#desk-position-low-28)
+- [Desk Position - Low (28")](#desk-position-low-28)
 - [Connections at Floor Level](#connections-at-floor-level)
 - [Connections at Desk Level](#connections-at-desk-level)
 - [Desk Movement Notes](#desk-movement-notes)
@@ -123,7 +123,7 @@ For power users managing multiple devices, labeling every cable saves hours of t
 
 ```bash
 Create cable labels using a label maker or printed tags
-Format: [Device] - [Connection Type]
+Format - [Device] - [Connection Type]
 Examples:
 "MONITOR-1 HDMI"
 "MONITOR-2 DP"
@@ -137,7 +137,7 @@ Document your setup in a text file stored in your home office notes:
 ```markdown
 Desk Cable Map
 
-Desk Position: Low (28")
+Desk Position - Low (28")
 - Total cable travel: 24"
 
 Connections at Floor Level
@@ -204,8 +204,8 @@ Examine these high-stress areas quarterly:
 Identify cable strain patterns in your setup
 Cables stressed by flexing develop visible creases after 6-12 months
 
-At desk lowest position: measure cable slack at connector
-At desk highest position: measure again
+At desk lowest position - measure cable slack at connector
+At desk highest position - measure again
 Slack should remain consistent throughout travel range
 
 If cables tighten during movement, add 6-12 inches of total length
@@ -240,26 +240,26 @@ Monitor cable condition annually:
 Troubleshooting Common Cable Problems
 
 Connection Dropout Pattern
-Symptom: Monitor or USB connection intermittently drops, especially when moving desk.
+Symptom - Monitor or USB connection intermittently drops, especially when moving desk.
 
-Cause: Usually excessive cable tension at connector. Solution:
+Cause - Usually excessive cable tension at connector. Solution:
 - Add 6-12" slack cable loops at both desk and monitor ends
 - Verify cable isn't being crimped by raceway or tie too tightly
 - Test with a different cable to isolate hardware vs. routing issue
 
 Audio Interference/Noise
-Symptom: Crackling, hum, or noise in headset or speakers, worse when desk moves.
+Symptom - Crackling, hum, or noise in headset or speakers, worse when desk moves.
 
-Cause: Power cable carrying AC current too close to audio/USB cables. Solution:
+Cause - Power cable carrying AC current too close to audio/USB cables. Solution:
 - Physically separate power cables from data cables
 - Route through different sleeves or raceways if possible
 - Use shielded cables for audio connections (XLR > 3.5mm)
 - Consider ferrite clamps on cable connectors to suppress electromagnetic interference
 
 Video Signal Degradation
-Symptom: Pixel artifacts, intermittent loss of picture, color shifts.
+Symptom - Pixel artifacts, intermittent loss of picture, color shifts.
 
-Cause: HDMI/DisplayPort cable too long or kinked during desk movement. Solution:
+Cause - HDMI/DisplayPort cable too long or kinked during desk movement. Solution:
 - Verify cable length matches rated specification (HDMI certified to 50' but quality drops after 25')
 - Use active cables or repeaters for longer runs
 - Ensure cables route with minimum 3" bend radius

@@ -38,32 +38,32 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Build Your Exit Interview Questionnaire
+Step 1 - Build Your Exit Interview Questionnaire
 
 A well-designed questionnaire balances comprehensiveness with response fatigue. Aim for 10-15 questions that take 20-30 minutes to complete. Structure questions from general to specific, and save the most sensitive topics for later when trust has been established.
 
 Core Questions to Include
 
 ```markdown
-Step 2: Work Environment and Tools
+Step 2 - Work Environment and Tools
 1. Did you have the tools and resources needed to do your job effectively?
 2. Was communication within your team clear and timely?
 3. Did you feel connected to the broader organization?
 
-Step 3: Growth and Development
+Step 3 - Growth and Development
 4. Did you have opportunities to learn and grow in your role?
 5. Were your career goals supported by the team and organization?
 
-Step 4: Manage ment and Leadership
+Step 4 - Manage ment and Leadership
 6. Did you receive regular feedback on your performance?
 7. Did you feel comfortable raising concerns with your manager?
 8. Were decisions made transparently within your team?
 
-Step 5: Compensation and Benefits
+Step 5 - Compensation and Benefits
 9. Did you feel fairly compensated for your work?
 10. Were the benefits package and perks valuable to you?
 
-Step 6: Overall Experience
+Step 6 - Overall Experience
 11. What was the best part of working here?
 12. What would you change if you could?
 13. Would you recommend this company to a friend? Why or why not?
@@ -80,7 +80,7 @@ Beyond the standard questions, add 2-3 questions specific to your team dynamics:
 17. Did you feel comfortable sharing incomplete work or asking for help?
 ```
 
-Step 7: Automate the Process with Simple Scripts
+Step 7 - Automate the Process with Simple Scripts
 
 You can automate sending and tracking exit interviews using basic scripts. Here's a Python example using a simple YAML configuration:
 
@@ -122,7 +122,7 @@ Your responses will be anonymized in aggregate reports. Individual
 responses are only shared with senior leadership when explicitly
 helpful for organizational improvement.
 
-Please complete by: {departing_employee['last_day']}
+Please complete by - {departing_employee['last_day']}
 
 Best regards,
 People Operations
@@ -173,17 +173,17 @@ followup_delay_days: 14
 anonymize_after_days: 90
 ```
 
-Step 8: Handling Time Zones and Global Distribution
+Step 8 - Handling Time Zones and Global Distribution
 
 For truly distributed teams, your process must accommodate varying time zones and work schedules. Here's how:
 
-Asynchronous Timing: Send exit interview requests during the departing employee's working hours. This seems minor but shows respect for their time and increases completion rates.
+Asynchronous Timing - Send exit interview requests during the departing employee's working hours. This seems minor but shows respect for their time and increases completion rates.
 
-Flexible Deadlines: Give at least one week to complete the interview. Rushed timelines reduce response quality, especially for employees who may be working notice periods remotely.
+Flexible Deadlines - Give at least one week to complete the interview. Rushed timelines reduce response quality, especially for employees who may be working notice periods remotely.
 
-Multi-Language Support: If your team spans countries, provide the questionnaire in the employee's native language. This significantly improves response quality for non-native English speakers.
+Multi-Language Support - If your team spans countries, provide the questionnaire in the employee's native language. This significantly improves response quality for non-native English speakers.
 
-Step 9: Analyzing and Acting on Exit Interview Data
+Step 9 - Analyzing and Acting on Exit Interview Data
 
 Collecting feedback only matters if you act on it. Set up a simple analysis workflow:
 

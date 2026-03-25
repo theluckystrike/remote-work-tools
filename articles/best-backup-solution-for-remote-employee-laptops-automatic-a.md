@@ -22,8 +22,8 @@ Table of Contents
 - [Why Standard Cloud Sync Falls Short](#why-standard-cloud-sync-falls-short)
 - [Tool Comparison](#tool-comparison)
 - [The Core Requirements](#the-core-requirements)
-- [Self-Hosted Option: Restic with Backblaze B2](#self-hosted-option-restic-with-backblaze-b2)
-- [Advanced Option: Borg Backup for Linux Teams](#advanced-option-borg-backup-for-linux-teams)
+- [Self-Hosted Option - Restic with Backblaze B2](#self-hosted-option-restic-with-backblaze-b2)
+- [Advanced Option - Borg Backup for Linux Teams](#advanced-option-borg-backup-for-linux-teams)
 - [Step-by-Step Implementation Guide](#step-by-step-implementation-guide)
 - [Key Management for Distributed Teams](#key-management-for-distributed-teams)
 - [Monitoring and Validation](#monitoring-and-validation)
@@ -67,7 +67,7 @@ Before evaluating tools, define your baseline requirements:
 5. Bandwidth efficiency. throttle backup jobs during working hours so backups do not compete with video calls
 6. Monitoring. alert IT when a backup has not run within a defined window
 
-Self-Hosted Option: Restic with Backblaze B2
+Self-Hosted Option - Restic with Backblaze B2
 
 Restic is a modern backup program written in Go that handles all five core requirements. Combined with Backblaze B2 object storage, you get encrypted backups at roughly $6 per terabyte per month. significantly cheaper than per-device commercial solutions at scale.
 
@@ -161,7 +161,7 @@ Launchd plist for macOS (automatic scheduling):
 
 Install with `launchctl load ~/Library/LaunchAgents/com.backup.laptop.plist`.
 
-Advanced Option: Borg Backup for Linux Teams
+Advanced Option - Borg Backup for Linux Teams
 
 Borg Backup offers deduplication that rivals commercial solutions with a terminal-first interface. It excels when backing up multiple machines to a single self-hosted or BorgBase repository.
 

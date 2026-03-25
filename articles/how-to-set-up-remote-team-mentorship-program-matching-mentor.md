@@ -171,11 +171,11 @@ If a match looks problematic but scores well, trust your instincts and adjust.
 
 Practical Matching Process
 
-Step 1: Run Initial Algorithm
+Step 1 - Run Initial Algorithm
 
 Execute your matching algorithm to generate candidate pairs. The algorithm should produce more pairs than you need, you'll have options.
 
-Step 2: Review Conflicts
+Step 2 - Review Conflicts
 
 Check for conflicts:
 
@@ -184,11 +184,11 @@ Check for conflicts:
 - Unrealistic time zone overlap for the stated goals
 - Mentor has more mentees than their capacity allows
 
-Step 3: Validate with Participants
+Step 3 - Validate with Participants
 
 Before finalizing, give both mentors and mentees the option to preview their match and request changes. Some participants may have context the algorithm lacks.
 
-Step 4: Announce Matches
+Step 4 - Announce Matches
 
 Provide clear communication to each pair:
 
@@ -244,7 +244,7 @@ For larger organizations, consider building this into existing tools:
 - Airtable: Use formula fields for scoring calculations
 - Custom script: Run matching locally and import results into your HR system
 
-The key insight: invest upfront in the matching process. Strong matches create mentorship relationships that drive real team growth. Weak matches create administrative overhead and participant frustration.
+The key insight - invest upfront in the matching process. Strong matches create mentorship relationships that drive real team growth. Weak matches create administrative overhead and participant frustration.
 
 Build your matching system once, refine it after each cohort, and watch your mentorship program deliver consistent value.
 ---

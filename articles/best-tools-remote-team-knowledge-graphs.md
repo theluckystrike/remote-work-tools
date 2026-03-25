@@ -43,8 +43,8 @@ Use a knowledge graph when:
 
 1. Obsidian (Best for Individual + Small Teams)
 
-Cost: Free (personal), $50/year (Sync for teams)
-Best for: Personal knowledge management, team knowledge bases up to ~20 people
+Cost - Free (personal), $50/year (Sync for teams)
+Best for - Personal knowledge management, team knowledge bases up to ~20 people
 
 ```bash
 Install
@@ -54,7 +54,7 @@ brew install --cask obsidian
 Obsidian's graph view visualizes wiki-style links between notes:
 
 ```markdown
-Microservice: Auth Service
+Microservice - Auth Service
 
 Related systems:
   - [[Database: Users]]
@@ -65,8 +65,8 @@ Depends on:
   - [[Library: JWT]]
   - [[Infrastructure: Redis]]
 
-Owned by: [[Team: Platform]]
-Known incidents: [[Incident 2025-11-03 Auth Outage]]
+Owned by - [[Team: Platform]]
+Known incidents - [[Incident 2025-11-03 Auth Outage]]
 ```
 
 Team vault setup (git-based):
@@ -113,8 +113,8 @@ Graph visualization settings for teams:
 
 2. Logseq (Best Open Source Option)
 
-Cost: Free (local-first, open source)
-Best for: Daily notes + knowledge graph, teams comfortable with Markdown
+Cost - Free (local-first, open source)
+Best for - Daily notes + knowledge graph, teams comfortable with Markdown
 
 ```bash
 Install
@@ -148,8 +148,8 @@ Add to crontab:
 
 3. Memgraph (Best for Technical Architecture Graphs)
 
-Cost: Free (Community), $0.30/hr (Enterprise cloud)
-Best for: Querying relationships in code, infrastructure, and incident data
+Cost - Free (Community), $0.30/hr (Enterprise cloud)
+Best for - Querying relationships in code, infrastructure, and incident data
 
 ```bash
 Run Memgraph with Docker
@@ -247,8 +247,8 @@ if __name__ == "__main__":
 
 4. Kumu (Best for Non-Technical Stakeholders)
 
-Cost: $75/month (teams)
-Best for: Org charts, stakeholder maps, visual knowledge graphs without graph DB skills
+Cost - $75/month (teams)
+Best for - Org charts, stakeholder maps, visual knowledge graphs without graph DB skills
 
 Kumu uses JSON to define graph data, importable via spreadsheet:
 

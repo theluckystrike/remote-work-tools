@@ -52,7 +52,7 @@ Common Scenarios Where Sorting Resets
 
 Step-by-Step Troubleshooting Solutions
 
-Step 1: Verify Your Slack Application Is Updated
+Step 1 - Verify Your Slack Application Is Updated
 
 Outdated Slack versions frequently exhibit preference-saving bugs. Ensure you're running the latest version of Slack on all your devices.
 
@@ -68,7 +68,7 @@ For Mobile (iOS/Android):
 2. Search for "Slack"
 3. Tap "Update" if a new version is available
 
-Step 2: Clear Browser Cache and App Data (Desktop)
+Step 2 - Clear Browser Cache and App Data (Desktop)
 
 Cached data corruption often causes preference reset issues. Clear Slack's local cache to resolve this.
 
@@ -100,7 +100,7 @@ For Slack in a browser:
 3. Click "Clear site data" for the Slack domain
 4. Hard refresh the page (Ctrl+Shift+R or Cmd+Shift+R)
 
-Step 3: Check Your Workspace Permissions
+Step 3 - Check Your Workspace Permissions
 
 Sometimes workspace administrators impose settings that override individual preferences. If sorting consistently resets, verify that your workspace allows custom sorting.
 
@@ -109,7 +109,7 @@ Sometimes workspace administrators impose settings that override individual pref
 3. Look for any policies affecting message display or sorting
 4. Contact your workspace admin if restrictions are in place
 
-Step 4: Reset Slack's Local Database
+Step 4 - Reset Slack's Local Database
 
 If clearing the cache did not help, Slack's local IndexedDB database may be corrupted. This stores your preferences including sort order.
 
@@ -130,7 +130,7 @@ Browser:
 3. Delete all Slack-related databases
 4. Reload the page
 
-Step 5: Reinstall Slack Completely
+Step 5 - Reinstall Slack Completely
 
 When updates and cache clearing don't resolve the issue, a clean reinstallation often works.
 
@@ -146,7 +146,7 @@ Reinstallation Steps:
 3. Download the latest version from slack.com
 4. Install and sign in fresh
 
-Step 6: Test Across Multiple Devices
+Step 6 - Test Across Multiple Devices
 
 If sorting works on one device but not another, the issue likely relates to specific app data or sync problems.
 
@@ -155,7 +155,7 @@ If sorting works on one device but not another, the issue likely relates to spec
 3. Sign out and back into Slack on the affected device
 4. Verify your sorting preference persists after closing and reopening Slack
 
-Step 7: Check for Conflicting Slack Extensions or Integrations
+Step 7 - Check for Conflicting Slack Extensions or Integrations
 
 Browser extensions, particularly those modifying web pages, can interfere with Slack's preference storage.
 
@@ -165,7 +165,7 @@ Browser extensions, particularly those modifying web pages, can interfere with S
 
 Known conflicting extensions include ad blockers that strip cookies, privacy extensions that clear localStorage on tab close, and productivity tools that inject custom CSS into Slack.
 
-Step 8: Report to Slack Support
+Step 8 - Report to Slack Support
 
 If none of the above solutions work, the issue may require attention from Slack's development team.
 
@@ -194,13 +194,13 @@ Preventing Future Issues
 
 Beyond fixing the current problem, establish habits that minimize sorting-related frustration:
 
-Sign Out Consistently: Closing Slack without fully signing out can cause sync issues. Make it a practice to sign out before ending your workday.
+Sign Out Consistently - Closing Slack without fully signing out can cause sync issues. Make it a practice to sign out before ending your workday.
 
-Use Single Device Primary: Designate one primary device for managing workspace preferences. Secondary devices will eventually sync once the primary device's preferences propagate.
+Use Single Device Primary - Designate one primary device for managing workspace preferences. Secondary devices will eventually sync once the primary device's preferences propagate.
 
-Keep Apps Updated: Enable automatic updates for Slack to receive bug fixes promptly.
+Keep Apps Updated - Enable automatic updates for Slack to receive bug fixes promptly.
 
-Use Slack's sidebar sections: Instead of relying on automatic sort order, organize channels into custom sidebar sections (Starred, Priority, Projects, etc.). These persist more reliably than sort preferences because they are stored server-side.
+Use Slack's sidebar sections - Instead of relying on automatic sort order, organize channels into custom sidebar sections (Starred, Priority, Projects, etc.). These persist more reliably than sort preferences because they are stored server-side.
 
 Alternative Workarounds
 
@@ -387,7 +387,7 @@ Reporting to Slack Support Effectively
 When contacting Slack support, include this information:
 
 ```
-Title: Slack List View Sorting Not Persisting
+Title - Slack List View Sorting Not Persisting
 
 Details:
 - Slack version: [Help > About Slack]

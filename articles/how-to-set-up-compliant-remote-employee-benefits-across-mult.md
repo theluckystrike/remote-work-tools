@@ -197,7 +197,7 @@ class WorkersCompConfig:
 
 Practical Implementation Steps
 
-Step 1: Employee Location Tracking
+Step 1 - Employee Location Tracking
 
 Build a system that records where employees actually work:
 
@@ -230,7 +230,7 @@ class EmployeeLocationService:
         """, (employee_id,))
 ```
 
-Step 2: Compliance Monitoring
+Step 2 - Compliance Monitoring
 
 Set up alerts for regulatory changes:
 
@@ -267,7 +267,7 @@ class ComplianceMonitor:
         return violations
 ```
 
-Step 3: State Registration Management
+Step 3 - State Registration Management
 
 Track which states where you have employees and ensure proper registration:
 

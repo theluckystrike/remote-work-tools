@@ -19,7 +19,7 @@ A freshly provisioned VPS or home lab server is exposed to the internet with def
 
 All commands run as root or with sudo unless otherwise noted.
 
-Step 1: Create a Non-Root User
+Step 1 - Create a Non-Root User
 
 Never use the `root` user for routine work. Create a deploy user and disable root login.
 
@@ -51,7 +51,7 @@ ssh devadmin@your-server-ip
 sudo whoami  # should return "root"
 ```
 
-Step 2: Harden SSH Configuration
+Step 2 - Harden SSH Configuration
 
 ```bash
 /etc/ssh/sshd_config. edit these settings
@@ -108,13 +108,13 @@ Host myserver
   IdentityFile ~/.ssh/id_ed25519
 ```
 
-Step 3: Configure UFW Firewall
+Step 3 - Configure UFW Firewall
 
 ```bash
 Install and configure UFW (Uncomplicated Firewall)
 sudo apt install ufw -y
 
-Set defaults: deny all incoming, allow all outgoing
+Set defaults - deny all incoming, allow all outgoing
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 
@@ -136,7 +136,7 @@ sudo ufw enable
 sudo ufw status verbose
 ```
 
-Step 4: Install and Configure fail2ban
+Step 4 - Install and Configure fail2ban
 
 fail2ban reads log files and bans IPs that show malicious patterns (e.g., repeated failed SSH logins).
 
@@ -177,7 +177,7 @@ Unban an IP if you accidentally banned yourself
 sudo fail2ban-client set sshd unbanip YOUR_IP
 ```
 
-Step 5: Automatic Security Updates
+Step 5 - Automatic Security Updates
 
 ```bash
 sudo apt install unattended-upgrades -y
@@ -215,7 +215,7 @@ Test the configuration
 sudo unattended-upgrade --dry-run --debug
 ```
 
-Step 6: Configure auditd for Logging
+Step 6 - Configure auditd for Logging
 
 auditd logs privileged commands, file access, and user logins. useful for forensics if something goes wrong.
 
@@ -257,7 +257,7 @@ sudo ausearch -k root_commands -i    # commands run as root
 sudo aureport --logins --summary     # login summary report
 ```
 
-Step 7: Kernel Security Settings
+Step 7 - Kernel Security Settings
 
 ```bash
 /etc/sysctl.d/99-hardening.conf

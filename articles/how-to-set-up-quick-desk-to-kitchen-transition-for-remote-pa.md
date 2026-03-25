@@ -32,14 +32,14 @@ Table of Contents
 - [Why It Matters](#why-it-matters)
 - [During Lunch](#during-lunch)
 - [After Lunch](#after-lunch)
-- [Meal Prep Deep Dive: The Sustainable Approach](#meal-prep-deep detailed look-the-sustainable-approach)
+- [Meal Prep Deep Dive - The Sustainable Approach](#meal-prep-deep detailed look-the-sustainable-approach)
 - [Portable Lunch Solutions for Flexible Work](#portable-lunch-solutions-for-flexible-work)
 - [Pre-staged Container](#pre-staged-container)
 - [Condiment Kit](#condiment-kit)
 - [No-Cook Options](#no-cook-options)
 - [Hybrid Approach](#hybrid-approach)
 - [The 5-Minute Return-to-Work Protocol](#the-5-minute-return-to-work-protocol)
-- [Measuring Success: Quantifying Your Time Recovery](#measuring-success-quantifying-your-time-recovery)
+- [Measuring Success - Quantifying Your Time Recovery](#measuring-success-quantifying-your-time-recovery)
 
 Understanding the Transition Cost
 
@@ -196,7 +196,7 @@ After Lunch
 
 Post this visibly and refer to it when family members test boundaries. Consistency over weeks establishes the norm.
 
-Meal Prep Deep Dive: The Sustainable Approach
+Meal Prep Deep Dive - The Sustainable Approach
 
 Weekly batch cooking requires planning but eliminates daily cooking stress:
 
@@ -226,7 +226,7 @@ class MealPrepPlanner:
 Usage
 planner = MealPrepPlanner(family_size=4)
 prep_plan = planner.calculate_ingredients()
-Output: {"total_weekly_cost": 47.5, "prep_hours": 4}
+Output - {"total_weekly_cost": 47.5, "prep_hours": 4}
 ```
 
 Sunday Batch Cooking Template (4-hour session):
@@ -294,19 +294,19 @@ return-to-work.sh - Restart your work session in 5 minutes
 
 echo "Returning to work. Following 5-minute protocol..."
 
-Minute 1: Clear physical workspace
+Minute 1 - Clear physical workspace
 echo "Clearing plates..."
 (manual action - dishes to sink, table wiped)
 
-Minute 2: Hydrate and settle
+Minute 2 - Hydrate and settle
 echo "Getting water, settling in chair..."
 (manual action - fill water, sit down, adjust monitor)
 
-Minute 3: Mental reset
+Minute 3 - Mental reset
 echo "Taking three deep breaths..."
 sleep 3
 
-Minutes 4-5: Resume work context
+Minutes 4-5 - Resume work context
 echo "Reviewing last task..."
 Display your notes from pre-lunch
 cat ~/.work_session_notes
@@ -316,7 +316,7 @@ echo "Work session resumed."
 
 The purpose is deliberate transition. Don't try to work while still in "family mode." A 5-minute reset prevents the messy hybrid state where you're partially focused on both.
 
-Measuring Success: Quantifying Your Time Recovery
+Measuring Success - Quantifying Your Time Recovery
 
 To know if your system works, track baseline metrics:
 
@@ -338,9 +338,9 @@ def log_lunch_session(date, prep_time_minutes, eating_time_minutes,
     }
     return session
 
-Week 1 baseline (disorganized): 8 + 20 + 10 = 38 minutes
-Week 4 optimized: 2 + 25 + 3 = 30 minutes
-Time recovered: 8 minutes/day × 5 days = 40 minutes/week = 32 hours/year
+Week 1 baseline (disorganized) - 8 + 20 + 10 = 38 minutes
+Week 4 optimized - 2 + 25 + 3 = 30 minutes
+Time recovered - 8 minutes/day × 5 days = 40 minutes/week = 32 hours/year
 ```
 
 Track this over 4 weeks. You should see:

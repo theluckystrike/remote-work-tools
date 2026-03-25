@@ -59,15 +59,15 @@ A well-drafted contract protects both parties. Here's a minimal template structu
 ```markdown
 Payment Terms
 
-Project Fee: $[amount]
+Project Fee - $[amount]
 Payment Schedule:
 - 30% deposit upon project start
 - 30% upon intermediate deliverable approval
 - 40% final payment before source code release
 
-Payment Due: Net [15/30] days from invoice date
-Late Fee: 1.5% per month on overdue balances
-Accepted Methods: Bank transfer, PayPal, [other methods]
+Payment Due - Net [15/30] days from invoice date
+Late Fee - 1.5% per month on overdue balances
+Accepted Methods - Bank transfer, PayPal, [other methods]
 
 Work pauses if payment exceeds [15] days overdue.
 Resume work within [5] business days of payment clearance.
@@ -158,12 +158,12 @@ Sample retainer language:
 ```markdown
 Retainer Agreement
 
-Monthly Fee: $[amount] for [X] hours
-Billing Cycle: First of each month
-Payment Due: Net 5 days from invoice
-Unused Hours: Do not roll over; reset monthly
-Cancellation: 30 days written notice required
-Pause Option: Client may pause retainer with 14 days notice
+Monthly Fee - $[amount] for [X] hours
+Billing Cycle - First of each month
+Payment Due - Net 5 days from invoice
+Unused Hours - Do not roll over; reset monthly
+Cancellation - 30 days written notice required
+Pause Option - Client may pause retainer with 14 days notice
 ```
 
 Invoice Best Practices for Developers
@@ -245,7 +245,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -257,7 +257,7 @@ AI tools evolve rapidly, with major updates every few months. Feature comparison
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

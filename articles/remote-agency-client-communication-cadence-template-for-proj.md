@@ -23,21 +23,21 @@ Table of Contents
 - [Why Communication Cadence Matters](#why-communication-cadence-matters)
 - [The Core Cadence Framework](#the-core-cadence-framework)
 - [A Practical Template](#a-practical-template)
-- [Project Status: {{ project_name }}](#project-status-projectname)
+- [Project Status - {{ project_name }}](#project-status-projectname)
 - [Automating Your Cadence](#automating-your-cadence)
 - [Adapting Cadence to Client Type](#adapting-cadence-to-client-type)
 - [Setting Cadence Expectations at Project Start](#setting-cadence-expectations-at-project-start)
 - [Handling Communication Breakdowns](#handling-communication-breakdowns)
 - [Measuring Cadence Effectiveness](#measuring-cadence-effectiveness)
 - [Client Segmentation and Pricing Strategy](#client-segmentation-and-pricing-strategy)
-- [Automation: Status Report Generation](#automation-status-report-generation)
+- [Automation - Status Report Generation](#automation-status-report-generation)
 - [Communication Tools for Different Cadence Needs](#communication-tools-for-different-cadence-needs)
-- [Real Example: 12-Week Project Cadence](#real-example-12-week-project-cadence)
-- [Phase 1: Discovery (Weeks 1-2)](#phase-1-discovery-weeks-1-2)
-- [Phase 2: Design & Planning (Weeks 3-4)](#phase-2-design-planning-weeks-3-4)
-- [Phase 3: Development (Weeks 5-9)](#phase-3-development-weeks-5-9)
-- [Phase 4: Testing & Refinement (Weeks 10-11)](#phase-4-testing-refinement-weeks-10-11)
-- [Phase 5: Launch & Handoff (Week 12)](#phase-5-launch-handoff-week-12)
+- [Real Example - 12-Week Project Cadence](#real-example-12-week-project-cadence)
+- [Phase 1 - Discovery (Weeks 1-2)](#phase-1-discovery-weeks-1-2)
+- [Phase 2 - Design & Planning (Weeks 3-4)](#phase-2-design-planning-weeks-3-4)
+- [Phase 3 - Development (Weeks 5-9)](#phase-3-development-weeks-5-9)
+- [Phase 4 - Testing & Refinement (Weeks 10-11)](#phase-4-testing-refinement-weeks-10-11)
+- [Phase 5 - Launch & Handoff (Week 12)](#phase-5-launch-handoff-week-12)
 - [Post-Launch Maintenance](#post-launch-maintenance)
 - [Detecting Cadence Breakdown Early](#detecting-cadence-breakdown-early)
 
@@ -57,7 +57,7 @@ The Core Cadence Framework
 
 Every client communication cadence should adapt to the project phase. Here is a baseline structure that works for most remote agency engagements:
 
-Phase 1: Discovery and Planning (Weeks 1-2)
+Phase 1 - Discovery and Planning (Weeks 1-2)
 
 During initial project setup, communication should be frequent but brief:
 
@@ -67,7 +67,7 @@ During initial project setup, communication should be frequent but brief:
 
 This phase sets expectations for the entire engagement. Clients who get a structured, well-documented kickoff experience are significantly less likely to become micromanagers during active development.
 
-Phase 2: Active Development (Weeks 3+)
+Phase 2 - Active Development (Weeks 3+)
 
 Once work begins in earnest, shift to a sustainable rhythm:
 
@@ -77,7 +77,7 @@ Once work begins in earnest, shift to a sustainable rhythm:
 
 The bi-weekly async update carries most of the information load. Written updates allow clients to review details at their own pace and respond without scheduling a call. Reserve synchronous time for decisions that genuinely require real-time discussion.
 
-Phase 3: Delivery and Handoff
+Phase 3 - Delivery and Handoff
 
 As projects near completion, increase transparency:
 
@@ -92,8 +92,8 @@ A Practical Template
 Below is a markdown template you can adapt for your client updates. Store this as a reusable file in your project management system:
 
 ```markdown
-Project Status: {{ project_name }}
-Period: {{ start_date }} - {{ end_date }}
+Project Status - {{ project_name }}
+Period - {{ start_date }} - {{ end_date }}
 Overall Health:  On Track /  At Risk /  Blocked
 
 Completed This Period
@@ -185,7 +185,7 @@ Standard clients (mid-size projects): Bi-weekly async updates with weekly sync c
 
 Low-touch clients (maintenance, small projects): Monthly written updates only. Use asynchronous communication as the default. Proactively reaching out to these clients more than monthly often creates anxiety rather than reassurance, they assume something has gone wrong.
 
-The key principle: match communication frequency to client needs and project complexity, not to your own anxiety about being "present."
+The key principle - match communication frequency to client needs and project complexity, not to your own anxiety about being "present."
 
 Setting Cadence Expectations at Project Start
 
@@ -242,7 +242,7 @@ This segmentation isn't cold; it's practical. A $10k/month account cannot sustai
 
 When clients upgrade (e.g., $15k → $60k), explicitly move them to a higher tier. "As your engagement has grown, we're assigning a dedicated PM and moving to weekly syncs." Clients feel valued; you reset expectations.
 
-Automation: Status Report Generation
+Automation - Status Report Generation
 
 Smart agencies automate repetitive status report generation. Here's a system that pulls updates from your project tracking:
 
@@ -291,7 +291,7 @@ class StatusGenerator:
         blockers = self.fetch_blockers()
 
         report = f"""## {self.client_name} Status Report
-Period: {(datetime.now() - timedelta(days=14)).strftime('%Y-%m-%d')} to {datetime.now().strftime('%Y-%m-%d')}
+Period - {(datetime.now() - timedelta(days=14)).strftime('%Y-%m-%d')} to {datetime.now().strftime('%Y-%m-%d')}
 Overall Health:  On Track
 
 Completed This Period
@@ -333,34 +333,34 @@ Choose tools aligned to your cadence type:
 
 Avoid mixing tools. Email for async updates, Slack for urgent blockers, video for demos. Pick three tools; master them.
 
-Real Example: 12-Week Project Cadence
+Real Example - 12-Week Project Cadence
 
 Here's an actual project timeline showing communication cadence changes as context shifts:
 
 ```markdown
 Customer Portal Redesign - 12 Week Timeline
 
-Phase 1: Discovery (Weeks 1-2)
+Phase 1 - Discovery (Weeks 1-2)
 - Cadence: Daily Slack standup (async) + weekly 30-min video (Tue 2pm)
 - Status: Brief "What we learned today" bullet points
 - Demos: None yet; research phase
 
-Phase 2: Design & Planning (Weeks 3-4)
+Phase 2 - Design & Planning (Weeks 3-4)
 - Cadence: Bi-weekly async status + weekly 30-min design review (in-person/video)
 - Status: What designs we're exploring, which directions client prefers
 - Demos: Figma prototypes (static); no interactive demos yet
 
-Phase 3: Development (Weeks 5-9)
+Phase 3 - Development (Weeks 5-9)
 - Cadence: Bi-weekly async status + weekly 30-min sync call
 - Status: Features complete, blockers, next week priorities
 - Demos: Weekly Loom video showing working features (async); client reviews, gives feedback
 
-Phase 4: Testing & Refinement (Weeks 10-11)
+Phase 4 - Testing & Refinement (Weeks 10-11)
 - Cadence: Weekly async status + weekly 30-min sync (bugs, final decisions)
 - Status: Bug counts, test coverage, timeline confidence
 - Demos: Live environment demos (if client wants); mostly testing updates
 
-Phase 5: Launch & Handoff (Week 12)
+Phase 5 - Launch & Handoff (Week 12)
 - Cadence: Daily async during launch week + launch day call
 - Status: Launch checklist, go/no-go decision, post-launch monitoring
 - Support: Dedicated Slack channel for 48 hours post-launch for urgent issues

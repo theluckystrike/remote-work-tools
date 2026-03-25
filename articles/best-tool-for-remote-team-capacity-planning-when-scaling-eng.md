@@ -22,7 +22,7 @@ Why Remote Capacity Planning Differs From Co-Located Teams
 
 Remote engineering teams operate with fundamental differences that invalidate traditional capacity planning assumptions. Synchronous availability windows shrink as teams span multiple time zones. Context-switching costs increase when developers alternate between deep work and async communication. Onboarding new engineers takes longer without in-person pairing sessions.
 
-The core challenge: quarterly headcount growth requires capacity planning that accounts for the ramp-up curve of new engineers, the overhead of async coordination, and realistic velocity that reflects distributed work patterns.
+The core challenge - quarterly headcount growth requires capacity planning that accounts for the ramp-up curve of new engineers, the overhead of async coordination, and realistic velocity that reflects distributed work patterns.
 
 Core Metrics for Remote Engineering Capacity
 
@@ -83,7 +83,7 @@ Spreadsheet-Based Planning (For Teams Preferring Simplicity)
 Many remote engineering teams successfully use carefully structured spreadsheets for quarterly capacity planning. This approach provides full control over calculations and avoids vendor lock-in.
 
 ```python
-Python: Simple capacity planning calculator
+Python - Simple capacity planning calculator
 def calculate_quarterly_capacity(
     headcount_by_month: list[int],
     avg_velocity_per_dev: float = 15,
@@ -163,7 +163,7 @@ const historicalAnalysis = {
 
 2. Headcount Scenario Modeling (Week 2)
 
-Create three scenarios: conservative, expected, and aggressive. Model capacity implications for each.
+Create three scenarios - conservative, expected, and aggressive. Model capacity implications for each.
 
 ```python
 Scenario modeling
@@ -226,7 +226,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -238,7 +238,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

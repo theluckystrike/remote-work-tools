@@ -146,7 +146,7 @@ Nuphy Halo96 ($130)
 Budget Quiet Keyboards ($40-80)
 Apple Magic Keyboard ($49-99)
 - Quiet scissor switches
-- Excellent compatibility across Apple ecosystem
+- Excellent compatibility across Apple environment
 - Lightweight, portable design
 
 Logitech K380 ($39-50)
@@ -169,7 +169,7 @@ Noise Level Comparison
 | Membrane/scissor switches | 55-65 dB | Very quiet, not noticeable |
 | Laptop chiclet keyboards | 50-60 dB | Minimal noise presence |
 
-Reference: Normal conversation = 60 dB, whisper = 30 dB
+Reference - Normal conversation = 60 dB, whisper = 30 dB
 
 Customization Strategies for Existing Mechanical Keyboards
 
@@ -185,7 +185,7 @@ Case dampening ($5-15):
 - Stabilizer modifications: Better isolation reduces key wobble noise
 - Gasket strips: Isolate switches from hard mounting surface
 
-Cost-benefit: $15-30 total investment can reduce keyboard noise by 30-40%, often sufficient to make a loud keyboard acceptable for video calls.
+Cost-benefit - $15-30 total investment can reduce keyboard noise by 30-40%, often sufficient to make a loud keyboard acceptable for video calls.
 
 Making the Switch
 
@@ -212,11 +212,11 @@ Extended Adjustment Strategies
 
 If you're switching from a loud mechanical keyboard to a quiet one, expect a 2-4 week adjustment period. Your fingers have learned to apply specific pressure and expect specific feedback from your current keyboard. A new keyboard, even if quieter, feels different initially.
 
-Week 1 strategy: Use the new quiet keyboard for code review and reading tasks, low-velocity work where typing speed doesn't matter. Keep your old keyboard for high-pressure situations where speed and confidence matter.
+Week 1 strategy - Use the new quiet keyboard for code review and reading tasks, low-velocity work where typing speed doesn't matter. Keep your old keyboard for high-pressure situations where speed and confidence matter.
 
-Week 2-3: Gradually increase the percentage of your day on the new keyboard. By 50% usage, you'll notice marked improvement in comfort and speed.
+Week 2-3 - Gradually increase the percentage of your day on the new keyboard. By 50% usage, you'll notice marked improvement in comfort and speed.
 
-Week 4+: Most developers reach full comfort within 4 weeks. Some report that switching to a quieter, tactile keyboard actually improves accuracy because the reduced noise means less acoustic feedback to track.
+Week 4+ - Most developers reach full comfort within 4 weeks. Some report that switching to a quieter, tactile keyboard actually improves accuracy because the reduced noise means less acoustic feedback to track.
 
 Track your typing speed using monkeytype.com or similar tools. Your speed may drop 10-15% temporarily, but it should return to baseline within the adjustment period.
 
@@ -241,13 +241,13 @@ Keyboard Choice by Role and Use Case
 
 Different technical roles benefit from different keyboard types:
 
-Data scientists and analysts: Frequent writing of queries and documentation. Quiet mechanical (Boba U4T) or quality membrane keyboards (Logitech MX Keys) work well. Constant writing means comfort matters.
+Data scientists and analysts - Frequent writing of queries and documentation. Quiet mechanical (Boba U4T) or quality membrane keyboards (Logitech MX Keys) work well. Constant writing means comfort matters.
 
 Infrastructure and DevOps engineers: Heavy terminal work. Depending on preference, either low-profile quiet keyboards or traditional mechanical with quiet mods. Some prefer tenkeyless layouts to save desk space in home offices.
 
-Frontend developers: High volume of typing and frequent context-switching. Keyboard feel becomes more important than pure quietness. A quiet mechanical keyboard with good tactile feedback provides best balance.
+Frontend developers - High volume of typing and frequent context-switching. Keyboard feel becomes more important than pure quietness. A quiet mechanical keyboard with good tactile feedback provides best balance.
 
-Platform and backend engineers: Moderate to high typing volume. Quality over quietness sometimes matters more. If mostly alone in meetings or in muted sessions, can prioritize typing feel over absolute silence.
+Platform and backend engineers - Moderate to high typing volume. Quality over quietness sometimes matters more. If mostly alone in meetings or in muted sessions, can prioritize typing feel over absolute silence.
 
 Product managers and non-technical roles: If presenting frequently, absolute quiet is higher priority than feel. Scissor-switch keyboards (Apple Magic, Logitech MX Keys) often better for this audience.
 
@@ -255,11 +255,11 @@ Budget Allocation Over Time
 
 Rather than an one-time keyboard purchase, think of it as a multi-year investment:
 
-Year 1: Buy a mid-range quiet keyboard ($80-150). Test the feel and determine if you prefer mechanical or membrane.
+Year 1 - Buy a mid-range quiet keyboard ($80-150). Test the feel and determine if you prefer mechanical or membrane.
 
-Year 2: If you type 8+ hours daily, upgrade to a better option in your preferred category. Spending $200 on something you use 2,000+ hours annually is reasonable.
+Year 2 - If you type 8+ hours daily, upgrade to a better option in your preferred category. Spending $200 on something you use 2,000+ hours annually is reasonable.
 
-Year 3+: Customization and mods. If you've committed to mechanical, invest in premium switches ($100), better keycaps ($80), or a custom keyboard build ($200+).
+Year 3+ - Customization and mods. If you've committed to mechanical, invest in premium switches ($100), better keycaps ($80), or a custom keyboard build ($200+).
 
 Total investment spread over 3-4 years stays reasonable while allowing gradual optimization.
 
@@ -267,10 +267,10 @@ Keyboard Maintenance and Longevity
 
 A quiet keyboard properly maintained lasts 5+ years. Maintain yours:
 
-Weekly: Compressed air to remove dust from switches
-Monthly: Gentle surface cleaning with slightly damp cloth
-Quarterly: Check stabilizers and switches for sluggishness
-Annually: Deep clean with switch puller (if mechanical), replace keycaps if heavily worn
+Weekly - Compressed air to remove dust from switches
+Monthly - Gentle surface cleaning with slightly damp cloth
+Quarterly - Check stabilizers and switches for sluggishness
+Annually - Deep clean with switch puller (if mechanical), replace keycaps if heavily worn
 
 Good mechanical keyboards are built to be serviced. Many keyboard communities have detailed maintenance guides.
 
@@ -278,13 +278,13 @@ Testing Keyboards Before You Buy
 
 Buying a keyboard sight-unseen carries risk. Switches feel completely different when you type versus when you read specifications:
 
-Keyboard switch testing kits: Order a switch tester that includes Boba U4T, Cherry MX Silent Red, and a few other quiet options ($15-30). Type on each for 5 minutes. This immediately shows you what feels best.
+Keyboard switch testing kits - Order a switch tester that includes Boba U4T, Cherry MX Silent Red, and a few other quiet options ($15-30). Type on each for 5 minutes. This immediately shows you what feels best.
 
-Local keyboard shops: Some cities have mechanical keyboard shops where you can try switches before ordering. If available, take an hour to test different options.
+Local keyboard shops - Some cities have mechanical keyboard shops where you can try switches before ordering. If available, take an hour to test different options.
 
-Return policies: When ordering online, confirm the return policy. Some retailers allow 30-day returns (often charging restocking fee). This lets you test the keyboard at your desk for a full week.
+Return policies - When ordering online, confirm the return policy. Some retailers allow 30-day returns (often charging restocking fee). This lets you test the keyboard at your desk for a full week.
 
-Rental option: If buying a Tuple subscription, rent their peripheral setup ($20/month) to test before purchasing outright.
+Rental option - If buying a Tuple subscription, rent their peripheral setup ($20/month) to test before purchasing outright.
 
 You'll use this keyboard 2,000+ hours annually. Spending time testing beforehand prevents costly mistakes and regrets.
 

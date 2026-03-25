@@ -35,7 +35,7 @@ Table of Contents
 - [Implementing Noise Gate in OBS](#implementing-noise-gate-in-obs)
 - [Integrating Voicemeeter with Blue Yeti](#integrating-voicemeeter-with-blue-yeti)
 - [Practical Testing and Fine-tuning](#practical-testing-and-fine-tuning)
-- [Beyond Noise Gates: Complementary Techniques](#beyond-noise-gates-complementary-techniques)
+- [Beyond Noise Gates - Complementary Techniques](#beyond-noise-gates-complementary-techniques)
 - [Advanced Parameter Tuning Guide](#advanced-parameter-tuning-guide)
 - [Microphone Placement and Positioning](#microphone-placement-and-positioning)
 - [Troubleshooting Common Noise Gate Problems](#troubleshooting-common-noise-gate-problems)
@@ -49,11 +49,11 @@ A noise gate is an audio processor that mutes signals below a certain threshold 
 
 The key parameters you'll encounter in most noise gate implementations include:
 
-- Threshold: The decibel level at which the gate opens. Sounds above this level pass through; sounds below get silenced.
-- Attack: How quickly the gate opens once the threshold is exceeded. Fast attack times prevent initial syllables from being cut off.
-- Hold: How long the gate stays open after the signal drops below threshold. Prevents gate from chattering on and off during speech pauses.
-- Release: How gradually the gate closes. Too fast creates audible clicking; too slow lets noise bleed through during silent periods.
-- Range: How completely the gate attenuates the signal when closed (usually expressed in dB). Range of -60 dB means the signal becomes nearly silent when the gate is closed.
+- Threshold - The decibel level at which the gate opens. Sounds above this level pass through; sounds below get silenced.
+- Attack - How quickly the gate opens once the threshold is exceeded. Fast attack times prevent initial syllables from being cut off.
+- Hold - How long the gate stays open after the signal drops below threshold. Prevents gate from chattering on and off during speech pauses.
+- Release - How gradually the gate closes. Too fast creates audible clicking; too slow lets noise bleed through during silent periods.
+- Range - How completely the gate attenuates the signal when closed (usually expressed in dB). Range of -60 dB means the signal becomes nearly silent when the gate is closed.
 
 Recommended Software for Noise Gate Processing
 
@@ -74,11 +74,11 @@ Quiet Home Office (Low Background Noise)
 If you work in a relatively quiet environment with minimal interruptions:
 
 ```xml
-Threshold: -40 dB
-Attack: 5 ms
-Hold: 100 ms
-Release: 150 ms
-Range: -60 dB
+Threshold - -40 dB
+Attack - 5 ms
+Hold - 100 ms
+Release - 150 ms
+Range - -60 dB
 ```
 
 This configuration opens the gate quickly when you speak while eliminating ambient room tone. The moderate release time prevents abrupt cutoffs while maintaining clean transitions between words.
@@ -88,11 +88,11 @@ Noisy Environment (Street Noise, HVAC, Household Activity)
 For challenging acoustic situations with unpredictable background noise:
 
 ```xml
-Threshold: -35 dB
-Attack: 3 ms
-Hold: 200 ms
-Release: 200 ms
-Range: -80 dB
+Threshold - -35 dB
+Attack - 3 ms
+Hold - 200 ms
+Release - 200 ms
+Range - -80 dB
 ```
 
 The higher threshold prevents the gate from opening on background sounds, while the longer hold and release times smooth out the audio. The deeper range ensures complete silence when the gate closes.
@@ -102,11 +102,11 @@ Recording Voiceovers and Technical Content
 When producing tutorials, code walkthroughs, or documentation:
 
 ```xml
-Threshold: -45 dB
-Attack: 2 ms
-Hold: 150 ms
-Release: 100 ms
-Range: -70 dB
+Threshold - -45 dB
+Attack - 2 ms
+Hold - 150 ms
+Release - 100 ms
+Range - -70 dB
 ```
 
 These settings capture softer spoken content while maintaining consistent audio quality. The faster attack catches quiet initial consonants without introducing artifacts.
@@ -144,12 +144,12 @@ The ideal noise gate settings depend on your specific environment and speaking p
 
 Pay attention to these common problems:
 
-- Chopping: Your voice cuts off mid-word. lower the threshold or increase hold time
-- Pumping: Audible volume changes between words. increase release time
+- Chopping - Your voice cuts off mid-word. lower the threshold or increase hold time
+- Pumping - Audible volume changes between words. increase release time
 - Breath noise gets through: Try a lower threshold or add a high-pass filter
 - Background noise at sentence ends: Increase release time to prevent abrupt cutoffs
 
-Beyond Noise Gates: Complementary Techniques
+Beyond Noise Gates - Complementary Techniques
 
 While noise gates solve many problems, combining multiple approaches produces superior results:
 
@@ -195,7 +195,7 @@ Attack time effects:
 - 10 ms: Softer attack; slight syllable clipping on plosives
 - 20+ ms: Noticeable speech cutoff; not recommended
 
-Rule of thumb: Start at 5 ms, adjust if hearing problems.
+Rule of thumb - Start at 5 ms, adjust if hearing problems.
 
 Hold time effects:
 - 50 ms: Gate closes immediately after breath pauses; pumping audible
@@ -203,7 +203,7 @@ Hold time effects:
 - 200+ ms: Smooth but delayed gate closure
 - 300+ ms: Becomes sloppy; background noise bleeds through
 
-Rule of thumb: Match hold time to your speaking rhythm. Listen for rhythmic pumping; if you hear it, increase hold time.
+Rule of thumb - Match hold time to your speaking rhythm. Listen for rhythmic pumping; if you hear it, increase hold time.
 
 Release time effects:
 - 50 ms: Abrupt cutoff creates audible clicks
@@ -211,18 +211,18 @@ Release time effects:
 - 200-250 ms: Works well for standard speech
 - 300+ ms: Very smooth but lets noise persist
 
-Rule of thumb: Longer release (200+ ms) works better for recording; shorter release (100-150 ms) for live calls.
+Rule of thumb - Longer release (200+ ms) works better for recording; shorter release (100-150 ms) for live calls.
 
 Dynamic Threshold Adjustment for Varying Environments
 
 Some noise gate implementations support dynamic thresholds that adapt to background noise levels:
 
-Scenario: Your office HVAC runs during morning but stops afternoons
+Scenario - Your office HVAC runs during morning but stops afternoons
 
 Instead of manual adjustment:
 ```
-Morning threshold: -32 dB (higher to handle HVAC)
-Afternoon threshold: -40 dB (lower for quieter environment)
+Morning threshold - -32 dB (higher to handle HVAC)
+Afternoon threshold - -40 dB (lower for quieter environment)
 ```
 
 Use adaptive gates if your background noise varies significantly throughout the day. Most software gates don't support this; you'll manually adjust instead.
@@ -233,7 +233,7 @@ Noise gate effectiveness depends partly on microphone proximity:
 
 Optimal Blue Yeti Positioning
 
-Distance from mouth: 6-12 inches (15-30 cm)
+Distance from mouth - 6-12 inches (15-30 cm)
 - Too close (2-4 inches): Plosive sounds (P, B, K) cause gate issues
 - Optimal (6-10 inches): Direct sound loud relative to background noise
 - Too far (24+ inches): Background noise becomes as loud as voice
@@ -269,9 +269,9 @@ Set Blue Yeti gain to middle position (0 dB); verify voice is strong but not cli
 
 Troubleshooting Common Noise Gate Problems
 
-Problem 1: Gate Cuts Off Word Beginnings
+Problem 1 - Gate Cuts Off Word Beginnings
 
-Symptoms: "Starting" becomes "_tarting" (S is clipped)
+Symptoms - "Starting" becomes "_tarting" (S is clipped)
 
 Causes:
 - Attack time too fast (attacking before full syllable)
@@ -282,9 +282,9 @@ Solutions:
 - Lower threshold by 3-5 dB
 - Speak slightly louder/closer to microphone
 
-Problem 2: Gate Closes During Speech Causing Breaks
+Problem 2 - Gate Closes During Speech Causing Breaks
 
-Symptoms: Words drop out mid-sentence; gate keeps opening/closing
+Symptoms - Words drop out mid-sentence; gate keeps opening/closing
 
 Causes:
 - Threshold too high (gate keeps closing between syllables)
@@ -295,9 +295,9 @@ Solutions:
 - Increase hold time to 150-200 ms
 - Check gain setting (increase if voice is weak)
 
-Problem 3: Background Noise Still Audible
+Problem 3 - Background Noise Still Audible
 
-Symptoms: HVAC hum, keyboard clicks, or room noise persist
+Symptoms - HVAC hum, keyboard clicks, or room noise persist
 
 Causes:
 - Threshold too low (doesn't block background noise)
@@ -309,9 +309,9 @@ Solutions:
 - Add acoustic treatment near microphone
 - Check microphone gain isn't too high (amplifying background noise)
 
-Problem 4: Gate "Pumps". Audible Volume Changes Between Words
+Problem 4 - Gate "Pumps". Audible Volume Changes Between Words
 
-Symptoms: Audio gets quieter between words then louder when you speak; rhythmic effect
+Symptoms - Audio gets quieter between words then louder when you speak; rhythmic effect
 
 Causes:
 - Hold and release times too short
@@ -323,9 +323,9 @@ Solutions:
 - Lower threshold slightly
 - Speak with more consistent volume
 
-Problem 5: Breath Noise Keeps Getting Through
+Problem 5 - Breath Noise Keeps Getting Through
 
-Symptoms: Can hear breathing between words
+Symptoms - Can hear breathing between words
 
 Causes:
 - Threshold too low (allowing quiet sounds)
@@ -341,7 +341,7 @@ Software Gate vs. Hardware Gate
 
 Software Gates (Most Common)
 
-Used in: OBS Studio, Voicemeeter, audio plugins, streaming software
+Used in - OBS Studio, Voicemeeter, audio plugins, streaming software
 
 Advantages:
 - No additional hardware needed
@@ -354,7 +354,7 @@ Disadvantages:
 - Adds slight latency (typically <10 ms, unnoticeable)
 - Requires software (can't use across all applications)
 
-Best for: Video calls, streaming, content creation where you control the output
+Best for - Video calls, streaming, content creation where you control the output
 
 Hardware Gates (Rare for USB Mics)
 
@@ -370,7 +370,7 @@ Not recommended for Blue Yeti. software gating is simpler and more cost-effectiv
 
 Real-World Profiles for Different Users
 
-Profile 1: Quiet Home Office Developer
+Profile 1 - Quiet Home Office Developer
 
 Environment:
 - Dedicated home office
@@ -380,16 +380,16 @@ Environment:
 
 Recommended settings:
 ```
-Threshold: -45 dB (sensitive)
-Attack: 5 ms
-Hold: 100 ms
-Release: 100 ms
-Range: -60 dB
+Threshold - -45 dB (sensitive)
+Attack - 5 ms
+Hold - 100 ms
+Release - 100 ms
+Range - -60 dB
 ```
 
-Why: Can afford sensitive gate since background noise is low. Fast release sounds clean.
+Why - Can afford sensitive gate since background noise is low. Fast release sounds clean.
 
-Profile 2: Open Office or Shared Space
+Profile 2 - Open Office or Shared Space
 
 Environment:
 - Shared workspace with others
@@ -399,16 +399,16 @@ Environment:
 
 Recommended settings:
 ```
-Threshold: -32 dB (less sensitive)
-Attack: 5 ms
-Hold: 150 ms
-Release: 200 ms
-Range: -80 dB
+Threshold - -32 dB (less sensitive)
+Attack - 5 ms
+Hold - 150 ms
+Release - 200 ms
+Range - -80 dB
 ```
 
-Why: Less sensitive threshold prevents background noise. Longer release prevents choppy cutoffs from variable background.
+Why - Less sensitive threshold prevents background noise. Longer release prevents choppy cutoffs from variable background.
 
-Profile 3: Parent Working from Home
+Profile 3 - Parent Working from Home
 
 Environment:
 - Kids playing in background
@@ -418,16 +418,16 @@ Environment:
 
 Recommended settings:
 ```
-Threshold: -28 dB (insensitive)
-Attack: 3 ms
-Hold: 200 ms
-Release: 250 ms
-Range: -80 dB
+Threshold - -28 dB (insensitive)
+Attack - 3 ms
+Hold - 200 ms
+Release - 250 ms
+Range - -80 dB
 ```
 
-Why: Aggressive threshold prevents kid noise. Long hold and release keep gate smooth despite variable activity.
+Why - Aggressive threshold prevents kid noise. Long hold and release keep gate smooth despite variable activity.
 
-Profile 4: Podcaster/Content Creator
+Profile 4 - Podcaster/Content Creator
 
 Environment:
 - Dedicated recording space
@@ -437,14 +437,14 @@ Environment:
 
 Recommended settings:
 ```
-Threshold: -42 dB (sensitive)
-Attack: 2 ms
-Hold: 150 ms
-Release: 150 ms
-Range: -70 dB
+Threshold - -42 dB (sensitive)
+Attack - 2 ms
+Hold - 150 ms
+Release - 150 ms
+Range - -70 dB
 ```
 
-Why: Clean, transparent sound for production. Can afford sensitive gate with quiet space.
+Why - Clean, transparent sound for production. Can afford sensitive gate with quiet space.
 
 Integration with Complete Audio Chain
 
@@ -472,21 +472,21 @@ Multi-Stage Approach for Maximum Clarity
 
 For professional quality, use multiple techniques:
 
-Stage 1: Passive (Acoustic treatment)
+Stage 1 - Passive (Acoustic treatment)
 - Foam panels around microphone
 - Reduces background noise 30-50%
 
-Stage 2: Microphone technique
+Stage 2 - Microphone technique
 - Proper distance (6-10 inches)
 - Off-axis positioning
 - Reduces background noise by 40-60%
 
-Stage 3: Noise gate (This article's focus)
+Stage 3 - Noise gate (This article's focus)
 - Eliminates remaining background noise
 - Plus high-pass filter removes rumble
 - Reduces background noise by 80%+
 
-Stage 4: Post-processing (Compression/EQ)
+Stage 4 - Post-processing (Compression/EQ)
 - Final tonal optimization
 - Makes voice sit well in mix
 

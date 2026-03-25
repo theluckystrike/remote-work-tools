@@ -19,8 +19,8 @@ Distributed tracing shows you where time goes across service boundaries. Jaeger 
 
 Table of Contents
 
-- [Development: Jaeger All-in-One](#development-jaeger-all-in-one)
-- [Production: Docker Compose with Elasticsearch](#production-docker-compose-with-elasticsearch)
+- [Development - Jaeger All-in-One](#development-jaeger-all-in-one)
+- [Production - Docker Compose with Elasticsearch](#production-docker-compose-with-elasticsearch)
 - [Instrumenting a Python Service](#instrumenting-a-python-service)
 - [Instrumenting a Node.js Service](#instrumenting-a-nodejs-service)
 - [Manual Span Creation](#manual-span-creation)
@@ -33,7 +33,7 @@ Table of Contents
 - [Alerting on Trace Anomalies](#alerting-on-trace-anomalies)
 - [Correlating Traces with Logs](#correlating-traces-with-logs)
 
-Development: Jaeger All-in-One
+Development - Jaeger All-in-One
 
 ```bash
 Quick start for development. all components in one container
@@ -57,7 +57,7 @@ Open Jaeger UI
 open http://localhost:16686
 ```
 
-Production: Docker Compose with Elasticsearch
+Production - Docker Compose with Elasticsearch
 
 ```yaml
 docker-compose.yml
@@ -243,7 +243,7 @@ process.on('SIGTERM', () => sdk.shutdown());
 Manual Span Creation
 
 ```python
-Python: add custom spans for business logic
+Python - add custom spans for business logic
 from opentelemetry import trace
 
 tracer = trace.get_tracer(__name__)
@@ -310,9 +310,9 @@ datasources:
 In Grafana dashboards, add a trace panel:
 
 ```
-Panel Type: Traces
-Data Source: Jaeger
-Query: { service="order-service" }
+Panel Type - Traces
+Data Source - Jaeger
+Query - { service="order-service" }
 ```
 
 Trace Sampling Configuration
@@ -393,7 +393,7 @@ Adding Context Propagation Across Queues
 Auto-instrumentation handles HTTP calls automatically, but message queues require explicit context propagation. Here is a pattern for RabbitMQ using the W3C TraceContext format:
 
 ```python
-Producer: inject trace context into message headers
+Producer - inject trace context into message headers
 from opentelemetry import trace, propagate
 from opentelemetry.trace.propagation.tracecontext import TraceContextTextMapPropagator
 
@@ -417,7 +417,7 @@ def publish_order_event(channel, order_id: str, payload: dict):
 ```
 
 ```python
-Consumer: extract trace context from message headers
+Consumer - extract trace context from message headers
 def process_message(channel, method, properties, body):
     tracer = trace.get_tracer(__name__)
     ctx = propagate.extract(properties.headers or {})

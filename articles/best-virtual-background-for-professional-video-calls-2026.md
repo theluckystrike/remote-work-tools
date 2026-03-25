@@ -23,7 +23,7 @@ Table of Contents
 - [Built-in Platform Solutions](#built-in-platform-solutions)
 - [Dedicated Virtual Background Software](#dedicated-virtual-background-software)
 - [Physical Green Screen Setup](#physical-green-screen-setup)
-- [Comparison Table: Virtual Background Solutions](#comparison-table-virtual-background-solutions)
+- [Comparison Table - Virtual Background Solutions](#comparison-table-virtual-background-solutions)
 - [Lighting Fundamentals for Virtual Backgrounds](#lighting-fundamentals-for-virtual-backgrounds)
 - [Testing Your Background Setup](#testing-your-background-setup)
 - [Recommended Background Choices](#recommended-background-choices)
@@ -72,11 +72,11 @@ Limitations:
 - Processor-intensive on older machines
 - Background replacement can lag on slower computers
 
-Ideal for: Occasional video calls, internal meetings, teams without specific branding requirements.
+Ideal for - Occasional video calls, internal meetings, teams without specific branding requirements.
 
-Cost: Free (included with all Zoom plans).
+Cost - Free (included with all Zoom plans).
 
-Performance: On modern devices (2020+), minimal CPU impact. On older machines (2015 or earlier), may cause video lag.
+Performance - On modern devices (2020+), minimal CPU impact. On older machines (2015 or earlier), may cause video lag.
 
 Microsoft Teams Virtual Background
 
@@ -92,7 +92,7 @@ Strengths:
 - Free with Teams (Microsoft 365 subscription)
 - Blurs or replaces background
 - Blur option (don't replace, just blur background) for less processing
-- Integrates with Microsoft ecosystem
+- Integrates with Microsoft environment
 - Better performance than Zoom on Windows
 
 Limitations:
@@ -101,9 +101,9 @@ Limitations:
 - Requires subscription to Microsoft 365
 - Blur effect less effective than replacement on very cluttered backgrounds
 
-Ideal for: Enterprise Teams users, internal meetings, companies already on Microsoft 365.
+Ideal for - Enterprise Teams users, internal meetings, companies already on Microsoft 365.
 
-Cost: Included with Microsoft 365 Business or Enterprise plans (~$6-25/month per user).
+Cost - Included with Microsoft 365 Business or Enterprise plans (~$6-25/month per user).
 
 Dedicated Virtual Background Software
 
@@ -136,11 +136,11 @@ Limitations:
 - Camera dropdown selection (slightly annoying workflow)
 - Not built into any platform (one more tool to manage)
 
-Ideal for: Professionals on multiple platforms, content creators, anyone doing frequent video work.
+Ideal for - Professionals on multiple platforms, content creators, anyone doing frequent video work.
 
-Cost: Free basic tier, $4.99/month for premium, $9.99/month for ChromaCam Pro.
+Cost - Free basic tier, $4.99/month for premium, $9.99/month for ChromaCam Pro.
 
-Performance: Excellent. Low CPU usage compared to platform-native solutions. Handles 4K and high frame rates smoothly.
+Performance - Excellent. Low CPU usage compared to platform-native solutions. Handles 4K and high frame rates smoothly.
 
 mmhmm
 
@@ -171,11 +171,11 @@ Limitations:
 - Expensive for occasional use ($150+/year)
 - Requires performance-capable computer
 
-Ideal for: Content creators, sales presentations, executives doing frequent video, training sessions, webinars.
+Ideal for - Content creators, sales presentations, executives doing frequent video, training sessions, webinars.
 
-Cost: $20/month or $150/year.
+Cost - $20/month or $150/year.
 
-Performance: Moderate CPU usage. Requires modern computer for smooth operation.
+Performance - Moderate CPU usage. Requires modern computer for smooth operation.
 
 Physical Green Screen Setup
 
@@ -203,7 +203,7 @@ Hardware Components:
  - Angle: Directly facing (not angled)
  - Lighting: Evenly lit, no shadows on screen
 
-Total Cost: $200-400 for basic setup, $500-1000 for professional quality.
+Total Cost - $200-400 for basic setup, $500-1000 for professional quality.
 
 Advantages:
 - Perfect edge detection (no fuzzy hair edges)
@@ -219,9 +219,9 @@ Disadvantages:
 - Maintenance (wrinkles in backdrop affect quality)
 - Only practical for fixed-location video work
 
-Ideal for: Full-time broadcasters, streaming content creators, executives doing regular webinars.
+Ideal for - Full-time broadcasters, streaming content creators, executives doing regular webinars.
 
-Comparison Table: Virtual Background Solutions
+Comparison Table - Virtual Background Solutions
 
 | Solution | Cost | Best For | Edge Quality | CPU Impact | Platform Support |
 |---|---|---|---|---|---|
@@ -250,7 +250,7 @@ Backlight (Optional but recommended):
 - Distance: 4-5 feet away
 - Purpose: Separate you from background, add dimension
 
-Positioning tip: Lights in front of you (never behind). Position at eye level or slightly above. Avoid overhead lighting (creates unflattering shadows).
+Positioning tip - Lights in front of you (never behind). Position at eye level or slightly above. Avoid overhead lighting (creates unflattering shadows).
 
 Recommended lighting kits:
 - Budget: Neewer 2-light kit (~$50)
@@ -264,9 +264,9 @@ Testing Your Background Setup
 Before important calls, test your setup:
 
 1. Edge quality: Move around, gesture. Check for fuzzy edges, background showing through hair.
-2. Lighting: Ensure face is evenly lit, no harsh shadows.
-3. Movement: Walk around on camera. Check if background jiggles or shifts.
-4. Performance: Check CPU usage. If video lags, reduce background complexity or upgrade settings.
+2. Lighting - Ensure face is evenly lit, no harsh shadows.
+3. Movement - Walk around on camera. Check if background jiggles or shifts.
+4. Performance - Check CPU usage. If video lags, reduce background complexity or upgrade settings.
 
 Most platforms let you preview before starting the call. Always do this before client presentations.
 
@@ -314,7 +314,7 @@ CPU and Performance Impact
 
 Measuring real CPU usage for background removal:
 
-Test setup: Apple MacBook M1 (2021), 1080p 30fps video
+Test setup - Apple MacBook M1 (2021), 1080p 30fps video
 
 - Zoom virtual background: 8-12% CPU
 - Teams virtual background: 6-10% CPU
@@ -346,19 +346,19 @@ Before your first professional video call:
 
 Common Issues and Fixes
 
-Issue: Background jiggles or shifts
+Issue - Background jiggles or shifts
 - Cause: Insufficient light or camera movement
 - Fix: Improve lighting, stabilize camera on tripod
 
-Issue: Hair edges are fuzzy
+Issue - Hair edges are fuzzy
 - Cause: Low lighting, edge detection sensitivity too high
 - Fix: Improve lighting, adjust sensitivity in settings
 
-Issue: Video lags
+Issue - Video lags
 - Cause: CPU overloaded
 - Fix: Reduce resolution, close other apps, switch to built-in solution
 
-Issue: Background looks unrealistic
+Issue - Background looks unrealistic
 - Cause: Mismatch between lighting and background image
 - Fix: Use backgrounds lit similarly to your room, or use blur instead
 
@@ -382,7 +382,7 @@ nettop -P -n -l 1 | sort -k3 -rn | head -10
 sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder
 
 5. Force 5GHz WiFi band (avoid 2.4GHz congestion)
-In macOS: System Settings > Network > WiFi > Preferred Networks
+In macOS - System Settings > Network > WiFi > Preferred Networks
 Move your 5GHz SSID to the top of the list
 ```
 

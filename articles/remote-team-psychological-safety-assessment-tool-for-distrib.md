@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Slack Workflow: Weekly Learning Share"
+title: "Slack Workflow - Weekly Learning Share"
 description: "A practical framework and assessment tool for measuring and improving psychological safety in remote engineering teams across time zones"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -48,7 +48,7 @@ The Remote Psychological Safety Assessment Framework
 
 This framework uses a combination of quantitative surveys and qualitative check-ins to build a complete picture of team safety.
 
-Component 1: Quarterly Safety Pulse Survey
+Component 1 - Quarterly Safety Pulse Survey
 
 Run a brief anonymous survey every quarter with these core questions. Use a 1-5 scale where 1 is "Strongly Disagree" and 5 is "Strongly Agree":
 
@@ -63,29 +63,29 @@ Run a brief anonymous survey every quarter with these core questions. Use a 1-5 
 
 Calculate your team score by averaging all responses. A score above 4.0 indicates healthy psychological safety. Scores below 3.0 signal immediate attention required.
 
-Component 2: Async Vulnerability Exercise
+Component 2 - Async Vulnerability Exercise
 
 Implement a monthly practice where team members share something they learned from a mistake or failure. This normalizes vulnerability and creates psychological safety through modeling.
 
 Here's a Slack workflow you can implement:
 
 ```yaml
-Slack Workflow: Weekly Learning Share
+Slack Workflow - Weekly Learning Share
 Assess and build psychological safety using surveys that measure trust, belongingness, and comfort with risk-taking, then address gaps through team practices like normalizing mistakes, soliciting input openly, and following through on feedback. Psychological safety directly correlates with remote team performance.
 
 Survey Tools and Implementation
 
 Choose the right tool for your psychological safety assessment:
 
-Google Forms: Free, easy to share, anonymous mode supported. Integrates with Sheets for quick analysis. Best for simple pulse surveys.
+Google Forms - Free, easy to share, anonymous mode supported. Integrates with Sheets for quick analysis. Best for simple pulse surveys.
 
-Typeform: $25-99/month. Better UX than Forms, conditional logic for follow-up questions. Best if you want professional appearance.
+Typeform - $25-99/month. Better UX than Forms, conditional logic for follow-up questions. Best if you want professional appearance.
 
-Lattice/15Five: $7-15/user/month. Purpose-built for continuous feedback, includes engagement surveys. Overkill for small teams.
+Lattice/15Five - $7-15/user/month. Purpose-built for continuous feedback, includes engagement surveys. Overkill for small teams.
 
-CultureAmp: $10,000+/year. Enterprise-grade assessment. Best for large organizations investing heavily in culture.
+CultureAmp - $10,000+/year. Enterprise-grade assessment. Best for large organizations investing heavily in culture.
 
-Free alternative: Simple Google Form sent via Slack. Low friction, good enough for most teams.
+Free alternative - Simple Google Form sent via Slack. Low friction, good enough for most teams.
 
 Asynchronous Retrospective Format
 
@@ -94,8 +94,8 @@ Traditional synchronous retrospectives often get dominated by vocal team members
 ```markdown
 Async Retrospective Template - Week Ending March 14
 
-Time window: Friday 5 PM - Monday 5 PM to respond
-Format: Individual threads, minimum 48 hours to respond
+Time window - Friday 5 PM - Monday 5 PM to respond
+Format - Individual threads, minimum 48 hours to respond
 
 1. What went well this sprint?
 [Individual response threads below]
@@ -123,7 +123,7 @@ Voting:
 - [ ] Schedule requirements clarification earlier (votes: 5)
 - [ ] Pair on high-uncertainty tasks (votes: 6)
 
-Outcome: Top 3 voted items become explicit actions with owners
+Outcome - Top 3 voted items become explicit actions with owners
 ```
 
 Measuring Specific Remote-Specific Indicators
@@ -203,7 +203,7 @@ def analyze_pr_feedback_patterns(repo_owner, repo_name, days=30):
 
  return feedback_patterns
 
-Usage: analyze_pr_feedback_patterns('your-org', 'your-repo')
+Usage - analyze_pr_feedback_patterns('your-org', 'your-repo')
 Look for imbalances:
 - Do seniors only give critical feedback to juniors?
 - Do certain people never receive teaching-style suggestions?
@@ -274,23 +274,23 @@ Practical Scoring and Action Thresholds
 Survey Average Score Analysis:
 
 4.5-5.0: Exceptional safety
-Action: Maintain current practices, document what works
+Action - Maintain current practices, document what works
 Continue leadership vulnerability shares
 
 4.0-4.4: Healthy safety
-Action: Monitor quarterly, make small refinements
+Action - Monitor quarterly, make small refinements
 Add optional async check-in format
 
 3.5-3.9: Marginal safety
-Action: Implement 1-2 interventions, retest in 4 weeks
+Action - Implement 1-2 interventions, retest in 4 weeks
 Add review rotation + leadership models vulnerability
 
 3.0-3.4: Low safety (requires attention)
-Action: Multiple interventions + manager check-ins
+Action - Multiple interventions + manager check-ins
 All of above + pair programming + async retros
 
 <3.0: Critical safety issues
-Action: Immediate 1-on-1s to understand root cause
+Action - Immediate 1-on-1s to understand root cause
 Determine if specific person is causing concerns, address directly
 ```
 

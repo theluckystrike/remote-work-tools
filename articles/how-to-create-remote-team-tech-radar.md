@@ -27,7 +27,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Four Quadrants and Rings
+Step 1 - The Four Quadrants and Rings
 
 Thoughtworks format uses four quadrants and four rings:
 
@@ -45,7 +45,7 @@ Rings:
   HOLD    . Pause new adoption; not recommended
 ```
 
-Step 2: Option A: Static Generator (No Infrastructure)
+Step 2 - Option A: Static Generator (No Infrastructure)
 
 The `build-your-own-radar` tool from Thoughtworks reads a CSV and generates an interactive radar.
 
@@ -87,7 +87,7 @@ npm run build
 Copy dist/ to your GitHub Pages repo
 ```
 
-Step 3: Option B: Backstage Tech Radar Plugin
+Step 3 - Option B: Backstage Tech Radar Plugin
 
 If you're already running Backstage:
 
@@ -169,7 +169,7 @@ export const techRadarLoader = async (): Promise<TechRadarLoaderResponse> => {
 }
 ```
 
-Step 4: Contributing Process for Remote Teams
+Step 4 - Contributing Process for Remote Teams
 
 The radar is most valuable when the whole team contributes. Use a GitHub PR workflow:
 
@@ -185,11 +185,11 @@ PR template for radar changes:
 
 ```markdown
 <!-- .github/PULL_REQUEST_TEMPLATE/radar_entry.md -->
-Step 5: Tech Radar Entry
+Step 5 - Tech Radar Entry
 
-Technology: [name]
-Proposed ring: ADOPT / TRIAL / ASSESS / HOLD
-Quadrant: Languages & Frameworks / Platforms / Tools / Techniques
+Technology - [name]
+Proposed ring - ADOPT / TRIAL / ASSESS / HOLD
+Quadrant - Languages & Frameworks / Platforms / Tools / Techniques
 
 Context
 Why is this relevant to our team right now?
@@ -204,7 +204,7 @@ Risks / Concerns
 What should we watch out for?
 ```
 
-Step 6: Automated Publishing
+Step 6 - Automated Publishing
 
 ```yaml
 .github/workflows/radar.yml
@@ -241,14 +241,14 @@ jobs:
           publish_branch: gh-pages
 ```
 
-Step 7: Radar Review Cadence
+Step 7 - Radar Review Cadence
 
 Schedule a quarterly async radar review:
 
 ```markdown
 Tech Radar Review. Q2 2026
 
-Format: Async-first (GitHub PR comments), 30-min sync to resolve disagreements
+Format - Async-first (GitHub PR comments), 30-min sync to resolve disagreements
 
 Timeline:
 - Week 1: Submit PRs for new entries or ring changes
@@ -262,14 +262,14 @@ Questions to answer per entry:
 3. Does the ring still reflect our actual usage?
 ```
 
-Step 8: Ring Change Log
+Step 8 - Ring Change Log
 
 Track changes in `CHANGELOG.md` alongside the radar:
 
 ```markdown
 Radar Changelog
 
-Step 9: 2026-Q2
+Step 9 - 2026-Q2
 
 Moved to ADOPT
 - Bruno (Tools). API testing with git-stored collections.
@@ -285,10 +285,10 @@ Moved to HOLD
   Replaced with Cloudflare Workers for edge logic.
 
 New ASSESS entries
-- Bun (Languages). Node.js alternative, watching for ecosystem maturity.
+- Bun (Languages). Node.js alternative, watching for environment maturity.
 ```
 
-Step 10: Deciding What Goes on the Radar
+Step 10 - Deciding What Goes on the Radar
 
 Not everything belongs on a tech radar. A common mistake is listing every library, every SaaS tool, and every language variant. the radar becomes noise and engineers stop consulting it. Apply a filter:
 
@@ -305,7 +305,7 @@ Exclude if:
 
 When in doubt, write it as an ADR first. If the ADR matters enough to reference repeatedly, promote it to the radar.
 
-Step 11: Linking the Radar to ADRs
+Step 11 - Linking the Radar to ADRs
 
 Tech radar entries gain credibility when backed by an Architectural Decision Record. Add an `adr` field to your CSV:
 
@@ -329,7 +329,7 @@ When the Backstage plugin renders entries, the `description` field can include a
 
 This creates a traceable audit trail: you can always read the original reasoning behind a ring placement, not just the current recommendation.
 
-Step 12: Run Your First Radar Session
+Step 12 - Run Your First Radar Session
 
 The first time a team builds a radar, the session often stalls because nobody is sure what ring to assign to a technology they have mixed feelings about. Use this facilitation format for remote teams:
 
@@ -347,7 +347,7 @@ Skip consensus items. Only discuss the flagged disagreements. Use a simple rule:
 Publish and celebrate (Week 2):
 Merge the PR. Post the radar link in `#engineering`. Make the first publication a moment. it signals that the team takes technology decisions seriously enough to write them down.
 
-Step 13: Measuring Radar Effectiveness
+Step 13 - Measuring Radar Effectiveness
 
 After two quarters, ask these questions to evaluate whether the radar is working:
 

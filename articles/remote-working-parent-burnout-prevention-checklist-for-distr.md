@@ -217,19 +217,19 @@ Core Hours: 10 AM - 2 PM local time (non-negotiable)
 - All synchronous decisions made here
 - Full focus, no background childcare
 
-Extended Window: 8 AM - 4 PM local time (best effort)
+Extended Window - 8 AM - 4 PM local time (best effort)
 - Async work, email, Slack responses
 - One parent pickup or interruption typically happens here
 - Not guaranteed availability but usually covered
 
-Outside Core: Before 8 AM, after 4 PM
+Outside Core - Before 8 AM, after 4 PM
 - No expectation of availability
 - No meetings scheduled
 - This is when many working parents catch up (after bedtime)
 - Explicitly discourage usage to prevent expectation creep
 ```
 
-The brilliance of this model: teams only need two hours of guaranteed sync overlap. Four-hour core windows can be scheduled around school calendars, daycare pickups, and sick days. The parent can do deep work outside core hours when childcare is arranged.
+The brilliance of this model - teams only need two hours of guaranteed sync overlap. Four-hour core windows can be scheduled around school calendars, daycare pickups, and sick days. The parent can do deep work outside core hours when childcare is arranged.
 
 Workload Adjustment for School Calendar Events
 
@@ -238,31 +238,31 @@ Remote working parents face recurring disruptions that are entirely predictable.
 ```
 School Calendar Events (US Example):
 
-January-August: Regular school year
+January-August - Regular school year
 - Standard project planning and deadlines
 
-September-early October: Back to school / start of year
+September-early October - Back to school / start of year
 - Reduce planned story points by 20%
 - Avoid starting major projects
 - Increase focus on team stability and tech debt
 
-November: Thanksgiving week
+November - Thanksgiving week
 - Full week likely contains 2-3 reduced-capacity days
 - Plan accordingly; don't schedule critical deadlines
 
-December: Winter break
+December - Winter break
 - Plan for 50% capacity mid-December through Jan 2
 - Do planning, documentation, refactoring instead
 
-Late March-early April: Spring break
+Late March-early April - Spring break
 - Week of reduced availability for many
 - Plan buffer into deadlines
 
-May-June: End of school year
+May-June - End of school year
 - Increase interruptions as school year winds down
 - Be flexible on late-arriving fixes
 
-July: Summer camps, family travel
+July - Summer camps, family travel
 - Can range from semi-sabbatical to normal
 - Get explicit availability from each parent
 ```
@@ -274,12 +274,12 @@ One-on-One Conversation Template for Managers
 When speaking with a team member who shows burnout signals, use this template to diagnose without judgment:
 
 ```
-Opening: "I've noticed some changes in [specific observation: response times, energy, etc.].
+Opening - "I've noticed some changes in [specific observation: response times, energy, etc.].
           I wanted to check in and see how things are going."
 
-Listen: Let them speak first. Don't offer solutions immediately.
+Listen - Let them speak first. Don't offer solutions immediately.
 
-Diagnose: "Are you feeling stretched thin with work + family? That's a pattern I've noticed
+Diagnose - "Are you feeling stretched thin with work + family? That's a pattern I've noticed
           in our team structure that we should address."
 
 Offer tools:
@@ -288,15 +288,15 @@ Offer tools:
   - "What would help you protect your focus time?"
   - "Do you need to change your meeting load?"
 
-Commit to action: Don't leave with "we'll figure it out." Make a specific change:
+Commit to action - Don't leave with "we'll figure it out." Make a specific change:
   - "I'm removing you from the daily standup, we'll use async updates instead"
   - "You're off the on-call rotation for the next quarter"
   - "Let's reduce your sprint commitment to 70% story points"
 
-Follow up: "I'll check in next week to see if this helps. We can adjust if needed."
+Follow up - "I'll check in next week to see if this helps. We can adjust if needed."
 ```
 
-The key: make concrete changes immediately, not promises to "think about it."
+The key - make concrete changes immediately, not promises to "think about it."
 
 Metrics Dashboard for Parent Team Health
 
@@ -332,7 +332,7 @@ Explicit Language Around Parental Leave and Coverage
 Many remote parents feel guilty taking time off for childcare. Address this culturally:
 
 ```markdown
-Team Policy: Parental Responsibilities
+Team Policy - Parental Responsibilities
 
 Sick Child Days
 - Treat the same as your own sick day

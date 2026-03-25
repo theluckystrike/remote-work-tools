@@ -21,14 +21,14 @@ The best meeting room booking system for most hybrid offices in 2026 is Robin fo
 Table of Contents
 
 - [Why Hybrid Offices Need Dedicated Booking Systems](#why-hybrid-offices-need-dedicated-booking-systems)
-- [Robin: The Platform](#robin-the-platform)
-- [Conductor: Microsoft 365 Native](#conductor-microsoft-365-native)
-- [OfficeSpace: Budget-Friendly Reliability](#officespace-budget-friendly-reliability)
-- [Teem: Salesforce Integration Advantage](#teem-salesforce-integration-advantage)
+- [Robin - The Platform](#robin-the-platform)
+- [Conductor - Microsoft 365 Native](#conductor-microsoft-365-native)
+- [OfficeSpace - Budget-Friendly Reliability](#officespace-budget-friendly-reliability)
+- [Teem - Salesforce Integration Advantage](#teem-salesforce-integration-advantage)
 - [Making the Right Choice](#making-the-right-choice)
 - [Implementation Best Practices](#implementation-best-practices)
-- [Detailed Platform Comparison: Feature Parity Analysis](#detailed-platform-comparison-feature-parity-analysis)
-- [Cost Analysis: Total Cost of Ownership](#cost-analysis-total-cost-of-ownership)
+- [Detailed Platform Comparison - Feature Parity Analysis](#detailed-platform-comparison-feature-parity-analysis)
+- [Cost Analysis - Total Cost of Ownership](#cost-analysis-total-cost-of-ownership)
 - [Common Implementation Mistakes](#common-implementation-mistakes)
 - [Measuring Implementation Success](#measuring-implementation-success)
 - [Post-Launch Optimization (Months 2, 6)](#post-launch-optimization-months-26)
@@ -40,9 +40,9 @@ Hybrid work fundamentally changes how office space gets used. When employees spl
 
 The financial stakes are substantial. A poorly managed meeting room wastes approximately $1,200 per year in lost productivity per employee who can't find suitable space. Conversely, proper space use data can inform real estate decisions saving hundreds of thousands of dollars annually for mid-sized companies.
 
-Robin: The Platform
+Robin - The Platform
 
-Robin dominates the meeting room booking space for hybrid offices because it handles the entire ecosystem, desks, rooms, and parking, with unified management. The platform integrates with all major calendar systems and provides real-time occupancy sensors for accurate availability tracking.
+Robin dominates the meeting room booking space for hybrid offices because it handles the entire environment, desks, rooms, and parking, with unified management. The platform integrates with all major calendar systems and provides real-time occupancy sensors for accurate availability tracking.
 
 Setting up Robin involves installing their hardware sensors and connecting to your calendar infrastructure:
 
@@ -69,11 +69,11 @@ const robinClient = async () => {
 
 Robin's strength lies in its analytics dashboard. You can generate reports showing use patterns by floor, team, or time of day. The platform automatically suggests space optimization opportunities, like identifying consistently underutilized rooms that could be converted to focused work areas.
 
-The main consideration: Robin's pricing scales with features, and advanced analytics require higher tiers. However, the ROI from space optimization typically exceeds costs within the first year.
+The main consideration - Robin's pricing scales with features, and advanced analytics require higher tiers. However, the ROI from space optimization typically exceeds costs within the first year.
 
-Conductor: Microsoft 365 Native
+Conductor - Microsoft 365 Native
 
-For organizations heavily invested in Microsoft's ecosystem, Conductor (formerly Joan) offers the tightest integration with Outlook, Teams, and Microsoft 365 calendars. The setup is remarkably simple, install door-mounted e-paper displays that sync directly with existing calendar invitations.
+For organizations heavily invested in Microsoft's environment, Conductor (formerly Joan) offers the tightest integration with Outlook, Teams, and Microsoft 365 calendars. The setup is remarkably simple, install door-mounted e-paper displays that sync directly with existing calendar invitations.
 
 Conductor's deployment uses minimal infrastructure:
 
@@ -89,9 +89,9 @@ mosquitto_pub -h broker.conductor.io -t "device/serial_number/config" -m '{
 
 The e-paper displays show real-time room availability and upcoming meetings without consuming power for constant screen refreshes. This approach is particularly elegant for companies prioritizing sustainability.
 
-Where Conductor excels: organizations already using Microsoft tools. Where it falls short: teams using Google Workspace or mixed environments will face synchronization challenges.
+Where Conductor excels - organizations already using Microsoft tools. Where it falls short: teams using Google Workspace or mixed environments will face synchronization challenges.
 
-OfficeSpace: Budget-Friendly Reliability
+OfficeSpace - Budget-Friendly Reliability
 
 OfficeSpace Software provides the essential meeting room booking capabilities without enterprise price tags. The platform covers room scheduling, desk booking, and visitor management with straightforward configuration.
 
@@ -114,11 +114,11 @@ The booking widget integrates easily into existing intranets:
 
 OfficeSpace shines for companies with straightforward needs, conference room scheduling without advanced analytics or sensor integrations. The mobile app works reliably, allowing employees to book rooms on the go.
 
-The trade-off: fewer advanced features compared to Robin or Conductor, but significantly lower cost of entry.
+The trade-off - fewer advanced features compared to Robin or Conductor, but significantly lower cost of entry.
 
-Teem: Salesforce Integration Advantage
+Teem - Salesforce Integration Advantage
 
-Teem (now part of Salesforce) targets organizations wanting to use their existing Salesforce investment. The platform integrates meeting room booking with Salesforce's broader ecosystem of customer relationship management and workplace management tools.
+Teem (now part of Salesforce) targets organizations wanting to use their existing Salesforce investment. The platform integrates meeting room booking with Salesforce's broader environment of customer relationship management and workplace management tools.
 
 For companies already paying for Salesforce licenses, Teem's incremental cost often makes economic sense:
 
@@ -146,7 +146,7 @@ const teemAvailability = async (startTime, endTime, buildingId) => {
 };
 ```
 
-Teem's strength is data unification, meeting data flows into Salesforce reports alongside customer and sales data, providing holistic views of how space relates to business outcomes.
+Teem's strength is data unification, meeting data flows into Salesforce reports alongside customer and sales data, providing complete views of how space relates to business outcomes.
 
 Making the Right Choice
 
@@ -156,27 +156,27 @@ Consider these decision factors:
 
 Integration requirements: List your current calendar, SSO, and workplace tools. Choose a system with native integrations to reduce implementation complexity.
 
-Analytics depth: If space optimization data informs real estate decisions, Robin's analytics justify higher investment. Basic booking needs work with simpler solutions.
+Analytics depth - If space optimization data informs real estate decisions, Robin's analytics justify higher investment. Basic booking needs work with simpler solutions.
 
-User experience: Test the employee-facing interfaces. Booking should take under 10 seconds. Complicated workflows create resistance and informal booking habits.
+User experience - Test the employee-facing interfaces. Booking should take under 10 seconds. Complicated workflows create resistance and informal booking habits.
 
-Scalability: Ensure the platform handles your growth trajectory. Some solutions tier pricing by user count, creating budget surprises as you scale.
+Scalability - Ensure the platform handles your growth trajectory. Some solutions tier pricing by user count, creating budget surprises as you scale.
 
 Implementation Best Practices
 
 Successful deployment requires more than software installation. Follow these practices:
 
-Communicate clearly: Announce the system with clear instructions and benefits. Emphasize how it helps employees rather than monitoring them.
+Communicate clearly - Announce the system with clear instructions and benefits. Emphasize how it helps employees rather than monitoring them.
 
-Start with pilot groups: Deploy to willing early adopters first. Gather feedback and refine processes before company-wide rollout.
+Start with pilot groups - Deploy to willing early adopters first. Gather feedback and refine processes before company-wide rollout.
 
-Establish booking policies: Define rules for maximum meeting duration, buffer times between meetings, and cancellation expectations. Communicate policies clearly.
+Establish booking policies - Define rules for maximum meeting duration, buffer times between meetings, and cancellation expectations. Communicate policies clearly.
 
-Monitor adoption: Track booking completion rates and no-show frequencies. Low adoption often indicates UX problems rather than employee resistance.
+Monitor adoption - Track booking completion rates and no-show frequencies. Low adoption often indicates UX problems rather than employee resistance.
 
-Iterate based on data: Use reports reveal patterns. Use insights to adjust policies, add rooms, or convert spaces.
+Iterate based on data - Use reports reveal patterns. Use insights to adjust policies, add rooms, or convert spaces.
 
-Detailed Platform Comparison: Feature Parity Analysis
+Detailed Platform Comparison - Feature Parity Analysis
 
 API Capabilities Comparison
 
@@ -236,7 +236,7 @@ Teem Mobile:
 
 Robin and OfficeSpace edge out competitors for mobile experience. Conductor's philosophy is different, it minimizes app usage through door displays.
 
-Cost Analysis: Total Cost of Ownership
+Cost Analysis - Total Cost of Ownership
 
 For a 100-person company with 20 meeting rooms:
 
@@ -272,19 +272,19 @@ OfficeSpace is most cost-effective for purely software-based booking. Conductor 
 
 Common Implementation Mistakes
 
-Mistake 1: Copying old ad-hoc policies into the system
+Mistake 1 - Copying old ad-hoc policies into the system
 If your informal policy was "reserve rooms Monday, Wednesday, first-come-Friday," that probably caused chaos. Use the system deployment as an opportunity to establish clearer policies: "All meeting rooms require booking 24 hours in advance, maximum 2 hours per booking unless requested otherwise."
 
-Mistake 2: Implementing without employee feedback
-Survey employees before launching. Ask: "What problems with current room booking frustrate you most?" Your system should solve those specific problems, not just add a new tool.
+Mistake 2 - Implementing without employee feedback
+Survey employees before launching. Ask - "What problems with current room booking frustrate you most?" Your system should solve those specific problems, not just add a new tool.
 
-Mistake 3: Not training facilitators
+Mistake 3 - Not training facilitators
 Meeting organizers need training on how to book rooms that fit their needs. A simple guide reduces confusion and improves system adoption.
 
-Mistake 4: Over-provisioning features
+Mistake 4 - Over-provisioning features
 Robin's analytics are powerful, but most teams don't need advanced reporting in month one. Enable basic features first, add advanced analytics later as you understand your needs.
 
-Mistake 5: Ignoring timezone considerations
+Mistake 5 - Ignoring timezone considerations
 If your company spans timezones, ensure the booking system displays times in participants' local timezones. A meeting booked at "2 PM" should clarify which timezone.
 
 Measuring Implementation Success
@@ -312,23 +312,23 @@ Post-Launch Optimization (Months 2, 6)
 
 Once the system is running well, optimize based on data:
 
-Month 2: Analyze no-show data. If specific rooms have high no-show rates, investigate why (room quality? location? booking policy?).
+Month 2 - Analyze no-show data. If specific rooms have high no-show rates, investigate why (room quality? location? booking policy?).
 
-Month 3: Run a survey asking what could improve the experience. Most feedback identifies small friction points.
+Month 3 - Run a survey asking what could improve the experience. Most feedback identifies small friction points.
 
-Month 4: Adjust booking policies based on usage patterns. If meeting rooms are consistently booked for 30-minute sessions but your policy allows 2 hours, adjust the default booking duration.
+Month 4 - Adjust booking policies based on usage patterns. If meeting rooms are consistently booked for 30-minute sessions but your policy allows 2 hours, adjust the default booking duration.
 
-Month 5: Introduce advanced features (sensor integrations, advanced reporting) based on team needs identified through data.
+Month 5 - Introduce advanced features (sensor integrations, advanced reporting) based on team needs identified through data.
 
-Month 6: Evaluate whether the platform is delivering ROI. Calculate total time saved vs. cost of system. Adjust scope or platform if needed.
+Month 6 - Evaluate whether the platform is delivering ROI. Calculate total time saved vs. cost of system. Adjust scope or platform if needed.
 
 Scaling Beyond Your Initial Deployment
 
 If your hybrid office is successful and you're expanding:
 
-Multi-location: Robin, OfficeSpace, and Teem all handle multiple locations well. Conductor requires more complex hardware deployment. Choose your platform partially based on whether expansion is anticipated.
+Multi-location - Robin, OfficeSpace, and Teem all handle multiple locations well. Conductor requires more complex hardware deployment. Choose your platform partially based on whether expansion is anticipated.
 
-Integrating visitor management: Robin includes visitor tracking. OfficeSpace has visitor management. Envoy integrates desk and visitor management. If visitors are frequent, choose a platform with visitor features.
+Integrating visitor management - Robin includes visitor tracking. OfficeSpace has visitor management. Envoy integrates desk and visitor management. If visitors are frequent, choose a platform with visitor features.
 
 Real estate portfolio management: Robin's analytics support complex real estate decisions. If you're using the system to inform office expansion or consolidation decisions, Robin's reporting becomes more valuable.
 

@@ -20,7 +20,7 @@ Balance workload across remote teams using tools that visualize capacity across 
 
 Table of Contents
 
-- [The Core Problem: Invisible Overload](#the-core-problem-invisible-overload)
+- [The Core Problem - Invisible Overload](#the-core-problem-invisible-overload)
 - [Building a Capacity Matrix](#building-a-capacity-matrix)
 - [Tool Options for Workload Management](#tool-options-for-workload-management)
 - [Automated Load Balancing](#automated-load-balancing)
@@ -29,7 +29,7 @@ Table of Contents
 - [Time Zone Considerations](#time-zone-considerations)
 - [Implementation Checklist](#implementation-checklist)
 
-The Core Problem: Invisible Overload
+The Core Problem - Invisible Overload
 
 In co-located teams, you can physically see when someone's desk is buried under papers or when someone leaves early to decompress. Remote work removes these visual cues. A developer in Tokyo might be drowning in tickets while their manager in San Francisco assumes everything is fine because pull requests are still coming in.
 
@@ -115,7 +115,7 @@ Notion works well for teams that want a custom dashboard. Create a database with
 
 Build a rollup that sums estimated hours per assignee, then create a formula that compares against their available capacity.
 
-Pulse: Open-Source Workload Tracker
+Pulse - Open-Source Workload Tracker
 
 For teams wanting lightweight, self-hosted options, Pulse provides a focused workload tracking API:
 
@@ -128,7 +128,7 @@ curl -X GET "https://your-pulse-instance/api/team/capacity" \
 
 The response includes each member's current load, allowing you to programmatically redistribute work when someone exceeds threshold.
 
-Tool Comparison: Workload Distribution Platforms
+Tool Comparison - Workload Distribution Platforms
 
 Different tools suit different team structures. Here is a direct comparison of the most widely used options in 2026:
 

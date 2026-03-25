@@ -47,18 +47,18 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Pre-1:1 Async Preparation
+Step 1 - Pre-1:1 Async Preparation
 
 Prepare every 1:1 the day before or morning-of. Spend 10-15 minutes reviewing context.
 
-Template: Weekly Prep Checklist
+Template - Weekly Prep Checklist
 
 Create a simple template in your note-taking system (Notion, Obsidian, or even Google Docs):
 
 ```
 1:1 Prep. [Engineer Name]. [Date]
 
-Step 2: Recent Context (from last week)
+Step 2 - Recent Context (from last week)
 - What project is this person working on?
 - Did they mention any blockers last week?
 - Have I seen PRs/commits from them?
@@ -67,30 +67,30 @@ Performance Observations (this week)
 - Positive: [Specific behavior/outcome observed]
 - Concern: [If any. specific situation, not personality judgment]
 
-Step 3: Topics to Cover
+Step 3 - Topics to Cover
 - [ ] Ongoing project status (2 min)
 - [ ] One blocker/challenge to discuss (5 min)
 - [ ] Feedback on [specific recent work] (5 min)
 - [ ] Career growth: [topic] (10 min)
 - [ ] Open floor for their priorities (5 min)
 
-Step 4: Follow-up Items from Last 1:1
+Step 4 - Follow-up Items from Last 1:1
 - [ ] Did they resolve [previous blocker]?
 - [ ] Have they followed up on [previous action item]?
 
-Step 5: Notes
+Step 5 - Notes
 [Space for during-1:1 notes]
 ```
 
 Why each section matters:
 
-Recent Context: Reminds you of ongoing work. Engineers feel more heard when you reference specific projects. "I saw you merged the caching layer PR, how did that perform?" is infinitely better than "What have you been up to?"
+Recent Context - Reminds you of ongoing work. Engineers feel more heard when you reference specific projects. "I saw you merged the caching layer PR, how did that perform?" is infinitely better than "What have you been up to?"
 
-Performance Observations: Direct evidence for feedback. Instead of "You need better communication," reference a specific moment: "In Wednesday's design review, you didn't ask clarifying questions on the async request. When you do ask, we make better decisions."
+Performance Observations - Direct evidence for feedback. Instead of "You need better communication," reference a specific moment: "In Wednesday's design review, you didn't ask clarifying questions on the async request. When you do ask, we make better decisions."
 
-Topics to Cover: Prevents the meeting becoming another status update. You drive the conversation toward meaningful topics.
+Topics to Cover - Prevents the meeting becoming another status update. You drive the conversation toward meaningful topics.
 
-Follow-up Items: Demonstrates that you track and care about their priorities. Nothing kills trust faster than forgetting promised follow-ups.
+Follow-up Items - Demonstrates that you track and care about their priorities. Nothing kills trust faster than forgetting promised follow-ups.
 
 Data Sources for Prep
 
@@ -104,9 +104,9 @@ Where to find context for your checklist:
 
 4. Peer feedback (optional): If they're in code review conversations, what comments stand out? Are peers praising their approach or requesting major changes?
 
-Total prep time: 3-5 minutes if you're systematic.
+Total prep time - 3-5 minutes if you're systematic.
 
-Step 6: Scheduled 1:1 Structure: 30-Minute Format
+Step 6 - Scheduled 1:1 Structure: 30-Minute Format
 
 A 30-minute 1:1 is standard for engineers. Here's the breakdown:
 
@@ -119,7 +119,7 @@ A 30-minute 1:1 is standard for engineers. Here's the breakdown:
 7:00-12:00. Feedback and Observations
 This is where you add value as a manager. Reference your prep notes. Positive feedback first: "I noticed you jumped into that spike on [system]. The approach you took with [technique] shows you're thinking about maintainability, which is exactly what we need." Then, if there's a developmental area: "One thing I noticed this week, in the design review, you seemed hesitant to challenge the proposal. I want to see you ask more clarifying questions earlier. That's a strength when you do it."
 
-Keep feedback specific, behavioral, and actionable. Never: "You need better communication." Always: "When you raise concerns early in design reviews, we catch problems before they're expensive to fix. I'd like to see more of that."
+Keep feedback specific, behavioral, and actionable. Never - "You need better communication." Always - "When you raise concerns early in design reviews, we catch problems before they're expensive to fix. I'd like to see more of that."
 
 12:00-22:00. Career Growth / Professional Development (Depends on cadence)
 Don't do career development every week. Rotate topics across 1:1s:
@@ -133,15 +133,15 @@ Reserve 8-10 minutes every other week for career conversation. Spending this tim
 22:00-30:00. Action Items and Closing
 "What will you do this week? What will I do?" Write it down. Publish the notes (via email or Slack) within 30 minutes. Engineer should see that you're tracking their growth, not just checking a box.
 
-Step 7: Feedback Framework for Remote Delivery
+Step 7 - Feedback Framework for Remote Delivery
 
 Negative feedback over video is harder than in person. You can't read tone as clearly. Use the Situation-Behavior-Impact (SBI) framework:
 
-Situation: "In Tuesday's code review..."
-Behavior: "You approved the PR without testing locally..."
-Impact: "We shipped a bug to production that customers reported. That required a hotfix and took three hours of debug time."
+Situation - "In Tuesday's code review..."
+Behavior - "You approved the PR without testing locally..."
+Impact - "We shipped a bug to production that customers reported. That required a hotfix and took three hours of debug time."
 
-Then: "I know this isn't typical of your standards. What happened? Was there pressure on timeline?"
+Then - "I know this isn't typical of your standards. What happened? Was there pressure on timeline?"
 
 This approach is:
 - Specific (not general criticism)
@@ -149,10 +149,10 @@ This approach is:
 - Open (asks for their perspective)
 - Actionable (clear what changed for next time)
 
-Bad remote feedback: "You need to pay more attention. You shipped a bug."
-Good remote feedback: [SBI framework above]
+Bad remote feedback - "You need to pay more attention. You shipped a bug."
+Good remote feedback - [SBI framework above]
 
-Step 8: Tools for Effective Remote 1:1s
+Step 8 - Tools for Effective Remote 1:1s
 
 Note-taking:
 - Obsidian with date-based folders (free, local, can link across notes)
@@ -160,7 +160,7 @@ Note-taking:
 - Apple Notes (if Mac-only team, syncs across devices)
 - Google Docs (shareable if you want engineer to access their own notes)
 
-Avoid: Email-only (hard to search), Slack threads (ephemeral), pure memory.
+Avoid - Email-only (hard to search), Slack threads (ephemeral), pure memory.
 
 Scheduling:
 - Calendly (recurring 1:1 slots, automatic reminders)
@@ -176,7 +176,7 @@ Video conferencing:
 
 Let the engineer choose the medium. Some prefer quick voice calls over video. Reduce friction; maximize engagement.
 
-Step 9: Career Development Templates
+Step 9 - Career Development Templates
 
 Career conversations are where remote managers fail most. Without hallway time, engineers don't see promotion paths naturally. Proactively discuss careers.
 
@@ -185,7 +185,7 @@ Quarterly Career Check-in
 Every quarter, dedicate a 1:1 to:
 
 ```
-Step 10: Career Development Check-in. [Engineer]. [Date]
+Step 10 - Career Development Check-in. [Engineer]. [Date]
 
 Current Role Satisfaction
 1. On a scale of 1-10, how satisfied are you in your current role? [Score]
@@ -213,7 +213,7 @@ Promotion Readiness Assessment
 If an engineer might be ready for advancement, formalize the criteria:
 
 ```
-Step 11: Promotion Readiness. [Name]. [Target Level]
+Step 11 - Promotion Readiness. [Name]. [Target Level]
 
 Technical Competence (Current vs. Target)
 - Coding quality: Current [Senior], Target [Staff]
@@ -240,29 +240,29 @@ Development Plan
 
 Before a promotion conversation, fill this out. Share it with the engineer. Promotion becomes a shared goal, not a surprise decision at review time.
 
-Step 12: Difficult Conversation Framework for Remote 1:1s
+Step 12 - Difficult Conversation Framework for Remote 1:1s
 
 Performance issues in remote environments can fester. Address them quickly with structured conversation.
 
 Performance Concern Conversation:
 
 ```
-Opening: "I want to discuss something I've noticed and get your perspective.
+Opening - "I want to discuss something I've noticed and get your perspective.
 This isn't about personality, it's about impact."
 
-Situation: "Over the last three sprints, your velocity has dropped about 30%.
+Situation - "Over the last three sprints, your velocity has dropped about 30%.
 That's a change from your usual baseline."
 
-Curiosity: "What's going on? Is there something I should know?"
+Curiosity - "What's going on? Is there something I should know?"
 
 [Listen. Don't interrupt. They may share context you don't have.]
 
-Expectation: "[specific standard].
+Expectation - "[specific standard].
 Can you commit to that?"
 
-Support: "What do you need from me to be successful?"
+Support - "What do you need from me to be successful?"
 
-Accountability: "Let's check in next week. I'll see [specific metric].
+Accountability - "Let's check in next week. I'll see [specific metric].
 We'll discuss progress."
 ```
 
@@ -273,7 +273,7 @@ This approach:
 - Offers support
 - Has a timeline for improvement
 
-Step 13: Async 1:1s for Distributed Time Zones
+Step 13 - Async 1:1s for Distributed Time Zones
 
 If your engineer works in a different time zone, synchronous 1:1s may not be feasible.
 
@@ -308,7 +308,7 @@ if you'd like to talk through anything verbally.
 
 They respond within 24 hours. You read, add comments, schedule a brief call only if needed (often unnecessary). This preserves the relationship and growth conversation without forcing cross-timezone meetings.
 
-Step 14: Measuring 1:1 Effectiveness
+Step 14 - Measuring 1:1 Effectiveness
 
 Good 1:1s show up in downstream metrics:
 
@@ -324,7 +324,7 @@ Indicators to improve:
 - Career conversations feel forced or brief
 - Engineer quits and says "I never knew how I was doing"
 
-Step 15: Remote 1:1 Cadence by Tenure
+Step 15 - Remote 1:1 Cadence by Tenure
 
 New engineer (0-3 months):
 - Weekly 1:1s (30 minutes)
@@ -348,7 +348,7 @@ Senior engineer (3+ years):
 
 Adjust based on individual needs. A high-performer may need monthly 1:1s. Someone in transition may need weekly.
 
-Step 16: Final Note
+Step 16 - Final Note
 
 Remote 1:1s won't feel the same as in-office conversations. They're structured, deliberate, documented. This isn't a downside. It's an opportunity to be more intentional about your team's growth. The managers who build strong remote teams are the ones who systematize 1:1s, prep, feedback framework, career conversations, documentation. The managers who struggle are the ones who treat remote 1:1s as optional check-ins.
 

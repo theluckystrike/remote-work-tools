@@ -21,7 +21,7 @@ Working from your couch seems convenient. You wake up, grab your laptop, and set
 Table of Contents
 
 - [Why Couch Working Hurts Your Back](#why-couch-working-hurts-your-back)
-- [The Better Setup: Laptop Stands and Ergonomic Positioning](#the-better-setup-laptop-stands-and-ergonomic-positioning)
+- [The Better Setup - Laptop Stands and Ergonomic Positioning](#the-better-setup-laptop-stands-and-ergonomic-positioning)
 - [Movement Routines That Counteract Sitting Damage](#movement-routines-that-counteract-sitting-damage)
 - [When to Reconsider Your Setup](#when-to-reconsider-your-setup)
 - [Building Sustainable Habits](#building-sustainable-habits)
@@ -46,7 +46,7 @@ Hip flexors shorten permanently. Sitting with knees elevated on a couch shortens
 
 Research indicates that improper sitting posture increases disc pressure by up to 40% compared to standing. For developers spending 8-12 hours daily at their computers, this translates to significant cumulative stress on the spinal structures.
 
-The Better Setup: Laptop Stands and Ergonomic Positioning
+The Better Setup - Laptop Stands and Ergonomic Positioning
 
 You do not need to abandon couch working entirely. With the right equipment and positioning, you can dramatically reduce the strain on your back.
 
@@ -61,7 +61,7 @@ Quick laptop stand alternatives
 - Dedicated laptop stand (ergonomics-focused brands)
 - Bed tray with firm surface
 
-Goal: Top of screen at eye level, arm's length away
+Goal - Top of screen at eye level, arm's length away
 echo "Screen top at eye level = neutral neck position"
 ```
 
@@ -234,13 +234,13 @@ Building a Couch-to-Desk Transition Plan
 
 If pain signals that couch work isn't sustainable, transition gradually:
 
-Phase 1 (Week 1-2): Implement laptop stand and lumbar support. Maintain couch but with better positioning.
+Phase 1 (Week 1-2) - Implement laptop stand and lumbar support. Maintain couch but with better positioning.
 
-Phase 2 (Week 3-4): Add external keyboard/mouse. Evaluate whether pain improves.
+Phase 2 (Week 3-4) - Add external keyboard/mouse. Evaluate whether pain improves.
 
-Phase 3 (Week 5-6): Consider small side table or tray desk if pain persists.
+Phase 3 (Week 5-6) - Consider small side table or tray desk if pain persists.
 
-Phase 4 (Week 7+): Invest in basic desk/chair setup if couch modifications insufficient.
+Phase 4 (Week 7+) - Invest in basic desk/chair setup if couch modifications insufficient.
 
 This gradual transition prevents buyer's remorse and helps you identify what actually helps your specific back situation.
 
@@ -287,9 +287,9 @@ class CouchErgonomicsTracker:
             'trend': 'improving' if avg_posture > 3.5 else 'needs_attention'
         }
 
-Use: tracker = CouchErgonomicsTracker()
-At start of each hour: tracker.log_posture_check(hour=8, posture_quality=4)
-Weekly: print(tracker.weekly_report())
+Use - tracker = CouchErgonomicsTracker()
+At start of each hour - tracker.log_posture_check(hour=8, posture_quality=4)
+Weekly - print(tracker.weekly_report())
 ```
 
 Self-monitoring creates accountability. Knowing you're tracking makes you more likely to maintain good habits.

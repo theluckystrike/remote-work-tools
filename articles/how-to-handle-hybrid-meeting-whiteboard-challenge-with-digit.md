@@ -37,13 +37,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Core Problem: Two Different Experiences
+Step 1 - The Core Problem: Two Different Experiences
 
 In a typical hybrid whiteboard scenario, your in-room participants see a physical whiteboard or a large shared screen. They can point naturally, write with markers, and engage with the space intuitively. Remote participants, meanwhile, see a video feed that may be grainy, poorly framed, or delayed. They can't easily point at what they want to discuss, and their annotations may feel disconnected from what in-room participants are doing.
 
 This creates a two-tier experience where some participants have full agency while others are reduced to passive observers. The solution isn't to eliminate physical whiteboards, many teams find them irreplaceable for certain types of thinking, but to create an unified experience that works for everyone.
 
-Step 2: Strategy 1: Use Digital Whiteboard Tools as the Primary Canvas
+Step 2 - Strategy 1: Use Digital Whiteboard Tools as the Primary Canvas
 
 The most straightforward approach is to abandon physical whiteboards entirely for hybrid sessions and use digital alternatives exclusively. Tools like Miro, FigJam, MURAL, or Microsoft Whiteboard give every participant an identical view and equal ability to contribute.
 
@@ -79,7 +79,7 @@ async function createTeamWhiteboard(sessionTitle, participants) {
 
 This approach ensures everyone starts with the same view and can contribute equally. The main downside is losing the tactile quality of physical whiteboards, which some teams find valuable for brainstorming sessions.
 
-Step 3: Strategy 2: Mirror Physical Whiteboards Digitally
+Step 3 - Strategy 2: Mirror Physical Whiteboards Digitally
 
 If your team values physical whiteboards, you can create a hybrid system where a document camera or dedicated whiteboard camera feeds live video to remote participants, while a digital whiteboard tool runs in parallel for remote annotations.
 
@@ -95,7 +95,7 @@ The help protocol matters more than the equipment. When someone in the room poin
 Here's a help template you can use:
 
 ```
-Step 4: Hybrid Whiteboard Session Protocol
+Step 4 - Hybrid Whiteboard Session Protocol
 
 Starting the Session
 1. Confirm remote participants can see the physical whiteboard clearly
@@ -115,7 +115,7 @@ Ending the Session
 - Send summary within 1 hour while context is fresh
 ```
 
-Step 5: Strategy 3: Switch Between Modalities
+Step 5 - Strategy 3: Switch Between Modalities
 
 Some meetings don't need a whiteboard throughout. A practical approach is to alternate between modes based on the current activity:
 
@@ -133,7 +133,7 @@ For technical teams, this might look like:
 3. Code walkthrough (15 min): Screen share with code-focused discussion
 4. Action items (5 min): Physical whiteboard for quick capture, photo shared afterward
 
-Step 6: Handling the Technical Details
+Step 6 - Handling the Technical Details
 
 Beyond strategy, the technical execution determines whether your hybrid whiteboard sessions succeed or frustrate everyone.
 
@@ -153,7 +153,7 @@ Annotation Latency
 
 If remote participants annotate on a digital whiteboard while in-room participants use a physical board, there's a synchronization problem. The solution is simple but requires discipline: the in-room "scribe" role must immediately transfer digital annotations to the physical board or vice versa. Don't let the two canvases diverge.
 
-Step 7: Practical Tools for Developer Teams
+Step 7 - Practical Tools for Developer Teams
 
 For technical teams specifically, consider these tooling approaches:
 
@@ -173,7 +173,7 @@ This approach is particularly powerful because diagrams become version-controlla
 
 GitHub Projects or Linear with integrated whiteboarding features work for teams already living in these tools. The advantage is keeping design discussions in the same space where implementation happens.
 
-Step 8: Measuring Success
+Step 8 - Measuring Success
 
 Track these metrics to improve your hybrid whiteboard sessions:
 
@@ -192,7 +192,7 @@ Teams often struggle with hybrid whiteboard sessions because they:
 - Mix modalities without protocol: Trying to use both physical and digital whiteboards without clear rules creates chaos
 - Skip documentation: Whiteboard content disappears within days without intentional capture
 
-Step 9: Equipment Deep-Dive: Specific Products for Hybrid Whiteboarding
+Step 9 - Equipment Deep-Dive: Specific Products for Hybrid Whiteboarding
 
 If choosing physical-whiteboard-mirroring approach, here's what actually works:
 
@@ -213,7 +213,7 @@ Digital Whiteboard Tools (Recommended as Primary Solution)
 | Excalidraw | Free | Developers, architects | GitHub, open-source, no vendor lock |
 | Matterboard | Free/paid | Real-time collaboration | Slack integration |
 
-Step 10: Set Up Effective Hybrid Whiteboard Sessions: Detailed Workflow
+Step 10 - Set Up Effective Hybrid Whiteboard Sessions: Detailed Workflow
 
 This workflow works for technical teams (brainstorming architecture, debugging code, planning sprints):
 
@@ -232,7 +232,7 @@ Before the Meeting (2-3 days ahead)
 Opening (First 5 minutes)
 
 1. Tech check: Can everyone see both physical and digital boards?
-2. Explain: "For this hour, we're using [tool]. Everyone contributes equally, remote and in-room."
+2. Explain - "For this hour, we're using [tool]. Everyone contributes equally, remote and in-room."
 3. Clarify roles: Who's typing? Who's watching the camera feed?
 4. Establish signal: "I'll say 'digital update' when typing async content to the board, 'audio only' when discussing."
 
@@ -261,7 +261,7 @@ Closing (Last 5 minutes)
 
 1. Facilitator reads back decisions made
 2. Assign action items with owners and deadlines
-3. Explain: "This whiteboard will be archived here [link]. Check here tomorrow."
+3. Explain - "This whiteboard will be archived here [link]. Check here tomorrow."
 4. Quick poll: "Everyone feel heard?"
 
 Post-Meeting (Within 2 hours)
@@ -271,27 +271,27 @@ Post-Meeting (Within 2 hours)
 3. For significant decisions, create decision record (see example below)
 4. Send summary email within 2 hours while context is fresh
 
-Step 11: Decision Record Template for Hybrid Whiteboard Sessions
+Step 11 - Decision Record Template for Hybrid Whiteboard Sessions
 
 Every important whiteboard discussion should produce a decision record:
 
 ```markdown
-Decision Record: [Topic]
+Decision Record - [Topic]
 
-Date: [Meeting date]
-Participants: [Who attended, how many remote vs. in-room]
-Facilitator: [Name]
-Original Whiteboard: [Link to exported PDF/image]
+Date - [Meeting date]
+Participants - [Who attended, how many remote vs. in-room]
+Facilitator - [Name]
+Original Whiteboard - [Link to exported PDF/image]
 
-Step 12: Problem Statement
+Step 12 - Problem Statement
 [What were we trying to decide?]
 
-Step 13: Options Discussed
+Step 13 - Options Discussed
 1. Option A: [Description]
 2. Option B: [Description]
 3. Option C: [Description]
 
-Step 14: Pros and Cons Identified
+Step 14 - Pros and Cons Identified
 
 Option A
 - Pro: [Listed during meeting]
@@ -303,17 +303,17 @@ Option B
 
 [etc.]
 
-Step 15: Decision Made
+Step 15 - Decision Made
 We're moving forward with Option B because [key reason from discussion].
 
-Step 16: Rationale
+Step 16 - Rationale
 [Expand on why this was the best choice given the tradeoffs]
 
 Next Steps
 - [ ] Action Item 1. Owner: [Name]. Due: [Date]
 - [ ] Action Item 2. Owner: [Name]. Due: [Date]
 
-Step 17: Participants Who Influenced Decision
+Step 17 - Participants Who Influenced Decision
 - In-room: [Names of people whose ideas shaped decision]
 - Remote: [Names of remote participants whose input was incorporated]
 
@@ -324,32 +324,32 @@ Troubleshooting Hybrid Whiteboard Issues in Real Time
 
 If problems arise during the meeting:
 
-Issue: Remote person can't see the whiteboard clearly
+Issue - Remote person can't see the whiteboard clearly
 - Quick fix: Zoom in on whiteboard camera feed; reduce field of view to focus on content area
 - Or: Switch to digital board as primary, use physical board as secondary reference only
 - Longer fix: Improve camera setup before next meeting
 
-Issue: In-room and digital boards are diverging (different content)
+Issue - In-room and digital boards are diverging (different content)
 - Immediate: Pause discussion, align both boards
 - Role clarity: Designate one person to manage alignment (scribe on digital updates physical, or vice versa)
 - Prevent: After adding to physical board, immediately add to digital board
 
-Issue: Remote person keeps being forgotten mid-discussion
-- Recovery: Facilitator pauses, asks remote person for input explicitly: "[Remote Name], what's your take?"
+Issue - Remote person keeps being forgotten mid-discussion
+- Recovery - Facilitator pauses, asks remote person for input explicitly: "[Remote Name], what's your take?"
 - Prevent: Rotate who speaks first, Remote person leads next topic
 - Structure: Use round-robin speaking order (go around list of participants rather than free-form)
 
-Issue: Meeting is running long; can't capture everything
+Issue - Meeting is running long; can't capture everything
 - Real-time: Recording the meeting; you can screenshot from recording later
 - Triage: Document key decisions NOW; capture details after meeting while reviewing recording
 - Prevent: Stricter timeboxing by topic; use timer
 
-Issue: In-room participants are dominating; remote folks aren't participating
-- Intervention: Facilitator says: "Let's hear from remote team. [Names], what questions came up for you?"
+Issue - In-room participants are dominating; remote folks aren't participating
+- Intervention - Facilitator says: "Let's hear from remote team. [Names], what questions came up for you?"
 - Structural: Require remote person to lead digital board updates (they control what gets typed)
 - Tool: Use voting/reaction features (Miro reactions, emoji votes in whiteboard) to hear from quieter participants
 
-Step 18: Technical Architecture for Optimal Setup
+Step 18 - Technical Architecture for Optimal Setup
 
 The most reliable setup combines three technology layers:
 
@@ -378,7 +378,7 @@ Connection Architecture:
 
 This three-layer approach (video conference + digital whiteboard + optional document camera) provides redundancy. If the document camera fails, you still have digital whiteboard. If digital whiteboard has issues, you have video and physical board.
 
-Step 19: Measuring Success of Your Hybrid Whiteboard Setup
+Step 19 - Measuring Success of Your Hybrid Whiteboard Setup
 
 Track these metrics:
 

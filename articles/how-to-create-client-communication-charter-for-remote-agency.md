@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: What Goes Into a Client Communication Charter
+Step 1 - What Goes Into a Client Communication Charter
 
 A communication charter is a living document that defines how your agency and clients interact. Unlike a contract that covers deliverables and payments, a charter covers the human side of the relationship.
 
@@ -45,14 +45,14 @@ Your charter should address these key areas:
 5. Escalation paths - What happens when something is urgent?
 6. Documentation practices - Where are decisions recorded?
 
-Step 2: Build Your Charter Template
+Step 2 - Build Your Charter Template
 
 Start with a markdown template your team can customize for each client. Here's a practical example:
 
 ```markdown
 Client Communication Charter
 
-Step 3: Contact Channels
+Step 3 - Contact Channels
 
 | Channel | Use Case | Expected Response |
 |---------|----------|-------------------|
@@ -61,19 +61,19 @@ Step 3: Contact Channels
 | Video Call | Complex discussions, planning | Scheduled |
 | Phone | True emergencies only | Immediate |
 
-Step 4: Team Availability
+Step 4 - Team Availability
 
 - Primary Hours: 9 AM - 3 PM UTC (overlap with EU/US clients)
 - Secondary Hours: 3 PM - 6 PM UTC (async work)
 - Off Hours: Emergency escalation only
 
-Step 5: Meeting Schedule
+Step 5 - Meeting Schedule
 
 - Weekly Sync: Tuesday 2 PM UTC, 45 minutes
 - Bi-weekly Review: First and third Thursday, 1 hour
 - Monthly Planning: First Monday, 90 minutes
 
-Step 6: Communication Guidelines
+Step 6 - Communication Guidelines
 
 What to Expect From Us
 - Weekly status updates every Friday
@@ -85,17 +85,17 @@ What We Need From You
 - 48-hour notice for meeting changes
 - Clear written briefs for new requests
 
-Step 7: Escalation Process
+Step 7 - Escalation Process
 
-Level 1 (Standard): Slack message → Response within 4 hours
-Level 2 (Urgent): Direct Slack message with  → Response within 2 hours
-Level 3 (Critical): Phone call → Immediate response
+Level 1 (Standard) - Slack message → Response within 4 hours
+Level 2 (Urgent) - Direct Slack message with  → Response within 2 hours
+Level 3 (Critical) - Phone call → Immediate response
 
 ```
 
 This template gives clients a clear picture of what to expect. The key is specificity, vague promises like "we'll respond quickly" create more problems than they solve.
 
-Step 8: Implementing the Charter
+Step 8 - Implementing the Charter
 
 Creating the document is only the first step. You need to integrate it into your client onboarding process.
 
@@ -139,32 +139,32 @@ project-root/
 
 This keeps communication expectations version-controlled alongside your code.
 
-Step 9: Real-World Example
+Step 9 - Real-World Example
 
 A 12-person remote agency serving SaaS clients implemented their charter in three phases:
 
-Phase 1: Documentation (Week 1)
+Phase 1 - Documentation (Week 1)
 They mapped all existing communication patterns and identified problems. Clients complained about unclear response expectations and difficulty reaching decision-makers.
 
-Phase 2: Template Creation (Week 2)
+Phase 2 - Template Creation (Week 2)
 They built a customizable template with specific timeframes. They set email response at 24 hours, Slack at 4 hours, and defined a clear escalation path.
 
-Phase 3: Enforcement (Ongoing)
+Phase 3 - Enforcement (Ongoing)
 During onboarding, they now spend 15 minutes specifically on the charter. They reference it when clients send urgent requests outside agreed channels, politely redirecting to proper channels while still being helpful.
 
-Results after three months: client escalations dropped 40%, and project managers reported spending less time firefighting communication issues.
+Results after three months - client escalations dropped 40%, and project managers reported spending less time firefighting communication issues.
 
-Step 10: Adapting for Different Client Types
+Step 10 - Adapting for Different Client Types
 
 Not all clients need the same charter. Consider creating tiers:
 
-Standard Charter: For projects under $10k or retainer clients with minimal ongoing needs.
+Standard Charter - For projects under $10k or retainer clients with minimal ongoing needs.
 
-Enhanced Charter: For ongoing retainers with weekly meetings and dedicated resources. Add detailed availability windows and preferred contact hierarchies.
+Enhanced Charter - For ongoing retainers with weekly meetings and dedicated resources. Add detailed availability windows and preferred contact hierarchies.
 
-Enterprise Charter: For large accounts with multiple stakeholders. Include procurement requirements, security protocols, and formal escalation matrices.
+Enterprise Charter - For large accounts with multiple stakeholders. Include procurement requirements, security protocols, and formal escalation matrices.
 
-Step 11: Common Pitfalls to Avoid
+Step 11 - Common Pitfalls to Avoid
 
 The biggest mistake agencies make is creating a charter and never referencing it again. Treat your charter as a living document, review it quarterly and update based on what actually happens.
 
@@ -172,7 +172,7 @@ Another common issue is being too rigid. The charter sets expectations, but rela
 
 Finally, avoid overcomplicating. A three-page charter nobody reads defeats the purpose. Aim for one page with clear sections clients can scan in five minutes.
 
-Step 12: Response Time Standards by Issue Priority
+Step 12 - Response Time Standards by Issue Priority
 
 Different issues demand different urgencies. Create a clear escalation matrix so clients know exactly when to expect responses based on the problem severity:
 
@@ -185,26 +185,26 @@ Different issues demand different urgencies. Create a clear escalation matrix so
 
 When establishing these standards, base them on your team's actual capacity. Promising 30-minute responses to critical issues means someone must be on-call during stated availability hours. If that's unrealistic, set the expectation at 1 hour instead. Clarity prevents resentment far better than optimistic promises you can't keep.
 
-Step 13: Client Communication Charter Template Variations
+Step 13 - Client Communication Charter Template Variations
 
 Different client relationships benefit from tailored charters. Below are three templates calibrated for different engagement types:
 
 Startup Retainer Client (High-Touch, Flexible)
 
 ```markdown
-Communication Charter: [Client Name]
+Communication Charter - [Client Name]
 
-Step 14: Contact Channels
+Step 14 - Contact Channels
 - Slack: Primary for quick questions (4-hour response)
 - Email: For formal requests, contracts, documentation (24-hour response)
 - Weekly sync: Tuesday 2 PM UTC (1 hour)
 
-Step 15: Flexibility Built In
+Step 15 - Flexibility Built In
 - Changing priorities mid-sprint is acceptable with 24-hour notice
 - We adjust our hours occasionally to match your timezone needs
 - Questions outside core work scope get honest time estimates before commitment
 
-Step 16: Escalation
+Step 16 - Escalation
 - Concerns about quality or timeline go to [Project Manager] immediately
 - Financial or contract issues route to [Account Manager]
 ```
@@ -212,20 +212,20 @@ Step 16: Escalation
 Enterprise Client (Formal, SLA-Driven)
 
 ```markdown
-Communication Charter: [Enterprise Client Name]
+Communication Charter - [Enterprise Client Name]
 
-Step 17: Availability Windows
+Step 17 - Availability Windows
 - Core Coverage: 9 AM - 6 PM Eastern Time, Monday - Friday
 - Email: 24-hour response guarantee
 - Slack: 2-hour response for tagged messages in specified channels
 - Emergency Line: [Phone] for severity-1 issues only
 
-Step 18: Service Level Agreements
+Step 18 - Service Level Agreements
 - 99.5% uptime commitment on production systems
 - Code review turnaround: 24 business hours
 - Bug fix turnaround: Critical (4 hours), High (24 hours), Medium (3 days)
 
-Step 19: Meetings
+Step 19 - Meetings
 - Weekly status: Thursday 10 AM EST
 - Monthly business review: First Friday of month
 - Quarterly planning: As scheduled
@@ -234,37 +234,37 @@ Step 19: Meetings
 Fixed-Scope Project (Clear Boundaries)
 
 ```markdown
-Communication Charter: [Project Name]
+Communication Charter - [Project Name]
 
-Step 20: Work Scope Boundaries
+Step 20 - Work Scope Boundaries
 - Only work on items in approved backlog
 - Scope changes submitted as formal change requests
 - Out-of-scope requests documented but not committed
 
-Step 21: Timeline
+Step 21 - Timeline
 - Project duration: [dates]
 - Milestones: [listed with exact dates]
 - Post-launch support: [duration and scope]
 
-Step 22: Communication Frequency
+Step 22 - Communication Frequency
 - Daily updates: Slack at 5 PM your timezone
 - Weekly sync: Wednesday 3 PM UTC (30 minutes)
 - No meetings after Friday 3 PM local time
 ```
 
-Step 23: Build Buy-In: Getting Clients to Adopt the Charter
+Step 23 - Build Buy-In: Getting Clients to Adopt the Charter
 
 Creating the charter is one thing. Getting clients to actually read and agree to it requires a deliberate handoff:
 
-During contract negotiation: Reference the charter as a standard practice, not a favor. "We'll provide you a communication charter that sets clear expectations for both teams. This prevents misunderstandings around response times."
+During contract negotiation - Reference the charter as a standard practice, not a favor. "We'll provide you a communication charter that sets clear expectations for both teams. This prevents misunderstandings around response times."
 
-During kickoff meeting: Walk through each section explicitly. Ask clarifying questions: "You have team members across US and India. Do these response times work with your decision-making process?" Listen for concerns before they become problems.
+During kickoff meeting - Walk through each section explicitly. Ask clarifying questions: "You have team members across US and India. Do these response times work with your decision-making process?" Listen for concerns before they become problems.
 
-Distribute in writing: Send a formal email after the kickoff meeting confirming the agreed charter. Ask the client to acknowledge receipt and agreement explicitly. This creates accountability.
+Distribute in writing - Send a formal email after the kickoff meeting confirming the agreed charter. Ask the client to acknowledge receipt and agreement explicitly. This creates accountability.
 
-Reference it when needed: When a client sends an "urgent" request outside your stated channels, politely redirect: "Got your email, I saw your message in Slack too. Per our charter, I'm prioritizing Slack messages within 4 hours. I'll have an update by 2 PM UTC."
+Reference it when needed - When a client sends an "urgent" request outside your stated channels, politely redirect: "Got your email, I saw your message in Slack too. Per our charter, I'm prioritizing Slack messages within 4 hours. I'll have an update by 2 PM UTC."
 
-Step 24: Measuring Charter Effectiveness
+Step 24 - Measuring Charter Effectiveness
 
 After three months, measure whether the charter is working:
 
@@ -275,7 +275,7 @@ After three months, measure whether the charter is working:
 
 If metrics show the charter isn't working, revise it collaboratively with the client. A charter that nobody follows is worse than no charter at all, it becomes a symbol of broken promises.
 
-Step 25: Seasonal and Predictable Exception Handling
+Step 25 - Seasonal and Predictable Exception Handling
 
 Real-world projects have predictable disruptions. Build these into your charter upfront to prevent later conflict:
 

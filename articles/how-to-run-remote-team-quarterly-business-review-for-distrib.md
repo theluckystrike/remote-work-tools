@@ -40,39 +40,39 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Build Your Async QBR Workflow
+Step 1 - Build Your Async QBR Workflow
 
-Phase 1: Data Collection (Week 1)
+Phase 1 - Data Collection (Week 1)
 
 Start the quarter review process with a week of async data gathering. Each team member contributes their updates before any synchronous meeting occurs.
 
 Create a shared document with these sections:
 
 ```markdown
-Step 2: Accomplishments This Quarter
+Step 2 - Accomplishments This Quarter
 - [Team member]: What did you ship? What goals did you achieve?
 - Include metrics and specific outcomes where possible
 
-Step 3: Challenges Faced
+Step 3 - Challenges Faced
 - What blockers hindered progress?
 - What process improvements would help?
 
-Step 4: Learning & Growth
+Step 4 - Learning & Growth
 - What did you learn this quarter?
 - What skills did you develop?
 
-Step 5: Cross-Team Dependencies
+Step 5 - Cross-Team Dependencies
 - What did you need from other teams?
 - What did other teams need from you?
 
-Step 6: Next Quarter Priorities
+Step 6 - Next Quarter Priorities
 - What are your top 3 priorities?
 - What resources do you need?
 ```
 
 Distribute this template via your team's communication tool with a 5-day deadline. Team members complete their sections asynchronously, giving everyone time to write thoughtful responses rather than speaking off the top of their heads.
 
-Phase 2: Synthesis (Week 2)
+Phase 2 - Synthesis (Week 2)
 
 Designate a QBR facilitator who compiles the individual responses into a cohesive summary. This person should:
 
@@ -83,7 +83,7 @@ Designate a QBR facilitator who compiles the individual responses into a cohesiv
 
 The synthesis document should be concise, aim for 3-5 pages maximum. Readers should be able to scan it in 15 minutes and understand the quarter's overall trajectory.
 
-Phase 3: Synchronous Discussion (Week 2 or 3)
+Phase 3 - Synchronous Discussion (Week 2 or 3)
 
 With async preparation complete, your synchronous QBR meeting becomes a strategic discussion rather than a status update session. Structure the meeting with these time blocks:
 
@@ -102,7 +102,7 @@ Document specific next steps with owners and deadlines. This is where many QBRs 
 Feedback Collection (10 minutes)
 End by collecting feedback on the QBR process itself. What worked? What would team members change for next quarter?
 
-Step 7: Adapting QBRs for Multi-Level Distributed Leadership
+Step 7 - Adapting QBRs for Multi-Level Distributed Leadership
 
 When your organization has multiple layers of leadership, executives, directors, team leads, running effective QBRs requires additional coordination.
 
@@ -127,19 +127,19 @@ Distributed leadership requires explicit coordination across peer teams. Schedul
 3. Identify intersection points (10 minutes)
 4. Assign owners for cross-team action items (10 minutes)
 
-Step 8: Tools That Support Remote QBRs
+Step 8 - Tools That Support Remote QBRs
 
 Your tool selection impacts how effectively your team runs QBRs. The best approach uses separate tools for different phases:
 
-Async writing: Google Docs, Notion, or GitHub Discussions work well for collaborative pre-reads. These tools support comments, making it easy to ask clarifying questions without disrupting the author's flow.
+Async writing - Google Docs, Notion, or GitHub Discussions work well for collaborative pre-reads. These tools support comments, making it easy to ask clarifying questions without disrupting the author's flow.
 
-Synthesis and presentation: Use a tool that supports structured layouts. Notion pages or Markdown-to-slides converters keep your content consistent.
+Synthesis and presentation - Use a tool that supports structured layouts. Notion pages or Markdown-to-slides converters keep your content consistent.
 
-Action tracking: Integrate with your existing project management system. If your team uses Linear, Jira, or GitHub Projects, create QBR action items directly in those tools rather than maintaining a separate list.
+Action tracking - Integrate with your existing project management system. If your team uses Linear, Jira, or GitHub Projects, create QBR action items directly in those tools rather than maintaining a separate list.
 
-Asynchronous video: Consider recording short video updates (5-10 minutes) that team members watch before the synchronous meeting. This works particularly well for team leads who want to present context beyond what fits in writing.
+Asynchronous video - Consider recording short video updates (5-10 minutes) that team members watch before the synchronous meeting. This works particularly well for team leads who want to present context beyond what fits in writing.
 
-Step 9: Common Pitfalls to Avoid
+Step 9 - Common Pitfalls to Avoid
 
 Overloading the synchronous session. The QBR is not the place to share every detail. Use async channels for information and reserve synchronous time for discussion and decision-making.
 
@@ -149,7 +149,7 @@ Inviting too many people. Keep synchronous QBRs to those who can actively contri
 
 Neglecting team member recognition. QBRs often focus on problems and metrics while ignoring individual contributions. Build explicit time for acknowledging team member achievements.
 
-Step 10: Measuring QBR Effectiveness
+Step 10 - Measuring QBR Effectiveness
 
 Track these metrics to improve your QBR process over time:
 
@@ -158,7 +158,7 @@ Track these metrics to improve your QBR process over time:
 - Meeting satisfaction: Do participants feel the synchronous time was valuable?
 - Time to alignment: How quickly does the team reach consensus on priorities after the QBR?
 
-Step 11: Tools, Templates, and Resource Library
+Step 11 - Tools, Templates, and Resource Library
 
 Recommended Tools for Each QBR Phase
 
@@ -185,11 +185,11 @@ QBR Template Library
 Individual Contributor Update Template
 
 ```markdown
-Step 12: [Your Name] - Q1 2026 QBR Update
+Step 12 - [Your Name] - Q1 2026 QBR Update
 
 Accomplishments This Quarter
 - What did you complete or ship?
-- Metrics: What improved as a result?
+- Metrics - What improved as a result?
 - Cross-team impact: Who benefited?
 
 Challenges Faced
@@ -221,7 +221,7 @@ Resource Needs
 Team Lead QBR Template
 
 ```markdown
-Step 13: [Team Name] - Q1 2026 QBR
+Step 13 - [Team Name] - Q1 2026 QBR
 
 Team Performance Summary
 - 3-5 key metrics this quarter (e.g., features shipped, bugs fixed, velocity)
@@ -242,7 +242,7 @@ Team Health Metrics
 - Velocity trend: [stable/increasing/decreasing]
 - Unplanned work %: [estimate burden from interruptions]
 - Team satisfaction (if surveyed): [score or qualitative]
-- Turnover: [any departures or concerns?]
+- Turnover - [any departures or concerns?]
 
 Cross-Team Alignment
 - Dependencies we relied on: [other teams]
@@ -267,29 +267,29 @@ Convert synthesis documents into a simple format for async consumption:
 ```
 Q1 2026 Company QBR Executive Summary
 
-Step 14: Key Metrics Dashboard
+Step 14 - Key Metrics Dashboard
 | Metric | Q1 | Q4 | Trend |
 |--------|----|----|-------|
 | Revenue | $2.5M | $2.1M | ↑ |
 | Churn | 3% | 4% | ↓ |
 | NPS Score | 58 | 52 | ↑ |
 
-Step 15: What Went Well (Top Themes)
+Step 15 - What Went Well (Top Themes)
 1. Shipping velocity - 23% increase from last quarter
 2. Customer retention - Reduced churn by 1 point through improved onboarding
 3. Team growth - Successfully onboarded 4 new engineers with zero turnover
 
-Step 16: What Needs Attention
+Step 16 - What Needs Attention
 1. Cloud infrastructure costs - Up 18%, requires optimization review
 2. Sales-engineering alignment - Custom requests slowing standard delivery
 3. Technical debt - Growing test suite runtime threatening CI/CD efficiency
 
-Step 17: Next Quarter Bets (Q2 2026)
+Step 17 - Next Quarter Bets (Q2 2026)
 1. Ship feature X - Expected $500K new revenue impact
 2. Infrastructure optimization - Target 25% cost reduction
 3. Process improvement - Reduce custom request turnaround from 3 weeks to 1 week
 
-Step 18: Q1→Q2 Action Items
+Step 18 - Q1→Q2 Action Items
 | Action | Owner | Due Date | Success Metric |
 |--------|-------|----------|----------------|
 | Cloud cost analysis | DevOps Lead | April 30 | Identified $50K+ optimization |
@@ -299,7 +299,7 @@ Step 18: Q1→Q2 Action Items
 
 This format is 3-4 pages, easily scannable in 15 minutes, and provides context for the synchronous discussion.
 
-Step 19: Measuring QBR Effectiveness Long-Term
+Step 19 - Measuring QBR Effectiveness Long-Term
 
 Monthly Tracking Dashboard
 
@@ -308,22 +308,22 @@ Create a simple tracking system to monitor QBR effectiveness:
 ```
 QBR Effectiveness Metrics (track monthly):
 
-Metric: "% of Q1 QBR action items completed by May 31"
+Metric - "% of Q1 QBR action items completed by May 31"
 - Goal: 80%+
 - Calculation: Count items marked "complete" / total items assigned
 - Owner: QBR facilitator
 
-Metric: "Time to action item completion after assignment"
+Metric - "Time to action item completion after assignment"
 - Goal: 30 days average
 - Calculation: Average days from assignment date to completion
 - Owner: QBR facilitator
 
-Metric: "Participation rate in quarterly sync meetings"
+Metric - "Participation rate in quarterly sync meetings"
 - Goal: 95%+ attendance
 - Calculation: Attendees / expected attendees
 - Owner: Calendar coordinator
 
-Metric: "Async pre-read completion before QBR sync"
+Metric - "Async pre-read completion before QBR sync"
 - Goal: 90%+
 - Calculation: Team members submitting update / total team
 - Owner: QBR facilitator
@@ -331,33 +331,33 @@ Metric: "Async pre-read completion before QBR sync"
 
 Track these metrics for 3 quarters. If metrics stay above targets, your QBR process is working. If any drop below targets, diagnose why and adjust.
 
-Step 20: QBR Anti-Patterns to Avoid
+Step 20 - QBR Anti-Patterns to Avoid
 
-Anti-pattern 1: QBR becomes a presentation-only event
+Anti-pattern 1 - QBR becomes a presentation-only event
 
 Team leads spend 2 weeks crafting perfect slides but the synchronous meeting involves no real discussion. Decisions get deferred.
 
-Fix: Limit presentations to 20% of sync time. Reserve 80% for discussion, debate, and decision-making.
+Fix - Limit presentations to 20% of sync time. Reserve 80% for discussion, debate, and decision-making.
 
-Anti-pattern 2: Only top performers get airtime
+Anti-pattern 2 - Only top performers get airtime
 
 High-performing team leads present while struggling teams' updates get glossed over. Struggling teams feel unheard.
 
-Fix: Prioritize discussion of teams facing challenges. Celebrating wins can happen async; the sync meeting is for problem-solving.
+Fix - Prioritize discussion of teams facing challenges. Celebrating wins can happen async; the sync meeting is for problem-solving.
 
-Anti-pattern 3: QBR decoupled from actual strategy
+Anti-pattern 3 - QBR decoupled from actual strategy
 
 The company publishes strategy, but the QBR ignores it. Teams set priorities that don't align with company goals.
 
-Fix: Start QBR with explicit company strategy review. Each team must map their Q2 priorities back to company goals.
+Fix - Start QBR with explicit company strategy review. Each team must map their Q2 priorities back to company goals.
 
-Anti-pattern 4: Action items go nowhere
+Anti-pattern 4 - Action items go nowhere
 
 QBR generates 20 action items. Two weeks later, nothing has changed. The next QBR repeats the same problems.
 
-Fix: Assign *every* action item to a specific owner. Review action items monthly, not quarterly. If an item isn't progressing, surface it immediately.
+Fix - Assign *every* action item to a specific owner. Review action items monthly, not quarterly. If an item isn't progressing, surface it immediately.
 
-Step 21: Scaling QBRs Across Growth Stages
+Step 21 - Scaling QBRs Across Growth Stages
 
 Seed to Series A (5-15 people)
 Run a single all-hands QBR. Everyone submits async updates. One 2-hour sync covers entire company. Document outcomes in a single shared document.
@@ -366,10 +366,10 @@ Series A to Series B (15-50 people)
 Split into team-level QBRs (30 min per team) feeding an exec-level QBR. Run team-level meetings async-first, sync for 15 min to discuss major blockers. Compile into exec summary.
 
 Series B to Series C (50-150 people)
-Three-tier structure: Team QBRs → Functional QBRs (engineering, product, sales) → Executive QBR. Stagger over 2-3 weeks to avoid meeting overload.
+Three-tier structure - Team QBRs → Functional QBRs (engineering, product, sales) → Executive QBR. Stagger over 2-3 weeks to avoid meeting overload.
 
 Post Series C (150+ people)
-Four-tier structure: Team → Department → Business Unit → Company Executive QBR. Can span 3-4 weeks. Use automation to aggregate data between levels.
+Four-tier structure - Team → Department → Business Unit → Company Executive QBR. Can span 3-4 weeks. Use automation to aggregate data between levels.
 
 Troubleshooting
 

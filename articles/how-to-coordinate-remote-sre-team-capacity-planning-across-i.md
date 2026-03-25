@@ -20,17 +20,17 @@ Map your infrastructure pods and on-call responsibilities, then use a capacity p
 Table of Contents
 
 - [Understanding Infrastructure Pods and SRE Responsibilities](#understanding-infrastructure-pods-and-sre-responsibilities)
-- [Step 1: Map Your Pod Structure and Dependencies](#step-1-map-your-pod-structure-and-dependencies)
-- [Step 2: Establish Capacity Visibility](#step-2-establish-capacity-visibility)
-- [Pod: networking-pod](#pod-networking-pod)
-- [Pod: data-pod](#pod-data-pod)
+- [Step 1 - Map Your Pod Structure and Dependencies](#step-1-map-your-pod-structure-and-dependencies)
+- [Step 2 - Establish Capacity Visibility](#step-2-establish-capacity-visibility)
+- [Pod - networking-pod](#pod-networking-pod)
+- [Pod - data-pod](#pod-data-pod)
 - [Current Gaps](#current-gaps)
-- [Step 3: Implement Cross-Pod Coverage Agreements](#step-3-implement-cross-pod-coverage-agreements)
-- [Step 4: Schedule Capacity Planning Sessions](#step-4-schedule-capacity-planning-sessions)
-- [Step 5: Build Graduated On-Call Transitions](#step-5-build-graduated-on-call-transitions)
-- [Step 6: Handle Capacity Emergencies](#step-6-handle-capacity-emergencies)
-- [Trigger: Pod has zero available SRE coverage](#trigger-pod-has-zero-available-sre-coverage)
-- [Trigger: On-call hours exceed maximum](#trigger-on-call-hours-exceed-maximum)
+- [Step 3 - Implement Cross-Pod Coverage Agreements](#step-3-implement-cross-pod-coverage-agreements)
+- [Step 4 - Schedule Capacity Planning Sessions](#step-4-schedule-capacity-planning-sessions)
+- [Step 5 - Build Graduated On-Call Transitions](#step-5-build-graduated-on-call-transitions)
+- [Step 6 - Handle Capacity Emergencies](#step-6-handle-capacity-emergencies)
+- [Trigger - Pod has zero available SRE coverage](#trigger-pod-has-zero-available-sre-coverage)
+- [Trigger - On-call hours exceed maximum](#trigger-on-call-hours-exceed-maximum)
 - [Measuring Capacity Planning Success](#measuring-capacity-planning-success)
 - [Practical Tips for Remote SRE Capacity Coordination](#practical-tips-for-remote-sre-capacity-coordination)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
@@ -41,7 +41,7 @@ Infrastructure pods typically represent logical groupings of services, clusters,
 
 The challenge emerges when coordinating capacity across these pods. Remote team members may work in different time zones, possess varying skill levels, and carry different personal obligations. Effective coordination ensures coverage without burning out individuals.
 
-Step 1: Map Your Pod Structure and Dependencies
+Step 1 - Map Your Pod Structure and Dependencies
 
 Before planning capacity, document your infrastructure pod architecture. Create a clear inventory that identifies:
 
@@ -90,28 +90,28 @@ pods:
 
 Store this inventory in a shared location accessible to all team members. Update it during onboarding, offboarding, or when responsibilities shift.
 
-Step 2: Establish Capacity Visibility
+Step 2 - Establish Capacity Visibility
 
 Remote coordination requires transparent visibility into team availability. Create a capacity tracking system that captures:
 
-Individual capacity: Each SRE's available hours per week, accounting for meetings, admin tasks, and focus time. Assume 32-36 productive hours weekly after accounting for non-engineering work.
+Individual capacity - Each SRE's available hours per week, accounting for meetings, admin tasks, and focus time. Assume 32-36 productive hours weekly after accounting for non-engineering work.
 
-On-call rotation load: Track on-call frequency per pod. Excessive on-call time indicates capacity gaps.
+On-call rotation load - Track on-call frequency per pod. Excessive on-call time indicates capacity gaps.
 
-Project allocation: Document planned work versus reactive work. High reactive work percentages signal staffing issues.
+Project allocation - Document planned work versus reactive work. High reactive work percentages signal staffing issues.
 
 Use a lightweight tracking approach:
 
 ```markdown
 Weekly Capacity Report
 
-Pod: networking-pod
+Pod - networking-pod
 | Engineer | Total Hours | On-Call | Projects | Buffer |
 |----------|-------------|---------|----------|--------|
 | engineer1 | 40 | 8 | 24 | 8 |
 | engineer2 | 32 | 8 | 20 | 4 |
 
-Pod: data-pod
+Pod - data-pod
 | Engineer | Total Hours | On-Call | Projects | Buffer |
 |----------|-------------|---------|----------|--------|
 | engineer3 | 40 | 12 | 20 | 8 |
@@ -123,13 +123,13 @@ Current Gaps
 
 Share this report weekly in a dedicated Slack channel or team wiki. Remote team members can review status without scheduling synchronous meetings.
 
-Step 3: Implement Cross-Pod Coverage Agreements
+Step 3 - Implement Cross-Pod Coverage Agreements
 
 When pods have expertise gaps or when team members are unavailable, cross-pod coverage prevents service disruptions. Establish formal coverage agreements that define:
 
-Primary coverage: The SRE normally responsible for a pod
-Secondary coverage: Backup SRE who can handle escalations
-Escalation path: What happens when neither is available
+Primary coverage - The SRE normally responsible for a pod
+Secondary coverage - Backup SRE who can handle escalations
+Escalation path - What happens when neither is available
 
 ```yaml
 coverage-agreements.yaml
@@ -155,13 +155,13 @@ coverage_policies:
 
 These agreements work bidirectionally. Engineers from other pods agree to cover gaps, creating mutual support across the team.
 
-Step 4: Schedule Capacity Planning Sessions
+Step 4 - Schedule Capacity Planning Sessions
 
 Remote teams benefit from regular async capacity discussions combined with occasional synchronous planning. Use a cadence that works for your team's time zone distribution:
 
-Monthly async review: Team members update their capacity document with upcoming availability changes, planned leave, training, or project deadlines. This happens asynchronously through a shared document or issue.
+Monthly async review - Team members update their capacity document with upcoming availability changes, planned leave, training, or project deadlines. This happens asynchronously through a shared document or issue.
 
-Quarterly sync planning: Schedule a 60-minute video call to review the upcoming quarter's capacity. Discuss major initiatives requiring SRE support, anticipated infrastructure changes, and any hiring needs.
+Quarterly sync planning - Schedule a 60-minute video call to review the upcoming quarter's capacity. Discuss major initiatives requiring SRE support, anticipated infrastructure changes, and any hiring needs.
 
 Prepare a simple agenda for quarterly sessions:
 
@@ -178,7 +178,7 @@ Quarterly Capacity Planning Agenda
 
 Document decisions and share notes with the entire team afterward. Remote team members in different time zones can provide feedback asynchronously if needed.
 
-Step 5: Build Graduated On-Call Transitions
+Step 5 - Build Graduated On-Call Transitions
 
 New SREs or engineers transitioning between pods need structured onboarding to reach full capacity. Avoid dumping full on-call responsibility on new team members immediately.
 
@@ -186,9 +186,9 @@ Create a transition plan:
 
 Week 1-2: Shadow existing on-call engineer. Review incidents, observe escalation patterns, familiarize with runbooks.
 
-Week 3-4: Share on-call duties as secondary. Handle pages alongside primary engineer, who reviews all decisions.
+Week 3-4 - Share on-call duties as secondary. Handle pages alongside primary engineer, who reviews all decisions.
 
-Week 5+: Assume primary on-call responsibility with secondary support available.
+Week 5+ - Assume primary on-call responsibility with secondary support available.
 
 Track transition progress in your capacity document:
 
@@ -205,7 +205,7 @@ transitions:
 
 This graduated approach builds confidence and ensures knowledge transfer before full responsibility transfer.
 
-Step 6: Handle Capacity Emergencies
+Step 6 - Handle Capacity Emergencies
 
 Sometimes capacity gaps emerge unexpectedly, a team member leaves, illness spreads, or project demands spike. Prepare response procedures:
 
@@ -225,7 +225,7 @@ Document your emergency procedures in a runbook:
 ```markdown
 Capacity Emergency Runbook
 
-Trigger: Pod has zero available SRE coverage
+Trigger - Pod has zero available SRE coverage
 
 1. Notify SRE lead immediately
 2. Check contractor availability for critical systems
@@ -233,7 +233,7 @@ Trigger: Pod has zero available SRE coverage
 4. Escalate to engineering director if unresolved within 4 hours
 5. Post-incident: Review why early warning signs were missed
 
-Trigger: On-call hours exceed maximum
+Trigger - On-call hours exceed maximum
 
 1. Identify which engineer is over-allocated
 2. Redistribute to secondary coverage
@@ -245,13 +245,13 @@ Measuring Capacity Planning Success
 
 Track these metrics to evaluate your coordination effectiveness:
 
-On-call frequency variance: How evenly is on-call distributed? Aim for standard deviation below 4 hours per week.
+On-call frequency variance - How evenly is on-call distributed? Aim for standard deviation below 4 hours per week.
 
-Coverage gap incidents: How often did services suffer due to SRE unavailability? Track these and review root causes.
+Coverage gap incidents - How often did services suffer due to SRE unavailability? Track these and review root causes.
 
-Time-to-competency: How quickly do new engineers reach full capacity? Declining times indicate better transition processes.
+Time-to-competency - How quickly do new engineers reach full capacity? Declining times indicate better transition processes.
 
-Project completion rate: Are planned projects finishing on schedule? Missed deadlines often indicate capacity miscalculation.
+Project completion rate - Are planned projects finishing on schedule? Missed deadlines often indicate capacity miscalculation.
 
 Review these metrics quarterly and adjust your processes accordingly.
 

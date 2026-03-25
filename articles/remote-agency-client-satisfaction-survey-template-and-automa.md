@@ -27,9 +27,9 @@ The most effective client satisfaction surveys for remote agencies balance compr
 Core Questions for Remote Agency Surveys
 
 ```markdown
-Project: [Project Name]
-Client: [Client Name]
-Date: [Survey Date]
+Project - [Project Name]
+Client - [Client Name]
+Date - [Survey Date]
 
 1. How satisfied are you with the overall quality of work delivered? (1-5 scale)
 
@@ -60,7 +60,7 @@ Automating Survey Distribution
 
 Manual survey distribution wastes time and creates inconsistency. Automation ensures every client receives their survey at the optimal moment, typically 2-4 weeks after project completion or milestone delivery.
 
-Option 1: GitHub Actions Workflow
+Option 1 - GitHub Actions Workflow
 
 If you already use GitHub for project management, this workflow triggers surveys when issues are moved to a "Done" column or when you close a project milestone.
 
@@ -105,7 +105,7 @@ jobs:
 
 This approach creates a reminder without immediately spamming clients, giving you control over the exact send time.
 
-Option 2: JavaScript Automation Script
+Option 2 - JavaScript Automation Script
 
 For more control or integration with tools like Notion, Airtable, or Slack, use a JavaScript script that runs on your preferred schedule.
 
@@ -172,7 +172,7 @@ Run daily at 9 AM
 0 9 * * * /usr/bin/node /path/to/survey-automation.js
 ```
 
-Option 3: No-Code Integration
+Option 3 - No-Code Integration
 
 Many remote agencies use no-code tools that already integrate survey functionality. If you're using Notion, Airtable, or similar tools:
 

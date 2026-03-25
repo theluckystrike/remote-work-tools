@@ -31,7 +31,7 @@ The Two-Phase Offboarding Framework
 
 Effective remote offboarding divides into two parallel tracks: knowledge transfer and access removal. Running these tracks simultaneously prevents the common failure mode where departing employees retain system access while critical knowledge walks out the door.
 
-Phase 1: Knowledge Transfer Architecture
+Phase 1 - Knowledge Transfer Architecture
 
 Knowledge transfer in remote teams requires explicit documentation because informal hallway conversations simply do not exist. Build a structured handoff package that includes:
 
@@ -79,7 +79,7 @@ def export_engineer_contributions(user_id, channel_ids):
     return contributions
 ```
 
-Phase 2: Access Removal Automation
+Phase 2 - Access Removal Automation
 
 Access revocation must happen in order of sensitivity. Start with the most critical systems and work outward. A typical sequence includes:
 
@@ -145,9 +145,9 @@ The Offboarding Checklist Template
 Create a standardized checklist that works for any role:
 
 ```markdown
-Departing Employee: {{name}}
-Last Day: {{date}}
-Replacement: {{replacement}}
+Departing Employee - {{name}}
+Last Day - {{date}}
+Replacement - {{replacement}}
 
 Knowledge Transfer (Complete by Last Day - 3)
 - [ ] Code ownership transferred for all repositories
@@ -203,11 +203,11 @@ def process_offboarding_queue(hris_client, it_client):
 
 Common Pitfalls to Avoid
 
-The "I" Problem: Avoid offloading all offboarding work onto the departing employee. They may not feel motivated to document everything thoroughly. Instead, assign a peer to review and supplement their handoff.
+The "I" Problem - Avoid offloading all offboarding work onto the departing employee. They may not feel motivated to document everything thoroughly. Instead, assign a peer to review and supplement their handoff.
 
-Temporal Gaps: Run knowledge transfer sessions at least one week before departure. Rushing this process guarantees gaps in institutional knowledge.
+Temporal Gaps - Run knowledge transfer sessions at least one week before departure. Rushing this process guarantees gaps in institutional knowledge.
 
-Access Blind Spots: Remote teams often accumulate shadow IT, personal API keys, temporary deployment accounts, or individual SaaS subscriptions. Query your cloud billing and audit logs to catch these:
+Access Blind Spots - Remote teams often accumulate shadow IT, personal API keys, temporary deployment accounts, or individual SaaS subscriptions. Query your cloud billing and audit logs to catch these:
 
 ```bash
 Find AWS access keys created in last 90 days
@@ -215,7 +215,7 @@ aws iam list-access-keys --region us-east-1 \
   | jq '.AccessKeyMetadata[] | select(.CreateDate > (now - 7776000))'
 ```
 
-Incomplete Communication Updates: Missing email updates cause support escalations to bounce to inactive accounts. Verify all aliases and forwarding rules before deactivating accounts.
+Incomplete Communication Updates - Missing email updates cause support escalations to bounce to inactive accounts. Verify all aliases and forwarding rules before deactivating accounts.
 
 Measuring Offboarding Effectiveness
 

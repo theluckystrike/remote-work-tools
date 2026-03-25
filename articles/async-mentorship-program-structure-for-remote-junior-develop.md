@@ -54,11 +54,11 @@ Define Clear Cadences
 
 Successful async mentorship operates on predictable schedules. Establish three communication layers:
 
-Weekly async check-ins: Both mentor and mentee write updates in a shared document. This replaces the informal hallway conversation. The mentee describes what they accomplished, what they struggled with, and what they plan to work on next. The mentor responds with feedback, resources, and questions to explore.
+Weekly async check-ins - Both mentor and mentee write updates in a shared document. This replaces the informal hallway conversation. The mentee describes what they accomplished, what they struggled with, and what they plan to work on next. The mentor responds with feedback, resources, and questions to explore.
 
-Bi-weekly video calls: Even async programs benefit from occasional live conversation. Use these sessions for complex discussions, pair programming on difficult problems, or career conversations that benefit from real-time dialogue. Keep them to thirty minutes maximum.
+Bi-weekly video calls - Even async programs benefit from occasional live conversation. Use these sessions for complex discussions, pair programming on difficult problems, or career conversations that benefit from real-time dialogue. Keep them to thirty minutes maximum.
 
-Monthly goal reviews: Every four weeks, both parties review progress against defined objectives. Adjust expectations and set new goals based on growth.
+Monthly goal reviews - Every four weeks, both parties review progress against defined objectives. Adjust expectations and set new goals based on growth.
 
 Create a Shared Documentation System
 
@@ -114,7 +114,7 @@ Provide examples, not just corrections: When suggesting improvements, show what 
 
 Ask questions rather than giving commands: "What would happen if we added caching here?" prompts thinking more effectively than "add caching."
 
-Acknowledge progress explicitly: Async communication lacks tonal cues that convey encouragement. State explicitly when you see growth: "Your PR description shows much clearer thinking about edge cases than your first submission, great progress."
+Acknowledge progress explicitly - Async communication lacks tonal cues that convey encouragement. State explicitly when you see growth: "Your PR description shows much clearer thinking about edge cases than your first submission, great progress."
 
 Handling Questions in Async Formats
 
@@ -122,12 +122,12 @@ Junior developers often struggle with when and how to ask questions in async env
 
 Define response time expectations: "I typically respond to async messages within 24 hours" gives mentees permission to wait before following up. Without this, anxious junior developers either ask too frequently (fear of being "that person") or not enough (not wanting to bother anyone).
 
-Create a question hierarchy: Distinguish between:
+Create a question hierarchy - Distinguish between:
 - Quick clarification questions (fine to ask in chat)
 - Technical debugging questions (post in dedicated channel with context)
 - Conceptual discussions (better saved for async document or video call)
 
-Require context: Teach mentees to include relevant details when asking questions: what they're trying to accomplish, what they've already tried, error messages, and what they think might be wrong. This builds debugging skills while making it easier for mentors to help.
+Require context - Teach mentees to include relevant details when asking questions: what they're trying to accomplish, what they've already tried, error messages, and what they think might be wrong. This builds debugging skills while making it easier for mentors to help.
 
 Tracking Progress and Goals
 
@@ -158,31 +158,31 @@ Tools That Support Async Mentorship
 
 Several tools make async mentorship practical:
 
-Loom: Record short video responses to complex questions. A two-minute Loom explaining a concept often works better than a lengthy text explanation, and it's asynchronous.
+Loom - Record short video responses to complex questions. A two-minute Loom explaining a concept often works better than a lengthy text explanation, and it's asynchronous.
 
-GitHub Discussions: Perfect for technical mentorship. Mentees can ask questions about code, mentors can provide answers with actual code examples, and the entire team benefits from the knowledge base.
+GitHub Discussions - Perfect for technical mentorship. Mentees can ask questions about code, mentors can provide answers with actual code examples, and the entire team benefits from the knowledge base.
 
-Habitica or Notion: Gamify goal tracking for junior developers who respond well to visual progress markers.
+Habitica or Notion - Gamify goal tracking for junior developers who respond well to visual progress markers.
 
-CodeSandbox or StackBlitz: Share runnable examples. When explaining a concept, create a live example rather than describing it in text.
+CodeSandbox or StackBlitz - Share runnable examples. When explaining a concept, create a live example rather than describing it in text.
 
 Common Pitfalls to Avoid
 
-Over-reliance on video calls: The goal is async mentorship, not remote in-person mentorship. If you find yourself scheduling weekly video calls to cover what async updates should handle, recalibrate.
+Over-reliance on video calls - The goal is async mentorship, not remote in-person mentorship. If you find yourself scheduling weekly video calls to cover what async updates should handle, recalibrate.
 
-Vague expectations: "Let me know if you need help" doesn't work for junior developers who don't know what they don't know. Be specific: "By end of week two, you should be able to complete a bug fix without my input. If mentees never receive feedback on their async updates, they'll stop writing them. Respond to every weekly update, even briefly.
+Vague expectations - "Let me know if you need help" doesn't work for junior developers who don't know what they don't know. Be specific: "By end of week two, you should be able to complete a bug fix without my input. If mentees never receive feedback on their async updates, they'll stop writing them. Respond to every weekly update, even briefly.
 
-Treating async as always-on: Define clear boundaries. "I respond to async messages during my workday, typically within 24 hours" is healthier than being available constantly.
+Treating async as always-on - Define clear boundaries. "I respond to async messages during my workday, typically within 24 hours" is healthier than being available constantly.
 
 Scaling to Multiple Mentees
 
 As your program grows, structure becomes even more important. Consider:
 
-Cohort models: Group junior developers starting together so they can support each other. They often solve each other's problems before involving mentors.
+Cohort models - Group junior developers starting together so they can support each other. They often solve each other's problems before involving mentors.
 
-Office hours: Schedule specific times when mentors are available for quick async questions. This creates predictable access without open-ended availability.
+Office hours - Schedule specific times when mentors are available for quick async questions. This creates predictable access without open-ended availability.
 
-Peer review rotation: Junior developers review each other's code. This distributes mentorship load while building review skills.
+Peer review rotation - Junior developers review each other's code. This distributes mentorship load while building review skills.
 
 Measuring Program Success
 
@@ -202,7 +202,7 @@ Junior developers learn differently. Adapt your async mentorship to match indivi
 
 Visual Learners
 
-Create visual materials: architecture diagrams, code flow charts, system design whiteboard photos. Use tools like Excalidraw or Miro to create shared visual documentation.
+Create visual materials - architecture diagrams, code flow charts, system design whiteboard photos. Use tools like Excalidraw or Miro to create shared visual documentation.
 
 ```markdown
 Visual Learning Resources
@@ -255,9 +255,9 @@ Create a "mentee cohort" channel where current mentees share resources, ask each
 ```markdown
 Mentee Cohort Best Practices
 
-Weekly: Share one thing you learned and one thing you struggled with
-Monthly: Rotate who leads a technical discussion
-Quarterly: Present what you've shipped to the whole team
+Weekly - Share one thing you learned and one thing you struggled with
+Monthly - Rotate who leads a technical discussion
+Quarterly - Present what you've shipped to the whole team
 
 This turns individual mentorship into team capability building.
 ```
@@ -302,11 +302,11 @@ Exiting the Mentorship Gracefully
 
 As mentees grow, eventually they outgrow formal mentorship. Plan for this transition:
 
-At 6-month mark: Shift from structured weekly updates to monthly check-ins. Mentee can bring specific topics if needed.
+At 6-month mark - Shift from structured weekly updates to monthly check-ins. Mentee can bring specific topics if needed.
 
-At 12-month mark: Transition to ad-hoc mentorship. Mentee can still reach out for complex problems, career advice, but no scheduled cadence.
+At 12-month mark - Transition to ad-hoc mentorship. Mentee can still reach out for complex problems, career advice, but no scheduled cadence.
 
-Beyond 12 months: You're now a peer resource, not a mentor. The relationship might naturally expand to covering business decisions, technology choices, and broader career questions.
+Beyond 12 months - You're now a peer resource, not a mentor. The relationship might naturally expand to covering business decisions, technology choices, and broader career questions.
 
 This progression shows mentees they're succeeding, you're stepping back because they're ready.
 ---

@@ -24,7 +24,7 @@ voice-checked: true
 
 Hybrid onboarding fails when the experience is inconsistent between in-office and remote days. New hires who happen to join on an office day get hallway introductions, context from overheard conversations, and spontaneous help from nearby colleagues. New hires who join on a remote day get a Zoom link and a Notion doc. The template below produces a structured, repeatable onboarding experience that works the same whether the new hire is at their desk at home or sitting in the office.
 
-Week 1: Orientation and Access
+Week 1 - Orientation and Access
 
 The first week is about getting to productive as quickly as possible without overwhelming. Every task should have a clear owner and a deadline.
 
@@ -71,11 +71,11 @@ cd ~/dev-setup && ./setup.sh
 
 Send this with a README that covers: what the script does, what to do if it fails, who to ask for help. Async setup completion means the new hire arrives (or logs on) ready to write code, not running `brew install`.
 
-Week 1: Social and Context
+Week 1 - Social and Context
 
 First 1:1 with manager (Day 1 or 2):
 
-Cover three things: what success looks like in the first 30/60/90 days, how the team communicates and makes decisions, and what the new hire should NOT spend time on in the first two weeks. That last item is important. new hires often try to tackle everything and end up context-switching too much to build deep understanding of anything.
+Cover three things - what success looks like in the first 30/60/90 days, how the team communicates and makes decisions, and what the new hire should NOT spend time on in the first two weeks. That last item is important. new hires often try to tackle everything and end up context-switching too much to build deep understanding of anything.
 
 Team introductions. async first:
 
@@ -84,20 +84,20 @@ New hire intro template (post in #introductions Slack channel):
 
 Hey team  I'm [Name], joining as [Role].
 
-Background: [2 sentences on where you're coming from]
+Background - [2 sentences on where you're coming from]
 
-What I'll be working on: [project or area]
+What I'll be working on - [project or area]
 
-Where I'm based / hours: [timezone and rough working hours]
+Where I'm based / hours - [timezone and rough working hours]
 
-Outside work: [1 interesting thing. this is what people actually remember]
+Outside work - [1 interesting thing. this is what people actually remember]
 
 Looking forward to meeting everyone. Feel free to reach out directly.
 ```
 
 Async intros work better than going around a Zoom call. People can read them at their own pace, the new hire isn't put on the spot, and the message is searchable later.
 
-Week 2-4: Ramp-Up Tasks
+Week 2-4 - Ramp-Up Tasks
 
 The goal of weeks 2-4 is a meaningful first contribution. something shipped or merged, not just setup tasks checked off.
 

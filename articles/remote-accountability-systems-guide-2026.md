@@ -22,7 +22,7 @@ Table of Contents
 
 - [Why Remote Accountability Requires Different Systems](#why-remote-accountability-requires-different-systems)
 - [Prerequisites](#prerequisites)
-- [Tool Comparison: Accountability Platforms in 2026](#tool-comparison-accountability-platforms-in-2026)
+- [Tool Comparison - Accountability Platforms in 2026](#tool-comparison-accountability-platforms-in-2026)
 - [Troubleshooting](#troubleshooting)
 
 Why Remote Accountability Requires Different Systems
@@ -43,7 +43,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Core Components of Accountability Systems
+Step 1 - Core Components of Accountability Systems
 
 A remote accountability system includes three fundamental elements: clear commitments, regular check-ins, and visible progress tracking.
 
@@ -152,7 +152,7 @@ Visible Progress Tracking
 
 Accountability requires transparency. Team members should see what others are working on without asking. Shared project management tools with clear status indicators make progress visible across the organization.
 
-Tool Comparison: Accountability Platforms in 2026
+Tool Comparison - Accountability Platforms in 2026
 
 Choosing the right tool depends on your team's existing workflow and the level of integration you need. Here is a practical comparison of the leading options:
 
@@ -166,7 +166,7 @@ Choosing the right tool depends on your team's existing workflow and the level o
 
 For small engineering teams (under 20 people), Geekbot or a GitHub Actions workflow gives you 80% of the value at minimal cost. Larger organizations with HR requirements benefit from Lattice's integration with performance review cycles. The custom approach using Linear and GitHub Actions requires more setup but gives you complete control over the data.
 
-Step 2: Build Custom Accountability Tools
+Step 2 - Build Custom Accountability Tools
 
 For teams wanting full control, building custom accountability systems provides maximum flexibility. Here's a minimal implementation using a GitHub Actions workflow that tracks issue progress:
 
@@ -196,7 +196,7 @@ jobs:
             console.log('Created issue:', issue.data.number)
 ```
 
-Step 3: Key Principles for Effective Implementation
+Step 3 - Key Principles for Effective Implementation
 
 Start small and iterate. Implementing accountability overnight overwhelms teams. Begin with weekly check-ins, then gradually add more frequent updates as the culture adapts.
 
@@ -226,7 +226,7 @@ async function generateWeeklyProgressReport(teamId, db) {
 }
 ```
 
-Step 4: Common Pitfalls to Avoid
+Step 4 - Common Pitfalls to Avoid
 
 Over-monitoring creates resentment. Tracking every keystroke or requiring constant status updates signals distrust. Respect team members' autonomy by measuring outcomes instead of activities.
 
@@ -238,7 +238,7 @@ The "always on" trap. Some teams implement accountability systems that implicitl
 
 Duplicate update fatigue. If a developer updates Jira, then posts in Slack, then fills in Geekbot, and then updates a Notion sprint board, they are spending 20 minutes a day on status theater. The best accountability systems pull from a single source of truth. usually the issue tracker. and distribute that information automatically.
 
-Step 5: Accountability for Different Work Styles
+Step 5 - Accountability for Different Work Styles
 
 Not every team member responds to the same accountability structure. Recognize these common patterns and design accordingly:
 
@@ -248,7 +248,7 @@ Not every team member responds to the same accountability structure. Recognize t
 
 A one-size-fits-all accountability cadence is a common failure mode. Build a system flexible enough that different team members can operate at different check-in frequencies while still feeding into the same shared visibility layer.
 
-Step 6: Measuring Success
+Step 6 - Measuring Success
 
 Track these metrics to evaluate your accountability system:
 

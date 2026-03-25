@@ -20,14 +20,14 @@ Run async bug triage by standardizing a bug report template with required fields
 Table of Contents
 
 - [What Makes Async Bug Triage Effective](#what-makes-async-bug-triage-effective)
-- [Step 1: Standardize Your Bug Report Template](#step-1-standardize-your-bug-report-template)
-- [Bug Report: [Short Title]](#bug-report-short-title)
-- [Step 2: Establish Clear Triage Workflow](#step-2-establish-clear-triage-workflow)
-- [Step 3: Configure Bug Tracker Fields](#step-3-configure-bug-tracker-fields)
-- [Step 4: Define Severity Guidelines](#step-4-define-severity-guidelines)
-- [Step 5: Conduct Async Triage Reviews](#step-5-conduct-async-triage-reviews)
-- [Step 6: Handle Edge Cases](#step-6-handle-edge-cases)
-- [Step 7: Close the Loop](#step-7-close-the-loop)
+- [Step 1 - Standardize Your Bug Report Template](#step-1-standardize-your-bug-report-template)
+- [Bug Report - [Short Title]](#bug-report-short-title)
+- [Step 2 - Establish Clear Triage Workflow](#step-2-establish-clear-triage-workflow)
+- [Step 3 - Configure Bug Tracker Fields](#step-3-configure-bug-tracker-fields)
+- [Step 4 - Define Severity Guidelines](#step-4-define-severity-guidelines)
+- [Step 5 - Conduct Async Triage Reviews](#step-5-conduct-async-triage-reviews)
+- [Step 6 - Handle Edge Cases](#step-6-handle-edge-cases)
+- [Step 7 - Close the Loop](#step-7-close-the-loop)
 - [Practical Tips for Remote QA Teams](#practical-tips-for-remote-qa-teams)
 - [Triage Checklist](#triage-checklist)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
@@ -38,14 +38,14 @@ The foundation of successful async bug triage lies in structured information cap
 
 Effective async triage also depends on clear severity guidelines that team members apply consistently. Without shared criteria, the same bug might receive different priority levels from different triagers. Establishing explicit guidelines ensures uniform classification across the team.
 
-Step 1: Standardize Your Bug Report Template
+Step 1 - Standardize Your Bug Report Template
 
 Before beginning triage, your team needs a consistent bug report format. A well-structured template captures all information triagers need to make informed decisions.
 
 Create a markdown template your team uses for all bug submissions:
 
 ```markdown
-Bug Report: [Short Title]
+Bug Report - [Short Title]
 
 Environment
 - Browser/OS: [e.g., Chrome 120 / macOS Sonoma]
@@ -78,19 +78,19 @@ Priority
 
 This template ensures every bug report contains essential information. Triagers can immediately assess severity without requesting clarification.
 
-Step 2: Establish Clear Triage Workflow
+Step 2 - Establish Clear Triage Workflow
 
 Define exactly how bugs move through your triage process. A typical async workflow involves three stages:
 
-Submission: QA team members file bugs using the standardized template. They assign an initial severity rating based on guidelines.
+Submission - QA team members file bugs using the standardized template. They assign an initial severity rating based on guidelines.
 
-Review: A designated triager (or rotating triage role) reviews incoming bugs within a defined timeframe, 24 to 48 hours is standard for most teams. The triager verifies completeness, confirms severity ratings, and assigns priority.
+Review - A designated triager (or rotating triage role) reviews incoming bugs within a defined timeframe, 24 to 48 hours is standard for most teams. The triager verifies completeness, confirms severity ratings, and assigns priority.
 
-Assignment: Once triaged, bugs enter the development queue with clear priority and severity labels. Developers can pick up prioritized items with confidence the information is complete.
+Assignment - Once triaged, bugs enter the development queue with clear priority and severity labels. Developers can pick up prioritized items with confidence the information is complete.
 
 Document this workflow and share it with the entire team. Visibility into the process prevents confusion about where bugs stand.
 
-Step 3: Configure Bug Tracker Fields
+Step 3 - Configure Bug Tracker Fields
 
 Your bug tracker should enforce the information structure defined in your template. Most platforms support custom fields and validation rules.
 
@@ -122,34 +122,34 @@ gh label create "priority:p3" --color "0099FF" --description "Future considerati
 
 These labels create visual consistency and allow filtering in your bug tracker.
 
-Step 4: Define Severity Guidelines
+Step 4 - Define Severity Guidelines
 
 Consistent severity ratings require explicit guidelines. Create a reference document your team uses when classifying bugs:
 
-Critical (Severity: Critical)
+Critical (Severity - Critical)
 - Data loss or corruption
 - Security vulnerability
 - Complete feature failure with no workaround
 - Application crash blocking all users
 
-High (Severity: High)
+High (Severity - High)
 - Major feature non-functional
 - Significant data inconsistency
 - Workaround exists but is complex or unknown to users
 
-Medium (Severity: Medium)
+Medium (Severity - Medium)
 - Feature partially functional
 - UI/UX issues affecting user experience
 - Minor data inconsistencies
 
-Low (Severity: Low)
+Low (Severity - Low)
 - Typographical errors
 - Cosmetic issues not affecting functionality
 - Minor UI misalignments
 
 Share these guidelines in your team documentation and reference them during triage.
 
-Step 5: Conduct Async Triage Reviews
+Step 5 - Conduct Async Triage Reviews
 
 Schedule regular triage reviews, daily or every other day depending on bug volume. During these sessions, triagers work through un triaged bugs asynchronously using your bug tracker.
 
@@ -171,7 +171,7 @@ Triage Notes:
 - Assigning to @developer for immediate attention
 ```
 
-Step 6: Handle Edge Cases
+Step 6 - Handle Edge Cases
 
 Some bugs require more discussion than async triage accommodates. Identify criteria for escalation:
 
@@ -182,14 +182,14 @@ Some bugs require more discussion than async triage accommodates. Identify crite
 
 For these cases, create a dedicated async discussion thread or flag for synchronous clarification. The goal is handling 80-90% of triage asynchronously while reserving synchronous time for complex cases.
 
-Step 7: Close the Loop
+Step 7 - Close the Loop
 
 After triage completes, communicate status to submitters. This feedback encourages complete bug reports and maintains engagement.
 
 Use a simple update format:
 
 ```markdown
-Triage Complete for: Login Button Not Responding
+Triage Complete for - Login Button Not Responding
 
 -  Severity confirmed: HIGH
 -  Priority assigned: P0

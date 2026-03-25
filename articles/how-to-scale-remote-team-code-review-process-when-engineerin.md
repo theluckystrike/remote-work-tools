@@ -20,7 +20,7 @@ Scale code review from 10 to 30 developers by assigning ownership-based reviewer
 Table of Contents
 
 - [Prerequisites](#prerequisites)
-- [Strategy 2: Implement Tiered Review Requirements](#strategy-2-implement-tiered-review-requirements)
+- [Strategy 2 - Implement Tiered Review Requirements](#strategy-2-implement-tiered-review-requirements)
 - [Troubleshooting](#troubleshooting)
 - [Detailed Reviewer Assignment Strategy](#detailed-reviewer-assignment-strategy)
 
@@ -34,7 +34,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Core Problem: Why Tripling Breaks Your Review Process
+Step 1 - The Core Problem: Why Tripling Breaks Your Review Process
 
 When you have 10 developers, informal communication works. Someone posts in Slack, "Hey, can you review my PR?" and within a few hours, a teammate takes a look. With 30 developers across multiple time zones, this ad-hoc approach collapses. You end up with:
 
@@ -45,20 +45,20 @@ When you have 10 developers, informal communication works. Someone posts in Slac
 
 The solution isn't to make everyone review more code. It's to build a system that distributes review load effectively while maintaining quality.
 
-Step 2: Strategy 1: Establish Clear Review Guidelines
+Step 2 - Strategy 1: Establish Clear Review Guidelines
 
 Before scaling processes, your team needs agreement on what makes a good code review. Create a `REVIEW_GUIDELINES.md` document that covers:
 
 ```markdown
 Code Review Guidelines
 
-Step 3: For Authors
+Step 3 - For Authors
 - Keep PRs under 400 lines of changes
 - Include context in PR description
 - Self-review before requesting reviewers
 - Respond to feedback within 24 hours
 
-Step 4: For Reviewers
+Step 4 - For Reviewers
 - Prioritize reviews from your team first
 - Complete reviews within 24 hours
 - Focus on logic, edge cases, and security
@@ -67,7 +67,7 @@ Step 4: For Reviewers
 
 This document becomes your source of truth when disputes arise and helps new team members contribute effectively from day one.
 
-Strategy 2: Implement Tiered Review Requirements
+Strategy 2 - Implement Tiered Review Requirements
 
 Not all code requires the same level of scrutiny. Implement a tiered review system based on risk and complexity:
 
@@ -92,7 +92,7 @@ review_requirements:
 
 This ensures senior engineers focus on high-impact changes while routine changes flow through quickly.
 
-Step 5: Strategy 3: Create Dedicated Review Rotations
+Step 5 - Strategy 3: Create Dedicated Review Rotations
 
 Implement a rotating review assignment system. Each week, two developers serve as primary reviewers for incoming PRs. This prevents review fatigue and ensures accountability.
 
@@ -120,7 +120,7 @@ jobs:
 
 The rotation ensures no single person becomes a bottleneck and distributes domain knowledge across the team.
 
-Step 6: Strategy 4: Use Automation to Filter Noise
+Step 6 - Strategy 4: Use Automation to Filter Noise
 
 Automate what doesn't need human judgment. Configure your CI to handle these automatically:
 
@@ -146,7 +146,7 @@ jobs:
 
 When code passes all automated checks, reviewers can focus on logic and architecture rather than formatting disputes.
 
-Step 7: Strategy 5: Timebox Reviews and Set Expectations
+Step 7 - Strategy 5: Timebox Reviews and Set Expectations
 
 Remote teams across time zones need clear expectations. Define SLAs for code review:
 
@@ -158,7 +158,7 @@ Remote teams across time zones need clear expectations. Define SLAs for code rev
 
 If a PR exceeds these limits, escalate to the team lead. This prevents PRs from languishing and keeps the pipeline moving.
 
-Step 8: Strategy 6: Implement PR Size Limits
+Step 8 - Strategy 6: Implement PR Size Limits
 
 Large PRs are hard to review thoroughly. Enforce limits programmatically:
 
@@ -180,7 +180,7 @@ function validatePRSize(files) {
 
 When developers can't submit massive PRs, they naturally decompose problems into smaller, more reviewable pieces.
 
-Step 9: Measuring Success
+Step 9 - Measuring Success
 
 Track these metrics to know if your scaling efforts work:
 
@@ -201,7 +201,7 @@ GROUP BY reviewer
 ORDER BY review_count DESC;
 ```
 
-Step 10: Common Pitfalls to Avoid
+Step 10 - Common Pitfalls to Avoid
 
 Don't make these mistakes when scaling your review process:
 
@@ -210,7 +210,7 @@ Don't make these mistakes when scaling your review process:
 3. Ignoring time zone coverage - Ensure reviewers are available during your team's overlap hours
 4. Treating all PRs equally - Security code needs more eyes than documentation updates
 
-Step 11: Build a Scalable Review Culture
+Step 11 - Build a Scalable Review Culture
 
 Scaling code review isn't just about processes, it's about building a culture where review is seen as a critical part of development, not an interruption. When developers understand that good reviews make the whole team better, they invest the time to do them well.
 
@@ -253,35 +253,35 @@ Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-Step 12: Implementation Workflow Template
+Step 12 - Implementation Workflow Template
 
 Here's a practical implementation workflow for scaling your review process:
 
 ```markdown
 Code Review Scaling Implementation Checklist
 
-Step 13: Week 1: Assessment and Documentation
+Step 13 - Week 1: Assessment and Documentation
 - [ ] Audit current review process using metrics above
 - [ ] Document existing informal practices
 - [ ] Identify bottleneck reviewers
 - [ ] Map team by code domain expertise
 - [ ] Create first draft of review guidelines
 
-Step 14: Week 2: Setup and Tools
+Step 14 - Week 2: Setup and Tools
 - [ ] Configure branch protection rules in GitHub
 - [ ] Set up review rotation automation
 - [ ] Create tiered review configuration
 - [ ] Test PR size checking in CI
 - [ ] Prepare reviewer communication
 
-Step 15: Week 3: Team Training and Launch
+Step 15 - Week 3: Team Training and Launch
 - [ ] Share review guidelines with team
 - [ ] Conduct training session on new process
 - [ ] Schedule rotation kickoff
 - [ ] Monitor first week of metrics
 - [ ] Gather feedback from reviewers
 
-Step 16: Week 4: Refinement
+Step 16 - Week 4: Refinement
 - [ ] Adjust review requirements based on feedback
 - [ ] Optimize rotation schedule for time zones
 - [ ] Create team documentation wiki
@@ -331,19 +331,19 @@ code_domains:
     expected_turnaround_hours: 24
 ```
 
-Step 17: Build Review Culture Beyond Process
+Step 17 - Build Review Culture Beyond Process
 
 The best code review systems fail without the right culture. Use these practices to strengthen review adoption:
 
-Celebrate good reviews: Recognize developers who provide exceptionally helpful feedback. Share excellent review comments in team channels, not to shame authors, but to model what quality feedback looks like.
+Celebrate good reviews - Recognize developers who provide exceptionally helpful feedback. Share excellent review comments in team channels, not to shame authors, but to model what quality feedback looks like.
 
-Review as teaching: Frame reviews as opportunities to teach, not judge. When a reviewer suggests an alternative approach, explain the reasoning. This turns review comments into learning moments.
+Review as teaching - Frame reviews as opportunities to teach, not judge. When a reviewer suggests an alternative approach, explain the reasoning. This turns review comments into learning moments.
 
-Author responsibility: Require authors to respond to feedback, even if just to acknowledge understanding. Reviewers who know their feedback will be acknowledged invest more effort.
+Author responsibility - Require authors to respond to feedback, even if just to acknowledge understanding. Reviewers who know their feedback will be acknowledged invest more effort.
 
-Rotation means everyone reviews: Don't let certain people become default reviewers. A rotation system ensures junior developers grow into the practice while distributing load fairly.
+Rotation means everyone reviews - Don't let certain people become default reviewers. A rotation system ensures junior developers grow into the practice while distributing load fairly.
 
-Step 18: Metrics Dashboard Example
+Step 18 - Metrics Dashboard Example
 
 Track these metrics continuously to ensure your system is working:
 

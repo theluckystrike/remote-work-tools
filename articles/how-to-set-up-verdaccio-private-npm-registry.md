@@ -37,7 +37,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Docker Deployment
+Step 1 - Docker Deployment
 
 ```yaml
 docker-compose.yml
@@ -64,7 +64,7 @@ mkdir -p verdaccio/config verdaccio/storage verdaccio/plugins
 sudo chown -R 10001:65533 verdaccio/
 ```
 
-Step 2: Verdaccio Configuration
+Step 2 - Verdaccio Configuration
 
 ```yaml
 verdaccio/config/config.yaml
@@ -130,7 +130,7 @@ web:
   scope: "@acme"
 ```
 
-Step 3: User Management
+Step 3 - User Management
 
 ```bash
 Install verdaccio CLI
@@ -145,7 +145,7 @@ Self-service via npm (if registration is enabled)
 npm adduser --registry https://npm.example.com
 ```
 
-Step 4: Nginx Reverse Proxy
+Step 4 - Nginx Reverse Proxy
 
 ```nginx
 /etc/nginx/sites-available/verdaccio
@@ -175,27 +175,27 @@ server {
 }
 ```
 
-Step 5: Developer Configuration
+Step 5 - Developer Configuration
 
 Each developer configures their npm to use the private registry:
 
 ```bash
-Method 1: .npmrc in project root (recommended, committed to git)
+Method 1 - .npmrc in project root (recommended, committed to git)
 .npmrc
 registry=https://npm.example.com/
 @acme:registry=https://npm.example.com/
 //npm.example.com/:_authToken=${NPM_TOKEN}
 always-auth=false
 
-Method 2: Global npm config
+Method 2 - Global npm config
 npm config set registry https://npm.example.com
 npm config set @acme:registry https://npm.example.com
 
 Login
 npm login --registry https://npm.example.com
-Username: alice
-Password: alicepassword
-Email: alice@example.com
+Username - alice
+Password - alicepassword
+Email - alice@example.com
 
 Verify
 npm whoami --registry https://npm.example.com
@@ -217,7 +217,7 @@ npmScopes:
     npmRegistryServer: "https://npm.example.com"
 ```
 
-Step 6: Publish Internal Packages
+Step 6 - Publish Internal Packages
 
 ```json
 // packages/ui-components/package.json
@@ -251,7 +251,7 @@ Install in another project
 npm install @acme/ui-components
 ```
 
-Step 7: Configure CI/CD Publishing Workflow
+Step 7 - Configure CI/CD Publishing Workflow
 
 ```yaml
 .github/workflows/publish.yml
@@ -287,7 +287,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 ```
 
-Step 8: S3 Storage Backend
+Step 8 - S3 Storage Backend
 
 For production with multiple replicas, use S3 instead of local filesystem:
 
@@ -311,7 +311,7 @@ AWS_ACCESS_KEY_ID=your-access-key
 AWS_SECRET_ACCESS_KEY=your-secret
 ```
 
-Step 9: Backup and Restore
+Step 9 - Backup and Restore
 
 ```bash
 #!/bin/bash
@@ -469,7 +469,7 @@ The trade-off compared to managed alternatives:
 
 - vs. npm Organizations (npmjs.com): npm Orgs is simpler to set up and requires no infrastructure, but you pay per seat and all packages live on the public internet. Verdaccio keeps packages fully private with no external exposure.
 - vs. GitHub Packages (GHCR for npm): GitHub Packages is convenient if you are already on GitHub, but package visibility is tied to repo visibility, and download bandwidth costs can add up at scale. Verdaccio has no per-download cost.
-- vs. Artifactory/Nexus: Both support npm registries with enterprise features (LDAP, HA, auditing), but they are significantly heavier and require paid licenses for production features. Verdaccio covers 90% of what most teams need without the operational burden.
+- vs. Artifactory/Nexus - Both support npm registries with enterprise features (LDAP, HA, auditing), but they are significantly heavier and require paid licenses for production features. Verdaccio covers 90% of what most teams need without the operational burden.
 
 For a team of 5-50 developers publishing a handful of internal packages, Verdaccio is the practical choice. When you need HA, cross-format support (Maven, PyPI, Docker in one tool), and enterprise RBAC, Nexus or Artifactory become worth the complexity.
 

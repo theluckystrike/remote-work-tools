@@ -72,15 +72,15 @@ Available Benefits
 
 Employees may select ONE of the following options:
 
-Option A: Monthly Stipend
+Option A - Monthly Stipend
 $400/month deposited to a designated childcare account
 (Pre-tax, administered via FSA-eligible provider)
 
-Option B: On-Site Childcare Partnership
+Option B - On-Site Childcare Partnership
 Drop-in childcare at partner facilities near office locations
 (Covers up to 2 office days per week)
 
-Option C: Flexible Spending Contribution
+Option C - Flexible Spending Contribution
 Organization contributes $200/month to employee-managed childcare arrangement
 (Invoice required monthly)
 ```
@@ -308,7 +308,7 @@ Effective [DATE], the childcare stipend program will update as follows:
 
 | | Current | New |
 |---|---|---|
-| Option A: Monthly Stipend | $400/month | $450/month |
+| Option A - Monthly Stipend | $400/month | $450/month |
 | Option B: On-Site Partnership | 2 days/week | 3 days/week |
 | Option C: Flexible Contribution | $200/month | $250/month |
 

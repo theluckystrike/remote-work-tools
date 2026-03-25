@@ -36,7 +36,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Set Up Your Session Infrastructure
+Step 1 - Set Up Your Session Infrastructure
 
 The foundation of a good remote UX research session is reliable video conferencing software that supports breakout rooms or parallel streams. Most modern tools handle this, but configuration matters.
 
@@ -73,7 +73,7 @@ ux-session-YYYY-MM-DD-participant-name
 - #debrief (for post-session discussion)
 ```
 
-Step 2: Pre-Session Preparation
+Step 2 - Pre-Session Preparation
 
 Participant Briefing
 
@@ -93,7 +93,7 @@ Observer Guidelines
 Provide observers with a simple brief:
 
 ```markdown
-Step 3: Observer Guidelines
+Step 3 - Observer Guidelines
 1. Cameras on preferred but optional
 2. Use chat for questions during session
 3. Save questions for debrief period
@@ -101,7 +101,7 @@ Step 3: Observer Guidelines
 5. Avoid sidebar conversations that may distract participant
 ```
 
-Step 4: Run the Session
+Step 4 - Run the Session
 
 Session Structure
 
@@ -147,7 +147,7 @@ Observer best practices during screen share
 5. Avoid tab-switching or notifications
 ```
 
-Step 5: Post-Session Workflow
+Step 5 - Post-Session Workflow
 
 Immediate Follow-Up
 
@@ -163,14 +163,14 @@ Debrief Process
 Schedule a 15-30 minute debrief with observers within 24 hours while memories are fresh:
 
 ```markdown
-Step 6: Debrief Agenda
+Step 6 - Debrief Agenda
 1. Quick impressions (5 min). What stood out?
 2. Theme identification (10 min). Group observations
 3. Prioritization (5 min). What matters most?
 4. Action items (5 min). Who does what by when?
 ```
 
-Step 7: Handling Common Challenges
+Step 7 - Handling Common Challenges
 
 Participant Comfort
 
@@ -194,14 +194,14 @@ Technical Failures
 Always have a backup plan:
 
 ```markdown
-Step 8: Backup Procedures
+Step 8 - Backup Procedures
 - Phone number for participant (offline backup)
 - Local recording backup if cloud fails
 - Alternative platform link ready
 - Session can resume if interrupted (note timestamp)
 ```
 
-Step 9: Tools for Collaborative Note-Taking
+Step 9 - Tools for Collaborative Note-Taking
 
 For distributed teams, synchronous note-taking tools help:
 
@@ -229,7 +229,7 @@ The Cascade Model for Multiple Sessions
 Instead of cramming 15 stakeholders into one session, run 2-3 shorter sessions:
 
 ```markdown
-Step 10: Session Cascade Planning
+Step 10 - Session Cascade Planning
 
 Session 1 (Day 1, 10:00 AM):
 - Participant: Early adopter or power user
@@ -246,7 +246,7 @@ Session 3 (Day 2, 10:00 AM):
 - Observers: Onboarding, customer success, stakeholders unable to attend other sessions
 - Focus: Accessibility, clarity of instructions
 
-Debrief: Combine observations from all three sessions the next day
+Debrief - Combine observations from all three sessions the next day
 ```
 
 This approach gives more stakeholders visibility while keeping individual sessions focused. Each observer group sees relevant sessions for their domain.
@@ -265,22 +265,22 @@ Psychological limits:
 - Sidebar chat becomes distracting with more than 5-7 active participants
 - Screen sharing performance degrades with high observer bandwidth usage
 
-Solution: Secondary observation stream
+Solution - Secondary observation stream
 
 Create a separate meeting link for observers who can't attend live:
 
 ```markdown
-Step 11: Live Session: Main Research Call
+Step 11 - Live Session: Main Research Call
 - Link: zoom.us/j/[main-meeting]
 - Max 7 observers + moderator + participant
 
-Step 12: Live Streaming Link: For Additional Stakeholders
+Step 12 - Live Streaming Link: For Additional Stakeholders
 - Link: zoom.us/j/[streaming-meeting]
 - View-only stream from main meeting
 - No camera or audio (observers watch only)
 - Allows 50+ additional stakeholders to observe
 
-Step 13: Archived Recording: For Asynchronous Review
+Step 13 - Archived Recording: For Asynchronous Review
 - Available within 2 hours in Slack
 - Optional viewing for stakeholders with timezone conflicts
 ```
@@ -292,9 +292,9 @@ Using Breakout Rooms for Distributed Debriefs
 For global teams, debrief after the research session can be challenging. Use breakout rooms strategically:
 
 ```markdown
-Step 14: Post-Session Debrief Structure (30 min total)
+Step 14 - Post-Session Debrief Structure (30 min total)
 
-Main room (5 min): Quick impressions from moderator
+Main room (5 min) - Quick impressions from moderator
 - "One thing that surprised me: ___"
 - "One thing confirmed: ___"
 
@@ -303,14 +303,14 @@ Breakout rooms by function (15 min each, running in parallel):
 - Room 2 (Design): Usability patterns, inconsistencies
 - Room 3 (Engineering): Technical feasibility concerns
 
-Reconvene main room (5 min): Each lead shares key insights
+Reconvene main room (5 min) - Each lead shares key insights
 
-Slack thread (async): Extended discussion continues post-meeting
+Slack thread (async) - Extended discussion continues post-meeting
 ```
 
 This structure ensures synchronous debrief while accommodating different timezones through async follow-up.
 
-Step 15: Set Up Participant Comfort in Research
+Step 15 - Set Up Participant Comfort in Research
 
 Beyond logistics, participant comfort directly impacts data quality. Uncomfortable participants perform worse and provide less honest feedback.
 
@@ -319,7 +319,7 @@ Pre-Session Rapport Building
 Send participants more than just a calendar invite:
 
 ```markdown
-Step 16: Welcome Email (3 days before session)
+Step 16 - Welcome Email (3 days before session)
 
 Hi [Name],
 
@@ -337,7 +337,7 @@ What you should do:
 - Use the Zoom desktop client (mobile app is limited)
 - Test your audio 5 minutes early
 
-If you have questions: Reply to this email or call [phone number]
+If you have questions - Reply to this email or call [phone number]
 
 See you [date] at [time]!
 ```
@@ -349,9 +349,9 @@ During-Session Comfort Checks
 Brief comfort checks improve participant honesty:
 
 ```markdown
-Step 17: Mid-Session Check-Ins (every 15-20 min)
+Step 17 - Mid-Session Check-Ins (every 15-20 min)
 
-Moderator: "How are you doing? Any questions or concerns so far?"
+Moderator - "How are you doing? Any questions or concerns so far?"
 - Listen for hesitation, they might need clarification
 - Watch for fatigue, you might need a 2-minute break
 - Notice if they seem uncomfortable with observers
@@ -370,7 +370,7 @@ Informed Consent Process
 Get explicit consent before recording:
 
 ```markdown
-Step 18: Consent Form (sent before session, signed before starting)
+Step 18 - Consent Form (sent before session, signed before starting)
 
 I agree that:
  This session may be recorded (audio and video)
@@ -379,8 +379,8 @@ I agree that:
  No identifying information will be shared publicly
  I may ask to stop recording at any time
 
-Participant Signature: _________________ Date: _______
-Researcher Signature: _________________ Date: _______
+Participant Signature - _________________ Date: _______
+Researcher Signature - _________________ Date: _______
 ```
 
 Storage best practices:
@@ -397,7 +397,7 @@ Instead of sharing full recordings, extract relevant clips:
 #!/bin/bash
 extract-research-clips.sh - Extract specific moments from recorded session
 
-Usage: ./extract-research-clips.sh input.mp4 start_minute end_minute output.mp4
+Usage - ./extract-research-clips.sh input.mp4 start_minute end_minute output.mp4
 ./extract-research-clips.sh session.mp4 12 18 clip-confusion.mp4
 
 ffmpeg -i "$1" -ss "00:$2:00" -to "00:$3:00" -c copy "$4"

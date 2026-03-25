@@ -31,7 +31,7 @@ Table of Contents
 - [Meeting Agenda (Reusable Template)](#meeting-agenda-reusable-template)
 - [After Meeting](#after-meeting)
 - [Migrating Between Platforms Without Disrupting Clients](#migrating-between-platforms-without-disrupting-clients)
-- [Cost Comparison: Paid vs. Free vs. Self-Hosted](#cost-comparison-paid-vs-free-vs-self-hosted)
+- [Cost Comparison - Paid vs. Free vs. Self-Hosted](#cost-comparison-paid-vs-free-vs-self-hosted)
 - [Security Considerations for Client Meetings](#security-considerations-for-client-meetings)
 - [Troubleshooting Common Issues](#troubleshooting-common-issues)
 
@@ -207,7 +207,7 @@ Client Meeting Room Protocol (Internal Documentation)
 
 Standing Recurring Check-in
 - Client: TechStartup Inc
-- Room Link: https://meet.yourdomain.com/techstartup-inc
+- Room Link - https://meet.yourdomain.com/techstartup-inc
 - Schedule: Tuesdays 2:00 PM CET / 1:00 PM UTC
 - Recurrence: Indefinite until project completion
 - Duration: 30 minutes
@@ -246,10 +246,10 @@ Dear [Client Name],
 
 Starting [DATE], our weekly check-in will use a new meeting platform that will provide better [FEATURE: recording, whiteboarding, integrations].
 
-Old meeting link: No longer active
-New meeting link: https://meet.yourdomain.com/client-name
-Time: Unchanged (Tuesdays 2:00 PM CET)
-What changes: Platform, appearance, same structured agenda
+Old meeting link - No longer active
+New meeting link - https://meet.yourdomain.com/client-name
+Time - Unchanged (Tuesdays 2:00 PM CET)
+What changes - Platform, appearance, same structured agenda
 
 Instructions for your first meeting:
 1. Click the new link above
@@ -264,32 +264,32 @@ Looking forward to continued partnership.
 
 Give clients 2-3 weeks notice and offer a practice call if they're not tech-comfortable.
 
-Cost Comparison: Paid vs. Free vs. Self-Hosted
+Cost Comparison - Paid vs. Free vs. Self-Hosted
 
 For one recurring client relationship, cost efficiency matters:
 
 ```
-Scenario: Single client, weekly 30-minute check-in, 52 weeks/year
+Scenario - Single client, weekly 30-minute check-in, 52 weeks/year
 
-Option 1: Free Zoom (Limited 40 minutes on group calls)
+Option 1 - Free Zoom (Limited 40 minutes on group calls)
 - Cost: $0
 - Setup time: 5 minutes
 - Problem: Calls cut off automatically, must restart
 - Hidden cost: 1 minute/week reconnecting = 52 minutes/year lost
 
-Option 2: Zoom Pro ($15.99/month)
+Option 2 - Zoom Pro ($15.99/month)
 - Cost: $192/year
 - Setup time: 10 minutes (account creation, PMI setup)
 - Benefit: Unlimited call length, persistent meeting room
 - ROI: Eliminates reconnection pain, professional appearance
 
-Option 3: Whereby ($30/month)
+Option 3 - Whereby ($30/month)
 - Cost: $360/year
 - Setup time: 20 minutes (custom branding, room setup)
 - Benefits: Embeddable room, simple interface, no client software needed
 - ROI: Clients appreciate simplicity, reduces tech support questions
 
-Option 4: Self-hosted Jitsi (Free)
+Option 4 - Self-hosted Jitsi (Free)
 - Cost: $0 (or $30-50/month for hosting)
 - Setup time: 2-4 hours (installation, SSL cert, testing)
 - Benefits: Complete control, privacy, scalability
@@ -302,10 +302,10 @@ Security Considerations for Client Meetings
 
 Your persistent meeting room is a potential security liability. Implement basic protections:
 
-Waiting Room: Always enable so you control when clients enter
-Recording Permissions: Disable client ability to record without permission
-Chat: Allow only authenticated participants to chat
-Screen Sharing: Restrict to only hosts (you) unless client needs to present
+Waiting Room - Always enable so you control when clients enter
+Recording Permissions - Disable client ability to record without permission
+Chat - Allow only authenticated participants to chat
+Screen Sharing - Restrict to only hosts (you) unless client needs to present
 
 ```bash
 Zoom meeting security checklist
@@ -323,20 +323,20 @@ For sensitive discussions, ensure your backdrop is clean and no confidential inf
 
 Troubleshooting Common Issues
 
-Problem: Audio drops frequently
-- Solution: Client likely on weak WiFi. Suggest they move closer to router or use wired connection for important calls
+Problem - Audio drops frequently
+- Solution - Client likely on weak WiFi. Suggest they move closer to router or use wired connection for important calls
 
-Problem: Client can't find the meeting link
-- Solution: Send the link in a different way (SMS, backup email) with clear instructions. Assume they didn't save the first version.
+Problem - Client can't find the meeting link
+- Solution - Send the link in a different way (SMS, backup email) with clear instructions. Assume they didn't save the first version.
 
-Problem: Participants complain about lag/video quality
-- Solution: Request everyone disable video except when actively speaking. Prioritize audio over video for reliability.
+Problem - Participants complain about lag/video quality
+- Solution - Request everyone disable video except when actively speaking. Prioritize audio over video for reliability.
 
-Problem: Client cancels frequently last-minute
-- Solution: Send reminder 24 hours before and 15 minutes before. Most cancellations drop from forgetfulness with proper reminders.
+Problem - Client cancels frequently last-minute
+- Solution - Send reminder 24 hours before and 15 minutes before. Most cancellations drop from forgetfulness with proper reminders.
 
-Problem: Meeting room feels impersonal or awkward
-- Solution: Start with 2 minutes casual conversation (weather, weekend plans) before jumping into agenda. Human connection matters.
+Problem - Meeting room feels impersonal or awkward
+- Solution - Start with 2 minutes casual conversation (weather, weekend plans) before jumping into agenda. Human connection matters.
 
 Frequently Asked Questions
 

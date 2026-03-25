@@ -48,10 +48,10 @@ Start with a consistent template that captures the essential information your te
 ```markdown
 Sprint/Project Retrospective
 
-Date: YYYY-MM-DD
-Team: [Team Name]
-Participants: [Names]
-Sprint/Project: [Identifier]
+Date - YYYY-MM-DD
+Team - [Team Name]
+Participants - [Names]
+Sprint/Project - [Identifier]
 
 What Went Well
 -
@@ -208,7 +208,7 @@ Retrospective Action Item Tracking
 | Q4 2025 | 24 | 18 | 4 | 2 |
 | Q1 2026 | 31 | 12 | 15 | 4 |
 
-Implementation Rate: 65%
+Implementation Rate - 65%
 ```
 
 A team whose implementation rate is consistently below 50% has a different problem than a documentation problem. the retrospective process itself needs adjustment. Tracking this metric makes the problem visible instead of invisible.

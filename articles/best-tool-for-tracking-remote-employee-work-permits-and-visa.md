@@ -23,7 +23,7 @@ Table of Contents
 - [The Core Problem](#the-core-problem)
 - [Building a Custom Tracking System with Python and Notion](#building-a-custom-tracking-system-with-python-and-notion)
 - [Using Airtable for Visual Tracking](#using-airtable-for-visual-tracking)
-- [Enterprise Solutions: Rippling and Deel](#enterprise-solutions-rippling-and-deel)
+- [Enterprise Solutions - Rippling and Deel](#enterprise-solutions-rippling-and-deel)
 - [Key Features Every Tracking System Needs](#key-features-every-tracking-system-needs)
 - [Running Automated Checks in CI/CD](#running-automated-checks-in-cicd)
 - [Choosing Your Approach](#choosing-your-approach)
@@ -32,7 +32,7 @@ Table of Contents
 - [Audit Trail Requirements for Compliance](#audit-trail-requirements-for-compliance)
 - [Integration with HR Systems and Payroll](#integration-with-hr-systems-and-payroll)
 - [International Compliance Considerations](#international-compliance-considerations)
-- [Emergency Response: What to Do When Visa Expiration Is Missed](#emergency-response-what-to-do-when-visa-expiration-is-missed)
+- [Emergency Response - What to Do When Visa Expiration Is Missed](#emergency-response-what-to-do-when-visa-expiration-is-missed)
 
 The Core Problem
 
@@ -130,27 +130,27 @@ for (let record of records.records) {
 
 Airtable's advantage lies in its visual interface. Create kanban views for renewal status, calendar views for upcoming expirations, and gallery views for quick scanning. Non-technical team members update records without learning code.
 
-Enterprise Solutions: Rippling and Deel
+Enterprise Solutions - Rippling and Deel
 
 For larger organizations requiring compliance features, platforms like Rippling and Deel include built-in visa and permit tracking. These solutions cost more but handle the complexity of multi-country compliance, document storage, and legal requirements automatically.
 
 Rippling's global workforce management tracks work authorizations, triggers renewal workflows, and maintains audit trails. Deel similarly offers compliance dashboards with automatic expiration alerts and integration with payroll systems.
 
-The trade-off: these platforms work best when you adopt their full ecosystem. If you only need expiration tracking, the cost may exceed your requirements.
+The trade-off - these platforms work best when you adopt their full environment. If you only need expiration tracking, the cost may exceed your requirements.
 
 Key Features Every Tracking System Needs
 
 Regardless of your chosen tool, ensure your system includes these capabilities:
 
-Expiration countdown: Calculate days remaining until expiration for each record. Prioritize by urgency, expired documents need immediate action, while those expiring in 90 days need planning.
+Expiration countdown - Calculate days remaining until expiration for each record. Prioritize by urgency, expired documents need immediate action, while those expiring in 90 days need planning.
 
-Multi-document support: Employees may hold multiple documents requiring tracking: work visa, residence permit, driver's license, insurance cards. Track each separately with individual expiration logic.
+Multi-document support - Employees may hold multiple documents requiring tracking: work visa, residence permit, driver's license, insurance cards. Track each separately with individual expiration logic.
 
-Notification hierarchy: Different stakeholders need different alerts. Employees should know 60 days out, HR at 45 days, managers at 30 days. Configure your system to send tiered reminders.
+Notification hierarchy - Different stakeholders need different alerts. Employees should know 60 days out, HR at 45 days, managers at 30 days. Configure your system to send tiered reminders.
 
-Audit trail: Document updates, status changes, and renewal completions. When compliance questions arise, you need a clear history of actions taken.
+Audit trail - Document updates, status changes, and renewal completions. When compliance questions arise, you need a clear history of actions taken.
 
-Renewal workflow: Track not just expiration but the renewal process itself. Record when renewal was initiated, documents submitted, and expected approval dates.
+Renewal workflow - Track not just expiration but the renewal process itself. Record when renewal was initiated, documents submitted, and expected approval dates.
 
 Running Automated Checks in CI/CD
 
@@ -325,7 +325,7 @@ Sponsorship Status
 - If you sponsor employees' visas, you may have legal obligations to maintain sponsorship
 - System should track sponsorship status separately from visa validity
 
-Emergency Response: What to Do When Visa Expiration Is Missed
+Emergency Response - What to Do When Visa Expiration Is Missed
 
 Despite best tracking systems, issues happen. Have a response plan:
 
@@ -371,7 +371,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -383,7 +383,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

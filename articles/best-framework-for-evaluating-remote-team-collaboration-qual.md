@@ -34,7 +34,7 @@ Metrics to track:
 - Links from implementation back to decision records
 - Time from proposal to decision
 
-Collection approach: Use a lightweight decision log in your repository:
+Collection approach - Use a lightweight decision log in your repository:
 
 ```markdown
 Decision Log
@@ -54,7 +54,7 @@ Metrics to track:
 - Documentation ownership breadth
 - Onboarding time for new team members
 
-Collection approach: Analyze your git history to measure review distribution:
+Collection approach - Analyze your git history to measure review distribution:
 
 ```python
 analyze_review_distribution.py
@@ -94,7 +94,7 @@ Metrics to track:
 - Thread resolution rate (how often discussions reach conclusions)
 - Context-switching frequency (notifications per hour during focus time)
 
-Collection approach: Query your Slack or Discord API:
+Collection approach - Query your Slack or Discord API:
 
 ```javascript
 // measure_async_velocity.js
@@ -117,7 +117,7 @@ async function getThreadVelocity(channel, timeRange) {
 }
 ```
 
-Target: Most threads should resolve within 4 hours during working hours.
+Target - Most threads should resolve within 4 hours during working hours.
 
 4. Dependency Coordination Quality
 
@@ -128,7 +128,7 @@ Metrics to track:
 - Time spent waiting on external reviews
 - Cross-team dependency conflicts
 
-Collection approach: Track PR states in your CI system:
+Collection approach - Track PR states in your CI system:
 
 ```bash
 dependency_metrics.sh
@@ -144,7 +144,7 @@ gh pr list --state all --json number,title,reviewDecision,isDraft \
 
 This dimension is harder to quantify but critical. Teams where members fear speaking up will show collaboration problems everywhere else first.
 
-Survey approach: Run periodic pulse surveys (monthly):
+Survey approach - Run periodic pulse surveys (monthly):
 
 | Question | Scale |
 |----------|-------|

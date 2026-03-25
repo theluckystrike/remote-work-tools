@@ -21,15 +21,15 @@ Choosing the right chair mat for your home office isn't just about protecting yo
 Table of Contents
 
 - [Understanding the Fundamental Differences](#understanding-the-fundamental-differences)
-- [Chair Mats for Carpet: When You Need Grip](#chair-mats-for-carpet-when-you-need-grip)
-- [Chair Mats for Hardwood Floors: Protecting Your Investment](#chair-mats-for-hardwood-floors-protecting-your-investment)
+- [Chair Mats for Carpet - When You Need Grip](#chair-mats-for-carpet-when-you-need-grip)
+- [Chair Mats for Hardwood Floors - Protecting Your Investment](#chair-mats-for-hardwood-floors-protecting-your-investment)
 - [Comparing Performance Factors](#comparing-performance-factors)
 - [Real-World Scenarios and Recommendations](#real-world-scenarios-and-recommendations)
 - [Special Considerations for Home Offices](#special-considerations-for-home-offices)
 - [Material Comparison for Different Needs](#material-comparison-for-different-needs)
 - [Installation and Maintenance Tips](#installation-and-maintenance-tips)
 - [Popular Chair Mat Products and Pricing](#popular-chair-mat-products-and-pricing)
-- [Making Your Decision: Carpet vs Hardwood](#making-your-decision-carpet-vs-hardwood)
+- [Making Your Decision - Carpet vs Hardwood](#making-your-decision-carpet-vs-hardwood)
 - [Troubleshooting Common Issues](#troubleshooting-common-issues)
 - [Expert Recommendations by Situation](#expert-recommendations-by-situation)
 - [Long-Term Cost Analysis](#long-term-cost-analysis)
@@ -42,7 +42,7 @@ Carpet chair mats feature cleated or spiked bottoms that grip into carpet fibers
 
 Hardwood floor mats have smooth, non-abrasive backs that won't scratch or dent finished wood. They rely on grippy surfaces or weight to stay in place, often featuring rubber or PVC backing that provides traction without adhesives. These mats are usually thinner, 0.05 to 0.1 inches, since they sit directly on hard surfaces and need to remain nearly flush with the floor to prevent tripping hazards.
 
-Chair Mats for Carpet: When You Need Grip
+Chair Mats for Carpet - When You Need Grip
 
 If your home office sits on carpet, chair mats serve a critical function beyond comfort, they prevent your chair from sinking into carpet fibers, which strains casters and makes rolling difficult. Here are the key considerations:
 
@@ -60,7 +60,7 @@ Thickness Guidelines for Carpet
 - Medium pile carpet (0.25 to 0.5 inch): Use a 0.15 to 0.2-inch mat with extended cleats
 - High pile carpet (over 0.5 inch): Use a 0.2 to 0.25-inch mat with heavy-duty grip, or consider a flat plywood board underneath to create a stable surface
 
-Chair Mats for Hardwood Floors: Protecting Your Investment
+Chair Mats for Hardwood Floors - Protecting Your Investment
 
 Hardwood floors require different treatment. You need a mat that provides smooth rolling while protecting against scratches, dents, andcaster marks. Here's what matters:
 
@@ -96,25 +96,25 @@ Let's break down how each mat type performs across key metrics:
 
 Real-World Scenarios and Recommendations
 
-Scenario 1: Software developer in apartment with hardwood floors
-Problem: Hardwood floors beautiful but scratched by chair casters, frequent movement between desk and kitchen
-Solution: Premium polycarbonate mat 36x48 inches (~$80-100). Will last 5+ years and keep floors pristine.
-Cost: $15-20/year amortized
+Scenario 1 - Software developer in apartment with hardwood floors
+Problem - Hardwood floors beautiful but scratched by chair casters, frequent movement between desk and kitchen
+Solution - Premium polycarbonate mat 36x48 inches (~$80-100). Will last 5+ years and keep floors pristine.
+Cost - $15-20/year amortized
 
-Scenario 2: Freelancer in rented home with carpet
-Problem: Carpet isn't theirs, can't invest heavily, worry about damage
-Solution: Budget carpet mat with cleats (30-40) and 2-3 year replacement cycle. Less worry about protecting someone else's property.
-Cost: $10-15/year amortized
+Scenario 2 - Freelancer in rented home with carpet
+Problem - Carpet isn't theirs, can't invest heavily, worry about damage
+Solution - Budget carpet mat with cleats (30-40) and 2-3 year replacement cycle. Less worry about protecting someone else's property.
+Cost - $10-15/year amortized
 
-Scenario 3: Couple sharing office on mixed flooring (hardwood + carpet)
-Problem: Desk area on hardwood, transition to carpet for filing cabinets
-Solution: Use thin universal mat that works on both surfaces, or separate mats for different zones (hardwood mat by desk, small carpet mat in corner)
-Cost: $40-60 combined
+Scenario 3 - Couple sharing office on mixed flooring (hardwood + carpet)
+Problem - Desk area on hardwood, transition to carpet for filing cabinets
+Solution - Use thin universal mat that works on both surfaces, or separate mats for different zones (hardwood mat by desk, small carpet mat in corner)
+Cost - $40-60 combined
 
-Scenario 4: Gamer/streamer with extended sitting (8+ hours daily)
-Problem: Heavy use accelerates wear, comfort critical
-Solution: Premium mat (polycarbonate or natural rubber) rated for heavy use ($100-150)
-Cost: $15-25/year, justified by daily usage
+Scenario 4 - Gamer/streamer with extended sitting (8+ hours daily)
+Problem - Heavy use accelerates wear, comfort critical
+Solution - Premium mat (polycarbonate or natural rubber) rated for heavy use ($100-150)
+Cost - $15-25/year, justified by daily usage
 
 Special Considerations for Home Offices
 
@@ -159,9 +159,9 @@ Installation Best Practices
 
 Maintenance Schedule
 
-Weekly: Quick sweep or vacuum to remove debris
-Monthly: Deep clean with appropriate cleaner for mat material
-Annually: Inspect for cracks, curling edges, or significant wear
+Weekly - Quick sweep or vacuum to remove debris
+Monthly - Deep clean with appropriate cleaner for mat material
+Annually - Inspect for cracks, curling edges, or significant wear
 
 For hardwood mats, avoid using harsh chemicals that could degrade the backing. A simple solution of mild soap and water works for most cleaning needs.
 
@@ -217,7 +217,7 @@ For a 5-year home office setup:
 
 The premium mat costs more initially but amortizes to similar monthly costs ($1.50-2.50/month) while lasting significantly longer and protecting your flooring better.
 
-Making Your Decision: Carpet vs Hardwood
+Making Your Decision - Carpet vs Hardwood
 
 Choose a carpet-specific mat if:
 - Your office sits on medium or high-pile carpet
@@ -239,25 +239,25 @@ Choose a universal/thin mat if:
 
 Troubleshooting Common Issues
 
-Mat sliding on carpet: Your mat isn't gripping properly. Solutions:
+Mat sliding on carpet - Your mat isn't gripping properly. Solutions:
 - Ensure the cleated side faces down (not smooth side)
 - Manually press cleats deeper by rolling chair over edges
 - Clean carpet of debris that might prevent grip
 - Consider replacing worn cleats with adhesive-backed spikes
 
-Rough rolling on hardwood: Debris or damage causing friction. Solutions:
+Rough rolling on hardwood - Debris or damage causing friction. Solutions:
 - Vacuum underneath the mat weekly
 - Clean the mat surface with damp cloth
 - Inspect for cracks that could catch casters
 - Consider felt-backed mat for smoother rolling
 
-Floor discoloration under mat: Moisture or chemical reaction. Solutions:
+Floor discoloration under mat - Moisture or chemical reaction. Solutions:
 - Ensure floor is dry before placing mat
 - Improve ventilation in room
 - Switch to PVC-free mat material
 - Place moisture-absorbing material under mat
 
-Mat curling at edges: Environmental factors or low-quality material. Solutions:
+Mat curling at edges - Environmental factors or low-quality material. Solutions:
 - Place heavy objects at curled edges for 48+ hours
 - Ensure room temperature is stable (avoid extreme heat)
 - Replace mat if curling persists (sign of material failure)
@@ -266,27 +266,27 @@ Expert Recommendations by Situation
 
 For developers in expensive homes: Invest in polycarbonate hardwood mat ($100-150). Your floor is valuable and you'll use this setup for years. The mat pays for itself through floor protection alone.
 
-For renters with hardwood: Use thin vinyl mat ($25-40). You won't be upgrading the floor, so protect what's there without investing heavily.
+For renters with hardwood - Use thin vinyl mat ($25-40). You won't be upgrading the floor, so protect what's there without investing heavily.
 
-For high-pile carpet offices: Choose thicker carpet mat with heavy-duty cleats ($50-70). The investment prevents equipment damage and rolling friction.
+For high-pile carpet offices - Choose thicker carpet mat with heavy-duty cleats ($50-70). The investment prevents equipment damage and rolling friction.
 
-For standing desk users: Skip the chair mat entirely if you stand most of the time. Instead, invest in an anti-fatigue mat ($40-80) that covers the standing area.
+For standing desk users - Skip the chair mat entirely if you stand most of the time. Instead, invest in an anti-fatigue mat ($40-80) that covers the standing area.
 
 For gamers/streamers with extended sitting: Premium mat ($80-150) justified by extended daily use. Quality investment spreads cost over many years.
 
 Long-Term Cost Analysis
 
-Cheapest option upfront: $25-35 budget mat
+Cheapest option upfront - $25-35 budget mat
 - Lifespan: 1-2 years
 - Cost per year: $12-35
 - Replacement frequency: Often
 
-Mid-range option: $50-70 mat
+Mid-range option - $50-70 mat
 - Lifespan: 3-5 years
 - Cost per year: $10-23
 - Replacement frequency: Every 3 years
 
-Premium option: $100-150 mat
+Premium option - $100-150 mat
 - Lifespan: 5-10 years
 - Cost per year: $10-30
 - Replacement frequency: Every 5 years

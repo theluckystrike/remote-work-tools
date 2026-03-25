@@ -115,7 +115,7 @@ macOS Camera Settings
 Mac users can adjust camera behavior through the system preferences or third-party tools like "Webcam Settings" or "iGlasses":
 
 ```bash
-Alternative: Use the native Image Capture app
+Alternative - Use the native Image Capture app
 Connect your webcam, select it, and adjust exposure in the app
 open -a "Image Capture"
 ```
@@ -170,7 +170,7 @@ Software-Only Solutions for Existing Webcams
 
 Not everyone has budget for hardware upgrades. These software approaches work with whatever camera you currently own:
 
-Chromium-based Solution: SnapCamera
+Chromium-based Solution - SnapCamera
 SnapCamera acts as a virtual camera source for Zoom, Microsoft Teams, and other applications. It inserts filters between your physical camera and the application, allowing real-time adjustments without modifying Zoom settings.
 
 ```bash
@@ -178,10 +178,10 @@ Install SnapCamera (macOS)
 brew install --cask snapcamera
 
 After installation, Zoom/Teams can select "SnapCamera" as the video source
-Add filters: Enhance Lighting > Brightness/Contrast filter
+Add filters - Enhance Lighting > Brightness/Contrast filter
 ```
 
-Linux Alternative: FFMPEG Streaming Filter
+Linux Alternative - FFMPEG Streaming Filter
 Linux users can route camera input through FFMPEG filters to create a virtual camera:
 
 ```bash
@@ -257,7 +257,7 @@ Testing Your Final Configuration
 Before a critical meeting, run this test protocol:
 
 ```bash
-Test 1: Record 30 seconds with VLC
+Test 1 - Record 30 seconds with VLC
 open -a vlc v4l2:///dev/video0
 
 Look for:
@@ -266,7 +266,7 @@ Look for:
 - Skin tones appear natural (no green/magenta casts)
 - No flickering or color banding
 
-Test 2: Use Zoom's test meeting feature
+Test 2 - Use Zoom's test meeting feature
 Join https://zoom.us/test
 Verify appearance in actual Zoom processing
 ```
@@ -298,7 +298,7 @@ Investment in purpose-built video setup transforms the problem:
 
 This kit transforms you into a video professional-grade appearance. The ring light alone dramatically changes video quality in any lighting scenario.
 
-Cost: $200-430 total, but the setup becomes a semi-permanent installation typically reserved for frequent video presenters.
+Cost - $200-430 total, but the setup becomes a semi-permanent installation typically reserved for frequent video presenters.
 
 Motorized Light Dimmer
 For rooms with lights you control, motorized dimmers solve backlight elegantly:

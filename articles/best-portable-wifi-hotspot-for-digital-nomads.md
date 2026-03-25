@@ -37,7 +37,7 @@ Most smartphones support tethering via USB, Bluetooth, or WiFi. This approach re
 
 ```bash
 Enable internet sharing on macOS (requires iPhone USB tethering)
-On your iPhone: Settings > Cellular > Personal Hotspot > Allow Others to Join
+On your iPhone - Settings > Cellular > Personal Hotspot > Allow Others to Join
 Then connect via USB and enable in System Preferences > Network
 
 Check active network interfaces
@@ -100,7 +100,7 @@ Always route traffic through a VPN when using public cellular networks. Configur
 
 ```bash
 Connect to WireGuard VPN on macOS
-Install: brew install wireguard-tools
+Install - brew install wireguard-tools
 
 wg-quick up wg0
 
@@ -148,7 +148,7 @@ Purchase local SIM cards at destination airports or convenience stores to avoid 
 AT command syntax for some mobile routers
 Connect to specific carrier (syntax varies by device)
 
-AT+COPS=1,2,"51010"  # Example: Connect to carrier by MCC/MNC
+AT+COPS=1,2,"51010"  # Example - Connect to carrier by MCC/MNC
 AT+COPS=?            # List available networks
 ```
 
@@ -199,7 +199,7 @@ if __name__ == "__main__":
 
 Recommended Devices by Use Case
 
-Budget Option: TP-Link M7350
+Budget Option - TP-Link M7350
 
 This compact hotspot supports 4G LTE with up to 10 simultaneous connections. The 2000mAh battery provides approximately 8 hours of runtime. Ideal for occasional travel or as a backup device.
 
@@ -209,7 +209,7 @@ Specifications:
 - Display: LED status indicators
 - SIM: Unlocked
 
-Mid-Range Option: Netgear Nighthawk M1
+Mid-Range Option - Netgear Nighthawk M1
 
 The Nighthawk M1 delivers Category 16 LTE, Gigabit WiFi, and a 5040mAh battery that charges other devices. The Ethernet port enables wired connections for more stable development environments.
 
@@ -219,7 +219,7 @@ Specifications:
 - Ports: Ethernet, USB-C
 - Features: External antenna support, microSD slot
 
-Premium Option: GL.iNet GL-MT3000 (Beryl)
+Premium Option - GL.iNet GL-MT3000 (Beryl)
 
 For developers requiring open-source firmware and extensive customization, this pocket router runs OpenWrt. It supports wireguard VPN, TOR, and extensive scripting capabilities while functioning as a mobile hotspot.
 

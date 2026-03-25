@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Branch-Based Content Workflow
+Step 1 - Branch-Based Content Workflow
 
 Create feature branches for each piece of content. This isolates work, enables parallel writing, and provides clear merge history.
 
@@ -44,17 +44,17 @@ When complete, open PR
 gh pr create --title "Content: Remote SEO Workflow Guide" \
  --body "Keyword: remote content team collaboration
 
-Writer: @username
-Target word count: 1200
-Due date: 2026-03-20"
+Writer - @username
+Target word count - 1200
+Due date - 2026-03-20"
 ```
 
-Step 2: Async Editorial Review Process
+Step 2 - Async Editorial Review Process
 
 Pull requests serve as the editorial review mechanism. Use issue templates to standardize feedback:
 
 ```markdown
-Step 3: Content Review Checklist
+Step 3 - Content Review Checklist
 
 - [ ] Target keyword in title, first 100 words, and meta description
 - [ ] Keyword density between 1-2%
@@ -64,14 +64,14 @@ Step 3: Content Review Checklist
 - [ ] Readability score above 60 (Flesch-Kincaid)
 - [ ] Meta description under 160 characters
 
-Step 4: Editorial Notes
+Step 4 - Editorial Notes
 
 <!-- Add feedback here -->
 ```
 
 Reviewers comment directly on specific lines, just like code reviews. This creates actionable, context-specific feedback rather than vague editorial notes.
 
-Step 5: Content Pipeline Automation
+Step 5 - Content Pipeline Automation
 
 Automate repetitive tasks using CI/CD principles. This example uses GitHub Actions to validate content before publication:
 
@@ -108,7 +108,7 @@ TITLE=$(head -20 ${{ github.event.pull_request.title }})
 
 This catches SEO issues before human review, reducing editorial cycle time.
 
-Step 6: Writer Onboarding Protocol
+Step 6 - Writer Onboarding Protocol
 
 New distributed writers need clear onboarding. Provide a standardized setup:
 
@@ -131,7 +131,7 @@ git config user.email "you@email.com"
 
 Create a `WRITERS.md` guide that covers your content standards, keyword research process, and editorial voice guidelines. Store this in the repository so it's version-controlled alongside your content.
 
-Step 7: Time Zone Coordination
+Step 7 - Time Zone Coordination
 
 Distributed teams need explicit coordination protocols. Use scheduled labels and automation:
 
@@ -179,16 +179,16 @@ lastUpdated: 2026-03-18
 
 Pull this data periodically to identify which content performs well and inform future topic selection.
 
-Step 8: Scaling the Workflow as Your Team Grows
+Step 8 - Scaling the Workflow as Your Team Grows
 
 The git-based content workflow scales differently than a traditional CMS. Understanding where friction appears helps you address it before it slows throughput.
 
-At 3-5 writers: The workflow works with minimal overhead. One person acts as editor and merges PRs. The validation CI catches SEO issues automatically.
+At 3-5 writers - The workflow works with minimal overhead. One person acts as editor and merges PRs. The validation CI catches SEO issues automatically.
 
-At 6-12 writers: Add a branch naming convention to make the PR queue scannable:
+At 6-12 writers - Add a branch naming convention to make the PR queue scannable:
 
 ```bash
-Branch naming: content/[status]/[slug]
+Branch naming - content/[status]/[slug]
 git checkout -b content/draft/remote-seo-workflow-2026
 git checkout -b content/ready-for-review/remote-seo-workflow-2026
 git checkout -b content/approved/remote-seo-workflow-2026
@@ -203,7 +203,7 @@ gh label create "final-edit" --color "orange"
 gh label create "approved" --color "green"
 ```
 
-At 13+ writers: Assign dedicated reviewers per content vertical. Route PRs automatically using CODEOWNERS:
+At 13+ writers - Assign dedicated reviewers per content vertical. Route PRs automatically using CODEOWNERS:
 
 ```
 #.github/CODEOWNERS
@@ -214,7 +214,7 @@ content/tech/ @tech-editor
 
 Each reviewer only sees PRs for their vertical, preventing review queue overwhelm.
 
-Step 9: Automate Content Quality Scoring
+Step 9 - Automate Content Quality Scoring
 
 Manual quality checks slow down editorial workflows. Automate the parts that follow consistent rules. The validation workflow already checks for keyword presence. extend it with readability and word count checks:
 
@@ -253,7 +253,7 @@ if __name__ == "__main__":
 
 Add this script to your CI pipeline so every PR gets quality feedback automatically before it reaches editorial review.
 
-Step 10: Manage Editorial Deadlines Across Time Zones
+Step 10 - Manage Editorial Deadlines Across Time Zones
 
 Distributed content teams face review bottlenecks when a reviewer in UTC+9 cannot respond to a writer in UTC-5 until the next morning. Set explicit SLAs for each review stage and automate deadline reminders:
 
@@ -285,7 +285,7 @@ jobs:
  owner: context.repo.owner,
  repo: context.repo.repo,
  issue_number: pr.number,
- body: `Reminder: This article has been waiting for review for 48+ hours. Assigned: ${reviewers}`
+ body: `Reminder - This article has been waiting for review for 48+ hours. Assigned: ${reviewers}`
  });
  }
  }

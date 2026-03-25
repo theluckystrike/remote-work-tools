@@ -36,7 +36,7 @@ Tier 1. Essential Workstation
 - Modem and router (15-30W)
 - Phone charger and small accessories (10-20W)
 
-Total: 165-410W
+Total - 165-410W
 
 Tier 2. Full Development Environment
 - Multiple monitors (80-120W)
@@ -45,7 +45,7 @@ Tier 2. Full Development Environment
 - Router, modem, mesh network nodes (30-50W)
 - Desk lighting and phone charging (20-40W)
 
-Total: 450-760W
+Total - 450-760W
 
 Tier 3. Power User with Peripherals
 - Everything in Tier 2, plus:
@@ -53,7 +53,7 @@ Tier 3. Power User with Peripherals
 - 3D printer or CNC machine (when running) (50-200W)
 - Standing desk motor (100W peak)
 
-Total: 580-1020W
+Total - 580-1020W
 
 To estimate runtime, divide the UPS capacity (in VA or Wh) by your total wattage. A 1000VA UPS running at 50% load (a good practice for longevity) powering a 300W workstation gives you roughly 15-25 minutes of runtime, enough to save your work and shut down cleanly.
 
@@ -67,7 +67,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Choose the Right UPS Type for 2026
+Step 1 - Choose the Right UPS Type for 2026
 
 Three UPS topologies dominate the consumer and prosumer market. Here's how they compare for home office use:
 
@@ -79,11 +79,11 @@ Online (Double-Conversion) UPS. Premium protection. Power runs through the UPS c
 
 For most developers in 2026, a line-interactive UPS in the 1000-1500VA range hits the best balance of protection, runtime, and cost. Brands like APC (now Schneider Electric), CyberPower, and Eaton offer reliable units with USB connectivity for computer-controlled shutdown.
 
-Step 2: Practical Integration: Connecting Your Setup
+Step 2 - Practical Integration: Connecting Your Setup
 
 Modern UPS units include USB or network management cards that allow your computer to communicate with the UPS. This enables automatic shutdown scripts, runtime monitoring, and controlled power cycling.
 
-Linux/macOS: Using NUT (Network UPS Tools)
+Linux/macOS - Using NUT (Network UPS Tools)
 
 NUT is the open-source standard for UPS management across operating systems. Install it via your package manager:
 
@@ -118,7 +118,7 @@ SHUTDOWNCMD "/sbin/shutdown -h +1"
 
 This configuration tells your machine to shut down gracefully 1 minute after the UPS signals low battery. Adjust the timeout based on your runtime tests.
 
-Windows: Using PowerPanel or Native Solutions
+Windows - Using PowerPanel or Native Solutions
 
 Windows users have two paths. The built-in `powercfg` command provides basic battery reporting for laptops, but for UPS management, download the manufacturer's software, CyberPower's PowerPanel or APC's PowerChute. Both provide:
 
@@ -137,7 +137,7 @@ Get-CimInstance -Namespace root/wmi -ClassName BatteryStatus |
 
 This integrates with your monitoring stack if you run Prometheus/Grafana for system metrics.
 
-Step 3: Run time Testing and Maintenance
+Step 3 - Run time Testing and Maintenance
 
 Buying an UPS is only the beginning. Proper setup requires testing and ongoing maintenance:
 
@@ -147,7 +147,7 @@ Quarterly Self-Test. Most UPS units include a self-test button. Run it every 3 m
 
 Battery Replacement Cycle. Lead-acid batteries in consumer UPS units last 3-5 years. Lithium-ion options in premium units can last 8-10 years but cost more upfront. Replace batteries when runtime drops below 50% of original specs, or when the UPS signals battery failure.
 
-Step 4: Smart Power Management for Development Workflows
+Step 4 - Smart Power Management for Development Workflows
 
 Beyond simple shutdown, you can integrate UPS status into your development practices:
 
@@ -184,9 +184,9 @@ No network protection. Your router and modem need UPS power too. Without them, y
 
 Skipping the user manual. Each UPS model has specific load limits, runtime curves, and compatibility requirements. The manual takes 10 minutes to read and prevents costly mistakes.
 
-Step 5: UPS Product Recommendations and Pricing (2026)
+Step 5 - UPS Product Recommendations and Pricing (2026)
 
-Best Budget Option: CyberPower CP1500PFCLCD ($70-90)
+Best Budget Option - CyberPower CP1500PFCLCD ($70-90)
 - Capacity: 1500VA (865W)
 - Type: Line-interactive with AVR
 - Runtime at 50% load: 15-18 minutes
@@ -196,7 +196,7 @@ Best Budget Option: CyberPower CP1500PFCLCD ($70-90)
 - Pro: Affordable, reliable, good for travel/hoteling
 - Con: No pure sine wave (may affect sensitive equipment)
 
-Sweet Spot: APC Back-UPS Pro 1500VA ($120-150)
+Sweet Spot - APC Back-UPS Pro 1500VA ($120-150)
 - Capacity: 1500VA (865W)
 - Type: Line-interactive
 - Runtime at 50% load: 20-25 minutes
@@ -206,7 +206,7 @@ Sweet Spot: APC Back-UPS Pro 1500VA ($120-150)
 - Pro: Pure sine wave, widely compatible, excellent software support
 - Con: Slightly heavier than CyberPower
 
-Premium Option: APC Smart-UPS C 1500VA ($200-250)
+Premium Option - APC Smart-UPS C 1500VA ($200-250)
 - Capacity: 1500VA
 - Type: Online (double-conversion)
 - Runtime at 50% load: 25-30 minutes
@@ -216,7 +216,7 @@ Premium Option: APC Smart-UPS C 1500VA ($200-250)
 - Pro: Constant power conditioning, zero transfer time, longest battery life
 - Con: More expensive, requires more space
 
-High-Load Setup: CyberPower 2200VA Smart Card ($200-250)
+High-Load Setup - CyberPower 2200VA Smart Card ($200-250)
 - Capacity: 2200VA (1320W)
 - Type: Line-interactive
 - Runtime at 50% load: 30+ minutes
@@ -226,7 +226,7 @@ High-Load Setup: CyberPower 2200VA Smart Card ($200-250)
 - Pro: Handles standing desk movement + gaming PC simultaneously
 - Con: Heavier, larger footprint
 
-Compact/Travel: Belkin Portable Power Bank 20K+ ($60-100)
+Compact/Travel - Belkin Portable Power Bank 20K+ ($60-100)
 - Alternative for light travel
 - Charges laptop 1-1.5x, phone 5-6x
 - Not a replacement for desk UPS, but good backup
@@ -234,19 +234,19 @@ Compact/Travel: Belkin Portable Power Bank 20K+ ($60-100)
 
 Recommended Configuration for 2026
 
-Most developers should buy: APC Back-UPS Pro 1500VA ($120-150)
+Most developers should buy - APC Back-UPS Pro 1500VA ($120-150)
 - Handles typical dev workstation (monitor + laptop + networking)
 - Pure sine wave output (safe for all equipment)
 - Excellent software support across all OSes
 - Proven reliability (lowest failure rate in reviews)
 
-Add-on: Extra battery pack ($80-120) if you need 40+ minutes runtime
+Add-on - Extra battery pack ($80-120) if you need 40+ minutes runtime
 - Doubles runtime to 40-50 minutes
 - Useful if you run services you need to cleanly shut down
 
-Step 6: Install ation and Testing Procedure
+Step 6 - Install ation and Testing Procedure
 
-Step 1: Physical Setup (15 minutes)
+Step 1 - Physical Setup (15 minutes)
 1. Unpack UPS, remove shipping bolts/brackets
 2. Place on floor beside desk (not under desk where air can't circulate)
 3. Connect cables in order:
@@ -260,7 +260,7 @@ Step 1: Physical Setup (15 minutes)
 5. Power on UPS; LED indicators should light up
 6. Wait 3 minutes for battery charge recognition
 
-Step 2: Software Installation (10 minutes)
+Step 2 - Software Installation (10 minutes)
 
 Linux (example for Ubuntu):
 ```bash
@@ -304,7 +304,7 @@ Windows:
 4. Test with battery drain
 ```
 
-Step 3: Battery Runtime Test (30 minutes)
+Step 3 - Battery Runtime Test (30 minutes)
 1. Fully charge UPS (wait 8-12 hours first use)
 2. Unplug from wall outlet during work session
 3. Note the time
@@ -314,16 +314,16 @@ Step 3: Battery Runtime Test (30 minutes)
 
 Example test log:
 ```
-Time: 2:00 PM. Unplugged
+Time - 2:00 PM. Unplugged
 2:15 PM. 5% battery drained
 2:20 PM. Warning: 10 minutes remain (software estimate)
 2:25 PM. Power loss occurred
-Actual runtime: 25 minutes at 60% load
-Manufacturer spec: 22 minutes at this load
+Actual runtime - 25 minutes at 60% load
+Manufacturer spec - 22 minutes at this load
 Within expected range
 ```
 
-Step 4: Shutdown Script Testing (10 minutes)
+Step 4 - Shutdown Script Testing (10 minutes)
 1. Trigger low-battery condition (drain until 10% remains)
 2. Verify your shutdown script executes
 3. Check logs for:
@@ -332,7 +332,7 @@ Step 4: Shutdown Script Testing (10 minutes)
  - Graceful shutdown executed
 4. Reconnect, verify nothing was corrupted
 
-Step 7: Monitor and Maintenance
+Step 7 - Monitor and Maintenance
 
 Monthly Check
 - Verify UPS powers on (LED lights, beep)
@@ -346,7 +346,7 @@ Most UPS units have a self-test button. Press it:
 - Battery status validated
 - Takes 10-15 minutes
 
-Run quarterly: `sudo upssched-cmd -c fsd` (Linux)
+Run quarterly - `sudo upssched-cmd -c fsd` (Linux)
 
 Annual Battery Health Assessment
 ```bash
@@ -381,11 +381,11 @@ Advanced Configurations
 
 Synced Multi-UPS Setup (for teams sharing infrastructure)
 ```
-UPS #1: Workstation (computer, monitor, keyboard)
-UPS #2: Networking (router, modem, switch)
-UPS #3: External storage (NAS, backup drives)
+UPS #1 - Workstation (computer, monitor, keyboard)
+UPS #2 - Networking (router, modem, switch)
+UPS #3 - External storage (NAS, backup drives)
 
-Configuration: All three UPS units sync shutdown via:
+Configuration - All three UPS units sync shutdown via:
 - Primary (workstation) detects low battery
 - Sends signal via Ethernet to secondary UPS units
 - All three units coordinate graceful shutdown

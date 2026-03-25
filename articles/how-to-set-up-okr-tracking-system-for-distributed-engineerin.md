@@ -28,12 +28,12 @@ In co-located teams, you can walk over to someone's desk and ask about their key
 
 Without these mechanisms, distributed OKRs drift into misalignment quickly. Engineers in Tokyo, London, and San Francisco need to see how their work connects to company goals without scheduling cross-timezone syncs.
 
-Step 1: Define Your OKR Hierarchy
+Step 1 - Define Your OKR Hierarchy
 
 Start with a three-tier hierarchy that mirrors how your team actually makes decisions:
 
 ```markdown
-Company Objective: "Ship features that increase customer retention by 15%"
+Company Objective - "Ship features that increase customer retention by 15%"
 
   Team Objective (Platform): "Reduce incident response time from 2 hours to 15 minutes"
     - KR1: Deploy automated runbook system (Target: 80% of P1 incidents auto-resolved)
@@ -48,11 +48,11 @@ Company Objective: "Ship features that increase customer retention by 15%"
 
 Each engineering team should own one or more team objectives that roll up to company objectives. Individual contributors typically do not need personal OKRs at the engineering level; instead, their work should map to team key results.
 
-Step 2: Choose Your Tracking Stack
+Step 2 - Choose Your Tracking Stack
 
 For distributed engineering teams, integrate with tools developers already use rather than adding a standalone OKR tool. Here are three practical approaches:
 
-Option A: Linear + Custom Dashboard
+Option A - Linear + Custom Dashboard
 
 Linear already tracks issues and projects. You can extend it with custom properties:
 
@@ -74,7 +74,7 @@ query {
 
 Build a simple dashboard that aggregates issue completion by OKR label. This keeps engineers in their existing workflow.
 
-Option B: Notion + Slack Integration
+Option B - Notion + Slack Integration
 
 Notion databases work well for OKR documentation with bidirectional Slack updates:
 
@@ -104,7 +104,7 @@ const postOKRUpdate = async (channel, progress) => {
 
 This approach works well for teams that prefer lightweight, text-based updates over heavy workflow automation.
 
-Option C: OpenSource + Custom Pipeline
+Option C - OpenSource + Custom Pipeline
 
 For teams that want full control, build your own tracking layer:
 
@@ -146,7 +146,7 @@ def get_progress(okr_id):
 
 This gives you complete customization but requires ongoing maintenance.
 
-Step 3: Establish Cadence and Rituals
+Step 3 - Establish Cadence and Rituals
 
 Your OKR system fails without consistent rituals. For distributed teams, structure your cadence around asynchronous updates:
 
@@ -159,7 +159,7 @@ Your OKR system fails without consistent rituals. For distributed teams, structu
 
 Weekly updates should take under 5 minutes per person. If they take longer, your key results are too granular or your tracking too manual.
 
-Step 4: Automate Progress Tracking
+Step 4 - Automate Progress Tracking
 
 Manual OKR updates are the biggest failure point. Connect your tracking to existing data sources:
 
@@ -243,6 +243,6 @@ Related Articles
 - [Best Tools for Remote Team OKR Tracking in 2026](/best-tools-for-remote-team-okr-tracking-2026/)
 - [OKR Tracking for a Remote Product Team of 12 People](/okr-tracking-for-a-remote-product-team-of-12-people/)
 - [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
-- [Parse: Accomplished X. Next: Y. Blockers: Z](/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
+- [Parse - Accomplished X. Next: Y. Blockers: Z](/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
 Built by theluckystrike. More at [zovo.one](https://zovo.one)
 {% endraw %}

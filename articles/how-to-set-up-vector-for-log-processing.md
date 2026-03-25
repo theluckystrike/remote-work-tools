@@ -41,13 +41,13 @@ docker pull timberio/vector:latest-distroless-libc
 
 ---
 
-Architecture: Agent vs Aggregator
+Architecture - Agent vs Aggregator
 
 Vector runs in two modes:
 
 Agent (on each host): Collects local logs and forwards to the aggregator or directly to storage.
 
-Aggregator (central node): Receives from all agents, applies heavy transforms, routes to destinations.
+Aggregator (central node) - Receives from all agents, applies heavy transforms, routes to destinations.
 
 For small teams (< 20 services), run Vector directly on each host sending to a destination. For larger setups, use the agent/aggregator pattern.
 

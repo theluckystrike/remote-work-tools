@@ -142,13 +142,13 @@ Finding Documentation Standards
 When testers document findings asynchronously, consistency becomes critical. Establish a standardized finding template that all team members use:
 
 ```markdown
-Finding: [Brief Title]
+Finding - [Brief Title]
 
-Severity: [Critical|High|Medium|Low|Info]
-CVSS Score: [X.X]
-Target: [Affected asset]
-Discovered by: [Tester name]
-Date: [YYYY-MM-DD]
+Severity - [Critical|High|Medium|Low|Info]
+CVSS Score - [X.X]
+Target - [Affected asset]
+Discovered by - [Tester name]
+Date - [YYYY-MM-DD]
 
 Description
 [Clear description of the vulnerability]

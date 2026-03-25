@@ -35,15 +35,15 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: USA: Two Deduction Methods
+Step 1 - USA: Two Deduction Methods
 
-The IRS allows two methods: Simplified and Actual Expense. Choose whichever gives the larger deduction.
+The IRS allows two methods - Simplified and Actual Expense. Choose whichever gives the larger deduction.
 
-USA Method 1: Simplified Method (Easiest)
+USA Method 1 - Simplified Method (Easiest)
 
-Formula: $5 per square foot × eligible square footage (max 300 sq ft = $1,500/year)
+Formula - $5 per square foot × eligible square footage (max 300 sq ft = $1,500/year)
 
-2026 Update: IRS raised simplified rate to $5/sq ft (was $5 for many years).
+2026 Update - IRS raised simplified rate to $5/sq ft (was $5 for many years).
 
 What Qualifies:
 - Dedicated home office space
@@ -58,22 +58,22 @@ What Doesn't Qualify:
 Calculation Example:
 
 ```
-Home Office Size: 12 ft × 10 ft = 120 square feet
-Deduction: 120 sq ft × $5 = $600/year
+Home Office Size - 12 ft × 10 ft = 120 square feet
+Deduction - 120 sq ft × $5 = $600/year
 
 Simple. Done. No receipts required (though keep record of square footage).
 ```
 
 Actual Expense Method (More Complex)
 
-Formula: Allocate percentage of household expenses to home office.
+Formula - Allocate percentage of household expenses to home office.
 
 Home office percentage = (Office square footage / Total home square footage) × 100
 
 ```
-Home Size: 1,500 sq ft
-Home Office Size: 150 sq ft
-Office Percentage: (150 / 1,500) × 100 = 10%
+Home Size - 1,500 sq ft
+Home Office Size - 150 sq ft
+Office Percentage - (150 / 1,500) × 100 = 10%
 
 Annual Household Expenses:
  Rent/Mortgage Interest: $24,000 × 10% = $2,400
@@ -133,7 +133,7 @@ INDIRECT EXPENSES (Allocate 10% based on 150 sq ft office):
  Maintenance & repairs - $1,000 × 10% = $100
  Total Indirect: $3,280/yr
 
-GRAND TOTAL: $4,603/yr in home office deductions
+GRAND TOTAL - $4,603/yr in home office deductions
 ```
 
 IRS Substantiation Requirements:
@@ -171,13 +171,13 @@ Tools for USA Tax Deduction Tracking:
 
 ---
 
-Step 2: UK: Simplest Approach (Flat Rate)
+Step 2 - UK: Simplest Approach (Flat Rate)
 
 The UK has the simplest home office deduction in the world.
 
-Option 1: Simplified Fixed Rate (Easiest)
+Option 1 - Simplified Fixed Rate (Easiest)
 
-Amount: £26 per week (~$1,350/year)
+Amount - £26 per week (~$1,350/year)
 
 Requirements:
 - Exclusively used for work
@@ -193,7 +193,7 @@ Work from home:
  Total: £260/year deduction on tax return
 ```
 
-Option 2: Actual Expense Method (If Deduction > £1,350/yr)
+Option 2 - Actual Expense Method (If Deduction > £1,350/yr)
 
 If your actual expenses exceed the flat rate:
 
@@ -244,11 +244,11 @@ UK Tax Deduction Tools:
 
 ---
 
-Step 3: Germany (EU): Strict But Clear
+Step 3 - Germany (EU): Strict But Clear
 
-Home Office Deduction: €1,000/year maximum
+Home Office Deduction - €1,000/year maximum
 
-Method 1: Simplified (€5/day when working from home)
+Method 1 - Simplified (€5/day when working from home)
 
 ```
 Work from home calendar:
@@ -266,10 +266,10 @@ Requirements:
 - Shared space you can prove is used exclusively for work
 - Keep calendar/record of days worked from home
 
-Method 2: Actual Expense (If > €1,000/year)
+Method 2 - Actual Expense (If > €1,000/year)
 
 ```
-Home office allocation: 12 sq meters (129 sq ft) in 100 sq meter apartment
+Home office allocation - 12 sq meters (129 sq ft) in 100 sq meter apartment
 
 Actual Expenses:
  Rent allocation: (12/100) × €1,200 = €144/month = €1,728/year
@@ -297,29 +297,29 @@ German Record-Keeping:
 
 ---
 
-Step 4: France (EU): Complex Rules
+Step 4 - France (EU): Complex Rules
 
-Home Office Deduction: Up to €3,000/year (or 10% of rent)
+Home Office Deduction - Up to €3,000/year (or 10% of rent)
 
-Method 1: Flat Rate (10% of Rent)
+Method 1 - Flat Rate (10% of Rent)
 
 ```
-Monthly Rent: €1,000
-Deduction: €1,000 × 10% = €100/month = €1,200/year
+Monthly Rent - €1,000
+Deduction - €1,000 × 10% = €100/month = €1,200/year
 
 Simple and unquestioned by tax authorities.
 ```
 
-Method 2: Actual Expense (If Actual > 10% of rent)
+Method 2 - Actual Expense (If Actual > 10% of rent)
 
 ```
-Home office size: 15 sq meters in 80 sq meter apartment
+Home office size - 15 sq meters in 80 sq meter apartment
 
 Actual Expenses:
  Rent: (15/80) × €1,000 = €187.50/month = €2,250/year
- Electricity: (15/80) × €100 = €18.75/month = €225/year
+ Electricity - (15/80) × €100 = €18.75/month = €225/year
  Internet: 50% work use = €30/month = €360/year
- Heating: (15/80) × €60 = €11.25/month = €135/year
+ Heating - (15/80) × €60 = €11.25/month = €135/year
  Equipment depreciation: €500/5 years = €100/year
  Total: €3,070/year
 
@@ -343,21 +343,21 @@ French Record-Keeping:
 
 ---
 
-Step 5: Canada: Simpler Than US
+Step 5 - Canada: Simpler Than US
 
-Home Office Deduction: Up to home office % of household expenses
+Home Office Deduction - Up to home office % of household expenses
 
 Calculation:
 
 ```
-Home size: 1,800 sq ft
-Home office: 150 sq ft
-Office percentage: (150/1,800) × 100 = 8.33%
+Home size - 1,800 sq ft
+Home office - 150 sq ft
+Office percentage - (150/1,800) × 100 = 8.33%
 
 Deductible Expenses:
  Mortgage interest (not principal): $24,000 × 8.33% = $1,999.20
  Property tax: $2,500 × 8.33% = $208.25
- Utilities: $2,000 × 8.33% = $166.60
+ Utilities - $2,000 × 8.33% = $166.60
  Home insurance: $1,200 × 8.33% = $99.96
  Maintenance & repairs: $800 × 8.33% = $66.64
  Office furniture: $2,000 (depreciate over 4 years = $500/yr)
@@ -388,7 +388,7 @@ Canadian Tools:
 
 ---
 
-Step 6: Expense Categories (All Countries)
+Step 6 - Expense Categories (All Countries)
 
 Universally Deductible:
 
@@ -457,7 +457,7 @@ Tool Stack:
 Folder Structure:
 
 ```
-Google Drive: Tax Documents 2026
+Google Drive - Tax Documents 2026
 
  Home Office Deduction
     Receipts (photos of every receipt)
@@ -510,7 +510,7 @@ Key Fields:
 
 ---
 
-Step 7: Country-Specific Audit Risk
+Step 7 - Country-Specific Audit Risk
 
 Audit Risk Assessment (Out of 10):
 
@@ -540,7 +540,7 @@ Audit Defense Checklist:
 
 ---
 
-Step 8: Tax Software Recommendations by Country
+Step 8 - Tax Software Recommendations by Country
 
 USA:
 1. TaxAct - $15-60 (cheap, accurate home office form)

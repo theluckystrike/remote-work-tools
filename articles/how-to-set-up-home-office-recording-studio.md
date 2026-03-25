@@ -20,13 +20,13 @@ Async video is the primary communication format for serious remote teams. If you
 Table of Contents
 
 - [The Priority Order](#the-priority-order)
-- [Room Acoustics: The Foundation](#room-acoustics-the-foundation)
+- [Room Acoustics - The Foundation](#room-acoustics-the-foundation)
 - [Microphone Selection](#microphone-selection)
 - [Camera](#camera)
 - [Lighting](#lighting)
 - [Recording Software](#recording-software)
 - [Complete Budget Breakdown](#complete-budget-breakdown)
-- [Advanced Room Acoustics: Professional Treatment](#advanced-room-acoustics-professional-treatment)
+- [Advanced Room Acoustics - Professional Treatment](#advanced-room-acoustics-professional-treatment)
 - [Screen Recording Workflow for Engineers](#screen-recording-workflow-for-engineers)
 - [Microphone Technique for Better Recordings](#microphone-technique-for-better-recordings)
 - [Audio Level Management](#audio-level-management)
@@ -48,11 +48,11 @@ Most engineers spend money in the wrong order. Fix in this sequence:
 
 A $50 mic in a treated room sounds better than a $400 mic in an untreated one.
 
-Room Acoustics: The Foundation
+Room Acoustics - The Foundation
 
-The problem: Hard surfaces (windows, walls, desks) reflect sound and create echo. Your voice sounds like you're in a bathroom.
+The problem - Hard surfaces (windows, walls, desks) reflect sound and create echo. Your voice sounds like you're in a bathroom.
 
-The fix: Absorb early reflections without spending money on professional panels.
+The fix - Absorb early reflections without spending money on professional panels.
 
 ```
 Immediate improvements (free):
@@ -67,32 +67,32 @@ $30-80 improvements:
 - Moving blankets hung on the wall: ugly but highly effective
 - A bookshelf filled with books behind your desk adds diffusion
 
-Test: record 30 seconds of yourself talking and listen on headphones.
+Test - record 30 seconds of yourself talking and listen on headphones.
 Clap once sharply and listen for ringing (reverb tail). Longer = worse.
 ```
 
 Microphone Selection
 
-Budget ($50-80): Audio-Technica ATR2100x-USB
+Budget ($50-80) - Audio-Technica ATR2100x-USB
 - USB + XLR combo (upgrade path without replacing the mic)
 - Dynamic capsule. rejects background noise better than condensers
 - Cardioid polar pattern. picks up what's in front, ignores the rest
 - Best for: home offices with some ambient noise
 
-Mid-range ($100-150): Rode PodMic USB
+Mid-range ($100-150) - Rode PodMic USB
 - USB-C, plug-and-play
 - Built-in pop filter
 - Broadcast dynamic capsule
 - Gain control on the mic itself
 - Best for: quiet rooms, studio-quality voice
 
-Also good: Shure MV7+ ($250)
+Also good - Shure MV7+ ($250)
 - Dynamic capsule (noise-rejecting)
 - USB-C
 - Built-in headphone monitoring
 - App-based EQ presets
 
-Avoid: Blue Yeti and similar large condenser mics unless your room is well-treated. Condensers pick up everything. air conditioning, keyboard clicks, street noise.
+Avoid - Blue Yeti and similar large condenser mics unless your room is well-treated. Condensers pick up everything. air conditioning, keyboard clicks, street noise.
 
 Mic placement:
 
@@ -107,8 +107,8 @@ Common mistakes:
 - Too far away (voice sounds thin and roomy)
 - Dead center on-axis (creates harsh 'p' and 'b' pops)
 
-Solution for desk vibration: mic arm mount instead of desk stand
-Arms: RØDE PSA1+ ($100) or Elgato Wave Mic Arm ($75)
+Solution for desk vibration - mic arm mount instead of desk stand
+Arms - RØDE PSA1+ ($100) or Elgato Wave Mic Arm ($75)
 ```
 
 Camera
@@ -124,7 +124,7 @@ Good options:
 | Sony ZV-E10 + capture card | 4K sensor | $500 | DSLR look, major overkill |
 | iPhone 15 as webcam | 4K | App cost | Continuity Camera on Mac, excellent |
 
-For most engineers: Logitech C920 or using your iPhone as a webcam via Continuity Camera. The C920 is solid; the iPhone is better but adds complexity.
+For most engineers - Logitech C920 or using your iPhone as a webcam via Continuity Camera. The C920 is solid; the iPhone is better but adds complexity.
 
 iPhone Continuity Camera setup (macOS Ventura+):
 
@@ -140,9 +140,9 @@ Lighting
 
 Camera sensors need light. Bad lighting makes a $200 camera look like a $20 camera.
 
-The fastest improvement: face a window
+The fastest improvement - face a window
 
-Natural light from a window in front of you (not behind) is free and better than most ring lights. Position: your face should be lit by the window, the camera between you and the window.
+Natural light from a window in front of you (not behind) is free and better than most ring lights. Position - your face should be lit by the window, the camera between you and the window.
 
 If you don't have a window or record at night:
 
@@ -170,16 +170,16 @@ For screencasts with system audio + camera:
 ```bash
 macOS: Quicktime Player (free, built-in)
 File → New Screen Recording → Include mic
-Limitation: no camera overlay, records whole screen
+Limitation - no camera overlay, records whole screen
 
-Better: OBS Studio (free, open source)
+Better - OBS Studio (free, open source)
 brew install --cask obs
 
 OBS scene setup for tech screencasts:
 - Source 1: Screen Capture (application window or full screen)
 - Source 2: Video Capture Device (webcam, bottom-right corner)
 - Source 3: Audio Input Capture (your mic)
-Output: MP4, 1080p, CRF 20
+Output - MP4, 1080p, CRF 20
 ```
 
 OBS recording profile for async demos:
@@ -231,7 +231,7 @@ Complete Budget Breakdown
 
 The starter tier produces recordings that are indistinguishable from mid-tier when the room acoustics are properly treated. Spend on foam before you spend on gear.
 
-Advanced Room Acoustics: Professional Treatment
+Advanced Room Acoustics - Professional Treatment
 
 For engineers who record frequently, additional acoustic treatment dramatically improves quality:
 
@@ -272,7 +272,7 @@ Typical async demo workflow for technical walkthroughs:
 #!/bin/bash
 Record, edit, and upload a tech demo
 
-Step 1: Record (using OBS)
+Step 1 - Record (using OBS)
 - Open the code in your editor
 - Window-capture OBS source (just editor, no desktop)
 - Optional: Picture-in-picture of your face (bottom-right)
@@ -281,16 +281,16 @@ Step 1: Record (using OBS)
   We check if requests exceed 100 per minute..."
 - Export as MP4
 
-Step 2: Compress
+Step 2 - Compress
 ffmpeg -i raw_recording.mp4 -c:v libx264 -crf 23 -c:a aac output.mp4
 CRF 23 = visually lossless, much smaller file
 
-Step 3: Upload
-Option A: Loom (faster, includes sharing link)
-Option B: GitHub release assets + link in PR
-Option C: Internal video server if available
+Step 3 - Upload
+Option A - Loom (faster, includes sharing link)
+Option B - GitHub release assets + link in PR
+Option C - Internal video server if available
 
-Step 4: Share with context
+Step 4 - Share with context
 In Slack/GitHub:
 "Here's a walkthrough of the new API endpoint [video link]
  (5 min). shows implementation details and deployment process"
@@ -332,7 +332,7 @@ Improper audio levels ruin otherwise good recordings:
 ```bash
 Using Audacity for quick audio level check:
 1. Record 2 minutes of yourself talking at normal volume
-2. Open in Audacity: File → Open → your_recording.wav
+2. Open in Audacity - File → Open → your_recording.wav
 3. Select the waveform (Ctrl+A)
 4. Analyze → Plot Spectrum
 5. Look for peaks: should be between -12dB and -3dB
@@ -359,7 +359,7 @@ Recording Software Comparison
 | Loom | Web/Windows/Mac | Free-$12/mo | Very easy | Built-in cloud | Instant sharing |
 | ScreenFlow | macOS | $99 one-time | Easy | Video editing built-in | Mac-only, polished |
 
-For most engineers: Start with Loom (easiest, handles cloud hosting). For more control: OBS Studio (free, unlimited). For quick browser tabs: Screenity.
+For most engineers - Start with Loom (easiest, handles cloud hosting). For more control: OBS Studio (free, unlimited). For quick browser tabs: Screenity.
 
 Post-Recording Audio Cleanup
 

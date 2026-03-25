@@ -21,19 +21,19 @@ When you're working from home full-time, your keyboard becomes your primary inte
 Table of Contents
 
 - [Why Laptop Keyboards Fall Short](#why-laptop-keyboards-fall-short)
-- [Switch Types: What Developers Need to Know](#switch-types-what-developers-need-to-know)
+- [Switch Types - What Developers Need to Know](#switch-types-what-developers-need-to-know)
 - [Key Features for Developers](#key-features-for-developers)
 - [Ergonomics and Health Considerations](#ergonomics-and-health-considerations)
 - [Setting Up Your Keyboard on Linux and macOS](#setting-up-your-keyboard-on-linux-and-macos)
 - [Maintenance and Durability](#maintenance-and-durability)
 - [Making Your Choice](#making-your-choice)
-- [Keyboard Comparison: Popular Models for Remote Workers](#keyboard-comparison-popular-models-for-remote-workers)
+- [Keyboard Comparison - Popular Models for Remote Workers](#keyboard-comparison-popular-models-for-remote-workers)
 - [Setup Guides for Popular Keyboards](#setup-guides-for-popular-keyboards)
 - [Keyboard Macro Examples for Development](#keyboard-macro-examples-for-development)
 - [Durability and Replacement Parts](#durability-and-replacement-parts)
 - [Budget Decision Framework](#budget-decision-framework)
 - [Common Keyboard Mistakes and How to Avoid Them](#common-keyboard-mistakes-and-how-to-avoid-them)
-- [Keyboard vs. Laptop Keyboard: Speed and Accuracy Gains](#keyboard-vs-laptop-keyboard-speed-and-accuracy-gains)
+- [Keyboard vs. Laptop Keyboard - Speed and Accuracy Gains](#keyboard-vs-laptop-keyboard-speed-and-accuracy-gains)
 
 This guide focuses on what matters for developers and power users: switch types, ergonomics, connectivity, and practical features that integrate with development workflows.
 
@@ -43,7 +43,7 @@ Most laptop keyboards use membrane or scissor-switch mechanisms with shallow tra
 
 The compact layouts often omit number pads and function rows, forcing developers to rely on awkward key combinations. Additionally, laptop keyboards sit low, requiring your wrists to bend downward, a position that contributes to repetitive strain injuries over time.
 
-Switch Types: What Developers Need to Know
+Switch Types - What Developers Need to Know
 
 Understanding switch types helps you choose a keyboard that matches your typing style and environment.
 
@@ -117,7 +117,7 @@ Setting Up Your Keyboard on Linux and macOS
 Modern keyboards work across operating systems, but configuration varies:
 
 ```bash
-On Linux: Installing input drivers
+On Linux - Installing input drivers
 For QMK-compatible keyboards
 sudo apt install qmk
 qmk setup
@@ -127,8 +127,8 @@ ls /dev/input/by-id/
 ```
 
 ```bash
-On macOS: Karabiner-Elements for advanced remapping
-Install via: https://karabiner-elements.pqrs.org/
+On macOS - Karabiner-Elements for advanced remapping
+Install via - https://karabiner-elements.pqrs.org/
 Useful for:
 - Remapping Caps Lock to Control/Escape
 - Creating application-specific layouts
@@ -159,7 +159,7 @@ The "best" keyboard ultimately depends on your specific situation:
 
 Test different switch types if possible, many stores display samples. What feels right varies significantly between individuals.
 
-Keyboard Comparison: Popular Models for Remote Workers
+Keyboard Comparison - Popular Models for Remote Workers
 
 Here's a practical breakdown of keyboards that work well for developers and remote workers:
 
@@ -168,7 +168,7 @@ Here's a practical breakdown of keyboards that work well for developers and remo
 | Keychron Q1 Pro | Mechanical | $180-220 | Customizable | Developers wanting ease of customization | Wireless, hot-swap, Mac/Windows |
 | Ducky One 3 | Mechanical | $150-200 | Cherry/Gateron | Everyday coding work | Solid build quality, multiple size options |
 | Leopold FC900R | Mechanical | $140-180 | Cherry MX | Typists who value consistency | Excellent stability, compact |
-| Kinesis Advantage360 | Ergonomic | $300-350 | Cherry MX | Developers with RSI concerns | Steep learning curve but transformative |
+| Kinesis Advantage360 | Ergonomic | $300-350 | Cherry MX | Developers with RSI concerns | Steep learning curve but changing |
 | Apple Magic Keyboard | Membrane | $99 | Scissors | MacBook users wanting simplicity | Minimal desk space, wireless |
 | ZSA Moonlander | Ergonomic Split | $365 | Customizable | Remote workers with wrist strain | Ortholinear, highly programmable |
 | WASD V4 | Mechanical | $110-160 | Cherry MX | Budget-conscious coders | Reliable, customizable keycaps |
@@ -236,17 +236,17 @@ Keyboard Macro Examples for Development
 Developers often set up macros to speed up repetitive tasks. Here are practical examples:
 
 ```bash
-Example 1: Quick Vim mode toggle (for modal editing in IDEs)
+Example 1 - Quick Vim mode toggle (for modal editing in IDEs)
 Many IDEs support Vim extensions
 Configure your keyboard to remap Caps Lock:
 Caps Lock → Escape (tap), Control (hold)
 
-Example 2: Code template macro
+Example 2 - Code template macro
 Insert a common pattern with a single keystroke
 QMK macro for language-specific headers
 #define KC_CPP_MAIN SEND_STRING("int main() {" SS_TAP(X_ENTER) "}" SS_TAP(X_ENTER))
 
-Example 3: Terminal navigation
+Example 3 - Terminal navigation
 Quick shortcuts for frequently-used commands
 Ctrl+Shift+D → "git diff" (configurable per IDE)
 Alt+L → "npm run lint"
@@ -268,11 +268,11 @@ Budget Decision Framework
 
 For remote workers choosing a keyboard, consider your replacement horizon:
 
-Budget tier ($50-100): Replace every 2-3 years. Accept that typing feel changes with age. Solid for those shifting between offices.
+Budget tier ($50-100) - Replace every 2-3 years. Accept that typing feel changes with age. Solid for those shifting between offices.
 
-Mid-range ($100-200): Keyboard lasts 5-7 years. Investing in comfort here typically pays off through reduced hand strain and higher typing speed. This is where most developers find sweet spot value.
+Mid-range ($100-200) - Keyboard lasts 5-7 years. Investing in comfort here typically pays off through reduced hand strain and higher typing speed. This is where most developers find sweet spot value.
 
-Premium ($200+): Keyboards that last 10+ years. Hot-swap or fully customizable designs reward frequent tweaks. Worth it if typing comfort directly impacts your income (copywriters, programmers, technical writers).
+Premium ($200+) - Keyboards that last 10+ years. Hot-swap or fully customizable designs reward frequent tweaks. Worth it if typing comfort directly impacts your income (copywriters, programmers, technical writers).
 
 Ergonomic keyboards ($250-350) justify higher cost through RSI prevention. If you've experienced wrist pain, the investment often prevents expensive medical costs later.
 
@@ -280,33 +280,33 @@ Common Keyboard Mistakes and How to Avoid Them
 
 Many remote workers buy quality keyboards but set them up incorrectly, negating their benefits:
 
-Mistake 1: Positioning too high
-Problem: Causes wrists to bend upward, straining tendons
-Solution: Elbows should bend at 90 degrees; keyboard height matches elbow level
-Test: Sit at desk with arms at side; keyboard should be 1-2 inches below elbow
+Mistake 1 - Positioning too high
+Problem - Causes wrists to bend upward, straining tendons
+Solution - Elbows should bend at 90 degrees; keyboard height matches elbow level
+Test - Sit at desk with arms at side; keyboard should be 1-2 inches below elbow
 
-Mistake 2: Typing with wrists resting on desk edge
-Problem: Cuts off circulation, causes carpal tunnel compression
-Solution: Use wrist rest under palm heel (heel of palm, not wrist itself)
+Mistake 2 - Typing with wrists resting on desk edge
+Problem - Cuts off circulation, causes carpal tunnel compression
+Solution - Use wrist rest under palm heel (heel of palm, not wrist itself)
 Mechanical keyboard with matching wrist rest
 
-Mistake 3: Reaching too far for keyboard
-Problem: Causes shoulder strain and neck tension
-Solution: Keyboard should be within natural reach (12-18 inches from body)
-For compact keyboards: May need to sit closer to desk
+Mistake 3 - Reaching too far for keyboard
+Problem - Causes shoulder strain and neck tension
+Solution - Keyboard should be within natural reach (12-18 inches from body)
+For compact keyboards - May need to sit closer to desk
 
-Mistake 4: Ignoring switch feel preferences
-Problem: Forcing yourself to adapt to switches you dislike
-Solution: Test switches before committing; 60% of wrist strain issues resolve after switch swap
-Take-away: You can always replace keycaps and stabilizers, but replacing switches on soldered boards is difficult
+Mistake 4 - Ignoring switch feel preferences
+Problem - Forcing yourself to adapt to switches you dislike
+Solution - Test switches before committing; 60% of wrist strain issues resolve after switch swap
+Take-away - You can always replace keycaps and stabilizers, but replacing switches on soldered boards is difficult
 
-Mistake 5: Not using keyboard layers effectively
-Problem: Reaching for keys far from home position
-Solution: Reprogram frequently-used keys (navigation, common code patterns) to easier positions
+Mistake 5 - Not using keyboard layers effectively
+Problem - Reaching for keys far from home position
+Solution - Reprogram frequently-used keys (navigation, common code patterns) to easier positions
 Remap arrow keys to WASD when holding function layer
-Benefit: Measurable typing speed increase (5-15%) within 1-2 weeks of practice
+Benefit - Measurable typing speed increase (5-15%) within 1-2 weeks of practice
 
-Keyboard vs. Laptop Keyboard: Speed and Accuracy Gains
+Keyboard vs. Laptop Keyboard - Speed and Accuracy Gains
 
 Data from developers who switched to external keyboards:
 
@@ -327,9 +327,9 @@ After external mechanical keyboard:
 
 Timeline to adjustment:
 Days 1-3: Learning curve, slower typing
-Days 4-7: Confidence builds, speed approaches baseline
-Week 2-3: New speed becomes comfortable
-Week 4+: Performance gains stabilize
+Days 4-7 - Confidence builds, speed approaches baseline
+Week 2-3 - New speed becomes comfortable
+Week 4+ - Performance gains stabilize
 
 Most developers hit peak performance 3-4 weeks post-switch.
 ```

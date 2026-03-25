@@ -37,7 +37,7 @@ Table of Contents
 - [OVERALL](#overall)
 - [Response Compilation and Aggregation Process](#response-compilation-and-aggregation-process)
 - [[Person] 360 Feedback Summary](#person-360-feedback-summary)
-- [The Feedback Conversation: Delivery Framework](#the-feedback-conversation-delivery-framework)
+- [The Feedback Conversation - Delivery Framework](#the-feedback-conversation-delivery-framework)
 - [Feedback Cycle Automation with Reminders](#feedback-cycle-automation-with-reminders)
 - [Common Pitfalls and How to Avoid Them](#common-pitfalls-and-how-to-avoid-them)
 
@@ -68,7 +68,7 @@ Create specific questions for each category. Avoid vague prompts like "How does 
 
 Implementing the Feedback Collection Process
 
-Step 1: Identify Feedback Participants
+Step 1 - Identify Feedback Participants
 
 For each person receiving feedback, include:
 
@@ -79,7 +79,7 @@ For each person receiving feedback, include:
 
 Rotating reviewers quarterly prevents feedback fatigue and ensures diverse perspectives over time.
 
-Step 2: Set Up the Feedback Form
+Step 2 - Set Up the Feedback Form
 
 Use a simple form builder or create a structured document. Here's a template structure:
 
@@ -106,7 +106,7 @@ Overall Summary
 8. One thing they should continue doing:
 ```
 
-Step 3: Distribute and Collect Responses
+Step 3 - Distribute and Collect Responses
 
 Send personalized requests to each reviewer with a clear deadline (typically 5-7 days). Use a shared folder or feedback tool where responses are stored. Anonymize responses if psychological safety requires it, though named feedback tends to be more actionable.
 
@@ -289,8 +289,8 @@ If "No," please explain:
 
 ---
 
-Submitted by: [Optional - can be anonymous]
-Date: [Auto-filled]
+Submitted by - [Optional - can be anonymous]
+Date - [Auto-filled]
 ```
 
 This structure guides responses without being limiting. The "rating" questions give quantitative data while open-ended sections capture nuance.
@@ -300,28 +300,28 @@ Response Compilation and Aggregation Process
 Raw feedback needs synthesis to be useful. Here's a process for turning collected responses into actionable summary:
 
 ```
-Step 1: De-Identify Responses (if anonymous)
+Step 1 - De-Identify Responses (if anonymous)
 - Remove names, specific projects, team identifiers
 - Focus on patterns, not individual opinions
 
-Step 2: Identify Patterns
+Step 2 - Identify Patterns
 Look for themes that appear in 3+ responses:
  - Technical strengths mentioned repeatedly
  - Communication issues cited by multiple people
  - Reliability or accountability patterns
  - Leadership impact observations
 
-Step 3: Categorize Feedback
+Step 3 - Categorize Feedback
 - Strengths: Patterns of positive feedback (do this more)
 - Growth areas: Patterns of constructive feedback (improve this)
 - Outliers: One or two contradictory responses (usually noise)
 - Questions: Feedback that suggests clarification or discussion
 
-Step 4: Create Summary Document
+Step 4 - Create Summary Document
 
 [Person] 360 Feedback Summary
 
-Overall Sentiment: [Positive/Mixed/Concerning based on ratings distribution]
+Overall Sentiment - [Positive/Mixed/Concerning based on ratings distribution]
 
 Key Strengths (cited by 4+ reviewers)
 - [Strength 1]: [Example quote pattern]
@@ -340,14 +340,14 @@ Areas of Disagreement
 Questions for Discussion
 [Ambiguities to clarify in one-on-one]
 
-Step 5: Prepare Feedback Delivery
+Step 5 - Prepare Feedback Delivery
 - Schedule one-on-one with recipient
 - Plan to spend 30-45 minutes
 - Have specific examples ready
 - Position feedback as learning opportunity, not judgment
 ```
 
-The Feedback Conversation: Delivery Framework
+The Feedback Conversation - Delivery Framework
 
 Delivering 360 feedback well is a skill. Use this structure:
 
@@ -359,7 +359,7 @@ strengths and identify one area for growth over the next quarter."
 
 Share Strengths First (5 minutes):
 "Four reviewers mentioned that you consistently [strength].
-Here's a specific example: [quote/description]."
+Here's a specific example - [quote/description]."
 
 Allow brief reaction, then continue with 2-3 more strengths.
 
@@ -369,7 +369,7 @@ growth would have a big impact. Are you ready to hear it?"
 
 Deliver Growth Feedback (5 minutes):
 "[Growth area] came up from three reviewers. Specifically, [feedback pattern].
-Here's one example: [specific situation]."
+Here's one example - [specific situation]."
 
 Listen to their reaction. Don't defend the feedback, your job is delivery, not justification.
 
@@ -381,7 +381,7 @@ Commit to follow-up (3 minutes):
 "Let's check in after six weeks and see how this is going. I'm here to support."
 ```
 
-The key: deliver feedback with specificity, listen to their perspective, and commit to support.
+The key - deliver feedback with specificity, listen to their perspective, and commit to support.
 
 Feedback Cycle Automation with Reminders
 
@@ -391,7 +391,7 @@ Automate the administrative burden so nothing falls through the cracks:
 #!/bin/bash
 feedback-cycle.sh - Automate 360 feedback process
 
-Week 1: Send requests to reviewers
+Week 1 - Send requests to reviewers
 echo "Sending feedback requests to reviewers..."
 for reviewer in $(cat reviewers.txt); do
  send_email \
@@ -401,17 +401,17 @@ for reviewer in $(cat reviewers.txt); do
  --link "https://feedback.company.com/form/[person]"
 done
 
-Week 2: Send reminder to non-respondents
+Week 2 - Send reminder to non-respondents
 echo "Sending reminders to incomplete responses..."
 for incomplete in $(check_incomplete_forms); do
  send_slack_dm "$incomplete" "Just a reminder: feedback due tomorrow"
 done
 
-Week 3: Compile and synthesize feedback
+Week 3 - Compile and synthesize feedback
 echo "Compiling feedback into summary..."
 python3 aggregate_feedback.py --person "$1" --output summary.md
 
-Week 4: Schedule delivery meeting
+Week 4 - Schedule delivery meeting
 echo "Scheduling feedback delivery meeting..."
 create_calendar_event \
  --attendees "$person" \
@@ -423,15 +423,15 @@ This removes the manual burden of chasing forms, reminding respondents, and orga
 
 Common Pitfalls and How to Avoid Them
 
-Too many feedback cycles: Running 360 feedback every quarter causes fatigue. Annual or bi-annual works better for most teams.
+Too many feedback cycles - Running 360 feedback every quarter causes fatigue. Annual or bi-annual works better for most teams.
 
-Identical questions every cycle: Vary questions slightly to target emerging growth areas, not just recycle the same form.
+Identical questions every cycle - Vary questions slightly to target emerging growth areas, not just recycle the same form.
 
-Feedback that's too soft: "Great communicator" is useless. Require examples. "You explained the API migration clearly in our design review" is actionable.
+Feedback that's too soft - "Great communicator" is useless. Require examples. "You explained the API migration clearly in our design review" is actionable.
 
-No follow-up: Collect feedback, deliver it, then never revisit. The value is in the follow-up accountability, not the collection.
+No follow-up - Collect feedback, deliver it, then never revisit. The value is in the follow-up accountability, not the collection.
 
-Anonymous when team is small: In a 5-person team, "anonymity" is obvious. Named feedback builds trust better and allows for follow-up clarification.
+Anonymous when team is small - In a 5-person team, "anonymity" is obvious. Named feedback builds trust better and allows for follow-up clarification.
 
 Frequently Asked Questions
 

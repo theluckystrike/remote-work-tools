@@ -22,7 +22,7 @@ Table of Contents
 - [Why Ultrawide Monitors Work for Programming](#why-ultrawide-monitors-work-for-programming)
 - [Essential Specs for Developer Monitors](#essential-specs-for-developer-monitors)
 - [Connectivity for Modern Development Workflows](#connectivity-for-modern-development-workflows)
-- [Curved vs Flat: What Developers Prefer](#curved-vs-flat-what-developers-prefer)
+- [Curved vs Flat - What Developers Prefer](#curved-vs-flat-what-developers-prefer)
 - [Stand and Ergonomics](#stand-and-ergonomics)
 - [Recommended Ultrawide Monitors for Developers](#recommended-ultrawide-monitors-for-developers)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
@@ -69,7 +69,7 @@ console.log(calculateHorizontalAdvantage(resolutions.uwqhd, resolutions['standar
 // Output: 5.2% more horizontal pixels
 ```
 
-Panel Type: IPS vs VA vs OLED
+Panel Type - IPS vs VA vs OLED
 
 - IPS (In-Plane Switching): Best overall for developers. Offers excellent color accuracy, wide viewing angles, and good response times. Ideal if you do any design work alongside coding.
 - VA (Vertical Alignment): Higher contrast ratios but slower response times. Can work for coding but may show ghosting in fast animations.
@@ -113,7 +113,7 @@ Audio
 
 Built-in speakers save desk space. Look for monitors with decent speaker quality if you attend many video calls.
 
-Curved vs Flat: What Developers Prefer
+Curved vs Flat - What Developers Prefer
 
 Curved ultrawides reduce eye strain by maintaining consistent viewing distance across the display. The curvature rating (usually 1000R, 1500R, or 1800R) indicates the radius, the lower the number, the more pronounced the curve.
 
@@ -122,7 +122,7 @@ Most developers prefer 1500R curvature, curved enough to feel immersive without 
 Flat displays remain valid choices, particularly for:
 - Multi-monitor setups where alignment matters
 - Users sensitive to curved distortion
-- Color-critical work where consistency is paramount
+- Color-critical work where consistency is essential
 
 Stand and Ergonomics
 
@@ -155,7 +155,7 @@ Recommended Ultrawide Monitors for Developers
 
 Based on the above criteria, here are the top recommendations:
 
-Best Overall: Samsung Odyssey G9 (49")
+Best Overall - Samsung Odyssey G9 (49")
 
 - Resolution: 5120x1440 (DUW5K equivalent)
 - Panel: VA with 1000R curvature
@@ -164,7 +164,7 @@ Best Overall: Samsung Odyssey G9 (49")
 - KVM: Yes
 - Why it's great: Massive screen real estate, excellent for side-by-side coding
 
-Best Value: LG 34WN80C-B
+Best Value - LG 34WN80C-B
 
 - Resolution: 3440x1440
 - Panel: IPS
@@ -172,7 +172,7 @@ Best Value: LG 34WN80C-B
 - USB-C: Yes, 60W power delivery
 - Why it's great: Solid IPS panel at reasonable price, good color accuracy
 
-Best for Text Clarity: Dell U3821DW
+Best for Text Clarity - Dell U3821DW
 
 - Resolution: 3840x1600
 - Panel: IPS
@@ -180,7 +180,7 @@ Best for Text Clarity: Dell U3821DW
 - USB-C: Yes, 90W
 - Why it's great: Higher resolution means sharper text, excellent for long coding sessions
 
-Best Premium: ASUS ProArt PA38AC
+Best Premium - ASUS ProArt PA38AC
 
 - Resolution: 3440x1440
 - Panel: IPS (HDR400)
@@ -192,13 +192,13 @@ Common Mistakes to Avoid
 
 Many developers make these mistakes when selecting their first ultrawide:
 
-Choosing resolution too high: 4K ultrawides (3840x2160 scaled to 21:9) demand powerful GPUs. If you're on an integrated graphics laptop, stick with UWQHD.
+Choosing resolution too high - 4K ultrawides (3840x2160 scaled to 21:9) demand powerful GPUs. If you're on an integrated graphics laptop, stick with UWQHD.
 
-Ignoring VESA mounting: The included stands often lack height adjustment. Verify VESA compatibility before purchasing if you plan to use a monitor arm.
+Ignoring VESA mounting - The included stands often lack height adjustment. Verify VESA compatibility before purchasing if you plan to use a monitor arm.
 
-Not testing curvature: What works for movies feels different for code. If possible, test in a store before buying.
+Not testing curvature - What works for movies feels different for code. If possible, test in a store before buying.
 
-Overlooking cable management: Ultrawides are heavy. Ensure your desk can support the weight and has cable routing options.
+Overlooking cable management - Ultrawides are heavy. Ensure your desk can support the weight and has cable routing options.
 
 Setting Up Your Ultrawide for Development
 

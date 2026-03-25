@@ -29,13 +29,13 @@ Table of Contents
 - [Shared Auth Library v2.0 Migration Timeline](#shared-auth-library-v20-migration-timeline)
 - [Automation for Multi-Repository Dependency Management](#automation-for-multi-repository-dependency-management)
 - [Communication Templates for Remote Teams](#communication-templates-for-remote-teams)
-- [Dependency Update Proposal: [Package Name]](#dependency-update-proposal-package-name)
+- [Dependency Update Proposal - [Package Name]](#dependency-update-proposal-package-name)
 - [Metrics for Healthy Dependency Management](#metrics-for-healthy-dependency-management)
 - [Managing Breaking Changes in Distributed Systems](#managing-breaking-changes-in-distributed-systems)
 - [Configuring Renovate for Multi-Repository Remote Teams](#configuring-renovate-for-multi-repository-remote-teams)
 - [Security Vulnerability Prioritization Framework](#security-vulnerability-prioritization-framework)
 - [Dependency Update Metrics Worth Tracking](#dependency-update-metrics-worth-tracking)
-- [Major Breaking Change: [Package] v[X] → v[Y]](#major-breaking-change-package-vx-vy)
+- [Major Breaking Change - [Package] v[X] → v[Y]](#major-breaking-change-package-vx-vy)
 - [Post-Update Monitoring](#post-update-monitoring)
 
 The Multi-Repository Dependency Challenge
@@ -48,21 +48,21 @@ Establishing a Dependency Update Cadence
 
 The most effective remote teams establish a regular dependency update cadence rather than reacting to vulnerabilities or outdated packages ad-hoc. This creates predictable rhythms that work well with distributed workflows.
 
-Weekly Dependency Reviews: Allocate a specific day each week for dependency updates. This creates a recurring agenda item that remote team members can prepare for in advance. Team members review their assigned repositories, note available updates, and flag any that might cause breaking changes.
+Weekly Dependency Reviews - Allocate a specific day each week for dependency updates. This creates a recurring agenda item that remote team members can prepare for in advance. Team members review their assigned repositories, note available updates, and flag any that might cause breaking changes.
 
-Monthly Coordination Meetings: Schedule a monthly sync specifically for dependency management. This works particularly well for remote teams because it aggregates all dependency concerns into a single meeting, reducing the total number of interruptions across the week. Use this time to discuss cross-repository impacts and prioritize updates that affect multiple projects.
+Monthly Coordination Meetings - Schedule a monthly sync specifically for dependency management. This works particularly well for remote teams because it aggregates all dependency concerns into a single meeting, reducing the total number of interruptions across the week. Use this time to discuss cross-repository impacts and prioritize updates that affect multiple projects.
 
 Implementing Cross-Repository Update Workflows
 
 A well-structured workflow prevents the common pitfalls that remote teams encounter. The following approach has proven effective for distributed DevOps teams managing ten or more repositories.
 
-Step 1: Inventory and Prioritization
+Step 1 - Inventory and Prioritization
 
 Maintain a centralized inventory of all repositories and their key dependencies. This can be a simple shared document or a dedicated dashboard. For each dependency, track the current version, latest stable version, and any known breaking changes.
 
 Remote teams benefit from color-coded priority levels: critical (security vulnerabilities), high (major version updates), medium (minor updates), and low (patch updates). This visual system helps team members quickly understand urgency without reading detailed changelogs during standup meetings.
 
-Step 2: Update Proposals
+Step 2 - Update Proposals
 
 Before making changes, create update proposals that document what will change and why. For remote teams, this written proposal serves as the async discussion thread that would otherwise happen in person. Include the following in each proposal:
 
@@ -72,13 +72,13 @@ Before making changes, create update proposals that document what will change an
 - Affected repositories and teams
 - Testing requirements and rollback plan
 
-Step 3: Async Review Process
+Step 3 - Async Review Process
 
 use asynchronous code review tools to handle dependency updates. Pull requests work well for this purpose because they provide a natural forum for discussion across time zones. When creating PRs for dependency updates, include clear descriptions that allow reviewers to understand the changes without extensive context switching.
 
 For updates affecting multiple repositories, consider using GitHub's dependency graph features to visualize relationships. This helps remote team members understand how a change in a shared library might impact other projects.
 
-Step 4: Coordinated Deployment Windows
+Step 4 - Coordinated Deployment Windows
 
 Certain dependency updates require coordinated deployment across repositories. When updating a shared library that other projects depend on, establish deployment windows that account for your team's time zone distribution. This might mean staging updates during overlapping work hours or using feature flags to maintain backward compatibility during transitions.
 
@@ -86,21 +86,21 @@ Real-World Workflow Example
 
 Consider a remote DevOps team managing a microservices architecture with twelve repositories. Their dependency update workflow follows this pattern:
 
-Monday: Automated dependency scanning runs across all repositories via CI/CD pipelines. Results populate a shared dashboard showing available updates and security advisories.
+Monday - Automated dependency scanning runs across all repositories via CI/CD pipelines. Results populate a shared dashboard showing available updates and security advisories.
 
-Tuesday: Team members claim repositories for update review. Each member updates the shared document with their findings, noting any problematic updates requiring discussion.
+Tuesday - Team members claim repositories for update review. Each member updates the shared document with their findings, noting any problematic updates requiring discussion.
 
-Wednesday: The weekly async discussion happens in a dedicated Slack channel. Team members vote on priorities and assign owners for the current week's updates.
+Wednesday - The weekly async discussion happens in a dedicated Slack channel. Team members vote on priorities and assign owners for the current week's updates.
 
-Thursday-Friday: Assigned owners create pull requests. Cross-repository updates are coordinated to ensure the shared library updates before dependent services.
+Thursday-Friday - Assigned owners create pull requests. Cross-repository updates are coordinated to ensure the shared library updates before dependent services.
 
-Following Monday: Deployed updates are verified during the next scan cycle. Any issues are documented for future planning.
+Following Monday - Deployed updates are verified during the next scan cycle. Any issues are documented for future planning.
 
 This rhythm creates predictability. Remote team members know when to focus on dependencies and when to concentrate on other work. The structured approach also creates clear accountability without requiring constant synchronous communication.
 
 Practical Tips for Remote Teams
 
-Use Automation Judiciously: Automated dependency updates through tools like Dependabot or Renovate reduce manual work but require configuration for multi-repository workflows. Set up proper routing rules so updates are assigned to the correct team members automatically.
+Use Automation Judiciously - Automated dependency updates through tools like Dependabot or Renovate reduce manual work but require configuration for multi-repository workflows. Set up proper routing rules so updates are assigned to the correct team members automatically.
 
 Configure Renovate to automatically create dependency update PRs across all your repositories with sensible grouping and scheduling:
 
@@ -172,13 +172,13 @@ done
 echo "Report saved to $REPORT_FILE"
 ```
 
-Document Dependency Owners: Clearly assign ownership for each repository's dependencies. Remote teams avoid confusion when everyone knows who to tag with questions about specific packages.
+Document Dependency Owners - Clearly assign ownership for each repository's dependencies. Remote teams avoid confusion when everyone knows who to tag with questions about specific packages.
 
-Create Standardized PR Templates: Standard templates for dependency update PRs ensure consistency. Include checkboxes for testing completed, changelog reviewed, and any breaking changes assessed.
+Create Standardized PR Templates - Standard templates for dependency update PRs ensure consistency. Include checkboxes for testing completed, changelog reviewed, and any breaking changes assessed.
 
-Build Test Automation: test suites catch dependency issues before they reach production. For remote teams, this becomes even more critical since debugging across time zones takes longer.
+Build Test Automation - test suites catch dependency issues before they reach production. For remote teams, this becomes even more critical since debugging across time zones takes longer.
 
-Establish Communication Norms: Define when to use synchronous versus asynchronous communication for dependency issues. Use chat for quick questions, issues for detailed discussions, and meetings only for complex cross-repository decisions.
+Establish Communication Norms - Define when to use synchronous versus asynchronous communication for dependency issues. Use chat for quick questions, issues for detailed discussions, and meetings only for complex cross-repository decisions.
 
 Dependency Update Prioritization Matrix
 
@@ -245,17 +245,17 @@ Coordinated Rollout Strategy for Shared Libraries
 
 When updating a library that multiple services depend on, use this staged rollout approach:
 
-Stage 1: Alpha (1 internal team)
+Stage 1 - Alpha (1 internal team)
 - 2-3 days: One team updates and tests thoroughly
 - Documents breaking changes and adaptation patterns
 - Creates migration guide for other teams
 
-Stage 2: Beta (2-3 teams in different timezones)
+Stage 2 - Beta (2-3 teams in different timezones)
 - 1 week: Select diverse teams test in parallel
 - Each provides feedback asynchronously
 - Platform team aggregates learnings
 
-Stage 3: General Release
+Stage 3 - General Release
 - 2-3 weeks: Remaining teams update on their schedule
 - Platform team available for questions
 - Monitor for issues across all consumers
@@ -347,12 +347,12 @@ Update Proposal Template
 Store this in a shared wiki so all teams use consistent format:
 
 ```markdown
-Dependency Update Proposal: [Package Name]
+Dependency Update Proposal - [Package Name]
 
-Proposed By: [Your name]
-Current Version: [X.Y.Z]
-Target Version: [X.Y.Z]
-Priority Level: [Critical/High/Medium/Low]
+Proposed By - [Your name]
+Current Version - [X.Y.Z]
+Target Version - [X.Y.Z]
+Priority Level - [Critical/High/Medium/Low]
 
 Motivation
 - Security fix: [CVE number if applicable]
@@ -517,11 +517,11 @@ For major breaking changes affecting multiple services, establish a migration wo
 Breaking Change Coordination Template
 
 ```markdown
-Major Breaking Change: [Package] v[X] → v[Y]
+Major Breaking Change - [Package] v[X] → v[Y]
 
-Affected Teams: Backend, Frontend, DevOps
-Migration Deadline: [Date - minimum 2 weeks out]
-Coordinator: [Person name]
+Affected Teams - Backend, Frontend, DevOps
+Migration Deadline - [Date - minimum 2 weeks out]
+Coordinator - [Person name]
 
 Key Changes
 - [Breaking change 1] - Migration: [path]

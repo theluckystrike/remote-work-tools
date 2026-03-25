@@ -20,13 +20,13 @@ Hybrid work models present unique onboarding challenges. New employees need to b
 
 Table of Contents
 
-- [Pre-Start Preparation: Setting the Foundation](#pre-start-preparation-setting-the-foundation)
-- [First Week: Building Connections Across Locations](#first-week-building-connections-across-locations)
+- [Pre-Start Preparation - Setting the Foundation](#pre-start-preparation-setting-the-foundation)
+- [First Week - Building Connections Across Locations](#first-week-building-connections-across-locations)
 - [Week 1 Schedule](#week-1-schedule)
-- [First Month: Deep Integration and Skill Building](#first-month-deep-integration-and-skill-building)
-- [Week 1-2: Foundation](#week-1-2-foundation)
-- [Week 3-4: Practical Work](#week-3-4-practical-work)
-- [Documentation: The Backbone of Hybrid Onboarding](#documentation-the-backbone-of-hybrid-onboarding)
+- [First Month - Deep Integration and Skill Building](#first-month-deep-integration-and-skill-building)
+- [Week 1-2 - Foundation](#week-1-2-foundation)
+- [Week 3-4 - Practical Work](#week-3-4-practical-work)
+- [Documentation - The Backbone of Hybrid Onboarding](#documentation-the-backbone-of-hybrid-onboarding)
 - [Quick Links](#quick-links)
 - [Your First Week](#your-first-week)
 - [Getting Help](#getting-help)
@@ -34,7 +34,7 @@ Table of Contents
 
 This guide provides practical strategies, automation scripts, and templates for implementing hybrid onboarding that works for developer teams and technical power users.
 
-Pre-Start Preparation: Setting the Foundation
+Pre-Start Preparation - Setting the Foundation
 
 Successful hybrid onboarding begins before day one. The preparation phase ensures new hires can hit the ground running whether they're working from the office or remotely.
 
@@ -90,7 +90,7 @@ For hybrid teams, ship physical welcome packages to remote-working new hires inc
 
 Coordinate shipping to arrive 2-3 days before their start date so it's waiting when they begin.
 
-First Week: Building Connections Across Locations
+First Week - Building Connections Across Locations
 
 The first week sets the tone for a new employee's entire tenure. In hybrid environments, you must be intentional about creating equal experiences for in-office and remote workers.
 
@@ -147,7 +147,7 @@ echo "Setup complete! Run 'make dev' to start local services."
 
 This approach works whether the new hire is at the office or at home, removing location as a barrier to productivity.
 
-First Month: Deep Integration and Skill Building
+First Month - Deep Integration and Skill Building
 
 The first month focuses on deeper technical integration, process understanding, and relationship building within the hybrid context.
 
@@ -158,13 +158,13 @@ Create documented learning paths that accommodate different work schedules and t
 ```markdown
 Engineering Onboarding Learning Path
 
-Week 1-2: Foundation
+Week 1-2 - Foundation
 - [ ] Complete security training (45 min, async)
 - [ ] Review architecture documentation (2 hours, async)
 - [ ] Watch recorded code review sessions (1 hour, async)
 - [ ] Attend live: CI/CD pipeline walkthrough
 
-Week 3-4: Practical Work
+Week 3-4 - Practical Work
 - [ ] Complete first good-first-issue ticket
 - [ ] Participate in pair programming session
 - [ ] Attend team retro (observe first, participate second)
@@ -192,7 +192,7 @@ Track these metrics to continuously improve your hybrid onboarding:
 | Peer connection score | > 80% | Network analysis |
 | Productivity ratio | > 70% | Output vs baseline |
 
-Documentation: The Backbone of Hybrid Onboarding
+Documentation - The Backbone of Hybrid Onboarding
 
 Hybrid work fails without excellent documentation. New hires cannot simply lean over to ask a colleague a quick question when working remotely.
 
@@ -230,8 +230,8 @@ Your First Week
 
 Getting Help
 - Slack: @onboarding-support
-- Email: onboarding@company.com
-- Manager: [Name](mailto:manager@company.com)
+- Email - onboarding@company.com
+- Manager - [Name](mailto:manager@company.com)
 ```
 
 Continuous Improvement

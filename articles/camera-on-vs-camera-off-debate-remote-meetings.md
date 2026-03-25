@@ -26,16 +26,16 @@ Table of Contents
 - [Optimizing Your Video Setup](#optimizing-your-video-setup)
 - [Team Policy Recommendations](#team-policy-recommendations)
 - [Video Meeting Guidelines](#video-meeting-guidelines)
-- [The Middle Path: Selective Video](#the-middle-path-selective-video)
+- [The Middle Path - Selective Video](#the-middle-path-selective-video)
 - [Making the Call](#making-the-call)
 - [The Neuroscience of Video Calls](#the-neuroscience-of-video-calls)
-- [Video Setup Investment: Cost vs. Benefit](#video-setup-investment-cost-vs-benefit)
+- [Video Setup Investment - Cost vs. Benefit](#video-setup-investment-cost-vs-benefit)
 - [Video Fatigue Research and Mitigation](#video-fatigue-research-and-mitigation)
 - [Advanced Video Tools and Alternatives](#advanced-video-tools-and-alternatives)
 - [Meeting Type Decision Tree](#meeting-type-decision-tree)
 - [Measuring Your Team's Video Culture](#measuring-your-teams-video-culture)
 - [Cultural Considerations for Camera Policies](#cultural-considerations-for-camera-policies)
-- [The Leadership Approach: Default Flexibility](#the-leadership-approach-default-flexibility)
+- [The Leadership Approach - Default Flexibility](#the-leadership-approach-default-flexibility)
 - [Remote Meeting Camera Guidelines](#remote-meeting-camera-guidelines)
 - [Implementing Camera Policy Change Successfully](#implementing-camera-policy-change-successfully)
 
@@ -131,7 +131,7 @@ Exceptions
 - Personal circumstances respected no-questions-asked
 ```
 
-The Middle Path: Selective Video
+The Middle Path - Selective Video
 
 Modern tools offer nuanced controls beyond binary on/off:
 
@@ -175,9 +175,9 @@ A video call transmits visual information at ~30 frames per second. Your brain i
 3. Self-Monitoring
 Seeing your own video tile creates constant self-awareness. You monitor how you look, your framing, your background. This mental split, processing others while monitoring yourself, consumes significant cognitive resources.
 
-Practical implication: If you're in a 60-minute all-hands with 50+ people, you're spending the entire time in sustained eye contact with strangers' faces and monitoring your own appearance. That's why you feel drained. Camera-off policies for large meetings aren't optional, they're necessary for cognitive health.
+Practical implication - If you're in a 60-minute all-hands with 50+ people, you're spending the entire time in sustained eye contact with strangers' faces and monitoring your own appearance. That's why you feel drained. Camera-off policies for large meetings aren't optional, they're necessary for cognitive health.
 
-Video Setup Investment: Cost vs. Benefit
+Video Setup Investment - Cost vs. Benefit
 
 If you decide cameras stay on, optimize strategically. Most remote workers overspend on cameras while underspending on lighting.
 
@@ -197,11 +197,11 @@ Video Fatigue Research and Mitigation
 
 Studies on "Zoom fatigue" identify three mechanisms. Understanding them helps you design meetings that feel less exhausting:
 
-Mirror Self-Viewing: Seeing yourself on screen creates constant self-monitoring, which drains mental energy. Most video platforms let you hide your own video tile, do this. You still see others, but you're not watching yourself.
+Mirror Self-Viewing - Seeing yourself on screen creates constant self-monitoring, which drains mental energy. Most video platforms let you hide your own video tile, do this. You still see others, but you're not watching yourself.
 
-Cognitive Load: Interpreting faces and micro-expressions is mentally expensive. In person, your brain has evolved over millennia to do this efficiently. On video, you're working 20% harder to interpret the same information. This exhaustion compounds over multiple calls.
+Cognitive Load - Interpreting faces and micro-expressions is mentally expensive. In person, your brain has evolved over millennia to do this efficiently. On video, you're working 20% harder to interpret the same information. This exhaustion compounds over multiple calls.
 
-Lack of Physical Movement: Video calls keep you seated and still. In-person meetings involve walking to conference rooms, shifting posture, and other micro-movements that reduce fatigue. Compensate by standing during calls, taking walks between meetings, or using a treadmill desk.
+Lack of Physical Movement - Video calls keep you seated and still. In-person meetings involve walking to conference rooms, shifting posture, and other micro-movements that reduce fatigue. Compensate by standing during calls, taking walks between meetings, or using a treadmill desk.
 
 Advanced Video Tools and Alternatives
 
@@ -223,9 +223,9 @@ Meeting Type Decision Tree
 Use this framework to decide camera on/off for different meeting types:
 
 ```
-START: Is this a synchronous meeting?
+START - Is this a synchronous meeting?
    No → Use async video updates (record Loom, post to Slack)
-   Yes: Is it with a client?
+   Yes - Is it with a client?
       Yes → Camera on (unless bandwidth issue)
       No: Is it small (under 5 people)?
           Yes → Camera on preferred
@@ -260,10 +260,10 @@ Camera policies carry cultural weight. Be thoughtful:
 
 - Gender dynamics: Research shows women feel more self-conscious on camera than men. Policies enforcing cameras can inadvertently create pressure on women.
 - Home environment: Not everyone has a private space for calls. Camera-optional policies reduce anxiety for people managing shared spaces or family interruptions.
-- Neurodivergence: Some neurodivergent individuals find constant eye contact (or simulated eye contact) draining. Flexible policies create psychological safety.
+- Neurodivergence - Some neurodivergent individuals find constant eye contact (or simulated eye contact) draining. Flexible policies create psychological safety.
 - Equity across roles: Ensure leadership models the same camera norms they expect from others. If executives have camera off but individual contributors must have camera on, it creates resentment.
 
-The Leadership Approach: Default Flexibility
+The Leadership Approach - Default Flexibility
 
 The best camera policies provide clear defaults while allowing exceptions:
 
@@ -282,24 +282,24 @@ Exceptions (no questions asked):
 - Neurodivergence or accessibility needs
 - Time zone extreme (very early morning or late night)
 
-Philosophy: We prioritize your focus and wellbeing. Camera on when it adds real value, camera off when it doesn't.
+Philosophy - We prioritize your focus and wellbeing. Camera on when it adds real value, camera off when it doesn't.
 ```
 
 Implementing Camera Policy Change Successfully
 
 If your team currently requires cameras on and you want to make it optional, implement thoughtfully:
 
-Week 1: Education
+Week 1 - Education
 - Share research on video fatigue and neuroscience
 - Discuss current problems around camera requirements
 - Ask for feedback on proposed change
 
-Week 2: Pilot
+Week 2 - Pilot
 - Announce new optional camera policy
 - Explicitly give permission: "Cameras are now optional for all meetings"
 - Include in meeting invites: "Camera optional" to normalize the change
 
-Week 3-4: Normalize
+Week 3-4 - Normalize
 - Don't comment if someone has camera off
 - Don't praise people with camera on
 - Treat camera status as a normal choice, not a moral statement

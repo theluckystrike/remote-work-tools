@@ -268,10 +268,10 @@ defaults write com.apple.notificationcenterui dnd-settings -data '...'
 
 Development-team setup (ambient audio + Brain.fm):
 ```
-Team decision: Use Brain.fm during pair programming for consistency
-Individual preference: Use ambient noise or Endel during solo work
-Async work time: Brain.fm for focus
-Meeting prep: Endel's relax setting if jumping into a lot of meetings
+Team decision - Use Brain.fm during pair programming for consistency
+Individual preference - Use ambient noise or Endel during solo work
+Async work time - Brain.fm for focus
+Meeting prep - Endel's relax setting if jumping into a lot of meetings
 ```
 
 Measuring Your Productivity Improvement

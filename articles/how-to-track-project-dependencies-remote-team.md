@@ -113,7 +113,7 @@ Keeping dependencies current reduces security vulnerabilities and compatibility 
 .github/dependabot.yml
 version: 2
 updates:
-  - package-ecosystem: "npm"
+  - package-environment: "npm"
     directory: "/"
     schedule:
       interval: "weekly"

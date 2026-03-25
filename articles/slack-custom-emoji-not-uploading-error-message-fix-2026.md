@@ -26,7 +26,7 @@ Table of Contents
 - [When to Contact Your Admin](#when-to-contact-your-admin)
 - [Advanced Emoji Management for Teams](#advanced-emoji-management-for-teams)
 - [Bulk Emoji Management and Automation](#bulk-emoji-management-and-automation)
-- [Technical Deep Dive: Slack Emoji Architecture](#technical-deep detailed look-slack-emoji-architecture)
+- [Technical Deep Dive - Slack Emoji Architecture](#technical-deep detailed look-slack-emoji-architecture)
 - [Common Emoji Upload Errors and Root Causes](#common-emoji-upload-errors-and-root-causes)
 - [Emoji Workflow Optimization for Remote Teams](#emoji-workflow-optimization-for-remote-teams)
 - [Troubleshooting Platform-Specific Emoji Issues](#troubleshooting-platform-specific-emoji-issues)
@@ -57,7 +57,7 @@ Slack displays specific error messages when emoji uploads fail. Understanding th
 
 Step-by-Step Troubleshooting Guide
 
-Step 1: Verify Your Image File
+Step 1 - Verify Your Image File
 
 Before troubleshooting further, confirm your emoji meets Slack's requirements:
 
@@ -68,7 +68,7 @@ Before troubleshooting further, confirm your emoji meets Slack's requirements:
 
 If your file exceeds the size limit, use free tools like TinyPNG or ImageOptim to compress it without losing quality. For dimensions, most image editors can resize your image quickly. Squoosh (squoosh.app) is a browser-based option that handles both resizing and compression in one step and previews the output file size before you download.
 
-Step 2: Check Your Browser and Connection
+Step 2 - Check Your Browser and Connection
 
 Browser issues frequently cause upload failures. Try these solutions:
 
@@ -80,7 +80,7 @@ Browser issues frequently cause upload failures. Try these solutions:
 
 Corporate proxy servers and VPNs can intercept multipart form uploads, the mechanism Slack uses for emoji files, and strip headers in a way that causes the upload to silently fail. If you are on a company VPN, try disconnecting briefly to test whether the VPN is the cause. If the upload succeeds off-VPN, contact your network team; the fix is usually a proxy exception for slack.com.
 
-Step 3: Verify Workspace Permissions
+Step 3 - Verify Workspace Permissions
 
 Not all Slack users can add custom emoji. Your workspace admin controls these permissions.
 
@@ -93,7 +93,7 @@ If you lack permissions, contact your workspace admin. They can grant you the "U
 
 For Enterprise Grid workspaces, emoji permissions can be set at the organization level and may override workspace-level settings. If your admin confirms you have workspace permissions but the error persists, the restriction may originate from the org-level policy, your admin needs to check the Grid admin console rather than the workspace settings.
 
-Step 4: Refresh the Slack Interface
+Step 4 - Refresh the Slack Interface
 
 Sometimes Slack's interface gets stuck. Refresh your workspace:
 
@@ -101,13 +101,13 @@ Sometimes Slack's interface gets stuck. Refresh your workspace:
 2. If that doesn't work, sign out completely and sign back in
 3. For desktop users, try closing and reopening the app
 
-Step 5: Check for Workspace Restrictions
+Step 5 - Check for Workspace Restrictions
 
 Some Slack workspaces restrict custom emoji to specific channels or disable them entirely. This is common in organizations with strict brand guidelines.
 
 Ask your workspace admin if custom emoji are enabled for your workspace plan. Free Slack plans have limited emoji slots, while paid plans offer more flexibility. As of 2026, free workspaces are capped at a total of 5 custom emoji. If your workspace has reached this limit, new uploads will fail with a generic error rather than a clear capacity message.
 
-Step 6: Try Alternative Upload Methods
+Step 6 - Try Alternative Upload Methods
 
 If the standard upload fails, try these alternatives:
 
@@ -116,13 +116,13 @@ If the standard upload fails, try these alternatives:
 - Use the emoji name field carefully, avoid special characters and spaces
 - Use the direct URL: Navigate to `https://your-workspace.slack.com/customize/emoji` in a browser while signed in. This loads the emoji management page directly, bypassing any navigation state issues in the main Slack interface.
 
-Step 7: Confirm the Emoji Name is Available
+Step 7 - Confirm the Emoji Name is Available
 
 Slack requires unique names for each custom emoji. If the name is already taken, you'll receive an error. Try a slightly different name, such as adding your team name or initials.
 
 To check existing emoji names before uploading, go to `your-workspace.slack.com/customize/emoji` and use the browser's built-in search (Cmd+F / Ctrl+F) to scan the list. This is faster than guessing alternative names after repeated failed uploads.
 
-Step 8: Check for Service Outages
+Step 8 - Check for Service Outages
 
 When Slack experiences outages, custom emoji features may be affected. Check Slack's status page at status.slack.com or their @SlackStatus account for current service information. The status page categorizes incidents by feature area, look specifically for entries under "Messaging" or "Workspace Configuration."
 
@@ -208,7 +208,7 @@ curl -s -X POST https://slack.com/api/admin.emoji.add \
 
 List all custom emoji in your workspace
 curl -s -X GET "https://slack.com/api/emoji.list" \
-  -H "Authorization: Bearer xoxb-your-bot-token" | jq '.emoji | keys[]'
+  -H "Authorization - Bearer xoxb-your-bot-token" | jq '.emoji | keys[]'
 
 Bulk upload emoji from a directory
 for file in ~/emoji-library/*.png; do
@@ -241,7 +241,7 @@ Implement emoji governance policies defining which emoji are approved for worksp
 
 Monitor emoji usage analytics if your workspace runs Slack Enterprise Grid. Track which emoji appear most frequently. Deprecated emoji that nobody uses can be archived to reduce clutter. Popular emoji might inspire creation of related variants.
 
-Technical Deep Dive: Slack Emoji Architecture
+Technical Deep Dive - Slack Emoji Architecture
 
 Understanding how Slack stores and delivers emoji helps troubleshoot obscure issues.
 
@@ -277,9 +277,9 @@ Troubleshooting Platform-Specific Emoji Issues
 
 Emoji behavior differs across Slack clients and operating systems.
 
-Desktop app vs. web client: Emoji might display correctly in the web client but fail to upload through the desktop app, or vice versa. If you encounter upload issues, try the alternative client. Desktop apps sometimes have stale caches.
+Desktop app vs. web client - Emoji might display correctly in the web client but fail to upload through the desktop app, or vice versa. If you encounter upload issues, try the alternative client. Desktop apps sometimes have stale caches.
 
-Mobile emoji upload limitations: Slack's mobile app has more restricted upload capabilities. Many emoji uploading features aren't available on mobile. Always perform emoji uploads through the web interface or desktop app.
+Mobile emoji upload limitations - Slack's mobile app has more restricted upload capabilities. Many emoji uploading features aren't available on mobile. Always perform emoji uploads through the web interface or desktop app.
 
 Operating system rendering differences: The same emoji displays differently on Windows, macOS, Linux, iOS, and Android. Custom emoji rendering is more consistent, but using system emoji alongside custom emoji sometimes shows visual inconsistencies. Test emoji appearance across platforms if visual consistency matters.
 
@@ -329,65 +329,65 @@ Desktop vs Web vs Mobile Upload Differences
 
 Slack clients have varying emoji upload capabilities.
 
-Web client: Most full-featured emoji upload experience. All options available. Preferred for emoji management.
+Web client - Most full-featured emoji upload experience. All options available. Preferred for emoji management.
 
-Desktop app (Mac/Windows): Nearly identical to web client. Usually works well but occasionally has caching issues preventing newly uploaded emoji from appearing immediately.
+Desktop app (Mac/Windows) - Nearly identical to web client. Usually works well but occasionally has caching issues preventing newly uploaded emoji from appearing immediately.
 
-Mobile apps (iOS/Android): Limited emoji management capabilities. Some users can't upload at all from mobile. Use web client for uploads, then manage from mobile.
+Mobile apps (iOS/Android) - Limited emoji management capabilities. Some users can't upload at all from mobile. Use web client for uploads, then manage from mobile.
 
-Desktop app offline: If you have no internet connection, you can't upload emoji at all. Emoji uploading requires active internet.
+Desktop app offline - If you have no internet connection, you can't upload emoji at all. Emoji uploading requires active internet.
 
 Testing Your Emoji Upload Configuration
 
 Before rolling out emoji widely, validate your setup.
 
-Test with a simple emoji first: Create a basic red square as your first emoji. This minimal test verifies permissions and basic functionality without complexity.
+Test with a simple emoji first - Create a basic red square as your first emoji. This minimal test verifies permissions and basic functionality without complexity.
 
-Test naming edge cases: Try emoji names with numbers, hyphens, underscores. Verify which naming schemes work in your workspace.
+Test naming edge cases - Try emoji names with numbers, hyphens, underscores. Verify which naming schemes work in your workspace.
 
 Test with different file formats: Upload PNG, GIF, and JPG to understand any format-specific behavior.
 
 Test from different client types: Upload from web, desktop, and mobile clients. Document which work in your environment.
 
-Have team members test usage: After uploading, have a few people use the emoji before wide announcement. Verify it appears correctly across different devices and OS versions.
+Have team members test usage - After uploading, have a few people use the emoji before wide announcement. Verify it appears correctly across different devices and OS versions.
 
 Slack Enterprise Grid Emoji Considerations
 
 Enterprise Grid organizations have additional emoji management capabilities.
 
-Organization-level emoji: Available across all workspaces within the organization. Useful for brand emoji shared by multiple teams.
+Organization-level emoji - Available across all workspaces within the organization. Useful for brand emoji shared by multiple teams.
 
-Workspace-level emoji: Specific to individual workspaces. Teams within workspaces can customize without affecting other workspaces.
+Workspace-level emoji - Specific to individual workspaces. Teams within workspaces can customize without affecting other workspaces.
 
-Emoji approval workflows: Some Enterprise Grid customers implement approval workflows for emoji uploads. Prevents accidental or inappropriate emoji from being added.
+Emoji approval workflows - Some Enterprise Grid customers implement approval workflows for emoji uploads. Prevents accidental or inappropriate emoji from being added.
 
-Emoji analytics: Enterprise Grid can track emoji usage across workspaces. Identify most-used emoji and popular custom reactions.
+Emoji analytics - Enterprise Grid can track emoji usage across workspaces. Identify most-used emoji and popular custom reactions.
 
 Building a strong Emoji Upload Process
 
 For organizations using emoji extensively, implement formalized processes.
 
-Emoji request procedure: Have people submit emoji requests with description and intended use. Centralize approvals rather than everyone uploading independently.
+Emoji request procedure - Have people submit emoji requests with description and intended use. Centralize approvals rather than everyone uploading independently.
 
-Design standards: Develop visual guidelines. Consistent sizing, line weight, and style make emoji libraries more professional.
+Design standards - Develop visual guidelines. Consistent sizing, line weight, and style make emoji libraries more professional.
 
-Testing before publication: Test emoji in actual Slack before considering it complete. Rendering can differ from original design.
+Testing before publication - Test emoji in actual Slack before considering it complete. Rendering can differ from original design.
 
-Documentation of all emoji: Maintain a catalog explaining each emoji's purpose. This helps people discover relevant emoji rather than creating duplicates.
+Documentation of all emoji - Maintain a catalog explaining each emoji's purpose. This helps people discover relevant emoji rather than creating duplicates.
 
-Regular cleanup: Quarterly, review all emoji. Remove unused ones, update outdated ones, consolidate near-duplicates.
+Regular cleanup - Quarterly, review all emoji. Remove unused ones, update outdated ones, consolidate near-duplicates.
 
 Emoji as Team Culture and Communication
 
 Beyond technical issues, emoji serve important team functions.
 
-Custom reaction sets: Develop organization-specific emoji that enhance communication. :approved: :blocked: :fire: :question: become shorthand for common statuses.
+Custom reaction sets - Develop organization-specific emoji that enhance communication. :approved: :blocked: :fire: :question: become shorthand for common statuses.
 
-Team identity through emoji: Custom emoji make your workspace feel unique and personal. This small detail affects team engagement and identity.
+Team identity through emoji - Custom emoji make your workspace feel unique and personal. This small detail affects team engagement and identity.
 
-Onboarding with emoji: Teach new employees about your custom emoji. Explain their meanings and encourage usage. This small onboarding element improves belonging.
+Onboarding with emoji - Teach new employees about your custom emoji. Explain their meanings and encourage usage. This small onboarding element improves belonging.
 
-Emoji conventions: Establish norms about when to use emoji. Are they professional? Casual? Context-specific? Clear conventions prevent miscommunication.
+Emoji conventions - Establish norms about when to use emoji. Are they professional? Casual? Context-specific? Clear conventions prevent miscommunication.
 
 Emoji Troubleshooting Decision Tree
 
@@ -395,19 +395,19 @@ When emoji problems occur, use this systematic approach.
 
 1. Can you upload emoji at all?
 - No: Check permissions. Verify your role allows emoji uploads.
-- Yes: Continue to step 2.
+- Yes - Continue to step 2.
 
 2. Is the uploaded emoji appearing in the picker?
 - No: Wait 5 minutes for sync. Check for typos in emoji name.
-- Yes: Continue to step 3.
+- Yes - Continue to step 3.
 
 3. Is the emoji rendering correctly?
 - No: Check file format and size. Re-export from design tool.
-- Yes: Problem solved!
+- Yes - Problem solved!
 
 4. Can others use your uploaded emoji?
 - No: Check workspace emoji limit. Try reducing total emoji count.
-- Yes: Problem solved!
+- Yes - Problem solved!
 
 Related Articles
 

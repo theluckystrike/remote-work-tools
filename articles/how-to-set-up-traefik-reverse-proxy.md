@@ -69,7 +69,7 @@ Create the Docker network first:
 docker network create proxy
 ```
 
-The `security_opt: no-new-privileges:true` line is important. It prevents the Traefik process from gaining additional privileges via setuid/setgid binaries. a defense-in-depth measure since Traefik mounts the Docker socket, which is a high-privilege resource. The Docker socket mount itself (`/var/run/docker.sock:ro`) is read-only to minimize the blast radius of any vulnerability in Traefik's Docker provider.
+The `security_opt - no-new-privileges:true` line is important. It prevents the Traefik process from gaining additional privileges via setuid/setgid binaries. a defense-in-depth measure since Traefik mounts the Docker socket, which is a high-privilege resource. The Docker socket mount itself (`/var/run/docker.sock:ro`) is read-only to minimize the blast radius of any vulnerability in Traefik's Docker provider.
 
 ---
 
@@ -136,9 +136,9 @@ accessLog:
         X-Forwarded-For: keep
 ```
 
-The `exposedByDefault: false` setting is critical for security. Without it, every Docker container is automatically exposed through Traefik as soon as it connects to the proxy network. With it set to false, only containers with the explicit label `traefik.enable=true` get routed. This prevents accidentally exposing internal databases, caches, or background workers that happen to share the network.
+The `exposedByDefault - false` setting is critical for security. Without it, every Docker container is automatically exposed through Traefik as soon as it connects to the proxy network. With it set to false, only containers with the explicit label `traefik.enable=true` get routed. This prevents accidentally exposing internal databases, caches, or background workers that happen to share the network.
 
-The `file` provider with `watch: true` means Traefik hot-reloads any YAML files you drop in `/config` without a restart. This is where you put routing rules for non-Docker services.
+The `file` provider with `watch - true` means Traefik hot-reloads any YAML files you drop in `/config` without a restart. This is where you put routing rules for non-Docker services.
 
 ---
 
@@ -469,7 +469,7 @@ The `@file` suffix tells Traefik the middleware is defined in a file provider, n
 
 ---
 
-Observability: Metrics and Tracing
+Observability - Metrics and Tracing
 
 Traefik exposes Prometheus metrics natively. Add the metrics endpoint to `traefik.yml`:
 
@@ -528,15 +528,15 @@ This sends trace spans to Grafana Tempo or any OTLP-compatible backend, correlat
 
 Troubleshooting Common Traefik Issues
 
-Certificate not renewing: Check `docker logs traefik` for ACME errors. Common causes: the domain doesn't resolve to this server (Let's Encrypt can't complete the challenge), or `acme.json` has wrong permissions (`chmod 600 acme.json`). For DNS challenge failures, confirm the API token has zone edit permissions.
+Certificate not renewing - Check `docker logs traefik` for ACME errors. Common causes: the domain doesn't resolve to this server (Let's Encrypt can't complete the challenge), or `acme.json` has wrong permissions (`chmod 600 acme.json`). For DNS challenge failures, confirm the API token has zone edit permissions.
 
-Service returns 502 Bad Gateway: Traefik reached the container but the container rejected the connection. Verify the `loadbalancer.server.port` label matches the actual port your app listens on. Check `docker inspect <container>` to confirm the container is on the `proxy` network.
+Service returns 502 Bad Gateway - Traefik reached the container but the container rejected the connection. Verify the `loadbalancer.server.port` label matches the actual port your app listens on. Check `docker inspect <container>` to confirm the container is on the `proxy` network.
 
-Redirect loop on HTTPS: If the upstream service also redirects HTTP→HTTPS, and Traefik forwards to it via HTTP internally, you get a loop. Fix: ensure the upstream app trusts `X-Forwarded-Proto` and only redirects when it's missing, or connect Traefik to the service via HTTPS with `--serversTransport.insecureSkipVerify=true` (dev only).
+Redirect loop on HTTPS - If the upstream service also redirects HTTP→HTTPS, and Traefik forwards to it via HTTP internally, you get a loop. Fix - ensure the upstream app trusts `X-Forwarded-Proto` and only redirects when it's missing, or connect Traefik to the service via HTTPS with `--serversTransport.insecureSkipVerify=true` (dev only).
 
-Dashboard not loading: The API router requires the `api@internal` service and must be on the `websecure` entrypoint. Confirm `api.dashboard: true` is in `traefik.yml` and your router labels include `traefik.http.routers.traefik.service=api@internal`.
+Dashboard not loading - The API router requires the `api@internal` service and must be on the `websecure` entrypoint. Confirm `api.dashboard: true` is in `traefik.yml` and your router labels include `traefik.http.routers.traefik.service=api@internal`.
 
-New container not discovered: Ensure the container is on the `proxy` network (not just `bridge`) and has `traefik.enable=true`. Run `docker network inspect proxy` to confirm the container appears. If you added the container after Traefik started, Traefik should detect it automatically within seconds. check logs for `"Skipping provider"` messages.
+New container not discovered - Ensure the container is on the `proxy` network (not just `bridge`) and has `traefik.enable=true`. Run `docker network inspect proxy` to confirm the container appears. If you added the container after Traefik started, Traefik should detect it automatically within seconds. check logs for `"Skipping provider"` messages.
 
 ```bash
 Inspect what Traefik currently sees

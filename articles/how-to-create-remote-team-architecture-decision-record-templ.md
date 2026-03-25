@@ -75,7 +75,7 @@ Table of Contents
 - [Tools for Managing ADRs at Scale](#tools-for-managing-adrs-at-scale)
 - [Common ADR Anti-Patterns to Avoid](#common-adr-anti-patterns-to-avoid)
 - [Integrating ADRs with Your Workflow](#integrating-adrs-with-your-workflow)
-- [Real-World Example: Complete ADR Workflow](#real-world-example-complete-adr-workflow)
+- [Real-World Example - Complete ADR Workflow](#real-world-example-complete-adr-workflow)
 - [Scaling ADRs Across Multiple Teams](#scaling-adrs-across-multiple-teams)
 
 Our current authentication system uses JWT tokens stored in localStorage. Security review flagged XSS vulnerability concerns. We need a more secure token storage mechanism without significantly impacting user experience.
@@ -247,13 +247,13 @@ Common ADR Anti-Patterns to Avoid
 
 Several patterns indicate your ADR practice is breaking down:
 
-Empty decisions: ADRs that state "we chose X" without explaining why are useless. The whole point is capturing reasoning. If you cannot articulate why you made a decision, your ADR is incomplete.
+Empty decisions - ADRs that state "we chose X" without explaining why are useless. The whole point is capturing reasoning. If you cannot articulate why you made a decision, your ADR is incomplete.
 
-Reactive ADRs: Writing ADRs months after decisions are made reduces their value. Future developers wonder why the choice was made, but the original context is lost. ADRs should accompany decisions.
+Reactive ADRs - Writing ADRs months after decisions are made reduces their value. Future developers wonder why the choice was made, but the original context is lost. ADRs should accompany decisions.
 
-Mixing ADRs with implementation: An ADR should explain what was decided and why, not how to implement it. Implementation details belong in technical specifications or code comments.
+Mixing ADRs with implementation - An ADR should explain what was decided and why, not how to implement it. Implementation details belong in technical specifications or code comments.
 
-No revision process: ADRs are not immutable. If assumptions change or you discover a decision was wrong, document the change in a status update. Shows evolution of thinking.
+No revision process - ADRs are not immutable. If assumptions change or you discover a decision was wrong, document the change in a status update. Shows evolution of thinking.
 
 Burying decisions in technical debt: When a decision turns out to be problematic, explicitly mark it as such rather than letting it become tribal knowledge that "nobody does that anymore." A deprecated ADR is better than confusion.
 
@@ -261,35 +261,35 @@ Integrating ADRs with Your Workflow
 
 Make ADRs part of your development process, not a separate artifact:
 
-In sprint planning: When estimating work, reference related ADRs to understand constraints.
+In sprint planning - When estimating work, reference related ADRs to understand constraints.
 
-In code reviews: If a change touches architectural decisions, ask reviewers to reference the relevant ADR. This keeps decisions alive in the team's consciousness.
+In code reviews - If a change touches architectural decisions, ask reviewers to reference the relevant ADR. This keeps decisions alive in the team's consciousness.
 
-In onboarding: Include a "Read these three ADRs" section in your onboarding documentation. New team members should understand core architectural decisions on day one.
+In onboarding - Include a "Read these three ADRs" section in your onboarding documentation. New team members should understand core architectural decisions on day one.
 
-In retrospectives: When a decision creates problems, discuss it in retro. Update the ADR with what you learned. This creates feedback loops that improve future decisions.
+In retrospectives - When a decision creates problems, discuss it in retro. Update the ADR with what you learned. This creates feedback loops that improve future decisions.
 
 In RFC (Request for Comments) discussions: Use ADRs as the decision mechanism. Write an RFC for significant proposals, then document the decision as an ADR.
 
-Real-World Example: Complete ADR Workflow
+Real-World Example - Complete ADR Workflow
 
 Here's how an ADR moves through a complete lifecycle in a mature remote team:
 
-Week 1, Day 1: Backend lead identifies need for better caching strategy. Posts draft ADR to Slack with tag `[ADR Draft]` and link to the decision.
+Week 1, Day 1 - Backend lead identifies need for better caching strategy. Posts draft ADR to Slack with tag `[ADR Draft]` and link to the decision.
 
-Week 1, Days 2-3: Platform team reviews during their morning standups. Comments raised in Slack thread about Redis vs Memcached trade-offs.
+Week 1, Days 2-3 - Platform team reviews during their morning standups. Comments raised in Slack thread about Redis vs Memcached trade-offs.
 
-Week 1, Day 4: Author updates ADR incorporating feedback. Identifies that memory constraints favor Memcached, but team's monitoring expertise is stronger with Redis. Updates the ADR.
+Week 1, Day 4 - Author updates ADR incorporating feedback. Identifies that memory constraints favor Memcached, but team's monitoring expertise is stronger with Redis. Updates the ADR.
 
-Week 1, Day 5: Two team leads review and approve. One notes this relates to ADR-0018 (monitoring infrastructure). ADR updated to reference that decision.
+Week 1, Day 5 - Two team leads review and approve. One notes this relates to ADR-0018 (monitoring infrastructure). ADR updated to reference that decision.
 
-Week 2, Day 1: Author merges ADR to main branch. Updates all open tickets related to caching to reference the new decision.
+Week 2, Day 1 - Author merges ADR to main branch. Updates all open tickets related to caching to reference the new decision.
 
-Week 2-4: Implementation happens following the decision. During code review, developers reference the ADR when explaining why they chose certain patterns.
+Week 2-4 - Implementation happens following the decision. During code review, developers reference the ADR when explaining why they chose certain patterns.
 
-Month 3: Operations team encounters unexpected cache eviction behavior. Looks up the ADR, understands the original reasoning, brings issue back to the team with good context.
+Month 3 - Operations team encounters unexpected cache eviction behavior. Looks up the ADR, understands the original reasoning, brings issue back to the team with good context.
 
-Month 6: A better caching library emerges. Team writes ADR-0024 (supersedes ADR-0021), documents why they're migrating.
+Month 6 - A better caching library emerges. Team writes ADR-0024 (supersedes ADR-0021), documents why they're migrating.
 
 This lifecycle shows ADRs doing their job, capturing decisions, informing implementation, and serving as reference documents when circumstances change.
 
@@ -297,11 +297,11 @@ Scaling ADRs Across Multiple Teams
 
 If your organization has multiple engineering teams, consider these approaches:
 
-Centralized ADR repository: All teams store ADRs in one location with clear ownership by team. Easy to see cross-team dependencies, but requires discipline to prevent it from becoming cluttered.
+Centralized ADR repository - All teams store ADRs in one location with clear ownership by team. Easy to see cross-team dependencies, but requires discipline to prevent it from becoming cluttered.
 
-Distributed ADRs by team: Each team maintains their own `/docs/adr/` directory. Requires explicit cross-team referencing when decisions affect multiple teams.
+Distributed ADRs by team - Each team maintains their own `/docs/adr/` directory. Requires explicit cross-team referencing when decisions affect multiple teams.
 
-Hybrid approach: Core infrastructure decisions (database, caching, monitoring) live in a centralized location. Team-specific decisions stay with individual teams. This scales better than fully centralized.
+Hybrid approach - Core infrastructure decisions (database, caching, monitoring) live in a centralized location. Team-specific decisions stay with individual teams. This scales better than fully centralized.
 
 Whatever approach you choose, establish clear guidelines about what decisions warrant ADRs. Not every choice needs documentation, that creates noise. Reserve ADRs for decisions that are:
 - Costly to reverse

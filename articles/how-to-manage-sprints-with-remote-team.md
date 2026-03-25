@@ -242,7 +242,7 @@ jobs:
  "type": "section",
  "text": {
  "type": "mrkdwn",
- "text": "Assigned: ${{ github.event.issue.assignee.login }}"
+ "text": "Assigned - ${{ github.event.issue.assignee.login }}"
  }
  }
  ]

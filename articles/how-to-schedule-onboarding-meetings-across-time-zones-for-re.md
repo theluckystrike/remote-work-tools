@@ -215,7 +215,7 @@ World Time Buddy:
 - Can save team time zone configurations
 - Great for finding windows manually
 - Free with paid options
-- Pricing: Free or $6.99/month premium
+- Pricing - Free or $6.99/month premium
 
 Google Calendar Secondary Timezone:
 - Already included in your existing calendar
@@ -227,19 +227,19 @@ For most distributed teams, Google Calendar secondary zones + Calendly handles 9
 
 Common Scheduling Mistakes
 
-Mistake 1: Assuming midnight is the cutoff
+Mistake 1 - Assuming midnight is the cutoff
 A 1 AM meeting is brutal but sometimes beats forcing someone to 3 PM the night before. Most people prefer early morning (6-8 AM) to very late night.
 
-Mistake 2: Always optimizing for one region
+Mistake 2 - Always optimizing for one region
 If founder is in SF, every meeting ends up at convenient Pacific times. Rotate meeting times so burden is shared.
 
-Mistake 3: Scheduling too many synchronous meetings
+Mistake 3 - Scheduling too many synchronous meetings
 Ambitious managers schedule 8-10 meetings in first week. Reduce to 5-6. Let new hires breathe and actually start productive work.
 
-Mistake 4: Not recording for async viewing
+Mistake 4 - Not recording for async viewing
 Treat every meeting as recorded for those who miss it. Invest 2 minutes in setup. Get Zoom transcripts automatically.
 
-Mistake 5: Changing meeting times at the last minute
+Mistake 5 - Changing meeting times at the last minute
 If you move a meeting, give 48 hours notice minimum. Changing timezone math at last second confuses people.
 
 Async Onboarding Materials (Complement to Meetings)
@@ -295,15 +295,15 @@ Success Metrics for Distributed Onboarding
 
 Track these to know if your onboarding is working:
 
-Time to first contribution: From start date to first merged PR or shipped work. Target: 5-7 business days. Long timelines (2+ weeks) suggest unclear expectations or technical setup issues.
+Time to first contribution - From start date to first merged PR or shipped work. Target - 5-7 business days. Long timelines (2+ weeks) suggest unclear expectations or technical setup issues.
 
-Onboarding meeting attendance: New hire should attend 80%+ of scheduled meetings. Missing meetings signals scheduling is unrealistic for their timezone.
+Onboarding meeting attendance - New hire should attend 80%+ of scheduled meetings. Missing meetings signals scheduling is unrealistic for their timezone.
 
-Survey satisfaction: Ask new hire on day 7 and day 30: "Rate your onboarding experience 1-5." Scores below 3 suggest rework is needed.
+Survey satisfaction - Ask new hire on day 7 and day 30: "Rate your onboarding experience 1-5." Scores below 3 suggest rework is needed.
 
-Learning velocity: Do new hires understand core systems by end of week 2? Quiz them informally. If confused, docs or meetings need improvement.
+Learning velocity - Do new hires understand core systems by end of week 2? Quiz them informally. If confused, docs or meetings need improvement.
 
-Retention at 90 days: Track onboarding quality by 90-day retention. If 20%+ of new hires leave within 90 days, onboarding is likely the culprit.
+Retention at 90 days - Track onboarding quality by 90-day retention. If 20%+ of new hires leave within 90 days, onboarding is likely the culprit.
 
 Good distributed onboarding gets people productive by week 3 and confident by week 6. If it takes longer, you're burning money on extended ramp-up.
 

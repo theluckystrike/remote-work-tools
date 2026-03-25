@@ -22,14 +22,14 @@ Table of Contents
 
 - [Why Standard Travel Insurance Fails Digital Nomads](#why-standard-travel-insurance-fails-digital-nomads)
 - [What Digital Nomad Insurance Must Cover](#what-digital-nomad-insurance-must-cover)
-- [Evaluating Policies: A Practical Framework](#evaluating-policies-a-practical-framework)
+- [Evaluating Policies - A Practical Framework](#evaluating-policies-a-practical-framework)
 - [Common Exclusions to Watch For](#common-exclusions-to-watch-for)
 - [Practical Steps Before You Travel](#practical-steps-before-you-travel)
 - [The Bottom Line](#the-bottom-line)
 - [Insurance Provider Deep Dive and 2026 Pricing](#insurance-provider-deep detailed look-and-2026-pricing)
 - [Insurance Scoring Framework Explained](#insurance-scoring-framework-explained)
 - [Real Claim Process Walkthrough](#real-claim-process-walkthrough)
-- [Coverage Comparison Matrix: Realistic Scenarios](#coverage-comparison-matrix-realistic-scenarios)
+- [Coverage Comparison Matrix - Realistic Scenarios](#coverage-comparison-matrix-realistic-scenarios)
 - [Supplementary Insurance Options](#supplementary-insurance-options)
 - [Pre-Travel Insurance Documentation Checklist](#pre-travel-insurance-documentation-checklist)
 - [Making the Decision](#making-the-decision)
@@ -39,7 +39,7 @@ Why Standard Travel Insurance Fails Digital Nomads
 
 Traditional travel insurance targets short vacation trips. You get medical coverage capped at $50,000-$100,000, personal liability protection, and trip cancellation. These policies explicitly exclude "valuable personal property". which means your MacBook Pro, external drives, and work monitors are not covered.
 
-Consider this real scenario: You're working from a hostel in Colombia. Someone steals your laptop bag while you're in a coffee shop. A typical travel policy might reimburse $500 for "personal effects" at the insurer's discretion, nowhere near the $2,500 replacement cost of your dev machine. Worse, if you're hospitalized due to a scooter accident in Vietnam, evacuation costs can reach $50,000+, and many policies cap emergency evacuation at $10,000.
+Consider this real scenario - You're working from a hostel in Colombia. Someone steals your laptop bag while you're in a coffee shop. A typical travel policy might reimburse $500 for "personal effects" at the insurer's discretion, nowhere near the $2,500 replacement cost of your dev machine. Worse, if you're hospitalized due to a scooter accident in Vietnam, evacuation costs can reach $50,000+, and many policies cap emergency evacuation at $10,000.
 
 What Digital Nomad Insurance Must Cover
 
@@ -67,7 +67,7 @@ Work-Related Liability
 
 If you're freelancing or running a remote business, you need professional liability coverage. Standard policies might exclude "business pursuits" entirely. Consider a separate professional liability policy or verify your existing coverage extends to international remote work.
 
-Evaluating Policies: A Practical Framework
+Evaluating Policies - A Practical Framework
 
 When comparing policies, use this evaluation structure:
 
@@ -162,7 +162,7 @@ Appendicitis requiring emergency surgery in Thailand. SafetyWing covers:
 Electronics gap:
 Laptop stolen in hostel. SafetyWing pays $500 maximum. Your MacBook Pro costs $2,400. Out of pocket: $1,900.
 
-Best for: Budget nomads prioritizing medical coverage, willing to supplement electronics elsewhere.
+Best for - Budget nomads prioritizing medical coverage, willing to supplement electronics elsewhere.
 
 Genki World Explorer
 
@@ -183,7 +183,7 @@ Similar appendicitis in Thailand:
 Laptop stolen:
 - Genki pays: $2,500 (covers most of MacBook replacement)
 
-Best for: Long-term nomads (1-2 years), developers with expensive gear, wants one policy.
+Best for - Long-term nomads (1-2 years), developers with expensive gear, wants one policy.
 
 World Nomads Standard
 
@@ -194,9 +194,9 @@ Coverage Details:
 - Duration: Max 180 days per trip
 - Cost: ~$30/month
 
-Weakness: Medical cap of $100k means expensive surgery or evacuation becomes your problem. Thailand surgery scenario ends with you paying $35,500 out of pocket.
+Weakness - Medical cap of $100k means expensive surgery or evacuation becomes your problem. Thailand surgery scenario ends with you paying $35,500 out of pocket.
 
-Best for: Occasional travelers (< 6 months), minimal equipment value.
+Best for - Occasional travelers (< 6 months), minimal equipment value.
 
 Regional Insurance (Travel Broadly)
 
@@ -289,13 +289,13 @@ policies_scored = {
     })
 }
 
-For YOUR profile: Genki scores highest due to laptop coverage + long duration
+For YOUR profile - Genki scores highest due to laptop coverage + long duration
 print(policies_scored)  # Genki World Explorer wins
 ```
 
 Real Claim Process Walkthrough
 
-Scenario: Laptop stolen in Vietnam
+Scenario - Laptop stolen in Vietnam
 
 Day 1 (Monday):
 - Theft occurs at beach in Da Nang
@@ -321,11 +321,11 @@ Day 7-10:
 - Minus deductible ($50-200 depending on policy)
 - Final payout: ~$1,650
 
-Total timeline: 1-2 weeks from theft to usable funds. Meanwhile, you're without a laptop for work.
+Total timeline - 1-2 weeks from theft to usable funds. Meanwhile, you're without a laptop for work.
 
-Lesson: Some nomads keep backup laptop budget ($500-800) separate from insurance. Insurance reimburses, backup fund lets you stay working.
+Lesson - Some nomads keep backup laptop budget ($500-800) separate from insurance. Insurance reimburses, backup fund lets you stay working.
 
-Coverage Comparison Matrix: Realistic Scenarios
+Coverage Comparison Matrix - Realistic Scenarios
 
 | Scenario | SafetyWing | Genki | World Nomads |
 |----------|-----------|-------|--------------|
@@ -344,25 +344,25 @@ Supplementary Insurance Options
 Rather than single policy, some nomads stack coverage:
 
 ```
-Tier 1: SafetyWing Nomad Insurance ($45/month)
+Tier 1 - SafetyWing Nomad Insurance ($45/month)
  Covers: Medical, evacuation, basic coverage
  Cost: $540/year
 
-Tier 2: Standalone Electronics Insurance via your home insurance
+Tier 2 - Standalone Electronics Insurance via your home insurance
  Extend international electronics coverage via policy rider
  Cost: $30-50/month ($360-600/year)
  Covers: Laptop, phone, external drives
  Check if policy covers 12+ months abroad
 
-Tier 3: Travel cancellation via Allianz/AXA ($20/month)
+Tier 3 - Travel cancellation via Allianz/AXA ($20/month)
  Covers: Trip cancellation (varies by reason)
  Cost: $240/year
 
-Total: ~$1,140/year
+Total - ~$1,140/year
 vs. Genki single policy: $1,080/year
 
-Advantage: Customized to YOUR risks, not compromise coverage
-Disadvantage: Multiple claim processes, coordination headaches
+Advantage - Customized to YOUR risks, not compromise coverage
+Disadvantage - Multiple claim processes, coordination headaches
 ```
 
 Pre-Travel Insurance Documentation Checklist

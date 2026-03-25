@@ -21,7 +21,7 @@ Remote pair programming combines code editing, debugging, and debugging across t
 Table of Contents
 
 - [Why Pair Programming Matters for Remote Teams](#why-pair-programming-matters-for-remote-teams)
-- [Tool Comparison: VS Code Live Share vs Tuple vs SSH](#tool-comparison-vs-code-live-share-vs-tuple-vs-ssh)
+- [Tool Comparison - VS Code Live Share vs Tuple vs SSH](#tool-comparison-vs-code-live-share-vs-tuple-vs-ssh)
 - [Prerequisites](#prerequisites)
 - [Best Practices for Sustainable Pair Programming](#best-practices-for-sustainable-pair-programming)
 - [Troubleshooting Common Issues](#troubleshooting-common-issues)
@@ -32,9 +32,9 @@ Pair programming accelerates learning, reduces bugs, and strengthens team cohesi
 
 Remote pairs face latency, screen real estate, and tool fatigue. Successful setups optimize for low friction: switching roles should be simple, communication clear, and keyboard/mouse control responsive.
 
-Tool Comparison: VS Code Live Share vs Tuple vs SSH
+Tool Comparison - VS Code Live Share vs Tuple vs SSH
 
-VS Code Live Share: Free and Built-In
+VS Code Live Share - Free and Built-In
 
 VS Code Live Share integrates directly into the editor. One host opens a session, shares a link, the guest joins. No installation beyond VS Code.
 
@@ -65,7 +65,7 @@ Real-time features:
 - Shared terminal (both can execute commands)
 - Shared debugging (breakpoints, watch variables visible to both)
 
-Pricing: Free (Microsoft account required)
+Pricing - Free (Microsoft account required)
 
 Limitations:
 - Audio quality: mediocre (better to use Zoom/Discord alongside)
@@ -73,16 +73,16 @@ Limitations:
 - Mouse control: can't grab remote mouse (drive keyboard only)
 - Large files: can lag with 10,000+ line files
 
-Real-world feedback: Most teams use VS Code Live Share + Discord/Zoom for audio. The free tier and VS Code integration make it standard. Latency is rarely an issue for normal typing speeds.
+Real-world feedback - Most teams use VS Code Live Share + Discord/Zoom for audio. The free tier and VS Code integration make it standard. Latency is rarely an issue for normal typing speeds.
 
 ```bash
 Pair session workflow with Live Share + Discord
-Host: Opens VS Code, starts Live Share, starts Discord call with guest
-Guest: Joins Discord call, clicks Live Share link, joins VS Code session
-Both: Can talk, see code changes in real-time, share terminal
+Host - Opens VS Code, starts Live Share, starts Discord call with guest
+Guest - Joins Discord call, clicks Live Share link, joins VS Code session
+Both - Can talk, see code changes in real-time, share terminal
 ```
 
-Tuple: Purpose-Built for Pair Programming ($300/month)
+Tuple - Purpose-Built for Pair Programming ($300/month)
 
 Tuple is built specifically for pair programming. Lower latency, better UI for shared editing, true mouse control.
 
@@ -111,16 +111,16 @@ Guest side:
 5. Can click to move mouse, type on keyboard
 ```
 
-Real-world experience: Tuple's mouse control is game-changing. Host and guest can both control the mouse independently, mimicking in-person pairing. No "wait for host to type" friction. Keyboard input is responsive.
+Real-world experience - Tuple's mouse control is game-changing. Host and guest can both control the mouse independently, mimicking in-person pairing. No "wait for host to type" friction. Keyboard input is responsive.
 
-Pricing: $300/month for teams (per-seat pricing available)
+Pricing - $300/month for teams (per-seat pricing available)
 
 Limitations:
 - Paid only (no free tier)
 - Requires native app installation (can't use browser-only)
 - Mouse control can feel weird if both try to move cursor simultaneously (etiquette matters: only host should move mouse unless driving)
 
-Best for: Teams doing 10+ pair sessions per week, where latency matters (distributed teams, real-time debugging).
+Best for - Teams doing 10+ pair sessions per week, where latency matters (distributed teams, real-time debugging).
 
 SSH Tunneling + Terminal Multiplexing (Free)
 
@@ -153,7 +153,7 @@ Now both are in same terminal session
 Guest and host see same screen, same cursor position
 ```
 
-Real-world workflow: Useful for DevOps, backend engineers, infrastructure work. Both see identical terminal state. One person types, other navigates. Works well on high-latency connections (60ms+ is fine).
+Real-world workflow - Useful for DevOps, backend engineers, infrastructure work. Both see identical terminal state. One person types, other navigates. Works well on high-latency connections (60ms+ is fine).
 
 Limitations:
 - Terminal-only (no GUI support)
@@ -161,7 +161,7 @@ Limitations:
 - Mouse doesn't work (keyboard-only control)
 - Learning curve: tmux/screen shortcuts unfamiliar to many
 
-Best for: Terminal-heavy teams, infrastructure/DevOps work, low-bandwidth scenarios.
+Best for - Terminal-heavy teams, infrastructure/DevOps work, low-bandwidth scenarios.
 
 Prerequisites
 
@@ -173,7 +173,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Complete Setup Workflow: VS Code Live Share + Discord
+Step 1 - Complete Setup Workflow: VS Code Live Share + Discord
 
 This is the most common setup for distributed teams:
 
@@ -184,7 +184,7 @@ Prerequisites:
 3. Discord account (or Zoom, Teams, etc.)
 4. Both on same stable internet connection
 
-Step 1: Host initiates session (5 minutes before pairing)
+Step 1 - Host initiates session (5 minutes before pairing)
 Host machine:
 - Open VS Code
 - Open project folder (Cmd/Ctrl + K, Cmd/Ctrl + O)
@@ -192,7 +192,7 @@ Host machine:
 - VS Code generates link (example: https://prod.liveshare.vscode.dev/join/A1B2C3D4E5F6)
 - Send link to guest in Slack/email
 
-Step 2: Guest joins VS Code session (5 minutes before pairing)
+Step 2 - Guest joins VS Code session (5 minutes before pairing)
 Guest machine:
 - Click Live Share link in browser
 - VS Code opens automatically
@@ -200,39 +200,39 @@ Guest machine:
 - Host's file tree appears, can browse and edit
 - Terminal opens (can execute commands)
 
-Step 3: Audio setup (simultaneous with above)
+Step 3 - Audio setup (simultaneous with above)
 Both sides:
 - Open Discord/Zoom
 - Create/join voice call
 - Test audio levels
 - Disable Discord screen sharing (use Live Share instead)
 
-Step 4: Establish etiquette
+Step 4 - Establish etiquette
 Host:   "I'm driving first 15 minutes. You navigate and spot bugs."
 Guest:  "Got it. I'll call out issues I see."
 Host:   "We're debugging test failures. I'll write the fix, you review."
 
-Step 5: Pair session
+Step 5 - Pair session
 - Host types, guest reviews real-time
 - Shared cursor shows where each person is looking
 - Both can set breakpoints in debugger (watch variables visible to both)
 - Switch driver/navigator every 15 minutes
 
-Step 6: End session
-Host (Ctrl+Shift+P): "Live Share: End Collaboration Session"
-Guest: Automatically disconnected
+Step 6 - End session
+Host (Ctrl+Shift+P) - "Live Share: End Collaboration Session"
+Guest - Automatically disconnected
 ```
 
-Step 2: Real-World Scenarios and Workflows
+Step 2 - Real-World Scenarios and Workflows
 
-Scenario 1: Code Review + Implementation
+Scenario 1 - Code Review + Implementation
 
-Feature branch: adding user authentication. Reviewer wants to pair while implementing.
+Feature branch - adding user authentication. Reviewer wants to pair while implementing.
 
 ```
 Reviewer (host):  Git checkout feature/auth-implementation
 Reviewer (host):  Live Share: Start session, share link to reviewer
-Developer (guest): Joins, opens files
+Developer (guest) - Joins, opens files
 Developer:        "I see three auth methods: Basic, OAuth2, JWT"
 Reviewer:         "Let's implement OAuth2 first. Here's the structure..."
 Developer:        Drives, writes oauth2.ts
@@ -242,13 +242,13 @@ Developer:        Fixes issue, tests against local API
 Code reviewed in real-time, implemented correctly, no back-and-forth PRs
 ```
 
-Scenario 2: Debugging Production Issue
+Scenario 2 - Debugging Production Issue
 
-Production bug: API latency spike. Need two people investigating simultaneously.
+Production bug - API latency spike. Need two people investigating simultaneously.
 
 ```
-Engineer 1 (host): Laptop connected to prod logs, debugger running
-Engineer 2 (guest): Joins session, can see logs and debugger
+Engineer 1 (host) - Laptop connected to prod logs, debugger running
+Engineer 2 (guest) - Joins session, can see logs and debugger
 Engineer 1:        "Latency spike at 2:15 PM UTC, check database logs"
 Engineer 2:        "Database had 10,000 queries queued at that time"
 Engineer 1:        "Let's check the connection pool settings"
@@ -256,13 +256,13 @@ Engineer 1:        "Let's check the connection pool settings"
 Faster root cause analysis, two people investigating in parallel
 ```
 
-Scenario 3: Onboarding New Team Member
+Scenario 3 - Onboarding New Team Member
 
 Onboardee learning codebase. Mentor guides them through setup and first PR.
 
 ```
 Mentor (host):     "I'll walk you through the auth module"
-Onboardee (guest): Watches code structure
+Onboardee (guest) - Watches code structure
 Mentor:            "Here's the main entry point, let's trace a request"
 Onboardee:         "I see it hits middleware first, then validates token"
 Mentor:            "Exactly. Now you implement the refresh-token endpoint"
@@ -308,7 +308,7 @@ Tool Setup for Comfort
 - Use good quality mic/headphones (Discord/Zoom quality matters more than code visibility)
 - Take breaks every 55 minutes (pairing fatigue is real)
 
-Step 3: Choose the Right Tool for Your Team
+Step 3 - Choose the Right Tool for Your Team
 
 | Tool | Price | Latency | Mouse Control | Best For |
 |------|-------|---------|---------------|----------|
@@ -320,7 +320,7 @@ Step 3: Choose the Right Tool for Your Team
 
 Troubleshooting Common Issues
 
-Latency too high: VS Code Live Share sometimes lags. Solution:
+Latency too high - VS Code Live Share sometimes lags. Solution:
 ```
 - Close unnecessary VS Code extensions
 - Reduce font size (reduces bandwidth)
@@ -328,7 +328,7 @@ Latency too high: VS Code Live Share sometimes lags. Solution:
 - Check internet connection speed (upload speed matters most)
 ```
 
-Audio echoing/dropping: Discord call audio issues:
+Audio echoing/dropping - Discord call audio issues:
 ```
 - Use earbuds/headphones (not speaker + mic)
 - Test microphone in Discord settings before pairing
@@ -343,7 +343,7 @@ One person can't see cursor movements: Live Share sync issue:
 - Host: Restart Live Share session if persistent
 ```
 
-Keyboard input slow/laggy: Typing feels delayed:
+Keyboard input slow/laggy - Typing feels delayed:
 ```
 - Check internet latency (ping host from guest machine)
 - Reduce browser tabs open
@@ -351,13 +351,13 @@ Keyboard input slow/laggy: Typing feels delayed:
 - If latency >300ms, consider recording session and reviewing async instead
 ```
 
-Step 4: Asynchronous Pair Programming: Recording Sessions
+Step 4 - Asynchronous Pair Programming: Recording Sessions
 
 If real-time pairing isn't possible (time zones, schedules), record sessions for async review:
 
 ```bash
-VS Code Live Share: No native recording
-Workaround: Use OBS (free, open-source)
+VS Code Live Share - No native recording
+Workaround - Use OBS (free, open-source)
 1. Start Live Share session
 2. Open OBS Studio
 3. Add VS Code window as source
@@ -367,7 +367,7 @@ Workaround: Use OBS (free, open-source)
 7. Share video file (or upload to cloud)
 8. Reviewer watches at own pace
 
-Tuple: Native recording
+Tuple - Native recording
 1. Start Tuple session
 2. Click "Record session"
 3. Session automatically recorded

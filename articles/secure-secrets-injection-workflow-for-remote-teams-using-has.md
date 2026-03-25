@@ -182,7 +182,7 @@ Applications request credentials from this role:
 
 ```python
 creds = client.secrets.database.generate_credential(name='app-role')
-Returns: {'username': 'v-token-postgres-abc123', 'password': 'xyz789...', 'expiration': '2026-03-16T15:30:00'}
+Returns - {'username': 'v-token-postgres-abc123', 'password': 'xyz789...', 'expiration': '2026-03-16T15:30:00'}
 ```
 
 These credentials automatically revoke when their TTL expires, reducing the risk from leaked credentials.
@@ -254,7 +254,7 @@ echo "2. Unseal using root token stored in physical safe"
 echo "3. Access required secrets via local Vault CLI"
 echo "4. Document access in incident log"
 echo "5. Rotate all accessed secrets after incident resolution"
-echo "Contact: security-oncall@company.com"
+echo "Contact - security-oncall@company.com"
 ```
 
 Never store break-glass credentials in the same system they protect. Use physical safe deposit boxes or Shamir's Secret Sharing across multiple team members.

@@ -21,17 +21,17 @@ Table of Contents
 
 - [Why Async Pair Programming Matters](#why-async-pair-programming-matters)
 - [Setting Up Your Async Pair Programming Framework](#setting-up-your-async-pair-programming-framework)
-- [Step 1: Driver Creates the Implementation Walkthrough](#step-1-driver-creates-the-implementation-walkthrough)
-- [Step 2: Creating Effective PR Descriptions for Async Review](#step-2-creating-effective-pr-descriptions-for-async-review)
+- [Step 1 - Driver Creates the Implementation Walkthrough](#step-1-driver-creates-the-implementation-walkthrough)
+- [Step 2 - Creating Effective PR Descriptions for Async Review](#step-2-creating-effective-pr-descriptions-for-async-review)
 - [Overview](#overview)
 - [Changes Made](#changes-made)
 - [Approach](#approach)
 - [Recording](#recording)
 - [Questions for Reviewer](#questions-for-reviewer)
 - [Testing](#testing)
-- [Step 3: Navigator Reviews and Provides Feedback](#step-3-navigator-reviews-and-provides-feedback)
+- [Step 3 - Navigator Reviews and Provides Feedback](#step-3-navigator-reviews-and-provides-feedback)
 - [Review Summary](#review-summary)
-- [Step 4: Addressing Feedback and Iterating](#step-4-addressing-feedback-and-iterating)
+- [Step 4 - Addressing Feedback and Iterating](#step-4-addressing-feedback-and-iterating)
 - [Integrating with GitHub Features](#integrating-with-github-features)
 - [Best Practices for Success](#best-practices-for-success)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
@@ -71,7 +71,7 @@ For an effective async pair programming setup, you'll need:
 - Documentation: A shared wiki or Notion for guidelines
 - Video hosting: Loom embeds or YouTube (unlisted)
 
-Step 1: Driver Creates the Implementation Walkthrough
+Step 1 - Driver Creates the Implementation Walkthrough
 
 When you're driving (implementing), start by recording a walkthrough before or during your coding session. This isn't about showing every keystroke, it's about explaining your thought process.
 
@@ -96,7 +96,7 @@ Here's my thinking:
 2. I'm updating the controllers to call this service instead of directly accessing tokens
 3. The main change is in lines 45-78 where I've added the refresh token logic
 
-One concern: I noticed we might have a race condition when tokens refresh
+One concern - I noticed we might have a race condition when tokens refresh
 simultaneously. I've added a basic lock but would love feedback on whether
 this is sufficient.
 
@@ -105,11 +105,11 @@ Key files to review:
 - `src/controllers/user_controller.dart` (modified)
 - `tests/auth_service_test.dart` (new tests)
 
-Link to the PR: [URL]
+Link to the PR - [URL]
 Let me know if you have questions!"
 ```
 
-Step 2: Creating Effective PR Descriptions for Async Review
+Step 2 - Creating Effective PR Descriptions for Async Review
 
 Since your navigator won't be able to ask live questions, your PR description needs to be enough to stand alone.
 
@@ -141,7 +141,7 @@ Testing
 Closes #issue-number
 ```
 
-Step 3: Navigator Reviews and Provides Feedback
+Step 3 - Navigator Reviews and Provides Feedback
 
 As the navigator, your job is to watch the recording carefully and provide constructive, specific feedback through GitHub comments.
 
@@ -164,7 +164,7 @@ Strengths
 
 Concerns
 1. Line 45 - Potential race condition: I noticed...
-   - Suggestion: Consider adding a lock here...
+   - Suggestion - Consider adding a lock here...
 
 2. Design consideration: The current approach...
 
@@ -175,7 +175,7 @@ Nitpicks (non-blocking)
 - Minor style preferences that aren't worth blocking on
 ```
 
-Step 4: Addressing Feedback and Iterating
+Step 4 - Addressing Feedback and Iterating
 
 When you receive feedback, address it systematically:
 

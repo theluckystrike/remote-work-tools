@@ -40,7 +40,7 @@ Web clippers solve this by creating a searchable knowledge base of everything yo
 The OneNote Web Clipper specifically works well for developers because:
 - It's free (unlike Notion clippers)
 - Clips are searchable and taggable
-- It integrates with Microsoft Office ecosystem
+- It integrates with Microsoft Office environment
 - It has keyboard shortcuts for rapid capture
 - The desktop client offers offline access
 
@@ -303,7 +303,7 @@ OneNote allows exporting notebooks or pages. If you build expertise in an area, 
 
 Archival Strategy
 
-After 1 year, review your clips. Ask: Do I still find this valuable? Would I look at this again? Archive old clips to reduce clutter. Archival doesn't mean deletion, it means moving clips to "Archive" sections where they're searchable but out of your active workflow.
+After 1 year, review your clips. Ask - Do I still find this valuable? Would I look at this again? Archive old clips to reduce clutter. Archival doesn't mean deletion, it means moving clips to "Archive" sections where they're searchable but out of your active workflow.
 
 Frequently Asked Questions
 

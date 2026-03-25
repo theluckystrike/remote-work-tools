@@ -28,7 +28,7 @@ Table of Contents
 - [Practical Implementation Tips](#practical-implementation-tips)
 - [Product Recommendations by Budget](#product-recommendations-by-budget)
 - [Maintenance Schedule](#maintenance-schedule)
-- [Real Results: Air Quality Improvements](#real-results-air-quality-improvements)
+- [Real Results - Air Quality Improvements](#real-results-air-quality-improvements)
 - [Common Questions About Windowless Offices](#common-questions-about-windowless-offices)
 - [When to Call a Professional](#when-to-call-a-professional)
 
@@ -145,11 +145,11 @@ Understanding your air quality helps optimize ventilation efforts. Smart sensors
 
 Essential Sensors
 
-CO2 Monitor: Non-dispersive infrared (NDIR) sensors provide accurate CO2 readings. Look for units with ±50ppm accuracy and logging capabilities. Place at breathing height for accurate readings.
+CO2 Monitor - Non-dispersive infrared (NDIR) sensors provide accurate CO2 readings. Look for units with ±50ppm accuracy and logging capabilities. Place at breathing height for accurate readings.
 
-PM2.5 Monitor: Laser scattering sensors detect particulate matter. Many air purifiers include these, but dedicated monitors offer more accurate readings.
+PM2.5 Monitor - Laser scattering sensors detect particulate matter. Many air purifiers include these, but dedicated monitors offer more accurate readings.
 
-Temperature and Humidity: Essential for comfort and mold prevention. Maintain 30-60% humidity for optimal comfort and health.
+Temperature and Humidity - Essential for comfort and mold prevention. Maintain 30-60% humidity for optimal comfort and health.
 
 Integration Example
 
@@ -192,7 +192,7 @@ Budget Setup ($100-200)
 - CO2 monitor: $40-70 (Aranet4, ThCO2)
 - Smart plug for automation: $10-15
 
-Setup: Place purifier at room center, position CO2 monitor at breathing height, schedule fan on timers during work hours.
+Setup - Place purifier at room center, position CO2 monitor at breathing height, schedule fan on timers during work hours.
 
 Mid-Range Setup ($300-600)
 
@@ -201,7 +201,7 @@ Everything above, plus:
 - Humidity monitor: $30-50 (ThermoPro Digital Hygrometer)
 - Inline duct fan (if you have accessible ducting): $100-150
 
-Setup: Upgrade to premium purifier with better coverage, add humidity monitoring, install basic inline fan if ceiling allows.
+Setup - Upgrade to premium purifier with better coverage, add humidity monitoring, install basic inline fan if ceiling allows.
 
 Premium Setup ($800-1500)
 
@@ -210,7 +210,7 @@ Premium Setup ($800-1500)
 - Full smart monitoring suite: $100-200 (CO2, PM2.5, humidity, temperature)
 - Professional installation: $500-1000
 
-Setup: Professional HVAC contractor assesses room, installs HRV with ducting, integrates smart controls.
+Setup - Professional HVAC contractor assesses room, installs HRV with ducting, integrates smart controls.
 
 Maintenance Schedule
 
@@ -225,7 +225,7 @@ Maintenance Schedule
 
 Consistent maintenance prevents performance degradation and keeps your air quality investment effective.
 
-Real Results: Air Quality Improvements
+Real Results - Air Quality Improvements
 
 A typical home office transformation timeline:
 

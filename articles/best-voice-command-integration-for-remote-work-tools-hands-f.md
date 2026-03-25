@@ -87,14 +87,14 @@ GitHub and Development Workflows
 Voice commands excel at managing git operations without leaving your terminal. Here is how to integrate voice control with common git workflows:
 
 ```bash
-Voice command: "commit changes"
+Voice command - "commit changes"
 git add .
 git commit -m "$(say 'What is the commit message?')"
 
-Voice command: "push to main"
+Voice command - "push to main"
 git push origin main
 
-Voice command: "create feature branch"
+Voice command - "create feature branch"
 git checkout -b "feature/$(say 'Name your branch')"
 ```
 
@@ -285,7 +285,7 @@ When implementing voice capture, consider data handling carefully. Process audio
 
 Emerging Technologies in 2026
 
-The voice control ecosystem continues evolving. Several developments shape the best implementations today:
+The voice control environment continues evolving. Several developments shape the best implementations today:
 
 On-Device Processing
 
@@ -305,25 +305,25 @@ Building a Voice Command Workflow for Your Team
 
 Implementing voice integration across a team requires standardization. Here's a practical approach:
 
-Phase 1: Define Core Commands (Week 1-2)
+Phase 1 - Define Core Commands (Week 1-2)
 - Identify the 10-15 most frequent tasks in your workflow
 - Write them as natural phrases (e.g., "Create a new bug ticket")
 - Test each phrase with 3 team members, ensure they all interpret the same way
 - Document the command → action mapping in a shared document
 
-Phase 2: Implement in Pilot Group (Week 3-4)
+Phase 2 - Implement in Pilot Group (Week 3-4)
 - Select 3-5 power users
 - Set them up with voice tool of choice
 - Run weekly check-ins to collect feedback
 - Iterate on commands based on usage
 
-Phase 3: Rollout and Training (Week 5-6)
+Phase 3 - Rollout and Training (Week 5-6)
 - Create a quick reference card with all supported commands
 - Record a 10-minute demo showing real workflow
 - Schedule optional 1:1 setup sessions for people hesitant about voice
 - Monitor adoption with usage analytics
 
-Phase 4: Refinement (Ongoing)
+Phase 4 - Refinement (Ongoing)
 - Track which commands people actually use
 - Retire unused commands
 - Add new commands based on team requests
@@ -399,11 +399,11 @@ Accessibility Benefits of Voice Commands
 
 Voice control isn't just a productivity hack, it's essential accessibility infrastructure for team members with different abilities:
 
-Repetitive Strain Injury (RSI): Team members with wrist pain can execute entire workflows via voice without touching keyboard or mouse.
+Repetitive Strain Injury (RSI) - Team members with wrist pain can execute entire workflows via voice without touching keyboard or mouse.
 
-Vision Impairment: Voice-driven workflows with audio feedback enable independent work without relying on visual cues.
+Vision Impairment - Voice-driven workflows with audio feedback enable independent work without relying on visual cues.
 
-Mobility Limitations: Users who can't reach keyboard/mouse benefit from hands-free operation.
+Mobility Limitations - Users who can't reach keyboard/mouse benefit from hands-free operation.
 
 When implementing voice commands, consult with team members who use accessibility tools. Their feedback shapes better overall design.
 

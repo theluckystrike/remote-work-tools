@@ -19,7 +19,7 @@ Manual status pages are a lie. someone always forgets to update them during an i
 
 ---
 
-Upptime: GitHub-Powered Status Page
+Upptime - GitHub-Powered Status Page
 
 Upptime runs entirely within GitHub Actions and GitHub Pages. Monitors are defined in a YAML file; GitHub Actions runs checks every 5 minutes and commits results to the repo. Zero infrastructure to manage.
 
@@ -89,7 +89,7 @@ Enable GitHub Pages on the `gh-pages` branch. Upptime's Actions workflow will au
 
 ---
 
-Gatus: Self-Hosted, Config-Driven
+Gatus - Self-Hosted, Config-Driven
 
 Gatus is a self-hosted status page and uptime monitor with more flexibility than Upptime. It supports HTTP, TCP, and DNS checks with custom conditions.
 
@@ -286,7 +286,7 @@ For Gatus, use external endpoint toggling:
 ```bash
 #!/bin/bash
 scripts/maintenance.sh
-Usage: ./maintenance.sh start|end "Reason text"
+Usage - ./maintenance.sh start|end "Reason text"
 
 ACTION=$1
 REASON=$2

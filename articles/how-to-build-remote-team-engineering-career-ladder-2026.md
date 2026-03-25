@@ -26,7 +26,7 @@ Table of Contents
 - [Detailed Level Rubric](#detailed-level-rubric)
 - [Compensation Bands (2026 Market Rates)](#compensation-bands-2026-market-rates)
 - [Promotion Process (Quarterly Calibration)](#promotion-process-quarterly-calibration)
-- [Promotion Packet: Jane Smith (Mid-Level → Senior Engineer)](#promotion-packet-jane-smith-mid-level-senior-engineer)
+- [Promotion Packet - Jane Smith (Mid-Level → Senior Engineer)](#promotion-packet-jane-smith-mid-level-senior-engineer)
 - [Remote-Specific Challenges + Solutions](#remote-specific-challenges-solutions)
 - [Detailed Role Descriptions (Example: Senior Engineer)](#detailed-role-descriptions-example-senior-engineer)
 - [Promotion Frequency + Ratios](#promotion-frequency-ratios)
@@ -100,7 +100,7 @@ Collaboration:
 - Responds to code review feedback promptly
 - Attends standup, keeps team updated
 
-Promotion Readiness: 18+ months experience, solid code quality, no blockers on shipping
+Promotion Readiness - 18+ months experience, solid code quality, no blockers on shipping
 
 Mid-Level Engineer (L2) - Promotion Criteria
 
@@ -122,7 +122,7 @@ Collaboration:
 - Proposes process improvements
 - Communicates status proactively
 
-Promotion Readiness: 2+ years, consistently ships complex features, mentors juniors effectively
+Promotion Readiness - 2+ years, consistently ships complex features, mentors juniors effectively
 
 Senior Engineer (L3) - Promotion Criteria
 
@@ -145,7 +145,7 @@ Collaboration:
 - Interviewing: screens candidates, leads technical rounds
 - Thought leadership: proposes systems, teaches best practices
 
-Promotion Readiness: 5+ years OR exceptional mid-level who demonstrates all criteria for 12+ months
+Promotion Readiness - 5+ years OR exceptional mid-level who demonstrates all criteria for 12+ months
 
 Staff Engineer (L3.5/L4) - Promotion Criteria
 
@@ -166,7 +166,7 @@ Collaboration:
 - Influences hiring: promotes candidates, shapes team structure
 - External: speaking, open source, industry involvement
 
-Promotion Readiness: Senior engineer + demonstrated impact on 3+ systems, strong mentorship track record
+Promotion Readiness - Senior engineer + demonstrated impact on 3+ systems, strong mentorship track record
 
 Compensation Bands (2026 Market Rates)
 
@@ -201,7 +201,7 @@ Month 3:
 Promotion Packet Template
 
 ```
-Promotion Packet: Jane Smith (Mid-Level → Senior Engineer)
+Promotion Packet - Jane Smith (Mid-Level → Senior Engineer)
 
 Executive Summary
 Jane has demonstrated senior-level impact for 12 months: shipped 3 major features, 
@@ -234,12 +234,12 @@ YES. Meets all L3 criteria (scope, collaboration, technical depth, mentorship).
 
 Remote-Specific Challenges + Solutions
 
-Problem 1: Hidden Mentorship
-Challenge: Jane mentors juniors in Slack, pair programming, code review, all async. Manager doesn't see the impact.
+Problem 1 - Hidden Mentorship
+Challenge - Jane mentors juniors in Slack, pair programming, code review, all async. Manager doesn't see the impact.
 
-Solution: Require quarterly mentorship summaries.
+Solution - Require quarterly mentorship summaries.
 ```
-Mentoring: Q1 2026
+Mentoring - Q1 2026
 - Mentee: Alex Chen (junior engineer)
 - Focus: System design, code quality
 - Meetings: Biweekly pair programming (2 hrs each)
@@ -247,10 +247,10 @@ Mentoring: Q1 2026
 - Plan Q2: Move to architecture reviews
 ```
 
-Problem 2: Invisible Leadership
-Challenge: Senior engineer proposes architecture, makes decisions in written docs. No conference room visibility.
+Problem 2 - Invisible Leadership
+Challenge - Senior engineer proposes architecture, makes decisions in written docs. No conference room visibility.
 
-Solution: Document + link decisions in promotion packet.
+Solution - Document + link decisions in promotion packet.
 ```
 Leadership Examples:
 1. RFC: New database connection pooling (link to doc + approval feedback)
@@ -258,21 +258,21 @@ Leadership Examples:
 3. Proposal: Caching strategy (company-wide impact, now standard)
 ```
 
-Problem 3: Timezone Latency
-Challenge: Team is split US/EU/APAC. Hard to have synchronized calibration.
+Problem 3 - Timezone Latency
+Challenge - Team is split US/EU/APAC. Hard to have synchronized calibration.
 
-Solution: Async-first calibration.
+Solution - Async-first calibration.
 1. Upload all promotion packets to shared doc (Tuesday)
 2. Async comments + questions (Wed, Thu)
 3. Real-time 1-hour calibration call (Friday, accommodates 2 zones)
 4. Document decisions, async follow-ups for third zone
 
-Problem 4: Compensation Compression
-Challenge: Remote market rates vary wildly (US: $250K, India: $80K, EU: $180K).
+Problem 4 - Compensation Compression
+Challenge - Remote market rates vary wildly (US: $250K, India - $80K, EU: $180K).
 
-Solution: Use role-based bands, not geo-based.
+Solution - Use role-based bands, not geo-based.
 ```
-L2 Engineer Salary Band: $160K, $220K (regardless of location)
+L2 Engineer Salary Band - $160K, $220K (regardless of location)
 Adjustments:
 - High CoL (SF, NYC, London): +0%
 - Medium CoL (Denver, Toronto): , 10%
@@ -282,11 +282,11 @@ Adjustments:
 
 Detailed Role Descriptions (Example: Senior Engineer)
 
-Title: Senior Engineer
+Title - Senior Engineer
 
-Reports To: Engineering Manager or Staff Engineer
+Reports To - Engineering Manager or Staff Engineer
 
-Compensation: $220K, $300K base, 0.04, 0.10% equity, full benefits
+Compensation - $220K, $300K base, 0.04, 0.10% equity, full benefits
 
 Responsibilities:
 
@@ -332,7 +332,7 @@ Typical Tech Company (100 engineers):
 - L3 → L4: 5% per year (1, 2 per year)
 - L4 → L5: <1% per year (0, 1 per year)
 
-Avoid: More than 50% of team at senior levels; avoid compression at bottom levels.
+Avoid - More than 50% of team at senior levels; avoid compression at bottom levels.
 
 FAQ
 

@@ -26,9 +26,9 @@ Table of Contents
 - [What could improve](#what-could-improve)
 - [Action items](#action-items)
 - [The Silent Brainstorming Process](#the-silent-brainstorming-process)
-- [Practical Example: Tech Team Sprint Retrospective](#practical-example-tech-team-sprint-retrospective)
+- [Practical Example - Tech Team Sprint Retrospective](#practical-example-tech-team-sprint-retrospective)
 - [Tools for Digital Stickies](#tools-for-digital-stickies)
-- [Making It Work: Best Practices](#making-it-work-best-practices)
+- [Making It Work - Best Practices](#making-it-work-best-practices)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Automating Follow-Up](#automating-follow-up)
 - [Detailed Setup Guides for Each Platform](#detailed-setup-guides-for-each-platform)
@@ -71,23 +71,23 @@ Action items
 
 The Silent Brainstorming Process
 
-Phase 1: Individual Ideation (24-48 hours)
+Phase 1 - Individual Ideation (24-48 hours)
 
 Each team member adds stickies independently. Encourage specific, actionable observations rather than vague complaints. For example:
 
-Instead of: "Testing was slow"
-Write: "QA regression testing took 3 hours; automating the smoke test suite could reduce this to 30 minutes"
+Instead of - "Testing was slow"
+Write - "QA regression testing took 3 hours; automating the smoke test suite could reduce this to 30 minutes"
 
 Provide a simple template for contributors:
 
 ```
 Sticky format:
-- Observation: [What happened?]
-- Impact: [How did it affect the team or delivery?]
-- Suggestion: [Optional - what might help?]
+- Observation - [What happened?]
+- Impact - [How did it affect the team or delivery?]
+- Suggestion - [Optional - what might help?]
 ```
 
-Phase 2: Grouping and Themes
+Phase 2 - Grouping and Themes
 
 Before the synchronous meeting, someone (usually the facilitator) groups similar stickies together. This clustering reveals patterns that individual observations might miss. Common themes for engineering teams include:
 
@@ -96,7 +96,7 @@ Before the synchronous meeting, someone (usually the facilitator) groups similar
 - Process bottlenecks: Approval delays, unnecessary meetings, handoff friction
 - Technical debt: Legacy code causing bugs, missing documentation
 
-Phase 3: Focused Synchronous Discussion (30-45 minutes)
+Phase 3 - Focused Synchronous Discussion (30-45 minutes)
 
 The live meeting becomes much more efficient. Skip the typical round-robin where everyone shares everything. Instead:
 
@@ -105,11 +105,11 @@ The live meeting becomes much more efficient. Skip the typical round-robin where
 3. Discuss top items (20-30 minutes): Deep explore the highest-voted themes
 4. Assign action owners (5 minutes): Clear accountability for follow-up
 
-Practical Example: Tech Team Sprint Retrospective
+Practical Example - Tech Team Sprint Retrospective
 
 Here's how a six-person distributed engineering team applied this technique:
 
-Setup: Team spread across UTC-8, UTC+1, and UTC+5. Sprint ended on Friday. Silent brainstorm window: Friday 5 PM UTC through Monday 9 AM UTC. Sync meeting: Monday 2 PM UTC.
+Setup - Team spread across UTC-8, UTC+1, and UTC+5. Sprint ended on Friday. Silent brainstorm window: Friday 5 PM UTC through Monday 9 AM UTC. Sync meeting: Monday 2 PM UTC.
 
 Results from silent phase (12 stickies total):
 - 4 stickies about slow CI/CD pipeline
@@ -117,9 +117,9 @@ Results from silent phase (12 stickies total):
 - 2 stickies about knowledge silos in the frontend code
 - 3 stickies about positive items (release process improved, code review turnaround faster)
 
-Grouping revealed: CI/CD and acceptance criteria both tied to insufficient ticket refinement, actionable insight that wouldn't emerge as clearly in a traditional meeting.
+Grouping revealed - CI/CD and acceptance criteria both tied to insufficient ticket refinement, actionable insight that wouldn't emerge as clearly in a traditional meeting.
 
-Sync meeting outcome: Team agreed to add "acceptance criteria checklist" to ticket templates and allocated 20% of next sprint to CI/CD optimization. Clear owners assigned, with a follow-up check-in scheduled for next week's async update.
+Sync meeting outcome - Team agreed to add "acceptance criteria checklist" to ticket templates and allocated 20% of next sprint to CI/CD optimization. Clear owners assigned, with a follow-up check-in scheduled for next week's async update.
 
 Tools for Digital Stickies
 
@@ -135,27 +135,27 @@ Several tools work well for this workflow:
 
 Choose based on your existing tool stack. The technique works regardless of which tool you select, the key is the async ideation phase, not the specific software.
 
-Making It Work: Best Practices
+Making It Work - Best Practices
 
-Set clear expectations: Tell the team exactly when the silent phase starts and ends. Send a reminder 24 hours before the deadline.
+Set clear expectations - Tell the team exactly when the silent phase starts and ends. Send a reminder 24 hours before the deadline.
 
-Lead by example: Add your own stickies early. This encourages others to contribute and models the detail level you're looking for.
+Lead by example - Add your own stickies early. This encourages others to contribute and models the detail level you're looking for.
 
-Keep stickies specific: Vague observations like "communication was bad" don't lead to actionable improvements. Prompt for specifics when needed.
+Keep stickies specific - Vague observations like "communication was bad" don't lead to actionable improvements. Prompt for specifics when needed.
 
-Follow up consistently: If action items from previous retrospectives keep getting ignored, the process loses meaning. Track completion rates and review them in subsequent sessions.
+Follow up consistently - If action items from previous retrospectives keep getting ignored, the process loses meaning. Track completion rates and review them in subsequent sessions.
 
-Rotate the facilitator: Different team members bring different perspectives to grouping and theme identification. Rotation keeps the process fresh and develops leadership skills.
+Rotate the facilitator - Different team members bring different perspectives to grouping and theme identification. Rotation keeps the process fresh and develops leadership skills.
 
 Common Pitfalls to Avoid
 
-Too long a window: A week-long silent phase leads to forgotten contributions and momentum loss. Stick to 24-48 hours.
+Too long a window - A week-long silent phase leads to forgotten contributions and momentum loss. Stick to 24-48 hours.
 
-Skipping the sync meeting: The synchronous discussion is essential for building team consensus and assigning ownership. Don't treat it as optional.
+Skipping the sync meeting - The synchronous discussion is essential for building team consensus and assigning ownership. Don't treat it as optional.
 
-No follow-through: Action items without owners and deadlines become forgotten items. Be specific: "Jane will investigate CI caching options by Wednesday" works better than "we should improve the build."
+No follow-through - Action items without owners and deadlines become forgotten items. Be specific: "Jane will investigate CI caching options by Wednesday" works better than "we should improve the build."
 
-Overloading the meeting: If you have 30+ stickies, something went wrong in the framing. Each retrospective should focus on one sprint's worth of observations.
+Overloading the meeting - If you have 30+ stickies, something went wrong in the framing. Each retrospective should focus on one sprint's worth of observations.
 
 Automating Follow-Up
 
@@ -182,7 +182,7 @@ This integration keeps retrospective outcomes visible within existing developmen
 
 Detailed Setup Guides for Each Platform
 
-Miro Setup (Pricing: Free for 3 boards, $10-$16/month for unlimited)
+Miro Setup (Pricing - Free for 3 boards, $10-$16/month for unlimited)
 
 Miro's free tier supports unlimited team members but caps the number of boards at 3. If you run monthly retrospectives, this fills quickly. Here's the optimal setup:
 
@@ -196,9 +196,9 @@ Miro's free tier supports unlimited team members but caps the number of boards a
 
 Create multiple card templates at the bottom of the board (happy, sad, confused emotions). Team members can drag these into the column and edit the text. This creates consistency while feeling interactive.
 
-Cost calculation: If you're running monthly retros and keeping 12 months of history, you'll eventually need the $10-16/month plan for unlimited boards. Or archive old boards regularly.
+Cost calculation - If you're running monthly retros and keeping 12 months of history, you'll eventually need the $10-16/month plan for unlimited boards. Or archive old boards regularly.
 
-FigJam Setup (Pricing: Free to $12/month per team, included with Figma Professional plan)
+FigJam Setup (Pricing - Free to $12/month per team, included with Figma Professional plan)
 
 FigJam excels at real-time collaboration but also works perfectly asynchronously. The interface feels more modern than Miro, and the stickies are more "playful."
 
@@ -210,20 +210,20 @@ FigJam excels at real-time collaboration but also works perfectly asynchronously
 
 FigJam's strength is that stickies are genuinely fun to interact with, they have physics and bounce. This subtle difference increases participation from less-technical team members.
 
-Integration: Connect to Slack so team members get a reminder when the board is ready for contribution.
+Integration - Connect to Slack so team members get a reminder when the board is ready for contribution.
 
-HedgeDoc Setup (Pricing: Free, self-hosted option available)
+HedgeDoc Setup (Pricing - Free, self-hosted option available)
 
 For teams wanting open-source or self-hosted solutions, HedgeDoc (formerly CodiMD) provides collaborative markdown editing. The barrier to entry is lower than Miro, and no sign-up is required if self-hosted.
 
 Basic template:
 
 ```markdown
-Sprint Retrospective: Week of March 16-20
+Sprint Retrospective - Week of March 16-20
 
-Silent brainstorm period: March 20 5 PM - March 22 9 AM UTC
-Sync meeting: March 22 2 PM UTC
-Facilitator: Sarah
+Silent brainstorm period - March 20 5 PM - March 22 9 AM UTC
+Sync meeting - March 22 2 PM UTC
+Facilitator - Sarah
 
 What went well
 
@@ -241,14 +241,14 @@ Action items
 -
 ---
 
-Voting rules: Add your name next to items you think are important. The top 5 items will be discussed.
+Voting rules - Add your name next to items you think are important. The top 5 items will be discussed.
 ```
 
-Advantage: Everyone sees everyone else's contributions in real-time (optional), works on any device, no login required.
+Advantage - Everyone sees everyone else's contributions in real-time (optional), works on any device, no login required.
 
-Disadvantage: Less visual than Miro/FigJam, doesn't have built-in voting mechanics, requires manual grouping by facilitator.
+Disadvantage - Less visual than Miro/FigJam, doesn't have built-in voting mechanics, requires manual grouping by facilitator.
 
-Notion Setup (Pricing: Free for individual, $10/month team workspace)
+Notion Setup (Pricing - Free for individual, $10/month team workspace)
 
 Create a "Retrospective" database with these properties:
 
@@ -265,7 +265,7 @@ Use Notion's database view to:
 2. Before sync: Switch to a table view, sort by votes descending
 3. During sync: Filter to only show "Action Item" category, update owners and due dates in real-time
 
-Advanced: Create a "Retrospective Tracker" page that pulls data from your database, showing:
+Advanced - Create a "Retrospective Tracker" page that pulls data from your database, showing:
 - % of action items from last retro that shipped
 - Average time-to-completion for action items
 - Most common themes across retros
@@ -288,7 +288,7 @@ This clustering transforms sticky chaos into themes. When you discuss "process g
 
 The "Confidence Scoring" Technique
 
-After discussion, ask: "How confident are we that this action item will ship?" Use a scale:
+After discussion, ask - "How confident are we that this action item will ship?" Use a scale:
 - 1 = Nice to have, probably won't happen
 - 5 = We're committed, has a clear owner, deadline is realistic
 
@@ -298,7 +298,7 @@ The "Counterpoint" Round
 
 In your sync meeting, after discussing each theme, ask explicitly: "What's the counterpoint? Why might this not be an issue?" This surfaces blind spots and prevents groupthink.
 
-The team identifies slow CI as a major issue. Counterpoint: "The slowness is mostly felt by developers running full suites locally; our CI actually completes in 8 minutes, which is acceptable for most teams our size." This reframes the action item from "make CI faster" to "educate team on when to run full suite vs. smoke tests."
+The team identifies slow CI as a major issue. Counterpoint - "The slowness is mostly felt by developers running full suites locally; our CI actually completes in 8 minutes, which is acceptable for most teams our size." This reframes the action item from "make CI faster" to "educate team on when to run full suite vs. smoke tests."
 
 The "Next Retro Prediction" Closing
 
@@ -310,7 +310,7 @@ Scaling Silent Brainstorm to Large Teams
 
 For teams larger than 12, the process needs adjustment. A 15-person team generating 40-50 stickies creates too much volume.
 
-Solution: Create breakout brainstorms by function:
+Solution - Create breakout brainstorms by function:
 - Engineering: CI/CD, code quality, testing
 - Product: Requirements clarity, feature scope, customer feedback loops
 - Design: Design systems, handoff clarity
@@ -324,13 +324,13 @@ Measuring Retrospective Effectiveness
 
 Track these metrics to improve your process:
 
-Action item completion rate: Of the items assigned at each retro, what % actually completed by the next retro? Target: 70%+. If lower, your action items are either too ambitious or your team isn't prioritizing them.
+Action item completion rate - Of the items assigned at each retro, what % actually completed by the next retro? Target: 70%+. If lower, your action items are either too ambitious or your team isn't prioritizing them.
 
-Time-to-first-result: For action items that shipped, how quickly did they land? Track this per item. Very quick completion (< 1 week) suggests the item wasn't addressing root cause. Slow completion (> 4 weeks) suggests the item needs to be broken smaller or needs clearer ownership.
+Time-to-first-result - For action items that shipped, how quickly did they land? Track this per item. Very quick completion (< 1 week) suggests the item wasn't addressing root cause. Slow completion (> 4 weeks) suggests the item needs to be broken smaller or needs clearer ownership.
 
-Silent phase participation: Did all team members contribute stickies? Target: 90%+. If someone consistently doesn't contribute, either they don't feel safe, they're unclear on the process, or they're overloaded.
+Silent phase participation - Did all team members contribute stickies? Target: 90%+. If someone consistently doesn't contribute, either they don't feel safe, they're unclear on the process, or they're overloaded.
 
-Team sentiment trend: Ask a simple question at the end of each retro: "On a scale of 1-5, how are you feeling about the team and our work?" Track this trend. Retros should increase this score over time if they're working.
+Team sentiment trend - Ask a simple question at the end of each retro: "On a scale of 1-5, how are you feeling about the team and our work?" Track this trend. Retros should increase this score over time if they're working.
 
 Frequently Asked Questions
 

@@ -97,7 +97,7 @@ aws ce create-anomaly-subscription \
   }'
 ```
 
-The `Threshold: 50` means you get alerted when an anomaly exceeds $50 above expected spending. Tune this threshold based on your typical bill. a $500/month account should alert at $25, while a $5000/month account might tolerate $150 before alerting.
+The `Threshold - 50` means you get alerted when an anomaly exceeds $50 above expected spending. Tune this threshold based on your typical bill. a $500/month account should alert at $25, while a $5000/month account might tolerate $150 before alerting.
 
 You can also create service-specific monitors. Separate monitors for EC2 and RDS give finer granularity. a spike in one service doesn't get masked by normal variance in another.
 

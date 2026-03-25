@@ -168,36 +168,36 @@ while True:
 
 Product Recommendations by Use Case
 
-Best Budget Option ($25-50): Vornado CR1 Compact Air Circulator
+Best Budget Option ($25-50) - Vornado CR1 Compact Air Circulator
 - Noise: 21 dB at low speed, 31 dB at high speed
 - CFM: 100 CFM
 - Best for: Small desks, minimalist setups
-- Why: Vortex circulation technology distributes air efficiently without blade noise. Compact footprint won't dominate your desk.
+- Why - Vortex circulation technology distributes air efficiently without blade noise. Compact footprint won't dominate your desk.
 
-Best Value Tower Fan ($60-100): Lasko 30" Tower Fan with Remote
+Best Value Tower Fan ($60-100) - Lasko 30" Tower Fan with Remote
 - Noise: 23 dB low, 34 dB high
 - CFM: 120 CFM
 - Best for: Medium home offices, corner placement
-- Why: Adjustable speeds allow quiet operation during calls, higher speeds during non-call times. Remote control means you won't fumble with switches during meetings.
+- Why - Adjustable speeds allow quiet operation during calls, higher speeds during non-call times. Remote control means you won't fumble with switches during meetings.
 
-Best for Hot Climates ($80-150): Dreo Smart Tower Fan
+Best for Hot Climates ($80-150) - Dreo Smart Tower Fan
 - Noise: 24 dB minimum speed, 32 dB max
 - CFM: 140 CFM
 - Smart control: WiFi-enabled, integrates with Alexa/Google Home
 - Best for: Automation-loving developers, rooms with variable heat
-- Why: Schedule fan speed based on time of day. Enable "meeting mode" (lowest speed) automatically during calendar events. Temperature sensor adjusts autonomously.
+- Why - Schedule fan speed based on time of day. Enable "meeting mode" (lowest speed) automatically during calendar events. Temperature sensor adjusts autonomously.
 
-Premium Option ($180-250): Dyson AM07 Tower Fan
+Premium Option ($180-250) - Dyson AM07 Tower Fan
 - Noise: 27 dB low, 35 dB high (quieter than specs suggest in practice)
 - CFM: 150+ CFM
 - Best for: Developers who want premium build quality and resale value
-- Why: Bladeless design eliminates blade noise. Engineered airflow patterns feel natural. Premium price reflects durability, many owners keep these for 10+ years.
+- Why - Bladeless design eliminates blade noise. Engineered airflow patterns feel natural. Premium price reflects durability, many owners keep these for 10+ years.
 
-DIY Smart Option ($80-120): Raspberry Pi + Smart Relay + Standard Fan
+DIY Smart Option ($80-120) - Raspberry Pi + Smart Relay + Standard Fan
 - Noise: Depends on fan choice (pick a quiet model)
 - CFM: Varies
 - Best for: Makers and DevOps folks
-- Why: Full automation control. Can trigger fan based on CPU usage, calendar events, or room temperature sensor.
+- Why - Full automation control. Can trigger fan based on CPU usage, calendar events, or room temperature sensor.
 
 Microphone Filter Solutions
 
@@ -219,7 +219,7 @@ In OBS Studio:
 This suppresses low-level fan noise while preserving voice
 ```
 
-Hardware Solution: Microphone Windscreen
+Hardware Solution - Microphone Windscreen
 - Add a foam windscreen around your microphone ($10-20)
 - Reduces high-frequency fan noise by 3-5 dB
 - Works especially well with desk fans pointed toward your face
@@ -235,19 +235,19 @@ Before committing to a fan, test it:
 
 1. Record a test call: Open Google Meet with yourself (phone and computer). Position the fan. Record 2 minutes of natural conversation.
 
-2. Use a dB meter app: Download a free decibel meter app (iOS: Decibel Pro, Android: SoundMeter). Measure the fan at various distances. Log the results.
+2. Use a dB meter app: Download a free decibel meter app (iOS: Decibel Pro, Android - SoundMeter). Measure the fan at various distances. Log the results.
 
-3. Check during video calls: Do a test call with a friend. Ask: "Can you hear background noise?" If yes, adjust positioning. If still no, the fan passes the test.
+3. Check during video calls: Do a test call with a friend. Ask - "Can you hear background noise?" If yes, adjust positioning. If still no, the fan passes the test.
 
 4. Multi-hour test: Leave the fan on during a full work day. Can you tolerate the noise during focus time and calls?
 
 Document your findings:
 ```
-Fan Model: Lasko 30" Tower
-Position: Office corner, 8 feet away, angled 30° left
-Noise at desk: 24 dB (low speed), 32 dB (high speed)
-Call quality: Colleague reports no perceptible noise
-Comfort: Great during hot afternoons, no fatigue
+Fan Model - Lasko 30" Tower
+Position - Office corner, 8 feet away, angled 30° left
+Noise at desk - 24 dB (low speed), 32 dB (high speed)
+Call quality - Colleague reports no perceptible noise
+Comfort - Great during hot afternoons, no fatigue
 PASS
 ```
 
@@ -255,17 +255,17 @@ Integration with Home Automation
 
 If you're already using home automation, integrate your fan:
 
-HomeKit (Apple ecosystem):
+HomeKit (Apple environment):
 ```bash
 Add smart fan to HomeKit automation
-Trigger rule: "When meeting starts → Set fan to low speed"
-Trigger rule: "When meeting ends → Set fan to normal speed"
+Trigger rule - "When meeting starts → Set fan to low speed"
+Trigger rule - "When meeting ends → Set fan to normal speed"
 ```
 
-Google Home (Nest ecosystem):
+Google Home (Nest environment):
 ```bash
-Create routine: "Google, meeting time"
-Action: Set [smart fan] to lowest speed
+Create routine - "Google, meeting time"
+Action - Set [smart fan] to lowest speed
 This works with calendar integration
 ```
 

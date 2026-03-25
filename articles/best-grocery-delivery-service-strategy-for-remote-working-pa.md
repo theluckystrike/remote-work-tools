@@ -29,13 +29,13 @@ Remote working parents face a unique challenge: while the flexibility of working
 
 Table of Contents
 
-- [The Core Problem: Shopping Burns Focus Time](#the-core-problem-shopping-burns-focus-time)
-- [Strategy One: Recurring Orders with Scheduled Deliveries](#strategy-one-recurring-orders-with-scheduled-deliveries)
-- [Strategy Two: Script Your Order Management](#strategy-two-script-your-order-management)
-- [Strategy Three: Time-Block Delivery Windows](#strategy-three-time-block-delivery-windows)
-- [Strategy Four: Build a Household Command Center](#strategy-four-build-a-household-command-center)
-- [Strategy Five: Batch Menu Planning](#strategy-five-batch-menu-planning)
-- [Strategy Six: Optimize Your Delivery Service Settings](#strategy-six-optimize-your-delivery-service-settings)
+- [The Core Problem - Shopping Burns Focus Time](#the-core-problem-shopping-burns-focus-time)
+- [Strategy One - Recurring Orders with Scheduled Deliveries](#strategy-one-recurring-orders-with-scheduled-deliveries)
+- [Strategy Two - Script Your Order Management](#strategy-two-script-your-order-management)
+- [Strategy Three - Time-Block Delivery Windows](#strategy-three-time-block-delivery-windows)
+- [Strategy Four - Build a Household Command Center](#strategy-four-build-a-household-command-center)
+- [Strategy Five - Batch Menu Planning](#strategy-five-batch-menu-planning)
+- [Strategy Six - Optimize Your Delivery Service Settings](#strategy-six-optimize-your-delivery-service-settings)
 - [Putting It All Together](#putting-it-all-together)
 - [Service Comparison for Remote Working Parents](#service-comparison-for-remote-working-parents)
 - [Managing Nutritional Preferences and Dietary Restrictions](#managing-nutritional-preferences-and-dietary-restrictions)
@@ -45,13 +45,13 @@ Table of Contents
 
 This guide provides a practical strategy for optimizing grocery delivery that works specifically for remote working parents who need to protect their focus time while ensuring their household runs smoothly.
 
-The Core Problem: Shopping Burns Focus Time
+The Core Problem - Shopping Burns Focus Time
 
 Traditional grocery shopping consumes more than just the time spent in the store. Factor in travel, parking, navigating aisles, waiting in checkout lines, and unpacking, and you're looking at 2-3 hours per week minimum. For remote workers, this time comes directly from productive work hours or precious family time.
 
 Delivery services solve the travel problem, but without a strategy, you still spend time placing orders, managing substitutions, and coordinating delivery windows. The goal is to build a system that minimizes ongoing cognitive load while ensuring consistent household nutrition.
 
-Strategy One: Recurring Orders with Scheduled Deliveries
+Strategy One - Recurring Orders with Scheduled Deliveries
 
 The most effective approach for remote working parents is building a stable base order that arrives on a predictable schedule. This transforms grocery management from a weekly decision into a background process.
 
@@ -67,7 +67,7 @@ Start by identifying your household staples, the items that appear on your list 
 
 Build your recurring order around these 15-25 items. Most delivery services offer subscription or recurring order features that let you set delivery frequency and automatically place orders.
 
-Strategy Two: Script Your Order Management
+Strategy Two - Script Your Order Management
 
 For developers and power users, the real optimization comes from treating your grocery workflow as a system you can script and automate. While most delivery services don't expose APIs directly, you can build surrounding infrastructure to reduce friction.
 
@@ -140,7 +140,7 @@ python grocery_tracker.py add milk
 
 The system tracks quantities, and when you need to order, running the script with the "low" flag shows you exactly what to add to your recurring order.
 
-Strategy Three: Time-Block Delivery Windows
+Strategy Three - Time-Block Delivery Windows
 
 One of the biggest advantages of remote work is control over your schedule. Use this strategically when scheduling deliveries.
 
@@ -151,7 +151,7 @@ The optimal approach is timing deliveries during periods when you're either:
 
 Avoid scheduling deliveries during your most productive focus hours or during important meetings. Most delivery services allow you to select specific time windows. Aim for Tuesday or Wednesday deliveries, typically the least congested days, and early afternoon windows when you're between meetings but still available to receive deliveries.
 
-Strategy Four: Build a Household Command Center
+Strategy Four - Build a Household Command Center
 
 Create a centralized system that everyone in your household can access for adding items to the shopping list. This prevents the "we're out of X" discovery at dinner time.
 
@@ -181,7 +181,7 @@ grocery add chicken breast
 grocery list
 ```
 
-Strategy Five: Batch Menu Planning
+Strategy Five - Batch Menu Planning
 
 Reduce decision fatigue by planning your meals in batches. Instead of deciding what's for dinner every afternoon, establish a repeating weekly menu:
 
@@ -194,7 +194,7 @@ Reduce decision fatigue by planning your meals in batches. Instead of deciding w
 
 This doesn't mean eating the exact same meals every week, it means you always know which categories of ingredients you need, making grocery planning much faster.
 
-Strategy Six: Optimize Your Delivery Service Settings
+Strategy Six - Optimize Your Delivery Service Settings
 
 Most delivery services have settings that can reduce your ongoing attention requirements:
 
@@ -218,13 +218,13 @@ Service Comparison for Remote Working Parents
 
 Not all delivery services work equally well for remote teams:
 
-Amazon Fresh / Whole Foods: Best for: Regular recurring orders, if you have Prime membership. Integrates with Amazon ecosystem. Recurring delivery is easy.
+Amazon Fresh / Whole Foods - Best for: Regular recurring orders, if you have Prime membership. Integrates with Amazon environment. Recurring delivery is easy.
 
-Instacart: Best for: Flexibility and variety. Works with multiple stores locally. Good for families whose preferences change week-to-week. Downside: Higher markups and service fees.
+Instacart - Best for: Flexibility and variety. Works with multiple stores locally. Good for families whose preferences change week-to-week. Downside - Higher markups and service fees.
 
-Walmart+: Best for: Budget-conscious families. Competitive pricing, free delivery on orders over $35. Good for staples and pantry items.
+Walmart+ - Best for: Budget-conscious families. Competitive pricing, free delivery on orders over $35. Good for staples and pantry items.
 
-Local delivery services: Best for: Communities with established local services. Often cheaper than national options but limited geographic coverage.
+Local delivery services - Best for: Communities with established local services. Often cheaper than national options but limited geographic coverage.
 
 Compare pricing on your 20 recurring items across services. Most families find a "best fit" service that balances cost, delivery window flexibility, and product selection.
 
@@ -237,24 +237,24 @@ Use labels in your inventory system: Tag items with dietary markers, "vegetarian
 Establish dietary group preferences: Create a simple list document:
 
 ```
-Vegetarian proteins: tofu, tempeh, beans, chickpeas
-Gluten-free staples: rice pasta, certified GF bread
-Allergy-free snacks: nut-free granola, dairy-free yogurt
+Vegetarian proteins - tofu, tempeh, beans, chickpeas
+Gluten-free staples - rice pasta, certified GF bread
+Allergy-free snacks - nut-free granola, dairy-free yogurt
 ```
 
-Review orders before delivery: Most services show the complete order before checkout. Verify your recurring order actually meets everyone's needs. This prevents frustration when you receive items that don't fit dietary preferences.
+Review orders before delivery - Most services show the complete order before checkout. Verify your recurring order actually meets everyone's needs. This prevents frustration when you receive items that don't fit dietary preferences.
 
 Reducing Packaging Waste
 
 Remote-working families often experience guilt about the waste generated by frequent small deliveries. Consider these approaches:
 
-Consolidate orders: Fewer, larger orders generate less packaging per item than multiple small orders.
+Consolidate orders - Fewer, larger orders generate less packaging per item than multiple small orders.
 
-Choose bulk options: Buy larger quantities of shelf-stable items (pasta, rice, canned goods) to reduce delivery frequency.
+Choose bulk options - Buy larger quantities of shelf-stable items (pasta, rice, canned goods) to reduce delivery frequency.
 
-Request minimal packaging: Many services let you add delivery instructions. "Please minimize packaging" often works.
+Request minimal packaging - Many services let you add delivery instructions. "Please minimize packaging" often works.
 
-Compost or recycle: Establish a system for processing packaging waste. Cardboard boxes get flattened and recycled; paper cushioning composts.
+Compost or recycle - Establish a system for processing packaging waste. Cardboard boxes get flattened and recycled; paper cushioning composts.
 
 The environmental cost of your delivery is comparable to a single car trip to the store but with less time overhead for your family.
 
@@ -275,11 +275,11 @@ Avoiding Common Implementation Failures
 
 Many remote working parents start a grocery tracking system and abandon it within a month. Avoid these common failure modes:
 
-Over-engineering the system: A spreadsheet with five columns beats a custom Python script you never update. Keep it simple.
+Over-engineering the system - A spreadsheet with five columns beats a custom Python script you never update. Keep it simple.
 
-Inconsistent tracking: If you forget to log consumption, the system becomes unreliable. Make logging friction-free (one-command bash script is better than opening a spreadsheet).
+Inconsistent tracking - If you forget to log consumption, the system becomes unreliable. Make logging friction-free (one-command bash script is better than opening a spreadsheet).
 
-Set it and forget it: You still need to review results monthly. A 30-minute monthly review beats constant firefighting.
+Set it and forget it - You still need to review results monthly. A 30-minute monthly review beats constant firefighting.
 
 Fighting family members on discipline: If your partner won't track consumption, the system fails. Agree on simplicity and accountability beforehand.
 

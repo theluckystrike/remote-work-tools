@@ -22,7 +22,7 @@ Table of Contents
 
 - [Why Remote Teams Need Explicit Promotion Criteria](#why-remote-teams-need-explicit-promotion-criteria)
 - [Core Components of a Promotion Framework](#core-components-of-a-promotion-framework)
-- [Promotion Rubric Example: Technical Excellence](#promotion-rubric-example-technical-excellence)
+- [Promotion Rubric Example - Technical Excellence](#promotion-rubric-example-technical-excellence)
 - [Practical Implementation Steps](#practical-implementation-steps)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Measuring Framework Effectiveness](#measuring-framework-effectiveness)
@@ -49,8 +49,8 @@ Start by documenting what success looks like at each level. For technical teams,
 
 - Scope of work: What project complexity and organizational impact defines each level?
 - Technical proficiency: What skills and knowledge are expected?
-- Communication: How does communication scope change at each level?
-- Leadership: What mentorship or people leadership is expected?
+- Communication - How does communication scope change at each level?
+- Leadership - What mentorship or people leadership is expected?
 
 Here's a practical example of level definitions in code:
 
@@ -96,7 +96,7 @@ Remote promotion requires evidence you can actually see. Structure your framewor
 Quantify what "exceeds expectations" means for each category. This prevents subjective inflation and helps employees self-assess:
 
 ```markdown
-Promotion Rubric Example: Technical Excellence
+Promotion Rubric Example - Technical Excellence
 
 | Criteria | Does Not Meet | Meets | Exceeds |
 |----------|---------------|-------|---------|
@@ -107,7 +107,7 @@ Promotion Rubric Example: Technical Excellence
 
 Practical Implementation Steps
 
-Step 1: Audit Your Current State
+Step 1 - Audit Your Current State
 
 Before building a new framework, document how promotions currently work. This exposes hidden criteria:
 
@@ -115,7 +115,7 @@ Before building a new framework, document how promotions currently work. This ex
 - Interview team members about their understanding of promotion requirements
 - Identify gaps between stated and actual criteria
 
-Step 2: Draft Levels with Input
+Step 2 - Draft Levels with Input
 
 Build your framework collaboratively. Technical teams respond better when they help define the criteria:
 
@@ -127,7 +127,7 @@ Draft promotion criteria session agenda:
 4. Assign evidence categories to each level (45 min)
 ```
 
-Step 3: Publish and Socialize
+Step 3 - Publish and Socialize
 
 Once drafted, publish the framework in a visible, accessible location, your team wiki, Notion space, or dedicated docs folder. Then:
 
@@ -135,7 +135,7 @@ Once drafted, publish the framework in a visible, accessible location, your team
 - Schedule 1:1s to discuss individual growth paths
 - Create a self-assessment template employees can use
 
-Step 4: Iterate Based on Feedback
+Step 4 - Iterate Based on Feedback
 
 Your first framework won't be perfect. Plan quarterly reviews to:
 
@@ -145,13 +145,13 @@ Your first framework won't be perfect. Plan quarterly reviews to:
 
 Common Pitfalls to Avoid
 
-The listicle trap: Avoid creating promotion criteria that are just a checklist of activities. Promotions should be about impact, not checkbox completion.
+The listicle trap - Avoid creating promotion criteria that are just a checklist of activities. Promotions should be about impact, not checkbox completion.
 
 Ignoring remote-specific factors: If your framework was designed for co-located teams, it probably values synchronous communication too heavily. Weight async contributions equally.
 
-Static criteria: Technology roles evolve quickly. Your senior engineer's job looks different than it did two years ago. Review criteria annually.
+Static criteria - Technology roles evolve quickly. Your senior engineer's job looks different than it did two years ago. Review criteria annually.
 
-Vague language: Phrases like "demonstrated leadership" or "technical excellence" mean different things to different people. Define them specifically.
+Vague language - Phrases like "demonstrated leadership" or "technical excellence" mean different things to different people. Define them specifically.
 
 Measuring Framework Effectiveness
 
@@ -159,7 +159,7 @@ Track these metrics to know if your framework works:
 
 - Time-in-level statistics: Are promotions happening at reasonable intervals?
 - Promotion satisfaction: Do promoted employees feel the process was fair?
-- Representation: Are promotions equitable across demographic groups?
+- Representation - Are promotions equitable across demographic groups?
 - Self-assessment accuracy: Can employees accurately predict their promotion readiness?
 
 Implementation Tools and Templates
@@ -168,34 +168,34 @@ Promotion Documentation Platforms:
 
 Several tools help organize and track promotion readiness:
 
-- Lattice/Ally: Full performance management platform with built-in promotion workflows. $12-25/employee/month. Good for teams 50+.
+- Lattice/Ally - Full performance management platform with built-in promotion workflows. $12-25/employee/month. Good for teams 50+.
 - 15Five: Performance management with lightweight promotion tracking. $10/employee/month. Good for smaller teams.
 - Notion templates: Community-built free templates for tracking promotion progress. Requires self-management.
-- Google Workspace: Spreadsheets + docs for DIY tracking. Free or included in existing licenses.
+- Google Workspace - Spreadsheets + docs for DIY tracking. Free or included in existing licenses.
 
 For most remote teams, a well-structured Google Doc or Notion page outperforms expensive software.
 
 Avoiding Common Pitfalls in Remote Teams
 
-Pitfall 1: Visibility Bias
+Pitfall 1 - Visibility Bias
 Remote teams struggle to see async work. A developer shipping critical backend improvements gets less "credit" than someone visible in meetings. Counter this by:
 - Requiring written quarterly reviews from peers
 - Tracking shipped features, not just attendance
 - Highlighting async contributions in team updates
 
-Pitfall 2: Communication Style Penalization
+Pitfall 2 - Communication Style Penalization
 Introverted developers and those from different communication cultures may appear less promotable simply because they don't perform well in synchronous meetings. Mitigate by:
 - Valuing written communication equally with verbal
 - Assessing decision-making quality, not presentation style
 - Providing multiple formats for demonstrating readiness
 
-Pitfall 3: Geographic/Timezone Invisibility
+Pitfall 3 - Geographic/Timezone Invisibility
 Remote workers in different timezones may miss key "visibility moments." Counter by:
 - Recording important meetings for async review
 - Creating written decision logs
 - Rotating meeting times for visibility across zones
 
-Pitfall 4: Tool Lock-in
+Pitfall 4 - Tool Lock-in
 Using proprietary systems for promotion criteria makes the process opaque. Keep criteria in:
 - Shared documents all employees can access
 - Version control (git) for historical tracking
@@ -208,10 +208,10 @@ Implement quarterly reviews to help employees understand their readiness status:
 ```markdown
 Promotion Readiness Checkpoint (Quarterly)
 
-Employee: [Name]
-Date: [Quarter/Year]
-Current Level: [Level]
-Target Level: [Level]
+Employee - [Name]
+Date - [Quarter/Year]
+Current Level - [Level]
+Target Level - [Level]
 
 Evidence Gathered This Quarter
 
@@ -244,7 +244,7 @@ Growth activities for next quarter:
 1.
 2.
 
-Next Checkpoint: [Date]
+Next Checkpoint - [Date]
 ```
 
 Share this assessment with the employee. They should rarely be surprised by promotion readiness if checkpoints are regular.

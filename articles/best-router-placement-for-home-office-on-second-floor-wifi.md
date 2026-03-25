@@ -21,13 +21,13 @@ Setting up reliable WiFi for a second floor home office requires understanding h
 Table of Contents
 
 - [Understanding Signal Propagation in Multi-Story Homes](#understanding-signal-propagation-in-multi-story-homes)
-- [Strategy One: Centralized Single-Router Placement](#strategy-one-centralized-single-router-placement)
-- [Strategy Two: Wired Access Points](#strategy-two-wired-access-points)
-- [Strategy Three: Mesh WiFi Systems](#strategy-three-mesh-wifi-systems)
+- [Strategy One - Centralized Single-Router Placement](#strategy-one-centralized-single-router-placement)
+- [Strategy Two - Wired Access Points](#strategy-two-wired-access-points)
+- [Strategy Three - Mesh WiFi Systems](#strategy-three-mesh-wifi-systems)
 - [Channel Selection and Congestion](#channel-selection-and-congestion)
 - [Practical Configuration for Developers](#practical-configuration-for-developers)
 - [When to Upgrade Your Equipment](#when-to-upgrade-your-equipment)
-- [Router Comparison: Equipment That Works for Multi-Story Homes](#router-comparison-equipment-that-works-for-multi-story-homes)
+- [Router Comparison - Equipment That Works for Multi-Story Homes](#router-comparison-equipment-that-works-for-multi-story-homes)
 - [Installation and Optimization Guide](#installation-and-optimization-guide)
 - [Mesh Network Installation Example](#mesh-network-installation-example)
 - [Troubleshooting Common Second-Floor Issues](#troubleshooting-common-second-floor-issues)
@@ -50,13 +50,13 @@ iwconfig wlan0 | grep -i signal
 On macOS, hold Option and click the WiFi icon to see detailed signal metrics:
 
 ```bash
-Alternative: use airport utility
+Alternative - use airport utility
 /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I
 ```
 
 A signal below -70 dBm typically results in dropped packets and latency spikes. Target -50 dBm or stronger for video calls and real-time collaboration.
 
-Strategy One: Centralized Single-Router Placement
+Strategy One - Centralized Single-Router Placement
 
 If your router supports it and you have flexibility in placement, position the router as close to the center of your home's footprint as possible, ideally on the first floor, near the ceiling for optimal coverage. The goal is minimizing the number of floors and walls between the router and your second floor office.
 
@@ -74,7 +74,7 @@ Continuous signal monitoring while repositioning
 watch -n 1 "nmcli -f SIGNAL,SSID dev wifi list | grep YourNetwork"
 ```
 
-Strategy Two: Wired Access Points
+Strategy Two - Wired Access Points
 
 For permanent installations, running ethernet cable to a second-floor access point delivers the most consistent performance. This approach requires running cable from your router to the office, but eliminates wireless congestion entirely.
 
@@ -89,14 +89,14 @@ Look for latency under 2ms and packet loss below 0.1%. Quality of service (QoS) 
 
 ```
 Example router QoS rule (varies by manufacturer)
-Priority: Voice/Video
-Bandwidth: 40% minimum
-DSCP: 46 (EF - Expedited Forwarding)
+Priority - Voice/Video
+Bandwidth - 40% minimum
+DSCP - 46 (EF - Expedited Forwarding)
 ```
 
 Configure your router's QoS to prioritize Zoom, Teams, or Google Meet traffic during work hours.
 
-Strategy Three: Mesh WiFi Systems
+Strategy Three - Mesh WiFi Systems
 
 Mesh systems excel at covering multi-story homes without running cables. They consist of a primary node connected to your modem and satellite nodes that communicate wirelessly. For a two-story home with a second-floor office, place the primary node on the first floor and at least one satellite on the second floor.
 
@@ -118,11 +118,11 @@ Channel Selection and Congestion
 Regardless of placement strategy, channel selection impacts performance significantly. Use WiFi analyzer tools to identify least-congested channels in your area:
 
 ```bash
-Linux: use wavemon or nmcli
+Linux - use wavemon or nmcli
 nmcli dev wifi list | grep -E "^\*" | awk '{print $2, $8}'
 
 macOS: use WiFi Explorer or similar
-Install via: brew install --cask wifi-explorer
+Install via - brew install --cask wifi-explorer
 ```
 
 For 5 GHz, use channels 36, 40, 44, or 149-165 which don't require DFS (Dynamic Frequency Selection). DFS channels detect radar and can cause brief interruptions, problematic for video calls.
@@ -142,10 +142,10 @@ Document your network setup in a README in your home directory, useful when trou
 
 ```
 Network Documentation
-Router: 192.168.1.1
-Office AP: 192.168.1.254
-Gateway: 192.168.1.1
-DNS: 1.1.1.1, 8.8.8.8
+Router - 192.168.1.1
+Office AP - 192.168.1.254
+Gateway - 192.168.1.1
+DNS - 1.1.1.1, 8.8.8.8
 ```
 
 When to Upgrade Your Equipment
@@ -159,7 +159,7 @@ If you've optimized placement and still experience issues, consider these indica
 
 For developers running multiple video calls, CI/CD pipelines, and cloud-based IDEs, a wired access point or quality mesh system typically provides the most reliable experience without monthly subscription costs.
 
-Router Comparison: Equipment That Works for Multi-Story Homes
+Router Comparison - Equipment That Works for Multi-Story Homes
 
 Here's a breakdown of popular routers and mesh systems suited for second-floor offices:
 
@@ -175,7 +175,7 @@ Here's a breakdown of popular routers and mesh systems suited for second-floor o
 
 Installation and Optimization Guide
 
-Step 1: Baseline Measurement
+Step 1 - Baseline Measurement
 
 Before moving anything, document current performance:
 
@@ -188,13 +188,13 @@ On Linux
 nmcli -f IN-USE,SIGNAL,SSID dev wifi list
 
 Measure throughput with iperf3 if you have multiple devices
-Server side: iperf3 -s
-Client side: iperf3 -c 192.168.1.1
+Server side - iperf3 -s
+Client side - iperf3 -c 192.168.1.1
 ```
 
 Document signal strength (in dBm), throughput (Mbps), and latency (ms). This baseline helps you measure improvement after repositioning.
 
-Step 2: Router Positioning
+Step 2 - Router Positioning
 
 For single-router setups, positioning is critical. Test these locations:
 
@@ -213,7 +213,7 @@ Second Floor Fallback:
 
 After moving your router, wait 30 seconds for it to stabilize, then re-measure signal strength. A 10+ dBm improvement indicates effective repositioning.
 
-Step 3: Channel Optimization
+Step 3 - Channel Optimization
 
 Automatic channel selection often underperforms in dense apartment complexes. Manual selection works better:
 
@@ -238,7 +238,7 @@ In your router admin panel, disable automatic channel selection and manually set
 
 Monitor real-world impact for 48 hours before changing again, changes take time to stabilize in your area.
 
-Step 4: QoS Configuration for Development Work
+Step 4 - QoS Configuration for Development Work
 
 Configure Quality of Service to prioritize your work traffic:
 
@@ -269,11 +269,11 @@ For teams with persistent second-floor WiFi problems, mesh systems deliver relia
 ```
 Installation Plan for 2-Story, 2000 sq ft Home:
 
-Node 1 (Primary): Main floor, central location
+Node 1 (Primary) - Main floor, central location
 - Connected to modem via ethernet
 - Responsible for upstairs coverage via 5 GHz backhaul
 
-Node 2 (Satellite): Second floor, opposite side from Node 1
+Node 2 (Satellite) - Second floor, opposite side from Node 1
 - Connected to primary via WiFi or ethernet (if available)
 - Provides reliable local coverage for office
 
@@ -290,28 +290,28 @@ Expected Performance:
 
 Troubleshooting Common Second-Floor Issues
 
-Problem: High latency spikes during peak hours
+Problem - High latency spikes during peak hours
 Check if ISP issues or neighbor WiFi congestion. Run a wired connection to your ISP modem directly and measure latency. If it's still high, contact your ISP. If wired latency is low but WiFi is high, your router likely needs channel adjustment.
 
-Problem: Frequent disconnections
-Often caused by weak signal forcing the device between 2.4 GHz and 5 GHz bands. Solution: Force your devices to 5 GHz only in WiFi settings, or create separate SSIDs for each band and connect only the fast-switching laptop to 5 GHz.
+Problem - Frequent disconnections
+Often caused by weak signal forcing the device between 2.4 GHz and 5 GHz bands. Solution - Force your devices to 5 GHz only in WiFi settings, or create separate SSIDs for each band and connect only the fast-switching laptop to 5 GHz.
 
-Problem: Slow speed despite strong signal
+Problem - Slow speed despite strong signal
 Weak signal to router but strong to nearby access point suggests your gateway (modem) isn't optimally placed. Move your primary node closer to the modem, or add a wired access point on the second floor for ethernet backhaul.
 
 Cost-Benefit Analysis
 
-Single router optimization: $0-50
+Single router optimization - $0-50
 - Time investment: 2-3 hours for testing and configuration
 - Typical improvement: 10-20 dBm signal gain if router repositioning helps
 - Risk: Minimal
 
-Mesh system addition: $200-400 for quality second node
+Mesh system addition - $200-400 for quality second node
 - Time investment: 1 hour setup
 - Typical improvement: -70 dBm → -50 dBm on second floor
 - Risk: Minimal, can return if ineffective
 
-Professional installation: $100-300
+Professional installation - $100-300
 - Ideal for complex homes or those uncomfortable with networking
 - Often includes long-term support and optimization consultation
 

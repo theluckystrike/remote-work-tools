@@ -225,7 +225,7 @@ Reference a 1Password secret
 Bootstrap on a new machine:
 
 ```bash
-One-liner: install chezmoi + apply dotfiles
+One-liner - install chezmoi + apply dotfiles
 sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply git@github.com:yourname/dotfiles.git
 ```
 
@@ -234,7 +234,7 @@ Handling Machine-Specific Differences
 Common differences between machines: work vs personal email in gitconfig, Linux vs macOS paths, work VPN config that shouldn't be in a public repo.
 
 ```bash
-Stow: use separate packages per machine type
+Stow - use separate packages per machine type
 ~/dotfiles/
  bash/          . shared
  vim/           . shared
@@ -249,7 +249,7 @@ else
   stow git-personal
 fi
 
-Chezmoi: use .chezmoi.hostname or custom data
+Chezmoi - use .chezmoi.hostname or custom data
 ~/.local/share/chezmoi/dot_gitconfig.tmpl
 [user]
 {{ if .work_machine }}
@@ -268,7 +268,7 @@ dotfiles add ~/.tmux.conf
 dotfiles commit -m "tmux: add popup window keybind"
 dotfiles push
 
-With stow: edit the file in ~/dotfiles/ directly (symlink means changes are immediate)
+With stow - edit the file in ~/dotfiles/ directly (symlink means changes are immediate)
 vim ~/dotfiles/tmux/.tmux.conf
 cd ~/dotfiles && git add -A && git commit -m "tmux: add popup keybind" && git push
 
@@ -276,7 +276,7 @@ With chezmoi:
 chezmoi edit ~/.tmux.conf  # opens, applies on save
 cd $(chezmoi source-path) && git add -A && git commit -m "tmux: add popup keybind" && git push
 
-On other machines: pull and apply
+On other machines - pull and apply
 bare git: dotfiles pull
 stow: git pull (symlinks already in place)
 chezmoi: chezmoi update

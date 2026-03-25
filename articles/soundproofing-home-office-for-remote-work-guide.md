@@ -28,13 +28,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Sound Transmission
+Step 1 - Understand Sound Transmission
 
 Before buying products, understand how sound travels into your workspace. Sound enters through three pathways: air-borne transmission (voices, traffic), impact transmission (footsteps, door slams), and flanking transmission (gaps around doors, windows, and electrical outlets). Addressing all three pathways yields the best results.
 
-Start with a simple test: sit in your office during different times of day and note specific noise sources. Identify whether problems come from outside (neighbors, traffic), from within your building (elevators, footsteps), or from other household members. This diagnosis determines which solutions prioritize.
+Start with a simple test - sit in your office during different times of day and note specific noise sources. Identify whether problems come from outside (neighbors, traffic), from within your building (elevators, footsteps), or from other household members. This diagnosis determines which solutions prioritize.
 
-Step 2: Sealing Air Paths
+Step 2 - Sealing Air Paths
 
 The most cost-effective soundproofing method seals air gaps. Even small cracks around doors and windows let significant sound through. Acoustic sealant, a flexible, paintable caulk, fills gaps where walls meet frames, around window units, and along baseboards.
 
@@ -52,7 +52,7 @@ echo "- Wall penetrations: check cable runs"
 
 Door sweeps and weather stripping provide immediate improvements. A door sweep attaches to the bottom of your door, blocking the gap that typically measures 1-2 inches. Self-adhesive foam weather stripping costs under $10 and seals door frames. Combined, these solutions reduce noise transmission by 10-15 decibels, noticeable but not dramatic.
 
-Step 3: Acoustic Treatment vs. Soundproofing
+Step 3 - Acoustic Treatment vs. Soundproofing
 
 Distinguish between acoustic treatment and true soundproofing. Acoustic treatment manages sound within your room (reducing echoes, controlling reverb). Soundproofing prevents sound from entering or leaving. Both matter for remote work.
 
@@ -60,9 +60,9 @@ For internal room acoustics, bass traps in corners absorb low-frequency rumble, 
 
 True soundproofing requires mass. Dense materials block sound energy. Adding a second layer of drywall with Green Glue viscoelastic compound between layers increases wall mass and damping. This approach costs more but provides substantial noise reduction, worthwhile if your office shares walls with noisy neighbors.
 
-Step 4: Practical Solutions by Budget
+Step 4 - Practical Solutions by Budget
 
-Under $100: Sealing and Basic Treatment
+Under $100 - Sealing and Basic Treatment
 
 Focus on air sealing and portable solutions. Start with:
 
@@ -90,7 +90,7 @@ $500+: Professional Grade
 
 For developers in apartments or shared housing, a dedicated acoustic door provides the biggest single improvement. Standard interior doors weigh 25-40 pounds; solid-core doors weigh 80-120 pounds. The mass difference blocks substantially more sound.
 
-Step 5: Digital Noise Cancellation
+Step 5 - Digital Noise Cancellation
 
 Physical soundproofing works alongside digital solutions. Active noise cancellation (ANC) headphones handle unpredictable sounds that sealing cannot address, neighbor conversations, delivery sounds, sudden noise spikes.
 
@@ -106,7 +106,7 @@ This loads WebRTC-based echo cancellation, which handles typical room acoustics 
 
 For recording or streaming code tutorials, consider a dynamic microphone with built-in noise rejection. Cardioid or supercardioid patterns pick up sound primarily from the front, naturally rejecting background noise from sides and rear.
 
-Step 6: Automation for Focus Modes
+Step 6 - Automation for Focus Modes
 
 Integrate sound management into your workflow automation. Create scripts that activate when you start focus sessions:
 
@@ -121,13 +121,13 @@ Start white noise (using sox or afplay)
 Replace with your preferred ambient sound
 afplay /System/Library/Sounds/Basso.aiff -v 0.1 &
 
-Optional: Send notification
+Optional - Send notification
 echo "Focus mode activated - ambient noise enabled"
 ```
 
 This example uses macOS shortcuts and basic audio playback. Customize for your operating system and preferences. The key is reducing friction between recognizing a focus need and activating your acoustic environment.
 
-Step 7: Set Up Your Space
+Step 7 - Set Up Your Space
 
 Consider your specific noise challenges when selecting solutions. A home office facing a busy street prioritizes window treatment. An apartment with thin walls between neighbors benefits more from wall mass and door sealing. Shared housing requires combination approaches.
 
@@ -141,13 +141,13 @@ Document your setup for future reference:
 | MLV | Adds mass | Wall transmission |
 | ANC headphones | Personal protection | Unpredictable environments |
 
-Step 8: Maintaining Your Setup
+Step 8 - Maintaining Your Setup
 
 Soundproofing requires maintenance. Check sealants annually for cracks. Replace weather stripping when it compresses permanently. Acoustic foam panels collect dust and lose effectiveness over time, vacuum or replace every few years.
 
 Your acoustic environment affects productivity as much as lighting and ergonomics. Invest gradually, prioritize based on your specific noise sources, and iterate. The combination of physical soundproofing and digital noise management creates a workspace where you can focus deeply and communicate clearly.
 
-Step 9: Real-World Soundproofing Costs and ROI
+Step 9 - Real-World Soundproofing Costs and ROI
 
 Understanding typical project costs helps prioritize soundproofing investments:
 
@@ -173,7 +173,7 @@ Serious investment ($800-2500)
 
 For most remote workers, the $200-800 range delivers substantial improvement. A $500 investment in a solid-core door plus weather stripping often provides better results than thousands spent on panels and treatments that don't address the fundamental problem: sound entering through openings.
 
-Step 10: Decibel Reduction Reference
+Step 10 - Decibel Reduction Reference
 
 Understanding sound levels helps set realistic expectations:
 
@@ -185,7 +185,7 @@ Understanding sound levels helps set realistic expectations:
 
 Most remote workers don't need complete silence, they need to reduce external noise enough that it doesn't interrupt focus. A 15 dB reduction makes background noise roughly half as perceptible. This often suffices without requiring expensive professional soundproofing.
 
-Step 11: Product Recommendations
+Step 11 - Product Recommendations
 
 For quick improvement:
 - Weatherstripping tape (3M or Frost King): $10-15, 10-15 minute install, noticeable difference immediately
@@ -203,19 +203,19 @@ For professional-grade acoustic treatment:
 - ATS acoustic panels (premium): $100-200 per panel, superior to basic foam
 - Synthetic decoupling clips: $1-2 each, allows floating drywall for wall isolation
 
-Step 12: Alternative Approaches If You Can't Modify Your Space
+Step 12 - Alternative Approaches If You Can't Modify Your Space
 
 Renters and people in leased spaces can't always install permanent soundproofing. Try these alternatives:
 
-Portable acoustic booths: Companies like Acoustiblok and Waveform make temporary booth systems ($500-2000+). Professional but expensive.
+Portable acoustic booths - Companies like Acoustiblok and Waveform make temporary booth systems ($500-2000+). Professional but expensive.
 
-Portable white noise machines: Generate masking sounds that cover external noise. Brands like LectroFan cost $40-60 and work well for consistent background noise.
+Portable white noise machines - Generate masking sounds that cover external noise. Brands like LectroFan cost $40-60 and work well for consistent background noise.
 
-Noise-canceling earplugs: Loop or Muted earplugs ($20-30) reduce ambient noise passively without requiring amplified active cancellation.
+Noise-canceling earplugs - Loop or Muted earplugs ($20-30) reduce ambient noise passively without requiring amplified active cancellation.
 
-Temporary installations: Use removable adhesive to hang acoustic panels and MLV. Many materials peel away cleanly when you move out.
+Temporary installations - Use removable adhesive to hang acoustic panels and MLV. Many materials peel away cleanly when you move out.
 
-Step 13: Professional Soundproofing Services
+Step 13 - Professional Soundproofing Services
 
 For serious soundproofing needs, professional acoustic consultants can assess your space and recommend targeted solutions. This typically costs $200-500 but saves thousands by preventing over-investment in ineffective treatments.
 
@@ -228,19 +228,19 @@ Professional services include:
 
 Most developers don't need professional help, but for extreme noise problems (near highways, thin apartment walls), professional assessment prevents expensive mistakes.
 
-Step 14: Seasonal Soundproofing Adjustments
+Step 14 - Seasonal Soundproofing Adjustments
 
 Your acoustic needs change seasonally:
 
-Winter: Windows closed, weather stripping effective, HVAC running (more constant background noise). Focus on internal acoustic treatment.
+Winter - Windows closed, weather stripping effective, HVAC running (more constant background noise). Focus on internal acoustic treatment.
 
-Summer: Windows open for airflow, weather stripping less effective, outdoor noise increases. May need temporary window solutions or increased ANC use.
+Summer - Windows open for airflow, weather stripping less effective, outdoor noise increases. May need temporary window solutions or increased ANC use.
 
-Spring/Fall: Unpredictable weather, variable need for weather-dependent sealing. Keep acoustic solutions flexible.
+Spring/Fall - Unpredictable weather, variable need for weather-dependent sealing. Keep acoustic solutions flexible.
 
 For remote workers in variable climates, acoustic treatment that adapts to seasons (removable panels, temporary windows seals, seasonal weather stripping renewal) works better than permanent solutions.
 
-Step 15: Integration with Video Conferencing
+Step 15 - Integration with Video Conferencing
 
 Soundproofing amplifies the effectiveness of your audio setup for video calls:
 
@@ -260,7 +260,7 @@ Listen for:
 
 A soundproofed room with decent microphone technique creates professional-quality audio without investing in expensive microphones. Most video conference issues stem from poor acoustics, not expensive equipment.
 
-Step 16: Dealing with Noise Complaints from Colleagues
+Step 16 - Dealing with Noise Complaints from Colleagues
 
 If your home office is too loud for video calls, colleagues will let you know. Address this proactively:
 

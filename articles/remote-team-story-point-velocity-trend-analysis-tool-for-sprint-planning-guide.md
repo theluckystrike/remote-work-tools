@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Velocity Metrics for Remote Teams
+Step 1 - Understand Velocity Metrics for Remote Teams
 
 Before exploring implementation, let's clarify what velocity means in a remote context. Velocity measures the amount of work a team completes during a sprint, typically expressed in story points. For remote teams, velocity becomes even more critical because you lack the informal in-office observations that co-located managers rely on to gauge team health.
 
@@ -42,7 +42,7 @@ Key velocity metrics to track:
 
 Remote teams often see more velocity fluctuation than co-located teams due to time zone challenges, async communication delays, and varying work environments. This makes trend analysis particularly valuable, it helps you distinguish between normal variation and concerning patterns.
 
-Step 2: Build Your Velocity Data Pipeline
+Step 2 - Build Your Velocity Data Pipeline
 
 The first step is establishing a reliable data collection system. Most agile tools export data via APIs, which makes automated collection straightforward.
 
@@ -161,7 +161,7 @@ def store_sprint_data(conn, velocity_data):
     conn.commit()
 ```
 
-Step 3: Analyzing Velocity Trends
+Step 3 - Analyzing Velocity Trends
 
 Once you have historical data, analysis becomes possible. The goal is to extract practical recommendations that improve sprint planning.
 
@@ -276,7 +276,7 @@ def plot_velocity_trends(velocity_history, output_path="velocity_chart.png"):
     return output_path
 ```
 
-Step 4: Implementing Velocity-Based Sprint Planning
+Step 4 - Implementing Velocity-Based Sprint Planning
 
 With analysis complete, you can now make informed sprint commitments.
 
@@ -338,7 +338,7 @@ def generate_weekly_velocity_report(velocity_history, recipients):
     report = f"""
     Weekly Velocity Report
     ======================
-    Team Velocity Trend: {analysis['trend_direction'].upper()}
+    Team Velocity Trend - {analysis['trend_direction'].upper()}
     Rolling Average: {analysis['rolling_average_velocity']} points
     Velocity Variance: {analysis['velocity_variance']}
 

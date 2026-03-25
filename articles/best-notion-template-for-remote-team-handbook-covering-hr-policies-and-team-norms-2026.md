@@ -32,9 +32,9 @@ Table of Contents
 - [[Section Title]](#section-title)
 - [Implementation Best Practices](#implementation-best-practices)
 - [Change Log](#change-log)
-- [Practical Example: Complete Handbook Database](#practical-example-complete-handbook-database)
+- [Practical Example - Complete Handbook Database](#practical-example-complete-handbook-database)
 - [Building Decision Trees for Common Questions](#building-decision-trees-for-common-questions)
-- [Decision Tree: Should I attend this meeting?](#decision-tree-should-i-attend-this-meeting)
+- [Decision Tree - Should I attend this meeting?](#decision-tree-should-i-attend-this-meeting)
 - [Handbook Compliance and Onboarding](#handbook-compliance-and-onboarding)
 - [Onboarding Checklist](#onboarding-checklist)
 - [Maintaining Handbook Health Long-Term](#maintaining-handbook-health-long-term)
@@ -82,13 +82,13 @@ Define core hours carefully. Many remote teams operate across multiple time zone
 ```markdown
 Core Hours Policy
 
-Requirement: 4 hours of daily overlap with your reporting manager's timezone
+Requirement - 4 hours of daily overlap with your reporting manager's timezone
 
 - Americas Team: 9am-2pm Pacific
 - EMEA Team: 9am-2pm UTC
 - APAC Team: 9am-2pm Singapore Time
 
-Flexible Hours: Outside core hours, employees can structure their workday as needed
+Flexible Hours - Outside core hours, employees can structure their workday as needed
 ```
 
 Expense and Equipment Policies
@@ -108,7 +108,7 @@ Reimbursable Expenses:
 - External monitor (up to $400)
 - Noise-cancelling headphones (up to $250)
 
-Process: Submit receipts via Expensify within 30 days
+Process - Submit receipts via Expensify within 30 days
 ```
 
 Team Norms Documentation
@@ -172,9 +172,9 @@ Each handbook section should follow a consistent template for easy maintenance:
 ```markdown
 [Section Title]
 
-Last Updated: [Date]
-Owner: [Team/Person]
-Review Cycle: [Monthly/Quarterly/Annual]
+Last Updated - [Date]
+Owner - [Team/Person]
+Review Cycle - [Monthly/Quarterly/Annual]
 
 Overview
 [Brief explanation of why this section exists]
@@ -216,7 +216,7 @@ Change Log
 | 2026-02-01 | Updated core hours | @alex | @jordan |
 ```
 
-Practical Example: Complete Handbook Database
+Practical Example - Complete Handbook Database
 
 Organize your handbook using Notion databases for maximum flexibility:
 
@@ -235,23 +235,23 @@ Building Decision Trees for Common Questions
 Handbooks only work if people can find answers quickly. Build searchable decision trees for frequent scenarios:
 
 ```markdown
-Decision Tree: Should I attend this meeting?
+Decision Tree - Should I attend this meeting?
 
-Start: You received a calendar invite
+Start - You received a calendar invite
 
-Question 1: Are you listed on the agenda?
+Question 1 - Are you listed on the agenda?
 - YES → Attend (or respond with conflicts)
 - NO → Go to Question 2
 
-Question 2: Is this a decision-making meeting?
+Question 2 - Is this a decision-making meeting?
 - YES → Attend (you might provide context)
 - NO → Go to Question 3
 
-Question 3: Will you need the recording?
+Question 3 - Will you need the recording?
 - YES → Skip live, watch recording async
 - NO → Decline the meeting
 
-Question 4: Are you the organizer or could it affect your team?
+Question 4 - Are you the organizer or could it affect your team?
 - YES → Attend
 - NO → Decline with no hard feelings
 ```
@@ -288,13 +288,13 @@ Maintaining Handbook Health Long-Term
 
 Handbooks decay quickly if not actively maintained. Prevent stale information by:
 
-Quarterly Policy Reviews: Each policy owner reviews their section, updates last-modified date, marks as "verified current" or "needs update."
+Quarterly Policy Reviews - Each policy owner reviews their section, updates last-modified date, marks as "verified current" or "needs update."
 
-Employee-Driven Corrections: Include a "Report an error" button on every handbook page linking to a Slack report form. "This policy contradicts what we actually do" → notify owner immediately.
+Employee-Driven Corrections - Include a "Report an error" button on every handbook page linking to a Slack report form. "This policy contradicts what we actually do" → notify owner immediately.
 
-Feedback Cycles: Every six months, ask team members: "Is anything in the handbook unclear or outdated?" Aggregate feedback and prioritize updates.
+Feedback Cycles - Every six months, ask team members: "Is anything in the handbook unclear or outdated?" Aggregate feedback and prioritize updates.
 
-Sunset Schedule: Mark policies with expiration dates: "Core hours policy: valid through 2026-12-31. Review quarterly or when team size exceeds 20 people."
+Sunset Schedule - Mark policies with expiration dates: "Core hours policy: valid through 2026-12-31. Review quarterly or when team size exceeds 20 people."
 
 Handbook Personalization by Role
 
@@ -350,7 +350,7 @@ Track handbook usefulness:
 - Time on page: Pages with <20 seconds average time suggest they're too dense or irrelevant
 - Feedback received: What corrections/requests come in?
 
-Monthly: Review these metrics. If a policy gets zero views but appears in FAQ, maybe move it to FAQ section. If people are searching for "remote work setup" but you have no guide, create one.
+Monthly - Review these metrics. If a policy gets zero views but appears in FAQ, maybe move it to FAQ section. If people are searching for "remote work setup" but you have no guide, create one.
 
 ---
 

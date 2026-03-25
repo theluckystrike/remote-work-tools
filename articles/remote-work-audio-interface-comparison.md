@@ -54,7 +54,7 @@ Weaknesses:
 - Only one XLR input
 - Preamp has a slightly bright character compared to SSL
 
-Gain setting for calls: Set gain so your voice peaks at -12 dBFS. Dynamic mics need the knob past 12 o'clock. Condenser mics: 9-11 o'clock.
+Gain setting for calls - Set gain so your voice peaks at -12 dBFS. Dynamic mics need the knob past 12 o'clock. Condenser mics: 9-11 o'clock.
 
 Linux driver check:
 
@@ -81,7 +81,7 @@ Weaknesses:
 - No hardware direct monitoring blend knob
 - Headphone amp is weaker than Focusrite
 
-Who it's for: Anyone recording voice regularly who cares about warmth.
+Who it's for - Anyone recording voice regularly who cares about warmth.
 
 ---
 
@@ -152,7 +152,7 @@ Set to 44.1kHz in Audio MIDI Setup for calls. Higher sample rates consume CPU wi
 
 Platform-Specific Driver Configuration
 
-Windows: ASIO vs. WDM
+Windows - ASIO vs. WDM
 
 Windows ships two audio driver models. WDM (Windows Driver Model) is what every app uses by default. ASIO is a low-latency driver model that bypasses Windows audio mixing for near-zero latency monitoring.
 
@@ -160,10 +160,10 @@ For remote work calls (Zoom, Teams, Google Meet), WDM is correct. these apps do 
 
 ```
 In Focusrite Control (Scarlett's companion app):
-Set Sample Rate: 44100 Hz (for calls; 48000 Hz for recording)
-Set Buffer Size: 256 samples (for calls; 64 samples for tracking)
-Enable: Mix A → USB 1/2 (sends your audio to the computer)
-Disable: DAW monitoring (use direct monitoring instead)
+Set Sample Rate - 44100 Hz (for calls; 48000 Hz for recording)
+Set Buffer Size - 256 samples (for calls; 64 samples for tracking)
+Enable - Mix A → USB 1/2 (sends your audio to the computer)
+Disable - DAW monitoring (use direct monitoring instead)
 ```
 
 For the SSL 2 on Windows:
@@ -171,14 +171,14 @@ For the SSL 2 on Windows:
 2. Set the sample rate in SSL 360 software to match your DAW/call app
 3. In Windows Sound settings: set the SSL 2 as both Default Device and Default Communication Device
 
-Linux: ALSA and PipeWire
+Linux - ALSA and PipeWire
 
 All four interfaces work class-compliant on Linux. no driver installation needed. Verify:
 
 ```bash
 List audio capture devices
 arecord -l
-Should show: card 0: USB [Scarlett Solo USB], device 0: USB Audio [USB Audio]
+Should show - card 0: USB [Scarlett Solo USB], device 0: USB Audio [USB Audio]
 
 Set default input device
 cat > ~/.asoundrc << 'EOF'

@@ -42,8 +42,8 @@ Below is a policy template in YAML format that your HR or operations team can cu
 
 ```yaml
 commute-benefit-policy.yaml
-Version: 2026.1
-Last Updated: March 2026
+Version - 2026.1
+Last Updated - March 2026
 
 policy:
   name: "Hybrid Worker Commute Benefit Program"

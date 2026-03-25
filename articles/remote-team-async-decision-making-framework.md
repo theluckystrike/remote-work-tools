@@ -18,25 +18,25 @@ intent-checked: true
 
 Remote teams that require real-time meetings for every decision lose productivity. Async decision-making lets team members contribute on their schedule, across time zones, without synchronous overhead.
 
-The challenge: Async decisions are slow without structure. Threads get lost in Slack. Approval chains disappear. Context degrades. This framework fixes that by defining decision types, required tools, escalation rules, and timeboxing.
+The challenge - Async decisions are slow without structure. Threads get lost in Slack. Approval chains disappear. Context degrades. This framework fixes that by defining decision types, required tools, escalation rules, and timeboxing.
 
-Core Principle: Decision Classification
+Core Principle - Decision Classification
 
 Not all decisions should be async. Classify decisions into three categories:
 
-Level 1: Low-Risk, Low-Urgency (Async-First)
+Level 1 - Low-Risk, Low-Urgency (Async-First)
 - Examples: Choosing Slack channel naming convention, picking logo color, choosing coffee brand for office
 - Decision framework: Propose, gather feedback (24 hours), implement
 - Tool: Slack poll or Notion database
 - Approval: Team lead or owner sign-off only
 
-Level 2: Medium-Risk, Medium-Urgency (Async-with-Escalation)
+Level 2 - Medium-Risk, Medium-Urgency (Async-with-Escalation)
 - Examples: Hiring decision, feature prioritization, budget allocation, technical architecture choice
 - Decision framework: Propose, gather stakeholder feedback (48 hours), escalate if consensus fails
 - Tool: Loom video + Notion document + Slack thread
 - Approval: Manager + 2 stakeholder sign-offs
 
-Level 3: High-Risk, High-Urgency (Sync-Required)
+Level 3 - High-Risk, High-Urgency (Sync-Required)
 - Examples: Security incident response, customer SLA breach, layoffs, executive hire, company pivots
 - Decision framework: Real-time meeting or rapid escalation
 - Tool: Zoom/Google Meet
@@ -61,12 +61,12 @@ Table of Contents
 - [Signoffs](#signoffs)
 - [Timeboxing Strategy](#timeboxing-strategy)
 - [Escalation Criteria (Automatic Sync)](#escalation-criteria-automatic-sync)
-- [Real Example: Feature Prioritization Decision](#real-example-feature-prioritization-decision)
+- [Real Example - Feature Prioritization Decision](#real-example-feature-prioritization-decision)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 - [Measuring Async Success](#measuring-async-success)
 - [Recommendation](#recommendation)
 
-Step 1: Propose (Owner Initiative)
+Step 1 - Propose (Owner Initiative)
 
 Owner writes a decision proposal document (template below) that includes:
 - Problem statement (why this decision matters)
@@ -78,15 +78,15 @@ Owner writes a decision proposal document (template below) that includes:
 Template (Notion or Google Docs):
 
 ```
-DECISION PROPOSAL: [Title]
+DECISION PROPOSAL - [Title]
 
 PROBLEM STATEMENT
 [Why this decision matters. Link to related issues/tickets.]
 
 OPTIONS CONSIDERED
-Option A: [Description, pros/cons]
-Option B: [Description, pros/cons]
-Option C: [Description, pros/cons]
+Option A - [Description, pros/cons]
+Option B - [Description, pros/cons]
+Option C - [Description, pros/cons]
 
 OWNER RECOMMENDATION
 [Option X is recommended because...]
@@ -97,10 +97,10 @@ STAKEHOLDERS REQUIRED
 - Design: [Name] (@slack)
 
 TIMELINE
-Proposal: March 20, 2026 9am PT
-Feedback window: March 20-22 (48 hours)
-Decision deadline: March 22 5pm PT
-Implementation: March 25+
+Proposal - March 20, 2026 9am PT
+Feedback window - March 20-22 (48 hours)
+Decision deadline - March 22 5pm PT
+Implementation - March 25+
 
 ESCALATION CRITERIA
 - If no consensus by deadline, escalate to [Manager/Director]
@@ -122,7 +122,7 @@ Post proposal:
 3. Include Loom video walkthrough (if complex, <5min)
 4. Link Notion doc in Slack
 
-Step 2: Gather Feedback (Async Responses)
+Step 2 - Gather Feedback (Async Responses)
 
 Stakeholders respond within 24-48 hours via:
 
@@ -136,7 +136,7 @@ Loom video (complex objection):
 
 Notion comment (detailed analysis):
 ```
-Concern: Option C's timeline assumes Q2 vendor approval, but from past
+Concern - Option C's timeline assumes Q2 vendor approval, but from past
 experience that takes 6-8 weeks. Recommend Option B with later rollout.
 ```
 
@@ -147,7 +147,7 @@ Slack reaction (quick poll):
  = Strong objection (must comment)
 ```
 
-Step 3: Synthesize (Owner Consolidation)
+Step 3 - Synthesize (Owner Consolidation)
 
 Owner summarizes feedback in the Notion doc:
 
@@ -163,12 +163,12 @@ If consensus exists (85%+ agreement), proceed to Step 4.
 
 If no consensus (< 80%), escalate to manager for 30-minute sync call.
 
-Step 4: Decide & Implement
+Step 4 - Decide & Implement
 
 Owner fills in final decision in Notion doc:
 
 ```
-DECISION: Option B (with extended 12-week timeline)
+DECISION - Option B (with extended 12-week timeline)
 
 RATIONALE
 - Lower database migration risk
@@ -209,13 +209,13 @@ Slack Workflow Setup:
 
 Create a workflow triggered by emoji react (:escalate:):
 ```
-Trigger: User reacts with :escalate: to message
-Action 1: Send message to #decisions with escalation alert
-Action 2: Notify manager in DM
-Action 3: Create Jira ticket for escalation follow-up
+Trigger - User reacts with :escalate: to message
+Action 1 - Send message to #decisions with escalation alert
+Action 2 - Notify manager in DM
+Action 3 - Create Jira ticket for escalation follow-up
 ```
 
-Slack App: Polly (Decision Polling)
+Slack App - Polly (Decision Polling)
 
 ```
 /polly "Should we adopt Option A, B, or C?" --anonymous
@@ -272,7 +272,7 @@ Feedback Window
 - Decision deadline: [Following business day 5pm PT]
 
 Escalation Threshold
-Auto-escalate if: Risk > 6/10, Cost > $50k, Timeline > 6 months
+Auto-escalate if - Risk > 6/10, Cost > $50k, Timeline > 6 months
 
 Feedback (filled as responses arrive)
 [Stakeholder name]: [Their feedback]
@@ -318,7 +318,7 @@ Standard Timeline:
 March 20, 9am PT:  Proposal posted
 March 20, 5pm PT:  First responses due (24 hours)
 March 22, 5pm PT:  Feedback window closes
-March 23, 10am PT: Decision announced
+March 23, 10am PT - Decision announced
 March 25:          Implementation begins
 ```
 
@@ -343,7 +343,7 @@ Escalation (Sync Meeting):
 If no consensus by deadline:
 ```
 March 22, 6pm PT:  Escalation email sent to manager
-March 23, 10am PT: Sync meeting scheduled (30 minutes)
+March 23, 10am PT - Sync meeting scheduled (30 minutes)
 March 23, 5pm PT:  Decision made by manager
 March 24:          Implementation begins
 ```
@@ -366,22 +366,22 @@ Escalate immediately (call manager/director) if:
 
 ---
 
-Real Example: Feature Prioritization Decision
+Real Example - Feature Prioritization Decision
 
 Proposal Posted March 20, 9am PT:
 
 *DECISION: Should we build Feature X or Feature Y in Q2?*
 
-Problem: Product team needs to allocate one engineering squad (6 engineers) to either Feature X (high volume, lower complexity) or Feature Y (lower volume, higher customer value).
+Problem - Product team needs to allocate one engineering squad (6 engineers) to either Feature X (high volume, lower complexity) or Feature Y (lower volume, higher customer value).
 
 Options:
 - Option A: Feature X (50% increase in user adoption, 4-week delivery)
 - Option B: Feature Y (10 major customer requests, 8-week delivery)
 - Option C: Hybrid (2-week minimal Feature X, then 6-week Feature Y)
 
-Owner recommendation: Option C (balances speed-to-market with customer satisfaction).
+Owner recommendation - Option C (balances speed-to-market with customer satisfaction).
 
-Stakeholders: VP Product, Lead Engineer, Design Lead, Finance
+Stakeholders - VP Product, Lead Engineer, Design Lead, Finance
 
 Feedback Window (March 20-22):
 
@@ -389,7 +389,7 @@ Feedback Window (March 20-22):
 
 *Lead Engineer (Loom video):* "I'm concerned about Option C's switching cost. Shipping Feature X, onboarding new spec, then Feature Y = 3 weeks of thrash. I'd prefer Option A (simpler, faster). Here's a breakdown... [2:30 video]"
 
-*Design Lead (Notion comment):* "Option C is risky. Design specs for Y aren't finalized yet. Recommend: Option A for Q2, Feature Y planned for Q3 with full design review. Option B is too aggressive."
+*Design Lead (Notion comment):* "Option C is risky. Design specs for Y aren't finalized yet. Recommend - Option A for Q2, Feature Y planned for Q3 with full design review. Option B is too aggressive."
 
 *Finance (Slack reaction):* " Option C works for budget. No cost difference between A/B/C."
 
@@ -406,18 +406,18 @@ FEEDBACK SUMMARY
 
 REVISED RECOMMENDATION
 Option A for Q2 (simple delivery, reduces rework risk)
-Option C deferred: Feature Y moves to Q3 with design finalization in Q2
-Customer communication: Notify Customer X of Q3 timeline, offer interim workaround
+Option C deferred - Feature Y moves to Q3 with design finalization in Q2
+Customer communication - Notify Customer X of Q3 timeline, offer interim workaround
 
 RISK ASSESSMENT
-Original: 4/10 (medium-low)
-Revised: 3/10 (low). removes engineering switching risk
+Original - 4/10 (medium-low)
+Revised - 3/10 (low). removes engineering switching risk
 ```
 
 Decision (March 23, 5pm PT):
 
 ```
-DECIDED: Option A for Q2, Feature Y planned Q3
+DECIDED - Option A for Q2, Feature Y planned Q3
 
 RATIONALE
 - Engineering lead's concern about context-switching is valid
@@ -438,7 +438,7 @@ SIGN-OFFS
  Finance. March 23
 ```
 
-Post in #decisions: "DECIDED: Q2 focus on Feature A, Q3 on Feature Y. Details in Notion link."
+Post in #decisions - "DECIDED: Q2 focus on Feature A, Q3 on Feature Y. Details in Notion link."
 
 Notify affected customers of Feature Y timeline shift within 1 hour.
 
@@ -446,25 +446,25 @@ Notify affected customers of Feature Y timeline shift within 1 hour.
 
 Common Mistakes to Avoid
 
-Mistake 1: No decision deadline
+Mistake 1 - No decision deadline
 Slack thread dies, decision lingers, paralysis.
-Fix: Always specify "Decision by Friday 5pm PT" in proposal.
+Fix - Always specify "Decision by Friday 5pm PT" in proposal.
 
-Mistake 2: Too many stakeholders
+Mistake 2 - Too many stakeholders
 Consensus impossible, escalation guaranteed.
-Fix: Limit to 3-5 key stakeholders. Others can comment but don't block.
+Fix - Limit to 3-5 key stakeholders. Others can comment but don't block.
 
-Mistake 3: Unclear escalation criteria
+Mistake 3 - Unclear escalation criteria
 Manager doesn't know when to step in.
-Fix: Define thresholds upfront (risk > 6/10 = auto escalate).
+Fix - Define thresholds upfront (risk > 6/10 = auto escalate).
 
-Mistake 4: Vague options
+Mistake 4 - Vague options
 Stakeholders confused, debates endless.
-Fix: Include cost, timeline, and risk for each option.
+Fix - Include cost, timeline, and risk for each option.
 
-Mistake 5: No implementation ticket
+Mistake 5 - No implementation ticket
 Decision made, then forgotten.
-Fix: Create Jira/Linear ticket immediately after decision.
+Fix - Create Jira/Linear ticket immediately after decision.
 
 ---
 
@@ -477,19 +477,19 @@ Decision velocity: Time from proposal to decision
 - Express: 24 hours
 - Actual: Measure in Notion (deadline - creation date)
 
-Escalation rate: % of decisions requiring sync meeting
+Escalation rate - % of decisions requiring sync meeting
 - Target: < 15%
 - If > 25%: Decision framework unclear, retrain teams
 
-Stakeholder participation: % of required stakeholders responding
+Stakeholder participation - % of required stakeholders responding
 - Target: > 90% (at least one response)
 - If < 70%: Reminders needed, reduce async load
 
-Consensus rate: % of decisions with 80%+ agreement
+Consensus rate - % of decisions with 80%+ agreement
 - Target: > 80%
 - If < 60%: Framework too complex, simplify options
 
-Implementation completion: % of decided decisions that launched
+Implementation completion - % of decided decisions that launched
 - Target: 100% (no abandoned decisions)
 - If < 85%: Escalation thresholds too low, too many sync meetings
 

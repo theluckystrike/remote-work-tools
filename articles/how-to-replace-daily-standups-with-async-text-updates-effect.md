@@ -31,7 +31,7 @@ Table of Contents
 - [Making Async Standups Stick](#making-async-standups-stick)
 - [When Synchronous Check-ins Still Work](#when-synchronous-check-ins-still-work)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
-- [Tool Comparison: Platforms for Async Standups](#tool-comparison-platforms-for-async-standups)
+- [Tool Comparison - Platforms for Async Standups](#tool-comparison-platforms-for-async-standups)
 - [Advanced Template Variations](#advanced-template-variations)
 - [Key Metrics](#key-metrics)
 - [Completed](#completed)
@@ -104,11 +104,11 @@ Tools and Platforms
 
 Your existing tools probably support async standups without additional software:
 
-Slack/Discord: Create a dedicated channel with a daily thread. Team members post their updates as replies. This keeps conversations organized and searchable.
+Slack/Discord - Create a dedicated channel with a daily thread. Team members post their updates as replies. This keeps conversations organized and searchable.
 
-Notion/Confluence: A shared database with properties for date, team member, and status works well for teams that prefer documentation over chat.
+Notion/Confluence - A shared database with properties for date, team member, and status works well for teams that prefer documentation over chat.
 
-GitHub Projects: Add a weekly status comment to relevant issues. This ties updates directly to work items:
+GitHub Projects - Add a weekly status comment to relevant issues. This ties updates directly to work items:
 
 ```markdown
 Weekly Update - Week of March 16
@@ -159,25 +159,25 @@ Common Pitfalls to Avoid
 
 Async standups fail when teams treat them as micromanagement tools. Avoid these mistakes:
 
-Over-complicating templates: A three-section structure works. Adding 10 required fields turns updates into homework.
+Over-complicating templates - A three-section structure works. Adding 10 required fields turns updates into homework.
 
-Requiring immediate responses: Updates should be readable, not chatty. If someone needs input, they should request it explicitly rather than expecting engagement.
+Requiring immediate responses - Updates should be readable, not chatty. If someone needs input, they should request it explicitly rather than expecting engagement.
 
-Ignoring the archive: The biggest advantage of text updates is searchability. If no one ever references past updates, you're missing value. Make updates searchable by linking issues and using consistent formatting.
+Ignoring the archive - The biggest advantage of text updates is searchability. If no one ever references past updates, you're missing value. Make updates searchable by linking issues and using consistent formatting.
 
-Tool Comparison: Platforms for Async Standups
+Tool Comparison - Platforms for Async Standups
 
 Different teams find success with different platforms. Here's a practical comparison to help you choose:
 
-Slack: Free tier allows unlimited threads and pinned messages. Pro plan ($12.50/user/month) adds user groups for targeted notifications. Set up a reminder bot using Slack Workflows (free) to ping the channel at 5 PM daily. Drawback: searchability across years degrades performance as your workspace grows.
+Slack - Free tier allows unlimited threads and pinned messages. Pro plan ($12.50/user/month) adds user groups for targeted notifications. Set up a reminder bot using Slack Workflows (free) to ping the channel at 5 PM daily. Drawback - searchability across years degrades performance as your workspace grows.
 
-Linear.im: $10/user/month includes integrated status updates with voting on blockers. Integrates directly with GitHub and Jira, pulling commit information automatically. Best for engineering teams already using Linear for issue tracking. The UI is clean but requires a separate tool beyond your existing Slack workflow.
+Linear.im - $10/user/month includes integrated status updates with voting on blockers. Integrates directly with GitHub and Jira, pulling commit information automatically. Best for engineering teams already using Linear for issue tracking. The UI is clean but requires a separate tool beyond your existing Slack workflow.
 
-Range.io: $12/user/month specifically built for async standups. Includes sentiment tracking, streak counters for consistency, and integration with calendar data. Shows who's in back-to-back meetings (a blocker risk indicator). Most polished UI but highest per-person cost.
+Range.io - $12/user/month specifically built for async standups. Includes sentiment tracking, streak counters for consistency, and integration with calendar data. Shows who's in back-to-back meetings (a blocker risk indicator). Most polished UI but highest per-person cost.
 
-Notion: Free tier works fine. Add a database with properties for date, author, yesterday/today/blockers. Create a filtered view by date. Easy for teams already using Notion for documentation. Slower to search than native tools, and requires more manual setup.
+Notion - Free tier works fine. Add a database with properties for date, author, yesterday/today/blockers. Create a filtered view by date. Easy for teams already using Notion for documentation. Slower to search than native tools, and requires more manual setup.
 
-GitHub Discussions: Free if you're using GitHub. Create a "standup" discussion category and pin it. Tie updates directly to relevant issues and pull requests. Best for open-source and developer-heavy teams; less suitable for non-technical stakeholders.
+GitHub Discussions - Free if you're using GitHub. Create a "standup" discussion category and pin it. Tie updates directly to relevant issues and pull requests. Best for open-source and developer-heavy teams; less suitable for non-technical stakeholders.
 
 Cost comparison for a 10-person engineering team (annual):
 - Slack setup with reminders: $0 (or $1,500 if upgrading to Pro)

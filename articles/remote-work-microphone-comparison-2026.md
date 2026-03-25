@@ -58,9 +58,9 @@ osascript -e "set volume input volume 75"
 Or use SoundSource / eqMac for per-app input control
 ```
 
-Recommended position: Directly in front of your mouth, 4 inches away, slightly below lip level angled upward. A pop filter isn't strictly necessary for dynamic mics, but it helps.
+Recommended position - Directly in front of your mouth, 4 inches away, slightly below lip level angled upward. A pop filter isn't strictly necessary for dynamic mics, but it helps.
 
-Who it's for: Engineers and developers who want professional call quality without caring about audio. Works well in untreated rooms.
+Who it's for - Engineers and developers who want professional call quality without caring about audio. Works well in untreated rooms.
 
 ---
 
@@ -83,10 +83,10 @@ Weaknesses:
 ShurePlus MOTIV config for calls:
 
 ```
-Gain Mode: Auto (for stand-up/movement) or Manual at 55%
+Gain Mode - Auto (for stand-up/movement) or Manual at 55%
 EQ: Mid-boost (+2dB at 2kHz, cuts through call compression)
-Limiter: On (prevents clipping from sudden loud sounds)
-Headphone: 50% mix of monitor + return
+Limiter - On (prevents clipping from sudden loud sounds)
+Headphone - 50% mix of monitor + return
 ```
 
 ---
@@ -109,11 +109,11 @@ Weaknesses:
 Blue VO!CE noise gate config:
 
 ```
-Noise Gate Threshold: -40 dB (adjust up if still getting room noise)
-Attack: 5ms
-Release: 80ms
-High-Pass Filter: 100Hz (cuts low-frequency rumble)
-Compression: 3:1 ratio, threshold -18dB
+Noise Gate Threshold - -40 dB (adjust up if still getting room noise)
+Attack - 5ms
+Release - 80ms
+High-Pass Filter - 100Hz (cuts low-frequency rumble)
+Compression - 3:1 ratio, threshold -18dB
 ```
 
 Linux driver status:
@@ -156,7 +156,7 @@ On Linux
 pactl set-default-source alsa_input.usb-DJI_Mic_2
 ```
 
-Lavalier placement: Clip to shirt/collar 6, 8 inches below mouth. Thread the cable inside the shirt to avoid rustling. Avoid clipping near a collar seam.
+Lavalier placement - Clip to shirt/collar 6, 8 inches below mouth. Thread the cable inside the shirt to avoid rustling. Avoid clipping near a collar seam.
 
 ---
 

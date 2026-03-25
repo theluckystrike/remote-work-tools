@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand VESA Standards Before You Buy
+Step 1 - Understand VESA Standards Before You Buy
 
 Every monitor manufactured in the past two decades follows the VESA (Video Electronics Standards Association) mounting standard. Your monitor's VESA pattern, typically 75x75mm or 100x100mm, determines which wall mount or arm is compatible.
 
@@ -53,7 +53,7 @@ Real-world example:
 
 Knowing your VESA pattern before purchasing prevents wasted money and frustrating returns. Many mounts are VESA-specific and won't accept different patterns.
 
-Step 2: Choose the Right Wall Mount Type and Products
+Step 2 - Choose the Right Wall Mount Type and Products
 
 Three primary wall mount options work well behind standing desks:
 
@@ -65,17 +65,17 @@ Three primary wall mount options work well behind standing desks:
 | Monitor arm (single) | $60-120 | Full 360° | Maximum flexibility | Heavier load, higher cost |
 | Monitor arm (dual) | $150-250 | Independent per monitor | Multi-monitor setups | Complex cable management |
 
-Fixed mounts ($30-50): Position your monitor at a single height. These offer the slimmest profile and lowest cost. Choose this if you rarely adjust your viewing height and want the cleanest look. Suitable only if your sitting and standing eye levels are similar (within 2 inches).
+Fixed mounts ($30-50) - Position your monitor at a single height. These offer the slimmest profile and lowest cost. Choose this if you rarely adjust your viewing height and want the cleanest look. Suitable only if your sitting and standing eye levels are similar (within 2 inches).
 
-Tilting mounts ($50-100): Add vertical angle adjustment, useful if you need to tilt the monitor up when standing and down when sitting. The adjustment range typically spans 10-15 degrees. This is sufficient for most people, you're only adjusting 2-4 inches of height, so tilt handles the difference.
+Tilting mounts ($50-100) - Add vertical angle adjustment, useful if you need to tilt the monitor up when standing and down when sitting. The adjustment range typically spans 10-15 degrees. This is sufficient for most people, you're only adjusting 2-4 inches of height, so tilt handles the difference.
 
-Full-motion mounts ($80-150): Provide the most flexibility, allowing tilt, swivel, and extension. These work well if you share the workspace or want to position the monitor differently between sitting and standing modes. The extending arm (typically 5-10 inches) effectively compensates for your changing height.
+Full-motion mounts ($80-150) - Provide the most flexibility, allowing tilt, swivel, and extension. These work well if you share the workspace or want to position the monitor differently between sitting and standing modes. The extending arm (typically 5-10 inches) effectively compensates for your changing height.
 
-Monitor arms ($60-150): Clamped to desk rather than wall-mounted, but worth mentioning. Single-arm designs support one monitor and provide full articulation. Dual-arm designs handle two monitors independently. These bypass wall mounting entirely.
+Monitor arms ($60-150) - Clamped to desk rather than wall-mounted, but worth mentioning. Single-arm designs support one monitor and provide full articulation. Dual-arm designs handle two monitors independently. These bypass wall mounting entirely.
 
 For standing desk setups, a tilting or full-motion mount typically provides the best experience since your eye level changes significantly between sitting and standing positions. Full-motion mounts are preferred if you change postures frequently (every 30-60 minutes).
 
-Step 3: Wall Type and Stud Location
+Step 3 - Wall Type and Stud Location
 
 Your wall construction determines mounting strength and method:
 
@@ -99,7 +99,7 @@ for ((i=start_inches; i<=total_distance; i+=stud_spacing)); do
 done
 ```
 
-Step 4: Cable Management Strategies
+Step 4 - Cable Management Strategies
 
 Cables dangling from a wall-mounted monitor detract from the clean aesthetic and create maintenance headaches. Several approaches solve this:
 
@@ -111,7 +111,7 @@ Cable chains attach to the back of the monitor and desk, containing the cables a
 
 For developers running multiple monitors, label your cables at both ends using a label maker. This saves time when troubleshooting connectivity issues.
 
-Step 5: Height and Ergonomic Positioning
+Step 5 - Height and Ergonomic Positioning
 
 Proper monitor height prevents neck strain during long coding sessions. The top of your monitor should be at or slightly below eye level when you're in your primary working position.
 
@@ -123,7 +123,7 @@ Dual height positioning uses a full-motion mount to raise the monitor when stand
 
 Measure your standing and sitting eye heights to determine which approach suits your workspace. The difference between sitting and standing eye level typically ranges from 6-14 inches depending on your height and desk configuration.
 
-Step 6: Power and Connectivity Considerations
+Step 6 - Power and Connectivity Considerations
 
 Wall-mounted monitors need power and video connections. Plan these details before mounting:
 
@@ -146,7 +146,7 @@ Pre-Installation Checklist
 
 Step-by-Step Installation
 
-Step 1: Locate studs and mark positions
+Step 1 - Locate studs and mark positions
 
 ```bash
 #!/bin/bash
@@ -160,11 +160,11 @@ Stud finder workflow:
 5. Mark that position
 6. Your stud spans between the two marks (typically 1.5")
 
-Standard stud spacing: 16 inches on center
+Standard stud spacing - 16 inches on center
 If first stud at 16", next should be at 32", then 48", etc.
 ```
 
-Step 2: Determine mount height for your standing/sitting positions
+Step 2 - Determine mount height for your standing/sitting positions
 
 ```python
 Calculate optimal monitor height for mixed postures
@@ -193,13 +193,13 @@ def calculate_monitor_height(sitting_eye_height_inches, standing_eye_height_inch
     }
 
 5'10" developer
-Sitting eye height: 45 inches (from floor)
-Standing eye height: 58 inches (from floor)
+Sitting eye height - 45 inches (from floor)
+Standing eye height - 58 inches (from floor)
 result = calculate_monitor_height(45, 58)
 Result suggests monitor center at 50 inches, mount top at 58 inches
 ```
 
-Step 3: Hold mount plate and mark holes
+Step 3 - Hold mount plate and mark holes
 
 1. Position mount plate at your calculated height using a level
 2. Ensure it's perfectly horizontal (bubble in center of level)
@@ -207,7 +207,7 @@ Step 3: Hold mount plate and mark holes
 4. If hitting studs, mark screw locations aligned with studs
 5. If mounting on drywall only, mark all four holes for toggle bolts
 
-Step 4: Pre-drill and install anchors
+Step 4 - Pre-drill and install anchors
 
 For stud mounting:
 ```bash
@@ -221,14 +221,14 @@ Drill 1/2" holes at marked locations
 Install toggle bolts per manufacturer instructions
 ```
 
-Step 5: Mount the plate
+Step 5 - Mount the plate
 
 - Position mount plate on wall aligned with drilled holes
 - Insert screws (studs) or toggle bolts (drywall)
 - Tighten firmly but don't overtighten, you'll crack plastic mounting plates
 - Use a torque wrench if specified (typically 15-20 Nm for VESA brackets)
 
-Step 6: Hang and adjust the monitor
+Step 6 - Hang and adjust the monitor
 
 1. Slide monitor onto mount plate according to manufacturer instructions
 2. Secure with locking pins or bolts
@@ -236,7 +236,7 @@ Step 6: Hang and adjust the monitor
 4. Adjust tilt/pan to optimal viewing angle (15-20 degrees below horizontal)
 5. Tighten all adjustment locks
 
-Step 7: Cable management
+Step 7 - Cable management
 
 Route HDMI/DisplayPort and power cables along the back of the monitor and down the wall using cable clips. For in-wall routing, use cable management boxes at top and bottom.
 

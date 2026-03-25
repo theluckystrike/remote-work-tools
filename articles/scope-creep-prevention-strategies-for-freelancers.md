@@ -136,7 +136,7 @@ class ProjectTracker:
                        if s.get("scope_item") == "out_of_scope")
         return f"Scope breakdown: {in_scope} in-scope, {out_scope} out-of-scope"
 
-Usage: tracker = ProjectTracker("client-website")
+Usage - tracker = ProjectTracker("client-website")
 tracker.start_session("Build contact form (in original scope)")
 ... work ...
 tracker.end_session()
@@ -168,7 +168,7 @@ Set expectations around response windows, "I respond within 24 hours", and honor
 For ongoing communication, create email templates:
 
 ```
-Subject: RE: [Project] - Additional Request
+Subject - RE: [Project] - Additional Request
 
 Hi [Client],
 

@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Identifying the Scope of Tool Sprawl
+Step 1 - Identifying the Scope of Tool Sprawl
 
 Before making any changes, you need visibility into what subscriptions exist and who uses them. Most companies discover they have 3-5 overlapping tools in categories like project management, communication, or file storage.
 
@@ -70,7 +70,7 @@ def categorize_tools(subscriptions):
 
 This script helps you quickly identify which categories have multiple tools competing for the same use case.
 
-Step 2: Build the Business Case for Consolidation
+Step 2 - Build the Business Case for Consolidation
 
 Once you have data, calculate the actual cost of maintaining duplicate subscriptions. If you have three project management tools costing $12, $15, and $8 per user per month, with 40 users across all three, you're spending $1,400 monthly on tools that might all serve the same purpose.
 
@@ -83,14 +83,14 @@ Beyond direct costs, consider hidden expenses:
 
 Document these findings and present them to leadership. Frame consolidation as an efficiency improvement rather than a cost-cutting measure, this makes it easier to get buy-in from teams who have already adopted their preferred tools.
 
-Step 3: Select the Primary Tool for Each Category
+Step 3 - Select the Primary Tool for Each Category
 
 When multiple tools exist in one category, you need to choose which one becomes the standard. Avoid making this decision unilaterally. Instead, evaluate based on criteria that matter to your team:
 
 1. Feature parity: Can the chosen tool do everything the other tools do?
 2. Integration capabilities: Does it connect with your existing workflow?
 3. User satisfaction: Survey team members who use each tool
-4. Scalability: Will it handle your projected growth?
+4. Scalability - Will it handle your projected growth?
 5. Pricing structure: How does cost change as you add users?
 
 For communication tools, consider this evaluation framework:
@@ -105,14 +105,14 @@ For communication tools, consider this evaluation framework:
 
 Migration effort matters. Tools with existing data have switching costs that go beyond subscription fees.
 
-Step 4: Executing the Migration
+Step 4 - Executing the Migration
 
 With a primary tool selected, plan the migration carefully. Abrupt changes create resistance and productivity loss. Follow a phased approach:
 
-Phase 1: Pilot with one team
+Phase 1 - Pilot with one team
 Choose a team that's relatively small or already enthusiastic about the change. Let them use the selected tool exclusively for two weeks and gather feedback. This serves as a proof of concept and generates real-world testimonials for skeptics.
 
-Phase 2: Gradual rollout
+Phase 2 - Gradual rollout
 Don't force everyone to switch simultaneously. Instead, announce a timeline:
 
 - Week 1: Marketing team migrates
@@ -121,10 +121,10 @@ Don't force everyone to switch simultaneously. Instead, announce a timeline:
 
 This prevents everyone from learning a new tool at the same time and reduces support burden.
 
-Phase 3: Deprecate old tools
+Phase 3 - Deprecate old tools
 After migration, set a deadline for disabling old tools. Give teams 30 days to export data, then revoke access. Communicate this deadline clearly and follow through, tolerance for exceptions perpetuates the problem.
 
-Step 5: Manage Resistance and Data Migration
+Step 5 - Manage Resistance and Data Migration
 
 Some team members will resist consolidation. They have legitimate concerns: lost data, disrupted workflows, learning curves. Address these directly:
 
@@ -151,7 +151,7 @@ async function migrateCards(trelloBoardId, notionDatabaseId) {
 
 For workflow disruption, provide training sessions and create internal documentation. Short video guides tailored to your team's specific use cases work better than generic product documentation.
 
-Step 6: Preventing Future Tool Sprawl
+Step 6 - Preventing Future Tool Sprawl
 
 After consolidation, establish policies that prevent the problem from recurring:
 
@@ -165,24 +165,24 @@ A simple policy document might look like:
 ```markdown
 Tool Acquisition Policy
 
-Step 7: Request Process
+Step 7 - Request Process
 1. Submit tool request via internal portal
 2. Include: use case, expected users, monthly cost
 3. IT reviews for security compliance
 4. Finance reviews for budget impact
 5. Decision within 5 business days
 
-Step 8: Approved Tool Categories
+Step 8 - Approved Tool Categories
 - Communication: Slack (primary), Zoom (meetings)
 - Project Management: Linear (primary)
 - Documentation: Notion (primary)
 - Code Hosting: GitHub (primary)
 
-Step 9: Trial Policy
+Step 9 - Trial Policy
 All trials must be registered with IT. Auto-cancel after 14 days unless formally approved.
 ```
 
-Step 10: Measuring Success
+Step 10 - Measuring Success
 
 Track consolidation results over time. Three months after migration, review:
 
@@ -193,18 +193,18 @@ Track consolidation results over time. Three months after migration, review:
 
 These metrics justify the effort and identify areas for further optimization.
 
-Step 11: Change Management Communication Plan
+Step 11 - Change Management Communication Plan
 
 The success of tool consolidation depends heavily on communication. Create a communication timeline:
 
-Month 1: Awareness & Buy-In Phase
+Month 1 - Awareness & Buy-In Phase
 - Email announcement: "We're simplifying tools to reduce costs and improve workflow"
 - Include the financial impact: "This saves us $X/month and your time switching between platforms"
 - Present the business case without blame: "As we've grown, we've acquired overlapping tools"
 - Survey teams: "Which tool would you prefer for [category]?" (Make people feel heard)
 - Deadline: Gather feedback from all stakeholders
 
-Month 2: Planning & Training Phase
+Month 2 - Planning & Training Phase
 - Announce the selected tool (reference team feedback: "Based on your input, we're moving to...")
 - Publish detailed migration guides: "How to export data from Tool An and import into Tool B"
 - Schedule team-specific training sessions (20-30 min per team)
@@ -212,47 +212,47 @@ Month 2: Planning & Training Phase
 - Assign a "tool champion" per team (go-to person for questions)
 - Address fears directly: "You won't lose any data. Here's proof."
 
-Month 3: Pilot Phase
+Month 3 - Pilot Phase
 - Chosen team uses new tool exclusively for 2 weeks
 - Regular check-ins: "What's working? What's frustrating?"
 - Quick fixes implemented during pilot
 - Success stories shared publicly: "Look what the marketing team accomplished with the new tool"
 
-Month 4: Rollout Phase
+Month 4 - Rollout Phase
 - Phased migration by team (Monday marketing, Wednesday engineering, Friday ops)
 - Parallel run: Old and new tools operate simultaneously for 1 week
 - Support hotline: Dedicated channel for questions
 - Office hours: Daily 30-min session for tool training and troubleshooting
 
-Month 5: Stabilization & Cleanup Phase
+Month 5 - Stabilization & Cleanup Phase
 - Monitor adoption metrics daily
 - Remove old tool access gradually (30-day notice)
 - Celebrate migration completion
 - Gather feedback: "What worked? What could be better?"
 
-Step 12: Train Staff Template
+Step 12 - Train Staff Template
 
 Create internal documentation that answers common questions:
 
 ```markdown
 [Tool Name] Quick Start Guide
 
-Step 13: For Project Managers
+Step 13 - For Project Managers
 Finding Project Status
-Old way (Trello): Click board → Look for your card
-New way (Linear): Search "my projects" → Click the one you need
-Why this is better: See all projects from one place, not scattered across boards
+Old way (Trello) - Click board → Look for your card
+New way (Linear) - Search "my projects" → Click the one you need
+Why this is better - See all projects from one place, not scattered across boards
 
 Creating Milestones
-Old way: Manually tracking dates in spreadsheet
-New way: Linear milestones → Auto-rollup to team dashboard
-Why this is better: Automatic deadline visibility prevents missed dates
+Old way - Manually tracking dates in spreadsheet
+New way - Linear milestones → Auto-rollup to team dashboard
+Why this is better - Automatic deadline visibility prevents missed dates
 
-Step 14: For Engineers
+Step 14 - For Engineers
 Submitting Code Review
-Old way: Slack link + Trello card update
-New way: GitHub PR links directly to Linear issue
-Why this is better: No duplicating information, change source of truth
+Old way - Slack link + Trello card update
+New way - GitHub PR links directly to Linear issue
+Why this is better - No duplicating information, change source of truth
 
 FAQ
 Q: Where do I find old projects from the legacy tool?
@@ -265,16 +265,16 @@ Q: When does the old tool shut down?
 A: [Date]. You have until then to export personal files.
 ```
 
-Step 15: Handling the Outliers
+Step 15 - Handling the Outliers
 
 Some team members will resist consolidation. Address them directly:
 
-Type 1: "I'm most productive in Tool X"
-Response: "I understand. Most people feel that way about familiar tools. The team benefit outweighs individual preference. "This new tool is missing feature Y"
-Response: "You're right. That feature exists in Linear as [different name]. Let me show you where..."
+Type 1 - "I'm most productive in Tool X"
+Response - "I understand. Most people feel that way about familiar tools. The team benefit outweighs individual preference. "This new tool is missing feature Y"
+Response - "You're right. That feature exists in Linear as [different name]. Let me show you where..."
 
-Type 3: "I'm not changing"
-Response: "I hear your frustration. Post-Consolidation Maintenance
+Type 3 - "I'm not changing"
+Response - "I hear your frustration. Post-Consolidation Maintenance
 
 After consolidation, prevent regression:
 
@@ -296,7 +296,7 @@ Annual assessment:
 - User satisfaction with chosen tools?
 - Any new tools creeping in without approval?
 
-Step 17: Preventing Tool Sprawl: The Governance Model
+Step 17 - Preventing Tool Sprawl: The Governance Model
 
 Once consolidated, prevent sprawl with structured governance:
 
@@ -307,44 +307,44 @@ Authorization levels:
 
 Quarterly review committee:
 Meeting: 2nd Tuesday each quarter, 30 minutes
-Attendees: Finance, IT, one engineer rep, one operations rep
-Review: All software subscriptions, identify overlaps, propose consolidations
+Attendees - Finance, IT, one engineer rep, one operations rep
+Review - All software subscriptions, identify overlaps, propose consolidations
 
 Sunset policy:
 - All new tools get a sunset date 90 days ahead (auto-cancel if not explicitly renewed)
 - Renewal requires recertification: "We still use and value this tool because..."
 - Prevents tools from continuing indefinitely out of habit
 
-Step 18: Consolidation Project Template
+Step 18 - Consolidation Project Template
 
 When you consolidate tools, use this template to track progress:
 
 ```markdown
-Tool Consolidation: Project Management (Trello → Linear)
+Tool Consolidation - Project Management (Trello → Linear)
 
-Step 19: Business Case
+Step 19 - Business Case
 - Current cost: $180/month (3 subscriptions)
 - Projected savings: $120/month
 - Time savings: ~5 hours/week context switching
 
-Step 20: Timeline
+Step 20 - Timeline
 - [ ] Month 1: Evaluate & select (Complete by Jan 15)
 - [ ] Month 2: Pilot with marketing team (Complete by Feb 15)
 - [ ] Month 3: Phased rollout (Complete by Mar 15)
 - [ ] Month 4: Full migration, sunset old tool
 
-Step 21: Success Metrics
+Step 21 - Success Metrics
 - [ ] 95%+ team adoption within 30 days of rollout
 - [ ] 80%+ user satisfaction on tool (surveyed day 30)
 - [ ] $100+ actual monthly savings (achieved by month 4)
 - [ ] Zero data loss during migration
 
-Step 22: Risk Mitigation
+Step 22 - Risk Mitigation
 - Risk: Data loss during migration → Mitigation: Full backup before migration, parallel run
 - Risk: Team resistance → Mitigation: Extensive training, department champions
 - Risk: Hidden dependencies in old tool → Mitigation: Audit phase, export everything
 
-Step 23: Stakeholders
+Step 23 - Stakeholders
 - Executive sponsor: [Name] - Ensures leadership support
 - Project lead: [Name] - Coordinates timeline and teams
 - IT lead: [Name] - Handles technical implementation

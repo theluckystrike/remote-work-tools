@@ -44,11 +44,11 @@ Successful referral programs use tiered bonus structures based on role difficult
 Standard Bonus Structure Template
 
 ```
-Junior/Entry Level: $1,500 - $2,500
-Mid-Level Engineer: $3,000 - $5,000
-Senior/Staff Engineer: $5,000 - $8,000
-Engineering Manager/Director: $8,000 - $12,000
-Executive/Principal: $15,000 - $25,000
+Junior/Entry Level - $1,500 - $2,500
+Mid-Level Engineer - $3,000 - $5,000
+Senior/Staff Engineer - $5,000 - $8,000
+Engineering Manager/Director - $8,000 - $12,000
+Executive/Principal - $15,000 - $25,000
 ```
 
 For fully distributed teams, apply a multiplier based on candidate location:
@@ -129,7 +129,7 @@ Distributed teams need asynchronous-friendly communication. Use these templates 
 Program Announcement Template
 
 ```
-Subject: Updated Referral Program - New Bonus Structure
+Subject - Updated Referral Program - New Bonus Structure
 
 Hey team,
 
@@ -152,7 +152,7 @@ Referral Status Update Template
 Keep referrers informed with automated or manual updates:
 
 ```
-Subject: Referral Update - [Candidate Name] for [Role]
+Subject - Referral Update - [Candidate Name] for [Role]
 
 Hi [Employee Name],
 
@@ -181,13 +181,13 @@ Common Pitfalls to Avoid
 
 Several mistakes undermine referral programs in distributed companies:
 
-Delayed payments: Process bonuses within 30 days of triggering milestones. Late payments damage trust and reduce future participation.
+Delayed payments - Process bonuses within 30 days of triggering milestones. Late payments damage trust and reduce future participation.
 
-Poor communication: Remote employees easily miss program updates. Use multiple channels (Slack, email, team meetings) and repeat key information quarterly.
+Poor communication - Remote employees easily miss program updates. Use multiple channels (Slack, email, team meetings) and repeat key information quarterly.
 
-Inconsistent rules: Apply eligibility criteria uniformly. Exceptions create perception of favoritism and resentment.
+Inconsistent rules - Apply eligibility criteria uniformly. Exceptions create perception of favoritism and resentment.
 
-Missing documentation: Maintain a public wiki with complete program details. When questions arise, point people to the source of truth.
+Missing documentation - Maintain a public wiki with complete program details. When questions arise, point people to the source of truth.
 
 Implementation Checklist
 
@@ -206,7 +206,7 @@ Use this checklist when launching or updating your referral program:
 
 Real Results From Distributed Companies
 
-Case Study 1: 35-person SaaS company
+Case Study 1 - 35-person SaaS company
 - Implemented referral program with $3-5K tiers
 - Participation: 14 of 35 employees active (40%)
 - Referral hire rate: 25% of new hires in first year
@@ -214,14 +214,14 @@ Case Study 1: 35-person SaaS company
 - Retention of referred employees: 92% at 2 years (vs. 78% average)
 - ROI positive; program paid for itself in retention value
 
-Case Study 2: 120-person tech company
+Case Study 2 - 120-person tech company
 - Tiered program with location multipliers
 - Participation: 18% of employees (low participation, high skepticism)
 - Improved participation to 35% after publishing 2-3 success stories
 - Average referral bonus paid: $4,200
 - Communication matters more than program design
 
-Case Study 3: Early-stage startup (15 people)
+Case Study 3 - Early-stage startup (15 people)
 - Simple $2-3K flat bonus (no tiers)
 - Participation: 80% of team
 - 40% of year-one hires from referrals
@@ -231,16 +231,16 @@ Case Study 3: Early-stage startup (15 people)
 Common Objections and Rebuttals
 
 "Referrals create bias hiring"
-Address: Referral stage is just pipeline filling, not hiring. Use same interview and evaluation process for referred and non-referred candidates. Actually, better interview process catches bias more than avoiding referrals.
+Address - Referral stage is just pipeline filling, not hiring. Use same interview and evaluation process for referred and non-referred candidates. Actually, better interview process catches bias more than avoiding referrals.
 
 "We'll hire clones of ourselves"
-Address: Partially true, but referred employees know your culture upfront. They self-select for fit better than cold applicants. The issue isn't referrals; it's not enough diversity in your current team.
+Address - Partially true, but referred employees know your culture upfront. They self-select for fit better than cold applicants. The issue isn't referrals; it's not enough diversity in your current team.
 
 "Employees will pester friends"
-Address: Set a "soft touch" rule, employees share the program but friends opt-in. No direct recruiting. Let qualified friends self-apply.
+Address - Set a "soft touch" rule, employees share the program but friends opt-in. No direct recruiting. Let qualified friends self-apply.
 
 "Cost is too high for 20-person company"
-Address: You can do it cheaper. Flat $1.5K bonus or revenue-share (pay $500 now, $500 after 6 months). Reduces upfront risk.
+Address - You can do it cheaper. Flat $1.5K bonus or revenue-share (pay $500 now, $500 after 6 months). Reduces upfront risk.
 
 Bonus Payout Timing
 
@@ -301,13 +301,13 @@ Consult an accountant if you're unsure. Tax treatment varies by jurisdiction.
 
 Optimizing Your Program as You Grow
 
-Year 1: Simple flat bonus ($2-3K). Goal is awareness and trial. Don't optimize yet.
+Year 1 - Simple flat bonus ($2-3K). Goal is awareness and trial. Don't optimize yet.
 
-Year 2: Data-driven tiers. Track which roles get referrals, which don't. Adjust bonuses based on actual hiring difficulty.
+Year 2 - Data-driven tiers. Track which roles get referrals, which don't. Adjust bonuses based on actual hiring difficulty.
 
-Year 3: Location multipliers if you're global. Referral velocity tracking (how many referrals per month).
+Year 3 - Location multipliers if you're global. Referral velocity tracking (how many referrals per month).
 
-Year 4+: Sophisticated analytics. Retention rates by hire source. Cost per hire comparison (referral vs. recruiter vs. other).
+Year 4+ - Sophisticated analytics. Retention rates by hire source. Cost per hire comparison (referral vs. recruiter vs. other).
 
 As you scale, invest in better tracking. Small improvements (1% increase in referral rate) at 100 hires/year = huge impact.
 
@@ -315,7 +315,7 @@ Communicating Your Program Effectively
 
 Launch communication template:
 ```
-Subject: New Employee Referral Program - Earn $X-$Y Per Hire
+Subject - New Employee Referral Program - Earn $X-$Y Per Hire
 
 We're doubling down on referrals. Here's how it works:
 
@@ -340,11 +340,11 @@ For distributed companies:
 
 Currency conversion: If base bonus is in USD, convert to local currency fairly. A $3K bonus in SF is meaningful. In Sofia, make it $4,500 equivalent or the program feels stingy.
 
-Tax treatment varies wildly: Some countries tax referral bonuses differently. Chile, Portugal, and UAE have different treatment. Consult local accountants.
+Tax treatment varies wildly - Some countries tax referral bonuses differently. Chile, Portugal, and UAE have different treatment. Consult local accountants.
 
-Payment methods: Employees in some regions can't receive USD transfers. Offer local payment methods or equivalent value in crypto/stocks.
+Payment methods - Employees in some regions can't receive USD transfers. Offer local payment methods or equivalent value in crypto/stocks.
 
-Labor law compliance: Some countries restrict bonus structures or require referral programs to be documented in employment contracts.
+Labor law compliance - Some countries restrict bonus structures or require referral programs to be documented in employment contracts.
 
 For companies with employees in 5+ countries, consult an international tax firm ($500-1K cost) to ensure compliance.
 ---

@@ -27,15 +27,15 @@ Table of Contents
 - [Real-World Examples](#real-world-examples)
 - [Tracking Your Effective Rate](#tracking-your-effective-rate)
 - [Pricing Decision Framework](#pricing-decision-framework)
-- [Question 1: Can you define deliverables clearly?](#question-1-can-you-define-deliverables-clearly)
-- [Question 2: Have you done similar work before?](#question-2-have-you-done-similar-work-before)
-- [Question 3: How confident is your estimate?](#question-3-how-confident-is-your-estimate)
-- [Question 4: Is the client likely to request changes?](#question-4-is-the-client-likely-to-request-changes)
+- [Question 1 - Can you define deliverables clearly?](#question-1-can-you-define-deliverables-clearly)
+- [Question 2 - Have you done similar work before?](#question-2-have-you-done-similar-work-before)
+- [Question 3 - How confident is your estimate?](#question-3-how-confident-is-your-estimate)
+- [Question 4 - Is the client likely to request changes?](#question-4-is-the-client-likely-to-request-changes)
 - [Recommendation](#recommendation)
 - [Contract Language for Each Model](#contract-language-for-each-model)
 - [Hourly Rate Agreement](#hourly-rate-agreement)
 - [Fixed Project Fee Agreement](#fixed-project-fee-agreement)
-- [Warning Signs: When Your Pricing Model Is Wrong](#warning-signs-when-your-pricing-model-is-wrong)
+- [Warning Signs - When Your Pricing Model Is Wrong](#warning-signs-when-your-pricing-model-is-wrong)
 - [Hybrid Pricing in Practice](#hybrid-pricing-in-practice)
 - [Hybrid Pricing Portfolio Example](#hybrid-pricing-portfolio-example)
 - [Raising Your Rates Without Losing Clients](#raising-your-rates-without-losing-clients)
@@ -163,14 +163,14 @@ A retainer model has the client pay monthly for a set of ongoing services, provi
 
 Real-World Examples
 
-Scenario 1: Website Maintenance Contract
+Scenario 1 - Website Maintenance Contract
 
 - Client needs 5-15 hours/month of ongoing updates and bug fixes
 - Hourly choice makes sense. Work volume varies unpredictably.
 - Quote $100/hour with monthly cap of $1,500
 - Client budgets $1,000-1,500/month; you get predictable income
 
-Scenario 2: Mobile App MVP
+Scenario 2 - Mobile App MVP
 
 - Client wants a defined feature set: user auth, CRUD operations, push notifications
 - Project choice makes sense. Scope is clear, timeline is defined.
@@ -178,7 +178,7 @@ Scenario 2: Mobile App MVP
 - Apply 25% risk multiplier → $15,000 final quote
 - If you complete in 100 hours, you earn $150/hour effective
 
-Scenario 3: Open Source Contribution Work
+Scenario 3 - Open Source Contribution Work
 
 - Client wants you to contribute to their internal codebase
 - Hybrid approach works. Set a monthly retainer for "on-call" availability plus hourly for actual feature work.
@@ -208,12 +208,12 @@ console.log(`\nAverage effective rate: $${totalRate.toFixed(2)}/hour`);
 
 Output:
 ```
-Client A: $100/hour (45h @ $4500)
-Client B: $120/hour (30h @ $3600)
-Client C: $75/hour (80h @ $6000)
-Client D: $125/hour (20h @ $2500)
+Client A - $100/hour (45h @ $4500)
+Client B - $120/hour (30h @ $3600)
+Client C - $75/hour (80h @ $6000)
+Client D - $125/hour (20h @ $2500)
 
-Average effective rate: $96.67/hour
+Average effective rate - $96.67/hour
 ```
 
 Client C reveals a problem, you're earning well below your target. Either increase future quotes for similar work or improve your estimation skills.
@@ -225,20 +225,20 @@ Use this framework to decide pricing for each opportunity:
 ```markdown
 Pricing Decision Tree
 
-Question 1: Can you define deliverables clearly?
+Question 1 - Can you define deliverables clearly?
 - Yes → Continue to Q2
 - No → Use hourly pricing
 
-Question 2: Have you done similar work before?
+Question 2 - Have you done similar work before?
 - Yes (multiple times) → Continue to Q3
 - No (first time) → Use hourly pricing
 
-Question 3: How confident is your estimate?
+Question 3 - How confident is your estimate?
 - Very confident (±20%) → Continue to Q4
 - Somewhat confident (±50%) → Use time-and-materials
 - Uncertain (±100%+) → Use hourly pricing
 
-Question 4: Is the client likely to request changes?
+Question 4 - Is the client likely to request changes?
 - Stable requirements → Use project-based
 - Evolving requirements → Use hourly or time-and-materials
 
@@ -257,10 +257,10 @@ Hourly Contract Language
 ```markdown
 Hourly Rate Agreement
 
-Rate: $[X]/hour
-Minimum billing: 0.25 hours per work session
-Time tracking: Toggl, Harvest, or [tool name]
-Invoice frequency: Weekly/Bi-weekly
+Rate - $[X]/hour
+Minimum billing - 0.25 hours per work session
+Time tracking - Toggl, Harvest, or [tool name]
+Invoice frequency - Weekly/Bi-weekly
 
 What's included in hours:
 - Development and implementation
@@ -287,7 +287,7 @@ Project-Based Contract Language
 ```markdown
 Fixed Project Fee Agreement
 
-Total Project Fee: $[X]
+Total Project Fee - $[X]
 Payment Schedule:
 - 30% upon signing
 - 40% upon delivery to staging
@@ -313,7 +313,7 @@ and timeline adjusted mutually.
 
 Project contracts must be specific enough to prevent disputes.
 
-Warning Signs: When Your Pricing Model Is Wrong
+Warning Signs - When Your Pricing Model Is Wrong
 
 | Warning Sign | Likely Problem | Solution |
 |-------------|-----------------|-----------|
@@ -332,19 +332,19 @@ Many successful freelancers use multiple models simultaneously:
 ```markdown
 Hybrid Pricing Portfolio Example
 
-Client A: Retainer ($4,000/month)
+Client A - Retainer ($4,000/month)
 - 80 hours guaranteed monthly capacity
 - Additional hours at $60/hour
 - 3-month minimum commitment
 - Works well for ongoing maintenance
 
-Client B: Project-based ($25,000)
+Client B - Project-based ($25,000)
 - Fixed deliverables, clear scope
 - 5 milestones with payments tied to completion
 - Estimated 200 hours
 - High-value project, predictable revenue
 
-Client C: Hourly ($100/hour)
+Client C - Hourly ($100/hour)
 - New client with undefined scope
 - Billed weekly
 - Trial period to assess if project-based makes sense later
@@ -366,17 +366,17 @@ Rate increases are normal and necessary. Here's how to execute them:
 ```markdown
 Rate Increase Process
 
-Phase 1: Increase for New Clients (Start Here)
+Phase 1 - Increase for New Clients (Start Here)
 - Raise rate for new clients immediately
 - Existing clients keep old rate temporarily
 - Signal to existing clients: "New clients pay X, your rate unchanged"
 
-Phase 2: Strategic Increases for Existing Clients (6 months later)
+Phase 2 - Strategic Increases for Existing Clients (6 months later)
 - For happy, long-term clients: "I'm increasing rates to $[X] next month"
 - Offer: "If you commit to 6-month retainer, we can lock in $[Y]"
 - Most good clients will accept or renew at old rate through contract end
 
-Phase 3: Clean Break
+Phase 3 - Clean Break
 - Let old contracts expire naturally
 - Don't renew at old rates (creates bad anchoring)
 - "My rate is now $[X]; I can offer 10% discount for 6-month commitment"
@@ -384,7 +384,7 @@ Phase 3: Clean Break
 Timeline
 - Increase new client rate every 12 months minimum
 - Increase existing client rates every 18-24 months
-- Track: New client rate vs. existing client rate should converge
+- Track - New client rate vs. existing client rate should converge
 ```
 
 Gradual increases prevent shocking clients and losing good relationships.
@@ -397,7 +397,7 @@ The most successful freelancers aren't dogmatic about either model. They analyze
 
 Start with hourly if you're uncertain. Build your estimating skills over time. Then gradually shift to project-based pricing where it makes sense. Your rates will increase as your portfolio demonstrates capability, and your effective hourly rate will reflect that growth.
 
-Remember: the goal isn't to find the "right" pricing model universally. The goal is to price work in a way that:
+Remember - the goal isn't to find the "right" pricing model universally. The goal is to price work in a way that:
 1. Generates sustainable income for your business
 2. Attracts the kinds of clients you want to work with
 3. Allows you to deliver quality without burning out

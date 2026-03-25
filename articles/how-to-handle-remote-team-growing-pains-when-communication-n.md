@@ -47,13 +47,13 @@ Recognizing When Your Communication Norms Are Breaking
 
 The symptoms of communication breakdown are often subtle at first, then suddenly overwhelming. Watch for these indicators:
 
-Response time inflation: What once was "I'll reply in an hour" becomes "I'll get to this tomorrow." Threads that used to resolve in hours stretch across days.
+Response time inflation - What once was "I'll reply in an hour" becomes "I'll get to this tomorrow." Threads that used to resolve in hours stretch across days.
 
-Channel abandonment: Developers stop checking team channels because the signal-to-noise ratio has collapsed. Important announcements get lost in the noise.
+Channel abandonment - Developers stop checking team channels because the signal-to-noise ratio has collapsed. Important announcements get lost in the noise.
 
-Meeting proliferation: Without effective async communication, teams compensate by scheduling more synchronous meetings. Your calendar becomes the victim.
+Meeting proliferation - Without effective async communication, teams compensate by scheduling more synchronous meetings. Your calendar becomes the victim.
 
-Knowledge silos emerge: As teams grow, information that used to flow freely now gets trapped in private conversations between subsets of team members.
+Knowledge silos emerge - As teams grow, information that used to flow freely now gets trapped in private conversations between subsets of team members.
 
 When these symptoms appear, your communication norms have stopped working at scale. It's time to rebuild them intentionally.
 
@@ -196,7 +196,7 @@ Decision Log Template
 
 [Date] - [Short Title]
 
-Status: [Proposed/Accepted/Deprecated]
+Status - [Proposed/Accepted/Deprecated]
 
 Context
 Background on why this decision was needed

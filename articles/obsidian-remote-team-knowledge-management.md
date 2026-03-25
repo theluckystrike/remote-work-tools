@@ -46,15 +46,15 @@ Table of Contents
 - [Key Decisions](#key-decisions)
 - [Reference](#reference)
 - [Onboarding New Team Members](#onboarding-new-team-members)
-- [First: Read These](#first-read-these)
+- [First - Read These](#first-read-these)
 - [Your First Week](#your-first-week)
 - [Where Things Live](#where-things-live)
 - [How to Contribute](#how-to-contribute)
 - [Conflict Resolution with Git](#conflict-resolution-with-git)
-- [Tool Comparison: Obsidian vs. Alternatives for Team Knowledge Management](#tool-comparison-obsidian-vs-alternatives-for-team-knowledge-management)
+- [Tool Comparison - Obsidian vs. Alternatives for Team Knowledge Management](#tool-comparison-obsidian-vs-alternatives-for-team-knowledge-management)
 - [Related Reading](#related-reading)
 
-This guide covers: shared vault setup, folder conventions for teams, note templates, linking strategy, and publishing internal docs.
+This guide covers - shared vault setup, folder conventions for teams, note templates, linking strategy, and publishing internal docs.
 
 Why Obsidian for a Team Vault
 
@@ -64,13 +64,13 @@ The case for Obsidian over a SaaS wiki:
 - Backlinks and graph view surface connections between notes that SaaS tools bury in folders
 - Works offline. remote workers in low-connectivity situations can still read and write
 - No per-seat pricing. one Obsidian Sync subscription or a free Git sync covers the whole team
-- Plugin ecosystem. Dataview, Templater, Tasks, and Excalidraw extend functionality without vendor lock-in
+- Plugin environment. Dataview, Templater, Tasks, and Excalidraw extend functionality without vendor lock-in
 
-The trade-off: Obsidian requires more upfront configuration and more team discipline than a hosted wiki.
+The trade-off - Obsidian requires more upfront configuration and more team discipline than a hosted wiki.
 
 Vault Sync Options
 
-Option 1: Git Sync (Free)
+Option 1 - Git Sync (Free)
 
 ```bash
 Initial setup. one person creates the vault
@@ -108,7 +108,7 @@ Each team member clones the vault and installs the Obsidian Git plugin (communit
 }
 ```
 
-Option 2: Obsidian Sync ($8/mo per user)
+Option 2 - Obsidian Sync ($8/mo per user)
 
 Obsidian Sync handles real-time collaboration and version history without Git. It end-to-end encrypts the vault. For non-technical team members (design, marketing), this is easier than Git.
 
@@ -171,7 +171,7 @@ status: proposed
 deciders: []
 ---
 
-ADR: <% tp.file.title %>
+ADR - <% tp.file.title %>
 
 Status
 
@@ -239,13 +239,13 @@ After completing this runbook, follow [[deploy-rollback-procedure]].
 Name files consistently so links work across notes:
 
 ```
-People notes: firstname-lastname.md
+People notes - firstname-lastname.md
 jane-smith.md
 
-Projects: project name kebab-case
+Projects - project name kebab-case
 project-alpha.md
 
-ADRs: numbered
+ADRs - numbered
 ADR-012-database-choice.md
 ADR-013-auth-provider.md
 ```
@@ -321,7 +321,7 @@ The graph view becomes genuinely useful once the vault exceeds 200 notes. Filter
 Use the Map of Content (MOC) pattern for high-traffic topics. An MOC is a plain note that manually curates links to related notes. think of it as a hand-authored index page:
 
 ```markdown
-MOC: Infrastructure
+MOC - Infrastructure
 
 Active Runbooks
 - [[kubernetes-cluster-scale]]
@@ -348,7 +348,7 @@ Start Here. New Team Member Guide
 
 Welcome. This vault is the team's primary knowledge base.
 
-First: Read These
+First - Read These
 1. [[team-working-agreements]]
 2. [[communication-conventions]]
 3. [[tool-access-request-process]]
@@ -391,15 +391,15 @@ git commit -m "resolve: ADR-012 date conflict"
 
 The Obsidian Git plugin's `sync` command runs `pull --rebase` then `push`. Most single-note edits merge cleanly without conflicts.
 
-Tool Comparison: Obsidian vs. Alternatives for Team Knowledge Management
+Tool Comparison - Obsidian vs. Alternatives for Team Knowledge Management
 
 | Feature | Obsidian (Git sync) | Notion | Confluence | Logseq |
 |---|---|---|---|---|
 | File format | Plain Markdown | Proprietary | Proprietary | Plain Markdown |
 | Version control | Git native | Limited history | Page history | Git native |
 | Offline access | Full | Limited | Limited | Full |
-| Per-seat cost | $0 (Sync: $8/mo) | $10-18/mo | $5.75-11/mo | $0-8/mo |
-| Plugin ecosystem | 1,500+ community | Limited | Marketplace | Growing |
+| Per-seat cost | $0 (Sync - $8/mo) | $10-18/mo | $5.75-11/mo | $0-8/mo |
+| Plugin environment | 1,500+ community | Limited | Marketplace | Growing |
 | Graph view | Yes | No | No | Yes |
 | API / scripting | Dataview + JS | Yes | REST API | Clojure queries |
 | Learning curve | Medium | Low | Medium | Medium |

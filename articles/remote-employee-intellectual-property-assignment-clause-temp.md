@@ -28,15 +28,15 @@ Core Components of an IP Assignment Clause
 
 An effective IP assignment clause for remote employees must address several key elements:
 
-1. Scope of Assignment: Define exactly what intellectual property is covered, inventions, code, designs, documentation, trade secrets, and derivative works.
+1. Scope of Assignment - Define exactly what intellectual property is covered, inventions, code, designs, documentation, trade secrets, and derivative works.
 
-2. Timing: Specify when ownership transfers occur, typically at the moment of creation or upon receipt of consideration.
+2. Timing - Specify when ownership transfers occur, typically at the moment of creation or upon receipt of consideration.
 
-3. Jurisdiction: Establish which governing law applies, especially critical for distributed teams.
+3. Jurisdiction - Establish which governing law applies, especially critical for distributed teams.
 
-4. Moral Rights Waiver: Address the author's right to attribution, particularly relevant in European jurisdictions.
+4. Moral Rights Waiver - Address the author's right to attribution, particularly relevant in European jurisdictions.
 
-5. Prior Inventions: Exclude any IP created before employment begins.
+5. Prior Inventions - Exclude any IP created before employment begins.
 
 Template Clause for Remote Employees
 
@@ -177,25 +177,25 @@ Jurisdiction-Specific Considerations
 
 Different regions require adjustments to your standard clause:
 
-United States: Most states follow "at-will" employment principles. Ensure the clause clearly states that employment consideration includes the promise of IP assignment. California specifically requires written acknowledgment.
+United States - Most states follow "at-will" employment principles. Ensure the clause clearly states that employment consideration includes the promise of IP assignment. California specifically requires written acknowledgment.
 
-European Union: Moral rights under the Berne Convention cannot be fully waived. Adjust clauses to include a limited license rather than full assignment, and be aware of database rights.
+European Union - Moral rights under the Berne Convention cannot be fully waived. Adjust clauses to include a limited license rather than full assignment, and be aware of database rights.
 
-Germany: Works councils (Betriebsräte) have co-determination rights over IP arrangements. You may need a collective agreement or works council approval.
+Germany - Works councils (Betriebsräte) have co-determination rights over IP arrangements. You may need a collective agreement or works council approval.
 
-Brazil: Labor law requires IP clauses to be explicitly included in employment contracts. The CLT (Consolidação das Leis do Trabalho) has specific provisions about employee inventions.
+Brazil - Labor law requires IP clauses to be explicitly included in employment contracts. The CLT (Consolidação das Leis do Trabalho) has specific provisions about employee inventions.
 
 Common Pitfalls to Avoid
 
-1. Vague Language: Avoid phrases like "any work product." Specify exactly what's covered.
+1. Vague Language - Avoid phrases like "any work product." Specify exactly what's covered.
 
-2. Missing Prior Inventions Exclusion: Failing to list prior inventions can lead to disputes over pre-existing IP.
+2. Missing Prior Inventions Exclusion - Failing to list prior inventions can lead to disputes over pre-existing IP.
 
-3. Ignoring Local Requirements: An US-centric clause may be unenforceable in other jurisdictions.
+3. Ignoring Local Requirements - An US-centric clause may be unenforceable in other jurisdictions.
 
-4. No Disclosure Process: Employees must know how and when to disclose inventions.
+4. No Disclosure Process - Employees must know how and when to disclose inventions.
 
-5. Forgetting Offboarding: Ensure IP assignment survives termination and includes transition obligations.
+5. Forgetting Offboarding - Ensure IP assignment survives termination and includes transition obligations.
 
 Best Practices for Technical Teams
 

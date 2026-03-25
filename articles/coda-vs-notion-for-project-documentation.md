@@ -89,7 +89,7 @@ const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/pull
 // Display directly in your documentation doc
 ```
 
-A practical comparison: Notion's API excels at pushing external data into documentation, syncing status fields, updating changelogs from CI/CD, creating incident pages from PagerDuty alerts. Coda's packs excel at surfacing live external data inside a document, embedding a live GitHub PR list next to your release notes, or showing current Jira ticket status alongside your feature spec.
+A practical comparison - Notion's API excels at pushing external data into documentation, syncing status fields, updating changelogs from CI/CD, creating incident pages from PagerDuty alerts. Coda's packs excel at surfacing live external data inside a document, embedding a live GitHub PR list next to your release notes, or showing current Jira ticket status alongside your feature spec.
 
 Neither platform natively supports webhook-triggered documentation updates without middleware. Both integrate cleanly with Zapier and Make, but Coda's packs often eliminate the need for a middleware layer entirely for common developer tools.
 
@@ -162,8 +162,8 @@ Ideal for:
 - Engineering wikis and onboarding
 - Status pages for project tracking
 
-Setup time: 2-4 weeks to establish templates, 1-2 days per new doc
-Best integration: GitHub (wiki replacement), Slack (notifications)
+Setup time - 2-4 weeks to establish templates, 1-2 days per new doc
+Best integration - GitHub (wiki replacement), Slack (notifications)
 
 Example team:
 - 4 engineers, 1 product manager
@@ -181,8 +181,8 @@ Ideal for:
 - Feature flag documentation linked to deployment
 - Incident response playbooks with current status
 
-Setup time: 3-6 weeks for complex formula setup, formula learning curve
-Best integration: GitHub (version sync), Slack (interactive dashboards)
+Setup time - 3-6 weeks for complex formula setup, formula learning curve
+Best integration - GitHub (version sync), Slack (interactive dashboards)
 
 Example team:
 - 3-4 engineers focused on backend/infrastructure
@@ -213,11 +213,11 @@ Migration Considerations
 
 Teams switching between these platforms, or evaluating whether to migrate existing documentation, face real transition costs.
 
-Migrating from Notion to Coda: Notion exports to Markdown, which Coda can import as basic pages. Database structure and relations do not migrate automatically. Expect to rebuild filter logic and relations from scratch. For a 100-page wiki, budget 2-4 weeks of part-time migration work.
+Migrating from Notion to Coda - Notion exports to Markdown, which Coda can import as basic pages. Database structure and relations do not migrate automatically. Expect to rebuild filter logic and relations from scratch. For a 100-page wiki, budget 2-4 weeks of part-time migration work.
 
-Migrating from Coda to Notion: Coda exports tables as CSV and documents as PDF or HTML. Neither preserves interactive elements or formula logic. If your Coda docs rely heavily on dynamic content, you're effectively starting over rather than migrating.
+Migrating from Coda to Notion - Coda exports tables as CSV and documents as PDF or HTML. Neither preserves interactive elements or formula logic. If your Coda docs rely heavily on dynamic content, you're effectively starting over rather than migrating.
 
-Starting fresh: If your team has no existing documentation system, both platforms benefit from an upfront information architecture exercise. Define your page hierarchy, naming conventions, and ownership model before creating content. Teams that skip this step, on either platform, end up with documentation sprawl within 6-12 months.
+Starting fresh - If your team has no existing documentation system, both platforms benefit from an upfront information architecture exercise. Define your page hierarchy, naming conventions, and ownership model before creating content. Teams that skip this step, on either platform, end up with documentation sprawl within 6-12 months.
 
 The best choice depends on your team's workflow maturity. Teams early in their documentation journey often prefer Notion's simplicity. Teams with established practices who need dynamic, interconnected docs find Coda's flexibility advantageous.
 

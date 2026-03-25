@@ -76,7 +76,7 @@ Raw microphone signals require processing before they sound professional. Digita
 
 Software-Based DSP
 
-For developers comfortable with command-line tools, the open-source Pulse Audio ecosystem on Linux provides flexible audio routing and processing:
+For developers comfortable with command-line tools, the open-source Pulse Audio environment on Linux provides flexible audio routing and processing:
 
 ```bash
 Check available audio sinks and sources
@@ -183,9 +183,9 @@ Equipment list:
 - Audio interface: None needed (USB microphone connects directly)
 - Acoustic treatment: 2-3 panels on side walls, 1 bass trap in corner
 
-Setup time: 2-3 hours
-Cost: $500-600 total
-Audio quality: Excellent for the room size
+Setup time - 2-3 hours
+Cost - $500-600 total
+Audio quality - Excellent for the room size
 
 Medium Rooms (8-20 people, 400 sq ft):
 
@@ -195,9 +195,9 @@ Equipment list:
 - Audio processor: Dante interface for signal routing ($500-1,000)
 - Acoustic treatment: Panel coverage on 60% of wall surface, bass traps in corners
 
-Setup time: 8-16 hours (may require professional installation)
-Cost: $3,500-6,500 total
-Audio quality: Professional grade
+Setup time - 8-16 hours (may require professional installation)
+Cost - $3,500-6,500 total
+Audio quality - Professional grade
 
 Large Rooms (20+ people, 600+ sq ft):
 
@@ -207,16 +207,16 @@ Equipment list:
 - Audio processor: Enterprise DSP system (QSC, Biamp, Dante) ($2,000-6,000)
 - Acoustic treatment: Professional acoustic design ($5,000-20,000)
 
-Setup time: 40+ hours (requires professional design and installation)
-Cost: $12,000-40,000+ total
-Audio quality: Studio-grade
+Setup time - 40+ hours (requires professional design and installation)
+Cost - $12,000-40,000+ total
+Audio quality - Studio-grade
 
-Budget tip: For larger rollouts, engage an AV integration company to design the system. The upfront consulting cost ($1,000-3,000) pays for itself through optimized equipment selection and proper installation.
+Budget tip - For larger rollouts, engage an AV integration company to design the system. The upfront consulting cost ($1,000-3,000) pays for itself through optimized equipment selection and proper installation.
 
 Troubleshooting Common Audio Issues
 
-Problem: Echo during calls
-Symptoms: You hear your own voice played back with a delay, or remote participants hear you doubled.
+Problem - Echo during calls
+Symptoms - You hear your own voice played back with a delay, or remote participants hear you doubled.
 
 Solutions (in order of effectiveness):
 1. Separate microphone and speaker physically (place speaker away from microphone)
@@ -225,10 +225,10 @@ Solutions (in order of effectiveness):
 4. Add acoustic absorption near the microphone (foam panel behind speaker)
 5. Use a properly calibrated echo cancellation DSP device
 
-Cause: Usually the microphone picks up audio from the speakers in the room, creating a feedback loop.
+Cause - Usually the microphone picks up audio from the speakers in the room, creating a feedback loop.
 
-Problem: Distant participants sound very quiet
-Symptoms: Remote participants must turn their volume to maximum and still can barely hear in-room speakers.
+Problem - Distant participants sound very quiet
+Symptoms - Remote participants must turn their volume to maximum and still can barely hear in-room speakers.
 
 Solutions:
 1. Check speaker placement, ensure speakers face the room, not a wall
@@ -237,10 +237,10 @@ Solutions:
 4. Verify microphone gain is set appropriately (input levels 0-3dB on a -20 to +20 scale)
 5. If issue persists, check network, bandwidth constraints reduce audio quality
 
-Cause: Usually microphone signal too weak, speaker output path misconfigured, or network congestion.
+Cause - Usually microphone signal too weak, speaker output path misconfigured, or network congestion.
 
-Problem: Background noise overwhelming the meeting
-Symptoms: HVAC hum, computer fan noise, or room ambient noise makes voices hard to understand.
+Problem - Background noise overwhelming the meeting
+Symptoms - HVAC hum, computer fan noise, or room ambient noise makes voices hard to understand.
 
 Solutions:
 1. Move microphone away from noise sources (HVAC vent, server, loud equipment)
@@ -249,10 +249,10 @@ Solutions:
 4. Close doors and windows to reduce external noise
 5. Add absorption panels to reduce reverb that amplifies noise
 
-Cause: Microphone picking up environmental noise at comparable level to speech.
+Cause - Microphone picking up environmental noise at comparable level to speech.
 
-Problem: Voices sound muffled or filtered
-Symptoms: Audio sounds like it's going through a filter, high frequencies are absent, voices lack clarity.
+Problem - Voices sound muffled or filtered
+Symptoms - Audio sounds like it's going through a filter, high frequencies are absent, voices lack clarity.
 
 Solutions:
 1. Check microphone distance, if too far, increase gain and move closer to speakers
@@ -261,14 +261,14 @@ Solutions:
 4. Disable aggressive noise suppression settings (sometimes over-suppress)
 5. Check EQ settings in DSP, if available, boost 2kHz-8kHz range slightly
 
-Cause: Usually microphone placement or aggressive audio processing removing clarity.
+Cause - Usually microphone placement or aggressive audio processing removing clarity.
 
 Documenting Your Audio Setup
 
 Create a setup guide for your conference room team:
 
 ```markdown
-Conference Room A: Audio Setup Guide
+Conference Room A - Audio Setup Guide
 
 Quick Start
 1. Ensure room is free (calendar check)
@@ -278,7 +278,7 @@ Quick Start
 5. Adjust speaker volume with remote: use arrows on wall-mounted control
 
 Audio Control Panel
-Location: Right wall, 3 feet up
+Location - Right wall, 3 feet up
 Buttons:
 - Volume up/down: Adjust speaker volume
 - Mute: Mutes microphone (LED indicator shows status)
@@ -295,9 +295,9 @@ To Report Issues
 - For urgent issues: page the facilities on-call engineer
 
 Preventive Maintenance
-Every Monday: Vacuum under microphone (dust buildup hurts clarity)
-Monthly: Clean speaker cones with damp cloth
-Quarterly: Professional audio technician checks levels and calibration
+Every Monday - Vacuum under microphone (dust buildup hurts clarity)
+Monthly - Clean speaker cones with damp cloth
+Quarterly - Professional audio technician checks levels and calibration
 ```
 
 This documentation prevents common mistakes and speeds up issue resolution.

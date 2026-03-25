@@ -28,7 +28,7 @@ The case for self-hosted artifact storage is straightforward for teams running t
 
 Beyond cost, MinIO solves a few other problems:
 
-- Latency: Artifacts stored in the same data center or VPC as your build runners are retrieved in milliseconds, not hundreds of milliseconds. Fast artifact retrieval keeps CI jobs tight.
+- Latency - Artifacts stored in the same data center or VPC as your build runners are retrieved in milliseconds, not hundreds of milliseconds. Fast artifact retrieval keeps CI jobs tight.
 - Air-gapped environments: Regulated industries and government contractors often cannot push artifacts to public cloud. MinIO runs entirely on-prem.
 - S3-compatible API: Every tool that talks to S3. Terraform, the AWS CLI, boto3, Rclone, Restic. talks to MinIO without code changes. You only change the endpoint URL.
 - Unified storage: One MinIO cluster can hold CI artifacts, Terraform state, ML datasets, database backups, and application uploads. Fewer systems to operate.
@@ -116,7 +116,7 @@ Deploy and verify:
 ```bash
 docker compose up -d
 docker compose logs -f --tail=50 minio1
-Look for: "MinIO Object Storage Server" and "Console:" lines
+Look for - "MinIO Object Storage Server" and "Console:" lines
 ```
 
 ---

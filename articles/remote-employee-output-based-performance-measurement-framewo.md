@@ -23,7 +23,7 @@ Table of Contents
 - [Why Hours-Based Tracking Fails Remote Work](#why-hours-based-tracking-fails-remote-work)
 - [Core Principles of Output-Based Measurement](#core-principles-of-output-based-measurement)
 - [Implementing the Framework](#implementing-the-framework)
-- [Tool Comparison: Output Tracking Platforms for Remote Teams](#tool-comparison-output-tracking-platforms-for-remote-teams)
+- [Tool Comparison - Output Tracking Platforms for Remote Teams](#tool-comparison-output-tracking-platforms-for-remote-teams)
 - [Incorporating Qualitative Signals](#incorporating-qualitative-signals)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 
@@ -41,7 +41,7 @@ This approach respects developer autonomy while maintaining accountability. Engi
 
 Implementing the Framework
 
-Step 1: Define Output Categories
+Step 1 - Define Output Categories
 
 Categorize work into types with distinct measurement approaches. For a typical development team, these categories include:
 
@@ -52,12 +52,12 @@ Categorize work into types with distinct measurement approaches. For a typical d
 
 Each category needs specific metrics your team agrees are meaningful. Avoid gaming, choose metrics that reflect genuine value delivery.
 
-Step 2: Automate Data Collection
+Step 2 - Automate Data Collection
 
 Manual data entry destroys adoption. Integrate measurement into your existing toolchain:
 
 ```python
-Python: Automated sprint velocity tracking from project management API
+Python - Automated sprint velocity tracking from project management API
 import requests
 from datetime import datetime, timedelta
 
@@ -94,7 +94,7 @@ class OutputTracker:
         )
         return dev_response.json()
 
-Usage: Track team velocity over time
+Usage - Track team velocity over time
 tracker = OutputTracker(
     jira_domain="your-company",
     email="admin@company.com",
@@ -109,7 +109,7 @@ for sprint in range(1, 13):
 
 This script pulls completed story points automatically from Jira. No manual entry required. Run it weekly and store results in a time-series database for trend analysis.
 
-Step 3: Set Objective Thresholds
+Step 3 - Set Objective Thresholds
 
 Raw numbers lack context. Establish baseline expectations and track deviation:
 
@@ -158,17 +158,17 @@ const myMetrics = {
 };
 
 console.log(calculatePerformanceIndex(myMetrics));
-// Output: { index: 1.07, rating: 'Exceeds' }
+// Output - { index: 1.07, rating: 'Exceeds' }
 ```
 
 This approach normalizes different contribution types into a comparable score. Adjust weights based on your team's priorities, some quarters might emphasize bug fixes over new features.
 
-Step 4: Regular Review Cycles
+Step 4 - Regular Review Cycles
 
 Monthly or quarterly reviews replace constant monitoring. Focus conversations on patterns, not individual data points:
 
 ```bash
-Bash: Generate monthly performance summary from git logs
+Bash - Generate monthly performance summary from git logs
 #!/bin/bash
 
 DEVELOPER=$1
@@ -202,7 +202,7 @@ echo "Issues: $ISSUES"
 
 Run this script at month-end to generate context for performance discussions. Numbers inform conversation, they do not replace judgment about quality, collaboration, and growth.
 
-Tool Comparison: Output Tracking Platforms for Remote Teams
+Tool Comparison - Output Tracking Platforms for Remote Teams
 
 Several commercial and open-source tools automate parts of this measurement framework. Here is a practical comparison for remote engineering managers:
 
@@ -242,13 +242,13 @@ This structure keeps the performance conversation grounded in evidence rather th
 
 Common Pitfalls to Avoid
 
-Metric obsession: Numbers guide decisions but should not become the goal. A developer shipping fewer PRs with higher quality may outperform one churning through tickets. LinearB's "risk" flag on high-churn PRs is a useful signal, but it needs human interpretation.
+Metric obsession - Numbers guide decisions but should not become the goal. A developer shipping fewer PRs with higher quality may outperform one churning through tickets. LinearB's "risk" flag on high-churn PRs is a useful signal, but it needs human interpretation.
 
-Context-free comparisons: Senior engineers handling complex architecture differ from juniors on routine tasks. Compare similar roles and complexity levels, and segment your dashboards accordingly.
+Context-free comparisons - Senior engineers handling complex architecture differ from juniors on routine tasks. Compare similar roles and complexity levels, and segment your dashboards accordingly.
 
-Ignoring non-code contributions: Documentation, mentoring, and incident response deserve recognition. Build these into your framework. a senior engineer who helps three junior engineers unblock in a sprint has created measurable output even if their own PR count was low.
+Ignoring non-code contributions - Documentation, mentoring, and incident response deserve recognition. Build these into your framework. a senior engineer who helps three junior engineers unblock in a sprint has created measurable output even if their own PR count was low.
 
-Setting static targets: Teams evolve. Review and adjust thresholds quarterly based on historical performance and organizational priorities. A velocity target set in Q1 may be obsolete by Q3 if team size or project complexity changed significantly.
+Setting static targets - Teams evolve. Review and adjust thresholds quarterly based on historical performance and organizational priorities. A velocity target set in Q1 may be obsolete by Q3 if team size or project complexity changed significantly.
 
 Frequently Asked Questions
 

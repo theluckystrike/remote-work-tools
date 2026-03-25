@@ -28,13 +28,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Remote Online Notarization (RON)
+Step 1 - Understand Remote Online Notarization (RON)
 
 Remote Online Notarization allows notaries public to perform notarizations entirely online through secure video conferencing and electronic document management. Unlike traditional notarization, RON creates a complete digital paper trail that includes identity verification, session recordings, and tamper-evident signatures.
 
 Most states in the US now permit RON, though specific requirements vary. Before implementing a remote closing system, verify current regulations in your jurisdiction and ensure your chosen notarization platform maintains compliance with state-specific requirements.
 
-Step 2: Core Components of a Digital Closing System
+Step 2 - Core Components of a Digital Closing System
 
 A functional remote closing system requires several integrated components:
 
@@ -44,7 +44,7 @@ A functional remote closing system requires several integrated components:
 4. Document Management. Stores, organizes, and distributes closing documents securely
 5. Secure Video Conferencing. Enables the required video session between signers and notary
 
-Step 3: Integrate Notarization APIs
+Step 3 - Integrate Notarization APIs
 
 Most production-ready implementations use specialized API services rather than building notarization infrastructure from scratch. Here's how to integrate a typical notarization service:
 
@@ -82,7 +82,7 @@ const createNotarizationSession = async (signers, documents) => {
 
 This API call creates a notarization session with identity verification requirements. The response includes a session ID that coordinates the entire closing workflow.
 
-Step 4: Build the Closing Workflow
+Step 4 - Build the Closing Workflow
 
 A typical real estate closing involves multiple documents requiring signature and notarization. Here's a practical workflow implementation:
 
@@ -123,7 +123,7 @@ def prepare_closing_workflow(closing: ClosingSession):
 
 This workflow ensures documents are processed in the correct order, with notarization sessions reserved only when required.
 
-Step 5: Identity Verification Implementation
+Step 5 - Identity Verification Implementation
 
 Strong identity verification prevents fraud and ensures legal validity. Most RON platforms implement multi-factor verification:
 
@@ -182,7 +182,7 @@ jurisdiction_configs:
 
 This configuration enables your system to automatically apply correct requirements based on property location.
 
-Step 6: Post-Closing Document Handling
+Step 6 - Post-Closing Document Handling
 
 After the closing session completes, proper document handling ensures accessibility and legal preservation:
 
@@ -216,23 +216,23 @@ const finalizeClosing = async (sessionId) => {
 };
 ```
 
-Step 7: Common Implementation Challenges
+Step 7 - Common Implementation Challenges
 
 Several practical issues arise when building remote closing systems:
 
-Browser Compatibility: Ensure your video conferencing integration works across browsers, particularly Safari's stricter security policies. Test thoroughly with the actual notarization platform's supported browsers.
+Browser Compatibility - Ensure your video conferencing integration works across browsers, particularly Safari's stricter security policies. Test thoroughly with the actual notarization platform's supported browsers.
 
-Time Zone Coordination: Closing participants span multiple time zones. Build scheduling that automatically converts to each participant's local time and accounts for notary availability in the property's jurisdiction.
+Time Zone Coordination - Closing participants span multiple time zones. Build scheduling that automatically converts to each participant's local time and accounts for notary availability in the property's jurisdiction.
 
-Document Version Control: Last-minute changes to closing documents require careful handling. Implement version comparison and ensure all signers acknowledge the final version before notarization begins.
+Document Version Control - Last-minute changes to closing documents require careful handling. Implement version comparison and ensure all signers acknowledge the final version before notarization begins.
 
-Internet Connectivity: Video sessions require stable connections. Provide clear bandwidth requirements upfront and have backup communication channels ready.
+Internet Connectivity - Video sessions require stable connections. Provide clear bandwidth requirements upfront and have backup communication channels ready.
 
 Security Considerations
 
 Protecting sensitive real estate data requires attention to several areas:
 
-- Encryption: All documents should encrypt at rest (AES-256) and in transit (TLS 1.3)
+- Encryption - All documents should encrypt at rest (AES-256) and in transit (TLS 1.3)
 - Access Control: Implement role-based permissions limiting document access to necessary parties
 - Audit Logging: Maintain logs of all document access and actions
 - Data Retention: Follow jurisdiction-specific retention requirements, typically 5-10 years for real estate documents

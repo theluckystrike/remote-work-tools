@@ -24,7 +24,7 @@ Table of Contents
 - [Practical Approaches for Global Teams](#practical-approaches-for-global-teams)
 - [Cultural Inclusivity in Celebration Design](#cultural-inclusivity-in-celebration-design)
 - [Technical Tools for Coordination](#technical-tools-for-coordination)
-- [Making It Personal: The Human Element](#making-it-personal-the-human-element)
+- [Making It Personal - The Human Element](#making-it-personal-the-human-element)
 - [Planning Timeline](#planning-timeline)
 
 Understanding the Timezone Challenge
@@ -79,7 +79,7 @@ for slot in slots:
 
 This approach ensures no single region consistently bears the burden of inconvenient hours.
 
-Real-world scenario: A 60-person engineering organization distributed across the US, UK, and India spent three years holding their annual holiday event at 5 PM Eastern, prime time for the US team but 10 PM for UK colleagues and 3:30 AM for India. After implementing a rotating slot model and splitting into regional pods, overall attendance jumped from 52% to 91%, and post-event survey scores improved significantly. The change required no additional budget, just better scheduling discipline.
+Real-world scenario - A 60-person engineering organization distributed across the US, UK, and India spent three years holding their annual holiday event at 5 PM Eastern, prime time for the US team but 10 PM for UK colleagues and 3:30 AM for India. After implementing a rotating slot model and splitting into regional pods, overall attendance jumped from 52% to 91%, and post-event survey scores improved significantly. The change required no additional budget, just better scheduling discipline.
 
 2. Create Regional Celebration Pods
 
@@ -91,15 +91,15 @@ Rather than one large virtual party, create smaller regional groups that celebra
 
 Each pod records a short highlight reel or live streams their celebration to other pods.
 
-Making pods feel connected: Share a single agenda template across all pods so different groups do similar activities, the same trivia questions, the same "year in review" prompts, the same gratitude exercise. When highlights are shared afterward, everyone has a shared reference point even if they attended different sessions.
+Making pods feel connected - Share a single agenda template across all pods so different groups do similar activities, the same trivia questions, the same "year in review" prompts, the same gratitude exercise. When highlights are shared afterward, everyone has a shared reference point even if they attended different sessions.
 
 3. The Timezone-Neutral Activity Framework
 
 Some activities work equally well at any hour:
 
-Asynchronous Gift Exchanges: Use tools like Elfster or DrawNames to organize gift exchanges. Team members ship gifts to each other with enough lead time.
+Asynchronous Gift Exchanges - Use tools like Elfster or DrawNames to organize gift exchanges. Team members ship gifts to each other with enough lead time.
 
-Shared Digital Calendars: Create a collaborative holiday calendar where everyone marks their local celebrations:
+Shared Digital Calendars - Create a collaborative holiday calendar where everyone marks their local celebrations:
 
 ```javascript
 // Add to your team calendar (ics format example)
@@ -118,7 +118,7 @@ DESCRIPTION:All-hands virtual celebration. Recording available afterwards.
 END:VEVENT
 ```
 
-Time-Delayed Toasts: Have each regional pod raise a toast at their local midnight, creating a ripple of celebration across 24 hours.
+Time-Delayed Toasts - Have each regional pod raise a toast at their local midnight, creating a ripple of celebration across 24 hours.
 
 Async celebration ideas that work well across time zones:
 
@@ -146,7 +146,7 @@ Create a shared document acknowledging various celebrations:
 | April | Easter | Global (Christian) |
 | May | Eid al-Fitr | Middle East, Southeast Asia |
 
-Important note: This calendar should be living documentation, not a static list. Ask team members to add their own significant holidays at the start of each year. Some observances, like Diwali, Rosh Hashanah, or Vesak, shift dates annually. Treating this as a team-maintained document rather than an HR-generated checklist signals genuine interest rather than compliance.
+Important note - This calendar should be living documentation, not a static list. Ask team members to add their own significant holidays at the start of each year. Some observances, like Diwali, Rosh Hashanah, or Vesak, shift dates annually. Treating this as a team-maintained document rather than an HR-generated checklist signals genuine interest rather than compliance.
 
 Inclusive Activity Design
 
@@ -171,11 +171,11 @@ Technical Tools for Coordination
 
 Several developer-friendly tools help manage the logistics:
 
-World Time Buddy: Visual timezone overlap calculator for finding optimal meeting times.
+World Time Buddy - Visual timezone overlap calculator for finding optimal meeting times.
 
-When2meet: Heatmap-based tool showing availability across timezones.
+When2meet - Heatmap-based tool showing availability across timezones.
 
-Cronofy or Cal.com: Scheduling APIs that handle timezone complexity programmatically:
+Cronofy or Cal.com - Scheduling APIs that handle timezone complexity programmatically:
 
 ```python
 import cronofy
@@ -197,21 +197,21 @@ def find_optimal_meeting_slots(team_members, duration_minutes=60):
     return available['available_slots']
 ```
 
-Miro or FigJam: Collaborative digital whiteboards for interactive party activities.
+Miro or FigJam - Collaborative digital whiteboards for interactive party activities.
 
-Tooling tip: Avoid adding new tools specifically for holiday events. Use whatever communication and collaboration platforms your team already knows. The friction of learning a new tool kills participation, especially for an optional social event.
+Tooling tip - Avoid adding new tools specifically for holiday events. Use whatever communication and collaboration platforms your team already knows. The friction of learning a new tool kills participation, especially for an optional social event.
 
-Making It Personal: The Human Element
+Making It Personal - The Human Element
 
 Beyond logistics, successful distributed celebrations require genuine connection:
 
-Personalized Care Packages: Ship small packages to each team member with local treats, a handwritten note, and small decorations they can display during calls.
+Personalized Care Packages - Ship small packages to each team member with local treats, a handwritten note, and small decorations they can display during calls.
 
-Virtual Background Competition: Invite team members to create and share holiday-themed virtual backgrounds, then vote on winners.
+Virtual Background Competition - Invite team members to create and share holiday-themed virtual backgrounds, then vote on winners.
 
-Memory Wall: Create a shared digital space (Miro board, Notion page, or shared folder) where team members post photos and videos from their local celebrations.
+Memory Wall - Create a shared digital space (Miro board, Notion page, or shared folder) where team members post photos and videos from their local celebrations.
 
-Dedicated Chat Channel: Create a temporary Slack or Discord channel specifically for holiday sharing, photos, videos, wishes in multiple languages.
+Dedicated Chat Channel - Create a temporary Slack or Discord channel specifically for holiday sharing, photos, videos, wishes in multiple languages.
 
 Budget considerations for distributed teams: Physical care packages are a powerful gesture, but shipping internationally is expensive and complicated by customs regulations. Consider offering team members a stipend (via Deel, Remote, or a simple expense reimbursement) to purchase their own local treats, and host a "show and tell" video call where everyone shares what they chose. This approach is more scalable, more culturally sensitive, and often results in more interesting conversations.
 

@@ -29,7 +29,7 @@ Table of Contents
 - [Implementation Checklist](#implementation-checklist)
 - [Evaluating Focus Pod Vendors](#evaluating-focus-pod-vendors)
 - [Booking System Deep Dive](#booking-system-deep detailed look)
-- [Beyond Pods: Complementary Office Redesign](#beyond-pods-complementary-office-redesign)
+- [Beyond Pods - Complementary Office Redesign](#beyond-pods-complementary-office-redesign)
 - [Training and Adoption](#training-and-adoption)
 - [Measuring Hybrid Office Success](#measuring-hybrid-office-success)
 
@@ -86,7 +86,7 @@ def calculate_pod_requirements(square_footage, team_size, occupancy_rate=0.5):
 5000 sq ft office with 50-person team
 result = calculate_pod_requirements(5000, 50)
 print(result)
-Output: {'estimated_people': 166, 'active_on_given_day': 83,
+Output - {'estimated_people': 166, 'active_on_given_day': 83,
          'recommended_pods': '20 to 27', 'min_pods': 20, 'max_pods': 27}
 ```
 
@@ -173,13 +173,13 @@ Measuring Success
 
 Redesigning an open plan office requires tracking whether the changes achieve their intended goals. Key metrics include:
 
-Pod use rate: Aim for 60-80% average use. Below 40% suggests too many pods or poor placement; above 90% indicates insufficient capacity.
+Pod use rate - Aim for 60-80% average use. Below 40% suggests too many pods or poor placement; above 90% indicates insufficient capacity.
 
-Employee satisfaction scores: Survey team members quarterly on their ability to concentrate at the office. Compare scores before and after pod installation.
+Employee satisfaction scores - Survey team members quarterly on their ability to concentrate at the office. Compare scores before and after pod installation.
 
-Meeting room conversion: If you're converting traditional meeting rooms to focus pods, track whether meeting frequency decreases while individual productivity increases.
+Meeting room conversion - If you're converting traditional meeting rooms to focus pods, track whether meeting frequency decreases while individual productivity increases.
 
-Hybrid attendance correlation: The ultimate test, do employees come to the office more when focus pods are available? This indicates the pods provide genuine value versus desk space.
+Hybrid attendance correlation - The ultimate test, do employees come to the office more when focus pods are available? This indicates the pods provide genuine value versus desk space.
 
 Implementation Checklist
 
@@ -199,13 +199,13 @@ Evaluating Focus Pod Vendors
 
 Choosing the right pods requires evaluating multiple vendors on key dimensions:
 
-Acoustic performance: Request acoustic test data (measured in dB reduction) from vendors. Any pod claiming more than 30 dB reduction should have third-party verification. Acoustic Laboratories or certified acousticians can verify claims.
+Acoustic performance - Request acoustic test data (measured in dB reduction) from vendors. Any pod claiming more than 30 dB reduction should have third-party verification. Acoustic Laboratories or certified acousticians can verify claims.
 
-Ventilation standards: Look for pods with independent HVAC systems or those that integrate with your building's systems. Air quality standards (CO₂ levels, circulation rates) matter as much as temperature control. Pods without adequate ventilation become unusable within minutes.
+Ventilation standards - Look for pods with independent HVAC systems or those that integrate with your building's systems. Air quality standards (CO₂ levels, circulation rates) matter as much as temperature control. Pods without adequate ventilation become unusable within minutes.
 
-Flexibility: Consider whether pods need to scale if your team grows. Modular systems allow adding pods later without replacing initial units. Fixed installations limit future adjustment.
+Flexibility - Consider whether pods need to scale if your team grows. Modular systems allow adding pods later without replacing initial units. Fixed installations limit future adjustment.
 
-Cost analysis: Compare total cost of ownership, not just purchase price:
+Cost analysis - Compare total cost of ownership, not just purchase price:
 - Single pods: $3,000-8,000 each
 - Double occupancy (2-person) pods: $6,000-15,000
 - Phone booth alternatives: $800-2,000 (limited functionality)
@@ -253,23 +253,23 @@ Dedicated web app works if your team prefers a central dashboard. Companies like
 
 The key is picking whatever requires fewest steps to book. If booking takes more than 30 seconds, adoption drops off dramatically.
 
-Beyond Pods: Complementary Office Redesign
+Beyond Pods - Complementary Office Redesign
 
 While focus pods address concentration needs, consider these complementary changes:
 
-Quiet zones: Designate certain areas (often perimeter spaces) as quiet-by-default. Visual cues (signage, floor markings) signal that conversations should happen elsewhere. Combine with ambient acoustic treatment.
+Quiet zones - Designate certain areas (often perimeter spaces) as quiet-by-default. Visual cues (signage, floor markings) signal that conversations should happen elsewhere. Combine with ambient acoustic treatment.
 
-Collaboration zones: Explicitly designate areas for meeting, brainstorming, and conversation. Open these up. Don't worry about noise here, it's where noise should happen.
+Collaboration zones - Explicitly designate areas for meeting, brainstorming, and conversation. Open these up. Don't worry about noise here, it's where noise should happen.
 
-Variety in seating: Different work requires different posture. Provide:
+Variety in seating - Different work requires different posture. Provide:
 - Standing desks for short focus bursts
 - Perch seating (high chairs at bar-height counters) for semi-active work
 - Lounge seating for reading, learning, thinking
 - High-back chairs for semi-private desk work
 
-Lighting control: Natural light is ideal, but poor window location affects different parts of the office differently. Provide task lighting that individuals can control. Poor lighting and noise are the top two reasons employees avoid the office.
+Lighting control - Natural light is ideal, but poor window location affects different parts of the office differently. Provide task lighting that individuals can control. Poor lighting and noise are the top two reasons employees avoid the office.
 
-Temperature zones: Different zones have different comfort preferences. If possible, allow local temperature control or create microenvironments where people can dial comfort to their preference.
+Temperature zones - Different zones have different comfort preferences. If possible, allow local temperature control or create microenvironments where people can dial comfort to their preference.
 
 These changes combined with focus pods create an office that actually supports hybrid work instead of forcing a false choice between "focus at home" and "collaboration at office."
 
@@ -277,35 +277,35 @@ Training and Adoption
 
 When pods arrive, adoption isn't automatic. Train your team:
 
-Pod etiquette: Create a simple guide
+Pod etiquette - Create a simple guide
 - Reserve only what you need
 - 30-minute minimum booking to prevent abuse
 - Vacate on time for the next person
 - Report technical issues immediately
 - Keep pods clean
 
-Discovery and awareness: Market your pods through:
+Discovery and awareness - Market your pods through:
 - Email announcement with booking link
 - Demo sessions during all-hands
 - Slack channel dedicated to pod bookings and tips
 - Posters near the pods themselves
 - Manager conversations in 1-on-1s encouraging use
 
-Manager modeling: Managers should visibly use pods and encourage reports to use them. If leadership books pods and then sits at a noisy desk, messaging is confused.
+Manager modeling - Managers should visibly use pods and encourage reports to use them. If leadership books pods and then sits at a noisy desk, messaging is confused.
 
 Measuring Hybrid Office Success
 
 After six months with pods, track these metrics:
 
-Pod utilization: Aim for 60-80% average occupancy across the week. More than 90% suggests insufficient capacity. Less than 40% suggests poor placement or awareness.
+Pod utilization - Aim for 60-80% average occupancy across the week. More than 90% suggests insufficient capacity. Less than 40% suggests poor placement or awareness.
 
-Employee satisfaction: Survey "I have adequate quiet space at the office" on a 1-5 scale monthly. Aim for improvement of 2+ points after pod installation.
+Employee satisfaction - Survey "I have adequate quiet space at the office" on a 1-5 scale monthly. Aim for improvement of 2+ points after pod installation.
 
-Hybrid attendance: Track how often employees come to the office before and after pods. A 20-30% increase in hybrid days is realistic from pod addition alone.
+Hybrid attendance - Track how often employees come to the office before and after pods. A 20-30% increase in hybrid days is realistic from pod addition alone.
 
-Retention impact: Compare voluntary turnover before and after hybrid redesign. Employees who feel the office supports their work style stay longer.
+Retention impact - Compare voluntary turnover before and after hybrid redesign. Employees who feel the office supports their work style stay longer.
 
-Collaboration indicators: Track cross-team meetings and project collaborations. The office should increase these, not replace them. If office time is only for focus, you're not using hybrid benefits.
+Collaboration indicators - Track cross-team meetings and project collaborations. The office should increase these, not replace them. If office time is only for focus, you're not using hybrid benefits.
 
 Success metrics should balance focus support (pod usage) with collaboration value (cross-team interactions happening at office). The hybrid office should be better than either fully remote or fully in-office for both dimensions.
 

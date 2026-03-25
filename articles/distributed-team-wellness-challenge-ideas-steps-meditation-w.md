@@ -23,8 +23,8 @@ Table of Contents
 - [Why Wellness Challenges Matter for Distributed Teams](#why-wellness-challenges-matter-for-distributed-teams)
 - [Step Tracking Challenges That Drive Engagement](#step-tracking-challenges-that-drive-engagement)
 - [Meditation Practices for Remote Team Focus](#meditation-practices-for-remote-team-focus)
-- [Water Tracking: The Underrated Wellness Metric](#water-tracking-the-underrated-wellness-metric)
-- [Combining All Three: The Integrated Wellness Week](#combining-all-three-the-integrated-wellness-week)
+- [Water Tracking - The Underrated Wellness Metric](#water-tracking-the-underrated-wellness-metric)
+- [Combining All Three - The Integrated Wellness Week](#combining-all-three-the-integrated-wellness-week)
 - [Tips for Success](#tips-for-success)
 - [Building a Culture of Wellness](#building-a-culture-of-wellness)
 
@@ -143,7 +143,7 @@ Streak Rules:
 - Skip days require documentation (travel, illness)
 - Team member with longest streak gets recognition in weekly all-hands
 
-Water Tracking: The Underrated Wellness Metric
+Water Tracking - The Underrated Wellness Metric
 
 Proper hydration improves cognitive function, reduces fatigue, and prevents headaches. Most developers drink far less water than needed, often forgetting to hydrate entirely during deep focus sessions.
 
@@ -187,7 +187,7 @@ Create friendly competition by tracking team-wide hydration totals:
 - Team goal: collectively drink 500% of recommended daily intake
 - Celebrate when the team hits milestones with virtual high-fives
 
-Combining All Three: The Integrated Wellness Week
+Combining All Three - The Integrated Wellness Week
 
 The most effective approach combines all three elements into a cohesive weekly challenge. Here is a sample structure:
 
@@ -203,15 +203,15 @@ The most effective approach combines all three elements into a cohesive weekly c
 
 Tips for Success
 
-Keep it optional: Mandatory wellness activities create resentment. Frame challenges as invitations, not requirements.
+Keep it optional - Mandatory wellness activities create resentment. Frame challenges as invitations, not requirements.
 
-Respect time zones: All tracking should work asynchronously. No one should feel pressured to participate at specific times.
+Respect time zones - All tracking should work asynchronously. No one should feel pressured to participate at specific times.
 
 Celebrate progress, not perfection: Acknowledge any improvement, regardless of size. A team member going from 2,000 to 5,000 steps deserves recognition.
 
-Provide tools, not lectures: Give team members easy-to-use tracking methods rather than lengthy instructions on why wellness matters. Your team already understands the benefits.
+Provide tools, not lectures - Give team members easy-to-use tracking methods rather than lengthy instructions on why wellness matters. Your team already understands the benefits.
 
-Adjust based on feedback: If a challenge is not working, change it. What works for one team may fail for another.
+Adjust based on feedback - If a challenge is not working, change it. What works for one team may fail for another.
 
 Building a Culture of Wellness
 

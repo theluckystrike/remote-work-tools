@@ -51,7 +51,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Software Solutions: Reduce Load and Control Fans
+Step 1 - Software Solutions: Reduce Load and Control Fans
 
 Adjust Process Priority
 
@@ -116,7 +116,7 @@ alias join-call="~/scripts/call-prep.sh && zoom"
 
 On Windows, use Process Lasso or simply close browser tabs and pause background downloads.
 
-Step 2: Hardware Modifications: Quiet the Machine
+Step 2 - Hardware Modifications: Quiet the Machine
 
 Upgrade Case Airflow
 
@@ -143,7 +143,7 @@ Stock case fans often prioritize cost over silence. Replacement fans from Noctua
 
 Look for fans rated below 20 dBA for truly quiet operation.
 
-Step 3: Audio Processing: Mask Residual Noise
+Step 3 - Audio Processing: Mask Residual Noise
 
 Sometimes you can't eliminate all fan noise. In those cases, audio processing helps:
 
@@ -164,7 +164,7 @@ For stronger suppression, use system-level tools:
 
 These tools apply real-time audio processing to remove fan noise before it reaches your call.
 
-Step 4: Quick Checklist Before Your Next Call
+Step 4 - Quick Checklist Before Your Next Call
 
 1. Close unnecessary browser tabs and applications
 2. Enable hardware video encoding in your video app
@@ -173,15 +173,15 @@ Step 4: Quick Checklist Before Your Next Call
 5. Check that case fans aren't obstructed
 6. Enable noise suppression in your video app
 
-Step 5: Build a Quieter Development Environment
+Step 5 - Build a Quieter Development Environment
 
 For developers spending hours on calls, investing time into a quieter setup pays dividends. The steps above, software configuration, fan curve tuning, and selective hardware upgrades, combine to create a system that stays quiet during meetings but still performs when you're compiling code or running tests.
 
 Start with the free software tweaks. They take minutes and often provide immediate results. Then evaluate whether hardware upgrades make sense for your situation.
 
-Remember: your setup doesn't need to be silent, your colleagues simply shouldn't hear your cooling system over your voice.
+Remember - your setup doesn't need to be silent, your colleagues simply shouldn't hear your cooling system over your voice.
 
-Step 6: Hardware Upgrade Cost-Benefit Analysis
+Step 6 - Hardware Upgrade Cost-Benefit Analysis
 
 Reducing fan noise often requires small hardware investments. Here's what each upgrade costs and what noise reduction it delivers:
 
@@ -197,18 +197,18 @@ Reducing fan noise often requires small hardware investments. Here's what each u
 
 Most developers see best results from thermal paste + one quiet fan replacement ($40-60 total, 10-15°C cooler systems). This typically eliminates call-disrupting noise without expensive CPU cooler replacement.
 
-Step 7: Specific Quiet Fan Recommendations
+Step 7 - Specific Quiet Fan Recommendations
 
 Not all quiet fans are equal. Real-world options for developers:
 
-Best All-Around: Noctua NF-A14 PWM (140mm)
+Best All-Around - Noctua NF-A14 PWM (140mm)
 - Cost: $25-35
 - Noise: 13.8-19.8 dBA (very quiet)
 - Airflow: 140.2 CFM (adequate for large case)
 - Warranty: 6-year guarantee
 - Install time: 5 minutes to replace existing fan
 
-Budget Option: Arctic P14 PWM (140mm)
+Budget Option - Arctic P14 PWM (140mm)
 - Cost: $12-18
 - Noise: 0.3 Sone (roughly 20 dBA)
 - Airflow: 140 CFM
@@ -216,7 +216,7 @@ Budget Option: Arctic P14 PWM (140mm)
 - Install time: 5 minutes
 - Trade-off: Slightly noisier than Noctua but 50% cheaper
 
-High-Performance: be quiet! Dark Rock Pro 4 (CPU cooler)
+High-Performance - be quiet! Dark Rock Pro 4 (CPU cooler)
 - Cost: $80-110
 - Noise: ~15 dBA at full load
 - TDP: Handles up to 250W
@@ -224,23 +224,23 @@ High-Performance: be quiet! Dark Rock Pro 4 (CPU cooler)
 - Install time: 30-45 minutes
 - Trade-off: Expensive but excellent for sustained loads (video calls + compiling)
 
-Laptop Alternative: External cooling pad (Havit HV-F2050)
+Laptop Alternative - External cooling pad (Havit HV-F2050)
 - Cost: $20-35
 - Effectiveness: Reduces laptop temp 5-10°C, thereby reducing fan speed
 - Noise: Pad itself is quiet; reduces laptop fan noise 2-3 dBA
 - Trade-off: Only works for laptops; requires desk space
 
-Step 8: Real Configuration Examples
+Step 8 - Real Configuration Examples
 
 Minimal Setup (Zero Cost)
 
 ```bash
-Linux: Set conservative fan curve via BIOS
+Linux - Set conservative fan curve via BIOS
 Most modern systems support this without additional tools
 Access BIOS (typically Delete/F2 at boot), find "Q-Fan" or "Fan Control"
-Set curve: 30°C→20%, 40°C→30%, 50°C→40%, 70°C→80%, 85°C+→100%
+Set curve - 30°C→20%, 40°C→30%, 50°C→40%, 70°C→80%, 85°C+→100%
 
-Windows: Use Task Manager to lower video app priority
+Windows - Use Task Manager to lower video app priority
 Open Task Manager → Find "zoom.exe" or "Teams.exe"
 Right-click → Details tab → Right-click process → Set Priority → Below Normal
 ```
@@ -250,13 +250,13 @@ Right-click → Details tab → Right-click process → Set Priority → Below N
 Mid-Range Setup ($60 investment)
 
 ```bash
-Step 1: Replace thermal paste
-Required: Thermal Grizzly Kryonaut ($8), isopropyl alcohol ($5), lint-free cloth
-Time: 30 minutes for CPU
+Step 1 - Replace thermal paste
+Required - Thermal Grizzly Kryonaut ($8), isopropyl alcohol ($5), lint-free cloth
+Time - 30 minutes for CPU
 
-Step 2: Add one quiet intake fan (front of case)
-Cost: $20-30 for quality 140mm fan
-Time: 10 minutes
+Step 2 - Add one quiet intake fan (front of case)
+Cost - $20-30 for quality 140mm fan
+Time - 10 minutes
 
 8-12°C cooler, noticeable reduction in fan noise during calls
 ```
@@ -264,10 +264,10 @@ Time: 10 minutes
 Setup ($150 investment)
 
 ```bash
-Step 1: Thermal paste + cleanup
-Step 2: Replace all case fans with quiet 140mm fans (2-3 fans)
-Step 3: Improve cable management for better airflow
-Step 4: Verify BIOS fan curve is conservative
+Step 1 - Thermal paste + cleanup
+Step 2 - Replace all case fans with quiet 140mm fans (2-3 fans)
+Step 3 - Improve cable management for better airflow
+Step 4 - Verify BIOS fan curve is conservative
 
 System runs 12-18°C cooler, almost silent during video calls
 ```
@@ -288,9 +288,9 @@ For developers on Windows with RTX GPU: NVIDIA RTX Voice (free) is unbeatable. I
 
 For developers on Mac or without RTX: Krisp free tier ($0) covers 60 minutes monthly, sufficient for a few calls weekly.
 
-For Linux: NoiseTorch (free, open source) beats everything else if you're comfortable with PulseAudio.
+For Linux - NoiseTorch (free, open source) beats everything else if you're comfortable with PulseAudio.
 
-Step 9: Pre-Call Routine: 2-Minute Optimization
+Step 9 - Pre-Call Routine: 2-Minute Optimization
 
 Experienced remote workers run this check before every important call:
 
@@ -306,16 +306,16 @@ systemctl stop docker  # Stop containers
 Or pause Dropbox/OneDrive sync via UI
 
 4. Enable hardware acceleration
-Zoom: Settings → Video → Hardware acceleration = ON
-Teams: Settings → Devices → Hardware acceleration = ON
+Zoom - Settings → Video → Hardware acceleration = ON
+Teams - Settings → Devices → Hardware acceleration = ON
 
 5. Check case fans aren't blocked
-Quick visual inspection: no dust, no cables blocking intake
+Quick visual inspection - no dust, no cables blocking intake
 
 6. Enable system noise suppression
-Windows: Open Krisp, click microphone icon
-Mac: Same
-Linux: Enable NoiseTorch (pavucontrol)
+Windows - Open Krisp, click microphone icon
+Mac - Same
+Linux - Enable NoiseTorch (pavucontrol)
 
 7. Test audio before call
 Quick 10-second recording to verify noise isn't audible
@@ -339,7 +339,7 @@ Accept the noise if:
 - Hardware investments don't fit your budget
 - You'll replace the PC in under a year anyway
 
-The cost-benefit math: A $30 fan upgrade preventing even one "can you mute your fan?" message per month is worth it. A $150 CPU cooler upgrade is worth it only if you're in calls daily for years.
+The cost-benefit math - A $30 fan upgrade preventing even one "can you mute your fan?" message per month is worth it. A $150 CPU cooler upgrade is worth it only if you're in calls daily for years.
 
 Troubleshooting
 

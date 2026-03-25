@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Problem With Organic Social at Scale
+Step 1 - The Problem With Organic Social at Scale
 
 In small remote teams, social interaction emerges from proximity. You see who's online, notice when someone joins late from a different timezone, and casual conversations naturally happen in shared spaces. This incidental social capital builds trust and psychological safety, the foundation of effective collaboration.
 
@@ -38,7 +38,7 @@ Once your team grows beyond fifteen or twenty people, these organic moments beco
 
 Without intervention, remote teams become professional execution machines that lack the human bonds that make work meaningful. You ship code, hit deadlines, and hold retros, but nobody actually knows each other as people.
 
-Step 2: Phase One: Formalize the Informal
+Step 2 - Phase One: Formalize the Informal
 
 Before building complex programs, start by making existing informal interactions more accessible and inclusive.
 
@@ -87,7 +87,7 @@ function generatePairs(teamMembers, previousPairs = []) {
 
 Tools like Donut, Parrot, or custom Slack integrations can automate this. The key is keeping it lightweight, thirty minutes, no agenda, just conversation.
 
-Step 3: Phase Two: Structured Social Programs
+Step 3 - Phase Two: Structured Social Programs
 
 Once you've formalized informal interactions, introduce programs with clear structure and regular cadence.
 
@@ -123,15 +123,15 @@ Async Social Traditions
 
 Not everything needs to be synchronous. Async social traditions work particularly well for distributed teams:
 
-Virtual Coffee Photo Thread: Weekly thread where people share what they're drinking and a brief update
+Virtual Coffee Photo Thread - Weekly thread where people share what they're drinking and a brief update
 
-Weekend Wins Channel: Low-pressure space to share personal achievements from the week
+Weekend Wins Channel - Low-pressure space to share personal achievements from the week
 
-Playlist Collaboration: Shared Spotify or Apple Music playlist where anyone adds songs
+Playlist Collaboration - Shared Spotify or Apple Music playlist where anyone adds songs
 
 These require zero scheduling but still create shared experiences and conversation starters.
 
-Step 4: Phase Three: Program Infrastructure
+Step 4 - Phase Three: Program Infrastructure
 
 As your social programs mature, build infrastructure that sustains them without relying on individual champions.
 
@@ -186,17 +186,17 @@ Track social program health without reducing everything to vanity metrics:
 
 Numbers tell you if programs are failing; they don't tell you if they're succeeding. Use metrics for alerting, not celebration.
 
-Step 5: Common Pitfalls to Avoid
+Step 5 - Common Pitfalls to Avoid
 
-Forcing Fun: Mandatory fun isn't fun. Every program should have clear value, but participation should remain voluntary. The goal is creating opportunities, not requiring attendance.
+Forcing Fun - Mandatory fun isn't fun. Every program should have clear value, but participation should remain voluntary. The goal is creating opportunities, not requiring attendance.
 
-Over-Scheduling: Remote workers already have enough meetings. Social programs should feel like relief from work, not another obligation. Start small, a single monthly event is better than five poorly-attended weekly ones.
+Over-Scheduling - Remote workers already have enough meetings. Social programs should feel like relief from work, not another obligation. Start small, a single monthly event is better than five poorly-attended weekly ones.
 
-Ignoring Timezones: A social event at 9 AM San Francisco is 6 PM London and midnight Singapore. If your team spans three continents, rotate event times or create region-specific programs that bridge occasionally.
+Ignoring Timezones - A social event at 9 AM San Francisco is 6 PM London and midnight Singapore. If your team spans three continents, rotate event times or create region-specific programs that bridge occasionally.
 
-One-Person Shows: Programs that depend on one enthusiastic person will fail when that person burns out or leaves. Design for sustainability from the start.
+One-Person Shows - Programs that depend on one enthusiastic person will fail when that person burns out or leaves. Design for sustainability from the start.
 
-Step 6: Measuring Program Effectiveness Without Killing Culture
+Step 6 - Measuring Program Effectiveness Without Killing Culture
 
 Metrics matter, but bad metrics kill programs. Avoid obsessing over attendance numbers, which create false pressure to make events "sticky" or mandatory-feeling. Instead, track signals that indicate genuine connection:
 
@@ -208,7 +208,7 @@ Metrics matter, but bad metrics kill programs. Avoid obsessing over attendance n
 
 One weak signal is attendance at mandatory events. High numbers indicate compliance, not connection.
 
-Step 7: Evolution as Teams Grow
+Step 7 - Evolution as Teams Grow
 
 Your social infrastructure requirements change at predictable inflection points. At five people, nothing is needed. At fifteen, formalize a few traditions. At fifty, you need structured programs. At two hundred, you might need dedicated staff managing culture infrastructure.
 
@@ -216,7 +216,7 @@ Most teams don't acknowledge these inflection points until culture suddenly brea
 
 Budget time for leadership to discuss culture evolution explicitly. When you hit thirty people, discuss what worked informally and what will break if unchanged. Make conscious choices about what to formalize and what to let go.
 
-Step 8: Build Culture That Scales
+Step 8 - Build Culture That Scales
 
 The transition from informal to structured social programs isn't a sign that your team has lost its human touch, it's a sign that you're mature enough to be intentional about culture. Small teams rely on organic interactions because they don't have alternatives. Grown-up teams build infrastructure that makes meaningful connection possible regardless of size or geography.
 
@@ -224,7 +224,7 @@ Start where you are. If your team is small, add one structured element to your e
 
 The goal isn't to replicate an office water cooler. It's to create something better, intentional spaces where people can connect as humans, regardless of when they work or where they live. Asynchronous traditions, interest groups, and rotated ownership distribute the burden of culture-building across your organization rather than concentrating it in one person or function.
 
-Step 9: Remote Culture in Crisis and Transition
+Step 9 - Remote Culture in Crisis and Transition
 
 Culture infrastructure becomes critical when organizations face difficulty. During layoffs, restructuring, or rapid scaling, informal social bonds become lifelines. Teams that have invested in intentional culture through programs and traditions weather crises better than those that relied on organic connection.
 
@@ -236,7 +236,7 @@ Conversely, if you've coasted on organic culture and never formalized anything, 
 
 Invest in social infrastructure not for good times, but for the times when your organization needs it most.
 
-Step 10: Documentation and Handoff
+Step 10 - Documentation and Handoff
 
 For long-term sustainability, document your social programs explicitly. When a team member moves into a new role or leaves the organization, the documented structure survives them.
 
@@ -252,23 +252,23 @@ This documentation prevents knowledge loss and makes it easy for new leaders to 
 
 Remote culture is infrastructure. Like any infrastructure, it requires documentation, maintenance, and deliberate evolution as circumstances change.
 
-Step 11: Technology Stack for Social Event Management
+Step 11 - Technology Stack for Social Event Management
 
 As you scale social programs, technology support becomes valuable. You don't need dedicated software, many organizations manage this with spreadsheets and Slack, but certain tools simplify operations:
 
-Calendaring: Google Calendar or Notion with a public shared calendar prevents scheduling conflicts and makes events discoverable.
+Calendaring - Google Calendar or Notion with a public shared calendar prevents scheduling conflicts and makes events discoverable.
 
-Automation: Slack apps like Donut automate coffee pairing and send friendly reminders. Automation reduces manual work, making programs sustainable long-term.
+Automation - Slack apps like Donut automate coffee pairing and send friendly reminders. Automation reduces manual work, making programs sustainable long-term.
 
-Polling and surveys: Pulse surveys about team connection can be brief (four-question monthly check-ins) and still provide valuable feedback.
+Polling and surveys - Pulse surveys about team connection can be brief (four-question monthly check-ins) and still provide valuable feedback.
 
-RSVP management: For synchronous events, tools like Eventbrite or simple Google Forms track attendance and send reminders.
+RSVP management - For synchronous events, tools like Eventbrite or simple Google Forms track attendance and send reminders.
 
-Recording: For events that happen across timezones, recording and making accessible asynchronously multiplies the program's reach.
+Recording - For events that happen across timezones, recording and making accessible asynchronously multiplies the program's reach.
 
 Start simple. A shared Google Calendar and a Slack channel are often sufficient for programs under 100 people. Add tools as specific problems emerge.
 
-Step 12: Examples From Real Organizations
+Step 12 - Examples From Real Organizations
 
 Different organizations approach remote culture differently based on their structure and geography:
 
@@ -276,9 +276,9 @@ Distributed timezone-heavy company: Heavy emphasis on async social traditions (p
 
 US-based with occasional remote workers: Can afford more synchronous programs, but need explicit async alternatives to avoid excluding remote workers. Strong weekly social channel traditions to include those not attending in-person events.
 
-Small startup: Personal relationships still matter. One or two organized social events monthly plus interest groups. Focus on sustainable, lightweight programs that survive as you scale.
+Small startup - Personal relationships still matter. One or two organized social events monthly plus interest groups. Focus on sustainable, lightweight programs that survive as you scale.
 
-Large org with divisions: Central social programs at the company level (monthly socials, global interest groups), local programs within divisions (weekly team socials), team-level informal traditions.
+Large org with divisions - Central social programs at the company level (monthly socials, global interest groups), local programs within divisions (weekly team socials), team-level informal traditions.
 
 Your specific approach depends on team size, timezone spread, and cultural priorities. But the fundamental principle holds: as scale increases, intentional social infrastructure becomes essential.
 

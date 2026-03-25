@@ -102,7 +102,7 @@ Structured Social Activities
 Professional Development Connection
 
 - Tech community involvement: Contribute to open source projects, participate in developer forums, or attend virtual meetups
-- Mentorship: Either find a mentor or become one. These relationships create accountability and meaningful connection
+- Mentorship - Either find a mentor or become one. These relationships create accountability and meaningful connection
 
 Personal Boundary Management
 
@@ -200,15 +200,15 @@ Tools That Support Remote Parent Connectivity
 
 Several purpose-built tools can automate and support your isolation prevention strategy.
 
-Slack or Discord: Free with optional $15/user/month paid tiers. Use status automation to signal availability. The Geekbot app ($3-10/month for team use) runs async standups that keep you visible without meetings.
+Slack or Discord - Free with optional $15/user/month paid tiers. Use status automation to signal availability. The Geekbot app ($3-10/month for team use) runs async standups that keep you visible without meetings.
 
-Loom: Free for basic video recordings (3 videos at a time), Pro at $13/month. Record quick 2-3 minute updates about your work progress to maintain presence in async teams.
+Loom - Free for basic video recordings (3 videos at a time), Pro at $13/month. Record quick 2-3 minute updates about your work progress to maintain presence in async teams.
 
-Clockwise: Free personal version, $10-20/month for teams. Automatically finds the best times for coffee chats by analyzing calendars. Removes the friction from scheduling casual conversations.
+Clockwise - Free personal version, $10-20/month for teams. Automatically finds the best times for coffee chats by analyzing calendars. Removes the friction from scheduling casual conversations.
 
 Virtual coffee apps like Donut ($5-15/month for teams) or Icebreakers randomly pair team members for casual conversations. Set these up to match parents with other working parents when possible.
 
-Open source alternatives: For developers, tools like Jitsi Meet (free, self-hosted) or Nextcloud Talk provide video chat without SaaS dependency.
+Open source alternatives - For developers, tools like Jitsi Meet (free, self-hosted) or Nextcloud Talk provide video chat without SaaS dependency.
 
 When to Escalate to Your Manager
 
@@ -231,13 +231,13 @@ Seasonal Patterns for Remote Parents
 
 Remote parent isolation varies seasonally. Plan accordingly:
 
-Summer: School breaks remove the structure that normally keeps kids occupied during work hours. Block your calendar honestly about availability. Communicate reduced availability to your team in advance.
+Summer - School breaks remove the structure that normally keeps kids occupied during work hours. Block your calendar honestly about availability. Communicate reduced availability to your team in advance.
 
-September-October: Back-to-school provides renewed focus time. Capitalize on the month before holiday planning hits.
+September-October - Back-to-school provides renewed focus time. Capitalize on the month before holiday planning hits.
 
-November-December: Holiday schedules fragment focus time. Expect reduced capacity and plan accordingly. Volunteer to take on well-scoped projects rather than open-ended work.
+November-December - Holiday schedules fragment focus time. Expect reduced capacity and plan accordingly. Volunteer to take on well-scoped projects rather than open-ended work.
 
-January-February: New year provides opportunity to re-establish routines. Use this as a reset point if fall/winter habits drifted.
+January-February - New year provides opportunity to re-establish routines. Use this as a reset point if fall/winter habits drifted.
 
 Communicate these patterns to your team. When everyone understands the seasonal rhythm, there's less surprise when availability fluctuates.
 
@@ -270,14 +270,14 @@ Personal development outside work: Learning separate from your job maintains ide
 
 Invest 30-60 minutes weekly in something purely for yourself. This isn't luxurious, it's foundational mental health maintenance.
 
-Therapy or coaching: If isolation is severe, professional support works. Options:
+Therapy or coaching - If isolation is severe, professional support works. Options:
 - Therapy (therapy.com, BetterHelp $60-90/week for virtual therapy)
 - Career coaching (often covered by employers)
 - Parenting coaching (specifically for working parent challenges)
 
 Don't wait until you're struggling to seek support. Proactive help prevents burnout.
 
-Physical health markers: Track whether remote parenting stress is affecting your body:
+Physical health markers - Track whether remote parenting stress is affecting your body:
 - Sleep quality (aim for 7+ hours)
 - Exercise frequency (aim for 3+ sessions/week)
 - Nutrition (how many meals eaten intentionally vs. rushed?)

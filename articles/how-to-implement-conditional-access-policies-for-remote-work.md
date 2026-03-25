@@ -31,7 +31,7 @@ Building Your First Remote Worker Policy
 
 The most common starting point is requiring multi-factor authentication (MFA) for remote access. This ensures that even if credentials are compromised, attackers cannot access your resources without a second factor.
 
-Policy: Require MFA for Remote Users
+Policy - Require MFA for Remote Users
 
 Navigate to Microsoft Entra ID > Protection > Conditional Access > Policies and create a new policy:
 
@@ -64,7 +64,7 @@ Controlling Access by Device Compliance
 
 Remote workers often use personal devices or laptops that may not meet your organization's security standards. Device-based Conditional Access ensures only compliant devices can access sensitive resources.
 
-Policy: Block Access from Non-Compliant Devices
+Policy - Block Access from Non-Compliant Devices
 
 ```json
 {
@@ -98,7 +98,7 @@ Location-Based Access Control
 
 Geographic restrictions add another security layer. You can create named locations in Microsoft Entra ID and use them in Conditional Access policies to allow or block access from specific countries.
 
-Policy: Block Sign-Ins from High-Risk Locations
+Policy - Block Sign-Ins from High-Risk Locations
 
 First, define your trusted locations:
 
@@ -134,7 +134,7 @@ Implementing Risk-Based Policies
 
 Azure Identity Protection provides risk detection that feeds directly into Conditional Access. You can create policies that respond to risky sign-ins automatically.
 
-Policy: Require Password Change for High-Risk Users
+Policy - Require Password Change for High-Risk Users
 
 ```json
 {
@@ -161,7 +161,7 @@ Session Policies for Data Protection
 
 Beyond blocking or granting access, Conditional Access supports session policies that control what users can do after authenticating. These are particularly useful for protecting sensitive data in cloud applications.
 
-Policy: Require Session Re-authentication for Sensitive Actions
+Policy - Require Session Re-authentication for Sensitive Actions
 
 ```json
 {
@@ -203,11 +203,11 @@ Troubleshooting Remote Access Issues
 
 When implementing Conditional Access for remote teams, you'll inevitably encounter access issues. Common problems include:
 
-Users blocked unexpectedly: Check the sign-in logs in Microsoft Entra ID. Filter by the user and examine the detailed error. The "Why blocked" column often provides specific guidance.
+Users blocked unexpectedly - Check the sign-in logs in Microsoft Entra ID. Filter by the user and examine the detailed error. The "Why blocked" column often provides specific guidance.
 
-MFA prompts every sign-in: Ensure trusted locations are configured correctly, or adjust session duration settings. You can also exclude browser sign-ins from MFA requirements if appropriate for your risk tolerance.
+MFA prompts every sign-in - Ensure trusted locations are configured correctly, or adjust session duration settings. You can also exclude browser sign-ins from MFA requirements if appropriate for your risk tolerance.
 
-Device compliance issues: Verify Intune enrollment status and compliance policies. Users need to enroll their devices and receive compliant status before device-based policies will work.
+Device compliance issues - Verify Intune enrollment status and compliance policies. Users need to enroll their devices and receive compliant status before device-based policies will work.
 
 Deployment Best Practices
 

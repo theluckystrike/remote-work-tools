@@ -54,7 +54,7 @@ Each Prometheus instance is paired with a Thanos Sidecar. The Sidecar exposes a 
 
 ---
 
-Step 1: Thanos Sidecar on Each Prometheus Instance
+Step 1 - Thanos Sidecar on Each Prometheus Instance
 
 The sidecar runs alongside Prometheus, exposes gRPC for the Querier, and uploads TSDB blocks to object storage.
 
@@ -121,7 +121,7 @@ For AWS deployments, prefer an IAM instance role over static credentials. Attach
 
 ---
 
-Step 2: Thanos Store Gateway
+Step 2 - Thanos Store Gateway
 
 The Store Gateway exposes historical data from S3 over gRPC so the Querier can access it.
 
@@ -154,7 +154,7 @@ The Store Gateway downloads block index files from S3 and caches them locally. T
 
 ---
 
-Step 3: Thanos Querier
+Step 3 - Thanos Querier
 
 The Querier fans out PromQL queries to all StoreAPI endpoints (sidecars + store gateway) and deduplicates results from HA replica pairs.
 
@@ -195,7 +195,7 @@ sd-config.yml  (referenced by --endpoint.sd-files)
 
 ---
 
-Step 4: Thanos Compactor
+Step 4 - Thanos Compactor
 
 The Compactor runs as a singleton (never more than one at a time), downsamples old data, and removes duplicate blocks.
 
@@ -419,17 +419,17 @@ Common issues:
 
 Troubleshooting Common Thanos Issues
 
-Sidecar can't upload blocks: Check that the S3 bucket exists and the access key has `s3:PutObject` and `s3:GetObject` permissions on the bucket. Run `thanos check rules` to validate your config. Look for errors in `docker logs thanos-sidecar`.
+Sidecar can't upload blocks - Check that the S3 bucket exists and the access key has `s3:PutObject` and `s3:GetObject` permissions on the bucket. Run `thanos check rules` to validate your config. Look for errors in `docker logs thanos-sidecar`.
 
-Querier shows no stores: The Querier lists StoreAPI endpoints via `--endpoint` flags or service discovery. Verify connectivity: `nc -zv thanos-sidecar.internal 10901`. If behind a firewall, open port 10901 for gRPC traffic.
+Querier shows no stores - The Querier lists StoreAPI endpoints via `--endpoint` flags or service discovery. Verify connectivity: `nc -zv thanos-sidecar.internal 10901`. If behind a firewall, open port 10901 for gRPC traffic.
 
-Duplicate time series in Grafana: Set `--query.replica-label=replica` on the Querier and ensure each Prometheus instance has `external_labels: {replica: "0"}` or `replica: "1"`. Without the replica label, Thanos can't deduplicate HA pairs.
+Duplicate time series in Grafana - Set `--query.replica-label=replica` on the Querier and ensure each Prometheus instance has `external_labels: {replica: "0"}` or `replica: "1"`. Without the replica label, Thanos can't deduplicate HA pairs.
 
-Compactor failing with "overlap": If two Thanos instances ran simultaneously (violates the singleton requirement), S3 may contain overlapping blocks. Run: `thanos tools bucket verify --objstore.config-file s3.yml` to inspect, then `thanos tools bucket replicate` to repair.
+Compactor failing with "overlap": If two Thanos instances ran simultaneously (violates the singleton requirement), S3 may contain overlapping blocks. Run - `thanos tools bucket verify --objstore.config-file s3.yml` to inspect, then `thanos tools bucket replicate` to repair.
 
-High Store Gateway memory: By default, the Store Gateway keeps all block indexes in memory. Tune with `--store.grpc.series-max-concurrency` and `--block-sync-concurrency`. For 3+ years of data, consider upgrading to at least 8GB RAM for the store gateway.
+High Store Gateway memory - By default, the Store Gateway keeps all block indexes in memory. Tune with `--store.grpc.series-max-concurrency` and `--block-sync-concurrency`. For 3+ years of data, consider upgrading to at least 8GB RAM for the store gateway.
 
-Slow Grafana queries: Enable downsampling by running the Compactor. Once blocks are compacted at 5m and 1h resolutions, Grafana auto-selects the appropriate resolution based on the time range queried. Without the Compactor, all queries hit raw 15s-resolution data regardless of time range.
+Slow Grafana queries - Enable downsampling by running the Compactor. Once blocks are compacted at 5m and 1h resolutions, Grafana auto-selects the appropriate resolution based on the time range queried. Without the Compactor, all queries hit raw 15s-resolution data regardless of time range.
 
 ```bash
 Debug slow queries. check which stores are queried
@@ -451,9 +451,9 @@ labels:
   - "traefik.http.middlewares.auth.basicauth.users=admin:$$apr1$$..."
 ```
 
-VPN-only access: The recommended approach for internal observability tooling. Run Thanos on an internal network accessible only via VPN, and expose Grafana (which connects to the Querier internally) via TLS + SSO.
+VPN-only access - The recommended approach for internal observability tooling. Run Thanos on an internal network accessible only via VPN, and expose Grafana (which connects to the Querier internally) via TLS + SSO.
 
-TLS on gRPC (inter-component): For production deployments where Thanos components communicate across hosts, add TLS to gRPC:
+TLS on gRPC (inter-component) - For production deployments where Thanos components communicate across hosts, add TLS to gRPC:
 
 ```yaml
 sidecar command additions
@@ -483,7 +483,7 @@ compactor command
 
 Use S3 Intelligent-Tiering for the Thanos bucket. recent blocks are accessed frequently by the store gateway, older blocks rarely. Intelligent-Tiering moves blocks to cheaper storage automatically.
 
-Estimate storage cost: A single Prometheus instance generating ~10K active time series produces roughly 1-2GB of TSDB blocks per day. At S3 standard pricing ($0.023/GB), 1 year of retention for one Prometheus instance costs approximately $8-16/month.
+Estimate storage cost - A single Prometheus instance generating ~10K active time series produces roughly 1-2GB of TSDB blocks per day. At S3 standard pricing ($0.023/GB), 1 year of retention for one Prometheus instance costs approximately $8-16/month.
 
 ---
 

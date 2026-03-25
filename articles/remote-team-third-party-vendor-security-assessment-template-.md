@@ -90,7 +90,7 @@ Key Management:
 - Customer-managed keys (BYOK): Required for sensitive data
 - Hardware security modules (HSM): Preferred for critical infrastructure
 
-Ask your vendor directly: "What encryption standard do you use?" If they're evasive or unclear, that's a red flag.
+Ask your vendor directly - "What encryption standard do you use?" If they're evasive or unclear, that's a red flag.
 
 2. Data Protection and Encryption (Continued)
 
@@ -237,7 +237,7 @@ Use this checklist when deploying your vendor security assessment template:
 
 Real-World Assessment Scenarios
 
-Scenario 1: SaaS Tool for Internal Use Only
+Scenario 1 - SaaS Tool for Internal Use Only
 
 A designer wants to use a new design collaboration platform. Security assessment steps:
 
@@ -247,9 +247,9 @@ A designer wants to use a new design collaboration platform. Security assessment
 4. Review their privacy policy for data residency
 5. Quick approval: 2-3 days if they meet basic standards
 
-Risk level: Low-to-Medium. Turnaround: Fast.
+Risk level - Low-to-Medium. Turnaround: Fast.
 
-Scenario 2: Developer Tool with Code Repository Access
+Scenario 2 - Developer Tool with Code Repository Access
 
 A developer wants to use a CI/CD optimization tool that integrates with GitHub. Security assessment steps:
 
@@ -259,9 +259,9 @@ A developer wants to use a CI/CD optimization tool that integrates with GitHub. 
 4. Request SOC 2 report
 5. Require signing a Data Processing Addendum (DPA)
 
-Risk level: High. Turnaround: 2-3 weeks. Approval: CTO + Security lead required.
+Risk level - High. Turnaround: 2-3 weeks. Approval - CTO + Security lead required.
 
-Scenario 3: Contractor Using Their Own Tools
+Scenario 3 - Contractor Using Their Own Tools
 
 A freelance consultant needs access to your Slack and project management tool. Assessment steps:
 
@@ -271,7 +271,7 @@ A freelance consultant needs access to your Slack and project management tool. A
 4. Require contractor to sign security addendum
 5. Plan for account deprovisioning on contract end
 
-Risk level: Medium. Turnaround: 1 week. Approval: Manager + IT.
+Risk level - Medium. Turnaround: 1 week. Approval - Manager + IT.
 
 Remediating Security Gaps
 

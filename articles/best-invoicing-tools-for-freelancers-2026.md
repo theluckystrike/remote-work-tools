@@ -20,10 +20,10 @@ The best invoicing tools for freelancers in 2026 are Stripe Invoicing for develo
 Table of Contents
 
 - [What Freelance Developers Actually Need From Invoicing](#what-freelance-developers-actually-need-from-invoicing)
-- [Stripe Invoicing: The Developer's Choice](#stripe-invoicing-the-developers-choice)
-- [FreshBooks: When You Need More Than Invoicing](#freshbooks-when-you-need-more-than-invoicing)
-- [Quaderno: Tax Compliance Without Headaches](#quaderno-tax-compliance-without-headaches)
-- [Tool Comparison: Picking the Right Fit](#tool-comparison-picking-the-right-fit)
+- [Stripe Invoicing - The Developer's Choice](#stripe-invoicing-the-developers-choice)
+- [FreshBooks - When You Need More Than Invoicing](#freshbooks-when-you-need-more-than-invoicing)
+- [Quaderno - Tax Compliance Without Headaches](#quaderno-tax-compliance-without-headaches)
+- [Tool Comparison - Picking the Right Fit](#tool-comparison-picking-the-right-fit)
 - [Remote Work Invoicing Scenarios](#remote-work-invoicing-scenarios)
 - [Building Your Own Invoice Pipeline](#building-your-own-invoice-pipeline)
 - [Choosing the Right Tool](#choosing-the-right-tool)
@@ -40,7 +40,7 @@ The core requirements for developer-focused invoicing include:
 - PDF generation with programmatic control
 - Tax calculation for international clients
 
-Stripe Invoicing: The Developer's Choice
+Stripe Invoicing - The Developer's Choice
 
 Stripe Invoicing stands out because it treats invoices as code. If you're already using Stripe for payments, the invoicing API integrates with your existing setup.
 
@@ -98,7 +98,7 @@ app.post('/webhooks/stripe', express.raw({type: 'application/json'}),
 
 The webhook approach ensures your project management system stays in sync without polling.
 
-FreshBooks: When You Need More Than Invoicing
+FreshBooks - When You Need More Than Invoicing
 
 FreshBooks provides a complete accounting suite with invoicing as one component. The advantage is expense tracking, time tracking, and financial reports in one place.
 
@@ -143,7 +143,7 @@ def create_time_invoice(freshbooks_token, client_id, time_entries):
 
 FreshBooks excels when you need to track time, manage expenses, and generate invoices from the same data. The trade-off is less flexibility in API design compared to Stripe.
 
-Quaderno: Tax Compliance Without Headaches
+Quaderno - Tax Compliance Without Headaches
 
 If you work with international clients, tax compliance becomes a significant burden. Quaderno automates tax calculation, VAT handling, and generates compliant invoices for any country.
 
@@ -179,7 +179,7 @@ invoice = Quaderno::Invoice.create(
 
 Quaderno handles the complexity of VAT rules across EU member states, UK VAT, and US sales tax nexus requirements. This matters if you're scaling beyond your home country.
 
-Tool Comparison: Picking the Right Fit
+Tool Comparison - Picking the Right Fit
 
 Not all invoicing tools serve the same scenarios equally. Here is a structured comparison across the dimensions that matter most to freelance developers.
 

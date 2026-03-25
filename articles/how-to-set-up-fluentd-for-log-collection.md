@@ -445,7 +445,7 @@ In production, some services emit enormous log volumes. Sampling reduces costs w
   interval 10
 </filter>
 
-Override: always keep errors regardless of sampling
+Override - always keep errors regardless of sampling
 <filter app.high_volume_service.>
   @type grep
   <regexp>
@@ -455,7 +455,7 @@ Override: always keep errors regardless of sampling
 </filter>
 ```
 
-A two-stage filter approach: sample down info logs first, then let the grep filter rescue errors from the sampling decision. This avoids dropping critical logs while still reducing index size by 80-90% on noisy services.
+A two-stage filter approach - sample down info logs first, then let the grep filter rescue errors from the sampling decision. This avoids dropping critical logs while still reducing index size by 80-90% on noisy services.
 
 ---
 

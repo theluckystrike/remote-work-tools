@@ -26,8 +26,8 @@ Table of Contents
 - [Positioning Guidelines](#positioning-guidelines)
 - [Height and Angle Verification](#height-and-angle-verification)
 - [Integration with Split Keyboard Workflow](#integration-with-split-keyboard-workflow)
-- [Ergonomics Foundation: Why Wrist Rests Matter for Split Keyboards](#ergonomics-foundation-why-wrist-rests-matter-for-split-keyboards)
-- [Material Deep-Dive: Pros and Cons](#material-deep detailed look-pros-and-cons)
+- [Ergonomics Foundation - Why Wrist Rests Matter for Split Keyboards](#ergonomics-foundation-why-wrist-rests-matter-for-split-keyboards)
+- [Material Deep-Dive - Pros and Cons](#material-deep detailed look-pros-and-cons)
 - [Fine-Tuning Your Tented Setup](#fine-tuning-your-tented-setup)
 - [Troubleshooting Common Issues](#troubleshooting-common-issues)
 - [Integrating Wrist Rests with Ergonomic Accessories](#integrating-wrist-rests-with-ergonomic-accessories)
@@ -106,7 +106,7 @@ This approach costs more than off-the-shelf options but delivers perfect fit. Fo
 - Standard budget ($50-80): Plywood or acrylic from local makers
 - Premium budget ($120-200): Hardwood from experienced craftspeople
 
-Ergonomic research note: Studies show that wrist rests improve typing endurance when height matches keyboard travel distance (typically 2-3 cm above desk surface at keycap height). Under-height rests (less than 1.2") provide minimal benefit.
+Ergonomic research note - Studies show that wrist rests improve typing endurance when height matches keyboard travel distance (typically 2-3 cm above desk surface at keycap height). Under-height rests (less than 1.2") provide minimal benefit.
 
 DIY Solutions for Tented Setups
 
@@ -170,7 +170,7 @@ Wrist rests for tented split keyboards require consideration of keyboard placeme
 
 Some prefer rests that move with the keyboard when adjusting width. Others maintain fixed rest positions and adjust keyboard halves to meet them. Experiment to find your optimal arrangement.
 
-Ergonomics Foundation: Why Wrist Rests Matter for Split Keyboards
+Ergonomics Foundation - Why Wrist Rests Matter for Split Keyboards
 
 Split keyboards reduce strain through two mechanisms:
 1. Reduced Pronation: Separating the keyboard halves allows each hand to maintain neutral rotation (palm neither facing up nor down)
@@ -180,7 +180,7 @@ However, split keyboards introduce a new problem: if your wrists extend downward
 
 Studies of repetitive strain injuries show that proper wrist support reduces symptoms in 60-70% of affected developers within 2-3 weeks. The investment in a correctly-sized rest often prevents months of pain and lost productivity.
 
-Material Deep-Dive: Pros and Cons
+Material Deep-Dive - Pros and Cons
 
 Memory Foam:
 - Soft initial feel, conforms to wrist shape, good for sensitive wrists
@@ -224,19 +224,19 @@ Press on the rest firmly. Your wrist should sink slightly but feel supported, no
 
 Troubleshooting Common Issues
 
-Problem: Wrist pain hasn't improved after 2 weeks
+Problem - Wrist pain hasn't improved after 2 weeks
 - Likely cause: Rest height or angle doesn't match keyboard
-- Solution: Remeasure and adjust. Pain relief takes 3-4 weeks, so patience helps, but wrong height won't improve over time.
+- Solution - Remeasure and adjust. Pain relief takes 3-4 weeks, so patience helps, but wrong height won't improve over time.
 
-Problem: Rest feels unstable or moves during typing
+Problem - Rest feels unstable or moves during typing
 - Likely cause: Desk surface or rest base is too smooth
 - Solution: Add adhesive-backed grip tape to rest bottom (Amazon, $5-10)
 
-Problem: Heat buildup in wrists during long sessions
+Problem - Heat buildup in wrists during long sessions
 - Likely cause: Memory foam retaining heat
 - Solution: Switch to gel-based rest, add ventilation holes if 3D printing, or use cooling gel wrist pads ($15-30)
 
-Problem: Rest is too firm, causing discomfort
+Problem - Rest is too firm, causing discomfort
 - Likely cause: Material choice or compression
 - Solution: Add fabric or neoprene padding on top ($5-15), or switch to softer material for next purchase
 
@@ -260,13 +260,13 @@ The Whole-Body Ergonomic Setup
 
 Wrist rests work best as part of a complete ergonomic system. Common mistakes:
 
-Mistake 1: Perfect wrist rest, terrible monitor height
+Mistake 1 - Perfect wrist rest, terrible monitor height
 Your monitor should be at eye level when sitting upright. If you're looking down, your shoulders internally rotate, increasing wrist strain regardless of wrist rest quality. Adjust monitor height before investing in elaborate wrist supports.
 
-Mistake 2: Excellent keyboard ergonomics, terrible chair
+Mistake 2 - Excellent keyboard ergonomics, terrible chair
 If your chair doesn't support your lower back or forces your hips into poor alignment, your entire posture collapses. Wrist rests can't compensate. Prioritize chair ergonomics over keyboard accessories.
 
-Mistake 3: Good gear, poor daily movement
+Mistake 3 - Good gear, poor daily movement
 Stretching for 2 minutes every hour prevents more strain than any wrist rest. Build movement into your day: stand during calls, walk between tasks, do wrist circles during breaks. The best wrist rest augments movement habits, not replaces them.
 
 The right order of investment:
@@ -296,7 +296,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -308,7 +308,7 @@ AI tools evolve rapidly, with major updates every few months. Feature comparison
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

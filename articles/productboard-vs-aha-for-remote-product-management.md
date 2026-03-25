@@ -173,9 +173,9 @@ Productboard Pricing Structure
 
 Productboard uses per-user pricing for its product management features:
 
-- Essentials: $39/user/month (minimum 3 users). limited API access, basic integrations
-- Growth: $79/user/month. full API, advanced integrations, custom fields
-- Scale: Custom pricing. enterprise features, SSO, dedicated support
+- Essentials - $39/user/month (minimum 3 users). limited API access, basic integrations
+- Growth - $79/user/month. full API, advanced integrations, custom fields
+- Scale - Custom pricing. enterprise features, SSO, dedicated support
 
 For a 10-person product team, Essentials would cost approximately $1,170/month. The platform charges per user, so growing your PM team increases costs linearly. Free trial available for 14 days.
 
@@ -183,8 +183,8 @@ Aha! Pricing Structure
 
 Aha! breaks pricing into separate products (Roadmaps, Ideate, Develop):
 
-- Aha! Roadmaps: $59/user/month (Starter) up to $99/user/month (Pro). includes roadmapping, strategy, and basic integrations
-- Aha! Develop: $15/user/month (add-on for engineering teams). integration with development tools
+- Aha! Roadmaps - $59/user/month (Starter) up to $99/user/month (Pro). includes roadmapping, strategy, and basic integrations
+- Aha! Develop - $15/user/month (add-on for engineering teams). integration with development tools
 - Bundle discount: Purchasing multiple products reduces per-user costs
 
 A small product team with 8 people on Roadmaps at $59/user/month totals $472/month. Adding Develop for 4 engineers costs an additional $60/month. Aha! offers a 30-day free trial.
@@ -206,9 +206,9 @@ Slack Integration
 
 Both platforms offer Slack integration, but implementation differs:
 
-Productboard: Sends feature updates, comment notifications, and priority changes directly to Slack channels. You can configure digest emails or real-time notifications. The integration works well for broadcasting changes to teams across time zones.
+Productboard - Sends feature updates, comment notifications, and priority changes directly to Slack channels. You can configure digest emails or real-time notifications. The integration works well for broadcasting changes to teams across time zones.
 
-Aha!: Posts roadmap updates, achievement notifications, and status changes to Slack. The Slack integration is simpler but integrates more deeply with Aha!'s release planning features.
+Aha! - Posts roadmap updates, achievement notifications, and status changes to Slack. The Slack integration is simpler but integrates more deeply with Aha!'s release planning features.
 
 For distributed teams, Slack integration matters because it keeps async team members informed without requiring them to check the platform daily.
 
@@ -242,9 +242,9 @@ Remote Team Communication Patterns
 
 Both tools enable asynchronous collaboration, but favor different communication styles:
 
-Productboard's strength: Customer feedback integration. Gather feedback from support tickets, customer interviews, and user research directly into the system. For distributed product teams that rely on customer data to make decisions, this centralization matters.
+Productboard's strength - Customer feedback integration. Gather feedback from support tickets, customer interviews, and user research directly into the system. For distributed product teams that rely on customer data to make decisions, this centralization matters.
 
-Aha!'s strength: Visual roadmapping for stakeholder alignment. When your team includes non-technical stakeholders who need to understand product direction quickly, Aha!'s timeline and board views communicate strategy more effectively than text-based feature lists.
+Aha!'s strength - Visual roadmapping for stakeholder alignment. When your team includes non-technical stakeholders who need to understand product direction quickly, Aha!'s timeline and board views communicate strategy more effectively than text-based feature lists.
 
 Feature Depth and Extensibility
 
@@ -285,14 +285,14 @@ Data Export:
 - Export to CSV: feature names, descriptions, custom fields, customer feedback links
 - Prepare custom field mapping before importing to Aha!
 
-Timeline: Plan 2-3 weeks for migration
+Timeline - Plan 2-3 weeks for migration
 - Week 1: Export data, map fields, test import
 - Week 2: Parallel run (both systems active, input to Aha! until comfortable)
 - Week 3: Cut over, decommission Productboard, train team on new workflows
 
-Team Impact: Minimal if you communicate the change clearly. The core workflow (feature → priority → roadmap) is similar enough that adoption is typically smooth.
+Team Impact - Minimal if you communicate the change clearly. The core workflow (feature → priority → roadmap) is similar enough that adoption is typically smooth.
 
-Cost: You'll pay for overlapping subscriptions during migration, but justified by avoiding data loss or process disruption.
+Cost - You'll pay for overlapping subscriptions during migration, but justified by avoiding data loss or process disruption.
 
 Staying With Productboard at Scale
 
@@ -306,20 +306,20 @@ Productboard scales better than many assume, especially for teams that maintain 
 
 Real-World Implementation Timeline
 
-Week 1: Setup and Configuration
+Week 1 - Setup and Configuration
 
 - Day 1-2: Create product structure, define feature hierarchy, set up custom fields
 - Day 3-4: Connect integrations (Slack, Figma, Jira/Linear)
 - Day 5: Import initial data (customer feedback, feature wishlist, roadmap items)
 
-Week 2-3: Team Training and Process Definition
+Week 2-3 - Team Training and Process Definition
 
 - Brief training on creating/editing features
 - Document PM workflows (how decisions flow from feedback → feature → priority)
 - Practice with pilot features
 - Gather feedback and adjust workflows
 
-Week 4+: Steady State
+Week 4+ - Steady State
 
 - All features flowing through platform
 - Weekly prioritization meetings referencing the system
@@ -328,21 +328,21 @@ Week 4+: Steady State
 
 Avoiding Common Pitfalls
 
-Pitfall 1: Tool paralysis. teams spend months perfecting structure before using the system.
+Pitfall 1 - Tool paralysis. teams spend months perfecting structure before using the system.
 
-Fix: Use a "good enough" structure day 1. Refine as you use it. Perfect configuration is the enemy of adoption.
+Fix - Use a "good enough" structure day 1. Refine as you use it. Perfect configuration is the enemy of adoption.
 
-Pitfall 2: Over-customization. adding too many custom fields and complex workflows.
+Pitfall 2 - Over-customization. adding too many custom fields and complex workflows.
 
-Fix: Start with defaults. Add custom fields only when you hit a real gap. Too much customization slows team adoption.
+Fix - Start with defaults. Add custom fields only when you hit a real gap. Too much customization slows team adoption.
 
-Pitfall 3: Data debt. features created but never updated, feedback piling up without review.
+Pitfall 3 - Data debt. features created but never updated, feedback piling up without review.
 
-Fix: Assign clear ownership. Designate someone (rotating PM) as "data janitor" who audits features quarterly.
+Fix - Assign clear ownership. Designate someone (rotating PM) as "data janitor" who audits features quarterly.
 
-Pitfall 4: Disconnection from execution. roadmaps look great, but team doesn't follow them.
+Pitfall 4 - Disconnection from execution. roadmaps look great, but team doesn't follow them.
 
-Fix: Connect tool to sprint planning. Features in Productboard/Aha! should directly feed sprint backlogs in Jira/Linear.
+Fix - Connect tool to sprint planning. Features in Productboard/Aha! should directly feed sprint backlogs in Jira/Linear.
 
 Measuring Success With Your Chosen Tool
 

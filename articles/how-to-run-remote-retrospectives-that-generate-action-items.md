@@ -39,7 +39,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Pre-Retro Preparation (The 80/20 Rule)
+Step 1 - Pre-Retro Preparation (The 80/20 Rule)
 
 Remote retros succeed or fail before they start. Invest 30% of retro time in preparation.
 
@@ -54,13 +54,13 @@ Define what you're reviewing:
 Template Email:
 
 {% raw %}
-Subject: Retro Tomorrow 10am PT. Sprint Ends Friday
+Subject - Retro Tomorrow 10am PT. Sprint Ends Friday
 
 Table of Contents
 
 - [Why Remote Retros Fail (And How to Fix Them)](#why-remote-retros-fail-and-how-to-fix-them)
 - [Prerequisites](#prerequisites)
-- [Tools Deep Dive: Setup & Best Practices](#tools-deep detailed look-setup-best-practices)
+- [Tools Deep Dive - Setup & Best Practices](#tools-deep detailed look-setup-best-practices)
 - [Troubleshooting](#troubleshooting)
 
 Hi team,
@@ -70,11 +70,11 @@ Our retro covers Sprint 47 (March 15-29). We'll discuss:
 - What didn't go well
 - Action items for Sprint 48
 
-Duration: 60 minutes
-Required: All team members
-Tools: Miro board (link below) + Zoom
+Duration - 60 minutes
+Required - All team members
+Tools - Miro board (link below) + Zoom
 
-Prep: Add 3-5 ideas to the Miro board before the meeting.
+Prep - Add 3-5 ideas to the Miro board before the meeting.
 
 See you tomorrow!
 
@@ -99,19 +99,19 @@ Build structure in your tool of choice. Don't start from blank canvas.
 Miro Board Template:
 
 ```
-Column 1: WHAT WENT WELL? 
+Column 1 - WHAT WENT WELL? 
 - Sticky notes for positive things
 - Examples: "CI/CD deployment was smooth", "Great code review comments"
 
-Column 2: WHAT DIDN'T GO WELL? 
+Column 2 - WHAT DIDN'T GO WELL? 
 - Sticky notes for problems
 - Examples: "Production bug in auth flow", "Unclear requirements from PM"
 
-Column 3: WHAT SHOULD WE CHANGE? 
+Column 3 - WHAT SHOULD WE CHANGE? 
 - Derived from column 2
 - Examples: "Add pre-deployment checklist", "Weekly sync with PM"
 
-Column 4: ACTION ITEMS 
+Column 4 - ACTION ITEMS 
 - Specific, assigned, deadline
 - Format: "Owner. Action. Deadline"
 - "Sarah. Create deployment checklist. Sprint 48 start"
@@ -120,25 +120,25 @@ Column 4: ACTION ITEMS
 Trello Board Template:
 
 ```
-List 1: WENT WELL
+List 1 - WENT WELL
 - Cards for each positive item
 
-List 2: DIDN'T GO WELL
+List 2 - DIDN'T GO WELL
 - Cards for each problem
 
-List 3: ACTION ITEMS
+List 3 - ACTION ITEMS
 - Cards with checklist, assignee, due date
 - Example card: "Implement API rate limiting"
   - Checklist: [ ] Research libraries [ ] Design [ ] Code [ ] Test
   - Assignee: Mike
   - Due: 2026-04-04
 
-List 4: COMPLETED ACTION ITEMS (Last Sprint)
+List 4 - COMPLETED ACTION ITEMS (Last Sprint)
 - Moved from "Action Items" when done
 - Shows team impact
 ```
 
-Step 2: Run the Retro (75 Minutes)
+Step 2 - Run the Retro (75 Minutes)
 
 0-5 Minutes: Icebreaker + Tone Setting
 
@@ -194,20 +194,20 @@ WENT WELL column:
 Theme 1: PROCESS IMPROVEMENTS
  - "Merged PR reviews faster"
  - "Documentation updated weekly"
-Theme 2: TEAM DYNAMICS
+Theme 2 - TEAM DYNAMICS
  - "Great pairing session with Dev"
  - "Helped junior engineer learn React"
-Theme 3: PRODUCT DELIVERY
+Theme 3 - PRODUCT DELIVERY
  - "Shipped feature 3 days early"
 
 DIDN'T GO WELL column:
 Theme 1: TECHNICAL DEBT
  - "Legacy auth service broke again"
  - "Tests flaky in CI/CD"
-Theme 2: COMMUNICATION
+Theme 2 - COMMUNICATION
  - "PM didn't mention API deadline"
  - "Scope creep mid-sprint"
-Theme 3: WORKLOAD
+Theme 3 - WORKLOAD
  - "3 P1 bugs during sprint"
  - "On-call overload"
 {% endraw %}
@@ -228,12 +228,12 @@ Action items are the output. Everything else is commentary.
 Action Item Template:
 
 ```
-ACTION ITEM: [Specific task]
-OWNER: [Person name]
-DUE DATE: [Sprint end or specific date]
-ACCEPTANCE CRITERIA: [How we know it's done]
-DEPENDS ON: [Other tasks, blockers]
-RISK: [Low/Medium/High. effort or impact]
+ACTION ITEM - [Specific task]
+OWNER - [Person name]
+DUE DATE - [Sprint end or specific date]
+ACCEPTANCE CRITERIA - [How we know it's done]
+DEPENDS ON - [Other tasks, blockers]
+RISK - [Low/Medium/High. effort or impact]
 ```
 
 Good Action Item Examples:
@@ -295,11 +295,11 @@ Team, weekly sync works for everyone?
 Let's move these to Trello and track them. I'll send a follow-up email with links and a reminder for next sprint."
 {% endraw %}
 
-Tools Deep Dive: Setup & Best Practices
+Tools Deep Dive - Setup & Best Practices
 
 Miro Setup for Retros
 
-Pricing: Free (3 boards), $12/month (unlimited)
+Pricing - Free (3 boards), $12/month (unlimited)
 
 1. Create Board Template
 
@@ -324,7 +324,7 @@ Save a "Retro Template" board. Duplicate it for each sprint.
 
 Trello Setup for Action Tracking
 
-Pricing: Free (basic), $5/month (Power-ups, automation)
+Pricing - Free (basic), $5/month (Power-ups, automation)
 
 Lists:
 1. "Backlog" (ideas not yet prioritized)
@@ -336,17 +336,17 @@ Lists:
 Card Template:
 
 ```
-Title: [Specific action]
+Title - [Specific action]
 
 Description:
 - Why: [Context from retro]
 - Success criteria: [Definition of done]
 - Owner: [Assigned person]
 
-Labels: [Team, P0/P1/P2, Category]
-Due Date: [Sprint end]
-Checklist: [Sub-tasks if complex]
-Custom Field: Risk [Low/Medium/High]
+Labels - [Team, P0/P1/P2, Category]
+Due Date - [Sprint end]
+Checklist - [Sub-tasks if complex]
+Custom Field - Risk [Low/Medium/High]
 ```
 
 Automation (Trello Power-ups):
@@ -356,7 +356,7 @@ Automation (Trello Power-ups):
 
 Funretro for Distributed Teams
 
-Pricing: $99/month (or free self-hosted)
+Pricing - $99/month (or free self-hosted)
 
 Why Funretro? Purpose-built for retros, simpler than Miro, better voting.
 
@@ -372,11 +372,11 @@ Workflow:
 4. Create action items directly in tool
 5. Email summary sent to all attendees
 
-Best For: Teams new to retros (lower learning curve) or sensitive environments (psychological safety).
+Best For - Teams new to retros (lower learning curve) or sensitive environments (psychological safety).
 
-Step 3: Real-World Retro Playbooks
+Step 3 - Real-World Retro Playbooks
 
-Playbook 1: The 60-Minute Lean Retro (Startup Teams)
+Playbook 1 - The 60-Minute Lean Retro (Startup Teams)
 
 Time-boxed, high-energy, action-focused
 
@@ -391,18 +391,18 @@ Time-boxed, high-energy, action-focused
 Sample Sprint 47 Output:
 
 {% raw %}
-WENT WELL: "Ship speed improved"
-DIDN'T GO WELL: "Auth service flaky, 2 prod incidents"
+WENT WELL - "Ship speed improved"
+DIDN'T GO WELL - "Auth service flaky, 2 prod incidents"
 ACTION ITEMS:
  1. Mike. Add circuit breaker to auth service (due: April 12)
  2. Sarah. Write incident post-mortem (due: March 31)
  3. Team. Post-mortem review meeting (due: April 1)
 {% endraw %}
 
-Tools: Google Jamboard + Zoom (minimal setup)
+Tools - Google Jamboard + Zoom (minimal setup)
 ---
 
-Playbook 2: The 90-Minute Deep-Dive Retro (Large/Distributed Teams)
+Playbook 2 - The 90-Minute Deep-Dive Retro (Large/Distributed Teams)
 
 Async-first, emphasis on listening, longer discussion
 
@@ -425,11 +425,11 @@ Why Async First?
 - No "rush to speak"
 - Team reads all ideas, not just first 3
 
-Tools: Miro + Zoom + follow-up Confluence doc
+Tools - Miro + Zoom + follow-up Confluence doc
 
 ---
 
-Playbook 3: The 120-Minute Lean Coffee Retro (Executive Teams)
+Playbook 3 - The 120-Minute Lean Coffee Retro (Executive Teams)
 
 Higher stakes, more structured discussion, deeper outcomes
 
@@ -449,26 +449,26 @@ Higher stakes, more structured discussion, deeper outcomes
 Sample Outcome (Engineering Leadership):
 
 {% raw %}
-THEME: "Product-Engineering misalignment on prioritization"
-DISCUSSION: Sales pushing features, Eng pushing refactoring
+THEME - "Product-Engineering misalignment on prioritization"
+DISCUSSION - Sales pushing features, Eng pushing refactoring
 ACTION ITEMS:
  1. Create Engineering Roadmap board (public)
  2. Monthly prioritization meeting with Product/Eng leads
  3. Document priority rationale (ship fast vs quality)
-OWNER: VP Eng + VP Product
-DUE: April 1 (kickoff)
+OWNER - VP Eng + VP Product
+DUE - April 1 (kickoff)
 {% endraw %}
 
-Tools: Miro + Zoom + Confluence + follow-up stakeholder meetings
+Tools - Miro + Zoom + Confluence + follow-up stakeholder meetings
 
-Step 4: Facilitator's Cheat Sheet
+Step 4 - Facilitator's Cheat Sheet
 
 10 Techniques to Boost Engagement
 
 1. Use Timers Aggressively
 - "We have 10 minutes to contribute ideas. Go."
 - Creates urgency, prevents overthinking
-- Tool: Zoom timer or TimeandDate.com/timer
+- Tool - Zoom timer or TimeandDate.com/timer
 
 2. Call Out Silence
 - "Haven't heard from Alex yet. Alex, what went well for you?"
@@ -477,7 +477,7 @@ Step 4: Facilitator's Cheat Sheet
 
 3. Parse Vague Feedback
 - Participant: "Communication was bad"
-- Facilitator: "Can you give an example? When, who, what happened?"
+- Facilitator - "Can you give an example? When, who, what happened?"
 - Turns complaint into insight
 
 4. Cluster as You Go
@@ -487,7 +487,7 @@ Step 4: Facilitator's Cheat Sheet
 
 5. Separate Person from Problem
 - Avoid: "Sarah caused the bug"
-- Say: "The authentication service had an outage. Let's understand why and prevent it."
+- Say - "The authentication service had an outage. Let's understand why and prevent it."
 - Keeps retro safe
 
 6. Acknowledge Effort
@@ -503,7 +503,7 @@ Step 4: Facilitator's Cheat Sheet
 8. Limit Action Items to 3-5
 - Too many = none get done
 - Prioritize ruthlessly
-- Ask: "If we only did 3, which 3?"
+- Ask - "If we only did 3, which 3?"
 
 9. Assign Immediately
 - Don't say "Someone should fix this"
@@ -515,7 +515,7 @@ Step 4: Facilitator's Cheat Sheet
 - Leaves team on positive note
 - Counters "retro feels like blame session"
 
-Step 5: Action Item Tracking Systems
+Step 5 - Action Item Tracking Systems
 
 The Weekly Retro Check-In (5 minutes, Slack)
 
@@ -540,7 +540,7 @@ Create a custom Trello board with:
 - X-axis: Sprint days (1-14)
 - Y-axis: Action items remaining
 
-Plot weekly: how many action items done vs open?
+Plot weekly - how many action items done vs open?
 {% endraw %}
 
 Visual Pattern:
@@ -549,7 +549,7 @@ Visual Pattern:
 
 The Retro Retrospective (One Retro Per Quarter)
 
-Meta: Review your retro process itself.
+Meta - Review your retro process itself.
 
 Questions:
 - Are action items actually getting done?
@@ -560,13 +560,13 @@ Questions:
 Example Retro Retro Meeting Outcome:
 
 {% raw %}
-OLD: 90-minute Zoom meeting, 40% attendees silent
-NEW: 24-hour async Miro board + 45-minute discussion sync
+OLD - 90-minute Zoom meeting, 40% attendees silent
+NEW - 24-hour async Miro board + 45-minute discussion sync
 95% contribution rate, 3-4 action items consistently completed
-METRIC: Team survey: 8/10 retro satisfaction (was 5/10)
+METRIC - Team survey: 8/10 retro satisfaction (was 5/10)
 {% endraw %}
 
-Step 6: Metrics That Matter
+Step 6 - Metrics That Matter
 
 Track these to measure retro effectiveness:
 
@@ -579,34 +579,34 @@ Track these to measure retro effectiveness:
 | Repeated Items | # of same issues in consecutive retros | <1 per retro | Improvements stick |
 | Time Invested | Hours per retro (planning + facilitation + tracking) | <3 hours | ROI on retro time |
 
-Step 7: Common Retro Anti-Patterns (And Fixes)
+Step 7 - Common Retro Anti-Patterns (And Fixes)
 
-Anti-Pattern 1: Blame Culture
+Anti-Pattern 1 - Blame Culture
 - Symptom: "John broke auth service"
-- Fix: Reframe as system problem. "Auth service lacked monitoring. Let's add alerts."
+- Fix - Reframe as system problem. "Auth service lacked monitoring. Let's add alerts."
 
-Anti-Pattern 2: Idea Hoarding
+Anti-Pattern 2 - Idea Hoarding
 - Symptom: Only 3 people talking
-- Fix: Async board (people contribute anytime) + direct invitations ("Alex, thoughts?")
+- Fix - Async board (people contribute anytime) + direct invitations ("Alex, thoughts?")
 
-Anti-Pattern 3: Action Item Graveyard
+Anti-Pattern 3 - Action Item Graveyard
 - Symptom: Trello board full of old tasks, never marked done
-- Fix: Weekly check-in + monthly audit. Archive done items visibly.
+- Fix - Weekly check-in + monthly audit. Archive done items visibly.
 
-Anti-Pattern 4: Surface-Level Feedback
-- Symptom: "Great sprint!" "Good communication"
-- Fix: Require examples. "What made it great? Give 2-3 specific things."
+Anti-Pattern 4 - Surface-Level Feedback
+- Symptom - "Great sprint!" "Good communication"
+- Fix - Require examples. "What made it great? Give 2-3 specific things."
 
-Anti-Pattern 5: One-Way Conversation
+Anti-Pattern 5 - One-Way Conversation
 - Symptom: Facilitator talks 60%, team talks 40%
-- Fix: Use silence. Ask questions. Let pauses happen.
+- Fix - Use silence. Ask questions. Let pauses happen.
 
-Step 8: Retro Templates (Copy-Paste)
+Step 8 - Retro Templates (Copy-Paste)
 
 Sprint Retro Template (Email)
 
 {% raw %}
-Subject: Sprint 48 Retro. Tomorrow 10am PT
+Subject - Sprint 48 Retro. Tomorrow 10am PT
 
 Hi team,
 
@@ -637,7 +637,7 @@ See you tomorrow!
 Post-Retro Summary (Email)
 
 {% raw %}
-Subject: Sprint 47 Retro Summary + Action Items
+Subject - Sprint 47 Retro Summary + Action Items
 
 Hi team,
 
@@ -658,10 +658,10 @@ ACTION ITEMS FOR SPRINT 48:
 2. James. Create pre-deploy checklist (due March 31)
 3. Team. Weekly PM sync on priorities (starts April 1)
 
-All items in Trello: [board link]
-Weekly status updates: Fridays in Slack
+All items in Trello - [board link]
+Weekly status updates - Fridays in Slack
 
-Next retro: April 12 (same time)
+Next retro - April 12 (same time)
 
 Great effort this sprint!
 

@@ -47,25 +47,25 @@ Essential Features for a Four-Person Remote CS Team
 
 Your shared inbox needs specific capabilities to function effectively in a distributed environment:
 
-Real-time visibility: Every team member should see which messages are pending, who is working on what, and when responses are due. This prevents the "I thought you were handling it" problem common in remote teams.
+Real-time visibility - Every team member should see which messages are pending, who is working on what, and when responses are due. This prevents the "I thought you were handling it" problem common in remote teams.
 
-Assignment and ownership: Messages need clear ownership. When Sarah picks up a customer issue, the team should know she's handling it without requiring a status update message.
+Assignment and ownership - Messages need clear ownership. When Sarah picks up a customer issue, the team should know she's handling it without requiring a status update message.
 
-Internal notes and context: Customer success often requires context from previous interactions. Your inbox should support internal threaded discussions that customers never see.
+Internal notes and context - Customer success often requires context from previous interactions. Your inbox should support internal threaded discussions that customers never see.
 
-SLA tracking: Even with just four people, customers expect reasonable response times. Track first response and resolution times automatically.
+SLA tracking - Even with just four people, customers expect reasonable response times. Track first response and resolution times automatically.
 
-Channel consolidation: Email, chat, and social messages should converge into a single view rather than scattered across multiple apps.
+Channel consolidation - Email, chat, and social messages should converge into a single view rather than scattered across multiple apps.
 
 Implementation Approaches
 
-Option 1: Gmail with Shared Labels and Canned Responses
+Option 1 - Gmail with Shared Labels and Canned Responses
 
 For teams already using Gmail, you can build a functional shared inbox without additional software. Create a shared account like support@yourcompany.com, then set up label-based workflows:
 
 ```bash
 Gmail filter configuration example
-Apply label: [inbox-triage]
+Apply label - [inbox-triage]
 If: to:support@yourcompany.com AND subject contains "[ticket]"
 ```
 
@@ -77,7 +77,7 @@ Configure your team to use the Marked as read/Add label workflow:
 
 The limitation here is real-time awareness. Your team needs a convention like "always check the shared inbox before starting work" or you'll miss messages.
 
-Option 2: HelpDesk Tool Integration
+Option 2 - HelpDesk Tool Integration
 
 Tools like HelpScout, Front, or Zammad provide purpose-built shared inbox functionality. For four-person teams, HelpScout strikes a good balance between features and complexity:
 
@@ -102,7 +102,7 @@ const conversations = await response.json();
 
 These tools handle assignment automatically, provide collision detection (showing when someone else is viewing a conversation), and generate response time reports out of the box.
 
-Option 3: Custom Build with Slack Integration
+Option 3 - Custom Build with Slack Integration
 
 For developers who want full control, building a custom inbox on top of a database with Slack notifications hits a sweet spot. This approach works particularly well when you need tight integration with your product:
 
@@ -151,7 +151,7 @@ Automation Patterns That Scale
 
 With four people, automation becomes essential for handling volume without adding headcount. Focus automation on three areas:
 
-Routing and triage: Automatically categorize incoming messages by topic, urgency, or customer tier. Route high-priority issues to senior team members, standard questions to available agents:
+Routing and triage - Automatically categorize incoming messages by topic, urgency, or customer tier. Route high-priority issues to senior team members, standard questions to available agents:
 
 ```javascript
 // Simple routing logic
@@ -177,9 +177,9 @@ function routeTicket(customer, subject, message) {
 }
 ```
 
-Response suggestions: AI-assisted responses help your team type faster while maintaining personalization. Train on your team's previous successful responses.
+Response suggestions - AI-assisted responses help your team type faster while maintaining personalization. Train on your team's previous successful responses.
 
-Follow-up reminders: Automated reminders prevent tickets from slipping through cracks. If a customer hasn't responded in 48 hours, trigger a friendly check-in message.
+Follow-up reminders - Automated reminders prevent tickets from slipping through cracks. If a customer hasn't responded in 48 hours, trigger a friendly check-in message.
 
 Team Workflow Conventions
 
@@ -205,13 +205,13 @@ The right shared inbox transforms reactive customer success into proactive relat
 
 Pricing Breakdown for Your Four-Person Team
 
-HelpScout: $80/month for 4 agents ($20/agent). Good ROI if you handle 50+ tickets monthly.
+HelpScout - $80/month for 4 agents ($20/agent). Good ROI if you handle 50+ tickets monthly.
 
-Front: $99/month ($25/agent). Slightly more expensive but better collaboration features.
+Front - $99/month ($25/agent). Slightly more expensive but better collaboration features.
 
-Gmail shared account: $0. Honestly, this works for 4 people if discipline is strong.
+Gmail shared account - $0. Honestly, this works for 4 people if discipline is strong.
 
-Custom solution (self-hosted): $50-100 one-time (VPS), $0 ongoing. Time cost: 20-30 hours setup + minimal maintenance.
+Custom solution (self-hosted) - $50-100 one-time (VPS), $0 ongoing. Time cost: 20-30 hours setup + minimal maintenance.
 
 Most four-person teams start with Gmail shared labels and upgrade to HelpScout within 6 months when coordination overhead becomes noticeable.
 
@@ -221,11 +221,11 @@ The tool matters less than the discipline around it. Here's a workflow that work
 
 Morning ritual (8:30 AM): Each person reviews the queue. Unassigned tickets get claimed. In progress tickets get status updates. Takes 10-15 minutes.
 
-During the day: Someone responds to each ticket within 4 hours of receipt. Slack #customer-success channel gets a reaction when ticket is handled (no need for status meeting).
+During the day - Someone responds to each ticket within 4 hours of receipt. Slack #customer-success channel gets a reaction when ticket is handled (no need for status meeting).
 
 EOD ritual (4:45 PM): Quick scan of queue to ensure nothing is sitting idle. If someone is out, others see which tickets are assigned to them.
 
-Weekly review: Look at response times, resolution rates, customer satisfaction scores. Identify patterns (which ticket types are slow, which customers require more attention).
+Weekly review - Look at response times, resolution rates, customer satisfaction scores. Identify patterns (which ticket types are slow, which customers require more attention).
 
 This workflow scales to 4 people. At 10 people, it breaks down and you need more structured processes.
 
@@ -243,13 +243,13 @@ Any three of these suggest it's time to upgrade your approach.
 
 Implementation Roadmap for This Month
 
-Week 1: Pick your tool (HelpScout recommended for ease)
+Week 1 - Pick your tool (HelpScout recommended for ease)
 
-Week 2: Migrate existing tickets and create initial templates
+Week 2 - Migrate existing tickets and create initial templates
 
-Week 3: Team training on new workflow (2-hour session max)
+Week 3 - Team training on new workflow (2-hour session max)
 
-Week 4: Monitor and adjust assignment rules based on real usage
+Week 4 - Monitor and adjust assignment rules based on real usage
 
 The transition takes 1-2 weeks of disruption (slower responses as everyone adjusts). Plan for a slower-than-usual customer response rate during the switchover.
 
@@ -257,13 +257,13 @@ Template Examples That Work
 
 Rather than starting from scratch, use these templates that solve real problems:
 
-New customer onboarding: "Hi [name], thanks for signing up! Here's your getting started guide... Quick question: what's your primary use case?"
+New customer onboarding - "Hi [name], thanks for signing up! Here's your getting started guide... Quick question: what's your primary use case?"
 
-Billing inquiry: "Happy to help with your invoice. Just to confirm: are you looking to dispute this charge, or do you have a question about what's included?"
+Billing inquiry - "Happy to help with your invoice. Just to confirm: are you looking to dispute this charge, or do you have a question about what's included?"
 
-Feature request: "Great suggestion! We track feature requests in our public roadmap: [link]. Upvote this to show demand."
+Feature request - "Great suggestion! We track feature requests in our public roadmap: [link]. Upvote this to show demand."
 
-Angry customer: "I understand your frustration. Here's what happened... Here's how we'll fix it... Here's how I'll personally follow up."
+Angry customer - "I understand your frustration. Here's what happened... Here's how we'll fix it... Here's how I'll personally follow up."
 
 Templates prevent tone inconsistency and reduce response time by 50%. Update them quarterly based on common questions.
 
@@ -283,23 +283,23 @@ Seasonal Patterns and Workload Management
 
 Customer support workload isn't consistent. Plan around predictable patterns:
 
-End of month: Billing and payment issues spike 30-50%. Have templates ready, maybe schedule admin tasks for early month.
+End of month - Billing and payment issues spike 30-50%. Have templates ready, maybe schedule admin tasks for early month.
 
-Post-launch: New feature releases create onboarding questions. Prepare FAQ, link in responses.
+Post-launch - New feature releases create onboarding questions. Prepare FAQ, link in responses.
 
-Holiday periods: Reduced inbound, but slower customer response times. Set expectations: "We'll respond by Jan 3."
+Holiday periods - Reduced inbound, but slower customer response times. Set expectations: "We'll respond by Jan 3."
 
-Back-to-school / tax season: Seasonal businesses see demand spikes. If your customers have seasonal patterns, adjust staffing or tools accordingly.
+Back-to-school / tax season - Seasonal businesses see demand spikes. If your customers have seasonal patterns, adjust staffing or tools accordingly.
 
 Escalation Processes
 
 Even for four people, define escalation clearly:
 
-Tier 1 escalation: Standard issues handled by any available agent.
+Tier 1 escalation - Standard issues handled by any available agent.
 
-Tier 2 escalation: Billing disputes, technical debugging, complex scenarios. Goes to senior agent or manager.
+Tier 2 escalation - Billing disputes, technical debugging, complex scenarios. Goes to senior agent or manager.
 
-Tier 3 escalation: Legal disputes, contract interpretations, executive involvement. CEO handles.
+Tier 3 escalation - Legal disputes, contract interpretations, executive involvement. CEO handles.
 
 Document which types fall into each tier. This prevents arguments about "who should handle this?" when an issue appears.
 

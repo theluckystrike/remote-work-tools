@@ -24,15 +24,15 @@ Why Middle Manager Roles Often Fail
 
 Middle management positions fail most often in remote organizations because:
 
-Unclear Scope: The role wasn't well-defined before hiring. Is this a technical track (still writing code) or a people track (full management)? Does this person make technical decisions or just execute?
+Unclear Scope - The role wasn't well-defined before hiring. Is this a technical track (still writing code) or a people track (full management)? Does this person make technical decisions or just execute?
 
-Peer Resentment: Former peers resist taking direction from someone who "isn't better than them." Without clear authority and communication, this sabotages the role.
+Peer Resentment - Former peers resist taking direction from someone who "isn't better than them." Without clear authority and communication, this sabotages the role.
 
-Directional Whiplash: Strategy changes from executives, and the middle manager doesn't understand why, so can't explain to their team. This creates credibility problems.
+Directional Whiplash - Strategy changes from executives, and the middle manager doesn't understand why, so can't explain to their team. This creates credibility problems.
 
-Overload: Taking on too many responsibilities too fast. Managing people, delivering projects, representing the team upward, mentoring juniors, picking all four at once guarantees failure.
+Overload - Taking on too many responsibilities too fast. Managing people, delivering projects, representing the team upward, mentoring juniors, picking all four at once guarantees failure.
 
-Invisible Contributions: Unlike individual contributors who ship features, middle managers' work (unblocking people, building trust, coaching) is invisible until it's missing. Many new middle managers don't get credit for the value they create.
+Invisible Contributions - Unlike individual contributors who ship features, middle managers' work (unblocking people, building trust, coaching) is invisible until it's missing. Many new middle managers don't get credit for the value they create.
 
 The antidote is structure. Clear scope, explicit authority, phased responsibility expansion, and executive alignment all reduce failure risk.
 
@@ -46,13 +46,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand the Middle Layer Challenge
+Step 1 - Understand the Middle Layer Challenge
 
 The position of middle manager in a remote organization carries inherent tensions that don't exist in traditional management tracks. You're simultaneously expected to advocate for your team upward while driving organizational objectives downward. Your former peers now report to you, creating awkward dynamics that require deliberate navigation. And you sit far enough from executive decisions that you'll constantly face the challenge of translating strategic direction into tactical guidance.
 
 Remote environments amplify these challenges. Without the benefit of casual hallway conversations or in-person observation, middle managers must be more deliberate about staying informed and visible. The async-first communication culture that works for ICs requires adaptation when you're responsible for team health and output.
 
-Step 2: Defining the Role Before You Hire
+Step 2 - Defining the Role Before You Hire
 
 Most middle management failures start with unclear scope. Before hiring or promoting into the role, answer these questions:
 
@@ -80,7 +80,7 @@ Decision Rights:
 
 Document this explicitly. Your new middle manager can't succeed if they don't know the boundaries of their authority or what success looks like in their role.
 
-Step 3: Pre-Start Preparation: Setting Up Systems
+Step 3 - Pre-Start Preparation: Setting Up Systems
 
 Before your new middle manager's first day, prepare the technical and informational infrastructure they'll need. This isn't optional overhead, it's foundational to their success.
 
@@ -88,11 +88,11 @@ Choosing the Right Predecessor
 
 If this is a new role, you'll have a predecessor (the director) helping with transition. If it's promoting someone, ensure they have good support.
 
-Best Predecessor: Someone who's done the job and excelled, who can dedicate real time to mentoring. This person should spend 20+ hours during the new manager's first month.
+Best Predecessor - Someone who's done the job and excelled, who can dedicate real time to mentoring. This person should spend 20+ hours during the new manager's first month.
 
-Adequate Predecessor: Someone available for weekly meetings but not for daily pairing. They document their process so new manager can self-teach.
+Adequate Predecessor - Someone available for weekly meetings but not for daily pairing. They document their process so new manager can self-teach.
 
-Worst Predecessor: Previous manager is gone or unwilling to help. This creates chaos. If possible, contract back the previous person part-time for the first 3 months.
+Worst Predecessor - Previous manager is gone or unwilling to help. This creates chaos. If possible, contract back the previous person part-time for the first 3 months.
 
 Quality of onboarding from the predecessor often determines whether a new manager succeeds or fails.
 
@@ -104,7 +104,7 @@ Ensure access to the following systems is provisioned in advance:
 Create onboarding ticket template for new middle managers
 This should be completed 1 week before start date
 
-Step 4: Required Access
+Step 4 - Required Access
 - [ ] Primary project management tool (Jira/Linear/Asana)
 - [ ] Code review platform (GitHub/GitLab/Bitbucket)
 - [ ] Communication tools (Slack/Teams with appropriate channels)
@@ -125,24 +125,24 @@ Prepare a context document containing:
 4. Key stakeholders with their communication preferences and time zones
 5. Current priorities and why they were chosen
 
-Step 5: First Week: Observation and Orientation
+Step 5 - First Week: Observation and Orientation
 
 The first week should prioritize learning over contributing. Your new middle manager needs to absorb context before they can add value.
 
 Daily Structure Template
 
 ```
-Day 1-2: Tool setup and self-paced learning
+Day 1-2 - Tool setup and self-paced learning
   - Complete all system onboarding
   - Read team documentation and archives
   - Review recent team decisions in issue trackers
 
-Day 3-4: Meeting immersion
+Day 3-4 - Meeting immersion
   - Attend team standup (observe first, speak second)
   - Join 1:1s between their predecessor and team members
   - Sit in on any planning or refinement sessions
 
-Day 5: Initial reflection
+Day 5 - Initial reflection
   - Document initial observations
   - Identify 2-3 quick wins
   - Schedule follow-up 1:1s for next week
@@ -159,7 +159,7 @@ Not all meetings carry equal value. Prioritize these in the first week:
 
 Avoid the temptation to make changes in week one. Resist offering opinions until you've built sufficient context.
 
-Step 6: Weeks Two and Three: Relationship Building
+Step 6 - Weeks Two and Three: Relationship Building
 
 The middle management role succeeds or fails based on relationships. Remote managers must be intentional about creating connection without the benefit of physical proximity.
 
@@ -170,18 +170,18 @@ Establish a 1:1 schedule with each direct report within the first two weeks. Use
 ```markdown
 1:1 Meeting Template
 
-Step 7: Check-in (5 min)
+Step 7 - Check-in (5 min)
 - How are you feeling about work this week?
 - Any blockers I can help remove?
 
-Step 8: Updates (10 min)
+Step 8 - Updates (10 min)
 - What did you accomplish since our last meeting?
 - What are you working on next?
 
-Step 9: Discussion (15 min)
+Step 9 - Discussion (15 min)
 - Topic: [pre-arranged or spontaneous]
 
-Step 10: Action Items
+Step 10 - Action Items
 - [ ] Action owner: deadline
 ```
 
@@ -194,7 +194,7 @@ Create a stakeholders document answering these questions about each person you'l
 - What information do they need that I can provide?
 - What boundaries should I respect?
 
-Step 11: Weeks Four Through Eight: Gradual Ownership
+Step 11 - Weeks Four Through Eight: Gradual Ownership
 
 Begin taking ownership of specific responsibilities while maintaining close alignment with your director.
 
@@ -203,7 +203,7 @@ Responsibility Transfer Protocol
 When assuming responsibilities from a director or predecessor, use this approach:
 
 ```markdown
-Step 12: Responsibility Handoff: [Area Name]
+Step 12 - Responsibility Handoff: [Area Name]
 
 Current State
 - How is this currently handled?
@@ -223,7 +223,7 @@ Escalation Path
 - Who to escalate to: [name]
 ```
 
-First Deliverable: Communication Framework
+First Deliverable - Communication Framework
 
 One of the highest-value early deliverables is establishing your communication patterns. Create a brief document answering:
 
@@ -232,7 +232,7 @@ One of the highest-value early deliverables is establishing your communication p
 - What's your expected response time for async messages?
 - How will you share upward updates with leadership?
 
-Step 13: Common Pitfalls to Avoid
+Step 13 - Common Pitfalls to Avoid
 
 Trying to Prove Yourself as a Manager
 
@@ -248,7 +248,7 @@ Assuming Async Communication Works for Everything
 
 While async communication is essential in remote teams, new middle managers sometimes lean too heavily on it. Some conversations, difficult feedback, conflict resolution, sensitive personnel matters, benefit from synchronous discussion, even if that means coordinating across time zones.
 
-Step 14: Measuring Success in the First 90 Days
+Step 14 - Measuring Success in the First 90 Days
 
 Establish clear success criteria with your director during onboarding:
 

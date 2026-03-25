@@ -62,9 +62,9 @@ EasyRetro (Formerly FunRetro)
 
 EasyRetro is the simplest purpose-built async retro tool. Create a board, share the link, team members add cards in columns (What went well / What to improve / Action items), and vote.
 
-Best for: Teams new to async retros who want zero setup.
+Best for - Teams new to async retros who want zero setup.
 
-Pricing: Free (3 boards). $5/month per facilitator (unlimited boards).
+Pricing - Free (3 boards). $5/month per facilitator (unlimited boards).
 
 Setup:
 1. Sign up at easyretro.io
@@ -82,28 +82,28 @@ Parabol
 
 Parabol is a more structured retrospective tool with a full meeting flow: check-in → reflect → group → vote → discuss → close. It can run fully async or with a short sync call for the discuss phase.
 
-Best for: Teams who want a tool that enforces the retrospective process and tracks action items across sprints.
+Best for - Teams who want a tool that enforces the retrospective process and tracks action items across sprints.
 
-Pricing: Free (unlimited for up to 2 users). $6/user/month for teams.
+Pricing - Free (unlimited for up to 2 users). $6/user/month for teams.
 
 Process in Parabol:
 
 ```
-Phase 1 (async, 48h): Reflect
+Phase 1 (async, 48h) - Reflect
  . Each person adds cards to each column
  . Cards are hidden from other teammates until Phase 2
 
-Phase 2 (async, 24h): Group
+Phase 2 (async, 24h) - Group
  . Facilitator or team groups related cards
 
-Phase 3 (async, 24h): Vote
+Phase 3 (async, 24h) - Vote
  . Team votes on which items to discuss
  . Top N items get action items
 
-Phase 4 (sync 30min OR async): Discuss
+Phase 4 (sync 30min OR async) - Discuss
  . Walk through top items, assign owners
 
-Phase 5: Action items tracked in Parabol and synced to Linear/Jira
+Phase 5 - Action items tracked in Parabol and synced to Linear/Jira
 ```
 
 Parabol has a Linear integration that creates issues from action items automatically.
@@ -116,9 +116,9 @@ For teams already in Notion who don't want another tool:
 <!-- Notion Retro Database Template -->
 
 Sprint [N] Retrospective
-Sprint: 2026-03-07 → 2026-03-21
-Facilitator: @alice
-Input deadline: 2026-03-22 18:00 UTC
+Sprint - 2026-03-07 → 2026-03-21
+Facilitator - @alice
+Input deadline - 2026-03-22 18:00 UTC
 ---
 
 Previous Action Items
@@ -181,7 +181,7 @@ After input closes
 - [ ] Group similar items (takes 15-30 mins for a team of 8)
 - [ ] Remove author attribution before sharing grouped items (reduces anchoring)
 - [ ] Open voting phase (24h window)
-- [ ] Post in Slack: "Retro items grouped. please vote on top 3 by [TIME]"
+- [ ] Post in Slack - "Retro items grouped. please vote on top 3 by [TIME]"
 
 After voting closes
 - [ ] Extract top 3-5 items
@@ -216,7 +216,7 @@ gh issue create \
  --assignee "@carol"
 
 Parabol auto-creates Linear/Jira issues when you close the retro
-Connect under: Settings → Integrations → Linear
+Connect under - Settings → Integrations → Linear
 ```
 
 Retro Formats That Work Async
@@ -232,9 +232,9 @@ Start / Stop / Continue. cleanest for most teams:
 - Lacked: what was missing
 - Longed for: what we wished we had
 
-DAKI (Drop, Add, Keep, Improve): Good for teams in a period of change or scaling.
+DAKI (Drop, Add, Keep, Improve) - Good for teams in a period of change or scaling.
 
-Energy Radar: Rate energy levels across: Focus, Collaboration, Communication, Delivery, Fun. Shows team health trends over time.
+Energy Radar - Rate energy levels across: Focus, Collaboration, Communication, Delivery, Fun. Shows team health trends over time.
 
 Decision Frameworks for Prioritizing Retro Items
 
@@ -275,36 +275,36 @@ Teams that run retros poorly often stop running them. Prevent burnout by:
 
 Varying the format every 2-3 sprints: Same format every week becomes rote. Mix between Start/Stop/Continue, 4Ls, Energy Radar. Variety keeps participation fresh.
 
-Celebrating wins explicitly: Spend 5 minutes at the start recognizing what went well. "We shipped on time three sprints in a row" or "Deployment success rate hit 99%." Balance improvement focus with celebration.
+Celebrating wins explicitly - Spend 5 minutes at the start recognizing what went well. "We shipped on time three sprints in a row" or "Deployment success rate hit 99%." Balance improvement focus with celebration.
 
-Action item follow-up: Each retro starts with reviewing last sprint's action items. Did we complete them? Why or why not? This closing-the-loop step ensures retros don't feel like they produce nothing.
+Action item follow-up - Each retro starts with reviewing last sprint's action items. Did we complete them? Why or why not? This closing-the-loop step ensures retros don't feel like they produce nothing.
 
-Hard cutoff on action items: Limit to 2-4 action items per sprint maximum. More than that guarantees incomplete follow-through and team frustration.
+Hard cutoff on action items - Limit to 2-4 action items per sprint maximum. More than that guarantees incomplete follow-through and team frustration.
 
 Retro Participation Strategies for Distributed Teams
 
 Low participation kills async retros. Increase engagement by:
 
-Rotating facilitators: Each sprint, a different team member leads the retro. Brings different perspectives, prevents facilitator bottleneck, gives people leadership experience.
+Rotating facilitators - Each sprint, a different team member leads the retro. Brings different perspectives, prevents facilitator bottleneck, gives people leadership experience.
 
-Anonymous input option: Some team members have strong opinions but don't want attribution. Use anonymous retro tools (EasyRetro, Parabol) to allow this during input phase. During voting/discussion, non-anonymous is fine.
+Anonymous input option - Some team members have strong opinions but don't want attribution. Use anonymous retro tools (EasyRetro, Parabol) to allow this during input phase. During voting/discussion, non-anonymous is fine.
 
 1-on-1 input collection: If someone's been quiet, ask directly: "What went well this sprint? What should we improve?" Their answer might not show up unless prompted.
 
 Regular 1:1 check-ins separate from retros: Not everything belongs in a team retro. Some issues are interpersonal. Check in with individuals separately, then bring patterns to the team-level retro.
 
-Incentivize participation: Recognition matters. "Sarah brought up the CI/CD bottleneck early this sprint, which let us fix it proactively" → call that out in the all-hands.
+Incentivize participation - Recognition matters. "Sarah brought up the CI/CD bottleneck early this sprint, which let us fix it proactively" → call that out in the all-hands.
 
 Sample Retro Schedule for Engineering Teams
 
-Sprint cycles: 2 weeks
+Sprint cycles - 2 weeks
 
-Monday (Sprint end, 8 AM UTC): Facilitator creates retro board, posts announcement
+Monday (Sprint end, 8 AM UTC) - Facilitator creates retro board, posts announcement
 Monday-Tuesday (48h input window): Team adds items
-Wednesday morning: Facilitator groups items, removes author attribution
-Wednesday (24h voting): Team votes on top priorities
-Thursday morning: Facilitator extracts action items, creates Linear/Jira tickets
-Thursday: Summary posted to #engineering: "Sprint 24 retro complete. Action items linked below."
+Wednesday morning - Facilitator groups items, removes author attribution
+Wednesday (24h voting) - Team votes on top priorities
+Thursday morning - Facilitator extracts action items, creates Linear/Jira tickets
+Thursday - Summary posted to #engineering: "Sprint 24 retro complete. Action items linked below."
 
 This schedule respects time zones while maintaining a consistent weekly rhythm.
 

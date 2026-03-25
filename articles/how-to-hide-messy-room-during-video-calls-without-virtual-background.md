@@ -55,9 +55,9 @@ Collapsible Backdrop Screens (Budget: $30-80)
 These ring-light-style screens fold flat and pop open in seconds. A solid color (navy, gray, or white) works best for professional calls.
 
 Popular options:
-- Neewer 5-in-1 Collapsible Backdrop: ~$25-35, includes white/black/green/blue/gray. Lightweight, folds to 11" diameter. Works with any stand or table clamp.
-- Savage Paper Backdrop: ~$15-20 for rolls of background paper (54" wide). Needs separate stand ($40-80). Professional look, replaceable when worn.
-- Kate 5x7 ft Backdrop: ~$20-40, fabric option, darker colors hide wrinkles better than light colors.
+- Neewer 5-in-1 Collapsible Backdrop - ~$25-35, includes white/black/green/blue/gray. Lightweight, folds to 11" diameter. Works with any stand or table clamp.
+- Savage Paper Backdrop - ~$15-20 for rolls of background paper (54" wide). Needs separate stand ($40-80). Professional look, replaceable when worn.
+- Kate 5x7 ft Backdrop - ~$20-40, fabric option, darker colors hide wrinkles better than light colors.
 
 Fabric Hanging System ($50-150)
 Mount a curtain rod behind your desk and hang a piece of fabric. Velvet and flannel look premium, absorb sound, and reduce video glare.
@@ -70,7 +70,7 @@ Installation:
  - Flannel sheets: ~$15-30 per sheet, casual but professional
  - Cotton canvas: ~$20-40/yard, neutral backgrounds (tan, gray, navy work well)
 
-Mounting example: 60" wide backdrop needs 2-3 yards of fabric and a 6-foot rod
+Mounting example - 60" wide backdrop needs 2-3 yards of fabric and a 6-foot rod
 
 Room Divider/Folding Screen ($60-200)
 A small folding screen placed behind you creates an instant clean background and adds visual separation from your actual space.
@@ -80,7 +80,7 @@ Popular models:
 - Costway 4-Panel Room Divider: ~$70-100, various fabric patterns available
 - Versare Partition: ~$150-200, professional grade, durable frame
 
-Pro Setup Tip: Combine a backdrop with lighting (see section 3) for best results. Position the backdrop 3-4 feet behind you to create natural depth in your camera frame.
+Pro Setup Tip - Combine a backdrop with lighting (see section 3) for best results. Position the backdrop 3-4 feet behind you to create natural depth in your camera frame.
 
 3. Master Lighting to Hide Clutter
 
@@ -98,7 +98,7 @@ Popular options:
 - Elgato Key Light: ~$150-180, app-controlled brightness and color, professional quality
 - IKEA Hektar Pendant: ~$30, overhead mounting option
 
-Lighting placement: Position at eye level, 12-18" to the side of your camera. This creates flattering side lighting while brightening your face to darken the background.
+Lighting placement - Position at eye level, 12-18" to the side of your camera. This creates flattering side lighting while brightening your face to darken the background.
 
 Backdrop Lighting ($40-100):
 Place a light behind you aimed at the wall. This creates a subtle glow that reduces background detail visibility and creates depth.
@@ -108,7 +108,7 @@ Setup options:
 - Clamp desk lamp directed at backdrop: ~$25-50, adjustable angle
 - String lights: ~$15-30, casual look, less ideal for professional calls
 
-Placement: Mount 18-24" above your desk height, aimed at the backdrop fabric or wall
+Placement - Mount 18-24" above your desk height, aimed at the backdrop fabric or wall
 
 Natural Light Positioning (Free):
 Sit with a window in front of you. Bright daylight on your face achieves the same background-darkening effect and looks more natural than artificial lighting.
@@ -222,11 +222,11 @@ Keep a small basket near your desk for quick toss-ins during the call setup phas
 
 Update your background strategy with seasons:
 
-Winter: Use warmer backlighting (3000K color temperature), position lighting to create cozy atmosphere. Slightly cluttered but intentional backgrounds photograph well in warm light.
+Winter - Use warmer backlighting (3000K color temperature), position lighting to create cozy atmosphere. Slightly cluttered but intentional backgrounds photograph well in warm light.
 
-Spring/Summer: Use natural window light, ensure backdrop is bright and clean. Summer calls tend to be more casual; softer backgrounds work better than stark professional setups.
+Spring/Summer - Use natural window light, ensure backdrop is bright and clean. Summer calls tend to be more casual; softer backgrounds work better than stark professional setups.
 
-Fall: Warm neutral tones in backdrop fabrics complement the season. Autumn lighting (golden hour) makes imperfect backgrounds look intentional.
+Fall - Warm neutral tones in backdrop fabrics complement the season. Autumn lighting (golden hour) makes imperfect backgrounds look intentional.
 
 Rotating seasonal approaches prevents your background from looking stale across dozens of calls.
 
@@ -242,8 +242,8 @@ Dedicated call zone approach:
 
 Once set up, all future calls use the same backdrop, lighting, and camera angle. No setup needed beyond a quick background check 5 minutes before.
 
-Cost: One-time investment ($100-300) but eliminates daily setup time
-Benefit: Professional consistency across all calls
+Cost - One-time investment ($100-300) but eliminates daily setup time
+Benefit - Professional consistency across all calls
 
 12. Emergency Backup Solutions
 
@@ -287,7 +287,7 @@ nettop -P -n -l 1 | sort -k3 -rn | head -10
 sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder
 
 5. Force 5GHz WiFi band (avoid 2.4GHz congestion)
-In macOS: System Settings > Network > WiFi > Preferred Networks
+In macOS - System Settings > Network > WiFi > Preferred Networks
 Move your 5GHz SSID to the top of the list
 ```
 

@@ -25,7 +25,7 @@ Table of Contents
 - [Prerequisites](#prerequisites)
 - [Practical Examples from Real Scenarios](#practical-examples-from-real-scenarios)
 - [Best Practices for Remote Team Postmortems](#best-practices-for-remote-team-postmortems)
-- [Executive Summary [audience: leadership, customers]](#executive-summary-audience-leadership-customers)
+- [Executive Summary [audience - leadership, customers]](#executive-summary-audience-leadership-customers)
 - [Troubleshooting](#troubleshooting)
 
 This guide provides a framework and ready-to-use templates for announcing incidents and publishing postmortems to your remote team.
@@ -58,7 +58,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Core Components of an Incident Announcement
+Step 1 - Core Components of an Incident Announcement
 
 Every incident announcement should contain these elements:
 
@@ -69,17 +69,17 @@ Every incident announcement should contain these elements:
 - Next steps. what the team is doing
 - Timeline. key events in resolution
 
-Step 2: Ready-to-Use Template
+Step 2 - Ready-to-Use Template
 
 Create a file named `incident-template.md` in your team's documentation:
 
 ```markdown
-Step 3: Incident Announcement: [Brief Title]
+Step 3 - Incident Announcement: [Brief Title]
 
-Severity: [SEV-1/SEV-2/SEV-3]
-Status: [Investigating / Identified / Monitoring / Resolved]
-Start Time: [ISO 8601 timestamp]
-Current Time: [ISO 8601 timestamp]
+Severity - [SEV-1/SEV-2/SEV-3]
+Status - [Investigating / Identified / Monitoring / Resolved]
+Start Time - [ISO 8601 timestamp]
+Current Time - [ISO 8601 timestamp]
 
 Affected Services
 - [Service name]: [Impact description]
@@ -106,29 +106,29 @@ Timeline
 | HH:MM | Fix deployed |
 ```
 
-Step 4: Postmortem Publication Template
+Step 4 - Postmortem Publication Template
 
 After incident resolution, publish a detailed postmortem using this structure:
 
 ```markdown
-Postmortem: [Incident Name]
-Date: [YYYY-MM-DD]
-Authors: [Names of investigators]
-Status: [Published / Draft / Review]
+Postmortem - [Incident Name]
+Date - [YYYY-MM-DD]
+Authors - [Names of investigators]
+Status - [Published / Draft / Review]
 
-Step 5: Impact
+Step 5 - Impact
 - Duration: [Start] to [End]
 - Affected Users: [Percentage or count]
 - Services Affected: [List]
 
-Step 6: Root Cause
+Step 6 - Root Cause
 [Technical explanation of what actually went wrong. Be specific.]
 
-Step 7: Detection
+Step 7 - Detection
 - How was the incident detected?
 - Time from occurrence to detection: [X minutes]
 
-Step 8: Response
+Step 8 - Response
 Timeline
 | Timestamp | Action |
 |-----------|--------|
@@ -142,7 +142,7 @@ Key Players
 - Primary responder: [Name]
 - Communications lead: [Name]
 
-Step 9: Lessons Learned
+Step 9 - Lessons Learned
 
 What Went Well
 - [Specific positive outcome]
@@ -150,7 +150,7 @@ What Went Well
 What Could Be Improved
 - [Specific actionable improvement]
 
-Step 10: Action Items
+Step 10 - Action Items
 | ID | Description | Owner | Due Date |
 |----|-------------|-------|----------|
 | 1 | [Task description] | @username | YYYY-MM-DD |
@@ -159,15 +159,15 @@ Step 10: Action Items
 
 Practical Examples from Real Scenarios
 
-Example 1: Database Connection Pool Exhaustion
+Example 1 - Database Connection Pool Exhaustion
 
 ```markdown
-Step 11: Incident Announcement: API 503 Errors
+Step 11 - Incident Announcement: API 503 Errors
 
-Severity: SEV-1
-Status: Identified
-Start Time: 2024-01-15T14:32:00Z
-Current Time: 2024-01-15T15:10:00Z
+Severity - SEV-1
+Status - Identified
+Start Time - 2024-01-15T14:32:00Z
+Current Time - 2024-01-15T15:10:00Z
 
 Affected Services
 - API Gateway: 40% of requests returning 503
@@ -186,10 +186,10 @@ Next Update
 Expected within 30 minutes at 15:40 UTC.
 ```
 
-Example 2: Successful Detection and Fast Recovery
+Example 2 - Successful Detection and Fast Recovery
 
 ```markdown
-Step 12: Postmortem: CDN Cache Invalidation Failure
+Step 12 - Postmortem: CDN Cache Invalidation Failure
 
 Root Cause
 The new CDN provider API returned HTTP 200 for invalidation requests even when the underlying request was malformed. Our monitoring only checked for HTTP error codes, missing this edge case.
@@ -217,7 +217,7 @@ Vague action items like "improve monitoring" create accountability gaps. Use the
 
 ```markdown
 BAD:  "Improve alerting"
-GOOD: "Add PagerDuty alert for API latency exceeding 2 seconds (Owner: @sre, Due: 2024-02-05)"
+GOOD - "Add PagerDuty alert for API latency exceeding 2 seconds (Owner: @sre, Due: 2024-02-05)"
 ```
 
 Link Related Incidents
@@ -229,7 +229,7 @@ If this incident relates to previous ones, create explicit connections:
 
 This pattern helps identify systemic issues that require coordinated remediation.
 
-Step 13: Automate Template Distribution
+Step 13 - Automate Template Distribution
 
 Store templates in a centralized location and version control:
 
@@ -246,7 +246,7 @@ Directory structure for incident response docs
 
 Many teams integrate these templates directly into their incident management tools (PagerDuty, Opsgenie, or custom Slack bots) to auto-populate fields when incidents are declared.
 
-Step 14: Auto-Generating Postmortem Drafts from Incident Data
+Step 14 - Auto-Generating Postmortem Drafts from Incident Data
 
 Most teams lose 30-60 minutes after an incident reconstructing the timeline from Slack threads and alert logs. Automate the first draft by pulling data programmatically before the review meeting:
 
@@ -281,23 +281,23 @@ class PostmortemDraftGenerator:
                 events.append(f"| {ts[:16]} | {summary} |")
 
         draft = f"""# Postmortem Draft. Incident {incident_id}
-Status: Draft. complete before publishing
-Generated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}
+Status - Draft. complete before publishing
+Generated - {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}
 
-Step 15: Impact
+Step 15 - Impact
 - Duration: [fill from timeline below]
 - Affected Users: [fill]
 - Services Affected: [fill]
 
-Step 16: Root Cause
+Step 16 - Root Cause
 [To be determined during review meeting]
 
-Step 17: Timeline
+Step 17 - Timeline
 | Timestamp (UTC) | Event |
 |---|---|
 {chr(10).join(events[:20])}
 
-Step 18: Action Items
+Step 18 - Action Items
 | ID | Description | Owner | Due Date |
 |---|---|---|---|
 | 1 | [add during review] | @username | YYYY-MM-DD |
@@ -307,27 +307,27 @@ Step 18: Action Items
 
 Running this script immediately after incident resolution gives your team a structured draft with the actual timeline populated. The review meeting focuses on root cause and action items rather than reconstructing "what happened when."
 
-Step 19: Distributing Postmortems to the Right Audiences
+Step 19 - Distributing Postmortems to the Right Audiences
 
 A single postmortem serves multiple audiences with different information needs. Rather than writing separate documents, use section tagging to create targeted summaries:
 
 ```markdown
-Executive Summary [audience: leadership, customers]
+Executive Summary [audience - leadership, customers]
 On [date], [service] experienced an outage lasting [duration] affecting [X%] of users.
 The root cause was [one-sentence explanation]. We have deployed a fix and implemented
 [number] preventive measures to avoid recurrence.
 
-Step 20: Technical Root Cause [audience: engineering]
+Step 20 - Technical Root Cause [audience: engineering]
 [Full technical explanation with system diagrams, code references, and failure chain]
 
-Step 21: Customer Communication [audience: support, customer success]
+Step 21 - Customer Communication [audience: support, customer success]
 During the incident, customers experienced [specific symptoms].
 No data was lost. Customers who [specific action] during the window should [specific remediation].
 ```
 
 Distribute sections by audience using your documentation platform's permission system. Customers get the executive summary and customer communication sections through your status page. Engineering gets the full technical document internally. Leadership gets a condensed version with cost impact added.
 
-Step 22: Learning-Focused Language in Postmortems
+Step 22 - Learning-Focused Language in Postmortems
 
 Postmortem quality degrades when teams use blame-focused language. This happens subtly. "the engineer failed to" versus "the system allowed," or "human error" versus "missing guardrail." Use these language substitutions to keep postmortems psychologically safe and more actionable:
 

@@ -28,11 +28,11 @@ Table of Contents
 - [Integration with Development Workflows](#integration-with-development-workflows)
 - [Real-World Performance Testing](#real-world-performance-testing)
 - [Terminal Feature Comparison Table](#terminal-feature-comparison-table)
-- [Migration Path: From One to the Other](#migration-path-from-one-to-the-other)
-- [Advanced Configurations: Power User Setup](#advanced-configurations-power-user-setup)
+- [Migration Path - From One to the Other](#migration-path-from-one-to-the-other)
+- [Advanced Configurations - Power User Setup](#advanced-configurations-power-user-setup)
 - [Performance Tips](#performance-tips)
 - [When to Reconsider Your Choice](#when-to-reconsider-your-choice)
-- [Debugging and Troubleshooting: When Something Goes Wrong](#debugging-and-troubleshooting-when-something-goes-wrong)
+- [Debugging and Troubleshooting - When Something Goes Wrong](#debugging-and-troubleshooting-when-something-goes-wrong)
 - [Advanced Use Cases](#advanced-use-cases)
 - [Accessibility Features](#accessibility-features)
 - [Future Development and Maintenance](#future-development-and-maintenance)
@@ -136,8 +136,8 @@ Wezterm comes packed with features that Alacritty deliberately avoids:
 
 - Tab management: Wezterm includes native tabs, so you don't need tmux for basic tab handling.
 - Split panes: Horizontal and vertical splits work out of the box.
-- Search: Built-in search with regex support.
-- Hyperlinks: Automatic detection and clickable URLs.
+- Search - Built-in search with regex support.
+- Hyperlinks - Automatic detection and clickable URLs.
 - Copy/paste: Enhanced clipboard integration with mouse support.
 - Quick select: Easy selection and copying of terminal content.
 
@@ -213,7 +213,7 @@ Terminal Feature Comparison Table
 | True color | Yes (24-bit) | Yes (24-bit) |
 | Transparent background | Yes | Yes |
 
-Migration Path: From One to the Other
+Migration Path - From One to the Other
 
 Migrating from Alacritty to Wezterm:
 1. Install Wezterm
@@ -222,7 +222,7 @@ Migrating from Alacritty to Wezterm:
 4. Test keybindings and adjust if needed
 5. Uninstall Alacritty
 
-Expected migration time: 30 minutes. Worthwhile if you rely on tabs/splits and want one consolidated tool.
+Expected migration time - 30 minutes. Worthwhile if you rely on tabs/splits and want one consolidated tool.
 
 Migrating from Wezterm to Alacritty:
 1. Install Alacritty
@@ -232,9 +232,9 @@ Migrating from Wezterm to Alacritty:
 5. Test tmux workflow and adjust if needed
 6. Uninstall Wezterm
 
-Expected migration time: 1, 2 hours. Worthwhile if you prefer minimal tooling and are already comfortable with tmux.
+Expected migration time - 1, 2 hours. Worthwhile if you prefer minimal tooling and are already comfortable with tmux.
 
-Advanced Configurations: Power User Setup
+Advanced Configurations - Power User Setup
 
 Wezterm Power User Configuration
 
@@ -344,35 +344,35 @@ Switch to Wezterm if:
 
 Most developers don't need to switch after initially choosing. Both tools remain viable for professional development work.
 
-Debugging and Troubleshooting: When Something Goes Wrong
+Debugging and Troubleshooting - When Something Goes Wrong
 
 Common Wezterm Issues
 
-Problem: Font rendering looks blurry
-Solution: Disable `use_cap_height = true` in config. Some fonts render poorly with cap height correction enabled.
+Problem - Font rendering looks blurry
+Solution - Disable `use_cap_height = true` in config. Some fonts render poorly with cap height correction enabled.
 
-Problem: Copy/paste not working
-Solution: Check Wayland vs. X11 settings. On Linux, Wayland support in Wezterm is newer and sometimes requires configuration adjustments. Use `wezterm.enumerate_panes()` to debug pane state.
+Problem - Copy/paste not working
+Solution - Check Wayland vs. X11 settings. On Linux, Wayland support in Wezterm is newer and sometimes requires configuration adjustments. Use `wezterm.enumerate_panes()` to debug pane state.
 
-Problem: Colors look washed out
-Solution: Verify your terminal color scheme matches your system color scheme. Mismatch between terminal and shell theme causes this.
+Problem - Colors look washed out
+Solution - Verify your terminal color scheme matches your system color scheme. Mismatch between terminal and shell theme causes this.
 
-Problem: Keybindings aren't working
-Solution: Check for modifier key conflicts with your system. On macOS, Cmd key bindings might conflict with system shortcuts. Test with different modifier combinations.
+Problem - Keybindings aren't working
+Solution - Check for modifier key conflicts with your system. On macOS, Cmd key bindings might conflict with system shortcuts. Test with different modifier combinations.
 
 Common Alacritty Issues
 
-Problem: No cursor visible
-Solution: Check `cursor.style` in config. Some cursor styles don't render on certain systems. Try `Block` if `Beam` isn't working.
+Problem - No cursor visible
+Solution - Check `cursor.style` in config. Some cursor styles don't render on certain systems. Try `Block` if `Beam` isn't working.
 
-Problem: Performance degradation after running for hours
-Solution: Alacritty occasionally accumulates memory. Restart the terminal or check scrollback buffer size, very large buffers impact performance.
+Problem - Performance degradation after running for hours
+Solution - Alacritty occasionally accumulates memory. Restart the terminal or check scrollback buffer size, very large buffers impact performance.
 
-Problem: Colors distorted when using SSH
-Solution: Ensure SSH connection uses `TERM=xterm-256color` or similar. On the remote system, verify terminfo database is current.
+Problem - Colors distorted when using SSH
+Solution - Ensure SSH connection uses `TERM=xterm-256color` or similar. On the remote system, verify terminfo database is current.
 
-Problem: Ligatures not working
-Solution: Not all fonts support ligatures. Verify your font selection with `fc-list | grep "font-name"`. Common ligature-supporting fonts: Fira Code, JetBrains Mono, Cascadia Code.
+Problem - Ligatures not working
+Solution - Not all fonts support ligatures. Verify your font selection with `fc-list | grep "font-name"`. Common ligature-supporting fonts: Fira Code, JetBrains Mono, Cascadia Code.
 
 Advanced Use Cases
 
@@ -442,9 +442,9 @@ For developers with visual accessibility needs, Wezterm's more deliberate access
 
 Future Development and Maintenance
 
-Wezterm: Active development with frequent updates. The project is well-maintained and evolving. New features appear regularly based on community requests.
+Wezterm - Active development with frequent updates. The project is well-maintained and evolving. New features appear regularly based on community requests.
 
-Alacritty: Maintained but slower release cycle. Development is conservative, new features come slowly, but stability is excellent.
+Alacritty - Maintained but slower release cycle. Development is conservative, new features come slowly, but stability is excellent.
 
 If you prefer rapid iteration and new features, Wezterm wins. If you prefer stability and minimal surprises, Alacritty wins.
 

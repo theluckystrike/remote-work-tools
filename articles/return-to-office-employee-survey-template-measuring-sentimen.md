@@ -23,7 +23,7 @@ Employee sentiment data serves multiple purposes. First, it identifies practical
 
 Organizations that skip this step often face unexpected turnover. A 2025 Gartner survey found that companies implementing RTO policies without prior employee consultation experienced 23% higher resignation rates compared to those that gathered input first. The cost of turnover far exceeds the effort required to build a proper survey.
 
-Survey Template: Core Questions
+Survey Template - Core Questions
 
 Design your survey to capture quantitative data for analysis and qualitative feedback for context. The following template balances multiple-choice questions suitable for programmatic analysis with open-ended questions that reveal nuanced perspectives.
 
@@ -70,7 +70,7 @@ Qualitative Questions
 8. What workplace amenities or policies would improve your office experience?
 ```
 
-Implementation: Survey Form with JSON Export
+Implementation - Survey Form with JSON Export
 
 For developers building internal tools, here's a practical implementation using HTML and JavaScript that exports survey responses in a format suitable for analysis.
 

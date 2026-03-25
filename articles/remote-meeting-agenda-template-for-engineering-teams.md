@@ -50,19 +50,19 @@ Table of Contents
 - [Team Health Metrics](#team-health-metrics)
 - [Async Feedback (collected before meeting)](#async-feedback-collected-before-meeting)
 - [Best Practices for Remote Meeting Agendas](#best-practices-for-remote-meeting-agendas)
-- [Additional Template: Code Review Session](#additional-template-code-review-session)
+- [Additional Template - Code Review Session](#additional-template-code-review-session)
 - [PRs for Review](#prs-for-review)
 - [Pre-Meeting Setup](#pre-meeting-setup)
 - [During Session](#during-session)
 - [Action Items](#action-items)
-- [Template: Security and Compliance Review](#template-security-and-compliance-review)
+- [Template - Security and Compliance Review](#template-security-and-compliance-review)
 - [What We're Reviewing](#what-were-reviewing)
 - [Threat Model](#threat-model)
 - [Security Checklist](#security-checklist)
 - [Compliance Requirements](#compliance-requirements)
 - [Decision](#decision)
 - [Follow-up Items](#follow-up-items)
-- [Implementation: Converting Your Existing Meetings](#implementation-converting-your-existing-meetings)
+- [Implementation - Converting Your Existing Meetings](#implementation-converting-your-existing-meetings)
 - [Meeting Improvement Process](#meeting-improvement-process)
 
 Core Components of an Engineering Meeting Agenda
@@ -81,8 +81,8 @@ The daily standup is the most frequent meeting for engineering teams. Here's a t
 
 ```markdown
 Daily Standup - [Team Name]
-Date: YYYY-MM-DD
-Attendees: @person1, @person2, @person3
+Date - YYYY-MM-DD
+Attendees - @person1, @person2, @person3
 
 Previous Day Accomplishments
 - [Person 1]: What they completed
@@ -110,10 +110,10 @@ Sprint planning requires more structure than daily standups. Use this agenda tem
 
 ```markdown
 Sprint Planning - Sprint [N]
-Date: YYYY-MM-DD
-Duration: [X] hours
-Facilitator: @person
-Scrum Master: @person
+Date - YYYY-MM-DD
+Duration - [X] hours
+Facilitator - @person
+Scrum Master - @person
 
 Sprint Goal
 [One sentence describing what this sprint aims to achieve]
@@ -146,10 +146,10 @@ Technical design reviews benefit from a structured template that ensures all nec
 
 ```markdown
 Technical Design Review - [Feature Name]
-Date: YYYY-MM-DD
-Author: @engineer
-Reviewers: @person1, @person2
-Timebox: 30 minutes
+Date - YYYY-MM-DD
+Author - @engineer
+Reviewers - @person1, @person2
+Timebox - 30 minutes
 
 Problem Statement
 What problem are we solving? Why does it matter?
@@ -204,9 +204,9 @@ Retrospectives need specific adaptations for remote work. Here's a template that
 
 ```markdown
 Sprint Retrospective - Sprint [N]
-Date: YYYY-MM-DD
-Format: [Sync async hybrid]
-Facilitator: @person
+Date - YYYY-MM-DD
+Format - [Sync async hybrid]
+Facilitator - @person
 
 What Went Well
 - [ ] [Positive observation 1]
@@ -244,14 +244,14 @@ End every meeting with clear action items that include owners and deadlines. Amb
 
 Use the parking lot technique. When topics arise that deserve deeper discussion but aren't relevant to the current meeting's goal, add them to a parking lot and address them in a dedicated follow-up meeting. This keeps the current meeting focused while ensuring good ideas aren't lost.
 
-Additional Template: Code Review Session
+Additional Template - Code Review Session
 
 Code review meetings work better with structured agendas:
 
 ```markdown
 Code Review Session - [Date]
-Duration: 45 minutes
-Attendees: @reviewer1, @reviewer2, @author
+Duration - 45 minutes
+Attendees - @reviewer1, @reviewer2, @author
 
 PRs for Review
 | PR # | Title | Author | Priority | Est. Time |
@@ -277,15 +277,15 @@ Action Items
 
 Pre-reviewing code asynchronously, then discussing live, gets better results than reviewing live from scratch.
 
-Template: Security and Compliance Review
+Template - Security and Compliance Review
 
 For teams handling sensitive data or regulated workloads:
 
 ```markdown
 Security Review - [Feature Name]
-Date: YYYY-MM-DD
-Facilitator: @security-lead
-Attendees: Developers, Security, DevOps
+Date - YYYY-MM-DD
+Facilitator - @security-lead
+Attendees - Developers, Security, DevOps
 
 What We're Reviewing
 [Brief description of feature and why security review is needed]
@@ -302,7 +302,7 @@ Security Checklist
 - [ ] Data encrypted at rest
 - [ ] Logging in place for audit trail
 - [ ] Rate limiting implemented
-- [ ] Input validation comprehensive
+- [ ] Input validation complete
 - [ ] Error messages don't leak information
 
 Compliance Requirements
@@ -321,29 +321,29 @@ Follow-up Items
 
 Security discussions need structure to be thorough without becoming bureaucratic.
 
-Implementation: Converting Your Existing Meetings
+Implementation - Converting Your Existing Meetings
 
 If you already have meetings without good agendas, use this process to improve:
 
 ```markdown
 Meeting Improvement Process
 
-Week 1: Audit Existing Meetings
+Week 1 - Audit Existing Meetings
 - List all recurring meetings
 - For each, ask: "What decision or outcome should this produce?"
 - Note which meetings lack clear purpose
 
-Week 2: Draft Agendas
+Week 2 - Draft Agendas
 - For keep-worthy meetings, write an agenda template
 - Share with participants for feedback
 - Refine based on input
 
-Week 3: Trial Agendas
+Week 3 - Trial Agendas
 - Use agendas for all meetings
 - Ask team: "Is this structure helpful?"
 - Iterate based on feedback
 
-Week 4: Document and Iterate
+Week 4 - Document and Iterate
 - Finalize agenda templates
 - Add to your team wiki/handbook
 - Review quarterly to ensure they're still working

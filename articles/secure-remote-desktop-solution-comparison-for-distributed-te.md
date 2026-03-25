@@ -43,7 +43,7 @@ RDP with Security Hardening
 Traditional Remote Desktop Protocol remains viable when properly secured. The built-in Network Level Authentication (NLA) provides pre-session authentication, preventing unauthorized access before establishing connections.
 
 ```bash
-Linux server: enable RDP with xrdp
+Linux server - enable RDP with xrdp
 sudo apt update
 sudo apt install xrdp xorgxrdp
 sudo systemctl enable xrdp
@@ -60,7 +60,7 @@ ssh -L 13389:localhost:3389 user@jump-server
 Connect RDP client to localhost:13389
 ```
 
-The primary limitation: RDP works best in Windows-to-Windows scenarios. Cross-platform support requires additional configuration, and the protocol lacks native encryption for certain older implementations.
+The primary limitation - RDP works best in Windows-to-Windows scenarios. Cross-platform support requires additional configuration, and the protocol lacks native encryption for certain older implementations.
 
 VNC Solutions
 
@@ -145,7 +145,7 @@ Security Implementation Patterns
 
 Regardless of your chosen solution, implement these security practices:
 
-Jump Server Architecture: Never expose remote desktop services directly to the internet. Route all connections through a hardened jump server with strong authentication:
+Jump Server Architecture - Never expose remote desktop services directly to the internet. Route all connections through a hardened jump server with strong authentication:
 
 ```bash
 Fail2ban configuration for SSH brute force protection
@@ -157,9 +157,9 @@ maxretry = 3
 bantime = 3600
 ```
 
-Certificate-Based Authentication: Replace password authentication with certificates wherever possible. For RDP, configure smart card authentication. For SSH, use ed25519 keys with agent forwarding.
+Certificate-Based Authentication - Replace password authentication with certificates wherever possible. For RDP, configure smart card authentication. For SSH, use ed25519 keys with agent forwarding.
 
-Network Segmentation: Isolate remote desktop infrastructure on dedicated network segments. Use VLANs to separate development environments from production systems.
+Network Segmentation - Isolate remote desktop infrastructure on dedicated network segments. Use VLANs to separate development environments from production systems.
 
 Performance Optimization
 
@@ -228,25 +228,25 @@ Cost-Benefit Analysis
 
 Common Deployment Mistakes
 
-Mistake 1: Exposed Remote Ports
+Mistake 1 - Exposed Remote Ports
 
 Never expose RDP (3389) or VNC (5900+) directly to the internet. Always tunnel through SSH or use a VPN.
 
-Mistake 2: Insufficient Logging
+Mistake 2 - Insufficient Logging
 
 Without audit trails, security breaches go undetected. Implement centralized logging that captures all session starts, file transfers, and command execution.
 
-Mistake 3: Ignoring Performance Degradation
+Mistake 3 - Ignoring Performance Degradation
 
 Remote sessions over high-latency connections become unusable without optimization. Test with your actual geography before broad deployment.
 
-Mistake 4: Inconsistent Credential Management
+Mistake 4 - Inconsistent Credential Management
 
 Different solutions require different credential stores. Use a centralized secret management system (Vault, 1Password, AWS Secrets Manager) rather than scattered credentials.
 
 Implementation Patterns for Teams at Scale
 
-Pattern 1: Tiered Access
+Pattern 1 - Tiered Access
 
 Create three tiers of remote access:
 
@@ -256,7 +256,7 @@ Create three tiers of remote access:
 
 This approach matches access level to actual need, minimizing security exposure.
 
-Pattern 2: Session Isolation
+Pattern 2 - Session Isolation
 
 Run each remote session in its own container or virtual machine. This prevents one compromised session from affecting others. Useful for development teams working on sensitive codebases.
 
@@ -269,7 +269,7 @@ docker run -d \
   guacamole/guacamole
 ```
 
-Pattern 3: Time-Limited Credentials
+Pattern 3 - Time-Limited Credentials
 
 For privilege escalation scenarios, use temporary credentials that expire after fixed durations:
 

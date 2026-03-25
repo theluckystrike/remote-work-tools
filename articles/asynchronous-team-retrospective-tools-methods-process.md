@@ -19,14 +19,14 @@ Retrospectives are where teams identify improvements, celebrate wins, and solve 
 Table of Contents
 
 - [Why Traditional Retros Fail for Distributed Teams](#why-traditional-retros-fail-for-distributed-teams)
-- [Async Retrospective Template: 5-Day Format](#async-retrospective-template-5-day-format)
-- [Tool Comparison: Async Retro Platforms](#tool-comparison-async-retro-platforms)
-- [Real Tool Setup: Miro Async Retro Template](#real-tool-setup-miro-async-retro-template)
-- [Real Team Example: 6-Person Distributed Team](#real-team-example-6-person-distributed-team)
-- [Async Retro Formats: Pick the Right One](#async-retro-formats-pick-the-right-one)
-- [Implementation Tracking: Keep Action Items Alive](#implementation-tracking-keep-action-items-alive)
+- [Async Retrospective Template - 5-Day Format](#async-retrospective-template-5-day-format)
+- [Tool Comparison - Async Retro Platforms](#tool-comparison-async-retro-platforms)
+- [Real Tool Setup - Miro Async Retro Template](#real-tool-setup-miro-async-retro-template)
+- [Real Team Example - 6-Person Distributed Team](#real-team-example-6-person-distributed-team)
+- [Async Retro Formats - Pick the Right One](#async-retro-formats-pick-the-right-one)
+- [Implementation Tracking - Keep Action Items Alive](#implementation-tracking-keep-action-items-alive)
 - [Common Pitfalls + Solutions](#common-pitfalls-solutions)
-- [Recommended Workflow: 2-Week Cycle](#recommended-workflow-2-week-cycle)
+- [Recommended Workflow - 2-Week Cycle](#recommended-workflow-2-week-cycle)
 
 Why Traditional Retros Fail for Distributed Teams
 
@@ -38,13 +38,13 @@ Async retros solve this but introduce new problems:
 - Follow-up on action items is weak
 - The benefits of "real-time brainstorm" are lost
 
-The solution: Structured async + short sync resolution combining the best of both.
+The solution - Structured async + short sync resolution combining the best of both.
 
-Async Retrospective Template: 5-Day Format
+Async Retrospective Template - 5-Day Format
 
 Run this 5-day cycle every 2 weeks (or every sprint):
 
-Day 1: Prompt + Individual Contribution (Async)
+Day 1 - Prompt + Individual Contribution (Async)
 
 Wednesday 9 AM UTC. Post retro prompt to Slack
 
@@ -59,7 +59,7 @@ What should we try next?
 → Deadline: Friday 5 PM UTC
 → Takes 10 minutes to answer all three
 
-Miro board: [link]
+Miro board - [link]
 ```
 
 Why async works:
@@ -87,7 +87,7 @@ SHOULD TRY NEXT:
 - Rajesh: "Daily screenshot sharing instead of standups"
 ```
 
-Day 2: Clustering + Discussion (Async Moderation)
+Day 2 - Clustering + Discussion (Async Moderation)
 
 Friday morning. Facilitator clusters themes
 
@@ -116,19 +116,19 @@ THEMES THAT EMERGED:
 → Respond anytime Friday-Saturday
 ```
 
-Day 3: Voting + Consensus (Async)
+Day 3 - Voting + Consensus (Async)
 
 Saturday morning. Vote on priorities
 
 ```
-VOTE NOW: Which 2-3 items should we act on next sprint?
+VOTE NOW - Which 2-3 items should we act on next sprint?
 
 1. [ ] Reduce API access turnaround time         (3 votes)
 2. [ ] Write deploy procedure documentation       (5 votes)
 3. [ ] Pair on complex refactors                 (2 votes)
 4. [ ] Switch to async daily updates              (4 votes)
 
-RESULTS: Items with 4+ votes move to Decision Call
+RESULTS - Items with 4+ votes move to Decision Call
 ```
 
 Clear decision rule:
@@ -136,7 +136,7 @@ Clear decision rule:
 - 3-4 votes = Strong signal (discuss in sync call)
 - <3 votes = Good idea for later (revisit next month)
 
-Day 4: Sync Clarification Call (15-30 min, Optional)
+Day 4 - Sync Clarification Call (15-30 min, Optional)
 
 Monday 1 PM UTC. Brief discussion only
 
@@ -163,7 +163,7 @@ RETRO DECISION CALL. Monday 1 PM UTC (15 min)
 
 Who attends? Optional. Only those directly involved + anyone with questions.
 
-Day 5: Implementation Tracking (Async)
+Day 5 - Implementation Tracking (Async)
 
 Tuesday. Create implementation tracker in Slack
 
@@ -183,10 +183,10 @@ IMPLEMENTATION TRACKER. Sprint of Mar 15-28
    Comments: Elena will track first week feedback
 
 
-Next retro: March 29 (will check if these improved things)
+Next retro - March 29 (will check if these improved things)
 ```
 
-Tool Comparison: Async Retro Platforms
+Tool Comparison - Async Retro Platforms
 
 | Tool | Best For | Cost | Async Strength |
 |------|----------|------|----------------|
@@ -205,7 +205,7 @@ Recommendation by Team Size
 Async-heavy:   Google Docs + custom Slack bot (most flexible)
 ```
 
-Real Tool Setup: Miro Async Retro Template
+Real Tool Setup - Miro Async Retro Template
 
 Create once, reuse every sprint:
 
@@ -239,9 +239,9 @@ Miro instructions post:
 → No need to wait for others. contribute anytime
 ```
 
-Real Team Example: 6-Person Distributed Team
+Real Team Example - 6-Person Distributed Team
 
-Team: Patrick (Pacific), Elena (Europe), Rajesh (India), Sarah (Europe), Tom (SE Asia), Amy (Mountain)
+Team - Patrick (Pacific), Elena (Europe), Rajesh (India), Sarah (Europe), Tom (SE Asia), Amy (Mountain)
 
 Retro timeline:
 
@@ -267,7 +267,7 @@ Monday 1 PM UTC:
   Only Sarah + Elena attend sync call (decision call)
   Patrick watches recording later
   Rajesh was sleeping, reads notes next morning
-  Covers: What should deploy docs contain? (5 min)
+  Covers - What should deploy docs contain? (5 min)
   Who's deploying? (Sarah volunteers, 1 min)
   Try async updates? Format and success metric (5 min)
 
@@ -278,9 +278,9 @@ Tuesday:
   Runs all week while team focuses on sprint work
 ```
 
-Async Retro Formats: Pick the Right One
+Async Retro Formats - Pick the Right One
 
-Format 1: Start-Stop-Continue (Best for Teams Struggling with Retros)
+Format 1 - Start-Stop-Continue (Best for Teams Struggling with Retros)
 
 ```
 What should we START doing?
@@ -291,38 +291,38 @@ Simpler than "went well / could be better"
 Less accusatory ("stop doing X" is clearer than "that was bad")
 ```
 
-Format 2: I Like / I Wish / I Wonder (Best for Psychological Safety Issues)
+Format 2 - I Like / I Wish / I Wonder (Best for Psychological Safety Issues)
 
 ```
-I LIKE: What did you enjoy this sprint?
-I WISH: What do you wish was different?
-I WONDER: What could we try experimenting with?
+I LIKE - What did you enjoy this sprint?
+I WISH - What do you wish was different?
+I WONDER - What could we try experimenting with?
 
 Feels appreciative instead of critical
 "I wish" is less harsh than "what went wrong"
 "I wonder" invites curiosity instead of blame
 ```
 
-Format 3: Lightning Round (Best for Busy Teams)
+Format 3 - Lightning Round (Best for Busy Teams)
 
 ```
 One sentence only per person per category:
 
 What went well?
-Raj: "Shipping velocity"
+Raj - "Shipping velocity"
 
 What blocked us?
-Patrick: "API access permissions"
+Patrick - "API access permissions"
 
 What should we try?
-Amy: "Pair more on complex code"
+Amy - "Pair more on complex code"
 
 → Fast to complete (5 minutes total)
 → Gets signal without analysis
 → Good for quick teams that don't like long retros
 ```
 
-Implementation Tracking: Keep Action Items Alive
+Implementation Tracking - Keep Action Items Alive
 
 Retros fail when action items vanish. Track them visibly:
 
@@ -348,7 +348,7 @@ Updated every Monday
    Revisit: April retro
 ```
 
-Metrics: Did This Improve Anything?
+Metrics - Did This Improve Anything?
 
 Include in next retro:
 
@@ -358,7 +358,7 @@ OUTCOMES FROM LAST RETRO:
 
 Deploy docs:
   → Before: 2 days to deploy
-  → After: 1 hour (docs were clear!)
+  → After - 1 hour (docs were clear!)
   → What we learned: Docs + pairing work together
 
 Async updates:
@@ -379,7 +379,7 @@ Common Pitfalls + Solutions
 | One person dominates | Extroverts write lots, introverts silent | Use anonymous option, 1-sentence minimum |
 | Discussions get heated | Blame culture in retro comments | Use "I wish" instead of "you should have" |
 
-Recommended Workflow: 2-Week Cycle
+Recommended Workflow - 2-Week Cycle
 
 ```
 SPRINT WEEK 1:

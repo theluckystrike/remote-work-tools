@@ -228,13 +228,13 @@ Emoji | Channel | Usage | Alternative | Notes
 
 Real-World Case Studies
 
-Case 1: Finance Team Emoji Policies
+Case 1 - Finance Team Emoji Policies
 A fintech startup discovered emoji confusion causing real problems:
 -  was interpreted as both approval AND "I've seen this"
 -  caused anxiety (seemed critical rather than thoughtful)
 -  replied with random GIFs, derailing discussions
 
-Solution: They created a "Reaction Meanings" pinned message in #announcements:
+Solution - They created a "Reaction Meanings" pinned message in #announcements:
 ```
  = Approved (blocking significance)
  = Seen and reviewing
@@ -244,24 +244,24 @@ Solution: They created a "Reaction Meanings" pinned message in #announcements:
 
 Reduced misunderstandings from 8+ per week to <1.
 
-Case 2: Distributed Team GIF Culture
+Case 2 - Distributed Team GIF Culture
 A fully remote engineering team struggled with GIF spam killing focus:
 - 30+ GIFs daily in #general
 - Video conferencing interrupted by people watching clips
 - New hires felt pressure to participate or seem unfriendly
 
-Solution: They implemented "GIF Hours" (Friday 4-5pm UTC only) for GIF sharing in work channels. Social channels remained unrestricted. Reaction-based GIF voting replaced random posting.
+Solution - They implemented "GIF Hours" (Friday 4-5pm UTC only) for GIF sharing in work channels. Social channels remained unrestricted. Reaction-based GIF voting replaced random posting.
 
 Maintained fun culture while protecting focus time.
 
-Case 3: Multi-Cultural Team Emoji Misinterpretations
+Case 3 - Multi-Cultural Team Emoji Misinterpretations
 An international team with members from 12+ countries discovered:
 -  (pray hands) offended atheist team members
 -  (OK hand) is offensive in some Eastern European countries
 -  (grave) seemed morbid when used casually
 -  (broken heart) caused unnecessary worry
 
-Solution: They surveyed their team on emoji comfort, created a "Approved Emoji List" specific to their team values, and explicitly documented exceptions. They trained new hires during onboarding.
+Solution - They surveyed their team on emoji comfort, created a "Approved Emoji List" specific to their team values, and explicitly documented exceptions. They trained new hires during onboarding.
 
 Inclusive culture maintained while preventing accidental offense.
 
@@ -360,7 +360,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -372,7 +372,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

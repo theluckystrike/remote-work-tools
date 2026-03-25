@@ -24,7 +24,7 @@ Table of Contents
 - [Data Classification Guide](#data-classification-guide)
 - [Security Incident Response](#security-incident-response)
 - [Implementing the Checklist](#implementing-the-checklist)
-- [Security Onboarding: [New Hire Name]](#security-onboarding-new-hire-name)
+- [Security Onboarding - [New Hire Name]](#security-onboarding-new-hire-name)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 
 Why Remote Teams Need Structured Security Onboarding
@@ -37,7 +37,7 @@ A checklist solves this problem by making security requirements explicit. New hi
 
 Building Your Security Onboarding Checklist
 
-Phase 1: Account and Access Setup (Days 1-2)
+Phase 1 - Account and Access Setup (Days 1-2)
 
 The first phase covers fundamental access hygiene. New team members need to secure their primary accounts before touching any company resources.
 
@@ -53,14 +53,14 @@ For MFA setup, provide specific instructions for your authentication method. If 
 
 ```bash
 Verify MFA is enabled via API (GitHub Enterprise)
-gh api user -H "Accept: application/vnd.github+json" \
+gh api user -H "Accept - application/vnd.github+json" \
   -H "Authorization: Bearer $TOKEN" \
   --jq '.two_factor_authentication'
 ```
 
 This command returns `true` if MFA is enabled. Your IT team can run verification for new hires.
 
-Phase 2: Device Security (Days 2-3)
+Phase 2 - Device Security (Days 2-3)
 
 Remote team members work from their own devices, making endpoint security critical.
 
@@ -81,7 +81,7 @@ fdesetup status
 macOS: Check firewall status
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --getglobalstate
 
-Windows: Check BitLocker status
+Windows - Check BitLocker status
 manage-bde -status C:
 ```
 
@@ -115,7 +115,7 @@ else
 fi
 ```
 
-Phase 3: Communication Security (Days 3-4)
+Phase 3 - Communication Security (Days 3-4)
 
 Remote teams communicate through messaging platforms, video calls, and email. New hires must understand secure communication practices.
 
@@ -169,7 +169,7 @@ for warning in warnings:
 
 This script demonstrates common phishing patterns. Have new hires analyze sample emails using this framework.
 
-Phase 4: Data Handling (Days 4-5)
+Phase 4 - Data Handling (Days 4-5)
 
 Remote team members handle sensitive data without direct supervision. They need clear guidelines for classification and handling.
 
@@ -190,22 +190,22 @@ Internal Only
 - Internal policies and procedures
 - Meeting notes
 - Draft documents
-Handling: Store on approved cloud storage only
+Handling - Store on approved cloud storage only
 
 Confidential
 - Customer lists
 - Financial data
 - Employee personal information
-Handling: Encrypt at rest, never share externally
+Handling - Encrypt at rest, never share externally
 
 Restricted
 - Payment card data
 - Health records
 - Authentication credentials
-Handling: Access strictly controlled, encrypted, audit logged
+Handling - Access strictly controlled, encrypted, audit logged
 ```
 
-Phase 5: Incident Response (Days 5-7)
+Phase 5 - Incident Response (Days 5-7)
 
 New hires must know what to do when something goes wrong. Panic leads to worse outcomes than delayed responses.
 
@@ -228,9 +228,9 @@ If you suspect a breach:
 4. REPORT - Contact security@company.com within 1 hour
 5. WAIT - Do not attempt to fix it yourself
 
-Emergency Contact: security@yourcompany.com
-Phone (24/7): +1-555-SEC-TEAM
-Slack Channel: #security-incidents
+Emergency Contact - security@yourcompany.com
+Phone (24/7) - +1-555-SEC-TEAM
+Slack Channel - #security-incidents
 ```
 
 Implementing the Checklist
@@ -238,7 +238,7 @@ Implementing the Checklist
 Track checklist completion using a simple issue or task:
 
 ```markdown
-Security Onboarding: [New Hire Name]
+Security Onboarding - [New Hire Name]
 
 - [ ] Phase 1: Account Setup (Due: Day 2)
 - [ ] Phase 2: Device Security (Due: Day 3)
@@ -246,8 +246,8 @@ Security Onboarding: [New Hire Name]
 - [ ] Phase 4: Data Handling (Due: Day 5)
 - [ ] Phase 5: Incident Response (Due: Day 7)
 
-Manager Verification: ________________
-Completion Date: ________________
+Manager Verification - ________________
+Completion Date - ________________
 ```
 
 Schedule brief check-ins during onboarding. Use these to answer questions and verify understanding rather than just checking boxes.

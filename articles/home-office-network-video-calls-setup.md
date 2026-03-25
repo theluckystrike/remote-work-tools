@@ -20,17 +20,17 @@ Poor network quality during video calls is the most common complaint about remot
 
 Table of Contents
 
-- [Step 1: Measure Your Actual Problem](#step-1-measure-your-actual-problem)
-- [Step 2: Switch to Wired (Ethernet)](#step-2-switch-to-wired-ethernet)
-- [Step 3: Configure Router QoS](#step-3-configure-router-qos)
-- [Step 4: Eliminate Wi-Fi Interference](#step-4-eliminate-wi-fi-interference)
-- [Step 5: Separate Work Traffic with a VLAN (Optional, High Value)](#step-5-separate-work-traffic-with-a-vlan-optional-high-value)
-- [Step 6: ISP Upgrade Decision](#step-6-isp-upgrade-decision)
+- [Step 1 - Measure Your Actual Problem](#step-1-measure-your-actual-problem)
+- [Step 2 - Switch to Wired (Ethernet)](#step-2-switch-to-wired-ethernet)
+- [Step 3 - Configure Router QoS](#step-3-configure-router-qos)
+- [Step 4 - Eliminate Wi-Fi Interference](#step-4-eliminate-wi-fi-interference)
+- [Step 5 - Separate Work Traffic with a VLAN (Optional, High Value)](#step-5-separate-work-traffic-with-a-vlan-optional-high-value)
+- [Step 6 - ISP Upgrade Decision](#step-6-isp-upgrade-decision)
 - [Quick Diagnostics When Calls Are Degrading](#quick-diagnostics-when-calls-are-degrading)
 
 This guide covers the network changes that actually improve video call quality, in order of impact.
 
-Step 1: Measure Your Actual Problem
+Step 1 - Measure Your Actual Problem
 
 Before changing anything, understand what you're working with:
 
@@ -67,7 +67,7 @@ Video call requirements (per active video stream):
 
 If your upload speed is below 5 Mbps, that's likely the bottleneck. most residential ISPs prioritize download.
 
-Step 2: Switch to Wired (Ethernet)
+Step 2 - Switch to Wired (Ethernet)
 
 Wi-Fi has variable latency and is susceptible to interference from neighbors, microwaves, and walls. A wired Ethernet connection eliminates this variability entirely.
 
@@ -79,16 +79,16 @@ networksetup -getinfo Ethernet   # if connected via Ethernet
 
 Linux
 ip link show
-Look for: state UP for the wired interface (usually eth0 or enp3s0)
+Look for - state UP for the wired interface (usually eth0 or enp3s0)
 
 Check actual link speed on Linux
 ethtool eth0 | grep Speed
-Should show: Speed: 1000Mb/s (gigabit) for a good wired connection
+Should show - Speed: 1000Mb/s (gigabit) for a good wired connection
 
 Test latency. wired vs Wi-Fi comparison
 ping -c 20 google.com
-Wired: consistent ~5-15ms
-Wi-Fi: 15-50ms with high variance (jitter)
+Wired - consistent ~5-15ms
+Wi-Fi - 15-50ms with high variance (jitter)
 ```
 
 What you need for wired:
@@ -102,27 +102,27 @@ Powerline adapters (for rooms far from the router where running cable is difficu
 TP-Link AV1000 or AV2000 Powerline adapters
 Plug one adapter near your router (Ethernet cable to router)
 Plug second adapter at your desk (Ethernet cable to laptop)
-Speed through powerline: 300-600 Mbps on good wiring
-Latency: 5-15ms (much better than Wi-Fi)
+Speed through powerline - 300-600 Mbps on good wiring
+Latency - 5-15ms (much better than Wi-Fi)
 ```
 
-Step 3: Configure Router QoS
+Step 3 - Configure Router QoS
 
 Quality of Service (QoS) tells your router to prioritize video call traffic over large file downloads or backups that happen to be running at the same time:
 
 ```bash
 Most home routers have QoS in the web admin panel
-Access at: http://192.168.1.1 or http://192.168.0.1 (varies by router)
+Access at - http://192.168.1.1 or http://192.168.0.1 (varies by router)
 
-On Asus routers (web panel: router.asus.com)
+On Asus routers (web panel - router.asus.com)
 Adaptive QoS → Video Conferencing → drag to highest priority
 
 On UniFi (if you have a Ubiquiti setup):
 Network → Settings → Traffic Management → Add Rule
-Type: Application
-Application: Video Conferencing
-Rate Limit: None (guarantee bandwidth)
-DSCP Tag: EF (Expedited Forwarding)
+Type - Application
+Application - Video Conferencing
+Rate Limit - None (guarantee bandwidth)
+DSCP Tag - EF (Expedited Forwarding)
 
 For advanced control with OpenWrt or pfSense, configure DSCP queues
 These are tagging video call traffic to prioritize it in the queue
@@ -143,7 +143,7 @@ sudo tc filter add dev eth0 protocol ip parent 1:0 prio 1 u32 \
   flowid 1:1  # highest priority band
 ```
 
-Step 4: Eliminate Wi-Fi Interference
+Step 4 - Eliminate Wi-Fi Interference
 
 If you must use Wi-Fi:
 
@@ -152,7 +152,7 @@ Scan for congested channels (macOS)
 Hold Option → click Wi-Fi menu bar icon → Open Wireless Diagnostics
 Window → Scan → view channel utilization
 
-Linux: scan for nearby networks and their channels
+Linux - scan for nearby networks and their channels
 sudo iwlist wlan0 scan | grep -E "Channel|ESSID"
 or use nmcli
 nmcli device wifi list
@@ -171,7 +171,7 @@ Router placement:
 - Keep away from microwaves, cordless phones, baby monitors (2.4 GHz interference)
 - No router behind walls or inside cabinets
 
-Step 5: Separate Work Traffic with a VLAN (Optional, High Value)
+Step 5 - Separate Work Traffic with a VLAN (Optional, High Value)
 
 A VLAN for your work devices keeps your work traffic on dedicated bandwidth, away from streaming TVs, IoT devices, and gaming consoles:
 
@@ -180,23 +180,23 @@ Requires a VLAN-capable router and switch (UniFi, pfSense, or managed switch)
 
 UniFi setup:
 Networks → Add New Network
-Name: Work
-VLAN ID: 10
-Subnet: 192.168.10.0/24
+Name - Work
+VLAN ID - 10
+Subnet - 192.168.10.0/24
 Apply to work laptop's switch port or Wi-Fi SSID
 
 Create a dedicated SSID for work devices
 WiFi → Add New WiFi Network
-Name: Home-Work
-Network: Work (VLAN 10)
-Security: WPA3
+Name - Home-Work
+Network - Work (VLAN 10)
+Security - WPA3
 
 Bandwidth guarantee for VLAN 10 (UniFi Traffic Management)
-Rate Limit Group: Work Devices
-Minimum bandwidth: 50 Mbps upload / 50 Mbps download
+Rate Limit Group - Work Devices
+Minimum bandwidth - 50 Mbps upload / 50 Mbps download
 ```
 
-Step 6: ISP Upgrade Decision
+Step 6 - ISP Upgrade Decision
 
 Upgrade your ISP plan only after fixing the above. More bandwidth doesn't fix latency or Wi-Fi interference.
 
@@ -207,13 +207,13 @@ Current upload speed > 10 Mbps AND you have issues → it's not the ISP plan
 
 Choosing a plan:
 Upload is the bottleneck for video calls
-Cable/DOCSIS: typically asymmetric (200 Mbps down, 10-20 Mbps up). not ideal
-Fiber (FTTH): symmetric (200 Mbps down AND up). much better for video calls
+Cable/DOCSIS - typically asymmetric (200 Mbps down, 10-20 Mbps up). not ideal
+Fiber (FTTH) - symmetric (200 Mbps down AND up). much better for video calls
 5G home internet: variable, high upload on good signal (50-100 Mbps up typical)
 
 Minimum for serious remote work with multiple video calls per day:
-Upload: 25 Mbps (headroom for 1080p + buffer for other devices)
-Latency: < 30ms to closest server
+Upload - 25 Mbps (headroom for 1080p + buffer for other devices)
+Latency - < 30ms to closest server
 
 Check fiber availability in your area
 Open Fiber map from ISPs, or use nperf.com/map
@@ -232,14 +232,14 @@ Any packet loss (> 0%) causes audio drops
 macOS: nettop or Activity Monitor → Network
 nettop -P -p $(pgrep -x zoom || pgrep -x "Google Chrome")
 
-Linux: watch bandwidth per process
+Linux - watch bandwidth per process
 sudo nethogs
 or
 sudo iftop -i eth0
 
 3. Check if another process is hogging bandwidth
 macOS: Activity Monitor → Network tab → sort by Sent Bytes/sec
-Linux: sudo nethogs eth0
+Linux - sudo nethogs eth0
 
 4. Check CPU (high CPU causes video encoding drops)
 macOS

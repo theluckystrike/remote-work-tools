@@ -46,7 +46,7 @@ Components of Effective Vendor Evaluation Documentation
 
 Evaluation Process Framework
 
-Phase 1: Initial Screening
+Phase 1 - Initial Screening
 
 Filter vendors based on basic requirements before detailed evaluation. Create a checklist:
 
@@ -55,18 +55,18 @@ Filter vendors based on basic requirements before detailed evaluation. Create a 
 3. Does pricing fit within budget?
 4. Are core security requirements met?
 
-Phase 2: Detailed Evaluation
+Phase 2 - Detailed Evaluation
 
 Conduct thorough evaluations using your documented criteria. Where possible, involve actual end users in testing:
 
 ```markdown
 Evaluation Session Template
 
-Vendor: [Name]
-Evaluator: [Name]
-Date: [Date]
+Vendor - [Name]
+Evaluator - [Name]
+Date - [Date]
 
-Test Scenario: [Describe what you tested]
+Test Scenario - [Describe what you tested]
 
 Pros Identified:
 1.
@@ -76,12 +76,12 @@ Cons Identified:
 1.
 2.
 
-Screenshots Attached: [Yes/No]
+Screenshots Attached - [Yes/No]
 
 [Proceed/Do Not Proceed]
 ```
 
-Phase 3: Reference Checks
+Phase 3 - Reference Checks
 
 Reach out to current customers, preferably those with similar team sizes and use cases. Prepare specific questions:
 
@@ -101,13 +101,13 @@ Vendor Evaluation Template You Can Use
 Here's a complete template your team can adapt immediately:
 
 ```markdown
-Vendor Evaluation: [Product Name]
+Vendor Evaluation - [Product Name]
 
 Executive Summary
-Problem Solved: [1-2 sentences]
-Recommended Action: [Proceed/Consider alternatives/Do not proceed]
-Cost: $[amount]
-Timeline to Implementation: [X weeks]
+Problem Solved - [1-2 sentences]
+Recommended Action - [Proceed/Consider alternatives/Do not proceed]
+Cost - $[amount]
+Timeline to Implementation - [X weeks]
 ---
 
 Requirements Assessment
@@ -121,7 +121,7 @@ Requirements Assessment
 | Audit logging | 8 | / | How far back? Export format? |
 | Mobile app | 5 | / | iOS/Android/both? |
 
-Total Score: [Sum of (weight × whether met)]
+Total Score - [Sum of (weight × whether met)]
 
 ---
 
@@ -157,7 +157,7 @@ Cost Analysis (3-Year TCO)
 | Support tier | $X/month | $X/month | $X/month | $ |
 | Total | | | | $X |
 
-Cost per user per year: [Total ÷ 3 ÷ avg users]
+Cost per user per year - [Total ÷ 3 ÷ avg users]
 
 ---
 
@@ -186,9 +186,9 @@ Data Export Capabilities:
 
 Evaluation Sessions
 
-Session 1: [Evaluator], [Date]
+Session 1 - [Evaluator], [Date]
 
-Test Scenario: User onboarding workflow
+Test Scenario - User onboarding workflow
 - Time spent: 2 hours
 - Pain points encountered: [List]
 - Positive surprises: [List]
@@ -198,7 +198,7 @@ Test Scenario: User onboarding workflow
 
 Final Recommendation
 
-Recommended: [Yes/No/Conditional]
+Recommended - [Yes/No/Conditional]
 Key Advantages:
 1.
 2.
@@ -207,9 +207,9 @@ Key Risks:
 1.
 2.
 
-Next Steps: [Deploy/Get more info/Reject]
-Decision Authority: [Who approved]
-Decision Date: [Date]
+Next Steps - [Deploy/Get more info/Reject]
+Decision Authority - [Who approved]
+Decision Date - [Date]
 ```
 
 Save this template in a shared folder and fill it out collaboratively. Version control (keep dated copies) creates a record of how your requirements and vendor capabilities evolved.
@@ -261,7 +261,7 @@ Stop further evaluation if you see these warning signs:
 - Contract trap clauses: Auto-renewal without clear cancellation terms
 - Dismissive of integration: "Our API is not our focus" = expect integration pain
 - No references: Can't provide names of similar-sized customers
-- Customer churn: Research: are customers leaving for competitors?
+- Customer churn: Research - are customers leaving for competitors?
 - Requires personal data: Wants employee data before trial period
 - Pricing "upon request": Usually signals premium pricing that doesn't scale
 

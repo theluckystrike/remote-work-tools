@@ -37,7 +37,7 @@ Table of Contents
 - [Template for Different Incident Types](#template-for-different-incident-types)
 - [Common Postmortem Mistakes to Avoid](#common-postmortem-mistakes-to-avoid)
 - [Measuring Postmortem Program Health](#measuring-postmortem-program-health)
-- [Handling Sensitive Incidents: Approach Differences](#handling-sensitive-incidents-approach-differences)
+- [Handling Sensitive Incidents - Approach Differences](#handling-sensitive-incidents-approach-differences)
 - [Postmortem Anti-Patterns to Avoid](#postmortem-anti-patterns-to-avoid)
 - [Postmortem as Learning Tool](#postmortem-as-learning-tool)
 - [Monitoring Gaps](#monitoring-gaps)
@@ -99,7 +99,7 @@ Writing an Effective Root Cause Analysis
 
 The root cause section is where most postmortems fall short. Shallow analysis. "the server ran out of memory". leads to shallow fixes that do not prevent recurrence. The 5 Whys technique forces deeper investigation:
 
-Incident: API response times exceeded 10 seconds for 45 minutes.
+Incident - API response times exceeded 10 seconds for 45 minutes.
 
 1. Why did response times spike? The database connection pool was exhausted.
 2. Why was the pool exhausted? A background job was holding connections open without releasing them.
@@ -187,11 +187,11 @@ The template structure matters. Break postmortems into sections that accommodate
 
 Executive Summary (5 minutes to read): 2-3 sentences on what happened, impact, and the critical finding. This is what executives and non-technical stakeholders read first.
 
-Timeline (10 minutes): Ordered events with UTC timestamps. Include detection time, escalation time, workaround application, and full resolution. Use precise language: "API returned 500 errors" rather than "API was broken."
+Timeline (10 minutes) - Ordered events with UTC timestamps. Include detection time, escalation time, workaround application, and full resolution. Use precise language: "API returned 500 errors" rather than "API was broken."
 
-Impact Analysis (5 minutes): Quantify the blast radius. How many users? For how long? What percentage of traffic was affected? If there's financial impact, include it here. Remote teams especially benefit from this clarity, people working async can't ask clarifying questions immediately.
+Impact Analysis (5 minutes) - Quantify the blast radius. How many users? For how long? What percentage of traffic was affected? If there's financial impact, include it here. Remote teams especially benefit from this clarity, people working async can't ask clarifying questions immediately.
 
-Root Cause (10 minutes): This is the hardest section. Use the "5 whys" technique but document it explicitly:
+Root Cause (10 minutes) - This is the hardest section. Use the "5 whys" technique but document it explicitly:
 
 - Why did the API fail? The deployment script didn't run health checks.
 - Why didn't it run health checks? Someone disabled them for speed on Wednesday.
@@ -201,9 +201,9 @@ Root Cause (10 minutes): This is the hardest section. Use the "5 whys" technique
 
 The last "why" is usually systemic, lack of process, tooling, training, or ownership. Root cause isn't always obvious; it's okay to revisit this section as discussions unfold.
 
-Contributing Factors: These are the conditions that made the root cause possible. Maybe the root cause was deploying untested code, but contributing factors included: no code review for this change, alerts didn't fire, no staging environment available.
+Contributing Factors - These are the conditions that made the root cause possible. Maybe the root cause was deploying untested code, but contributing factors included: no code review for this change, alerts didn't fire, no staging environment available.
 
-Impact Timeline Table: For extended incidents, create a detailed table showing when different services started failing:
+Impact Timeline Table - For extended incidents, create a detailed table showing when different services started failing:
 
 | Service | Detection | Degradation Start | Full Outage | Resolution | Duration |
 |---------|-----------|------------------|-------------|-----------|----------|
@@ -243,27 +243,27 @@ Template for Different Incident Types
 
 Database Outage Template
 
-Include: exact query that caused the issue, explain query plan changes if relevant, data integrity verification steps taken.
+Include - exact query that caused the issue, explain query plan changes if relevant, data integrity verification steps taken.
 
 Deployment Failure Template
 
-Include: exact commit that was deployed, what changed from previous version, why it wasn't caught in testing, rollback process used.
+Include - exact commit that was deployed, what changed from previous version, why it wasn't caught in testing, rollback process used.
 
 Third-Party Service Failure Template
 
-Include: provider's status page details, what our team changed recently (even unrelated), whether this was a known risk, communication with the vendor.
+Include - provider's status page details, what our team changed recently (even unrelated), whether this was a known risk, communication with the vendor.
 
 Common Postmortem Mistakes to Avoid
 
-Blame-focused root causes: "The developer deployed without testing" isn't a root cause, it's a symptom. The actual cause is the process allows untested code to ship. Address the system, not the person.
+Blame-focused root causes - "The developer deployed without testing" isn't a root cause, it's a symptom. The actual cause is the process allows untested code to ship. Address the system, not the person.
 
-Vague action items: "Improve monitoring" is too vague. Write "Implement alerting when API error rate exceeds 5% for 30 seconds" with an assigned owner.
+Vague action items - "Improve monitoring" is too vague. Write "Implement alerting when API error rate exceeds 5% for 30 seconds" with an assigned owner.
 
 Skipping postmortems on "small" incidents: Small incidents often reveal systemic weaknesses. The postmortem showing you had to restart a service manually might reveal a deeper reliability issue.
 
-Never closing the loop: If you don't track action items and report completion, postmortems build cynicism. Teams assume nothing changes and stop engaging with the process.
+Never closing the loop - If you don't track action items and report completion, postmortems build cynicism. Teams assume nothing changes and stop engaging with the process.
 
-Writing for the wrong audience: Avoid excessive technical jargon if non-technical stakeholders read these. Provide context: "database connection pool" → "the database server's limit on simultaneous connections."
+Writing for the wrong audience - Avoid excessive technical jargon if non-technical stakeholders read these. Provide context: "database connection pool" → "the database server's limit on simultaneous connections."
 
 Measuring Postmortem Program Health
 
@@ -275,7 +275,7 @@ Track these metrics to understand if your postmortem culture is working:
 - Team participation: Do comments and questions come from a broad group or just a few people?
 - Search usage: Are people searching your postmortem archive to avoid repeating issues?
 
-Handling Sensitive Incidents: Approach Differences
+Handling Sensitive Incidents - Approach Differences
 
 Not all incidents warrant a full postmortem. Calibrate your response:
 
@@ -288,7 +288,7 @@ Security incidents require different handling due to legal/compliance concerns:
 - Restricted postmortem: Limited to relevant teams, sensitive data redacted
 - Legal review: Some companies require legal review before publication
 
-Approach: Write a full postmortem internally. Have a legal/compliance person review before any external communication. The internal version helps prevent recurrence; the external version builds customer trust.
+Approach - Write a full postmortem internally. Have a legal/compliance person review before any external communication. The internal version helps prevent recurrence; the external version builds customer trust.
 
 Data Loss or Corruption
 
@@ -316,43 +316,43 @@ These incidents might not warrant full postmortems:
 - Issues that are one-off (unlikely to repeat)
 - Incidents where the root cause is obvious and already fixed
 
-Decision framework: "Would this knowledge prevent a future outage?" If yes, postmortem it. If no, doc it lightly.
+Decision framework - "Would this knowledge prevent a future outage?" If yes, postmortem it. If no, doc it lightly.
 
 Postmortem Anti-Patterns to Avoid
 
 The "Blame Hunt" Postmortem
 
-Symptom: Root cause is "Developer X deployed without testing" or "DBA made a bad query"
+Symptom - Root cause is "Developer X deployed without testing" or "DBA made a bad query"
 
-Why it fails: Blaming individuals doesn't prevent recurrence. The real cause is the system allowed untested code to deploy or allowed bad queries to reach production.
+Why it fails - Blaming individuals doesn't prevent recurrence. The real cause is the system allowed untested code to deploy or allowed bad queries to reach production.
 
-Fix: Dig deeper. "The deployment process didn't prevent untested code from shipping. Why? Because code review doesn't test integrated behavior. How do we fix? Add automated integration tests to CI/CD."
+Fix - Dig deeper. "The deployment process didn't prevent untested code from shipping. Why? Because code review doesn't test integrated behavior. How do we fix? Add automated integration tests to CI/CD."
 
 The Vague Action Items
 
-Symptom: "Improve monitoring" or "Better communication" or "Prevent this in the future"
+Symptom - "Improve monitoring" or "Better communication" or "Prevent this in the future"
 
-Why it fails: Actionable items require specificity. "Improve monitoring" is not an action item, it's an aspiration.
+Why it fails - Actionable items require specificity. "Improve monitoring" is not an action item, it's an aspiration.
 
-Fix: Every action item needs: what, who, when, and how you'll know it's done.
-- Good: "Alice will implement alerting when API error rate exceeds 5% for >30 seconds. Alert should trigger Slack notification to #incidents by April 15."
-- Bad: "Improve API error detection."
+Fix - Every action item needs: what, who, when, and how you'll know it's done.
+- Good - "Alice will implement alerting when API error rate exceeds 5% for >30 seconds. Alert should trigger Slack notification to #incidents by April 15."
+- Bad - "Improve API error detection."
 
 The Never-Closed Loop
 
-Symptom: Postmortems are written, but action items are never tracked
+Symptom - Postmortems are written, but action items are never tracked
 
-Why it fails: Teams learn that postmortems are theater, not real. Cynicism sets in. "Why discuss improvements if nothing changes?"
+Why it fails - Teams learn that postmortems are theater, not real. Cynicism sets in. "Why discuss improvements if nothing changes?"
 
-Fix: Track action items in your project management system. Review action item status in the next incident or retrospective. If an action item hasn't been completed within 30 days, escalate.
+Fix - Track action items in your project management system. Review action item status in the next incident or retrospective. If an action item hasn't been completed within 30 days, escalate.
 
 The Overly Long Postmortem
 
-Symptom: 50-page document with exhaustive timelines and every possible detail
+Symptom - 50-page document with exhaustive timelines and every possible detail
 
-Why it fails: People don't read it. Key learnings get buried. Executive attention dies.
+Why it fails - People don't read it. Key learnings get buried. Executive attention dies.
 
-Fix: Target 3-5 pages for most incidents. Use this structure:
+Fix - Target 3-5 pages for most incidents. Use this structure:
 - 1 page: Executive summary, impact, what changed
 - 1-2 pages: Timeline and root cause
 - 1-2 pages: Contributing factors and lessons learned
@@ -361,11 +361,11 @@ Fix: Target 3-5 pages for most incidents. Use this structure:
 
 The Missing Context
 
-Symptom: Postmortem assumes readers know the system architecture and decision history
+Symptom - Postmortem assumes readers know the system architecture and decision history
 
-Why it fails: New team members, people from other teams, and people who weren't on the incident can't understand what happened.
+Why it fails - New team members, people from other teams, and people who weren't on the incident can't understand what happened.
 
-Fix: Add context section: "The API runs on Kubernetes with 6 pods. It uses Redis for caching. Before this incident, Redis was hitting memory limits because..."
+Fix - Add context section: "The API runs on Kubernetes with 6 pods. It uses Redis for caching. Before this incident, Redis was hitting memory limits because..."
 
 Postmortem as Learning Tool
 

@@ -28,12 +28,12 @@ Table of Contents
 - [Software KVM Alternatives for Advanced Users](#software-kvm-alternatives-for-advanced-users)
 - [Troubleshooting Common KVM Issues](#troubleshooting-common-kvm-issues)
 - [Practical Setup Example](#practical-setup-example)
-- [Advanced Configuration: Automatic Switching](#advanced-configuration-automatic-switching)
+- [Advanced Configuration - Automatic Switching](#advanced-configuration-automatic-switching)
 - [Top KVM Models for Developers (2026)](#top-kvm-models-for-developers-2026)
 - [Advanced Peripheral Management](#advanced-peripheral-management)
 - [Troubleshooting Advanced Issues](#troubleshooting-advanced-issues)
 - [Cable Management Best Practices](#cable-management-best-practices)
-- [Performance Testing: Gaming vs Work](#performance-testing-gaming-vs-work)
+- [Performance Testing - Gaming vs Work](#performance-testing-gaming-vs-work)
 - [Building Your Ideal Setup Incrementally](#building-your-ideal-setup-incrementally)
 - [Switching Between Work and Gaming Mindsets](#switching-between-work-and-gaming-mindsets)
 
@@ -148,7 +148,7 @@ A complete developer setup might include:
 
 This setup lets you develop on your work machine while keeping your gaming PC available for breaks, with instant switching through a hotkey press.
 
-Advanced Configuration: Automatic Switching
+Advanced Configuration - Automatic Switching
 
 Some KVM models support automatic switching based on which computer is powered on or sending a video signal. This creates a simple experience, if your work laptop is docked and your gaming PC is off, the KVM automatically selects the laptop.
 
@@ -156,28 +156,28 @@ You can combine hardware and software approaches. Use the hardware KVM for your 
 
 Top KVM Models for Developers (2026)
 
-Budget Option: ATEN CS682
+Budget Option - ATEN CS682
 
-Price: $80-120
-Features: 2 HDMI inputs, 1 USB port, keyboard hotkey switching
+Price - $80-120
+Features - 2 HDMI inputs, 1 USB port, keyboard hotkey switching
 Affordable, reliable, compact
 Single USB port limits peripheral switching
 
 Best for small developers or gaming-only scenarios.
 
-Mid-Range: TESmart Ultra 4K 2-Port
+Mid-Range - TESmart Ultra 4K 2-Port
 
-Price: $200-250
-Features: 4K@60Hz via HDMI, dual USB hubs, RS-232 control
+Price - $200-250
+Features - 4K@60Hz via HDMI, dual USB hubs, RS-232 control
 4K support matters for modern displays, two USB 3.0 ports
 Slightly bulky, requires power adapter
 
 Excellent for developers running high-resolution external displays. The dual USB hubs handle keyboards, mice, and additional peripherals.
 
-Premium: Cyberpowerpc CP1500
+Premium - Cyberpowerpc CP1500
 
-Price: $400-500
-Features: Displayport 1.4, USB-C throughput, Ethernet switching
+Price - $400-500
+Features - Displayport 1.4, USB-C throughput, Ethernet switching
 Overkill for most developers, expensive
 
 Only necessary if you're using the latest high-resolution displays with Displayport 2.0.
@@ -195,13 +195,13 @@ Advanced Peripheral Management
 
 A pure KVM switch handles monitor, keyboard, mouse. Extending this to handle printers, scanners, document cameras, or external drives requires additional layers:
 
-Option 1: USB Hub Approach
+Option 1 - USB Hub Approach
 Connect a powered USB hub to one of the KVM's USB ports. Plug all accessories into the hub. When you switch machines, all USB devices follow, though they may need a few seconds to re-enumerate.
 
-Option 2: Separate USB Switches
+Option 2 - Separate USB Switches
 Use a dedicated USB switch (cheaper than a full KVM) for accessories while keeping the KVM just for keyboard/mouse/monitor. This prevents the situation where your printer needs to reset every time you switch machines.
 
-Option 3: Network-Accessible Devices
+Option 3 - Network-Accessible Devices
 Configure peripherals with network access (wireless printers, network storage). This eliminates switching overhead entirely, peripherals remain accessible regardless of which computer is active.
 
 ```bash
@@ -209,7 +209,7 @@ Configuring shared network printer
 Both computers can access the same printer without KVM switching
 
 On Windows or Mac, add printer using IP address
-Printer IP: 192.168.1.100
+Printer IP - 192.168.1.100
 Shared from print server on the network
 
 No USB switching needed, both machines see the same device
@@ -224,17 +224,17 @@ Mouse and keyboard lag after switching: Some KVMs take time re-enumerating USB d
 2. Use USB 3.0 cables instead of 2.0 if your KVM supports it
 3. Update KVM firmware if available
 
-Resolution detection problems: The KVM can't communicate EDID to one computer:
+Resolution detection problems - The KVM can't communicate EDID to one computer:
 1. Check if the KVM has EDID emulation switches (usually DIP switches on the back)
 2. Manually set resolution on the affected computer to match your monitor
 3. Some KVMs include "EDID learn" modes, trigger this on the primary computer first
 
-Audio cutting out: If your monitor has speakers or headphones are connected:
+Audio cutting out - If your monitor has speakers or headphones are connected:
 1. Verify the KVM includes audio line support
 2. Check that audio cables are connected separately from video
 3. Configure audio input/output in your OS to use the monitor or headphones explicitly
 
-USB device compatibility: Certain keyboards (especially gaming keyboards with RGB) sometimes lose configuration after switching:
+USB device compatibility - Certain keyboards (especially gaming keyboards with RGB) sometimes lose configuration after switching:
 1. Update keyboard firmware
 2. Use KVMs with independent USB hubs rather than shared hubs
 3. Configure keyboard settings to save to onboard memory rather than software
@@ -253,18 +253,18 @@ Create a simple document mapping:
 
 ```
 ATEN KVM Port Mappings
-Port 1: Gaming PC (DisplayPort) → HDMI on KVM
-Port 2: Work Laptop (USB-C) → USB-C on KVM
-USB Hub 1: Keyboard → Logitech MX Keys
-USB Hub 2: Mouse → Logitech MX Master
-USB Hub 3: External SSD → Samsung T7
+Port 1 - Gaming PC (DisplayPort) → HDMI on KVM
+Port 2 - Work Laptop (USB-C) → USB-C on KVM
+USB Hub 1 - Keyboard → Logitech MX Keys
+USB Hub 2 - Mouse → Logitech MX Master
+USB Hub 3 - External SSD → Samsung T7
 ```
 
-Performance Testing: Gaming vs Work
+Performance Testing - Gaming vs Work
 
 A dual PC setup only works if switching doesn't interrupt your workflow:
 
-Gaming performance: Test frame rates on both sides. A KVM shouldn't reduce FPS, but poor signal quality can cause artifacts.
+Gaming performance - Test frame rates on both sides. A KVM shouldn't reduce FPS, but poor signal quality can cause artifacts.
 
 ```bash
 Test signal quality with a benchmark
@@ -274,19 +274,19 @@ glxgears  # On Linux
 Frame rate should be identical whether connected directly or via KVM
 ```
 
-Work performance: IDE responsiveness, file transfer speeds to external drives, and network latency should be unaffected.
+Work performance - IDE responsiveness, file transfer speeds to external drives, and network latency should be unaffected.
 
-Test methodology: Run the same game or application on both computers, once connected directly to the monitor and once through the KVM. If you see performance differences, the KVM is introducing signal degradation.
+Test methodology - Run the same game or application on both computers, once connected directly to the monitor and once through the KVM. If you see performance differences, the KVM is introducing signal degradation.
 
 Building Your Ideal Setup Incrementally
 
 Start simple and expand:
 
 Week 1: Basic hardware KVM with monitor, keyboard, mouse
-Week 2: Add USB hub for one external drive
-Week 3: Integrate Barrier software for clipboard sync
-Week 4: Add second USB hub for additional peripherals
-Week 5: Automate peripheral switching with scripts
+Week 2 - Add USB hub for one external drive
+Week 3 - Integrate Barrier software for clipboard sync
+Week 4 - Add second USB hub for additional peripherals
+Week 5 - Automate peripheral switching with scripts
 
 This incremental approach prevents overwhelming yourself while building expertise with each component.
 

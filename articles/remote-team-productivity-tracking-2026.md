@@ -52,9 +52,9 @@ Time Doctor
 
 Time Doctor is one of the more feature-complete team time trackers. It has optional screenshot capture (which you should probably disable), time tracking, project/task allocation, and reports.
 
-Best for: Client-billing agencies that need detailed time allocation across projects.
+Best for - Client-billing agencies that need detailed time allocation across projects.
 
-Pricing: $5.90/user/month (Basic). $8.40/user/month (Standard. most features). $16.70/user/month (Premium).
+Pricing - $5.90/user/month (Basic). $8.40/user/month (Standard. most features). $16.70/user/month (Premium).
 
 Setup:
 
@@ -83,9 +83,9 @@ Hubstaff
 
 Hubstaff is similar to Time Doctor with stronger GPS tracking (irrelevant for remote) and better integrations with Asana, Linear, and GitHub.
 
-Best for: Teams who want time tracking that syncs automatically with their project tracker.
+Best for - Teams who want time tracking that syncs automatically with their project tracker.
 
-Pricing: $7/user/month (Starter). $10/user/month (Grow). $20/user/month (Team).
+Pricing - $7/user/month (Starter). $10/user/month (Grow). $20/user/month (Team).
 
 GitHub integration setup:
 
@@ -109,9 +109,9 @@ RescueTime
 
 RescueTime runs in the background and categorizes time automatically based on the apps and sites you use. It's personal-first. individuals get their own dashboard, managers get aggregate anonymized data.
 
-Best for: Teams who want productivity insight without the surveillance feeling. Each person owns their data.
+Best for - Teams who want productivity insight without the surveillance feeling. Each person owns their data.
 
-Pricing: Free (basic). $6.50/month (Premium, per person).
+Pricing - Free (basic). $6.50/month (Premium, per person).
 
 Setup and API usage:
 
@@ -274,7 +274,7 @@ gcalcli --calendar "Work" agenda \
   }'
 ```
 
-Alert threshold: If anyone on your team is in meetings more than 15 hours per week, that is a problem worth addressing before tracking anything else.
+Alert threshold - If anyone on your team is in meetings more than 15 hours per week, that is a problem worth addressing before tracking anything else.
 
 The meeting load number is often the most actionable metric a manager can track. Unlike cycle time or velocity, which require understanding a lot of context to interpret, 20 hours of meetings per week for an individual contributor is unambiguously bad. regardless of team, project type, or seniority level.
 
@@ -282,13 +282,13 @@ Implementing a Metrics Review Cadence
 
 Collecting data is only useful if you act on it. A lightweight cadence that works for most remote engineering teams:
 
-Weekly (10 minutes, async): Post the automated GitHub + Linear report to a dedicated Slack channel. Team members can comment or flag if something looks off. No meeting required.
+Weekly (10 minutes, async) - Post the automated GitHub + Linear report to a dedicated Slack channel. Team members can comment or flag if something looks off. No meeting required.
 
 Monthly (30-minute team meeting): Review trends over the past 4 weeks. Are cycle times trending up or down? Is meeting load creeping? Did the PR review turnaround improve? This is also a good time to check whether the metrics you are tracking still reflect what you care about.
 
 Quarterly (manager 1:1s): Review individual patterns. not to evaluate performance, but to identify support opportunities. Someone whose focus block time has been declining may be dealing with unclear requirements, too many interruptions, or scope creep on a project that needs to be restructured.
 
-The key principle: metrics should inform conversations, not replace them. A declining velocity number is a question ("what changed?"), not a verdict.
+The key principle - metrics should inform conversations, not replace them. A declining velocity number is a question ("what changed?"), not a verdict.
 
 Frequently Asked Questions
 

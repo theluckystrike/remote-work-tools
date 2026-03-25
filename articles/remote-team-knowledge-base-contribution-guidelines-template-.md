@@ -42,29 +42,29 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Template Overview: Documentation Contribution Guidelines
+Step 1 - Template Overview: Documentation Contribution Guidelines
 
 This section provides a customizable template your team can adapt:
 
 ```markdown
 Knowledge Base Contribution Guidelines
 
-Step 2: Purpose and Scope
+Step 2 - Purpose and Scope
 
 This knowledge base documents [your team/org/project] technical knowledge, procedures, and decision records. It's the single source of truth for how we work, why we made certain choices, and how to handle common situations.
 
-Good contributions answer: "How do we do X?" or "Why did we choose Y?" or "What do I do when Z happens?"
+Good contributions answer - "How do we do X?" or "Why did we choose Y?" or "What do I do when Z happens?"
 
-Avoid: Personal opinions, outdated procedures, or information that belongs in project management tools.
+Avoid - Personal opinions, outdated procedures, or information that belongs in project management tools.
 
-Step 3: Before You Contribute
+Step 3 - Before You Contribute
 
 1. Check if documentation already exists (search the KB or ask #tech-questions)
 2. Identify the right category for your content
 3. Review one existing article in that category to match style and format
 4. Draft your content, don't worry about perfection
 
-Step 4: Article Structure
+Step 4 - Article Structure
 
 Every article should follow this structure:
 
@@ -84,7 +84,7 @@ Common Mistakes
 What errors do people make? What shouldn't they do?
 
 #
-Step 5: Style Guidelines
+Step 5 - Style Guidelines
 
 - Write in active voice: "Click the button" not "The button should be clicked"
 - Use second person: "You can fix this by..." not "Developers can fix this by..."
@@ -93,7 +93,7 @@ Step 5: Style Guidelines
 - Code examples should be copy-paste ready and tested
 - Avoid jargon unless essential; if essential, define it
 
-Step 6: Naming Conventions
+Step 6 - Naming Conventions
 
 Articles use clear, action-oriented titles:
 - Good: "How to Configure Environment Variables for Local Development"
@@ -103,7 +103,7 @@ Use hyphens for article filenames, lowercase:
 - `how-to-debug-api-errors-with-curl-requests.md`
 - `setup-steps-for-postgres-development-environment.md`
 
-Step 7: Front Matter Template
+Step 7 - Front Matter Template
 
 Every article needs metadata:
 
@@ -118,7 +118,7 @@ estimated_read_time: "5 minutes"
 ---
 ```
 
-Step 8: Review and Publishing Process
+Step 8 - Review and Publishing Process
 
 1. Write your draft in a shared doc or branch
 2. Post in #documentation with "Review requested" label
@@ -129,7 +129,7 @@ Step 8: Review and Publishing Process
 
 The review should take 15 minutes. Don't block on perfection, good documentation published is better than perfect documentation never written.
 
-Step 9: Categories and When to Use Them
+Step 9 - Categories and When to Use Them
 
 | Category | Purpose | Example |
 |----------|---------|---------|
@@ -139,7 +139,7 @@ Step 9: Categories and When to Use Them
 | Reference | Tools, APIs, configurations | "Slack Integration API Reference" |
 | Onboarding | Getting new people productive | "First Day Setup Checklist" |
 
-Step 10: Content Decay and Updates
+Step 10 - Content Decay and Updates
 
 Articles need maintenance. If you're reading an article and something's outdated:
 
@@ -150,13 +150,13 @@ Articles need maintenance. If you're reading an article and something's outdated
 Every 6 months, the documentation owner audits articles and marks which need updating. If no one updates it within 2 weeks, it gets archived.
 ```
 
-Step 11: Handling Contribution Obstacles
+Step 11 - Handling Contribution Obstacles
 
 "I Don't Have Time to Write"
 
 This objection usually stems from unclear expectations about what constitutes a contribution. Emphasize that documentation doesn't always mean long-form articles. A three-paragraph note about a tricky bug counts as a valuable contribution.
 
-Practical approach: Allocate specific time for documentation during sprint planning. Some teams dedicate 10% of sprint capacity to knowledge capture, treating it as a legitimate work item rather than optional extras. Make it easier: if someone just solved a problem, have them spend 30 minutes documenting the solution while it's fresh. That single 30-minute investment saves the team 5+ hours when the next person hits the same issue.
+Practical approach - Allocate specific time for documentation during sprint planning. Some teams dedicate 10% of sprint capacity to knowledge capture, treating it as a legitimate work item rather than optional extras. Make it easier: if someone just solved a problem, have them spend 30 minutes documenting the solution while it's fresh. That single 30-minute investment saves the team 5+ hours when the next person hits the same issue.
 
 "My Writing Isn't Good Enough"
 
@@ -176,7 +176,7 @@ This is a real demotivator. Create visibility: in your weekly team updates, high
 
 Build feedback loops. Comment on articles you found helpful: "This saved me an hour yesterday, thanks." This recognition matters more than you might expect.
 
-Step 12: Build Feedback Loops
+Step 12 - Build Feedback Loops
 
 Recognition matters more than you might expect. Consider implementing simple systems that acknowledge contributions:
 
@@ -196,7 +196,7 @@ Strategies to increase visibility:
 - Reference articles in retrospectives when discussing how to prevent recurring issues
 - Post new articles in a #documentation-updates channel for visibility
 
-Step 13: Common Organizational Pitfalls
+Step 13 - Common Organizational Pitfalls
 
 Over-categorization creates 20+ categories that mirrors your org chart but confuses users. Start with 5-7 broad categories and let content naturally gravitate toward themes.
 
@@ -206,14 +206,14 @@ No ownership model where everyone's responsible means nobody's responsible. Assi
 
 Ignoring search patterns. Most wiki platforms log search queries. Review "no results" searches monthly, these show documentation gaps. If three people search for "database backup procedure" and find nothing, you need that article.
 
-Step 14: Practical Templates: Starting Points
+Step 14 - Practical Templates: Starting Points
 
 Quick Reference Template (Use for procedural docs)
 
 ```markdown
 [Tool/Process Name]
 
-Step 15: Quick Start
+Step 15 - Quick Start
 [3 steps maximum to get started]
 
 Common Issues
@@ -230,14 +230,14 @@ Troubleshooting Template (Use for debugging docs)
 ```markdown
 Fixing [Problem]
 
-Step 16: Symptoms
+Step 16 - Symptoms
 [What does the problem look like?]
 
-Step 17: Root Causes (Quick Diagnosis)
+Step 17 - Root Causes (Quick Diagnosis)
 - Cause A: Check for [signal]
 - Cause B: Check for [signal]
 
-Step 18: Fixes by Cause
+Step 18 - Fixes by Cause
 
 Cause A
 [Steps to fix]
@@ -254,27 +254,27 @@ How-To Template (Use for step-by-step guides)
 ```markdown
 How to [Action] for [Context]
 
-Step 19: Before You Start
+Step 19 - Before You Start
 [Prerequisites, things to have ready]
 
-Step 20: Step-by-Step
+Step 20 - Step-by-Step
 
 1. [First step]
 2. [Second step]
    - [Substep if needed]
 3. [Continue...]
 
-Step 21: Real World Example
+Step 21 - Real World Example
 [Screenshot or code showing real usage]
 
-Step 22: What to Do If Something Goes Wrong
+Step 22 - What to Do If Something Goes Wrong
 [Troubleshooting specific to this process]
 
 Next Steps
 [What to do after completing this]
 ```
 
-Step 23: Tools for Managing Contribution Guidelines
+Step 23 - Tools for Managing Contribution Guidelines
 
 Platform-Specific Implementation
 
@@ -298,8 +298,8 @@ Use page properties:
 - Status: [Draft/Published/Archived]
 - Audience: [Engineering/Product/All]
 
-Space permission: Allow anyone to create and edit
-Moderation: Weekly review of new pages
+Space permission - Allow anyone to create and edit
+Moderation - Weekly review of new pages
 ```
 
 Notion Approach:
@@ -315,19 +315,19 @@ Create a database with:
 - Search Keywords: Text field
 ```
 
-Step 24: Real Examples: Before and After
+Step 24 - Real Examples: Before and After
 
-Example 1: Deployment Documentation
+Example 1 - Deployment Documentation
 
 Before (vague):
 ```
-Step 25: Deploy to Production
+Step 25 - Deploy to Production
 Push your code and run the script. Make sure to test first.
 ```
 
 After (actionable):
 ```
-Step 26: How to Deploy Code to Production
+Step 26 - How to Deploy Code to Production
 
 Prerequisites
 - Code reviewed and merged
@@ -350,7 +350,7 @@ Real Example
 [Walk through specific deployment]
 
 #
-Step 27: Measuring Success
+Step 27 - Measuring Success
 
 Track these signals to understand if your documentation culture is working:
 

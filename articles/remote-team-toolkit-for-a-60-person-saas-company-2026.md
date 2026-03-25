@@ -43,7 +43,7 @@ GitHub + Linear Integration
 Connect GitHub to Linear so PRs automatically update issue status via Linear's GitHub integration in Settings > Integrations:
 
 ```
-PR title pattern: "[LIN-{issue_id}] {description}"
+PR title pattern - "[LIN-{issue_id}] {description}"
 PR opened     → Issue moves to "In Progress"
 PR merged     → Issue moves to "Done"
 PR closed     → Issue returns to "In Review"
@@ -88,7 +88,7 @@ On-Call Rotation Setup
 
 For a 60-person company with an engineering team of ~20, a PagerDuty rotation with 7-day shifts avoids hero culture. Each engineer is on-call roughly 3 weeks per year on a 7-person rotation.
 
-Key configuration: restrict weekend on-call to engineers who volunteer or receive additional compensation. The standard week rotation shouldn't include Friday evening through Monday morning unless your SLA requires it.
+Key configuration - restrict weekend on-call to engineers who volunteer or receive additional compensation. The standard week rotation shouldn't include Friday evening through Monday morning unless your SLA requires it.
 
 Communication Norms at Scale
 
@@ -118,7 +118,7 @@ Meeting Budget
 - Product: max 6 hours/week
 - Leadership: uncapped (but visible in shared calendar)
 
-Monthly review: export meeting time from Google Calendar, aggregate by person, identify outliers. If someone is consistently over budget, the meetings themselves need to be audited.
+Monthly review - export meeting time from Google Calendar, aggregate by person, identify outliers. If someone is consistently over budget, the meetings themselves need to be audited.
 
 Documentation Infrastructure
 
@@ -152,7 +152,7 @@ SSO enforcement. Every SaaS tool authenticates via Okta or Google Workspace SSO.
 
 Privileged access review. Quarterly audit of who has admin/prod access. At 60 people this takes 2 hours. Without process it becomes a compliance risk.
 
-1Password Teams policy: Required for all employees on day 1. Vaults: personal, team-engineering, team-product, team-ops, shared-credentials. Emergency access designated to 2 senior leaders. 90-day inactivity triggers account review.
+1Password Teams policy: Required for all employees on day 1. Vaults - personal, team-engineering, team-product, team-ops, shared-credentials. Emergency access designated to 2 senior leaders. 90-day inactivity triggers account review.
 
 Tooling Cost at 60 People
 
@@ -186,7 +186,7 @@ The tooling problem is that most of your early tools were chosen when all of the
 
 Communication Stack
 
-Slack: Structure Beats Spontaneity
+Slack - Structure Beats Spontaneity
 
 By 60 people, unstructured Slack grows into a coordination problem. Conversations that should be in a channel happen in DMs. Important decisions get buried in channels nobody monitors. Announcements compete with casual conversation.
 
@@ -239,15 +239,15 @@ Meetings worth keeping at 60 people:
 
 Engineering Tooling
 
-Project Management: Linear vs. Jira
+Project Management - Linear vs. Jira
 
 At 60 people, the Jira vs. Linear decision is worth revisiting if you have not made it deliberately. Many 60-person companies are running Jira because it was there, not because it is the right fit.
 
-Jira makes sense if you have deep Atlassian ecosystem integration (Confluence for docs, Bitbucket for code), enterprise customers who require specific compliance reporting, or a complex enough workflow that Jira's customization depth is genuinely useful rather than just creating configuration maintenance work.
+Jira makes sense if you have deep Atlassian environment integration (Confluence for docs, Bitbucket for code), enterprise customers who require specific compliance reporting, or a complex enough workflow that Jira's customization depth is genuinely useful rather than just creating configuration maintenance work.
 
 Linear makes sense if your engineering culture values speed and the ability to stay focused on work rather than managing the tool. Linear's keyboard-first interface, automatic cycle management, and clean roadmap views reduce the overhead of tracking work. At $8/user/month for the Business plan, it is cheaper than Jira for most team configurations.
 
-The practical difference: Jira ticket management takes engineering time. Grooming Jira boards, managing statuses, and keeping epics organized is a part-time job that most 60-person companies assign implicitly to a senior engineer or engineering manager. Linear reduces that overhead significantly.
+The practical difference - Jira ticket management takes engineering time. Grooming Jira boards, managing statuses, and keeping epics organized is a part-time job that most 60-person companies assign implicitly to a senior engineer or engineering manager. Linear reduces that overhead significantly.
 
 GitHub Projects (free with GitHub) is underrated for teams that want to avoid a separate project management tool entirely. For engineering teams whose work is already organized around GitHub issues and PRs, GitHub Projects can cover the roadmapping and sprint management use case without adding another tool.
 
@@ -327,9 +327,9 @@ Lattice handles performance reviews, goal tracking (OKRs), and engagement survey
 
 Remote-Specific HR Considerations
 
-Time zone documentation: Maintain a canonical record of every employee's working hours and timezone. Update it when people travel for extended periods. A company Notion page or a tool like Deel's employee profiles covers this. The point is that anyone scheduling a meeting with multiple people should be able to find the overlap without asking.
+Time zone documentation - Maintain a canonical record of every employee's working hours and timezone. Update it when people travel for extended periods. A company Notion page or a tool like Deel's employee profiles covers this. The point is that anyone scheduling a meeting with multiple people should be able to find the overlap without asking.
 
-Equipment and home office: At 60 people, a consistent equipment policy reduces support overhead and ensures everyone has hardware that does not create performance bottlenecks. A standard policy is a one-time home office stipend ($500-1000) plus a company-provisioned laptop. Managing laptop provisioning through Rippling or Apple Business Manager for Mac fleets eliminates the manual coordination of device setup.
+Equipment and home office - At 60 people, a consistent equipment policy reduces support overhead and ensures everyone has hardware that does not create performance bottlenecks. A standard policy is a one-time home office stipend ($500-1000) plus a company-provisioned laptop. Managing laptop provisioning through Rippling or Apple Business Manager for Mac fleets eliminates the manual coordination of device setup.
 
 Budget Benchmarks
 
@@ -359,7 +359,7 @@ Communication and Collaboration Tools
 
 Primary Team Communication
 
-Slack: For 60 people, Slack is non-negotiable. It's where decisions get made, quick questions get answered, and informal culture happens.
+Slack - For 60 people, Slack is non-negotiable. It's where decisions get made, quick questions get answered, and informal culture happens.
 
 Setup recommendations:
 - Create channels by team (engineering, product, sales) plus cross-functional channels (product-feedback, incident-response)
@@ -368,7 +368,7 @@ Setup recommendations:
 - Use threaded replies religiously to prevent channel noise
 - Create a #random channel for off-topic conversation so other channels stay focused
 
-Cost: $10/user/month (60 users = $600/month)
+Cost - $10/user/month (60 users = $600/month)
 
 Email
 
@@ -380,49 +380,49 @@ Setup recommendations:
 - Encourage specific subject lines so email is searchable
 - Archive emails in a company wiki for reference
 
-Cost: Varies by email provider ($5-10/user/month)
+Cost - Varies by email provider ($5-10/user/month)
 
 Video Calls
 
 Most 60-person companies need three types of video infrastructure:
 
-All-hands meetings: Monthly or quarterly company-wide synchronous meetings where leadership shares updates and team members ask questions. Record and post transcript for people who can't attend real-time.
+All-hands meetings - Monthly or quarterly company-wide synchronous meetings where leadership shares updates and team members ask questions. Record and post transcript for people who can't attend real-time.
 
-Tool: Zoom. $20/month for Pro account with up to 300 participants.
+Tool - Zoom. $20/month for Pro account with up to 300 participants.
 
-Team standups: Weekly or daily 15-30 minute synchronous meetings within teams. At 60 people, multiple standups happen in parallel.
+Team standups - Weekly or daily 15-30 minute synchronous meetings within teams. At 60 people, multiple standups happen in parallel.
 
-Tool: Zoom or Slack Huddles. Use same tool as all-hands.
+Tool - Zoom or Slack Huddles. Use same tool as all-hands.
 
 One-on-ones and small group video: Managers conducting 1-on-1s with reports, small pair programming sessions, customer calls.
 
-Tool: Zoom or Google Meet. Included with most plans.
+Tool - Zoom or Google Meet. Included with most plans.
 
 Project Management and Task Tracking
 
 At 60 people, you need structured visibility into what work is in progress, who's doing it, and blockers.
 
-Jira (for engineering): Most SaaS companies use Jira for engineering task tracking. It integrates with GitHub, supports sprint planning, and provides visibility to non-engineers on engineering progress.
+Jira (for engineering) - Most SaaS companies use Jira for engineering task tracking. It integrates with GitHub, supports sprint planning, and provides visibility to non-engineers on engineering progress.
 
-Setup: Create projects for each engineering team. Configure boards for workflow (To Do, In Progress, In Review, Done). Link pull requests to issues automatically.
+Setup - Create projects for each engineering team. Configure boards for workflow (To Do, In Progress, In Review, Done). Link pull requests to issues automatically.
 
-Cost: $200-400/month depending on team size and features.
+Cost - $200-400/month depending on team size and features.
 
 Asana or Linear (for product and design): Product and design teams often use a different tool than engineering to manage features, research, and design work.
 
-Cost: $100-200/month.
+Cost - $100-200/month.
 
 Notion (for company roadmap and planning): A centralized roadmap visible to the entire company showing what's coming, when, and why. Build on Notion for flexibility.
 
-Cost: $10-100/month depending on team size.
+Cost - $10-100/month depending on team size.
 
-Decision: Choose between Asana/Linear for multiple teams, or use Jira for engineering and Notion for everything else.
+Decision - Choose between Asana/Linear for multiple teams, or use Jira for engineering and Notion for everything else.
 
 Documentation and Knowledge Base
 
 By 60 people, you have significant accumulated knowledge. Without centralized documentation, people get lost.
 
-Confluence (or GitBook): Internal wiki for architecture decisions, runbooks, onboarding guides, process documentation.
+Confluence (or GitBook) - Internal wiki for architecture decisions, runbooks, onboarding guides, process documentation.
 
 Confluence structure recommendations:
 - Spaces by team (Engineering, Product, Sales, Marketing)
@@ -430,77 +430,77 @@ Confluence structure recommendations:
 - Runbooks for common operational procedures
 - Onboarding guide with links to setup instructions
 
-Cost: $250-500/month.
+Cost - $250-500/month.
 
-GitHub Wikis: For technical documentation that lives close to code. Useful for architecture decisions that affect multiple repositories.
+GitHub Wikis - For technical documentation that lives close to code. Useful for architecture decisions that affect multiple repositories.
 
-Cost: Free (if using GitHub).
+Cost - Free (if using GitHub).
 
 Engineering Workflow Tools
 
 Code Repository
 
-GitHub (or GitLab): Central repository for all code. At 60 people, enforce code review, automated testing, and branch protection rules.
+GitHub (or GitLab) - Central repository for all code. At 60 people, enforce code review, automated testing, and branch protection rules.
 
-Cost: $300-500/month for private repositories and team management.
+Cost - $300-500/month for private repositories and team management.
 
 Continuous Integration and Deployment
 
-GitHub Actions: Integrated with GitHub, triggers on pull requests and commits. Runs automated tests, builds, and deployments.
+GitHub Actions - Integrated with GitHub, triggers on pull requests and commits. Runs automated tests, builds, and deployments.
 
-Setup: Create workflows for each service. Require passing tests before merge. Automate deployment to staging on every merge.
+Setup - Create workflows for each service. Require passing tests before merge. Automate deployment to staging on every merge.
 
-Cost: Free (included with GitHub).
+Cost - Free (included with GitHub).
 
 Monitoring and Observability
 
-Datadog (or New Relic): Central monitoring for all services. Collects metrics, logs, traces from all services.
+Datadog (or New Relic) - Central monitoring for all services. Collects metrics, logs, traces from all services.
 
-Setup: Install agents on all services. Create dashboards for each team. Set up alerts for critical metrics.
+Setup - Install agents on all services. Create dashboards for each team. Set up alerts for critical metrics.
 
-Cost: $500-1500/month depending on volume.
+Cost - $500-1500/month depending on volume.
 
-PagerDuty: On-call scheduling and incident alerting.
+PagerDuty - On-call scheduling and incident alerting.
 
-Setup: Define on-call rotations for each service. Create escalation policies for critical incidents.
+Setup - Define on-call rotations for each service. Create escalation policies for critical incidents.
 
-Cost: $300-500/month.
+Cost - $300-500/month.
 
 Sales and Marketing Tools
 
 CRM
 
-HubSpot (or Salesforce): Central database for leads, prospects, and customers. Salesforce is more enterprise, HubSpot is easier to configure.
+HubSpot (or Salesforce) - Central database for leads, prospects, and customers. Salesforce is more enterprise, HubSpot is easier to configure.
 
 At 60 people, you likely have dedicated sales team. CRM should sync with email, task list, and contract signing.
 
-Cost: $100-300/month depending on features.
+Cost - $100-300/month depending on features.
 
 Analytics
 
-Amplitude (or Mixpanel): Product analytics tracking user behavior in your product. Critical for product decisions.
+Amplitude (or Mixpanel) - Product analytics tracking user behavior in your product. Critical for product decisions.
 
-Cost: $500-2000/month depending on volume.
+Cost - $500-2000/month depending on volume.
 
 Finance and Operations
 
 Accounting
 
-QuickBooks (or Xero): Accounting system tracking expenses, revenue, and tax compliance.
+QuickBooks (or Xero) - Accounting system tracking expenses, revenue, and tax compliance.
 
-Cost: $50-150/month.
+Cost - $50-150/month.
 
 Payroll
 
-Gusto (or ADP): Payroll processing, benefits administration, tax filing.
+Gusto (or ADP) - Payroll processing, benefits administration, tax filing.
 
-Cost: $100-300/month depending on team size.
+Cost - $100-300/month depending on team size.
 
 Travel and Expenses
 
-Concur (or Brex): Expense tracking and reimbursement, corporate credit card management.
+Concur (or Brex) - Expense tracking and reimbursement, corporate credit card management.
 
-Cost: $20-50/person/month.
+Cost - $20-50/person/month.
 
 Tools Stack Summary
 
@@ -541,22 +541,22 @@ Implementing the Toolkit as You Scale
 
 Don't implement all these tools at once. Roll out in phases as your company grows:
 
-At 10 people: Slack, GitHub, email, Zoom. Free tier tools for most categories.
+At 10 people - Slack, GitHub, email, Zoom. Free tier tools for most categories.
 
-At 20 people: Add Jira (engineering workflow), Notion (planning), Datadog (basic monitoring).
+At 20 people - Add Jira (engineering workflow), Notion (planning), Datadog (basic monitoring).
 
-At 40 people: Add Confluence (documentation), PagerDuty (on-call), HubSpot (sales).
+At 40 people - Add Confluence (documentation), PagerDuty (on-call), HubSpot (sales).
 
-At 60 people: Add all of the above, plus dedicated tools for accounting, payroll, analytics.
+At 60 people - Add all of the above, plus dedicated tools for accounting, payroll, analytics.
 
 Onboarding New Hires to the Toolkit
 
-New hires need to understand the tool ecosystem quickly.
+New hires need to understand the tool environment quickly.
 
 Create documentation page listing all tools, what each is used for, and who owns each tool.
 
 Example entry:
-- Jira: Engineering task tracking. Issues describe work to be done. Pull requests link to issues. Board shows current sprint status.
+- Jira - Engineering task tracking. Issues describe work to be done. Pull requests link to issues. Board shows current sprint status.
 - Owner: [Engineering Manager]
 - Help: Ask in #engineering-tools channel
 
@@ -572,7 +572,7 @@ At 60 people, the toolkit costs $4,500-5,000/month. Optimize by:
 
 4. Monitor usage: Quarterly audit of which tools are actively used by whom. Cut low-use tools.
 
-Team Exercise: Evaluate Your Current Toolkit
+Team Exercise - Evaluate Your Current Toolkit
 
 List all tools your company uses, monthly cost, and primary users. Ask:
 

@@ -20,7 +20,7 @@ Building a successful freelance development career requires more than just codin
 
 Development Environment and Terminal Tools
 
-Warp: The Modern Terminal
+Warp - The Modern Terminal
 
 Warp has redefined terminal productivity with AI-powered command completion and natural language search. Unlike traditional terminals, Warp understands your intent and suggests commands based on what you're trying to accomplish.
 
@@ -28,17 +28,17 @@ Configure Warp's AI for common development tasks:
 
 ```bash
 Warp AI suggestions work with natural language
-Type: "show me recent git commits" and Warp suggests:
+Type - "show me recent git commits" and Warp suggests:
 git log --oneline -10
 
 Quick actions with Cmd+K
-Search: "restart postgres" → suggests:
+Search - "restart postgres" → suggests:
 launchctl restart homebrew.mxcl.postgresql
 ```
 
 The sharing feature makes documenting setups for clients straightforward, export your terminal session as a shareable link.
 
-Zed: Next-Gen Code Editor
+Zed - Next-Gen Code Editor
 
 Zed has emerged as the performance-focused alternative to traditional editors. Built in Rust, it delivers instant startup times and handles massive codebases without lag.
 
@@ -71,7 +71,7 @@ The built-in collaboration features allow real-time pair programming with client
 
 Project Management and Time Tracking
 
-Linear: Issue Tracking for Developers
+Linear - Issue Tracking for Developers
 
 Linear combines GitHub integration with improved issue management. Its keyboard-first interface keeps your hands on the keys throughout your workflow.
 
@@ -97,13 +97,13 @@ linear issue github link ISSUE-123 --pr 456
 
 The cycles and roadmap features help you communicate project timelines to clients without separate project management tools.
 
-TickTick: Simple Task Management
+TickTick - Simple Task Management
 
 For freelancers managing multiple client projects, TickTick provides a clean interface with built-in Pomodoro timers. The cross-platform sync ensures you're never without your task list.
 
 Communication and Collaboration
 
-Slack: Organized Client Communication
+Slack - Organized Client Communication
 
 Create dedicated channels for each client to maintain clear boundaries between projects:
 
@@ -130,13 +130,13 @@ app.message(async ({ message, say, client }) => {
 });
 ```
 
-Async: Video Updates for Clients
+Async - Video Updates for Clients
 
 Rather than scheduling endless meetings, use Loom or Vidyard for asynchronous updates. Record your screen explaining feature implementation, bug analysis, or design decisions, clients appreciate being able to review on their own schedule.
 
 Documentation and Knowledge Management
 
-Obsidian: Your Second Brain
+Obsidian - Your Second Brain
 
 Obsidian stores knowledge as interconnected markdown files, making it invaluable for maintaining client-specific documentation, technical notes, and code snippets.
 
@@ -173,7 +173,7 @@ Link notes together to build a searchable knowledge graph that improves over tim
 
 Deployment and Infrastructure
 
-Railway: Simplified Deployment
+Railway - Simplified Deployment
 
 Railway provides zero-config deployment for most web applications. Connect your GitHub repository and Railway handles the rest.
 
@@ -198,7 +198,7 @@ railway up
 
 The built-in metrics dashboard helps you communicate server usage to clients without granting them infrastructure access.
 
-Cloudflare Tunnel: Secure Development Access
+Cloudflare Tunnel - Secure Development Access
 
 For local development that needs to be accessible to clients or webhooks, Cloudflare Tunnel provides secure, firewall-friendly connectivity:
 
@@ -220,11 +220,11 @@ Share the generated URL with clients for live demos without deploying.
 
 Financial Management
 
-Wave: Free Invoicing for Freelancers
+Wave - Free Invoicing for Freelancers
 
 Wave provides professional invoicing without subscription costs. Perfect for freelancers just starting or managing budget-conscious clients.
 
-Bonsai: Contract and Project Management
+Bonsai - Contract and Project Management
 
 For more freelancer tools, Bonsai combines contract templates, proposals, and project management. The integrated time tracking simplifies billing verification.
 

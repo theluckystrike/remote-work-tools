@@ -36,9 +36,9 @@ Loom
 
 Loom is the standard async video tool for remote teams. Record, share a link immediately, and viewers can comment at specific timestamps.
 
-Best for: Teams that need instant sharing and timestamp comments. The sharing UX is the best of any tool here.
+Best for - Teams that need instant sharing and timestamp comments. The sharing UX is the best of any tool here.
 
-Pricing: Free (25 videos, 5 min each). $8/creator/month for Business (unlimited, plus analytics).
+Pricing - Free (25 videos, 5 min each). $8/creator/month for Business (unlimited, plus analytics).
 
 Loom Setup and Workflow
 
@@ -70,21 +70,21 @@ Screen Studio
 
 Screen Studio is a macOS-only recorder with automatic zoom-to-cursor, animated camera frames, and built-in background blur. The output looks professionally edited without any editing.
 
-Best for: Developer advocates, engineers recording tutorials, anyone who wants polished output without editing time.
+Best for - Developer advocates, engineers recording tutorials, anyone who wants polished output without editing time.
 
-Pricing: $89 one-time purchase (macOS only).
+Pricing - $89 one-time purchase (macOS only).
 
-Strengths: Auto-zoom follows your cursor, adds subtle animations to mouse clicks, background options. The recordings look 3x more professional than raw Loom recordings for similar effort.
+Strengths - Auto-zoom follows your cursor, adds subtle animations to mouse clicks, background options. The recordings look 3x more professional than raw Loom recordings for similar effort.
 
-Limitations: macOS only, no collaboration features, no team sharing built-in.
+Limitations - macOS only, no collaboration features, no team sharing built-in.
 
 OBS Studio (Open Source)
 
 OBS is free, open source, and runs on macOS, Windows, and Linux. It's primarily a live streaming tool but handles local recording well.
 
-Best for: Developers on Linux, anyone who wants free, unlimited recording with full control over quality settings.
+Best for - Developers on Linux, anyone who wants free, unlimited recording with full control over quality settings.
 
-Pricing: Free.
+Pricing - Free.
 
 OBS Recording Setup for Async Video
 
@@ -101,16 +101,16 @@ sudo dnf install obs-studio
 
 Recommended settings for async communication recordings:
 Settings → Output → Recording
-Recording Format: MKV (more reliable on crash; convert to MP4 after)
-Encoder: x264 (CPU) or NVENC (GPU if available)
-Rate Control: CRF
-CRF Value: 18, 23 (18 = near lossless, 23 = good quality/size balance)
-Preset: veryfast (good quality, fast encoding)
+Recording Format - MKV (more reliable on crash; convert to MP4 after)
+Encoder - x264 (CPU) or NVENC (GPU if available)
+Rate Control - CRF
+CRF Value - 18, 23 (18 = near lossless, 23 = good quality/size balance)
+Preset - veryfast (good quality, fast encoding)
 
 Settings → Video
-Base (Canvas) Resolution: 2560x1440 (match your display)
-Output (Scaled) Resolution: 1920x1080
-FPS: 30
+Base (Canvas) Resolution - 2560x1440 (match your display)
+Output (Scaled) Resolution - 1920x1080
+FPS - 30
 ```
 
 Convert MKV to MP4 after recording:
@@ -151,7 +151,7 @@ List available capture devices
 ffmpeg -f avfoundation -list_devices true -i ""
 
 Record a specific region (macOS)
-First get window bounds with: system_profiler SPDisplaysDataType
+First get window bounds with - system_profiler SPDisplaysDataType
 ffmpeg -f avfoundation \
   -framerate 30 \
   -video_size 1280x800 \
@@ -160,7 +160,7 @@ ffmpeg -f avfoundation \
   -crf 23 \
   recording.mp4
 
-Linux: record with x11grab
+Linux - record with x11grab
 ffmpeg -f x11grab \
   -framerate 30 \
   -video_size 1920x1080 \
@@ -174,7 +174,7 @@ Self-Hosting Video with Cloudflare Stream
 
 If you want Loom-like sharing without Loom's subscription and data going to a third party, Cloudflare Stream is the best option.
 
-Pricing: $5/month includes 1,000 minutes stored and 10,000 minutes delivered. Extra at $0.005/min stored, $0.001/min delivered.
+Pricing - $5/month includes 1,000 minutes stored and 10,000 minutes delivered. Extra at $0.005/min stored, $0.001/min delivered.
 
 ```bash
 Upload a recording to Cloudflare Stream via API
@@ -188,7 +188,7 @@ curl -X POST \
   -F "meta={\"name\":\"Bug demo - ENG-1234\"}"
 
 Response includes the video ID and streaming URL
-Stream URL: https://customer-xxx.cloudflarestream.com/VIDEO_ID/watch
+Stream URL - https://customer-xxx.cloudflarestream.com/VIDEO_ID/watch
 
 List all videos
 curl "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/stream" \
@@ -270,7 +270,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -282,7 +282,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

@@ -35,13 +35,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand the Federal Baseline
+Step 1 - Understand the Federal Baseline
 
 The Fair Labor Standards Act (FLSA) establishes the federal baseline: non-exempt employees must receive overtime pay at 1.5x their regular rate for hours worked over 40 in a workweek. However, states can, and do, set stricter requirements.
 
 As a developer or team lead, you need to understand that federal law serves as the minimum, not the maximum. Your compliance strategy must always default to whichever law is more favorable to the employee.
 
-Step 2: State-by-State Threshold Differences
+Step 2 - State-by-State Threshold Differences
 
 The most significant variation between states is the overtime threshold. Here's a comparison of key states:
 
@@ -54,7 +54,7 @@ The most significant variation between states is the overtime threshold. Here's 
 
 California stands out as particularly important for remote teams. Even if your employee works remotely from their home in Austin, if your company has California nexus, you may need to comply with California overtime rules.
 
-Step 3: Build a State-Aware Overtime Calculator
+Step 3 - Build a State-Aware Overtime Calculator
 
 For developers integrating overtime calculations into time-tracking systems, here's a practical approach:
 
@@ -134,22 +134,22 @@ def calculate_overtime(hours_worked: float, hourly_rate: float, state: State) ->
     }
 ```
 
-Step 4: Practical Scenarios for Remote Teams
+Step 4 - Practical Scenarios for Remote Teams
 
-Scenario 1: California Employee Working Remotely
+Scenario 1 - California Employee Working Remotely
 
 An employee based in San Francisco works 9 hours on Monday, 10 hours on Tuesday, and 8 hours each on Wednesday through Friday (43 total hours). Under California law:
 
 - Hours 1-8 on Monday: Regular pay
-- Hour 9 on Monday: Overtime (1.5x)
+- Hour 9 on Monday - Overtime (1.5x)
 - Hours 1-8 on Tuesday: Regular pay
-- Hours 9-10 on Tuesday: Overtime (1.5x) AND double time after 12 hours
+- Hours 9-10 on Tuesday - Overtime (1.5x) AND double time after 12 hours
 - Wednesday-Friday: All regular hours (8 + 8 + 8 = 24, total now 40)
 - Remaining 3 hours: Overtime at 1.5x
 
-The key insight: California requires overtime both for exceeding 8 hours in a single day AND for exceeding 40 hours in a week.
+The key insight - California requires overtime both for exceeding 8 hours in a single day AND for exceeding 40 hours in a week.
 
-Scenario 2: New York Employee
+Scenario 2 - New York Employee
 
 Same hours worked (43 total) by an employee in Buffalo, New York:
 - First 40 hours: Regular pay
@@ -158,7 +158,7 @@ Same hours worked (43 total) by an employee in Buffalo, New York:
 
 New York follows the simpler federal model, making calculations straightforward but requiring careful tracking to ensure the weekly threshold is correctly applied.
 
-Scenario 3: Hybrid State Considerations
+Scenario 3 - Hybrid State Considerations
 
 Some states change thresholds based on employer size or industry. For example:
 - New York City vs. upstate New York have different minimum wage rates
@@ -170,25 +170,25 @@ Managing Multi-State Compliance
 
 For teams managing remote workers across states, consider these practical steps:
 
-1. Determine "Workplace" Location: The state where work is performed typically governs overtime rules. However, if you have employees in a state where you're registered to do business, that state may claim jurisdiction.
+1. Determine "Workplace" Location - The state where work is performed typically governs overtime rules. However, if you have employees in a state where you're registered to do business, that state may claim jurisdiction.
 
-2. Track Hours Per Day: California requires daily overtime tracking. If you're using a time-tracking system, ensure it captures daily hours, not just weekly totals.
+2. Track Hours Per Day - California requires daily overtime tracking. If you're using a time-tracking system, ensure it captures daily hours, not just weekly totals.
 
-3. Update Thresholds Annually: State overtime thresholds change. California increases annually based on cost of living. Build update mechanisms into your systems.
+3. Update Thresholds Annually - State overtime thresholds change. California increases annually based on cost of living. Build update mechanisms into your systems.
 
-4. Document Employee Location: Maintain records of where each remote employee works. State laws can change based on employee location.
+4. Document Employee Location - Maintain records of where each remote employee works. State laws can change based on employee location.
 
-Step 5: Common Pitfalls to Avoid
+Step 5 - Common Pitfalls to Avoid
 
-Treating all states equally: Using federal rules for everyone will expose you to compliance issues in states like California, which has aggressive overtime enforcement.
+Treating all states equally - Using federal rules for everyone will expose you to compliance issues in states like California, which has aggressive overtime enforcement.
 
-Ignoring daily overtime: Systems that only track weekly hours miss California daily overtime requirements.
+Ignoring daily overtime - Systems that only track weekly hours miss California daily overtime requirements.
 
-Forgetting about double time: California requires double pay (2x regular rate) for hours worked over 12 in a single day.
+Forgetting about double time - California requires double pay (2x regular rate) for hours worked over 12 in a single day.
 
-Not updating rates: Each state's threshold and minimum wage changes yearly. Your systems need to reflect current rates.
+Not updating rates - Each state's threshold and minimum wage changes yearly. Your systems need to reflect current rates.
 
-Step 6: Implementation Recommendations
+Step 6 - Implementation Recommendations
 
 For developers building time-tracking or payroll integrations:
 
@@ -213,13 +213,13 @@ As your distributed team grows, additional layers of complexity emerge:
 
 Independent contractor vs. employee status: Contractors typically aren't subject to overtime rules, but misclassification is a common audit trigger. Document why each worker is classified as they are.
 
-International remote workers: If you hire outside the US, overtime rules may differ significantly. Canada, UK, Australia all have different thresholds. Know the rules before you hire.
+International remote workers - If you hire outside the US, overtime rules may differ significantly. Canada, UK, Australia all have different thresholds. Know the rules before you hire.
 
 Fluctuating workweek calculations: Some companies negotiate fluctuating workweek arrangements with employees, changing how overtime is calculated. Document these explicitly and ensure they comply with state law.
 
-On-call and standby time: Time spent on-call may or may not count as "hours worked" depending on state and circumstances. Get clarity in writing from legal counsel.
+On-call and standby time - Time spent on-call may or may not count as "hours worked" depending on state and circumstances. Get clarity in writing from legal counsel.
 
-Step 7: Audit Preparation
+Step 7 - Audit Preparation
 
 Even with good intentions, audits happen. Prepare by maintaining:
 
@@ -231,7 +231,7 @@ Even with good intentions, audits happen. Prepare by maintaining:
 
 An auditor is more likely to give you leniency if you've clearly documented your good-faith effort to comply.
 
-Step 8: Common Audit Findings
+Step 8 - Common Audit Findings
 
 Audits often uncover these issues:
 
@@ -242,7 +242,7 @@ Audits often uncover these issues:
 
 Most audits result in back pay owed plus penalties. Proactive compliance is far cheaper than remediation.
 
-Step 9: Payroll Integration Tools
+Step 9 - Payroll Integration Tools
 
 Modern payroll systems handle multi-state compliance better than manual approaches:
 
@@ -253,15 +253,15 @@ Modern payroll systems handle multi-state compliance better than manual approach
 
 Even if you use manual spreadsheets, consider a tool that at least validates your calculations against state law rules.
 
-Step 10: Build Team Culture Around Fair Compensation
+Step 10 - Build Team Culture Around Fair Compensation
 
 Transparency about overtime policy builds trust:
 
-Make the policy explicit: Document your overtime policy in a place every employee can access. "California employees receive 1.5x pay for hours over 8 per day and 40 per week" removes ambiguity.
+Make the policy explicit - Document your overtime policy in a place every employee can access. "California employees receive 1.5x pay for hours over 8 per day and 40 per week" removes ambiguity.
 
 Discuss with employees before they accrue hours: An employee in California shouldn't discover they're entitled to overtime only at the end of a sprint. Discuss expectations upfront.
 
-Avoid encouraging overtime: If your engineering culture celebrates working long hours, you're building a compliance liability. Instead, celebrate shipping efficient work and protecting team health.
+Avoid encouraging overtime - If your engineering culture celebrates working long hours, you're building a compliance liability. Instead, celebrate shipping efficient work and protecting team health.
 
 Compliance with overtime laws across states requires attention to detail and proactive system design. Whether you're building tools or managing teams directly, understanding these differences prevents costly mistakes and ensures your remote workers receive correct compensation.
 

@@ -28,7 +28,7 @@ A distributed team across 5 time zones:
 
 - Synchronous standup approach: 15 minutes × 5 people × 250 working days = 312 hours annually wasted on meeting overlap/timezone awkwardness
 - Async standup approach: 2, 3 minutes per person to write update + manager reading time = 30 hours annually
-- Savings: 282 hours per team per year (equivalent to 1.4 FTE)
+- Savings - 282 hours per team per year (equivalent to 1.4 FTE)
 
 Beyond time savings:
 
@@ -90,7 +90,7 @@ HELP NEEDED
 Need @alice (design) to review new login modal by EOD to unblock frontend integration tomorrow.
 ```
 
-Reading time: 30 seconds. Contains all essential information.
+Reading time - 30 seconds. Contains all essential information.
 
 Contrast with verbose standup (doesn't work):
 
@@ -108,16 +108,16 @@ HELP NEEDED
 Might need some design help soon but I'll let you know.
 ```
 
-Reading time: 2 minutes. Contains almost no actionable information.
+Reading time - 2 minutes. Contains almost no actionable information.
 
 Proven Async Standup Tools
 
 1. Geekbot (Best for Slack-Native Teams)
 
-Platform: Slack (integrates directly into Slack workflow)
-Price: Free tier (up to 5 team members); Pro tier $5/member/month
-Setup time: 5 minutes
-Learning curve: Minimal (native Slack integration)
+Platform - Slack (integrates directly into Slack workflow)
+Price - Free tier (up to 5 team members); Pro tier $5/member/month
+Setup time - 5 minutes
+Learning curve - Minimal (native Slack integration)
 
 How It Works
 
@@ -126,16 +126,16 @@ Geekbot posts a reminder in Slack at your configured time (e.g., 9 AM user's loc
 Configuration Example
 
 ```
-Standup name: Daily Standup
-Time: 9 AM (each person's timezone, auto-detected)
-Channel: #daily-standup
+Standup name - Daily Standup
+Time - 9 AM (each person's timezone, auto-detected)
+Channel - #daily-standup
 Questions:
 1. What did you accomplish yesterday?
 2. What will you work on today?
 3. What's blocking you?
 4. Any help needed?
 
-Message thread: Replies are threaded, keeping channel organized
+Message thread - Replies are threaded, keeping channel organized
 ```
 
 Real-World Setup
@@ -173,15 +173,15 @@ Pricing Breakdown
 
 Table of Contents
 
-- [Comparison Table: Async Standup Tools](#comparison-table-async-standup-tools)
-- [Implementation Playbook: 5-Step Rollout](#implementation-playbook-5-step-rollout)
+- [Comparison Table - Async Standup Tools](#comparison-table-async-standup-tools)
+- [Implementation Playbook - 5-Step Rollout](#implementation-playbook-5-step-rollout)
 - [Handling Common Async Standup Challenges](#handling-common-async-standup-challenges)
-- [Advanced: Connecting Standup to Jira/GitHub](#advanced-connecting-standup-to-jiragithub)
+- [Advanced - Connecting Standup to Jira/GitHub](#advanced-connecting-standup-to-jiragithub)
 
-Platform: Slack
-Price: Free tier; paid starts at $2.50/member/month
-Setup time: 5 minutes
-Learning curve: Minimal
+Platform - Slack
+Price - Free tier; paid starts at $2.50/member/month
+Setup time - 5 minutes
+Learning curve - Minimal
 
 How It Works
 
@@ -227,10 +227,10 @@ Pricing
 
 3. Range (All-in-One Team Communication Platform)
 
-Platform: Web, Slack integration (dual interface)
-Price: Free tier; paid starts at $10/person/month
-Setup time: 15 minutes (more setup than Slack-native tools)
-Learning curve: Medium (introduces new platform)
+Platform - Web, Slack integration (dual interface)
+Price - Free tier; paid starts at $10/person/month
+Setup time - 15 minutes (more setup than Slack-native tools)
+Learning curve - Medium (introduces new platform)
 
 How It Works
 
@@ -291,10 +291,10 @@ Pricing
 
 4. Custom Slack Workflow (DIY, Free)
 
-Platform: Slack Workflow Builder
-Price: Free (included with Slack)
-Setup time: 30 minutes
-Learning curve: Medium (Slack Workflow Builder syntax)
+Platform - Slack Workflow Builder
+Price - Free (included with Slack)
+Setup time - 30 minutes
+Learning curve - Medium (Slack Workflow Builder syntax)
 
 For teams without budget for third-party tools, Slack's native Workflow Builder enables custom standup automation.
 
@@ -311,21 +311,21 @@ How to Set Up
 Example Workflow
 
 ```
-Trigger: Daily at 9 AM UTC
+Trigger - Daily at 9 AM UTC
 
-Step 1: Send message to #daily-standup
+Step 1 - Send message to #daily-standup
 "Daily standup reminder, reply in thread or DM @standupbot"
 
-Step 2: DM each team member
+Step 2 - DM each team member
 "1. What did you accomplish yesterday?
  2. What are you working on today?
  3. Any blockers?
  4. Help needed?"
 
-Step 3: Collect responses (Slack Form)
+Step 3 - Collect responses (Slack Form)
 User fills out form → stores responses
 
-Step 4: Summarize and post
+Step 4 - Summarize and post
 Takes collected responses, formats, posts to #daily-standup
 ```
 
@@ -381,7 +381,7 @@ Deploy on Heroku or Lambda for free/cheap hosting.
 
 ---
 
-Comparison Table: Async Standup Tools
+Comparison Table - Async Standup Tools
 
 | Feature | Geekbot | Standuply | Range | Slack Workflow | Custom Bot |
 |---------|---------|-----------|-------|---|---|
@@ -398,33 +398,33 @@ Comparison Table: Async Standup Tools
 
 ---
 
-Implementation Playbook: 5-Step Rollout
+Implementation Playbook - 5-Step Rollout
 
-Step 1: Choose Template (Day 1)
+Step 1 - Choose Template (Day 1)
 
 Decide on standard questions for your team:
 
 ```
-OPTION A: Simple (2 minutes)
+OPTION A - Simple (2 minutes)
 - What did you accomplish yesterday?
 - What are you working on today?
 - Blockers?
 
-OPTION B: Detailed (3 minutes)
+OPTION B - Detailed (3 minutes)
 - What did you accomplish yesterday? (with ticket refs)
 - What are you starting today?
 - What's blocking you?
 - Help needed?
 
-OPTION C: Goal-Aligned (3 minutes)
+OPTION C - Goal-Aligned (3 minutes)
 - Which of this week's goals did you advance?
 - What are you working on today?
 - Blockers to hitting goals?
 ```
 
-Recommendation for most teams: Option B (detailed). Provides enough specificity to surface issues without overwhelming people.
+Recommendation for most teams - Option B (detailed). Provides enough specificity to surface issues without overwhelming people.
 
-Step 2: Select Tool (Day 1)
+Step 2 - Select Tool (Day 1)
 
 Use this decision tree:
 
@@ -446,14 +446,14 @@ Custom requirements or large team (50+)?
 
 For a 10-person engineering team starting out: Geekbot Free (no cost, 5-minute setup, zero learning curve).
 
-Step 3: Configure (Days 1, 2)
+Step 3 - Configure (Days 1, 2)
 
 Set up tool with team template:
 
 ```
-Standup name: Daily Engineering Standup
-Time: 9 AM (each person's local timezone)
-Channel: #daily-standup
+Standup name - Daily Engineering Standup
+Time - 9 AM (each person's local timezone)
+Channel - #daily-standup
 Questions:
   1. What did you accomplish yesterday?
   2. What are you working on today?
@@ -462,12 +462,12 @@ Questions:
 Sample response format shown to team
 ```
 
-Step 4: Introduce to Team (Day 3)
+Step 4 - Introduce to Team (Day 3)
 
 Send announcement:
 
 ```
-Subject: Async Daily Standup Starting Monday
+Subject - Async Daily Standup Starting Monday
 
 Hi team,
 
@@ -490,10 +490,10 @@ TIMEZONE EXAMPLE
 - San Francisco team: 9 AM PT
 - No overlap required
 
-First standup: Monday 9 AM. Questions?
+First standup - Monday 9 AM. Questions?
 ```
 
-Step 5: Iterate After 2 Weeks (Days 15, 21)
+Step 5 - Iterate After 2 Weeks (Days 15, 21)
 
 Gather feedback:
 
@@ -504,13 +504,13 @@ Gather feedback:
 Common iterations after 2 weeks:
 
 If standups are too brief:
-Add question: "What are you learning or what surprised you today?"
+Add question - "What are you learning or what surprised you today?"
 
 If blockers never surface:
 Add question specifically: "What will prevent you from hitting your goal?"
 
 If people are over-committing:
-Ask: "How confident are you in completing today's goals? 1, 5 scale"
+Ask - "How confident are you in completing today's goals? 1, 5 scale"
 
 If timezone still causing issues:
 Switch to fixed time (e.g., 8 AM UTC) and document why.
@@ -519,9 +519,9 @@ Switch to fixed time (e.g., 8 AM UTC) and document why.
 
 Handling Common Async Standup Challenges
 
-Challenge 1: Time Zone Misalignment (Distributed Teams)
+Challenge 1 - Time Zone Misalignment (Distributed Teams)
 
-Problem: 10 AM standup means 2 AM for someone.
+Problem - 10 AM standup means 2 AM for someone.
 
 Solutions:
 
@@ -542,11 +542,11 @@ Solutions:
 
 Start with per-user local time (Geekbot default). If team size grows, transition to fixed UTC time when critical mass is in 2, 3 regions.
 
-Challenge 2: Incomplete or Vague Responses
+Challenge 2 - Incomplete or Vague Responses
 
-Problem: People submit one-word answers ("Fine", "Coding", "Nope").
+Problem - People submit one-word answers ("Fine", "Coding", "Nope").
 
-Solution: Make template concrete with examples.
+Solution - Make template concrete with examples.
 
 ```
 BEFORE (vague)
@@ -559,11 +559,11 @@ What did you accomplish yesterday?
 
 Include sample responses in Geekbot setup or first week reminders.
 
-Challenge 3: Blocker Never Gets Resolved
+Challenge 3 - Blocker Never Gets Resolved
 
-Problem: Person mentions "Waiting on design review" every day for 2 weeks, no one acts on it.
+Problem - Person mentions "Waiting on design review" every day for 2 weeks, no one acts on it.
 
-Solution: Manager has explicit action from blockers.
+Solution - Manager has explicit action from blockers.
 
 ```
 Manager's daily workflow:
@@ -577,11 +577,11 @@ Manager's daily workflow:
    → Recurring blocker = environment problem to fix, not individual problem
 ```
 
-Challenge 4: Standups Become Performance Micromanagement
+Challenge 4 - Standups Become Performance Micromanagement
 
-Problem: Manager starts critiquing "you only finished 1 task yesterday" or "why so many blockers?"
+Problem - Manager starts critiquing "you only finished 1 task yesterday" or "why so many blockers?"
 
-Solution: Establish standup norms upfront.
+Solution - Establish standup norms upfront.
 
 ```
 Standup Guidelines (post in #daily-standup channel):
@@ -592,11 +592,11 @@ Standup Guidelines (post in #daily-standup channel):
  Everyone's work is valued regardless of task count
 ```
 
-Make it explicit: standups are for coordination, not management use.
+Make it explicit - standups are for coordination, not management use.
 
 ---
 
-Advanced: Connecting Standup to Jira/GitHub
+Advanced - Connecting Standup to Jira/GitHub
 
 Link standup updates to actual work:
 
@@ -604,15 +604,15 @@ Jira integration (Standuply or custom):
 
 ```
 "What did you accomplish yesterday?"
-User types: "Completed JIRA-1234"
+User types - "Completed JIRA-1234"
 System auto-links to JIRA ticket, pulls ticket title
-Displays: "Completed JIRA-1234 (Authentication Refactoring)"
+Displays - "Completed JIRA-1234 (Authentication Refactoring)"
 ```
 
 GitHub integration (Standuply or Range):
 
 ```
-System detects PR references: #1234, #1235
+System detects PR references - #1234, #1235
 Auto-includes PR title and merge status
 Links to merged commits with standup context
 ```

@@ -20,7 +20,7 @@ Installing soft furnishings (acoustic panels, baffles, curtains) on bare walls a
 Table of Contents
 
 - [Understanding the Acoustic Problem](#understanding-the-acoustic-problem)
-- [Treatment Strategy: The ABCs of Meeting Room Acoustics](#treatment-strategy-the-abcs-of-meeting-room-acoustics)
+- [Treatment Strategy - The ABCs of Meeting Room Acoustics](#treatment-strategy-the-abcs-of-meeting-room-acoustics)
 - [Identifying Reflection Points in Your Meeting Room](#identifying-reflection-points-in-your-meeting-room)
 - [Practical Treatment Implementations](#practical-treatment-implementations)
 - [Microphone Placement and Room Layout](#microphone-placement-and-room-layout)
@@ -42,7 +42,7 @@ The key metric for meeting room acoustics is reverberation time (RT60), which me
 
 Before purchasing treatment materials, assess your room. A simple clap test reveals problem areas: clap your hands once and listen. If you hear a distinct ring or reverb lasting more than half a second, treatment is needed. More precise measurements come from smartphone apps like Decible or SoundPrint, though professional acoustic analysis provides complete data.
 
-Treatment Strategy: The ABCs of Meeting Room Acoustics
+Treatment Strategy - The ABCs of Meeting Room Acoustics
 
 Effective meeting room treatment follows three principles: Absorption, Blocking, and Diffusion. Each addresses specific acoustic problems.
 
@@ -221,13 +221,13 @@ To use apps effectively:
 2. Install acoustic treatment
 3. Repeat measurements; compare dB levels and frequency response
 
-Target: 10-15 dB reduction in reverb-inducing frequencies.
+Target - 10-15 dB reduction in reverb-inducing frequencies.
 
 Implementation by Meeting Room Type
 
 Small Meeting Room (8x10 feet, 8-foot ceiling)
 
-Acoustic challenges: High echo concentration, small space amplifies reflections
+Acoustic challenges - High echo concentration, small space amplifies reflections
 
 Treatment plan:
 - Wall behind screen: 4-6 acoustic panels (primary reflection point)
@@ -238,7 +238,7 @@ Treatment plan:
 
 Medium Conference Room (15x20 feet, 9-foot ceiling)
 
-Acoustic challenges: Larger reverb space, longer reflection paths
+Acoustic challenges - Larger reverb space, longer reflection paths
 
 Treatment plan:
 - Wall behind screen: 6-8 panels
@@ -251,7 +251,7 @@ Treatment plan:
 
 Large Board Room (25x40 feet, 12-foot ceiling, glass walls)
 
-Acoustic challenges: Parallel glass creates flutter echo, large space amplifies problems
+Acoustic challenges - Parallel glass creates flutter echo, large space amplifies problems
 
 Treatment plan:
 - Glass walls: Acoustic curtains (full height) where possible
@@ -268,7 +268,7 @@ Beyond passive material absorption, electronics enhance clarity:
 
 Directional Microphones with Echo Cancellation
 
-Advantage: Works with existing furnished rooms; doesn't require installation
+Advantage - Works with existing furnished rooms; doesn't require installation
 
 How it works:
 - Ceiling-mounted directional mics capture speaker's voice while rejecting reflections
@@ -281,10 +281,10 @@ Technology examples:
 - Cisco Webex Room Devices. Built-in acoustic echo cancellation
 - Huawei TE series. Advanced beamforming microphone technology
 
-Cost: $500-2,000 per system
-Installation: Ceiling mounting by AV installer ($1,000-2,000)
+Cost - $500-2,000 per system
+Installation - Ceiling mounting by AV installer ($1,000-2,000)
 
-Effectiveness: Reduces echo 70-80%; works well with minimal room treatment
+Effectiveness - Reduces echo 70-80%; works well with minimal room treatment
 
 Speakerphone Audio Processing
 
@@ -342,7 +342,7 @@ Cost-Benefit Analysis for Different Organization Types
 
 Small Tech Company (10 employees, 2 meeting rooms)
 
-Current problem: Hybrid calls with poor audio; team getting fatigued
+Current problem - Hybrid calls with poor audio; team getting fatigued
 
 Investment scenario:
 - Material cost (DIY panels): $800
@@ -351,13 +351,13 @@ Investment scenario:
 - Electronic solution (directional mic system): $1,500
 - Total: $2,700 one-time + $0 ongoing
 
-ROI: Reduced meeting fatigue = improved productivity; estimated 5-10% improvement in communication efficiency = $5,000-10,000 annual value
+ROI - Reduced meeting fatigue = improved productivity; estimated 5-10% improvement in communication efficiency = $5,000-10,000 annual value
 
-Payback: 3-6 months
+Payback - 3-6 months
 
 Mid-Size Firm (50 employees, 8 meeting rooms)
 
-Current problem: Inconsistent audio quality; some rooms unusable for hybrid calls
+Current problem - Inconsistent audio quality; some rooms unusable for hybrid calls
 
 Investment scenario:
 - Commercial panels (8 rooms): $20,000
@@ -366,13 +366,13 @@ Investment scenario:
 - AV consulting and design: $3,000
 - Total: $40,000 one-time + $2,000 annual maintenance
 
-ROI: Entire meeting infrastructure functional for hybrid; improves client perception; enables all-hands calls with acceptable quality = $100,000+ annual value (employee productivity, client satisfaction)
+ROI - Entire meeting infrastructure functional for hybrid; improves client perception; enables all-hands calls with acceptable quality = $100,000+ annual value (employee productivity, client satisfaction)
 
-Payback: 4-6 months
+Payback - 4-6 months
 
 Enterprise (500+ employees, hybrid workplace)
 
-Current problem: Equity gap between remote and in-office; complaints about call quality
+Current problem - Equity gap between remote and in-office; complaints about call quality
 
 Investment scenario:
 - Acoustic treatment across 30 rooms: $80,000
@@ -381,31 +381,31 @@ Investment scenario:
 - Ongoing support and maintenance: $30,000/year
 - Total: $360,000 capital + $30,000 annual
 
-ROI: Solves significant equity issue; improves retention; enables distributed team collaboration = $500,000+ annual value (reduced attrition, improved productivity)
+ROI - Solves significant equity issue; improves retention; enables distributed team collaboration = $500,000+ annual value (reduced attrition, improved productivity)
 
-Payback: 8-12 months
+Payback - 8-12 months
 
 Implementation Timeline
 
-Phase 1: Assessment (Week 1)
+Phase 1 - Assessment (Week 1)
 - Conduct clap test in each room
 - Measure baseline with app
 - Identify primary reflection points
 - Budget and material sourcing
 
-Phase 2: Treatment Installation (Weeks 2-4)
+Phase 2 - Treatment Installation (Weeks 2-4)
 - Install wall panels (largest impact, fastest deployment)
 - Add ceiling treatment (hanging clouds)
 - Install corner bass traps
 - Test after each phase
 
-Phase 3: Electronic Solution (Weeks 4-6)
+Phase 3 - Electronic Solution (Weeks 4-6)
 - Install directional microphones
 - Configure echo cancellation settings
 - Test with remote participants
 - Calibrate levels
 
-Phase 4: Validation (Week 6+)
+Phase 4 - Validation (Week 6+)
 - Conduct post-treatment measurements
 - Gather user feedback
 - Make fine adjustments

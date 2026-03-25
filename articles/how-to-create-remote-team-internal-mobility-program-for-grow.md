@@ -37,7 +37,7 @@ Why Remote Teams Need Structured Internal Mobility
 
 Remote work changes the dynamics of career progression. Without physical proximity, employees miss the informal mentorship that happens in hallways, during lunch, or after meetings. They also lose visibility into other teams' work and available opportunities. A well-designed internal mobility program compensates for these gaps by making career paths explicit, opportunities visible, and movement accessible.
 
-The business case is clear: companies with strong internal mobility retain employees longer, fill positions faster, and build stronger employer brands. For remote organizations, these benefits are amplified because hiring and onboarding remote talent is more expensive and time-consuming than in-office equivalents.
+The business case is clear - companies with strong internal mobility retain employees longer, fill positions faster, and build stronger employer brands. For remote organizations, these benefits are amplified because hiring and onboarding remote talent is more expensive and time-consuming than in-office equivalents.
 
 Core Components of an Internal Mobility Program
 
@@ -119,10 +119,10 @@ Your internal job board should include:
 ```markdown
 Internal Job Post Template
 
-Role: Senior Backend Engineer
-Team: Platform Infrastructure
-Location: Remote (US time zones preferred)
-Work Style: 70% async, 30% synchronous
+Role - Senior Backend Engineer
+Team - Platform Infrastructure
+Location - Remote (US time zones preferred)
+Work Style - 70% async, 30% synchronous
 
 What We're Looking For
 - 5+ years backend development experience
@@ -143,7 +143,7 @@ Reply in #internal-mobility with your interest. Include:
 
 Implementing the Program
 
-Step 1: Audit Current Movement
+Step 1 - Audit Current Movement
 
 Before launching a formal program, understand how mobility currently works in your organization:
 
@@ -152,7 +152,7 @@ Before launching a formal program, understand how mobility currently works in yo
 - Identify barriers that prevented or slowed movement
 - Understand manager perspectives on internal vs. external hiring
 
-Step 2: Launch with Leadership Commitment
+Step 2 - Launch with Leadership Commitment
 
 Internal mobility requires buy-in from leadership. Work with executives to:
 
@@ -160,7 +160,7 @@ Internal mobility requires buy-in from leadership. Work with executives to:
 - Create incentives for managers who develop talent for other teams
 - Establish norms around "holding people back" vs. supporting growth
 
-Step 3: Create Support Infrastructure
+Step 3 - Create Support Infrastructure
 
 Movement requires support systems:
 
@@ -182,7 +182,7 @@ Mentorship Matching Process
 5. 30/60/90 day check-ins scheduled
 ```
 
-Step 4: Communicate and Iterate
+Step 4 - Communicate and Iterate
 
 Launch the program with clear communication:
 
@@ -231,13 +231,13 @@ Track these metrics to understand if your program is working:
 
 Common Pitfalls to Avoid
 
-The revolving door: If high performers leave immediately after promotion, your program may be creating movement without development.
+The revolving door - If high performers leave immediately after promotion, your program may be creating movement without development.
 
-Hidden requirements: If internal candidates consistently lose to external hires, investigate whether actual requirements differ from posted ones.
+Hidden requirements - If internal candidates consistently lose to external hires, investigate whether actual requirements differ from posted ones.
 
-Manager obstruction: If managers lose talent to other teams, they may subtly discourage mobility. Address this through incentives and norms.
+Manager obstruction - If managers lose talent to other teams, they may subtly discourage mobility. Address this through incentives and norms.
 
-One-way movement: Internal mobility should go both directions. Lateral moves and temporary assignments are valuable.
+One-way movement - Internal mobility should go both directions. Lateral moves and temporary assignments are valuable.
 
 Building a Culture of Growth
 

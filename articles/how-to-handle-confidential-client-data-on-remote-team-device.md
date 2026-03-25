@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand the Threat ecosystem
+Step 1 - Understand the Threat environment
 
 Remote work expands your attack surface significantly. Each team member's home network, personal device, and daily habits become potential entry points for bad actors. The most common risks include:
 
@@ -40,7 +40,7 @@ Remote work expands your attack surface significantly. Each team member's home n
 
 Address these risks through defense in depth, layering multiple security controls so that no single failure compromises your data.
 
-Step 2: Encrypt Local Storage
+Step 2 - Encrypt Local Storage
 
 Encryption transforms readable data into an unreadable format without the proper key. For remote team devices, implement full-disk encryption to protect everything automatically.
 
@@ -93,7 +93,7 @@ Enable with a TPM and PIN for stronger security
 Enable-BitLocker -MountPoint "C:" -EncryptionMethod XtsAes256 -TpmProtector -PinProtector
 ```
 
-Step 3: Implement File-Level Encryption
+Step 3 - Implement File-Level Encryption
 
 Beyond full-disk encryption, apply file-level encryption for particularly sensitive documents. This ensures protection even when files move between systems or get accidentally shared.
 
@@ -151,7 +151,7 @@ Decrypt
 age -d -i age-keys.txt -o client-data.tar.gz client-data.tar.gz.age
 ```
 
-Step 4: Secure File Transfer and Sharing
+Step 4 - Secure File Transfer and Sharing
 
 Remote teams need ways to share sensitive data without exposing it in transit or at rest. Avoid email attachments for confidential information.
 
@@ -180,7 +180,7 @@ Temporary File Sharing
 
 For quick sharing between team members, consider tmpninja or similar services with automatic expiration. However, never use public file-sharing services for truly confidential client data.
 
-Step 5: Enforce Access Controls
+Step 5 - Enforce Access Controls
 
 Limit who can access what data through proper authentication and authorization.
 
@@ -231,7 +231,7 @@ conn = psycopg2.connect(
 )
 ```
 
-Step 6: Endpoint Protection and Monitoring
+Step 6 - Endpoint Protection and Monitoring
 
 Remote devices require active security monitoring beyond basic antivirus.
 
@@ -268,12 +268,12 @@ macOS: Lock after 5 minutes of inactivity
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 300
 
-Linux (GNOME): Lock after 5 minutes
+Linux (GNOME) - Lock after 5 minutes
 gsettings set org.gnome.desktop.screensaver lock-enabled true
 gsettings set org.gnome.desktop.screensaver lock-delay 300
 ```
 
-Step 7: Develop Clear Data Handling Policies
+Step 7 - Develop Clear Data Handling Policies
 
 Technical controls work best combined with clear team policies:
 

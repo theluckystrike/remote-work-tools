@@ -18,40 +18,40 @@ How to Help Remote Team Workshops Using Miro with Structured Communication Exerc
 
 Remote workshops fail for a consistent set of reasons: one or two people dominate, half the participants are passive, the facilitator loses the room after 30 minutes, and outputs are unclear. Miro solves the visual collaboration problem. but structure, timing, and facilitation technique solve the participation problem.
 
-Before the Workshop: Board Setup
+Before the Workshop - Board Setup
 
 A Miro board that works for 15 people under time pressure is designed differently from a board you'd use for individual brainstorming.
 
 Template Structure for a 90-Minute Remote Workshop
 
 ```
-Section 1: Welcome / Agenda (5 min)
+Section 1 - Welcome / Agenda (5 min)
 - Visible timer
 - Agenda with time blocks
 - Ground rules (camera on, mute when not speaking, raise hand emoji)
 - Quick warm-up activity (gets everyone interacting before the main work)
 
-Section 2: Context Setting (10 min)
+Section 2 - Context Setting (10 min)
 - Background information embedded in board
 - Key constraints visible
 - Problem statement in large text
 
-Section 3: Individual Brainstorm (15 min)
+Section 3 - Individual Brainstorm (15 min)
 - Sticky notes template (one idea per sticky)
 - Color coding by team/theme
 - Silent writing period (cameras on, no audio)
 
-Section 4: Clustering and Discussion (20 min)
+Section 4 - Clustering and Discussion (20 min)
 - Affinity grouping
 - Voting dots (each person gets 3-5 votes)
 - Priority matrix (2x2: Impact vs Effort)
 
-Section 5: Action Planning (20 min)
+Section 5 - Action Planning (20 min)
 - Decision log template
 - Owner + Due Date fields
 - Next steps sticky board
 
-Section 6: Retrospective (10 min)
+Section 6 - Retrospective (10 min)
 - What went well / What to improve
 - Anonymous input option
 ```
@@ -107,8 +107,8 @@ The exercises below are designed for remote settings where you can't rely on bod
 
 1. Silent Brainstorm + Structured Share
 
-Time: 20-25 minutes
-When to use: Generating ideas, identifying problems, collecting perspective
+Time - 20-25 minutes
+When to use - Generating ideas, identifying problems, collecting perspective
 
 Steps:
 1. Present the prompt on the board (visible to all)
@@ -116,12 +116,12 @@ Steps:
 3. Each person picks their top 2 stickies and briefly explains them (1 minute per person)
 4. Remaining time: clustering and grouping similar ideas
 
-Why it works for remote: Silent writing prevents the anchoring bias where the first person to speak influences everyone else. In co-located workshops, dominant voices fill the silence; in remote with explicit silence, everyone participates equally.
+Why it works for remote - Silent writing prevents the anchoring bias where the first person to speak influences everyone else. In co-located workshops, dominant voices fill the silence; in remote with explicit silence, everyone participates equally.
 
 2. Structured Debate: 1-2-All
 
-Time: 30 minutes
-When to use: Decision-making, evaluating options
+Time - 30 minutes
+When to use - Decision-making, evaluating options
 
 Steps:
 1. Present the decision or options on the board
@@ -134,10 +134,10 @@ The structured pair discussion surfaces minority views that get lost in large-gr
 
 3. Liberating Structure: TRIZ
 
-Time: 40-45 minutes
-When to use: Identifying what the team is doing that undermines its goals
+Time - 40-45 minutes
+When to use - Identifying what the team is doing that undermines its goals
 
-Setup in Miro: Three columns: "How to [achieve the worst outcome]", "What are we doing that resembles this?", "What should we stop doing?"
+Setup in Miro - Three columns: "How to [achieve the worst outcome]", "What are we doing that resembles this?", "What should we stop doing?"
 
 Steps:
 1. 10 min: Brainstorm the "worst possible outcome" (e.g., "How would we guarantee our deployment process fails?")
@@ -148,7 +148,7 @@ This exercise surfaces dysfunction without blame. the indirect framing ("what wo
 
 4. Dot Voting with Constrained Budget
 
-Standard dot voting: everyone gets unlimited dots and the most popular idea wins by sheer volume. The problem is that teams vote on 15 things and nothing is actually prioritized.
+Standard dot voting - everyone gets unlimited dots and the most popular idea wins by sheer volume. The problem is that teams vote on 15 things and nothing is actually prioritized.
 
 Constrained voting in Miro:
 - Each person gets 3 dots only
@@ -181,7 +181,7 @@ Board Layout (for 4 groups of 4):
  Group 3  Group 4 
                   
 
-Center: Synthesis / Full-group section
+Center - Synthesis / Full-group section
 ```
 
 Use Zoom's breakout rooms simultaneously with Miro. Each group gets a board section and works independently for 15-20 minutes, then one member presents to the full group.
@@ -216,7 +216,7 @@ Facilitation Script for 90-Minute Workshop
 [43:00] Breakout groups (15 min)
 - Assign groups, send to Zoom breakout rooms
 - Each group works on assigned board section
-- Brief: "Your task is X. You have 15 minutes."
+- Brief - "Your task is X. You have 15 minutes."
 
 [58:00] Group reports back (12 min)
 - 3 minutes per group
@@ -237,7 +237,7 @@ Facilitation Script for 90-Minute Workshop
 [90:00] End
 ```
 
-After the Workshop: Outputs and Follow-Through
+After the Workshop - Outputs and Follow-Through
 
 The most common workshop failure is great ideas with no follow-through. Before ending:
 

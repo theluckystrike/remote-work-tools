@@ -105,8 +105,8 @@ Establish clear standards for what your documentation must include. These standa
 
 Every endpoint documentation should contain:
 
-1. Purpose: What does this endpoint accomplish? Why would a developer use it?
-2. Authentication: What credentials or tokens are required? How do developers obtain them?
+1. Purpose - What does this endpoint accomplish? Why would a developer use it?
+2. Authentication - What credentials or tokens are required? How do developers obtain them?
 3. Request format: What fields are required versus optional? What are the data types and constraints?
 4. Response format: What does a successful response look like? What status codes indicate success versus errors?
 5. Error handling: What error codes might developers encounter? What do they mean and how should applications handle them?
@@ -184,14 +184,14 @@ Maintain backward compatibility within major versions whenever possible. When br
 
 ```
 Deprecation notice example
-Deprecation Notice: /api/v1/orders
+Deprecation Notice - /api/v1/orders
 The v1 orders endpoint will be deprecated on June 30, 2026.
 Please migrate to /api/v2/orders which includes:
 - Pagination support
 - Expanded order status values
 - Improved error responses
 
-Migration guide: https://docs.example.com/migrations/v1-to-v2
+Migration guide - https://docs.example.com/migrations/v1-to-v2
 ```
 
 Documentation Ownership and Responsibilities
@@ -222,7 +222,7 @@ Continuous Documentation Generation
 Update your documentation every time code changes:
 
 ```yaml
-GitHub Actions: Auto-generate docs on every commit
+GitHub Actions - Auto-generate docs on every commit
 name: Generate API Docs
 on:
   push:
@@ -264,7 +264,7 @@ Automated Schema Validation
 Ensure your documentation stays current with actual API behavior:
 
 ```python
-Python: Validate API responses against OpenAPI schema
+Python - Validate API responses against OpenAPI schema
 import json
 from jsonschema import validate, ValidationError
 import requests
@@ -311,32 +311,32 @@ Documentation Maturity Levels
 Assess where your team is and improve incrementally:
 
 ```
-Level 1: Minimal (Nascent)
+Level 1 - Minimal (Nascent)
 - API exists, no documentation
 - Developers learn from reading code or asking others
 - High onboarding friction
 - Common in: Early startups
 
-Level 2: Basic (Emerging)
+Level 2 - Basic (Emerging)
 - README with endpoint list
 - Some example requests/responses
 - No formal spec
 - Common in: Small teams, pre-Series A
 
-Level 3: Functional (Established)
+Level 3 - Functional (Established)
 - OpenAPI spec exists
 - Swagger UI or similar interactive portal
 - Responses documented, error cases missing
 - Common in: Scaling startups
 
-Level 4: Comprehensive (Mature)
+Level 4 - complete (Mature)
 - Complete OpenAPI spec
 - All endpoints documented with examples
 - Error cases documented with codes and solutions
 - Authentication and rate limiting documented
 - Common in: Growth-stage startups, small enterprises
 
-Level 5: Excellence (Advanced)
+Level 5 - Excellence (Advanced)
 - Automated documentation generation
 - Schema validation against actual API
 - Versioning and deprecation strategy documented
@@ -415,7 +415,7 @@ Consequences for undocumented code:
 Celebration:
 - Call out excellent documentation in retrospectives
 - Recognition for significant documentation projects
-- Measure: "How many docs generate zero support questions?"
+- Measure - "How many docs generate zero support questions?"
 ```
 
 Frequently Asked Questions

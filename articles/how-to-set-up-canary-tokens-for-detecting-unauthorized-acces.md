@@ -48,7 +48,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Create Your First Canary Token
+Step 1 - Create Your First Canary Token
 
 Several open-source and commercial services provide canary token generation. For self-hosted deployments, the Canarytokens.org project (from Thinkst Applied Research) offers a free hosted version you can use immediately or deploy your own instance.
 
@@ -71,13 +71,13 @@ docker run -d \
 
 This gives you full control over your tokens and notification infrastructure.
 
-Step 2: Deploy Tokens in Remote Work Environments
+Step 2 - Deploy Tokens in Remote Work Environments
 
 Remote environments require strategic token placement. You need tokens that attackers will find while legitimate users never encounter them.
 
 Token Types for Different Scenarios
 
-Document Tokens: Create fake configuration files, credentials, or sensitive-looking documents. Place them in home directories, shared drives, or repositories.
+Document Tokens - Create fake configuration files, credentials, or sensitive-looking documents. Place them in home directories, shared drives, or repositories.
 
 ```bash
 Generate a canary PDF token using canarytokens-cli
@@ -87,9 +87,9 @@ python3 -m canarytools.console --add \
   --webhook https://your-alert-system.com/webhook
 ```
 
-AWS Credential Tokens: Place fake AWS keys in configuration files or environment variables that might be accidentally committed or exfiltrated.
+AWS Credential Tokens - Place fake AWS keys in configuration files or environment variables that might be accidentally committed or exfiltrated.
 
-GitHub Canary Tokens: Embed tokens in repository files that would be discovered during reconnaissance:
+GitHub Canary Tokens - Embed tokens in repository files that would be discovered during reconnaissance:
 
 ```bash
 Create a canary file in a private repository
@@ -100,11 +100,11 @@ When these tokens trigger, you'll receive alerts like:
 
 ```
  CANARY TOKEN TRIGGERED
-Type: Git History Token
-Memo: Production Config
-Timestamp: 2026-03-20T14:32:00Z
-Source IP: 203.0.113.42
-User Agent: git/2.34.1
+Type - Git History Token
+Memo - Production Config
+Timestamp - 2026-03-20T14:32:00Z
+Source IP - 203.0.113.42
+User Agent - git/2.34.1
 ```
 
 Advanced Configuration with Custom Alerts
@@ -139,18 +139,18 @@ def send_canary_alert(token_data):
 
 This integration ensures your team sees alerts immediately, regardless of where they are working.
 
-Step 3: Strategic Token Placement
+Step 3 - Strategic Token Placement
 
 Effective detection requires thinking like an attacker. Consider what an intruder would search for after gaining initial access:
 
-1. Home Directories: Place tokens in `~/.ssh/`, `~/Documents/`, or `~/.aws/` with names like "aws_credentials" or "id_rsa_backup"
-2. Configuration Files: Create fake API keys in `.env` files or config directories
+1. Home Directories - Place tokens in `~/.ssh/`, `~/Documents/`, or `~/.aws/` with names like "aws_credentials" or "id_rsa_backup"
+2. Configuration Files - Create fake API keys in `.env` files or config directories
 3. Browser Data: Canary tokens can detect browser credential theft
 4. Network Shares: Place tokens on shared drives that might be accessible from compromised machines
 
 Rotate your tokens periodically, every 3-6 months, to prevent attackers from learning which tokens are monitored.
 
-Step 4: Monitor and Response
+Step 4 - Monitor and Response
 
 When a canary token triggers, your response should be proportional to the alert severity. Low-confidence triggers (such as automated scanners) may warrant watching, while direct access to credential-like tokens requires immediate action.
 
@@ -164,7 +164,7 @@ Document your response procedures:
 
 Canary tokens work best as part of a layered security strategy. They excel at detecting post-breach activity but should complement preventive controls like multi-factor authentication, endpoint protection, and access logging.
 
-Step 5: Plan Incident Response Workflows
+Step 5 - Plan Incident Response Workflows
 
 When a canary token triggers, your response should be immediate and systematic.
 
@@ -261,7 +261,7 @@ done
 
 Configure file-level monitoring through your security tool to alert when these files are accessed.
 
-Step 6: Integrate Canary Tokens with SIEM Systems
+Step 6 - Integrate Canary Tokens with SIEM Systems
 
 For enterprise environments, integrate canary token alerts into your Security Information and Event Management (SIEM) system:
 
@@ -296,7 +296,7 @@ class CanaryTokenSIEMBridge:
 
 This integration provides visibility into canary alerts alongside other security events, enabling correlation analysis.
 
-Step 7: Measuring Canary Token Effectiveness
+Step 7 - Measuring Canary Token Effectiveness
 
 Track metrics that demonstrate canary tokens' value:
 

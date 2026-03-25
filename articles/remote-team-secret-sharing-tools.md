@@ -33,7 +33,7 @@ A proper secrets manager solves all of these.
 
 ---
 
-Option 1: HashiCorp Vault (Self-Hosted)
+Option 1 - HashiCorp Vault (Self-Hosted)
 
 Vault is the most powerful option and completely self-hosted. Best for teams with a dedicated ops person and compliance requirements.
 
@@ -100,12 +100,12 @@ Create a token for a developer
 vault token create -policy="dev-policy" -ttl=8h -display-name="alice-dev"
 ```
 
-Cost: Free (open source). Infrastructure cost only.
-Audit: Built-in audit log to file or syslog.
+Cost - Free (open source). Infrastructure cost only.
+Audit - Built-in audit log to file or syslog.
 
 ---
 
-Option 2: Doppler (SaaS, Developer-Friendly)
+Option 2 - Doppler (SaaS, Developer-Friendly)
 
 Doppler syncs secrets directly into CI/CD pipelines, Docker containers, and local dev environments. Zero infrastructure to run.
 
@@ -145,11 +145,11 @@ jobs:
       - run: echo "DB_HOST is $DB_HOST"  # secret injected
 ```
 
-Cost: Free for up to 5 users. $6/user/month for teams with audit logs and RBAC.
+Cost - Free for up to 5 users. $6/user/month for teams with audit logs and RBAC.
 
 ---
 
-Option 3: 1Password Teams with CLI
+Option 3 - 1Password Teams with CLI
 
 1Password is already in use at many companies for personal passwords. The Teams plan adds shared vaults and a CLI that pulls secrets into scripts without storing them on disk.
 
@@ -200,11 +200,11 @@ op item create \
   password="$(openssl rand -base64 32)"
 ```
 
-Cost: $3/user/month for Teams. Most teams already pay this.
+Cost - $3/user/month for Teams. Most teams already pay this.
 
 ---
 
-Option 4: SOPS + Age (GitOps-Friendly)
+Option 4 - SOPS + Age (GitOps-Friendly)
 
 SOPS (Secrets OPerationS) encrypts secret files before committing them to Git. Age is a modern encryption tool that replaces GPG for key management.
 
@@ -215,7 +215,7 @@ or download binaries from GitHub releases
 
 Each team member generates a key pair
 age-keygen -o ~/.config/age/keys.txt
-Public key printed to stdout: age1ql3z7hjy54pw3hyww5ayyfg7zqgvc7w3j2elw8zmrj2kg5sfn9aqmcac8p
+Public key printed to stdout - age1ql3z7hjy54pw3hyww5ayyfg7zqgvc7w3j2elw8zmrj2kg5sfn9aqmcac8p
 
 Create .sops.yaml at repo root listing team public keys
 cat > .sops.yaml << 'EOF'
@@ -241,9 +241,9 @@ Edit in place (decrypts, opens editor, re-encrypts on save)
 SOPS_AGE_KEY_FILE=~/.config/age/keys.txt sops secrets/production.enc.yaml
 ```
 
-Add a new team member: Add their age public key to `.sops.yaml` and run `sops updatekeys` on all encrypted files. Remove someone: remove their key and rotate.
+Add a new team member - Add their age public key to `.sops.yaml` and run `sops updatekeys` on all encrypted files. Remove someone: remove their key and rotate.
 
-Cost: Free and open source.
+Cost - Free and open source.
 
 ---
 
@@ -263,7 +263,7 @@ Rotation Workflow
 Rotate a secret without a Zoom call:
 
 ```bash
-With Doppler: update in UI, apps pick it up on next restart
+With Doppler - update in UI, apps pick it up on next restart
 doppler secrets set DB_PASSWORD "$(openssl rand -base64 32)" \
   --project myapp --config production
 

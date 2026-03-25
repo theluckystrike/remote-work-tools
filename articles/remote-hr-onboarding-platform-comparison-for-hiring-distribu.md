@@ -30,15 +30,15 @@ Evaluation Criteria for Remote-Onboarding Platforms
 
 Before examining specific platforms, establish the technical requirements that distinguish remote-capable onboarding tools from basic HR software:
 
-API-First Architecture: Can you programmatically provision accounts, trigger onboarding sequences, and sync employee data with your existing identity provider? Platforms with APIs allow you to embed onboarding logic into your own workflows rather than forcing manual processes.
+API-First Architecture - Can you programmatically provision accounts, trigger onboarding sequences, and sync employee data with your existing identity provider? Platforms with APIs allow you to embed onboarding logic into your own workflows rather than forcing manual processes.
 
-Time Zone-Aware Scheduling: Does the platform handle meeting invitations, deadline reminders, and task due dates across time zones automatically, or does it assume everyone works in the same locale?
+Time Zone-Aware Scheduling - Does the platform handle meeting invitations, deadline reminders, and task due dates across time zones automatically, or does it assume everyone works in the same locale?
 
-Async Document Collection: Can new hires complete paperwork, submit tax forms, and provide required information without synchronous interaction with HR?
+Async Document Collection - Can new hires complete paperwork, submit tax forms, and provide required information without synchronous interaction with HR?
 
-Integration Ecosystem: Does the platform connect with your existing tooling stack, Slack, Microsoft Teams, identity providers like Okta or Auth0, and HR systems like payroll and benefits administrators?
+Integration environment - Does the platform connect with your existing tooling stack, Slack, Microsoft Teams, identity providers like Okta or Auth0, and HR systems like payroll and benefits administrators?
 
-Audit and Compliance: For distributed teams operating across multiple jurisdictions, can the platform track which documents have been completed, store them with appropriate retention policies, and generate compliance reports?
+Audit and Compliance - For distributed teams operating across multiple jurisdictions, can the platform track which documents have been completed, store them with appropriate retention policies, and generate compliance reports?
 
 Quick Comparison
 
@@ -53,7 +53,7 @@ Quick Comparison
 
 Platform Comparison
 
-Workable: Structured Onboarding with Strong API
+Workable - Structured Onboarding with Strong API
 
 Workable offers an onboarding module that integrates with its broader hiring pipeline. The platform provides a visual workflow builder where you can define stages from offer acceptance through first-week completion.
 
@@ -74,17 +74,17 @@ curl -X POST "https://api.workable.com/spaces/{space}/onboarding" \
 
 The API approach works well if you want to trigger onboarding from your own internal tools or ATS system. However, the async document collection features are more limited, you'll need third-party tools like DocuSign for actual paperwork completion.
 
-Strengths: Strong candidate-to-employee pipeline, good reporting, reliable API.
-Limitations: Document handling requires external integrations, limited time zone flexibility in task scheduling.
+Strengths - Strong candidate-to-employee pipeline, good reporting, reliable API.
+Limitations - Document handling requires external integrations, limited time zone flexibility in task scheduling.
 
-BambooHR: but Developer-Light
+BambooHR - but Developer-Light
 
 BambooHR provides the most complete traditional HR feature set among mid-market platforms, including onboarding, benefits administration, and performance management. The onboarding workflows allow you to create custom task lists and assign them based on role or department.
 
 The platform includes electronic signature capabilities through its native integration, reducing the need for separate document signing tools. Task due dates adjust to employee time zones when you configure location settings for each new hire.
 
 ```python
-Python example: Creating onboarding tasks via BambooHR API
+Python example - Creating onboarding tasks via BambooHR API
 import requests
 
 def create_onboarding_checklist(employee_id, start_date):
@@ -109,10 +109,10 @@ def create_onboarding_checklist(employee_id, start_date):
 
 The API is functional but feels designed for administrative users rather than developers. Rate limits and XML response formats can frustrate teams trying to build sophisticated automation around the platform.
 
-Strengths: Complete HR suite, native document signing, benefits administration.
-Limitations: API feels like an afterthought, limited customization for async-first workflows.
+Strengths - Complete HR suite, native document signing, benefits administration.
+Limitations - API feels like an afterthought, limited customization for async-first workflows.
 
-Personio: European-Built for Multi-Country Compliance
+Personio - European-Built for Multi-Country Compliance
 
 Personio, popular in European markets, addresses cross-border hiring with stronger compliance features than US-centric alternatives. The platform handles different employment contract types, country-specific legal requirements, and multi-currency compensation structures.
 
@@ -143,10 +143,10 @@ app.on('employee.created', async (event) => {
 
 Personio's API has improved significantly but still lacks the flexibility needed for deep custom integrations. The platform works best when you're willing to adapt your processes to its built-in workflows rather than forcing the platform to adapt to yours.
 
-Strengths: Strong multi-country compliance, European data residency options, good benefits integration.
-Limitations: API limitations for complex automation, steeper learning curve for US teams.
+Strengths - Strong multi-country compliance, European data residency options, good benefits integration.
+Limitations - API limitations for complex automation, steeper learning curve for US teams.
 
-Zavvy: Purpose-Built for Remote Onboarding
+Zavvy - Purpose-Built for Remote Onboarding
 
 Zavvy positions itself specifically as a remote-first onboarding platform, which immediately sets it apart from HR tools that added remote features as an afterthought. The platform emphasizes peer matching, virtual introductions, and structured check-ins designed for async teams.
 
@@ -180,8 +180,8 @@ async function assignOnboardingBuddy(hire: NewHire): Promise<void> {
 
 Zavvy excels at the human side of onboarding, structured check-ins, peer introductions, and 30/60/90-day goal tracking, but lacks the HR features like payroll or benefits administration that larger organizations require.
 
-Strengths: Purpose-built for remote, strong peer matching, excellent async check-ins.
-Limitations: Not a full HR suite, limited compliance features for multi-country.
+Strengths - Purpose-built for remote, strong peer matching, excellent async check-ins.
+Limitations - Not a full HR suite, limited compliance features for multi-country.
 
 Building Your Own Integration Layer
 

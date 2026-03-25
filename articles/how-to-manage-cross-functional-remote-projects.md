@@ -14,23 +14,23 @@ voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
 
-Cross-Functional Projects: Why Remote Increases Friction
+Cross-Functional Projects - Why Remote Increases Friction
 
 Table of Contents
 
-- [Cross-Functional Projects: Why Remote Increases Friction](#cross-functional-projects-why-remote-increases-friction)
+- [Cross-Functional Projects - Why Remote Increases Friction](#cross-functional-projects-why-remote-increases-friction)
 - [The Cross-Functional Project Anatomy](#the-cross-functional-project-anatomy)
-- [Tool Setup: Notion for Cross-Functional Coordination](#tool-setup-notion-for-cross-functional-coordination)
-- [Real Workflow: Managing Cross-Functional Project in Notion](#real-workflow-managing-cross-functional-project-in-notion)
-- [Stakeholder Communication: Weekly Status Template](#stakeholder-communication-weekly-status-template)
-- [Decision-Making Framework: Async Decisions](#decision-making-framework-async-decisions)
-- [Critical Path: Identify What Blocks Everything](#critical-path-identify-what-blocks-everything)
-- [Communication Cadence: What Meetings Are Actually Needed](#communication-cadence-what-meetings-are-actually-needed)
-- [Red Flags: When Project Health Is Declining](#red-flags-when-project-health-is-declining)
-- [Post-Launch: Close the Loop](#post-launch-close-the-loop)
-- [Team Exercise: Plan Your Cross-Functional Project (2 hours)](#team-exercise-plan-your-cross-functional-project-2-hours)
+- [Tool Setup - Notion for Cross-Functional Coordination](#tool-setup-notion-for-cross-functional-coordination)
+- [Real Workflow - Managing Cross-Functional Project in Notion](#real-workflow-managing-cross-functional-project-in-notion)
+- [Stakeholder Communication - Weekly Status Template](#stakeholder-communication-weekly-status-template)
+- [Decision-Making Framework - Async Decisions](#decision-making-framework-async-decisions)
+- [Critical Path - Identify What Blocks Everything](#critical-path-identify-what-blocks-everything)
+- [Communication Cadence - What Meetings Are Actually Needed](#communication-cadence-what-meetings-are-actually-needed)
+- [Red Flags - When Project Health Is Declining](#red-flags-when-project-health-is-declining)
+- [Post-Launch - Close the Loop](#post-launch-close-the-loop)
+- [Team Exercise - Plan Your Cross-Functional Project (2 hours)](#team-exercise-plan-your-cross-functional-project-2-hours)
 
-Cross-functional means: engineering + design + product + marketing + operations all contributing. Synchronously coordinating 20+ people across 5 departments in different time zones is impossible.
+Cross-functional means - engineering + design + product + marketing + operations all contributing. Synchronously coordinating 20+ people across 5 departments in different time zones is impossible.
 
 The solution is structured async: clear goals, explicit handoffs, visible progress, no surprise blockers.
 
@@ -46,9 +46,9 @@ Every cross-functional project has phases:
 6. Launch: Coordinated release (all teams ready simultaneously)
 7. Post-Launch: Monitor, support, iterate (everyone available)
 
-The challenge: Design can't start until goals are set. Engineering can't start until design specs are done. Marketing can't plan launch until engineering commits to date. All these dependencies live async.
+The challenge - Design can't start until goals are set. Engineering can't start until design specs are done. Marketing can't plan launch until engineering commits to date. All these dependencies live async.
 
-Tool Setup: Notion for Cross-Functional Coordination
+Tool Setup - Notion for Cross-Functional Coordination
 
 Create single Notion workspace with these databases:
 
@@ -105,13 +105,13 @@ Properties:
 - Implemented? (checkbox)
 ```
 
-Real Workflow: Managing Cross-Functional Project in Notion
+Real Workflow - Managing Cross-Functional Project in Notion
 
 Week 1 (Kickoff):
 
 1. Monday: Create project "Mobile App Redesign" in Projects database
  - Goal: "Modernize mobile UX, improve engagement 20%"
- - Owner: Product Manager Sarah
+ - Owner - Product Manager Sarah
  - Timeline: Mar 17 → Apr 28 (6 weeks)
  - Teams: Engineering, Design, Product
 
@@ -145,7 +145,7 @@ Week 4 (Handoff to Engineering):
  - Creates tickets from design specs (Notion links to GitHub issues)
  - Updates "Engineering Status" row: "Starting authentication flow, estimated 3 days"
 
-3. Wednesday: Marketing asks in Notion comments: "Can we do early access beta with 50 users?"
+3. Wednesday - Marketing asks in Notion comments: "Can we do early access beta with 50 users?"
  - Product responds: "Yes, week of April 14"
  - Marketing updates launch plan accordingly
 
@@ -172,7 +172,7 @@ Week 7 (Launch):
 4. Friday 10 AM: Marketing announce
 5. Ongoing: Monitor and respond to issues
 
-Stakeholder Communication: Weekly Status Template
+Stakeholder Communication - Weekly Status Template
 
 Every Friday, each department owner updates one row in "Stakeholder Status" database:
 
@@ -181,7 +181,7 @@ Week of April 7:
 
 ENGINEERING:
  Completed: Authentication flow (1000 LOC), payment integration
- In Progress: UI polish on checkout (est. 2 days)
+ In Progress - UI polish on checkout (est. 2 days)
 ⏸ Blocked: Waiting for API spec from backend team (due Monday)
  Metrics: 4 features shipped, 2 bugs fixed, 3 bugs reported by QA
  Risks: Checkout performance tests not finalized, may need extra week
@@ -213,7 +213,7 @@ DECISIONS MADE:
 
 Each owner spends 10 minutes drafting their section. Everyone reads them Friday afternoon. This replaces a 1-hour all-hands meeting.
 
-Decision-Making Framework: Async Decisions
+Decision-Making Framework - Async Decisions
 
 Cross-functional projects need fast decisions with buy-in. Async decisions work if structured:
 
@@ -226,8 +226,8 @@ Decision Process:
 Notion Decision Log Example:
 
 ```
-DECISION: Offline Mode Support
-Problem: Users want app to work on airplane. Engineering estimates 2 weeks.
+DECISION - Offline Mode Support
+Problem - Users want app to work on airplane. Engineering estimates 2 weeks.
 Options:
   A) Build now (ship in week 8, delay launch)
   B) Ship without, add post-launch (ship on schedule, feature in v1.1)
@@ -239,14 +239,14 @@ COMMENTS:
 - Engineering (Wed 10 AM): "Confirmed, option B saves 2 weeks"
 - Design (Wed 2 PM): "Can we at least show 'offline' badge? Yes, handled."
 
-DECISION MADE: Option B
-Owner: Product Manager Sarah
-Date Made: Wednesday, April 3, 10:30 AM
-Rationale: Launch on schedule is priority. Offline is nice-to-have, not blocker.
-Implemented: Yes, engineers confirmed
+DECISION MADE - Option B
+Owner - Product Manager Sarah
+Date Made - Wednesday, April 3, 10:30 AM
+Rationale - Launch on schedule is priority. Offline is nice-to-have, not blocker.
+Implemented - Yes, engineers confirmed
 ```
 
-Critical Path: Identify What Blocks Everything
+Critical Path - Identify What Blocks Everything
 
 Some tasks block all others. These are critical path items.
 
@@ -264,7 +264,7 @@ Protect critical path:
 - If critical path item at risk, escalate immediately
 - Consider parallel work (QA testing while engineering still coding)
 
-Communication Cadence: What Meetings Are Actually Needed
+Communication Cadence - What Meetings Are Actually Needed
 
 For 10-15 person cross-functional team, minimize sync meetings:
 
@@ -286,16 +286,16 @@ Avoid:
 - Back-to-back meetings (async communication works better)
 - Large all-hands (talk to your department, department leads sync with others)
 
-Red Flags: When Project Health Is Declining
+Red Flags - When Project Health Is Declining
 
-Red Flag 1: Milestone delays accumulate
+Red Flag 1 - Milestone delays accumulate
 - Week 1: Design 2 days late
 - Week 2: Engineering starts 2 days late
 - Week 3: Design now 4 days late (cascade effect)
 
 *Action*: Stakeholder call to identify real blockers. May need to cut scope or add resources.
 
-Red Flag 2: Decisions take forever
+Red Flag 2 - Decisions take forever
 - Decision proposed Monday
 - Stakeholders argue Wed
 - Proposer responds Thu
@@ -303,21 +303,21 @@ Red Flag 2: Decisions take forever
 
 *Action*: Project manager decides (gets stakeholder input but doesn't wait for consensus). Binding decision, move forward.
 
-Red Flag 3: Blame game starts
+Red Flag 3 - Blame game starts
 - "Engineering wasn't ready"
 - "Design specs were vague"
 - "Marketing didn't plan in time"
 
 *Action*: Acknowledge delays without blame. Focus on solutions. All teams are doing their best.
 
-Red Flag 4: No one knows project status
+Red Flag 4 - No one knows project status
 - Stakeholders ask "Are we shipping on time?"
 - No clear answer
 - Status is being discussed in private Slack threads
 
 *Action*: Make status visible to all (Notion dashboard). Update weekly. "On track," "at risk," or "blocked" only options.
 
-Post-Launch: Close the Loop
+Post-Launch - Close the Loop
 
 After launch:
 1. Hold retrospective (60 min, Miro workshop format or Notion retro)
@@ -332,29 +332,29 @@ After launch:
 3. Archive project (lock Notion database, preserve for future reference)
 4. Celebrate (team recognition for pulling together across functions)
 
-Team Exercise: Plan Your Cross-Functional Project (2 hours)
+Team Exercise - Plan Your Cross-Functional Project (2 hours)
 
-Part 1: Identify Project (20 min)
+Part 1 - Identify Project (20 min)
 - What cross-functional initiative needs coordination?
 - Who are the stakeholders? (minimum: 1 designer, 1 engineer, 1 product, 1 ops)
 - Timeline? Scope? Success metric?
 
-Part 2: Design Notion Structure (40 min)
+Part 2 - Design Notion Structure (40 min)
 1. Create Projects database with sample project
 2. Create Milestones database with 5-6 milestones
 3. Create Stakeholder Status template
 4. Create Decisions Log
 5. Link them together
 
-Part 3: Simulate Week 1 (40 min)
+Part 3 - Simulate Week 1 (40 min)
 1. Stakeholders fill out status rows (pretend it's Friday, week 1)
-2. Review: Does status give clear picture of project health?
-3. Identify: Are there blockers? Risks? Decisions needed?
+2. Review - Does status give clear picture of project health?
+3. Identify - Are there blockers? Risks? Decisions needed?
 
-Part 4: Commit to Process (20 min)
-1. Decide: Weekly status on Friday or Monday?
-2. Decide: Which decisions go in Notion log vs Slack?
-3. Decide: Bi-weekly sync meeting or async only?
+Part 4 - Commit to Process (20 min)
+1. Decide - Weekly status on Friday or Monday?
+2. Decide - Which decisions go in Notion log vs Slack?
+3. Decide - Bi-weekly sync meeting or async only?
 
 Frequently Asked Questions
 

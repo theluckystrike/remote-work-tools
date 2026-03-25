@@ -137,7 +137,7 @@ setInterval(() => {
 
 Recommended Air Purifiers for Development Setups
 
-Budget Option: Coway AP-1512HH
+Budget Option - Coway AP-1512HH
 
 This unit offers True HEPA filtration, an ionizer, and air quality indicators at an affordable price point. The auto mode adjusts fan speed based on detected air quality, and it operates quietly at 24.4 decibels on sleep mode.
 
@@ -147,7 +147,7 @@ Specifications:
 - Noise: 24-53 decibels
 - Filters: Pre-filter + Activated carbon + True HEPA
 
-Mid-Range Option: Rabbit Air MinusA2
+Mid-Range Option - Rabbit Air MinusA2
 
 This customizable unit offers six filter stages including a specialized VOC filter. The smartphone app provides detailed air quality metrics, and the whisper-quiet operation suits video call environments.
 
@@ -157,7 +157,7 @@ Specifications:
 - Noise: 20-45 decibels
 - Filters: Pre-filter + Medium + Bio GS + Charcoal-based + True HEPA + Negative ion
 
-Premium Option: IQAir HealthPro Plus
+Premium Option - IQAir HealthPro Plus
 
 For developers requiring hospital-grade air filtration, the IQAir offers the leading filtration with H13 HEPA and activated carbon V5 cell filters. The Swiss engineering ensures durability, though the price reflects the quality.
 

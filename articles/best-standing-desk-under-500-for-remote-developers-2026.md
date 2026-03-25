@@ -83,9 +83,9 @@ Height measurements with laptop and external monitor setup:
 - Customer reviews mention inconsistent quality on some units
 - Requires assembly (2-3 hours for developer with basic mechanical skills)
 
-Pricing: $349-399 depending on promotions (2026).
+Pricing - $349-399 depending on promotions (2026).
 
-Best for: Developers on tight budgets seeking reliable performance and motor speed.
+Best for - Developers on tight budgets seeking reliable performance and motor speed.
 
 UPLIFT V2 Standing Desk
 
@@ -133,9 +133,9 @@ Real-World Measurements for Developers:
 - Solid bamboo option significantly increases price
 - Assembly requires two people (more complex than E7)
 
-Pricing: $399-495 depending on desktop material and size (2026).
+Pricing - $399-495 depending on desktop material and size (2026).
 
-Best for: Developers with heavy equipment loads or who prioritize rock-solid stability over speed.
+Best for - Developers with heavy equipment loads or who prioritize rock-solid stability over speed.
 
 Fully Jarvis Standing Desk
 
@@ -184,9 +184,9 @@ Real-World Measurements for Developers:
 - Lower weight capacity than competitors
 - Less feature set
 
-Pricing: $380-495 depending on desktop material and size (2026).
+Pricing - $380-495 depending on desktop material and size (2026).
 
-Best for: Developers prioritizing aesthetics and design quality, or those wanting a wider desk surface.
+Best for - Developers prioritizing aesthetics and design quality, or those wanting a wider desk surface.
 
 IKEA Bekant Standing Desk
 
@@ -235,9 +235,9 @@ Real-World Measurements for Developers:
 - Limited warranty and support
 - Particleboard desktop wears quickly under heavy use
 
-Pricing: $249-299 (2026).
+Pricing - $249-299 (2026).
 
-Best for: Developers on extremely tight budgets ($250 limit) who will use standing desks minimally.
+Best for - Developers on extremely tight budgets ($250 limit) who will use standing desks minimally.
 
 Comparative Specification Table
 
@@ -260,25 +260,25 @@ Ergonomic Setup Guide for Developers
 
 Regardless of which desk you choose, proper setup prevents repetitive strain injury:
 
-Sitting height: Elbows should be at 90 degrees when hands rest on keyboard. For most developers, this means 28-32 inches from floor to desktop surface.
+Sitting height - Elbows should be at 90 degrees when hands rest on keyboard. For most developers, this means 28-32 inches from floor to desktop surface.
 
-Standing height: Maintain same 90-degree elbow angle. Most developers find 40-46 inches appropriate, depending on monitor height and arm angle.
+Standing height - Maintain same 90-degree elbow angle. Most developers find 40-46 inches appropriate, depending on monitor height and arm angle.
 
-Monitor distance: Position monitors 20-30 inches from eyes. Use monitor arms to achieve exact height and distance rather than adjusting desk height.
+Monitor distance - Position monitors 20-30 inches from eyes. Use monitor arms to achieve exact height and distance rather than adjusting desk height.
 
-Switching frequency: The best ergonomic practice is 30 minutes sitting, 30 minutes standing. Set phone reminders until the pattern becomes habit. Many developers find they work better standing in mornings and sitting in afternoons (reverse patterns help too).
+Switching frequency - The best ergonomic practice is 30 minutes sitting, 30 minutes standing. Set phone reminders until the pattern becomes habit. Many developers find they work better standing in mornings and sitting in afternoons (reverse patterns help too).
 
-Keyboard and mouse: Use an external keyboard and mouse to maintain proper wrist position. Laptop keyboards force awkward positioning regardless of desk height.
+Keyboard and mouse - Use an external keyboard and mouse to maintain proper wrist position. Laptop keyboards force awkward positioning regardless of desk height.
 
 Making the Purchase Decision
 
-Choose Flexispot E7 if: You value motor speed and want quick position switching. Best overall value for most developers.
+Choose Flexispot E7 if - You value motor speed and want quick position switching. Best overall value for most developers.
 
-Choose UPLIFT V2 if: You have three or more monitors or heavy equipment. The superior stability and warranty justify the higher cost.
+Choose UPLIFT V2 if - You have three or more monitors or heavy equipment. The superior stability and warranty justify the higher cost.
 
-Choose Fully Jarvis if: Aesthetics matter (client calls, streaming setup). You want a premium feel at a reasonable price.
+Choose Fully Jarvis if - Aesthetics matter (client calls, streaming setup). You want a premium feel at a reasonable price.
 
-Choose IKEA Bekant if: Your budget is under $300 and you'll use standing minimally. Accept the compromise in performance.
+Choose IKEA Bekant if - Your budget is under $300 and you'll use standing minimally. Accept the compromise in performance.
 
 Assembly and Maintenance Tips
 
@@ -286,7 +286,7 @@ Most developers can assemble standing desks in 2-3 hours. Dual-motor desks (Flex
 
 After assembly, test height range before loading with equipment. Verify motors move smoothly and both sides reach the same height. Some units ship with uneven motor calibration (rare, but return is simpler before loading).
 
-Maintenance is minimal: wipe desktop monthly, tighten bolts quarterly (vibration gradually loosens fasteners), and replace any worn feet (rubber pads wear with movement).
+Maintenance is minimal - wipe desktop monthly, tighten bolts quarterly (vibration gradually loosens fasteners), and replace any worn feet (rubber pads wear with movement).
 
 Automate Ergonomic Break Reminders
 

@@ -21,7 +21,7 @@ Indonesia introduced the Second Home Visa (Visa Tinggal Terbatas dengan sponsor 
 Table of Contents
 
 - [Eligibility Criteria for the Second Home Visa](#eligibility-criteria-for-the-second-home-visa)
-- [Application Process: Step-by-Step](#application-process-step-by-step)
+- [Application Process - Step-by-Step](#application-process-step-by-step)
 - [Financial Planning Tools](#financial-planning-tools)
 - [Practical Considerations for Remote Workers](#practical-considerations-for-remote-workers)
 - [Common Application Issues and Solutions](#common-application-issues-and-solutions)
@@ -63,21 +63,21 @@ Gathering documents before starting your application significantly accelerates t
 - Proof of accommodation (rental agreement or property ownership in Indonesia)
 - Sponsorship letter (if applicable)
 
-Application Process: Step-by-Step
+Application Process - Step-by-Step
 
 The Second Home Visa application submits through Indonesia's online immigration portal (https://visa-online.imigration.go.id/). Here's the practical workflow:
 
-Step 1: Account Creation and Initial Application
+Step 1 - Account Creation and Initial Application
 
 Create an account on the immigration portal and select "Second Home Visa (Visa Tinggal Terbatas)" as your application type. The system requires email verification and identity document upload.
 
 ```bash
 Prepare your documents in advance
-Required formats: PDF, max 2MB per file
-Naming convention: PASSPORT_[name].pdf, BANK_[name].pdf
+Required formats - PDF, max 2MB per file
+Naming convention - PASSPORT_[name].pdf, BANK_[name].pdf
 ```
 
-Step 2: Sponsor Verification (If Applicable)
+Step 2 - Sponsor Verification (If Applicable)
 
 If applying with an Indonesian sponsor, their details enter the system first. The sponsor must provide:
 - KTP (Indonesian ID card)
@@ -87,7 +87,7 @@ If applying with an Indonesian sponsor, their details enter the system first. Th
 
 Self-sponsored applicants skip this step but must demonstrate higher financial standing.
 
-Step 3: Financial Document Upload
+Step 3 - Financial Document Upload
 
 Upload bank statements demonstrating the required IDR 1.5 billion balance. The system accepts statements from international banks but requires English or Indonesian language. For cryptocurrency holders, converting to fiat and maintaining the balance for 3+ months before application strengthens the case.
 
@@ -109,7 +109,7 @@ result = check_indonesia_second_home_visa_eligibility(2_000_000_000)
 print(result)  # "Eligible via savings path"
 ```
 
-Step 4: Interview Scheduling
+Step 4 - Interview Scheduling
 
 After document review, the immigration system schedules a virtual interview. This 15-20 minute video call verifies your identity and intended activities in Indonesia. Common questions include:
 - Purpose of stay
@@ -118,7 +118,7 @@ After document review, the immigration system schedules a virtual interview. Thi
 - Financial source verification
 - Intent to work (Second Home Visa does NOT permit local employment)
 
-Step 5: Visa Approval and Arrival
+Step 5 - Visa Approval and Arrival
 
 Upon approval, you receive an electronic Visa Grant Notice (VGN). Print this and present it upon arrival in Indonesia. At the airport, immigration officers issue a second home stay permit (ITAS) valid for the visa duration.
 
@@ -137,7 +137,7 @@ const IDR_EXCHANGE_RATE = 16100; // USD to IDR (approximate)
 const REQUIRED_IDR = 1_500_000_000;
 const REQUIRED_USD = REQUIRED_IDR / IDR_EXCHANGE_RATE;
 
-console.log(`Required: $${REQUIRED_USD.toLocaleString()} USD`);
+console.log(`Required - $${REQUIRED_USD.toLocaleString()} USD`);
 ```
 
 Insurance Requirements
@@ -231,10 +231,10 @@ Popular rental platforms for remote workers:
 
 ```bash
 Identify rental markets for remote workers
-Bali: Seminyak, Canggu (high costs, extensive expat infrastructure)
-Jakarta: South Jakarta, Kemang (central location, higher prices)
-Yogyakarta: Affordable, slower pace, cultural experiences
-Bandung: Mountain location, moderate cost, weekends from Jakarta
+Bali - Seminyak, Canggu (high costs, extensive expat infrastructure)
+Jakarta - South Jakarta, Kemang (central location, higher prices)
+Yogyakarta - Affordable, slower pace, cultural experiences
+Bandung - Mountain location, moderate cost, weekends from Jakarta
 
 Typical monthly rental prices (2026):
 - Studio apartment (Seminyak): Rp 5-8 million
@@ -351,7 +351,7 @@ days_in_country = (visa_end - visa_start).days
 If > 183 days, you may be considered a tax resident
 Consult with Indonesian tax advisor (konsultan pajak)
 
-Mitigation: Leave Indonesia for 182 days in a 12-month period
+Mitigation - Leave Indonesia for 182 days in a 12-month period
 Examples:
 - Spend 183 days in Indonesia, 182 days traveling
 - Plan 2-3 month trips back to home country annually

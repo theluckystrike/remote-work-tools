@@ -78,7 +78,7 @@ CodeSandbox's advantages for remote teams:
 
 Project Structure and Capabilities
 
-CodePen: Pen-Centric Design
+CodePen - Pen-Centric Design
 
 CodePen organizes work around Pens, Projects, and Collections. Each Pen is a self-contained HTML/CSS/JS triple that renders in an embedded preview pane.
 
@@ -114,7 +114,7 @@ Best suited for:
 - Quick bug reproductions
 - Portfolio pieces and demos
 
-CodeSandbox: Full Development Environment
+CodeSandbox - Full Development Environment
 
 CodeSandbox treats each workspace as a Sandbox that can contain multiple files, dependencies, and even backend services. You can create sandboxes from templates or import directly from GitHub.
 

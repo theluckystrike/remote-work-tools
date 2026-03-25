@@ -24,8 +24,8 @@ The operational footprint is minimal: a server process and one or more agents. T
 Architecture Overview
 
 Woodpecker has two components:
-- Server: Web UI, API, pipeline scheduler. Runs as a single container.
-- Agent: Executes pipeline steps. Run one per host; scale horizontally.
+- Server - Web UI, API, pipeline scheduler. Runs as a single container.
+- Agent - Executes pipeline steps. Run one per host; scale horizontally.
 
 Both communicate over gRPC. The server stores state in SQLite (small teams) or PostgreSQL (production).
 

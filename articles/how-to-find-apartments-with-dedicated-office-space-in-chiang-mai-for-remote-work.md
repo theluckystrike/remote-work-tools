@@ -30,7 +30,7 @@ Before searching, define what "dedicated office space" means for your situation.
 
 - Internet speed: Minimum 100 Mbps download for video calls and code deployments
 - Work hours: Will you be on calls at unusual times? Neighbors matter
-- Equipment: Do you need space for multiple monitors, standing desks, or specialized hardware?
+- Equipment - Do you need space for multiple monitors, standing desks, or specialized hardware?
 - Quiet environment: Air conditioning noise, street noise, and neighborhood activity levels
 
 For developers, Chiang Mai offers fiber internet in most areas, but coverage varies by building. Targeting neighborhoods with established expat communities simplifies the search considerably.
@@ -45,7 +45,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Best Neighborhoods for Remote Work
+Step 1 - Best Neighborhoods for Remote Work
 
 Nimman Area
 The Nimman area hosts numerous cafes with fast WiFi, making it convenient for hybrid work arrangements. Apartments here tend to be newer and come with modern amenities. However, rent prices have increased over the past years, and street noise can be an issue on weekends.
@@ -59,7 +59,7 @@ North of Nimman, Santitham offers a balance between affordability and convenienc
 Hang Dong Area
 For those with vehicles, Hang Dong provides more space at lower prices. Newer condominium developments offer dedicated office rooms within units. The downside involves distance from the city center and the necessity of transportation.
 
-Step 2: Search Platforms and Strategies
+Step 2 - Search Platforms and Strategies
 
 Local Platforms
 
@@ -86,21 +86,21 @@ Direct Landlord Contact
 
 Many apartment buildings in Chiang Mai operate without online listings. Visiting neighborhoods directly and looking for "ห้องว่าง" (vacancy) signs yields results. This approach works particularly well in Santitham and Hang Dong areas.
 
-Step 3: Evaluating Internet Speed
+Step 3 - Evaluating Internet Speed
 
 Internet reliability matters more than raw speed for most remote work scenarios. Before committing to a lease, test the connection yourself:
 
 ```bash
 Run multiple speed tests at different times
-Morning: 7-9 AM
-Midday: 12-2 PM
-Evening: 7-10 PM
-Weekend: varies significantly
+Morning - 7-9 AM
+Midday - 12-2 PM
+Evening - 7-10 PM
+Weekend - varies significantly
 ```
 
 Request proof of actual speed from current tenants rather than relying on building claims. Ask to run a video call test during your viewing. Most tenants are happy to demonstrate, as they understand the importance for remote workers.
 
-Step 4: Identifying Dedicated Office Space in Apartments
+Step 4 - Identifying Dedicated Office Space in Apartments
 
 True dedicated office space within apartments varies in Chiang Mai. Understanding the terminology helps:
 
@@ -136,7 +136,7 @@ Based on current market rates (2026), here are typical options:
 
 Utilities typically add 1,500-3,000 THB monthly, depending on air conditioning usage.
 
-Step 5: Negotiation and Lease Terms
+Step 5 - Negotiation and Lease Terms
 
 Most landlords expect negotiation on annual leases. Key points:
 
@@ -147,7 +147,7 @@ Most landlords expect negotiation on annual leases. Key points:
 
 Request a minimum six-month lease initially. This provides flexibility while demonstrating commitment to landlords who prefer annual agreements.
 
-Step 6: Red Flags to Avoid
+Step 6 - Red Flags to Avoid
 
 Watch for these warning signs:
 
@@ -157,7 +157,7 @@ Watch for these warning signs:
 - Landlords unwilling to provide tenant contact for reference
 - Contracts requiring more than two months deposit
 
-Step 7: Internet Verification Checklist
+Step 7 - Internet Verification Checklist
 
 Before signing any lease, verify internet quality yourself:
 
@@ -204,14 +204,14 @@ echo "=== Results Assessment ==="
 echo "Acceptable for remote work:"
 echo "- Download: 50+ Mbps"
 echo "- Upload: 20+ Mbps"
-echo "- Ping: <50ms to 8.8.8.8"
+echo "- Ping - <50ms to 8.8.8.8"
 echo "- Jitter (stddev): <20ms"
 echo "- Video call: No drops, clear audio"
 ```
 
 Document the results and compare against your requirements.
 
-Step 8: Comparing Neighborhoods: Cost vs. Convenience Matrix
+Step 8 - Comparing Neighborhoods: Cost vs. Convenience Matrix
 
 This table compares all neighborhoods:
 
@@ -233,7 +233,7 @@ Decision Framework
 - Maximize savings: Hang Dong (cheapest, best if you have scooter)
 - Short-term flexibility: Old City (tourist infrastructure, monthly leases)
 
-Step 9: Rental Costs Over Time (Historical Data)
+Step 9 - Rental Costs Over Time (Historical Data)
 
 Prices have increased steadily. Budget accordingly:
 
@@ -255,9 +255,9 @@ Prices have increased steadily. Budget accordingly:
 2BR: 26,000-30,000 THB
 ```
 
-Implication: Budget is 10-15% higher than older online guides suggest.
+Implication - Budget is 10-15% higher than older online guides suggest.
 
-Step 10: Apartment Size and Configuration Guide
+Step 10 - Apartment Size and Configuration Guide
 
 Size Recommendations by Usage
 
@@ -275,38 +275,38 @@ Layout Considerations
 - AC in office: Separate AC vs. shared affects comfort during heat
 - Insulation: Concrete buildings quieter than older structures
 
-Step 11: Application Timeline: 30-Day Search Plan
+Step 11 - Application Timeline: 30-Day Search Plan
 
-Week 1: Research and Neighborhood Testing
+Week 1 - Research and Neighborhood Testing
 - Book 1-week Airbnb in target neighborhood
 - Live there, experience noise levels, neighborhood feel
 - Run speed tests, test coworking spaces
 - Talk to 5+ long-term residents about their setup
 
-Week 2: Initial Viewings
+Week 2 - Initial Viewings
 - View 5-8 apartments in your target neighborhood
 - Use apartment viewing checklist (below)
 - Take photos and notes
 - Request landlord references for 2-3 properties
 
-Week 3: Verification and Negotiation
+Week 3 - Verification and Negotiation
 - Contact references (call/WhatsApp)
 - Perform internet verification in finalists
 - Negotiate final price and terms
 - Get written agreement (in English)
 
-Week 4: Move-In
+Week 4 - Move-In
 - Execute lease
 - Arrange utilities transfer
 - Plan furniture delivery
 - Establish landlord communication channel
 
-Step 12: Apartment Viewing Checklist
+Step 12 - Apartment Viewing Checklist
 
 Print this and bring to viewings:
 
 ```
-Property: ________________  Date: ________
+Property - ________________  Date: ________
 
 CONNECTIVITY
  Tested internet (speedtest) - speeds: ______ Mbps
@@ -337,17 +337,17 @@ LANDLORD/LEASE
  Early termination clause clear
  Internet support policy documented
 
-FINAL RATING: ___/10
+FINAL RATING - ___/10
 Would you sign today? YES / NO
-Why or why not: ________________
+Why or why not - ________________
 ```
 
-Step 13: Lease Template Essentials
+Step 13 - Lease Template Essentials
 
 Ensure your lease covers these points (have translated if needed):
 
 ```markdown
-Step 14: Critical Lease Provisions
+Step 14 - Critical Lease Provisions
 
 1. Internet Provision
    - Landlord provides fiber internet OR
@@ -376,7 +376,7 @@ Step 14: Critical Lease Provisions
    - Billing process and payment terms
 ```
 
-Step 15: Final Recommendations
+Step 15 - Final Recommendations
 
 Finding the right apartment requires balancing multiple factors. For developers and power users:
 

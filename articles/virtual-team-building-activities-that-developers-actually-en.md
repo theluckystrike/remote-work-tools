@@ -24,7 +24,7 @@ Table of Contents
 - [Pair Programming Social Sessions](#pair-programming-social-sessions)
 - [Async Show-and-Tell with Git Demos](#async-show-and-tell-with-git-demos)
 - [Technical Book Clubs with Implementation Focus](#technical-book-clubs-with-implementation-focus)
-- [Retro Games: Blame-Free Post-Mortem Format](#retro-games-blame-free-post-mortem-format)
+- [Retro Games - Blame-Free Post-Mortem Format](#retro-games-blame-free-post-mortem-format)
 - [What went well?](#what-went-well)
 - [What could improve?](#what-could-improve)
 - [Action items (specific, measurable)](#action-items-specific-measurable)
@@ -65,7 +65,7 @@ Preventing Gamification Drift
 
 Any point-based system risks optimization for points rather than review quality. Guard against this by rotating the scoring criteria monthly and including a "most helpful comment" category that is voted on by the team rather than automatically calculated. When reviewers know peers decide what counts as genuinely helpful, the incentive shifts toward actual quality.
 
-Also: cap the leaderboard at a monthly reset, not lifetime totals. Leaderboards dominated by a single person for months kill participation faster than anything else. Fresh starts keep the activity accessible for newer team members.
+Also - cap the leaderboard at a monthly reset, not lifetime totals. Leaderboards dominated by a single person for months kill participation faster than anything else. Fresh starts keep the activity accessible for newer team members.
 
 Pair Programming Social Sessions
 
@@ -140,7 +140,7 @@ Book clubs die when the time commitment grows beyond expectations. Set a hard ca
 
 For the implementation step, allow alternatives for people who can't code that week. a written reflection on how the concept applies to a real problem they faced is equally valid. Enforcing uniformity in a diverse team drives people away. Flexibility in format while maintaining the intellectual core keeps attendance up.
 
-Retro Games: Blame-Free Post-Mortem Format
+Retro Games - Blame-Free Post-Mortem Format
 
 Turn retrospectives into something developers actually anticipate by separating the "what happened" from the "who caused it" completely. Use structured formats that focus on system improvement rather than personal fault.
 
@@ -217,7 +217,7 @@ The Rotation Principle
 
 Run any single activity for six weeks, then pause and evaluate before continuing. This prevents both premature abandonment (giving up on an activity before people find their rhythm) and prolonged zombie-activities (running something nobody actually values out of inertia). After the evaluation, either continue, modify, or swap for something new. A quarterly review of your full activity catalog keeps the team building portfolio fresh without constant churn.
 
-The goal remains simple: create moments where developers connect as humans, share interests beyond tickets, and build trust that makes collaborative work smoother. When done right, team building becomes something developers actually request rather than endure.
+The goal remains simple - create moments where developers connect as humans, share interests beyond tickets, and build trust that makes collaborative work smoother. When done right, team building becomes something developers actually request rather than endure.
 
 Frequently Asked Questions
 

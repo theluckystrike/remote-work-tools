@@ -27,9 +27,9 @@ Table of Contents
 - [Choosing the Right Platform](#choosing-the-right-platform)
 - [Benefits Administration Platform Feature Comparison](#benefits-administration-platform-feature-comparison)
 - [Implementation Timeline for Global Benefits](#implementation-timeline-for-global-benefits)
-- [Month 1: Foundation (Weeks 1-4)](#month-1-foundation-weeks-1-4)
-- [Month 2: Soft Launch (Weeks 5-8)](#month-2-soft-launch-weeks-5-8)
-- [Month 3: Full Operation (Weeks 9-12)](#month-3-full-operation-weeks-9-12)
+- [Month 1 - Foundation (Weeks 1-4)](#month-1-foundation-weeks-1-4)
+- [Month 2 - Soft Launch (Weeks 5-8)](#month-2-soft-launch-weeks-5-8)
+- [Month 3 - Full Operation (Weeks 9-12)](#month-3-full-operation-weeks-9-12)
 - [Common Benefits by Geography](#common-benefits-by-geography)
 - [Troubleshooting Common Implementation Issues](#troubleshooting-common-implementation-issues)
 
@@ -81,7 +81,7 @@ Remote
 Remote offers similar EOR capabilities alongside their benefits administration product. Their strength lies in integration with their onboarding and payroll services, creating an unified platform for global team management.
 
 ```python
-Remote API example: List benefit plans by location
+Remote API example - List benefit plans by location
 import requests
 
 response = requests.get(
@@ -102,7 +102,7 @@ Oyster
 Oyster positions itself as a HR platform for distributed teams, with particular strength in benefits administration for knowledge workers. Their platform emphasizes ease of use and transparent pricing.
 
 ```bash
-Oyster API example: Create employee with benefits
+Oyster API example - Create employee with benefits
 curl -X POST https://api.oysterhr.com/v1/employees \
   -H "Authorization: Bearer $OYSTER_API_KEY" \
   -H "Content-Type: application/json" \
@@ -230,7 +230,7 @@ Implementation Timeline for Global Benefits
 ```markdown
 Rolling Out Benefits Platform to 50-Person Global Team
 
-Month 1: Foundation (Weeks 1-4)
+Month 1 - Foundation (Weeks 1-4)
 
 Week 1:
 - [ ] Select platform (proposal to exec team)
@@ -251,7 +251,7 @@ Week 4:
 - [ ] Resolve data issues
 - [ ] Train HR team on platform
 
-Month 2: Soft Launch (Weeks 5-8)
+Month 2 - Soft Launch (Weeks 5-8)
 
 Week 5:
 - [ ] Open enrollment for North America (30 people)
@@ -273,7 +273,7 @@ Week 8:
 - [ ] Process any last-minute changes
 - [ ] Generate compliance reports
 
-Month 3: Full Operation (Weeks 9-12)
+Month 3 - Full Operation (Weeks 9-12)
 
 Week 9:
 - [ ] Confirm all enrollments
@@ -340,10 +340,10 @@ benefits_by_region:
 
 Troubleshooting Common Implementation Issues
 
-Issue: Employees confused about benefits options
+Issue - Employees confused about benefits options
 
 ```
-Solution: Create benefit guides per country
+Solution - Create benefit guides per country
 - 1-page summary for each benefit type
 - Include: what it covers, cost, how to claim
 - Provide in local language
@@ -351,16 +351,16 @@ Solution: Create benefit guides per country
 
 Example template:
 [Benefit Name]: Health Insurance
-What it covers: Doctor visits, hospital, prescriptions
-Annual cost: $200 (company pays $500, employee pays $200)
-How to claim: Call insurance provider or use mobile app
-Questions?: Email benefits@company.com or video call with HR
+What it covers - Doctor visits, hospital, prescriptions
+Annual cost - $200 (company pays $500, employee pays $200)
+How to claim - Call insurance provider or use mobile app
+Questions? - Email benefits@company.com or video call with HR
 ```
 
-Issue: Late enrollments after open enrollment closes
+Issue - Late enrollments after open enrollment closes
 
 ```
-Solution: Life event framework
+Solution - Life event framework
 Allow changes for:
 - Marriage/divorce
 - Birth/adoption of child
@@ -372,10 +372,10 @@ Documentation required:
 - Birth: Birth certificate
 - Other changes: Supporting documentation
 
-Processing: Within 5 business days of documentation receipt
+Processing - Within 5 business days of documentation receipt
 ```
 
-Issue: Compliance with local employment law
+Issue - Compliance with local employment law
 
 ```
 Prevention:

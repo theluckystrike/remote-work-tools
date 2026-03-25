@@ -20,15 +20,15 @@ A well-structured buddy system transforms remote developer onboarding from a cha
 Table of Contents
 
 - [Why Remote Developers Need a Buddy System](#why-remote-developers-need-a-buddy-system)
-- [Step 1: Define Buddy Responsibilities](#step-1-define-buddy-responsibilities)
+- [Step 1 - Define Buddy Responsibilities](#step-1-define-buddy-responsibilities)
 - [Key Touchpoints](#key-touchpoints)
 - [What Buddies Should NOT Do](#what-buddies-should-not-do)
-- [Step 2: Choose Buddy Assignment Strategy](#step-2-choose-buddy-assignment-strategy)
-- [Step 3: Automate Buddy Assignment](#step-3-automate-buddy-assignment)
-- [Step 4: Create Buddy Onboarding Materials](#step-4-create-buddy-onboarding-materials)
-- [Step 5: Track Buddy System Effectiveness](#step-5-track-buddy-system-effectiveness)
+- [Step 2 - Choose Buddy Assignment Strategy](#step-2-choose-buddy-assignment-strategy)
+- [Step 3 - Automate Buddy Assignment](#step-3-automate-buddy-assignment)
+- [Step 4 - Create Buddy Onboarding Materials](#step-4-create-buddy-onboarding-materials)
+- [Step 5 - Track Buddy System Effectiveness](#step-5-track-buddy-system-effectiveness)
 - [New Hire Feedback Survey (Day 30)](#new-hire-feedback-survey-day-30)
-- [Step 6: Prevent Buddy Burnout](#step-6-prevent-buddy-burnout)
+- [Step 6 - Prevent Buddy Burnout](#step-6-prevent-buddy-burnout)
 - [Practical Implementation Checklist](#practical-implementation-checklist)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 
@@ -40,7 +40,7 @@ Remote onboarding lacks the organic mentorship that happens naturally in offices
 
 The benefits extend beyond information transfer. Buddies help new hires navigate team culture, understand unwritten expectations, and build relationships outside their direct team. This social integration proves essential for remote workers who might otherwise feel isolated during their first weeks.
 
-Step 1: Define Buddy Responsibilities
+Step 1 - Define Buddy Responsibilities
 
 Before assigning buddies, document what you expect them to do. Clear responsibilities prevent both under-supporting new hires and over-burdening experienced developers.
 
@@ -82,7 +82,7 @@ What Buddies Should NOT Do
 - Be available 24/7, respect work-life boundaries
 ```
 
-Step 2: Choose Buddy Assignment Strategy
+Step 2 - Choose Buddy Assignment Strategy
 
 How you match buddies with new hires affects system success. Consider these approaches:
 
@@ -97,7 +97,7 @@ For larger teams, random assignment with consistent structure works fine. The re
 
 Avoid assigning buddies who report to the same manager as the new hire. This can create awkward dynamics if the new hire needs to provide feedback about their experience.
 
-Step 3: Automate Buddy Assignment
+Step 3 - Automate Buddy Assignment
 
 Reduce administrative overhead by automating buddy assignments in your onboarding workflow.
 
@@ -142,7 +142,7 @@ def assign_buddy(new_hire, developers):
 
 This script integrates with tools like GitHub Actions or Slack workflows to automatically notify the assigned buddy when a new hire joins.
 
-Step 4: Create Buddy Onboarding Materials
+Step 4 - Create Buddy Onboarding Materials
 
 Equip buddies with resources to provide consistent guidance. Create a buddy playbook that covers:
 
@@ -166,7 +166,7 @@ Cultural Onboarding
 
 Store these materials in a shared location accessible to all buddies. Google Docs, Notion, or your internal wiki work well for this purpose.
 
-Step 5: Track Buddy System Effectiveness
+Step 5 - Track Buddy System Effectiveness
 
 Measure whether your buddy system produces the intended outcomes. Track these metrics over time:
 
@@ -193,7 +193,7 @@ New Hire Feedback Survey (Day 30)
 4. What was most valuable about having a buddy?
 ```
 
-Step 6: Prevent Buddy Burnout
+Step 6 - Prevent Buddy Burnout
 
 Without attention to workload, buddy programs collapse as experienced developers become overburdened. Implement safeguards:
 

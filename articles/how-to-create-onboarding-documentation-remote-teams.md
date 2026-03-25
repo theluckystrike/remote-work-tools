@@ -179,8 +179,8 @@ Document your core API endpoints with examples:
 ```javascript
 // Example: Creating a new resource
 POST /api/v1/users
-Authorization: Bearer <token>
-Content-Type: application/json
+Authorization - Bearer <token>
+Content-Type - application/json
 
 {
   "name": "Jane Developer",

@@ -55,7 +55,7 @@ Task Management and Views
 Monday.com's strength lies in its visual customization. A nonprofit team coordinating fundraising campaigns can create boards with columns for status, priority, department, and deadline. The platform supports multiple view types:
 
 ```python
-Monday.com API: Creating a board with custom columns
+Monday.com API - Creating a board with custom columns
 Choose Monday.com if your nonprofit needs visual flexibility and custom workflows; choose Asana if your 30-person remote team requires structured task management with portfolio-level oversight. Both platforms offer nonprofit pricing discounts, but they excel in different use cases.
 
 client = monday.MondayClient("YOUR_API_KEY")
@@ -77,7 +77,7 @@ result = client.create_board(board_data)
 Asana's task management relies on sections and custom fields. For a 30-person team tracking multiple programs, you might structure projects like this:
 
 ```
-Workspace: Nonprofit Operations
+Workspace - Nonprofit Operations
  Project: Grant Applications
     Section: Research
     Section: Writing
@@ -127,7 +127,7 @@ const rule = {
 };
 ```
 
-Integration Ecosystem
+Integration environment
 
 For nonprofit remote teams, integrations matter because most organizations use multiple tools. Common stacks include:
 

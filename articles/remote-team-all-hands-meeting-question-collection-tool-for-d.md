@@ -30,7 +30,7 @@ Before implementing a solution, define the requirements your tool must satisfy. 
 
 Implementation Approaches
 
-Approach 1: Custom GitHub Issues Integration
+Approach 1 - Custom GitHub Issues Integration
 
 For engineering teams already comfortable with GitHub, using Issues creates a low-friction workflow:
 
@@ -69,7 +69,7 @@ Priority (community voting below)
 
 This approach works well because it keeps all questions in version control, allows for code formatting in answers, and integrates with existing notification workflows. However, the GitHub interface isn't always intuitive for non-technical stakeholders.
 
-Approach 2: Dedicated API with Real-time Updates
+Approach 2 - Dedicated API with Real-time Updates
 
 For organizations needing more control, building a custom question collection API provides maximum flexibility:
 
@@ -118,7 +118,7 @@ async def upvote_question(question_id: str):
 
 This pattern supports real-time updates via WebSockets, provides full control over the data model, and enables custom analytics. Deploy this alongside a frontend that displays questions on a big screen during the actual meeting.
 
-Approach 3: Integrating with Existing Tools
+Approach 3 - Integrating with Existing Tools
 
 Many teams use Slack or Microsoft Teams as their primary communication platform. Building question collection directly into these platforms increases adoption:
 

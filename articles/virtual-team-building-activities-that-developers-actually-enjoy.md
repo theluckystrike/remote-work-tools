@@ -193,13 +193,13 @@ Game Sessions for Technical Minds
 
 Skip the generic party games. Developers enjoy different types of activities:
 
-Code Golf: Solve simple problems in fewest characters. Quick 15-minute sessions that work well as meeting fillers.
+Code Golf - Solve simple problems in fewest characters. Quick 15-minute sessions that work well as meeting fillers.
 
-Regex Olympics: Given strings, write regex to extract patterns. Competitive, educational, and surprisingly engaging.
+Regex Olympics - Given strings, write regex to extract patterns. Competitive, educational, and surprisingly engaging.
 
-Architecture Roast Sessions: Watch videos of notoriously bad code or designs, discuss what went wrong. Combine learning with humor.
+Architecture Roast Sessions - Watch videos of notoriously bad code or designs, discuss what went wrong. Combine learning with humor.
 
-Terminal Games: Compete on command-line games. Nethack, vi challenges, or custom CLI games your team creates.
+Terminal Games - Compete on command-line games. Nethack, vi challenges, or custom CLI games your team creates.
 
 Set up a simple leaderboard:
 

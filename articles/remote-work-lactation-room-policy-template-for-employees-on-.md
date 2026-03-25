@@ -21,17 +21,17 @@ Creating effective lactation room policies for remote employees requires address
 Table of Contents
 
 - [Understanding the Legal Framework](#understanding-the-legal-framework)
-- [Policy Template: Core Components](#policy-template-core-components)
+- [Policy Template - Core Components](#policy-template-core-components)
 - [Implementation Best Practices](#implementation-best-practices)
 - [Policy Communication Strategy](#policy-communication-strategy)
 - [Measuring Policy Effectiveness](#measuring-policy-effectiveness)
-- [Advanced Implementation: Automating Lactation Break Management](#advanced-implementation-automating-lactation-break-management)
+- [Advanced Implementation - Automating Lactation Break Management](#advanced-implementation-automating-lactation-break-management)
 - [Multi-Team Coordination and Compliance](#multi-team-coordination-and-compliance)
 - [Training and Rollout Strategy](#training-and-rollout-strategy)
-- [Module 1: Legal Obligations (15 minutes)](#module-1-legal-obligations-15-minutes)
-- [Module 2: Technical Implementation (10 minutes)](#module-2-technical-implementation-10-minutes)
-- [Module 3: Conversation Examples (20 minutes)](#module-3-conversation-examples-20-minutes)
-- [Quiz: 5 questions, 80% pass required](#quiz-5-questions-80-pass-required)
+- [Module 1 - Legal Obligations (15 minutes)](#module-1-legal-obligations-15-minutes)
+- [Module 2 - Technical Implementation (10 minutes)](#module-2-technical-implementation-10-minutes)
+- [Module 3 - Conversation Examples (20 minutes)](#module-3-conversation-examples-20-minutes)
+- [Quiz - 5 questions, 80% pass required](#quiz-5-questions-80-pass-required)
 
 Understanding the Legal Framework
 
@@ -39,7 +39,7 @@ The Pump Act of 2022 expanded protections for breastfeeding employees in the Uni
 
 Key legal considerations include break frequency (typically every 2-3 hours), minimum session duration (15-30 minutes), and the right to request schedule modifications. Your policy should explicitly address how these requirements translate to remote work contexts, particularly during video meetings where visual presence is expected.
 
-Policy Template: Core Components
+Policy Template - Core Components
 
 A remote work lactation policy should address six fundamental areas. The following template provides a starting point that you can customize for your organization's specific needs.
 
@@ -97,7 +97,7 @@ Remote lactation support often requires additional equipment. Your policy should
 - Communication tools: Clear status indicators (e.g., "On Break - Pumping") for video call contexts
 
 ```python
-Python: Calendar integration for lactation breaks
+Python - Calendar integration for lactation breaks
 from datetime import datetime, timedelta
 
 class LactationBreakScheduler:
@@ -124,7 +124,7 @@ class LactationBreakScheduler:
 Generate typical break windows
 scheduler = LactationBreakScheduler()
 print(scheduler.generate_break_windows("2026-03-16"))
-Output: [{'start': '09:00', 'end': '09:30', 'type': 'lactation-break'},
+Output - [{'start': '09:00', 'end': '09:30', 'type': 'lactation-break'},
          {'start': '11:30', 'end': '12:00', 'type': 'lactation-break'},
          {'start': '14:00', 'end': '14:30', 'type': 'lactation-break'}]
 ```
@@ -155,7 +155,7 @@ async function createLactationBreakCalendar(auth, breakTime) {
 
   const event = {
     summary: 'Lactation Break',
-    description: 'Protected time for expressing milk. Status: Do not disturb.',
+    description: 'Protected time for expressing milk. Status - Do not disturb.',
     start: {
       dateTime: breakTime.start,
       timeZone: 'America/New_York',
@@ -231,7 +231,7 @@ What is the biggest mistake people make when applying these practices?
 
 Trying to change everything at once. Pick one or two practices, implement them well, and let the team adjust before adding more. Gradual adoption sticks better than wholesale transformation, which often overwhelms people and gets abandoned.
 
-Advanced Implementation: Automating Lactation Break Management
+Advanced Implementation - Automating Lactation Break Management
 
 Larger organizations benefit from automation that reduces manual calendar management and ensures consistent policy application across teams.
 
@@ -240,7 +240,7 @@ API-Driven Break Time Integration
 Beyond calendar integration, sophisticated systems can automatically enforce availability constraints across scheduling platforms:
 
 ```python
-Python: Lactation break automation with multiple calendar systems
+Python - Lactation break automation with multiple calendar systems
 from typing import List, Dict
 from datetime import datetime, timedelta
 import asyncio
@@ -445,7 +445,7 @@ const ComplianceTrendChart = () => {
 };
 ```
 
-Key principle: Track aggregate, anonymized metrics only. Never expose individual employee lactation data in dashboards.
+Key principle - Track aggregate, anonymized metrics only. Never expose individual employee lactation data in dashboards.
 
 Multi-Team Coordination and Compliance
 
@@ -456,7 +456,7 @@ Policy Enforcement Script
 Deploy a server-side system that prevents policy violations at the point of meeting creation:
 
 ```python
-Server-side validation: prevent meetings that violate policy
+Server-side validation - prevent meetings that violate policy
 from fastapi import FastAPI, HTTPException, Header
 from typing import List
 import asyncio
@@ -541,32 +541,32 @@ Create an interactive training module for managers:
 ```markdown
 Lactation Policy Manager Training
 
-Module 1: Legal Obligations (15 minutes)
+Module 1 - Legal Obligations (15 minutes)
 - Pump Act of 2022 requirements
 - Protected break frequency and duration
 - Privacy obligations
 - Penalty for non-compliance
 
-Module 2: Technical Implementation (10 minutes)
+Module 2 - Technical Implementation (10 minutes)
 - How to set lactation breaks in calendar system
 - How conflict prevention works
 - How to respond when employee requests schedule change
 
-Module 3: Conversation Examples (20 minutes)
-Scenario 1: Employee mentions lactation needs in 1:1
+Module 3 - Conversation Examples (20 minutes)
+Scenario 1 - Employee mentions lactation needs in 1:1
 - What to say
 - What NOT to say
 - Resources to share
 
-Scenario 2: Meeting conflicts with break time
+Scenario 2 - Meeting conflicts with break time
 - How to reschedule professionally
 - No need to ask why or for details
 
-Scenario 3: Employee seems uncomfortable
+Scenario 3 - Employee seems uncomfortable
 - How to normalize and affirm support
 - Escalation path if issues persist
 
-Quiz: 5 questions, 80% pass required
+Quiz - 5 questions, 80% pass required
 ```
 
 Employee Self-Service Portal

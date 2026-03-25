@@ -177,23 +177,23 @@ Advanced Automation Setup (Jira Example)
 Automation eliminates manual status updates and reminder emails:
 
 ```yaml
-Jira automation rule: Auto-assign severity based on keywords
-Rule: Auto-assign critical severity
-Trigger: Issue created
-Condition: Summary contains ("crash", "data loss", "security")
-Action: Set severity = Critical
+Jira automation rule - Auto-assign severity based on keywords
+Rule - Auto-assign critical severity
+Trigger - Issue created
+Condition - Summary contains ("crash", "data loss", "security")
+Action - Set severity = Critical
 
-Automation rule: Notify testers on deployments
-Rule: Alert testers for verification
-Trigger: Custom event (received from CI/CD webhook)
-Condition: Ticket status = "Ready for Verification"
-Action: Send Slack notification to assigned tester
+Automation rule - Notify testers on deployments
+Rule - Alert testers for verification
+Trigger - Custom event (received from CI/CD webhook)
+Condition - Ticket status = "Ready for Verification"
+Action - Send Slack notification to assigned tester
 
-Automation rule: Close stale unverified bugs
-Rule: Archive old tickets
-Trigger: Issue was not updated in 30 days
-Condition: Status = "Won't Fix" OR Status = "Ready for Verification"
-Action: Move to "Archived" status + create Slack notification
+Automation rule - Close stale unverified bugs
+Rule - Archive old tickets
+Trigger - Issue was not updated in 30 days
+Condition - Status = "Won't Fix" OR Status = "Ready for Verification"
+Action - Move to "Archived" status + create Slack notification
 ```
 
 Sample Ticket Template with Expected Fields
@@ -209,11 +209,11 @@ Steps to Reproduce
 4. Observe [expected vs actual]
 
 Environment
-Browser: [Chrome 120, Firefox 121, Safari 17, etc.]
+Browser - [Chrome 120, Firefox 121, Safari 17, etc.]
 OS: [macOS Sonoma, Windows 11, Ubuntu 22.04]
-Device: [Desktop, iPhone 15 Pro, iPad Gen 9]
-App version: [Extract from About menu]
-Viewport size: [1920x1080 for desktop]
+Device - [Desktop, iPhone 15 Pro, iPad Gen 9]
+App version - [Extract from About menu]
+Viewport size - [1920x1080 for desktop]
 
 Severity Assessment
 - Critical: Feature completely broken, blocks user workflow, affects production data
@@ -262,7 +262,7 @@ Structure triage to prevent backlog bloat:
 ```
 Daily Standup (10 min, 9 AM)
  Each tester: "What I found yesterday, what I'm testing today"
- Lead: "Any blocking issues? New critical bugs to triage?"
+ Lead - "Any blocking issues? New critical bugs to triage?"
  Confirm assignments for today's testing
 
 Triage Sessions (Twice weekly, Tue/Fri 10 AM, 15 min each)
@@ -345,19 +345,19 @@ Handling Edge Cases in QA
 
 Remote teams face specific challenges:
 
-Environment Mismatches: Testers in different locations see different bugs due to CDN, regional blocking, time zone artifacts:
-- Solution: Document test environment for each tester (region, VPN status, etc.)
+Environment Mismatches - Testers in different locations see different bugs due to CDN, regional blocking, time zone artifacts:
+- Solution - Document test environment for each tester (region, VPN status, etc.)
 - Rotate testers across regions monthly to catch regional issues
 
-Device/Browser Coverage: With 7 testers, you can't test all combinations:
+Device/Browser Coverage - With 7 testers, you can't test all combinations:
 - Solution: Assign device specialization (Tester 6 owns all mobile, another owns Safari only)
 - Use remote device labs (BrowserStack) for expensive combinations
 
-Flaky Tests: Some bugs are timing-sensitive and don't reproduce reliably:
+Flaky Tests - Some bugs are timing-sensitive and don't reproduce reliably:
 - Solution: Document reproduction difficulty honestly ("Flaky, reproduced 4/10 times")
 - Mark as "Needs Investigation" rather than closing prematurely
 
-Regression Tracking: After a fix, did we introduce new bugs?
+Regression Tracking - After a fix, did we introduce new bugs?
 - Solution: Create regression test suite (manual checklist)
 - Run regression suite after every major deployment
 - Track regression bugs separately (label: "regression")
@@ -370,7 +370,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -382,7 +382,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

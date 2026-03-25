@@ -25,46 +25,46 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: How to Manage Remote Team Technical Debt in 2026
+Step 1 - How to Manage Remote Team Technical Debt in 2026
 
 Technical debt compounds silently in distributed teams. Without central visibility, remote engineers accumulate workarounds, skip refactoring, and defer dependency updates. This guide provides frameworks and tools for tracking, prioritizing, and systematically reducing tech debt across async teams.
 
-Step 2: Defining Technical Debt Categories
+Step 2 - Defining Technical Debt Categories
 
-Category 1: Code Quality Debt
+Category 1 - Code Quality Debt
 - Legacy codebases (>5 years without modernization)
 - Low test coverage (<70%)
 - Copy-paste code and duplication
 - Missing type hints (Python, TypeScript)
 - Deprecated language features
 
-Category 2: Dependency Debt
+Category 2 - Dependency Debt
 - Out-of-date libraries (>6 months old)
 - Security vulnerabilities in dependencies
 - Unpopular dependencies with shrinking maintenance
 - Version lock conflicts
 
-Category 3: Architecture Debt
+Category 3 - Architecture Debt
 - Tightly coupled services
 - Missing abstraction layers
 - Monoliths better served as microservices
 - Single points of failure in critical paths
 
-Category 4: Documentation Debt
+Category 4 - Documentation Debt
 - Missing API documentation
 - Outdated runbooks
 - Undocumented deployment processes
 - Tribal knowledge not recorded
 
-Category 5: Infrastructure Debt
+Category 5 - Infrastructure Debt
 - Manual infrastructure (not Infrastructure-as-Code)
 - Fragile CI/CD pipelines
 - No automated testing
 - Missing monitoring/alerting
 
-Step 3: Tech Debt Tracking Workflow
+Step 3 - Tech Debt Tracking Workflow
 
-Step 1: Create Inventory (Week 1)
+Step 1 - Create Inventory (Week 1)
 
 Use a shared spreadsheet or tool (Jira, Airtable) with columns:
 
@@ -76,16 +76,16 @@ Use a shared spreadsheet or tool (Jira, Airtable) with columns:
 | TD-3 | Extract payment service from monolith | Architecture | Backend | 20 | High | 2026-01-10 | carol@... | Planned |
 ```
 
-Step 2: Score Impact and Effort
+Step 2 - Score Impact and Effort
 
 For each item, score:
 
 - Impact: High (blocks features), Medium (slows development), Low (nice to fix)
 - Effort: Easy (1-2 days), Medium (3-5 days), Hard (>1 week)
 
-Calculate priority: `Impact / Effort`
+Calculate priority - `Impact / Effort`
 
-Step 3: Quarterly Planning Session
+Step 3 - Quarterly Planning Session
 
 Schedule 90-minute async discussion (async document + 30-min live video):
 
@@ -113,9 +113,9 @@ Priorities:
 3. Improve test coverage to 75%+
 ```
 
-Step 4: Sprint Allocation Strategies
+Step 4 - Sprint Allocation Strategies
 
-Strategy 1: Dedicated Tech Debt Sprints
+Strategy 1 - Dedicated Tech Debt Sprints
 
 Every 6 weeks, dedicate full sprint to tech debt:
 
@@ -139,15 +139,15 @@ Disadvantages:
 - Context switching
 - 8-16% capacity overhead
 
-Strategy 2: 20% Time Allocation
+Strategy 2 - 20% Time Allocation
 
 Allocate 20% sprint capacity to tech debt every sprint:
 
 ```
 2-week sprint capacity: 80 story points
 
-Feature work: 64 points
-Tech debt: 16 points
+Feature work - 64 points
+Tech debt - 16 points
 
 Tech debt items:
 - [4 pts] Update Lodash to v4.17.21
@@ -166,7 +166,7 @@ Disadvantages:
 - Debt items must be small
 - Less visible progress per item
 
-Strategy 3: Async Tech Debt Days
+Strategy 3 - Async Tech Debt Days
 
 Designate Wednesdays as "optional tech debt day":
 
@@ -193,14 +193,14 @@ Disadvantages:
 - Variable participation
 - Hard to plan large refactors
 
-Step 5: Tech Debt Management Tools
+Step 5 - Tech Debt Management Tools
 
-Tool 1: Jira Technical Debt Board
+Tool 1 - Jira Technical Debt Board
 
 Create custom Jira project:
 
 ```
-Project: Technical Debt
+Project - Technical Debt
 Labels:
 - debt-code-quality
 - debt-dependency
@@ -208,9 +208,9 @@ Labels:
 - debt-documentation
 - debt-infrastructure
 
-Custom field: Impact (Critical/High/Medium/Low)
-Custom field: Effort (Easy/Medium/Hard)
-Custom field: Priority (Auto-calculated)
+Custom field - Impact (Critical/High/Medium/Low)
+Custom field - Effort (Easy/Medium/Hard)
+Custom field - Priority (Auto-calculated)
 
 Workflow states:
 - Open
@@ -222,7 +222,7 @@ Workflow states:
 - Closed
 ```
 
-Tool 2: Airtable Tech Debt Database
+Tool 2 - Airtable Tech Debt Database
 
 Lightweight alternative to Jira:
 
@@ -246,7 +246,7 @@ Views:
 - Q2 Sprint plan (filtered + kanban)
 ```
 
-Tool 3: Spreadsheet-Based Tracker
+Tool 3 - Spreadsheet-Based Tracker
 
 Simple Google Sheets approach:
 
@@ -269,7 +269,7 @@ Conditional formatting:
 - Priority: Heat map gradient
 ```
 
-Step 6: Dependencies Management
+Step 6 - Dependencies Management
 
 Automated Dependency Updates:
 
@@ -277,7 +277,7 @@ Automated Dependency Updates:
 .dependabot/config.yml (GitHub)
 version: 2
 updates:
-  - package-ecosystem: "npm"
+  - package-environment: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -312,10 +312,10 @@ Monthly dependency review (1 hour meeting):
 3. Assign PR reviews
 4. Track merge rate
 
-Target: 90% dependencies updated monthly
+Target - 90% dependencies updated monthly
 ```
 
-Step 7: Documentation Debt Reduction
+Step 7 - Documentation Debt Reduction
 
 Quick Wins (<2 hours each):
 - Add missing README sections
@@ -338,7 +338,7 @@ Large Items (>1 week):
 - Disaster recovery playbook
 - Team onboarding guide
 
-Step 8: Remote Team Communication Plan
+Step 8 - Remote Team Communication Plan
 
 Weekly Tech Debt Check-in (15 mins async):
 
@@ -386,7 +386,7 @@ Agenda:
    - Upcoming project impacts
 ```
 
-Step 9: Metrics to Track
+Step 9 - Metrics to Track
 
 Velocity Metrics:
 - Tech debt items closed per quarter
@@ -407,35 +407,35 @@ Team Metrics:
 - Time spent on tech debt (% of sprint)
 - Knowledge distribution (concentration)
 
-Step 10: Anti-Patterns to Avoid
+Step 10 - Anti-Patterns to Avoid
 
-Pattern 1: Tech Debt Graveyard
+Pattern 1 - Tech Debt Graveyard
 - Items created but never scheduled
 - Quarterly review shows 0 progress
 - Demoralizing for team
 
-Fix: Set completion targets. Close items quarterly or remove from backlog.
+Fix - Set completion targets. Close items quarterly or remove from backlog.
 
-Pattern 2: Crisis-Driven Debt
+Pattern 2 - Crisis-Driven Debt
 - Ignore debt until system fails
 - Reactive, expensive fixes
 - Prevents proactive improvement
 
-Fix: Allocate consistent capacity before debt becomes emergency.
+Fix - Allocate consistent capacity before debt becomes emergency.
 
-Pattern 3: Silos and Knowledge Hoarding
+Pattern 3 - Silos and Knowledge Hoarding
 - One engineer owns all refactoring
 - Knowledge doesn't spread
 - Bus factor problem
 
-Fix: Rotate tech debt work. Pair junior engineers with senior ones.
+Fix - Rotate tech debt work. Pair junior engineers with senior ones.
 
-Pattern 4: Impossible Targets
+Pattern 4 - Impossible Targets
 - "Zero technical debt" goal
 - Unrealistic timelines
 - Team gives up
 
-Fix: Accept tech debt. Target managed reduction (10% per quarter).
+Fix - Accept tech debt. Target managed reduction (10% per quarter).
 
 Troubleshooting
 

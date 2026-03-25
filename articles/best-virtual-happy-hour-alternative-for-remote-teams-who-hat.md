@@ -37,9 +37,9 @@ Table of Contents
 - [#book-club](#book-club)
 - [#random](#random)
 - [Async Activities That Actually Work](#async-activities-that-actually-work)
-- [Technical Implementation: Automation and Bots](#technical-implementation-automation-and-bots)
+- [Technical Implementation - Automation and Bots](#technical-implementation-automation-and-bots)
 - [Measuring Success of Optional Connection Systems](#measuring-success-of-optional-connection-systems)
-- [Implementation Checklist: Rolling Out Async-First Culture](#implementation-checklist-rolling-out-async-first-culture)
+- [Implementation Checklist - Rolling Out Async-First Culture](#implementation-checklist-rolling-out-async-first-culture)
 
 Why Forced Fun Backfires
 
@@ -135,7 +135,7 @@ def daily_prompt():
     # No follow-up for non-responders
 ```
 
-The key: no reminders, no attendance tracking, no pressure.
+The key - no reminders, no attendance tracking, no pressure.
 
 Anonymous Feedback Channels
 
@@ -164,8 +164,8 @@ Start with low-commitment options and iterate based on team feedback:
 
 1. Week 1-2: Introduce optional async channels. Seed with interesting content yourself.
 2. Week 3-4: Add one voluntary synchronous option (small group, walking meeting).
-3. Ongoing: Collect anonymous feedback monthly. Adjust based on what people actually want.
-4. Quarterly: Review participation patterns. Remove what doesn't work, expand what does.
+3. Ongoing - Collect anonymous feedback monthly. Adjust based on what people actually want.
+4. Quarterly - Review participation patterns. Remove what doesn't work, expand what does.
 
 The goal isn't participation rate, it's creating conditions where team members who want connection can find it, while those who prefer independence aren't penalized for their choice.
 
@@ -181,9 +181,9 @@ Async-First Tools and Platforms for Optional Connection
 | Discord Threads | Text async | Free | Lightweight community building | Low |
 | Mighty Networks | Community hub | Custom | Dedicated space for team culture | High |
 
-Easiest start: Slack channels + optional weekly Loom check-ins
-Best for engagement: Donut bot for random pairing + Gather optional hangout
-Most scalable: Notion + Discord for discovery without forced participation
+Easiest start - Slack channels + optional weekly Loom check-ins
+Best for engagement - Donut bot for random pairing + Gather optional hangout
+Most scalable - Notion + Discord for discovery without forced participation
 
 Channel Structure Template for Async Connection
 
@@ -240,7 +240,7 @@ Weekly Async Video Check-In
 ```
 Mechanism:
 - Every Friday, a Loom link is posted: "Optional Friday Checkout"
-- Prompt: "What's one thing you're proud of this week? Anything you're looking forward to?"
+- Prompt - "What's one thing you're proud of this week? Anything you're looking forward to?"
 - Format: 30-60 second optional video
 - Upload to shared folder or Slack thread
 - People watch at their own pace over the weekend
@@ -258,7 +258,7 @@ Engagement reality:
 - Month 2+: 50-70% (becomes habit for engaged members)
 - 20-30% never participate (respects their preference)
 
-Success metric: > 40% consistent participation across the team
+Success metric - > 40% consistent participation across the team
 ```
 
 Leaderboard-Based Competitions
@@ -352,9 +352,9 @@ Q4: "Reflect and plan"
 - No presentation required
 ```
 
-Typical participation: 30-50% (self-selected, those who engage deeply)
+Typical participation - 30-50% (self-selected, those who engage deeply)
 
-Technical Implementation: Automation and Bots
+Technical Implementation - Automation and Bots
 
 Slack Bot for Optional Prompts
 
@@ -399,7 +399,7 @@ bot.scheduler.add_job(bot.send_optional_prompt, 'cron', day_of_week='mon', hour=
 bot.scheduler.start()
 ```
 
-Key: The word "optional" appears explicitly, signaling no pressure.
+Key - The word "optional" appears explicitly, signaling no pressure.
 
 Donut.app for Random Pairing
 
@@ -423,7 +423,7 @@ Participation patterns:
 - After month: 60-70% accept (habit)
 - 15-20% consistently skip (respected)
 
-Org-wide impact: Helps cross-team relationships without mandatory meetings
+Org-wide impact - Helps cross-team relationships without mandatory meetings
 ```
 
 Measuring Success of Optional Connection Systems
@@ -432,7 +432,7 @@ Measuring Success of Optional Connection Systems
 The metrics that matter (NOT attendance):
 
 1. Retention and Satisfaction
-   - Question: "Do you feel connected to colleagues?"
+   - Question - "Do you feel connected to colleagues?"
    - Baseline (before change): 60% agree
    - Target (after 3 months): 65% agree
    - Threshold: Anything above 60% suggests system is working
@@ -450,7 +450,7 @@ The metrics that matter (NOT attendance):
 
 4. Retention by Tenure
    - Do people stay longer when connection options exist?
-   - Especially: Do people cite "team culture" as reason to stay?
+   - Especially - Do people cite "team culture" as reason to stay?
 
 5. Cross-Team Collaboration
    - Do optional connection channels lead to collaboration?
@@ -464,22 +464,22 @@ Metrics to AVOID:
  Instead: Shift focus to those who engage and feel connection
 ```
 
-Implementation Checklist: Rolling Out Async-First Culture
+Implementation Checklist - Rolling Out Async-First Culture
 
 ```
-Month 1: Foundation
+Month 1 - Foundation
 [ ] Create channels with clear "optional" descriptions
 [ ] Post first week's prompts/activities
 [ ] Seed with team-lead participation (modeling behavior)
 [ ] Collect anonymous feedback: "Do you feel pressured?"
 
-Month 2: Feedback and Adjust
+Month 2 - Feedback and Adjust
 [ ] Review which channels got engagement
 [ ] Retire low-engagement channels (no shame in sunsetting)
 [ ] Rotate who leads activities
 [ ] Introduce 1 new optional activity (e.g., Donut pairing)
 
-Month 3: Stabilize
+Month 3 - Stabilize
 [ ] Establish sustainable rhythm
 [ ] Document what works for new hires
 [ ] Remove anything that feels mandatory

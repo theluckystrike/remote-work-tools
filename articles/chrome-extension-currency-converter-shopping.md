@@ -28,7 +28,7 @@ Table of Contents
 - [Limitations and Considerations](#limitations-and-considerations)
 - [Making Your Choice](#making-your-choice)
 - [Browser Performance and Privacy Implications](#browser-performance-and-privacy-implications)
-- [Advanced Use: Building Shopping Workflows Around Currency Conversion](#advanced-use-building-shopping-workflows-around-currency-conversion)
+- [Advanced Use - Building Shopping Workflows Around Currency Conversion](#advanced-use-building-shopping-workflows-around-currency-conversion)
 - [When Currency Conversion Extensions Become Essential](#when-currency-conversion-extensions-become-essential)
 - [Technical Setup for Power Users](#technical-setup-for-power-users)
 - [Common Mistakes When Shopping Internationally](#common-mistakes-when-shopping-internationally)
@@ -84,16 +84,16 @@ International Shopping Strategies Using Converters
 
 Successfully shopping internationally requires more than currency conversion. Currency converter extensions work best within a structured strategy:
 
-Strategy 1: Regional arbitrage for purchases under $100
+Strategy 1 - Regional arbitrage for purchases under $100
 Search for the same product across Amazon US, Amazon UK, and Amazon DE. Use the converter to identify the cheapest region including shipping. For books, electronics, and small items, this often yields 15-30% savings.
 
-Strategy 2: Dropshipping sourcing
+Strategy 2 - Dropshipping sourcing
 If you're sourcing products for resale, currency converters help identify potential suppliers with advantageous pricing. Track prices across Ali Express (CNY), Amazon China, and other regional sources.
 
-Strategy 3: Travel purchases before trips
+Strategy 3 - Travel purchases before trips
 When traveling, buying tech items in advance from the destination country can be cheaper. A converter helps identify home vs. destination pricing before committing.
 
-Strategy 4: Currency speculation (for business users)
+Strategy 4 - Currency speculation (for business users)
 Some businesses source inventory when their home currency is strong against supplier currencies. Extensions showing real-time rates help time purchases appropriately.
 
 None of these strategies work without understanding exchange rates. Currency converters become essential business tools, not just shopping conveniences.
@@ -126,10 +126,10 @@ For larger purchases, establish price alerts before committing:
 ```javascript
 // Example: Setting up a price threshold alert
 // In Shopping Converter or similar extension
-Product URL: https://example-overseas-store.com/gadget
-Original Price: €299.00
-Your Currency: USD
-Alert Threshold: $320.00 (approximately 5% above current rate)
+Product URL - https://example-overseas-store.com/gadget
+Original Price - €299.00
+Your Currency - USD
+Alert Threshold - $320.00 (approximately 5% above current rate)
 ```
 
 This approach works particularly well for wishlist items or products you're comparing across multiple international retailers.
@@ -193,7 +193,7 @@ Some extensions send page content to external servers for processing. This means
 
 Check the Chrome Web Store reviews for privacy-related complaints before installing.
 
-Advanced Use: Building Shopping Workflows Around Currency Conversion
+Advanced Use - Building Shopping Workflows Around Currency Conversion
 
 For serious international shoppers and business users, integrate currency conversion into your workflow:
 
@@ -291,19 +291,19 @@ Common Mistakes When Shopping Internationally
 
 Currency converter extensions prevent some mistakes but not others:
 
-Mistake 1: Forgetting taxes and duties
+Mistake 1 - Forgetting taxes and duties
 Extensions show pre-tax prices. International shipping often includes import duties (10-25% depending on product and country). Always add this to your converted price before deciding.
 
-Mistake 2: Return shipping costs
+Mistake 2 - Return shipping costs
 Many international retailers charge high return shipping. If you return the item, that cost erases any price savings. Account for this on expensive purchases.
 
-Mistake 3: Hidden platform fees
+Mistake 3 - Hidden platform fees
 Some international payment methods (PayPal, credit cards) add processing fees beyond exchange rates. Check your actual charged amount after completing a transaction.
 
-Mistake 4: Regional product differences
+Mistake 4 - Regional product differences
 Same SKU in different regions sometimes means different specs (voltage standards, warranty terms, etc.). Verify you're comparing identical products before relying on price conversions.
 
-Mistake 5: Exclusive regional deals
+Mistake 5 - Exclusive regional deals
 Extensions only show current prices. Missing time-limited regional deals because you're comparing to full prices. Sign up for region-specific retailer newsletters for better deal visibility.
 
 Frequently Asked Questions

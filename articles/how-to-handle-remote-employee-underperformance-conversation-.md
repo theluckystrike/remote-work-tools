@@ -38,7 +38,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Recognizing Underperformance in Remote Settings
+Step 1 - Recognizing Underperformance in Remote Settings
 
 The first step in addressing underperformance is accurate identification. Remote work can mask problems just as easily as it can create them. Before initiating any conversation, gather objective data rather than relying on gut feelings.
 
@@ -64,7 +64,7 @@ Patterns Observed
 
 This documentation serves two purposes: it provides factual basis for conversations, and it protects you from appearing biased or unfair if the situation escalates.
 
-Step 2: Preparing for the Conversation
+Step 2 - Preparing for the Conversation
 
 Once you've identified a pattern of underperformance, preparation becomes essential. Never initiate a performance conversation spontaneously. Both you and the employee need time to prepare.
 
@@ -78,7 +78,7 @@ Notify the employee in advance. A message like this works well:
 
 This gives the employee warning and opportunity to prepare their perspective.
 
-Step 3: The Conversation Framework
+Step 3 - The Conversation Framework
 
 When it's time for the actual conversation, follow a structured approach that balances directness with empathy.
 
@@ -146,7 +146,7 @@ End with encouragement while being clear about consequences.
 
 > "I believe you can turn this around, and I'm committed to supporting you. We'll revisit this in [timeframe] to assess progress. Between now and then, my door is open if you need to discuss anything."
 
-Step 4: Following Up
+Step 4 - Following Up
 
 The conversation only matters if you follow through. Schedule the follow-up meeting before ending the current meeting. Hold yourself accountable to providing the support you promised.
 
@@ -158,17 +158,17 @@ Common Mistakes to Avoid
 
 New managers often make predictable errors in these conversations. Avoid these pitfalls:
 
-Being vague: "Your work hasn't been good enough" provides nothing actionable. Always tie observations to specific deliverables, dates, and impacts.
+Being vague - "Your work hasn't been good enough" provides nothing actionable. Always tie observations to specific deliverables, dates, and impacts.
 
-Making it personal: Focus on behaviors and outcomes, not character. "This code had bugs" differs from "you are careless."
+Making it personal - Focus on behaviors and outcomes, not character. "This code had bugs" differs from "you are careless."
 
-Bypassing the employee: Never discuss performance issues with other team members or vent to colleagues. Confidentiality matters.
+Bypassing the employee - Never discuss performance issues with other team members or vent to colleagues. Confidentiality matters.
 
-Ignoring context: An employee's cat may have died, or they may be going through a divorce. Context doesn't excuse persistent underperformance, but understanding it prevents premature escalation.
+Ignoring context - An employee's cat may have died, or they may be going through a divorce. Context doesn't excuse persistent underperformance, but understanding it prevents premature escalation.
 
-Moving too slowly: Addressing problems early prevents them from compounding. A two-week delay becomes a two-month problem.
+Moving too slowly - Addressing problems early prevents them from compounding. A two-week delay becomes a two-month problem.
 
-Step 5: Adapting for Async Communication
+Step 5 - Adapting for Async Communication
 
 Some remote teams operate with minimal synchronous contact. If your team is highly asynchronous, adapt the framework accordingly.
 
@@ -178,7 +178,7 @@ Send a thoughtful async message first:
 
 Provide time for the employee to compose their thoughts. Async communication favors considered responses over spontaneous ones, which can actually benefit performance discussions.
 
-Step 6: Shell Automation for Remote Team Workflows
+Step 6 - Shell Automation for Remote Team Workflows
 
 Small shell scripts eliminate repetitive tasks that compound into significant time loss across distributed teams.
 
@@ -213,7 +213,7 @@ bash daily_standup.sh | xclip -selection clipboard
 
 Add this script to a morning cron job or run it manually before standups. It builds a habit of commit-based status updates rather than vague progress descriptions.
 
-Step 7: Time Zone Coordination for Distributed Teams
+Step 7 - Time Zone Coordination for Distributed Teams
 
 Managing meetings across time zones without dedicated tooling leads to scheduling errors and missed calls.
 
@@ -262,11 +262,11 @@ for slot in slots:
 ```
 
 For most globally distributed teams, there are 0-2 overlap hours. Use async-first communication for everything that doesn't require real-time discussion.
-Step 8: Real-World Performance Conversation Examples
+Step 8 - Real-World Performance Conversation Examples
 
 Understanding what works in practice helps you adapt the framework to your specific situation:
 
-Example 1: Developer Missing Deadlines
+Example 1 - Developer Missing Deadlines
 
 ```markdown
 Opening:
@@ -276,7 +276,7 @@ and work together on solutions."
 Observation:
 "In the last four sprints, you've missed your story point commitment
 three times. Sprint 12 you committed to 20 points, delivered 12.
-Sprint 13: committed 18, delivered 14. Sprint 14: committed 20,
+Sprint 13 - committed 18, delivered 14. Sprint 14: committed 20,
 delivered 15. This pattern is consistent."
 
 Impact:
@@ -296,13 +296,13 @@ Possible solutions:
 - Pairing with more senior engineer
 ```
 
-Example 2: Communication Breakdown
+Example 2 - Communication Breakdown
 
 ```markdown
 Observation:
 "Over the past two weeks, your standup updates have become very brief.
-Monday: 'working on feature X.' Tuesday: 'same.' Wednesday: no update.
-Thursday: 'debugging.' Friday: same. This vagueness makes it hard
+Monday - 'working on feature X.' Tuesday: 'same.' Wednesday: no update.
+Thursday - 'debugging.' Friday: same. This vagueness makes it hard
 for the team to coordinate."
 
 Impact:
@@ -321,7 +321,7 @@ Success criteria:
 - Reviews in one week
 ```
 
-Example 3: Code Quality Issues
+Example 3 - Code Quality Issues
 
 ```markdown
 Observation:
@@ -330,7 +330,7 @@ Observation:
 - 3 were merged with issues that caused follow-up bugs
 - Average review cycle took 3 days due to revisions
 
-For comparison, your peer Sarah: 10 PRs, 1 required revision,
+For comparison, your peer Sarah - 10 PRs, 1 required revision,
 no follow-up bugs, 1-day review cycle."
 
 Impact:
@@ -343,7 +343,7 @@ Problem-solving:
 Missing context about our codebase? Need different tools or processes?"
 ```
 
-Step 9: Documenting for Protection
+Step 9 - Documenting for Protection
 
 Managers sometimes worry that honest performance conversations create legal exposure. Actually, the opposite is true. Documented, evidence-based conversations protect you:
 
@@ -361,7 +361,7 @@ What hurts legally:
 
 Date your documentation and keep copies in your performance management system. This isn't about building a case to fire someone, it's about creating clarity for everyone.
 
-Step 10: When Coaching Doesn't Work
+Step 10 - When Coaching Doesn't Work
 
 Sometimes employees don't improve despite clear feedback and support. When this happens, escalate:
 
@@ -378,27 +378,27 @@ If you move to a formal performance improvement plan, structure it carefully:
 
 ```markdown
 Performance Improvement Plan - [Employee Name]
-Period: [Start Date] to [End Date] (typically 30-90 days)
+Period - [Start Date] to [End Date] (typically 30-90 days)
 
 Performance Issues
 1. [Specific issue with metrics]
 2. [Specific issue with metrics]
 
-Step 11: Required Improvements
+Step 11 - Required Improvements
 1. [Measurable outcome] by [date]
 2. [Measurable outcome] by [date]
 
-Step 12: Support Provided
+Step 12 - Support Provided
 - Weekly 1:1 check-ins (30 min, Tuesdays 2 PM)
 - Pairing sessions with [senior engineer] (2x weekly)
 - Training on [specific skill] via [Pluralsight/etc]
 - Clear documentation of expectations
 
-Step 13: Consequences
+Step 13 - Consequences
 If improvements are not demonstrated by [end date]:
 - [Next step: role change, demotion, termination]
 
-Step 14: Success Definition
+Step 14 - Success Definition
 - Measurable: [specific metrics]
 - Achievable: with support offered
 - Relevant: directly tied to job requirements

@@ -57,7 +57,7 @@ A practical schedule might look like this:
 ```
 Monday:    Client A (morning), Client B (afternoon)
 Tuesday:   Client C (morning), Client D (afternoon)
-Wednesday: Client E (morning), Client F (afternoon)
+Wednesday - Client E (morning), Client F (afternoon)
 Thursday:  Client G (morning), Client H (afternoon)
 Friday:    Buffer day for emergencies and deferred work
 ```
@@ -252,7 +252,7 @@ Weekly Review - Week Ending [DATE]
 
 Client Status Updates
 
-Client A - [Status: On-track | At-risk | Behind]
+Client A - [Status - On-track | At-risk | Behind]
 - Completed this week: [2-3 bullet points]
 - Current focus: [What they're waiting for or working toward]
 - Next week: [What you'll deliver]

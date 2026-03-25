@@ -154,25 +154,25 @@ Hybrid Connectivity Strategies for Maximum Reliability
 
 The most resilient remote workers combine multiple connectivity methods.
 
-Primary + Backup approach: Use your home internet as primary (typically faster and more stable). Use mobile hotspot as backup when home internet fails. This keeps you productive during outages without depending on mobile exclusively.
+Primary + Backup approach - Use your home internet as primary (typically faster and more stable). Use mobile hotspot as backup when home internet fails. This keeps you productive during outages without depending on mobile exclusively.
 
-Mobile + WiFi combination: Tether when WiFi is unavailable. Use WiFi when available to preserve data and improve speed. Most devices switch automatically between available networks.
+Mobile + WiFi combination - Tether when WiFi is unavailable. Use WiFi when available to preserve data and improve speed. Most devices switch automatically between available networks.
 
-Multiple carriers: Keep two phone lines with different carriers. When one carrier experiences outages (surprisingly common in specific regions), switch to the other. Less common but provides insurance for critical work.
+Multiple carriers - Keep two phone lines with different carriers. When one carrier experiences outages (surprisingly common in specific regions), switch to the other. Less common but provides insurance for critical work.
 
-Offline-first workflow: Design your work to handle intermittent connectivity. Download documents, code, and references locally. When you lose connectivity, continue working offline. Sync when connection returns. This requires discipline but works for many types of remote work.
+Offline-first workflow - Design your work to handle intermittent connectivity. Download documents, code, and references locally. When you lose connectivity, continue working offline. Sync when connection returns. This requires discipline but works for many types of remote work.
 
 Troubleshooting Mobile Connectivity Issues
 
 Common mobile connectivity problems have practical solutions.
 
-Slow speeds: Often caused by carrier deprioritization or weak signal. Try moving to a different location, switching frequency bands (4G vs 5G), or restarting your phone. If persists, contact your carrier, degraded service deserves technical support.
+Slow speeds - Often caused by carrier deprioritization or weak signal. Try moving to a different location, switching frequency bands (4G vs 5G), or restarting your phone. If persists, contact your carrier, degraded service deserves technical support.
 
-Connection drops: Usually caused by network switching (phone switching between towers or between WiFi and cellular). Disable WiFi if unstable. Move to a location with stronger cellular signal. If drops continue, file a support ticket with your carrier.
+Connection drops - Usually caused by network switching (phone switching between towers or between WiFi and cellular). Disable WiFi if unstable. Move to a location with stronger cellular signal. If drops continue, file a support ticket with your carrier.
 
-High latency: Makes video calls feel delayed. Move closer to a window to improve signal. Switch from 4G to 5G if available. If latency remains high, calls may be unreliable enough to require WiFi instead.
+High latency - Makes video calls feel delayed. Move closer to a window to improve signal. Switch from 4G to 5G if available. If latency remains high, calls may be unreliable enough to require WiFi instead.
 
-Battery drain: Both tethering and mobile hotspots consume battery quickly. Carry chargers or portable batteries. Configure devices to use Bluetooth rather than WiFi tethering if possible (slightly lower speed but better battery life).
+Battery drain - Both tethering and mobile hotspots consume battery quickly. Carry chargers or portable batteries. Configure devices to use Bluetooth rather than WiFi tethering if possible (slightly lower speed but better battery life).
 
 Long-Term Strategy for Remote Work Connectivity
 
@@ -190,7 +190,7 @@ Making Your Choice
 
 The decision between mobile hotspot and tethering depends on your specific work patterns and needs. If you work remotely frequently, rely on internet-intensive tasks like video conferencing, and need multiple devices connected, a dedicated mobile hotspot offers superior reliability. If you need occasional backup connectivity and prefer traveling light, tethering provides sufficient reliability with zero additional equipment.
 
-Consider your typical usage: Will you be working primarily from one location or traveling constantly? Do you need to connect multiple devices simultaneously? How much data do you use daily? Is video conferencing critical to your role? Your answers determine whether a hotspot investment makes sense.
+Consider your typical usage - Will you be working primarily from one location or traveling constantly? Do you need to connect multiple devices simultaneously? How much data do you use daily? Is video conferencing critical to your role? Your answers determine whether a hotspot investment makes sense.
 
 For distributed teams, having at least one dedicated hotspot per team or ensuring everyone has capable tethering options prevents connectivity issues from derailing collaborative work. The investment in reliable mobile connectivity pays dividends through continued productivity regardless of where your work takes you.
 
@@ -300,12 +300,12 @@ Daily usage scenario:
 - 4 hours video calls: 200-600 MB
 - 1 hour screen sharing: 30-100 MB
 - Occasional file downloads: 100-200 MB
-Total daily: 336-910 MB (average ~600 MB)
-Monthly: 10-27 GB (average ~18 GB)
+Total daily - 336-910 MB (average ~600 MB)
+Monthly - 10-27 GB (average ~18 GB)
 
-Plan recommendation: 30-50 GB/month
+Plan recommendation - 30-50 GB/month
 Provides 33-50% buffer for unexpectedly heavy usage
-Cost at typical carrier rates: $30-60/month
+Cost at typical carrier rates - $30-60/month
 ```
 
 Carrier Reliability Comparisons
@@ -467,8 +467,8 @@ Invest in infrastructure quality: Purchase reliable devices and maintain good co
 
 Maintain multiple redundant options: Primary, secondary, and emergency backup. Home internet + mobile hotspot + phone tethering = three levels of fallback.
 
-Stay updated on technology: Carriers continuously improve network speeds. When your current plan expires, evaluate newer devices and plans. Technology always improves.
+Stay updated on technology - Carriers continuously improve network speeds. When your current plan expires, evaluate newer devices and plans. Technology always improves.
 
-Test regularly: Monthly tests of backup connectivity ensure systems actually work when needed. Too many people discover backups broken only when they urgently need them.
+Test regularly - Monthly tests of backup connectivity ensure systems actually work when needed. Too many people discover backups broken only when they urgently need them.
 
 Built by theluckystrike. More at [zovo.one](https://zovo.one)

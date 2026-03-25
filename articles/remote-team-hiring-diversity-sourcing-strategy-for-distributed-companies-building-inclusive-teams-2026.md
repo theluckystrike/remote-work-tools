@@ -22,7 +22,7 @@ Table of Contents
 
 - [Why Diversity Sourcing Matters for Remote Teams](#why detailed lookrsity-sourcing-matters-for-remote-teams)
 - [Expanding Your Sourcing Channels](#expanding-your-sourcing-channels)
-- [Technical Implementation: Building a Sourcing Pipeline](#technical-implementation-building-a-sourcing-pipeline)
+- [Technical Implementation - Building a Sourcing Pipeline](#technical-implementation-building-a-sourcing-pipeline)
 - [Removing Bias from Remote Screening](#removing-bias-from-remote-screening)
 - [Building Inclusive Remote Onboarding](#building-inclusive-remote-onboarding)
 - [Measuring Diversity Progress](#measuring detailed lookrsity-progress)
@@ -66,7 +66,7 @@ Diversity sourcing works best when you invest in relationships before you need t
 2. Open source sponsorship. Fund scholarships or travel grants for underrepresented developers to attend conferences or contribute to open source
 3. Educational content creation. Publish tutorials, blog posts, and guides that specifically address topics helpful to communities you want to reach
 
-Technical Implementation: Building a Sourcing Pipeline
+Technical Implementation - Building a Sourcing Pipeline
 
 You can automate and track diversity sourcing efforts with custom tooling. Here's a Python script that helps manage relationships with diverse candidate pipelines:
 
@@ -211,11 +211,11 @@ Hiring diverse talent is only half the equation. Long-term retention requires in
 
 Sponsorship, not just mentorship: Mentors provide advice; sponsors actively advocate for promotions and high-visibility opportunities. Ensure diverse team members get sponsored, not just mentored.
 
-Salary transparency: Pay gaps often affect underrepresented groups disproportionately. Publishing salary bands and standardizing compensation reduces bias and improves retention.
+Salary transparency - Pay gaps often affect underrepresented groups disproportionately. Publishing salary bands and standardizing compensation reduces bias and improves retention.
 
 Professional development investment: Budget for underrepresented team members to attend conferences, take courses, or participate in advanced training. This demonstrates commitment to their growth.
 
-Regular representation audits: Quarterly, review promotion, attrition, and compensation data by demographics. Look for patterns, if women are leaving at twice the rate of men, or if certain groups plateau at mid-level roles, address the root cause.
+Regular representation audits - Quarterly, review promotion, attrition, and compensation data by demographics. Look for patterns, if women are leaving at twice the rate of men, or if certain groups plateau at mid-level roles, address the root cause.
 
 Building a Diversity Roadmap
 
@@ -231,13 +231,13 @@ Legal and Compliance Considerations
 
 When implementing diversity sourcing, understand the regulatory field:
 
-FCRA compliance: If you conduct background checks on candidates, comply with the Fair Credit Reporting Act. This applies regardless of sourcing channel.
+FCRA compliance - If you conduct background checks on candidates, comply with the Fair Credit Reporting Act. This applies regardless of sourcing channel.
 
 Equal Employment Opportunity (EEO): Document your sourcing efforts and hiring decisions. This protects you and demonstrates compliance if questions arise.
 
-Pay equity compliance: Ensure compensation is equitable across demographic groups. Some states now require pay equity analysis.
+Pay equity compliance - Ensure compensation is equitable across demographic groups. Some states now require pay equity analysis.
 
-Data privacy: If you track diversity data on candidates, secure it carefully and only use it for aggregate analysis, not individual decision-making.
+Data privacy - If you track diversity data on candidates, secure it carefully and only use it for aggregate analysis, not individual decision-making.
 
 Consulting with employment counsel is prudent when building diversity programs at scale.
 
@@ -247,11 +247,11 @@ Transparency builds trust with both candidates and employees. Share your diversi
 
 Publish annual diversity reports: Like major tech companies, share hiring demographics, promotion data, and pay equity analysis. This demonstrates commitment and helps attract talent.
 
-Report by level: Ensure diversity exists not just at entry level. Track representation in senior roles, management, and leadership.
+Report by level - Ensure diversity exists not just at entry level. Track representation in senior roles, management, and leadership.
 
-Compare to industry benchmarks: If your HBCU hiring is 5% of new engineers while HBCUs produce 25% of Black CS graduates nationally, you have a gap to address.
+Compare to industry benchmarks - If your HBCU hiring is 5% of new engineers while HBCUs produce 25% of Black CS graduates nationally, you have a gap to address.
 
-Track retention by source: Do candidates from diversity sourcing channels stick around? If they leave at higher rates, investigate why. Often it's cultural fit issues or lack of sponsorship.
+Track retention by source - Do candidates from diversity sourcing channels stick around? If they leave at higher rates, investigate why. Often it's cultural fit issues or lack of sponsorship.
 
 Building Internal Diversity Culture
 
@@ -259,19 +259,19 @@ External sourcing is half the equation. Internal culture determines whether dive
 
 Avoid diversity framing that isolates: Don't create "diversity hire" perceptions. Hiring someone from an underrepresented background isn't charity, it's recognizing talent where others overlooked it.
 
-Inclusive communication: Use language that doesn't assume majority-culture experiences. Avoid idioms, cultural references, or examples that exclude. Documentation should be clear and jargon-free.
+Inclusive communication - Use language that doesn't assume majority-culture experiences. Avoid idioms, cultural references, or examples that exclude. Documentation should be clear and jargon-free.
 
-Distributed mentorship: Pair new diverse hires with mentors who share their background when possible, but also with senior engineers of majority backgrounds. Avoid isolation.
+Distributed mentorship - Pair new diverse hires with mentors who share their background when possible, but also with senior engineers of majority backgrounds. Avoid isolation.
 
-Career pathing clarity: Ensure career advancement isn't opaque. Publish clear criteria for promotion, development opportunities, and pathways to senior roles.
+Career pathing clarity - Ensure career advancement isn't opaque. Publish clear criteria for promotion, development opportunities, and pathways to senior roles.
 
 Hiring for Neurodiversity
 
 Tech recruiting often overlooks neurodivergent talent (autism, ADHD, dyslexia). These candidates often bring pattern recognition, attention to detail, and unique problem-solving approaches:
 
-Adjust interview formats: Standard whiteboard interviews disadvantage some neurodivergent candidates. Offer alternatives: take-home projects, pair programming sessions, or discussion-based interviews.
+Adjust interview formats - Standard whiteboard interviews disadvantage some neurodivergent candidates. Offer alternatives: take-home projects, pair programming sessions, or discussion-based interviews.
 
-Disclose accommodations upfront: "We offer flexible hours, remote work, and can provide note-taking support" signals psychological safety.
+Disclose accommodations upfront - "We offer flexible hours, remote work, and can provide note-taking support" signals psychological safety.
 
 Partner with neurodiversity programs: Organizations like Specialisterne or autism-focused job boards connect neurodivergent candidates with employers.
 
@@ -279,13 +279,13 @@ Scaling Diversity Sourcing Across Multiple Hiring Managers
 
 As your team grows, maintaining consistency in diversity sourcing becomes harder. Multiple hiring managers may pull from different channels or apply different standards:
 
-Standardized sourcing budget: Allocate budget per hiring manager specifically for diversity sourcing channels. This ensures it happens consistently.
+Standardized sourcing budget - Allocate budget per hiring manager specifically for diversity sourcing channels. This ensures it happens consistently.
 
-Shared recruiting partner: Use a recruiting firm that specializes in diversity sourcing. They handle outreach while your team focuses on evaluation.
+Shared recruiting partner - Use a recruiting firm that specializes in diversity sourcing. They handle outreach while your team focuses on evaluation.
 
-Training for interviewers: All interviewers should understand unconscious bias and structured interview techniques. Annual training reduces bias in evaluation phase.
+Training for interviewers - All interviewers should understand unconscious bias and structured interview techniques. Annual training reduces bias in evaluation phase.
 
-Accountability metrics: Hold hiring managers accountable for diverse candidate pipelines. Track sourcing channel success and reward managers who build strong diverse pipelines.
+Accountability metrics - Hold hiring managers accountable for diverse candidate pipelines. Track sourcing channel success and reward managers who build strong diverse pipelines.
 
 Frequently Asked Questions
 

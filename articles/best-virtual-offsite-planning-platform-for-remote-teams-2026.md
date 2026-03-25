@@ -27,9 +27,9 @@ Table of Contents
 - [Implementation Recommendations](#implementation-recommendations)
 - [Avoiding Common Pitfalls](#avoiding-common-pitfalls)
 - [Advanced Implementation for Engineering Teams](#advanced-implementation-for-engineering-teams)
-- [Day 1: Preparation (Async)](#day-1-preparation-async)
-- [Day 2: Live Synthesis (90 min meeting across 3 time zones)](#day-2-live-synthesis-90-min-meeting-across-3-time-zones)
-- [Day 3: Voting and Decision (Async)](#day-3-voting-and-decision-async)
+- [Day 1 - Preparation (Async)](#day-1-preparation-async)
+- [Day 2 - Live Synthesis (90 min meeting across 3 time zones)](#day-2-live-synthesis-90-min-meeting-across-3-time-zones)
+- [Day 3 - Voting and Decision (Async)](#day-3-voting-and-decision-async)
 - [Outcomes](#outcomes)
 - [Cost Optimization for Large Teams](#cost-optimization-for-large-teams)
 - [Measuring Offsite Success](#measuring-offsite-success)
@@ -56,9 +56,9 @@ Key features:
 - Built-in timer, voting, and breakout rooms
 - Integrations with Jira, Confluence, Asana, and Slack
 
-Pricing: Free tier available; paid plans from $10/user/month
+Pricing - Free tier available; paid plans from $10/user/month
 
-Best for: Teams that need diverse workshop formats and complex help
+Best for - Teams that need diverse workshop formats and complex help
 
 ```javascript
 // Miro API: Export board to PDF for documentation
@@ -84,9 +84,9 @@ Key features:
 - "Follow me" mode for guided presentations
 - Jira and Azure DevOps integrations
 
-Pricing: Free tier available; paid plans from $12/user/month
+Pricing - Free tier available; paid plans from $12/user/month
 
-Best for: Teams that want structured help without building templates from scratch
+Best for - Teams that want structured help without building templates from scratch
 
 Figma (FigJam)
 
@@ -98,9 +98,9 @@ Key features:
 - Embed prototypes directly in workshop boards
 - Works smoothly with design teams
 
-Pricing: Included in Figma Professional ($15/user/month)
+Pricing - Included in Figma Professional ($15/user/month)
 
-Best for: Design-centric teams already invested in Figma
+Best for - Design-centric teams already invested in Figma
 
 Google Jamboard
 
@@ -112,9 +112,9 @@ Key features:
 - Screen sharing during Meet calls
 - No additional cost for Google Workspace users
 
-Pricing: Included with Google Workspace
+Pricing - Included with Google Workspace
 
-Best for: Teams deeply embedded in Google Workspace seeking minimal friction
+Best for - Teams deeply embedded in Google Workspace seeking minimal friction
 
 Notion + Video Call Hybrid
 
@@ -140,7 +140,7 @@ Post-session
 - Create follow-up tasks in project management tool
 ```
 
-Best for: Teams wanting full control over their help process
+Best for - Teams wanting full control over their help process
 
 Feature Comparison Table
 
@@ -247,18 +247,18 @@ For teams spread across 12+ time zones, structure offsites asynchronously:
 ```markdown
 Q2 Planning Offsite - 48 Hour Async Format
 
-Day 1: Preparation (Async)
+Day 1 - Preparation (Async)
 - 9am PT: Share Q1 retrospective + metrics dashboard
 - Team members complete personal strategy questionnaire
 - Deadline: 5pm PT (everyone has 24 hours minimum)
 
-Day 2: Live Synthesis (90 min meeting across 3 time zones)
+Day 2 - Live Synthesis (90 min meeting across 3 time zones)
 - Morning block (6-8am PT): Americas team discusses themes
 - Async break (2 hours): People review notes
 - Afternoon block (10am-12pm PT): EMEA team discusses
 - Capture all in shared Miro board with real-time transcription
 
-Day 3: Voting and Decision (Async)
+Day 3 - Voting and Decision (Async)
 - Post final proposals by 9am PT
 - Team votes on priorities (deadline 5pm PT)
 - Leadership synthesizes into Q2 plan by EOD
@@ -333,7 +333,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -345,7 +345,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

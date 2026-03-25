@@ -22,13 +22,13 @@ Async demo videos let clients review features on their schedule without time zon
 Table of Contents
 
 - [Why Asynchronous Demos Work Better](#why-asynchronous-demos-work-better)
-- [Recording Setup: The Minimal Viable Studio](#recording-setup-the-minimal-viable-studio)
+- [Recording Setup - The Minimal Viable Studio](#recording-setup-the-minimal-viable-studio)
 - [Structuring Your Demo Videos](#structuring-your-demo-videos)
 - [Automation Workflows for Volume Agencies](#automation-workflows-for-volume-agencies)
 - [Handling Client Feedback on Videos](#handling-client-feedback-on-videos)
 - [Common Pitfalls and Fixes](#common-pitfalls-and-fixes)
 - [Recording Equipment Recommendations](#recording-equipment-recommendations)
-- [Workflow Example: Weekly Demo Cycle](#workflow-example-weekly-demo-cycle)
+- [Workflow Example - Weekly Demo Cycle](#workflow-example-weekly-demo-cycle)
 - [Measuring Demo Impact](#measuring-demo-impact)
 
 Why Asynchronous Demos Work Better
@@ -37,7 +37,7 @@ Synchronous demos force everyone into real-time availability. A 30-minute demo a
 
 The format also improves documentation. A recorded demo becomes part of your project archive. Clients can share it with stakeholders who couldn't attend the live call. Your team avoids repeating the same demo for every new person who joins a client meeting.
 
-Recording Setup: The Minimal Viable Studio
+Recording Setup - The Minimal Viable Studio
 
 You don't need expensive equipment. A clean audio setup matters more than video quality. Clients forgive mediocre visuals but abandon recordings with bad audio.
 
@@ -67,19 +67,19 @@ A good demo video follows a consistent structure that clients learn to expect. C
 
 The Three-Act Demo Format
 
-Act One: Context (30 seconds)
+Act One - Context (30 seconds)
 
 Start by stating what you're demonstrating and why it matters. Skip the meta-commentary about recording setup or audio checks.
 
 > "This video covers the new dashboard analytics we built for the Q1 release. We'll walk through the key metrics view, the export functionality, and the scheduled report setup."
 
-Act Two: Demonstration (3-7 minutes)
+Act Two - Demonstration (3-7 minutes)
 
 Show the feature in action while narrating your actions. Speak in complete thoughts rather than narrating every click. If you're demonstrating a complex flow, pause the recording, perform the action, then resume.
 
 Use your cursor deliberately. Clients follow your mouse. Highlight important areas with a screen annotation tool or simply pause and point.
 
-Act Three: Summary and Next Steps (30 seconds)
+Act Three - Summary and Next Steps (30 seconds)
 
 Recap what you showed and specify what you need from the client.
 
@@ -164,10 +164,10 @@ Creating Video-Timestamped Feedback
 Ask clients to reference specific timestamps when providing feedback. Your feedback form should include fields for timestamp and context:
 
 ```
-Feature: [dropdown: dashboard, reports, settings]
-Timestamp: [00:02:34]
-Feedback: [free text]
-Understanding: [I understand this change / I need clarification]
+Feature - [dropdown: dashboard, reports, settings]
+Timestamp - [00:02:34]
+Feedback - [free text]
+Understanding - [I understand this change / I need clarification]
 ```
 
 This makes feedback actionable. When a client says "the export button is confusing" and references 00:02:34, you know exactly what they watched when they formed that opinion.
@@ -192,7 +192,7 @@ Feedback gets lost in email threads. Use a dedicated feedback tool or at minimum
 
 Recording Equipment Recommendations
 
-Essential Setup (Budget: $150-300)
+Essential Setup (Budget - $150-300)
 
 | Item | Price | Why |
 |------|-------|-----|
@@ -201,7 +201,7 @@ Essential Setup (Budget: $150-300)
 | Boom Arm (desk-mounted) | $25-40 | Positions mic correctly without reaching |
 | OBS Studio or Loom Free | $0 | Start free, upgrade if needed |
 
-Professional Setup (Budget: $300-600)
+Professional Setup (Budget - $300-600)
 
 Add to essentials:
 - Larger format mic (AT2020 or Rode Procaster): $100-200
@@ -209,7 +209,7 @@ Add to essentials:
 - Acoustic panels (soft furnishings): $80-150
 - Loom Business or Veed Personal plan: $8-18/month
 
-Studio Setup (Budget: $800+)
+Studio Setup (Budget - $800+)
 
 Add to professional:
 - Broadcast-quality mic (Shure SM7B): $400+
@@ -219,7 +219,7 @@ Add to professional:
 
 Most agencies find the Essential to Professional tier hits the sweet spot, tangible quality improvement without the complexity of a full studio.
 
-Workflow Example: Weekly Demo Cycle
+Workflow Example - Weekly Demo Cycle
 
 Here's how a SaaS agency records demos for multiple clients efficiently:
 

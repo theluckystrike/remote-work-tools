@@ -20,14 +20,14 @@ Launch remote team guilds by defining a guild purpose and membership, setting up
 Table of Contents
 
 - [Understanding Guilds Versus Communities of Practice](#understanding-guilds-versus-communities-of-practice)
-- [Step 1: Define Clear Scope and Purpose](#step-1-define-clear-scope-and-purpose)
-- [Step 2: Recruit Active Members](#step-2-recruit-active-members)
-- [Step 3: Establish Regular Async Cadence](#step-3-establish-regular-async-cadence)
-- [Step 4: Create Structured Documentation](#step-4-create-structured-documentation)
-- [ADR-023: Use React Query for Server State Management](#adr-023-use-react-query-for-server-state-management)
-- [Step 5: Run Synchronous Sessions Strategically](#step-5-run-synchronous-sessions-strategically)
-- [Step 6: Connect Guilds to Team Workflows](#step-6-connect-guilds-to-team-workflows)
-- [Step 7: Measure and Iterate](#step-7-measure-and-iterate)
+- [Step 1 - Define Clear Scope and Purpose](#step-1-define-clear-scope-and-purpose)
+- [Step 2 - Recruit Active Members](#step-2-recruit-active-members)
+- [Step 3 - Establish Regular Async Cadence](#step-3-establish-regular-async-cadence)
+- [Step 4 - Create Structured Documentation](#step-4-create-structured-documentation)
+- [ADR-023 - Use React Query for Server State Management](#adr-023-use-react-query-for-server-state-management)
+- [Step 5 - Run Synchronous Sessions Strategically](#step-5-run-synchronous-sessions-strategically)
+- [Step 6 - Connect Guilds to Team Workflows](#step-6-connect-guilds-to-team-workflows)
+- [Step 7 - Measure and Iterate](#step-7-measure-and-iterate)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Practical Starting Point](#practical-starting-point)
 - [Guild Template for Your First Guild Launch](#guild-template-for-your-first-guild-launch)
@@ -40,7 +40,7 @@ Table of Contents
 - [Success Metrics (Review quarterly)](#success-metrics-review-quarterly)
 - [Escalation Path](#escalation-path)
 - [Modification History](#modification-history)
-- [Guild Lifecycle: When to Sunset, Merge, or Evolve](#guild-lifecycle-when-to-sunset-merge-or-evolve)
+- [Guild Lifecycle - When to Sunset, Merge, or Evolve](#guild-lifecycle-when-to-sunset-merge-or-evolve)
 - [Integrating Guilds into Org Structure](#integrating-guilds-into-org-structure)
 - [Guild Reviews](#guild-reviews)
 - [Measuring Guild ROI](#measuring-guild-roi)
@@ -55,7 +55,7 @@ A community of practice (CoP) is broader. CoPs form around a shared domain of in
 
 Both structures address a fundamental problem in remote work: knowledge silos forming between teams that never physically interact. When your frontend team never speaks with your backend team, both groups repeat mistakes and miss opportunities for collaboration.
 
-Step 1: Define Clear Scope and Purpose
+Step 1 - Define Clear Scope and Purpose
 
 Every successful guild needs a concrete charter. Avoid vague mission statements like "sharing knowledge across the organization." Instead, specify exactly what the guild accomplishes.
 
@@ -71,7 +71,7 @@ Example charter for a frontend guild:
 ```markdown
 Frontend Guild Charter
 
-Mission: Establish frontend standards and reduce inconsistency across products
+Mission - Establish frontend standards and reduce inconsistency across products
 
 Scope:
 - Component library governance
@@ -83,12 +83,12 @@ Deliverables:
 - Bi-weekly tech debt triage
 - Annual framework upgrade path documentation
 
-Members: 2-3 engineers from each product team
+Members - 2-3 engineers from each product team
 ```
 
 Document this charter publicly in your team's wiki or documentation hub. Having written clarity prevents guilds from drifting into scope creep or becoming inactive.
 
-Step 2: Recruit Active Members
+Step 2 - Recruit Active Members
 
 Guilds fail when participation feels optional. Successful guilds have explicit membership with rotational responsibilities. Recruit members who demonstrate expertise and, more importantly, enthusiasm for the domain.
 
@@ -101,7 +101,7 @@ For remote teams, consider this recruitment approach:
 
 Avoid filling guilds with volunteers who never participate. A small, active guild outperforms a large, ghost-town guild every time.
 
-Step 3: Establish Regular Async Cadence
+Step 3 - Establish Regular Async Cadence
 
 Remote guilds thrive on asynchronous communication. Synchronous meetings work for deep discussions, but daily async updates keep momentum between meetings.
 
@@ -118,7 +118,7 @@ Weekly Guild Update Template
 
 Post this update every week, preferably on the same day. Consistency builds habit, and habit builds engagement.
 
-Step 4: Create Structured Documentation
+Step 4 - Create Structured Documentation
 
 Guilds produce artifacts. Without documentation, guild activities vanish after each meeting. Assign a documentation owner for each guild, rotating monthly works well.
 
@@ -132,11 +132,11 @@ Essential guild artifacts include:
 Example decision record format:
 
 ```markdown
-ADR-023: Use React Query for Server State Management
+ADR-023 - Use React Query for Server State Management
 
-Date: 2026-02-15
-Status: Approved
-Author: Frontend Guild
+Date - 2026-02-15
+Status - Approved
+Author - Frontend Guild
 
 Context
 Our teams use inconsistent patterns for managing server state. Some use Redux, others use context, and some fetch directly in components.
@@ -150,7 +150,7 @@ Consequences
 - Standardizes testing approaches for data fetching
 ```
 
-Step 5: Run Synchronous Sessions Strategically
+Step 5 - Run Synchronous Sessions Strategically
 
 Schedule synchronous guild meetings sparingly but purposefully. Use these sessions for:
 
@@ -163,7 +163,7 @@ For remote teams, run these sessions recorded. Not everyone can attend live, and
 
 Keep synchronous meetings under 60 minutes. Anything longer loses attention in remote settings. Publish agendas 24 hours in advance so members can prepare.
 
-Step 6: Connect Guilds to Team Workflows
+Step 6 - Connect Guilds to Team Workflows
 
 Guilds become irrelevant if product teams ignore their outputs. Build formal connections between guilds and team workflows:
 
@@ -174,7 +174,7 @@ Guilds become irrelevant if product teams ignore their outputs. Build formal con
 
 These connections give guilds real influence and prevent them from becoming talking shops that produce nothing useful.
 
-Step 7: Measure and Iterate
+Step 7 - Measure and Iterate
 
 Track guild health through simple metrics:
 
@@ -183,7 +183,7 @@ Track guild health through simple metrics:
 - RFC review participation
 - Channel activity levels
 
-Survey guild members quarterly: What's working? What's wasting time? What should change?
+Survey guild members quarterly - What's working? What's wasting time? What should change?
 
 Guilds naturally evolve. A guild focused on a specific framework might expand or narrow as technology changes. Allow this evolution, rigid structures break under real-world complexity.
 
@@ -258,7 +258,7 @@ Modification History
 |------|--------|-------|
 ```
 
-Guild Lifecycle: When to Sunset, Merge, or Evolve
+Guild Lifecycle - When to Sunset, Merge, or Evolve
 
 Not all guilds last forever. Plan for guilds to evolve or end:
 
@@ -306,10 +306,10 @@ Guilds work best when they have real influence on organizational decisions:
 RFC (Request for Comments) Process
 Require RFC review by relevant guilds before implementation:
 ```markdown
-RFC: [Title]
-Domain: [Which guild(s) should review this?]
-Deadline: Guild should review within 5 business days
-Guild review expected: [YES/NO for each relevant guild]
+RFC - [Title]
+Domain - [Which guild(s) should review this?]
+Deadline - Guild should review within 5 business days
+Guild review expected - [YES/NO for each relevant guild]
 
 Guild Reviews
 - [ ] [Guild Name]. Approved / Requested Changes / Blocked (provide feedback in comments)

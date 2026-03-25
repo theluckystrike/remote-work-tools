@@ -118,7 +118,7 @@ const interviewStages = {
 };
 ```
 
-Interviewer Calibration: The Critical Step
+Interviewer Calibration - The Critical Step
 
 A rubric only works if interviewers interpret it consistently. Run calibration sessions before launching your hiring process:
 
@@ -135,10 +135,10 @@ Provide interviewers with a structured form to ensure rubric compliance:
 ```markdown
 Interviewer Evaluation Form
 
-Candidate: [Name]
-Position: [Role]
-Interviewer: [Your Name]
-Date: [YYYY-MM-DD]
+Candidate - [Name]
+Position - [Role]
+Interviewer - [Your Name]
+Date - [YYYY-MM-DD]
 
 Competency Scoring
 
@@ -175,8 +175,8 @@ Use async feedback collection. Send rubric forms via email or your ATS within 24
 Create a decision matrix. Aggregate scores into a simple comparison view:
 
 ```yaml
-Candidate: Alex Chen
-Role: Senior Frontend Developer
+Candidate - Alex Chen
+Role - Senior Frontend Developer
 
 | Competency          | Interviewer 1 | Interviewer 2 | Interviewer 3 | Average |
 |---------------------|---------------|---------------|---------------|---------|

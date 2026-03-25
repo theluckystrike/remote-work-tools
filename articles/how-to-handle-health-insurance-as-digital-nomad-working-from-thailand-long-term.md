@@ -51,9 +51,9 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Local Thai Health Insurance vs International Plans
+Step 1 - Local Thai Health Insurance vs International Plans
 
-You have two primary paths: local Thai health insurance or international travel/expat insurance. Each has distinct advantages.
+You have two primary paths - local Thai health insurance or international travel/expat insurance. Each has distinct advantages.
 
 Local Thai Health Insurance
 
@@ -118,7 +118,7 @@ Beyond premium costs, what actually matters is claim processing speed and denial
 
 One practical step before committing to any provider: search the provider name alongside "Thailand claim denied" or "Thailand claim experience" in Facebook groups like Nomad List, Chiang Mai Digital Nomads, and Bangkok Nomads. Real claim experiences from people in the same situation are far more useful than marketing materials.
 
-Step 2: Practical Strategy: The Hybrid Approach
+Step 2 - Practical Strategy: The Hybrid Approach
 
 Many long-term digital nomads use a hybrid strategy that combines local and international coverage:
 
@@ -129,7 +129,7 @@ This approach optimizes costs while ensuring you have coverage for emergencies r
 
 The coordination of benefits between two policies requires attention. When you have both a local and an international plan, clarify which is primary for each type of claim. Most international plans want to be secondary for locally-available services but primary for evacuation. Get this confirmed in writing from both providers before you need to use it. claim-time surprises about coordination of benefits are common and frustrating.
 
-Step 3: Key Considerations for Developers
+Step 3 - Key Considerations for Developers
 
 As a developer or tech professional, consider these additional factors:
 
@@ -155,7 +155,7 @@ Many modern insurance providers offer telemedicine consultations. useful when yo
 
 SafetyWing, Cigna, and Allianz all include telemedicine access. This is particularly valuable for developers in Chiang Mai or on islands who aren't near a major international hospital. A telemedicine consultation can distinguish a situation requiring a hospital visit from one manageable with local pharmacy antibiotics. saving time and money.
 
-Step 4: Estimating Healthcare Costs in Thailand
+Step 4 - Estimating Healthcare Costs in Thailand
 
 Understanding actual costs helps you choose appropriate coverage levels:
 
@@ -180,7 +180,7 @@ Even without insurance, these costs are significantly lower than in the US or Eu
 
 Note that dental care is often excluded from both local and international health insurance but is genuinely affordable in Thailand without coverage. Bumrungrad International Hospital's dental center in Bangkok charges $40-80 for a standard cleaning. comparable to what many people pay as a copay in the US. Budget separately for dental rather than prioritizing finding a plan that includes it.
 
-Step 5: Actionable Steps to Secure Coverage
+Step 5 - Actionable Steps to Secure Coverage
 
 1. Assess your visa status: Determine which visa you'll hold and any insurance requirements
 2. Calculate your budget: Monthly premiums plus expected out-of-pocket expenses
@@ -189,7 +189,7 @@ Step 5: Actionable Steps to Secure Coverage
 5. Start coverage before arrival: Many plans have waiting periods, so enroll before traveling
 6. Keep documentation accessible: Store policy documents and emergency contacts in the cloud
 
-For step 6, use a dedicated folder in Google Drive or Notion shared with someone you trust at home. Include: insurance policy number, emergency claim line (separate from general customer service), Thai emergency contacts (1669 for ambulance in Thailand), and your blood type and known allergies in both English and Thai (many translation apps can produce this; have a Thai speaker verify it).
+For step 6, use a dedicated folder in Google Drive or Notion shared with someone you trust at home. Include - insurance policy number, emergency claim line (separate from general customer service), Thai emergency contacts (1669 for ambulance in Thailand), and your blood type and known allergies in both English and Thai (many translation apps can produce this; have a Thai speaker verify it).
 
 Common Mistakes to Avoid
 
@@ -204,19 +204,19 @@ Detailed Provider Comparison for Thailand Digital Nomads
 
 Understanding the real differences between providers helps you choose correctly. Here's what three common scenarios look like:
 
-Scenario 1: Young freelancer, good health, no pre-existing conditions
+Scenario 1 - Young freelancer, good health, no pre-existing conditions
 - Best option: SafetyWing ($42-84/month) with local Thai insurance backup ($75/month)
 - Total cost: ~$120-160/month
 - Covers emergencies and basic care locally
 - SafetyWing excludes routine checkups but includes emergency hospitalization
 
-Scenario 2: Developer with pre-existing condition (e.g., diabetes)
+Scenario 2 - Developer with pre-existing condition (e.g., diabetes)
 - Best option: Cigna Global ($250-400/month) or Allianz ($180-300/month)
 - Both offer pre-existing condition coverage after 12-month waiting period
 - Local Thai insurance ($100-150/month) for routine management
 - Total cost: ~$300-500/month, but provides coverage
 
-Scenario 3: Senior engineer planning 3+ year stay
+Scenario 3 - Senior engineer planning 3+ year stay
 - Best option: Combine AXA Thailand ($200-350/month) with evacuation-only international plan ($50-75/month)
 - AXA Thailand covers routine care, specialist visits, hospitalization locally
 - International layer handles evacuation and care outside Thailand
@@ -232,7 +232,7 @@ Thailand's Long-Term Resident (LTR) visa launched in 2022 specifically targets r
 
 Document your insurance in your LTR application. it demonstrates financial responsibility and increases approval likelihood. Keep policy documentation accessible in cloud storage (Google Drive, Dropbox) for border runs and visa extensions.
 
-Step 6: Work with Thai Healthcare Systems
+Step 6 - Work with Thai Healthcare Systems
 
 Thailand's medical system is excellent but operates differently from Western systems. Understanding how insurance works with Thai hospitals saves both money and frustration:
 
@@ -252,7 +252,7 @@ Emergency Evacuation Costs
 
 If you're in a remote area (northern Thailand, islands), evacuation coverage becomes critical. Many international plans exclude evacuation or require you to pay first.
 
-Step 7: Thailand-Specific Health Risks for Remote Workers
+Step 7 - Thailand-Specific Health Risks for Remote Workers
 
 Your insurance should cover these common concerns:
 
@@ -275,26 +275,26 @@ As a remote worker, your tax situation affects insurance choices:
 
 For US citizens, Thailand has no tax treaty with the US, meaning your foreign-earned income may still be subject to US taxation above the Foreign Earned Income Exclusion ($126,500 in 2024). Health insurance premiums paid while abroad can offset some of this. but only if you're properly self-employed or have the right business structure. A consultation with an US expat tax specialist (services like Bright!Tax or Greenback Tax specialize in this) is worth the $200-400 fee before committing to a multi-year Thailand stay.
 
-Step 8: Build Your Insurance Stack for Long-Term Stability
+Step 8 - Build Your Insurance Stack for Long-Term Stability
 
 Rather than choosing one provider, successful long-term nomads in Thailand layer coverage:
 
-Layer 1: Routine Care
+Layer 1 - Routine Care
 - Local Thai insurance ($50-150/month) covering doctor visits, dental, specialists
 - Keeps relationship with Thai hospitals and doctors
 - Lowest layer of the stack
 
-Layer 2: Coverage
+Layer 2 - Coverage
 - International plan ($150-300/month) covering emergencies, hospitalization, evacuation
 - Provides backup if local care is insufficient
 
-Layer 3: Critical Illness
+Layer 3 - Critical Illness
 - Separate critical illness rider ($20-50/month) covering cancer, stroke, heart attack
 - Many plans exclude this, making it worth separate coverage
 
 This three-layer approach typically costs $250-400/month but provides genuine peace of mind for multi-year stays.
 
-Step 9: Renewal and Policy Persistence
+Step 9 - Renewal and Policy Persistence
 
 Health insurance renewal in Thailand differs from the US. Plan your renewal carefully:
 

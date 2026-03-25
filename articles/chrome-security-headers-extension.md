@@ -25,10 +25,10 @@ Table of Contents
 - [Common Pitfalls](#common-pitfalls)
 - [Building a Custom Security Header Audit Script](#building-a-custom-security-header-audit-script)
 - [Real-World Security Header Implementations](#real-world-security-header-implementations)
-- [Content-Security-Policy: The Deep Dive](#content-security-policy-the-deep detailed look)
+- [Content-Security-Policy - The Deep Dive](#content-security-policy-the-deep detailed look)
 - [Practical Incident Response Using Headers](#practical-incident-response-using-headers)
 - [Monitoring Header Compliance Over Time](#monitoring-header-compliance-over-time)
-- [Browser DevTools Alternative: Network Tab Inspection](#browser-devtools-alternative-network-tab-inspection)
+- [Browser DevTools Alternative - Network Tab Inspection](#browser-devtools-alternative-network-tab-inspection)
 - [Common Questions About Security Headers](#common-questions-about-security-headers)
 
 Why Security Headers Matter
@@ -50,7 +50,7 @@ Essential Chrome Extensions for Security Headers
 The HTTP Headers extension (available in the Chrome Web Store) displays all HTTP response headers for each request. It shows headers in a pop-up when you click the extension icon, making it easy to verify server configuration without opening DevTools.
 
 ```
-Extension: HTTP Headers
+Extension - HTTP Headers
 Features:
 - Displays all response headers
 - Shows request and response timing
@@ -65,7 +65,7 @@ This extension works well for quick checks. Open any page, click the icon, and y
 ModHeader lets you add, modify, or remove HTTP request and response headers. This is particularly useful for testing how your application behaves with specific security headers or for simulating attacks to verify your protections work.
 
 ```
-Extension: ModHeader
+Extension - ModHeader
 Useful for:
 - Adding custom headers for testing
 - Removing headers to test fallback behavior
@@ -75,8 +75,8 @@ Useful for:
 
 To test CSP, add a response header in ModHeader:
 ```
-Header name: Content-Security-Policy
-Header value: default-src 'self'
+Header name - Content-Security-Policy
+Header value - default-src 'self'
 ```
 
 Then visit your site and try loading a resource from an external domain. The browser blocks the request, and you can verify your CSP is working.
@@ -108,9 +108,9 @@ Checking Your Own Site
 4. Scroll through the headers list
 5. Verify these security headers are present:
  ```
-   Strict-Transport-Security: max-age=31536000; includeSubDomains
-   X-Content-Type-Options: nosniff
-   X-Frame-Options: DENY
+   Strict-Transport-Security - max-age=31536000; includeSubDomains
+   X-Content-Type-Options - nosniff
+   X-Frame-Options - DENY
    Content-Security-Policy: default-src 'self'
    ```
 
@@ -120,7 +120,7 @@ Use ModHeader to test CSP rules before modifying your server configuration:
 
 ```javascript
 // In ModHeader, add response header:
-// Content-Security-Policy: script-src 'self' https://trusted-cdn.com
+// Content-Security-Policy - script-src 'self' https://trusted-cdn.com
 
 // Then test:
 // 1. Load your site - scripts from self should work
@@ -138,7 +138,7 @@ Headers You Should Implement
 
 Focus on these headers in order of priority:
 
-1. Strict-Transport-Security: Forces HTTPS. Start with `max-age=31536000; includeSubDomains`
+1. Strict-Transport-Security - Forces HTTPS. Start with `max-age=31536000; includeSubDomains`
 
 2. X-Content-Type-Options: Set to `nosniff` to prevent MIME-type sniffing
 
@@ -237,36 +237,36 @@ Here's what production implementations actually look like:
 
 Tight Security (B2B SaaS with sensitive data):
 ```
-Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-X-Content-Type-Options: nosniff
-X-Frame-Options: DENY
-Content-Security-Policy: default-src 'self'; script-src 'self' 'nonce-abc123'; style-src 'self' fonts.googleapis.com
-Referrer-Policy: strict-origin-when-cross-origin
-Permissions-Policy: geolocation=(), microphone=(), camera=()
+Strict-Transport-Security - max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options - nosniff
+X-Frame-Options - DENY
+Content-Security-Policy - default-src 'self'; script-src 'self' 'nonce-abc123'; style-src 'self' fonts.googleapis.com
+Referrer-Policy - strict-origin-when-cross-origin
+Permissions-Policy - geolocation=(), microphone=(), camera=()
 ```
 
 Balanced Security (SaaS with external integrations):
 ```
-Strict-Transport-Security: max-age=31536000; includeSubDomains
-X-Content-Type-Options: nosniff
-X-Frame-Options: SAMEORIGIN
-Content-Security-Policy: default-src 'self'; script-src 'self' cdn.example.com; img-src 'self' data: https:
-Referrer-Policy: strict-origin-when-cross-origin
-Permissions-Policy: camera=(), microphone=()
+Strict-Transport-Security - max-age=31536000; includeSubDomains
+X-Content-Type-Options - nosniff
+X-Frame-Options - SAMEORIGIN
+Content-Security-Policy - default-src 'self'; script-src 'self' cdn.example.com; img-src 'self' data: https:
+Referrer-Policy - strict-origin-when-cross-origin
+Permissions-Policy - camera=(), microphone=()
 ```
 
 Permissive Security (Public marketing site with many third-party tools):
 ```
-Strict-Transport-Security: max-age=31536000
-X-Content-Type-Options: nosniff
-X-Frame-Options: SAMEORIGIN
-Content-Security-Policy: default-src 'self' https:; script-src 'self' 'unsafe-inline' https:
-Referrer-Policy: no-referrer-when-downgrade
+Strict-Transport-Security - max-age=31536000
+X-Content-Type-Options - nosniff
+X-Frame-Options - SAMEORIGIN
+Content-Security-Policy - default-src 'self' https:; script-src 'self' 'unsafe-inline' https:
+Referrer-Policy - no-referrer-when-downgrade
 ```
 
-The trade-off: tighter CSP prevents more attacks but breaks more integrations. Start tight and relax only when necessary.
+The trade-off - tighter CSP prevents more attacks but breaks more integrations. Start tight and relax only when necessary.
 
-Content-Security-Policy: The Deep Dive
+Content-Security-Policy - The Deep Dive
 
 CSP is the most complex header and worth understanding thoroughly:
 
@@ -312,7 +312,7 @@ Practical Incident Response Using Headers
 When you discover a security issue, security headers help contain damage:
 
 ```markdown
-Incident: Third-party library has XSS vulnerability
+Incident - Third-party library has XSS vulnerability
 
 Response using CSP:
 1. Review CSP: does script-src allow this library?
@@ -397,7 +397,7 @@ if non_compliant:
 
 This catches configuration drift (headers accidentally removed during deployments).
 
-Browser DevTools Alternative: Network Tab Inspection
+Browser DevTools Alternative - Network Tab Inspection
 
 If you prefer not to use extensions, inspect headers directly:
 

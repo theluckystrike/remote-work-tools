@@ -22,21 +22,21 @@ Table of Contents
 
 - [The Problem with Unstructured Knowledge Sharing](#the-problem-with-unstructured-knowledge-sharing)
 - [Designing Your Incentive Program Structure](#designing-your-incentive-program-structure)
-- [Sample Promotion Criteria: Senior Engineer](#sample-promotion-criteria-senior-engineer)
+- [Sample Promotion Criteria - Senior Engineer](#sample-promotion-criteria-senior-engineer)
 - [Implementation Strategies That Actually Work](#implementation-strategies-that-actually-work)
 - [Quick Start](#quick-start)
 - [Common Issues](#common-issues)
 - [Measuring Success](#measuring-success)
 - [Avoiding Common Pitfalls](#avoiding-common-pitfalls)
 - [Implementation Timeline](#implementation-timeline)
-- [Measuring Program Success: Beyond Vanity Metrics](#measuring-program-success-beyond-vanity-metrics)
-- [Real Examples: What's Working](#real-examples-whats-working)
+- [Measuring Program Success - Beyond Vanity Metrics](#measuring-program-success-beyond-vanity-metrics)
+- [Real Examples - What's Working](#real-examples-whats-working)
 - [Advanced Strategies for Mature Programs](#advanced-strategies-for-mature-programs)
 - [Real Incentive Program Examples](#real-incentive-program-examples)
 - [Addressing Common Objections](#addressing-common-objections)
 - [Preventing Program Fatigue](#preventing-program-fatigue)
 - [Team Maturity and Program Design](#team-maturity-and-program-design)
-- [Measuring Program Impact: Beyond Metrics](#measuring-program-impact-beyond-metrics)
+- [Measuring Program Impact - Beyond Metrics](#measuring-program-impact-beyond-metrics)
 
 The Problem with Unstructured Knowledge Sharing
 
@@ -83,7 +83,7 @@ Career Development Alignment
 Tie knowledge contributions to professional growth. Make documentation participation a component of performance reviews, promotion criteria, or skill development tracks. Engineers are more likely to contribute when they see direct career benefits.
 
 ```markdown
-Sample Promotion Criteria: Senior Engineer
+Sample Promotion Criteria - Senior Engineer
 
 Required Knowledge Base Contributions:
 - Minimum 12 article contributions per quarter
@@ -98,9 +98,9 @@ Start with Low-Friction Contribution Paths
 
 The easier you make it to contribute, the more participation you'll see. Implement these entry points:
 
-Quick-Edit Buttons: Place edit links directly on every knowledge base page. Engineers reading documentation and noticing an error should be one click away from fixing it.
+Quick-Edit Buttons - Place edit links directly on every knowledge base page. Engineers reading documentation and noticing an error should be one click away from fixing it.
 
-Template System: Provide ready-made templates for common contribution types. Don't make people figure out formatting.
+Template System - Provide ready-made templates for common contribution types. Don't make people figure out formatting.
 
 ```markdown
 <!-- Example: Quick Reference Template -->
@@ -116,17 +116,17 @@ Common Issues
 
 ```
 
-Slack Integration: Let engineers submit knowledge base entries directly from Slack. A simple slash command captures information while it's fresh in their minds.
+Slack Integration - Let engineers submit knowledge base entries directly from Slack. A simple slash command captures information while it's fresh in their minds.
 
 Build Contribution Into Existing Workflows
 
 The best incentive programs don't add extra work, they integrate with what engineers already do.
 
-Post-Incident Reviews: After resolving production issues, require a brief knowledge base entry as part of your incident review process. This captures tribal knowledge before it escapes.
+Post-Incident Reviews - After resolving production issues, require a brief knowledge base entry as part of your incident review process. This captures tribal knowledge before it escapes.
 
-Pull Request Reviews: Add a checkbox to your PR template asking whether the change requires documentation updates. Make documentation review part of code review.
+Pull Request Reviews - Add a checkbox to your PR template asking whether the change requires documentation updates. Make documentation review part of code review.
 
-Onboarding Tasks: New hires can contribute their learning as they go through onboarding. This reduces their imposter syndrome while building your knowledge base.
+Onboarding Tasks - New hires can contribute their learning as they go through onboarding. This reduces their imposter syndrome while building your knowledge base.
 
 Measuring Success
 
@@ -140,37 +140,37 @@ Track these metrics to understand if your program is working:
 
 Avoiding Common Pitfalls
 
-Don't over-gamify: Points and leaderboards work initially but can backfire if they feel performative or competitive. Keep the focus on genuine knowledge sharing. If team members feel they're competing for points, they'll write quantity over quality.
+Don't over-gamify - Points and leaderboards work initially but can backfire if they feel performative or competitive. Keep the focus on genuine knowledge sharing. If team members feel they're competing for points, they'll write quantity over quality.
 
-Don't make it mandatory: Forced contributions produce low-quality content written to satisfy a quota. The goal is creating a culture where sharing becomes natural, not checking boxes.
+Don't make it mandatory - Forced contributions produce low-quality content written to satisfy a quota. The goal is creating a culture where sharing becomes natural, not checking boxes.
 
-Don't ignore quality: A large knowledge base full of outdated or incorrect information is worse than a small one with high-quality content. Implement lightweight review processes (peer review, not gatekeeping) and retire obsolete content regularly.
+Don't ignore quality - A large knowledge base full of outdated or incorrect information is worse than a small one with high-quality content. Implement lightweight review processes (peer review, not gatekeeping) and retire obsolete content regularly.
 
 Don't reward hollow contributions: A single-paragraph stub shouldn't get the same recognition as a thorough, well-researched article. Bias your recognition toward substantial contributions.
 
 Implementation Timeline
 
-Month 1: Foundation
+Month 1 - Foundation
 - Establish clear program guidelines
 - Set up basic tracking (spreadsheet or simple database)
 - Train 3 "knowledge champions" to demonstrate contribution
 - Publish 5-10 quality articles as examples
 - Announce program in all-hands with clear expectations
 
-Month 2-3: Build Momentum
+Month 2-3 - Build Momentum
 - Highlight early contributors in weekly updates
 - Run one "documentation sprint" where the whole team focuses on KB gaps
 - Implement review process and feedback workflows
 - Track metrics: contribution velocity, unique contributors
 - Solicit feedback: "What's making this easy or hard?"
 
-Month 4+: Scale and Sustain
+Month 4+ - Scale and Sustain
 - Integrate knowledge contributions into performance reviews (if applicable)
 - Celebrate milestones: "We hit 100 articles!"
 - Archive outdated content (this is still contribution work, recognize it)
 - Adjust the program based on what's working
 
-Measuring Program Success: Beyond Vanity Metrics
+Measuring Program Success - Beyond Vanity Metrics
 
 Track these metrics to understand if your program is actually working:
 
@@ -188,7 +188,7 @@ Impact Metrics
 | Metric | How to Track | What It Means |
 |--------|-------------|--------------|
 | Search success rate | "Searches returning results / Total searches" | Rising = KB is filling gaps |
-| Time to find answer | Survey: "How long to find what you need?" | Target: < 2 minutes |
+| Time to find answer | Survey - "How long to find what you need?" | Target: < 2 minutes |
 | Reduction in repeated questions | Track duplicate Slack questions month-over-month | Dropping = knowledge is captured |
 | New hire onboarding speed | Days to "productive on their first task" | Target: 40% faster than before |
 
@@ -198,31 +198,31 @@ Engagement Metrics (Not vanity, but supportive)
 - Contributor diversity (growing number of new people = culture shift)
 - Comments on articles (engagement = people are reading and learning)
 
-Real Examples: What's Working
+Real Examples - What's Working
 
-Example 1: Engineering Team at Mid-Size SaaS
+Example 1 - Engineering Team at Mid-Size SaaS
 
-Setup: Simple point system (25 points for article, 15 for improvement, 8 for edit), monthly "recognition in standup" for top contributors.
+Setup - Simple point system (25 points for article, 15 for improvement, 8 for edit), monthly "recognition in standup" for top contributors.
 
-Results: 3-6 new articles per month, ~60% team participation over a year. Within 9 months, search-first documentation behavior became the default. Onboarding time dropped 2 weeks.
+Results - 3-6 new articles per month, ~60% team participation over a year. Within 9 months, search-first documentation behavior became the default. Onboarding time dropped 2 weeks.
 
-Key success factor: Monthly recognition in standups (5 seconds each) created more motivation than points.
+Key success factor - Monthly recognition in standups (5 seconds each) created more motivation than points.
 
-Example 2: Remote-First Startup (20 people)
+Example 2 - Remote-First Startup (20 people)
 
-Setup: Articles are legitimate work items in sprint planning (5% of capacity dedicated). Quarterly "documentation review" where stale content is archived. No points, no leaderboards.
+Setup - Articles are legitimate work items in sprint planning (5% of capacity dedicated). Quarterly "documentation review" where stale content is archived. No points, no leaderboards.
 
-Results: 8-12 new articles per month, very high quality. Culture of "if it's not documented, it's not done" took root. Junior devs feel enabled to document their learnings.
+Results - 8-12 new articles per month, very high quality. Culture of "if it's not documented, it's not done" took root. Junior devs feel enabled to document their learnings.
 
-Key success factor: Making documentation legitimate work (not "extra") changed everything. Junior devs stepped up when they saw it was valued as much as shipping features.
+Key success factor - Making documentation legitimate work (not "extra") changed everything. Junior devs stepped up when they saw it was valued as much as shipping features.
 
-Example 3: Distributed Team (30 people, 5 time zones)
+Example 3 - Distributed Team (30 people, 5 time zones)
 
-Setup: Recognition program with quarterly "most helpful article" voting (team-wide vote, winner gets $200 credit or 4 hours paid learning time). Async-only reviews to respect time zones.
+Setup - Recognition program with quarterly "most helpful article" voting (team-wide vote, winner gets $200 credit or 4 hours paid learning time). Async-only reviews to respect time zones.
 
-Results: Consistent 15-20 articles/month. Voting ceremony creates engagement. Much broader participation (not just senior people documenting).
+Results - Consistent 15-20 articles/month. Voting ceremony creates engagement. Much broader participation (not just senior people documenting).
 
-Key success factor: Tangible rewards (not just recognition) mattered for this distributed team. The voting made it community-driven.
+Key success factor - Tangible rewards (not just recognition) mattered for this distributed team. The voting made it community-driven.
 
 Advanced Strategies for Mature Programs
 
@@ -230,7 +230,7 @@ Once your basic program is running, consider these enhancements:
 
 Documentation Mentorship Pairs
 
-Pair junior engineers with experienced ones to co-write articles. Junior brings fresh perspective on what's confusing. Senior ensures accuracy. Results: better documentation + skill building.
+Pair junior engineers with experienced ones to co-write articles. Junior brings fresh perspective on what's confusing. Senior ensures accuracy. Results - better documentation + skill building.
 
 Incentivize Reviews, Not Just Writing
 
@@ -255,7 +255,7 @@ Once a year, have the whole team spend a day reviewing and updating the KB. Gami
 
 Real Incentive Program Examples
 
-Example 1: Points + Monthly Recognition (Small Team)
+Example 1 - Points + Monthly Recognition (Small Team)
 
 Setup for 10-person engineering team:
 - New article: 25 points
@@ -269,22 +269,22 @@ Rewards:
 - 100 points per quarter: $25 coffee/lunch credit
 - 200 points per quarter: 4 hours paid learning time
 
-Results: Team went from 2-3 KB articles per month to 8-10. Broad participation (7 of 10 people contributed within 6 months). Culture shift: "Documentation is legitimate work."
+Results - Team went from 2-3 KB articles per month to 8-10. Broad participation (7 of 10 people contributed within 6 months). Culture shift: "Documentation is legitimate work."
 
-Lessons learned: The monetary reward mattered less than the public recognition. Points were just a way to track and celebrate.
+Lessons learned - The monetary reward mattered less than the public recognition. Points were just a way to track and celebrate.
 
-Example 2: Leveled Recognition (Growing Team)
+Example 2 - Leveled Recognition (Growing Team)
 
 Setup for 25-person engineering team:
 - Bronze level: 5 articles per quarter → mentioned in monthly all-hands
 - Silver level: 12 articles per quarter → "Documentation Champion" badge + gift card
 - Gold level: 20+ articles per quarter → public recognition, team lunch celebration
 
-Why leveling worked: Created achievement tiers. Bronze was accessible (1-2 articles/month for 10% of team). Gold was aspirational but achievable. Silver was the sweet spot.
+Why leveling worked - Created achievement tiers. Bronze was accessible (1-2 articles/month for 10% of team). Gold was aspirational but achievable. Silver was the sweet spot.
 
-Results: First quarter had 8 Bronze, 3 Silver, 1 Gold. By month 6: 12 Bronze, 8 Silver, 4 Gold (contributors tripled). Culture changed from "optional" to "expected."
+Results - First quarter had 8 Bronze, 3 Silver, 1 Gold. By month 6: 12 Bronze, 8 Silver, 4 Gold (contributors tripled). Culture changed from "optional" to "expected."
 
-Example 3: Elimination of Points (Mature Team)
+Example 3 - Elimination of Points (Mature Team)
 
 Setup for 50-person organization:
 - No points or leaderboards
@@ -292,9 +292,9 @@ Setup for 50-person organization:
 - Tie to performance: Documentation contributions count toward performance review under "Knowledge Sharing"
 - Incentive: Knowledge contributions = promotion criteria for staff engineer level
 
-Results: Most healthy program they saw. Contributions are consistent (20+ articles/month). Quality is high. Participation is broad. No resentment or gaming.
+Results - Most healthy program they saw. Contributions are consistent (20+ articles/month). Quality is high. Participation is broad. No resentment or gaming.
 
-Lessons: For mature teams with intrinsic motivation, remove external rewards and tie to career progression instead.
+Lessons - For mature teams with intrinsic motivation, remove external rewards and tie to career progression instead.
 
 Addressing Common Objections
 
@@ -314,7 +314,7 @@ You don't need monetary rewards:
 - Career benefit (counts toward performance review)
 - Team celebration (monthly winner gets to pick team lunch)
 
-The psychology: Recognition in public > small monetary reward.
+The psychology - Recognition in public > small monetary reward.
 
 "People will create bad documentation just for points."
 
@@ -335,11 +335,11 @@ Preventing Program Fatigue
 
 Incentive programs can lose effectiveness over time:
 
-Month 1-3: High novelty, high engagement
+Month 1-3 - High novelty, high engagement
 
-Month 4-6: Novelty wears off, but engagement still good if program is working
+Month 4-6 - Novelty wears off, but engagement still good if program is working
 
-Month 9+: Risk of burnout or gaming
+Month 9+ - Risk of burnout or gaming
 
 Prevention:
 - Rotate the recognition method (points → public recognition → learning time)
@@ -351,15 +351,15 @@ Team Maturity and Program Design
 
 Your program should match your team's maturity:
 
-Early stage (startup): Light program. Verbal recognition works. Focus on normalizing documentation, not gamifying it.
+Early stage (startup) - Light program. Verbal recognition works. Focus on normalizing documentation, not gamifying it.
 
-Growing stage (20-50 people): Start structured incentives. Points + recognition. Integrate into performance reviews.
+Growing stage (20-50 people) - Start structured incentives. Points + recognition. Integrate into performance reviews.
 
-Mature stage (50+ people): Tie to career progression. Points unnecessary. Documentation is just "how we work."
+Mature stage (50+ people) - Tie to career progression. Points unnecessary. Documentation is just "how we work."
 
 Shift your program as you grow rather than keeping it static. What works for 10 people overwhelms 50.
 
-Measuring Program Impact: Beyond Metrics
+Measuring Program Impact - Beyond Metrics
 
 Track these quantitative metrics:
 

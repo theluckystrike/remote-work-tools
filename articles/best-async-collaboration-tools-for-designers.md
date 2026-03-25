@@ -20,9 +20,9 @@ Design collaboration in remote teams breaks down at two specific points: feedbac
 Table of Contents
 
 - [The Two Failure Modes](#the-two-failure-modes)
-- [Tool 1: Figma for Async Design Review](#tool-1-figma-for-async-design-review)
-- [Tool 2: Loom for Design Walkthroughs](#tool-2-loom-for-design-walkthroughs)
-- [Tool 3: Notion for Design Documentation](#tool-3-notion-for-design-documentation)
+- [Tool 1 - Figma for Async Design Review](#tool-1-figma-for-async-design-review)
+- [Tool 2 - Loom for Design Walkthroughs](#tool-2-loom-for-design-walkthroughs)
+- [Tool 3 - Notion for Design Documentation](#tool-3-notion-for-design-documentation)
 - [Problem Statement](#problem-statement)
 - [Success Metrics](#success-metrics)
 - [Constraints](#constraints)
@@ -30,9 +30,9 @@ Table of Contents
 - [Links](#links)
 - [States](#states)
 - [Usage Guidelines](#usage-guidelines)
-- [Figma source: [link]](#figma-source-link)
-- [Storybook: [link]](#storybook-link)
-- [Related decisions: [ADR link]](#related-decisions-adr-link)
+- [Figma source - [link]](#figma-source-link)
+- [Storybook - [link]](#storybook-link)
+- [Related decisions - [ADR link]](#related-decisions-adr-link)
 - [Developer Handoff Without a Handoff Meeting](#developer-handoff-without-a-handoff-meeting)
 - [Handoff Checklist for [Feature]](#handoff-checklist-for-feature)
 - [Additional Tools Worth Evaluating](#additional-tools-worth-evaluating)
@@ -43,15 +43,15 @@ Table of Contents
 
 The Two Failure Modes
 
-Failure mode 1: The feedback pile-up
+Failure mode 1 - The feedback pile-up
 Designer shares a Figma link. Stakeholders leave 47 comments over 3 days, many contradicting each other, some from people without context, none prioritized. Designer spends a day parsing comments and asking follow-up questions.
 
-Failure mode 2: The handoff gap
+Failure mode 2 - The handoff gap
 Designer marks a frame "ready for dev." Developer builds something different because they missed 3 annotations, used wrong spacing tokens, or couldn't find the interactive states.
 
 Async tools solve these by adding structure and single-source-of-truth.
 
-Tool 1: Figma for Async Design Review
+Tool 1 - Figma for Async Design Review
 
 Figma is the default design tool. Its async collaboration features are often underused.
 
@@ -61,9 +61,9 @@ Create a FigJam template for design feedback:
 
 ```
 Design Review Request
-Project: [name]
-Designer: @name
-Review deadline: [date]
+Project - [name]
+Designer - @name
+Review deadline - [date]
 
 What I need feedback on:
  Overall direction
@@ -78,8 +78,8 @@ Questions I want answered:
 1. [specific question]
 2. [specific question]
 
-Please: add comments in Figma on the [Frame Name] frame.
-Deadline for feedback: [date]
+Please - add comments in Figma on the [Frame Name] frame.
+Deadline for feedback - [date]
 ```
 
 Structured commenting in Figma:
@@ -101,13 +101,13 @@ Reviewers use the prefix when commenting:
 [APPROVED] Hero section looks great
 ```
 
-Designer processes: BLOCK first, then Q, then SUGGEST. APPROVED items are done.
+Designer processes - BLOCK first, then Q, then SUGGEST. APPROVED items are done.
 
 Figma branch for version control:
 
 ```
-Main: approved design (production source of truth)
-Branch: [feature-name]-v2 (current iteration)
+Main - approved design (production source of truth)
+Branch - [feature-name]-v2 (current iteration)
 
 Workflow:
 1. Designer creates a branch for new work
@@ -116,7 +116,7 @@ Workflow:
 4. Developers always reference main, never branches
 ```
 
-Tool 2: Loom for Design Walkthroughs
+Tool 2 - Loom for Design Walkthroughs
 
 For complex interactions or context that's hard to convey with static comments, Loom video walkthroughs are faster than written explanations.
 
@@ -148,18 +148,18 @@ Design Reviews/
     ...
 ```
 
-Tool 3: Notion for Design Documentation
+Tool 3 - Notion for Design Documentation
 
 Notion is the right place for decisions and context that outlive a single design iteration.
 
 Design brief template:
 
 ```markdown
-Design Brief: [Feature Name]
+Design Brief - [Feature Name]
 
-Project: [name]
-Designer: @name
-Status: Discovery | Design | Review | Approved | Development
+Project - [name]
+Designer - @name
+Status - Discovery | Design | Review | Approved | Development
 
 Problem Statement
 [What user problem are we solving? 2-3 sentences]
@@ -186,7 +186,7 @@ Links
 Component documentation in Notion:
 
 ```markdown
-Component: Notification Toast
+Component - Notification Toast
 
 States
 - Success, Error, Warning, Info
@@ -199,15 +199,15 @@ Usage Guidelines
  Do NOT use for global system errors (use full-page error state)
  Do NOT stack more than 3 toasts at once
 
-Figma source: [link]
-Storybook: [link]
+Figma source - [link]
+Storybook - [link]
 
-Related decisions: [ADR link]
+Related decisions - [ADR link]
 ```
 
 Developer Handoff Without a Handoff Meeting
 
-The goal: developer opens Figma and has everything they need without asking the designer.
+The goal - developer opens Figma and has everything they need without asking the designer.
 
 Figma Dev Mode setup:
 
@@ -303,21 +303,21 @@ Setting Up the Full Async Design Workflow
 
 Common Async Design Failures and Fixes
 
-Problem: Feedback arrives after the deadline and blocks the designer.
+Problem - Feedback arrives after the deadline and blocks the designer.
 
-Fix: Set a hard close date on the review request and state explicitly that feedback received after the deadline will be deferred to the next iteration. Use the FigJam template to show the deadline prominently. Late stakeholders learn quickly when their feedback gets deferred once.
+Fix - Set a hard close date on the review request and state explicitly that feedback received after the deadline will be deferred to the next iteration. Use the FigJam template to show the deadline prominently. Late stakeholders learn quickly when their feedback gets deferred once.
 
-Problem: Developers ask the same questions that were already documented.
+Problem - Developers ask the same questions that were already documented.
 
-Fix: The handoff checklist is not enough on its own. Add a "Questions answered here" sticky note directly in the Figma frame that links to the Notion brief and lists the top 3 questions developers have asked previously. This reduces repeat questions by giving developers a fast path to the context they need.
+Fix - The handoff checklist is not enough on its own. Add a "Questions answered here" sticky note directly in the Figma frame that links to the Notion brief and lists the top 3 questions developers have asked previously. This reduces repeat questions by giving developers a fast path to the context they need.
 
-Problem: Comment threads in Figma become arguments.
+Problem - Comment threads in Figma become arguments.
 
-Fix: Designate one person as the comment resolver. typically the designer or design lead. Only that person marks comments as resolved. Comments are not resolved by discussion; they are resolved when the design change is made or the decision is logged in Notion. This stops comment threads from being used as decision-making forums.
+Fix - Designate one person as the comment resolver. typically the designer or design lead. Only that person marks comments as resolved. Comments are not resolved by discussion; they are resolved when the design change is made or the decision is logged in Notion. This stops comment threads from being used as decision-making forums.
 
-Problem: The design system gets out of sync with what is actually shipped.
+Problem - The design system gets out of sync with what is actually shipped.
 
-Fix: After each implementation review, the designer checks whether any deviations from the design became intentional changes. If yes, update the Figma main branch to match. Treat the shipped product as the source of truth for what the design system should reflect. not the reverse. A quarterly audit of Figma main against production screens catches drift before it compounds.
+Fix - After each implementation review, the designer checks whether any deviations from the design became intentional changes. If yes, update the Figma main branch to match. Treat the shipped product as the source of truth for what the design system should reflect. not the reverse. A quarterly audit of Figma main against production screens catches drift before it compounds.
 
 Related Reading
 

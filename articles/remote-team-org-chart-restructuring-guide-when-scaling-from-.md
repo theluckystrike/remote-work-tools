@@ -33,7 +33,7 @@ The Transition Framework
 
 Rather than wholesale restructuring, implement changes in phases. Here's a practical approach:
 
-Phase 1: Map Your Current State
+Phase 1 - Map Your Current State
 
 Before changing anything, document your existing informal structure. Use a simple JSON format to capture reporting relationships and domain ownership:
 
@@ -54,7 +54,7 @@ Before changing anything, document your existing informal structure. Use a simpl
 
 This baseline document becomes your reference point for measuring whether restructuring actually improves coordination.
 
-Phase 2: Define Layer Boundaries
+Phase 2 - Define Layer Boundaries
 
 The critical question in layered management: how many layers? For remote engineering organizations, three layers typically work best:
 
@@ -64,7 +64,7 @@ The critical question in layered management: how many layers? For remote enginee
 
 Avoid creating intermediate "lead" titles that blur accountability. Each person should have exactly one manager.
 
-Phase 3: Assign People to Layers
+Phase 3 - Assign People to Layers
 
 Use this decision matrix for placement:
 
@@ -79,7 +79,7 @@ Some your strongest ICs will choose not to manage. Respect that choice, forcing 
 
 Practical Implementation Steps
 
-Step 1: Announce the Change Transparently
+Step 1 - Announce the Change Transparently
 
 Remote teams need explicit communication. Write a brief document explaining:
 
@@ -91,7 +91,7 @@ Remote teams need explicit communication. Write a brief document explaining:
 ```markdown
 Org Chart Update - Effective April 1
 
-Why: Our team has grown to 22 people. Direct coordination no longer scales.
+Why - Our team has grown to 22 people. Direct coordination no longer scales.
 
 What's changing:
 - Sarah becomes Engineering Lead, reporting to Director
@@ -101,7 +101,7 @@ What's changing:
 Questions? Reply in this thread or schedule 1:1 with your manager.
 ```
 
-Step 2: Update Tooling Immediately
+Step 2 - Update Tooling Immediately
 
 Your org chart lives in your tools. Update them before people start asking questions:
 
@@ -110,7 +110,7 @@ Your org chart lives in your tools. Update them before people start asking quest
 - Project management, reassign ownership of key projects
 - Documentation, revise your team directory
 
-Step 3: Establish New Communication Patterns
+Step 3 - Establish New Communication Patterns
 
 Layered management changes how information flows. Define explicit channels:
 
@@ -192,7 +192,7 @@ Table of Contents
 
 Real-World Org Chart Examples by Team Size
 
-At 10-15 People: Still Flat
+At 10-15 People - Still Flat
 ```
 Engineering Manager
  Senior Engineer (mentors 2-3)
@@ -205,7 +205,7 @@ Engineering Manager
 
 No formal layers. The manager handles hiring, performance, and strategic decisions. Senior engineers provide technical guidance informally. Coordination happens in daily standups.
 
-At 20-25 People: Introducing Tech Leads
+At 20-25 People - Introducing Tech Leads
 ```
 Engineering Manager
  Backend Tech Lead
@@ -222,7 +222,7 @@ Engineering Manager
 
 Tech leads emerge from the strongest individual contributors. They own delivery for their area but don't manage performance reviews. The manager still owns all HR functions. This prevents the "accidental manager" problem where your best engineer becomes a mediocre manager.
 
-At 30-40 People: Full Management Layers
+At 30-40 People - Full Management Layers
 ```
 Engineering Director
  Backend Engineering Manager
@@ -276,13 +276,13 @@ Tools for Managing Org Structure Changes
 
 Several systems keep your growing team coordinated through restructuring:
 
-HRIS Systems (BambooHR, Rippling, Guidepoint): Record the single source of truth for reporting relationships. When org structure changes, update here first, then cascade to other systems. Cost: $4-8/employee/month. Worth it once you hit 20 people.
+HRIS Systems (BambooHR, Rippling, Guidepoint): Record the single source of truth for reporting relationships. When org structure changes, update here first, then cascade to other systems. Cost - $4-8/employee/month. Worth it once you hit 20 people.
 
 Team Directory Tools (Slite, Notion, Teleport): Public-facing org chart that shows who reports to whom, time zones, and contact info. Update automatically from HRIS via API if possible. Prevents people asking "wait, does Sarah report to Alex or Mark?"
 
 Project Management Tools (Linear, Asana, Jira): Configure project access to match new reporting lines. If the Backend team owns the payment service, only Backend team members should have edit access by default.
 
-Slack Configuration: Create channels that mirror org structure. This is free and scalable. Use Slack's permission model to control who can create channels under the team namespace.
+Slack Configuration - Create channels that mirror org structure. This is free and scalable. Use Slack's permission model to control who can create channels under the team namespace.
 
 Managing the Politics of Restructuring
 
@@ -353,17 +353,17 @@ One often-overlooked aspect of remote org structure: geographic distribution.
 
 If your tech leads are in three different time zones, you've created a fragmented team. Consider these alternatives:
 
-Option 1: Co-locate teams by timezone first
+Option 1 - Co-locate teams by timezone first
 - Americas team (leads: UTC-8 to UTC-5)
 - Europe team (leads: UTC+0 to UTC+2)
 - Asia-Pacific team (leads: UTC+5 to UTC+9)
 
 Then, overlay functional leadership. This ensures each team has local leadership during their working hours.
 
-Option 2: Accept async decision-making
+Option 2 - Accept async decision-making
 If you can't co-locate, design for async. Tech leads are responsible for decisions in their time zone without waiting for consensus from other leads. Clear decision authority prevents the "waiting for everyone to be online" syndrome.
 
-Option 3: Pair leads across time zones
+Option 3 - Pair leads across time zones
 Each team has a co-lead. When one is offline, the other handles decisions. Requires trust and excellent documentation, but scales to multiple time zones.
 
 Most distributed teams fail at scale because they didn't intentionally design for distribution. The default assumption, "we'll just synchronize everyone daily", breaks as you grow.

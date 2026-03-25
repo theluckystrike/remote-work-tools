@@ -27,7 +27,7 @@ When evaluating grading tools for large-scale remote education, focus on these t
 - Integration Points: Connect with learning management systems (LMS), version control, and automation pipelines
 - Scalability: Handle peak loads during assignment deadlines without performance degradation
 
-Approach 1: Learning Management System Native Tools
+Approach 1 - Learning Management System Native Tools
 
 Most institutions use LMS platforms with built-in grading functionality. Canvas, Moodle, and Blackboard offer REST APIs that enable programmatic access to submissions.
 
@@ -69,7 +69,7 @@ def bulk_grade_submissions(course_id, assignment_id, grades_dict):
 
 This approach works well if your institution already uses Canvas. The API rate limits (typically 100 requests per minute for unauthenticated requests) require implementing request throttling for large classes.
 
-Approach 2: Dedicated Grading Platforms with API Access
+Approach 2 - Dedicated Grading Platforms with API Access
 
 Platforms like Gradescope, Turnitin, and Crowdmark provide specialized grading interfaces with API access. Gradescope notably offers an API that supports automated rubric application and bulk feedback.
 
@@ -128,7 +128,7 @@ def auto_grade_code_submission(submission):
     return score, feedback
 ```
 
-Approach 3: Custom Pipeline with Version Control Integration
+Approach 3 - Custom Pipeline with Version Control Integration
 
 For technical courses, integrating with version control systems like GitHub provides powerful assessment capabilities. Students submit code via Git, and you build automated grading pipelines.
 
@@ -196,7 +196,7 @@ def post_grade_to_lms(student_id, assignment_id, score, feedback, lms_config):
     pass
 ```
 
-Approach 4: Hybrid Workflow with Asynchronous Feedback
+Approach 4 - Hybrid Workflow with Asynchronous Feedback
 
 Combining automated scoring with structured peer review creates efficient workflows for large classes. Tools like Peergrade.io integrate with major LMS platforms.
 

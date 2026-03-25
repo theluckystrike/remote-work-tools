@@ -20,26 +20,26 @@ Use Loom for async-first 1:1s across multiple time zones with automatic transcri
 Table of Contents
 
 - [What Engineering Managers Actually Need from 1:1 Tools](#what-engineering-managers-actually-need-from-11-tools)
-- [Zoom: The Enterprise Standard](#zoom-the-enterprise-standard)
+- [Zoom - The Enterprise Standard](#zoom-the-enterprise-standard)
 - [This Week's Topics](#this-weeks-topics)
 - [Action Items](#action-items)
 - [Notes](#notes)
-- [Google Meet: Integration Advantage](#google-meet-integration-advantage)
-- [Slack Huddles: Asynchronous-First Alternative](#slack-huddles-asynchronous-first-alternative)
-- [Notion: The Note-Taking Foundation](#notion-the-note-taking-foundation)
+- [Google Meet - Integration Advantage](#google-meet-integration-advantage)
+- [Slack Huddles - Asynchronous-First Alternative](#slack-huddles-asynchronous-first-alternative)
+- [Notion - The Note-Taking Foundation](#notion-the-note-taking-foundation)
 - [Pre-Meeting Prep (Manager)](#pre-meeting-prep-manager)
 - [Pre-Meeting Prep (Employee)](#pre-meeting-prep-employee)
 - [Meeting Notes](#meeting-notes)
 - [Action Items](#action-items)
 - [Follow-Up](#follow-up)
-- [Code Review Integration: The Engineering Manager Advantage](#code-review-integration-the-engineering-manager-advantage)
+- [Code Review Integration - The Engineering Manager Advantage](#code-review-integration-the-engineering-manager-advantage)
 - [This Week's Technical Focus](#this-weeks-technical-focus)
 - [Notes from Code Review](#notes-from-code-review)
 - [Choosing the Right Tool for Your Team](#choosing-the-right-tool-for-your-team)
 - [Implementation Recommendations](#implementation-recommendations)
 - [Advanced 1:1 Workflow for Engineering Teams](#advanced-11-workflow-for-engineering-teams)
 - [Handling Different Communication Styles in 1:1s](#handling-different-communication-styles-in-11s)
-- [Managing Growing Teams: 1:1 Scaling](#managing-growing-teams-11-scaling)
+- [Managing Growing Teams - 1:1 Scaling](#managing-growing-teams-11-scaling)
 - [Post-1:1 Action Item Tracking](#post-11-action-item-tracking)
 - [@engineer-name](#engineer-name)
 - [Measuring 1:1 Effectiveness](#measuring-11-effectiveness)
@@ -55,7 +55,7 @@ Before examining specific tools, consider what makes one-on-ones effective for e
 
 The best one on one meeting tool for remote engineering managers addresses these core needs while fitting into your existing workflow without adding friction.
 
-Zoom: The Enterprise Standard
+Zoom - The Enterprise Standard
 
 Zoom remains the default choice for many engineering organizations. Its reliability is proven at scale, and most developers already have accounts.
 
@@ -87,7 +87,7 @@ Notes
 
 Zoom's pricing is straightforward. The free tier handles basic 1:1s, while paid plans add transcription and longer meeting durations. The main drawback: Zoom is video-first, not purpose-built for one-on-ones, so you need to bring your own structure and note-taking system.
 
-Google Meet: Integration Advantage
+Google Meet - Integration Advantage
 
 If your engineering team lives in Google Workspace, Meet offers tight integration with Calendar, Drive, and Docs. The advantage is unified context: your 1:1 notes can live in the same Google Doc as your project documentation.
 
@@ -104,7 +104,7 @@ Setting up recurring 1:1s with Google Calendar creates automatic Meet links:
 // Google Calendar API - Create recurring 1:1
 const event = {
   summary: '1:1 with [Engineer Name]',
-  description: 'Weekly sync. Agenda: https://docs.google.com/document/d/EXAMPLE',
+  description: 'Weekly sync. Agenda - https://docs.google.com/document/d/EXAMPLE',
   start: { dateTime: '2026-03-16T10:00:00', timeZone: 'America/Los_Angeles' },
   end: { dateTime: '2026-03-16T10:30:00', timeZone: 'America/Los_Angeles' },
   recurrence: ['RRULE:FREQ=WEEKLY;BYDAY=MO'],
@@ -114,7 +114,7 @@ const event = {
 
 The limitation with Meet is that advanced features like recording transcriptions require Google Workspace Business or higher.
 
-Slack Huddles: Asynchronous-First Alternative
+Slack Huddles - Asynchronous-First Alternative
 
 For teams that prioritize async communication, Slack Huddles offer a low-friction way to have quick voice conversations without scheduling formal meetings. This works well for engineering managers who want informal check-ins between formal 1:1s.
 
@@ -125,9 +125,9 @@ Key features:
 - Threaded follow-up - decisions made in huddles can be documented in threads
 - Integrated with workflow - happens where your team already communicates
 
-A practical workflow: use Huddles for ad-hoc technical discussions, but keep formal 1:1s in Zoom or Meet for career conversations that benefit from dedicated time and note-taking.
+A practical workflow - use Huddles for ad-hoc technical discussions, but keep formal 1:1s in Zoom or Meet for career conversations that benefit from dedicated time and note-taking.
 
-Notion: The Note-Taking Foundation
+Notion - The Note-Taking Foundation
 
 Regardless of which video tool you choose, structured note-taking transforms 1:1s from conversations into tracked progress. Notion provides templates specifically designed for engineering manager 1:1s.
 
@@ -170,7 +170,7 @@ Follow-Up
 
 This template lives in Notion, while the actual meeting happens in your video tool of choice.
 
-Code Review Integration: The Engineering Manager Advantage
+Code Review Integration - The Engineering Manager Advantage
 
 What separates good 1:1s from great ones for engineering teams is connecting conversations to actual technical work. Integrating your 1:1 notes with code review workflows creates a feedback loop that accelerates growth.
 
@@ -183,7 +183,7 @@ This Week's Technical Focus
 
 Notes from Code Review
 Discussed the tradeoffs between Option A and Option B for the new API design.
-Decision: Proceed with Option A for faster iteration, revisit in Q3.
+Decision - Proceed with Option A for faster iteration, revisit in Q3.
 ```
 
 This approach makes 1:1s actionable rather than abstract.
@@ -222,9 +222,9 @@ Using Loom for Async-First Teams ($13/month Pro): Engineers can record async vid
  Your Feedback on Week 1.mp4
 ```
 
-Using GitHub + Notion Integration: For developer-heavy teams, maintain a Notion database where each 1:1 is a row with properties: Engineer Name, Date, Key Topics, Action Items, Next Steps. Add a property linking to the GitHub issue or PR you discussed. This keeps 1:1s grounded in actual code.
+Using GitHub + Notion Integration - For developer-heavy teams, maintain a Notion database where each 1:1 is a row with properties: Engineer Name, Date, Key Topics, Action Items, Next Steps. Add a property linking to the GitHub issue or PR you discussed. This keeps 1:1s grounded in actual code.
 
-Using Slack Reminders: Automation can ensure 1:1s happen consistently:
+Using Slack Reminders - Automation can ensure 1:1s happen consistently:
 
 ```javascript
 // Slack workflow that reminds you to schedule 1:1s
@@ -242,25 +242,25 @@ Handling Different Communication Styles in 1:1s
 
 Engineering teams include introverts, extroverts, and remote workers from different cultures. Adapt your 1:1 approach:
 
-For Introverts: Send agenda 24 hours in advance. Allow async Q&A where they can email follow-ups. Keep video off if they prefer (voice call works fine). Record the meeting for their reference.
+For Introverts - Send agenda 24 hours in advance. Allow async Q&A where they can email follow-ups. Keep video off if they prefer (voice call works fine). Record the meeting for their reference.
 
-For Extroverts: Create space for tangential conversation. These people need the relational aspect. 45-minute slots work better than tight 30-minute blocks. Ask open-ended questions.
+For Extroverts - Create space for tangential conversation. These people need the relational aspect. 45-minute slots work better than tight 30-minute blocks. Ask open-ended questions.
 
-For Non-Native English Speakers: Slow down. Summarize decisions verbally and follow up in writing. Check for understanding explicitly ("Does this make sense? Please write down what you understood.").
+For Non-Native English Speakers - Slow down. Summarize decisions verbally and follow up in writing. Check for understanding explicitly ("Does this make sense? Please write down what you understood.").
 
-For Async-First Team Members: Do a real 1:1 (synchronous) once monthly, supplement with async video check-ins weekly. This honors their work style while maintaining relationship.
+For Async-First Team Members - Do a real 1:1 (synchronous) once monthly, supplement with async video check-ins weekly. This honors their work style while maintaining relationship.
 
-Managing Growing Teams: 1:1 Scaling
+Managing Growing Teams - 1:1 Scaling
 
 As your team grows beyond 6-8 engineers, managing 1:1s becomes time-consuming (6 people = 3+ hours weekly minimum).
 
-Split responsibility: Delegate 1:1s to senior engineers or tech leads for their direct reports. You maintain 1:1s with people in leadership conversations.
+Split responsibility - Delegate 1:1s to senior engineers or tech leads for their direct reports. You maintain 1:1s with people in leadership conversations.
 
 Try skip-level 1:1s: Meet with individual contributors quarterly instead of monthly. Their direct managers do monthly. This surfaces information gaps without requiring excessive time.
 
 Use peer feedback in 1:1s: Gather input from their collaborators. Ask "How are they doing from your perspective?" in your meetings. This creates multi-perspective development conversations.
 
-Batch scheduling: Schedule all your 1:1s on two days. Tuesday 10am-12pm and Thursday 2pm-4pm. This prevents them from fragmenting your entire week.
+Batch scheduling - Schedule all your 1:1s on two days. Tuesday 10am-12pm and Thursday 2pm-4pm. This prevents them from fragmenting your entire week.
 
 Post-1:1 Action Item Tracking
 
@@ -284,39 +284,39 @@ Measuring 1:1 Effectiveness
 Track these metrics quarterly:
 
 - Action item completion rate: What % of action items from 1:1s actually complete?
-- Velocity: Are engineers shipping at expected levels? Do 1:1s surface blockers early?
-- Retention: Are people staying? Good 1:1s improve retention significantly.
-- Satisfaction: Include "1:1 quality" question in team survey. Direct feedback often reveals if the 1:1 format is working.
+- Velocity - Are engineers shipping at expected levels? Do 1:1s surface blockers early?
+- Retention - Are people staying? Good 1:1s improve retention significantly.
+- Satisfaction - Include "1:1 quality" question in team survey. Direct feedback often reveals if the 1:1 format is working.
 - Growth velocity: Are people developing new skills aligned with their career goals?
 
 If metrics decline, your 1:1 practice needs adjustment. It's not the tool, it's the consistency and quality of the conversation.
 
 Common 1:1 Pitfalls and Solutions
 
-Pitfall 1: Status update only meetings
+Pitfall 1 - Status update only meetings
 Engineers spend 30 minutes reporting what they did instead of discussing development. This is a waste of synchronous time.
 
-Solution: Have them send a written status update before the 1:1. Use the meeting for discussion, mentoring, and connection.
+Solution - Have them send a written status update before the 1:1. Use the meeting for discussion, mentoring, and connection.
 
-Pitfall 2: Manager does all the talking
+Pitfall 2 - Manager does all the talking
 You spend the meeting imparting wisdom rather than listening to how your engineer is actually doing.
 
-Solution: Flip the ratio. Aim for 70% engineer talking, 30% you listening and asking questions.
+Solution - Flip the ratio. Aim for 70% engineer talking, 30% you listening and asking questions.
 
-Pitfall 3: No documentation
+Pitfall 3 - No documentation
 You meet, discuss career goals, then 3 months later can't remember what you agreed to.
 
-Solution: Write notes during or immediately after. Include action items with owners and due dates. Share with your report.
+Solution - Write notes during or immediately after. Include action items with owners and due dates. Share with your report.
 
-Pitfall 4: Career conversations only happen at review time
+Pitfall 4 - Career conversations only happen at review time
 Engineers feel surprise during annual reviews because growth conversations were sporadic.
 
-Solution: Structure 1:1s with monthly career discussion. Monthly alternates with weekly project discussions, but every 1:1 touches on growth/development.
+Solution - Structure 1:1s with monthly career discussion. Monthly alternates with weekly project discussions, but every 1:1 touches on growth/development.
 
-Pitfall 5: Same time every week, always gets canceled
+Pitfall 5 - Same time every week, always gets canceled
 Inconsistent 1:1s signal that the relationship isn't a priority.
 
-Solution: Calendar-block 1:1s as non-negotiable. If you must reschedule, do it within 1-2 days. Missing 1:1s damages trust.
+Solution - Calendar-block 1:1s as non-negotiable. If you must reschedule, do it within 1-2 days. Missing 1:1s damages trust.
 
 Different Engineering Roles Require Different 1:1 Structures
 
@@ -350,13 +350,13 @@ Technical Discussions in 1:1s
 
 Use 1:1s to examine technical topics that don't fit in regular meetings:
 
-Code review deep detailed looks: Pick a PR they're working on. Discuss tradeoffs, alternative approaches, testing strategy. This teaches critical thinking.
+Code review deep detailed looks - Pick a PR they're working on. Discuss tradeoffs, alternative approaches, testing strategy. This teaches critical thinking.
 
 Architecture decision discussions: Before they propose something major, sketch it out in your 1:1. Get early feedback and avoid wasted work.
 
-Learning goals: "I want to understand Kubernetes better." In your 1:1, discuss a learning path. Assign a concrete exercise. Follow up next week.
+Learning goals - "I want to understand Kubernetes better." In your 1:1, discuss a learning path. Assign a concrete exercise. Follow up next week.
 
-Debugging difficult issues: Sometimes engineers get stuck and need a sounding board. Use 1:1s to think through problems together.
+Debugging difficult issues - Sometimes engineers get stuck and need a sounding board. Use 1:1s to think through problems together.
 
 These technical discussions make 1:1s valuable for both parties and demonstrate investment in their development.
 
@@ -364,11 +364,11 @@ Handling Difficult Conversations in 1:1s
 
 1:1s are also where tough conversations happen:
 
-Performance issues: "Your code review turnaround is 5 days; team average is 1 day. What's happening?"
+Performance issues - "Your code review turnaround is 5 days; team average is 1 day. What's happening?"
 
-Interpersonal problems: "I've heard from multiple people that you can be dismissive in meetings. I want to help you improve this."
+Interpersonal problems - "I've heard from multiple people that you can be dismissive in meetings. I want to help you improve this."
 
-Career pivot: "You seem less excited about backend work. Have you considered focusing on frontend?"
+Career pivot - "You seem less excited about backend work. Have you considered focusing on frontend?"
 
 Difficult conversations are best held 1:1, not in group settings. They're confidential and allow genuine dialogue.
 
@@ -379,7 +379,7 @@ Structure for difficult conversations:
 4. Collaboratively develop a solution
 5. Agree on follow-up and timeline
 
-End with: "I'm bringing this up because I want you to succeed. Let's work on this together."
+End with - "I'm bringing this up because I want you to succeed. Let's work on this together."
 
 This tone makes difficult conversations into development opportunities rather than reprimands.
 
@@ -416,7 +416,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -428,7 +428,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

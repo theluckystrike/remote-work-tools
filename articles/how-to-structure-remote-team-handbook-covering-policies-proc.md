@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Core Handbook Structure
+Step 1 - Core Handbook Structure
 
 The most effective handbooks follow a modular architecture. Instead of one massive document, structure your handbook as a collection of interlinked pages:
 
@@ -56,14 +56,14 @@ handbook/
 
 This structure allows teams to link directly to specific sections rather than pointing people to a 50-page document no one will read.
 
-Step 2: Essential Policy Sections
+Step 2 - Essential Policy Sections
 
 Communication Policy
 
 Your communication policy should define when to use which channel. A practical framework uses response time expectations:
 
 ```markdown
-Step 3: Communication Channels
+Step 3 - Communication Channels
 
 | Channel    | Response Time | Use Case                    |
 |------------|---------------|-----------------------------|
@@ -77,7 +77,7 @@ Step 3: Communication Channels
 For developers, add a section on code-related communication:
 
 ```markdown
-Step 4: Code Discussion Protocol
+Step 4 - Code Discussion Protocol
 
 1. Questions about implementation → GitHub/PR comments
 2. Architectural decisions → RFC document in `/docs/rfcs`
@@ -98,7 +98,7 @@ Device Requirements
 - MFA: Hardware key (YubiKey) or TOTP app
 - VPN: Required for accessing internal services
 
-Step 5: Network Guidelines
+Step 5 - Network Guidelines
 
 - Avoid public WiFi for sensitive work
 - Use personal hotspot or Tailscale for secure access
@@ -110,13 +110,13 @@ Time Tracking and Availability
 Remote work requires explicit clarity about when people are expected to be available:
 
 ```markdown
-Step 6: Core Hours
+Step 6 - Core Hours
 
-Team-wide overlap: 10:00-14:00 UTC
+Team-wide overlap - 10:00-14:00 UTC
 
 Individual schedules are flexible outside core hours. Update your Slack status to reflect your availability.
 
-Step 7: Time Tracking
+Step 7 - Time Tracking
 
 Log hours daily using the company time tracking tool. Include:
 - Project code
@@ -125,21 +125,21 @@ Log hours daily using the company time tracking tool. Include:
 
 Example entry:
 ```
-Project: PLAT-123
-Task: Implement user dashboard API
-Hours: 4.5
-Notes: Completed endpoint, started tests
+Project - PLAT-123
+Task - Implement user dashboard API
+Hours - 4.5
+Notes - Completed endpoint, started tests
 ```
 ```
 
-Step 8: Process Documentation
+Step 8 - Process Documentation
 
 Onboarding Process
 
 A strong onboarding process reduces time-to-productivity and prevents early burnout:
 
 ```markdown
-Step 9: Week 1 Checklist
+Step 9 - Week 1 Checklist
 
 Day 1
 - [ ] Set up email and Slack access
@@ -159,7 +159,7 @@ Day 4-5
 - [ ] Complete compliance training
 - [ ] Set up benefits and payroll
 
-Step 10: Access Provisioning Script
+Step 10 - Access Provisioning Script
 
 IT uses this automation for new team member setup:
 
@@ -191,7 +191,7 @@ Incident Response Process
 For technical teams, incident response documentation is critical:
 
 ```markdown
-Step 11: Incident Severity Levels
+Step 11 - Incident Severity Levels
 
 | Severity | Response Time | Example                          |
 |----------|---------------|----------------------------------|
@@ -200,13 +200,13 @@ Step 11: Incident Severity Levels
 | SEV3     | 4 hours       | Minor feature degraded           |
 | SEV4     | Next business | Non-critical issue               |
 
-Step 12: On-Call Rotation
+Step 12 - On-Call Rotation
 
 - Primary on-call: First responder
 - Secondary on-call: Backup if primary unavailable
-- Rotation: Weekly, follows oncall.md in operations repo
+- Rotation - Weekly, follows oncall.md in operations repo
 
-Step 13: Post-Incident Review
+Step 13 - Post-Incident Review
 
 After any SEV1 or SEV2 incident:
 1. Document timeline within 24 hours
@@ -215,14 +215,14 @@ After any SEV1 or SEV2 incident:
 4. Track action items in issue tracker
 ```
 
-Step 14: Culture Section
+Step 14 - Culture Section
 
 Values and Principles
 
 Remote culture requires explicit articulation of values that might be implicit in office settings:
 
 ```markdown
-Step 15: Our Core Values
+Step 15 - Our Core Values
 
 Asynchronous First
 We default to async communication. Meetings are for discussion, not status updates. If it can be a document, make it a document.
@@ -242,7 +242,7 @@ Meeting Guidelines
 Meetings in remote teams need more structure than in-person ones:
 
 ```markdown
-Step 16: Meeting Rules
+Step 16 - Meeting Rules
 
 1. Always have an agenda - Posted in calendar invite at least 24 hours ahead
 2. No optional meetings - If someone's optional, don't invite them
@@ -250,7 +250,7 @@ Step 16: Meeting Rules
 4. Time zone respect - Rotate meeting times to share the burden
 5. No cameras required - Unless it's a social call
 
-Step 17: Meeting Types
+Step 17 - Meeting Types
 
 - Daily standup: 15 min, async via Slack
 - Weekly team sync: 30 min, sync, rotating facilitator
@@ -258,7 +258,7 @@ Step 17: Meeting Types
 - All-hands: Monthly, 60 min, recorded
 ```
 
-Step 18: Implementation Tips
+Step 18 - Implementation Tips
 
 Version Control Your Handbook
 

@@ -36,8 +36,8 @@ Understanding OKRs
 
 OKRs are the gold standard for goal setting in fast-growing companies. They consist of:
 
-- Objectives: Qualitative description of what you want to achieve (e.g., "Improve customer onboarding experience")
-- Key Results: Quantitative measures of success (e.g., "Reduce time-to-first-API-call from 45 minutes to 15 minutes")
+- Objectives - Qualitative description of what you want to achieve (e.g., "Improve customer onboarding experience")
+- Key Results - Quantitative measures of success (e.g., "Reduce time-to-first-API-call from 45 minutes to 15 minutes")
 
 Each key result should be measurable, ambitious yet achievable, and tracked throughout the quarter.
 
@@ -46,17 +46,17 @@ Example OKRs for an engineering team:
 ```
 Q2 2026 OKRs
 
-Objective: Establish platform reliability as a competitive advantage
+Objective - Establish platform reliability as a competitive advantage
   Key Result 1: Reduce API error rate from 0.2% to 0.05%
   Key Result 2: Achieve 99.95% uptime (currently 99.5%)
   Key Result 3: Reduce P1 incident response time to <30 minutes
 
-Objective: Accelerate feature delivery for high-value customers
+Objective - Accelerate feature delivery for high-value customers
   Key Result 1: Ship 3 enterprise-requested features with >10 deployment per week
   Key Result 2: Reduce time-from-approved-PR-to-production from 2 hours to 30 minutes
   Key Result 3: All critical features have performance benchmarks within SLA
 
-Objective: Build sustainable on-call and incident response culture
+Objective - Build sustainable on-call and incident response culture
   Key Result 1: 100% of engineers trained on incident response procedures
   Key Result 2: Reduce MTTR for standard incidents by 40%
   Key Result 3: Establish blameless postmortem process with <48 hour publication
@@ -94,7 +94,7 @@ Setup for distributed teams:
 6. End-of-quarter review with scoring
 ```
 
-Pricing: ~$10-15 per user per month (negotiable for larger teams)
+Pricing - ~$10-15 per user per month (negotiable for larger teams)
 
 15Five
 
@@ -107,7 +107,7 @@ Key differentiators:
 - Company-wide pulse surveys
 - Goals integrated with individual development plans
 
-Good for: Teams that want OKRs plus continuous feedback infrastructure
+Good for - Teams that want OKRs plus continuous feedback infrastructure
 
 Google Sheets + Slack
 
@@ -122,7 +122,7 @@ Google Sheets setup:
 
 Each Friday, automated Slack message:
 "Time for weekly OKR updates!
-Go here: [link] and update progress column"
+Go here - [link] and update progress column"
 
 Simple, free, integrates with existing workflows
 ```
@@ -133,9 +133,9 @@ If your company already uses Ally or similar for feedback, extend it to include 
 
 Implementing OKRs in Your Remote Team
 
-Phase 1: Quarterly Planning (2 weeks before quarter start)
+Phase 1 - Quarterly Planning (2 weeks before quarter start)
 
-Week 1: Create company OKRs
+Week 1 - Create company OKRs
 
 Executive team drafts 3-5 company-level objectives and key results:
 
@@ -149,7 +149,7 @@ Format each objective as:
 
 Document why certain goals were prioritized. Shared understanding of reasoning is crucial.
 
-Week 2: Team alignment
+Week 2 - Team alignment
 
 Each team lead reviews company OKRs and creates team OKRs aligned to at least one company objective:
 
@@ -174,7 +174,7 @@ Phase 1 Output:
 - Each team's OKRs with clear ownership
 - Dependency map showing which team OKRs support company goals
 
-Phase 2: Weekly Progress Tracking
+Phase 2 - Weekly Progress Tracking
 
 Every Friday, team members update progress on their assigned key results:
 
@@ -182,18 +182,18 @@ Every Friday, team members update progress on their assigned key results:
 Google Sheets example:
 
 Team: Engineering
-Date: 2026-03-20
+Date - 2026-03-20
 
-OKR: Reduce API error rate from 0.2% to 0.05%
-Owner: Sarah Chen
-Target: 0.05%
-Current: 0.09%
-Status: On Track
-Progress: 57% complete
-Last week: 0.11%, improved by fixing caching bug in auth service
-This week: Deploying request validation improvements
-Confidence: 80% - on track if current initiatives ship on schedule
-Notes: Waiting on data pipeline team to provide error categorization
+OKR - Reduce API error rate from 0.2% to 0.05%
+Owner - Sarah Chen
+Target - 0.05%
+Current - 0.09%
+Status - On Track
+Progress - 57% complete
+Last week - 0.11%, improved by fixing caching bug in auth service
+This week - Deploying request validation improvements
+Confidence - 80% - on track if current initiatives ship on schedule
+Notes - Waiting on data pipeline team to provide error categorization
 ```
 
 Why weekly updates matter:
@@ -203,13 +203,13 @@ Why weekly updates matter:
 
 Slack automation:
 ```
-Every Friday, 5pm: Post reminder with link to update sheet
-Include: Current progress, on-track or off-track count, blockers
+Every Friday, 5pm - Post reminder with link to update sheet
+Include - Current progress, on-track or off-track count, blockers
 
 Managers review updates and follow up on anything significantly off-track
 ```
 
-Phase 3: Mid-Quarter Check-in (week 6 of quarter)
+Phase 3 - Mid-Quarter Check-in (week 6 of quarter)
 
 Halfway through, pause and assess:
 
@@ -225,7 +225,7 @@ Adjusting goals mid-quarter is healthy. Markets change, surprises happen.
 Update the shared goal document and Slack-announce changes.
 ```
 
-Phase 4: Quarter-End Review
+Phase 4 - Quarter-End Review
 
 Last week of quarter:
 
@@ -240,14 +240,14 @@ Process:
 7. Planning begins for next quarter
 ```
 
-Typical quarter completion rate: 65-75% of key results. This is healthy. If you hit 100%, your goals weren't ambitious enough.
+Typical quarter completion rate - 65-75% of key results. This is healthy. If you hit 100%, your goals weren't ambitious enough.
 
 Distributed Engineering Team OKRs
 
 ```
-Q2 2026: Engineering Team OKRs
+Q2 2026 - Engineering Team OKRs
 
-OBJECTIVE 1: Ship the new real-time collaboration feature
+OBJECTIVE 1 - Ship the new real-time collaboration feature
   KR1: Launch real-time editing to beta with 50+ users
   KR2: <500ms latency for 99th percentile collaborative edits
   KR3: Zero critical bugs in real-time flow by launch
@@ -258,7 +258,7 @@ OBJECTIVE 1: Ship the new real-time collaboration feature
   - Write thorough conflict resolution tests (Dev)
   - Performance profiling and optimization (Sarah)
 
-OBJECTIVE 2: Make onboarding for new developers 50% faster
+OBJECTIVE 2 - Make onboarding for new developers 50% faster
   KR1: Complete onboarding documentation rewrite (coverage >95%)
   KR2: New engineers productive (<5 days to first PR merge)
   KR3: Reduce avg onboarding questions from 23 to 12
@@ -269,7 +269,7 @@ OBJECTIVE 2: Make onboarding for new developers 50% faster
   - Build interactive "first PR" guide (Alex)
   - Schedule monthly "ask me anything" sessions
 
-OBJECTIVE 3: Establish platform as reliable, enterprise-grade
+OBJECTIVE 3 - Establish platform as reliable, enterprise-grade
   KR1: Achieve 99.95% uptime (current: 99.5%)
   KR2: Reduce P1 incident resolution time to <2 hours (current: 5h)
   KR3: Deploy incident response checklist, <3 minute notification-to-response
@@ -283,15 +283,15 @@ OBJECTIVE 3: Establish platform as reliable, enterprise-grade
 
 Common Pitfalls in Remote OKR Management
 
-Too many OKRs: Limit to 3-5 per team. More than that indicates unclear priorities.
+Too many OKRs - Limit to 3-5 per team. More than that indicates unclear priorities.
 
-Vague key results: "Improve performance" isn't measurable. "Reduce p99 latency from 500ms to 200ms" is.
+Vague key results - "Improve performance" isn't measurable. "Reduce p99 latency from 500ms to 200ms" is.
 
-No owner: Every OKR needs a single owner. Shared ownership leads to no one owning the goal.
+No owner - Every OKR needs a single owner. Shared ownership leads to no one owning the goal.
 
-No status updates: OKRs without regular updates disappear. Weekly updates are non-negotiable.
+No status updates - OKRs without regular updates disappear. Weekly updates are non-negotiable.
 
-Overcomplication: Start simple. Spreadsheets work fine, don't buy expensive tools until you have the process down.
+Overcomplication - Start simple. Spreadsheets work fine, don't buy expensive tools until you have the process down.
 
 Goals disconnected from compensation: If people aren't evaluated on OKRs, they won't prioritize them.
 
@@ -303,7 +303,7 @@ In distributed teams, OKRs also drive individual growth:
 Quarterly Review Template:
 
 Name: Jordan
-Role: Senior Backend Engineer
+Role - Senior Backend Engineer
 
 Company Goal Contribution:
 - Which company OKRs did you support?
@@ -330,14 +330,14 @@ Async OKR Discussion Workflow
 Avoid OKR meetings by using async discussion:
 
 ```
-Google Doc: "Q2 OKR Proposal for Engineering"
+Google Doc - "Q2 OKR Proposal for Engineering"
 
 Timeline:
 Day 1: Post draft OKRs with context document
-Days 2-3: Team reviews and comments (don't edit, comment only)
-Day 4-5: Owner addresses feedback, marks comments resolved
-Day 6: Engineering leadership approves and publishes
-Day 7: Team synchronous kick-off (30 min) to discuss and align
+Days 2-3 - Team reviews and comments (don't edit, comment only)
+Day 4-5 - Owner addresses feedback, marks comments resolved
+Day 6 - Engineering leadership approves and publishes
+Day 7 - Team synchronous kick-off (30 min) to discuss and align
 ```
 
 This approach gathers input without requiring everyone in a meeting.
@@ -347,14 +347,14 @@ Measuring Success of Your OKR System
 Track these meta-metrics:
 
 ```
-1. Completion Rate: What % of KRs do you typically achieve? (65-75% is healthy)
-2. Goal Clarity: Do team members understand how their work connects to goals?
-3. Engagement: Are people actively updating progress?
-4. Impact: Did hitting OKRs move the company forward?
-5. Culture: Do people feel ownership and autonomy?
+1. Completion Rate - What % of KRs do you typically achieve? (65-75% is healthy)
+2. Goal Clarity - Do team members understand how their work connects to goals?
+3. Engagement - Are people actively updating progress?
+4. Impact - Did hitting OKRs move the company forward?
+5. Culture - Do people feel ownership and autonomy?
 ```
 
-Run a quick survey mid-year: "Rate 1-5 how clear company priorities are to you."
+Run a quick survey mid-year - "Rate 1-5 how clear company priorities are to you."
 
 OKRs done well make remote teams feel connected, aligned, and enabled. They're the clearest signal that distributed work can be just as effective as office work.
 

@@ -57,7 +57,7 @@ For distributed teams, the breakdown typically looks like:
 - Test Time: 10-30 minutes (automated tests)
 - Deployment Time: 2-10 minutes (actual deployment)
 
-Total typical: 5-48 hours depending on when in the day you commit and how many time zones your team spans.
+Total typical - 5-48 hours depending on when in the day you commit and how many time zones your team spans.
 
 Understanding this breakdown is critical because improvements to deployment time (5 minutes) don't matter if code review is taking 20 hours. Your optimization efforts should target the largest components.
 
@@ -78,19 +78,19 @@ Setting Up Your Metrics Collection Pipeline
 
 The foundation of accurate lead time measurement requires automatic data collection without manual intervention. Manual tracking introduces inconsistency and places burden on team members who already manage complex asynchronous communication.
 
-Step 1: Instrument Your Version Control System
+Step 1 - Instrument Your Version Control System
 
 Your Git hosting platform likely provides APIs or built-in analytics for tracking commit-to-deploy times. GitHub Actions, GitLab CI/CD, and similar platforms record timestamps for each stage of your deployment pipeline. Configure your CI/CD system to emit events for every deployment, including the commit SHA, deployment timestamp, and environment target.
 
 For teams using GitHub, the deployment API captures this information automatically. Each deployment event includes the commit reference and timestamp, enabling accurate calculation of lead time. Similar capabilities exist in GitLab through their deployment metadata and in Bitbucket through their pipelines.
 
-Step 2: Centralize Deployment Events
+Step 2 - Centralize Deployment Events
 
 Create a simple data collection mechanism that aggregates deployment events from all environments. A lightweight approach uses a shared spreadsheet or database where your CI/CD pipeline records each deployment. The record should include the commit hash, deployment time, environment, and optionally the team member who triggered the deployment.
 
 For more sophisticated analysis, consider connecting this data to a business intelligence tool that can visualize trends over time. The goal remains simple: know what deployed, when, and from which commit.
 
-Step 3: Calculate Lead Time Automatically
+Step 3 - Calculate Lead Time Automatically
 
 With commit timestamps from your version control system and deployment timestamps from your pipeline, you can calculate lead time automatically. The formula is straightforward: deployment timestamp minus commit timestamp equals lead time. For merge-based workflows, use the merge commit timestamp rather than the original commit timestamp, since code must pass through your merge process before deployment.
 
@@ -98,7 +98,7 @@ Most Git platforms provide webhooks that can trigger calculations in real-time. 
 
 Real-World Workflow Examples
 
-Example 1: The Async Code Review Model
+Example 1 - The Async Code Review Model
 
 Consider a distributed team with developers in UTC-5, UTC+1, and UTC+8 time zones. Their workflow involves creating pull requests, receiving reviews from at least one other team member, and merging after approval.
 
@@ -106,13 +106,13 @@ A typical pull request might be created at 9 AM in the UTC-5 timezone. The UTC+1
 
 In this scenario, the commit-to-merge time might be 20 hours, with an additional hour for deployment. Breaking down the lead time reveals where time actually goes: most of the delay comes from asynchronous review cycles, not from deployment automation. This insight helps the team evaluate whether to adjust review expectations or accept the current cadence.
 
-Example 2: The Scheduled Deployment Window
+Example 2 - The Scheduled Deployment Window
 
 Another common pattern involves teams that deploy only during specific windows, perhaps once daily or a few times per week. A commit created just after the deployment window might wait 23 hours for the next scheduled deployment.
 
 This pattern becomes visible only when tracking lead time consistently. The team might assume their deployment process is slow when actually their scheduling window creates the delay. Options include adjusting deployment frequency, implementing on-demand deployments for urgent changes, or simply accepting the constraint as a deliberate choice.
 
-Example 3: The Feature Flagged Release
+Example 3 - The Feature Flagged Release
 
 Teams using feature flags can decouple deployment from release. Code deploys to production quickly after merge, but feature flags control when users see new functionality. This approach dramatically reduces measured lead time since deployment happens soon after code merge, regardless of release timing.
 
@@ -154,7 +154,7 @@ df['lead_time_hours'] = (df['deploy_ts'] - df['commit_ts']).dt.total_seconds() /
 Calculate metrics
 print(f"Median lead time: {df['lead_time_hours'].median():.1f} hours")
 print(f"95th percentile: {df['lead_time_hours'].quantile(0.95):.1f} hours")
-print(f"Trend: {df['lead_time_hours'].iloc[-30:].mean():.1f} hours (last 30)")
+print(f"Trend - {df['lead_time_hours'].iloc[-30:].mean():.1f} hours (last 30)")
 ```
 
 CI/CD Platform Integrations
@@ -274,9 +274,9 @@ Once you have solid data, use it to drive specific improvements:
 
 If code review is the bottleneck: Establish code review SLAs, implement pair programming during low-availability windows, or adjust team distribution across time zones.
 
-If CI/CD pipeline is slow: Parallelize tests, optimize build caching, or invest in faster hardware for build runners.
+If CI/CD pipeline is slow - Parallelize tests, optimize build caching, or invest in faster hardware for build runners.
 
-If merge queue creates delays: Increase queue concurrency, implement per-feature queues, or reserve expedited paths for critical hotfixes.
+If merge queue creates delays - Increase queue concurrency, implement per-feature queues, or reserve expedited paths for critical hotfixes.
 
 If deployment window scheduling causes delays: Move to continuous deployment, implement canary releases, or reserve specific off-hours slots for urgent changes.
 
@@ -305,7 +305,7 @@ Moving Forward
 
 Accurate deployment lead time measurement provides remote teams with visibility into their software delivery process. The key lies in automatic collection, consistent tracking, and meaningful analysis of the data. Once you understand where time goes in your workflow, targeted improvements become possible.
 
-Start simple: collect the data, calculate the metric, and review the results with your team. Identify one or two areas where delays cluster and experiment with changes. Measure again and compare. This iterative approach works regardless of where your team currently stands in the DORA metrics spectrum.
+Start simple - collect the data, calculate the metric, and review the results with your team. Identify one or two areas where delays cluster and experiment with changes. Measure again and compare. This iterative approach works regardless of where your team currently stands in the DORA metrics spectrum.
 
 The goal isn't perfection but progress. Remote teams that understand their deployment patterns can make informed decisions about process improvements, tooling investments, and workflow adjustments. Measurement enables improvement, and that's the real value behind tracking deployment lead time.
 

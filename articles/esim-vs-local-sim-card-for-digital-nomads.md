@@ -106,8 +106,8 @@ Dual SIM Configuration
 Both iOS and Android support dual SIM setups with one physical slot and one eSIM. This is the optimal configuration for digital nomads:
 
 ```
-Slot 1: Local physical SIM (primary for cheap data)
-Slot 2: eSIM with international plan (backup/primary when traveling)
+Slot 1 - Local physical SIM (primary for cheap data)
+Slot 2 - eSIM with international plan (backup/primary when traveling)
 ```
 
 On Android, you can configure which SIM handles calls, SMS, and mobile data independently:
@@ -283,7 +283,7 @@ This script helps you decide when switching SIMs makes financial sense.
 
 Troubleshooting Common Connectivity Issues
 
-Problem: eSIM Registration Fails in New Country
+Problem - eSIM Registration Fails in New Country
 
 Causes:
 - Carrier servers overloaded at border crossings
@@ -296,7 +296,7 @@ Solutions:
 3. Delete unused eSIM profiles from Settings > Cellular
 4. Restart device after deleting profiles (eSIM profiles cache)
 
-Problem: No Cellular Signal Despite Active Plan
+Problem - No Cellular Signal Despite Active Plan
 
 Causes:
 - Network selection incorrect (manually selecting wrong carrier)
@@ -311,26 +311,26 @@ Solutions:
 4. Confirm roaming enabled if crossing borders
 5. Test with another device if possible (rules out device-specific issues)
 
-Problem: Switching Between eSIM Profiles Causes Data Interruption
+Problem - Switching Between eSIM Profiles Causes Data Interruption
 
 This is normal, eSIM profile switching takes 30-90 seconds before data reconnects.
 
-Workaround: Before switching profiles, download any urgent information. Use WiFi for critical tasks while profile switches.
+Workaround - Before switching profiles, download any urgent information. Use WiFi for critical tasks while profile switches.
 
 Cost Projection for Annual Nomadic Travel
 
-Scenario A: Single Country (Thailand, 12 months)
+Scenario A - Single Country (Thailand, 12 months)
 
 - Local SIM: $7/month × 12 = $84
 - Total annual: $84
 
-Scenario B: Regional Movement (SE Asia, bouncing every 2-3 weeks)
+Scenario B - Regional Movement (SE Asia, bouncing every 2-3 weeks)
 
 - eSIM plans: $12/month average = $144/year
 - Occasional local SIM when stationary: 2 × $7 = $14
 - Total annual: $158
 
-Scenario C: Global Nomad (3 continents, mixed time allocations)
+Scenario C - Global Nomad (3 continents, mixed time allocations)
 
 - Europe (3 months): Local SIM $15/month × 3 = $45
 - Asia (4 months): Local SIM $7/month × 4 = $28

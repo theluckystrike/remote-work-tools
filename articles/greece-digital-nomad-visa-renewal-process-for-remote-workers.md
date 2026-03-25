@@ -77,17 +77,17 @@ Required Documents for Renewal
 
 The renewal application requires several documents that prove your continued eligibility:
 
-Proof of Continued Remote Work: Submit updated employment contracts, freelance agreements, or client invoices demonstrating ongoing work for non-Greek entities. If you're employed, provide a letter from your employer confirming continued remote work arrangements. Self-employed individuals should provide contracts and invoices from the past six months.
+Proof of Continued Remote Work - Submit updated employment contracts, freelance agreements, or client invoices demonstrating ongoing work for non-Greek entities. If you're employed, provide a letter from your employer confirming continued remote work arrangements. Self-employed individuals should provide contracts and invoices from the past six months.
 
-Financial Documentation: Bank statements showing regular income deposits for the past six months. The income requirement remains at least €3,500 monthly (or €42,000 annually). If your income has increased, include documentation supporting the change.
+Financial Documentation - Bank statements showing regular income deposits for the past six months. The income requirement remains at least €3,500 monthly (or €42,000 annually). If your income has increased, include documentation supporting the change.
 
-Health Insurance: Provide proof of private health insurance covering Greece for the renewal period. Ensure the policy explicitly mentions Greece or provides worldwide coverage including Greece.
+Health Insurance - Provide proof of private health insurance covering Greece for the renewal period. Ensure the policy explicitly mentions Greece or provides worldwide coverage including Greece.
 
-Accommodation Proof: Rental agreements, property deeds, or hotel booking confirmations showing your current Greek address.
+Accommodation Proof - Rental agreements, property deeds, or hotel booking confirmations showing your current Greek address.
 
-Passport: Valid passport with at least two blank pages and validity extending beyond your renewal period.
+Passport - Valid passport with at least two blank pages and validity extending beyond your renewal period.
 
-Application Form: Completed the appropriate renewal application form from the Greek immigration authority (Υπηρεσία Αλλοδαπών και Μετανάστευσης).
+Application Form - Completed the appropriate renewal application form from the Greek immigration authority (Υπηρεσία Αλλοδαπών και Μετανάστευσης).
 
 The Application Process
 
@@ -139,13 +139,13 @@ You can integrate this with notification systems like Slack or email to stay on 
 
 Common Renewal Issues and Solutions
 
-Income drops below threshold: If your income temporarily decreases, provide documentation showing the average over six months meets the requirement. Maintain consistent client relationships and invoice regularly.
+Income drops below threshold - If your income temporarily decreases, provide documentation showing the average over six months meets the requirement. Maintain consistent client relationships and invoice regularly.
 
-Missing documentation: Keep digital and physical copies of all documents. Use cloud storage with automatic synchronization to ensure you always have access to required paperwork.
+Missing documentation - Keep digital and physical copies of all documents. Use cloud storage with automatic synchronization to ensure you always have access to required paperwork.
 
-Address changes: If you move within Greece, update your address with the local authorities within 30 days. Include the new accommodation proof with your renewal application.
+Address changes - If you move within Greece, update your address with the local authorities within 30 days. Include the new accommodation proof with your renewal application.
 
-Processing delays: Greek immigration offices have varying workloads. Apply early and follow up politely if processing exceeds 60 days.
+Processing delays - Greek immigration offices have varying workloads. Apply early and follow up politely if processing exceeds 60 days.
 
 Extending Beyond Five Years
 
@@ -159,33 +159,33 @@ Greece's immigration process varies by region. Where you renew matters significa
 
 Athens (Attiki Regional Office)
 
-Headquarters: Leoforos Alexandras 173, 11521 Athens
+Headquarters - Leoforos Alexandras 173, 11521 Athens
 
-Processing time: 40-60 days (busiest office)
-Appointment availability: High booking lag, schedule 6-8 weeks ahead
-Required visits: 2 (application submission + biometrics, pickup)
+Processing time - 40-60 days (busiest office)
+Appointment availability - High booking lag, schedule 6-8 weeks ahead
+Required visits - 2 (application submission + biometrics, pickup)
 
-English-speaking staff: Yes, though expect some communication delays
-Best time to apply: Late September or early October (summer tourist surge subsides)
+English-speaking staff - Yes, though expect some communication delays
+Best time to apply - Late September or early October (summer tourist surge subsides)
 
 Thessaloniki (Northern Greece)
 
-Address: Egnatia 133, 54633 Thessaloniki
+Address - Egnatia 133, 54633 Thessaloniki
 
-Processing time: 25-35 days (faster than Athens)
-Appointment availability: More slots available, book 3-4 weeks ahead
-Required visits: 2-3 depending on completeness of initial application
+Processing time - 25-35 days (faster than Athens)
+Appointment availability - More slots available, book 3-4 weeks ahead
+Required visits - 2-3 depending on completeness of initial application
 
-Advantages: Significantly faster processing, smaller office with less bureaucracy
-Disadvantages: If you live in southern Greece, travel required for appointments
+Advantages - Significantly faster processing, smaller office with less bureaucracy
+Disadvantages - If you live in southern Greece, travel required for appointments
 
 Crete (Regional Office)
 
-Address: Rethymno or Heraklion branch (depends on residence)
+Address - Rethymno or Heraklion branch (depends on residence)
 
-Processing time: 30-45 days
-Appointment booking: More limited slots, advance planning essential
-Difficulty: Mid-range. less congested than Athens, more procedures than smaller offices
+Processing time - 30-45 days
+Appointment booking - More limited slots, advance planning essential
+Difficulty - Mid-range. less congested than Athens, more procedures than smaller offices
 
 Island-Specific Considerations
 
@@ -226,9 +226,9 @@ Update income documentation monthly. This prevents last-minute scrambling to col
 
 Common Renewal Mistakes and Prevention
 
-Mistake 1: Income Documentation Doesn't Show Consistent €3,500+
+Mistake 1 - Income Documentation Doesn't Show Consistent €3,500+
 
-Why it happens: Digital nomad income is irregular. Some months you invoice $5,000 (€4,600), other months $2,000 (€1,840).
+Why it happens - Digital nomad income is irregular. Some months you invoice $5,000 (€4,600), other months $2,000 (€1,840).
 
 Prevention:
 1. Calculate 6-month average. if averaging €3,500+, include calculation in application
@@ -237,9 +237,9 @@ Prevention:
 
 Greek authorities understand freelancer income varies. Demonstrating awareness and average sufficiency matters more than every single month hitting threshold.
 
-Mistake 2: Health Insurance Gaps
+Mistake 2 - Health Insurance Gaps
 
-Why it happens: You renew insurance but the new policy doesn't start until after you submit renewal. Greek authorities see a gap.
+Why it happens - You renew insurance but the new policy doesn't start until after you submit renewal. Greek authorities see a gap.
 
 Prevention:
 1. Renew insurance 30 days before renewal application
@@ -248,9 +248,9 @@ Prevention:
 
 Many providers can extend existing policy for 1-2 months while new policy processes.
 
-Mistake 3: Outdated Accommodation Proof
+Mistake 3 - Outdated Accommodation Proof
 
-Why it happens: You signed rental agreement 2 years ago, current landlord hasn't provided updated proof.
+Why it happens - You signed rental agreement 2 years ago, current landlord hasn't provided updated proof.
 
 Prevention:
 1. Request updated rental agreement or landlord letter dated within 3 months of application
@@ -259,9 +259,9 @@ Prevention:
 
 Accommodation proof doesn't require formal documents. recent utility bills work effectively.
 
-Mistake 4: Employment Letter Too Generic
+Mistake 4 - Employment Letter Too Generic
 
-Why it happens: You ask employer for letter proving remote work, they provide standard HR template that doesn't mention remote work or Greece specifically.
+Why it happens - You ask employer for letter proving remote work, they provide standard HR template that doesn't mention remote work or Greece specifically.
 
 Prevention:
 1. Provide employer with template language: "Employee Name works remotely from Greece, is employed outside Greece, and maintains remote work arrangement [through date]"
@@ -322,11 +322,11 @@ If Renewal Gets Rejected
 
 This is rare if documents are complete, but possible causes:
 
-Income below threshold: Required evidence of income averaging €3,500/month. If rejected, you have 30 days to appeal with additional documentation or can exit and reapply.
+Income below threshold - Required evidence of income averaging €3,500/month. If rejected, you have 30 days to appeal with additional documentation or can exit and reapply.
 
-Employment documentation issues: If employer letter is vague or doesn't prove remote work, provide additional evidence: email correspondence, contracts, invoices.
+Employment documentation issues - If employer letter is vague or doesn't prove remote work, provide additional evidence: email correspondence, contracts, invoices.
 
-Health insurance gaps: Ensure coverage is continuous. If rejected for this reason, obtain new insurance immediately and reapply.
+Health insurance gaps - Ensure coverage is continuous. If rejected for this reason, obtain new insurance immediately and reapply.
 
 Visa Extension Beyond Five Years
 

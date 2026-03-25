@@ -37,7 +37,7 @@ Table of Contents
 - [Monthly Measurements](#monthly-measurements)
 - [Red Flags](#red-flags)
 - [Improvements to Try](#improvements-to-try)
-- [Template: Standup Rotation Schedule for QA Team](#template-standup-rotation-schedule-for-qa-team)
+- [Template - Standup Rotation Schedule for QA Team](#template-standup-rotation-schedule-for-qa-team)
 - [Host Schedule](#host-schedule)
 - [Host Checklist](#host-checklist)
 - [Standup Format (10 minutes max)](#standup-format-10-minutes-max)
@@ -49,7 +49,7 @@ Why Team Size Matters for Standup Structure
 
 A team of 7 occupies a sweet spot in remote QA operations. You likely have specialists covering different test domains, functional testing, API testing, automation, performance, and your team probably spans 2-3 time zones. Too few people and you lack diversity in perspectives; too many and standups become status meetings that drain productivity.
 
-The key challenge: finding a time that works across time zones while keeping standups short enough to maintain engagement. With 7 team members, aim for 10-15 minute maximum duration and rotate meeting times quarterly to share the burden of inconvenient hours.
+The key challenge - finding a time that works across time zones while keeping standups short enough to maintain engagement. With 7 team members, aim for 10-15 minute maximum duration and rotate meeting times quarterly to share the burden of inconvenient hours.
 
 Structuring Your Standup Around Blockers and Priorities
 
@@ -91,10 +91,10 @@ Thread-Based Async Standups
 Create a daily Slack thread where team members post updates by a specific time (e.g., 10 AM local time). Use a simple template:
 
 ```
-Name: [Name]
-Yesterday: [1-2 sentences]
-Today: [1-2 sentences]
-Blocker: [Yes/No + brief note if Yes]
+Name - [Name]
+Yesterday - [1-2 sentences]
+Today - [1-2 sentences]
+Blocker - [Yes/No + brief note if Yes]
 ```
 
 This works well when your team documents work in tickets anyway. The key constraint: require updates before a deadline and keep them brief. Long async updates defeat the purpose.
@@ -103,7 +103,7 @@ Video Update Alternatives
 
 For teams that prefer more personal connection, record a 60-second Loom or similar video update. This preserves tone and context that text lacks while allowing flexibility in when team members watch.
 
-The tradeoff: video updates don't enable real-time clarification. Use them when announcements or context matter more than discussion.
+The tradeoff - video updates don't enable real-time clarification. Use them when announcements or context matter more than discussion.
 
 Automating Standup Preparation
 
@@ -240,65 +240,65 @@ Real Standup Transcripts (QA-Specific)
 Focused Blocker Standup (15 minutes)
 
 ```
-Lead: "Morning! Let's go blockers first. Geekbot already reported we have
+Lead - "Morning! Let's go blockers first. Geekbot already reported we have
   two. Alice?"
 
-Alice: "I've been testing the payment flow. The new SSL certificate isn't
+Alice - "I've been testing the payment flow. The new SSL certificate isn't
   installed on the staging server. Blocking me on E2E tests. I posted
   details in #infrastructure, need DevOps to respond."
 
-Lead: "Got it. I'll ping DevOps right after standup. Bob?"
+Lead - "Got it. I'll ping DevOps right after standup. Bob?"
 
-Bob: "No blockers. Making progress on the regression test suite.
+Bob - "No blockers. Making progress on the regression test suite.
   Should have coverage for the last release by EOD."
 
-Lead: "Great. Carol?"
+Lead - "Great. Carol?"
 
-Carol: "Same SSL cert issue blocking API security tests. Waiting for same
+Carol - "Same SSL cert issue blocking API security tests. Waiting for same
   DevOps fix as Alice."
 
-Lead: "One blocker, two people affected. I'll escalate to DevOps immediately.
+Lead - "One blocker, two people affected. I'll escalate to DevOps immediately.
   Diana, Eve, Frank, Grace?"
 
 [Everyone else]: "No blockers"
 
-Lead: "Action items: I'm contacting DevOps on the SSL cert. We'll try
+Lead - "Action items: I'm contacting DevOps on the SSL cert. We'll try
   standup tomorrow at same time unless resolved earlier. If it resolves,
   post in #qa-standup so we don't need the meeting. Let's wrap."
 ```
 
-Total time: 8 minutes. Everyone knew what to expect, only discussed blockers.
+Total time - 8 minutes. Everyone knew what to expect, only discussed blockers.
 
 When Blocker Requires Discussion (25 minutes)
 
 ```
-Lead: "We have one complex blocker from automation testing. Charlie?"
+Lead - "We have one complex blocker from automation testing. Charlie?"
 
-Charlie: "We discovered the test suite has a fundamental flakiness issue.
+Charlie - "We discovered the test suite has a fundamental flakiness issue.
   Tests pass 80% of the time, fail 20% randomly. This is blocking us
   from relying on automation for CI gating. Details in #qa-automation."
 
-Lead: "What's causing the flakiness?"
+Lead - "What's causing the flakiness?"
 
-Charlie: "We think it's timing-related. The tests don't wait for async calls
+Charlie - "We think it's timing-related. The tests don't wait for async calls
   to complete reliably. But I haven't had time to dig deeper."
 
-Lead: "Can you give us 10-minute deep detailed look after standup? Diana, you worked
+Lead - "Can you give us 10-minute deep detailed look after standup? Diana, you worked
   on the original test framework?"
 
-Diana: "I did. Happy to pair with Charlie. I have some ideas about the async
+Diana - "I did. Happy to pair with Charlie. I have some ideas about the async
   handling that might help."
 
-Lead: "Perfect. So action: Charlie and Diana pair after standup to debug.
+Lead - "Perfect. So action: Charlie and Diana pair after standup to debug.
   We'll get back 24 hours from now on progress. Everyone else, anything?"
 
 [Others]: "No blockers"
 
-Lead: "Great. Charlie, Diana, book 30 min after we wrap here. Rest of team,
+Lead - "Great. Charlie, Diana, book 30 min after we wrap here. Rest of team,
   we're unblocked to continue testing. Thanks everyone."
 ```
 
-Total time: 15 minutes standup + 30 min separate pair discussion.
+Total time - 15 minutes standup + 30 min separate pair discussion.
 
 Metrics for QA Team Standups
 
@@ -332,7 +332,7 @@ If metrics are bad, try:
 4. Switch to async for 1 week, measure team preference
 ```
 
-Template: Standup Rotation Schedule for QA Team
+Template - Standup Rotation Schedule for QA Team
 
 Use this spreadsheet to coordinate rotations:
 
@@ -395,10 +395,10 @@ Async Standup Format
 
 Post to #qa-standup daily by 10 AM:
 
-Name: [Your name]
-Yesterdays blockers: [Resolved/Still blocked]
-Todays plan: [1 sentence]
-Help needed: [Yes/No, if yes link to issue]
+Name - [Your name]
+Yesterdays blockers - [Resolved/Still blocked]
+Todays plan - [1 sentence]
+Help needed - [Yes/No, if yes link to issue]
 ```
 
 This takes 2 minutes per person, provides same visibility, saves 2+ hours per week per team member.

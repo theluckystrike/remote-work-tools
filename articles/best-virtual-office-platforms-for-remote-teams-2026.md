@@ -25,7 +25,7 @@ Table of Contents
 - [Setup Recommendations by Team Size](#setup-recommendations-by-team-size)
 - [Real Deployment Pipeline](#real-deployment-pipeline)
 - [When Virtual Offices Fail](#when-virtual-offices-fail)
-- [Hybrid Strategy: Virtual Office + Async](#hybrid-strategy-virtual-office-async)
+- [Hybrid Strategy - Virtual Office + Async](#hybrid-strategy-virtual-office-async)
 - [Alternatives Worth Considering](#alternatives-worth-considering)
 
 Gather.town
@@ -40,9 +40,9 @@ Core Features:
 - Recording and transcription (premium)
 - Mobile web app
 
-Setup: 15 minutes. Create workspace, drag rooms (desk areas, meeting zones, kitchen), invite team. Works without downloading anything.
+Setup - 15 minutes. Create workspace, drag rooms (desk areas, meeting zones, kitchen), invite team. Works without downloading anything.
 
-Real Example: A 25-person marketing team built a virtual office modeled after their old office. Sales pods sit in the bottom-left corner, creative team in the top-right. When someone posts in Slack #standup, it announces in Gather. People "walk" to the coffee room for spontaneous chats. Overhead: $300/month for unlimited members.
+Real Example - A 25-person marketing team built a virtual office modeled after their old office. Sales pods sit in the bottom-left corner, creative team in the top-right. When someone posts in Slack #standup, it announces in Gather. People "walk" to the coffee room for spontaneous chats. Overhead - $300/month for unlimited members.
 
 Pricing:
 - Free: Up to 3 custom spaces, 100 concurrent users
@@ -56,7 +56,7 @@ Slack Integration Example:
 → People see it and walk toward meeting room
 ```
 
-Strengths: Low friction (browser-only), fun UX (people actually use it), great for team vibes, excellent casual catch-ups. Weaknesses: Novelty wears off after 3-6 months; only works for async-first cultures; video/audio quality depends on browser; not suitable for formal meetings.
+Strengths - Low friction (browser-only), fun UX (people actually use it), great for team vibes, excellent casual catch-ups. Weaknesses - Novelty wears off after 3-6 months; only works for async-first cultures; video/audio quality depends on browser; not suitable for formal meetings.
 
 Teamflow
 
@@ -70,9 +70,9 @@ Core Features:
 - Deep Slack integration (show Slack presence, pull threads)
 - Camera on/off defaults per person
 
-Setup: 10 minutes. Install Slack app, authenticate, set your desk status.
+Setup - 10 minutes. Install Slack app, authenticate, set your desk status.
 
-Real Example: A 12-person engineering team runs most collaboration through Teamflow. When you join, you see 3-4 people already at desks. Need help debugging? Click someone's desk, say "hey, need eyes on this," they pop over. Average peer-review time dropped from 45 minutes to 8 minutes. No scheduled meetings unless critical decisions needed.
+Real Example - A 12-person engineering team runs most collaboration through Teamflow. When you join, you see 3-4 people already at desks. Need help debugging? Click someone's desk, say "hey, need eyes on this," they pop over. Average peer-review time dropped from 45 minutes to 8 minutes. No scheduled meetings unless critical decisions needed.
 
 Pricing:
 - Free: Up to 10 team members, limited desk sharing
@@ -86,7 +86,7 @@ If you set "Do Not Disturb" in Slack, your desk shows "busy."
 Team calendar syncs, so everyone sees who's in meetings.
 ```
 
-Strengths: Minimal friction (native Slack integration), perfect for engineering teams, zero scheduling overhead, maintains ambient awareness. Weaknesses: Requires cultural buy-in (people must stay "always on"); video/audio can be CPU-intensive; not ideal for large meetings (20+ people).
+Strengths - Minimal friction (native Slack integration), perfect for engineering teams, zero scheduling overhead, maintains ambient awareness. Weaknesses - Requires cultural buy-in (people must stay "always on"); video/audio can be CPU-intensive; not ideal for large meetings (20+ people).
 
 SpatialChat
 
@@ -101,9 +101,9 @@ Core Features:
 - Whiteboard drawing
 - No download (browser-based)
 
-Setup: 5 minutes. Get link, open in browser, adjust position.
+Setup - 5 minutes. Get link, open in browser, adjust position.
 
-Real Example: A 40-person product company ran a 4-hour async sprint in SpatialChat. People spread across the 2D space: designers clustered in one corner, engineers in another, product in the middle. As conversations happened, people drifted toward relevant clusters. Contrast this with Zoom where only the speaker is visible. Felt closer to real collaboration.
+Real Example - A 40-person product company ran a 4-hour async sprint in SpatialChat. People spread across the 2D space: designers clustered in one corner, engineers in another, product in the middle. As conversations happened, people drifted toward relevant clusters. Contrast this with Zoom where only the speaker is visible. Felt closer to real collaboration.
 
 Pricing:
 - Free: Up to 100 participants, 45-minute sessions
@@ -118,7 +118,7 @@ Others watch and add notes in real-time.
 Audio is natural, no "who's talking?" confusion.
 ```
 
-Strengths: Closest simulation to physical proximity, natural audio presence, great for longer sessions, minimal UI clutter. Weaknesses: Can feel disorienting to newcomers; spatial movement requires mouse precision; less "work" feeling, more "hanging out"; limited scheduling/calendar integration.
+Strengths - Closest simulation to physical proximity, natural audio presence, great for longer sessions, minimal UI clutter. Weaknesses - Can feel disorienting to newcomers; spatial movement requires mouse precision; less "work" feeling, more "hanging out"; limited scheduling/calendar integration.
 
 Kumospace
 
@@ -133,9 +133,9 @@ Core Features:
 - Mobile app (limited features)
 - Custom themes and branding
 
-Setup: 20 minutes. Create workspace, designate zones, populate with desks, invite via Slack.
+Setup - 20 minutes. Create workspace, designate zones, populate with desks, invite via Slack.
 
-Real Example: A 60-person SaaS company uses Kumospace as their primary office. Morning standup happens in the "all-hands" zone (60 people can hear each other due to smart audio mixing). Product team has a dedicated zone. Support sits together. When you need help, you visit another zone. The persistent map helps onboard new employees, they explore and find teams naturally.
+Real Example - A 60-person SaaS company uses Kumospace as their primary office. Morning standup happens in the "all-hands" zone (60 people can hear each other due to smart audio mixing). Product team has a dedicated zone. Support sits together. When you need help, you visit another zone. The persistent map helps onboard new employees, they explore and find teams naturally.
 
 Pricing:
 - Free: Up to 20 members, basic features
@@ -150,7 +150,7 @@ In a meeting? Your avatar appears "busy" in the space.
 Meeting ends? You automatically become available.
 ```
 
-Strengths: Scales well (supports 50+ people), rich integrations, persistent office feel, good for hybrid schedules. Weaknesses: Steeper learning curve; requires more bandwidth (spatial audio); feels corporate rather than playful; most expensive option.
+Strengths - Scales well (supports 50+ people), rich integrations, persistent office feel, good for hybrid schedules. Weaknesses - Steeper learning curve; requires more bandwidth (spatial audio); feels corporate rather than playful; most expensive option.
 
 Comparison Table
 
@@ -200,7 +200,7 @@ Real Deployment Pipeline
 4. Month 2+: Optimize
  - Monitor usage (Gather publishes metrics)
  - Adjust office layout based on team patterns
- - Decide: is this permanent or temporary experiment?
+ - Decide - is this permanent or temporary experiment?
 
 When Virtual Offices Fail
 
@@ -215,9 +215,9 @@ Virtual offices fail when:
 - Used as surveillance (manager checking who's online)
 - Office is dead silent with no one around
 
-Hybrid Strategy: Virtual Office + Async
+Hybrid Strategy - Virtual Office + Async
 
-Best practice: Virtual office during "core hours" (e.g., 10am-3pm everyone's workspace is available), async outside that.
+Best practice - Virtual office during "core hours" (e.g., 10am-3pm everyone's workspace is available), async outside that.
 
 ```
 10am-3pm: Office is "open" (Gather/Teamflow running)
@@ -242,7 +242,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -254,7 +254,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

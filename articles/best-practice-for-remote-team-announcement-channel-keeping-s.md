@@ -21,7 +21,7 @@ Remote team announcement channels maintain high signal-to-noise ratio through cl
 Table of Contents
 
 - [Understanding Signal-to-Noise Ratio in Communication Channels](#understanding-signal-to-noise-ratio-in-communication-channels)
-- [Channel Governance: The Foundation of High SNR](#channel-governance-the-foundation-of-high-snr)
+- [Channel Governance - The Foundation of High SNR](#channel-governance-the-foundation-of-high-snr)
 - [Purpose](#purpose)
 - [NOT for this channel](#not-for-this-channel)
 - [Posting Rules](#posting-rules)
@@ -37,7 +37,7 @@ Signal-to-noise ratio (SNR) measures the proportion of valuable information (sig
 
 The cost of low SNR extends beyond missed messages. Developers who receive excessive notifications learn to mute channels entirely or develop notification fatigue. A 2023 Slack study found that workers spend an average of 9 minutes per day just managing notifications, time that could be spent on meaningful work.
 
-Channel Governance: The Foundation of High SNR
+Channel Governance - The Foundation of High SNR
 
 Before implementing specific tactics, establish clear governance rules for your announcement channels. Without explicit guidelines, even well-intentioned team members will post content that degrades channel quality.
 
@@ -92,24 +92,24 @@ The P.A.R.A. Announcement Format
 
 Structure every announcement using four components:
 
-- Purpose: Why does this announcement matter?
-- Action: What do recipients need to do?
+- Purpose - Why does this announcement matter?
+- Action - What do recipients need to do?
 - Relevant Details: Supporting information (links, dates, context)
-- Acknowledgment: How should people confirm receipt?
+- Acknowledgment - How should people confirm receipt?
 
 ```markdown
 [ANNOUNCEMENT] Production Deployment - Payment Service v2.3
 
-Purpose: Deploying improved error handling and retry logic for the payment processing service.
+Purpose - Deploying improved error handling and retry logic for the payment processing service.
 
-Action Required: No immediate action. Monitor #incident-alerts for any issues during the 2-hour rollout window.
+Action Required - No immediate action. Monitor #incident-alerts for any issues during the 2-hour rollout window.
 
 Relevant Details:
 - PR: #4231
-- Changelog: /docs/payment-service-v2.3
+- Changelog - /docs/payment-service-v2.3
 - Rollout schedule: 2PM - 4PM UTC
 
-Acknowledgment: Reply with  in this thread by EOD if you've reviewed the changes.
+Acknowledgment - Reply with  in this thread by EOD if you've reviewed the changes.
 ```
 
 Pre-Flight Checklist for Senders

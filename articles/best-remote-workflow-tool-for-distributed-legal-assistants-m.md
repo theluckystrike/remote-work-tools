@@ -68,7 +68,7 @@ Properties:
 
 Notion's relation features allow linking deadlines to case files, client databases, and document folders. Calendar views provide visual representation of upcoming deadlines across all matters.
 
-The limitation: Notion lacks native court holiday calendars and requires manual updates when courts adjust filing deadlines.
+The limitation - Notion lacks native court holiday calendars and requires manual updates when courts adjust filing deadlines.
 
 Airtable for Automated Deadline Calculations
 

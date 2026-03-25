@@ -17,7 +17,7 @@ tags: [remote-work-tools, comparison, artificial-intelligence]
 {% raw %}
 
 Choose Reclaim AI if your primary need is personal productivity--it excels at automatically scheduling task time, protecting focus blocks, and providing fine-grained API control for custom integrations. Choose Clockwise if team meeting optimization is your priority--it clusters meetings together to create larger focus blocks and provides analytics on meeting patterns across your organization. Task-First Scheduling](#reclaim-ai-task-first-scheduling)
-- [Clockwise: Meeting Optimization](#clockwise-meeting-optimization)
+- [Clockwise - Meeting Optimization](#clockwise-meeting-optimization)
 - [Technical Comparison](#technical-comparison)
 - [Choosing the Right Tool](#choosing-the-right-tool)
 - [Implementation Tips](#implementation-tips)
@@ -33,7 +33,7 @@ Both Reclaim AI and Clockwise analyze your calendar and automatically find optim
 
 The core algorithm in both tools considers existing meeting commitments, buffer time between meetings, preferred working hours, participant availability, and recurring meeting patterns.
 
-Reclaim AI: Task-First Scheduling
+Reclaim AI - Task-First Scheduling
 
 Reclaim AI positions itself as a smart scheduling assistant that protects your time for tasks and meetings. Its primary strength lies in automatically defending focus blocks and recurring meetings.
 
@@ -58,7 +58,7 @@ Here's how you might configure a focus block in Reclaim AI:
 
 The API allows developers to programmatically manage scheduling rules through their web dashboard or Slack integration.
 
-Clockwise: Meeting Optimization
+Clockwise - Meeting Optimization
 
 Clockwise focuses more heavily on optimizing meeting schedules across teams. It aims to reduce meeting fatigue by clustering meetings and creating larger focus blocks.
 
@@ -185,7 +185,7 @@ Reclaim AI's team pricing ($8/person) edges out Clockwise ($10/person) at scale.
 
 Real-World Workflows Compared
 
-Workflow 1: Deep Work Protection
+Workflow 1 - Deep Work Protection
 
 *Using Reclaim AI:*
 1. Block "deep work" time slots on your calendar
@@ -203,7 +203,7 @@ Workflow 1: Deep Work Protection
 
 For developers prioritizing deep work above all else, Reclaim AI's task-first approach feels more aligned.
 
-Workflow 2: Team Productivity Across Departments
+Workflow 2 - Team Productivity Across Departments
 
 *Using Clockwise:*
 1. Manager sets team focus block requirements (e.g., "no meetings 1-4pm")
@@ -222,7 +222,7 @@ For team-wide initiatives (like "engineering should have 20% deep time"), Clockw
 
 Integration Scenarios
 
-Scenario 1: DevOps/SRE Team Using Infrastructure Tools
+Scenario 1 - DevOps/SRE Team Using Infrastructure Tools
 
 If your team uses PagerDuty for on-call rotations, you might want calendar optimization that respects on-call schedules. Reclaim AI's finer-grained rule system handles this better:
 
@@ -241,7 +241,7 @@ const focusBlockRule = {
 
 This level of conditional logic requires Reclaim AI's API.
 
-Scenario 2: Sales Team with Meeting-Heavy Calendar
+Scenario 2 - Sales Team with Meeting-Heavy Calendar
 
 Sales teams often have back-to-back meetings with high scheduling overhead. Clockwise's meeting clustering helps:
 
@@ -258,12 +258,12 @@ outcome: Calendar goes from 30+ context switches/day to 4-5
 
 For meeting-heavy workloads, Clockwise shines.
 
-Scenario 3: Engineering Manager Balancing 1-on-1s and Deep Work
+Scenario 3 - Engineering Manager Balancing 1-on-1s and Deep Work
 
 Managers often have competing demands: protect 1-on-1 slots with reports while maintaining personal focus time. Both tools handle this, but Clockwise's team integration helps:
 
 ```yaml
-Clockwise perspective: Manager + Team
+Clockwise perspective - Manager + Team
 focus_time:
   manager: 1-3pm daily (protected)
   team: 2-4pm daily (protected)
@@ -274,19 +274,19 @@ outcome: Manager gets focus time, team gets focus time, meeting load decreases
 
 Common Customizations
 
-Customization 1: Protect Specific Meeting Types
+Customization 1 - Protect Specific Meeting Types
 
 Some teams want to cluster specific meeting types (all design critiques on Wednesdays) while protecting other times:
 
 *Better in Reclaim:* Custom rules engine handles exceptions and conditions more flexibly.
 
-Customization 2: Respect Individual Preferences
+Customization 2 - Respect Individual Preferences
 
 Your team might have strong feelings about meeting times ("I never want meetings after 4pm"). Reclaim AI's per-person preferences are more granular.
 
 *Better in Reclaim:* Handles individual constraints better.
 
-Customization 3: Report on Meeting Patterns
+Customization 3 - Report on Meeting Patterns
 
 You want data on whether your team's focus time is improving. Clockwise's analytics are more developed:
 
@@ -299,25 +299,25 @@ Both tools offer free trials. Here's a structured evaluation:
 ```markdown
 Calendar Tool Trial Checklist
 
-Week 1: Setup
+Week 1 - Setup
 - [ ] Connect your calendar
 - [ ] Define your focus time blocks
 - [ ] Set meeting preferences
 - [ ] Invite 1-2 team members to test
 
-Week 2: Experience
+Week 2 - Experience
 - [ ] Document number of focus blocks created
 - [ ] Note meetings automatically rescheduled
 - [ ] Track focus hours gained
 - [ ] Collect feedback from colleagues
 
-Week 3: Comparison
+Week 3 - Comparison
 - [ ] Run same focus time rules in both tools (if testing both)
 - [ ] Evaluate ease of configuration
 - [ ] Check API documentation if custom integration needed
 - [ ] Calculate cost per person
 
-Week 4: Decision
+Week 4 - Decision
 - [ ] Which tool reduced meeting load most?
 - [ ] Which tool was easiest to use?
 - [ ] Which pricing aligns with budget?

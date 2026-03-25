@@ -46,12 +46,12 @@ Key Features:
 - Breakout rooms for stakeholder groups
 - Recording with cloud storage
 
-Best For: Teams already using Zoom for meetings. The learning curve is minimal, and most clients already have Zoom installed.
+Best For - Teams already using Zoom for meetings. The learning curve is minimal, and most clients already have Zoom installed.
 
-Pricing: Free tier available; Pro starts at $14.99/month.
+Pricing - Free tier available; Pro starts at $14.99/month.
 
 ```bash
-Quick tip: Use Zoom's "Share Sound" option when presenting
+Quick tip - Use Zoom's "Share Sound" option when presenting
 animated designs to ensure smooth playback
 ```
 
@@ -65,9 +65,9 @@ Key Features:
 - GDPR and SOC2 compliant
 - No download required for viewers
 
-Best For: Async design reviews and when you want clients to review on their own time. Perfect for following up after live presentations.
+Best For - Async design reviews and when you want clients to review on their own time. Perfect for following up after live presentations.
 
-Pricing: Free tier available; Pro starts at $12/month.
+Pricing - Free tier available; Pro starts at $12/month.
 
 3. Google Meet
 
@@ -79,9 +79,9 @@ Key Features:
 - Calendar integration
 - Live captions for accessibility
 
-Best For: Teams using Google Workspace. The tight integration with Drive and Docs makes file sharing.
+Best For - Teams using Google Workspace. The tight integration with Drive and Docs makes file sharing.
 
-Pricing: Free for personal use; Google Workspace starts at $12/user/month.
+Pricing - Free for personal use; Google Workspace starts at $12/user/month.
 
 4. Discord
 
@@ -93,9 +93,9 @@ Key Features:
 - Screen share to specific channels
 - Low latency for real-time collaboration
 
-Best For: Design teams working with developer teams or community-based products.
+Best For - Design teams working with developer teams or community-based products.
 
-Pricing: Nitro starts at $9.99/month.
+Pricing - Nitro starts at $9.99/month.
 
 5. Whereby
 
@@ -107,9 +107,9 @@ Key Features:
 - Embedded option for websites
 - Breakout rooms
 
-Best For: Clients who resist installing software. The zero-download approach reduces friction.
+Best For - Clients who resist installing software. The zero-download approach reduces friction.
 
-Pricing: Free tier available; Pro starts at $10/month.
+Pricing - Free tier available; Pro starts at $10/month.
 
 Comparing Screen Sharing Tools for Design Work
 
@@ -129,7 +129,7 @@ Before presenting designs, close unnecessary applications and notifications. Dis
 
 ```bash
 macOS: Use Do Not Disturb mode
-Windows: Focus Assist mode
+Windows - Focus Assist mode
 ```
 
 Test Your Setup
@@ -169,13 +169,13 @@ During Presentation:
 ```
 Use a shared document (Google Doc) alongside screen sharing:
 
-Design: Homepage Hero Section
+Design - Homepage Hero Section
 Feedback captured:
 - "Hero image feels too dark" (client: Sarah)
 - "CTA button needs more contrast" (client: Mike)
 - "Font size on subtitle seems small" (client: Sarah)
 
-Live priority poll: Which concern is highest priority? [Vote in Slack]
+Live priority poll - Which concern is highest priority? [Vote in Slack]
 ```
 
 This dual-documentation approach ensures feedback isn't lost and creates a reference record both you and client can review later.
@@ -203,22 +203,22 @@ Design presentations often include stakeholders with different priorities (busin
 ```markdown
 Homepage Redesign Presentation Structure
 
-Part 1: Business Justification (5 min)
+Part 1 - Business Justification (5 min)
 - Addresses CFO, product leader concerns
 - Metrics: conversion impact, user testing results, competitive analysis
 - Audience concern: "Why are we doing this work now?"
 
-Part 2: Design Approach (15 min)
+Part 2 - Design Approach (15 min)
 - Addresses creative director and design team
 - Methodology: user research, accessibility requirements, design system alignment
 - Audience concern: "Does this match our brand and values?"
 
-Part 3: Technical Feasibility (5 min)
+Part 3 - Technical Feasibility (5 min)
 - Addresses engineering team
 - Browser compatibility, animation performance, responsive approach
 - Audience concern: "Can we actually build this?"
 
-Part 4: Open Feedback (10 min)
+Part 4 - Open Feedback (10 min)
 - All stakeholders contribute
 - Facilitator gathers feedback by stakeholder role
 - Document for post-presentation action items
@@ -261,25 +261,25 @@ During Presentation:
 
 Managing Common Presentation Problems
 
-Problem: Client sees your messy desktop during screen sharing
+Problem - Client sees your messy desktop during screen sharing
 - Solution: Use presentation mode in your design tool
 - Always test screen sharing before going live
 - Have a minimal, clean desktop background
 - Use virtual backgrounds in Zoom if showing desktop is unavoidable
 
-Problem: Design appears pixelated or blurry
+Problem - Design appears pixelated or blurry
 - Solution: Disable scaling on your monitor if possible
 - Use native resolution without zoom
 - Share at 1080p or lower for consistent quality
 - Zoom in on specific elements rather than zooming out to see everything
 
-Problem: Client asks "Can you change X?" and you're not sure
+Problem - Client asks "Can you change X?" and you're not sure
 - Solution: Avoid making commitments in the moment
-- Say: "That's a good point. Let me explore that approach and send you mockups by [date]"
+- Say - "That's a good point. Let me explore that approach and send you mockups by [date]"
 - Document the requested change and follow up async
 - Prevent scope creep by clearly defining what's included in the presentation
 
-Problem: Multiple people talking over each other
+Problem - Multiple people talking over each other
 - Solution: Establish speaking order at start of presentation
 - "I'll walk through the designs first, then we'll open to questions"
 - Use chat for questions if video call becomes chaotic
@@ -316,7 +316,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -328,7 +328,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

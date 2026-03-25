@@ -27,15 +27,15 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand the Remote Reorg Challenge
+Step 1 - Understand the Remote Reorg Challenge
 
 Remote organizations have distinct characteristics that amplify reorg friction. First, information travels through written channels, which lack tonal context and immediate clarification. Second, employees often work alone without peer support to process changes. Third, time zone gaps create information asymmetry, some team members learn news hours before others.
 
 When a company grows from 20 to 50 employees, the flat structure that worked before becomes unsustainable. New layers emerge, teams consolidate, reporting lines shift. The way you communicate these changes determines whether your team emerges stronger or scattered.
 
-Step 2: The Reorg Communication Framework
+Step 2 - The Reorg Communication Framework
 
-Phase 1: Preparation (Before Any Announcement)
+Phase 1 - Preparation (Before Any Announcement)
 
 Successful reorg communication starts before you write a single announcement. Spend time mapping your communication tree:
 
@@ -56,11 +56,11 @@ Create a communication matrix:
 | External stakeholders | Day 3 | Email | Comms team | Partnership continuity |
 ```
 
-Phase 2: The Announcement
+Phase 2 - The Announcement
 
 For remote teams, the announcement should follow a specific cadence:
 
-Step 1: Written announcement first (async)
+Step 1 - Written announcement first (async)
 
 Send a written document before any live session. This allows people to process information privately and formulate questions. The document should include:
 
@@ -70,7 +70,7 @@ Send a written document before any live session. This allows people to process i
 - What stays the same (continuity signals)
 - How to ask questions (specific channels and deadlines)
 
-Step 2: Follow-up live session
+Step 2 - Follow-up live session
 
 Schedule a live video session within 24 hours of the written announcement. This session should:
 
@@ -79,7 +79,7 @@ Schedule a live video session within 24 hours of the written announcement. This 
 - Record the session for those who cannot attend live
 - Have someone take detailed notes for a follow-up FAQ
 
-Step 3: Manager 1:1s
+Step 3 - Manager 1:1s
 
 Direct managers should schedule 1:1s with each team member within one week. These conversations address individual concerns that group settings cannot. Provide managers with a structured agenda:
 
@@ -91,23 +91,23 @@ Direct managers should schedule 1:1s with each team member within one week. Thes
 5. Set 30/60/90 day expectations for the new structure
 ```
 
-Phase 3: Sustained Communication
+Phase 3 - Sustained Communication
 
 The reorg announcement is not an one-time event. Remote teams need ongoing touchpoints:
 
-Week 1: Daily check-ins
+Week 1 - Daily check-ins
 
 Implement brief daily async check-ins for affected teams:
 
 ```markdown
-Format: Quick daily update (5 min to write)
+Format - Quick daily update (5 min to write)
 
 - One win from yesterday
 - One challenge I'm anticipating this week
 - One thing I need help with
 ```
 
-Week 2: Team retrospectives
+Week 2 - Team retrospectives
 
 Run structured retrospectives focused on the reorg transition itself:
 
@@ -119,23 +119,23 @@ Questions:
 4. What processes need adjustment?
 ```
 
-Month 1: Pulse surveys
+Month 1 - Pulse surveys
 
 Send weekly pulse surveys to monitor sentiment:
 
 ```markdown
-Scale: 1-5
+Scale - 1-5
 
 1. I understand my role in the new structure
 2. I have the resources I need to succeed
 3. I feel confident about the company's direction
 4. I can get help when I need it
-Open: What's one thing that would help you right now?
+Open - What's one thing that would help you right now?
 ```
 
-Step 3: Handling Difficult Scenarios
+Step 3 - Handling Difficult Scenarios
 
-Scenario 1: Someone Learns Through Rumors
+Scenario 1 - Someone Learns Through Rumors
 
 If news leaks before your planned announcement, act immediately:
 
@@ -144,7 +144,7 @@ If news leaks before your planned announcement, act immediately:
 3. Communicate why the premature disclosure was problematic
 4. Reinforce the importance of hearing news through proper channels
 
-Scenario 2: Key Person Leaves During Reorg
+Scenario 2 - Key Person Leaves During Reorg
 
 Losing a team member during restructuring creates uncertainty:
 
@@ -153,7 +153,7 @@ Losing a team member during restructuring creates uncertainty:
 3. Assign an interim point person immediately
 4. Schedule quick 1:1s with affected team members
 
-Scenario 3: Time Zone Complaints
+Scenario 3 - Time Zone Complaints
 
 When team members complain about learning news at bad hours:
 
@@ -162,7 +162,7 @@ When team members complain about learning news at bad hours:
 3. Set clear expectations that responses will come within 24 hours
 4. Acknowledge the inconvenience and commit to better scheduling going forward
 
-Step 4: Automation Tools for Reorg Communication
+Step 4 - Automation Tools for Reorg Communication
 
 Several tools can help manage communication at scale:
 
@@ -182,14 +182,14 @@ Example Slack channel structure:
 #reorg-general         - Non-specific questions and support
 ```
 
-Step 5: Build a Reorg Information Hub
+Step 5 - Build a Reorg Information Hub
 
 Create a centralized location where all reorg information lives:
 
 ```markdown
 Reorg Information Hub (Notion/Confluence)
 
-Step 6: Quick Links
+Step 6 - Quick Links
 - [Full announcement](#announcement)
 - [FAQ](#faq)
 - [Org chart](#orgchart)
@@ -197,7 +197,7 @@ Step 6: Quick Links
 - [Timeline](#timeline)
 - [Q&A thread](#qa)
 
-Step 7: Announcement
+Step 7 - Announcement
 [Full announcement text with rationale]
 
 FAQ
@@ -220,73 +220,73 @@ A: [Schedule 1:1 with manager within 2 weeks]
 Q: Will we have new team meetings?
 A: [New meeting structure details]
 
-Step 8: New Organizational Structure
+Step 8 - New Organizational Structure
 [Visual org chart showing new reporting lines]
 
-Step 9: Role Descriptions
+Step 9 - Role Descriptions
 [Detailed description for each new role/team]
 
-Step 10: Timeline
+Step 10 - Timeline
 - [Date 1]: Announcement
 - [Date 2]: Manager 1:1s
 - [Date 3]: First new team meeting
 - [Date 4]: First check-in measurement
 
-Step 11: Questions & Answers Thread
+Step 11 - Questions & Answers Thread
 [Running log of Q&A responses]
 ```
 
 Share this hub in your initial announcement so people know where information lives.
 
-Step 12: Role Clarity Template
+Step 12 - Role Clarity Template
 
 For each role affected by the reorg, create a clear specification:
 
 ```markdown
-Role: [New Role Title]
+Role - [New Role Title]
 
-Reports to: [Manager name]
-Team: [Team name]
-Location: [Physical location if hybrid]
+Reports to - [Manager name]
+Team - [Team name]
+Location - [Physical location if hybrid]
 
-Step 13: Purpose
+Step 13 - Purpose
 [1-2 sentence summary of why this role exists]
 
-Step 14: Key Responsibilities
+Step 14 - Key Responsibilities
 1. [Responsibility 1]
 2. [Responsibility 2]
 3. [Responsibility 3]
 4. [Responsibility 4]
 
-Step 15: What's Changing
+Step 15 - What's Changing
 - Previous title: [Old title]
 - Previous manager: [Old manager]
 - New elements: [What's new]
 - What stays the same: [What hasn't changed]
 
-Step 16: Success Metrics
+Step 16 - Success Metrics
 - [Metric 1]
 - [Metric 2]
 - [Metric 3]
 
-Step 17: Career Path
-Progression to: [Next role in career ladder]
-Timeline: [Typical timeline - e.g., 18-24 months]
+Step 17 - Career Path
+Progression to - [Next role in career ladder]
+Timeline - [Typical timeline - e.g., 18-24 months]
 
-Step 18: Support Available
+Step 18 - Support Available
 - Manager: [Available for questions weekly]
 - Peer mentors: [Names of people to learn from]
 - Training resources: [What's provided]
 ```
 
-Step 19: Measuring Success
+Step 19 - Measuring Success
 
 Track these metrics to gauge reorg communication effectiveness:
 
-1. Question volume: Are questions decreasing over time? This indicates clarity improving. Target: 70% reduction by week 4.
+1. Question volume: Are questions decreasing over time? This indicates clarity improving. Target - 70% reduction by week 4.
 2. Sentiment scores: Are pulse survey scores improving week-over-week? Target: 3.5+/5.0 by month 1.
-3. Productivity metrics: Are teams delivering their normal output, or is there a measurable dip? Expected: 10-20% temporary dip, recovery by week 4.
-4. Attrition: Are affected employees staying through the transition period? Target: <5% voluntary attrition during reorg month.
+3. Productivity metrics: Are teams delivering their normal output, or is there a measurable dip? Expected - 10-20% temporary dip, recovery by week 4.
+4. Attrition - Are affected employees staying through the transition period? Target - <5% voluntary attrition during reorg month.
 5. Psychological safety: "I feel safe asking questions about the reorg." Target: 4+/5.
 
 ```markdown
@@ -301,7 +301,7 @@ Reorg Metrics Dashboard
 | Voluntary attrition | 0 | 0 | 1 | <2 |
 ```
 
-Step 20: Escalation Procedures for Reorg Issues
+Step 20 - Escalation Procedures for Reorg Issues
 
 Create clear escalation paths for problems:
 

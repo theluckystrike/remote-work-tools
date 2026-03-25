@@ -28,10 +28,10 @@ Table of Contents
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Measuring Playlist Impact on Team Culture](#measuring-playlist-impact-on-team-culture)
 - [Scaling Playlist Management for Larger Teams](#scaling-playlist-management-for-larger-teams)
-- [Week 1: Curator A](#week-1-curator-a)
-- [Week 2: Curator B](#week-2-curator-b)
-- [Week 3: Curator C](#week-3-curator-c)
-- [Week 4: Curator D](#week-4-curator-d)
+- [Week 1 - Curator A](#week-1-curator-a)
+- [Week 2 - Curator B](#week-2-curator-b)
+- [Week 3 - Curator C](#week-3-curator-c)
+- [Week 4 - Curator D](#week-4-curator-d)
 - [Monthly Review Process](#monthly-review-process)
 - [Advanced Automation with Spotify API](#advanced-automation-with-spotify-api)
 - [Getting Started Today](#getting-started-today)
@@ -64,7 +64,7 @@ This approach works particularly well for team building events, celebrating mile
 
 Apple Music Share Playlists
 
-For teams on Apple devices, Apple Music offers collaborative playlist features similar to Spotify. Team members with Apple Music subscriptions can add tracks to shared playlists, and changes appear in real-time. The integration with Apple ecosystem features like Spatial Audio and Lossless Audio provides enhanced listening quality for teams with compatible hardware.
+For teams on Apple devices, Apple Music offers collaborative playlist features similar to Spotify. Team members with Apple Music subscriptions can add tracks to shared playlists, and changes appear in real-time. The integration with Apple environment features like Spatial Audio and Lossless Audio provides enhanced listening quality for teams with compatible hardware.
 
 Building Effective Team Playlist Norms
 
@@ -109,8 +109,8 @@ Using the Spotify API, you can post new playlist additions to Slack automaticall
 """
 spotify_playlist_notifier.py
 Posts new Spotify collaborative playlist additions to Slack.
-Requires: spotipy, slack_sdk
-Env vars: SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_REDIRECT_URI,
+Requires - spotipy, slack_sdk
+Env vars - SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_REDIRECT_URI,
           SLACK_BOT_TOKEN, PLAYLIST_ID, SLACK_CHANNEL
 """
 import os, json
@@ -177,11 +177,11 @@ Common Pitfalls to Avoid
 
 Several issues frequently derail team music initiatives. Being aware of these helps you navigate around them.
 
-Unmoderated contributions: Without any guidelines, team playlists can quickly become cluttered with inappropriate content or tracks that don't fit the intended mood. Establishing light moderation or curation rotation prevents this.
+Unmoderated contributions - Without any guidelines, team playlists can quickly become cluttered with inappropriate content or tracks that don't fit the intended mood. Establishing light moderation or curation rotation prevents this.
 
-Exclusive platforms: If your team spans various music platform preferences, choose tools that work across ecosystems. Spotify and Apple Music both have web players that work without native apps, making them more accessible than platform-exclusive services.
+Exclusive platforms - If your team spans various music platform preferences, choose tools that work across ecosystems. Spotify and Apple Music both have web players that work without native apps, making them more accessible than platform-exclusive services.
 
-Over-automation: While automation reduces manual work, completely automating playlist management removes the personal connection that makes team music collaboration meaningful. Balance efficiency with authentic human curation.
+Over-automation - While automation reduces manual work, completely automating playlist management removes the personal connection that makes team music collaboration meaningful. Balance efficiency with authentic human curation.
 
 Measuring Playlist Impact on Team Culture
 
@@ -240,19 +240,19 @@ As teams grow, manual playlist management becomes unsustainable. Implement struc
 ```markdown
 Playlist Curator Rotation (Monthly)
 
-Week 1: Curator A
+Week 1 - Curator A
 - Curates Monday additions (5 tracks max)
 - Responds to track requests in #music-requests
 - Resolves any moderation issues
 
-Week 2: Curator B
+Week 2 - Curator B
 - Manages same responsibilities
 - Reviews previous week's engagement metrics
 
-Week 3: Curator C
+Week 3 - Curator C
 - Continues rotation
 
-Week 4: Curator D
+Week 4 - Curator D
 - Plus: runs monthly playlist review vote
 
 Monthly Review Process
@@ -272,7 +272,7 @@ For technical teams wanting deeper integration, the Spotify API enables sophisti
 #!/usr/bin/env python3
 """
 Advanced Spotify playlist automation for remote teams.
-Requires: Spotify Developer credentials, Redis cache
+Requires - Spotify Developer credentials, Redis cache
 """
 
 import spotipy

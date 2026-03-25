@@ -20,11 +20,11 @@ Create a structured client offboarding process that includes final deliverable r
 Table of Contents
 
 - [Why Offboarding Documentation Matters](#why-offboarding-documentation-matters)
-- [Pre-Offboarding Phase: Gather Information](#pre-offboarding-phase-gather-information)
-- [Asset Inventory: [Client Name]](#asset-inventory-client-name)
+- [Pre-Offboarding Phase - Gather Information](#pre-offboarding-phase-gather-information)
+- [Asset Inventory - [Client Name]](#asset-inventory-client-name)
 - [The Handoff Documentation Package](#the-handoff-documentation-package)
 - [Technical Overview](#technical-overview)
-- [Runbook: Deploying a Hotfix](#runbook-deploying-a-hotfix)
+- [Runbook - Deploying a Hotfix](#runbook-deploying-a-hotfix)
 - [Account Access](#account-access)
 - [Offboarding Communication Template](#offboarding-communication-template)
 - [Timeline](#timeline)
@@ -40,7 +40,7 @@ Effective offboarding serves three purposes. First, it transfers institutional k
 
 Remote agencies that skip formal offboarding create risk. Without documentation, clients may claim deliverables were incomplete. Incoming teams struggle to maintain systems they don't understand. Your team loses visibility into what was actually delivered across distributed engagements.
 
-Pre-Offboarding Phase: Gather Information
+Pre-Offboarding Phase - Gather Information
 
 Before initiating the offboarding process, compile an inventory of the client's assets, access credentials, and project history.
 
@@ -49,7 +49,7 @@ Asset Inventory Checklist
 Create a document listing everything the client needs:
 
 ```markdown
-Asset Inventory: [Client Name]
+Asset Inventory - [Client Name]
 
 Domains & Hosting
 - [ ] Domain registrar: [name]
@@ -117,7 +117,7 @@ Operational Runbooks
 Create step-by-step guides for common operational tasks. These reduce the client's dependence on your team for routine questions.
 
 ```markdown
-Runbook: Deploying a Hotfix
+Runbook - Deploying a Hotfix
 
 1. Create a branch from `production`: `git checkout -b hotfix/description`
 2. Make necessary changes
@@ -152,7 +152,7 @@ Offboarding Communication Template
 Structure your offboarding communication to set clear expectations and provide actionable next steps.
 
 ```
-Subject: Offboarding Schedule and Handoff Package for [Client Name]
+Subject - Offboarding Schedule and Handoff Package for [Client Name]
 
 Hi [Client Contact],
 
@@ -191,7 +191,7 @@ System Overview (1-2 hours)
 Walk through architecture, key decisions, and technical trade-offs. Record these sessions for future reference. Use screen sharing to show configuration files, deployment processes, and monitoring dashboards.
 
 Operations Training (1-2 hours)
-Demonstrate common tasks: deploying code, rolling back, monitoring, responding to alerts. Have the client attempt these tasks while you observe and provide guidance.
+Demonstrate common tasks - deploying code, rolling back, monitoring, responding to alerts. Have the client attempt these tasks while you observe and provide guidance.
 
 Q&A Session (30-60 minutes)
 Open floor for questions. Anticipate concerns about maintaining systems, handling emergencies, and onboarding future developers.
@@ -200,13 +200,13 @@ Post-Offboarding Considerations
 
 Define what support, if any, you provide after the official offboarding date. Common options include:
 
-Paid Support Retainer: Client pays ongoing retainer for defined support hours per month. Clearly document response times and scope.
+Paid Support Retainer - Client pays ongoing retainer for defined support hours per month. Clearly document response times and scope.
 
-Emergency-Only Contact: Provide a single point of contact for critical issues only. Define what constitutes "critical" to prevent abuse.
+Emergency-Only Contact - Provide a single point of contact for critical issues only. Define what constitutes "critical" to prevent abuse.
 
-Transition Period: Offer 30 days of limited support to handle questions arising from the handoff. This is often included as professional courtesy.
+Transition Period - Offer 30 days of limited support to handle questions arising from the handoff. This is often included as professional courtesy.
 
-No Ongoing Support: Complete transition with no further obligations. Ensure handoff documentation is enough to stand alone.
+No Ongoing Support - Complete transition with no further obligations. Ensure handoff documentation is enough to stand alone.
 
 Document the support arrangement in writing before offboarding completes.
 
@@ -214,15 +214,15 @@ Common Offboarding Pitfalls
 
 Avoid these frequent mistakes that plague remote agency offboarding:
 
-Incomplete Access Transfer: Clients receive documentation but lack actual access to accounts. Verify credentials work before the offboarding date.
+Incomplete Access Transfer - Clients receive documentation but lack actual access to accounts. Verify credentials work before the offboarding date.
 
-Assuming Client Technical Knowledge: Your team understands the system intimately, clients may not. Document everything at an appropriate level.
+Assuming Client Technical Knowledge - Your team understands the system intimately, clients may not. Document everything at an appropriate level.
 
-Rushing the Process: Compress timelines to accommodate client requests create gaps in knowledge transfer. Stick to minimum timelines.
+Rushing the Process - Compress timelines to accommodate client requests create gaps in knowledge transfer. Stick to minimum timelines.
 
-No Rollback Plan: If the client makes changes and systems break, they need a path to recover. Always provide rollback procedures.
+No Rollback Plan - If the client makes changes and systems break, they need a path to recover. Always provide rollback procedures.
 
-Forgetting Recurring Costs: Remind clients about subscriptions, renewals, and ongoing costs they may not have been aware were being managed by your team.
+Forgetting Recurring Costs - Remind clients about subscriptions, renewals, and ongoing costs they may not have been aware were being managed by your team.
 
 Frequently Asked Questions
 

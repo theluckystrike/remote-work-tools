@@ -26,8 +26,8 @@ Table of Contents
 - [Time Zone Considerations](#time-zone-considerations)
 - [What to Avoid](#what-to-avoid)
 - [Calendar Management Tools Comparison](#calendar-management-tools-comparison)
-- [Template: Core Meetings for a 30-Person Product Org](#template-core-meetings-for-a-30-person-product-org)
-- [Automation: Meeting Reminder and Blocking Script](#automation-meeting-reminder-and-blocking-script)
+- [Template - Core Meetings for a 30-Person Product Org](#template-core-meetings-for-a-30-person-product-org)
+- [Automation - Meeting Reminder and Blocking Script](#automation-meeting-reminder-and-blocking-script)
 - [Monitoring Effectiveness](#monitoring-effectiveness)
 - [Current Meeting Load (Week of March 18)](#current-meeting-load-week-of-march-18)
 
@@ -37,19 +37,19 @@ The Core Meeting Structure
 
 A healthy meeting schedule for a 30-person product org needs four meeting tiers. Each serves a distinct purpose and involves specific participants.
 
-Tier 1: Company All-Hands (Weekly, 45 minutes)
+Tier 1 - Company All-Hands (Weekly, 45 minutes)
 
 This is the only meeting where everyone participates together. Schedule it early in the week, Monday or Tuesday morning works well for most teams.
 
-Purpose: Company-wide announcements, OKR progress, celebrating wins
-Format: Short presentations (no more than 15 minutes total), Q&A (20 minutes), optional social time (10 minutes)
-Key rule: No new decisions here. This meeting broadcasts information, not creates it.
+Purpose - Company-wide announcements, OKR progress, celebrating wins
+Format - Short presentations (no more than 15 minutes total), Q&A (20 minutes), optional social time (10 minutes)
+Key rule - No new decisions here. This meeting broadcasts information, not creates it.
 
-Tier 2: Product Sync (Twice Weekly, 30 minutes)
+Tier 2 - Product Sync (Twice Weekly, 30 minutes)
 
 Cross-functional coordination between product, engineering, and design leads.
 
-Participants: Product Manager, Engineering Lead, Design Lead, QA Lead (typically 6-8 people)
+Participants - Product Manager, Engineering Lead, Design Lead, QA Lead (typically 6-8 people)
 
 ```javascript
 // Example calendar block configuration
@@ -63,10 +63,10 @@ const productSync = {
 };
 ```
 
-Purpose: Review sprint progress, identify blockers, align on priorities
-Format: Standing meeting, quick round-robin updates, parking lot for deeper discussions
+Purpose - Review sprint progress, identify blockers, align on priorities
+Format - Standing meeting, quick round-robin updates, parking lot for deeper discussions
 
-Tier 3: Team-Specific Meetings (Varies, 30-60 minutes)
+Tier 3 - Team-Specific Meetings (Varies, 30-60 minutes)
 
 Each functional team (frontend, backend, design, product) runs their own cadence. Don't mandate uniformity across teams, some prefer daily standups, others weekly syncs.
 
@@ -75,11 +75,11 @@ Recommended defaults:
 - Design team: 30-minute weekly critique + 60-minute sprint planning
 - Product team: 30-minute weekly roadmap review
 
-Tier 4: Ad-Hoc Working Sessions (As Needed)
+Tier 4 - Ad-Hoc Working Sessions (As Needed)
 
 Created specifically for deep work on defined topics. These have clear agendas, time limits, and explicit outcomes.
 
-Key principle: If a meeting doesn't fit one of these tiers, question whether it needs to exist.
+Key principle - If a meeting doesn't fit one of these tiers, question whether it needs to exist.
 
 Calculating Your Meeting Load
 
@@ -93,7 +93,7 @@ With 30 people, naive scheduling quickly consumes available hours. Here's a quic
 | Design Weekly | 1x | 60 min | 5 | 5 |
 | Product Weekly | 1x | 60 min | 4 | 4 |
 
-Total recurring meetings: ~52 hours per week across the organization, or roughly 1.7 hours per person per week in formal meetings. This leaves substantial focus time for deep work.
+Total recurring meetings - ~52 hours per week across the organization, or roughly 1.7 hours per person per week in formal meetings. This leaves substantial focus time for deep work.
 
 Practical Implementation
 
@@ -160,7 +160,7 @@ Time Zone Considerations
 
 With 30 people, you're likely spanning multiple time zones. Use a tool like World Time Buddy or similar to find overlap.
 
-Practical rule: No meeting should require anyone to attend before 8 AM or after 6 PM local time. If you have people in significantly different zones (US + Europe + Asia), consider rotating meeting times fairly.
+Practical rule - No meeting should require anyone to attend before 8 AM or after 6 PM local time. If you have people in significantly different zones (US + Europe + Asia), consider rotating meeting times fairly.
 
 What to Avoid
 
@@ -175,13 +175,13 @@ Calendar Management Tools Comparison
 
 Different organizations use different tools to manage meeting schedules at scale. Here's what works:
 
-Google Calendar with Admin Console: Free or $6-18/user/month via Google Workspace. Admin can enforce meeting-free times and create shared calendars. Works well for teams already in Google Workspace. Limitation: building complex meeting rotations requires scripting.
+Google Calendar with Admin Console - Free or $6-18/user/month via Google Workspace. Admin can enforce meeting-free times and create shared calendars. Works well for teams already in Google Workspace. Limitation - building complex meeting rotations requires scripting.
 
-Calendly: $10-25/user/month. Excellent for scheduling around availability. Creates meeting links automatically and integrates with Slack. Best for teams with distributed scheduling needs and external meeting coordination. Overkill if you already use Google Calendar.
+Calendly - $10-25/user/month. Excellent for scheduling around availability. Creates meeting links automatically and integrates with Slack. Best for teams with distributed scheduling needs and external meeting coordination. Overkill if you already use Google Calendar.
 
-Outlook (Microsoft 365): $6-12.50/user/month. Graph API enables powerful scheduling automation. Teams integration makes setting up meeting links simple. Best for enterprises already using Microsoft 365.
+Outlook (Microsoft 365) - $6-12.50/user/month. Graph API enables powerful scheduling automation. Teams integration makes setting up meeting links simple. Best for enterprises already using Microsoft 365.
 
-Notion Calendar + Coda: $10-20/month for Notion Team plan. Build sophisticated scheduling databases linked to team planning. More manual but highly flexible.
+Notion Calendar + Coda - $10-20/month for Notion Team plan. Build sophisticated scheduling databases linked to team planning. More manual but highly flexible.
 
 Slack Workflow + Google Calendar API: Free. Build custom reminders and meeting blocking. Requires development time but offers most control.
 
@@ -192,7 +192,7 @@ Cost for 30-person org:
 - Notion + Coda: $20-40/month (team plan)
 - Slack Workflow: $0 (staff time only)
 
-Template: Core Meetings for a 30-Person Product Org
+Template - Core Meetings for a 30-Person Product Org
 
 Use this as a starting point, then customize based on your org structure:
 
@@ -219,7 +219,7 @@ Ad-hoc as needed:
 
 This structure totals roughly 5.5 hours of recurring meetings per week across the org.
 
-Automation: Meeting Reminder and Blocking Script
+Automation - Meeting Reminder and Blocking Script
 
 Save this as a cron job to enforce meeting boundaries and send reminders:
 

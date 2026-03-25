@@ -19,11 +19,11 @@ Choose Zulip if your team needs persistent, organized conversation archives with
 Table of Contents
 
 - [Why Threading Models Matter for Remote Teams](#why-threading-models-matter-for-remote-teams)
-- [Threading Models: Fundamental Differences](#threading-models-fundamental-differences)
+- [Threading Models - Fundamental Differences](#threading-models-fundamental-differences)
 - [Practical Implications for Developer Teams](#practical-implications-for-developer-teams)
 - [API and Integration Considerations](#api-and-integration-considerations)
 - [Pricing Comparison for 2026](#pricing-comparison-for-2026)
-- [Remote Work Scenarios: Which Tool Fits](#remote-work-scenarios-which-tool-fits)
+- [Remote Work Scenarios - Which Tool Fits](#remote-work-scenarios-which-tool-fits)
 - [Which Model Suits Your Team?](#which-model-suits-your-team)
 - [Performance Considerations](#performance-considerations)
 
@@ -33,7 +33,7 @@ For co-located teams, missed conversations can be recovered in a hallway. For re
 
 Slack and Zulip take fundamentally different approaches to this problem. Slack treats conversations as flowing streams where threads are optional sidebars. Zulip treats every message as belonging to a named topic, making threads mandatory and persistent. Neither approach is universally superior, but the differences compound over time in ways that affect team knowledge retention, onboarding speed, and meeting overhead.
 
-Threading Models: Fundamental Differences
+Threading Models - Fundamental Differences
 
 Slack and Zulip take fundamentally different approaches to conversation structure. Understanding these differences is crucial for teams evaluating these platforms.
 
@@ -43,7 +43,7 @@ Slack organizes conversations around channels, with reply threads that branch of
 
 ```markdown
 Slack Thread Example
-Main channel: #engineering
+Main channel - #engineering
 
 [12:34] @alice: Deploy to staging complete
           Reply in thread
@@ -60,7 +60,7 @@ Zulip's Topic-Based Model
 Zulip uses a topic-based threading system that organizes messages under subject lines. Unlike Slack's free-form replies, Zulip requires every message to belong to a topic, a named thread that persists indefinitely.
 
 ```python
-Zulip API: Creating a message in a topic
+Zulip API - Creating a message in a topic
 POST /api/v1/messages
 
 {
@@ -79,9 +79,9 @@ Practical Implications for Developer Teams
 
 Context Retention
 
-Zulip's advantage: topics persist indefinitely in free tier. New team members can scroll back through months of discussion on any topic without hitting paywalls or losing context. The topic model encourages descriptive naming, which improves discoverability.
+Zulip's advantage - topics persist indefinitely in free tier. New team members can scroll back through months of discussion on any topic without hitting paywalls or losing context. The topic model encourages descriptive naming, which improves discoverability.
 
-Slack's advantage: channel-based organization works well for real-time communication. Threads feel more organic for quick Q&An exchanges. However, thread decay in free tier means older discussions become inaccessible.
+Slack's advantage - channel-based organization works well for real-time communication. Threads feel more organic for quick Q&An exchanges. However, thread decay in free tier means older discussions become inaccessible.
 
 For onboarding specifically, Zulip's model is substantially better. A new engineer joining a team can browse the `#architecture` stream's topics chronologically, read through decision threads at their own pace, and understand why systems were built the way they were. In Slack, that same engineer either pays for message history or loses context entirely.
 
@@ -92,7 +92,7 @@ In Slack, you can configure notifications at the channel level or for specific t
 Zulip's notification model operates at the stream and topic level:
 
 ```python
-Zulip API: Configure notification settings
+Zulip API - Configure notification settings
 PUT /api/v1/settings/notifications
 
 {
@@ -122,7 +122,7 @@ stream:engineering has:link
 
 Slack's search is powerful but treats all messages as flat unless they belong to active threads. Advanced search operators exist but require more complex queries to achieve similar results.
 
-One underappreciated aspect: Zulip's search returns results organized by topic, so finding a decision thread means finding the entire discussion in one place. Slack search returns individual messages, requiring the searcher to reconstruct context by scrolling up and down around each result.
+One underappreciated aspect - Zulip's search returns results organized by topic, so finding a decision thread means finding the entire discussion in one place. Slack search returns individual messages, requiring the searcher to reconstruct context by scrolling up and down around each result.
 
 API and Integration Considerations
 
@@ -164,7 +164,7 @@ Zulip Bot Framework
 Zulip offers a Python-based bot framework that integrates smoothly with topics:
 
 ```python
-Zulip bot example: Auto-responder for deployments
+Zulip bot example - Auto-responder for deployments
 from zulip import Client
 
 class DeploymentBot:
@@ -183,7 +183,7 @@ class DeploymentBot:
             })
 ```
 
-Zulip's integration ecosystem is smaller but growing. Common developer tools, GitHub, GitLab, PagerDuty, Sentry, Datadog, all have Zulip integrations. Teams with straightforward toolchain integration needs rarely encounter gaps. Teams with unusual tooling combinations may need to build custom webhooks.
+Zulip's integration environment is smaller but growing. Common developer tools, GitHub, GitLab, PagerDuty, Sentry, Datadog, all have Zulip integrations. Teams with straightforward toolchain integration needs rarely encounter gaps. Teams with unusual tooling combinations may need to build custom webhooks.
 
 Pricing Comparison for 2026
 
@@ -200,11 +200,11 @@ Zulip's free tier is genuinely competitive for small teams. The unlimited messag
 
 Zulip's self-hosting option is meaningful for organizations with data residency requirements. Deploying Zulip on your own infrastructure gives full control over data without sacrificing collaboration features.
 
-Remote Work Scenarios: Which Tool Fits
+Remote Work Scenarios - Which Tool Fits
 
 Async-heavy distributed teams across 4+ timezones: Zulip. The topic model preserves context that async teams depend on. A developer in Tokyo can post a question at 8 PM JST and the engineer in Berlin who responds at 8 AM CET stays within the same topic. The thread is coherent when the Tokyo engineer wakes up the next morning.
 
-Teams with heavy integration requirements: Slack. If your workflow depends on GitHub pull request notifications, Datadog alerts, customer support escalations from Zendesk, and deployment updates from Heroku, all routing into chat channels, Slack's integration ecosystem is more mature.
+Teams with heavy integration requirements: Slack. If your workflow depends on GitHub pull request notifications, Datadog alerts, customer support escalations from Zendesk, and deployment updates from Heroku, all routing into chat channels, Slack's integration environment is more mature.
 
 Startups optimizing for speed over documentation: Slack. Fast-moving teams that update strategy weekly don't benefit from three-year conversation archives. Real-time coordination outweighs institutional knowledge preservation at early stages.
 

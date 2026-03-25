@@ -44,13 +44,13 @@ Table of Contents
 
 1. Logitech C920 HD
 
-Price: $40-50 (frequently on sale)
+Price - $40-50 (frequently on sale)
 
 Specs:
 - Resolution: 1080p @ 30fps (720p @ 60fps mode available)
 - Sensor: 1/4" CMOS
 - Field of View: 78°
-- Focus: Fixed (best at 1.5-3 feet)
+- Focus - Fixed (best at 1.5-3 feet)
 - Light Sensitivity: Decent in moderate light
 - Audio: Stereo microphones (built-in, basic quality)
 - USB: 2.0 (plug and play)
@@ -70,9 +70,9 @@ Real-World Performance:
 - No-frills audio (build in external mic)
 - Auto white balance sometimes oversaturates
 
-Best for: Budget-conscious, well-lit desk setups, non-video-heavy roles.
+Best for - Budget-conscious, well-lit desk setups, non-video-heavy roles.
 
-Amazon Link: Logitech C920 (verify current price)
+Amazon Link - Logitech C920 (verify current price)
 
 The baseline. If your budget is $50, it's adequate. If you can stretch $30 more, skip to C922 or Anker.
 
@@ -80,13 +80,13 @@ The baseline. If your budget is $50, it's adequate. If you can stretch $30 more,
 
 2. Logitech C922 Pro Stream Webcam
 
-Price: $60-75
+Price - $60-75
 
 Specs:
 - Resolution: 1080p @ 30fps (720p @ 60fps mode)
 - Sensor: 1/4" CMOS
 - Field of View: 78°
-- Focus: Autofocus (0.4-3+ feet; crucial upgrade from C920)
+- Focus - Autofocus (0.4-3+ feet; crucial upgrade from C920)
 - Light Sensitivity: Better than C920 (improved sensor, auto exposure)
 - Audio: Stereo microphones (same quality as C920)
 - USB: 2.0
@@ -105,7 +105,7 @@ Real-World Performance:
 - Audio still basic (use external mic)
 - Slightly more expensive than C920
 
-Best for: Most remote workers; sweet spot for price/performance. Solo video calls, well-lit environments.
+Best for - Most remote workers; sweet spot for price/performance. Solo video calls, well-lit environments.
 
 If you have $70, buy this over C920. Autofocus alone is worth the $20-30 premium. This is the most popular webcam for remote work.
 
@@ -113,7 +113,7 @@ If you have $70, buy this over C920. Autofocus alone is worth the $20-30 premium
 
 3. Logitech Brio
 
-Price: $80-95
+Price - $80-95
 
 Specs:
 - Resolution: 4K @ 30fps (1080p @ 60fps, 720p @ 90fps)
@@ -142,7 +142,7 @@ Real-World Performance:
 - Audio still requires external mic for professional recordings
 - Slightly heavier than C920/C922
 
-Best for: Content creators, frequent video calls, low-light offices, professionals who want best-in-class.
+Best for - Content creators, frequent video calls, low-light offices, professionals who want best-in-class.
 
 The best webcam under $100. If you can afford it ($85-95), this is the one. Superior low-light, wider angle, future-proof resolution.
 
@@ -150,7 +150,7 @@ The best webcam under $100. If you can afford it ($85-95), this is the one. Supe
 
 4. Anker PowerConf C200
 
-Price: $45-55
+Price - $45-55
 
 Specs:
 - Resolution: 1080p @ 30fps
@@ -178,7 +178,7 @@ Real-World Performance:
 - No 4K option
 - Build quality feels slightly cheaper than Logitech
 
-Best for: Budget option with a tripod, small teams, desk setups.
+Best for - Budget option with a tripod, small teams, desk setups.
 
 Best value option. $10-15 cheaper than C922 but comparable quality. If Logitech is sold out, this is the move.
 
@@ -186,13 +186,13 @@ Best value option. $10-15 cheaper than C922 but comparable quality. If Logitech 
 
 5. Elgato Facecam
 
-Price: $80-90
+Price - $80-90
 
 Specs:
 - Resolution: 1080p @ 60fps (1440p @ 60fps special mode)
-- Sensor: Custom Sony sensor, 1/2.4" (larger than Brio)
+- Sensor - Custom Sony sensor, 1/2.4" (larger than Brio)
 - Field of View: 83°
-- Focus: Autofocus (fast, 0.1-1 second)
+- Focus - Autofocus (fast, 0.1-1 second)
 - Light Sensitivity: Excellent (scene-specific auto-adjustment)
 - Audio: Omni-directional mic (surprisingly good)
 - USB: 3.0
@@ -205,7 +205,7 @@ Real-World Performance:
 - Largest sensor here (1/2.4"; rivals professional cameras)
 - Excellent autofocus speed
 - Built-in software: green screen, scene filters, dashboard overlay
-- Integrates with Elgato ecosystem (Stream Deck, Key Light)
+- Integrates with Elgato environment (Stream Deck, Key Light)
 - Better for streaming than Zoom
 
 - Marketed to streamers/creators, overkill for basic calling
@@ -213,7 +213,7 @@ Real-World Performance:
 - Pricing depends on sales (sometimes $90+)
 - Software bloat if you don't use Elgato products
 
-Best for: Content creators, streamers, Elgato ecosystem users, professionals who want premium video.
+Best for - Content creators, streamers, Elgato environment users, professionals who want premium video.
 
 Premium option for video quality. If you're in a tech-heavy role and use Elgato products, this shines. For pure video calling, Brio is more practical.
 
@@ -233,56 +233,56 @@ Specification Comparison Table
 
 Real-World Scenario Comparison
 
-Scenario 1: Small Desk, Well-Lit Office
+Scenario 1 - Small Desk, Well-Lit Office
 
-Setup: Monitor on desk, webcam on top, 2-3 feet distance, daylight window.
+Setup - Monitor on desk, webcam on top, 2-3 feet distance, daylight window.
 
-Best Option: Logitech C922 ($60-75)
+Best Option - Logitech C922 ($60-75)
 
-Why: Autofocus at 2-3 feet, good auto-white-balance with natural light, 78° FOV captures you and your monitor. Cost-benefit sweet spot.
+Why - Autofocus at 2-3 feet, good auto-white-balance with natural light, 78° FOV captures you and your monitor. Cost-benefit sweet spot.
 
-Scenario 2: Dark Office, Evening Calls
+Scenario 2 - Dark Office, Evening Calls
 
-Setup: Single desk lamp, no windows, low ambient light, frequent video calls.
+Setup - Single desk lamp, no windows, low ambient light, frequent video calls.
 
-Best Option: Logitech Brio ($80-95)
+Best Option - Logitech Brio ($80-95)
 
-Why: 90° wider FOV, exceptional low-light performance via 1/3" sensor, auto light correction handles dark rooms. Cost justified by quality.
+Why - 90° wider FOV, exceptional low-light performance via 1/3" sensor, auto light correction handles dark rooms. Cost justified by quality.
 
-Scenario 3: Group Meetings (3-5 people in frame)
+Scenario 3 - Group Meetings (3-5 people in frame)
 
-Setup: Conference table, multiple people, need wide angle.
+Setup - Conference table, multiple people, need wide angle.
 
-Best Option: Logitech Brio or Anker C200 with wide lens
+Best Option - Logitech Brio or Anker C200 with wide lens
 
-Why: 90° FOV on Brio captures 4-5 people; Anker C200 on tripod provides better positioning. Both have autofocus for mid-distance (3-6 feet).
+Why - 90° FOV on Brio captures 4-5 people; Anker C200 on tripod provides better positioning. Both have autofocus for mid-distance (3-6 feet).
 
-Scenario 4: Budget $50 Maximum
+Scenario 4 - Budget $50 Maximum
 
-Setup: Any office environment.
+Setup - Any office environment.
 
-Best Option: Anker C200 or Logitech C920
+Best Option - Anker C200 or Logitech C920
 
-Why: Anker C200 offers autofocus at $45-55. C920 is cheaper ($40) but fixed focus is limiting. Anker wins.
+Why - Anker C200 offers autofocus at $45-55. C920 is cheaper ($40) but fixed focus is limiting. Anker wins.
 
-Scenario 5: Content Creation + Video Calls
+Scenario 5 - Content Creation + Video Calls
 
-Setup: Streaming setup, multiple camera angles, lighting rig.
+Setup - Streaming setup, multiple camera angles, lighting rig.
 
-Best Option: Elgato Facecam ($80-90)
+Best Option - Elgato Facecam ($80-90)
 
-Why: 1440p @ 60fps, largest sensor, integrates with Stream Deck and Key Light. Optimal for production.
+Why - 1440p @ 60fps, largest sensor, integrates with Stream Deck and Key Light. Optimal for production.
 
 ---
 
 Field of View Visual Guide
 
 ```
-C920, C922, Anker C200: 78-80° FOV
+C920, C922, Anker C200 - 78-80° FOV
 ↔ Captures: You + Shoulders (tight)
  Good for: 1-2 people, head/torso only
 
-Brio: 90° FOV
+Brio - 90° FOV
 ↔ Captures: You + Arms + Some Background
  Good for: 3-5 people, full upper body
 
@@ -338,7 +338,7 @@ Buying Checklist
 
 - [ ] Measure desk height and monitor position (ensure camera sits at eye level)
 - [ ] Test lighting in your office (bright? dim? evening calls?)
-- [ ] Decide: Solo calls vs. group calls (affects FOV priority)
+- [ ] Decide - Solo calls vs. group calls (affects FOV priority)
 - [ ] Budget: $50? $75? $100?
 - [ ] Check Amazon/B&H Photo for current prices (often on sale)
 - [ ] Read latest reviews (sometimes newer models replace old ones)

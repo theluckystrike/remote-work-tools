@@ -36,7 +36,7 @@ A well-structured remote town hall fixes all of these with explicit process rath
 
 ---
 
-Pre-Event: Collect Questions Before the Meeting
+Pre-Event - Collect Questions Before the Meeting
 
 Open a question submission channel 72 hours before the town hall. Use Slido, Mentimeter, or a simple shared doc. the tool matters less than opening the window early enough that people across all time zones can contribute.
 
@@ -45,9 +45,9 @@ Structure the submission request:
 ```
 Town Hall Questions. Submit by [date, 24h before event]
 
-Submit your questions at: [Slido link or shared doc]
-Anonymous submissions: enabled
-Categories: Strategy / People & Culture / Process / Product / Open
+Submit your questions at - [Slido link or shared doc]
+Anonymous submissions - enabled
+Categories - Strategy / People & Culture / Process / Product / Open
 
 Questions submitted before the event will be reviewed in advance.
 We'll answer as many as possible live, with remaining answers posted
@@ -90,11 +90,11 @@ Running Live Q&A at Scale
 
 With a distributed team, live Q&A coordination matters. Designate roles before the meeting:
 
-Facilitator: Manages the queue, reads questions, keeps time. Should not be the CEO or the person fielding most of the answers. they need to be able to think and respond, not manage a queue simultaneously.
+Facilitator - Manages the queue, reads questions, keeps time. Should not be the CEO or the person fielding most of the answers. they need to be able to think and respond, not manage a queue simultaneously.
 
-Question monitor: Watches the Slido or chat feed, upvotes questions from the audience in real time, flags duplicates, and passes the top questions to the facilitator.
+Question monitor - Watches the Slido or chat feed, upvotes questions from the audience in real time, flags duplicates, and passes the top questions to the facilitator.
 
-Timekeeper: Signals privately when 5 minutes remain in the Q&A block so the facilitator can begin wrapping.
+Timekeeper - Signals privately when 5 minutes remain in the Q&A block so the facilitator can begin wrapping.
 
 The facilitator reads questions verbatim or near-verbatim rather than paraphrasing. Paraphrasing subtly changes the question's intent and erodes the asker's trust that their question was heard correctly.
 
@@ -112,25 +112,25 @@ Do not give a non-answer that sounds like an answer. "We're exploring all option
 
 ---
 
-Async Follow-Up: Capturing Questions from People Who Couldn't Attend
+Async Follow-Up - Capturing Questions from People Who Couldn't Attend
 
 Create a permanent follow-up document before the event and share the link in the announcement:
 
 ```markdown
 Town Hall Follow-Up. March 16, 2026
 
-Recording: [link. available within 2 hours of event end]
-Submit async questions: [link. open for 72 hours post-event]
-Answers posted: within 48 hours
+Recording - [link. available within 2 hours of event end]
+Submit async questions - [link. open for 72 hours post-event]
+Answers posted - within 48 hours
 
 ---
 
 Live Q&A Questions and Answers
 
 Q: What is the timeline for the authentication system migration?
-Asked by: Engineering Team | Category: Product
+Asked by - Engineering Team | Category: Product
 
-Answer: Migration begins April 1 with the internal tooling suite.
+Answer - Migration begins April 1 with the internal tooling suite.
 Customer-facing services migrate in Q2, starting with the lowest-traffic
 endpoints. A migration guide will be shared in #engineering-announcements
 one week before each phase.
@@ -138,9 +138,9 @@ one week before each phase.
 ---
 
 Q: Can we get better visibility into on-call rotation schedules?
-Asked by: DevOps Team | Category: Process
+Asked by - DevOps Team | Category: Process
 
-Answer: We've heard this feedback repeatedly. OpsGenie dashboard access will
+Answer - We've heard this feedback repeatedly. OpsGenie dashboard access will
 be granted to all engineers by March 20. A follow-up session on on-call best
 practices is being scheduled.
 
@@ -161,11 +161,11 @@ Topics Covered:
 - Authentication migration timeline
 - On-call visibility improvements
 
-Questions Answered: 12 live + 8 async
-Full follow-up doc: [link]
-Recording: [link]
+Questions Answered - 12 live + 8 async
+Full follow-up doc - [link]
+Recording - [link]
 
-Next Town Hall: April 20, 2026
+Next Town Hall - April 20, 2026
 ```
 
 The 48-hour window matters. Posting a recap three days later, when people have mentally moved on, generates far less engagement than posting within the day or the next morning. The recap serves as a courtesy to attendees and as a mechanism to keep action items visible. items that disappear into a follow-up document no one re-reads tend to stay unresolved.
@@ -198,25 +198,25 @@ Preparing for Your First Remote Town Hall
 
 Before scheduling your first town hall, do a dry run internally:
 
-Week 1: Planning
+Week 1 - Planning
 - Decide on monthly cadence (most companies do monthly, some quarterly for larger groups)
 - Identify 2-3 core topics leadership wants to cover
 - Identify 1-2 outcomes for the meeting (increase transparency, answer questions, celebrate wins)
 - Send calendar invites with 2 weeks notice so people can submit questions
 
-Week 2: Preparation
+Week 2 - Preparation
 - Prepare 3-4 slides covering topics (5 slides max)
 - Plan 15-20 minutes of content, leaving 30-40 minutes for Q&A
 - Write talking points, not word-for-word script
 - Practice presenting once with your co-founder or manager timing you
 
-Week 3: Infrastructure
+Week 3 - Infrastructure
 - Test Zoom connection with 5 people to verify audio and screen sharing work
 - Prepare moderator to watch Q&A channel and compile questions
 - Prepare backup presenter in case primary speaker loses connection
 - Verify that Q&A channel and recording link are correct
 
-Week 4: Execution
+Week 4 - Execution
 - Join Zoom 10 minutes early to test everything
 - Verify Q&A channel is live and team is monitoring
 - Start 5 minutes late if waiting for stragglers
@@ -228,13 +228,13 @@ Creating Psychological Safety for Questions
 
 Questions about uncertain topics often feel risky for employees. Create safety through:
 
-Answer honestly: If you don't know, say "I don't know, but I'll find out and follow up." This is better than speculation.
+Answer honestly - If you don't know, say "I don't know, but I'll find out and follow up." This is better than speculation.
 
-Answer unpopular questions: Someone asks "Are we going to have layoffs?" This is uncomfortable but real. Address it directly: "We're not planning layoffs. If revenue drops significantly, we'd need to make tough choices. Current plan is to grow. But I understand the concern."
+Answer unpopular questions - Someone asks "Are we going to have layoffs?" This is uncomfortable but real. Address it directly: "We're not planning layoffs. If revenue drops significantly, we'd need to make tough choices. Current plan is to grow. But I understand the concern."
 
-Answer critical questions: Someone asks "Why did the acquisition fall through?" Don't evade. Transparency builds trust.
+Answer critical questions - Someone asks "Why did the acquisition fall through?" Don't evade. Transparency builds trust.
 
-Celebrate questioners: "Great question, thank you for asking that" makes the next person more likely to ask.
+Celebrate questioners - "Great question, thank you for asking that" makes the next person more likely to ask.
 
 Managing Different Communication Preferences
 
@@ -249,15 +249,15 @@ Handling Contentious Topics
 
 Some town halls surface real tension (why are salaries lower than competitors, why are we using expensive tool X, why was decision Y made):
 
-Acknowledge the tension: "This is a fair question and I understand why people are concerned."
+Acknowledge the tension - "This is a fair question and I understand why people are concerned."
 
-Explain the rationale: Not everyone will agree, but they should understand your thinking.
+Explain the rationale - Not everyone will agree, but they should understand your thinking.
 
-Invite offline discussion: "This is complex and deserve more time than town hall allows. Let's do a separate conversation with interested people."
+Invite offline discussion - "This is complex and deserve more time than town hall allows. Let's do a separate conversation with interested people."
 
-Commit to follow-up: If you don't have an answer, commit to getting one and following up by specific date.
+Commit to follow-up - If you don't have an answer, commit to getting one and following up by specific date.
 
-Action items: If the town hall surfaces a real problem, capture it as an action item and track to resolution.
+Action items - If the town hall surfaces a real problem, capture it as an action item and track to resolution.
 
 Celebration and Recognition
 
@@ -273,11 +273,11 @@ Building Feedback Loops from Town Hall
 
 The purpose of town hall isn't just information sharing, it's creating a feedback loop where you hear team concerns and respond:
 
-Q&A Themes: After each town hall, group questions by theme. Are most questions about compensation? Career growth? Remote work policy? The themes tell you what's on people's minds.
+Q&A Themes - After each town hall, group questions by theme. Are most questions about compensation? Career growth? Remote work policy? The themes tell you what's on people's minds.
 
-Action Items: Track questions that generate action items. Who owns it? When will it be completed? Post updates at next town hall.
+Action Items - Track questions that generate action items. Who owns it? When will it be completed? Post updates at next town hall.
 
-Measurement: "Last month I said we'd clarify our remote work policy. We did. Here's the policy. That was your question driving that action."
+Measurement - "Last month I said we'd clarify our remote work policy. We did. Here's the policy. That was your question driving that action."
 
 Creating this visible feedback loop makes people trust that their questions matter.
 
@@ -311,21 +311,21 @@ Very Large (200+ people)
 
 Common Town Hall Mistakes
 
-No clear outcome: "We held our first town hall" is not an outcome. Define whether it's for transparency, decision-making, celebration, or feedback. Design accordingly.
+No clear outcome - "We held our first town hall" is not an outcome. Define whether it's for transparency, decision-making, celebration, or feedback. Design accordingly.
 
-One-way broadcasting: Company only shares information, team can't ask questions. This feels like corporate speech, not conversation.
+One-way broadcasting - Company only shares information, team can't ask questions. This feels like corporate speech, not conversation.
 
-Incomplete information: "Revenue was strong this quarter" without context on plan or comparison to last year. Team can't interpret what "strong" means.
+Incomplete information - "Revenue was strong this quarter" without context on plan or comparison to last year. Team can't interpret what "strong" means.
 
 No follow-through on action items: Questions are answered with "we'll look into it" and nothing happens. Breaks trust.
 
-Avoiding hard questions: When questions are about difficult topics, evading them signals those topics are off-limits.
+Avoiding hard questions - When questions are about difficult topics, evading them signals those topics are off-limits.
 
-No accessibility: Record without transcript. No captions. Time zones make live attendance impossible. Excludes people who don't fit the primary format.
+No accessibility - Record without transcript. No captions. Time zones make live attendance impossible. Excludes people who don't fit the primary format.
 
-Too infrequent: Quarterly town halls become disconnected from day-to-day reality. Monthly keeps information current.
+Too infrequent - Quarterly town halls become disconnected from day-to-day reality. Monthly keeps information current.
 
-Too much time: An hour of content is too much. People tune out. 30 minutes maximum content, rest is Q&A and celebration.
+Too much time - An hour of content is too much. People tune out. 30 minutes maximum content, rest is Q&A and celebration.
 
 Frequently Asked Questions
 
@@ -353,51 +353,51 @@ Creating Psychological Safety in Remote Settings
 
 Town halls work best when people feel safe asking questions. Remote amplifies psychological safety concerns, people worry their question might be dumb, or they might be visible on camera.
 
-Normalize camera-off: People can attend with camera off. No pressure to be on video if that feels uncomfortable.
+Normalize camera-off - People can attend with camera off. No pressure to be on video if that feels uncomfortable.
 
-Start with scripted questions: First 10 minutes, ask pre-submitted questions so you hit ground running.
+Start with scripted questions - First 10 minutes, ask pre-submitted questions so you hit ground running.
 
-Highlight diverse questioners: "Great question from engineering, now let's hear from marketing..." Creates cross-team dialogue.
+Highlight diverse questioners - "Great question from engineering, now let's hear from marketing..." Creates cross-team dialogue.
 
-Repeat difficult questions: When someone asks a hard question, repeat it to the group: "Great question, is anyone else wondering about this?" Validates the question.
+Repeat difficult questions - When someone asks a hard question, repeat it to the group: "Great question, is anyone else wondering about this?" Validates the question.
 
-Take follow-ups offline: "This is a great discussion but deserves more time than we have. Let's schedule something separate."
+Take follow-ups offline - "This is a great discussion but deserves more time than we have. Let's schedule something separate."
 
 Using Polls and Surveys in Town Hall
 
 Modern video tools let you poll attendees in real-time:
 
-Quick temperature check: "How is our work-life balance right now?" (scale 1-10). Results display instantly, often surprising leadership about team sentiment.
+Quick temperature check - "How is our work-life balance right now?" (scale 1-10). Results display instantly, often surprising leadership about team sentiment.
 
-Pulse on decisions: "Should we shift our all-hands to monthly instead of bi-weekly?" Polling provides instant feedback.
+Pulse on decisions - "Should we shift our all-hands to monthly instead of bi-weekly?" Polling provides instant feedback.
 
-Engagement boost: Polls make town halls more interactive than straight broadcasting.
+Engagement boost - Polls make town halls more interactive than straight broadcasting.
 
 Handling Tough Topics
 
 Some topics make leaders uncomfortable (salary equity, recent departures, missed targets):
 
-Acknowledge the discomfort: "This is a topic people ask about and it deserves a straight answer, not evasion."
+Acknowledge the discomfort - "This is a topic people ask about and it deserves a straight answer, not evasion."
 
-Provide context: "Here's the situation as we understand it. "That's a great question and I don't have an immediate answer. I'll research and follow up by Friday."
+Provide context - "Here's the situation as we understand it. "That's a great question and I don't have an immediate answer. I'll research and follow up by Friday."
 
-Avoid defensiveness: When someone criticizes something, don't defend reflexively. Listen, validate concern, explain thinking.
+Avoid defensiveness - When someone criticizes something, don't defend reflexively. Listen, validate concern, explain thinking.
 
-Follow through: If you commit to follow up, do it. Broken promises destroy trust.
+Follow through - If you commit to follow up, do it. Broken promises destroy trust.
 
 Celebrating Team Wins Visibly
 
 One purpose of town hall is celebrating achievements:
 
-Shipped features: Show new features in action, explain the problem they solve.
+Shipped features - Show new features in action, explain the problem they solve.
 
-Team milestones: Someone hit 5 years with company, someone shipped their first PR.
+Team milestones - Someone hit 5 years with company, someone shipped their first PR.
 
-Customer impact: Revenue grew, retention improved, customer satisfaction increased.
+Customer impact - Revenue grew, retention improved, customer satisfaction increased.
 
-Process improvements: Team shipped faster, incident response improved, quality metrics improved.
+Process improvements - Team shipped faster, incident response improved, quality metrics improved.
 
-Peer recognition: Give team members a chance to recognize each other.
+Peer recognition - Give team members a chance to recognize each other.
 
 Specific recognition is better than generic. "Sarah built the new checkout which reduced cart abandonment by 15%" lands better than "Great work everyone."
 
@@ -405,15 +405,15 @@ Post-Town Hall Follow-Up Materials
 
 Provide multiple ways for people to consume information:
 
-Recording: Posted within 24 hours. Always provide with subtitles/captions for accessibility.
+Recording - Posted within 24 hours. Always provide with subtitles/captions for accessibility.
 
-Transcript: Full text transcript so people can search for specific information.
+Transcript - Full text transcript so people can search for specific information.
 
-Slide deck: Posted to shared drive/wiki for reference.
+Slide deck - Posted to shared drive/wiki for reference.
 
-Q&A summary: Compile all questions and answers into document for easy reference.
+Q&A summary - Compile all questions and answers into document for easy reference.
 
-Action items tracker: Public document showing what was committed, who owns it, when it's due.
+Action items tracker - Public document showing what was committed, who owns it, when it's due.
 
 The more formats you provide, the more people can engage with the content in their preferred way.
 

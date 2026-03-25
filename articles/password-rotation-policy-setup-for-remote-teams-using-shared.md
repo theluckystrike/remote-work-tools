@@ -98,11 +98,11 @@ Creating a Rotation Workflow for Shared Service Accounts
 
 Developers and DevOps engineers often need shared credentials for deployment systems, CI/CD pipelines, and staging environments. Here is a practical workflow:
 
-Step 1: Catalog All Shared Credentials
+Step 1 - Catalog All Shared Credentials
 
 Create an inventory of every shared credential your team uses. Include the service name, purpose, sensitivity level, and current access list. Review this quarterly to remove unused credentials.
 
-Step 2: Assign Sensitivity Levels
+Step 2 - Assign Sensitivity Levels
 
 Categorize credentials by risk:
 
@@ -113,7 +113,7 @@ Categorize credentials by risk:
 | Medium | Internal tools, CI/CD secrets | Quarterly |
 | Low | Read-only dashboards, public API keys | Bi-annually |
 
-Step 3: Choose Rotation Methods
+Step 3 - Choose Rotation Methods
 
 Match rotation methods to credential types:
 
@@ -121,7 +121,7 @@ Match rotation methods to credential types:
 - Semi-automated rotation: Use password managers with sharing features and scheduled reminders
 - Manual rotation: Documented procedures with verification for physical or legacy systems
 
-Step 4: Implement Access Logging
+Step 4 - Implement Access Logging
 
 Every credential access should generate an audit log entry. Record the user, timestamp, action, and result. Store logs centrally and retain them according to compliance requirements. This creates accountability and helps identify compromise early.
 
@@ -140,9 +140,9 @@ Integrating Rotation with Team Onboarding and Offboarding
 
 Password rotation policies fail when they are disconnected from team changes. Integrate rotation into your existing processes:
 
-Onboarding: New team members receive access to shared credentials only after signing the security agreement. Add a task to rotate critical credentials within their first week.
+Onboarding - New team members receive access to shared credentials only after signing the security agreement. Add a task to rotate critical credentials within their first week.
 
-Offboarding: Include credential rotation in your departure checklist. Verify rotation completed before finalizing the offboarding process.
+Offboarding - Include credential rotation in your departure checklist. Verify rotation completed before finalizing the offboarding process.
 
 Use automation to trigger rotations based on HR system events:
 
@@ -159,11 +159,11 @@ Common Pitfalls to Avoid
 
 Remote teams often struggle with credential rotation due to these mistakes:
 
-Single point of failure: If only one person knows the credential, rotation becomes impossible when they are unavailable. Maintain at least two authorized users for every shared credential.
+Single point of failure - If only one person knows the credential, rotation becomes impossible when they are unavailable. Maintain at least two authorized users for every shared credential.
 
-Over-rotation: Rotating too frequently creates operational friction and encourages workarounds. Balance security with usability, monthly rotation for critical accounts strikes a practical balance for most teams.
+Over-rotation - Rotating too frequently creates operational friction and encourages workarounds. Balance security with usability, monthly rotation for critical accounts strikes a practical balance for most teams.
 
-No testing after rotation: Always verify the new credential works before considering rotation complete. Schedule a quick test during business hours with backup access available.
+No testing after rotation - Always verify the new credential works before considering rotation complete. Schedule a quick test during business hours with backup access available.
 
 Storing credentials in multiple locations: Centralize credential storage. Multiple copies increase the chance of stale credentials remaining active.
 
@@ -270,7 +270,7 @@ Emergency Rotation Procedures
 Beyond scheduled rotation, prepare for emergency scenarios. Detailed runbooks prevent panic-driven mistakes:
 
 ```markdown
-Emergency Rotation Runbook: Production Database Password
+Emergency Rotation Runbook - Production Database Password
 
 Trigger
 - [ ] Suspected credential compromise

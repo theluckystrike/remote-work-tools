@@ -31,7 +31,7 @@ Table of Contents
 - [Practical Scheduling Frameworks](#practical-scheduling-frameworks)
 - [Tools for Overlap Management](#tools-for-overlap-management)
 - [When Overlap Becomes Insufficient](#when-overlap-becomes-insufficient)
-- [Annual Planning: Accounting for Timezone Changes](#annual-planning-accounting-for-timezone-changes)
+- [Annual Planning - Accounting for Timezone Changes](#annual-planning-accounting-for-timezone-changes)
 - [Documenting Your Overlap Schedule](#documenting-your-overlap-schedule)
 - [Calculated Overlap](#calculated-overlap)
 - [Approved Pairing Windows (Opt-in)](#approved-pairing-windows-opt-in)
@@ -63,7 +63,7 @@ const developerB = {
 };
 ```
 
-The key insight: convert both schedules to UTC, then find the intersection. Here's how to implement this:
+The key insight - convert both schedules to UTC, then find the intersection. Here's how to implement this:
 
 ```javascript
 function getUtcBounds(developer) {
@@ -109,7 +109,7 @@ The overlap window is 08:00 - 16:00 UTC, which translates to:
 - San Francisco: 12:00 AM - 8:00 AM PST (awkward hours)
 - Berlin: 9:00 AM - 5:00 PM CET (perfect Berlin hours)
 
-The practical solution: Berlin developers pair in their morning (9 AM - 12 PM CET), while San Francisco joins in their late evening (8 PM - 11 PM PST). Neither schedule is ideal, but both remain within reasonable bounds.
+The practical solution - Berlin developers pair in their morning (9 AM - 12 PM CET), while San Francisco joins in their late evening (8 PM - 11 PM PST). Neither schedule is ideal, but both remain within reasonable bounds.
 
 New York (EST) and Bangalore (IST)
 
@@ -255,23 +255,23 @@ Handling Uneven Timezone Distribution
 
 Real teams rarely have perfectly symmetric timezone gaps. Handle asymmetric distributions strategically:
 
-Pattern 1: Two-Hub Model
+Pattern 1 - Two-Hub Model
 
 When you have two clusters with no direct overlap:
 
 ```
-Hub A: San Francisco + Vancouver (UTC-8 to UTC-7)
-Hub B: London + Berlin (UTC+0 to UTC+1)
-Gap: 8 hours (SF midnight = London 8 AM)
+Hub A - San Francisco + Vancouver (UTC-8 to UTC-7)
+Hub B - London + Berlin (UTC+0 to UTC+1)
+Gap - 8 hours (SF midnight = London 8 AM)
 
-Solution: Async handoff model
+Solution - Async handoff model
 - Hub A completes work by 5 PM PT
 - Detailed handoff document left for Hub B
 - Hub B reviews and provides feedback asynchronously
 - Real-time discussion happens at overlap edges (SF 8 PM, London 4 AM)
 ```
 
-Pattern 2: Three-Hub Relay Race
+Pattern 2 - Three-Hub Relay Race
 
 Teams spanning all three continents:
 
@@ -288,7 +288,7 @@ SF afternoon (1 PM - 5 PM PST) = London evening (9 PM - 1 AM GMT)
 
 Each timezone gets one "overlap window" where they can receive async feedback or have brief sync conversations.
 
-Pattern 3: Embrace Deep Async
+Pattern 3 - Embrace Deep Async
 
 Some teams succeed by accepting minimal overlap and building deep async culture:
 
@@ -336,7 +336,7 @@ Practical Scheduling Frameworks
 
 Once you calculate overlap, implement it with clear frameworks:
 
-Framework 1: Designated "Sync Days"
+Framework 1 - Designated "Sync Days"
 
 Choose 2-3 specific days per week for pair programming. Rotate which timezone gets non-standard hours:
 
@@ -353,7 +353,7 @@ Friday (shared asynchronous):
   No required sync; detailed async handoff
 ```
 
-Framework 2: Flexible Scheduling
+Framework 2 - Flexible Scheduling
 
 Allow developers to shift hours occasionally for pair sessions:
 
@@ -361,18 +361,18 @@ Allow developers to shift hours occasionally for pair sessions:
 "Tokyo developer starting 2 hours early on Monday for SF overlap"
 "SF developer staying late Tuesday for Tokyo morning"
 
-Rule: Never more than 2 hours outside standard hours
-Rule: Maximum 2 days/week with adjusted hours
+Rule - Never more than 2 hours outside standard hours
+Rule - Maximum 2 days/week with adjusted hours
 ```
 
-Framework 3: Recorded Async Sessions
+Framework 3 - Recorded Async Sessions
 
 Eliminate pressure for simultaneous pairing:
 
 ```
-Monday: SF developer records 30-min session debugging issue
-Tuesday: Tokyo developer watches recording, makes notes, records 20-min follow-up
-Wednesday: SF watches follow-up, implements suggested changes
+Monday - SF developer records 30-min session debugging issue
+Tuesday - Tokyo developer watches recording, makes notes, records 20-min follow-up
+Wednesday - SF watches follow-up, implements suggested changes
 ```
 
 Takes 3x longer than live session but eliminates schedule constraints.
@@ -407,16 +407,16 @@ Pair Programming Alternatives:
 
 These methods work at scale but require discipline and clear handoff protocols.
 
-Annual Planning: Accounting for Timezone Changes
+Annual Planning - Accounting for Timezone Changes
 
 Daylight Saving Time creates discontinuities in your carefully calculated overlap:
 
 ```
-March 2026: US springs forward, Europe springs forward (same week)
+March 2026 - US springs forward, Europe springs forward (same week)
 Overlap remains stable
 
 But in years where changes don't align:
-March: US springs forward, Europe hasn't yet
+March - US springs forward, Europe hasn't yet
 One-hour shift in overlaps for 2 weeks
 ```
 

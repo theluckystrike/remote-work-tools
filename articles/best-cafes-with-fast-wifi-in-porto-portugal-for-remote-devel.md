@@ -24,7 +24,7 @@ Table of Contents
 - [Essential Tools for Remote Workers in Porto](#essential-tools-for-remote-workers-in-porto)
 - [Practical Tips for Working in Porto Cafes](#practical-tips-for-working-in-porto-cafes)
 - [Detailed Cafe Reviews with Technical Metrics](#detailed-cafe-reviews-with-technical-metrics)
-- [Working in Porto Cafes: Full-Day Workflow](#working-in-porto-cafes-full-day-workflow)
+- [Working in Porto Cafes - Full-Day Workflow](#working-in-porto-cafes-full-day-workflow)
 - [Communication Tools That Perform Well Over Porto Cafe WiFi](#communication-tools-that-perform-well-over-porto-cafe-wifi)
 - [Neighborhoods Worth Exploring](#neighborhoods-worth-exploring)
 - [Internet Backup Plans for Critical Work](#internet-backup-plans-for-critical-work)
@@ -48,7 +48,7 @@ Located in the heart of Porto's city center, Cafe Santiago offers a traditional 
 - WiFi: 50+ Mbps (fiber connection)
 - Power outlets: Available at most tables
 - Best hours: Weekday mornings (8 AM - 12 PM)
-- Coffee: Traditional Portuguese espresso at €1.20
+- Coffee - Traditional Portuguese espresso at €1.20
 
 The cafe opens at 8 AM, making it perfect for early starters who want to grab a table before the lunch crowd arrives.
 
@@ -92,7 +92,7 @@ Before committing to a cafe, developers can verify WiFi quality using simple com
 ```bash
 #!/bin/bash
 Test WiFi speed using speedtest-cli
-Install: brew install speedtest-cli
+Install - brew install speedtest-cli
 
 echo "Testing WiFi connection..."
 speedtest --simple --bytes
@@ -105,7 +105,7 @@ Check network latency and packet loss
 ping -c 10 8.8.8.8
 
 Measure actual download speed with curl
-curl -o /dev/null -s -w "Download Speed: %{speed_download} bytes/sec\n" https://speed.hetzner.de/1MB.bin
+curl -o /dev/null -s -w "Download Speed - %{speed_download} bytes/sec\n" https://speed.hetzner.de/1MB.bin
 ```
 
 Essential Tools for Remote Workers in Porto
@@ -140,7 +140,7 @@ Detailed Cafe Reviews with Technical Metrics
 
 Cafe Santiago - Detailed Assessment
 
-Location: Rua de Miragaia 121, Centro
+Location - Rua de Miragaia 121, Centro
 
 WiFi Details:
 - Speed: Consistent 50-80 Mbps (tested with speedtest-cli at different times)
@@ -154,9 +154,9 @@ Workspace Quality:
 - Power outlets: Each table on upper floor has at least one outlet; ground floor has outlets near walls
 - Desk space: Tables 12-18 inches wide, adequate for laptop + external monitor (tight for dual setup)
 
-Atmosphere: Traditional Portuguese. Wood interior, local art. Morning crowd is tech workers; afternoons are tourists and local business people.
+Atmosphere - Traditional Portuguese. Wood interior, local art. Morning crowd is tech workers; afternoons are tourists and local business people.
 
-Noise Level: Morning (7-11 AM): 60-65 dB (acceptable). Afternoon (12-3 PM): 75+ dB (difficult for calls).
+Noise Level - Morning (7-11 AM): 60-65 dB (acceptable). Afternoon (12-3 PM): 75+ dB (difficult for calls).
 
 Practical Tips:
 - Arrive by 8:15 AM to secure upper floor seating with outlet access
@@ -164,11 +164,11 @@ Practical Tips:
 - Video calls are possible in lower corner tables away from high-traffic areas
 - Brings your own headphones, café has no provided quiet phone booths
 
-Repeat-Visitor Pass: Regular customers often get acknowledged by staff and receive preferential seating.
+Repeat-Visitor Pass - Regular customers often get acknowledged by staff and receive preferential seating.
 
 Centro de Arte Contemporanea Cafe - Detailed Assessment
 
-Location: Rua Dom Manuel II, Boavista
+Location - Rua Dom Manuel II, Boavista
 
 WiFi Details:
 - Speed: 60-100 Mbps (faster than Santiago)
@@ -182,9 +182,9 @@ Workspace Quality:
 - Outlet density: USB-C and standard outlets at 80% of tables (best in category)
 - Ergonomics: Modern chairs, good back support for 6-8 hour sessions
 
-Atmosphere: Modern, minimalist design. Clientele is creative professionals (designers, writers, developers). Conversational but not loud.
+Atmosphere - Modern, minimalist design. Clientele is creative professionals (designers, writers, developers). Conversational but not loud.
 
-Video Call Quality: Excellent for meetings. Quiet background, professional appearance, good lighting.
+Video Call Quality - Excellent for meetings. Quiet background, professional appearance, good lighting.
 
 Practical Tips:
 - Brings a laptop stand, tables are designed for focus, not elevated work
@@ -192,11 +192,11 @@ Practical Tips:
 - Quietest from 2-4 PM on weekdays (museum crowd clears)
 - Their espresso is excellent (€2.50); pastries from local bakeries rotate daily
 
-Repeat-Visitor Value: Buy a €5/month "cafe user card" and get 10% discount on beverages. Signals you're a regular and staff will reserve your preferred table on request.
+Repeat-Visitor Value - Buy a €5/month "cafe user card" and get 10% discount on beverages. Signals you're a regular and staff will reserve your preferred table on request.
 
 Doce & Sal - Detailed Assessment
 
-Location: Avenida dos Aliados 128, Aliados
+Location - Avenida dos Aliados 128, Aliados
 
 WiFi Details:
 - Speed: 35-50 Mbps (adequate, not fast)
@@ -209,7 +209,7 @@ Workspace Quality:
 - Outlets: Only 3-4 available on upper floor (limited, plan charging accordingly)
 - Tables: 14-16 inches wide (snug for laptops + external displays)
 
-Atmosphere: Locally loved spot. Mix of remote workers, students, and locals. Very Portuguese aesthetic.
+Atmosphere - Locally loved spot. Mix of remote workers, students, and locals. Very Portuguese aesthetic.
 
 Timing Considerations:
 - Peak lunch: 12-1:30 PM (avoid if you need quiet)
@@ -217,7 +217,7 @@ Timing Considerations:
 - Weekends: Busier but less corporate-meeting noise
 - Quietness: 65-70 dB average (moderate)
 
-Cost: €1.50 for espresso, €2.00 for cappuccino. Pastries €1-2.50.
+Cost - €1.50 for espresso, €2.00 for cappuccino. Pastries €1-2.50.
 
 Practical Tips:
 - Bring a portable charger, outlet availability is the main constraint
@@ -227,7 +227,7 @@ Practical Tips:
 
 Mercearia do Bairro - Detailed Assessment
 
-Location: Rua de Entre-Muros 14, Foz Velha (residential neighborhood)
+Location - Rua de Entre-Muros 14, Foz Velha (residential neighborhood)
 
 WiFi Details:
 - Speed: 90-120 Mbps (fastest in the category)
@@ -241,11 +241,11 @@ Workspace Quality:
 - Outlets: Every table has access (2-4 per table)
 - Chairs: Mix of comfortable seating and bar stools (ask for comfortable option)
 
-Atmosphere: Hidden gem feeling. Owner is remote-work friendly and often chats with laptop users. Quiet, peaceful, local neighborhood (not touristy).
+Atmosphere - Hidden gem feeling. Owner is remote-work friendly and often chats with laptop users. Quiet, peaceful, local neighborhood (not touristy).
 
-Vibe: The best environment for deep focus. Gentle background Portuguese folk music, quiet clientele, neighborhood residents come and go rather than lingering crowds.
+Vibe - The best environment for deep focus. Gentle background Portuguese folk music, quiet clientele, neighborhood residents come and go rather than lingering crowds.
 
-Cost: €1.60 espresso, €2.20 cappuccino. Pastries and light food €2-4.
+Cost - €1.60 espresso, €2.20 cappuccino. Pastries and light food €2-4.
 
 Practical Tips:
 - Call ahead if you plan to stay 8+ hours (owner appreciates the heads-up)
@@ -254,9 +254,9 @@ Practical Tips:
 - Perfect for video calls (quiet, professional, good WiFi)
 - Free WiFi password on the receipt or ask owner
 
-Community: Small community of remote workers congregates here. Easy to strike up conversations with other digital nomads or developers.
+Community - Small community of remote workers congregates here. Easy to strike up conversations with other digital nomads or developers.
 
-Working in Porto Cafes: Full-Day Workflow
+Working in Porto Cafes - Full-Day Workflow
 
 If you're planning to work a full 8-hour day from a cafe, structure it:
 
@@ -292,25 +292,25 @@ Neighborhoods Worth Exploring
 
 Beyond the city center, these neighborhoods offer excellent cafe options with fewer crowds:
 
-Foz do Douro: Beachside Cafes
+Foz do Douro - Beachside Cafes
 Small cafes overlooking the Douro River mouth. Better atmosphere than city center, slightly slower WiFi. Go if you want scenic beauty over speed.
 
-Recommended: Cafe A Paradinha (beachside, decent WiFi, expensive pastries)
+Recommended - Cafe A Paradinha (beachside, decent WiFi, expensive pastries)
 
-Boavista: Upscale Residential District
+Boavista - Upscale Residential District
 Modern coffee shops in residential neighborhoods. Good WiFi, quieter than downtown, professional clientele. Higher price point.
 
-Recommended: Tres Fases (specialty coffee, excellent WiFi, €3 espresso)
+Recommended - Tres Fases (specialty coffee, excellent WiFi, €3 espresso)
 
-Vila Nova de Gaia: Historic Riverside
+Vila Nova de Gaia - Historic Riverside
 Just across the Douro River. Port wine cellars and historic sites. Cafes here are more touristy; decent WiFi but expect slower during afternoon.
 
-Recommended: Livraria Verssus (bookstore cafe, artsy, good for reading/research work)
+Recommended - Livraria Verssus (bookstore cafe, artsy, good for reading/research work)
 
-Clérigos/Livraria Bertrand: Cultural Hub
+Clérigos/Livraria Bertrand - Cultural Hub
 Historic cathedral area. Cafes near universities and cultural institutions. Student-friendly, good WiFi but busy during college hours.
 
-Recommended: Cafe Janus (near university, student discount, reliable WiFi)
+Recommended - Cafe Janus (near university, student discount, reliable WiFi)
 
 Internet Backup Plans for Critical Work
 
@@ -322,7 +322,7 @@ If you're doing something mission-critical (important deadline, big presentation
 
 3. Hotel business centers: Most mid-range hotels offer day-rate access to business centers with reliable WiFi.
 
-4. Library: Biblioteca Almeida Garrett (historic public library) offers free WiFi and is very quiet. Good fallback option.
+4. Library - Biblioteca Almeida Garrett (historic public library) offers free WiFi and is very quiet. Good fallback option.
 
 Frequently Asked Questions
 

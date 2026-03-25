@@ -45,9 +45,9 @@ SAM Template
 
 ```yaml
 template.yaml
-AWSTemplateFormatVersion: '2010-09-09'
-Transform: AWS::Serverless-2016-10-31
-Description: Lambda deployment pipeline example
+AWSTemplateFormatVersion - '2010-09-09'
+Transform - AWS::Serverless-2016-10-31
+Description - Lambda deployment pipeline example
 
 Globals:
   Function:

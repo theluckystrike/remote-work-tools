@@ -21,8 +21,8 @@ When you manage a remote team spread across multiple US states, you quickly disc
 Table of Contents
 
 - [Understanding the Cost of Non-Compliance](#understanding-the-cost-of-non-compliance)
-- [The Fundamental Problem: State-by-State Variation](#the-fundamental-problem-state-by-state-variation)
-- [Quick Reference: Current Leave Laws (2026)](#quick-reference-current-leave-laws-2026)
+- [The Fundamental Problem - State-by-State Variation](#the-fundamental-problem-state-by-state-variation)
+- [Quick Reference - Current Leave Laws (2026)](#quick-reference-current-leave-laws-2026)
 - [Building a Compliance Tracker](#building-a-compliance-tracker)
 - [Handling Multi-State Payroll](#handling-multi-state-payroll)
 - [Practical Considerations for Your Team](#practical-considerations-for-your-team)
@@ -55,7 +55,7 @@ Washington:
 
 For a company with 50 employees across multiple states, a mistake that affects 20 employees could result in six-figure liability. More importantly, leave law violations often surface during state audits triggered by other issues, and regulators scrutinize everything once they start looking.
 
-The Fundamental Problem: State-by-State Variation
+The Fundamental Problem - State-by-State Variation
 
 Each US state with paid leave mandates operates under its own rules. The variations affect several key dimensions:
 
@@ -71,20 +71,20 @@ Each US state with paid leave mandates operates under its own rules. The variati
 
 Before hiring in any new state, verify the current requirements directly through the state's labor department website. Laws change frequently, and municipal ordinances often add another layer on top of state requirements.
 
-Quick Reference: Current Leave Laws (2026)
+Quick Reference - Current Leave Laws (2026)
 
 This snapshot shows major state mandates as of 2026. Laws change frequently, so verify before implementation:
 
-California: 3 days/year minimum (1 day per 30 hours worked), 5 days for most employers 16+
-New York: 1 week paid leave (7 days) mandatory, no carryover allowed
-Washington: 1 week (40 hours) minimum, accrual at 0.01923 hours per hour worked
-Colorado: 1 week (40 hours) minimum, accrual from day one
-Illinois: 1 week (40 hours) mandatory for private employers
-Connecticut: 5 days per year
-Delaware: 1 week per year
-Oregon: 1 week after 90 days
-Texas: No state mandate (though some local ordinances exist)
-Florida: No state mandate (though some ordinances)
+California - 3 days/year minimum (1 day per 30 hours worked), 5 days for most employers 16+
+New York - 1 week paid leave (7 days) mandatory, no carryover allowed
+Washington - 1 week (40 hours) minimum, accrual at 0.01923 hours per hour worked
+Colorado - 1 week (40 hours) minimum, accrual from day one
+Illinois - 1 week (40 hours) mandatory for private employers
+Connecticut - 5 days per year
+Delaware - 1 week per year
+Oregon - 1 week after 90 days
+Texas - No state mandate (though some local ordinances exist)
+Florida - No state mandate (though some ordinances)
 
 Cities add additional requirements:
 - San Francisco: 5 paid days minimum (in addition to state)
@@ -205,11 +205,11 @@ Practical Considerations for Your Team
 
 Beyond the technical implementation, consider these operational factors:
 
-Documentation requirements: Maintain records of where each remote employee works. Some states require employers to document work location history. Keep employee attestations about their primary work location on file and update them when circumstances change.
+Documentation requirements - Maintain records of where each remote employee works. Some states require employers to document work location history. Keep employee attestations about their primary work location on file and update them when circumstances change.
 
-Policy harmonization: You can always offer more generous leave than the law requires, but never less. Create a baseline policy that meets the strictest applicable requirement and apply it to all employees. This simplifies administration but may exceed what you must provide in lower-mandate states.
+Policy harmonization - You can always offer more generous leave than the law requires, but never less. Create a baseline policy that meets the strictest applicable requirement and apply it to all employees. This simplifies administration but may exceed what you must provide in lower-mandate states.
 
-Notice workflows: Implement a simple request system that captures advance notice when required. A Slack workflow or simple form that asks employees to indicate whether their leave is foreseeable can satisfy documentation requirements.
+Notice workflows - Implement a simple request system that captures advance notice when required. A Slack workflow or simple form that asks employees to indicate whether their leave is foreseeable can satisfy documentation requirements.
 
 ```yaml
 Example leave request workflow
@@ -230,7 +230,7 @@ actions:
   - check_notice_compliance(state=employee.state)
 ```
 
-Annual review process: Schedule a quarterly review of state leave laws. Subscribe to your state's labor law email updates or use a compliance service that tracks these changes. Update your code and policies when laws change.
+Annual review process - Schedule a quarterly review of state leave laws. Subscribe to your state's labor law email updates or use a compliance service that tracks these changes. Update your code and policies when laws change.
 
 Common Pitfalls to Avoid
 

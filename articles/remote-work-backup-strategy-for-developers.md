@@ -20,12 +20,12 @@ A developer's backup strategy needs to cover more than documents. Code history l
 Table of Contents
 
 - [What Needs Backing Up](#what-needs-backing-up)
-- [Dotfiles: Git as Backup](#dotfiles-git-as-backup)
+- [Dotfiles - Git as Backup](#dotfiles-git-as-backup)
 - [macOS: Time Machine + rsync Offsite](#macos-time-machine-rsync-offsite)
-- [Linux: Restic to S3/B2](#linux-restic-to-s3b2)
+- [Linux - Restic to S3/B2](#linux-restic-to-s3b2)
 - [Local Database Backups](#local-database-backups)
 - [Backup Verification (Critical)](#backup-verification-critical)
-- [SSH Keys: Special Handling](#ssh-keys-special-handling)
+- [SSH Keys - Special Handling](#ssh-keys-special-handling)
 - [Cloud Sync Is Not a Backup](#cloud-sync-is-not-a-backup)
 - [Secrets and Environment Files](#secrets-and-environment-files)
 - [Windows and WSL2 Considerations](#windows-and-wsl2-considerations)
@@ -56,7 +56,7 @@ Priority 3. Re-creatable
   ~/Downloads/               Temporary files
 ```
 
-Dotfiles: Git as Backup
+Dotfiles - Git as Backup
 
 ```bash
 Initialize dotfiles as a bare git repo
@@ -90,7 +90,7 @@ dotfiles config --local status.showUntrackedFiles no
 macOS: Time Machine + rsync Offsite
 
 ```bash
-Time Machine: local backup to external drive
+Time Machine - local backup to external drive
 System Settings > Time Machine > Add Backup Disk
 
 Verify Time Machine is running
@@ -174,7 +174,7 @@ fi
 launchctl load ~/Library/LaunchAgents/com.yourname.backup.plist
 ```
 
-Linux: Restic to S3/B2
+Linux - Restic to S3/B2
 
 Restic is the best open-source backup tool. deduplication, encryption, versioning.
 
@@ -312,14 +312,14 @@ else
 fi
 ```
 
-SSH Keys: Special Handling
+SSH Keys - Special Handling
 
 ```bash
 Never store raw private keys in cloud sync
-Instead: export encrypted with GPG
+Instead - export encrypted with GPG
 
 gpg --symmetric --cipher-algo AES256 ~/.ssh/id_ed25519
-Creates: ~/.ssh/id_ed25519.gpg
+Creates - ~/.ssh/id_ed25519.gpg
 
 Store the encrypted version in your git dotfiles or cloud
 Restore:
@@ -331,7 +331,7 @@ Cloud Sync Is Not a Backup
 
 iCloud, Dropbox, and Google Drive sync deletions instantly. If you accidentally `rm -rf ~/projects/critical-work`, the deletion propagates to every device within seconds. These services are useful for active-file access across devices, but they are not backups.
 
-The key distinction: sync replicates your current state; backup preserves historical states. Use both, and make sure they are independent.
+The key distinction - sync replicates your current state; backup preserves historical states. Use both, and make sure they are independent.
 
 For Dropbox and Google Drive, enable extended version history (Dropbox Plus gives 180 days; Google Drive keeps 30 days of versions). This helps with accidental overwrites but does not protect against ransomware or account compromise.
 
@@ -351,7 +351,7 @@ brew install age
 
 Generate a key pair (store the private key in your password manager)
 age-keygen -o ~/.age/key.txt
-Public key: age1ql3z7hjy54pw3hyww5ayyfg7zqgvc7w3j2elw8zmrj2kg5sfn9aq
+Public key - age1ql3z7hjy54pw3hyww5ayyfg7zqgvc7w3j2elw8zmrj2kg5sfn9aq
 
 Encrypt a secrets file
 age -r age1ql3z7hjy54pw3hyww5ayyfg7zqgvc7w3j2elw8zmrj2kg5sfn9aq \

@@ -22,7 +22,7 @@ Table of Contents
 
 - [Why Your Remote Team Needs a BYOD Policy](#why-your-remote-team-needs-a-byod-policy)
 - [Core Components of a Legal BYOD Policy](#core-components-of-a-legal-byod-policy)
-- [Incident Response: Lost or Stolen BYOD Device](#incident-response-lost-or-stolen-byod-device)
+- [Incident Response - Lost or Stolen BYOD Device](#incident-response-lost-or-stolen-byod-device)
 - [Offboarding Procedure for BYOD](#offboarding-procedure-for-byod)
 - [Regional Legal Considerations](#regional-legal-considerations)
 - [Enforcement and Policy Updates](#enforcement-and-policy-updates)
@@ -45,9 +45,9 @@ Create a simple consent form:
 ```markdown
 BYOD Policy Acknowledgment
 
-Employee Name: [Name]
-Employee Email: [Email]
-Device(s) to be registered: [Device details]
+Employee Name - [Name]
+Employee Email - [Email]
+Device(s) to be registered - [Device details]
 
 By signing below, I acknowledge that:
 
@@ -57,8 +57,8 @@ By signing below, I acknowledge that:
 4. I will comply with all security requirements specified in the policy
 5. I understand that company data on my device remains company property
 
-Signature: _______________
-Date: _______________
+Signature - _______________
+Date - _______________
 ```
 
 Store signed acknowledgments in your HR system with timestamps. This creates the legal foundation for all other policy enforcement.
@@ -161,7 +161,7 @@ Configure your identity provider (Okta, Auth0, etc.) to enforce these access res
 Define clear steps for when a personal device is lost, stolen, or compromised. This protects your organization legally and helps contain damage quickly:
 
 ```markdown
-Incident Response: Lost or Stolen BYOD Device
+Incident Response - Lost or Stolen BYOD Device
 
 Immediate Steps (Within 1 Hour)
 1. Contact IT Security via [emergency-email] or [slack-channel]
@@ -205,11 +205,11 @@ Regional Legal Considerations
 
 Your BYOD policy must account for local employment and privacy laws. Some key considerations:
 
-European Union (GDPR): Employees have the "right to be forgotten." Your policy must specify how you handle personal data during device wipes and how long you retain employee device information.
+European Union (GDPR) - Employees have the "right to be forgotten." Your policy must specify how you handle personal data during device wipes and how long you retain employee device information.
 
-California (CCPA): Similar to GDPR, California residents have rights regarding personal information. Ensure your policy addresses data minimization, what you collect and store on personal devices.
+California (CCPA) - Similar to GDPR, California residents have rights regarding personal information. Ensure your policy addresses data minimization, what you collect and store on personal devices.
 
-United States: Employment laws vary by state. Some states require explicit written consent for software installation on personal devices. Consult employment counsel for your specific jurisdictions.
+United States - Employment laws vary by state. Some states require explicit written consent for software installation on personal devices. Consult employment counsel for your specific jurisdictions.
 
 Enforcement and Policy Updates
 

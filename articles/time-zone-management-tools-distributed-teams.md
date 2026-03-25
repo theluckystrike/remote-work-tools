@@ -22,7 +22,7 @@ This guide covers the tools and the shared conventions that actually solve time 
 
 The Convention You Need First
 
-Before any tool: establish a canonical timezone for your team's communication.
+Before any tool - establish a canonical timezone for your team's communication.
 
 Common choices:
 - UTC. no ambiguity, no daylight saving issues, write as `14:00 UTC`
@@ -32,7 +32,7 @@ Common choices:
 Post this in your team README, Notion page, or Slack channel description:
 
 ```
-Team timezone: UTC
+Team timezone - UTC
 All meeting times and deadlines are posted in UTC unless explicitly noted otherwise.
 ```
 
@@ -142,7 +142,7 @@ Every Time Zone (everytimezone.com)
 
 The simplest visual overlap tool. Shows a horizontal timeline of the day for all timezones. Drag the current time slider to see what time it is everywhere simultaneously. No account needed.
 
-Best use: Quick "is 3pm UTC okay for everyone?" check before sending a calendar invite.
+Best use - Quick "is 3pm UTC okay for everyone?" check before sending a calendar invite.
 
 World Time Buddy (worldtimebuddy.com)
 
@@ -163,7 +163,7 @@ curl -s "http://worldtimeapi.org/api/timezone/America/New_York" | \
   python3 -c "import json,sys; d=json.load(sys.stdin); print(d['datetime'])"
 ```
 
-Scheduling Overlap: Finding Meeting Windows
+Scheduling Overlap - Finding Meeting Windows
 
 For a distributed team, finding a window that works for everyone requires mapping each person's working hours to UTC:
 
@@ -226,25 +226,25 @@ When there's no good overlap (e.g., US West Coast + Southeast Asia), a rotating 
 
 ```bash
 Weekly sync rotating between 3 slots
-Week 1: 01:00 UTC (good for Asia, bad for Americas)
-Week 2: 14:00 UTC (good for Europe/Americas, bad for Asia)
-Week 3: 22:00 UTC (good for Americas, reasonable for Asia)
+Week 1 - 01:00 UTC (good for Asia, bad for Americas)
+Week 2 - 14:00 UTC (good for Europe/Americas, bad for Asia)
+Week 3 - 22:00 UTC (good for Americas, reasonable for Asia)
 
-In Google Calendar: create 3 separate recurring events, each every 3 weeks
-Set recurrence: weekly, every 3 weeks
-Week 1 starts on: 2026-03-24
-Week 2 starts on: 2026-03-31
-Week 3 starts on: 2026-04-07
+In Google Calendar - create 3 separate recurring events, each every 3 weeks
+Set recurrence - weekly, every 3 weeks
+Week 1 starts on - 2026-03-24
+Week 2 starts on - 2026-03-31
+Week 3 starts on - 2026-04-07
 ```
 
 Automating Time Zone Display in Slack
 
 ```bash
-Slack workflow: auto-post team timezone status daily
+Slack workflow - auto-post team timezone status daily
 Using Slack's built-in Workflow Builder:
-Trigger: Scheduled → Every day at 09:00 UTC
-Step: Send message to #standup
-Message: "Current time for the team:
+Trigger - Scheduled → Every day at 09:00 UTC
+Step - Send message to #standup
+Message - "Current time for the team:
  NYC: {{ timezone-conversion time=now tz=America/New_York }}
  London: {{ ... }}
  Singapore: {{ ... }}"

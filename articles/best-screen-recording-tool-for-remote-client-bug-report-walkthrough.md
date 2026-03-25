@@ -48,9 +48,9 @@ Why it works for client bug reports:
 
 Loom's viewer engagement features are useful for development teams: you can see whether the developer watched the recording and when. If a bug report gets marked as reviewed but the video was never watched, you know the context was skipped.
 
-Limitations: Loom's free plan limits recordings to 5 minutes per video. For complex bug walkthroughs that require demonstrating a multi-step workflow, this can be insufficient. The $12.50/user/month Starter plan removes the limit. If clients are recording, they would need Loom accounts or you would share a recording request link.
+Limitations - Loom's free plan limits recordings to 5 minutes per video. For complex bug walkthroughs that require demonstrating a multi-step workflow, this can be insufficient. The $12.50/user/month Starter plan removes the limit. If clients are recording, they would need Loom accounts or you would share a recording request link.
 
-Best for: Teams that want a polished, professional tool that clients and developers will both actually use.
+Best for - Teams that want a polished, professional tool that clients and developers will both actually use.
 
 2. ScreenPal (formerly Screencast-O-Matic)
 
@@ -64,9 +64,9 @@ Why it works for client bug reports:
 - Uploading to ScreenPal's platform generates a shareable link automatically
 - The free tier is generous for basic recording needs
 
-Limitations: The free plan adds a watermark to recordings and limits export quality. The Deluxe plan at $3/month per user is inexpensive but requires clients to have accounts to remove limitations.
+Limitations - The free plan adds a watermark to recordings and limits export quality. The Deluxe plan at $3/month per user is inexpensive but requires clients to have accounts to remove limitations.
 
-Best for: Teams whose clients are non-technical and resistant to installing software, or small agencies that want a low-cost recording solution.
+Best for - Teams whose clients are non-technical and resistant to installing software, or small agencies that want a low-cost recording solution.
 
 3. Jam
 
@@ -87,9 +87,9 @@ Jam captures automatically:
 
 All of this is captured with a single click and attached to the shareable link. The developer opens the link and sees the video alongside the technical context that would normally require a developer-mode recording session or a lengthy client call.
 
-Limitations: Jam is primarily a Chrome extension, which means clients on Safari or Firefox need to use a different browser for recording. The tool is best suited for web application bugs rather than desktop software issues.
+Limitations - Jam is primarily a Chrome extension, which means clients on Safari or Firefox need to use a different browser for recording. The tool is best suited for web application bugs rather than desktop software issues.
 
-Best for: SaaS products and web applications where developer-side context (console errors, network requests) is as important as the visual recording.
+Best for - SaaS products and web applications where developer-side context (console errors, network requests) is as important as the visual recording.
 
 4. Loom Alternative: Cap
 
@@ -102,9 +102,9 @@ Why it is worth considering:
 - Simple interface comparable to Loom's basic recording experience
 - Free for self-hosted deployments
 
-Limitations: Self-hosting requires technical setup and ongoing maintenance. The cloud-hosted version at cap.so trades simplicity for the privacy benefits. Feature set is less mature than Loom or Jam.
+Limitations - Self-hosting requires technical setup and ongoing maintenance. The cloud-hosted version at cap.so trades simplicity for the privacy benefits. Feature set is less mature than Loom or Jam.
 
-Best for: Teams working with healthcare, legal, or financial clients who have data residency requirements.
+Best for - Teams working with healthcare, legal, or financial clients who have data residency requirements.
 
 5. macOS Built-In: QuickTime + System Screenshot Tool
 
@@ -117,9 +117,9 @@ The workflow:
 4. Saves the file
 5. Uploads to Google Drive or Dropbox and shares a link
 
-Limitations: No automatic sharing, no timestamped comments, no technical metadata. This is a fallback, not a primary workflow.
+Limitations - No automatic sharing, no timestamped comments, no technical metadata. This is a fallback, not a primary workflow.
 
-Best for: Situations where the client has a Mac and will not adopt any other tool.
+Best for - Situations where the client has a Mac and will not adopt any other tool.
 
 Comparing the Options
 
@@ -135,7 +135,7 @@ Building a Client Bug Report Workflow
 
 The tool choice matters less than having a clear process. Here is a workflow that produces reliable bug reports from clients who have never done this before.
 
-Step 1: The Initial Request Template
+Step 1 - The Initial Request Template
 
 When a client reports a bug via email or chat, respond with a standardized request:
 
@@ -158,7 +158,7 @@ to fix the issue fast.
 
 Personalizing the tool link (a direct URL to start a Jam or Loom recording) reduces friction by one more step.
 
-Step 2: The Client Recording Template
+Step 2 - The Client Recording Template
 
 For clients who need more structure, provide a template they can follow while recording:
 
@@ -184,12 +184,12 @@ After recording:
 
 Distributing this template to clients results in significantly better bug reports with consistent video documentation.
 
-Step 3: Video Troubleshooting for Failed Captures
+Step 3 - Video Troubleshooting for Failed Captures
 
 Sometimes recordings fail to capture the actual problem. Here is a diagnostic approach:
 
 ```
-Issue: Recording runs, but error does not reproduce
+Issue - Recording runs, but error does not reproduce
 
 Causes and solutions:
 1. Error is intermittent/environmental
@@ -219,7 +219,7 @@ Causes and solutions:
 
 Always do a test recording before the full walkthrough. A failed test is better than a failed bug report.
 
-Step 4: Developer Review Process
+Step 4 - Developer Review Process
 
 When a recording arrives, establish a consistent review process:
 
@@ -230,11 +230,11 @@ When a recording arrives, establish a consistent review process:
 
 Platform-Specific Considerations
 
-For web application bugs: Jam is the strongest choice because it captures the console and network data alongside the video. A recording that shows a 500 error on screen alongside the failed API request in the network tab removes the back-and-forth of asking for technical details.
+For web application bugs - Jam is the strongest choice because it captures the console and network data alongside the video. A recording that shows a 500 error on screen alongside the failed API request in the network tab removes the back-and-forth of asking for technical details.
 
-For desktop application bugs: Loom or ScreenPal, since Jam's Chrome extension does not apply. Encourage clients to include the application version number verbally at the start of the recording.
+For desktop application bugs - Loom or ScreenPal, since Jam's Chrome extension does not apply. Encourage clients to include the application version number verbally at the start of the recording.
 
-For mobile bugs: Ask clients to use the built-in screen recording feature on iOS or Android and share the resulting file via Google Drive or Dropbox. Loom has a mobile app that some clients will accept, but the barrier is higher.
+For mobile bugs - Ask clients to use the built-in screen recording feature on iOS or Android and share the resulting file via Google Drive or Dropbox. Loom has a mobile app that some clients will accept, but the barrier is higher.
 
 For clients in regulated industries: Cap self-hosted or a private Loom Business account with custom data processing agreements. Verify your data handling obligations before choosing a cloud-hosted tool for clients in healthcare, legal, or finance.
 
@@ -253,11 +253,11 @@ Key capabilities:
 - Public and private sharing options
 - Browser extension for quick recording from any webpage
 
-Real workflow example: A product support team uses Loom for bug reproduction. When a client reports an issue, the support engineer records their screen reproducing the issue and immediately sends the link to the client. The client can watch the 3-minute recording rather than read a lengthy bug description. If the client needs clarification, they comment at specific timestamps. The team reviews comments while watching the recording, understanding exactly what the client is confused about.
+Real workflow example - A product support team uses Loom for bug reproduction. When a client reports an issue, the support engineer records their screen reproducing the issue and immediately sends the link to the client. The client can watch the 3-minute recording rather than read a lengthy bug description. If the client needs clarification, they comment at specific timestamps. The team reviews comments while watching the recording, understanding exactly what the client is confused about.
 
-Pricing: Free tier with 25 minutes recording/month. Pro at $12/month for unlimited recording.
+Pricing - Free tier with 25 minutes recording/month. Pro at $12/month for unlimited recording.
 
-Best for: Asynchronous communication, non-technical stakeholders, quick demonstrations.
+Best for - Asynchronous communication, non-technical stakeholders, quick demonstrations.
 
 ScreenStudio (macOS)
 
@@ -271,11 +271,11 @@ Key capabilities:
 - Keyboard press visualization
 - Export to various formats
 
-Real workflow example: An engineer records a 5-minute walkthrough of a new feature for non-technical stakeholders. ScreenStudio automatically zooms on the cursor, highlights clicks, and shows keyboard shortcuts. The 5-minute recording feels polished without any editing work. Stakeholders watch once and understand the feature.
+Real workflow example - An engineer records a 5-minute walkthrough of a new feature for non-technical stakeholders. ScreenStudio automatically zooms on the cursor, highlights clicks, and shows keyboard shortcuts. The 5-minute recording feels polished without any editing work. Stakeholders watch once and understand the feature.
 
-Pricing: One-time purchase around $50.
+Pricing - One-time purchase around $50.
 
-Best for: Polished recordings for internal communication, non-developers.
+Best for - Polished recordings for internal communication, non-developers.
 
 OBS (Open Broadcaster Software)
 
@@ -288,11 +288,11 @@ Key capabilities:
 - Extensive customization options
 - Large community with tutorials and plugins
 
-Real workflow example: A technical documentation team uses OBS for recording architecture walkthroughs. They configure scenes showing code editor on one side, terminal on another, with picture-in-picture camera in corner. Complex setup takes time initially, but once configured, repeated recordings are fast.
+Real workflow example - A technical documentation team uses OBS for recording architecture walkthroughs. They configure scenes showing code editor on one side, terminal on another, with picture-in-picture camera in corner. Complex setup takes time initially, but once configured, repeated recordings are fast.
 
-Pricing: Free.
+Pricing - Free.
 
-Best for: Technical teams comfortable with software configuration, complex recording setups.
+Best for - Technical teams comfortable with software configuration, complex recording setups.
 
 Comparison Table
 
@@ -378,7 +378,7 @@ Use text documentation when:
 - Something that requires reference later (people won't rewatch video to find one detail)
 - The information is more important than the medium
 
-Best practice: Combine both. Video walkthrough plus written documentation with timestamps.
+Best practice - Combine both. Video walkthrough plus written documentation with timestamps.
 
 Troubleshooting Recording Issues
 
@@ -407,7 +407,7 @@ Playback is choppy on slow connections:
 - Upload to cloud platform that provides adaptive bitrate streaming (Loom, YouTube)
 - Provide lower-resolution option for viewers on slow connections
 
-Team Exercise: Evaluate Your Current Bug Reporting Process
+Team Exercise - Evaluate Your Current Bug Reporting Process
 
 Spend 15 minutes on each of these:
 

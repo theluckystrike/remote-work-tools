@@ -96,7 +96,7 @@ const analyticsWebhook = async (req, res) => {
 
 Platform-Specific Considerations
 
-Solution A: Integrated Suite Approach
+Solution A - Integrated Suite Approach
 
 Integrated platforms provide all-in-one data collection, storage, and visualization. The advantage lies in simplified maintenance and unified data schemas. However, organizations often encounter limitations when attempting custom metric definitions or integrating proprietary internal data sources.
 
@@ -108,7 +108,7 @@ Implementation typically involves:
 
 The trade-off involves accepting the platform's predefined metric definitions versus the flexibility of building custom aggregations from raw event streams.
 
-Solution B: Data Warehouse Native Architecture
+Solution B - Data Warehouse Native Architecture
 
 Modern analytics architectures separate data collection from visualization. Organizations collect raw events from communication tools, project management systems, and identity providers, then transform this data within their own data warehouse before exposing it through business intelligence tools.
 
@@ -131,7 +131,7 @@ ORDER BY async_percentage DESC;
 
 This approach provides maximum flexibility for defining custom KPIs that align with your organization's specific remote work philosophy. Power users can build sophisticated aggregations that reflect unique operational patterns.
 
-Solution C: Open Source Self-Hosted
+Solution C - Open Source Self-Hosted
 
 For organizations with strong engineering teams, self-hosted solutions offer complete control over data processing and storage. Popular options include:
 - Metabase for visualization layer

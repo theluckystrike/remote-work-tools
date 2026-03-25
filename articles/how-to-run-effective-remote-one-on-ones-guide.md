@@ -18,11 +18,11 @@ intent-checked: true
 
 One-on-one meetings are the strongest tool managers have to develop their teams, unblock obstacles, and build psychological safety. Remote work breaks the incidental connection that offices provided, hallway conversations vanish; gossip networks fragment. Intentional 1:1s fill this gap.
 
-Yet many managers wing their 1:1s: no agenda, no notes, no continuity week-to-week. Result: shallow conversations that don't move the needle on career development or team dynamics.
+Yet many managers wing their 1:1s: no agenda, no notes, no continuity week-to-week. Result - shallow conversations that don't move the needle on career development or team dynamics.
 
 This guide provides frameworks, templates, and cadence recommendations for 1:1s that actually work.
 
-Core Principle: Psychological Safety First
+Core Principle - Psychological Safety First
 
 Effective 1:1s require trust. Your report must believe that:
 
@@ -34,27 +34,27 @@ Effective 1:1s require trust. Your report must believe that:
 One-on-ones are theirs to shape. Spend 40% of the time on their agenda, not yours.
 ---
 
-Cadence: How Often?
+Cadence - How Often?
 
 Table of Contents
 
-- [Cadence: How Often?](#cadence-how-often)
+- [Cadence - How Often?](#cadence-how-often)
 - [The Effective Remote 1:1 Structure (30 Minutes)](#the-effective-remote-11-structure-30-minutes)
-- [Template: 1:1 Agenda Document](#template-11-agenda-document)
+- [Template - 1:1 Agenda Document](#template-11-agenda-document)
 - [REPORT AGENDA (Their topics)](#report-agenda-their-topics)
 - [MANAGER AGENDA (Your topics)](#manager-agenda-your-topics)
 - [NOTES](#notes)
 - [ACTION ITEMS](#action-items)
 - [FOLLOW-UP FOR NEXT WEEK](#follow-up-for-next-week)
-- [Conversation Framework: The Four Pillars](#conversation-framework-the-four-pillars)
+- [Conversation Framework - The Four Pillars](#conversation-framework-the-four-pillars)
 - [Sample 1:1 Dialogue (Real Scenario)](#sample-11-dialogue-real-scenario)
 - [Remote-Specific Tips](#remote-specific-tips)
-- [Red Flags: When 1:1s Reveal Problems](#red-flags-when-11s-reveal-problems)
+- [Red Flags - When 1:1s Reveal Problems](#red-flags-when-11s-reveal-problems)
 - [Common Mistakes Managers Make](#common-mistakes-managers-make)
 - [Tools for Remote 1:1s](#tools-for-remote-11s)
-- [Quarterly Deep-Dive: Career Planning Session](#quarterly-deep detailed look-career-planning-session)
+- [Quarterly Deep-Dive - Career Planning Session](#quarterly-deep detailed look-career-planning-session)
 - [Scaling to Multiple Reports](#scaling-to-multiple-reports)
-- [Final Checklist: Running 1:1s That Work](#final-checklist-running-11s-that-work)
+- [Final Checklist - Running 1:1s That Work](#final-checklist-running-11s-that-work)
 - [Verdict](#verdict)
 
 Individual Contributor (IC), standard responsibility:
@@ -74,7 +74,7 @@ Manager-of-managers:
 - Weekly 60-minute 1:1 with direct reports.
 - Biweekly 90-minute skip-level conversations (you + their reports, rotated).
 
-Schedule consistency: Same day + time every week. Tuesday or Wednesday at 10am. Consistency reduces scheduling friction and builds ritual.
+Schedule consistency - Same day + time every week. Tuesday or Wednesday at 10am. Consistency reduces scheduling friction and builds ritual.
 
 ---
 
@@ -95,18 +95,18 @@ Tools:
 
 ---
 
-Template: 1:1 Agenda Document
+Template - 1:1 Agenda Document
 
 Create a recurring shared doc (Google Doc or Notion). Copy template weekly; archive after meeting.
 
 ```
 WEEK OF [DATE]
-Manager: [Your Name]
-Report: [Report Name]
+Manager - [Your Name]
+Report - [Report Name]
 
 1:1 Date: [Day] at [Time]
-Duration: 30 min
-Link: [Meet link]
+Duration - 30 min
+Link - [Meet link]
 
 ---
 
@@ -129,11 +129,11 @@ FOLLOW-UP FOR NEXT WEEK
 - [Anything unresolved or needs revisit]
 ```
 
-Ground Rule: Report fills their agenda items before the meeting. You add yours. Agenda is not a dictation; it's a guide.
+Ground Rule - Report fills their agenda items before the meeting. You add yours. Agenda is not a dictation; it's a guide.
 
 ---
 
-Conversation Framework: The Four Pillars
+Conversation Framework - The Four Pillars
 
 1. Performance + Execution (2, 3 minutes)
 
@@ -142,9 +142,9 @@ Questions:
 - Are you blocked on anything right now?
 - How are you feeling about your current project?
 
-Why: Keeps you informed on progress without micromanaging. Also surfaces early warning signs (frustration, confusion, technical debt).
+Why - Keeps you informed on progress without micromanaging. Also surfaces early warning signs (frustration, confusion, technical debt).
 
-Do Not: Critique execution in the 1:1 unless it's part of larger feedback (see section below).
+Do Not - Critique execution in the 1:1 unless it's part of larger feedback (see section below).
 
 2. Feedback (3, 5 minutes)
 
@@ -160,11 +160,11 @@ Delivery:
 - Timely. Feedback within 1, 2 days of the event lands better than retroactive.
 - Balanced. Don't make 1:1s a pure feedback session. Mix positive + developmental.
 
-Do Not: Bury critical feedback in vague language. "You're sometimes hard to read" is useless. "When you don't speak up in meetings, I can't tell if you disagree or agree" is actionable.
+Do Not - Bury critical feedback in vague language. "You're sometimes hard to read" is useless. "When you don't speak up in meetings, I can't tell if you disagree or agree" is actionable.
 
 3. Career + Growth (5, 7 minutes, rotated)
 
-Monthly focus: Rotate through these topics.
+Monthly focus - Rotate through these topics.
 - Week 1: Skills & learning (what do you want to improve?)
 - Week 2: Career aspirations (where do you want to be in 2 years?)
 - Week 3: Obstacles to growth (what's blocking you?)
@@ -176,7 +176,7 @@ Sample Dialogue:
 - "Are there parts of your job you'd like to do more of? Less of?"
 - "Who on the team could you learn from? Should we set up a mentorship chat?"
 
-Action: If career goals emerge, schedule separate planning session. 1:1s are discovery; planning sessions are design.
+Action - If career goals emerge, schedule separate planning session. 1:1s are discovery; planning sessions are design.
 
 4. Team + Culture (2, 3 minutes)
 
@@ -188,61 +188,61 @@ Listen, don't react.
 
 Do: Take notes. Patterns across multiple reports signal systemic issues.
 
-Don't: Defend yourself or dismiss concerns immediately. "I hear you" and follow up later if needed.
+Don't - Defend yourself or dismiss concerns immediately. "I hear you" and follow up later if needed.
 
 ---
 
 Sample 1:1 Dialogue (Real Scenario)
 
-Setup: Sarah is a senior engineer. This is week 3 (Career focus).
+Setup - Sarah is a senior engineer. This is week 3 (Career focus).
 
 ---
 
-Manager: "Good morning! How was your weekend?"
+Manager - "Good morning! How was your weekend?"
 
-Sarah: "Pretty good. Did some hiking. Bit sore today!"
+Sarah - "Pretty good. Did some hiking. Bit sore today!"
 
-Manager: (laughs) "I know the feeling. Okay, let's jump in. I see you have a few agenda items. What's on your mind?"
+Manager - (laughs) "I know the feeling. Okay, let's jump in. I see you have a few agenda items. What's on your mind?"
 
-Sarah: "Yep. First, the database migration is blocked on DevOps review. It's been sitting for two days. Second, I want to talk about the mentorship thing."
+Sarah - "Yep. First, the database migration is blocked on DevOps review. It's been sitting for two days. Second, I want to talk about the mentorship thing."
 
-Manager: (taking notes) "Got it. Database review, I can ping them today if you want. As for mentorship, let's dig into that. Are you looking to mentor someone, or be mentored?"
+Manager - (taking notes) "Got it. Database review, I can ping them today if you want. As for mentorship, let's dig into that. Are you looking to mentor someone, or be mentored?"
 
-Sarah: "Mentor. I think I'm ready. There are a few juniors on the team who could use guidance, and I've been thinking about a management track eventually."
+Sarah - "Mentor. I think I'm ready. There are a few juniors on the team who could use guidance, and I've been thinking about a management track eventually."
 
-Manager: "I love that. You've been showing leadership in code reviews and design discussions. Let's set up a separate 30-minute meeting to talk through what mentorship looks like and which junior might be a good fit. How does Friday afternoon work?"
+Manager - "I love that. You've been showing leadership in code reviews and design discussions. Let's set up a separate 30-minute meeting to talk through what mentorship looks like and which junior might be a good fit. How does Friday afternoon work?"
 
-Sarah: "Friday works."
+Sarah - "Friday works."
 
-Manager: "Great. Switching gears, I have a quick feedback item, and then I want to rotate our career conversation this week. Sound good?"
+Manager - "Great. Switching gears, I have a quick feedback item, and then I want to rotate our career conversation this week. Sound good?"
 
-Sarah: "Yeah."
+Sarah - "Yeah."
 
-Manager: "The PR comments you left on the payments system were excellent. You caught three edge cases the author missed, and you explained the why, not just what to fix. That's the quality of review we need. Really strong."
+Manager - "The PR comments you left on the payments system were excellent. You caught three edge cases the author missed, and you explained the why, not just what to fix. That's the quality of review we need. Really strong."
 
-Sarah: "Thanks! That system is complex, so I took the time."
+Sarah - "Thanks! That system is complex, so I took the time."
 
-Manager: "I notice. Okay, career question: if you're thinking management track, what specifically interests you? People management? Technical leadership? Something else?"
+Manager - "I notice. Okay, career question: if you're thinking management track, what specifically interests you? People management? Technical leadership? Something else?"
 
-Sarah: "More the technical leadership side. I don't think I want to manage people full-time, but I like the idea of owning major projects and having influence."
+Sarah - "More the technical leadership side. I don't think I want to manage people full-time, but I like the idea of owning major projects and having influence."
 
-Manager: "That's valuable. We could use more strong technical leads. That path exists here, think of it as principal engineer or architect track. No people management, but influence and scope. Want to explore that more formally?"
+Manager - "That's valuable. We could use more strong technical leads. That path exists here, think of it as principal engineer or architect track. No people management, but influence and scope. Want to explore that more formally?"
 
-Sarah: "Yeah, actually."
+Sarah - "Yeah, actually."
 
-Manager: "Let's add that to the Friday meeting too. We can map out the skills and projects you'd need. Anything else on your mind?"
+Manager - "Let's add that to the Friday meeting too. We can map out the skills and projects you'd need. Anything else on your mind?"
 
-Sarah: "Just, the meeting load. I'm in 22 hours of meetings this week, and most of them aren't critical. Is there anything we can do?"
+Sarah - "Just, the meeting load. I'm in 22 hours of meetings this week, and most of them aren't critical. Is there anything we can do?"
 
-Manager: (taking note) "I see that. Let's audit your calendar this week and see where the bloat is. Some meetings you can skip; some need reduction. I'll follow up after this."
+Manager - (taking note) "I see that. Let's audit your calendar this week and see where the bloat is. Some meetings you can skip; some need reduction. I'll follow up after this."
 
-Sarah: "Appreciate it."
+Sarah - "Appreciate it."
 
-Manager: "Okay, action items: I'll ping DevOps on the migration, we'll meet Friday at [time] for mentorship + career planning, and I'll audit your meetings this week. Anything you're taking?"
+Manager - "Okay, action items: I'll ping DevOps on the migration, we'll meet Friday at [time] for mentorship + career planning, and I'll audit your meetings this week. Anything you're taking?"
 
-Sarah: "I'll draft a mentorship interest document before Friday."
+Sarah - "I'll draft a mentorship interest document before Friday."
 
-Manager: "Perfect. Thanks for the transparency on the meeting load. I want to make sure you have deep work time. See you Friday."
+Manager - "Perfect. Thanks for the transparency on the meeting load. I want to make sure you have deep work time. See you Friday."
 
 ---
 
@@ -282,31 +282,31 @@ Nothing signals disrespect more than a manager who's habitually late or runs ove
 
 ---
 
-Red Flags: When 1:1s Reveal Problems
+Red Flags - When 1:1s Reveal Problems
 
 Report is quiet / withdrawn:
 - Not sharing agenda items.
 - Monosyllabic answers.
 - Avoiding eye contact (on video, looking away from camera).
-- Action: Ask directly: "Something feels off. Everything okay?" Psychological safety may need building.
+- Action - Ask directly: "Something feels off. Everything okay?" Psychological safety may need building.
 
 Frequent blockers / friction:
 - "I'm blocked on X from team Y."
 - "I don't understand the project direction."
 - "No one responds to my questions."
-- Action: These are systemic issues. Don't brush past them. Escalate or help resolution.
+- Action - These are systemic issues. Don't brush past them. Escalate or help resolution.
 
 Career stagnation signals:
 - "I don't know what I'm working toward."
 - "Everyone else seems to get opportunities I don't."
 - "I'm not learning anything new."
-- Action: Career conversation + formal development plan required. This is urgent.
+- Action - Career conversation + formal development plan required. This is urgent.
 
 Burnout indicators:
 - "I'm exhausted."
 - "I had to work Sunday to finish X."
 - "I don't have time to do my work well."
-- Action: Workload audit immediately. Burnout is a manager failure; fix it.
+- Action - Workload audit immediately. Burnout is a manager failure; fix it.
 
 ---
 
@@ -314,30 +314,30 @@ Common Mistakes Managers Make
 
 1. Turning 1:1s Into Status Reports
 
-Wrong: "Tell me what you accomplished this week."
-Right: "What are you proud of this week? What was challenging?"
+Wrong - "Tell me what you accomplished this week."
+Right - "What are you proud of this week? What was challenging?"
 
 Status is available in tickets. Use 1:1s for depth.
 
 2. Spending 100% on Your Agenda
 
-Wrong: Preparing five feedback items and expecting the report to absorb them in 30 min.
-Right: One substantive feedback item + their agenda items.
+Wrong - Preparing five feedback items and expecting the report to absorb them in 30 min.
+Right - One substantive feedback item + their agenda items.
 
 3. Mixing Annual Reviews Into Weekly 1:1s
 
-Wrong: "How do you think you're performing overall?"
-Right: Save formal evaluation for separate annual review. 1:1s are conversational.
+Wrong - "How do you think you're performing overall?"
+Right - Save formal evaluation for separate annual review. 1:1s are conversational.
 
 4. Treating 1:1s as Negotiable
 
-Wrong: Canceling every other week because meetings are "piling up."
-Right: 1:1s are sacred. Reschedule other meetings instead.
+Wrong - Canceling every other week because meetings are "piling up."
+Right - 1:1s are sacred. Reschedule other meetings instead.
 
 5. Not Taking Notes
 
-Wrong: Relying on memory of what your report said.
-Right: Document in the shared 1:1 doc. Refer back in future weeks.
+Wrong - Relying on memory of what your report said.
+Right - Document in the shared 1:1 doc. Refer back in future weeks.
 
 ---
 
@@ -355,7 +355,7 @@ Start with Google Docs + calendar block. Upgrade to Lattice or 15Five only if yo
 
 ---
 
-Quarterly Deep-Dive: Career Planning Session
+Quarterly Deep-Dive - Career Planning Session
 
 Every three months, schedule a separate 45-minute meeting:
 
@@ -366,17 +366,17 @@ Agenda:
 4. Mentorship, training, or learning resources needed
 5. Timeline and milestones
 
-Outcome: Written development plan (shared doc), with clear next steps.
+Outcome - Written development plan (shared doc), with clear next steps.
 
 Example Plan:
 - Goal: Promotion to Senior Engineer
 - Gaps: Needs leadership experience, stronger systems thinking
 - Actions:
- - Lead Q2 project (infrastructure redesign). Target: ship by June 30.
- - Mentor junior engineer (30 min/week). Target: report ready for mid-level role by Sept.
- - Take AWS Solutions Architect course ($300). Target: complete by May 31.
+ - Lead Q2 project (infrastructure redesign). Target - ship by June 30.
+ - Mentor junior engineer (30 min/week). Target - report ready for mid-level role by Sept.
+ - Take AWS Solutions Architect course ($300). Target - complete by May 31.
 - Success metrics: Complete all above + positive peer feedback in code reviews.
-- Review: June 15 (mid-check), Sept 30 (full assessment).
+- Review - June 15 (mid-check), Sept 30 (full assessment).
 
 ---
 
@@ -394,7 +394,7 @@ Managing 10+ reports:
 
 ---
 
-Final Checklist: Running 1:1s That Work
+Final Checklist - Running 1:1s That Work
 
 - [ ] Weekly 30-minute minimum cadence
 - [ ] Shared agenda doc (report contributes items)

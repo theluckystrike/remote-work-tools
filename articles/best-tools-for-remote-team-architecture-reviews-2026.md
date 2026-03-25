@@ -21,13 +21,13 @@ Miro excels at collaborative async architecture reviews with real-time feedback,
 Table of Contents
 
 - [The Remote Architecture Review Challenge](#the-remote-architecture-review-challenge)
-- [Miro: Real-Time Async Collaboration](#miro-real-time-async-collaboration)
-- [Lucidchart: Publication-Quality Diagrams](#lucidchart-publication-quality-diagrams)
-- [Excalidraw: Rapid Sketching and Open Source](#excalidraw-rapid-sketching-and-open-source)
+- [Miro - Real-Time Async Collaboration](#miro-real-time-async-collaboration)
+- [Lucidchart - Publication-Quality Diagrams](#lucidchart-publication-quality-diagrams)
+- [Excalidraw - Rapid Sketching and Open Source](#excalidraw-rapid-sketching-and-open-source)
 - [Feature Comparison Matrix](#feature-comparison-matrix)
 - [Practical Workflow Recommendations](#practical-workflow-recommendations)
 - [Cost Comparison for Teams](#cost-comparison-for-teams)
-- [Real Team Implementation: Case Study](#real-team-implementation-case-study)
+- [Real Team Implementation - Case Study](#real-team-implementation-case-study)
 
 The Remote Architecture Review Challenge
 
@@ -35,18 +35,18 @@ Architecture decisions require visual communication. Team members across time zo
 
 Synchronous whiteboarding tools work poorly for async teams. You can't just sketch; you need clear, persistent documentation. Tools must support threaded comments so reviewers can provide feedback without disrupting the original diagram. Version history prevents confusion about which diagram represents the current design.
 
-Three tools dominate this space: Miro for collaborative workflows, Lucidchart for formal documentation, and Excalidraw for rapid prototyping.
+Three tools dominate this space - Miro for collaborative workflows, Lucidchart for formal documentation, and Excalidraw for rapid prototyping.
 
-Miro: Real-Time Async Collaboration
+Miro - Real-Time Async Collaboration
 
 Miro prioritizes team collaboration with real-time updates, cursor tracking, and asynchronous commenting. Multiple team members can edit simultaneously or leave feedback on a schedule.
 
-Strength: Async Feedback Loops
+Strength - Async Feedback Loops
 
 Miro's sticky notes and comment threads enable structured feedback without disrupting designers:
 
 ```
-Main diagram: Microservices architecture with 8 services
+Main diagram - Microservices architecture with 8 services
 
 Comment thread on "Payment Service" node:
  Sarah (9:00 AM UTC): "How do we handle payment failures across regions?"
@@ -61,9 +61,9 @@ Comment thread on "Database replication" edge:
 
 The diagram evolves based on feedback. Original designer updates components. Reviewers approve or comment further. No meetings required.
 
-Real Example: Distributed System Design Review
+Real Example - Distributed System Design Review
 
-Architecture: Payment processing system across 3 regions
+Architecture - Payment processing system across 3 regions
 
 ```
 Initial architecture sketch (day 1):
@@ -142,11 +142,11 @@ Miro Enterprise (Custom pricing):
 - Dedicated support
 - Best for: Organizations with 50+ users
 
-Lucidchart: Publication-Quality Diagrams
+Lucidchart - Publication-Quality Diagrams
 
 Lucidchart produces professional diagrams suitable for architecture documentation, presentations, and compliance audits. More structured than Miro, requiring more formal process but delivering higher polish.
 
-Strength: Professional Output Quality
+Strength - Professional Output Quality
 
 Lucidchart diagrams look polished enough for customer presentations:
 
@@ -181,12 +181,12 @@ Lucidchart uses a different model for architecture reviews:
 3. Better shape libraries: Professional templates for AWS, Azure, GCP, Kubernetes
 4. More traditional tools: Feels like professional CAD software
 
-Lucidchart Use Case: Compliance Audit Trail
+Lucidchart Use Case - Compliance Audit Trail
 
-Scenario: Financial services company needing audit-ready architecture documentation
+Scenario - Financial services company needing audit-ready architecture documentation
 
 ```
-Diagram: Payment Processing Architecture
+Diagram - Payment Processing Architecture
 
 Version history:
  v1.0 (2025-01-10) - Initial design by Chief Architect
@@ -225,11 +225,11 @@ Lucidchart Enterprise (Custom pricing):
 - Dedicated account manager
 - Best for: Large organizations
 
-Excalidraw: Rapid Sketching and Open Source
+Excalidraw - Rapid Sketching and Open Source
 
 Excalidraw prioritizes speed and openness. It's free, open-source, and works offline. Perfect for rapid brainstorming but not formal documentation.
 
-Strength: Speed and Accessibility
+Strength - Speed and Accessibility
 
 Excalidraw sketches take seconds to create:
 
@@ -306,45 +306,45 @@ Practical Workflow Recommendations
 
 Distributed Async Team (8+ people, 5+ time zones)
 
-Recommended tool: Miro
+Recommended tool - Miro
 
 Workflow:
 ```
-Day 1 (UTC 9am): Architect posts diagram and opens for review
-Day 1 (UTC 3pm): Asia team reviews, leaves comments
-Day 1 (UTC 11pm): Americas team reviews, leaves comments
-Day 2 (UTC 9am): Europe team provides final review
-Day 2 (UTC 2pm): Architect addresses all comments, marks APPROVED
+Day 1 (UTC 9am) - Architect posts diagram and opens for review
+Day 1 (UTC 3pm) - Asia team reviews, leaves comments
+Day 1 (UTC 11pm) - Americas team reviews, leaves comments
+Day 2 (UTC 9am) - Europe team provides final review
+Day 2 (UTC 2pm) - Architect addresses all comments, marks APPROVED
 ```
 
 Miro enables this timeline without synchronous meetings.
 
 Enterprise with Compliance Requirements
 
-Recommended tool: Lucidchart
+Recommended tool - Lucidchart
 
 Workflow:
 ```
-Version 1.0: Designer checks out diagram, makes changes
-Version 1.1: Security team reviews, checks in with comments
-Version 1.2: Compliance team reviews, checks in approval
-Version 1.3: CTO final approval
-Version 2.0: Production deployment
-Audit log shows: who changed what, when, and why
+Version 1.0 - Designer checks out diagram, makes changes
+Version 1.1 - Security team reviews, checks in with comments
+Version 1.2 - Compliance team reviews, checks in approval
+Version 1.3 - CTO final approval
+Version 2.0 - Production deployment
+Audit log shows - who changed what, when, and why
 ```
 
 Lucidchart provides immutable version history for compliance audits.
 
 Small Startup (3-5 people)
 
-Recommended tool: Excaildraw
+Recommended tool - Excaildraw
 
 Workflow:
 ```
-Team meeting: Everyone gathers (synchronous)
-Rapid sketching: Explore 3-4 design options in 30 minutes
-Selection: Team votes on best approach
-Follow-up: One person formalize in Lucidchart if needed
+Team meeting - Everyone gathers (synchronous)
+Rapid sketching - Explore 3-4 design options in 30 minutes
+Selection - Team votes on best approach
+Follow-up - One person formalize in Lucidchart if needed
 ```
 
 Excaildraw's speed enables rapid iteration without overhead.
@@ -361,13 +361,13 @@ Cost Comparison for Teams
 
 Miro balances cost, time, and quality best for distributed teams.
 
-Real Team Implementation: Case Study
+Real Team Implementation - Case Study
 
-Company: 30-person distributed engineering team, 5 continents
+Company - 30-person distributed engineering team, 5 continents
 
-Challenge: Architecture reviews were taking 2 weeks due to timezone issues and unclear feedback.
+Challenge - Architecture reviews were taking 2 weeks due to timezone issues and unclear feedback.
 
-Solution: Implement Miro-based review process
+Solution - Implement Miro-based review process
 
 ```
 Process:

@@ -19,10 +19,10 @@ World Time Buddy is the best all-around time zone management tool for digital no
 Table of Contents
 
 - [The Nomad's Time Zone Problem](#the-nomads-time-zone-problem)
-- [World Time Buddy: Quick Visual Scheduling](#world-time-buddy-quick-visual-scheduling)
-- [Timezone.io: Track Team Availability](#timezoneio-track-team-availability)
+- [World Time Buddy - Quick Visual Scheduling](#world-time-buddy-quick-visual-scheduling)
+- [Timezone.io - Track Team Availability](#timezoneio-track-team-availability)
 - [CLIs and Developer Tools](#clis-and-developer-tools)
-- [Cronofy: Calendar Integration](#cronofy-calendar-integration)
+- [Cronofy - Calendar Integration](#cronofy-calendar-integration)
 - [World Clock Widgets and Desktop Apps](#world-clock-widgets-and-desktop-apps)
 - [Mobile Apps for On-the-Go Time Zone Management](#mobile-apps-for-on-the-go-time-zone-management)
 - [Automation Patterns for Nomads](#automation-patterns-for-nomads)
@@ -43,7 +43,7 @@ When you work from Bangkok today and Lisbon next week, your local time shifts wh
 
 The best solutions work across your laptop and phone, integrate with your existing tooling, and handle daylight saving time transitions automatically.
 
-World Time Buddy: Quick Visual Scheduling
+World Time Buddy - Quick Visual Scheduling
 
 World Time Buddy remains the go-to tool for quick visual scheduling. The interface shows multiple time zones in parallel columns, letting you drag to find overlapping hours. For nomads coordinating with teams in San Francisco, London, and Tokyo simultaneously, the visual approach reveals feasible meeting windows in seconds.
 
@@ -51,7 +51,7 @@ The browser-based tool requires no installation and works offline after initial 
 
 Use World Time Buddy for ad-hoc scheduling when you need to quickly find a time that works for everyone. Its limitation is the lack of API access. it's a reference tool rather than part of an automated workflow.
 
-Timezone.io: Track Team Availability
+Timezone.io - Track Team Availability
 
 Timezone.io provides team availability dashboards that show where everyone is at a glance. After creating a free account, you add team members with their time zones and optional working hours. The dashboard displays current local times and working status for each person.
 
@@ -70,7 +70,7 @@ The `tz` command (available via Homebrew: `brew install tz`) provides instant ti
 ```bash
 Convert 3pm Tokyo time to Los Angeles
 tz Tokyo America/Los_Angeles 2026-03-15T15:00:00
-Output: 2026-03-15T00:00:00 PST
+Output - 2026-03-15T00:00:00 PST
 
 Show current time in multiple zones
 tz now Europe/London Europe/Berlin Asia/Bangkok
@@ -89,7 +89,7 @@ const moment = require('moment-timezone');
 const meetingTime = moment.tz('2026-03-15 14:00', 'Asia/Bangkok');
 const teamTime = meetingTime.clone().tz('America/New_York');
 
-console.log(`Meeting: ${meetingTime.format()}`);
+console.log(`Meeting - ${meetingTime.format()}`);
 console.log(`Team sees: ${teamTime.format('h:mm A z')}`);
 
 // Get current time in multiple zones for your dashboard
@@ -99,7 +99,7 @@ zones.forEach(zone => {
 });
 ```
 
-Install with: `npm install moment-timezone`
+Install with - `npm install moment-timezone`
 
 date-fns-tz: Modern Alternative
 
@@ -118,9 +118,9 @@ const parsed = parse(userInput, 'yyyy-MM-dd HH:mm', new Date());
 const tokyo = toZonedTime(parsed, 'Asia/Tokyo');
 ```
 
-Install with: `npm install date-fns date-fns-tz`
+Install with - `npm install date-fns date-fns-tz`
 
-Cronofy: Calendar Integration
+Cronofy - Calendar Integration
 
 Cronofy connects your calendar with time zone management, handling the complexity of calendar events across multiple providers (Google Calendar, Outlook, Apple Calendar). For nomads who schedule meetings through calendar invites, Cronofy ensures everyone sees the correct local time.
 
@@ -295,7 +295,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -307,7 +307,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

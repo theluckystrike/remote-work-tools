@@ -42,7 +42,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Essential Hardware Components
+Step 1 - Essential Hardware Components
 
 Each cofounder needs a baseline setup that delivers professional video quality without excessive investment. The core components remain consistent regardless of which platform you choose.
 
@@ -161,7 +161,7 @@ function createMeetingWithMeet() {
 }
 ```
 
-Step 2: Automation and Workflow Integration
+Step 2 - Automation and Workflow Integration
 
 For three-person teams, automation reduces friction in daily operations. Quick meeting creation, automatic recordings, and shared notes improve team coordination.
 
@@ -198,12 +198,12 @@ Establish consistent recording practices for important discussions:
 3. Set up shared Drive/OneDrive folders for automatic upload
 4. Create naming conventions: `[Date]_[MeetingType]_[Participants]`
 
-Step 3: Practical Setup Checklist
+Step 3 - Practical Setup Checklist
 
 For a new three-person cofounder team, follow this implementation sequence:
 
 1. Individual workspace setup: Each cofounder configures their home office with adequate lighting, camera, and microphone
-2. Platform selection: Choose one primary platform based on existing tool ecosystem
+2. Platform selection: Choose one primary platform based on existing tool environment
 3. Account configuration: Set up shared calendars, contacts, and organizational settings
 4. Network optimization: Ensure each location has stable connectivity with appropriate QoS
 5. Automation implementation: Add meeting creation shortcuts and recording workflows
@@ -231,8 +231,8 @@ If video quality drops when sharing screens or during data transfers:
 
 ```bash
 Reduce video bitrate to free bandwidth for other traffic
-Zoom: Settings → Video → Advanced
-Set maximum upload bandwidth: 2.5 Mbps instead of default 4-5 Mbps
+Zoom - Settings → Video → Advanced
+Set maximum upload bandwidth - 2.5 Mbps instead of default 4-5 Mbps
 
 For persistent issues, run bandwidth test
 speedtest-cli --simple
@@ -254,7 +254,7 @@ Permanent solutions:
 - Add acoustic foam to walls around microphone
 - Move meetings to quieter times of day
 
-Step 4: Backup Plan for Network Failures
+Step 4 - Backup Plan for Network Failures
 
 Even with good connectivity, internet issues happen. Establish a backup:
 
@@ -273,7 +273,7 @@ setInterval(() => {
 }, 10000);
 ```
 
-Step 5: Video Call Etiquette for Three-Person Teams
+Step 5 - Video Call Etiquette for Three-Person Teams
 
 With constant communication, establish norms:
 
@@ -292,7 +292,7 @@ Recording best practices:
 - Store recordings in shared drive immediately after call
 - Delete recordings after 30 days unless marked for archival
 
-Step 6: Handling Time Zone Challenges for Three Cofounders
+Step 6 - Handling Time Zone Challenges for Three Cofounders
 
 Even three people can span significant time zones. Optimize this:
 
@@ -309,25 +309,25 @@ Example rotation for US West, US Central, Europe:
 
 This distributes early mornings and late evenings fairly.
 
-Step 7: Equipment Upgrade Path
+Step 7 - Equipment Upgrade Path
 
 Don't buy everything at once. Upgrade incrementally:
 
-Phase 1 ($150-250): Webcam + headset
+Phase 1 ($150-250) - Webcam + headset
 - Logitech C920 or similar 1080p webcam: $80-100
 - Audio-Technica AT2020 headset or Plantronics Poly: $60-120
 
-Phase 2 ($200-300): Dedicated microphone + key light
+Phase 2 ($200-300) - Dedicated microphone + key light
 - Blue Yeti or Audio-Technica AT2020 USB: $100-150
 - Key light (BenQ ScreenBar): $80-120
 
-Phase 3 ($300-500): Professional lighting kit
+Phase 3 ($300-500) - Professional lighting kit
 - Three-point lighting setup: $200-400
 - Ring light + diffuser: $150-200
 
 Most three-person teams find Phase 1 sufficient for good calls. Phase 2 improves audio quality noticeably. Phase 3 is optional for frequent client-facing presentations.
 
-Step 8: Monitor Call Quality Metrics
+Step 8 - Monitor Call Quality Metrics
 
 Track these metrics to ensure your setup is working:
 

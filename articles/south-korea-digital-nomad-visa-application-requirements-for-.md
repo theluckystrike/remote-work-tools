@@ -90,19 +90,19 @@ Application Process
 
 The application can be submitted at a South Korean embassy or consulate in your country of residence. Some countries also allow application through the Korean Immigration Service.
 
-Step 1: Prepare Your Documents
+Step 1 - Prepare Your Documents
 
 Start by collecting all required documents at least two months before your planned departure. Bank statements should reflect consistent income over six months, not a single large deposit.
 
-Step 2: Submit Application
+Step 2 - Submit Application
 
 Visit the Korean embassy or consulate to submit your application. Processing typically takes 15-30 business days, though this varies by location. You may be asked to attend an interview to verify your employment details.
 
-Step 3: Receive Visa
+Step 3 - Receive Visa
 
 Once approved, you will receive a visa sticker in your passport. The visa allows entry to South Korea within three months of issuance.
 
-Step 4: Register with Immigration
+Step 4 - Register with Immigration
 
 Within 90 days of arrival, you must register with the local immigration office to receive your Alien Registration Card (ARC). This card is essential for opening bank accounts, signing mobile contracts, and accessing various services.
 
@@ -144,7 +144,7 @@ Common Application Mistakes
 
 Underestimating income documentation: Immigration officers scrutinize financial evidence carefully. Provide multiple months of consistent income rather than relying on a single large payment.
 
-Insurance gaps: Ensure your health insurance explicitly covers South Korea. Some policies exclude certain countries or have limited coverage amounts.
+Insurance gaps - Ensure your health insurance explicitly covers South Korea. Some policies exclude certain countries or have limited coverage amounts.
 
 Assuming remote work equals self-employment: If you are formally employed by a foreign company, you need an employment contract and letter from your employer confirming your remote work arrangement.
 
@@ -228,33 +228,33 @@ Australia
 - Required documents: English with certification if translated
 - Quick turnaround; can apply 3 months before travel
 
-Other regions: Check your country's Korean embassy website for specific procedures and fees.
+Other regions - Check your country's Korean embassy website for specific procedures and fees.
 
 Income Documentation Strategies
 
 Immigration officers scrutinize financial evidence carefully. Provide multiple corroborating sources:
 
 ```
-Option 1: Traditional W-2 Employee
+Option 1 - Traditional W-2 Employee
 - Employment contract showing remote arrangement
 - Employer letter confirming: salary, remote status, contract duration
 - 6 months of recent payslips
 - Bank statements showing deposits matching salary amounts
 
-Option 2: Freelancer with Established Clients
+Option 2 - Freelancer with Established Clients
 - Signed contracts with 3+ clients showing ongoing relationships
 - 6 months of invoices showing consistent billing rates
 - 6 months of bank statements showing client payments received
 - Business registration or self-employment tax filing (Schedule C / equivalent)
 - Portfolio or GitHub showing work history
 
-Option 3: Business Owner
+Option 3 - Business Owner
 - Business registration certificate in your home country
 - Company financial statements (P&L) for last year
 - 6 months of business bank statements
 - Tax return or accountant letter confirming business income
 
-Option 4: Mix of Above
+Option 4 - Mix of Above
 - If income comes from multiple sources, document each
 - Prioritize consistency over magnitude, stable $70k beats volatile $120k
 
@@ -306,8 +306,8 @@ Entertainment & Discretionary:
 - Miscellaneous: $100-200
 - Total: $250-650
 
-TOTAL MONTHLY: $1,090-1,930 (comfortable lifestyle)
-TOTAL ANNUAL: $13,000-23,000
+TOTAL MONTHLY - $1,090-1,930 (comfortable lifestyle)
+TOTAL ANNUAL - $13,000-23,000
 
 Your USD 85,000 salary provides significant buffer for
 medical emergencies, travel, or quality-of-life expenses.

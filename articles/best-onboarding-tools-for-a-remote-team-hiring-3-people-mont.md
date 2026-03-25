@@ -30,12 +30,12 @@ When your remote team brings in three new hires every month, manual onboarding p
 Table of Contents
 
 - [The Core Onboarding Pipeline](#the-core-onboarding-pipeline)
-- [Notion: Centralized Knowledge Base with Access Control](#notion-centralized-knowledge-base-with-access-control)
+- [Notion - Centralized Knowledge Base with Access Control](#notion-centralized-knowledge-base-with-access-control)
 - [Environment Setup](#environment-setup)
-- [GitHub: Automating Repository Access](#github-automating-repository-access)
-- [Slack: Structured Welcome Channels](#slack-structured-welcome-channels)
-- [Linear: Task Management Integration](#linear-task-management-integration)
-- [Combining Tools: an Unified Approach](#combining-tools-an-unified-approach)
+- [GitHub - Automating Repository Access](#github-automating-repository-access)
+- [Slack - Structured Welcome Channels](#slack-structured-welcome-channels)
+- [Linear - Task Management Integration](#linear-task-management-integration)
+- [Combining Tools - an Unified Approach](#combining-tools-an-unified-approach)
 - [Evaluation Criteria for Your Team](#evaluation-criteria-for-your-team)
 
 This guide evaluates onboarding tools that handle the specific challenges of consistent, repeatable remote team scaling. The focus is on tools that integrate with developer workflows, support async documentation, and reduce coordination overhead.
@@ -51,7 +51,7 @@ Before evaluating specific tools, understand the four stages every remote onboar
 
 Teams hiring three people monthly benefit most from tools that automate across all four stages rather than point solutions for each.
 
-Notion: Centralized Knowledge Base with Access Control
+Notion - Centralized Knowledge Base with Access Control
 
 Notion works well as a single source of truth for onboarding documentation. Its permission system lets you create a public-facing team wiki while restricting sensitive HR information to internal pages.
 
@@ -98,7 +98,7 @@ async function createOnboardingPage(name, email, startDate) {
 
 This approach scales well for three monthly hires. The database tracks each new hire's progress through onboarding milestones.
 
-GitHub: Automating Repository Access
+GitHub - Automating Repository Access
 
 Developer onboarding requires repository access provisioning. GitHub's Teams feature combined with organization-wide settings creates a repeatable access pattern.
 
@@ -146,7 +146,7 @@ jobs:
 
 This workflow provisions access to multiple repositories in seconds rather than manual team-by-team invitation.
 
-Slack: Structured Welcome Channels
+Slack - Structured Welcome Channels
 
 Slack remains the primary communication hub for most remote teams. Creating structured welcome channels reduces the cognitive load on new hires and ensures they don't miss critical information.
 
@@ -198,7 +198,7 @@ def schedule_welcome_message(channel_id, new_hire_name):
 
 This ensures new hires receive consistent, timely introductions without manual intervention.
 
-Linear: Task Management Integration
+Linear - Task Management Integration
 
 Linear improves the assignment of onboarding tasks. Create a recurring template for new hire tasks:
 
@@ -228,7 +228,7 @@ curl -X POST https://api.linear.app/graphql \
 
 This creates a trackable onboarding roadmap that persists in your existing project management tool.
 
-Combining Tools: an Unified Approach
+Combining Tools - an Unified Approach
 
 The most effective onboarding system combines these tools into a cohesive workflow. Here's how the pieces fit together:
 
@@ -289,7 +289,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -301,7 +301,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

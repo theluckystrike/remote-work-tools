@@ -21,10 +21,10 @@ Remote team offsites require coordinating travel, accommodations, activities, an
 Table of Contents
 
 - [Why Dedicated Offsite Tools Matter](#why-dedicated-offsite-tools-matter)
-- [Airbnb for Work: Housing-Focused Platform](#airbnb-for-work-housing-focused-platform)
-- [TravelPerk: Full-Service Enterprise Travel](#travelperk-full-service-enterprise-travel)
-- [TroopTravel: Specialized Offsite Coordinator](#trooptravel-specialized-offsite-coordinator)
-- [Navan: Enterprise Travel and Expensing Platform](#navan-enterprise-travel-and-expensing-platform)
+- [Airbnb for Work - Housing-Focused Platform](#airbnb-for-work-housing-focused-platform)
+- [TravelPerk - Full-Service Enterprise Travel](#travelperk-full-service-enterprise-travel)
+- [TroopTravel - Specialized Offsite Coordinator](#trooptravel-specialized-offsite-coordinator)
+- [Navan - Enterprise Travel and Expensing Platform](#navan-enterprise-travel-and-expensing-platform)
 - [Comparison Matrix](#comparison-matrix)
 - [Choosing the Right Tool](#choosing-the-right-tool)
 - [Offsite Planning Checklist](#offsite-planning-checklist)
@@ -41,7 +41,7 @@ Traditional approaches break down when managing offsites:
 
 Dedicated offsite platforms solve these problems by centralizing bookings, budgets, and schedules in one interface accessible to all attendees.
 
-Airbnb for Work: Housing-Focused Platform
+Airbnb for Work - Housing-Focused Platform
 
 Airbnb for Work specializes in coordinating multiple Airbnb properties for team stays, with integrated workplace features.
 
@@ -54,9 +54,9 @@ How It Works
 5. Coordinate activities through the integrated calendar
 6. Manage check-in/check-out logistics
 
-Real-World Example: 10-Person Tech Team Offsite
+Real-World Example - 10-Person Tech Team Offsite
 
-Scenario: 10-person remote engineering team, 4 days in Austin, March 24-28.
+Scenario - 10-person remote engineering team, 4 days in Austin, March 24-28.
 
 Using Airbnb for Work:
 
@@ -66,15 +66,15 @@ Properties booked together:
 - Guest house (3 bedrooms): $2,400 for 4 nights
 - Separate small apartment (1 bedroom): $800 for 4 nights
 
-Total accommodation: $7,700
-Per person: $770
+Total accommodation - $7,700
+Per person - $770
 
 Activities added to calendar:
 Day 1 (March 24): Arrival, team dinner at venue (booked through platform)
-Day 2 (March 25): Morning hiking (9am, 2 hours)
-Day 3 (March 26): Full day offsite work (remote-office style)
-Day 4 (March 27): Evening brewery tour (7pm, 2 hours)
-Day 5 (March 28): Checkout and departure
+Day 2 (March 25) - Morning hiking (9am, 2 hours)
+Day 3 (March 26) - Full day offsite work (remote-office style)
+Day 4 (March 27) - Evening brewery tour (7pm, 2 hours)
+Day 5 (March 28) - Checkout and departure
 
 All attendees see schedule, can RSVP to activities, activities auto-blocked on calendars
 ```
@@ -107,7 +107,7 @@ Pricing
 
 Free platform; costs are Airbnb booking fees (14-16% typical) plus service fee (typically $99-149 for group booking).
 
-TravelPerk: Full-Service Enterprise Travel
+TravelPerk - Full-Service Enterprise Travel
 
 TravelPerk combines flight, hotel, ground transportation, and expenses in one platform with AI-powered recommendations and policy enforcement.
 
@@ -120,15 +120,15 @@ Workflow for Team Offsites
 5. Automatic expense reports and reconciliation
 6. Arrange ground transportation (rental car, shuttle)
 
-Real-World Example: 25-Person SaaS Company Offsite
+Real-World Example - 25-Person SaaS Company Offsite
 
-Scenario: 25 people, distributed across US and EU, 3 days in Denver, April 5-8.
+Scenario - 25 people, distributed across US and EU, 3 days in Denver, April 5-8.
 
 TravelPerk Setup:
 
 ```
-Event Budget: $40,000 ($1,600 per person)
-Policy: Flights under $600, 4-star hotels only
+Event Budget - $40,000 ($1,600 per person)
+Policy - Flights under $600, 4-star hotels only
 
 Attendees book through TravelPerk:
 - 10 US-based flights (avg $400, all approved)
@@ -177,7 +177,7 @@ Pricing
 
 Typically $10,000-50,000 annually depending on company travel volume. Per-booking fees waived if using platform.
 
-TroopTravel: Specialized Offsite Coordinator
+TroopTravel - Specialized Offsite Coordinator
 
 TroopTravel builds the offsite experience, not just booking logistics. Platform handles activities, dining, ground transport, and team bonding with a dedicated local coordinator.
 
@@ -190,24 +190,24 @@ Instead of self-service booking, TroopTravel provides:
 4. Transportation logistics
 5. On-ground support during event
 
-Real-World Example: 15-Person Marketing Team Offsite
+Real-World Example - 15-Person Marketing Team Offsite
 
-Scenario: Marketing team, 3 days in Lisbon, May 15-18, mixed experience levels.
+Scenario - Marketing team, 3 days in Lisbon, May 15-18, mixed experience levels.
 
 TroopTravel Process:
 
 ```
-Week 1: Team fills preferences questionnaire
+Week 1 - Team fills preferences questionnaire
 - Dietary restrictions
 - Activity preferences (adventure, cultural, relaxation)
 - Budget tolerance
 - Accessibility needs
 
-Week 2: TroopTravel coordinator proposes itinerary
-Day 1: Team arrives, group dinner at traditional Fado restaurant (6pm)
-Day 2: Morning walking food tour (9am), afternoon team planning session (2pm), evening rooftop networking
-Day 3: Half-day team activity (rock climbing or hiking), afternoon free time, group dinner
-Day 4: Departure breakfast (8am)
+Week 2 - TroopTravel coordinator proposes itinerary
+Day 1 - Team arrives, group dinner at traditional Fado restaurant (6pm)
+Day 2 - Morning walking food tour (9am), afternoon team planning session (2pm), evening rooftop networking
+Day 3 - Half-day team activity (rock climbing or hiking), afternoon free time, group dinner
+Day 4 - Departure breakfast (8am)
 
 Activities include:
 - Food tour: $65/person
@@ -215,7 +215,7 @@ Activities include:
 - Climbing gym or hiking: $45/person
 - All meals with staff coordinate timing and logistics
 
-Total per person: ~$400 (separate from flights/hotel)
+Total per person - ~$400 (separate from flights/hotel)
 ```
 
 Features
@@ -246,7 +246,7 @@ Pricing
 
 TroopTravel charges per-person fees: typically $50-150/person for activities and coordination, plus venue/dining costs which vary by location and experience.
 
-Navan: Enterprise Travel and Expensing Platform
+Navan - Enterprise Travel and Expensing Platform
 
 Navan (formerly TripActions) integrates travel booking, corporate card, and expensing in one platform, with AI-powered cost optimization.
 
@@ -259,16 +259,16 @@ Offsite Management Features
 5. AI suggests cost-saving options (better flights, cheaper hotels) without compromising preferences
 6. Automated expense reconciliation
 
-Real-World Example: 30-Person Fintech Company Offsite
+Real-World Example - 30-Person Fintech Company Offsite
 
-Scenario: Distributed team, NYC to San Francisco, 4 days, March 28-April 1.
+Scenario - Distributed team, NYC to San Francisco, 4 days, March 28-April 1.
 
 Navan Workflow:
 
 ```
-Event Created: SF Offsite Q1 2026
-Budget: $60,000 ($2,000/person)
-Attendees: 30
+Event Created - SF Offsite Q1 2026
+Budget - $60,000 ($2,000/person)
+Attendees - 30
 
 Booking Phase:
 - Attendees book flights (Navan shows cheapest + best arrival times)
@@ -280,7 +280,7 @@ Results:
 - 12 attendees selected $250/night hotel; Navan shows $220/night option (same quality)
 - Suggests group car service saving $400 vs individual Ubers
 
-Savings: $3,200 (5.3% of budget)
+Savings - $3,200 (5.3% of budget)
 
 Expense Integration:
 - All receipts auto-captured from email
@@ -315,7 +315,7 @@ Limitations
 
 Pricing
 
-Enterprise pricing: typically $20,000-100,000 annually depending on company size and travel volume.
+Enterprise pricing - typically $20,000-100,000 annually depending on company size and travel volume.
 
 Comparison Matrix
 
@@ -328,9 +328,9 @@ Comparison Matrix
 
 Choosing the Right Tool
 
-Small team (5-10 people): Use Airbnb for Work + manual activity booking. Simple, affordable, sufficient for small groups.
+Small team (5-10 people) - Use Airbnb for Work + manual activity booking. Simple, affordable, sufficient for small groups.
 
-Medium team (10-25 people): TravelPerk or TroopTravel depending on needs. TravelPerk if cost control matters; TroopTravel if experience quality matters.
+Medium team (10-25 people) - TravelPerk or TroopTravel depending on needs. TravelPerk if cost control matters; TroopTravel if experience quality matters.
 
 Large team (25+ people, multi-country): Navan for total integration and cost optimization. Pays for itself through AI expense optimization.
 
@@ -359,7 +359,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -371,7 +371,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

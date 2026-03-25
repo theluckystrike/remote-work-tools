@@ -189,7 +189,7 @@ Review these metrics quarterly. If repeat client percentage drops, examine your 
 
 Client Management Tools for Freelancers
 
-Option 1: Spreadsheet (Free, Minimal)
+Option 1 - Spreadsheet (Free, Minimal)
 - Google Sheets + Zapier automation
 - Track: client name, last contact date, project history, next follow-up
 - Cost: Free (Zapier free tier includes basic automations)
@@ -202,9 +202,9 @@ Simple template:
 | ABC Co | x@y | 2026-01-15   | Logo redesign | 2026-02-15  | $8K      | Active |
 ```
 
-Set up calendar reminder: "Follow up with clients where (Today - Last Contact) > 60 days"
+Set up calendar reminder - "Follow up with clients where (Today - Last Contact) > 60 days"
 
-Option 2: HubSpot CRM (Free to $50/month)
+Option 2 - HubSpot CRM (Free to $50/month)
 - Contact database with interaction history
 - Email integration (track opens, clicks)
 - Task automation (reminders to follow up)
@@ -213,23 +213,23 @@ Option 2: HubSpot CRM (Free to $50/month)
 
 Pipeline setup:
 ```
-Stage 1: Lead (prospect)
-Stage 2: Proposal sent
-Stage 3: Contract signed
-Stage 4: Active client
-Stage 5: Project complete
-Stage 6: Follow-up cadence
+Stage 1 - Lead (prospect)
+Stage 2 - Proposal sent
+Stage 3 - Contract signed
+Stage 4 - Active client
+Stage 5 - Project complete
+Stage 6 - Follow-up cadence
 ```
 
-Automation rule: "If last contact > 90 days, create task: 'Check-in with [Client]'"
+Automation rule - "If last contact > 90 days, create task: 'Check-in with [Client]'"
 
-Option 3: Pipedrive ($14-99/month)
+Option 3 - Pipedrive ($14-99/month)
 - Deal-centric CRM (great for recurring projects)
 - Visual pipeline (drag-drop status updates)
 - Customizable fields by project type
 - Small business focused
 
-Option 4: Notion (Free to $10/user/month)
+Option 4 - Notion (Free to $10/user/month)
 - Database-driven client tracking
 - Integration with calendar reminders (via Zapier)
 - Relationship timeline (all projects, notes, decisions)
@@ -245,7 +245,7 @@ Notion template properties:
 - Satisfaction rating
 - Referral potential
 
-Option 5: Dubsado (Proposals + Client Portal)
+Option 5 - Dubsado (Proposals + Client Portal)
 - Cost: $25-75/month
 - Strengths: Proposal generation, contract management, project tracking
 - Client portal: Share files, collect feedback, process payments
@@ -255,28 +255,28 @@ For most solo freelancers, Notion + Google Calendar (free) or HubSpot free tier 
 
 Retainer Pricing Strategies
 
-Model 1: Fixed Monthly Hours
+Model 1 - Fixed Monthly Hours
 - $X/month for Y hours
 - $2,000/month for 40 hours ($50/hour)
 - Unused hours: Roll over (max 20 hours) or expire monthly
 - Advantage: Predictable income, clear client expectations
 - Best for: Development retainers, ongoing support
 
-Model 2: Value-Based Retainer
+Model 2 - Value-Based Retainer
 - $X/month for "strategic partnership"
 - No hour tracking, but defined scope (2-3 projects/month, or availability guarantee)
 - $3,000/month for "on-call availability + 20 hours planning/strategy"
 - Advantage: Higher margins, aligns with client outcomes
 - Best for: Design, strategy, consulting
 
-Model 3: Success-Based Retainer
+Model 3 - Success-Based Retainer
 - Base $X + percentage of outcome
 - $1,000/month + 5% of new revenue generated
 - Advantage: Incentives align with client success
 - Risk: Requires months to prove value
 - Best for: Marketing, growth-focused services
 
-Model 4: Tiered Retainer
+Model 4 - Tiered Retainer
 - Tier 1: $500/mo (emergency support + 4 hours)
 - Tier 2: $1,500/mo (priority support + 16 hours + strategy)
 - Tier 3: $3,000/mo (dedicated resource + unlimited hours + leadership)
@@ -287,9 +287,9 @@ Retainer Agreement Template
 ```markdown
 Retainer Agreement
 
-Service: [Description]
-Monthly Fee: $[Amount]
-Billing Date: [1st/15th of month]
+Service - [Description]
+Monthly Fee - $[Amount]
+Billing Date - [1st/15th of month]
 
 Included Hours
 - [X] hours per month
@@ -317,7 +317,7 @@ Minimum Commitment
 Deliverables
 [List specific things included each month or quarter]
 
-Signed: ________________     Date: __________
+Signed - ________________     Date: __________
 ```
 
 Automated Client Touchpoint System

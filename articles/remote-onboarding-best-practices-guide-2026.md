@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Pre-Arrival Preparation
+Step 1 - Pre-Arrival Preparation
 
 Successful remote onboarding begins before the new hire's first day. Engineering teams should prepare infrastructure access, development environments, and documentation in advance.
 
@@ -94,7 +94,7 @@ WORKDIR /workspace
 
 Provide new team members with pre-configured environments. Docker Desktop, OrbStack, or Rancher Desktop enable quick local setup.
 
-Step 2: First Week Structure
+Step 2 - First Week Structure
 
 The first week sets expectations and builds momentum. Structure onboarding to balance information absorption with meaningful contribution.
 
@@ -141,7 +141,7 @@ onboarding/
 
 Keep documentation current. Assign documentation owners who review and update content quarterly.
 
-Step 3: Asynchronous Communication Integration
+Step 3 - Asynchronous Communication Integration
 
 Remote teams span time zones. Effective onboarding prepares developers for asynchronous workflows.
 
@@ -150,22 +150,22 @@ Context-Rich Communication
 Asynchronous communication lacks the immediate feedback of face-to-face conversation. Teach new hires to provide context:
 
 ```markdown
-Step 4: Problem Description
+Step 4 - Problem Description
 The payment processing endpoint returns 500 errors when handling
 transactions over $10,000.
 
-Step 5: Steps to Reproduce
+Step 5 - Steps to Reproduce
 1. Authenticate as a user with admin privileges
 2. POST to /api/v1/payments with amount: 15000
 3. Observe 500 response
 
-Step 6: Expected Behavior
+Step 6 - Expected Behavior
 Transaction should be processed or return validation error.
 
-Step 7: Actual Behavior
+Step 7 - Actual Behavior
 Server returns 500 Internal Server Error
 
-Step 8: Environment
+Step 8 - Environment
 - API Version: 2.3.1
 - Database: PostgreSQL 15
 - Payment Gateway: Stripe v3
@@ -195,7 +195,7 @@ Explicitly document your team's async communication norms and share them during 
 
 New hires from office environments sometimes over-rely on real-time messaging to compensate for feeling disconnected. Coaching them into async patterns early prevents them from becoming a bottleneck when time zones diverge.
 
-Step 9: Mentorship Programs
+Step 9 - Mentorship Programs
 
 Structured mentorship accelerates integration. Pair new hires with experienced developers who can provide guidance.
 
@@ -253,7 +253,7 @@ Set measurable objectives for each milestone:
 
 Document progress and address concerns proactively.
 
-Step 10: Tools for Remote Onboarding
+Step 10 - Tools for Remote Onboarding
 
 Select tools that support asynchronous collaboration and reduce friction.
 
@@ -269,7 +269,7 @@ Essential Tool Categories
 
 Evaluate tools based on team needs. Avoid adopting trendy solutions that don't solve specific problems.
 
-Step 11: Measuring Onboarding Success
+Step 11 - Measuring Onboarding Success
 
 Track metrics to improve the onboarding process continuously.
 
@@ -315,7 +315,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -327,7 +327,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

@@ -46,7 +46,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Essential Components of Client Retrospective Formats
+Step 1 - Essential Components of Client Retrospective Formats
 
 Pre-Retrospective Survey
 
@@ -73,27 +73,27 @@ What Went Well
 
 Start by celebrating successes. Ask clients what aspects of the project exceeded expectations or what they appreciated about the working relationship. This positive framing builds goodwill and helps identify what to replicate in future projects.
 
-Example prompt: "What about our collaboration or the deliverables we produced did you find most valuable or surprising?"
+Example prompt - "What about our collaboration or the deliverables we produced did you find most valuable or surprising?"
 
 Areas for Improvement
 
 This section requires sensitivity. Frame questions to focus on processes and outcomes rather than assigning blame. Ask what would have made the experience better without implying that something was wrong.
 
-Example prompt: "If we were to work on another project together, what single change would most improve the experience?"
+Example prompt - "If we were to work on another project together, what single change would most improve the experience?"
 
 Action Items and Future Planning
 
 Translate feedback into concrete next steps. Document specific commitments, both what you'll do differently and what the client will do differently in future collaborations.
 
-Step 2: Template Examples
+Step 2 - Template Examples
 
 Asynchronous Retrospective Document Template
 
 ```markdown
-Project Retrospective: [Project Name]
-Date: [Date]
-Client: [Client Name]
-Team: [Team Members]
+Project Retrospective - [Project Name]
+Date - [Date]
+Client - [Client Name]
+Team - [Team Members]
 
 Executive Summary
 [2-3 sentence overview of project outcome]
@@ -109,17 +109,17 @@ Areas for Improvement
 - [Specific improvement area 1 with context]
 - [Specific improvement area 2 with context]
 
-Net Promoter Score: [1-10]
-[Optional: Would you recommend us?]
+Net Promoter Score - [1-10]
+[Optional - Would you recommend us?]
 
-Step 3: Action Items
+Step 3 - Action Items
 
 | Action Item | Owner | Due Date |
 |-------------|-------|----------|
 | [Specific action] | [Name] | [Date] |
 | [Specific action] | [Name] | [Date] |
 
-Step 4: Lessons Learned for Future Projects
+Step 4 - Lessons Learned for Future Projects
 - [Internal lesson 1 - not shared with client]
 - [Internal lesson 2 - not shared with client]
 ```
@@ -180,64 +180,64 @@ Failing to follow through. Nothing damages client relationships faster than coll
 
 Retrospectives too late. Waiting months after project completion means memories fade and the emotional impact of issues dissipates. Schedule retrospectives while the experience is still fresh.
 
-Step 5: Adapting Formats for Different Client Types
+Step 5 - Adapting Formats for Different Client Types
 
 Enterprise clients often prefer structured formats with written documentation they can share with stakeholders. Smaller clients may prefer more casual conversations. Adjust your format based on client preferences while maintaining the core structure that makes retrospectives valuable.
 
 For clients in significantly different time zones, prioritize asynchronous surveys and written documentation. Use synchronous time sparingly for high-value discussion rather than information gathering that could happen asynchronously.
 
-Step 6: Retrospective Tools and Software
+Step 6 - Retrospective Tools and Software
 
-Option 1: Google Forms + Sheets (Free)
+Option 1 - Google Forms + Sheets (Free)
 - Create 8-10 question survey (5 min to complete)
 - Responses auto-populate spreadsheet
 - Add formulas to calculate NPS, satisfaction averages
 - Share results link with client
 - Best for: Budget-conscious, straightforward feedback
 
-Free template: Create a copy of any Google Form template, customize questions.
+Free template - Create a copy of any Google Form template, customize questions.
 
-Option 2: Typeform ($29-99/month)
+Option 2 - Typeform ($29-99/month)
 - Beautiful survey interface (higher completion rates)
 - Logic branching (show different questions based on answers)
 - Responses sync to spreadsheet/CRM automatically
 - Conditional follow-ups (if NPS <7, ask why)
 - Best for: Professional appearance, improved UX
 
-Option 3: SurveySparrow ($99-299/month)
+Option 3 - SurveySparrow ($99-299/month)
 - Email-based surveys with branding
 - Mobile-optimized for client responses
 - CSAT/NPS tracking built-in
 - Integrations: Slack, HubSpot, Asana
 - Best for: Larger agencies, multiple projects/clients
 
-Option 4: Retool (Custom)
+Option 4 - Retool (Custom)
 - Build your own retrospective form (code-based)
 - Cost: Free tier available, $10-50/month
 - Advantage: Fully customized, integrates with your stack
 - Best for: Technical teams with unique needs
 
-Option 5: Notion Form (Free)
+Option 5 - Notion Form (Free)
 - Create form inside Notion database
 - Responses become database entries
 - Can track over time, filter by client
 - Integrates with Zapier for automation
-- Best for: Teams already in Notion ecosystem
+- Best for: Teams already in Notion environment
 
-Step 7: Retrospective Timing Strategy
+Step 7 - Retrospective Timing Strategy
 
 Optimal Timing Schedule
 ```
-Day 1 (Project end): Final deliverable, no retro yet (let dust settle)
-Day 3: Send survey (client memory still fresh)
-Day 7-10: Compile results, schedule sync call if needed
-Day 14: Deliver written retrospective summary + archive in project folder
-Day 21: Implement 1-2 quick improvements from feedback
+Day 1 (Project end) - Final deliverable, no retro yet (let dust settle)
+Day 3 - Send survey (client memory still fresh)
+Day 7-10 - Compile results, schedule sync call if needed
+Day 14 - Deliver written retrospective summary + archive in project folder
+Day 21 - Implement 1-2 quick improvements from feedback
 ```
 
 This spacing prevents recency bias while capturing detailed feedback.
 
-Step 8: Categorizing Feedback for Action
+Step 8 - Categorizing Feedback for Action
 
 Not all feedback is equal. Create a triage system:
 
@@ -247,7 +247,7 @@ Critical Issues (Fix immediately)
 - Communication breakdown
 - Project outcome below target
 
-Action: Schedule immediate call, create fix plan, implement within 1 week.
+Action - Schedule immediate call, create fix plan, implement within 1 week.
 
 Substantial Improvements (Plan for next project)
 - Process improvements
@@ -255,7 +255,7 @@ Substantial Improvements (Plan for next project)
 - Team composition changes
 - Workflow optimizations
 
-Action: Document in lessons-learned file, apply to similar future projects.
+Action - Document in lessons-learned file, apply to similar future projects.
 
 Nice-to-Have Feedback (Consider, don't prioritize)
 - Feature requests
@@ -263,7 +263,7 @@ Nice-to-Have Feedback (Consider, don't prioritize)
 - Preference feedback
 - One-off suggestions
 
-Action: Track in backlog, implement only if it improves multiple projects.
+Action - Track in backlog, implement only if it improves multiple projects.
 
 ```python
 def categorize_feedback(feedback_item):
@@ -285,37 +285,37 @@ def categorize_feedback(feedback_item):
     # Route each category to different action paths
 ```
 
-Step 9: NPS and Satisfaction Measurement
+Step 9 - NPS and Satisfaction Measurement
 
 Use standard metrics to track client satisfaction trends:
 
 Net Promoter Score (NPS)
 ```
-Single question: "On a scale 0-10, how likely are you to recommend us?"
+Single question - "On a scale 0-10, how likely are you to recommend us?"
 - 9-10: Promoters (likely to refer)
 - 7-8: Passives (satisfied but may leave for alternatives)
 - 0-6: Detractors (unsatisfied, may leave negative reviews)
 
 NPS = (% Promoters - % Detractors) × 100
 
-Target: 50+ is excellent, 30-50 is good, <30 needs improvement
+Target - 50+ is excellent, 30-50 is good, <30 needs improvement
 ```
 
 CSAT (Customer Satisfaction)
 ```
-Question: "How satisfied are you with this project?" (1-5 scale)
+Question - "How satisfied are you with this project?" (1-5 scale)
 - 5: Very satisfied (likely repeat client)
 - 4: Satisfied (will continue work)
 - 3: Neutral (no strong opinion)
 - 2: Dissatisfied (may not return)
 - 1: Very dissatisfied (likely to leave)
 
-Target: 80%+ respondents give 4-5 rating
+Target - 80%+ respondents give 4-5 rating
 ```
 
 CES (Customer Effort Score)
 ```
-Question: "How easy was it to work with us?" (1-5 scale)
+Question - "How easy was it to work with us?" (1-5 scale)
 - Focus: Effort matters more than satisfaction for retention
 - Low effort = high retention
 - High effort = high churn
@@ -323,7 +323,7 @@ Question: "How easy was it to work with us?" (1-5 scale)
 
 Track these metrics quarterly. A declining trend signals process problems before they cause client churn.
 
-Step 10: Documentation Archive for Lessons Learned
+Step 10 - Documentation Archive for Lessons Learned
 
 Create a system that captures knowledge from each project:
 

@@ -19,14 +19,14 @@ Distributed teams spanning 8+ timezones need project management tools that don't
 Table of Contents
 
 - [The Async PM Problem](#the-async-pm-problem)
-- [Linear: Speed + Developer-Centric Async](#linear-speed-developer-centric-async)
-- [Notion: Ultimate Flexibility, Custom Async Workflows](#notion-ultimate-flexibility-custom-async-workflows)
-- [Height: Purpose-Built for Async](#height-purpose-built-for-async)
-- [Shortcut (fka Clubhouse): Engineering-Focused Async](#shortcut-fka-clubhouse-engineering-focused-async)
-- [Comparison Table: Async PM Tools](#comparison-table-async-pm-tools)
+- [Linear - Speed + Developer-Centric Async](#linear-speed-developer-centric-async)
+- [Notion - Ultimate Flexibility, Custom Async Workflows](#notion-ultimate-flexibility-custom-async-workflows)
+- [Height - Purpose-Built for Async](#height-purpose-built-for-async)
+- [Shortcut (fka Clubhouse) - Engineering-Focused Async](#shortcut-fka-clubhouse-engineering-focused-async)
+- [Comparison Table - Async PM Tools](#comparison-table-async-pm-tools)
 - [Choosing Your Tool Based on Team Size](#choosing-your-tool-based-on-team-size)
-- [Implementation: Converting to Async PM](#implementation-converting-to-async-pm)
-- [Real Metrics: Async PM Adoption](#real-metrics-async-pm-adoption)
+- [Implementation - Converting to Async PM](#implementation-converting-to-async-pm)
+- [Real Metrics - Async PM Adoption](#real-metrics-async-pm-adoption)
 
 The Async PM Problem
 
@@ -46,7 +46,7 @@ Async-first tools solve this by:
 3. Batching notifications per-person's timezone
 4. Recording decisions that people can review later
 
-Linear: Speed + Developer-Centric Async
+Linear - Speed + Developer-Centric Async
 
 Linear ($7-15/user/month) is built for engineering teams who write code between status updates. It assumes developers need speed over feature richness.
 
@@ -61,7 +61,7 @@ Linear creates notification task
 Monday, evening London:
 Bob (UK) reads notification → replies "Started, will have PR by Wednesday"
 Linear batches reply into activity stream
-Bob's timezone: sees Alice's message from morning
+Bob's timezone - sees Alice's message from morning
 
 Tuesday, morning New York:
 Charlie (NY) wakes up, opens Linear dashboard
@@ -90,22 +90,22 @@ Linear Notification Settings for Distributed Teams
 ```
 Settings → Notifications
 
-Email digest frequency: Daily (pick your morning time)
-Slack integration: Thread-per-issue, no fire hose
-Mention notifications: Immediate (time-insensitive alerts)
-Status updates: Daily digest
-Comment replies: Batched until you're online
+Email digest frequency - Daily (pick your morning time)
+Slack integration - Thread-per-issue, no fire hose
+Mention notifications - Immediate (time-insensitive alerts)
+Status updates - Daily digest
+Comment replies - Batched until you're online
 ```
 
-Real Example: Linear Async Sprint
+Real Example - Linear Async Sprint
 
 Monday 8am SG:
 ```
-Alice creates issue: "Add dark mode toggle"
-Type: Feature
-Status: Backlog
-Assign to: Bob
-Comment: "Users request this on Twitter, let's ship it this sprint"
+Alice creates issue - "Add dark mode toggle"
+Type - Feature
+Status - Backlog
+Assign to - Bob
+Comment - "Users request this on Twitter, let's ship it this sprint"
 ```
 
 Monday 10pm UK:
@@ -124,7 +124,7 @@ Bob logs in. Linear dashboard shows:
 Tuesday 2am NY:
 Charlie (designer) gets daily digest email:
 ```
-New assigned: "Add dark mode toggle"
+New assigned - "Add dark mode toggle"
   Alice's request + Bob's estimate
 
   Charlie replies: "Will design variant by your Wed morning, Bob"
@@ -149,9 +149,9 @@ Linear Pricing for Distributed Teams
 | Pro | $7/user/mo | Unlimited | Cycles, custom fields | small teams |
 | Scale | $15/user/mo | Unlimited | Advanced automation | scaling |
 
-For a 6-person distributed team: $42-90/month.
+For a 6-person distributed team - $42-90/month.
 
-Notion: Ultimate Flexibility, Custom Async Workflows
+Notion - Ultimate Flexibility, Custom Async Workflows
 
 Notion ($10-20/user/month) is infinitely customizable. You build exactly the async workflow your team needs.
 
@@ -171,26 +171,26 @@ Issues Database:
 - Async approval (checkbox: approved by non-creator)
 ```
 
-Database View: "Daily Review by Timezone"
+Database View - "Daily Review by Timezone"
 
 Create per-timezone views that show only issues requiring your input:
 
 ```
-View: "EMEA Morning Review"
-Filter: Timezone Tag = "APAC" (work completed overnight)
-Filter: Status = "Awaiting Review"
-Sort: Created Date (oldest first)
+View - "EMEA Morning Review"
+Filter - Timezone Tag = "APAC" (work completed overnight)
+Filter - Status = "Awaiting Review"
+Sort - Created Date (oldest first)
 
-View: "AMER Standup" (async version)
-Filter: Assigned to = Current User
-Filter: Status = In Progress
-Sort: Updated Date DESC
+View - "AMER Standup" (async version)
+Filter - Assigned to = Current User
+Filter - Status = In Progress
+Sort - Updated Date DESC
 ```
 
 Async Workflow Template in Notion
 
 ```
-Template: Issue Lifecycle
+Template - Issue Lifecycle
 
 [Status Backlog]
   Creator fills: Title, Description, Acceptance Criteria
@@ -238,9 +238,9 @@ Notion Pricing
 | Plus | $10/user/mo | Unlimited | Teams with flexibility needs |
 | Business | $20/user/mo | Unlimited | Enterprise with SSO |
 
-Hidden cost: 20-40 hours initial setup to build async workflow.
+Hidden cost - 20-40 hours initial setup to build async workflow.
 
-Height: Purpose-Built for Async
+Height - Purpose-Built for Async
 
 Height ($9/user/month) is newer but specifically designed for async-first teams.
 
@@ -252,7 +252,7 @@ Height's interface makes async assumptions:
 3. Timezone-aware notifications (sends during your working hours)
 4. Activity digest (see all updates for this morning)
 
-Real Example: Height Async Workflow
+Real Example - Height Async Workflow
 
 ```
 Monday 6am SG (Alice):
@@ -262,7 +262,7 @@ Add context:
   - Technical spec (Markdown)
   - Acceptance criteria
   - Dependencies (awaiting Bob's auth system)
-  - "Bob: ETA on auth system?"
+  - "Bob - ETA on auth system?"
 
 Task created. Notifications queue (don't send yet).
 
@@ -278,16 +278,16 @@ Notifications queue until Alice's working hours.
 
 Tuesday 8am SG (Alice):
 Receives: "Bob replied to your task"
-Reads: Auth ETA + blocker
-Replies: "I'll unblock password reset, can you pair async?"
-Height creates sub-task: "Password reset flow"
+Reads - Auth ETA + blocker
+Replies - "I'll unblock password reset, can you pair async?"
+Height creates sub-task - "Password reset flow"
   Assigned to: Alice
   Depends on: Bob's auth system
 
 Tuesday 2pm UK (Bob):
 Gets batched update: "3 new messages in onboarding task"
 Sees Alice's async pairing offer
-Writes detailed doc: "Password reset flow implementation notes"
+Writes detailed doc - "Password reset flow implementation notes"
 Links code examples from his auth module
 
 Wednesday 8am SG (Alice):
@@ -311,7 +311,7 @@ Height Pricing
 | Team | $9/user/mo | Unlimited | Distributed teams |
 | Enterprise | Custom | Unlimited | 50+ person companies |
 
-Shortcut (fka Clubhouse): Engineering-Focused Async
+Shortcut (fka Clubhouse) - Engineering-Focused Async
 
 Shortcut ($20/month flat) combines project management with detailed engineering workflows. It's specialized for software teams that need traceability.
 
@@ -327,53 +327,53 @@ Async Workflow Example in Shortcut
 ```
 Monday morning (SG, Alice):
 Create story: "Database migration for user retention"
-Link to: "Improve app startup time" (parent story)
-Estimate: 8 points
+Link to - "Improve app startup time" (parent story)
+Estimate - 8 points
 Acceptance criteria: 
   - DB schema updated
   - Zero-downtime migration path tested
   - Rollback plan documented
 
-Assign to: Bob (UK)
+Assign to - Bob (UK)
 
 Monday afternoon (UK, Bob):
 Opens Shortcut dashboard
-Sees: "New story: Database migration (8 pts, assigned to you)"
-Reads: requirements, acceptance criteria
-Comments: "Will start Wed after current PR merges. Need clarification: run migration on dev data first?"
+Sees - "New story: Database migration (8 pts, assigned to you)"
+Reads - requirements, acceptance criteria
+Comments - "Will start Wed after current PR merges. Need clarification: run migration on dev data first?"
 
-Response: Notified next morning, Alice's time
+Response - Notified next morning, Alice's time
 
 Tuesday morning (SG, Alice):
 Reads Bob's question
-Replies: "Yes, test on dev first. Will set up data snapshot."
-Also creates: Sub-task: "Prepare dev DB snapshot"
+Replies - "Yes, test on dev first. Will set up data snapshot."
+Also creates - Sub-task: "Prepare dev DB snapshot"
 Assigns to self
 
 Tuesday 3pm (UK, Bob):
 Dashboard shows: "Dev snapshot ready (linked in task)"
 Ready to move forward
-Updates story: "In Progress"
+Updates story - "In Progress"
 
 Wednesday morning (SG, Alice):
 Sees: Bob's PR linked to story
-Notification: "Story in Review"
+Notification - "Story in Review"
 Clicks → reviews code in GitHub
 Approves
 
 Friday (any timezone):
 PR merged → Shortcut auto-marks: "Completed"
-Story archive shows: Started Mon, completed Fri
+Story archive shows - Started Mon, completed Fri
 Zero meetings required
 ```
 
 Shortcut Pricing
 
-Single plan: $20/month flat (unlimited users for one workspace).
+Single plan - $20/month flat (unlimited users for one workspace).
 
-For a distributed team of 10: $2/user/month (best value).
+For a distributed team of 10 - $2/user/month (best value).
 
-Comparison Table: Async PM Tools
+Comparison Table - Async PM Tools
 
 | Feature | Linear | Notion | Height | Shortcut |
 |---------|--------|--------|--------|----------|
@@ -409,9 +409,9 @@ Choosing Your Tool Based on Team Size
 - Height: Still solid, scales well
 - Notion: If heavy on PMs/design
 
-Implementation: Converting to Async PM
+Implementation - Converting to Async PM
 
-Week 1: Setup
+Week 1 - Setup
 
 ```
 1. Choose your tool (recommend Linear or Height for first async team)
@@ -421,7 +421,7 @@ Week 1: Setup
 5. Train team: "Write as if async, read batch once/day"
 ```
 
-Week 2-4: Adoption
+Week 2-4 - Adoption
 
 ```
 - Post decision log in PM tool (not Slack)
@@ -446,7 +446,7 @@ Key Rules for Async Success
  - Don't Slack someone during their sleep
  - Use the tool to schedule notification delivery
 
-Real Metrics: Async PM Adoption
+Real Metrics - Async PM Adoption
 
 Company case study (from Height data, 2026):
 - Before async PM: 45 min daily standup × 5 days = 3.75 hours/week lost
@@ -465,7 +465,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -477,7 +477,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

@@ -25,7 +25,7 @@ Table of Contents
 - [Decision-Making](#decision-making)
 - [Work Patterns](#work-patterns)
 - [Values in Practice](#values-in-practice)
-- [Status: [Proposed | Accepted | Deprecated]](#status-proposed-accepted-deprecated)
+- [Status - [Proposed | Accepted | Deprecated]](#status-proposed-accepted-deprecated)
 - [Context](#context)
 - [Decision](#decision)
 - [Consequences](#consequences)
@@ -90,9 +90,9 @@ Capture the "why" behind decisions through Architecture Decision Records (ADRs) 
 ADR template
 mkdir -p docs/decisions
 cat > docs/decisions/template.md << 'EOF'
-ADR-XXX: [Title]
+ADR-XXX - [Title]
 
-Status: [Proposed | Accepted | Deprecated]
+Status - [Proposed | Accepted | Deprecated]
 
 Context
 What situation prompted this decision?
@@ -153,10 +153,10 @@ Async Standup Format
 Replace synchronous daily standups with an async format posted in your team channel:
 
 ```
-Yesterday: Shipped user authentication refactor
-Today: Starting payment webhook integration
-Blockers: Waiting on API credentials from partner (ETA: tomorrow)
-FYI: Out Thursday afternoon for dentist appointment
+Yesterday - Shipped user authentication refactor
+Today - Starting payment webhook integration
+Blockers - Waiting on API credentials from partner (ETA: tomorrow)
+FYI - Out Thursday afternoon for dentist appointment
 ```
 
 Use a bot to collect these at a consistent time each day. Managers review async -- no meeting required.

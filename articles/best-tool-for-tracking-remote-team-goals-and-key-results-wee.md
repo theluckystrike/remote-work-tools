@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Parse: Accomplished X. Next: Y. Blockers: Z"
+title: "Parse - Accomplished X. Next: Y. Blockers: Z"
 description: "Tracking goals and Key Results weekly across distributed teams requires tools that balance visibility with low overhead. The best solution depends on your"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -29,7 +29,7 @@ For remote engineering teams, weekly goal tracking differs from quarterly OKR ma
 
 The tool should require minimal friction. If updating goals takes more than two minutes, adoption drops. Look for keyboard-first interfaces, API access for automation, and async-first design that doesn't assume everyone is online simultaneously.
 
-Linear: Cycles and Issues Combined
+Linear - Cycles and Issues Combined
 
 Linear combines issue tracking with cycle-based planning, making it strong for teams already using it for project management. Each cycle (typically two weeks) functions as a goal container, and you can create issues specifically for objectives.
 
@@ -72,9 +72,9 @@ query GetCycleProgress($cycleId: String!) {
 }
 ```
 
-The limitation: Linear is primarily an issue tracker. True OKR functionality requires workarounds or third-party integrations.
+The limitation - Linear is primarily an issue tracker. True OKR functionality requires workarounds or third-party integrations.
 
-Notion: Flexible Database Architecture
+Notion - Flexible Database Architecture
 
 Notion's database system provides unmatched flexibility for building custom weekly goal trackers. You can create databases for objectives, key results, and weekly check-ins, then link them together.
 
@@ -124,7 +124,7 @@ async function updateKeyResult(krPageId, newValue) {
 
 Notion works well when you need custom workflows, but the lack of native OKR templates means building everything from scratch.
 
-GitHub Projects: For Code-First Teams
+GitHub Projects - For Code-First Teams
 
 If your team lives in GitHub, Projects combined with Issues provides a lightweight goal tracking system. You can use milestones for time-bound objectives and labels for categorization.
 
@@ -183,7 +183,7 @@ jobs:
 
 This approach works for teams that prefer keeping everything in GitHub, though it's less structured for high-level OKR visibility.
 
-Lattice: Dedicated OKR and Goals
+Lattice - Dedicated OKR and Goals
 
 Lattice specializes in goals and performance management, offering native OKR functionality, 360-degree feedback, and engagement surveys. The weekly check-in feature aligns with your requirement for regular goal updates.
 
@@ -217,19 +217,19 @@ def create_weekly_check_in(user_id, token, check_in_data):
     return response.json()
 ```
 
-Lattice requires paid plans for advanced features, and the integration ecosystem isn't as developer-friendly as Linear or GitHub.
+Lattice requires paid plans for advanced features, and the integration environment isn't as developer-friendly as Linear or GitHub.
 
 Making Your Choice
 
 Consider these factors when selecting a weekly goal tracking tool:
 
-Existing infrastructure: If you already use Linear for issues, extend it rather than adding another tool. If your team uses Notion for documentation, build your goal tracker there.
+Existing infrastructure - If you already use Linear for issues, extend it rather than adding another tool. If your team uses Notion for documentation, build your goal tracker there.
 
-Technical sophistication: Code-first teams benefit from GitHub Projects. Teams wanting less configuration might prefer dedicated solutions like Lattice.
+Technical sophistication - Code-first teams benefit from GitHub Projects. Teams wanting less configuration might prefer dedicated solutions like Lattice.
 
-Integration needs: Consider what other systems must feed into your goal tracking. Marketing, design, and operations may have different tool preferences.
+Integration needs - Consider what other systems must feed into your goal tracking. Marketing, design, and operations may have different tool preferences.
 
-Update frequency: Some tools excel at daily updates, others at weekly or quarterly cadences. Match the tool's rhythm to your team's actual meeting schedule.
+Update frequency - Some tools excel at daily updates, others at weekly or quarterly cadences. Match the tool's rhythm to your team's actual meeting schedule.
 
 Implementation Pattern for Weekly Check-Ins
 
@@ -268,7 +268,7 @@ def weekly_update(ack, respond, command):
     user = command["user_name"]
     text = command["text"]
 
-    # Parse: "Accomplished X. Next: Y. Blockers: Z"
+    # Parse - "Accomplished X. Next: Y. Blockers: Z"
     # Store in database
     store_update(user, text)
 

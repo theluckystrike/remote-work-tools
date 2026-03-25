@@ -20,7 +20,7 @@ Effective hybrid work policies balance collaboration with flexibility by definin
 
 Table of Contents
 
-- [The Core Question: Which Days Should Teams Come to Office?](#the-core-question-which-days-should-teams-come-to-office)
+- [The Core Question - Which Days Should Teams Come to Office?](#the-core-question-which-days-should-teams-come-to-office)
 - [Effective In-Office Day Patterns](#effective-in-office-day-patterns)
 - [Key Principles for Defining Office Days](#key-principles-for-defining-office-days)
 - [Exception Request Process](#exception-request-process)
@@ -34,13 +34,13 @@ Table of Contents
 - [Preventing the "Dual-Track" Problem](#preventing-the-dual-track-problem)
 - [Special Accommodations and Medical Situations](#special-accommodations-and-medical-situations)
 
-The Core Question: Which Days Should Teams Come to Office?
+The Core Question - Which Days Should Teams Come to Office?
 
 The question of which days teams should come to office sits at the heart of any hybrid work policy. There's no universal answer, the right approach depends on your team's collaboration patterns, meeting schedules, and individual work styles. However, research and practical experience point to several effective patterns that work well for technical teams.
 
 Effective In-Office Day Patterns
 
-Pattern 1: Staggered Core Days
+Pattern 1 - Staggered Core Days
 
 One of the most successful approaches pairs staggered in-office days with overlapping collaboration windows. Under this model, different team members come to office on different days, ensuring the office never feels empty while preventing overcrowding.
 
@@ -61,11 +61,11 @@ def generate_staggered_schedule(team_size, days_in_office=2):
         }
     return schedule
 
-Output: Each team member has 2 in-office days
+Output - Each team member has 2 in-office days
 that spread across the week with overlap on Wednesdays
 ```
 
-Pattern 2: Team-Based Cohort Model
+Pattern 2 - Team-Based Cohort Model
 
 Rather than individual schedules, assign entire teams to specific in-office days. This maximizes collaboration within teams while reducing overall office footprint.
 
@@ -88,7 +88,7 @@ cohorts:
     max_capacity: 4
 ```
 
-Pattern 3: Sprint-Synchronized Schedule
+Pattern 3 - Sprint-Synchronized Schedule
 
 For agile teams running sprints, align in-office days with key ceremonies. This creates natural collaboration points without requiring daily office presence.
 
@@ -168,7 +168,7 @@ Approved Exception Categories
 
 Practical Implementation Steps
 
-Step 1: Audit Current Collaboration Patterns
+Step 1 - Audit Current Collaboration Patterns
 
 Before setting schedules, analyze when your team actually meets. Pull calendar data to identify:
 
@@ -177,11 +177,11 @@ Before setting schedules, analyze when your team actually meets. Pull calendar d
 - Cross-team collaboration frequency
 - Focus time blocks versus collaboration blocks
 
-Step 2: Define Your Core Hours
+Step 2 - Define Your Core Hours
 
 Core hours specify when everyone must be available regardless of location. For most technical teams, core hours between 10:00 and 15:00 work well, accommodating varied start times while ensuring overlap for real-time collaboration.
 
-Step 3: Communicate Expectations Clearly
+Step 3 - Communicate Expectations Clearly
 
 Document your policy in a shareable format. Include:
 
@@ -190,7 +190,7 @@ Document your policy in a shareable format. Include:
 - How to request schedule changes
 - What equipment and resources are available in office
 
-Step 4: Monitor and Iterate
+Step 4 - Monitor and Iterate
 
 Collect feedback monthly during the first quarter, then quarterly. Track actual attendance against projections and adjust capacity planning accordingly.
 
@@ -204,21 +204,21 @@ Treating remote days as less important undermines trust. Ensure promotions, visi
 
 Tools for Enforcing and Tracking Office Attendance
 
-Desk booking systems: Services like Robin, Teem, or Tableau allow employees to reserve desks on office days. This shows real office usage patterns and helps capacity planning.
+Desk booking systems - Services like Robin, Teem, or Tableau allow employees to reserve desks on office days. This shows real office usage patterns and helps capacity planning.
 
-Calendar integration: Sync office day requirements to your team calendar (Friday = office day). Automated reminders prevent scheduling conflicts.
+Calendar integration - Sync office day requirements to your team calendar (Friday = office day). Automated reminders prevent scheduling conflicts.
 
-Informal tracking: In smaller teams (under 20), a shared spreadsheet with monthly office day commitments often works fine.
+Informal tracking - In smaller teams (under 20), a shared spreadsheet with monthly office day commitments often works fine.
 
 Most teams find that simple calendar conventions beat elaborate software. A Slack reminder on Wednesdays ("Office day today!") often achieves 90% attendance without additional tools.
 
 Real-World Examples from Three Different Team Sizes
 
-Small team (8 people): Tuesday + Thursday in office. Core hours 10 AM-4 PM. Allows early morning or late afternoon flexibility for those with childcare. Response rate: 95% attendance.
+Small team (8 people) - Tuesday + Thursday in office. Core hours 10 AM-4 PM. Allows early morning or late afternoon flexibility for those with childcare. Response rate: 95% attendance.
 
-Medium team (25 people): Two cohorts alternating Mondays and Wednesdays, with Fridays optional for all. Ensures 10-15 people in office daily. Response rate: 85% compliance (some prefer consistent WFH).
+Medium team (25 people) - Two cohorts alternating Mondays and Wednesdays, with Fridays optional for all. Ensures 10-15 people in office daily. Response rate: 85% compliance (some prefer consistent WFH).
 
-Large team (60+ people): Department-specific schedules. Engineering on Mondays and Wednesdays. Product on Tuesdays and Thursdays. Support on Fridays. Weekly overlap on Wednesdays for all-hands. Response rate: 75% (larger teams have more exceptions).
+Large team (60+ people) - Department-specific schedules. Engineering on Mondays and Wednesdays. Product on Tuesdays and Thursdays. Support on Fridays. Weekly overlap on Wednesdays for all-hands. Response rate: 75% (larger teams have more exceptions).
 
 Smaller teams can afford stricter policies. Larger teams need flexibility to accommodate commute diversity and personal circumstances.
 
@@ -228,19 +228,19 @@ Handling the Friction of Policy Changes
 
 If you're moving from fully remote to hybrid, expect resistance. Here's how to minimize backlash:
 
-Step 1: Be transparent about why
+Step 1 - Be transparent about why
 Don't say "collaboration is better in person" (people resent being told this). Instead, be specific: "We've noticed better design decisions happen when frontend and design do real-time whiteboarding. We need 2 in-office days to make this possible."
 
-Step 2: Start with volunteers
+Step 2 - Start with volunteers
 Ask who would be willing to come to office 2 days per week on their chosen days. Run a 6-week pilot with volunteers. Measure outcomes (collaboration quality, hiring speed, morale).
 
-Step 3: Collect data
+Step 3 - Collect data
 Track what actually works. Some teams find that every policy works fine. Some find urgent gaps. Let data drive the final policy.
 
-Step 4: Implement with trial period
+Step 4 - Implement with trial period
 "We're trying 2-day hybrid for 90 days. We'll reassess together." Psychological safety matters. People accept inconvenience better when it's explicitly temporary.
 
-Step 5: Adjust based on feedback
+Step 5 - Adjust based on feedback
 If 70% of the team hates Mondays and loves Thursdays, switch it. Ignoring feedback kills adoption.
 
 Write your policy in a searchable format (Google Doc, Notion, or wiki). Include:

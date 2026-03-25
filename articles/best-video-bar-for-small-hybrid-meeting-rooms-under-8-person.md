@@ -222,7 +222,7 @@ Jabra PanaCast 50 ($800-1,200)
 
 Polycom StudioX30 ($1,200-1,500)
 - Compact video bar design, 120-degree FOV
-- Integrated with Polycom ecosystem (if organization uses those services)
+- Integrated with Polycom environment (if organization uses those services)
 - Good microphone coverage
 - Best for organizations with Polycom endpoints
 - Trade-off: Less flexible integrations than platform-agnostic options
@@ -263,26 +263,26 @@ Ongoing Maintenance
 
 Troubleshooting Common Video Bar Issues
 
-Issue: Remote participants say they can't hear in-room voices clearly
+Issue - Remote participants say they can't hear in-room voices clearly
 - Check microphone positioning, is the video bar centered in room or off to one side?
 - Verify gain settings aren't clipping audio (look for red levels during speech)
 - Test with a participant sitting far from video bar, distance affects pickup
 - Consider adding a second microphone on opposite side of room if table is very large
 
-Issue: In-room participants can't see remote faces clearly
+Issue - In-room participants can't see remote faces clearly
 - Verify display resolution matches video bar resolution (1080p-4K)
 - Check lighting, is the room too dark, causing camera to compensate with excessive gain?
 - Ensure video bar lens isn't obstructed
 - Adjust framing settings if remote participants appear stretched or cut off
 
-Issue: Occasional audio dropouts or video freezes
+Issue - Occasional audio dropouts or video freezes
 - Check network connectivity, is the room on a stable wired or strong WiFi connection?
 - Run speed tests: video bars need minimum 2.5 Mbps sustained bandwidth
 - Verify neighboring rooms aren't saturating the network with video streaming
 - Consider upgrading to WiFi 6 (802.11ax) if using wireless
 - Move video bar further from sources of interference (microwave ovens, dense obstacles)
 
-Issue: Video bar won't turn on or respond to controls
+Issue - Video bar won't turn on or respond to controls
 - Check power supply (is it properly connected, is the wall outlet powered?)
 - For USB-powered units, verify host computer is on and USB hub has power
 - Check for LED indicators on the device, indicates power status

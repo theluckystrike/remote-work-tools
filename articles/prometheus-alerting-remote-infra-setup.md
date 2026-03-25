@@ -307,9 +307,9 @@ curl -X POST http://localhost:9093/api/v2/alerts \
 
 Alert Rule Best Practices for Remote Teams
 
-Use `for` duration wisely: A `for: 0m` fires immediately; use it only for alerts that need instant action (pod crash loops). For infrastructure metrics, 2-5 minutes prevents false fires from scrape gaps.
+Use `for` duration wisely - A `for: 0m` fires immediately; use it only for alerts that need instant action (pod crash loops). For infrastructure metrics, 2-5 minutes prevents false fires from scrape gaps.
 
-Label everything: Add `env`, `region`, and `team` labels to your scrape targets so alerts route correctly without extra config. Set labels in Prometheus scrape configs:
+Label everything - Add `env`, `region`, and `team` labels to your scrape targets so alerts route correctly without extra config. Set labels in Prometheus scrape configs:
 
 ```yaml
 scrape_configs:
@@ -322,9 +322,9 @@ scrape_configs:
           team: ops
 ```
 
-Inhibit noisy derived alerts: If a host goes down, suppress all the application-level alerts from that host using inhibit rules keyed on `instance`.
+Inhibit noisy derived alerts - If a host goes down, suppress all the application-level alerts from that host using inhibit rules keyed on `instance`.
 
-Review alert fatigue weekly: If a channel gets more than 20 alerts per week, either the threshold is wrong or the underlying problem needs fixing. Track alert volume in Grafana with:
+Review alert fatigue weekly - If a channel gets more than 20 alerts per week, either the threshold is wrong or the underlying problem needs fixing. Track alert volume in Grafana with:
 
 ```
 count_over_time(ALERTS{alertstate="firing"}[7d])

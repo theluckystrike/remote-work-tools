@@ -46,7 +46,7 @@ Better prompts for engineering teams:
 1. What shipped or merged since your last check-in?
 2. What's your focus today? (Be specific: a PR, a design doc, a debugging session)
 3. Any blockers or decisions you need input on?
-4. Optional: anything you learned or want to share?
+4. Optional - anything you learned or want to share?
 ```
 
 Specificity improves quality. "Worked on the API" tells a team lead nothing. "Reviewed and merged the auth middleware PR, writing tests for the rate limiter today" is actionable.
@@ -111,7 +111,7 @@ Set a response window, not a time. "Respond between 8am and 12pm your local time
 
 Review and act on blockers publicly. If engineering managers read check-ins but rarely respond to blockers, team members stop reporting them honestly. Visible follow-through is what makes async check-ins useful.
 
-Integration Example: Slack + Geekbot + Linear
+Integration Example - Slack + Geekbot + Linear
 
 ```javascript
 // Geekbot webhook handler. forward blocked items to Linear

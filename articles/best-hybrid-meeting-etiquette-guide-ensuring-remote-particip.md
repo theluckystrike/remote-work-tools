@@ -36,7 +36,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Fundamental Problem: Asymmetric Experience
+Step 1 - The Fundamental Problem: Asymmetric Experience
 
 In-person attendees naturally default to behaviors that work for co-located groups. They can see facial expressions, hear ambient context, and participate in spontaneous exchanges. Remote participants depend entirely on the meeting infrastructure and the intentional behaviors of in-room attendees.
 
@@ -56,7 +56,7 @@ Before investing in etiquette changes, confirm your toolchain supports inclusive
 
 For teams running more than five hybrid meetings per week, Zoom or Microsoft Teams with dedicated room hardware provide the most reliable inclusive experience.
 
-Step 2: Pre-Meeting Infrastructure
+Step 2 - Pre-Meeting Infrastructure
 
 Before any meeting starts, establish infrastructure that treats remote participants as first-class citizens.
 
@@ -88,29 +88,29 @@ Create a single source of truth for meeting content. Use collaborative documents
 ```javascript
 // meeting-helper.js - Simple script to ensure meeting notes are accessible
 const meetingNotesTemplate = `
-Meeting: {{topic}}
-Date: {{date}}
-Attendees (In-Person): {{in_person_list}}
-Attendees (Remote): {{remote_list}}
+Meeting - {{topic}}
+Date - {{date}}
+Attendees (In-Person) - {{in_person_list}}
+Attendees (Remote) - {{remote_list}}
 
-Step 3: Agenda
+Step 3 - Agenda
 1. {{agenda_item_1}}
 2. {{agenda_item_2}}
 
-Step 4: Discussion Notes
+Step 4 - Discussion Notes
 *Add notes here in real-time*
 
-Step 5: Action Items
+Step 5 - Action Items
 - [ ]
 
-Step 6: Recording Link
+Step 6 - Recording Link
 *Add after meeting*
 `;
 ```
 
 The shared document gives remote participants something to edit and react to in real time, creating active rather than passive participation.
 
-Step 7: During the Meeting: Inclusive Practices
+Step 7 - During the Meeting: Inclusive Practices
 
 The Round-Robin Rule
 
@@ -153,13 +153,13 @@ Remote participants cannot see what's written on physical whiteboards or pointed
 - Verbally describe visuals: When pointing at something, describe it aloud: "I'm highlighting the error rate spike in the third column"
 - Share screens proactively: Don't ask if people want to see the screen, just share it
 
-A practical convention: before pointing at a slide or document, say "I'm going to screen share this so everyone can follow." This brief pause gives remote participants time to adjust their view.
+A practical convention - before pointing at a slide or document, say "I'm going to screen share this so everyone can follow." This brief pause gives remote participants time to adjust their view.
 
 Managing Side Conversations
 
 Side conversations are one of the most common complaints from remote participants: they hear murmuring, cannot follow the discussion, and then must ask someone to repeat a decision already made. Enforce a single-channel rule, all conversation runs through shared audio. In-room attendees who want to discuss something privately should use a breakout room or save it for after the meeting. Teams that adopt this consistently report higher remote participant satisfaction.
 
-Step 8: Technical Implementation: Meeting Bot
+Step 8 - Technical Implementation: Meeting Bot
 
 For teams that want to automate some of these practices, here's a simple meeting coordination script:
 
@@ -232,7 +232,7 @@ Run this script before each meeting to ensure you've addressed the basics:
 python3 hybrid_meeting_helper.py
 ```
 
-Step 9: Post-Meeting Follow-Up
+Step 9 - Post-Meeting Follow-Up
 
 The meeting doesn't end when everyone leaves the video call. Remote participants benefit from explicit follow-up:
 
@@ -243,7 +243,7 @@ The meeting doesn't end when everyone leaves the video call. Remote participants
 
 The 24-hour recording rule matters because remote participants in different time zones often join outside their normal work hours, sharing the recording promptly lets them review anything they missed while fatigued. A written action item list shared via email or project management tool immediately after the meeting ensures remote participants have the same commitment reinforcement that in-room social dynamics provide to co-located attendees.
 
-Step 10: Measuring Success
+Step 10 - Measuring Success
 
 Track whether your hybrid meetings are truly inclusive:
 

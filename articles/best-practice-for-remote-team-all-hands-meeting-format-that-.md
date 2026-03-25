@@ -30,8 +30,8 @@ Table of Contents
 - [Putting It All Together](#putting-it-all-together)
 - [Tools and Platforms for Scaling All-Hands](#tools-and-platforms-for-scaling-all-hands)
 - [Sample 30-Day All-Hands Rollout Plan](#sample-30-day-all-hands-rollout-plan)
-- [Content Creation Process: Who Does What](#content-creation-process-who-does-what)
-- [Recognition Segments: Making All-Hands Matter](#recognition-segments-making-all-hands-matter)
+- [Content Creation Process - Who Does What](#content-creation-process-who-does-what)
+- [Recognition Segments - Making All-Hands Matter](#recognition-segments-making-all-hands-matter)
 - [Asynchronous Feedback Loops](#asynchronous-feedback-loops)
 - [Scaling Beyond 100 People](#scaling-beyond-100-people)
 - [Measuring Success Beyond Attendance](#measuring-success-beyond-attendance)
@@ -48,7 +48,7 @@ The Hybrid All-Hands Framework
 
 The most effective approach for teams scaling toward 100 people combines asynchronous pre-work with a condensed synchronous session. This hybrid model respects everyone's time while maintaining the cultural benefits of coming together.
 
-Phase 1: Asynchronous Pre-Work (2-3 Days Before)
+Phase 1 - Asynchronous Pre-Work (2-3 Days Before)
 
 Distribute written updates 48-72 hours before the meeting. These updates should follow a standardized template so attendees can quickly scan for relevance. Each department or team submits a brief update covering:
 
@@ -82,13 +82,13 @@ Q&A for All-Hands
 
 Using a shared tool like Notion, Confluence, or a GitHub Discussions board lets team members read updates on their own schedule and submit questions in advance.
 
-Phase 2: Question Collection (24 Hours Before)
+Phase 2 - Question Collection (24 Hours Before)
 
 Rather than opening the floor during the meeting, a guaranteed way to create awkward silence or dominate voices, collect questions beforehand. Use a simple form or spreadsheet where anyone can submit topics they want addressed.
 
 Categorize and prioritize these questions. Group similar topics together. This preprocessing step transforms the synchronous session from an information dump into a targeted Q&A that actually matters to the team.
 
-Phase 3: The Synchronous Session (30-45 Minutes Maximum)
+Phase 3 - The Synchronous Session (30-45 Minutes Maximum)
 
 Keep the live portion tight and focused. Here's a proven agenda structure:
 
@@ -122,13 +122,13 @@ Tools That Enable Scale
 
 Certain tooling choices make or break large all-hands meetings:
 
-Video Platform: Zoom or Google Meet with breakout rooms for optional small-group discussions after the main session. Twitch or YouTube Live works for purely broadcast-style all-hands where interactivity is minimal.
+Video Platform - Zoom or Google Meet with breakout rooms for optional small-group discussions after the main session. Twitch or YouTube Live works for purely broadcast-style all-hands where interactivity is minimal.
 
-Q&A Management: Slido or similar polling tools integrated into your video platform. These let attendees upvote questions, surfacing what the group actually cares about rather than what the moderator assumes they care about.
+Q&A Management - Slido or similar polling tools integrated into your video platform. These let attendees upvote questions, surfacing what the group actually cares about rather than what the moderator assumes they care about.
 
-Asynchronous Updates: Notion, Confluence, or a simple GitHub repository with markdown files. The medium matters less than consistency, pick one system and stick with it.
+Asynchronous Updates - Notion, Confluence, or a simple GitHub repository with markdown files. The medium matters less than consistency, pick one system and stick with it.
 
-Recording and Transcription: Descript or otter.ai for generating searchable transcripts afterward. This accessibility feature also helps team members review specific segments without rewatching the entire recording.
+Recording and Transcription - Descript or otter.ai for generating searchable transcripts afterward. This accessibility feature also helps team members review specific segments without rewatching the entire recording.
 
 Measuring Effectiveness
 
@@ -182,30 +182,30 @@ Sample 30-Day All-Hands Rollout Plan
 
 For teams implementing this format for the first time:
 
-Week 1: Pilot with Leadership
+Week 1 - Pilot with Leadership
 - Run the hybrid format with just leadership and key stakeholders
 - Test technology (Zoom, Slido, Notion setup)
 - Collect feedback and adjust
 - Estimated time investment: 3 hours total
 
-Week 2: Soft Launch with First Half of Team
+Week 2 - Soft Launch with First Half of Team
 - Run all-hands with 50% of team invited
 - Gather feedback on format length, content relevance, pacing
 - Adjust based on comments
 - Estimated time investment: 2 hours for organizers
 
-Week 3: Full Company Launch
+Week 3 - Full Company Launch
 - Run updated format with full team
 - Gather feedback
 - Document what worked and what needs fixing
 - Estimated time investment: 3 hours for organizers
 
-Weeks 4+: Establish Rhythm
+Weeks 4+ - Establish Rhythm
 - Repeat the same format monthly
 - Make minor adjustments based on recurring feedback
 - Measure effectiveness with survey data
 
-Content Creation Process: Who Does What
+Content Creation Process - Who Does What
 
 For a 100+ person organization, clarify roles:
 
@@ -237,9 +237,9 @@ Post-meeting (1 hour):
 - Distribute transcript
 - Send summary email with key announcements and decisions
 
-Total organizational time: ~8-10 hours monthly for 100+ person all-hands
+Total organizational time - ~8-10 hours monthly for 100+ person all-hands
 
-Recognition Segments: Making All-Hands Matter
+Recognition Segments - Making All-Hands Matter
 
 One critical difference between broadcast meetings and true all-hands: celebration and recognition. Include:
 
@@ -267,7 +267,7 @@ After all-hands, create mechanism for response and follow-up:
 Immediate (within 24 hours):
 - Publish recording and transcript
 - Share decision summary with action items
-- Post in Slack: "All-hands recording is live. Thread open for questions"
+- Post in Slack - "All-hands recording is live. Thread open for questions"
 
 Follow-up (within 1 week):
 - Department heads respond to feedback or questions in their domains
@@ -276,7 +276,7 @@ Follow-up (within 1 week):
 
 Monthly (ongoing):
 - Survey asking: "How useful was this all-hands?" (1-10 scale)
-- Ask: "What topic would you like covered next month?"
+- Ask - "What topic would you like covered next month?"
 - Publish aggregate feedback and adjustments made
 
 This creates an asynchronous dialogue rather than an one-way broadcast.
@@ -322,7 +322,7 @@ Impact on Business:
 Culture Health:
 - Net Promoter Score (NPS): "Would you recommend working here?"
 - Psychological safety: "Do you feel safe speaking up in meetings?"
-- Inclusion: "Do you feel represented in company communications?"
+- Inclusion - "Do you feel represented in company communications?"
 
 Frequently Asked Questions
 
@@ -332,7 +332,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -344,7 +344,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

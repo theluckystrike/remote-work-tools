@@ -22,11 +22,11 @@ What Is a Runbook?
 A runbook is a step-by-step guide for responding to a specific operational issue. Example:
 
 ```
-Title: Database Connection Pool Exhaustion
-Severity: P2 (Degrades service, not outage)
-Time to Resolve: 15-30 minutes
-Owner: Platform Team
-Trigger: 95%+ connection pool utilization, query latency >2s
+Title - Database Connection Pool Exhaustion
+Severity - P2 (Degrades service, not outage)
+Time to Resolve - 15-30 minutes
+Owner - Platform Team
+Trigger - 95%+ connection pool utilization, query latency >2s
 
 Steps:
 1. Alert fires in PagerDuty. On-call engineer acks.
@@ -41,9 +41,9 @@ Steps:
 8. Page your manager if pool resets more than 2x in 24 hours (root cause needed)
 9. Create ticket for Platform team to investigate
 
-Rollback: N/A
-On-Call Contact: @platform-oncall in Slack
-Related Runbooks: Database Memory Leak, Slow Query Detection
+Rollback - N/A
+On-Call Contact - @platform-oncall in Slack
+Related Runbooks - Database Memory Leak, Slow Query Detection
 ```
 
 This saves an engineer from guessing during a 3 AM incident. It's also a training document for new team members.
@@ -99,7 +99,7 @@ Choosing Your Runbook Tool
 | GitHub Wiki | Open-source teams | Free | 5 min |
 | Internal Wiki (custom) | Very large teams | Engineering time | 2+ weeks |
 
-Option 1: Notion (Best for 5-50 person teams)
+Option 1 - Notion (Best for 5-50 person teams)
 
 Strengths:
 - Dead-simple table structure: each row is a runbook, each column is metadata (owner, severity, trigger)
@@ -108,7 +108,7 @@ Strengths:
 - Embeds: Screenshots, videos, Loom recordings embedded in pages
 - Permissions: Can restrict certain runbooks to specific teams
 
-Implementation: 30 minutes
+Implementation - 30 minutes
 
 ```
 Runbook Library (Database)
@@ -130,12 +130,12 @@ Runbook Index (filtered database view)
  By Last Updated (stale runbooks bubble up)
 ```
 
-Cost: Free (5 databases) or $10/person/month (team workspace)
-For 20-person engineering team: $200/month (if buying team workspace)
+Cost - Free (5 databases) or $10/person/month (team workspace)
+For 20-person engineering team - $200/month (if buying team workspace)
 
-Anti-pattern: Storing runbooks in Slack threads or email. They disappear. Don't do this.
+Anti-pattern - Storing runbooks in Slack threads or email. They disappear. Don't do this.
 
-Option 2: Confluence (Best for 100+ person companies)
+Option 2 - Confluence (Best for 100+ person companies)
 
 Strengths:
 - Enterprise integration: Works with Jira, Slack, Teams
@@ -144,16 +144,16 @@ Strengths:
 - Search: Full-text search across all runbooks
 - Macros: Templates for common runbook sections
 
-Implementation: 1-2 weeks (with templates)
+Implementation - 1-2 weeks (with templates)
 
 Confluence page template:
 ```
 ---
-Title: [System] [Incident Type]
-Space: Runbooks
-Owner: [Team Name]
-Severity: P1/P2/P3
-Last Updated: [Auto]
+Title - [System] [Incident Type]
+Space - Runbooks
+Owner - [Team Name]
+Severity - P1/P2/P3
+Last Updated - [Auto]
 ---
 
 Detection
@@ -169,7 +169,7 @@ Table of Contents
 - [Testing](#testing)
 - [Related](#related)
 - [Building Your First Runbook](#building-your-first-runbook)
-- [Template: Copy and Customize](#template-copy-and-customize)
+- [Template - Copy and Customize](#template-copy-and-customize)
 - [Detection](#detection)
 - [Diagnosis (5 minutes)](#diagnosis-5-minutes)
 - [Remediation](#remediation)
@@ -177,8 +177,8 @@ Table of Contents
 - [Escalation](#escalation)
 - [Related](#related)
 - [Integrating Runbooks with Incident Response](#integrating-runbooks-with-incident-response)
-- [Runbook Maintenance: The Hard Part](#runbook-maintenance-the-hard-part)
-- [Real-World Runbook Library: 50-Person Company](#real-world-runbook-library-50-person-company)
+- [Runbook Maintenance - The Hard Part](#runbook-maintenance-the-hard-part)
+- [Real-World Runbook Library - 50-Person Company](#real-world-runbook-library-50-person-company)
 - [Cost Analysis](#cost-analysis)
 - [Anti-Patterns to Avoid](#anti-patterns-to-avoid)
 
@@ -197,10 +197,10 @@ Related
 Links to other runbooks, dashboards, Jira tickets.
 ```
 
-Cost: $6-12 per user per month
-For 20-person engineering team: $120-240/month
+Cost - $6-12 per user per month
+For 20-person engineering team - $120-240/month
 
-Option 3: GitBook (Best for developer-heavy teams)
+Option 3 - GitBook (Best for developer-heavy teams)
 
 Strengths:
 - Git-based versioning: Runbooks live in GitHub, deploy changes like code
@@ -209,7 +209,7 @@ Strengths:
 - Free tier: Generous free tier for small teams
 - Quick deploy: Change goes live in <30 seconds
 
-Implementation: 45 minutes (if you know Git)
+Implementation - 45 minutes (if you know Git)
 
 Repository structure:
 ```
@@ -226,26 +226,26 @@ runbooks/
  .gitbook.yaml (sidebar config)
 ```
 
-Cost: Free tier (public or team), $60/month for advanced features
-For 20-person engineering team: $0-60/month
+Cost - Free tier (public or team), $60/month for advanced features
+For 20-person engineering team - $0-60/month
 
 Use the same repo as your infrastructure code. Runbooks live next to Terraform/Kubernetes configs.
 
 Building Your First Runbook
 
-Let's build a real one: "API Latency Spike."
+Let's build a real one - "API Latency Spike."
 
-Step 1: Identify the Incident
+Step 1 - Identify the Incident
 
 ```
-System: API (REST endpoints serving web/mobile)
-Typical Duration: 5-30 minutes
-Frequency: Once per week at peak traffic
-Customer Impact: Mobile app slow, web requests timeout
-On-Call Rotation: API Team
+System - API (REST endpoints serving web/mobile)
+Typical Duration - 5-30 minutes
+Frequency - Once per week at peak traffic
+Customer Impact - Mobile app slow, web requests timeout
+On-Call Rotation - API Team
 ```
 
-Step 2: List the Causes (Brainstorm)
+Step 2 - List the Causes (Brainstorm)
 
 - Downstream service timeout (payment processor, analytics)
 - Database query slowdown (missing index, lock contention)
@@ -254,7 +254,7 @@ Step 2: List the Causes (Brainstorm)
 - Traffic spike (genuine load increase)
 - Faulty deployment (recent code push degraded performance)
 
-Step 3: Build the Diagnosis Flow
+Step 3 - Build the Diagnosis Flow
 
 ```
 1. Alert fires in PagerDuty: API latency p99 > 500ms for 2 minutes
@@ -284,30 +284,30 @@ DIAGNOSIS (5 minutes max)
   Lock contention: SELECT * FROM pg_locks WHERE granted = false
 ```
 
-Step 4: Add Remediation Steps
+Step 4 - Add Remediation Steps
 
 ```
 REMEDIATION (Do this in order)
 
-Option A: Resource Exhaustion
+Option A - Resource Exhaustion
 - ssh prod-api-01.internal
 - top -u appuser (check CPU, memory)
 - If memory > 80%: Kill non-critical background jobs
 - Restart application if needed (graceful shutdown)
 
-Option B: Database Bottleneck
+Option B - Database Bottleneck
 - Run EXPLAIN ANALYZE on slow query
 - Check for missing indexes: SELECT * FROM pg_stat_user_indexes WHERE idx_scan = 0
 - If found: Create index (CONCURRENTLY if production)
 - Kill long-running query if needed: SELECT pg_terminate_backend(pid)
 
-Option C: Downstream Timeout
+Option C - Downstream Timeout
 - Implement circuit breaker: Route requests to fallback
 - Fallback logic: Return cached response or empty result
 - File ticket for Platform team to investigate downstream service
 ```
 
-Step 5: Add Testing Section
+Step 5 - Add Testing Section
 
 ```
 PRACTICE (How to test this runbook without breaking production)
@@ -326,7 +326,7 @@ Testing the Remediation:
 5. Document any steps that didn't work
 ```
 
-Step 6: Finalize
+Step 6 - Finalize
 
 ```
 ESCALATION
@@ -342,16 +342,16 @@ LINKS
 - Post-mortem template: [link to Jira template]
 ```
 
-Template: Copy and Customize
+Template - Copy and Customize
 
 ```markdown
 [System] [Incident Type]
 
-Severity: P1 | P2 | P3
-Time to Resolve: 15-30 min (typical)
-Owner: [Team Name]
-Last Updated: [Date]
-Review Date: [Date + 6 months]
+Severity - P1 | P2 | P3
+Time to Resolve - 15-30 min (typical)
+Owner - [Team Name]
+Last Updated - [Date]
+Review Date - [Date + 6 months]
 
 Detection
 - Alert name: [PagerDuty alert name]
@@ -365,11 +365,11 @@ Diagnosis (5 minutes)
 
 Remediation
 ```
-Option A: [Most common cause]
+Option A - [Most common cause]
  1. Step 1
  2. Step 2
 
-Option B: [Less common cause]
+Option B - [Less common cause]
  1. Step 1
  2. Step 2
 ```
@@ -400,15 +400,15 @@ Link from PagerDuty incident to runbook:
 ```
 When incident fires, Slack message shows:
 " API Latency Spike (P2)
-Runbook: [link to API Latency Spike runbook]
-Dashboard: [link to API dashboard]
+Runbook - [link to API Latency Spike runbook]
+Dashboard - [link to API dashboard]
 @api-team-oncall"
 ```
 
 Implementation in PagerDuty:
 1. Edit escalation policy
 2. Add action: Slack integration
-3. Message template: "Incident: {{incident.title}}\nRunbook: [link to your runbook library]\nAck to start working"
+3. Message template: "Incident - {{incident.title}}\nRunbook: [link to your runbook library]\nAck to start working"
 
 Slack Integration
 
@@ -429,10 +429,10 @@ Keep runbooks in code repo:
 ```bash
 Deploy a new runbook
 git push origin feature/new-runbook
-GitHub Actions trigger: Sync to Notion, notify Slack
+GitHub Actions trigger - Sync to Notion, notify Slack
 ```
 
-Runbook Maintenance: The Hard Part
+Runbook Maintenance - The Hard Part
 
 Runbooks rot. A runbook that's 6 months old is probably 30% wrong.
 
@@ -470,19 +470,19 @@ After every incident:
 5. Slack #engineering: "Runbook updated: [name]"
 ```
 
-Real-World Runbook Library: 50-Person Company
+Real-World Runbook Library - 50-Person Company
 
 After 12 months, expect ~60 runbooks:
 
-Infrastructure (18): Database, Redis, Elasticsearch, Memcached, RabbitMQ (each has 3-4 runbooks)
-Application (20): API errors, Job queues, Search, Payments, Auth, Webhooks (each has 2-4 runbooks)
-On-Call (8): Escalation procedures, Handoff procedures, Communication templates
-Security (6): Breach response, Data access logs, Suspicious activity
-Deployment (8): Rollback, Canary deployment failure, Feature flag issues
+Infrastructure (18) - Database, Redis, Elasticsearch, Memcached, RabbitMQ (each has 3-4 runbooks)
+Application (20) - API errors, Job queues, Search, Payments, Auth, Webhooks (each has 2-4 runbooks)
+On-Call (8) - Escalation procedures, Handoff procedures, Communication templates
+Security (6) - Breach response, Data access logs, Suspicious activity
+Deployment (8) - Rollback, Canary deployment failure, Feature flag issues
 
-Tool: Notion for <100 runbooks, Confluence for >200
+Tool - Notion for <100 runbooks, Confluence for >200
 
-Maintenance: Quarterly full review (8 hours/quarter from each team lead)
+Maintenance - Quarterly full review (8 hours/quarter from each team lead)
 
 Cost Analysis
 

@@ -38,15 +38,15 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand IP Ownership Fundamentals
+Step 1 - Understand IP Ownership Fundamentals
 
 Intellectual property encompasses several categories relevant to developers: source code, documentation, UI designs, algorithms, and proprietary methodologies. By default, the creator owns the copyright to their work. However, this default changes when you sign a contract transferring those rights to a client.
 
-The key principle is this: unless you explicitly transfer ownership, you retain copyright. This means your freelance agreement must clearly specify what rights you're granting, and what you're retaining.
+The key principle is this - unless you explicitly transfer ownership, you retain copyright. This means your freelance agreement must clearly specify what rights you're granting, and what you're retaining.
 
 Most clients want to pay for finished work they can use freely. Most freelancers want to retain the right to use their work in portfolios or reuse certain components in future projects. These goals aren't incompatible, you just need to document them clearly.
 
-Step 2: Essential Contract Clauses for IP Protection
+Step 2 - Essential Contract Clauses for IP Protection
 
 Your contract is your primary defense. Include these specific provisions in every agreement:
 
@@ -54,13 +54,13 @@ Your contract is your primary defense. Include these specific provisions in ever
 
 Specify exactly what rights the client receives. Here are two approaches:
 
-Option A: Work for Hire (Client Owns)
+Option A - Work for Hire (Client Owns)
 ```text
 The Developer grants Client exclusive, perpetual, worldwide rights to the Deliverables.
 Developer retains no rights to reuse, resell, or distribute the Deliverables.
 ```
 
-Option B: Licensed Use (You Retain Ownership)
+Option B - Licensed Use (You Retain Ownership)
 ```text
 Developer retains all intellectual property rights to pre-existing materials and
 general-purpose code components. Developer grants Client a non-exclusive, perpetual
@@ -90,7 +90,7 @@ on their website, and in marketing materials, provided no confidential
 information of Client is disclosed.
 ```
 
-Step 3: Practical Documentation Strategies
+Step 3 - Practical Documentation Strategies
 
 Beyond contracts, document your work thoroughly to establish ownership:
 
@@ -154,7 +154,7 @@ Many freelancers lose IP rights through oversight:
 - Rush jobs skipping contracts. The time saved isn't worth the risk
 - Not reading termination clauses. These often specify what happens to IP if things go wrong
 
-Step 4: What About Open Source?
+Step 4 - What About Open Source?
 
 If you contribute to open source or use open-source components, understand the implications:
 
@@ -164,7 +164,7 @@ If you contribute to open source or use open-source components, understand the i
 
 For client work, stick to permissive licenses or clearly document which components use which licenses.
 
-Step 5: When Things Go Wrong
+Step 5 - When Things Go Wrong
 
 If a client violates your agreement:
 
@@ -175,11 +175,11 @@ If a client violates your agreement:
 
 Most clients genuinely don't understand IP rights. A professional explanation often resolves issues without legal action.
 
-Step 6: Sample IP Protection Contract Clauses
+Step 6 - Sample IP Protection Contract Clauses
 
 Rather than starting from scratch, use these battle-tested clauses in your freelance agreements:
 
-Clause 1: Ownership Statement (Recommended for Most Work)
+Clause 1 - Ownership Statement (Recommended for Most Work)
 ```text
 All intellectual property rights in custom code, designs, and
 deliverables created specifically for this project shall remain
@@ -192,7 +192,7 @@ purposes only. Client may not resell, sublicense, or commercialize
 the Deliverables without written permission.
 ```
 
-Clause 2: Work-for-Hire Option (When Client Pays Premium)
+Clause 2 - Work-for-Hire Option (When Client Pays Premium)
 ```text
 Upon receipt of full payment plus a 30% IP transfer premium
 ($[amount]), all intellectual property rights in the Deliverables
@@ -203,7 +203,7 @@ The IP transfer premium is non-refundable and separate from
 base project compensation.
 ```
 
-Clause 3: Pre-Existing Materials Exclusion
+Clause 3 - Pre-Existing Materials Exclusion
 ```text
 The following pre-existing materials and components are excluded
 from Deliverables and remain Developer's exclusive property:
@@ -217,7 +217,7 @@ Client receives a license to use these pre-existing materials
 only as embedded in the custom Deliverables.
 ```
 
-Clause 4: Source Code Handling
+Clause 4 - Source Code Handling
 ```text
 Only compiled binaries and executable files are delivered to Client.
 Source code shall remain with Developer unless Client purchases
@@ -229,7 +229,7 @@ If source code is released, Client agrees to:
 - Return or destroy all source code upon contract termination
 ```
 
-Step 7: Real Pricing Examples
+Step 7 - Real Pricing Examples
 
 Understanding market rates helps you price IP transfers appropriately:
 
@@ -251,11 +251,11 @@ SaaS Component or Plugin:
 - Exclusive ownership (prevents you from selling similar tools): Base price + 100-150%
 - Ongoing source code updates: +15-25% annually
 
-Step 8: Portfolio and Reuse Strategies
+Step 8 - Portfolio and Reuse Strategies
 
 As a freelancer, your portfolio is your marketing. Negotiate portfolio rights explicitly:
 
-Tier 1: Full Portfolio Rights (Standard)
+Tier 1 - Full Portfolio Rights (Standard)
 - Show the work in your portfolio
 - Use screenshots/videos in case studies
 - Mention client name publicly
@@ -267,7 +267,7 @@ portfolios, case studies, and marketing materials, provided
 no confidential Client information is disclosed.
 ```
 
-Tier 2: Anonymized Portfolio (Common for B2B)
+Tier 2 - Anonymized Portfolio (Common for B2B)
 - Use the work in portfolio but don't name the client
 - Show "Healthcare SaaS Application" instead of "Acme Health Inc"
 - Still valuable for demonstrating capabilities
@@ -277,7 +277,7 @@ Developer may display the Deliverables anonymously in portfolio
 and case studies without disclosing Client identity.
 ```
 
-Tier 3: No Public Portfolio (High-Value Clients)
+Tier 3 - No Public Portfolio (High-Value Clients)
 - Client pays premium for exclusive showcase rights
 - You get testimonials and referrals instead
 - Appropriate for high-security or competitive work
@@ -322,13 +322,13 @@ Maintain Separate Repositories
 - Create a mirror repository under your account for IP protection
 - Transfer access to client only after full payment
 
-Step 9: Dispute Resolution Strategies
+Step 9 - Dispute Resolution Strategies
 
 If a client violates your IP agreement, follow this escalation:
 
-Step 1: Friendly Notice (Email)
+Step 1 - Friendly Notice (Email)
 ```text
-Subject: Unauthorized Use of Intellectual Property
+Subject - Unauthorized Use of Intellectual Property
 
 Hi [Client],
 
@@ -351,24 +351,24 @@ Best,
 [Your Name]
 ```
 
-Step 2: Formal Cease and Desist (if no response)
+Step 2 - Formal Cease and Desist (if no response)
 - Use a template from Rocket Lawyer ($30-50)
 - Send registered mail with return receipt
 - Document all communication
 - Most clients respond to formal notice
 
-Step 3: Mediation (faster than court)
+Step 3 - Mediation (faster than court)
 - Contact JAMS or local mediation services ($500-2,000 total)
 - Often resolves in 1-2 sessions
 - Much cheaper than litigation ($10,000+)
 - Maintains business relationship if possible
 
-Step 4: Legal Action (last resort)
+Step 4 - Legal Action (last resort)
 - Small claims court for <$5,000 claims
 - Copyright infringement suits for larger violations
 - Work with attorney (most do IP on contingency for clear violations)
 
-Step 10: Build Your IP Protection Process
+Step 10 - Build Your IP Protection Process
 
 Make IP protection routine, not reactive:
 

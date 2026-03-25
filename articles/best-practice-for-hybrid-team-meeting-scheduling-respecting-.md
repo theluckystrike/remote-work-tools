@@ -24,7 +24,7 @@ Table of Contents
 - [Time Slot Selection Strategy](#time-slot-selection-strategy)
 - [Meeting Format Patterns](#meeting-format-patterns)
 - [Tooling for Preference Respect](#tooling-for-preference-respect)
-- [Decision Framework: When to Meet Synchronously](#decision-framework-when-to-meet-synchronously)
+- [Decision Framework - When to Meet Synchronously](#decision-framework-when-to-meet-synchronously)
 - [Measuring Success](#measuring-success)
 - [Meeting Scheduling Implementation: Real Examples](#meeting-scheduling-implementation-real-examples)
 - [Building Meeting-Free Blocks into Calendar Systems](#building-meeting-free-blocks-into-calendar-systems)
@@ -183,7 +183,7 @@ Help remote participants prepare adequately:
 - Timezone-aware invites: Calendar invites should show times in ALL team members' local times
 - Agenda + materials upfront: Remote participants need time to prepare; don't surprise them with live demonstrations
 
-Decision Framework: When to Meet Synchronously
+Decision Framework - When to Meet Synchronously
 
 Not every discussion needs a meeting. Use this decision matrix:
 
@@ -196,7 +196,7 @@ Not every discussion needs a meeting. Use this decision matrix:
 | Retrospectives | Synchronous with async option |
 | Information sharing | Recorded async video |
 
-The key principle: if you can decide it asynchronously, do so. Reserve synchronous time for discussions that genuinely require real-time dialogue.
+The key principle - if you can decide it asynchronously, do so. Reserve synchronous time for discussions that genuinely require real-time dialogue.
 
 Measuring Success
 
@@ -211,45 +211,45 @@ If you see disparities, iterate on your meeting formats. The goal is equitable o
 
 Meeting Scheduling Implementation: Real Examples
 
-Example 1: US + Europe Team (8am-6pm overlap window)
+Example 1 - US + Europe Team (8am-6pm overlap window)
 
-Team composition: 5 in PST, 3 in CET, 2 in UTC
+Team composition - 5 in PST, 3 in CET, 2 in UTC
 
 ```
-Available overlap: 8am PST = 5pm CET = 4pm UTC (only 3 hours daily)
+Available overlap - 8am PST = 5pm CET = 4pm UTC (only 3 hours daily)
 
 Meeting schedule:
 - 9am PST / 6pm CET / 5pm UTC: Standup (30 min)
 - 2pm PST / 11pm CET / 10pm UTC: AVOID (CET too late)
 - Alternative: Rotate async standups, one sync/week at 4pm PST (1am CET next day)
 
-Decision: Skip daily sync meetings. Do async Friday updates instead.
+Decision - Skip daily sync meetings. Do async Friday updates instead.
 One mandatory weekly sync at rotating time (favor whichever region needs it most).
 ```
 
-Example 2: US + India + Europe (30-min overlap only)
+Example 2 - US + India + Europe (30-min overlap only)
 
-Team: 4 PST, 3 IST, 2 CET
+Team - 4 PST, 3 IST, 2 CET
 
 ```
 IST is 13.5 hours ahead of PST.
-Hard overlap: Only 12:30am-1am PST = 2-3pm IST = 1:30-2:30am CET next day
+Hard overlap - Only 12:30am-1am PST = 2-3pm IST = 1:30-2:30am CET next day
 
 This is untenable for synchronous work.
 
-Solution: Fully async operations with daily async standups.
-One monthly all-hands at: 11am PST / 12:30am IST / 8pm CET (previous day)
+Solution - Fully async operations with daily async standups.
+One monthly all-hands at - 11am PST / 12:30am IST / 8pm CET (previous day)
 Deliberately inconvenient for everyone. makes the point that sync is rare.
 ```
 
-Example 3: All US Team (Distributed Across Zones)
+Example 3 - All US Team (Distributed Across Zones)
 
-Team: 8 PST, 6 CST, 5 EST
+Team - 8 PST, 6 CST, 5 EST
 
 ```
-Overlap: 8am PST = 10am CST = 11am EST (all day overlap)
+Overlap - 8am PST = 10am CST = 11am EST (all day overlap)
 
-Problem to solve: PST folks tired early, EST folks tired late
+Problem to solve - PST folks tired early, EST folks tired late
 
 Schedule:
 - 10am PT core hours (all must be available)
@@ -351,7 +351,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -363,7 +363,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

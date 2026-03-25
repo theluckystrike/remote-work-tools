@@ -22,10 +22,10 @@ The best Trello alternatives for agile teams are Linear for speed-first develope
 Table of Contents
 
 - [What Agile Teams Actually Need](#what-agile-teams-actually-need)
-- [Linear: Speed-First Issue Tracking](#linear-speed-first-issue-tracking)
-- [Jira: Enterprise-Grade Agile](#jira-enterprise-grade-agile)
-- [ClickUp: All-in-One Flexibility](#clickup-all-in-one-flexibility)
-- [Notion: Flexible Documentation + Tracking](#notion-flexible-documentation-tracking)
+- [Linear - Speed-First Issue Tracking](#linear-speed-first-issue-tracking)
+- [Jira - Enterprise-Grade Agile](#jira-enterprise-grade-agile)
+- [ClickUp - All-in-One Flexibility](#clickup-all-in-one-flexibility)
+- [Notion - Flexible Documentation + Tracking](#notion-flexible-documentation-tracking)
 - [User Story Template](#user-story-template)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Technical Notes](#technical-notes)
@@ -44,7 +44,7 @@ Agile methodologies demand more than kanban visualization. Your team probably ne
 
 Before evaluating alternatives, map your current problems. Are you manually updating sprint progress? Struggling to link technical work to product requirements? Fighting to get useful reports? Different problems point toward different tools.
 
-Linear: Speed-First Issue Tracking
+Linear - Speed-First Issue Tracking
 
 Linear was designed for teams that found traditional issue trackers sluggish. The interface prioritizes keyboard-driven navigation, j, k for navigation, e to edit, Enter to open. For developers comfortable in their IDE, Linear feels similarly responsive.
 
@@ -81,9 +81,9 @@ query GetCycleMetrics($cycleId: String!) {
 }
 ```
 
-Linear's free tier covers teams up to 250 active issues, making it viable for growing teams. The main tradeoff: Linear lacks the extensive Power-Ups ecosystem that extends Trello. You get a focused tool rather than a platform.
+Linear's free tier covers teams up to 250 active issues, making it viable for growing teams. The main tradeoff: Linear lacks the extensive Power-Ups environment that extends Trello. You get a focused tool rather than a platform.
 
-Jira: Enterprise-Grade Agile
+Jira - Enterprise-Grade Agile
 
 Jira remains the enterprise standard for a reason. If your team runs SAFe, LeSS, or other scaled frameworks, Jira's hierarchical structure, projects, epics, stories, tasks, subtasks, maps directly to how you think about work. The native sprint planning, backlog grooming, and velocity reporting require no configuration.
 
@@ -115,23 +115,23 @@ Jira's complexity is genuine. Configuring workflows, custom fields, and permissi
 Automation rules in Jira combine triggers, conditions, and actions:
 
 ```
-WHEN: Issue created
-AND: Priority = High
-THEN: Set assigner = Project Lead
-AND: Add label "needs-attention"
-AND: Send email notification to Project Lead
+WHEN - Issue created
+AND - Priority = High
+THEN - Set assigner = Project Lead
+AND - Add label "needs-attention"
+AND - Send email notification to Project Lead
 ```
 
 This level of rule complexity exceeds what most Trello users need, but becomes necessary as teams scale.
 
-ClickUp: All-in-One Flexibility
+ClickUp - All-in-One Flexibility
 
 ClickUp attempts to replace multiple tools with one platform. Beyond project management, it offers docs, goals, time tracking, and whiteboards. For teams wanting to consolidate tools, this reduces context-switching.
 
 Agile teams use ClickUp's custom statuses extensively. You aren't limited to To Do/Doing/Done, you can model your exact workflow:
 
 ```
-Statuses: Backlog → Ready → In Progress → Code Review → QA → Done → Deployed
+Statuses - Backlog → Ready → In Progress → Code Review → QA → Done → Deployed
 ```
 
 The automations rival dedicated tools:
@@ -159,15 +159,15 @@ automations.forEach(auto => {
 
 ClickUp's pricing undercuts both Jira and Linear for larger teams. The tradeoff: feature breadth sometimes means feature depth suffers. Complex workflows may require workarounds that feel clunky.
 
-Notion: Flexible Documentation + Tracking
+Notion - Flexible Documentation + Tracking
 
 Notion occupies a different niche, teams that prioritize documentation alongside tracking. If your agile process lives in wikis, decision records, and technical specs, Notion integrates these with task views.
 
 The database feature creates linked views of the same data:
 
 ```
-Properties: Status, Priority, Assignee, Due Date, Story Points
-Views: Board, Table, Calendar, Timeline
+Properties - Status, Priority, Assignee, Due Date, Story Points
+Views - Board, Table, Calendar, Timeline
 ```
 
 Teams create custom templates for user stories with acceptance criteria, technical notes, and test scenarios:

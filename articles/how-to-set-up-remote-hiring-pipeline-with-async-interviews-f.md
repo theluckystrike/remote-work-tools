@@ -21,7 +21,7 @@ Table of Contents
 
 - [Why Async Interviews Suit Distributed Hiring](#why-async-interviews-suit-distributed-hiring)
 - [Designing Your Pipeline Stages](#designing-your-pipeline-stages)
-- [Implementing Stage 2: The Technical Assessment](#implementing-stage-2-the-technical-assessment)
+- [Implementing Stage 2 - The Technical Assessment](#implementing-stage-2-the-technical-assessment)
 - [Backend Developer Technical Assessment](#backend-developer-technical-assessment)
 - [Building the Code Review Exercise](#building-the-code-review-exercise)
 - [Async Code Review Exercise](#async-code-review-exercise)
@@ -47,21 +47,21 @@ Designing Your Pipeline Stages
 
 A well-structured async hiring pipeline typically consists of four distinct stages:
 
-Stage 1: Initial Application Review
+Stage 1 - Initial Application Review
 Screen resumes and portfolios for technical alignment. Include a brief questionnaire about their experience with your tech stack and availability expectations.
 
-Stage 2: Async Technical Assessment
+Stage 2 - Async Technical Assessment
 A practical coding challenge completed within a defined window (48-72 hours). Candidates submit working code along with documentation explaining their approach.
 
-Stage 3: Written Code Review
+Stage 3 - Written Code Review
 Candidates review a pull request and provide structured feedback. This evaluates their ability to read others' code and communicate improvements constructively.
 
-Stage 4: Async Cultural Fit Discussion
+Stage 4 - Async Cultural Fit Discussion
 A written or recorded response to questions about collaboration preferences, work style, and career goals.
 
 This four-stage pipeline provides evaluation without any real-time components.
 
-Implementing Stage 2: The Technical Assessment
+Implementing Stage 2 - The Technical Assessment
 
 The technical assessment forms the core of your evaluation. Design challenges that reflect actual work rather than algorithmic puzzles unrelated to the job.
 
@@ -70,7 +70,7 @@ Here's a practical challenge template:
 ```markdown
 Backend Developer Technical Assessment
 
-Challenge: Task Management API
+Challenge - Task Management API
 
 Build a RESTful API for a simple task management system with the following requirements:
 
@@ -92,9 +92,9 @@ Evaluation Criteria:
 - Testing quality (20%)
 - Documentation clarity (20%)
 
-Time Expectation: 3-5 hours over a 72-hour window
+Time Expectation - 3-5 hours over a 72-hour window
 
-Submission: Push your code to a private GitHub repository and share access with [reviewer email]
+Submission - Push your code to a private GitHub repository and share access with [reviewer email]
 ```
 
 This challenge evaluates practical skills while remaining completable in a reasonable timeframe.
@@ -123,15 +123,15 @@ Your Task
 Response Format
 Provide feedback using this structure:
 
-Critical Issues: [List any must-fix problems]
+Critical Issues - [List any must-fix problems]
 
-Suggested Improvements: [Actionable recommendations]
+Suggested Improvements - [Actionable recommendations]
 
-Questions: [Any clarifying questions for the author]
+Questions - [Any clarifying questions for the author]
 
 [Approve / Request Changes / Needs Discussion]
 
-Time Estimate: 45-60 minutes
+Time Estimate - 45-60 minutes
 ```
 
 This exercise reveals how candidates think about code quality and their communication style when providing feedback.
@@ -143,7 +143,7 @@ Clear communication prevents candidate drop-off and confusion. Use templates for
 ```markdown
 Stage Transition Email Template
 
-Subject: Next Steps - [Position Name] Application
+Subject - Next Steps - [Position Name] Application
 
 Hi [Candidate Name],
 
@@ -237,13 +237,13 @@ Review these metrics quarterly and iterate on your pipeline stages.
 
 Common Pitfalls to Avoid
 
-Assessment too long: A challenge requiring 10+ hours kills completion rates. Keep it focused on essentials.
+Assessment too long - A challenge requiring 10+ hours kills completion rates. Keep it focused on essentials.
 
-Unclear requirements: Vague instructions produce inconsistent results. Be explicit about acceptance criteria.
+Unclear requirements - Vague instructions produce inconsistent results. Be explicit about acceptance criteria.
 
-Slow response times: Extended delays signal disorganization. Aim for 3-5 business days between stage notifications.
+Slow response times - Extended delays signal disorganization. Aim for 3-5 business days between stage notifications.
 
-No cultural assessment: Technical skills matter, but collaboration style predicts team success. Include non-technical evaluation.
+No cultural assessment - Technical skills matter, but collaboration style predicts team success. Include non-technical evaluation.
 
 Frequently Asked Questions
 

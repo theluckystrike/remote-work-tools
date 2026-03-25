@@ -32,9 +32,9 @@ Traditional shared email accounts create several issues for remote teams:
 
 A proper shared inbox solution addresses these by providing ticket ownership, audit trails, and workflow automation.
 
-Option 1: Google Groups with Shared Labels
+Option 1 - Google Groups with Shared Labels
 
-The simplest approach uses Google Groups with label-based routing. This works well for teams already in the Google Workspace ecosystem.
+The simplest approach uses Google Groups with label-based routing. This works well for teams already in the Google Workspace environment.
 
 Initial Configuration
 
@@ -64,7 +64,7 @@ Create labels for different client categories or ticket stages:
 
 Team members manually apply labels as they work tickets. This requires discipline but needs no additional tooling.
 
-Option 2: IMAP + Custom Scripting
+Option 2 - IMAP + Custom Scripting
 
 For teams wanting more control, set up a dedicated mail server with IMAP access and build custom automation. This approach gives you full data ownership and unlimited customization.
 
@@ -162,7 +162,7 @@ if __name__ == '__main__':
         print(f"{ticket['id']}: {ticket['subject']}")
 ```
 
-Option 3: Dedicated Support Platform Integration
+Option 3 - Dedicated Support Platform Integration
 
 For agencies handling significant support volume, integrating with platforms like HelpScout, Front, or Zendesk provides built-in workflows.
 
@@ -242,7 +242,7 @@ Auto-Response Templates
 Create templates for common scenarios:
 
 ```
-Subject: Re: {{ticket.subject}}
+Subject - Re: {{ticket.subject}}
 
 Hi {{ticket.client_name}},
 

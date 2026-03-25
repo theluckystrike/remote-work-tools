@@ -96,7 +96,7 @@ For developers who want sophisticated control, home automation provides powerful
 ```bash
 #!/bin/bash
 Light automation based on sun position
-Requires: sunwait (available via homebrew)
+Requires - sunwait (available via homebrew)
 
 Get current sun position
 SUN_WAIT="/usr/local/bin/sunwait"
@@ -107,13 +107,13 @@ Calculate civil twilight times
 SUNRISE=$($SUN_WAIT civil rise $LAT $LON)
 SUNSET=$($SUN_WAIT civil set $LAT $LON)
 
-Morning: open blinds
+Morning - open blinds
 if [ "$(date +%H:%M)" = "$SUNRISE" ]; then
     # Control smart blinds via HomeKit or similar
     shortcuts run "Open Office Blinds"
 fi
 
-Evening: close blinds before sunset glare
+Evening - close blinds before sunset glare
 if [ "$(date +%H:%M)" = "$SUNSET" ]; then
     shortcuts run "Close Office Blinds"
 fi

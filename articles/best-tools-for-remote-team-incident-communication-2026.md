@@ -30,7 +30,7 @@ Quick Comparison Table
 | FireHydrant | Excellent | Yes | Excellent | $20/user/mo | High-frequency incidents |
 | xMatters | Good | Via integration | Good | Custom | Enterprise only |
 
-PagerDuty: Enterprise Standard
+PagerDuty - Enterprise Standard
 
 PagerDuty dominates enterprise incident management. Integrates with everything, manages escalations, coordinates war rooms.
 
@@ -57,9 +57,9 @@ Real Cost Breakdown:
 - 50-person team: ~$2,450/month
 - Includes: 10 escalation policies, 100 schedules, unlimited incidents
 
-When to Use: Companies with 20+ on-call rotations, multiple monitoring systems, regulatory compliance needs (audit trails).
+When to Use - Companies with 20+ on-call rotations, multiple monitoring systems, regulatory compliance needs (audit trails).
 
-Incident.io: Team-Focused Alternative
+Incident.io - Team-Focused Alternative
 
 Incident.io optimizes for actual incident experience, not just tool collection. Excellent for technical teams that care about usability.
 
@@ -80,11 +80,11 @@ Incident Workflow (Incident.io):
 6. Post-incident: Run review meeting, Incident.io extracts action items
 ```
 
-Why This Works: Slack is already where engineers work. No tool-switching. Timeline built from existing conversation. Incident.io cost: $15-50/user/month.
+Why This Works - Slack is already where engineers work. No tool-switching. Timeline built from existing conversation. Incident.io cost: $15-50/user/month.
 
-Limitation: Smaller ecosystem (integrates well with common tools, but not as extensive as PagerDuty).
+Limitation - Smaller environment (integrates well with common tools, but not as extensive as PagerDuty).
 
-Opsgenie + Slack: Lightweight Alternative
+Opsgenie + Slack - Lightweight Alternative
 
 If PagerDuty is expensive and team size is under 30, Opsgenie provides 80% functionality at 20% cost.
 
@@ -113,13 +113,13 @@ alertmanager.yml:
 When alert fires -> Opsgenie creates incident -> Slack notification
 ```
 
-Cost: $4/user/month (significantly cheaper). Trade-off: No public status page, lighter-weight timeline.
+Cost - $4/user/month (significantly cheaper). Trade-off: No public status page, lighter-weight timeline.
 
 ---
 
 War Room Setup Patterns
 
-Pattern 1: Automatic War Room Channel Creation
+Pattern 1 - Automatic War Room Channel Creation
 ```bash
 With Incident.io or FireHydrant:
 When incident marked "critical", auto-create Slack channel
@@ -129,13 +129,13 @@ When incident marked "critical", auto-create Slack channel
 - Bot posts status updates every 5min
 ```
 
-Pattern 2: Status Page Updates
+Pattern 2 - Status Page Updates
 ```markdown
-Current Status: INVESTIGATING
-Severity: HIGH
-Affected: API endpoints (eastus-1, eastus-2)
-Start: 2026-03-22 14:23 UTC
-Duration: 12 minutes
+Current Status - INVESTIGATING
+Severity - HIGH
+Affected - API endpoints (eastus-1, eastus-2)
+Start - 2026-03-22 14:23 UTC
+Duration - 12 minutes
 
 Timeline:
 14:23 - Alert: API p99 latency > 5s
@@ -145,7 +145,7 @@ Timeline:
 14:35 - Status: Resolved, monitoring
 ```
 
-Pattern 3: Automated Escalation
+Pattern 3 - Automated Escalation
 ```yaml
 escalation_policy:
   - level_1:
@@ -165,7 +165,7 @@ escalation_policy:
 
 Real-World Incident Communication Workflow
 
-Step 1: Detection (0 min)
+Step 1 - Detection (0 min)
 ```
 Monitoring tool detects anomaly
 → Sends webhook to PagerDuty/Incident.io
@@ -173,7 +173,7 @@ Monitoring tool detects anomaly
 → On-call engineer paged (SMS + Slack)
 ```
 
-Step 2: War Room Setup (1 min)
+Step 2 - War Room Setup (1 min)
 ```
 Engineer acknowledges incident
 → War room auto-created in Slack
@@ -181,7 +181,7 @@ Engineer acknowledges incident
 → Initial status posted to public status page: "Investigating"
 ```
 
-Step 3: Investigation & Updates (2-10 min)
+Step 3 - Investigation & Updates (2-10 min)
 ```
 War room Slack conversation:
 - 14:25: "Database CPU at 98%"
@@ -190,7 +190,7 @@ War room Slack conversation:
 - 14:28: Status page updated: "Root cause identified, rolling back"
 ```
 
-Step 4: Resolution (10-20 min)
+Step 4 - Resolution (10-20 min)
 ```
 Engineer rolls back deployment
 → Database CPU returns to normal
@@ -199,11 +199,11 @@ Engineer rolls back deployment
 → Timeline locked, review scheduled
 ```
 
-Step 5: Post-Incident Review (Next day)
+Step 5 - Post-Incident Review (Next day)
 ```
 FireHydrant/Incident.io timeline auto-generated:
 - Incident ID: INC-2026-0847
-- Duration: 12 minutes
+- Duration - 12 minutes
 - Severity: Critical
 - Impact: 2.3% of users affected
 - Root cause: Deployment bug in connection pooling

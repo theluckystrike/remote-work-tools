@@ -20,9 +20,9 @@ Moving from a fully remote setup to a hybrid model introduces unique challenges 
 
 Table of Contents
 
-- [The Core Problem: Asymmetric Experience](#the-core-problem-asymmetric-experience)
-- [Document Everything: The Async-First Foundation](#document-everything-the-async-first-foundation)
-- [Discussion: [Topic]](#discussion-topic)
+- [The Core Problem - Asymmetric Experience](#the-core-problem-asymmetric-experience)
+- [Document Everything - The Async-First Foundation](#document-everything-the-async-first-foundation)
+- [Discussion - [Topic]](#discussion-topic)
 - [Attendees](#attendees)
 - [Agenda](#agenda)
 - [Notes](#notes)
@@ -31,31 +31,31 @@ Table of Contents
 - [Establish "No-Documenting" Time for Remote Workers](#establish-no-documenting-time-for-remote-workers)
 - [Implement Rotating In-Office Days](#implement-rotating-in-office-days)
 - [Measure What Matters](#measure-what-matters)
-- [Hybrid Models: Comparison and Trade-offs](#hybrid-models-comparison-and-trade-offs)
-- [Implementation Roadmap: 90 Days to Hybrid Culture](#implementation-roadmap-90-days-to-hybrid-culture)
+- [Hybrid Models - Comparison and Trade-offs](#hybrid-models-comparison-and-trade-offs)
+- [Implementation Roadmap - 90 Days to Hybrid Culture](#implementation-roadmap-90-days-to-hybrid-culture)
 - [Hybrid Preparation Checklist](#hybrid-preparation-checklist)
 - [Monthly Hybrid Retrospective](#monthly-hybrid-retrospective)
 - [Tools and Technology Stack](#tools-and-technology-stack)
-- [Measuring Hybrid Success: Metrics Framework](#measuring-hybrid-success-metrics-framework)
+- [Measuring Hybrid Success - Metrics Framework](#measuring-hybrid-success-metrics-framework)
 - [Inclusion Metrics](#inclusion-metrics)
 - [Productivity Metrics](#productivity-metrics)
 - [Culture Metrics](#culture-metrics)
 - [Building Culture That Scales](#building-culture-that-scales)
 
-The Core Problem: Asymmetric Experience
+The Core Problem - Asymmetric Experience
 
 In a fully remote team, everyone shares the same baseline experience. Everyone attends video calls from their own workspace, everyone uses the same digital tools, and everyone navigates the same asynchronous workflows. Hybrid work breaks this symmetry. When some team members share a physical space, they naturally develop informal connections, have sidebar conversations, and pick up context that remote participants miss entirely.
 
 Without intentional intervention, this leads to what researchers call "the two-tier workforce." Remote workers feel like second-class citizens, receiving decisions after they're already made, missing inside jokes, and struggling to contribute to conversations that happened in passing. The solution isn't to make everyone feel equally remote, it is to deliberately design workflows that keep remote team members fully included.
 
-Document Everything: The Async-First Foundation
+Document Everything - The Async-First Foundation
 
 The most practical starting point is documenting everything that happens in the office. This does not mean transcribing every casual conversation, but it does mean ensuring that substantive discussions, decisions, and context live in tools everyone can access asynchronously.
 
 A straightforward approach uses a shared document system with a standardized template. When your team discusses a technical decision in a meeting room, someone types notes into a collaborative document using a format like this:
 
 ```markdown
-Discussion: [Topic]
+Discussion - [Topic]
 
 Attendees
 - [Name] (office)
@@ -165,11 +165,11 @@ Ask questions like:
 
 Track these metrics over time and treat negative trends as urgent issues requiring intervention. The data helps you identify patterns, like specific meetings where remote participants consistently feel excluded, before they become entrenched problems.
 
-Hybrid Models: Comparison and Trade-offs
+Hybrid Models - Comparison and Trade-offs
 
 Different organizations implement hybrid differently. Here's comparison:
 
-Hybrid Model 1: Flexible (Choose Your Days)
+Hybrid Model 1 - Flexible (Choose Your Days)
 Team members choose which days they come to office
 
 - Maximum flexibility for employees
@@ -180,9 +180,9 @@ Team members choose which days they come to office
 - Can create two isolated sub-teams
 - Knowledge silos form quickly
 
-Best for: Mature teams with strong async culture, 10+ people
+Best for - Mature teams with strong async culture, 10+ people
 
-Hybrid Model 2: Fixed Schedule (Same Days Weekly)
+Hybrid Model 2 - Fixed Schedule (Same Days Weekly)
 Teams come in on assigned days (e.g., Platform team Tues/Thurs)
 
 - Predictable overlap for collaboration
@@ -192,7 +192,7 @@ Teams come in on assigned days (e.g., Platform team Tues/Thurs)
 - Less flexibility for personal needs
 - May inconvenience some days
 
-Best for: Teams 5-15 people, needs some in-person collaboration
+Best for - Teams 5-15 people, needs some in-person collaboration
 
 Implementation:
 ```json
@@ -213,7 +213,7 @@ Implementation:
 }
 ```
 
-Hybrid Model 3: Core Hours
+Hybrid Model 3 - Core Hours
 Everyone works 11am-3pm in timezone, location optional
 
 - Balances flexibility with overlap
@@ -223,9 +223,9 @@ Everyone works 11am-3pm in timezone, location optional
 - Requires discipline (people working extended hours)
 - Can still create office/remote divide
 
-Best for: Distributed teams across time zones
+Best for - Distributed teams across time zones
 
-Hybrid Model 4: Hub and Spoke
+Hybrid Model 4 - Hub and Spoke
 Central office + distributed remote, monthly office week
 
 - Maintains headquarters culture
@@ -236,7 +236,7 @@ Central office + distributed remote, monthly office week
 - Disrupts remote work routines
 - Hard on people with caregiving responsibilities
 
-Best for: Funded startups, teams already distributed
+Best for - Funded startups, teams already distributed
 
 Cost calculation:
 - Travel: $500-1500 per person per trip
@@ -244,9 +244,9 @@ Cost calculation:
 - Activities/team time: $200-400
 - Total monthly: $2,000-8,000 for 6-person team
 
-Implementation Roadmap: 90 Days to Hybrid Culture
+Implementation Roadmap - 90 Days to Hybrid Culture
 
-Phase 1: Pre-Launch (Weeks 1-2)
+Phase 1 - Pre-Launch (Weeks 1-2)
 Before anyone returns to office:
 
 ```markdown
@@ -260,7 +260,7 @@ Hybrid Preparation Checklist
 - [ ] Brief leadership on avoiding office-first bias
 ```
 
-Phase 2: Soft Launch (Weeks 3-4)
+Phase 2 - Soft Launch (Weeks 3-4)
 Pilot with interested volunteers:
 
 - 3-4 people come in for one day
@@ -269,32 +269,32 @@ Pilot with interested volunteers:
 - Collect feedback on what worked
 - Adjust setup based on issues
 
-Phase 3: Full Launch (Weeks 5-8)
+Phase 3 - Full Launch (Weeks 5-8)
 Roll out to full team:
 
 ```
-Week 5: First full week with hybrid schedule
+Week 5 - First full week with hybrid schedule
        - Daily async check-in on how it's going
        - Pair office/remote perspectives
        - Quick fixes for obvious issues
 
-Week 6: First full cycle
+Week 6 - First full cycle
        - Retrospective on first 2 weeks
        - Major adjustments based on feedback
        - Communication to leadership on progress
 
-Week 7-8: Stabilization
+Week 7-8 - Stabilization
         - Refinements to documentation
         - Culture-building activities
         - Metrics collection for baseline
 ```
 
-Phase 4: Continuous Improvement (Weeks 9+)
+Phase 4 - Continuous Improvement (Weeks 9+)
 Monthly retrospectives on hybrid experience:
 
 ```markdown
 Monthly Hybrid Retrospective
-When: Every 4th Friday, async survey + 30-min discussion
+When - Every 4th Friday, async survey + 30-min discussion
 
 Questions:
 1. Do you feel included in decisions? (1-5 scale)
@@ -303,7 +303,7 @@ Questions:
 4. One thing we should improve
 5. Would you prefer different schedule/model?
 
-Track over time: Aim for increasing "included" scores
+Track over time - Aim for increasing "included" scores
 ```
 
 Tools and Technology Stack
@@ -326,9 +326,9 @@ Nice-to-Have (ROI if 10+ people)
 | Gather | $10-50/month | Casual interaction space |
 | Webflow forms | Free-$500/month | Feedback collection |
 
-Budget for 6-person team: $300-600/month
+Budget for 6-person team - $300-600/month
 
-Measuring Hybrid Success: Metrics Framework
+Measuring Hybrid Success - Metrics Framework
 
 Track these monthly:
 

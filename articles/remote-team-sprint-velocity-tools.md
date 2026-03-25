@@ -33,7 +33,7 @@ The fix isn't a better chart. it's enforcing a definition of done and normalizin
 
 ---
 
-Tool 1: Linear (Best for Engineering Teams)
+Tool 1 - Linear (Best for Engineering Teams)
 
 Linear's Cycles feature is the cleanest sprint tracking interface available. Issues have an explicit cycle scope, and the API lets you pull velocity data programmatically.
 
@@ -162,13 +162,13 @@ ideal_remaining = total_points * (1 - elapsed_days / total_days)
 print(f"Cycle: {cycle['name']}")
 print(f"Total points: {total_points}")
 print(f"Completed: {completed_points}")
-print(f"Remaining: {remaining} (ideal: {ideal_remaining:.0f})")
+print(f"Remaining - {remaining} (ideal: {ideal_remaining:.0f})")
 print(f"Status: {'On track' if remaining <= ideal_remaining else 'Behind'}")
 ```
 
 ---
 
-Tool 2: Jira Cloud (with JQL and Automation)
+Tool 2 - Jira Cloud (with JQL and Automation)
 
 Jira has more configuration overhead but is mandated at many organizations. Use JQL to extract velocity data cleanly.
 
@@ -227,7 +227,7 @@ This avoids the need for custom API scripts for teams that live in Jira's UI.
 
 ---
 
-Tool 3: GitHub Issues + Custom Script
+Tool 3 - GitHub Issues + Custom Script
 
 Teams using GitHub Issues for project tracking can calculate velocity from closed issues in a milestone:
 
@@ -395,7 +395,7 @@ Velocity alone doesn't explain why a sprint went well or poorly. Pair it with st
 ```markdown
 Sprint 42 Retro Data
 
-Velocity: 45 pts (forecast was 48)
+Velocity - 45 pts (forecast was 48)
 
 What slowed us:
 - [ ] Auth service PR sat in review 4 days (tag: review_delay)

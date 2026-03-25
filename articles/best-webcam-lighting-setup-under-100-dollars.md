@@ -27,7 +27,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Three-Point Lighting Formula
+Step 1 - The Three-Point Lighting Formula
 
 Professional video uses three lights:
 
@@ -37,7 +37,7 @@ Professional video uses three lights:
 
 You don't need expensive cinema lights. Budget options work equally well if positioned correctly.
 
-Step 2: Optimal Setup Architecture
+Step 2 - Optimal Setup Architecture
 
 ```
      BACK LIGHT (directly behind, above head)
@@ -54,7 +54,7 @@ Distance Placement:
 - Fill light: 3-4 feet from your face, on the opposite side (slightly lower intensity)
 - Back light: 2-3 feet behind your head, angled downward
 
-Step 3: Budget Lighting Breakdown
+Step 3 - Budget Lighting Breakdown
 
 | Component | Option | Cost | Quality |
 |-----------|--------|------|---------|
@@ -65,7 +65,7 @@ Step 3: Budget Lighting Breakdown
 | Diffusion | Foam board + white fabric (DIY) | $5-8 | Excellent (DIY) |
 | Total | | $82-111 | Professional Result |
 
-Step 4: Recommended Budget Setup (Under $100)
+Step 4 - Recommended Budget Setup (Under $100)
 
 Shopping List:
 
@@ -76,7 +76,7 @@ Shopping List:
  - Each draws ~25W (efficient)
  - Includes basic stands
 
-Amazon: `B00TSY0KXA` or equivalent
+Amazon - `B00TSY0KXA` or equivalent
 
 2. Cheap Ring Light for Back Light. $15-22
  - Neewer 10-inch RGB ring light (use on white/warm setting)
@@ -84,7 +84,7 @@ Amazon: `B00TSY0KXA` or equivalent
  - Perfect for separation light behind head
  - Can be mounted on mic stand or clipped to desk
 
-Amazon: `B00F9SDSXE` or equivalent
+Amazon - `B00F9SDSXE` or equivalent
 
 3. Photo Tripod Stands (if not included). $12-18
  - Heavy-duty light stands (2-pack)
@@ -111,11 +111,11 @@ Amazon: `B00F9SDSXE` or equivalent
    5. Adjust panel angle to diffuse light evenly
    ```
 
-Total cost: $65-95
+Total cost - $65-95
 
-Step 5: Install ation Steps (15 minutes)
+Step 5 - Install ation Steps (15 minutes)
 
-Step 1: Arrange Your Desk
+Step 1 - Arrange Your Desk
 
 Move your monitor/laptop so the camera lens is at eye level or slightly above (never below). This is the single most important factor, poor camera angle ruins even great lighting.
 
@@ -125,14 +125,14 @@ Eye level  Camera lens height
            (no looking up or down at camera)
 ```
 
-Step 2: Position Key Light
+Step 2 - Position Key Light
 
 Place the first (brightest) LED panel to your right front, 45° angle:
 - Height: Slightly above your face (creates flattering shadows under chin)
 - Distance: 3-4 feet away
 - Angle: Camera should be between the light and your face
 
-Step 3: Diffuse the Key Light
+Step 3 - Diffuse the Key Light
 
 Position the white foam board directly in front of the LED panel. This:
 - Softens harsh shadows
@@ -140,7 +140,7 @@ Position the white foam board directly in front of the LED panel. This:
 - Creates more flattering skin tone
 - Eliminates the "interrogation" look of direct lights
 
-Step 4: Position Fill Light
+Step 4 - Position Fill Light
 
 Place the second LED panel on your left side:
 - Same height as key light (or slightly lower)
@@ -148,7 +148,7 @@ Place the second LED panel on your left side:
 - Intensity: Set to 50-70% brightness (dimmer than key light)
 - Purpose: Reduce harsh shadows on left side of face
 
-Step 5: Position Back Light
+Step 5 - Position Back Light
 
 Ring light directly behind your head:
 - Height: 2-3 feet above your head
@@ -156,7 +156,7 @@ Ring light directly behind your head:
 - Intensity: 30-40% brightness
 - Purpose: Creates rim light separating your head from background
 
-Step 6: Test and Adjust
+Step 6 - Test and Adjust
 
 ```bash
 Test lighting on Zoom
@@ -169,12 +169,12 @@ Test lighting on Zoom
     Good color balance (skin tone looks natural, not orange or blue)
     Background is visible but not brighter than your face
 
-If too bright: Increase distance or reduce brightness
-If too dark: Decrease distance or increase brightness
-If shadows too harsh: Move fill light closer or increase brightness
+If too bright - Increase distance or reduce brightness
+If too dark - Decrease distance or increase brightness
+If shadows too harsh - Move fill light closer or increase brightness
 ```
 
-Step 6: Power and Heat Management
+Step 6 - Power and Heat Management
 
 Budget LED panels are cool-running, but stacking lights creates heat. Follow these precautions:
 
@@ -189,7 +189,7 @@ Typical power consumption:
 - Ring light: 8W
 - Total draw: ~60W (less than a standard lightbulb)
 
-Step 7: Alternative: Soft Box Setup ($80-100)
+Step 7 - Alternative: Soft Box Setup ($80-100)
 
 If you prefer soft boxes over diffusers:
 
@@ -198,7 +198,7 @@ Budget Soft Box Setup:
 - Neewer Softbox Kit (2-pack) - $40-50
 - Tripod stands (if not included) - $15-20
 - Small LED bulb or cheap work light - $10-15
-Total: $65-85
+Total - $65-85
 ```
 
 - More portable (soft boxes fold up)
@@ -219,38 +219,38 @@ Troubleshooting Common Issues
 | One side of face dark | Move fill light closer or increase brightness | Balances exposure between key and fill |
 | Background too bright | Turn off back light or reduce brightness | Back light should not be brighter than face light |
 
-Step 8: Professional Upgrade Path ($150-250)
+Step 8 - Professional Upgrade Path ($150-250)
 
 Once you nail the basics, upgrade progressively:
 
-Month 1: Foundation ($70-100)
+Month 1 - Foundation ($70-100)
 - Two Neewer LED panels + diffusers
 
-Month 2: Separation ($20-30 more)
+Month 2 - Separation ($20-30 more)
 - Add ring light for back light
 
-Month 3: Flexibility ($40-60 more)
+Month 3 - Flexibility ($40-60 more)
 - Upgrade to adjustable color temperature panels
 - Add second set of stands for repositioning
 
-Month 6: Professional ($50-80 more)
+Month 6 - Professional ($50-80 more)
 - Upgrade to Elgato Key Light (if you want brand-name gear)
 - Add dedicated backdrop ( paper or fabric)
 
-Year 1: Studio ($100+ more)
+Year 1 - Studio ($100+ more)
 - Add acoustic foam for sound quality
 - Upgrade microphone (benefits calls more than lighting)
 - Add green screen (if doing presentations)
 
-Step 9: Pro Tips for Video Call Lighting
+Step 9 - Pro Tips for Video Call Lighting
 
 1. Time of Day Matters
 
-Morning (6-9am): Natural window light boosts mood. Supplement with key light positioned away from window.
+Morning (6-9am) - Natural window light boosts mood. Supplement with key light positioned away from window.
 
-Afternoon (12-5pm): Direct sunlight creates harsh shadows. Use artificial lights exclusively, positioned at 45° angles.
+Afternoon (12-5pm) - Direct sunlight creates harsh shadows. Use artificial lights exclusively, positioned at 45° angles.
 
-Evening (5pm-9pm): Warm-toned LED panels look best. Avoid cool (5000K) light at night, looks clinical.
+Evening (5pm-9pm) - Warm-toned LED panels look best. Avoid cool (5000K) light at night, looks clinical.
 
 2. Clothing Color Affects Lighting
 
@@ -258,7 +258,7 @@ Evening (5pm-9pm): Warm-toned LED panels look best. Avoid cool (5000K) light at 
 - Dark colors (black, dark blue): Absorb light, requiring 20% more brightness
 - Colors to avoid: Bright neon (overwhelms camera), pure white (reflects too much)
 
-Optimal color: Medium blue, gray, or earth tones
+Optimal color - Medium blue, gray, or earth tones
 
 3. Camera Angle + Lighting Combination
 
@@ -280,7 +280,7 @@ If you can't adjust lighting physically:
 - Prevents background from competing with your face
 - Use subtle back light to separate you from background
 
-Step 10: Real-World Results
+Step 10 - Real-World Results
 
 Before lighting:
 - Dark circles visible
@@ -298,15 +298,15 @@ After $85 lighting setup:
 
 Users report managers comment on "looking healthier" or "looking more engaged" after implementing proper lighting.
 
-Step 11: Measuring Lighting Quality
+Step 11 - Measuring Lighting Quality
 
 If you're technical, measure light levels:
 
 ```bash
 On Mac, use light meter apps
-Free option: Use Cine Meter Pro app ($5)
+Free option - Use Cine Meter Pro app ($5)
 
-Optimal face illumination: 500-1000 lux
+Optimal face illumination - 500-1000 lux
 - Too low (<300 lux): Grainy, dark
 - Too high (>1500 lux): Washed out, overexposed
 - Sweet spot: 700-900 lux
@@ -318,7 +318,7 @@ Measure:
 4. Adjust light distance/brightness to hit 700-900 lux range
 ```
 
-Step 12: Perform Maintenance and Durability
+Step 12 - Perform Maintenance and Durability
 
 Budget LED panels last 50,000-100,000 hours (5-10 years of heavy use):
 
@@ -337,7 +337,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -349,7 +349,7 @@ AI tools evolve rapidly, with major updates every few months. Feature comparison
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

@@ -174,7 +174,7 @@ Slack's pricing tiers:
 - Business+: $15/user/month (SSO, guest access)
 - Enterprise Grid: Custom pricing
 
-For 15 developers on Slack Pro: approximately $131/month.
+For 15 developers on Slack Pro - approximately $131/month.
 
 Discord's pricing:
 
@@ -248,7 +248,7 @@ Making the Decision
 
 For a 15-person remote development team, the choice often comes down to culture and existing tooling. If your team already uses Atlassian products, Google Workspace, or operates in an enterprise environment, Slack integrates more naturally. If your team values real-time voice communication, open discussions, and a platform that doesn't feel like corporate software, Discord provides a different experience.
 
-Try this: Have your team use both platforms for one week each. Test the actual workflows that matter to your team, incident response, code reviews, standups, and tool integrations. The platform that fits your team's communication patterns will reveal itself faster than any feature comparison.
+Try this - Have your team use both platforms for one week each. Test the actual workflows that matter to your team, incident response, code reviews, standups, and tool integrations. The platform that fits your team's communication patterns will reveal itself faster than any feature comparison.
 
 The best choice is the one your team actually uses consistently. Both Slack and Discord work well for remote developer teams. The difference is in how each platform shapes communication culture over time.
 

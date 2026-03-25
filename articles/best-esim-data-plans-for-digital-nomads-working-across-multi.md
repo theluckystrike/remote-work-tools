@@ -31,7 +31,7 @@ Settings app > Cellular > Cellular Plans
 For Android devices:
 ```bash
 Settings > Network & Internet > SIM cards > Add carrier
-Samsung: Settings > Connections > SIM card manager
+Samsung - Settings > Connections > SIM card manager
 ```
 
 Developers working with IoT deployments should note that eSIM profiles adhere to the GSMA Remote SIM Provisioning standard, enabling over-the-air (OTA) profile downloads.

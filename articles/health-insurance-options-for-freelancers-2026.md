@@ -20,12 +20,12 @@ Choose an ACA marketplace plan if you earn $60K-$80K yearly and need coverage wi
 
 Table of Contents
 
-- [The Freelancer Insurance ecosystem in 2026](#the-freelancer-insurance-ecosystem-in-2026)
+- [The Freelancer Insurance environment in 2026](#the-freelancer-insurance-environment-in-2026)
 - [ACA Marketplace Plans](#aca-marketplace-plans)
 - [Health Savings Accounts (HSAs)](#health-savings-accounts-hsas)
 - [Cost-Sharing Programs](#cost-sharing-programs)
 - [State-Specific Programs](#state-specific-programs)
-- [Practical Strategy: The Freelancer Stack](#practical-strategy-the-freelancer-stack)
+- [Practical Strategy - The Freelancer Stack](#practical-strategy-the-freelancer-stack)
 - [What Developers Should Consider](#what-developers-should-consider)
 - [Documentation for Freelancers](#documentation-for-freelancers)
 - [Tax Filing Deductions and Credits](#tax-filing-deductions-and-credits)
@@ -33,7 +33,7 @@ Table of Contents
 - [Getting Started](#getting-started)
 - [Monitoring and Annual Review](#monitoring-and-annual-review)
 
-The Freelancer Insurance ecosystem in 2026
+The Freelancer Insurance environment in 2026
 
 The individual health insurance market has evolved significantly. Several pathways remain viable for freelancers:
 
@@ -120,7 +120,7 @@ def estimate_subsidy(income, state="average"):
 
 Freelancer earning $60,000/year
 result = estimate_subsidy(60000)
-print(f"Income: ${result['income']:,.0f}")
+print(f"Income - ${result['income']:,.0f}")
 print(f"FPL: {result['fpl_percentage']:.0f}%")
 print(f"Your max premium: ${result['your_cost']}/month")
 print(f"Estimated subsidy: ${result['subsidy']}/month")
@@ -168,7 +168,7 @@ State-Specific Programs
 
 Several states offer additional programs for freelancers and self-employed individuals. California's Covered California offers subsidies beyond federal levels. New York's Essential Plan covers low-income individuals at $0, $50/month. Massachusetts offers ConnectorCare with fixed copays, and Minnesota offers MinnesotaCare with income-based premiums. Check your state marketplace for programs beyond standard ACA options.
 
-Practical Strategy: The Freelancer Stack
+Practical Strategy - The Freelancer Stack
 
 Many freelancers combine approaches for optimal coverage:
 
@@ -246,7 +246,7 @@ Income Fluctuation and Plan Switching
 Freelancers with variable income face challenges estimating annual earnings. The advance premium tax credit reconciliation process handles over/underestimation:
 
 ```bash
-Scenario: You estimate $60K income, get subsidies, but earn $85K
+Scenario - You estimate $60K income, get subsidies, but earn $85K
 At tax time, you'll owe back some subsidies (called reconciliation)
 
 ESTIMATED_INCOME=60000

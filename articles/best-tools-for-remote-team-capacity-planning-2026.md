@@ -43,9 +43,9 @@ Capacity planning tools solve this by making usage and availability explicit, of
 
 Forecast. Best for Billable Services and Client Projects
 
-Pricing: $30-50/person/month (annual contract recommended)
-Users: 50,000+ teams across agencies, consulting, and professional services
-Key Strength: Accuracy in predicting project timelines and resource gaps
+Pricing - $30-50/person/month (annual contract recommended)
+Users - 50,000+ teams across agencies, consulting, and professional services
+Key Strength - Accuracy in predicting project timelines and resource gaps
 
 Forecast shines for service firms tracking billable hours, retainers, and project profitability. The tool connects directly to your project management layer and helps you forecast usage months ahead.
 
@@ -102,13 +102,13 @@ console.log(capacityReport);
 
 Forecast integrates with Jira, Monday.com, Asana, and dozens of other tools. Once integrated, it automatically pulls project timelines and resource allocations, calculating usage rates in real-time.
 
-Best for: Service firms with billable usage targets (85-90%), client delivery timelines, staffing optimization.
+Best for - Service firms with billable usage targets (85-90%), client delivery timelines, staffing optimization.
 
 Float. Best for Visual Capacity Planning at Scale
 
-Pricing: $25-60/person/month depending on features and team size
-Users: 15,000+ companies (startups to enterprises)
-Key Strength: Visual timeline interface and drag-and-drop resource allocation
+Pricing - $25-60/person/month depending on features and team size
+Users - 15,000+ companies (startups to enterprises)
+Key Strength - Visual timeline interface and drag-and-drop resource allocation
 
 Float's strength is its timeline visualization. You see your team's schedule across weeks/months, identify capacity gaps visually, and drag tasks to redistribute workload.
 
@@ -156,13 +156,13 @@ const rebalanceTeam = async (overallocatedPersonId, taskId, underallocatedPerson
 
 Float emphasizes work-life balance. You set max weekly hours per person (e.g., 37.5 for full-time), and Float warns when allocations exceed that threshold. Ideal for distributed teams across time zones where overwork isn't visible without explicit tooling.
 
-Best for: Product teams, startups, companies prioritizing burnout prevention and even workload distribution.
+Best for - Product teams, startups, companies prioritizing burnout prevention and even workload distribution.
 
 Teamdeck. Best for Remote Team Visibility and Time Tracking
 
-Pricing: $10-30/person/month (includes time tracking)
-Users: 5,000+ remote-first companies
-Key Strength: Integrated time tracking with capacity planning
+Pricing - $10-30/person/month (includes time tracking)
+Users - 5,000+ remote-first companies
+Key Strength - Integrated time tracking with capacity planning
 
 Teamdeck combines capacity planning with actual time tracking. You forecast capacity based on project plans, then track actual time spent. The delta reveals planning accuracy and helps improve future estimates.
 
@@ -178,21 +178,21 @@ Logs time to Teamdeck automatically
 
 Later, capacity report shows:
 Estimated: 10 hours on project
-Actual: 12 hours logged
-Accuracy: 83%
+Actual - 12 hours logged
+Accuracy - 83%
 ```
 
 Teamdeck's differentiator is combining forecasting with real time tracking. Most teams estimate optimistically (8 hours for a task that takes 10). Teamdeck makes this visible over time, improving estimation accuracy by 20-30%.
 
 Integration with Slack, Google Calendar, and Jira makes time entry frictionless. Unlike older time-tracking tools that require manual logging, Teamdeck learns your patterns (when you're in calls, writing code, etc.) and suggests accurate allocations.
 
-Best for: Remote teams new to capacity planning, teams implementing data-driven estimation, distributed companies needing visibility into real work vs. allocated work.
+Best for - Remote teams new to capacity planning, teams implementing data-driven estimation, distributed companies needing visibility into real work vs. allocated work.
 
 Resource Guru. Best for Freelance and Agency Flexibility
 
-Pricing: $20-50/person/month, with pay-as-you-go options
-Users: 8,000+ agencies and freelance networks
-Key Strength: Flexible resource pooling and project staffing
+Pricing - $20-50/person/month, with pay-as-you-go options
+Users - 8,000+ agencies and freelance networks
+Key Strength - Flexible resource pooling and project staffing
 
 Resource Guru emphasizes staffing flexibility. Rather than assigning people to fixed projects, you tag people with skills/roles and assign them to work streams. This enables:
 
@@ -243,7 +243,7 @@ const resource = await findAvailableResource(
 
 This flexibility is critical for agencies juggling multiple clients and freelancers. Resource Guru shines in this context.
 
-Best for: Agencies, consulting firms, freelance networks, companies with variable project staffing needs.
+Best for - Agencies, consulting firms, freelance networks, companies with variable project staffing needs.
 
 Capacity Planning Tool Comparison
 
@@ -268,7 +268,7 @@ Service Firms (Billable Hours Model)
 Use Forecast as primary with Float for visualization.
 
 ```
-Team meeting: "Sprint starts Monday. Sarah, I'm allocating you 160 hours at 85% usage on the Acme project..."
+Team meeting - "Sprint starts Monday. Sarah, I'm allocating you 160 hours at 85% usage on the Acme project..."
 (Using Forecast data for the allocation target and Float to visualize it)
 ```
 
@@ -277,7 +277,7 @@ Product Teams (Capacity + Burnout Prevention)
 Use Float as primary, weekly capacity review meetings.
 
 ```
-Weekly standup: "Three people hitting 95% allocation. Let's redistribute that bug bounty work to keep usage at 80-85%."
+Weekly standup - "Three people hitting 95% allocation. Let's redistribute that bug bounty work to keep usage at 80-85%."
 ```
 
 Distributed Remote Teams (Accuracy Focus)
@@ -285,7 +285,7 @@ Distributed Remote Teams (Accuracy Focus)
 Use Teamdeck for integrated tracking and planning.
 
 ```
-Sprint retro: "We estimated 10 hours for the API integration, tracked 12 hours actual. Next time, let's estimate 12 hours up front."
+Sprint retro - "We estimated 10 hours for the API integration, tracked 12 hours actual. Next time, let's estimate 12 hours up front."
 ```
 
 Agencies with Freelancers

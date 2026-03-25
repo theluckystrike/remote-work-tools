@@ -132,9 +132,9 @@ Specific Registry Recommendations by Team Type
 
 Different teams benefit from different registry choices. Here's practical guidance.
 
-Small startups (2-5 developers): Use Docker Hub free tier or GitHub Container Registry. Zero infrastructure cost. Acceptable rate limits for small teams. Upgrade only when hitting rate limits.
+Small startups (2-5 developers) - Use Docker Hub free tier or GitHub Container Registry. Zero infrastructure cost. Acceptable rate limits for small teams. Upgrade only when hitting rate limits.
 
-Growing teams (5-20 developers): Switch to cloud-hosted registries (ECR, Artifact Registry, ACR) if you're in those clouds. Cost is predictable and security is professional-grade. If multi-cloud, evaluate Tinybird or self-hosted Harbor.
+Growing teams (5-20 developers) - Switch to cloud-hosted registries (ECR, Artifact Registry, ACR) if you're in those clouds. Cost is predictable and security is professional-grade. If multi-cloud, evaluate Tinybird or self-hosted Harbor.
 
 Large organizations (20+ developers): Probably custom deployment with Harbor or self-hosted solution. You've earned the operational complexity through team size. Integration with your identity provider and secret management becomes essential.
 
@@ -146,15 +146,15 @@ Setting Up Your First Registry
 
 Get started practically without getting lost in optionality.
 
-Step 1: Choose based on your infrastructure. Already on AWS? Use ECR. On Google Cloud? Artifact Registry. On Azure? ACR. Already using GitHub? GHCR. Consistency matters more than optimization.
+Step 1 - Choose based on your infrastructure. Already on AWS? Use ECR. On Google Cloud? Artifact Registry. On Azure? ACR. Already using GitHub? GHCR. Consistency matters more than optimization.
 
-Step 2: Enable scanning immediately. Whatever registry you choose, turn on vulnerability scanning. Catch issues before they reach production.
+Step 2 - Enable scanning immediately. Whatever registry you choose, turn on vulnerability scanning. Catch issues before they reach production.
 
-Step 3: Create automated build pipelines. Connect your registry to your CI/CD. Builds should push images automatically on commit.
+Step 3 - Create automated build pipelines. Connect your registry to your CI/CD. Builds should push images automatically on commit.
 
-Step 4: Document image naming. Create a standard that everyone follows. Something like: `registry.company.com/service-name:v1.2.3-env` prevents chaos as your image library grows.
+Step 4 - Document image naming. Create a standard that everyone follows. Something like: `registry.company.com/service-name:v1.2.3-env` prevents chaos as your image library grows.
 
-Step 5: Start simple, add complexity later. Don't implement signing, replication, and custom retention policies immediately. Add these as your team's needs grow.
+Step 5 - Start simple, add complexity later. Don't implement signing, replication, and custom retention policies immediately. Add these as your team's needs grow.
 
 Monitoring Registry Health
 
@@ -200,13 +200,13 @@ Multi-Cloud and Multi-Registry Management
 
 Large organizations sometimes need images available across multiple registries.
 
-Registry replication: Most cloud registries support automatic replication. Push once to primary, replicate to backup registries automatically. This enables geographic distribution and disaster recovery.
+Registry replication - Most cloud registries support automatic replication. Push once to primary, replicate to backup registries automatically. This enables geographic distribution and disaster recovery.
 
-Unified registry APIs: Tools like Skopeo or Regctl provide unified interfaces to multiple registries. Single commands work across Docker Hub, AWS ECR, Azure ACR, etc.
+Unified registry APIs - Tools like Skopeo or Regctl provide unified interfaces to multiple registries. Single commands work across Docker Hub, AWS ECR, Azure ACR, etc.
 
-CI/CD orchestration: Configure your CI/CD to push to multiple registries. A single build step can push the same image to internal registry and cloud provider registries.
+CI/CD orchestration - Configure your CI/CD to push to multiple registries. A single build step can push the same image to internal registry and cloud provider registries.
 
-Fallback mechanisms: If your primary registry becomes unavailable, can you pull images from secondaries? Design your deployment system to try multiple registries in sequence.
+Fallback mechanisms - If your primary registry becomes unavailable, can you pull images from secondaries? Design your deployment system to try multiple registries in sequence.
 
 Moving Forward
 
@@ -228,7 +228,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -240,7 +240,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Container Registry Implementation Template
 
@@ -311,7 +311,7 @@ CI/CD Pipeline Integration
 Integrate your registry into deployment pipelines:
 
 ```yaml
-GitHub Actions workflow: Build, scan, and push to registry
+GitHub Actions workflow - Build, scan, and push to registry
 name: Build and Push Docker Image
 
 on:
@@ -472,13 +472,13 @@ Large images waste bandwidth for remote teams. Optimize systematically:
 Example multi-stage Dockerfile:
 
 ```dockerfile
-Stage 1: Builder
+Stage 1 - Builder
 FROM node:18 as builder
 WORKDIR /build
 COPY package*.json ./
 RUN npm ci && npm run build
 
-Stage 2: Runtime
+Stage 2 - Runtime
 FROM node:18-alpine
 WORKDIR /app
 COPY --from=builder /build/dist ./dist

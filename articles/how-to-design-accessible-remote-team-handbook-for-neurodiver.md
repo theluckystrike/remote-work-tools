@@ -144,11 +144,11 @@ Neurodiverse users often search for specific information rather than reading ful
 Keyword-Rich Headings
 
 ```markdown
-How to Request Time Off: Submitting PTO in HR Portal
+How to Request Time Off - Submitting PTO in HR Portal
 
-Password Reset: Troubleshooting Common Issues
+Password Reset - Troubleshooting Common Issues
 
-VPN Setup: Connecting from Home Networks
+VPN Setup - Connecting from Home Networks
 ```
 
 Internal Cross-References

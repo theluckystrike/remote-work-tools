@@ -104,7 +104,7 @@ When both partners interact with clients, establish who owns which communication
 Create email templates for common client interactions:
 
 ```
-Subject: Weekly Progress Update - [Project Name]
+Subject - Weekly Progress Update - [Project Name]
 
 Hi [Client Name],
 
@@ -172,7 +172,7 @@ Managing Separate Clients
 
 As your business grows, you may each want to serve different clients. Establish clear policies:
 
-Client ownership: Who owns the relationship? This person:
+Client ownership - Who owns the relationship? This person:
 - Communicates project scope and timeline
 - Makes decisions on feature requests
 - Handles invoicing and payment follow-up
@@ -180,9 +180,9 @@ Client ownership: Who owns the relationship? This person:
 
 The other partner contributes to delivery but isn't responsible for client relationship management. This prevents confusing clients with conflicting messages.
 
-Knowledge transfer: Document each client's setup, preferences, and history so either partner can support in emergencies. A simple one-page document per client covers this.
+Knowledge transfer - Document each client's setup, preferences, and history so either partner can support in emergencies. A simple one-page document per client covers this.
 
-Revenue sharing: If one partner brings in and manages the client, decide whether revenue splits equally (trust model) or whether the client relationship's owner gets a larger share. Be explicit and document it.
+Revenue sharing - If one partner brings in and manages the client, decide whether revenue splits equally (trust model) or whether the client relationship's owner gets a larger share. Be explicit and document it.
 
 Time Tracking and Invoicing
 
@@ -219,11 +219,11 @@ Handling Growth and Outsourcing
 
 As your business grows, you'll face a critical decision: stay as a two-person team or bring in additional developers. A clear protocol helps:
 
-When to hire: Once either partner consistently works more than 50 hours weekly over 3+ months, consider hiring a contractor or part-time developer. This protects both partners' sustainability and enables taking on larger projects.
+When to hire - Once either partner consistently works more than 50 hours weekly over 3+ months, consider hiring a contractor or part-time developer. This protects both partners' sustainability and enables taking on larger projects.
 
-Contractor onboarding: Use your documented processes to onboard contractors quickly. A well-defined tech stack, style guide, and development workflow means new team members become productive within 2-3 weeks rather than months.
+Contractor onboarding - Use your documented processes to onboard contractors quickly. A well-defined tech stack, style guide, and development workflow means new team members become productive within 2-3 weeks rather than months.
 
-Maintaining quality: Code review between partners prevents quality degradation as you scale. Before a contractor's code goes to production, one partner should review it thoroughly.
+Maintaining quality - Code review between partners prevents quality degradation as you scale. Before a contractor's code goes to production, one partner should review it thoroughly.
 
 Making It Sustainable
 
@@ -248,27 +248,27 @@ Create a "relationship first" rule: If business conflicts threaten the relations
 
 Schedule relationship maintenance: Monthly date nights away from home offices. Weekly non-work conversations. Quarterly business-free weekends. These aren't luxuries, they're infrastructure for relationship sustainability.
 
-Discuss conflict patterns: After heated disagreements, have a calm discussion: "When we argued about X, I felt unheard. In future, can we...?" These meta-conversations prevent patterns of conflict from embedding.
+Discuss conflict patterns - After heated disagreements, have a calm discussion: "When we argued about X, I felt unheard. In future, can we...?" These meta-conversations prevent patterns of conflict from embedding.
 
-Have an exit clause: Discuss what happens if one partner wants to exit the business. This conversation should happen when everything is going well, not in crisis. Can one partner buy the other out? Can you transition to different business models? Knowing you have options reduces resentment.
+Have an exit clause - Discuss what happens if one partner wants to exit the business. This conversation should happen when everything is going well, not in crisis. Can one partner buy the other out? Can you transition to different business models? Knowing you have options reduces resentment.
 
 Common Pitfalls Revisited with Solutions
 
-Pitfall: "We're partners so we don't need formal agreements"
-Reality: Business and personal relationships need different rules. Formal agreements protect the personal relationship by removing ambiguity.
-Solution: Write up your agreements. Not contracts, just documents you both sign: division of labor, financial splits, decision-making authority, conflict resolution.
+Pitfall - "We're partners so we don't need formal agreements"
+Reality - Business and personal relationships need different rules. Formal agreements protect the personal relationship by removing ambiguity.
+Solution - Write up your agreements. Not contracts, just documents you both sign: division of labor, financial splits, decision-making authority, conflict resolution.
 
-Pitfall: Always working because the office is always there
-Reality: Home offices erode boundaries. You work through dinner, through weekends, never truly "off."
-Solution: Lock the office. Use separate devices for work. Set timers. Leave the house at end of work day, even if just for a walk. Physical separation between work and home within your home is critical.
+Pitfall - Always working because the office is always there
+Reality - Home offices erode boundaries. You work through dinner, through weekends, never truly "off."
+Solution - Lock the office. Use separate devices for work. Set timers. Leave the house at end of work day, even if just for a walk. Physical separation between work and home within your home is critical.
 
-Pitfall: One partner becomes the "business person," the other the "developer"
-Reality: This works until one person burns out. Cross-training requires effort but provides sustainability.
-Solution: Each partner should understand both the technical side and business side at 70% depth. If the business person gets sick, the technical person should be able to communicate with clients. If the developer gets sick, the business person should be able to debug.
+Pitfall - One partner becomes the "business person," the other the "developer"
+Reality - This works until one person burns out. Cross-training requires effort but provides sustainability.
+Solution - Each partner should understand both the technical side and business side at 70% depth. If the business person gets sick, the technical person should be able to communicate with clients. If the developer gets sick, the business person should be able to debug.
 
-Pitfall: Never discussing dissatisfaction until it explodes
-Reality: Small frustrations compound. The partner who works longer hours, gets fewer vacation days, or handles more client stress builds resentment silently.
-Solution: Monthly check-ins asking explicitly: "On a scale of 1-10, how sustainable is this for you?" Scores below 7 deserve investigation and adjustment.
+Pitfall - Never discussing dissatisfaction until it explodes
+Reality - Small frustrations compound. The partner who works longer hours, gets fewer vacation days, or handles more client stress builds resentment silently.
+Solution - Monthly check-ins asking explicitly: "On a scale of 1-10, how sustainable is this for you?" Scores below 7 deserve investigation and adjustment.
 
 Scaling Beyond Two People
 
@@ -276,9 +276,9 @@ If your business grows to 3+ people, new dynamics emerge:
 
 New team members may feel like outsiders: A husband-wife core that's been working together for years has implicit communication shortcuts and shared context. New hires need explicit onboarding to patterns you take for granted.
 
-Decision-making changes: Two-person decisions were fast. Three-person decisions require more process. Establish clear decision authority to avoid "everyone discussing every choice" meetings.
+Decision-making changes - Two-person decisions were fast. Three-person decisions require more process. Establish clear decision authority to avoid "everyone discussing every choice" meetings.
 
-Equity becomes complex: If the third person is a contractor, that's simple. If they're a co-owner, you need shareholder agreements discussing exit scenarios, profit distribution, and management authority.
+Equity becomes complex - If the third person is a contractor, that's simple. If they're a co-owner, you need shareholder agreements discussing exit scenarios, profit distribution, and management authority.
 
 Work/life separation becomes harder: With other people in meetings, work bleeds into personal time more. "Quick call with the contractor" at dinner, Slack conversations continuing through evening.
 

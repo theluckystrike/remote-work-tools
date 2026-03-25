@@ -37,9 +37,9 @@ Creating Your Agency Workspace
 
 Start by creating a Harvest account tailored to agency operations. The workspace structure determines how you organize client work and report on productivity.
 
-Why workspace structure matters: A poorly structured workspace becomes increasingly painful as your agency scales. You can't easily audit which clients are profitable, team usage becomes opaque, and reporting requires manual work. Invest time upfront in clean structure.
+Why workspace structure matters - A poorly structured workspace becomes increasingly painful as your agency scales. You can't easily audit which clients are profitable, team usage becomes opaque, and reporting requires manual work. Invest time upfront in clean structure.
 
-Plan before setup: Before creating a single project, document your:
+Plan before setup - Before creating a single project, document your:
 - Client list and organizational hierarchy
 - Project naming conventions
 - Task categories matching your service types
@@ -100,25 +100,25 @@ Set up staff member hourly rates in the team settings. These rates calculate int
 
 Harvest supports several billing scenarios:
 
-Hourly Rate Per Project: Charge a flat hourly rate for all work on a specific project. Use this when scope remains fluid and you bill for actual hours.
+Hourly Rate Per Project - Charge a flat hourly rate for all work on a specific project. Use this when scope remains fluid and you bill for actual hours.
 
-Task-Based Rates: Assign different rates to different task types. Design work might bill at $175/hour while development rates are $150/hour. Configure this in project settings under task assignments.
+Task-Based Rates - Assign different rates to different task types. Design work might bill at $175/hour while development rates are $150/hour. Configure this in project settings under task assignments.
 
-Fixed Fee Projects: For defined scope work, set a fixed price. Track time against the project while Harvest calculates earned value versus actual time spent.
+Fixed Fee Projects - For defined scope work, set a fixed price. Track time against the project while Harvest calculates earned value versus actual time spent.
 
-Retainer Billing: Set up recurring invoices for ongoing client work. Track time against retainer projects, and Harvest applies hours against the prepaid amount.
+Retainer Billing - Set up recurring invoices for ongoing client work. Track time against retainer projects, and Harvest applies hours against the prepaid amount.
 
 Time Tracking Workflows for Remote Teams
 
 Establish clear time tracking habits that work across time zones. The key is consistency rather than complex processes.
 
-Daily Tracking: Have team members log time at the end of each day. This prevents forgotten hours and keeps project budgets accurate. The Harvest timer works well for active work sessions. Set reminders (via email or Slack) at 4:45pm asking team members to complete their time entries before end of day.
+Daily Tracking - Have team members log time at the end of each day. This prevents forgotten hours and keeps project budgets accurate. The Harvest timer works well for active work sessions. Set reminders (via email or Slack) at 4:45pm asking team members to complete their time entries before end of day.
 
-Timezone considerations: When team members span multiple time zones, clarify whether your agency tracks by UTC, team member local time, or client timezone. Document this explicitly, timezone confusion creates hours of monthly reconciliation work. Recommend UTC for international agencies as the reference standard.
+Timezone considerations - When team members span multiple time zones, clarify whether your agency tracks by UTC, team member local time, or client timezone. Document this explicitly, timezone confusion creates hours of monthly reconciliation work. Recommend UTC for international agencies as the reference standard.
 
-Weekly Review: Designate a time weekly to review logged hours for accuracy. Team leads can run the "Team Overview" report to identify missing entries or suspicious patterns. Tuesday mornings work well, gives team members time to submit weekend work on Monday.
+Weekly Review - Designate a time weekly to review logged hours for accuracy. Team leads can run the "Team Overview" report to identify missing entries or suspicious patterns. Tuesday mornings work well, gives team members time to submit weekend work on Monday.
 
-Code Snippet for Time Entry API: For teams wanting programmatic time tracking, Harvest provides a REST API:
+Code Snippet for Time Entry API - For teams wanting programmatic time tracking, Harvest provides a REST API:
 
 ```bash
 Create time entry via Harvest API
@@ -137,19 +137,19 @@ curl -X POST "https://api.harvestapp.com/v2/time_entries" \
 
 Integrate this with your development workflow using GitHub Actions or a custom Slack command for time logging without leaving your workflow.
 
-API rate limits: Harvest allows 100 requests per 15 seconds per account. If you're logging time programmatically for 20+ team members, batch updates rather than creating individual entries one by one. Queue entries and submit them in bulk to respect rate limits.
+API rate limits - Harvest allows 100 requests per 15 seconds per account. If you're logging time programmatically for 20+ team members, batch updates rather than creating individual entries one by one. Queue entries and submit them in bulk to respect rate limits.
 
-Retention and archival: Harvest stores unlimited historical data. After projects complete, archive them to keep active project lists clean. Create an "Archived Projects" view separate from active work. This improves team usability without losing historical profitability data.
+Retention and archival - Harvest stores unlimited historical data. After projects complete, archive them to keep active project lists clean. Create an "Archived Projects" view separate from active work. This improves team usability without losing historical profitability data.
 
 Generating Reports and Invoices
 
 Harvest reporting helps agencies understand profitability, forecast workload, and bill clients accurately.
 
-Project Profitability Report: Shows revenue versus costs for each project. Critical for understanding which clients and project types generate positive margins.
+Project Profitability Report - Shows revenue versus costs for each project. Critical for understanding which clients and project types generate positive margins.
 
-Budget vs Actual Report: Compares planned hours against logged time. Use this to identify projects heading over budget and initiate scope conversations with clients early.
+Budget vs Actual Report - Compares planned hours against logged time. Use this to identify projects heading over budget and initiate scope conversations with clients early.
 
-Team Use Report: Tracks how much of available capacity your team is billing. Healthy agency use typically falls between 60-75% accounting for non-billable work like meetings and admin.
+Team Use Report - Tracks how much of available capacity your team is billing. Healthy agency use typically falls between 60-75% accounting for non-billable work like meetings and admin.
 
 For client invoicing, create invoice templates with your agency branding. Include these elements:
 
@@ -164,9 +164,9 @@ Integrating with Project Management Tools
 
 Connect Harvest with your existing project management stack for improved workflows.
 
-Slack Integration: Post time tracking reminders and weekly summaries to team channels. Configure notifications for missing time entries or budget alerts.
+Slack Integration - Post time tracking reminders and weekly summaries to team channels. Configure notifications for missing time entries or budget alerts.
 
-GitHub Integration: Link commits to Harvest time entries using the Harvest GitHub Actions workflow:
+GitHub Integration - Link commits to Harvest time entries using the Harvest GitHub Actions workflow:
 
 ```yaml
 name: Log Time to Harvest
@@ -181,7 +181,7 @@ jobs:
       - name: Create time entry
         run: |
           curl -X POST "https://api.harvestapp.com/v2/time_entries" \
-            -H "Authorization: Bearer ${{ secrets.HARVEST_TOKEN }}" \
+            -H "Authorization - Bearer ${{ secrets.HARVEST_TOKEN }}" \
             -H "Harvest-Account-Id: ${{ secrets.ACCOUNT_ID }}" \
             -H "Content-Type: application/json" \
             -d '{
@@ -189,11 +189,11 @@ jobs:
               "task_id": ${{ secrets.TASK_ID }},
               "spent_date": "${{ github.event.head_commit.timestamp }}",
               "hours": 1.0,
-              "notes": "Commit: ${{ github.sha }}"
+              "notes": "Commit - ${{ github.sha }}"
             }'
 ```
 
-API Webhooks: Set up webhooks to trigger actions when projects reach certain budget thresholds or when invoices are paid.
+API Webhooks - Set up webhooks to trigger actions when projects reach certain budget thresholds or when invoices are paid.
 
 Best Practices for Remote Agency Time Tracking
 
@@ -228,15 +228,15 @@ Mobile App Best Practices:
 - Enable offline mode so tracking continues during connectivity gaps
 - Use the camera feature to photograph time-sensitive deliverables alongside time entries
 
-Scheduling reminders: Configure push notifications at specific times (e.g., 4:55pm) to prompt end-of-day time logging. This catches forgotten hours before they're lost to memory gaps.
+Scheduling reminders - Configure push notifications at specific times (e.g., 4:55pm) to prompt end-of-day time logging. This catches forgotten hours before they're lost to memory gaps.
 
-GPS location tracking: For agencies with field work or client site visits, enable location tracking (with appropriate privacy policies and consent). This validates that time entries match where work actually occurred.
+GPS location tracking - For agencies with field work or client site visits, enable location tracking (with appropriate privacy policies and consent). This validates that time entries match where work actually occurred.
 
 Client Communication and Transparency
 
 Harvest integrates with client-facing tools to maintain transparency:
 
-Client Portals: Harvest allows sharing project views with clients. This shows:
+Client Portals - Harvest allows sharing project views with clients. This shows:
 - Budget usage percentage
 - Upcoming invoice totals
 - Milestone progress
@@ -244,31 +244,31 @@ Client Portals: Harvest allows sharing project views with clients. This shows:
 
 Share read-only project views with clients regularly (weekly or monthly). This prevents surprises at invoicing and builds trust around hours logged.
 
-Automatic Invoice Comments: Include helpful notes in client invoices pulled directly from your time entry descriptions. Instead of vague "Development - 8 hours," show "Implemented user authentication module, database schema updates, and API integration testing."
+Automatic Invoice Comments - Include helpful notes in client invoices pulled directly from your time entry descriptions. Instead of vague "Development - 8 hours," show "Implemented user authentication module, database schema updates, and API integration testing."
 
-Progress Dashboard: Create a custom dashboard visible to clients showing real-time project status. This positions your agency as organized and professional.
+Progress Dashboard - Create a custom dashboard visible to clients showing real-time project status. This positions your agency as organized and professional.
 
 Handling Multiple Currencies and Tax Compliance
 
 Agencies working across regions face currency and tax complexity:
 
-Currency Conversion: Harvest stores rates and applies automatic conversion for reporting. Configure currency pairs in settings for common client locations. Rates update daily against market rates.
+Currency Conversion - Harvest stores rates and applies automatic conversion for reporting. Configure currency pairs in settings for common client locations. Rates update daily against market rates.
 
-Tax Calculation: Configure tax rates by project based on client location and project type. Some projects may be taxable services while others fall under different categories. Build this into project creation templates.
+Tax Calculation - Configure tax rates by project based on client location and project type. Some projects may be taxable services while others fall under different categories. Build this into project creation templates.
 
-Invoice Formatting: Harvest supports custom invoice templates. Create templates for each major client region that include appropriate tax line items and compliance language for their jurisdiction.
+Invoice Formatting - Harvest supports custom invoice templates. Create templates for each major client region that include appropriate tax line items and compliance language for their jurisdiction.
 
 Troubleshooting Common Remote Agency Issues
 
 Teams using Harvest encounter predictable problems:
 
-Time Zone Confusion: Harvest timestamps everything in UTC. Team members in different zones may accidentally log hours under the wrong date. Use team guidelines specifying that all time entries reference the project's primary time zone, not the team member's local time.
+Time Zone Confusion - Harvest timestamps everything in UTC. Team members in different zones may accidentally log hours under the wrong date. Use team guidelines specifying that all time entries reference the project's primary time zone, not the team member's local time.
 
-Duplicate Entries: When tracking shifts between multiple projects or using the timer feature incorrectly, duplicates appear. Weekly review catches these before invoicing. Use the "Approval" feature to require team lead sign-off on hours before billing.
+Duplicate Entries - When tracking shifts between multiple projects or using the timer feature incorrectly, duplicates appear. Weekly review catches these before invoicing. Use the "Approval" feature to require team lead sign-off on hours before billing.
 
-Missing Mobile App Sync: If the app fails to sync (poor connectivity), tell team members to track in the web app instead. The app has known issues recovering from extended offline periods. Recommend syncing at least daily.
+Missing Mobile App Sync - If the app fails to sync (poor connectivity), tell team members to track in the web app instead. The app has known issues recovering from extended offline periods. Recommend syncing at least daily.
 
-Budget Overages: When projects exceed budget, Harvest flags them but doesn't stop time entry. Have a process where project managers investigate overages immediately, assess whether the client approved additional work, and either adjust budgets or discuss costs with clients before invoicing.
+Budget Overages - When projects exceed budget, Harvest flags them but doesn't stop time entry. Have a process where project managers investigate overages immediately, assess whether the client approved additional work, and either adjust budgets or discuss costs with clients before invoicing.
 ---
 
 

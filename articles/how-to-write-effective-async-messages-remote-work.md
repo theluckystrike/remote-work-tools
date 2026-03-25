@@ -31,17 +31,17 @@ Every effective async message should answer five questions: What, Why, Who, When
 Consider this template for requesting feedback on a proposal:
 
 ```markdown
-Proposal: Implement New CI/CD Pipeline
+Proposal - Implement New CI/CD Pipeline
 
-What: Migrate from Jenkins to GitHub Actions for our frontend builds.
+What - Migrate from Jenkins to GitHub Actions for our frontend builds.
 
-Why: Reduce build times by 40% and simplify maintenance. Current Jenkins configuration requires dedicated ops time each quarter.
+Why - Reduce build times by 40% and simplify maintenance. Current Jenkins configuration requires dedicated ops time each quarter.
 
-Who: Need approval from @sarah (tech lead) and @mike (DevOps).
+Who - Need approval from @sarah (tech lead) and @mike (DevOps).
 
-When: Please review by EOW Wednesday. Target migration start: next sprint.
+When - Please review by EOW Wednesday. Target migration start: next sprint.
 
-How: Review the draft implementation at link. Comment directly on the PR or reply here with concerns.
+How - Review the draft implementation at link. Comment directly on the PR or reply here with concerns.
 
 Options:
 - A) Full migration (2-week effort)
@@ -65,7 +65,7 @@ Technical teams face unique async communication challenges. Code reviews, archit
 For code review requests, include the context of what changed and why:
 
 ```markdown
-PR #234: Add user authentication middleware
+PR #234 - Add user authentication middleware
 
 Implements JWT-based auth for API endpoints.
 
@@ -82,7 +82,7 @@ Questions for reviewer:
 - Should we add token refresh logic now or in follow-up?
 - Is the error handling approach consistent with existing patterns?
 
-Screenshots: None (API-only changes)
+Screenshots - None (API-only changes)
 ```
 
 The reviewer can assess the PR without digging through commits or asking clarifying questions.
@@ -119,11 +119,11 @@ Remote teams must over-communicate decisions that would normally happen in hallw
 A decision documentation format:
 
 ```markdown
-Decision: Adopt TypeScript for New Frontend Projects
+Decision - Adopt TypeScript for New Frontend Projects
 
-Date: 2026-03-10
-Deciders: Engineering team (5 members)
-Status: Approved
+Date - 2026-03-10
+Deciders - Engineering team (5 members)
+Status - Approved
 
 Context:
 - Current JavaScript projects show increasing type-related bugs
@@ -135,14 +135,14 @@ Alternatives considered:
 - Use Flow type checker
 
 Decision rationale:
-TypeScript won because it provides compile-time type safety, improves IDE support, and aligns with industry trends. Flow was rejected due to slower maintenance and smaller ecosystem.
+TypeScript won because it provides compile-time type safety, improves IDE support, and aligns with industry trends. Flow was rejected due to slower maintenance and smaller environment.
 
 Action items:
 - @sarah: Create TypeScript starter template
 - @james: Update onboarding docs
 - Team: Use TypeScript for all projects starting March 2024
 
-Review date: 2027-03-10
+Review date - 2027-03-10
 ```
 
 This documentation prevents repeated discussions and provides onboarding context for future team members.
@@ -182,23 +182,23 @@ Common Async Communication Mistakes to Avoid
 
 Even well-intentioned teams stumble with recurring problems. Recognizing these patterns helps you avoid them:
 
-Wall of text without structure: A 500-word message with no headers or formatting requires readers to extract meaning themselves. Always use headers, bullet points, and bold text to guide comprehension.
+Wall of text without structure - A 500-word message with no headers or formatting requires readers to extract meaning themselves. Always use headers, bullet points, and bold text to guide comprehension.
 
 ```markdown
-GOOD: Structured message
-Problem: Our API response times increased 40% this week
+GOOD - Structured message
+Problem - Our API response times increased 40% this week
 
-Root cause: Database query N+1 bug introduced in PR #456
+Root cause - Database query N+1 bug introduced in PR #456
 
 Impact:
 - User dashboards now load in 8 seconds (target: 2 seconds)
 - Affecting 15% of active users
 - Database CPU at 85% consistently
 
-Proposed fix: Implement batch query optimization
+Proposed fix - Implement batch query optimization
 ---
 
-BAD: Unstructured message
+BAD - Unstructured message
 "Hey, so we have a pretty serious issue with the API. Performance got way worse. I think it's the database doing too many queries. We should probably fix that before it gets worse. Let me know what you think."
 ```
 
@@ -207,15 +207,15 @@ Table of Contents
 - [Building Asynchronous Feedback Loops](#building-asynchronous-feedback-loops)
 - [Feedback Timeline Example](#feedback-timeline-example)
 - [The Art of Async Disagreement](#the-art-of-async-disagreement)
-- [RFC Discussion: Move to GraphQL](#rfc-discussion-move-to-graphql)
+- [RFC Discussion - Move to GraphQL](#rfc-discussion-move-to-graphql)
 - [Real-World Async Message Examples](#real-world-async-message-examples)
-- [Architecture Decision: PostgreSQL for Audit Log Storage](#architecture-decision-postgresql-for-audit-log-storage)
-- [Design Review Request: New Dashboard Layout](#design-review-request-new-dashboard-layout)
+- [Architecture Decision - PostgreSQL for Audit Log Storage](#architecture-decision-postgresql-for-audit-log-storage)
+- [Design Review Request - New Dashboard Layout](#design-review-request-new-dashboard-layout)
 - [Async Communication Tools Comparison](#async-communication-tools-comparison)
 - [Building Async Communication Guidelines for Your Team](#building-async-communication-guidelines-for-your-team)
 - [Our Async Communication Guidelines](#our-async-communication-guidelines)
 
-Vague action items: "Can you review this?" leaves the reviewer confused about urgency, deadline, or scope. Replace with: "Can you review this PR for security issues by Thursday? I'm targeting Friday deployment."
+Vague action items - "Can you review this?" leaves the reviewer confused about urgency, deadline, or scope. Replace with: "Can you review this PR for security issues by Thursday? I'm targeting Friday deployment."
 
 Sensitive content without context: Sharing performance metrics, bugs, or personnel issues without framing them appropriately creates anxiety. Always open sensitive messages with intent: "I'm sharing this to improve our process, not to blame anyone."
 
@@ -230,8 +230,8 @@ Planning for Latency
 ```markdown
 Feedback Timeline Example
 
-Your timezone: Pacific Time (UTC-8)
-Team timezone: Central European (UTC+1)
+Your timezone - Pacific Time (UTC-8)
+Team timezone - Central European (UTC+1)
 
 3 PM Pacific = 12 AM CET (their night)
  Posting at 3 PM for next-day response
@@ -254,11 +254,11 @@ Disagreements in async communication escalate quickly because tone is lost and m
 Framework for Respectful Disagreement
 
 ```markdown
-RFC Discussion: Move to GraphQL
+RFC Discussion - Move to GraphQL
 
 I see value in GraphQL but want to raise a concern.
 
-Area of concern: Our team hasn't used GraphQL before. Learning curve could delay features.
+Area of concern - Our team hasn't used GraphQL before. Learning curve could delay features.
 
 What I'd need to agree:
 1. Evidence from similar-sized teams on adoption timeline (1-2 weeks research)
@@ -280,15 +280,15 @@ Never end disagreements with "This is a bad idea." Instead, end with "I need X, 
 
 Real-World Async Message Examples
 
-Example 1: Explaining a Complex Technical Decision
+Example 1 - Explaining a Complex Technical Decision
 
 ```markdown
-Architecture Decision: PostgreSQL for Audit Log Storage
+Architecture Decision - PostgreSQL for Audit Log Storage
 
-Who decided: Backend team (4 members voted)
-Decision date: March 15, 2026
-Effective date: March 20, 2026
-Reversible: Yes, until audit log migration completes
+Who decided - Backend team (4 members voted)
+Decision date - March 15, 2026
+Effective date - March 20, 2026
+Reversible - Yes, until audit log migration completes
 
 The Problem
 Our existing Elasticsearch-based audit logging doesn't preserve transaction boundaries. We need to know whether multiple changes happened atomically or separately (required for financial compliance).
@@ -311,32 +311,32 @@ Implementation Plan
 - Week 4: Archive old Elasticsearch data
 
 Risk Assessment
-Risk: PostgreSQL disk usage grows faster than Elasticsearch (both use JSONB)
-Mitigation: Implement 90-day rolling retention policy
+Risk - PostgreSQL disk usage grows faster than Elasticsearch (both use JSONB)
+Mitigation - Implement 90-day rolling retention policy
 
-Risk: Team unfamiliar with JSONB queries
-Mitigation: Pair with database expert for first 3 complex queries
+Risk - Team unfamiliar with JSONB queries
+Mitigation - Pair with database expert for first 3 complex queries
 
 How This Affects You
 - If you write audit log queries: You'll use PostgreSQL JSONB syntax instead of Elasticsearch DSL
 - If you're on-call: No changes to monitoring yet; we'll update that in Week 2
 - If you're maintaining integrations: No changes; audit log API stays the same
 
-Feedback deadline: March 18, 2026, 5 PM UTC
+Feedback deadline - March 18, 2026, 5 PM UTC
 Please reply with:
 - Concerns about this approach
 - Missing risks you foresee
 - Questions about implementation
 ```
 
-Example 2: Requesting Design Review (Async)
+Example 2 - Requesting Design Review (Async)
 
 ```markdown
-Design Review Request: New Dashboard Layout
+Design Review Request - New Dashboard Layout
 
-Component: User analytics dashboard
-Stakes: User-facing, high traffic
-Timeline: Targeting deployment April 1
+Component - User analytics dashboard
+Stakes - User-facing, high traffic
+Timeline - Targeting deployment April 1
 
 What I'm asking for:
 Review the wireframe in Figma (link) and comment on:
@@ -354,9 +354,9 @@ I'm not asking for:
 - Feasibility assessment (we'll handle technical review)
 - Timeline feedback (scope is fixed)
 
-Figma link: [link with comment-enabled access]
-Deadline for feedback: March 20, EOD
-Review process: I'll incorporate feedback and post revisions in same Figma document
+Figma link - [link with comment-enabled access]
+Deadline for feedback - March 20, EOD
+Review process - I'll incorporate feedback and post revisions in same Figma document
 ```
 
 This message is specific enough that reviewers know exactly what feedback is helpful, and broad enough to get the information you actually need.

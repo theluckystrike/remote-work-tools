@@ -61,7 +61,7 @@ Active noise limiting differs from passive noise isolation. You need both:
 | Passive isolation | Sealed ear cups + padding | Reduces external noise so children don't turn volume up |
 | Padded headband | Distributes pressure | Reduces ear fatigue during extended wear |
 
-For remote workers: Active limiting protects your child's hearing if they fiddle with volume controls. Passive isolation helps your child hear content at lower volumes without adjusting them, and also reduces noise your child makes during their activities.
+For remote workers - Active limiting protects your child's hearing if they fiddle with volume controls. Passive isolation helps your child hear content at lower volumes without adjusting them, and also reduces noise your child makes during their activities.
 
 Recommended Models by Age Group and Budget
 
@@ -74,7 +74,7 @@ Recommended Models by Age Group and Budget
 | Puro Sound Labs PuroQuiet Plus | 5-14 | $100 | 85dB | Best overall features |
 | 3M Peltor Kid | 6-12 | $80 | 82dB | Best noise isolation |
 
-Budget Option: JBL JR 310 ($50)
+Budget Option - JBL JR 310 ($50)
 - Volume limit: 85dB certified (tested independent labs)
 - Wired: 3.5mm jack, detachable cable
 - Weight: 140g (lightweight for young children)
@@ -83,7 +83,7 @@ Budget Option: JBL JR 310 ($50)
 - Why it works: Hard to beat at $50; passes volume testing; lightweight
 - Trade-off: Microphone quality is basic; less durable than premium options
 
-Mid-Range: Puro Sound Labs PuroQuiet ($60)
+Mid-Range - Puro Sound Labs PuroQuiet ($60)
 - Volume limit: 85dB, certified and tested
 - Wired: 3.5mm, braided cable included
 - Weight: 150g
@@ -92,16 +92,16 @@ Mid-Range: Puro Sound Labs PuroQuiet ($60)
 - Why it works: Parents report consistent 85dB limiting; excellent build quality
 - Trade-off: None really; this is the sweet spot for value
 
-Premium: Puro Sound Labs PuroQuiet Plus ($100)
+Premium - Puro Sound Labs PuroQuiet Plus ($100)
 - Volume limit: 85dB certified
-- Wired or Wireless: 2-in-1 capability (3.5mm jack + Bluetooth option)
+- Wired or Wireless - 2-in-1 capability (3.5mm jack + Bluetooth option)
 - Weight: 160g
 - Durability: Professional-grade materials; ear pads replaceable
 - Microphone: Clear boom mic with noise cancellation
 - Why it works: Flexibility for desk use (wired) or tablet/travel (wireless)
 - Trade-off: More complex to use; wireless adds battery management
 
-For Maximum Durability: 3M Peltor Kid ($80)
+For Maximum Durability - 3M Peltor Kid ($80)
 - Volume limit: 82dB (even safer than 85dB)
 - Passive isolation: Excellent, heavily padded
 - Build quality: Industrial-grade construction (literally used by construction workers' kids)
@@ -113,7 +113,7 @@ Key Features That Matter for Remote Work Households
 
 When children use headphones in a home office environment, these features become essential:
 
-Volume limiting: Seek headphones with hard cap at 85dB. Some models include switchable limits (85dB for study, 94dB for travel), but the 94dB setting isn't truly safe. Look for models with single 85dB limit, removes the temptation to switch to unsafe mode.
+Volume limiting - Seek headphones with hard cap at 85dB. Some models include switchable limits (85dB for study, 94dB for travel), but the 94dB setting isn't truly safe. Look for models with single 85dB limit, removes the temptation to switch to unsafe mode.
 
 Wired vs Wireless trade-offs:
 
@@ -127,7 +127,7 @@ Wired vs Wireless trade-offs:
 
 Many parents find a wired option for desk/study use and wireless for tablet/entertainment works best. Consider wired as your primary and wireless only if your child actively travels.
 
-Microphone quality: If children attend online classes or virtual playdates, microphone clarity matters. Look for:
+Microphone quality - If children attend online classes or virtual playdates, microphone clarity matters. Look for:
 - Boom microphones positioned close to mouth
 - Noise-canceling circuitry
 - Test the mic before purchasing (many cheap options pick up everything)
@@ -157,11 +157,11 @@ Practical Setup Tips for Remote Workers
 
 Getting children set up with proper headphones is only part of the solution. Consider these environment optimizations:
 
-Designated quiet zones: Establish clear boundaries where headphone time is expected versus quiet play times. A visual cue like a colored mat or specific chair signals when it's "headphone time."
+Designated quiet zones - Establish clear boundaries where headphone time is expected versus quiet play times. A visual cue like a colored mat or specific chair signals when it's "headphone time."
 
-Schedule integration: Align children's headphone use with your peak focus hours. If your most important calls happen between 10am and noon, schedule your children's screen time with headphones during that window.
+Schedule integration - Align children's headphone use with your peak focus hours. If your most important calls happen between 10am and noon, schedule your children's screen time with headphones during that window.
 
-Sound dampening: Combine headphone use with physical soundproofing. A simple bookshelf behind your desk or acoustic panels in the child's play area reduces the overall noise floor.
+Sound dampening - Combine headphone use with physical soundproofing. A simple bookshelf behind your desk or acoustic panels in the child's play area reduces the overall noise floor.
 
 ```python
 Simple volume check script for testing headphones
@@ -186,15 +186,15 @@ if measured > 85:
 
 This simple Python script uses sounddevice and numpy to verify your headphones actually respect volume limits. Run this test before giving any new headphones to children.
 
-Communication protocol: Establish a simple signal system. When you're on a call, a visible "do not disturb" sign or a red light helps children understand without verbal communication.
+Communication protocol - Establish a simple signal system. When you're on a call, a visible "do not disturb" sign or a red light helps children understand without verbal communication.
 
 Age-Appropriate Considerations
 
-Toddlers (2-4 years): Focus on durability and comfort over features. Look for kid-sized headbands, very lightweight construction (under 150g), and volume-limited wired headphones designed for this age group.
+Toddlers (2-4 years) - Focus on durability and comfort over features. Look for kid-sized headbands, very lightweight construction (under 150g), and volume-limited wired headphones designed for this age group.
 
-Young children (5-8 years): This age group benefits from more durable construction and possibly wireless capability. Many can handle on-ear or over-ear designs. Look for replaceable parts.
+Young children (5-8 years) - This age group benefits from more durable construction and possibly wireless capability. Many can handle on-ear or over-ear designs. Look for replaceable parts.
 
-Older children (9-12 years): Children in this range can use adult-sized headphones with volume limiting enabled. They often prefer the same styles as parents, making family headphone management easier.
+Older children (9-12 years) - Children in this range can use adult-sized headphones with volume limiting enabled. They often prefer the same styles as parents, making family headphone management easier.
 
 Maintenance and Longevity
 
@@ -210,7 +210,7 @@ Home Office Integration Strategies
 
 Beyond choosing the right headphones, integrate them into your remote work routine:
 
-Scheduling: Align children's headphone use with your peak focus hours.
+Scheduling - Align children's headphone use with your peak focus hours.
 - If you have important calls 10am-noon, schedule your child's educational content during that window
 - Use visual timers so children understand "headphone time" windows
 - Build in breaks (20 minutes on, 10 minutes off every 30 min total)
@@ -220,7 +220,7 @@ Environmental optimization:
 - This reduces overall noise floor, so children don't turn up headphone volume
 - Bonus: Reduces echo on your video calls
 
-Communication protocol: Establish visible signals when you're in calls
+Communication protocol - Establish visible signals when you're in calls
 - Red light or "Do Not Disturb" sign on your door
 - Colored arm band your child understands means "parent is busy"
 - Simple hand signals for emergencies

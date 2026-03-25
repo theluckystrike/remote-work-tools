@@ -20,9 +20,9 @@ Remote new managers need three core elements: a formal 2-hour handoff from the p
 Table of Contents
 
 - [Pre-Start Preparation (Before Day One)](#pre-start-preparation-before-day-one)
-- [First Week: Foundation Building](#first-week-foundation-building)
-- [First Month: Skill Development](#first-month-skill-development)
-- [First Quarter: Establishing Leadership Identity](#first-quarter-establishing-leadership-identity)
+- [First Week - Foundation Building](#first-week-foundation-building)
+- [First Month - Skill Development](#first-month-skill-development)
+- [First Quarter - Establishing Leadership Identity](#first-quarter-establishing-leadership-identity)
 - [Ongoing Support Structures](#ongoing-support-structures)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Tools and Resources to Support New Remote Managers](#tools-and-resources-to-support-new-remote-managers)
@@ -41,7 +41,7 @@ Next, prepare a team briefing document that includes each direct report's role, 
 
 Finally, notify the broader organization about the promotion. Send a message introducing the new manager to stakeholders, cross-functional partners, and other teams they'll need to collaborate with. This advance notice helps others prepare for the leadership transition.
 
-First Week: Foundation Building
+First Week - Foundation Building
 
 The initial week focuses on relationship building and context gathering.
 
@@ -82,14 +82,14 @@ Days two through four should involve shadowing and learning. Have the new manage
 
 Create a shadow observation template:
 ```
-MEETING: [Team Name] - [Type]
-Time: [Duration]
+MEETING - [Team Name] - [Type]
+Time - [Duration]
 
 PATTERNS OBSERVED:
 - Who spoke most/least?
 - How were decisions made?
 - What topics came up repeatedly?
-- Tone: collaborative? tense? rushed?
+- Tone - collaborative? tense? rushed?
 
 QUESTIONS FOR PREDECESSOR:
 1. [Question about observed pattern]
@@ -109,7 +109,7 @@ Day five should include a structured check-in meeting with their leadership spon
 
 This debrief surfaces issues early when they're easiest to address.
 
-First Month: Skill Development
+First Month - Skill Development
 
 The first month shifts focus to developing the specific skills remote managers need.
 
@@ -121,7 +121,7 @@ Documentation creation should be a priority. Ask the new manager to document the
 
 Calendar audit helps new managers protect their time. In remote work, calendars can quickly fill with meetings, leaving no time for actual work or strategic thinking. Guide the new manager in evaluating which meetings are essential, which can be asynchronous, and which might not be necessary at all.
 
-First Quarter: Establishing Leadership Identity
+First Quarter - Establishing Leadership Identity
 
 The first quarter is about the new manager finding their authentic leadership voice while maintaining team performance.
 
@@ -228,15 +228,15 @@ Measuring New Manager Success
 
 Track these key indicators to understand if onboarding is working:
 
-Team Retention: Do direct reports stay with the new manager? First-year attrition above 15% signals problems.
+Team Retention - Do direct reports stay with the new manager? First-year attrition above 15% signals problems.
 
-Team Engagement: Use regular pulse surveys. "Do you feel supported by your manager?" and "Does your manager care about your development?" should show positive trends.
+Team Engagement - Use regular pulse surveys. "Do you feel supported by your manager?" and "Does your manager care about your development?" should show positive trends.
 
-Promotion Velocity: Do direct reports develop into promoted roles? This indicates effective coaching and skill-building.
+Promotion Velocity - Do direct reports develop into promoted roles? This indicates effective coaching and skill-building.
 
-Meeting Time: Do new managers fall into over-meeting trap? Track calendar hours. Over 50% in meetings signals micromanagement.
+Meeting Time - Do new managers fall into over-meeting trap? Track calendar hours. Over 50% in meetings signals micromanagement.
 
-Feedback Velocity: Are direct reports receiving regular feedback? Survey: "Have you received feedback in the past two weeks?" Target: above 80% at any given time.
+Feedback Velocity - Are direct reports receiving regular feedback? Survey - "Have you received feedback in the past two weeks?" Target - above 80% at any given time.
 
 Handling New Manager Crises
 
@@ -244,7 +244,7 @@ Despite best onboarding, problems emerge. Establish a crisis protocol:
 
 If a direct report quits unexpectedly: Schedule immediate debrief with new manager, HR, and leadership sponsor. Separate exit interview feedback from manager feedback, sometimes departing employees aren't reliable judges of management quality.
 
-If team morale tanks suddenly: Conduct anonymous team survey within 24 hours. Meet with new manager before discussing with leadership. Often early concerns are solvable with conversation.
+If team morale tanks suddenly - Conduct anonymous team survey within 24 hours. Meet with new manager before discussing with leadership. Often early concerns are solvable with conversation.
 
 If performance reviews are consistently problematic: This usually indicates calibration issues (giving everyone 3.0 or spreads that don't align with actual performance). Schedule time with experienced manager to recalibrate.
 
@@ -273,13 +273,13 @@ Creating Sustainable Onboarding
 
 The checklist above is demanding. Ensure your organization can actually support it:
 
-Assign a Sponsor: Each new manager needs an assigned peer (another manager) who checks in weekly. Peer support matters more than top-down training.
+Assign a Sponsor - Each new manager needs an assigned peer (another manager) who checks in weekly. Peer support matters more than top-down training.
 
-Document Best Practices: After new managers complete onboarding, capture what worked well. What triggered breakthrough moments? What created unnecessary friction? Use this data to improve your process continuously.
+Document Best Practices - After new managers complete onboarding, capture what worked well. What triggered breakthrough moments? What created unnecessary friction? Use this data to improve your process continuously.
 
-Revisit After Year One: One year in, conduct a retrospective with the new manager. What surprised them about the role? What would they have done differently in their first month? This feedback improves onboarding for future managers.
+Revisit After Year One - One year in, conduct a retrospective with the new manager. What surprised them about the role? What would they have done differently in their first month? This feedback improves onboarding for future managers.
 
-Create Manager Community: Ensure new managers feel part of a peer group. Monthly manager meetings, shared Slack channel, peer mentoring, these structures prevent isolation.
+Create Manager Community - Ensure new managers feel part of a peer group. Monthly manager meetings, shared Slack channel, peer mentoring, these structures prevent isolation.
 
 The most effective onboarding creates managers who themselves become good at onboarding new team members. That multiplier effect, better manager → better onboarding → better next hire, compounds your organization's capability over time.
 

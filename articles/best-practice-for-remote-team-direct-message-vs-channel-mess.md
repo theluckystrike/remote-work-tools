@@ -25,7 +25,7 @@ Remote teams often struggle with communication overload. A 2024 survey found tha
 - DMs: Context trapped in private conversations, others can't learn from discussions, potential for misunderstandings without peer review
 - Channel messages: Information overload, important details buried in noise, slower response times for urgent matters
 
-Decision Framework: The SPOT Method
+Decision Framework - The SPOT Method
 
 Use this four-point framework to make your decision:
 
@@ -69,7 +69,7 @@ Is this urgent (requires response within 2 hours)?
 
 Developer-Specific Patterns
 
-Pattern 1: Code Review Notifications
+Pattern 1 - Code Review Notifications
 
 Don't do this:
 ```
@@ -80,12 +80,12 @@ Do this instead:
 ```
 #pr-review channel
 Hey @sarah, could you review PR #1234 when you get a chance? It's blocking the auth refactor.
-Link: github.com/org/repo/pull/1234
+Link - github.com/org/repo/pull/1234
 ```
 
 The channel message provides visibility that a review is needed. The DM to Sarah creates accountability without pinging everyone.
 
-Pattern 2: Decision Documentation
+Pattern 2 - Decision Documentation
 
 For important decisions made in DMs, always document in a channel:
 
@@ -93,12 +93,12 @@ For important decisions made in DMs, always document in a channel:
 After DM discussion concludes with a decision:
 Document the decision in #project-decisions channel
 
-Decision: Authentication Strategy for v2 API
+Decision - Authentication Strategy for v2 API
 
-Date: 2026-03-16
-Participants: @sarah, @mike, @jordan
+Date - 2026-03-16
+Participants - @sarah, @mike, @jordan
 
-Decision: Use OAuth 2.0 with JWT refresh tokens
+Decision - Use OAuth 2.0 with JWT refresh tokens
 
 Rationale:
 - Better security posture than API keys for user-facing endpoints
@@ -110,10 +110,10 @@ Action Items:
 - @mike: Create OAuth provider integration
 - @jordan: Document token refresh flow
 
-Related: RFC-012, Slack thread (link)
+Related - RFC-012, Slack thread (link)
 ```
 
-Pattern 3: Communication Preferences Configuration
+Pattern 3 - Communication Preferences Configuration
 
 In your team documentation (NOTION, GitHub Wiki, or a `docs/` folder), establish communication preferences:
 
@@ -146,7 +146,7 @@ response_time_expectations:
     normal: "48 hours"
 ```
 
-Pattern 4: Async Standup Alternative
+Pattern 4 - Async Standup Alternative
 
 Replace synchronous standups with structured async updates:
 
@@ -211,18 +211,18 @@ Communication Standards Document:
 ```markdown
 Team Communication Standards
 
-Principle 1: Public by Default
+Principle 1 - Public by Default
 - Default to channel communication
 - Only use DMs when privacy is required
 - Public communication: Decisions, knowledge, progress, blockers
 
-Principle 2: Async-First
+Principle 2 - Async-First
 - Slack is async, not sync
 - Don't expect responses within minutes
 - Use DMs only for time-critical items
 - Non-urgent items go in channels where others benefit
 
-Principle 3: Searchable and Discoverable
+Principle 3 - Searchable and Discoverable
 - Future team members should find answers in channels, not in DMs
 - DMs should never contain institutional knowledge
 - Use threading to keep conversations organized
@@ -290,15 +290,15 @@ Decision Capture Process:
 2. Once consensus reached, post summary in #product-decisions channel with this format:
 
 ```
-Decision: [Specific decision]
-Date: 2026-03-25
-Participants: @alice, @bob, @carlos
-Context: [Background on why this decision was needed]
-Decision: [The decision you made]
-Rationale: [Why you chose this path]
-Alternatives Considered: [What you didn't choose and why]
-Next Actions: [Who does what by when]
-Related: [Link to Slack thread, RFCs, issues]
+Decision - [Specific decision]
+Date - 2026-03-25
+Participants - @alice, @bob, @carlos
+Context - [Background on why this decision was needed]
+Decision - [The decision you made]
+Rationale - [Why you chose this path]
+Alternatives Considered - [What you didn't choose and why]
+Next Actions - [Who does what by when]
+Related - [Link to Slack thread, RFCs, issues]
 ```
 
 3. Pin this message in #product-decisions

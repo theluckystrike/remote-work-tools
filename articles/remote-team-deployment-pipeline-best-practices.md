@@ -19,7 +19,7 @@ Deployment pipelines for co-located teams often rely on implicit coordination: p
 
 Table of Contents
 
-- [The Core Problem: Implicit Coordination Made Explicit](#the-core-problem-implicit-coordination-made-explicit)
+- [The Core Problem - Implicit Coordination Made Explicit](#the-core-problem-implicit-coordination-made-explicit)
 - [Deployment Window Policy](#deployment-window-policy)
 - [Async Deployment Approval](#async-deployment-approval)
 - [Deployment Announcement Template](#deployment-announcement-template)
@@ -33,7 +33,7 @@ Table of Contents
 - [Pipeline Tool Comparison](#pipeline-tool-comparison)
 - [Related Reading](#related-reading)
 
-The Core Problem: Implicit Coordination Made Explicit
+The Core Problem - Implicit Coordination Made Explicit
 
 In a co-located team:
 - "Is anyone deploying right now?" → look around the room
@@ -135,8 +135,8 @@ jobs:
           channel-id: ${{ vars.DEPLOY_CHANNEL }}
           slack-message: |
             ${{ job.status == 'success' && '' || '' }} Deploy to production
-            Branch: ${{ github.ref_name }}
-            Author: ${{ github.actor }}
+            Branch - ${{ github.ref_name }}
+            Author - ${{ github.actor }}
             Status: ${{ job.status }}
 ```
 
@@ -236,8 +236,8 @@ For significant deploys (database migrations, new services, config changes), use
 ```markdown
 Pre-Deploy Checklist. [description]. [date]
 
-Engineer: @name
-Expected deploy time: [datetime UTC]
+Engineer - @name
+Expected deploy time - [datetime UTC]
 
 Changes:
 - [ ] Database migration included? Y/N
@@ -266,8 +266,8 @@ If a deploy happens near an on-call handoff time, explicitly document the state:
 ```markdown
 Deploy Handoff Note. [datetime]
 
-Outgoing IC: @person-a
-Incoming IC: @person-b
+Outgoing IC - @person-a
+Incoming IC - @person-b
 
 Deploy status:  Completed at 14:30 UTC /  In progress /  Rolled back
 

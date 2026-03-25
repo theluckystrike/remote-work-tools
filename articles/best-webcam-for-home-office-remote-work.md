@@ -149,9 +149,9 @@ Detailed Webcam Comparison Table
 
 Real-World Webcam Performance Testing
 
-Test 1: Low-Light Environment
+Test 1 - Low-Light Environment
 
-Setup: Bedroom with single window, tested at sunset (minimal ambient light)
+Setup - Bedroom with single window, tested at sunset (minimal ambient light)
 
 Results (subjective quality):
 ```
@@ -173,11 +173,11 @@ Microsoft LifeCam HD:
 - Overall quality: 2/10 (unusable for video calls)
 ```
 
-Lesson: Expensive ring light cameras (Kiyo, Elgato) worth the investment if your home office lacks quality lighting.
+Lesson - Expensive ring light cameras (Kiyo, Elgato) worth the investment if your home office lacks quality lighting.
 
-Test 2: Autofocus vs Fixed Focus
+Test 2 - Autofocus vs Fixed Focus
 
-Setup: Developer sitting at desk, occasional head movement
+Setup - Developer sitting at desk, occasional head movement
 
 ```
 Logitech C920 (autofocus):
@@ -190,20 +190,20 @@ Razer Kiyo (fixed focus at 3 feet):
 - No refocus hunting
 - Overall: Superior for stationary use
 
-Lesson: If you sit still during calls, fixed focus > autofocus
+Lesson - If you sit still during calls, fixed focus > autofocus
 ```
 
-Test 3: CPU Impact During Video Calls
+Test 3 - CPU Impact During Video Calls
 
 Monitoring system load while on Zoom for 1 hour:
 
 ```
-Built-in MacBook webcam: 3-5% CPU
-Logitech C920: 4-7% CPU
-USB 2.0 webcam (generic): 8-15% CPU (poor driver optimization)
-High-end 4K camera: 12-20% CPU
+Built-in MacBook webcam - 3-5% CPU
+Logitech C920 - 4-7% CPU
+USB 2.0 webcam (generic) - 8-15% CPU (poor driver optimization)
+High-end 4K camera - 12-20% CPU
 
-Lesson: USB 2.0 devices create noticeable lag on older hardware
+Lesson - USB 2.0 devices create noticeable lag on older hardware
 Upgrade to USB 3.0+ cameras if your machine is 2018 or older
 ```
 
@@ -230,7 +230,7 @@ One fill light (simple lamp):
 - Reduces harsh shadows from key light
 - Cost: ~$20-30
 
-Total: Minimal investment, professional appearance
+Total - Minimal investment, professional appearance
 ```
 
 Premium Setup ($150-300):
@@ -255,7 +255,7 @@ Output shows /dev/video0 (your webcam)
 
 Verify UVC compliance
 v4l2-ctl --info --device /dev/video0
-Should show: Driver: 'uvcvideo' (UVC standard driver)
+Should show - Driver: 'uvcvideo' (UVC standard driver)
 If driver is manufacturer-specific, you need extra setup
 
 Test video capture formats
@@ -284,17 +284,17 @@ Should show your webcam feed within 10 seconds
 Common Linux issues and fixes:
 
 ```bash
-Issue 1: Multiple video devices, unsure which is webcam
+Issue 1 - Multiple video devices, unsure which is webcam
 v4l2-ctl --list-devices
 Output shows multiple devices, first is usually webcam
 
-Issue 2: Webcam works but Zoom doesn't detect it
+Issue 2 - Webcam works but Zoom doesn't detect it
 Restart Zoom, check Settings > Video > Camera dropdown
-If not listed: lsusb to verify device connected
-If still issues: sudo modprobe uvcvideo (reload UVC driver)
+If not listed - lsusb to verify device connected
+If still issues - sudo modprobe uvcvideo (reload UVC driver)
 
-Issue 3: Video works but no audio from webcam mic
-Check: pavucontrol (PulseAudio Volume Control)
+Issue 3 - Video works but no audio from webcam mic
+Check - pavucontrol (PulseAudio Volume Control)
 Webcam mic should appear as input device
 Some webcam mics need explicit selection in Zoom settings
 ```
@@ -317,7 +317,7 @@ Most Logitech/Razer cameras work directly on macOS without drivers
 Windows:
 ```bash
 Most webcams work immediately via Windows Update drivers
-If manufacturer driver needed: download from webcam maker's site
+If manufacturer driver needed - download from webcam maker's site
 
 Test via Device Manager
 Devices > Imaging devices > Right-click webcam > Properties
@@ -332,7 +332,7 @@ UVC webcams work without drivers (just plug and use)
 Test immediate functionality:
 cheese  # Simple camera app for testing
 
-If cheese shows video: webcam is working for all video apps
+If cheese shows video - webcam is working for all video apps
 Zoom/Teams will automatically detect and use it
 ```
 

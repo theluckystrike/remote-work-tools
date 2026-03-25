@@ -34,7 +34,7 @@ Table of Contents
 - [Energy Efficiency and Long-Term Costs](#energy-efficiency-and-long-term-costs)
 - [Troubleshooting Lighting Problems](#troubleshooting-lighting-problems)
 - [Creating Optimal Night Coding Lighting: The Complete Setup](#creating-optimal-night-coding-lighting-the-complete-setup)
-- [Advanced: Connecting Lights to Productivity Tools](#advanced-connecting-lights-to-productivity-tools)
+- [Advanced - Connecting Lights to Productivity Tools](#advanced-connecting-lights-to-productivity-tools)
 
 Why Task Lighting Matters for Night Coding
 
@@ -97,24 +97,24 @@ Positioning Tips
 Recommended Products by Budget
 
 Premium Complete Setup ($200-250)
-Best overall: BenQ ScreenBar Plus ($129) + Govee TV Backlights ($80-100)
+Best overall - BenQ ScreenBar Plus ($129) + Govee TV Backlights ($80-100)
 - ScreenBar Plus includes USB hub and auto-dimming
 - Govee backlights provide additional contrast reduction
 - Combined they create a lighting environment
 - Total cost: $210-230 for professional-grade night coding setup
 
 Mid-Range Setup ($80-120)
-Best value: Xiaomi Mi Computer Light Bar ($59) + basic desk lamp ($30-50)
+Best value - Xiaomi Mi Computer Light Bar ($59) + basic desk lamp ($30-50)
 - Xiaomi handles primary task lighting with wireless control
 - Budget desk lamp provides secondary illumination for keyboard
 - Flexible configuration, total investment: $90-110
 
-Alternative: BenQ e-Reading LED Desk Lamp ($169) alone
+Alternative - BenQ e-Reading LED Desk Lamp ($169) alone
 - Single solution approach, requires less complexity
 - Good automatic brightness adjustment, moderate color temperature range
 
 Budget-Friendly Setup ($30-70)
-Best budget option: Amazon Basics LED Desk Lamp ($29) + VAV LED Strip Lights ($20)
+Best budget option - Amazon Basics LED Desk Lamp ($29) + VAV LED Strip Lights ($20)
 - Basic functionality but covers essential needs
 - Amazon lamp provides adjustable desk lighting
 - Strip lights add bias lighting for screen contrast reduction
@@ -145,25 +145,25 @@ Measuring Your Lighting Setup
 
 Ensure your setup is effective by checking these measurements:
 
-Screen brightness: Use a light meter (smartphone apps work adequately) to measure the brightness of your monitor. For night coding, target 50-100 lux emitted from the screen. Most developer setups run 150-300 lux; reduce this for evening sessions.
+Screen brightness - Use a light meter (smartphone apps work adequately) to measure the brightness of your monitor. For night coding, target 50-100 lux emitted from the screen. Most developer setups run 150-300 lux; reduce this for evening sessions.
 
-Task light intensity: Your desk lamp should provide 300-500 lux on the keyboard and reference materials. Too dim (under 200 lux) causes continued eye strain; too bright (over 600 lux) defeats the purpose of reducing contrast with the screen.
+Task light intensity - Your desk lamp should provide 300-500 lux on the keyboard and reference materials. Too dim (under 200 lux) causes continued eye strain; too bright (over 600 lux) defeats the purpose of reducing contrast with the screen.
 
-Contrast ratio: Measure the ratio of light emitted by your monitor versus ambient room light. Ideally this ratio should be under 5:1 for comfortable night coding. High contrast (10:1 or higher) causes significant eye strain.
+Contrast ratio - Measure the ratio of light emitted by your monitor versus ambient room light. Ideally this ratio should be under 5:1 for comfortable night coding. High contrast (10:1 or higher) causes significant eye strain.
 
 Additional Eye Strain Prevention Tips
 
 Beyond lighting, implement these practices for healthier night coding sessions:
 
-Follow the 20-20-20 Rule: Every 20 minutes, look at something 20 feet away for 20 seconds. This gives your eye muscles a break from focusing on close-up code. Set phone reminders or use dedicated apps like Time Out (macOS) or Stretchly (Linux/Windows).
+Follow the 20-20-20 Rule - Every 20 minutes, look at something 20 feet away for 20 seconds. This gives your eye muscles a break from focusing on close-up code. Set phone reminders or use dedicated apps like Time Out (macOS) or Stretchly (Linux/Windows).
 
-Adjust Screen Brightness: Match your monitor brightness to your surroundings. If using task lighting, you may need to increase screen brightness slightly to maintain readability. Test different brightness levels and settle on what feels comfortable after 30+ minutes of coding.
+Adjust Screen Brightness - Match your monitor brightness to your surroundings. If using task lighting, you may need to increase screen brightness slightly to maintain readability. Test different brightness levels and settle on what feels comfortable after 30+ minutes of coding.
 
-Use Blue Light Filters: Enable night shift modes or f.lux applications in the evening. Most operating systems include built-in options (macOS Night Shift, Windows Night Light, GNOME Night Light). Set these to activate 2-3 hours before your intended sleep time.
+Use Blue Light Filters - Enable night shift modes or f.lux applications in the evening. Most operating systems include built-in options (macOS Night Shift, Windows Night Light, GNOME Night Light). Set these to activate 2-3 hours before your intended sleep time.
 
-Take Regular Breaks: Stand up, stretch, and rest your eyes. Pomodoro techniques work well for this (25 minutes coding + 5 minute break). During breaks, avoid looking at other screens; instead look out windows or at distant objects.
+Take Regular Breaks - Stand up, stretch, and rest your eyes. Pomodoro techniques work well for this (25 minutes coding + 5 minute break). During breaks, avoid looking at other screens; instead look out windows or at distant objects.
 
-Monitor your screen distance: Maintain 20-30 inches between your eyes and the monitor. Leaning closer increases eye strain significantly. Use a monitor arm to set proper distance and prevent slouching that reduces distance naturally over coding sessions.
+Monitor your screen distance - Maintain 20-30 inches between your eyes and the monitor. Leaning closer increases eye strain significantly. Use a monitor arm to set proper distance and prevent slouching that reduces distance naturally over coding sessions.
 
 Practical Night Coding Workflow
 
@@ -196,20 +196,20 @@ Preventing and Treating Blue Light Overexposure
 
 Blue light (400-495nm wavelength) suppresses melatonin production, making it harder to sleep after coding sessions. Layered defense works best:
 
-Layer 1: Reduce source (task lighting)
+Layer 1 - Reduce source (task lighting)
 - Use 2700K color temperature for all night coding
 - Avoid 5000K+ cold white lighting entirely after 6pm
 
-Layer 2: Software filtering
+Layer 2 - Software filtering
 - Enable Night Shift (macOS) or Night Light (Windows)
 - Set f.lux custom profile: 3000K at 9pm, 2700K at 11pm
 - Set IDE theme to dark mode with warm accent colors
 
-Layer 3: Hardware filtering
+Layer 3 - Hardware filtering
 - Blue light blocking glasses ($15-40): Amber-tinted lenses block 70-90% blue light
 - Monitor protectors: Reduce blue light at source (less effective than glasses)
 
-Layer 4: Behavioral
+Layer 4 - Behavioral
 - Stop coding 1-2 hours before sleep
 - Keep phone at arm's length during final work hour
 - Read physical books during wind-down (avoids screens)
@@ -260,15 +260,15 @@ Lighting for Different Coding Tasks
 
 Not all coding requires the same lighting:
 
-Code review and reading: Brighter task lighting (400+ lux)
+Code review and reading - Brighter task lighting (400+ lux)
 - Need to distinguish subtle differences between code blocks
 - Higher contrast helps catch syntax errors
 
-Writing new code: Moderate task lighting (300 lux)
+Writing new code - Moderate task lighting (300 lux)
 - Less visual scrutiny needed than review
 - Warm light reduces eye fatigue during creation
 
-Debugging: Bright task lighting (500+ lux) + high contrast
+Debugging - Bright task lighting (500+ lux) + high contrast
 - Need to read stack traces and logs clearly
 - Monitor the output values in real time
 
@@ -283,33 +283,33 @@ Lighting cost comparison (5-year analysis):
 
 Incandescent desk lamp (60W):
 - Hardware: $20
-- Energy: 60W × 5 hours/night × 365 days × 5 years × $0.12/kWh = $438
+- Energy - 60W × 5 hours/night × 365 days × 5 years × $0.12/kWh = $438
 - Total: $458
 
 LED desk lamp (10W):
 - Hardware: $40
-- Energy: 10W × 5 hours/night × 365 days × 5 years × $0.12/kWh = $73
+- Energy - 10W × 5 hours/night × 365 days × 5 years × $0.12/kWh = $73
 - Total: $113
 
-Savings: $345 over 5 years
-Monthly savings: $5.75 from energy alone
+Savings - $345 over 5 years
+Monthly savings - $5.75 from energy alone
 ```
 
 LED lights pay for themselves in 2-3 months through energy savings. The upfront cost is easily recovered.
 
 Troubleshooting Lighting Problems
 
-Problem: Overhead shadows obscuring code
-Solution: Reposition task light to angle in front of you rather than behind. Or eliminate overhead lighting entirely.
+Problem - Overhead shadows obscuring code
+Solution - Reposition task light to angle in front of you rather than behind. Or eliminate overhead lighting entirely.
 
-Problem: Screen glare despite task lighting
-Solution: Move light 90 degrees to side instead of directly in front. Position at 45-degree angle from keyboard.
+Problem - Screen glare despite task lighting
+Solution - Move light 90 degrees to side instead of directly in front. Position at 45-degree angle from keyboard.
 
-Problem: Harsh shadows from monitor stand
-Solution: Add fill light on opposite side (lower intensity) to soften shadows. Or use a monitor arm to reposition the stand.
+Problem - Harsh shadows from monitor stand
+Solution - Add fill light on opposite side (lower intensity) to soften shadows. Or use a monitor arm to reposition the stand.
 
-Problem: Color temperature appears wrong (too blue or yellow)
-Solution: Verify color temperature setting in light's app or control panel. Many lights default to 4000K (too cool for night work). Adjust to 2700K-3000K.
+Problem - Color temperature appears wrong (too blue or yellow)
+Solution - Verify color temperature setting in light's app or control panel. Many lights default to 4000K (too cool for night work). Adjust to 2700K-3000K.
 
 Creating Optimal Night Coding Lighting: The Complete Setup
 
@@ -318,28 +318,28 @@ Bring all elements together for professional-grade setup:
 ```
 Complete Night Coding Lighting ($180-250):
 
-Primary: BenQ ScreenBar Plus ($129)
+Primary - BenQ ScreenBar Plus ($129)
 - Auto-dimming based on ambient light
 - Adjustable 2700K-6500K color temperature
 - USB hub integration
 - Eliminates direct light in eyes
 
-Secondary: Xiaomi Mi Computer Light Bar ($59) OR
+Secondary - Xiaomi Mi Computer Light Bar ($59) OR
            Amazon Basics Desk Lamp ($29)
 - Provides fill light for keyboard and reference materials
 - Prevents the "dark keyboard" problem
 
-Tertiary: Govee LED Strip Lights ($40-60) [optional]
+Tertiary - Govee LED Strip Lights ($40-60) [optional]
 - Mounts behind monitor
 - Reduces contrast between screen and wall
 - Set to 2700K warm white
 
-Total investment: $188-248
+Total investment - $188-248
 This setup is maintainable indefinitely (LED lifespan: 25,000+ hours)
-ROI: Paid back through energy savings in 6-12 months
+ROI - Paid back through energy savings in 6-12 months
 ```
 
-Advanced: Connecting Lights to Productivity Tools
+Advanced - Connecting Lights to Productivity Tools
 
 For developers using Pomodoro or task timers, automate lighting adjustments:
 

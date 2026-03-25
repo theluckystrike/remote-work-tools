@@ -28,11 +28,11 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Pre-Arrival Setup (Before Contractor Starts)
+Step 1 - Pre-Arrival Setup (Before Contractor Starts)
 
 Preparation begins the moment a contractor accepts an offer. Prepare the digital workspace before their first login.
 
-Day -1: Infrastructure Setup
+Day -1 - Infrastructure Setup
 
 1. Access Provisioning (Complete 24 hours before start)
 
@@ -76,30 +76,30 @@ for contractor in contractors:
     print(f"Contractor {contractor['name']}: Credentials sent")
 ```
 
-Day -1: Documentation Package
+Day -1 - Documentation Package
 
 Create a 5-page onboarding guide (10 KB max) covering:
 
-Page 1: Your First Day (Quick Start)
+Page 1 - Your First Day (Quick Start)
 - Wi-Fi credentials (if needed)
 - Email address confirmation
 - Slack introduction message
 - First meeting time (scheduled for Hour 2)
 
-Page 2: Systems Overview (2 minutes read)
+Page 2 - Systems Overview (2 minutes read)
 - Tech stack diagram (one image)
 - Repository layout (3 sentences)
 - Deployment process (5 steps)
 - Where to find code reviews (Slack channel name)
 
-Page 3: Important Links (Bookmarks)
+Page 3 - Important Links (Bookmarks)
 - GitHub repo link
 - Documentation wiki URL
 - Deployment dashboard
 - Support Slack channel
 - Calendar/scheduling link
 
-Page 4: Day 1 Schedule
+Page 4 - Day 1 Schedule
 - 09:00 AM: Welcome call (15 min)
 - 09:20 AM: Tools walkthrough (20 min)
 - 10:00 AM: First assignment setup (30 min)
@@ -108,7 +108,7 @@ Page 4: Day 1 Schedule
 - 12:15 PM: Solo task (2 hours)
 - 02:30 PM: Sync with manager
 
-Page 5: Contact Information
+Page 5 - Contact Information
 - Manager name and Slack handle
 - Buddy/mentor Slack handle
 - HR contact
@@ -118,16 +118,16 @@ Template to store in Google Drive:
 ```markdown
 Day 1 Onboarding Guide for {{ contractor_name }}
 
-Step 2: Welcome!
+Step 2 - Welcome!
 We're excited to have you start on {{ start_date }}.
 
-Your manager: {{ manager_name }} (@{{ slack_handle }})
-Your buddy: {{ buddy_name }} (@{{ buddy_slack }})
+Your manager - {{ manager_name }} (@{{ slack_handle }})
+Your buddy - {{ buddy_name }} (@{{ buddy_slack }})
 
 [Rest of guide...]
 ```
 
-Day -1: Assign Buddy/Mentor
+Day -1 - Assign Buddy/Mentor
 
 Select a buddy from the team with these criteria:
 - Currently active on the project (will be present all 2 days)
@@ -137,7 +137,7 @@ Select a buddy from the team with these criteria:
 
 Buddy Preparation Email:
 ```
-Subject: You're the buddy for new contractor Sarah Chen
+Subject - You're the buddy for new contractor Sarah Chen
 
 Hi [Buddy],
 
@@ -154,13 +154,13 @@ DAY 2:
 
 This is roughly 3 hours total. You'll unblock Sarah so she can be productive independently by Day 3.
 
-Prep: Review the first task Sarah will be assigned (details below).
+Prep - Review the first task Sarah will be assigned (details below).
 
 Thanks,
 [Manager]
 ```
 
-Step 3: Hour 1-2: Welcome and Tool Setup
+Step 3 - Hour 1-2: Welcome and Tool Setup
 
 Arrival Protocol (08:00-09:00 AM)
 
@@ -179,7 +179,7 @@ Manager sends Slack DM:
 Welcome Sarah! 
 
 Excited to have you on the team. I'll call you at 09:15 to walk through the tools.
-Here's the link: [Zoom/Meet link]
+Here's the link - [Zoom/Meet link]
 
 In the meantime:
 1. Check you can access GitHub (you should have an invite)
@@ -230,7 +230,7 @@ Tool Stack Recommendation for Contractors:
 | Figma | Design (if needed) | Free-$12/month | 1 min |
 | Zoom | Synchronous calls | Free-$199/month | 1 min |
 
-Step 4: Hour 2-6: First Task and Code Review
+Step 4 - Hour 2-6: First Task and Code Review
 
 Task Selection
 
@@ -257,7 +257,7 @@ Task Setup (10:00-10:30 AM)
 Buddy synchronously walks through the first task:
 
 ```
-Buddy: "Your first task is to add a 'cancel_order' endpoint.
+Buddy - "Your first task is to add a 'cancel_order' endpoint.
         Let me show you similar code..."
 
 [Screen share]
@@ -285,13 +285,13 @@ Buddy reviews contractor's branch:
 Example code review comment:
 ```
 Great! I see you're using the existing error handling pattern.
-One thing: wrap the database call in a try/catch
+One thing - wrap the database call in a try/catch
 (see line 45 in get_order endpoint for example).
 
 No blockers, just a consistency thing.
 ```
 
-Step 5: Hour 6-24: Independent Work + Office Hours
+Step 5 - Hour 6-24: Independent Work + Office Hours
 
 Afternoon Productivity (12:00-17:00 PM, Day 1)
 
@@ -319,7 +319,7 @@ Manager and contractor sync on:
 - Confidence level with codebase
 - Next assignment (usually 2-3 tasks worth 2-4 hours each)
 
-Step 6: Day 2 Afternoon: Rapid Scaling
+Step 6 - Day 2 Afternoon: Rapid Scaling
 
 By Day 2 afternoon, contractor should:
 - Understand repository layout
@@ -342,7 +342,7 @@ By end of Day 2:
 - Contractor knows Slack and GitHub workflows
 - Contractor knows who to ask for different types of help
 
-Step 7: Complete 48-Hour Onboarding Checklist
+Step 7 - Complete 48-Hour Onboarding Checklist
 
 Pre-Arrival (Day -1)
 
@@ -392,7 +392,7 @@ End of Day 2
 - [ ] First week's work planned
 - [ ] Off-boarding plan confirmed (if contract has end date)
 
-Step 8: Tools That Accelerate Onboarding
+Step 8 - Tools That Accelerate Onboarding
 
 Automated Onboarding Platforms:
 - Workday/BambooHR ($10-20/user/month): Workflow-based onboarding
@@ -406,7 +406,7 @@ Communication Tools:
 
 Example Slack Workflow Automation:
 ```
-Trigger: User joins workspace
+Trigger - User joins workspace
 Actions:
 1. Send welcome message (with guide PDF link)
 2. Add to #general, #engineering, #contractor-support
@@ -414,7 +414,7 @@ Actions:
 4. Notify buddy it's onboarding day
 ```
 
-Step 9: Measuring Onboarding Success
+Step 9 - Measuring Onboarding Success
 
 Track these metrics for improvements:
 
@@ -437,25 +437,25 @@ Efficiency Metrics:
 - Buddy time invested: Target 3-4 hours
 - IT time invested: Target < 1 hour
 
-Step 10: Common Delays and Solutions
+Step 10 - Common Delays and Solutions
 
-Problem: Contractor can't access GitHub on first day
+Problem - Contractor can't access GitHub on first day
 - Solution: Pre-test all account provisioning on Day -1; have IT standby
 - Prevention: Use centralized identity provider (Okta) for reliability
 
-Problem: Contractor doesn't understand codebase layout
+Problem - Contractor doesn't understand codebase layout
 - Solution: Pair with buddy for first task; record a 5-min repo walkthrough video
 - Prevention: Maintain visual diagram (folder structure) in documentation
 
-Problem: First task has hidden complexity
+Problem - First task has hidden complexity
 - Solution: Buddy should have done task recently; catches hidden issues
 - Prevention: Assign buddy who worked on related code in last 2 weeks
 
-Problem: Contractor isolation/doesn't ask for help
-- Solution: Manager explicitly tells contractor: "It's expected you'll have questions. Slack immediately."
+Problem - Contractor isolation/doesn't ask for help
+- Solution - Manager explicitly tells contractor: "It's expected you'll have questions. Slack immediately."
 - Prevention: Normalize help-seeking in first meeting
 
-Step 11: Cost Analysis of 48-Hour Onboarding
+Step 11 - Cost Analysis of 48-Hour Onboarding
 
 Typical cost for one contractor:
 
@@ -471,9 +471,9 @@ Benefits achieved:
 - First merge by Day 2 (confidence booster)
 - Reduced onboarding churn (clear expectations from start)
 
-ROI: For a 12-week contractor ($15K cost), shaving 2 weeks off ramp-up is a 17% efficiency gain.
+ROI - For a 12-week contractor ($15K cost), shaving 2 weeks off ramp-up is a 17% efficiency gain.
 
-Step 12: Extensions for Different Contractor Types
+Step 12 - Extensions for Different Contractor Types
 
 For Designers:
 - Add Figma account + design system walkthrough

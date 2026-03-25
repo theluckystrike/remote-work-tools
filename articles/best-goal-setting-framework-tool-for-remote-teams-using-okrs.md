@@ -30,7 +30,7 @@ Table of Contents
 - [OKR Anti-Patterns in Remote Teams](#okr-anti-patterns-in-remote-teams)
 - [Building OKR Discipline Over Time](#building-okr-discipline-over-time)
 - [Integrating OKRs with Performance Reviews](#integrating-okrs-with-performance-reviews)
-- [Technical Implementation: Auto-Updating KRs from Data](#technical-implementation-auto-updating-krs-from-data)
+- [Technical Implementation - Auto-Updating KRs from Data](#technical-implementation-auto-updating-krs-from-data)
 
 This guide covers the essential components of an OKR system for remote teams, evaluates practical tooling options, and provides implementation patterns you can adapt regardless of your tech stack.
 
@@ -54,7 +54,7 @@ Before evaluating tools, understand what your OKR system needs to accomplish:
 
 Tool Options for Implementing OKRs
 
-Notion: Flexible Database-Driven OKRs
+Notion - Flexible Database-Driven OKRs
 
 Notion works well if your team already uses it for documentation. Its database features let you create relational OKR structures that link objectives to key results, teams, and projects.
 
@@ -75,7 +75,7 @@ Create a relation between objectives and key results databases. This lets you ro
 
 Notion works best for teams comfortable with database configuration. The learning curve is moderate, but flexibility is high. Integrations with Slack can automate notifications when key results approach deadlines.
 
-Linear: Engineering-Native OKR Tracking
+Linear - Engineering-Native OKR Tracking
 
 Linear was built for engineering teams, which shows in its keyboard-first interface and GitHub integration. While primarily an issue tracker, Linear's cycles and projects feature supports OKR implementation.
 
@@ -100,7 +100,7 @@ async function createOKRIssue() {
 
 Linear's advantage is that engineers never leave their workflow. If your team already tracks work in Linear, adding OKR context requires minimal overhead. The trade-off is less formal OKR tooling, you're repurposing project management features.
 
-Airtable: Customizable OKR Dashboards
+Airtable - Customizable OKR Dashboards
 
 Airtable provides the most customization for teams that want to build their own OKR system. Its block-based interface lets you create views, dashboards, and automations tailored to your process.
 
@@ -128,7 +128,7 @@ IF(
 
 Airtable excels for teams wanting visual dashboards and automated status updates. The downside is building and maintaining your own system requires ongoing effort.
 
-Excel or Google Sheets: The Minimalist Approach
+Excel or Google Sheets - The Minimalist Approach
 
 Sometimes the simplest tool wins. For small teams or those starting with OKRs, a shared spreadsheet provides immediate value without tool overhead.
 
@@ -151,7 +151,7 @@ Weekly Async Check-in Template
 ```
 Week of [Date]
 
-Objective: [Objective Title]
+Objective - [Objective Title]
 - Key Result progress: [X]% → [Y]%
 - What happened this week: [Brief notes]
 - Blockers: [Any impediments]
@@ -211,59 +211,59 @@ OKR Anti-Patterns in Remote Teams
 
 Recognize when your OKR implementation is failing:
 
-Anti-pattern 1: "We forgot about OKRs"
+Anti-pattern 1 - "We forgot about OKRs"
 
 OKRs exist in a separate system from daily work. Team members never reference them, forget they exist, and are shocked when quarterly review arrives asking for scores.
 
-Fix: Integrate OKRs into weekly meetings. Start sprint planning by reviewing relevant OKRs. Tag Jira issues with OKR IDs. Reference OKRs when celebrating wins. Make them part of daily consciousness, not separate artifacts.
+Fix - Integrate OKRs into weekly meetings. Start sprint planning by reviewing relevant OKRs. Tag Jira issues with OKR IDs. Reference OKRs when celebrating wins. Make them part of daily consciousness, not separate artifacts.
 
-Anti-pattern 2: "Everyone has OKRs but they are not aligned"
+Anti-pattern 2 - "Everyone has OKRs but they are not aligned"
 
 Teams set OKRs independently without ensuring they support company goals. Engineering optimizes for velocity, sales optimizes for deal size, product optimizes for feature count, all misaligned.
 
-Fix: Follow strict hierarchy. Define company OKRs first. Then each team defines OKRs explicitly supporting company goals. Ask "how does this team OKR help achieve the company OKR?" If you cannot answer, the OKR is misaligned.
+Fix - Follow strict hierarchy. Define company OKRs first. Then each team defines OKRs explicitly supporting company goals. Ask "how does this team OKR help achieve the company OKR?" If you cannot answer, the OKR is misaligned.
 
-Anti-pattern 3: "OKRs become a tool for punishment"
+Anti-pattern 3 - "OKRs become a tool for punishment"
 
 Managers use OKR performance as ammunition in performance reviews. Anything below 1.0 is treated as underperformance. People start sandbagging, setting conservative OKRs they know they can exceed.
 
-Fix: Establish cultural norm that 0.7 is success. 0.7-1.0 is excellent performance. Scores below 0.5 trigger investigation into whether the goal was too ambitious or execution had issues. Use OKRs as learning tools, not judgment tools.
+Fix - Establish cultural norm that 0.7 is success. 0.7-1.0 is excellent performance. Scores below 0.5 trigger investigation into whether the goal was too ambitious or execution had issues. Use OKRs as learning tools, not judgment tools.
 
-Anti-pattern 4: "Too many OKRs"
+Anti-pattern 4 - "Too many OKRs"
 
 Each team has 8-10 objectives with 5-6 KRs each. The company has more OKRs than employees. No one knows what the priorities are because everything is a priority.
 
-Fix: Ruthlessly limit. 3-5 company OKRs. 2-3 per team. 1-2 for individual contributors. If you have 20 important goals, those are not goals, that is your job. Goals are what you prioritize above your baseline job.
+Fix - Ruthlessly limit. 3-5 company OKRs. 2-3 per team. 1-2 for individual contributors. If you have 20 important goals, those are not goals, that is your job. Goals are what you prioritize above your baseline job.
 
-Anti-pattern 5: "OKRs never change mid-quarter"
+Anti-pattern 5 - "OKRs never change mid-quarter"
 
 Circumstances change, market conditions, resource availability, strategic opportunities. Yet teams rigidly stick with Q1 OKRs through Q3 because they were committed to them.
 
-Fix: Allow mid-quarter adjustments when circumstances warrant. If a market opportunity emerges, adjust OKRs. If a key person leaves, adjust OKRs. Document why the change happened. Flexibility is better than false consistency.
+Fix - Allow mid-quarter adjustments when circumstances warrant. If a market opportunity emerges, adjust OKRs. If a key person leaves, adjust OKRs. Document why the change happened. Flexibility is better than false consistency.
 
 Building OKR Discipline Over Time
 
 OKRs work best when they become habit:
 
-Month 1-3: Learning phase
+Month 1-3 - Learning phase
 - Expect goals to be rough
 - Celebrate the learning, not the scoring
 - Most teams set too many objectives; expect to cut them in half by Q2
 - Focus on participation, not perfection
 
-Month 4-6: Refinement phase
+Month 4-6 - Refinement phase
 - Goals become more realistic as team understands capability
 - Key results become more measurable
 - Alignment improves as team sees connections
 - Expect 0.7+ average scores as calibration improves
 
-Month 7-12: Maturity phase
+Month 7-12 - Maturity phase
 - OKRs feel natural, integrated with daily work
 - Team references them without prompting
 - Scores stabilize around 0.8 average
 - Process overhead decreases as shortcuts become clear
 
-Month 12+: Strategic phase
+Month 12+ - Strategic phase
 - OKRs drive hiring and resource allocation
 - Strategy emerges from OKR patterns (what we consistently achieve)
 - Innovation increases because execution framework is tight
@@ -289,7 +289,7 @@ Example calibration:
 
 This approach incentivizes ambitious goals while valuing execution quality.
 
-Technical Implementation: Auto-Updating KRs from Data
+Technical Implementation - Auto-Updating KRs from Data
 
 For teams with strong data infrastructure, automate KR progress:
 
@@ -334,7 +334,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -346,7 +346,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

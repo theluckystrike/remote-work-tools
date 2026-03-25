@@ -135,9 +135,9 @@ Team-Wide DND Policies
 
 Establishing team norms around DND prevents misunderstandings. Consider implementing these policies:
 
-Core Hours Policy: Define 2-3 hours of guaranteed overlap when all team members should be available. Outside these hours, DND becomes the default expectation. Document these hours in your team wiki or Slack channel topic.
+Core Hours Policy - Define 2-3 hours of guaranteed overlap when all team members should be available. Outside these hours, DND becomes the default expectation. Document these hours in your team wiki or Slack channel topic.
 
-Status-Based Communication: Encourage team members to set Slack status indicators reflecting availability. Use emojis like  for DND,  for available, or  for deep work:
+Status-Based Communication - Encourage team members to set Slack status indicators reflecting availability. Use emojis like  for DND,  for available, or  for deep work:
 
 ```
 /status  Deep work until 2pm
@@ -145,7 +145,7 @@ Status-Based Communication: Encourage team members to set Slack status indicator
 /status  DND - responding tomorrow
 ```
 
-Respecting Night Hours: A practical rule, avoid sending messages to colleagues during their local night hours (10pm-6am) unless urgent. Use Slack's scheduling feature to deliver messages during recipients' business hours.
+Respecting Night Hours - A practical rule, avoid sending messages to colleagues during their local night hours (10pm-6am) unless urgent. Use Slack's scheduling feature to deliver messages during recipients' business hours.
 
 Using Slack Workflows for DND Reminders
 
@@ -181,7 +181,7 @@ Advanced DND Management with Slack Workflows
 
 Slack Workflows enable sophisticated DND management without additional tooling. Create a workflow that runs at your designated DND start time:
 
-1. Trigger: Scheduled time (e.g., 6 PM daily)
+1. Trigger - Scheduled time (e.g., 6 PM daily)
 2. Action: Update your Slack status to " DND until 8 AM"
 3. Action: Send a message to your team channel confirming DND is active
 4. Optional: Create a button for team members to request urgent escalation
@@ -331,7 +331,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -343,7 +343,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

@@ -53,7 +53,7 @@ Dojo maintains generator backup for the entire facility, including common areas 
 
 The space offers hot desks, dedicated desks, and private offices. Power outlet placement is adequate, though peak hours can mean sharing. Night owls benefit from 24-hour access on dedicated desk plans, which matters when you're debugging across time zones.
 
-Practical note: Dojo's community skews toward long-term digital nomads. You'll find other developers, but the social atmosphere can be energetic. If you need absolute silence for deep focus work, consider the dedicated office options.
+Practical note - Dojo's community skews toward long-term digital nomads. You'll find other developers, but the social atmosphere can be energetic. If you need absolute silence for deep focus work, consider the dedicated office options.
 
 Outpost Coworking
 
@@ -77,7 +77,7 @@ Tropical Futures differentiates with:
 - Server room access for colocation needs (uncommon in Canggu)
 - Developer-focused community events
 
-The trade-off: smaller facility means limited desk availability during high season. Reserve early if you need consistent workspace.
+The trade-off - smaller facility means limited desk availability during high season. Reserve early if you need consistent workspace.
 
 Technical Evaluation Framework
 
@@ -114,7 +114,7 @@ def test_internet():
     s.download(threads=threads)
     s.upload(threads=threads)
     results = s.results.dict()
-    print(f"Download: {results['download']/1_000_000:.2f} Mbps")
+    print(f"Download - {results['download']/1_000_000:.2f} Mbps")
 
 schedule.every(30).minutes.do(test_internet)
 ```
@@ -125,13 +125,13 @@ What Actually Matters
 
 After evaluating dozens of spaces, here's the honest assessment:
 
-Generator coverage: Full facility coverage matters more than you think. Partial coverage means the cafe stays lit while the workspace goes dark, common at spaces that added generators as an afterthought.
+Generator coverage - Full facility coverage matters more than you think. Partial coverage means the cafe stays lit while the workspace goes dark, common at spaces that added generators as an afterthought.
 
-Internet redundancy: Automatic failover beats manual reconnection every time. When you're mid-deploy and fiber drops, waiting for manual reconnection creates unnecessary stress.
+Internet redundancy - Automatic failover beats manual reconnection every time. When you're mid-deploy and fiber drops, waiting for manual reconnection creates unnecessary stress.
 
-Community fit: Technical communities cluster naturally. Dojo and Tropical Futures attract more developers. Outpost has broader appeal. Choose based on whether you want peer interaction or focused isolation.
+Community fit - Technical communities cluster naturally. Dojo and Tropical Futures attract more developers. Outpost has broader appeal. Choose based on whether you want peer interaction or focused isolation.
 
-Cost vs. value: Expect to pay $200-400/month for dedicated desk or private office with infrastructure guarantees. Hot desks run $100-200/month. The price differential reflects actual operational cost, spaces charging below market rate often skimp on generator maintenance.
+Cost vs. value - Expect to pay $200-400/month for dedicated desk or private office with infrastructure guarantees. Hot desks run $100-200/month. The price differential reflects actual operational cost, spaces charging below market rate often skimp on generator maintenance.
 
 Hidden Factors
 
@@ -263,11 +263,11 @@ Outpost relationships:
 
 Package deal calculations:
 ```
-Tropical Futures dedicated desk: $350/month
-Nearby accommodation: $600/month
-Single package deal: $850/month
-Separate costs: $950/month
-Savings: $100/month or 10.5%
+Tropical Futures dedicated desk - $350/month
+Nearby accommodation - $600/month
+Single package deal - $850/month
+Separate costs - $950/month
+Savings - $100/month or 10.5%
 ```
 
 Evaluating Actual Uptime Records
@@ -312,7 +312,7 @@ Water Supply Reliability:
 Decision Tree for Choosing Your Space
 
 ```
-START: Planning Canggu stay
+START - Planning Canggu stay
 
  Need guaranteed 24/7 developer environment?
    YES: Full generator + auto-failover required

@@ -205,11 +205,11 @@ Tool Integration Patterns for Remote Agencies
 
 Most development agencies already use a stack of tools. Effective feedback collection integrates with what you have rather than replacing it.
 
-Linear or Jira integration: When a client submits feedback flagging a specific feature as confusing or broken, that feedback should automatically create a ticket in your issue tracker. Build a simple webhook bridge that parses feedback entries tagged with technical issues and creates corresponding issues with the client's verbatim comments.
+Linear or Jira integration - When a client submits feedback flagging a specific feature as confusing or broken, that feedback should automatically create a ticket in your issue tracker. Build a simple webhook bridge that parses feedback entries tagged with technical issues and creates corresponding issues with the client's verbatim comments.
 
-Slack digest: A daily or weekly Slack message summarizing feedback trends keeps your entire team informed without requiring anyone to log into a separate dashboard. Include the aggregate rating, notable quotes (positive and negative), and any open action items. Teams that see client feedback regularly make better prioritization decisions than those who review it quarterly.
+Slack digest - A daily or weekly Slack message summarizing feedback trends keeps your entire team informed without requiring anyone to log into a separate dashboard. Include the aggregate rating, notable quotes (positive and negative), and any open action items. Teams that see client feedback regularly make better prioritization decisions than those who review it quarterly.
 
-CRM updates: When a client submits a high NPS score or mentions interest in additional services, that signal should flow to your CRM. Create an automation that flags accounts with NPS above 8 for account expansion outreach within two business days.
+CRM updates - When a client submits a high NPS score or mentions interest in additional services, that signal should flow to your CRM. Create an automation that flags accounts with NPS above 8 for account expansion outreach within two business days.
 
 Team Coordination Patterns for Remote Agencies
 

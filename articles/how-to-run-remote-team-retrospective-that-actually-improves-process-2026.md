@@ -20,13 +20,13 @@ Most remote retrospectives fail because teams treat them like box-checking exerc
 Table of Contents
 
 - [Why Remote Retros Fail](#why-remote-retros-fail)
-- [The Proven Structure: 5-Day Async Retro](#the-proven-structure-5-day-async-retro)
-- [Tools: Miro vs. FigJam vs. Notion](#tools-miro-vs-figjam-vs-notion)
+- [The Proven Structure - 5-Day Async Retro](#the-proven-structure-5-day-async-retro)
+- [Tools - Miro vs. FigJam vs. Notion](#tools-miro-vs-figjam-vs-notion)
 - [Previous Sprint Action Items](#previous-sprint-action-items)
 - [What Went Well](#what-went-well)
 - [What to Improve](#what-to-improve)
 - [Action Items for Next Sprint](#action-items-for-next-sprint)
-- [Facilitation Script: The Quiet-Nudging Approach](#facilitation-script-the-quiet-nudging-approach)
+- [Facilitation Script - The Quiet-Nudging Approach](#facilitation-script-the-quiet-nudging-approach)
 - [Common Mistakes That Kill Remote Retro Effectiveness](#common-mistakes-that-kill-remote-retro-effectiveness)
 - [Measuring Retro Impact](#measuring-retro-impact)
 - [Template Scripts for Facilitators](#template-scripts-for-facilitators)
@@ -48,11 +48,11 @@ Remote retros collapse without intentional structure because:
 
 The fix is async-first with lightweight sync, clear roles, and ruthless closure.
 
-The Proven Structure: 5-Day Async Retro
+The Proven Structure - 5-Day Async Retro
 
 Instead of a 1-hour meeting, spread the retro across 5 business days with clear phases and deadlines.
 
-Day 1: Setup and Input Opening (15 minutes async prep)
+Day 1 - Setup and Input Opening (15 minutes async prep)
 
 Facilitator creates the retro board (using Miro, FigJam, or Notion) and posts the prompt in Slack:
 
@@ -64,8 +64,8 @@ Please add 2-3 items for each prompt by EOD Wednesday:
 -  What didn't work (slow code review / confusing API / on-call alert fatigue)
 -  One thing to try next sprint (pair programming / async standups / reduce meetings)
 
-Board: [link to Miro]
-Deadline: Wednesday 5 PM UTC
+Board - [link to Miro]
+Deadline - Wednesday 5 PM UTC
 ```
 
 Why this works:
@@ -73,7 +73,7 @@ Why this works:
 - Specific prompts (not "anything you want") force real reflection
 - 48-hour deadline prevents "I'll do it later" procrastination
 
-Day 2: Input Collection (Async, no action)
+Day 2 - Input Collection (Async, no action)
 
 Team members add cards throughout the day. Facilitator sends a 24-hour reminder at 9 AM next day.
 
@@ -91,7 +91,7 @@ Hey Alice, didn't see your retro input yet. You're one of the people who cares m
 
 Personal nudge beats generic reminder. Most will respond.
 
-Day 3: Grouping and Deduplication (Facilitator work, 30 minutes)
+Day 3 - Grouping and Deduplication (Facilitator work, 30 minutes)
 
 Deadline is 5 PM day 2. First thing day 3, facilitator:
 
@@ -110,7 +110,7 @@ Raw input (25 cards):
 - "Hard to get engineering time for pairing"
 - "Pair programming is blocked by review queue"
 
-Grouped theme: "Code Review Bottleneck"
+Grouped theme - "Code Review Bottleneck"
 (5 related cards, ~20% of feedback)
 
 Raw input (18 cards):
@@ -119,13 +119,13 @@ Raw input (18 cards):
 - "Too many Slack notifications about deploys"
 - "Pager duty woke me up 4 times last week"
 
-Grouped theme: "Alert and Notification Overload"
+Grouped theme - "Alert and Notification Overload"
 (4 related cards, ~15% of feedback)
 ```
 
 Why anonymize? Removes anchoring bias. People vote on themes, not on "what Alice said."
 
-Output for day 3: Miro board with 5-8 themed sections, 0-5 cards per theme, authors hidden.
+Output for day 3 - Miro board with 5-8 themed sections, 0-5 cards per theme, authors hidden.
 
 Post in Slack:
 
@@ -138,7 +138,7 @@ React with  (important to me) or  (I have context to add).
 Voting closes Friday 5 PM UTC.
 ```
 
-Day 4: Voting (Async, 24 hours)
+Day 4 - Voting (Async, 24 hours)
 
 Team votes on which themes matter most. Voting window is 24 hours. Facilitator doesn't interrupt or moderate, just let votes accumulate.
 
@@ -155,36 +155,36 @@ Example voting results:
 
 You focus on the top 2-3. Ignore the rest. This is key, you're not solving every problem, just the ones the team actually cares about.
 
-Day 5: Action Items and Closure (30 minutes sync, or async)
+Day 5 - Action Items and Closure (30 minutes sync, or async)
 
-Option A: Async (my preference)
+Option A - Async (my preference)
 
 Facilitator writes action items based on top themes and posts in Slack:
 
 ```
  SPRINT 25 ACTION ITEMS
 
-Theme 1: Code Review Bottleneck
-Action: Establish 24-hour PR review SLA
-Owner: @bob
-Due: 2026-03-29
-Why: 11 team members flagged this. 3-day reviews block pairing.
+Theme 1 - Code Review Bottleneck
+Action - Establish 24-hour PR review SLA
+Owner - @bob
+Due - 2026-03-29
+Why - 11 team members flagged this. 3-day reviews block pairing.
 
-Action: Implement GitHub review assignment rotation
-Owner: @carol
-Due: 2026-03-28
-Why: Ensure reviews aren't always landing on same 2 people.
+Action - Implement GitHub review assignment rotation
+Owner - @carol
+Due - 2026-03-28
+Why - Ensure reviews aren't always landing on same 2 people.
 
-Theme 2: Alert and Notification Overload
-Action: Audit all alerts, delete any without an actionable response
-Owner: @devops-team
-Due: 2026-03-29
-Why: Alert fatigue makes oncall unsustainable.
+Theme 2 - Alert and Notification Overload
+Action - Audit all alerts, delete any without an actionable response
+Owner - @devops-team
+Due - 2026-03-29
+Why - Alert fatigue makes oncall unsustainable.
 
-Action: Create #deploy-quiet Slack channel for automated messages
-Owner: @alice
-Due: 2026-03-26
-Why: Reduce notification noise in main channels.
+Action - Create #deploy-quiet Slack channel for automated messages
+Owner - @alice
+Due - 2026-03-26
+Why - Reduce notification noise in main channels.
 ```
 
 Keys to this format:
@@ -200,12 +200,12 @@ linear issue create \
   --title "Establish 24-hour PR review SLA" \
   --team ENG \
   --label retro-action \
-  --description "Action item from Sprint 24 retro. Feedback: Code review bottleneck is blocking pairing sessions. Proposed: owners have 24 hours to review." \
+  --description "Action item from Sprint 24 retro. Feedback - Code review bottleneck is blocking pairing sessions. Proposed - owners have 24 hours to review." \
   --assignee "@bob" \
   --due-date "2026-03-29"
 ```
 
-Option B: Sync Call (20 minutes if you need discussion)
+Option B - Sync Call (20 minutes if you need discussion)
 
 If async action item writing feels incomplete, do a brief sync for discussion only:
 
@@ -219,7 +219,7 @@ Sync Retro Closure (20 minutes):
 
 Then close the sync and facilitator writes formal action items in tickets. Sync is for clarification, not decision-making.
 
-Tools: Miro vs. FigJam vs. Notion
+Tools - Miro vs. FigJam vs. Notion
 
 Miro (Best for Visual Remote Teams)
 
@@ -237,9 +237,9 @@ Setup:
 4. After deadline: group cards, hide author names, regroup into themes
 5. Open voting phase
 
-Cost: Free (good for small teams), $16/month per user (teams).
+Cost - Free (good for small teams), $16/month per user (teams).
 
-Downsides: Voting feature is limited. Better for grouping than voting.
+Downsides - Voting feature is limited. Better for grouping than voting.
 
 FigJam (Best for Real-Time + Async Hybrid)
 
@@ -256,9 +256,9 @@ Setup:
 4. After input deadline: section cards into themes manually
 5. Stamp voting (each person gets 5 stamps)
 
-Cost: Free tier (3 files), $12/month per user.
+Cost - Free tier (3 files), $12/month per user.
 
-Downsides: Slightly less intuitive than Miro for sticky notes. Voting requires physical stamps in video call (not great async).
+Downsides - Slightly less intuitive than Miro for sticky notes. Voting requires physical stamps in video call (not great async).
 
 Notion (Best for Teams Already in Notion)
 
@@ -272,9 +272,9 @@ Setup:
 
 ```markdown
 Sprint 24 Retrospective
-Sprint Dates: 2026-03-10 → 2026-03-21
-Facilitator: @bob
-Input Deadline: Wed 5 PM UTC
+Sprint Dates - 2026-03-10 → 2026-03-21
+Facilitator - @bob
+Input Deadline - Wed 5 PM UTC
 
 Previous Sprint Action Items
 | Item | Owner | Status | Link |
@@ -283,7 +283,7 @@ Previous Sprint Action Items
 ---
 
 What Went Well
-Add your comments below. Due: Wednesday 5 PM UTC
+Add your comments below. Due - Wednesday 5 PM UTC
 
 - Fast payment feature shipped
  - Great QA testing by @alice
@@ -301,15 +301,15 @@ Action Items for Next Sprint
 | | | |
 ```
 
-Cost: Free (good) to $15/user/month (team workspace).
+Cost - Free (good) to $15/user/month (team workspace).
 
-Downsides: Less visual than Miro. Voting requires comment tallying (manual work).
+Downsides - Less visual than Miro. Voting requires comment tallying (manual work).
 
-Facilitation Script: The Quiet-Nudging Approach
+Facilitation Script - The Quiet-Nudging Approach
 
 Some people don't contribute to retros because they're not sure what's valuable to say. As facilitator, you nudge them without putting them on the spot.
 
-Day 1 input phase: Send DMs to quiet team members:
+Day 1 input phase - Send DMs to quiet team members:
 
 ```
 Hi @quiet-engineer, saw you haven't added retro input yet.
@@ -317,11 +317,11 @@ Hi @quiet-engineer, saw you haven't added retro input yet.
 I remember last sprint you mentioned frustration with the auth module.
 That's the kind of honest feedback that helps us improve. Would you add a card?
 
-Board: [link]
+Board - [link]
 No pressure, just want to hear from you.
 ```
 
-Day 2, before deadline: Another personal message to anyone at <50% team average contributions:
+Day 2, before deadline - Another personal message to anyone at <50% team average contributions:
 
 ```
 Noticed you haven't voted yet on retro themes.
@@ -332,7 +332,7 @@ Which of these themes would you most like to see improved?
 Just react with  to 2-3 that matter to you.
 ```
 
-Day 3, action item phase: If quiet person hasn't spoken yet, ask them directly for input:
+Day 3, action item phase - If quiet person hasn't spoken yet, ask them directly for input:
 
 ```
 @quiet-engineer, we're focused on improving code review this sprint.
@@ -348,17 +348,17 @@ This approach:
 
 Common Mistakes That Kill Remote Retro Effectiveness
 
-Mistake 1: Same retro format every sprint.
+Mistake 1 - Same retro format every sprint.
 Variety prevents fatigue. Alternate between:
 - Start/Stop/Continue (every other sprint)
 - DAKI (Drop/Add/Keep/Improve) when team is in transition
 - Sailboat retro (show progress, identify headwinds)
 - Mountain/Valley (celebrate peaks, acknowledge tough times)
 
-Mistake 2: Facilitator changes every sprint.
+Mistake 2 - Facilitator changes every sprint.
 Continuity matters. One person should run retros for 6+ months. They learn what works, notice patterns, build trust.
 
-Mistake 3: No follow-up on previous action items.
+Mistake 3 - No follow-up on previous action items.
 Review last sprint's action items at the start of retro. Show completion status:
 -  Code review SLA established (done)
 -  Tech debt cleanup (in progress, postponing to next sprint)
@@ -366,10 +366,10 @@ Review last sprint's action items at the start of retro. Show completion status:
 
 Seeing follow-up motivates people to actually care about action items.
 
-Mistake 4: Too many action items.
+Mistake 4 - Too many action items.
 If you generate 8+ action items, you'll complete 1-2. Pick 3-4 max. Quality over quantity.
 
-Mistake 5: No written decision-making.
+Mistake 5 - No written decision-making.
 If action items aren't in tickets with owners and due dates, they disappear. Write them down.
 
 Measuring Retro Impact
@@ -406,14 +406,14 @@ Prompts:
  What slowed us down (unclear requirements? alert fatigue? slow reviews?)
  One thing to try next sprint
 
-Board: [link]
+Board - [link]
 ```
 
 Grouping announcement (day 3):
 ```
 Your input is grouped! 5 themes emerged from the team's feedback.
 
-Now comes the important part: voting on what matters most.
+Now comes the important part - voting on what matters most.
 Please vote  on 2-3 themes you want to improve.
 
 Voting closes Friday 5 PM UTC.
@@ -427,7 +427,7 @@ Based on your feedback, we're focusing on:
 1. Code Review Speed (most requested)
 2. Reducing Alert Fatigue (second)
 
-Action items are in Linear: [link to label:retro-action]
+Action items are in Linear - [link to label:retro-action]
 Each has an owner and deadline. We review progress in next sprint's retro.
 
 Thanks for the honest feedback. It makes us better.

@@ -46,9 +46,9 @@ Setting Up Your Async Code Review Workflow
 
 The foundation of async code reviews is clear communication through structured pull request descriptions. Before requesting review, ensure your PR includes:
 
-1. Context: What problem does this change solve?
-2. Approach: How did you implement the solution?
-3. Testing: What tests did you run locally?
+1. Context - What problem does this change solve?
+2. Approach - How did you implement the solution?
+3. Testing - What tests did you run locally?
 4. Screenshots: For UI changes, include visual evidence
 
 Here's a PR template that encourages thorough descriptions:
@@ -96,17 +96,17 @@ This clarity prevents the back-and-forth that makes async reviews frustrating.
 
 Implementing the Review Process
 
-Step 1: Author Prepares the PR
+Step 1 - Author Prepares the PR
 
 The author creates a pull request with the template above, ensures all checks pass, and assigns reviewers. Self-review your own code first, you'll catch obvious issues before wasting others' time.
 
-Step 2: Reviewer Provides Written Feedback
+Step 2 - Reviewer Provides Written Feedback
 
 Reviewers examine the code and leave comments using your platform's review tools. Structure feedback like this:
 
 For blocking issues:
 ```
- Blocking: This query is vulnerable to SQL injection.
+ Blocking - This query is vulnerable to SQL injection.
 Use parameterized queries instead:
 
  `db.query("SELECT * FROM users WHERE id = " + userId)`
@@ -125,7 +125,7 @@ For questions:
 retry logic here?
 ```
 
-Step 3: Author Responds and Iterates
+Step 3 - Author Responds and Iterates
 
 Authors should respond to every comment, either addressing the concern or explaining why the current approach works. Use these response patterns:
 
@@ -133,7 +133,7 @@ Authors should respond to every comment, either addressing the concern or explai
 - Wontfix: Valid concern but not addressing in this PR
 - Discuss: Need more conversation, consider async thread or quick sync
 
-Step 4: Approval and Merge
+Step 4 - Approval and Merge
 
 Once all blocking issues are resolved and at least one reviewer approves, the PR can merge. Your CI/CD pipeline should enforce these rules automatically.
 
@@ -172,14 +172,14 @@ Feedback Language Patterns
 
 Structure feedback so it feels helpful rather than critical:
 
-Weak: "This code is inefficient"
-Better: "I wonder if we could optimize this query, it might help with the performance goals we discussed"
+Weak - "This code is inefficient"
+Better - "I wonder if we could optimize this query, it might help with the performance goals we discussed"
 
-Weak: "You forgot to handle this edge case"
-Better: "I see the happy path is covered. What's your thinking on this edge case? I can think of one scenario where it might fail..."
+Weak - "You forgot to handle this edge case"
+Better - "I see the happy path is covered. What's your thinking on this edge case? I can think of one scenario where it might fail..."
 
-Weak: "This doesn't match our standards"
-Better: "I notice this follows a different pattern than we typically use in this codebase. Is there a reason for this approach?"
+Weak - "This doesn't match our standards"
+Better - "I notice this follows a different pattern than we typically use in this codebase. Is there a reason for this approach?"
 
 This language invites discussion rather than commanding compliance.
 
@@ -206,17 +206,17 @@ Reviewer Assignment Patterns
 
 Avoid the "anyone can review" approach where PRs wait indefinitely. Instead:
 
-Pattern 1: Distributed reviewers
+Pattern 1 - Distributed reviewers
 Assign the same PR to two reviewers from different time zones. One from each zone. This ensures someone will review within 24 hours.
 
-Pattern 2: Role-based reviewers
+Pattern 2 - Role-based reviewers
 - Architecture reviews: assigned to architecture owner
 - Frontend changes: assigned to frontend lead
 - Database changes: assigned to database specialist
 
 This prevents bottlenecks where every PR waits for one person's schedule.
 
-Pattern 3: On-call reviewer
+Pattern 3 - On-call reviewer
 Each week, one engineer is "on-call" for reviews. They commit to reviewing all PRs within 24 hours. Rotate this responsibility.
 
 Escalation Protocols for Blocked PRs
@@ -287,17 +287,17 @@ Measuring Review Quality
 
 Track metrics beyond just time to merge:
 
-Review Depth: Do reviews identify actual issues, or just skim the code?
+Review Depth - Do reviews identify actual issues, or just skim the code?
 - Count number of comments per PR
 - Count number of issues caught in code review vs. production bugs
 - (Higher production bugs = reviews weren't thorough enough)
 
-Review Speed: Are reviews happening quickly enough to unblock work?
+Review Speed - Are reviews happening quickly enough to unblock work?
 - Average time to first review comment
 - Average time between reviewer feedback and author response
 - (Goal: <24 hours for initial review, <48 hours for iterations)
 
-Review Tone: Is feedback encouraging or discouraging?
+Review Tone - Is feedback encouraging or discouraging?
 - Periodic pulse: "Do code reviews feel helpful or critical?" (1-5 scale)
 - Track whether authors respond to feedback or push back
 - (Good: most feedback is accepted; bad: lots of "I disagree with this comment")

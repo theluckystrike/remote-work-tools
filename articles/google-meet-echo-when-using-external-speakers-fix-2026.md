@@ -25,8 +25,8 @@ Table of Contents
 - [Quick Fix Checklist](#quick-fix-checklist)
 - [Device-Specific Echo Troubleshooting](#device-specific-echo-troubleshooting)
 - [Preventing Future Echo Issues](#preventing-future-echo-issues)
-- [Diagnosing Echo: Understanding the Type You're Experiencing](#diagnosing-echo-understanding-the-type-youre-experiencing)
-- [Advanced: Audio Software Solutions for Persistent Echo](#advanced-audio-software-solutions-for-persistent-echo)
+- [Diagnosing Echo - Understanding the Type You're Experiencing](#diagnosing-echo-understanding-the-type-youre-experiencing)
+- [Advanced - Audio Software Solutions for Persistent Echo](#advanced-audio-software-solutions-for-persistent-echo)
 - [Preventing Echo in Your Workspace Setup](#preventing-echo-in-your-workspace-setup)
 - [When to Seek Additional Help](#when-to-seek-additional-help)
 
@@ -46,37 +46,37 @@ The frequency response of external speakers also matters. Many external speakers
 
 Step-by-Step Troubleshooting Solutions
 
-Step 1: Lower Your Speaker Volume
+Step 1 - Lower Your Speaker Volume
 
 The simplest fix often works best. Reduce your external speaker volume to approximately 50% or lower. When speaker volume is too high, sound has more opportunity to travel back to your microphone. After lowering the volume, test whether echo persists. You can adjust the volume incrementally until you find the right balance between audibility and preventing feedback.
 
-Step 2: Increase Distance Between Speakers and Microphone
+Step 2 - Increase Distance Between Speakers and Microphone
 
 Physical separation prevents audio from reaching your microphone. Move your external speakers at least three feet away from your microphone or webcam. If you use an USB microphone or headset, ensure the speakers face away from the microphone. Some remote workers position speakers on the opposite side of their desk or use speaker stands that direct sound upward and away from the microphone pickup zone.
 
-Step 3: Use Headphones Instead of External Speakers
+Step 3 - Use Headphones Instead of External Speakers
 
 While external speakers work well for presentations and group viewing, headphones provide the most reliable solution for two-way communication. Connect any wired or wireless headphones to eliminate the feedback loop entirely. This solution works particularly well for individuals who attend multiple meetings daily and need consistent audio quality.
 
-Step 4: Adjust Google Meet Audio Settings
+Step 4 - Adjust Google Meet Audio Settings
 
 Google Meet includes built-in options to manage echo. During a meeting, click the three-dot menu and select Settings, then Audio. Ensure your correct microphone and speaker are selected. Toggle off the option for "Echo cancellation" if it is forcing aggressive processing that distorts audio. Some users find that allowing Meet to manage echo automatically produces better results than manual adjustments.
 
-Step 5: Update Your Audio Drivers
+Step 5 - Update Your Audio Drivers
 
 Outdated audio drivers can cause various issues including echo. On Windows, open Device Manager, expand Sound, right-click your audio device, and select Update driver. On Mac, check for system updates through System Preferences or System Settings. Updated drivers ensure your audio hardware functions correctly with modern video conferencing applications.
 
-Step 6: Configure Operating System Audio Settings
+Step 6 - Configure Operating System Audio Settings
 
 Your computer's audio settings affect how sound processes during calls. On Windows 11, go to Settings > System > Sound > More sound settings. Access the Recording tab, select your microphone, and adjust the microphone sensitivity slider. Lowering the gain can prevent your microphone from picking up speaker output. On Mac, open System Settings > Privacy & Security > Microphone and ensure Google Meet has appropriate permissions.
 
-Step 7: Use a Noise-Canceling Microphone
+Step 7 - Use a Noise-Canceling Microphone
 
 USB microphones with noise-canceling technology filter out background sounds more effectively than built-in laptop microphones. These microphones focus on voices directly in front of them and reduce ambient audio. Popular options include the Blue Yeti, Audio-Technica AT2020, and various Jabra headsets. Even basic external microphones typically outperform built-in options for echo reduction.
 
 The advantage of external microphones is directional sensitivity. Built-in laptop microphones use omnidirectional patterns, capturing sound from all directions equally. External cardioid microphones reject sound from behind and sides, accepting only forward-facing sound. This means your speaker's output, coming from beside your microphone, gets rejected naturally.
 
-Step 7.5: Adjust Microphone Polar Pattern (Advanced)
+Step 7.5 - Adjust Microphone Polar Pattern (Advanced)
 
 Some advanced USB microphones allow you to switch polar patterns:
 - Cardioid: Primary use, rejects side and rear sound (best for echo)
@@ -85,7 +85,7 @@ Some advanced USB microphones allow you to switch polar patterns:
 
 Switch to cardioid mode for video calls. This single change often eliminates echo more effectively than volume adjustments.
 
-Step 8: Enable Echo Cancellation in Your Audio Software
+Step 8 - Enable Echo Cancellation in Your Audio Software
 
 If you use third-party audio processing software such as Voicemeeter, Krisp, or Discord's noise suppression, ensure echo cancellation is enabled. These applications process audio before it reaches Google Meet and can eliminate feedback that the browser-level settings miss. Krisp offers a free tier that provides noise cancellation and echo removal specifically designed for video calls.
 
@@ -172,7 +172,7 @@ After acoustic treatment, test echo with different speaker positions and volumes
 
 This permanent approach costs $50-200 in acoustic materials but eliminates echo issues for all future video calls, not just Google Meet.
 
-Diagnosing Echo: Understanding the Type You're Experiencing
+Diagnosing Echo - Understanding the Type You're Experiencing
 
 Not all echo is the same. Understanding which type you're dealing with guides your solution.
 
@@ -186,7 +186,7 @@ Most likely causes:
 - Microphone gain too high
 - Direct line of sight between speaker and microphone
 
-Best solution: Physical separation (move speakers away) or switch to headphones.
+Best solution - Physical separation (move speakers away) or switch to headphones.
 
 Partial Echo (Faint repetition)
 
@@ -197,7 +197,7 @@ Most likely causes:
 - Room reflections bouncing sound back to microphone
 - Echo cancellation enabled but not working optimally
 
-Best solution: Reduce microphone gain or enable stronger echo cancellation in software.
+Best solution - Reduce microphone gain or enable stronger echo cancellation in software.
 
 Metallic or Robotic Echo
 
@@ -208,9 +208,9 @@ Most likely causes:
 - Multiple echo cancellation systems running simultaneously
 - Mismatched audio formats between devices
 
-Best solution: Disable Google Meet's echo cancellation and rely on operating system or microphone-level settings instead.
+Best solution - Disable Google Meet's echo cancellation and rely on operating system or microphone-level settings instead.
 
-Advanced: Audio Software Solutions for Persistent Echo
+Advanced - Audio Software Solutions for Persistent Echo
 
 If hardware troubleshooting doesn't resolve the issue, sophisticated audio processing software can eliminate echo at the source. These tools work by processing your audio stream before it reaches Google Meet.
 

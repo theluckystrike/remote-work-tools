@@ -26,19 +26,19 @@ The result is that remote engineering teams accumulate technical decisions that 
 
 Good documentation tooling does not solve this problem on its own. But bad documentation tooling guarantees the problem gets worse, because even engineers who want to write things down face enough friction that they skip it.
 
-Tool Comparison: The Main Contenders
+Tool Comparison - The Main Contenders
 
 Confluence
 
 Confluence remains the default choice for engineering teams in larger organizations, largely because it integrates with Jira and the procurement process is familiar. For documentation purposes, it has real strengths and real weaknesses.
 
-Strengths: Powerful page hierarchy, excellent permissions model, good macro ecosystem for embedding diagrams (Mermaid, Gliffy, Lucidchart), and a search that actually works across a large knowledge base.
+Strengths - Powerful page hierarchy, excellent permissions model, good macro environment for embedding diagrams (Mermaid, Gliffy, Lucidchart), and a search that actually works across a large knowledge base.
 
-Weaknesses: The editor is mediocre for code-heavy documentation. Code blocks exist but lack syntax highlighting for obscure languages. The Confluence formatting model fights you when you try to write anything that combines prose, code snippets, and structured data. Version history is available but not prominently surfaced, so tracking how a document has changed over time requires deliberate effort.
+Weaknesses - The editor is mediocre for code-heavy documentation. Code blocks exist but lack syntax highlighting for obscure languages. The Confluence formatting model fights you when you try to write anything that combines prose, code snippets, and structured data. Version history is available but not prominently surfaced, so tracking how a document has changed over time requires deliberate effort.
 
 Confluence pricing runs from $5.75/user/month for small teams to negotiated enterprise pricing. For teams already paying for Jira, the bundled cost often makes it the default choice by inertia rather than deliberate selection.
 
-Best for: Organizations already in the Atlassian ecosystem where the switching cost of a different tool outweighs its advantages, and for documentation that is primarily prose-based with occasional code snippets.
+Best for - Organizations already in the Atlassian environment where the switching cost of a different tool outweighs its advantages, and for documentation that is primarily prose-based with occasional code snippets.
 
 Notion
 
@@ -46,11 +46,11 @@ Notion has captured significant market share in engineering documentation by bei
 
 The key differentiator for engineering teams is database functionality. You can build a structured list of ADRs (Architecture Decision Records), internal APIs, or runbook entries with properties (status, owner, last reviewed date) and query them with filtered views. This is fundamentally different from folder-based documentation and solves the "I know this exists somewhere but cannot find it" problem better than hierarchical wikis.
 
-Limitations: Notion's code blocks lack a native execution environment. You cannot run code samples inline. For documentation that requires readers to verify that a snippet actually works, this matters. Permissions are also less granular than Confluence. getting truly fine-grained access control requires the Business plan ($18/user/month) or above.
+Limitations - Notion's code blocks lack a native execution environment. You cannot run code samples inline. For documentation that requires readers to verify that a snippet actually works, this matters. Permissions are also less granular than Confluence. getting truly fine-grained access control requires the Business plan ($18/user/month) or above.
 
-Pricing: Free tier is functional for small teams. Plus plan ($12/user/month) adds unlimited file uploads and version history. Most engineering teams land on Plus or Business.
+Pricing - Free tier is functional for small teams. Plus plan ($12/user/month) adds unlimited file uploads and version history. Most engineering teams land on Plus or Business.
 
-Best for: Teams that write documentation regularly and value the writing experience, teams that want to combine documentation with lightweight project tracking, and teams where designers and non-engineers contribute to docs alongside developers.
+Best for - Teams that write documentation regularly and value the writing experience, teams that want to combine documentation with lightweight project tracking, and teams where designers and non-engineers contribute to docs alongside developers.
 
 GitBook
 
@@ -67,11 +67,11 @@ structure:
   summary: SUMMARY.md
 ```
 
-Limitations: GitBook's editing interface is less capable than Notion for complex page layouts. It also works best when documentation has a clear hierarchy. it is less suited to database-style documentation where you are querying across entries.
+Limitations - GitBook's editing interface is less capable than Notion for complex page layouts. It also works best when documentation has a clear hierarchy. it is less suited to database-style documentation where you are querying across entries.
 
-Pricing: Free for up to 5 collaborators. Plus plan ($6.70/user/month) removes the limit. Enterprise pricing is negotiated.
+Pricing - Free for up to 5 collaborators. Plus plan ($6.70/user/month) removes the limit. Enterprise pricing is negotiated.
 
-Best for: Teams that want documentation version-controlled alongside code, open-source projects, and teams producing documentation that external audiences might also read.
+Best for - Teams that want documentation version-controlled alongside code, open-source projects, and teams producing documentation that external audiences might also read.
 
 Linear Docs + GitHub Discussions
 
@@ -109,11 +109,11 @@ An ADR captures the context and reasoning behind a significant technical decisio
 The format does not need to be complex. The most widely used template, popularized by Michael Nygard, is four sections:
 
 ```markdown
-ADR-042: Use Redis for session storage
+ADR-042 - Use Redis for session storage
 
-Date: 2026-01-15
-Status: Accepted
-Deciders: @alice, @bob, @carol
+Date - 2026-01-15
+Status - Accepted
+Deciders - @alice, @bob, @carol
 
 Context
 
@@ -129,11 +129,11 @@ be stored with a 24-hour TTL and keyed by session ID.
 
 Consequences
 
-Positive: Session persistence across multiple app server instances.
+Positive - Session persistence across multiple app server instances.
 Zero changes needed to session API. the storage layer is swapped
 transparently.
 
-Negative: Adds Redis as a required infrastructure dependency. Local
+Negative - Adds Redis as a required infrastructure dependency. Local
 development now requires either a local Redis instance or Docker.
 All developers will need to update their local setup.
 
@@ -167,9 +167,9 @@ A runbook that actually works at 2 AM:
 ```markdown
 Deploy production service
 
-Prerequisites: AWS CLI configured, access to `prod` environment
+Prerequisites - AWS CLI configured, access to `prod` environment
 
-Time required: 8-12 minutes
+Time required - 8-12 minutes
 
 Steps
 
@@ -205,10 +205,10 @@ Steps
 5. Verify the health endpoint:
    ```bash
  curl -f https://api.example.com/health
- # Expected: {"status":"ok","version":"1.2.3"}
+ # Expected - {"status":"ok","version":"1.2.3"}
    ```
 
-If step 5 fails: See [rollback procedure](./rollback.md)
+If step 5 fails - See [rollback procedure](./rollback.md)
 ```
 
 Keeping Documentation From Going Stale
@@ -265,21 +265,21 @@ Evaluation Criteria for Documentation Tools
 
 Before comparing specific tools, understand what matters for remote engineering teams:
 
-Collaborative Editing: Multiple people editing the same document simultaneously without conflicts or version confusion. When two engineers contribute to a runbook during an incident, edits need to sync in real-time.
+Collaborative Editing - Multiple people editing the same document simultaneously without conflicts or version confusion. When two engineers contribute to a runbook during an incident, edits need to sync in real-time.
 
-Code Snippet Support: Native support for code blocks with syntax highlighting. Documentation without readable code examples is incomplete. Look for tools that treat code as a first-class content type, not an afterthought.
+Code Snippet Support - Native support for code blocks with syntax highlighting. Documentation without readable code examples is incomplete. Look for tools that treat code as a first-class content type, not an afterthought.
 
-Discoverability: Strong full-text search across all documentation. With 500+ pages of technical documentation, browsing hierarchies becomes impractical. Search should find relevant content within seconds.
+Discoverability - Strong full-text search across all documentation. With 500+ pages of technical documentation, browsing hierarchies becomes impractical. Search should find relevant content within seconds.
 
-Access Control: Ability to share some documentation publicly while keeping other sections restricted. Internal architecture docs shouldn't be in production-facing documentation. Permission management should be flexible without creating admin overhead.
+Access Control - Ability to share some documentation publicly while keeping other sections restricted. Internal architecture docs shouldn't be in production-facing documentation. Permission management should be flexible without creating admin overhead.
 
-Integration Depth: Connect with your development workflow. Can developers link from code comments to documentation? Can pull requests automatically reference related docs? Does your incident management system easily link to runbooks?
+Integration Depth - Connect with your development workflow. Can developers link from code comments to documentation? Can pull requests automatically reference related docs? Does your incident management system easily link to runbooks?
 
-Offline Access: Can documentation be accessed without internet, or at minimum cached for offline reference? For infrastructure engineers dealing with network outages, offline access is critical.
+Offline Access - Can documentation be accessed without internet, or at minimum cached for offline reference? For infrastructure engineers dealing with network outages, offline access is critical.
 
-Archival: How do you handle outdated documentation? Can you archive old versions while keeping historical reference? As systems evolve, old documentation becomes liability if it's not clearly marked as deprecated.
+Archival - How do you handle outdated documentation? Can you archive old versions while keeping historical reference? As systems evolve, old documentation becomes liability if it's not clearly marked as deprecated.
 
-Version Control: Can you track who wrote what, when changes happened, and why? When a procedure changes, you need audit trail understanding decisions.
+Version Control - Can you track who wrote what, when changes happened, and why? When a procedure changes, you need audit trail understanding decisions.
 
 Top Tools for Remote Engineering Documentation
 
@@ -298,11 +298,11 @@ Key capabilities:
 - Export to PDF and other formats
 - Integrations with Jira, Slack, GitHub, and development tools
 
-Real workflow example: A 20-person engineering team uses Confluence for all operational documentation. Architecture decisions get captured in a decision log (Confluence database) with links to relevant RFC documents in GitHub. Runbooks for common incidents are organized by system, with on-call team members updating them during and after incidents. When an engineer encounters a problem, they search Confluence first. If documentation exists, they reference it. If not, they document the resolution immediately so the next occurrence is faster. Code examples in runbooks are syntax-highlighted and kept up-to-date alongside actual code changes by using explicit link checks during code review.
+Real workflow example - A 20-person engineering team uses Confluence for all operational documentation. Architecture decisions get captured in a decision log (Confluence database) with links to relevant RFC documents in GitHub. Runbooks for common incidents are organized by system, with on-call team members updating them during and after incidents. When an engineer encounters a problem, they search Confluence first. If documentation exists, they reference it. If not, they document the resolution immediately so the next occurrence is faster. Code examples in runbooks are syntax-highlighted and kept up-to-date alongside actual code changes by using explicit link checks during code review.
 
-Pricing: Free tier for small teams (up to 10 users). Cloud at $225/month for 50 users, or self-hosted licensing.
+Pricing - Free tier for small teams (up to 10 users). Cloud at $225/month for 50 users, or self-hosted licensing.
 
-Best for: Teams already in the Atlassian ecosystem (Jira, Bitbucket) who want integrated governance and don't mind the complexity.
+Best for - Teams already in the Atlassian environment (Jira, Bitbucket) who want integrated governance and don't mind the complexity.
 
 GitBook
 
@@ -319,11 +319,11 @@ Key capabilities:
 - Analytics showing which docs are accessed
 - Public and private documentation in same space
 
-Real workflow example: A 15-person backend engineering team uses GitBook synced with GitHub. Documentation lives in a /docs folder in their main repository. When a developer updates documentation, it's part of the pull request and reviewed alongside code changes. Architecture diagrams, API specifications, and runbooks are all in Git, providing audit trail and version control. The published GitBook site is searched by developers, with analytics showing which documentation gaps need attention.
+Real workflow example - A 15-person backend engineering team uses GitBook synced with GitHub. Documentation lives in a /docs folder in their main repository. When a developer updates documentation, it's part of the pull request and reviewed alongside code changes. Architecture diagrams, API specifications, and runbooks are all in Git, providing audit trail and version control. The published GitBook site is searched by developers, with analytics showing which documentation gaps need attention.
 
-Pricing: Free tier with limited features. Teams plan at $200-500/month depending on features.
+Pricing - Free tier with limited features. Teams plan at $200-500/month depending on features.
 
-Best for: Teams already using Git for code who want documentation to have similar workflow and version control.
+Best for - Teams already using Git for code who want documentation to have similar workflow and version control.
 
 Notion
 
@@ -340,11 +340,11 @@ Key capabilities:
 - Public sharing with customizable permissions
 - Free and paid tiers
 
-Real workflow example: A 12-person SaaS engineering team uses Notion for all documentation. They maintain a "Services" database with a page for each system, including description, owner, architecture, runbooks, and links to monitoring. An "Incidents" database tracks incident details and links to relevant runbooks. An "Onboarding" section guides new hires through setup. Because everything is a Notion page, they can link between concepts. A runbook links to the service page, which links to the monitoring dashboard, which is embedded in the Notion page.
+Real workflow example - A 12-person SaaS engineering team uses Notion for all documentation. They maintain a "Services" database with a page for each system, including description, owner, architecture, runbooks, and links to monitoring. An "Incidents" database tracks incident details and links to relevant runbooks. An "Onboarding" section guides new hires through setup. Because everything is a Notion page, they can link between concepts. A runbook links to the service page, which links to the monitoring dashboard, which is embedded in the Notion page.
 
-Pricing: Free for small teams. Plus plan at $10/month per user for advanced features.
+Pricing - Free for small teams. Plus plan at $10/month per user for advanced features.
 
-Best for: Teams wanting flexibility and ease of creation over rigid structure, especially smaller teams without need for enterprise governance.
+Best for - Teams wanting flexibility and ease of creation over rigid structure, especially smaller teams without need for enterprise governance.
 
 Internal Wiki + Git Repository
 
@@ -359,11 +359,11 @@ Key capabilities:
 - Search via static site generators
 - Offline access via local checkout
 
-Real workflow example: A 8-person infrastructure team maintains documentation in a private GitHub repository using MkDocs. Each system component has a folder with README, runbooks, and architecture diagrams. Changes go through pull request review. CI/CD builds the documentation and publishes to an internal domain. Engineers can clone the repository locally and search offline. When something breaks and internet is down, they still have documentation available.
+Real workflow example - A 8-person infrastructure team maintains documentation in a private GitHub repository using MkDocs. Each system component has a folder with README, runbooks, and architecture diagrams. Changes go through pull request review. CI/CD builds the documentation and publishes to an internal domain. Engineers can clone the repository locally and search offline. When something breaks and internet is down, they still have documentation available.
 
-Pricing: Free (except hosting costs)
+Pricing - Free (except hosting costs)
 
-Best for: Small teams with technical comfort and strong preference for version control and code-like workflows.
+Best for - Small teams with technical comfort and strong preference for version control and code-like workflows.
 
 Comparison Table
 
@@ -383,15 +383,15 @@ Migration Strategy Between Tools
 
 As your team grows, you may outgrow your first documentation tool. Rather than losing all documentation, plan a migration:
 
-Export strategy: Before adopting a tool, verify you can export all content in a portable format. Confluence allows Markdown exports. Notion has CSV and Markdown exports. Git-based tools are inherently portable.
+Export strategy - Before adopting a tool, verify you can export all content in a portable format. Confluence allows Markdown exports. Notion has CSV and Markdown exports. Git-based tools are inherently portable.
 
-Gradual migration: Don't try to migrate everything at once. Start with critical documentation, runbooks, architecture, onboarding. Once the new tool is trusted, expand to less critical docs.
+Gradual migration - Don't try to migrate everything at once. Start with critical documentation, runbooks, architecture, onboarding. Once the new tool is trusted, expand to less critical docs.
 
-Parallel operation: Run old and new tools simultaneously during transition. Point people to new tool but maintain old for reference. Once search shows people aren't using old tool, you can decommission it.
+Parallel operation - Run old and new tools simultaneously during transition. Point people to new tool but maintain old for reference. Once search shows people aren't using old tool, you can decommission it.
 
 Documentation quality improvement: During migration, use the opportunity to improve documentation. Remove outdated content, reorganize for better discoverability, add missing sections.
 
-Team Exercise: Documentation Audit
+Team Exercise - Documentation Audit
 
 Spend 30 minutes answering these questions about your current documentation:
 
@@ -402,7 +402,7 @@ Spend 30 minutes answering these questions about your current documentation:
 5. How often do engineers ask the same question repeatedly because they can't find documented answers?
 6. Can remote team members access all documentation they need without real-time help?
 
-Calculate the cost: if each developer spends 2 hours per week searching for documentation or asking questions, that's 80 hours per quarter per developer. For a 15-person team, that's 1,200 hours per quarter, expensive time better spent building.
+Calculate the cost - if each developer spends 2 hours per week searching for documentation or asking questions, that's 80 hours per quarter per developer. For a 15-person team, that's 1,200 hours per quarter, expensive time better spent building.
 
 Implementation Workflow
 
@@ -440,15 +440,15 @@ Maintaining Documentation Over Time
 
 Documentation quality degrades without active maintenance. Plan for this:
 
-Assign ownership: Each major section should have one person responsible for keeping it current. They're not required to write everything, but they maintain currency and remove outdated content.
+Assign ownership - Each major section should have one person responsible for keeping it current. They're not required to write everything, but they maintain currency and remove outdated content.
 
-Link from code: When code references specific documentation, link from inline comments. When documentation link breaks, developers will surface the issue.
+Link from code - When code references specific documentation, link from inline comments. When documentation link breaks, developers will surface the issue.
 
-Archive old docs: Don't delete outdated documentation. Mark it clearly as archived with date and reason. Future team members may need historical context.
+Archive old docs - Don't delete outdated documentation. Mark it clearly as archived with date and reason. Future team members may need historical context.
 
-Update during incidents: When you respond to an incident, document the fix. When you improve a process, document the change. Don't wait for scheduled documentation days.
+Update during incidents - When you respond to an incident, document the fix. When you improve a process, document the change. Don't wait for scheduled documentation days.
 
-Measure usage: Track which documentation gets viewed. Low-view docs may be outdated or poorly discoverable. High-view docs might need expansion.
+Measure usage - Track which documentation gets viewed. Low-view docs may be outdated or poorly discoverable. High-view docs might need expansion.
 
 Frequently Asked Questions
 

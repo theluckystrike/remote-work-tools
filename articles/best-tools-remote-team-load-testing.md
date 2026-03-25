@@ -72,7 +72,7 @@ export default function () {
 
   // Test 1: List users
   const listRes = http.get(`${BASE_URL}/api/users`, {
-    headers: { Authorization: `Bearer ${__ENV.API_TOKEN}` },
+    headers: { Authorization - `Bearer ${__ENV.API_TOKEN}` },
   });
   check(listRes, {
     'users list status 200': (r) => r.status === 200,
@@ -87,7 +87,7 @@ export default function () {
   const payRes = http.post(
     `${BASE_URL}/api/payments`,
     JSON.stringify({ amount: 1000, currency: 'usd' }),
-    { headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${__ENV.API_TOKEN}` } }
+    { headers: { 'Content-Type': 'application/json', Authorization - `Bearer ${__ENV.API_TOKEN}` } }
   );
   paymentDuration.add(Date.now() - start);
 
@@ -298,7 +298,7 @@ config:
       name: Sustained load
   defaults:
     headers:
-      Authorization: "Bearer {{ $env.API_TOKEN }}"
+      Authorization - "Bearer {{ $env.API_TOKEN }}"
 
 scenarios:
   - name: User journey
@@ -350,7 +350,7 @@ Tool Comparison
 | Locust | Python | Complex business logic | Good |
 | Artillery | YAML/JS | Quick scenario definition | Good |
 
-For most remote teams: use k6 in CI for automated regression tests, Gatling for pre-release load reports to stakeholders.
+For most remote teams - use k6 in CI for automated regression tests, Gatling for pre-release load reports to stakeholders.
 
 ---
 

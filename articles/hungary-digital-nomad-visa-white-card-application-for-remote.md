@@ -27,7 +27,7 @@ Table of Contents
 - [Timeline Estimate](#timeline-estimate)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Cost-of-Living Analysis for Digital Nomads](#cost-of-living-analysis-for-digital-nomads)
-- [Visa Comparison: Hungary vs Alternatives](#visa-comparison-hungary-vs-alternatives)
+- [Visa Comparison - Hungary vs Alternatives](#visa-comparison-hungary-vs-alternatives)
 - [Hungarian Banking Setup Guide](#hungarian-banking-setup-guide)
 - [Remote Work Documentation Requirements](#remote-work-documentation-requirements)
 - [Tax Residency Clarification](#tax-residency-clarification)
@@ -48,21 +48,21 @@ Required Documents
 
 Gathering the correct documentation is the most time-consuming part of the Hungary digital nomad visa application. Here's what you need:
 
-Proof of income: Bank statements from the past three months showing deposits meeting the €2,000 monthly threshold. Self-employed applicants should provide invoices and corresponding payment receipts. If you receive a salary, employment contracts and pay stubs work as supplementary evidence.
+Proof of income - Bank statements from the past three months showing deposits meeting the €2,000 monthly threshold. Self-employed applicants should provide invoices and corresponding payment receipts. If you receive a salary, employment contracts and pay stubs work as supplementary evidence.
 
-Employment or client contracts: Documents demonstrating your remote work relationship with non-Hungarian entities. Include the full contract or agreement showing the nature of your work and that it's performed remotely.
+Employment or client contracts - Documents demonstrating your remote work relationship with non-Hungarian entities. Include the full contract or agreement showing the nature of your work and that it's performed remotely.
 
-Health insurance: Private health insurance with valid coverage in Hungary for the entire visa duration. Travel insurance policies typically don't meet this requirement since they exclude long-term residency.
+Health insurance - Private health insurance with valid coverage in Hungary for the entire visa duration. Travel insurance policies typically don't meet this requirement since they exclude long-term residency.
 
-Criminal record certificate: Official document from your country of residence proving no serious criminal convictions. This document usually needs to be recent (within 90 days) and may require apostille certification depending on your home country.
+Criminal record certificate - Official document from your country of residence proving no serious criminal convictions. This document usually needs to be recent (within 90 days) and may require apostille certification depending on your home country.
 
-Passport: Valid for at least the duration of your planned stay with at least two blank pages.
+Passport - Valid for at least the duration of your planned stay with at least two blank pages.
 
-Proof of accommodation: Hotel bookings, rental agreements, or a letter from a host confirming your address in Hungary. Some applicants use Airbnb bookings for initial documentation.
+Proof of accommodation - Hotel bookings, rental agreements, or a letter from a host confirming your address in Hungary. Some applicants use Airbnb bookings for initial documentation.
 
 Application Process
 
-Step 1: Gather Documentation
+Step 1 - Gather Documentation
 
 Start collecting documents at least one month before applying. Organize everything in PDF format:
 
@@ -78,19 +78,19 @@ mv accommodation_booking.pdf 06_accommodation.pdf
 
 Translate all documents to Hungarian or English if originals are in another language. Certified translations from recognized translation services are required for official documents.
 
-Step 2: Submit Application
+Step 2 - Submit Application
 
 The Hungary digital nomad visa application submits through the Hungarian Immigration and Asylum Office (Bevándorlási és Menekültügyi Hivatal). You can apply from your country of residence at the nearest Hungarian consulate or embassy, or in some cases, directly at the Hungarian border if arriving from another Schengen country.
 
 The application fee is approximately €60-100 depending on processing time and location. Pay this at the time of submission and keep the receipt.
 
-Step 3: Processing and Decision
+Step 3 - Processing and Decision
 
 Processing typically takes 30-60 days, though this varies based on your country of residence and the current application volume. You'll receive notifications about any additional documentation required during this period.
 
 Upon approval, you receive the White Card, which serves as both your visa and residence permit. The card is valid for up to two years and can potentially be extended.
 
-Step 4: Arrival and Registration
+Step 4 - Arrival and Registration
 
 Within 90 days of arrival in Hungary, you must register your address with the local authorities. This involves visiting the local government office (járási hivatal) with your passport and proof of accommodation. You'll receive a registration certificate upon completion.
 
@@ -151,7 +151,7 @@ Hungary offers exceptional value compared to Western European alternatives:
 
 A developer with €2,000/month income lives comfortably in Budapest with substantial savings potential.
 
-Visa Comparison: Hungary vs Alternatives
+Visa Comparison - Hungary vs Alternatives
 
 | Country | Visa Duration | Income Threshold | Application Time | Processing Cost |
 |---------|---------------|-----------------|------------------|-----------------|
@@ -243,12 +243,12 @@ The White Card creates some ambiguity around tax residency:
 
 Generally accepted interpretation (consult local tax professional):
 
-Year 1-2: You're NOT a Hungarian tax resident if:
+Year 1-2 - You're NOT a Hungarian tax resident if:
 - You don't exceed 183 days in Hungary in calendar year
 - You maintain tax residence elsewhere
 - You have no permanent employment in Hungary
 
-However: Tax authorities might argue otherwise if:
+However - Tax authorities might argue otherwise if:
 - You have an apartment lease for 1+ year (suggests permanent settlement)
 - You're physically present >90 days continuously
 - You're receiving income while living in Hungary

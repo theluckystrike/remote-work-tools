@@ -21,7 +21,7 @@ Remote work in Portugal has exploded in recent years, with Lisbon, Porto, and sm
 Table of Contents
 
 - [Major Mobile Carriers in Portugal](#major-mobile-carriers-in-portugal)
-- [Comparing Data Plans: What Remote Workers Actually Need](#comparing-data-plans-what-remote-workers-actually-need)
+- [Comparing Data Plans - What Remote Workers Actually Need](#comparing-data-plans-what-remote-workers-actually-need)
 - [Recommended Plans for Different Use Cases](#recommended-plans-for-different-use-cases)
 - [Practical Tips for Remote Workers](#practical-tips-for-remote-workers)
 - [Portugal's Mobile Data Regulations](#portugals-mobile-data-regulations)
@@ -42,7 +42,7 @@ Vodafone Portugal maintains strong 5G coverage in major cities and tourist areas
 
 MEO provides solid coverage across mainland Portugal and the Azores. Their prices tend to be slightly lower, and they offer innovative add-ons like international calling packages that appeal to remote workers maintaining clients across borders.
 
-Comparing Data Plans: What Remote Workers Actually Need
+Comparing Data Plans - What Remote Workers Actually Need
 
 Developers and power users have different requirements than casual users. Video calls, code repository syncing, VPN connections, and occasional large file transfers consume significantly more data than browsing social media or checking email.
 
@@ -60,7 +60,7 @@ For most remote developers working 8-hour days with regular video meetings, a pl
 
 Recommended Plans for Different Use Cases
 
-Best Overall: NOS 5G 30 GB Plan
+Best Overall - NOS 5G 30 GB Plan
 
 The NOS 5G 30 GB prepaid plan offers the best balance of coverage, speed, and price at approximately €15-€20 per month. Activation requires a Portuguese phone number, but you can purchase a SIM card at convenience stores and tabacarias without extensive documentation. The 5G speeds reach 1 Gbps in covered areas, making it suitable for video calls and even screen sharing sessions.
 
@@ -70,28 +70,28 @@ Dial *129# and follow the prompts
 Or use the NOS app for detailed breakdowns
 ```
 
-Best for Digital Nomads: Vodafone Prepaid
+Best for Digital Nomads - Vodafone Prepaid
 
 Vodafone's €10 prepaid option with 5 GB data provides flexibility for travelers who don't need constant connectivity. You can top up online without a Portuguese bank account, and the plan includes 500 MB bonus data for EU roaming, useful if you travel to Spain or other European countries during your stay.
 
 ```bash
 Check Vodafone balance and validity
 Dial *122# for English language prompts
-Top up: Visit vodafone.pt/topup or use the app with international card
+Top up - Visit vodafone.pt/topup or use the app with international card
 ```
 
-Best for Heavy Users: MEO Unlimited
+Best for Heavy Users - MEO Unlimited
 
 MEO's postpaid unlimited plan at approximately €35 per month provides true unlimited data without throttling. This plan requires a Portuguese ID and either a NIF (tax number) or proof of address, making it ideal for residents or those with long-term arrangements. The 5G coverage in Lisbon and Porto is excellent, with consistent speeds even in crowded areas.
 
-Best eSIM Option: Holafly or Airalo
+Best eSIM Option - Holafly or Airalo
 
 For developers who maintain multiple phone numbers or prefer not to switch physical SIMs, eSIM providers offer Portugal-focused plans. Holafly provides unlimited data plans starting at €19 for 30 days, with instant activation via QR code. Airalo offers more granular options with pay-as-you-go pricing for lighter users.
 
 ```bash
 Verify eSIM compatibility on your device
 iOS: Settings > General > About > Cellular Plan Availability
-Android: Settings > Connections > SIM card manager > Add eSIM
+Android - Settings > Connections > SIM card manager > Add eSIM
 ```
 
 Practical Tips for Remote Workers
@@ -103,11 +103,11 @@ Developers can optimize their data consumption with several strategies:
 ```bash
 Disable automatic cloud backups on mobile
 iOS: Settings > [Your Name] > iCloud > iCloud Backup (disable)
-Android: Settings > System > Backup > Backup to Google Drive (disable)
+Android - Settings > System > Backup > Backup to Google Drive (disable)
 
 Restrict background data for specific apps
 iOS: Settings > General > Background App Refresh
-Android: Settings > Network & Internet > Data Saver
+Android - Settings > Network & Internet > Data Saver
 
 Use WiFi calling to reduce cellular data for calls
 Most carriers support this in their apps
@@ -215,14 +215,14 @@ Poor Signal in Specific Locations
 ```bash
 Diagnose signal strength
 iOS: Open Field Test Mode
-Dial: *3001#12345#*
+Dial - *3001#12345#*
 Press Call - shows signal strength bars and tower info
 
-Android: Open Network Info
+Android - Open Network Info
 Settings > About > Network > Signal Strength
-Values: -51 to -120 (closer to 0 = stronger)
-Acceptable: -85 to -100
-Poor: -120 or worse
+Values - -51 to -120 (closer to 0 = stronger)
+Acceptable - -85 to -100
+Poor - -120 or worse
 
 If consistently poor in one location:
 1. Try different carrier (borrow friend's SIM)
@@ -234,9 +234,9 @@ Data Stops Working Mid-Plan
 
 ```bash
 Check balance and remaining data
-NOS: Dial *150# or use app
-Vodafone: Dial *122# or app
-MEO: Dial *120# or app
+NOS - Dial *150# or use app
+Vodafone - Dial *122# or app
+MEO - Dial *120# or app
 
 Common causes and fixes:
 1. Fair use threshold hit

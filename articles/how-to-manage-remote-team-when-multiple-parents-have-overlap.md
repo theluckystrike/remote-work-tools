@@ -161,9 +161,9 @@ Coverage Request Template
 ```markdown
 Coverage Request
 
-Requesting Parent: @username
-Coverage Needed: [Dates]
-Priority Level: [Critical / High / Normal]
+Requesting Parent - @username
+Coverage Needed - [Dates]
+Priority Level - [Critical / High / Normal]
 
 What's Needed
 - [ ] Code review for PR #123
@@ -196,8 +196,8 @@ Instead of live meetings, use this format in Slack or your team wiki:
 ```
 Weekly Async Update
 
-Name: [Your name]
-Week of: [Date range]
+Name - [Your name]
+Week of - [Date range]
 
 What I Completed
 - [Ticket #123] Implemented user authentication flow
@@ -213,8 +213,8 @@ Blockers
 
 Availability Note
 [Only include if different from normal]
-Dec 20-24: Limited availability due to school break
-Dec 27-31: Fully available
+Dec 20-24 - Limited availability due to school break
+Dec 27-31 - Fully available
 ```
 
 This format works year-round but becomes essential when school schedules fragment availability.
@@ -223,8 +223,8 @@ Tools That Support Async Standups
 
 Several tools make async check-ins easier to sustain than raw Slack threads:
 
-- Geekbot: Sends scheduled prompts via Slack DM and compiles responses into a channel post. Configurable per-user timezone, so the prompt arrives at each person's morning.
-- Range: Integrates with GitHub, Jira, and Google Calendar to pre-fill check-ins with recent activity. Reduces friction by showing completed tickets automatically.
+- Geekbot - Sends scheduled prompts via Slack DM and compiles responses into a channel post. Configurable per-user timezone, so the prompt arrives at each person's morning.
+- Range - Integrates with GitHub, Jira, and Google Calendar to pre-fill check-ins with recent activity. Reduces friction by showing completed tickets automatically.
 - Loom for blockers: When a text description isn't enough, a 60-second Loom video explaining a blocker gets faster responses than a lengthy Slack message. Async video works especially well when a parent is available at unusual hours.
 
 Plan for Overlap as a Team

@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Measuring Your Current Performance
+Step 1 - Measuring Your Current Performance
 
 Before optimizing, establish a baseline. Run multiple speed tests at different times of day to understand your typical performance.
 
@@ -51,7 +51,7 @@ Look for three key metrics:
 
 For remote development work, latency matters more than raw throughput. A connection with 150 Mbps download but 80ms ping feels worse for coding than 50 Mbps with 15ms ping.
 
-Step 2: Diagnosing Network Bottlenecks
+Step 2 - Diagnosing Network Bottlenecks
 
 If your speeds are inconsistent or slower than expected, identify the bottleneck.
 
@@ -84,7 +84,7 @@ Hold Option and click the Wi-Fi icon, then select "Open Wireless Diagnostics"
 
 Move your router away from microwave ovens, cordless phones, and neighboring networks on the same channel. The 5 GHz band typically offers less interference than 2.4 GHz.
 
-Step 3: Optimizing Your Connection
+Step 3 - Optimizing Your Connection
 
 Once you identify issues, apply targeted fixes.
 
@@ -108,9 +108,9 @@ Test DNS performance (replace with your current DNS)
 dig google.com | grep "Query time"
 
 Common fast DNS servers
-Cloudflare: 1.1.1.1
-Google: 8.8.8.8
-Quad9: 9.9.9.9
+Cloudflare - 1.1.1.1
+Google - 8.8.8.8
+Quad9 - 9.9.9.9
 ```
 
 On macOS, configure DNS in System Preferences → Network → Advanced → DNS. On Linux, edit `/etc/resolv.conf`:
@@ -151,7 +151,7 @@ AllowedIPs = 0.0.0.0/0
 
 WireGuard typically achieves 3-4x the throughput of OpenVPN with lower latency.
 
-Step 4: Configure the Operating System Tweaks
+Step 4 - Configure the Operating System Tweaks
 
 TCP Window Scaling
 
@@ -182,7 +182,7 @@ ping -M do -s 1472 -c 4 google.com
 
 If packets fragment, reduce the MTU. Set it in your network configuration or router.
 
-Step 5: Monitor and Automation
+Step 5 - Monitor and Automation
 
 Build monitoring into your workflow to catch issues before they impact work.
 

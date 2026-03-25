@@ -214,7 +214,7 @@ Advanced Role Template Architecture
 
 Building scalable role templates requires thinking about inheritance and composition:
 
-Hierarchical Template Structure: Define base templates that newer roles can extend:
+Hierarchical Template Structure - Define base templates that newer roles can extend:
 
 ```yaml
 base_templates:
@@ -287,7 +287,7 @@ base_templates:
 
 This structure eliminates duplication. When company onboarding changes, update the base template once. All derived roles automatically inherit the change.
 
-Competency-Based Extensions: Beyond role, add competency paths. An engineer who already knows your tech stack completes fewer training tasks:
+Competency-Based Extensions - Beyond role, add competency paths. An engineer who already knows your tech stack completes fewer training tasks:
 
 ```yaml
 engineer_onboarding:
@@ -406,16 +406,16 @@ When evaluating onboarding tools, build a decision matrix:
 | Automation capability | High | Medium | High | None |
 | Scalability (to 500 employees) | Excellent | Good | Good | Poor |
 | Template library size | 50+ | 10-20 | Build your own | None |
-| Integration ecosystem | Extensive | Varies | Need custom | Limited |
+| Integration environment | Extensive | Varies | Need custom | Limited |
 | Time saved per new hire | 8 hours | 5 hours | 7 hours | 0 hours |
 | Maintenance overhead (hrs/year) | 20 | 40 | 100 | 200 |
 
 For a 50-person engineering team with 15 hires/year, calculate total cost of ownership:
 
-Dedicated Platform: ($400/mo × 12) + (20 hrs maint × $100/hr) = $6,800/year
-HR System Integration: $0 + (40 hrs × $100/hr) = $4,000/year
-Custom Automation: ($25/mo × 12) + (100 hrs × $100/hr) = $10,300/year
-Spreadsheet: $0 + (200 hrs × $100/hr) = $20,000/year
+Dedicated Platform - ($400/mo × 12) + (20 hrs maint × $100/hr) = $6,800/year
+HR System Integration - $0 + (40 hrs × $100/hr) = $4,000/year
+Custom Automation - ($25/mo × 12) + (100 hrs × $100/hr) = $10,300/year
+Spreadsheet - $0 + (200 hrs × $100/hr) = $20,000/year
 
 For your organization's hire volume and maintenance capacity, pick the tool that minimizes total cost of ownership, not just subscription cost.
 
@@ -476,7 +476,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -488,7 +488,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

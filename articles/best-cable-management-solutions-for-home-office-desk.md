@@ -20,9 +20,9 @@ Cable clutter kills desk productivity. A typical home office desk has 8-15 cable
 Table of Contents
 
 - [The Cable Problem](#the-cable-problem)
-- [J Channel: The Cable Raceway Foundation](#j-channel-the-cable-raceway-foundation)
-- [Under-Desk Cable Tray: Bulk Routing](#under-desk-cable-tray-bulk-routing)
-- [Velcro Cable Ties: Flexibility and Control](#velcro-cable-ties-flexibility-and-control)
+- [J Channel - The Cable Raceway Foundation](#j-channel-the-cable-raceway-foundation)
+- [Under-Desk Cable Tray - Bulk Routing](#under-desk-cable-tray-bulk-routing)
+- [Velcro Cable Ties - Flexibility and Control](#velcro-cable-ties-flexibility-and-control)
 - [Cable Clips and Desk Grommets](#cable-clips-and-desk-grommets)
 - [Power Strip Organization](#power-strip-organization)
 - [Complete Setup Examples](#complete-setup-examples)
@@ -45,13 +45,13 @@ Professional cable management solves this by:
 - Making swaps easy without disturbing others
 - Reducing clutter-induced stress
 
-The ROI is immediate: 10+ minutes saved per week hunting cables, plus actual desk space reclaimed.
+The ROI is immediate - 10+ minutes saved per week hunting cables, plus actual desk space reclaimed.
 
-J Channel: The Cable Raceway Foundation
+J Channel - The Cable Raceway Foundation
 
 J Channel (also called cable raceway) is a plastic or aluminum trough that mounts under your desk edge. Cables run inside, hidden from view. Install it along the front edge where cables naturally want to go, and they stay organized automatically.
 
-Best Product: Legrand Wiremold J2000 Series
+Best Product - Legrand Wiremold J2000 Series
 - Size: 6 feet per piece (stackable)
 - Material: Plastic, flame-retardant
 - Cost: $8-12 per 6-foot section
@@ -64,7 +64,7 @@ Installation Steps:
 3. Run cables through channel from rear
 4. Plug devices and route excess up desk rear
 
-Real setup: A 6-foot wide desk needs two 6-foot sections ($24 total). One runs along the front edge for monitor/keyboard/mouse cables. One runs along the rear for power cables. Total setup time: 15 minutes.
+Real setup - A 6-foot wide desk needs two 6-foot sections ($24 total). One runs along the front edge for monitor/keyboard/mouse cables. One runs along the rear for power cables. Total setup time: 15 minutes.
 
 - Completely hides cables from front view
 - Protects cables from kicks and contact
@@ -77,11 +77,11 @@ Real setup: A 6-foot wide desk needs two 6-foot sections ($24 total). One runs a
 - Limited to ~15 cables before overcrowding
 - Plastic versions look cheap at close range (aluminum models cost more: $18-25/section)
 
-Under-Desk Cable Tray: Bulk Routing
+Under-Desk Cable Tray - Bulk Routing
 
 For heavier cable loads (monitor arms with multiple displays, dock station, printer, external drives), a cable tray mounts underneath the desk surface. It's more industrial-looking but handles 30+ cables without crowding.
 
-Best Product: HUANUO Under Desk Cable Management Tray
+Best Product - HUANUO Under Desk Cable Management Tray
 - Size: Adjustable (fits 39"-79" desks)
 - Material: Steel mesh
 - Cost: $22-35
@@ -95,7 +95,7 @@ Installation Steps:
 4. Secure endpoints with velcro ties
 5. Route power strips to the side or rear
 
-Real setup: A desk with dual monitors, dock station, and printer uses a cable tray across the entire 6-foot width. Tray cost: $30. All cables hidden except what exits to devices.
+Real setup - A desk with dual monitors, dock station, and printer uses a cable tray across the entire 6-foot width. Tray cost: $30. All cables hidden except what exits to devices.
 
 - Holds massive cable loads
 - Doesn't reduce desk space
@@ -108,11 +108,11 @@ Real setup: A desk with dual monitors, dock station, and printer uses a cable tr
 - Overkill for minimalist setups
 - Takes 20-30 minutes to install
 
-Velcro Cable Ties: Flexibility and Control
+Velcro Cable Ties - Flexibility and Control
 
 Velcro ties bundle cables together and secure them to trays, channels, or desk legs. They're the most flexible solution because you can rearrange instantly. The hook-and-loop design grips cables without damage.
 
-Best Product: JOTO Reusable Velcro Cable Ties
+Best Product - JOTO Reusable Velcro Cable Ties
 - Size: 0.5" wide, various lengths (6", 8", 10")
 - Material: Nylon hook-and-loop
 - Cost: $7-12 for 20-pack
@@ -142,13 +142,13 @@ Cable Clips and Desk Grommets
 
 For gaps in your solution, individual adhesive clips guide cables to specific locations. Desk grommets create clean cable entry points through desk surfaces.
 
-Best Clips: Command Adhesive Cable Clips (3M)
+Best Clips - Command Adhesive Cable Clips (3M)
 - Size: Small, medium, large options
 - Cost: $5-8 for 4-pack
 - Material: Plastic with adhesive
 - Holds: One cable each
 
-Desk Grommets: Legrand Wiremold In-Desk Grommet
+Desk Grommets - Legrand Wiremold In-Desk Grommet
 - Size: 2" diameter opening
 - Cost: $15-25 per grommet
 - Material: Plastic or aluminum
@@ -160,7 +160,7 @@ Power Strip Organization
 
 Most desks need one power strip. Secure it to the cable tray or desk leg, not floating under the desk (fire hazard and wire stress).
 
-Best Power Strip: Belkin Surge Protector with USB
+Best Power Strip - Belkin Surge Protector with USB
 - Outlets: 6 AC + 2 USB
 - Surge protection: 900 joules
 - Cost: $20-30
@@ -204,14 +204,14 @@ Handles 25+ devices with complete organization and flexibility.
 
 Installation Timeline
 
-Minimalist: 20 minutes (adhesive only)
+Minimalist - 20 minutes (adhesive only)
 
-Standard: 45 minutes
+Standard - 45 minutes
 - 15 min: Mount cable tray and channels
 - 20 min: Route and bundle cables
 - 10 min: Test all connections
 
-Professional: 90 minutes
+Professional - 90 minutes
 - 30 min: Install tray, channels, grommets
 - 40 min: Route cables with precision
 - 20 min: Test and adjust
@@ -232,7 +232,7 @@ After (Organized Office):
 - Chair rolls freely without snags
 - Device swaps take 30 seconds
 
-Visual clutter reduction: 90%. Time saved per cable swap: 80%.
+Visual clutter reduction - 90%. Time saved per cable swap: 80%.
 
 Material Comparison
 
@@ -314,12 +314,12 @@ Replace velcro ties every 3-5 years as they wear out. Adhesive channels last 5-7
 
 Investment ROI
 
-Time saved per year: 10 minutes/week × 52 weeks = 8.7 hours
-Value at $50/hour billed rate: $435/year
-Cable management cost: $50-150 one-time
-Payback period: Less than 2 months
+Time saved per year - 10 minutes/week × 52 weeks = 8.7 hours
+Value at $50/hour billed rate - $435/year
+Cable management cost - $50-150 one-time
+Payback period - Less than 2 months
 
-Plus intangible benefits: reduced stress from clutter, faster troubleshooting, fewer cable failures from tangling, better airflow around power equipment.
+Plus intangible benefits - reduced stress from clutter, faster troubleshooting, fewer cable failures from tangling, better airflow around power equipment.
 
 {% endraw %}
 

@@ -21,10 +21,10 @@ Asynchronous document review is critical for distributed teams across time zones
 Table of Contents
 
 - [Asynchronous Documentation Review Challenges](#asynchronous-documentation-review-challenges)
-- [Google Docs: The Baseline Tool](#google-docs-the-baseline-tool)
-- [Notion: Documentation Ecosystem Management](#notion-documentation-ecosystem-management)
-- [Dropbox Paper: Lightweight Collaboration](#dropbox-paper-lightweight-collaboration)
-- [Almanac: Process and Compliance Documentation](#almanac-process-and-compliance-documentation)
+- [Google Docs - The Baseline Tool](#google-docs-the-baseline-tool)
+- [Notion - Documentation environment Management](#notion-documentation-environment-management)
+- [Dropbox Paper - Lightweight Collaboration](#dropbox-paper-lightweight-collaboration)
+- [Almanac - Process and Compliance Documentation](#almanac-process-and-compliance-documentation)
 - [Comparison and Decision Framework](#comparison-and-decision-framework)
 - [Recommended Workflows by Use Case](#recommended-workflows-by-use-case)
 - [Integration with Async Workflows](#integration-with-async-workflows)
@@ -35,7 +35,7 @@ Remote teams cannot gather synchronously to review documents. Feedback must be c
 
 The ideal tool enables readers to comment without editing, requesters to respond asynchronously, and teams to track document evolution without endless email chains. Permission models must distinguish between editor, commenter, and viewer roles. Integration with your broader workflow stack (Slack, calendar, task management) accelerates adoption.
 
-Google Docs: The Baseline Tool
+Google Docs - The Baseline Tool
 
 Google Docs remains the de facto standard because it handles basic review workflows efficiently and integrates with every team's workspace.
 
@@ -44,7 +44,7 @@ Setup and Permissions
 Create a shared Google Drive folder for documentation. Configure sharing settings to manage access:
 
 ```
-Folder: Team Documentation
+Folder - Team Documentation
  Architecture
    doc_id: 1a2b3c... (Access: Editor → Architecture team, Commenter → whole company)
  SOPs
@@ -53,7 +53,7 @@ Folder: Team Documentation
     doc_id: 7g8h9i... (Access: Editor → CTO, Commenter → team leads)
 ```
 
-Configure sharing link access: Anyone with link can "View" for read-only access, "Comment" for feedback, or "Edit" for full control.
+Configure sharing link access - Anyone with link can "View" for read-only access, "Comment" for feedback, or "Edit" for full control.
 
 Comment Threads and Suggestions
 
@@ -70,12 +70,12 @@ No separate comment thread needed
 Comment Mode (Threaded Feedback):
 ```
 Commenter highlights text → Add comment
-Commenter types feedback: "This section lacks motivation. Can you explain the business case?"
-Writer responds: "@Alice Good catch. Adding context about cost savings."
+Commenter types feedback - "This section lacks motivation. Can you explain the business case?"
+Writer responds - "@Alice Good catch. Adding context about cost savings."
 Comment marked resolved when addressed
 ```
 
-Combine both approaches: use Suggestion mode for copyedits and comment mode for substantive feedback.
+Combine both approaches - use Suggestion mode for copyedits and comment mode for substantive feedback.
 
 Mention Notifications
 
@@ -95,7 +95,7 @@ Real-Time Presence Indicators
 Google Docs shows who's currently viewing/editing:
 
 ```
-Document header shows: "Mike is editing", "Alice is viewing"
+Document header shows - "Mike is editing", "Alice is viewing"
 Cursor positions visible for real-time collaborators
 Sidebar shows comment history with timestamps
 ```
@@ -119,16 +119,16 @@ Google Docs lacks version control integration. To maintain history:
 No built-in workflow automation. Set up Slack reminders manually:
 
 ```
-In Slack: "Documentation Review Checklist (every Tuesday)
+In Slack - "Documentation Review Checklist (every Tuesday)
 - [ ] Architecture docs reviewed
 - [ ] Runbooks updated
 - [ ] Compliance docs current
-Assign to: @doc-owner"
+Assign to - @doc-owner"
 ```
 
 Permission management is all-or-nothing per folder. Cannot grant "comment-only" access to specific documents within a shared folder; use separate links and manual distribution instead.
 
-Notion: Documentation Ecosystem Management
+Notion - Documentation environment Management
 
 Notion excels when documentation exists within a broader knowledge base where readers navigate, search, and reference frequently.
 
@@ -137,7 +137,7 @@ Workspace Setup
 Create a parent Notion workspace for all team documentation:
 
 ```
-Workspace: Engineering Knowledge Base
+Workspace - Engineering Knowledge Base
  Architecture & Design
    System Architecture (Database page)
    Authentication Design (Page)
@@ -161,7 +161,7 @@ Permission Granularity
 Notion permissions operate at workspace or page level:
 
 ```yaml
-Workspace access: "Public" (for read-only sharing)
+Workspace access - "Public" (for read-only sharing)
 Page permissions:
   - Architecture docs: Editor → Architecture team, Commenter → entire company
   - Sensitive SOPs: Editor → SOP owner, Commenter → relevant team leads
@@ -171,7 +171,7 @@ Page permissions:
 Create a "To Review" database with filtered views to surface documents awaiting feedback:
 
 ```
-Database: Team Documentation (Master)
+Database - Team Documentation (Master)
 Properties:
   - Title: (text)
   - Owner: (person)
@@ -180,9 +180,9 @@ Properties:
   - Category: (select: Architecture, SOP, Policy)
   - Comments Resolved: (checkbox)
 
-View: "Needs Review"
-Filter: Status = "In Review" AND Due < "Today + 7 days"
-Sort: Due ascending
+View - "Needs Review"
+Filter - Status = "In Review" AND Due < "Today + 7 days"
+Sort - Due ascending
 ```
 
 Comment Workflow
@@ -203,19 +203,19 @@ Comment thread on "Database Schema":
 Comments are threaded but less discoverable than Google Docs. Integrate with Slack to surface comments:
 
 ```
-Slack notification: "@alice commented on Database Schema in Engineering KB"
+Slack notification - "@alice commented on Database Schema in Engineering KB"
 Link directly to page and comment
 ```
 
 Use database templates to standardize documentation format:
 
 ```
-Template: New SOP
-Title: [SOP Name]
-Status: Draft
-Category: [Select]
-Owner: [Select owner]
-Created: [Timestamp]
+Template - New SOP
+Title - [SOP Name]
+Status - Draft
+Category - [Select]
+Owner - [Select owner]
+Created - [Timestamp]
 
 Content sections (consistent for all SOPs):
 - Purpose
@@ -231,8 +231,8 @@ Notion automatically versions changes. Access version history:
 
 ```
 Page menu → "Version history"
-Shows: All changes with timestamps and authors
-Restore: Click timestamp to restore page to that version
+Shows - All changes with timestamps and authors
+Restore - Click timestamp to restore page to that version
 ```
 
 For formal approvals, create snapshots:
@@ -252,14 +252,14 @@ Link Notion documentation review to task tracking:
 ```
 Slack workflow trigger:
 If: Doc status changes to "In Review"
-Then: Create task in project management tool
+Then - Create task in project management tool
   - Title: "Review [doc name]"
   - Assignee: Documentation owner
   - Due: 3 days from now
   - Link to Notion page
 ```
 
-Dropbox Paper: Lightweight Collaboration
+Dropbox Paper - Lightweight Collaboration
 
 Dropbox Paper prioritizes simplicity for quick feedback loops, ideal for teams in fast-moving environments.
 
@@ -268,7 +268,7 @@ Creation and Sharing
 Create a shared Dropbox Paper folder:
 
 ```
-Folder: Team Docs
+Folder - Team Docs
  Incident Response (Paper doc)
  Release Checklist (Paper doc)
  Project Kickoff (Paper doc)
@@ -278,7 +278,7 @@ Share individual papers with comment-only access:
 
 ```
 Paper doc → Share button
-Set link access: "Can view and comment" (no editing)
+Set link access - "Can view and comment" (no editing)
 Send link in Slack or email
 ```
 
@@ -287,10 +287,10 @@ Comment Threading
 Dropbox Paper comments appear as side annotations:
 
 ```
-Text: "Database migration scheduled for Thursday 2pm"
+Text - "Database migration scheduled for Thursday 2pm"
 Hover → Click comment icon
-Commenter types: "@alice Can we move to Friday? Thursday conflicts with board meeting"
-Alice responds: "Done. Moved to Friday 3pm."
+Commenter types - "@alice Can we move to Friday? Thursday conflicts with board meeting"
+Alice responds - "Done. Moved to Friday 3pm."
 Comment resolved and conversation history preserved
 ```
 
@@ -320,7 +320,7 @@ Version history is automatic but limited. Only retain recent versions; old versi
 
 No integration with external workflows. Reviews stay within Paper; must manually track "approved" status or link externally.
 
-Almanac: Process and Compliance Documentation
+Almanac - Process and Compliance Documentation
 
 Almanac specializes in SOPs, runbooks, and compliance documentation where tracking who approved, when, and changes over time matter critically.
 
@@ -329,7 +329,7 @@ Process Template Setup
 Create a process library within Almanac:
 
 ```
-Library: Engineering Processes
+Library - Engineering Processes
  Incident Response (Process)
  Deployment Runbook (Process)
  Code Review SOP (Process)
@@ -339,7 +339,7 @@ Library: Engineering Processes
 Each process includes standard sections:
 
 ```
-Process: Incident Response SOP
+Process - Incident Response SOP
  Purpose: Handle production incidents < 30 min response time
  Responsibilities: Assigned to On-call Engineer
  Prerequisites: On-call setup, escalation contacts
@@ -359,12 +359,12 @@ Approval Workflows
 Almanac enforces formal approval chains:
 
 ```
-SOP created → Status: Draft
+SOP created → Status - Draft
 Owner submits for review → Status: In Review, assigned to approvers
-Approvers: @alice (Technical), @sarah (Compliance)
+Approvers - @alice (Technical), @sarah (Compliance)
 Approvers add comments, request changes
 Owner updates SOP
-Approvers approve → Status: Approved, with signature and date
+Approvers approve → Status - Approved, with signature and date
 ```
 
 Approvals are timestamped and immutable. Useful for audit trails and compliance.
@@ -374,9 +374,9 @@ Change Tracking
 When updating an approved process:
 
 ```
-Current version: v2.1, approved 2026-03-15
+Current version - v2.1, approved 2026-03-15
 Edit process
-Mark change type: "Minor update" (typo, clarification) or "Major update" (procedural change)
+Mark change type - "Minor update" (typo, clarification) or "Major update" (procedural change)
 Resubmit for approval
 Previous version maintained in history
 ```
@@ -414,13 +414,13 @@ Comparison and Decision Framework
 | Version control | Basic | Automatic | Limited | |
 | Approval workflows | Manual | Manual | Manual | Automated |
 | Compliance/audit trails | None | None | None | Excellent |
-| Integration ecosystem | Excellent | Excellent | Good | Moderate |
+| Integration environment | Excellent | Excellent | Good | Moderate |
 | Search and discoverability | Good | Excellent | Moderate | Good |
 | Cost | Free/workspace | Free/workspace | Included/Dropbox | Paid subscription |
 
 Recommended Workflows by Use Case
 
-Quick feedback on drafts: Google Docs with suggestion mode.
+Quick feedback on drafts - Google Docs with suggestion mode.
 ```
 1. Author shares with comment access
 2. Reviewers use suggestion mode for quick edits
@@ -428,7 +428,7 @@ Quick feedback on drafts: Google Docs with suggestion mode.
 4. Move to approved version when complete
 ```
 
-Long-lived knowledge base: Notion with integrated databases.
+Long-lived knowledge base - Notion with integrated databases.
 ```
 1. Create master documentation database
 2. Use templates for consistency
@@ -465,13 +465,13 @@ Slack bot message (every Tuesday 9am):
 - 3 docs awaiting review (due this week)
 - 5 docs approved (last week)
 - 12 processes trained this month
-Docs needing review: [link to Notion view]"
+Docs needing review - [link to Notion view]"
 ```
 
 Mention triggers reminder:
 ```
 @doc-reviewer mentioned in comment
-Slack notification: "You were mentioned in Database Design doc"
+Slack notification - "You were mentioned in Database Design doc"
 Auto-add to personal task list with doc link
 ```
 
@@ -491,7 +491,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -503,7 +503,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

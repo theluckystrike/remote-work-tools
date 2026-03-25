@@ -21,7 +21,7 @@ Table of Contents
 
 - [Why Standard Mice Cause Wrist Pain](#why-standard-mice-cause-wrist-pain)
 - [Mouse Types for Wrist Pain Relief](#mouse-types-for-wrist-pain-relief)
-- [Comparison: Ergonomic Mouse Options](#comparison-ergonomic-mouse-options)
+- [Comparison - Ergonomic Mouse Options](#comparison-ergonomic-mouse-options)
 - [Setup Recommendations for Maximum Pain Relief](#setup-recommendations-for-maximum-pain-relief)
 - [When to Add Supplementary Ergonomic Equipment](#when-to-add-supplementary-ergonomic-equipment)
 - [Troubleshooting Common Issues](#troubleshooting-common-issues)
@@ -30,7 +30,7 @@ Table of Contents
 - [Long-Term Outlook](#long-term-outlook)
 - [Real-World Transition Stories](#real-world-transition-stories)
 - [Monitoring Your Wrist Health](#monitoring-your-wrist-health)
-- [Financial Considerations: When Investment is Worth It](#financial-considerations-when-investment-is-worth-it)
+- [Financial Considerations - When Investment is Worth It](#financial-considerations-when-investment-is-worth-it)
 - [When Professional Help Is Necessary](#when-professional-help-is-necessary)
 - [Regional Differences in Mouse Availability](#regional-differences-in-mouse-availability)
 - [Footer](#footer)
@@ -54,7 +54,7 @@ Logitech MX Vertical:
 - Wireless with USB-C charging (8-day battery)
 - Quiet clicking mechanism reduces noise for shared spaces
 
-Cost: $99. Best for: Long sessions without hand fatigue. Drawback: Requires 1-2 weeks adaptation period.
+Cost - $99. Best for: Long sessions without hand fatigue. Drawback - Requires 1-2 weeks adaptation period.
 
 Anker Vertical Ergonomic Mouse:
 - 60° angle with thumb rest and extended side support
@@ -76,7 +76,7 @@ Kensington Expert Mouse Trackball:
 - Stationary positioning allows mounting on monitor arm
 - Requires learning curve (1-2 weeks before proficiency)
 
-Cost: $79. Best for: Developers with moderate to severe RSI. Drawback: Steep learning curve; precision positioning takes practice.
+Cost - $79. Best for: Developers with moderate to severe RSI. Drawback - Steep learning curve; precision positioning takes practice.
 
 Elecom Huge Trackball:
 - Massive 54mm ball distributes pressure across palm
@@ -85,7 +85,7 @@ Elecom Huge Trackball:
 - Four programmable buttons reduce keyboard dependency
 - Heavier than other trackballs (steadies on desk)
 
-Cost: $89. Best for: Developers who've adapted to trackballs and want premium feel. Weakness: Less widely available; longer shipping times.
+Cost - $89. Best for: Developers who've adapted to trackballs and want premium feel. Weakness - Less widely available; longer shipping times.
 
 Hybrid Ergonomic Solutions
 
@@ -98,7 +98,7 @@ Evoluent VerticalMouse 4:
 - Pressure-sensitive side buttons (customizable sensitivity)
 - Wired and wireless models
 
-Cost: $79 + $50 rest = $129. Best for: Developers with smaller hands needing maximum vertical support. Unique feature: Button sensitivity adjustment reduces finger strain.
+Cost - $79 + $50 rest = $129. Best for: Developers with smaller hands needing maximum vertical support. Unique feature: Button sensitivity adjustment reduces finger strain.
 
 3DConnexion SpaceNavigator Pro:
 - 3D input device (not a traditional mouse)
@@ -107,9 +107,9 @@ Cost: $79 + $50 rest = $129. Best for: Developers with smaller hands needing max
 - Learning curve steeper than vertical mice
 - Integrates with modeling software natively
 
-Cost: $199. Best for: CAD developers, 3D visualization work. Standard developers: Overkill for typical coding work.
+Cost - $199. Best for: CAD developers, 3D visualization work. Standard developers: Overkill for typical coding work.
 
-Comparison: Ergonomic Mouse Options
+Comparison - Ergonomic Mouse Options
 
 | Type | Best For | Wrist Angle | Learning Curve | Cost | Battery |
 |------|----------|------------|-----------------|------|---------|
@@ -164,25 +164,25 @@ When to Add Supplementary Ergonomic Equipment
 
 An ergonomic mouse works best as part of an ergonomic setup. Consider pairing with:
 
-Wrist rest pads: Gel or memory foam pads supporting the heel of your hand eliminate upward wrist extension. Brands like 3M and Fellowes provide quality options ($15-30).
+Wrist rest pads - Gel or memory foam pads supporting the heel of your hand eliminate upward wrist extension. Brands like 3M and Fellowes provide quality options ($15-30).
 
-Monitor arms: Position your monitor at eye level to eliminate downward neck flexion. This reduces shoulder tension that compounds wrist strain. Pneumatic arms from HUANUO or Ergotron ($20-150) allow quick adjustments.
+Monitor arms - Position your monitor at eye level to eliminate downward neck flexion. This reduces shoulder tension that compounds wrist strain. Pneumatic arms from HUANUO or Ergotron ($20-150) allow quick adjustments.
 
-Vertical keyboard: Typed in neutral position with wrists straight ahead. Mechanical split keyboards like Kinesis Advantage ($350) or affordable vertical keyboards ($60-100) pair well with ergonomic mice.
+Vertical keyboard - Typed in neutral position with wrists straight ahead. Mechanical split keyboards like Kinesis Advantage ($350) or affordable vertical keyboards ($60-100) pair well with ergonomic mice.
 
-Standing desk converter: Alternating between sitting and standing reduces cumulative strain from any single position. Even 2-3 hours daily standing provides relief.
+Standing desk converter - Alternating between sitting and standing reduces cumulative strain from any single position. Even 2-3 hours daily standing provides relief.
 
 Troubleshooting Common Issues
 
 Pain increases instead of decreases: Stop using the new mouse and consult a physical therapist. Some RSI conditions require professional intervention beyond equipment changes. This is especially true for advanced RSI with nerve involvement (carpal tunnel syndrome, cubital tunnel syndrome).
 
-Muscle cramps during adaptation: Normal during week 1-2 as unused muscles engage. This should resolve by week 3. If it persists, the mouse angle may not suit your hand size or grip style. Try adjusting desk height or arm position before abandoning the mouse.
+Muscle cramps during adaptation - Normal during week 1-2 as unused muscles engage. This should resolve by week 3. If it persists, the mouse angle may not suit your hand size or grip style. Try adjusting desk height or arm position before abandoning the mouse.
 
-Clicking becomes tiring: You may be gripping too tightly due to habit. Consciously relax your grip; the mouse should rest in your hand, not be squeezed. Tension-based clicking fatigue is mental habit, not the mouse.
+Clicking becomes tiring - You may be gripping too tightly due to habit. Consciously relax your grip; the mouse should rest in your hand, not be squeezed. Tension-based clicking fatigue is mental habit, not the mouse.
 
 Cursor control feels less precise: Vertical mice require different finger micro-movements compared to flat mice. Your muscle memory expects a specific amount of finger movement for a given cursor distance. Allow 3-4 weeks for your proprioception to recalibrate. In the meantime, reduce mouse sensitivity (lower DPI) to compensate.
 
-Shoulder/neck pain develops: If pain shifts from wrist to shoulder, your desk height may be too high or the chair too low. An ergonomic mouse works best with a properly adjusted workstation where elbows rest at 90° to your torso.
+Shoulder/neck pain develops - If pain shifts from wrist to shoulder, your desk height may be too high or the chair too low. An ergonomic mouse works best with a properly adjusted workstation where elbows rest at 90° to your torso.
 
 Hand Size Considerations
 
@@ -190,23 +190,23 @@ Ergonomic mice come in different sizes. This is critical and often overlooked:
 
 Small hands (under 17cm palm length): Evoluent VerticalMouse 4 or Logitech MX Vertical with narrow grip. Standard-size ergonomic mice can force your hand into compensation positions.
 
-Medium hands (17-20cm): Most ergonomic mice accommodate this range. Logitech MX Vertical, Anker, and Kensington trackballs all work well.
+Medium hands (17-20cm) - Most ergonomic mice accommodate this range. Logitech MX Vertical, Anker, and Kensington trackballs all work well.
 
-Large hands (over 20cm): Elecom Huge Trackball or custom/gaming-oriented vertical mice. Consumer options become limited; you may need to special order from international retailers.
+Large hands (over 20cm) - Elecom Huge Trackball or custom/gaming-oriented vertical mice. Consumer options become limited; you may need to special order from international retailers.
 
 Prevention Strategies for Developing Wrist Pain
 
 If you don't yet have wrist pain, prevention is far easier than recovery. Implement these habits now:
 
-Regular stretching: 5-minute stretch breaks every hour. Focus on wrist flexors and extensors. Simple wrist circles and gentle pulls (no forced stretching) prevent stiffness that predisposes to strain.
+Regular stretching - 5-minute stretch breaks every hour. Focus on wrist flexors and extensors. Simple wrist circles and gentle pulls (no forced stretching) prevent stiffness that predisposes to strain.
 
-Position awareness: Maintain neutral wrist position even with standard mice. This conscious effort trains your muscles and prevents bad habits from calcifying.
+Position awareness - Maintain neutral wrist position even with standard mice. This conscious effort trains your muscles and prevents bad habits from calcifying.
 
-Keyboard shortcuts: Reduce mouse usage by 20-30% through keyboard navigation. Learn IDE shortcuts, window management shortcuts, and command-line tools that reduce mouse dependency.
+Keyboard shortcuts - Reduce mouse usage by 20-30% through keyboard navigation. Learn IDE shortcuts, window management shortcuts, and command-line tools that reduce mouse dependency.
 
-Ergonomic workspace setup: Before pain develops, invest in proper desk height, monitor position, and chair support. Preventing RSI is 10x cheaper than treating it.
+Ergonomic workspace setup - Before pain develops, invest in proper desk height, monitor position, and chair support. Preventing RSI is 10x cheaper than treating it.
 
-Strength training: Developers with weak forearm and hand muscles are more susceptible to RSI. Resistance exercises like grip strength training or climbing reduce injury risk.
+Strength training - Developers with weak forearm and hand muscles are more susceptible to RSI. Resistance exercises like grip strength training or climbing reduce injury risk.
 
 Long-Term Outlook
 
@@ -220,15 +220,15 @@ Developers switching to ergonomic mice report surprisingly consistent patterns. 
 
 Notably, developers with serious existing RSI often see dramatic improvements within the same timeline. One developer reports: "After two years of wrist pain that affected my typing, I switched to a vertical mouse. Within three weeks, I could code for 8 hours without pain. That's not an exaggeration, it changed my career trajectory."
 
-The key insight: if adaptation discomfort is severe, you may have the wrong mouse type for your hand. Pain during adaptation (sharp, joint-localized) is different from discomfort (muscle tiredness). Distinguish between these, if you feel sharp pain, switch back.
+The key insight - if adaptation discomfort is severe, you may have the wrong mouse type for your hand. Pain during adaptation (sharp, joint-localized) is different from discomfort (muscle tiredness). Distinguish between these, if you feel sharp pain, switch back.
 
 Monitoring Your Wrist Health
 
 Beyond equipment, develop a habit of noticing your wrist state. Track:
 
 - Pain level: 0-10 scale at end of day
-- Fatigue: How tired does your wrist feel?
-- Swelling: Visible puffiness or tightness?
+- Fatigue - How tired does your wrist feel?
+- Swelling - Visible puffiness or tightness?
 - Range of motion: Any movements that trigger pain?
 
 Use a simple spreadsheet to monitor these over weeks. Trends matter more than single days. Consistent improvement over 3-4 weeks validates your setup. Plateaus or deterioration indicate you need to adjust something (ergonomic mouse alone may not be sufficient).
@@ -247,7 +247,7 @@ Date    | Pain | Fatigue | Notes
 
 If your tracking shows no improvement after 3 weeks, the mouse alone isn't solving your problem. This signals need for additional equipment (wrist rest, monitor arm) or professional evaluation.
 
-Financial Considerations: When Investment is Worth It
+Financial Considerations - When Investment is Worth It
 
 An ergonomic mouse costs $35-200 depending on type. A wrist rest adds $15-30. A monitor arm runs $20-150. Total investment: $70-380. This seems expensive until you calculate the alternative.
 

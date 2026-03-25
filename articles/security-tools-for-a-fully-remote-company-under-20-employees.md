@@ -22,7 +22,7 @@ Table of Contents
 
 - [The Remote Security Challenge](#the-remote-security-challenge)
 - [Identity and Access Management](#identity-and-access-management)
-- [Network Security: Beyond Traditional VPNs](#network-security-beyond-traditional-vpns)
+- [Network Security - Beyond Traditional VPNs](#network-security-beyond-traditional-vpns)
 - [Endpoint Protection](#endpoint-protection)
 - [Secrets Management](#secrets-management)
 - [Implementation Priorities](#implementation-priorities)
@@ -32,7 +32,7 @@ Table of Contents
 - [Security Audit Template for Small Teams](#security-audit-template-for-small-teams)
 - [Security Audit Checklist](#security-audit-checklist)
 - [Incident Response Plan for Small Teams](#incident-response-plan-for-small-teams)
-- [Cost-Benefit Analysis: Security Investment](#cost-benefit-analysis-security-investment)
+- [Cost-Benefit Analysis - Security Investment](#cost-benefit-analysis-security-investment)
 
 The Remote Security Challenge
 
@@ -64,7 +64,7 @@ LessPass offers a different approach, stateless password generation. No database
 
 Pick one, enforce its use through policy, and enable mandatory two-factor authentication on all team accounts.
 
-Two-Factor Authentication: Hardware Keys Over Apps
+Two-Factor Authentication - Hardware Keys Over Apps
 
 Time-based one-time passwords (TOTP) via authenticator apps represent a significant upgrade over SMS. Hardware security keys provide the strongest protection. For a small team, YubiKeys or Titan Security Keys hit the sweet spot between security and usability.
 
@@ -92,7 +92,7 @@ const registration = await navigator.credentials.create({
 
 Hardware keys work across platforms, cannot be phished like TOTP codes, and eliminate SIM-swapping attacks entirely.
 
-Network Security: Beyond Traditional VPNs
+Network Security - Beyond Traditional VPNs
 
 Traditional VPNs create a single point of failure and often degrade performance significantly. For remote teams, zero-trust network access (ZTNA) solutions provide better security with improved user experience.
 
@@ -113,7 +113,7 @@ ingress:
 
 This setup routes traffic through Cloudflare's network, applies access policies based on identity, and logs every connection. The free tier covers teams under 20 comfortably.
 
-Tailscale: Mesh VPN for Small Teams
+Tailscale - Mesh VPN for Small Teams
 
 Tailscale builds a mesh VPN using WireGuard under the hood. Every device gets an IP address on your virtual network. No central concentrator, traffic flows directly between machines when possible. This works exceptionally well for teams accessing development servers, internal tools, or shared development environments.
 
@@ -147,7 +147,7 @@ Key features for remote teams:
 - Automated incident response
 - Integration with Slack/Teams for alerts
 
-System Encryption: Native Solutions
+System Encryption - Native Solutions
 
 Do not pay for disk encryption when your operating systems include it. Enable FileVault on macOS and BitLocker on Windows. Deploy via mobile device management (MDM) or configure programmatically:
 
@@ -182,7 +182,7 @@ path "secret/data/deploy/*" {
 
 For teams under 20, the Kubernetes operator or standalone Vault instance with auto-unseal suits most use cases. The API-first design integrates into CI/CD pipelines and application code.
 
-Doppler: Simplified Developer Secrets
+Doppler - Simplified Developer Secrets
 
 Doppler simplifies secrets management for developers. It replaces environment variables with a managed service, syncs secrets across environments automatically, and provides audit logs. The free tier handles small teams well.
 
@@ -221,9 +221,9 @@ Your threat model differs from enterprises. Your budget differs from enterprises
 
 Tool Stack Recommendations by Company Stage
 
-Stage 1: Pre-Seed to Seed (1-5 People)
+Stage 1 - Pre-Seed to Seed (1-5 People)
 
-Goal: Establish basic security without overhead
+Goal - Establish basic security without overhead
 
 ```
 Identity:
@@ -247,12 +247,12 @@ Backup:
   - Backblaze B2 (incremental cloud backup)
   - Cost: $5-15/month
 
-Total: $10-30/month for entire company
+Total - $10-30/month for entire company
 ```
 
-Stage 2: Early Growth (5-15 People)
+Stage 2 - Early Growth (5-15 People)
 
-Goal: Add compliance and incident response
+Goal - Add compliance and incident response
 
 ```
 Add to Stage 1:
@@ -271,12 +271,12 @@ Add to Stage 1:
   - Compliance: Drata (automated reporting)
   - Cost: $500-1000/month (if you need SOC 2)
 
-Total: $800-1500/month for entire company
+Total - $800-1500/month for entire company
 ```
 
-Stage 3: Series A (15-30 People)
+Stage 3 - Series A (15-30 People)
 
-Goal: Enterprise-ready without enterprise cost
+Goal - Enterprise-ready without enterprise cost
 
 ```
 Add to Stage 2:
@@ -289,10 +289,10 @@ Add to Stage 2:
   - Threat Intelligence: Shodan integration
   - Cost: $99-250/month
 
-  - Compliance: Compliance.ai or similar
+  - Compliance - Compliance.ai or similar
   - Cost: $500-1500/month
 
-Total: $2000-3500/month for entire company
+Total - $2000-3500/month for entire company
 ```
 
 Security Audit Template for Small Teams
@@ -347,7 +347,7 @@ IMMEDIATE (0-30 minutes)
 5. Preserve evidence: Don't delete logs; save to safe location
 
 URGENT (30 min - 2 hours)
-6. Investigate: What happened, when, who was affected?
+6. Investigate - What happened, when, who was affected?
 7. External notification: If customer data exposed, must notify within timeframe (often 24-48h)
 8. Remediate: Fix vulnerability, change passwords, revoke tokens
 9. Communication: Prepare statement for customers (legal/PR review)
@@ -361,24 +361,24 @@ FOLLOW-UP (2-7 days)
 
 Have this ready before you need it. Prepare a Slack channel template, contact list, and communication templates now.
 
-Cost-Benefit Analysis: Security Investment
+Cost-Benefit Analysis - Security Investment
 
-Scenario: Startup with $1M ARR, 12 employees
+Scenario - Startup with $1M ARR, 12 employees
 
-Option A: Minimal Security ($50/month)
+Option A - Minimal Security ($50/month)
 - Cost: $50/month = $600/year
 - Risk: Data breach, ransomware, regulatory fines
 - Expected loss (if breach): $50k-500k (investigation + notification + fines + reputation)
 - Breach probability (unprotected): 15%/year
 - Expected annual cost: (0.15 × 250k) + 600 = $38,100
 
-Option B: Baseline Security ($800/month)
+Option B - Baseline Security ($800/month)
 - Cost: $800/month = $9,600/year
 - Expected loss (if breach): $50k-500k
 - Breach probability (protected): 2%/year
 - Expected annual cost: (0.02 × 250k) + 9,600 = $14,600
 
-Option C: Strong Security ($2000/month)
+Option C - Strong Security ($2000/month)
 - Cost: $2,000/month = $24,000/year
 - Expected loss (if breach): $50k-500k
 - Breach probability (protected): 0.5%/year

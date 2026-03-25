@@ -30,7 +30,7 @@ The three primary light layers in a functional home office are:
 
 Most developers focus only on task lighting, ignoring ambient and accent layers. A balanced approach creates a workspace where your eyes can relax during pauses between coding sessions.
 
-Color Temperature: Finding Your Ideal Range
+Color Temperature - Finding Your Ideal Range
 
 Color temperature, measured in Kelvin (K), determines whether light appears warm (yellow) or cool (blue). For coding environments, the optimal range sits between 4000K and 5500K.
 
@@ -42,7 +42,7 @@ Recommended color temperature zones:
 | Afternoon (12pm-6pm) | 4000K-5000K | Balanced lighting as daylight shifts |
 | Evening (6pm+) | 3000K-4000K | Warmer tones that support circadian rhythm |
 
-The key principle: match your artificial lighting to natural daylight patterns. This supports your body's natural rhythms and prevents the alertness drop that comes with misaligned lighting.
+The key principle - match your artificial lighting to natural daylight patterns. This supports your body's natural rhythms and prevents the alertness drop that comes with misaligned lighting.
 
 For implementation, many smart bulbs support temperature adjustment via local APIs. Here's a Home Assistant automation example that adjusts your desk lamp throughout the day:
 
@@ -202,7 +202,7 @@ sensor:
 
 Building Your Lighting System Over Time
 
-Start simple: one quality task light with adjustable color temperature. Add smart bulbs and automation as you identify problems. Track your energy levels and eye comfort over two weeks to identify what works.
+Start simple - one quality task light with adjustable color temperature. Add smart bulbs and automation as you identify problems. Track your energy levels and eye comfort over two weeks to identify what works.
 
 The best lighting setup is one you'll actually use consistently. Incremental improvements beat elaborate systems that become complicated to maintain.
 ---

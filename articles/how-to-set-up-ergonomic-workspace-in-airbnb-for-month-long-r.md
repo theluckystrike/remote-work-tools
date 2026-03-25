@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Pre-Arrival Research: Know What You're Walking Into
+Step 1 - Pre-Arrival Research: Know What You're Walking Into
 
 Before booking, scan listing photos for desk and chair options. Look for:
 
@@ -49,7 +49,7 @@ Create a quick checklist of items to pack that address common ergonomic gaps:
 - Blue light glasses
 - USB cable extensions (often missing in older rentals)
 
-Step 2: The First Hour: Rapid Assessment and Setup
+Step 2 - The First Hour: Rapid Assessment and Setup
 
 Upon arrival, spend the first hour configuring your workspace. This investment pays dividends throughout your stay.
 
@@ -71,7 +71,7 @@ If using a laptop, external monitor, or even a tablet, position the top of the s
 
 For Airbnb setups without a monitor, your laptop screen alone works, but raise it to prevent constantly looking down. A stack of books or a travel laptop stand achieves this effectively.
 
-Step 3: Essential Equipment Setup
+Step 3 - Essential Equipment Setup
 
 The Minimal Travel Kit
 
@@ -83,7 +83,7 @@ Pack these items for any month-long stay:
 4. Lumbar cushion. Provides back support on unfamiliar chairs
 5. LED desk lamp ,  Airbnb lighting deficiencies
 
-Total weight: approximately 2-3 lbs. Worth carrying for your health.
+Total weight - approximately 2-3 lbs. Worth carrying for your health.
 
 Sourcing Locally
 
@@ -94,7 +94,7 @@ If you forget something or need better options, these items are typically availa
 - Books or magazines. Stack as temporary monitor risers
 - Rubber door stops. Raise chair height if needed
 
-Step 4: Keyboard and Input Setup
+Step 4 - Keyboard and Input Setup
 
 For developers, proper keyboard positioning reduces strain and improves coding speed. When your laptop is on a stand with an external keyboard:
 
@@ -112,7 +112,7 @@ mouse_placement: "same level as keyboard, close by"
 
 If the Airbnb desk is too deep, push the keyboard forward and use the space behind for reference materials or a second monitor.
 
-Step 5: Lighting and Environment
+Step 5 - Lighting and Environment
 
 Poor lighting causes eye strain and fatigue. Position your workspace to maximize natural light, but avoid direct glare on your screen. For evening work:
 
@@ -129,14 +129,14 @@ Blue light exposure affects sleep quality. Enable night shift modes or use blue 
 ```bash
 macOS: Enable Night Shift
 System Settings → Display → Night Shift
-Schedule: Sunset to Sunrise or custom hours
+Schedule - Sunset to Sunrise or custom hours
 
-Linux: Redshift installation
+Linux - Redshift installation
 sudo apt-get install redshift
 redshift -O 3000K  # Warm color temperature
 ```
 
-Step 6: Movement and Breaks
+Step 6 - Movement and Breaks
 
 Even perfect ergonomics cannot replace movement. Set up reminders to stand, stretch, and walk:
 
@@ -158,7 +158,7 @@ setInterval(takeBreak, 25 * 60 * 1000);
 
 Alternatively, use browser extensions like "Stretchly" or "Time Out" that suggest specific stretches.
 
-Step 7: Quick Fixes for Common Problems
+Step 7 - Quick Fixes for Common Problems
 
 Hard Chair Surface
 
@@ -183,7 +183,7 @@ No Proper Desk
 
 Work from the floor with a lap desk and pillow arrangement. Not ideal for long sessions, but better than hunching over a coffee table for hours.
 
-Step 8: Final Checklist Before You Start
+Step 8 - Final Checklist Before You Start
 
 - [ ] Desk at correct height (elbows at 90 degrees)
 - [ ] Monitor at eye level, arm's length away
@@ -201,7 +201,7 @@ The RSI (Repetitive Strain Injury) Prevention Protocol
 
 Developers face high risk of RSI from hours at keyboards. Use this prevention system:
 
-Breaks pattern: Pomodoro with movement
+Breaks pattern - Pomodoro with movement
 ```javascript
 // 52-17 Pomodoro variant (more breaks than traditional)
 // Research shows 52 min work + 17 min break optimal for sustained performance
@@ -297,7 +297,7 @@ External monitor setup (preferred):
 - Laptop closed (use external keyboard/mouse)
 - Cost: $100-300 if buying, $0 if borrowing
 
-Step 9: Airbnb-Specific Ergonomic Challenges
+Step 9 - Airbnb-Specific Ergonomic Challenges
 
 Different Airbnb types create different problems:
 
@@ -321,7 +321,7 @@ High-Rise with Natural Light:
 - Solution: Anti-glare screen protector ($15-30) or simple curtain adjustment
 - Position: Sit perpendicular to windows (not facing them)
 
-Step 10: Health Metrics to Track
+Step 10 - Health Metrics to Track
 
 Beyond comfort, track objective health markers:
 
@@ -341,7 +341,7 @@ Posture Self-Check:
 If any answer is "No" or score is >3: Adjust setup immediately.
 ```
 
-Step 11: Travel-Friendly Ergonomic Gear Recommendation
+Step 11 - Travel-Friendly Ergonomic Gear Recommendation
 
 Essential (must carry):
 - Portable laptop stand: Roost ($30) or similar - folds to credit card size
@@ -358,7 +358,7 @@ Don't carry:
 - Desk chair (impossible to carry, always available at Airbnbs)
 - Monitor arm (too heavy, use books instead)
 
-Total weight for essential gear: ~1 lb. Worth every ounce for health.
+Total weight for essential gear - ~1 lb. Worth every ounce for health.
 
 Troubleshooting
 

@@ -24,7 +24,7 @@ When your hiring team spans San Francisco, London, and Singapore, finding a sing
 
 The core requirements for effective cross-timezone scheduling include accurate timezone detection, persistent timezone preference storage, automatic conversion display for all participants, and support for both synchronous (real-time) and asynchronous interview formats.
 
-Technical Foundation: Timezone Handling
+Technical Foundation - Timezone Handling
 
 At the foundation of any scheduling tool lies proper timezone data handling. The IANA Time Zone Database provides the most reliable source for timezone information. Modern JavaScript environments include Intl.DateTimeFormat for timezone conversion:
 
@@ -164,7 +164,7 @@ async function createInterviewEvent(interviewDetails) {
   }));
 
   const event = {
-    summary: `Interview: ${interviewDetails.candidateName}`,
+    summary: `Interview - ${interviewDetails.candidateName}`,
     description: interviewDetails.description,
     start: {
       dateTime: interviewDetails.startTime,

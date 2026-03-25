@@ -79,7 +79,7 @@ async function sendReviewReminder(engineer, phase) {
       `Hi ${engineer.name}, your self-review is due in 2 days. ` +
       `Focus on: completed tickets, code reviews, and team contributions.`,
     [REVIEW_PHASES.PEER_FEEDBACK]:
-      `Reminder: Please complete peer feedback for ${engineer.name} by Friday.`
+      `Reminder - Please complete peer feedback for ${engineer.name} by Friday.`
   };
 
   await slackClient.chat.postMessage({
@@ -89,7 +89,7 @@ async function sendReviewReminder(engineer, phase) {
 }
 ```
 
-Practical tip: Send reminders 48 hours before each deadline, not just on the day. Engineers have packed schedules and context-switching is expensive. A two-day warning gives them time to block time intentionally. A same-day reminder often results in rushed, low-quality responses.
+Practical tip - Send reminders 48 hours before each deadline, not just on the day. Engineers have packed schedules and context-switching is expensive. A two-day warning gives them time to block time intentionally. A same-day reminder often results in rushed, low-quality responses.
 
 Pulling Objective Data Automatically
 
@@ -152,7 +152,7 @@ Self-Review Template
 - 1-2 specific, measurable goals:
 ```
 
-Common mistake: Engineers often write self-reviews in abstract terms ("worked on performance improvements"). Coach your team to use specific metrics: "Reduced API response time from 340ms to 95ms by implementing query result caching on the product search endpoint." Specificity makes the review more useful and gives the engineer better material for future job searches or promotion cases.
+Common mistake - Engineers often write self-reviews in abstract terms ("worked on performance improvements"). Coach your team to use specific metrics: "Reduced API response time from 340ms to 95ms by implementing query result caching on the product search endpoint." Specificity makes the review more useful and gives the engineer better material for future job searches or promotion cases.
 
 Peer Feedback Template
 
@@ -173,7 +173,7 @@ Growth
 - What's one area where they've improved this quarter?
 - What advice would you give for continued growth?
 
-Optional: Specific Example
+Optional - Specific Example
 Describe one specific situation where they demonstrated [strength/area for improvement]:
 ```
 
@@ -183,9 +183,9 @@ Running the Review Cycle
 
 A typical async review cycle spans two weeks. Here's how to structure it:
 
-Week 1: Collection Phase
+Week 1 - Collection Phase
 
-Days 1-2: Manager posts review templates and announces timeline in team channel
+Days 1-2 - Manager posts review templates and announces timeline in team channel
 
 ```markdown
 Q1 Performance Review Cycle
@@ -200,19 +200,19 @@ Instructions:
 Copy the template from [link], fill it out, and tag me when complete.
 ```
 
-Days 3-5: Engineers complete self-reviews. Simultaneously, trigger peer feedback requests.
+Days 3-5 - Engineers complete self-reviews. Simultaneously, trigger peer feedback requests.
 
-Days 6-7: Peers provide feedback. Managers can begin reading self-reviews.
+Days 6-7 - Peers provide feedback. Managers can begin reading self-reviews.
 
-Week 2: Synthesis Phase
+Week 2 - Synthesis Phase
 
-Days 8-10: Manager writes their review, incorporating self-assessment and peer feedback
+Days 8-10 - Manager writes their review, incorporating self-assessment and peer feedback
 
-Days 11-12: Employee receives manager review, has time to read and reflect
+Days 11-12 - Employee receives manager review, has time to read and reflect
 
-Days 13-14: Optional synchronous follow-up for clarifications, goal-setting discussion
+Days 13-14 - Optional synchronous follow-up for clarifications, goal-setting discussion
 
-Scheduling the optional sync: Frame this as "a 30-minute conversation if you'd like one" rather than a mandatory call. Many engineers in well-run async review cycles find they have few questions after reading a thorough written review. Keeping the sync optional respects time zones and signals that the written review stands on its own.
+Scheduling the optional sync - Frame this as "a 30-minute conversation if you'd like one" rather than a mandatory call. Many engineers in well-run async review cycles find they have few questions after reading a thorough written review. Keeping the sync optional respects time zones and signals that the written review stands on its own.
 
 Handling Difficult Conversations
 
@@ -233,9 +233,9 @@ Action Steps:
 4. Schedule follow-up review in 30-60 days
 ```
 
-The rule here is simple: async for information gathering, synchronous for difficult conversations. A written performance improvement plan delivered without a human conversation is a management failure, regardless of how distributed your team is.
+The rule here is simple - async for information gathering, synchronous for difficult conversations. A written performance improvement plan delivered without a human conversation is a management failure, regardless of how distributed your team is.
 
-Real-world scenario: An engineering manager at a 40-person distributed company ran their first async review cycle and discovered through peer feedback that a senior engineer had been blocking code reviews for junior team members, holding PRs for days without comment, then rejecting with terse feedback. The written trail from async reviews made the pattern undeniable. The manager scheduled a video call, addressed the behavior with specific examples, and set a 30-day check-in. Six months later, the same engineer had become one of the team's most helpful reviewers. The async format surfaced a problem that synchronous reviews had missed for two years.
+Real-world scenario - An engineering manager at a 40-person distributed company ran their first async review cycle and discovered through peer feedback that a senior engineer had been blocking code reviews for junior team members, holding PRs for days without comment, then rejecting with terse feedback. The written trail from async reviews made the pattern undeniable. The manager scheduled a video call, addressed the behavior with specific examples, and set a 30-day check-in. Six months later, the same engineer had become one of the team's most helpful reviewers. The async format surfaced a problem that synchronous reviews had missed for two years.
 
 Measuring Review Effectiveness
 
@@ -263,7 +263,7 @@ Post-Review Survey
 4. Any friction points in the async process?
 ```
 
-Iteration cadence: Run the post-review survey within 48 hours of cycle completion while the experience is fresh. Review the results before designing the next cycle. Most teams see completion rates improve significantly between cycles 1 and 3 as engineers understand what's expected and trust that their written responses are actually read.
+Iteration cadence - Run the post-review survey within 48 hours of cycle completion while the experience is fresh. Review the results before designing the next cycle. Most teams see completion rates improve significantly between cycles 1 and 3 as engineers understand what's expected and trust that their written responses are actually read.
 
 The single metric that matters most is goal completion in the following cycle. If engineers consistently fail to hit goals set in reviews, either the goals are being set unrealistically or the review feedback isn't translating into actionable change. Both are fixable, but only if you're tracking the outcome.
 

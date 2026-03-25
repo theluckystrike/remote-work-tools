@@ -21,8 +21,8 @@ Documentation transforms vague interview processes into repeatable, fair hiring 
 Table of Contents
 
 - [Why Structured Interview Documentation Matters](#why-structured-interview-documentation-matters)
-- [Template: Remote Interview Process Documentation](#template-remote-interview-process-documentation)
-- [Role: [Job Title]](#role-job-title)
+- [Template - Remote Interview Process Documentation](#template-remote-interview-process-documentation)
+- [Role - [Job Title]](#role-job-title)
 - [Technical Competency Scoring (1-4 Scale)](#technical-competency-scoring-1-4-scale)
 - [Remote Interview Guidelines](#remote-interview-guidelines)
 - [Candidate Experience Commitments](#candidate-experience-commitments)
@@ -46,20 +46,20 @@ Structured documentation solves three critical problems:
 2. Accountability: Evaluation criteria are visible and defensible
 3. Scalability: New hiring managers can onboard quickly without informal training
 
-Template: Remote Interview Process Documentation
+Template - Remote Interview Process Documentation
 
 Copy this template into your team handbook and customize the placeholders for your organization.
 
-Section 1: Role Overview
+Section 1 - Role Overview
 
 ```markdown
-Role: [Job Title]
-Department: [Engineering/Product/Design/etc.]
-Location: [Remote/Hybrid - specify time zones]
-Level: [Junior/Mid/Senior/Staff]
+Role - [Job Title]
+Department - [Engineering/Product/Design/etc.]
+Location - [Remote/Hybrid - specify time zones]
+Level - [Junior/Mid/Senior/Staff]
 ```
 
-Section 2: Interview Pipeline
+Section 2 - Interview Pipeline
 
 Document each stage with clear purpose and duration:
 
@@ -70,7 +70,7 @@ Document each stage with clear purpose and duration:
 | Technical | Senior Team Member | 60 min | Async/Video | Problem-solving ability |
 | Culture | Team Lead | 30 min | Video call | Values alignment |
 
-Section 3: Evaluation Criteria Matrix
+Section 3 - Evaluation Criteria Matrix
 
 Create a scoring rubric for objective assessments:
 
@@ -92,7 +92,7 @@ Key Competencies for [Role Type]
 - Collaboration: Works effectively in distributed teams
 ```
 
-Section 4: Interview Question Bank
+Section 4 - Interview Question Bank
 
 Include sample questions for each stage. Avoid trick questions, focus on job-relevant scenarios:
 
@@ -114,7 +114,7 @@ Senior Developer Example:
 - How do you balance speed of delivery with code quality in a remote setting?
 ```
 
-Section 5: Interviewing Best Practices for Remote Sessions
+Section 5 - Interviewing Best Practices for Remote Sessions
 
 Include guidelines that every interviewer should follow:
 
@@ -140,7 +140,7 @@ After the Interview
 - [ ] Highlight strengths and growth areas clearly
 ```
 
-Section 6: Candidate Experience Standards
+Section 6 - Candidate Experience Standards
 
 Document how candidates should be treated:
 
@@ -154,7 +154,7 @@ Candidate Experience Commitments
 - Rejection emails include specific, constructive feedback when possible
 ```
 
-Section 7: Common Pitfalls to Avoid
+Section 7 - Common Pitfalls to Avoid
 
 Include warnings based on your team's hiring mistakes:
 
@@ -172,11 +172,11 @@ Adapting This Template for Your Team
 
 Every organization adjusts based on role type and team size. Consider these modifications:
 
-For Technical Roles: Add a live coding or system design stage. Document the specific platforms (CoderPad, HackerRank, etc.) and what constitutes passing performance.
+For Technical Roles - Add a live coding or system design stage. Document the specific platforms (CoderPad, HackerRank, etc.) and what constitutes passing performance.
 
-For Non-Technical Roles: Replace technical assessments with case studies or work samples. Define evaluation criteria for presentation skills and strategic thinking.
+For Non-Technical Roles - Replace technical assessments with case studies or work samples. Define evaluation criteria for presentation skills and strategic thinking.
 
-For Senior Leadership: Include reference checks earlier in the process. Add a "presentation to the team" stage where candidates present their past work.
+For Senior Leadership - Include reference checks earlier in the process. Add a "presentation to the team" stage where candidates present their past work.
 
 Implementation Checklist
 
@@ -269,19 +269,19 @@ Reduce hiring time while maintaining quality through sequential elimination:
 ```markdown
 Three-Stage Pipeline for Remote Engineering Roles
 
-Stage 1: Code Review (24 hours, async)
+Stage 1 - Code Review (24 hours, async)
 - Send short coding challenge (not live coding)
 - Provide 48 hours to complete
 - Evaluate on code clarity, not speed
 - Pass rate target: 40% proceed to Stage 2
 
-Stage 2: System Design Brief (30 min, sync)
+Stage 2 - System Design Brief (30 min, sync)
 - Short design exercise related to actual work
 - Focus on communication over perfect design
 - Assess ability to justify tradeoffs
 - Pass rate target: 50% proceed to Stage 3
 
-Stage 3: Culture + Experience (45 min, sync)
+Stage 3 - Culture + Experience (45 min, sync)
 - Deep look at past projects
 - Assess async communication samples
 - Team culture fit discussion
@@ -353,14 +353,14 @@ class InterviewProcessHistory:
 Usage
 engineering_interviews = InterviewProcessHistory("Senior Backend Engineer")
 
-Version 1.0: Initial process
+Version 1.0 - Initial process
 engineering_interviews.add_version([
     "Added async coding challenge as Stage 1",
     "Reduced interview count from 4 to 3 stages",
     "Added remote-work competency questions"
 ], "hiring@company.com")
 
-Version 1.1: Refinement after first month
+Version 1.1 - Refinement after first month
 engineering_interviews.add_version([
     "Extended time for coding challenge from 24h to 48h",
     "Added system design specificity based on actual team needs",

@@ -53,7 +53,7 @@ For small engineering teams, you can combine these components using open-source 
 
 Implementation Steps
 
-Step 1: Inventory Your Resources
+Step 1 - Inventory Your Resources
 
 Before implementing any access controls, document what needs protection. Engineering teams typically have:
 
@@ -65,7 +65,7 @@ Before implementing any access controls, document what needs protection. Enginee
 
 Create a spreadsheet listing each resource, its sensitivity level, and who needs access. This becomes your baseline for policy creation.
 
-Step 2: Deploy an Identity-Aware Proxy
+Step 2 - Deploy an Identity-Aware Proxy
 
 Cloudflare Access, Teleport, and Pomerium provide identity-aware proxy capabilities suitable for small teams. Here's a practical example using Pomerium, an open-source solution:
 
@@ -101,7 +101,7 @@ routes:
                 - engineering
 ```
 
-Step 3: Implement Device Posture Checks
+Step 3 - Implement Device Posture Checks
 
 Device trust ensures that only managed devices can access sensitive resources. For small teams, you can start with basic checks and expand over time.
 
@@ -127,7 +127,7 @@ Tailscale, a mesh VPN with zero trust features, integrates with mobile device ma
 }
 ```
 
-Step 4: Configure Multi-Factor Authentication
+Step 4 - Configure Multi-Factor Authentication
 
 Enforce MFA for all access to internal resources. Hardware keys (YubiKeys) provide the strongest protection, but authenticator apps work well for most teams. Implement MFA at the identity provider level:
 
@@ -148,7 +148,7 @@ allow {
 }
 ```
 
-Step 5: Deploy Short-Lived Certificates
+Step 5 - Deploy Short-Lived Certificates
 
 Replace long-lived API tokens with short-lived certificates. Cloudflare's mTLS mode or HashiCorp Vault's certificate authorities issue certificates valid for hours rather than months. This limits the window of opportunity if credentials leak:
 

@@ -17,7 +17,7 @@ tags: [remote-work-tools]
 
 A solo developer CI/CD pipeline does one thing: make sure you never manually deploy again. Every push to `main` runs your tests, builds your artifact, and ships it. If anything breaks, the deploy stops.
 
-This guide builds a full pipeline using GitHub Actions: test on every PR, build a Docker image on merge to `main`, push to a registry, and deploy to a VPS via SSH. The same pattern works for static sites, Node apps, Python services, or Go binaries.
+This guide builds a full pipeline using GitHub Actions - test on every PR, build a Docker image on merge to `main`, push to a registry, and deploy to a VPS via SSH. The same pattern works for static sites, Node apps, Python services, or Go binaries.
 
 What the Pipeline Does
 
@@ -48,7 +48,7 @@ myapp/
  tests/
 ```
 
-CI Workflow: Test Every Push
+CI Workflow - Test Every Push
 
 ```yaml
 .github/workflows/ci.yml
@@ -91,7 +91,7 @@ jobs:
 
 This workflow runs on every push and every PR. If tests fail on a PR, the merge button is blocked. Branch protection rules enforce this. enable them under Settings → Branches → main → Require status checks.
 
-Deploy Workflow: Ship on Merge to Main
+Deploy Workflow - Ship on Merge to Main
 
 ```yaml
 .github/workflows/deploy.yml

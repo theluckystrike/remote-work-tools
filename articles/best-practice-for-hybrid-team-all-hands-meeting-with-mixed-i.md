@@ -253,7 +253,7 @@ How long should a hybrid all-hands be?
 Sixty to ninety minutes is the practical upper limit. Remote attendees experience significantly higher meeting fatigue than in-room participants due to the cognitive load of video conferencing. For longer strategic sessions, split across two shorter meetings on separate days.
 
 What is the minimum viable equipment setup for a hybrid all-hands?
-At minimum: one dedicated room laptop, one external USB conference microphone (such as the Jabra Speak 510), and one external webcam (such as the Logitech C920). This setup costs under $300 and supports rooms up to eight in-person attendees with acceptable quality.
+At minimum - one dedicated room laptop, one external USB conference microphone (such as the Jabra Speak 510), and one external webcam (such as the Logitech C920). This setup costs under $300 and supports rooms up to eight in-person attendees with acceptable quality.
 
 How do you handle time zone conflicts for global teams?
 Record every session and provide an async participation window. typically 72 hours. where remote attendees can submit questions and reactions. Rotate meeting times quarterly so no single time zone consistently bears the early morning or late evening burden.
@@ -361,7 +361,7 @@ class HybridMeetingMetrics:
     def calculate_participation_equity(self, meeting_data):
         """
         Measure speaking time equity between in-person and remote.
-        Goal: <15% difference in speaking time.
+        Goal - <15% difference in speaking time.
         """
         in_person_seconds = sum(
             speaker['duration'] for speaker in meeting_data

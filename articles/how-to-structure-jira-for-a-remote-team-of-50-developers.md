@@ -23,7 +23,7 @@ Remote teams face a fundamental challenge: information asymmetry. When developer
 
 With 50 developers, you'll likely have multiple product areas, a mix of feature work and maintenance, and various release cadences. The structure must accommodate this complexity while remaining navigable.
 
-Recommended Hierarchy: Projects, Boards, and Filters
+Recommended Hierarchy - Projects, Boards, and Filters
 
 For a team of 50 developers, a flat project structure quickly becomes unmanageable. Instead, use a hierarchical approach that groups related work while maintaining clear boundaries.
 
@@ -52,7 +52,7 @@ For remote teams, consider adding a "Ready for Dev" board that shows issues prep
 
 ```jira
 Board configuration example
-Board: PROJ-API Sprint Board
+Board - PROJ-API Sprint Board
   Filter: project = PROJ-API AND sprint = "Sprint 42"
   Columns: To Do | In Progress | In Review | Done
 ```
@@ -79,29 +79,29 @@ Automation Rules to Reduce Manual Work
 
 Jira Automation helps remote teams maintain flow without constant manual updates. Set up these essential rules:
 
-Rule 1: Auto-transition on PR reference
+Rule 1 - Auto-transition on PR reference
 ```jira
 When a pull request URL is added to an issue
 IF: Pull Request field contains "http"
-THEN: Transition to "In Review"
-AND: Add label "code-review"
+THEN - Transition to "In Review"
+AND - Add label "code-review"
 ```
 
-Rule 2: Blocked notification
+Rule 2 - Blocked notification
 ```jira
 When issue moves to Blocked
 IF: Status changes to Blocked
-THEN: Send email to Engineering Manager
-AND: Post to #dev-blockers Slack channel
-AND: Set Due Date to +2 days (remind to resolve)
+THEN - Send email to Engineering Manager
+AND - Post to #dev-blockers Slack channel
+AND - Set Due Date to +2 days (remind to resolve)
 ```
 
-Rule 3: Stale issue reminder
+Rule 3 - Stale issue reminder
 ```jira
 When issue in progress > 3 days without update
 IF: Status = In Progress AND updated > 3 days ago
-THEN: Add comment "@assignee Please provide an update"
-AND: Add label "needs-attention"
+THEN - Add comment "@assignee Please provide an update"
+AND - Add label "needs-attention"
 ```
 
 Team-Specific Configurations
@@ -114,11 +114,11 @@ Assign components to team leads or senior developers. Components create accounta
 
 ```jira
 Component configuration for PROJ-API
-Component: User Endpoints
+Component - User Endpoints
   Lead: sarah.dev@example.com
   Default Assignee: sarah.dev@example.com
 
-Component: Webhooks
+Component - Webhooks
   Lead: mike.dev@example.com
   Default Assignee: mike.dev@example.com
 ```
@@ -128,10 +128,10 @@ Team-Restricted Filters
 Create saved filters that are automatically scoped to team needs:
 
 ```jira
-Filter: "My Team's Ready Issues"
+Filter - "My Team's Ready Issues"
   jql: project = PROJ-API AND status = "Ready for Dev" AND assignee in membersOf("api-team")
 
-Filter: "Team Blockers"
+Filter - "Team Blockers"
   jql: project = PROJ-API AND status = Blocked ORDER BY updated DESC
 ```
 
@@ -146,7 +146,7 @@ Epic Linking for Cross-Team Work
 Create epics that span projects when necessary:
 
 ```jira
-Epic: "Unified User Profile"
+Epic - "Unified User Profile"
   Links:
     - PROJ-API-123 (API changes)
     - PROJ-FRONT-456 (UI updates)
@@ -160,7 +160,7 @@ Dependency Issues
 For explicit dependencies, create dedicated issue types:
 
 ```jira
-Issue Type: Dependency
+Issue Type - Dependency
   Fields: Blocks (issue picker), Blocked By (issue picker), Target Team (select)
 ```
 

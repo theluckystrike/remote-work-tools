@@ -79,11 +79,11 @@ Discussion Format That Works
 
 The discussion format determines whether your podcast club thrives or becomes another forgotten meeting series. Structure each session into three phases:
 
-Phase 1: Quick Recap (5 minutes)
+Phase 1 - Quick Recap (5 minutes)
 
 The discussion lead shares an one-minute summary of the episode's main thesis. This grounds everyone who listened at different times or speeds.
 
-Phase 2: Key Concepts (15 minutes)
+Phase 2 - Key Concepts (15 minutes)
 
 Identify 2-3 concepts from the episode worth exploring deeper. The discussion lead prepares one probing question per concept:
 
@@ -94,7 +94,7 @@ Question structure:
 - What's one thing we'd do differently based on this?
 ```
 
-Phase 3: Action Items (10 minutes)
+Phase 3 - Action Items (10 minutes)
 
 Translate discussion into actionable changes. This could mean trying a new tool, adjusting a process, or scheduling a follow-up detailed look on a related topic.
 
@@ -105,9 +105,9 @@ Avoid forcing everyone into uncomfortable meeting times. Instead, use asynchrono
 Hybrid Approach Template
 
 ```
-Monday: Discussion lead posts episode + 3 discussion questions in Slack
-Tuesday-Thursday: Team members share thoughts via Slack threads (async)
-Friday (rotating times): 30-minute live discussion at varying times
+Monday - Discussion lead posts episode + 3 discussion questions in Slack
+Tuesday-Thursday - Team members share thoughts via Slack threads (async)
+Friday (rotating times) - 30-minute live discussion at varying times
 ```
 
 Rotate the live discussion time so no single person consistently takes the inconvenient slot. A simple rotation spreadsheet tracks who's hosting and when:
@@ -161,23 +161,23 @@ If completion rates drop below 60%, consider shorter episodes or different conte
 
 Common Pitfalls to Avoid
 
-Making it mandatory: This converts learning into obligation. Keep participation voluntary, even if attendance drops initially, you'll attract genuinely engaged listeners.
+Making it mandatory - This converts learning into obligation. Keep participation voluntary, even if attendance drops initially, you'll attract genuinely engaged listeners.
 
-No discussion structure: Unstructured conversations ramble and waste time. The three-phase format keeps sessions focused and productive.
+No discussion structure - Unstructured conversations ramble and waste time. The three-phase format keeps sessions focused and productive.
 
-Skipping action items: Conversations without outcomes feel like entertainment. The action item phase transforms passive listening into active improvement.
+Skipping action items - Conversations without outcomes feel like entertainment. The action item phase transforms passive listening into active improvement.
 
-Inconsistent scheduling: Erratic podcast clubs die quickly. Pick a rhythm (weekly or biweekly) and protect that calendar slot.
+Inconsistent scheduling - Erratic podcast clubs die quickly. Pick a rhythm (weekly or biweekly) and protect that calendar slot.
 
 Starting Your First Session
 
-Week 1: Announce the podcast club in your team channel. Ask for episode nominations.
+Week 1 - Announce the podcast club in your team channel. Ask for episode nominations.
 
-Week 2: Finalize the first episode. Assign the first discussion lead.
+Week 2 - Finalize the first episode. Assign the first discussion lead.
 
-Week 3: Run your first discussion using the three-phase format. Collect feedback immediately after.
+Week 3 - Run your first discussion using the three-phase format. Collect feedback immediately after.
 
-Week 4: Iterate based on feedback. Adjust episode length, discussion timing, or format as needed.
+Week 4 - Iterate based on feedback. Adjust episode length, discussion timing, or format as needed.
 
 A podcast club requires minimal tooling, a shared playlist, a discussion channel, and a calendar invite. The return on investment comes in team alignment, shared vocabulary, and continuous professional development that happens asynchronously.
 
@@ -185,15 +185,15 @@ The best remote teams invest in learning together. A podcast club provides struc
 
 Podcast Club Platform Comparison
 
-Option 1: Slack Channel + Manual Curation
+Option 1 - Slack Channel + Manual Curation
 - Cost: Free (uses existing Slack)
 - Setup: Create #podcast-club channel, pin episode info weekly
 - Discussion: Thread-based in Slack
 - Drawbacks: Gets lost in regular Slack noise, hard to track over time
 
-Best for: <5 person teams, super lean
+Best for - <5 person teams, super lean
 
-Option 2: Notion Database (Recommended for Most Teams)
+Option 2 - Notion Database (Recommended for Most Teams)
 - Cost: Free (Notion) or $10/user/month (Teams plan)
 - Setup: Create Notion database tracking episodes, discussion dates, key takeaways
 - Status: Draft, Listening, Discussion, Complete
@@ -224,13 +224,13 @@ Benefits:
 }
 ```
 
-Option 3: Breaker (Audio Focused)
+Option 3 - Breaker (Audio Focused)
 - Cost: Free tier available, $5-10/month paid
 - Features: Create private groups, share episodes, discussion threads
 - Integrates: Apple Podcasts, Spotify, YouTube
 - Best for: Teams that want audio-centric experience, cross-platform
 
-Option 4: Mighty Networks (Community Platform)
+Option 4 - Mighty Networks (Community Platform)
 - Cost: $99/month setup, $5-15/member/month ongoing
 - Features: Episode sharing, discussions, member profiles
 - Best for: Larger organizations wanting branded community
@@ -280,14 +280,14 @@ For globally distributed teams, maximize async engagement:
 
 Weekly Schedule Template
 ```
-Monday 9 AM UTC: Discussion lead posts episode + summary
-Monday 9 AM-Friday 5 PM: Team members listen on their schedule
-Friday: Discussion lead posts 3 discussion questions in Slack thread
+Monday 9 AM UTC - Discussion lead posts episode + summary
+Monday 9 AM-Friday 5 PM - Team members listen on their schedule
+Friday - Discussion lead posts 3 discussion questions in Slack thread
 
-Monday-Thursday: Team responds async in thread
-Friday 3 PM UTC (optional): 30-min live discussion for those available
+Monday-Thursday - Team responds async in thread
+Friday 3 PM UTC (optional) - 30-min live discussion for those available
 
-Saturday: Discussion lead documents action items, files in Notion
+Saturday - Discussion lead documents action items, files in Notion
 ```
 
 This keeps participation high without requiring real-time attendance.
@@ -331,7 +331,7 @@ def check_podcast_participation(team_responses, threshold=0.6):
     completion_rate = len([r for r in team_responses if r]) / len(team_responses)
 
     if completion_rate < threshold:
-        print(f"  Completion: {completion_rate*100:.0f}% (below {threshold*100:.0f}%)")
+        print(f"  Completion - {completion_rate*100:.0f}% (below {threshold*100:.0f}%)")
         print("Actions:")
         print("- Shorten next episode (aim for <45 min)")
         print("- Shift discussion time to better timezone")

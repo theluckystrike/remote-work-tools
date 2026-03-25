@@ -53,7 +53,7 @@ Practical Implementation
 
 Here's how to implement zero trust access for a typical distributed engineering team:
 
-Step 1: Implement Identity-Aware Proxy for Internal Tools
+Step 1 - Implement Identity-Aware Proxy for Internal Tools
 
 For internal dashboards, wikis, and admin interfaces, an identity-aware proxy provides a central access point. This example uses Cloudflare Access (the free tier works for small teams), but the pattern applies to similar tools:
 
@@ -86,7 +86,7 @@ resource "cloudflare_access_policy" "engineers" {
 
 This configuration ensures only users with company email addresses and compliant devices can access your internal tools.
 
-Step 2: Set Up WireGuard for Secure Tunnels
+Step 2 - Set Up WireGuard for Secure Tunnels
 
 For infrastructure access, connecting to servers, databases, or internal services, WireGuard provides efficient encrypted tunnels. Unlike traditional VPNs, WireGuard implements identity-based access at the network layer:
 
@@ -119,7 +119,7 @@ def provision_engineer(engineer_name, public_key):
         yaml.dump({'engineer': engineer_name, 'ip': assign_ip(), 'time': now()}, f)
 ```
 
-Step 3: Implement mTLS Between Services
+Step 3 - Implement mTLS Between Services
 
 For microservices or multi-service architectures, mutual TLS ensures that all service-to-service communication is authenticated. Using a service mesh or a tool like Consul Connect automates certificate rotation:
 
@@ -139,7 +139,7 @@ services:
 
 This ensures that even if an attacker compromises one service, they cannot easily pivot to others without valid certificates.
 
-Step 4: Enforce Device Compliance
+Step 4 - Enforce Device Compliance
 
 Device posture checks add another security layer. For engineering teams using macOS, this example uses Jamf to verify compliance before granting access:
 
@@ -161,7 +161,7 @@ Device posture checks add another security layer. For engineering teams using ma
 </policy>
 ```
 
-Step 5: Implement Short-Lived Credentials
+Step 5 - Implement Short-Lived Credentials
 
 For direct service access, avoid long-lived API keys or tokens. Instead, implement short-lived credential issuance:
 

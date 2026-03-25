@@ -41,9 +41,9 @@ Strengths:
 - Git-based versioning (no vendor lock-in)
 - Supports design tokens via integration
 
-Pricing: Free (self-hosted), $29+/month (Chromatic cloud for CI)
+Pricing - Free (self-hosted), $29+/month (Chromatic cloud for CI)
 
-Setup Time: 30 minutes for basic setup
+Setup Time - 30 minutes for basic setup
 
 Example Storybook Story:
 ```javascript
@@ -77,7 +77,7 @@ export const States = {
 }
 ```
 
-Team Review: Every PR generates a preview link; non-developers can QA components visually.
+Team Review - Every PR generates a preview link; non-developers can QA components visually.
 
 Figma + API Integrations
 
@@ -87,9 +87,9 @@ Strengths:
 - Component versioning built-in
 - Live previews for stakeholders
 
-Pricing: Free (limited), $12/month (professional), $45/month (organization)
+Pricing - Free (limited), $12/month (professional), $45/month (organization)
 
-Token Export: Use Tokens Studio plugin ($30/month) to sync design tokens to JSON
+Token Export - Use Tokens Studio plugin ($30/month) to sync design tokens to JSON
 
 Figma to Code:
 ```javascript
@@ -114,7 +114,7 @@ Object.entries(tokens.colors).forEach(([name, value]) => {
 })
 ```
 
-Constraint: Figma's API requires custom scripting; no out-of-the-box developer handoff.
+Constraint - Figma's API requires custom scripting; no out-of-the-box developer handoff.
 
 Zeroheight
 
@@ -124,7 +124,7 @@ Strengths:
 - Design tokens + component API docs in one place
 - Versioning + changelog built-in
 
-Pricing: $50/month (team), $200/month (enterprise)
+Pricing - $50/month (team), $200/month (enterprise)
 
 What You Get:
 - Automated component inventory (pulled from Figma)
@@ -135,10 +135,10 @@ What You Get:
 
 Example Zeroheight Section:
 ```
-Component: Button
-Figma Link: [Connected]
-Latest Version: 2.1.0
-Deprecated Versions: 1.0.0, 1.5.0
+Component - Button
+Figma Link - [Connected]
+Latest Version - 2.1.0
+Deprecated Versions - 1.0.0, 1.5.0
 
 Variants:
 - Primary (default)
@@ -152,7 +152,7 @@ Props:
 - disabled (boolean, default: false)
 ```
 
-Team Workflow: Designers update Figma → Zeroheight auto-updates docs → developers see changes immediately.
+Team Workflow - Designers update Figma → Zeroheight auto-updates docs → developers see changes immediately.
 
 Supernova
 
@@ -162,7 +162,7 @@ Strengths:
 - Design token management with versioning
 - Multi-workspace support for large teams
 
-Pricing: $50/month (startup), $200/month (growth)
+Pricing - $50/month (startup), $200/month (growth)
 
 Code Generation Example:
 ```typescript
@@ -187,7 +187,7 @@ export const PrimaryButtonStory = {
 }
 ```
 
-CI Integration: Supernova can generate code and push PRs automatically on design changes.
+CI Integration - Supernova can generate code and push PRs automatically on design changes.
 
 Chromatic (Storybook's Cloud)
 
@@ -197,7 +197,7 @@ Strengths:
 - Automatic PR previews
 - Component usage metrics
 
-Pricing: Free tier (limited), $29/month (pro)
+Pricing - Free tier (limited), $29/month (pro)
 
 Workflow:
 1. Push code to GitHub
@@ -206,7 +206,7 @@ Workflow:
 4. Designers approve or request changes in PR
 5. Merge once approved
 
-Time Saved: Visual QA that would take 2 hours becomes 5 minutes.
+Time Saved - Visual QA that would take 2 hours becomes 5 minutes.
 
 Detailed Comparison Table
 
@@ -220,15 +220,15 @@ Detailed Comparison Table
 
 Setup Workflow for Remote Teams
 
-Recommended Stack: Figma + Zeroheight + Storybook
+Recommended Stack - Figma + Zeroheight + Storybook
 
-Day 1: Set up Figma workspace, organize component file
-Day 2: Connect Zeroheight to Figma
-Day 3: Create Storybook repo, deploy to GitHub Pages
-Day 4: Link Storybook in Zeroheight
-Day 5: Document token system, version 1.0.0 release
+Day 1 - Set up Figma workspace, organize component file
+Day 2 - Connect Zeroheight to Figma
+Day 3 - Create Storybook repo, deploy to GitHub Pages
+Day 4 - Link Storybook in Zeroheight
+Day 5 - Document token system, version 1.0.0 release
 
-Team Ceremony: Weekly "design system office hours" (30 min) for deprecations and new components
+Team Ceremony - Weekly "design system office hours" (30 min) for deprecations and new components
 
 Design Token Structure (YAML)
 

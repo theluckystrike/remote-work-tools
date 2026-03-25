@@ -145,7 +145,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 Start a new tmux session
 tmux new-session -s main
 
-Inside tmux: install plugins with prefix + I (capital i)
+Inside tmux - install plugins with prefix + I (capital i)
 Ctrl-a + I
 
 To update plugins later
@@ -191,24 +191,24 @@ A typical development layout uses 3 panes: editor, terminal, and logs.
 Inside tmux, create a dev layout script
 cat > ~/bin/dev-layout.sh << 'EOF'
 #!/bin/bash
-Usage: dev-layout.sh [session-name] [project-path]
+Usage - dev-layout.sh [session-name] [project-path]
 
 SESSION=${1:-dev}
 PATH=${2:-$HOME}
 
 tmux new-session -d -s "$SESSION" -c "$PATH"
 
-Window 1: editor
+Window 1 - editor
 tmux rename-window -t "$SESSION:1" 'editor'
 tmux send-keys -t "$SESSION:editor" 'nvim .' Enter
 
-Window 2: dev server + logs (vertical split)
+Window 2 - dev server + logs (vertical split)
 tmux new-window -t "$SESSION" -n 'server' -c "$PATH"
 tmux split-window -h -t "$SESSION:server"
 tmux send-keys -t "$SESSION:server.left" 'npm run dev' Enter
 tmux send-keys -t "$SESSION:server.right" 'tail -f logs/app.log' Enter
 
-Window 3: git + misc terminal
+Window 3 - git + misc terminal
 tmux new-window -t "$SESSION" -n 'git' -c "$PATH"
 
 Attach
@@ -225,10 +225,10 @@ The core benefit for remote developers: sessions survive disconnects.
 SSH into server and create/attach a named session
 ssh user@server.example.com
 
-On server: attach to existing session or create new one
+On server - attach to existing session or create new one
 tmux attach -t work 2>/dev/null || tmux new-session -s work
 
-From your local machine: one-liner to connect and attach
+From your local machine - one-liner to connect and attach
 ssh -t user@server.example.com "tmux attach -t work || tmux new-session -s work"
 
 Add to ~/.ssh/config for easy access
@@ -273,7 +273,7 @@ Select text with v (visual), V (visual line), Ctrl-v (block)
 Copy selection with y (yank. copies to system clipboard with tmux-yank)
 Exit copy mode with q or Escape
 
-Mouse: with mouse mode on, select text and it copies automatically
+Mouse - with mouse mode on, select text and it copies automatically
 Hold Shift while selecting to bypass tmux and copy from terminal emulator
 ```
 

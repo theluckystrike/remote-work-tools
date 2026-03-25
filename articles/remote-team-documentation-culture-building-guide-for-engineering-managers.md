@@ -21,8 +21,8 @@ Documentation culture doesn't happen by accident. In remote teams, where waterco
 Table of Contents
 
 - [Why Documentation Culture Matters for Remote Teams](#why-documentation-culture-matters-for-remote-teams)
-- [Step 1: Establish Document Types and Ownership](#step-1-establish-document-types-and-ownership)
-- [Step 2: Create Templates That Make Documentation Easy](#step-2-create-templates-that-make-documentation-easy)
+- [Step 1 - Establish Document Types and Ownership](#step-1-establish-document-types-and-ownership)
+- [Step 2 - Create Templates That Make Documentation Easy](#step-2-create-templates-that-make-documentation-easy)
 - [Status](#status)
 - [Context](#context)
 - [Decision](#decision)
@@ -32,9 +32,9 @@ Table of Contents
 - [Prerequisites](#prerequisites)
 - [Steps](#steps)
 - [Troubleshooting](#troubleshooting)
-- [Step 3: Integrate Documentation Into Existing Workflows](#step-3-integrate-documentation-into-existing-workflows)
-- [Step 4: Use Tools That Reduce Documentation Burden](#step-4-use-tools-that-reduce-documentation-burden)
-- [Step 5: Lead by Example and Recognize Documentation Contributions](#step-5-lead-by-example-and-recognize-documentation-contributions)
+- [Step 3 - Integrate Documentation Into Existing Workflows](#step-3-integrate-documentation-into-existing-workflows)
+- [Step 4 - Use Tools That Reduce Documentation Burden](#step-4-use-tools-that-reduce-documentation-burden)
+- [Step 5 - Lead by Example and Recognize Documentation Contributions](#step-5-lead-by-example-and-recognize-documentation-contributions)
 - [Measuring Documentation Health](#measuring-documentation-health)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Building Sustainable Practices](#building-sustainable-practices)
@@ -58,7 +58,7 @@ Strong documentation culture solves these problems by making knowledge accessibl
 
 The investment compounds over time. Each well-documented decision, process, and codebase reduces future friction. Teams with strong documentation cultures ship faster because they spend less time rediscovering what they already know.
 
-Step 1: Establish Document Types and Ownership
+Step 1 - Establish Document Types and Ownership
 
 Start by defining what your team documents. Too broad a mandate produces nothing; too narrow misses critical knowledge areas. Focus on four core document categories:
 
@@ -72,14 +72,14 @@ Team Knowledge Bases. Onboarding information, coding standards, tool preferences
 
 For each category, assign an owner responsible for maintaining and updating documents. Documentation without ownership becomes stale within months.
 
-Step 2: Create Templates That Make Documentation Easy
+Step 2 - Create Templates That Make Documentation Easy
 
 The biggest barrier to consistent documentation is starting from a blank page. Provide templates that reduce the friction of writing while ensuring consistency.
 
 Here's an ADR template your team can adopt:
 
 ```markdown
-ADR-XXX: [Decision Title]
+ADR-XXX - [Decision Title]
 
 Status
 [Proposed | Accepted | Deprecated | Superseded by ADR-XXX]
@@ -102,7 +102,7 @@ Links to relevant specs, tickets, or prior ADRs
 A process documentation template:
 
 ```markdown
-Process: [Process Name]
+Process - [Process Name]
 
 Overview
 One-paragraph summary of what this process covers.
@@ -112,10 +112,10 @@ What do you need before starting?
 
 Steps
 
-Step 1: [Title]
+Step 1 - [Title]
 [Detailed instructions]
 
-Step 2: [Title]
+Step 2 - [Title]
 [Detailed instructions]
 
 Troubleshooting
@@ -124,7 +124,7 @@ Common issues and their solutions.
 Links to related documentation.
 ```
 
-Step 3: Integrate Documentation Into Existing Workflows
+Step 3 - Integrate Documentation Into Existing Workflows
 
 Documentation fails when it exists outside normal team activities. The solution: weave it into workflows already happening.
 
@@ -136,7 +136,7 @@ Include documentation review in design discussions. Before implementing signific
 
 Schedule regular documentation reviews. Block quarterly time for teams to review and update critical documentation. Treat this like any other important meeting, not optional.
 
-Step 4: Use Tools That Reduce Documentation Burden
+Step 4 - Use Tools That Reduce Documentation Burden
 
 The right tools make documentation part of daily work rather than a separate chore:
 
@@ -148,7 +148,7 @@ Quick capture tools like Slack shortcuts or templated forms lower the barrier fo
 
 Search integration ensures documentation is discoverable. If people can't find existing docs, they won't use them. Centralize documentation in searchable platforms rather than scattered across personal notes.
 
-Step 5: Lead by Example and Recognize Documentation Contributions
+Step 5 - Lead by Example and Recognize Documentation Contributions
 
 Managers set the tone. If you never write documentation, neither will your team. Start by documenting decisions you make and processes you introduce. When you ask team members to document something, do it yourself first.
 
@@ -204,7 +204,7 @@ Large Teams (50+ engineers)
 - Slite (enterprise): Better search than Notion at scale, stronger permissions
 - Custom internal wiki: Some teams build proprietary solutions using Elasticsearch + custom UI
 
-The key metric: adoption rate. If teams aren't using your tool, switch. Your tool choice is only successful if engineers actually document.
+The key metric - adoption rate. If teams aren't using your tool, switch. Your tool choice is only successful if engineers actually document.
 
 Measuring Documentation Success
 
@@ -222,7 +222,7 @@ Qualitative Signals
 - Do new hires say onboarding was smooth because documentation was available?
 - Do retros mention documentation as a blocker or facilitator?
 
-Set specific targets: If your onboarding time is currently 10 days, aim to reduce it to 5 days within 6 months through documentation improvements.
+Set specific targets - If your onboarding time is currently 10 days, aim to reduce it to 5 days within 6 months through documentation improvements.
 
 Creating Content That Actually Gets Read
 
@@ -233,12 +233,12 @@ Title + Context
 - Good: "How to connect to production database for emergency debugging"
 
 Problem/Solution format
-- Bad: ""You need to deploy a hotfix at 2 AM and it's failing. `git push origin main`
-- Good: "Run `git push origin main` only after PR approval and all CI checks passing. This triggers automatic deployment to production."
+- Bad - ""You need to deploy a hotfix at 2 AM and it's failing. `git push origin main`
+- Good - "Run `git push origin main` only after PR approval and all CI checks passing. This triggers automatic deployment to production."
 
 Explicit prerequisites
 - Bad: "Deploy the service"
-- Good: "Before deploying (requires: AWS CLI v2.13+, Docker running, valid credentials in ~/.aws/)"
+- Good - "Before deploying (requires: AWS CLI v2.13+, Docker running, valid credentials in ~/.aws/)"
 
 Clear success criteria
 - Bad: "Set up the development environment"
@@ -306,19 +306,19 @@ Documentation is not overhead, it's infrastructure that pays for itself.
 
 Common Implementation Mistakes
 
-Mistake 1: Requiring perfection
+Mistake 1 - Requiring perfection
 - Reality: Good docs today beat perfect docs never
 - Solution: Version docs, mark as "rough draft" if needed, invite collaboration
 
-Mistake 2: Centralizing all docs
+Mistake 2 - Centralizing all docs
 - Reality: Developers won't navigate five different doc systems
 - Solution: Pick one tool for team docs, consider light docs in code comments
 
-Mistake 3: Writing too much
+Mistake 3 - Writing too much
 - Reality: 50-page runbooks don't get read
 - Solution: Keep docs to 2-5 pages max, break long topics into separate documents
 
-Mistake 4: Not updating shared understanding
+Mistake 4 - Not updating shared understanding
 - Reality: Team has implicit knowledge that isn't documented
 - Solution: After each sprint, capture 2-3 key learnings in docs
 
@@ -381,7 +381,7 @@ Slack CLI for programmatic search (requires Slack CLI installed):
 slack search messages --query "from:@alice deployment" --channel engineering
 
 Export search results via API:
-curl -s "https://slack.com/api/search.messages"   -H "Authorization: Bearer xoxp-YOUR-TOKEN"   --data-urlencode "query=deployment hotfix in:#engineering"   --data-urlencode "count=20" | python3 -m json.tool | grep -A3 '"text"'
+curl -s "https://slack.com/api/search.messages"   -H "Authorization - Bearer xoxp-YOUR-TOKEN"   --data-urlencode "query=deployment hotfix in:#engineering"   --data-urlencode "count=20" | python3 -m json.tool | grep -A3 '"text"'
 ```
 
 Bookmark searches you run repeatedly as saved searches in the Slack sidebar. This is faster than rebuilding the query each time for recurring audit needs.

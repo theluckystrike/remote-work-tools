@@ -21,14 +21,14 @@ Organizing hot desking floors into neighborhood zones by team or function (Engin
 Table of Contents
 
 - [Understanding Neighborhood Zones in Hot Desking](#understanding-neighborhood-zones-in-hot-desking)
-- [Step 1: Survey Team Requirements](#step-1-survey-team-requirements)
-- [Step 2: Map Your Physical Space](#step-2-map-your-physical-space)
-- [Step 3: Define Desk Attributes](#step-3-define-desk-attributes)
-- [Step 4: Implement Zone Assignment Logic](#step-4-implement-zone-assignment-logic)
-- [Step 5: Calculate Zone Capacities](#step-5-calculate-zone-capacities)
-- [Step 6: Visualize the Floor Plan](#step-6-visualize-the-floor-plan)
+- [Step 1 - Survey Team Requirements](#step-1-survey-team-requirements)
+- [Step 2 - Map Your Physical Space](#step-2-map-your-physical-space)
+- [Step 3 - Define Desk Attributes](#step-3-define-desk-attributes)
+- [Step 4 - Implement Zone Assignment Logic](#step-4-implement-zone-assignment-logic)
+- [Step 5 - Calculate Zone Capacities](#step-5-calculate-zone-capacities)
+- [Step 6 - Visualize the Floor Plan](#step-6-visualize-the-floor-plan)
 - [Best Practices for Hybrid Office Neighborhood Zones](#best-practices-for-hybrid-office-neighborhood-zones)
-- [Advanced: Predicting Zone Utilization](#advanced-predicting-zone-utilization)
+- [Advanced - Predicting Zone Utilization](#advanced-predicting-zone-utilization)
 - [Desk Assignment Algorithms](#desk-assignment-algorithms)
 - [Measurement and Optimization](#measurement-and-optimization)
 - [Team Engagement with Zone System](#team-engagement-with-zone-system)
@@ -47,7 +47,7 @@ Neighborhood zones divide your office space into distinct areas, each designed f
 
 The goal is matching workspace characteristics to team needs while maintaining the flexibility that hot desking provides.
 
-Step 1: Survey Team Requirements
+Step 1 - Survey Team Requirements
 
 Before designing your floor plan, collect data on how different teams work. Create a simple survey asking team members about their typical activities:
 
@@ -62,7 +62,7 @@ const teamRequirements = [
 
 Understanding these patterns helps you allocate the right number of desks in each zone.
 
-Step 2: Map Your Physical Space
+Step 2 - Map Your Physical Space
 
 Start by creating a coordinate-based representation of your office. Most building floor plans use a grid system where you can assign coordinates to each desk position.
 
@@ -101,7 +101,7 @@ const floorPlan = {
 
 This structure allows you to programmatically assign desks to zones and query availability based on location preferences.
 
-Step 3: Define Desk Attributes
+Step 3 - Define Desk Attributes
 
 Each desk in your hot desking system needs attributes that help matching algorithms or users make informed choices:
 
@@ -126,7 +126,7 @@ const desk = {
 
 For hybrid offices, consider adding booking restrictions based on team size or role.
 
-Step 4: Implement Zone Assignment Logic
+Step 4 - Implement Zone Assignment Logic
 
 When employees book desks, your system should match them to appropriate zones based on their work requirements. Here's a simple matching function:
 
@@ -144,7 +144,7 @@ function suggestDesk(employee, availableDesks, zones) {
 
 This basic algorithm prioritizes team neighborhoods while providing fallback options.
 
-Step 5: Calculate Zone Capacities
+Step 5 - Calculate Zone Capacities
 
 A successful hot desking implementation balances occupancy across zones. Calculate ideal capacity based on your hybrid schedule:
 
@@ -164,7 +164,7 @@ function calculateZoneCapacity(zone, hybridDaysPerWeek, totalEmployees) {
 
 Running these calculations weekly helps you identify when zones become overcrowded and need rebalancing.
 
-Step 6: Visualize the Floor Plan
+Step 6 - Visualize the Floor Plan
 
 For a developer-friendly approach, generate an SVG or HTML-based floor plan visualization:
 
@@ -197,7 +197,7 @@ Monitor use data. Track which zones see the most bookings and adjust boundaries 
 
 Communicate changes clearly. When zone boundaries shift, provide clear notifications to employees about what changed and why. Transparency builds trust in the hot desking system.
 
-Advanced: Predicting Zone Utilization
+Advanced - Predicting Zone Utilization
 
 Once you have basic zone data, predict demand using historical booking patterns:
 

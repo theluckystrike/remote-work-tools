@@ -32,7 +32,7 @@ Without a formal process, scope changes create friction. Your team drops everyth
 
 The Scope Change Request Workflow
 
-Step 1: Document the Request Immediately
+Step 1 - Document the Request Immediately
 
 When a client submits a scope change, capture it formally before any discussion or implementation begins. Create a dedicated channel or form for these requests. A structured request includes the description of the change, the reason behind it, the proposed timeline impact, and any technical considerations.
 
@@ -42,20 +42,20 @@ Use a lightweight template your team can copy-paste into your project management
 Scope Change Request #
 - Requested by: [Client name]
 - Date received: [YYYY-MM-DD]
-- Description: [What specifically is being requested?]
+- Description - [What specifically is being requested?]
 - Business rationale: [Why does the client need this?]
 - Perceived priority: [High/Medium/Low from client perspective]
 - Original scope reference: [Which deliverable does this relate to?]
 ```
 
-Step 2: Initial Triage (Within 24 Hours)
+Step 2 - Initial Triage (Within 24 Hours)
 
 Acknowledge receipt immediately, even if you can't provide a full response yet. This prevents the client from feeling ignored and stops them from escalating or re-asking the question across multiple channels.
 
 Your acknowledgment should include a realistic timeline for your response. For most requests, a 24-48 hour turnaround is reasonable for remote teams. Use this triage phase to identify whether the request is genuinely new work or a clarification of existing deliverables.
 
 ```markdown
-Subject: Re: Scope Change Request #[N] - Received
+Subject - Re: Scope Change Request #[N] - Received
 
 Hi [Client],
 
@@ -72,7 +72,7 @@ Best,
 [Your name]
 ```
 
-Step 3: Impact Assessment
+Step 3 - Impact Assessment
 
 This is where most agencies lose time or money. Build a consistent framework for evaluating scope changes. Break down your assessment into four components:
 
@@ -125,26 +125,26 @@ print(f"Total cost: ${result['total_cost']}")
 print(f"Timeline: {result['timeline_impact']}")
 ```
 
-Step 4: Present Options, Not Just a Bill
+Step 4 - Present Options, Not Just a Bill
 
 Clients respond better to choices rather than a single expensive proposal. Frame your response with clear options:
 
-Option A: Full Implementation
+Option A - Full Implementation
 Complete scope as requested. Include full cost and timeline impact.
 
-Option B: Modified Implementation
+Option B - Modified Implementation
 A reduced version that addresses the core need with less effort. Often clients don't need everything they initially requested.
 
-Option C: Deferred Implementation
+Option C - Deferred Implementation
 Schedule the work for a future phase or project. Keeps current delivery on track while acknowledging the request.
 
-Option D: Alternative Solution
+Option D - Alternative Solution
 A technical workaround or different approach that solves the underlying problem without the full scope.
 
 ```markdown
 Scope Change Request #3 - Impact Assessment
 
-Request: Add user export functionality to the dashboard
+Request - Add user export functionality to the dashboard
 
 Option A - Full Implementation
 - Development: 8 hours
@@ -169,7 +169,7 @@ Option D - Use existing data API
 Please let us know which option works best, or if you'd like to discuss alternatives.
 ```
 
-Step 5: Formal Approval Process
+Step 5 - Formal Approval Process
 
 Document approval in writing before any work begins. Include what exactly is approved, the total cost (or that it's included in retainer), the revised timeline, and any conditions or caveats.
 
@@ -178,9 +178,9 @@ For retainer clients, define upfront what constitutes a billable scope change ve
 ```markdown
 Scope Change Approval #3
 
-Approved by: [Client name]
-Date: [YYYY-MM-DD]
-Option selected: Option B (CSV Export Only)
+Approved by - [Client name]
+Date - [YYYY-MM-DD]
+Option selected - Option B (CSV Export Only)
 
 Deliverables:
 - Basic CSV export functionality for user data
@@ -191,8 +191,8 @@ Excluded:
 - Filtered exports
 - Formatted exports
 
-Revised delivery: [New date]
-Cost: $425 (invoiced upon completion)
+Revised delivery - [New date]
+Cost - $425 (invoiced upon completion)
 ---
 ```
 

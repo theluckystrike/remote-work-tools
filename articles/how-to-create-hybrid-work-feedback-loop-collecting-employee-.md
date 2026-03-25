@@ -98,7 +98,7 @@ Implementing the Feedback Loop Cycle
 
 A feedback loop isn't an one-time survey. It requires a continuous cycle with distinct phases.
 
-Phase 1: Collect (Week 1)
+Phase 1 - Collect (Week 1)
 
 Launch your feedback form with clear communication about timing and purpose:
 
@@ -109,7 +109,7 @@ Launch your feedback form with clear communication about timing and purpose:
 
 Send reminders at 48 hours and 24 hours before the deadline. Response rates typically improve with gentle nudges.
 
-Phase 2: Analyze (Week 2)
+Phase 2 - Analyze (Week 2)
 
 Aggregate the quantitative data and identify patterns in qualitative responses. Look for:
 
@@ -118,11 +118,11 @@ Aggregate the quantitative data and identify patterns in qualitative responses. 
 - Recurring themes in open-text responses
 - Gap between stated preference and stated productivity
 
-Phase 3: Act and Communicate (Week 3)
+Phase 3 - Act and Communicate (Week 3)
 
 This phase separates effective feedback systems from performative ones. You must act on the data and communicate your decisions back to employees.
 
-For each major finding, decide: Will you change the policy, or will you explain why you're keeping it current? Both are valid responses, but you must address the feedback explicitly.
+For each major finding, decide - Will you change the policy, or will you explain why you're keeping it current? Both are valid responses, but you must address the feedback explicitly.
 
 Create a summary document that includes:
 
@@ -131,7 +131,7 @@ Create a summary document that includes:
 - Changes you're not making, with clear reasoning
 - Timeline for the next feedback cycle
 
-Phase 4: Follow Up (Ongoing)
+Phase 4 - Follow Up (Ongoing)
 
 Monitor the impact of policy changes through secondary indicators:
 
@@ -146,7 +146,7 @@ Practical Implementation Options
 
 Depending on your technical resources, you can implement feedback collection at different levels of sophistication.
 
-Low-Code Option: Forms + Spreadsheet
+Low-Code Option - Forms + Spreadsheet
 
 Use Google Forms or Microsoft Forms connected to a shared spreadsheet:
 
@@ -157,7 +157,7 @@ Use Google Forms or Microsoft Forms connected to a shared spreadsheet:
 
 This approach works for teams under 50 people and requires no custom development.
 
-API-Driven Option: Custom Backend
+API-Driven Option - Custom Backend
 
 For larger organizations or more sophisticated needs, build a simple feedback API:
 
@@ -252,14 +252,14 @@ Table of Contents
 - [Real-World Feedback Loop Example: Case Study](#real-world-feedback-loop-example-case-study)
 - [Feedback Metrics That Actually Matter](#feedback-metrics-that-actually-matter)
 - [Feedback Integration with Payroll and HR Systems](#feedback-integration-with-payroll-and-hr-systems)
-- [Closed-Loop Feedback: Showing Results to Employees](#closed-loop-feedback-showing-results-to-employees)
+- [Closed-Loop Feedback - Showing Results to Employees](#closed-loop-feedback-showing-results-to-employees)
 - [Post-Feedback Communication Template](#post-feedback-communication-template)
-- [Advanced: Sentiment Analysis on Qualitative Feedback](#advanced-sentiment-analysis-on-qualitative-feedback)
+- [Advanced - Sentiment Analysis on Qualitative Feedback](#advanced-sentiment-analysis-on-qualitative-feedback)
 - [Common Feedback Loop Mistakes and How to Avoid Them](#common-feedback-loop-mistakes-and-how-to-avoid-them)
 
 A 45-person SaaS company implemented a hybrid feedback system after returning to the office post-pandemic. Here's how it worked and what changed:
 
-Initial Policy: "Tuesdays and Thursdays in-office, Mon/Wed/Fri remote"
+Initial Policy - "Tuesdays and Thursdays in-office, Mon/Wed/Fri remote"
 
 Feedback Collection (Week 1):
 - 32 employees responded to survey (71% response rate)
@@ -367,14 +367,14 @@ const feedbackActionWorkflow = {
 
 ---
 
-Closed-Loop Feedback: Showing Results to Employees
+Closed-Loop Feedback - Showing Results to Employees
 
 The single biggest reason feedback systems fail is lack of transparency. Implement a closed-loop reporting process:
 
 ```markdown
 Post-Feedback Communication Template
 
-Subject: We Heard You, Here's What We're Changing
+Subject - We Heard You, Here's What We're Changing
 
 Dear Team,
 
@@ -411,7 +411,7 @@ Thank you for the detailed feedback. It made a measurable difference.
 
 ---
 
-Advanced: Sentiment Analysis on Qualitative Feedback
+Advanced - Sentiment Analysis on Qualitative Feedback
 
 If your team is large (50+ people), manually reading open-text responses becomes time-consuming. Use simple text analysis:
 
@@ -503,29 +503,29 @@ print(json.dumps(summary, indent=2))
 
 Common Feedback Loop Mistakes and How to Avoid Them
 
-Mistake 1: Changing policy immediately after feedback
+Mistake 1 - Changing policy immediately after feedback
 
-Wrong: Run survey → implement changes within 2 weeks
+Wrong - Run survey → implement changes within 2 weeks
 
-Right: Collect feedback → analyze over 2 weeks → communicate decisions → implement with 2-week notice → measure impact → gather feedback again
+Right - Collect feedback → analyze over 2 weeks → communicate decisions → implement with 2-week notice → measure impact → gather feedback again
 
-Mistake 2: Asking too many questions
+Mistake 2 - Asking too many questions
 
-Wrong: 25-question survey about hybrid work policy
+Wrong - 25-question survey about hybrid work policy
 
-Right: 5-7 core questions (takes 5 minutes to complete) → 80% response rate beats 50% response rate on longer survey
+Right - 5-7 core questions (takes 5 minutes to complete) → 80% response rate beats 50% response rate on longer survey
 
-Mistake 3: Ignoring negative feedback
+Mistake 3 - Ignoring negative feedback
 
-Wrong: Focus only on positive comments when presenting to leadership
+Wrong - Focus only on positive comments when presenting to leadership
 
-Right: Lead with the biggest problems, explain why they matter, and describe how you'll address them
+Right - Lead with the biggest problems, explain why they matter, and describe how you'll address them
 
-Mistake 4: Not measuring follow-up impact
+Mistake 4 - Not measuring follow-up impact
 
-Wrong: Implement changes, assume they worked
+Wrong - Implement changes, assume they worked
 
-Right: Repeat the same questions 3 months later, measure the change, publish results
+Right - Repeat the same questions 3 months later, measure the change, publish results
 
 ---
 

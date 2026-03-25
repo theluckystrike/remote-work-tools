@@ -28,7 +28,7 @@ Trunk-Based Development
 Trunk-based development (TBD) is the simplest strategy: developers commit directly to `main` (the "trunk") or use very short-lived feature branches (under 1 day). CI runs on every commit.
 
 ```bash
-Trunk-based: typical workflow
+Trunk-based - typical workflow
 git checkout main
 git pull
 
@@ -72,7 +72,7 @@ GitHub Flow
 GitHub Flow uses `main` as the always-deployable branch and feature branches for all work. Every change goes through a pull request.
 
 ```bash
-GitHub Flow: step by step
+GitHub Flow - step by step
 1. Create a branch from main
 git checkout main && git pull
 git checkout -b feature/user-authentication
@@ -93,7 +93,7 @@ git commit -m "fix: address code review feedback on token expiry"
 git push
 
 5. Merge after approval
-On GitHub: "Squash and merge" (keeps main history clean)
+On GitHub - "Squash and merge" (keeps main history clean)
 
 6. Delete branch
 git push origin --delete feature/user-authentication
@@ -132,7 +132,7 @@ hotfix/*     → urgent production fixes, branch from main
 ```
 
 ```bash
-Gitflow: feature development
+Gitflow - feature development
 git checkout develop && git pull
 git checkout -b feature/payment-integration
 
@@ -143,7 +143,7 @@ git merge --no-ff feature/payment-integration
 git push origin develop
 git branch -d feature/payment-integration
 
-Gitflow: creating a release
+Gitflow - creating a release
 git checkout develop
 git checkout -b release/v2.1.0
 Only bug fixes go on release branch
@@ -225,7 +225,7 @@ Consistent commit messages make `git log`, changelogs, and release notes automat
 Conventional Commits format
 https://www.conventionalcommits.org
 
-Format: type(scope): description
+Format - type(scope): description
 feat(auth): add JWT token refresh endpoint
 fix(checkout): handle expired session gracefully
 docs(api): update authentication endpoint docs
@@ -263,7 +263,7 @@ done | awk '$1 < "'$(date -d '30 days ago' '+%Y-%m-%d')'"' | sort
 Delete merged remote branches (run periodically)
 git fetch --prune  # removes references to deleted remote branches locally
 
-GitHub CLI: list stale PRs
+GitHub CLI - list stale PRs
 gh pr list --state closed --limit 50 --json headRefName,closedAt \
   | jq '.[] | select(.closedAt < "'$(date -d '30 days ago' -I)'") | .headRefName'
 ```

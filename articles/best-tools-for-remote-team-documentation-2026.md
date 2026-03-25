@@ -21,14 +21,14 @@ The average knowledge worker spends 19 minutes per day searching for information
 Table of Contents
 
 - [Quick Comparison Table](#quick-comparison-table)
-- [Notion: Maximum Flexibility, Requires Care](#notion-maximum-flexibility-requires-care)
-- [Confluence: Enterprise-Grade Permissions](#confluence-enterprise-grade-permissions)
-- [GitBook: Polished, Beautiful, Public-Ready](#gitbook-polished-beautiful-public-ready)
-- [Slite: Async-Optimized for Distributed Teams](#slite-async-optimized-for-distributed-teams)
-- [Slab: Simple Wiki, Great Search](#slab-simple-wiki-great-search)
-- [Feature Comparison: Deep Dive](#feature-comparison-deep detailed look)
+- [Notion - Maximum Flexibility, Requires Care](#notion-maximum-flexibility-requires-care)
+- [Confluence - Enterprise-Grade Permissions](#confluence-enterprise-grade-permissions)
+- [GitBook - Polished, Beautiful, Public-Ready](#gitbook-polished-beautiful-public-ready)
+- [Slite - Async-Optimized for Distributed Teams](#slite-async-optimized-for-distributed-teams)
+- [Slab - Simple Wiki, Great Search](#slab-simple-wiki-great-search)
+- [Feature Comparison - Deep Dive](#feature-comparison-deep detailed look)
 - [Implementation Recommendations](#implementation-recommendations)
-- [Cost Comparison: 1 Year](#cost-comparison-1-year)
+- [Cost Comparison - 1 Year](#cost-comparison-1-year)
 - [Migration Checklists](#migration-checklists)
 
 This guide compares five platforms optimized for distributed teams, with pricing, search quality, and async-first features.
@@ -45,11 +45,11 @@ Quick Comparison Table
 
 ---
 
-Notion: Maximum Flexibility, Requires Care
+Notion - Maximum Flexibility, Requires Care
 
 Notion is the Swiss Army knife. It's powerful, cheap, and chaos incarnate without governance.
 
-Pricing: Free (personal), $10/user/month (teams).
+Pricing - Free (personal), $10/user/month (teams).
 
 Why Notion Wins:
 
@@ -83,7 +83,7 @@ Real-World Setup (5 minutes):
 Actual Notion Workspace for 20-person remote team:
 
 ```
-Workspace: Company Wiki
+Workspace - Company Wiki
   Handbook (everyone can read)
     Working Hours
     Benefits
@@ -123,12 +123,12 @@ Notion search struggles with:
 - Complex queries ("all status=approved docs from 2026")
 - Large spaces (>5k pages get slow)
 
-Database Example: API Documentation
+Database Example - API Documentation
 
 Instead of manual docs, use a Notion database:
 
 ```
-Database: API Endpoints
+Database - API Endpoints
  Columns:
     Name (endpoint path)
     Method (GET, POST, etc)
@@ -145,12 +145,12 @@ Database: API Endpoints
     By Version (gallery view)
 ```
 
-Query-like filter: `Method contains "GET" AND Deprecation Status is empty`
+Query-like filter - `Method contains "GET" AND Deprecation Status is empty`
 
 Permissions Model:
 
 ```
-Workspace: Company Wiki
+Workspace - Company Wiki
 
 Shared with:
  Team (@company.com) - Edit
@@ -158,7 +158,7 @@ Shared with:
  Sales (@sales.company.com) - Edit
  Public - View Only (for handbook only)
 
-Page: Engineering/Database Schema
+Page - Engineering/Database Schema
  Database/Table-level: Eng Team Only
     Schema Updates (read-write)
  Comments: Enabled (anyone with access)
@@ -169,8 +169,8 @@ Notion API for Automation:
 
 ```bash
 Use Zapier to auto-log meeting notes
-Trigger: Slack message with #meeting hashtag
-Action: Create Notion page in Weekly Notes database
+Trigger - Slack message with #meeting hashtag
+Action - Create Notion page in Weekly Notes database
 
 curl -X POST https://api.notion.com/v1/pages \
   -H "Authorization: Bearer $NOTION_API_KEY" \
@@ -196,15 +196,15 @@ Async-First Features:
 - Page templates (repeatability for 1-on-1 notes, retros)
 - Zapier integration (auto-generate pages from external events)
 
-Cost for 20-person team: $200/month (all members need edit access).
+Cost for 20-person team - $200/month (all members need edit access).
 
 ---
 
-Confluence: Enterprise-Grade Permissions
+Confluence - Enterprise-Grade Permissions
 
 Confluence is Jira's sibling. If you're already paying for Jira, Confluence is the natural choice.
 
-Pricing: $50/month (up to 10), $80/month (up to 250 people). Part of Jira Cloud bundle.
+Pricing - $50/month (up to 10), $80/month (up to 250 people). Part of Jira Cloud bundle.
 
 Why Confluence Wins:
 
@@ -244,10 +244,10 @@ Real Confluence Setup (20 minutes):
     Product Spec
 ```
 
-Permissions Example: Engineering Space
+Permissions Example - Engineering Space
 
 ```
-Space: Engineering
+Space - Engineering
 
 Permissions:
  View Access:
@@ -280,7 +280,7 @@ Confluence Search:
 Superior to Notion for complex queries:
 
 ```
-Search Query: "space = Engineering AND type = page AND label = deprecated AND created >= 2025-12-01"
+Search Query - "space = Engineering AND type = page AND label = deprecated AND created >= 2025-12-01"
 
 All deprecated API docs created in last 3 months, within Engineering space.
 ```
@@ -293,7 +293,7 @@ Advanced filters:
 Jira Integration Example:
 
 ```
-Engineering Page: Database Migration Guide
+Engineering Page - Database Migration Guide
 
 Link to Jira:
  Ticket: INFRA-1247 (MySQL 5.7 → 8.0 migration)
@@ -310,7 +310,7 @@ Versioning:
 Every page change is tracked:
 
 ```
-Page: API Rate Limiting
+Page - API Rate Limiting
 
 View History:
  2026-03-20 10:15 - Updated by @alex (changed limits)
@@ -332,15 +332,15 @@ Features:
  Suggested documentation (when issues are created, suggest relevant docs)
 ```
 
-Cost for 20-person team: $50/month (includes Jira Cloud).
+Cost for 20-person team - $50/month (includes Jira Cloud).
 
 ---
 
-GitBook: Polished, Beautiful, Public-Ready
+GitBook - Polished, Beautiful, Public-Ready
 
 GitBook is optimized for publishing polished documentation that customers read. It's not an internal wiki replacement.
 
-Pricing: Free (unlimited pages, shared hosting), $150-299/month (private docs, custom domain, analytics).
+Pricing - Free (unlimited pages, shared hosting), $150-299/month (private docs, custom domain, analytics).
 
 Why GitBook Wins:
 
@@ -395,9 +395,9 @@ Get User
 
 Retrieve a specific user by ID.
 
-Endpoint: `GET /api/v2/users/{userId}`
+Endpoint - `GET /api/v2/users/{userId}`
 
-Authentication: Required (Bearer token)
+Authentication - Required (Bearer token)
 
 Parameters:
 
@@ -448,7 +448,7 @@ Version Management:
 GitBook handles multiple versions:
 
 ```
-Space: API Reference
+Space - API Reference
 
 Versions:
  v3.0 (Latest, visible by default)
@@ -486,7 +486,7 @@ Get User
 
 Retrieve a specific user by ID.
 
-Endpoint: GET /api/v2/users/{userId}
+Endpoint - GET /api/v2/users/{userId}
 ...
 EOF
 
@@ -502,7 +502,7 @@ Docs published to docs.company.com within 30 seconds
 Analytics:
 
 ```
-Dashboard: API Documentation Traffic
+Dashboard - API Documentation Traffic
 
 Top Pages:
  Getting Started - 8,432 views (week)
@@ -531,7 +531,7 @@ Geographic Traffic:
 Team Collaboration:
 
 ```
-Space: API Reference
+Space - API Reference
 
 Members:
  @cto - Admin (publish, manage versions)
@@ -541,19 +541,19 @@ Members:
  @marketing - Guest (read-only, no edit)
 
 No page-level permissions. All members (with access) can edit all pages.
-Better for: Small, highly collaborative teams.
-Worse for: Large orgs needing granular control.
+Better for - Small, highly collaborative teams.
+Worse for - Large orgs needing granular control.
 ```
 
-Cost for 20-person team: Free tier (public docs) or $200/month (private docs with custom domain).
+Cost for 20-person team - Free tier (public docs) or $200/month (private docs with custom domain).
 
 ---
 
-Slite: Async-Optimized for Distributed Teams
+Slite - Async-Optimized for Distributed Teams
 
 Slite is built for remote teams. Every feature is designed to reduce meetings and encourage async communication.
 
-Pricing: $8/user/month (Starter), $16/user/month (Business). Monthly or annual billing.
+Pricing - $8/user/month (Starter), $16/user/month (Business). Monthly or annual billing.
 
 Why Slite Wins:
 
@@ -565,7 +565,7 @@ Why Slite Wins:
 
 Why Slite Loses:
 
-- Smaller than Notion ecosystem (fewer integrations)
+- Smaller than Notion environment (fewer integrations)
 - No database/relational features
 - Permissions are space-level (not granular page-level)
 - Less suitable for very large knowledge bases (>10k pages)
@@ -588,16 +588,16 @@ Real Slite Setup (5 minutes):
 Slite + Slack Integration:
 
 ```
-Slack: #engineering
+Slack - #engineering
 
-User: @alice
+User - @alice
 "hey team, I'm deploying the payment service, here's the runbook"
 
 Slack Message Threads:
  Alice shared Slite doc "Payment Service Deployment"
  Bob: "Perfect, I've added notes about certificate renewal"
- Sam: "Should we add section about rollback procedure?"
- Alice: "Good call, done. Updated the doc with new section"
+ Sam - "Should we add section about rollback procedure?"
+ Alice - "Good call, done. Updated the doc with new section"
  [Team can view live edits in Slack preview]
 
 Doc is updated in real-time. When Alice edits in Slite, Slack
@@ -607,7 +607,7 @@ shows the updated version instantly (no version lag).
 Slack Bot Commands:
 
 ```
-Slack: @slite
+Slack - @slite
 
 /slite search "deployment" → Returns top docs matching "deployment"
 
@@ -621,9 +621,9 @@ Slack: @slite
 Async Review Workflow:
 
 ```
-Slite Channel: #engineering
+Slite Channel - #engineering
 
-Doc: Database Migration Procedure
+Doc - Database Migration Procedure
 
 Workflow:
 1. Alice creates doc (draft)
@@ -645,7 +645,7 @@ Timeline:
 Search Example:
 
 ```
-Query: "how do I deploy a new version"
+Query - "how do I deploy a new version"
 
 Results (instant):
  Deployment Guide → Contains "deploy a new version" (headline)
@@ -659,26 +659,26 @@ Click any result → Jump to that section with search term highlighted
 Permissions:
 
 ```
-Channel: #engineering (engineering team only)
+Channel - #engineering (engineering team only)
 
 Access:
  Viewing: All members of #engineering
  Editing: All members of #engineering
  Admin: Tech lead, CTO
 
-Page-Level Permissions: Not available
+Page-Level Permissions - Not available
   (If doc is sensitive, use separate private channel for 5 people)
 ```
 
-Cost for 20-person team: $160/month (all members = $8 × 20).
+Cost for 20-person team - $160/month (all members = $8 × 20).
 
 ---
 
-Slab: Simple Wiki, Great Search
+Slab - Simple Wiki, Great Search
 
 Slab is the middle ground between Notion and Confluence. It's simpler than both but still powerful.
 
-Pricing: $10/user/month (Starter), $24/user/month (Business). Team plans available.
+Pricing - $10/user/month (Starter), $24/user/month (Business). Team plans available.
 
 Why Slab Wins:
 
@@ -692,13 +692,13 @@ Why Slab Loses:
 
 - No database/relational features
 - Permissions are basic (not granular)
-- Smaller integrations ecosystem
+- Smaller integrations environment
 - Less suitable for very large teams
 
-Slab vs Competitors: Use Case Comparison
+Slab vs Competitors - Use Case Comparison
 
 ```
-Use Case: Small SaaS (20 people)
+Use Case - Small SaaS (20 people)
 
 Notion:
  Flexibility:  (incredibly flexible)
@@ -724,11 +724,11 @@ Confluence:
 
 ---
 
-Feature Comparison: Deep Dive
+Feature Comparison - Deep Dive
 
 Search Quality Test
 
-Scenario: 5,000 pages. Search for "how to reset password".
+Scenario - 5,000 pages. Search for "how to reset password".
 
 | Platform | Speed | Results Relevance | Filtering | Notes |
 |----------|-------|-------------|-----------|-------|
@@ -738,11 +738,11 @@ Scenario: 5,000 pages. Search for "how to reset password".
 | Slite | <500ms | Very Good (shows 30 results) | By channel | Mobile search is instant |
 | Slab | <500ms | Very Good (shows 25 results) | By collections | Consistent performance |
 
-Winner: Confluence (best ranking), Slite (best mobile).
+Winner - Confluence (best ranking), Slite (best mobile).
 
 Permissions Comparison
 
-Scenario: Company with public (handbook), internal (team docs), and private (executive) content.
+Scenario - Company with public (handbook), internal (team docs), and private (executive) content.
 
 | Platform | Public | Internal | Private | Granular |
 |----------|--------|----------|---------|----------|
@@ -752,7 +752,7 @@ Scenario: Company with public (handbook), internal (team docs), and private (exe
 | Slite | Channel-level | Channel-level | Channel-level | No |
 | Slab | Collection-level | Collection-level | Collection-level | No |
 
-Winner: Confluence (most granular control).
+Winner - Confluence (most granular control).
 
 API Capabilities
 
@@ -764,7 +764,7 @@ API Capabilities
 | Slite | Yes | Yes | Limited | Yes |
 | Slab | Yes | Yes | Limited | Yes |
 
-Winner: Notion (most capable API).
+Winner - Notion (most capable API).
 
 ---
 
@@ -772,17 +772,17 @@ Implementation Recommendations
 
 For Startup (5-20 people)
 
-Best Choice: Notion
+Best Choice - Notion
 
 - Reason: Low cost ($200/month), flexible, integrates everywhere
 - Setup: 30 minutes
 - Risk: Grows into chaos without governance
 
-Mitigation: Create "Documentation Standards" page with templates.
+Mitigation - Create "Documentation Standards" page with templates.
 
 For Growth Stage (20-100 people)
 
-Best Choice: Slite or Slab
+Best Choice - Slite or Slab
 
 - Reason: Scales better than Notion, simpler than Confluence
 - Cost: Slite $160/month, Slab $200/month
@@ -791,7 +791,7 @@ Best Choice: Slite or Slab
 
 For Enterprise (100+ people)
 
-Best Choice: Confluence
+Best Choice - Confluence
 
 - Reason: Best permissions, integrates with Jira, compliance features
 - Cost: $80/month (but bundled with Jira Cloud = $200-500/month total)
@@ -799,7 +799,7 @@ Best Choice: Confluence
 
 For Public API Product
 
-Best Choice: GitBook
+Best Choice - GitBook
 
 - Reason: Beautiful, SEO-optimized, version management
 - Cost: Free (public) or $300/month (private + analytics)
@@ -807,9 +807,9 @@ Best Choice: GitBook
 
 ---
 
-Cost Comparison: 1 Year
+Cost Comparison - 1 Year
 
-Scenario: 30-person remote team, needs both internal docs and versioned API reference.
+Scenario - 30-person remote team, needs both internal docs and versioned API reference.
 
 | Platform | Monthly | Annual | Notes |
 |----------|---------|--------|-------|
@@ -820,7 +820,7 @@ Scenario: 30-person remote team, needs both internal docs and versioned API refe
 | Slab | $300 | $3,600 | All members = $10 × 30 |
 | Notion + GitBook | $600 | $7,200 | Best separation (internal wiki + public docs) |
 
-Best Value: Confluence ($960/year) if you have Jira Cloud.
+Best Value - Confluence ($960/year) if you have Jira Cloud.
 
 ---
 
@@ -840,7 +840,7 @@ Moving from Google Docs to Notion
  Delete Google Drive after 30 days
 ```
 
-Time: 3-5 days for 100 docs.
+Time - 3-5 days for 100 docs.
 
 Moving from Confluence to Notion
 
@@ -857,7 +857,7 @@ Moving from Confluence to Notion
  Close Confluence instance after 90-day grace period
 ```
 
-Time: 2-3 weeks for 500+ pages.
+Time - 2-3 weeks for 500+ pages.
 
 ---
 
@@ -869,7 +869,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -881,7 +881,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

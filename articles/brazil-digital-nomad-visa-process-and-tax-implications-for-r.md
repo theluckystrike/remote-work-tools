@@ -39,13 +39,13 @@ Eligibility Requirements for Brazil's Digital Nomad Visa
 
 The Brazilian government designed the Vitem XIV visa specifically for foreign nationals who work remotely for entities outside Brazil. To qualify, you must meet several key requirements.
 
-Income Threshold: You need to demonstrate a minimum monthly income of $1,500 USD from remote work activities. This can include salary from a foreign employer, freelance client payments, or income from a registered business abroad. Three months of bank statements, PayPal records, or payment invoices typically serve as sufficient proof.
+Income Threshold - You need to demonstrate a minimum monthly income of $1,500 USD from remote work activities. This can include salary from a foreign employer, freelance client payments, or income from a registered business abroad. Three months of bank statements, PayPal records, or payment invoices typically serve as sufficient proof.
 
-Remote Work Confirmation: Your employment or client contracts must clearly indicate that your work is performed entirely or predominantly outside Brazil. If you're a freelancer, having contracts with international clients strengthens your application significantly.
+Remote Work Confirmation - Your employment or client contracts must clearly indicate that your work is performed entirely or predominantly outside Brazil. If you're a freelancer, having contracts with international clients strengthens your application significantly.
 
-Health Insurance: Brazil requires all digital nomad visa holders to maintain health insurance coverage valid throughout their stay in the country. International providers like SafetyWing, Genki World, and other travel insurance companies offer policies that meet Brazil's requirements.
+Health Insurance - Brazil requires all digital nomad visa holders to maintain health insurance coverage valid throughout their stay in the country. International providers like SafetyWing, Genki World, and other travel insurance companies offer policies that meet Brazil's requirements.
 
-Passport Validity: Your passport must remain valid for at least six months beyond your intended departure date from Brazil.
+Passport Validity - Your passport must remain valid for at least six months beyond your intended departure date from Brazil.
 
 Application Process Step by Step
 
@@ -73,7 +73,7 @@ done
 
 Bank statements should show consistent income deposits over three consecutive months. If you're self-employed, combine bank statements with invoices and client contracts to demonstrate a reliable income stream.
 
-Step 2: Submit Your Application Online
+Step 2 - Submit Your Application Online
 
 Brazil's digital nomad visa application is submitted through the Ministry of Foreign Affairs (Itamaraty) online portal. Create an account on the official government website and complete the Vitem XIV application form.
 
@@ -85,15 +85,15 @@ The application asks for:
 
 After submitting, you'll receive a protocol number that allows you to track your application status.
 
-Step 3: Pay the Visa Fee
+Step 3 - Pay the Visa Fee
 
 The digital nomad visa fee is approximately $100 USD (subject to change based on current exchange rates). Payment is made online through the portal using a credit or debit card.
 
-Step 4: Attend Consulate Appointment (If Required)
+Step 4 - Attend Consulate Appointment (If Required)
 
 Depending on your country of residence and the Brazilian consulate's procedures, you may need to attend an in-person appointment to provide biometrics and verify your documents. Some consulates have improved this to a fully online process.
 
-Step 5: Receive Your Visa
+Step 5 - Receive Your Visa
 
 Processing times vary but typically take 30-60 days. Once approved, you'll receive your visa electronically (e-visa) in most cases. Print a copy to carry with your passport when traveling to Brazil.
 
@@ -158,9 +158,9 @@ annual_income_brl = 100000
 estimated_tax = estimate_brazil_tax(annual_income_brl)
 effective_rate = (estimated_tax / annual_income_brl) * 100
 
-print(f"Annual Income: R${annual_income_brl:,.2f}")
-print(f"Estimated Tax: R${estimated_tax:,.2f}")
-print(f"Effective Rate: {effective_rate:.1f}%")
+print(f"Annual Income - R${annual_income_brl:,.2f}")
+print(f"Estimated Tax - R${estimated_tax:,.2f}")
+print(f"Effective Rate - {effective_rate:.1f}%")
 ```
 
 IRS Reporting for US Citizens
@@ -169,13 +169,13 @@ If you're an US citizen or permanent resident, you must continue filing US tax r
 
 Practical Tips for Remote Developers
 
-Banking: Open a Brazilian bank account (Banco do Brasil, Itaú, or NuBank) once you arrive. This makes paying local expenses and taxes easier. Many banks allow account opening via app with your passport and visa.
+Banking - Open a Brazilian bank account (Banco do Brasil, Itaú, or NuBank) once you arrive. This makes paying local expenses and taxes easier. Many banks allow account opening via app with your passport and visa.
 
-CPF Number: Apply for a CPF (Cadastro de Pessoas Físicas) - Brazil's individual taxpayer registry. You'll need this for banking, renting apartments, and paying taxes. Apply online through the Receita Federal website before arrival or at any Brazilian bank.
+CPF Number - Apply for a CPF (Cadastro de Pessoas Físicas) - Brazil's individual taxpayer registry. You'll need this for banking, renting apartments, and paying taxes. Apply online through the Receita Federal website before arrival or at any Brazilian bank.
 
-Mobile Phone: Purchase a local SIM card from carriers like Vivo, Claro, or TIM. You'll need your passport and CPF to register the SIM.
+Mobile Phone - Purchase a local SIM card from carriers like Vivo, Claro, or TIM. You'll need your passport and CPF to register the SIM.
 
-Health Insurance: Don't skip this requirement. Brazilian public healthcare (SUS) is available but often overwhelmed. Private health insurance costs range from $50-150 USD monthly depending on coverage.
+Health Insurance - Don't skip this requirement. Brazilian public healthcare (SUS) is available but often overwhelmed. Private health insurance costs range from $50-150 USD monthly depending on coverage.
 
 Advanced Tax Planning for Brazil Digital Nomads
 
@@ -382,7 +382,7 @@ class BrazilFinanceManager:
 
         for method, details in options.items():
             print(f"{method.upper()}:")
-            print(f"  Cost: ${details['cost_usd']:.2f}")
+            print(f"  Cost - ${details['cost_usd']:.2f}")
             print(f"  Days: {details['days']}")
             print(f"  Total cost: ${details['total_usd'] - amount_usd:.2f}")
 

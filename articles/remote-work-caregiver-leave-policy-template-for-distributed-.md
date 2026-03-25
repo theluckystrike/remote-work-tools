@@ -174,7 +174,7 @@ For remote teams, returning from extended leave without a structured ramp-up is 
 
 Practical Policy Examples
 
-Example 1: Senior Developer Sandwich Scenario
+Example 1 - Senior Developer Sandwich Scenario
 
 Sarah, a senior backend developer at a distributed company, has a 7-year-old daughter and her father lives with advanced Parkinson's. With a well-structured caregiver policy, Sarah might structure her week as:
 
@@ -185,7 +185,7 @@ Sarah, a senior backend developer at a distributed company, has a 7-year-old dau
 
 This arrangement works because the policy explicitly allows stacking benefits and provides flexibility in scheduling.
 
-Example 2: Distributed Team Lead
+Example 2 - Distributed Team Lead
 
 Marcus manages a team spanning UTC-5 to UTC+9. His elderly mother requires weekly physical therapy sessions. Under the policy:
 

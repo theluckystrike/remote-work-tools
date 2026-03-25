@@ -191,13 +191,13 @@ When a question requires extended debate, acknowledge it and suggest a follow-up
 ```markdown
 Question Handling Template
 
-Category A: Clarification (answer immediately)
+Category A - Clarification (answer immediately)
 - "Which API endpoint handles that?"
 
-Category B: Interest (note for follow-up)
+Category B - Interest (note for follow-up)
 - "We have a similar use case - can we chat afterward?"
 
-Category C: Critique (defer to discussion forum)
+Category C - Critique (defer to discussion forum)
 - "Should this approach have been different?"
 ```
 
@@ -243,8 +243,8 @@ Set up a recurring schedule:
 ```bash
 Calendar recurrence for demo days
 Every second Thursday at 2pm UTC
-Calendar event: "Demo Day - Cross-Team Showcase"
-Auto-invite: engineering-team@company.com
+Calendar event - "Demo Day - Cross-Team Showcase"
+Auto-invite - engineering-team@company.com
 ```
 
 Block prep time for presenters the week before. Make the schedule visible and hold people accountable to it.

@@ -190,10 +190,10 @@ sudo sysctl -p
 Advertise the subnet
 sudo tailscale up --advertise-routes=10.0.1.0/24,10.0.2.0/24
 
-In the admin console: approve the advertised routes
+In the admin console - approve the advertised routes
 Admin → Machines → select machine → Edit route settings → approve routes
 
-On client devices: use the route
+On client devices - use the route
 By default, clients use approved subnet routes automatically
 Verify:
 tailscale status
@@ -208,9 +208,9 @@ An exit node routes all internet traffic for a device through a Tailscale node. 
 Set up a node as an exit node
 sudo tailscale up --advertise-exit-node
 
-Approve in admin console: Machines → select → Edit route settings → Use as exit node
+Approve in admin console - Machines → select → Edit route settings → Use as exit node
 
-On client: use the exit node
+On client - use the exit node
 sudo tailscale up --exit-node=100.64.0.5
 or by hostname
 sudo tailscale up --exit-node=exit-server

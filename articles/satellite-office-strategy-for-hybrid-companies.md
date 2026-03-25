@@ -29,7 +29,7 @@ Table of Contents
 - [Measuring Satellite Office Success](#measuring-satellite-office-success)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Getting Started](#getting-started)
-- [Cost Breakdown: Satellite Office vs. Remote Only](#cost-breakdown-satellite-office-vs-remote-only)
+- [Cost Breakdown - Satellite Office vs. Remote Only](#cost-breakdown-satellite-office-vs-remote-only)
 - [Satellite Office Failure Modes and Prevention](#satellite-office-failure-modes-and-prevention)
 - [Implementation Roadmap: Launching Your First Satellite Office](#implementation-roadmap-launching-your-first-satellite-office)
 - [Hiring Strategy Around Satellite Offices](#hiring-strategy-around-satellite-offices)

@@ -27,7 +27,7 @@ Table of Contents
 - [Handling Edge Cases](#handling-edge-cases)
 - [Measuring Success](#measuring-success)
 - [Sample Team Emoji Guide](#sample-team-emoji-guide)
-- [Implementation Mechanics: Tools and Workflows](#implementation-mechanics-tools-and-workflows)
+- [Implementation Mechanics - Tools and Workflows](#implementation-mechanics-tools-and-workflows)
 - [Adoption Metrics and Benchmarks](#adoption-metrics-and-benchmarks)
 - [Scaling Emoji Norms Across Teams](#scaling-emoji-norms-across-teams)
 - [Universal (all teams)](#universal-all-teams)
@@ -113,23 +113,23 @@ Introducing Norms to Your Team
 
 Roll out emoji norms through a few deliberate steps:
 
-Step 1: Announce the Change
+Step 1 - Announce the Change
 
 Post in your team channel explaining the new approach. Keep the message brief:
 
 > "We're standardizing emoji reactions to reduce unnecessary messages. Check the pinned message for our new vocabulary. Starting today,  means acknowledged,  means done, etc."
 
-Step 2: Model the Behavior
+Step 2 - Model the Behavior
 
 Leaders and early adopters should consistently use the defined emojis in their own messages. When someone uses an emoji correctly, reinforce it with a response like "Exactly right. using  here helps everyone know this is handled."
 
-Step 3: Redirect Gracefully
+Step 3 - Redirect Gracefully
 
 When someone replies with text instead of a reaction, gently remind them:
 
 > "Quick reminder. you can just react with  here instead of writing a reply!"
 
-Step 4: Iterate Based on Feedback
+Step 4 - Iterate Based on Feedback
 
 After two weeks, ask the team how the new norms are working. Some emojis might not resonate, or you might discover gaps in your vocabulary. Adjust accordingly.
 
@@ -184,7 +184,7 @@ Quick acknowledgment without writing replies:
 
 Pin this where your team can easily find it, and update as your norms evolve.
 
-Implementation Mechanics: Tools and Workflows
+Implementation Mechanics - Tools and Workflows
 
 Creating emoji norms is one thing; enforcing adoption is another. Here are practical mechanics used by teams with 90%+ adoption rates:
 
@@ -193,15 +193,15 @@ Slack Workflow Automation
 Use Slack's native workflow builder to nudge people toward reaction-based communication:
 
 ```
-Trigger: When a message gets a text reply "Got it" or "Thanks"
-Action 1: React with  emoji
-Action 2: Send reminder in thread: "Try reacting with  instead, keeps channel cleaner!"
-Action 3: Hide original text reply
+Trigger - When a message gets a text reply "Got it" or "Thanks"
+Action 1 - React with  emoji
+Action 2 - Send reminder in thread: "Try reacting with  instead, keeps channel cleaner!"
+Action 3 - Hide original text reply
 ```
 
 This automation gently redirects without being heavy-handed. Teams report this cuts unnecessary messages by 25-30% within a week.
 
-Slack App Example: Custom Emoji Shortcut
+Slack App Example - Custom Emoji Shortcut
 
 For teams using Slack API access, build a simple app that expands emoji shortcuts:
 
@@ -288,14 +288,14 @@ Handling Remote-Async Challenges
 
 In async-first, distributed teams, emoji reactions solve specific time zone problems:
 
-Problem: Message sits in Slack for 12 hours waiting for response while person across the world sleeps.
-Solution: Quick  reaction indicates "seen, will respond by EOD."
+Problem - Message sits in Slack for 12 hours waiting for response while person across the world sleeps.
+Solution - Quick  reaction indicates "seen, will respond by EOD."
 
-Problem: Long threads get lost; nobody knows if a request was actually actioned.
+Problem - Long threads get lost; nobody knows if a request was actually actioned.
 Solution:  reaction signals completion without requiring a "Done!" message.
 
-Problem: Too many voice messages in Slack clog the channel and require people to listen.
-Solution: Emoji allows quick acknowledgment of voice messages without requiring a voice reply.
+Problem - Too many voice messages in Slack clog the channel and require people to listen.
+Solution - Emoji allows quick acknowledgment of voice messages without requiring a voice reply.
 
 For truly distributed teams (timezone spread >12 hours), emoji reactions become your primary lightweight acknowledgment layer. Text is for substance. Emoji is for acknowledgment.
 

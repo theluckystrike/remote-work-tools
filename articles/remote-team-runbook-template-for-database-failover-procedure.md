@@ -72,9 +72,9 @@ production:
 
 The Database Failover Runbook
 
-Phase 1: Detection and Initial Assessment (0-3 minutes)
+Phase 1 - Detection and Initial Assessment (0-3 minutes)
 
-Trigger: Monitoring alert or on-call engineer notification
+Trigger - Monitoring alert or on-call engineer notification
 
 Actions:
 
@@ -116,7 +116,7 @@ for replica in "${DB_REPLICAS[@]}"; do
 done
 ```
 
-Phase 2: Decision to Failover (3-10 minutes)
+Phase 2 - Decision to Failover (3-10 minutes)
 
 Use this decision matrix to determine if failover is appropriate:
 
@@ -140,21 +140,21 @@ When the on-call engineer is not the primary DBA:
 ```markdown
 Failover Decision Request
 
-Current Status: [Primary unreachable / High latency / etc]
-Time Since Issue: [X minutes]
-Affected Services: [list]
-Replication Status: [replica-1: Xs lag, replica-2: Ys lag]
+Current Status - [Primary unreachable / High latency / etc]
+Time Since Issue - [X minutes]
+Affected Services - [list]
+Replication Status - [replica-1: Xs lag, replica-2: Ys lag]
 
 Failover to [replica name]
 
 @oncall-dba @senior-engineer - Any objections to proceeding?
 ```
 
-Phase 3: Failover Execution (10-20 minutes)
+Phase 3 - Failover Execution (10-20 minutes)
 
 Execute the failover using your database's native tools. The following examples use PostgreSQL with Patroni, but adapt to your specific setup:
 
-Step 1: Promote the Target Replica
+Step 1 - Promote the Target Replica
 
 ```bash
 #!/bin/bash
@@ -185,7 +185,7 @@ else
 fi
 ```
 
-Step 2: Update Application Connection Strings
+Step 2 - Update Application Connection Strings
 
 ```bash
 #!/bin/bash
@@ -207,7 +207,7 @@ Restart application pods to pick up new connections
 kubectl rollout restart deployment/production-api
 ```
 
-Step 3: Verify Replication to Old Primary (Now Replica)
+Step 3 - Verify Replication to Old Primary (Now Replica)
 
 ```bash
 #!/bin/bash
@@ -232,7 +232,7 @@ while true; do
 done
 ```
 
-Phase 4: Post-Failover Verification (20-30 minutes)
+Phase 4 - Post-Failover Verification (20-30 minutes)
 
 Run checks to ensure the failover was successful:
 
@@ -269,16 +269,16 @@ pg_dump -h "$NEW_PRIMARY" -F c -f /tmp/backup_test.sql
 echo " All verification checks passed"
 ```
 
-Phase 5: Incident Documentation and Follow-Up
+Phase 5 - Incident Documentation and Follow-Up
 
 Create an incident report within 24 hours of the failover:
 
 ```markdown
 Database Failover Incident Report
 
-Date: [ISO timestamp]
-Duration: [start to full resolution]
-Root Cause: [what caused the original failure]
+Date - [ISO timestamp]
+Duration - [start to full resolution]
+Root Cause - [what caused the original failure]
 
 Timeline
 - 02:15 - Alert triggered: primary unreachable

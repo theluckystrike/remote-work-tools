@@ -97,7 +97,7 @@ def get_owl_status(owl_ip, api_key):
     )
     return response.json()
 
-Returns: { "battery": 100, "firmware": "4.2.1", "speaker_active": true }
+Returns - { "battery": 100, "firmware": "4.2.1", "speaker_active": true }
 ```
 
 The API enables programmatic control over:
@@ -120,7 +120,7 @@ Access audio settings through the Owl Admin Portal:
 ```bash
 Test microphone levels (Linux)
 pactl list sources short | grep -i owl
-Adjust gain: pactl set-source-volume <source_name> 150%
+Adjust gain - pactl set-source-volume <source_name> 150%
 ```
 
 Reducing Audio Issues

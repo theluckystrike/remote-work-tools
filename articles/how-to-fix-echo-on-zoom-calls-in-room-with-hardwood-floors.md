@@ -24,11 +24,11 @@ Table of Contents
 - [Software-Level Solutions](#software-level-solutions)
 - [Hardware Solutions](#hardware-solutions)
 - [Acoustic Treatment for Hardwood Floors](#acoustic-treatment-for-hardwood-floors)
-- [Advanced: Digital Signal Processing](#advanced-digital-signal-processing)
+- [Advanced - Digital Signal Processing](#advanced-digital-signal-processing)
 - [Echo Testing Protocol](#echo-testing-protocol)
 - [Equipment Recommendations by Budget](#equipment-recommendations-by-budget)
 - [Common Echo Myths Debunked](#common-echo-myths-debunked)
-- [Troubleshooting: When Nothing Works](#troubleshooting-when-nothing-works)
+- [Troubleshooting - When Nothing Works](#troubleshooting-when-nothing-works)
 - [Quick Reference Card](#quick-reference-card)
 
 Why Hardwood Floors Cause Echo
@@ -111,7 +111,7 @@ Acoustic Treatment for Hardwood Floors
 
 Treating the room itself provides the most permanent and effective solution.
 
-Quick Fixes: Absorption Panels
+Quick Fixes - Absorption Panels
 
 You don't need to build a professional recording studio. Strategic placement of absorptive materials breaks up sound reflections:
 
@@ -123,7 +123,7 @@ You don't need to build a professional recording studio. Strategic placement of 
 
 First reflection points are locations where sound from your mouth bounces off a surface and reaches your microphone. Find them by sitting in your normal position, having someone hold a mirror against the wall, and marking where you see your mouth in the mirror, that's a reflection point.
 
-Permanent Solutions: Area Rugs and Furniture
+Permanent Solutions - Area Rugs and Furniture
 
 If you're willing to commit to the setup:
 
@@ -161,7 +161,7 @@ assembly_steps:
 
 Mount these at first reflection points and behind your microphone for maximum effect.
 
-Advanced: Digital Signal Processing
+Advanced - Digital Signal Processing
 
 For developers and power users comfortable with audio routing, software-based DSP provides fine-grained control.
 
@@ -200,11 +200,11 @@ Echo Testing Protocol
 
 Before spending money on acoustic treatment, properly diagnose your echo problem:
 
-Test 1: Solo Recording Test
+Test 1 - Solo Recording Test
 Record yourself speaking for 60 seconds using QuickTime (macOS), Voice Memos (all platforms), or Audacity (free, cross-platform):
 
 ```bash
-Linux/macOS: Record 60 seconds to test file
+Linux/macOS - Record 60 seconds to test file
 ffmpeg -f avfoundation -i ":0" -t 60 output.wav
 
 Listen back at various playback volumes
@@ -214,7 +214,7 @@ If echo disappears at lower volumes, it's primarily a microphone sensitivity iss
 
 Play it back at conversation volume. If you hear a distinct repetition (like "hello...hello"), that's echo. If you hear smearing or reverb tail, that's room reflections.
 
-Test 2: Comparison Recording
+Test 2 - Comparison Recording
 Record the same 60-second statement in three positions:
 1. Microphone at current desk position
 2. Microphone 1 foot closer to mouth
@@ -222,7 +222,7 @@ Record the same 60-second statement in three positions:
 
 Compare the three recordings. The one with least echo shows your improvement path.
 
-Test 3: Remote Feedback Test
+Test 3 - Remote Feedback Test
 Have someone on a Zoom call with you describe what they hear:
 - Clear voice with no echo: Problem solved
 - Voice with noticeable echo: Significant issue
@@ -232,23 +232,23 @@ This is the real test, what matters is what participants experience, not what yo
 
 Equipment Recommendations by Budget
 
-Budget: $0-30 (Software fixes only)
+Budget - $0-30 (Software fixes only)
 - Reduce microphone input gain to 60-70%
 - Enable Zoom echo suppression
 - Reduce room reflections with existing furniture
 - Success rate: 50% for mild echo
 
-Budget: $30-100 (Mic upgrade)
+Budget - $30-100 (Mic upgrade)
 - Blue Yeti USB microphone ($50-80): Cardioid pattern, built-in echo cancellation
 - Audio-Technica AT2020USB-X ($100): Professional quality, excellent off-axis rejection
 - Success rate: 80%+ for most setups
 
-Budget: $100-300 (Acoustic treatment + mic)
+Budget - $100-300 (Acoustic treatment + mic)
 - USB mic ($50-80) + Acoustic foam panels 2-pack ($50-100) + bass trap ($20-40)
 - DIY acoustic panels ($40 each) + quality USB mic
 - Success rate: 95%+
 
-Budget: $300+ (Professional setup)
+Budget - $300+ (Professional setup)
 - Condenser microphone with preamp ($150-300)
 - Professional acoustic treatment ($200+)
 - Audio interface for processing ($100-200)
@@ -258,19 +258,19 @@ For most nomads working from Airbnbs, the $30-100 budget tier (software fixes + 
 
 Common Echo Myths Debunked
 
-Myth: "Dual monitors cause more echo"
+Myth - "Dual monitors cause more echo"
 False. The number of screens doesn't affect acoustics. Room surfaces matter far more.
 
-Myth: "Software echo cancellation can fix any echo"
+Myth - "Software echo cancellation can fix any echo"
 False. Software works well for mild-to-moderate echo but struggles with severe reflections. Hardware solutions (microphone placement, absorption) always outperform software.
 
-Myth: "Expensive microphones eliminate echo completely"
+Myth - "Expensive microphones eliminate echo completely"
 False. A $500 microphone in a reflective room still sounds echoy. Microphone quality matters, but room treatment matters more.
 
-Myth: "Soundproofing foam eliminates echo"
+Myth - "Soundproofing foam eliminates echo"
 Misleading. Most cheap foam helps reduce echo but isn't true acoustic treatment. Roxul Safe'n'Sound (insulation, not foam) absorbs better. Professional panels with proper backing work best.
 
-Troubleshooting: When Nothing Works
+Troubleshooting - When Nothing Works
 
 If you've tried software fixes, repositioned your microphone, and added basic absorption but echo persists:
 
@@ -297,17 +297,17 @@ Print this card and reference it during problem moments:
 ```
 ZOOM ECHO TROUBLESHOOTING QUICK REFERENCE
 
-Symptom: Hearing own voice delayed back
-Solution: 1. Reduce microphone input to 70% | 2. Enable Echo Suppression | 3. Move mic closer
+Symptom - Hearing own voice delayed back
+Solution - 1. Reduce microphone input to 70% | 2. Enable Echo Suppression | 3. Move mic closer
 
-Symptom: Voice sounds reverberant/smeared
-Solution: 1. Add area rug in front of desk | 2. Place acoustic foam behind mic | 3. Use directional mic
+Symptom - Voice sounds reverberant/smeared
+Solution - 1. Add area rug in front of desk | 2. Place acoustic foam behind mic | 3. Use directional mic
 
-Symptom: Persistent echo despite software fixes
-Solution: 1. Check speaker placement (should be behind you) | 2. Add absorption to first reflection points | 3. Upgrade to cardioid microphone
+Symptom - Persistent echo despite software fixes
+Solution - 1. Check speaker placement (should be behind you) | 2. Add absorption to first reflection points | 3. Upgrade to cardioid microphone
 
-Symptom: Only happens with certain people
-Solution: They may have feedback from their setup, ask them to move speakers or reduce their volume
+Symptom - Only happens with certain people
+Solution - They may have feedback from their setup, ask them to move speakers or reduce their volume
 
 Emergency fix (before important call):
 - Reduce input gain to 50%

@@ -34,7 +34,7 @@ The ideal screen brightness should match your ambient lighting. In a dark room, 
 
 Research from the American Optometric Association suggests that computer-related eye strain. formally called Computer Vision Syndrome. affects roughly 50% to 90% of people who work at screens for extended periods. Developers are particularly exposed because of long, uninterrupted focus sessions with small text at close range. Most symptoms (dryness, blurring, headaches) are directly addressable through display configuration rather than hardware upgrades.
 
-A practical test: if your white background in a text editor looks like a light source (similar to a lamp in a dark room), your brightness is too high for that environment. Your iris constantly dilates and constricts as you shift gaze between a bright screen and a dim room. over several hours, that ciliary muscle fatigue adds up significantly.
+A practical test - if your white background in a text editor looks like a light source (similar to a lamp in a dark room), your brightness is too high for that environment. Your iris constantly dilates and constricts as you shift gaze between a bright screen and a dim room. over several hours, that ciliary muscle fatigue adds up significantly.
 
 Using System APIs to Control Brightness
 
@@ -198,7 +198,7 @@ Brightness is only part of the equation. Blue light from screens affects your ci
 
 - macOS: Enable Night Shift in System Preferences > Displays
 - Windows: Use Night Light settings in Display options
-- Linux: Use Redshift or f.lux
+- Linux - Use Redshift or f.lux
 
 You can also control color temperature programmatically:
 

@@ -49,9 +49,9 @@ Project Overview
 
 This service handles user authentication and authorization for the platform. It provides JWT token generation, session management, and integrates with the company's identity provider.
 
-Tech Stack: Go 1.21, PostgreSQL 15, Redis 7
-Owners: @platform-auth-team
-Slack Channel: #auth-platform
+Tech Stack - Go 1.21, PostgreSQL 15, Redis 7
+Owners - @platform-auth-team
+Slack Channel - #auth-platform
 ```
 
 Getting Started
@@ -132,8 +132,8 @@ Remote teams need clear deployment procedures, especially when on-call developer
 ```markdown
 Deployment
 
-Production: Automated via GitHub Actions on merge to main
-Staging: Deployed automatically on push to staging branch
+Production - Automated via GitHub Actions on merge to main
+Staging - Deployed automatically on push to staging branch
 
 Rollback Procedure
 
@@ -247,7 +247,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -259,7 +259,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

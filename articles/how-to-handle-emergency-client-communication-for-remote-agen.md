@@ -34,7 +34,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Establishing Your Emergency Communication Framework
+Step 1 - Establishing Your Emergency Communication Framework
 
 Define What Constitutes an Emergency
 
@@ -60,22 +60,22 @@ Create a Communication Chain
 Document a clear escalation path that every team member can follow:
 
 ```
-Level 1: First Response (within 15 minutes)
+Level 1 - First Response (within 15 minutes)
  On-call developer receives alert
  Acknowledges receipt to client
  Begins initial investigation
 
-Level 2: Team Lead (within 30 minutes)
+Level 2 - Team Lead (within 30 minutes)
  Notified if issue not resolved
  Assesses severity and resource needs
  Coordinates response strategy
 
-Level 3: Account Manager (within 60 minutes)
+Level 3 - Account Manager (within 60 minutes)
  Informed of client-facing impact
  Prepares client communication
  Manages expectations
 
-Level 4: Agency Principal (as needed)
+Level 4 - Agency Principal (as needed)
  Involved for security breaches or major incidents
  Legal escalation if needed
  Executive-level client communication
@@ -83,7 +83,7 @@ Level 4: Agency Principal (as needed)
 
 Share this chain with your client upfront so they know who to expect hearing from and when.
 
-Step 2: Build Your Emergency Toolkit
+Step 2 - Build Your Emergency Toolkit
 
 Essential Tools for Remote Emergency Response
 
@@ -127,7 +127,7 @@ def generate_oncall_schedule(team_members, weeks_ahead=4):
 
 Rotate primary and backup engineers so everyone gets predictable recovery time after on-call duty.
 
-Step 3: Responding to Client Emergencies: A Step-by-Step Guide
+Step 3 - Responding to Client Emergencies: A Step-by-Step Guide
 
 Immediate Response (0-15 minutes)
 
@@ -165,7 +165,7 @@ Once the immediate crisis passes:
 
 4. Update documentation. Add this incident to your knowledge base so future responders can learn from it.
 
-Step 4: Manage Client Communication During Emergencies
+Step 4 - Manage Client Communication During Emergencies
 
 Setting Expectations Early
 
@@ -184,9 +184,9 @@ Hi [Client Name],
 
 We received your notification about [issue]. Our team is actively investigating.
 
-Current status: [Brief description of what's happening]
-Next update: [Specific time, e.g., "in 30 minutes"]
-Primary contact: [Engineer name handling this]
+Current status - [Brief description of what's happening]
+Next update - [Specific time, e.g., "in 30 minutes"]
+Primary contact - [Engineer name handling this]
 
 We'll keep you updated as we learn more.
 ```
@@ -200,7 +200,7 @@ Never say these phrases during client emergencies:
 - "You should have...". Never blame clients, even subtly
 - Silence. No update is worse than a "still working on it" update
 
-Step 5: Preventing Future Emergencies
+Step 5 - Preventing Future Emergencies
 
 Proactive Measures
 

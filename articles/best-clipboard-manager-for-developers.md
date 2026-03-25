@@ -249,7 +249,7 @@ Pin your recurring boilerplate. Every developer has text they paste dozens of ti
 
 Use clipboard history for debugging. When stepping through a debugging session, copy variable values at each step. Your clipboard manager captures every copy, giving you a timeline of how values changed across the debugging session. This is easier than maintaining a scratch file.
 
-Integrate with your snippet workflow. Clipboard managers handle ephemeral copies well but are not ideal for long-term storage. For code snippets you want to keep permanently, pair your clipboard manager with a dedicated snippet tool like Raycast Snippets (macOS), Espanso (cross-platform), or GitHub Gists. Use the clipboard manager for the current session and push important snippets to longer-term storage at the end of the day.
+Integrate with your snippet workflow. Clipboard managers handle ephemeral copies well but are not ideal for long-term storage. For code snippets you want to keep permanently, pair your clipboard manager with a dedicated snippet tool like Raycast Snippets (macOS), Espanso (cross-platform), or GitHub Gists. Use the clipboard manager for the current session and push important snippets to longer-term storage ultimately.
 
 Making the Right Choice
 

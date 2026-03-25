@@ -301,7 +301,7 @@ Security and Compliance Considerations
 
 Appraisal data contains sensitive property and owner information requiring appropriate protections:
 
-- Encryption: Encrypt all media at rest (AES-256) and in transit (TLS 1.3)
+- Encryption - Encrypt all media at rest (AES-256) and in transit (TLS 1.3)
 - Access Control: Implement role-based permissions with audit logging
 - Retention Policies: Configure automatic deletion after regulatory retention periods
 - Privacy Compliance: Ensure compliance with state-specific appraisal confidentiality requirements
@@ -440,9 +440,9 @@ Some state appraisal boards and lender guidelines require documentation that a v
 def generate_inspection_certification(inspection: dict, appraiser: dict) -> str:
     return f"""VIRTUAL INSPECTION CERTIFICATION
 
-Property Address: {inspection['property_address']}
-Inspection Date: {inspection['completed_at'][:10]}
-Inspection Method: {inspection['inspection_type'].replace('_', ' ').title()}
+Property Address - {inspection['property_address']}
+Inspection Date - {inspection['completed_at'][:10]}
+Inspection Method - {inspection['inspection_type'].replace('_', ' ').title()}
 
 I, {appraiser['name']}, Certified {appraiser['license_type']} Appraiser,
 License No. {appraiser['license_number']}, State of {appraiser['license_state']},
@@ -458,8 +458,8 @@ certify that:
 4. This virtual inspection complies with the Uniform Standards of Professional
    Appraisal Practice (USPAP) applicable at the time of the appraisal.
 
-Appraiser Signature: ________________________
-Date: {inspection['completed_at'][:10]}
+Appraiser Signature - ________________________
+Date - {inspection['completed_at'][:10]}
 """
 ```
 
@@ -473,7 +473,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -485,7 +485,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

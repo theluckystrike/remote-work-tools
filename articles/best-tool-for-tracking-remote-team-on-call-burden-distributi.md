@@ -20,7 +20,7 @@ The Problem with Untracked On-Call Burden
 Table of Contents
 
 - [The Problem with Untracked On-Call Burden](#the-problem-with-untracked-on-call-burden)
-- [Starting with GitHub Issues: Low Overhead, High Visibility](#starting-with-github-issues-low-overhead-high-visibility)
+- [Starting with GitHub Issues - Low Overhead, High Visibility](#starting-with-github-issues-low-overhead-high-visibility)
 - [Shift Summary](#shift-summary)
 - [Incidents Handled](#incidents-handled)
 - [Notes](#notes)
@@ -40,7 +40,7 @@ Tracking on-call burden isn't about surveillance. It's about having the numbers 
 
 This guide covers the tools and approaches that work best for remote distributed teams, from teams running everything through GitHub to those using dedicated incident management platforms.
 
-Starting with GitHub Issues: Low Overhead, High Visibility
+Starting with GitHub Issues - Low Overhead, High Visibility
 
 For teams already using GitHub, the fastest path to burden tracking is a shift report template stored in `.github/ISSUE_TEMPLATE/oncall-shift.md`. Each engineer opens an issue at the start of their shift and closes it when handing off. The issue captures incidents, sleep impact, and general notes.
 
@@ -132,7 +132,7 @@ def get_oncall_burden(pd_api_key, start_date, end_date):
  return burden
 ```
 
-The limitation with PagerDuty is that free tiers restrict analytics access, and the data focuses on incident counts rather than holistic burden including after-hours disruption to personal time.
+The limitation with PagerDuty is that free tiers restrict analytics access, and the data focuses on incident counts rather than complete burden including after-hours disruption to personal time.
 
 PagerDuty Business tier (approximately $41/user/month as of 2026) unlocks the full analytics suite including time-of-day breakdowns, which is where the real fairness data lives. If your team already pays for PagerDuty, extracting burden reports is a configuration exercise. If you're evaluating it for the first time, factor the analytics tier cost into the decision.
 
@@ -146,7 +146,7 @@ Atlassian's OpsGenie offers comparable on-call management at a lower price point
 
 The Atlassian integration means on-call burden data can appear alongside sprint metrics in Jira dashboards, giving engineering managers a consolidated view without exporting reports between tools.
 
-For teams in the Atlassian ecosystem, OpsGenie's schedule integration with Jira automation allows incident tickets to auto-assign based on who is currently on-call, reducing context-switching and ensuring the burden record follows the engineer through resolution.
+For teams in the Atlassian environment, OpsGenie's schedule integration with Jira automation allows incident tickets to auto-assign based on who is currently on-call, reducing context-switching and ensuring the burden record follows the engineer through resolution.
 
 Building Fair Rotation Logic
 
@@ -230,7 +230,7 @@ Comparing Tools Side by Side
 |------|--------------------|-----------------------|------------|----------|
 | GitHub Issues | Manual only | No | Yes | Small teams, low volume |
 | PagerDuty | No (paid required) | Yes | Yes | Mid-to-large teams |
-| OpsGenie | Limited | Yes | Yes | Atlassian ecosystem teams |
+| OpsGenie | Limited | Yes | Yes | Atlassian environment teams |
 | Grafana On-Call | Yes | Partial | Yes | Open-source infrastructure teams |
 | Custom spreadsheet | Manual | Manual | N/A | Any team starting out |
 

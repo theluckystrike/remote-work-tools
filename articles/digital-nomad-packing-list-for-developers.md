@@ -86,7 +86,7 @@ fi
 
 Software and Development Environment
 
-Dotfiles: Your Portable Development Environment
+Dotfiles - Your Portable Development Environment
 
 Your dotfiles become invaluable when working across multiple machines. Store your configuration in a version-controlled repository:
 
@@ -182,7 +182,7 @@ Implement full-disk encryption on your laptop. This protects your work if the de
 Check encryption status (Linux)
 cryptsetup luksDump /dev/sda1
 
-On macOS: FileVault in System Preferences > Security & Privacy
+On macOS - FileVault in System Preferences > Security & Privacy
 ```
 
 Workflow Tools That Travel Well
@@ -255,7 +255,7 @@ Comfort:
 - Laptop sleeve
 - Small backpack
 
-No need for: mobile hotspot, SIM card router, backup power bank
+No need for - mobile hotspot, SIM card router, backup power bank
 ```
 
 3-month Southeast Asia journey:
@@ -369,14 +369,14 @@ def packing_analysis():
 packing_analysis()
 Output:
 Total backpack weight: 7.95kg
-Tech weight: 3.35kg (42% of total)
+Tech weight - 3.35kg (42% of total)
 Largest items by weight:
   clothing: 3.0kg
   laptop: 1.5kg
   monitor: 0.8kg
 ```
 
-Target total weight: 8-12kg for 6-month travel. Above 12kg and your shoulders will hurt.
+Target total weight - 8-12kg for 6-month travel. Above 12kg and your shoulders will hurt.
 
 Internet Connectivity Reliability Assessment
 
@@ -442,10 +442,10 @@ for city, tz in timezones.items():
 Usage:
 $ tz
 SF: 08:30
-NYC: 11:30
-London: 16:30
-Singapore: 00:30 (next day)
-Tokyo: 01:30 (next day)
+NYC - 11:30
+London - 16:30
+Singapore - 00:30 (next day)
+Tokyo - 01:30 (next day)
 ```
 
 Productivity Tracking While Traveling

@@ -190,9 +190,9 @@ Every significant decision should be documented before or immediately after it's
 Decision Record Template
 
 [Title]
-Date: YYYY-MM-DD
-Deciders: @person1, @person2
-Status: [Proposed | Decided | Deprecated]
+Date - YYYY-MM-DD
+Deciders - @person1, @person2
+Status - [Proposed | Decided | Deprecated]
 
 Context
 What problem are we solving?

@@ -28,13 +28,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Problem with Manual Agenda Building
+Step 1 - The Problem with Manual Agenda Building
 
 When you're managing a distributed team, relevant information lives across multiple platforms. Your sprint planning notes might be in Notion, design decisions in Figma comments, and technical discussions in Slack channels. Building a meeting agenda traditionally requires manually gathering these disparate inputs, a time-consuming process that often misses critical context.
 
 AI tools excel at pattern recognition across large volumes of text. By feeding previous notes into an AI system, you can automatically extract action items, identify recurring topics, and surface decisions that need follow-up.
 
-Step 2: Build Your AI Agenda Generator
+Step 2 - Build Your AI Agenda Generator
 
 Here's a practical approach using a simple Python script that works with most AI APIs:
 
@@ -122,11 +122,11 @@ if __name__ == "__main__":
 
 This script collects markdown files from a designated folder, sends them to an AI model, and returns a structured agenda. You can customize the prompt to match your team's specific needs.
 
-Step 3: Integrate with Your Existing Tools
+Step 3 - Integrate with Your Existing Tools
 
 For a more integrated solution, consider connecting your AI agenda generator to your existing workflow:
 
-Slack Integration: Use Slack's API to pull relevant messages from specific channels before meetings. This catches discussions that happen in real-time but don't get documented elsewhere.
+Slack Integration - Use Slack's API to pull relevant messages from specific channels before meetings. This catches discussions that happen in real-time but don't get documented elsewhere.
 
 ```python
 def get_slack_notes(channel_id, days=7):
@@ -146,7 +146,7 @@ def get_slack_notes(channel_id, days=7):
     return "\n".join(messages)
 ```
 
-GitHub Integration: Pull issue comments and PR discussions for engineering-focused teams:
+GitHub Integration - Pull issue comments and PR discussions for engineering-focused teams:
 
 ```python
 def get_github_notes(owner, repo, days=7):
@@ -170,15 +170,15 @@ def get_github_notes(owner, repo, days=7):
 
 Best Practices for AI-Generated Agendas
 
-Provide context in your prompts: The quality of your agenda depends heavily on the instructions you give the AI. Include specifics about your team's meeting format, recurring topics, and priority criteria.
+Provide context in your prompts - The quality of your agenda depends heavily on the instructions you give the AI. Include specifics about your team's meeting format, recurring topics, and priority criteria.
 
-Review before distributing: AI generates solid drafts, but always review for accuracy. The tool assists your preparation, it doesn't replace your judgment about what matters.
+Review before distributing - AI generates solid drafts, but always review for accuracy. The tool assists your preparation, it doesn't replace your judgment about what matters.
 
-Iterate on the prompt: Keep notes on what works. If action items get missed, add that to your system prompt. If priorities seem off, adjust the instructions.
+Iterate on the prompt - Keep notes on what works. If action items get missed, add that to your system prompt. If priorities seem off, adjust the instructions.
 
-Maintain a notes archive: The more historical data you feed the system, the better it becomes at identifying patterns. Consistent note-taking pays dividends.
+Maintain a notes archive - The more historical data you feed the system, the better it becomes at identifying patterns. Consistent note-taking pays dividends.
 
-Step 4: Extracting Action Items Automatically
+Step 4 - Extracting Action Items Automatically
 
 One of the most valuable features is automatic action item extraction. Configure your AI to specifically look for:
 
@@ -203,7 +203,7 @@ Text:
     return action_items
 ```
 
-Step 5: Putting It All Together
+Step 5 - Putting It All Together
 
 The real power comes from combining multiple data sources. A complete agenda pipeline might pull from:
 
@@ -215,7 +215,7 @@ The real power comes from combining multiple data sources. A complete agenda pip
 
 Each source adds context. The AI serves as the aggregator, transforming noise into signal.
 
-Step 6: Scheduling the Agenda Generator
+Step 6 - Scheduling the Agenda Generator
 
 Automate agenda generation before each recurring meeting:
 
@@ -242,7 +242,7 @@ Run at 8am on Monday, Wednesday, Friday
 0 8 * * 1,3,5 /home/user/scripts/pre-meeting-agenda.sh >> /var/log/agenda.log 2>&1
 ```
 
-Step 7: Comparing AI Models for Agenda Generation
+Step 7 - Comparing AI Models for Agenda Generation
 
 | Model | Strength | Weakness | Cost per Agenda |
 |-------|----------|----------|----------------|
@@ -253,7 +253,7 @@ Step 7: Comparing AI Models for Agenda Generation
 
 For weekly team meetings, Claude Sonnet produces the most actionable agendas. For daily standups, Claude Haiku provides sufficient quality at a fraction of the cost.
 
-Step 8: Measuring Agenda Effectiveness
+Step 8 - Measuring Agenda Effectiveness
 
 Track whether AI-generated agendas improve meeting quality:
 

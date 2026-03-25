@@ -41,7 +41,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Display Systems: The Critical Component
+Step 1 - Display Systems: The Critical Component
 
 Medical-grade displays represent the most significant investment in a radiology workstation. Unlike consumer monitors, medical displays undergo rigorous calibration and certification processes to ensure consistent luminance, color accuracy, and spatial uniformity.
 
@@ -71,7 +71,7 @@ xrandr --output DP-2 --mode 3280x2048 --pos 3280x0
 
 This configuration places your primary interpretation monitor at the center of your visual field with secondary displays for priors, reports, and ancillary tools.
 
-Step 2: Computing Hardware Specifications
+Step 2 - Computing Hardware Specifications
 
 Your workstation needs sufficient processing power for real-time image rendering, especially when working with volumetric datasets like CT and MRI scans.
 
@@ -102,7 +102,7 @@ Workstation Specifications:
 
 The GPU deserves particular attention. Modern PACS applications use CUDA and OpenCL for hardware-accelerated rendering. When reviewing your organization's supported workflows, confirm which acceleration technologies they use.
 
-Step 3: Network Configuration
+Step 3 - Network Configuration
 
 Network performance directly impacts your ability to read studies efficiently. Latency and bandwidth requirements vary by imaging modality and study type.
 
@@ -189,28 +189,28 @@ Required Security Controls:
 
 Document your security configuration. Many healthcare organizations require attestation or audit documentation for remote workstations. Maintain logs of your security settings, VPN connection times, and any configuration changes.
 
-Step 4: Practical Implementation: Step-by-Step
+Step 4 - Practical Implementation: Step-by-Step
 
-Phase 1: Infrastructure Preparation
+Phase 1 - Infrastructure Preparation
 
 1. Internet Upgrade: Ensure symmetric business-class internet with 100+ Mbps upload
 2. Network Equipment: Quality router, managed switch if using wired connections
 3. Power Protection: UPS battery backup for uninterrupted operation
 
-Phase 2: Hardware Procurement
+Phase 2 - Hardware Procurement
 
 1. Medical Display: Purchase or request from organization
 2. Workstation: Build or purchase per specifications above
 3. Ergonomic Setup: Adjustable desk, proper chair, task lighting
 
-Phase 3: Software Configuration
+Phase 3 - Software Configuration
 
 1. Operating System: Windows 10/11 Enterprise or organization-approved distribution
 2. PACS Client: Install and configure per IT specifications
 3. VPN Client: Configure with security team assistance
 4. Display Calibration: Run initial calibration with medical-grade QA software
 
-Phase 4: Testing and Validation
+Phase 4 - Testing and Validation
 
 ```bash
 Network latency test to PACS server
@@ -225,17 +225,17 @@ Run your organization's QA software validation suite
 
 Validate image quality by comparing home readings against known datasets. Report any discrepancies to your IT department immediately.
 
-Step 5: Common Challenges and Solutions
+Step 5 - Common Challenges and Solutions
 
-Challenge: Image lag during peak network usage times
+Challenge - Image lag during peak network usage times
 
 *Solution*: Implement QoS (Quality of Service) on your router to prioritize VPN traffic. Schedule intensive review sessions during off-peak hours.
 
-Challenge: Display calibration drift
+Challenge - Display calibration drift
 
 *Solution*: Schedule weekly calibration checks. Many medical displays include automated calibration sensors.
 
-Challenge: Family member internet usage impacting performance
+Challenge - Family member internet usage impacting performance
 
 *Solution*: Create separate network segments. Run a dedicated ethernet cable to your office if possible.
 

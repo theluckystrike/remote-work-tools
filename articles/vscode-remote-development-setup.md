@@ -337,7 +337,7 @@ VS Code is not the only option for remote development. Understanding the trade-o
 
 VS Code Remote SSH wins on cost and control for teams with existing infrastructure. GitHub Codespaces or Gitpod make sense when you want zero-config onboarding for contributors who shouldn't need a local dev environment at all.
 
-Step-by-Step: First-Time Remote SSH Setup
+Step-by-Step - First-Time Remote SSH Setup
 
 Step 1. Generate an SSH key pair on your local machine. Run `ssh-keygen -t ed25519 -C "your.email@example.com"`. Ed25519 keys are smaller and faster than RSA.
 

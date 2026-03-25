@@ -20,13 +20,13 @@ Attracting top distributed talent requires more than posting jobs on LinkedIn. Y
 Table of Contents
 
 - [Understanding Employer Brand in a Remote Context](#understanding-employer-brand-in-a-remote-context)
-- [Strategy 1: Make Your Engineering Culture Visible](#strategy-1-make-your-engineering-culture-visible)
+- [Strategy 1 - Make Your Engineering Culture Visible](#strategy-1-make-your-engineering-culture-visible)
 - [Development Environment Setup](#development-environment-setup)
-- [Strategy 2: Build a Talent Attraction Engine](#strategy-2-build-a-talent-attraction-engine)
-- [Strategy 3: Create Compelling Candidate Experiences](#strategy-3-create-compelling-candidate-experiences)
+- [Strategy 2 - Build a Talent Attraction Engine](#strategy-2-build-a-talent-attraction-engine)
+- [Strategy 3 - Create Compelling Candidate Experiences](#strategy-3-create-compelling-candidate-experiences)
 - [Engineering Interview Process](#engineering-interview-process)
-- [Strategy 4: Measure Your Employer Brand](#strategy-4-measure-your-employer-brand)
-- [Strategy 5: Build Internal Brand Advocates](#strategy-5-build-internal-brand-advocates)
+- [Strategy 4 - Measure Your Employer Brand](#strategy-4-measure-your-employer-brand)
+- [Strategy 5 - Build Internal Brand Advocates](#strategy-5-build-internal-brand-advocates)
 - [Speaking and Sharing Guidelines](#speaking-and-sharing-guidelines)
 - [Implementation Roadmap](#implementation-roadmap)
 
@@ -46,7 +46,7 @@ Developers evaluate remote employers through visible signals:
 
 Your brand exists whether you actively build it or not. Every PR review comment, every Slack message, every decision your team makes publicly contributes to your employer brand.
 
-Strategy 1: Make Your Engineering Culture Visible
+Strategy 1 - Make Your Engineering Culture Visible
 
 Developers want to see how your team actually works before applying. Create transparent windows into your engineering culture through multiple channels.
 
@@ -91,7 +91,7 @@ Publish regularly about technical decisions, challenges, and learnings. Topics t
 - Tool comparisons documenting your tech stack choices
 - Career path frameworks showing growth opportunities
 
-Strategy 2: Build a Talent Attraction Engine
+Strategy 2 - Build a Talent Attraction Engine
 
 Reactive hiring, posting jobs and waiting for applicants, fails at scale. Build systems that attract talent proactively.
 
@@ -116,7 +116,7 @@ Create content where developers already spend time:
 
 Each piece of content extends your reach and signals expertise.
 
-Strategy 3: Create Compelling Candidate Experiences
+Strategy 3 - Create Compelling Candidate Experiences
 
 Your interview process is part of your employer brand. Every interaction shapes how candidates perceive your company.
 
@@ -127,19 +127,19 @@ Publish your complete interview process:
 ```markdown
 Engineering Interview Process
 
-Stage 1: Portfolio Review (30 min)
+Stage 1 - Portfolio Review (30 min)
 We review your GitHub profile, open source contributions, and any published technical content. No call needed, we evaluate asynchronously.
 
-Stage 2: Technical Assessment (4-6 hours)
+Stage 2 - Technical Assessment (4-6 hours)
 Complete a practical project reflecting real work at our company. Take as long as you need within a 7-day window. We provide a Docker-based environment to minimize setup friction.
 
-Stage 3: Code Review (Async)
+Stage 3 - Code Review (Async)
 Review a pull request from our codebase. Provide written feedback on code quality, architecture, and potential improvements.
 
-Stage 4: Team Conversation (45 min)
+Stage 4 - Team Conversation (45 min)
 Meet two engineers in a casual video call. This is bidirectional, we answer your questions, and you demonstrate how you collaborate.
 
-Stage 5: Final Discussion (30 min)
+Stage 5 - Final Discussion (30 min)
 Meet your potential manager to discuss compensation, timeline, and role fit.
 ```
 
@@ -150,7 +150,7 @@ Provide Meaningful Feedback
 After interviews, send personalized feedback to every candidate:
 
 ```text
-Subject: Feedback from Your Interview Process
+Subject - Feedback from Your Interview Process
 
 Hi [Candidate Name],
 
@@ -170,7 +170,7 @@ Best of luck in your search,
 
 This investment in feedback spreads positive word-of-mouth, even among candidates you don't hire.
 
-Strategy 4: Measure Your Employer Brand
+Strategy 4 - Measure Your Employer Brand
 
 You cannot improve what you don't measure. Build metrics into your talent acquisition funnel.
 
@@ -219,7 +219,7 @@ Every quarter, review these signals:
 3. Interview drop-off rates - Identify process friction
 4. Competing offers - Track which companies candidates choose instead
 
-Strategy 5: Build Internal Brand Advocates
+Strategy 5 - Build Internal Brand Advocates
 
 Your current employees are your most powerful recruitment tool. Give them resources to represent your brand authentically.
 

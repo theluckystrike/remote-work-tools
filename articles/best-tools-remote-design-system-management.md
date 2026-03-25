@@ -29,7 +29,7 @@ Table of Contents
 - [Publishing the Design System as npm Package](#publishing-the-design-system-as-npm-package)
 - [Design System Versioning Policy](#design-system-versioning-policy)
 - [Migration Guides](#migration-guides)
-- [Governance: Who Owns the Design System on a Remote Team](#governance-who-owns-the-design-system-on-a-remote-team)
+- [Governance - Who Owns the Design System on a Remote Team](#governance-who-owns-the-design-system-on-a-remote-team)
 - [Tool Selection by Team Size](#tool-selection-by-team-size)
 - [Related Reading](#related-reading)
 
@@ -64,18 +64,18 @@ Why Design Systems Fail for Remote Teams
 
 Before covering tools, it helps to name the failure modes that tooling solves:
 
-Failure mode 1: Figma is the only source of truth, but engineers can't use it directly. Designers maintain meticulous components in Figma. Engineers rebuild them from scratch in code, making different decisions. The fix: a token export pipeline and a component library that engineers actually import.
+Failure mode 1 - Figma is the only source of truth, but engineers can't use it directly. Designers maintain meticulous components in Figma. Engineers rebuild them from scratch in code, making different decisions. The fix: a token export pipeline and a component library that engineers actually import.
 
-Failure mode 2: Components exist in code but aren't documented. Engineers on other teams can't discover what's available. They rebuild things that already exist. The fix: Storybook, published and searchable, with every component auto-documented from props.
+Failure mode 2 - Components exist in code but aren't documented. Engineers on other teams can't discover what's available. They rebuild things that already exist. The fix: Storybook, published and searchable, with every component auto-documented from props.
 
-Failure mode 3: No review process for visual changes. A designer can't quickly check whether an engineer's implementation matches the spec. The fix: Chromatic screenshot diffs on every PR, requiring design approval before merge.
+Failure mode 3 - No review process for visual changes. A designer can't quickly check whether an engineer's implementation matches the spec. The fix: Chromatic screenshot diffs on every PR, requiring design approval before merge.
 
-Failure mode 4: Consuming teams don't know when breaking changes land. They upgrade the design system package, something breaks, and they have no migration path. The fix: semantic versioning with mandatory migration guides for major versions.
+Failure mode 4 - Consuming teams don't know when breaking changes land. They upgrade the design system package, something breaks, and they have no migration path. The fix: semantic versioning with mandatory migration guides for major versions.
 
 1. Figma (Design Source of Truth)
 
-Cost: $15/user/month (Professional)
-Role: Component design, token definition, prototyping
+Cost - $15/user/month (Professional)
+Role - Component design, token definition, prototyping
 
 Key Figma settings for team design systems:
 
@@ -117,7 +117,7 @@ Collections:
     spacing/component-padding: {spacing/4}
 ```
 
-Figma for Remote Teams: Practical Setup
+Figma for Remote Teams - Practical Setup
 
 The most common remote team mistake with Figma is treating it as a design file rather than a system file. A system file has strict conventions:
 
@@ -204,7 +204,7 @@ module.exports = {
 Build tokens
 style-dictionary build
 
-Output: dist/tokens/variables.css
+Output - dist/tokens/variables.css
 --ds-color-brand-primary: #3B82F6;
 --ds-color-brand-primary-hover: #2563EB;
 --ds-spacing-4: 16px;
@@ -323,7 +323,7 @@ Chromatic runs the review inside the PR. The designer gets a URL showing exactly
 Tokens Studio bridges Figma Variables and Style Dictionary:
 
 ```bash
-Install from Figma Community: "Tokens Studio for Figma"
+Install from Figma Community - "Tokens Studio for Figma"
 
 Export tokens to JSON (via Tokens Studio > Export)
 Syncs directly to GitHub via built-in integration:
@@ -396,17 +396,17 @@ Design System Versioning Policy
 ```markdown
 Version Policy
 
-MAJOR (2.0.0): Breaking changes to component API or token names
+MAJOR (2.0.0) - Breaking changes to component API or token names
   - Rename token: --ds-color-primary → --ds-color-brand-primary
   - Remove component prop
   - Change component HTML structure
 
-MINOR (2.1.0): New components, new tokens, non-breaking changes
+MINOR (2.1.0) - New components, new tokens, non-breaking changes
   - Add new Button variant
   - Add new spacing token
   - Add new component
 
-PATCH (2.1.1): Bug fixes, visual-only changes
+PATCH (2.1.1) - Bug fixes, visual-only changes
   - Fix button focus ring
   - Adjust spacing by 1px
   - Fix TypeScript types
@@ -419,7 +419,7 @@ Major versions must include MIGRATION.md with:
   - Timeline for removing old API
 ```
 
-Governance: Who Owns the Design System on a Remote Team
+Governance - Who Owns the Design System on a Remote Team
 
 A design system without clear ownership degrades. For remote teams, the governance model needs to be explicit because there's no hallway conversation to resolve ambiguity:
 

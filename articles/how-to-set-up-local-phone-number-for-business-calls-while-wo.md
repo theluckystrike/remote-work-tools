@@ -21,9 +21,9 @@ Use a VoIP service like Google Voice, Vonage, or Twilio to provision a local pho
 Table of Contents
 
 - [Understanding Your Options](#understanding-your-options)
-- [VoIP Services: The Quickest Path](#voip-services-the-quickest-path)
-- [SIP Trunking: Greater Control, Higher Complexity](#sip-trunking-greater-control-higher-complexity)
-- [Call Forwarding: The Simplest Method](#call-forwarding-the-simplest-method)
+- [VoIP Services - The Quickest Path](#voip-services-the-quickest-path)
+- [SIP Trunking - Greater Control, Higher Complexity](#sip-trunking-greater-control-higher-complexity)
+- [Call Forwarding - The Simplest Method](#call-forwarding-the-simplest-method)
 - [Practical Considerations for Remote Workers](#practical-considerations-for-remote-workers)
 - [Security Best Practices](#security-best-practices)
 - [Choosing the Right Setup for Your Situation](#choosing-the-right-setup-for-your-situation)
@@ -38,7 +38,7 @@ Three main approaches exist for routing international calls to your current loca
 
 Each approach has trade-offs around cost, call quality, reliability, and setup complexity.
 
-VoIP Services: The Quickest Path
+VoIP Services - The Quickest Path
 
 VoIP providers abstract away the telephony infrastructure. You sign up, select a phone number in your target country, and incoming calls route to any device you configure.
 
@@ -100,11 +100,11 @@ vonage numbers:search GB --type=landline-toll-free
 
 Vonage tends to have more competitive rates for UK, German, and French numbers than Twilio. If most of your clients are in Europe, compare Vonage's per-minute rates carefully.
 
-Google Voice: The No-Code Option
+Google Voice - The No-Code Option
 
 For individuals or very small teams, Google Voice remains the simplest option if you need an US number. Sign up at voice.google.com, pick a number, and Google handles all routing. Limitations include: US-only numbers, no API access on the free tier, and call quality that varies more than dedicated VoIP providers. Google Voice works best for solo freelancers who need an US number without technical setup.
 
-SIP Trunking: Greater Control, Higher Complexity
+SIP Trunking - Greater Control, Higher Complexity
 
 SIP trunking gives you direct access to the telephone network without per-minute markup from VoIP providers. You rent a SIP trunk and connect it to your own PBX or telephony software.
 
@@ -140,7 +140,7 @@ When to Use VoIP.ms vs Twilio
 
 VoIP.ms charges around $0.0035/minute for inbound calls versus Twilio's $0.0085/minute. For a business handling 5,000 minutes per month, that difference is roughly $25/month. enough to justify the additional setup work of VoIP.ms's less polished dashboard. VoIP.ms also supports E911 services and Canadian numbers at competitive rates. Twilio is preferable when you need a developer-friendly API, global number coverage, or SMS alongside voice.
 
-Call Forwarding: The Simplest Method
+Call Forwarding - The Simplest Method
 
 If you already have a local number (perhaps from a previous residence), most phone carriers offer international call forwarding. However, this option has significant drawbacks:
 
@@ -272,7 +272,7 @@ Choosing the Right Setup for Your Situation
 The right configuration depends on your usage pattern:
 
 - Freelancer or solo contractor: Google Voice for US numbers, or a single Twilio number if you need SMS and call forwarding together. Total cost: $1-5/month.
-- Small team (2-10 people): Twilio or Vonage with a simple webhook app. Gives you per-user numbers, voicemail, and call recording without managing your own PBX. Cost: $10-30/month.
+- Small team (2-10 people): Twilio or Vonage with a simple webhook app. Gives you per-user numbers, voicemail, and call recording without managing your own PBX. Cost - $10-30/month.
 - Growing company with 1000+ minutes/month: Evaluate SIP trunking via VoIP.ms or CallCentric alongside your own Asterisk or FreePBX instance. Higher upfront complexity, lower ongoing per-minute cost.
 - Enterprise or regulated industry: Consider providers like Bandwidth or DialPad that offer HIPAA-compliant calling, E911 support, and dedicated SLAs. These cost more but remove compliance burden from your team.
 

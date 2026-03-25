@@ -40,7 +40,7 @@ Studies from companies with mature remote hiring programs show that uncalibrated
 
 Building a Calibration Framework
 
-Step 1: Define Your Competency Matrix
+Step 1 - Define Your Competency Matrix
 
 Before calibration can work, interviewers need a shared language for evaluation. Create a competency matrix that breaks down what each role requires at each level.
 
@@ -69,7 +69,7 @@ junior_engineer:
 
 Share this matrix with all interviewers before calibration sessions. Each interviewer should understand exactly what behaviors map to each score level.
 
-Step 2: Run Practice Interviews
+Step 2 - Run Practice Interviews
 
 Calibration sessions work best when interviewers evaluate the same candidate simultaneously. Use recording services (with proper consent) or hire external contractors to conduct practice interviews specifically for calibration.
 
@@ -108,9 +108,9 @@ def run_calibration_session(interviewers, practice_candidates):
     return analyze_interviewer_variance(scores)
 ```
 
-The key insight: always score independently before discussing. Group discussion before individual scoring creates anchoring bias where later scorers drift toward the first opinion.
+The key insight - always score independently before discussing. Group discussion before individual scoring creates anchoring bias where later scorers drift toward the first opinion.
 
-Step 3: Identify and Address Variance
+Step 3 - Identify and Address Variance
 
 After practice interviews, analyze the variance in scoring. Look for patterns:
 
@@ -197,7 +197,7 @@ Avoid these mistakes that undermine calibration efforts:
 
 Calibration Session Formats for Different Scenarios
 
-Format 1: Recorded Candidate Reviews (Monthly, 60 minutes)
+Format 1 - Recorded Candidate Reviews (Monthly, 60 minutes)
 
 This is the most accessible format for distributed teams. Use actual recorded interviews (with candidate consent) from your recent hiring:
 
@@ -212,7 +212,7 @@ Agenda:
 
 Request candidates' permission to use recordings for calibration during the interview. Most agree if you explain the quality assurance purpose.
 
-Format 2: Scenario-Based Calibration (Quarterly, 90 minutes)
+Format 2 - Scenario-Based Calibration (Quarterly, 90 minutes)
 
 For teams that prefer structured exercises:
 
@@ -228,7 +228,7 @@ Agenda:
 
 This format removes the real-candidate discomfort while still training judgment.
 
-Format 3: Panel Calibration (After Every 10 Interviews)
+Format 3 - Panel Calibration (After Every 10 Interviews)
 
 After conducting interviews, panel members who conducted them meet to compare scores:
 
@@ -379,34 +379,34 @@ When calibration reveals outliers, address them directly:
 
 The Harsh Interviewer (consistently scores 1-2 points below team average):
 - Probable cause: Setting unrealistic standards or focusing on weakness
-- Solution: Review their calibration scores alongside actual candidate performance post-hire. If their rejected candidates perform well, they're too harsh. If they perform poorly, their standards are appropriate.
-- Coaching: Discuss what specific behaviors constitute acceptable performance. Show examples of candidates they rejected who turned into strong performers.
+- Solution - Review their calibration scores alongside actual candidate performance post-hire. If their rejected candidates perform well, they're too harsh. If they perform poorly, their standards are appropriate.
+- Coaching - Discuss what specific behaviors constitute acceptable performance. Show examples of candidates they rejected who turned into strong performers.
 
 The Lenient Interviewer (consistently scores 1-2 points above team average):
 - Probable cause: Focusing on potential rather than current capability or being conflict-averse
-- Solution: Compare their passes to team performance. If many of their hires struggle, they're too lenient.
-- Coaching: Ask them to describe specific evidence for high scores. Often they'll realize they rated potential rather than demonstrated skill.
+- Solution - Compare their passes to team performance. If many of their hires struggle, they're too lenient.
+- Coaching - Ask them to describe specific evidence for high scores. Often they'll realize they rated potential rather than demonstrated skill.
 
 The Specialist Interviewer (high on technical, low on communication or vice versa):
 - Probable cause: Prioritizing their domain expertise over balanced evaluation
-- Solution: Partner them with complementary interviewers. Don't let them be the only voice on candidates.
-- Coaching: Discuss how communication and technical skills both matter. Have them interview with someone who prioritizes different competencies.
+- Solution - Partner them with complementary interviewers. Don't let them be the only voice on candidates.
+- Coaching - Discuss how communication and technical skills both matter. Have them interview with someone who prioritizes different competencies.
 
 Scaling Calibration to Multiple Teams
 
 If you're hiring for multiple teams (engineering, product, design), standardize calibration:
 
-Option 1: Centralized Calibration
+Option 1 - Centralized Calibration
 - All interviewers participate in monthly cross-team sessions
 - Advantage: High consistency; everyone understands all role requirements
 - Disadvantage: Time-intensive; requires significant meeting overhead
 
-Option 2: Role-Based Calibration
+Option 2 - Role-Based Calibration
 - Engineering interviewers calibrate separately from product interviewers
 - Advantage: More focused; people learn expectations for their specific roles
 - Disadvantage: May miss cross-functional hiring consistency issues
 
-Option 3: Hybrid Approach (Recommended)
+Option 3 - Hybrid Approach (Recommended)
 - Monthly role-specific sessions (tight focus, lower overhead)
 - Quarterly cross-team calibration (whole-company consistency)
 - New interviewer certification within first 5 interviews

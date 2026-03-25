@@ -17,8 +17,8 @@ The "all-remote standup format" where even in-office participants dial in from i
 
 Table of Contents
 
-- [The Core Problem: Asymmetric Participation](#the-core-problem-asymmetric-participation)
-- [Recommended Format: Round-Robin with Async Buffer](#recommended-format-round-robin-with-async-buffer)
+- [The Core Problem - Asymmetric Participation](#the-core-problem-asymmetric-participation)
+- [Recommended Format - Round-Robin with Async Buffer](#recommended-format-round-robin-with-async-buffer)
 - [Yesterday](#yesterday)
 - [Today](#today)
 - [Blockers](#blockers)
@@ -34,7 +34,7 @@ Table of Contents
 - [Measuring Standup Effectiveness](#measuring-standup-effectiveness)
 - [Common Standup Anti-Patterns to Avoid](#common-standup-anti-patterns-to-avoid)
 
-The Core Problem: Asymmetric Participation
+The Core Problem - Asymmetric Participation
 
 In a hybrid setup, in-room participants naturally dominate discussions. They can see each other, interrupt each other, pick up on non-verbal cues, and have sidebar conversations. Remote participants, by contrast, often feel like they're watching a livestream rather than participating in a meeting. The solution isn't to force everyone into the same modality, but to design your standup format that inherently balances participation.
 
@@ -42,11 +42,11 @@ Research on hybrid team dynamics shows that remote participants contribute 40% l
 
 The problem intensifies when in-room participants outnumber remote participants 3:1 or greater. The physics of voice and attention favor whoever is physically present. The in-room group develops its own momentum, making remote participation feel like an afterthought.
 
-Recommended Format: Round-Robin with Async Buffer
+Recommended Format - Round-Robin with Async Buffer
 
 The most effective hybrid standup format combines a synchronous round-robin with an asynchronous pre-standup buffer. Here's how it works:
 
-Step 1: Async Updates Before the Meeting
+Step 1 - Async Updates Before the Meeting
 
 Team members post their standup updates in a shared channel or bot before the scheduled standup time. Use a simple format like:
 
@@ -65,7 +65,7 @@ Blockers
 
 This can be done through Slack workflow builders, a dedicated standup bot like Geekbot, or a simple Google Form. The key is that everyone writes their update before the meeting starts.
 
-Step 2: Synchronous Round-Robin Meeting
+Step 2 - Synchronous Round-Robin Meeting
 
 During the actual standup meeting, skip the verbose re-reading of async updates. Instead, use a structured round-robin format:
 
@@ -84,9 +84,9 @@ Walking Standup (For Small In-Office Teams)
 
 For teams where most members are in-office but a few are remote, try a walking standup: in-room participants stand and walk around while speaking, with the video camera following them. This creates visual interest for remote participants and prevents the "talking heads in a conference room" monotony.
 
-Works best for: 5-8 person teams with 2-3 remote participants
-Duration: 15-20 minutes
-Drawback: Harder to reference written materials or share screens
+Works best for - 5-8 person teams with 2-3 remote participants
+Duration - 15-20 minutes
+Drawback - Harder to reference written materials or share screens
 
 Paired Standup (For Distributed Teams)
 
@@ -99,17 +99,17 @@ Distributed team (10 people, 3 locations):
 - Async summary posted after all pairs finish
 ```
 
-Works best for: Teams across 3+ time zones
-Duration: 3-5 minutes per pair × pairs needed
-Advantage: Every remote person gets dedicated attention
+Works best for - Teams across 3+ time zones
+Duration - 3-5 minutes per pair × pairs needed
+Advantage - Every remote person gets dedicated attention
 
 Standup with Task Board Review (Visual-Focused)
 
 Rather than each person speaking, everyone stands and reviews the task board together, moving cards based on actual progress. People speak only when clarification is needed.
 
-Works best for: Engineering teams that use Kanban boards actively
-Duration: 10-12 minutes
-Advantage: Forces project accuracy and reduces vague language
+Works best for - Engineering teams that use Kanban boards actively
+Duration - 10-12 minutes
+Advantage - Forces project accuracy and reduces vague language
 
 Room Setup for Hybrid Success
 
@@ -165,7 +165,7 @@ Several tools can enhance your hybrid standup experience:
 
 Video Platforms
 
-- Zoom: Works well with proper room setup. Use "gallery view" so remote participants see faces, not just names
+- Zoom - Works well with proper room setup. Use "gallery view" so remote participants see faces, not just names
 - Google Meet: Simpler integration with Google Workspace, decent room audio with proper hardware
 - Slack Huddles: Consider switching to Slack Huddles for quick 1:1 or small group syncs after main standup
 
@@ -221,7 +221,7 @@ Remote participants' attention degrades quickly if the standup feels disorganize
 - Verbal acknowledgment: After each person speaks, the host should briefly acknowledge their contribution ("Thanks, great progress on the auth refactor").
 - Visual feedback: The host should nod or use video gestures to show engagement, especially when remote participants speak.
 - Pace management: Maintain momentum by starting precisely at the scheduled time and adhering to time limits strictly.
-- Enthusiasm: Standups conducted with genuine interest in team updates create better engagement than perfunctory status reports.
+- Enthusiasm - Standups conducted with genuine interest in team updates create better engagement than perfunctory status reports.
 
 Handling Over-Talking
 
@@ -254,9 +254,9 @@ Splitting by Function
 Instead of one all-hands standup, split into backend, frontend, design, and product standups with an optional cross-functional sync:
 
 ```
-Team of 8: Single standup works fine (12-15 minutes)
-Team of 15: Split into 2 standups + optional cross-functional sync
-Team of 25+: 3+ functional standups + weekly cross-team sync
+Team of 8 - Single standup works fine (12-15 minutes)
+Team of 15 - Split into 2 standups + optional cross-functional sync
+Team of 25+ - 3+ functional standups + weekly cross-team sync
 ```
 
 Each functional standup is more efficient because people discuss shared context.
@@ -313,7 +313,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -325,7 +325,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

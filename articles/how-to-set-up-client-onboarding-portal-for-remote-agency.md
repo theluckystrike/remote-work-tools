@@ -23,7 +23,7 @@ Table of Contents
 - [Why Your Remote Agency Needs a Dedicated Onboarding Portal](#why-your-remote-agency-needs-a-dedicated-onboarding-portal)
 - [Core Components of an Effective Onboarding Portal](#core-components-of-an-effective-onboarding-portal)
 - [Selecting Your Technology Stack](#selecting-your-technology-stack)
-- [Building Your Portal: Step-by-Step Implementation](#building-your-portal-step-by-step-implementation)
+- [Building Your Portal - Step-by-Step Implementation](#building-your-portal-step-by-step-implementation)
 - [Essential Integrations](#essential-integrations)
 - [Testing and Deployment](#testing-and-deployment)
 - [Measuring Portal Effectiveness](#measuring-portal-effectiveness)
@@ -71,9 +71,9 @@ For agencies with development resources, building a custom portal using modern w
 
 This guide focuses on the custom development approach since it provides the most control and demonstrates implementation patterns developers need.
 
-Building Your Portal: Step-by-Step Implementation
+Building Your Portal - Step-by-Step Implementation
 
-Step 1: Project Structure and Authentication
+Step 1 - Project Structure and Authentication
 
 Create a new Next.js project and set up authentication with role-based access so clients only see their own projects.
 
@@ -121,7 +121,7 @@ export default NextAuth({
 })
 ```
 
-Step 2: Client Dashboard Interface
+Step 2 - Client Dashboard Interface
 
 Build a clean dashboard that immediately shows clients their current status. Use a card-based layout with clear call-to-action buttons.
 
@@ -177,7 +177,7 @@ export default function ClientDashboard() {
 }
 ```
 
-Step 3: Dynamic Project Brief Form
+Step 3 - Dynamic Project Brief Form
 
 Create a form that captures all necessary project information. Use conditional logic to show relevant sections based on project type.
 
@@ -269,7 +269,7 @@ export default function ProjectBriefForm() {
 }
 ```
 
-Step 4: Automated Email Notifications
+Step 4 - Automated Email Notifications
 
 Set up webhooks that trigger notifications when clients complete onboarding steps. This keeps your team responsive without manual monitoring.
 

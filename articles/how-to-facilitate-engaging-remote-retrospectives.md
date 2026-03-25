@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Setting the Foundation
+Step 1 - Setting the Foundation
 
 Before you even open your retro tool, establish clear expectations. Remote retrospectives work best when team members understand the purpose and feel safe sharing honest feedback.
 
@@ -60,7 +60,7 @@ A simple Google Form or Typeform with three questions works well:
 
 Collect responses 24 hours before your meeting. Review themes and prepare your help focus accordingly.
 
-Step 2: Help Techniques That Work
+Step 2 - Help Techniques That Work
 
 The facilitator's job is not to solve problems, it's to guide the conversation so the team solves their own problems.
 
@@ -75,13 +75,13 @@ A reliable structure keeps retrospectives focused and prevents them from becomin
 
 Handling Common Remote Retro Challenges
 
-The dominant speaker problem: In remote settings, it's easy for a few voices to dominate while others stay silent. Use round-robin talking circles or the "each person speaks once before anyone speaks twice" rule.
+The dominant speaker problem - In remote settings, it's easy for a few voices to dominate while others stay silent. Use round-robin talking circles or the "each person speaks once before anyone speaks twice" rule.
 
-The joke deflector: Sometimes teams use humor to avoid addressing real issues. Acknowledge the joke, then gently redirect: "That's a fair point, and underneath that, I wonder if there's a process issue we should address."
+The joke deflector - Sometimes teams use humor to avoid addressing real issues. Acknowledge the joke, then gently redirect: "That's a fair point, and underneath that, I wonder if there's a process issue we should address."
 
-The silent participant: If someone hasn't contributed, explicitly invite them: "Jordan, you've been working on this feature, any observations from your perspective?"
+The silent participant - If someone hasn't contributed, explicitly invite them: "Jordan, you've been working on this feature, any observations from your perspective?"
 
-Step 3: Digital Tools and Setups
+Step 3 - Digital Tools and Setups
 
 Your tool choice matters less than how you use it. However, certain tools support better help.
 
@@ -126,7 +126,7 @@ For fully asynchronous teams across multiple time zones, consider skipping live 
 
 This works well for teams that are genuinely distributed and never synchronous.
 
-Step 4: Making Retrospectives Actually Useful
+Step 4 - Making Retrospectives Actually Useful
 
 The biggest complaint about retrospectives is that nothing changes. Fix this by connecting retro actions to your actual workflow.
 
@@ -139,7 +139,7 @@ Review Previous Actions First
 Start every retrospective by reviewing completed actions from the previous retro. This builds trust that the process leads to real change.
 
 ```markdown
-Step 5: Action Item Review
+Step 5 - Action Item Review
 
 | Action | Owner | Status | Notes |
 |--------|-------|--------|-------|
@@ -150,7 +150,7 @@ Step 5: Action Item Review
 
 Be honest about why items weren't completed. If something keeps getting pushed, either remove it or escalate why it's blocked.
 
-Step 6: Keeping Energy High Over Time
+Step 6 - Keeping Energy High Over Time
 
 Retrospective fatigue is real. After running the same format for months, people stop engaging. Rotate formats to maintain interest:
 
@@ -165,19 +165,19 @@ Advanced Retrospective Techniques for Distributed Teams
 
 When standard retro formats start feeling stale, advanced techniques inject new energy and uncover insights that standard approaches miss.
 
-Root Cause Analysis: The Five Whys
+Root Cause Analysis - The Five Whys
 
 When a problem emerges in retrospective, don't accept surface-level explanations. Use the Five Whys technique to dig deeper:
 
 ```
-Issue: Deployment failed at 3am on Sunday
-Why 1: No runbook documentation for handling that specific error
-Why 2: We haven't updated runbooks since we migrated infrastructure
-Why 3: Knowledge about the new infrastructure lives only in one engineer's head
-Why 4: We didn't allocate time for documentation during the migration
-Why 5: Our process treats documentation as optional cleanup work, not part of feature completion
+Issue - Deployment failed at 3am on Sunday
+Why 1 - No runbook documentation for handling that specific error
+Why 2 - We haven't updated runbooks since we migrated infrastructure
+Why 3 - Knowledge about the new infrastructure lives only in one engineer's head
+Why 4 - We didn't allocate time for documentation during the migration
+Why 5 - Our process treats documentation as optional cleanup work, not part of feature completion
 
-Action Item: Require runbook updates as part of infrastructure PR completion criteria
+Action Item - Require runbook updates as part of infrastructure PR completion criteria
 ```
 
 This structure prevents teams from treating symptoms instead of causes.
@@ -187,7 +187,7 @@ Historical Pattern Analysis
 Reserve 15 minutes in quarterly retros to review patterns across recent retrospectives:
 
 ```markdown
-Step 7: Pattern Review: Last 12 Weeks
+Step 7 - Pattern Review: Last 12 Weeks
 
 | Issue | Frequency | Root Cause | Status |
 |-------|-----------|-----------|--------|
@@ -203,7 +203,7 @@ Blameless Post-Mortem Format
 For significant incidents or failures, use a blameless post-mortem that separates incident analysis from blame:
 
 ```markdown
-Step 8: Incident: Database Connection Timeout (March 18, 2026)
+Step 8 - Incident: Database Connection Timeout (March 18, 2026)
 
 Timeline
 - 14:23 - Alert fired for high database latency
@@ -230,38 +230,38 @@ What Went Well
 
 Blameless post-mortems encourage psychological safety because they focus on systems rather than individual performance.
 
-Step 9: Retrospective Metrics That Matter
+Step 9 - Retrospective Metrics That Matter
 
 Track these metrics to measure retro effectiveness:
 
-Action Item Completion Rate: What percentage of retro actions from three months ago were actually completed?
+Action Item Completion Rate - What percentage of retro actions from three months ago were actually completed?
 - Below 30%: Retros aren't driving real change
 - 30-60%: Reasonable, but room for improvement
 - Above 60%: Strong execution
 
-Time to First Review Comment: How quickly do reviewers engage with action items?
+Time to First Review Comment - How quickly do reviewers engage with action items?
 - If items sit for weeks before anyone acknowledges them, they'll likely be forgotten
 
-Team Participation Score: Track the percentage of team members contributing to each retro (comments, action items, reactions).
+Team Participation Score - Track the percentage of team members contributing to each retro (comments, action items, reactions).
 - Declining participation signals the format has become stale or team members feel unsafe
 
-Step 10: helping Difficult Retrospectives
+Step 10 - helping Difficult Retrospectives
 
 Some retros surface conflict or difficult truths. Here's how to handle them:
 
 When Team Members Blame Each Other
 
-Redirect to systems: "I hear frustration about the deployment process. Let's talk about what systems we could change so this situation doesn't happen again."
+Redirect to systems - "I hear frustration about the deployment process. Let's talk about what systems we could change so this situation doesn't happen again."
 
 When Retro Becomes a Complaint Session
 
-Set expectations: "We've heard several concerns. Now let's shift to: what's one thing we can change about how we work to address this?"
+Set expectations - "We've heard several concerns. Now let's shift to: what's one thing we can change about how we work to address this?"
 
 When Leadership Attendance Overshadows Team Input
 
-Consider a split: have team members do their own retro first, then leadership joins for the final 15 minutes to hear findings and commit to action items.
+Consider a split - have team members do their own retro first, then leadership joins for the final 15 minutes to hear findings and commit to action items.
 
-Step 11: Retro Tools and Setup Recommendations
+Step 11 - Retro Tools and Setup Recommendations
 
 For Synchronous Retros:
 - Miro or FigJam for visual collaboration
@@ -281,7 +281,7 @@ For Hybrid Async/Sync:
 - Async follow-up where team members add details or propose alternatives
 - Final decision-making in synchronous closure
 
-Step 12: The Culture Shift
+Step 12 - The Culture Shift
 
 The most effective teams don't see retrospectives as compliance checkboxes or feedback opportunities. They see them as core to continuous improvement. When retros consistently drive visible changes, team members invest more energy in honest reflection.
 

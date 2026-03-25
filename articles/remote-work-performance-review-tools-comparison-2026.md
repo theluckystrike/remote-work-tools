@@ -21,11 +21,11 @@ Remote team performance management requires tools that work asynchronously acros
 Table of Contents
 
 - [Why Remote Teams Need Performance Tools](#why-remote-teams-need-performance-tools)
-- [Lattice: Modern Performance Infrastructure](#lattice-modern-performance-infrastructure)
+- [Lattice - Modern Performance Infrastructure](#lattice-modern-performance-infrastructure)
 - [15Five: Culture and Engagement Focus](#15five-culture-and-engagement-focus)
-- [Culture Amp: Employee Experience Platform](#culture-amp-employee-experience-platform)
-- [BambooHR: All-in-One HR Platform](#bamboohr-all-in-one-hr-platform)
-- [Leapsome: Team Engagement and Development](#leapsome-team-engagement-and-development)
+- [Culture Amp - Employee Experience Platform](#culture-amp-employee-experience-platform)
+- [BambooHR - All-in-One HR Platform](#bamboohr-all-in-one-hr-platform)
+- [Leapsome - Team Engagement and Development](#leapsome-team-engagement-and-development)
 - [Comparison Matrix](#comparison-matrix)
 - [Choosing by Company Size](#choosing-by-company-size)
 - [Remote-Specific Best Practices](#remote-specific-best-practices)
@@ -44,35 +44,35 @@ Traditional performance management fails for distributed teams:
 
 Structured performance platforms solve these by creating a feedback system designed for distributed teams: continuous feedback collection, goal alignment, and asynchronous 360 reviews.
 
-Lattice: Modern Performance Infrastructure
+Lattice - Modern Performance Infrastructure
 
 Lattice combines goal tracking, continuous feedback, and structured review processes in one platform. Built specifically for contemporary work culture.
 
 Core Features
 
-Goals and OKRs: Employees set quarterly goals, connect to company OKRs, track progress.
+Goals and OKRs - Employees set quarterly goals, connect to company OKRs, track progress.
 
 ```
 Employee goal:
 Title: Improve API response time for dashboard endpoints
-OKR alignment: Q1 Infrastructure - 99.9% uptime, <200ms response time
-Status tracking: Updated weekly
-Owner: Sarah (Frontend Lead)
+OKR alignment - Q1 Infrastructure - 99.9% uptime, <200ms response time
+Status tracking - Updated weekly
+Owner - Sarah (Frontend Lead)
 
-Progress: 80% complete
+Progress - 80% complete
 - Week 1: Identified bottleneck in user-permissions query
 - Week 2-3: Optimized query, reduced latency 60%
 - Week 4: Deployed to production, monitoring metrics
-Next: Documentation and knowledge sharing
+Next - Documentation and knowledge sharing
 ```
 
-Continuous feedback: Not just annual reviews. Managers and peers submit feedback throughout the year.
+Continuous feedback - Not just annual reviews. Managers and peers submit feedback throughout the year.
 
 ```
 Feedback submitted:
 From: Maria (Engineering Manager)
-Date: March 15
-Category: Technical Excellence
+Date - March 15
+Category - Technical Excellence
 
 "Sarah's query optimization work on the dashboard endpoint reduced
 latency from 450ms to 180ms. She documented the approach and pair-
@@ -82,9 +82,9 @@ leadership we need more of."
 
 360 reviews: Feedback from peers, managers, direct reports collected anonymously and synthesized.
 
-Succession planning: Identify high-potential employees, track development, plan promotions.
+Succession planning - Identify high-potential employees, track development, plan promotions.
 
-Real-World Example: 30-Person Tech Team
+Real-World Example - 30-Person Tech Team
 
 ```
 Lattice Setup:
@@ -112,7 +112,7 @@ End of Quarter Review (Mar):
   - 360 review (manager, 5 peers, 2 direct reports)
 - System synthesizes all input, minimizes bias
 
-Results: Clear promotion/retention decisions with data to back them
+Results - Clear promotion/retention decisions with data to back them
 ```
 
 Strengths
@@ -133,15 +133,15 @@ Limitations
 
 Pricing
 
-Lattice: $10-15 per user per month (volume discounts). 50-person company: $5,000-7,500 annually. Setup and onboarding: $5,000-15,000.
+Lattice - $10-15 per user per month (volume discounts). 50-person company: $5,000-7,500 annually. Setup and onboarding: $5,000-15,000.
 
 15Five: Culture and Engagement Focus
 
-15Five emphasizes building strong cultures through continuous feedback and team engagement. Philosophy: weekly check-ins prevent surprises.
+15Five emphasizes building strong cultures through continuous feedback and team engagement. Philosophy - weekly check-ins prevent surprises.
 
 Core Approach
 
-Weekly check-ins: Employees submit 15-minute updates every Friday.
+Weekly check-ins - Employees submit 15-minute updates every Friday.
 
 ```
 Employee Friday Check-in:
@@ -167,16 +167,16 @@ One thing I could do better:
 - More frequent communication with ops team
 ```
 
-Manager synthesis: Managers review 15-minute updates, spot issues, track engagement trends.
+Manager synthesis - Managers review 15-minute updates, spot issues, track engagement trends.
 
-Recognition: Built-in recognition platform where peers acknowledge contributions.
+Recognition - Built-in recognition platform where peers acknowledge contributions.
 
-Engagement surveys: Regular pulse surveys measure team health, identify turnover risks early.
+Engagement surveys - Regular pulse surveys measure team health, identify turnover risks early.
 
-Real-World Example: 50-Person SaaS Team
+Real-World Example - 50-Person SaaS Team
 
 ```
-Scenario: Engineering team showing subtle signs of burnout
+Scenario - Engineering team showing subtle signs of burnout
 
 Week 1:
 - Several team members report being blocked on cloud infrastructure issues
@@ -193,7 +193,7 @@ Week 3-4:
 - Energy levels in check-ins improve noticeably
 - Recognition entries increase (team momentum returns)
 
-Without 15Five: This burnout would silently worsen for 2+ months, resulting in
+Without 15Five - This burnout would silently worsen for 2+ months, resulting in
 resignations. With 15Five: Caught and addressed within 2 weeks.
 ```
 
@@ -217,20 +217,20 @@ Pricing
 
 15Five: $8-12 per user per month. 50-person company: $4,000-6,000 annually.
 
-Culture Amp: Employee Experience Platform
+Culture Amp - Employee Experience Platform
 
 Culture Amp specializes in measuring employee experience through surveys, enabling data-driven people decisions.
 
 Features
 
-Engagement surveys: Regular pulse checks or annual surveys measuring employee satisfaction, psychological safety, manager effectiveness.
+Engagement surveys - Regular pulse checks or annual surveys measuring employee satisfaction, psychological safety, manager effectiveness.
 
-Survey analytics: Deep analysis of trends: which teams are at risk, what's driving disengagement, correlations between metrics.
+Survey analytics - Deep analysis of trends: which teams are at risk, what's driving disengagement, correlations between metrics.
 
 ```
 Survey Results Summary (100 employees):
 
-Overall Engagement: 7.2/10 (down from 7.8 last quarter)
+Overall Engagement - 7.2/10 (down from 7.8 last quarter)
 
 Breakdown by department:
 - Engineering: 7.8 (stable)
@@ -250,12 +250,12 @@ Peer mentoring program
 
 360 feedback: Different from Lattice, focused on manager effectiveness and team dynamics.
 
-Exit interview data: Understand why people leave, identify trends.
+Exit interview data - Understand why people leave, identify trends.
 
-Real-World Example: Growing Company (150 people)
+Real-World Example - Growing Company (150 people)
 
 ```
-Scenario: Engineering turnover increasing, competing for talent
+Scenario - Engineering turnover increasing, competing for talent
 
 Q4 Survey:
 - Engineering engagement dropped to 6.8/10
@@ -292,23 +292,23 @@ Limitations
 
 Pricing
 
-Culture Amp: Typically $5,000-30,000 annually depending on company size and survey frequency.
+Culture Amp - Typically $5,000-30,000 annually depending on company size and survey frequency.
 
-BambooHR: All-in-One HR Platform
+BambooHR - All-in-One HR Platform
 
 BambooHR combines HR management, performance reviews, time tracking, and document management in one platform.
 
 Performance Review Features
 
-Customizable review templates: Design reviews matching company culture and roles.
+Customizable review templates - Design reviews matching company culture and roles.
 
-Multi-source feedback: Managers, peers, self-assessment, direct reports.
+Multi-source feedback - Managers, peers, self-assessment, direct reports.
 
-Goal tracking: Simple goal management integrated with reviews.
+Goal tracking - Simple goal management integrated with reviews.
 
-Workflow automation: Route reviews, set deadlines, send reminders automatically.
+Workflow automation - Route reviews, set deadlines, send reminders automatically.
 
-Real-World Example: 75-Person Consulting Firm
+Real-World Example - 75-Person Consulting Firm
 
 ```
 BambooHR Setup:
@@ -327,9 +327,9 @@ Continuous Feedback:
 - Peers nominate achievements via Slack
 - System shows performance trend over time
 
-Time to implement: 4-6 weeks (data migration, setup, training)
-Cost: Lower than best-in-class alternatives
-Limitation: Not as sophisticated as Lattice, good enough for most companies
+Time to implement - 4-6 weeks (data migration, setup, training)
+Cost - Lower than best-in-class alternatives
+Limitation - Not as sophisticated as Lattice, good enough for most companies
 ```
 
 Strengths
@@ -349,9 +349,9 @@ Limitations
 
 Pricing
 
-BambooHR: $99-349 per month (typically $2-4 per user). 75-person company: $3,000-6,000 annually.
+BambooHR - $99-349 per month (typically $2-4 per user). 75-person company: $3,000-6,000 annually.
 
-Leapsome: Team Engagement and Development
+Leapsome - Team Engagement and Development
 
 Leapsome focuses on continuous feedback, one-on-one management, and development planning.
 
@@ -359,13 +359,13 @@ Features
 
 1:1 meeting templates: Structured conversations between managers and direct reports.
 
-Development planning: Identify skill gaps, create learning paths, track progress.
+Development planning - Identify skill gaps, create learning paths, track progress.
 
-Peer feedback: Lightweight feedback mechanism, less formal than 360.
+Peer feedback - Lightweight feedback mechanism, less formal than 360.
 
-Survey and engagement: Pulse surveys measuring team health.
+Survey and engagement - Pulse surveys measuring team health.
 
-OKR tracking: Simplified goal management for smaller organizations.
+OKR tracking - Simplified goal management for smaller organizations.
 
 Strengths
 
@@ -384,7 +384,7 @@ Limitations
 
 Pricing
 
-Leapsome: $6-10 per user per month. 50-person company: $3,000-5,000 annually.
+Leapsome - $6-10 per user per month. 50-person company: $3,000-5,000 annually.
 
 Comparison Matrix
 
@@ -404,9 +404,9 @@ Choosing by Company Size
 
 100+ people (multiple departments): Lattice + Culture Amp. Lattice for structured performance management, Culture Amp for understanding org-wide trends.
 
-Strong culture focus: 15Five. Weekly check-ins and engagement focus prevent silent turnover.
+Strong culture focus - 15Five. Weekly check-ins and engagement focus prevent silent turnover.
 
-Distributed/async teams: 15Five (continuous feedback), Leapsome (strong 1:1 support). Avoid tools requiring real-time calibration meetings.
+Distributed/async teams - 15Five (continuous feedback), Leapsome (strong 1:1 support). Avoid tools requiring real-time calibration meetings.
 
 Remote-Specific Best Practices
 
@@ -414,15 +414,15 @@ Regardless of tool chosen:
 
 Weekly touchpoints: Asynchronous check-ins prevent issues festering. 15Five's model works well.
 
-Document feedback in writing: Without in-person observation, written feedback creates accountability and helps during disputes.
+Document feedback in writing - Without in-person observation, written feedback creates accountability and helps during disputes.
 
-Emphasize outcomes: Remote roles should measure results, not presence. Set clear goals, measure progress.
+Emphasize outcomes - Remote roles should measure results, not presence. Set clear goals, measure progress.
 
 360 reviews matter more: Distributed teams lack informal feedback channels. Structured 360 feedback prevents manager bias.
 
-Engagement measurement: Survey engagement quarterly. Early signals of burnout and retention risk are critical.
+Engagement measurement - Survey engagement quarterly. Early signals of burnout and retention risk are critical.
 
-Timezone-friendly scheduling: Performance conversations should be recorded or summarized for those unable to attend synchronously.
+Timezone-friendly scheduling - Performance conversations should be recorded or summarized for those unable to attend synchronously.
 
 Implementation Checklist
 

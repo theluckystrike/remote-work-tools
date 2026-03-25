@@ -24,7 +24,7 @@ Why Focus Time Agreements Matter
 
 When your team operates across time zones, the natural boundaries that exist in co-located offices disappear. A developer in Tokyo and another in San Francisco might both be "available" during their overlapping hours, leading to meeting saturation. Without explicit agreements, focus time becomes a casualty of good intentions.
 
-The cost accumulates quickly: context switching consumes 20-40% of productivity, and deep work typically requires 60-90 minutes to reach flow state. A 30-minute interrupt can easily destroy an hour of focused output.
+The cost accumulates quickly - context switching consumes 20-40% of productivity, and deep work typically requires 60-90 minutes to reach flow state. A 30-minute interrupt can easily destroy an hour of focused output.
 
 Starting with Team Buy-In
 
@@ -145,7 +145,7 @@ app.event('user_status_changed', async ({ event }) => {
 cron.schedule('0 14 * * Wednesday', async () => {
   await app.client.chat.postMessage({
     channel: 'engineering-team',
-    text: " Reminder: Today is a focus day. Please avoid scheduling new meetings."
+    text: " Reminder - Today is a focus day. Please avoid scheduling new meetings."
   });
 });
 ```

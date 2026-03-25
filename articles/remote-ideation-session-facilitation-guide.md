@@ -21,13 +21,13 @@ Start every remote ideation session with a "silent start" -- send the problem pr
 Table of Contents
 
 - [Setting Up Your Ideation Environment](#setting-up-your-ideation-environment)
-- [Session: Feature Brainstorm](#session-feature-brainstorm)
+- [Session - Feature Brainstorm](#session-feature-brainstorm)
 - [Help Techniques That Work Remotely](#help-techniques-that-work-remotely)
 - [Structured Ideation Frameworks](#structured-ideation-frameworks)
 - [Tools for Remote Ideation](#tools-for-remote-ideation)
 - [Post-Session Workflow](#post-session-workflow)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
-- [Advanced Facilitation: Running Large-Scale Ideation](#advanced-facilitation-running-large-scale-ideation)
+- [Advanced Facilitation - Running Large-Scale Ideation](#advanced-facilitation-running-large-scale-ideation)
 - [5-Team Parallel Ideation (2 hours total)](#5-team-parallel-ideation-2-hours-total)
 - [Problem Statement](#problem-statement)
 - [Submission Guidelines](#submission-guidelines)
@@ -51,9 +51,9 @@ Essential Setup Checklist
 For text-based asyncIdeation, consider using a shared document with structured sections. Google Docs or Notion works well, but you can also use a simple markdown-based approach:
 
 ```markdown
-Session: Feature Brainstorm
-Date: 2026-03-15
-Participants: @alice, @bob, @charlie
+Session - Feature Brainstorm
+Date - 2026-03-15
+Participants - @alice, @bob, @charlie
 
 Problem Statement
 How might we reduce onboarding time for new developers?
@@ -133,9 +133,9 @@ Originally designed for in-person use, 6-3-5 adapts well to remote settings. Six
 Implement this remotely using a shared spreadsheet:
 
 ```
-Round 1 (5 min): Each person adds 3 ideas in their column
-Round 2 (5 min): Each person reviews adjacent column, adds improvements
-Round 3 (5 min): Final improvements and cross-pollination
+Round 1 (5 min) - Each person adds 3 ideas in their column
+Round 2 (5 min) - Each person reviews adjacent column, adds improvements
+Round 3 (5 min) - Final improvements and cross-pollination
 ```
 
 Tools for Remote Ideation
@@ -212,7 +212,7 @@ Avoid these mistakes that reduce ideation session effectiveness:
 - Missing follow-through. Ideas without owners and deadlines die immediately
 - Infinite sessions. Cap ideation at 45-60 minutes; extended sessions produce diminishing returns
 
-Advanced Facilitation: Running Large-Scale Ideation
+Advanced Facilitation - Running Large-Scale Ideation
 
 For teams larger than 8 people or complex problems requiring diverse input, use structured workflows that maintain quality at scale.
 
@@ -223,35 +223,35 @@ Running ideation in parallel tracks prevents group dominance and surfaces divers
 ```markdown
 5-Team Parallel Ideation (2 hours total)
 
-Wave 1: Individual Generation (20 min)
+Wave 1 - Individual Generation (20 min)
 - Each person documents 5 ideas solo
 - Use: shared Google Doc or Notion database
 - Focus: quantity, no filtering, crazy ideas welcome
 
-Wave 2: Team Clustering (15 min)
+Wave 2 - Team Clustering (15 min)
 - 5 teams of 4-6 people each
 - Each team gets all 25+ ideas (from Wave 1)
 - Task: Group similar ideas into 5-7 clusters
 - Theme each cluster with a label
 
-Wave 3: Cluster Refinement (15 min)
+Wave 3 - Cluster Refinement (15 min)
 - Same teams refine their clusters
 - Select strongest idea per cluster
 - Prepare 2-minute verbal summary
 
-Wave 4: Cross-Pollination (20 min)
+Wave 4 - Cross-Pollination (20 min)
 - Rotate team members (leave one person to present)
 - Hearing other team summaries sparks new angles
 - Recorders capture cross-team insights
 
-Wave 5: Synthesis (10 min)
+Wave 5 - Synthesis (10 min)
 - Full group votes on top 5 clusters
 - Assign each to an owner + deadline
 ```
 
 This format generates 25+ substantive ideas, prevents loudest-voice dominance, and keeps energy high.
 
-Comparison: Ideation Methods by Situation
+Comparison - Ideation Methods by Situation
 
 | Situation | Method | Duration | Team Size | Output |
 |-----------|--------|----------|-----------|--------|
@@ -283,10 +283,10 @@ Async Ideation Template for Distributed Teams
 For teams that can't synchronously meet:
 
 ```markdown
-Ideation: [Problem Statement]
-Posted: 2026-03-22
-Voting closes: 2026-03-24 at 17:00 UTC
-Selected ideas reviewed: 2026-03-25
+Ideation - [Problem Statement]
+Posted - 2026-03-22
+Voting closes - 2026-03-24 at 17:00 UTC
+Selected ideas reviewed - 2026-03-25
 
 Problem Statement
 [Clear 1-2 sentence problem]

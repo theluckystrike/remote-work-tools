@@ -70,7 +70,7 @@ ADMIN_PASSWORD=strong-admin-password
 ```bash
 docker compose up -d
 docker compose logs -f keycloak
-Wait for: Admin console listening on http://0.0.0.0:8080/auth
+Wait for - Admin console listening on http://0.0.0.0:8080/auth
 ```
 
 Nginx Reverse Proxy
@@ -99,7 +99,7 @@ server {
 Realm Configuration
 
 ```bash
-Access admin console: https://auth.example.com/admin
+Access admin console - https://auth.example.com/admin
 Login with admin credentials
 
 Create realm via CLI (kcadm.sh)
@@ -181,11 +181,11 @@ docker exec keycloak /opt/keycloak/bin/kcadm.sh create clients \
 
 In Gitea admin (Site Administration > Authentication > Add Authentication Source):
 ```
-Authentication Type: OAuth2
-Name: Keycloak
-OAuth2 Provider: OpenID Connect
-Client ID: gitea
-Client Secret: your-secret
+Authentication Type - OAuth2
+Name - Keycloak
+OAuth2 Provider - OpenID Connect
+Client ID - gitea
+Client Secret - your-secret
 OpenID Connect Auto Discovery URL: https://auth.example.com/realms/company/.well-known/openid-configuration
 ```
 
@@ -213,7 +213,7 @@ MFA Enforcement
 
 ```bash
 Create authentication flow requiring OTP
-In admin console: Authentication > Flows > Create flow
+In admin console - Authentication > Flows > Create flow
 
 Or set realm default to require OTP:
 docker exec keycloak /opt/keycloak/bin/kcadm.sh update realms/company \
@@ -352,7 +352,7 @@ docker exec keycloak /opt/keycloak/bin/kcadm.sh update realms/company \
 
 Query recent login events via API
 curl -s "https://auth.example.com/admin/realms/company/events?type=LOGIN_ERROR&max=50" \
-  -H "Authorization: Bearer $ADMIN_TOKEN" | jq '.[] | {user: .userId, ip: .ipAddress, time: .time}'
+  -H "Authorization - Bearer $ADMIN_TOKEN" | jq '.[] | {user: .userId, ip: .ipAddress, time: .time}'
 ```
 
 Forward events to a SIEM or logging platform by configuring the Keycloak Event Listener SPI. The built-in `jboss-logging` listener writes to container stdout, which your log aggregator (Loki, CloudWatch, Datadog) can pick up automatically. For structured output, add the `event-listener-email` or a custom HTTP listener via the admin console under Realm Settings > Events > Event Listeners.

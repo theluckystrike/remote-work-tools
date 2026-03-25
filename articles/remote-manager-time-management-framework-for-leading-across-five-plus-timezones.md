@@ -18,7 +18,7 @@ tags: [remote-work-tools, remote-work]
 
 Managing a remote team spread across five or more timezones presents unique scheduling challenges that standard productivity advice fails to address. When your team operates across London, New York, Tokyo, Sydney, and San Francisco, the traditional "find a common slot" approach breaks down completely. This framework provides concrete strategies, scheduling algorithms, and workflow patterns that actually work for globally distributed teams.
 
-The Core Problem: Overlap Collapse
+The Core Problem - Overlap Collapse
 
 When teams span five or more timezones, direct overlap, the hours when everyone is awake and working, shrinks to nothing or becomes impractical. Here's what that looks like in practice:
 
@@ -30,12 +30,12 @@ Team Distribution (UTC offsets):
 - Tokyo: UTC+9 (JST)
 - Sydney: UTC+10 / UTC+11 (AEST/AEDT)
 
-Maximum direct overlap: ~2 hours (rarely convenient)
+Maximum direct overlap - ~2 hours (rarely convenient)
 ```
 
 This mathematical reality means synchronous collaboration becomes the exception rather than the rule. Your time management framework must account for this constraint from the ground up.
 
-Framework Component 1: Asynchronous-First Scheduling
+Framework Component 1 - Asynchronous-First Scheduling
 
 The first principle of managing across five-plus timezones is treating synchronous meetings as costly transactions that require justification. Every meeting you schedule extracts productivity from your team, someone is always attending outside optimal hours.
 
@@ -45,8 +45,8 @@ Replace status meetings with asynchronous written updates. Use a simple format t
 
 ```markdown
 Weekly Status Update
-Team Member: [Name]
-Week of: [Date]
+Team Member - [Name]
+Week of - [Date]
 
 Completed This Week
 - [Task 1]
@@ -105,7 +105,7 @@ Lead teams across five or more time zones by adopting async-first communication,
 
 For teams spanning five timezones, you'll often find that the most practical approach is accepting that true universal overlap doesn't exist and optimizing for pairwise overlaps instead.
 
-Framework Component 2: Time-Blocking by Timezone
+Framework Component 2 - Time-Blocking by Timezone
 
 Structure your own day around timezone-aware time blocks. This is critical for managers who need to be available for different team segments without destroying their own productivity.
 
@@ -121,17 +121,17 @@ Recommended Daily Structure (UTC-based)
 
 Adjust these blocks based on your team's specific timezone distribution. The key insight: batch similar activities together and accept that your schedule will feel unconventional to anyone used to 9-to-5 thinking.
 
-Framework Component 3: Context-Rich Async Handoffs
+Framework Component 3 - Context-Rich Async Handoffs
 
 When synchronous collaboration is genuinely necessary, make it count by investing heavily in async preparation. A poorly prepared meeting wastes everyone's time; a well-prepared meeting with async pre-work maximizes value.
 
 Meeting Pre-Work Template
 
 ```markdown
-Meeting: [Topic]
-Date: [Date] at [Time UTC]
-Duration: [X] minutes
-Required Attendees: [List]
+Meeting - [Topic]
+Date - [Date] at [Time UTC]
+Duration - [X] minutes
+Required Attendees - [List]
 
 Pre-Read Materials
 - [Link to document 1]
@@ -150,7 +150,7 @@ Expected Outcomes
 
 Require all attendees to complete pre-work at least 24 hours before the meeting. Start meetings by screen-sharing the pre-work completion status. This creates accountability and ensures meetings are reserved for discussion, not information transfer.
 
-Framework Component 4: Rotating Sync Responsibilities
+Framework Component 4 - Rotating Sync Responsibilities
 
 If your team genuinely requires some synchronous collaboration, rotate the inconvenience. No single timezone should consistently bear the burden of awkward meeting times.
 
@@ -179,7 +179,7 @@ schedule = generate_sync_rotation(team, weeks=4)
 
 Document the rotation and share it with the team. Visibility into the fairness of the system reduces resentment and increases buy-in.
 
-Framework Component 5: Documentation as Time Recovery
+Framework Component 5 - Documentation as Time Recovery
 
 Every question answered synchronously is time you'll need to spend answering again. Build systems that capture knowledge once:
 
@@ -193,7 +193,7 @@ Putting It All Together
 
 This framework isn't about finding magical meeting times across five timezones, those don't exist. It's about accepting that reality and building systems that minimize synchronous dependency while maintaining team cohesion.
 
-Start with one component: implement async status updates this week. Next month, add the golden hours algorithm to identify your best collaboration windows. Gradually adopt the other components as your team builds trust in the async workflows.
+Start with one component - implement async status updates this week. Next month, add the golden hours algorithm to identify your best collaboration windows. Gradually adopt the other components as your team builds trust in the async workflows.
 
 The teams that thrive across five-plus timezones aren't those that find better meeting times, they're those that build systems where asynchronous work is the default and synchronous work is the intentional exception.
 
@@ -201,28 +201,28 @@ Timezone-Aware Decision Making
 
 Decisions across timezones require deliberate process to avoid making team members feel unheard. Here's a framework:
 
-Level 1: Reversible Decisions (Change Direction if Needed)
+Level 1 - Reversible Decisions (Change Direction if Needed)
 - Async decision-making is fine
 - Manager or team lead decides with input
 - Document decision in wiki with rationale
 - 24-hour window for objections before implementation
 - Anyone can request reversal within 48 hours of implementation
 
-Level 2: Important Decisions (High Impact, Hard to Reverse)
+Level 2 - Important Decisions (High Impact, Hard to Reverse)
 - Require written input from all timezone clusters
 - Use async RFC (Request for Comments) format
 - Set specific deadline: 48 hours for written feedback
 - Use synchronous call to finalize ONLY if consensus isn't clear after async discussion
 - Record call and share notes with those who couldn't attend
 
-Level 3: Critical Decisions (Affects Company Direction, Hiring, Major Refactor)
+Level 3 - Critical Decisions (Affects Company Direction, Hiring, Major Refactor)
 - Schedule one real-time call with rotating time sacrifice
 - Provide pre-read materials 48 hours in advance
 - Require all timezone clusters represented (even if someone has to wake early)
 - Record and transcribe for those who had extreme inconvenience
 - Async comment window AFTER the call (24 hours) in case new points emerge
 
-Exception: True Emergencies
+Exception - True Emergencies
 - Production down, security issue, major customer impact
 - Gather whoever is awake, make decision
 - Brief the rest ASAP when they come online

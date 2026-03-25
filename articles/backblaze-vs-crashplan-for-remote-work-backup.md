@@ -33,7 +33,7 @@ Table of Contents
 - [Version History and Recovery Scenarios](#version-history-and-recovery-scenarios)
 - [The Verdict for Remote Work](#the-verdict-for-remote-work)
 - [Recovery Testing Protocol](#recovery-testing-protocol)
-- [Backup Service Ecosystem](#backup-service-ecosystem)
+- [Backup Service environment](#backup-service-environment)
 - [Implementation Checklist](#implementation-checklist)
 
 Pricing and Value
@@ -152,20 +152,20 @@ Detailed Feature Comparison Table
 
 Real-World Scenarios and Decision Framework
 
-Scenario 1: Solo Developer, Mixed Platforms
+Scenario 1 - Solo Developer, Mixed Platforms
 You develop on macOS but maintain Linux servers for production. Your home internet is 100 Mbps. Your projects total 250GB including VM snapshots.
 
-Backblaze recommendation: Install on Mac laptop ($7) + use Backblaze B2 for headless Linux server backup via CLI. First backup takes 5-7 days over your connection. Thereafter, nightly uploads of changed files complete in 1-2 hours. Total cost: $7/month.
+Backblaze recommendation - Install on Mac laptop ($7) + use Backblaze B2 for headless Linux server backup via CLI. First backup takes 5-7 days over your connection. Thereafter, nightly uploads of changed files complete in 1-2 hours. Total cost: $7/month.
 
-Scenario 2: Small Team (5 developers) with Similar Codebases
+Scenario 2 - Small Team (5 developers) with Similar Codebases
 Your team all develops the same application codebase (~50GB per developer). You use a shared artifact server with duplicate dependencies across machines.
 
-CrashPlan recommendation: Team plan ($50-60/month) with deduplication. The shared codebase across machines means CrashPlan's deduplication saves significant bandwidth, your team likely backs up 150GB of unique data instead of 250GB. Faster overall backup completion. Priority support helps if restore is needed during crunch.
+CrashPlan recommendation - Team plan ($50-60/month) with deduplication. The shared codebase across machines means CrashPlan's deduplication saves significant bandwidth, your team likely backs up 150GB of unique data instead of 250GB. Faster overall backup completion. Priority support helps if restore is needed during crunch.
 
-Scenario 3: Startup with Compliance Requirements
+Scenario 3 - Startup with Compliance Requirements
 Your team stores client data and needs audit trails of backup activity. You have 15 developers in different time zones. Compliance framework requires proof of backup frequency.
 
-CrashPlan business plan: Advanced reporting shows backup frequency per user. Audit logs prove compliance. Enterprise support provides guaranteed response times for restore requests. The premium cost (roughly 40% more than Backblaze) is justified by compliance documentation alone.
+CrashPlan business plan - Advanced reporting shows backup frequency per user. Audit logs prove compliance. Enterprise support provides guaranteed response times for restore requests. The premium cost (roughly 40% more than Backblaze) is justified by compliance documentation alone.
 
 Performance Metrics from Real Tests
 
@@ -246,42 +246,42 @@ Before relying on any backup service, test your restore capability:
 
 Solo developer testing:
 ```bash
-Step 1: Calculate actual backup size
+Step 1 - Calculate actual backup size
 du -sh ~
 287GB total (development, projects, media)
 
-Step 2: Install backup service on test machine
+Step 2 - Install backup service on test machine
 Use old laptop, unused desktop, or cloud instance
 Install Backblaze/CrashPlan, authenticate
 
-Step 3: Restore small dataset
+Step 3 - Restore small dataset
 Select 10GB of files from backup
 Download to test machine
 Verify files match originals via checksum
 
-Step 4: Restore critical files
+Step 4 - Restore critical files
 Restore .ssh directory containing private keys
 Verify permissions are correct (600 for keys)
 Test SSH access works after restore
 
-Step 5: Document timeline
+Step 5 - Document timeline
 How long did 10GB take to download?
-Calculate: Days needed to restore full backup
+Calculate - Days needed to restore full backup
 Is this acceptable for your recovery needs?
 
 Expected results:
 Backblaze: 5 GB/hour on residential internet
-CrashPlan: 4-5 GB/hour depending on deduplication
+CrashPlan - 4-5 GB/hour depending on deduplication
 ```
 
 Team testing (for CrashPlan with deduplication):
 ```bash
 For small teams, verify deduplication actually helps
 
-Before: 5 developers, 250GB each = 1.25TB
-After CrashPlan deduplication: ~750GB unique data
+Before - 5 developers, 250GB each = 1.25TB
+After CrashPlan deduplication - ~750GB unique data
 (35GB docker images duplicated, 40GB dependencies, etc.)
-Savings: 500GB (40% reduction)
+Savings - 500GB (40% reduction)
 
 Verify by:
 1. Install CrashPlan on team machines
@@ -294,14 +294,14 @@ Verify by:
    (Not directly cost-effective but faster backups matter)
 ```
 
-Backup Service Ecosystem
+Backup Service environment
 
 Both Backblaze and CrashPlan fit within broader backup architecture:
 
 Layered backup strategy for serious remote workers:
 
 ```
-Layer 1: Daily incremental backups (Backblaze or CrashPlan)
+Layer 1 - Daily incremental backups (Backblaze or CrashPlan)
  Location: Remote cloud
  Recovery time: 24-48 hours
  Cost: $7-10/month
@@ -309,7 +309,7 @@ Layer 1: Daily incremental backups (Backblaze or CrashPlan)
  Limitations: Slow recovery, doesn't protect from ransomware
  Retention: Full history (30+ days or unlimited)
 
-Layer 2: Version control for active projects (GitHub, GitLab)
+Layer 2 - Version control for active projects (GitHub, GitLab)
  Location: Remote (third-party servers)
  Recovery time: Minutes (clone repository)
  Cost: $0-15/month depending on private repos
@@ -317,7 +317,7 @@ Layer 2: Version control for active projects (GitHub, GitLab)
  Limitations: Only for code, not project files or media
  Retention: Unlimited (configurable on self-hosted)
 
-Layer 3: Time-machine backup (local external drive)
+Layer 3 - Time-machine backup (local external drive)
  Location: Home office (external USB drive)
  Recovery time: Seconds (plug in drive, restore)
  Cost: $50-100 (one-time for USB drive)
@@ -325,7 +325,7 @@ Layer 3: Time-machine backup (local external drive)
  Limitations: Doesn't protect from theft/fire
  Retention: As much as drive capacity (2TB = months of history)
 
-Layer 4: Snapshots during development (manual or automatic)
+Layer 4 - Snapshots during development (manual or automatic)
  Location: Local or cloud (project-specific)
  Recovery time: Instant (git reset, file restore)
  Cost: Free (git) or minimal (S3, DigitalOcean)
@@ -333,29 +333,29 @@ Layer 4: Snapshots during development (manual or automatic)
  Limitations: Only for specific data you explicitly track
  Retention: Last 10-100 commits depending on config
 
-Total cost: ~$100-150/month for detailed protection
+Total cost - ~$100-150/month for detailed protection
 ```
 
 Practical implementation:
 
 ```bash
-Setup Layer 1: Backblaze or CrashPlan (choose one)
-Monthly cost: $7-10
-Configuration: Run backup service continuously
+Setup Layer 1 - Backblaze or CrashPlan (choose one)
+Monthly cost - $7-10
+Configuration - Run backup service continuously
 
-Setup Layer 2: GitHub/GitLab for all code
-Monthly cost: $0 (public) or $4-21 (private repos)
-Configuration: git push origin main after commits
+Setup Layer 2 - GitHub/GitLab for all code
+Monthly cost - $0 (public) or $4-21 (private repos)
+Configuration - git push origin main after commits
 
-Setup Layer 3: External drive Time Machine
-One-time cost: $60 (1TB USB-C drive)
-Configuration: Connect weekly, Time Machine auto-backs up
+Setup Layer 3 - External drive Time Machine
+One-time cost - $60 (1TB USB-C drive)
+Configuration - Connect weekly, Time Machine auto-backs up
 
-Setup Layer 4: Git snapshots
-Monthly cost: Free
-Configuration: git tag -a v1.0 -m "Stable release"
+Setup Layer 4 - Git snapshots
+Monthly cost - Free
+Configuration - git tag -a v1.0 -m "Stable release"
 
-Total monthly: $10-30 (plus one-time $60)
+Total monthly - $10-30 (plus one-time $60)
 Recovery options:
 - File deleted: Restore from Time Machine (seconds)
 - Code corrupted: git reset --hard <commit> (seconds)

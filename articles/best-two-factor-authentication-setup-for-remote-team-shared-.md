@@ -38,13 +38,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand the Shared Account Problem
+Step 1 - Understand the Shared Account Problem
 
 Shared accounts exist because some services don't support team-based access control. You might need a single AWS IAM user for deployment pipelines, a shared Slack bot account, or admin access to a legacy CMS. The challenge is clear: you need multiple people to access the same credentials, but you also want the security benefits of two-factor authentication.
 
 The solution isn't one-size-fits-all. Different 2FA methods offer different tradeoffs between security, convenience, and recovery options. Let's walk through the most practical approaches.
 
-Step 2: Method 1: TOTP-Based 2FA with Shared Secret Storage
+Step 2 - Method 1: TOTP-Based 2FA with Shared Secret Storage
 
 Time-based One-Time Passwords (TOTP) are the most common 2FA method. Services like Google Authenticator, Authy, or 1Password generate short-lived codes based on a shared secret. For shared accounts, you store the secret in a secure, accessible location.
 
@@ -77,7 +77,7 @@ Pros and Cons
 - Recovery requires access to the stored secret
 - Not all password managers support TOTP generation from shared vaults
 
-Step 3: Method 2: Hardware Security Keys (YubiKey)
+Step 3 - Method 2: Hardware Security Keys (YubiKey)
 
 Hardware security keys like YubiKey provide the strongest 2FA protection. Instead of a shared secret that multiple people possess, each team member has their own hardware key registered to the shared account.
 
@@ -112,7 +112,7 @@ Pros and Cons
 - Not all services support hardware 2FA
 - Team members must have their own keys
 
-Step 4: Method 3: Centralized Identity with SSO
+Step 4 - Method 3: Centralized Identity with SSO
 
 If your team uses Google Workspace or Microsoft 365, you can use SSO for many services. However, for services that don't integrate with your identity provider, consider using a centralized authentication proxy.
 
@@ -155,7 +155,7 @@ Pros and Cons
 - Single point of failure if misconfigured
 - Requires service support for proxy authentication
 
-Step 5: Method 4: Delegated Access with Temporary Credentials
+Step 5 - Method 4: Delegated Access with Temporary Credentials
 
 For AWS specifically, avoid shared accounts altogether by using IAM roles with temporary credentials. Each team member authenticates with their own identity, then assumes a role with the necessary permissions.
 
@@ -189,19 +189,19 @@ Regardless of which method you choose, follow these security principles:
 
 5. Limit shared accounts. Proactively migrate services to proper team-based access. Many tools now support SSO or built-in team management.
 
-Step 6: Choose Your Approach
+Step 6 - Choose Your Approach
 
 Start with TOTP if you need something quick and don't have hardware keys. Move to hardware security keys for high-value infrastructure accounts like AWS, GCP, or production database access. Implement an auth proxy like Authelia when you need to secure multiple services with a single authentication flow.
 
 The best two-factor authentication setup for your remote team is one that balances security with accessibility. Evaluate your highest-risk shared accounts first, implement the appropriate 2FA method, and gradually improve coverage across your entire tool stack.
 
-Step 7: 2FA Method Pricing and Infrastructure Costs
+Step 7 - 2FA Method Pricing and Infrastructure Costs
 
 Understanding the cost implications helps teams make economically sound security decisions:
 
 TOTP-Based 2FA (Shared Secret)
 
-Infrastructure cost: Minimal
+Infrastructure cost - Minimal
 - Password manager with TOTP support: $3-8/user/month (1Password, Bitwarden)
 - Alternative: Free open-source (KeePass, Vaultwarden)
 - Total team cost for 10 people: $30-800/month depending on choice
@@ -211,18 +211,18 @@ Infrastructure cost: Minimal
 - 10 users: $65/month total
 - Includes TOTP generation, sync, and audit logging
 
-Tradeoff: Low cost but higher operational risk. If someone leaves the company, you must rotate the shared TOTP secret.
+Tradeoff - Low cost but higher operational risk. If someone leaves the company, you must rotate the shared TOTP secret.
 
 Hardware Security Keys (YubiKey)
 
-Infrastructure cost: Per-person + service support
+Infrastructure cost - Per-person + service support
 - YubiKey 5 series: $50-70 per key
 - Team of 10 + backups: $500-800 upfront
 - Replacement/attrition: $50-70 per new employee annually
 
-AWS MFA Support: No additional cost (native IAM support)
+AWS MFA Support - No additional cost (native IAM support)
 
-GitHub Enterprise support: Native via security keys
+GitHub Enterprise support - Native via security keys
 - GitHub Enterprise Cloud: $21/user/month (minimum 5 users)
 - Includes security key requirements in organization settings
 
@@ -231,11 +231,11 @@ Total cost for 10-person team (Year 1):
 - Service costs: $0-250 (depending on which services require 2FA)
 - Annual maintenance: $0 (keys don't expire, only replace on loss)
 
-Year 2+: Only replacement keys ($50-70 per employee leaving)
+Year 2+ - Only replacement keys ($50-70 per employee leaving)
 
 Authelia/oauth2-proxy (Self-Hosted SSO)
 
-Infrastructure cost: Hosting + operational burden
+Infrastructure cost - Hosting + operational burden
 
 Hardware:
 - Authelia docker container: Runs on 512MB RAM, 1 CPU
@@ -251,7 +251,7 @@ Estimated Team Cost (Year 1):
 - Engineering time: $2000-4000
 - Total: $2120-5200
 
-Benefit: Unified authentication across all tools, not just cloud services.
+Benefit - Unified authentication across all tools, not just cloud services.
 
 Detailed Recovery and Incident Response
 
@@ -364,29 +364,29 @@ For government contracts:
 - No shared accounts (individual authentication only)
 - Key management per NIST standards
 
-Step 8: Implementation Timeline for Teams
+Step 8 - Implementation Timeline for Teams
 
-Week 1: Planning and Procurement
+Week 1 - Planning and Procurement
 
 - Inventory all shared accounts requiring 2FA
 - Prioritize by sensitivity (AWS root > GitHub > internal dashboards)
 - Decide on 2FA method (TOTP vs hardware keys)
 - If hardware keys: order YubiKeys (budget 2 per person)
 
-Week 2-3: Pilot Deployment
+Week 2-3 - Pilot Deployment
 
 - Enable 2FA on one non-critical shared account (e.g., Slack bot account)
 - Test access procedures with subset of team
 - Document recovery procedures
 - Gather feedback
 
-Week 4+: Rollout
+Week 4+ - Rollout
 
 - Enable on remaining accounts
 - Maintain shared secret/recovery codes in password manager
 - Schedule monthly reviews
 
-Step 9: Decision Table: Which Method for Which Service?
+Step 9 - Decision Table - Which Method for Which Service?
 
 | Service | TOTP | Hardware Key | Authelia | None |
 |---------|------|--------------|----------|------|
@@ -398,7 +398,7 @@ Step 9: Decision Table: Which Method for Which Service?
 | Email |  Leak risk |  Best |  Best |  Never |
 | Legacy systems without 2FA | - | - |  Only option |  Tolerable with access controls |
 
-Step 10: Monitor and Audit
+Step 10 - Monitor and Audit
 
 Key Metrics to Track
 
@@ -450,13 +450,13 @@ Monthly Review Checklist
 - [ ] Update access lists if team members joined/left
 - [ ] Test recovery procedures quarterly (quarterly, not just monthly)
 
-Step 11: Final Recommendation for Remote Teams
+Step 11 - Final Recommendation for Remote Teams
 
-1. For most SaaS companies: Use hardware keys (YubiKey) for AWS, GitHub, and production access. Use Authelia for internal tools. Cost: $700 hardware + $20-100/month services.
+1. For most SaaS companies: Use hardware keys (YubiKey) for AWS, GitHub, and production access. Use Authelia for internal tools. Cost - $700 hardware + $20-100/month services.
 
 2. For startups with limited budget: Start with TOTP in 1Password/Bitwarden for all accounts. Upgrade to hardware keys when team reaches 5+ engineers.
 
-3. For healthcare/fintech: Hardware keys only, no exceptions. Add Authelia for internal tools. Cost: $800-1200 hardware + $100-200/month services.
+3. For healthcare/fintech: Hardware keys only, no exceptions. Add Authelia for internal tools. Cost - $800-1200 hardware + $100-200/month services.
 
 4. For distributed teams across timezones: Authelia proxy (SSO) provides best experience, no "which authenticator app" confusion, centralized audit logs.
 
@@ -485,7 +485,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -497,7 +497,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

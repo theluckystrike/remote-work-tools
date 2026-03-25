@@ -42,7 +42,7 @@ Consider the data architecture requirements for your firm. If you operate across
 
 Platform Analysis
 
-Clio Manage: Practice Management
+Clio Manage - Practice Management
 
 Clio Manage provides a cloud-based platform that handles practice management, client intake, and billing. The platform offers REST APIs that allow developers to build custom integrations with existing firm systems.
 
@@ -61,7 +61,7 @@ def get_time_entries(clio_domain, matter_id, headers):
 
 Pricing follows a per-attorney model, which can scale unpredictably for larger distributed teams. The platform includes trust accounting features but requires careful configuration to meet specific state bar requirements.
 
-MyCase: Integrated Legal Billing
+MyCase - Integrated Legal Billing
 
 MyCase offers practice management with built-in billing capabilities. The platform emphasizes client communication alongside billing functions, which can improve workflows for firms handling high client volume.
 
@@ -69,7 +69,7 @@ Time tracking works through a browser-based timer and mobile applications. The p
 
 For firms requiring API access for custom integrations, MyCase provides developer documentation. However, the API capabilities are less extensive than some competing platforms, which may limit advanced automation possibilities.
 
-PracticePanther: Improved Approach
+PracticePanther - Improved Approach
 
 PracticePanther focuses on simplicity and ease of use, making it suitable for smaller distributed teams. The platform includes time tracking, invoicing, and payment processing in an unified interface.
 
@@ -98,7 +98,7 @@ async function createInvoice(pantherDomain, matterId, timeEntries, headers) {
 
 The platform's strength lies in its straightforward setup process, but firms with complex billing requirements may find customization options limited compared to enterprise-focused alternatives.
 
-Bill4Time: Time-Based Focus
+Bill4Time - Time-Based Focus
 
 Bill4Time emphasizes time tracking as its core function, making it particularly suitable for firms where accurate billing is the primary concern. The platform supports time tracking, expense management, and invoicing with strong reporting capabilities.
 
@@ -106,7 +106,7 @@ The software includes trust accounting features and can handle multiple bank acc
 
 For distributed teams, Bill4Time provides mobile applications that work offline and sync when connectivity returns. This offline capability proves essential for attorneys working in locations with unreliable internet access.
 
-CosmoLex: Practice and Billing Integration
+CosmoLex - Practice and Billing Integration
 
 CosmoLex combines practice management with legal-specific accounting features. The platform includes time tracking, billing, trust accounting, and general ledger functionality in a single system, which can simplify technology stacks for smaller firms.
 
@@ -167,24 +167,24 @@ At a billable rate of $250/hour, saving 6 hours monthly covers software costs en
 
 Implementation Timeline and Considerations
 
-Clio Manage: 2-4 weeks typical implementation
+Clio Manage - 2-4 weeks typical implementation
 - Week 1: Create matter structure and client intake forms
 - Week 2: Migrate existing time entries
 - Week 3: Configure trust accounting and compliance rules
 - Week 4: Staff training and cutover testing
 
-PracticePanther: 1-2 weeks typical implementation
+PracticePanther - 1-2 weeks typical implementation
 - Week 1: Basic setup, client import, time tracking configuration
 - Week 2: Invoice template customization and payment processing testing
 
-CosmoLex: 3-5 weeks typical implementation (most complex)
+CosmoLex - 3-5 weeks typical implementation (most complex)
 - Accounting module requires certified accountant review
 - Multi-state compliance rules must be configured correctly
 - Trust account setup is legally sensitive
 
 Real-World Integration Scenarios
 
-Scenario 1: Invoicing from Git commits
+Scenario 1 - Invoicing from Git commits
 A firm maintaining open-source legal analysis tools integrates GitHub with billing software. Every commit to a client's repository triggers a time entry:
 
 ```python
@@ -208,7 +208,7 @@ async def handle_github_push(request: Request):
             )
 ```
 
-Scenario 2: Multi-jurisdiction trust accounting
+Scenario 2 - Multi-jurisdiction trust accounting
 A firm with attorneys in California, New York, and Texas needs separate trust accounts:
 
 ```yaml
@@ -233,7 +233,7 @@ trust_accounts:
     compliance_alerts: true
 ```
 
-Scenario 3: Automated payment reminders
+Scenario 3 - Automated payment reminders
 Configure invoice reminders for clients with outstanding balances:
 
 ```yaml
@@ -293,11 +293,11 @@ Compliance Considerations by Jurisdiction
 
 Different bar associations have specific requirements:
 
-California: SFTB Rule 3-100 requires separate trust accounts, quarterly reconciliation, and specific record retention. Clio and CosmoLex both provide California-specific compliance templates.
+California - SFTB Rule 3-100 requires separate trust accounts, quarterly reconciliation, and specific record retention. Clio and CosmoLex both provide California-specific compliance templates.
 
-New York: NY Rules 1.15 requires trust account maintenance, annual audits for firms with significant client funds, and detailed matter-specific accounting. MyCase and Clio both offer NY-certified compliance modules.
+New York - NY Rules 1.15 requires trust account maintenance, annual audits for firms with significant client funds, and detailed matter-specific accounting. MyCase and Clio both offer NY-certified compliance modules.
 
-Texas: Texas Rules 1.14 requires trust account segregation but more flexible timing on reconciliation. Bill4Time provides Texas-specific trust accounting features.
+Texas - Texas Rules 1.14 requires trust account segregation but more flexible timing on reconciliation. Bill4Time provides Texas-specific trust accounting features.
 
 Staff Training and Change Management
 

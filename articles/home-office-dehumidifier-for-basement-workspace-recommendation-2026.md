@@ -65,7 +65,7 @@ Smart dehumidifiers offer WiFi connectivity for remote monitoring and control. M
 
 Top Dehumidifier Recommendations for Basement Home Offices
 
-Best Overall: Frigidaire High Humidity Plus
+Best Overall - Frigidaire High Humidity Plus
 
 The Frigidaire High Humidity Plus 70-Pint Dehumidifier excels in basement environments. Its high-capacity design handles large spaces and severe humidity conditions common in below-grade offices.
 
@@ -75,7 +75,7 @@ The built-in pump pushes water upward for drainage up to 15 feet vertically, ena
 
 Users praise its reliability and powerful moisture removal. The unit operates at 62 decibels, noticeable but not disruptive for background work. The digital display and intuitive controls simplify humidity management.
 
-Best Smart Dehumidifier: GE Profile Smart Dehumidifier
+Best Smart Dehumidifier - GE Profile Smart Dehumidifier
 
 The GE Profile 50-Pint Smart Dehumidifier brings modern connectivity to basement humidity control. WiFi integration enables voice control through Amazon Alexa and Google Assistant alongside mobile app management.
 
@@ -85,7 +85,7 @@ Real-time humidity readings appear on the digital display and in the app. Set sc
 
 The included drainage pump handles vertical lifts up to 10 feet, suitable for most basement configurations. The 50-pint capacity suits medium-sized offices between 500-1,000 square feet. Its sleek tower design takes minimal floor space.
 
-Best Budget Option: hOmeLabs Small Dehumidifier
+Best Budget Option - hOmeLabs Small Dehumidifier
 
 The hOmeLabs 22-Ounce Mini Dehumidifier serves small basement offices on tight budgets. This compact unit removes up to 9 ounces daily, ideal for personal workspaces under 150 square feet.
 
@@ -95,7 +95,7 @@ Auto-shutoff activates when the 16-ounce water tank fills, protecting against ov
 
 For slightly larger areas, the hOmeLabs 4,500 Sq. Ft. Dehumidifier offers 50-pint capacity at an affordable price point. It includes continuous gravity drainage and an automatic humidistat.
 
-Best Commercial-Grade: Honeywell Commercial Dehumidifier
+Best Commercial-Grade - Honeywell Commercial Dehumidifier
 
 The Honeywell TP70WKN 70-Pint Commercial Dehumidifier handles demanding basement environments requiring professional-grade performance. Its construction ensures years of reliable operation in challenging conditions.
 
@@ -164,19 +164,19 @@ A 50-pint dehumidifier with EF of 2.0 vs 3.0 represents roughly 30% difference i
 
 Compressor Types
 
-Traditional Rotary Compressor: Single-speed operation. Runs at full capacity or off. Older designs run at ~60dB continuously. Energy consumption: consistent, not optimized to actual humidity levels.
+Traditional Rotary Compressor - Single-speed operation. Runs at full capacity or off. Older designs run at ~60dB continuously. Energy consumption: consistent, not optimized to actual humidity levels.
 
-Inverter-Driven Compressor: Variable speed. Ramps operation based on detected humidity. Runs quietly at partial capacity most of the time. Newer technology found in premium models. Energy consumption: adaptive, saving 20-30% vs fixed-speed.
+Inverter-Driven Compressor - Variable speed. Ramps operation based on detected humidity. Runs quietly at partial capacity most of the time. Newer technology found in premium models. Energy consumption: adaptive, saving 20-30% vs fixed-speed.
 
-Rotary-Sliding Vane: Alternative single-speed design. Less common but more durable than some rotary models. Typically $100-200 more expensive.
+Rotary-Sliding Vane - Alternative single-speed design. Less common but more durable than some rotary models. Typically $100-200 more expensive.
 
 Refrigerant Used
 
-R-410A (standard): Most common refrigerant in US market. Reliable, established. Prices: widely available models.
+R-410A (standard) - Most common refrigerant in US market. Reliable, established. Prices - widely available models.
 
-R-32 (newer): More efficient, increasingly common in premium units. Slightly higher cost, better cooling performance.
+R-32 (newer) - More efficient, increasingly common in premium units. Slightly higher cost, better cooling performance.
 
-HFC refrigerants: Being phased out due to environmental regulations. Avoid models advertising HFC-based systems unless they specifically state environmental performance acceptance.
+HFC refrigerants - Being phased out due to environmental regulations. Avoid models advertising HFC-based systems unless they specifically state environmental performance acceptance.
 
 Pint Capacity Deep Dive
 
@@ -186,7 +186,7 @@ Pint Capacity Deep Dive
 - Drier basements (50% RH starting point) need less capacity
 - Very humid basements (75%+ RH) require 15-20% more capacity
 
-Estimate conservatively: calculate room volume in cubic feet, assume 2 air exchanges per hour, multiply by humidity differential. For a 600 sq ft basement (7.5 ft ceiling = 4,500 cu ft):
+Estimate conservatively - calculate room volume in cubic feet, assume 2 air exchanges per hour, multiply by humidity differential. For a 600 sq ft basement (7.5 ft ceiling = 4,500 cu ft):
 
 ```
 Air mass = 4,500 cu ft × 2 exchanges/hour = 9,000 cu ft/hour moved
@@ -208,14 +208,14 @@ Dehumidifiers extract moisture from air around them, requiring circulation:
 - Near lowest point: Moisture concentrates at floor level
 - Away from vents: Hot air from HVAC interferes with humidity sensors
 
-Optimal: Center-room placement on a platform that elevates it 2-3 feet. This positions the intake at typical moisture concentration height.
+Optimal - Center-room placement on a platform that elevates it 2-3 feet. This positions the intake at typical moisture concentration height.
 
 Drainage Planning
 Water must leave the unit continuously:
 
-Gravity drainage: Works if floor drain sits below dehumidifier. Hose diameter matters, 1-inch hose prevents clogs better than 3/4-inch. Elevate hose slightly between unit and drain to prevent siphoning (creates back-pressure that can damage compressor).
+Gravity drainage - Works if floor drain sits below dehumidifier. Hose diameter matters, 1-inch hose prevents clogs better than 3/4-inch. Elevate hose slightly between unit and drain to prevent siphoning (creates back-pressure that can damage compressor).
 
-Pump drainage: Required if no floor drain exists. Delivers water upward to sink or window. Check vertical lift capability:
+Pump drainage - Required if no floor drain exists. Delivers water upward to sink or window. Check vertical lift capability:
 
 - 10 feet vertical: Standard for most pump-assisted models
 - 15-20 feet: Heavy-duty pumps, more expensive
@@ -236,38 +236,38 @@ Seasonal Operation Strategy
 
 Dehumidifiers run differently throughout the year:
 
-Spring (March-May): 4-6 hours/day
+Spring (March-May) - 4-6 hours/day
 Increasing outdoor humidity and warming. Run evenings to remove accumulated moisture.
 
-Summer (June-August): 12-16 hours/day
+Summer (June-August) - 12-16 hours/day
 Peak humidity season. Many users run continuously or on timer during high-humidity periods (1-6 PM typically).
 
-Fall (September-November): 6-10 hours/day
+Fall (September-November) - 6-10 hours/day
 Decreasing humidity but still above comfort zone. Taper operation as outdoor humidity drops.
 
-Winter (December-February): 2-4 hours/day
+Winter (December-February) - 2-4 hours/day
 Heating runs, which typically dries air. Run only if mold or mustiness appears.
 
 This seasonal approach reduces annual electricity cost by 30-40% compared to year-round continuous operation.
 
 Troubleshooting Common Issues
 
-Issue: Dehumidifier collecting water but humidity stays high
+Issue - Dehumidifier collecting water but humidity stays high
 - Cause: Unit too small for space or not sized for current humidity level
 - Solution: Add second unit, or increase fan speed and continuous drain operation
 - Diagnostic: Measure humidity in three locations; if readings vary widely, airflow circulation is poor
 
-Issue: Water collecting in bucket despite drain hose connected
+Issue - Water collecting in bucket despite drain hose connected
 - Cause: Drain valve not fully opened, or check valve installed backwards
 - Solution: Verify valve handle is horizontal (open position), check valve arrow points toward drain
 - Diagnostic: Temporarily disconnect drain, water should flow freely
 
-Issue: Unit running but humidity unchanged
+Issue - Unit running but humidity unchanged
 - Cause: Air not circulating properly, or humidity sensor miscalibrated
 - Solution: Position unit in room center, try resetting humidistat, check room is sealed (doors closed)
 - Diagnostic: Compare internal humidistat reading to standalone hygrometer ($10-15)
 
-Issue: High energy consumption (running constantly)
+Issue - High energy consumption (running constantly)
 - Cause: Unit capacity insufficient for space, or room sealed poorly
 - Solution: Identify air leaks (basement should be mostly sealed; cold air intrusion adds moisture), consider upgrading to larger capacity
 - Diagnostic: Calculate expected run time based on pint capacity and moisture generation

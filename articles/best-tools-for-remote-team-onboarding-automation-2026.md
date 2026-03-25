@@ -26,9 +26,9 @@ Table of Contents
 - [Rippling for Remote Onboarding](#rippling-for-remote-onboarding)
 - [Process Street for Remote Onboarding](#process-street-for-remote-onboarding)
 - [Trainual for Remote Onboarding](#trainual-for-remote-onboarding)
-- [Real-World Comparison: Company Size](#real-world-comparison-company-size)
+- [Real-World Comparison - Company Size](#real-world-comparison-company-size)
 - [Implementation Checklist](#implementation-checklist)
-- [Cost Comparison: 100 Employees](#cost-comparison-100-employees)
+- [Cost Comparison - 100 Employees](#cost-comparison-100-employees)
 - [Onboarding Time Reduction](#onboarding-time-reduction)
 
 Onboarding automation platforms consolidate workflows: automated task assignment, document collection, policy acknowledgment, and integration with payroll, identity management, and communication tools. This reduces onboarding time from 2-3 weeks to 2-3 days.
@@ -68,7 +68,7 @@ BambooHR templates:
 Setup in BambooHR:
 
 ```
-Trigger: New employee created in BambooHR
+Trigger - New employee created in BambooHR
 → Send automated email: "Welcome to [Company]. Please acknowledge the handbook."
 → Add task to Onboarding Manager: "Provision Slack account"
 → Create calendar invite: "Team intro meeting" (Zapier integration)
@@ -76,7 +76,7 @@ Trigger: New employee created in BambooHR
 → Schedule follow-up: 30 days (auto-create task)
 ```
 
-Each trigger can branch: If role = "Engineer", send technical setup checklist. If location = "California", send state-specific tax forms.
+Each trigger can branch - If role = "Engineer", send technical setup checklist. If location = "California", send state-specific tax forms.
 
 Document Workflow
 
@@ -274,7 +274,7 @@ Create an onboarding checklist in Process Street:
 ```
 REMOTE ONBOARDING CHECKLIST - [EMPLOYEE NAME]
 
-WEEK 1: SETUP
+WEEK 1 - SETUP
  [Manager] Send welcome email with company info
  [IT] Create laptop + provision Slack/GitHub/AWS accounts
  [Employee] Complete tax forms (link: [form URL])
@@ -282,19 +282,19 @@ WEEK 1: SETUP
  [Manager] Schedule 1-on-1 intro meeting
  [Team Lead] Send team intro email
 
-WEEK 1: FIRST DAY
+WEEK 1 - FIRST DAY
  [Onboarding Buddy] Send Slack intro: "Welcome to the team!"
  [Manager] Conduct 30-minute onboarding overview
  [Engineer] Complete development environment setup guide
  [All] Attend company all-hands meeting (Zoom link)
 
-WEEK 2: TRAINING
+WEEK 2 - TRAINING
  [Trainer] Assign company handbook course (Trainual)
  [Trainer] Assign compliance training
  [Manager] Review role-specific workflows
  [Buddy] Check in: "Any blockers?"
 
-WEEK 4: 30-DAY REVIEW
+WEEK 4 - 30-DAY REVIEW
  [Manager] 1-on-1 review conversation
  [Employee] Submit feedback: "How was onboarding?"
  [HR] Update employment status: Probation complete
@@ -404,7 +404,7 @@ Company Onboarding
      GitHub workflow
      Meeting tools (Zoom, Calendar)
 
-Role: Engineer
+Role - Engineer
  Development environment setup
     Clone repos, install dependencies, deploy to staging
  Engineering workflow
@@ -427,11 +427,11 @@ Weaknesses
 - Limited integrations: Works with major platforms but not as deep as Rippling
 - No payroll/HR sync: Standalone training tool
 
-Real-World Comparison: Company Size
+Real-World Comparison - Company Size
 
 Startup (10-50 people)
 
-Best tool: Process Street
+Best tool - Process Street
 
 - Setup: $0 (costs pennies per month)
 - Simplicity: Founder/HR person can build workflows
@@ -444,11 +444,11 @@ New hire → Google Form for tax info → Process Street checklist
 → Manual email: "Send laptop order" → Check back: "Setup complete"
 ```
 
-Cost: ~$15-20/month for a couple of workflows.
+Cost - ~$15-20/month for a couple of workflows.
 
 Mid-market (100-500 people)
 
-Best tool: BambooHR
+Best tool - BambooHR
 
 - Integrates HR + payroll + onboarding
 - Conditional workflows for different roles
@@ -463,7 +463,7 @@ New hire in BambooHR → Auto-send tax forms → Sync to payroll
 
 Enterprise (500+ people)
 
-Best tool: Rippling
+Best tool - Rippling
 
 - Unified platform: HR + payroll + IT + devices
 - Auto-provision laptops, accounts, identity
@@ -510,9 +510,9 @@ Rippling (Complex, 2-3 months)
 - [ ] Pilot with 10-20 hires
 - [ ] Roll out company-wide
 
-Cost Comparison: 100 Employees
+Cost Comparison - 100 Employees
 
-Scenario: Adding onboarding automation to existing setup.
+Scenario - Adding onboarding automation to existing setup.
 
 | Tool | Setup | Monthly | Annual | Effort |
 |------|-------|---------|--------|--------|
@@ -531,7 +531,7 @@ Expected time savings with automation:
 - BambooHR: 2-3 days (integrated workflows, auto-sync to payroll)
 - Rippling: 1-2 days (everything pre-provisioned on day 0)
 
-For 50 hires/year: Rippling saves 100+ hours of IT + HR time annually. At $50/hr cost per employee, that's $5,000 in labor savings, paying for the platform.
+For 50 hires/year - Rippling saves 100+ hours of IT + HR time annually. At $50/hr cost per employee, that's $5,000 in labor savings, paying for the platform.
 
 Frequently Asked Questions
 
@@ -541,7 +541,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -553,7 +553,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

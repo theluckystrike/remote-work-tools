@@ -25,7 +25,7 @@ Table of Contents
 - [Mobile Router Options for Power Users](#mobile-router-options-for-power-users)
 - [Setting Up Reliable Connectivity](#setting-up-reliable-connectivity)
 - [Practical Considerations for European Travel](#practical-considerations-for-european-travel)
-- [Device Comparison: Complete Decision Matrix](#device-comparison-complete-decision-matrix)
+- [Device Comparison - Complete Decision Matrix](#device-comparison-complete-decision-matrix)
 - [Carrier Selection Strategy for Europe](#carrier-selection-strategy-for-europe)
 - [Connectivity Troubleshooting Framework](#connectivity-troubleshooting-framework)
 - [Real-World Usage Patterns](#real-world-usage-patterns)
@@ -83,7 +83,7 @@ Setting Up Reliable Connectivity
 
 Beyond hardware selection, your configuration strategy determines actual reliability. Implement a multi-layered approach:
 
-Primary: Local Carrier SIM
+Primary - Local Carrier SIM
 
 Purchase a SIM from your first destination country. Italian carriers like TIM or Vodafone generally offer better rates than roaming packages. A typical 30GB monthly plan costs €15-25 and provides sufficient data for development work plus moderate video calls.
 
@@ -107,7 +107,7 @@ else
 fi
 ```
 
-Backup: eSIM Data Plans
+Backup - eSIM Data Plans
 
 Install an eSIM as failover. Services like Airalo or Holafly provide European regional plans with 10-20GB of data. Many modern laptops and tablets support eSIM directly, eliminating the need for additional hardware.
 
@@ -119,7 +119,7 @@ For USB cellular modems, check connection manager
 nmcli device status | grep -i cellular
 ```
 
-Tertiary: Public WiFi with VPN
+Tertiary - Public WiFi with VPN
 
 Always route public WiFi through a VPN service. Your portable hotspot should support VPN passthrough or run VPN software on connected devices. WireGuard provides excellent performance with minimal overhead.
 
@@ -156,7 +156,7 @@ Physical Security
 
 Portable hotspots store your network credentials. Enable WPA3 encryption, change default admin passwords, and avoid configuring devices in public spaces where shoulder surfing could compromise your settings.
 
-Device Comparison: Complete Decision Matrix
+Device Comparison - Complete Decision Matrix
 
 Entry-Level Options ($50-150)
 | Device | Price | Best For | Drawbacks |
@@ -165,7 +165,7 @@ Entry-Level Options ($50-150)
 | Netgear AirCard 810S | $120-150 | Casual usage | Older technology, slower speeds |
 | Huawei E8372 | $100-120 | Europe-specific | Limited support, firmware concerns |
 
-Recommendation for budget: Skip this tier if you work remotely. The $50-100 you save becomes a problem when connectivity fails during client calls.
+Recommendation for budget - Skip this tier if you work remotely. The $50-100 you save becomes a problem when connectivity fails during client calls.
 
 Mid-Range Professional ($150-350)
 | Device | Price | 4G/5G | Battery | Antennas | Best For |
@@ -239,7 +239,7 @@ Typical setup:
 - Secondary: Airalo eSIM (smooth EU roaming fallback)
 - Tertiary: Holafly eSIM (premium option, activate if primary fails)
 
-Cost for complete redundancy: ~€40/month
+Cost for complete redundancy - ~€40/month
 
 Connectivity Troubleshooting Framework
 
@@ -286,22 +286,22 @@ Usually works within 30 seconds of activation
 
 Real-World Usage Patterns
 
-Scenario 1: City-Based Work (Berlin, Barcelona, Amsterdam)
-Setup: Local carrier SIM + Airalo eSIM backup
-Expected performance: 30-50 Mbps download, <50ms latency
-Cost: €20-25/month
+Scenario 1 - City-Based Work (Berlin, Barcelona, Amsterdam)
+Setup - Local carrier SIM + Airalo eSIM backup
+Expected performance - 30-50 Mbps download, <50ms latency
+Cost - €20-25/month
 Reliable, minimal backup activation needed
 
-Scenario 2: Digital Nomad (Multiple cities, 2 weeks each)
-Setup: Local SIM in each location, Holafly premium eSIM
-Expected performance: 20-40 Mbps download, varies by location
-Cost: €35-50/month
+Scenario 2 - Digital Nomad (Multiple cities, 2 weeks each)
+Setup - Local SIM in each location, Holafly premium eSIM
+Expected performance - 20-40 Mbps download, varies by location
+Cost - €35-50/month
 Maximizes local network advantages
 
-Scenario 3: Rural/Remote Work (Countryside, smaller towns)
-Setup: GL.iNet router with dual SIM support + external antenna
-Expected performance: 5-15 Mbps, more stable than phone
-Cost: €30-40/month + equipment
+Scenario 3 - Rural/Remote Work (Countryside, smaller towns)
+Setup - GL.iNet router with dual SIM support + external antenna
+Expected performance - 5-15 Mbps, more stable than phone
+Cost - €30-40/month + equipment
 External antenna critical for signal strength
 
 Testing Your Setup Before Relying on It
@@ -314,27 +314,27 @@ Connectivity validation before production use
 
 echo "=== Portable WiFi Validation Suite ==="
 
-Test 1: Download performance
+Test 1 - Download performance
 echo "Test 1: Download speed"
 speedtest-cli --simple
 
-Test 2: Upload performance (critical for video calls)
+Test 2 - Upload performance (critical for video calls)
 speedtest-cli --upload-only
 
-Test 3: Latency consistency
+Test 3 - Latency consistency
 echo "Test 3: Latency stability (ping 100 times)"
 ping -c 100 8.8.8.8 | tail -1
 
-Test 4: Video call simulation
+Test 4 - Video call simulation
 Open Zoom/Teams, run 10-min test call
-Check: no disconnects, clear audio, stable video
+Check - no disconnects, clear audio, stable video
 
-Test 5: Large file transfer
+Test 5 - Large file transfer
 Transfer 500MB file over WiFi
-Measure: transfer speed, interruptions
+Measure - transfer speed, interruptions
 
-Test 6: DNS resolution
-echo "Test 6: DNS resolution speed"
+Test 6 - DNS resolution
+echo "Test 6 - DNS resolution speed"
 nslookup google.com
 nslookup github.com
 nslookup cloudflare.com

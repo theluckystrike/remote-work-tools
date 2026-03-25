@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand the Approval Pipeline
+Step 1 - Understand the Approval Pipeline
 
 Before building your workflow, map out the decision points in your expense approval process. Most organizations have several stages:
 
@@ -41,7 +41,7 @@ Before building your workflow, map out the decision points in your expense appro
 
 For remote teams, each stage needs clear ownership, response time expectations, and automated handoffs. Without these elements, expenses stall in inboxes and Slack mentions get lost.
 
-Step 2: Designing Your Workflow Structure
+Step 2 - Designing Your Workflow Structure
 
 Create a status-based workflow that tracks each expense report through its lifecycle. Here's a practical schema:
 
@@ -69,7 +69,7 @@ type ExpenseStatus =
 
 This structure lets you build automations around status transitions. When an expense moves to `pending_manager`, the system automatically notifies the appropriate approver and sets an expected response deadline.
 
-Step 3: Implementing Automated Notifications
+Step 3 - Implementing Automated Notifications
 
 The key to keeping async workflows moving is timely notifications. Set up triggers that alert approvers when action is needed:
 
@@ -87,9 +87,9 @@ function notifyApprover(expenseReport) {
         text: {
           type: "mrkdwn",
           text: `*Expense Report Review Required*\n\n` +
-                `Employee: ${expenseReport.employeeName}\n` +
-                `Amount: $${expenseReport.amount.toFixed(2)}\n` +
-                `Category: ${expenseReport.category}\n\n` +
+                `Employee - ${expenseReport.employeeName}\n` +
+                `Amount - $${expenseReport.amount.toFixed(2)}\n` +
+                `Category - ${expenseReport.category}\n\n` +
                 `<${expenseReport.url}|Review in Finance Portal>`
         }
       },
@@ -120,7 +120,7 @@ function notifyApprover(expenseReport) {
 
 This integration sends a rich message with approve/reject buttons directly to the approver. They can act without leaving their communication tool.
 
-Step 4: Setting Clear Response Time Expectations
+Step 4 - Setting Clear Response Time Expectations
 
 Async workflows only work when everyone understands expectations. Define explicit SLAs for each stage:
 
@@ -151,7 +151,7 @@ function checkApprovalTimeouts() {
 
 Run this check hourly via a scheduled job. When someone misses their SLA, the system escalates to their manager or a backup approver.
 
-Step 5: Build Policy Enforcement
+Step 5 - Build Policy Enforcement
 
 Expense policies exist to ensure compliance, but manually checking every expense is tedious. Build policy rules into your workflow:
 
@@ -187,16 +187,16 @@ function validateExpense(expense) {
 
 Run validation when an expense is submitted. If violations exist, reject it immediately with clear feedback rather than letting it progress through the approval pipeline.
 
-Step 6: Create Approval Templates
+Step 6 - Create Approval Templates
 
 Standardize your approval requests to help reviewers work efficiently. When employees submit expenses with consistent formatting, approvers can scan reports quickly:
 
 ```markdown
-Step 7: Expense Report #{{id}}
+Step 7 - Expense Report #{{id}}
 
-Employee: {{employee_name}}
-Date: {{submission_date}}
-Total Amount: ${{total_amount}}
+Employee - {{employee_name}}
+Date - {{submission_date}}
+Total Amount - ${{total_amount}}
 
 Expenses
 
@@ -208,12 +208,12 @@ Attachments
 - [Receipt.pdf]({{receipt_url}})
 - [Additional Documentation]({{docs_url}})
 
-Policy Compliance: {{compliance_status}}
+Policy Compliance - {{compliance_status}}
 ```
 
 Provide this template through your expense submission form so employees know what information approvers need.
 
-Step 8: Handling Rejections and Appeals
+Step 8 - Handling Rejections and Appeals
 
 Rejections frustrate employees, especially when feedback is vague. Structure rejection responses:
 
@@ -241,7 +241,7 @@ function rejectExpense(expense, approver, reason) {
 
 When approvers select from standardized rejection reasons, the system provides policy context automatically. Employees understand what went wrong and how to fix it.
 
-Step 9: Measuring Workflow Performance
+Step 9 - Measuring Workflow Performance
 
 Track metrics to continuously improve your process:
 

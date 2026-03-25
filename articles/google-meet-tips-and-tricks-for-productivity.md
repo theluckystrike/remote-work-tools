@@ -28,7 +28,7 @@ Table of Contents
 - [Presentation Optimization](#presentation-optimization)
 - [Recording Workflows](#recording-workflows)
 - [Meeting Etiquette for Developers](#meeting-etiquette-for-developers)
-- [Advanced: Building a Meet Dashboard](#advanced-building-a-meet-dashboard)
+- [Advanced - Building a Meet Dashboard](#advanced-building-a-meet-dashboard)
 - [Managing Meeting Load for Distributed Teams](#managing-meeting-load-for-distributed-teams)
 - [Google Meet vs. Competing Tools for Developer Teams](#google-meet-vs-competing-tools-for-developer-teams)
 - [Reducing Meeting Fatigue with Meet Settings](#reducing-meeting-fatigue-with-meet-settings)
@@ -215,7 +215,7 @@ Apply these practices for more productive meetings:
 - Post relevant links in chat rather than trying to verbally share URLs
 - Always record when possible for team members in different time zones
 
-Advanced: Building a Meet Dashboard
+Advanced - Building a Meet Dashboard
 
 Create a personal dashboard combining calendar events with Meet links:
 
@@ -261,7 +261,7 @@ Understanding where Meet excels helps you route the right meetings to the right 
 | Pair programming | Good | Good | Good |
 | Large webinar (500+) | Good (with Workspace) | Excellent | Not supported |
 
-Meet's native integration with Google Workspace. Docs, Sheets, Calendar, and Drive. makes it the lowest-friction choice for teams already in that ecosystem. The ability to open a shared Doc in a side panel during a meeting without switching windows is a genuine productivity advantage for collaborative editing sessions.
+Meet's native integration with Google Workspace. Docs, Sheets, Calendar, and Drive. makes it the lowest-friction choice for teams already in that environment. The ability to open a shared Doc in a side panel during a meeting without switching windows is a genuine productivity advantage for collaborative editing sessions.
 
 Reducing Meeting Fatigue with Meet Settings
 

@@ -22,7 +22,7 @@ Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
-- [Advanced: Using Storytelling to Engage Clients](#advanced-using-storytelling-to-engage-clients)
+- [Advanced - Using Storytelling to Engage Clients](#advanced-using-storytelling-to-engage-clients)
 - [Troubleshooting](#troubleshooting)
 
 This guide provides practical strategies for delivering effective sprint demos that keep clients engaged, build trust, and demonstrate real progress.
@@ -37,7 +37,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Your Audience
+Step 1 - Understand Your Audience
 
 Non-technical clients care about business outcomes, not implementation details. They want to see their money producing results that solve their problems. Before any demo, answer these questions:
 
@@ -47,7 +47,7 @@ Non-technical clients care about business outcomes, not implementation details. 
 
 A client running an e-commerce business cares about checkout flow improvements, not the refactored API endpoints that enable them. Translate every feature into business value.
 
-Step 2: Structuring Your Demo
+Step 2 - Structuring Your Demo
 
 A well-structured demo follows a clear narrative arc. Use this framework for each sprint presentation:
 
@@ -65,11 +65,11 @@ This 2-minute opening grounds the client and sets expectations for what they'll 
 
 For each feature, follow the pattern: Show → Explain → Benefit.
 
-Show: Navigate to the feature in your application. Use cursor highlighting to draw attention to interactive elements.
+Show - Navigate to the feature in your application. Use cursor highlighting to draw attention to interactive elements.
 
-Explain: Describe what happened in plain language. Avoid jargon.
+Explain - Describe what happened in plain language. Avoid jargon.
 
-Benefit: Connect the feature to business value immediately.
+Benefit - Connect the feature to business value immediately.
 
 Here's a practical example of narrating a new feature:
 
@@ -108,17 +108,17 @@ End with open-ended questions:
 
 This turns the demo into a conversation rather than an one-way presentation.
 
-Step 3: Handling Technical Questions
+Step 3 - Handling Technical Questions
 
 Clients occasionally ask technical questions. When they do, bridge back to business value:
 
-Client: "What database are you using for the new feature?"
+Client - "What database are you using for the new feature?"
 
-You: "We're using PostgreSQL, which is highly reliable and keeps your customer data secure. It also scales well as your business grows, so you won't experience slowdowns during peak seasons."
+You - "We're using PostgreSQL, which is highly reliable and keeps your customer data secure. It also scales well as your business grows, so you won't experience slowdowns during peak seasons."
 
 This satisfies their curiosity while reinforcing trust in your technical decisions.
 
-Step 4: Practical Demo Preparation Checklist
+Step 4 - Practical Demo Preparation Checklist
 
 Before each demo, verify these items:
 
@@ -137,31 +137,31 @@ Useful for creating demo recordings to share after calls
 
 Common Mistakes to Avoid
 
-Mistake 1: Diving straight into code or technical architecture
-Solution: Always start with business context and outcomes
+Mistake 1 - Diving straight into code or technical architecture
+Solution - Always start with business context and outcomes
 
-Mistake 2: Showing every single story completed
-Solution: Curate. Show the 3-5 most important items that demonstrate clear progress
+Mistake 2 - Showing every single story completed
+Solution - Curate. Show the 3-5 most important items that demonstrate clear progress
 
-Mistake 3: Using technical jargon without explanation
-Solution: Maintain a glossary of terms the client understands. When in doubt, simplify
+Mistake 3 - Using technical jargon without explanation
+Solution - Maintain a glossary of terms the client understands. When in doubt, simplify
 
-Mistake 4: Ignoring the human element
-Solution: Begin and end with genuine conversation. Ask about their week, share updates about the project team, build relationship
+Mistake 4 - Ignoring the human element
+Solution - Begin and end with genuine conversation. Ask about their week, share updates about the project team, build relationship
 
-Step 5: Making Remote Demos Engaging
+Step 5 - Making Remote Demos Engaging
 
 Remote presentations require extra effort to maintain engagement. Consider these techniques:
 
-Use annotation tools: Most screen sharing software allows you to draw on screen. Circle important elements to guide client attention.
+Use annotation tools - Most screen sharing software allows you to draw on screen. Circle important elements to guide client attention.
 
-Share your camera briefly: A 30-second video check-in at the start humanizes the interaction and builds rapport.
+Share your camera briefly - A 30-second video check-in at the start humanizes the interaction and builds rapport.
 
-Create a shared document: Use a Google Doc or Notion page where clients can add questions during the demo. This prevents interruptions and ensures nothing gets forgotten.
+Create a shared document - Use a Google Doc or Notion page where clients can add questions during the demo. This prevents interruptions and ensures nothing gets forgotten.
 
-Send a pre-demo agenda: Give clients 24 hours notice about what you'll cover. This lets them prepare their own questions and concerns.
+Send a pre-demo agenda - Give clients 24 hours notice about what you'll cover. This lets them prepare their own questions and concerns.
 
-Advanced: Using Storytelling to Engage Clients
+Advanced - Using Storytelling to Engage Clients
 
 Beyond straightforward feature demonstration, compelling storytelling makes demos memorable and builds emotional investment in the work.
 
@@ -169,11 +169,11 @@ The Problem-Solution-Impact Framework
 
 Structure each demo feature using this narrative arc:
 
-Problem (30 seconds): "Your current checkout flow requires customers to enter payment information twice, once for billing and once for shipping. This creates confusion."
+Problem (30 seconds) - "Your current checkout flow requires customers to enter payment information twice, once for billing and once for shipping. This creates confusion."
 
-Solution (45 seconds): "We've unified the checkout to capture all information in a single form. Customers now see where they are in the process and can review everything before confirming."
+Solution (45 seconds) - "We've unified the checkout to capture all information in a single form. Customers now see where they are in the process and can review everything before confirming."
 
-Impact (30 seconds): "In our test, this reduces checkout abandonment by 8% and decreases support emails about payment confusion by 40%. For your store, that means an extra $2,000 in monthly revenue and fewer customer support requests."
+Impact (30 seconds) - "In our test, this reduces checkout abandonment by 8% and decreases support emails about payment confusion by 40%. For your store, that means an extra $2,000 in monthly revenue and fewer customer support requests."
 
 This framework converts feature announcements into compelling business stories.
 
@@ -181,33 +181,33 @@ Using Analogies to Simplify Complexity
 
 When features involve technical changes, explain using analogies:
 
-Instead of: "We've optimized the database query and implemented Redis caching."
+Instead of - "We've optimized the database query and implemented Redis caching."
 
-Say: "We improved how quickly the product list loads. Think of it like reorganizing a library so staff can find books in 2 seconds instead of 10 seconds. Customers spend less time waiting and more time browsing."
+Say - "We improved how quickly the product list loads. Think of it like reorganizing a library so staff can find books in 2 seconds instead of 10 seconds. Customers spend less time waiting and more time browsing."
 
 Your client doesn't need to understand caching; they need to understand the customer benefit.
 
-Step 6: Handling Difficult Client Questions
+Step 6 - Handling Difficult Client Questions
 
 Some questions reveal deeper concerns beneath the surface. Address the underlying worry:
 
-Client asks: "Why did that feature take 3 weeks when the other feature only took 1 week?"
+Client asks - "Why did that feature take 3 weeks when the other feature only took 1 week?"
 
-Surface answer: "This feature had more integration points with existing systems."
+Surface answer - "This feature had more integration points with existing systems."
 
-Better answer: "The previous feature was straightforward API integration. This feature required changes to our data model and affected three existing systems, so we needed extra testing to ensure we didn't break anything. That's why it took longer."
+Better answer - "The previous feature was straightforward API integration. This feature required changes to our data model and affected three existing systems, so we needed extra testing to ensure we didn't break anything. That's why it took longer."
 
 This answer educates the client and prevents the perception that your team is inefficient.
 
-Client asks: "Can't we just add real-time notifications like Slack has?"
+Client asks - "Can't we just add real-time notifications like Slack has?"
 
-Surface answer: "It's more complex than it sounds, we'd need WebSocket connections and a notification queue."
+Surface answer - "It's more complex than it sounds, we'd need WebSocket connections and a notification queue."
 
-Better answer: "Real-time notifications are powerful, but they require more infrastructure complexity. Given your current user base, scheduled notifications with webhook integrations give you 90% of the benefit with half the complexity. We can always add real-time later if the demand justifies it."
+Better answer - "Real-time notifications are powerful, but they require more infrastructure complexity. Given your current user base, scheduled notifications with webhook integrations give you 90% of the benefit with half the complexity. We can always add real-time later if the demand justifies it."
 
 This shows strategic thinking and prevents scope creep from misunderstandings.
 
-Step 7: Demo Preparation Beyond Slides
+Step 7 - Demo Preparation Beyond Slides
 
 Brilliant slides matter less than a well-rehearsed demo.
 
@@ -238,7 +238,7 @@ echo ""
 echo "DO NOT PRESENT UNTIL ALL ITEMS CHECKED"
 ```
 
-Step 8: Manage Client Expectations Between Demos
+Step 8 - Manage Client Expectations Between Demos
 
 Demos shouldn't be first time clients hear about progress. Maintain visibility throughout the sprint:
 
@@ -255,7 +255,7 @@ Quick progress update on Sprint 12. We've completed:
  Payment provider integration (testing now)
  Email notification system (50% complete)
 
-Next: We'll finish testing checkout flow tomorrow and have it ready for demo Friday.
+Next - We'll finish testing checkout flow tomorrow and have it ready for demo Friday.
 
 Any questions?
 - [Your name]
@@ -267,13 +267,13 @@ Handling Scope Creep During Demos
 
 Clients often request new features during demos. Don't commit immediately:
 
-Client: "Can you add gift card support to the checkout?"
+Client - "Can you add gift card support to the checkout?"
 
-You: "That's a great idea. Gift cards would absolutely add value. Let me add it to our backlog and we'll evaluate it alongside other features. I'll send you an estimate Friday for how much scope it adds."
+You - "That's a great idea. Gift cards would absolutely add value. Let me add it to our backlog and we'll evaluate it alongside other features. I'll send you an estimate Friday for how much scope it adds."
 
 This approach prevents overcommitting and shows you take requests seriously without derailing your planning.
 
-Step 9: Following Up After the Demo
+Step 9 - Following Up After the Demo
 
 The demo doesn't end when the call disconnects. Send a follow-up email within 24 hours containing:
 

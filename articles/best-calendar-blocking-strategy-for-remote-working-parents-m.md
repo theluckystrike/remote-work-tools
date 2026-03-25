@@ -40,7 +40,7 @@ The Asymmetric Blocking Framework
 
 Instead of blocking time you hope to keep free, this strategy uses asymmetric blocking, creating small, frequent protected blocks throughout your day rather than large contiguous blocks that become targets for disruption.
 
-Step 1: Map Your Fixed Commitments
+Step 1 - Map Your Fixed Commitments
 
 Start by identifying your non-negotiable commitments:
 
@@ -55,7 +55,7 @@ Fixed Commitments Example:
 
 These anchors define your workday boundaries. Everything in between is flexible territory.
 
-Step 2: Create Micro-Protection Blocks
+Step 2 - Create Micro-Protection Blocks
 
 Rather than blocking four hours for deep work, split your available time into 90-minute blocks with 15-minute buffers:
 
@@ -71,7 +71,7 @@ Morning Protection Pattern:
 
 This pattern provides three protected deep work opportunities in a morning, with built-in flexibility. If a childcare situation arises during the buffer, you lose 15 minutes rather than three hours.
 
-Step 3: Implement the "Gaps" Calendar
+Step 3 - Implement the "Gaps" Calendar
 
 Create a secondary calendar specifically for childcare gaps. This is not for blocking time, it is for making gaps visible to your team and yourself.
 

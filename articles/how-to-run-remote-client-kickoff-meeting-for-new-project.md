@@ -38,15 +38,15 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Attendees
+Step 1 - Attendees
 - [Name, Role, Company]
 
-Step 2: Decisions Made
+Step 2 - Decisions Made
 1.
 - Use a simple in-scope vs.
-- Team Attendees: Who from your team should attend? We recommend stakeholders from [relevant departments].
+- Team Attendees - Who from your team should attend? We recommend stakeholders from [relevant departments].
 
-Step 3: Pre-Meeting Preparation
+Step 3 - Pre-Meeting Preparation
 
 Success starts before the meeting begins. Send a preparation agenda at least 48 hours in advance so clients can gather their stakeholders and think through their answers.
 
@@ -63,7 +63,7 @@ Structure your agenda around these sections:
 6. Q&A and Next Steps (20 min)
 ```
 
-Total runtime: 90 minutes. This gives enough time for substantive discussion without dragging into Zoom fatigue territory.
+Total runtime - 90 minutes. This gives enough time for substantive discussion without dragging into Zoom fatigue territory.
 
 Request Pre-Work from the Client
 
@@ -77,7 +77,7 @@ Ask the client to provide these items before the meeting:
 
 When clients prepare in advance, the kickoff meeting becomes a collaboration rather than an interrogation.
 
-Step 4: Run the Meeting
+Step 4 - Run the Meeting
 
 Start with Clear Housekeeping
 
@@ -118,7 +118,7 @@ Out of Scope (explicitly excluded):
 
 Document these boundaries in your project charter. Clients appreciate clarity, and explicit out-of-scope statements prevent scope creep.
 
-Step 5: Technical Considerations for Developer Teams
+Step 5 - Technical Considerations for Developer Teams
 
 When your team builds software, the kickoff meeting needs technical depth.
 
@@ -158,7 +158,7 @@ Discuss access requirements early:
 
 Delaying these conversations creates friction later.
 
-Step 6: Follow-Up Documentation
+Step 6 - Follow-Up Documentation
 
 Within 24 hours of the meeting, send a summary document containing:
 
@@ -170,7 +170,7 @@ Within 24 hours of the meeting, send a summary document containing:
 
 This document serves as the project's founding artifact. Reference it when disputes arise.
 
-Step 7: Tools That Support Remote Kickoffs
+Step 7 - Tools That Support Remote Kickoffs
 
 For developer-focused teams, these tools improve kickoff processes:
 
@@ -181,12 +181,12 @@ For developer-focused teams, these tools improve kickoff processes:
 
 Choose tools your team already uses. Adding new tools just for kickoffs creates friction.
 
-Step 8: Pre-Kickoff Communication Template
+Step 8 - Pre-Kickoff Communication Template
 
 Send this 48-72 hours before your kickoff meeting:
 
 ```email
-Subject: Kickoff Meeting Prep - [Project Name]
+Subject - Kickoff Meeting Prep - [Project Name]
 
 Hi [Client Contact],
 
@@ -194,17 +194,17 @@ Looking forward to our kickoff meeting on [Date] at [Time]. To make the best use
 
 Please send replies by [deadline]:
 
-1. Team Attendees: Who from your team should attend? We recommend stakeholders from [relevant departments]. We'll have [your team composition].
+1. Team Attendees - Who from your team should attend? We recommend stakeholders from [relevant departments]. We'll have [your team composition].
 
-2. Business Context: What's the primary business problem this project solves? What does success look like at 30 days, 60 days, and 90 days?
+2. Business Context - What's the primary business problem this project solves? What does success look like at 30 days, 60 days, and 90 days?
 
-3. Documentation: Any existing documentation, wireframes, competitive analysis, or reference projects you'd like to share?
+3. Documentation - Any existing documentation, wireframes, competitive analysis, or reference projects you'd like to share?
 
-4. Technical Constraints: Any systems we need to integrate with? API documentation? Hosted on your infrastructure or ours?
+4. Technical Constraints - Any systems we need to integrate with? API documentation? Hosted on your infrastructure or ours?
 
-5. Timeline Expectations: Do you have a hard deadline, or is this flexible based on scope?
+5. Timeline Expectations - Do you have a hard deadline, or is this flexible based on scope?
 
-6. Communication Preference: How often would you like status updates? Any preferred channels (email, Slack, weekly calls)?
+6. Communication Preference - How often would you like status updates? Any preferred channels (email, Slack, weekly calls)?
 
 These details will let us hit the ground running during our meeting.
 
@@ -214,7 +214,7 @@ Best,
 [Your Name]
 ```
 
-Step 9: During-Kickoff Meeting Mechanics
+Step 9 - During-Kickoff Meeting Mechanics
 
 Run the meeting like an interview, not a presentation. Your questions should drive 70% of the talking:
 
@@ -242,7 +242,7 @@ QUESTIONS TO ASK (in order):
 
 Document answers in a shared Google Doc during the call. Clients see you're capturing their words, which builds confidence.
 
-Step 10: Technical Discovery Checklist
+Step 10 - Technical Discovery Checklist
 
 For software projects, use this technical question checklist:
 
@@ -278,57 +278,57 @@ Support & Maintenance
 
 Assign a team member to own each section and come prepared to discuss.
 
-Step 11: Post-Kickoff Documentation Template
+Step 11 - Post-Kickoff Documentation Template
 
 Within 4 hours of your meeting, send this summary:
 
 ```markdown
-Project Charter: [Project Name]
+Project Charter - [Project Name]
 
 Kickoff Summary
-Date: 2026-03-16
-Attendees: [List attendees]
-Duration: 90 minutes
+Date - 2026-03-16
+Attendees - [List attendees]
+Duration - 90 minutes
 
-Step 12: What We're Building
+Step 12 - What We're Building
 [One paragraph summary of the project]
 
-Step 13: Success Criteria (how we'll measure if this worked)
+Step 13 - Success Criteria (how we'll measure if this worked)
 - 30 days: [Measurable outcome]
 - 60 days: [Measurable outcome]
 - 90 days: [Measurable outcome]
 
-Step 14: In Scope (confirmed for this project)
+Step 14 - In Scope (confirmed for this project)
 - Feature 1
 - Integration with system X
 - Support on platforms: iOS, Android, Web
 - Training for 5 power users
 
-Step 15: Out of Scope (explicitly NOT included)
+Step 15 - Out of Scope (explicitly NOT included)
 - Maintenance after delivery (if applicable)
 - Mobile app optimization for tablets
 - Integration with legacy system Y
 - Custom reporting dashboard
 
-Step 16: Timeline
+Step 16 - Timeline
 | Milestone | Deliverable | Target Date |
 |-----------|-------------|------------|
 | Phase 1 | Functional prototype | March 30 |
 | Phase 2 | Beta release to 10 users | April 15 |
 | Phase 3 | Full production launch | May 1 |
 
-Step 17: Communication Cadence
+Step 17 - Communication Cadence
 - Daily async: Slack #project-channel
 - Weekly sync: Tuesdays 2 PM PT, 30 minutes
 - Blockers: Page on-call immediately
 - Status reports: Friday EOD email
 
-Step 18: Key Contacts
+Step 18 - Key Contacts
 - Client project lead: [Name, email, timezone]
 - Your project lead: [Name, email, timezone]
 - Escalation contact (both sides): [Names]
 
-Step 19: Action Items (due [date])
+Step 19 - Action Items (due [date])
 | Owner | Action | Due |
 |-------|--------|-----|
 | Client | Provide API documentation | March 17 |
@@ -344,7 +344,7 @@ Next Steps
 
 Send this to the client and have them sign off (electronically, via email reply is fine). This document becomes your reference point when scope questions arise, and they will.
 
-Step 20: Tool Choices for Kickoff Execution
+Step 20 - Tool Choices for Kickoff Execution
 
 For live documentation during the call:
 - Google Doc (easiest, real-time collaboration, both can edit)
@@ -361,7 +361,7 @@ For timeline tracking:
 - GitHub Projects (free if using GitHub)
 - Asana or Monday (best if client prefers visual project management)
 
-Step 21: Common Pitfalls to Avoid
+Step 21 - Common Pitfalls to Avoid
 
 Talking Too Much
 
@@ -379,7 +379,7 @@ Over-Committing on Timeline
 
 Enthusiasm during kickoffs often leads to aggressive timelines. Build in buffer, if you estimate 4 weeks, estimate 5 and plan for Phase 2 after Phase 1. Delivering early builds trust; delivering late damages it.
 
-Step 22: Manage Time Zones in Remote Kickoffs
+Step 22 - Manage Time Zones in Remote Kickoffs
 
 When your team and client span multiple time zones, the kickoff meeting scheduling decision itself sets a tone. Consistently scheduling meetings in time slots that favor one party's business hours signals whose convenience matters. Rotate the inconvenience. if the first kickoff requires your team to join early, the next major milestone call should accommodate the client's inconvenient window.
 
@@ -387,7 +387,7 @@ Use a world clock tool in the meeting invite so all attendees can see the local 
 
 For fully distributed teams where no single meeting time works for everyone, consider splitting the kickoff into two sessions: a synchronous 60-minute core session for the decision-makers who must align, and a recorded async supplement where team members who couldn't attend watch the recording and add their questions via a shared document within 24 hours. The project manager synthesizes async questions and sends a single consolidated reply rather than letting threads fragment.
 
-Step 23: Documenting Decisions During the Meeting
+Step 23 - Documenting Decisions During the Meeting
 
 The person running the kickoff should not also be the primary note-taker. Split the roles. The facilitator drives the agenda, asks follow-up questions, and keeps discussion on track. A dedicated note-taker captures decisions, action items, and open questions in real time using a shared document that all attendees can see.
 
@@ -396,29 +396,29 @@ A minimal live document structure that works for most kickoffs:
 ```
 [Project Name] Kickoff Notes. [Date]
 
-Step 24: Attendees
+Step 24 - Attendees
 - [Name, Role, Company]
 
-Step 25: Decisions Made
+Step 25 - Decisions Made
 1. [Decision]
 2. [Decision]
 
-Step 26: Action Items
+Step 26 - Action Items
 | Owner | Task | Due Date |
 |-------|------|----------|
 | Client | Share API credentials | [Date] |
 | Your Team | Deliver timeline draft | [Date] |
 
-Step 27: Open Questions
+Step 27 - Open Questions
 - [Question needing follow-up]
 
-Step 28: Out of Scope (explicit)
+Step 28 - Out of Scope (explicit)
 - [Item]
 ```
 
 Sharing the screen showing this document during the meeting creates accountability in real time. When a client sees their action item written down with their name and a due date while they're still on the call, they're more likely to complete it.
 
-Step 29: Handling Difficult Stakeholder Dynamics
+Step 29 - Handling Difficult Stakeholder Dynamics
 
 Remote kickoffs amplify certain interpersonal dynamics. In person, body language and room energy help a facilitator read when a stakeholder is confused or disagrees but stays quiet. On video, those signals are harder to read.
 
@@ -426,7 +426,7 @@ Build explicit check-ins into the agenda rather than relying on organic particip
 
 When client-side stakeholders disagree with each other during the kickoff, do not attempt to mediate or take a side. Document both positions and note that alignment is needed before the team can proceed. Following up privately after the meeting. "I noticed there were different perspectives on the launch timeline. Once your team aligns internally, let us know so we can finalize the milestone plan". keeps the project moving without putting yourself in the middle of an internal client politics situation.
 
-Step 30: Post-Kickoff: Setting the Communication Rhythm
+Step 30 - Post-Kickoff: Setting the Communication Rhythm
 
 The kickoff meeting is the first test of how your team communicates. The follow-up you send within 24 hours either builds confidence or raises concerns. Clients who receive a well-organized summary with a clear project charter feel they made the right choice. Clients who receive a wall of unformatted text or nothing at all for three days start second-guessing.
 

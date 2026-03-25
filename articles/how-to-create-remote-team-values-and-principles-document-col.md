@@ -24,7 +24,7 @@ Why Collaborative Creation Matters
 
 Values documents fail when leadership drafts them in isolation and presents them as done. Team members who never contributed to the discussion treat them as performative artifacts. Collaborative creation serves two purposes: the final document benefits from diverse perspectives, and the process itself builds shared understanding about what the team stands for.
 
-Phase 1: Gathering Initial Input
+Phase 1 - Gathering Initial Input
 
 Start with a structured async brainstorm rather than a live meeting. This gives everyone equal opportunity to contribute regardless of timezone.
 
@@ -62,7 +62,7 @@ EOF
 echo "Created brainstorm template: $FILENAME"
 ```
 
-Phase 2: Synthesis and Categorization
+Phase 2 - Synthesis and Categorization
 
 Designate a facilitator to synthesize the responses. They cluster similar themes, identify patterns, and draft an initial framework.
 
@@ -100,7 +100,7 @@ Results
 - Outcome over output: Working more hours doesn't equal more value
 ```
 
-Phase 3: Collaborative Refinement
+Phase 3 - Collaborative Refinement
 
 Share the synthesized draft for another async review. Ask specific questions:
 
@@ -123,7 +123,7 @@ Suggested change:
 
 Values should emerge with strong consensus. If three or more team members strongly disagree with a value, revise it or remove it.
 
-Phase 4: Finalization and Version Control
+Phase 4 - Finalization and Version Control
 
 Commit the document to version control. Treat it like code:
 
@@ -131,7 +131,7 @@ Commit the document to version control. Treat it like code:
 git checkout -b values/update-2026-spring
 git add team-values/principles.md
 git commit -m "Add team values and principles document"
-gh pr create --title "Team Values: Final Draft" --body "Please review before merging."
+gh pr create --title "Team Values - Final Draft" --body "Please review before merging."
 ```
 
 Keep it alongside other team documentation:
@@ -143,7 +143,7 @@ docs/
  onboarding.md # New team member guide
 ```
 
-Phase 5: Living the Document
+Phase 5 - Living the Document
 
 A values document only matters if the team uses it. Build reference points into workflows:
 
@@ -167,7 +167,7 @@ Example Values Document
 ```markdown
 Our Team Values
 
-Last updated: March 2026
+Last updated - March 2026
 
 Communication
 Over-communicate Context

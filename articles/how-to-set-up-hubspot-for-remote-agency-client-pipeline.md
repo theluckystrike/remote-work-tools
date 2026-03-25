@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Build Your Client Pipeline Stages
+Step 1 - Build Your Client Pipeline Stages
 
 The foundation of any HubSpot setup is the pipeline itself. For a remote agency, your stages should reflect how deals actually progress when team members work across time zones and communicate primarily through written channels.
 
@@ -46,7 +46,7 @@ A practical pipeline for remote agencies includes these stages:
 
 Each stage represents a clear handoff point, which matters when your team isn't physically together to discuss deal status in real time. Avoid overcomplicating stages. the more granular you make them, the more maintenance required to keep deal stages accurate.
 
-Step 2: Configure Properties for Remote Agency Context
+Step 2 - Configure Properties for Remote Agency Context
 
 Standard HubSpot properties work well, but remote agencies benefit from adding custom properties that capture context specific to distributed work.
 
@@ -81,7 +81,7 @@ Last Contacted (Manual Override)
 
 While HubSpot tracks automatic activity, remote agencies benefit from a manual "last meaningful contact" property. When your team member has a substantive async exchange with a client, they update this timestamp. It provides a quick visual indicator of relationship health without relying solely on email open rates.
 
-Step 3: Set Up Deal Automation
+Step 3 - Set Up Deal Automation
 
 Automation in HubSpot should reduce busywork while preserving human judgment on client relationships. For remote agencies, focus automation on notification and data capture rather than auto-advancing deals through stages.
 
@@ -114,7 +114,7 @@ Auto-Creation of Tasks
 
 When a deal enters "Proposal Sent" stage, automatically create a follow-up task for 5 business days later. Remote agencies often work with clients who need internal approval cycles, and a scheduled follow-up ensures nothing falls through the cracks during extended proposal review periods.
 
-Step 4: Integrate with Your Existing Tools
+Step 4 - Integrate with Your Existing Tools
 
 HubSpot's value increases significantly when connected to your other systems. For remote agencies, the most valuable integrations typically include:
 
@@ -142,7 +142,7 @@ app.post('/webhooks/hubspot-deal-created', (req, res) => {
 });
 ```
 
-Step 5: Reporting for Distributed Teams
+Step 5 - Reporting for Distributed Teams
 
 Remote agencies need different reporting approaches than co-located teams. Since you cannot walk around and ask about deal status, your pipeline reports must be self-explanatory.
 
@@ -155,7 +155,7 @@ Build a dashboard with these key metrics:
 
 Schedule a weekly pipeline review where team members update deal stages during their local business hours. With proper automation and clear property usage, this weekly sync becomes a strategic conversation rather than a status update scavenger hunt.
 
-Advanced: Predictive Deal Scoring
+Advanced - Predictive Deal Scoring
 
 Move beyond manual tracking with predictive scoring that flags which deals are likely to close.
 
@@ -229,17 +229,17 @@ Prioritizing Follow-ups by Score
 Use scoring to focus effort on high-probability deals:
 
 ```
-Score 8-10: Follow up same day
+Score 8-10 - Follow up same day
 - Personal email or Slack message
 - Schedule call within 48 hours
 - Prioritize for senior team member
 
-Score 5-7: Follow up within 3 days
+Score 5-7 - Follow up within 3 days
 - Standard email or async message
 - Check-in call if no response
 - Can be handled by junior team member
 
-Score 0-4: Monitor
+Score 0-4 - Monitor
 - Monthly check-in
 - Move to "nurture" track if engagement drops
 - Revisit if new signals emerge
@@ -247,7 +247,7 @@ Score 0-4: Monitor
 
 This approach ensures your limited follow-up time targets deals most likely to close.
 
-Step 6: Remote Agency-Specific Workflows
+Step 6 - Remote Agency-Specific Workflows
 
 Proposal Review Automation
 
@@ -288,7 +288,7 @@ When scheduling calls, reference these properties to find mutually convenient ti
 
 Use a tool like Calendly with timezone support to let clients book calls without back-and-forth.
 
-Step 7: Maintaining Pipeline Hygiene
+Step 7 - Maintaining Pipeline Hygiene
 
 A pipeline only works when data stays current. For remote agencies, this requires intentional habits:
 
@@ -310,7 +310,7 @@ Weekly Pipeline Review (30 minutes)
 15:00-25:00 min: Identify at-risk deals (unchanged >10 days)
 25:00-30:00 min: Assign follow-ups and next steps
 
-Async follow-up: Post notes in Slack channel so team members in other zones stay informed
+Async follow-up - Post notes in Slack channel so team members in other zones stay informed
 ```
 
 This rhythm keeps the pipeline visible and prevents deals from being forgotten.

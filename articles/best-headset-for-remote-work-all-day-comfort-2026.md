@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Linux: Check audio input levels"
+title: "Linux - Check audio input levels"
 description: "Find the perfect headset for 8+ hour remote work sessions. Key features, technical specs, and practical advice for developers and power users"
 date: 2026-03-15
 author: theluckystrike
@@ -34,7 +34,7 @@ Table of Contents
 - [Headset Positioning Best Practices](#headset-positioning-best-practices)
 - [Replacement Parts Availability and Cost](#replacement-parts-availability-and-cost)
 - [Video Conference Platform Integration](#video-conference-platform-integration)
-- [The Long Game: Headset Lifecycle](#the-long-game-headset-lifecycle)
+- [The Long Game - Headset Lifecycle](#the-long-game-headset-lifecycle)
 
 What Defines All-Day Comfort
 
@@ -94,7 +94,7 @@ Testing Your Microphone
 Before committing to a headset, test your current setup:
 
 ```bash
-Linux: Check audio input levels
+Linux - Check audio input levels
 pactl list sources | grep -A5 "Name:.*monitor"
 
 macOS: Quick test via say command
@@ -179,7 +179,7 @@ Poly Voyager Focus 2
 - Fit consistency: Requires adjustment for different head shapes
 - Audio quality: Excellent voice, adequate music quality
 - Negatives: Bulkier than some alternatives
-- Close second to Jabra, excellent support ecosystem
+- Close second to Jabra, excellent support environment
 
 Yealink WH66
 - Pressure point: Very minimal, lightest option tested
@@ -197,15 +197,15 @@ Microphone quality matters for code reviews and pair programming:
 #!/bin/bash
 Headset microphone quality evaluation
 
-Test 1: Ambient noise rejection
-Scenario: Mechanical keyboard typing + traffic outside
+Test 1 - Ambient noise rejection
+Scenario - Mechanical keyboard typing + traffic outside
 Measure rejection ratio
 
-Test 2: Frequency response clarity
+Test 2 - Frequency response clarity
 Record voice sample at normal talking volume
-Analyze: Human speech clarity (300-3000 Hz optimal)
+Analyze - Human speech clarity (300-3000 Hz optimal)
 
-Test 3: Noise gate effectiveness
+Test 3 - Noise gate effectiveness
 Test if AI noise cancellation filters false-positive silences
 
 Run for 10 headsets across different scenarios:
@@ -228,28 +228,28 @@ done
 Connectivity Modes Explained
 
 USB Direct Connection
-Best for: Desktop setups where you won't move the headset
+Best for - Desktop setups where you won't move the headset
 - Lowest latency, highest audio quality, power via USB
 - Tethered to workstation, cable management needed
 - Latency: < 10ms
 - Use if primary monitor setup
 
 Bluetooth (Wireless)
-Best for: Moving between rooms, multiple devices
+Best for - Moving between rooms, multiple devices
 - Freedom of movement, multiple device connections
 - 100-300ms latency (noticeable in pair programming), interference issues
 - Latency: 100-300ms depending on codec
 - Okay for async work, avoid for real-time collaboration
 
 2.4 GHz Proprietary Wireless
-Best for: Best of both worlds, wireless + lower latency
+Best for - Best of both worlds, wireless + lower latency
 - Dedicated frequency reduces interference, 30-50ms latency
 - Proprietary receiver (can't connect to shared computers), single connection at a time
 - Latency: 30-50ms
 - Ideal for solo developers with dedicated workspace
 
 Multipoint Bluetooth (New Standard)
-Best for: switching between devices
+Best for - switching between devices
 - Connected to phone + laptop simultaneously, switches automatically
 - Newer technology, not all headsets support well
 - Latency: Varies (typically 100-200ms)
@@ -347,24 +347,24 @@ Slack Calls:
 - Minimal optimization (just standard audio)
 - Any USB headset works adequately
 
-The Long Game: Headset Lifecycle
+The Long Game - Headset Lifecycle
 
 Plan for headset replacement every 2-3 years:
 
 ```
-Year 1: Optimal performance
+Year 1 - Optimal performance
  Full battery capacity
  Ear cushions firm and supportive
  Microphone at peak clarity
  Wireless connection strong
 
-Year 2: Gradual degradation begins
+Year 2 - Gradual degradation begins
  Battery capacity drops to 80-90%
  Ear cushion foam compresses
  Microphone slightly less responsive
  Wireless range may decrease slightly
 
-Year 3: Noticeable issues
+Year 3 - Noticeable issues
  Battery capacity 70-80%
  Ear cushion compression significant (discomfort)
  Microphone audio quality degraded

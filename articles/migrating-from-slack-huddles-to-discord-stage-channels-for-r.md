@@ -34,7 +34,7 @@ Slack huddles function as ad-hoc voice conversations within channels. They work 
 
 Discord stage channels solve this problem through a broadcasting model. Stage channels distinguish between speakers (who can talk) and listeners (who can hear but not speak without permission). This separation is ideal for team presentations, code walkthroughs, and structured discussions where one or two people present while others listen and ask questions through dedicated Q&A features.
 
-Feature Comparison: Slack Huddles vs Discord Stage Channels
+Feature Comparison - Slack Huddles vs Discord Stage Channels
 
 | Feature | Slack Huddles | Discord Stage Channels |
 |---------|--------------|----------------------|
@@ -149,7 +149,7 @@ Engineering Server
       Frontend Standup (stage channel)
 ```
 
-The key distinction: use regular voice channels for unstructured conversations (like Slack huddles) and stage channels for any meeting where one person leads and others listen. Do not replace all voice channels with stage channels. the friction of the presenter/listener model annoys people during casual discussion.
+The key distinction - use regular voice channels for unstructured conversations (like Slack huddles) and stage channels for any meeting where one person leads and others listen. Do not replace all voice channels with stage channels. the friction of the presenter/listener model annoys people during casual discussion.
 
 Integrating with Your Existing Workflow
 

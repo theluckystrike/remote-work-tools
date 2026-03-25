@@ -54,7 +54,7 @@ The most common failure pattern:
 
 Company creates #watercooler channel with good intentions. No one posts. After 2 months, company concludes remote culture is impossible and starts requiring office time.
 
-What actually happened: The channel felt forced. People don't share personal stuff when they feel observed. No leadership participation = permission to keep work-life separate.
+What actually happened - The channel felt forced. People don't share personal stuff when they feel observed. No leadership participation = permission to keep work-life separate.
 
 Fixing Failed Channels:
 
@@ -81,7 +81,7 @@ Examples that work well:
 - `#cooking` for food enthusiasts sharing recipes
 - `#running` for fitness-focused team members
 
-A practical naming convention: `#social-interest-name` keeps these channels organized and discoverable. When someone joins the company, they can browse available social channels and find their people.
+A practical naming convention - `#social-interest-name` keeps these channels organized and discoverable. When someone joins the company, they can browse available social channels and find their people.
 
 Life Events Channels
 
@@ -254,7 +254,7 @@ Troubleshooting Dead Social Channels
 
 Sometimes channels you seed with enthusiasm go silent. Here's how to revive them:
 
-The Problem: No One Posts
+The Problem - No One Posts
 
 Usually this means either the topic doesn't resonate or people don't feel permission to post. Fix this by:
 
@@ -263,7 +263,7 @@ Usually this means either the topic doesn't resonate or people don't feel permis
 - Lower the bar: If #photography is silent, try #random-pics. Make it easier to share
 - Connect to work: Sometimes social channels fail because they're too disconnected from actual work. Try adding them to your daily standup or retrospectives
 
-The Problem: Only Leadership Posts
+The Problem - Only Leadership Posts
 
 If only managers participate, it signals that personal sharing isn't safe. Fix this by:
 
@@ -272,7 +272,7 @@ If only managers participate, it signals that personal sharing isn't safe. Fix t
 - Anonymity option: For sensitive topics (struggling with burnout, career doubts), allow anonymous posts
 - Different trigger: Instead of manager prompts, have peers suggest topics
 
-The Problem: Channel Becomes Off-Topic Rant Space
+The Problem - Channel Becomes Off-Topic Rant Space
 
 Sometimes social channels become complaint dumps about work conditions. This is actually useful data but can be draining. Handle it by:
 

@@ -35,7 +35,7 @@ Table of Contents
 - [Income Renewal Strategy (Multiple Years)](#income-renewal-strategy-multiple-years)
 - [Visa Visa-Free Entry Policies for Third-Country Nationals](#visa-visa-free-entry-policies-for-third-country-nationals)
 - [Comparison with Portugal and Croatia (Nearby Alternatives)](#comparison-with-portugal-and-croatia-nearby-alternatives)
-- [Arriving in Montenegro: First Steps After Visa Approval](#arriving-in-montenegro-first-steps-after-visa-approval)
+- [Arriving in Montenegro - First Steps After Visa Approval](#arriving-in-montenegro-first-steps-after-visa-approval)
 - [Moving Forward](#moving-forward)
 
 Eligibility Requirements
@@ -50,23 +50,23 @@ Required Documents
 
 Gathering documents takes the most time in this process. Start collecting these early:
 
-Proof of income: Three months of bank statements showing deposits meeting the €1,350 monthly threshold. Self-employed applicants need invoices and corresponding payment records. Employment contracts or service agreements with non-Montenegrin companies work as supplementary evidence.
+Proof of income - Three months of bank statements showing deposits meeting the €1,350 monthly threshold. Self-employed applicants need invoices and corresponding payment records. Employment contracts or service agreements with non-Montenegrin companies work as supplementary evidence.
 
-Health insurance: International health insurance with coverage valid in Montenegro. Travel insurance policies typically exclude residency and won't satisfy this requirement.
+Health insurance - International health insurance with coverage valid in Montenegro. Travel insurance policies typically exclude residency and won't satisfy this requirement.
 
-Criminal record certificate: Obtain this from your country of residence. Many countries require apostille certification. The certificate must be recent, typically within 90 days of application.
+Criminal record certificate - Obtain this from your country of residence. Many countries require apostille certification. The certificate must be recent, typically within 90 days of application.
 
-Passport: Valid for at least three months beyond your planned stay with at least two blank pages.
+Passport - Valid for at least three months beyond your planned stay with at least two blank pages.
 
-Proof of remote work: Employment letters, freelance contracts, or client agreements demonstrating your work is remote and performed for entities outside Montenegro.
+Proof of remote work - Employment letters, freelance contracts, or client agreements demonstrating your work is remote and performed for entities outside Montenegro.
 
-Accommodation proof: A rental agreement, property ownership documents, or a hotel booking for your initial stay.
+Accommodation proof - A rental agreement, property ownership documents, or a hotel booking for your initial stay.
 
 Application Process
 
 The Montenegro digital nomad visa application can be submitted online or in person at a Montenegrin embassy or consulate. Here's the practical workflow:
 
-Step 1: Prepare Your Documentation
+Step 1 - Prepare Your Documentation
 
 Organize documents in PDF format. Name files systematically:
 
@@ -79,7 +79,7 @@ Organize documents in PDF format. Name files systematically:
 06_accommodation_rental_agreement.pdf
 ```
 
-Step 2: Submit Application
+Step 2 - Submit Application
 
 Apply through the Ministry of Interior's e-government portal or schedule an appointment at your nearest Montenegrin embassy. The application fee is approximately €100-200 depending on processing speed.
 
@@ -89,11 +89,11 @@ Check nearest embassy location
 curl -s "https://www.gov.me/en/ministry-of-interior" | grep -i embassy
 ```
 
-Step 3: Wait for Processing
+Step 3 - Wait for Processing
 
 Processing typically takes 20-30 business days. You can track your application status through the portal using your application reference number.
 
-Step 4: Collect Your Visa
+Step 4 - Collect Your Visa
 
 Once approved, you'll receive notification to collect your visa from the embassy or consulate where you applied. The initial visa is valid for up to two years and can be renewed.
 
@@ -190,11 +190,11 @@ Three-Month Bank Statement Requirements
 Montenegro requires three months of statements showing €1,350+ monthly deposits. Structure your documentation like this:
 
 ```
-Month 1 (January): €2,100 (multiple client invoices paid)
-Month 2 (February): €1,500 (consistent work)
-Month 3 (March): €1,800 (mixed projects)
+Month 1 (January) - €2,100 (multiple client invoices paid)
+Month 2 (February) - €1,500 (consistent work)
+Month 3 (March) - €1,800 (mixed projects)
 
-Average: €1,800. EXCEEDS €1,350 minimum
+Average - €1,800. EXCEEDS €1,350 minimum
 ```
 
 If one month falls short, include this summary in your application explaining:
@@ -232,7 +232,7 @@ Complete Application Timeline
 | Week 6-7 | Visa approval | Receive notification to collect visa |
 | Week 7-8 | Visa collection | Obtain physical visa from embassy/consulate |
 
-Total time: 6-8 weeks from complete documentation to visa receipt.
+Total time - 6-8 weeks from complete documentation to visa receipt.
 
 Regional Travel Advantages with Montenegro Visa
 
@@ -315,7 +315,7 @@ Comparison with Portugal and Croatia (Nearby Alternatives)
 
 Montenegro offers the lowest income threshold and fastest processing, making it ideal for developers establishing European presence on tighter budgets. Portugal offers Schengen access; Croatia bridges cost and EU access.
 
-Arriving in Montenegro: First Steps After Visa Approval
+Arriving in Montenegro - First Steps After Visa Approval
 
 Upon Entry with Visa
 

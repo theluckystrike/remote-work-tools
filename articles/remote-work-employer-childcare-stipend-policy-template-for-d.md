@@ -113,7 +113,7 @@ Offer flexibility in how employees receive funds:
 - Quarterly advance: Receive funds upfront, provide documentation later
 - Annual lump sum: Budget-friendly option with year-end reconciliation
 
-Implementation Example: HR System Integration
+Implementation Example - HR System Integration
 
 Here's how you might integrate childcare stipends into your existing HR platform:
 
@@ -160,13 +160,13 @@ Country-Specific Considerations
 
 Remote companies must navigate different regulations:
 
-United States: Stipends may be taxable income unless part of a qualified dependent care FSA. Consider working with a benefits administrator to structure payments correctly.
+United States - Stipends may be taxable income unless part of a qualified dependent care FSA. Consider working with a benefits administrator to structure payments correctly.
 
-United Kingdom: Childcare vouchers were replaced by Tax-Free Childcare. Employers should coordinate with employees to avoid double-dipping.
+United Kingdom - Childcare vouchers were replaced by Tax-Free Childcare. Employers should coordinate with employees to avoid double-dipping.
 
-Germany: Kindergeld may affect eligibility. Consult local counsel for compliance.
+Germany - Kindergeld may affect eligibility. Consult local counsel for compliance.
 
-Canada: Similar to US, stipend structure affects taxation. Some provinces offer additional child care subsidies.
+Canada - Similar to US, stipend structure affects taxation. Some provinces offer additional child care subsidies.
 
 Policy Template You Can Adapt
 

@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Problem with English-Centric Async Communication
+Step 1 - The Problem with English-Centric Async Communication
 
 When you type quickly during a busy workday, you likely use idioms, slang, and complex sentence structures without thinking. Phrases like "circle back," "detailed look," or "low-hanging fruit" make perfect sense to native speakers but create confusion for others. Compound sentences with multiple clauses, passive voice, and implicit context all increase cognitive load.
 
@@ -40,9 +40,9 @@ Consider this typical Slack message:
 
 This message contains three idioms ("touch base," "barking up the wrong tree," "table this") and assumes the reader knows the sprint schedule. For a non-native speaker, parsing this takes significantly more effort than for a fluent speaker.
 
-Step 2: Writing Clear Async Messages
+Step 2 - Writing Clear Async Messages
 
-The core principle is simple: write for clarity first, brevity second. Clear communication actually takes less time to produce because it reduces follow-up questions and misunderstandings.
+The core principle is simple - write for clarity first, brevity second. Clear communication actually takes less time to produce because it reduces follow-up questions and misunderstandings.
 
 Use Simple, Direct Language
 
@@ -74,11 +74,11 @@ Provide Explicit Context
 
 Non-native speakers often struggle with implied context. Include information that native speakers would infer:
 
-Weak: "Check the PR for details."
+Weak - "Check the PR for details."
 
-Strong: "I've opened PR #247 that implements the user dashboard. Please review the changes by Wednesday so we can merge before the release. The main changes are in `dashboard.js` and `api-routes.js`."
+Strong - "I've opened PR #247 that implements the user dashboard. Please review the changes by Wednesday so we can merge before the release. The main changes are in `dashboard.js` and `api-routes.js`."
 
-Step 3: Code Examples and Technical Writing
+Step 3 - Code Examples and Technical Writing
 
 For developer teams, technical communication carries additional complexity. Code examples, error messages, and technical discussions need special attention.
 
@@ -123,7 +123,7 @@ Document Edge Cases Explicitly
 When writing technical documentation, spell out scenarios that native speakers might infer:
 
 ```markdown
-Step 4: API Rate Limiting
+Step 4 - API Rate Limiting
 
 The API allows 100 requests per minute per API key.
 
@@ -134,7 +134,7 @@ Edge cases:
 - There's no burst allowance, clients must space requests evenly
 ```
 
-Step 5: Tools That Help
+Step 5 - Tools That Help
 
 Several tools can help your team write more inclusive async communication:
 
@@ -153,7 +153,7 @@ Process Adjustments:
 - Designate "clarification champions" who help rephrase confusing messages
 - Review past communications for patterns that cause confusion
 
-Step 6: Build Inclusive Async Habits
+Step 6 - Build Inclusive Async Habits
 
 Making async communication inclusive requires ongoing attention, not one-time fixes. Start by auditing your recent written communications:
 
@@ -166,7 +166,7 @@ Then pick one improvement to focus on for two weeks. Small changes compound, usi
 
 The goal isn’t to dumb down your communication. It’s to remove unnecessary barriers that have nothing to do with intelligence or capability. When you write async messages that work for non-native English speakers, you build a more inclusive team where everyone can contribute their best ideas.
 
-Step 7: Tools That Help with Inclusive Communication
+Step 7 - Tools That Help with Inclusive Communication
 
 Several tools can help you write more clearly:
 
@@ -190,30 +190,30 @@ Team Practices
 - Review past confusing messages and rewrite them clearly
 - Celebrate clear writing when you see it
 
-Step 8: Communication Standards Template
+Step 8 - Communication Standards Template
 
 Create a team document with these standards:
 
 ```markdown
 Our Communication Standards for Clarity
 
-Step 9: Sentence Structure
+Step 9 - Sentence Structure
 - Average sentence: 15-20 words maximum
 - Use active voice (developer creates code, not code is created)
 - One main idea per sentence
 
-Step 10: Vocabulary
+Step 10 - Vocabulary
 - Avoid industry jargon without explanation
 - Avoid idioms ("circle back" → "discuss again later")
 - Avoid complex words when simple words work
 
-Step 11: Organization
+Step 11 - Organization
 - Use numbered lists for steps
 - Use bullet points for related items
 - Use headers to break up long text
 - Lead with the main point, not background
 
-Step 12: Examples of Our Standards
+Step 12 - Examples of Our Standards
 
 Bad:
 "We should probably touch base regarding the API refactor since I think we’re barking up the wrong tree."
@@ -241,7 +241,7 @@ Good:
 
 Share this with your team, update with real examples from your Slack history.
 
-Step 13: Measuring Inclusive Communication
+Step 13 - Measuring Inclusive Communication
 
 Track whether your communication changes are working:
 
@@ -268,7 +268,7 @@ Ask non-native English speakers:
 
 Act on specific feedback. If multiple people say "circle back" is confusing, the team should stop using it.
 
-Step 14: Build Inclusive Technical Communication
+Step 14 - Build Inclusive Technical Communication
 
 For engineering teams, technical clarity is extra important:
 
@@ -304,12 +304,12 @@ Write:
 Clear Error Messages
 Instead of:
 ```
-ERROR: CONN_POOL_EXHAUSTED_MAX_CLIENTS_EXCEEDED
+ERROR - CONN_POOL_EXHAUSTED_MAX_CLIENTS_EXCEEDED
 ```
 
 Write:
 ```
-Error: Cannot connect to database
+Error - Cannot connect to database
 
 The database connection pool is full (50 active connections).
 This means 50 other processes are using connections.
@@ -319,7 +319,7 @@ To fix:
 2. Kill unused connections: `SELECT * FROM pg_stat_activity`
 3. Increase pool size in config.yaml if this is expected
 
-Documentation: [link to connection pooling guide]
+Documentation - [link to connection pooling guide]
 ```
 
 Clear Code Review Comments
@@ -353,7 +353,7 @@ match items with prices
 This reduces database queries from 101 to 2.
 ```
 
-Step 15: Leadership Actions for Inclusive Communication
+Step 15 - Leadership Actions for Inclusive Communication
 
 As a manager or senior engineer, you set the tone:
 

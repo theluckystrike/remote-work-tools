@@ -104,21 +104,21 @@ Replace Brainstorming with Async Collaboration
 For ideation sessions, use collaborative documents with structured prompts:
 
 ```markdown
-Async Brainstorm: New Feature Name
+Async Brainstorm - New Feature Name
 
-Topic: Redesigning the user dashboard
-Goal: Generate 5+ viable approaches for team review
+Topic - Redesigning the user dashboard
+Goal - Generate 5+ viable approaches for team review
 
-Approach 1: [Your Name]
+Approach 1 - [Your Name]
 Description:
 Effort estimate:
 
-Approach 2: [Another Name]
+Approach 2 - [Another Name]
 ...
 
 Voting
 React with 1-5 stars on approaches you prefer.
-Deadline: [Date] 23:59 UTC
+Deadline - [Date] 23:59 UTC
 ```
 
 When to Schedule Synchronous Meetings
@@ -133,11 +133,11 @@ For necessary meetings, record them for those who can't attend:
 
 ```bash
 Simple recording setup using OBS
-Save as: /meeting-recordings/YYYY-MM-DD-topic.mp4
-Naming convention: YYYY-MM-DD_Team_Topic.mp4
+Save as - /meeting-recordings/YYYY-MM-DD-topic.mp4
+Naming convention - YYYY-MM-DD_Team_Topic.mp4
 ```
 
-Document Everything: The Decision Log
+Document Everything - The Decision Log
 
 With 20 people across time zones, knowledge transfer happens asynchronously. Maintain a decision log:
 
@@ -146,12 +146,12 @@ Team Decision Log
 
 2026-03-16: Adopt Code Review Guidelines
 
-Context: Multiple PRs had inconsistent review standards
-Discussion thread: #engineering/1234
-Decision: Require 2 approvals, use approval workflow, 48-hour review window
+Context - Multiple PRs had inconsistent review standards
+Discussion thread - #engineering/1234
+Decision - Require 2 approvals, use approval workflow, 48-hour review window
 Status:  Approved
-Owner: @lead-developer
-Last updated: 2026-03-16
+Owner - @lead-developer
+Last updated - 2026-03-16
 ```
 
 Use tools like:
@@ -178,21 +178,21 @@ Product/Design
 - Design reviews: 48 hours for async feedback
 - Roadmap changes: 1 week notice for major pivots
 
-Implementing Norms: Start Small
+Implementing Norms - Start Small
 
 Don't roll out all norms at once. Use this phased approach:
 
-Week 1-2: Foundation
+Week 1-2 - Foundation
 1. Define channel structure and post guidelines
 2. Establish response time expectations
 3. Create async standup template
 
-Week 3-4: Documentation
+Week 3-4 - Documentation
 4. Build decision log template
 5. Document meeting norms (when to meet vs. async)
 6. Create onboarding doc for new team members
 
-Week 5+: Iteration
+Week 5+ - Iteration
 7. Gather feedback on what's working
 8. Adjust response times based on team capacity
 9. Add role-specific norms as needed
@@ -204,15 +204,15 @@ Calculate your team's natural overlap windows:
 ```
 Time Zone Overlap Calculator (UTC)---
 -----------------------------------------
-UTC-8 (Pacific): 00:00 - 08:00
-UTC-5 (Eastern): 03:00 - 11:00
-UTC+1 (Central): 09:00 - 17:00
+UTC-8 (Pacific) - 00:00 - 08:00
+UTC-5 (Eastern) - 03:00 - 11:00
+UTC+1 (Central) - 09:00 - 17:00
 UTC+5:30 (India): 13:30 - 22:00
 
-Natural Overlap (all 4 zones): 13:30 - 08:00 UTC
+Natural Overlap (all 4 zones) - 13:30 - 08:00 UTC
 = 18.5 hours (but spans 2 calendar days)
 
-Practical Overlap (3+ zones): 13:30 - 11:00 UTC
+Practical Overlap (3+ zones) - 13:30 - 11:00 UTC
 = 2.5 hours (great for critical sync)
 ```
 

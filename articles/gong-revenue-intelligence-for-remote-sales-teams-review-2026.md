@@ -22,7 +22,7 @@ Table of Contents
 
 - [What is Revenue Intelligence?](#what-is-revenue-intelligence)
 - [Core Capabilities of Revenue Intelligence Platforms](#core-capabilities-of-revenue-intelligence-platforms)
-- [Gong vs. Competitors: Platform Comparison](#gong-vs-competitors-platform-comparison)
+- [Gong vs. Competitors - Platform Comparison](#gong-vs-competitors-platform-comparison)
 - [Implementation Patterns for Remote Teams](#implementation-patterns-for-remote-teams)
 - [Real-World Workflows for Remote Sales Managers](#real-world-workflows-for-remote-sales-managers)
 - [Data Privacy and Compliance Considerations](#data-privacy-and-compliance-considerations)
@@ -90,7 +90,7 @@ Revenue intelligence platforms aggregate signals across the customer journey:
 
 This unified view enables accurate revenue forecasting and pipeline inspection.
 
-Gong vs. Competitors: Platform Comparison
+Gong vs. Competitors - Platform Comparison
 
 Gong is the category leader, but it faces stiff competition from Chorus (now ZoomInfo Revenue Intelligence), Clari, and Salesloft. Understanding how these platforms differ helps you make the right investment decision.
 

@@ -27,17 +27,17 @@ Table of Contents
 - [Rollback](#rollback)
 - [Escalation](#escalation)
 - [Write for the Worst Case](#write-for-the-worst-case)
-- [BAD: Ambiguous step](#bad-ambiguous-step)
-- [GOOD: Explicit step](#good-explicit-step)
+- [BAD - Ambiguous step](#bad-ambiguous-step)
+- [GOOD - Explicit step](#good-explicit-step)
 - [Decision Trees for Non-Linear Procedures](#decision-trees-for-non-linear-procedures)
 - [Diagnose Database Connection Failures](#diagnose-database-connection-failures)
 - [Embed Exact Commands, Not Descriptions](#embed-exact-commands-not-descriptions)
-- [BAD: Description only](#bad-description-only)
-- [GOOD: Exact commands](#good-exact-commands)
+- [BAD - Description only](#bad-description-only)
+- [GOOD - Exact commands](#good-exact-commands)
 - [Keep Commands Copy-Pasteable](#keep-commands-copy-pasteable)
-- [BAD: Requires substitution mid-command](#bad-requires-substitution-mid-command)
-- [GOOD: Variables declared explicitly before commands](#good-variables-declared-explicitly-before-commands)
-- [Maintenance: Keep Runbooks Current](#maintenance-keep-runbooks-current)
+- [BAD - Requires substitution mid-command](#bad-requires-substitution-mid-command)
+- [GOOD - Variables declared explicitly before commands](#good-variables-declared-explicitly-before-commands)
+- [Maintenance - Keep Runbooks Current](#maintenance-keep-runbooks-current)
 - [When a runbook must be updated:](#when-a-runbook-must-be-updated)
 - [Quarterly review checklist:](#quarterly-review-checklist)
 - [Runbook Inventory](#runbook-inventory)
@@ -63,10 +63,10 @@ Every runbook follows the same structure regardless of the task:
 ```markdown
 [Task Name]
 
-Owner: [team or person responsible for keeping this current]
-Last tested: [YYYY-MM-DD]
-Estimated time: [X minutes]
-Impact: [what this affects. "restarts the API, expect 30s downtime"]
+Owner - [team or person responsible for keeping this current]
+Last tested - [YYYY-MM-DD]
+Estimated time - [X minutes]
+Impact - [what this affects. "restarts the API, expect 30s downtime"]
 
 Prerequisites
 
@@ -106,7 +106,7 @@ Check command
 curl -s https://yourservice.com/health | jq '.status'
 ```
 
-Expected: `"ok"`. if not, see Rollback.
+Expected - `"ok"`. if not, see Rollback.
 
 Rollback
 
@@ -136,14 +136,14 @@ The person executing your runbook may be:
 Write accordingly. Every step should answer: "What do I type, what do I see if it worked, what do I do if it doesn't?"
 
 ```markdown
-BAD: Ambiguous step
+BAD - Ambiguous step
 
 3. Restart the application
 
 Restart the app server.
 ---
 
-GOOD: Explicit step
+GOOD - Explicit step
 
 3. Restart the application server
 
@@ -159,7 +159,7 @@ Check the current service status before restarting:
 sudo systemctl status myapp
 ```
 
-Expected output includes `Active: active (running)`. If you see `failed`, note the error before continuing. do not restart without understanding why it failed first.
+Expected output includes `Active - active (running)`. If you see `failed`, note the error before continuing. do not restart without understanding why it failed first.
 
 Restart the service:
 ```bash
@@ -172,7 +172,7 @@ sudo systemctl status myapp
 journalctl -u myapp -n 20 --no-pager
 ```
 
-Expected: status shows `Active: active (running)` for at least 10 seconds. Logs show no `ERROR` or `FATAL` lines.
+Expected - status shows `Active - active (running)` for at least 10 seconds. Logs show no `ERROR` or `FATAL` lines.
 
 If the service fails to start after restart, STOP. Do not retry. Escalate to [#on-call] immediately.
 ```
@@ -200,13 +200,13 @@ psql -h db.internal -U appuser -d myapp -c "SELECT 1"
 Embed Exact Commands, Not Descriptions
 
 ```markdown
-BAD: Description only
+BAD - Description only
 
 Check the disk usage and free up space if needed.
 
 ---
 
-GOOD: Exact commands
+GOOD - Exact commands
 
 Check disk usage:
 ```bash
@@ -235,7 +235,7 @@ Remote engineers executing a runbook at 3am should not be transcribing commands.
 3. Correct for the target OS. do not mix macOS and Linux commands without labeling them
 
 ```markdown
-BAD: Requires substitution mid-command
+BAD - Requires substitution mid-command
 
 ```bash
 kubectl rollout restart deployment/[APP_NAME] -n [NAMESPACE]
@@ -243,7 +243,7 @@ kubectl rollout restart deployment/[APP_NAME] -n [NAMESPACE]
 
 ---
 
-GOOD: Variables declared explicitly before commands
+GOOD - Variables declared explicitly before commands
 
 Set these variables for your deployment:
 ```bash
@@ -258,7 +258,7 @@ kubectl rollout status deployment/${APP_NAME} -n ${NAMESPACE} --timeout=120s
 ```
 ```
 
-Maintenance: Keep Runbooks Current
+Maintenance - Keep Runbooks Current
 
 A runbook that is six months out of date is worse than no runbook. the engineer follows it with confidence and hits unexpected errors.
 

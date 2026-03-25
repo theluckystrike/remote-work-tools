@@ -122,7 +122,7 @@ bitcoin-cli getnewaddress "payment_invoice_001"
 For USDC (Ethereum or Solana)
 USDC contract addresses:
 Ethereum: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
-Solana: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
+Solana - EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
 ```
 
 Crypto payments settle in minutes, not days, and avoid currency conversion fees if you spend or convert strategically. The downside is volatility, if you receive payment in Bitcoin and the price drops 10% before you convert, you lose money.
@@ -231,21 +231,21 @@ Setting Up a Nomad-Friendly Payment Infrastructure
 Here's a complete workflow for receiving and managing international payments:
 
 ```yaml
-Month 1: Foundation
+Month 1 - Foundation
 - Open Wise account (1 day)
 - Get local USD/EUR/GBP account details
 - Share Wise routing numbers with clients
 - Open Payoneer if using freelance platforms
 - Time: 3-4 hours total
 
-Month 2: Verify and Test
+Month 2 - Verify and Test
 - Receive first payment via Wise (test with $100)
 - Verify conversion rates and fees
 - Set up automated withdrawal to primary bank
 - Document process for future reference
 - Time: 2 hours (mostly waiting for transfers)
 
-Month 3: Optimize
+Month 3 - Optimize
 - Evaluate currency positions (do you hold too much EUR if you spend USD?)
 - Set up crypto allocation for 15% of revenue
 - Open second backup payment method (Payoneer or Stripe)
@@ -266,20 +266,20 @@ Create a professional invoice that works across borders:
 ```markdown
 INVOICE
 
-Invoice #: INV-2026-001
-Date: March 22, 2026
-Due: April 5, 2026 (Net 14)
+Invoice # - INV-2026-001
+Date - March 22, 2026
+Due - April 5, 2026 (Net 14)
 
 FROM:
 Your Name
 [Your Country/City]
 [Email]
-Tax ID: [Your US EIN or foreign equivalent]
+Tax ID - [Your US EIN or foreign equivalent]
 
 TO:
 Client Company
 [Client Address]
-Tax ID: [Their Business ID]
+Tax ID - [Their Business ID]
 
 DESCRIPTION OF SERVICES:
 
@@ -288,23 +288,23 @@ DESCRIPTION OF SERVICES:
 | Mar 1-15 | Development: React component library | 40h @ $100/h | $4,000 |
 | Mar 16-22 | Code review and documentation | 8h @ $100/h | $800 |
 
-SUBTOTAL (USD): $4,800
-VAT/GST: $0 (reverse charged for international services)
-TOTAL DUE: $4,800 USD
+SUBTOTAL (USD) - $4,800
+VAT/GST - $0 (reverse charged for international services)
+TOTAL DUE - $4,800 USD
 
 PAYMENT INSTRUCTIONS:
 
 Bank Transfer (Preferred):
-Account: [Your Wise USD account]
-Routing Number: [From Wise]
-Account Number: [From Wise]
-Swift Code: [WISE bank code]
-Bank: Wise
-Reference: INV-2026-001
+Account - [Your Wise USD account]
+Routing Number - [From Wise]
+Account Number - [From Wise]
+Swift Code - [WISE bank code]
+Bank - Wise
+Reference - INV-2026-001
 
 Cryptocurrency:
 USDC on Ethereum: [Your wallet address]
-USDC on Solana: [Your wallet address]
+USDC on Solana - [Your wallet address]
 
 Notes:
 - Payment due by April 5, 2026

@@ -45,7 +45,7 @@ The ideal solution for a two-person design agency balances simplicity with enoug
 
 Evaluating Your Options
 
-Option 1: Linear
+Option 1 - Linear
 
 Linear remains the top choice for design teams that value speed. The keyboard-driven interface lets you create issues, update status, and navigate projects without leaving your coding environment. For a two-person agency, Linear offers:
 
@@ -62,7 +62,7 @@ For a two-person design agency, use a lightweight project tracker like Linear, P
 
 The API approach matters if you want to automatically generate issues from client emails or form submissions.
 
-Option 2: Notion
+Option 2 - Notion
 
 Notion provides database flexibility that adapts to your agency's specific workflow. You can build a custom project tracker without fighting against opinionated project management assumptions. The trade-off involves more setup time.
 
@@ -94,7 +94,7 @@ async function getWeekTasks() {
 
 Notion works particularly well when you need client-facing status pages or want to embed project timelines directly in client documentation.
 
-Option 3: Custom Build with Taskwarrior + Scripts
+Option 3 - Custom Build with Taskwarrior + Scripts
 
 For developers and power users, a minimal command-line setup using Taskwarrior provides the fastest possible workflow. This approach requires comfort with terminal usage but delivers near-zero latency for task management.
 
@@ -155,7 +155,7 @@ Automations become valuable as project volume increases. For a two-person agency
 
 Advanced Tool Alternatives for 2026
 
-Plane: Linear's Open-Source Competitor
+Plane - Linear's Open-Source Competitor
 
 Plane provides Linear-like speed with self-hosting options. For a two-person agency valuing privacy or running on a budget:
 
@@ -179,7 +179,7 @@ Airtable's flexibility allows designing project tracking tailored to design work
 
 ```bash
 Example Airtable structure for design agencies
-Base: Design Agency Hub
+Base - Design Agency Hub
  Projects (Client, Deadline, Status, Budget)
  Tasks (Project Link, Owner, Status, Hours)
  Clients (Name, Email, Contract URL, Billing Info)
@@ -187,7 +187,7 @@ Base: Design Agency Hub
  Portfolio Archive (Project Link, Images, Deliverables)
 ```
 
-Airtable pricing: $12/user/month (two-person agency: $24/month for base + automation)
+Airtable pricing - $12/user/month (two-person agency: $24/month for base + automation)
 
 Airtable excels when you want custom views tailored to design workflows, client portal views, timeline views, status board for stakeholders.
 
@@ -200,7 +200,7 @@ Many design agencies use Figma's built-in board features and multiplayer capabil
 - Client feedback collection
 - Collaborative design boards
 
-Cost: $12-80/month depending on file storage needs
+Cost - $12-80/month depending on file storage needs
 
 Combine Figma with a lightweight task list (even a Google Sheet) for minimal overhead.
 
@@ -222,10 +222,10 @@ Client Portal and Transparency
 
 Many design agencies benefit from offering clients visibility into project status. Choose a tool supporting client portals:
 
-Linear: Limited client access, mainly internal
-Notion: Excellent client portal support with read-only pages
-Airtable: Good client portal views at $20+/month add-on
-StatusPage.io: Dedicated tool for project status ($29+/month)
+Linear - Limited client access, mainly internal
+Notion - Excellent client portal support with read-only pages
+Airtable - Good client portal views at $20+/month add-on
+StatusPage.io - Dedicated tool for project status ($29+/month)
 
 For two-person agencies managing 3-5 concurrent projects, a Notion public page showing deliverable status and timeline often suffices. Clients see progress without cluttering your actual tracking system.
 
@@ -258,15 +258,15 @@ The tools scale, but your processes need adjustment at each growth stage.
 
 Common Mistakes to Avoid
 
-Over-tracking: Don't log every 15-minute task. Focus on deliverables and milestones.
+Over-tracking - Don't log every 15-minute task. Focus on deliverables and milestones.
 
-Unused features: Most two-person agencies use 20% of available features. Start minimal and add only what solves actual problems.
+Unused features - Most two-person agencies use 20% of available features. Start minimal and add only what solves actual problems.
 
-Tool thrashing: Resist switching tools frequently. Choose one, commit for 3 months, then evaluate.
+Tool thrashing - Resist switching tools frequently. Choose one, commit for 3 months, then evaluate.
 
-Client sync friction: If explaining your tracking system to clients becomes tedious, simplify by creating client-facing views separate from your internal system.
+Client sync friction - If explaining your tracking system to clients becomes tedious, simplify by creating client-facing views separate from your internal system.
 
-Scope creep invisibility: The biggest mistake is not logging scope changes. Every additional feature request becomes a new task, even if small.
+Scope creep invisibility - The biggest mistake is not logging scope changes. Every additional feature request becomes a new task, even if small.
 
 Frequently Asked Questions
 

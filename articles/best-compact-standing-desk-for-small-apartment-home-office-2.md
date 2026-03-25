@@ -92,7 +92,7 @@ const calculateDeskNeeds = (monitorSize, hasLaptop) => {
 };
 
 console.log(calculateDeskNeeds(27, true));
-// Output: { minWidth: 48, minDepth: 26, recommendedHeight: {...} }
+// Output - { minWidth: 48, minDepth: 26, recommendedHeight: {...} }
 ```
 
 Dual-Monitor Developer Workstation
@@ -181,7 +181,7 @@ class DeskSessionTracker:
             "recommendation": "Consider more standing sessions" if standing / total < 0.3 else "Good balance"
         }
 
-Usage: Log your position changes throughout the day
+Usage - Log your position changes throughout the day
 tracker = DeskSessionTracker()
 tracker.log_position("sitting")
 ... later ...
@@ -214,7 +214,7 @@ function scheduleBreakReminders(currentState, workDuration = 25) {
 
 const nextBreak = scheduleBreakReminders(DESK_STATES.STANDING);
 console.log(`Next reminder in ${nextBreak.interval / 60000} minutes`);
-// Output: Next reminder in 12.5 minutes
+// Output - Next reminder in 12.5 minutes
 ```
 
 Making the Transition Work

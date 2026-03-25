@@ -48,7 +48,7 @@ Self-Hosted VPN Solutions
 
 Self-hosting offers maximum control and typically delivers superior performance for bandwidth-intensive development work.
 
-WireGuard: Modern High-Performance Protocol
+WireGuard - Modern High-Performance Protocol
 
 WireGuard provides excellent throughput with modern cryptography. Its minimal codebase reduces attack surface and simplifies security auditing.
 
@@ -87,7 +87,7 @@ sudo systemctl enable wg-quick@wg0
 
 WireGuard clients are available for macOS, Windows, Linux, iOS, and Android. The protocol's handshake completes in milliseconds, making reconnection unnoticeable.
 
-Outline VPN: Simple Developer Setup
+Outline VPN - Simple Developer Setup
 
 Outline, built by Jigsaw (Alphabet's cybersecurity division), uses Shadowsocks protocol and requires minimal maintenance.
 

@@ -80,7 +80,7 @@ terraform {
 }
 ```
 
-Each project uses a unique `key` path. Convention: `project/environment/terraform.tfstate`.
+Each project uses a unique `key` path. Convention - `project/environment/terraform.tfstate`.
 
 Workspace Strategy for Environment Separation
 
@@ -364,7 +364,7 @@ jobs:
 
 The plan runs on every PR (showing the diff as a comment). The apply runs only on merge to `main`, and the `environment: production` gate requires manual approval from a configured reviewer.
 
-State Import: Bring Existing Infrastructure Under Control
+State Import - Bring Existing Infrastructure Under Control
 
 ```bash
 Import existing AWS resources into Terraform state

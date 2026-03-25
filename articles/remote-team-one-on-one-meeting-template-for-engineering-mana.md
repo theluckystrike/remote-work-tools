@@ -155,12 +155,12 @@ Anything you want me to prepare?
     return template
 
 if __name__ == "__main__":
-    # Usage: python prepare_1on1.py github_username
+    # Usage - python prepare_1on1.py github_username
     import sys
     if len(sys.argv) > 1:
         print(prepare_one_on_one(sys.argv[1]))
     else:
-        print("Usage: python prepare_1on1.py <github_username>")
+        print("Usage - python prepare_1on1.py <github_username>")
 ```
 
 This script generates a personalized check-in template by pulling your direct report's recent GitHub activity. Run it the day before your one-on-one and send the output to your direct report.
@@ -232,22 +232,22 @@ Set a weekly cadence where both parties write their sections asynchronously. Sch
 
 Common Pitfalls to Avoid
 
-The status meeting trap: If your one-on-ones feel like status updates, you're doing it wrong. Save status for standups or Slack updates. One-on-ones should be strategic, not operational.
+The status meeting trap - If your one-on-ones feel like status updates, you're doing it wrong. Save status for standups or Slack updates. One-on-ones should be strategic, not operational.
 
-The always-scheduled trap: Following the same agenda every week leads to autopilot. Rotate questions, focus on different themes each month, and leave room for unexpected topics.
+The always-scheduled trap - Following the same agenda every week leads to autopilot. Rotate questions, focus on different themes each month, and leave room for unexpected topics.
 
 The manager-dominated conversation: If you're talking more than 30% of the time, your direct report isn't getting value. Your role is to ask questions and listen.
 
-Skipping async prep: Without the pre-check, you waste meeting time on basic updates. The 10 minutes spent on async prep saves 20 minutes of meeting time.
+Skipping async prep - Without the pre-check, you waste meeting time on basic updates. The 10 minutes spent on async prep saves 20 minutes of meeting time.
 
 Measuring One-on-One Effectiveness
 
 Track these signals to assess if your one-on-ones are working:
 
-- Retention: Are your direct reports staying on your team?
-- Engagement: Do they seem prepared and interested in meetings?
-- Growth: Are they progressing in skills and responsibilities?
-- Feedback: Do they give you honest feedback about your management?
+- Retention - Are your direct reports staying on your team?
+- Engagement - Do they seem prepared and interested in meetings?
+- Growth - Are they progressing in skills and responsibilities?
+- Feedback - Do they give you honest feedback about your management?
 
 If these metrics decline, your one-on-ones need adjustment.
 

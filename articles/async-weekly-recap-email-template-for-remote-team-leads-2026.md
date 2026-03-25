@@ -21,9 +21,9 @@ Table of Contents
 
 - [Why Weekly Recap Emails Matter for Remote Teams](#why-weekly-recap-emails-matter-for-remote-teams)
 - [Anatomy of an Effective Weekly Recap Email](#anatomy-of-an-effective-weekly-recap-email)
-- [Template: Basic Weekly Recap](#template-basic-weekly-recap)
+- [Template - Basic Weekly Recap](#template-basic-weekly-recap)
 - [Week of [Date Range] Recap](#week-of-date-range-recap)
-- [Template: Team Lead Focus](#template-team-lead-focus)
+- [Template - Team Lead Focus](#template-team-lead-focus)
 - [Team Lead Weekly Update. [Date Range]](#team-lead-weekly-update-date-range)
 - [Automating Your Weekly Recap](#automating-your-weekly-recap)
 - [Best Practices for Remote Team Leads](#best-practices-for-remote-team-leads)
@@ -65,7 +65,7 @@ Highlight Blockers and Needs
 
 A recap isn't just a victory lap. Be transparent about obstacles you're facing or help you need. This opens the door for asynchronous collaboration on solutions.
 
-Template: Basic Weekly Recap
+Template - Basic Weekly Recap
 
 Here's a clean template suitable for most remote team leads:
 
@@ -95,7 +95,7 @@ Week of [Date Range] Recap
 Questions or want to chat async? Drop a comment here or Slack me.
 ```
 
-Template: Team Lead Focus
+Template - Team Lead Focus
 
 If you're managing other leads or have direct reports, adjust your focus:
 

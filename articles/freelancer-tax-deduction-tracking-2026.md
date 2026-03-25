@@ -65,7 +65,7 @@ Marketing and Client Acquisition
   - Business cards, professional photography
 ```
 
-Tracking System: Wave (Free)
+Tracking System - Wave (Free)
 
 Wave is a free accounting tool built for freelancers. Connect bank accounts and it auto-imports transactions. You categorize each transaction once; Wave remembers and applies the category to future transactions from the same merchant.
 
@@ -95,7 +95,7 @@ Wave → Reports → Profit & Loss Report
   → Share with accountant or import into tax software
 ```
 
-Tracking System: Actual Budget (Free, Self-Hosted)
+Tracking System - Actual Budget (Free, Self-Hosted)
 
 For freelancers who want local-first, no-cloud expense tracking:
 
@@ -112,7 +112,7 @@ Create categories matching the deduction list above
 Import transactions via CSV from bank exports
 ```
 
-Receipt Capture: Dext (formerly Receipt Bank)
+Receipt Capture - Dext (formerly Receipt Bank)
 
 Dext extracts data from photos of receipts and categorizes them. Point your phone camera at a receipt and it extracts amount, vendor, date, and tax. then pushes the data to Wave, QuickBooks, or Xero.
 
@@ -123,7 +123,7 @@ Dext → Connect → Wave (OAuth)
   → Review and approve → syncs to Wave automatically
 ```
 
-Alternative: Hubdoc (free with some accounting software) does the same for recurring invoices. connect your vendor accounts (AWS, Figma, GitHub) and it pulls invoices automatically.
+Alternative - Hubdoc (free with some accounting software) does the same for recurring invoices. connect your vendor accounts (AWS, Figma, GitHub) and it pulls invoices automatically.
 
 Track Quarterly Estimated Taxes
 
@@ -163,7 +163,7 @@ print(f"Monthly reserve: ${total_tax/12:,.0f}")
   Q4: January 15, 2027
 ```
 
-Home Office Deduction: Calculate Both Methods
+Home Office Deduction - Calculate Both Methods
 
 ```bash
 home-office.sh. compare simplified vs actual method
@@ -201,7 +201,7 @@ If client visits or supply runs are part of your freelance work, track miles sep
 Use MileIQ (iOS/Android). auto-detects drives via GPS
 Or log manually
 
-IRS standard mileage rate 2026: check IRS.gov (updated annually, ~67 cents/mile for 2024)
+IRS standard mileage rate 2026 - check IRS.gov (updated annually, ~67 cents/mile for 2024)
 
 Manual log format
 cat >> ~/business-mileage-2026.csv << 'EOF'

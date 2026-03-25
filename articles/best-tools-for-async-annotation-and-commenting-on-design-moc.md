@@ -21,16 +21,16 @@ Remote and distributed teams need effective ways to communicate about design wor
 Table of Contents
 
 - [Why Async Design Feedback Matters](#why-async-design-feedback-matters)
-- [Figma: Native Annotation with Dev Mode](#figma-native-annotation-with-dev-mode)
-- [MarkUp: Standalone Annotation Platform](#markup-standalone-annotation-platform)
-- [Frame.io: Video and Image Annotation](#frameio-video-and-image-annotation)
-- [Redline: Developer-Centric Annotation](#redline-developer-centric-annotation)
-- [InVision: Enterprise Design Collaboration](#invision-enterprise-design-collaboration)
+- [Figma - Native Annotation with Dev Mode](#figma-native-annotation-with-dev-mode)
+- [MarkUp - Standalone Annotation Platform](#markup-standalone-annotation-platform)
+- [Frame.io - Video and Image Annotation](#frameio-video-and-image-annotation)
+- [Redline - Developer-Centric Annotation](#redline-developer-centric-annotation)
+- [InVision - Enterprise Design Collaboration](#invision-enterprise-design-collaboration)
 - [Choosing the Right Tool](#choosing-the-right-tool)
 - [Automating Annotation Workflows](#automating-annotation-workflows)
 - [Building Review Templates for Consistency](#building-review-templates-for-consistency)
-- [Feedback Template: Visual Polish](#feedback-template-visual-polish)
-- [Feedback Template: Interaction Review](#feedback-template-interaction-review)
+- [Feedback Template - Visual Polish](#feedback-template-visual-polish)
+- [Feedback Template - Interaction Review](#feedback-template-interaction-review)
 - [Working with Design Systems and Tokens](#working-with-design-systems-and-tokens)
 - [Handling Async Feedback on Animations and Interactions](#handling-async-feedback-on-animations-and-interactions)
 - [Managing Comment Resolution and Stakeholder Sign-Off](#managing-comment-resolution-and-stakeholder-sign-off)
@@ -43,7 +43,7 @@ Design reviews consume significant time when conducted synchronously. Scheduling
 
 For developers, the key benefit is receiving actionable feedback directly tied to visual elements. Instead of parsing vague chat messages like "this button looks off," you get context-rich annotations pointing to exact coordinates, component names, or layer references. This precision accelerates implementation and reduces back-and-forth clarification.
 
-Figma: Native Annotation with Dev Mode
+Figma - Native Annotation with Dev Mode
 
 Figma leads the market for design collaboration, and its commenting system works exceptionally well for async workflows. You can add comments directly to the canvas, attach them to specific frames or objects, and use threads to organize discussions. Each comment includes a thumbnail of the design state at the time it was created, preserving context even as designs evolve.
 
@@ -79,7 +79,7 @@ async function getDeveloperComments() {
 
 This script filters comments tagged with `[dev]` or `@developer` mentions, returning only those requiring developer attention. Integrate this into your CI/CD pipeline to automatically create GitHub issues from design feedback.
 
-MarkUp: Standalone Annotation Platform
+MarkUp - Standalone Annotation Platform
 
 MarkUp provides a focused solution for teams already using design tools but wanting dedicated annotation workflows. The platform accepts designs via upload, URL embedding, or integration with storage services like Dropbox and Google Drive. Once a design is in MarkUp, team members can add comments, draw directly on the image, and track resolution progress.
 
@@ -87,7 +87,7 @@ MarkUp's strength lies in its simplicity. Unlike full design tools, it specializ
 
 For teams requiring more structure, MarkUp supports custom fields and workflows. You can create templates for different review types, assign comment categories, and generate reports on feedback patterns. This data helps identify recurring design issues and measure review efficiency over time.
 
-Frame.io: Video and Image Annotation
+Frame.io - Video and Image Annotation
 
 Originally built for video review, Frame.io extends its annotation capabilities to static images and design files. The platform excels when teams need to review animations, interaction sequences, or design presentations rather than single mockups. Frame.io's timeline-based comments allow annotators to reference specific frames, making it valuable for motion design and interactive prototype reviews.
 
@@ -111,7 +111,7 @@ Frame.io integrates with Adobe Creative Cloud, allowing round-trips between desi
 
 This structure maps comments to specific frame timestamps and coordinates, enabling developers to locate exact moments requiring adjustment.
 
-Redline: Developer-Centric Annotation
+Redline - Developer-Centric Annotation
 
 Redline takes a command-line approach to design annotation, appealing to developers who prefer keyboard-driven workflows. Rather than a graphical interface, Redline generates annotation data as JSON or Markdown, which you can embed directly in documentation or issue trackers. This approach integrates naturally with version control and developer tooling.
 
@@ -123,7 +123,7 @@ redline annotate design.png --x 150 --y 80 --comment "Increase padding here"
 
 This command adds an annotation to design.png at coordinates 150,80 with the specified comment. The output integrates directly into design documentation stored alongside code, maintaining version control over feedback history.
 
-InVision: Enterprise Design Collaboration
+InVision - Enterprise Design Collaboration
 
 InVision provides design collaboration with annotation features tailored for enterprise workflows. Its Freehand tool allows real-time collaborative whiteboarding, while the Inspect module provides developer handoff specifications. Comments support rich formatting, file attachments, and @mentions with customizable notification rules.
 
@@ -161,7 +161,7 @@ app.post('/figma-webhook', async (req, res) => {
       owner: 'your-org',
       repo: 'design-reviews',
       title: issueTitle,
-      body: `From Figma comment: ${comment.message}\n\nView in Figma: https://figma.com/file/${file_key}?comment=${comment_id}`
+      body: `From Figma comment: ${comment.message}\n\nView in Figma - https://figma.com/file/${file_key}?comment=${comment_id}`
     });
   }
 
@@ -176,14 +176,14 @@ Building Review Templates for Consistency
 Annotation workflows become scalable when your team standardizes how feedback gets communicated. Create templates for different review types, bug reports, polish feedback, accessibility reviews, and interaction clarification.
 
 ```markdown
-Feedback Template: Visual Polish
+Feedback Template - Visual Polish
 - [ ] Typography: Font sizes, weights, line-height alignment
 - [ ] Spacing: Padding, margins, rhythm consistency
 - [ ] Colors: Contrast ratios, brand compliance, dark mode support
 - [ ] Hover states: Interactive feedback visible
 - [ ] Animation: Timing and easing curves
 
-Feedback Template: Interaction Review
+Feedback Template - Interaction Review
 - [ ] User flow is logical and discoverable
 - [ ] Error states are clear and recoverable
 - [ ] Loading states provide feedback
@@ -197,8 +197,8 @@ Working with Design Systems and Tokens
 
 Modern design systems use design tokens, semantic variables for colors, typography, spacing, and other properties. When annotating against a design system, reference token names rather than pixel values.
 
-Instead of: "Make this button 12 pixels taller"
-Write: "Use spacing-lg (32px) instead of spacing-md (24px)"
+Instead of - "Make this button 12 pixels taller"
+Write - "Use spacing-lg (32px) instead of spacing-md (24px)"
 
 This approach connects feedback to design system maintenance and helps token-aware tools like Storybook, Tailwind, or CSS-in-JS frameworks automatically implement feedback.
 
@@ -300,7 +300,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -312,7 +312,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

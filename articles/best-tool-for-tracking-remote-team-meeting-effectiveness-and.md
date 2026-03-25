@@ -23,7 +23,7 @@ Table of Contents
 - [Why Meeting Metrics Matter for Remote Teams](#why-meeting-metrics-matter-for-remote-teams)
 - [Core Metrics for Meeting Effectiveness](#core-metrics-for-meeting-effectiveness)
 - [Implementing Measurement Without Overhead](#implementing-measurement-without-overhead)
-- [Meeting: [Title] - [Date]](#meeting-title-date)
+- [Meeting - [Title] - [Date]](#meeting-title-date)
 - [Reducing Meeting Waste](#reducing-meeting-waste)
 - [The Tool Recommendation](#the-tool-recommendation)
 - [Measuring Improvement](#measuring-improvement)
@@ -108,10 +108,10 @@ def generate_report(events):
     print(f"Meeting Report - Last {REPORT_DAYS} Days")
     print(f"=" * 40)
     print(f"Total Meetings: {patterns['total_meetings']}")
-    print(f"Total Hours: {patterns['total_hours']:.1f}")
-    print(f"Avg Length: {patterns['avg_meeting_length']:.1f} hours")
-    print(f"Recurring: {patterns['recurring_percentage']:.0f}%")
-    print(f"Estimated Cost: ${total_cost:,.0f}")
+    print(f"Total Hours - {patterns['total_hours']:.1f}")
+    print(f"Avg Length - {patterns['avg_meeting_length']:.1f} hours")
+    print(f"Recurring - {patterns['recurring_percentage']:.0f}%")
+    print(f"Estimated Cost - ${total_cost:,.0f}")
 ```
 
 This script provides baseline metrics. Run it weekly or monthly to track trends over time.
@@ -121,7 +121,7 @@ Action Item Tracking System
 Create a simple system to track meeting outcomes. Use a shared document or GitHub project where meeting notes live, with a standardized format:
 
 ```markdown
-Meeting: [Title] - [Date]
+Meeting - [Title] - [Date]
 
 Attendees
 - @person1
@@ -268,19 +268,19 @@ Using Meeting Data to Improve Specific Meetings
 
 Beyond the raw metrics, analyze particular meetings:
 
-For standup meetings: If standup takes 15 minutes but involves 8 people, that's 2 hours total cost. If you could move to async in 3 minutes per person, you save 20 minutes of synchronized time. Move it async.
+For standup meetings - If standup takes 15 minutes but involves 8 people, that's 2 hours total cost. If you could move to async in 3 minutes per person, you save 20 minutes of synchronized time. Move it async.
 
-For planning meetings: Track planning meeting frequency vs. project launch velocity. Do you plan more than you execute? Too many planning meetings indicate unclear requirements before planning begins.
+For planning meetings - Track planning meeting frequency vs. project launch velocity. Do you plan more than you execute? Too many planning meetings indicate unclear requirements before planning begins.
 
 For 1:1s: These should rarely be group meetings. If you have recurring 1:1 meetings as a team, convert them to async check-ins (Loom video) or written updates.
 
-For retros: Do you actually implement feedback from retros? Track action items and completion rate. If completion is low, retros are waste, simplify to async feedback instead.
+For retros - Do you actually implement feedback from retros? Track action items and completion rate. If completion is low, retros are waste, simplify to async feedback instead.
 
 Presenting Findings to Leadership
 
 When you have meeting effectiveness data, present it persuasively:
 
-Bad presentation: "We have too many meetings."
+Bad presentation - "We have too many meetings."
 
 Good presentation:
 ```
@@ -297,7 +297,7 @@ Recommendations:
 2. Cancel monthly architecture review (hasn't made a decision in 6 weeks)
 3. Implement 25-min hard stop on planning meetings
 
-Expected impact: 3 hours/person/week saved = $3,900 Q2 impact
+Expected impact - 3 hours/person/week saved = $3,900 Q2 impact
 ```
 
 Data-driven recommendations beat complaints every time.
@@ -327,7 +327,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -339,7 +339,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

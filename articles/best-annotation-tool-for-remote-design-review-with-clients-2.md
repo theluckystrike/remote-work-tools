@@ -233,8 +233,8 @@ Workflow:
 5. Archive comments when resolved
 6. Export to PDF with resolved comments stripped
 ```
-Best for: Design teams already using Figma. Eliminate third tool.
-Weakness: Difficult for non-designers to leave precise feedback.
+Best for - Design teams already using Figma. Eliminate third tool.
+Weakness - Difficult for non-designers to leave precise feedback.
 
 Frame.io ($12-40/month)
 ```
@@ -246,8 +246,8 @@ Workflow:
 5. Integrates directly with Slack channel
 6. Export full conversation as PDF
 ```
-Best for: Presentation-focused feedback. Good UX for clients.
-Weakness: Pricier than alternatives. Overkill for static design only.
+Best for - Presentation-focused feedback. Good UX for clients.
+Weakness - Pricier than alternatives. Overkill for static design only.
 
 Dovetail (Enterprise)
 ```
@@ -258,8 +258,8 @@ Workflow:
 4. Exportable insights document for stakeholders
 5. Integration with design tools shows impact
 ```
-Best for: Research-heavy projects needing to justify design decisions.
-Weakness: Complex setup. High price. Overkill for small projects.
+Best for - Research-heavy projects needing to justify design decisions.
+Weakness - Complex setup. High price. Overkill for small projects.
 
 Client Annotation Guidelines Document
 
@@ -340,7 +340,7 @@ Acceptance criteria:
 - Meets WCAG AA contrast ratios
 - Tap target is at least 48px × 48px
 
-Related annotation: Design review #47
+Related annotation - Design review #47
 ```
 
 This template keeps feedback organized and prevents miscommunication between design and development.
@@ -349,34 +349,34 @@ Async Review Workflow Template
 
 Structure that works for distributed teams:
 
-Day 1: Design ready
+Day 1 - Design ready
 - Upload final designs to annotation tool
 - Send client link via email
 - Set deadline 5 days out
 - Pin in Slack #design channel
 
-Days 2-4: Client review window
+Days 2-4 - Client review window
 - Clients add comments as they review
 - Designer monitors for questions
 - Respond to clarification questions same day (under 30 mins)
 
-Day 5: Consolidation
+Day 5 - Consolidation
 - Close review window
 - Consolidate feedback by category
 - Flag scope changes
 - Schedule 15-min call if anything unclear
 
-Day 6: Refinement call (if needed)
+Day 6 - Refinement call (if needed)
 - 15 minutes to discuss ambiguous feedback
 - Record call for documentation
 - Designer takes notes on agreements
 
-Day 7: Implementation
+Day 7 - Implementation
 - Designer updates based on feedback
 - Deploy updated designs
 - Tag feedback items as "resolved"
 
-Day 8: Final approval
+Day 8 - Final approval
 - Client reviews changes
 - Approves or requests final tweaks
 - Design locked for development handoff
@@ -433,7 +433,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -445,7 +445,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

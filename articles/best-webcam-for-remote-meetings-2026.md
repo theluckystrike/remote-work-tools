@@ -20,12 +20,12 @@ Remote meetings have become a staple of professional life, and the difference be
 
 Table of Contents
 
-- [Resolution and Frame Rate: What Actually Matters](#resolution-and-frame-rate-what-actually-matters)
-- [Low-Light Performance: The Hidden Critical Factor](#low-light-performance-the-hidden-critical-factor)
+- [Resolution and Frame Rate - What Actually Matters](#resolution-and-frame-rate-what-actually-matters)
+- [Low-Light Performance - The Hidden Critical Factor](#low-light-performance-the-hidden-critical-factor)
 - [Autofocus and Field of View Considerations](#autofocus-and-field-of-view-considerations)
 - [Platform Compatibility and Driver Support](#platform-compatibility-and-driver-support)
 - [Developer-Friendly Features](#developer-friendly-features)
-- [Microphone Quality: Don't Overlook Audio](#microphone-quality-dont-overlook-audio)
+- [Microphone Quality - Don't Overlook Audio](#microphone-quality-dont-overlook-audio)
 - [Privacy and Security](#privacy-and-security)
 - [Making Your Decision](#making-your-decision)
 - [Specific Webcam Recommendations by Use Case](#specific-webcam-recommendations-by-use-case)
@@ -37,7 +37,7 @@ Table of Contents
 
 This guide breaks down the technical aspects of modern webcams, helping you make an informed decision without relying on marketing hype.
 
-Resolution and Frame Rate: What Actually Matters
+Resolution and Frame Rate - What Actually Matters
 
 The most visible specification is resolution. Most modern webcams offer 1080p (Full HD) as the baseline, with 4K options becoming increasingly common. However, resolution alone doesn't determine image quality.
 
@@ -54,7 +54,7 @@ Here's a quick reference for matching resolution to use case:
 
 Frame rate impacts perceived smoothness more than resolution in many scenarios. A 1080p60 feed often looks more natural than a 4K30 feed, especially when you're moving around or demonstrating something.
 
-Low-Light Performance: The Hidden Critical Factor
+Low-Light Performance - The Hidden Critical Factor
 
 Your office lighting isn't always optimal. That's where low-light performance becomes crucial. This specification determines how well your webcam performs in dimly lit rooms or during evening calls.
 
@@ -125,7 +125,7 @@ for key in prop_keys:
 cap.release()
 ```
 
-Microphone Quality: Don't Overlook Audio
+Microphone Quality - Don't Overlook Audio
 
 A great video feed means nothing if your audio is unintelligible. Built-in microphones vary dramatically in quality. While convenient, most webcam mics pick up room reverb and keyboard sounds.
 
@@ -156,35 +156,35 @@ Test your webcam before important meetings. Most platforms offer preview functio
 
 Specific Webcam Recommendations by Use Case
 
-Best budget option: Logitech C920
+Best budget option - Logitech C920
 - Price: $50-70
 - Resolution: 1080p 30fps
 - Strength: Reliable, widespread driver support, good for baseline quality
 - Weakness: Struggles in low light, autofocus can be slow
 - Best for: Developers on a budget who value reliability over premium features
 
-Best overall for developers: Logitech C920S
+Best overall for developers - Logitech C920S
 - Price: $70-90
 - Resolution: 1080p 30fps + privacy shutter
 - Strength: Same reliability as C920 plus privacy control
 - Weakness: Still struggles in challenging lighting
 - Best for: Privacy-conscious developers, organizations with security requirements
 
-Best for low-light performance: Razer Kiyo Pro
+Best for low-light performance - Razer Kiyo Pro
 - Price: $100-130
 - Resolution: 1080p 60fps with auto-HDR
 - Strength: Built-in ring light, excellent low-light performance, fast autofocus
 - Weakness: More expensive, ring light adds bulk
 - Best for: Rooms with poor lighting, video creators, streamers
 
-Best for 4K: Logitech MX Brio
+Best for 4K - Logitech MX Brio
 - Price: $120-150
 - Resolution: 4K 30fps, 1080p 60fps modes
 - Strength: Excellent image quality, supports 4K, Windows Hello compatible
 - Weakness: Requires more bandwidth, overkill for basic meetings
 - Best for: Professional presentations, detailed screen sharing, content creators
 
-Best for wide-angle: Logitech C930e
+Best for wide-angle - Logitech C930e
 - Price: $90-110
 - Resolution: 1080p 30fps, 90-degree FOV
 - Strength: Wide field of view captures your workspace, good for group meetings
@@ -224,14 +224,14 @@ Cable and Mount Considerations
 
 Your webcam's physical setup affects perceived quality as much as the camera itself:
 
-Cable management: Use an USB extension cable (3-6 feet) to position your camera optimally. This prevents you from being tethered to your monitor or laptop position.
+Cable management - Use an USB extension cable (3-6 feet) to position your camera optimally. This prevents you from being tethered to your monitor or laptop position.
 
 Mounting options:
 - Monitor clip (most webcams): Positions camera at eye level when you look at the screen
 - Tripod mount (standard 1/4"-20 threading): Gives maximum positioning flexibility
 - Adhesive mount: For displays where clipping isn't possible
 
-Eye-level positioning: Camera should align with your eyes when looking at the monitor. This creates better "eye contact" appearance on video. Too low makes you look down; too high makes you appear distant.
+Eye-level positioning - Camera should align with your eyes when looking at the monitor. This creates better "eye contact" appearance on video. Too low makes you look down; too high makes you appear distant.
 
 Audio Considerations Revisited
 
@@ -259,13 +259,13 @@ Troubleshooting Common Webcam Issues
 
 Even with a quality webcam, problems sometimes emerge:
 
-Green or purple tint to image: Often indicates white balance issues. Check your platform's video settings for white balance adjustment. Alternatively, verify your lighting has proper color temperature (warm white light often causes color casts).
+Green or purple tint to image - Often indicates white balance issues. Check your platform's video settings for white balance adjustment. Alternatively, verify your lighting has proper color temperature (warm white light often causes color casts).
 
 Image appears inverted or rotated: Most platforms detect orientation automatically, but this sometimes fails. Check your video settings for "flip horizontal" or rotation options.
 
 Autofocus hunting (constantly refocusing): Occurs when your background has competing focal points. Simplify your background or manually disable autofocus if your webcam supports it.
 
-Low light performance with built-in microphone picking up fan noise: Room conditions matter. If your webcam is in low light, it compensates by raising gain on the microphone, amplifying background noise. Solution: improve lighting or use external microphone.
+Low light performance with built-in microphone picking up fan noise: Room conditions matter. If your webcam is in low light, it compensates by raising gain on the microphone, amplifying background noise. Solution - improve lighting or use external microphone.
 
 Bandwidth consumption too high for your internet: 4K webcams consume significant bandwidth. In unreliable connections, downgrade to 1080p 30fps or reduce frame rate.
 

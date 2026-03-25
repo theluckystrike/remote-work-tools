@@ -39,9 +39,9 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Install ation Options
+Step 1 - Install ation Options
 
-Option 1: GitHub App (Easiest)
+Option 1 - GitHub App (Easiest)
 
 ```bash
 1. Install the Mend Renovate app from GitHub Marketplace
@@ -49,7 +49,7 @@ Option 1: GitHub App (Easiest)
 3. Add renovate.json to your repo root
 ```
 
-Option 2: Self-Hosted with GitHub Actions
+Option 2 - Self-Hosted with GitHub Actions
 
 ```yaml
 .github/workflows/renovate.yml
@@ -74,7 +74,7 @@ jobs:
           LOG_LEVEL: debug
 ```
 
-Option 3: Self-Hosted CLI
+Option 3 - Self-Hosted CLI
 
 ```bash
 Install
@@ -86,7 +86,7 @@ RENOVATE_PLATFORM=github \
 renovate yourorg/yourrepo
 ```
 
-Step 2: Base Configuration
+Step 2 - Base Configuration
 
 ```json
 // renovate.json
@@ -107,7 +107,7 @@ Step 2: Base Configuration
 }
 ```
 
-Step 3: Grouping Updates
+Step 3 - Grouping Updates
 
 Reduce PR noise by grouping related packages:
 
@@ -151,7 +151,7 @@ Reduce PR noise by grouping related packages:
 }
 ```
 
-Step 4: Auto-Merge Safe Updates
+Step 4 - Auto-Merge Safe Updates
 
 ```json
 {
@@ -187,7 +187,7 @@ Step 4: Auto-Merge Safe Updates
 }
 ```
 
-Step 5: Python / Poetry Configuration
+Step 5 - Python / Poetry Configuration
 
 ```json
 {
@@ -215,7 +215,7 @@ Step 5: Python / Poetry Configuration
 }
 ```
 
-Step 6: Docker and GitHub Actions Updates
+Step 6 - Docker and GitHub Actions Updates
 
 ```json
 {
@@ -250,7 +250,7 @@ Step 6: Docker and GitHub Actions Updates
 }
 ```
 
-Step 7: Security-Only Mode
+Step 7 - Security-Only Mode
 
 For repos where you only want to act on known vulnerabilities:
 
@@ -278,7 +278,7 @@ For repos where you only want to act on known vulnerabilities:
 }
 ```
 
-Step 8: Monorepo Configuration
+Step 8 - Monorepo Configuration
 
 ```json
 {
@@ -311,7 +311,7 @@ Step 8: Monorepo Configuration
 }
 ```
 
-Step 9: PR Description Customization
+Step 9 - PR Description Customization
 
 ```json
 {
@@ -320,7 +320,7 @@ Step 9: PR Description Customization
 }
 ```
 
-Step 10: Run Renovate on Gitea
+Step 10 - Run Renovate on Gitea
 
 ```json
 {
@@ -388,7 +388,7 @@ Avoid being the first team to hit a broken release by requiring packages to age 
 }
 ```
 
-The `internalChecksFilter: "strict"` setting tells Renovate to wait for its own internal age check to pass before opening the PR, even if the package satisfies other rules. Three days is a reasonable default that filters out yanked or immediately hotfixed releases without adding meaningful delay.
+The `internalChecksFilter - "strict"` setting tells Renovate to wait for its own internal age check to pass before opening the PR, even if the package satisfies other rules. Three days is a reasonable default that filters out yanked or immediately hotfixed releases without adding meaningful delay.
 
 Ignoring and Pinning Specific Packages
 

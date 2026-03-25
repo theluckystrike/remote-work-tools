@@ -33,7 +33,7 @@ Why Remote PIPs Need Different Structure
 
 In a physical office, managers can observe work in real-time, catching issues during standups, noticing when someone seems stuck, or providing immediate feedback on deliverables. Remote work removes these organic check-in moments. A PIP for a distributed employee must compensate for this visibility gap by building in more frequent checkpoints and clearer documentation mechanisms.
 
-The core challenge: remote performance issues often stem from communication breakdowns rather than capability gaps. Your template needs to address both the what (measurable outcomes) and the how (communication patterns, collaboration quality).
+The core challenge - remote performance issues often stem from communication breakdowns rather than capability gaps. Your template needs to address both the what (measurable outcomes) and the how (communication patterns, collaboration quality).
 
 Core Components of a Remote Performance Improvement Plan
 
@@ -138,7 +138,7 @@ def check_pip_progress(pip_data):
         print(f"Deadline: {goal['deadline']}")
         print()
 
-Usage: python pip_tracker.py employee-pip.json
+Usage - python pip_tracker.py employee-pip.json
 ```
 
 Setting Up Tracking in Your Project Management Tool
@@ -195,7 +195,7 @@ The goal of any PIP is genuine improvement. When executed thoughtfully with clea
 
 Sample PIPs Across Roles
 
-Performance Improvement Plan: Backend Engineer
+Performance Improvement Plan - Backend Engineer
 
 ```json
 {
@@ -231,7 +231,7 @@ Performance Improvement Plan: Backend Engineer
 }
 ```
 
-Performance Improvement Plan: Product Manager
+Performance Improvement Plan - Product Manager
 
 ```json
 {
@@ -267,7 +267,7 @@ Performance Improvement Plan: Product Manager
 }
 ```
 
-Performance Improvement Plan: Sales Engineer
+Performance Improvement Plan - Sales Engineer
 
 ```json
 {
@@ -307,15 +307,15 @@ Handling PIP Conversations Sensitively
 
 A PIP is a difficult conversation. Approach it with:
 
-Clarity: "This is a performance improvement plan. It means we've identified specific areas where your performance isn't meeting expectations, and we're committing to help you improve."
+Clarity - "This is a performance improvement plan. It means we've identified specific areas where your performance isn't meeting expectations, and we're committing to help you improve."
 
-Specificity: Show data, not opinions. "Your last 10 PRs averaged 62 hours to first review" beats "you're slow at reviewing."
+Specificity - Show data, not opinions. "Your last 10 PRs averaged 62 hours to first review" beats "you're slow at reviewing."
 
-Support: Be explicit about what resources you're providing. The employee shouldn't feel like they're being set up to fail.
+Support - Be explicit about what resources you're providing. The employee shouldn't feel like they're being set up to fail.
 
-Hope: "The goal is for you to succeed and continue growing here. This plan is how we get there."
+Hope - "The goal is for you to succeed and continue growing here. This plan is how we get there."
 
-Documentation: Send a written summary of the conversation to the employee with the JSON template attached.
+Documentation - Send a written summary of the conversation to the employee with the JSON template attached.
 
 Scenarios Where PIPs Fail
 

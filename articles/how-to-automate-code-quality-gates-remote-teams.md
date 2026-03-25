@@ -27,7 +27,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Layer 1: Pre-Commit Hooks (Local, Fast)
+Step 1 - Layer 1: Pre-Commit Hooks (Local, Fast)
 
 Stop bad code before it's pushed:
 
@@ -85,7 +85,7 @@ Update hooks
 pre-commit autoupdate
 ```
 
-Step 2: Layer 2: SonarQube for Code Analysis
+Step 2 - Layer 2: SonarQube for Code Analysis
 
 ```yaml
 docker-compose.yml (SonarQube server)
@@ -146,15 +146,15 @@ sonar.python.coverage.reportPaths=coverage.xml
 sonar.python.version=3.11
 
 Quality gate thresholds (set in SonarQube UI or via API)
-Coverage: min 80%
-Duplications: max 3%
-Maintainability rating: A
-Reliability rating: A
-Security rating: A
-Security hotspots reviewed: 100%
+Coverage - min 80%
+Duplications - max 3%
+Maintainability rating - A
+Reliability rating - A
+Security rating - A
+Security hotspots reviewed - 100%
 ```
 
-Step 3: Layer 3: GitHub Actions Quality Gate
+Step 3 - Layer 3: GitHub Actions Quality Gate
 
 ```yaml
 .github/workflows/quality.yml
@@ -244,7 +244,7 @@ jobs:
           sarif_file: trivy-results.sarif
 ```
 
-Step 4: Layer 4: Branch Protection Rules
+Step 4 - Layer 4: Branch Protection Rules
 
 Configure in GitHub repo settings (or via API):
 
@@ -252,7 +252,7 @@ Configure in GitHub repo settings (or via API):
 Via GitHub CLI
 gh api repos/yourorg/yourrepo/branches/main/protection \
   --method PUT \
-  -H "Accept: application/vnd.github+json" \
+  -H "Accept - application/vnd.github+json" \
   -f required_status_checks='{"strict":true,"contexts":["lint-test","sonarqube","security"]}' \
   -f enforce_admins=false \
   -f required_pull_request_reviews='{"required_approving_review_count":1,"dismiss_stale_reviews":true}' \
@@ -269,7 +269,7 @@ Settings to enable:
 - Require at least 1 approving review
 - Dismiss stale pull request approvals when new commits are pushed
 
-Step 5: Layer 5: PR Size Limits
+Step 5 - Layer 5: PR Size Limits
 
 Large PRs resist review. Automate a size check:
 
@@ -306,7 +306,7 @@ jobs:
           fi
 ```
 
-Step 6: Reporting to Slack
+Step 6 - Reporting to Slack
 
 ```yaml
 Add to quality.yml
@@ -326,7 +326,7 @@ Add to quality.yml
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
 ```
 
-Step 7: Enforcing Commit Message Standards
+Step 7 - Enforcing Commit Message Standards
 
 Inconsistent commit messages make it impossible to generate meaningful changelogs or trace bugs through history. Add a `commit-msg` hook that enforces Conventional Commits format:
 
@@ -342,7 +342,7 @@ In .pre-commit-config.yaml, add:
 
 This blocks commits like `fix stuff` but allows `fix(auth): handle expired JWT tokens correctly`. Your CI/CD pipeline can then run `conventional-changelog` to auto-generate release notes on every merge to main.
 
-Step 8: Caching for Fast Feedback Loops
+Step 8 - Caching for Fast Feedback Loops
 
 Remote developers tolerate slow feedback loops poorly. a 10-minute CI run kills momentum. Cache aggressively:
 
@@ -365,7 +365,7 @@ In .github/workflows/quality.yml, improve the lint-test job:
 
 For Python projects this alone cuts install time from 90 seconds to under 10. Apply the same pattern to npm (`~/.npm`), Maven (`~/.m2`), or Gradle (`~/.gradle`) caches.
 
-Step 9: Language-Specific Gate Configurations
+Step 9 - Language-Specific Gate Configurations
 
 JavaScript / TypeScript Projects
 
@@ -421,7 +421,7 @@ Go Projects
           [ $(echo "$COVERAGE >= 80" | bc) -eq 1 ] || (echo "::error::Coverage below 80%"; exit 1)
 ```
 
-Step 10: Rollout Strategy for Existing Codebases
+Step 10 - Rollout Strategy for Existing Codebases
 
 Dropping a strict quality gate on a legacy codebase generates hundreds of failures and demoralizes the team. Use a ratchet approach instead:
 
@@ -432,7 +432,7 @@ Dropping a strict quality gate on a legacy codebase generates hundreds of failur
 
 This converts the quality gate from an obstacle into a metric that visibly improves. which changes team culture around code quality faster than enforcement alone.
 
-Step 11: Configure Quality Gate Notifications Without Noise
+Step 11 - Configure Quality Gate Notifications Without Noise
 
 Spam every PR failure to Slack and engineers mute the channel. Tune notifications:
 

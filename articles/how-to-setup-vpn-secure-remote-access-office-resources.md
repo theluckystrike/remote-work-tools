@@ -19,17 +19,17 @@ VPN security should be transparent, remote workers shouldn't notice it's running
 
 Table of Contents
 
-- [VPN Architecture: What You Actually Need](#vpn-architecture-what-you-actually-need)
+- [VPN Architecture - What You Actually Need](#vpn-architecture-what-you-actually-need)
 - [VPN Protocol Comparison](#vpn-protocol-comparison)
 - [Hardware Requirements](#hardware-requirements)
-- [Step-by-Step: WireGuard VPN Setup](#step-by-step-wireguard-vpn-setup)
+- [Step-by-Step - WireGuard VPN Setup](#step-by-step-wireguard-vpn-setup)
 - [Client Setup (macOS Example)](#client-setup-macos-example)
 - [Common VPN Issues and Fixes](#common-vpn-issues-and-fixes)
 - [Monitoring and Troubleshooting](#monitoring-and-troubleshooting)
-- [Alternative: Tailscale (Faster Setup)](#alternative-tailscale-faster-setup)
+- [Alternative - Tailscale (Faster Setup)](#alternative-tailscale-faster-setup)
 - [Cost Comparison](#cost-comparison)
 
-VPN Architecture: What You Actually Need
+VPN Architecture - What You Actually Need
 
 A corporate VPN needs:
 
@@ -63,7 +63,7 @@ VPN Protocol Comparison
 | IKEv2/IPSec | 700+ Mbps | Complex (45 min) | Windows, Mac, iOS, Android | Enterprise mixed environments | Excellent |
 | Tailscale (WireGuard-based) | 800+ Mbps | Minimal (2 min) | All platforms | Remote teams, zero-trust networks | Excellent |
 
-For most remote teams: WireGuard + modern Linux distribution = best balance of simplicity and security.
+For most remote teams - WireGuard + modern Linux distribution = best balance of simplicity and security.
 
 Hardware Requirements
 
@@ -77,11 +77,11 @@ Scaling Estimates:
 - 50-200 users: 2x t3.medium + load balancer (~$80-120/month)
 - 200+ users: 4x t3.large + geo-distributed load balancer (~$200-400/month)
 
-Step-by-Step: WireGuard VPN Setup
+Step-by-Step - WireGuard VPN Setup
 
 WireGuard is recommended for new deployments due to simplicity and performance.
 
-Step 1: Provision VPN Server (Ubuntu 22.04)
+Step 1 - Provision VPN Server (Ubuntu 22.04)
 
 ```bash
 Update system
@@ -98,7 +98,7 @@ View server public key (you'll share this with clients)
 sudo cat /etc/wireguard/server_public.key
 ```
 
-Step 2: Create WireGuard Configuration
+Step 2 - Create WireGuard Configuration
 
 ```bash
 Create configuration file
@@ -128,13 +128,13 @@ UMask = 0077
 SaveConfig = false
 ```
 
-Step 3: Add Client Configurations
+Step 3 - Add Client Configurations
 
 For each remote user, generate a key pair and add to server config:
 
 ```bash
 #!/bin/bash
-Script: add-wireguard-peer.sh
+Script - add-wireguard-peer.sh
 
 ./add-wireguard-peer.sh "alice@company.com"
 CLIENT_NAME=$1
@@ -147,7 +147,7 @@ CLIENT_PUBLIC=$(echo $CLIENT_PRIVATE | wg pubkey)
 Add to server config
 sudo tee -a /etc/wireguard/wg0.conf > /dev/null <<EOF
 
-Peer: $CLIENT_NAME
+Peer - $CLIENT_NAME
 [Peer]
 PublicKey = $CLIENT_PUBLIC
 AllowedIPs = $CLIENT_IP/32
@@ -181,7 +181,7 @@ Reload WireGuard after adding peers
 sudo systemctl reload wg-quick@wg0
 ```
 
-Step 4: Enable WireGuard Service
+Step 4 - Enable WireGuard Service
 
 ```bash
 Enable IP forwarding (required for routing)
@@ -196,7 +196,7 @@ Verify it's running
 sudo wg show
 ```
 
-Step 5: Configure Split-Tunnel DNS (Critical!)
+Step 5 - Configure Split-Tunnel DNS (Critical!)
 
 Split-tunnel DNS ensures `internal.company.com` routes to your internal DNS, while public domains go to public DNS.
 
@@ -245,7 +245,7 @@ Address = 10.0.0.X/32
 DNS = 10.0.0.1  # Points to dnsmasq on VPN server
 ```
 
-Step 6: Firewall Configuration
+Step 6 - Firewall Configuration
 
 Allow only internal resources through VPN, deny others:
 
@@ -261,7 +261,7 @@ Block VPN clients from accessing external services
 sudo iptables -t nat -A POSTROUTING -o wg0 -d 0.0.0.0/0 -j REJECT
 ```
 
-More restrictive: Only allow specific internal subnets
+More restrictive - Only allow specific internal subnets
 
 ```bash
 Allow VPN access to internal network only
@@ -278,10 +278,10 @@ Client Setup (macOS Example)
 Download and Install WireGuard
 
 ```bash
-Option 1: Homebrew
+Option 1 - Homebrew
 brew install wireguard-tools
 
-Option 2: Download from App Store (WireGuard by Jason A. Donenfeld)
+Option 2 - Download from App Store (WireGuard by Jason A. Donenfeld)
 ```
 
 Add VPN Configuration
@@ -314,16 +314,16 @@ sudo wg-quick down company-vpn
 
 Common VPN Issues and Fixes
 
-Issue 1: DNS Not Resolving Internal Domains
+Issue 1 - DNS Not Resolving Internal Domains
 
-Problem: `ping internal.company.com` fails, but other VPN traffic works.
+Problem - `ping internal.company.com` fails, but other VPN traffic works.
 
 ```bash
 Diagnosis
 nslookup internal.company.com
-Output: Server: 10.0.0.1  (wrong. should be your DNS server)
+Output - Server: 10.0.0.1  (wrong. should be your DNS server)
 
-Fix: Verify DNS configuration on VPN server
+Fix - Verify DNS configuration on VPN server
 sudo cat /etc/dnsmasq.conf | grep "server=/internal"
 
 Restart dnsmasq
@@ -337,7 +337,7 @@ Linux:
 sudo systemctl restart systemd-resolved
 ```
 
-Issue 2: Slow VPN Speed (Should be 400+ Mbps)
+Issue 2 - Slow VPN Speed (Should be 400+ Mbps)
 
 ```bash
 Test speed through VPN
@@ -356,43 +356,43 @@ ssh vpn-server "top -b -n 1 | head -20"
 If CPU > 80%, upgrade server instance size
 ```
 
-Issue 3: Intermittent Disconnects
+Issue 3 - Intermittent Disconnects
 
 ```bash
-Problem: VPN drops every 30 minutes or 2 hours
+Problem - VPN drops every 30 minutes or 2 hours
 
-Fix 1: Enable PersistentKeepalive (in client config)
+Fix 1 - Enable PersistentKeepalive (in client config)
 [Peer]
 PersistentKeepalive = 25  # Sends keepalive every 25 seconds
 
-Fix 2: Check firewall rules (may timeout idle connections)
+Fix 2 - Check firewall rules (may timeout idle connections)
 Contact ISP/firewall provider if PersistentKeepalive doesn't help
 
-Fix 3: Increase server timeout
+Fix 3 - Increase server timeout
 sudo nano /etc/sysctl.conf
-Add: net.netfilter.nf_conntrack_tcp_timeout_established = 3600
+Add - net.netfilter.nf_conntrack_tcp_timeout_established = 3600
 sudo sysctl -p
 
 Reconnect and test
 sudo wg-quick down company-vpn && sleep 2 && sudo wg-quick up company-vpn
 ```
 
-Issue 4: Split-Tunnel DNS Breaks Public Websites
+Issue 4 - Split-Tunnel DNS Breaks Public Websites
 
-Problem: `google.com` resolves to internal IP or doesn't resolve.
+Problem - `google.com` resolves to internal IP or doesn't resolve.
 
 ```bash
-Diagnosis: Check what DNS is returning
+Diagnosis - Check what DNS is returning
 nslookup google.com
 
-Fix: Verify dnsmasq configuration
+Fix - Verify dnsmasq configuration
 Should only route internal.company.com to internal DNS
 sudo cat /etc/dnsmasq.conf | grep "server="
 
 If google.com is being routed internally, remove that line
 sudo nano /etc/dnsmasq.conf
-Delete: server=192.168.1.1  (should route only company.com domains)
-Keep: server=8.8.8.8  (public DNS)
+Delete - server=192.168.1.1  (should route only company.com domains)
+Keep - server=8.8.8.8  (public DNS)
 
 sudo systemctl restart dnsmasq
 ```
@@ -435,7 +435,7 @@ Watch real-time logs
 sudo journalctl -u wg-quick@wg0 -f
 ```
 
-Alternative: Tailscale (Faster Setup)
+Alternative - Tailscale (Faster Setup)
 
 If you prefer managed VPN over self-hosted, Tailscale uses WireGuard under the hood:
 
@@ -448,7 +448,7 @@ sudo tailscale up --advertise-routes=192.168.1.0/24
 
 No manual configuration needed. Tailscale handles routing, DNS, firewall
 
-Cost: Free for <100 devices, then $3-10/month per additional device
+Cost - Free for <100 devices, then $3-10/month per additional device
 ```
 
 Easy setup, automatic DNS, works across NATs
@@ -464,8 +464,8 @@ Cost Comparison
 | Tailscale Pro | None | $120-300/year | 5 minutes | Minimal |
 | Corporate VPN (Cisco, Fortinet) | Hardware | $5,000-20,000+ | 40+ hours | Full-time support |
 
-For teams <100: Self-hosted WireGuard or Tailscale
-For teams >100: Self-hosted with load balancing or enterprise solution
+For teams <100 - Self-hosted WireGuard or Tailscale
+For teams >100 - Self-hosted with load balancing or enterprise solution
 ---
 
 

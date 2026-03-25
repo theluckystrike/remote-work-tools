@@ -18,7 +18,7 @@ Setting up your digital workspace on your first day as a remote employee require
 
 Table of Contents
 
-- [Security Foundation: VPN and Authentication](#security-foundation-vpn-and-authentication)
+- [Security Foundation - VPN and Authentication](#security-foundation-vpn-and-authentication)
 - [Development Environment Configuration](#development-environment-configuration)
 - [Communication Stack Configuration](#communication-stack-configuration)
 - [Terminal and Shell Optimization](#terminal-and-shell-optimization)
@@ -27,10 +27,10 @@ Table of Contents
 - [Daily Driver Applications](#daily-driver-applications)
 - [Network and Hardware Considerations](#network-and-hardware-considerations)
 - [Automating Your Setup with a Bootstrap Script](#automating-your-setup-with-a-bootstrap-script)
-- [Workspace Organization: Directory Structure](#workspace-organization-directory-structure)
-- [Validating Your Setup: A First-Week Checklist](#validating-your-setup-a-first-week-checklist)
+- [Workspace Organization - Directory Structure](#workspace-organization-directory-structure)
+- [Validating Your Setup - A First-Week Checklist](#validating-your-setup-a-first-week-checklist)
 
-Security Foundation: VPN and Authentication
+Security Foundation - VPN and Authentication
 
 Before touching any work tools, establish a secure connection to your company network. Most organizations use VPN clients to encrypt traffic and provide access to internal resources.
 
@@ -280,7 +280,7 @@ echo "Done. Restart your terminal."
 
 Store this script in a private GitHub Gist or a personal dotfiles repository. Keep it updated as your standard tool set evolves. When a new colleague joins a fully remote team, pointing them at a maintained bootstrap script rather than a sprawling Confluence page reduces setup time significantly.
 
-Workspace Organization: Directory Structure
+Workspace Organization - Directory Structure
 
 Consistent directory structure across machines reduces the cognitive overhead of navigating projects. A predictable layout means muscle memory works on any machine you sit down at:
 
@@ -309,7 +309,7 @@ function goto() {
 
 This is a small investment that pays dividends across years of working in a distributed environment where you cannot walk over to a colleague's desk to look at their screen.
 
-Validating Your Setup: A First-Week Checklist
+Validating Your Setup - A First-Week Checklist
 
 Before your first real work sprint, verify every system is functioning correctly. Discovering a broken integration during an incident is far worse than discovering it on day one.
 

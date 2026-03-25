@@ -43,7 +43,7 @@ Zoom Companion Mode allows you to use your personal device alongside a room syst
 
 Step-by-Step Troubleshooting Guide
 
-Step 1: Verify Your Network Connection
+Step 1 - Verify Your Network Connection
 
 The first step in resolving any connectivity issue is ensuring your network is functioning properly.
 
@@ -52,7 +52,7 @@ The first step in resolving any connectivity issue is ensuring your network is f
 - Test your connection by joining a regular Zoom meeting without using Companion Mode
 - If possible, switch from WiFi to a wired ethernet connection for more stable performance
 
-Step 2: Update Zoom Client and Room System Software
+Step 2 - Update Zoom Client and Room System Software
 
 Outdated software frequently causes connection failures between Companion Mode and room systems.
 
@@ -61,7 +61,7 @@ Outdated software frequently causes connection failures between Companion Mode a
 - If you manage room systems, ensure the room system firmware is also updated to the latest version
 - After updating both applications, restart your device and the room system
 
-Step 3: Check Companion Mode Settings
+Step 3 - Check Companion Mode Settings
 
 Incorrect settings within Zoom can prevent proper room system connection.
 
@@ -71,7 +71,7 @@ Incorrect settings within Zoom can prevent proper room system connection.
 - Verify that the room system IP address or meeting ID is entered correctly
 - Confirm that the room system is set to accept connections from external devices
 
-Step 4: Restart All Devices and Applications
+Step 4 - Restart All Devices and Applications
 
 Sometimes, a simple restart resolves connectivity issues.
 
@@ -80,7 +80,7 @@ Sometimes, a simple restart resolves connectivity issues.
 - Wait 30 seconds before turning the room system back on
 - Reopen Zoom and attempt to connect to Companion Mode again
 
-Step 5: Check Firewall and Security Software
+Step 5 - Check Firewall and Security Software
 
 Firewall settings often block the necessary ports for Zoom room system communication.
 
@@ -108,7 +108,7 @@ On macOS, check if Zoom has firewall exceptions
 /usr/libexec/ApplicationFirewall/socketfilterfw --listapps | grep -i zoom
 ```
 
-Step 6: Verify Account Permissions and Licensing
+Step 6 - Verify Account Permissions and Licensing
 
 Your Zoom account must have the appropriate permissions to use Companion Mode with room systems.
 
@@ -117,7 +117,7 @@ Your Zoom account must have the appropriate permissions to use Companion Mode wi
 - Verify that the host of the meeting has granted permission for external device connections
 - If you are the meeting host, enable Companion Mode in your meeting settings before starting the session
 
-Step 7: Test with Different Devices and Room Systems
+Step 7 - Test with Different Devices and Room Systems
 
 If the issue persists, determine whether the problem is specific to one device or affects multiple configurations.
 
@@ -125,7 +125,7 @@ If the issue persists, determine whether the problem is specific to one device o
 - Attempt to connect to a different room system if available
 - Test the same room system with another user account to rule out account-specific problems
 
-Step 8: Review Zoom Service Status
+Step 8 - Review Zoom Service Status
 
 Sometimes the issue originates from Zoom's servers rather than your configuration.
 
@@ -133,7 +133,7 @@ Sometimes the issue originates from Zoom's servers rather than your configuratio
 - Look for announcements regarding Companion Mode or room system service disruptions
 - Wait and retry after any reported issues are resolved
 
-Step 9: Collect Logs for Support
+Step 9 - Collect Logs for Support
 
 If you still cannot resolve the connection issue, gathering logs will help Zoom support assist you.
 
@@ -227,9 +227,9 @@ Dual-screen setups (room system + personal device as separate participants): Wor
 
 Hot-desking with personal devices: Join the meeting directly from your personal device without room system involvement. Works for casual meetings but lacks room system audio/video quality.
 
-Zoom Rooms as primary endpoint: Have everyone join as participants in Zoom Rooms without Companion Mode. Simpler to manage but limits flexibility for individual control.
+Zoom Rooms as primary endpoint - Have everyone join as participants in Zoom Rooms without Companion Mode. Simpler to manage but limits flexibility for individual control.
 
-WebRTC-based integration: Some organizations use webRTC bridges to connect room systems with personal devices outside of Zoom's native Companion Mode. Requires technical expertise but works when standard Companion Mode doesn't.
+WebRTC-based integration - Some organizations use webRTC bridges to connect room systems with personal devices outside of Zoom's native Companion Mode. Requires technical expertise but works when standard Companion Mode doesn't.
 
 Mobile Companion Mode Specifics
 
@@ -263,31 +263,31 @@ Enable Companion Mode for individual meeting hosts: Some organizations restrict 
 
 Configure Companion Mode screen sharing permissions: Decide whether Companion Mode users can share screens or only view. More permissive settings enable more flexibility but increase complexity.
 
-Set auto-connection behavior: Configure whether Companion Mode automatically connects when room system joins meeting or requires manual action. Auto-connect is convenient but sometimes causes unexpected connections.
+Set auto-connection behavior - Configure whether Companion Mode automatically connects when room system joins meeting or requires manual action. Auto-connect is convenient but sometimes causes unexpected connections.
 
 Escalation Path for Persistent Issues
 
 When standard troubleshooting fails, follow this escalation path.
 
-Level 1: Personal troubleshooting (before involving others)
+Level 1 - Personal troubleshooting (before involving others)
 - Review all troubleshooting steps above
 - Test with different devices
 - Test with different room systems
 - Research your specific error code on Zoom's knowledge base
 
-Level 2: IT department support (internal resources)
+Level 2 - IT department support (internal resources)
 - Contact your organization's IT help desk
 - Provide error messages, device models, network information
 - Ask them to check firewall rules and network configuration
 - Request they contact Zoom if it's a known issue
 
-Level 3: Zoom support (expert resources)
+Level 3 - Zoom support (expert resources)
 - Zoom Business/Premium customers get official support
 - Provide workflow IDs, timestamps, device models
 - Share network diagnostics and logs
 - Accept remote assistance if offered
 
-Level 4: Hardware vendor support (if using third-party room systems)
+Level 4 - Hardware vendor support (if using third-party room systems)
 - Contact room system manufacturer (Cisco, Polycom, etc.)
 - Report that Companion Mode isn't working with your system
 - Check whether firmware updates address the issue

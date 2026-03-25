@@ -27,7 +27,7 @@ Table of Contents
 - [Publishing Your Package](#publishing-your-package)
 - [Maintaining Your Package](#maintaining-your-package)
 - [Handling Backward Compatibility as Your Package Evolves](#handling-backward-compatibility-as-your-package-evolves)
-- [Publishing Dual Packages: ESM and CommonJS](#publishing-dual-packages-esm-and-commonjs)
+- [Publishing Dual Packages - ESM and CommonJS](#publishing-dual-packages-esm-and-commonjs)
 - [Automating Package Quality with Claude Code](#automating-package-quality-with-claude-code)
 
 Setting Up Your Development Environment
@@ -341,7 +341,7 @@ claude "Review the diff between v1.x and v2.0 in this changelog. Generate a migr
 
 The migration guide should live in `MIGRATION.md` at your package root and be linked from your README's changelog section.
 
-Publishing Dual Packages: ESM and CommonJS
+Publishing Dual Packages - ESM and CommonJS
 
 Modern npm packages need to support both ES Modules (used by Vite, modern bundlers, and native Node.js ESM) and CommonJS (used by older Node.js projects and Jest). Configure your `package.json` exports field correctly:
 
@@ -391,13 +391,13 @@ Automating Package Quality with Claude Code
 
 Beyond test generation, Claude Code can perform ongoing quality checks as part of your development workflow.
 
-API surface review: Before each release, ask Claude Code to review your public API for consistency:
+API surface review - Before each release, ask Claude Code to review your public API for consistency:
 
 ```bash
-claude "Review the exported types in src/index.ts. Flag: method naming inconsistencies, parameter ordering that doesn't follow a clear convention, missing JSDoc on public methods, and any methods that could cause confusion with similar-sounding built-in JavaScript methods."
+claude "Review the exported types in src/index.ts. Flag - method naming inconsistencies, parameter ordering that doesn't follow a clear convention, missing JSDoc on public methods, and any methods that could cause confusion with similar-sounding built-in JavaScript methods."
 ```
 
-Bundle size analysis: Large bundle sizes hurt downstream consumers. Use size-limit to enforce bundle budgets:
+Bundle size analysis - Large bundle sizes hurt downstream consumers. Use size-limit to enforce bundle budgets:
 
 ```bash
 npm install --save-dev size-limit @size-limit/preset-small-lib

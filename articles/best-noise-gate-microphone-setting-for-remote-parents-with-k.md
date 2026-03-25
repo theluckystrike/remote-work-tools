@@ -63,33 +63,33 @@ These settings work across most DAWs, OBS, Voicemeeter, and similar audio proces
 
 Configuration for Moderate Kid Activity (-35 dB threshold)
 ```
-Threshold: -35 dB
-Attack: 8 ms
-Hold: 250 ms
-Release: 200 ms
-Range: -60 dB
+Threshold - -35 dB
+Attack - 8 ms
+Hold - 250 ms
+Release - 200 ms
+Range - -60 dB
 ```
 
 This configuration handles situations where children are playing in another room with doors closed. The -35 dB threshold sits above typical ambient house noise but below your speaking voice.
 
 Configuration for Active Households (-30 dB threshold)
 ```
-Threshold: -30 dB
-Attack: 10 ms
-Hold: 300 ms
-Release: 250 ms
-Range: -60 dB
+Threshold - -30 dB
+Attack - 10 ms
+Hold - 300 ms
+Release - 250 ms
+Range - -60 dB
 ```
 
 Use this when kids are home but contained to a separate area. The higher threshold prevents playground noise from triggering your microphone while still capturing your voice at normal speaking volumes.
 
 Configuration for Near-Constant Background Noise (-25 dB threshold)
 ```
-Threshold: -25 dB
-Attack: 12 ms
-Hold: 350 ms
-Release: 300 ms
-Range: -60 dB
+Threshold - -25 dB
+Attack - 12 ms
+Hold - 350 ms
+Release - 300 ms
+Range - -60 dB
 ```
 
 This conservative setting works when children are actively playing in your workspace vicinity. You may need to speak slightly louder, but background noise stays blocked.
@@ -116,7 +116,7 @@ Insert the Noise Gate in your audio chain. Use the "Hysical" mode for more natur
 
 Audacity for Recording
 Use the Noise Gate effect with these settings:
-- Gate Threshold: -35 dB (or your chosen threshold)
+- Gate Threshold - -35 dB (or your chosen threshold)
 - Attack Time: 0.008 seconds
 - Release Time: 0.200 seconds
 
@@ -169,14 +169,14 @@ Recommended Microphones for Parents (Under $200)
 For parents specifically, cardioid dynamic mics (Shure SM7B, EV RE20) provide natural noise rejection requiring less aggressive gate settings. Condensers (AT2020, Rode NT1) require more tuning but cost less.
 
 Budget Setup Strategy
-Best value for parents: Rode NT1 ($199) + decent USB interface ($100-150)
+Best value for parents - Rode NT1 ($199) + decent USB interface ($100-150)
 
 - Rode NT1: Excellent cardioid pattern, quiet, works great with children
 - Focusrite Scarlett 2i2 ($150): Reliable interface, simple to use
 - Pop filter ($25): Reduces wind noise from fast speech
 - XLR cables and stand ($40): Quality matters for reliability
 
-Total investment: ~$400 for professional-grade setup that outlasts your kids' current noise-making phase.
+Total investment - ~$400 for professional-grade setup that outlasts your kids' current noise-making phase.
 
 Practical Implementation by Software
 
@@ -232,8 +232,8 @@ echo "Check: Your voice clear, background muffled"
 echo ""
 echo "Phase 4: Real meeting"
 echo "Join test call, speak naturally while child plays"
-echo "Ask: 'Did my voice sound clear?'"
-echo "Ask: 'Could you hear my kids?'"
+echo "Ask - 'Did my voice sound clear?'"
+echo "Ask - 'Could you hear my kids?'"
 echo ""
 echo "Phase 5: Documentation"
 echo "If good: Save settings as preset"
@@ -255,25 +255,25 @@ Preset Configuration Savepoints
 Save multiple presets for different scenarios:
 
 ```
-Preset 1: "Morning Quiet" (-35 dB, kids still asleep)
-- Threshold: -35 dB
+Preset 1 - "Morning Quiet" (-35 dB, kids still asleep)
+- Threshold - -35 dB
 - Attack: 5 ms
 - Release: 150 ms
 
-Preset 2: "Regular Work" (-32 dB, normal activity)
+Preset 2 - "Regular Work" (-32 dB, normal activity)
 - Threshold: -32 dB
-- Attack: 8 ms
-- Release: 200 ms
+- Attack - 8 ms
+- Release - 200 ms
 
-Preset 3: "Playtime Lockdown" (-28 dB, active play nearby)
+Preset 3 - "Playtime Lockdown" (-28 dB, active play nearby)
 - Threshold: -28 dB
-- Attack: 10 ms
-- Release: 250 ms
+- Attack - 10 ms
+- Release - 250 ms
 
-Preset 4: "School Hours" (-25 dB, loud activity)
-- Threshold: -25 dB
-- Attack: 12 ms
-- Release: 300 ms
+Preset 4 - "School Hours" (-25 dB, loud activity)
+- Threshold - -25 dB
+- Attack - 12 ms
+- Release - 300 ms
 ```
 
 Switch presets based on your expected noise environment before important calls.
@@ -294,19 +294,19 @@ Most parents report significant improvement within 1-2 weeks of proper gate conf
 
 Troubleshooting Common Issues
 
-Problem: Your words are cut off at the start
+Problem - Your words are cut off at the start
 - Solution: Reduce attack time to 3-5 ms
 
-Problem: Children's sounds leak through
+Problem - Children's sounds leak through
 - Solution: Increase threshold by 3-5 dB (may cut some soft speech)
 
-Problem: Gate closes during pauses (choppy audio)
+Problem - Gate closes during pauses (choppy audio)
 - Solution: Increase hold time to 350-400 ms
 
-Problem: Clicking or popping sounds
+Problem - Clicking or popping sounds
 - Solution: Increase attack to 15-20 ms, reduce release to 150 ms
 
-Problem: Works in testing but not during real calls
+Problem - Works in testing but not during real calls
 - Solution: Test with actual calling app (Zoom, Teams) not just recording
 
 The goal is clear audio that lets you focus on your work rather than worrying about what background sounds might escape. With proper noise gate configuration, you can be present in meetings without being interrupted by the joyful chaos of parenting.

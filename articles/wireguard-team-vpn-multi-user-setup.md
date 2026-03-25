@@ -92,7 +92,7 @@ Managing keys manually gets error-prone at team scale. This script generates pee
 ```bash
 #!/bin/bash
 /opt/wireguard/add-peer.sh
-Usage: ./add-peer.sh mike-laptop 10.8.0.2
+Usage - ./add-peer.sh mike-laptop 10.8.0.2
 
 set -euo pipefail
 
@@ -132,7 +132,7 @@ DNS = ${DNS}
 [Peer]
 PublicKey = ${SERVER_PUBLIC}
 Endpoint = ${SERVER_ENDPOINT}
-Split tunnel: only route VPN subnet through WireGuard
+Split tunnel - only route VPN subnet through WireGuard
 Change to 0.0.0.0/0 for full tunnel (all internet through VPN)
 AllowedIPs = ${VPN_SUBNET}
 PersistentKeepalive = 25
@@ -163,7 +163,7 @@ Revoke a Peer
 ```bash
 #!/bin/bash
 /opt/wireguard/remove-peer.sh
-Usage: ./remove-peer.sh mike-laptop
+Usage - ./remove-peer.sh mike-laptop
 
 PEER_NAME="${1:?Usage: $0 <peer-name>}"
 PEERS_DIR="/opt/wireguard/peers/${PEER_NAME}"
@@ -200,7 +200,7 @@ sudo mv "${PEERS_DIR}" "${PEERS_DIR}.revoked"
 echo "Peer '${PEER_NAME}' removed. Access revoked immediately."
 ```
 
-Client Setup: macOS
+Client Setup - macOS
 
 ```bash
 Install WireGuard
@@ -219,7 +219,7 @@ Check status
 sudo wg show
 ```
 
-Client Setup: Linux
+Client Setup - Linux
 
 ```bash
 Install WireGuard
@@ -241,7 +241,7 @@ Auto-start on boot (optional. only if you want always-on VPN)
 sudo systemctl enable wg-quick@wg0
 ```
 
-Client Setup: Windows
+Client Setup - Windows
 
 ```
 1. Download WireGuard installer from wireguard.com
@@ -277,7 +277,7 @@ Use full tunnel when:
 Monitor Active Connections
 
 ```bash
-On the server: show connected peers and last handshake
+On the server - show connected peers and last handshake
 sudo wg show
 
 Sample output:

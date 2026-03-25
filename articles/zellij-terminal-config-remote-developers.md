@@ -232,7 +232,7 @@ Sessions persist on the server across SSH disconnects, just like tmux:
 SSH and attach/create session (same pattern as tmux)
 ssh user@server.example.com
 
-On server: attach or create
+On server - attach or create
 zellij attach work 2>/dev/null || zellij --session work
 
 One-liner SSH + attach from local machine
@@ -284,7 +284,7 @@ Use Zellij if:
 Use tmux if:
 - You're already comfortable with tmux and have existing config you don't want to rewrite
 - You need maximum SSH compatibility on old servers (tmux is ubiquitous, Zellij requires installation)
-- You want a larger ecosystem of plugins and resources
+- You want a larger environment of plugins and resources
 
 Both handle SSH session persistence equally well. The day-to-day experience with either is comparable once you learn the keybindings.
 

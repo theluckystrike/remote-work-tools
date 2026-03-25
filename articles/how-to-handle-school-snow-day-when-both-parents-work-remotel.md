@@ -31,7 +31,7 @@ Table of Contents
 - [Communication Templates for Your Team](#communication-templates-for-your-team)
 - [Acoustic Setup for Video Calls During Snow Days](#acoustic-setup-for-video-calls-during-snow-days)
 - [Historical Snow Day Data](#historical-snow-day-data)
-- [Real Talk: When Snow Days Don't Work](#real-talk-when-snow-days-dont-work)
+- [Real Talk - When Snow Days Don't Work](#real-talk-when-snow-days-dont-work)
 
 Understanding the Snow Day Challenge
 
@@ -157,7 +157,7 @@ Proactive Communication Template
 When you know a snow day is coming (or as soon as you realize one is happening), communicate to your team:
 
 ```
-Subject: Snow Day Tomorrow - Adjusted Availability
+Subject - Snow Day Tomorrow - Adjusted Availability
 
 Hi team,
 
@@ -168,7 +168,7 @@ Hi team,
 
 My focus time will be [time range]. I'll check async messages every 2 hours and respond to anything urgent.
 
-Expected work completion: [specific deliverables you're committing to]
+Expected work completion - [specific deliverables you're committing to]
 
 Thanks for understanding!
 ```
@@ -239,11 +239,11 @@ Screen Time (backup for 2+ hour focus block)
 - Duolingo or Codecombat for educational fun
 - Movie picked in advance (save for late afternoon)
 
-Cost estimate: $80-120 to stock completely. Spread purchases over fall months.
+Cost estimate - $80-120 to stock completely. Spread purchases over fall months.
 
 Communication Templates for Your Team
 
-Template 1: "Snow Day Announced" Message
+Template 1 - "Snow Day Announced" Message
 
 ```
 Hey team,
@@ -257,8 +257,8 @@ Tomorrow's availability:
 1:00-3:00 PM. Available for meetings
 3:00+ PM. Childcare + light work only
 
-Critical issues: Slack mention @me, I'll respond within 30 minutes
-Non-urgent: I'll respond by EOD tomorrow
+Critical issues - Slack mention @me, I'll respond within 30 minutes
+Non-urgent - I'll respond by EOD tomorrow
 
 Expected deliverables:
  Code reviews for PRs in queue
@@ -268,7 +268,7 @@ Expected deliverables:
 Thanks for being flexible!
 ```
 
-Template 2: "More Flexibility Needed" Message
+Template 2 - "More Flexibility Needed" Message
 
 ```
 Hi [Manager],
@@ -314,17 +314,17 @@ Historical Snow Day Data
 Use your local weather patterns to plan:
 
 ```
-Northeast US: 5-10 snow days annually
-Midwest: 8-15 snow days annually
-Mid-Atlantic: 2-5 snow days annually
-West Coast (Seattle/Portland): 2-3 snow days annually
-Mountain states: 10-20 snow days annually
-South: 0-2 snow days annually (but extreme when they happen)
+Northeast US - 5-10 snow days annually
+Midwest - 8-15 snow days annually
+Mid-Atlantic - 2-5 snow days annually
+West Coast (Seattle/Portland) - 2-3 snow days annually
+Mountain states - 10-20 snow days annually
+South - 0-2 snow days annually (but extreme when they happen)
 ```
 
 If your region averages 8 snow days, budget for 2-3 per quarter. Build this into sprint planning.
 
-Real Talk: When Snow Days Don't Work
+Real Talk - When Snow Days Don't Work
 
 Sometimes dual-remote parenting plus snow days is unsustainable. If you find yourself constantly:
 - Missing critical deadlines

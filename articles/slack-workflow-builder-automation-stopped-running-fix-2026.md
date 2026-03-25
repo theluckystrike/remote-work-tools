@@ -51,7 +51,7 @@ Token expiration affects workflows connected to external services through custom
 
 Step-by-Step Troubleshooting Guide
 
-Step 1: Verify Workflow Status
+Step 1 - Verify Workflow Status
 
 Start by checking whether your workflow is actually active. Open Slack and navigate to your workspace settings.
 
@@ -59,7 +59,7 @@ Access Workflow Builder from the Apps section or use the direct link provided by
 
 If the workflow shows as disabled, click to open its settings and look for an activation option. Many workflows become inadvertently paused during maintenance or testing. Reactivating often resolves the issue immediately.
 
-Step 2: Check Trigger Configuration
+Step 2 - Check Trigger Configuration
 
 Triggers determine when your workflow runs. Incorrect trigger setup prevents workflows from starting even when everything else functions properly.
 
@@ -67,7 +67,7 @@ Review each trigger in your workflow configuration. For time-based triggers, ver
 
 Pay special attention to trigger filters. If you added filters restricting which messages activate the workflow, test whether current messages meet those criteria. Filters too narrow result in workflows that never run.
 
-Step 3: Review Permissions and Access
+Step 3 - Review Permissions and Access
 
 Slack requires specific permissions for workflows to function. Navigate to your workspace's app settings to verify permissions.
 
@@ -77,33 +77,33 @@ For workflows interacting with external services, confirm the connected app perm
 
 If permissions appear correct but problems persist, try removing and re-adding the workflow. This forces Slack to re-establish all permission grants.
 
-Step 4: Examine Workflow Actions
+Step 4 - Examine Workflow Actions
 
 Actions within your workflow may contain errors preventing execution. Open each step and verify the configuration.
 
-Common action issues include: referencing deleted channels or users, using invalid Slack IDs, exceeding message length limits, and incorrect form field configurations. Each action should display a green checkmark when properly configured.
+Common action issues include - referencing deleted channels or users, using invalid Slack IDs, exceeding message length limits, and incorrect form field configurations. Each action should display a green checkmark when properly configured.
 
 For workflows sending messages to users, verify those users still exist in your workspace and have valid email addresses. Remove and replace any invalid user references.
 
-Step 5: Test with Manual Activation
+Step 5 - Test with Manual Activation
 
 Most workflows allow manual triggering alongside automatic triggers. Use manual activation to isolate whether the issue affects the entire workflow or specific trigger conditions.
 
 Create a test message or event matching your trigger criteria. If manual activation works but automatic triggers fail, focus troubleshooting on trigger configuration rather than workflow structure.
 
-Step 6: Check for Service Outages
+Step 6 - Check for Service Outages
 
 Slack occasionally experiences service disruptions affecting workflow functionality. Check Slack's status page or your admin notifications for reported issues.
 
 When Slack experiences outages, workflow issues typically resolve automatically once service restores. Avoid making configuration changes during known outages unless necessary.
 
-Step 7: Review Audit Logs
+Step 7 - Review Audit Logs
 
 Workspace admins can access Slack audit logs showing workflow execution history. These logs reveal whether workflows attempted to run but encountered errors.
 
 Search the audit logs for your workflow name or trigger events. Look for error messages indicating the specific failure point. Common log entries show permission denials, rate limiting, or external service timeouts.
 
-Step 8: Rebuild Problematic Workflows
+Step 8 - Rebuild Problematic Workflows
 
 When troubleshooting fails to resolve the issue, rebuilding the workflow often proves faster than extensive debugging. Export your current workflow configuration if possible.
 
@@ -199,7 +199,7 @@ Pre-built templates save time and reduce configuration errors. Slack provides te
 
 Team standup automation template: Collect async updates from team members, format into a summary, and post daily in a channel. This eliminates manual standups while keeping everyone informed.
 
-Approval workflow template: Collect requester information, notify approver, wait for decision, notify requester of outcome. Parameterize decision criteria to reuse for expense approvals, hiring decisions, and contract reviews.
+Approval workflow template - Collect requester information, notify approver, wait for decision, notify requester of outcome. Parameterize decision criteria to reuse for expense approvals, hiring decisions, and contract reviews.
 
 Notification aggregation template: Monitor activity in multiple channels, collect significant events, and digest them into a weekly summary. Reduces constant notifications while maintaining awareness.
 
@@ -211,23 +211,23 @@ When standard troubleshooting fails, these diagnostic techniques reveal hidden p
 
 Check workflow run history in detail: Slack shows run history with timestamps and status indicators. Click into failed runs to see exact error messages. These messages often pinpoint the exact action causing failure.
 
-Enable workflow debugging mode: Some Slack configurations allow enabling debug output. This generates detailed logs of workflow execution. Request this from your workspace admin if standard troubleshooting fails.
+Enable workflow debugging mode - Some Slack configurations allow enabling debug output. This generates detailed logs of workflow execution. Request this from your workspace admin if standard troubleshooting fails.
 
 Test individual workflow actions separately: Break your workflow into individual steps and test each step in isolation. If step 5 fails, rebuild it from scratch. Often the problem is in that specific action's configuration.
 
-Check rate limiting: Slack limits API calls and workflow execution frequency. If your workflow runs too frequently or makes too many external API calls, it hits rate limits. Space out workflow execution or reduce API calls per run.
+Check rate limiting - Slack limits API calls and workflow execution frequency. If your workflow runs too frequently or makes too many external API calls, it hits rate limits. Space out workflow execution or reduce API calls per run.
 
-Monitor external service status: Many workflows depend on external services. If your workflow hits an external API and that API is down, the workflow fails. Check third-party status pages. If external service is down, wait for recovery.
+Monitor external service status - Many workflows depend on external services. If your workflow hits an external API and that API is down, the workflow fails. Check third-party status pages. If external service is down, wait for recovery.
 
 Slack Workflow Performance Optimization
 
 Optimizing workflows prevents timeouts and failures.
 
-Reduce workflow complexity: Fewer steps, fewer actions, and simpler conditional logic execute faster. If workflows seem slow, eliminate unnecessary steps. Do you really need that data lookup or can you proceed with information available?
+Reduce workflow complexity - Fewer steps, fewer actions, and simpler conditional logic execute faster. If workflows seem slow, eliminate unnecessary steps. Do you really need that data lookup or can you proceed with information available?
 
-Implement caching strategies: If a workflow repeatedly looks up the same data, cache results rather than looking up repeatedly. Slack can store data in variables for reuse across steps.
+Implement caching strategies - If a workflow repeatedly looks up the same data, cache results rather than looking up repeatedly. Slack can store data in variables for reuse across steps.
 
-Parallelize where possible: If your workflow has independent steps, run them in parallel rather than sequence. This requires careful orchestration but significantly improves performance.
+Parallelize where possible - If your workflow has independent steps, run them in parallel rather than sequence. This requires careful orchestration but significantly improves performance.
 
 Use scheduled triggers instead of event triggers for heavy operations: If you're processing a large dataset, schedule the workflow to run off-peak rather than triggering it on every event. This prevents overwhelming Slack's infrastructure.
 
@@ -235,11 +235,11 @@ Slack Workflow Integration Patterns
 
 Effective integration with external systems requires careful planning.
 
-Webhook reliability: When Slack sends data to external systems via webhooks, ensure the receiving system is reliable. If webhooks frequently fail, implement retry logic. Some platforms support automatic retries; others require manual implementation.
+Webhook reliability - When Slack sends data to external systems via webhooks, ensure the receiving system is reliable. If webhooks frequently fail, implement retry logic. Some platforms support automatic retries; others require manual implementation.
 
-OAuth token rotation: Tokens used by workflows expire. Implement automatic token renewal before expiration. Set calendar reminders if renewal is manual.
+OAuth token rotation - Tokens used by workflows expire. Implement automatic token renewal before expiration. Set calendar reminders if renewal is manual.
 
-Error recovery paths: When external integrations fail, how does your workflow recover? Include fallback steps like notifying admins or routing work to an alternative system.
+Error recovery paths - When external integrations fail, how does your workflow recover? Include fallback steps like notifying admins or routing work to an alternative system.
 
 Data validation before external calls: Validate data before sending to external systems. Sending malformed data causes failures that are harder to troubleshoot. Validate early.
 
@@ -251,11 +251,11 @@ Maintain centralized workflow documentation: Keep a spreadsheet or wiki listing 
 
 Establish workflow change controls: Require approval before deploying new workflows or modifying existing ones. This prevents broken workflows from affecting production processes without stakeholder awareness.
 
-Monitor workflow performance: Collect metrics on workflow success rates, execution times, and error rates. Watch for trends suggesting problems before they manifest as user-facing issues.
+Monitor workflow performance - Collect metrics on workflow success rates, execution times, and error rates. Watch for trends suggesting problems before they manifest as user-facing issues.
 
 Schedule regular workflow audits: Monthly or quarterly, review all active workflows. Verify they're still needed. Check that they're functioning correctly. Archive obsolete workflows.
 
-Implement access controls: Restrict who can create, modify, and delete workflows. This prevents accidental changes and reduces support burden from people misconfiguring workflows.
+Implement access controls - Restrict who can create, modify, and delete workflows. This prevents accidental changes and reduces support burden from people misconfiguring workflows.
 ---
 
 

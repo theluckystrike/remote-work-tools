@@ -34,23 +34,23 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Async-First Sprint Ceremonies
+Step 1 - Async-First Sprint Ceremonies
 
 Weekly Written Standups
 
 Replace daily video standups with weekly written updates posted in a dedicated GitHub Discussion or Slack thread. Each engineer posts their update using a consistent template:
 
 ```markdown
-Step 2: Completed This Week
+Step 2 - Completed This Week
 - What did you ship?
 
-Step 3: Next Week
+Step 3 - Next Week
 - What will you work on?
 
-Step 4: Blockers
+Step 4 - Blockers
 - Anything blocking progress?
 
-Step 5: Notes
+Step 5 - Notes
 - Any context for the team?
 ```
 
@@ -75,7 +75,7 @@ jobs:
             const issue = await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `Sprint Update: ${new Date().toISOString().slice(0,10)}`,
+              title: `Sprint Update - ${new Date().toISOString().slice(0,10)}`,
               labels: ['standup'],
               body: `## Completed This Week\n\n## Next Week\n\n## Blockers\n\n## Notes`
             })
@@ -115,7 +115,7 @@ Retrospective (30 min):
 - Three columns: Went well, To improve, Action items
 - Rotate facilitation between sprints
 
-Step 6: Tooling Choices for Small Remote Teams
+Step 6 - Tooling Choices for Small Remote Teams
 
 Linear vs Jira for a Team of 4
 
@@ -123,13 +123,13 @@ Jira is powerful but adds significant overhead for a 4-person team. The configur
 
 Linear's cycle (sprint) feature lets you assign issues to 2-week cycles with minimal setup. The keyboard-first interface means engineers spend less time clicking through menus. The main limitation is that Linear lacks the reporting depth Jira offers. if your stakeholders need burn-down charts and velocity reports, you may need Jira or a reporting add-on.
 
-Shortcut is a middle ground: more flexibility than Linear, less overhead than Jira. It has native sprint support, good GitHub integration, and an UI that most engineers find less frustrating than Jira.
+Shortcut is a middle ground - more flexibility than Linear, less overhead than Jira. It has native sprint support, good GitHub integration, and an UI that most engineers find less frustrating than Jira.
 
 GitHub Projects as a Lightweight Alternative
 
 For teams that want to minimize tool sprawl, GitHub Projects v2 handles sprint management well. Create a project board with a sprint iteration field, use labels for priority, and link issues directly to the PRs that close them. The main advantage is that everything lives in GitHub. your planning board, code, and CI/CD are all in one place.
 
-Step 7: Capacity Planning for 4-Person Teams
+Step 7 - Capacity Planning for 4-Person Teams
 
 Capacity planning for small remote teams requires accounting for context-switching overhead and async communication delays.
 
@@ -194,17 +194,17 @@ function calculateVelocity(completedPoints, lookbackSprints = 3) {
 
 Use the conservative estimate when committing to a sprint goal. With 4 engineers, one person going on leave, dealing with a production incident, or getting pulled into an interview loop can shift your velocity by 25%. Building in that buffer prevents sprint failure from external factors.
 
-Step 8: Manage Dependencies in a Small Team
+Step 8 - Manage Dependencies in a Small Team
 
 With 4 engineers, dependencies are more visible but still need management. Create a simple dependency tracking system:
 
 ```yaml
 In each story, add dependency information
-Step 9: Dependencies
+Step 9 - Dependencies
 - Blocked by: #123 (API endpoint)
 - Blocks: #456 (Frontend component)
 
-Step 10: Technical Notes
+Step 10 - Technical Notes
 - API needed by: Friday
 - PR review requested from: @engineer-name
 ```
@@ -217,7 +217,7 @@ Use GitHub Projects to visualize dependencies:
 
 For a 4-person team, the most common dependency problem is a single engineer holding a blocking piece of work. Make this visible during planning: if more than 2 issues in a sprint depend on one engineer's output, the sprint plan has a fragile critical path. Rebalance before committing.
 
-Step 11: Handling Blockers and Escalation
+Step 11 - Handling Blockers and Escalation
 
 In async environments, blockers can go unnoticed for days. Implement automated escalation:
 
@@ -252,22 +252,22 @@ jobs:
             }
 ```
 
-Step 12: Sprint Retrospectives That Actually Work
+Step 12 - Sprint Retrospectives That Actually Work
 
 For a 4-person team, retrospectives should focus on process improvement, not blame. Use this format:
 
 Quick Retro Template:
 
 ```markdown
-Step 13: What went well?
+Step 13 - What went well?
 - [Item 1]
 - [Item 2]
 
-Step 14: What could improve?
+Step 14 - What could improve?
 - [Item 1]
 - [Item 2]
 
-Step 15: Action items for next sprint
+Step 15 - Action items for next sprint
 - [ ] Action owner: description
 ```
 

@@ -21,7 +21,7 @@ Structure your 50-person engineering Slack workspace into three tiers: company-w
 Table of Contents
 
 - [Channel Hierarchy Strategy](#channel-hierarchy-strategy)
-- [Access Control: Public vs Private](#access-control-public-vs-private)
+- [Access Control - Public vs Private](#access-control-public-vs-private)
 - [Channel Naming Conventions That Scale](#channel-naming-conventions-that-scale)
 - [Essential Integrations for Engineering Teams](#essential-integrations-for-engineering-teams)
 - [Notification Strategy and Do Not Disturb](#notification-strategy-and-do-not-disturb)
@@ -32,7 +32,7 @@ Channel Hierarchy Strategy
 
 The most effective approach for engineering teams at this scale uses a three-tier channel hierarchy: company-wide, team-specific, and project-focused. This mirrors how engineers think about code organization.
 
-Tier 1: Company-Wide Channels
+Tier 1 - Company-Wide Channels
 
 These channels are visible to everyone and contain cross-cutting information:
 
@@ -43,23 +43,23 @@ These channels are visible to everyone and contain cross-cutting information:
 
 ```bash
 Channel naming convention examples
-Company-wide: lowercase, simple names
+Company-wide - lowercase, simple names
 #engineering
 #incidents
 #announcements
 
-Team channels: team-name followed by purpose
+Team channels - team-name followed by purpose
 #backend
 #frontend
 #platform
 #mobile
 
-Project channels: project-name or JIRA-ticket reference
+Project channels - project-name or JIRA-ticket reference
 #proj-api-v2
 #proj-mobile-redesign
 ```
 
-Tier 2: Team-Specific Channels
+Tier 2 - Team-Specific Channels
 
 For a 50-person engineering org, expect 4-8 distinct teams (backend, frontend, platform, mobile, data, QA, DevOps, etc.). Each team needs a dedicated channel for internal coordination:
 
@@ -67,7 +67,7 @@ For a 50-person engineering org, expect 4-8 distinct teams (backend, frontend, p
 - #team-frontend. design handoff discussions, component library updates, browser compatibility issues.
 - #team-platform. infrastructure changes, deployment coordination, dependency updates.
 
-Tier 3: Project and Initiative Channels
+Tier 3 - Project and Initiative Channels
 
 Create temporary channels for specific projects or initiatives. These have a clear lifespan:
 
@@ -77,7 +77,7 @@ Create temporary channels for specific projects or initiatives. These have a cle
 
 The naming convention matters. Use prefixes consistently: `team-` for team channels, `proj-` for projects, `sprint-` for time-boxed initiatives.
 
-Access Control: Public vs Private
+Access Control - Public vs Private
 
 With 50 engineers across multiple time zones, getting access control wrong creates either information silos or overwhelming noise.
 
@@ -119,7 +119,7 @@ Channel Naming Conventions That Scale
 Inconsistent naming creates chaos at search time. Establish conventions early and enforce them:
 
 ```bash
-Pattern: [prefix]-[topic]-[optional-detail]
+Pattern - [prefix]-[topic]-[optional-detail]
 
 Prefix types:
 team-     # Permanent team channels
@@ -138,7 +138,7 @@ inc-database-latency-spike
 wip-new-relic-replacement
 ```
 
-Avoid special characters, spaces, or overly long names. Searchability is paramount.
+Avoid special characters, spaces, or overly long names. Searchability is essential.
 
 Essential Integrations for Engineering Teams
 
@@ -288,19 +288,19 @@ Practical Implementation Checklist
 Here's a condensed action list for setting up your workspace:
 
 ```
-Phase 1: Foundation
+Phase 1 - Foundation
 [ ] Create company-wide channels (#engineering, #incidents, #announcements, #random)
 [ ] Set up team channels (#team-backend, #team-frontend, etc.)
 [ ] Configure default channel visibility (public)
 [ ] Set workspace retention policy
 
-Phase 2: Integrations
+Phase 2 - Integrations
 [ ] Connect GitHub/GitLab for PR notifications
 [ ] Integrate incident management tool (PagerDuty, Opsgenie)
 [ ] Set up deployment notifications
 [ ] Deploy standup bot or workflow
 
-Phase 3: Norms and Governance
+Phase 3 - Norms and Governance
 [ ] Document channel naming conventions
 [ ] Establish @mention guidelines
 [ ] Create #readme or #guide channel for Slack onboarding

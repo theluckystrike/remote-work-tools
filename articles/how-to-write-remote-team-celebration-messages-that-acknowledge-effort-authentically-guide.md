@@ -22,7 +22,7 @@ Table of Contents
 
 - [Why Authenticity Matters in Remote Celebration Messages](#why-authenticity-matters-in-remote-celebration-messages)
 - [Core Principles for Writing Authentic Celebration Messages](#core-principles-for-writing-authentic-celebration-messages)
-- [Practical Framework: The SEW Method](#practical-framework-the-sew-method)
+- [Practical Framework - The SEW Method](#practical-framework-the-sew-method)
 - [Automating Thoughtful Recognition](#automating-thoughtful-recognition)
 - [Timing and Channel Selection](#timing-and-channel-selection)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
@@ -31,7 +31,7 @@ Table of Contents
 - [Celebration Message Timing Strategy](#celebration-message-timing-strategy)
 - [Recognition Across Different Team Structures](#recognition-across-different-team-structures)
 - [Measuring Recognition Impact](#measuring-recognition-impact)
-- [Anti-Patterns: What NOT to Do](#anti-patterns-what-not-to-do)
+- [Anti-Patterns - What NOT to Do](#anti-patterns-what-not-to-do)
 - [Building Your Celebration Practice](#building-your-celebration-practice)
 
 Why Authenticity Matters in Remote Celebration Messages
@@ -68,7 +68,7 @@ Show how the achievement fits into larger objectives. This helps remote workers 
 
 > "Your documentation overhaul means new team members can self-serve onboarding instead of pinging the whole team. That directly supports our Q2 goal of reducing engineering distractions."
 
-Practical Framework: The SEW Method
+Practical Framework - The SEW Method
 
 Use this three-part structure for consistent, authentic messages:
 
@@ -145,25 +145,25 @@ The key is adding context that automated systems cannot generate. Always include
 
 Timing and Channel Selection
 
-Async-first approach: Post celebration messages in public channels where the entire team can see them. This amplifies recognition and creates an archive of team wins.
+Async-first approach - Post celebration messages in public channels where the entire team can see them. This amplifies recognition and creates an archive of team wins.
 
-Time zone consideration: For globally distributed teams, post during overlapping hours when most team members are awake. If that's impossible, acknowledge the timing in your message:
+Time zone consideration - For globally distributed teams, post during overlapping hours when most team members are awake. If that's impossible, acknowledge the timing in your message:
 
 > "I'm aware this is late evening for you in Tokyo. thank you for being available to ship this."
 
-Follow up privately: Public celebration sets the tone, but private messages add intimacy. Send a direct message alongside the public post:
+Follow up privately - Public celebration sets the tone, but private messages add intimacy. Send a direct message alongside the public post:
 
 > "Also wanted to say personally. I know this sprint was particularly demanding. Really appreciate your dedication."
 
 Common Pitfalls to Avoid
 
-Avoid comparison: Never frame recognition as "finally, someone got this right" or contrast with others' failures.
+Avoid comparison - Never frame recognition as "finally, someone got this right" or contrast with others' failures.
 
-Avoid generic templates: Copy-pasted messages without personalization insult recipients. At minimum, customize the specific details.
+Avoid generic templates - Copy-pasted messages without personalization insult recipients. At minimum, customize the specific details.
 
 Avoid only celebrating visible work: Remember to recognize bug fixes, documentation, code review, mentorship, and other less glamorous contributions.
 
-Avoid delayed recognition: Celebrate soon after achievements. Delayed recognition feels like an afterthought.
+Avoid delayed recognition - Celebrate soon after achievements. Delayed recognition feels like an afterthought.
 
 Building a Recognition Culture
 
@@ -210,7 +210,7 @@ Process Improvement
 ```
  [Name] rebuilt our [process/tool/workflow] to [improvement].
 
-Before: [old state], After: [new state], Impact: [metric].
+Before - [old state], After - [new state], Impact: [metric].
 
 This is the kind of invisible work that compounds, everyone benefits going forward.
 ```
@@ -229,25 +229,25 @@ Celebration Message Timing Strategy
 
 When you celebrate matters as much as how:
 
-Immediate (same day): For shipped features, bug fixes, releases
+Immediate (same day) - For shipped features, bug fixes, releases
 - Send within 4 hours of completion
 - Momentum is fresh
 - Team energy is high
 
-Same week (by Friday): For completed milestones, successful launches
+Same week (by Friday) - For completed milestones, successful launches
 - Gives time to assess impact
 - Coordinates with weekly team updates
 
-Scheduled (1 week out): For announcements requiring lead time
+Scheduled (1 week out) - For announcements requiring lead time
 - Team celebrations at all-hands
 - External recognition (blog, media)
 - Awards/bonuses coordination
 
-Delayed (2+ weeks): Only for measuring impact before celebrating
+Delayed (2+ weeks) - Only for measuring impact before celebrating
 - "This shipped 2 weeks ago and we're seeing 40% adoption rate"
 - Shows you track outcomes, not just completion
 
-Rule of thumb: Don't wait for perfect information. Celebrate progress, then celebrate outcomes when data comes in.
+Rule of thumb - Don't wait for perfect information. Celebrate progress, then celebrate outcomes when data comes in.
 
 Recognition Across Different Team Structures
 
@@ -315,7 +315,7 @@ class RecognitionMetrics:
 
     def quarterly_recognition_health(self):
         """Are we recognizing fairly across the team?"""
-        # Track: Does everyone get recognized regularly?
+        # Track - Does everyone get recognized regularly?
         recognition_by_person = {}
         for log in self.recognition_log:
             person = log["person"]
@@ -341,36 +341,36 @@ metrics.quarterly_recognition_health()
 
 If people aren't retained after recognition, your celebration isn't addressing what they actually value. Adjust approach.
 
-Anti-Patterns: What NOT to Do
+Anti-Patterns - What NOT to Do
 
  Comparing achievements across people
 ```
-Bad: "Unlike last quarter, Jane finally shipped a project."
-Better: "Jane shipped the notification system, solid work on the edge cases."
+Bad - "Unlike last quarter, Jane finally shipped a project."
+Better - "Jane shipped the notification system, solid work on the edge cases."
 ```
 
  Fake enthusiasm in writing
 ```
-Bad: "OMG AMAZING!!! You crushed it!!!"
-Better: "The efficiency gains you shipped are measurable: 60% faster deploys."
+Bad - "OMG AMAZING!!! You crushed it!!!"
+Better - "The efficiency gains you shipped are measurable: 60% faster deploys."
 ```
 
  Recognition that centers the recognizer
 ```
-Bad: "I'm so proud of my team for..."
-Better: "Sarah rebuilt our database schema to support multi-tenancy..."
+Bad - "I'm so proud of my team for..."
+Better - "Sarah rebuilt our database schema to support multi-tenancy..."
 ```
 
  Delayed recognition without reason
 ```
-Bad: Celebrating Q1 wins in Q3
-Better: Celebrate wins as they happen, then revisit impact quarterly
+Bad - Celebrating Q1 wins in Q3
+Better - Celebrate wins as they happen, then revisit impact quarterly
 ```
 
  One-size-fits-all templates
 ```
-Bad: Copy-paste the same message for different people
-Better: Customize every message with specific details
+Bad - Copy-paste the same message for different people
+Better - Customize every message with specific details
 ```
 
 Building Your Celebration Practice
@@ -378,9 +378,9 @@ Building Your Celebration Practice
 Start small and compound:
 
 Week 1: Celebrate one person's work with a detailed message in your team channel
-Week 2: Add a private follow-up message to that person
-Week 3: Catch a second person's achievement with equivalent detail
-Week 4: Review your recognition frequency. Are people being celebrated?
+Week 2 - Add a private follow-up message to that person
+Week 3 - Catch a second person's achievement with equivalent detail
+Week 4 - Review your recognition frequency. Are people being celebrated?
 
 By month 2, you'll have established a visible pattern. Team members will start replicating it. By month 3, celebration becomes part of your culture.
 

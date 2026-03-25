@@ -154,7 +154,7 @@ Occupancy State Aggregation
 Raw sensor data needs aggregation into meaningful occupancy metrics. Calculate desk use rates over time windows to understand usage patterns.
 
 ```python
-Python: Query and analyze desk occupancy
+Python - Query and analyze desk occupancy
 from influxdb_client import InfluxDBClient
 from datetime import datetime, timedelta
 
@@ -251,7 +251,7 @@ Deploying desk sensors at scale requires addressing several operational concerns
 
 Calibration significantly impacts sensor accuracy. PIR sensors need clear sightlines without obstruction. FSR sensors require appropriate sensitivity settings for different body weights and seating positions. Test extensively in your actual office environment before full deployment.
 
-Privacy remains paramount. Clearly communicate sensor placement and data usage to employees. Store occupancy data in aggregate form rather than tracking individuals. Many jurisdictions regulate employee monitoring, consult legal counsel for compliance requirements specific to your location.
+Privacy remains essential. Clearly communicate sensor placement and data usage to employees. Store occupancy data in aggregate form rather than tracking individuals. Many jurisdictions regulate employee monitoring, consult legal counsel for compliance requirements specific to your location.
 
 Frequently Asked Questions
 

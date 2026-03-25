@@ -80,9 +80,9 @@ Send participants clear instructions at least 24 hours before the event:
 
 ```markdown
 Virtual Escape Room - Team Alpha
-Date: [Event Date]
-Time: [Start Time] UTC
-Duration: 90 minutes
+Date - [Event Date]
+Time - [Start Time] UTC
+Duration - 90 minutes
 
 Requirements:
 - Stable internet connection
@@ -90,8 +90,8 @@ Requirements:
 - Quiet space for the duration
 - Camera on preferred (helps with coordination)
 
-Meeting Link: [Your Meeting Link]
-Game Link: [Platform Game Link]
+Meeting Link - [Your Meeting Link]
+Game Link - [Platform Game Link]
 ```
 
 Team Formation Strategy
@@ -104,11 +104,11 @@ Technical Considerations
 
 For the smoothest experience, prepare your technical setup:
 
-1. Backup Communication Channel: Have a secondary way to reach participants if the primary video tool fails.
+1. Backup Communication Channel - Have a secondary way to reach participants if the primary video tool fails.
 
-2. Screen Sharing Protocol: Designate one person to share their screen to show the game interface, while others share insights verbally.
+2. Screen Sharing Protocol - Designate one person to share their screen to show the game interface, while others share insights verbally.
 
-3. Documentation: Assign someone to take notes on interesting moments or team dynamics observed during the game.
+3. Documentation - Assign someone to take notes on interesting moments or team dynamics observed during the game.
 
 Creating Custom Puzzle Experiences
 
@@ -148,10 +148,10 @@ Measuring Success
 
 After the event, gather feedback to improve future sessions:
 
-- Completion Rate: Did the team finish in time?
-- Engagement Level: Did everyone participate, or did some members stay silent?
-- Problem-Solving Approaches: What strategies worked well?
-- Would Repeat: Would the team want to do this again?
+- Completion Rate - Did the team finish in time?
+- Engagement Level - Did everyone participate, or did some members stay silent?
+- Problem-Solving Approaches - What strategies worked well?
+- Would Repeat - Would the team want to do this again?
 
 Send a brief survey within 24 hours while the experience is fresh:
 
@@ -321,7 +321,7 @@ Escape rooms don't work for everyone. Skip them if:
 - Under 4 people: Too small to effectively do escape rooms; pair programming katas better
 - All introverts: Some team members may find 60 min of collaborative thinking draining
 
-In these cases, try: async challenges (CTF they work on in their own time), individual skill contests (code golf), or social-only events (virtual happy hour) instead.
+In these cases, try - async challenges (CTF they work on in their own time), individual skill contests (code golf), or social-only events (virtual happy hour) instead.
 
 The goal of team events is connection and morale. Escape rooms are one tool that works well for many teams. If your team doesn't vibe with them, move on to something that does.
 

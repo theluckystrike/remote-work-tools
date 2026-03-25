@@ -21,13 +21,13 @@ Portugal has become a premier destination for remote workers seeking tax-efficie
 Table of Contents
 
 - [Understanding Your Tax Status in Portugal](#understanding-your-tax-status-in-portugal)
-- [Step 1: Obtain Your NIF (Número de Identificação Fiscal)](#step-1-obtain-your-nif-nmero-de-identificao-fiscal)
-- [Step 2: Register as Trabalhador Independente](#step-2-register-as-trabalhador-independente)
-- [Step 3: Understanding IRS Tax Categories](#step-3-understanding-irs-tax-categories)
-- [Step 4: VAT (IVA) Registration and Obligations](#step-4-vat-iva-registration-and-obligations)
-- [Step 5: Setting Up Invoice Compliance](#step-5-setting-up-invoice-compliance)
-- [Step 6: Social Security Contributions](#step-6-social-security-contributions)
-- [Practical Example: First-Year Tax Calculation](#practical-example-first-year-tax-calculation)
+- [Step 1 - Obtain Your NIF (Número de Identificação Fiscal)](#step-1-obtain-your-nif-nmero-de-identificao-fiscal)
+- [Step 2 - Register as Trabalhador Independente](#step-2-register-as-trabalhador-independente)
+- [Step 3 - Understanding IRS Tax Categories](#step-3-understanding-irs-tax-categories)
+- [Step 4 - VAT (IVA) Registration and Obligations](#step-4-vat-iva-registration-and-obligations)
+- [Step 5 - Setting Up Invoice Compliance](#step-5-setting-up-invoice-compliance)
+- [Step 6 - Social Security Contributions](#step-6-social-security-contributions)
+- [Practical Example - First-Year Tax Calculation](#practical-example-first-year-tax-calculation)
 - [Maintaining Compliance](#maintaining-compliance)
 - [Portuguese Accounting Software Comparison](#portuguese-accounting-software-comparison)
 - [Quarterly Payment Schedule and Planning](#quarterly-payment-schedule-and-planning)
@@ -47,7 +47,7 @@ The simplified regime works well for most individual freelancers earning under �
 
 As a remote worker serving clients internationally, you likely fall under the simplificado regime, which reduces administrative overhead significantly. Your tax obligations include IRS (imposto sobre o rendimento das pessoas singulares) at the federal level, and potentially VAT (IVA) depending on your billing structure.
 
-Step 1: Obtain Your NIF (Número de Identificação Fiscal)
+Step 1 - Obtain Your NIF (Número de Identificação Fiscal)
 
 Your first requirement is obtaining a Portuguese tax identification number. Without a NIF, you cannot legally conduct business or register as self-employed.
 
@@ -65,7 +65,7 @@ documents_required=(
 )
 ```
 
-Step 2: Register as Trabalhador Independente
+Step 2 - Register as Trabalhador Independente
 
 Once you have your NIF, register as self-employed through the Finanças portal (portal das Finanças). Navigate to the "Criar Conta" section and select "Trabalhador Independente" as your activity type.
 
@@ -78,7 +78,7 @@ The registration requires several pieces of information:
 
 After submission, you'll receive confirmation within 5-7 business days. The registration automatically activates your IRS profile for self-employment.
 
-Step 3: Understanding IRS Tax Categories
+Step 3 - Understanding IRS Tax Categories
 
 Portugal uses progressive tax rates for self-employed income. The rates for 2026 apply to your net income after deducting allowable expenses:
 
@@ -95,19 +95,19 @@ Portugal uses progressive tax rates for self-employed income. The rates for 2026
 
 As a freelancer, you make quarterly advance payments (pagamentos por conta) rather than monthly withholdings. These payments are due in July, September, and November, with a final settlement in February of the following year.
 
-Step 4: VAT (IVA) Registration and Obligations
+Step 4 - VAT (IVA) Registration and Obligations
 
 VAT registration becomes mandatory when your annual revenue exceeds €12,750. However, you can voluntarily register for VAT even below this threshold, which allows you to deduct input VAT on business expenses.
 
 For most remote workers serving international clients, two scenarios apply:
 
-Services to EU businesses: Under the reverse charge mechanism, your EU client accounts for VAT in their country. You invoice without Portuguese VAT but must include the VAT number of your EU client.
+Services to EU businesses - Under the reverse charge mechanism, your EU client accounts for VAT in their country. You invoice without Portuguese VAT but must include the VAT number of your EU client.
 
-Services to non-EU clients: These exports are exempt from Portuguese VAT, meaning you invoice the full amount without VAT.
+Services to non-EU clients - These exports are exempt from Portuguese VAT, meaning you invoice the full amount without VAT.
 
 If you register for VAT, you must submit monthly or quarterly declarations depending on your turnover. The standard Portuguese VAT rate is 23%, with reduced rates of 13% and 6% for specific goods and services.
 
-Step 5: Setting Up Invoice Compliance
+Step 5 - Setting Up Invoice Compliance
 
 All invoices issued in Portugal must follow specific formatting requirements. Your invoices need:
 
@@ -150,7 +150,7 @@ def create_invoice(
     }
 ```
 
-Step 6: Social Security Contributions
+Step 6 - Social Security Contributions
 
 Self-employed workers in Portugal must also contribute to social security. The contribution base depends on your declared income, with rates around 21.4% for most freelancers. However, you can benefit from reduced rates during your first years of activity.
 
@@ -158,7 +158,7 @@ Newly registered self-employed workers receive a 50% reduction in contributions 
 
 Contributions are paid monthly through direct debit to your social security account. Failure to pay results in penalties and loss of benefits.
 
-Practical Example: First-Year Tax Calculation
+Practical Example - First-Year Tax Calculation
 
 Consider a freelance developer earning €60,000 annually from international clients. Under the simplified regime with standard deductions:
 
@@ -262,49 +262,49 @@ Real-World Tax Calculation Examples
 
 Understanding your actual tax liability helps with cash flow planning. Here are three scenarios for developers earning different amounts:
 
-Scenario 1: Freelancer earning €40,000/year
+Scenario 1 - Freelancer earning €40,000/year
 
 ```
-Gross Income: €40,000
+Gross Income - €40,000
 Deduction (25% simplified regime): €10,000
-Taxable Income: €30,000
+Taxable Income - €30,000
 
 IRS Tax (€11,285-€15,992 bracket @ 26.5%): €7,950
-Social Security (21.4%): €8,560
-Total Tax + SS: €16,510
-Effective Rate: 41.3%
+Social Security (21.4%) - €8,560
+Total Tax + SS - €16,510
+Effective Rate - 41.3%
 
-Monthly Set-Aside: €1,376
+Monthly Set-Aside - €1,376
 ```
 
-Scenario 2: Successful freelancer earning €80,000/year
+Scenario 2 - Successful freelancer earning €80,000/year
 
 ```
-Gross Income: €80,000
+Gross Income - €80,000
 Deduction (25% simplified regime): €20,000
-Taxable Income: €60,000
+Taxable Income - €60,000
 
 IRS Tax (€50,484+ bracket @ 45%): €27,000
-Social Security (21.4%): €17,120
-Total Tax + SS: €44,120
-Effective Rate: 55.2%
+Social Security (21.4%) - €17,120
+Total Tax + SS - €44,120
+Effective Rate - 55.2%
 
-Monthly Set-Aside: €3,677
+Monthly Set-Aside - €3,677
 ```
 
-Scenario 3: Part-time remote work earning €20,000/year
+Scenario 3 - Part-time remote work earning €20,000/year
 
 ```
-Gross Income: €20,000
+Gross Income - €20,000
 Deduction (25% simplified regime): €5,000
-Taxable Income: €15,000
+Taxable Income - €15,000
 
 IRS Tax (€11,285-€15,992 bracket @ 26.5%): €3,975
-Social Security (21.4%): €4,280
-Total Tax + SS: €8,255
-Effective Rate: 41.3%
+Social Security (21.4%) - €4,280
+Total Tax + SS - €8,255
+Effective Rate - 41.3%
 
-Monthly Set-Aside: €688
+Monthly Set-Aside - €688
 ```
 
 Notice the effective rate stays roughly consistent across income levels due to Portugal's progressive tax structure. Budget based on these percentages and you'll avoid surprises at tax time.

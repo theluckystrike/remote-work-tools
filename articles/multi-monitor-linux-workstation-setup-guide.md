@@ -29,7 +29,7 @@ Table of Contents
 - [Wallpaper Per Monitor](#wallpaper-per-monitor)
 - [Status Bar Per Monitor](#status-bar-per-monitor)
 - [Test Layout Without Committing](#test-layout-without-committing)
-- [Hardware: What Actually Works](#hardware-what-actually-works)
+- [Hardware - What Actually Works](#hardware-what-actually-works)
 - [Hyprland Configuration (Modern Wayland Alternative)](#hyprland-configuration-modern-wayland-alternative)
 - [Compositor and Display Server Comparison](#compositor-and-display-server-comparison)
 - [Related Reading](#related-reading)
@@ -103,7 +103,7 @@ Add `autorandr --change` to your session startup so it fires whenever monitors c
 
 Handle Mixed DPI (HiDPI + 1080p)
 
-The most common setup: a 4K laptop screen at 200% scaling plus a 1080p external at 100%. This is the hardest multi-monitor problem on Linux.
+The most common setup - a 4K laptop screen at 200% scaling plus a 1080p external at 100%. This is the hardest multi-monitor problem on Linux.
 
 X11 (limited, partial fix):
 
@@ -111,7 +111,7 @@ X11 (limited, partial fix):
 Set global DPI (affects all displays equally. not ideal for mixed)
 xrandr --dpi 144
 
-Workaround: use xrandr --scale to fake per-monitor DPI
+Workaround - use xrandr --scale to fake per-monitor DPI
 Scale the 1080p monitor up to match the HiDPI environment
 xrandr --output DP-1 --scale 2x2 --mode 1920x1080 --fb 7680x2160
 
@@ -124,7 +124,7 @@ Wayland (clean per-monitor scaling):
 Wayland handles per-monitor scaling natively. Use Sway or Hyprland for the cleanest result.
 
 ```bash
-Sway config: ~/.config/sway/config
+Sway config - ~/.config/sway/config
 output HDMI-A-1 resolution 3840x2160 scale 2
 output DP-1 resolution 1920x1080 scale 1
 
@@ -270,7 +270,7 @@ bar {
 Test Layout Without Committing
 
 ```bash
-X11: test a layout change, it reverts on next login
+X11 - test a layout change, it reverts on next login
 xrandr --output HDMI-1 --mode 1920x1080
 
 Confirm it works before saving with autorandr
@@ -280,7 +280,7 @@ Revert to previous profile if something breaks
 autorandr previous
 ```
 
-Hardware: What Actually Works
+Hardware - What Actually Works
 
 Not every GPU and cable combination delivers a clean multi-monitor setup on Linux. Common failure points:
 

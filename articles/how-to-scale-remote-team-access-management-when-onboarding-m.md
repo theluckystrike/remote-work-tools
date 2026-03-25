@@ -186,7 +186,7 @@ Automating Cloud Infrastructure Access
 Cloud infrastructure (AWS, GCP, Azure) requires special attention because misconfigured permissions can expose sensitive resources. Use infrastructure-as-code to define and provision access programmatically.
 
 ```hcl
-Terraform: AWS IAM role for engineer
+Terraform - AWS IAM role for engineer
 resource "aws_iam_role" "engineer" {
   name = "engineer-role"
 

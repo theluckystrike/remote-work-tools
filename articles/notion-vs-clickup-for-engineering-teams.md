@@ -28,10 +28,10 @@ Table of Contents
 - [Hybrid Approach](#hybrid-approach)
 - [Detailed Pricing Comparison (2026)](#detailed-pricing-comparison-2026)
 - [Implementation Timeline Comparison](#implementation-timeline-comparison)
-- [Real Workflow Comparison: Sprint Planning](#real-workflow-comparison-sprint-planning)
-- [Feature Deep Dive: Time Tracking](#feature-deep detailed look-time-tracking)
-- [Database Complexity: Engineering Documentation](#database-complexity-engineering-documentation)
-- [Migration Complexity: From Existing Systems](#migration-complexity-from-existing-systems)
+- [Real Workflow Comparison - Sprint Planning](#real-workflow-comparison-sprint-planning)
+- [Feature Deep Dive - Time Tracking](#feature-deep detailed look-time-tracking)
+- [Database Complexity - Engineering Documentation](#database-complexity-engineering-documentation)
+- [Migration Complexity - From Existing Systems](#migration-complexity-from-existing-systems)
 - [Team Adoption Patterns](#team-adoption-patterns)
 - [Making Your Decision](#making-your-decision)
 - [Decision Matrix Tool](#decision-matrix-tool)
@@ -50,7 +50,7 @@ Notion excels at engineering documentation. Its database feature lets you build 
 
 ```markdown
 // Notion database example: API Documentation
-Database: API Endpoints
+Database - API Endpoints
 Properties:
 - Endpoint (text)
 - Method (select: GET, POST, PUT, DELETE)
@@ -164,23 +164,23 @@ Week 1:
   - Database schema design
   - Linking strategy
 - Invite team members (30 minutes)
-Total: 5.5 hours
+Total - 5.5 hours
 
 Week 2:
 - Build API documentation template (2 hours)
 - Build decision log (1 hour)
 - Build runbook template (2 hours)
 - Migrate existing documentation (4-6 hours)
-Total: 9-11 hours
+Total - 9-11 hours
 
 Week 3:
 - Team training (1 hour live + async review)
 - Iterate on structure based on feedback (2 hours)
 - Dashboard setup (2 hours)
-Total: 5 hours
+Total - 5 hours
 
-Total setup: 20-22 hours
-Ongoing: High (requires maintenance and refinement)
+Total setup - 20-22 hours
+Ongoing - High (requires maintenance and refinement)
 ```
 
 ClickUp Setup (Engineering Team of 8):
@@ -191,26 +191,26 @@ Week 1:
 - Import default template (Engineering template exists) (1 hour)
 - Customize statuses and fields (2 hours)
 - Connect GitHub integration (1 hour)
-Total: 4.5 hours
+Total - 4.5 hours
 
 Week 2:
 - Import 100+ existing tasks from Jira (1 hour via API)
 - Adjust custom fields based on team feedback (1 hour)
 - Setup team calendars and views (1 hour)
-Total: 3 hours
+Total - 3 hours
 
 Week 3:
 - Team training (1 hour)
 - Adjust workflows based on feedback (1 hour)
-Total: 2 hours
+Total - 2 hours
 
-Total setup: 9.5 hours
-Ongoing: Low (mostly maintenance)
+Total setup - 9.5 hours
+Ongoing - Low (mostly maintenance)
 ```
 
 ClickUp requires 50% less setup time due to templates and simpler customization.
 
-Real Workflow Comparison: Sprint Planning
+Real Workflow Comparison - Sprint Planning
 
 Notion Approach:
 
@@ -247,9 +247,9 @@ Notion Approach:
    - Comment on what went well/could improve
    - Track retrospective action items in separate database
 
-Time investment: First sprint setup ~4 hours, thereafter 1 hour/sprint
-Value: Everything interconnected, single source of truth
-Trade-off: Customization required, requires some database knowledge
+Time investment - First sprint setup ~4 hours, thereafter 1 hour/sprint
+Value - Everything interconnected, single source of truth
+Trade-off - Customization required, requires some database knowledge
 ```
 
 ClickUp Approach:
@@ -286,20 +286,20 @@ ClickUp Approach:
    - Add action items, assign owners
    - Track in next sprint automatically
 
-Time investment: First sprint setup ~30 minutes, thereafter 15 minutes/sprint
-Value: Fast execution, automatic calculations
-Trade-off: Less flexible, works well if your workflow matches ClickUp's assumptions
+Time investment - First sprint setup ~30 minutes, thereafter 15 minutes/sprint
+Value - Fast execution, automatic calculations
+Trade-off - Less flexible, works well if your workflow matches ClickUp's assumptions
 ```
 
-Feature Deep Dive: Time Tracking
+Feature Deep Dive - Time Tracking
 
 Notion Time Tracking:
 ```
 Notion doesn't have built-in time tracking.
-Workaround: Add property "Time Spent (hours)" and manually update
-Alternative: Integrate via Zapier with Toggl/Harvest (adds complexity)
+Workaround - Add property "Time Spent (hours)" and manually update
+Alternative - Integrate via Zapier with Toggl/Harvest (adds complexity)
 
-Limitation: Can't see "Where did the day go?" perspective
+Limitation - Can't see "Where did the day go?" perspective
 ```
 
 ClickUp Time Tracking:
@@ -313,7 +313,7 @@ ClickUp Time Tracking:
 - Project (total project hours)
 - Team member (individual productivity overview)
 
-Integration with invoicing: Can auto-generate invoices based on time logged
+Integration with invoicing - Can auto-generate invoices based on time logged
 
 // API example: Get time entries for reporting
 const getTimeEntries = async (taskId) => {
@@ -329,7 +329,7 @@ const getTimeEntries = async (taskId) => {
 
 For teams doing client billing, ClickUp's time tracking alone justifies the platform.
 
-Database Complexity: Engineering Documentation
+Database Complexity - Engineering Documentation
 
 Notion database system for engineering wiki:
 
@@ -355,19 +355,19 @@ Main databases:
      Relations to: Services, Incidents
      Properties: Frequency, Last Used Date, Owner, Revision Number
 
-Linking strategy: Everything links to everything
+Linking strategy - Everything links to everything
 An incident links to the service affected, the decision that caused it,
 the runbook used to recover, and the API endpoint that failed
 
-Value: Developer navigates from service name → finds all related docs in seconds
-Complexity: Requires 3-4 hours initial schema design, ongoing maintenance
+Value - Developer navigates from service name → finds all related docs in seconds
+Complexity - Requires 3-4 hours initial schema design, ongoing maintenance
 ```
 
 ClickUp equivalent:
 
 ```
 ClickUp doesn't support relational databases like Notion.
-Workaround: Flatten structure into tasks/subtasks
+Workaround - Flatten structure into tasks/subtasks
  Sprint 47
     Task: "Document payment API authentication"
     Task: "Write incident runbook for timeout failures"
@@ -378,41 +378,41 @@ Documentation lives in:
 - Attached files (uploaded to ClickUp)
 - Docs feature (limited relational capability)
 
-Limitation: Can't easily query "show me all APIs authored by Alice"
-Workaround: Use ClickUp custom fields and filters (less elegant than Notion relations)
+Limitation - Can't easily query "show me all APIs authored by Alice"
+Workaround - Use ClickUp custom fields and filters (less elegant than Notion relations)
 ```
 
 For engineering teams with heavy documentation needs, Notion's database system wins.
 
-Migration Complexity: From Existing Systems
+Migration Complexity - From Existing Systems
 
 From Jira to Notion:
 ```bash
-Option 1: Manual export + import (painful)
+Option 1 - Manual export + import (painful)
 Jira → export CSV → Notion import → reformat
 
-Option 2: Use Jira to Notion integration (Zapier)
+Option 2 - Use Jira to Notion integration (Zapier)
 Requires setting up automation rules
-Cost: ~$20-30/month for Zapier + additional setup time
+Cost - ~$20-30/month for Zapier + additional setup time
 
-Option 3: Use API script (technical)
+Option 3 - Use API script (technical)
 Write script to query Jira API, create Notion pages
-Time investment: 4-6 hours for developer
+Time investment - 4-6 hours for developer
 
-Migration time: 8-20 hours depending on historical data importance
+Migration time - 8-20 hours depending on historical data importance
 ```
 
 From Jira to ClickUp:
 ```bash
-Option 1: Native Jira → ClickUp importer
+Option 1 - Native Jira → ClickUp importer
 ClickUp has built-in import (better than Notion)
 Click "Import" → authenticate Jira → choose projects → import
 Automatically maps fields
 
-Option 2: CSV export from Jira
+Option 2 - CSV export from Jira
 Import directly into ClickUp with field mapping
 
-Migration time: 2-4 hours (much faster than Notion)
+Migration time - 2-4 hours (much faster than Notion)
 ```
 
 If you're leaving Jira, ClickUp's migration tools save significant time.
@@ -428,7 +428,7 @@ Mid-level Engineers:  (find it useful, sometimes overwhelming)
 Junior Engineers:  (confused by relationships, not obvious how to use)
 Managers:  (can't easily see "status of all work")
 
-Adoption curve: Slow initial ramp, gets easier after 3-4 weeks
+Adoption curve - Slow initial ramp, gets easier after 3-4 weeks
 ```
 
 ClickUp adoption by role:
@@ -440,7 +440,7 @@ Mid-level Engineers:  (feels intuitive, clear task workflow)
 Junior Engineers:  (works like expected task tracker)
 Managers:  (automatic reports, capacity views, dashboards)
 
-Adoption curve: Fast ramp (feels familiar to Jira users)
+Adoption curve - Fast ramp (feels familiar to Jira users)
 ```
 
 ClickUp has higher initial adoption for typical engineering teams.

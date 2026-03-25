@@ -27,7 +27,7 @@ Table of Contents
 - [Software Tools for Multi-Monitor Workflow](#software-tools-for-multi-monitor-workflow)
 - [Practical Setup Tips for Nomads](#practical-setup-tips-for-nomads)
 - [Recommended Portable Monitor Models](#recommended-portable-monitor-models)
-- [Comparison: Portable Monitor vs. Second Laptop](#comparison-portable-monitor-vs-second-laptop)
+- [Comparison - Portable Monitor vs. Second Laptop](#comparison-portable-monitor-vs-second-laptop)
 - [Setting Up in Challenging Environments](#setting-up-in-challenging-environments)
 - [Packing and Travel Considerations](#packing-and-travel-considerations)
 - [Performance Impact on Your Laptop](#performance-impact-on-your-laptop)
@@ -60,13 +60,13 @@ When using USB-C power delivery, your laptop charges the portable monitor. This 
 
 ```bash
 Estimate power consumption
-Typical 15.6" portable monitor: 15-25W
-Your laptop charging: 30-65W
-Total needed from USB-C PD: 45-90W
+Typical 15.6" portable monitor - 15-25W
+Your laptop charging - 30-65W
+Total needed from USB-C PD - 45-90W
 
 Check your laptop's USB-C power delivery capability
-Linux: cat /sys/class/power_supply/*/power_now
-Or use: upower -d
+Linux - cat /sys/class/power_supply/*/power_now
+Or use - upower -d
 ```
 
 Consider a portable monitor with its own power input for the best flexibility. Connect the monitor to AC power while your laptop runs on battery, preserving your laptop charge for emergencies or mobile work sessions.
@@ -118,13 +118,13 @@ Software Tools for Multi-Monitor Workflow
 
 Window management software dramatically improves your portable monitor experience. These tools help position windows quickly without constant dragging.
 
-Linux: wmctrl and ydotool
+Linux - wmctrl and ydotool
 
 Script window placement for specific workflows:
 
 ```bash
 #!/bin/bash
-Developer workflow: code on laptop, docs/tests on portable
+Developer workflow - code on laptop, docs/tests on portable
 
 Move terminal to portable monitor (top-left)
 wmctrl -r "Terminal" -e 0,1920,0,960,1040
@@ -153,8 +153,8 @@ brew install rectangle
 
 Example keyboard shortcuts:
 Cmd+Alt+Left: Snap to left half
-Cmd+Alt+Right: Snap to right half
-Cmd+Alt+M: Maximize window
+Cmd+Alt+Right - Snap to right half
+Cmd+Alt+M - Maximize window
 ```
 
 Hammerspoon offers deeper customization through Lua scripting:
@@ -226,9 +226,9 @@ Eviciv USB-C portable monitor (13.3", ultra-light)
 
 For most remote developers, the ASUS MB16UC remains the best balance of price, performance, and portability.
 
-Comparison: Portable Monitor vs. Second Laptop
+Comparison - Portable Monitor vs. Second Laptop
 
-Some nomads ask: shouldn't I just carry two small laptops instead of one laptop + monitor?
+Some nomads ask - shouldn't I just carry two small laptops instead of one laptop + monitor?
 
 Portable monitor wins if:
 - You already have a powerful work laptop you love
@@ -244,13 +244,13 @@ Most developers choose portable monitor + one good laptop. It's lighter than two
 
 Setting Up in Challenging Environments
 
-Unstable power environments: Carry a power bank rated for your monitor's draw (25W minimum). Set it on your desk beside the monitor so you're not draining your laptop.
+Unstable power environments - Carry a power bank rated for your monitor's draw (25W minimum). Set it on your desk beside the monitor so you're not draining your laptop.
 
-Poor WiFi: Portable monitors don't require internet. Use them for local development work (code editor, terminal, IDE) while keeping your laptop on WiFi for research and collaboration.
+Poor WiFi - Portable monitors don't require internet. Use them for local development work (code editor, terminal, IDE) while keeping your laptop on WiFi for research and collaboration.
 
-Bright sunlight: Portable monitors have lower brightness (300-400 nits) compared to desktop displays (500+ nits). Work in shaded areas or adjust colors in your OS settings.
+Bright sunlight - Portable monitors have lower brightness (300-400 nits) compared to desktop displays (500+ nits). Work in shaded areas or adjust colors in your OS settings.
 
-Hotel noise: The quiet fans on some portable monitors help create a productive cocoon in noisy hotel lobbies.
+Hotel noise - The quiet fans on some portable monitors help create a productive cocoon in noisy hotel lobbies.
 
 Packing and Travel Considerations
 
@@ -273,8 +273,8 @@ Performance Impact on Your Laptop
 
 Running dual displays affects your laptop CPU and GPU slightly:
 
-- Energy: Drawing 15-25W from USB-C, adding 25% to total laptop power draw (rough estimate). Noticeable impact on 8-hour battery life.
-- Thermal: Rendering to two screens increases GPU load by ~15-20%, raising temperatures. Some laptops thermal-throttle if already warm.
+- Energy - Drawing 15-25W from USB-C, adding 25% to total laptop power draw (rough estimate). Noticeable impact on 8-hour battery life.
+- Thermal - Rendering to two screens increases GPU load by ~15-20%, raising temperatures. Some laptops thermal-throttle if already warm.
 - Productivity gain: Two screens typically increases productivity 30-40% for development work (code on one, docs/tests on other).
 
 The trade-off is usually worth it. Code development with dual screens outweighs the battery penalty.

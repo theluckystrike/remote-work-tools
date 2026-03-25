@@ -27,7 +27,7 @@ Table of Contents
 - [Syncing Considerations](#syncing-considerations)
 - [Selecting Your Journaling Workflow](#selecting-your-journaling-workflow)
 - [Advanced Journaling Workflows](#advanced-journaling-workflows)
-- [TDL-2026-001: PostgreSQL over MongoDB for Analytics](#tdl-2026-001-postgresql-over-mongodb-for-analytics)
+- [TDL-2026-001 - PostgreSQL over MongoDB for Analytics](#tdl-2026-001-postgresql-over-mongodb-for-analytics)
 - [Comparing Journaling Approaches for Teams](#comparing-journaling-approaches-for-teams)
 - [Exporting and Backing Up Your Journal](#exporting-and-backing-up-your-journal)
 - [Moving Between Journaling Tools](#moving-between-journaling-tools)
@@ -180,7 +180,7 @@ Selecting Your Journaling Workflow
 
 The best journaling app ultimately depends on your existing toolchain and preferences. If you already use VS Code, the VS Code Journal extension provides embedded journaling without leaving your editor. If Taskwarrior manages your task list, extending it for journaling creates an unified productivity system.
 
-Start simply: commit to five minutes of daily reflection, then refine your approach as the habit solidifies. The technical setup matters less than consistent practice. A basic text file captured daily provides more value than a sophisticated application used sporadically.
+Start simply - commit to five minutes of daily reflection, then refine your approach as the habit solidifies. The technical setup matters less than consistent practice. A basic text file captured daily provides more value than a sophisticated application used sporadically.
 
 The remote work lifestyle benefits from intentional reflection. Journaling transforms isolated workdays into documented learning, making patterns visible and progress concrete. For developers specifically, capturing technical decisions, debugging journeys, and project insights creates a personal knowledge base that compounds over time.
 
@@ -193,10 +193,10 @@ For architects and senior developers, maintaining a separate technical decision 
 ```markdown
 Technical Decision Log
 
-TDL-2026-001: PostgreSQL over MongoDB for Analytics
-Date: 2026-03-15
-Context: Choosing primary datastore for analytics pipeline
-Decision: Selected PostgreSQL with JSON columns
+TDL-2026-001 - PostgreSQL over MongoDB for Analytics
+Date - 2026-03-15
+Context - Choosing primary datastore for analytics pipeline
+Decision - Selected PostgreSQL with JSON columns
 Rationale:
 - Team expertise in SQL
 - Structured query access needed for reporting
@@ -210,7 +210,7 @@ Consequences:
 - Need to manage schema migrations
 - JSON queries require learning PostgreSQL-specific syntax
 
-Status: Implemented, working well in production
+Status - Implemented, working well in production
 ```
 
 Establishing Reflection Routines
@@ -333,7 +333,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -345,7 +345,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

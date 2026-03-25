@@ -35,13 +35,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Foundation: Understanding What Scoping Really Means
+Step 1 - The Foundation: Understanding What Scoping Really Means
 
 Project scoping defines the boundaries of your work. It answers three critical questions: What will be built? How will you know it's complete? What falls outside the agreement? Many developers treat scoping as simply estimating hours, but it's really about creating a shared understanding with your client about deliverables, timeline, and assumptions.
 
 A well-scoped project protects both you and your client. You get paid fairly for your work. Your client gets exactly what they expect. Disputes become rare because everyone agreed on the definition of "done" before writing the first line of code.
 
-Step 2: Step-by-Step Scoping Process
+Step 2 - Step-by-Step Scoping Process
 
 1. Gather Requirements Through Structured Conversation
 
@@ -129,7 +129,7 @@ For user authentication:
 
 These criteria transform vague requirements into measurable checkpoints. When you complete work that meets all criteria, the deliverable is done. No more "just one more thing" requests without formal scope change discussion.
 
-Step 3: Handling Scope Changes
+Step 3 - Handling Scope Changes
 
 Even with thorough scoping, clients will request changes. Build change management into your process from the start.
 
@@ -137,50 +137,50 @@ When a client requests something new, respond with the same format:
 
 "Adding [new feature] requires approximately [X] additional hours. This would add [Y] days to the timeline and increase the project cost by [Z]. Would you like me to proceed with this as a change order?"
 
-This approach does three things: it educates clients about the cost of changes, it creates a paper trail, and it makes adding work feel like a deliberate decision rather than an expectation.
+This approach does three things - it educates clients about the cost of changes, it creates a paper trail, and it makes adding work feel like a deliberate decision rather than an expectation.
 
-Step 4: Sample Scoping Document
+Step 4 - Sample Scoping Document
 
 Here's a practical template you can adapt:
 
 ```
-Project: [Project Name]
-Client: [Client Name]
-Date: [Date]
+Project - [Project Name]
+Client - [Client Name]
+Date - [Date]
 
 Overview
 [Brief description of what this project accomplishes]
 
-Step 5: Deliverables
+Step 5 - Deliverables
 1. [Deliverable 1]
 2. [Deliverable 2]
 3. [Deliverable 3]
 
-Step 6: Out of Scope
+Step 6 - Out of Scope
 - [Item explicitly not included]
 - [Item explicitly not included]
 
-Step 7: Timeline
+Step 7 - Timeline
 - Phase 1: [Description] - [Duration]
 - Phase 2: [Description] - [Duration]
 - Phase 3: [Description] - [Duration]
 
-Step 8: Total Estimate
+Step 8 - Total Estimate
 [Total hours] hours at $[rate]/hour = $[total]
 
-Step 9: Payment Terms
+Step 9 - Payment Terms
 [Your payment terms]
 
-Step 10: Acceptance Criteria
+Step 10 - Acceptance Criteria
 For each deliverable, list specific testable criteria.
 
-Step 11: Assumptions
+Step 11 - Assumptions
 - Client provides [assets/content/access] by [date]
 - Client reviews deliverables within [timeframe]
 - No third-party API changes during project
 ```
 
-Step 12: Common Scoping Mistakes to Avoid
+Step 12 - Common Scoping Mistakes to Avoid
 
 Underestimating complexity. Clients often describe simple-sounding projects. Probe deeper. "Just a simple API" might involve authentication, rate limiting, error handling, documentation, and testing.
 
@@ -192,7 +192,7 @@ Skipping the out-of-scope list. Explicitly stating what's not included prevents 
 
 Estimating in your head. Write everything down. The act of documenting reveals gaps in your understanding.
 
-Step 13: Pricing Strategies for Different Project Types
+Step 13 - Pricing Strategies for Different Project Types
 
 Your rate structure should vary by project complexity and risk:
 
@@ -200,14 +200,14 @@ Fixed-price projects (scoped):
 - Technical complexity: Low
 - Requirements: Clear and stable
 - Risk: Client can write acceptance tests
-- Rate: Standard rate × 1.3 (buffer for unknowns)
+- Rate - Standard rate × 1.3 (buffer for unknowns)
 - Building a landing page at $60/hr with clear design = 20 hours × $60 × 1.3 = $1,560
 
 Time-and-materials (for exploration):
 - Technical complexity: Moderate to high
 - Requirements: Some uncertainty
 - Risk: Client understands ongoing discovery
-- Rate: Standard rate × 1.5 (exploration overhead)
+- Rate - Standard rate × 1.5 (exploration overhead)
 - Integrating third-party API with unclear documentation = $60/hr × 1.5 = $90/hr
 
 Hybrid (fixed phases with T&M overages):
@@ -216,7 +216,7 @@ Hybrid (fixed phases with T&M overages):
 - Risk: Split with client
 - "Phase 1 (authentication): Fixed $3,000. Phase 2 (API): Time-and-materials at $75/hr with 40-hour estimate"
 
-Step 14: Estimation Techniques You Can Use
+Step 14 - Estimation Techniques You Can Use
 
 Three-point estimation (reduces overconfidence):
 ```
@@ -232,9 +232,9 @@ This mathematical approach accounts for your bias toward underestimation.
 
 Analogy-based estimation (use past projects):
 ```
-Past project: Landing page similar to this one took 18 hours
-Current project: More complex backend, simpler design
-Adjustment: +4 hours for backend = 22 hours estimated
+Past project - Landing page similar to this one took 18 hours
+Current project - More complex backend, simpler design
+Adjustment - +4 hours for backend = 22 hours estimated
 ```
 
 Complexity-rated tasks:
@@ -244,10 +244,10 @@ Normal task (build feature):        3-5 hours
 Complex task (architecture work):   8-12 hours
 Very complex (integration work):    20+ hours
 
-Total project: Sum complexity ratings, then add 25% buffer
+Total project - Sum complexity ratings, then add 25% buffer
 ```
 
-Step 15: Red Flags That Indicate Scope Creep Risk
+Step 15 - Red Flags That Indicate Scope Creep Risk
 
 Learn to identify projects likely to exceed scope:
 
@@ -268,7 +268,7 @@ Project characteristics:
 Your response:
 For projects showing 3+ red flags, increase estimates by 40-50% or propose time-and-materials instead. Your instinct is usually right.
 
-Step 16: Build Your Scoping Muscle
+Step 16 - Build Your Scoping Muscle
 
 Create a database of past estimates vs. actual hours to calibrate your skills:
 
@@ -287,10 +287,10 @@ Accuracy Analysis:
 - Projects 20-50 hours: ±20% variance (acceptable)
 - Projects over 50 hours: ±30% variance (normal)
 
-Calibration: If fixed projects consistently over by 15%+, adjust multiplier from 1.3x to 1.5x
+Calibration - If fixed projects consistently over by 15%+, adjust multiplier from 1.3x to 1.5x
 ```
 
-Step 17: Tools for Scoping
+Step 17 - Tools for Scoping
 
 Several tools help manage project scope:
 
@@ -303,61 +303,61 @@ Several tools help manage project scope:
 
 Build these into your scoping workflow. They create accountability and documentation that protects everyone involved.
 
-Step 18: Sample Scoping Project Template
+Step 18 - Sample Scoping Project Template
 
 Create this template and reuse it for every project:
 
 ```markdown
-Project Scope Document: [Project Name]
+Project Scope Document - [Project Name]
 
-Client: [Name]
-Prepared by: [Your name]
-Date: [Date]
-Quote valid until: [Date, typically 30 days]
+Client - [Name]
+Prepared by - [Your name]
+Date - [Date]
+Quote valid until - [Date, typically 30 days]
 
 Problem Summary
 [1 paragraph describing what client is trying to achieve]
 
-Step 19: Proposed Solution
+Step 19 - Proposed Solution
 [Overview of your approach]
 
-Step 20: Deliverables
+Step 20 - Deliverables
 1. [Deliverable 1: Exact description]
 2. [Deliverable 2: Exact description]
 3. [Deliverable 3: Exact description]
 
-Step 21: Out of Scope (Explicitly Not Included)
+Step 21 - Out of Scope (Explicitly Not Included)
 - [Item 1]
 - [Item 2]
 - [Item 3]
 
-Step 22: Technical Approach
+Step 22 - Technical Approach
 [How you plan to build this. Include architecture decisions and technology choices]
 
-Step 23: Timeline
+Step 23 - Timeline
 - Phase 1: [Deliverables] - [Duration]
 - Phase 2: [Deliverables] - [Duration]
 - Phase 3: [Deliverables] - [Duration]
 
-Total project duration: [X weeks]
-Estimated start: [Date]
-Estimated completion: [Date]
+Total project duration - [X weeks]
+Estimated start - [Date]
+Estimated completion - [Date]
 
-Step 24: Investment
+Step 24 - Investment
 - [Phase 1]: [Hours] hours at $[rate]/hour = $[cost]
 - [Phase 2]: [Hours] hours at $[rate]/hour = $[cost]
 - [Phase 3]: [Hours] hours at $[rate]/hour = $[cost]
 
-Total investment: $[amount]
-Payment terms: [Your terms - e.g., 50% on signing, 50% on delivery]
+Total investment - $[amount]
+Payment terms - [Your terms - e.g., 50% on signing, 50% on delivery]
 
-Step 25: Success Criteria
+Step 25 - Success Criteria
 The project is considered successful when:
 - [Criterion 1]
 - [Criterion 2]
 - [Criterion 3]
 
-Step 26: Change Request Process
+Step 26 - Change Request Process
 Additional work beyond this scope will be quoted separately using this format:
 - Change description
 - Estimated hours
@@ -365,13 +365,13 @@ Additional work beyond this scope will be quoted separately using this format:
 - Timeline impact
 - Approval required before proceeding
 
-Step 27: Assumptions
+Step 27 - Assumptions
 - Client provides [assets/access/content] by [date]
 - Client reviews deliverables within [timeframe]
 - Client decisions don't change [technical foundation/scope]
 - [Your assumption about client involvement]
 
-Step 28: Approval
+Step 28 - Approval
 - Client representative: _________________ Date: _______
 - Developer: _________________ Date: _______
 ```

@@ -20,8 +20,8 @@ Choose the Herman Miller Aeron if you run hot during long coding sessions and wa
 Table of Contents
 
 - [Why Ergonomic Chairs Matter for Developers](#why-ergonomic-chairs-matter-for-developers)
-- [Herman Miller: The Developer's Perspective](#herman-miller-the-developers-perspective)
-- [Steelcase: The Corporate Workhorse](#steelcase-the-corporate-workhorse)
+- [Herman Miller - The Developer's Perspective](#herman-miller-the-developers-perspective)
+- [Steelcase - The Corporate Workhorse](#steelcase-the-corporate-workhorse)
 - [Side-by-Side Comparison for Developers](#side-by-side-comparison-for-developers)
 - [Making Your Decision](#making-your-decision)
 - [The Real-World Factor](#the-real-world-factor)
@@ -31,7 +31,7 @@ Table of Contents
 - [Testing Chairs Before Purchasing](#testing-chairs-before-purchasing)
 - [Chair Longevity and Warranty Coverage](#chair-longevity-and-warranty-coverage)
 - [When to Replace Your Chair](#when-to-replace-your-chair)
-- [Budget Progression: From Entry to Professional](#budget-progression-from-entry-to-professional)
+- [Budget Progression - From Entry to Professional](#budget-progression-from-entry-to-professional)
 - [Common Misconceptions About Ergonomic Chairs](#common-misconceptions-about-ergonomic-chairs)
 - [The Productivity Argument](#the-productivity-argument)
 - [Final Decision Framework](#final-decision-framework)
@@ -40,7 +40,7 @@ Why Ergonomic Chairs Matter for Developers
 
 As a developer, your chair is the most important piece of equipment in your home office. You spend 6-10 hours daily sitting while coding, debugging, and reviewing pull requests. A quality ergonomic chair directly impacts your productivity, health, and ability to focus during long coding sessions.
 
-Herman Miller: The Developer's Perspective
+Herman Miller - The Developer's Perspective
 
 Herman Miller chairs, particularly the Aeron and Embody, have achieved near-legendary status in tech offices. Here's what developers actually experience:
 
@@ -86,7 +86,7 @@ The Embody targets a different developer persona, those dealing with back issues
 
 The Embody's learning curve is steeper than the Aeron. You need to spend time adjusting it correctly. But once dialed in, many developers report it becoming "invisible" during focused work.
 
-Steelcase: The Corporate Workhorse
+Steelcase - The Corporate Workhorse
 
 Steelcase chairs are ubiquitous in corporate offices. The Gesture and Leap are the primary contenders for home office use.
 
@@ -190,7 +190,7 @@ const years = 5;
 
 const costPerDay = chairPrice / (daysPerYear * years);
 console.log(`Cost per day: $${costPerDay.toFixed(2)}`);
-// Output: Cost per day: $0.96
+// Output - Cost per day: $0.96
 
 // Compare to daily coffee habit
 const coffeePerDay = 5;
@@ -207,7 +207,7 @@ For most developers setting up a home office, the Herman Miller Aeron represents
 
 However, if you have specific back issues, the Embody's targeted support may serve you better. And if budget constraints are real, the Steelcase Leap provides meaningful ergonomic improvement over basic office chairs at a more accessible price point.
 
-The key insight: any of these four chairs will dramatically improve your home office experience compared to a basic office chair. Pick the one that fits your body, your budget, and your specific problems, and then get back to coding.
+The key insight - any of these four chairs will dramatically improve your home office experience compared to a basic office chair. Pick the one that fits your body, your budget, and your specific problems, and then get back to coding.
 
 Secondary Ergonomic Adjustments for Developers
 
@@ -241,11 +241,11 @@ Footrest (Often Overlooked)
 A footrest preventing dangling legs improves spine alignment:
 
 ```
-Without footrest: Legs dangle → lower back unsupported → slouching
-With footrest: Feet supported → stable lower body → upright posture
+Without footrest - Legs dangle → lower back unsupported → slouching
+With footrest - Feet supported → stable lower body → upright posture
 
-Cost: $30-60
-Impact: Measurable reduction in lower back fatigue during 8+ hour days
+Cost - $30-60
+Impact - Measurable reduction in lower back fatigue during 8+ hour days
 ```
 
 A cheap footrest provides more improvement than many expensive ergonomic accessories.
@@ -304,7 +304,7 @@ Even quality chairs degrade eventually. Replace when:
 
 Don't wait for complete failure. Degraded chairs cause creeping back pain that you might not attribute to the chair.
 
-Budget Progression: From Entry to Professional
+Budget Progression - From Entry to Professional
 
 If you're building your ergonomic setup over time:
 
@@ -330,36 +330,36 @@ This progression prevents spending $3,000+ all at once while building a genuinel
 
 Common Misconceptions About Ergonomic Chairs
 
-Myth: The most expensive chair is the best
-Reality: Best chair is the one matching your body and work style. Mid-range often beats premium for specific needs.
+Myth - The most expensive chair is the best
+Reality - Best chair is the one matching your body and work style. Mid-range often beats premium for specific needs.
 
-Myth: Any seat with lumbar support is ergonomic
-Reality: Support must be adjustable and matched to YOUR spine. Generic lumbar doesn't work for everyone.
+Myth - Any seat with lumbar support is ergonomic
+Reality - Support must be adjustable and matched to YOUR spine. Generic lumbar doesn't work for everyone.
 
-Myth: Standing desk + ergonomic chair solves back pain
-Reality: No single tool prevents pain. Correct posture, regular movement, and strengthening exercises matter as much as equipment.
+Myth - Standing desk + ergonomic chair solves back pain
+Reality - No single tool prevents pain. Correct posture, regular movement, and strengthening exercises matter as much as equipment.
 
-Myth: You should stay in one position all day
-Reality: Movement and position changes throughout the day prevent discomfort. Even great chairs cause pain if you don't move for 8 hours.
+Myth - You should stay in one position all day
+Reality - Movement and position changes throughout the day prevent discomfort. Even great chairs cause pain if you don't move for 8 hours.
 
 The Productivity Argument
 
 Skeptical about $1,500 on a chair? Consider productivity math:
 
 ```
-Scenario A: Basic chair
+Scenario A - Basic chair
 - Back pain starts at 3pm
 - Productivity drops 40% 3-5pm daily
 - Workdays are 7 effective hours instead of 8
 - Loss: 1 hour/day × 5 days × 52 weeks = 260 hours/year
 
-Scenario B: Premium ergonomic chair
+Scenario B - Premium ergonomic chair
 - Maintain productivity throughout 8-hour day
 - Gain: 260 hours/year of productive time
 
 260 hours of your work time valued at $100/hour = $26,000 value
-Chair cost: $1,400
-ROI: 18.5x return in first year
+Chair cost - $1,400
+ROI - 18.5x return in first year
 
 Even at conservative $50/hour valuation, ROI exceeds 9x.
 ```

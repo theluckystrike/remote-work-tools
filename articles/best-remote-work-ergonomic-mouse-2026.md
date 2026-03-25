@@ -55,9 +55,9 @@ Logitech MX Vertical
 - Available colors: Graphite, Black, Pale Gray
 - Compatibility: Windows, macOS, Linux via USB receiver or Bluetooth
 
-Cost: $99. Best for: Professional remote workers, long coding sessions without fatigue.
+Cost - $99. Best for: Professional remote workers, long coding sessions without fatigue.
 
-Real-world feedback: 89% of remote developers report 60% pain reduction within 4 weeks. Adaptation period: 2-3 weeks for comfortable use. Some users experience initial finger soreness as new muscles engage, this is normal and resolves by week 3.
+Real-world feedback - 89% of remote developers report 60% pain reduction within 4 weeks. Adaptation period: 2-3 weeks for comfortable use. Some users experience initial finger soreness as new muscles engage, this is normal and resolves by week 3.
 
 Anker Vertical Ergonomic Mouse (Model V2)
 - 60° angle with extended side support for thumb rest
@@ -68,9 +68,9 @@ Anker Vertical Ergonomic Mouse (Model V2)
 - CW-Pro coating reduces grip strain
 - Compatibility: Windows, macOS, limited Linux support
 
-Cost: $35 (wired), $45 (wireless). Best for: Budget-conscious remote workers, new ergonomic mouse adopters.
+Cost - $35 (wired), $45 (wireless). Best for: Budget-conscious remote workers, new ergonomic mouse adopters.
 
-Feedback: Users report excellent value for price. The 60° angle is more aggressive than Logitech (requires stronger commitment), but delivers equivalent long-term relief. Battery life for wireless: 18 months typical usage.
+Feedback - Users report excellent value for price. The 60° angle is more aggressive than Logitech (requires stronger commitment), but delivers equivalent long-term relief. Battery life for wireless: 18 months typical usage.
 
 Evoluent VerticalMouse 4
 - 70° true vertical (most aggressive angle)
@@ -80,9 +80,9 @@ Evoluent VerticalMouse 4
 - Both wired and wireless models
 - Available in right-hand only (left-hand model separate)
 
-Cost: $79 mouse + $50 rest = $129 for full setup. Best for: Developers with smaller hands, existing wrist pain requiring maximum support.
+Cost - $79 mouse + $50 rest = $129 for full setup. Best for: Developers with smaller hands, existing wrist pain requiring maximum support.
 
-Unique feature: Button sensitivity adjustment. Standard mice require consistent finger pressure; Evoluent allows users with weak grip to reduce pressure needed for clicks. This reduces finger fatigue significantly.
+Unique feature - Button sensitivity adjustment. Standard mice require consistent finger pressure; Evoluent allows users with weak grip to reduce pressure needed for clicks. This reduces finger fatigue significantly.
 
 Trackballs
 
@@ -97,9 +97,9 @@ Kensington Expert Mouse Trackball
 - Heavy (195g) provides stability on desk
 - Superior build quality (metal components)
 
-Cost: $79. Best for: Developers with moderate to severe RSI, trackball enthusiasts.
+Cost - $79. Best for: Developers with moderate to severe RSI, trackball enthusiasts.
 
-Feedback: 2-week learning curve before proficiency. Once adapted, users report zero wrist pain and improved precision for detailed work. Programmable buttons reduce keyboard dependency, further decreasing strain.
+Feedback - 2-week learning curve before proficiency. Once adapted, users report zero wrist pain and improved precision for detailed work. Programmable buttons reduce keyboard dependency, further decreasing strain.
 
 Elecom Huge Trackball
 - Massive 54mm ball distributes pressure across entire palm
@@ -110,9 +110,9 @@ Elecom Huge Trackball
 - Heavier build (230g) steadies on desk
 - Less widely available; typical shipping 2-3 weeks
 
-Cost: $89. Best for: Remote workers who've adapted to trackballs, premium feel preference.
+Cost - $89. Best for: Remote workers who've adapted to trackballs, premium feel preference.
 
-Feedback: Enthusiasts report Elecom as best-in-class trackball. Thumb operation is more natural for continuous 8-hour use than finger rolling. Supply limitations mean higher cost than equivalent Kensington model.
+Feedback - Enthusiasts report Elecom as best-in-class trackball. Thumb operation is more natural for continuous 8-hour use than finger rolling. Supply limitations mean higher cost than equivalent Kensington model.
 
 Hybrid Solutions with Additional Support
 
@@ -124,9 +124,9 @@ Hybrid Solutions with Additional Support
 - Steep learning curve (4+ weeks before proficiency)
 - Integrates with professional software (SolidWorks, Maya, AutoCAD native support)
 
-Cost: $199. Best for: CAD developers, 3D visualization specialists. For typical remote workers: Overkill.
+Cost - $199. Best for: CAD developers, 3D visualization specialists. For typical remote workers: Overkill.
 
-Feedback: For applicable work (3D modeling), this eliminates hand strain entirely. For standard coding work, it's unnecessarily complex.
+Feedback - For applicable work (3D modeling), this eliminates hand strain entirely. For standard coding work, it's unnecessarily complex.
 
 Ergonomic Mouse Comparison Table
 
@@ -161,13 +161,13 @@ During adaptation, practice with ergonomic mouse during low-stakes work (email, 
 Critical Setup Additions
 
 Wrist rest pad ($15-30)
-Gel or memory foam pads supporting heel of hand eliminate upward wrist extension. Brands: 3M Gel Wrist Rest, Fellowes Professional.
+Gel or memory foam pads supporting heel of hand eliminate upward wrist extension. Brands - 3M Gel Wrist Rest, Fellowes Professional.
 
 Monitor arm ($20-150)
-Positioning monitor at eye level reduces downward neck flexion, which compounds wrist strain through shoulder tension. Options: HUANUO ($25), Ergotron LX ($150).
+Positioning monitor at eye level reduces downward neck flexion, which compounds wrist strain through shoulder tension. Options - HUANUO ($25), Ergotron LX ($150).
 
 Vertical keyboard ($60-350)
-Typing in neutral position with wrists straight ahead. Budget option: Perixx Periboard ($60). Premium: Kinesis Advantage ($350).
+Typing in neutral position with wrists straight ahead. Budget option: Perixx Periboard ($60). Premium - Kinesis Advantage ($350).
 
 Standing desk converter ($80-300)
 Alternating between sitting and standing every 2-3 hours distributes strain across different muscle groups. FLEXISPOT ($120), Fully Jarvis ($250).
@@ -230,13 +230,13 @@ Troubleshooting Common Issues
 
 Pain increases instead of decreases: Stop using new mouse. Consult physical therapist. Some RSI requires professional treatment.
 
-Cursor control feels imprecise: Vertical mice require different finger micro-movements. Allow 3-4 weeks for proprioception recalibration. Reduce DPI setting temporarily to compensate.
+Cursor control feels imprecise - Vertical mice require different finger micro-movements. Allow 3-4 weeks for proprioception recalibration. Reduce DPI setting temporarily to compensate.
 
-Muscle cramps during adaptation: Normal week 1-2 as unused muscles engage. Should resolve by week 3. If persisting, desk height may be incorrect, adjust before abandoning mouse.
+Muscle cramps during adaptation - Normal week 1-2 as unused muscles engage. Should resolve by week 3. If persisting, desk height may be incorrect, adjust before abandoning mouse.
 
-Shoulder/neck pain develops: Wrist pain shifting to shoulder suggests desk height too high or chair too low. Optimize workstation before using ergonomic mouse.
+Shoulder/neck pain develops - Wrist pain shifting to shoulder suggests desk height too high or chair too low. Optimize workstation before using ergonomic mouse.
 
-Clicking becomes tiring: Likely gripping too tightly from habit. Consciously relax grip; mouse should rest in hand, not be squeezed. This is mental habit-breaking, not a mouse problem.
+Clicking becomes tiring - Likely gripping too tightly from habit. Consciously relax grip; mouse should rest in hand, not be squeezed. This is mental habit-breaking, not a mouse problem.
 
 Prevention for New Remote Workers
 

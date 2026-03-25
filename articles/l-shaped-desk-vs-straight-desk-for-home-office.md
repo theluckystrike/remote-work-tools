@@ -34,7 +34,7 @@ Table of Contents
 - [Acoustic Considerations for Home Offices](#acoustic-considerations-for-home-offices)
 - [Organizational Patterns and Workflow](#organizational-patterns-and-workflow)
 - [Maintenance and Repair Considerations](#maintenance-and-repair-considerations)
-- [Final Calculation: Cost Per Year of Use](#final-calculation-cost-per-year-of-use)
+- [Final Calculation - Cost Per Year of Use](#final-calculation-cost-per-year-of-use)
 
 Space Efficiency and Room Layout
 
@@ -365,7 +365,7 @@ Purchase from manufacturers offering long-term support and replacement parts. Av
 
 Some developers buy desks specifically to last a decade, justifying higher cost. If you plan to use your desk for 10+ years, buying from established manufacturers (Herman Miller, Steelcase, Fully, Uplift) ensures replacement parts remain available.
 
-Final Calculation: Cost Per Year of Use
+Final Calculation - Cost Per Year of Use
 
 Determining value depends on expected lifespan:
 

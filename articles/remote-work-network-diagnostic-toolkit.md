@@ -19,11 +19,11 @@ Network issues kill remote work productivity. When your video call drops or VPN 
 
 Table of Contents
 
-- [Baseline: Know Your Normal Numbers](#baseline-know-your-normal-numbers)
-- [Layer 1: Physical and Link](#layer-1-physical-and-link)
-- [Layer 2: Connectivity](#layer-2-connectivity)
-- [Layer 3: Traceroute](#layer-3-traceroute)
-- [Layer 4: DNS Diagnostics](#layer-4-dns-diagnostics)
+- [Baseline - Know Your Normal Numbers](#baseline-know-your-normal-numbers)
+- [Layer 1 - Physical and Link](#layer-1-physical-and-link)
+- [Layer 2 - Connectivity](#layer-2-connectivity)
+- [Layer 3 - Traceroute](#layer-3-traceroute)
+- [Layer 4 - DNS Diagnostics](#layer-4-dns-diagnostics)
 - [VPN Diagnostics](#vpn-diagnostics)
 - [Bandwidth and Latency Under Load](#bandwidth-and-latency-under-load)
 - [Port and Firewall Checks](#port-and-firewall-checks)
@@ -33,7 +33,7 @@ Table of Contents
 - [Reading ISP Problem Patterns](#reading-isp-problem-patterns)
 - [Related Reading](#related-reading)
 
-Baseline: Know Your Normal Numbers
+Baseline - Know Your Normal Numbers
 
 Run these on a good day and save the output for comparison:
 
@@ -45,7 +45,7 @@ Baseline speed (use Speedtest CLI)
 macOS/Linux
 brew install speedtest-cli
 speedtest-cli --simple
-Download: 450 Mbps, Upload: 45 Mbps, Ping: 8ms
+Download - 450 Mbps, Upload: 45 Mbps, Ping: 8ms
 
 Baseline DNS latency
 time dig @8.8.8.8 google.com
@@ -53,10 +53,10 @@ real 0m0.014s. under 50ms is good
 
 Baseline to key servers
 ping -c 10 8.8.8.8
-Round trip time: avg 12ms. under 30ms for US
+Round trip time - avg 12ms. under 30ms for US
 ```
 
-Layer 1: Physical and Link
+Layer 1 - Physical and Link
 
 ```bash
 Check network interface stats (macOS)
@@ -65,22 +65,22 @@ ifconfig | grep -A4 'en0:'
 
 Check for packet errors or drops (Linux)
 ip -s link show eth0
-Look for: errors, dropped, overruns > 0
+Look for - errors, dropped, overruns > 0
 
 macOS: check WiFi signal strength
 /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | grep -E 'SSID|RSSI|channel|lastTxRate'
-RSSI: -65 dBm is good; below -75 dBm is problematic
+RSSI - -65 dBm is good; below -75 dBm is problematic
 
 WiFi channel utilization
 airport -s  # Scan nearby networks, find congested channels
 ```
 
-Layer 2: Connectivity
+Layer 2 - Connectivity
 
 ```bash
 Basic ping with statistics
 ping -c 20 8.8.8.8
-Key: avg < 30ms (local), < 80ms (regional), 0% packet loss
+Key - avg < 30ms (local), < 80ms (regional), 0% packet loss
 
 Ping multiple targets to isolate where loss starts
 ping -c 10 192.168.1.1    # Router: should be < 2ms
@@ -95,20 +95,20 @@ networkQuality
 Upload/download/responsiveness measured
 ```
 
-Layer 3: Traceroute
+Layer 3 - Traceroute
 
 ```bash
 Standard traceroute
 traceroute google.com
 
-MTR: combines ping + traceroute, shows continuous loss per hop
+MTR - combines ping + traceroute, shows continuous loss per hop
 Install
 brew install mtr   # macOS
 sudo apt install mtr  # Ubuntu
 
 Run MTR (best for diagnosing routing issues)
 sudo mtr --report --report-cycles=20 google.com
-Look for: hop with suddenly high Loss% = problem node
+Look for - hop with suddenly high Loss% = problem node
 Last hop 100% loss with no prior loss = firewall (normal)
 ```
 
@@ -122,7 +122,7 @@ Host                     Loss%   Snt   Avg  Best  Wrst StDev
 5. google.com              0.0%    20  11.3  10.9  12.0   0.3  ← destination: fine
 ```
 
-Layer 4: DNS Diagnostics
+Layer 4 - DNS Diagnostics
 
 DNS failures cause apps to hang before any connection starts:
 
@@ -140,7 +140,7 @@ scutil --dns | head -20  # macOS
 Test DNS over TLS/HTTPS
 dig @1.1.1.1 google.com +tls  # DNS-over-TLS
 curl -s "https://cloudflare-dns.com/dns-query?name=google.com&type=A" \
-  -H "Accept: application/dns-json" | jq '.Answer[].data'
+  -H "Accept - application/dns-json" | jq '.Answer[].data'
 
 Flush DNS cache
 sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder  # macOS
@@ -167,7 +167,7 @@ curl -s https://ipinfo.io/ip  # Should show VPN exit IP
 
 WireGuard status
 sudo wg show
-Look for: latest handshake < 3 minutes, transfer bytes increasing
+Look for - latest handshake < 3 minutes, transfer bytes increasing
 
 OpenVPN log
 sudo journalctl -u openvpn@client -n 50  # Linux
@@ -195,7 +195,7 @@ iperf3 -c server-ip --bidir  # Bidirectional test
 
 Test during a video call to see real impact
 iperf3 -c public-iperf3-server -p 5201
-Public test servers: iperf.he.net, bouygues.iperf.fr
+Public test servers - iperf.he.net, bouygues.iperf.fr
 ```
 
 Port and Firewall Checks
@@ -216,7 +216,7 @@ lsof -iTCP -sTCP:LISTEN  # macOS
 
 Test HTTP connectivity
 curl -v --max-time 10 https://api.example.com/health
-Look for: TLS handshake time, TTFB, total time
+Look for - TLS handshake time, TTFB, total time
 curl -w "DNS: %{time_namelookup}s | Connect: %{time_connect}s | TLS: %{time_appconnect}s | Total: %{time_total}s\n" \
   -o /dev/null -s https://api.example.com
 ```
@@ -233,7 +233,7 @@ sudo tcpdump -i en0 -n 'tcp port 443' -w /tmp/capture.pcap
 Analyze with Wireshark
 brew install --cask wireshark
 
-Quick analysis: count by destination
+Quick analysis - count by destination
 sudo tcpdump -i en0 -n -c 1000 | awk '{print $5}' | cut -d. -f1-4 | sort | uniq -c | sort -rn | head -20
 
 Monitor bandwidth by process (macOS)
@@ -301,9 +301,9 @@ Simulate VoIP packet profile with iperf3
 Server side:
 iperf3 -s
 
-Client side: 100kbps UDP (typical audio codec bandwidth)
+Client side - 100kbps UDP (typical audio codec bandwidth)
 iperf3 -c server-ip -u -b 100k -l 160 -t 60
-Look for: jitter > 20ms or packet loss > 0.5% = call will degrade
+Look for - jitter > 20ms or packet loss > 0.5% = call will degrade
 ```
 
 WiFi vs Ethernet Quick Test
@@ -349,7 +349,7 @@ For intermittent issues, run a background logger to correlate dropouts with time
 ```bash
 #!/bin/bash
 scripts/network-logger.sh
-Run in background: nohup ./network-logger.sh &
+Run in background - nohup ./network-logger.sh &
 
 LOG="network-events-$(date +%Y%m%d).log"
 

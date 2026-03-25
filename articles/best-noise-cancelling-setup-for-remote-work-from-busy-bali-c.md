@@ -30,7 +30,7 @@ Table of Contents
 - [When to Work Elsewhere](#when-to-work-elsewhere)
 - [Headphone and Earbud Comparison for Bali Work](#headphone-and-earbud-comparison-for-bali-work)
 - [Building a Noise Profile Database](#building-a-noise-profile-database)
-- [Advanced: Ambient Sound Configuration](#advanced-ambient-sound-configuration)
+- [Advanced - Ambient Sound Configuration](#advanced-ambient-sound-configuration)
 - [Voice Call Survival in Loud Cafes](#voice-call-survival-in-loud-cafes)
 - [Seasonal Noise Variations in Bali](#seasonal-noise-variations-in-bali)
 - [Microphone Technique for Developers](#microphone-technique-for-developers)
@@ -205,13 +205,13 @@ Choosing the right audio gear is half the battle. Here's a practical breakdown o
 | Model | Price | Type | ANC Quality | Battery | Best For |
 |-------|-------|------|-------------|---------|----------|
 | Sony WH-1000XM5 | $380 | Over-ear | Excellent (5/5) | 30 hours | Long workdays, calls |
-| Apple AirPods Pro Max | $549 | Over-ear | Excellent (5/5) | 20 hours | Mac/iOS ecosystem |
+| Apple AirPods Pro Max | $549 | Over-ear | Excellent (5/5) | 20 hours | Mac/iOS environment |
 | Bose QuietComfort 45 | $379 | Over-ear | Very Good (4.5/5) | 24 hours | Balanced comfort/isolation |
 | Anker Space Q45 | $99 | Over-ear | Good (3.5/5) | 50 hours | Budget option, excellent battery |
 | Google Pixel Buds Pro | $199 | Earbuds | Good (4/5) | 12 hours | Android users, temperature-aware |
 | Soundcore Space A40 | $79 | Earbuds | Good (3.5/5) | 10 hours | Ultra-portable, affordable |
 
-Critical decision factor: Over-ear phones provide 15-20dB more passive isolation than earbuds due to larger ear cup volume. In Bali's high-noise cafes, this passive isolation advantage often outweighs the comfort benefits of earbuds. Test both for a full workday (8+ hours) before purchasing.
+Critical decision factor - Over-ear phones provide 15-20dB more passive isolation than earbuds due to larger ear cup volume. In Bali's high-noise cafes, this passive isolation advantage often outweighs the comfort benefits of earbuds. Test both for a full workday (8+ hours) before purchasing.
 
 ---
 
@@ -265,7 +265,7 @@ Share this database with your coworking community. Other digital nomads will con
 
 ---
 
-Advanced: Ambient Sound Configuration
+Advanced - Ambient Sound Configuration
 
 The right ambient sound dramatically improves focus in cafe environments. Configure your setup for maximum productivity:
 
@@ -283,10 +283,10 @@ sudo apt-get install sox lame mpg123
 Download quality ambient sound libraries
 mkdir -p ~/ambient-sounds
 
-Option 1: Use YouTube's free ambient channels (requires youtube-dl)
+Option 1 - Use YouTube's free ambient channels (requires youtube-dl)
 youtube-dl -x --audio-format mp3 https://www.youtube.com/watch?v=... -o "~/ambient-sounds/%(title)s.%(ext)s"
 
-Option 2: Generate brown noise programmatically
+Option 2 - Generate brown noise programmatically
 sox -n -r 44100 -b 16 ~/ambient-sounds/brown-noise.wav synth 3600 brownnoise
 
 Create loopable ambient track
@@ -360,11 +360,11 @@ Seasonal Noise Variations in Bali
 
 Bali's acoustic environment changes dramatically by season. Plan your location strategy accordingly:
 
-Dry Season (April-October): Lower rainfall means more consistent ambient sound, slightly quieter cafes as tourism dips slightly. Tourist accommodation noise increases due to more guests.
+Dry Season (April-October) - Lower rainfall means more consistent ambient sound, slightly quieter cafes as tourism dips slightly. Tourist accommodation noise increases due to more guests.
 
-Wet Season (November-March): Rain provides natural ambient masking (beneficial), but cafe owners blast music louder to compete with weather sounds. Fewer tourists but noisier weather events.
+Wet Season (November-March) - Rain provides natural ambient masking (beneficial), but cafe owners blast music louder to compete with weather sounds. Fewer tourists but noisier weather events.
 
-Holiday Periods: July-August peak tourism causes 40% increase in cafe noise levels. Avoid major work commitments during these months if possible.
+Holiday Periods - July-August peak tourism causes 40% increase in cafe noise levels. Avoid major work commitments during these months if possible.
 
 ---
 
@@ -376,10 +376,10 @@ Your microphone placement and technique matter more than equipment quality when 
 #!/bin/bash
 microphone_technique_guide.sh
 
-Core principle: maximize signal (your voice), minimize noise (cafe)
+Core principle - maximize signal (your voice), minimize noise (cafe)
 
 1. Distance Rule: Inverse square law
-Microphone at 1 inch from mouth: excellent isolation
+Microphone at 1 inch from mouth - excellent isolation
 Microphone at 6 inches from mouth: 36x less effective isolation
 Benchmark your mic at 1-2 inches, mouth centered
 
@@ -421,7 +421,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -433,7 +433,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

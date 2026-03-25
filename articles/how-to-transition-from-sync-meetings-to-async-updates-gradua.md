@@ -20,25 +20,25 @@ Transition gradually over seven phases: audit your current meeting load, identif
 Table of Contents
 
 - [Understanding the Shift](#understanding-the-shift)
-- [Phase 1: Audit Your Current Meeting Load](#phase-1-audit-your-current-meeting-load)
+- [Phase 1 - Audit Your Current Meeting Load](#phase-1-audit-your-current-meeting-load)
 - [Meeting Audit - Week of [Date]](#meeting-audit-week-of-date)
-- [Phase 2: Identify Replaceable Meetings](#phase-2-identify-replaceable-meetings)
-- [Phase 3: Implement Async Standups](#phase-3-implement-async-standups)
-- [Phase 4: Add Async Decision Documentation](#phase-4-add-async-decision-documentation)
+- [Phase 2 - Identify Replaceable Meetings](#phase-2-identify-replaceable-meetings)
+- [Phase 3 - Implement Async Standups](#phase-3-implement-async-standups)
+- [Phase 4 - Add Async Decision Documentation](#phase-4-add-async-decision-documentation)
 - [Architecture Decision Log](#architecture-decision-log)
-- [Phase 5: Establish Response Time Expectations](#phase-5-establish-response-time-expectations)
-- [Phase 6: Introduce Async Code Reviews](#phase-6-introduce-async-code-reviews)
+- [Phase 5 - Establish Response Time Expectations](#phase-5-establish-response-time-expectations)
+- [Phase 6 - Introduce Async Code Reviews](#phase-6-introduce-async-code-reviews)
 - [Description](#description)
 - [Type of Change](#type-of-change)
 - [Testing Performed](#testing-performed)
 - [Checklist](#checklist)
-- [Phase 7: Gradual Reduction](#phase-7-gradual-reduction)
+- [Phase 7 - Gradual Reduction](#phase-7-gradual-reduction)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Measuring Success](#measuring-success)
 - [Selecting Tools for Your Async Workflow](#selecting-tools-for-your-async-workflow)
 - [Template Examples You Can Adopt](#template-examples-you-can-adopt)
 - [Week of [Date] - Team Status](#week-of-date-team-status)
-- [RFC: Adopt TypeScript for Frontend Codebase](#rfc-adopt-typescript-for-frontend-codebase)
+- [RFC - Adopt TypeScript for Frontend Codebase](#rfc-adopt-typescript-for-frontend-codebase)
 - [Building Async Review Culture](#building-async-review-culture)
 - [Code Review Response Times](#code-review-response-times)
 - [Onboarding New Team Members Async](#onboarding-new-team-members-async)
@@ -51,7 +51,7 @@ Synchronous meetings consume blocks of time simultaneously from all participants
 
 The transition requires changing not just tools, but communication norms. Everyone needs to agree on response time expectations, update formats, and which discussions truly require real-time interaction.
 
-Phase 1: Audit Your Current Meeting Load
+Phase 1 - Audit Your Current Meeting Load
 
 Before making changes, document your current state. Track all meetings for one week using a simple format:
 
@@ -69,7 +69,7 @@ Tuesday
 
 Calculate the total developer hours spent in meetings. A team of five developers in eight hours of weekly meetings consumes forty person-hours. If even half these meetings convert to async updates, you regain twenty hours of deep work time weekly.
 
-Phase 2: Identify Replaceable Meetings
+Phase 2 - Identify Replaceable Meetings
 
 Not all meetings should disappear. Focus first on these categories:
 
@@ -83,7 +83,7 @@ Code reviews should remain at least partially synchronous for complex discussion
 
 Meetings to preserve include complex problem-solving sessions, emotional or conflict-related discussions, and creative brainstorming where real-time dialogue generates better outcomes.
 
-Phase 3: Implement Async Standups
+Phase 3 - Implement Async Standups
 
 Replace daily standups with a structured async format. Choose a tool your team already uses, Slack, a dedicated channel, or a project management tool.
 
@@ -104,9 +104,9 @@ Blockers:
 - Need API credentials from DevOps
 ```
 
-Set clear expectations: updates posted by a specific time (9:30 AM works well), blockers highlighted prominently, and a commitment to check async updates before starting deep work.
+Set clear expectations - updates posted by a specific time (9:30 AM works well), blockers highlighted prominently, and a commitment to check async updates before starting deep work.
 
-Phase 4: Add Async Decision Documentation
+Phase 4 - Add Async Decision Documentation
 
 When decisions happen in meetings, document them in a searchable format. This reduces repeat discussions and helps new team members understand context.
 
@@ -117,26 +117,26 @@ Architecture Decision Log
 
 2026-03-15: Choose State Management Approach
 
-Context: Need to select between Redux Toolkit and Zustand for the new frontend.
+Context - Need to select between Redux Toolkit and Zustand for the new frontend.
 
 Options Considered:
 1. Redux Toolkit - mature, verbose, strong TypeScript support
-2. Zustand - simpler, less boilerplate, growing ecosystem
+2. Zustand - simpler, less boilerplate, growing environment
 
-Decision: Zustand for new features, existing Redux code remains.
+Decision - Zustand for new features, existing Redux code remains.
 
 Rationale:
 - Smaller bundle size important for mobile users
 - Team prefers simpler API for new developers
 - Can migrate incrementally if needed
 
-Owner: @frontend-lead
-Reviewed by: Tech Lead, Senior Dev
+Owner - @frontend-lead
+Reviewed by - Tech Lead, Senior Dev
 ```
 
 This approach captures not just what was decided, but why. Future team members understand the reasoning without asking.
 
-Phase 5: Establish Response Time Expectations
+Phase 5 - Establish Response Time Expectations
 
 Async communication fails when people expect instant responses. Set explicit guidelines:
 
@@ -148,7 +148,7 @@ Async communication fails when people expect instant responses. Set explicit gui
 
 These expectations prevent the anxiety that makes teams revert to meetings. When someone knows they'll receive a response within four hours, they stop pinging repeatedly or escalating to synchronous calls.
 
-Phase 6: Introduce Async Code Reviews
+Phase 6 - Introduce Async Code Reviews
 
 Code reviews represent low-hanging fruit for async adoption. Most PR feedback doesn't require real-time discussion.
 
@@ -178,7 +178,7 @@ Reviewers provide feedback as comments. Authors respond or make changes. Complex
 
 For reviews requiring discussion, schedule a brief 15-minute call rather than treating it as a default.
 
-Phase 7: Gradual Reduction
+Phase 7 - Gradual Reduction
 
 Remove meetings incrementally. If you currently hold daily standups, transition to async versions for three weeks before evaluating. Then tackle the next meeting type.
 
@@ -248,11 +248,11 @@ Key Metrics
 Async RFC (Request for Comments) Template
 
 ```markdown
-RFC: Adopt TypeScript for Frontend Codebase
+RFC - Adopt TypeScript for Frontend Codebase
 
-Proposer: @frontend-lead
-Deadline for feedback: March 25, 2026, EOD
-Status: Open for discussion
+Proposer - @frontend-lead
+Deadline for feedback - March 25, 2026, EOD
+Status - Open for discussion
 
 Problem Statement
 Current JavaScript codebase has grown to 50K lines. Type-related bugs represent 18% of production issues.
@@ -373,9 +373,9 @@ Handling the Timezone Problem at Scale
 
 If your team spans 8+ hours of timezone spread, pure async becomes impossible. Instead, adopt a "sandwich" model:
 
-Tier 1 (Core hours): Everyone works 2-4 hours of overlap (e.g., 9 AM UTC)
-Tier 2 (Async deep work): Individual hours where focused work happens
-Tier 3 (Documented decisions): Everything of lasting importance gets written
+Tier 1 (Core hours) - Everyone works 2-4 hours of overlap (e.g., 9 AM UTC)
+Tier 2 (Async deep work) - Individual hours where focused work happens
+Tier 3 (Documented decisions) - Everything of lasting importance gets written
 
 During core hours, synchronous discussions are acceptable. Outside core hours, all communication reverts to async. This prevents the 24-hour decision cycle from becoming intolerable.
 

@@ -29,9 +29,9 @@ Table of Contents
 - [Financial Planning and Long-Term Sustainability](#financial-planning-and-long-term-sustainability)
 - [Growth Metrics and Targets](#growth-metrics-and-targets)
 - [Customer Feedback Loop](#customer-feedback-loop)
-- [Date Range: [Week]](#date-range-week)
+- [Date Range - [Week]](#date-range-week)
 - [Launch Checklist for Your First SaaS](#launch-checklist-for-your-first-saas)
-- [SaaS Failures: Common Patterns](#saas-failures-common-patterns)
+- [SaaS Failures - Common Patterns](#saas-failures-common-patterns)
 - [From SaaS to Acquisition](#from-saas-to-acquisition)
 
 Finding Your SaaS Idea
@@ -92,25 +92,25 @@ Freelance developers often underprice their products. Research competitors offer
 
 Tiered Pricing Models with Real Examples
 
-Model 1: Feature-Based Tiers
+Model 1 - Feature-Based Tiers
 - Free tier: Limited functionality, 1 project maximum, 10 API calls/day
 - Pro tier: Unlimited projects, 1,000 API calls/day, priority support ($15-29/month)
 - Team tier: Everything Pro + team management, audit logs ($49-99/month)
 
-Comparable products: Vercel (hosting), Auth0 (authentication), Sendgrid (email)
+Comparable products - Vercel (hosting), Auth0 (authentication), Sendgrid (email)
 
-Model 2: Usage-Based Pricing
+Model 2 - Usage-Based Pricing
 - Base: $10-20/month for service access
 - Per unit: API calls ($0.001-0.01 per call), storage ($0.10/GB), or concurrent users
 
-Comparable products: Twilio (telephony), AWS (infrastructure), Stripe (payments)
+Comparable products - Twilio (telephony), AWS (infrastructure), Stripe (payments)
 
-Model 3: Seat-Based Pricing
+Model 3 - Seat-Based Pricing
 - Free: Single user, limited features
 - Team: $30-50/month per user (billed per active team member)
 - Enterprise: Custom pricing, bulk discounts, dedicated support
 
-Comparable products: Slack, Notion, Linear
+Comparable products - Slack, Notion, Linear
 
 Budget Tier Recommendations for Different Markets
 
@@ -161,19 +161,19 @@ Plan for the business side from the start. Separate your SaaS finances from free
 
 Revenue and Cost Projections (Year 1)
 
-Month 1-2: Launch Phase
+Month 1-2 - Launch Phase
 - Fixed costs: Domain ($10-15/year), hosting ($10-30/month), analytics ($0-20/month) = ~$50-70
 - Variable costs: Time investment (20-30 hours/week building, 0 revenue)
 
-Month 3-4: Early Growth
+Month 3-4 - Early Growth
 - Users: 50-100 signups
 - Revenue: $0 (free tier only) or $100-300 (if paid tier launched)
 - New costs: Customer support, email infrastructure (SendGrid $0-20/month)
 
-Month 5-12: Ramp Phase
+Month 5-12 - Ramp Phase
 - Users: 500-2000 across free + paid tiers
 - MRR (Monthly Recurring Revenue): $200-1500 (2-5% free-to-paid conversion, 20-50 paying customers)
-- Costs: Hosting ($50-150), email ($20-50), payment processing (2.9% + $0.30 per transaction), time investment
+- Costs - Hosting ($50-150), email ($20-50), payment processing (2.9% + $0.30 per transaction), time investment
 
 Year 1 Realistic Projections:
 - Revenue: $1000-10000 (highly variable based on product and market)
@@ -218,8 +218,8 @@ Churn formula:
 ```
 Churn = (Customers lost in month / Customers at start of month) × 100
 
-Healthy SaaS: <5% monthly churn (means 95% retention)
-Concerning: >15% monthly churn (means majority leave within 6-7 months)
+Healthy SaaS - <5% monthly churn (means 95% retention)
+Concerning - >15% monthly churn (means majority leave within 6-7 months)
 ```
 
 Viral Loop Metrics
@@ -259,7 +259,7 @@ Weekly feedback ritual (30 min):
 ```markdown
 Weekly Feedback Summary Template
 
-Date Range: [Week]
+Date Range - [Week]
 
 Themes This Week
 1. Feature request: Export to CSV (3 mentions) - HIGH PRIORITY
@@ -272,8 +272,8 @@ Action Items
 - [ ] Double down on real-time updates in marketing
 
 Next week's focus
-Priority 1: Fix Safari bug (customer experience)
-Priority 2: Build CSV export feature (addresses demand)
+Priority 1 - Fix Safari bug (customer experience)
+Priority 2 - Build CSV export feature (addresses demand)
 ```
 
 Launch Checklist for Your First SaaS
@@ -307,31 +307,31 @@ Post-Launch (Month 1):
 - [ ] Prepare paid tier based on user feedback
 - [ ] Plan Month 2 roadmap
 
-SaaS Failures: Common Patterns
+SaaS Failures - Common Patterns
 
 Understanding why SaaS projects fail helps you avoid pitfalls:
 
-Failure 1: No one wants it (50% of failures)
+Failure 1 - No one wants it (50% of failures)
 - You built what you wanted, not what market wanted
 - Prevention: Talk to 20 potential customers before building
 - Fix: Pivot or shutdown
 
-Failure 2: Can't retain customers (20% of failures)
+Failure 2 - Can't retain customers (20% of failures)
 - High churn >30% monthly means product not sticky
 - Prevention: Track activation metrics from month 1
 - Fix: Rebuild core experience based on retention data
 
-Failure 3: Outgrew freelance time budget (15% of failures)
+Failure 3 - Outgrew freelance time budget (15% of failures)
 - Product success made it full-time obligation
 - Prevention: Have growth plan (hire or scale back)
 - Fix: Hire first employee or consider acquisition
 
-Failure 4: Ran out of money (10% of failures)
+Failure 4 - Ran out of money (10% of failures)
 - Spent too much on marketing, too little on product
 - Prevention: Track unit economics (revenue per customer)
 - Fix: Cut spending, improve retention, raise prices
 
-Failure 5: Wrong market (5% of failures)
+Failure 5 - Wrong market (5% of failures)
 - Targeting audience doesn't have budget or pain
 - Prevention: Research market size and willingness to pay
 - Fix: Pivot to different market or different problem

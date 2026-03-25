@@ -23,7 +23,7 @@ Documentation decay happens gradually. A process changes, a tool gets replaced, 
 
 A sprint also provides psychological benefits. Instead of feeling responsible for constant maintenance, team members can focus intensely for a short period and then return to their regular work with the confidence that the wiki is in better shape.
 
-Step 1: Audit Your Current Wiki State
+Step 1 - Audit Your Current Wiki State
 
 Before organizing a sprint, understand what you're working with. Run a basic audit to identify potentially outdated pages.
 
@@ -40,7 +40,7 @@ This script identifies markdown files that haven't been touched in six months, p
 
 For wikis hosted on platforms like Notion, Confluence, or GitBook, use their built-in search and filtering features to identify stale content. Many platforms show last-modified dates that you can sort by.
 
-Step 2: Categorize and Prioritize Stale Pages
+Step 2 - Categorize and Prioritize Stale Pages
 
 Not all outdated pages deserve equal attention. Categorize them into three buckets:
 
@@ -58,19 +58,19 @@ Create a simple tracking system. A shared spreadsheet or project board works wel
 
 Prioritize critical items first, they provide immediate value and demonstrate the sprint's impact.
 
-Step 3: Set Clear Sprint Parameters
+Step 3 - Set Clear Sprint Parameters
 
 Documentation sprints succeed with defined boundaries. Establish these parameters upfront:
 
-Duration: One to two weeks works well for most teams. Shorter sprints create urgency; longer sprints risk losing momentum.
+Duration - One to two weeks works well for most teams. Shorter sprints create urgency; longer sprints risk losing momentum.
 
-Time commitment: Ask team members to dedicate 2-4 hours daily during the sprint. This keeps documentation work as a primary focus without abandoning core responsibilities.
+Time commitment - Ask team members to dedicate 2-4 hours daily during the sprint. This keeps documentation work as a primary focus without abandoning core responsibilities.
 
-Communication cadence: Daily async check-ins or a brief synchronous standup help maintain progress and allow team members to share blockers.
+Communication cadence - Daily async check-ins or a brief synchronous standup help maintain progress and allow team members to share blockers.
 
-Definition of done: Establish what "fixed" means. A page might require updated content, corrected code snippets, removed deprecated sections, or a clear "this is no longer applicable" banner.
+Definition of done - Establish what "fixed" means. A page might require updated content, corrected code snippets, removed deprecated sections, or a clear "this is no longer applicable" banner.
 
-Step 4: Execute with Structured Sessions
+Step 4 - Execute with Structured Sessions
 
 During the sprint, organize work into focused sessions. Here are two effective formats:
 
@@ -117,22 +117,22 @@ The Review Rotation
 
 Assign each team member to review a set number of pages per day. Reviewers add comments, suggest edits, and flag issues. Authors then address feedback asynchronously. This approach scales well for larger wikis.
 
-Step 5: Establish Post-Sprint Maintenance
+Step 5 - Establish Post-Sprint Maintenance
 
 The sprint solves immediate problems, but long-term maintenance prevents future decay. Implement lightweight processes to keep documentation current:
 
-Documentation as code: Store wiki content in version control. Require documentation updates alongside code changes in pull requests. A pre-commit hook can remind developers:
+Documentation as code - Store wiki content in version control. Require documentation updates alongside code changes in pull requests. A pre-commit hook can remind developers:
 
 ```bash
 .git/hooks/pre-commit
 #!/bin/bash
-echo "Remember: Did this change affect any documentation?"
+echo "Remember - Did this change affect any documentation?"
 echo "Check docs/ directory for related files."
 ```
 
-Review cycles: Schedule quarterly documentation reviews for high-traffic pages. Assign owners who receive calendar reminders to review their assigned pages.
+Review cycles - Schedule quarterly documentation reviews for high-traffic pages. Assign owners who receive calendar reminders to review their assigned pages.
 
-Outdated banners: Add visible banners to pages that haven't been reviewed in over six months:
+Outdated banners - Add visible banners to pages that haven't been reviewed in over six months:
 
 ```markdown
 ---
@@ -150,12 +150,12 @@ Table of Contents
 - [Documentation Sprint Formats That Work](#documentation-sprint-formats-that-work)
 - [Weekly Documentation Sprint Checklist](#weekly-documentation-sprint-checklist)
 - [Creating Accountability Without Burnout](#creating-accountability-without-burnout)
-- [Real Example: API Documentation Sprint](#real-example-api-documentation-sprint)
+- [Real Example - API Documentation Sprint](#real-example-api-documentation-sprint)
 - [Tooling Recommendations for Sprint Success](#tooling-recommendations-for-sprint-success)
 - [Overcoming Common Sprint Obstacles](#overcoming-common-sprint-obstacles)
 - [Measuring Documentation Quality, Not Just Quantity](#measuring-documentation-quality-not-just-quantity)
 
-Ownership mapping: Maintain a simple mapping of which team member "owns" each documentation category. When processes change, the owner knows to update the relevant pages.
+Ownership mapping - Maintain a simple mapping of which team member "owns" each documentation category. When processes change, the owner knows to update the relevant pages.
 
 Measuring Sprint Success
 
@@ -206,19 +206,19 @@ Creating Accountability Without Burnout
 
 Documentation sprints only work if team members feel the effort is valued and won't extend indefinitely.
 
-Time boxing is critical: Announce at the sprint start that this is time-limited. Developers are more willing to focus intensely on "two weeks of documentation" than open-ended requests to "maintain the wiki."
+Time boxing is critical - Announce at the sprint start that this is time-limited. Developers are more willing to focus intensely on "two weeks of documentation" than open-ended requests to "maintain the wiki."
 
-Celebrate completion: At the end of the sprint, highlight what was accomplished. Share metrics with leadership. Send a note to the team acknowledging their effort. This creates positive association with documentation work.
+Celebrate completion - At the end of the sprint, highlight what was accomplished. Share metrics with leadership. Send a note to the team acknowledging their effort. This creates positive association with documentation work.
 
-Don't extend the sprint: If you run out of time, deprioritize remaining pages rather than extending the timeline. Teams that experience extended "sprints" will resist documentation initiatives in the future.
+Don't extend the sprint - If you run out of time, deprioritize remaining pages rather than extending the timeline. Teams that experience extended "sprints" will resist documentation initiatives in the future.
 
-Offer variety: For a 10-person team, don't make everyone do the same type of documentation. Some people enjoy writing API documentation, others prefer creating visual diagrams, others excel at editing existing content. Assign work to align with strengths.
+Offer variety - For a 10-person team, don't make everyone do the same type of documentation. Some people enjoy writing API documentation, others prefer creating visual diagrams, others excel at editing existing content. Assign work to align with strengths.
 
-Real Example: API Documentation Sprint
+Real Example - API Documentation Sprint
 
 A 7-person backend team's API documentation was severely outdated. Endpoints had changed, authentication mechanisms were different, and no one was confident the examples would work.
 
-Pre-sprint audit: 35 API endpoints documented, 23 examples known to be broken, 12 pages without tested code samples.
+Pre-sprint audit - 35 API endpoints documented, 23 examples known to be broken, 12 pages without tested code samples.
 
 Sprint design:
 - All hands audit session: 2 hours
@@ -240,7 +240,7 @@ Lessons learned:
 
 Tooling Recommendations for Sprint Success
 
-GitHub Wiki + Automated Checks: If documentation lives in GitHub, use a pre-commit hook to validate code examples:
+GitHub Wiki + Automated Checks - If documentation lives in GitHub, use a pre-commit hook to validate code examples:
 
 ```bash
 .git/hooks/pre-commit
@@ -254,11 +254,11 @@ find . -name "*.md" -type f | while read file; do
 done
 ```
 
-Confluence or Notion: Use templates to standardize page structure across the wiki. Create a "Documentation Page Template" that every updated page follows. This consistency helps readers know what to expect.
+Confluence or Notion - Use templates to standardize page structure across the wiki. Create a "Documentation Page Template" that every updated page follows. This consistency helps readers know what to expect.
 
-Google Docs + Comments: For collaborative writing during the sprint, Google Docs' comment feature allows reviewers to provide feedback without disrupting the author's flow. Export to your permanent wiki after completion.
+Google Docs + Comments - For collaborative writing during the sprint, Google Docs' comment feature allows reviewers to provide feedback without disrupting the author's flow. Export to your permanent wiki after completion.
 
-Spreadsheet Tracking: Maintain a simple spreadsheet (Google Sheets or Excel) tracking status for each page:
+Spreadsheet Tracking - Maintain a simple spreadsheet (Google Sheets or Excel) tracking status for each page:
 
 ```
 Page | Owner | Status | Due Date | Review Notes
@@ -271,11 +271,11 @@ Overcoming Common Sprint Obstacles
 
 "We don't have time for documentation"
 
-Reframe: "We have time for documentation or we have time for repeated support questions. Pick one." Most teams find that two weeks of documentation work saves dozens of hours in support later.
+Reframe - "We have time for documentation or we have time for repeated support questions. Pick one." Most teams find that two weeks of documentation work saves dozens of hours in support later.
 
 "Nobody wants to write documentation"
 
-Solution: Don't assign generic "documentation" work. Assign specific, bounded tasks. "Update the API authentication guide" is clearer than "help improve our docs."
+Solution - Don't assign generic "documentation" work. Assign specific, bounded tasks. "Update the API authentication guide" is clearer than "help improve our docs."
 
 "Documentation becomes outdated immediately after"
 
@@ -289,15 +289,15 @@ Measuring Documentation Quality, Not Just Quantity
 
 Beyond "pages updated," track quality metrics:
 
-Link validity: Do internal links actually work or do they point to deleted pages?
+Link validity - Do internal links actually work or do they point to deleted pages?
 
-Code example execution: Can someone actually copy-paste an example and have it work?
+Code example execution - Can someone actually copy-paste an example and have it work?
 
-Recency signals: Are pages marked with "last reviewed" dates? This builds reader confidence.
+Recency signals - Are pages marked with "last reviewed" dates? This builds reader confidence.
 
-Search-ability: Can new team members find the information they need? Test with onboarding candidates.
+Search-ability - Can new team members find the information they need? Test with onboarding candidates.
 
-Example clarity: Do examples include explanations of what each line does, or just code dumps?
+Example clarity - Do examples include explanations of what each line does, or just code dumps?
 
 A quality-focused sprint that updates 15 pages thoroughly beats a quantity-focused sprint that touches 40 pages superficially.
 

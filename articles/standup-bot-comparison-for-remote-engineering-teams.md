@@ -21,10 +21,10 @@ Remote engineering teams need async standups that respect time zones, reduce mee
 Table of Contents
 
 - [Why Standup Bots Matter for Distributed Teams](#why-standup-bots-matter-for-distributed-teams)
-- [GeekBot: The Veteran Option](#geekbot-the-veteran-option)
-- [Standuply: Feature-Rich and Flexible](#standuply-feature-rich-and-flexible)
-- [Cyclops: Lightweight and Open Source](#cyclops-lightweight-and-open-source)
-- [DailyStandup: Simple and Focused](#dailystandup-simple-and-focused)
+- [GeekBot - The Veteran Option](#geekbot-the-veteran-option)
+- [Standuply - Feature-Rich and Flexible](#standuply-feature-rich-and-flexible)
+- [Cyclops - Lightweight and Open Source](#cyclops-lightweight-and-open-source)
+- [DailyStandup - Simple and Focused](#dailystandup-simple-and-focused)
 - [Comparing the Options](#comparing-the-options)
 - [Detailed Pricing Breakdown](#detailed-pricing-breakdown)
 - [Real-World Deployment Scenarios](#real-world-deployment-scenarios)
@@ -38,7 +38,7 @@ Traditional daily standups work poorly across time zones. Someone always joins l
 
 The best standup bots share several capabilities: flexible scheduling across time zones, customizable questions, multiple output formats, and integrations with project management tools. The right choice depends on your team size, existing tools, and how much structure you want versus flexibility you need.
 
-GeekBot: The Veteran Option
+GeekBot - The Veteran Option
 
 GeekBot has been in the standup bot space longer than most, offering a mature solution that works primarily with Slack. It supports multiple teams, custom questions, and various report formats including dashboard views and Slack threads.
 
@@ -55,7 +55,7 @@ questions:
 
 GeekBot offers a free tier for small teams with limited standups per week, with paid plans starting around $5 per user monthly. The main limitation is Slack-only support, if your team uses Teams or Discord, you'll need a different solution.
 
-Standuply: Feature-Rich and Flexible
+Standuply - Feature-Rich and Flexible
 
 Standuply positions itself as more than a standup bot, offering asynchronous meetings, retrospective tools, and survey capabilities. It supports both Slack and Microsoft Teams, making it versatile for organizations with mixed chat platforms.
 
@@ -71,7 +71,7 @@ Key features include:
 
 Pricing starts at $4.99 per user monthly for the basic plan, with enterprise options available. The AI summarization feature costs extra but significantly improves the readability of compiled standups.
 
-Cyclops: Lightweight and Open Source
+Cyclops - Lightweight and Open Source
 
 Cyclops takes a minimalist approach, offering a self-hosted option for teams that want full control over their data. It integrates with Slack and provides the core standup functionality without the extra features that larger platforms include.
 
@@ -88,7 +88,7 @@ docker run -d \
 
 Cyclops stores all standup data locally or in your own database, making it attractive for organizations with strict data compliance requirements. The trade-off is that you manage your own infrastructure and miss features like AI summarization or advanced analytics.
 
-DailyStandup: Simple and Focused
+DailyStandup - Simple and Focused
 
 DailyStandup (with the URL standup.bot) emphasizes simplicity. The bot does one thing, collect standup responses, and does it well. It's particularly well-suited for teams that find other tools overwhelming.
 
@@ -114,31 +114,31 @@ Comparing the Options
 
 Detailed Pricing Breakdown
 
-GeekBot: Free tier includes 3 standups per month; $5/user/month for unlimited standups with dashboard analytics. Teams of 3-5 typically pay $15-25/month total.
+GeekBot - Free tier includes 3 standups per month; $5/user/month for unlimited standups with dashboard analytics. Teams of 3-5 typically pay $15-25/month total.
 
-Standuply: Free for up to 100 messages/month; $4.99/user/month ($25-50 for small teams) with unlimited standups. AI summaries cost $1.99/month extra per user. Total for 5-person team with AI: $35-50/month.
+Standuply - Free for up to 100 messages/month; $4.99/user/month ($25-50 for small teams) with unlimited standups. AI summaries cost $1.99/month extra per user. Total for 5-person team with AI: $35-50/month.
 
-Cyclops: Fully free and self-hosted; only cost is infrastructure if you run it on AWS or similar cloud. Budget $20-50/month for basic cloud hosting. Internal setup requires ~4 hours DevOps work initially.
+Cyclops - Fully free and self-hosted; only cost is infrastructure if you run it on AWS or similar cloud. Budget $20-50/month for basic cloud hosting. Internal setup requires ~4 hours DevOps work initially.
 
-DailyStandup: Free tier genuinely unlimited for small teams. $3/user/month for analytics and custom branding. Small teams can use free tier indefinitely; $9-15/month for paid features on 3-5 person team.
+DailyStandup - Free tier genuinely unlimited for small teams. $3/user/month for analytics and custom branding. Small teams can use free tier indefinitely; $9-15/month for paid features on 3-5 person team.
 
 Real-World Deployment Scenarios
 
-Scenario 1: Bootstrap Startup (3 Engineers, No Budget)
+Scenario 1 - Bootstrap Startup (3 Engineers, No Budget)
 DailyStandup free tier or Cyclops self-hosted
 - Why: No per-user costs; DailyStandup free tier is genuinely feature-complete
 - Monthly cost: $0
 - Setup time: 15 minutes for DailyStandup, 2-4 hours for Cyclops
 - Trade-off: No advanced analytics, but you get essential standup functionality
 
-Scenario 2: Growth-Stage Company (12 Engineers, $5K/mo tools budget)
+Scenario 2 - Growth-Stage Company (12 Engineers, $5K/mo tools budget)
 Standuply with AI summaries
 - Why: Deep Jira integration accelerates planning; AI summaries save managers 3-5 hours/week reading updates
 - Monthly cost: $60-70 (12 users at $5/month + AI)
 - Setup time: 2 hours for integrations
 - ROI: Manager time saved pays for tool in under a month
 
-Scenario 3: Distributed Teams (20+ Engineers Across 5 Time Zones)
+Scenario 3 - Distributed Teams (20+ Engineers Across 5 Time Zones)
 Standuply or GeekBot
 - Why: Flexible scheduling per time zone; analytics help identify blockers across regions
 - Monthly cost: GeekBot $100 (20 users), Standuply $120-150 (with AI)

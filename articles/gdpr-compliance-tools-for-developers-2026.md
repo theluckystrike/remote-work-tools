@@ -324,11 +324,11 @@ Choosing the Right Tools
 
 Consider these factors when selecting GDPR compliance tools:
 
-1. Integration Complexity: How well does it fit your existing stack?
-2. Data Residency: Where does data get processed/stored?
-3. Scalability: Can it handle your user base growth?
+1. Integration Complexity - How well does it fit your existing stack?
+2. Data Residency - Where does data get processed/stored?
+3. Scalability - Can it handle your user base growth?
 4. Cost: Consider both direct costs and operational overhead
-5. Self-Hosting Options: Do you need data to stay on your servers?
+5. Self-Hosting Options - Do you need data to stay on your servers?
 
 For startups and small teams, start with:
 - Cookiebot or OneTrust for consent

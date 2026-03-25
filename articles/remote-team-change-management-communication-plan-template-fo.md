@@ -38,9 +38,9 @@ The Core Template
 
 This template covers organizational changes with significant impact: restructuring, layoffs, major strategic pivots, leadership transitions, acquisitions, or significant process changes. Adapt the scope and timeline for smaller changes.
 
-Phase 1: Pre-Announcement (1-2 Weeks Before)
+Phase 1 - Pre-Announcement (1-2 Weeks Before)
 
-Objective: Prepare managers to lead their teams through the change before the company-wide announcement.
+Objective - Prepare managers to lead their teams through the change before the company-wide announcement.
 
 Actions:
 
@@ -70,11 +70,11 @@ Pre-announcement checklist:
 [ ] Timezone coverage confirmed (multiple sessions or clear async plan)
 ```
 
-Phase 2: Announcement (Day 0)
+Phase 2 - Announcement (Day 0)
 
-Objective: Deliver complete, honest, consistent information to the entire organization simultaneously across timezones.
+Objective - Deliver complete, honest, consistent information to the entire organization simultaneously across timezones.
 
-Timing strategy: The announcement should happen at a time that is manageable for as many timezones as possible. For global teams, this often means two live sessions or a carefully managed async approach. Never announce a major change in a single session that excludes a significant portion of your team.
+Timing strategy - The announcement should happen at a time that is manageable for as many timezones as possible. For global teams, this often means two live sessions or a carefully managed async approach. Never announce a major change in a single session that excludes a significant portion of your team.
 
 Announcement sequence:
 
@@ -87,8 +87,8 @@ Template for the written announcement document:
 ```markdown
 [Change Title]
 
-Date: [Date]
-From: [Author/Leadership]
+Date - [Date]
+From - [Author/Leadership]
 
 What is changing
 
@@ -144,9 +144,9 @@ Record the call. Publish the recording and a written summary within 24 hours. In
 
 This conversation is not about convincing people the change is good. It is about understanding where each person is and making sure they feel heard.
 
-Phase 3: Absorption (Week 1-2 After Announcement)
+Phase 3 - Absorption (Week 1-2 After Announcement)
 
-Objective: Provide structured opportunities for questions, surfacing concerns, and processing the change across timezones and async working patterns.
+Objective - Provide structured opportunities for questions, surfacing concerns, and processing the change across timezones and async working patterns.
 
 Actions:
 
@@ -166,18 +166,18 @@ Three questions, async answers, shared with the team and manager:
 
 Aggregate the anonymous responses. If the same concerns appear across multiple teams, address them in a company-wide update.
 
-Phase 4: Implementation Tracking (Ongoing)
+Phase 4 - Implementation Tracking (Ongoing)
 
-Objective: Close the loop between announced change and actual outcome. Most change management plans end at the announcement. This is where trust is actually built or lost.
+Objective - Close the loop between announced change and actual outcome. Most change management plans end at the announcement. This is where trust is actually built or lost.
 
-Monthly change update: A brief written update (not a meeting) that covers what has happened since the announcement relative to what was promised. If the timeline has slipped, say so and explain why. If something turned out better or worse than expected, acknowledge it.
+Monthly change update - A brief written update (not a meeting) that covers what has happened since the announcement relative to what was promised. If the timeline has slipped, say so and explain why. If something turned out better or worse than expected, acknowledge it.
 
 Use a consistent format so employees know what to expect:
 
 ```markdown
 [Change Name]. Update [Month]
 
-Status: [On track / Adjusted / Completed]
+Status - [On track / Adjusted / Completed]
 
 What happened this month
 
@@ -245,7 +245,7 @@ Announcing before you are ready to answer questions: Nothing erodes trust faster
 
 Conflating all-hands attendance with understanding: A recording of an all-hands reaches everyone. A Slack message announcing the recording reaches a smaller percentage. The written document that summarizes the announcement reaches the highest percentage. Always publish a written document as the primary artifact.
 
-Manager bypass: When employees hear about significant changes from leadership before their direct manager has been briefed, it damages the manager's credibility and the employee's trust in the manager relationship. Brief managers first, always.
+Manager bypass - When employees hear about significant changes from leadership before their direct manager has been briefed, it damages the manager's credibility and the employee's trust in the manager relationship. Brief managers first, always.
 
 Change fatigue from overlapping communications: At a 60-person company, multiple changes may be happening simultaneously. If each one has its own announcement, its own Slack channel, its own FAQ document, and its own monthly update, the overhead becomes untenable. For lower-impact changes, consolidate communications into a weekly change digest rather than treating each change as a separate communication campaign.
 
@@ -262,15 +262,15 @@ The solution is explicit, written change management communication that reaches e
 
 Core Principles for Effective Change Communication in Remote Teams
 
-Communicate the why first: Most change announcements describe what's changing. Effective change communication leads with why the change is necessary. What problem does this solve? How does it benefit the team? When people understand the rationale, they're more likely to adopt the change and less likely to resist it.
+Communicate the why first - Most change announcements describe what's changing. Effective change communication leads with why the change is necessary. What problem does this solve? How does it benefit the team? When people understand the rationale, they're more likely to adopt the change and less likely to resist it.
 
-Use multiple channels: Some people catch information in Slack, others read email more carefully. Multiple channels ensure more people see critical information. Use Slack for announcement, email for detail, documentation page for reference, recorded video for context, and follow-up one-on-ones for concerns.
+Use multiple channels - Some people catch information in Slack, others read email more carefully. Multiple channels ensure more people see critical information. Use Slack for announcement, email for detail, documentation page for reference, recorded video for context, and follow-up one-on-ones for concerns.
 
-Provide time for questions: Build in a window where people can ask questions asynchronously. Rather than "we're changing X on Friday," say "we're changing X on Friday. Questions? Reply in this thread, or schedule time with [person]." Give 24-48 hours for questions to surface.
+Provide time for questions - Build in a window where people can ask questions asynchronously. Rather than "we're changing X on Friday," say "we're changing X on Friday. Questions? Reply in this thread, or schedule time with [person]." Give 24-48 hours for questions to surface.
 
-Create clear documentation: Write down what's changing, when it changes, how it affects different roles, and what the new workflow looks like. This becomes the reference people can revisit when they forget details or want to understand edge cases.
+Create clear documentation - Write down what's changing, when it changes, how it affects different roles, and what the new workflow looks like. This becomes the reference people can revisit when they forget details or want to understand edge cases.
 
-Account for time zones: Avoid live meetings as the primary change communication vehicle. If you must hold a meeting, record it and post transcript/summary for people in non-convenient time zones.
+Account for time zones - Avoid live meetings as the primary change communication vehicle. If you must hold a meeting, record it and post transcript/summary for people in non-convenient time zones.
 
 Measure adoption and address friction: After change implementation, track whether people are using the new process/tool. When adoption lags, investigate the blocker. Often small usability issues create disproportionate resistance.
 
@@ -305,11 +305,11 @@ Announcement (Post in #announcements)
 
 [Paragraph explaining the change and why]
 
-What changes: [List]
-When: [Date]
-Who it affects: [Roles]
+What changes - [List]
+When - [Date]
+Who it affects - [Roles]
 Questions? Reply in thread or schedule time with [owner]
-Learn more: [Link to documentation]
+Learn more - [Link to documentation]
 
 Detailed Documentation
 [Link to wiki page with:]
@@ -349,13 +349,13 @@ Change will be rolled back if:
 
 Real-World Change Communication Examples
 
-Example 1: Tool Migration (CI/CD Pipeline)
+Example 1 - Tool Migration (CI/CD Pipeline)
 
-Change: Moving from Jenkins to GitHub Actions for continuous integration and deployment.
+Change - Moving from Jenkins to GitHub Actions for continuous integration and deployment.
 
-Announcement: "We're moving our CI/CD pipeline from Jenkins to GitHub Actions to simplify our workflow and improve deployment reliability."
+Announcement - "We're moving our CI/CD pipeline from Jenkins to GitHub Actions to simplify our workflow and improve deployment reliability."
 
-Why now: Jenkins infrastructure requires dedicated maintenance that diverts engineering time. GitHub Actions integrates directly with our GitHub repositories, reducing context switching.
+Why now - Jenkins infrastructure requires dedicated maintenance that diverts engineering time. GitHub Actions integrates directly with our GitHub repositories, reducing context switching.
 
 Affected teams:
 - Engineering: New deployment workflow
@@ -368,19 +368,19 @@ Documentation includes:
 - Comparison of old vs. new commands
 - Troubleshooting guide for common issues
 
-Q&A: Three days of questions answered in Slack before go-live. Common concerns: "Will deployments be faster?" (address directly), "What happens if GitHub is down?" (address directly), "How do we rollback if something breaks?" (address directly).
+Q&A - Three days of questions answered in Slack before go-live. Common concerns: "Will deployments be faster?" (address directly), "What happens if GitHub is down?" (address directly), "How do we rollback if something breaks?" (address directly).
 
-Training: 30-minute recorded walkthrough of new workflow, with live pairing sessions for anyone wanting hands-on practice before go-live.
+Training - 30-minute recorded walkthrough of new workflow, with live pairing sessions for anyone wanting hands-on practice before go-live.
 
-Monitoring: Track deployment frequency and success rate. If either degrades, investigate blockers and provide additional support.
+Monitoring - Track deployment frequency and success rate. If either degrades, investigate blockers and provide additional support.
 
-Example 2: Process Change (Incident Response)
+Example 2 - Process Change (Incident Response)
 
-Change: Implementing on-call rotation and formal incident response process.
+Change - Implementing on-call rotation and formal incident response process.
 
-Announcement: "We're implementing a structured on-call program to improve incident response time and reduce on-call burden through rotation."
+Announcement - "We're implementing a structured on-call program to improve incident response time and reduce on-call burden through rotation."
 
-Why now: Recent incidents revealed gaps in communication and decision-making. On-call engineers spent excessive time context-switching. Rotating on-call creates fairness and spreads burden.
+Why now - Recent incidents revealed gaps in communication and decision-making. On-call engineers spent excessive time context-switching. Rotating on-call creates fairness and spreads burden.
 
 Affected teams:
 - Engineering: New incident response workflow
@@ -394,25 +394,25 @@ Documentation includes:
 - Communication template for external customer updates
 - Escalation path when incident requires leadership
 
-Q&A: Addresses concerns like "Will I be expected to respond at 3 AM?" (yes, if primary on-call; on-call rotation exists to make this fair), "What's the SLA for response?" (15 minutes for critical, 1 hour for high), "How is on-call time compensated?" (specific policy).
+Q&A - Addresses concerns like "Will I be expected to respond at 3 AM?" (yes, if primary on-call; on-call rotation exists to make this fair), "What's the SLA for response?" (15 minutes for critical, 1 hour for high), "How is on-call time compensated?" (specific policy).
 
-Training: Live walkthrough of incident response process using a recent real incident as example (without confidential details). Team practices with a staged incident exercise where someone plays on-call and others support response.
+Training - Live walkthrough of incident response process using a recent real incident as example (without confidential details). Team practices with a staged incident exercise where someone plays on-call and others support response.
 
-Monitoring: Track incident response time and on-call engineer satisfaction. First month will likely reveal process friction, be ready to adjust.
+Monitoring - Track incident response time and on-call engineer satisfaction. First month will likely reveal process friction, be ready to adjust.
 
 Common Change Communication Mistakes to Avoid
 
 Announcing change without context: "We're switching to Slack for team communication effective Friday." Why? What changes? What happens to existing chat history? Context is missing.
 
-Delaying Q&A: Announcing change and saying "questions at the all-hands meeting next week" means people stew for a week. Enable quick feedback.
+Delaying Q&A - Announcing change and saying "questions at the all-hands meeting next week" means people stew for a week. Enable quick feedback.
 
 Assuming everyone sees announcements: Not everyone reads Slack immediately. Important changes need multiple communication methods.
 
-Insufficient documentation: Good announcements drive people to documentation. If documentation is thin, adoption fails. Over-invest in documentation for complex changes.
+Insufficient documentation - Good announcements drive people to documentation. If documentation is thin, adoption fails. Over-invest in documentation for complex changes.
 
-Ignoring adoption blockers: If adoption is lower than expected, the problem usually isn't team resistance. It's usually friction in the new process. Find and fix the friction.
+Ignoring adoption blockers - If adoption is lower than expected, the problem usually isn't team resistance. It's usually friction in the new process. Find and fix the friction.
 
-No rollback plan: If change breaks things unexpectedly, having a rollback plan reduces panic. Publish it before the change.
+No rollback plan - If change breaks things unexpectedly, having a rollback plan reduces panic. Publish it before the change.
 
 Treating change as one-time announcement: Adoption happens over time. Plan for multiple communications: announcement, week 1 update, week 2 check-in, month 1 review.
 
@@ -458,7 +458,7 @@ Post-Implementation
 5. Gather feedback on documentation
 6. Month 1 review: success metrics, any regressions?
 
-Team Exercise: Create a Change Communication Plan
+Team Exercise - Create a Change Communication Plan
 
 Pick one change your team made in the past 6 months that could have been communicated better. Spend 30 minutes writing a change communication plan for it using the template above. Discuss with your manager:
 

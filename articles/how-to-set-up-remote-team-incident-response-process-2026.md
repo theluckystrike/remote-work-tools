@@ -31,8 +31,8 @@ Production incidents don't wait for business hours. Distributed teams need defin
 - [Escalation](#escalation)
 - [Symptoms](#symptoms)
 - [Diagnosis (< 2 minutes)](#diagnosis-2-minutes)
-- [Quick Fix Option 1: Stripe is Down](#quick-fix-option-1-stripe-is-down)
-- [Quick Fix Option 2: Our Integration is Broken](#quick-fix-option-2-our-integration-is-broken)
+- [Quick Fix Option 1 - Stripe is Down](#quick-fix-option-1-stripe-is-down)
+- [Quick Fix Option 2 - Our Integration is Broken](#quick-fix-option-2-our-integration-is-broken)
 - [If Queue Backing Up > 1 hour](#if-queue-backing-up-1-hour)
 - [Post-Incident](#post-incident)
 - [4. Incident Communication During Active Incident](#4-incident-communication-during-active-incident)
@@ -87,7 +87,7 @@ Setup flow:
 Configuration example:
 
 ```yaml
-Escalation Policy: Engineering On-Call
+Escalation Policy - Engineering On-Call
 
 Level 1 (0 minutes):
   - On-call engineer primary
@@ -102,7 +102,7 @@ Level 3 (10 minutes if backup doesn't acknowledge):
   - Engineering manager
   - Notify: Phone call + SMS
 
-Rotation: Primary on-call for 1 week
+Rotation - Primary on-call for 1 week
           Backup on-call for 1 week
 ```
 
@@ -117,7 +117,7 @@ Real example:
 2:37:00. Incident resolved, post-mortem scheduled
 ```
 
-Total time: 7 minutes from alert to fix
+Total time - 7 minutes from alert to fix
 
 Alternative without PagerDuty (no notification):
 ```
@@ -148,7 +148,7 @@ Enterprise ($29/user/month):
 - Third-party integrations
 - Team of 5: $145/month
 
-For most teams: Professional tier is sufficient.
+For most teams - Professional tier is sufficient.
 
 OpsGenie (Better for Small/Cost-Sensitive Teams)
 
@@ -161,8 +161,8 @@ Pricing:
 
 Difference:
 ```
-PagerDuty: Enterprise standard, better for large ops
-OpsGenie: Simpler, lower cost, better for smaller teams
+PagerDuty - Enterprise standard, better for large ops
+OpsGenie - Simpler, lower cost, better for smaller teams
 ```
 
 Most teams use PagerDuty for established operations, OpsGenie for startups.
@@ -177,10 +177,10 @@ Simple Weekly Rotation
 For team of 6 engineers:
 
 ```
-Mon-Sun Week 1: Alice (primary), Bob (backup)
-Mon-Sun Week 2: Charlie (primary), Dave (backup)
-Mon-Sun Week 3: Emma (primary), Frank (backup)
-Mon-Sun Week 4: Grace (primary), Alice (backup)
+Mon-Sun Week 1 - Alice (primary), Bob (backup)
+Mon-Sun Week 2 - Charlie (primary), Dave (backup)
+Mon-Sun Week 3 - Emma (primary), Frank (backup)
+Mon-Sun Week 4 - Grace (primary), Alice (backup)
 ```
 
 Repeat every 3 weeks (cycles through everyone fairly).
@@ -195,10 +195,10 @@ Timezone-Aware Rotation
 For distributed team:
 
 ```
-Primary on-call: Engineer in currently active timezone
+Primary on-call - Engineer in currently active timezone
   (Business hours for incident detection are higher)
 
-Backup on-call: Engineer in opposite timezone
+Backup on-call - Engineer in opposite timezone
   (If primary doesn't respond, backup is in their morning/evening)
 ```
 
@@ -220,7 +220,7 @@ Respecting Boundaries
 
 PagerDuty sleep rule:
 ```
-Quiet hours: 2 AM - 7 AM on-call engineer's local time
+Quiet hours - 2 AM - 7 AM on-call engineer's local time
   - Alerts still trigger but don't notify (no SMS/call)
   - Escalate to backup immediately instead
 
@@ -240,7 +240,7 @@ A runbook is "what to do when X breaks." 1-page maximum.
 Template Structure
 
 ```
-Incident Runbook: Database Connection Pool Exhaustion
+Incident Runbook - Database Connection Pool Exhaustion
 
 Symptoms
 - API returns "Connection timeout" errors
@@ -286,7 +286,7 @@ Real Runbook Examples
 Disk Space Exhaustion
 
 ```
-Incident Runbook: Production Disk Space Critical
+Incident Runbook - Production Disk Space Critical
 
 Symptoms
 - File writes failing (500 errors)
@@ -294,9 +294,9 @@ Symptoms
 - Log streaming stopping
 
 Diagnosis (< 2 minutes)
-SSH: ssh ubuntu@prod-1
-Check disk: `df -h /data`
-Identify large files: `du -sh /data/* | sort -h`
+SSH - ssh ubuntu@prod-1
+Check disk - `df -h /data`
+Identify large files - `du -sh /data/* | sort -h`
 
 Quick Fix
 Delete old logs (safe)
@@ -310,7 +310,7 @@ df -h /data (should drop to < 80%)
 curl localhost:8080/health (should return 200)
 
 If Still Critical
-Delete container cache: `docker system prune -a`
+Delete container cache - `docker system prune -a`
 This is more aggressive, requires verification after
 
 Escalation
@@ -320,7 +320,7 @@ If above steps don't free space, page infra team
 Payment Service Failure
 
 ```
-Incident Runbook: Payment Processing Down
+Incident Runbook - Payment Processing Down
 
 Symptoms
 - Checkout fails with "Payment gateway error"
@@ -328,19 +328,19 @@ Symptoms
 - Customer emails arriving
 
 Diagnosis (< 2 minutes)
-Check Stripe API status: https://status.stripe.com/
-Check internal status page: https://internal/status/stripe-integration
-Check logs: `grep "stripe_error" app.log | tail -20`
+Check Stripe API status - https://status.stripe.com/
+Check internal status page - https://internal/status/stripe-integration
+Check logs - `grep "stripe_error" app.log | tail -20`
 
-Quick Fix Option 1: Stripe is Down
+Quick Fix Option 1 - Stripe is Down
 Wait for Stripe recovery, display banner to customers
 Enable "maintenance mode" to prevent orders during outage
 https://internal/admin/maintenance-mode
 
-Quick Fix Option 2: Our Integration is Broken
-Restart Stripe sync: `kubectl rollout restart deployment/stripe-sync`
-Verify: `curl https://internal/api/stripe-health`
-Check queue size: `redis-cli GET stripe:queue:length`
+Quick Fix Option 2 - Our Integration is Broken
+Restart Stripe sync - `kubectl rollout restart deployment/stripe-sync`
+Verify - `curl https://internal/api/stripe-health`
+Check queue size - `redis-cli GET stripe:queue:length`
 
 If Queue Backing Up > 1 hour
 Page payments team, consider manual order approval
@@ -367,7 +367,7 @@ Runbook Best Practices
 
 Slack Channel Setup
 
-Create: `#incidents` (or `#incident-response` for larger teams)
+Create - `#incidents` (or `#incident-response` for larger teams)
 
 During incident:
 1. Create thread in #incidents with incident ID
@@ -378,27 +378,27 @@ During incident:
 Example thread:
 
 ```
-Thread started: 2026-03-21 02:30 UTC by Alice
-Incident ID: INC-2026-3421
-Severity: P1 (customers affected)
-Status: Investigating
+Thread started - 2026-03-21 02:30 UTC by Alice
+Incident ID - INC-2026-3421
+Severity - P1 (customers affected)
+Status - Investigating
 
 [02:31] Alice: Confirmed database connection exhaustion (492/500 active)
 [02:32] Bob: Restarting connection pool service
 [02:33] Bob: Pool restarted, connections dropping (now 280/500)
 [02:35] Alice: API latency recovering, error rate dropping
-[02:37] Status: RESOLVED - all metrics normal, error rate < 0.1%
+[02:37] Status - RESOLVED - all metrics normal, error rate < 0.1%
 
-Root cause: Query optimization missing on bulk user export
-Impact: 7 min outage, 2% of transactions failed during window
-Post-mortem: Thursday 2pm UTC
+Root cause - Query optimization missing on bulk user export
+Impact - 7 min outage, 2% of transactions failed during window
+Post-mortem - Thursday 2pm UTC
 ```
 
-Key: Everyone knows status without jumping between channels.
+Key - Everyone knows status without jumping between channels.
 
 Customer Communication
 
-Public status page setup (tools: StatusPage.io, Atlassian Status, custom):
+Public status page setup (tools - StatusPage.io, Atlassian Status, custom):
 
 During incident:
 ```
@@ -414,12 +414,12 @@ Post-incident:
 ```
 RESOLVED. Full details available in blog post
 
-Root cause: Missing index on bulk export query
-Duration: 7 minutes (02:30-02:37 UTC)
-Impact: 2% of transactions failed
-Prevention: Added database monitoring, index optimization
+Root cause - Missing index on bulk export query
+Duration - 7 minutes (02:30-02:37 UTC)
+Impact - 2% of transactions failed
+Prevention - Added database monitoring, index optimization
 
-Full technical post-mortem: https://...
+Full technical post-mortem - https://...
 ```
 
 ---
@@ -431,7 +431,7 @@ Conducted within 48 hours, while details are fresh.
 Format
 
 ```
-Post-Mortem: Database Connection Pool Exhaustion (INC-2026-3421)
+Post-Mortem - Database Connection Pool Exhaustion (INC-2026-3421)
 
 Timeline
 02:30 UTC. Prometheus alert fires (DB connections 95%)
@@ -493,7 +493,7 @@ What TO do:
 
 6. Complete Setup Checklist
 
-Week 1: Foundation
+Week 1 - Foundation
 
 - [ ] Choose PagerDuty or OpsGenie
 - [ ] Create account, set up basic team
@@ -502,7 +502,7 @@ Week 1: Foundation
 - [ ] Create #incidents Slack channel
 - [ ] Establish on-call rotation (first week)
 
-Week 2: Runbooks
+Week 2 - Runbooks
 
 - [ ] Write runbooks for top 5 incidents (use template above)
 - [ ] Link runbooks in PagerDuty (in alert description)
@@ -510,14 +510,14 @@ Week 2: Runbooks
 - [ ] Update runbooks based on drill feedback
 - [ ] Create post-mortem template in Notion/Google Docs
 
-Week 3: Communication
+Week 3 - Communication
 
 - [ ] Set up StatusPage.io or similar
 - [ ] Create incident response Slack bot (for status page updates)
 - [ ] Document escalation policy (who to contact if primary unavailable)
 - [ ] Create "incident commander" runbook (who coordinates during big incident)
 
-Week 4: Validation
+Week 4 - Validation
 
 - [ ] Conduct live incident drill (deliberately break something non-critical, time response)
 - [ ] Measure: Alert fires → engineer aware (should be < 2 min)
@@ -552,23 +552,23 @@ Customer Impact Severity:
 
 Common Mistakes
 
-Mistake 1: Runbook too long (3+ pages)
+Mistake 1 - Runbook too long (3+ pages)
 - People don't read it during incident
 - Keep to 1 page, action-focused
 
-Mistake 2: Post-mortems become blame sessions
+Mistake 2 - Post-mortems become blame sessions
 - Team stops reporting incidents honestly
 - Switch to blameless post-mortems immediately
 
-Mistake 3: On-call rotation unfair
+Mistake 3 - On-call rotation unfair
 - High-stress people left more often on-call
 - Use scheduling tool, everyone rotates equally
 
-Mistake 4: No escalation policy
+Mistake 4 - No escalation policy
 - Easy to get stuck (primary unreachable, not clear who to page)
 - Define clear escalation in PagerDuty
 
-Mistake 5: Runbooks never updated
+Mistake 5 - Runbooks never updated
 - System changes, runbooks become obsolete
 - Update runbook every time you fix an incident
 

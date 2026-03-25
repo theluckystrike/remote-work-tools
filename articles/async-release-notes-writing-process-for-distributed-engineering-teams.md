@@ -21,7 +21,7 @@ Table of Contents
 
 - [Why Async Release Notes Work Better for Distributed Teams](#why-async-release-notes-work-better-for-distributed-teams)
 - [Setting Up Your Async Release Notes Workflow](#setting-up-your-async-release-notes-workflow)
-- [Release Version: [X.Y.Z]](#release-version-xyz)
+- [Release Version - [X.Y.Z]](#release-version-xyz)
 - [Implementing the Process](#implementing-the-process)
 - [Tools and Integrations](#tools-and-integrations)
 - [Handling Common Challenges](#handling-common-challenges)
@@ -49,9 +49,9 @@ Create a Release Notes Template
 Start with a standardized template that makes it easy for contributors to provide the right information:
 
 ```markdown
-Release Version: [X.Y.Z]
-Release Date: [YYYY-MM-DD]
-Authors: [List of contributors]
+Release Version - [X.Y.Z]
+Release Date - [YYYY-MM-DD]
+Authors - [List of contributors]
 
 Highlights (2-3 sentences max)
 [Brief summary of the most important changes in this release]
@@ -102,7 +102,7 @@ Timeline expectations:
 
 Implementing the Process
 
-Phase 1: Collection (During Development)
+Phase 1 - Collection (During Development)
 
 Throughout the development cycle, engineers add to a shared release notes document as they merge PRs. Use a dedicated channel in your communication tool:
 
@@ -118,16 +118,16 @@ When you merge a PR, add:
 
 This ongoing collection prevents the last-minute scramble to remember what changed.
 
-Phase 2: Draft Creation (After Code Freeze)
+Phase 2 - Draft Creation (After Code Freeze)
 
 After code freeze, the release manager (or rotating role) creates the initial draft:
 
 1. Aggregate contributions: Compile all entries from the shared document
-2. Categorize: Group by type (features, fixes, breaking changes, etc.)
+2. Categorize - Group by type (features, fixes, breaking changes, etc.)
 3. Edit for clarity: Ensure descriptions are user-facing and consistent
 4. Add context: Include release highlights and any important caveats
 
-Phase 3: Async Review (Before Release)
+Phase 3 - Async Review (Before Release)
 
 Share the draft for async review using your preferred tool:
 
@@ -145,9 +145,9 @@ Focus areas:
 Comment directly in the doc or add emoji reactions to approve.
 ```
 
-Review rotation tip: Assign specific sections to team leads who can verify technical accuracy while the release manager handles overall coherence.
+Review rotation tip - Assign specific sections to team leads who can verify technical accuracy while the release manager handles overall coherence.
 
-Phase 4: Publication (On Release Day)
+Phase 4 - Publication (On Release Day)
 
 Once review is complete:
 
@@ -186,24 +186,24 @@ Consider these automations to reduce manual work:
 
 Handling Common Challenges
 
-Challenge: Incomplete Contributions
+Challenge - Incomplete Contributions
 
-Solution: Make contribution part of the merge process. Require release notes before allowing merge to the release branch, or use branch protection rules that require a release notes label.
+Solution - Make contribution part of the merge process. Require release notes before allowing merge to the release branch, or use branch protection rules that require a release notes label.
 
-Challenge: Last-Minute Changes
+Challenge - Last-Minute Changes
 
-Solution: Establish a clear code freeze date and communicate that no new features enter the release after this point. Any changes after freeze go into the next release.
+Solution - Establish a clear code freeze date and communicate that no new features enter the release after this point. Any changes after freeze go into the next release.
 
-Challenge: Technical Descriptions Without Context
+Challenge - Technical Descriptions Without Context
 
-Solution: Provide examples of good vs. bad descriptions:
+Solution - Provide examples of good vs. bad descriptions:
 
  Bad: "Fixed NPE in user service"
  Good: "Fixed crash that occurred when users tried to upload profile pictures with special characters in their username"
 
-Challenge: Review Delays
+Challenge - Review Delays
 
-Solution: Set clear time expectations (24-48 hours) and use gentle reminders. If reviews consistently lag, consider rotating the release manager role to spread ownership.
+Solution - Set clear time expectations (24-48 hours) and use gentle reminders. If reviews consistently lag, consider rotating the release manager role to spread ownership.
 
 Example Timeline for a Two-Week Release Cycle
 

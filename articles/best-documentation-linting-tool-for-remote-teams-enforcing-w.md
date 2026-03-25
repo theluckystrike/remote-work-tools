@@ -42,13 +42,13 @@ Core Features to Evaluate
 
 When selecting a documentation linting tool for remote teams, prioritize these capabilities:
 
-Format Support: Does the tool understand Markdown, AsciiDoc, reStructuredText, or your wiki's native format? Most teams use Markdown, but enterprise wikis may require proprietary formats.
+Format Support - Does the tool understand Markdown, AsciiDoc, reStructuredText, or your wiki's native format? Most teams use Markdown, but enterprise wikis may require proprietary formats.
 
-Rule Customization: Can you define team-specific rules for terminology, tone, linking patterns, and content structure? Generic rules only get you so far.
+Rule Customization - Can you define team-specific rules for terminology, tone, linking patterns, and content structure? Generic rules only get you so far.
 
-CI/CD Integration: Does the tool run in your existing pipeline? GitHub Actions, GitLab CI, and similar platforms should execute linting on every documentation change.
+CI/CD Integration - Does the tool run in your existing pipeline? GitHub Actions, GitLab CI, and similar platforms should execute linting on every documentation change.
 
-Error Messaging: Are violations clear and actionable? Remote team members need specific guidance to fix issues without asking for clarification.
+Error Messaging - Are violations clear and actionable? Remote team members need specific guidance to fix issues without asking for clarification.
 
 Tool Comparison
 
@@ -184,7 +184,7 @@ const warnings = writeGood(
 console.log(warnings);
 // Output:
 // [ { index: 13, word: 'recommended', reason: "'recommended' is a weasel word" },
-//   { index: 27, word: 'utilize', reason: "'utilize' is unnecessary verbiage" } ]
+//   { index: 27, word: 'use', reason: "'use' is unnecessary verbiage" } ]
 ```
 
 Automating Enforcement in Your Pipeline
@@ -270,7 +270,7 @@ Select a documentation linting tool based on your team's specific needs:
 
 Vale excels for teams wanting maximum customization and cross-format support. Its vocabulary system handles terminology enforcement better than competitors.
 
-textlint suits multilingual teams or organizations already using JavaScript tooling. The plugin ecosystem provides extensive functionality.
+textlint suits multilingual teams or organizations already using JavaScript tooling. The plugin environment provides extensive functionality.
 
 Markdownlint is the right choice for teams exclusively using Markdown and wanting focused formatting checks without additional complexity.
 
@@ -286,7 +286,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -298,7 +298,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

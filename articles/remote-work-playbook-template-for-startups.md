@@ -29,12 +29,12 @@ Table of Contents
 - [Adapting the Template to Your Size](#adapting-the-template-to-your-size)
 - [Continuous Improvement](#continuous-improvement)
 - [Tool Stack Pricing and Comparison](#tool-stack-pricing-and-comparison)
-- [Practical Configuration: Daily Standup Automation](#practical-configuration-daily-standup-automation)
-- [Implementation Timeline: First Month](#implementation-timeline-first-month)
+- [Practical Configuration - Daily Standup Automation](#practical-configuration-daily-standup-automation)
+- [Implementation Timeline - First Month](#implementation-timeline-first-month)
 - [Onboarding New Remote Hires Using Your Playbook](#onboarding-new-remote-hires-using-your-playbook)
 - [Real Cost of Playbook Maintenance](#real-cost-of-playbook-maintenance)
 - [Scaling Beyond 10 People](#scaling-beyond-10-people)
-- [Red Flags: When Your Playbook Isn't Working](#red-flags-when-your-playbook-isnt-working)
+- [Red Flags - When Your Playbook Isn't Working](#red-flags-when-your-playbook-isnt-working)
 - [Playbook Repository Setup](#playbook-repository-setup)
 - [Playbook Maintenance Cadence](#playbook-maintenance-cadence)
 
@@ -85,7 +85,7 @@ Remote teams compensate for lack of physical proximity through written context. 
 Adopt a decision record format for technical choices:
 
 ```markdown
-ADR-001: Adopt PostgreSQL as Primary Database
+ADR-001 - Adopt PostgreSQL as Primary Database
 
 Status
 Accepted
@@ -196,7 +196,7 @@ Choosing the right tools matters less than choosing tools your team will actuall
 
 For a startup with 10 people on all platforms above: roughly $800-1200 monthly. Many startups cut costs by using free tiers or open-source alternatives until revenue justifies paid plans.
 
-Practical Configuration: Daily Standup Automation
+Practical Configuration - Daily Standup Automation
 
 Here's a real pattern used by remote teams: automated async standups that replace meetings. Using a simple GitHub Action or Slack workflow:
 
@@ -231,15 +231,15 @@ jobs:
 
 This single reminder replaces a 15-minute daily meeting across 10 people, that's 2.5 hours of focus time recovered weekly. Real teams report this pattern increases actual async communication while reducing meeting load.
 
-Implementation Timeline: First Month
+Implementation Timeline - First Month
 
-Week 1: Document three communication norms (response times, escalation paths, meeting frequency). Use existing tools, no new purchases. Store in your team wiki.
+Week 1 - Document three communication norms (response times, escalation paths, meeting frequency). Use existing tools, no new purchases. Store in your team wiki.
 
-Week 2: Run one meeting using the async code review flow from above. Measure round-trip time. Adjust review template if needed.
+Week 2 - Run one meeting using the async code review flow from above. Measure round-trip time. Adjust review template if needed.
 
-Week 3: Deploy the daily standup reminder. Track participation. If adoption stalls, revert to weekly syncs instead.
+Week 3 - Deploy the daily standup reminder. Track participation. If adoption stalls, revert to weekly syncs instead.
 
-Week 4: Review what worked, what didn't. Permanent playbook goes into version control. New hires reference it during onboarding.
+Week 4 - Review what worked, what didn't. Permanent playbook goes into version control. New hires reference it during onboarding.
 
 This 4-week pattern avoids over-engineering. You're testing hypotheses about what your team actually needs, not implementing a system before you know the problems.
 
@@ -247,15 +247,15 @@ Onboarding New Remote Hires Using Your Playbook
 
 A solid playbook becomes your onboarding backbone. Use it to accelerate new hire ramp time:
 
-Day 1: New hire reads core playbook sections (async communication, meeting norms, documentation standards). Time: 2 hours. Assign buddy for immediate questions.
+Day 1 - New hire reads core playbook sections (async communication, meeting norms, documentation standards). Time: 2 hours. Assign buddy for immediate questions.
 
-Week 1: New hire shadows three team members. Each person demonstrates their part of the playbook: code review flow, daily standup, tool access. Identify gaps in playbook based on hire questions.
+Week 1 - New hire shadows three team members. Each person demonstrates their part of the playbook: code review flow, daily standup, tool access. Identify gaps in playbook based on hire questions.
 
-Week 2: New hire conducts one code review using the playbook flow. Mentor reviews and gives feedback. Update playbook if instructions were unclear.
+Week 2 - New hire conducts one code review using the playbook flow. Mentor reviews and gives feedback. Update playbook if instructions were unclear.
 
-Week 4: New hire leads standup or documents one ADR. Full participation in playbook workflows.
+Week 4 - New hire leads standup or documents one ADR. Full participation in playbook workflows.
 
-Month 2: New hire suggests one improvement to playbook. Contribution via pull request reinforces that playbook is living document, not static handbook.
+Month 2 - New hire suggests one improvement to playbook. Contribution via pull request reinforces that playbook is living document, not static handbook.
 
 This 4-week ramp compresses onboarding. Without playbook, companies typically spend 8 weeks bringing new hires to productive velocity. With a solid playbook, you cut that to 4-5 weeks.
 
@@ -271,7 +271,7 @@ As you grow from 10 to 20 to 50 people, communication complexity scales non-line
 
 your core playbook says "code reviews happen within 24 hours." Your engineering-specific playbook might say "code reviews for critical systems happen within 8 hours; routine refactors can take 24." This gives teams autonomy while maintaining company-wide standards.
 
-Red Flags: When Your Playbook Isn't Working
+Red Flags - When Your Playbook Isn't Working
 
 Monitor these warning signs that your playbook needs revision:
 
@@ -287,7 +287,7 @@ Playbook Repository Setup
 
 Store your playbook where new hires can actually find it. Most startups make this mistake: wiki buried in Notion, documentation scattered across multiple systems. Better approach: single source of truth.
 
-Option 1: GitHub repository (best for technical teams)
+Option 1 - GitHub repository (best for technical teams)
 ```
 remote-work-playbook/
  README.md (index + quick-start)
@@ -301,7 +301,7 @@ remote-work-playbook/
 
 Version control means change history is transparent; team can see when policies changed and why.
 
-Option 2: Single Notion page (best for non-technical or mixed teams)
+Option 2 - Single Notion page (best for non-technical or mixed teams)
 - Easier for non-engineers to update
 - Rich formatting works well for templates
 - Search is worse than GitHub; navigation matters
@@ -312,7 +312,7 @@ Playbook Maintenance Cadence
 
 A playbook that doesn't evolve becomes outdated. Schedule these reviews:
 
-- Quarterly: Deep review. What policies created friction? What decisions got made informally outside the playbook?
+- Quarterly - Deep review. What policies created friction? What decisions got made informally outside the playbook?
 - During major hires: When you hire your first data scientist or sales person, add role-specific sections
 - After incidents: If a communication breakdown occurs, your playbook probably needs clarification
 - At inflection points: Moving from 10 to 20 people? 20 to 50? Playbook needs overhaul

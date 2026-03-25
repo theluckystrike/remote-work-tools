@@ -22,7 +22,7 @@ This guide builds a layered pipeline: secrets detection, dependency auditing, SA
 
 ---
 
-Layer 1: Secret Detection with Gitleaks
+Layer 1 - Secret Detection with Gitleaks
 
 Gitleaks scans commits for API keys, tokens, and credentials before they hit the repository.
 
@@ -73,7 +73,7 @@ regexes = [
 
 ---
 
-Layer 2: Dependency Auditing
+Layer 2 - Dependency Auditing
 
 `dependency-audit.yml`
 
@@ -123,7 +123,7 @@ jobs:
 
 ---
 
-Layer 3: SAST with Semgrep
+Layer 3 - SAST with Semgrep
 
 `semgrep.yml`
 
@@ -185,7 +185,7 @@ rules:
 
 ---
 
-Layer 4: Container Image Scanning with Trivy
+Layer 4 - Container Image Scanning with Trivy
 
 `container-scan.yml`
 
@@ -299,7 +299,7 @@ Slack Notification on Failure
 
 ---
 
-Layer 5: Infrastructure as Code Scanning with Checkov
+Layer 5 - Infrastructure as Code Scanning with Checkov
 
 Terraform, Kubernetes manifests, and Dockerfiles have security misconfigurations that aren't caught by code SAST. Checkov finds them before they reach production.
 

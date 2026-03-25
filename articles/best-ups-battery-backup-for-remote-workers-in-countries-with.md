@@ -92,12 +92,12 @@ apcaccess status
 
 Example output:
 APC      : 001,051,1143
-DATE     : 2026-03-16 10:30:00 -0500
-HOSTNAME : dev-workstation
-LOADPCT  : 35.0  Percent Load Capacity
-BATTVOLT : 13.5 Volts
-NUMXFERS : 12
-TIMELEFT : 18.0 Minutes
+DATE      - 2026-03-16 10:30:00 -0500
+HOSTNAME  - dev-workstation
+LOADPCT   - 35.0  Percent Load Capacity
+BATTVOLT  - 13.5 Volts
+NUMXFERS  - 12
+TIMELEFT  - 18.0 Minutes
 ```
 
 This provides enough time to commit changes, close running applications, and shut down cleanly.
@@ -111,7 +111,7 @@ Recommended setup:
 - Runtime at 600W: 10-15 minutes
 - Consider adding external battery pack for extended runtime
 
-Minimal Setup: Laptop-Only Workers
+Minimal Setup - Laptop-Only Workers
 
 If you work primarily from a laptop with external displays:
 
@@ -120,7 +120,7 @@ Recommended setup:
 - Powers modem/router + laptop charging
 - Runtime: 30-45 minutes for router, several hours for laptop alone
 
-Critical Configuration: Networked Shutdown
+Critical Configuration - Networked Shutdown
 
 An UPS without automated shutdown is only half useful. When you're not present during an extended outage, your system should shut down gracefully.
 
@@ -161,7 +161,7 @@ Or use PowerChute's command-line:
 "C:\Program Files\APC\PowerChute Personal Edition\pcpecli.exe" -h
 ```
 
-Extending Runtime: Practical Solutions
+Extending Runtime - Practical Solutions
 
 External Battery Packs
 

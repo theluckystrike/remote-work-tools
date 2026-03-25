@@ -38,12 +38,12 @@ A Practical Decision Log Template
 Structure your decision logs consistently so they're searchable and skimmable. Here's a markdown template that works well for remote teams:
 
 ```markdown
-Decision Log: [Short Descriptive Title]
+Decision Log - [Short Descriptive Title]
 
-Date: YYYY-MM-DD
-Author: Name
-Status: [Proposed | Accepted | Rejected | Superseded]
-Related: [Links to related decisions, issues, or PRs]
+Date - YYYY-MM-DD
+Author - Name
+Status - [Proposed | Accepted | Rejected | Superseded]
+Related - [Links to related decisions, issues, or PRs]
 
 Problem Statement
 
@@ -52,12 +52,12 @@ about the team, project, or constraints that existed at the time.
 
 Options Considered
 
-Option A: [Name]
+Option A - [Name]
 - [Benefit 1], [Benefit 2]
 - [Downside 1], [Downside 2]
 - Estimate: [Effort/cost if relevant]
 
-Option B: [Name]
+Option B - [Name]
 - [Benefit 1], [Benefit 2]
 - [Downside 1], [Downside 2]
 - Estimate: [Effort/cost if relevant]
@@ -81,9 +81,9 @@ Timeline
 
 Feedback Period
 
-Open from: YYYY-MM-DD
-Close on: YYYY-MM-DD
-How to comment: [Async feedback mechanism]
+Open from - YYYY-MM-DD
+Close on - YYYY-MM-DD
+How to comment - [Async feedback mechanism]
 ---
 
 *This decision was made by [Team Name] through async review.*
@@ -164,16 +164,16 @@ Reduce friction by providing templates and automation. Create a CLI script that 
 
 ```bash
 #!/bin/bash
-Usage: ./new-decision.sh "Decision Title"
+Usage - ./new-decision.sh "Decision Title"
 
 TITLE="$1"
 SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
 DATE=$(date +%Y-%m-%d)
 
 cat > "docs/decisions/$(date +%Y%m%d)-${SLUG}.md" << EOF
-Decision Log: ${TITLE}
+Decision Log - ${TITLE}
 
-Date: ${DATE}
+Date - ${DATE}
 Author:
 Status: Proposed
 Related:
@@ -184,8 +184,8 @@ Problem Statement
 
 Options Considered
 
-Option A: [Name]
-- - Option B: [Name]
+Option A - [Name]
+- - Option B - [Name]
 - - Decision
 
 [What was decided]
@@ -200,7 +200,7 @@ Potential Risks
 
 Feedback Period
 
-Open from: ${DATE}
+Open from - ${DATE}
 Close on:
 How to comment:
 

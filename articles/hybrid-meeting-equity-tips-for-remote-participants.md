@@ -18,7 +18,7 @@ voice-checked: true
 
 Hybrid meetings create an inherent imbalance. The in-room participants share physical space, catch side conversations, read body language, and dominate whiteboard discussions. Remote participants often feel like second-class citizens watching through a screen. This guide provides practical technical setups, workflow adjustments, and tooling strategies that remote participants and their teams can implement to achieve true meeting equity.
 
-The Core Problem: Asymmetric Information Flow
+The Core Problem - Asymmetric Information Flow
 
 In a hybrid meeting, remote participants miss subtle cues that in-room attendees receive automatically. A quick whispered aside between two colleagues, a gesture toward a whiteboard, or the casual body language that signals agreement or doubt, all of these create information asymmetry. The solution requires both technical infrastructure and process design.
 
@@ -136,7 +136,7 @@ Written Decision Logs
 After each meeting, post a written summary with action items, decisions made, and open questions. This serves multiple purposes: it documents the meeting for absentees, it gives remote participants a chance to add context they might have missed verbally, and it creates accountability.
 
 ```markdown
-Meeting Summary: [Date]
+Meeting Summary - [Date]
 
 Attendees
 - [List all participants, mark remote vs. in-room]
@@ -248,7 +248,7 @@ When someone shares their screen, remote participants often struggle to read sma
 
 ```bash
 Before a meeting with code review or detailed documents:
-Ask: "Can you share the presentation/code 15 minutes early?"
+Ask - "Can you share the presentation/code 15 minutes early?"
 This gives remote participants time to:
 1. Download and view on a separate monitor
 2. Adjust zoom/scaling for readability
@@ -268,7 +268,7 @@ speedtest-cli      # Full speed/latency test
 
 Prepare mobile hotspot as backup
 iPhone: Settings > Hotspot > Turn On
-Android: Settings > Network > Hotspot > Turn On
+Android - Settings > Network > Hotspot > Turn On
 Keep it disabled until needed (saves battery)
 ```
 
@@ -282,7 +282,7 @@ Template for async feedback:
 ```markdown
 [Your Name] - Async Input
 
-Position: [Agree/Disagree/Need clarification]
+Position - [Agree/Disagree/Need clarification]
 
 Rationale:
 [2-3 sentences explaining your perspective]
@@ -325,9 +325,9 @@ Email Summaries for Time Zone Gaps
 For teams spanning multiple continents, send a same-day email summary within 4 hours of the meeting:
 
 ```
-Subject: [Project Name] Meeting Summary - 2026-03-22
+Subject - [Project Name] Meeting Summary - 2026-03-22
 
-From: [Meeting Organizer]
+From - [Meeting Organizer]
 To: [Full team distribution list]
 
 Key Decisions:
@@ -338,9 +338,9 @@ Remote Participants' Input Incorporated:
 - Carol raised concern about API compatibility (added to backlog)
 - Dave requested 2-week review period (approved)
 
-Next Meeting: [Date and Time with time zones listed]
+Next Meeting - [Date and Time with time zones listed]
 
-Attendees who missed this: Recording is here [link].
+Attendees who missed this - Recording is here [link].
 Please comment on decisions by EOD tomorrow.
 ```
 

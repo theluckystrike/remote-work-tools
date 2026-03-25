@@ -20,11 +20,11 @@ Dotfiles form the backbone of your development environment. When working remotel
 Table of Contents
 
 - [Why Dotfiles Management Matters for Remote Developers](#why-dotfiles-management-matters-for-remote-developers)
-- [GNU Stow: The Simple, Effective Choice](#gnu-stow-the-simple-effective-choice)
-- [YADM: Git-Based Configuration with Special Features](#yadm-git-based-configuration-with-special-features)
-- [Chezmoi: dotfiles as Code](#chezmoi-dotfiles-as-code)
-- [Dotbot: Automation-First Approach](#dotbot-automation-first-approach)
-- [Comparison Table: Dotfiles Managers at a Glance](#comparison-table-dotfiles-managers-at-a-glance)
+- [GNU Stow - The Simple, Effective Choice](#gnu-stow-the-simple-effective-choice)
+- [YADM - Git-Based Configuration with Special Features](#yadm-git-based-configuration-with-special-features)
+- [Chezmoi - dotfiles as Code](#chezmoi-dotfiles-as-code)
+- [Dotbot - Automation-First Approach](#dotbot-automation-first-approach)
+- [Comparison Table - Dotfiles Managers at a Glance](#comparison-table-dotfiles-managers-at-a-glance)
 - [Handling Secrets in Your Dotfiles](#handling-secrets-in-your-dotfiles)
 - [Quick Bootstrap for a New Machine](#quick-bootstrap-for-a-new-machine)
 - [Choosing the Right Manager](#choosing-the-right-manager)
@@ -35,7 +35,7 @@ Remote developers often toggle between a laptop at a coffee shop, a desktop at h
 
 A dotfiles manager solves three core problems: synchronization across machines, backup and version control, and quick environment recreation when setting up new systems. The best solutions handle these requirements while remaining lightweight and flexible enough to accommodate diverse workflow preferences.
 
-GNU Stow: The Simple, Effective Choice
+GNU Stow - The Simple, Effective Choice
 
 GNU Stow remains the most straightforward dotfiles manager for developers who want simplicity without sacrificing functionality. It works by creating symbolic links from a central directory to your home directory, effectively "stowing" your configuration files.
 
@@ -86,7 +86,7 @@ stow git vim bash tmux
 
 Your configurations are now identical across machines. Stow handles conflicts gracefully, warning you if a file already exists at the target location.
 
-YADM: Git-Based Configuration with Special Features
+YADM - Git-Based Configuration with Special Features
 
 YADM (Yet Another Dotfiles Manager) extends Git's functionality with features specifically designed for dotfiles management. It provides encryption for sensitive files, alternate file templates for different operating systems, and bootstrapping.
 
@@ -134,7 +134,7 @@ YADM supports OS-specific configurations through alternates. Create platform-spe
 
 YADM automatically selects the appropriate version based on the operating system, keeping your configuration clean while accommodating platform differences.
 
-Chezmoi: dotfiles as Code
+Chezmoi - dotfiles as Code
 
 Chezmoi treats your dotfiles as code, bringing software engineering practices to configuration management. It supports templates, secrets management, and state tracking that simple symlink approaches.
 
@@ -176,7 +176,7 @@ Chezmoi excels at handling machine-specific values through templates:
 
 This template checks the hostname and sets different email addresses accordingly, a practical solution for remote developers who use different identities for work and personal projects.
 
-Dotbot: Automation-First Approach
+Dotbot - Automation-First Approach
 
 Dotbot focuses on automation, providing a framework for running installation scripts alongside symlink management. It's ideal for developers who want to automate their entire environment setup, including package installations and initial configurations.
 
@@ -210,7 +210,7 @@ cd ~/dotfiles
 
 The shell commands run after creating symlinks, enabling you to automate plugin installations, package manager setups, and other initialization tasks.
 
-Comparison Table: Dotfiles Managers at a Glance
+Comparison Table - Dotfiles Managers at a Glance
 
 | Tool | Mechanism | OS Templates | Secrets Support | Bootstrap Scripts | Learning Curve |
 |---|---|---|---|---|---|
@@ -294,7 +294,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -306,7 +306,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

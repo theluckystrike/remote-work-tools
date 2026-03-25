@@ -222,7 +222,7 @@ A three-person team may eventually become four or five. Your Kanban setup should
 - Consider adding a "Waiting on Customer" column if you interact with users
 - Separate projects from operational work if both volumes increase
 
-The principles remain the same: visualize work, limit WIP, manage flow. The specifics adjust to your new reality.
+The principles remain the same - visualize work, limit WIP, manage flow. The specifics adjust to your new reality.
 ---
 
 

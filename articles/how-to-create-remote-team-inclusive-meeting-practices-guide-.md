@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Time Zone Equity
+Step 1 - Understand Time Zone Equity
 
 The first step toward inclusive meetings is recognizing that "meeting in the middle" isn't actually fair. When a team spans three time zones, the person joining at 7 AM or 9 PM often experiences that as inconvenient regardless of where the meeting is scheduled. True equity means rotating meeting times so everyone shares the burden approximately equally.
 
@@ -83,14 +83,14 @@ def generate_rotation_schedule(team_timezones, weeks=4):
 
 This approach ensures that over time, no single time zone consistently bears the burden of inconvenient meeting times.
 
-Step 2: Async-First Meeting Culture
+Step 2 - Async-First Meeting Culture
 
 The most inclusive meeting practice you can adopt is having fewer meetings. Async-first communication respects everyone's time and working hours, but when meetings are necessary, structure them to maximize value.
 
 Implement a meeting request template that forces organizers to justify why this meeting can't be async:
 
 ```markdown
-Step 3: Meeting Proposal
+Step 3 - Meeting Proposal
 
 What is the purpose of this meeting?
 [ ] Decision on [topic]
@@ -116,7 +116,7 @@ Proposed duration:
 
 This template, when enforced consistently, dramatically reduces unnecessary meetings while making the essential ones more purposeful.
 
-Step 4: Structured Meeting Formats
+Step 4 - Structured Meeting Formats
 
 When meetings are required, structured formats ensure everyone can participate meaningfully regardless of their communication style or language proficiency.
 
@@ -125,7 +125,7 @@ The RAG Format for Status Meetings
 Replace open-ended status updates with a structured Red/Amber/Green format:
 
 ```markdown
-Step 5: Team Standup - [Date]
+Step 5 - Team Standup - [Date]
 
 Red (Blocked/Needs Help)
 - @username: [Brief description of blocker]
@@ -179,7 +179,7 @@ console.log(meetingRotation.getNextSpeaker()); // Alice
 
 This ensures quieter team members get equal speaking time and prevents dominant voices from monopolizing discussions.
 
-Step 6: Accessible Meeting Settings
+Step 6 - Accessible Meeting Settings
 
 Configure your video conferencing tools to support diverse participant needs:
 
@@ -212,16 +212,16 @@ meeting_platform:
 
 Share these settings with your team and establish norms around their use. For example, always enable live captions even if no one currently needs them, this normalizes accessibility features and makes them available when needed.
 
-Step 7: Documentation and Follow-Up
+Step 7 - Documentation and Follow-Up
 
 Inclusive meetings extend beyond the actual meeting time. documentation ensures team members in different time zones or those who couldn't attend can stay informed:
 
 ```markdown
-Step 8: Meeting: [Title]
-Date: [Date]
-Attendees: [List]
-Recording: [Link]
-Notes: [Link]
+Step 8 - Meeting: [Title]
+Date - [Date]
+Attendees - [List]
+Recording - [Link]
+Notes - [Link]
 
 Discussion Summary
 [Bullet points of key discussions]
@@ -241,7 +241,7 @@ Asynchronous Feedback
 
 Create a standing "asynchronous feedback" section where people who couldn't attend or who process information differently can add their input after the meeting. This explicitly validates input outside the live meeting window.
 
-Step 9: Implementing These Practices
+Step 9 - Implementing These Practices
 
 Start with one or two practices and iterate. Here's a suggested implementation order:
 
@@ -252,7 +252,7 @@ Start with one or two practices and iterate. Here's a suggested implementation o
 
 Track participation rates and gather feedback. The goal isn't perfection, it's continuous improvement toward meetings that work for everyone, regardless of location.
 
-Step 10: Common Pitfalls to Avoid
+Step 10 - Common Pitfalls to Avoid
 
 Watch out for these patterns that undermine inclusive meetings:
 

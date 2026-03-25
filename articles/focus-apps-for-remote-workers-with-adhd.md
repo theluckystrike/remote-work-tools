@@ -27,13 +27,13 @@ Table of Contents
 - [Building Your Personal Focus Stack](#building-your-personal-focus-stack)
 - [Building Your Personal ADHD-Friendly Focus Stack](#building-your-personal-adhd-friendly-focus-stack)
 - [Complete Setup Guide for macOS](#complete-setup-guide-for-macos)
-- [Comparison Table: Focus Apps for ADHD](#comparison-table-focus-apps-for-adhd)
+- [Comparison Table - Focus Apps for ADHD](#comparison-table-focus-apps-for-adhd)
 - [Troubleshooting Common ADHD Work-From-Home Issues](#troubleshooting-common-adhd-work-from-home-issues)
-- [Issue: Can't start tasks even with tools](#issue-cant-start-tasks-even-with-tools)
-- [Issue: Tools become another distraction](#issue-tools-become-another-distraction)
-- [Issue: Procrastinating on focus apps](#issue-procrastinating-on-focus-apps)
-- [Issue: Focus sessions feel empty/lonely](#issue-focus-sessions-feel-emptylonely)
-- [Issue: Afternoon energy crash](#issue-afternoon-energy-crash)
+- [Issue - Can't start tasks even with tools](#issue-cant-start-tasks-even-with-tools)
+- [Issue - Tools become another distraction](#issue-tools-become-another-distraction)
+- [Issue - Procrastinating on focus apps](#issue-procrastinating-on-focus-apps)
+- [Issue - Focus sessions feel empty/lonely](#issue-focus-sessions-feel-emptylonely)
+- [Issue - Afternoon energy crash](#issue-afternoon-energy-crash)
 
 Understanding the ADHD Work-From-Home Challenge
 
@@ -315,7 +315,7 @@ Browser extensions
 Create focus launch script
 cat > ~/.local/bin/focus-mode.sh << 'EOF'
 #!/bin/bash
-Activate focus mode: close distractions, start Forest
+Activate focus mode - close distractions, start Forest
 
 Kill attention-stealing apps
 pkill -f "Slack"
@@ -329,7 +329,7 @@ open -a Focus@Will
 Start Pomodoro
 pomodoro start "Deep work session"
 
-Optional: open editor in fullscreen
+Optional - open editor in fullscreen
 open -a "Visual Studio Code"
 echo " Focus mode activated. Welcome to deep work."
 EOF
@@ -374,7 +374,7 @@ Load Hammerspoon config
 hs.loadConfig()
 ```
 
-Comparison Table: Focus Apps for ADHD
+Comparison Table - Focus Apps for ADHD
 
 Choose based on your specific challenges:
 
@@ -396,45 +396,45 @@ Troubleshooting Common ADHD Work-From-Home Issues
 Use this guide to diagnose and fix focus problems:
 
 ```markdown
-Issue: Can't start tasks even with tools
+Issue - Can't start tasks even with tools
 
-Diagnosis: Task seems too vague or overwhelming
+Diagnosis - Task seems too vague or overwhelming
 Solution:
 1. Break task into 15-minute chunks
 2. Do NOT start with the big task
 3. Start with easiest 15-minute chunk
 4. Success with one chunk builds momentum
 
-Issue: Tools become another distraction
+Issue - Tools become another distraction
 
-Diagnosis: Too many notifications from apps
+Diagnosis - Too many notifications from apps
 Solution:
 1. Mute ALL notifications while focusing
 2. Turn off app badges
 3. Disable Slack/email during focus blocks
 4. Check messages in designated "break time"
 
-Issue: Procrastinating on focus apps
+Issue - Procrastinating on focus apps
 
-Diagnosis: Setup friction is too high
+Diagnosis - Setup friction is too high
 Solution:
 1. Create one-click launcher script
 2. Map to keyboard shortcut (Cmd+Option+F)
 3. Make it muscle memory
 4. If still struggling, simplify your stack
 
-Issue: Focus sessions feel empty/lonely
+Issue - Focus sessions feel empty/lonely
 
-Diagnosis: Remote work isolation amplifying ADHD difficulty
+Diagnosis - Remote work isolation amplifying ADHD difficulty
 Solution:
 1. Join coworking sessions (Focusmate.com)
 2. Use Discord/Slack body-doubling channels
 3. Work in coffee shops occasionally
 4. Schedule co-work time with teammates
 
-Issue: Afternoon energy crash
+Issue - Afternoon energy crash
 
-Diagnosis: Willpower depletion is real, especially ADHD
+Diagnosis - Willpower depletion is real, especially ADHD
 Solution:
 1. Schedule deep work 9am-12pm
 2. Afternoon = async/admin tasks

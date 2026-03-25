@@ -19,7 +19,7 @@ Table of Contents
 
 - [Why Remote Teams Outgrow GitBook](#why-remote-teams-outgrow-gitbook)
 - [The Alternatives, Ranked by Use Case](#the-alternatives-ranked-by-use-case)
-- [Decision Framework: Which Alternative Fits Your Team](#decision-framework-which-alternative-fits-your-team)
+- [Decision Framework - Which Alternative Fits Your Team](#decision-framework-which-alternative-fits-your-team)
 - [Making the Transition](#making-the-transition)
 
 GitBook works well for many teams, but it has meaningful gaps: limited self-hosting, slow search on large wikis, and friction when engineers want to write docs as code in the same pull request as the feature. This guide covers the strongest alternatives, who each fits best, and how to set them up for a remote engineering context.
@@ -38,8 +38,8 @@ The Alternatives, Ranked by Use Case
 
 1. Docusaurus (Best for Docs-as-Code Teams)
 
-Cost: Free and open source
-Best for: Engineering teams that want documentation living in the same repository as code
+Cost - Free and open source
+Best for - Engineering teams that want documentation living in the same repository as code
 
 Docusaurus is a React-based static site generator built by Meta specifically for technical documentation. It treats documentation as code: every page is a Markdown or MDX file, every change goes through a pull request, and deployment is handled by your existing CI/CD pipeline.
 
@@ -55,12 +55,12 @@ For a remote engineering team, the killer feature is that junior engineers can u
 
 Docusaurus also supports MDX, which lets you embed live code playgrounds directly in documentation pages. API teams that use this can show an interactive request builder alongside the endpoint documentation, which dramatically reduces the number of "how does this endpoint work" questions in Slack.
 
-The tradeoff: Docusaurus requires engineering effort to set up and maintain. It is not a plug-and-play solution for non-technical writers, and theming requires React knowledge if you want anything beyond the defaults.
+The tradeoff - Docusaurus requires engineering effort to set up and maintain. It is not a plug-and-play solution for non-technical writers, and theming requires React knowledge if you want anything beyond the defaults.
 
 2. Notion (Best for Mixed Engineering and Non-Technical Teams)
 
-Cost: Free for individuals, $10/user/month for Teams
-Best for: Organizations where engineering documentation needs to live alongside product, HR, and operational content
+Cost - Free for individuals, $10/user/month for Teams
+Best for - Organizations where engineering documentation needs to live alongside product, HR, and operational content
 
 Notion bridges the gap between engineering wikis and general team knowledge bases. For remote teams where documentation ownership is distributed. engineers write technical guides, product managers write specs, HR writes onboarding docs. Notion's unified workspace is genuinely useful.
 
@@ -70,8 +70,8 @@ Where Notion falls short for engineering: it does not natively support code-revi
 
 3. Confluence (Best for Enterprise Teams Already in Atlassian)
 
-Cost: Free for up to 10 users, $5.75/user/month for Standard
-Best for: Engineering teams using Jira who need documentation tightly linked to project and issue tracking
+Cost - Free for up to 10 users, $5.75/user/month for Standard
+Best for - Engineering teams using Jira who need documentation tightly linked to project and issue tracking
 
 Confluence has earned a mixed reputation: engineers who use it grudgingly acknowledge that integration with Jira is genuinely valuable, while also finding the editor slow and the page structure confusing. For remote teams, the async commenting and inline feedback features work well for design document reviews without requiring a synchronous meeting.
 
@@ -79,8 +79,8 @@ The strongest argument for Confluence in a remote engineering context is the Jir
 
 4. Outline (Best Self-Hosted GitBook Alternative)
 
-Cost: Free self-hosted, $10/user/month cloud
-Best for: Teams with data residency requirements or compliance constraints that rule out SaaS tools
+Cost - Free self-hosted, $10/user/month cloud
+Best for - Teams with data residency requirements or compliance constraints that rule out SaaS tools
 
 Outline is the closest functional equivalent to GitBook that supports full self-hosting. It offers a clean editor, nested document structure, and full-text search. the core things GitBook does well. without requiring you to send documentation to a third-party server.
 
@@ -102,8 +102,8 @@ For remote engineering teams at companies with strict data requirements, Outline
 
 5. MkDocs with Material Theme (Best for API and Technical Reference)
 
-Cost: Free and open source
-Best for: Engineering teams that produce dense technical reference documentation, especially for APIs
+Cost - Free and open source
+Best for - Engineering teams that produce dense technical reference documentation, especially for APIs
 
 MkDocs with the Material theme is the documentation stack that most developer-focused companies running their public documentation sites have converged on. It is fast, highly configurable, and produces clean, searchable output that works well for API references, CLI documentation, and architectural guides.
 
@@ -132,17 +132,17 @@ markdown_extensions:
 
 For remote teams, the git-revision-date-localized plugin is particularly useful: it automatically shows when each documentation page was last updated and by whom, giving readers a clear signal about whether documentation is current without maintaining a manual changelog.
 
-Decision Framework: Which Alternative Fits Your Team
+Decision Framework - Which Alternative Fits Your Team
 
-Choose Docusaurus if: Your team writes code daily, documentation should live in the same repository, and you want a CI/CD-friendly workflow where docs ship with features.
+Choose Docusaurus if - Your team writes code daily, documentation should live in the same repository, and you want a CI/CD-friendly workflow where docs ship with features.
 
-Choose Notion if: Your organization uses Notion for everything else, cross-functional documentation ownership matters, and you do not need deep code integration or self-hosting.
+Choose Notion if - Your organization uses Notion for everything else, cross-functional documentation ownership matters, and you do not need deep code integration or self-hosting.
 
-Choose Confluence if: You are already paying for Jira, integration between requirements documents and issue tracking is a priority, and enterprise-grade access controls matter.
+Choose Confluence if - You are already paying for Jira, integration between requirements documents and issue tracking is a priority, and enterprise-grade access controls matter.
 
-Choose Outline if: You have compliance or data residency requirements, need self-hosting, and want a clean editor that non-technical team members can use without training.
+Choose Outline if - You have compliance or data residency requirements, need self-hosting, and want a clean editor that non-technical team members can use without training.
 
-Choose MkDocs if: You maintain API or CLI documentation, want fast static output, and prefer a configuration-file-based setup with full control over structure.
+Choose MkDocs if - You maintain API or CLI documentation, want fast static output, and prefer a configuration-file-based setup with full control over structure.
 
 Making the Transition
 
@@ -174,11 +174,11 @@ Documentation Solution Comparison
 | Sphinx | Technical Python projects | 4 hours | Free | Git | No |
 | GitHub Wiki | Minimal docs | 10 min | Free (GitHub native) | Git | Yes |
 
-Notion: The All-in-One Replacement
+Notion - The All-in-One Replacement
 
 Notion works as both internal documentation AND public publishing. Create pages, nest them hierarchically, set granular permissions (public, team, specific people), then embed or link externally.
 
-Real team workflow: Create "Engineering Docs" workspace. Main sections: Architecture, Onboarding, API Reference, Runbooks, Decision Records. Each section is a database with templates (same format every time). Notion can publish entire databases as public websites with custom domains.
+Real team workflow - Create "Engineering Docs" workspace. Main sections: Architecture, Onboarding, API Reference, Runbooks, Decision Records. Each section is a database with templates (same format every time). Notion can publish entire databases as public websites with custom domains.
 
 Strengths:
 - Real-time collaboration (multiple people editing same doc)
@@ -193,13 +193,13 @@ Limitations:
 - Limited code syntax highlighting vs purpose-built doc tools
 - Steeper learning curve than GitBook
 
-Integration example: Zapier syncs GitHub README files → Notion database → team updates in Notion → changes don't sync back (one-way).
+Integration example - Zapier syncs GitHub README files → Notion database → team updates in Notion → changes don't sync back (one-way).
 
-Read the Docs: Purpose-Built for Developers
+Read the Docs - Purpose-Built for Developers
 
 Read the Docs is the standard for open-source documentation. Build with Sphinx (Python) or other static site generators, commit to GitHub, push triggers rebuild and deploy.
 
-Real workflow: Write docs in Markdown or reStructuredText → commit to GitHub `docs/` folder → webhook triggers Read the Docs build → rebuilt site lives at projectname.readthedocs.io within 2 minutes → team reviews live changes.
+Real workflow - Write docs in Markdown or reStructuredText → commit to GitHub `docs/` folder → webhook triggers Read the Docs build → rebuilt site lives at projectname.readthedocs.io within 2 minutes → team reviews live changes.
 
 Strengths:
 - Git-native (docs live in your repo)
@@ -214,13 +214,13 @@ Limitations:
 - Markdown required (steeper for non-technical writers)
 - Design is functional, not beautiful
 
-Best for: Open-source projects, API documentation, teams that live in Git.
+Best for - Open-source projects, API documentation, teams that live in Git.
 
-Mintlify: Modern API Docs with Code Blocks
+Mintlify - Modern API Docs with Code Blocks
 
 Mintlify builds beautiful API documentation with integrated code examples. Define API endpoints in OpenAPI, Mintlify renders docs with working code samples in multiple languages.
 
-Real workflow: Define API in `openapi.yaml` → upload to Mintlify → auto-generates endpoint docs with try-it-out buttons → sync to GitHub for version control → deploy to custom domain.
+Real workflow - Define API in `openapi.yaml` → upload to Mintlify → auto-generates endpoint docs with try-it-out buttons → sync to GitHub for version control → deploy to custom domain.
 
 Strengths:
 - Auto-generates from OpenAPI/Swagger
@@ -235,13 +235,13 @@ Limitations:
 - Limited internal documentation capabilities
 - Community smaller than Notion/Confluence
 
-Best for: Engineering teams shipping APIs, startups with public developer platforms.
+Best for - Engineering teams shipping APIs, startups with public developer platforms.
 
-Confluence: Enterprise Collaboration (With a Cost)
+Confluence - Enterprise Collaboration (With a Cost)
 
 Confluence is Atlassian's documentation wiki, deeply integrated with Jira. Real-time editing, commenting, version history, permissions hierarchy.
 
-Real workflow: Create "Engineering" space → each project gets a page → child pages for specifications, designs, runbooks → link to related Jira tickets → full search across all docs → permission groups control who sees sensitive docs.
+Real workflow - Create "Engineering" space → each project gets a page → child pages for specifications, designs, runbooks → link to related Jira tickets → full search across all docs → permission groups control who sees sensitive docs.
 
 Strengths:
 - Deep Jira integration
@@ -256,15 +256,15 @@ Limitations:
 - Complex UI (learning curve higher than Notion)
 - Data export requires plugins
 
-Best for: Enterprise teams already using Jira, organizations with complex permission needs, teams >50 people.
+Best for - Enterprise teams already using Jira, organizations with complex permission needs, teams >50 people.
 
-Docusaurus: The Custom Approach
+Docusaurus - The Custom Approach
 
 Docusaurus is a React-based static site generator for documentation. Write in Markdown, Docusaurus builds a responsive site, deploy to any host (Vercel, Netlify, GitHub Pages).
 
-Real workflow: Clone Docusaurus starter → write docs in `/docs` folder (Markdown) → commit to GitHub → CI/CD pipeline builds → deploys to Vercel → live in 1 minute.
+Real workflow - Clone Docusaurus starter → write docs in `/docs` folder (Markdown) → commit to GitHub → CI/CD pipeline builds → deploys to Vercel → live in 1 minute.
 
-Code example: Docusaurus sidebar configuration:
+Code example - Docusaurus sidebar configuration:
 
 ```javascript
 // sidebars.js
@@ -309,33 +309,33 @@ Limitations:
 - No built-in discussion/comments
 - Maintenance overhead (React updates, dependency management)
 
-Best for: Engineering teams comfortable with code, custom docs requirements, teams wanting full control.
+Best for - Engineering teams comfortable with code, custom docs requirements, teams wanting full control.
 
-Implementation Timeline: Migrating from GitBook
+Implementation Timeline - Migrating from GitBook
 
-Phase 1 (Week 1): Audit existing docs
+Phase 1 (Week 1) - Audit existing docs
 - List all documents in GitBook
 - Categorize by purpose (API, onboarding, architecture, runbooks)
 - Identify which docs are read-only vs frequently updated
 
-Phase 2 (Week 2): Choose replacement
+Phase 2 (Week 2) - Choose replacement
 - Use decision framework below
 - Set up test workspace in new tool
 - Migrate 2-3 sample docs
 - Team evaluates
 
-Phase 3 (Week 3-4): Bulk migration
+Phase 3 (Week 3-4) - Bulk migration
 - Export all GitBook content
 - Transform into target tool's format (Markdown → Notion, etc.)
 - Verify links still work
 - Update team onboarding docs to point to new location
 
-Phase 4 (Ongoing): Maintain and refine
+Phase 4 (Ongoing) - Maintain and refine
 - Monitor docs access patterns
 - Retire outdated documents
 - Establish update cadence (who owns which docs?)
 
-Decision Framework: Choosing Your Solution
+Decision Framework - Choosing Your Solution
 
 Go with Notion if:
 - You want to combine internal wiki + public publishing
@@ -378,7 +378,7 @@ Setting Up Notion as GitBook Replacement: 30-Minute Setup
 6. Test sharing link in incognito window (confirms permissions work)
 7. Update team wiki link to point to public Notion page
 
-Team Exercise: Evaluation Session (60 minutes)
+Team Exercise - Evaluation Session (60 minutes)
 
 1. (10 min) List 5 docs your team references most frequently
 2. (15 min) Create test workspaces in 2-3 candidate tools (Notion, Confluence, Docusaurus)
@@ -387,8 +387,8 @@ Team Exercise: Evaluation Session (60 minutes)
  - Appearance (how does the doc look?)
  - Search (can you find content?)
  - Sharing (is permission model intuitive?)
-4. (10 min) Vote: Which tool felt most natural?
-5. (5 min) Decide: Is the winner worth migrating? If yes, start migration plan.
+4. (10 min) Vote - Which tool felt most natural?
+5. (5 min) Decide - Is the winner worth migrating? If yes, start migration plan.
 
 Frequently Asked Questions
 

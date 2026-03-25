@@ -89,7 +89,7 @@ tctl db login production-postgres --request-reason="Analyzing user migration iss
 
 The request enters an approval queue if manual approval is configured. Once approved, access expires after the defined TTL.
 
-Option 2: Using AWS IAM for Just-in-Time Database Access
+Option 2 - Using AWS IAM for Just-in-Time Database Access
 
 For AWS-hosted databases, IAM policies combined with Amazon RDS can enforce JIT access:
 
@@ -138,7 +138,7 @@ def get_temp_db_credentials(db_resource_id, duration_minutes=60):
     }
 ```
 
-Option 3: Custom Implementation with HashiCorp Vault
+Option 3 - Custom Implementation with HashiCorp Vault
 
 For full control, HashiCorp Vault's database secrets engine provides JIT functionality:
 

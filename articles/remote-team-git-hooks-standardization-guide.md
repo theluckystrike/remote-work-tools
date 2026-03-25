@@ -291,7 +291,7 @@ Lefthook runs `lint`, `format`, `go-fmt`, `go-vet`, and `secrets` checks in para
 Skip hooks when needed (rare, break-glass):
 
 ```bash
-LEFTHOOK=0 git commit -m "wip: debug session"
+LEFTHOOK=0 git commit -m "wip - debug session"
 ```
 
 ---

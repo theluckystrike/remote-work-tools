@@ -25,7 +25,7 @@ Geekbot. Best for Slack-Native Teams
 
 Geekbot integrates directly into Slack with zero context-switching. Team members respond to threaded prompts without leaving their chat interface.
 
-Pricing: Free tier (unlimited standups); Pro at $30/month for 5 users, $50/month for 15 users, $80/month for 30 users.
+Pricing - Free tier (unlimited standups); Pro at $30/month for 5 users, $50/month for 15 users, $80/month for 30 users.
 
 Strengths:
 - Questions delivered via Slack DM at scheduled times
@@ -53,22 +53,22 @@ Tuesday, March 22
  Completed: API endpoint for user authentication
  Today: Integration testing, PR review
  Blocked: Waiting for AWS credentials
-Timeline: 2 days remaining on sprint
+Timeline - 2 days remaining on sprint
 
 @bob
  Completed: Database migration to PostgreSQL
  Today: Performance testing, documentation
 ⏸ Note: Half-day Thursday (doctor's appointment)
-Timeline: 3 days remaining on sprint
+Timeline - 3 days remaining on sprint
 ```
 
-Best For: Teams already deeply integrated with Slack, distributed across time zones, emphasis on asynchronous communication.
+Best For - Teams already deeply integrated with Slack, distributed across time zones, emphasis on asynchronous communication.
 
 Standuply. Best for Detailed Reporting
 
 Standuply goes deeper than simple check-ins, generating team reports with burndown tracking and individual metrics.
 
-Pricing: Free tier (basic standups); Team at $50/month (5 users), Pro at $100/month (unlimited users).
+Pricing - Free tier (basic standups); Team at $50/month (5 users), Pro at $100/month (unlimited users).
 
 Strengths:
 - Customizable survey templates (can add custom fields, dropdowns, multi-choice)
@@ -106,9 +106,9 @@ Sample team report output:
 ```
  Team Standup Summary - Week of March 18
 
-Team Members Reporting: 12/12 (100%)
-Average Response Time: 2.3 hours
-Team Morale: 4.1/5
+Team Members Reporting - 12/12 (100%)
+Average Response Time - 2.3 hours
+Team Morale - 4.1/5
 
 Status Breakdown:
 - On Track: 10 members
@@ -125,16 +125,16 @@ Top Blockers:
 2. CI/CD pipeline delays (1 mention)
 3. Database deadlock issues (1 mention)
 
-Morale Trend: Stable (↔)
+Morale Trend - Stable (↔)
 ```
 
-Best For: Teams needing detailed metrics, sprint tracking, leadership visibility into blockers.
+Best For - Teams needing detailed metrics, sprint tracking, leadership visibility into blockers.
 
 Range. Best for Culture and Connection
 
 Range adds a human element to async standups, encouraging team bonding and casual check-ins alongside work updates.
 
-Pricing: Team at $6/month per user (annual billing), or $8/month (monthly).
+Pricing - Team at $6/month per user (annual billing), or $8/month (monthly).
 
 Strengths:
 - Standup updates paired with casual "How are you today?" questions
@@ -174,21 +174,21 @@ Team view:
 - Team shipped 3.2x more features vs last month
 
  Today's Focus
-Engineering: Database migration (23 people)
-Design: Mobile checkout flow (5 people)
-Marketing: Campaign launch (8 people)
+Engineering - Database migration (23 people)
+Design - Mobile checkout flow (5 people)
+Marketing - Campaign launch (8 people)
 
  1-on-1s Scheduled Today: 12
-Team Health: 4.3/5 (↑ from 4.1)
+Team Health - 4.3/5 (↑ from 4.1)
 ```
 
-Best For: Teams prioritizing culture, distributed companies, companies with high turnover concerns.
+Best For - Teams prioritizing culture, distributed companies, companies with high turnover concerns.
 
 DailyBot. Best for Enterprise Integration
 
 DailyBot connects standups to project management tools, creating an unified work pipeline.
 
-Pricing: Free tier (1 standup); Pro at $10/month (unlimited standups), Enterprise pricing available.
+Pricing - Free tier (1 standup); Pro at $10/month (unlimited standups), Enterprise pricing available.
 
 Strengths:
 - Native integrations with Asana, Jira, Monday.com, Linear
@@ -201,7 +201,7 @@ Strengths:
 Real Integration Example - Jira Workflow:
 
 1. Geekbot asks: "What are you working on today?"
-2. Team member responds: "PROJ-284: Fix login redirect bug"
+2. Team member responds: "PROJ-284 - Fix login redirect bug"
 3. DailyBot automatically:
  - Links response to Jira ticket PROJ-284
  - Updates ticket status to "In Progress"
@@ -211,19 +211,19 @@ Real Integration Example - Jira Workflow:
 Sample Jira ticket enriched by DailyBot:
 
 ```
-PROJ-284: Fix login redirect bug
-Status: In Progress (updated via DailyBot standup)
+PROJ-284 - Fix login redirect bug
+Status - In Progress (updated via DailyBot standup)
 
 Standup Updates:
 March 22, 9:45 AM - Bob: Working on this today
 March 21, 4:15 PM - Alice: Completed 80%, testing redirect flows
 
-Timeline: 1 day remaining
-Blocked: No
-Team: Backend Team (4 people)
+Timeline - 1 day remaining
+Blocked - No
+Team - Backend Team (4 people)
 ```
 
-Best For: Enterprise teams using Jira/Asana, teams needing tight project management integration, companies with complex workflows.
+Best For - Enterprise teams using Jira/Asana, teams needing tight project management integration, companies with complex workflows.
 
 Feature Comparison Table
 
@@ -257,7 +257,7 @@ Enterprise (30+ people):
 - Cost: $200-$500/month
 - Setup time: 4-8 hours (integrate with existing tools)
 
-Real-World Metrics: Impact on Productivity
+Real-World Metrics - Impact on Productivity
 
 Studies from teams using async standups:
 
@@ -265,7 +265,7 @@ Studies from teams using async standups:
 - Meeting Time Saved: 5-8 hours/week per team member
 - Blocker Identification: 3x faster resolution (visible to all, solutions crowdsourced)
 - Focus Time: 40% increase (uninterrupted work blocks)
-- Engagement: Varies by tool. Range users report 23% higher satisfaction
+- Engagement - Varies by tool. Range users report 23% higher satisfaction
 
 Migration Checklist
 

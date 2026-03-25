@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Workspace Architecture for Agency-Client Sharing
+Step 1 - Workspace Architecture for Agency-Client Sharing
 
 The first decision involves choosing between a guest-based model or a multi-workspace approach. For most agencies managing multiple clients, the guest invitation model works well because it keeps all client data within your organization's Notion plan while providing appropriate access controls.
 
@@ -59,7 +59,7 @@ Clients/
 
 This structure ensures every client sees only their project while maintaining a clean organizational hierarchy.
 
-Step 2: Permission Models That Actually Work
+Step 2 - Permission Models That Actually Work
 
 Notion's permission system offers granular control, but configuring it correctly from the start prevents headaches later.
 
@@ -93,7 +93,7 @@ Create separate page groups within Notion to manage permissions efficiently:
 
 This grouping makes permission auditing straightforward. Run a monthly review to ensure client access remains appropriate as projects evolve.
 
-Step 3: Essential Pages for Client Workspaces
+Step 3 - Essential Pages for Client Workspaces
 
 Every client-facing Notion workspace should contain a consistent set of pages that establish expectations and provide clear communication channels.
 
@@ -104,18 +104,18 @@ Create a landing page with project essentials visible at a glance:
 ```markdown
 Project Dashboard - [Client Name]
 
-Step 4: Current Sprint
+Step 4 - Current Sprint
 - Sprint Goal: [One sentence objective]
 - End Date: [Date]
 - Team: [@team-members]
 
-Step 5: Quick Links
+Step 5 - Quick Links
 - [Active Issues](link)
 - [Design Files](link)
 - [Staging Environment](link)
 - [Production URL](link)
 
-Step 6: Recent Updates
+Step 6 - Recent Updates
 - [Date] - [Update summary]
 - [Date] - [Update summary]
 ```
@@ -125,7 +125,7 @@ Status Update Templates
 Standardize weekly status updates with a template that clients can expect and that your team can fill quickly:
 
 ```markdown
-Step 7: Week of [Date]
+Step 7 - Week of [Date]
 
 Completed
 - [Task 1]
@@ -154,15 +154,15 @@ Create dedicated pages for different types of feedback:
 
 - Design Review Pages: Embed Figma frames or images with inline commenting enabled
 - Feature Demo Pages: Link to staging environments with structured acceptance criteria
-- Bug Reports: Templates with steps to reproduce, expected vs. actual behavior, and screenshots
+- Bug Reports - Templates with steps to reproduce, expected vs. actual behavior, and screenshots
 
 The key principle is making it dead simple for clients to provide actionable feedback without needing to write lengthy emails.
 
-Step 8: Automate Workspace Management
+Step 8 - Automate Workspace Management
 
 For agencies managing multiple client workspaces, automation saves significant time. Notion's API enables programmatic workspace setup and maintenance.
 
-Script: Client Workspace Bootstrap
+Script - Client Workspace Bootstrap
 
 Here's a Python script that creates a standardized client workspace structure:
 
@@ -223,7 +223,7 @@ Cron job example for weekly status update reminder
 
 This queries your project database for active projects and sends reminders to team leads to update their client status pages.
 
-Step 9: Common Pitfalls and How to Avoid Them
+Step 9 - Common Pitfalls and How to Avoid Them
 
 Over-sharing is worse than under-sharing. Start with minimal permissions and expand as clients demonstrate they need access. You can always add more access later, but removing access after a project ends requires careful cleanup.
 

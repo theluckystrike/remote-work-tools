@@ -119,8 +119,8 @@ Slack supports both SAML and OIDC. For OIDC:
 ```
 Slack SSO Configuration:
 IDP URL: https://your-idp.com/sso/saml
-Entity ID: https://slack.com
-ACS URL: https://your-workspace.slack.com/sso/saml
+Entity ID - https://slack.com
+ACS URL - https://your-workspace.slack.com/sso/saml
 ```
 
 Notion Team Spaces
@@ -176,7 +176,7 @@ async def auth_callback(request: Request):
     return {"user": user_info['email'], "authenticated": True}
 ```
 
-For Node.js services, `passport-oidc` and `openid-client` are the standard libraries. The `openid-client` package handles discovery, token validation, and refresh automatically. it is the most production-hardened option in the Node ecosystem.
+For Node.js services, `passport-oidc` and `openid-client` are the standard libraries. The `openid-client` package handles discovery, token validation, and refresh automatically. it is the most production-hardened option in the Node environment.
 
 Security Considerations for Remote Teams
 

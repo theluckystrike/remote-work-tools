@@ -24,7 +24,7 @@ Table of Contents
 - [Integrating with Development Workflow](#integrating-with-development-workflow)
 - [Protecting Your Tracked Deep Work Time](#protecting-your-tracked-deep-work-time)
 - [Analyzing Your Data](#analyzing-your-data)
-- [Advanced: Creating Your Deep Work Dashboard](#advanced-creating-your-deep-work-dashboard)
+- [Advanced - Creating Your Deep Work Dashboard](#advanced-creating-your-deep-work-dashboard)
 - [Weekly Review Process](#weekly-review-process)
 - [Metrics](#metrics)
 - [Patterns Identified](#patterns-identified)
@@ -47,7 +47,7 @@ Create a simple log format that works for your workflow:
 
 ```text
 Deep Work Log - March 2026
-Format: START | END | TASK DESCRIPTION
+Format - START | END | TASK DESCRIPTION
 
 09:00 | 10:30 | API refactoring - authentication module
 10:45 | 12:15 | Database query optimization
@@ -178,7 +178,7 @@ Use platform features to communicate availability:
 Auto-response for deep work periods
 
 I'm currently in a deep work session and may delay responses.
-Expected return: 2:00 PM
+Expected return - 2:00 PM
 
 For urgent issues, contact [backup person].
 ```
@@ -196,7 +196,7 @@ Raw tracking data becomes valuable only when you review it. Set a weekly 15-minu
 
 This review process helps you make incremental improvements. Perhaps you discover that Tuesday mornings are your peak hours, so you reserve them for the most complex debugging tasks.
 
-Advanced: Creating Your Deep Work Dashboard
+Advanced - Creating Your Deep Work Dashboard
 
 Once you have 2-3 weeks of data, build a personal dashboard showing patterns:
 
@@ -278,7 +278,7 @@ Every Friday, spend 15 minutes analyzing your week:
 ```markdown
 Weekly Deep Work Review Template
 
-Week of: [Date]
+Week of - [Date]
 
 Metrics
 - Total deep work hours: ____ (Target: 25)

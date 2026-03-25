@@ -39,9 +39,9 @@ Table of Contents
 - [Rollback Procedure (if needed)](#rollback-procedure-if-needed)
 - [Verification](#verification)
 - [Troubleshooting](#troubleshooting)
-- [Week 1: Environment & Access](#week-1-environment-access)
-- [Week 2: First Feature](#week-2-first-feature)
-- [Week 3-4: Autonomy](#week-3-4-autonomy)
+- [Week 1 - Environment & Access](#week-1-environment-access)
+- [Week 2 - First Feature](#week-2-first-feature)
+- [Week 3-4 - Autonomy](#week-3-4-autonomy)
 - [End of Month Evaluation](#end-of-month-evaluation)
 - [Building Async Decision-Making](#building-async-decision-making)
 - [Maintaining Documentation (The Hardest Part)](#maintaining-documentation-the-hardest-part)
@@ -65,7 +65,7 @@ Core Documentation System Architecture
 
 A three-tier system separates temporary, working, and persistent knowledge:
 
-Tier 1: Slack/Chat Channels (Temporary, 30-day expiry)
+Tier 1 - Slack/Chat Channels (Temporary, 30-day expiry)
 
 Use for quick questions, daily coordination, shipping decisions. Don't assume this information persists.
 
@@ -74,11 +74,11 @@ Use for quick questions, daily coordination, shipping decisions. Don't assume th
 → Thread with 15 replies, decision unclear in 2 weeks
 ```
 
-Tier 2: Living Decision Docs (1-month update cycle)
+Tier 2 - Living Decision Docs (1-month update cycle)
 
 Captured decisions, technical choices, active projects. Lives in a shared drive or wiki, updated during refinement.
 
-Tier 3: Reference Documentation (Permanent, evolving)
+Tier 3 - Reference Documentation (Permanent, evolving)
 
 Setup guides, API specs, architectural decisions, process manuals. Updated alongside code/process changes.
 
@@ -86,7 +86,7 @@ Tool Recommendations by Use Case
 
 Primary Documentation Repository
 
-Notion: Best all-in-one platform for small-to-medium teams (5-50 people)
+Notion - Best all-in-one platform for small-to-medium teams (5-50 people)
 
 ```markdown
 Notion Doc Structure for Remote Teams
@@ -103,11 +103,11 @@ Permissions:
 - Tech lead reviews before publish
 ```
 
-Cost: $10/person/month (or free tier for ≤10 people)
-Strengths: Drag-drop layout, inline databases, integrations with Slack
-Weaknesses: Slower load times at scale (1000+ docs), limited code formatting
+Cost - $10/person/month (or free tier for ≤10 people)
+Strengths - Drag-drop layout, inline databases, integrations with Slack
+Weaknesses - Slower load times at scale (1000+ docs), limited code formatting
 
-For Engineering Teams: GitHub/GitLab Wiki
+For Engineering Teams - GitHub/GitLab Wiki
 
 ```markdown
 /docs/architecture
@@ -127,14 +127,14 @@ docs/
  decisions/ (business logic docs)
 ```
 
-Cost: Free (part of GitHub/GitLab)
-Strengths: Version control, code examples live alongside docs, CI/CD integration
-Weaknesses: Requires git knowledge, steeper learning curve
+Cost - Free (part of GitHub/GitLab)
+Strengths - Version control, code examples live alongside docs, CI/CD integration
+Weaknesses - Requires git knowledge, steeper learning curve
 
-For Knowledge Management: Confluence (Enterprise)
+For Knowledge Management - Confluence (Enterprise)
 
-Cost: $5-10/person/month
-Use when: Your company already uses Jira, need complex permission models, large teams (100+)
+Cost - $5-10/person/month
+Use when - Your company already uses Jira, need complex permission models, large teams (100+)
 
 Documentation Templates
 
@@ -143,7 +143,7 @@ Documentation Templates
 Use this for major technical decisions. One document per decision, kept for historical reference.
 
 ```markdown
-ADR-042: Use GraphQL Instead of REST API
+ADR-042 - Use GraphQL Instead of REST API
 
 Status
 ACCEPTED (2026-03-22)
@@ -177,7 +177,7 @@ Use this template for every decision, store in `/docs/adr/`. Keep them brief (1-
 2. Runbook Template (for operations/deployment)
 
 ```markdown
-Runbook: Deploying Backend Service to Production
+Runbook - Deploying Backend Service to Production
 
 Prerequisites
 - Docker installed locally
@@ -240,9 +240,9 @@ Keep runbooks concise but complete. Include exact commands copy-pasteable into t
 3. Onboarding Checklist Template
 
 ```markdown
-Onboarding: New Engineer
+Onboarding - New Engineer
 
-Week 1: Environment & Access
+Week 1 - Environment & Access
 
 Day 1
 - [ ] Laptop provisioned and configured
@@ -254,11 +254,11 @@ Day 1
 
 Day 2-3
 - [ ] Clone repository and run local setup
-  - Follow: /docs/local-setup.md
+  - Follow - /docs/local-setup.md
   - Buddy pair on first attempt
   - Record any missing steps (update docs)
 - [ ] Deploy to staging environment
-  - Follow: /docs/operations/deploy-staging.md
+  - Follow - /docs/operations/deploy-staging.md
 - [ ] Run test suite locally
   - `npm test` should pass
 - [ ] Read first sprint's ticket descriptions
@@ -268,7 +268,7 @@ Day 4-5
 - [ ] Attend team standup, tech sync
 - [ ] Code review one existing PR (don't merge)
 
-Week 2: First Feature
+Week 2 - First Feature
 
 - [ ] Pick a small feature from backlog
 - [ ] Pair with engineer for 1 hour on design
@@ -277,7 +277,7 @@ Week 2: First Feature
 - [ ] Deploy to staging, test end-to-end
 - [ ] Merge and deploy to production
 
-Week 3-4: Autonomy
+Week 3-4 - Autonomy
 
 - [ ] Work on features independently
 - [ ] Own one small service/module
@@ -360,7 +360,7 @@ Put doc links in code comments and pull requests:
 
 ```javascript
 // Implementation of async batch processing
-// See: /docs/architecture/batch-processing.md
+// See - /docs/architecture/batch-processing.md
 // ADR: /docs/adr/adr-028-batch-job-framework.md
 
 class BatchProcessor {
@@ -374,11 +374,11 @@ When code changes, developers see the doc link and update it.
 
 Real-World Setup Timeline
 
-Week 1: Choose tool, create folder structure, write 5 core docs
-Week 2: Onboard team, establish review process, write runbooks
-Week 3-4: Run parallel (docs + old process), gather feedback, refine templates
-Month 2: Switch primary process to use docs, retire old wiki
-Month 3+: Quarterly reviews, keep cycle going
+Week 1 - Choose tool, create folder structure, write 5 core docs
+Week 2 - Onboard team, establish review process, write runbooks
+Week 3-4 - Run parallel (docs + old process), gather feedback, refine templates
+Month 2 - Switch primary process to use docs, retire old wiki
+Month 3+ - Quarterly reviews, keep cycle going
 
 Common Mistakes to Avoid
 
@@ -400,8 +400,8 @@ const app = new App({ token: process.env.SLACK_BOT_TOKEN });
 
 app.message(/how.*deploy/i, async ({ message, say }) => {
  say(`Found docs about deploying:\n
- • Staging: https://notion.so/deploy-staging
- • Production: https://notion.so/deploy-prod
+ • Staging - https://notion.so/deploy-staging
+ • Production - https://notion.so/deploy-prod
  Ask if you need more help!`);
 });
 

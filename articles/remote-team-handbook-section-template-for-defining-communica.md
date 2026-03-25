@@ -24,7 +24,7 @@ Remote work removes the ambient awareness that office environments provide. When
 
 The solution is not more rules, but clearer agreements. A well-crafted communication section in your team handbook accomplishes three goals: it maps available channels to appropriate use cases, it establishes realistic response time expectations, and it provides escalation paths for urgent situations.
 
-Template: Communication Channels and Response Times
+Template - Communication Channels and Response Times
 
 Copy and adapt the following section for your team handbook:
 

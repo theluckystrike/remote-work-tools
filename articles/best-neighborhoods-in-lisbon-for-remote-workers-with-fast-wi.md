@@ -25,10 +25,10 @@ voice-checked: true
 Table of Contents
 
 - [Why Lisbon Remains a Top Remote Work Destination in 2026](#why-lisbon-remains-a-top-remote-work-destination-in-2026)
-- [Alfama: Historic Charm with Reliable Connections](#alfama-historic-charm-with-reliable-connections)
-- [Principe Real: The Tech Hub Choice](#principe-real-the-tech-hub-choice)
-- [Baixa and Rossio: Central Convenience](#baixa-and-rossio-central-convenience)
-- [Santos: The Up-and-Coming Alternative](#santos-the-up-and-coming-alternative)
+- [Alfama - Historic Charm with Reliable Connections](#alfama-historic-charm-with-reliable-connections)
+- [Principe Real - The Tech Hub Choice](#principe-real-the-tech-hub-choice)
+- [Baixa and Rossio - Central Convenience](#baixa-and-rossio-central-convenience)
+- [Santos - The Up-and-Coming Alternative](#santos-the-up-and-coming-alternative)
 - [Practical Tips for Remote Working in Lisbon](#practical-tips-for-remote-working-in-lisbon)
 - [Additional Neighborhoods Worth Exploring](#additional-neighborhoods-worth-exploring)
 - [Accommodation and Monthly Costs](#accommodation-and-monthly-costs)
@@ -43,11 +43,11 @@ Lisbon has firmly established itself as one of Europe's top destinations for rem
 
 Why Lisbon Remains a Top Remote Work Destination in 2026
 
-Lisbon's appeal for remote workers stems from several factors that have only strengthened over the past year. The Portuguese government continues to support digital nomad infrastructure, with expanded fiber internet coverage across neighborhoods and a growing ecosystem of remote-work-friendly cafes. Average internet speeds in central Lisbon now exceed 300 Mbps for fiber connections, making it comparable to major tech hubs.
+Lisbon's appeal for remote workers stems from several factors that have only strengthened over the past year. The Portuguese government continues to support digital nomad infrastructure, with expanded fiber internet coverage across neighborhoods and a growing environment of remote-work-friendly cafes. Average internet speeds in central Lisbon now exceed 300 Mbps for fiber connections, making it comparable to major tech hubs.
 
 The cost of living remains competitive compared to other Western European capitals. A remote worker can comfortably live in a central neighborhood for €1,500-€2,000 per month, including accommodation, food, and coworking or cafe working expenses. The city's timezone (WET/GMT) aligns well with both European and US business hours, helping collaboration with distributed teams.
 
-Alfama: Historic Charm with Reliable Connections
+Alfama - Historic Charm with Reliable Connections
 
 Alfama, Lisbon's oldest neighborhood, offers a unique blend of historic architecture and modern remote work infrastructure. While the narrow streets evoke centuries of history, fiber internet now reaches most cafes and coworking spaces here. Alfama attracts remote workers who prioritize atmosphere and cultural immersion over proximity to the startup scene.
 
@@ -57,11 +57,11 @@ Best cafes with fast WiFi in Alfama:
 - Fabrica Coffee Roasters. Specialty coffee shop with dedicated workspace area, 150 Mbps speeds, and quiet atmosphere ideal for deep work. Located in lower Alfama near metro.
 - Luz da Cidade. Rooftop cafe with city views, 120+ Mbps connection, seats 8-10 remote workers comfortably. Evening views are exceptional, though afternoon work time is better than morning for power access.
 
-Why work in Alfama: The neighborhood fills with tourists by afternoon but quiets down in mornings and evenings. Local cafes know remote workers and provide good seating arrangements. Accommodation is more affordable than Principe Real while maintaining historic character.
+Why work in Alfama - The neighborhood fills with tourists by afternoon but quiets down in mornings and evenings. Local cafes know remote workers and provide good seating arrangements. Accommodation is more affordable than Principe Real while maintaining historic character.
 
 Alfama works well for remote workers who prefer quieter environments and don't need constant in-person networking. The neighborhood maintains a local feel despite tourism, with authentic Portuguese restaurants and fado houses providing evening entertainment.
 
-Principe Real: The Tech Hub Choice
+Principe Real - The Tech Hub Choice
 
 Principe Real has evolved into Lisbon's primary tech and startup neighborhood. This area attracts remote developers working for international companies, fintech startups, and established tech firms. The concentration of coworking spaces and remote-work-friendly cafes makes it ideal for those who value professional community. Rents are higher here, but the networking opportunities and workspace infrastructure justify the cost for many remote workers.
 
@@ -74,7 +74,7 @@ Top WiFi-friendly spots in Principe Real:
 
 The neighborhood hosts several coworking spaces including Second Home Lisboa and Heden, providing options for those who need dedicated office environments. Principe Real's walkability and proximity to other central neighborhoods make it convenient for exploring the city.
 
-Baixa and Rossio: Central Convenience
+Baixa and Rossio - Central Convenience
 
 Baixa, Lisbon's downtown core, offers maximum convenience with excellent connectivity. The pedestrianized streets house numerous cafes with reliable internet, making this area suitable for remote workers who need to be centrally located.
 
@@ -85,7 +85,7 @@ Recommended spots in Baixa:
 
 Baixa's main advantage is transportation connectivity. Multiple metro lines serve the area, making it easy to commute from other neighborhoods or access the airport. The area does get busy with tourists, so early morning or late afternoon sessions work best for focused work.
 
-Santos: The Up-and-Coming Alternative
+Santos - The Up-and-Coming Alternative
 
 Santos, located south of Baixa along the Tagus river, has emerged as a popular alternative to more crowded neighborhoods. This area attracts creative professionals and remote workers seeking a quieter atmosphere without sacrificing connectivity.
 
@@ -128,33 +128,33 @@ Peak hours at popular cafes run 10am-2pm and 3pm-6pm on weekdays. For guaranteed
 
 Additional Neighborhoods Worth Exploring
 
-Belém: West of central Lisbon, Belém appeals to remote workers seeking cultural immersion with strong WiFi infrastructure. The neighborhood hosts museums, riverside paths, and several quality cafes. Internet speeds reach 150+ Mbps at popular working spots. Belém works best for workers who want cultural activities without downtown crowds.
+Belém - West of central Lisbon, Belém appeals to remote workers seeking cultural immersion with strong WiFi infrastructure. The neighborhood hosts museums, riverside paths, and several quality cafes. Internet speeds reach 150+ Mbps at popular working spots. Belém works best for workers who want cultural activities without downtown crowds.
 
-Alcântara: Emerging creative district south of the city with lower cafe prices and a younger demographic. WiFi availability is good but slightly less consistent than central neighborhoods. Coworking spaces like The Mills are attracting more remote workers. Best for those seeking emerging neighborhood vibes.
+Alcântara - Emerging creative district south of the city with lower cafe prices and a younger demographic. WiFi availability is good but slightly less consistent than central neighborhoods. Coworking spaces like The Mills are attracting more remote workers. Best for those seeking emerging neighborhood vibes.
 
-Parque das Nações: Modern neighborhood built for the 1998 Expo, offering excellent infrastructure and spacious cafes. Less atmospheric than historic neighborhoods but superior WiFi and office amenities. Good for developers who prioritize connectivity over charm.
+Parque das Nações - Modern neighborhood built for the 1998 Expo, offering excellent infrastructure and spacious cafes. Less atmospheric than historic neighborhoods but superior WiFi and office amenities. Good for developers who prioritize connectivity over charm.
 
 Accommodation and Monthly Costs
 
 Remote workers typically budget as follows for sustainable living:
 
-Budget option ($900-1200/month): Shared apartment in Alcântara or Belém, basic neighborhood cafes. Works well for remote workers on tighter budgets willing to embrace shared living.
+Budget option ($900-1200/month) - Shared apartment in Alcântara or Belém, basic neighborhood cafes. Works well for remote workers on tighter budgets willing to embrace shared living.
 
 Mid-range option ($1400-1800/month): Studio or one-bedroom in Principe Real or Santos, mix of coworking (2-3 days/week) and cafes. This is the sweet spot for most single remote workers.
 
 Comfortable option ($1800-2400/month): One-bedroom apartment in central neighborhood with premium coworking access or private apartment with dedicated workspace. Allows full flexibility in work locations.
 
-Luxury option ($2400+/month): Premium apartments in Principe Real with dedicated office space, full-service coworking. Appropriate for teams or executives seeking premium environments.
+Luxury option ($2400+/month) - Premium apartments in Principe Real with dedicated office space, full-service coworking. Appropriate for teams or executives seeking premium environments.
 
 Seasonal Considerations
 
-Spring (March-May): Ideal weather, manageable crowds. Cafes are busy but not overwhelming. Great for testing the city as a remote work base.
+Spring (March-May) - Ideal weather, manageable crowds. Cafes are busy but not overwhelming. Great for testing the city as a remote work base.
 
-Summer (June-August): Tourist season intensifies. Popular cafes become crowded by 11am. Consider shifting to secondary neighborhoods or coworking spaces. Nightlife is excellent, which helps with social connection but may reduce productivity.
+Summer (June-August) - Tourist season intensifies. Popular cafes become crowded by 11am. Consider shifting to secondary neighborhoods or coworking spaces. Nightlife is excellent, which helps with social connection but may reduce productivity.
 
-Fall (September-November): Sweet spot for remote workers. Weather remains pleasant, tourist crowds diminish, cafes return to manageable density. Most remote workers report highest productivity during these months.
+Fall (September-November) - Sweet spot for remote workers. Weather remains pleasant, tourist crowds diminish, cafes return to manageable density. Most remote workers report highest productivity during these months.
 
-Winter (December-February): Fewer tourists, excellent for focused work. Weather is mild by northern standards but gray and cool. Heating costs increase. Good season if you want the city without crowds.
+Winter (December-February) - Fewer tourists, excellent for focused work. Weather is mild by northern standards but gray and cool. Heating costs increase. Good season if you want the city without crowds.
 
 Networking and Remote Worker Community
 
@@ -179,15 +179,15 @@ The visa process takes approximately 4-6 weeks through the Portuguese Immigratio
 
 Accommodation lease considerations: Most Lisbon landlords require 2-3 months deposit. Tourist apartments (Airbnb alternatives) work for 1-3 month stays but cost 30-50% more than long-term leases. Negotiate directly with landlords on lower-cost neighborhoods for better rates.
 
-Banking: Open a local Portuguese bank account (BNI, CGD, or Monzo works for many expats). Bank transfers from abroad are significantly cheaper than currency conversion fees at ATMs. Monthly maintenance fees are rare in Lisbon.
+Banking - Open a local Portuguese bank account (BNI, CGD, or Monzo works for many expats). Bank transfers from abroad are significantly cheaper than currency conversion fees at ATMs. Monthly maintenance fees are rare in Lisbon.
 
 Transportation and Logistics
 
-Public transport: A 30-day metro/bus pass costs €38 and covers unlimited journeys across Lisbon's extensive metro and bus network. Highly recommended for accessing different neighborhoods for cafe work rotation.
+Public transport - A 30-day metro/bus pass costs €38 and covers unlimited journeys across Lisbon's extensive metro and bus network. Highly recommended for accessing different neighborhoods for cafe work rotation.
 
-Scooters and bikes: Lisbon has good bike-sharing infrastructure. Monthly subscriptions around €10-15 for unlimited city mobility. Walking is viable in central neighborhoods, but hills can be challenging for daily commuting.
+Scooters and bikes - Lisbon has good bike-sharing infrastructure. Monthly subscriptions around €10-15 for unlimited city mobility. Walking is viable in central neighborhoods, but hills can be challenging for daily commuting.
 
-Getting to the airport: The metro (red line) connects downtown to Lisbon Airport (Aeroporto Humberto Delgado) in 30 minutes. Cost around €1.50. Uber/Bolt cost €8-15 depending on congestion.
+Getting to the airport - The metro (red line) connects downtown to Lisbon Airport (Aeroporto Humberto Delgado) in 30 minutes. Cost around €1.50. Uber/Bolt cost €8-15 depending on congestion.
 
 Monthly Budget Breakdown for Remote Workers
 
@@ -200,7 +200,7 @@ Realistic monthly expenses for single remote worker:
 - Leisure/entertainment: €100-200
 - Miscellaneous: €50-100
 
-Total sustainable budget: €1,100-1,700 per month in 2026
+Total sustainable budget - €1,100-1,700 per month in 2026
 
 This assumes mid-range neighborhood and regular cafe working (not full coworking). Principle Real is pricier; Alcântara is more affordable. Most remote workers report Lisbon costs 40-50% less than major US/UK cities while offering comparable quality of life.
 
@@ -215,13 +215,13 @@ Test WiFi Quality Before You Start Working
 
 ```bash
 Test WiFi speed from the terminal before settling in to work
-Install: brew install speedtest-cli  or  pip install speedtest-cli
+Install - brew install speedtest-cli  or  pip install speedtest-cli
 
 speedtest-cli --simple
 Expected output:
 Ping: 12.34 ms
-Download: 85.42 Mbit/s
-Upload: 42.18 Mbit/s
+Download - 85.42 Mbit/s
+Upload - 42.18 Mbit/s
 
 Check latency to common dev services (should be < 50ms for smooth work)
 ping -c 5 github.com

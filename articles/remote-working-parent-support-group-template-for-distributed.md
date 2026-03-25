@@ -21,7 +21,7 @@ Building a genuine support network for working parents in distributed teams requ
 Table of Contents
 
 - [Why Remote Parent Support Groups Work](#why-remote-parent-support-groups-work)
-- [Core Template: Slack Channel Structure](#core-template-slack-channel-structure)
+- [Core Template - Slack Channel Structure](#core-template-slack-channel-structure)
 - [Weekly Async Check-In System](#weekly-async-check-in-system)
 - [Monthly Virtual Coffee Format](#monthly-virtual-coffee-format)
 - [Monthly Virtual Coffee Structure](#monthly-virtual-coffee-structure)
@@ -30,7 +30,7 @@ Table of Contents
 - [Handling Sensitive Topics](#handling-sensitive-topics)
 - [Community Guidelines](#community-guidelines)
 - [Metrics for Success](#metrics-for-success)
-- [Template: Emergency Childcare Support Network](#template-emergency-childcare-support-network)
+- [Template - Emergency Childcare Support Network](#template-emergency-childcare-support-network)
 - [How It Works](#how-it-works)
 - [Emergency Scenarios Covered](#emergency-scenarios-covered)
 - [Resources Shared](#resources-shared)
@@ -43,9 +43,9 @@ Table of Contents
 - [Potential Areas for Improvement](#potential-areas-for-improvement)
 - [Integration with Company Culture](#integration-with-company-culture)
 - [Scaling as the Group Grows](#scaling-as-the-group-grows)
-- [Stage 1: Startup (< 30 people)](#stage-1-startup-30-people)
-- [Stage 2: Growth (30-100 people)](#stage-2-growth-30-100-people)
-- [Stage 3: Mature (100+ people)](#stage-3-mature-100-people)
+- [Stage 1 - Startup (< 30 people)](#stage-1-startup-30-people)
+- [Stage 2 - Growth (30-100 people)](#stage-2-growth-30-100-people)
+- [Stage 3 - Mature (100+ people)](#stage-3-mature-100-people)
 
 Why Remote Parent Support Groups Work
 
@@ -53,7 +53,7 @@ Remote working parents face unique challenges that office-based parents rarely e
 
 The key difference between a thriving parent group and a dormant one lies in asynchronous-first design. Unlike in-person groups that rely on synchronous meetings, distributed team parent groups must accommodate nap times, school schedules, and emergency childcare without forcing anyone to choose between their responsibilities.
 
-Core Template: Slack Channel Structure
+Core Template - Slack Channel Structure
 
 Start with a dedicated Slack channel hierarchy that separates different types of engagement:
 
@@ -127,9 +127,9 @@ For synchronous connections, use a rotating "coffee chat" system that doesn't re
 ```markdown
 Monthly Virtual Coffee Structure
 
-Format: 25-minute voice-only call (optional video)
-Size: 3-4 parent pairs (not large groups)
-Rotation: Match parents with similar age children when possible
+Format - 25-minute voice-only call (optional video)
+Size - 3-4 parent pairs (not large groups)
+Rotation - Match parents with similar age children when possible
 
 Suggested Agenda
 - 5 min: Quick round-robin check-ins
@@ -215,7 +215,7 @@ const metrics = {
 
 High participation numbers don't indicate success, genuine support and reduced isolation do. Survey members quarterly about whether the group actually helps them feel more connected.
 
-Template: Emergency Childcare Support Network
+Template - Emergency Childcare Support Network
 
 Build mutual aid into your parent support group:
 
@@ -241,10 +241,10 @@ Resources Shared
 - Colleague handoff examples
 
 Example Conversation
-Parent A: "Daycare closed unexpectedly. Have 2-hour meeting in 30 min. Advice?"
-Parent B: "Our nanny back-up agency [phone]. Can get someone in 1 hour most times."
-Parent C: "If you need to reschedule meeting, use the flexibility framework. I'll help cover if needed."
-Manager: "We can move that meeting. Let me know once you have childcare sorted."
+Parent A - "Daycare closed unexpectedly. Have 2-hour meeting in 30 min. Advice?"
+Parent B - "Our nanny back-up agency [phone]. Can get someone in 1 hour most times."
+Parent C - "If you need to reschedule meeting, use the flexibility framework. I'll help cover if needed."
+Manager - "We can move that meeting. Let me know once you have childcare sorted."
 ```
 
 This turns peer support into practical problem-solving.
@@ -256,9 +256,9 @@ Beyond monthly coffee chats, hold quarterly town halls with management:
 ```markdown
 Quarterly Parent Town Hall
 
-Format: 60-minute Zoom (video optional, voice encouraged)
-Timing: Afternoon slot rotating to accommodate timezones
-Attendees: All working parents, HR, management optional
+Format - 60-minute Zoom (video optional, voice encouraged)
+Timing - Afternoon slot rotating to accommodate timezones
+Attendees - All working parents, HR, management optional
 
 Agenda (60 minutes)
 
@@ -266,7 +266,7 @@ Welcome & Framing (5 min)
 "This is a safe space. Honesty appreciated. What's discussed here stays here."
 
 Hot Topic Discussion (20 min)
-This quarter's topic: [Rotating topics]
+This quarter's topic - [Rotating topics]
 - Q1: Balancing performance expectations with parenting
 - Q2: Dealing with guilt and identity as professional parent
 - Q3: Childcare costs and financial strategies
@@ -275,8 +275,8 @@ This quarter's topic: [Rotating topics]
 Open Q&A (20 min)
 "Any questions about company policies? Flexible work options? Career paths?"
 
-Breakout: Peer Support (15 min)
-Small groups by child age: Toddlers, School-age, Teens, Multiple
+Breakout - Peer Support (15 min)
+Small groups by child age - Toddlers, School-age, Teens, Multiple
 
 Closing (5 min)
 "What was useful? Feedback for next session?"
@@ -299,11 +299,11 @@ Process
 5. Group provides feedback on success
 
 Async Standup Policy
-Problem identified: Parents with kids struggle with 8 AM daily standups
-Solution: Switch to async written updates
-Trial period: 1 month
-Feedback: "Reduced stress, more participation, better notes"
-Outcome: Adopted permanently
+Problem identified - Parents with kids struggle with 8 AM daily standups
+Solution - Switch to async written updates
+Trial period - 1 month
+Feedback - "Reduced stress, more participation, better notes"
+Outcome - Adopted permanently
 
 Potential Areas for Improvement
 - Flexible meeting times
@@ -336,20 +336,20 @@ As your company grows, parent group structures can evolve:
 ```markdown
 Parent Group Scaling Strategy
 
-Stage 1: Startup (< 30 people)
+Stage 1 - Startup (< 30 people)
 - Single Slack channel
 - Monthly virtual coffee
 - Informal mutual aid
 - Manager participates
 
-Stage 2: Growth (30-100 people)
+Stage 2 - Growth (30-100 people)
 - Multi-channel structure
 - Weekly async check-ins
 - Monthly coffee + quarterly town hall
 - Designated parent group lead
 - HR partnership
 
-Stage 3: Mature (100+ people)
+Stage 3 - Mature (100+ people)
 - Separate channels by geography/timezone
 - Multiple recurring social events
 - Quarterly town halls with management

@@ -31,14 +31,14 @@ Table of Contents
 - [Making the Decision](#making-the-decision)
 - [Detailed Feature Comparison](#detailed-feature-comparison)
 - [Implementation Decision Tree](#implementation-decision-tree)
-- [Migration Guide: Switching Between Tools](#migration-guide-switching-between-tools)
-- [Sample Integration: Linear to GitHub](#sample-integration-linear-to-github)
+- [Migration Guide - Switching Between Tools](#migration-guide-switching-between-tools)
+- [Sample Integration - Linear to GitHub](#sample-integration-linear-to-github)
 - [Team Adoption Strategy](#team-adoption-strategy)
-- [Day 1: Announcement](#day-1-announcement)
-- [Days 2-3: Live Training](#days-2-3-live-training)
-- [Days 4-7: Parallel Running](#days-4-7-parallel-running)
-- [Days 8-14: Full Cutover](#days-8-14-full-cutover)
-- [Week 3: Retrospective](#week-3-retrospective)
+- [Day 1 - Announcement](#day-1-announcement)
+- [Days 2-3 - Live Training](#days-2-3-live-training)
+- [Days 4-7 - Parallel Running](#days-4-7-parallel-running)
+- [Days 8-14 - Full Cutover](#days-8-14-full-cutover)
+- [Week 3 - Retrospective](#week-3-retrospective)
 
 Task Management Philosophy
 
@@ -82,7 +82,7 @@ Linear's GitHub integration creates a tight feedback loop:
 - Commit messages with issue IDs link automatically
 - PR descriptions can include Linear issue previews
 
-Here's a typical workflow: You create an issue in Linear, type `l` to create a branch, and Linear generates `feature/auth-token-refresh`. Push the branch, open a PR, and Linear automatically moves the issue to "In Review."
+Here's a typical workflow - You create an issue in Linear, type `l` to create a branch, and Linear generates `feature/auth-token-refresh`. Push the branch, open a PR, and Linear automatically moves the issue to "In Review."
 
 Asana's GitHub integration requires more manual coordination:
 
@@ -112,7 +112,7 @@ jobs:
             const client = asana.Client.create().useAccessToken('${{ secrets.ASANA_TOKEN }}');
             await client.tasks.createTask({
               projects: ['${{ secrets.ASANA_PROJECT_ID }}'],
-              name: 'Release Failed: ${{ github.repository }}',
+              name: 'Release Failed - ${{ github.repository }}',
               notes: '${{ github.event.inputs.error_message }}',
               custom_fields: {
                 '${{ secrets.ASANA_PRIORITY_FIELD }}': 'high'
@@ -172,7 +172,7 @@ Linear enforces opinionated workflows by default. You get states like Backlog, T
 Asana lets you build complex workflows with multiple dimensions:
 
 ```
-Project: Platform Development
+Project - Platform Development
  Section: Backend
     Task: API Rate Limiting
     Task: Database Migration
@@ -219,7 +219,7 @@ For a 10-person development team shipping software, Linear typically wins on dev
 
 However, if your team includes product managers who need custom dashboards, marketing tasks alongside engineering work, or stakeholders who require portfolio views, Asana's flexibility becomes valuable. The additional cost buys organizational options your team might grow into.
 
-Try both with a small pilot: create five real issues in each tool, integrate with your GitHub repo, and run a mock sprint. Your team's actual usage patterns will reveal which tool fits your workflow better than any feature comparison can predict.
+Try both with a small pilot - create five real issues in each tool, integrate with your GitHub repo, and run a mock sprint. Your team's actual usage patterns will reveal which tool fits your workflow better than any feature comparison can predict.
 
 Frequently Asked Questions
 
@@ -302,7 +302,7 @@ Implementation Decision Tree
 Use this flowchart to decide which tool fits your team:
 
 ```
-Start: Choosing between Linear and Asana
+Start - Choosing between Linear and Asana
 
  Question 1: Do you do strict 2-week sprints?
    YES → Lean toward Linear
@@ -335,7 +335,7 @@ Final Recommendation:
 - Asana if: Cross-functional team, portfolio visibility, automation-heavy, needs flexibility
 ```
 
-Migration Guide: Switching Between Tools
+Migration Guide - Switching Between Tools
 
 If you need to move between Linear and Asana:
 
@@ -351,7 +351,7 @@ Asana → JSON export
 1. Use Asana API to bulk export
 2. Or: Use Zapier / IFTTT for ongoing sync during transition
 
-Tool: Linear2Asana (conceptual)
+Tool - Linear2Asana (conceptual)
 python3 << 'MIGRATION_SCRIPT'
 import csv
 import json
@@ -385,7 +385,7 @@ Parallel running period
 5. Archive Linear project after 30 days
 ```
 
-Sample Integration: Linear to GitHub
+Sample Integration - Linear to GitHub
 
 Here's a practical example of Linear's GitHub integration:
 
@@ -394,11 +394,11 @@ Here's a practical example of Linear's GitHub integration:
 Linear issue workflow with GitHub
 
 1. Create issue in Linear
-Title: "Add authentication to API"
-Description: "Users need to authenticate with JWT tokens"
+Title - "Add authentication to API"
+Description - "Users need to authenticate with JWT tokens"
 
 2. Linear suggests: l (keyboard shortcut)
-Automatically creates: feature/add-authentication-to-api
+Automatically creates - feature/add-authentication-to-api
 
 3. Create branch locally
 git checkout -b feature/add-authentication-to-api
@@ -434,13 +434,13 @@ Get your team to actually use the tool you choose:
 ```markdown
 2-Week Adoption Plan
 
-Day 1: Announcement
+Day 1 - Announcement
 - Email team: which tool, why we chose it, benefits
 - Schedule training session
 - Send link to tool documentation
 - Emphasize: "no tool change until full team trained"
 
-Days 2-3: Live Training
+Days 2-3 - Live Training
 - 1-hour session covering:
   - Creating issues
   - Moving issues through workflow
@@ -449,21 +449,21 @@ Days 2-3: Live Training
 - Q&A; record for absent team members
 - Hands-on: create 3 real issues together
 
-Days 4-7: Parallel Running
+Days 4-7 - Parallel Running
 - New issues go in NEW tool
 - Old issues stay in OLD tool
 - Don't migrate history yet
 - Teams: one team per day switches
 - Address blockers daily
 
-Days 8-14: Full Cutover
+Days 8-14 - Full Cutover
 - All new work in new tool
 - Old tool becomes read-only
-- Reassess: anything missing? Add now
+- Reassess - anything missing? Add now
 - Stabilize workflows
 - Plan for ongoing training
 
-Week 3: Retrospective
+Week 3 - Retrospective
 - What's working?
 - What's frustrating?
 - Any missing integrations?

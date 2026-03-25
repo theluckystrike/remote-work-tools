@@ -16,13 +16,13 @@ voice-checked: true
 
 {% raw %}
 
-Remote teams increasingly need collaboration features that AWS CodeCommit cannot fully provide. While CodeCommit served many organizations well, GitHub's pull request workflows, Actions automation, and ecosystem integrations make it a stronger choice for distributed development teams. This guide walks through the migration process with practical commands and configuration examples you can apply immediately.
+Remote teams increasingly need collaboration features that AWS CodeCommit cannot fully provide. While CodeCommit served many organizations well, GitHub's pull request workflows, Actions automation, and environment integrations make it a stronger choice for distributed development teams. This guide walks through the migration process with practical commands and configuration examples you can apply immediately.
 
 Table of Contents
 
 - [Why Remote Teams Choose GitHub Over CodeCommit](#why-remote-teams-choose-github-over-codecommit)
 - [Pre-Migration Preparation](#pre-migration-preparation)
-- [Migration Strategy: Mirror Git Repositories](#migration-strategy-mirror-git-repositories)
+- [Migration Strategy - Mirror Git Repositories](#migration-strategy-mirror-git-repositories)
 - [Updating Developer Workflows](#updating-developer-workflows)
 - [Handling AWS-Specific Integrations](#handling-aws-specific-integrations)
 - [Preserving Code Review History](#preserving-code-review-history)
@@ -57,11 +57,11 @@ Document your existing IAM users and their CodeCommit permissions. You'll need t
 
 Also catalog any AWS services that trigger on CodeCommit events: SNS topics, Lambda functions, or EventBridge rules watching for push events. These integrations break silently if you migrate repositories without updating their source configuration.
 
-Migration Strategy: Mirror Git Repositories
+Migration Strategy - Mirror Git Repositories
 
 The most reliable migration method involves mirroring your entire Git history from CodeCommit to GitHub. This preserves all commits, branches, tags, and commit messages without losing history.
 
-Step 1: Clone CodeCommit Repository Locally
+Step 1 - Clone CodeCommit Repository Locally
 
 First, configure Git to work with CodeCommit credentials. If you're using AWS CLI v2, it handles authentication automatically with the default credential chain.
 
@@ -81,7 +81,7 @@ Clone using GRC format
 git clone codecommit::us-east-1://your-repo-name
 ```
 
-Step 2: Create GitHub Repository
+Step 2 - Create GitHub Repository
 
 Create your target repository on GitHub, either through the web interface or CLI:
 
@@ -92,7 +92,7 @@ gh repo create your-org/your-repo-name --private --source=. --push
 
 For private team repositories, adjust the visibility as needed. GitHub's free organization tier includes unlimited collaborators on private repositories, a significant improvement over CodeCommit's tiered pricing.
 
-Step 3: Push All Branches and Tags
+Step 3 - Push All Branches and Tags
 
 Push your entire repository history to GitHub:
 
@@ -111,7 +111,7 @@ This approach preserves your complete Git history, including all branches that d
 
 For repositories with large binary files in Git history, consider running `git filter-repo` to remove them before migration. Migrating large blobs to GitHub can trigger LFS (Large File Storage) requirements or hit repository size limits.
 
-Step 4: Configure Branch Protection
+Step 4 - Configure Branch Protection
 
 Recreate any branch protection rules you had in CodeCommit. GitHub's branch protection settings provide more granular control:
 

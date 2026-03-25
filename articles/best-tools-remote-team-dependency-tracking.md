@@ -23,7 +23,7 @@ Renovate (Most Powerful, Self-Hostable)
 
 Renovate is the most capable automated dependency updater. It groups updates, understands monorepos, respects your merge schedule, and auto-merges low-risk updates.
 
-Option A: GitHub App (easiest)
+Option A - GitHub App (easiest)
 
 1. Install the [Renovate GitHub App](https://github.com/apps/renovate)
 2. Add `renovate.json` to your repo root:
@@ -70,7 +70,7 @@ Option A: GitHub App (easiest)
 }
 ```
 
-Option B: Self-hosted with Docker
+Option B - Self-hosted with Docker
 
 ```yaml
 docker-compose.yml (for your Renovate runner server)
@@ -138,7 +138,7 @@ Dependabot is built into GitHub, requires no infrastructure, and is sufficient f
 version: 2
 updates:
   # npm dependencies
-  - package-ecosystem: "npm"
+  - package-environment: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -164,7 +164,7 @@ updates:
           - "vitest*"
 
   # Go modules
-  - package-ecosystem: "gomod"
+  - package-environment: "gomod"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -176,7 +176,7 @@ updates:
       - "backend-team"
 
   # Docker base images
-  - package-ecosystem: "docker"
+  - package-environment: "docker"
     directory: "/"
     schedule:
       interval: "monthly"
@@ -185,7 +185,7 @@ updates:
       - "docker"
 
   # Terraform providers
-  - package-ecosystem: "terraform"
+  - package-environment: "terraform"
     directory: "/infra/terraform"
     schedule:
       interval: "monthly"
@@ -194,7 +194,7 @@ updates:
       - "infrastructure"
 
   # GitHub Actions
-  - package-ecosystem: "github-actions"
+  - package-environment: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"

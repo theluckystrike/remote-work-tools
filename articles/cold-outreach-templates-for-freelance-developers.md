@@ -29,7 +29,7 @@ Before exploring templates, understand the four components that make cold outrea
 
 Generic messages get ignored. The templates below follow this framework and convert at significantly higher rates than boilerplate pitches.
 
-Template 1: The Mutual Connection Introduction
+Template 1 - The Mutual Connection Introduction
 
 This template works when you have a shared connection with your prospect. Name-dropping a mutual contact triples your response rates on average.
 
@@ -48,9 +48,9 @@ Would you be open to a 10-minute call next week?
 Best,
 [Your Name]
 
-Why it works: The mutual connection provides social proof. The specific mention of similar companies shows you understand their space. The "no pitch" framing reduces resistance to responding.
+Why it works - The mutual connection provides social proof. The specific mention of similar companies shows you understand their space. The "no pitch" framing reduces resistance to responding.
 
-Template 2: The Problem-Specific Outreach
+Template 2 - The Problem-Specific Outreach
 
 This template targets companies experiencing a known challenge that matches your expertise. Research the company's recent announcements, job postings, or technical blog.
 
@@ -69,13 +69,13 @@ Curious if this is on your radar for Q2?
 Cheers,
 [Your Name]
 
-Why it works: This positions you as a domain expert rather than a generic freelancer. The low-friction offer ("no strings attached") removes the sales pressure. The question at the end invites a response.
+Why it works - This positions you as a domain expert rather than a generic freelancer. The low-friction offer ("no strings attached") removes the sales pressure. The question at the end invites a response.
 
-Template 3: The Portfolio-Based Cold Email
+Template 3 - The Portfolio-Based Cold Email
 
 Use this when approaching companies where your specific skill set is highly relevant. Attach or link to relevant work.
 
-> Subject: [Your Specialty] for [Company]. portfolio examples
+> Subject - [Your Specialty] for [Company]. portfolio examples
 
 Hi [Name],
 
@@ -91,9 +91,9 @@ Are you currently looking for help with [specific deliverable]? I'm available fo
 Best,
 [Your Name]
 
-Why it works: Concrete results speak louder than generic claims. Matching your experience to their current initiatives creates immediate relevance.
+Why it works - Concrete results speak louder than generic claims. Matching your experience to their current initiatives creates immediate relevance.
 
-Template 4: LinkedIn Connection Message
+Template 4 - LinkedIn Connection Message
 
 LinkedIn requires a different tone, shorter and more conversational. Use this for connection requests that lead to longer conversations.
 
@@ -107,9 +107,9 @@ Would you be open to a brief chat?
 
 [Your Name]
 
-Why it works: Commenting on something specific they posted creates immediate personalization. The low-commitment ask ("brief chat") feels less transactional than a sales pitch.
+Why it works - Commenting on something specific they posted creates immediate personalization. The low-commitment ask ("brief chat") feels less transactional than a sales pitch.
 
-Template 5: The Follow-Up Sequence
+Template 5 - The Follow-Up Sequence
 
 Most prospects don't respond to the first message, not because they're uninterested, but because they get busy. A well-timed follow-up captures the 30-40% of leads who convert on subsequent touches.
 
@@ -253,7 +253,7 @@ performance = {
     "question": {"open_rate": 0.12, "reply_rate": 0.03}
 }
 
-Winner: Specificity approach
+Winner - Specificity approach
 ```
 
 Specificity consistently wins because it signals you did research.
@@ -265,26 +265,26 @@ Length Test Results:
 - Medium form (80-120 words): 8.5% reply rate
 - Short form (40-60 words): 6% reply rate
 
-Optimal approach: Medium length with clear structure
+Optimal approach - Medium length with clear structure
 
 Call-to-Action Testing
 
 Different CTAs convert at different rates:
 
 ```
-Test 1: "Would you be open to a 15-minute call?"
-Reply rate: 5.2%
+Test 1 - "Would you be open to a 15-minute call?"
+Reply rate - 5.2%
 
-Test 2: "Are you currently looking for help with [specific skill]?"
-Reply rate: 6.8%
+Test 2 - "Are you currently looking for help with [specific skill]?"
+Reply rate - 6.8%
 
-Test 3: "Would it make sense to grab 15 minutes next week?"
-Reply rate: 7.1%
+Test 3 - "Would it make sense to grab 15 minutes next week?"
+Reply rate - 7.1%
 
-Test 4: "Curious if this is on your radar for Q2?"
-Reply rate: 8.3%
+Test 4 - "Curious if this is on your radar for Q2?"
+Reply rate - 8.3%
 
-Winner: Question-based CTA that shows expertise understanding
+Winner - Question-based CTA that shows expertise understanding
 ```
 
 Outreach Campaign Sequences
@@ -294,22 +294,22 @@ Scale beyond single emails with structured sequences:
 3-Email Sequence Over 14 Days
 
 ```
-Day 0: Initial Email
-Subject: Specific problem + your credential
-Body: Research mention + value prop + question
-CTA: Low-friction ("quick question")
+Day 0 - Initial Email
+Subject - Specific problem + your credential
+Body - Research mention + value prop + question
+CTA - Low-friction ("quick question")
 
-Day 4: Follow-Up 1
-Subject: "Following up on [original subject]"
-Body: Share relevant insight/article they'd care about
-CTA: Reference original ask again
-Tone: Helpful, not pushy
+Day 4 - Follow-Up 1
+Subject - "Following up on [original subject]"
+Body - Share relevant insight/article they'd care about
+CTA - Reference original ask again
+Tone - Helpful, not pushy
 
-Day 10: Final Touch
-Subject: "Last note"
-Body: Share recent company news + comment on it
-CTA: "One final attempt" phrasing
-Tone: Warm, understanding if they're busy
+Day 10 - Final Touch
+Subject - "Last note"
+Body - Share recent company news + comment on it
+CTA - "One final attempt" phrasing
+Tone - Warm, understanding if they're busy
 ```
 
 Implementation:
@@ -342,17 +342,17 @@ Once you get a reply, the next challenge is discussing rates:
 
 Discovery Call Structure
 
-First 5 minutes: Build rapport
+First 5 minutes - Build rapport
 - "How did you get into [their field]?"
 - Comment on their company/work
 - Ask about their current role
 
-Next 15 minutes: Understand their situation
+Next 15 minutes - Understand their situation
 - "What's the biggest challenge you're facing?"
 - "What have you tried so far?"
 - "What would solving this be worth to you?"
 
-Final 5 minutes: Plant the seed
+Final 5 minutes - Plant the seed
 - "I typically work with companies like yours on [your specialization]"
 - "Most projects in this space run $X-Y depending on scope"
 - "Would it make sense to explore this further?"
@@ -360,13 +360,13 @@ Final 5 minutes: Plant the seed
 Handling Price Objections
 
 "That's more expensive than [freelancer on Upwork]"
-Response: "I focus on [your specific value, speed, quality, reliability]. Different value propositions command different rates. Would you like to discuss what you'd get for the investment?"
+Response - "I focus on [your specific value, speed, quality, reliability]. Different value propositions command different rates. Would you like to discuss what you'd get for the investment?"
 
 "We don't have budget right now"
-Response: "No problem. When would be a good time to revisit this? I'm happy to put you on my list for Q3 when budgets reset."
+Response - "No problem. When would be a good time to revisit this? I'm happy to put you on my list for Q3 when budgets reset."
 
 "We're getting quotes from 3 other people"
-Response: "That's smart. What matters most to you in this decision, speed, experience with [your specialty], or something else? That'll help me explain what we bring."
+Response - "That's smart. What matters most to you in this decision, speed, experience with [your specialty], or something else? That'll help me explain what we bring."
 
 Tracking and Optimization Dashboard
 
@@ -409,20 +409,20 @@ Industry-Specific Outreach Angles
 Tailor your approach to your target market:
 
 For SaaS Companies (B2B)
-Focus: Scaling, performance, compliance
-Example angle: "I noticed your recent Series B. Most SaaS companies at your scale are investing in [relevant technical initiative]. I've helped 5 similar companies implement this, happy to share what works."
+Focus - Scaling, performance, compliance
+Example angle - "I noticed your recent Series B. Most SaaS companies at your scale are investing in [relevant technical initiative]. I've helped 5 similar companies implement this, happy to share what works."
 
 For Agencies
-Focus: Capacity, quality, reliability
-Example angle: "Your recent [project wins/client wins]. Saw your team is busy. Many agencies like yours are outsourcing [your specialty] to scale without hiring. Thought I'd reach out."
+Focus - Capacity, quality, reliability
+Example angle - "Your recent [project wins/client wins]. Saw your team is busy. Many agencies like yours are outsourcing [your specialty] to scale without hiring. Thought I'd reach out."
 
 For Startups
-Focus: Speed, cost-effectiveness, agility
-Example angle: "Love what you're building with [their product]. Early-stage teams like yours often need [your specialty] fast. I specialize in rapid delivery for startups, typically complete in [timeframe]."
+Focus - Speed, cost-effectiveness, agility
+Example angle - "Love what you're building with [their product]. Early-stage teams like yours often need [your specialty] fast. I specialize in rapid delivery for startups, typically complete in [timeframe]."
 
 For Enterprises
-Focus: Compliance, security, reliability
-Example angle: "Enterprise teams in [industry] are increasingly [trend]. I've worked with [company names if possible] to implement [solution]. Would love to compare approaches."
+Focus - Compliance, security, reliability
+Example angle - "Enterprise teams in [industry] are increasingly [trend]. I've worked with [company names if possible] to implement [solution]. Would love to compare approaches."
 
 ---
 

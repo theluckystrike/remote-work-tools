@@ -45,7 +45,7 @@ Your HR policies section should cover compensation and payment schedules, paid t
 
 Team norms deserve dedicated coverage. Document your communication norms: which channels to use for which purposes, expected response times, and meeting conventions. Include your async communication standards, what constitutes an urgent message versus something that can wait 24 hours. Document how decisions get made, how conflicts get resolved, and how recognition works in your organization.
 
-A practical example: here's how you might structure communication channel expectations in your handbook:
+A practical example - here's how you might structure communication channel expectations in your handbook:
 
 ```
 Communication Channel Guide
@@ -110,7 +110,7 @@ Pre-Start (2 weeks before arrival)
 - [ ] Manager: Schedule kick-off call for first day
 - [ ] Team: Prepare welcome post for #introductions Slack channel
 
-Week 1: Integration
+Week 1 - Integration
 - [ ] Day 1: IT setup (laptop configuration, VPN, local development setup)
 - [ ] Day 1: Meet Manager (30-min 1:1, discuss expectations)
 - [ ] Day 1: Team introductions (each team member 15-min intro)
@@ -118,14 +118,14 @@ Week 1: Integration
 - [ ] Day 3: First pairing session with assigned mentor
 - [ ] Day 5: First standup participation (async or sync depending on team)
 
-Month 1: Depth
+Month 1 - Depth
 - [ ] Week 2: First pull request (with hands-on code review)
 - [ ] Week 2: Architecture deep detailed look (system design overview)
 - [ ] Week 3: First project assignment (low-risk, well-defined scope)
 - [ ] Week 4: Formal check-in with manager (30 min, feedback exchange)
 - [ ] Week 4: Update your Notion profile (bio, team, interests)
 
-Quarter 1: Independence
+Quarter 1 - Independence
 - [ ] Week 5: Set 90-day goals with manager
 - [ ] Week 6: Independent project assignment (medium complexity)
 - [ ] Week 8: Mid-quarter check-in (progress on goals)
@@ -217,20 +217,20 @@ Implementation Strategy
 
 Building a handbook takes iteration. Start with your minimum viable handbook covering the essentials: remote work policy, communication norms, and onboarding basics. Add sections incrementally as your team identifies gaps.
 
-Phase 1 (Week 1): Create the template structure above, fill in only these sections:
+Phase 1 (Week 1) - Create the template structure above, fill in only these sections:
 - Quick Start for New Hires
 - Remote Work Policy (basics)
 - Team Norms (communication standards)
 - Tools & Systems (essential tools only)
 - FAQ
 
-Phase 2 (Weeks 2-4): Expand to full detail:
+Phase 2 (Weeks 2-4) - Expand to full detail:
 - Add HR & Benefits section with actual policies
 - Develop complete Onboarding Process
 - Create Team Directory database
 - Document Decision-Making process
 
-Phase 3 (Month 2+): Refine based on team feedback:
+Phase 3 (Month 2+) - Refine based on team feedback:
 - Add Processes & Workflows as you identify gaps
 - Develop Troubleshooting section based on common questions
 - Optimize Quick Start guide based on new hire feedback
@@ -254,7 +254,7 @@ Annually (2-3 hours):
 - Integrate all policy changes from past year
 - Reorganize based on new team structures
 
-Owner responsibility: Designate one person as handbook owner (rotates quarterly). Include a changelog page so team members can see recent updates. Set Notion alerts for page updates so key stakeholders stay informed.
+Owner responsibility - Designate one person as handbook owner (rotates quarterly). Include a changelog page so team members can see recent updates. Set Notion alerts for page updates so key stakeholders stay informed.
 
 Making Your Handbook Searchable and Usable
 

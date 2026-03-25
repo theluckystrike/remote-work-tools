@@ -72,7 +72,7 @@ Most mesh systems include QoS settings. Prioritize video conferencing traffic:
 
 ```bash
 Example QoS rule structure (system-dependent)
-Priority: Video Calls > Streaming > General Browsing > Downloads
+Priority - Video Calls > Streaming > General Browsing > Downloads
 ```
 
 Access your mesh system's admin panel and enable traffic prioritization for Zoom, Google Meet, Microsoft Teams, and similar applications. This ensures bandwidth allocation when multiple devices compete.
@@ -169,7 +169,7 @@ Specific Product Recommendations for 2026
 
 ASUS AXE7350 (WiFi 6E)
 
-Best for: Power users needing 6GHz band access
+Best for - Power users needing 6GHz band access
 
 The ASUS AXE7350 brings WiFi 6E to the home office with native 6GHz support, providing an entirely uncongested band for video calls. Tri-band design dedicates 5GHz-2 for backhaul, isolating that traffic from your primary network. QoS implementation exceeds most competitors, with granular application-level prioritization.
 
@@ -180,14 +180,14 @@ ASUS AXE7350 Specifications:
 - 4K QAM and 160MHz channels
 - Wired backhaul support
 - Advanced QoS with app-level controls
-Price: $350-400
+Price - $350-400
 ```
 
-The trade-off: higher cost and more complex configuration. Best for developers comfortable optimizing networking details.
+The trade-off - higher cost and more complex configuration. Best for developers comfortable optimizing networking details.
 
 Netgear Orbi 970 (Premium)
 
-Best for: Large homes requiring 3+ nodes
+Best for - Large homes requiring 3+ nodes
 
 The Orbi 970 delivers enterprise-grade mesh with dedicated 5GHz backhaul, management features, and excellent coverage in large spaces. Strong QoS implementation and the ability to create guest networks with separate bandwidth limits make it ideal for shared housing.
 
@@ -198,14 +198,14 @@ Netgear Orbi 970 Specifications:
 - 42 connected devices per router
 - Mobile app and web dashboard
 - Professional management console
-Price: $400-500 (3-pack)
+Price - $400-500 (3-pack)
 ```
 
-The trade-off: premium pricing and overkill for apartments. Best for homes over 3,500 square feet or heavy multi-user environments.
+The trade-off - premium pricing and overkill for apartments. Best for homes over 3,500 square feet or heavy multi-user environments.
 
 Eero Pro 6E
 
-Best for: Balanced performance and ease of use
+Best for - Balanced performance and ease of use
 
 Eero Pro 6E delivers strong performance with minimal configuration complexity. The Eero app guides setup with visual placement recommendations, making it accessible to non-technical users while offering adequate QoS for video calls.
 
@@ -216,14 +216,14 @@ Eero Pro 6E Specifications:
 - Dedicated backhaul band
 - Thread border router integration
 - Automatic updates and channel optimization
-Price: $300-350 per node
+Price - $300-350 per node
 ```
 
-The trade-off: less granular QoS controls than enterprise systems. Best for users prioritizing simplicity and reliability over fine-tuned optimization.
+The trade-off - less granular QoS controls than enterprise systems. Best for users prioritizing simplicity and reliability over fine-tuned optimization.
 
 TP-Link Deco XE200 (Budget Option)
 
-Best for: Remote workers on limited budgets
+Best for - Remote workers on limited budgets
 
 The Deco XE200 delivers solid WiFi 6 performance at $120 per node, making whole-home coverage achievable without premium pricing. While it lacks 6GHz, the dual 5GHz bands and capable QoS handle video calls smoothly.
 
@@ -234,10 +234,10 @@ TP-Link Deco XE200 Specifications:
 - Dual 5GHz bands for flexible backhaul
 - Sufficient QoS for home office use
 - Mobile app control
-Price: $120-140 per node ($300+ for 3-pack)
+Price - $120-140 per node ($300+ for 3-pack)
 ```
 
-The trade-off: lower throughput than premium options and simpler processor. Best for users whose primary need is stable video calls rather than maximum performance.
+The trade-off - lower throughput than premium options and simpler processor. Best for users whose primary need is stable video calls rather than maximum performance.
 
 Installation and Optimization Workflows
 
@@ -285,11 +285,11 @@ for node in "node1_ip" "node2_ip" "node3_ip"; do
 done
 
 Test throughput from each location
-Using iperf3: iperf3 -c server_ip -R
+Using iperf3 - iperf3 -c server_ip -R
 iperf3 -c 192.168.1.1 -R
 
 Run speed tests from near each node
-Using speedtest-cli: pip install speedtest-cli
+Using speedtest-cli - pip install speedtest-cli
 speedtest-cli
 ```
 
@@ -307,7 +307,7 @@ Disable band steering temporarily to observe which node devices prefer
 Re-enable band steering in router admin panel
 
 Test signal strength from each node
-Expected RSSI at 30 feet: -45 to -55 dBm (acceptable), -70+ dBm (marginal)
+Expected RSSI at 30 feet - -45 to -55 dBm (acceptable), -70+ dBm (marginal)
 airport -I  # Shows current connection info on macOS
 ```
 
@@ -324,7 +324,7 @@ High latency suggests:
 - Node placed too far apart
 - Obstructions blocking line of sight
 
-Solution: Reposition nodes closer or enable wired backhaul
+Solution - Reposition nodes closer or enable wired backhaul
 ```
 
 For developers and power users, prioritize systems with wired backhaul options, strong QoS controls, and WiFi 6 support. Place nodes thoughtfully, optimize your channel selection, and hardwire critical devices when possible.

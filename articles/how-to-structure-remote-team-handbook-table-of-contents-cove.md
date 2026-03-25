@@ -23,9 +23,9 @@ Before examining specific sections, apply three foundational principles:
 
 Accessibility over comprehensiveness: Every policy should be findable within three clicks from the handbook's main page. Remote teams span multiple time zones, so employees cannot simply walk to a colleague's desk for quick answers.
 
-Living documentation: Structure sections for easy updates. Policies change as teams evolve. A rigid hierarchy makes maintenance painful and leads to outdated information.
+Living documentation - Structure sections for easy updates. Policies change as teams evolve. A rigid hierarchy makes maintenance painful and leads to outdated information.
 
-Actionable content: Policies should answer "what do I do when..." rather than providing vague guidance. Remote work creates novel situations daily, your handbook must address them explicitly.
+Actionable content - Policies should answer "what do I do when..." rather than providing vague guidance. Remote work creates novel situations daily, your handbook must address them explicitly.
 
 Recommended Table of Contents Structure
 
@@ -157,7 +157,7 @@ Provide setup scripts or configuration management links for developer onboarding
 ```bash
 #!/bin/bash
 Development environment setup script
-Run: curl -sL company.com/setup.sh | bash
+Run - curl -sL company.com/setup.sh | bash
 
 git clone git@github.com:company/main-repo.git
 cd main-repo
@@ -170,11 +170,11 @@ Customization for Team Size
 
 Adjust your handbook depth based on team size:
 
-Small teams (2-10 members): Focus heavily on communication norms and security. Smaller teams need less bureaucracy but more explicit coordination mechanisms.
+Small teams (2-10 members) - Focus heavily on communication norms and security. Smaller teams need less bureaucracy but more explicit coordination mechanisms.
 
-Mid-size teams (11-50): Add formal performance review processes and cross-team coordination sections. Document decision-making frameworks as tribal knowledge becomes insufficient.
+Mid-size teams (11-50) - Add formal performance review processes and cross-team coordination sections. Document decision-making frameworks as tribal knowledge becomes insufficient.
 
-Large organizations (50+): Include governance structures, department-specific policies, and legal/compliance sections. Consider separate handbooks for different regions due to employment law variations.
+Large organizations (50+) - Include governance structures, department-specific policies, and legal/compliance sections. Consider separate handbooks for different regions due to employment law variations.
 
 Maintenance and Versioning
 
@@ -207,7 +207,7 @@ Popular platforms for remote team handbooks include:
 
 - Notion: Best for flexible, database-driven handbooks with search functionality
 - GitBook: Ideal for developer-focused teams that want version control integration
-- Confluence: Suitable for organizations already in the Atlassian ecosystem
+- Confluence: Suitable for organizations already in the Atlassian environment
 - Slite: Great for async-first teams wanting simple documentation
 
 Choose platforms that support granular permissions, as some sections (compensation, performance reviews) require restricted access.

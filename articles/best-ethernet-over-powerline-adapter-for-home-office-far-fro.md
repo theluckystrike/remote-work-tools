@@ -174,14 +174,14 @@ ping -c 100 [ip-address]
 Look for latency under 10ms and consistent values
 ```
 
-Normal powerline latency: 5-20ms (acceptable for remote work)
-Poor powerline installation: 50-100ms (problematic for real-time work)
+Normal powerline latency - 5-20ms (acceptable for remote work)
+Poor powerline installation - 50-100ms (problematic for real-time work)
 
 If testing reveals poor performance, try different outlet pairs before abandoning powerline entirely.
 
 Troubleshooting Common Issues
 
-Adapters won't pair: Verify both adapters are on the same electrical circuit. In older homes with separate panels, try running a longer ethernet cable to a central location instead.
+Adapters won't pair - Verify both adapters are on the same electrical circuit. In older homes with separate panels, try running a longer ethernet cable to a central location instead.
 
 Slow actual speeds (below 100 Mbps):
 1. Move adapters to different outlets (test each pair)
@@ -189,9 +189,9 @@ Slow actual speeds (below 100 Mbps):
 3. Plug directly into wall outlets, avoid power strips
 4. Update firmware to latest version
 
-Intermittent connection drops: Often caused by electrical noise from appliances. Document when drops occur and correlate with appliance usage. Moving outlets away from microwave, refrigerator, or other noise sources often solves this.
+Intermittent connection drops - Often caused by electrical noise from appliances. Document when drops occur and correlate with appliance usage. Moving outlets away from microwave, refrigerator, or other noise sources often solves this.
 
-Security concerns: Apartment or condo residents should use the pairing button to establish encrypted connection, preventing neighbors from accessing your network through shared electrical circuits.
+Security concerns - Apartment or condo residents should use the pairing button to establish encrypted connection, preventing neighbors from accessing your network through shared electrical circuits.
 
 Installation Checklist and Best Practices
 
@@ -226,14 +226,14 @@ Advanced Troubleshooting Techniques
 
 If your initial setup underperforms, systematic testing helps diagnose the issue:
 
-Circuit identification: To confirm adapters are on the same circuit:
+Circuit identification - To confirm adapters are on the same circuit:
 ```bash
 Locate electrical panel and note breaker positions
 Both outlets should be protected by breakers on same panel
 If different panels, you need coupling filters or alternative solution
 ```
 
-Outlet quality assessment: Some outlets provide better signal transmission:
+Outlet quality assessment - Some outlets provide better signal transmission:
 ```bash
 #!/bin/bash
 Test multiple outlets sequentially
@@ -244,7 +244,7 @@ for outlet in {1..6}; do
 done
 ```
 
-Noise source mapping: Create a spreadsheet correlating connection problems with appliance use:
+Noise source mapping - Create a spreadsheet correlating connection problems with appliance use:
 
 | Time | Appliance Turned On | Speed Drop | Latency Spike |
 |------|-------------------|------------|----------------|

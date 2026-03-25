@@ -45,13 +45,13 @@ Core Capabilities for Knowledge Base Search
 
 The best knowledge base search tools for remote teams share several critical capabilities:
 
-Cross-platform indexing: The ability to connect to multiple documentation sources and maintain synchronized indexes. Look for platforms that support OAuth integration with major providers and webhook-based updates for real-time indexing.
+Cross-platform indexing - The ability to connect to multiple documentation sources and maintain synchronized indexes. Look for platforms that support OAuth integration with major providers and webhook-based updates for real-time indexing.
 
-Full-text search with filters: Beyond simple keyword matching, powerful search requires filtering by source, date, author, and content type. Boolean operators, phrase matching, and fuzzy search improve result relevance.
+Full-text search with filters - Beyond simple keyword matching, powerful search requires filtering by source, date, author, and content type. Boolean operators, phrase matching, and fuzzy search improve result relevance.
 
-Developer-friendly interfaces: Command-line access, keyboard shortcuts, and API availability matter for power users. Graphical interfaces should support quick navigation and keyboard-driven workflows.
+Developer-friendly interfaces - Command-line access, keyboard shortcuts, and API availability matter for power users. Graphical interfaces should support quick navigation and keyboard-driven workflows.
 
-Security and permissions: Search results must respect source platform permissions. A tool that exposes sensitive information undermines its value.
+Security and permissions - Search results must respect source platform permissions. A tool that exposes sensitive information undermines its value.
 
 Platform Comparisons
 
@@ -86,7 +86,7 @@ Elasticsearch
 For teams with infrastructure expertise, Elasticsearch provides a self-hosted option with complete control over indexing and search behavior. Many organizations already run Elasticsearch for application logging, making it a natural fit for documentation search.
 
 ```yaml
-Elasticsearch: Documentation index mapping
+Elasticsearch - Documentation index mapping
 index:
   settings:
     number_of_shards: 1
@@ -122,7 +122,7 @@ Typesense
 Typesense is an open-source search engine designed for developer friendliness. It offers typo tolerance, faceted search, and geo-search capabilities out of the box. Self-hosting is free, and they offer a managed cloud option.
 
 ```python
-Typesense: Indexing via Python client
+Typesense - Indexing via Python client
 import typesense
 
 client = typesense.Client({
@@ -188,7 +188,7 @@ Track search analytics from day one. Understanding what users search for but don
 
 The best knowledge base search tool ultimately depends on your team's technical capacity and specific requirements. Teams with strong engineering resources benefit from self-hosted solutions. Teams prioritizing speed to value should evaluate managed platforms first.
 
-Federated Search: Connecting Multiple Documentation Sources
+Federated Search - Connecting Multiple Documentation Sources
 
 Most teams don't have one centralized wiki, they have documentation scattered across platforms. Building a federated search layer unifies the experience:
 
@@ -275,11 +275,11 @@ Intake Form Template:
 ```yaml
 Documentation Request
 
-Title: [What should be documented?]
-Why: [Why is this needed? How many people ask about this?]
-Owner: [Who should write this?]
-Deadline: [When do you need it?]
-Related: [Links to similar documentation]
+Title - [What should be documented?]
+Why - [Why is this needed? How many people ask about this?]
+Owner - [Who should write this?]
+Deadline - [When do you need it?]
+Related - [Links to similar documentation]
 Acceptance Criteria:
 - [ ] Process is clearly explained with examples
 - [ ] Includes decision framework if applicable
@@ -297,7 +297,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -309,7 +309,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

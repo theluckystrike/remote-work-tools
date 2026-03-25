@@ -26,7 +26,7 @@ Table of Contents
 - [Sound Quality for Developer Workflows](#sound-quality-for-developer-workflows)
 - [Amplification Guide for High-Impedance Models](#amplification-guide-for-high-impedance-models)
 - [Comfort and Extended Wear](#comfort-and-extended-wear)
-- [Practical Examples: Typical Use Cases](#practical-examples-typical-use-cases)
+- [Practical Examples - Typical Use Cases](#practical-examples-typical-use-cases)
 - [Technical Considerations for Developers](#technical-considerations-for-developers)
 - [Building Your Audio Setup](#building-your-audio-setup)
 - [Making the Decision](#making-the-decision)
@@ -97,7 +97,7 @@ def calculate_power_needed(impedance, desired_db_spl):
 300Ω headphones at 90dB SPL
 power = calculate_power_needed(300, 90)
 print(f"Power needed: {power*1000:.2f}mW")
-Output: ~2.70mW (portable amps easily provide this)
+Output - ~2.70mW (portable amps easily provide this)
 ```
 
 Comfort and Extended Wear
@@ -117,13 +117,13 @@ However, comfort varies significantly between models. Padding materials, clamp f
 
 Most open back models ship with velour ear pads, which provide excellent breathability and lasting comfort. Upgrading to memory foam pads (typically $30-50) extends comfortable wearing sessions by 2-3 hours.
 
-A practical tip: if you wear glasses, the temple arms can create pressure points against your ears with any over-ear headphone. Models like the AKG K702 and Sennheiser HD 599 feature wider ear cup openings that accommodate glasses better. Some developers invest in replacement ear pads with extra padding specifically designed for glasses wearers (search "glasses-friendly headphone pads" online, typically $25-45).
+A practical tip - if you wear glasses, the temple arms can create pressure points against your ears with any over-ear headphone. Models like the AKG K702 and Sennheiser HD 599 feature wider ear cup openings that accommodate glasses better. Some developers invest in replacement ear pads with extra padding specifically designed for glasses wearers (search "glasses-friendly headphone pads" online, typically $25-45).
 
-Practical Examples: Typical Use Cases
+Practical Examples - Typical Use Cases
 
 Consider these scenarios when evaluating whether open back headphones suit your setup:
 
-Scenario A: Dedicated Home Office
+Scenario A - Dedicated Home Office
 You have a private office with solid walls, minimal household noise, and primarily work solo. Open back headphones work excellently here. You get the natural sound quality, comfortable extended wear, and your family or housemates won't be disturbed by your audio.
 
 ```python
@@ -139,10 +139,10 @@ def configure_focus_audio():
     return audio_settings.apply()
 ```
 
-Scenario B: Open Floor Plan or Shared Space
+Scenario B - Open Floor Plan or Shared Space
 Your workspace sits in a common area, or you frequently take calls in varied environments. Closed back headphones or noise-canceling alternatives serve better here. The isolation prevents your audio from disturbing others and helps you focus despite environmental noise.
 
-Scenario C: Hybrid Work Environment
+Scenario C - Hybrid Work Environment
 You split time between home and occasional office visits. Consider having both types available, or choose closed back headphones as your primary with open back as a secondary option for deep work sessions at home.
 
 Technical Considerations for Developers
@@ -217,9 +217,9 @@ If you answered "yes" to 5+ questions, open back headphones will significantly i
 
 Budget Recommendations by Career Stage
 
-Junior Developer (0-2 years): Start with Sennheiser HD 599 ($120-150). Budget includes headphones and a quality replacement cable. No amplifier needed. Total investment: $140.
+Junior Developer (0-2 years) - Start with Sennheiser HD 599 ($120-150). Budget includes headphones and a quality replacement cable. No amplifier needed. Total investment: $140.
 
-Mid-Level Developer (2-5 years): Upgrade to Beyerdynamic DT 990 32Ω ($160-200) or AKG K702 ($180-220). Add a small amplifier like the FiiO A3 ($50) if impedance becomes limiting. Total investment: $240-270.
+Mid-Level Developer (2-5 years) - Upgrade to Beyerdynamic DT 990 32Ω ($160-200) or AKG K702 ($180-220). Add a small amplifier like the FiiO A3 ($50) if impedance becomes limiting. Total investment: $240-270.
 
 Senior Developer/Architect (5+ years): Consider the Sennheiser HD 660S ($400-480) paired with a quality amplifier like the Schiit Magni 3+ ($100). This becomes your "forever headphones", you'll use them for the next decade. Total investment: $500-580.
 

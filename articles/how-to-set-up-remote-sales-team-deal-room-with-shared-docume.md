@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Deal Brief: [Company Name]"
+title: "Deal Brief - [Company Name]"
 description: "A practical guide for developers and power users building deal rooms for remote sales teams using shared documents and collaborative tools"
 date: 2026-03-15
 last_modified_at: 2026-03-15
@@ -50,7 +50,7 @@ The benefits include:
 - No licensing costs beyond your existing tools
 - Developer-friendly with API integrations available
 
-The asymmetry matters too: a fragmented deal is a slow deal. When an account executive needs to pull competitor positioning before a call, they shouldn't be searching through five different Slack threads and a three-week-old email. A well-structured deal room surfaces that information in seconds. That retrieval speed compounds across hundreds of deals per year.
+The asymmetry matters too - a fragmented deal is a slow deal. When an account executive needs to pull competitor positioning before a call, they shouldn't be searching through five different Slack threads and a three-week-old email. A well-structured deal room surfaces that information in seconds. That retrieval speed compounds across hundreds of deals per year.
 
 Choosing Your Deal Room Platform
 
@@ -91,7 +91,7 @@ The Deal Brief Document
 Every deal should have a standardized brief. Here's a template you can adapt:
 
 ```markdown
-Deal Brief: [Company Name]
+Deal Brief - [Company Name]
 
 Build a remote sales deal room using a shared document platform (Google Drive, SharePoint, or Notion) organized by deal stage, populated with collaboration-ready templates for proposals and contracts, and integrated with your CRM via automation. This centralized space keeps all stakeholders aligned and reduces email clutter during complex sales cycles.
 
@@ -148,13 +148,13 @@ Real-Time Collaboration Features
 
 Modern document tools provide features that make deal rooms effective:
 
-Comments and Suggestions: Use inline comments to discuss specific deal points without derailing the main document.
+Comments and Suggestions - Use inline comments to discuss specific deal points without derailing the main document.
 
-Version History: Track who changed what and when. This matters for compliance and understanding deal evolution.
+Version History - Track who changed what and when. This matters for compliance and understanding deal evolution.
 
-Live Cursors: See team members working in real-time during critical negotiation moments.
+Live Cursors - See team members working in real-time during critical negotiation moments.
 
-Suggesting Mode: For proposal documents, require changes to go through suggestion mode rather than direct edits. This preserves the original text and creates a review record, which matters when legal reviews proposal language.
+Suggesting Mode - For proposal documents, require changes to go through suggestion mode rather than direct edits. This preserves the original text and creates a review record, which matters when legal reviews proposal language.
 
 Integration with Your CRM
 
@@ -204,9 +204,9 @@ Async Deal Reviews for Distributed Teams
 
 Remote sales teams in multiple timezones need deal reviews that don't require everyone online simultaneously. Structured async reviews work for both internal deal coaching and external stakeholder management.
 
-Internal coaching reviews: The account executive updates the deal brief, records a 5-minute Loom walkthrough of deal status, and posts it to the team's deal review Slack channel on Monday. Managers and peers comment asynchronously before a brief 20-minute Friday check-in focused only on blockers. This replaces the 60-minute weekly pipeline call that rarely delivers value proportional to its cost.
+Internal coaching reviews - The account executive updates the deal brief, records a 5-minute Loom walkthrough of deal status, and posts it to the team's deal review Slack channel on Monday. Managers and peers comment asynchronously before a brief 20-minute Friday check-in focused only on blockers. This replaces the 60-minute weekly pipeline call that rarely delivers value proportional to its cost.
 
-External stakeholder updates: Create a view-only version of the deal room for the prospect's internal champion. When the champion needs to brief their CFO, they share a polished one-pager drawn from the deal room rather than forwarding internal sales notes. This positions the sales team as organized and transparent while keeping detailed internal notes private.
+External stakeholder updates - Create a view-only version of the deal room for the prospect's internal champion. When the champion needs to brief their CFO, they share a polished one-pager drawn from the deal room rather than forwarding internal sales notes. This positions the sales team as organized and transparent while keeping detailed internal notes private.
 
 Best Practices for Deal Room Success
 

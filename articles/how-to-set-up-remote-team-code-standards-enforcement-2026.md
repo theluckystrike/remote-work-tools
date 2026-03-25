@@ -25,19 +25,19 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Code Standards in Distributed Teams
+Step 1 - Code Standards in Distributed Teams
 
 Distributed teams produce inconsistent code. One engineer uses 2-space indentation, another 4-space. One prefers functional style, another object-oriented. Without enforcement, code reviews become style arguments instead of substance discussions.
 
 Effective code standards are:
-- Automated: No human discussion required. Linters and formatters run locally and in CI.
+- Automated - No human discussion required. Linters and formatters run locally and in CI.
 - Non-negotiable: Standards are in the repository, not in people's heads. New developers adopt them immediately.
-- Cheap: Setup once, runs free on every commit.
-- Transparent: Everyone sees what the standards are and why they exist.
+- Cheap - Setup once, runs free on every commit.
+- Transparent - Everyone sees what the standards are and why they exist.
 
 This guide covers the toolchain for distributed teams: pre-commit hooks, linters, formatters, EditorConfig, CI enforcement, and review guidelines.
 
-Step 2: Architecture: Local Enforcement First
+Step 2 - Architecture: Local Enforcement First
 
 The optimal flow:
 
@@ -50,7 +50,7 @@ The optimal flow:
 
 This means most standard violations are caught locally, never pushed. CI is a safety net, not the primary enforcement.
 
-Step 3: EditorConfig: The First Layer
+Step 3 - EditorConfig: The First Layer
 
 EditorConfig is a simple format that tells editors how to format code. Create a `.editorconfig` file in your repo root:
 
@@ -78,15 +78,15 @@ indent_style = tab
 trim_trailing_whitespace = false
 ```
 
-This says: "All files use UTF-8, Unix line endings, final newline. JS files use 2-space indentation. Python uses 4-space. Go uses tabs. Markdown preserves trailing whitespace."
+This says - "All files use UTF-8, Unix line endings, final newline. JS files use 2-space indentation. Python uses 4-space. Go uses tabs. Markdown preserves trailing whitespace."
 
-EditorConfig works in: VS Code (with extension), JetBrains IDEs (native), Sublime, Vim, Emacs, Notepad++.
+EditorConfig works in - VS Code (with extension), JetBrains IDEs (native), Sublime, Vim, Emacs, Notepad++.
 
 When an engineer opens a file, their editor automatically applies these settings. No configuration needed. Indentation just works.
 
-Setup cost: 5 minutes. Benefit: 90% of formatting differences prevented before linting.
+Setup cost - 5 minutes. Benefit - 90% of formatting differences prevented before linting.
 
-Step 4: Prettier: Opinionated Code Formatter
+Step 4 - Prettier: Opinionated Code Formatter
 
 Prettier is the JavaScript/TypeScript formatter. It has no configuration (by design): you use Prettier's opinions.
 
@@ -113,15 +113,15 @@ Add to `package.json`:
 }
 ```
 
-Prettier is opinionated: 2-space indents, semicolons, double quotes, trailing commas in multiline objects. These choices are non-negotiable. No `.prettierrc` config needed (though you can override if truly necessary).
+Prettier is opinionated - 2-space indents, semicolons, double quotes, trailing commas in multiline objects. These choices are non-negotiable. No `.prettierrc` config needed (though you can override if truly necessary).
 
-The power of Prettier: zero arguments about formatting style. You run `prettier --write` once per sprint. All code is consistently formatted. Code reviews never mention indentation again.
+The power of Prettier - zero arguments about formatting style. You run `prettier --write` once per sprint. All code is consistently formatted. Code reviews never mention indentation again.
 
 For distributed teams, this is critical. A Berlin engineer and a San Francisco engineer both run `prettier --write` before committing. Their code formats identically. No review feedback about spacing or bracket placement.
 
-Step 5: ESLint: JavaScript Linting
+Step 5 - ESLint: JavaScript Linting
 
-ESLint catches errors: unused variables, unreachable code, type confusion, security issues.
+ESLint catches errors - unused variables, unreachable code, type confusion, security issues.
 
 Install:
 
@@ -167,7 +167,7 @@ npx eslint . --fix
 
 The `--fix` flag auto-fixes many issues (unused vars removed, `==` changed to `===`). Anything it can't fix requires manual correction.
 
-Step 6: Pylint / Flake8: Python Linting
+Step 6 - Pylint / Flake8: Python Linting
 
 For Python, use Flake8 (syntax/logic errors) + Black (formatter, Python's Prettier).
 
@@ -199,9 +199,9 @@ extend-ignore = E203, W503
 
 Black enforces 88-character line length, 4-space indents, double quotes. Flake8 checks for unused imports, undefined variables, complexity.
 
-Combined: Black formats, Flake8 catches errors.
+Combined - Black formats, Flake8 catches errors.
 
-Step 7: Pre-Commit Hooks: Local Enforcement
+Step 7 - Pre-Commit Hooks: Local Enforcement
 
 Pre-commit hooks run before `git commit`. If they fail, the commit is blocked.
 
@@ -277,7 +277,7 @@ Trim trailing whitespace.....................................................
 This hook suggests to exclude these patterns from the list of files that need
 to be transformed.  Edit `.pre-commit-config.yaml` to add patterns:
   file1.py
-FAILED - hook id: trailing-whitespace
+FAILED - hook id - trailing-whitespace
 ```
 
 The hook fixed the trailing whitespace, but the commit failed. Engineer stages the fixed file and commits again:
@@ -296,7 +296,7 @@ All checks pass, commit succeeds.
 
 For distributed teams, this is essential: no matter your timezone or editor, code meets standards before pushing.
 
-Step 8: CI: Final Enforcement Gate
+Step 8 - CI: Final Enforcement Gate
 
 Pre-commit hooks run locally. But if an engineer skips hooks (git commit --no-verify), code reaches remote without checks.
 
@@ -375,26 +375,26 @@ If any check fails, the PR is marked as failing. The PR cannot be merged until a
 
 This is the final gate. Even if someone skips pre-commit hooks locally, CI catches the violations.
 
-Step 9: Distributed Team Gotchas
+Step 9 - Distributed Team Gotchas
 
-Timezone: When Code Is Reviewed
+Timezone - When Code Is Reviewed
 
 CI runs 24/7, but humans don't. If a Berlin engineer pushes code at 6pm, a San Francisco engineer reviews at 8am next day.
 
 By that time, the Berlin engineer is asleep. They can't fix linting issues immediately. Code sits in review limbo.
 
-Solution: Run linting locally before pushing. Pre-commit hooks enforce this. By the time code reaches review, formatting is correct. Reviews focus on logic.
+Solution - Run linting locally before pushing. Pre-commit hooks enforce this. By the time code reaches review, formatting is correct. Reviews focus on logic.
 
-Onboarding: New Developer Environment
+Onboarding - New Developer Environment
 
 A new developer clones the repo. They run a test and fail unexpectedly.
 
 Why? Their environment is different (Node version 16 vs 18, Python 3.9 vs 3.11).
 
-Solution: Include setup documentation:
+Solution - Include setup documentation:
 
 ```
-Step 10: Development Setup
+Step 10 - Development Setup
 
 1. Clone repo: `git clone ...`
 2. Install dependencies: `npm install` or `pip install -r requirements.txt`
@@ -430,9 +430,9 @@ test:
 
 New developers run `make setup` once. Everything is configured.
 
-Exceptions: When Rules Don't Apply
+Exceptions - When Rules Don't Apply
 
-Sometimes a rule is wrong for a specific file. Example: a test file uses `assert` (normally flagged by some linters as bad practice).
+Sometimes a rule is wrong for a specific file. Example - a test file uses `assert` (normally flagged by some linters as bad practice).
 
 Add rule exceptions:
 
@@ -453,21 +453,21 @@ But exceptions are red flags in code review. If you need to disable a rule, ques
 
 Distribute exceptions sparingly.
 
-Step 11: Code Review Guidelines
+Step 11 - Code Review Guidelines
 
 Code review should not mention style. Pre-commit + CI handle all style.
 
 Code review focuses on:
-- Logic: Does the code solve the problem correctly?
+- Logic - Does the code solve the problem correctly?
 - Edge cases: What happens with null, empty, invalid input?
-- Performance: Will this scale? Any obvious bottlenecks?
-- Security: Any vulnerabilities? SQL injection, XSS, auth bypass?
-- Readability: Variable names clear? Comments explain non-obvious logic?
-- Tests: Are new features tested? Do tests cover edge cases?
+- Performance - Will this scale? Any obvious bottlenecks?
+- Security - Any vulnerabilities? SQL injection, XSS, auth bypass?
+- Readability - Variable names clear? Comments explain non-obvious logic?
+- Tests - Are new features tested? Do tests cover edge cases?
 
 This is what humans should discuss. Style is for machines.
 
-Step 12: Remote Team Success Metrics
+Step 12 - Remote Team Success Metrics
 
 After 2 weeks of enforcement:
 
@@ -479,7 +479,7 @@ After 2 weeks of enforcement:
 
 If CI passes at 95% and code reviews have zero style comments, you've achieved enforcement.
 
-Step 13: Recommendation Matrix
+Step 13 - Recommendation Matrix
 
 Use EditorConfig + Prettier + ESLint for JavaScript teams:
 - Covers formatting, style, and error detection

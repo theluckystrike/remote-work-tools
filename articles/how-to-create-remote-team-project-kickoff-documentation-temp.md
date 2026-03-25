@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Project Kickoff: [Project Name]"
+title: "Project Kickoff - [Project Name]"
 description: "A practical guide for developers and power users building remote project kickoff documentation. Includes templates, stakeholder mapping, and timeline"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -56,13 +56,13 @@ Start with a clear statement of what you're building and why it matters. Include
 ```markdown
 Project Overview
 
-Project Name: Customer Dashboard Redesign
-Business Objective: Reduce customer support tickets by 30% through improved self-service capabilities
+Project Name - Customer Dashboard Redesign
+Business Objective - Reduce customer support tickets by 30% through improved self-service capabilities
 Success Criteria:
 - Page load time under 2 seconds
 - Task completion rate above 85%
 - NPS score improvement of 10 points
-Target Launch: Q2 2026
+Target Launch - Q2 2026
 ```
 
 This section answers the fundamental question: "Why are we doing this?" When team members understand the purpose, they make better decisions independently.
@@ -92,25 +92,25 @@ A visual timeline helps remote teams understand the project cadence. Break the p
 ```markdown
 Timeline and Milestones
 
-Phase 1: Discovery and Planning (Weeks 1-2)
+Phase 1 - Discovery and Planning (Weeks 1-2)
 - Stakeholder interviews completed
 - Technical requirements documented
 - Design mockups approved
 - Milestone: Kickoff sign-off meeting
 
-Phase 2: Development Sprint 1 (Weeks 3-5)
+Phase 2 - Development Sprint 1 (Weeks 3-5)
 - Core infrastructure complete
 - API endpoints finalized
 - Component library established
 - Milestone: Internal demo
 
-Phase 3: Development Sprint 2 (Weeks 6-8)
+Phase 3 - Development Sprint 2 (Weeks 6-8)
 - Feature implementation complete
 - Integration testing underway
 - Client review session
 - Milestone: UAT environment ready
 
-Phase 4: Launch Preparation (Weeks 9-10)
+Phase 4 - Launch Preparation (Weeks 9-10)
 - Performance optimization
 - Documentation complete
 - Training materials prepared
@@ -202,7 +202,7 @@ Example Kickoff Document Structure
 Here's a condensed template you can copy and customize:
 
 ```markdown
-Project Kickoff: [Project Name]
+Project Kickoff - [Project Name]
 
 Executive Summary
 [2-3 sentences describing the project]

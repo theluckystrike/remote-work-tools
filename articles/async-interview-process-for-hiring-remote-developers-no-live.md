@@ -20,17 +20,17 @@ Building an async interview process for hiring remote developers removes the fri
 Table of Contents
 
 - [Why Async Interviews Work for Remote Hiring](#why-async-interviews-work-for-remote-hiring)
-- [Step 1: Design Your Assessment Stages](#step-1-design-your-assessment-stages)
-- [Step 2: Create the Technical Challenge](#step-2-create-the-technical-challenge)
-- [Technical Challenge: API Implementation](#technical-challenge-api-implementation)
-- [Step 3: Build the Code Review Exercise](#step-3-build-the-code-review-exercise)
+- [Step 1 - Design Your Assessment Stages](#step-1-design-your-assessment-stages)
+- [Step 2 - Create the Technical Challenge](#step-2-create-the-technical-challenge)
+- [Technical Challenge - API Implementation](#technical-challenge-api-implementation)
+- [Step 3 - Build the Code Review Exercise](#step-3-build-the-code-review-exercise)
 - [Code Review Exercise](#code-review-exercise)
-- [Step 4: Design the Architectural Discussion](#step-4-design-the-architectural-discussion)
-- [Architectural Discussion: Notification Service](#architectural-discussion-notification-service)
-- [Step 5: Set Clear Evaluation Criteria](#step-5-set-clear-evaluation-criteria)
-- [Step 6: Manage Candidate Communication](#step-6-manage-candidate-communication)
-- [Application Status: Technical Assessment](#application-status-technical-assessment)
-- [Step 7: Handle Edge Cases](#step-7-handle-edge-cases)
+- [Step 4 - Design the Architectural Discussion](#step-4-design-the-architectural-discussion)
+- [Architectural Discussion - Notification Service](#architectural-discussion-notification-service)
+- [Step 5 - Set Clear Evaluation Criteria](#step-5-set-clear-evaluation-criteria)
+- [Step 6 - Manage Candidate Communication](#step-6-manage-candidate-communication)
+- [Application Status - Technical Assessment](#application-status-technical-assessment)
+- [Step 7 - Handle Edge Cases](#step-7-handle-edge-cases)
 - [Practical Tips for Implementation](#practical-tips-for-implementation)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 
@@ -42,32 +42,32 @@ Async interviews flip this model. Candidates receive challenges and submit solut
 
 The key is designing async assessments that actually measure what matters: Can this developer solve problems? Can they communicate their thinking? Do they write clean code?
 
-Step 1: Design Your Assessment Stages
+Step 1 - Design Your Assessment Stages
 
 A complete async interview pipeline typically includes three to four stages:
 
-Stage 1: Application Screening
+Stage 1 - Application Screening
 Evaluate resume, portfolio, and initial questionnaire responses. Look for technical alignment with your stack and culture indicators.
 
-Stage 2: Technical Challenge
+Stage 2 - Technical Challenge
 A practical coding task that simulates real work. Candidates complete it asynchronously within a time window (usually 24-72 hours).
 
-Stage 3: Code Review Exercise
+Stage 3 - Code Review Exercise
 Candidates review a pull request and provide written feedback. This tests their ability to read others' code and communicate improvements.
 
-Stage 4: Architectural Discussion
+Stage 4 - Architectural Discussion
 A written or recorded response to a system design question. Candidates explain their thinking in text or video format.
 
 Skip the live coding interview entirely. These stages provide evaluation without requiring real-time interaction.
 
-Step 2: Create the Technical Challenge
+Step 2 - Create the Technical Challenge
 
 Your technical challenge should reflect actual work candidates will do. Avoid algorithmic puzzles that don't connect to real job duties. Instead, design assessments around your tech stack and common challenges.
 
 For a backend developer role, consider:
 
 ```markdown
-Technical Challenge: API Implementation
+Technical Challenge - API Implementation
 
 Context
 We're building a simplified task management API. Users should be able to create tasks, assign them to projects, and mark them complete.
@@ -91,7 +91,7 @@ This challenge typically takes 2-4 hours. You have 72 hours to complete it.
 
 The challenge should be completable in a few hours, not days. Clear expectations prevent candidates from over-engineering solutions.
 
-Step 3: Build the Code Review Exercise
+Step 3 - Build the Code Review Exercise
 
 Code review ability separates junior developers from senior ones. Test this directly with a structured exercise:
 
@@ -124,17 +124,17 @@ Approval Status:
 - [ ] Approved with minor comments
 - [ ] Request changes
 
-Time expectation: 30-45 minutes.
+Time expectation - 30-45 minutes.
 ```
 
 This exercise reveals how candidates think about code quality, their review communication style, and whether they catch important issues.
 
-Step 4: Design the Architectural Discussion
+Step 4 - Design the Architectural Discussion
 
 System design questions work well in async format. Candidates write or record their response without time pressure:
 
 ```markdown
-Architectural Discussion: Notification Service
+Architectural Discussion - Notification Service
 
 Scenario
 Our application needs to send push notifications, emails, and SMS messages to users. Currently, we call notification services directly from our web application, causing slow response times when third-party services are down.
@@ -152,7 +152,7 @@ Provide a written response (500-1000 words) or a 5-minute video explanation. Inc
 
 This format lets candidates think through trade-offs carefully, producing higher-quality responses than whiteboard discussions under time pressure.
 
-Step 5: Set Clear Evaluation Criteria
+Step 5 - Set Clear Evaluation Criteria
 
 Async reviews risk inconsistency without explicit criteria. Create a rubric your team applies to every candidate:
 
@@ -175,18 +175,18 @@ Code Review Rubric:
 
 Calibrate your team by reviewing the same candidate sample independently, then comparing scores. This improves consistency across reviewers.
 
-Step 6: Manage Candidate Communication
+Step 6 - Manage Candidate Communication
 
 Async processes require clear communication about expectations and timeline:
 
 ```markdown
-Application Status: Technical Assessment
+Application Status - Technical Assessment
 
 Hi [Candidate Name],
 
 Thanks for applying to the Senior Developer position. Your background looks like a strong match, and we'd like to move forward with the next stage.
 
-What's Next: Technical Challenge
+What's Next - Technical Challenge
 
 We've sent you a link to our technical assessment platform. You'll find:
 - A coding challenge taking 2-4 hours
@@ -212,7 +212,7 @@ Best regards,
 
 Set clear expectations upfront. Most candidates appreciate knowing exactly what's expected and when to expect responses.
 
-Step 7: Handle Edge Cases
+Step 7 - Handle Edge Cases
 
 Some candidates will request accommodations. Build flexibility into your process:
 

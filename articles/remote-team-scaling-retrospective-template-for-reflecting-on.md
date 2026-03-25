@@ -20,12 +20,12 @@ Scaling a remote team introduces unique challenges that differ significantly fro
 
 Table of Contents
 
-- [Action Item: Reduce Cross-Timezone Dependencies](#action-item-reduce-cross-timezone-dependencies)
+- [Action Item - Reduce Cross-Timezone Dependencies](#action-item-reduce-cross-timezone-dependencies)
 - [Why Standard Retrospectives Fall Short for Scaling Teams](#why-standard-retrospectives-fall-short-for-scaling-teams)
 - [The Remote Team Scaling Retrospective Framework](#the-remote-team-scaling-retrospective-framework)
 - [Q1 2026 Growth Metrics](#q1-2026-growth-metrics)
 - [Running the Retrospective Async](#running-the-retrospective-async)
-- [Action Item: Reduce Cross-Timezone Dependencies](#action-item-reduce-cross-timezone-dependencies)
+- [Action Item - Reduce Cross-Timezone Dependencies](#action-item-reduce-cross-timezone-dependencies)
 - [Template You Can Copy](#template-you-can-copy)
 - [1. Growth Metrics](#1-growth-metrics)
 - [2. Communication & Information Flow](#2-communication-information-flow)
@@ -38,9 +38,9 @@ Table of Contents
 
 This guide provides a complete retrospective framework specifically designed for remote teams experiencing rapid growth. It includes categories tailored to distributed work challenges, help tips for async environments, and a copy-paste template your team can use immediately.
 
-Action Item: Reduce Cross-Timezone Dependencies
+Action Item - Reduce Cross-Timezone Dependencies
 
-Problem: 133% increase in cross-timezone handoffs caused 2-3 day delays in feature delivery.
+Problem - 133% increase in cross-timezone handoffs caused 2-3 day delays in feature delivery.
 - Let them use it for 2-3 weeks: then gather their honest feedback.
 - Mastering advanced features takes: 1-2 weeks of regular use.
 
@@ -62,7 +62,7 @@ The Remote Team Scaling Retrospective Framework
 
 This template organizes your quarterly reflection into five sections. Each includes targeted prompts that help teams move beyond generic complaints to practical recommendations.
 
-Section 1: Growth Metrics and Headcount Changes
+Section 1 - Growth Metrics and Headcount Changes
 
 Begin by establishing the factual context. Quantitative data grounds the discussion and prevents debates based on perception alone.
 
@@ -88,7 +88,7 @@ Q1 2026 Growth Metrics
 | Cross-timezone handoffs | 12/week | 28/week | +133% |
 ```
 
-Section 2: Communication and Information Flow
+Section 2 - Communication and Information Flow
 
 Remote scaling puts enormous pressure on communication infrastructure. What worked for a small, overlapping team becomes impossible when people work in disconnected time zones.
 
@@ -107,7 +107,7 @@ Common patterns to look for:
 - Knowledge silos forming around senior team members
 - Response times stretching from hours to days
 
-Section 3: Process Evolution and Breakage
+Section 3 - Process Evolution and Breakage
 
 Processes that scale linearly often fail to handle exponential growth. Identify which workflows cracked under pressure.
 
@@ -122,7 +122,7 @@ Prompts to address:
 Example issue:
 > "Our PR review process handled 8 PRs per week fine at 12 people. At 18 people with 15 active PRs weekly, the queue averaged 3 days. This delayed releases and created frustrated handoffs between time zones."
 
-Section 4: Onboarding and Team Composition
+Section 4 - Onboarding and Team Composition
 
 Rapid hiring often means onboarding itself becomes a bottleneck. Evaluate whether new team members are setting up for success.
 
@@ -134,7 +134,7 @@ Prompts to address:
 - How effective was our buddy or mentor system?
 - What would have made recent onboarding smoother?
 
-Section 5: Culture and Connection
+Section 5 - Culture and Connection
 
 Remote teams scale culturally slower than headcount. Without intentional effort, connection degrades as the team grows.
 
@@ -165,11 +165,11 @@ Recommended async format:
 Example action item:
 
 ```markdown
-Action Item: Reduce Cross-Timezone Dependencies
+Action Item - Reduce Cross-Timezone Dependencies
 
-Problem: 133% increase in cross-timezone handoffs caused 2-3 day delays in feature delivery.
+Problem - 133% increase in cross-timezone handoffs caused 2-3 day delays in feature delivery.
 
-Owner: Engineering Manager
+Owner - Engineering Manager
 
 Actions:
 - [ ] Audit current handoff dependencies by end of week 2
@@ -177,7 +177,7 @@ Actions:
 - [ ] Create documentation for timezone-agnostic feature development
 - [ ] Test new process with one team in Q2
 
-Success metric: Reduce average handoff delay from 3 days to 1 day
+Success metric - Reduce average handoff delay from 3 days to 1 day
 ```
 
 Template You Can Copy

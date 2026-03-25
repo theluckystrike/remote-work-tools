@@ -31,7 +31,7 @@ Table of Contents
 - [Investment and Pension Planning for Nomads](#investment-and-pension-planning-for-nomads)
 - [Healthcare and Insurance Compliance](#healthcare-and-insurance-compliance)
 - [Quarterly Compliance Calendar](#quarterly-compliance-calendar)
-- [Professional Tax Help: Cost Benefit](#professional-tax-help-cost-benefit)
+- [Professional Tax Help - Cost Benefit](#professional-tax-help-cost-benefit)
 - [Long-Term Visa Planning Beyond Costa Rica](#long-term-visa-planning-beyond-costa-rica)
 
 This guide covers what remote tech workers need to know about tax obligations under Costa Rica's digital nomad visa framework.
@@ -143,23 +143,23 @@ For developers working as contractors, structuring your business as an LLC or S-
 
 Practical Tax Planning Examples
 
-Example 1: US Developer on Digital Nomad Visa
+Example 1 - US Developer on Digital Nomad Visa
 
-Scenario: Sarah is an US citizen working as a contractor for a Silicon Valley tech company. Annual income: $150,000.
+Scenario - Sarah is an US citizen working as a contractor for a Silicon Valley tech company. Annual income: $150,000.
 
 Tax Analysis:
 - US tax liability: Full $150,000 is taxable
 - Foreign Earned Income Exclusion: Can exclude ~$126,500 (2024), reducing US tax to ~$23,500
 - Costa Rican tax: $0 (foreign income not subject to local tax)
-- Social Security: Still pays 15.3% self-employment tax (~$23,000) unless she qualifies for a totalization agreement
+- Social Security - Still pays 15.3% self-employment tax (~$23,000) unless she qualifies for a totalization agreement
 - FBAR/FATCA: Must report Costa Rican bank accounts if aggregate balance exceeds $10,000
 - Total tax burden: ~$23,500 + $23,000 = $46,500 (approximately 31% of income)
 
-Key optimization: Form 2555 (Foreign Earned Income Exclusion) is essential for reducing US tax burden.
+Key optimization - Form 2555 (Foreign Earned Income Exclusion) is essential for reducing US tax burden.
 
-Example 2: UK Developer on Visa
+Example 2 - UK Developer on Visa
 
-Scenario: James is an UK citizen working remotely for a London agency. Annual income: £100,000 (~$125,000 USD).
+Scenario - James is an UK citizen working remotely for a London agency. Annual income: £100,000 (~$125,000 USD).
 
 Tax Analysis:
 - UK tax liability: Depends on remaining UK ties; non-residents with no UK property typically pay 0% on foreign employment income
@@ -168,11 +168,11 @@ Tax Analysis:
 - HMRC reporting: Must report worldwide income if remaining UK resident for tax purposes
 - Total tax burden: Potentially 0-20% depending on UK residence determination
 
-Key optimization: Establishing clear non-resident status with HMRC prevents double taxation.
+Key optimization - Establishing clear non-resident status with HMRC prevents double taxation.
 
-Example 3: Canadian Developer
+Example 3 - Canadian Developer
 
-Scenario: Maya is a Canadian citizen working as a self-employed contractor. Annual income: CAD $140,000.
+Scenario - Maya is a Canadian citizen working as a self-employed contractor. Annual income: CAD $140,000.
 
 Tax Analysis:
 - Canadian tax liability: Still taxed on worldwide income (Canada taxes residents, not citizens)
@@ -182,13 +182,13 @@ Tax Analysis:
 - Total tax burden: ~30-35% (Canadian rates) plus CPP contributions
 - Optimization: Spend <183 days in Canada to avoid provincial taxes (significant savings for BC/AB residents)
 
-Key optimization: Carefully manage days in Canada; leaving before 183 days saves provincial tax (5-20%).
+Key optimization - Carefully manage days in Canada; leaving before 183 days saves provincial tax (5-20%).
 
 Investment and Pension Planning for Nomads
 
 Costa Rica's visa is designed for temporary residence, not permanent settlement. Tax-efficient nomads plan for their eventual return or next destination. Consider these financial structures:
 
-Defined Benefit Pension Plans: If self-employed in the US, solo 401(k) contributions reduce taxable income:
+Defined Benefit Pension Plans - If self-employed in the US, solo 401(k) contributions reduce taxable income:
 
 ```python
 US Self-Employed Retirement Optimization
@@ -210,7 +210,7 @@ print(f"Reduced taxable income: ${taxable_income_after_401k:,.0f}")
 
 For a $150,000 income, maxing a Solo 401(k) reduces taxable US income to roughly $100,000, saving ~$10,000 in federal tax alone.
 
-Roth Conversions: Digital nomads often drop into lower tax brackets during relocation. Consider Roth conversions when taxable income dips due to visa transition timing.
+Roth Conversions - Digital nomads often drop into lower tax brackets during relocation. Consider Roth conversions when taxable income dips due to visa transition timing.
 
 Healthcare and Insurance Compliance
 
@@ -222,7 +222,7 @@ Insurance Costs (annual estimates):
 - Disability income insurance: $50-150/month
 - Life insurance: $20-50/month (age-dependent)
 
-Total monthly: $300-700 for coverage
+Total monthly - $300-700 for coverage
 
 Many remote workers maintain their home country insurance and add supplemental Costa Rican coverage for local medical needs. This approach costs more but ensures continuity when returning to your home country.
 
@@ -242,7 +242,7 @@ Maintain this calendar to avoid late filings and penalties:
 
 Missing any of these creates penalties and complications with both tax authorities.
 
-Professional Tax Help: Cost Benefit
+Professional Tax Help - Cost Benefit
 
 Hiring a tax professional familiar with digital nomad situations costs $2,000-5,000 annually but often saves more than that through optimization. When evaluating tax professionals:
 

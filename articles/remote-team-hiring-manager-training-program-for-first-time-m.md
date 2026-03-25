@@ -20,15 +20,15 @@ Transitioning from individual contributor to hiring manager in a distributed com
 Table of Contents
 
 - [The Remote Hiring Manager Skill Set](#the-remote-hiring-manager-skill-set)
-- [Step 1: Writing Remote-Friendly Job Descriptions](#step-1-writing-remote-friendly-job-descriptions)
+- [Step 1 - Writing Remote-Friendly Job Descriptions](#step-1-writing-remote-friendly-job-descriptions)
 - [About This Role](#about-this-role)
 - [What We're Looking For](#what-were-looking-for)
 - [Remote Work Expectations](#remote-work-expectations)
 - [How We Hire](#how-we-hire)
-- [Step 2: Building Your Interview Pipeline](#step-2-building-your-interview-pipeline)
-- [Step 3: Coordinating Across Time Zones](#step-3-coordinating-across-time-zones)
-- [Step 4: Evaluating Async Work Samples](#step-4-evaluating-async-work-samples)
-- [Step 5: Managing the Offer Process](#step-5-managing-the-offer-process)
+- [Step 2 - Building Your Interview Pipeline](#step-2-building-your-interview-pipeline)
+- [Step 3 - Coordinating Across Time Zones](#step-3-coordinating-across-time-zones)
+- [Step 4 - Evaluating Async Work Samples](#step-4-evaluating-async-work-samples)
+- [Step 5 - Managing the Offer Process](#step-5-managing-the-offer-process)
 - [Offer Timeline Template](#offer-timeline-template)
 - [Common Pitfalls for First-Time Remote Hiring Managers](#common-pitfalls-for-first-time-remote-hiring-managers)
 - [Building Your Hiring Playbook](#building-your-hiring-playbook)
@@ -40,7 +40,7 @@ Table of Contents
 - [Process](#process)
 - [Sample intro email](#sample-intro-email)
 - [Competitive Compensation for Remote Talent](#competitive-compensation-for-remote-talent)
-- [Retention: The Forgotten Half of Hiring](#retention-the-forgotten-half-of-hiring)
+- [Retention - The Forgotten Half of Hiring](#retention-the-forgotten-half-of-hiring)
 
 The Remote Hiring Manager Skill Set
 
@@ -48,7 +48,7 @@ First-time managers often assume hiring is just about evaluating candidates. In 
 
 The core skills break into four areas: job posting creation, interview coordination, candidate evaluation, and offer management. Each requires specific tools and workflows adapted for remote contexts.
 
-Step 1: Writing Remote-Friendly Job Descriptions
+Step 1 - Writing Remote-Friendly Job Descriptions
 
 Job descriptions for distributed positions must explicitly address remote work expectations. Candidates need clarity about time zone requirements, collaboration tools, and communication expectations before applying.
 
@@ -78,25 +78,25 @@ How We Hire
 
 Replace bracketed sections with position-specific details. Avoid generic language about "excellent communication skills" without explaining what that means in your async context.
 
-Step 2: Building Your Interview Pipeline
+Step 2 - Building Your Interview Pipeline
 
 Remote interviews require more structure than in-person meetings. Without informal office interactions, you need explicit stages that evaluate what matters. A practical four-stage pipeline for technical roles:
 
-Stage 1: Portfolio and Written Response
+Stage 1 - Portfolio and Written Response
 Request candidates submit their best work and answer three questions about their approach. Evaluate clarity of written communication and alignment with role requirements.
 
-Stage 2: Async Technical Assessment
+Stage 2 - Async Technical Assessment
 Use take-home challenges or recorded responses to technical questions. Provide clear instructions and realistic time windows. This stage evaluates problem-solving without performative pressure.
 
-Stage 3: Synchronous Cultural Fit
+Stage 3 - Synchronous Cultural Fit
 One or two live conversations focused on collaboration style, remote work preferences, and career goals. Keep these conversational rather than interrogative.
 
-Stage 4: Team Interaction
+Stage 4 - Team Interaction
 Brief async or live sessions with potential teammates. This helps candidates understand the team and provides team input on hiring decisions.
 
 Document each stage in your team wiki so all interviewers use consistent evaluation criteria.
 
-Step 3: Coordinating Across Time Zones
+Step 3 - Coordinating Across Time Zones
 
 One of the biggest challenges for distributed hiring is scheduling. Here's a practical workflow using calendar tools:
 
@@ -122,7 +122,7 @@ to visualize overlaps before reaching out to candidates
 
 For small teams without specialized tools, block interviewer calendars in their local morning hours, these typically overlap with evening hours in earlier time zones and afternoon in later ones.
 
-Step 4: Evaluating Async Work Samples
+Step 4 - Evaluating Async Work Samples
 
 When candidates complete take-home challenges or submit async responses, use a structured rubric:
 
@@ -135,7 +135,7 @@ When candidates complete take-home challenges or submit async responses, use a s
 
 Score each criterion from 1-4 and calculate weighted totals. This reduces gut-reaction hiring and creates defensible decisions.
 
-Step 5: Managing the Offer Process
+Step 5 - Managing the Offer Process
 
 Remote candidates often need more time to decide than local candidates. They may need to negotiate remote work policies, understand benefits implications, or discuss relocation if your role has location requirements.
 
@@ -144,22 +144,22 @@ Create an offer timeline:
 ```markdown
 Offer Timeline Template
 
-Day 0: Verbal offer presented
+Day 0 - Verbal offer presented
 - Discuss compensation philosophy
 - Explain total rewards (salary, equity, benefits)
 - Allow 48-72 hours for questions
 
-Day 3: Written offer sent
+Day 3 - Written offer sent
 - Formal letter via HR system
 - Include start date proposal
 - Provide specific benefits enrollment information
 
-Day 5-7: Follow-up call
+Day 5-7 - Follow-up call
 - Answer remaining questions
 - Discuss start date flexibility
 - Confirm acceptance
 
-Day 10: Background check initiation
+Day 10 - Background check initiation
 - Explain process duration
 - Provide contact for questions
 ```
@@ -334,7 +334,7 @@ def calculate_salary(base, location):
 
 For distributed teams hiring globally, location-independent compensation is simpler to manage and attracts better talent. The difference in cost is often offset by reduced geographic restrictions on hiring.
 
-Retention: The Forgotten Half of Hiring
+Retention - The Forgotten Half of Hiring
 
 Hiring costs money, but retaining exceptional engineers is what builds value. First-time managers often focus on hiring without thinking through retention.
 
@@ -345,7 +345,7 @@ Early retention signals (first 6 months):
 - Are they receiving positive feedback in code reviews?
 
 6-12 month check-ins:
-Schedule a formal conversation: "How are you settling in? What's working? What could we improve?" Use this data to address issues before they become leaving reasons.
+Schedule a formal conversation - "How are you settling in? What's working? What could we improve?" Use this data to address issues before they become leaving reasons.
 
 Longer-term retention (year 1+):
 - Quarterly career conversations (growth trajectory)

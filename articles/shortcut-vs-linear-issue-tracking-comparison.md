@@ -29,11 +29,11 @@ Table of Contents
 - [Performance and Real-Time Updates](#performance-and-real-time-updates)
 - [Which Should You Choose?](#which-should-you-choose)
 - [Migration Considerations](#migration-considerations)
-- [Real-World Scenario: Which Tool Wins?](#real-world-scenario-which-tool-wins)
+- [Real-World Scenario - Which Tool Wins?](#real-world-scenario-which-tool-wins)
 - [Workflow Comparison: Feature Launch](#workflow-comparison-feature-launch)
-- [Integration Ecosystem](#integration-ecosystem)
+- [Integration environment](#integration-environment)
 - [Long-Term Maintainability](#long-term-maintainability)
-- [Decision Framework: Linear or Shortcut?](#decision-framework-linear-or-shortcut)
+- [Decision Framework - Linear or Shortcut?](#decision-framework-linear-or-shortcut)
 
 Understanding the Core Difference
 
@@ -74,7 +74,7 @@ Shortcut offers a more visual interface with board views, list views, and timeli
 ```
 Creating a story in Shortcut
 Click "Create Story" or use shortcut
-Fill in: Name, Description, Epic, Tasks
+Fill in - Name, Description, Epic, Tasks
 Assign to iteration or milestone
 ```
 
@@ -94,7 +94,7 @@ Linear uses a relatively flat project structure:
 Here's how you might structure a project in Linear:
 
 ```yaml
-Project: Mobile App
+Project - Mobile App
   Team: iOS
   Team: Android
 
@@ -112,7 +112,7 @@ Shortcut's Story-Centric Model
 Shortcut emphasizes a hierarchy built around user stories and epics:
 
 ```yaml
-Epic: User Authentication
+Epic - User Authentication
   Story: As a user, I can log in with email
     Task: Build login form UI
     Task: Implement API endpoint
@@ -120,7 +120,7 @@ Epic: User Authentication
   Story: As a user, I can reset my password
     Task: Password reset flow
 
-Epic: Dark Mode
+Epic - Dark Mode
   Story: As a user, I can toggle dark mode
     Task: Add theme context
     Task: Update all components

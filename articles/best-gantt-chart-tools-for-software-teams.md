@@ -21,16 +21,16 @@ ClickUp is the best Gantt chart tool for most software teams because it combines
 Table of Contents
 
 - [When Gantt Charts Make Sense](#when-gantt-charts-make-sense)
-- [ClickUp: Flexible Timeline Management](#clickup-flexible-timeline-management)
-- [Linear: Speed for Sprint-Adjacent Planning](#linear-speed-for-sprint-adjacent-planning)
-- [Jira: Enterprise Timeline Control](#jira-enterprise-timeline-control)
-- [Asana: Accessible Timeline Planning](#asana-accessible-timeline-planning)
-- [OpenProject: Open-Source Alternative](#openproject-open-source-alternative)
+- [ClickUp - Flexible Timeline Management](#clickup-flexible-timeline-management)
+- [Linear - Speed for Sprint-Adjacent Planning](#linear-speed-for-sprint-adjacent-planning)
+- [Jira - Enterprise Timeline Control](#jira-enterprise-timeline-control)
+- [Asana - Accessible Timeline Planning](#asana-accessible-timeline-planning)
+- [OpenProject - Open-Source Alternative](#openproject-open-source-alternative)
 - [Selecting the Right Tool](#selecting-the-right-tool)
 - [Practical Implementation](#practical-implementation)
-- [Advanced Automation: Syncing External Data Sources](#advanced-automation-syncing-external-data-sources)
+- [Advanced Automation - Syncing External Data Sources](#advanced-automation-syncing-external-data-sources)
 - [Capacity Planning with Gantt Tools](#capacity-planning-with-gantt-tools)
-- [Real-World Scenario: Migrating Between Tools](#real-world-scenario-migrating-between-tools)
+- [Real-World Scenario - Migrating Between Tools](#real-world-scenario-migrating-between-tools)
 
 When Gantt Charts Make Sense
 
@@ -38,7 +38,7 @@ Software teams typically reach for Gantt charts in specific scenarios: coordinat
 
 The real value emerges when tools offer API access, programmatic task creation, and integration with development workflows. Modern Gantt tools connect with GitHub, Jira, and CI/CD systems to keep timelines automatically updated based on actual development progress.
 
-ClickUp: Flexible Timeline Management
+ClickUp - Flexible Timeline Management
 
 ClickUp combines Gantt functionality with project management features. The timeline view displays tasks horizontally, with drag-and-drop adjustment of start and end dates. Dependencies link tasks visually, showing critical path analysis automatically.
 
@@ -73,7 +73,7 @@ ClickUp's automations handle repetitive timeline updates:
 
 The free tier includes Gantt charts with unlimited tasks, making it accessible for startups and side projects.
 
-Linear: Speed for Sprint-Adjacent Planning
+Linear - Speed for Sprint-Adjacent Planning
 
 Linear brings its signature speed to timeline visualization. The timeline view loads instantly and supports keyboard-first navigation. For teams already using Linear for issue tracking, the connection between issues and timeline tasks creates an unified planning experience.
 
@@ -98,7 +98,7 @@ Linear's cycle concept extends naturally to timeline planning. Teams can visuali
 
 Linear works best for teams that prioritize speed and already embrace Linear for issue tracking. The unified workflow reduces context switching significantly.
 
-Jira: Enterprise Timeline Control
+Jira - Enterprise Timeline Control
 
 Jira's Advanced Roadmaps (formerly Structure) provides enterprise-grade Gantt capabilities. Large organizations with multiple teams and complex dependencies find Jira's permission controls and governance features essential.
 
@@ -136,9 +136,9 @@ def create_jira_epic_with_timeline(epic_name, sprint_start, sprint_count):
     return epic_id
 ```
 
-Jira's strength lies in integration with the broader Atlassian ecosystem, Confluence documentation, Bitbucket pipelines, and Opsgenie incident management. Enterprise teams requiring audit trails and sophisticated permission schemes find Jira's infrastructure valuable despite the steeper learning curve.
+Jira's strength lies in integration with the broader Atlassian environment, Confluence documentation, Bitbucket pipelines, and Opsgenie incident management. Enterprise teams requiring audit trails and sophisticated permission schemes find Jira's infrastructure valuable despite the steeper learning curve.
 
-Asana: Accessible Timeline Planning
+Asana - Accessible Timeline Planning
 
 Asana's timeline view balances power with accessibility. Non-technical stakeholders navigate Asana easily, making it suitable for teams with diverse skill levels. The dependency features cover most software project needs, finish-to-start, start-to-start, and custom relationship types.
 
@@ -172,7 +172,7 @@ def schedule_release_milestones(project_id, release_date):
 
 Asana's portfolio-level views let engineering managers see timeline health across multiple projects. The workload chart reveals resource allocation problems before they become critical.
 
-OpenProject: Open-Source Alternative
+OpenProject - Open-Source Alternative
 
 For teams preferring self-hosted solutions, OpenProject provides Gantt functionality without subscription costs. The community edition includes timeline features, task dependencies, and basic reporting.
 
@@ -220,7 +220,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -232,16 +232,16 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
-Advanced Automation: Syncing External Data Sources
+Advanced Automation - Syncing External Data Sources
 
 Modern Gantt tools gain power through integration with version control and CI/CD systems. Rather than manually updating timelines, let deployment events drive progress.
 
 GitHub-Driven Timeline Updates
 
 ```python
-Python: Auto-update Gantt timelines based on GitHub events
+Python - Auto-update Gantt timelines based on GitHub events
 import asyncio
 from github import Github
 from datetime import datetime, timedelta
@@ -372,7 +372,7 @@ CI/CD Pipeline Integration
 Extend automation to deployment pipelines:
 
 ```yaml
-GitHub Actions: Update Gantt timeline on deployment
+GitHub Actions - Update Gantt timeline on deployment
 name: Deploy and Update Timeline
 
 on:
@@ -402,7 +402,7 @@ jobs:
       - name: Update Gantt timeline
         run: |
           curl -X POST https://api.yourtool.com/timeline/update \
-            -H "Authorization: Bearer ${{ secrets.GANTT_API_KEY }}" \
+            -H "Authorization - Bearer ${{ secrets.GANTT_API_KEY }}" \
             -H "Content-Type: application/json" \
             -d '{
               "deployment": "'${{ steps.status.outputs.status }}'",
@@ -434,7 +434,7 @@ Beyond tracking current work, Gantt tools help predict future capacity and ident
 Workload Distribution Analysis
 
 ```python
-Python: Analyze team workload distribution using Gantt data
+Python - Analyze team workload distribution using Gantt data
 import pandas as pd
 from datetime import datetime, timedelta
 
@@ -518,40 +518,40 @@ class WorkloadAnalysis:
 
 This analysis reveals whether timelines are realistic and highlights which team members need support.
 
-Real-World Scenario: Migrating Between Tools
+Real-World Scenario - Migrating Between Tools
 
 Many teams face the challenge of switching Gantt tools. Here's a practical migration path:
 
 Three-Phase Migration Strategy
 
-Phase 1: Parallel Run (2 weeks)
+Phase 1 - Parallel Run (2 weeks)
 - Keep existing tool operational
 - Create new timeline in target tool
 - Copy all future work items (next 3 months)
 - Compare views side-by-side for accuracy
 
-Phase 2: Primary Switch (1 week)
+Phase 2 - Primary Switch (1 week)
 - Team begins scheduling in new tool
 - Updates old tool for compliance/audit only
 - Hold training sessions focused on keyboard shortcuts and workflow differences
 
-Phase 3: Cleanup (ongoing)
+Phase 3 - Cleanup (ongoing)
 - Archive old tool data for historical reference
 - Remove team access from old tool
 - Document custom workflows that migration revealed
 
 ```bash
-Script: Export Gantt data from old tool and import to new
+Script - Export Gantt data from old tool and import to new
 #!/bin/bash
 
 Export from source tool (example: ClickUp)
 curl -X GET https://api.clickup.com/api/v2/team/TEAM_ID/task \
-  -H "Authorization: Bearer CLICKUP_TOKEN" > gantt_export.json
+  -H "Authorization - Bearer CLICKUP_TOKEN" > gantt_export.json
 
 Transform data (tool-specific schema differences)
 python3 transform_export.py gantt_export.json gantt_linear_format.json
 
-Import to target tool (example: Linear)
+Import to target tool (example - Linear)
 curl -X POST https://api.linear.app/graphql \
   -H "Authorization: Bearer LINEAR_TOKEN" \
   -H "Content-Type: application/json" \

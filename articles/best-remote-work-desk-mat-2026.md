@@ -20,15 +20,15 @@ A desk mat transforms your workspace: it protects your desk surface, defines you
 
 Table of Contents
 
-- [The Essentials: What Makes a Quality Desk Mat](#the-essentials-what-makes-a-quality-desk-mat)
-- [Premium Leather: Hermanmiller × Cognac (Recommended)](#premium-leather-hermanmiller-cognac-recommended)
-- [Budget Leather: Logicool (Logitech) Pro Desk Mat](#budget-leather-logicool-logitech-pro-desk-mat)
-- [Extended Cloth: SteelSeries QcK Prism Cloth (Gaming-Grade, Works for Work)](#extended-cloth-steelseries-qck-prism-cloth-gaming-grade-works-for-work)
-- [Minimalist: Bellroy Desk Mat (Aesthetic-First)](#minimalist-bellroy-desk-mat-aesthetic-first)
-- [XL Extended: FULLY Desk Pad (Standing Desk Optimized)](#xl-extended-fully-desk-pad-standing-desk-optimized)
+- [The Essentials - What Makes a Quality Desk Mat](#the-essentials-what-makes-a-quality-desk-mat)
+- [Premium Leather - Hermanmiller × Cognac (Recommended)](#premium-leather-hermanmiller-cognac-recommended)
+- [Budget Leather - Logicool (Logitech) Pro Desk Mat](#budget-leather-logicool-logitech-pro-desk-mat)
+- [Extended Cloth - SteelSeries QcK Prism Cloth (Gaming-Grade, Works for Work)](#extended-cloth-steelseries-qck-prism-cloth-gaming-grade-works-for-work)
+- [Minimalist - Bellroy Desk Mat (Aesthetic-First)](#minimalist-bellroy-desk-mat-aesthetic-first)
+- [XL Extended - FULLY Desk Pad (Standing Desk Optimized)](#xl-extended-fully-desk-pad-standing-desk-optimized)
 - [Comparison Table](#comparison-table)
-- [Sizing Guide: What Width Do You Need?](#sizing-guide-what-width-do-you-need)
-- [Ergonomics: Do You Need a Wrist Rest?](#ergonomics-do-you-need-a-wrist-rest)
+- [Sizing Guide - What Width Do You Need?](#sizing-guide-what-width-do-you-need)
+- [Ergonomics - Do You Need a Wrist Rest?](#ergonomics-do-you-need-a-wrist-rest)
 - [Material Longevity Comparison](#material-longevity-comparison)
 - [Real-World Setup Examples](#real-world-setup-examples)
 - [Maintenance Checklist](#maintenance-checklist)
@@ -38,23 +38,23 @@ Table of Contents
 
 This guide compares desk mats across material, size, price, and durability. Real options, tested against actual workflows.
 
-The Essentials: What Makes a Quality Desk Mat
+The Essentials - What Makes a Quality Desk Mat
 
-Material durability: Leather and felt resist wear; vinyl cracks over time. Genuine leather lasts 5+ years.
+Material durability - Leather and felt resist wear; vinyl cracks over time. Genuine leather lasts 5+ years.
 
-Wrist ergonomics: Mats with subtle wrist support reduce strain. Flat mats are adequate; raised pads are unnecessary.
+Wrist ergonomics - Mats with subtle wrist support reduce strain. Flat mats are adequate; raised pads are unnecessary.
 
-Mouse tracking: Microfiber and polyester cloth surfaces track better than slick leather for optical mice. Laser mice work on any surface.
+Mouse tracking - Microfiber and polyester cloth surfaces track better than slick leather for optical mice. Laser mice work on any surface.
 
-Size matters: Minimum 36" × 18" covers keyboard + mouse. Extended mats (48" × 24"+) accommodate multiple monitors and accessories.
+Size matters - Minimum 36" × 18" covers keyboard + mouse. Extended mats (48" × 24"+) accommodate multiple monitors and accessories.
 
-Edge stitching: Quality mats have reinforced edges. Cheap mats fray within 6 months.
+Edge stitching - Quality mats have reinforced edges. Cheap mats fray within 6 months.
 
-Premium Leather: Hermanmiller × Cognac (Recommended)
+Premium Leather - Hermanmiller × Cognac (Recommended)
 
-Price: $99 (36" × 20") | $129 (48" × 24")
+Price - $99 (36" × 20") | $129 (48" × 24")
 
-Material: Full-grain leather, cognac finish.
+Material - Full-grain leather, cognac finish.
 
 Dimensions Available:
 - 36" × 20" (standard desk)
@@ -71,18 +71,18 @@ Drawbacks:
 - Requires maintenance. Leather dries out in low-humidity environments; occasional conditioning recommended.
 - Slower mouse tracking than cloth (negligible for most users; trackball users won't notice).
 
-Ideal For: Professionals valuing aesthetics and longevity. Design-conscious home offices. Leather pairs well with standing desks and minimal setups.
+Ideal For - Professionals valuing aesthetics and longevity. Design-conscious home offices. Leather pairs well with standing desks and minimal setups.
 
-Lifespan: 5, 7 years with care; 10+ years possible.
+Lifespan - 5, 7 years with care; 10+ years possible.
 
 Best overall. Cognac patina improves with age. Worth the premium.
 ---
 
-Budget Leather: Logicool (Logitech) Pro Desk Mat
+Budget Leather - Logicool (Logitech) Pro Desk Mat
 
-Price: $49 (36" × 16") | $69 (48" × 24")
+Price - $49 (36" × 16") | $69 (48" × 24")
 
-Material: Synthetic leather (PU), dark gray/black.
+Material - Synthetic leather (PU), dark gray/black.
 
 Dimensions:
 - 36" × 16" (compact)
@@ -100,19 +100,19 @@ Drawbacks:
 - Mouse tracking is slower than microfiber for optical mice.
 - Non-replaceable. Disposal is landfill after EOL.
 
-Ideal For: Budget-conscious remote workers. Shared desks. Temporary setups.
+Ideal For - Budget-conscious remote workers. Shared desks. Temporary setups.
 
-Lifespan: 2, 3 years.
+Lifespan - 2, 3 years.
 
 Serviceable but uninspiring. Step up to genuine leather if budget allows.
 
 ---
 
-Extended Cloth: SteelSeries QcK Prism Cloth (Gaming-Grade, Works for Work)
+Extended Cloth - SteelSeries QcK Prism Cloth (Gaming-Grade, Works for Work)
 
-Price: $79 (36" × 18") | $119 (48" × 24")
+Price - $79 (36" × 18") | $119 (48" × 24")
 
-Material: Microfiber cloth (polyester blend), stitched edges.
+Material - Microfiber cloth (polyester blend), stitched edges.
 
 Dimensions:
 - 36" × 18" (standard)
@@ -131,21 +131,21 @@ Drawbacks:
 - Requires periodic washing (cold water, air dry).
 - Wrist support is minimal; recommended only for ergonomic keyboards.
 
-Ideal For: Remote workers with optical mice. Multi-monitor setups. Budget-conscious but durability-focused.
+Ideal For - Remote workers with optical mice. Multi-monitor setups. Budget-conscious but durability-focused.
 
-Lifespan: 2, 3 years.
+Lifespan - 2, 3 years.
 
 Best value extended mat. Gaming pedigree ensures quality. Not as elegant as leather but highly functional.
 
 ---
 
-Minimalist: Bellroy Desk Mat (Aesthetic-First)
+Minimalist - Bellroy Desk Mat (Aesthetic-First)
 
-Price: $125 (36" × 20")
+Price - $125 (36" × 20")
 
-Material: Full-grain leather, natural tan.
+Material - Full-grain leather, natural tan.
 
-Dimensions: 36" × 20" only.
+Dimensions - 36" × 20" only.
 
 Why Consider It:
 - Bellroy is known for minimalism and quality. Their desk mat matches.
@@ -159,21 +159,21 @@ Drawbacks:
 - Premium pricing without functional advantage over Hermanmiller.
 - Requires regular conditioning in dry climates.
 
-Ideal For: Minimalist home offices. Aesthetic-focused professionals. Desk purists.
+Ideal For - Minimalist home offices. Aesthetic-focused professionals. Desk purists.
 
-Lifespan: 5, 7 years.
+Lifespan - 5, 7 years.
 
 Beautiful but niche. Hermanmiller offers similar quality at lower cost.
 
 ---
 
-XL Extended: FULLY Desk Pad (Standing Desk Optimized)
+XL Extended - FULLY Desk Pad (Standing Desk Optimized)
 
-Price: $159 (60" × 30")
+Price - $159 (60" × 30")
 
-Material: Felt (wool-blend), charcoal gray.
+Material - Felt (wool-blend), charcoal gray.
 
-Dimensions: 60" × 30" only (extra-large).
+Dimensions - 60" × 30" only (extra-large).
 
 Why It's Unique:
 - Designed for standing desks. Accommodates dual monitors, keyboard, mouse, and accessories.
@@ -187,9 +187,9 @@ Drawbacks:
 - Mouse tracking is slower (acceptable for trackpads, sub-optimal for optical mice).
 - Removal is difficult. Mat typically stays in place for years.
 
-Ideal For: Standing desk setups. Large workstations. Multi-device workflows.
+Ideal For - Standing desk setups. Large workstations. Multi-device workflows.
 
-Lifespan: 4, 5 years.
+Lifespan - 4, 5 years.
 
 Specialized product. Only recommended if you have 60"+ desk space.
 
@@ -207,19 +207,19 @@ Comparison Table
 
 ---
 
-Sizing Guide: What Width Do You Need?
+Sizing Guide - What Width Do You Need?
 
-Standard (36" wide): Single monitor, keyboard on mat, mouse on mat. Tight if you use two keyboards or external trackpad.
+Standard (36" wide) - Single monitor, keyboard on mat, mouse on mat. Tight if you use two keyboards or external trackpad.
 
-Extended (48" wide): Dual monitors, keyboard, mouse, notepad, pencil holder. Comfortable for most setups.
+Extended (48" wide) - Dual monitors, keyboard, mouse, notepad, pencil holder. Comfortable for most setups.
 
-Extra-Large (60" wide): Triple monitors, standing desk, multiple peripherals. Overkill for most remote workers; useful for video editing, CAD, data analysis.
+Extra-Large (60" wide) - Triple monitors, standing desk, multiple peripherals. Overkill for most remote workers; useful for video editing, CAD, data analysis.
 
-Depth recommendation: 24" is standard. 20" is tight for deep monitors.
+Depth recommendation - 24" is standard. 20" is tight for deep monitors.
 
 ---
 
-Ergonomics: Do You Need a Wrist Rest?
+Ergonomics - Do You Need a Wrist Rest?
 
 Modern desk mats don't include integrated wrist rests. That's intentional.
 
@@ -248,29 +248,29 @@ Material Longevity Comparison
 
 Real-World Setup Examples
 
-Scenario 1: Minimalist Home Office
+Scenario 1 - Minimalist Home Office
 - Desk: 48" × 24" (IKEA Bekant or equivalent)
 - Mat: Bellroy Desk Mat (36" × 20", leather)
 - Cost: $125
-- Why: Aesthetic, low-friction, matches minimalist desk.
+- Why - Aesthetic, low-friction, matches minimalist desk.
 
-Scenario 2: Multi-Monitor Dev Workspace
+Scenario 2 - Multi-Monitor Dev Workspace
 - Desk: 72" dual-surface standing desk
 - Mat: SteelSeries QcK Prism Cloth (48" × 24")
 - Cost: $119
-- Why: Extended size, excellent mouse tracking for optical mice, water-resistant for spills.
+- Why - Extended size, excellent mouse tracking for optical mice, water-resistant for spills.
 
-Scenario 3: Executive Home Office
+Scenario 3 - Executive Home Office
 - Desk: 60" × 30" premium hardwood
 - Mat: Hermanmiller Cognac (48" × 24")
 - Cost: $129
-- Why: Premium aesthetics, patina improves desk appearance, 5+ year lifespan justifies cost.
+- Why - Premium aesthetics, patina improves desk appearance, 5+ year lifespan justifies cost.
 
-Scenario 4: Budget-Conscious Contractor
+Scenario 4 - Budget-Conscious Contractor
 - Desk: 48" folding desk (temporary setup)
 - Mat: Logicool Pro (36" × 16")
 - Cost: $49
-- Why: Affordable, non-slip base, acceptable durability for 2, 3 year workspace.
+- Why - Affordable, non-slip base, acceptable durability for 2, 3 year workspace.
 
 ---
 
@@ -291,7 +291,7 @@ Annually (Leather Only):
 
 As Needed:
 - Spills: Blot immediately with dry cloth. For liquids, wipe with damp cloth and air dry.
-- Stains: Leather takes marks; consider them patina. If removal is needed, professional cleaning ($30, 50).
+- Stains - Leather takes marks; consider them patina. If removal is needed, professional cleaning ($30, 50).
 
 ---
 
@@ -307,19 +307,19 @@ $100+ (Hermanmiller extended, FULLY, premium leather): Investment-grade. 5+ year
 
 Best Desk Mat for Remote Work 2026
 
-Top Pick: Hermanmiller × Cognac (48" × 24"), $129
+Top Pick - Hermanmiller × Cognac (48" × 24"), $129
 - Full-grain leather ages beautifully.
 - Covers dual-monitor setups.
 - Five-year warranty.
 - Patina improves aesthetics over time.
 
-Value Pick: SteelSeries QcK Prism (48" × 24"), $119
+Value Pick - SteelSeries QcK Prism (48" × 24"), $119
 - Excellent mouse tracking.
 - Water-resistant.
 - Non-slip base.
 - Gaming-tested durability.
 
-Budget Pick: Logicool Pro (36" × 16"), $49
+Budget Pick - Logicool Pro (36" × 16"), $49
 - Acceptable durability (2, 3 years).
 - Non-slip base.
 - Entry-level investment.

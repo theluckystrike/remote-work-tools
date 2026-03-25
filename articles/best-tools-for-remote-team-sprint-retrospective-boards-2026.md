@@ -24,10 +24,10 @@ Table of Contents
 - [Miro (Miro Inc.)](#miro-miro-inc)
 - [RetroTool (RetroTool)](#retrotool-retrotool)
 - [FunRetro (Funretro)](#funretro-funretro)
-- [Confluence + Atlassian Ecosystem (Atlassian)](#confluence-atlassian-ecosystem-atlassian)
+- [Confluence + Atlassian environment (Atlassian)](#confluence-atlassian-environment-atlassian)
 - [Google Jamboard + Docs (Google)](#google-jamboard-docs-google)
 - [Comparison Table](#comparison-table)
-- [Real-World Workflow: Planning a Remote Retro](#real-world-workflow-planning-a-remote-retro)
+- [Real-World Workflow - Planning a Remote Retro](#real-world-workflow-planning-a-remote-retro)
 - [Production-Grade Retro Best Practices](#production-grade-retro-best-practices)
 - [Facilitator Tips](#facilitator-tips)
 
@@ -41,8 +41,8 @@ This guide compares the best tools, focusing on real factors: psychological safe
 
 Miro (Miro Inc.)
 
-Cost: Free tier (3 projects), $12/month Standard, $120/month Enterprise
-Best for: Visual-first teams, multi-format retros (Start/Stop/Continue, Sailboat, Happy/Sad), distributed timezones
+Cost - Free tier (3 projects), $12/month Standard, $120/month Enterprise
+Best for - Visual-first teams, multi-format retros (Start/Stop/Continue, Sailboat, Happy/Sad), distributed timezones
 
 Miro is a visual workspace. Retrospectives on Miro feel like physical board remixing: drag cards, build themes, vote in real-time. The interface is intuitive enough that facilitators spend less time explaining tooling and more time helping.
 
@@ -76,12 +76,12 @@ Pricing breakdown:
 - Standard: $12/month per editor, unlimited projects, integrations
 - Enterprise: $120+/month, SSO, advanced permissions
 
-Best for teams: Design-oriented orgs, distributed timezones, teams that prefer visual thinking.
+Best for teams - Design-oriented orgs, distributed timezones, teams that prefer visual thinking.
 
 RetroTool (RetroTool)
 
-Cost: Free tier, $99/month team
-Best for: Agile teams prioritizing asynchronous participation, deep retrospective frameworks
+Cost - Free tier, $99/month team
+Best for - Agile teams prioritizing asynchronous participation, deep retrospective frameworks
 
 RetroTool is purpose-built for retros. It's not a canvas tool, it's a structured retrospective system.
 
@@ -115,7 +115,7 @@ Strengths:
 Weaknesses:
 - Lacks visual/spatial design (no infinite canvas)
 - Limited customization (templates are opinionated)
-- Smaller integrations ecosystem than Miro
+- Smaller integrations environment than Miro
 - Free tier is limited (one retro at a time, basic features)
 - No built-in discussion space (feedback goes to retrospective tool only)
 - Less suitable for brainstorming retros (more structured)
@@ -125,12 +125,12 @@ Pricing breakdown:
 - Team ($99/month): Unlimited retros, advanced formats, team analytics, integrations
 - Enterprise: Custom pricing
 
-Best for teams: Agile-first organizations, distributed timezones, teams that want process metrics.
+Best for teams - Agile-first organizations, distributed timezones, teams that want process metrics.
 
 FunRetro (Funretro)
 
-Cost: Free tier, $40/month Team, $120/month Startup
-Best for: Budget-conscious teams, high-frequency retros, simplicity-focused workflows
+Cost - Free tier, $40/month Team, $120/month Startup
+Best for - Budget-conscious teams, high-frequency retros, simplicity-focused workflows
 
 FunRetro is a lightweight sticky note board. It's like Miro's minimalist cousin, less pretty, more functional.
 
@@ -164,12 +164,12 @@ Pricing breakdown:
 - Team ($40/month): Unlimited boards, integrations, custom branding
 - Startup ($120/month): Multiple teams, SSO
 
-Best for teams: Startups, resource-constrained teams, distributed teams prioritizing speed over polish.
+Best for teams - Startups, resource-constrained teams, distributed teams prioritizing speed over polish.
 
-Confluence + Atlassian Ecosystem (Atlassian)
+Confluence + Atlassian environment (Atlassian)
 
-Cost: Part of Atlassian Cloud ($10, 25/month depending on tier)
-Best for: Teams already in Jira, documentation-first organizations
+Cost - Part of Atlassian Cloud ($10, 25/month depending on tier)
+Best for - Teams already in Jira, documentation-first organizations
 
 Use Confluence as a retro board using Confluence pages + Jira for action item tracking. This is zero-cost if you're already on Atlassian.
 
@@ -197,12 +197,12 @@ Weaknesses:
 - No built-in retro templates (you build from scratch)
 - Discussion sprawls across page edits
 
-Best for teams: Organizations already using Jira, teams that prioritize integration over user experience, documentation-focused cultures.
+Best for teams - Organizations already using Jira, teams that prioritize integration over user experience, documentation-focused cultures.
 
 Google Jamboard + Docs (Google)
 
-Cost: Included with Google Workspace ($6, 18/month)
-Best for: Organizations already on Google Workspace, no learning curve required
+Cost - Included with Google Workspace ($6, 18/month)
+Best for - Organizations already on Google Workspace, no learning curve required
 
 Jamboard is Google's infinite canvas. Combine with Google Docs for notes and Google Tasks for action items.
 
@@ -228,10 +228,10 @@ Weaknesses:
 - No retro-specific features (no templates, insights, or frameworks)
 - Action items scattered across Google Tasks, Docs, and email
 - Limited theming/grouping (manual card organization only)
-- No integrations beyond Google ecosystem
+- No integrations beyond Google environment
 - Smaller community support
 
-Best for teams: Google Workspace organizations, teams wanting to avoid tool sprawl, simplicity-focused cultures.
+Best for teams - Google Workspace organizations, teams wanting to avoid tool sprawl, simplicity-focused cultures.
 
 Comparison Table
 
@@ -243,49 +243,49 @@ Comparison Table
 | Confluence | Poor | No | Fair | Excellent (Jira, GitHub) | Included in Atlassian | Jira-integrated orgs |
 | Jamboard | Fair | No | Poor | Fair (Google Workspace) | Included in Google Workspace | Google Workspace orgs |
 
-Real-World Workflow: Planning a Remote Retro
+Real-World Workflow - Planning a Remote Retro
 
-Step 1: Choose Your Format (30 minutes before retro)
+Step 1 - Choose Your Format (30 minutes before retro)
 Start/Stop/Continue (most common):
-- Start: What should we do more of?
-- Stop: What should we eliminate?
-- Continue: What's working well?
+- Start - What should we do more of?
+- Stop - What should we eliminate?
+- Continue - What's working well?
 
 Sailboat (for teams with challenges):
-- Wind: What's accelerating us?
-- Anchors: What's slowing us down?
-- Rocks: What are the dangers ahead?
+- Wind - What's accelerating us?
+- Anchors - What's slowing us down?
+- Rocks - What are the dangers ahead?
 
 Rose/Thorn/Bud (for balanced feedback):
-- Rose: What's beautiful/positive?
-- Thorn: What's painful?
-- Bud: What's full of potential?
+- Rose - What's beautiful/positive?
+- Thorn - What's painful?
+- Bud - What's full of potential?
 
-Step 2: Set Psychological Safety
+Step 2 - Set Psychological Safety
 - Explain that all feedback is anonymous
 - Set ground rules: no blame, focus on systems not people, ideas are property of the team
 - Optional: facilitator contributes anonymously too (shows vulnerability)
 
-Step 3: Execution (60 minutes total)
+Step 3 - Execution (60 minutes total)
 - Idea submission: 15 minutes (async or real-time, depending on tool)
 - Grouping/thematic review: 10 minutes
 - Voting: 5 minutes
 - Discussion of top-voted items: 25 minutes
 - Action item creation: 5 minutes
 
-Step 4: Action Item Discipline
-- Owner: Who will drive this?
+Step 4 - Action Item Discipline
+- Owner - Who will drive this?
 - Due date: When should this be done?
 - Success metric: How do we know it worked?
 
 ```
-Action Item: Reduce time to ship by moving deployment to self-serve
-Owner: Alex (Platform team)
-Due: 2 weeks after sprint end
-Success: Next sprint, median deployment time < 10 minutes
+Action Item - Reduce time to ship by moving deployment to self-serve
+Owner - Alex (Platform team)
+Due - 2 weeks after sprint end
+Success - Next sprint, median deployment time < 10 minutes
 ```
 
-Step 5: Tracking & Follow-Up
+Step 5 - Tracking & Follow-Up
 - Create Jira/GitHub tickets for action items (export from retro tool)
 - Link back to retrospective for context
 - Review in next sprint's retro: did we complete this? What did we learn?
@@ -319,8 +319,8 @@ Prevent one issue from dominating. Voters pick their top 3 concerns.
 5. Discussion Protocol
 For each top-voted item:
 1. State the issue clearly
-2. Ask: "Is this a systemic issue or one-off?"
-3. Ask: "What would success look like?"
+2. Ask - "Is this a systemic issue or one-off?"
+3. Ask - "What would success look like?"
 4. Create action item with owner and due date
 5. Move to next item
 
@@ -364,7 +364,7 @@ Q: How often should we run retros?
 A: Once per sprint (usually 1, 2 weeks). After 3 months, run a longer "retrospective of retrospectives" to see if process is improving.
 
 Q: What if the team doesn't raise issues?
-A: This is a safety problem, not a tool problem. Diagnose: Are people afraid of retaliation? Is the facilitator politically neutral? Does leadership act on feedback? No tool fixes distrust.
+A: This is a safety problem, not a tool problem. Diagnose - Are people afraid of retaliation? Is the facilitator politically neutral? Does leadership act on feedback? No tool fixes distrust.
 
 Q: How do we prevent retros from becoming complaint sessions?
 A: Focus on systems and solutions. For each complaint, ask: "What would you do differently?" This reframes as problem-solving, not venting.
@@ -376,7 +376,7 @@ Q: How long should a retro take?
 A: 60, 90 minutes for a 2-week sprint team (8, 10 people). For larger teams (20+ people), use breakout retros by team, then synthesize findings.
 
 Q: What if we have action items from last retro that we didn't complete?
-A: Bring them into this retro. Discuss: Why didn't we complete it? Is it still important? Rescope or reprioritize. Track why action items die, this tells you a lot about your team's capacity.
+A: Bring them into this retro. Discuss - Why didn't we complete it? Is it still important? Rescope or reprioritize. Track why action items die, this tells you a lot about your team's capacity.
 
 Q: Can we run retros async entirely?
 A: Yes, if spread across 3, 5 days:

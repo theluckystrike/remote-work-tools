@@ -23,7 +23,7 @@ Table of Contents
 - [The Async-First Demo Format](#the-async-first-demo-format)
 - [Week of March 16 Demo Day](#week-of-march-16-demo-day)
 - [Live Q&A Guidelines](#live-qa-guidelines)
-- [Scaling to 50+ Engineers: Practical Adjustments](#scaling-to-50-engineers-practical-adjustments)
+- [Scaling to 50+ Engineers - Practical Adjustments](#scaling-to-50-engineers-practical-adjustments)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Scaling Demo Infrastructure as Teams Grow](#scaling-demo-infrastructure-as-teams-grow)
 - [Feedback and Iteration Loops](#feedback-and-iteration-loops)
@@ -48,7 +48,7 @@ The Async-First Demo Format
 
 Instead of one live event, distribute demos across the week using a pre-recorded async format. Here's how to structure it:
 
-Step 1: Demo Submission System
+Step 1 - Demo Submission System
 
 Create a standardized submission process using a simple YAML schema. Engineers submit their demo metadata before the demo day week:
 
@@ -70,7 +70,7 @@ demo:
 
 This approach lets viewers prepare context beforehand and watch during their optimal productivity window.
 
-Step 2: Dedicated Demo Hub Page
+Step 2 - Dedicated Demo Hub Page
 
 Build a simple internal page (or Notion/Confluence space) that aggregates all demos for the week. Structure it for quick scanning:
 
@@ -93,7 +93,7 @@ Live Q&A Sessions (Friday)
 
 The hub becomes the single source of truth, no more hunting through Slack for links.
 
-Step 3: Async Feedback Collection
+Step 3 - Async Feedback Collection
 
 Rather than interrupting live demos with questions, use async feedback channels. Each demo gets a dedicated thread in Slack:
 
@@ -124,7 +124,7 @@ def announce_demo(demo_data):
 
 Engineers can answer questions asynchronously, preparing thoughtful responses instead of on-the-spot explanations.
 
-Step 4: Live Q&A Sessions (Limited)
+Step 4 - Live Q&A Sessions (Limited)
 
 Reserve synchronous time only for demos that genuinely benefit from real-time interaction, typically complex features with significant architectural changes. Limit these to 15-20 minutes each:
 
@@ -137,7 +137,7 @@ Live Q&A Guidelines
 - Recording required: If something goes wrong, have a backup recording ready
 ```
 
-Scaling to 50+ Engineers: Practical Adjustments
+Scaling to 50+ Engineers - Practical Adjustments
 
 As your team grows beyond 50 engineers, the basic async format still works, but you'll need additional structure:
 
@@ -209,11 +209,11 @@ Scaling Demo Infrastructure as Teams Grow
 
 At 50 engineers, you need better infrastructure than a Slack channel. Consider these tools:
 
-Notion or Confluence: Create a dedicated demo day workspace with rolling weeks of demos. Engineers can access historical demos, search by team, and see the full catalog.
+Notion or Confluence - Create a dedicated demo day workspace with rolling weeks of demos. Engineers can access historical demos, search by team, and see the full catalog.
 
-Video hosting with transcripts: Use services like Wistia or Mux that include transcripts and searchability. A demo on video without searchable content is harder to find later.
+Video hosting with transcripts - Use services like Wistia or Mux that include transcripts and searchability. A demo on video without searchable content is harder to find later.
 
-RSS feed of demos: Advanced teams generate an RSS feed of new demos so engineers can subscribe and get notified of relevant videos.
+RSS feed of demos - Advanced teams generate an RSS feed of new demos so engineers can subscribe and get notified of relevant videos.
 
 Feedback and Iteration Loops
 
@@ -235,9 +235,9 @@ Building Momentum with Recurring Themes
 
 Prevent demo day from feeling like a checkbox exercise by building theme around certain events:
 
-Mid-sprint demos (Wednesday): Quick, rough demos of work-in-progress. These are lower stakes and often more energizing than polished final demos.
+Mid-sprint demos (Wednesday) - Quick, rough demos of work-in-progress. These are lower stakes and often more energizing than polished final demos.
 
-End-of-cycle demos (Friday): Finished, fully tested work ready to ship. These feel like a celebration of completion.
+End-of-cycle demos (Friday) - Finished, fully tested work ready to ship. These feel like a celebration of completion.
 
 Cross-team demos (First Friday of month): Demos specifically designed to show how one team's work impacts another.
 
@@ -247,21 +247,21 @@ Demo Day for Distributed, Geographically Scattered Teams
 
 If your team spans extreme timezones (US West, India, and Australia), traditional demo scheduling becomes impossible. The async-first format shines here:
 
-Regional demo hubs: Allow each timezone to record and present their demos during their business hours. Bundle them together with a coherent theme.
+Regional demo hubs - Allow each timezone to record and present their demos during their business hours. Bundle them together with a coherent theme.
 
-Meta-demos: Have a tech lead record a 10-minute "demo synthesis" that ties together regional demos into a cohesive narrative. This helps engineers understand the full week's impact.
+Meta-demos - Have a tech lead record a 10-minute "demo synthesis" that ties together regional demos into a cohesive narrative. This helps engineers understand the full week's impact.
 
-Async discussion channels: Create a dedicated Slack channel for demo week. Engineers post thoughtful questions and thoughts asynchronously. This creates discussion spanning all timezones.
+Async discussion channels - Create a dedicated Slack channel for demo week. Engineers post thoughtful questions and thoughts asynchronously. This creates discussion spanning all timezones.
 
 Preventing Demo Day Fatigue
 
 When every product update becomes a demo, demo days lose impact:
 
-Selective demoing: Not every feature needs a demo. Reserve demos for features affecting user experience, visible to customers, or involving significant architectural changes.
+Selective demoing - Not every feature needs a demo. Reserve demos for features affecting user experience, visible to customers, or involving significant architectural changes.
 
-Demo quality bar: Establish a standard. Demos must have clear value prop, be under 5 minutes, and include testing results. Low-quality demos get rejected and reworked.
+Demo quality bar - Establish a standard. Demos must have clear value prop, be under 5 minutes, and include testing results. Low-quality demos get rejected and reworked.
 
-Quarterly all-hands summary: Instead of weekly demos, do a monthly digest (10 minutes) summarizing major ship highlights. This provides visibility without fatigue.
+Quarterly all-hands summary - Instead of weekly demos, do a monthly digest (10 minutes) summarizing major ship highlights. This provides visibility without fatigue.
 
 Learning From Failed Demos
 
@@ -269,9 +269,9 @@ Sometimes a demo shows a feature isn't working, performance is poor, or UX needs
 
 No shame in shipping imperfect work: If a demo reveals issues, that's feedback accelerating improvement. Create a follow-up ticket and note "demo feedback" as context.
 
-Demo as quality gate: Use demos as informal QA. If a demo reveals bugs or UX problems, you've caught them before hitting production.
+Demo as quality gate - Use demos as informal QA. If a demo reveals bugs or UX problems, you've caught them before hitting production.
 
-Adjust expectations: If demos consistently reveal problems, your definition of "ready to demo" may need tightening. Have a conversation about quality bar.
+Adjust expectations - If demos consistently reveal problems, your definition of "ready to demo" may need tightening. Have a conversation about quality bar.
 
 Adapting Demo Format as Company Scales
 
@@ -281,7 +281,7 @@ As your company grows from 50 to 100+ engineers, demo days need to adapt:
 
 300+ engineers: Separate demos by product line or business unit. All-company demos become unwieldy. Regional or team-based demos provide better engagement.
 
-Metrics to track: Monitor engagement as team scales. If attendance/participation drops, your format needs adjustment. Growth requires format evolution.
+Metrics to track - Monitor engagement as team scales. If attendance/participation drops, your format needs adjustment. Growth requires format evolution.
 
 Frequently Asked Questions
 
@@ -291,7 +291,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -303,7 +303,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

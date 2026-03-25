@@ -19,13 +19,13 @@ When developers and power users work remotely, they frequently access sensitive 
 
 Table of Contents
 
-- [Network Segmentation: Separate Work from Personal](#network-segmentation-separate-work-from-personal)
-- [Router Firmware: The Foundation of Security](#router-firmware-the-foundation-of-security)
-- [WiFi Encryption: Beyond the Basics](#wifi-encryption-beyond-the-basics)
-- [VPN Configuration: Your Encrypted Tunnel](#vpn-configuration-your-encrypted-tunnel)
-- [Network Monitoring: Know What's Connected](#network-monitoring-know-whats-connected)
-- [DNS Security: Filtering at the Network Level](#dns-security-filtering-at-the-network-level)
-- [Physical Security: Don't Overlook the Basics](#physical-security-dont-overlook-the-basics)
+- [Network Segmentation - Separate Work from Personal](#network-segmentation-separate-work-from-personal)
+- [Router Firmware - The Foundation of Security](#router-firmware-the-foundation-of-security)
+- [WiFi Encryption - Beyond the Basics](#wifi-encryption-beyond-the-basics)
+- [VPN Configuration - Your Encrypted Tunnel](#vpn-configuration-your-encrypted-tunnel)
+- [Network Monitoring - Know What's Connected](#network-monitoring-know-whats-connected)
+- [DNS Security - Filtering at the Network Level](#dns-security-filtering-at-the-network-level)
+- [Physical Security - Don't Overlook the Basics](#physical-security-dont-overlook-the-basics)
 - [Putting It All Together](#putting-it-all-together)
 - [Step-by-Step Network Security Hardening](#step-by-step-network-security-hardening)
 - [Monthly Maintenance Checklist](#monthly-maintenance-checklist)
@@ -35,7 +35,7 @@ Table of Contents
 
 Securing a home WiFi network for company data access doesn't require expensive equipment or deep networking expertise. Most routers available today support the security protocols and features needed to create a defensible perimeter. The challenge lies in knowing which settings matter and how to configure them correctly.
 
-Network Segmentation: Separate Work from Personal
+Network Segmentation - Separate Work from Personal
 
 The most effective step you can take is network segmentation. Most modern routers support creating multiple WiFi networks, often called guest networks or VLANs. By placing work devices on an isolated network segment, you reduce the blast radius if a personal device becomes compromised.
 
@@ -47,7 +47,7 @@ Access your router's administrative interface, typically at `192.168.0.1` or `19
 
 Most ASUS, Netgear, and TP-Link routers support this through their web interfaces. The exact path varies by model, but you'll generally find it under Wireless Settings → Guest Network.
 
-Router Firmware: The Foundation of Security
+Router Firmware - The Foundation of Security
 
 Router manufacturers regularly release firmware updates that patch security vulnerabilities. Many home routers never receive these updates because users don't check for them. Here's how to verify and maintain your router's firmware:
 
@@ -69,7 +69,7 @@ opkg upgrade <package-name>
 
 If your router is older than five years and no longer receives firmware updates, consider replacing it. A vulnerable router nullifies every other security measure you implement.
 
-WiFi Encryption: Beyond the Basics
+WiFi Encryption - Beyond the Basics
 
 Your WiFi password is your first line of defense. Weak passwords remain one of the most common attack vectors for home networks. Use a password generator to create a strong, unique pre-shared key:
 
@@ -94,7 +94,7 @@ Store this password in a password manager rather than writing it on a notepad ne
 
 For accessing company resources, consider implementing certificate-based authentication rather than relying solely on shared passwords. Many VPN solutions support certificate authentication, which eliminates the risk of password brute-forcing.
 
-VPN Configuration: Your Encrypted Tunnel
+VPN Configuration - Your Encrypted Tunnel
 
 A properly configured VPN creates an encrypted tunnel between your home network and company resources, ensuring that even if your local network is compromised, traffic to company systems remains protected. However, a VPN only helps if configured correctly.
 
@@ -118,7 +118,7 @@ dig +short myip.opendns.com @resolver1.opendns.com
 Should return VPN-provided IP, not your ISP's DNS
 ```
 
-Network Monitoring: Know What's Connected
+Network Monitoring - Know What's Connected
 
 Understanding what devices exist on your network enables you to spot anomalies quickly. Most routers provide a device list, but for more detailed monitoring, consider network scanning tools:
 
@@ -132,7 +132,7 @@ nmap -O 192.168.1.1/24
 
 Schedule regular scans to maintain an inventory of authorized devices. When new devices appear that you don't recognize, investigate immediately.
 
-DNS Security: Filtering at the Network Level
+DNS Security - Filtering at the Network Level
 
 Configuring your router to use secure DNS servers adds another protective layer. Instead of using your ISP's default DNS, which can be vulnerable to hijacking or snooping, configure your router to use privacy-focused alternatives:
 
@@ -149,7 +149,7 @@ curl -sSL https://install.pi-hole.net | bash
 
 This setup lets you identify which devices are making suspicious DNS requests, often an early indicator of compromise.
 
-Physical Security: Don't Overlook the Basics
+Physical Security - Don't Overlook the Basics
 
 Physical access to your router can bypass every software security measure. Place your router in a secure location, preferably in a locked office or cabinet. Enable router administrative interface access restrictions so it can only be configured from wired connections:
 
@@ -175,7 +175,7 @@ For development teams, consider creating a simple provisioning script that emplo
 
 Step-by-Step Network Security Hardening
 
-Day 1: Foundation Setup (30 minutes)
+Day 1 - Foundation Setup (30 minutes)
 
 ```bash
 #!/bin/bash
@@ -184,7 +184,7 @@ Run this on a computer connected to your home network
 
 echo "=== Home Network Security Audit ==="
 
-Step 1: Check router accessibility
+Step 1 - Check router accessibility
 echo "Step 1: Checking router access..."
 if ping -c 1 192.168.1.1 >/dev/null 2>&1 || ping -c 1 192.168.0.1 >/dev/null 2>&1; then
   echo " Router is accessible"
@@ -192,7 +192,7 @@ else
   echo " Cannot access router (may be misconfigured)"
 fi
 
-Step 2: Check connected devices
+Step 2 - Check connected devices
 echo "Step 2: Scanning for connected devices..."
 nmap -sn 192.168.1.0/24 > /tmp/devices.txt 2>/dev/null
 device_count=$(grep "Nmap scan report" /tmp/devices.txt | wc -l)
@@ -200,11 +200,11 @@ echo "Found $device_count devices on your network"
 echo "Devices:"
 grep "Nmap scan report" /tmp/devices.txt | grep -oE "[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+"
 
-Step 3: Verify encryption
+Step 3 - Verify encryption
 echo "Step 3: Checking WiFi security..."
 echo "Connect to your WiFi network settings to verify WPA3 or WPA2-AES encryption"
 
-Step 4: Test DNS
+Step 4 - Test DNS
 echo "Step 4: Checking DNS configuration..."
 nslookup google.com | head -2
 
@@ -213,9 +213,9 @@ echo "=== Audit Complete ==="
 
 Run this script and save the output as a baseline. You'll rerun it monthly.
 
-Week 1: Core Security Configuration
+Week 1 - Core Security Configuration
 
-Monday: Firmware and Access
+Monday - Firmware and Access
 - Log into router admin panel (find IP address on router label)
 - Check current firmware version against manufacturer's website
 - Update to latest firmware if available
@@ -223,25 +223,25 @@ Monday: Firmware and Access
 - Enable WPA3 encryption (or WPA2-AES if WPA3 unavailable)
 - Disable WPS (Wi-Fi Protected Setup)
 
-Tuesday: Network Segmentation
+Tuesday - Network Segmentation
 - Create guest network: "Work-Secure"
 - Set guest network password (different from main network)
 - Ensure guest network is isolated from main network
 - Document SSID and password in password manager
 
-Wednesday: Device Management
+Wednesday - Device Management
 - List all devices currently connected to WiFi
 - Remove any devices you don't recognize
 - Change WiFi password to force reconnection of known devices only
 - Document authorized devices with MAC addresses
 
-Thursday: DNS and Filtering
+Thursday - DNS and Filtering
 - Access router settings → Advanced → DNS
 - Change DNS servers to 1.1.1.1 and 1.0.0.1 (Cloudflare)
 - Enable DNS security/filtering if available
 - Test DNS with: `nslookup cloudflare.com`
 
-Friday: Testing and Documentation
+Friday - Testing and Documentation
 - Run the network audit script again
 - Compare results to baseline
 - Create a password-protected document listing:
@@ -251,32 +251,32 @@ Friday: Testing and Documentation
  - Router admin password
  - Any security features enabled
 
-Week 2: Advanced Configuration
+Week 2 - Advanced Configuration
 
-Monday: VPN Setup
+Monday - VPN Setup
 - Select VPN provider (Mullvad, ProtonVPN, or corporate VPN)
 - If corporate VPN: install client on work devices, test connection
 - Verify VPN tunnel: visit ipinfo.io while connected, confirm IP is VPN-provided
 - Test VPN kill switch functionality
 
-Tuesday: Firewall Rules
+Tuesday - Firewall Rules
 - Enable router firewall (almost always on by default, but verify)
 - Disable UPnP (Universal Plug and Play) unless specifically needed
 - Disable remote administration
 - Create port forwarding rules for any services you deliberately expose
 
-Wednesday: Access Control
+Wednesday - Access Control
 - Enable MAC address filtering if network is small and stable
 - Restrict router admin access to wired connections only
 - Change router admin password again to ensure only you know current password
 - Disable DHCP access to router unless necessary
 
-Thursday: Monitoring
+Thursday - Monitoring
 - Set up daily notifications for new devices connecting to WiFi
 - Most routers can send email alerts; check your router's admin panel
 - Create a monthly device audit checklist
 
-Friday: Backup Configuration
+Friday - Backup Configuration
 - Back up router configuration file (usually under Administration → Backup)
 - Store in encrypted cloud storage (Google Drive with Backup and Sync, encrypted)
 - Document all security settings you've configured
@@ -354,13 +354,13 @@ Testing Your Network Security
 
 Periodically test your security measures:
 
-Legitimacy test: From a device on your "Work-Secure" network, can you access devices on your main network? (Should be no)
+Legitimacy test - From a device on your "Work-Secure" network, can you access devices on your main network? (Should be no)
 
-Encryption test: Using Wireshark (advanced), can you see unencrypted traffic on your network? (Should be no, all traffic should be encrypted)
+Encryption test - Using Wireshark (advanced), can you see unencrypted traffic on your network? (Should be no, all traffic should be encrypted)
 
-Firewall test: Use nmap to scan your external IP from the internet, ports should appear closed. This requires knowing your public IP and using nmap from outside your network.
+Firewall test - Use nmap to scan your external IP from the internet, ports should appear closed. This requires knowing your public IP and using nmap from outside your network.
 
-DNS test: Verify DNS requests are actually using your configured DNS provider, not defaulting elsewhere.
+DNS test - Verify DNS requests are actually using your configured DNS provider, not defaulting elsewhere.
 
 Most remote workers don't need to run these advanced tests, but security-conscious individuals or those handling particularly sensitive data should verify these periodically.
 

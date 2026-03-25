@@ -18,7 +18,7 @@ tags: [remote-work-tools, remote-work]
 
 The first week sets the tone for a remote employee's entire tenure. A structured onboarding process helps new hires feel welcomed, informed, and ready to contribute, while avoiding the confusion and isolation that often plague distributed teams. This step-by-step guide covers exactly what to do each day during a new remote employee's first week.
 
-Day 1: Welcome and Access Setup
+Day 1 - Welcome and Access Setup
 
 Morning (First 2 Hours)
 
@@ -32,7 +32,7 @@ Start with a personal welcome. Send a greeting from their manager or buddy intro
 Here's a template you can adapt:
 
 ```
-Subject: Welcome to [Company]! 
+Subject - Welcome to [Company]! 
 
 Hi [Name],
 
@@ -55,7 +55,7 @@ Best,
 [Manager Name]
 ```
 
-Midday: Technical Setup
+Midday - Technical Setup
 
 Guide new hires through developer environment setup. Create a reproducible setup script or document that covers:
 
@@ -71,7 +71,7 @@ For developer teams, consider providing a bootstrap script:
 ```bash
 #!/bin/bash
 Developer environment bootstrap script
-Run: chmod +x setup.sh && ./setup.sh
+Run - chmod +x setup.sh && ./setup.sh
 
 Install Homebrew packages
 brew install git node python
@@ -88,16 +88,16 @@ Install project dependencies
 cd main-app && npm install
 ```
 
-Afternoon: Team Introduction
+Afternoon - Team Introduction
 
 Schedule a 30-minute video call where team members briefly introduce themselves. Keep it structured:
 - Each team member shares their role
 - One fun fact or something non-work related
 - How they typically communicate ( Slack, email, video calls)
 
-Day 2: Process and Workflows
+Day 2 - Process and Workflows
 
-Morning: Async Documentation Review
+Morning - Async Documentation Review
 
 Have new employees review key team documentation. Create a structured reading list:
 
@@ -121,7 +121,7 @@ Suggestions for improving docs:
 -
 ```
 
-Afternoon: Pair Programming Session
+Afternoon - Pair Programming Session
 
 Schedule a 60-minute pair programming session with their buddy or a team member. This helps them:
 - See real-world coding workflows
@@ -129,9 +129,9 @@ Schedule a 60-minute pair programming session with their buddy or a team member.
 - Ask questions in real-time
 - Build a relationship with a team member
 
-Day 3: Hands-On Contribution
+Day 3 - Hands-On Contribution
 
-Morning: First Task Assignment
+Morning - First Task Assignment
 
 Assign a "good first issue", a small, well-defined task that:
 - Can be completed in 2-4 hours
@@ -145,7 +145,7 @@ This could be:
 - Refactoring a small function
 - Updating a dependency
 
-Afternoon: Code Review Experience
+Afternoon - Code Review Experience
 
 Have the new employee submit their first pull request, then conduct a thorough code review that:
 - Explains the team's code style
@@ -153,9 +153,9 @@ Have the new employee submit their first pull request, then conduct a thorough c
 - Provides constructive feedback
 - Celebrates what they did well
 
-Day 4: Process Deep Dive
+Day 4 - Process Deep Dive
 
-Morning: Attend Key Meetings
+Morning - Attend Key Meetings
 
 Have the new employee observe (and optionally participate in) the team's standup. This helps them:
 - Understand how the team communicates
@@ -164,7 +164,7 @@ Have the new employee observe (and optionally participate in) the team's standup
 
 If your team uses async standups, review examples together and discuss the format.
 
-Afternoon: Cross-Team Introductions
+Afternoon - Cross-Team Introductions
 
 Schedule brief 15-minute meetings with key stakeholders:
 - Product manager or owner
@@ -174,9 +174,9 @@ Schedule brief 15-minute meetings with key stakeholders:
 
 These help new employees understand how their work fits into the broader picture.
 
-Day 5: Check-In and Goal Setting
+Day 5 - Check-In and Goal Setting
 
-Morning: Manager One-on-One
+Morning - Manager One-on-One
 
 Conduct a 30-minute check-in covering:
 - How they're feeling about the onboarding

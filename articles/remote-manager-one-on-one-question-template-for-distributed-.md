@@ -26,7 +26,7 @@ Table of Contents
 - [Weekly One-on-One Check-In](#weekly-one-on-one-check-in)
 - [Frequency and Duration Guidelines](#frequency-and-duration-guidelines)
 - [Async-First One-on-One Format](#async-first-one-on-one-format)
-- [Code Snippet: Automated Reminders](#code-snippet-automated-reminders)
+- [Code Snippet - Automated Reminders](#code-snippet-automated-reminders)
 - [Adapting the Template for Different Team Sizes](#adapting-the-template-for-different-team-sizes)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 - [Building the Habit](#building-the-habit)
@@ -70,7 +70,7 @@ Here's a markdown-formatted template you can paste directly into your team wiki 
 ```markdown
 Weekly One-on-One Check-In
 
-Week of: [DATE]
+Week of - [DATE]
 
 1. Blockers
 What, if anything, is blocking your progress this week?
@@ -105,7 +105,7 @@ When Someone Says "No Blockers":
 - Or they've missed their last two deadlines
 - Or you notice they've been quiet in Slack
 
-Ask: "I believe you, and I also want to make sure. What would help you feel more supported this week?"
+Ask - "I believe you, and I also want to make sure. What would help you feel more supported this week?"
 
 Sometimes the real blocker is that someone feels overwhelmed, underappreciated, or doubting themselves. They don't think those count as "blockers" so they say "no blockers" technically truthfully.
 
@@ -114,7 +114,7 @@ When Energy is Low But Work is Good:
 - They're less engaged in team conversations
 - Their communication has become more terse
 
-Ask: "Your work is excellent. I'm noticing you seem lower energy. How are you actually doing?"
+Ask - "Your work is excellent. I'm noticing you seem lower energy. How are you actually doing?"
 
 Burnout whispers before it screams. Catching it early prevents people from leaving.
 
@@ -179,18 +179,18 @@ Async-First One-on-One Format
 
 For distributed teams across time zones, synchronous one-on-ones aren't always feasible. Here's an async-first workflow that still builds connection:
 
-Step 1: Pre-Meeting Async Exchange (24-48 hours before)
+Step 1 - Pre-Meeting Async Exchange (24-48 hours before)
 
 Send the template above to your direct report. Ask them to fill it out by [specific day]. The key instruction: be specific. "I fixed a bug" tells you nothing. "I fixed the memory leak in the image processing worker that was causing our containers to restart every 4 hours" tells you exactly what they accomplished.
 
-Step 2: Manager Review and Notes
+Step 2 - Manager Review and Notes
 
 Before your sync (whether 15 minutes or 30), review their responses and prepare:
 - One thing to celebrate from their accomplishments
 - One question to dig deeper on their blockers
 - One offer of support based on their stated needs
 
-Step 3: Short Synchronous Touchpoint
+Step 3 - Short Synchronous Touchpoint
 
 For distributed teams, use the sync time for:
 - Real-time clarification on blockers
@@ -200,7 +200,7 @@ For distributed teams, use the sync time for:
 
 Keep the sync focused. If you spend the whole meeting discussing blockers, you're using synchronous time for something that should have been handled async.
 
-Code Snippet: Automated Reminders
+Code Snippet - Automated Reminders
 
 If your team uses Slack or similar tools, automate the weekly check-in reminders with a simple script:
 

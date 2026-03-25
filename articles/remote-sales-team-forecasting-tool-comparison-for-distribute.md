@@ -21,11 +21,11 @@ Building accurate sales forecasts for distributed revenue operations requires to
 Table of Contents
 
 - [The Challenge of Forecasting for Remote Sales Teams](#the-challenge-of-forecasting-for-remote-sales-teams)
-- [Approach 1: Spreadsheet-Based Forecasting with API Integration](#approach-1-spreadsheet-based-forecasting-with-api-integration)
-- [Approach 2: Dedicated Forecasting Platforms](#approach-2-dedicated-forecasting-platforms)
-- [Approach 3: Build Your Own Forecasting Pipeline](#approach-3-build-your-own-forecasting-pipeline)
-- [Approach 4: Hybrid Solutions with Data Warehouses](#approach-4-hybrid-solutions-with-data-warehouses)
-- [Platform Comparison: Head-to-Head](#platform-comparison-head-to-head)
+- [Approach 1 - Spreadsheet-Based Forecasting with API Integration](#approach-1-spreadsheet-based-forecasting-with-api-integration)
+- [Approach 2 - Dedicated Forecasting Platforms](#approach-2-dedicated-forecasting-platforms)
+- [Approach 3 - Build Your Own Forecasting Pipeline](#approach-3-build-your-own-forecasting-pipeline)
+- [Approach 4 - Hybrid Solutions with Data Warehouses](#approach-4-hybrid-solutions-with-data-warehouses)
+- [Platform Comparison - Head-to-Head](#platform-comparison-head-to-head)
 - [Handling Asynchronous Pipeline Reviews](#handling-asynchronous-pipeline-reviews)
 - [Choosing Your Forecasting Approach](#choosing-your-forecasting-approach)
 
@@ -35,7 +35,7 @@ Distributed sales teams face unique forecasting challenges that office-based tea
 
 Beyond timezone issues, remote teams often use different tools for the same activities. One rep might track activities in HubSpot, another in Pipedrive, and a third in a custom CRM. Your forecasting system must aggregate these disparate data sources while maintaining accuracy.
 
-Approach 1: Spreadsheet-Based Forecasting with API Integration
+Approach 1 - Spreadsheet-Based Forecasting with API Integration
 
 For teams that want maximum flexibility, spreadsheet-based forecasting with API-connected data remains viable. Google Sheets or Excel with connected data sources lets power users build custom forecast models without vendor lock-in.
 
@@ -77,7 +77,7 @@ function calculateForecast(pipeline, weights) {
 
 This approach works well for teams under 20 people. The downside is maintenance overhead as your forecast complexity grows.
 
-Approach 2: Dedicated Forecasting Platforms
+Approach 2 - Dedicated Forecasting Platforms
 
 Several platforms specialize in AI-powered forecasting designed for revenue operations teams.
 
@@ -121,7 +121,7 @@ Chorus
 
 Chorus, now part of ZoomInfo, offers similar conversation intelligence with added market intelligence features. Their forecast models incorporate buyer intent data from their broader data platform.
 
-Approach 3: Build Your Own Forecasting Pipeline
+Approach 3 - Build Your Own Forecasting Pipeline
 
 For organizations with strong engineering resources, building a custom forecasting pipeline provides maximum control. This approach makes sense when your data sources don't fit standard CRM schemas or when you need forecasts that account for unique business logic.
 
@@ -159,7 +159,7 @@ class SalesForecastEngine:
 
 This approach requires ongoing model maintenance but delivers forecasts tailored to your specific business logic.
 
-Approach 4: Hybrid Solutions with Data Warehouses
+Approach 4 - Hybrid Solutions with Data Warehouses
 
 Modern revenue operations teams increasingly route all forecast-relevant data through a central data warehouse like Snowflake or BigQuery, then build BI-layer forecasts using tools like Looker or Metabase.
 
@@ -184,7 +184,7 @@ WHERE d.is_closed = false;
 
 This approach unifies data from CRM, conversation intelligence tools, marketing automation, and support systems into a single forecast model.
 
-Platform Comparison: Head-to-Head
+Platform Comparison - Head-to-Head
 
 Before committing to a platform, understanding where each tool wins helps you match it to your team's actual workflow. The table below covers the platforms most frequently adopted by distributed sales teams in 2026:
 

@@ -59,7 +59,7 @@ meetings:
     type: "synchronous"
 ```
 
-Team Standup: The 15-Minute Sync
+Team Standup - The 15-Minute Sync
 
 The standup sets the daily tone. For distributed teams, avoid the temptation to extend this to 30 minutes "because we don't see each other." Longer standups dilute their value.
 
@@ -69,7 +69,7 @@ The format:
 2. What I'm working on today (30 seconds)
 3. Blockers (30 seconds max)
 
-Time zone rotation: If your team spans more than 4 time zones, rotate meeting times so no single person consistently meets outside reasonable hours. Track rotation in a shared document:
+Time zone rotation - If your team spans more than 4 time zones, rotate meeting times so no single person consistently meets outside reasonable hours. Track rotation in a shared document:
 
 ```javascript
 // Simple time zone rotation scheduler
@@ -91,16 +91,16 @@ const meetingHour = getRotatedMeetingHour(10, 3);
 console.log(`Meeting time: ${meetingHour}:00 PST`);
 ```
 
-Async alternative: For teams across 8+ hour time zone spans, consider async standups via Slack or a dedicated tool. Use a standardized format:
+Async alternative - For teams across 8+ hour time zone spans, consider async standups via Slack or a dedicated tool. Use a standardized format:
 
 ```
 Standup - [Date]
-Yesterday: [What you completed]
-Today: [What you're working on]
-Blockers: [Any impediments]
+Yesterday - [What you completed]
+Today - [What you're working on]
+Blockers - [Any impediments]
 ```
 
-The Weekly Retro: 45 Minutes Max
+The Weekly Retro - 45 Minutes Max
 
 Retrospectives lose effectiveness when they run long. With 45 minutes, structure the time:
 
@@ -109,7 +109,7 @@ Retrospectives lose effectiveness when they run long. With 45 minutes, structure
 - 15 minutes: Discuss top 2-3 items, assign action owners
 - 5 minutes: Close with one improvement commitment
 
-Remote-specific retro tip: Use a timer visible to everyone. In remote settings, conversations can drift because visual cues are harder to read. A shared countdown keeps energy focused.
+Remote-specific retro tip - Use a timer visible to everyone. In remote settings, conversations can drift because visual cues are harder to read. A shared countdown keeps energy focused.
 
 For fully async teams, use a tool like Parabol or TeamRetro with asynchronous input phases before the synchronous discussion.
 
@@ -149,9 +149,9 @@ Reducing Synchronous Meeting Load
 
 The most effective distributed teams minimize mandatory synchronous meetings. Here's how to push work to async:
 
-Code reviews: Always async. Use PR descriptions as the context carrier. Reviewers in different time zones can contribute without scheduling conflicts.
+Code reviews - Always async. Use PR descriptions as the context carrier. Reviewers in different time zones can contribute without scheduling conflicts.
 
-Design reviews: Run the proposal writing phase async. Use a documented ADR or design doc template:
+Design reviews - Run the proposal writing phase async. Use a documented ADR or design doc template:
 
 ```markdown
 [Title]
@@ -176,15 +176,15 @@ Questions for Reviewers
 2. [Specific question]
 ```
 
-Decision announcements: After major decisions, post a written summary to the team channel. Don't rely on verbal announcements that only some team members hear live.
+Decision announcements - After major decisions, post a written summary to the team channel. Don't rely on verbal announcements that only some team members hear live.
 
 Adapting the Cadence to Team Size
 
-Teams of 5-8 engineers: The template above works directly. Consider keeping the design review optional if volume is low.
+Teams of 5-8 engineers - The template above works directly. Consider keeping the design review optional if volume is low.
 
-Teams of 8-15 engineers: Add a tech lead sync (30 minutes, weekly) alongside the manager's team sync. Split into two squad-level syncs if standup exceeds 12 people.
+Teams of 8-15 engineers - Add a tech lead sync (30 minutes, weekly) alongside the manager's team sync. Split into two squad-level syncs if standup exceeds 12 people.
 
-Teams of 15+ engineers: Consider a layered approach:
+Teams of 15+ engineers - Consider a layered approach:
 
 ```yaml
 Layered Meeting Structure for Large Teams

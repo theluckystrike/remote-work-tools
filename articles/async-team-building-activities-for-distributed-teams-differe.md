@@ -21,14 +21,14 @@ Async team building activities eliminate scheduling conflicts across time zones 
 Table of Contents
 
 - [Why Async Activities Outperform Synchronous Ones for Global Teams](#why-async-activities-outperform-synchronous-ones-for-global-teams)
-- [Activity 1: Async Coffee Chat Roulette](#activity-1-async-coffee-chat-roulette)
-- [Activity 2: Weekly Async Wins Share](#activity-2-weekly-async-wins-share)
+- [Activity 1 - Async Coffee Chat Roulette](#activity-1-async-coffee-chat-roulette)
+- [Activity 2 - Weekly Async Wins Share](#activity-2-weekly-async-wins-share)
 - [Week of [DATE]](#week-of-date)
-- [Activity 3: Async Book Club for Engineering Teams](#activity-3-async-book-club-for-engineering-teams)
-- [Week 3 Discussion: Chapter 4 - Async Patterns](#week-3-discussion-chapter-4-async-patterns)
-- [Activity 4: Shared Hobby Channels](#activity-4-shared-hobby-channels)
-- [Activity 5: Async Retro Games](#activity-5-async-retro-games)
-- [Activity 6: Skill Exchange Program](#activity-6-skill-exchange-program)
+- [Activity 3 - Async Book Club for Engineering Teams](#activity-3-async-book-club-for-engineering-teams)
+- [Week 3 Discussion - Chapter 4 - Async Patterns](#week-3-discussion-chapter-4-async-patterns)
+- [Activity 4 - Shared Hobby Channels](#activity-4-shared-hobby-channels)
+- [Activity 5 - Async Retro Games](#activity-5-async-retro-games)
+- [Activity 6 - Skill Exchange Program](#activity-6-skill-exchange-program)
 - [Implementation Checklist](#implementation-checklist)
 
 Why Async Activities Outperform Synchronous Ones for Global Teams
@@ -42,7 +42,7 @@ When your team spans San Francisco, Berlin, and Tokyo, scheduling any synchronou
 
 The key is designing activities that create genuine interaction without requiring real-time presence.
 
-Activity 1: Async Coffee Chat Roulette
+Activity 1 - Async Coffee Chat Roulette
 
 Coffee chats work in async format by using a structured pairing system that rotates matches weekly. Each pair gets a conversation starter prompt and has a week to exchange written responses or voice messages.
 
@@ -87,7 +87,7 @@ Run this script weekly and post the results to a dedicated Slack channel. Includ
 - What's a tool or technique you recently discovered?
 - If you could instantly master one skill, what would it be?
 
-Activity 2: Weekly Async Wins Share
+Activity 2 - Weekly Async Wins Share
 
 Celebrating wins asynchronously maintains positive momentum without requiring live meetings. This works particularly well when teams span multiple time zones because everyone gets equal opportunity to share.
 
@@ -126,7 +126,7 @@ This Week I'm Looking Forward To
 
 Collect responses in a shared Notion page or Google Doc. Read through the compilation at your next all-hands or share highlights in your team channel. The act of writing wins also builds a reflective habit that improves individual performance.
 
-Activity 3: Async Book Club for Engineering Teams
+Activity 3 - Async Book Club for Engineering Teams
 
 Technical book clubs work well asynchronously when structured properly. Instead of scheduling live discussion sessions, use a threaded discussion format where participants comment on specific chapters.
 
@@ -138,7 +138,7 @@ Structuring an async book club:
 4. Make it optional but encouraged: Track participation without making it mandatory
 
 ```markdown
-Week 3 Discussion: Chapter 4 - Async Patterns
+Week 3 Discussion - Chapter 4 - Async Patterns
 
 Discussion Questions
 1. How does the author distinguish between async and parallel processing?
@@ -153,7 +153,7 @@ Code Examples
 
 For engineering teams, choose books that connect to your actual work. A team working on backend services might read about distributed systems, while a frontend team might explore UI architecture patterns. The closer the content relates to daily work, the more valuable the discussion becomes.
 
-Activity 4: Shared Hobby Channels
+Activity 4 - Shared Hobby Channels
 
 Create dedicated spaces for non-work conversations that happen asynchronously. This replicates the casual office interactions that remote teams miss.
 
@@ -167,14 +167,14 @@ Channel ideas that work:
 
 The key is making these spaces low-pressure. No one should feel obligated to participate, but the channels should exist and be visible. Seeing colleagues as multi-dimensional humans beyond their work contributions builds the trust that makes technical collaboration smoother.
 
-Activity 5: Async Retro Games
+Activity 5 - Async Retro Games
 
 Transform retrospective formats into games that don't require synchronous participation. Team members contribute answers to prompts, then everyone sees results simultaneously.
 
 Two Truths and a Dream
 
 ```
-Instructions: Post your response by Thursday EOD
+Instructions - Post your response by Thursday EOD
 
 1. Two true things about you
 2. One thing you want to accomplish (your "dream")
@@ -185,7 +185,7 @@ Team members guess which is the dream. Most creative wins.
 
 This format works across time zones because everyone participates on their own schedule, then engages with results when convenient. The anticipation of revealing answers creates engagement without requiring live interaction.
 
-Activity 6: Skill Exchange Program
+Activity 6 - Skill Exchange Program
 
 Pair team members for informal knowledge transfer. Unlike formal mentorship, skill exchanges focus on bidirectional learning between peers.
 

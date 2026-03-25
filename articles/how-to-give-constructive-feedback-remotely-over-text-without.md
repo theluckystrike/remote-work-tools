@@ -30,19 +30,19 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Core Problem: Missing Context
+Step 1 - The Core Problem: Missing Context
 
 When you give feedback in person, your tone, pace, and facial expressions provide context. Text strips all that away. Research from Harvard Business Review shows that text-based communication is more likely to be perceived negatively, especially when the reader is already defensive about the topic.
 
 The solution isn't to soften everything into meaningless praise. It's to structure your feedback so the intent is unmistakable.
 
-Step 2: The SBI Framework for Text-Based Feedback
+Step 2 - The SBI Framework for Text-Based Feedback
 
 The Situation-Behavior-Impact (SBI) model translates well to written feedback because it forces specificity:
 
-- Situation: When and where did the behavior occur?
-- Behavior: What exactly happened? (Stick to observable facts)
-- Impact: What was the result of the behavior?
+- Situation - When and where did the behavior occur?
+- Behavior - What exactly happened? (Stick to observable facts)
+- Impact - What was the result of the behavior?
 
 Here's how it looks in practice:
 
@@ -54,7 +54,7 @@ SBI-structured feedback:
 
 The second version is specific, actionable, and focused on the work, not the person.
 
-Step 3: Template for Code Review Feedback
+Step 3 - Template for Code Review Feedback
 
 When reviewing pull requests, use templates that encourage constructive dialogue. Here's a GitHub comment template that works well:
 
@@ -99,7 +99,7 @@ This template:
 - Provides a concrete solution
 - Ends with collaboration, not dictation
 
-Step 4: The "Email Before Sending" Rule
+Step 4 - The "Email Before Sending" Rule
 
 Before sending any critical feedback over text, apply the 5-minute rule: write your message, then wait 5 minutes before sending. During this pause, read it as if you were receiving it from someone less familiar with your intentions.
 
@@ -113,7 +113,7 @@ Then apply the "curiosity test", replace statements with questions where possibl
 
 Questions invite dialogue rather than defensiveness.
 
-Step 5: Timing Matters As Much As Content
+Step 5 - Timing Matters As Much As Content
 
 In async environments, when you send feedback matters. Avoid sending critical feedback:
 - Late at night (appears aggressive)
@@ -122,7 +122,7 @@ In async environments, when you send feedback matters. Avoid sending critical fe
 
 The best times are mid-morning Tuesday through Thursday. The recipient has time to process and respond thoughtfully.
 
-Step 6: Handling Sensitive Topics
+Step 6 - Handling Sensitive Topics
 
 Some feedback requires extra care. When addressing pattern issues, performance concerns, or interpersonal dynamics:
 
@@ -135,7 +135,7 @@ Some feedback requires extra care. When addressing pattern issues, performance c
  - "What's your perspective on this?"
  - "Happy to discuss further in a call if helpful."
 
-Step 7: Example: Slack Feedback Template
+Step 7 - Example: Slack Feedback Template
 
 For real-time messaging, use this structure:
 
@@ -159,7 +159,7 @@ I think we could reduce this significantly by adding the health-check endpoints 
 Happy to pair on the implementation if helpful.
 ```
 
-Step 8: Build Feedback Culture
+Step 8 - Build Feedback Culture
 
 Constructive feedback at scale requires consistent patterns across the team. Consider:
 
@@ -169,7 +169,7 @@ Constructive feedback at scale requires consistent patterns across the team. Con
 
 The goal isn't to eliminate all friction, healthy friction drives improvement. The goal is ensuring friction comes from the work, not from poor communication.
 
-Advanced Technique: The Feedback Sandwich + Data
+Advanced Technique - The Feedback Sandwich + Data
 
 The traditional "feedback sandwich" (praise-criticism-praise) gets dismissed as manipulative. But paired with data, it works:
 
@@ -202,7 +202,7 @@ This works because:
 - Provides a concrete starting point
 - Closes by connecting to bigger picture
 
-Step 9: Feedback in Different Media
+Step 9 - Feedback in Different Media
 
 Effectiveness varies by channel. Choose wisely:
 
@@ -220,7 +220,7 @@ Effectiveness varies by channel. Choose wisely:
 - Bad: Slack DM suggesting code refactor (private, lacks visibility)
 - Good: GitHub comment with context and alternatives
 
-Step 10: Build a Feedback Recipient's Perspective
+Step 10 - Build a Feedback Recipient's Perspective
 
 Understanding how feedback lands helps you deliver better feedback:
 
@@ -249,7 +249,7 @@ How to escalate if I disagree:
 
 Share this with your team. Different people need different styles. Respecting preferences builds psychological safety.
 
-Step 11: Measuring Feedback Effectiveness
+Step 11 - Measuring Feedback Effectiveness
 
 Track whether your feedback actually drives behavior change:
 
@@ -285,31 +285,31 @@ class FeedbackEffectiveness:
 
 Measure feedback quality like you measure code quality. Iterate on approach based on results.
 
-Step 12: Special Cases: Feedback for Remote-Specific Challenges
+Step 12 - Special Cases: Feedback for Remote-Specific Challenges
 
 Remote work creates unique feedback scenarios:
 
 Asynchronous Communication Issues
 - Problem: Missed messages, slow response times
-- Feedback: "I noticed the client didn't get a response for 18 hours on the urgent question. In async environments, this creates uncertainty. Could you set an expectation (e.g., 'I'll respond within 4 hours')?
+- Feedback - "I noticed the client didn't get a response for 18 hours on the urgent question. In async environments, this creates uncertainty. Could you set an expectation (e.g., 'I'll respond within 4 hours')?
 - Solution: Agree on response time norms
 
 Time Zone Coordination
 - Problem: Decisions blocked waiting for one person
-- Feedback: "The deploy was delayed 6 hours waiting for your input. Since we span time zones, could you leave comments async instead of waiting for a call?"
+- Feedback - "The deploy was delayed 6 hours waiting for your input. Since we span time zones, could you leave comments async instead of waiting for a call?"
 - Solution: Async-first communication norms
 
 Slack Tone Issues
 - Problem: Feedback in Slack feels harsh
-- Feedback: "I noticed your message came across as dismissive. In text, I think you meant helpful but it landed differently. How about 'Have you tried X?' instead of 'Obviously X'?"
+- Feedback - "I noticed your message came across as dismissive. In text, I think you meant helpful but it landed differently. How about 'Have you tried X?' instead of 'Obviously X'?"
 - Solution: Slack-specific communication guidelines
 
 Video Call Participation
 - Problem: Not engaging in meetings
-- Feedback: "I noticed you're quiet in team calls. Is everything okay? If it's a focus thing, happy to send notes instead."
+- Feedback - "I noticed you're quiet in team calls. Is everything okay? If it's a focus thing, happy to send notes instead."
 - Solution: Address the root cause, not the symptom
 
-Step 13: The Long Game: Building Feedback Culture
+Step 13 - The Long Game: Building Feedback Culture
 
 Individual feedback matters less than systemic feedback culture. To build this:
 

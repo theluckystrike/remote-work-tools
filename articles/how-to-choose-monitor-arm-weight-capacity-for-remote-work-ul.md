@@ -24,7 +24,7 @@ Table of Contents
 - [Calculating Your Actual Weight Requirements](#calculating-your-actual-weight-requirements)
 - [Prerequisites](#prerequisites)
 - [Troubleshooting Common Monitor Arm Issues](#troubleshooting-common-monitor-arm-issues)
-- [Monitor Arm Comparisons: Real-World Performance Data](#monitor-arm-comparisons-real-world-performance-data)
+- [Monitor Arm Comparisons - Real-World Performance Data](#monitor-arm-comparisons-real-world-performance-data)
 
 Why Weight Capacity Matters More for Ultrawide Monitors
 
@@ -64,7 +64,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Monitor Arm Specifications
+Step 1 - Understand Monitor Arm Specifications
 
 Monitor arm specifications include several ratings that affect performance:
 
@@ -78,7 +78,7 @@ Mounting type options include desk clamp (attaches to desk edge), grommet (passe
 
 Adjustment mechanisms vary between models. Gas springs provide smooth adjustments but may require periodic rebalancing. Mechanical springs offer consistent performance without maintenance but feel less refined during adjustments.
 
-Step 2: Common Mistakes When Selecting Monitor Arms
+Step 2 - Common Mistakes When Selecting Monitor Arms
 
 Several frequent errors lead to unsatisfactory monitor arm purchases:
 
@@ -90,19 +90,19 @@ Underestimating accessory weight: Webcams, light bars, and USB adapters add up. 
 
 Selecting arms at their weight limit: Running an arm near its maximum capacity causes faster wear and reduced adjustment smoothness. The safety buffer matters for long-term reliability.
 
-Step 3: Practical Setup Tips for Ultrawide Monitor Arms
+Step 3 - Practical Setup Tips for Ultrawide Monitor Arms
 
 Once you have the correct arm, proper installation ensures optimal performance:
 
-Secure the base firmly: Whether clamping or grommet-mounting, ensure the mount is stable. A loose base amplifies wobble during adjustments.
+Secure the base firmly - Whether clamping or grommet-mounting, ensure the mount is stable. A loose base amplifies wobble during adjustments.
 
-Balance the arm after mounting: Most gas-spring arms include a balancing mechanism. With your monitor attached, adjust the tension until the monitor stays put when positioned and moves smoothly when intentionally adjusted.
+Balance the arm after mounting - Most gas-spring arms include a balancing mechanism. With your monitor attached, adjust the tension until the monitor stays put when positioned and moves smoothly when intentionally adjusted.
 
 Route cables through integrated channels: Many arms include cable management routing. Use these channels to prevent cables from dangling and affecting balance.
 
-Position for ergonomic viewing: With your monitor at arm's length, the top of the screen should align with or slightly below eye level. Ultrawide monitors often require tilting downward to achieve comfortable viewing.
+Position for ergonomic viewing - With your monitor at arm's length, the top of the screen should align with or slightly below eye level. Ultrawide monitors often require tilting downward to achieve comfortable viewing.
 
-Step 4: When You Need a Heavy-Duty Monitor Arm
+Step 4 - When You Need a Heavy-Duty Monitor Arm
 
 Certain configurations demand specialized heavy-duty arms:
 
@@ -113,7 +113,7 @@ Certain configurations demand specialized heavy-duty arms:
 
 Heavy-duty arms from reputable manufacturers typically include better adjustment mechanisms, thicker materials, and longer warranties, investments that pay off for daily use scenarios.
 
-Step 5: Popular Monitor Arm Options and Real-World Capacities
+Step 5 - Popular Monitor Arm Options and Real-World Capacities
 
 Understanding what products actually deliver helps with purchasing decisions. Here are real-world options:
 
@@ -134,7 +134,7 @@ Premium ($250+)
 
 For ultrawide monitors specifically, mid-range options like the Ergotron LX represent the best value. Budget arms often sag within 6-12 months of heavy use with ultrawides, requiring replacement.
 
-Step 6: Verify Compatibility Before Purchase
+Step 6 - Verify Compatibility Before Purchase
 
 Final verification steps before buying:
 
@@ -150,7 +150,7 @@ Troubleshooting Common Monitor Arm Issues
 
 Even with proper selection, monitor arms can develop problems. Understanding causes and solutions prevents unnecessary replacement costs.
 
-Sagging over time typically indicates the gas spring is losing charge. Solution: Most quality arms include a small adjuster screw. Check your manual, turning the screw clockwise typically increases tension. If adjustment reaches maximum, the gas spring itself has failed and requires replacement (costs $20-50 for quality aftermarket springs).
+Sagging over time typically indicates the gas spring is losing charge. Solution - Most quality arms include a small adjuster screw. Check your manual, turning the screw clockwise typically increases tension. If adjustment reaches maximum, the gas spring itself has failed and requires replacement (costs $20-50 for quality aftermarket springs).
 
 Wobbling or play in the arm suggests loose connections. Check and tighten every joint where the arm connects to the monitor, desk clamp, and extension rod. Many wobble complaints resolve with a simple wrench tightening pass.
 
@@ -160,7 +160,7 @@ Monitor swings easily but won't stay positioned means the arm's tension adjustme
 
 Clamp leaving marks on desk happens with prolonged pressure. Place a cloth pad (folded microfiber works well) between clamp and desk surface. This distributes pressure and prevents finish damage.
 
-Step 7: Upgrading Your Monitor Arm Over Time
+Step 7 - Upgrading Your Monitor Arm Over Time
 
 Your workspace needs evolve. A monitor arm that worked well for a single 27-inch display may prove inadequate when you add second monitors or upgrade to an ultrawide. Rather than replacing the entire arm, consider these upgrade paths:
 
@@ -176,7 +176,7 @@ If desk space is limited, mounting a second arm directly to the wall provides a 
 Upgrading the monitor bracket:
 Some arms use quick-release VESA mount adapters. You can upgrade to different bracket types without replacing the entire arm. This flexibility justifies higher initial investment in quality arms.
 
-Step 8: Standing Desk and Monitor Arm Compatibility
+Step 8 - Standing Desk and Monitor Arm Compatibility
 
 Standing desk setups create unique monitor arm demands due to constant height adjustments. The arm must move smoothly through the full height range without binding or losing balance.
 
@@ -189,7 +189,7 @@ Before purchasing, verify your standing desk's thickness and ensure the clamp fi
 
 Test the full height range before committing to any setup. Some monitor arms that work perfectly at sitting height develop issues at full standing height due to arm extension changes.
 
-Step 9: Real Costs of Under-Rating Your Monitor Arm
+Step 9 - Real Costs of Under-Rating Your Monitor Arm
 
 Saving $50 by choosing an under-rated arm often costs significantly more later:
 
@@ -200,21 +200,21 @@ Saving $50 by choosing an under-rated arm often costs significantly more later:
 
 A $100 difference in initial purchase becomes $300-400 when you factor in replacement. Choosing the right weight capacity from the start is simply smart economics.
 
-Step 10: Ergonomic Considerations Beyond Weight Capacity
+Step 10 - Ergonomic Considerations Beyond Weight Capacity
 
 Monitor arm weight capacity is just one dimension of ergonomic setup. Consider these related factors:
 
-Desk height compatibility: The arm must position your monitor at eye level when you're seated or standing. Ultrawide monitors often require special consideration since they may appear at a different height depending on viewing angle.
+Desk height compatibility - The arm must position your monitor at eye level when you're seated or standing. Ultrawide monitors often require special consideration since they may appear at a different height depending on viewing angle.
 
-Arm reach and reach distance: Your monitor should sit 18-24 inches from your eyes. Calculate whether your arm's extension range supports comfortable positioning at your typical viewing distance.
+Arm reach and reach distance - Your monitor should sit 18-24 inches from your eyes. Calculate whether your arm's extension range supports comfortable positioning at your typical viewing distance.
 
 Monitor tilt and rotation capability: Some arms limit tilt or don't support portrait orientation for vertical monitors. Verify your arm supports these adjustments if you need them.
 
-Adjustment smoothness: Frequent height changes (standing desk users) benefit from exceptionally smooth gas springs. Professional-grade arms justify their cost through daily use comfort.
+Adjustment smoothness - Frequent height changes (standing desk users) benefit from exceptionally smooth gas springs. Professional-grade arms justify their cost through daily use comfort.
 
 For developers and remote workers, these ergonomic factors often matter more than raw weight capacity. A perfectly balanced arm that's easy to adjust makes your workspace significantly more enjoyable than a heavy-duty arm that's difficult to move.
 
-Monitor Arm Comparisons: Real-World Performance Data
+Monitor Arm Comparisons - Real-World Performance Data
 
 Beyond specifications, understanding how arms perform in actual use helps make better decisions. Here's comparative data from actual users:
 
@@ -234,7 +234,7 @@ These differences compound daily. An arm you adjust 50+ times per week (standing
 Cable management effectiveness:
 Most arms include cable routing channels, but effectiveness varies. Poor routing often creates additional weight pulling on the arm. Premium arms include magnetic cable holders or guides that actually contain cables. Budget arms have slots that cables slip through.
 
-Step 11: Making Final Purchase Decisions
+Step 11 - Making Final Purchase Decisions
 
 After evaluating weight capacity, specifications, and real-world performance, use this checklist:
 
@@ -258,7 +258,7 @@ Monitor Arm Purchase Checklist:
 
 Check every box before purchasing. Skipping any step often leads to returns and regrets.
 
-Step 12: Warranty and Support Considerations
+Step 12 - Warranty and Support Considerations
 
 Quality monitor arms include warranties ranging from 1-5 years. Understand what's covered:
 
@@ -271,7 +271,7 @@ Better warranty coverage usually indicates the manufacturer's confidence in long
 
 Look for manufacturers offering direct replacement or return rather than mail-in repair, which can take weeks.
 
-Step 13: Environmental Considerations
+Step 13 - Environmental Considerations
 
 Monitor arms have environmental impact through manufacturing and eventually disposal:
 

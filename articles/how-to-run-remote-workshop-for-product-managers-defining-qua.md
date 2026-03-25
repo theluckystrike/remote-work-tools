@@ -30,7 +30,7 @@ Table of Contents
 - [48 Hours Before](#48-hours-before)
 - [24 Hours Before](#24-hours-before)
 - [15 Minutes Before](#15-minutes-before)
-- [Post-Workshop: The Critical Follow-Up](#post-workshop-the-critical-follow-up)
+- [Post-Workshop - The Critical Follow-Up](#post-workshop-the-critical-follow-up)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 
 Why Remote OKR Workshops Need Structure
@@ -82,18 +82,18 @@ Test all tools before the workshop. Ensure screen sharing works and breakout roo
 
 Workshop Help Steps
 
-Step 1: Context Setting (10 minutes)
+Step 1 - Context Setting (10 minutes)
 
 Open with a clear explanation of what the quarter's OKRs should accomplish. Remind participants of the company's strategic direction and any constraints that affect priority-setting.
 
 Avoid spending too long on context. The goal is alignment, not exhaustive review. Use a brief presentation or shared document rather than lengthy narration.
 
-Step 2: Objective Brainstorming (20 minutes)
+Step 2 - Objective Brainstorming (20 minutes)
 
 Prompt participants to suggest objectives using this format:
 
 ```
-Objective format: [What we want to achieve] + [Why it matters]
+Objective format - [What we want to achieve] + [Why it matters]
 
 "Increase activation rate from 25% to 40% because higher activation
 directly correlates with retention and reduces churn."
@@ -103,7 +103,7 @@ In the collaborative whiteboard, create a column for each participant's suggesti
 
 If your team is larger than 8 people, use breakout rooms to generate ideas in smaller groups, then compile them in the main session.
 
-Step 3: Grouping and Prioritization (20 minutes)
+Step 3 - Grouping and Prioritization (20 minutes)
 
 Once you have a list of potential objectives, work together to:
 
@@ -123,7 +123,7 @@ A practical prioritization technique uses impact versus effort scoring:
 
 Focus on high-impact items regardless of effort score. Low-effort items with moderate impact make good starter OKRs for teams building momentum.
 
-Step 4: Define Key Results (25 minutes)
+Step 4 - Define Key Results (25 minutes)
 
 With prioritized objectives selected, divide into small groups to define key results. Each objective needs 2-3 key results that are:
 
@@ -134,7 +134,7 @@ With prioritized objectives selected, divide into small groups to define key res
 Provide key result templates:
 
 ```
-Objective: [Selected objective]
+Objective - [Selected objective]
 
 Key Result 1:
 - Metric: [What we measure]
@@ -152,7 +152,7 @@ Key Result 3:
 Walk through an example together before participants break into groups:
 
 ```
-Objective: Increase user activation rate
+Objective - Increase user activation rate
 
 Key Result 1:
 - Metric: Activation rate (users completing onboarding in 7 days)
@@ -167,7 +167,7 @@ Key Result 2:
 - How we track: Product analytics
 ```
 
-Step 5: Final Review and Commitment (15 minutes)
+Step 5 - Final Review and Commitment (15 minutes)
 
 Regroup and review each objective with its key results. Check for:
 
@@ -197,51 +197,51 @@ Tailor your OKR approach to team type:
 
 Engineering OKRs:
 ```markdown
-Objective: Improve system reliability and developer velocity
+Objective - Improve system reliability and developer velocity
 
-Key Result 1: Reduce deployment-related incidents by 50%
+Key Result 1 - Reduce deployment-related incidents by 50%
 - Metric: Incident count (production incidents)
 - Current: 12/month → Target: 6/month
 
-Key Result 2: Cut average PR review time in half
+Key Result 2 - Cut average PR review time in half
 - Metric: Hours from creation to approval
 - Current: 36 hours → Target: 18 hours
 
-Key Result 3: Increase code coverage from 65% to 80%
+Key Result 3 - Increase code coverage from 65% to 80%
 - Metric: Test coverage percentage
 - Current: 65% → Target: 80%
 ```
 
 Product OKRs:
 ```markdown
-Objective: Drive user engagement with personalization features
+Objective - Drive user engagement with personalization features
 
-Key Result 1: 40% of users enable personalization
+Key Result 1 - 40% of users enable personalization
 - Metric: Adoption rate
 - Current: 15% → Target: 40%
 
-Key Result 2: Increase session duration by 25%
+Key Result 2 - Increase session duration by 25%
 - Metric: Average session minutes
 - Current: 18 min → Target: 23 min
 
-Key Result 3: Improve retention by 15%
+Key Result 3 - Improve retention by 15%
 - Metric: Month-over-month retention
 - Current: 85% → Target: 90%
 ```
 
 Sales OKRs:
 ```markdown
-Objective: Expand enterprise customer segment
+Objective - Expand enterprise customer segment
 
-Key Result 1: Close 8 enterprise deals
+Key Result 1 - Close 8 enterprise deals
 - Metric: Enterprise customer count
 - Current: 12 → Target: 20
 
-Key Result 2: Increase average contract value by 30%
+Key Result 2 - Increase average contract value by 30%
 - Metric: Average deal size
 - Current: $50K → Target: $65K
 
-Key Result 3: Achieve 95% sales team quota attainment
+Key Result 3 - Achieve 95% sales team quota attainment
 - Metric: Team quota percentage
 - Current: 72% → Target: 95%
 ```
@@ -250,7 +250,7 @@ Tools and Templates
 
 Collaborative Whiteboard Options:
 - Miro: Best for technical teams, excellent templates library ($8-16/user/mo)
-- FigJam: Built into Figma ecosystem, intuitive voting ($12/user/mo)
+- FigJam: Built into Figma environment, intuitive voting ($12/user/mo)
 - Mural: Enterprise-focused, powerful for large workshops ($30/user/mo)
 
 Documentation Platforms:
@@ -290,7 +290,7 @@ OKR Workshop Pre-Flight Checklist
 - [ ] Pulled up timer tool for time-boxing segments
 ```
 
-Post-Workshop: The Critical Follow-Up
+Post-Workshop - The Critical Follow-Up
 
 The workshop conclusion is just the beginning. This follow-up sequence ensures OKRs stick:
 

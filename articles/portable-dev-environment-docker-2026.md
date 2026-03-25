@@ -20,7 +20,7 @@ A portable dev environment solves the biggest friction in remote development: ge
 
 Table of Contents
 
-- [The Goal: One Command Setup](#the-goal-one-command-setup)
+- [The Goal - One Command Setup](#the-goal-one-command-setup)
 - [Writing a Good Dev Dockerfile](#writing-a-good-dev-dockerfile)
 - [Docker Compose for Full Stack Dev](#docker-compose-for-full-stack-dev)
 - [Dev Environment Scripts](#dev-environment-scripts)
@@ -28,12 +28,12 @@ Table of Contents
 - [Managing Multiple Projects](#managing-multiple-projects)
 - [Multi-Architecture Builds (Apple Silicon + Linux CI)](#multi-architecture-builds-apple-silicon-linux-ci)
 - [CI/CD Integration](#cicd-integration)
-- [Choosing a Base Image: Comparison](#choosing-a-base-image-comparison)
+- [Choosing a Base Image - Comparison](#choosing-a-base-image-comparison)
 - [Keeping Images Up to Date](#keeping-images-up-to-date)
 
 This guide builds a complete portable dev environment: a base Dockerfile, a Docker Compose setup with services, and a VS Code dev container config. all usable from any machine with Docker installed.
 
-The Goal: One Command Setup
+The Goal - One Command Setup
 
 ```bash
 Clone repo and start environment
@@ -345,9 +345,9 @@ devstop() {
 Port convention example for preventing conflicts across projects:
 
 ```yaml
-Project A: ports in 3000-3099 range
-Project B: ports in 3100-3199 range
-Project C: ports in 3200-3299 range
+Project A - ports in 3000-3099 range
+Project B - ports in 3100-3199 range
+Project C - ports in 3200-3299 range
 ```
 
 Multi-Architecture Builds (Apple Silicon + Linux CI)
@@ -426,7 +426,7 @@ jobs:
 
 The CI environment is now identical to the local dev environment. A test that passes locally will pass in CI because both run the same container image.
 
-Choosing a Base Image: Comparison
+Choosing a Base Image - Comparison
 
 Base image choice has downstream effects on image size, security surface, and available tools:
 
@@ -453,7 +453,7 @@ Pinned image versions (e.g., `node:20.11.1-bookworm-slim`) prevent surprise brea
 .github/dependabot.yml
 version: 2
 updates:
-  - package-ecosystem: docker
+  - package-environment: docker
     directory: "/"
     schedule:
       interval: weekly
@@ -461,7 +461,7 @@ updates:
       - dependencies
       - docker
 
-  - package-ecosystem: docker
+  - package-environment: docker
     directory: "/.devcontainer"
     schedule:
       interval: weekly

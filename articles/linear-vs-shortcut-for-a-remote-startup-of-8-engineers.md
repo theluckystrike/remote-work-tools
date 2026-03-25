@@ -30,7 +30,7 @@ Table of Contents
 - [Decision Framework](#decision-framework)
 - [Implementation Example](#implementation-example)
 - [Success Metrics After Implementation](#success-metrics-after-implementation)
-- [Day-to-Day Workflows: Linear vs Shortcut](#day-to-day-workflows-linear-vs-shortcut)
+- [Day-to-Day Workflows - Linear vs Shortcut](#day-to-day-workflows-linear-vs-shortcut)
 - [Team Size Growth Considerations](#team-size-growth-considerations)
 - [Migration from Other Tools](#migration-from-other-tools)
 - [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
@@ -142,11 +142,11 @@ Eight engineers sits in a sweet spot. Large enough to need structure, small enou
 
 Pricing and Long-Term Costs
 
-Linear pricing: $8/user/month (Standard) or $14/user/month (Premium)
+Linear pricing - $8/user/month (Standard) or $14/user/month (Premium)
 - For 8 engineers: $64/month (Standard) or $112/month (Premium)
 - Annual: $768-1,344 for your entire team
 
-Shortcut pricing: $8/user/month (Standard) or $15/user/month (Pro)
+Shortcut pricing - $8/user/month (Standard) or $15/user/month (Pro)
 - For 8 engineers: $64/month (Standard) or $120/month (Pro)
 - Annual: $768-1,440 for your entire team
 
@@ -156,11 +156,11 @@ Migration Concerns
 
 If you're switching from Jira, Asana, or another tool to Linear/Shortcut:
 
-Data migration: Linear and Shortcut both offer import tools for common platforms. Test the import on a subset of issues first. Expect 1-2 days of engineering effort plus cleanup time.
+Data migration - Linear and Shortcut both offer import tools for common platforms. Test the import on a subset of issues first. Expect 1-2 days of engineering effort plus cleanup time.
 
-Team retraining: Your engineers will need 2-4 hours to learn new shortcuts and workflows. Linear's keyboard-first approach takes longer to learn but feels natural after a week. Shortcut's flexibility requires upfront config but needs less learning curve if similar to previous tools.
+Team retraining - Your engineers will need 2-4 hours to learn new shortcuts and workflows. Linear's keyboard-first approach takes longer to learn but feels natural after a week. Shortcut's flexibility requires upfront config but needs less learning curve if similar to previous tools.
 
-Integration rebuilding: If you've built custom integrations to your previous tool, you'll need to rebuild or replace them. Both Linear and Shortcut have active API communities, so most common integrations exist.
+Integration rebuilding - If you've built custom integrations to your previous tool, you'll need to rebuild or replace them. Both Linear and Shortcut have active API communities, so most common integrations exist.
 
 Decision Framework
 
@@ -213,7 +213,7 @@ Once you've chosen and implemented your system, track these metrics to ensure yo
 
 Most teams report high satisfaction with both Linear and Shortcut. The "wrong" choice would be one you abandon for a different tool within 6 months, usually a sign of implementation issues rather than tool problems.
 
-Day-to-Day Workflows: Linear vs Shortcut
+Day-to-Day Workflows - Linear vs Shortcut
 
 Linear workflow (typical day):
 ```
@@ -238,7 +238,7 @@ Shortcut workflow (typical day):
 4pm: Review upcoming stories in sprint view
 ```
 
-The difference: Linear emphasizes keyboard shortcuts and minimal clicks. Shortcut emphasizes web interface flexibility. Engineers who type fast prefer Linear. Engineers who prefer visual planning prefer Shortcut.
+The difference - Linear emphasizes keyboard shortcuts and minimal clicks. Shortcut emphasizes web interface flexibility. Engineers who type fast prefer Linear. Engineers who prefer visual planning prefer Shortcut.
 
 Team Size Growth Considerations
 
@@ -251,7 +251,7 @@ Linear starts showing advantages: keyboard workflow scales better when team is l
 Growing to 25+ engineers:
 If you chose Linear, you might feel constrained by simplicity. Shortcut's customization prevents this. However, most successful startups find Linear's constraints force good habits, limiting custom fields forces consistency.
 
-Consider: many successful teams never outgrow Linear's feature set. Others feel limited after 12 months. The "right" answer depends on your specific processes.
+Consider - many successful teams never outgrow Linear's feature set. Others feel limited after 12 months. The "right" answer depends on your specific processes.
 
 Migration from Other Tools
 
@@ -273,11 +273,11 @@ From Monday/ClickUp:
 
 Common Pitfalls and Solutions
 
-Pitfall: Creating hundreds of projects
-Solution: Limit to 3-5 core projects initially. As you grow, organize by product area or team, not by arbitrary grouping. Too many projects defeats the purpose of unified issue tracking.
+Pitfall - Creating hundreds of projects
+Solution - Limit to 3-5 core projects initially. As you grow, organize by product area or team, not by arbitrary grouping. Too many projects defeats the purpose of unified issue tracking.
 
-Pitfall: Using status wrong
-Solution: Define your statuses clearly:
+Pitfall - Using status wrong
+Solution - Define your statuses clearly:
 - Backlog: Not yet prioritized
 - Todo: Ready to work, waiting for engineer
 - In Progress: Engineer actively working
@@ -286,8 +286,8 @@ Solution: Define your statuses clearly:
 
 Don't create statuses like "Blocked," "Waiting for Design," "Needs Clarification." These indicate process problems, not status. Fix the underlying process instead.
 
-Pitfall: Issues become fire-and-forget
-Solution: Establish review cadence:
+Pitfall - Issues become fire-and-forget
+Solution - Establish review cadence:
 - Daily: Check In Progress items for blockers
 - 2x weekly: Triage new issues, move stalled items back to Todo
 - Weekly: Planning meeting to pull items into next cycle

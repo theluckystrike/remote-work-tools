@@ -24,7 +24,7 @@ Table of Contents
 - [Establish a Single Source of Truth](#establish-a-single-source-of-truth)
 - [Implement Structured Async Standups](#implement-structured-async-standups)
 - [Use Contextual Documentation Patterns](#use-contextual-documentation-patterns)
-- [ADR: Use PostgreSQL for Primary Data Store](#adr-use-postgresql-for-primary-data-store)
+- [ADR - Use PostgreSQL for Primary Data Store](#adr-use-postgresql-for-primary-data-store)
 - [Create Explicit Handoff Protocols](#create-explicit-handoff-protocols)
 - [use Code Review as Knowledge Transfer](#use-code-review-as-knowledge-transfer)
 - [Description](#description)
@@ -41,7 +41,7 @@ Table of Contents
 - [Creating an Async-First Decision Process](#creating-an-async-first-decision-process)
 - [Decision-Making Process](#decision-making-process)
 - [Measuring Knowledge Transfer Effectiveness](#measuring-knowledge-transfer-effectiveness)
-- [Real Example: Before/After Knowledge Transfer Improvement](#real-example-beforeafter-knowledge-transfer-improvement)
+- [Real Example - Before/After Knowledge Transfer Improvement](#real-example-beforeafter-knowledge-transfer-improvement)
 
 The Hybrid Knowledge Gap Problem
 
@@ -109,16 +109,16 @@ Decision Logs
 Record significant decisions with their context, alternatives considered, and reasoning:
 
 ```markdown
-ADR: Use PostgreSQL for Primary Data Store
+ADR - Use PostgreSQL for Primary Data Store
 
-Date: 2026-03-10
-Status: Accepted
-Context: Need reliable relational storage for user data with ACID compliance
+Date - 2026-03-10
+Status - Accepted
+Context - Need reliable relational storage for user data with ACID compliance
 
-Decision: Use PostgreSQL hosted on AWS RDS
+Decision - Use PostgreSQL hosted on AWS RDS
 
 Consequences:
-- Positive: Strong consistency, mature ecosystem, good AWS integration
+- Positive: Strong consistency, mature environment, good AWS integration
 - Negative: Requires managed hosting, less flexible than NoSQL for unstructured data
 
 Alternatives considered:
@@ -229,7 +229,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -241,13 +241,13 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Hybrid Knowledge Transfer Workflow Examples
 
 Real-world scenarios and how to handle them:
 
-Scenario 1: Office Developer Discovers Bug, Remote Developer Needs Context
+Scenario 1 - Office Developer Discovers Bug, Remote Developer Needs Context
 
 ```
 Bad approach:
@@ -261,10 +261,10 @@ Good approach:
 - Office dev: Posts in #knowledge-base: "Discovered critical bug in payment processing [issue #234]"
 - Remote dev (when they encounter similar issue): Finds it via search, has full context
 
-Time investment: +15 minutes upfront, saves hours later
+Time investment - +15 minutes upfront, saves hours later
 ```
 
-Scenario 2: Remote Developer Solves Architectural Problem, Office Team Needs to Know
+Scenario 2 - Remote Developer Solves Architectural Problem, Office Team Needs to Know
 
 ```
 Bad approach:
@@ -282,7 +282,7 @@ Artifact:
 /docs/adr/0042-async-database-sync-strategy.md
 ```
 
-Scenario 3: In-Office Meeting Produces Decision, Remote Team Left Out
+Scenario 3 - In-Office Meeting Produces Decision, Remote Team Left Out
 
 ```
 Bad approach:
@@ -296,7 +296,7 @@ Good approach:
 - Outcome: Decision summary + dissent captured in decision log
 - Post-meeting: All team members (on-site and remote) review same documentation
 
-Key: Proposal comes first (async), meeting is for feedback only
+Key - Proposal comes first (async), meeting is for feedback only
 ```
 
 Knowledge Gap Assessment Template
@@ -362,7 +362,7 @@ Hybrid teams benefit from making most decisions async-first:
 ```markdown
 Decision-Making Process
 
-Step 1: Written Proposal (Async)
+Step 1 - Written Proposal (Async)
 - Author writes proposal (500-2000 words)
 - Includes: problem, proposed solution, alternatives considered, rationale
 - Posted to team in multiple locations:
@@ -370,20 +370,20 @@ Step 1: Written Proposal (Async)
   - Slack #architecture (with link, not full content)
   - Confluence/wiki with deadline for feedback
 
-Step 2: Feedback Collection (Async)
+Step 2 - Feedback Collection (Async)
 - Deadline: 5 business days for feedback
 - Async comments in primary location (GitHub)
 - Synchronous discussion only if critical concerns arise
 - Location: Office and remote teammates comment equally
 
-Step 3: Decision Making (Sync optional)
+Step 3 - Decision Making (Sync optional)
 - If consensus from async feedback: Approve with comment
 - If disagreement: Schedule 30-min sync to discuss
   - Only required attendees present
   - Focus: resolve specific disagreements, not re-explain proposal
   - Record decision and rationale in primary location
 
-Step 4: Implementation & Feedback
+Step 4 - Implementation & Feedback
 - Decision gets ADR or decision log entry
 - Includes: what was decided, why, by whom, when effective
 - Feedback loop: "After 3 months, measure if this decision is working"
@@ -397,8 +397,8 @@ Example Timeline:
 - Wed: Decision formalized and documented
 - Thu: Implementation begins
 
-Total timeline: ~2 weeks vs immediate decision in sync meeting
-Benefit: Remote teams have time to think, full context available
+Total timeline - ~2 weeks vs immediate decision in sync meeting
+Benefit - Remote teams have time to think, full context available
 ```
 
 Measuring Knowledge Transfer Effectiveness
@@ -442,7 +442,7 @@ def measure_knowledge_transfer():
     return metrics
 ```
 
-Real Example: Before/After Knowledge Transfer Improvement
+Real Example - Before/After Knowledge Transfer Improvement
 
 ```
 BEFORE (Struggling Hybrid Team)
@@ -470,8 +470,8 @@ Key indicators:
 - One-on-ones show engagement: "Love having full context before decisions"
 - New hires integrate better (docs are accurate and complete)
 
-Time investment to get here: 4-8 weeks of documentation sprints
-Payoff: Better remote retention, faster onboarding, fewer repeated mistakes
+Time investment to get here - 4-8 weeks of documentation sprints
+Payoff - Better remote retention, faster onboarding, fewer repeated mistakes
 ```
 
 Related Articles

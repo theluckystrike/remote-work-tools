@@ -28,13 +28,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Velocity in Async Environments
+Step 1 - Understand Velocity in Async Environments
 
 Velocity measures how much work a team completes in a given timeframe. In remote settings, traditional methods like observing someone at their desk no longer apply. Instead, you track completed work items, story points, or feature deliveries over time.
 
-The core challenge: remote work introduces time zone differences, flexible schedules, and communication delays that can distort simple counting metrics. A thoughtful velocity tracking system accounts for these factors while keeping measurement overhead low.
+The core challenge - remote work introduces time zone differences, flexible schedules, and communication delays that can distort simple counting metrics. A thoughtful velocity tracking system accounts for these factors while keeping measurement overhead low.
 
-Step 2: Core Velocity Metrics to Track
+Step 2 - Core Velocity Metrics to Track
 
 Sprint Velocity
 
@@ -126,10 +126,10 @@ completed = [
 
 throughput = calculate_weekly_throughput(completed)
 print(f"Weekly throughput: {throughput}")
-Output: {'2026-03-03': 3, '2026-03-10': 2}
+Output - {'2026-03-03': 3, '2026-03-10': 2}
 ```
 
-Step 3: Set Up Velocity Tracking
+Step 3 - Set Up Velocity Tracking
 
 Data Collection Pipeline
 
@@ -206,7 +206,7 @@ new Chart(document.getElementById('velocityChart'), {
 });
 ```
 
-Step 4: Avoiding Common Pitfalls
+Step 4 - Avoiding Common Pitfalls
 
 Don't Track Activity Instead of Outcomes
 
@@ -220,7 +220,7 @@ Keep Measurement Transparent
 
 Share velocity metrics openly with the team. When people understand how velocity is calculated, they can contribute to improving it rather than feeling surveilled.
 
-Step 5: Practical Velocity Tracking Setup
+Step 5 - Practical Velocity Tracking Setup
 
 For most remote teams, a minimal setup includes:
 

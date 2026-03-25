@@ -22,12 +22,12 @@ Table of Contents
 
 - [Why Pair Programming Works Better Remote](#why-pair-programming-works-better-remote)
 - [Prerequisites](#prerequisites)
-- [Comparison: When to Use Each Tool](#comparison-when-to-use-each-tool)
+- [Comparison - When to Use Each Tool](#comparison-when-to-use-each-tool)
 - [Troubleshooting](#troubleshooting)
 
 Why Pair Programming Works Better Remote
 
-In-office pairing is natural: you share a screen and keyboard effortlessly. Remote pairing requires intentional tooling. The best tools give both participants equal control of the code, synchronized cursor visibility, and smooth audio for discussion. They also let the "driver" stay focused while the "observer" navigates and thinks strategically.
+In-office pairing is natural - you share a screen and keyboard effortlessly. Remote pairing requires intentional tooling. The best tools give both participants equal control of the code, synchronized cursor visibility, and smooth audio for discussion. They also let the "driver" stay focused while the "observer" navigates and thinks strategically.
 
 Effective remote pairing requires:
 - Low-latency cursor and selection sync (ideally <100ms)
@@ -46,7 +46,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: VS Code Live Share: Instant Pairing Without Setup
+Step 1 - VS Code Live Share: Instant Pairing Without Setup
 
 Live Share is built into VS Code and requires no additional download. One person starts a session and shares a link; the other opens the link in a browser or VS Code. Both see the same file, can edit simultaneously, and see each other's cursors.
 
@@ -56,7 +56,7 @@ Live Share comes with VS Code 1.30+. Verify it's installed:
 
 ```
 In VS Code, open Command Palette (Cmd+Shift+P / Ctrl+Shift+P)
-Type "Live Share: Start Collaboration Session"
+Type "Live Share - Start Collaboration Session"
 Click to start
 ```
 
@@ -123,7 +123,7 @@ Observer (thinking strategically):
 
 Switch roles:
 ```
-Observer: "Let me take the keyboard. I'll add the error handling."
+Observer - "Let me take the keyboard. I'll add the error handling."
 Driver clicks "Stop Editing" in Live Share panel
 Observer's cursor becomes active; driver watches
 ```
@@ -143,7 +143,7 @@ To let a guest type in the terminal:
 2. Type "Live Share: Make Terminal Interactive"
 3. Guest gains read-write access to terminal
 
-Use case: Debugging a failing test. Observer runs the test, watches output, driver investigates.
+Use case - Debugging a failing test. Observer runs the test, watches output, driver investigates.
 
 Performance and Limitations
 
@@ -160,13 +160,13 @@ Weaknesses:
 - Guests cannot use all VS Code extensions (security restriction)
 - Debugging support is limited (host can share debugging session, but guest cannot debug)
 
-Cost: Free (included with VS Code, no paid tier)
+Cost - Free (included with VS Code, no paid tier)
 
-Bandwidth requirement: 2-5Mbps is comfortable; 1Mbps is minimum
+Bandwidth requirement - 2-5Mbps is comfortable; 1Mbps is minimum
 
-Step 2: JetBrains Code With Me: IDE-Native Pairing
+Step 2 - JetBrains Code With Me: IDE-Native Pairing
 
-If you're using PyCharm, IntelliJ IDEA, or other JetBrains IDEs, Code With Me is built in. It offers deeper IDE integration than Live Share: full debugging support, shared run configurations, and language-aware code completion across both participants.
+If you're using PyCharm, IntelliJ IDEA, or other JetBrains IDEs, Code With Me is built in. It offers deeper IDE integration than Live Share - full debugging support, shared run configurations, and language-aware code completion across both participants.
 
 Installation and Session Start
 
@@ -180,7 +180,7 @@ Session link generated
 
 Share the link; participants click to join (opens in their IDE automatically if they have Code With Me installed, browser otherwise).
 
-Configuration: Host vs Guest Permissions
+Configuration - Host vs Guest Permissions
 
 Before starting, set host-side permissions:
 
@@ -191,7 +191,7 @@ Tools → Code With Me → Session Settings
 - Set session timeout (default 60 minutes)
 ```
 
-Common workflow: Start with guests read-only, enable editing after discussing the plan.
+Common workflow - Start with guests read-only, enable editing after discussing the plan.
 
 Shared Debugging
 
@@ -229,7 +229,7 @@ Terminal sharing is more strong than Live Share:
 ```
 Host opens Terminal in IDE
 Guests can read output immediately
-Toggle: Tools → Code With Me → Session Settings → "Allow terminal access"
+Toggle - Tools → Code With Me → Session Settings → "Allow terminal access"
 Guests gain read-write access to terminal
 ```
 
@@ -253,11 +253,11 @@ Weaknesses:
 - Latency slightly higher than Live Share (100-150ms typical)
 - Guests must have a JetBrains account (free account okay)
 
-Cost: $8.99/month or $89.99/year per user (includes all JetBrains IDEs on that license)
+Cost - $8.99/month or $89.99/year per user (includes all JetBrains IDEs on that license)
 
-Bandwidth requirement: 3-8Mbps recommended
+Bandwidth requirement - 3-8Mbps recommended
 
-Step 3: Terminal Pairing: tmux + SSH for Zero Dependencies
+Step 3 - Terminal Pairing: tmux + SSH for Zero Dependencies
 
 For server-side development or when you need maximum control, tmux (terminal multiplexer) + SSH is the simplest approach. Both developers SSH into the same server and share a tmux session. No GUI, no latency, perfect for remote server work.
 
@@ -267,7 +267,7 @@ Person A (host) creates a session:
 ```bash
 On shared server
 tmux new-session -s pair
-Session created: "pair"
+Session created - "pair"
 Person A is now in tmux shell
 ```
 
@@ -322,7 +322,7 @@ Advanced tmux Pairing Patterns
 
 Detach and re-attach without losing work:
 ```bash
-Person A: Ctrl+B then D (detach)
+Person A - Ctrl+B then D (detach)
 Terminal returns to shell, but session still active
 
 Person B continues working in the session
@@ -334,10 +334,10 @@ Re-enters the session at the same spot
 
 Multiple sessions for different features:
 ```bash
-Session 1: Feature branch work
+Session 1 - Feature branch work
 tmux new-session -s feature-auth
 
-Session 2: Bug fixes
+Session 2 - Bug fixes
 tmux new-session -s bug-fix
 
 Person B can switch between sessions:
@@ -369,11 +369,11 @@ Weaknesses:
 - No integrated audio (use Slack/Discord alongside)
 - Single cursor position (both see same cursor, harder to point at different areas)
 
-Cost: Free (tmux is open source)
+Cost - Free (tmux is open source)
 
-Best for: DevOps teams, server-side development, debugging production systems
+Best for - DevOps teams, server-side development, debugging production systems
 
-Comparison: When to Use Each Tool
+Comparison - When to Use Each Tool
 
 | Scenario | Best Tool | Reason |
 |----------|-----------|--------|
@@ -384,7 +384,7 @@ Comparison: When to Use Each Tool
 | Pair review of large codebase | Code With Me | Better performance on large files |
 | Async pairing (not real-time) | None; use comments in PR | Not live pairing; use code review instead |
 
-Step 4: Session Management Checklist
+Step 4 - Session Management Checklist
 
 Before each session:
 - [ ] Test audio/video (if using Live Share audio)

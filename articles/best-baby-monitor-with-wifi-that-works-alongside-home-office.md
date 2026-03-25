@@ -15,7 +15,7 @@ intent-checked: true
 
 {% raw %}
 
-Monitors with local AI processing (like Nanit Pro) detect crying and motion onboard, minimizing bandwidth to 1 Mbps during monitoring, critical when your 100 Mbps connection is already handling Zoom calls, deployments, and IDE operations. Placing monitors on a separate VLAN isolates them from your development network, preventing a compromised device from reaching your workstations, while integration with Home Assistant via ONVIF/MQTT standards lets you build custom alerts that fit your development workflow rather than forcing you into a single app ecosystem.
+Monitors with local AI processing (like Nanit Pro) detect crying and motion onboard, minimizing bandwidth to 1 Mbps during monitoring, critical when your 100 Mbps connection is already handling Zoom calls, deployments, and IDE operations. Placing monitors on a separate VLAN isolates them from your development network, preventing a compromised device from reaching your workstations, while integration with Home Assistant via ONVIF/MQTT standards lets you build custom alerts that fit your development workflow rather than forcing you into a single app environment.
 
 Table of Contents
 
@@ -220,17 +220,17 @@ Different work scenarios demand different network prioritization:
 
 During Video Calls:
 ```
-Priority 1 (Critical): Zoom/Teams video, 100 Mbps reserved
-Priority 2 (High): Code deployments, git pushes, 50 Mbps
-Priority 3 (Medium): Web browsing, Slack, 20 Mbps
-Priority 4 (Low): Baby monitor, 5 Mbps max
+Priority 1 (Critical) - Zoom/Teams video, 100 Mbps reserved
+Priority 2 (High) - Code deployments, git pushes, 50 Mbps
+Priority 3 (Medium) - Web browsing, Slack, 20 Mbps
+Priority 4 (Low) - Baby monitor, 5 Mbps max
 ```
 
 During Solo Work:
 ```
-Priority 1 (High): IDEs, database queries, 100 Mbps
-Priority 2 (Medium): Web browsing, 30 Mbps
-Priority 3 (Low): Monitor + background downloads, 10 Mbps
+Priority 1 (High) - IDEs, database queries, 100 Mbps
+Priority 2 (Medium) - Web browsing, 30 Mbps
+Priority 3 (Low) - Monitor + background downloads, 10 Mbps
 ```
 
 Configure these as separate QoS profiles you switch between.
@@ -283,7 +283,7 @@ Nanit Pro
 
 Owlet Dream Duo
 - API: HomeKit Secure Video
-- Integration: Deep Apple ecosystem compatibility
+- Integration: Deep Apple environment compatibility
 - Limitation: Limited third-party integration
 - Cost: $300+
 
@@ -388,7 +388,7 @@ automation:
 Troubleshooting Common Monitor/Network Issues
 
 Monitor Frequently Disconnects
-Symptoms: App shows "offline," reconnects every 5-10 minutes
+Symptoms - App shows "offline," reconnects every 5-10 minutes
 
 Diagnosis:
 1. Check WiFi signal strength at nursery location (aim for -50 dBm or better)
@@ -402,7 +402,7 @@ Solutions:
 - Reduce monitor resolution if frequent disconnects persist
 
 Bandwidth Spikes During Monitor Usage
-Symptoms: Zoom calls lag when monitor is streaming
+Symptoms - Zoom calls lag when monitor is streaming
 
 Diagnosis:
 1. Run bandwidth test: `iperf3 -c <router_ip>`
@@ -416,7 +416,7 @@ Solutions:
 - Check for multiple active streams (app + cloud backup)
 
 Security Warnings About Monitor
-Symptoms: Router warns about unencrypted connections, vulnerability scans flag device
+Symptoms - Router warns about unencrypted connections, vulnerability scans flag device
 
 Solutions:
 - Keep monitor firmware updated (critical for security patches)

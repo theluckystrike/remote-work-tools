@@ -59,8 +59,8 @@ Electric desks use motors to adjust height with the press of a button. Most mode
 
 ```bash
 When setting up your electric desk, measure your ideal heights:
-Sitting height: Measure from floor to elbow while seated with arms at 90 degrees
-Standing height: Measure from floor to elbow while standing with arms at 90 degrees
+Sitting height - Measure from floor to elbow while seated with arms at 90 degrees
+Standing height - Measure from floor to elbow while standing with arms at 90 degrees
 Save both positions in your desk's memory for quick switching
 ```
 
@@ -214,9 +214,9 @@ Desk Height Calculators
 
 Use this formula to calculate your ideal desk heights:
 
-Sitting Height: Measure from the floor to your bent elbow while seated with feet flat. Add 0.5 inches for comfort. This is your ideal keyboard height when sitting.
+Sitting Height - Measure from the floor to your bent elbow while seated with feet flat. Add 0.5 inches for comfort. This is your ideal keyboard height when sitting.
 
-Standing Height: Measure from the floor to your bent elbow while standing naturally. This is your ideal keyboard height when standing.
+Standing Height - Measure from the floor to your bent elbow while standing naturally. This is your ideal keyboard height when standing.
 
 Example calculations for a 5'10" developer:
 - Sitting elbow height: ~29 inches (your sitting keyboard height)

@@ -31,7 +31,7 @@ Send a welcome email containing:
 Example welcome message structure:
 
 ```markdown
-Subject: Welcome to [Team Name]! Your First Week Roadmap
+Subject - Welcome to [Team Name]! Your First Week Roadmap
 
 Hi [Name],
 
@@ -57,9 +57,9 @@ Create dedicated Slack channels for the new hire:
 - `#onboarding-[name]`. Private channel for questions and guidance
 - `#new-hires-[cohort]`. Optional group channel for peer connection
 
-Week One: Foundation Building (Days 1-5)
+Week One - Foundation Building (Days 1-5)
 
-Day 1: Establish Communication Norms
+Day 1 - Establish Communication Norms
 
 Schedule a 45-minute communication preferences meeting covering:
 
@@ -91,7 +91,7 @@ meeting_preferences:
   focus_blocks: "Tuesday/Thursday afternoons"
 ```
 
-Days 2-3: Documentation Review Sessions
+Days 2-3 - Documentation Review Sessions
 
 Conduct structured walkthroughs of essential documentation:
 
@@ -102,9 +102,9 @@ Conduct structured walkthroughs of essential documentation:
 | Incident response guide | On-call procedures | 30 min | SRE/Platform |
 | Project management guide | Task tracking, sprint process | 30 min | PM |
 
-Async option: Record these sessions for future hires and timezone flexibility.
+Async option - Record these sessions for future hires and timezone flexibility.
 
-Days 4-5: First Project Introduction
+Days 4-5 - First Project Introduction
 
 Assign a starter task that requires touching multiple systems and interacting with several team members. This forces early collaboration and surfaces any access or process issues.
 
@@ -114,7 +114,7 @@ Typical starter tasks include:
 - Updating documentation for a known process
 - Reviewing and providing feedback on a recent PR
 
-Week Two: Integration and Independence (Days 6-10)
+Week Two - Integration and Independence (Days 6-10)
 
 Daily Check-ins
 
@@ -173,7 +173,7 @@ Week of [Date] Update
 Decision documentation for async discussions:
 
 ```markdown
-Decision: [Topic]
+Decision - [Topic]
 
 Context:
 [Brief background on the decision needed]

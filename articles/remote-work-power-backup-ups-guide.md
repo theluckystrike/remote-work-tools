@@ -28,8 +28,8 @@ Table of Contents
 - [Power Outage Response Runbook](#power-outage-response-runbook)
 - [Power Outage Protocol](#power-outage-protocol)
 - [Budget Recommendation](#budget-recommendation)
-- [Comparing UPS Models: Feature Matrix](#comparing-ups-models-feature-matrix)
-- [Configuration Deep Dive: Linux/Unix Systems](#configuration-deep detailed look-linuxunix-systems)
+- [Comparing UPS Models - Feature Matrix](#comparing-ups-models-feature-matrix)
+- [Configuration Deep Dive - Linux/Unix Systems](#configuration-deep detailed look-linuxunix-systems)
 - [Networking Redundancy Integration](#networking-redundancy-integration)
 - [Troubleshooting Common Issues](#troubleshooting-common-issues)
 - [Multi-Zone Setup for Distributed Teams](#multi-zone-setup-for-distributed-teams)
@@ -72,7 +72,7 @@ Example setup:
 MacBook Pro M3 (65W) + 2x monitors (70W) + router (15W) + switch (10W)
 = 160W total
 
-UPS sizing rule: Load ÷ 0.7 (to avoid running at 100% capacity)
+UPS sizing rule - Load ÷ 0.7 (to avoid running at 100% capacity)
 = 160W ÷ 0.7 = 228W minimum UPS rating
 
 Look for a UPS with at least 600VA (≈ 360W) to give yourself margin.
@@ -93,28 +93,28 @@ Why the 0.7 derating rule matters: Running a UPS at 100% capacity continuously d
 
 Recommended UPS Models
 
-Budget ($100-150): APC Back-UPS 1100VA
+Budget ($100-150) - APC Back-UPS 1100VA
 - 1100VA / 660W
 - USB connection for software signaling
 - 8 outlets (5 with battery backup, 3 surge-only)
 - ~25 minutes at 160W load
 - Good for: laptop, monitors, router
 
-Mid-range ($180-250): CyberPower CP1500PFCLCD
+Mid-range ($180-250) - CyberPower CP1500PFCLCD
 - 1500VA / 1000W
 - Pure sine wave output (important for NAS and server gear)
 - LCD display showing current load and runtime estimate
 - ~35 minutes at 160W load
 - Good for: full workstation + monitors + networking gear
 
-Professional ($350-500): APC SMT1500RM2U or Eaton 5P
+Professional ($350-500) - APC SMT1500RM2U or Eaton 5P
 - 1500VA / 1000W
 - Network management card slot
 - Pure sine wave
 - SNMP support for monitoring
 - Good for: setups with local servers or NAS devices you need to protect
 
-Key spec to check: Pure sine wave vs. stepped approximation
+Key spec to check - Pure sine wave vs. stepped approximation
 
 Cheap UPS units output stepped approximation waveforms. Most laptops and desktop PSUs tolerate this. NAS devices, servers, and some chargers do not. If you run a NAS or local server, buy a pure sine wave UPS.
 
@@ -150,7 +150,7 @@ If you have a 4G or 5G backup modem (see the internet redundancy guide), it must
 
 UPS Software Configuration
 
-APC: PowerChute Personal Edition
+APC - PowerChute Personal Edition
 
 ```bash
 Install on Ubuntu/Debian
@@ -168,7 +168,7 @@ MINUTES 5          # Shutdown when < 5 minutes runtime left
 TIMEOUT 0          # No time limit shutdown
 ```
 
-CyberPower: PowerPanel Personal
+CyberPower - PowerPanel Personal
 
 ```bash
 Install on macOS
@@ -181,15 +181,15 @@ The GUI shows:
 - Configure: auto-shutdown when runtime drops below X minutes
 ```
 
-NAS: QNAP/Synology USB UPS Integration
+NAS - QNAP/Synology USB UPS Integration
 
 ```bash
-QNAP: Control Panel → UPS → USB UPS
-Enable: "Activate UPS support"
-Safe mode delay: 120 seconds (after power loss)
-Safe mode: Save and shut down if power not restored in X minutes
+QNAP - Control Panel → UPS → USB UPS
+Enable - "Activate UPS support"
+Safe mode delay - 120 seconds (after power loss)
+Safe mode - Save and shut down if power not restored in X minutes
 
-Synology: Control Panel → Hardware & Power → UPS
+Synology - Control Panel → Hardware & Power → UPS
 Same settings, different UI
 ```
 
@@ -201,7 +201,7 @@ NUT is an open-source framework that lets a single UPS communicate power status 
 On the UPS-connected machine:
 apt install nut
 Edit /etc/nut/ups.conf, /etc/nut/upsd.conf, /etc/nut/upsd.users
-Configure: driver = usbhid-ups, port = auto
+Configure - driver = usbhid-ups, port = auto
 
 On secondary machines:
 Edit /etc/nut/upsmon.conf
@@ -223,11 +223,11 @@ apcaccess status | grep -E "BCHARGE|TIMELEFT|BATTDATE"
 
 Output:
 BCHARGE  : 100.0 Percent
-TIMELEFT : 28.5 Minutes
-BATTDATE : 2023-06-12  -- battery date, if >4 years old, consider replacement
+TIMELEFT  - 28.5 Minutes
+BATTDATE  - 2023-06-12  -- battery date, if >4 years old, consider replacement
 ```
 
-Replacement battery sourcing: OEM replacement batteries from APC and CyberPower cost $40-80 for 1500VA units. Third-party replacements (BB Battery, Yuasa) are 30-50% cheaper and generally comparable quality. For professional-grade UPS units like the APC Smart-UPS line, APC's own RBC (Replacement Battery Cartridge) kits are the safest option because they include all connectors and hardware. For consumer-grade Back-UPS units, third-party batteries work fine.
+Replacement battery sourcing - OEM replacement batteries from APC and CyberPower cost $40-80 for 1500VA units. Third-party replacements (BB Battery, Yuasa) are 30-50% cheaper and generally comparable quality. For professional-grade UPS units like the APC Smart-UPS line, APC's own RBC (Replacement Battery Cartridge) kits are the safest option because they include all connectors and hardware. For consumer-grade Back-UPS units, third-party batteries work fine.
 
 Set a calendar reminder to replace the battery at year 3 regardless of apparent health. The cost of an unexpected UPS failure (battery dies mid-power-outage with no warning) is higher than the cost of a proactive replacement.
 
@@ -237,7 +237,7 @@ Power Outage Response Runbook
 Power Outage Protocol
 
 1. UPS activates. note the time
-2. Immediately: check if router/modem is on UPS (test: ping 8.8.8.8)
+2. Immediately - check if router/modem is on UPS (test: ping 8.8.8.8)
 3. If internet is up: continue work normally, keep calls brief
 4. At 15 minutes remaining (UPS alarm changes pitch):
    - Save all open files
@@ -269,7 +269,7 @@ At $48/year, a UPS is cheaper than most SaaS tools and eliminates the most unpre
 
 If budget is a constraint, a used APC Back-UPS 1500 from eBay with a new third-party battery costs around $40-60 total and provides equivalent protection. UPS hardware is strong. the battery is the only consumable component.
 
-Comparing UPS Models: Feature Matrix
+Comparing UPS Models - Feature Matrix
 
 When evaluating UPS systems, use this comparison table to match features to your needs:
 
@@ -285,15 +285,15 @@ When evaluating UPS systems, use this comparison table to match features to your
 | Expected lifespan | 5-8 years | 7-10 years | 10+ years |
 | Replacement parts | Common | Common | Common + proprietary |
 
-Key decision factors: If you run local infrastructure (NAS, dev servers), prioritize pure sine wave output. If you only need to protect laptops and networking gear, stepped approximation is acceptable.
+Key decision factors - If you run local infrastructure (NAS, dev servers), prioritize pure sine wave output. If you only need to protect laptops and networking gear, stepped approximation is acceptable.
 
-Configuration Deep Dive: Linux/Unix Systems
+Configuration Deep Dive - Linux/Unix Systems
 
 For engineers running Linux servers or NAS devices, apcupsd provides UPS management:
 
 ```bash
 Full apcupsd configuration example
-File: /etc/apcupsd/apcupsd.conf
+File - /etc/apcupsd/apcupsd.conf
 
 DEVICE /dev/usb/hiddev0
 UPSTYPE usb
@@ -358,16 +358,16 @@ Combined with your UPS, a 4G backup modem on a separate battery circuit ensures 
 
 Troubleshooting Common Issues
 
-Issue: UPS beeps continuously but won't discharge
+Issue - UPS beeps continuously but won't discharge
 
 ```bash
-Likely cause: Overload condition
+Likely cause - Overload condition
 apcaccess status | grep "LOADPCT"  # Should be <80%
-Solution: Reduce load by removing devices from battery outlets
-Test with: unplug non-essential equipment, observe if beeping stops
+Solution - Reduce load by removing devices from battery outlets
+Test with - unplug non-essential equipment, observe if beeping stops
 ```
 
-Issue: Runtime much shorter than rated
+Issue - Runtime much shorter than rated
 
 Battery degradation is the most common cause. Test:
 
@@ -382,7 +382,7 @@ Look for output indicating battery condition
 Replace battery if "Battery not capable of supplying current load"
 ```
 
-Issue: Software not detecting UPS after restart
+Issue - Software not detecting UPS after restart
 
 ```bash
 Verify USB connection

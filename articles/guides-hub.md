@@ -958,7 +958,7 @@ Guides
 - [OpenVPN client configuration snippet](/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
 - [Optimize Docker for Slow Connections When Working Remotely](/docker-optimize-slow-connection-remote-work/)
 - [Parent Room Design for Hybrid Offices (2026)](/how-to-design-mother-and-parent-room-for-hybrid-office-retur/)
-- [Parse: Accomplished X. Next: Y. Blockers: Z](/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
+- [Parse - Accomplished X. Next: Y. Blockers: Z](/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
 - [Password Rotation Policy Setup for Remote Teams Using Shared](/password-rotation-policy-setup-for-remote-teams-using-shared/)
 - [Payment Terms Best Practices for Freelancers](/payment-terms-best-practices-for-freelancers/)
 - [Pet Friendly Digital Nomad Destinations 2026](/pet-friendly-digital-nomad-destinations-2026/)

@@ -28,7 +28,7 @@ Table of Contents
 - [Creating the Report Template](#creating-the-report-template)
 - [Automating Delivery](#automating-delivery)
 - [Scheduling the Automation](#scheduling-the-automation)
-- [Report Format Options: Choosing What Works for Each Client](#report-format-options-choosing-what-works-for-each-client)
+- [Report Format Options - Choosing What Works for Each Client](#report-format-options-choosing-what-works-for-each-client)
 - [Enhancing Reports with Additional Context](#enhancing-reports-with-additional-context)
 - [Security and Access Considerations](#security-and-access-considerations)
 - [Measuring Report Effectiveness](#measuring-report-effectiveness)
@@ -261,7 +261,7 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
 ```
 
-Report Format Options: Choosing What Works for Each Client
+Report Format Options - Choosing What Works for Each Client
 
 Not every client wants a plain-text email. Tailor your delivery format based on the client's preferences and technical comfort level.
 

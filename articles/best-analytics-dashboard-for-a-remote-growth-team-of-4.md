@@ -30,9 +30,9 @@ Metabase is the strongest pick for most four-person remote growth teams -- it of
 Table of Contents
 
 - [What a Four-Person Remote Growth Team Actually Needs](#what-a-four-person-remote-growth-team-actually-needs)
-- [Metabase: Open-Source Flexibility with SQL Access](#metabase-open-source-flexibility-with-sql-access)
-- [Grafana: Operational Metrics with Strong Visualization](#grafana-operational-metrics-with-strong-visualization)
-- [Supabase Dashboards: Built-In Analytics for Postgres Users](#supabase-dashboards-built-in-analytics-for-postgres-users)
+- [Metabase - Open-Source Flexibility with SQL Access](#metabase-open-source-flexibility-with-sql-access)
+- [Grafana - Operational Metrics with Strong Visualization](#grafana-operational-metrics-with-strong-visualization)
+- [Supabase Dashboards - Built-In Analytics for Postgres Users](#supabase-dashboards-built-in-analytics-for-postgres-users)
 - [Choosing the Right Dashboard](#choosing-the-right-dashboard)
 - [Building Dashboard Habits That Work Remotely](#building-dashboard-habits-that-work-remotely)
 - [Building Your First Growth Dashboard](#building-your-first-growth-dashboard)
@@ -54,7 +54,7 @@ Before examining tools, clarify what your team actually needs. A remote growth t
 
 The ideal dashboard solution must handle multiple data sources, support role-based views, integrate with your existing tech stack, and remain affordable. Enterprise platforms like Looker or Tableau often price out small teams, while free tools lack the automation and collaboration features remote teams need.
 
-Metabase: Open-Source Flexibility with SQL Access
+Metabase - Open-Source Flexibility with SQL Access
 
 Metabase stands out as the strongest choice for small remote growth teams that have at least one developer comfortable with SQL. This open-source business intelligence tool runs self-hosted or on Metabase's cloud, offering a balance of power and accessibility that fits the four-person team model perfectly.
 
@@ -112,7 +112,7 @@ curl -X POST "https://your-metabase/api/pulse" \
   }'
 ```
 
-Grafana: Operational Metrics with Strong Visualization
+Grafana - Operational Metrics with Strong Visualization
 
 If your growth team leans toward product-led metrics and needs to monitor system health alongside business metrics, Grafana provides exceptional visualization capabilities. Originally built for infrastructure monitoring, Grafana has expanded into a general-purpose dashboard tool that integrates with any data source.
 
@@ -157,7 +157,7 @@ ORDER BY time
 
 Grafana's annotation feature proves valuable for remote teams documenting experiments. Mark specific dashboard points with experiment start dates, marketing campaign launches, or product releases so everyone interprets the same data context.
 
-Supabase Dashboards: Built-In Analytics for Postgres Users
+Supabase Dashboards - Built-In Analytics for Postgres Users
 
 If your team already runs on Supabase, the built-in analytics dashboard provides a zero-additional-cost solution that covers many growth team needs. While not as feature-rich as dedicated BI tools, Supabase analytics works well for teams tracking product metrics and need quick slice-and-dice capabilities.
 
@@ -250,19 +250,19 @@ CREATE TABLE funnel_events (
 
 From this foundation, build dashboards that answer the core growth questions:
 
-Dashboard 1: North Star Metrics (Updated Daily)
+Dashboard 1 - North Star Metrics (Updated Daily)
 - Total users (with growth trend)
 - Active users (daily, weekly, monthly)
 - Conversion funnel (signup -> activation -> retention)
 - Revenue and ARR with trend lines
 
-Dashboard 2: Cohort Analysis (Updated Weekly)
+Dashboard 2 - Cohort Analysis (Updated Weekly)
 - Retention curves by cohort
 - LTV by acquisition month
 - Churn rate trends
 - Payback period by acquisition channel
 
-Dashboard 3: Feature Adoption (Updated Daily)
+Dashboard 3 - Feature Adoption (Updated Daily)
 - Feature usage breakdown
 - Adoption rate by user segment
 - Impact on retention metrics
@@ -277,27 +277,27 @@ Growth Metrics Dictionary
 
 DAU (Daily Active Users)
 Count of distinct users with at least one tracked event on a given day
-Includes: Web, mobile app, and API interactions
-Excludes: Test accounts, internal team usage, bot traffic
-Calculation: `SELECT COUNT(DISTINCT user_id) FROM events WHERE DATE(event_time) = TODAY()`
+Includes - Web, mobile app, and API interactions
+Excludes - Test accounts, internal team usage, bot traffic
+Calculation - `SELECT COUNT(DISTINCT user_id) FROM events WHERE DATE(event_time) = TODAY()`
 
 Conversion Rate (Signup to Paid)
 Percentage of users who sign up that eventually pay
-Numerator: Distinct users with at least one successful payment
-Denominator: Distinct signups in lookback window (default 30 days)
-Formula: `(paying_users / total_signups) * 100`
+Numerator - Distinct users with at least one successful payment
+Denominator - Distinct signups in lookback window (default 30 days)
+Formula - `(paying_users / total_signups) * 100`
 
 Churn Rate
 Percentage of paying subscribers who cancel in a given period
-Measurement: Monthly cohorts tracked forward
+Measurement - Monthly cohorts tracked forward
 User has no active subscription on last day of month
-Edge case: Trial users who don't convert = 100% churn
+Edge case - Trial users who don't convert = 100% churn
 
 LTV (Lifetime Value)
 Total revenue from a user minus acquisition cost
-Includes: All subscription payments, one-time purchases, upgrades
-Excludes: Refunds, chargebacks, failed payments
-Calculation: `AVERAGE(total_revenue_per_user - acquisition_cost)`
+Includes - All subscription payments, one-time purchases, upgrades
+Excludes - Refunds, chargebacks, failed payments
+Calculation - `AVERAGE(total_revenue_per_user - acquisition_cost)`
 ```
 
 Document these and have team alignment sessions quarterly as you evolve metrics.
@@ -342,25 +342,25 @@ Decision Framework
 
 Avoiding Common Growth Team Dashboard Mistakes
 
-Mistake 1: Too Many Metrics
+Mistake 1 - Too Many Metrics
 A four-person team should track 8-12 metrics maximum. Each additional metric adds cognitive load. Ruthlessly prioritize.
 
-Mistake 2: Vanity Metrics
+Mistake 2 - Vanity Metrics
 Avoid metrics that go up when the business is unhealthy:
 - Page views (users scroll more but engage less)
 - Signups (if conversion rate is terrible)
 - Free trial users (if conversion is zero)
 
-Mistake 3: Lagged Data
+Mistake 3 - Lagged Data
 Growth decisions need current data. If your dashboards update weekly, you miss rapid changes. Commit to daily refreshes minimum, hourly if possible.
 
-Mistake 4: No Context
+Mistake 4 - No Context
 Raw numbers mean nothing. Every metric needs:
 - Historical trend (how does it compare to last month/quarter?)
 - Context (did we change pricing/marketing/product this week?)
 - Owner (who's responsible for this metric?)
 
-Mistake 5: Unactionable Alerts
+Mistake 5 - Unactionable Alerts
 If an alert goes off, someone must know what to do. Document the action protocol for every alert.
 
 Scaling the Dashboard as You Grow
@@ -375,11 +375,11 @@ Revisit your tooling decision at each stage. Metabase that worked for 4 people m
 
 Real-World Implementation Timeline
 
-Week 1: Set up database tables, connect Metabase, build basic daily metrics dashboard
-Week 2: Add conversion funnel, share with team, establish weekly review cadence
-Week 3: Build cohort dashboard, create metric definitions document
-Week 4: Establish decision protocols, create alerts, optimize dashboard performance
-Month 2: Advanced features (segmentation, experiments, forecasting)
+Week 1 - Set up database tables, connect Metabase, build basic daily metrics dashboard
+Week 2 - Add conversion funnel, share with team, establish weekly review cadence
+Week 3 - Build cohort dashboard, create metric definitions document
+Week 4 - Establish decision protocols, create alerts, optimize dashboard performance
+Month 2 - Advanced features (segmentation, experiments, forecasting)
 
 Start simple. Add sophistication as your team develops dashboard literacy.
 

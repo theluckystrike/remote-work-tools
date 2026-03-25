@@ -48,7 +48,7 @@ Building Blocks of an Effective Communication Charter
 
 An effective charter for developer teams contains five core sections. Each section should answer the questions a new hire actually asks during their first weeks.
 
-Section 1: Channel Selection Guide
+Section 1 - Channel Selection Guide
 
 New hires need to know which tool handles which conversation type. Rather than listing every tool your team uses, focus on decision rules that apply to real scenarios.
 
@@ -71,17 +71,17 @@ Found a bug? GitHub Issues with reproduction steps get faster responses
 Something urgent? Tag @oncall in #incidents channel only
 Need team input? Create an RFC, tag relevant people, wait 72 hours
 
-Full charter: [link to team wiki]
+Full charter - [link to team wiki]
 ```
 
-Section 2: Response Time Expectations
+Section 2 - Response Time Expectations
 
 Async work requires explicit agreements about response times. Without these, new hires either over-communicate (asking "did you see my message?" every hour) or under-communicate (waiting days for responses that were expected within hours).
 
 Define three tiers of urgency:
 
-- Immediate: Production incidents affecting customers. Use PagerDuty, phone calls, or urgent Slack tags. Expect response within 15 minutes during work hours.
-- Standard: Day-to-day questions, code reviews, project updates. Expect response within one business day (24 hours) in your primary timezone.
+- Immediate - Production incidents affecting customers. Use PagerDuty, phone calls, or urgent Slack tags. Expect response within 15 minutes during work hours.
+- Standard - Day-to-day questions, code reviews, project updates. Expect response within one business day (24 hours) in your primary timezone.
 - Low priority: RFCs, design documents, informational posts. Expect response within 3 business days.
 
 Document these in your onboarding repository with timezone expectations:
@@ -108,7 +108,7 @@ response_expectations:
     availability: "whenever works for you"
 ```
 
-Section 3: Documentation Standards
+Section 3 - Documentation Standards
 
 Communication charters often ignore the most critical skill: how to write things down. For remote teams, documentation isn't optional, it's the primary way work gets done.
 
@@ -163,7 +163,7 @@ Open Questions
 - Topics requiring follow-up
 ```
 
-Section 4: Meeting Protocols
+Section 4 - Meeting Protocols
 
 For developer teams, reduce synchronous meetings by default and establish clear guidelines for when meetings are necessary:
 
@@ -201,17 +201,17 @@ function needsMeeting(topic, urgency, participants) {
 }
 ```
 
-Section 5: Onboarding Integration
+Section 5 - Onboarding Integration
 
 A charter only works if new hires actually read and internalize it. Build adoption into the onboarding process with these touchpoints:
 
-Day 1: Send the charter in a welcome email with one sentence per section: "This explains how we communicate, please read it this week."
+Day 1 - Send the charter in a welcome email with one sentence per section: "This explains how we communicate, please read it this week."
 
-Day 3: Have the new hire send their first async status update using the standard format. Review it together and provide feedback.
+Day 3 - Have the new hire send their first async status update using the standard format. Review it together and provide feedback.
 
-Day 7: Schedule a 15-minute check-in specifically to discuss communication preferences and clarify any confusion about the charter.
+Day 7 - Schedule a 15-minute check-in specifically to discuss communication preferences and clarify any confusion about the charter.
 
-Day 30: Include charter questions in the 30-day feedback conversation: "Was the communication guidance clear? What was confusing?"
+Day 30 - Include charter questions in the 30-day feedback conversation: "Was the communication guidance clear? What was confusing?"
 
 Create an automated checklist for onboarding that includes communication tasks:
 
@@ -231,13 +231,13 @@ Making Your Charter Living Documentation
 
 Static documents become outdated within months. Build these practices into your team workflow to keep the charter current:
 
-Quarterly review: Schedule 30 minutes each quarter to review the charter and update based on team feedback and lessons learned.
+Quarterly review - Schedule 30 minutes each quarter to review the charter and update based on team feedback and lessons learned.
 
-Version control: Store your charter in Git so changes get reviewed through pull requests, making updates transparent.
+Version control - Store your charter in Git so changes get reviewed through pull requests, making updates transparent.
 
-Searchable: Add the charter to your team's Notion, Confluence, or wiki so it's findable when someone asks a question.
+Searchable - Add the charter to your team's Notion, Confluence, or wiki so it's findable when someone asks a question.
 
-Examples over rules: When updating the charter, lead with examples of what worked and what didn't rather than abstract principles.
+Examples over rules - When updating the charter, lead with examples of what worked and what didn't rather than abstract principles.
 
 Testing Charter Adoption
 

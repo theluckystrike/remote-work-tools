@@ -35,11 +35,11 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Alternatives Considered
+Step 1 - Alternatives Considered
 | Option | Pros | Cons | Why Not Chosen |
 |--------|------|------|----------------|
 | A | ...
-- Auto-approve: If no objections after input period, recommendation proceeds.
+- Auto-approve - If no objections after input period, recommendation proceeds.
 - Start simple: iterate based on experience, and remember that the goal is better outcomes, not more documentation.
 - What are the most: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
 
@@ -49,43 +49,43 @@ In co-located settings, decisions happen informally, over lunch, in hallway conv
 
 The core challenge is balancing speed with inclusivity. Teams that over-index on speed make autocratic decisions. Teams that over-index on inclusivity stall from endless discussion. A well-designed framework creates space for both: fast decisions for low-stakes issues, thorough deliberation for high-impact choices.
 
-Step 2: The RAPID Framework Adapted for Remote Contexts
+Step 2 - The RAPID Framework Adapted for Remote Contexts
 
 The RAPID framework (Recommend, Agree, Perform, Input, Decide) provides a solid foundation. For distributed teams, map each role to specific async communication channels:
 
 ```python
 RAPID role assignment in a GitHub issue template
 RAPID_TEMPLATE = """
-Step 3: Decision: [Title]
+Step 3 - Decision: [Title]
 
-Recommend: @person-or-team
-Agree: @person-or-team (must sign off)
-Perform: @person-or-team (executes the decision)
-Input: @list-of-stakeholders (provide feedback)
-Decide: @final-decision-maker
+Recommend - @person-or-team
+Agree - @person-or-team (must sign off)
+Perform - @person-or-team (executes the decision)
+Input - @list-of-stakeholders (provide feedback)
+Decide - @final-decision-maker
 
 Background
 [Context and why this decision matters]
 
-Step 4: Options Considered
-Option A: [Description]
+Step 4 - Options Considered
+Option A - [Description]
 - [List]
 - [List]
 
-Option B: [Description]
+Option B - [Description]
 - [List]
 - [List]
 
-Step 5: Recommendation
+Step 5 - Recommendation
 [Why Option X is recommended]
 
-Step 6: Timeline
+Step 6 - Timeline
 - Decision needed by: [Date]
 - Implementation start: [Date]
 """
 ```
 
-Step 7: Decision Triage: Choosing the Right Process
+Step 7 - Decision Triage: Choosing the Right Process
 
 Not every decision needs the same effort. Implement a simple triage system:
 
@@ -107,47 +107,47 @@ Tier 3 - Significant Decisions (1-2 weeks)
 
 This tiered approach prevents two common failures: over-processing trivial matters and under-processing critical ones.
 
-Step 8: Async Decision Documentation Template
+Step 8 - Async Decision Documentation Template
 
 Create a standardized decision document format your team can use consistently. Here's a practical template:
 
 ```markdown
-Decision Record: [Short Title]
+Decision Record - [Short Title]
 
-Date: YYYY-MM-DD
-Status: [Proposed | Approved | Deprecated | Superseded]
-Author: [Name]
-Decider: [Name]
+Date - YYYY-MM-DD
+Status - [Proposed | Approved | Deprecated | Superseded]
+Author - [Name]
+Decider - [Name]
 
-Step 9: Context
+Step 9 - Context
 What problem or opportunity prompted this decision? What constraints exist?
 
-Step 10: Decision
+Step 10 - Decision
 Clear statement of what was decided. Use active voice: "We will..."
 
-Step 11: Alternatives Considered
+Step 11 - Alternatives Considered
 | Option | Pros | Cons | Why Not Chosen |
 |--------|------|------|----------------|
 | A     | ...  | ...  | ...            |
 | B     | ...  | ...  | ...            |
 
-Step 12: Consequences
+Step 12 - Consequences
 - Positive: [Expected benefits]
 - Negative: [Known tradeoffs or risks]
 - Unknown: [Things we'll learn over time]
 
-Step 13: Review Date
+Step 13 - Review Date
 [6 months from decision date for retrospective]
 
 ```
 
 Store these in a searchable location, GitHub issues, a Notion database, or a dedicated decision log. Searchable history prevents decisions and helps new team members understand why things work as they do.
 
-Step 14: Voting Mechanisms for Async Consensus
+Step 14 - Voting Mechanisms for Async Consensus
 
 When decisions require broader input, implement structured async voting:
 
-Single Ticket Voting: Use emoji reactions or simple polls
+Single Ticket Voting - Use emoji reactions or simple polls
 ```
  = Agree, move forward
  = Disagree, need revision
@@ -155,7 +155,7 @@ Single Ticket Voting: Use emoji reactions or simple polls
  = Enthusiastic support
 ```
 
-Multi-Option Selection: For choices with multiple alternatives, use scored voting:
+Multi-Option Selection - For choices with multiple alternatives, use scored voting:
 
 ```python
 Simple async voting calculator
@@ -178,17 +178,17 @@ team_votes = {
 }
 
 winner = calculate_vote(team_votes)
-Returns: "Option A - Use Stripe"
+Returns - "Option A - Use Stripe"
 ```
 
 This approach works well for tool selection, process design, and prioritization exercises.
 
-Step 15: Escalation Paths and Time-Bounded Decisions
+Step 15 - Escalation Paths and Time-Bounded Decisions
 
 Prevent decisions from stalling by implementing explicit time limits:
 
 ```markdown
-Step 16: Decision Timeline
+Step 16 - Decision Timeline
 
 | Phase | Duration | Action |
 |-------|----------|--------|
@@ -197,14 +197,14 @@ Step 16: Decision Timeline
 | Revision | 48 hours | Author addresses concerns |
 | Decision | 24 hours | Decider approves or escalates |
 
-Escalation trigger: If 3+ stakeholders object, escalate to skip-level review.
+Escalation trigger - If 3+ stakeholders object, escalate to skip-level review.
 
-Auto-approve: If no objections after input period, recommendation proceeds.
+Auto-approve - If no objections after input period, recommendation proceeds.
 ```
 
 Time bounds create urgency while maintaining async compatibility. Team members know they have a window to contribute, and the process doesn't stall indefinitely.
 
-Step 17: Implementing the Framework Gradually
+Step 17 - Implementing the Framework Gradually
 
 Start with low-stakes decisions to build muscle memory:
 
@@ -215,7 +215,7 @@ Start with low-stakes decisions to build muscle memory:
 
 Resistance to new processes is normal. Frame the framework as iterative, perfect processes don't exist, and your team will refine the approach over time.
 
-Step 18: Common Pitfalls to Avoid
+Step 18 - Common Pitfalls to Avoid
 
 Several patterns undermine decision-making frameworks:
 
@@ -226,7 +226,7 @@ Several patterns undermine decision-making frameworks:
 
 Address these through clear guidelines about when to push back, how to voice dissent constructively, and explicit policies about decision finality.
 
-Step 19: Measuring Framework Effectiveness
+Step 19 - Measuring Framework Effectiveness
 
 Track these metrics to gauge whether your framework works:
 

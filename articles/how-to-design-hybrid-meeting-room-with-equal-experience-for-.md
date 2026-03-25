@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Equal Experience Principle
+Step 1 - The Equal Experience Principle
 
 The core principle behind effective hybrid meeting design is simple: every participant should have comparable visibility, audibility, and participation capability regardless of physical location. This isn't just about buying expensive equipment, it requires deliberate architectural decisions in both hardware selection and software configuration.
 
@@ -38,7 +38,7 @@ When designing your hybrid meeting room, consider these foundational requirement
 - Visual equality: Remote participants should see the same materials and participants that in-room attendees see
 - Participation equality: Both groups must be able to contribute equally to discussions and presentations
 
-Step 2: Audio System Architecture
+Step 2 - Audio System Architecture
 
 Audio is typically the weakest link in hybrid meetings. Here's a practical approach to achieving clear two-way audio.
 
@@ -104,7 +104,7 @@ const dspConfig = {
 };
 ```
 
-Step 3: Visual Setup for Remote Visibility
+Step 3 - Visual Setup for Remote Visibility
 
 Remote participants need to see more than just faces on a screen. They need to see whiteboard content, presentations, and physical documents being discussed.
 
@@ -129,7 +129,7 @@ When selecting a document camera, prioritize:
 - Wide capture area for large documents
 - Compatibility with your video conferencing platform
 
-Step 4: Network and Bandwidth Considerations
+Step 4 - Network and Bandwidth Considerations
 
 Hybrid meeting quality depends heavily on network reliability. Both the room equipment and remote participants need adequate bandwidth.
 
@@ -151,7 +151,7 @@ qos-map video
 
 Ensure the meeting room has a minimum of 25 Mbps upload bandwidth for high-quality video transmission. Redundant internet connections provide resilience against outages.
 
-Step 5: Software Integration Layer
+Step 5 - Software Integration Layer
 
 The hardware is only half the equation. Proper software configuration ensures that hybrid meeting features work correctly.
 
@@ -216,7 +216,7 @@ def check_room_availability(room_id, start_time, duration):
     return available and room["bookings"][start_time] is None
 ```
 
-Step 6: Practical Implementation Checklist
+Step 6 - Practical Implementation Checklist
 
 Before deploying a hybrid meeting room, verify these items:
 
@@ -229,7 +229,7 @@ Before deploying a hybrid meeting room, verify these items:
 - [ ] Recording functionality captures both audio streams
 - [ ] Backup procedures documented for common failure scenarios
 
-Step 7: Test Your Hybrid Setup
+Step 7 - Test Your Hybrid Setup
 
 Regular testing ensures consistent quality. Create automated test scenarios:
 
@@ -239,26 +239,26 @@ Hybrid room test script
 
 echo "Running hybrid meeting room tests..."
 
-Test 1: Audio clarity
+Test 1 - Audio clarity
 echo "Test 1: Audio from remote to room..."
 playback_test --source remote --duration 10s --verify
 
-Test 2: Room audio to remote
+Test 2 - Room audio to remote
 echo "Test 2: Room audio transmission..."
 record_test --source room --duration 10s --upload
 
-Test 3: Visual quality
+Test 3 - Visual quality
 echo "Test 3: Camera feed quality..."
 video_test --camera main --expected_resolution 1080p
 
-Test 4: Network stability
+Test 4 - Network stability
 echo "Test 4: Network latency..."
 ping_test --target video-server --max_latency 150ms
 
 echo "Tests complete. Review results in dashboard."
 ```
 
-Step 8: Common Pitfalls to Avoid
+Step 8 - Common Pitfalls to Avoid
 
 Even well-designed hybrid rooms fail when teams overlook these issues:
 

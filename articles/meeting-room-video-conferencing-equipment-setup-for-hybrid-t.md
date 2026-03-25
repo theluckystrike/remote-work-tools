@@ -26,11 +26,11 @@ Camera Selection
 
 For meeting rooms seating 2-8 people, you have several viable options at different price points:
 
-Budget Option ($40-80): Logitech C920 or C922 remains the standard for reliable 1080p capture. These cameras work out of the box with every major video platform and produce consistent results.
+Budget Option ($40-80) - Logitech C920 or C922 remains the standard for reliable 1080p capture. These cameras work out of the box with every major video platform and produce consistent results.
 
-Mid-Range Option ($150-250): The Logitech Brio offers 4K resolution with excellent auto-exposure. For larger rooms, the PTZ Pro 2 provides motorized pan-tilt-zoom via remote control, an useful feature for automating camera framing.
+Mid-Range Option ($150-250) - The Logitech Brio offers 4K resolution with excellent auto-exposure. For larger rooms, the PTZ Pro 2 provides motorized pan-tilt-zoom via remote control, an useful feature for automating camera framing.
 
-DIY Option: A Raspberry Pi with the HQ Camera Module paired with a wide-angle lens can serve as a network camera streaming to your video platform. This requires more setup but costs under $100 and gives you complete control:
+DIY Option - A Raspberry Pi with the HQ Camera Module paired with a wide-angle lens can serve as a network camera streaming to your video platform. This requires more setup but costs under $100 and gives you complete control:
 
 ```python
 Raspberry Pi network camera streaming example
@@ -54,15 +54,15 @@ curl = pycurl.Curl()
 curl.setopt(curl.URL, "https://your-stream-endpoint.com/ingest")
 ```
 
-Audio: The Real Challenge
+Audio - The Real Challenge
 
 Video quality matters, but audio quality determines whether meetings are usable. Budget setups often fail here first.
 
-The Speakerphone Solution: For small rooms (2-4 people), a single speakerphone like the Jabra Speak 410 ($100) or even an USB microphone like the Blue Yeti ($130) handles both input and output. Position the microphone within 6 feet of speakers for best results.
+The Speakerphone Solution - For small rooms (2-4 people), a single speakerphone like the Jabra Speak 410 ($100) or even an USB microphone like the Blue Yeti ($130) handles both input and output. Position the microphone within 6 feet of speakers for best results.
 
-Daisy-Chaining for Larger Spaces: Many budget speakerphones support daisy-chaining. The Konftel Ego ($180) can connect to another unit, extending coverage to medium-sized meeting rooms.
+Daisy-Chaining for Larger Spaces - Many budget speakerphones support daisy-chaining. The Konftel Ego ($180) can connect to another unit, extending coverage to medium-sized meeting rooms.
 
-The DIY Approach: Building a custom microphone array using USB microphones and a DSP algorithm can outperform consumer hardware:
+The DIY Approach - Building a custom microphone array using USB microphones and a DSP algorithm can outperform consumer hardware:
 
 ```python
 Simple audio level monitoring for meeting rooms
@@ -91,7 +91,7 @@ def monitor_audio_levels():
     return "ok"
 ```
 
-Lighting: Often Overlooked
+Lighting - Often Overlooked
 
 Poor lighting makes even expensive cameras look terrible. A few targeted lights solve most problems:
 

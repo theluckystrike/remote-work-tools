@@ -24,10 +24,10 @@ Table of Contents
 - [The Four Tiers of Delegation](#the-four-tiers-of-delegation)
 - [Engineering Delegation Matrix](#engineering-delegation-matrix)
 - [Async Decision Documentation](#async-decision-documentation)
-- [Decision: [Short Title]](#decision-short-title)
-- [Decision: Migrate authentication from JWT to session cookies](#decision-migrate-authentication-from-jwt-to-session-cookies)
+- [Decision - [Short Title]](#decision-short-title)
+- [Decision - Migrate authentication from JWT to session cookies](#decision-migrate-authentication-from-jwt-to-session-cookies)
 - [The Manager's Async Workflow](#the-managers-async-workflow)
-- [Delegation Check: Know When to Intervene](#delegation-check-know-when-to-intervene)
+- [Delegation Check - Know When to Intervene](#delegation-check-know-when-to-intervene)
 - [Time Zone Overlap Optimization](#time-zone-overlap-optimization)
 - [Building Delegation Confidence](#building-delegation-confidence)
 - [Measuring Delegation Effectiveness](#measuring-delegation-effectiveness)
@@ -51,7 +51,7 @@ Not all tasks require the same level of autonomy. Use this tier system to catego
 | Tier 3 | Collaborative | Architecture decisions, hiring | Shared decision |
 | Tier 4 | Manager retained | Compensation, promotions, org design | Manager only |
 
-The key principle: move work down to the lowest tier that maintains quality while maximizing speed. Most managers over-delegate Tier 2 and under-delegate Tier 3.
+The key principle - move work down to the lowest tier that maintains quality while maximizing speed. Most managers over-delegate Tier 2 and under-delegate Tier 3.
 
 Implementing Tiers in Practice
 
@@ -82,37 +82,37 @@ The Decision Record Template
 Use a lightweight template for Tier 2 and Tier 3 decisions:
 
 ```markdown
-Decision: [Short Title]
+Decision - [Short Title]
 
-Context: Why this decision matters and what constraints exist
+Context - Why this decision matters and what constraints exist
 
 Options Considered:
 1. Option A: brief description
 2. Option B: brief description
 3. Option C: brief description
 
-Chosen Approach: [Option X]
+Chosen Approach - [Option X]
 
-Reasoning: Why this wins over alternatives
+Reasoning - Why this wins over alternatives
 
-Timeline: When this decision takes effect / review date
+Timeline - When this decision takes effect / review date
 
-Owner: @person responsible for implementation
+Owner - @person responsible for implementation
 ```
 
 Here's a real example from a distributed team:
 
 ```markdown
-Decision: Migrate authentication from JWT to session cookies
+Decision - Migrate authentication from JWT to session cookies
 
-Context: Mobile app team reports JWT refresh issues on iOS. Current implementation uses access tokens with 15-min expiry, causing frequent re-authentication.
+Context - Mobile app team reports JWT refresh issues on iOS. Current implementation uses access tokens with 15-min expiry, causing frequent re-authentication.
 
 Options Considered:
 1. Extend JWT expiry to 24 hours
 2. Switch to server-side sessions with httpOnly cookies
 3. Use refresh token rotation with secure storage
 
-Chosen Approach: Option 2 - Server-side sessions
+Chosen Approach - Option 2 - Server-side sessions
 
 Reasoning:
 - Mobile native apps handle cookies well (iOS 13+)
@@ -120,9 +120,9 @@ Reasoning:
 - Aligns with web app implementation
 - Security team prefers server-side session management
 
-Timeline: Q2 2026, implement in sprint 12-14
+Timeline - Q2 2026, implement in sprint 12-14
 
-Owner: @sarahchen
+Owner - @sarahchen
 ```
 
 This format works because it gives anyone reading it the full context to understand, challenge, or build on the decision, without needing to be in the same time zone as the decision maker.
@@ -131,11 +131,11 @@ The Manager's Async Workflow
 
 Your weekly rhythm as a manager should assume minimal synchronous availability. Here's a practical structure:
 
-Monday: Review queued decisions from last week. Approve, reject, or comment using async channels (Slack threads, Notion comments, PR reviews). Update delegation matrix if needed.
+Monday - Review queued decisions from last week. Approve, reject, or comment using async channels (Slack threads, Notion comments, PR reviews). Update delegation matrix if needed.
 
-Tuesday-Thursday: Deep work. Let the team operate. Intervene only on Tier 4 matters or blocking issues that genuinely cannot wait.
+Tuesday-Thursday - Deep work. Let the team operate. Intervene only on Tier 4 matters or blocking issues that genuinely cannot wait.
 
-Friday: Async weekly update. Each team member posts:
+Friday - Async weekly update. Each team member posts:
 - What they accomplished this week
 - What they're planning for next week
 - Any blockers or risks
@@ -165,7 +165,7 @@ Week of March 16 Update
 
 The manager responds with appreciation, clears blockers asynchronously, and identifies any Tier 3 items requiring discussion.
 
-Delegation Check: Know When to Intervene
+Delegation Check - Know When to Intervene
 
 Async delegation fails when managers either never check in or check in too often. Use these triggers to know when to step in:
 
@@ -181,7 +181,7 @@ Usually let it ride:
 - Minor documentation gaps
 - Style or preference differences
 
-The key test: ask yourself "Will this matter in 30 days?" If no, let it go. If yes, async feedback is still effective, comment on the PR, leave a Notion suggestion, send a Slack message. You don't need a meeting.
+The key test - ask yourself "Will this matter in 30 days?" If no, let it go. If yes, async feedback is still effective, comment on the PR, leave a Notion suggestion, send a Slack message. You don't need a meeting.
 
 Time Zone Overlap Optimization
 
@@ -205,7 +205,7 @@ Start by delegating lower-risk work (Tier 1, then Tier 2). Review their decision
 
 Over time, your team becomes faster because they're not waiting for you, and you become more valuable because you're solving Tier 3 and Tier 4 problems instead of drowning in Tier 1 decisions.
 
-The framework scales: with three people, you know everything they do. With thirty, you can only know the Tier 3 decisions. Documenting your delegation matrix and decision records makes this scale possible without losing control.
+The framework scales - with three people, you know everything they do. With thirty, you can only know the Tier 3 decisions. Documenting your delegation matrix and decision records makes this scale possible without losing control.
 ---
 
 Measuring Delegation Effectiveness
@@ -234,7 +234,7 @@ Quality metrics:
   - How: Count reversals, note reasons
 
 Confidence metrics:
-  - Survey: "Do you know what you can decide without asking?"
+  - Survey - "Do you know what you can decide without asking?"
   - Target: 90%+ agreement
   - Frequency: Monthly pulse check
 ```
@@ -266,7 +266,7 @@ Delegation Readiness Checklist for New Managers
 
 The mistake most managers make when scaling: trying to personally approve every Tier 2 and 3 decision. This doesn't scale. Instead, teach your team leads to own delegation in their domains, then spot-check their decisions monthly.
 
-Next steps: Audit your current workload. Categorize your tasks using the four tiers. Move everything you can to Tier 1 or 2. Document your delegation matrix and share it with your team. Then protect your time for the decisions that actually need you.
+Next steps - Audit your current workload. Categorize your tasks using the four tiers. Move everything you can to Tier 1 or 2. Document your delegation matrix and share it with your team. Then protect your time for the decisions that actually need you.
 
 Frequently Asked Questions
 

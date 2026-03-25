@@ -19,16 +19,16 @@ The most effective documentation ownership model for remote teams assigns a prim
 Table of Contents
 
 - [Why Documentation Ownership Matters for Remote Teams](#why-documentation-ownership-matters-for-remote-teams)
-- [Step 1: Audit Your Current Documentation ecosystem](#step-1-audit-your-current-documentation-ecosystem)
-- [Step 2: Define Ownership Roles](#step-2-define-ownership-roles)
-- [Step 3: Create an Ownership Registry](#step-3-create-an-ownership-registry)
-- [Step 4: Establish Review Workflows](#step-4-establish-review-workflows)
-- [Step 5: Onboard Contributors to the Model](#step-5-onboard-contributors-to-the-model)
+- [Step 1 - Audit Your Current Documentation environment](#step-1-audit-your-current-documentation-environment)
+- [Step 2 - Define Ownership Roles](#step-2-define-ownership-roles)
+- [Step 3 - Create an Ownership Registry](#step-3-create-an-ownership-registry)
+- [Step 4 - Establish Review Workflows](#step-4-establish-review-workflows)
+- [Step 5 - Onboard Contributors to the Model](#step-5-onboard-contributors-to-the-model)
 - [Documentation Ownership](#documentation-ownership)
 - [Measuring Success](#measuring-success)
 - [Tooling That Supports Ownership Models](#tooling-that-supports-ownership-models)
 - [Handling Ownership During Team Changes](#handling-ownership-during-team-changes)
-- [FAQ: Documentation Ownership for Remote Teams](#faq-documentation-ownership-for-remote-teams)
+- [FAQ - Documentation Ownership for Remote Teams](#faq-documentation-ownership-for-remote-teams)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 
 Why Documentation Ownership Matters for Remote Teams
@@ -41,7 +41,7 @@ Remote work eliminates the informal hallway conversations where knowledge transf
 
 Without ownership, documentation rots. Engineers update the code but skip the docs. Architecture decisions get made in Slack and never written down. Onboarding guides reflect a product that shipped two years ago. These are the symptoms of a docs culture without accountability, and adding ownership is the structural fix.
 
-Step 1: Audit Your Current Documentation ecosystem
+Step 1 - Audit Your Current Documentation environment
 
 Before assigning ownership, understand what you're working with. Create an inventory of your documentation:
 
@@ -62,7 +62,7 @@ Categorize your content into logical domains:
 
 This audit reveals natural ownership boundaries based on subject matter. Aim for ownership groups of 5-15 documents per person. small enough to stay on top of, large enough that ownership feels meaningful rather than bureaucratic.
 
-Step 2: Define Ownership Roles
+Step 2 - Define Ownership Roles
 
 Clear roles prevent the "too many cooks" problem while avoiding single points of failure:
 
@@ -74,7 +74,7 @@ Clear roles prevent the "too many cooks" problem while avoiding single points of
 
 For smaller teams, one person can hold both primary and secondary roles for related domains. The important distinction is that the primary owner has decision authority. they can merge or reject changes without consensus, which is what makes the model work.
 
-Step 3: Create an Ownership Registry
+Step 3 - Create an Ownership Registry
 
 Store ownership metadata where it's easy to maintain and query. A YAML or JSON file works well:
 
@@ -141,11 +141,11 @@ if __name__ == "__main__":
     main()
 ```
 
-Step 4: Establish Review Workflows
+Step 4 - Establish Review Workflows
 
 Ownership only works when paired with clear review processes. Implement these practices:
 
-Required reviews: Configure your CI to require approval from the document owner before merging:
+Required reviews - Configure your CI to require approval from the document owner before merging:
 
 ```yaml
 .github/workflows/docs-review.yml
@@ -174,7 +174,7 @@ jobs:
             });
 ```
 
-Stale content alerts: Set up automated reminders for owners to review their pages:
+Stale content alerts - Set up automated reminders for owners to review their pages:
 
 ```yaml
 .github/workflows/stale-docs.yml
@@ -195,7 +195,7 @@ jobs:
 
 A 90-day review cycle works well for most teams. API reference may need monthly attention during active development; architecture decision records can be reviewed annually. Adjust thresholds per ownership group rather than applying a single blanket policy.
 
-Step 5: Onboard Contributors to the Model
+Step 5 - Onboard Contributors to the Model
 
 Documentation ownership only succeeds when everyone participates. Train your team with these onboarding steps:
 
@@ -242,7 +242,7 @@ Tooling That Supports Ownership Models
 
 Several tools make ownership enforcement easier:
 
-GitHub CODEOWNERS: GitHub's built-in ownership file (`.github/CODEOWNERS`) automatically assigns reviewers based on file paths. It works at the file level rather than document section level, which aligns well with documentation ownership:
+GitHub CODEOWNERS - GitHub's built-in ownership file (`.github/CODEOWNERS`) automatically assigns reviewers based on file paths. It works at the file level rather than document section level, which aligns well with documentation ownership:
 
 ```
 .github/CODEOWNERS
@@ -251,9 +251,9 @@ docs/getting-started/ @alex-rivera
 docs/architecture/    @david-kim
 ```
 
-Notion Database: If your team uses Notion, a documentation database with an Owner property and a Last Reviewed date provides built-in filtering for stale content. Notion's reminder automations can ping owners when pages go 90 days without review.
+Notion Database - If your team uses Notion, a documentation database with an Owner property and a Last Reviewed date provides built-in filtering for stale content. Notion's reminder automations can ping owners when pages go 90 days without review.
 
-Confluence Page Properties: Confluence supports custom page properties through macros. Combined with Confluence Automations, you can trigger review reminders without external scripts.
+Confluence Page Properties - Confluence supports custom page properties through macros. Combined with Confluence Automations, you can trigger review reminders without external scripts.
 
 Handling Ownership During Team Changes
 
@@ -268,7 +268,7 @@ For fast-growing teams, do quarterly ownership audits alongside performance revi
 
 When a team reorganizes around new product areas, treat it as a documentation ownership migration event. Bulk reassignments are fine as long as new owners do a 15-minute pass on each section they inherit before acknowledging ownership.
 
-FAQ: Documentation Ownership for Remote Teams
+FAQ - Documentation Ownership for Remote Teams
 
 How do we handle documentation owned by contractors? Assign secondary ownership to a full-time employee for any section primarily owned by a contractor. This ensures continuity when the contract ends and gives contractors a review partner for quality checks.
 

@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Core Problem with Remote Conflict
+Step 1 - The Core Problem with Remote Conflict
 
 Synchronous assumptions break down:
 
@@ -50,11 +50,11 @@ Async reality:
 
 Small disagreements become public disputes before anyone talks privately.
 
-Step 2: The Framework: Five Escalation Layers
+Step 2 - The Framework: Five Escalation Layers
 
-Layer 1: Direct, Private, Async (D-P-A)
+Layer 1 - Direct, Private, Async (D-P-A)
 
-When: First sign of tension (disagreement in a team channel, inconsistent feedback, repeated corrections).
+When - First sign of tension (disagreement in a team channel, inconsistent feedback, repeated corrections).
 
 How:
 1. Identify the person(s) involved
@@ -66,7 +66,7 @@ Template:
 ```
 Hi [Name],
 
-I noticed [specific behavior]: [example].
+I noticed [specific behavior] - [example].
 
 I want to understand your perspective. Is there context I'm missing?
 
@@ -102,15 +102,15 @@ Jamie's private response (bad):
 No, I was right the first time. You're not thinking about edge cases.
 ```
 
-If response is bad: Escalate to Layer 2.
+If response is bad - Escalate to Layer 2.
 
-Success rate: ~70% of remote conflicts resolve here with 1, 2 exchanges. The privacy removes audience pressure and lets people back down gracefully.
+Success rate - ~70% of remote conflicts resolve here with 1, 2 exchanges. The privacy removes audience pressure and lets people back down gracefully.
 
-Timeline: Expect 24, 48 hours for resolution (time zones, response delays).
+Timeline - Expect 24, 48 hours for resolution (time zones, response delays).
 
-Layer 2: Document the Disagreement
+Layer 2 - Document the Disagreement
 
-When: Layer 1 didn't resolve, or the person won't respond to private outreach.
+When - Layer 1 didn't resolve, or the person won't respond to private outreach.
 
 How:
 1. Write a clear, factual summary of the disagreement
@@ -122,59 +122,59 @@ How:
 Document structure:
 
 ```markdown
-Disagreement Summary: [Topic]
+Disagreement Summary - [Topic]
 
-Step 3: Context
+Step 3 - Context
 - Date of initial disagreement: [date]
 - Participants: [names]
 - Decision needed by: [date, if applicable]
 
-Step 4: The Disagreement
+Step 4 - The Disagreement
 
-Position A: [Your name]
+Position A - [Your name]
 [Your view, in neutral language]
 - Evidence: [links, code, quotes]
 - Concern: [what you're optimizing for]
 
-Position B: [Their name]
+Position B - [Their name]
 [Their view, as they stated it or as you understand it]
 - Evidence: [their links, code, quotes]
 - Concern: [what they're optimizing for]
 
-Step 5: Areas of Agreement
+Step 5 - Areas of Agreement
 - [What you both agree on]
 - [Shared goals]
 
-Step 6: Areas of Disagreement
+Step 6 - Areas of Disagreement
 - [Specific technical or procedural point]
 - [Value or priority difference]
 
-Step 7: Questions for [Their name]
+Step 7 - Questions for [Their name]
 1. [Clarification you need]
 2. [Test or data that would change your mind]
 
-Step 8: Timeline
+Step 8 - Timeline
 - [Date]: Initial discussion
 - [Date]: Layer 1 private discussion
 - [Date]: Escalation to documentation
 
-Step 9: Decision process
+Step 9 - Decision process
 If no resolution by [date], [specify escalation or fallback]
 ```
 
 Real example (onboarding process):
 
 ```markdown
-Disagreement Summary: New Hire Onboarding Async vs. Sync
+Disagreement Summary - New Hire Onboarding Async vs. Sync
 
-Step 10: Context
+Step 10 - Context
 - Date: March 15, 2026
 - Participants: Sarah (onboarding lead), Marcus (engineering manager)
 - Decision needed by: March 22 (next cohort starts)
 
-Step 11: The Disagreement
+Step 11 - The Disagreement
 
-Position A: Sarah
+Position A - Sarah
 New hires should attend full async onboarding:
 - Pre-recorded videos (30 min/day × 5 days)
 - Self-paced, timezone-agnostic
@@ -185,9 +185,9 @@ Evidence:
 - Last cohort (10 people) had 3 timezone-related cancellations
 - Async onboarding costs less to scale
 
-Concern: Sync onboarding excludes APAC hires.
+Concern - Sync onboarding excludes APAC hires.
 
-Position B: Marcus
+Position B - Marcus
 New hires need some sync time for questions and culture fit:
 - 2 hours sync per week (first 2 weeks)
 - Async videos + sync Q&A
@@ -197,30 +197,30 @@ Evidence:
 - Sync cohort before that had higher first-month velocity
 - Relationships matter for remote teams
 
-Concern: Pure async leads to isolated employees.
+Concern - Pure async leads to isolated employees.
 
-Step 12: Areas of Agreement
+Step 12 - Areas of Agreement
 - We need both efficiency and relationship-building
 - Timezone diversity is important
 - Cost matters
 
-Step 13: Areas of Disagreement
+Step 13 - Areas of Disagreement
 - Relative weight of async vs. sync
 - Whether integration suffers without sync interaction
 - Cost tolerance ($200+ per hire)
 
-Step 14: Questions for Marcus
+Step 14 - Questions for Marcus
 1. If we offered async + optional sync (scheduled APAC-friendly), would that address your concern?
 2. What metrics define "integration"? Can we measure this?
 3. What's the maximum cost-per-hire for onboarding?
 
-Step 15: Timeline
+Step 15 - Timeline
 - March 15: Initial conversation
 - March 17: Layer 1 discussion (private)
 - March 19: Documentation
 - March 22: Decision
 
-Step 16: Decision Process
+Step 16 - Decision Process
 If no resolution by March 22, Sarah presents both options to exec sponsor
 for final call (scheduled March 21, 2pm UTC).
 ```
@@ -233,13 +233,13 @@ Why this works:
 - Async-friendly: Person can respond when ready; no real-time pressure
 - Documentable: Creates a record for future team learning
 
-Success rate: ~85% resolve by Layer 2 because structure forces clarity. Often, just writing it down reveals the actual disagreement is narrower than seemed.
+Success rate - ~85% resolve by Layer 2 because structure forces clarity. Often, just writing it down reveals the actual disagreement is narrower than seemed.
 
-Timeline: 48, 72 hours for documentation + response.
+Timeline - 48, 72 hours for documentation + response.
 
-Layer 3: Mediated Async Discussion
+Layer 3 - Mediated Async Discussion
 
-When: Layer 2 document didn't resolve it. Both parties are entrenched.
+When - Layer 2 document didn't resolve it. Both parties are entrenched.
 
 How:
 1. Assign a neutral mediator (skip their manager, pick a peer or trusted third party)
@@ -258,7 +258,7 @@ Mediator's role (it's not to judge):
 Real template (mediator's response):
 
 ```markdown
-Step 17: Mediation Notes. Onboarding Disagreement
+Step 17 - Mediation Notes. Onboarding Disagreement
 
 What I'm hearing:
 - Sarah: Efficiency, scale, timezone inclusion
@@ -291,13 +291,13 @@ Why mediation works:
 - Testing proposal shifts from "you're wrong" to "let's find out"
 - Mediator models good listening for the whole team
 
-Success rate: ~90% resolve at Layer 3. The mediation usually reveals both people are actually agreed on goals, just differed on implementation.
+Success rate - ~90% resolve at Layer 3. The mediation usually reveals both people are actually agreed on goals, just differed on implementation.
 
-Timeline: 4, 7 days (allows async back-and-forth + mediation response).
+Timeline - 4, 7 days (allows async back-and-forth + mediation response).
 
-Layer 4: Structured Decision (Manager + Documentation)
+Layer 4 - Structured Decision (Manager + Documentation)
 
-When: Layer 3 mediation didn't resolve it. A decision is needed.
+When - Layer 3 mediation didn't resolve it. A decision is needed.
 
 How:
 1. Manager reviews all documentation
@@ -309,40 +309,40 @@ How:
 Decision document structure:
 
 ```markdown
-Decision: [Topic]
+Decision - [Topic]
 
-Step 18: Context
+Step 18 - Context
 [Link to Layer 2 & 3 docs]
 
-Step 19: Participants
+Step 19 - Participants
 - Position A proponent: [name]
 - Position B proponent: [name]
 - Decision maker: [name]
 
-Step 20: Criteria Used
+Step 20 - Criteria Used
 1. [Objective metric, e.g., "Maximize timezone coverage"]
 2. [Objective metric, e.g., "Minimize cost"]
 3. [Value, e.g., "Prioritize new hire integration"]
 
-Step 21: The Decision
+Step 21 - The Decision
 [What we're doing]
 
-Step 22: Reasoning
+Step 22 - Reasoning
 [How this decision weighs the criteria]
 
-Step 23: Trade-offs
+Step 23 - Trade-offs
 [What we're not optimizing for and why]
 
-Step 24: Implementation
+Step 24 - Implementation
 - [Who does what]
 - [Timeline]
 - [How we'll measure success]
 
-Step 25: Learning + Review
+Step 25 - Learning + Review
 We will revisit this on [date] and measure against [metric].
 If [condition], we'll revisit the decision.
 
-Step 26: For the team
+Step 26 - For the team
 This was a hard call. Both Sarah and Marcus had valid points.
 We're going this direction because [criteria]. You may not agree,
 and that's okay. We're measuring to see if it works.
@@ -351,38 +351,38 @@ and that's okay. We're measuring to see if it works.
 Real example:
 
 ```markdown
-Decision: Onboarding Structure (Async + Optional Sync)
+Decision - Onboarding Structure (Async + Optional Sync)
 
-Step 27: Context
-See: [Layer 2 doc] and [Layer 3 mediation]
+Step 27 - Context
+See - [Layer 2 doc] and [Layer 3 mediation]
 
-Step 28: Criteria Used
+Step 28 - Criteria Used
 1. Maximize timezone coverage (APAC inclusion)
 2. Minimize per-hire cost
 3. Maximize first-month integration and engagement
 
-Step 29: The Decision
+Step 29 - The Decision
 New cohorts will use:
 - Async core: 20 hours of pre-recorded, self-paced onboarding
 - Optional sync: 1 × 2-hour session per month, scheduled for APAC + EU (covers all timezones over a quarter)
 - Cost: $120/hire (async production) + $150/month (mediator/trainer for optional session)
 
-Step 30: Reasoning
+Step 30 - Reasoning
 This prioritizes timezone inclusion (Sarah's core concern) while preserving
 sync connection for people who want it (Marcus's core concern).
 
-Trade-off: Slightly higher cost than pure async, but we can scale to 50 hires/quarter.
+Trade-off - Slightly higher cost than pure async, but we can scale to 50 hires/quarter.
 
-Step 31: Implementation
+Step 31 - Implementation
 - Sarah: Produce async onboarding by April 1
 - Marcus: Schedule first optional session for March 30 (UTC+8 friendly)
 - We measure first-month PR count, code review engagement, Slack activity
 
-Step 32: Learning + Review
-June 1: Measure cohort 1 outcomes. If first-month engagement is <40% of
+Step 32 - Learning + Review
+June 1 - Measure cohort 1 outcomes. If first-month engagement is <40% of
 sync-cohort baseline, we revisit.
 
-Step 33: For the team
+Step 33 - For the team
 This was a tie-breaker. We're testing because the data wasn't clear.
 We will measure and adjust.
 ```
@@ -394,13 +394,13 @@ Why this works:
 - Measurable: Revisit date + metrics reduce resentment
 - Educational: Team learns how conflicts are resolved
 
-Success rate: 98%. Doesn't prevent resentment, but prevents repeated conflict.
+Success rate - 98%. Doesn't prevent resentment, but prevents repeated conflict.
 
-Timeline: 2, 3 days (manager review + documentation).
+Timeline - 2, 3 days (manager review + documentation).
 
-Layer 5: Escalation (HR, Exec, or Team Exit)
+Layer 5 - Escalation (HR, Exec, or Team Exit)
 
-When: Layer 4 decision was made, but one party refuses to accept it or undermines it.
+When - Layer 4 decision was made, but one party refuses to accept it or undermines it.
 
 How:
 1. Document the refusal + specific behaviors
@@ -418,7 +418,7 @@ Example of when to escalate:
 
 This is insubordination, not disagreement. Layer 5 is appropriate.
 
-Step 34: Tooling for This Framework
+Step 34 - Tooling for This Framework
 
 You don't need special software. Use what you have:
 
@@ -432,7 +432,7 @@ You don't need special software. Use what you have:
 
 Use a shared folder for conflict docs (e.g., Notion "Conflict Log"). Not public, but accessible to managers. Helps you spot patterns ("These two always clash on architecture") and improve processes.
 
-Step 35: Preventing Escalation: Practical Tactics
+Step 35 - Preventing Escalation: Practical Tactics
 
 1. Regular 1-on-1s (Even with Peers)
 
@@ -457,49 +457,49 @@ Monthly 1-on-1 between potentially conflicting parties (no agenda, just "How are
 
 Don't wait for big problems. Weekly touch-bases or 1-on-1s let you catch tension early.
 
-Step 36: Common Remote Conflicts + Examples
+Step 36 - Common Remote Conflicts + Examples
 
-Type 1: Scope Creep Disagreement
+Type 1 - Scope Creep Disagreement
 
-Setup: Product manager adds feature mid-sprint; engineer says it breaks timeline.
+Setup - Product manager adds feature mid-sprint; engineer says it breaks timeline.
 
-Layer 1 resolution: PM explains why it's urgent; engineer explains the cost. They agree to do it next sprint or de-scope something.
+Layer 1 resolution - PM explains why it's urgent; engineer explains the cost. They agree to do it next sprint or de-scope something.
 
-Layer 2+ escalation: If this happens repeatedly, document it. Root cause: No process for mid-sprint feature requests.
+Layer 2+ escalation - If this happens repeatedly, document it. Root cause: No process for mid-sprint feature requests.
 
-Fix: Decision doc: "Feature requests must come in by Friday 5pm UTC for the following sprint, except critical bugs."
+Fix - Decision doc: "Feature requests must come in by Friday 5pm UTC for the following sprint, except critical bugs."
 
-Type 2: Review Feedback Ambiguity
+Type 2 - Review Feedback Ambiguity
 
-Setup: Code reviewer says "This doesn't follow our patterns." Author says "I don't see what pattern I broke."
+Setup - Code reviewer says "This doesn't follow our patterns." Author says "I don't see what pattern I broke."
 
-Layer 1: Reviewer clarifies with a code example.
+Layer 1 - Reviewer clarifies with a code example.
 
-Layer 2+ escalation: If this happens repeatedly, root cause is missing code style guide.
+Layer 2+ escalation - If this happens repeatedly, root cause is missing code style guide.
 
-Fix: Automated linting + code style doc + examples in wiki.
+Fix - Automated linting + code style doc + examples in wiki.
 
-Type 3: Attribution / Credit Conflict
+Type 3 - Attribution / Credit Conflict
 
-Setup: Two engineers built a feature; one gets credit in the announcement.
+Setup - Two engineers built a feature; one gets credit in the announcement.
 
-Layer 1: Quick private chat: "I know we both worked on this. Let's mention both names."
+Layer 1 - Quick private chat: "I know we both worked on this. Let's mention both names."
 
-Fix: Process: "Feature announcements list all contributors by default."
+Fix - Process - "Feature announcements list all contributors by default."
 
-Type 4: Workload / Fairness Disagreement
+Type 4 - Workload / Fairness Disagreement
 
-Setup: Engineer A thinks they're doing more code reviews than Engineer B.
+Setup - Engineer A thinks they're doing more code reviews than Engineer B.
 
-Layer 1: Share the data (pull review metrics). Either they're equal (ego issue), or one is genuinely overloaded (reassign work).
+Layer 1 - Share the data (pull review metrics). Either they're equal (ego issue), or one is genuinely overloaded (reassign work).
 
-Fix: Shared spreadsheet tracking review load; redistribute if imbalanced.
+Fix - Shared spreadsheet tracking review load; redistribute if imbalanced.
 
-Step 37: When Documentation Feels Slow
+Step 37 - When Documentation Feels Slow
 
-Remote managers often say: "This framework is too formal. Can't we just talk?"
+Remote managers often say - "This framework is too formal. Can't we just talk?"
 
-Answer: You can, but async-first teams need the documentation anyway. Here's why:
+Answer - You can, but async-first teams need the documentation anyway. Here's why:
 
 1. Time zones prevent real-time talk. Someone's always sleeping.
 2. Memory is fragile. In 3 months, nobody remembers the conversation.
@@ -513,7 +513,7 @@ Real timeline comparison:
 - Informal + syncing: 2 weeks of Slack threads, 3 sync meetings, decision still unclear
 - Structured framework: 4 days (Layers 1, 3) to clear resolution
 
-Step 38: Red Flags: When to Escalate Faster
+Step 38 - Red Flags: When to Escalate Faster
 
 Skip Layers 2-4 if:
 

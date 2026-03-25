@@ -29,7 +29,7 @@ Table of Contents
 - [Automation Examples That Save Time](#automation-examples-that-save-time)
 - [Implementation Strategy](#implementation-strategy)
 - [Choosing Where to Host the Playbook](#choosing-where-to-host-the-playbook)
-- [Making It Stick: Adoption Patterns That Work](#making-it-stick-adoption-patterns-that-work)
+- [Making It Stick - Adoption Patterns That Work](#making-it-stick-adoption-patterns-that-work)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 
 This guide walks through building a playbook that your team will actually use, not a static wiki that rots in a shared drive.
@@ -171,11 +171,11 @@ Implementation Strategy
 
 Don't write your playbook in one sitting. Build it iteratively.
 
-Week 1: Document current behavior
+Week 1 - Document current behavior
 
 Observe how your team actually works. Note communication patterns, tooling, and problems. Don't change anything yet, just capture reality.
 
-Week 2: Identify gaps
+Week 2 - Identify gaps
 
 Compare documented behavior against team needs. Common gaps:
 
@@ -184,15 +184,15 @@ Compare documented behavior against team needs. Common gaps:
 - Missing on-call rotation documentation
 - Unclear async vs. sync meeting policies
 
-Week 3: Draft sections
+Week 3 - Draft sections
 
 Write the sections that address your biggest gaps. Keep language direct. Use templates and code examples where they reduce ambiguity.
 
-Week 4: Validate with team
+Week 4 - Validate with team
 
-Share drafts in your team channel. Ask: "Does this match how we actually work?" Incorporate feedback before finalizing.
+Share drafts in your team channel. Ask - "Does this match how we actually work?" Incorporate feedback before finalizing.
 
-Ongoing: Review quarterly
+Ongoing - Review quarterly
 
 Playbooks rot. Review and update every quarter. Remove obsolete sections, add new tools, refine unclear language.
 
@@ -202,7 +202,7 @@ The hosting choice matters more than most teams realize. A playbook buried in a 
 
 GitHub repository (recommended for engineering teams). Keep the playbook in the same repo or a dedicated `team-docs` repo. It benefits from pull request reviews, blame history, and a familiar interface. Engineers already have it open.
 
-Notion. Works well for non-technical contributors and has better cross-linking and embedding than GitHub markdown. Downside: version history is less granular than git.
+Notion. Works well for non-technical contributors and has better cross-linking and embedding than GitHub markdown. Downside - version history is less granular than git.
 
 Confluence. Common in larger orgs, but tends toward documentation sprawl. Works if your org is already invested in Atlassian tooling.
 
@@ -210,7 +210,7 @@ Linear or Coda. Good if your playbook overlaps heavily with project management a
 
 Whatever platform you choose, link to it from your README, onboarding checklist, and team Slack channel description. Discoverability determines adoption.
 
-Making It Stick: Adoption Patterns That Work
+Making It Stick - Adoption Patterns That Work
 
 Writing the playbook is the easy part. Getting the team to use it requires deliberate effort.
 

@@ -50,7 +50,7 @@ Top Chrome Extensions for Webcam Adjustment
 
 1. Webcam Settings Controller
 
-This extension provides the most control panel for webcam settings directly in Chrome. Price: Free (Ad-supported) or $2.99 for premium version. It supports:
+This extension provides the most control panel for webcam settings directly in Chrome. Price - Free (Ad-supported) or $2.99 for premium version. It supports:
 
 - Resolution selection: Choose from 720p, 1080p, or even 4K if your camera supports it
 - Frame rate control: Adjust from 15fps to 60fps based on your bandwidth needs
@@ -83,7 +83,7 @@ For developers and power users, Video Settings Tweaker offers advanced controls 
 
 This extension requires some knowledge of camera terminology but provides the most flexibility. Price: Free. 3.9-star rating, 15k+ users.
 
-Alternative: OBS Virtual Camera (Not a Chrome extension)
+Alternative - OBS Virtual Camera (Not a Chrome extension)
 
 While not a Chrome extension, OBS Virtual Camera ($0, open-source) provides system-wide webcam control that works across all applications. Install OBS, configure your camera settings there, and launch OBS Virtual Camera. Every application, including Chrome, sees the adjusted camera output. This approach eliminates extension limitations and provides the most powerful control option for developers.
 
@@ -91,15 +91,15 @@ Best Practices for Webcam Settings
 
 Default Starting Settings (2026 networks):
 ```
-Resolution: 1080p (1920x1080) or 720p if bandwidth < 5 Mbps
-Frame Rate: 30fps (reduce to 24fps on poor connections)
-Brightness: +15 (adjust +/-5 based on room lighting)
-Contrast: +5 to +10
-Saturation: Neutral or +5 (avoid oversaturation)
-White Balance: Auto (unless lighting is perfectly consistent)
+Resolution - 1080p (1920x1080) or 720p if bandwidth < 5 Mbps
+Frame Rate - 30fps (reduce to 24fps on poor connections)
+Brightness - +15 (adjust +/-5 based on room lighting)
+Contrast - +5 to +10
+Saturation - Neutral or +5 (avoid oversaturation)
+White Balance - Auto (unless lighting is perfectly consistent)
 ```
 
-Lighting-First Approach: Before tweaking extension settings, optimize your physical environment:
+Lighting-First Approach - Before tweaking extension settings, optimize your physical environment:
 1. Position window or light source in front of you (not behind)
 2. Use a basic desk lamp angled toward your face
 3. Avoid harsh shadows across your face
@@ -107,7 +107,7 @@ Lighting-First Approach: Before tweaking extension settings, optimize your physi
 
 No extension compensates for genuinely poor lighting. A $20 ring light combined with basic extension settings produces better results than premium extension features with poor lighting.
 
-Performance Monitoring: After enabling extensions, monitor:
+Performance Monitoring - After enabling extensions, monitor:
 - CPU usage (extensions should add < 5% overhead)
 - Frame rate consistency (60+ fps capture, 24-30 fps output)
 - Bandwidth impact (add 0.5-1 Mbps for video, varies by settings)
@@ -148,27 +148,27 @@ Invest in hardware instead when:
 
 How to Install and Configure a Webcam Settings Extension
 
-Step 1: Install the Extension
+Step 1 - Install the Extension
 
 Open the Chrome Web Store and search for your chosen extension. Click "Add to Chrome" and grant the necessary permissions. Most webcam extensions require access to camera hardware, which Chrome will prompt you to allow.
 
-Step 2: Select Your Camera
+Step 2 - Select Your Camera
 
 If you have multiple cameras connected (built-in, external USB, or virtual cameras), click the extension icon and select which camera you want to adjust. This is crucial for laptop users who might have both an internal camera and an external webcam.
 
-Step 3: Configure Basic Settings
+Step 3 - Configure Basic Settings
 
 Start with these foundational adjustments:
 
 ```
-Resolution: 1080p (or highest supported)
-Frame Rate: 30fps (reduces to 15fps if bandwidth is limited)
-Brightness: +10 to +20 (adjust based on room lighting)
-Contrast: Default or +5
-White Balance: Auto (or manual if you have consistent lighting)
+Resolution - 1080p (or highest supported)
+Frame Rate - 30fps (reduces to 15fps if bandwidth is limited)
+Brightness - +10 to +20 (adjust based on room lighting)
+Contrast - Default or +5
+White Balance - Auto (or manual if you have consistent lighting)
 ```
 
-Step 4: Test Across Platforms
+Step 4 - Test Across Platforms
 
 Open your video app of choice, Zoom, Google Meet, Microsoft Teams, or OBS, and verify that your settings persist. Some extensions can apply settings globally, while others need to be activated per-tab.
 
@@ -217,7 +217,7 @@ Hardware Acceleration and Performance Tuning
 
 Modern webcam extensions can use hardware acceleration for better performance:
 
-GPU-Accelerated Processing: Extensions like Video Settings Tweaker support WebGL-based processing for effects. Enable hardware acceleration in Chrome:
+GPU-Accelerated Processing - Extensions like Video Settings Tweaker support WebGL-based processing for effects. Enable hardware acceleration in Chrome:
 
 1. Open Chrome Settings → System
 2. Toggle "Use hardware acceleration when available"
@@ -226,22 +226,22 @@ GPU-Accelerated Processing: Extensions like Video Settings Tweaker support WebGL
 
 With GPU acceleration enabled, color grading and real-time effects consume minimal CPU. You'll notice smoother streaming and less fan noise during long video calls.
 
-Encoder Selection for Streaming: If recording or streaming, select the right encoder:
+Encoder Selection for Streaming - If recording or streaming, select the right encoder:
 
 ```
-H.264 (VP8): Universal codec, better compression, higher CPU load (~15%)
-VP9: Better quality at same bitrate, very high CPU load (~25%)
-AV1: Newest codec, best compression, extreme CPU load (avoid unless you have workstation CPU)
+H.264 (VP8) - Universal codec, better compression, higher CPU load (~15%)
+VP9 - Better quality at same bitrate, very high CPU load (~25%)
+AV1 - Newest codec, best compression, extreme CPU load (avoid unless you have workstation CPU)
 ```
 
 For Twitch/YouTube streaming, H.264 at 1080p/30fps with quality 90 uses approximately 3-5 Mbps upload. VP9 saves 1 Mbps but increases CPU load significantly.
 
-Memory Profile Optimization: Extensions maintain cached frames and color lookup tables. Monitor memory usage:
+Memory Profile Optimization - Extensions maintain cached frames and color lookup tables. Monitor memory usage:
 
 ```
 Chrome DevTools → Memory tab → heap snapshots
-Normal webcam extension: 15-25 MB
-With effects enabled: 40-60 MB
+Normal webcam extension - 15-25 MB
+With effects enabled - 40-60 MB
 ```
 
 If memory exceeds 100 MB, the extension is malfunctioning. Close other tabs or disable heavy effects.
@@ -276,7 +276,7 @@ const primaryCamera = videoCameras[0].deviceId;
 
 In Zoom, Teams, or Meets, you can now switch cameras mid-call without restarting. Set the extension to apply settings to all cameras automatically, or configure per-camera profiles.
 
-Three-Camera Professional Setup: Some companies issue high-quality external cameras. Configure three profiles:
+Three-Camera Professional Setup - Some companies issue high-quality external cameras. Configure three profiles:
 
 1. Default Profile: Built-in camera settings (fallback)
 2. Logitech C920 Profile: 1080p, 30fps, slight brightness boost
@@ -345,7 +345,7 @@ class AdaptiveWebcamSettings:
         extension.setResolution(profile['resolution'])
         extension.setFramerate(profile['framerate'])
 
-Usage: Every 30 seconds, check bandwidth and adjust
+Usage - Every 30 seconds, check bandwidth and adjust
 setInterval(lambda: {
     bandwidth = detect_bandwidth()
     profile = select_profile(bandwidth)
@@ -401,16 +401,16 @@ Recording quality drops dramatically if your CPU hits 80%+ load. Use lightweight
 
 Troubleshooting Advanced Issues
 
-Extension Conflicts: Some extensions conflict with camera access. If settings don't apply:
+Extension Conflicts - Some extensions conflict with camera access. If settings don't apply:
 
 1. Disable all other extensions temporarily
 2. Test camera settings extension in isolation
 3. Re-enable extensions one by one
 4. Identify which extension conflicts
 
-Common culprits: Privacy extensions (uBlock Origin), anti-tracking (Privacy Badger), session managers.
+Common culprits - Privacy extensions (uBlock Origin), anti-tracking (Privacy Badger), session managers.
 
-Driver-Level Problems: If extension detects your camera but settings don't apply:
+Driver-Level Problems - If extension detects your camera but settings don't apply:
 
 1. Update your camera driver (motherboard driver for built-in, manufacturer for USB)
 2. Windows: Device Manager → Cameras → [Your camera] → Update driver
@@ -419,7 +419,7 @@ Driver-Level Problems: If extension detects your camera but settings don't apply
 
 Outdated drivers often lack support for fine-grained camera control. Updating frequently solves issues.
 
-Permission Problems: If the extension asks for camera permission repeatedly:
+Permission Problems - If the extension asks for camera permission repeatedly:
 
 1. Chrome: Settings → Privacy and Security → Camera → Check that extension has permission
 2. Allow the extension in "On all sites" (not "On specific sites")

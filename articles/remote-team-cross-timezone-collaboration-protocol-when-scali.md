@@ -23,7 +23,7 @@ Table of Contents
 - [The Core Problem](#the-core-problem)
 - [Establish Clear Overlap Windows](#establish-clear-overlap-windows)
 - [Document Decisions in Structured Formats](#document-decisions-in-structured-formats)
-- [Decision: [Title]](#decision-title)
+- [Decision - [Title]](#decision-title)
 - [Implement Async-First Code Review](#implement-async-first-code-review)
 - [Build Culture Around Written Communication](#build-culture-around-written-communication)
 - [Standup - March 15](#standup-march-15)
@@ -72,11 +72,11 @@ When synchronous discussion happens, the outcome must live somewhere searchable.
 Use a standardized decision template:
 
 ```markdown
-Decision: [Title]
+Decision - [Title]
 
-Date: 2026-03-15
-Participants: @sarah, @kenji, @alex
-Status: Accepted | Deprecated | Pending
+Date - 2026-03-15
+Participants - @sarah, @kenji, @alex
+Status - Accepted | Deprecated | Pending
 
 Context
 What problem are we solving?
@@ -169,11 +169,11 @@ Tools That Support Cross-Timezone Workflow
 
 Your tooling stack matters less than consistent usage. However, certain categories help:
 
-Async video: Loom, Vidyard, Screen Studio
-Documentation: Notion, GitBook, or GitHub wiki
-Project management: Linear, Jira, or Linear with custom views
-Communication: Slack with timezone-aware bots
-Time tracking: World Time Buddy, Every Time Zone visualizations
+Async video - Loom, Vidyard, Screen Studio
+Documentation - Notion, GitBook, or GitHub wiki
+Project management - Linear, Jira, or Linear with custom views
+Communication - Slack with timezone-aware bots
+Time tracking - World Time Buddy, Every Time Zone visualizations
 
 Configure Slack to respect working hours. Many teams set up do-not-disturb rules based on user timezones:
 
@@ -223,9 +223,9 @@ Synchronizing Sprint Planning Across Zones
 
 Sprint planning is traditionally synchronous, but cross-timezone teams can make it mostly asynchronous with one synchronous checkpoint:
 
-Pre-planning phase (Days 1-3): Engineering leads from each region prepare estimated stories and dependencies in a shared document. Time spent: 2-3 hours per person, distributed across their working hours.
+Pre-planning phase (Days 1-3) - Engineering leads from each region prepare estimated stories and dependencies in a shared document. Time spent: 2-3 hours per person, distributed across their working hours.
 
-Sync planning call (Day 4): One hour maximum covering only conflicts, dependencies, and prioritization. With pre-work done, decisions happen quickly.
+Sync planning call (Day 4) - One hour maximum covering only conflicts, dependencies, and prioritization. With pre-work done, decisions happen quickly.
 
 Post-planning async confirmation (Day 5): Teams confirm their assignments and dependencies in writing. This creates a record for team members in sleeping timezones.
 
@@ -237,9 +237,9 @@ Team cohesion in cross-timezone teams requires intentional design. Beyond synchr
 
 Async team channels with personality: Create Slack channels for non-work discussion, #random, #photos, #cooking. Engineers in Tokyo post breakfast updates; US team responds when awake. Over time, team members build a richer picture of each other.
 
-Quarterly in-person sprints: When feasible, bring the team together quarterly for a week. Use this time for relationship building and complex architectural discussions that async communication struggles with.
+Quarterly in-person sprints - When feasible, bring the team together quarterly for a week. Use this time for relationship building and complex architectural discussions that async communication struggles with.
 
-Recorded video standups: Once per week, have engineering leads record 5-minute video updates about their region's work. Personal connection carries weight that text updates don't.
+Recorded video standups - Once per week, have engineering leads record 5-minute video updates about their region's work. Personal connection carries weight that text updates don't.
 
 Measuring Success Beyond Metrics
 
@@ -255,23 +255,23 @@ Handling Burnout in Cross-Timezone Teams
 
 Remote work with timezone challenges creates burnout risk that co-located teams don't face:
 
-Expectation setting: Make clear that engineers in non-overlap hours aren't expected to respond immediately to messages. Document response time expectations explicitly.
+Expectation setting - Make clear that engineers in non-overlap hours aren't expected to respond immediately to messages. Document response time expectations explicitly.
 
-On-call fairness: If you have on-call rotations, ensure the burden of nighttime/awkward-hour on-call responsibility is distributed across timezones, not concentrated on one region.
+On-call fairness - If you have on-call rotations, ensure the burden of nighttime/awkward-hour on-call responsibility is distributed across timezones, not concentrated on one region.
 
-Vacation boundaries: During vacation, enforce actual disconnection. An engineer in Japan on vacation at 3 AM shouldn't see urgent messages from the US team. Set auto-responders and escalation paths.
+Vacation boundaries - During vacation, enforce actual disconnection. An engineer in Japan on vacation at 3 AM shouldn't see urgent messages from the US team. Set auto-responders and escalation paths.
 
-Manager awareness: Engineering managers should proactively monitor for burnout signs in cross-timezone setups. Fatigue shows up in code quality and communication tone before people explicitly ask for help.
+Manager awareness - Engineering managers should proactively monitor for burnout signs in cross-timezone setups. Fatigue shows up in code quality and communication tone before people explicitly ask for help.
 
 Cross-Timezone Knowledge Transfer
 
 New team members joining a cross-timezone team need structured onboarding:
 
-Recorded async orientation: Create a recorded walkthrough of team processes, architecture, and decision history. New team members watch at their convenience without waiting for overlap.
+Recorded async orientation - Create a recorded walkthrough of team processes, architecture, and decision history. New team members watch at their convenience without waiting for overlap.
 
-Time-zone-aware buddy: Pair new hires with someone in a timezone closer to them, so they have a nearby colleague for quick questions.
+Time-zone-aware buddy - Pair new hires with someone in a timezone closer to them, so they have a nearby colleague for quick questions.
 
-Documentation-first onboarding: Rely heavily on documentation, not live walkthroughs. A new engineer reading docs and asking async questions often onboards faster than someone waiting for multiple hours to catch overlap time.
+Documentation-first onboarding - Rely heavily on documentation, not live walkthroughs. A new engineer reading docs and asking async questions often onboards faster than someone waiting for multiple hours to catch overlap time.
 
 Retrospectives and Protocol Improvements
 

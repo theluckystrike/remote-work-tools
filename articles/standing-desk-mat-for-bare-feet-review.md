@@ -28,9 +28,9 @@ Table of Contents
 - [Making the Transition](#making-the-transition)
 - [Maintenance Schedule for Longevity](#maintenance-schedule-for-longevity)
 - [Product-Specific Recommendation for Remote Developers](#product-specific-recommendation-for-remote-developers)
-- [Barefoot vs. Socked Use: Performance Differences](#barefoot-vs-socked-use-performance-differences)
+- [Barefoot vs. Socked Use - Performance Differences](#barefoot-vs-socked-use-performance-differences)
 - [Temperature Management for Barefoot Standing](#temperature-management-for-barefoot-standing)
-- [Investment ROI: When Mats Pay for Themselves](#investment-roi-when-mats-pay-for-themselves)
+- [Investment ROI - When Mats Pay for Themselves](#investment-roi-when-mats-pay-for-themselves)
 
 Why Barefoot-Compatible Mats Matter
 
@@ -48,19 +48,19 @@ Density matters as much as thickness. High-density foam maintains its shape over
 
 Material Options and Product Recommendations
 
-Memory Foam: Conforms to foot shape but compresses over time. Best for shorter standing sessions or as a complementary layer.
+Memory Foam - Conforms to foot shape but compresses over time. Best for shorter standing sessions or as a complementary layer.
 - Implus Powerstep Pro ($60-80, 3/4"): Moderate compression after 2-3 years
 - Ninja Mat Premium ($45-60, 1"): Decent barefoot comfort, some compression noted at 18+ months
 
-PU Foam (Polyurethane): Offers excellent durability and bounce-back properties. Resists compression better than memory foam and maintains comfort over years of daily use. Best choice for bare feet.
+PU Foam (Polyurethane) - Offers excellent durability and bounce-back properties. Resists compression better than memory foam and maintains comfort over years of daily use. Best choice for bare feet.
 - Kangaroo Original Premium ($90-120, 1"): 25 PSI density, excellent durability, specifically designed for barefoot use, 5-year warranty
 - Ergo Comfort Anti-Fatigue Mat ($50-70, 3/4"): 20 PSI density, decent mid-range option
 - Wearwell UltraSoft Tile-Top ($80-100, 3/4"): Commercial-grade, widely recommended for developer setups
 
-Rubber Composite: Provides durability and grip but less cushioning. Ideal for standing desks near walkways where mat movement is a concern.
+Rubber Composite - Provides durability and grip but less cushioning. Ideal for standing desks near walkways where mat movement is a concern.
 - Goodyear Anti-Fatigue Mat ($40-55, 3/8"): Industrial-grade, minimal compression, less comfort than foam
 
-Gel-Infused Foam: Keeps feet cooler during long sessions. Relevant for developers who notice foot temperature affecting focus.
+Gel-Infused Foam - Keeps feet cooler during long sessions. Relevant for developers who notice foot temperature affecting focus.
 - ComfiLife Premium Gel-Infused ($55-75, 3/4"): Cooling technology, good barefoot feel, slight gel migration over time
 
 Surface Texture and Edge Design
@@ -158,13 +158,13 @@ Most developers who follow this gradual approach report sustainable standing des
 
 Maintenance Schedule for Longevity
 
-Weekly: Vacuum or wipe mat to prevent dust accumulation and odor (especially important for barefoot use)
+Weekly - Vacuum or wipe mat to prevent dust accumulation and odor (especially important for barefoot use)
 
-Monthly: Deep clean with mild soap and water, allow 24 hours complete drying before use
+Monthly - Deep clean with mild soap and water, allow 24 hours complete drying before use
 
-Quarterly: Assess compression by checking if mat springs back fully when unweighted
+Quarterly - Assess compression by checking if mat springs back fully when unweighted
 
-Annually: Flip reversible mats to distribute wear evenly, inspect edges for separation or damage
+Annually - Flip reversible mats to distribute wear evenly, inspect edges for separation or damage
 
 Product-Specific Recommendation for Remote Developers
 
@@ -177,7 +177,7 @@ For developers prioritizing barefoot comfort over 3+ years of daily use, the Kan
 
 Budget-conscious developers starting with standing desks often choose the IKEA Pinnig Anti-Fatigue Mat ($30-40) as a testing option, then upgrade to premium models once committing to sustained standing desk use.
 
-Barefoot vs. Socked Use: Performance Differences
+Barefoot vs. Socked Use - Performance Differences
 
 Studies on standing desk mats show measurable differences between barefoot and socked use:
 
@@ -225,7 +225,7 @@ Variable Temperature Rooms:
 
 Experienced barefoot standing desk users often have two mats: a warmer option for winter months and a lighter option for summer. This $100-150 investment optimizes comfort across seasonal variations.
 
-Investment ROI: When Mats Pay for Themselves
+Investment ROI - When Mats Pay for Themselves
 
 For developers averaging 5 hours daily standing desk use:
 - Cheap mat ($30) lasting 6 months: $60/year cost, ~$0.01 per standing hour

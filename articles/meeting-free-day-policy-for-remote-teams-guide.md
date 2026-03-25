@@ -34,7 +34,7 @@ Table of Contents
 - [Approved Exceptions](#approved-exceptions)
 - [Enforcement](#enforcement)
 - [Feedback](#feedback)
-- [Measuring Impact: Metrics Framework](#measuring-impact-metrics-framework)
+- [Measuring Impact - Metrics Framework](#measuring-impact-metrics-framework)
 - [Scaling to Multiple Teams or Company-Wide](#scaling-to-multiple-teams-or-company-wide)
 - [Getting Started Today](#getting-started-today)
 
@@ -46,13 +46,13 @@ A meeting free day policy addresses this by designating one or more days per wee
 
 Implementing a Meeting Free Day
 
-Step 1: Choose Your Day
+Step 1 - Choose Your Day
 
 Most teams choose either Wednesday or Friday as their meeting-free day. Wednesday works well because it breaks the week into two focused halves. Friday works for teams that want to end the week with independent work. Some teams prefer Thursday to avoid the mid-week slump.
 
 Consider your team's rhythm. If you ship on Monday, avoid making Monday meeting-free since you'll want to review what shipped over the weekend.
 
-Step 2: Set Clear Boundaries
+Step 2 - Set Clear Boundaries
 
 Define what counts as a meeting. Some exceptions typically include:
 
@@ -63,7 +63,7 @@ Define what counts as a meeting. Some exceptions typically include:
 
 Document these exceptions so team members know when it's acceptable to schedule a meeting on the designated day.
 
-Step 3: Update Team Norms
+Step 3 - Update Team Norms
 
 Communicate the policy clearly. Send a calendar invite to the entire team marking the meeting-free day as busy. This prevents external meetings from being scheduled.
 
@@ -100,15 +100,15 @@ This script automatically blocks your calendar for focus time. You can run it as
 
 Practical Examples from Remote Teams
 
-Example 1: The GitLab Approach
+Example 1 - The GitLab Approach
 
 GitLab, one of the largest all-remote companies, implements no-meeting Wednesdays. Their handbook explicitly states that meetings should be a last resort, and most discussions happen in issues, merge requests, or async video updates. New team members learn to default to async communication.
 
-Example 2: The Automattic Schedule
+Example 2 - The Automattic Schedule
 
 Automattic, the company behind WordPress, uses P2 threads and async communication for most decisions. They still have regular meetings but protect certain days for focused work. Their approach emphasizes written communication over real-time meetings.
 
-Example 3: Small Team Implementation
+Example 3 - Small Team Implementation
 
 A 5-person distributed team implemented meeting-free Fridays. They added a calendar rule that automatically declines meetings on Friday unless the invite includes `[URGENT]` in the title. Here's a simple Google Apps Script that does this:
 
@@ -158,25 +158,25 @@ Common Pitfalls
 
 Scheduling client meetings on focus days: Establish a rule that external meetings must be scheduled by Tuesday for the following week. This gives the team visibility into what's coming.
 
-One-on-ones getting moved: Treat one-on-ones as meetings and move them to other days. Some teams keep them but make them optional or shorter.
+One-on-ones getting moved - Treat one-on-ones as meetings and move them to other days. Some teams keep them but make them optional or shorter.
 
-The policy becoming optional: Leadership must model the behavior. If managers schedule meetings on focus days, the policy loses credibility.
+The policy becoming optional - Leadership must model the behavior. If managers schedule meetings on focus days, the policy loses credibility.
 
 Tooling and Implementation Options
 
 Different teams require different solutions. Here's a comparison of approaches and tools:
 
-Approach 1: Calendar Block + Manual Enforcement
-Cost: Free
-Effort: Low
-Best for: Teams with strong culture and small size (under 10 people)
+Approach 1 - Calendar Block + Manual Enforcement
+Cost - Free
+Effort - Low
+Best for - Teams with strong culture and small size (under 10 people)
 
 Create a recurring all-day event on focus day. Title it "Focus Time - No Meetings." Set transparency to opaque so it blocks calendar visibility.
 
-Approach 2: Email Filter Rules
-Cost: Free (Gmail, Outlook built-in)
-Effort: Medium
-Best for: Teams using email-based meeting systems
+Approach 2 - Email Filter Rules
+Cost - Free (Gmail, Outlook built-in)
+Effort - Medium
+Best for - Teams using email-based meeting systems
 
 Gmail filter example:
 - Matches: All email to/from account
@@ -184,10 +184,10 @@ Gmail filter example:
 - Label: Do Not Process on Friday
 - Never mark as spam
 
-Approach 3: Slack Bot Automation
-Cost: Free (custom bot) to $20/month (commercial)
-Effort: Medium
-Best for: Teams already using Slack heavily
+Approach 3 - Slack Bot Automation
+Cost - Free (custom bot) to $20/month (commercial)
+Effort - Medium
+Best for - Teams already using Slack heavily
 
 Popular options:
 - Custom bot using Slack API (free, requires setup)
@@ -196,10 +196,10 @@ Popular options:
 
 For a team of 5-6 developers, custom bot costs: ~2 hours setup time (then runs free forever).
 
-Approach 4: Calendar Management Platform
-Cost: $8-30/user/month
-Effort: Low
-Best for: Teams already heavily calendar-dependent
+Approach 4 - Calendar Management Platform
+Cost - $8-30/user/month
+Effort - Low
+Best for - Teams already heavily calendar-dependent
 
 Popular choices:
 - Reclaim.ai: Automatically schedules focus blocks, respects them across team
@@ -213,22 +213,22 @@ Pricing comparison for team of 6:
 
 Implementation Timeline and Rollout
 
-Week 1: Planning
+Week 1 - Planning
 - Survey team about preferences (which day, which exceptions)
 - Document policy in writing (template below)
 - Announce decision with full context
 
-Week 2-3: Soft Launch
+Week 2-3 - Soft Launch
 - Block calendar day, but don't enforce strictly
 - Track what breaks naturally
 - Gather feedback in team sync
 
-Week 4: Hard Launch
+Week 4 - Hard Launch
 - Implement tooling (calendar blocks, Slack rules, etc.)
 - Enforce exceptions policy strictly
 - Measure baseline metrics
 
-Week 5-8: Iteration
+Week 5-8 - Iteration
 - Review metrics weekly
 - Adjust threshold based on team feedback
 - Refine exception handling
@@ -266,7 +266,7 @@ Report violations or improvements needed in #engineering-processes
 Weekly check-in every other week in team sync
 ```
 
-Measuring Impact: Metrics Framework
+Measuring Impact - Metrics Framework
 
 Track these metrics before and after implementation:
 
@@ -326,17 +326,17 @@ def calculate_meeting_load(calendar_data, start_date, days=30):
 
 Scaling to Multiple Teams or Company-Wide
 
-Phase 1: Single Team (Weeks 1-4)
+Phase 1 - Single Team (Weeks 1-4)
 - One team tests policy
 - Document learnings
 - Create reusable tooling
 
-Phase 2: Cross-Team Rollout (Weeks 5-8)
+Phase 2 - Cross-Team Rollout (Weeks 5-8)
 - Share template and success metrics
 - Let other teams adopt independently
 - Track adoption and results
 
-Phase 3: Company-Wide Standardization (Months 3-6)
+Phase 3 - Company-Wide Standardization (Months 3-6)
 - Align focus day across teams (usually same day)
 - Implement company-level Slack rules and calendar policies
 - Build culture celebrating focus time

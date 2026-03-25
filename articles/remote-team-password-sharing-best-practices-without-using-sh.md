@@ -31,16 +31,16 @@ Remote teams frequently face a common problem: how do you share credentials secu
 
 Table of Contents
 
-- [Team Password Managers: The Foundation](#team-password-managers-the-foundation)
+- [Team Password Managers - The Foundation](#team-password-managers-the-foundation)
 - [Secret Management for Developers](#secret-management-for-developers)
-- [Zero-Knowledge Encryption: What It Means](#zero-knowledge-encryption-what-it-means)
+- [Zero-Knowledge Encryption - What It Means](#zero-knowledge-encryption-what-it-means)
 - [Access Control Patterns](#access-control-patterns)
 - [Implementation Recommendations](#implementation-recommendations)
 - [Moving Away from Spreadsheets](#moving-away-from-spreadsheets)
 
 The spreadsheet approach, whether Google Sheets, Excel, or Notion tables, seems convenient but introduces serious risks. Credentials sit unencrypted in cloud storage, live indefinitely without rotation, and provide no audit trail. Anyone with access can view, copy, or leak sensitive information. Fortunately, modern tools offer far superior alternatives.
 
-Team Password Managers: The Foundation
+Team Password Managers - The Foundation
 
 Team password managers solve the core problem by providing encrypted vaults where credentials live behind proper access controls. Unlike spreadsheets, these tools encrypt data end-to-end, enforce permission boundaries, and maintain detailed access logs.
 
@@ -86,7 +86,7 @@ aws secretsmanager get-secret-value \
 
 Azure Key Vault and GCP Secret Manager provide equivalent functionality for Azure and Google Cloud environments respectively. If your team uses multi-cloud infrastructure, HashiCorp Vault's cloud-agnostic approach often makes more sense.
 
-Zero-Knowledge Encryption: What It Means
+Zero-Knowledge Encryption - What It Means
 
 Understanding encryption architecture matters when selecting tools. Zero-knowledge (or zero-trust) encryption means the service provider cannot see your plaintext secrets. Your credentials encrypt locally before transmission, and only your team holds the decryption keys.
 
@@ -203,13 +203,13 @@ The Risks of Shared Passwords
 
 Understanding why shared passwords fail helps you enforce better practices:
 
-Session Hijacking: When a password is shared, multiple people enter it from multiple devices. If one device is compromised, the account is exposed. With a tool like 1Password, the tool doesn't expose the password, it auto-fills, limiting exposure surface.
+Session Hijacking - When a password is shared, multiple people enter it from multiple devices. If one device is compromised, the account is exposed. With a tool like 1Password, the tool doesn't expose the password, it auto-fills, limiting exposure surface.
 
-Audit Trail Loss: Shared passwords create no audit trail. You don't know who accessed what or when. When a leak occurs, you can't determine the scope or when compromise happened.
+Audit Trail Loss - Shared passwords create no audit trail. You don't know who accessed what or when. When a leak occurs, you can't determine the scope or when compromise happened.
 
-Rotation Chaos: When you rotate a shared password, you must notify everyone and wait for them to update their files. Someone always misses the memo and uses the old password, breaking their workflow.
+Rotation Chaos - When you rotate a shared password, you must notify everyone and wait for them to update their files. Someone always misses the memo and uses the old password, breaking their workflow.
 
-Termination Risk: When someone leaves your company, you must rotate all credentials they ever knew. With 20 people sharing 50 passwords, you end up rotating everything.
+Termination Risk - When someone leaves your company, you must rotate all credentials they ever knew. With 20 people sharing 50 passwords, you end up rotating everything.
 
 Use these risks in conversations with your team when introducing new tools.
 
@@ -265,7 +265,7 @@ New Hire Credential Offboarding (Last Day)
 5. Archive their access record for compliance
 ```
 
-Timing matters: immediate revocation on departure prevents former employees from accessing credentials.
+Timing matters - immediate revocation on departure prevents former employees from accessing credentials.
 
 Implementing MFA Everywhere
 
@@ -288,25 +288,25 @@ Implementation Roadmap
 
 Rolling out new credential management tools requires planning:
 
-Month 1: Audit & Planning
+Month 1 - Audit & Planning
 - Catalog every shared credential currently in use (spreadsheets, shared files, chat history, etc.)
 - Assess compliance requirements (HIPAA, SOC2, GDPR, PCI-DSS)
 - Select tool and negotiate enterprise licensing if applicable
 - Create security policy document
 
-Month 2: Pilot Group
+Month 2 - Pilot Group
 - Select 3-5 power users to pilot the new tool
 - Migrate their credentials and get feedback
 - Document any problems or missing features
 - Refine workflows based on pilot feedback
 
-Month 3: Gradual Rollout
+Month 3 - Gradual Rollout
 - Migrate 30% of team (usually engineering/operations)
 - Provide training: 30-minute group walkthrough + recorded demo
 - Assign tool champions: 1-2 people who become go-to experts
 - Create quick reference guide for most common tasks
 
-Month 4-5: Full Adoption
+Month 4-5 - Full Adoption
 - Migrate remaining team members
 - Remove spreadsheet access from shared drives (don't delete yet, archive for history)
 - Run compliance check: verify all credentials are in password manager
@@ -328,13 +328,13 @@ Building Team Habits
 
 Tools alone don't ensure security. Team habits matter more:
 
-No Credential Sharing via Chat: Create a Slack bot that detects credentials (common patterns like "api_key=", "password:", etc.) and blocks the message with a friendly reminder to use the password manager instead.
+No Credential Sharing via Chat - Create a Slack bot that detects credentials (common patterns like "api_key=", "password:", etc.) and blocks the message with a friendly reminder to use the password manager instead.
 
-Credential Access Requests: Require all access requests in writing (Jira, email, or form submission). This creates accountability and an audit trail.
+Credential Access Requests - Require all access requests in writing (Jira, email, or form submission). This creates accountability and an audit trail.
 
-Regular Access Reviews: Quarterly, review who has access to what. Remove unnecessary access, especially for people who changed roles.
+Regular Access Reviews - Quarterly, review who has access to what. Remove unnecessary access, especially for people who changed roles.
 
-Post-Incident Credential Rotation: When a team member leaves or a credential leak is suspected, rotate credentials within 24 hours. Have a runbook for this process.
+Post-Incident Credential Rotation - When a team member leaves or a credential leak is suspected, rotate credentials within 24 hours. Have a runbook for this process.
 
 Related Articles
 
@@ -353,7 +353,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -365,6 +365,6 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 {% endraw %}

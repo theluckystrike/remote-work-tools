@@ -19,7 +19,7 @@ tags: [remote-work-tools, remote-work]
 
 ---
 
-Option 1: Dev Containers (VS Code / JetBrains)
+Option 1 - Dev Containers (VS Code / JetBrains)
 
 Dev Containers run your entire development environment inside a Docker container. VS Code and JetBrains connect to it ; the developer's local machine is just a display layer.
 
@@ -122,7 +122,7 @@ services:
 
 ---
 
-Option 2: Nix Flakes (Reproducible Across All OS)
+Option 2 - Nix Flakes (Reproducible Across All OS)
 
 Nix flakes provide bit-for-bit reproducible environments. The same `flake.nix` produces identical tool versions on macOS, Linux, and in CI.
 
@@ -210,7 +210,7 @@ direnv allow
 
 ---
 
-Option 3: Makefile Bootstrap (Universal)
+Option 3 - Makefile Bootstrap (Universal)
 
 For teams where Nix and Docker are too opinionated, a `Makefile` with a `setup` target provides a documented, repeatable setup that works anywhere:
 
@@ -320,10 +320,10 @@ Setup (5 minutes)
 git clone git@github.com:your-org/your-repo.git
 cd your-repo
 
-Option A: Dev Container (recommended)
+Option A - Dev Container (recommended)
 code . # VS Code prompts to reopen in container
 
-Option B: Local setup
+Option B - Local setup
 make setup
 ```
 

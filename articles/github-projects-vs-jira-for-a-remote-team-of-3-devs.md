@@ -21,10 +21,10 @@ Table of Contents
 - [What GitHub Projects Offers](#what-github-projects-offers)
 - [What Jira Brings to the Table](#what-jira-brings-to-the-table)
 - [Cost Comparison for Small Teams](#cost-comparison-for-small-teams)
-- [Feature Comparison: Detailed Matrix](#feature-comparison-detailed-matrix)
+- [Feature Comparison - Detailed Matrix](#feature-comparison-detailed-matrix)
 - [Real-World Workflow Examples](#real-world-workflow-examples)
 - [Specific Workflows That Benefit Each Tool](#specific-workflows-that-benefit-each-tool)
-- [Speed Comparison: Setup to First Sprint](#speed-comparison-setup-to-first-sprint)
+- [Speed Comparison - Setup to First Sprint](#speed-comparison-setup-to-first-sprint)
 - [Team Feedback and Satisfaction Metrics](#team-feedback-and-satisfaction-metrics)
 - [The Real Cost Beyond Pricing](#the-real-cost-beyond-pricing)
 - [Integration Reality](#integration-reality)
@@ -73,7 +73,7 @@ Jira Pricing (2026):
 
 For a three-person dev team earning typical SaaS salaries, GitHub Projects' free tier eliminates a budget consideration that Jira forces, even Jira's "free" tier becomes inadequate for most workflows once you exceed 10 users or need advanced reporting.
 
-Feature Comparison: Detailed Matrix
+Feature Comparison - Detailed Matrix
 
 | Feature | GitHub Projects | Jira Free | Jira Standard |
 |---------|-----------------|-----------|---------------|
@@ -103,7 +103,7 @@ Jira workflow for same team:
 4. Developer manually updates time spent (often forgotten)
 5. Weekly sync: Review Jira board (30 min) + review actual code/PRs (30 min) = more overhead
 
-The hidden cost in Jira workflows is context-switching. Developers context-switch between GitHub (code) and Jira (tracking) 10-15 times daily. GitHub Projects keeps everything in one ecosystem.
+The hidden cost in Jira workflows is context-switching. Developers context-switch between GitHub (code) and Jira (tracking) 10-15 times daily. GitHub Projects keeps everything in one environment.
 
 Specific Workflows That Benefit Each Tool
 
@@ -123,7 +123,7 @@ Jira Excels At:
 
 For a three-person dev team, GitHub Projects covers 95% of real needs. Jira's advantages only matter for teams managing 20+ people or those needing formal compliance documentation.
 
-Speed Comparison: Setup to First Sprint
+Speed Comparison - Setup to First Sprint
 
 GitHub Projects Speed:
 1. Create project (1 minute)

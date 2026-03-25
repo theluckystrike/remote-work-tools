@@ -25,7 +25,7 @@ Table of Contents
 - [Present Your Proposal Professionally](#present-your-proposal-professionally)
 - [use Async Tools to Support Your Case](#use-async-tools-to-support-your-case)
 - [What If Your Request Is Denied?](#what-if-your-request-is-denied)
-- [Comparative Schedules: Europe to US Timezone Mapping](#comparative-schedules-europe-to-us-timezone-mapping)
+- [Comparative Schedules - Europe to US Timezone Mapping](#comparative-schedules-europe-to-us-timezone-mapping)
 - [Building Your Productivity Evidence Document](#building-your-productivity-evidence-document)
 - [Async Capability Evidence (Current Month Example)](#async-capability-evidence-current-month-example)
 - [The Negotiation Conversation Script](#the-negotiation-conversation-script)
@@ -83,18 +83,18 @@ Propose Specific Alternatives
 
 Vague requests get vague answers. Come with concrete proposals:
 
-Option 1: Split Core Hours
+Option 1 - Split Core Hours
 
 ```text
-My Proposal: 10:00 - 15:00 CET (1:00 - 6:00 AM PST)
-Core availability: 10:00 - 15:00 CET for real-time meetings
-Async coverage: Extended hours for code reviews and PR feedback
-US team overlap: 1 PM - 3 PM CET (6 AM - 8 AM PST)
+My Proposal - 10:00 - 15:00 CET (1:00 - 6:00 AM PST)
+Core availability - 10:00 - 15:00 CET for real-time meetings
+Async coverage - Extended hours for code reviews and PR feedback
+US team overlap - 1 PM - 3 PM CET (6 AM - 8 AM PST)
 ```
 
 This gives the US team morning hours when they're fresh, while you work during your most productive afternoon block.
 
-Option 2: Asynchronous-First Model
+Option 2 - Asynchronous-First Model
 
 Propose that all non-urgent communication happens asynchronously, with designated overlap windows only for critical sync:
 
@@ -111,7 +111,7 @@ const availability = {
 };
 ```
 
-Option 3: Staggered Start
+Option 3 - Staggered Start
 
 Request starting earlier or later to maximize overlap. A 7 AM start in Berlin gives you 5 hours of overlap with New York:
 
@@ -180,7 +180,7 @@ If initial negotiations don't succeed, explore alternatives:
 
 Many developers have secured flexible hours by proving their value first and negotiating second. The key is demonstrating that your output quality remains high, or improves, when you're not forced to work during your biological trough hours.
 
-Comparative Schedules: Europe to US Timezone Mapping
+Comparative Schedules - Europe to US Timezone Mapping
 
 Understanding exactly what overlap you get is critical. Here's a reference table showing real-world overlaps for common European and US city pairs:
 
@@ -229,13 +229,13 @@ The Negotiation Conversation Script
 
 When you sit down (or video call) with your manager, have a structured conversation:
 
-Opening: "I'd like to discuss my working hours. I've been thinking about timezone optimization and productivity, and I have a proposal that I think benefits both me and the team."
+Opening - "I'd like to discuss my working hours. I've been thinking about timezone optimization and productivity, and I have a proposal that I think benefits both me and the team."
 
-The Ask: "I'd like to adjust my core hours to [specific time range]. This maintains [X hours] of overlap with the US team during peak hours while letting me work during my most productive time."
+The Ask - "I'd like to adjust my core hours to [specific time range]. This maintains [X hours] of overlap with the US team during peak hours while letting me work during my most productive time."
 
-The Evidence: Present your async capability document. ""I'd love to test this for one sprint, two weeks. We can track the same metrics: code review quality, communication response time, and delivery timeliness. If it's working, we make it permanent. If not, we adjust."
+The Evidence - Present your async capability document. ""I'd love to test this for one sprint, two weeks. We can track the same metrics: code review quality, communication response time, and delivery timeliness. If it's working, we make it permanent. If not, we adjust."
 
-The Boundaries: "I'll be fully available for meetings during our overlap window, I'll maintain 12-hour async response time, and I'll document any blockers immediately."
+The Boundaries - "I'll be fully available for meetings during our overlap window, I'll maintain 12-hour async response time, and I'll document any blockers immediately."
 
 Handling the "Always On" Expectation
 
@@ -269,27 +269,27 @@ If Your Negotiation Fails (Backup Strategies)
 
 If your manager says no initially, you have several intermediate options:
 
-Incremental approach: "Can I try flexible hours on Mondays and Fridays for two weeks?" Smaller changes face less resistance. After proving success, expand gradually.
+Incremental approach - "Can I try flexible hours on Mondays and Fridays for two weeks?" Smaller changes face less resistance. After proving success, expand gradually.
 
-Project-based trial: "For the [specific project] I'm leading, I'd like to try flexible hours. It'll help me focus on the complex architecture work without meetings." Tie it to specific business value.
+Project-based trial - "For the [specific project] I'm leading, I'd like to try flexible hours. It'll help me focus on the complex architecture work without meetings." Tie it to specific business value.
 
-Output-based agreement: "I'll maintain my current sprint velocity and code review quality. If those metrics drop, we revert to standard hours." Make it outcome-based, not time-based.
+Output-based agreement - "I'll maintain my current sprint velocity and code review quality. If those metrics drop, we revert to standard hours." Make it outcome-based, not time-based.
 
-Peer precedent: "I noticed [other developer] has flexible hours. Would the same arrangement work for me?" If it's not a company policy issue, peer examples work.
+Peer precedent - "I noticed [other developer] has flexible hours. Would the same arrangement work for me?" If it's not a company policy issue, peer examples work.
 
-Regional support angle: "My timezone naturally covers [specific coverage need] better than standard hours. Having me available 2 PM-8 PM UTC gives us better client support in the Asian region." Reframe it as a business advantage.
+Regional support angle - "My timezone naturally covers [specific coverage need] better than standard hours. Having me available 2 PM-8 PM UTC gives us better client support in the Asian region." Reframe it as a business advantage.
 
 Legal and HR Considerations
 
 Before negotiating flexible hours, understand the legal market:
 
-Employment status: Remote contractors have fewer protections than employees in many jurisdictions. If you're a contractor, this discussion happens at project negotiation, not during employment.
+Employment status - Remote contractors have fewer protections than employees in many jurisdictions. If you're a contractor, this discussion happens at project negotiation, not during employment.
 
-Labor laws: Some countries have strict regulations about working hours. Europe often requires documented agreements about flexible arrangements. Document any flexible hour agreement in writing.
+Labor laws - Some countries have strict regulations about working hours. Europe often requires documented agreements about flexible arrangements. Document any flexible hour agreement in writing.
 
-Visa/work permit requirements: If you're in a country on a work visa, certain flexible hour arrangements might violate visa conditions. Check with immigration before changing hours officially.
+Visa/work permit requirements - If you're in a country on a work visa, certain flexible hour arrangements might violate visa conditions. Check with immigration before changing hours officially.
 
-Tax implications: Flexible hours might affect how your income is taxed or claimed. Unusual hour patterns shouldn't affect tax treatment, but document the arrangement in case of audit.
+Tax implications - Flexible hours might affect how your income is taxed or claimed. Unusual hour patterns shouldn't affect tax treatment, but document the arrangement in case of audit.
 
 When in doubt, have your employer's HR department (not just your manager) acknowledge the flexible arrangement in writing.
 
@@ -320,6 +320,6 @@ Related Articles
 - [How to Schedule Meetings Across 8 Hour Timezone Difference](/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
 - [Team hours (as datetime.time objects converted to hours)](/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
 - [Cross Timezone Communication Strategies for Remote Teams](/cross-timezone-communication-strategies-remote-teams/)
-- [Example: project-update.yml - Scheduled updates structure](/how-to-manage-client-expectations-when-team-works-asynchrono/)
+- [Example - project-update.yml - Scheduled updates structure](/how-to-manage-client-expectations-when-team-works-asynchrono/)
 - [Best Async Project Management Tools for Distributed Teams](/best-async-project-management-tools-for-distributed-teams-2026/)
 Built by theluckystrike. More at [zovo.one](https://zovo.one)

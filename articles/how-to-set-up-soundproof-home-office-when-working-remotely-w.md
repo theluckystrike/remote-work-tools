@@ -50,7 +50,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Acoustic Treatment Strategies for Home Offices
+Step 1 - Acoustic Treatment Strategies for Home Offices
 
 Wall Soundproofing Without Construction
 
@@ -71,7 +71,7 @@ console.log(`Estimated reduction: ${reduction.toFixed(1)} dB`);
 
 A 2-pound MLV sheet covering your office wall surface can reduce sound transmission by 25-30 dB. Install with construction adhesive directly over drywall, then cover with acoustic fabric or for aesthetics.
 
-Door Sealing: The Weakest Link
+Door Sealing - The Weakest Link
 
 Interior doors are typically the biggest acoustic failure point. Standard hollow-core doors offer minimal sound resistance. Address this with:
 
@@ -106,7 +106,7 @@ print(f"Composite STC: {result:.1f}")
 
 Acoustic window inserts (like Indow or tailored acoustic panels) can add STC 10-15 ratings. Combined with heavy curtains, you can achieve meaningful improvement without window replacement.
 
-Step 2: Budget-Friendly Solutions Under $500
+Step 2 - Budget-Friendly Solutions Under $500
 
 Not everyone needs, or can afford, professional acoustic treatment. Here are high-impact, low-cost interventions:
 
@@ -157,7 +157,7 @@ like Noisli, Brain.fm, or self-hosted alternatives
 
 Brown noise (lower frequency than white noise) masks speech more effectively without becoming annoying during extended coding sessions.
 
-Step 3: Technical Considerations for Developers
+Step 3 - Technical Considerations for Developers
 
 Headphones vs. Speakers for Code Reviews
 
@@ -187,21 +187,21 @@ audio_recording_setup:
 
 A dynamic microphone like the Audio-Technica AT2020 or Shure SM58 rejects ambient sound better than condensers designed for studio use.
 
-Step 4: Real-World Soundproofing Scenarios
+Step 4 - Real-World Soundproofing Scenarios
 
 Different home situations require different approaches:
 
-Apartment with shared walls: Focus on door sealing and absorption on the shared wall. MLV is your friend here, it adds mass where walls are thin. Bookshelves filled with books provide both absorption and visual noise diffusion.
+Apartment with shared walls - Focus on door sealing and absorption on the shared wall. MLV is your friend here, it adds mass where walls are thin. Bookshelves filled with books provide both absorption and visual noise diffusion.
 
-House with open floor plan: The challenge is your voice carrying to adjacent spaces. A partial divider (not full wall) with acoustic panels can create a semi-isolated workspace without full construction.
+House with open floor plan - The challenge is your voice carrying to adjacent spaces. A partial divider (not full wall) with acoustic panels can create a semi-isolated workspace without full construction.
 
-Basement home office: Basements are naturally more isolated but often have water heater/HVAC noise. White noise masking may be more important than isolation. Dehumidifier running continuously provides consistent background noise that masks equipment sounds.
+Basement home office - Basements are naturally more isolated but often have water heater/HVAC noise. White noise masking may be more important than isolation. Dehumidifier running continuously provides consistent background noise that masks equipment sounds.
 
-Multi-child household: The challenge isn't full isolation (impossible with multiple children) but predictability. Establish "parent work hours when we play quietly" vs. "active play time when parent is in meetings." Kids respond to clear boundaries.
+Multi-child household - The challenge isn't full isolation (impossible with multiple children) but predictability. Establish "parent work hours when we play quietly" vs. "active play time when parent is in meetings." Kids respond to clear boundaries.
 
-Shared office with partner: If both partners work from home with meetings, staggered meeting schedules matter more than perfect soundproofing. Negotiate who takes which time blocks for critical calls.
+Shared office with partner - If both partners work from home with meetings, staggered meeting schedules matter more than perfect soundproofing. Negotiate who takes which time blocks for critical calls.
 
-Step 5: DIY vs. Professional Acoustic Treatment
+Step 5 - DIY vs. Professional Acoustic Treatment
 
 Some people should skip DIY and hire professionals. Consider professional treatment if:
 
@@ -214,7 +214,7 @@ Professional acoustic treatment costs $1,500-5,000 but provides measurable dB re
 
 For most remote workers, DIY approaches (door sealing, acoustic panels, brown noise) achieve 80% of the benefit at 10% of the cost.
 
-Step 6: Perform Maintenance and Long-Term Adaptation
+Step 6 - Perform Maintenance and Long-Term Adaptation
 
 Acoustic treatment isn't set-and-forget. As children grow, their activity patterns change. Reassess your setup quarterly:
 
@@ -226,34 +226,34 @@ Acoustic treatment isn't set-and-forget. As children grow, their activity patter
 
 For developers working in shifts or on-call, consider a rapid-deploy setup, a portable vocal booth or noise-canceling booth for emergency calls when child activity peaks.
 
-Step 7: Acoustic Challenges by Child Age
+Step 7 - Acoustic Challenges by Child Age
 
 The types of sounds children produce change with age, requiring different acoustic strategies:
 
-Infants (0-12 months): Unpredictable crying and fussing. ANC headphones are your primary defense. Masking with brown noise works well. MLV and panels are less critical because crying is often high-frequency and earplugs/headphones handle it effectively.
+Infants (0-12 months) - Unpredictable crying and fussing. ANC headphones are your primary defense. Masking with brown noise works well. MLV and panels are less critical because crying is often high-frequency and earplugs/headphones handle it effectively.
 
-Toddlers (1-3 years): More active, noisier play. High-pitched screaming and running. This is when door sealing and basic absorption become essential. Low-profile panels focused on upper wall areas address the frequency range toddlers produce.
+Toddlers (1-3 years) - More active, noisier play. High-pitched screaming and running. This is when door sealing and basic absorption become essential. Low-profile panels focused on upper wall areas address the frequency range toddlers produce.
 
-Preschool (3-5 years): Sustained, intense activity. Stomping on hard floors, loud toys. Floor-to-ceiling bookshelves and heavier MLV become worthwhile. Consistency matters, a quiet hour then a loud hour is more disruptive than steady ambient noise.
+Preschool (3-5 years) - Sustained, intense activity. Stomping on hard floors, loud toys. Floor-to-ceiling bookshelves and heavier MLV become worthwhile. Consistency matters, a quiet hour then a loud hour is more disruptive than steady ambient noise.
 
-School age (5+ years): Often quieter during school hours, louder after. Your acoustic setup can relax during school hours; focus on after-school meeting protection.
+School age (5+ years) - Often quieter during school hours, louder after. Your acoustic setup can relax during school hours; focus on after-school meeting protection.
 
-Step 8: Budget Expansion Paths
+Step 8 - Budget Expansion Paths
 
 Start with basics ($100-200), then expand strategically as budget allows:
 
-Phase 1 ($100-200): Door sweep, weatherstripping, brown noise generation
-Phase 2 ($300-500): 2-3 DIY acoustic panels, thick desk mat
-Phase 3 ($500-1000): MLV coverage on primary wall, quality ANC headphones
-Phase 4 ($1000+): Professional acoustic treatment, door replacement, ventilation redesign
+Phase 1 ($100-200) - Door sweep, weatherstripping, brown noise generation
+Phase 2 ($300-500) - 2-3 DIY acoustic panels, thick desk mat
+Phase 3 ($500-1000) - MLV coverage on primary wall, quality ANC headphones
+Phase 4 ($1000+) - Professional acoustic treatment, door replacement, ventilation redesign
 
 Don't jump to Phase 4 immediately. Measure results at each phase. You may find that Phase 2 is sufficient for your situation.
 
-Step 9: Content Creation and Recording Considerations
+Step 9 - Content Creation and Recording Considerations
 
 Remote workers creating content (tutorials, podcasts, streams) face higher audio quality demands:
 
-Two-tier setup: Maintain your daily-work soundproofing, then add a specialized recording chain:
+Two-tier setup - Maintain your daily-work soundproofing, then add a specialized recording chain:
 
 1. Recording room: Use the room farthest from children's active areas
 2. Dynamic microphone: Close-miked reduces room noise transmission into recordings

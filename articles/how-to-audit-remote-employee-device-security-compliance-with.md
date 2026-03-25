@@ -37,7 +37,7 @@ Essential Tools for Remote Device Auditing
 
 Modern operating systems include built-in remote management capabilities that serve as the foundation for agentless auditing.
 
-Windows: PowerShell Remoting
+Windows - PowerShell Remoting
 
 ```powershell
 Query Windows security settings remotely
@@ -67,7 +67,7 @@ List approved MDM profiles
 ssh admin@$hostname "profiles status -type enrollment"
 ```
 
-Linux: Ansible for Configuration Auditing
+Linux - Ansible for Configuration Auditing
 
 ```yaml
 ansible-playbook device_audit.yml
@@ -145,7 +145,7 @@ curl -X GET "https://graph.microsoft.com/beta/deviceManagement/deviceComplianceP
 
 Building a Compliance Audit Framework
 
-Step 1: Define Your Security Baseline
+Step 1 - Define Your Security Baseline
 
 Before auditing, establish clear security requirements. Typical baselines include:
 
@@ -157,7 +157,7 @@ Before auditing, establish clear security requirements. Typical baselines includ
 - VPN client installed for corporate network access
 - Approved software only (application allowlisting)
 
-Step 2: Create Automated Collection Scripts
+Step 2 - Create Automated Collection Scripts
 
 Develop scripts that run on employee devices and report status to a central system:
 
@@ -203,7 +203,7 @@ if __name__ == "__main__":
  print(json.dumps(data, indent=2))
 ```
 
-Step 3: Establish Reporting and Alerting
+Step 3 - Establish Reporting and Alerting
 
 Configure your audit system to generate alerts when devices fall out of compliance:
 
@@ -229,7 +229,7 @@ groups:
  summary: "{{ $labels.hostname }} has not been updated in {{ $value }} days"
 ```
 
-Step 4: Continuous Monitoring vs Periodic Audits
+Step 4 - Continuous Monitoring vs Periodic Audits
 
 Choose your audit cadence based on security requirements:
 
@@ -239,7 +239,7 @@ Choose your audit cadence based on security requirements:
 | Daily | Standard corporate security | Scheduled scripts, cloud inventory |
 | Weekly | Lower-risk environments | Manual queries, self-service portals |
 
-Practical Example: Building a Compliance Dashboard
+Practical Example - Building a Compliance Dashboard
 
 Combine these tools into an unified view:
 

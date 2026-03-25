@@ -21,20 +21,20 @@ Start with three foundational moves: establish a daily async check-in ritual tha
 Table of Contents
 
 - [Why Remote Culture Requires Different Approaches](#why-remote-culture-requires-different-approaches)
-- [Strategy One: Establish Core Team Rituals](#strategy-one-establish-core-team-rituals)
-- [Strategy Two: Document and Live Your Values](#strategy-two-document-and-live-your-values)
+- [Strategy One - Establish Core Team Rituals](#strategy-one-establish-core-team-rituals)
+- [Strategy Two - Document and Live Your Values](#strategy-two-document-and-live-your-values)
 - [Review Style Guide](#review-style-guide)
-- [Strategy Three: Build Knowledge Systems That Scale](#strategy-three-build-knowledge-systems-that-scale)
-- [Status: Accepted](#status-accepted)
+- [Strategy Three - Build Knowledge Systems That Scale](#strategy-three-build-knowledge-systems-that-scale)
+- [Status - Accepted](#status-accepted)
 - [Context](#context)
 - [Decision](#decision)
 - [Consequences](#consequences)
 - [Alternatives Considered](#alternatives-considered)
-- [Date: 2026-02-15](#date-2026-02-15)
-- [Review: After 3 months of production use](#review-after-3-months-of-production-use)
-- [Strategy Four: Create Onboarding That Builds Culture](#strategy-four-create-onboarding-that-builds-culture)
+- [Date - 2026-02-15](#date-2026-02-15)
+- [Review - After 3 months of production use](#review-after-3-months-of-production-use)
+- [Strategy Four - Create Onboarding That Builds Culture](#strategy-four-create-onboarding-that-builds-culture)
 - [Measuring Culture Health](#measuring-culture-health)
-- [Strategy Five: Documentation as Culture Artifact](#strategy-five-documentation-as-culture-artifact)
+- [Strategy Five - Documentation as Culture Artifact](#strategy-five-documentation-as-culture-artifact)
 - [What We Value (Not Just Words)](#what-we-value-not-just-words)
 - [How We Operate](#how-we-operate)
 - [Culture in Moments of Crisis](#culture-in-moments-of-crisis)
@@ -44,7 +44,7 @@ Why Remote Culture Requires Different Approaches
 
 The most successful remote teams treat culture as a system to be built, not an accident to be hoped for. This means creating deliberate rituals, establishing clear values, and building infrastructure that enables human connection despite physical distance.
 
-Strategy One: Establish Core Team Rituals
+Strategy One - Establish Core Team Rituals
 
 Rituals create predictability and shared experiences that bind remote teams together. Effective rituals span synchronous and asynchronous formats to accommodate global time zones.
 
@@ -100,7 +100,7 @@ console.log("This week's coffee buddies:", weeklyPairs);
 
 Running this weekly creates organic connections across the team that translate into better collaboration during work hours.
 
-Strategy Two: Document and Live Your Values
+Strategy Two - Document and Live Your Values
 
 Remote teams need explicit values that guide decision-making when face-to-face conversation cannot fill in the gaps. Document values as specific behavioral expectations rather than abstract concepts.
 
@@ -142,7 +142,7 @@ Review Style Guide
 
 This transforms code review from a quality gate into a teaching practice that builds shared knowledge and mutual respect.
 
-Strategy Three: Build Knowledge Systems That Scale
+Strategy Three - Build Knowledge Systems That Scale
 
 Remote teams cannot rely on tribal knowledge passed through office proximity. Documentation becomes the backbone of team culture, preserving institutional memory and enabling new members to contribute quickly.
 
@@ -151,9 +151,9 @@ Decision Logs That Tell Stories
 Record not just what was decided, but why alternatives were rejected:
 
 ```markdown
-ADR-042: Adopt pnpm over npm
+ADR-042 - Adopt pnpm over npm
 
-Status: Accepted
+Status - Accepted
 
 Context
 Our monorepo build times exceeded 10 minutes on CI, causing developer frustration
@@ -172,13 +172,13 @@ Alternatives Considered
 - npm workspaces: Would require less migration but performance gains uncertain
 - Turborepo: Worth revisiting after monorepo grows; premature optimization now
 
-Date: 2026-02-15
-Review: After 3 months of production use
+Date - 2026-02-15
+Review - After 3 months of production use
 ```
 
 This practice preserves the reasoning behind decisions, enabling future developers to understand context without hunting down original authors across time zones.
 
-Strategy Four: Create Onboarding That Builds Culture
+Strategy Four - Create Onboarding That Builds Culture
 
 New team members should absorb culture through intentional onboarding, not accidental exposure. Design onboarding that transmits values while building relationships.
 
@@ -218,7 +218,7 @@ TEAM_HEALTH_METRICS = {
 
 The numbers tell part of the story. The rest comes from listening to team feedback and observing how members interact in channels and meetings.
 
-Strategy Five: Documentation as Culture Artifact
+Strategy Five - Documentation as Culture Artifact
 
 Great remote cultures are documented cultures. When new team members can read the history of how decisions were made, what was tried and failed, and why the team operates a certain way, they absorb culture through reading rather than requiring constant verbal transmission.
 

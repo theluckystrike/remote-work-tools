@@ -19,7 +19,7 @@ Optimize your distributed sales team's CRM workflow by automating repetitive dat
 
 Table of Contents
 
-- [The Core Challenge: Distributed Account Ownership](#the-core-challenge-distributed-account-ownership)
+- [The Core Challenge - Distributed Account Ownership](#the-core-challenge-distributed-account-ownership)
 - [Building Automated Workflow Triggers](#building-automated-workflow-triggers)
 - [Time Zone Aware Follow-Up Systems](#time-zone-aware-follow-up-systems)
 - [Pipeline Visibility for Distributed Managers](#pipeline-visibility-for-distributed-managers)
@@ -28,7 +28,7 @@ Table of Contents
 - [Measuring Workflow Effectiveness](#measuring-workflow-effectiveness)
 - [Implementation Checklist](#implementation-checklist)
 
-The Core Challenge: Distributed Account Ownership
+The Core Challenge - Distributed Account Ownership
 
 When sales teams work remotely, ambiguity in account ownership creates duplicate outreach, customer frustration, and lost deals. A CRM workflow must establish clear rules for:
 
@@ -240,7 +240,7 @@ async function notifySlack(opportunity) {
         elements: [
           {
             type: "mrkdwn",
-            text: `Stage: ${opportunity.stage} | Close: ${opportunity.close_date}`
+            text: `Stage - ${opportunity.stage} | Close - ${opportunity.close_date}`
           }
         ]
       }

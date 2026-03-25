@@ -46,7 +46,7 @@ Structuring a Health-Focused Retrospective
 
 A typical health retrospective runs 60-90 minutes for a team of 5-10 people. Unlike process-focused retrospectives that jump straight to action items, health retrospectives require more time for discussion and reflection.
 
-Opening: Check-In Round
+Opening - Check-In Round
 
 Begin with a personal check-in. Each team member shares a brief answer to a simple question:
 
@@ -58,7 +58,7 @@ This opening serves multiple purposes. It normalizes discussing emotions, establ
 
 A useful variation is the "weather report" check-in, where team members describe their current state as weather: sunny, partly cloudy, stormy, foggy. This metaphor distances the exercise from direct emotional disclosure, making it more comfortable for team members who find emotional language difficult. Remote developers in particular often respond better to concrete analogies than open-ended personal questions.
 
-Core Section: Health Dimensions
+Core Section - Health Dimensions
 
 Divide the main discussion into distinct health dimensions. For each dimension, ask specific questions and allow time for honest responses.
 
@@ -84,7 +84,7 @@ Growth and Development
 
 For each dimension, use a quick dot-vote to identify which areas need the most discussion. Teams often want to address everything, so focusing on 2-3 priority areas produces more meaningful outcomes than surface-level coverage of everything.
 
-Closing: Personal Reflections
+Closing - Personal Reflections
 
 End with an individual reflection. Ask each person to write down:
 
@@ -151,16 +151,16 @@ Measuring Health Over Time
 Health retrospectives gain power through repetition and tracking. Create a simple health survey that team members complete each retro:
 
 ```
-Psychological Safety: 1-5
-Workload Balance: 1-5
-Team Connection: 1-5
-Growth Opportunities: 1-5
-Overall Team Health: 1-5
+Psychological Safety - 1-5
+Workload Balance - 1-5
+Team Connection - 1-5
+Growth Opportunities - 1-5
+Overall Team Health - 1-5
 ```
 
 Plot these scores over time. A declining trend signals need for intervention. An improving trend validates your efforts. The data also helps when discussing team health with leadership, numbers communicate urgency more effectively than subjective descriptions.
 
-A useful benchmark: teams scoring below 3.0 on psychological safety across three consecutive retros are at high attrition risk. Research from Amy Edmondson at Harvard Business School shows that teams with low psychological safety make fewer errors on paper, not because they make fewer mistakes, but because they hide them. When your scores surface a persistent drop, treat it with the same urgency as a production incident.
+A useful benchmark - teams scoring below 3.0 on psychological safety across three consecutive retros are at high attrition risk. Research from Amy Edmondson at Harvard Business School shows that teams with low psychological safety make fewer errors on paper, not because they make fewer mistakes, but because they hide them. When your scores surface a persistent drop, treat it with the same urgency as a production incident.
 
 Action Items That Actually Improve Health
 
@@ -210,7 +210,7 @@ Agenda:
 
 This hybrid approach keeps process improvement while creating dedicated space for health discussions.
 
-Another lightweight integration: end every sprint retro with one question from the psychological safety dimension. Rotate through dimensions each sprint. Over a quarter, you'll touch workload, connection, growth, and safety without requiring a dedicated session. The low-overhead approach builds the habit before committing to a full health retro cadence.
+Another lightweight integration - end every sprint retro with one question from the psychological safety dimension. Rotate through dimensions each sprint. Over a quarter, you'll touch workload, connection, growth, and safety without requiring a dedicated session. The low-overhead approach builds the habit before committing to a full health retro cadence.
 
 Tool Recommendations for Remote Health Retros
 

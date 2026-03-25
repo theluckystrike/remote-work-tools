@@ -39,17 +39,17 @@ Before initiating a certificate renewal, gather the following information:
 - Primary and secondary owners: Team members responsible for this certificate
 - Renewal method: ACM (Automated Certificate Management Environment), manual CSR generation, or DNS validation
 
-Phase 1: Preparation (14 Days Before Expiration)
+Phase 1 - Preparation (14 Days Before Expiration)
 
 The preparation phase starts two weeks before certificate expiration. This buffer allows time for troubleshooting without rushing.
 
-Step 1: Create a Renewal Task
+Step 1 - Create a Renewal Task
 
 Open a task in your project management system with the following template:
 
 ```
 Certificate Renewal Task
-- Domain: example.com, api.example.com
+- Domain - example.com, api.example.com
 - Current Expiration: 2026-03-30
 - Environment: Production
 - Owners: @alice (primary), @bob (secondary)
@@ -57,7 +57,7 @@ Certificate Renewal Task
 - Validation Method: DNS-01
 ```
 
-Step 2: Verify Access Permissions
+Step 2 - Verify Access Permissions
 
 Confirm that team members have appropriate access:
 
@@ -74,21 +74,21 @@ az keyvault certificate list --vault-name "production-keyvault"
 
 If any team member lacks access, grant permissions during this phase rather than during deployment.
 
-Step 3: Notify Stakeholders
+Step 3 - Notify Stakeholders
 
 Post a message in your infrastructure team's channel:
 
 ```
  Certificate Renewal Reminder
-Domain: example.com
-Current cert expires: 2026-03-30
-Renewal initiated by: @alice
-Timeline: Preparation phase (Day 1-7), Deployment phase (Day 8-10)
+Domain - example.com
+Current cert expires - 2026-03-30
+Renewal initiated by - @alice
+Timeline - Preparation phase (Day 1-7), Deployment phase (Day 8-10)
 ```
 
-Phase 2: Certificate Generation (7 Days Before Expiration)
+Phase 2 - Certificate Generation (7 Days Before Expiration)
 
-Step 1: Generate New Certificate
+Step 1 - Generate New Certificate
 
 For Let's Encrypt with Certbot:
 
@@ -112,7 +112,7 @@ openssl req -new -key example-com-key.pem \
   -subj "/C=US/ST=California/L=San Francisco/O=Company/CN=example.com"
 ```
 
-Step 2: Validate Certificate
+Step 2 - Validate Certificate
 
 Before deploying, verify the certificate details:
 
@@ -124,7 +124,7 @@ Verify domain coverage
 openssl x509 -in /tmp/new-certs/fullchain.pem -noout -text | grep -A1 "Subject Alternative Name"
 ```
 
-Step 3: Upload to Secret Management
+Step 3 - Upload to Secret Management
 
 Store the new certificate in your team's secrets management system:
 
@@ -138,11 +138,11 @@ vault kv put secret/ssl/example-com-prod \
   renewal_date="2026-03-16"
 ```
 
-Phase 3: Deployment (3 Days Before Expiration)
+Phase 3 - Deployment (3 Days Before Expiration)
 
 Deploy certificates to each environment systematically. Test staging before production.
 
-Step 1: Deploy to Staging
+Step 1 - Deploy to Staging
 
 ```bash
 AWS ALB example
@@ -157,7 +157,7 @@ aws elbv2 set-rule-associations \
   --rule-associations "[{\"RuleArn\":\"arn:aws:elasticloadbalancing:region:account:rule/rule-id\",\"CertificateArns\":['arn:aws:iam::account:server-certificate/example-com-staging']}]"
 ```
 
-Step 2: Validate Staging Deployment
+Step 2 - Validate Staging Deployment
 
 ```bash
 Test certificate deployment
@@ -167,7 +167,7 @@ Verify certificate chain
 openssl s_client -connect staging.example.com:443 -showcerts
 ```
 
-Step 3: Coordinate Production Deployment
+Step 3 - Coordinate Production Deployment
 
 For production deployment, coordinate with team members in overlapping time zones:
 
@@ -179,11 +179,11 @@ Production Deployment Window
 - Approvals required: 1 primary or 2 team members
 ```
 
-Step 4: Deploy to Production
+Step 4 - Deploy to Production
 
 Follow the same deployment steps used for staging, targeting production resources.
 
-Step 5: Verify Production Deployment
+Step 5 - Verify Production Deployment
 
 ```bash
 Check certificate is serving correctly
@@ -196,9 +196,9 @@ Monitor error rates post-deployment
 kubectl get pods -n production -l app=api | grep -v "Running"
 ```
 
-Phase 4: Post-Renewal (After Deployment)
+Phase 4 - Post-Renewal (After Deployment)
 
-Step 1: Update Documentation
+Step 1 - Update Documentation
 
 Record the renewal in your certificate inventory:
 
@@ -210,7 +210,7 @@ Certificate Inventory
 | example.com | 04:A3:... | 2027-03-30 | Let's Encrypt | 2026-03-16 | alice |
 ```
 
-Step 2: Close the Task
+Step 2 - Close the Task
 
 Mark the task complete and include a summary:
 
@@ -223,15 +223,15 @@ Mark the task complete and include a summary:
 - Next renewal reminder: 2027-03-16
 ```
 
-Step 3: Schedule Next Reminder
+Step 3 - Schedule Next Reminder
 
 Set a calendar reminder for 14 days before the next expiration:
 
 ```
  SSL Certificate Renewal Reminder
-Date: 2027-03-16 (14 days before expiration)
-Certificate: example.com, api.example.com
-Action: Begin renewal preparation
+Date - 2027-03-16 (14 days before expiration)
+Certificate - example.com, api.example.com
+Action - Begin renewal preparation
 ```
 
 Automating Renewal Reminders

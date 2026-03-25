@@ -54,7 +54,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Set Up Your Review Framework
+Step 1 - Set Up Your Review Framework
 
 Before collecting any feedback, establish clear criteria that reflect what your team actually values. Generic competencies won't resonate with engineers who care about specific, observable behaviors.
 
@@ -82,20 +82,20 @@ For manager assessment:
 - Describe a situation where they went above and beyond.
 - What one area would most benefit from focused improvement?
 
-Step 2: Implementing the Async Review Process
+Step 2 - Implementing the Async Review Process
 
-Phase 1: Self-Assessment (Days 1-5)
+Phase 1 - Self-Assessment (Days 1-5)
 
 Send the self-assessment template to each team member at the start of the review period. Give them a full week to complete it thoughtfully.
 
 Provide clear instructions:
 
 ```markdown
-Step 3: Self-Assessment Template
+Step 3 - Self-Assessment Template
 
-Review Period: Q1 2026
+Review Period - Q1 2026
 
-Instructions: Take 30-60 minutes to reflect on this quarter. Write substantive responses with specific examples. This is your opportunity to share your perspective.
+Instructions - Take 30-60 minutes to reflect on this quarter. Write substantive responses with specific examples. This is your opportunity to share your perspective.
 
 Technical Contributions
 1. What technical challenges did you solve this quarter?
@@ -111,17 +111,17 @@ Areas for Growth
 7. What support would help you succeed?
 ```
 
-Phase 2: Peer Feedback (Days 6-12)
+Phase 2 - Peer Feedback (Days 6-12)
 
 Peer feedback provides diverse perspectives that manager feedback alone cannot capture. Select 3-5 peers for each person based on their working relationships.
 
 Use a structured peer feedback form:
 
 ```markdown
-Step 4: Peer Feedback for [Engineer Name]
+Step 4 - Peer Feedback for [Engineer Name]
 
-Reviewer: [Your Name]
-Relationship: Peer / Pair Partner / Cross-functional Partner
+Reviewer - [Your Name]
+Relationship - Peer / Pair Partner / Cross-functional Partner
 
 Strengths
 What does this person do exceptionally well? Provide specific examples.
@@ -136,11 +136,11 @@ Additional Comments
 Anything else the manager should know?
 ```
 
-Phase 3: Manager Review (Days 13-18)
+Phase 3 - Manager Review (Days 13-18)
 
 The manager synthesizes self-assessment, peer feedback, and their own observations into a review document. This becomes the foundation for the written response.
 
-Phase 4: Written Response (Days 19-25)
+Phase 4 - Written Response (Days 19-25)
 
 Send the complete review document to the employee with a response window of 5-7 days. Ask them to:
 
@@ -149,11 +149,11 @@ Send the complete review document to the employee with a response window of 5-7 
 3. Note any clarifications or context they want to provide
 4. Identify 2-3 goals for the next period
 
-Phase 5: Optional Synchronous Discussion (Day 26+)
+Phase 5 - Optional Synchronous Discussion (Day 26+)
 
 After the async exchange is complete, offer an optional live conversation for those who want it. Some employees prefer to discuss their review in real-time, while others are satisfied with the written exchange.
 
-Step 5: Tools That Support Async Reviews
+Step 5 - Tools That Support Async Reviews
 
 Document-Based Approach
 
@@ -222,7 +222,7 @@ Skipping peer feedback. Manager-only reviews miss crucial perspectives from peop
 
 Ignoring the written response. The employee's written response is valuable. Don't just skim it and schedule a call.
 
-Step 6: Measuring Review Effectiveness
+Step 6 - Measuring Review Effectiveness
 
 Track these signals to evaluate your async review process:
 

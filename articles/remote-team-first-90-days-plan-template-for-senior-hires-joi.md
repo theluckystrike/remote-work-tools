@@ -22,9 +22,9 @@ Joining a distributed team as a senior hire presents unique challenges that diff
 Table of Contents
 
 - [Understanding the Remote Onboarding Challenge](#understanding-the-remote-onboarding-challenge)
-- [Phase One: Foundation Week (Days 1-7)](#phase-one-foundation-week-days-1-7)
-- [Phase Two: Exploration Sprint (Days 8-30)](#phase-two-exploration-sprint-days-8-30)
-- [Phase Three: Contribution Period (Days 31-90)](#phase-three-contribution-period-days-31-90)
+- [Phase One - Foundation Week (Days 1-7)](#phase-one-foundation-week-days-1-7)
+- [Phase Two - Exploration Sprint (Days 8-30)](#phase-two-exploration-sprint-days-8-30)
+- [Phase Three - Contribution Period (Days 31-90)](#phase-three-contribution-period-days-31-90)
 - [Example 60-Day Goals Template](#example-60-day-goals-template)
 - [Remote-Specific Considerations](#remote-specific-considerations)
 
@@ -34,11 +34,11 @@ Remote onboarding for senior hires requires intentional effort that would otherw
 
 The first 90 days break naturally into three distinct phases: the foundation week, the exploration sprint, and the contribution period. Each phase has specific goals and activities designed to accelerate your effectiveness while maintaining the async-first communication patterns common in distributed teams.
 
-Phase One: Foundation Week (Days 1-7)
+Phase One - Foundation Week (Days 1-7)
 
 The first week focuses on getting your environment operational and understanding the team's basic communication patterns. Resist the temptation to examine code or architecture immediately, building the right foundation pays dividends throughout your tenure.
 
-Days 1-2: Environment Setup and Tooling
+Days 1-2 - Environment Setup and Tooling
 
 Start by ensuring you have access to every tool the team uses. This typically includes:
 
@@ -63,7 +63,7 @@ Add to GitHub via CLI
 gh auth login
 ```
 
-Days 3-4: Team Introduction and Context Gathering
+Days 3-4 - Team Introduction and Context Gathering
 
 Request introductions to key stakeholders through your manager. Aim to meet:
 
@@ -79,7 +79,7 @@ During these meetings, ask questions that help you understand the team's working
 - What async communication patterns should you follow?
 - Which channels serve which purposes?
 
-Days 5-7: Documentation Review and Architecture Overview
+Days 5-7 - Documentation Review and Architecture Overview
 
 Dedicate substantial time to reading existing documentation. Focus on:
 
@@ -90,11 +90,11 @@ Dedicate substantial time to reading existing documentation. Focus on:
 
 Create a running document of questions that arise during your review. This serves two purposes: it helps you remember to ask clarifying questions, and it often reveals documentation gaps that you can help fill later.
 
-Phase Two: Exploration Sprint (Days 8-30)
+Phase Two - Exploration Sprint (Days 8-30)
 
 With the foundation in place, shift focus to understanding the product, codebase, and team dynamics more deeply. This phase emphasizes learning through doing small tasks while continuing to build relationships.
 
-Week Two: Small Contributions and Code Review
+Week Two - Small Contributions and Code Review
 
 Start with small, bounded contributions that let you learn the codebase without significant risk. Good first tasks include:
 
@@ -125,7 +125,7 @@ async function fetchUserData(userId) {
 }
 ```
 
-Weeks Three and Four: Deeper Integration
+Weeks Three and Four - Deeper Integration
 
 As you gain context, start participating more actively:
 
@@ -147,11 +147,11 @@ Schedule a check-in with your manager around day 30. This meeting should cover:
 
 Document your findings and share them with your manager. This demonstrates proactivity and helps identify any misalignments early.
 
-Phase Three: Contribution Period (Days 31-90)
+Phase Three - Contribution Period (Days 31-90)
 
 The final phase shifts from learning to leading. You should now have sufficient context to make meaningful contributions and start driving impact.
 
-Days 31-60: Delivering Impact
+Days 31-60 - Delivering Impact
 
 Based on your 30-day review, identify 2-3 areas where you can deliver value:
 
@@ -180,7 +180,7 @@ Process Goals
 - [ ] Establish team metrics for your area of ownership
 ```
 
-Days 61-90: Building Momentum
+Days 61-90 - Building Momentum
 
 As you approach the 90-day mark, focus on sustainability and long-term positioning:
 

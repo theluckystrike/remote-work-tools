@@ -22,7 +22,7 @@ Table of Contents
 
 - [What Is the Maker Schedule?](#what-is-the-maker-schedule)
 - [Prerequisites](#prerequisites)
-- [Advanced: Combining with Other Methodologies](#advanced-combining-with-other-methodologies)
+- [Advanced - Combining with Other Methodologies](#advanced-combining-with-other-methodologies)
 - [Troubleshooting](#troubleshooting)
 
 This guide shows you how to adapt the maker schedule specifically for remote development work in 2026, with practical implementations you can start using today.
@@ -48,9 +48,9 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Implementing the Maker Schedule
+Step 1 - Implementing the Maker Schedule
 
-Block 1: Morning Deep Work (Primary Maker Block)
+Block 1 - Morning Deep Work (Primary Maker Block)
 
 Start your day with your most cognitively demanding task. For most developers, this means tackling the hardest problem first when mental energy is highest.
 
@@ -64,7 +64,7 @@ Schedule Example:
 
 This morning block is sacred. Disable notifications, set your status to "Do not disturb," and resist the urge to check communication tools. Remote work gives you control over your environment, use it.
 
-Block 2: Afternoon Coordination Window
+Block 2 - Afternoon Coordination Window
 
 After lunch, schedule your coordination tasks. This includes team meetings, one-on-ones, code review sessions, and asynchronous communication catch-up.
 
@@ -76,7 +76,7 @@ Schedule Example:
 15:00 - 15:30   Documentation, planning
 ```
 
-Block 3: Secondary Maker Block (Optional)
+Block 3 - Secondary Maker Block (Optional)
 
 If you have energy remaining, schedule another deep work block in the late afternoon. However, research suggests cognitive performance typically peaks in the morning, so protect that primary block at all costs.
 
@@ -86,7 +86,7 @@ Schedule Example:
 17:30 - 18:00   Wrap up, tomorrow's plan
 ```
 
-Step 2: Practical Tools and Techniques
+Step 2 - Practical Tools and Techniques
 
 Time Blocking in Your Calendar
 
@@ -131,17 +131,17 @@ Example Slack status:
  Response time: 2-4 hours during work day
 ```
 
-Step 3: Common Challenges and Solutions
+Step 3 - Common Challenges and Solutions
 
-Challenge 1: Unplanned Urgent Issues
+Challenge 1 - Unplanned Urgent Issues
 
-The maker schedule breaks down when "urgent" tasks constantly interrupt. Solution: Define what actually constitutes urgent in your team. Create a separate "interruption buffer" time, 15 minutes at the end of each maker block to handle emergencies.
+The maker schedule breaks down when "urgent" tasks constantly interrupt. Solution - Define what actually constitutes urgent in your team. Create a separate "interruption buffer" time, 15 minutes at the end of each maker block to handle emergencies.
 
-Challenge 2: Meeting Overload
+Challenge 2 - Meeting Overload
 
 If your team schedules meetings throughout the day, advocate for meeting clustering. Request that all non-essential meetings be scheduled in your coordination window. Most remote teams are receptive to this once the productivity benefits are explained.
 
-Challenge 3: Personal Accountability
+Challenge 3 - Personal Accountability
 
 Without office colleagues seeing you work, self-management becomes critical. Consider:
 
@@ -149,7 +149,7 @@ Without office colleagues seeing you work, self-management becomes critical. Con
 - Tracking your deep work hours to see patterns
 - Setting daily intentions the night before
 
-Advanced: Combining with Other Methodologies
+Advanced - Combining with Other Methodologies
 
 The maker schedule works well with existing productivity systems:
 
@@ -171,7 +171,7 @@ For example, here's a hybrid approach combining maker schedule with Pomodoro:
 10:30           Check messages, email
 ```
 
-Step 4: Measuring Success
+Step 4 - Measuring Success
 
 Track these metrics to see if the maker schedule improves your output:
 
@@ -182,7 +182,7 @@ Track these metrics to see if the maker schedule improves your output:
 
 After two weeks, compare your output and energy levels. Adjust block lengths based on when you're most productive.
 
-Step 5: Real-World Maker Schedule Examples by Role
+Step 5 - Real-World Maker Schedule Examples by Role
 
 Different types of developers benefit from different maker schedule structures. Here are tested patterns by specialization:
 
@@ -233,7 +233,7 @@ DevOps/Platform Engineer (Infrastructure)
 
 DevOps engineers need structured on-call time and monitoring visibility integrated throughout the day.
 
-Step 6: Context Switching Cost in Real Numbers
+Step 6 - Context Switching Cost in Real Numbers
 
 To understand why maker schedule matters, quantify what context switching actually costs:
 
@@ -247,7 +247,7 @@ To understand why maker schedule matters, quantify what context switching actual
 
 A 3-hour deep work block has approximately 40-minute "tax" at the beginning to re-enter flow state. That's 14% of your time lost before you even start coding. Add a single 5-minute interruption mid-session, and you've lost 45 minutes total. This is why maker schedule blocks must be protected, the payoff in actual productive coding time is massive.
 
-Step 7: Tool Configuration for Deep Work Enforcement
+Step 7 - Tool Configuration for Deep Work Enforcement
 
 Make it technically difficult to get distracted during maker blocks:
 
@@ -289,19 +289,19 @@ launchctl load ~/Library/LaunchAgents/com.deepwork.plist
 
 On Linux or Windows, similar automations exist. The point: automate the enforcement of your deep work blocks so willpower doesn't have to carry you.
 
-Step 8: Manage Maker Schedule in Distributed Teams
+Step 8 - Manage Maker Schedule in Distributed Teams
 
 The maker schedule works even in distributed teams if you're intentional about communication:
 
-Set calendar blocks globally: When you publish "deep work 7:30-10:30 AM PST" on your calendar, teammates across time zones see it and know not to schedule meetings.
+Set calendar blocks globally - When you publish "deep work 7:30-10:30 AM PST" on your calendar, teammates across time zones see it and know not to schedule meetings.
 
-Create team norms: If multiple developers use maker schedule, establish it as team culture. New team members see everyone doing it and adopt naturally.
+Create team norms - If multiple developers use maker schedule, establish it as team culture. New team members see everyone doing it and adopt naturally.
 
-Async-first for maker hours: During your deep work block, all communication happens asynchronously. Your team knows to Slack you during those hours only if truly urgent.
+Async-first for maker hours - During your deep work block, all communication happens asynchronously. Your team knows to Slack you during those hours only if truly urgent.
 
-Overlap windows for sync: During your coordination hours, sync communication happens. By consistently keeping these hours meeting-free, you enable better collaboration.
+Overlap windows for sync - During your coordination hours, sync communication happens. By consistently keeping these hours meeting-free, you enable better collaboration.
 
-Step 9: Measuring Your Maker Schedule Success
+Step 9 - Measuring Your Maker Schedule Success
 
 Track these metrics over a 4-week period before and after implementing the maker schedule:
 

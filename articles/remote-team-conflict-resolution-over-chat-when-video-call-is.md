@@ -34,7 +34,7 @@ Table of Contents
 - [Cross-Cultural Communication in Conflict](#cross-cultural-communication-in-conflict)
 - [Establishing Conflict as Growth Opportunity](#establishing-conflict-as-growth-opportunity)
 - [Conflict Resolution Culture](#conflict-resolution-culture)
-- [Technical Conflicts: Code vs. Coder](#technical-conflicts-code-vs-coder)
+- [Technical Conflicts - Code vs. Coder](#technical-conflicts-code-vs-coder)
 - [Managing Unresolved Conflicts](#managing-unresolved-conflicts)
 - [Building Async Communication Norms](#building-async-communication-norms)
 
@@ -90,7 +90,7 @@ Can we test both approaches with a/B traffic for 48 hours and compare error rate
 
 Practical Examples
 
-Example 1: Resolving a Technical Disagreement
+Example 1 - Resolving a Technical Disagreement
 
 A junior developer proposes refactoring a critical payment module. The senior developer disagrees:
 
@@ -106,7 +106,7 @@ I hear your concern about performance, I’ve noticed the payment processing tim
 
 This response acknowledges the concern, provides a reasoned counter, and proposes a collaborative next step.
 
-Example 2: Handling Miscommunication Tone
+Example 2 - Handling Miscommunication Tone
 
 Text lacks tone cues. What seems assertive may read as aggressive:
 
@@ -165,13 +165,13 @@ Example protocol document:
 ```markdown
 Conflict Resolution Protocol
 
-Step 1: Direct Resolution (24 hours)
+Step 1 - Direct Resolution (24 hours)
 Parties attempt to resolve via synchronous chat or scheduled call.
 
-Step 2: Peer Mediation (48 hours)
+Step 2 - Peer Mediation (48 hours)
 If unresolved, both parties involve one peer developer as mediator.
 
-Step 3: Tech Lead Decision (72 hours)
+Step 3 - Tech Lead Decision (72 hours)
 If still unresolved, tech lead makes final decision with documented rationale.
 
 Documentation
@@ -198,7 +198,7 @@ Chat works well for most conflicts, but some situations warrant synchronous comm
 - High-stakes conflicts affecting project timelines
 - When three or more message cycles haven't produced progress
 
-Suggest a video call explicitly: "I think we'd resolve this faster with a 15-minute call. Are you free tomorrow at 14:00 UTC?"
+Suggest a video call explicitly - "I think we'd resolve this faster with a 15-minute call. Are you free tomorrow at 14:00 UTC?"
 
 Building Conflict Resolution Skills
 
@@ -214,16 +214,16 @@ Handling Technical Disagreements Across Experience Levels
 
 Junior and senior developers often clash on approaches. Bridge these gaps systematically:
 
-Senior dev perspective: "I've seen this pattern fail before. We should avoid it."
+Senior dev perspective - "I've seen this pattern fail before. We should avoid it."
 
-Junior dev perspective: "The pattern is simpler and solves the current problem."
+Junior dev perspective - "The pattern is simpler and solves the current problem."
 
 Productive resolution:
 ```
-Senior: I understand the pattern solves this case cleanly. I'm concerned about scalability when [specific scenario].
+Senior - I understand the pattern solves this case cleanly. I'm concerned about scalability when [specific scenario].
 Let's document our assumptions and revisit if those conditions change.
 
-Junior: Makes sense. What are the key scenarios where this breaks? I'll add them to the tech debt list.
+Junior - Makes sense. What are the key scenarios where this breaks? I'll add them to the tech debt list.
 ```
 
 This validates both perspectives while moving forward. Document the decision for future developers.
@@ -282,19 +282,19 @@ Conflicts that are resolved well strengthen team cohesion.
 Conflicts that are avoided create resentment.
 ```
 
-Technical Conflicts: Code vs. Coder
+Technical Conflicts - Code vs. Coder
 
 The hardest conflicts conflate the code with the person:
 
 ```
-Emotional trigger: "Your code is bad."
-Technical fact: "This implementation pattern increases memory usage in scenarios where X."
+Emotional trigger - "Your code is bad."
+Technical fact - "This implementation pattern increases memory usage in scenarios where X."
 
 Reframe:
 Developer A: "The function handles common cases well. I'm concerned about edge case X
 where memory usage could spike. What's your thinking on that specific scenario?"
 
-Developer B: "Ah, I didn't consider that case. Let me revise to handle it."
+Developer B - "Ah, I didn't consider that case. Let me revise to handle it."
 ```
 
 Separating the technical critique from personal judgment reduces defensiveness dramatically.

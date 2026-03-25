@@ -27,7 +27,7 @@ This happens for three reasons:
 2. Trust dilution. Without face-to-face interaction, leaders default to trusting known quantities
 3. Process inflation. Organizations introduce approval chains that insulate leaders from direct input
 
-The result: developers spend more time navigating politics than building. Technical decisions get made without engineering input. Important context gets lost in translation.
+The result - developers spend more time navigating politics than building. Technical decisions get made without engineering input. Important context gets lost in translation.
 
 Prerequisites
 
@@ -39,7 +39,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Strategy 1: Structured Async Communication Channels
+Step 1 - Strategy 1: Structured Async Communication Channels
 
 The first solution is creating dedicated, low-friction async channels that respect everyone's time while maintaining direct access.
 
@@ -58,7 +58,7 @@ const questionTemplate = {
 
 Leaders commit to responding within 24-48 hours. This removes the anxiety of "did they see my message?" and creates accountability.
 
-Step 2: Strategy 2: Leadership Office Hours
+Step 2 - Strategy 2: Leadership Office Hours
 
 Many successful remote companies implement recurring leadership office hours, dedicated time slots where any team member can book a 15-minute slot directly with a leader.
 
@@ -85,41 +85,41 @@ class OfficeHours:
         if slot in self.bookings:
             return "Slot unavailable"
         self.bookings[slot] = employee
-        return f"Confirmed: {employee} with {self.leader} for {slot}"
+        return f"Confirmed - {employee} with {self.leader} for {slot}"
 ```
 
 The system does not need to be complex. A shared Google Calendar with "Office Hours" blocks and a simple sign-up sheet works for most teams.
 
-Step 3: Strategy 3: Decision Documentation Standards
+Step 3 - Strategy 3: Decision Documentation Standards
 
 One of the most effective ways to maintain influence is ensuring that important decisions are documented transparently. When leadership makes a decision, the reasoning should be visible to everyone.
 
 Adopt Architecture Decision Records (ADRs) or similar documentation standards:
 
 ```markdown
-ADR-042: Leadership Communication Channels
+ADR-042 - Leadership Communication Channels
 
-Step 4: Status
+Step 4 - Status
 Accepted
 
-Step 5: Context
+Step 5 - Context
 As we scaled past 50 people, direct access to leadership decreased.
 Team members reported 3-5 day delays on decision approvals.
 
-Step 6: Decision
+Step 6 - Decision
 We will implement:
 1. Weekly leadership office hours (15-min slots)
 2. Async leadership channel with 48-hour response SLA
 3. Monthly all-hands with Q&A section
 
-Step 7: Consequences
+Step 7 - Consequences
 - Positive: Direct access preserved, async communication improved
 - Negative: Leaders need to protect office hours time
 ```
 
 When decisions are documented with context, team members can understand the "why" even without direct access. This reduces the need to interrupt leaders and enables individuals to make aligned decisions independently.
 
-Step 8: Strategy 4: Skip-Level Meetings
+Step 8 - Strategy 4: Skip-Level Meetings
 
 Skip-level meetings, where a leader meets with reports two levels down, bypass middle management to maintain direct connection.
 
@@ -132,7 +132,7 @@ Schedule these quarterly. A leader might meet with 5-6 engineers directly, cover
 
 This keeps leadership grounded in what is actually happening without relying solely on management summaries.
 
-Step 9: Strategy 5: Transparent Metrics Dashboards
+Step 9 - Strategy 5: Transparent Metrics Dashboards
 
 Another approach is making leadership activity transparent through shared dashboards:
 
@@ -149,7 +149,7 @@ const metrics = {
 
 When everyone can see how leadership is performing on communication, it creates healthy pressure to maintain standards. Public accountability works better than private promises.
 
-Step 10: What This Requires From Leadership
+Step 10 - What This Requires From Leadership
 
 These strategies only work when leadership commits to them. Specifically, leaders must:
 
@@ -158,27 +158,27 @@ These strategies only work when leadership commits to them. Specifically, leader
 - Document decisions. Make reasoning visible, not just outcomes
 - Accept the discomfort. Direct access means hearing concerns directly, including criticism
 
-Step 11: Measuring Success
+Step 11 - Measuring Success
 
 Track whether your communication channels are working:
 
 - Response time: How long does leadership take to respond to async questions?
-- Use: Are office hours being booked? If not, maybe they are not needed, or not visible enough
+- Use - Are office hours being booked? If not, maybe they are not needed, or not visible enough
 - Escalation rate: Are blockers being resolved through proper channels, or are people going around them?
 - Sentiment: Quarterly surveys can gauge whether team members feel heard
 
-Step 12: Strategy 6: Context Documentation as a Proxy for Access
+Step 12 - Strategy 6: Context Documentation as a Proxy for Access
 
 When leaders cannot be available for every question, thorough documentation becomes a scalable substitute. Create wikis and decision logs that let team members make informed decisions without escalation.
 
 ```markdown
 Decision Log Template
 
-Step 13: Decision: Adopt async-first communication for engineering team
+Step 13 - Decision: Adopt async-first communication for engineering team
 
-Date: 2026-03-01
-Decision Maker: CEO + VP Engineering
-Context: Team scaled from 12 to 45 people, meeting load became unsustainable
+Date - 2026-03-01
+Decision Maker - CEO + VP Engineering
+Context - Team scaled from 12 to 45 people, meeting load became unsustainable
 
 Why This Decision
 - Reduced meeting time from 25h/week to 8h/week
@@ -202,7 +202,7 @@ Related Decisions
 
 When this level of context exists, team members make better decisions independently and escalate only when truly necessary.
 
-Step 14: Strategy 7: Rotating Leadership Exposure
+Step 14 - Strategy 7: Rotating Leadership Exposure
 
 Rather than bottlenecking all communication through one or two leaders, rotate decision-making authority. Different leaders own different domains and can provide specialized advice.
 
@@ -228,7 +228,7 @@ Leadership_Rotation:
 
 This distribution prevents any single person from being the bottleneck and gives team members multiple routes to leadership input.
 
-Step 15: Strategy 8: Building Feedback Loops Into Regular Meetings
+Step 15 - Strategy 8: Building Feedback Loops Into Regular Meetings
 
 Rather than creating entirely new communication channels, embed direct leadership access into existing meetings.
 
@@ -247,7 +247,7 @@ Engineering Standup Adaptation (15 minutes):
 
 Embedding access into existing meetings scales better than creating new channels.
 
-Step 16: Strategy 9: Asynchronous Video for Complex Communication
+Step 16 - Strategy 9: Asynchronous Video for Complex Communication
 
 When a question requires explanation, leaders recording 3-5 minute videos beats a 30-minute meeting. Developers can watch at their convenience and rewind complex sections.
 
@@ -275,7 +275,7 @@ def process_async_question(question_text, question_context):
 
 Many teams use Loom ($10/month) for this purpose. Leaders can record explanations that multiple people consume asynchronously.
 
-Step 17: Strategy 10: Creating Career Development Access
+Step 17 - Strategy 10: Creating Career Development Access
 
 Direct access to leadership matters most for career development conversations. Ensure these aren't deprioritized:
 
@@ -296,7 +296,7 @@ Scheduling:
 
 This structure ensures that career development, which requires direct access, doesn't get squeezed out by operational demands.
 
-Step 18: Measuring Progress and Adjusting
+Step 18 - Measuring Progress and Adjusting
 
 After implementing these strategies, measure whether direct access actually improved:
 

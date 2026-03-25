@@ -26,17 +26,17 @@ The Essential Proposal Sections
 
 Proposed Approach
 
-Phase 1: Discovery and Planning (Week 1-2)
+Phase 1 - Discovery and Planning (Week 1-2)
 - Technical audit of current codebase
 - Define migration strategy and success metrics
 - Create detailed timeline with milestones
 
-Phase 2: Implementation (Week 3-10)
+Phase 2 - Implementation (Week 3-10)
 - Set up CI/CD pipelines
 - Extract services incrementally
 - Implement test coverage
 
-Phase 3: Deployment and Handover (Week 11-12)
+Phase 3 - Deployment and Handover (Week 11-12)
 - Zero-downtime production deployment
 - Documentation and team training
 - 30-day support period for critical issues
@@ -57,13 +57,13 @@ Present your rates clearly. You can choose from several formats:
 ```markdown
 Investment
 
-Option A: Fixed Price
+Option A - Fixed Price
 - Discovery Phase: $2,500
 - Implementation: $18,000
 - Deployment & Handover: $3,500
 - Total: $24,000
 
-Option B: Time-Based
+Option B - Time-Based
 - $150/hour estimated 160 hours
 - Ceiling cap at $24,000
 ```

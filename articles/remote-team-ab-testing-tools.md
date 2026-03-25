@@ -37,7 +37,7 @@ The kill switch requirement is non-negotiable for remote teams. When something g
 
 ---
 
-Option 1: GrowthBook (Best Open Source)
+Option 1 - GrowthBook (Best Open Source)
 
 GrowthBook is open source, self-hostable, and has native integration with Snowflake, BigQuery, Redshift, and Mixpanel for statistical analysis.
 
@@ -122,7 +122,7 @@ GrowthBook's statistical engine supports both Bayesian and frequentist analysis,
 
 ---
 
-Option 2: Flagsmith
+Option 2 - Flagsmith
 
 Flagsmith separates feature flags from A/B experiments, supports remote config values, and has a generous free tier.
 
@@ -159,7 +159,7 @@ Flagsmith environment promotion lets you test flags in staging, approve them, an
 
 ---
 
-Option 3: Unleash (Enterprise Open Source)
+Option 3 - Unleash (Enterprise Open Source)
 
 Unleash's gradual rollout strategies (percentile, userId hash, IP, hostname) are the most flexible of any open source option.
 
@@ -211,7 +211,7 @@ Scheduling rollouts in Unleash lets you configure a flag to activate at a specif
 
 ---
 
-Option 4: LaunchDarkly (Best SaaS Option)
+Option 4 - LaunchDarkly (Best SaaS Option)
 
 LaunchDarkly is the fastest to set up and has the richest targeting UI.
 
@@ -256,18 +256,18 @@ Experiment Discipline for Remote Teams
 Write a hypothesis before enabling a flag:
 
 ```markdown
-Experiment: new-checkout-flow
+Experiment - new-checkout-flow
 
-Hypothesis: Simplifying checkout from 4 steps to 2 will increase
+Hypothesis - Simplifying checkout from 4 steps to 2 will increase
 completion rate by 15% for users on mobile.
 
-Primary metric: checkout_completed / checkout_started (mobile only)
-Secondary: average_order_value
-Guardrail: checkout_error_rate must not increase
+Primary metric - checkout_completed / checkout_started (mobile only)
+Secondary - average_order_value
+Guardrail - checkout_error_rate must not increase
 
-Sample size: 2,400 per variant (80% power, alpha=0.05)
-Duration: 14 days minimum
-Owner: @product-manager
+Sample size - 2,400 per variant (80% power, alpha=0.05)
+Duration - 14 days minimum
+Owner - @product-manager
 ```
 
 The hypothesis template does more than document intent. it prevents premature experiment termination. When a PM asks to check results on day three, the template reminds everyone that the pre-registered duration is 14 days and the pre-registered sample size hasn't been reached. Without documentation, these conversations happen in Slack and institutional knowledge is lost.

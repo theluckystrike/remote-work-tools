@@ -28,7 +28,7 @@ The tool matters less than the structure and ownership model, but it still matte
 
 Notion is the default for non-technical or mixed teams. Its block editor is approachable, databases let you build structured reference tables, and the permission model is flexible. The main drawback is that search is inconsistent and the URL structure is not human-readable.
 
-Confluence is the enterprise standard and integrates well with Jira. It's feature-rich but has a steeper learning curve and tends to accumulate organizational cruft. Best for teams already in the Atlassian ecosystem.
+Confluence is the enterprise standard and integrates well with Jira. It's feature-rich but has a steeper learning curve and tends to accumulate organizational cruft. Best for teams already in the Atlassian environment.
 
 Outline is the best self-hosted option for technical teams. Open source, Markdown-based, supports real-time collaboration, and has good search. Run it on your own infrastructure for full data control.
 
@@ -119,10 +119,10 @@ The `last_verified` and `verified_by` fields are the most valuable additions. Wh
 For decision pages, use a lighter template:
 
 ```markdown
-Decision: [Title]
-Date: YYYY-MM-DD
-Status: Accepted / Superseded by [link]
-Deciders: @alice, @bob
+Decision - [Title]
+Date - YYYY-MM-DD
+Status - Accepted / Superseded by [link]
+Deciders - @alice, @bob
 
 Context
 [What situation prompted this decision]
@@ -164,15 +164,15 @@ The backup owner is not a formality. When the primary owner is on leave or leave
 
 ---
 
-Seeding Content: What to Write First
+Seeding Content - What to Write First
 
 The right launch content is content that gets used in the first week. Focus on:
 
-Day one onboarding path: Local environment setup, access provisioning checklist, where things live, who to ask for what. New hires will find any errors immediately.
+Day one onboarding path - Local environment setup, access provisioning checklist, where things live, who to ask for what. New hires will find any errors immediately.
 
-The five most-asked questions in Slack: Search your team Slack for recurring questions. Whatever gets asked repeatedly belongs in the wiki. If someone is answering "how do I get access to staging?" in DMs three times a week, that answer belongs in a page, not in a thread.
+The five most-asked questions in Slack - Search your team Slack for recurring questions. Whatever gets asked repeatedly belongs in the wiki. If someone is answering "how do I get access to staging?" in DMs three times a week, that answer belongs in a page, not in a thread.
 
-The last three incidents: Post-mortems and runbooks based on real incidents are the most credible operational documentation because they come from actual system failures. They also tend to cover the exact scenarios that will recur.
+The last three incidents - Post-mortems and runbooks based on real incidents are the most credible operational documentation because they come from actual system failures. They also tend to cover the exact scenarios that will recur.
 
 The onboarding document that lives in someone's head: Most teams have a senior engineer who is the informal onboarding buddy. That knowledge belongs in the wiki.
 
@@ -232,7 +232,7 @@ This posts a weekly Slack message listing pages that haven't been touched in 90 
 For Notion or Confluence wikis where content is not in git, run the equivalent audit with the tool's API:
 
 ```bash
-Notion: find pages not updated in 90 days
+Notion - find pages not updated in 90 days
 curl -X POST 'https://api.notion.com/v1/databases/YOUR_DB_ID/query' \
   -H 'Authorization: Bearer '"$NOTION_API_KEY"'' \
   -H 'Notion-Version: 2022-06-28' \
@@ -255,7 +255,7 @@ The wiki platform you choose affects adoption rates and long-term maintenance. E
 
 GitHub Wiki is ideal for engineering teams. It's always where code lives, requires no separate login, and version control is automatic. Markdown is the standard format developers expect. The trade-off: GitHub Wiki lacks advanced search, commenting features are limited, and non-technical team members struggle with git workflows.
 
-Notion works well for teams with mixed technical and non-technical members. Its database features let you organize content by team, project, or priority. Rich media support (videos, embeds, databases) makes it visually engaging. Drawback: it's slower than static wikis, and searching across large workspaces can be frustrating.
+Notion works well for teams with mixed technical and non-technical members. Its database features let you organize content by team, project, or priority. Rich media support (videos, embeds, databases) makes it visually engaging. Drawback - it's slower than static wikis, and searching across large workspaces can be frustrating.
 
 MediaWiki (the Wikipedia engine) provides maximum flexibility for large organizations. It supports sophisticated templates, access control, and built-in discussion pages. The learning curve is steep, and self-hosting requires infrastructure.
 
@@ -263,29 +263,29 @@ Confluence is Atlassian's enterprise wiki, tightly integrated with Jira. It scal
 
 MkDocs or Hugo are static site generators that build fast, searchable documentation sites from markdown. Perfect for teams comfortable with git workflows. They require build infrastructure but produce reliable, performant sites.
 
-Choose based on your team's technical comfort level and existing tool ecosystem. The best wiki is the one your team actually uses, don't over-engineer.
+Choose based on your team's technical comfort level and existing tool environment. The best wiki is the one your team actually uses, don't over-engineer.
 
 Implementation Timeline
 
 Building a functional wiki typically follows this progression:
 
-Week 1: Foundation
+Week 1 - Foundation
 - Create repository or workspace
 - Set up initial folder structure by major team function
 - Write three to five core pages: onboarding, deployment, incident response, communication norms, glossary
 
-Week 2-3: Content Sprint
+Week 2-3 - Content Sprint
 - Assign section owners (see ownership model above)
 - Schedule 2-hour writing sessions where owners draft their section
 - Establish a review process: all submissions must get one approval before merge
 
-Week 4: Automation & Rollout
+Week 4 - Automation & Rollout
 - Deploy stale content detection (see GitHub Actions example above)
 - Schedule automated link checks
 - Present wiki to full team and gather feedback
 - Plan weekly triage sessions to catch questions that should become wiki entries
 
-Month 2+: Maintenance Cadence
+Month 2+ - Maintenance Cadence
 - Monthly review of engagement metrics
 - Quarterly full audit of outdated content
 - Use search logs to identify documentation gaps
@@ -360,44 +360,44 @@ Common Wiki Implementation Mistakes
 
 Learn from teams that built wikis that failed:
 
-Mistake 1: Gold-Plating the Platform
+Mistake 1 - Gold-Plating the Platform
 Teams spend months choosing the "perfect" wiki tool and never actually start writing. Pick a tool (GitHub Wiki, Notion, or Confluence) and start day one. You can always migrate later if needed.
 
-Mistake 2: Expecting It to Self-Organize
+Mistake 2 - Expecting It to Self-Organize
 Without a clear structure, wikis become junk drawers. Create folder structure matching your team organization before asking people to contribute.
 
-Mistake 3: Assigning Centralized Authorship
+Mistake 3 - Assigning Centralized Authorship
 "Alice will write all the wiki" doesn't work. Alice gets busy or leaves, and everything decays. Distribute ownership from day one.
 
-Mistake 4: Ignoring Search and Findability
+Mistake 4 - Ignoring Search and Findability
 A wiki nobody can find is a wiki nobody uses. Invest in search, clear naming conventions, and navigation early.
 
-Mistake 5: Treating the Wiki as Archive
+Mistake 5 - Treating the Wiki as Archive
 Wikis aren't where you dump old documents. They're where you maintain current operational knowledge. Archive old content aggressively.
 
-Migration Strategies: Moving to a Better Wiki Platform
+Migration Strategies - Moving to a Better Wiki Platform
 
 Many teams start with one wiki platform and eventually want to migrate. Here's how to do it without losing content:
 
-Phase 1: Export (Week 1-2)
+Phase 1 - Export (Week 1-2)
 - Export all content from current wiki to markdown or standard format
 - Document any custom layouts or styling you're losing
 - Verify all links still work in exported format
 - Get IT to audit: what's sensitive content that shouldn't move?
 
-Phase 2: Map Structure (Week 2-3)
+Phase 2 - Map Structure (Week 2-3)
 - Design folder structure in new platform
 - Map old page URLs to new URLs
 - Create redirect rules from old to new (tools like Netlify handle this)
 - Identify 5-10 frequently-used pages that need priority migration
 
-Phase 3: Phased Migration (Week 4-8)
+Phase 3 - Phased Migration (Week 4-8)
 - Migrate highest-priority pages first
 - Test each page in new platform
 - Update internal links to point to new URLs
 - Maintain old wiki in read-only mode during transition
 
-Phase 4: Decommission (Week 8-10)
+Phase 4 - Decommission (Week 8-10)
 - All important content migrated and tested
 - Set up automated redirects from old wiki to new
 - Archive old wiki (don't delete immediately)

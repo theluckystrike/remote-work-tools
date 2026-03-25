@@ -28,7 +28,7 @@ Table of Contents
 - [Async Q&An in Slack](#async-qan-in-slack)
 - [Making it Async-Friendly for Multiple Timezones](#making-it-async-friendly-for-multiple-timezones)
 - [Loom-Based Async Lightning Talks](#loom-based-async-lightning-talks)
-- [Metrics: Are Lightning Talks Working?](#metrics-are-lightning-talks-working)
+- [Metrics - Are Lightning Talks Working?](#metrics-are-lightning-talks-working)
 - [Handling Timezone Variance in Lightning Talks](#handling-timezone-variance-in-lightning-talks)
 - [What I covered:](#what-i-covered)
 - [Try it yourself:](#try-it-yourself)
@@ -44,7 +44,7 @@ https://www.bigtimer.net/?minutes=5 # Full-screen 5-minute timer
 2.
 - Wrap up in 10 seconds."
  → Wait 10 seconds for speaker to land
- → "Questions for Bob: post in the Slack thread.
+ → "Questions for Bob - post in the Slack thread.
 - Carlos: Shell aliases I use daily [0:12]
 4.
 - For remote teams: they're one of the best ways to transfer knowledge without long meetings.
@@ -55,7 +55,7 @@ https://www.bigtimer.net/?minutes=5 # Full-screen 5-minute timer
 Format That Works for Remote Teams
 
 ```
-Structure: 30-minute session, 4-5 lightning talks
+Structure - 30-minute session, 4-5 lightning talks
 
 Timeline:
   0:00  Host intro + quick schedule overview (2 min)
@@ -91,8 +91,8 @@ Your name:
 Talk title (max 8 words):
 One-line description:
 Format: [ ] Slides  [ ] Live demo  [ ] Just talking
-Tech requirements: [ ] Screen share  [ ] Code editor  [ ] Browser only
-Preferred date: (list upcoming sessions)
+Tech requirements - [ ] Screen share  [ ] Code editor  [ ] Browser only
+Preferred date - (list upcoming sessions)
 Any prep needed from organizer:
 ```
 
@@ -130,7 +130,7 @@ Recommended tools for hosts:
 https://www.bigtimer.net/?minutes=5  # Full-screen 5-minute timer
 
 2. Recording
-Zoom: Enable auto-recording to cloud before session starts
+Zoom - Enable auto-recording to cloud before session starts
 Settings > Recording > Automatic recording > Cloud
 Or: OBS for local recording
 
@@ -158,7 +158,7 @@ Two options to solve this:
 
 Option A: Collect slides in advance. The host shares one slide deck for the entire session. No handoffs. Works well for slide-based talks. Fails for live demos.
 
-Option B: Pre-assign co-host permissions. In Zoom, make each presenter a co-host before the session. They can start screen-sharing immediately when called without waiting for host permission. This keeps demo talks smooth.
+Option B - Pre-assign co-host permissions. In Zoom, make each presenter a co-host before the session. They can start screen-sharing immediately when called without waiting for host permission. This keeps demo talks smooth.
 
 For sessions mixing slides and demos, pre-assign co-host and collect slides. The host handles the slide talks; demo presenters switch in .
 
@@ -174,13 +174,13 @@ Host rundown
 
 Opening (2 minutes):
   "Welcome to lightning talks session 12. We have 4 talks today.
-   Rules: 5 minutes each, hard cut. Ask questions in the Slack thread after.
+   Rules - 5 minutes each, hard cut. Ask questions in the Slack thread after.
    Recording will be posted to #lightning-talks within the hour.
    First up: Alice with 'Rate limiting in 5 minutes'. Alice, you're on."
    → Start 5:00 timer
 
 Between talks:
-  "Thanks Alice! Next: Bob with 'Why we switched to pnpm'. Bob, go ahead."
+  "Thanks Alice! Next - Bob with 'Why we switched to pnpm'. Bob, go ahead."
   → Reset timer to 5:00
 
 When timer hits 0:00:
@@ -203,7 +203,7 @@ Post recording + notes immediately:
 
 ---
 :zap: Lightning Talks. Session 12 (April 3)
-Recording: [link] (45 min)
+Recording - [link] (45 min)
 
 Talks:
 1. Alice. Rate limiting in 5 minutes [0:02]
@@ -231,7 +231,7 @@ Option A: Two live sessions (preferred for 3+ timezones)
   Session B: 9am US-Pacific / 12pm US-East (Americas)
   Same talks, different attendance. two recordings
 
-Option B: Async-first with optional live
+Option B - Async-first with optional live
   Presenters record 5-minute video in advance
   Post to #lightning-talks with write-up
   Optional: synchronous watch party for those who want live Q&A
@@ -261,7 +261,7 @@ Loom recording workflow for presenters:
 
 Template for Slack post:
 :zap: *Lightning Talk: [Title]*
-Speaker: @yourname | Length: X:XX
+Speaker - @yourname | Length: X:XX
 
 [Loom link]
 
@@ -282,17 +282,17 @@ Five-minute recordings are harder than they seem. Most people talk at 130-150 wo
 
 The camera-on format (screen + face in corner) performs better than screen-only. Viewers engage more when they can see the speaker's face. It also signals that the presenter prepared and is engaged with the audience, even in async format.
 
-Metrics: Are Lightning Talks Working?
+Metrics - Are Lightning Talks Working?
 
 Track quarterly:
 
 ```markdown
 Lightning Talks Health Metrics
 
-Session attendance rate: target > 60% of team (or > 30% for large teams)
-Replay view rate: target > 80% (most people watch recording if they missed live)
-Submission rate: target > 1 submission per 3 team members per quarter
-Q&A engagement: target > 2 questions per talk in Slack thread
+Session attendance rate - target > 60% of team (or > 30% for large teams)
+Replay view rate - target > 80% (most people watch recording if they missed live)
+Submission rate - target > 1 submission per 3 team members per quarter
+Q&A engagement - target > 2 questions per talk in Slack thread
 
 Red flags:
   - Same 3 people always presenting (not inclusive)
@@ -304,17 +304,17 @@ Handling Timezone Variance in Lightning Talks
 
 When your team spans multiple time zones, a single live session excludes half your organization. Consider these practical approaches:
 
-Two-Session Model: Host two identical sessions 12 hours apart. Same speakers, same format, but different attendees. Speakers record once and both sessions use the recording. This ensures no one feels excluded from knowledge transfer.
+Two-Session Model - Host two identical sessions 12 hours apart. Same speakers, same format, but different attendees. Speakers record once and both sessions use the recording. This ensures no one feels excluded from knowledge transfer.
 
-Async-First with Optional Live: Speakers record 5-minute videos in Loom, post to a dedicated channel with timestamps and topics, then host a 30-minute optional live Q&A 24 hours later. Team members who can't attend live get the content immediately and ask questions async.
+Async-First with Optional Live - Speakers record 5-minute videos in Loom, post to a dedicated channel with timestamps and topics, then host a 30-minute optional live Q&A 24 hours later. Team members who can't attend live get the content immediately and ask questions async.
 
-Regional Sessions: If you have natural clusters (US + EU + APAC), run three shorter sessions focused on each region. Less context-switching for participants, more focused discussions.
+Regional Sessions - If you have natural clusters (US + EU + APAC), run three shorter sessions focused on each region. Less context-switching for participants, more focused discussions.
 
 For async-first approaches, use this template in your video post:
 
 ```markdown
 :zap: Lightning Talk: [Title]
-Presenter: @name | Duration: 4:22
+Presenter - @name | Duration: 4:22
 
 [Loom/YouTube link]
 
@@ -350,22 +350,22 @@ If attendance drops below 30%, reconsider timing or format. If nobody ever uses 
 
 Common Pitfalls and How to Avoid Them
 
-Problem: Same 3 people always volunteer. Creates perception of exclusivity. Fix: Directly invite specific people. "Carol, your payment API work would make a great 5-minute talk. Want to present in session 14?"
+Problem - Same 3 people always volunteer. Creates perception of exclusivity. Fix - Directly invite specific people. "Carol, your payment API work would make a great 5-minute talk. Want to present in session 14?"
 
-Problem: Talks run over and disrupt schedules. Fix: Use visible countdown timer, enforce hard cutoff at 5:00, practice buffer time. If speakers consistently run long, reduce to 4 minutes.
+Problem - Talks run over and disrupt schedules. Fix - Use visible countdown timer, enforce hard cutoff at 5:00, practice buffer time. If speakers consistently run long, reduce to 4 minutes.
 
-Problem: No one attends. Likely a scheduling issue. Try moving to end of week (Friday momentum), morning (higher attendance), or after a major release (relevance). Test different slots for 2-3 weeks.
+Problem - No one attends. Likely a scheduling issue. Try moving to end of week (Friday momentum), morning (higher attendance), or after a major release (relevance). Test different slots for 2-3 weeks.
 
-Problem: Talks are too technical and exclude non-engineers. This is good, add non-technical lightning talk sessions. Sales might teach customer insights, design might demo user research findings. Diversity of topics keeps engagement high.
+Problem - Talks are too technical and exclude non-engineers. This is good, add non-technical lightning talk sessions. Sales might teach customer insights, design might demo user research findings. Diversity of topics keeps engagement high.
 
-Problem: Recordings disappear. Fix: Pin recording links in a dedicated Slack channel, link all past sessions in a searchable Notion page with timestamps and speaker names for future reference.
+Problem - Recordings disappear. Fix - Pin recording links in a dedicated Slack channel, link all past sessions in a searchable Notion page with timestamps and speaker names for future reference.
 
 Remote-Specific Lightning Talk Workflows
 
 For fully distributed teams, set up automation that supports the entire workflow:
 
 ```bash
-Slack workflow: Submit a lightning talk proposal
+Slack workflow - Submit a lightning talk proposal
 /lightning-talk-submit
 → Sends form to #lightning-talks-submissions
 → Ops adds approved talks to Notion queue

@@ -64,10 +64,10 @@ Remote social workers spend significant time on repetitive tasks that can be aut
 // Example: Automated case note template generator
 function generateCaseNote(clientName, date, sessionType, duration) {
   const template = `
-DATE: ${date}
-CLIENT: ${clientName}
-SESSION TYPE: ${sessionType}
-DURATION: ${duration} minutes
+DATE - ${date}
+CLIENT - ${clientName}
+SESSION TYPE - ${sessionType}
+DURATION - ${duration} minutes
 
 SUBJECTIVE:
 Client reported
@@ -251,10 +251,10 @@ class CaseNote:
 
     def generate_template(self):
         return f"""
-CLIENT: {self.client_name}
-DATE/TIME: {self.timestamp}
-SESSION TYPE: {self.session_type}
-DURATION: {self.duration} minutes
+CLIENT - {self.client_name}
+DATE/TIME - {self.timestamp}
+SESSION TYPE - {self.session_type}
+DURATION - {self.duration} minutes
 
 SUBJECTIVE (What client reported):
 [Client perspective on situation, concerns, goals]

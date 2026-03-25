@@ -21,18 +21,18 @@ Table of Contents
 
 - [Understanding Blue Light and Eye Strain](#understanding-blue-light-and-eye-strain)
 - [What Actually Matters When Choosing Glasses](#what-actually-matters-when-choosing-glasses)
-- [Practical Setup: Beyond Just Glasses](#practical-setup-beyond-just-glasses)
+- [Practical Setup - Beyond Just Glasses](#practical-setup-beyond-just-glasses)
 - [Product Recommendations by Budget](#product-recommendations-by-budget)
-- [Technical Deep Dive: Lens Technology](#technical-deep detailed look-lens-technology)
+- [Technical Deep Dive - Lens Technology](#technical-deep detailed look-lens-technology)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 - [Effective Blue Light Reduction Strategy](#effective-blue-light-reduction-strategy)
 - [When to Replace Your Glasses](#when-to-replace-your-glasses)
 - [Integration with Your Development Setup](#integration-with-your-development-setup)
-- [Deep Dive: Lens Coating Technology](#deep detailed look-lens-coating-technology)
+- [Deep Dive - Lens Coating Technology](#deep detailed look-lens-coating-technology)
 - [Measuring Your Blue Light Exposure: Data-Driven Approach](#measuring-your-blue-light-exposure-data-driven-approach)
-- [Real-World Programmer Scenarios: When Glasses Definitely Help](#real-world-programmer-scenarios-when-glasses-definitely-help)
+- [Real-World Programmer Scenarios - When Glasses Definitely Help](#real-world-programmer-scenarios-when-glasses-definitely-help)
 - [The Case Against Blue Light Glasses (If You're Skeptical)](#the-case-against-blue-light-glasses-if-youre-skeptical)
-- [Prescription Integration: When You Already Wear Glasses](#prescription-integration-when-you-already-wear-glasses)
+- [Prescription Integration - When You Already Wear Glasses](#prescription-integration-when-you-already-wear-glasses)
 - [Lifecycle and Maintenance](#lifecycle-and-maintenance)
 - [Integration with Mechanical Keyboard Ergonomics](#integration-with-mechanical-keyboard-ergonomics)
 - [Final Recommendation by Situation](#final-recommendation-by-situation)
@@ -45,7 +45,7 @@ Programmers face unique challenges. You're not just browsing; you're often worki
 
 Why blue light matters specifically: Blue light affects your circadian rhythm more than other colors. Evening blue light exposure signals your body to suppress melatonin production, making it harder to fall asleep. Programmers who code late into the evening (common during debugging or deadline crunch) effectively signal their bodies to stay awake. Blue light glasses or screen filters address this by reducing the signal that tells your brain "it's daytime."
 
-The research evidence: Studies from 2020-2024 show mixed results on whether blue light blocking reduces eye strain specifically. However, multiple studies confirm that reducing blue light in the evening improves sleep quality and next-day cognitive performance. The combination of reduced blue light + proper viewing distance + breaks gives measurable results.
+The research evidence - Studies from 2020-2024 show mixed results on whether blue light blocking reduces eye strain specifically. However, multiple studies confirm that reducing blue light in the evening improves sleep quality and next-day cognitive performance. The combination of reduced blue light + proper viewing distance + breaks gives measurable results.
 
 What Actually Matters When Choosing Glasses
 
@@ -84,7 +84,7 @@ You'll likely wear these for entire workdays. Key considerations:
 - Temple pressure: Adjustable temple tips prevent headaches
 - Nose pads: Silicone pads provide better grip than plastic
 
-Practical Setup: Beyond Just Glasses
+Practical Setup - Beyond Just Glasses
 
 Blue light glasses work best as part of a broader eye care strategy. Here's a shell script to automatically adjust your screen's color temperature throughout the day:
 
@@ -122,17 +122,17 @@ Amazon Basics Blue Light Blocking Glasses ($25-35). Basic functionality, adequat
 
 BonLook Blue Light ($40-50). Budget-conscious brand with surprisingly good frame quality. Less selection than premium options but solid performance at lower cost.
 
-Technical Deep Dive: Lens Technology
+Technical Deep Dive - Lens Technology
 
 Not all blue light blocking lenses are created equal. Here's what actually matters:
 
-Blocking percentage: Look for 90%+ blocking in the 400-420nm range. Some budget options claim "blue light blocking" but only filter 40-50%, which is largely ineffective.
+Blocking percentage - Look for 90%+ blocking in the 400-420nm range. Some budget options claim "blue light blocking" but only filter 40-50%, which is largely ineffective.
 
-Transmission charts: Premium manufacturers publish transmission curves showing exactly how much light they block at each wavelength. If a manufacturer doesn't provide this data, their claims are questionable.
+Transmission charts - Premium manufacturers publish transmission curves showing exactly how much light they block at each wavelength. If a manufacturer doesn't provide this data, their claims are questionable.
 
-Scratch-resistant coatings: Your lenses will accumulate micro-scratches over months of use. Quality anti-scratch coatings cost more but preserve lens clarity longer. This matters for developers who wear glasses 8+ hours daily.
+Scratch-resistant coatings - Your lenses will accumulate micro-scratches over months of use. Quality anti-scratch coatings cost more but preserve lens clarity longer. This matters for developers who wear glasses 8+ hours daily.
 
-Hydrophobic coatings: Water and dust-repellent coatings reduce cleaning frequency and improve visibility. Many budget options skip this feature.
+Hydrophobic coatings - Water and dust-repellent coatings reduce cleaning frequency and improve visibility. Many budget options skip this feature.
 
 Common Mistakes to Avoid
 
@@ -171,15 +171,15 @@ Integration with Your Development Setup
 
 Blue light glasses work best as part of an eye care strategy:
 
-Screen brightness calibration: Use your operating system's brightness settings to match ambient room light. Most developers run screens too bright. If using task lighting, reduce screen brightness to 60-70% of maximum and adjust based on comfort after 30 minutes of use.
+Screen brightness calibration - Use your operating system's brightness settings to match ambient room light. Most developers run screens too bright. If using task lighting, reduce screen brightness to 60-70% of maximum and adjust based on comfort after 30 minutes of use.
 
-IDE theme selection: Choose dark themes with warm color accents for evening coding sessions:
+IDE theme selection - Choose dark themes with warm color accents for evening coding sessions:
 - Monokai Pro (paid, excellent for dark environments)
 - Dracula (free, good contrast and warm tones)
 - One Dark Pro (free, default dark theme for many editors)
 - Nord (free, specifically designed for reduced eye strain)
 
-Software blue light filters: Combine glasses with screen-level filtering:
+Software blue light filters - Combine glasses with screen-level filtering:
 - f.lux (all platforms, free, automatically adjusts color temp)
 - macOS built-in Night Shift (settings > displays > night shift)
 - Windows Night Light (settings > system > display > night light)
@@ -187,7 +187,7 @@ Software blue light filters: Combine glasses with screen-level filtering:
 
 Set filters to activate 2-3 hours before typical sleep time. Start at warm temperatures (2000-2700K) and increase cool temperature during work hours.
 
-Break timing systems: Implement the 20-20-20 rule using:
+Break timing systems - Implement the 20-20-20 rule using:
 - Stretchly (cross-platform, free)
 - Time Out (macOS, $10)
 - Eye Care 20-20-20 (Windows, free)
@@ -195,7 +195,7 @@ Break timing systems: Implement the 20-20-20 rule using:
 
 The combination of blue light glasses + screen filtering + software tools + deliberate breaks reduces eye strain by 60-70% compared to glasses alone.
 
-Deep Dive: Lens Coating Technology
+Deep Dive - Lens Coating Technology
 
 Not all blue light blocking is equal. Understanding coating technology helps you evaluate products:
 
@@ -225,7 +225,7 @@ Crystalline Layer Technology (Premium option)
 - Cost impact: $40-60 additional per pair
 - Premium brands like Warby Parker and Clearly use this technology
 
-For developers: Prioritize color accuracy. Multi-coat reflective or crystalline technology gives you the best results for color-sensitive work while still protecting against blue light.
+For developers - Prioritize color accuracy. Multi-coat reflective or crystalline technology gives you the best results for color-sensitive work while still protecting against blue light.
 
 Measuring Your Blue Light Exposure: Data-Driven Approach
 
@@ -235,7 +235,7 @@ If you want to optimize empirically rather than just assume glasses help:
 #!/bin/bash
 Track blue light exposure and effects over time
 
-Week 1: Baseline (no glasses, normal settings)
+Week 1 - Baseline (no glasses, normal settings)
 echo "Week 1: Baseline Measurement"
 echo "---"
 echo "Note evening screen time (hours): "
@@ -250,12 +250,12 @@ read baseline_alertness
 echo "Evening fatigue (1-5): "
 read baseline_fatigue
 
-Week 2-4: With blue light glasses
+Week 2-4 - With blue light glasses
 echo "Weeks 2-4: Blue Light Glasses Trial"
 echo "---"
 Repeat measurements
 
-Week 5: Analysis
+Week 5 - Analysis
 If glasses + settings improve sleep/alertness by >20%, they're working
 If no improvement, glasses may not be necessary for you specifically
 ```
@@ -268,35 +268,35 @@ What to measure:
 
 If you see measurable improvements, blue light glasses are working for you. If measurements show no change, you might not need glasses, genetics and individual sensitivity vary significantly.
 
-Real-World Programmer Scenarios: When Glasses Definitely Help
+Real-World Programmer Scenarios - When Glasses Definitely Help
 
 Blue light glasses are most valuable for specific situations:
 
-Scenario 1: Late-Night Debugging (The Real Use Case)
+Scenario 1 - Late-Night Debugging (The Real Use Case)
 - Problem: 10 PM - 2 AM debugging session before deadline
 - Without glasses: You're still wired at 3 AM, can't sleep until 5-6 AM
 - With glasses + screen filter: You fall asleep 1-2 hours earlier
 - Impact: Worth it; sleep quality directly affects next-day debugging ability
 
-Scenario 2: Remote Standups Across Timezones
+Scenario 2 - Remote Standups Across Timezones
 - Problem: 6 AM standup for US East Coast (brutal if you're on West Coast)
 - Without glasses: Early morning meeting ruins your circadian rhythm, you're tired all week
 - With glasses + screen filter: Reduced blue light signal helps your brain accept waking early
 - Impact: Moderate; helps but doesn't solve the underlying scheduling problem
 
-Scenario 3: All-Day Meetings on Video
+Scenario 3 - All-Day Meetings on Video
 - Problem: 8 AM - 5 PM Zoom calls (calendar is fully booked)
 - Without glasses: Eye strain cumulative, headache by 3 PM, can't focus after lunch
 - With glasses: Reduced strain, better focus through afternoon
 - Impact: Significant; the reduction in eye fatigue improves performance
 
-Scenario 4: Normal Day (9-5 Remote Work)
+Scenario 4 - Normal Day (9-5 Remote Work)
 - Problem: None specific; just coding all day at normal hours
 - Without glasses: Whatever eye strain you have is baseline
 - With glasses: Modest improvement (10-20% reduction in strain)
-- Impact: Marginal; low-cost option worth trying, but not transformative
+- Impact: Marginal; low-cost option worth trying, but not changing
 
-Honest assessment: Glasses help most when you're working at non-normal hours or have heavy video call loads. For standard remote work with reasonable hours, the benefit is modest. A proper ergonomic setup (monitor distance, brightness) matters more.
+Honest assessment - Glasses help most when you're working at non-normal hours or have heavy video call loads. For standard remote work with reasonable hours, the benefit is modest. A proper ergonomic setup (monitor distance, brightness) matters more.
 
 The Case Against Blue Light Glasses (If You're Skeptical)
 
@@ -319,7 +319,7 @@ Cheaper alternatives to try first:
 
 If those solve your eye strain, glasses aren't needed.
 
-Prescription Integration: When You Already Wear Glasses
+Prescription Integration - When You Already Wear Glasses
 
 If you wear prescription lenses, ordering blue light blocking in your prescription is usually the right call:
 

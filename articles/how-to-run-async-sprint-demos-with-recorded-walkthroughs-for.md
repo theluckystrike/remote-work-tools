@@ -47,7 +47,7 @@ Research consistently shows that distributed teams lose significant productivity
 
 Recording Your Sprint Demo
 
-Option 1: CLI-Based Screen Recording with ffmpeg
+Option 1 - CLI-Based Screen Recording with ffmpeg
 
 For developers who prefer command-line tools, you can automate screen recording using ffmpeg. This approach works well for consistent, repeatable demo recording.
 
@@ -91,7 +91,7 @@ ffmpeg -f x11grab -s 1920x1080 -i :0.0 \
   sprint-demo-$(date +%Y-%m-%d).mp4
 ```
 
-Option 2: Native Screen Recording Tools
+Option 2 - Native Screen Recording Tools
 
 Most operating systems include built-in screen recording:
 
@@ -101,7 +101,7 @@ Most operating systems include built-in screen recording:
 
 These tools are easier for quick demos and require no setup.
 
-Option 3: Dedicated Demo Recording Software
+Option 3 - Dedicated Demo Recording Software
 
 Specialized tools add features useful for sprint demos specifically:
 
@@ -143,7 +143,7 @@ Recording Best Practices
 - Show, don't just describe. demonstrate the actual feature working
 - Reset demo state before recording. use seed data or a dedicated demo environment to avoid showing stale or broken state
 
-One underrated practice: record a silent run-through first, then delete it and record the real version. The first pass reveals timing issues and awkward transitions that you can fix before the final take.
+One underrated practice - record a silent run-through first, then delete it and record the real version. The first pass reveals timing issues and awkward transitions that you can fix before the final take.
 
 Automating Demo Video Generation
 
@@ -209,7 +209,7 @@ Always include a written summary with your video:
 ```markdown
 Sprint 24 Demo Recording
 
-Duration: 8:32
+Duration - 8:32
 
 Features Shown:
 - User dashboard redesign
@@ -222,7 +222,7 @@ Timestamps:
 - 4:20 - Export feature
 - 6:10 - Performance metrics
 
-Questions to review: Please share feedback by Thursday EOD.
+Questions to review - Please share feedback by Thursday EOD.
 ```
 
 The written summary serves a second purpose: it gets indexed by search. In six months when someone asks "when did we ship the export feature," the sprint demo description surfaces in Notion search or Confluence. This is the "permanent searchable record" benefit that makes async demos more valuable than synchronous ones long-term.
@@ -231,8 +231,8 @@ Handling Feedback Async
 
 The demo isn't complete until you've gathered feedback. Set up a clear async feedback loop:
 
-1. Deadlines: Specify when stakeholders should review (e.g., "by Thursday")
-2. Format: Ask for specific feedback (e.g., "approve" or "request changes")
+1. Deadlines - Specify when stakeholders should review (e.g., "by Thursday")
+2. Format - Ask for specific feedback (e.g., "approve" or "request changes")
 3. Channel: Designate where to collect responses (GitHub issue, Slack thread)
 4. Follow-up: Summarize feedback in your next standup or async update
 

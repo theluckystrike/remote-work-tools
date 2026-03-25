@@ -22,7 +22,7 @@ Why ADR Tools Matter for Distributed Teams
 When your engineering team spans multiple time zones, you lose the informal context that happens in office hallways. Someone makes a database choice in 2024, and by 2026, nobody remembers the tradeoffs that shaped that decision. ADRs solve this by creating a permanent, searchable record of technical choices and their reasoning.
 
 The best ADR tools for remote teams share several characteristics: they integrate with your existing workflow, support async review processes, and keep decisions discoverable over time.
-Log4brains: ADR Management in Your Codebase
+Log4brains - ADR Management in Your Codebase
 
 Log4brains treats ADRs as code, storing them directly in your repository alongside your documentation. It works with markdown files following the ADR format and provides a web interface for browsing decisions.
 
@@ -50,7 +50,7 @@ The command generates a properly formatted markdown file with status, context, d
 
 The web interface displays your ADR collection as a timeline. Remote teams can browse decisions, filter by status, and search within the interface. Since everything lives in the repo, Git history tracks how decisions evolved over time.
 
-One limitation: Log4brains focuses on viewing and creating ADRs. It doesn't provide built-in review workflows, so teams need to handle async review through pull requests or external tools.
+One limitation - Log4brains focuses on viewing and creating ADRs. It doesn't provide built-in review workflows, so teams need to handle async review through pull requests or external tools.
 
 ADR Tools in Notion
 
@@ -68,7 +68,7 @@ Set up an ADR database with these properties:
 Create a template for new ADRs that includes the standard sections:
 
 ```markdown
-ADR-XXX: [Decision Title]
+ADR-XXX - [Decision Title]
 
 Status
 [Proposed | Accepted | Deprecated | Superseded]
@@ -124,7 +124,7 @@ jobs:
 
 This automation ensures consistency across your ADR collection. Remote team members can review proposed ADRs through PRs, adding comments asynchronously before merging.
 
-Structurizr: ADR with Architecture Diagrams
+Structurizr - ADR with Architecture Diagrams
 
 For teams that want to connect decisions to visual architecture, Structurizr provides a complementary approach. While primarily a tooling suite for architecture documentation, it supports ADR-style decision logging alongside diagram generation.
 
@@ -185,7 +185,7 @@ Create new ADR with template
 NUM=$(ls docs/adr/*.md 2>/dev/null | wc -l | tr -d ' ')
 NEXT=$(printf "%03d" $((NUM + 1)))
 cat > "docs/adr/${NEXT}-$(echo "$1" | tr ' ' '-' | tr '[:upper:]' '[:lower:]').md" << EOF
-ADR-${NEXT}: $1
+ADR-${NEXT} - $1
 
 Status
 Proposed
@@ -201,7 +201,7 @@ Consequences
 - Negative:
 
 EOF
-echo "Created ADR-${NEXT}: $1"
+echo "Created ADR-${NEXT} - $1"
 ```
 
 Run this script with `./new-adr.sh "Use Redis for Caching"` to generate a properly numbered, formatted ADR ready for editing.

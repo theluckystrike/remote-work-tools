@@ -30,13 +30,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Least Privilege in a Remote Context
+Step 1 - Understand Least Privilege in a Remote Context
 
 Least privilege means granting users exactly the permissions they need to perform their job, and nothing more. For remote teams, this principle faces unique challenges: you cannot rely on physical network boundaries, must account for personal devices, and need to support access from diverse geographic locations.
 
 The traditional approach of VPN-based access to a corporate network no longer serves modern remote workflows. Instead, cloud-native identity and access management (IAM) provides finer-grained control that works regardless of where your team members connect from.
 
-Step 2: Identity-Based Access with Cloud IAM
+Step 2 - Identity-Based Access with Cloud IAM
 
 Major cloud providers offer IAM systems that form the foundation of least privilege implementation. Rather than granting access to entire services, you define specific permissions for individual resources.
 
@@ -96,7 +96,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
 
 Avoid granting broad roles like `roles/owner` or `roles/editor` to service accounts used by applications. Even for development environments, specify only the permissions actually required.
 
-Step 3: Temporary Credentials and Session Duration
+Step 3 - Temporary Credentials and Session Duration
 
 One of the most effective techniques for remote teams involves limiting credential lifespan. Long-lived credentials represent significant risk if exposed. Implement temporary credentials that expire after a defined period.
 
@@ -142,7 +142,7 @@ az role assignment create \
 
 Remote developers can then access resources without handling secrets directly.
 
-Step 4: Implementing Just-in-Time Access
+Step 4 - Implementing Just-in-Time Access
 
 Just-in-time (JIT) access elevates permissions only when needed and automatically revokes them afterward. This pattern significantly reduces attack surface by limiting the time window during which elevated permissions are active.
 
@@ -194,7 +194,7 @@ def grant_elevated_access(user_email, role_name, duration_minutes=60):
 
 This approach ensures elevated permissions automatically expire, even if the user forgets to revoke them.
 
-Step 5: Network-Level Controls for Remote Access
+Step 5 - Network-Level Controls for Remote Access
 
 While identity management handles who can access what, network controls add another security layer. For remote teams accessing cloud resources, implement conditional access based on network properties.
 
@@ -250,7 +250,7 @@ resource "aws_vpc_endpoint" "s3_private" {
 
 This approach ensures that even if credentials are compromised, attackers cannot easily reach the resources from unauthorized networks.
 
-Step 6: Continuous Access Review
+Step 6 - Continuous Access Review
 
 Least privilege requires ongoing maintenance. Permissions granted for temporary projects accumulate over time. Implement regular access reviews to identify and remove unnecessary access.
 

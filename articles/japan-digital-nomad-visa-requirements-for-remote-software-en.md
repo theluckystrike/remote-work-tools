@@ -28,29 +28,29 @@ Table of Contents
 - [Renewal and Extension](#renewal-and-extension)
 - [Cost Breakdown for Your Japan Stay](#cost-breakdown-for-your-japan-stay)
 - [Navigating Common Application Challenges](#navigating-common-application-challenges)
-- [Advanced Planning: Tax Residency and Remote Work](#advanced-planning-tax-residency-and-remote-work)
+- [Advanced Planning - Tax Residency and Remote Work](#advanced-planning-tax-residency-and-remote-work)
 - [Practical Resources and Tools](#practical-resources-and-tools)
 - [Comparison with Other Asian Digital Nomad Visas](#comparison-with-other-asian-digital-nomad-visas)
-- [Moving to Japan: Beyond the Visa](#moving-to-japan-beyond-the-visa)
+- [Moving to Japan - Beyond the Visa](#moving-to-japan-beyond-the-visa)
 - [Renewal and Extension](#renewal-and-extension)
 
 Eligibility Criteria for Software Engineers
 
 The Japan Digital Nomad Visa targets remote workers employed by companies outside Japan. Unlike the standard work visa, you cannot work for Japanese companies with this visa type. The key eligibility requirements for 2026 include:
 
-Income Threshold: You must demonstrate an annual income of at least ¥10 million (approximately $67,000 USD). This represents a significant increase from the initial ¥10 million threshold and reflects Japan's tightening of the program. For software engineers, this income level is achievable at many companies, particularly those paying competitive salaries in USD or EUR.
+Income Threshold - You must demonstrate an annual income of at least ¥10 million (approximately $67,000 USD). This represents a significant increase from the initial ¥10 million threshold and reflects Japan's tightening of the program. For software engineers, this income level is achievable at many companies, particularly those paying competitive salaries in USD or EUR.
 
-Employment Status: You must be employed by a company registered outside Japan. Freelancers and contractors qualify if they can demonstrate ongoing contracts with non-Japanese clients. Self-employed developers should prepare documentation showing client contracts, invoices, and payment history.
+Employment Status - You must be employed by a company registered outside Japan. Freelancers and contractors qualify if they can demonstrate ongoing contracts with non-Japanese clients. Self-employed developers should prepare documentation showing client contracts, invoices, and payment history.
 
-Health Insurance: Unlike earlier versions of the visa, 2026 requirements mandate either travel insurance with minimum ¥10 million coverage or enrollment in Japan's national health insurance system within 14 days of arrival.
+Health Insurance - Unlike earlier versions of the visa, 2026 requirements mandate either travel insurance with minimum ¥10 million coverage or enrollment in Japan's national health insurance system within 14 days of arrival.
 
-Professional Experience: While not explicitly stated, you should hold relevant qualifications or documented experience in software engineering. A GitHub profile, LinkedIn history, or employment contracts serve as evidence of your profession.
+Professional Experience - While not explicitly stated, you should hold relevant qualifications or documented experience in software engineering. A GitHub profile, LinkedIn history, or employment contracts serve as evidence of your profession.
 
 Required Documentation
 
 Preparing your documentation before applying significantly smooths the process. Gather these documents before starting your application:
 
-Proof of Income: Bank statements showing deposits over the past 12 months, or a letter from your employer confirming your annual salary. If you receive payments in multiple currencies, provide exchange rate documentation.
+Proof of Income - Bank statements showing deposits over the past 12 months, or a letter from your employer confirming your annual salary. If you receive payments in multiple currencies, provide exchange rate documentation.
 
 ```json
 {
@@ -67,11 +67,11 @@ Proof of Income: Bank statements showing deposits over the past 12 months, or a 
 }
 ```
 
-Employment Verification: A letter from your employer stating your position, employment duration, and confirmation that you work remotely. Japanese immigration requires this letter to explicitly state your work location will be Japan.
+Employment Verification - A letter from your employer stating your position, employment duration, and confirmation that you work remotely. Japanese immigration requires this letter to explicitly state your work location will be Japan.
 
-Business Registration: If you work as a contractor or freelancer, provide proof of business registration in your home country, articles of incorporation, business license, or equivalent documentation.
+Business Registration - If you work as a contractor or freelancer, provide proof of business registration in your home country, articles of incorporation, business license, or equivalent documentation.
 
-Travel Insurance: Minimum coverage of ¥10 million for medical expenses and ¥10 million for repatriation. Many software engineers opt for global coverage plans from providers like SafetyWing, World Nomads, or Genki.
+Travel Insurance - Minimum coverage of ¥10 million for medical expenses and ¥10 million for repatriation. Many software engineers opt for global coverage plans from providers like SafetyWing, World Nomads, or Genki.
 
 Application Process Step by Step
 
@@ -105,7 +105,7 @@ Understanding how immigration calculates your income prevents application surpri
 
 For employed software engineers, your base salary plus bonuses counts toward the ¥10 million threshold. Stock options, restricted stock units, and equity compensation create complexity, consult a Japanese immigration attorney if significant compensation comes from equity.
 
-Freelance Developer Calculation: Net income (after business expenses) typically qualifies. Japanese immigration reviews your invoices and payment receipts. Maintain clean records showing consistent monthly income exceeding ¥833,333 ($5,500 USD).
+Freelance Developer Calculation - Net income (after business expenses) typically qualifies. Japanese immigration reviews your invoices and payment receipts. Maintain clean records showing consistent monthly income exceeding ¥833,333 ($5,500 USD).
 
 ```python
 Simple income verification calculation
@@ -121,9 +121,9 @@ def calculate_monthly_income(annual_salary_jpy):
     }
 
 Senior software engineer at US company
-Annual: $120,000 USD ≈ ¥18,000,000 JPY
+Annual - $120,000 USD ≈ ¥18,000,000 JPY
 print(calculate_monthly_income(18_000_000))
-Output: {'monthly_income': 1500000, 'required': 833333, 'meets_threshold': True}
+Output - {'monthly_income': 1500000, 'required': 833333, 'meets_threshold': True}
 ```
 
 Practical Considerations for Remote Engineers
@@ -167,7 +167,7 @@ For engineers earning $80,000+ annually, this budget is easily manageable while 
 
 Navigating Common Application Challenges
 
-Challenge 1: Multi-Currency Income Documentation
+Challenge 1 - Multi-Currency Income Documentation
 
 Many software engineers work for companies that pay in USD, EUR, or other currencies. Immigration authorities accept this, but you need proper documentation:
 
@@ -178,7 +178,7 @@ Many software engineers work for companies that pay in USD, EUR, or other curren
 
 If you earn $8,000 USD monthly ($96,000 annually), using an average rate of 1 USD = ¥150 JPY equals ¥1,200,000 monthly (¥14,400,000 annually), well above the ¥10,000,000 threshold.
 
-Challenge 2: Freelancer Income Gaps
+Challenge 2 - Freelancer Income Gaps
 
 If you're self-employed with variable income, focus on demonstrating consistent income over the 12-month period rather than monthly minimums. Immigration accepts months with higher earnings that offset lower months, as long as the annual average exceeds the threshold.
 
@@ -188,7 +188,7 @@ Create a summary document showing:
 - Average monthly income calculation
 - Explanation of any unusual months (vacation, large projects, etc.)
 
-Challenge 3: Status Changes and Timing
+Challenge 3 - Status Changes and Timing
 
 If you're already in Japan on a visitor or student visa and want to change status:
 
@@ -197,7 +197,7 @@ If you're already in Japan on a visitor or student visa and want to change statu
 - Obtain a "Certificate of Applicant Status" () allowing temporary work while your application is processed
 - Your new visa becomes valid only after approved; you cannot work under the old visa status
 
-Advanced Planning: Tax Residency and Remote Work
+Advanced Planning - Tax Residency and Remote Work
 
 Japan's tax system considers you a resident if you stay over 1 year continuously, or if you stay 183 days or more in a calendar year. For digital nomads planning 6-month stays:
 
@@ -237,19 +237,19 @@ Comparison with Other Asian Digital Nomad Visas
 
 Japan's visa offers longer initial duration and more straightforward renewal compared to Southeast Asian alternatives, though the income requirement is higher.
 
-Moving to Japan: Beyond the Visa
+Moving to Japan - Beyond the Visa
 
 Cultural and Professional Adjustment
 
 Japanese work culture differs significantly from Western practices. Understanding these expectations helps you thrive:
 
-Respect for hierarchy: Even as a remote worker, acknowledge senior engineers and leads. Decision-making is often consensus-based; rushing conclusions frustrates Japanese partners.
+Respect for hierarchy - Even as a remote worker, acknowledge senior engineers and leads. Decision-making is often consensus-based; rushing conclusions frustrates Japanese partners.
 
-Communication style: Direct confrontation is uncommon. Constructive feedback is softer than typical American directness. Consider how you frame concerns in remote meetings.
+Communication style - Direct confrontation is uncommon. Constructive feedback is softer than typical American directness. Consider how you frame concerns in remote meetings.
 
-Punctuality: Being on time is paramount. For remote calls, join 2-3 minutes early. Missing scheduled times or being consistently late signals disrespect.
+Punctuality - Being on time is essential. For remote calls, join 2-3 minutes early. Missing scheduled times or being consistently late signals disrespect.
 
-Documentation: Japanese culture values detailed documentation. Well-organized, thorough records of decisions and processes help you integrate smoothly.
+Documentation - Japanese culture values detailed documentation. Well-organized, thorough records of decisions and processes help you integrate smoothly.
 
 Social Integration for Remote Workers
 
@@ -261,9 +261,9 @@ Join communities:
 - Hobby groups (sports, games, hiking) accessible to foreigners
 - Expat communities in larger cities
 
-Language learning: While English is common in tech spaces, basic Japanese courtesy language (greetings, polite phrases) goes far. Even simple effort is appreciated.
+Language learning - While English is common in tech spaces, basic Japanese courtesy language (greetings, polite phrases) goes far. Even simple effort is appreciated.
 
-Networking: Remote workers sometimes feel isolated. Schedule regular hangouts with other digital nomads or expats. Cities like Tokyo and Kyoto have active nomad communities.
+Networking - Remote workers sometimes feel isolated. Schedule regular hangouts with other digital nomads or expats. Cities like Tokyo and Kyoto have active nomad communities.
 
 Practical Timeline from Application to Arrival
 
@@ -292,7 +292,7 @@ Month 4:
 - Activate SIM card or pocket WiFi
 - Settle into apartment
 
-Post-Arrival: First Month Checklist
+Post-Arrival - First Month Checklist
 
 After arriving with your visa, complete these administrative tasks:
 

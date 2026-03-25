@@ -28,13 +28,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Root Causes of Async Miscommunication
+Step 1 - The Root Causes of Async Miscommunication
 
 Most async miscommunication stems from three problems: missing context, ambiguous intent, and unclear expectations. When you send a message in Slack, email, or a project management tool, you know exactly what you mean. The person reading your message does not. They fill gaps with assumptions, which often lead to incorrect conclusions.
 
 Context gaps occur when you assume the reader knows background information that they do not have. Ambiguous intent happens when your tone or purpose is unclear, is this a question, a request, or a statement? Unclear expectations leave the reader guessing about what action they should take or when they should respond.
 
-Step 2: Pattern 1: Explicit Context Framing
+Step 2 - Pattern 1: Explicit Context Framing
 
 Always provide context before making your request or statement. The reader needs to understand the situation before they can meaningfully respond.
 
@@ -45,7 +45,7 @@ The build is failing. Can you fix it?
 
 Strong message:
 ```
-The production build is failing on the payment module. Error: "Cannot read property 'total' of undefined" at checkout.js:147.
+The production build is failing on the payment module. Error - "Cannot read property 'total' of undefined" at checkout.js:147.
 
 This broke after the cart refactor merge yesterday. I think the cart state object structure changed but the checkout component wasn't updated.
 
@@ -54,12 +54,12 @@ Can you take a look? This is blocking the release scheduled for tomorrow.
 
 The second version provides the error message, the likely cause, and the deadline. The reader can immediately assess urgency and has specific information to debug the issue.
 
-Step 3: Pattern 2: Explicit Intent Markers
+Step 3 - Pattern 2: Explicit Intent Markers
 
 Remote team members read messages at different times and in different moods. Make your intent unmistakable by explicitly stating what you want.
 
 ```markdown
-Step 4: Intent: [Request for Action / Decision / Information / FYI]
+Step 4 - Intent: [Request for Action / Decision / Information / FYI]
 
 Request for Action:
 I need you to review the API changes and approve or request modifications by EOD Thursday.
@@ -76,7 +76,7 @@ The staging environment was updated with the latest changes. No action needed.
 
 This pattern eliminates confusion about whether the reader needs to respond, act, or simply acknowledge.
 
-Step 5: Pattern 3: Response Frame Templates
+Step 5 - Pattern 3: Response Frame Templates
 
 When you need a response, make it easy for the reader by providing structured options.
 
@@ -100,18 +100,18 @@ Please respond with one of:
 
 This template works in Slack, GitHub comments, and most chat platforms. The structured format makes responses fast and unambiguous.
 
-Step 6: Pattern 4: Code Examples for Technical Communication
+Step 6 - Pattern 4: Code Examples for Technical Communication
 
 For developer teams, technical messages benefit from specific formatting conventions. Use code blocks for any technical content:
 
 ```markdown
-Step 7: Context
+Step 7 - Context
 The user authentication flow returns 401 unexpectedly.
 
-Step 8: Expected Behavior
+Step 8 - Expected Behavior
 After valid credentials, user receives session token.
 
-Step 9: Actual Behavior
+Step 9 - Actual Behavior
 ```json
 {
  "status": 401,
@@ -120,12 +120,12 @@ Step 9: Actual Behavior
 }
 ```
 
-Step 10: Reproduction Steps
+Step 10 - Reproduction Steps
 1. POST /api/auth/login with valid credentials
 2. Copy token from response
 3. GET /api/user/profile with token in header
 
-Step 11: Environment
+Step 11 - Environment
 - API version: 2.3.1
 - Node.js: 18.x
 - Database: PostgreSQL 14
@@ -133,7 +133,7 @@ Step 11: Environment
 
 This structure mirrors bug report formats and gives developers everything they need to reproduce and fix issues without asking follow-up questions.
 
-Step 12: Pattern 5: Timezone and Deadline Clarity
+Step 12 - Pattern 5: Timezone and Deadline Clarity
 
 Async teams span time zones, making timing critical. Always specify time zones and clear deadlines.
 
@@ -151,7 +151,7 @@ This gives me Friday morning (my timezone) to address any feedback before the Mo
 
 Specify UTC to avoid ambiguity. Explain why the deadline matters to help prioritize.
 
-Step 13: Pattern 6: Using Message Tags for Urgency
+Step 13 - Pattern 6: Using Message Tags for Urgency
 
 Create a simple tagging system for your team to communicate urgency without meetings:
 
@@ -165,7 +165,7 @@ Labeling System:
 
 Include these tags in message titles or first lines. Team members can then prioritize accordingly.
 
-Step 14: Pattern 7: The "Explain Back" Technique
+Step 14 - Pattern 7: The "Explain Back" Technique
 
 For complex decisions or technical proposals, ask readers to explain back their understanding. This catches misinterpretations before they cause problems.
 
@@ -180,7 +180,7 @@ This helps us catch any misalignments before implementation.
 
 This technique transforms passive reading into active confirmation.
 
-Step 15: Pattern 8: Confirmation Protocols
+Step 15 - Pattern 8: Confirmation Protocols
 
 For critical information that must be received correctly, establish confirmation protocols:
 
@@ -199,7 +199,7 @@ Understanding confirmation:
 Reply with your understanding of the key points from this message. I'll correct any misunderstandings.
 ```
 
-Step 16: Build a Miscommunication-Resistant Team Culture
+Step 16 - Build a Miscommunication-Resistant Team Culture
 
 Technical patterns help, but culture matters more. Encourage team members to:
 
@@ -211,7 +211,7 @@ Technical patterns help, but culture matters more. Encourage team members to:
 
 Regularly review communication patterns in retrospectives. Identify repeated sources of confusion and document solutions. Over time, your team develops a shared vocabulary that reduces miscommunication.
 
-Step 17: Quick Reference Checklist
+Step 17 - Quick Reference Checklist
 
 Before sending any async message, verify:
 

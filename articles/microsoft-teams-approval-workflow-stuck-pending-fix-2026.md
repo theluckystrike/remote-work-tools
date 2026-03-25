@@ -36,8 +36,8 @@ Table of Contents
 - [Approval Workflow Resilience Patterns](#approval-workflow-resilience-patterns)
 - [Troubleshooting Specific Teams Approval Errors](#troubleshooting-specific-teams-approval-errors)
 - [Approval Workflow Documentation Template](#approval-workflow-documentation-template)
-- [Real-World Success: Remote Team Approval Optimization](#real-world-success-remote-team-approval-optimization)
-- [Quick Reference: Resolution Checklist](#quick-reference-resolution-checklist)
+- [Real-World Success - Remote Team Approval Optimization](#real-world-success-remote-team-approval-optimization)
+- [Quick Reference - Resolution Checklist](#quick-reference-resolution-checklist)
 
 Understanding Microsoft Teams Approval Workflows
 
@@ -57,7 +57,7 @@ Several factors can cause Microsoft Teams approval workflows to remain stuck:
 
 Step-by-Step Troubleshooting Process
 
-Step 1: Verify Flow Status in Power Automate
+Step 1 - Verify Flow Status in Power Automate
 
 Begin by checking the flow status directly in Power Automate:
 
@@ -68,7 +68,7 @@ Begin by checking the flow status directly in Power Automate:
 
 If the flow shows as suspended or has a failed status, click the flow name to access detailed error messages. Power Automate provides run history with specific failure reasons.
 
-Step 2: Check Approver Permissions and Licensing
+Step 2 - Check Approver Permissions and Licensing
 
 Distributed teams often have members with varying Microsoft 365 license levels. Approval workflows require specific licensing for approvers:
 
@@ -79,7 +79,7 @@ Distributed teams often have members with varying Microsoft 365 license levels. 
 
 If the approver lacks proper licensing, the workflow cannot process. Contact your IT administrator to upgrade their license or reassign the approval to another team member.
 
-Step 3: Reauthenticate Flow Connections
+Step 3 - Reauthenticate Flow Connections
 
 Flow connections can become stale, especially after password resets or security token expirations:
 
@@ -91,7 +91,7 @@ Flow connections can become stale, especially after password resets or security 
 
 This reauthentication process resolves the majority of stuck approval workflows caused by connection failures.
 
-Step 4: Review and Fix Form Data Issues
+Step 4 - Review and Fix Form Data Issues
 
 Submission data problems frequently cause workflows to stall:
 
@@ -102,7 +102,7 @@ Submission data problems frequently cause workflows to stall:
 
 If you identify data issues, the requestor must resubmit with corrected information.
 
-Step 5: Examine SharePoint and Data Source Connections
+Step 5 - Examine SharePoint and Data Source Connections
 
 Many approval workflows pull data from SharePoint lists or other data sources:
 
@@ -113,7 +113,7 @@ Many approval workflows pull data from SharePoint lists or other data sources:
 
 SharePoint list modifications often break connected flows. Recreate the flow action with updated list references if necessary.
 
-Step 6: Check Microsoft 365 Admin Center for Policy Blocks
+Step 6 - Check Microsoft 365 Admin Center for Policy Blocks
 
 Organization-wide security policies can interrupt approval workflows:
 
@@ -128,13 +128,13 @@ Preventative Measures for Remote Teams
 
 Implement these practices to minimize future workflow disruptions:
 
-Establish backup approvers: Configure workflows with alternate approvers when primary approvers are unavailable due to time zones or leave.
+Establish backup approvers - Configure workflows with alternate approvers when primary approvers are unavailable due to time zones or leave.
 
-Monitor flow health: Set up notifications for flow failures using Power Automate's built-in monitoring features.
+Monitor flow health - Set up notifications for flow failures using Power Automate's built-in monitoring features.
 
-Document workflow ownership: Maintain clear documentation of which team member owns each approval workflow for quick troubleshooting.
+Document workflow ownership - Maintain clear documentation of which team member owns each approval workflow for quick troubleshooting.
 
-Regular license audits: Quarterly reviews ensure all team members have appropriate licensing for their approval responsibilities.
+Regular license audits - Quarterly reviews ensure all team members have appropriate licensing for their approval responsibilities.
 
 When to Escalate to Microsoft Support
 
@@ -235,15 +235,15 @@ Teams Adaptive Cards Best Practices
 
 The cards that present approvals in Teams have specific design considerations.
 
-Keep cards simple and focused: Too much information overwhelms users. Present decision options clearly with 2-3 action buttons maximum. Additional details can be accessed through links.
+Keep cards simple and focused - Too much information overwhelms users. Present decision options clearly with 2-3 action buttons maximum. Additional details can be accessed through links.
 
-Use responsive design: Cards should render correctly on phones, tablets, and desktop. Test mobile appearance, many users approve on mobile devices during commutes.
+Use responsive design - Cards should render correctly on phones, tablets, and desktop. Test mobile appearance, many users approve on mobile devices during commutes.
 
-Color code for urgency: Use color (red for urgent, yellow for normal, green for informational) to signal importance. This helps busy users prioritize which approvals need immediate attention.
+Color code for urgency - Use color (red for urgent, yellow for normal, green for informational) to signal importance. This helps busy users prioritize which approvals need immediate attention.
 
-Include context in card text: Approval cards should contain enough information for decision-making. Requiring approvers to click links for basic information creates friction.
+Include context in card text - Approval cards should contain enough information for decision-making. Requiring approvers to click links for basic information creates friction.
 
-Test card rendering: Different Teams clients (web, desktop, mobile, different OS) can render cards differently. Test across platforms before deployment.
+Test card rendering - Different Teams clients (web, desktop, mobile, different OS) can render cards differently. Test across platforms before deployment.
 
 Alternative Approval Workflows When Power Automate Fails
 
@@ -251,23 +251,23 @@ If Power Automate approvals consistently fail, alternatives exist.
 
 Adaptive Cards in Teams directly: Build approval cards manually in Teams without Power Automate. Requires more technical setup but provides complete control.
 
-Third-party approval platforms: Services like Nintex or Kayak offer dedicated approval solutions sometimes more reliable than Power Automate.
+Third-party approval platforms - Services like Nintex or Kayak offer dedicated approval solutions sometimes more reliable than Power Automate.
 
 Simple spreadsheet-based tracking: For small teams with occasional approvals, a shared spreadsheet with notifications can replace complex workflows.
 
-Email-based approvals: Traditional email approval with explicit reply conventions. Less elegant but extremely reliable for critical approvals.
+Email-based approvals - Traditional email approval with explicit reply conventions. Less elegant but extremely reliable for critical approvals.
 
 Approval Workflow Resilience Patterns
 
 Building strong approval systems that survive failures.
 
-Always have manual fallback: If workflow fails completely, approver and requester should have way to manually document the approval. This prevents business process blocking.
+Always have manual fallback - If workflow fails completely, approver and requester should have way to manually document the approval. This prevents business process blocking.
 
-Implement automatic escalation: If approval doesn't happen within SLA, automatically escalate to manager or backup approver. This prevents approvals from disappearing into black holes.
+Implement automatic escalation - If approval doesn't happen within SLA, automatically escalate to manager or backup approver. This prevents approvals from disappearing into black holes.
 
-Monitor for stuck approvals: Regularly check if any approvals are unexpectedly stuck pending. Alert if any approval exceeds normal SLA by 2x.
+Monitor for stuck approvals - Regularly check if any approvals are unexpectedly stuck pending. Alert if any approval exceeds normal SLA by 2x.
 
-Provide status visibility: Requester should always be able to see approval status, approved, rejected, pending, or stuck. Visibility prevents wasted follow-ups.
+Provide status visibility - Requester should always be able to see approval status, approved, rejected, pending, or stuck. Visibility prevents wasted follow-ups.
 
 Troubleshooting Specific Teams Approval Errors
 
@@ -300,7 +300,7 @@ For each approval workflow document:
 
 This documentation helps new team members understand approval processes and helps troubleshoot failures more quickly.
 
-Real-World Success: Remote Team Approval Optimization
+Real-World Success - Remote Team Approval Optimization
 
 A distributed manufacturing company with 200 employees struggled with purchase approval workflows taking 3-5 days. This slowed procurement and increased procurement costs.
 
@@ -325,7 +325,7 @@ Results:
 
 This illustrates how addressing stuck workflows has tangible business impact beyond operational smoothness.
 
-Quick Reference: Resolution Checklist
+Quick Reference - Resolution Checklist
 
 Use this checklist when facing stuck approval workflows:
 

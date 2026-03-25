@@ -429,13 +429,13 @@ from email.mime.text import MIMEText
 from string import Template
 
 DELIVERY_EMAIL_TEMPLATE = Template("""
-Subject: Your Virtual Tour for $property_address is Ready
+Subject - Your Virtual Tour for $property_address is Ready
 
 Hi $client_name,
 
 Your virtual tour for $property_address is now ready for review.
 
-View your tour: $tour_url
+View your tour - $tour_url
 
 This link will be active for 7 days. If you need an extension,
 reply to this email and we'll generate a new link.
@@ -520,7 +520,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -532,7 +532,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

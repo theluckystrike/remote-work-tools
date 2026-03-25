@@ -32,7 +32,7 @@ Table of Contents
 - [Complete Tool Comparison Matrix](#complete-tool-comparison-matrix)
 - [Cost Analysis for Teams](#cost-analysis-for-teams)
 - [Network and Audio Codec Details](#network-and-audio-codec-details)
-- [Implementation: Team Policies](#implementation-team-policies)
+- [Implementation - Team Policies](#implementation-team-policies)
 - [Troubleshooting Common Issues](#troubleshooting-common-issues)
 
 Quick conversations in remote teams often create a decision bottleneck: start a Slack Huddle for a 30-second question, or schedule a full Zoom call for what might be a 5-minute discussion? The answer affects your team's flow, context-switching costs, and ultimately your shipping velocity. This guide breaks down when each tool makes sense for developer workflows.
@@ -117,7 +117,7 @@ Example workflow for a code question:
 6. Huddle ends, you resume reviewing
 ```
 
-Total elapsed time: under 3 minutes. The same conversation over Zoom might take 10 minutes including setup and formalities.
+Total elapsed time - under 3 minutes. The same conversation over Zoom might take 10 minutes including setup and formalities.
 
 When Zoom Makes Sense
 
@@ -129,7 +129,7 @@ Schedule Zoom calls (or use Zoom instant meetings) for:
 - Presentations: Zoom's raise-hand feature and attention tracking help manage larger calls
 - Interviews: Recording and transcription support hiring workflows
 
-A pattern some teams use: daily standups on Zoom (for the ritual and visibility), ad-hoc questions via Huddles. This respects both the need for synchronous presence and the efficiency of quick conversations.
+A pattern some teams use - daily standups on Zoom (for the ritual and visibility), ad-hoc questions via Huddles. This respects both the need for synchronous presence and the efficiency of quick conversations.
 
 Hybrid Workflow Example
 
@@ -184,7 +184,7 @@ The goal is not to use one tool exclusively, but to match tool capabilities to c
 
 Complete Tool Comparison Matrix
 
-Slack Huddles vs Zoom: Complete Breakdown
+Slack Huddles vs Zoom - Complete Breakdown
 
 | Feature | Slack Huddle | Zoom | Google Meet | Microsoft Teams |
 |---------|--------------|------|-------------|-----------------|
@@ -202,13 +202,13 @@ Slack Huddles vs Zoom: Complete Breakdown
 | Bandwidth (1080p) | 2.5-4 Mbps | 3.8-4 Mbps | 2.5-4 Mbps | 2.5-4 Mbps |
 | Bandwidth on weak connection | Better (graceful degrade) | Fair (quality drops) | Fair | Fair |
 
-Pro Tip: Check your actual connection bandwidth with:
+Pro Tip - Check your actual connection bandwidth with:
 
 ```bash
 Simple bandwidth test
 speedtest-cli --simple
 
-More detailed: test to Slack media servers
+More detailed - test to Slack media servers
 iperf3 -c speedtest.example.com -t 10 -R
 ```
 
@@ -234,7 +234,7 @@ Hybrid approach (Huddles + Zoom):
 - Total: $160/month
 - But covers more use cases
 
-Time Cost: Context Switching
+Time Cost - Context Switching
 Research shows it takes 23 minutes to refocus after an interruption. Reducing startup time saves time cost:
 
 - Huddle start time: 15 seconds (keyboard shortcut)
@@ -276,7 +276,7 @@ If your team frequently experiences:
 - Latency/echo issues → Likely Zoom at fault
 - Notification fatigue from tool switches → Use Huddles for ad-hoc
 
-Implementation: Team Policies
+Implementation - Team Policies
 
 Example Team Communication Policy
 
@@ -333,19 +333,19 @@ Zoom Audio Problems
 
 Which Tool When
 ```
-Question: Does this conversation need to be searched/referenced later?
+Question - Does this conversation need to be searched/referenced later?
 → YES: Use Zoom (recorded + transcribed)
 → NO: Use Huddle (ephemeral, focus on now)
 
-Question: Are external people (clients/vendors) involved?
+Question - Are external people (clients/vendors) involved?
 → YES: Use Zoom (professional, recordable)
 → NO: Use Huddle (internal only)
 
-Question: Will this take longer than 10 minutes?
+Question - Will this take longer than 10 minutes?
 → YES: Use Zoom (structured agenda, time-boxed)
 → NO: Use Huddle (quick and lightweight)
 
-Question: Do you need to see each other's faces?
+Question - Do you need to see each other's faces?
 → YES: Use Zoom (better video, lighting, virtual bg)
 → NO: Use Huddle (audio only, lower bandwidth)
 ```

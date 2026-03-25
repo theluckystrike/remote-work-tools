@@ -20,19 +20,19 @@ Build async capacity planning by collecting weekly availability reports from eac
 Table of Contents
 
 - [Why Async Capacity Planning Matters for Remote Teams](#why-async-capacity-planning-matters-for-remote-teams)
-- [Step 1: Gather Team Availability Data](#step-1-gather-team-availability-data)
-- [Capacity Report: [Name] - [Period]](#capacity-report-name-period)
-- [Step 2: Track Velocity and Throughput](#step-2-track-velocity-and-throughput)
+- [Step 1 - Gather Team Availability Data](#step-1-gather-team-availability-data)
+- [Capacity Report - [Name] - [Period]](#capacity-report-name-period)
+- [Step 2 - Track Velocity and Throughput](#step-2-track-velocity-and-throughput)
 - [Team Velocity History](#team-velocity-history)
 - [Monthly Throughput](#monthly-throughput)
-- [Step 3: Build a Capacity Planning Template](#step-3-build-a-capacity-planning-template)
-- [Capacity Plan: [Team Name] - [Quarter/Month]](#capacity-plan-team-name-quartermonth)
-- [Step 4: Establish the Async Workflow](#step-4-establish-the-async-workflow)
-- [Step 5: Handle Common Remote Team Challenges](#step-5-handle-common-remote-team-challenges)
+- [Step 3 - Build a Capacity Planning Template](#step-3-build-a-capacity-planning-template)
+- [Capacity Plan - [Team Name] - [Quarter/Month]](#capacity-plan-team-name-quartermonth)
+- [Step 4 - Establish the Async Workflow](#step-4-establish-the-async-workflow)
+- [Step 5 - Handle Common Remote Team Challenges](#step-5-handle-common-remote-team-challenges)
 - [Capacity Buffer Calculation](#capacity-buffer-calculation)
 - [Team Overlap Analysis](#team-overlap-analysis)
 - [Context Switching Multiplier](#context-switching-multiplier)
-- [Practical Example: Quarterly Planning](#practical-example-quarterly-planning)
+- [Practical Example - Quarterly Planning](#practical-example-quarterly-planning)
 
 Why Async Capacity Planning Matters for Remote Teams
 
@@ -45,7 +45,7 @@ Traditional capacity planning often relies on synchronous planning meetings, spr
 
 An async capacity planning process addresses these issues by allowing team members to contribute their input on their own schedules, with time to think through their responses carefully. The result is more thoughtful capacity assessments and better documentation of the planning process.
 
-Step 1: Gather Team Availability Data
+Step 1 - Gather Team Availability Data
 
 The foundation of any capacity planning process is accurate availability data. For remote engineering teams, this means collecting information about:
 
@@ -58,7 +58,7 @@ The foundation of any capacity planning process is accurate availability data. F
 Create a simple template for team members to report their availability:
 
 ```markdown
-Capacity Report: [Name] - [Period]
+Capacity Report - [Name] - [Period]
 
 Available Hours
 - Total contract hours: 40
@@ -78,7 +78,7 @@ Notes
 
 Ask team members to submit this report weekly or bi-weekly. Over time, you'll build historical data that improves the accuracy of your capacity forecasts.
 
-Step 2: Track Velocity and Throughput
+Step 2 - Track Velocity and Throughput
 
 Capacity planning requires understanding how much work your team can actually complete. For remote teams, tracking metrics asynchronously provides visibility without micromanagement.
 
@@ -96,8 +96,8 @@ Team Velocity History
 | 3      | 44               | 41               | 41       |
 | 4      | 48               | 42               | 42       |
 
-Average Velocity: 40.25 points/sprint
-Standard Deviation: 1.7 points
+Average Velocity - 40.25 points/sprint
+Standard Deviation - 1.7 points
 ```
 
 This data helps you commit to realistic sprint goals and plan capacity for upcoming work.
@@ -115,17 +115,17 @@ Monthly Throughput
 | Feb    | 14                | 6         | 4         |
 | Mar    | 11                | 9         | 2         |
 
-Average: 12.3 stories/month
+Average - 12.3 stories/month
 ```
 
 Throughput data becomes especially valuable when planning work that spans multiple sprints or quarters.
 
-Step 3: Build a Capacity Planning Template
+Step 3 - Build a Capacity Planning Template
 
 Create a standardized template that team leads or engineering managers use to document capacity plans. This ensures consistency and makes it easy to compare capacity across teams or time periods.
 
 ```markdown
-Capacity Plan: [Team Name] - [Quarter/Month]
+Capacity Plan - [Team Name] - [Quarter/Month]
 
 Team Composition
 - Senior Engineers: [X]
@@ -136,9 +136,9 @@ Team Composition
 Capacity Calculation
 ```
 Total Team Hours = FTE × Hours per period
-Less: PTO (planned) = [X] hours
-Less: Holidays = [X] hours
-Less: Overhead (meetings, interviews) = [X] hours
+Less - PTO (planned) = [X] hours
+Less - Holidays = [X] hours
+Less - Overhead (meetings, interviews) = [X] hours
 = Net Available Capacity = [X] hours
 ```
 
@@ -159,7 +159,7 @@ Capacity Gap
 - Gap: [X] hours → [Describe how you'll address]
 ```
 
-Step 4: Establish the Async Workflow
+Step 4 - Establish the Async Workflow
 
 With templates in place, establish a clear async workflow for capacity planning:
 
@@ -181,7 +181,7 @@ Quarterly Reviews
 
 This cadence keeps capacity planning as a continuous process rather than a periodic crisis.
 
-Step 5: Handle Common Remote Team Challenges
+Step 5 - Handle Common Remote Team Challenges
 
 Unplanned Absences
 
@@ -190,9 +190,9 @@ Remote team members may have unexpected availability changes. Build buffer into 
 ```markdown
 Capacity Buffer Calculation
 
-Base Capacity: 160 hours/week
-Recommended Buffer: 10-15% (16-24 hours)
-Effective Capacity: 136-144 hours
+Base Capacity - 160 hours/week
+Recommended Buffer - 10-15% (16-24 hours)
+Effective Capacity - 136-144 hours
 ```
 
 This buffer absorbs unplanned PTO, sick days, or emergencies without derailing projections.
@@ -222,20 +222,20 @@ Remote engineers often juggle multiple projects. Track context switching impact:
 ```markdown
 Context Switching Multiplier
 
-Single project focus: 1.0x productivity
-Two projects (equal priority): 0.85x productivity
-Three+ projects: 0.70x productivity
+Single project focus - 1.0x productivity
+Two projects (equal priority) - 0.85x productivity
+Three+ projects - 0.70x productivity
 
 Apply appropriate multiplier when calculating capacity
 for multi-project team members
 ```
 
-Practical Example: Quarterly Planning
+Practical Example - Quarterly Planning
 
 Let's walk through a complete async capacity planning cycle for a fictional team:
 
-Team: Platform Engineering (5 engineers)
-Planning Period: Q2 2026
+Team - Platform Engineering (5 engineers)
+Planning Period - Q2 2026
 
 Available Data
 - Total team hours: 5 × 480 hours (12 weeks × 40 hours) = 2,400 hours
@@ -245,12 +245,12 @@ Available Data
 
 Calculation
 ```
-Gross Capacity: 2,400 hours
-Less PTO: -80 hours
+Gross Capacity - 2,400 hours
+Less PTO - -80 hours
 = Working Hours: 2,320 hours
-Less Overhead (15%): -348 hours
+Less Overhead (15%) - -348 hours
 = Adjusted Capacity: 1,972 hours
-Less Buffer (10%): -197 hours
+Less Buffer (10%) - -197 hours
 = Planning Capacity: 1,775 hours
 ```
 

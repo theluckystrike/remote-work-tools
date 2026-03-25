@@ -31,7 +31,7 @@ When your team spans multiple regions, traditional leadership development models
 
 Instead, you need explicit systems that capture the informal development moments that happen naturally in offices but require intentional design for remote environments.
 
-Stage 1: Identify Leadership Potential
+Stage 1 - Identify Leadership Potential
 
 The first step involves recognizing which team members have leadership qualities, even when they're working asynchronously across different schedules.
 
@@ -73,7 +73,7 @@ Create a simple tracking system using your existing tools. A Notion database or 
 
 Review these signals monthly during your leadership sync. This data becomes the foundation for promotion decisions.
 
-Stage 2: Structured Development Tracks
+Stage 2 - Structured Development Tracks
 
 Once you've identified potential leaders, create clear development tracks with specific milestones.
 
@@ -121,7 +121,7 @@ Pair potential leaders with current leaders using structured async communication
 ```markdown
 Monthly Leadership Mentor Template
 
-Month: [Date Range]
+Month - [Date Range]
 
 Focus Area
 [What leadership skill are you working on this month?]
@@ -141,7 +141,7 @@ Next Month's Focus
 
 Schedule these async check-ins bi-weekly, with optional video calls monthly. The written record becomes valuable historical data for promotion discussions.
 
-Stage 3: Practical Leadership Opportunities
+Stage 3 - Practical Leadership Opportunities
 
 Growth requires practice. Create low-stakes leadership opportunities that distributed teams can execute asynchronously.
 
@@ -176,7 +176,7 @@ Assign potential leaders to lead specific initiatives:
 
 Each project type provides different leadership experiences and creates evidence for promotion decisions.
 
-Stage 4: Assessment and Promotion
+Stage 4 - Assessment and Promotion
 
 Remote leadership promotion requires defensible criteria. Document your evaluation process clearly.
 

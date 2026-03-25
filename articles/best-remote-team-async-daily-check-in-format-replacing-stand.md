@@ -66,7 +66,7 @@ The Async Daily Check In Format
 
 An effective async daily check-in contains four sections. Each serves a specific purpose and takes minimal time to complete.
 
-Section 1: Current Focus
+Section 1 - Current Focus
 
 Describe what you're working on today. Keep it to one or two sentences.
 
@@ -75,7 +75,7 @@ Today I'm Working On
 Implementing user authentication flow for the new API gateway
 ```
 
-Section 2: Completed Yesterday
+Section 2 - Completed Yesterday
 
 List accomplishments from the previous day. Be specific enough that teammates understand what finished.
 
@@ -86,7 +86,7 @@ Yesterday I Completed
 - Reviewed PR #234 for the notification service
 ```
 
-Section 3: Blockers and Dependencies
+Section 3 - Blockers and Dependencies
 
 This section identifies anything preventing progress. Be explicit about what you need and from whom.
 
@@ -96,7 +96,7 @@ Blockers
 - Need access to staging environment credentials
 ```
 
-Section 4: Notes and Observations
+Section 4 - Notes and Observations
 
 Optional but valuable. Share insights, interesting discoveries, or team-relevant information.
 
@@ -153,7 +153,7 @@ Notes
 <!-- Any observations, discoveries, or team updates? -->
 ```
 
-Team members create an issue each morning and close it at the end of the day. This creates a permanent record in your repository.
+Team members create an issue each morning and close it ultimately. This creates a permanent record in your repository.
 
 Automating Reminders With a Simple Bot
 
@@ -220,25 +220,25 @@ Advanced Async Check-In Techniques
 
 Once your team is comfortable with the basic format, these extensions improve effectiveness:
 
-Context blocks: Prepend a critical context thread on Monday with current sprint priorities, blockers, and key dates. This ensures everyone understands the week's context before posting individual updates.
+Context blocks - Prepend a critical context thread on Monday with current sprint priorities, blockers, and key dates. This ensures everyone understands the week's context before posting individual updates.
 
-Cross-team dependencies: Highlight dependencies explicitly. If payment team is waiting on API team changes, the API update mentions this: "Completing work that unblocks payment team's feature."
+Cross-team dependencies - Highlight dependencies explicitly. If payment team is waiting on API team changes, the API update mentions this: "Completing work that unblocks payment team's feature."
 
-Video updates for complex work: For intricate changes, a 90-second Loom video often communicates more clearly than written text. Link it in your check-in: "Yesterday: Completed database migration [2-min walkthrough video]."
+Video updates for complex work - For intricate changes, a 90-second Loom video often communicates more clearly than written text. Link it in your check-in: "Yesterday - Completed database migration [2-min walkthrough video]."
 
-Weekly summaries: On Friday, a team lead synthesizes the week's updates into bullet points for stakeholders. This takes 15-30 minutes but ensures leadership visibility without requiring multiple status reports.
+Weekly summaries - On Friday, a team lead synthesizes the week's updates into bullet points for stakeholders. This takes 15-30 minutes but ensures leadership visibility without requiring multiple status reports.
 
 Detecting Unhealthy Patterns in Async Check-Ins
 
 As an engineering manager or team lead, watch for patterns that indicate problems:
 
-Escalating blockers: If the same blocker appears in multiple people's updates across days, it's not getting resolved. Intervene directly.
+Escalating blockers - If the same blocker appears in multiple people's updates across days, it's not getting resolved. Intervene directly.
 
-Declining update quality: If updates become one-liners, team members are losing commitment to the process. Refresh the format or simplify requirements.
+Declining update quality - If updates become one-liners, team members are losing commitment to the process. Refresh the format or simplify requirements.
 
-Growing blocker lists: A team averaging three blockers per day likely has systemic problems. Review sprint planning or dependency management.
+Growing blocker lists - A team averaging three blockers per day likely has systemic problems. Review sprint planning or dependency management.
 
-Timezone clustering: If all updates come from one timezone, others may feel disconnected or disempowered. Discuss with the team about participation equity.
+Timezone clustering - If all updates come from one timezone, others may feel disconnected or disempowered. Discuss with the team about participation equity.
 
 Measuring True Impact
 
@@ -257,21 +257,21 @@ Some situations warrant synchronous standup despite the benefits of async:
 
 - Crisis mode: During incident response or deadline crunch, real-time coordination matters more than distributed time.
 - New team formation: Freshly formed teams benefit from the relationship-building that synchronous standups provide.
-- Onboarding: New employees often need live interaction to feel connected and to ask follow-up questions.
+- Onboarding - New employees often need live interaction to feel connected and to ask follow-up questions.
 
-Hybrid approaches work: async daily checks for normal operations, sync standups during crises or team transitions.
+Hybrid approaches work - async daily checks for normal operations, sync standups during crises or team transitions.
 
 Variations for Different Team Types
 
 Different team structures benefit from variations on the basic async check-in format:
 
-Distributed on-call teams: Add a section: "On-call incidents yesterday" where on-call engineer notes any incidents and response status. This provides visibility without requiring a scheduled incident review meeting.
+Distributed on-call teams - Add a section: "On-call incidents yesterday" where on-call engineer notes any incidents and response status. This provides visibility without requiring a scheduled incident review meeting.
 
-Customer support teams: Replace "Today I'm working on" with "Support tickets worked on" to maintain visibility into which customers are being served. This helps identify if certain customer issues are getting neglected.
+Customer support teams - Replace "Today I'm working on" with "Support tickets worked on" to maintain visibility into which customers are being served. This helps identify if certain customer issues are getting neglected.
 
-Sales teams: Add a section on customer conversations and opportunities. Sales moves fast and async daily check-ins keep the sales manager informed without interrupting deep work.
+Sales teams - Add a section on customer conversations and opportunities. Sales moves fast and async daily check-ins keep the sales manager informed without interrupting deep work.
 
-Product teams: Include a section on user feedback encountered. This surfaces customer feedback that might warrant design discussion.
+Product teams - Include a section on user feedback encountered. This surfaces customer feedback that might warrant design discussion.
 
 Adapt the format to your team's actual needs rather than forcing an one-size-fits-all template.
 

@@ -113,7 +113,7 @@ If you're still running 100 Mbps switches, upgrade immediately. Gigabit switches
 ```bash
 Check current switch capabilities
 ethtool eth0 | grep -E "Speed|Duplex"
-Example output: Speed: 1000Mb/s, Duplex: Full
+Example output - Speed: 1000Mb/s, Duplex: Full
 ```
 
 VLAN Segmentation for Voice/Video Traffic
@@ -333,7 +333,7 @@ config wifi-iface 'default_radio2'
     option encryption 'sae'
     option key 'your_wifi_password'
 
-Band steering: Automatically move devices to best band
+Band steering - Automatically move devices to best band
 config wifi-device
     option band_steering '1'
     option band_steering_threshold '80'  # Move if signal < 80dBm
@@ -370,7 +370,7 @@ Internal network:
 
 Troubleshooting Common Issues
 
-Issue: "Calls cut out during peak hours"
+Issue - "Calls cut out during peak hours"
 
 ```
 Diagnosis:
@@ -387,7 +387,7 @@ Fix:
 - Consider dedicated video VLAN with separate uplink
 ```
 
-Issue: "WiFi drops during calls"
+Issue - "WiFi drops during calls"
 
 ```
 Diagnosis:

@@ -28,7 +28,7 @@ Table of Contents
 - [Decision Framework for Your Team](#decision-framework-for-your-team)
 - [Practical Considerations for Remote Teams](#practical-considerations-for-remote-teams)
 - [The Hybrid Approach](#the-hybrid-approach)
-- [Practical Setup Workflows: Day One](#practical-setup-workflows-day-one)
+- [Practical Setup Workflows - Day One](#practical-setup-workflows-day-one)
 - [Handling Tool Switching Later](#handling-tool-switching-later)
 - [Long-term Growth Signals](#long-term-growth-signals)
 - [Making Your Choice](#making-your-choice)
@@ -81,7 +81,7 @@ ClickUp offers superior task management depth. Nested subtasks, custom fields, d
 
 ```javascript
 // ClickUp task structure example
-Task: Implement User Authentication
+Task - Implement User Authentication
  Subtask: Design Database Schema
  Subtask: Create API Endpoints
  Subtask: Build Login UI
@@ -175,7 +175,7 @@ This approach introduces sync complexity. You can use Zapier, Make, or custom sc
 function createClickUpTaskFromNotion(pageData) {
   const task = {
     name: pageData.properties.Name.title[0].text.content,
-    description: `Source: Notion\n${pageData.url}`,
+    description: `Source - Notion\n${pageData.url}`,
     status: { status: "to do" },
     assignees: [pageData.properties.Owner.people[0]?.id]
   };
@@ -193,7 +193,7 @@ function createClickUpTaskFromNotion(pageData) {
 
 Evaluate whether maintaining this bridge justifies the complexity. For teams under 10, simpler often wins.
 
-Practical Setup Workflows: Day One
+Practical Setup Workflows - Day One
 
 Getting started matters more than perfect selection. Here's how to implement each tool for immediate productivity:
 
@@ -231,9 +231,9 @@ Handling Tool Switching Later
 
 Under 10 employees, switching tools is painful but manageable. If you outgrow your initial choice:
 
-From Notion to ClickUp: Export Notion databases as CSV, map columns to ClickUp fields, bulk upload. Takes 4-6 hours including data cleanup.
+From Notion to ClickUp - Export Notion databases as CSV, map columns to ClickUp fields, bulk upload. Takes 4-6 hours including data cleanup.
 
-From ClickUp to Notion: Use ClickUp's API to pull task data:
+From ClickUp to Notion - Use ClickUp's API to pull task data:
 
 ```python
 import requests

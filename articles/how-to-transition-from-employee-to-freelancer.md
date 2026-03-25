@@ -28,13 +28,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Mental Shift: From Salary to Revenue
+Step 1 - The Mental Shift: From Salary to Revenue
 
 Freelancing fundamentally changes your relationship with income. As an employee, you receive a predictable paycheck regardless of company performance. As a freelancer, your income directly correlates with your ability to find work, deliver value, and collect payments.
 
 This means your first task isn't paperwork, it's recalibrating your mindset. Track your expenses meticulously during your final months of employment. Calculate your true monthly burn rate including health insurance, retirement contributions, and equipment costs that your employer currently covers. Freelancers typically need to charge 1.5 to 2 times their previous salary to maintain equivalent take-home pay after accounting for taxes, benefits, and periods between projects.
 
-Step 2: Financial Foundation: Build Your Safety Net
+Step 2 - Financial Foundation: Build Your Safety Net
 
 The most common failure point for new freelancers isn't skill, it's running out of money before establishing a client pipeline. Before submitting your resignation, accumulate a financial cushion.
 
@@ -57,7 +57,7 @@ print(f"Suggested safety net: ${six_month_buffer:,.0f}")
 
 This script gives you a concrete target. Adjust the numbers to match your actual situation, then save aggressively before making the transition.
 
-Step 3: Legal Structure: Sole Proprietor vs LLC
+Step 3 - Legal Structure: Sole Proprietor vs LLC
 
 Your business structure affects taxes, liability, and professional credibility. Most freelance developers start as sole proprietors, a simple setup with minimal paperwork. You report business income on Schedule C of your personal tax return.
 
@@ -65,7 +65,7 @@ An LLC adds liability protection and may offer tax advantages, though the comple
 
 Register your business name if using something other than your legal name. This typically requires filing a DBA ("doing business as") with your local government, often completed online for a small fee.
 
-Step 4: Client Acquisition: Start Before You Need It
+Step 4 - Client Acquisition: Start Before You Need It
 
 One of the biggest mistakes new freelancers make is waiting until after leaving employment to find clients. This creates unnecessary pressure and often leads to accepting poor-fit projects out of desperation.
 
@@ -75,7 +75,7 @@ Update your portfolio with personal projects and code samples, reach out to past
 
 Landing your first freelance client before quitting provides validation and reduces financial stress during the transition period.
 
-Step 5: Setting Your Rates: Value-Based Pricing
+Step 5 - Setting Your Rates: Value-Based Pricing
 
 Pricing remains one of the most challenging aspects for developers transitioning to freelancing. Many undercharge initially, driven by fear of rejection or unfamiliarity with market rates.
 
@@ -84,7 +84,7 @@ Research rates in your specialization and geographic market. Backend developers 
 Avoid hourly billing when possible. Clients prefer predictable costs, and you benefit from efficiency gains. Instead, quote project prices based on scope definition:
 
 ```markdown
-Step 6: Project: E-commerce API Integration
+Step 6 - Project: E-commerce API Integration
 
 Scope:
 - RESTful API development (4 endpoints)
@@ -92,8 +92,8 @@ Scope:
 - Unit test coverage (80%+)
 - Basic documentation
 
-Timeline: 2 weeks
-Price: $3,500
+Timeline - 2 weeks
+Price - $3,500
 
 Includes:
 - 30-day bug fixes
@@ -103,7 +103,7 @@ Includes:
 
 This format communicates value clearly and prevents scope creep discussions later.
 
-Step 7: Essential Freelance Tools
+Step 7 - Essential Freelance Tools
 
 You'll need to replace tools your employer previously provided. Budget for:
 
@@ -111,7 +111,7 @@ For accounting, Wave is free and handles invoicing; QuickBooks is the paid alter
 
 Set these up before your first paid project to present professionally from day one.
 
-Step 8: The Transition Timeline
+Step 8 - The Transition Timeline
 
 Most developers benefit from a phased approach rather than an abrupt break:
 
@@ -134,17 +134,17 @@ Months 7+ (Full-time freelance):
 
 This gradual approach dramatically reduces risk while allowing you to validate the freelance lifestyle before committing fully.
 
-Step 9: Handling Benefits and Taxes
+Step 9 - Handling Benefits and Taxes
 
 As an employee, benefits come automatically. As a freelancer, you manage everything:
 
-Health insurance: Purchase through your state's marketplace (ACA). Deduct premiums if self-employed. Budget significantly more than employer contributions, you're now covering the full premium plus employer portion.
+Health insurance - Purchase through your state's marketplace (ACA). Deduct premiums if self-employed. Budget significantly more than employer contributions, you're now covering the full premium plus employer portion.
 
-Retirement: Open a SEP-IRA or Solo 401(k). These allow larger contributions than traditional employee plans since you're both employer and employee.
+Retirement - Open a SEP-IRA or Solo 401(k). These allow larger contributions than traditional employee plans since you're both employer and employee.
 
-Taxes: Set aside 25-30% of income for taxes. Make quarterly estimated payments to avoid penalties. Many freelancers use QuickBooks Self-Employed or hire bookkeepers to manage this.
+Taxes - Set aside 25-30% of income for taxes. Make quarterly estimated payments to avoid penalties. Many freelancers use QuickBooks Self-Employed or hire bookkeepers to manage this.
 
-Step 10: Manage the Psychological Transition
+Step 10 - Manage the Psychological Transition
 
 The mental shift from employee to freelancer affects many people more than the financial or legal aspects. Address these psychological challenges head-on:
 
@@ -154,11 +154,11 @@ As an employee, you had a defined role: "Senior Software Engineer" or "Product M
 ```markdown
 Your Freelance Identity Statement
 
-Previous title: Senior Full Stack Developer at TechCorp
+Previous title - Senior Full Stack Developer at TechCorp
 
-New identity: I help early-stage startups build scalable backend systems.
-Specialization: Node.js/PostgreSQL, DevOps automation, system architecture.
-Value proposition: Reduce time-to-market from months to weeks through rapid prototyping and clean architecture.
+New identity - I help early-stage startups build scalable backend systems.
+Specialization - Node.js/PostgreSQL, DevOps automation, system architecture.
+Value proposition - Reduce time-to-market from months to weeks through rapid prototyping and clean architecture.
 ```
 
 This statement replaces the prestige of a job title with clarity about what you actually do. It's how you introduce yourself to prospects, what goes in your LinkedIn headline, and how you position yourself in proposals.
@@ -175,7 +175,7 @@ Past 12 months as employee:
 - Implemented security protocols that passed SOC2 audit
 - Reduced deployment time from 2 hours to 15 minutes
 
-Freelance rate justified: $150/hour = $312,000/year
+Freelance rate justified - $150/hour = $312,000/year
 You've already created $312,000+ in value for your employer.
 Charging this rate is fair, not greedy.
 ```
@@ -194,7 +194,7 @@ Monday:
   - 1-2 PM: Communication (client emails, Slack catch-up)
   - 2-5 PM: Deep work
 
-Tuesday-Thursday: Similar pattern with rotating focus areas
+Tuesday-Thursday - Similar pattern with rotating focus areas
 
 Friday:
   - 9 AM: Week review (what went well, what needs improvement)
@@ -214,17 +214,17 @@ Value-based pricing (recommended):
 Instead of hourly rates, quote project fees based on the value you deliver to the client.
 
 ```markdown
-Step 11: Project: E-commerce Platform Audit & Optimization
+Step 11 - Project: E-commerce Platform Audit & Optimization
 
-Client's situation: Losing 15% of orders to slow checkout process.
+Client's situation - Losing 15% of orders to slow checkout process.
 Each 1% improvement = €50k/year in additional revenue.
 
-My work: Audit system, identify bottlenecks, implement optimizations.
-Expected improvement: 8% (conservative estimate).
-Expected value created: €400,000
+My work - Audit system, identify bottlenecks, implement optimizations.
+Expected improvement - 8% (conservative estimate).
+Expected value created - €400,000
 
-My fee: €15,000 (3.75% of expected value)
-Timeline: 4 weeks
+My fee - €15,000 (3.75% of expected value)
+Timeline - 4 weeks
 ```
 
 Value-based pricing aligns your interest with the client's and feels less like a negotiation.
@@ -232,16 +232,16 @@ Value-based pricing aligns your interest with the client's and feels less like a
 Pricing by complexity tier:
 
 ```
-Tier 1 (Straightforward): $2,000-5,000
+Tier 1 (Straightforward) - $2,000-5,000
 - Bug fixes, small feature additions, maintenance work
 
-Tier 2 (Standard projects): $5,000-15,000
+Tier 2 (Standard projects) - $5,000-15,000
 - New feature development, integration work, moderate complexity
 
-Tier 3 (Complex): $15,000-50,000
+Tier 3 (Complex) - $15,000-50,000
 - Architecture redesign, performance optimization, complex integrations
 
-Tier 4 (Strategic): $50,000+
+Tier 4 (Strategic) - $50,000+
 - Full platform rebuilds, long-term partnerships, strategic consulting
 ```
 
@@ -252,7 +252,7 @@ The retainer model:
 For clients needing ongoing support, retainers provide predictable income:
 
 ```markdown
-Step 12: Support Retainer: €2,000/month
+Step 12 - Support Retainer: €2,000/month
 
 What's included:
 - 20 hours/month of maintenance and support
@@ -268,7 +268,7 @@ What's extra:
 
 Retainers are lower hourly rates than project work but provide stability and allow you to plan around predictable income.
 
-Step 13: Build Your Service-Based Business Systems
+Step 13 - Build Your Service-Based Business Systems
 
 Freelancing is a business, which means you need business systems:
 
@@ -284,7 +284,7 @@ Client contract template:
 Create a master agreement you customize for each client:
 
 ```markdown
-Step 14: Master Service Agreement Template
+Step 14 - Master Service Agreement Template
 
 1. Scope of Work: [Clear description of deliverables]
 2. Timeline: [Start date, milestones, delivery date]
@@ -320,7 +320,7 @@ Review weekly to ensure you're moving prospects toward decisions
 Disqualify poor fits early rather than wasting time on mismatches
 ```
 
-Step 15: The First Year: Realistic Expectations
+Step 15 - The First Year: Realistic Expectations
 
 Your first freelance year typically looks like:
 
@@ -341,7 +341,7 @@ Months 7-12 (Stability):
 
 These are estimates. Your results depend on your specialization, marketing effort, and network.
 
-Step 16: Common Freelancer Mistakes to Avoid
+Step 16 - Common Freelancer Mistakes to Avoid
 
 1. Charging too little out of fear
 Your first instinct is to undercharge to "get clients." This is wrong. Undercutting destroys your market position and attracts difficult clients. Charge market rate from day one and disqualify prospects who won't pay it.
@@ -358,7 +358,7 @@ Set aside 30% of income for taxes immediately, in a separate account. Don't spen
 5. Mixing personal and business finances
 Open a separate business bank account (costs $0-50). Don't co-mingle money. This simplifies accounting, prevents confusion, and looks professional if audited.
 
-Step 17: Before You Hand In Your Notice
+Step 17 - Before You Hand In Your Notice
 
 Start by building financial runway, testing the freelance lifestyle with side projects, and establishing client relationships before leaving employment. This measured approach lets you evaluate whether freelancing fits your goals without risking immediate financial stability.
 

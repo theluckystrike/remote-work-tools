@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand the EU Employment Law Baseline
+Step 1 - Understand the EU Employment Law Baseline
 
 The European Union sets minimum standards through directives that all member states must implement, but countries often go beyond these minimums. The Working Time Directive establishes a 48-hour maximum work week, minimum daily and weekly rest periods, and paid annual leave of at least four weeks. The Posted Workers Directive addresses employees working temporarily in another EU country. The Directive on Part-time Work and Fixed-term Contracts provides protections against discrimination.
 
@@ -38,7 +38,7 @@ However, these directives leave significant room for national variation. Germany
 
 Before hiring in any EU country, research its specific implementation of EU directives. Official government websites for labor ministries typically provide English-language summaries of key requirements. For detailed compliance advice, consult with an employment lawyer familiar with that specific jurisdiction.
 
-Step 2: Choose the Right Employment Structure
+Step 2 - Choose the Right Employment Structure
 
 Your choice of employment structure determines which country's laws apply to each team member. Three main options exist for building a compliant EU remote team.
 
@@ -50,7 +50,7 @@ Contractor relationships classify workers as independent consultants rather than
 
 Most teams benefit from a hybrid approach: direct employment or EOR arrangements for core team members, with contractor agreements for short-term or specialized work.
 
-Step 3: Navigating Payroll and Social Security
+Step 3 - Navigating Payroll and Social Security
 
 Payroll across EU borders involves navigating multiple social security systems, each with different contribution rates, caps, and administration requirements. The fundamental principle is that employees typically pay social security in the country where they physically work, not where the company is headquartered.
 
@@ -68,23 +68,23 @@ Country-by-Country Contribution Rates (2026):
 | Portugal | 8% | 23.75% | 31.75% | Healthcare, unemployment |
 | Italy | 8% | 27.88% | 35.88% | High employer contribution |
 
-Germany Example: Hiring a €3,000/month developer costs the employer €3,531/month (17.7% contribution on top of gross salary). Employee sees €2,511 after social contributions.
+Germany Example - Hiring a €3,000/month developer costs the employer €3,531/month (17.7% contribution on top of gross salary). Employee sees €2,511 after social contributions.
 
-France Example: Same €3,000 gross salary costs employer €4,260/month (42% contribution). Complex employment laws require detailed contracts and working hour documentation. After-hours emails must be discouraged.
+France Example - Same €3,000 gross salary costs employer €4,260/month (42% contribution). Complex employment laws require detailed contracts and working hour documentation. After-hours emails must be discouraged.
 
 Tax Withholding Requirements:
 
 Germany: Monthly tax filing required, precise documentation of benefits and deductions
 
-France: Monthly withholding, complex declarations if international elements exist
+France - Monthly withholding, complex declarations if international elements exist
 
-Spain: Monthly withholding, additional documentation for remote workers
+Spain - Monthly withholding, additional documentation for remote workers
 
-Netherlands: Quarterly or monthly, flexible based on income level
+Netherlands - Quarterly or monthly, flexible based on income level
 
-Portugal: Monthly withholding, special provisions for remote workers introduced recently
+Portugal - Monthly withholding, special provisions for remote workers introduced recently
 
-Italy: Monthly withholding, very detailed payroll documentation required
+Italy - Monthly withholding, very detailed payroll documentation required
 
 Payroll Solution Comparison:
 
@@ -107,7 +107,7 @@ A 5-person EU team across 4 countries
 
 For most growing companies, EOR services pay for themselves through compliance assurance and reduced administrative burden.
 
-Step 4: Manage Working Time and Leave Entitlements
+Step 4 - Manage Working Time and Leave Entitlements
 
 Working time regulations represent one of the most variable areas across EU countries. While the 48-hour weekly maximum applies everywhere, how it's implemented differs.
 
@@ -117,7 +117,7 @@ Minimum paid leave ranges from the EU-mandated four weeks to significantly more 
 
 When managing a team across multiple countries, establish clear policies about expected availability while respecting local requirements. Define core hours that overlap across time zones, but don't expect team members in France to respond to messages at 8 PM like someone in Poland might accommodate.
 
-Step 5: Handling Termination and Severance
+Step 5 - Handling Termination and Severance
 
 Terminating employment in EU countries ranges from relatively straightforward to extremely complex. Some countries require extensive documentation of performance issues before termination can occur. Severance requirements vary dramatically, from minimal payments in some Eastern European countries to significant requirements in France and Italy.
 
@@ -131,23 +131,23 @@ Practical Steps for Compliance
 
 Building a compliant EU remote team requires systematic attention to legal requirements. Follow these steps to reduce risk:
 
-Step 1: Document Your Employment Structure (Week 1)
+Step 1 - Document Your Employment Structure (Week 1)
 
 Create an employment structure matrix for each country:
 
 ```
-COUNTRY: Germany
-Legal Structure: Direct employment via German GmbH
-EOR Used: No
-Tax ID Required: Yes - Employer Tax Number (Betriebsstättennummer)
-Social Security Registration: Yes - Deutsche Rentenversicherung
-Reporting Frequency: Monthly
-Key Compliance Deadline: 10th of following month for taxes
+COUNTRY - Germany
+Legal Structure - Direct employment via German GmbH
+EOR Used - No
+Tax ID Required - Yes - Employer Tax Number (Betriebsstättennummer)
+Social Security Registration - Yes - Deutsche Rentenversicherung
+Reporting Frequency - Monthly
+Key Compliance Deadline - 10th of following month for taxes
 ```
 
 Repeat for each country. File this document with your finance team and legal counsel. Update quarterly.
 
-Step 2: Create Compliant Contracts (Week 2-3)
+Step 2 - Create Compliant Contracts (Week 2-3)
 
 Don't use one-size-fits-all templates. Work with local employment counsel (cost: $500-1,500 per country for template development).
 
@@ -161,7 +161,7 @@ Contract must include:
 
 French contracts MUST include a "right to disconnect" clause. German contracts must detail working time tracking methods. Skip this and you risk contract invalidation.
 
-Step 3: Implement Payroll Tracking
+Step 3 - Implement Payroll Tracking
 
 Choose your payroll approach and set implementation timeline:
 
@@ -177,7 +177,7 @@ If using payroll software:
 - France: 5th of following month for payroll declaration
 - Set up responsible person for each country's compliance
 
-Step 4: Policy Documentation (Week 3)
+Step 4 - Policy Documentation (Week 3)
 
 Establish written policies and communicate to all team members:
 
@@ -191,15 +191,15 @@ WORKING HOURS POLICY
 
 ```
 LEAVE ENTITLEMENT SUMMARY
-Germany: 20 days minimum paid leave + 11 public holidays
-France: 25 days minimum + 11 public holidays + 35-hour weekly savings
-Spain: 30 days minimum + 14 public holidays
-Netherlands: 20 days minimum + flexible work options
+Germany - 20 days minimum paid leave + 11 public holidays
+France - 25 days minimum + 11 public holidays + 35-hour weekly savings
+Spain - 30 days minimum + 14 public holidays
+Netherlands - 20 days minimum + flexible work options
 ```
 
 Publish this in your team handbook and reference during onboarding.
 
-Step 5: Documentation and Record-Keeping
+Step 5 - Documentation and Record-Keeping
 
 Maintain a central repository (Google Drive, Notion) with:
 - Employment contracts for each team member
@@ -220,7 +220,7 @@ Create a checklist for each new hire:
 [ ] Baseline performance expectations documented
 ```
 
-Step 6: Quarterly Compliance Review
+Step 6 - Quarterly Compliance Review
 
 Set a calendar reminder for quarterly compliance checks:
 - Verify payroll deadlines met for each country

@@ -34,19 +34,19 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Core Components of a Scaled Buddy Program
+Step 1 - Core Components of a Scaled Buddy Program
 
 Before examining implementation, establish these foundational elements:
 
-1. Clear Role Definition: Document what buddies do and don't do. They answer questions, pair on small tasks, and provide social connection, they do not replace managers or HR onboarding processes.
+1. Clear Role Definition - Document what buddies do and don't do. They answer questions, pair on small tasks, and provide social connection, they do not replace managers or HR onboarding processes.
 
-2. Training and Resources: Give buddies a checklist of topics to cover during the first week: tooling access, communication norms, team rituals, and local recommendations for remote workers.
+2. Training and Resources - Give buddies a checklist of topics to cover during the first week: tooling access, communication norms, team rituals, and local recommendations for remote workers.
 
-3. Structured Cadence: Define touchpoints, daily check-ins during week one, then twice weekly through month one.
+3. Structured Cadence - Define touchpoints, daily check-ins during week one, then twice weekly through month one.
 
-4. Matching Algorithm: Pair new hires with buddies based on factors like timezone overlap, shared interests, or complementary experience levels.
+4. Matching Algorithm - Pair new hires with buddies based on factors like timezone overlap, shared interests, or complementary experience levels.
 
-Step 2: Automate Buddy Assignment
+Step 2 - Automate Buddy Assignment
 
 Manual buddy assignment breaks down at scale. A simple matching script ensures fair distribution and considers compatibility factors.
 
@@ -132,7 +132,7 @@ if __name__ == "__main__":
 
 This script provides a starting point. Extend it with actual data from your HR systems and add constraints like maximum buddy load (typically three to four new hires per buddy per quarter).
 
-Step 3: Buddy Check-In Automation
+Step 3 - Buddy Check-In Automation
 
 Regular check-ins prevent the buddy relationship from fading. Use scheduled reminders to maintain consistency without adding administrative overhead.
 
@@ -177,7 +177,7 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
 ```
 
-Step 4: Tracking Program Effectiveness
+Step 4 - Tracking Program Effectiveness
 
 Measurement ensures continuous improvement. Track these metrics:
 
@@ -188,7 +188,7 @@ Measurement ensures continuous improvement. Track these metrics:
 
 Create a simple dashboard that surfaces these numbers monthly. Share results with stakeholders to maintain buy-in for the program.
 
-Step 5: Scaling Considerations
+Step 5 - Scaling Considerations
 
 As your organization grows, evolve the program:
 
@@ -197,7 +197,7 @@ As your organization grows, evolve the program:
 - Self-service matching: Allow new hires to browse buddy profiles and request specific matches
 - Recognition for buddies: Acknowledge buddies publicly, recognition reinforces participation
 
-Step 6: Common Pitfalls to Avoid
+Step 6 - Common Pitfalls to Avoid
 
 Many buddy programs fail because they lack structure or become too bureaucratic. Avoid these mistakes:
 
@@ -206,7 +206,7 @@ Many buddy programs fail because they lack structure or become too bureaucratic.
 - Missing manager alignment: Ensure managers know not to assign urgent work during buddy meetings
 - Forgetting to scale: Reassign buddies when the team doubles; what worked for 10 new hires fails at 50
 
-Step 7: Implementation Checklist
+Step 7 - Implementation Checklist
 
 Use this checklist to launch your program:
 

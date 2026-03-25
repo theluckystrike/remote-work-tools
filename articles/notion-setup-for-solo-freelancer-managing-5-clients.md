@@ -24,7 +24,7 @@ Table of Contents
 - [Database Architecture](#database-architecture)
 - [Views That Actually Help](#views-that-actually-help)
 - [Templates for Consistency](#templates-for-consistency)
-- [Advanced: API Integration for Developers](#advanced-api-integration-for-developers)
+- [Advanced - API Integration for Developers](#advanced-api-integration-for-developers)
 - [Maintenance and Evolution](#maintenance-and-evolution)
 - [Automating Invoicing from Notion](#automating-invoicing-from-notion)
 - [Client Profitability Analysis](#client-profitability-analysis)
@@ -37,7 +37,7 @@ Table of Contents
 - [Scaling Beyond 5 Clients](#scaling-beyond-5-clients)
 - [Sample Client Rates by Specialty (2026)](#sample-client-rates-by-specialty-2026)
 
-The core principle is simple: separate client data from project data, link them together, and create views that show you what needs attention now.
+The core principle is simple - separate client data from project data, link them together, and create views that show you what needs attention now.
 
 Database Architecture
 
@@ -98,9 +98,9 @@ The Daily Review View
 Create a filtered view of Tasks showing items due within the next 3 days or marked urgent. Sort by priority, then by due date. This becomes your daily checklist. Open Notion each morning and you see exactly what needs attention.
 
 ```
-Filter: Due Date is within next 3 days
+Filter - Due Date is within next 3 days
    OR Priority is Urgent
-Sort: Priority (descending), Due Date (ascending)
+Sort - Priority (descending), Due Date (ascending)
 ```
 
 The Weekly Billing View
@@ -136,7 +136,7 @@ For recurring clients, maintain a weekly update template:
 
 Copy this template every Monday and fill it in. Share the page link with clients who want regular updates.
 
-Advanced: API Integration for Developers
+Advanced - API Integration for Developers
 
 If you want to push data into Notion programmatically, the Notion API opens powerful possibilities. Connect your time tracking or git commits to Notion automatically.
 
@@ -146,7 +146,7 @@ Create a simple bash function to log time directly:
 
 ```bash
 #!/bin/bash
-Usage: log-time "Task name" 2.5
+Usage - log-time "Task name" 2.5
 
 TASK_NAME="$1"
 HOURS="$2"
@@ -174,7 +174,7 @@ jobs:
       - name: Create Notion task from commit
         run: |
           curl -X POST 'https://api.notion.com/v1/pages' \
-            -H 'Authorization: Bearer ${{ secrets.NOTION_TOKEN }}' \
+            -H 'Authorization - Bearer ${{ secrets.NOTION_TOKEN }}' \
             -H 'Content-Type: application/json' \
             -d '{
               "parent": { "database_id": "${{ secrets.NOTION_TASK_DB }}" },
@@ -376,7 +376,7 @@ Use these benchmarks when setting client rates:
 | Design | $45-70/hr | $70-120/hr | $120-200/hr |
 | Product management | $70-110/hr | $110-180/hr | $180-300/hr |
 
-Regional variation: Add 20-40% for San Francisco/NYC, subtract 20-30% for lower cost-of-living areas.
+Regional variation - Add 20-40% for San Francisco/NYC, subtract 20-30% for lower cost-of-living areas.
 ---
 
 

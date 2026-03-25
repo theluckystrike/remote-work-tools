@@ -29,7 +29,7 @@ Scaling a remote team creates an obvious tension: more people means more coordin
 
 Table of Contents
 
-- [The Fundamental Principle: Replace Before You Add](#the-fundamental-principle-replace-before-you-add)
+- [The Fundamental Principle - Replace Before You Add](#the-fundamental-principle-replace-before-you-add)
 - [The Three-Layer Meeting Architecture](#the-three-layer-meeting-architecture)
 - [Implementing Async-First Updates](#implementing-async-first-updates)
 - [Week of [Date]](#week-of-date)
@@ -50,7 +50,7 @@ Table of Contents
 
 This guide provides practical frameworks for building meeting structures that scale, specifically designed for technical teams and developers who value focused work time.
 
-The Fundamental Principle: Replace Before You Add
+The Fundamental Principle - Replace Before You Add
 
 The core principle is straightforward: every new meeting must replace an existing one, or serve a purpose that cannot be achieved asynchronously. When a new sub-team forms or a new domain gets added, you do not automatically create a new meeting. Instead, you examine existing meetings and determine whether their scope should shift.
 
@@ -60,7 +60,7 @@ The Three-Layer Meeting Architecture
 
 Effective remote teams operate with three distinct meeting layers:
 
-Layer 1: Cross-Team Alignment (Weekly or Bi-Weekly)
+Layer 1 - Cross-Team Alignment (Weekly or Bi-Weekly)
 
 This is your team-wide sync where representatives from each sub-team share updates. Keep this meeting small, no more than 8 people in the room. If your team exceeds that, use a representation model where sub-teams rotate attendance monthly.
 
@@ -72,11 +72,11 @@ The meeting format should follow a strict template:
 
 Everything else belongs in written async updates.
 
-Layer 2: Sub-Team Synchronization (Weekly)
+Layer 2 - Sub-Team Synchronization (Weekly)
 
 Each functional sub-team maintains its own sync, but these should stay focused on execution details. For developers, this is where sprint planning, technical discussion, and code review coordination happen. Keep these meetings to 30 minutes maximum with a published agenda.
 
-Layer 3: Ad-Hoc Collaboration (As Needed)
+Layer 3 - Ad-Hoc Collaboration (As Needed)
 
 Any meeting that does not fit into Layers 1 or 2 should be scheduled as an one-time event with a clear outcome. If the same ad-hoc meeting recurs three times, promote it to Layer 2 with clear ownership.
 
@@ -190,16 +190,16 @@ This prevents the common problem of decisions getting lost or team members being
 Decision Log
 
 2026-03-15: Sprint Length Change
-Decision: Switch from 1-week to 2-week sprints
-Owner: Engineering Manager
-Rationale: 1-week sprints created overhead for teams in multiple timezones
-Effective: Q2 2026
+Decision - Switch from 1-week to 2-week sprints
+Owner - Engineering Manager
+Rationale - 1-week sprints created overhead for teams in multiple timezones
+Effective - Q2 2026
 
 2026-03-10: Code Review Policy
-Decision: All PRs require minimum 2 approvals
-Owner: Tech Lead
-Rationale: Improve code quality and knowledge sharing
-Effective: Immediate
+Decision - All PRs require minimum 2 approvals
+Owner - Tech Lead
+Rationale - Improve code quality and knowledge sharing
+Effective - Immediate
 ```
 
 Measuring Meeting Effectiveness
@@ -234,7 +234,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -246,26 +246,26 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Scaling Meeting Architecture by Team Size
 
 Your meeting structure needs to evolve as your team grows:
 
 ```
-TEAM SIZE: 5-10 people
+TEAM SIZE - 5-10 people
  Weekly standup: 15 min synchronous (everyone)
  Weekly sprint planning: 30 min synchronous
  As-needed syncs for blockers
 
-TEAM SIZE: 10-25 people
+TEAM SIZE - 10-25 people
  Async daily standups via Slack
  Weekly cross-functional sync: 30 min (rotating attendance)
  Weekly sub-team syncs: 25 min each
  Monthly all-hands: 30 min (includes recorded segment for off-timezone)
  Bi-weekly architecture review: 45 min (optional attendance)
 
-TEAM SIZE: 25-100 people
+TEAM SIZE - 25-100 people
  Async daily standups (automated aggregation)
  Weekly sub-team syncs: 25 min (mandatory for sub-team members)
  Monthly cross-org sync: 30 min (one rep per sub-team)
@@ -274,7 +274,7 @@ TEAM SIZE: 25-100 people
  Focus weeks: Wed-Fri, no recurring meetings
  Monthly sync-free week (async only)
 
-TEAM SIZE: 100+ people
+TEAM SIZE - 100+ people
  Async-first everything
  Weekly standups: Per-team async updates posted to Slack
  Monthly org-wide: Async video updates + live Q&A (pre-submitted questions)
@@ -321,35 +321,35 @@ metrics = {
 
 Anti-Patterns That Destroy Remote Meeting Culture
 
-Anti-pattern 1: Meeting Before Decision
+Anti-pattern 1 - Meeting Before Decision
 
 Teams schedule a meeting to make a decision, but nobody prepared. Meeting becomes a discussion to decide if they should have a meeting.
 
-Fix: Require written proposal before any meeting. Meeting is for feedback only, not brainstorming.
+Fix - Require written proposal before any meeting. Meeting is for feedback only, not brainstorming.
 
-Anti-pattern 2: Every Attendee Must Be Present
+Anti-pattern 2 - Every Attendee Must Be Present
 
 Meeting scheduled for "everyone" but only 40% can attend due to timezones. The 40% meet without the rest.
 
-Fix: Meetings are always async-first or have a recorded fallback. Sync meetings have clear attendee lists (not "everyone").
+Fix - Meetings are always async-first or have a recorded fallback. Sync meetings have clear attendee lists (not "everyone").
 
-Anti-pattern 3: Recurring Meetings That No Longer Have Purpose
+Anti-pattern 3 - Recurring Meetings That No Longer Have Purpose
 
 The "Engineering Sync" used to matter when the team was 8 people. Now it's 40 people and nobody knows why it exists.
 
-Fix: Review every recurring meeting quarterly. If attendance is dropping, kill it. Create pull request culture around meetings.
+Fix - Review every recurring meeting quarterly. If attendance is dropping, kill it. Create pull request culture around meetings.
 
-Anti-pattern 4: Status Reports as Meetings
+Anti-pattern 4 - Status Reports as Meetings
 
 Manager asks "What did everyone do this week?" and people summarize work. This should be async.
 
-Fix: Use async standup format. Sync meetings only for decisions and blockers.
+Fix - Use async standup format. Sync meetings only for decisions and blockers.
 
-Anti-pattern 5: Timezone Imperialism
+Anti-pattern 5 - Timezone Imperialism
 
 Meeting scheduled for "8am PT" because most people are in Pacific time. APAC team joins at 11pm, gets exhausted.
 
-Fix: Rotate meeting times. Or go fully async. No timezone should be favored.
+Fix - Rotate meeting times. Or go fully async. No timezone should be favored.
 
 Documentation Templates for Meeting Governance
 
@@ -367,35 +367,35 @@ Required Documents
 Meeting Types
 
 Standup (Daily, 15 min max)
-Purpose: Surface blockers and coordinate day-to-day work
-Format: Async preferred (Slack Geekbot)
-Owner: Tech lead
-Frequency: Every weekday
-Decision authority: Nobody (information only)
+Purpose - Surface blockers and coordinate day-to-day work
+Format - Async preferred (Slack Geekbot)
+Owner - Tech lead
+Frequency - Every weekday
+Decision authority - Nobody (information only)
 
 Sprint Planning (Weekly, 60 min)
-Purpose: Define work for next sprint
-Format: Synchronous (all team present)
-Owner: Tech lead
-Frequency: Weekly
-Decision authority: Tech lead with team input
-Post-meeting: Written summary in project management tool
+Purpose - Define work for next sprint
+Format - Synchronous (all team present)
+Owner - Tech lead
+Frequency - Weekly
+Decision authority - Tech lead with team input
+Post-meeting - Written summary in project management tool
 
 Architecture Review (Monthly, 45 min)
-Purpose: Evaluate technical decisions and tradeoffs
-Format: Async RFC (written proposal) + optional sync discussion
-Owner: CTO/Tech lead
-Frequency: Monthly
-Decision authority: CTO
-Output: ADR (Architecture Decision Record)
+Purpose - Evaluate technical decisions and tradeoffs
+Format - Async RFC (written proposal) + optional sync discussion
+Owner - CTO/Tech lead
+Frequency - Monthly
+Decision authority - CTO
+Output - ADR (Architecture Decision Record)
 
 All-Hands (Monthly, 60 min)
-Purpose: Company/org-wide updates
-Format: Recorded + live Q&A (for those available)
-Owner: Leadership
-Frequency: Monthly
-Decision authority: Leadership (announcements, not decisions)
-Async component: Pre-submitted questions in Slack thread
+Purpose - Company/org-wide updates
+Format - Recorded + live Q&A (for those available)
+Owner - Leadership
+Frequency - Monthly
+Decision authority - Leadership (announcements, not decisions)
+Async component - Pre-submitted questions in Slack thread
 ```
 
 Handling Timezone-Distributed Teams
@@ -405,8 +405,8 @@ When your team spans 8+ hours of timezones, synchronous meetings become impossib
 ```markdown
 Timezone Distribution Strategy
 
-Team A: UTC+1 to UTC+3 (Europe/Africa)
-Team B: UTC-5 to UTC-8 (Americas)
+Team A - UTC+1 to UTC+3 (Europe/Africa)
+Team B - UTC-5 to UTC-8 (Americas)
 
 Meeting times that work:
 - 1:30 PM UTC: 12:30 PM GMT, 8:30 AM EDT, 5:30 AM PDT

@@ -21,14 +21,14 @@ Remote design sprints require tooling that supports rapid ideation, structured h
 Table of Contents
 
 - [Understanding Remote Design Sprint Requirements](#understanding-remote-design-sprint-requirements)
-- [Miro: Sprint Help](#miro-sprint-help)
-- [FigJam: Lightweight Sprint Sessions](#figjam-lightweight-sprint-sessions)
-- [Mural: Structured Workshop Help](#mural-structured-workshop-help)
+- [Miro - Sprint Help](#miro-sprint-help)
+- [FigJam - Lightweight Sprint Sessions](#figjam-lightweight-sprint-sessions)
+- [Mural - Structured Workshop Help](#mural-structured-workshop-help)
 - [Specialized Sprint Tools](#specialized-sprint-tools)
 - [Integration Strategies](#integration-strategies)
 - [Choosing Your Sprint Stack](#choosing-your-sprint-stack)
 - [Implementation Recommendations](#implementation-recommendations)
-- [Sprint Day Breakdown: Hour-by-Hour Schedule](#sprint-day-breakdown-hour-by-hour-schedule)
+- [Sprint Day Breakdown - Hour-by-Hour Schedule](#sprint-day-breakdown-hour-by-hour-schedule)
 - [Sprint Retrospective Template](#sprint-retrospective-template)
 - [What Worked?](#what-worked)
 - [What Didn't Work?](#what-didnt-work)
@@ -43,7 +43,7 @@ Design sprints follow the Google Sprint methodology: Understand, Diverge, Decide
 
 You need sticky note collaboration that feels natural in a digital space. You need voting and prioritization mechanisms that work asynchronously. You need timer utilities that keep sessions on track across time zones. You need prototype building capabilities that don't require designers to be present in real-time.
 
-Miro: Sprint Help
+Miro - Sprint Help
 
 Miro stands as the most feature-complete platform for running remote design sprints. Its extensive template library includes pre-built sprint boards that map directly to the five-day sprint methodology.
 
@@ -81,7 +81,7 @@ async function exportSprintBoard(boardId) {
 
 The main consideration is pricing. Miro's free tier limits team size and board access, making it less ideal for teams just starting with remote sprints.
 
-FigJam: Lightweight Sprint Sessions
+FigJam - Lightweight Sprint Sessions
 
 FigJam, developed by Figma, provides a more improved approach to remote collaboration. Its simplicity makes it particularly effective for teams that want minimal setup time and intuitive interfaces.
 
@@ -96,7 +96,7 @@ For teams already using Figma for design work, FigJam integrates directly. You c
 
 The free tier remains generous, supporting unlimited collaborators and boards. This makes FigJam an excellent starting point for teams exploring remote design sprints without commitment.
 
-Mural: Structured Workshop Help
+Mural - Structured Workshop Help
 
 Mural excels at structured help, offering guided workflows that help sprint masters keep teams on track. Its strength lies in forcing functions that prevent common sprint pitfalls, like jumping to solutions before problem definition.
 
@@ -215,7 +215,7 @@ For developers, build prototype components in your actual codebase when possible
 
 Start simple, measure what works, and evolve your tooling as your sprint practice matures.
 
-Sprint Day Breakdown: Hour-by-Hour Schedule
+Sprint Day Breakdown - Hour-by-Hour Schedule
 
 For a one-day remote design sprint (compressed version):
 
@@ -260,7 +260,7 @@ Sprint Retrospective Template
 After sprints conclude, run a retro focused on process, not just outcomes:
 
 ```markdown
-Design Sprint Retro: Sprint Name, Date Range
+Design Sprint Retro - Sprint Name, Date Range
 
 What Worked?
 - [List 3-5 things that enabled good ideas]
@@ -314,7 +314,7 @@ Value generated:
 ROI calculation:
   (Value generated × hours saved) / (Time invested)
 
-Target: Achieve ROI > 2 (2x return on time invested)
+Target - Achieve ROI > 2 (2x return on time invested)
 ```
 
 If sprints consistently show poor ROI, simplify the format or reduce frequency. Some teams run one intensive sprint yearly; others run them monthly. Your cadence depends on how quickly your market/product evolves.
@@ -327,7 +327,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -339,7 +339,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

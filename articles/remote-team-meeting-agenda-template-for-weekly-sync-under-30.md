@@ -32,15 +32,15 @@ Table of Contents
 - [Practical Examples for Development Teams](#practical-examples-for-development-teams)
 - [Opening (2 min)](#opening-2-min)
 - [Status Round (8 min)](#status-round-8-min)
-- [Discussion: Blockers (5 min)](#discussion-blockers-5-min)
-- [Planning: Next Steps (8 min)](#planning-next-steps-8-min)
+- [Discussion - Blockers (5 min)](#discussion-blockers-5-min)
+- [Planning - Next Steps (8 min)](#planning-next-steps-8-min)
 - [Close (2 min)](#close-2-min)
 - [Tools That Support Efficient Weekly Syncs](#tools-that-support-efficient-weekly-syncs)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 - [Adapting the Template for Your Team](#adapting-the-template-for-your-team)
 - [Tools and Automation for Meeting Efficiency](#tools-and-automation-for-meeting-efficiency)
-- [Pre-Meeting Workflow: Template to Copy](#pre-meeting-workflow-template-to-copy)
-- [Real Meeting Example: Sprint Planning Variant](#real-meeting-example-sprint-planning-variant)
+- [Pre-Meeting Workflow - Template to Copy](#pre-meeting-workflow-template-to-copy)
+- [Real Meeting Example - Sprint Planning Variant](#real-meeting-example-sprint-planning-variant)
 - [1. Wins (2 min)](#1-wins-2-min)
 - [2. Blockers (4 min)](#2-blockers-4-min)
 - [3. This Sprint (5 min)](#3-this-sprint-5-min)
@@ -49,7 +49,7 @@ Table of Contents
 - [6. Action Items (2 min)](#6-action-items-2-min)
 - [Meeting Facilitation Checklist](#meeting-facilitation-checklist)
 - [Weekly Sync Facilitation Checklist](#weekly-sync-facilitation-checklist)
-- [Async-First Weekly Syncs: For Distributed Teams](#async-first-weekly-syncs-for-distributed-teams)
+- [Async-First Weekly Syncs - For Distributed Teams](#async-first-weekly-syncs-for-distributed-teams)
 - [Sprint Week N Summary](#sprint-week-n-summary)
 - [Scaling Meeting Templates as Team Grows](#scaling-meeting-templates-as-team-grows)
 - [Measuring Meeting Effectiveness](#measuring-meeting-effectiveness)
@@ -89,7 +89,7 @@ Weekly Team Sync Agenda
 - New action items assigned
 - Confirm next week's focus
 
-Total: 30 minutes
+Total - 30 minutes
 ```
 
 How to Implement This Template Effectively
@@ -126,14 +126,14 @@ Rotate the facilitator role each week. The facilitator's job is to keep the meet
 
 Practical Examples for Development Teams
 
-Example 1: Sprint-Aligned Weekly Sync
+Example 1 - Sprint-Aligned Weekly Sync
 
 For teams working in sprints, the weekly sync often falls at sprint boundaries:
 
 ```markdown
 Sprint Week N - Weekly Sync
 
-Day: Thursday | Time: 10:00 AM PT | Duration: 25 minutes
+Day - Thursday | Time: 10:00 AM PT | Duration: 25 minutes
 
 Opening (2 min)
 - Sprint goal reminder
@@ -143,11 +143,11 @@ Status Round (8 min)
 - Each person: 60 seconds max
 - Focus on: Progress, blockers, planned work
 
-Discussion: Blockers (5 min)
+Discussion - Blockers (5 min)
 - Prioritize top 3 blockers
 - Assign owners to resolve
 
-Planning: Next Steps (8 min)
+Planning - Next Steps (8 min)
 - Confirm priorities for rest of sprint
 - Identify dependencies
 
@@ -156,7 +156,7 @@ Close (2 min)
 - Kudos
 ```
 
-Example 2: Async-First Weekly Sync
+Example 2 - Async-First Weekly Sync
 
 For teams spanning multiple time zones, combine async updates with a shorter synchronous meeting:
 
@@ -213,9 +213,9 @@ The right tools dramatically improve meeting quality. Here's what high-functioni
 | Linear/GitHub Issues | Status visibility | Free-$10/person | Meeting pulls current status from project tool |
 | Notion + integration | Agenda templates | Free-$8/person | Reusable, distributed pre-meeting updates |
 
-Most teams find success with: Google Meet (video) + Slack threads (prep) + shared document (notes). This combination is free and covers 80% of needs.
+Most teams find success with - Google Meet (video) + Slack threads (prep) + shared document (notes). This combination is free and covers 80% of needs.
 
-Pre-Meeting Workflow: Template to Copy
+Pre-Meeting Workflow - Template to Copy
 
 Successful teams run this exact workflow every week:
 
@@ -240,7 +240,7 @@ Immediately after:
 
 This 3-day workflow means meetings are tight discussion, not information transfer.
 
-Real Meeting Example: Sprint Planning Variant
+Real Meeting Example - Sprint Planning Variant
 
 Here's an actual 30-minute weekly sync for a 5-person engineering team mid-sprint:
 
@@ -264,7 +264,7 @@ Friday 10:00 AM PT | 30 minutes | Facilitator: @alex
 → Identify potential : Taylor's refactor might slip; identify backup if needed
 
 4. Next Week Priorities (2 min)
-Confirm: Payment tests done? Auth refactor? Admin dashboard? Monitoring?
+Confirm - Payment tests done? Auth refactor? Admin dashboard? Monitoring?
 
 5. Decisions (3 min)
 "Should we delay auth refactor if payment tests pop?" → Consensus: Yes, payment is priority
@@ -317,7 +317,7 @@ Weekly Reflection (Friday)
 
 This checklist ensures consistency and prevents the slow decay where meetings start at 35 minutes, drift to 45, then become "not worth attending."
 
-Async-First Weekly Syncs: For Distributed Teams
+Async-First Weekly Syncs - For Distributed Teams
 
 Teams spanning 4+ time zones can skip synchronous meetings entirely. Here's the template:
 
@@ -344,10 +344,10 @@ Facilitator synthesizes in single summary post:
 ```
 Sprint Week N Summary
 
-Completed: [list]
-In Progress: [list]
-Blockers: [list with owner]
-Decisions Needed: [list]
+Completed - [list]
+In Progress - [list]
+Blockers - [list with owner]
+Decisions Needed - [list]
 ```
 
 Wednesday Optional Call (45 min):
@@ -369,7 +369,7 @@ Scaling Meeting Templates as Team Grows
 
 15+ people: Introduce management layer. Each team lead owns their team's 15-min sync; leads sync separately. All-hands monthly. This prevents "too many people, impossible to get through agenda."
 
-The core principle: as you scale, meetings don't get longer, they multiply. You add 15-min subteam syncs, not make the one meeting longer.
+The core principle - as you scale, meetings don't get longer, they multiply. You add 15-min subteam syncs, not make the one meeting longer.
 
 Measuring Meeting Effectiveness
 
@@ -383,7 +383,7 @@ Track these metrics to identify when your meeting format needs adjustment:
 | Blocker resolution rate | 70%+ resolved within week | Track blocker outcomes |
 | Team satisfaction | 4/5 or higher | Monthly 2-question survey |
 
-If participation drops below 80% or blocker resolution stalls, something's wrong with your format. Usually: meeting is too long (fatigue), agenda isn't clear (people unprepared), or blockers aren't real (people stopped bringing genuine issues).
+If participation drops below 80% or blocker resolution stalls, something's wrong with your format. Usually - meeting is too long (fatigue), agenda isn't clear (people unprepared), or blockers aren't real (people stopped bringing genuine issues).
 
 Frequently Asked Questions
 

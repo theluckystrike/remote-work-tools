@@ -114,9 +114,9 @@ Microphone Pickup Pattern
 
 The microphone's polar pattern determines where it captures sound:
 
-- Omnidirectional: Captures sound equally from all directions. Suitable for small rooms where participants sit around a table, but picks up more room noise.
-- Cardioid: Heart-shaped pattern most sensitive at the front. Rejects sound from sides and rear, reducing ambient noise.
-- Beamforming: Electronically steers focus toward active speakers. Most effective for medium rooms with multiple participants.
+- Omnidirectional - Captures sound equally from all directions. Suitable for small rooms where participants sit around a table, but picks up more room noise.
+- Cardioid - Heart-shaped pattern most sensitive at the front. Rejects sound from sides and rear, reducing ambient noise.
+- Beamforming - Electronically steers focus toward active speakers. Most effective for medium rooms with multiple participants.
 
 For hybrid meeting rooms, beamforming arrays or multiple cardioid microphones outperform omnidirectional alternatives.
 

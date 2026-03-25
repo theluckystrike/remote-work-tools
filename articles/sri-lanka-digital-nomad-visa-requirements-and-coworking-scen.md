@@ -193,7 +193,7 @@ Accommodation and Living Options
 
 Finding suitable accommodation is one of your first practical concerns. Sri Lanka has several well-established digital nomad neighborhoods offering furnished apartments with reliable internet.
 
-Colombo: The capital offers the most options for remote workers. Neighborhoods like Colombo 4, 5, and 7 have numerous furnished apartments with reliable WiFi.
+Colombo - The capital offers the most options for remote workers. Neighborhoods like Colombo 4, 5, and 7 have numerous furnished apartments with reliable WiFi.
 
 - Studio apartment: $350-600/month
 - 1-bedroom apartment: $500-900/month
@@ -206,14 +206,14 @@ Popular websites for finding accommodation:
 - Local Facebook groups: "Digital Nomads Sri Lanka" and "Expats in Colombo" have direct landlord listings at better rates
 - Colombo Rent: Local property site with extensive listings
 
-Kandy: The cultural heart of Sri Lanka offers a slower pace and lower costs:
+Kandy - The cultural heart of Sri Lanka offers a slower pace and lower costs:
 
 - Studio apartment: $250-400/month
 - 1-bedroom apartment: $350-600/month
 
 Better suited for developers wanting a quieter pace who can tolerate less infrastructure diversity.
 
-Galle and Beach Areas: Popular with nomads seeking work-life balance:
+Galle and Beach Areas - Popular with nomads seeking work-life balance:
 
 - Studio apartment: $300-500/month
 - Galle Fort apartments: Premium pricing ($600-1,000+) for location
@@ -276,7 +276,7 @@ Costs:
 - Dental cleaning: $20-40
 - Pharmacy medications: 30-50% cheaper than Western prices
 
-Insurance: International travel insurance (World Nomads, Allianz, SafetyWing) is highly recommended, $30-60/month for coverage. Some policies specifically exclude high-risk countries; verify Sri Lanka is covered.
+Insurance - International travel insurance (World Nomads, Allianz, SafetyWing) is highly recommended, $30-60/month for coverage. Some policies specifically exclude high-risk countries; verify Sri Lanka is covered.
 
 Travel insurance typically covers accidents and emergency medical treatment but not routine care. Consider supplemental local insurance if staying beyond 6 months.
 

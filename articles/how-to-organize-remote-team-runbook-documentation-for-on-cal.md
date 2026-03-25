@@ -65,7 +65,7 @@ Each runbook should follow a consistent template that engineers can rely on duri
 The Essential Template
 
 ```markdown
-Runbook: [Brief Description of Issue]
+Runbook - [Brief Description of Issue]
 
 Alert Indicators
 - Symptoms the on-call engineer will see
@@ -99,7 +99,7 @@ Avoid generic advice like "check the logs" without specifying which logs, where 
 Database Connection Pool Exhaustion
 
 ```markdown
-Runbook: Database Connection Pool Exhaustion
+Runbook - Database Connection Pool Exhaustion
 
 Alert Indicators
 - `ConnectionPoolTimeoutError` in application logs

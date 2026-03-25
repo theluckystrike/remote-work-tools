@@ -54,7 +54,7 @@ Key features for remote hiring:
 - Built-in candidate relationship management for maintaining talent pools across regions
 - DEI analytics that help ensure hiring practices are fair across different geographies
 
-Pricing: Starts at $75/user/month for the full suite.
+Pricing - Starts at $75/user/month for the full suite.
 
 2. Greenhouse
 
@@ -65,7 +65,7 @@ Key features for remote hiring:
 - Detailed reporting on hiring metrics across regions
 - Integration with over 500 tools including Slack, Zoom, and Google Meet
 
-Pricing: Starts at $50/user/month for the Core plan.
+Pricing - Starts at $50/user/month for the Core plan.
 
 3. Ashby
 
@@ -76,7 +76,7 @@ Key features for remote hiring:
 - Native Zoom and Google Meet integration for video interview management
 - Candidate portal that works beautifully on mobile for international candidates
 
-Pricing: Custom pricing, generally competitive with Greenhouse.
+Pricing - Custom pricing, generally competitive with Greenhouse.
 
 4. Workday (for enterprise remote hiring)
 
@@ -87,13 +87,13 @@ Key features for remote hiring:
 - Global workforce planning analytics
 - Integration with global payroll and HR systems
 
-Pricing: Enterprise pricing upon request.
+Pricing - Enterprise pricing upon request.
 
 Implementing an ATS for Multi-Country Remote Hiring
 
 Setting up your ATS correctly from the start prevents headaches later. Here's a practical implementation approach:
 
-Step 1: Configure Regional Settings
+Step 1 - Configure Regional Settings
 
 Most ATS platforms let you define hiring regions with specific compliance requirements:
 
@@ -118,7 +118,7 @@ Most ATS platforms let you define hiring regions with specific compliance requir
 }
 ```
 
-Step 2: Build Remote-Specific Scorecards
+Step 2 - Build Remote-Specific Scorecards
 
 Traditional interview scorecards focus on skills and culture fit. Remote hiring requires additional criteria:
 
@@ -127,7 +127,7 @@ Traditional interview scorecards focus on skills and culture fit. Remote hiring 
 - Timezone flexibility: Are they willing to overlap with core team hours?
 - Digital tool proficiency: Can they quickly adapt to new collaboration platforms?
 
-Step 3: Automate Timezone Handling
+Step 3 - Automate Timezone Handling
 
 Set up your interview scheduling to automatically convert times:
 
@@ -168,13 +168,13 @@ Video introductions and written response questions help evaluate remote candidat
 
 Common Mistakes to Avoid
 
-Mistake #1: Using the same scorecard for all roles
+Mistake #1 - Using the same scorecard for all roles
 Remote hiring for a senior engineer requires different criteria than hiring a customer support representative. Customize your evaluation frameworks.
 
-Mistake #2: Ignoring data residency laws
+Mistake #2 - Ignoring data residency laws
 Some countries restrict where candidate data can be stored. Ensure your ATS configuration respects these requirements.
 
-Mistake #3: Underinvesting in interviewer training
+Mistake #3 - Underinvesting in interviewer training
 Your ATS is only as good as the people using it. Invest in training hiring managers on conducting effective remote interviews.
 
 Making Your Decision
@@ -192,7 +192,7 @@ The right ATS transforms remote hiring from a logistical nightmare into a scalab
 Deep Pricing and Feature Comparison
 
 Lever TRM
-Pricing: $75-125/user/month (min 2 users)
+Pricing - $75-125/user/month (min 2 users)
 Total cost for typical 5-person recruiting team: $450-750/month
 
 Unique strengths:
@@ -201,11 +201,11 @@ Unique strengths:
 - Strong Slack integration for hiring pipeline updates
 - API for custom integrations ($10k+ for development)
 
-Implementation effort: 4-6 weeks for full multi-country setup
+Implementation effort - 4-6 weeks for full multi-country setup
 
 Greenhouse
-Pricing: $50/user/month (standard plan)
-Total cost for 5-person team: $250/month
+Pricing - $50/user/month (standard plan)
+Total cost for 5-person team - $250/month
 
 Unique strengths:
 - Structured interview methodology (training included)
@@ -213,11 +213,11 @@ Unique strengths:
 - Superior reporting dashboards
 - Best-in-class mobile candidate experience
 
-Implementation effort: 2-3 weeks for basic setup
+Implementation effort - 2-3 weeks for basic setup
 
 Ashby
-Pricing: Custom ($25-50/user/month typical)
-Total cost for 5-person team: $125-250/month
+Pricing - Custom ($25-50/user/month typical)
+Total cost for 5-person team - $125-250/month
 
 Unique strengths:
 - Modern interface (less "enterprise ugly")
@@ -225,11 +225,11 @@ Unique strengths:
 - Flexible interview kit system
 - Minimal required integrations (works well standalone)
 
-Implementation effort: 1-2 weeks
+Implementation effort - 1-2 weeks
 
 Workday
-Pricing: Enterprise (typically $10k+/month)
-Total cost: Depends on modules and scale
+Pricing - Enterprise (typically $10k+/month)
+Total cost - Depends on modules and scale
 
 Unique strengths:
 - Global workforce planning tools
@@ -237,7 +237,7 @@ Unique strengths:
 - Compliance across 80+ countries
 - Skills-based matching
 
-Implementation effort: 3-6 months (requires consultant support)
+Implementation effort - 3-6 months (requires consultant support)
 
 Remote-Specific ATS Features Comparison
 
@@ -415,21 +415,21 @@ if (video_submission.length > 5_minutes) {
 
 Common Configuration Mistakes
 
-Mistake #1: Over-Customizing Workflows
-Temptation: Create 10+ different hiring workflows for different roles
-Reality: Complexity kills adoption. Standardize on 2-3 core workflows, customize only when absolutely necessary.
+Mistake #1 - Over-Customizing Workflows
+Temptation - Create 10+ different hiring workflows for different roles
+Reality - Complexity kills adoption. Standardize on 2-3 core workflows, customize only when absolutely necessary.
 
-Mistake #2: Ignoring Candidate Experience
-Temptation: Focus on what hiring managers need
-Reality: Candidates who have poor ATS experience (confusing steps, broken mobile) are less likely to complete applications. A 10% improvement in completion rate adds 100+ candidates to your pipeline.
+Mistake #2 - Ignoring Candidate Experience
+Temptation - Focus on what hiring managers need
+Reality - Candidates who have poor ATS experience (confusing steps, broken mobile) are less likely to complete applications. A 10% improvement in completion rate adds 100+ candidates to your pipeline.
 
-Mistake #3: Manual Backup Systems
-Temptation: Keep Excel spreadsheets and email forwarding as "backup"
-Reality: Dual systems create inconsistency. Commit fully to your ATS or don't invest in it. Half-baked adoption wastes everyone's time.
+Mistake #3 - Manual Backup Systems
+Temptation - Keep Excel spreadsheets and email forwarding as "backup"
+Reality - Dual systems create inconsistency. Commit fully to your ATS or don't invest in it. Half-baked adoption wastes everyone's time.
 
-Mistake #4: Failing to Train Hiring Managers
-Temptation: ATS is intuitive, training is unnecessary
-Reality: Hiring managers will misuse scorecards, skip required fields, and complain the tool is broken. Invest 2 hours training + monthly office hours. ROI is massive.
+Mistake #4 - Failing to Train Hiring Managers
+Temptation - ATS is intuitive, training is unnecessary
+Reality - Hiring managers will misuse scorecards, skip required fields, and complain the tool is broken. Invest 2 hours training + monthly office hours. ROI is massive.
 
 Migration Strategy from Spreadsheets
 

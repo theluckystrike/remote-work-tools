@@ -143,7 +143,7 @@ async function createGrantPage(grantData, parentDatabaseId) {
 
 Open-Source Solutions for Full Control
 
-GRANTS Platform: Custom Implementation
+GRANTS Platform - Custom Implementation
 
 Organizations requiring complete data ownership can build custom solutions on open-source foundations. The following architecture demonstrates a Flask-based grant tracking API.
 
@@ -423,7 +423,7 @@ Automated compliance checking reduces manual review burden and prevents spending
 
 Audit trail capabilities satisfy donor requirements and protect organizational credibility.
 
-Integration ecosystem determines how easily your tracking system connects to accounting software, communication platforms, and donor management tools.
+Integration environment determines how easily your tracking system connects to accounting software, communication platforms, and donor management tools.
 
 For smaller organizations, purpose-built platforms like Airtable or Notion offer quick deployment with reasonable cost. Larger organizations or those with specific compliance requirements benefit from custom implementations using open-source foundations.
 

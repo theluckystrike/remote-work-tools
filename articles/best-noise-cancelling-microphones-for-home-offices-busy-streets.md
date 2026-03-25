@@ -18,16 +18,16 @@ Home offices near traffic, construction, or urban noise are notoriously bad for 
 
 Table of Contents
 
-- [The Noise Problem: Why Standard Mics Fail](#the-noise-problem-why-standard-mics-fail)
-- [Microphone Comparison: Tested in Noise](#microphone-comparison-tested-in-noise)
+- [The Noise Problem - Why Standard Mics Fail](#the-noise-problem-why-standard-mics-fail)
+- [Microphone Comparison - Tested in Noise](#microphone-comparison-tested-in-noise)
 - [Best for Different Noise Situations](#best-for-different-noise-situations)
 - [Mic Positioning Strategy for Noise Rejection](#mic-positioning-strategy-for-noise-rejection)
-- [Advanced Configuration: Software + Hardware](#advanced-configuration-software-hardware)
-- [Real-World Test: Busy Intersection Home Office](#real-world-test-busy-intersection-home-office)
+- [Advanced Configuration - Software + Hardware](#advanced-configuration-software-hardware)
+- [Real-World Test - Busy Intersection Home Office](#real-world-test-busy-intersection-home-office)
 - [Recommended Setup by Budget](#recommended-setup-by-budget)
 - [Final Recommendation by Noise Level](#final-recommendation-by-noise-level)
 
-The Noise Problem: Why Standard Mics Fail
+The Noise Problem - Why Standard Mics Fail
 
 Consumer USB microphones (like basic Blue Yeti or cheap condenser mics) pick up sound equally from all directions. Your voice + background noise get mixed at the same level. Software noise suppression then struggles: reduce the noise too much and your voice sounds robotic; leave it untouched and people complain about the jackhammer.
 
@@ -37,7 +37,7 @@ True noise-canceling microphones use one of three strategies:
 2. Dual-mic phasing - Two mics record simultaneously, phase-cancel ambient noise
 3. Active noise cancellation - Records ambient noise and inverts it to cancel (expensive, rare in mics)
 
-Microphone Comparison: Tested in Noise
+Microphone Comparison - Tested in Noise
 
 | Microphone | Type | Best For | Price | Noise Rejection |
 |-----------|------|----------|-------|-----------------|
@@ -53,7 +53,7 @@ Best for Different Noise Situations
 
 High Traffic Noise (Trucks, Highways)
 
-Winner: Rode Wireless GO II
+Winner - Rode Wireless GO II
 - Mounted to your chest/shirt (14 inches from mouth)
 - Proximity effect picks up only your voice
 - Active noise suppression in receiver
@@ -67,12 +67,12 @@ Test setup:
 - Without mic: Traffic very audible in background
 - With Rode GO II: Barely noticeable, voice clear
 
-Colleague feedback: "Truck passed by? Couldn't even tell on your end."
+Colleague feedback - "Truck passed by? Couldn't even tell on your end."
 ```
 
 Construction Noise (Drilling, Concrete Saws)
 
-Winner: Shure MV7
+Winner - Shure MV7
 - Hypercardioid pattern (tighter than cardioid)
 - Built-in mixer with noise-gate threshold control
 - Analog + USB (use analog if USB polling causes issues)
@@ -92,7 +92,7 @@ not distracting. Voice cuts through clearly.
 
 HVAC/Cooling System Noise
 
-Winner: Audio-Technica AT2020 USB+
+Winner - Audio-Technica AT2020 USB+
 - Switchable cardioid/omnidirectional patterns
 - USB + headphone monitoring
 - Natural, warm tone (less "compressed" than Blue Yeti)
@@ -105,13 +105,13 @@ HVAC test:
 - Cardioid pattern: Attenuates HVAC by ~15-20 dB
 - Speech remains at normal level
 
-Feedback from colleagues: "Your call is way clearer than last week.
-What changed?" (Answer: New mic + 6-inch positioning)
+Feedback from colleagues - "Your call is way clearer than last week.
+What changed?" (Answer - New mic + 6-inch positioning)
 ```
 
 Moderate Urban Ambience (Coffee Shop, Cafe Background)
 
-Winner: Blue Yeti (Budget) or Sennheiser Profile (Premium)
+Winner - Blue Yeti (Budget) or Sennheiser Profile (Premium)
 
 Blue Yeti ($99):
 - Omnidirectional option for natural sound, but
@@ -149,25 +149,25 @@ DO:                          DON'T:
 Real Positioning Test
 
 ```
-Setup: Shure MV7, traffic noise in background
+Setup - Shure MV7, traffic noise in background
 
-Position 1: 12 inches away, aimed at mouth
+Position 1 - 12 inches away, aimed at mouth
   → Traffic noise: Noticeable
   → Voice: Natural but with ambient hum
 
-Position 2: 6 inches away, slightly below mouth
+Position 2 - 6 inches away, slightly below mouth
   → Traffic noise: Barely audible
   → Voice: Excellent clarity, no proximity "boom"
 
-Position 3: 4 inches away, very close
+Position 3 - 4 inches away, very close
   → Traffic noise: Inaudible
   → Voice: Excellent but slight bass boost (plosive risk)
   → Use pop filter to prevent "puh puh" sounds
 
-Conclusion: 6 inches is the sweet spot.
+Conclusion - 6 inches is the sweet spot.
 ```
 
-Advanced Configuration: Software + Hardware
+Advanced Configuration - Software + Hardware
 
 The best setup combines hardware (directional mic) with software (noise gate, EQ).
 
@@ -200,9 +200,9 @@ Filters tab:
 
 Test result:
 ```
-Before: Jackhammer in background, variable voice volume
-After: Jackhammer inaudible, voice consistent and clear
-Colleague feedback: "Crystal clear. Can't hear the construction."
+Before - Jackhammer in background, variable voice volume
+After - Jackhammer inaudible, voice consistent and clear
+Colleague feedback - "Crystal clear. Can't hear the construction."
 ```
 
 Windows Built-in Noise Cancellation
@@ -226,18 +226,18 @@ Mac Built-in Noise Reduction
 System Preferences → Sound → Input
 → Enable "Reduce background noise" (Monterey+)
 
-Reality: Better than Windows but still insufficient for
+Reality - Better than Windows but still insufficient for
 heavy traffic. Combine with directional microphone.
 ```
 
-Real-World Test: Busy Intersection Home Office
+Real-World Test - Busy Intersection Home Office
 
 Setup:
 - Home office 3 stories up, window overlooking 6-lane intersection
 - Constant traffic 24/7, emergency sirens multiple times daily
 - Rush hour: 70-80 dB ambient noise
 
-Test matrix: Different mics, same environment
+Test matrix - Different mics, same environment
 
 ```
 Microphone         Rush Hour Result        Cost
@@ -251,10 +251,10 @@ Rode GO II        "Crystal clear"      $299
 
 Recommended Setup by Budget
 
-Budget ($50-150): Blue Yeti Nano + Software
+Budget ($50-150) - Blue Yeti Nano + Software
 
 ```
-Hardware: Blue Yeti Nano ($99)
+Hardware - Blue Yeti Nano ($99)
 - Set to cardioid pattern
 - Position 6 inches from mouth
 
@@ -263,13 +263,13 @@ Software (free):
 - Set to aggressive settings
 - Use for Zoom/Teams calls
 
-Cost: $99 total
-Effectiveness: ~60% noise reduction
-Best for: Moderate noise, light traffic
-Drawback: Still requires active concentration on mic positioning
+Cost - $99 total
+Effectiveness - ~60% noise reduction
+Best for - Moderate noise, light traffic
+Drawback - Still requires active concentration on mic positioning
 ```
 
-Midrange ($200-250): Audio-Technica AT2020 USB+ or Shure MV7
+Midrange ($200-250) - Audio-Technica AT2020 USB+ or Shure MV7
 
 ```
 Audio-Technica AT2020 USB+ ($199):
@@ -286,10 +286,10 @@ Shure MV7 ($249):
 + Automatic mic level control (leveler)
 - Slightly more expensive
 - Hypercardioid is less forgiving on positioning
-Best for: Moderate-to-heavy traffic
+Best for - Moderate-to-heavy traffic
 ```
 
-Premium ($300+): Rode Wireless GO II or Shure KSM8
+Premium ($300+) - Rode Wireless GO II or Shure KSM8
 
 ```
 Rode Wireless GO II ($299):
@@ -297,14 +297,14 @@ Rode Wireless GO II ($299):
 + Active noise suppression in receiver
 + Wireless freedom (works anywhere in house)
 + Pocket-sized receiver unit
-Best for: Heavy traffic, outdoor calls, mobility needed
+Best for - Heavy traffic, outdoor calls, mobility needed
 
 Shure KSM8 ($399+):
 + Professional studio quality
 + Requires external interface (Focusrite 2i2, etc.)
 + Best overall sound fidelity
 + Overkill for noise-canceling (better for sound quality)
-Best for: High-end setups, professional recording
+Best for - High-end setups, professional recording
 ```
 
 Final Recommendation by Noise Level

@@ -45,7 +45,7 @@ Table of Contents
 - [Common Operations](#common-operations)
 - [Troubleshooting](#troubleshooting)
 - [Monitoring](#monitoring)
-- [Habit Building: Integration with Daily Workflow](#habit-building-integration-with-daily-workflow)
+- [Habit Building - Integration with Daily Workflow](#habit-building-integration-with-daily-workflow)
 - [Measuring Wiki Adoption](#measuring-wiki-adoption)
 - [Scaling Documentation as Team Grows](#scaling-documentation-as-team-grows)
 - [Common Documentation Training Pitfalls](#common-documentation-training-pitfalls)
@@ -96,16 +96,16 @@ Structured Practice Assignments
 
 After the demo, give new hires practical tasks that mirror real documentation needs:
 
-Assignment 1: Document a Small Feature
+Assignment 1 - Document a Small Feature
 Ask them to write a brief page explaining a feature they recently worked on, including:
 - What the feature does
 - How to test it
 - Common pitfalls
 
-Assignment 2: Improve Existing Documentation
+Assignment 2 - Improve Existing Documentation
 Provide a link to an outdated or unclear page. Ask them to revise it using the team's templates and conventions.
 
-Assignment 3: Create a Runbook
+Assignment 3 - Create a Runbook
 If your team uses operational runbooks, have them document a simple process (like deploying a specific service or running a diagnostic command).
 
 Review their submissions and provide constructive feedback. This reinforces learning and catches bad habits early.
@@ -219,7 +219,7 @@ For New Hire Training
  - Reviewing submissions: 15-30 minutes per hire
  - Answering questions: 10-20 minutes
 
-Monthly cost: If onboarding 1 hire/month, team investment is ~2-3 hours
+Monthly cost - If onboarding 1 hire/month, team investment is ~2-3 hours
 
 For Existing Team Maintenance
 - Weekly time: 30-60 minutes total (distributed)
@@ -231,7 +231,7 @@ Content Strategy for Different Document Types
 
 Your wiki likely contains multiple document types. Train new hires on each:
 
-Type 1: How-To Guides
+Type 1 - How-To Guides
 ```markdown
 How to [Action]
 
@@ -245,15 +245,15 @@ Step-by-Step
 3. Verify step (how do you know it worked?)
 
 Troubleshooting
-If X happens: Try Y
+If X happens - Try Y
 
 ```
 
-Training for this type: Show by example, have hire write one
+Training for this type - Show by example, have hire write one
 
-Type 2: Architecture Decision Records (ADRs)
+Type 2 - Architecture Decision Records (ADRs)
 ```markdown
-ADR-[Number]: [Decision Title]
+ADR-[Number] - [Decision Title]
 
 Status
 Proposed/Accepted/Deprecated
@@ -272,9 +272,9 @@ Alternatives Considered
 - Alternative 2 and why we didn't choose it
 ```
 
-Training for this type: Show existing ADRs, discuss reasoning
+Training for this type - Show existing ADRs, discuss reasoning
 
-Type 3: Reference Documentation
+Type 3 - Reference Documentation
 ```markdown
 [System/Service] Reference
 
@@ -295,9 +295,9 @@ Monitoring
 Where to check health, key metrics to monitor
 ```
 
-Training for this type: Live demo, then walk through with hire
+Training for this type - Live demo, then walk through with hire
 
-Habit Building: Integration with Daily Workflow
+Habit Building - Integration with Daily Workflow
 
 Training only sticks if documentation becomes a daily habit. Integrate into workflow:
 
@@ -382,17 +382,17 @@ Team Size 25+
 
 Common Documentation Training Pitfalls
 
-Mistake 1: Over-structuring
-Too many templates creates friction. Solution: Start with 1-2 templates, add gradually.
+Mistake 1 - Over-structuring
+Too many templates creates friction. Solution - Start with 1-2 templates, add gradually.
 
-Mistake 2: "Write docs, then tell people"
-Documentation only works if people know it exists. Solution: Link docs from Slack, code comments, and onboarding.
+Mistake 2 - "Write docs, then tell people"
+Documentation only works if people know it exists. Solution - Link docs from Slack, code comments, and onboarding.
 
-Mistake 3: One-time training
-Training only sticks with repetition. Solution: Brief refresher monthly, model documentation behavior consistently.
+Mistake 3 - One-time training
+Training only sticks with repetition. Solution - Brief refresher monthly, model documentation behavior consistently.
 
-Mistake 4: Outdated documentation
-Stale docs destroy trust. Solution: Assign ownership, schedule quarterly audits, archive old content.
+Mistake 4 - Outdated documentation
+Stale docs destroy trust. Solution - Assign ownership, schedule quarterly audits, archive old content.
 
 Quick-Start Implementation
 
@@ -428,7 +428,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -440,7 +440,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

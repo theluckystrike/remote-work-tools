@@ -33,7 +33,7 @@ Core Challenges in Distributed Commission Management
 
 Distributed sales operations introduce complexity that breaks conventional commission systems. Each region may have different commission rates, payout schedules, and currency requirements. Sales reps closing deals in their local time need immediate visibility into earned commissions, while finance teams require consolidated reporting across all regions.
 
-The primary challenges include: currency conversion with accurate exchange rates, timezone-aware calculation triggers, multi-tier commission structures based on rep location or deal size, and compliance with varying international tax requirements. A well-designed commission tracking tool must address each of these while maintaining transparency for sales teams.
+The primary challenges include - currency conversion with accurate exchange rates, timezone-aware calculation triggers, multi-tier commission structures based on rep location or deal size, and compliance with varying international tax requirements. A well-designed commission tracking tool must address each of these while maintaining transparency for sales teams.
 
 Building the Data Model
 

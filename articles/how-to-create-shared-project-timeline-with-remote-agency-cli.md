@@ -19,10 +19,10 @@ Managing project timelines across distributed teams and external agencies presen
 Table of Contents
 
 - [Why CLI-Based Timelines Work for Remote Collaboration](#why-cli-based-timelines-work-for-remote-collaboration)
-- [Method 1: Using Taskwarrior with Export](#method-1-using-taskwarrior-with-export)
-- [Method 2: Markdown + Mermaid Diagrams](#method-2-markdown-mermaid-diagrams)
+- [Method 1 - Using Taskwarrior with Export](#method-1-using-taskwarrior-with-export)
+- [Method 2 - Markdown + Mermaid Diagrams](#method-2-markdown-mermaid-diagrams)
 - [Phase Overview](#phase-overview)
-- [Method 3: CSV Export from Spreadsheets](#method-3-csv-export-from-spreadsheets)
+- [Method 3 - CSV Export from Spreadsheets](#method-3-csv-export-from-spreadsheets)
 - [Handling Scope Changes and Timeline Updates](#handling-scope-changes-and-timeline-updates)
 - [Automating Weekly Status Reports](#automating-weekly-status-reports)
 - [Choosing the Right Method for Your Client](#choosing-the-right-method-for-your-client)
@@ -36,7 +36,7 @@ The primary benefit is reproducibility. When a timeline lives as code, you can r
 
 A secondary benefit is automation. A timeline defined as structured data. CSV, YAML, or Markdown. can feed into automated status reports, Slack notifications, or email digests without manual reformatting. The timeline becomes a single source of truth that drives communication rather than a document that needs to stay in sync with other documents.
 
-Method 1: Using Taskwarrior with Export
+Method 1 - Using Taskwarrior with Export
 
 Taskwarrior is a mature command-line task manager that supports detailed task attributes including due dates, dependencies, and tags. You can create a project timeline by defining tasks with appropriate start and due dates, then export them for client-facing reports.
 
@@ -81,7 +81,7 @@ task project:"Website Redesign" +client-facing list
 
 This outputs a clean table of tasks with due dates that reads naturally in any plain-text context.
 
-Method 2: Markdown + Mermaid Diagrams
+Method 2 - Markdown + Mermaid Diagrams
 
 Mermaid.js supports Gantt charts rendered from text definitions. This approach produces visual timelines that live in your project documentation and render in any Markdown-compatible viewer including GitHub and GitLab.
 
@@ -100,20 +100,20 @@ gantt
 
  section Discovery
 Requirements gathering:active, des1, 2026-03-16, 5d
-Stakeholder interviews: des2, after des1, 3d
+Stakeholder interviews - des2, after des1, 3d
 
  section Design
-Wireframes: des3, after des2, 7d
-Visual design: des4, after des3, 5d
+Wireframes - des3, after des2, 7d
+Visual design - des4, after des3, 5d
 Design review:crit, des5, after des4, 2d
 
  section Development
-Frontend build: dev1, after des5, 10d
-Backend integration: dev2, after dev1, 7d
-API development: dev3, parallel with dev1, 8d
+Frontend build - dev1, after des5, 10d
+Backend integration - dev2, after dev1, 7d
+API development - dev3, parallel with dev1, 8d
 
  section Launch
-UAT: test1, after dev2, 5d
+UAT - test1, after dev2, 5d
 Bug fixes:crit, test2, after test1, 3d
 Production deploy:milestone, 2026-05-20, 0d
 ```
@@ -122,7 +122,7 @@ The `crit` keyword marks critical path items, while `milestone` highlights key d
 
 Mermaid diagrams render natively in GitHub, GitLab, and Notion. If your client has access to a shared GitHub repository or Notion space, this approach requires zero additional tooling on their end. they just open the document and see the chart.
 
-Method 3: CSV Export from Spreadsheets
+Method 3 - CSV Export from Spreadsheets
 
 For agencies comfortable with spreadsheets, generate timelines from CSV data and convert them to client-friendly formats. This hybrid approach takes advantage of spreadsheet familiarity while producing shareable outputs.
 

@@ -79,7 +79,7 @@ Quarterly reviews require historical data. Look for tools that visualize feedbac
 
 Tool Comparison for Distributed Teams
 
-Lattice: Performance Management
+Lattice - Performance Management
 
 Lattice has emerged as a strong choice for distributed teams needing structured performance reviews. The platform offers goal-setting features, continuous feedback mechanisms, and detailed analytics.
 
@@ -194,12 +194,12 @@ print(f"Created pulse survey: {survey['id']}")
 
 15Five excels at gathering continuous feedback that feeds into quarterly reviews. The platform's sentiment analysis helps managers identify trends before they become problems.
 
-Culture Amp: Data-Driven People Analytics
+Culture Amp - Data-Driven People Analytics
 
 Culture Amp offers sophisticated analytics for teams that want to measure and improve performance over time. The platform is particularly strong for organizations that want to benchmark their feedback processes.
 
 ```yaml
-Culture Amp: Custom feedback cycle configuration
+Culture Amp - Custom feedback cycle configuration
 feedback_cycle:
   name: "Q1 2026 Engineering Performance Review"
   duration_weeks: 4
@@ -293,13 +293,13 @@ Implementation Best Practices
 
 Regardless of which tool you choose, successful async feedback collection requires thoughtful implementation:
 
-Set Clear Expectations: Define what good feedback looks like. Provide examples and training so team members know how to write constructive reviews.
+Set Clear Expectations - Define what good feedback looks like. Provide examples and training so team members know how to write constructive reviews.
 
-Establish Timeline Buffer: Build extra days into your quarterly cycle. Distributed teams need flexibility for different time zones and unexpected delays.
+Establish Timeline Buffer - Build extra days into your quarterly cycle. Distributed teams need flexibility for different time zones and unexpected delays.
 
-Combine Async and Sync: Use async feedback collection for the heavy lifting, then hold brief synchronous meetings to discuss themes and action items.
+Combine Async and Sync - Use async feedback collection for the heavy lifting, then hold brief synchronous meetings to discuss themes and action items.
 
-Follow Up Consistently: Feedback without follow-up becomes meaningless. Ensure managers schedule time to discuss feedback with their reports.
+Follow Up Consistently - Feedback without follow-up becomes meaningless. Ensure managers schedule time to discuss feedback with their reports.
 
 Making Your Selection
 
@@ -322,7 +322,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -334,7 +334,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

@@ -87,9 +87,9 @@ For incident communication, establish a convention that everyone follows:
 ```markdown
 Incident Update Template
 
-Incident ID: INC-2026-0315-001
-Current Status: Investigating / Identified / Monitoring / Resolved
-Severity: SEV1 / SEV2 / SEV3
+Incident ID - INC-2026-0315-001
+Current Status - Investigating / Identified / Monitoring / Resolved
+Severity - SEV1 / SEV2 / SEV3
 
 What Happened
 [Brief description of the issue]

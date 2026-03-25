@@ -32,14 +32,14 @@ Table of Contents
 - [Real-World Nomad Networking Templates](#real-world-nomad-networking-templates)
 - [Event Strategy by Type](#event-strategy-by-type)
 - [Building a Nomad Networking System](#building-a-nomad-networking-system)
-- [Advanced: Taking advantage of Nomad Networks for Opportunities](#advanced-taking-advantage-of-nomad-networks-for-opportunities)
+- [Advanced - Taking advantage of Nomad Networks for Opportunities](#advanced-taking-advantage-of-nomad-networks-for-opportunities)
 - [Networking Fatigue and Recovery](#networking-fatigue-and-recovery)
 
 Why Networking Changes When You Nomad
 
 Traditional networking assumes you stay in one location. You attend local meetups, build relationships over months, and rely on proximity. Nomad networking flips this model. You connect deeply with people quickly, then maintain those connections asynchronously across time zones.
 
-The key insight for 2026: your network becomes your anchor. While your physical location changes, your professional relationships travel with you. Treating networking as asynchronous, long-term relationship building rather than event-driven transactions works better for the nomad lifestyle.
+The key insight for 2026 - your network becomes your anchor. While your physical location changes, your professional relationships travel with you. Treating networking as asynchronous, long-term relationship building rather than event-driven transactions works better for the nomad lifestyle.
 
 Finding Networking Events While Traveling
 
@@ -236,7 +236,7 @@ This gives people context and permission to share their interests without pressu
 
 Post-event follow-up (within 24 hours):
 ```
-Subject: Great chatting at [Event Name]
+Subject - Great chatting at [Event Name]
 
 Hi [Name],
 
@@ -307,20 +307,20 @@ Annual strategy session:
 - What communities align with your goals?
 - How is your international network growing?
 
-Advanced: Taking advantage of Nomad Networks for Opportunities
+Advanced - Taking advantage of Nomad Networks for Opportunities
 
 After 6-12 months of consistent networking, your network becomes a business development asset:
 
-Pattern 1: Referral Pipeline
+Pattern 1 - Referral Pipeline
 People refer business to those they know, like, and trust. By being visible and helpful in communities, you become the first person people recommend for freelance work or partnerships.
 
-Pattern 2: Collaboration Opportunities
+Pattern 2 - Collaboration Opportunities
 Nomad networks help partnerships with complementary skills. A designer meets a developer, they collaborate on a product. These partnerships often exceed either person's individual capacity.
 
-Pattern 3: Knowledge Use
+Pattern 3 - Knowledge Use
 Your network becomes a personal advisory board. Face challenges? Ask your network. The diversity of perspectives solves problems faster than solo troubleshooting.
 
-Pattern 4: Market Intelligence
+Pattern 4 - Market Intelligence
 What are companies hiring for? Where are visa policy changes happening? Your network provides real-time market data better than any news source.
 
 To use these benefits, you must be a net giver first. Refer opportunities to others, share resources, make introductions without asking for anything in return. Over time, the reciprocity compounds.

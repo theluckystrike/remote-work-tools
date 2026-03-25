@@ -311,7 +311,7 @@ Noise Reduction for Remote Teams
 Error tracking is only useful if the team actually looks at it. Reduce noise:
 
 ```python
-Python: ignore expected errors
+Python - ignore expected errors
 sentry_sdk.init(
     dsn=os.environ["SENTRY_DSN"],
     ignore_errors=[
@@ -323,7 +323,7 @@ sentry_sdk.init(
 )
 
 Rate limit repeated errors
-In Sentry UI: Project Settings > Inbound Filters:
+In Sentry UI - Project Settings > Inbound Filters:
 - Enable "Filter known browser extensions errors"
 - Enable "Filter localhost errors"
 - Set rate limit per issue: 100/minute
@@ -353,7 +353,7 @@ SENTRY_TOKEN = os.environ["SENTRY_AUTH_TOKEN"]
 ORG = os.environ["SENTRY_ORG"]
 PROJECT = os.environ["SENTRY_PROJECT"]
 
-Error budget: 99.5% success rate = 0.5% allowed errors
+Error budget - 99.5% success rate = 0.5% allowed errors
 ERROR_BUDGET_PERCENT = 0.5
 
 def get_error_rate(hours=24):
@@ -402,13 +402,13 @@ For teams that don't want full PagerDuty overhead, Sentry's built-in alert rules
 
 ```yaml
 Sentry alert rules (configurable in Project Settings > Alerts)
-Rule 1: Critical errors. any new issue with >10 occurrences/hour
+Rule 1 - Critical errors. any new issue with >10 occurrences/hour
   Action: Notify #alerts-critical in Slack + email on-call engineer
 #
-Rule 2: Error spike. error rate increases 50% vs. last hour
+Rule 2 - Error spike. error rate increases 50% vs. last hour
   Action: Notify #alerts-ops in Slack
 #
-Rule 3: New error in production. any first-seen error
+Rule 3 - New error in production. any first-seen error
   Action: Notify #errors-review in Slack (low priority, review async)
 ```
 

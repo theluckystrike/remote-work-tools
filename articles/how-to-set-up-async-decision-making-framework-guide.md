@@ -65,7 +65,7 @@ Table of Contents
 - [Blockers + Changes](#blockers-changes)
 - [Post-Decision Learning](#post-decision-learning)
 - [Tools for Async Decision-Making](#tools-for-async-decision-making)
-- [Real-World Example: Switching Cloud Providers](#real-world-example-switching-cloud-providers)
+- [Real-World Example - Switching Cloud Providers](#real-world-example-switching-cloud-providers)
 - [Options](#options)
 - [Tradeoffs Table](#tradeoffs-table)
 - [Input from Data Science Team](#input-from-data-science-team)
@@ -75,7 +75,7 @@ Table of Contents
 - [Recommended Implementation Timeline](#recommended-implementation-timeline)
 - [Related Reading](#related-reading)
 
-Step 1: Clearly Define the Decision
+Step 1 - Clearly Define the Decision
 
 Not all decisions deserve async treatment. Only decisions that meet these criteria go through the framework:
 - Affects > 2 people or departments
@@ -83,12 +83,12 @@ Not all decisions deserve async treatment. Only decisions that meet these criter
 - Can be decided within 5 days
 - Reversible (can be changed with effort)
 
-For other decisions: use delegation, standing authority, or quick Slack polls.
+For other decisions - use delegation, standing authority, or quick Slack polls.
 
 Decision Definition Template:
 
 ```
-Title: [One-line summary]
+Title - [One-line summary]
 
 What decision needs to be made:
 [Specific decision, not vague discussion]
@@ -109,7 +109,7 @@ Who should weigh in:
 Real Example:
 
 ```
-Title: Migrate frontend from Vue 2 to Vue 3
+Title - Migrate frontend from Vue 2 to Vue 3
 
 What decision needs to be made:
 Should we upgrade from Vue 2 to Vue 3 by Q2 2026?
@@ -120,7 +120,7 @@ support through 2030. Upgrading requires ~120 hours across
 5 engineers (2 sprints of work).
 
 By when does this need to be decided:
-Hard deadline: March 31 (need April + May sprints to execute)
+Hard deadline - March 31 (need April + May sprints to execute)
 
 Who decides:
 Tech Lead (Jen), Engineering Manager (Marcus)
@@ -134,14 +134,14 @@ Who should weigh in:
 
 ---
 
-Step 2: Gather Information Asynchronously
+Step 2 - Gather Information Asynchronously
 
 Create a document with sections for information needed to make the decision.
 
 Information Gathering Document Template:
 
 ```
-Decision Doc: [Title]
+Decision Doc - [Title]
 
 1. Context & Problem Statement
 [Why this decision exists now]
@@ -179,7 +179,7 @@ Decision Doc: [Title]
 Real Example (Continuation):
 
 ```
-Decision Doc: Vue 2 to Vue 3 Migration
+Decision Doc - Vue 2 to Vue 3 Migration
 
 1. Context
 Vue 2 reaches EOL October 2026. Security updates will stop.
@@ -221,7 +221,7 @@ A: This is 2 full sprint impact. Product should plan accordingly.
 
 Q: Budget impact?
 A: Zero direct cost. Development cost is time (120 hours).
-Framework cost: Vue stays free.
+Framework cost - Vue stays free.
 
 7. Recommendation from Tech Lead
 "Recommend Option A (Q2). Every month of delay increases technical
@@ -231,7 +231,7 @@ debt and risk. Our latest features already use Vue 3 patterns."
 
 Frontend Team (3 engineers):
 "We've used Vue 3 in new projects. The upgrade is straightforward.
-One concern: our state management (Vuex) needs to be updated to Pinia."
+One concern - our state management (Vuex) needs to be updated to Pinia."
 
 DevOps:
 "CI/CD supports Vue 3. No infrastructure changes needed."
@@ -247,14 +247,14 @@ Timeline for Information Gathering:
 
 ---
 
-Step 3: Structured Input Period
+Step 3 - Structured Input Period
 
 Open the document for structured input. Set clear expectations.
 
 Input Guidelines:
 
 ```
-Input Period: March 15 - March 17 (3 days)
+Input Period - March 15 - March 17 (3 days)
 
 How to contribute:
 1. Read full document first
@@ -268,7 +268,7 @@ Comment format:
 - Link to external research if relevant
 - "[Sarah]: I'm seeing Vite builds 2x faster than Vue 3
    official docs claim. Should we test locally?
-   See: https://example.com/vite-benchmark"
+   See - https://example.com/vite-benchmark"
 
 DO NOT:
 - Change other people's sections without permission
@@ -293,7 +293,7 @@ in parallel or sequential with Vue 3 upgrade?
 Input from DevOps (Maria):
 
 [Maria]: I'll set up Vue 3 in dev/staging this week.
-Estimated deployment time: 1 hour (blue-green).
+Estimated deployment time - 1 hour (blue-green).
 No rollback complications.
 
 Input from Product (Kim):
@@ -313,19 +313,19 @@ Who Should Weigh In:
 
 ---
 
-Step 4: Decision + Rationale
+Step 4 - Decision + Rationale
 
 Decision maker reads input and makes a decision, with explicit reasoning.
 
 Decision Template:
 
 ```
-DECISION: [Title]
+DECISION - [Title]
 
-Decision: [Clear yes/no/modified choice]
+Decision - [Clear yes/no/modified choice]
 
-Decided By: [Name]
-Date: [Date]
+Decided By - [Name]
+Date - [Date]
 
 Key Reasoning:
 1. [First reason]
@@ -351,12 +351,12 @@ Reversibility:
 Real Example:
 
 ```
-DECISION: Vue 2 to Vue 3 Migration
+DECISION - Vue 2 to Vue 3 Migration
 
-Decision: Proceed with Option A (Q2 2026 migration)
+Decision - Proceed with Option A (Q2 2026 migration)
 
-Decided By: Jen (Tech Lead)
-Date: March 18, 2026
+Decided By - Jen (Tech Lead)
+Date - March 18, 2026
 
 Key Reasoning:
 1. Every month of delay increases risk of security issues
@@ -398,14 +398,14 @@ Yes. If we encounter critical issue, we can rollback within
 
 ---
 
-Step 5: Implementation + Learning
+Step 5 - Implementation + Learning
 
 Execute on the decision and track results.
 
 Tracking Template:
 
 ```
-Implementation Tracker: [Decision]
+Implementation Tracker - [Decision]
 
 Planned Actions
 - [ ] Action 1 (Owner, Due: Date)
@@ -413,8 +413,8 @@ Planned Actions
 - [ ] Action 3 (Owner, Due: Date)
 
 Progress (Updated weekly)
-Week 1: [Summary of progress]
-Week 2: [Summary of progress]
+Week 1 - [Summary of progress]
+Week 2 - [Summary of progress]
 
 Blockers + Changes
 If the decision is being changed or blocked, note here.
@@ -433,7 +433,7 @@ Tools for Async Decision-Making
 
 1. Google Docs / Notion
 
-Best For: Quick decisions, cross-functional teams
+Best For - Quick decisions, cross-functional teams
 
 Process:
 1. Tech Lead creates doc with decision template
@@ -464,7 +464,7 @@ Tool Setup:
 
 2. Notion + Database
 
-Best For: Teams wanting structured decision tracking
+Best For - Teams wanting structured decision tracking
 
 Process:
 1. Create "Decision" database with properties
@@ -493,7 +493,7 @@ Database Properties:
 
 3. Loom for Async Explanations
 
-Best For: Decisions requiring complex explanations
+Best For - Decisions requiring complex explanations
 
 Process:
 1. Create decision doc
@@ -522,7 +522,7 @@ When to Use:
 
 4. Slack Thread + Pinned Decision Summary
 
-Best For: Quick, low-stakes decisions
+Best For - Quick, low-stakes decisions
 
 Process:
 1. Post decision context in Slack thread
@@ -541,14 +541,14 @@ Process:
 
 ---
 
-Real-World Example: Switching Cloud Providers
+Real-World Example - Switching Cloud Providers
 
-Decision: Should we migrate from AWS to GCP?
+Decision - Should we migrate from AWS to GCP?
 
-Step 1: Define Decision
+Step 1 - Define Decision
 
 ```
-Title: Cloud Provider Migration: AWS to GCP
+Title - Cloud Provider Migration: AWS to GCP
 
 What decision needs to be made:
 Should we migrate from AWS to GCP by Q3 2026?
@@ -571,10 +571,10 @@ Who should weigh in:
 - Finance (actual cost estimates)
 ```
 
-Step 2: Information Gathering
+Step 2 - Information Gathering
 
 ```
-Decision Doc: AWS to GCP Migration
+Decision Doc - AWS to GCP Migration
 
 Options
 - Option A: Migrate everything by end of Q3 2026
@@ -601,7 +601,7 @@ in ~2-3 months. This is low-risk. Database migration is harder
 
 Input from Finance
 "Our current AWS spend: $600k/year
-GCP equivalent: $420k/year (30% savings)
+GCP equivalent - $420k/year (30% savings)
 - ML workloads: $310k → $100k (68% savings!)
 - Storage: $180k → $120k (33% savings)
 - Compute: $110k → $95k (14% savings)
@@ -611,13 +611,13 @@ Migration costs (one-time):
 - Tools + consulting = $20k
 - Total one-time: $95k
 
-Payback period: ~6-7 months"
+Payback period - ~6-7 months"
 ```
 
-Step 3: Input Period
+Step 3 - Input Period
 
 ```
-Input open: March 15-17
+Input open - March 15-17
 
 From Backend Team:
 "Half our services use AWS-specific features (DynamoDB,
@@ -633,18 +633,18 @@ From Finance (updated):
 demonstrate value before full commitment."
 ```
 
-Step 4: Decision
+Step 4 - Decision
 
 ```
-DECISION: AWS to GCP Migration
+DECISION - AWS to GCP Migration
 
-Decision: Option B (Phased approach)
-Phase 1: Migrate ML workloads to GCP (Q2 2026, 12 weeks)
-Phase 2: Evaluate, plan core infrastructure (Q3 2026)
-Phase 3: Conditional - full migration if Phase 1 successful (Q4 2026)
+Decision - Option B (Phased approach)
+Phase 1 - Migrate ML workloads to GCP (Q2 2026, 12 weeks)
+Phase 2 - Evaluate, plan core infrastructure (Q3 2026)
+Phase 3 - Conditional - full migration if Phase 1 successful (Q4 2026)
 
-Decided By: Robert (CTO)
-Date: March 18, 2026
+Decided By - Robert (CTO)
+Date - March 18, 2026
 
 Key Reasoning:
 1. ML cost savings ($110k/year) are too significant to ignore

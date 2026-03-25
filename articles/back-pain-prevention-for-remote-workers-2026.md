@@ -38,7 +38,7 @@ Understanding the Problem
 
 Developers are particularly vulnerable to back issues. The combination of prolonged sitting, poor posture during deep focus sessions, and inadequate break patterns creates a perfect storm for spinal stress. Research shows that sitting for more than 6 hours daily increases the risk of chronic back pain by over 40%.
 
-The good news: most back pain is preventable with the right setup and habits. You don't need expensive equipment, you need intentional design of your workspace and routines.
+The good news - most back pain is preventable with the right setup and habits. You don't need expensive equipment, you need intentional design of your workspace and routines.
 
 Ergonomic Setup Without Breaking the Bank
 
@@ -129,7 +129,7 @@ function back-reminder() {
     done
 }
 
-Run in background: back-reminder &
+Run in background - back-reminder &
 ```
 
 Git Hooks for Movement
@@ -180,7 +180,7 @@ Your back repairs itself during sleep. Remote workers often blur the line betwee
 - Sleeping on your side with a pillow between knees
 - 7-8 hours of sleep regardless of deadline pressure
 
-A quick win: set a hard stop time for all work activities. No code reviews after 8 PM. No Slack after 9 PM. Your spine needs consistent rest to recover from daily stress.
+A quick win - set a hard stop time for all work activities. No code reviews after 8 PM. No Slack after 9 PM. Your spine needs consistent rest to recover from daily stress.
 
 When to Seek Help
 
@@ -203,7 +203,7 @@ You don't need to spend hundreds of dollars. Start with these:
 4. Footrest ($20-40): Levels your posture if feet dangle
 5. Timer app: Any Pomodoro app works for movement tracking
 
-Total investment: under $200. Compare that to physical therapy costs.
+Total investment - under $200. Compare that to physical therapy costs.
 
 Build Your Prevention System
 
@@ -216,8 +216,8 @@ Desk Setup Troubleshooting Guide
 Many developers have "known" they had bad posture but haven't fixed it. Use this checklist to identify and fix specific issues:
 
 ```
-SYMPTOM: Neck pain / headaches
-Likely cause: Monitor too low or screen too far away
+SYMPTOM - Neck pain / headaches
+Likely cause - Monitor too low or screen too far away
 Fix:
   1. Monitor should be at eye level (top of screen at eye height)
   2. Arm's length away (about 24-30 inches)
@@ -225,8 +225,8 @@ Fix:
   4. For laptop: MUST use external keyboard + stand
      (laptop keyboard and screen together is spine-destroying)
 
-SYMPTOM: Lower back pain / SI joint pain
-Likely cause: Lumbar support inadequate or sitting too far back
+SYMPTOM - Lower back pain / SI joint pain
+Likely cause - Lumbar support inadequate or sitting too far back
 Fix:
   1. Ensure chair has adjustable lumbar support
   2. Test position: Small of back should have support (not floating)
@@ -234,8 +234,8 @@ Fix:
   4. Check sitting posture: Lean slightly forward (not reclined)
   5. Consider standing desk converter for 2-3 hours per day
 
-SYMPTOM: Shoulder / upper back pain
-Likely cause: Hunching due to poor arm positioning
+SYMPTOM - Shoulder / upper back pain
+Likely cause - Hunching due to poor arm positioning
 Fix:
   1. Elbows at 90 degrees when hands on keyboard
   2. Desk height: If elbows are >90 degrees, desk is too low
@@ -243,8 +243,8 @@ Fix:
   4. Keyboard height: Should be level with elbows
   5. External keyboard: If using laptop keyboard, you'll hunch
 
-SYMPTOM: Pain in wrists / carpal tunnel
-Likely cause: Wrist extension while typing
+SYMPTOM - Pain in wrists / carpal tunnel
+Likely cause - Wrist extension while typing
 Fix:
   1. Wrist rest: Typing with wrists extended (bent up) is bad
   2. Correct position: Wrist neutral or slightly extended down
@@ -252,8 +252,8 @@ Fix:
   4. Mouse position: Elbow level with mouse (not reaching down)
   5. Consider ergonomic keyboard (split or angled)
 
-SYMPTOM: Pain after long coding sessions (even with good setup)
-Likely cause: Accumulated stress, need movement breaks
+SYMPTOM - Pain after long coding sessions (even with good setup)
+Likely cause - Accumulated stress, need movement breaks
 Fix:
   1. Non-negotiable: Stand and stretch every 25 minutes
   2. Simple movements:
@@ -328,7 +328,7 @@ MINIMAL SETUP ($100-150)
 - Mouse: $20
 - Lumbar pillow: $25
 - Chair (decent used): Free-$50
-Total: ~$115 for functional workspace
+Total - ~$115 for functional workspace
 
 COMFORTABLE SETUP ($300-500)
 - Monitor arm: $100
@@ -336,7 +336,7 @@ COMFORTABLE SETUP ($300-500)
 - Vertical mouse: $50
 - Lumbar support chair: $150
 - Desk converter/riser: $50
-Total: ~$430 for very good workspace
+Total - ~$430 for very good workspace
 
 PROFESSIONAL SETUP ($800-1500)
 - Electric standing desk: $400-600
@@ -344,9 +344,9 @@ PROFESSIONAL SETUP ($800-1500)
 - Adjustable monitor arm: $150
 - Premium keyboard: $100-150
 - Premium mouse: $50
-Total: $1100-2200 for premium workspace
+Total - $1100-2200 for premium workspace
 
-ROI calculation: If back pain costs you $500+ in healthcare or productivity loss,
+ROI calculation - If back pain costs you $500+ in healthcare or productivity loss,
 even a $500 setup pays for itself. Most remote workers earning $100k+ should invest $400-600.
 ```
 
@@ -369,7 +369,7 @@ function hour_reset() {
     echo " Total time: 2 minutes"
 }
 
-Every 4 hours: longer break
+Every 4 hours - longer break
 function quad_reset() {
     echo "=== 4-Hour Deep Reset ==="
     echo "1. 10-minute walk"
@@ -380,7 +380,7 @@ function quad_reset() {
     echo " Total time: 15 minutes"
 }
 
-At end of day: recovery
+At end of day - recovery
 function end_of_day() {
     echo "=== End of Day Recovery ==="
     echo "Do NOT continue working with neck/back pain"

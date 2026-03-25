@@ -28,13 +28,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Certificate-Based VPN Authentication
+Step 1 - Understand Certificate-Based VPN Authentication
 
 Certificate-based authentication uses public key infrastructure (PKI) to verify client identity. Instead of sharing passwords, each remote worker receives an uniquely signed certificate. When the client connects, it presents this certificate, and the server validates it against a trusted certificate authority (CA).
 
 The security advantages are substantial. Certificates cannot be phished or brute-forced like passwords. You can set expiration dates, revoke compromised certificates instantly, and bind certificates to specific devices. For remote teams, this means you can provision access for contractors with short-lived certificates that expire automatically.
 
-Step 2: Build Your PKI Infrastructure
+Step 2 - Build Your PKI Infrastructure
 
 Before configuring VPN servers, you need a certificate authority. For most teams, a simple PKI using EasyRSA or a dedicated CA certificate works well.
 
@@ -65,7 +65,7 @@ Create server certificate signing request
 openssl req -new -key server.key -out server.csr \
   -subj "/C=US/ST=CA/O=YourCompany/CN=vpn.yourcompany.com"
 
-Sign with CA (note: create server.ext for extended key usage)
+Sign with CA (note - create server.ext for extended key usage)
 echo "subjectAltName=DNS:vpn.yourcompany.com" > server.ext
 openssl x509 -req -days 825 -in server.csr -CA ca.crt -CAkey ca.key \
   -CAcreateserial -out server.crt -extfile server.ext
@@ -90,7 +90,7 @@ openssl x509 -req -days 825 -in employee.csr -CA ca.crt -CAkey ca.key \
 
 For production deployments, consider shorter validity periods, 90 to 180 days for client certificates balances security with operational overhead.
 
-Step 3: OpenVPN Certificate Authentication Configuration
+Step 3 - OpenVPN Certificate Authentication Configuration
 
 OpenVPN has native certificate authentication support. The server configuration validates client certificates against your CA.
 
@@ -144,7 +144,7 @@ cipher AES-256-GCM
 
 Distribute these configuration files securely, consider using a secrets management system rather than email.
 
-Step 4: WireGuard Certificate Configuration
+Step 4 - WireGuard Certificate Configuration
 
 WireGuard uses a different model based on pre-shared keys, but you can integrate it with certificate authentication through external validation or by treating WireGuard keys as certificates in your PKI workflow.
 
@@ -200,7 +200,7 @@ if __name__ == '__main__':
 
 Integrate this with your connection orchestration layer to validate certificates before establishing WireGuard tunnels.
 
-Step 5: Manage Certificate Lifecycle
+Step 5 - Manage Certificate Lifecycle
 
 Certificate-based authentication requires ongoing management. Establish processes for issuance, renewal, and revocation.
 

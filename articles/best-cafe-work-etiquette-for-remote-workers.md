@@ -24,7 +24,7 @@ Table of Contents
 - [Communicating Professionally](#communicating-professionally)
 - [Respecting the Space](#respecting-the-space)
 - [Building Long-Term Relationships](#building-long-term-relationships)
-- [Practical Example: A Cafe Work Session](#practical-example-a-cafe-work-session)
+- [Practical Example - A Cafe Work Session](#practical-example-a-cafe-work-session)
 - [Troubleshooting Common Issues](#troubleshooting-common-issues)
 - [Cafe Fitness Assessment Checklist](#cafe-fitness-assessment-checklist)
 - [Technical Requirements](#technical-requirements)
@@ -47,7 +47,7 @@ Understanding the Cafe Work Agreement
 
 Every cafe that welcomes remote workers operates on an implicit social contract. You consume products, occupy space for extended periods, and use resources (Wi-Fi, power) that benefit their business model. Understanding this exchange forms the foundation of good cafe etiquette.
 
-The key principle is simple: be a customer first, worker second. Your laptop time should generate revenue for the establishment through repeated purchases. A typical arrangement involves purchasing a drink every 60-90 minutes or ordering food during meal times. This isn't just polite, it's what keeps cafes receptive to remote workers.
+The key principle is simple - be a customer first, worker second. Your laptop time should generate revenue for the establishment through repeated purchases. A typical arrangement involves purchasing a drink every 60-90 minutes or ordering food during meal times. This isn't just polite, it's what keeps cafes receptive to remote workers.
 
 Before settling into a session, observe the cafe's culture. Some establishments embrace remote workers; others tolerate them; a few actively discourage laptop use during peak hours. Watch for signs, ask staff about their policy, and read the room accordingly.
 
@@ -97,7 +97,7 @@ def check_connection():
     download = st.download() / 1_000_000  # Mbps
     upload = st.upload() / 1_000_000
 
-    print(f"Speed: ↓{download:.1f} Mbps  ↑{upload:.1f} Mbps")
+    print(f"Speed - ↓{download:.1f} Mbps  ↑{upload:.1f} Mbps")
 
     # Minimum thresholds for productive work
     if download < 5:
@@ -114,7 +114,7 @@ if __name__ == "__main__":
     check_connection()
 ```
 
-Always have a backup plan: offline work capability, mobile hotspot, or a nearby co-working space as an alternative.
+Always have a backup plan - offline work capability, mobile hotspot, or a nearby co-working space as an alternative.
 
 Power Management Strategies
 
@@ -178,7 +178,7 @@ Understanding when you've overstayed maintains your welcome:
 - Notice staff behavior, repeated glances may indicate it's time
 - If asked to order more, comply or wrap up gracefully
 
-Practical Example: A Cafe Work Session
+Practical Example - A Cafe Work Session
 
 Here's how a well-prepared cafe work session looks in practice:
 
@@ -319,7 +319,7 @@ When Asked to Move or Order More
 
 Stay positive. Say "Absolutely, let me order more" or "No problem, I'll find another spot." Your response affects how cafes view all remote workers. Complying gracefully maintains the implicit agreement that lets remote workers use cafe space.
 
-Remember: the cafe is running a business. Your 4-hour presence needs to generate revenue, either directly through purchases or indirectly through the vibe you create.
+Remember - the cafe is running a business. Your 4-hour presence needs to generate revenue, either directly through purchases or indirectly through the vibe you create.
 
 Building Cafe Relationships
 

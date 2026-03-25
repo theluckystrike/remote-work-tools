@@ -23,7 +23,7 @@ The Core Channel Hierarchy
 
 At 75 employees, you need a clear hierarchy that separates concerns without creating friction. The recommended structure uses four tiers: company-wide, departmental, project-based, and temporary channels.
 
-Tier 1: Company-Wide Channels
+Tier 1 - Company-Wide Channels
 
 These channels reach everyone and handle organization-level communication:
 
@@ -35,9 +35,9 @@ These channels reach everyone and handle organization-level communication:
 #random           - Off-topic fun, memes, pet photos
 ```
 
-The key principle here: keep company-wide channels lean. Only posts that genuinely affect everyone belong in these spaces. At 75 people, #general can quickly become unmanageable if every small interaction happens there.
+The key principle here - keep company-wide channels lean. Only posts that genuinely affect everyone belong in these spaces. At 75 people, #general can quickly become unmanageable if every small interaction happens there.
 
-Tier 2: Departmental Channels
+Tier 2 - Departmental Channels
 
 Create channels for each major team with the prefix `dept-`:
 
@@ -52,7 +52,7 @@ Create channels for each major team with the prefix `dept-`:
 
 Each departmental channel should have an owner responsible for keeping the channel focused. Department leads often rotate as the channel admin.
 
-Tier 3: Project and Squad Channels
+Tier 3 - Project and Squad Channels
 
 For cross-functional work, create project channels with clear naming:
 
@@ -65,7 +65,7 @@ For cross-functional work, create project channels with clear naming:
 
 Use the `proj-` prefix for time-bound projects with a clear end date, and `squad-` for ongoing team spaces.
 
-Tier 4: Temporary Channels
+Tier 4 - Temporary Channels
 
 Create channels for events, initiatives, or short-term needs:
 
@@ -113,8 +113,8 @@ Channel Automation with Slack Workflows
 Create standard workflows for common channel operations:
 
 ```yaml
-Workflow: New Project Channel Request
-Trigger: Form submission
+Workflow - New Project Channel Request
+Trigger - Form submission
 Steps:
 1. Validate request (is the name correct format?)
 2. Create channel with appropriate prefix
@@ -207,11 +207,11 @@ With 75 employees, you likely span multiple time zones. Structure channels to su
 ```markdown
 Async Communication Template
 
-Question: [Clear, specific question]
-Context: [Background needed to answer]
-Already tried: [What you've already checked]
-Need: [What you need from the team]
-By when: [When you need an answer]
+Question - [Clear, specific question]
+Context - [Background needed to answer]
+Already tried - [What you've already checked]
+Need - [What you need from the team]
+By when - [When you need an answer]
 ```
 
 Practical Examples
@@ -229,7 +229,7 @@ Starting a New Project Channel
 Incident Response Channel
 
 ```bash
-Naming: #inc-<service>-<date>
+Naming - #inc-<service>-<date>
 #inc-database-2026-03-16
 
 Structure:

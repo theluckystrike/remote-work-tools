@@ -30,10 +30,10 @@ Table of Contents
 - [Post-Hackathon Follow-Up](#post-hackathon-follow-up)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Detailed Schedule for 48-Hour Remote Hackathon](#detailed-schedule-for-48-hour-remote-hackathon)
-- [Mandatory Rest Period: Hour 24-32](#mandatory-rest-period-hour-24-32)
+- [Mandatory Rest Period - Hour 24-32](#mandatory-rest-period-hour-24-32)
 - [Pre-Hackathon Preparation Checklist](#pre-hackathon-preparation-checklist)
 - [Technical Infrastructure Automation](#technical-infrastructure-automation)
-- [Advanced: Multi-Track Hackathons](#advanced-multi-track-hackathons)
+- [Advanced - Multi-Track Hackathons](#advanced-multi-track-hackathons)
 - [Post-Hackathon Project Sustainability](#post-hackathon-project-sustainability)
 - [Post-Hackathon Triage](#post-hackathon-triage)
 - [Remote Hackathon Success Metrics](#remote-hackathon-success-metrics)
@@ -279,7 +279,7 @@ Detailed Schedule for 48-Hour Remote Hackathon
 
 Here's a concrete schedule accounting for distributed teams across US, Europe, and Asia:
 
-Hour 0-2: Kickoff Phase (Friday 4 PM UTC)
+Hour 0-2 - Kickoff Phase (Friday 4 PM UTC)
 Friday 4-5 PM UTC / Friday 9 AM-10 AM PST / Friday 12 PM-1 PM EST / Saturday 12 AM-1 AM JST
 
 - 4:00-4:15 PM: Logistics update (venue, emergency contact, schedule)
@@ -292,27 +292,27 @@ For Asia-based participants (starting Saturday midnight), provide:
 - Recorded keynote
 - Async team formation in dedicated Slack channel
 
-Hour 2-8: Initial Development Sprint
+Hour 2-8 - Initial Development Sprint
 
 - 6:00-7:00 PM: Team setup, environment testing, first commits
 - 7:00-8:00 PM: First standup (brief, async in #hackathon-standups)
 - 8:00 PM-2 AM: Deep work block (no interruptions unless help requested)
 
-Hour 8-12: Mid-Point Check
+Hour 8-12 - Mid-Point Check
 
 - 2:00-3:00 AM UTC: Asia sunrise standup (recorded for async teams)
 - Rest of day: Focused development with asynchronous support available
 
-Hour 24-32: Rest Period
+Hour 24-32 - Rest Period
 
 This is non-negotiable for distributed teams:
 
 ```markdown
-Mandatory Rest Period: Hour 24-32
+Mandatory Rest Period - Hour 24-32
 
 Everyone must disconnect for this period. No coding, no Slack, no competition.
 
-Why: Exhausted developers write bad code. This period prevents burnout and maintains event quality.
+Why - Exhausted developers write bad code. This period prevents burnout and maintains event quality.
 
 Alternative activities:
 - Sleep (primary recommendation)
@@ -320,17 +320,17 @@ Alternative activities:
 - Meals with team (optional)
 - Non-hackathon conversations in #hackathon-social
 
-Resume time: Saturday 8 AM UTC (hour 32)
+Resume time - Saturday 8 AM UTC (hour 32)
 ```
 
-Hour 32-46: Final Development Push
+Hour 32-46 - Final Development Push
 
 - 8 AM UTC Saturday: Standup, stretch, final sprint planning
 - 8 AM-6 PM UTC: Final development window
 - 6 PM UTC: Feature freeze declared (no new code, only bug fixes)
 - 6 PM-8 PM UTC: Documentation and demo prep
 
-Hour 46-48: Demo and Judging
+Hour 46-48 - Demo and Judging
 
 - 8 PM-8:30 PM UTC: All teams submit pre-recorded 5-minute demos (required due to timezone spread)
 - 8:30-10 PM UTC: Live Q&A with judges (recorded for async participants)
@@ -395,20 +395,20 @@ echo " Questions? Post in #hackathon-help"
 
 Commit this to the starter repository. One command gets developers coding.
 
-Advanced: Multi-Track Hackathons
+Advanced - Multi-Track Hackathons
 
 For large teams (50+ developers), consider parallel tracks to avoid overcrowding:
 
-Track 1: Feature Development
+Track 1 - Feature Development
 Build new user-facing features. Emphasis on product value.
 
-Track 2: Infrastructure
+Track 2 - Infrastructure
 Improve developer experience, deployment pipelines, monitoring. Emphasis on system impact.
 
-Track 3: Experimental
+Track 3 - Experimental
 Creative explorations, new technologies, "blue sky" thinking. Emphasis on innovation.
 
-Track 4: Community
+Track 4 - Community
 Integration improvements, documentation, developer tooling. Emphasis on external value.
 
 Announce track structure at kickoff. Developers choose their track based on interest. Judging happens within tracks, then a "best overall" winner is selected.
@@ -427,8 +427,8 @@ Post-Hackathon Triage
 For each project, determine:
 
 1. Status: Shipped, Prototype, Abandoned
-2. Owner: Who will maintain this?
-3. Timeline: When does it ship, or when is it archived?
+2. Owner - Who will maintain this?
+3. Timeline - When does it ship, or when is it archived?
 
 Shipped Projects
 - Move code to main repository
@@ -480,20 +480,20 @@ Share these metrics in the post-hackathon summary. Teams appreciate transparency
 
 Handling Common Remote Hackathon Issues
 
-Issue: Teams Stuck on Environment Setup
-Solution: Pre-run the setup.sh script yourself. When someone reports issues, you've already diagnosed the problem.
+Issue - Teams Stuck on Environment Setup
+Solution - Pre-run the setup.sh script yourself. When someone reports issues, you've already diagnosed the problem.
 
-Issue: Timezone Fatigue
-Solution: The mandatory rest period isn't optional. Also, schedule standups at different times. Asian teams shouldn't always wake up at 2 AM for updates.
+Issue - Timezone Fatigue
+Solution - The mandatory rest period isn't optional. Also, schedule standups at different times. Asian teams shouldn't always wake up at 2 AM for updates.
 
-Issue: Uneven Skill Distribution
-Solution: Assign mentors strategically. If one team has 3 seniors and one junior, pair them with a mentoring-focused challenge instead.
+Issue - Uneven Skill Distribution
+Solution - Assign mentors strategically. If one team has 3 seniors and one junior, pair them with a mentoring-focused challenge instead.
 
-Issue: Judges Can't Evaluate All Projects Fairly
-Solution: Use pre-recorded demos. Judges watch on their own schedule, removing timezone bias. Add written rubrics so scoring is consistent.
+Issue - Judges Can't Evaluate All Projects Fairly
+Solution - Use pre-recorded demos. Judges watch on their own schedule, removing timezone bias. Add written rubrics so scoring is consistent.
 
-Issue: Burnout Instead of Energy
-Solution: Cap work hours at 30 actual coding hours per person (spread over 48-hour period with breaks). This prevents the all-nighter culture that destroys morale.
+Issue - Burnout Instead of Energy
+Solution - Cap work hours at 30 actual coding hours per person (spread over 48-hour period with breaks). This prevents the all-nighter culture that destroys morale.
 ---
 
 

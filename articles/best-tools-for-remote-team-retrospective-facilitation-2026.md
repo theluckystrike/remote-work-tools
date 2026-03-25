@@ -21,10 +21,10 @@ Retrospectives are harder in distributed teams. Without shared physical space, y
 Table of Contents
 
 - [The Retrospective Fundamentals](#the-retrospective-fundamentals)
-- [RetroTool: Lightweight Async-First](#retrotool-lightweight-async-first)
-- [EasyRetro: Simplicity with Live Facilitation](#easyretro-simplicity-with-live-facilitation)
-- [Parabol: Structured Meetings with Async Fallback](#parabol-structured-meetings-with-async-fallback)
-- [Miro: Visual Collaboration with Whiteboard Feel](#miro-visual-collaboration-with-whiteboard-feel)
+- [RetroTool - Lightweight Async-First](#retrotool-lightweight-async-first)
+- [EasyRetro - Simplicity with Live Facilitation](#easyretro-simplicity-with-live-facilitation)
+- [Parabol - Structured Meetings with Async Fallback](#parabol-structured-meetings-with-async-fallback)
+- [Miro - Visual Collaboration with Whiteboard Feel](#miro-visual-collaboration-with-whiteboard-feel)
 - [Detailed Tool Comparison](#detailed-tool-comparison)
 - [Choosing the Right Tool for Your Team](#choosing-the-right-tool-for-your-team)
 - [Running Effective Async Retrospectives](#running-effective-async-retrospectives)
@@ -43,11 +43,11 @@ Remote retrospectives struggle with psychological safety because text-based inpu
 
 The best retrospective tools address these challenges head-on.
 
-RetroTool: Lightweight Async-First
+RetroTool - Lightweight Async-First
 
-Pricing: Free tier with unlimited retros and 5 retro templates. $8/month per user for advanced templates and integrations.
+Pricing - Free tier with unlimited retros and 5 retro templates. $8/month per user for advanced templates and integrations.
 
-Best for: Distributed teams that prefer async-first retrospectives with later live discussion.
+Best for - Distributed teams that prefer async-first retrospectives with later live discussion.
 
 Strengths:
 
@@ -71,18 +71,18 @@ Real Example:
 
 A distributed team using RetroTool for a 2-week sprint:
 
-Day 1: Facilitator creates retro with standard template, sends Slack notification.
-Days 2-3: Team members async-add responses. Facilitator reads daily and groups themes.
-Day 4: Live meeting (30 min instead of 90). Team discusses top themes, votes on action items. Notes what didn't change from last retro (learning about what doesn't stick).
-Day 5: Facilitator creates Jira tickets for action items, posts summary to Slack.
+Day 1 - Facilitator creates retro with standard template, sends Slack notification.
+Days 2-3 - Team members async-add responses. Facilitator reads daily and groups themes.
+Day 4 - Live meeting (30 min instead of 90). Team discusses top themes, votes on action items. Notes what didn't change from last retro (learning about what doesn't stick).
+Day 5 - Facilitator creates Jira tickets for action items, posts summary to Slack.
 
 This cadence works well for distributed teams. The async phase accommodates time zones; the live meeting is focused.
 
-EasyRetro: Simplicity with Live Facilitation
+EasyRetro - Simplicity with Live Facilitation
 
-Pricing: Free with basic features, unlimited retros. Pro tier $4/user/month for integrations and priority support.
+Pricing - Free with basic features, unlimited retros. Pro tier $4/user/month for integrations and priority support.
 
-Best for: Teams that want live facilitation with simple, guided templates.
+Best for - Teams that want live facilitation with simple, guided templates.
 
 Strengths:
 
@@ -106,7 +106,7 @@ Real Example:
 
 A team with reasonable timezone overlap (all within 4 hours) using EasyRetro:
 
-Meeting time: Tuesday 3pm UTC (covers 10am-7pm across team).
+Meeting time - Tuesday 3pm UTC (covers 10am-7pm across team).
 Facilitator starts EasyRetro, kicks off "What went well" section.
 Team has 8 minutes to add sticky notes. Facilitator reads aloud notable ones.
 Team votes on top items.
@@ -117,11 +117,11 @@ Session ends; all done in 45 minutes.
 
 For teams with tight timezone overlap, EasyRetro's guided live format works very well.
 
-Parabol: Structured Meetings with Async Fallback
+Parabol - Structured Meetings with Async Fallback
 
-Pricing: Free tier with unlimited retros and core features. Team tier $5/user/month for action item tracking and integrations. Enterprise custom pricing.
+Pricing - Free tier with unlimited retros and core features. Team tier $5/user/month for action item tracking and integrations. Enterprise custom pricing.
 
-Best for: Teams that value structure, async options, and integrations with Jira and GitHub.
+Best for - Teams that value structure, async options, and integrations with Jira and GitHub.
 
 Strengths:
 
@@ -147,17 +147,17 @@ Real Example:
 
 A global distributed team using Parabol hybrid:
 
-Monday: Check-in async. Team members answer three questions. Parabol sends Slack reminders.
-Tuesday: Retro live meeting. Facilitator walks through phases: Celebrate, Reflect, Decide. For each phase, sticky notes appear live on screen. Voting narrows down top items. Decisions are immediately marked as action items and linked to Jira.
-Wednesday: Facilitator posts summary to Slack with Jira ticket links. Team can see what came from the retro immediately.
+Monday - Check-in async. Team members answer three questions. Parabol sends Slack reminders.
+Tuesday - Retro live meeting. Facilitator walks through phases: Celebrate, Reflect, Decide. For each phase, sticky notes appear live on screen. Voting narrows down top items. Decisions are immediately marked as action items and linked to Jira.
+Wednesday - Facilitator posts summary to Slack with Jira ticket links. Team can see what came from the retro immediately.
 
 For teams that want accountability and integration with bug-tracking systems, Parabol delivers.
 
-Miro: Visual Collaboration with Whiteboard Feel
+Miro - Visual Collaboration with Whiteboard Feel
 
-Pricing: Free tier limited retros and editing. Team tier $8/user/month for unlimited sessions and features.
+Pricing - Free tier limited retros and editing. Team tier $8/user/month for unlimited sessions and features.
 
-Best for: Visual thinkers, teams that like whiteboard-style brainstorming, creative retrospectives.
+Best for - Visual thinkers, teams that like whiteboard-style brainstorming, creative retrospectives.
 
 Strengths:
 
@@ -254,23 +254,23 @@ Running Effective Async Retrospectives
 
 If your team is distributed across many time zones, async is necessary. Here's how to run effective async retros:
 
-Phase 1: Submission (24 hours)
+Phase 1 - Submission (24 hours)
 
 Post the retro prompt. Team members add thoughts to sticky notes. Set a deadline 24 hours away.
 
 Encourage specific examples. "What went well" with a specific project or customer interaction, not vague generalizations.
 
-Phase 2: Clustering (4 hours after deadline)
+Phase 2 - Clustering (4 hours after deadline)
 
 Facilitator reads all submissions and groups similar themes. This saves everyone time during the live discussion.
 
 Post the clustered view with a note: "I grouped 8 similar points about communication delays. Here's the cluster."
 
-Phase 3: Voting (12 hours)
+Phase 3 - Voting (12 hours)
 
 Team members vote on which clusters matter most. If you have 20 items, voting narrows to the 5-8 that the team cares about.
 
-Phase 4: Live Discussion (1 hour live meeting)
+Phase 4 - Live Discussion (1 hour live meeting)
 
 Walk through top voted items. Discuss why they happened. Identify action items. Decide on next steps.
 
@@ -278,9 +278,9 @@ This approach respects time zones while keeping meetings focused. The live discu
 
 Implementing Action Items from Retrospectives
 
-The biggest failure mode: retrospectives generate insights, but nothing changes. Here's how to ensure follow-through:
+The biggest failure mode - retrospectives generate insights, but nothing changes. Here's how to ensure follow-through:
 
-1. Make action items specific. Not "improve communication." Instead: "Daily 5-min async standup starting Monday, using Slack threads."
+1. Make action items specific. Not "improve communication." Instead - "Daily 5-min async standup starting Monday, using Slack threads."
 
 2. Assign owners. Every action item needs one person responsible. Without ownership, items get lost.
 
@@ -288,7 +288,7 @@ The biggest failure mode: retrospectives generate insights, but nothing changes.
 
 4. Link to Jira tickets. If it's work, it needs a tracking ticket. This integrates retrospectives with your actual workflow.
 
-5. Review in next retro. Ask: "Did we do the action items from last retro? What changed?" This shows retrospectives drive real change.
+5. Review in next retro. Ask - "Did we do the action items from last retro? What changed?" This shows retrospectives drive real change.
 
 6. Communicate results. Post the final retro summary somewhere visible. Share action items with the broader team if relevant.
 

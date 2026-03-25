@@ -59,11 +59,11 @@ Timing matters more than wording. Asking too early damages relationships; asking
 
 The Ideal Moments
 
-Right after successful delivery: The moment a client expresses satisfaction, either through a message or during a call, represents your best opportunity. They've just experienced your best work and are feeling positive about the relationship.
+Right after successful delivery - The moment a client expresses satisfaction, either through a message or during a call, represents your best opportunity. They've just experienced your best work and are feeling positive about the relationship.
 
-During a positive review moment: When a client says "you're great to work with" or "this exceeded expectations," that's your opening. The emotion behind their words makes them more likely to say yes to a request.
+During a positive review moment - When a client says "you're great to work with" or "this exceeded expectations," that's your opening. The emotion behind their words makes them more likely to say yes to a request.
 
-At project closure: The project completion stage naturally invites reflection. A formal "what went well" discussion creates space to mention referrals.
+At project closure - The project completion stage naturally invites reflection. A formal "what went well" discussion creates space to mention referrals.
 
 What to Avoid
 
@@ -233,7 +233,7 @@ Build referral asks into your existing systems:
 
 In your invoice follow-up email:
 ```
-Subject: Project Complete. [Project Name]
+Subject - Project Complete. [Project Name]
 
 Thank you for working together on this project.
 The attached invoice is due on [date].
@@ -338,25 +338,25 @@ Some developers offer financial incentives; others prefer alternative rewards:
 
 Referral Incentive Options
 
-Option 1: Cash referral fees
+Option 1 - Cash referral fees
 - 10% of first project value
 - Direct, motivating, transparent
 - May seem transactional, expensive at scale
 - Best for: High-value projects where 10% is significant
 
-Option 2: Service credit
+Option 2 - Service credit
 - Referrer gets X hours of free future work
 - Invests in relationship, useful for ongoing clients
 - Hard to value, may enable scope creep
 - Best for: Ongoing clients who frequently need small tasks
 
-Option 3: No financial incentive + reciprocation
+Option 3 - No financial incentive + reciprocation
 - You refer *their* services back to mutual contacts
 - Builds mutual economy, feels less transactional
 - Requires your network to be relevant
 - Best for: Specialists in complementary fields
 
-Option 4: Tiered rewards
+Option 4 - Tiered rewards
 - 1st referral → thank you gift ($25-50 gift card)
 - 3 referrals → lunch/coffee together
 - 5 referrals → $500 bonus

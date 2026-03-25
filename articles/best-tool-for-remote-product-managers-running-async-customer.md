@@ -26,7 +26,7 @@ Table of Contents
 - [Recommended Workflow for Remote Product Managers](#recommended-workflow-for-remote-product-managers)
 - [Detailed Tool Pricing and Comparison](#detailed-tool-pricing-and-comparison)
 - [Building a Custom Async Interview System: Step-by-Step](#building-a-custom-async-interview-system-step-by-step)
-- [Hybrid Approach: Managed Frontend + Custom Backend](#hybrid-approach-managed-frontend-custom-backend)
+- [Hybrid Approach - Managed Frontend + Custom Backend](#hybrid-approach-managed-frontend-custom-backend)
 - [Async Interview Synthesis at Scale](#async-interview-synthesis-at-scale)
 - [Common Pitfalls in Async Interview Programs](#common-pitfalls-in-async-interview-programs)
 
@@ -40,7 +40,7 @@ Building a Custom Async Interview Pipeline
 
 Rather than relying on a single monolithic platform, many engineering-oriented product teams build custom pipelines that use leading components. Here's how to construct one:
 
-Step 1: Question Template Management
+Step 1 - Question Template Management
 
 Store your interview questions as structured data rather than in a GUI. This approach version-controls your questions, makes it easy to A/B test different phrasings, and enables programmatic analysis of response patterns.
 
@@ -66,7 +66,7 @@ Store your interview questions as structured data rather than in a GUI. This app
 
 This JSON structure lives in your repo, gets reviewed via pull requests, and ensures every interviewer uses consistent questions.
 
-Step 2: Recording Infrastructure
+Step 2 - Recording Infrastructure
 
 For video responses, you have several options. Specialized platforms like VideoAsk or Grain handle the recording UI, but if you need programmatic control, consider building on top of a simple recording API:
 
@@ -93,7 +93,7 @@ async function createInterviewSession(templateId, participantEmail) {
 
 The key is ensuring responses get stored with proper metadata, participant info, timestamp, which template version was used.
 
-Step 3: Transcription and Analysis
+Step 3 - Transcription and Analysis
 
 Once you have video recordings, transcribing them enables searching and analysis. Modern speech-to-text APIs provide accurate transcripts:
 
@@ -182,7 +182,7 @@ Participant → Recording Interface → Cloud Storage → Transcription → Anal
                 Tags + Synthesis Output → Product Roadmap
 ```
 
-Component 1: Recording Frontend
+Component 1 - Recording Frontend
 
 Use VideoChat API or WebRTC for browser-based recording:
 
@@ -256,7 +256,7 @@ function InterviewRecorder({ templateId, participantEmail }) {
 export default InterviewRecorder;
 ```
 
-Component 2: Transcription Pipeline
+Component 2 - Transcription Pipeline
 
 Using OpenAI Whisper API for automatic transcription:
 
@@ -304,7 +304,7 @@ def transcribe_interview_videos(interview_id):
     return transcripts
 ```
 
-Component 3: Team Review Interface
+Component 3 - Team Review Interface
 
 A simple web interface for team review and tagging:
 
@@ -370,7 +370,7 @@ function InterviewReview({ interviewId }) {
 }
 ```
 
-Hybrid Approach: Managed Frontend + Custom Backend
+Hybrid Approach - Managed Frontend + Custom Backend
 
 Many teams find the sweet spot between fully custom and fully managed:
 
@@ -386,7 +386,7 @@ Async Interview Synthesis at Scale
 
 Once you have 20+ interviews, synthesis becomes the constraint. Humans can watch 2-3 hours of video per day, extracting insights. Scaling requires automation.
 
-Pattern 1: Keyword Extraction
+Pattern 1 - Keyword Extraction
 ```python
 from collections import Counter
 
@@ -412,7 +412,7 @@ def extract_common_themes(transcripts):
     return Counter(keywords).most_common(10)
 ```
 
-Pattern 2: Sentiment Analysis
+Pattern 2 - Sentiment Analysis
 ```python
 from textblob import TextBlob
 
@@ -439,22 +439,22 @@ This synthesis-as-code approach scales to hundreds of interviews. You can re-run
 
 Common Pitfalls in Async Interview Programs
 
-Pitfall 1: Too Many Questions
+Pitfall 1 - Too Many Questions
 - Problem: Participants abandon after 5-minute interviews; response rate drops 40%
 - Solution: Limit to 3-4 questions maximum, target 5-10 minute interviews
 - Trade-off: Fewer questions, higher completion rate beats more questions, abandoned submissions
 
-Pitfall 2: No Follow-Up Capability
+Pitfall 2 - No Follow-Up Capability
 - Problem: Interesting insight mentioned casually; no way to probe deeper
 - Solution: Include "optional follow-up call" offer for insights worth exploring
 - Process: 1 in 10 interviews leads to 15-minute sync call for depth
 
-Pitfall 3: Isolation of Insights
+Pitfall 3 - Isolation of Insights
 - Problem: Teams watch interviews independently; insights aren't shared
 - Solution: Force synthesis through weekly team review of 2-3 interviews
 - Cadence: 30-minute meeting where team watches and tags together
 
-Pitfall 4: Ignoring Non-Responses
+Pitfall 4 - Ignoring Non-Responses
 - Problem: Lower response rates from certain segments; introduces sampling bias
 - Solution: Track who received invites, who responded, compare demographics
 - Mitigation: Offer incentives to boost response from underrepresented groups
@@ -469,7 +469,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -481,7 +481,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

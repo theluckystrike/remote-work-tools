@@ -21,10 +21,10 @@ Mobile hotspot provides the cheapest backup ($10-30/month) but high latency unsu
 Table of Contents
 
 - [Why Backup Internet Matters for Remote Workers](#why-backup-internet-matters-for-remote-workers)
-- [Solution 1: Mobile Hotspot Backup](#solution-1-mobile-hotspot-backup)
-- [Solution 2: Starlink Satellite Internet](#solution-2-starlink-satellite-internet)
-- [Solution 3: Fixed Wireless Access (FWA)](#solution-3-fixed-wireless-access-fwa)
-- [Solution 4: Dual WAN Router with Automatic Failover](#solution-4-dual-wan-router-with-automatic-failover)
+- [Solution 1 - Mobile Hotspot Backup](#solution-1-mobile-hotspot-backup)
+- [Solution 2 - Starlink Satellite Internet](#solution-2-starlink-satellite-internet)
+- [Solution 3 - Fixed Wireless Access (FWA)](#solution-3-fixed-wireless-access-fwa)
+- [Solution 4 - Dual WAN Router with Automatic Failover](#solution-4-dual-wan-router-with-automatic-failover)
 - [Comparison Table](#comparison-table)
 - [Recommended Combinations](#recommended-combinations)
 - [Implementation Tips](#implementation-tips)
@@ -41,7 +41,7 @@ Backup internet solutions vary dramatically in speed, reliability, and complexit
 - Automated failover capability
 - Cost per month
 
-Solution 1: Mobile Hotspot Backup
+Solution 1 - Mobile Hotspot Backup
 
 Using an extra mobile phone or dedicated hotspot device ($30-80 device cost) with a data plan backup ($10-30/month depending on carrier).
 
@@ -66,11 +66,11 @@ Video call quality degraded noticeably on T-Mobile during testing. Uploading fil
 
 Cost:
 Phone hotspot: $0 (existing phone) or $30 (basic dedicated device)
-Data plan: $10-30/month for backup tier
+Data plan - $10-30/month for backup tier
 
-Best for: Workers accepting occasional brief outages, doing primarily asynchronous work, needing minimal setup. Budget-conscious individuals. Backup to backup (secondary failover).
+Best for - Workers accepting occasional brief outages, doing primarily asynchronous work, needing minimal setup. Budget-conscious individuals. Backup to backup (secondary failover).
 
-Solution 2: Starlink Satellite Internet
+Solution 2 - Starlink Satellite Internet
 
 Starlink provides satellite internet via low-earth orbit satellites. Installation involves mounting a dish outside and running cable indoors.
 
@@ -97,12 +97,12 @@ Upload speeds remain satellite limitation, not suitable for streaming video call
 
 Cost:
 Equipment: $599 one-time
-Service: $120/month standard, $150/month priority
-Annual cost: $1,440-1,800
+Service - $120/month standard, $150/month priority
+Annual cost - $1,440-1,800
 
-Best for: Remote workers in areas with poor broadband options. Those needing reliable high-speed backup accepting premium pricing. Individuals with clear southern sky view.
+Best for - Remote workers in areas with poor broadband options. Those needing reliable high-speed backup accepting premium pricing. Individuals with clear southern sky view.
 
-Solution 3: Fixed Wireless Access (FWA)
+Solution 3 - Fixed Wireless Access (FWA)
 
 Fixed wireless access is broadband delivered wirelessly from nearby cell tower to rooftop receiver. ISPs like Verizon, T-Mobile, and regional providers offer FWA as home broadband alternative.
 
@@ -135,11 +135,11 @@ Availability depends on proximity to towers. Rural areas may not have FWA servic
 
 Cost:
 Equipment: $0 (ISP owned, sometimes $0 installation)
-Service: $40-80/month depending on provider
+Service - $40-80/month depending on provider
 
-Best for: Remote workers with access to FWA service needing high-speed reliable backup at moderate cost. Urban and suburban areas where FWA is available.
+Best for - Remote workers with access to FWA service needing high-speed reliable backup at moderate cost. Urban and suburban areas where FWA is available.
 
-Solution 4: Dual WAN Router with Automatic Failover
+Solution 4 - Dual WAN Router with Automatic Failover
 
 A dual WAN router accepts two internet connections and automatically switches between them. Common models: Ubiquiti EdgeMax, MikroTik, Firewalla.
 
@@ -149,10 +149,10 @@ Installation complexity moderate. Connect primary internet to WAN1 port, backup 
 Example configuration on Firewalla Gold ($59):
 
 ```
-Primary: ISP broadband (WAN1)
-Backup: Fixed wireless OR Starlink (WAN2)
-Failover: If WAN1 ping timeout exceeds 3 seconds for 10 seconds, switch to WAN2
-Rollback: If WAN1 recovers, wait 30 seconds then switch back
+Primary - ISP broadband (WAN1)
+Backup - Fixed wireless OR Starlink (WAN2)
+Failover - If WAN1 ping timeout exceeds 3 seconds for 10 seconds, switch to WAN2
+Rollback - If WAN1 recovers, wait 30 seconds then switch back
 ```
 
 Automation benefit:
@@ -164,27 +164,27 @@ Dual WAN routers themselves are fast (1-2.5 Gbps throughput), so don't constrain
 Practical considerations:
 Some high-end routers ($200+) offer advanced features like load balancing (split traffic between both connections simultaneously). Entry-level dual WAN routers ($50-100) simply prioritize and failover.
 
-Budget dual WAN example: Firewalla Gold ($59 hardware, lifetime free software)
+Budget dual WAN example - Firewalla Gold ($59 hardware, lifetime free software)
 - Supports dual WAN
 - Automatic failover (30-second detection time)
 - No subscription fees
 - Learning curve moderate for non-technical users
 
-Mid-range example: Ubiquiti EdgeRouter Lite ($50 hardware)
+Mid-range example - Ubiquiti EdgeRouter Lite ($50 hardware)
 - Advanced routing configuration
 - Requires more technical setup
 - Better for users comfortable with networking
 
-Premium example: MikroTik RB4011 ($200+)
+Premium example - MikroTik RB4011 ($200+)
 - Industrial-grade reliability
 - Complex configuration
 
 Cost:
 Hardware: $50-200
-Software: Typically one-time cost, no monthly fees
+Software - Typically one-time cost, no monthly fees
 Requires backup internet service (see other solutions)
 
-Best for: Users wanting automated failover without manual switching. Technical users comfortable with network configuration. Those combining multiple backup internet sources.
+Best for - Users wanting automated failover without manual switching. Technical users comfortable with network configuration. Those combining multiple backup internet sources.
 
 Comparison Table
 
@@ -199,31 +199,31 @@ Recommended Combinations
 
 Budget setup ($20-40/month):
 Primary: Home broadband
-Backup: Mobile hotspot (Verizon or AT&T)
-Failover: Manual
-Cost: $30-40/month for hotspot plan
-Best for: Workers accepting occasional brief downtime
+Backup - Mobile hotspot (Verizon or AT&T)
+Failover - Manual
+Cost - $30-40/month for hotspot plan
+Best for - Workers accepting occasional brief downtime
 
 Mid-range setup ($60-80/month):
 Primary: Home broadband
-Backup: Fixed wireless access
-Failover: Dual WAN router (Firewalla)
-Cost: $50/month FWA + $59 one-time router
-Best for: Reliable backup without premium Starlink pricing
+Backup - Fixed wireless access
+Failover - Dual WAN router (Firewalla)
+Cost - $50/month FWA + $59 one-time router
+Best for - Reliable backup without premium Starlink pricing
 
 Premium setup ($150-180/month):
 Primary: Home broadband
-Backup: Starlink
-Failover: Dual WAN router
-Cost: $120/month Starlink + $59 router
-Best for: Maximum reliability and speed
+Backup - Starlink
+Failover - Dual WAN router
+Cost - $120/month Starlink + $59 router
+Best for - Maximum reliability and speed
 
 Redundant setup ($180-220/month):
-Primary: Starlink
-Backup: Fixed wireless
-Failover: Dual WAN router with load balancing
-Cost: $120 Starlink + $60 FWA + $200 advanced router
-Best for: Enterprise-level reliability for critical remote work
+Primary - Starlink
+Backup - Fixed wireless
+Failover - Dual WAN router with load balancing
+Cost - $120 Starlink + $60 FWA + $200 advanced router
+Best for - Enterprise-level reliability for critical remote work
 
 Implementation Tips
 

@@ -279,8 +279,8 @@ Structuring Flags for Remote Teams
 Bad flag naming causes confusion across time zones. Enforce a convention:
 
 ```
-Pattern: {type}_{service}_{description}_{ticket}
-Types: feat (feature), exp (experiment), kill (kill switch), config (remote config)
+Pattern - {type}_{service}_{description}_{ticket}
+Types - feat (feature), exp (experiment), kill (kill switch), config (remote config)
 
 feat_checkout_new_payment_flow_ENG-1234
 exp_homepage_hero_ab_test_MKT-567

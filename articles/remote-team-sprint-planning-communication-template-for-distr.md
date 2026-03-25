@@ -22,7 +22,7 @@ Sprint planning in distributed Scrum teams presents unique communication challen
 
 This guide provides production-ready templates and workflows for running effective sprint planning communications in distributed teams using Slack.
 
-Pre-Sprint: Async Preparation Phase
+Pre-Sprint - Async Preparation Phase
 
 The foundation of effective remote sprint planning starts before the meeting even begins. Team members should have visibility into the backlog and ability to prepare their sprint commitments asynchronously.
 
@@ -33,7 +33,7 @@ Create a dedicated channel `#sprint-prep` that activates 48 hours before sprint 
 ```markdown
 Sprint {{ sprint_number }} Preparation
 
-Sprint Goal: [One sentence describing the primary objective]
+Sprint Goal - [One sentence describing the primary objective]
 
 Suggested Focus Areas:
 - Issue #123: API rate limiting implementation
@@ -70,7 +70,7 @@ Questions/Blockers:
 - Should #456 block the sprint if #123 isn't done?
 ```
 
-During Sprint: Communication Templates
+During Sprint - Communication Templates
 
 Once the sprint begins, structured communication templates help maintain alignment without requiring constant synchronous check-ins.
 
@@ -105,8 +105,8 @@ When impediments arise, use a standardized format to alert the team and Scrum Ma
 ```markdown
  Blocker Alert: #{{ issue_number }}
 
-Type: [Technical / Process / Resource / External]
-Severity: [Blocking Sprint Goal / Blocking Single Story / Minor]
+Type - [Technical / Process / Resource / External]
+Severity - [Blocking Sprint Goal / Blocking Single Story / Minor]
 
 Description:
 [2-3 sentences explaining what's blocked and why]
@@ -119,7 +119,7 @@ What would unblock:
 - [Specific action or person needed]
 - [Optional: link to related issue/discussion]
 
-Thread: [Link to issue or relevant discussion]
+Thread - [Link to issue or relevant discussion]
 ```
 
 Mid-Sprint Adjustment Request
@@ -129,7 +129,7 @@ When scope needs to change mid-sprint, communicate this transparently using a st
 ```markdown
  Sprint Adjustment Request
 
-Current Sprint Goal: [Original goal]
+Current Sprint Goal - [Original goal]
 
 Proposed Change:
 - Remove: #234 ([title], reason)
@@ -148,7 +148,7 @@ Thread for discussion:
 - @ProductOwner @ScrumMaster
 ```
 
-Post-Sprint: Retrospective and Handoff
+Post-Sprint - Retrospective and Handoff
 
 Effective sprint retrospectives require structured async input followed by actionable outcomes.
 
@@ -182,7 +182,7 @@ Sprint Kickoff Workflow
 Create a workflow that triggers when a message is posted to `#sprint-planning` with a specific emoji reaction.
 
 ```yaml
-Workflow: Sprint Kickoff Notification
+Workflow - Sprint Kickoff Notification
 trigger:
   type: emoji_reaction () on sprint planning message
 
@@ -199,7 +199,7 @@ actions:
 Daily Reminder Workflow
 
 ```yaml
-Workflow: Daily Async Standup Reminder
+Workflow - Daily Async Standup Reminder
 trigger:
   type: scheduled (weekdays at team start time)
 

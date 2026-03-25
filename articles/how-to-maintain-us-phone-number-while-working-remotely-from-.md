@@ -20,10 +20,10 @@ Maintaining an US phone number while living in Portugal or Spain is essential fo
 Table of Contents
 
 - [Why Keep Your US Number](#why-keep-your-us-number)
-- [Option 1: VoIP Services with SMS Support](#option-1-voip-services-with-sms-support)
-- [Option 2: eSIM Solutions ($50-200 initial + ongoing plan)](#option-2-esim-solutions-50-200-initial-ongoing-plan)
-- [Option 3: US Carrier International Plans ($30-100/month)](#option-3-us-carrier-international-plans-30-100month)
-- [Option 4: Google Fi Wireless ($10-50/month)](#option-4-google-fi-wireless-10-50month)
+- [Option 1 - VoIP Services with SMS Support](#option-1-voip-services-with-sms-support)
+- [Option 2 - eSIM Solutions ($50-200 initial + ongoing plan)](#option-2-esim-solutions-50-200-initial-ongoing-plan)
+- [Option 3 - US Carrier International Plans ($30-100/month)](#option-3-us-carrier-international-plans-30-100month)
+- [Option 4 - Google Fi Wireless ($10-50/month)](#option-4-google-fi-wireless-10-50month)
 - [Recommendation Matrix by Use Case](#recommendation-matrix-by-use-case)
 - [Practical Considerations](#practical-considerations)
 - [Monthly Cost Comparison by Strategy](#monthly-cost-comparison-by-strategy)
@@ -34,7 +34,7 @@ When you relocate to Europe, your US phone number serves critical functions beyo
 
 Portuguese and Spanish SIM cards give you local numbers, but they do not replace your US number for these purposes. Switching everything to a European number creates friction with services tied to your American identity.
 
-Option 1: VoIP Services with SMS Support
+Option 1 - VoIP Services with SMS Support
 
 VoIP services represent the most flexible approach for maintaining an US number abroad. Several providers offer US phone numbers with full SMS and voice capabilities, often at reasonable monthly rates.
 
@@ -53,11 +53,11 @@ Google Voice (Limited but Free)
 
 Google Voice provides a free US number with texting and voicemail. However, it has significant limitations for international users. The service requires an US-based verification phone number during setup, and Google actively blocks usage from certain international locations. If you already have a Google Voice number from before your move, it may continue working, but obtaining a new one from abroad proves difficult.
 
-Best for: People who already have existing Google Voice numbers; purely receiving calls/texts from friends and family.
+Best for - People who already have existing Google Voice numbers; purely receiving calls/texts from friends and family.
 
-Limitations: Cannot obtain new numbers from abroad; unreliable for banking/2FA; no API access.
+Limitations - Cannot obtain new numbers from abroad; unreliable for banking/2FA; no API access.
 
-Twilio: Programmatic Control ($1-2/month + usage)
+Twilio - Programmatic Control ($1-2/month + usage)
 
 For developers comfortable with APIs, Twilio offers US phone numbers with complete control. You purchase a number ($1.25/month) and pay usage fees (typically $0.01-0.03 per incoming SMS, $0.01-0.02 per incoming call minute). For most international workers, monthly bills stay under $5-15.
 
@@ -118,23 +118,23 @@ Setup process:
 4. Configure Twilio console to point to your webhook
 5. Update environment variables with your European phone number
 
-Best for: Developers who want programmatic control; people comfortable managing webhooks; those with unpredictable usage patterns.
+Best for - Developers who want programmatic control; people comfortable managing webhooks; those with unpredictable usage patterns.
 
-Cost example: 20 texts/month = ~$0.30, 2 calls/month = ~$0.04, plus number fee = $1.29/month total.
+Cost example - 20 texts/month = ~$0.30, 2 calls/month = ~$0.04, plus number fee = $1.29/month total.
 
 NumberProxy ($5-15/month)
 
 Services like NumberProxy specialize in maintaining US numbers for international users. The service handles forwarding automatically without requiring technical setup. You purchase a plan (typically $7-12/month), and SMS messages arrive via app notifications, email, or redirected to your local number.
 
-Supported regions: Portugal, Spain, and 60+ other countries. Some services block Cuba, Iran, North Korea, and Syria due to US sanctions.
+Supported regions - Portugal, Spain, and 60+ other countries. Some services block Cuba, Iran, North Korea, and Syria due to US sanctions.
 
-Setup: Sign up, choose your US area code (if available), start receiving. Takes 5 minutes.
+Setup - Sign up, choose your US area code (if available), start receiving. Takes 5 minutes.
 
-Best for: Non-technical users; people wanting pure convenience without API management.
+Best for - Non-technical users; people wanting pure convenience without API management.
 
-Limitations: Less programmatic control; typically slower SMS forwarding (2-5 minute delay); fewer customization options.
+Limitations - Less programmatic control; typically slower SMS forwarding (2-5 minute delay); fewer customization options.
 
-Option 2: eSIM Solutions ($50-200 initial + ongoing plan)
+Option 2 - eSIM Solutions ($50-200 initial + ongoing plan)
 
 eSIM technology allows you to maintain an US cellular number alongside your European SIM. This approach keeps your US number active on cellular networks without carrying a second physical phone.
 
@@ -156,11 +156,11 @@ Several eSIM providers offer US phone numbers with data and SMS capabilities. Ai
 
 The advantage is reliability, your US number operates on actual cellular networks (T-Mobile in US) rather than VoIP, ensuring better delivery rates for banking and authentication codes. The downside is additional cost ($150-240/year vs $12/year for Google Voice) and complexity managing two active numbers.
 
-Use this when: You need guaranteed SMS delivery for 2FA; you want cellular network reliability; cost isn't a concern.
+Use this when - You need guaranteed SMS delivery for 2FA; you want cellular network reliability; cost isn't a concern.
 
-Limitation: Adds ~€15/month to your phone bill; your phone must support eSIM technology.
+Limitation - Adds ~€15/month to your phone bill; your phone must support eSIM technology.
 
-Option 3: US Carrier International Plans ($30-100/month)
+Option 3 - US Carrier International Plans ($30-100/month)
 
 If you maintain a relationship with an US carrier, some offer international roaming packages:
 
@@ -172,11 +172,11 @@ If you maintain a relationship with an US carrier, some offer international roam
 
 T-Mobile's ONE plan is the most affordable option for maintaining an US number while living abroad. When traveling in Portugal/Spain, SMS and voice work normally (though at varying speeds/reliability). International data is included at no extra cost, though speeds throttle after 50GB.
 
-Best for: People who want zero setup complexity; those maintaining active US employment; people wanting cellular service.
+Best for - People who want zero setup complexity; those maintaining active US employment; people wanting cellular service.
 
-Cost: T-Mobile ONE plan is $30-70/month depending on how many lines you have. If you keep your existing US phone plan active just for the number, budget $30-50/month minimum.
+Cost - T-Mobile ONE plan is $30-70/month depending on how many lines you have. If you keep your existing US phone plan active just for the number, budget $30-50/month minimum.
 
-Option 4: Google Fi Wireless ($10-50/month)
+Option 4 - Google Fi Wireless ($10-50/month)
 
 Google Fi (formerly Google Project Fi) provides US phone numbers with international data usage. The service works in Portugal and Spain with no special setup, your phone automatically switches between local carriers and WiFi.
 
@@ -186,7 +186,7 @@ Pricing structure:
 - International calls: $0.20/minute to Portugal/Spain
 - SMS: Free domestically, $0.10/message internationally
 
-Real-world example: A developer in Lisbon using 5GB data + occasional calls back to the US:
+Real-world example - A developer in Lisbon using 5GB data + occasional calls back to the US:
 - Base: $20
 - Data: $50 (capped)
 - International calls: ~$3-5
@@ -210,7 +210,7 @@ Setup process:
 4. Install Google Fi app on your phone
 5. Your phone automatically configures
 
-Best for: People who want native US carrier experience abroad; those making frequent calls back to US; anyone valuing simplicity over cost.
+Best for - People who want native US carrier experience abroad; those making frequent calls back to US; anyone valuing simplicity over cost.
 
 Recommendation Matrix by Use Case
 

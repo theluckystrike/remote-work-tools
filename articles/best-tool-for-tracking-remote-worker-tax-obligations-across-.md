@@ -217,7 +217,7 @@ New York applies the "convenience of the employer" rule, which can require New Y
 
 Pennsylvania has earned income tax at the local level in addition to state income tax, meaning employees in different Pennsylvania municipalities trigger different withholding requirements.
 
-Nine states have no income tax: Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee, Texas, Washington, and Wyoming. Employees working from these states still create obligations for unemployment insurance and may require registration, but they eliminate income tax withholding complexity.
+Nine states have no income tax - Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee, Texas, Washington, and Wyoming. Employees working from these states still create obligations for unemployment insurance and may require registration, but they eliminate income tax withholding complexity.
 
 Practical Implementation Recommendations
 

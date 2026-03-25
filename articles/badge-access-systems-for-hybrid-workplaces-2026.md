@@ -198,7 +198,7 @@ Integration Patterns for Workplace Tools
 
 Badge access systems integrate with several adjacent tools in hybrid workplaces:
 
-Slack/Microsoft Teams Notifications: Send alerts when unusual access patterns detected or after-hours entry occurs.
+Slack/Microsoft Teams Notifications - Send alerts when unusual access patterns detected or after-hours entry occurs.
 
 ```python
 def notify_security_slack(user_name, zone, timestamp, is_unusual=False):
@@ -222,9 +222,9 @@ def notify_security_slack(user_name, zone, timestamp, is_unusual=False):
     requests.post(webhook_url, json=payload)
 ```
 
-HR Systems: Sync badge data with HR records for attendance verification and desk assignment systems.
+HR Systems - Sync badge data with HR records for attendance verification and desk assignment systems.
 
-Building Management: Coordinate with HVAC, lighting, and elevator systems to activate resources when occupants arrive.
+Building Management - Coordinate with HVAC, lighting, and elevator systems to activate resources when occupants arrive.
 
 Security Considerations
 

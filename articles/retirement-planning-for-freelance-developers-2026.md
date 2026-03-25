@@ -24,8 +24,8 @@ Table of Contents
 - [Practical Strategies for Freelance Developers](#practical-strategies-for-freelance-developers)
 - [Tax Optimization Strategies](#tax-optimization-strategies)
 - [Getting Started Today](#getting-started-today)
-- [Retirement Account Comparison: Quick Decision Guide](#retirement-account-comparison-quick-decision-guide)
-- [Tax Planning for Freelancers: Quarterly Workflow](#tax-planning-for-freelancers-quarterly-workflow)
+- [Retirement Account Comparison - Quick Decision Guide](#retirement-account-comparison-quick-decision-guide)
+- [Tax Planning for Freelancers - Quarterly Workflow](#tax-planning-for-freelancers-quarterly-workflow)
 - [Investment Strategy for Retirement Accounts](#investment-strategy-for-retirement-accounts)
 - [Setting Up Automated Contributions](#setting-up-automated-contributions)
 - [Withdrawal Strategy and Tax Implications](#withdrawal-strategy-and-tax-implications)
@@ -55,7 +55,7 @@ $150,000 net self-employment income
 net_income = 150000
 max_contribution = calculate_sep_ira_limit(net_income)
 print(f"Maximum SEP IRA contribution: ${max_contribution:,.0f}")
-Output: Maximum SEP IRA contribution: $37,500
+Output - Maximum SEP IRA contribution: $37,500
 ```
 
 Setup is straightforward, you can open a SEP IRA at any major brokerage with minimal paperwork. There's no employee contribution component, making it ideal if you have no employees.
@@ -83,7 +83,7 @@ def calculate_solo_401k_limit(net_self_employment_income):
 Example with $150,000 net income
 result = calculate_solo_401k_limit(150000)
 print(f"Maximum Solo 401(k): ${result:,.0f}")
-Output: Maximum Solo 401(k): $61,000
+Output - Maximum Solo 401(k): $61,000
 ```
 
 Solo 401(k)s also offer Roth options, allowing after-tax contributions that grow tax-free, a significant advantage if you expect higher taxes in retirement.
@@ -110,7 +110,7 @@ def project_retirement_savings(annual_contribution, years, return_rate=0.07):
 $30,000 annual contribution over 30 years
 savings = project_retirement_savings(30000, 30)
 print(f"Projected savings after 30 years: ${savings:,.0f}")
-Output: Projected savings after 30 years: $3,337,864
+Output - Projected savings after 30 years: $3,337,864
 ```
 
 Starting at age 25 with $30,000 annual contributions could yield over $3.3 million by age 55, demonstrating the power of consistent saving and compound interest.
@@ -127,13 +127,13 @@ Open a dedicated business checking account. Calculate your net self-employment i
 
 ```bash
 Monthly contribution allocation
-Recommended: 15-20% of net income to retirement
+Recommended - 15-20% of net income to retirement
 MONTHLY_NET_INCOME=8500
 RETIREMENT_PERCENTAGE=0.18
 
 monthly_retirement = MONTHLY_NET_INCOME * RETIREMENT_PERCENTAGE
 echo "Monthly retirement contribution: $${monthly_retirement:,.0f}"
-Output: Monthly retirement contribution: $1,530
+Output - Monthly retirement contribution: $1,530
 ```
 
 Plan for Lean Years
@@ -161,7 +161,7 @@ The best retirement plan is one you actually use. Start with these immediate act
 
 Retirement planning as a freelance developer is genuinely more flexible than traditional employment. The contribution limits favor self-employed individuals, and the tax advantages compound significantly over time. The key is starting consistently, regardless of the amount.
 
-Retirement Account Comparison: Quick Decision Guide
+Retirement Account Comparison - Quick Decision Guide
 
 | Account Type | 2026 Limit | Tax Benefit | Best For | Setup Time |
 |--------------|-----------|------------|----------|-----------|
@@ -173,7 +173,7 @@ Retirement Account Comparison: Quick Decision Guide
 
 Choose based on your income and comfort level. SEP IRA wins on simplicity. Solo 401(k) wins on flexibility. Backdoor Roth wins on tax-free growth potential.
 
-Tax Planning for Freelancers: Quarterly Workflow
+Tax Planning for Freelancers - Quarterly Workflow
 
 Freelance income varies, making tax planning essential:
 
@@ -196,10 +196,10 @@ $120,000 annual freelance revenue
 - Total quarterly: ~$9,700
 
 File IRS Form 1040-ES by quarterly deadline dates:
-Q1 (Jan-Mar): Due April 15
-Q2 (Apr-Jun): Due June 15
-Q3 (Jul-Sep): Due September 15
-Q4 (Oct-Dec): Due January 15 (next year)
+Q1 (Jan-Mar) - Due April 15
+Q2 (Apr-Jun) - Due June 15
+Q3 (Jul-Sep) - Due September 15
+Q4 (Oct-Dec) - Due January 15 (next year)
 ```
 
 Investment Strategy for Retirement Accounts
@@ -221,7 +221,7 @@ def portfolio_allocation(years_to_retirement):
     else:
         return {"stocks": 50, "bonds": 50}  # Conservative
 
-Implementation: Use target-date fund matching retirement year
+Implementation - Use target-date fund matching retirement year
 Vanguard Target Retirement 2055 Fund
 Handles rebalancing automatically
 
@@ -266,25 +266,25 @@ Understanding withdrawal rules prevents costly mistakes:
 ```
 Withdrawal scenarios and tax treatment:
 
-Scenario 1: Age 59.5, withdrawing from Traditional SEP IRA
+Scenario 1 - Age 59.5, withdrawing from Traditional SEP IRA
 - Amount: $100,000
 - Tax treatment: Ordinary income (taxed as regular income)
 - Estimated tax: $22,000-37,000 (depending on tax bracket)
 - Early withdrawal penalty: None
 
-Scenario 2: Age 50, withdrawing $50,000 from Traditional SEP IRA
+Scenario 2 - Age 50, withdrawing $50,000 from Traditional SEP IRA
 - Early withdrawal penalty: 10% = $5,000
 - Income tax: ~$11,000-18,500
 - Total cost: ~$16,000-23,500
 - Avoid unless emergency
 
-Scenario 3: Age 59.5, withdrawing from Roth IRA
+Scenario 3 - Age 59.5, withdrawing from Roth IRA
 - Contributed: $50,000 (taxes paid when contributed)
 - Growth: $150,000
 - Withdrawal: $200,000 total
 - Tax due: $0 (Roth withdrawals are tax-free)
 
-Strategy: Mix Traditional and Roth to optimize taxes in retirement
+Strategy - Mix Traditional and Roth to optimize taxes in retirement
 - Withdraw from Traditional when in lower tax bracket years
 - Withdraw from Roth for high-expense years
 ```
@@ -329,7 +329,7 @@ Real-World Retirement Projection: Case Study
 Sarah, a 28-year-old contractor earning $85,000/year:
 
 ```
-Scenario: Conservative freelance path
+Scenario - Conservative freelance path
 
 Year 1-5 (Age 28-32):
 - Freelance income: $85,000/year (flat)
@@ -392,7 +392,7 @@ Tools that simplify this:
 - Wave: Free, basic invoicing and expense categorization
 - Spreadsheet approach: Free, but requires discipline
 
-Recommended: Time investment of 2-3 hours/month keeps records clean
+Recommended - Time investment of 2-3 hours/month keeps records clean
 and prevents scrambling at tax time.
 ```
 ---

@@ -26,11 +26,11 @@ Table of Contents
 - [Project Definition Questions](#project-definition-questions)
 - [Technical Background](#technical-background)
 - [Automating the Intake Workflow](#automating-the-intake-workflow)
-- [Decision Framework: Choosing Your Form Builder](#decision-framework-choosing-your-form-builder)
+- [Decision Framework - Choosing Your Form Builder](#decision-framework-choosing-your-form-builder)
 - [Intake Form Builder Comparison with Pricing](#intake-form-builder-comparison-with-pricing)
-- [Advanced Intake Features: Progressive Profiling](#advanced-intake-features-progressive-profiling)
+- [Advanced Intake Features - Progressive Profiling](#advanced-intake-features-progressive-profiling)
 - [Implementation Recommendations](#implementation-recommendations)
-- [Real-World Workflow: From Submission to Project Start](#real-world-workflow-from-submission-to-project-start)
+- [Real-World Workflow - From Submission to Project Start](#real-world-workflow-from-submission-to-project-start)
 - [Conditional Logic Examples](#conditional-logic-examples)
 - [Post-Submission Client Experience](#post-submission-client-experience)
 - [Measuring Intake Form Effectiveness](#measuring-intake-form-effectiveness)
@@ -149,26 +149,26 @@ Client Portal Generation
 
 Some form builders can generate client portals from intake data. This gives clients a self-service view of their project status, reducing the support burden on your team.
 
-Decision Framework: Choosing Your Form Builder
+Decision Framework - Choosing Your Form Builder
 
 Use this decision tree to select the right tool:
 
-Question 1: Does your team already use a specific ecosystem?
+Question 1 - Does your team already use a specific environment?
 - If deeply in Notion → Use Notion Forms (free, simplest integration)
 - If deeply in HubSpot → Use HubSpot Forms (CRM native)
 - If using Zapier heavily → Any tool with Zapier support works
 
-Question 2: How many responses/month do you expect?
+Question 2 - How many responses/month do you expect?
 - Under 50 responses → Google Forms (free, sufficient)
 - 50-500 responses → Typeform or JotForm ($25-75/month)
 - 500+ responses → JotForm or custom solution ($75+/month)
 
-Question 3: Do you need advanced conditional logic?
+Question 3 - Do you need advanced conditional logic?
 - Simple "if/then" → Google Forms, Typeform Standard
 - Complex multi-branch logic → JotForm, HubSpot
 - Extremely custom → Build custom with Formspree or Basin
 
-Question 4: Is payment collection part of intake?
+Question 4 - Is payment collection part of intake?
 - No payment needed → Any form builder works
 - Deposit collection → JotForm or HubSpot Forms preferred
 - Complex payment flow → Consider Stripe + custom solution
@@ -194,19 +194,19 @@ JotForm ($34-99/month) offers the deepest feature set without enterprise pricing
 
 HubSpot Forms (free-$3,200+/month) integrates directly with HubSpot's CRM. If your agency already uses HubSpot for sales and client management, native form integration means data flows automatically to contact records. The free tier includes basic forms; conditional logic and advanced routing requires paid plans.
 
-Advanced Intake Features: Progressive Profiling
+Advanced Intake Features - Progressive Profiling
 
 Rather than asking clients everything upfront, progressive profiling spreads questions across early project interactions:
 
-Initial Intake (Form 1): Capture only essential information
+Initial Intake (Form 1) - Capture only essential information
 - Company and contact info
 - Project type
 - Budget range
 - Timeline
 
-Kickoff Meeting (Verbal): Dive deeper on vision and goals
+Kickoff Meeting (Verbal) - Dive deeper on vision and goals
 
-Discovery Phase (Form 2): Collect detailed requirements
+Discovery Phase (Form 2) - Collect detailed requirements
 - Competitive analysis
 - Technical details
 - Stakeholder structure
@@ -218,31 +218,31 @@ Implementation Recommendations
 
 Start with your current problems. If clients consistently forget to share important information, add specific prompts or required fields. If your team spends too much time on manual routing, invest in automation first.
 
-For agencies just starting with structured intake, tools like Typeform or Google Forms provide low-friction entry points. As your needs grow, consider Formsite or JotForm for more advanced conditional logic and integration options. Agencies deeply embedded in the Notion ecosystem may find native Notion forms sufficient, especially when combined with Zapier or Make for automation.
+For agencies just starting with structured intake, tools like Typeform or Google Forms provide low-friction entry points. As your needs grow, consider Formsite or JotForm for more advanced conditional logic and integration options. Agencies deeply embedded in the Notion environment may find native Notion forms sufficient, especially when combined with Zapier or Make for automation.
 
 The best intake form builder is one your team actually uses consistently. A sophisticated tool abandoned for a simpler alternative provides less value than a basic tool that captures client information reliably.
 
-Real-World Workflow: From Submission to Project Start
+Real-World Workflow - From Submission to Project Start
 
 Here's how a typical remote agency implements intake automation:
 
-Step 1: Client Submits Form (10 minutes)
+Step 1 - Client Submits Form (10 minutes)
 Client completes intake on your branded form. Conditional logic reveals different sections based on project type selected.
 
-Step 2: Instant Notification (2 minutes)
+Step 2 - Instant Notification (2 minutes)
 Webhook triggers immediately upon submission. A Zapier workflow fires:
 - Creates new contact in HubSpot or Pipedrive
 - Sends confirmation email to client
 - Posts to #new-leads Slack channel with key details
 - Adds task to project manager's calendar to follow up
 
-Step 3: Automated Document Generation (5 minutes)
+Step 3 - Automated Document Generation (5 minutes)
 Zapier or Make generates a statement of work from template, pre-filling key details (client name, scope from intake). Document drops into shared folder (Google Drive, Dropbox) automatically.
 
-Step 4: Calendar Booking (15 minutes)
+Step 4 - Calendar Booking (15 minutes)
 PM sends calendar link for kickoff meeting using Calendly. When client books, Zoom details auto-populate in confirmation email.
 
-Step 5: Pre-Kickoff Preparation (30 minutes)
+Step 5 - Pre-Kickoff Preparation (30 minutes)
 Team members access the intake data in shared project management tool and prepare for kickoff. No chasing for missing information.
 
 This entire workflow, from submission to ready-for-kickoff, takes about an hour of client time and 30 minutes of team coordination, versus the 4-6 hours of back-and-forth that unstructured intake creates.

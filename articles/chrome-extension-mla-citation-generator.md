@@ -147,13 +147,13 @@ Practical Applications for Researchers
 
 Chrome extension MLA citation generators prove valuable across several research scenarios:
 
-Literature Reviews: When gathering sources for academic papers, quickly generating citations as you discover sources keeps your research organized. Extensions that save citations to integrated libraries or reference managers (like Zotero, Mendeley, or BibTeX) enhance this workflow further.
+Literature Reviews - When gathering sources for academic papers, quickly generating citations as you discover sources keeps your research organized. Extensions that save citations to integrated libraries or reference managers (like Zotero, Mendeley, or BibTeX) enhance this workflow further.
 
-Source Verification: Generating citations helps verify that you have accurate source information before committing to using a source in your work. A properly formatted citation confirms you've captured all necessary metadata.
+Source Verification - Generating citations helps verify that you have accurate source information before committing to using a source in your work. A properly formatted citation confirms you've captured all necessary metadata.
 
-Teaching and Instruction: Instructors can demonstrate citation best practices using these tools, showing students how to capture complete source information during research sessions.
+Teaching and Instruction - Instructors can demonstrate citation best practices using these tools, showing students how to capture complete source information during research sessions.
 
-Freelance Writing and Content Creation: Content creators who cite sources regularly, journalists, technical writers, bloggers, benefit from consistent, accurate citations without manual formatting overhead.
+Freelance Writing and Content Creation - Content creators who cite sources regularly, journalists, technical writers, bloggers, benefit from consistent, accurate citations without manual formatting overhead.
 
 Building a Custom Citation Generator
 

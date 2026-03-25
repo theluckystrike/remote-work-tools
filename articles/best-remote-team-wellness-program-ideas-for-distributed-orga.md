@@ -131,7 +131,7 @@ Implement team-wide step competitions using apps like Strava, WHOOP, or simple s
 
 ```bash
 Simple cron job for stand reminders (macOS)
-Add to crontab: crontab -e
+Add to crontab - crontab -e
 0,30 * * * * /usr/bin/osascript -e 'display notification "Time to stretch!" with title "Wellness Reminder"'
 ```
 
@@ -232,19 +232,19 @@ Even well-designed programs face resistance. Here's how to address common object
 
 "This is just management theater"
 
-Address by: Making concrete changes. If you launch pulse surveys but ignore the results, people will correctly judge it as theater. Share results transparently and act on them.
+Address by - Making concrete changes. If you launch pulse surveys but ignore the results, people will correctly judge it as theater. Share results transparently and act on them.
 
 "I don't want my wellness analyzed"
 
-Address by: Making everything truly anonymous. If people fear data will be used against them (for performance reviews), wellness programs fail. Guarantee data goes only to HR or external vendors, never to managers.
+Address by - Making everything truly anonymous. If people fear data will be used against them (for performance reviews), wellness programs fail. Guarantee data goes only to HR or external vendors, never to managers.
 
 "I don't have time for wellness activities"
 
-Address by: Making them optional and async. Fitness challenges shouldn't require gym memberships. Meditation shouldn't require live classes. Social events shouldn't exclude time zone outliers.
+Address by - Making them optional and async. Fitness challenges shouldn't require gym memberships. Meditation shouldn't require live classes. Social events shouldn't exclude time zone outliers.
 
 "This costs money we don't have"
 
-Address by: Starting cheap. Pulse surveys are free. Pomodoro bots are free. Async yoga videos are free. You don't need a big budget, you need intention.
+Address by - Starting cheap. Pulse surveys are free. Pomodoro bots are free. Async yoga videos are free. You don't need a big budget, you need intention.
 
 Real ROI from Wellness Programs
 

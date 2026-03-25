@@ -40,21 +40,21 @@ Required Documents
 
 Gathering documents takes the most time in this process. Start collecting these early:
 
-Proof of income: Three to six months of bank statements showing consistent deposits meeting the income threshold. Self-employed applicants need invoices and corresponding payment records. Employment contracts or service agreements with non-Portuguese companies work as supplementary evidence.
+Proof of income - Three to six months of bank statements showing consistent deposits meeting the income threshold. Self-employed applicants need invoices and corresponding payment records. Employment contracts or service agreements with non-Portuguese companies work as supplementary evidence.
 
-Health insurance: Travel insurance is not sufficient. You need private health insurance with international coverage valid in Portugal, or documentation showing enrollment in a public healthcare system in your home country.
+Health insurance - Travel insurance is not sufficient. You need private health insurance with international coverage valid in Portugal, or documentation showing enrollment in a public healthcare system in your home country.
 
-Criminal record certificate: Obtain this from your country of residence. Many countries require apostille certification or translation. The certificate must be recent, typically within 90 days of application.
+Criminal record certificate - Obtain this from your country of residence. Many countries require apostille certification or translation. The certificate must be recent, typically within 90 days of application.
 
-Passport: Valid for at least three months beyond your planned stay with at least two blank pages.
+Passport - Valid for at least three months beyond your planned stay with at least two blank pages.
 
-Proof of remote work: Employment letters, freelance contracts, or client agreements demonstrating your work is remote and performed for entities outside Portugal.
+Proof of remote work - Employment letters, freelance contracts, or client agreements demonstrating your work is remote and performed for entities outside Portugal.
 
 Application Process
 
 The application submits online through the Portuguese Immigration and Borders Service (SEF) portal, though appointments often require in-person visits to a Portuguese consulate in your home country. Here's the practical workflow:
 
-Step 1: Prepare Your Documentation
+Step 1 - Prepare Your Documentation
 
 Organize documents in PDF format. Name files systematically:
 
@@ -69,15 +69,15 @@ mv employment_letter.pdf 05_remote_work_proof.pdf
 
 Translate documents to Portuguese or English if originals are in another language. Certified translations from recognized translators are required.
 
-Step 2: Schedule Your Appointment
+Step 2 - Schedule Your Appointment
 
 Contact the nearest Portuguese consulate or use the online scheduling system. Appointments fill quickly in major cities. Some applicants report waiting 4-6 weeks for available slots. Consulates in the UK, US, and UAE have dedicated digital nomad visa appointments.
 
-Step 3: Submit Application
+Step 3 - Submit Application
 
 At your appointment, submit all documents and pay the application fee of approximately €90. You receive a receipt with your application number. Processing typically takes 60-90 days, though some applications resolve faster.
 
-Step 4: Visa Approval and Entry
+Step 4 - Visa Approval and Entry
 
 Upon approval, you receive a visa that allows entry to Portugal. Within four months of arrival, you must register with local authorities (Certificado de Registo de Estrangeiro) to obtain your residence permit.
 
@@ -101,7 +101,7 @@ If you're employed by a Portuguese company (not allowed under digital nomad visa
 - Digital nomad visa explicitly prohibits work for Portuguese entities
 - Violations risk visa cancellation and deportation
 
-Tax tip: Many developers structure as self-employed to maximize NHR benefits. Budget for annual accounting costs: €500-1,500 for a simple sole proprietor setup.
+Tax tip - Many developers structure as self-employed to maximize NHR benefits. Budget for annual accounting costs: €500-1,500 for a simple sole proprietor setup.
 
 Banking and Financial Setup. Account Opening Timeline
 
@@ -123,7 +123,7 @@ For remote workers, Wise + Portuguese bank combo works well:
 - Wise: Receive payments from clients, currency conversion
 - Portuguese bank: Salary deposits, ATM access, local bill payments
 
-Account opening timeline: Wise opens immediately; Portuguese bank takes 3-4 weeks post-residence registration.
+Account opening timeline - Wise opens immediately; Portuguese bank takes 3-4 weeks post-residence registration.
 
 Healthcare Access. Public vs Private Coverage
 
@@ -141,43 +141,43 @@ Private insurance (supplemental):
 - Providers: Grupo Técnico Seguros, Allianz Portugal, Lusitânia
 - Benefits: Faster specialist access (1-2 weeks), better facilities
 
-Remote worker recommendation: Register for SNS immediately after residency permit (free). Purchase private insurance for dental and faster specialist access ($40-60/month adds peace of mind).
+Remote worker recommendation - Register for SNS immediately after residency permit (free). Purchase private insurance for dental and faster specialist access ($40-60/month adds peace of mind).
 
 Timeline Estimate. Realistic Process Duration
 
 Here's a realistic timeline from decision to legal residence. This varies by consulate location:
 
-Document preparation: 2-4 weeks
+Document preparation - 2-4 weeks
 - Gather bank statements
 - Obtain employment letters
 - Arrange health insurance
 - Get criminal record certificate
 - Arrange translations
 
-Consulate appointment wait: 2-8 weeks
+Consulate appointment wait - 2-8 weeks
 (Varies significantly by location)
 - London/Dublin: 2-3 weeks
 - Major US cities: 3-5 weeks
 - Smaller cities: 5-8 weeks
 - Apply immediately upon document readiness
 
-Application processing: 8-12 weeks
+Application processing - 8-12 weeks
 - SEF reviews submitted documents
 - Some applicants hear back in 6 weeks
 - Others wait the full 12 weeks
 - You can check status online with your application number
 
-Entry to Portugal: Flexible within visa validity
+Entry to Portugal - Flexible within visa validity
 - Visa typically valid 1 year for entry
 - You can enter whenever ready (no rush after approval)
 - No penalty for waiting before traveling
 
-Post-arrival bureaucracy: 2-4 weeks
+Post-arrival bureaucracy - 2-4 weeks
 - SEF appointment for residence permit registration (1-2 weeks to schedule)
 - Document review and biometric capture (1-2 hours)
 - Permit issued (next business day to 2 weeks)
 
-Total timeline: Approximately 4-6 months from application to legal residence permit in hand.
+Total timeline - Approximately 4-6 months from application to legal residence permit in hand.
 
 Realistic breakdown example:
 - Week 1: Begin document gathering
@@ -188,14 +188,14 @@ Realistic breakdown example:
 - Week 18-22: Arrive and register for residence permit
 - Week 20-24: Residence permit issued
 
-Key insight: The longest delays typically occur at the consulate appointment stage (weeks 2-6). Start your application immediately upon deciding to move, the entire process is mostly waiting, not active work.
+Key insight - The longest delays typically occur at the consulate appointment stage (weeks 2-6). Start your application immediately upon deciding to move, the entire process is mostly waiting, not active work.
 
 Common Pitfalls to Avoid (And How to Prevent Them)
 
-Pitfall 1: Income Documentation Below Threshold
+Pitfall 1 - Income Documentation Below Threshold
 
-The problem: Bank statements show income below €3,700/month, or sources unclear
-Why it happens: Applicants forget the requirement is 4x Portuguese minimum wage (~€943); many freelancers have irregular deposits
+The problem - Bank statements show income below €3,700/month, or sources unclear
+Why it happens - Applicants forget the requirement is 4x Portuguese minimum wage (~€943); many freelancers have irregular deposits
 How to avoid:
 - Calculate your required monthly income: €3,700 minimum
 - Provide 6 months of bank statements (not just 3)
@@ -204,10 +204,10 @@ How to avoid:
 
 If you're slightly below threshold, some consulates accept multiple income sources combined (employment + freelance). Include all income streams in your application.
 
-Pitfall 2: Health Insurance That Doesn't Count
+Pitfall 2 - Health Insurance That Doesn't Count
 
-The problem: Travel insurance policies explicitly exclude residency and don't satisfy requirements
-Why it happens: Applicants buy cheap travel insurance without reading exclusions
+The problem - Travel insurance policies explicitly exclude residency and don't satisfy requirements
+Why it happens - Applicants buy cheap travel insurance without reading exclusions
 How to avoid:
 - Buy expat health insurance or international residency insurance specifically
 - Check policy includes Portugal and includes residency coverage
@@ -220,10 +220,10 @@ Recommended providers:
 - IMG Global (US-based, reliable)
 - Allianz (available anywhere, premium option)
 
-Pitfall 3: Vague Remote Work Proof
+Pitfall 3 - Vague Remote Work Proof
 
-The problem: Application just states "I work remotely" without concrete evidence
-Why it happens: Applicants don't realize SEF wants documentation, not assumptions
+The problem - Application just states "I work remotely" without concrete evidence
+Why it happens - Applicants don't realize SEF wants documentation, not assumptions
 How to avoid:
 - Include employment contract showing remote work explicitly
 - Add email from employer on official letterhead confirming remote status
@@ -233,10 +233,10 @@ How to avoid:
 Template employment letter to request from your employer:
 > "To whom it may concern, [Your Name] is employed by [Company Name] as a [Position]. This role is 100% remote and performed outside Portugal. [Employee] works for our organization entirely via online communication. Employment expected to continue through [date]. Sincerely, [Employer]"
 
-Pitfall 4: Criminal Record Certificate Delays
+Pitfall 4 - Criminal Record Certificate Delays
 
-The problem: Certificate takes longer than expected; apostille not completed in time
-Why it happens: Police background check processes vary by country; apostille adds 2-4 weeks
+The problem - Certificate takes longer than expected; apostille not completed in time
+Why it happens - Police background check processes vary by country; apostille adds 2-4 weeks
 How to avoid:
 - Request criminal record certificate immediately (don't wait)
 - Use expedited processing if available ($20-50 extra for 1-week turnaround)
@@ -244,10 +244,10 @@ How to avoid:
 - Some countries do digital apostilles now (much faster)
 - Request certificate with 90-day expiration buffer
 
-Pitfall 5: Missing Blank Passport Pages
+Pitfall 5 - Missing Blank Passport Pages
 
-The problem: Passport has insufficient blank pages; SEF rejects application
-Why it happens: Schengen visa plus stamps from other travels consume pages quickly
+The problem - Passport has insufficient blank pages; SEF rejects application
+Why it happens - Schengen visa plus stamps from other travels consume pages quickly
 How to avoid:
 - Passport must have 2+ blank pages when you apply
 - If low on pages, renew passport before application (takes 4-6 weeks)
@@ -268,12 +268,12 @@ Moving Forward. Your Action Checklist
 
 The Portugal digital nomad visa provides a clear pathway to European residency for remote workers. Use this checklist to ensure success:
 
-Weeks 1-2: Assessment
+Weeks 1-2 - Assessment
 - [ ] Verify income exceeds €3,700/month
 - [ ] Confirm employment allows remote work outside Portugal
 - [ ] Check passport validity and blank pages
 
-Weeks 3-6: Document Gathering
+Weeks 3-6 - Document Gathering
 - [ ] Order criminal record certificate with expedited processing
 - [ ] Request apostille certification (if required by your country)
 - [ ] Get employment letter explicitly confirming remote status
@@ -281,13 +281,13 @@ Weeks 3-6: Document Gathering
 - [ ] Research expat health insurance providers
 - [ ] Gather passport copies and photos
 
-Weeks 7-10: Insurance & Preparation
+Weeks 7-10 - Insurance & Preparation
 - [ ] Purchase residency/expat health insurance (send quote to embassy)
 - [ ] Arrange document translation (if needed)
 - [ ] Create PDF folder with all documents systematically named
 - [ ] Check nearest Portuguese consulate website for specific requirements
 
-Weeks 11-12: Consulate Contact
+Weeks 11-12 - Consulate Contact
 - [ ] Email consulate with list of documents (verify completeness)
 - [ ] Schedule appointment online or by phone
 - [ ] Confirm appointment details 1 week before

@@ -29,7 +29,7 @@ Table of Contents
 - [Project Management](#project-management)
 - [Confidentiality](#confidentiality)
 - [Intellectual Property](#intellectual-property)
-- [Practical Examples: Adapting Templates to Real Projects](#practical-examples-adapting-templates-to-real-projects)
+- [Practical Examples - Adapting Templates to Real Projects](#practical-examples-adapting-templates-to-real-projects)
 - [Technical Specifications](#technical-specifications)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Retainer Terms](#retainer-terms)
@@ -55,21 +55,21 @@ Essential Contract Elements Every Developer Should Include
 
 Before selecting a template, understand the must-have clauses:
 
-Scope of Work: Define deliverables with enough specificity to prevent scope creep. List features, acceptance criteria, and any exclusions clearly.
+Scope of Work - Define deliverables with enough specificity to prevent scope creep. List features, acceptance criteria, and any exclusions clearly.
 
-Payment Terms: Specify amounts, timing, and method. Include late payment penalties and deposit requirements for new clients.
+Payment Terms - Specify amounts, timing, and method. Include late payment penalties and deposit requirements for new clients.
 
-Intellectual Property: Determine who owns the code after payment. Most developers transfer full ownership to clients, but you should retain rights to reusable components or tools you created.
+Intellectual Property - Determine who owns the code after payment. Most developers transfer full ownership to clients, but you should retain rights to reusable components or tools you created.
 
-Revision Limits: Clarify how many revision rounds are included and what additional work costs.
+Revision Limits - Clarify how many revision rounds are included and what additional work costs.
 
-Termination Clause: Define how either party can end the agreement and what compensation applies for work completed.
+Termination Clause - Define how either party can end the agreement and what compensation applies for work completed.
 
 Top Contract Templates for Freelance Developers
 
 1. Fixed-Price Project Contract
 
-Best for: Defined projects with clear deliverables
+Best for - Defined projects with clear deliverables
 
 A fixed-price contract suits projects where you can estimate scope accurately. The client pays a set amount regardless of time spent, so this template rewards efficiency.
 
@@ -85,7 +85,7 @@ Exclusions:
 - [Item explicitly not included]
 - [Item explicitly not included]
 
-Total Project Fee: $[amount]
+Total Project Fee - $[amount]
 Payment Schedule:
 - 25% deposit upon signing
 - 25% upon mid-project milestone
@@ -98,20 +98,20 @@ Includes up to [X] revision rounds. Additional revisions billed at $[hourly rate
 
 2. Hourly Rate Contract with Time Tracking
 
-Best for: Ongoing work, undefined scope, or retainer arrangements
+Best for - Ongoing work, undefined scope, or retainer arrangements
 
 When project scope evolves, a hourly contract provides flexibility. Clients pay for actual time spent, accommodating changes without renegotiation.
 
 ```markdown
 Compensation
 
-Hourly Rate: $[rate]/hour
-Payment Schedule: Bi-weekly, due within 7 days of invoice
-Time Tracking: Weekly reports via [tool name]
+Hourly Rate - $[rate]/hour
+Payment Schedule - Bi-weekly, due within 7 days of invoice
+Time Tracking - Weekly reports via [tool name]
 
 Maximum Budget
 
-Estimated total: $[amount]
+Estimated total - $[amount]
 Client approval required for work exceeding [percentage]% over estimate.
 
 Project Management
@@ -122,7 +122,7 @@ Source code committed to [version control platform]
 
 3. NDA and IP Protection Addendum
 
-Best for: Clients sharing proprietary information
+Best for - Clients sharing proprietary information
 
 A non-disclosure agreement protects confidential information. Add this as a separate section or companion document.
 
@@ -146,7 +146,7 @@ Developer retains:
 - Right to use general knowledge and techniques
 ```
 
-Practical Examples: Adapting Templates to Real Projects
+Practical Examples - Adapting Templates to Real Projects
 
 SaaS Development Contract
 
@@ -176,26 +176,26 @@ For ongoing monthly work, structure payment around guaranteed hours.
 ```markdown
 Retainer Terms
 
-Monthly Commitment: [X] hours
-Rate: $[monthly amount]
+Monthly Commitment - [X] hours
+Rate - $[monthly amount]
  rollover: Unused hours carry over to next month (max [X] hours)
-Additional hours: Billed at standard rate
+Additional hours - Billed at standard rate
 
 Availability
 
-Response time: Within [X] business hours
-Meeting availability: [Days/times]
+Response time - Within [X] business hours
+Meeting availability - [Days/times]
 ```
 
 Common Pitfalls to Avoid
 
-Vague Scope Descriptions: Phrases like "modernize the website" invite disputes. Be specific: "Redesign homepage with new branding, responsive layout, and animation effects."
+Vague Scope Descriptions - Phrases like "modernize the website" invite disputes. Be specific: "Redesign homepage with new branding, responsive layout, and animation effects."
 
-Missing Payment Deadlines: Always specify exact payment timing. "Payment due upon receipt" is meaningless without defining what "receipt" means. Use "within 14 days of invoice."
+Missing Payment Deadlines - Always specify exact payment timing. "Payment due upon receipt" is meaningless without defining what "receipt" means. Use "within 14 days of invoice."
 
-No Kill Fee: If a client cancels mid-project, you deserve compensation for work completed. Include a cancellation clause specifying what percentage of the remaining balance is due.
+No Kill Fee - If a client cancels mid-project, you deserve compensation for work completed. Include a cancellation clause specifying what percentage of the remaining balance is due.
 
-Ignoring Jurisdiction: Specify which state's laws govern the contract. This matters if disputes arise.
+Ignoring Jurisdiction - Specify which state's laws govern the contract. This matters if disputes arise.
 
 Selecting the Right Template
 
@@ -283,7 +283,7 @@ Structure larger projects into milestones with clear acceptance criteria:
 ```markdown
 Milestone Structure and Acceptance
 
-Milestone 1: Foundation (Weeks 1-2)
+Milestone 1 - Foundation (Weeks 1-2)
 Deliverables:
 - User authentication implemented
 - Database schema created
@@ -294,7 +294,7 @@ Acceptance Criteria:
 - User registration and login flow works end-to-end
 - Code passes linting and test suite
 
-Milestone 2: Features (Weeks 3-5)
+Milestone 2 - Features (Weeks 3-5)
 Deliverables:
 - Admin dashboard
 - Reporting functionality

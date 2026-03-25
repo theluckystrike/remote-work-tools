@@ -90,7 +90,7 @@ for conversation in data['_embedded']['conversations']:
 
 The HelpScot API includes mailbox management, conversation threads, and customer profile access. Developers building custom integrations will find both APIs well-documented, though Front's API offers more granular control over team workflows.
 
-Integration Ecosystem
+Integration environment
 
 Both platforms integrate with popular tools, but the approach differs.
 

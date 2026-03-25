@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Planning Your Virtual Cooking Class
+Step 1 - Planning Your Virtual Cooking Class
 
 Successful virtual cooking events require more than sending out a Zoom link and a recipe. The best sessions feel intentional, accessible, and genuinely interactive. Here's how to plan one that your team will actually want to attend.
 
@@ -60,13 +60,13 @@ Send Prep Materials in Advance
 Don't surprise your team with ingredient lists the day before. Send everything at least one week in advance:
 
 ```markdown
-Step 2: Shopping List (serves 4)
+Step 2 - Shopping List (serves 4)
 - 2 cups all-purpose flour
 - 3 large eggs
 - 1 tablespoon olive oil
 - 1/2 teaspoon salt
 
-Step 3: Equipment Needed
+Step 3 - Equipment Needed
 - Large mixing bowl
 - Fork or pastry cutter
 - Plastic wrap
@@ -75,7 +75,7 @@ Step 3: Equipment Needed
 
 Including a brief video walkthrough of technique basics helps nervous cooks feel prepared. Keep it under five minutes, anything longer gets skipped.
 
-Step 4: Technical Setup for Smooth Execution
+Step 4 - Technical Setup for Smooth Execution
 
 A poorly configured video call ruins the experience before it starts. Take time to set up properly.
 
@@ -91,7 +91,7 @@ Create a separate Slack or Discord channel specifically for the cooking event. P
 
 Consider setting up a shared photo album where everyone uploads their dishes at the end. Teams often reference these photos weeks later, reinforcing the bond created during the session.
 
-Step 5: Help Techniques That Work
+Step 5 - Help Techniques That Work
 
 The difference between a mediocre virtual cooking class and a great one comes down to help. Here's what experienced organizers do:
 
@@ -119,14 +119,14 @@ Someone's audio will fail. Another participant's browser will crash. Have a back
 Create a simple troubleshooting guide:
 
 ```markdown
-Step 6: Quick Tech Fixes
+Step 6 - Quick Tech Fixes
 - No audio? Check: Speakers enabled in OS, app volume up, not muted in-call
 - Can't see screen share? Ask host to restart share
 - Video frozen? Leave and rejoin the call
 - Lost connection? Text in event channel: back in 2 min
 ```
 
-Step 7: Making It a Recurring Event
+Step 7 - Making It a Recurring Event
 
 One cooking class creates a single memorable experience. Recurring sessions build ongoing team culture. Consider running monthly or quarterly sessions with escalating complexity.
 
@@ -145,7 +145,7 @@ Team Recipe Collection
 
 Create a shared document or wiki page where you compile successful recipes from your sessions. Over time, this becomes a unique team artifact, your collective cooking knowledge. Some teams have turned this into an annual team cookbook, printing copies for everyone.
 
-Step 8: Platforms and Tools for Hosted Cooking Classes
+Step 8 - Platforms and Tools for Hosted Cooking Classes
 
 If organizing synchronous cooking feels overwhelming, outsourcing to professional platforms reduces coordination burden:
 
@@ -167,7 +167,7 @@ Pros of hosted services:
 
 For budget-conscious teams, DIY organization creates more memorable bonding despite requiring more planning effort.
 
-Step 9: Asynchronous Cooking for Global Teams
+Step 9 - Asynchronous Cooking for Global Teams
 
 Time zone challenges make synchronous cooking impossible for some teams. An async cooking competition framework adapts the activity:
 
@@ -179,45 +179,45 @@ Time zone challenges make synchronous cooking impossible for some teams. An asyn
 
 This structure maintains the bonding elements (creativity, sharing, celebration) while accommodating distributed schedules.
 
-Step 10: Handling Common Challenges During Sessions
+Step 10 - Handling Common Challenges During Sessions
 
-Challenge: People joining late or leaving early
+Challenge - People joining late or leaving early
 - Solution: Repeat the introduction in first 10 minutes
 - Solution: Record session for async review
 - Solution: Create a written "quick start" guide sent before event
 - Solution: Build 10-minute overlap time for latecomers
 
-Challenge: Someone's internet drops during live session
+Challenge - Someone's internet drops during live session
 - Solution: Have one person on standby with their phone number
 - Solution: Create a Slack channel where disconnected people can update status
 - Solution: Continue without them rather than halting for troubleshooting
 - Solution: Send video recording so they can catch up later
 
-Challenge: Dietary restrictions creating complicated ingredient lists
+Challenge - Dietary restrictions creating complicated ingredient lists
 - Solution: Pick recipes with flexible substitutions upfront
 - Solution: Invite people to propose modifications during planning
 - Solution: Provide multiple ingredient options (dairy-free, gluten-free, vegan)
 - Solution: Focus on technique over specific ingredients
 
-Challenge: Skill level disparities (beginners vs. experienced cooks)
+Challenge - Skill level disparities (beginners vs. experienced cooks)
 - Solution: Pair experienced with less-experienced people (pair cooking)
 - Solution: Have optional "advanced" and "beginner" variations of recipe
 - Solution: Celebrate all results equally, focus on learning not perfection
 - Solution: Assign roles where less-confident cooks handle simpler tasks
 
-Challenge: Time zone issues prevent everyone attending
+Challenge - Time zone issues prevent everyone attending
 - Solution: Rotate meeting times across quarters
 - Solution: Record sessions for async participation with video walkthrough
 - Solution: Create "homework" version where people cook on own time
 - Solution: Accept that global teams can't attend everything, communicate that upfront
 
-Challenge: Some people finish much faster than others
+Challenge - Some people finish much faster than others
 - Solution: Plan activities that extend duration (plating, decorating, storytelling)
 - Solution: Ask early finishers to help others or take photos for documentation
 - Solution: Include a tasting/sharing portion at the end regardless of pacing
 - Solution: Build in 15-minute buffer where people can socialize while waiting
 
-Step 11: Recipe Selection Frameworks
+Step 11 - Recipe Selection Frameworks
 
 For First-Time Group Cooking (Start Simple):
 - Pasta dishes (fresh or dried)
@@ -239,7 +239,7 @@ For Advanced Groups (Established Momentum):
 - Exotic cuisines with less-familiar ingredients
 - Themed "Iron Chef" style competitions
 
-Step 12: Measuring Engagement and Impact
+Step 12 - Measuring Engagement and Impact
 
 Beyond attendance, track these signals to assess success:
 
@@ -267,7 +267,7 @@ engagement_metrics:
 
 Track these metrics across 3-4 sessions to understand what resonates with your team. Adjust format based on actual engagement data rather than assumptions.
 
-Step 13: Measuring Success
+Step 13 - Measuring Success
 
 How do you know if your cooking class actually worked? Look beyond attendance numbers:
 

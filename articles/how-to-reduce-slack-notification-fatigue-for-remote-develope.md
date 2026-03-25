@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Notification Fatigue in Remote Work
+Step 1 - Understand Notification Fatigue in Remote Work
 
 Remote developers receive an average of 50-100 Slack notifications daily across multiple channels and direct messages. Each notification triggers a micro-interruption that breaks your mental context. Research shows it takes approximately 23 minutes to regain full focus after an interruption. Multiply this by the number of notifications you receive, and you lose hours of productive time each day.
 
@@ -41,7 +41,7 @@ The challenge is especially acute for remote developers because:
 
 The solution isn't to ignore your team, it's to design systems that protect your focus while maintaining responsiveness for genuinely urgent matters.
 
-Step 2: Configure Slack Notification Settings Strategically
+Step 2 - Configure Slack Notification Settings Strategically
 
 Slack's notification settings offer more granular control than most users realize. Start here:
 
@@ -69,9 +69,9 @@ Schedule DND periods that align with your peak focus hours:
 
 ```javascript
 // Example DND schedule for a morning focus block
-Start: 9:00 AM
-End: 12:00 PM
-Repeat: Monday through Friday
+Start - 9:00 AM
+End - 12:00 PM
+Repeat - Monday through Friday
 ```
 
 This automatically silences notifications during your most productive hours. Your team learns when you're unavailable, and you get protected work time.
@@ -85,7 +85,7 @@ Slack's "Pause Notifications" feature provides instant relief. Use keyboard shor
 
 This toggles notification pausing instantly. Get in the habit of pausing when you start a focused work session.
 
-Step 3: use Slack's Built-In Tools for Async Communication
+Step 3 - use Slack's Built-In Tools for Async Communication
 
 Set Custom Statuses as Availability Signals
 
@@ -114,7 +114,7 @@ Create Dedicated Focus Time Channels
 
 Establish a channel like `#focus-time` that team members use to signal they're in deep work mode. Anyone posting there commits to not responding until they surface. This normalizes protected work time and creates accountability.
 
-Step 4: Implement Notification Batching
+Step 4 - Implement Notification Batching
 
 Rather than responding to messages immediately, batch your Slack checking:
 
@@ -132,15 +132,15 @@ Scheduled Batch Times
 If Pomodoro doesn't fit your workflow, try checking at set times:
 
 ```
-First check: 9:30 AM (after morning routine)
-Second check: 12:30 PM (lunch break)
-Third check: 3:30 PM (afternoon check)
-Fourth check: 5:30 PM (end of day)
+First check - 9:30 AM (after morning routine)
+Second check - 12:30 PM (lunch break)
+Third check - 3:30 PM (afternoon check)
+Fourth check - 5:30 PM (end of day)
 ```
 
 This ensures you see urgent messages without living in Slack.
 
-Step 5: Use Integration Filters to Reduce Noise
+Step 5 - Use Integration Filters to Reduce Noise
 
 Integrations can flood Slack with notifications. Configure them strategically:
 
@@ -175,7 +175,7 @@ Bot and App Notifications
 
 Review each installed app's notification settings. Disable notifications from apps you don't actively use.
 
-Step 6: Communicate Your Availability Proactively
+Step 6 - Communicate Your Availability Proactively
 
 Setting expectations with your team makes everything easier:
 
@@ -196,7 +196,7 @@ Respect Others' Focus Time
 
 Model the behavior you want to see. When you need to message a teammate, check their status first. If they're in "flow state" or marked as busy, wait or schedule your message.
 
-Step 7: Use External Tools to Enhance Focus
+Step 7 - Use External Tools to Enhance Focus
 
 While Slack has good built-in options, external tools provide additional protection:
 
@@ -208,7 +208,7 @@ Browser Extensions
 
 Extensions like [Slack Reader](https://readersExtension.com) let you catch up on channels without real-time notifications. Use these for catching up after focus sessions.
 
-Step 8: Measuring Your Progress
+Step 8 - Measuring Your Progress
 
 Track whether these changes improve your productivity:
 

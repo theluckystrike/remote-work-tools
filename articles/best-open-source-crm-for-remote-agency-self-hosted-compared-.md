@@ -31,7 +31,7 @@ Before examining specific tools, define your requirements. A remote agency CRM m
 
 The ideal solution runs on your infrastructure, integrates with your existing tools, and costs less than commercial alternatives at scale.
 
-Option 1: EspoCRM
+Option 1 - EspoCRM
 
 EspoCRM provides a modern interface with features out of the box. The software targets small and medium businesses, offering pipeline management, reports, and workflow automation.
 
@@ -113,7 +113,7 @@ Features for Remote Teams
 - Email parsing for automatic lead creation
 - Custom fields and entities via administration panel
 
-Option 2: SuiteCRM
+Option 2 - SuiteCRM
 
 SuiteCRM is a mature, feature-rich fork of SugarCRM Community Edition. It powers thousands of installations worldwide with an emphasis on enterprise features.
 
@@ -223,13 +223,13 @@ Features for Remote Teams
 
 The learning curve is steeper than EspoCRM, but the feature depth justifies the investment for larger agencies.
 
-Option 3: Pipedrive (Self-Hosted Alternative: Flux)
+Option 3 - Pipedrive (Self-Hosted Alternative: Flux)
 
 For agencies prioritizing sales pipeline simplicity, consider Flux, a self-hosted alternative inspired by Pipedrive's interface. However, true open source options are limited in this category.
 
-A better approach: use the leading open source helpdesk and CRM combination with Booked.
+A better approach - use the leading open source helpdesk and CRM combination with Booked.
 
-Option 4: EspoCRM + Dokos Integration
+Option 4 - EspoCRM + Dokos Integration
 
 For agencies needing invoicing, combine EspoCRM with Dokos (open source invoicing):
 

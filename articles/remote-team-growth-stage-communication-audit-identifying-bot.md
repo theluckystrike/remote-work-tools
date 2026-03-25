@@ -21,12 +21,12 @@ As remote teams scale past 30 members, communication patterns that worked for a 
 Table of Contents
 
 - [Why 30 People Marks a Critical Threshold](#why-30-people-marks-a-critical-threshold)
-- [Step 1: Map Your Current Communication Channels](#step-1-map-your-current-communication-channels)
-- [Step 2: Analyze Meeting Load and Purpose](#step-2-analyze-meeting-load-and-purpose)
-- [Step 3: Identify Async Communication Breakdowns](#step-3-identify-async-communication-breakdowns)
-- [Step 4: Quantify Cross-Team Dependencies](#step-4-quantify-cross-team-dependencies)
-- [Step 5: Implement Targeted Fixes](#step-5-implement-targeted-fixes)
-- [Real Audit Results: 40-Person Tech Team](#real-audit-results-40-person-tech-team)
+- [Step 1 - Map Your Current Communication Channels](#step-1-map-your-current-communication-channels)
+- [Step 2 - Analyze Meeting Load and Purpose](#step-2-analyze-meeting-load-and-purpose)
+- [Step 3 - Identify Async Communication Breakdowns](#step-3-identify-async-communication-breakdowns)
+- [Step 4 - Quantify Cross-Team Dependencies](#step-4-quantify-cross-team-dependencies)
+- [Step 5 - Implement Targeted Fixes](#step-5-implement-targeted-fixes)
+- [Real Audit Results - 40-Person Tech Team](#real-audit-results-40-person-tech-team)
 - [Quarterly Communication Audits](#quarterly-communication-audits)
 - [Communication Norms That Scale](#communication-norms-that-scale)
 - [Scaling Beyond 50 People](#scaling-beyond-50-people)
@@ -46,7 +46,7 @@ At this scale, several patterns emerge:
 
 The goal of a communication audit is to identify where these patterns are happening and prioritize fixes based on actual data rather than guesswork.
 
-Step 1: Map Your Current Communication Channels
+Step 1 - Map Your Current Communication Channels
 
 Before fixing problems, document what exists. Create a channel inventory that captures:
 
@@ -85,7 +85,7 @@ print(json.dumps(channel_inventory, indent=2))
 
 This inventory reveals channels that are over-used, abandoned, or duplicative. Look for channels with zero messages in 30 days (candidates for archiving) and channels with extremely high message volumes (candidates for splitting).
 
-Step 2: Analyze Meeting Load and Purpose
+Step 2 - Analyze Meeting Load and Purpose
 
 Meetings are often the most visible symptom of communication dysfunction. Track meeting patterns across your team:
 
@@ -93,8 +93,8 @@ Meetings are often the most visible symptom of communication dysfunction. Track 
 Export calendar data for meeting analysis
 Using Google Calendar API to analyze meeting patterns
 
-Query: Get all meetings for team members over 2 weeks
-Calculate: total meeting hours, recurring vs one-off, attendee counts
+Query - Get all meetings for team members over 2 weeks
+Calculate - total meeting hours, recurring vs one-off, attendee counts
 
 MEETING_METRICS = {
     "total_meeting_hours_per_week": 0,
@@ -112,11 +112,11 @@ Key indicators that suggest meeting overload:
 - Regular meetings with more than 8 attendees
 - Same meetings recurring without clear expiration dates
 
-Step 3: Identify Async Communication Breakdowns
+Step 3 - Identify Async Communication Breakdowns
 
 For distributed teams, async communication quality directly impacts productivity. Evaluate these specific failure modes:
 
-Response time degradation: Track how long messages wait for responses in different channels. an useful query:
+Response time degradation - Track how long messages wait for responses in different channels. an useful query:
 
 ```python
 def calculate_response_times(slack_client, channel_id, days=14):
@@ -153,7 +153,7 @@ def calculate_response_times(slack_client, channel_id, days=14):
 
 Response times exceeding 24 hours in async channels signal that people have stopped expecting timely replies. a clear bottleneck indicator.
 
-Documentation gaps: Check how much institutional knowledge lives in Slack threads versus written documentation:
+Documentation gaps - Check how much institutional knowledge lives in Slack threads versus written documentation:
 
 ```bash
 Find channels with high "how do I" type questions
@@ -170,7 +170,7 @@ QUESTION_PATTERNS = [
 
 Channels with frequent questions about basic processes need better documentation, not more messages.
 
-Step 4: Quantify Cross-Team Dependencies
+Step 4 - Quantify Cross-Team Dependencies
 
 When teams exceed 30 people, boundaries form between sub-teams. Map dependencies to find bottlenecks:
 
@@ -202,7 +202,7 @@ def map_team_dependencies(messages, team_channels):
 
 Teams with high bidirectional dependency scores are candidates for tighter integration. possibly shared channels, regular syncs, or consolidation.
 
-Step 5: Implement Targeted Fixes
+Step 5 - Implement Targeted Fixes
 
 Once you've identified bottlenecks, prioritize based on impact. Common effective interventions:
 
@@ -216,9 +216,9 @@ Once you've identified bottlenecks, prioritize based on impact. Common effective
 
 Start with quick wins that have high visibility. Implementing a channel cleanup typically takes a few hours but immediately reduces noise for everyone.
 
-Real Audit Results: 40-Person Tech Team
+Real Audit Results - 40-Person Tech Team
 
-Team: Recently grew from 25 to 40 people. Communication quality degrading. Let's walk through their actual audit:
+Team - Recently grew from 25 to 40 people. Communication quality degrading. Let's walk through their actual audit:
 
 Channel Inventory Results:
 - Active channels: 47
@@ -228,7 +228,7 @@ Channel Inventory Results:
 - Average channel size: 18 people
 - Channels with 35+ people: 11
 
-Action: Archived 12 dead channels, consolidated 8 duplicates into 4. Remaining: 35 channels. Immediate slack noise reduction.
+Action - Archived 12 dead channels, consolidated 8 duplicates into 4. Remaining - 35 channels. Immediate slack noise reduction.
 
 Meeting Load Analysis:
 - Average meetings per person: 7.2/week
@@ -237,9 +237,9 @@ Meeting Load Analysis:
 - Average meeting attendees: 12 (way too many)
 - Recurring meetings without end dates: 23
 
-Specific Problem: Monday 1-2 PM had 4 concurrent all-hands. People were jumping between calls.
+Specific Problem - Monday 1-2 PM had 4 concurrent all-hands. People were jumping between calls.
 
-Action: Consolidated to 1 weekly all-hands, shifted one to 9 PM UTC for APAC participation.
+Action - Consolidated to 1 weekly all-hands, shifted one to 9 PM UTC for APAC participation.
 
 Async Communication Breakdown:
 - Avg response time, #general: 3 hours
@@ -248,9 +248,9 @@ Async Communication Breakdown:
 - Questions marked as urgent (pins, @here): 2-3 per day
 - Actual emergencies: ~1 per week
 
-Problem: Everything was marked urgent, so people stopped believing urgent tags.
+Problem - Everything was marked urgent, so people stopped believing urgent tags.
 
-Action: Implemented "Urgent Response SLA". 1 hour for @here, 4 hours for #channel mentions, 24 hours for DMs. Abuse of urgent tags gets discussed in 1-on-1s.
+Action - Implemented "Urgent Response SLA". 1 hour for @here, 4 hours for #channel mentions, 24 hours for DMs. Abuse of urgent tags gets discussed in 1-on-1s.
 
 Cross-Team Dependencies:
 Dependency analysis revealed:
@@ -259,7 +259,7 @@ Dependency analysis revealed:
 - Design requested by Product 10x per week
 - Everyone waiting on Finance for expenses
 
-Action: Established weekly async "blockers" standup. In #blockers, team members post: "Waiting on: X. Can resume work when: Y. Current delay: Z." Helps people work around blockages asynchronously.
+Action - Established weekly async "blockers" standup. In #blockers, team members post: "Waiting on: X. Can resume work when: Y. Current delay: Z." Helps people work around blockages asynchronously.
 
 Outcome After Implementation (4 weeks later):
 - Channels reduced: 47 → 35 (25% reduction)
@@ -280,7 +280,7 @@ Quarterly Audit Checklist:
 - [ ] Cross-team interviews: Talk to 2-3 people from each team about communication friction
 - [ ] Decision review: Pick 5 important decisions from past quarter. How many people knew about them? How fast was decision made?
 
-Action Items: Quarterly audit should drive 2-3 experiments per cycle.
+Action Items - Quarterly audit should drive 2-3 experiments per cycle.
 
 Communication Norms That Scale
 

@@ -29,8 +29,8 @@ Table of Contents
 - [Practical Team Workflows](#practical-team-workflows)
 - [Migration Considerations](#migration-considerations)
 - [Next Steps](#next-steps)
-- [Element vs. Slack vs. Discord: Cost and Feature Comparison](#element-vs-slack-vs-discord-cost-and-feature-comparison)
-- [Self-Hosting Matrix: Infrastructure and Setup](#self-hosting-matrix-infrastructure-and-setup)
+- [Element vs. Slack vs. Discord - Cost and Feature Comparison](#element-vs-slack-vs-discord-cost-and-feature-comparison)
+- [Self-Hosting Matrix - Infrastructure and Setup](#self-hosting-matrix-infrastructure-and-setup)
 - [Slack Bridge Implementation](#slack-bridge-implementation)
 - [Bot Development for Common Workflows](#bot-development-for-common-workflows)
 - [Room Organization for Development Teams](#room-organization-for-development-teams)
@@ -39,7 +39,7 @@ Table of Contents
 
 Why Developers Choose Matrix for Team Chat
 
-Traditional team communication tools lock you into their ecosystem. Matrix operates as an open protocol, meaning your messages can travel between servers rather than being trapped in a single provider. Element provides the polished interface while maintaining this flexibility.
+Traditional team communication tools lock you into their environment. Matrix operates as an open protocol, meaning your messages can travel between servers rather than being trapped in a single provider. Element provides the polished interface while maintaining this flexibility.
 
 The protocol supports markdown formatting, syntax-highlighted code blocks, and file sharing without size restrictions imposed by commercial alternatives. Your team retains control over data residency by self-hosting the synapse server.
 
@@ -162,7 +162,7 @@ Next Steps
 
 To evaluate Element Matrix, deploy a Synapse server on a small VM, bridge it to your existing Slack or IRC, and run a pilot with one project team before committing to a full migration.
 
-Element vs. Slack vs. Discord: Cost and Feature Comparison
+Element vs. Slack vs. Discord - Cost and Feature Comparison
 
 | Aspect | Element (Self-Hosted) | Slack | Discord | Microsoft Teams |
 |--------|----------------------|-------|---------|-----------------|
@@ -177,7 +177,7 @@ Element vs. Slack vs. Discord: Cost and Feature Comparison
 
 Element's key advantage for technical teams is complete control. Slack's message history cutoff (3,000 messages on free plan) forces paid upgrades for growing teams. Discord's unlimited history appeals to long-running communities but offers less fine-grained team management.
 
-Self-Hosting Matrix: Infrastructure and Setup
+Self-Hosting Matrix - Infrastructure and Setup
 
 Minimum Requirements
 
@@ -243,8 +243,8 @@ Domain & SSL:
 - Domain registration: $10-15/year
 - SSL certificate: Free (Let's Encrypt)
 
-Annual total: $300-900 for team of 100
-Per-user cost: $3-9/year (compare to Slack: $10-15/month per user)
+Annual total - $300-900 for team of 100
+Per-user cost - $3-9/year (compare to Slack: $10-15/month per user)
 ```
 
 Slack Bridge Implementation

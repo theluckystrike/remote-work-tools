@@ -20,20 +20,20 @@ Distributed teams face an unsolvable problem: production incidents happen at 3am
 
 Why Remote On-Call is Harder
 
-Collocated teams: "Let's rotate who stays late." Distributed teams have to solve:
+Collocated teams - "Let's rotate who stays late." Distributed teams have to solve:
 - Timezone fairness: APAC engineer shouldn't carry US incident load just because US is HQ
 - Context switching: Waking at 3am to debug unfamiliar code is slower than during business hours
 - Burnout metrics: How many on-call weeks per year is fair? (Industry standard: 1 week per 8 weeks)
-- Compensation: If on-call at night, do we pay per incident? Per week? Do we give comp time?
+- Compensation - If on-call at night, do we pay per incident? Per week? Do we give comp time?
 - Escalation boundaries: When does on-call engineer wake up manager? When do we page the CEO?
 
 Poor rotations create hero culture: "Sarah always saves us, let's keep her on-call" leads to departure.
 
 On-Call Rotation Models
 
-Model 1: Single Engineer On-Call (One Person)
+Model 1 - Single Engineer On-Call (One Person)
 
-Setup: One person on-call for 1 week at a time. Rotates every Monday.
+Setup - One person on-call for 1 week at a time. Rotates every Monday.
 
 - Simple to manage (8 people = 8 weeks/year each)
 - Clear ownership
@@ -43,13 +43,13 @@ Setup: One person on-call for 1 week at a time. Rotates every Monday.
 - Sleep deprivation if incidents cluster at night
 - High burnout
 
-When to use: Teams < 8 people, or SLA allows 4-hour response time (non-critical incidents)
+When to use - Teams < 8 people, or SLA allows 4-hour response time (non-critical incidents)
 
-Compensation: Each on-call week = 1 comp day off the following week. Incidents that wake you = $100-300 per incident (on top of salary) or 4 hours comp time.
+Compensation - Each on-call week = 1 comp day off the following week. Incidents that wake you = $100-300 per incident (on top of salary) or 4 hours comp time.
 
-Model 2: Primary + Escalation Engineer (Two Person)
+Model 2 - Primary + Escalation Engineer (Two Person)
 
-Setup: Engineer A is primary (pages first), Engineer B is escalation (pages if A unresponsive for 15 minutes).
+Setup - Engineer A is primary (pages first), Engineer B is escalation (pages if A unresponsive for 15 minutes).
 
 - Backup if primary is sick/unavailable
 - Shared load (A takes incident, B monitors)
@@ -58,11 +58,11 @@ Setup: Engineer A is primary (pages first), Engineer B is escalation (pages if A
 - Escalation engineer also loses sleep
 - Still covers all timezones if primary on-call for full week
 
-When to use: Teams 8-16 people, critical infrastructure
+When to use - Teams 8-16 people, critical infrastructure
 
-Compensation: Primary takes $150-250/incident or 2h comp time. Escalation (if paged) takes $50-100 or 1h comp time. Both get 1 comp day per week.
+Compensation - Primary takes $150-250/incident or 2h comp time. Escalation (if paged) takes $50-100 or 1h comp time. Both get 1 comp day per week.
 
-Model 3: Timezone-Based Rotation (Multiple Regions)
+Model 3 - Timezone-Based Rotation (Multiple Regions)
 
 Setup: 
 - US team: 5pm PT → 8am PT (13 hours, covers US evening + morning)
@@ -79,7 +79,7 @@ Rotate by week, but each person only on-call during their business hours + night
 - What if incident is at 2am CET and US team is asleep?
 - Escalation paths must be clear
 
-When to use: Teams 12+ with global distribution, critical SLA (99.99%)
+When to use - Teams 12+ with global distribution, critical SLA (99.99%)
 
 Tool setup:
 - PagerDuty: Create schedule with time windows per timezone
@@ -96,9 +96,9 @@ Compensation:
 - On-call overnight (9pm-7am in your timezone): $200-400/week or 8h comp time
 - Each escalation page: Additional $50-100
 
-Model 4: Follow-the-Sun Rotation
+Model 4 - Follow-the-Sun Rotation
 
-Setup: Incident ownership passes from timezone to timezone as earth rotates.
+Setup - Incident ownership passes from timezone to timezone as earth rotates.
 
 - 5pm PT: US engineer takes incident, documents everything
 - 5pm CET: Next morning, EU engineer reads notes, continues investigation
@@ -112,20 +112,20 @@ Setup: Incident ownership passes from timezone to timezone as earth rotates.
 - Slower incident resolution (may take 24 hours for complex issues)
 - Not suitable for critical incidents
 
-When to use: Teams with SLA > 4 hours (e.g., non-critical infrastructure, batch jobs)
+When to use - Teams with SLA > 4 hours (e.g., non-critical infrastructure, batch jobs)
 
 Tool setup:
 - Incident post-mortem document: Start with US notes, EU adds findings, APAC adds resolution
 - Jira/GitHub Issues: Tag by timezone owner
 - Slack thread: Async updates with @timezone-owner mentions
 
-Compensation: No emergency pay (all business hours), just standard salary.
+Compensation - No emergency pay (all business hours), just standard salary.
 
 Tool Comparison
 
 PagerDuty
-Price: $49/user/month (Standard), $199/user/month (Enterprise)
-Best for: Critical infrastructure, large teams
+Price - $49/user/month (Standard), $199/user/month (Enterprise)
+Best for - Critical infrastructure, large teams
 
 Features:
 - Time-window schedules (8am-5pm PT, 5pm PT-8am PT)
@@ -140,11 +140,11 @@ Example config:
 3. Set escalation: If US doesn't ack in 5 min, escalate to EU
 4. Rotation: 1-week on-call per person
 
-Cost analysis: $49 × 8 people = $392/month. High but justified for critical systems.
+Cost analysis - $49 × 8 people = $392/month. High but justified for critical systems.
 
 Opsgenie (Atlassian)
-Price: Free tier (1 on-call schedule, 5 users), $29/user/month (Standard)
-Best for: Teams 5-20, budget-conscious
+Price - Free tier (1 on-call schedule, 5 users), $29/user/month (Standard)
+Best for - Teams 5-20, budget-conscious
 
 Features:
 - Time-window schedules
@@ -158,11 +158,11 @@ Example config:
 2. Set escalation policy: email (15 min) → Slack (30 min) → SMS (60 min)
 3. Rotation pattern: 1-week on-call
 
-Cost analysis: Free tier covers 1 schedule + 5 people (sufficient for small teams). Paid $29 × 8 = $232/month if you outgrow free.
+Cost analysis - Free tier covers 1 schedule + 5 people (sufficient for small teams). Paid $29 × 8 = $232/month if you outgrow free.
 
 Google Calendar + Slack Bot
-Price: Free (if already using Google Workspace + Slack)
-Best for: Teams < 10, simple rotations
+Price - Free (if already using Google Workspace + Slack)
+Best for - Teams < 10, simple rotations
 
 Setup:
 1. Create shared "On-Call" calendar
@@ -170,17 +170,17 @@ Setup:
 3. Slack bot reads calendar, posts "#on-call who's on duty"
 
 ```
-John: Mon-Sun 5pm PT - 8am PT
-Sarah: Mon-Sun 5pm CET - 8am CET
-Mike: Mon-Sun 5pm SGT - 8am SGT
+John - Mon-Sun 5pm PT - 8am PT
+Sarah - Mon-Sun 5pm CET - 8am CET
+Mike - Mon-Sun 5pm SGT - 8am SGT
 Repeat next week
 ```
 
-Cost analysis: Free if you have Google Workspace. No SMS/escalation automation.
+Cost analysis - Free if you have Google Workspace. No SMS/escalation automation.
 
 Grafana OnCall (formerly Grafana Incident)
-Price: Free (basic), $240/month (Pro)
-Best for: Teams already using Grafana, good observability integration
+Price - Free (basic), $240/month (Pro)
+Best for - Teams already using Grafana, good observability integration
 
 Features:
 - Tight integration with Grafana alerts
@@ -188,21 +188,21 @@ Features:
 - Mobile app
 - Cheaper than PagerDuty
 
-Cost analysis: $240/month (fixed, not per-user). Good ROI for Grafana-heavy shops.
+Cost analysis - $240/month (fixed, not per-user). Good ROI for Grafana-heavy shops.
 
 Setting Up Timezone-Based Rotation (Recommended)
 
-Scenario: 12-person team across US, EU, APAC
+Scenario - 12-person team across US, EU, APAC
 
-Step 1: Define on-call windows
+Step 1 - Define on-call windows
 
 ```
 US:   5pm PT - 8am PT (13h, covers evening + morning)
 EU:   8am CET - 5pm CET (9h, covers business + overlap)
-APAC: 5pm SGT - 8am SGT (15h, covers evening + morning)
+APAC - 5pm SGT - 8am SGT (15h, covers evening + morning)
 ```
 
-Step 2: Define rotation
+Step 2 - Define rotation
 
 Each person does 1-week on-call per 8 weeks = 1.5 weeks/year per person.
 
@@ -213,14 +213,14 @@ Week 2:  US: Jessica| EU: Philipp| APAC: Kim
 Week 8:  (repeat)
 ```
 
-Step 3: Set compensation
+Step 3 - Set compensation
 
 - On-call during business hours (5pm-10pm = 5h): No extra pay
 - On-call overnight (10pm-7am = 9h): $300/week or 8h comp time
 - Each incident page: +$50-100 or +1h comp time
 - Critical incident (requires 3+ hours): +$200 or +8h comp time
 
-Step 4: Set escalation policy
+Step 4 - Set escalation policy
 
 ```
 1. Primary on-call (5min to ack)
@@ -232,7 +232,7 @@ Step 4: Set escalation policy
 4. VP Engineering (hard page)
 ```
 
-Step 5: Test in PagerDuty or Opsgenie
+Step 5 - Test in PagerDuty or Opsgenie
 
 1. Create 3 schedules (US, EU, APAC)
 2. Add 4 people to each (rotating weekly)
@@ -241,29 +241,29 @@ Step 5: Test in PagerDuty or Opsgenie
 
 Red Flags in On-Call Rotations
 
-Red flag 1: One person takes 3x incidents per rotation
+Red flag 1 - One person takes 3x incidents per rotation
 
-Indicates: Unfair incident distribution, or that person is better at fixing things (promote them, don't burn them out).
+Indicates - Unfair incident distribution, or that person is better at fixing things (promote them, don't burn them out).
 
-Fix: Analyze incident sources, fix root causes, rotate on-call.
+Fix - Analyze incident sources, fix root causes, rotate on-call.
 
-Red flag 2: On-call engineer sleeps with pager, then works full day
+Red flag 2 - On-call engineer sleeps with pager, then works full day
 
-Indicates: Team is unsustainable, incidents cluster at night.
+Indicates - Team is unsustainable, incidents cluster at night.
 
-Fix: Give comp time (3h slept badly = next day off), reduce on-call frequency, or hire contractor for night shifts.
+Fix - Give comp time (3h slept badly = next day off), reduce on-call frequency, or hire contractor for night shifts.
 
-Red flag 3: On-call engineer avoids "on-call week" by calling in sick
+Red flag 3 - On-call engineer avoids "on-call week" by calling in sick
 
-Indicates: Rotation is unfair, compensation is inadequate, or culture is blame-heavy.
+Indicates - Rotation is unfair, compensation is inadequate, or culture is blame-heavy.
 
-Fix: Review rotations for fairness, increase compensation, fix blame culture (blameless post-mortems).
+Fix - Review rotations for fairness, increase compensation, fix blame culture (blameless post-mortems).
 
-Red flag 4: Manager is never on-call
+Red flag 4 - Manager is never on-call
 
-Indicates: Culture problem (managers avoid pain), or you're protecting managers from reality.
+Indicates - Culture problem (managers avoid pain), or you're protecting managers from reality.
 
-Fix: Managers take on-call rotation. They understand incidents better, and it builds empathy.
+Fix - Managers take on-call rotation. They understand incidents better, and it builds empathy.
 
 Compensation Framework
 
@@ -276,7 +276,7 @@ Compensation Framework
 | Critical incident (3+ hours, wakes you at 3am) | $200-300 + 8h comp time |
 | Oncall manager (escalation calls only) | $500/week (usually salary bump) |
 
-Why comp time > cash?: Some people prefer time off. Offer both, let them choose.
+Why comp time > cash? - Some people prefer time off. Offer both, let them choose.
 
 FAQ
 

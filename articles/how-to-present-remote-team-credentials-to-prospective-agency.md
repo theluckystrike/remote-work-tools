@@ -55,11 +55,11 @@ Essential Credentials to Showcase
 
 Your credential portfolio should cover several key areas:
 
-Technical Certifications: AWS, Google Cloud, Azure certifications demonstrate cloud competency. Kubernetes, Docker, and Terraform certifications show infrastructure expertise. Vendor-specific credentials from companies like Salesforce, Snowflake, or Atlassian prove specialized knowledge.
+Technical Certifications - AWS, Google Cloud, Azure certifications demonstrate cloud competency. Kubernetes, Docker, and Terraform certifications show infrastructure expertise. Vendor-specific credentials from companies like Salesforce, Snowflake, or Atlassian prove specialized knowledge.
 
-Security Compliance: SOC 2 Type II certification is increasingly mandatory for agencies handling sensitive data. ISO 27001 certification demonstrates systematic security practices. GDPR compliance documentation matters for teams working with European clients.
+Security Compliance - SOC 2 Type II certification is increasingly mandatory for agencies handling sensitive data. ISO 27001 certification demonstrates systematic security practices. GDPR compliance documentation matters for teams working with European clients.
 
-Industry Credentials: PMP, Scrum Master, or PRINCE2 certifications project management maturity. CSM (Certified Scrum Master) or CSPO (Certified Product Owner) credentials show agile expertise.
+Industry Credentials - PMP, Scrum Master, or PRINCE2 certifications project management maturity. CSM (Certified Scrum Master) or CSPO (Certified Product Owner) credentials show agile expertise.
 
 Building Your Credential Dashboard
 
@@ -160,15 +160,15 @@ Maintain a spreadsheet or database of all team credentials with renewal reminder
 
 Common Mistakes to Avoid
 
-Listing every credential: Present relevance over volume. A 50-credential list overwhelms rather than impresses.
+Listing every credential - Present relevance over volume. A 50-credential list overwhelms rather than impresses.
 
-Including expired credentials: Audit your credential list quarterly. Remove or clearly mark expired credentials.
+Including expired credentials - Audit your credential list quarterly. Remove or clearly mark expired credentials.
 
-Failing to provide verification: Unverifiable credentials raise red flags. Always include verification methods.
+Failing to provide verification - Unverifiable credentials raise red flags. Always include verification methods.
 
-Generic presentations: Tailor credential presentations to each prospect. A healthcare project requires different credentials than an e-commerce platform.
+Generic presentations - Tailor credential presentations to each prospect. A healthcare project requires different credentials than an e-commerce platform.
 
-Neglecting soft credentials: Team communication skills, English proficiency, and collaboration tools expertise matter. Include these in your credential package.
+Neglecting soft credentials - Team communication skills, English proficiency, and collaboration tools expertise matter. Include these in your credential package.
 
 Building Long-Term Credential Strategy
 
@@ -186,8 +186,8 @@ Building a Credential Portfolio Site
 Create a dedicated, professional credential portfolio that agencies can reference during evaluation. This site should be:
 
 - Easy to navigate: Agency decision-makers have limited time. They should find relevant information in under 3 clicks
-- Scannable: Use headers, bullet points, and visual formatting. Nobody reads dense paragraphs when evaluating vendors
-- Specific: "Our team is highly skilled" means nothing. "3 AWS Solutions Architects on staff" means something
+- Scannable - Use headers, bullet points, and visual formatting. Nobody reads dense paragraphs when evaluating vendors
+- Specific - "Our team is highly skilled" means nothing. "3 AWS Solutions Architects on staff" means something
 - Verifiable: Provide links or instructions for verifying every claim
 
 ```html
@@ -250,7 +250,7 @@ Verification Instructions
 3. View holder name and expiration date
 
 Compliance Certifications
-- SOC 2 Type II Audit: December 2025 (SecureAudit Inc.)
+- SOC 2 Type II Audit - December 2025 (SecureAudit Inc.)
 - Next audit scheduled: December 2026
 - Audit report available under standard NDA
 

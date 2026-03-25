@@ -23,13 +23,13 @@ Table of Contents
 - [Recording Capabilities](#recording-capabilities)
 - [Integration with Developer Workflows](#integration-with-developer-workflows)
 - [Sharing and Async Consumption](#sharing-and-async-consumption)
-- [Practical Example: Recording a Daily Standup Update](#practical-example-recording-a-daily-standup-update)
+- [Practical Example - Recording a Daily Standup Update](#practical-example-recording-a-daily-standup-update)
 - [Async Standup Template](#async-standup-template)
 - [Pricing and Feature Comparison](#pricing-and-feature-comparison)
 - [Performance Metrics and Comparison](#performance-metrics-and-comparison)
 - [Decision Framework](#decision-framework)
-- [Alternative Options: OBS and Self-Hosted Solutions](#alternative-options-obs-and-self-hosted-solutions)
-- [Integration Opportunities: Slack Automations](#integration-opportunities-slack-automations)
+- [Alternative Options - OBS and Self-Hosted Solutions](#alternative-options-obs-and-self-hosted-solutions)
+- [Integration Opportunities - Slack Automations](#integration-opportunities-slack-automations)
 - [Measuring Standup Effectiveness](#measuring-standup-effectiveness)
 - [Troubleshooting Async Standup Adoption](#troubleshooting-async-standup-adoption)
 - [Long-Form Video Compared to Standup Format](#long-form-video-compared-to-standup-format)
@@ -69,7 +69,7 @@ Vimeo Record videos can be shared via link with password protection if needed. T
 
 For teams spread across time zones, both tools handle the async model well. The decision often comes down to existing tooling. If your team uses Notion for documentation, Loom's native Notion integration feels more natural. If your team stores video content on Vimeo for other purposes, keeping standups there reduces platform fragmentation.
 
-Practical Example: Recording a Daily Standup Update
+Practical Example - Recording a Daily Standup Update
 
 Recording an effective async standup requires structure. Here's what works well using either tool:
 
@@ -124,7 +124,7 @@ Setup and Recording Speed
 
 Loom wins on speed. The Chrome extension launches with `Cmd+Shift+L`, captures screen, camera, and audio automatically, and completes encoding within seconds of stopping. Vimeo Record requires launching their app or website, selecting recording type, and permits more configuration, useful for specific use cases, slower for rapid async standups.
 
-Test scenario: Recording a 2-minute standup update
+Test scenario - Recording a 2-minute standup update
 - Loom: Extension already open (0s) → hit shortcut → record → stop → link available instantly
 - Vimeo Record: App launch (3s) → select recording type (5s) → record → stop → encoding (10-30s) → ready to share
 
@@ -154,17 +154,17 @@ Choose Vimeo Record if your team values:
 
 For most engineering teams doing async standups, Loom's frictionless approach wins. The ability to start recording with a keyboard shortcut and share immediately fits the rapid iteration style of development teams. Vimeo Record makes sense when you have other video workflows already on the platform or need 4K recording quality for detailed code demonstrations.
 
-The best approach: try both tools with your actual standup workflow for one week each. Measure time from "want to record" to "team has watched" using each platform. The tool that minimizes friction for your specific team composition wins.
+The best approach - try both tools with your actual standup workflow for one week each. Measure time from "want to record" to "team has watched" using each platform. The tool that minimizes friction for your specific team composition wins.
 
-Alternative Options: OBS and Self-Hosted Solutions
+Alternative Options - OBS and Self-Hosted Solutions
 
 For teams wanting maximum control and privacy, open-source alternatives exist:
 
 OBS (Open Broadcaster Software)
 
-Cost: Free
-Platforms: Windows, macOS, Linux
-Best for: Technical teams comfortable with open-source tools
+Cost - Free
+Platforms - Windows, macOS, Linux
+Best for - Technical teams comfortable with open-source tools
 
 OBS records screen and camera simultaneously with fine-grained control:
 
@@ -182,11 +182,11 @@ Trade-offs:
 
 OBS suits teams with DevOps capacity who want to own their video infrastructure entirely.
 
-Mux: Video API for Custom Solutions
+Mux - Video API for Custom Solutions
 
-Cost: $0.001 per minute of video stored
-Platform: API-based
-Best for: Teams building custom recording applications
+Cost - $0.001 per minute of video stored
+Platform - API-based
+Best for - Teams building custom recording applications
 
 Mux provides infrastructure for custom recording solutions:
 
@@ -211,7 +211,7 @@ async function recordStandup(teamMemberId) {
 
 This approach costs pennies but requires building your own recording and sharing interface.
 
-Integration Opportunities: Slack Automations
+Integration Opportunities - Slack Automations
 
 Both Loom and Vimeo can integrate with Slack workflows. Here's how to automate standup collection:
 
@@ -276,14 +276,14 @@ If your watch rate drops below 75%, standups are too long or too frequent. If se
 
 Troubleshooting Async Standup Adoption
 
-Problem: Team members don't watch standups consistently
+Problem - Team members don't watch standups consistently
 
 Solutions:
 - Make watching standups part of daily routine (schedule 15 min first thing)
 - Shorter max length (2 minutes, not 5)
 - Highlight key blockers in Slack thread (don't force people to watch entire video)
 
-Problem: Recording quality degrades with poor internet
+Problem - Recording quality degrades with poor internet
 
 Solutions:
 - Use Loom's "quality over speed" setting
@@ -291,7 +291,7 @@ Solutions:
 - Reduce resolution if bandwidth is limited
 - Test recording quality on your home network before committing to platform
 
-Problem: People record standups at inconsistent times, creating gaps
+Problem - People record standups at inconsistent times, creating gaps
 
 Solutions:
 - Set specific standup time (e.g., "by 9am Monday-Friday")
@@ -308,7 +308,7 @@ Standups are short (2-3 min), but some documentation needs longer format. Keep L
 - Training sessions (45+ min): YouTube or Vimeo with proper playlist structure
 - Demos to clients (10-20 min): Vimeo with custom player branding
 
-The best practice: dedicated short-form tool (Loom) for standups + separate tool for longer documentation keeps your standup archive focused and searchable.
+The best practice - dedicated short-form tool (Loom) for standups + separate tool for longer documentation keeps your standup archive focused and searchable.
 
 Cost Optimization for Growing Teams
 

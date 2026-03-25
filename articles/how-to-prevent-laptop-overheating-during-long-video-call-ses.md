@@ -40,13 +40,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand the Thermal Problem
+Step 1 - Understand the Thermal Problem
 
 Video calling applications are resource-hungry. A typical video call involves multiple concurrent processes: video encoding and decoding, audio processing, network transmission, UI rendering, and notification handling. On integrated graphics machines, the GPU handles display and video simultaneously, doubling thermal load. Even dedicated GPU setups can struggle when fans cannot dissipate heat quickly enough.
 
 When your laptop reaches critical temperatures, throttling kicks in. Your CPU and GPU clock speeds drop, applications lag, fans spin louder, and the keyboard or palm rest becomes uncomfortable. Preventing this requires a two-pronged approach: reducing thermal generation and improving heat dissipation.
 
-Step 2: Monitor Your System Temperatures
+Step 2 - Monitor Your System Temperatures
 
 Before optimizing, you need visibility into what's happening. Several tools provide real-time temperature data.
 
@@ -86,7 +86,7 @@ Quick check via thermal_zone
 cat /sys/class/thermal/thermal_zone*/temp
 ```
 
-Cross-Platform: Glances
+Cross-Platform - Glances
 
 For an unified monitoring view across platforms:
 
@@ -97,7 +97,7 @@ glances
 
 Glances displays CPU temperature alongside CPU, memory, and network usage, useful for identifying which application is generating the most heat.
 
-Step 3: Identifying Resource-Hungry Processes
+Step 3 - Identifying Resource-Hungry Processes
 
 When temperatures spike, you need to identify the culprits. Video calls involve many processes, but often one misbehaving tab or application creates disproportionate load.
 
@@ -139,7 +139,7 @@ done
 
 Run this in a terminal window while in a video call to correlate temperature spikes with specific applications.
 
-Step 4: Browser Optimization for Video Calls
+Step 4 - Browser Optimization for Video Calls
 
 Browsers often consume more resources than dedicated applications. If you use web-based video calls, these optimizations help:
 
@@ -175,7 +175,7 @@ Use Native Applications When Possible
 
 Desktop applications like Zoom, Teams, and Slack typically perform better than browser versions. They have direct access to system APIs, better resource management, and fewer background processes.
 
-Step 5: System-Level Optimizations
+Step 5 - System-Level Optimizations
 
 Power Settings
 
@@ -230,7 +230,7 @@ Run as cron job every 30 minutes during calls
 notify-send "Thermal Check" "Consider:  Laptop stand?  External fan?  Ventilation?" --expire-time=10
 ```
 
-Step 6: Application-Specific Optimizations
+Step 6 - Application-Specific Optimizations
 
 Video Quality Settings
 
@@ -258,7 +258,7 @@ Zoom command-line options to reduce quality
 open -a "Zoom.us" --args --disable-video
 ```
 
-Step 7: Proactive Monitoring Scripts
+Step 7 - Proactive Monitoring Scripts
 
 Create a thermal monitoring script that alerts you before critical temperatures:
 
@@ -281,7 +281,7 @@ Run this via cron every 5 minutes during calls:
 */5 * * * * /path/to/thermal-alert.sh
 ```
 
-Step 8: Build a Video Call Thermal Workflow
+Step 8 - Build a Video Call Thermal Workflow
 
 Combining these techniques creates a sustainable workflow:
 

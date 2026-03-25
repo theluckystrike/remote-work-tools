@@ -26,14 +26,14 @@ Table of Contents
 - [Onboarding Integration](#onboarding-integration)
 - [Technology Selection](#technology-selection)
 - [Measuring Success](#measuring-success)
-- [Real-World Implementation: Case Studies](#real-world-implementation-case-studies)
+- [Real-World Implementation - Case Studies](#real-world-implementation-case-studies)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Evolution Path for Growing Teams](#evolution-path-for-growing-teams)
-- [Documentation Health Audit: Finding Your Current State](#documentation-health-audit-finding-your-current-state)
-- [Tool Migration Guide: When to Switch](#tool-migration-guide-when-to-switch)
-- [Monitoring Documentation Health: Ongoing Metrics](#monitoring-documentation-health-ongoing-metrics)
-- [Checklist: Is Your Documentation Ready to Scale?](#checklist-is-your-documentation-ready-to-scale)
-- [Quick Start: Implement the Most Important Fix First](#quick-start-implement-the-most-important-fix-first)
+- [Documentation Health Audit - Finding Your Current State](#documentation-health-audit-finding-your-current-state)
+- [Tool Migration Guide - When to Switch](#tool-migration-guide-when-to-switch)
+- [Monitoring Documentation Health - Ongoing Metrics](#monitoring-documentation-health-ongoing-metrics)
+- [Checklist - Is Your Documentation Ready to Scale?](#checklist-is-your-documentation-ready-to-scale)
+- [Quick Start - Implement the Most Important Fix First](#quick-start-implement-the-most-important-fix-first)
 
 This guide covers practical approaches to managing wiki growth while maintaining quality, discoverability, and contributor motivation across remote teams of varying sizes.
 
@@ -47,13 +47,13 @@ Tiered Documentation Structure
 
 The most effective approach to scaling wiki content is implementing a tiered structure that matches information types to their expected lifespan and audience.
 
-Tier 1: Evergreen Reference includes pages that change infrequently and apply to everyone. Your deployment procedures, coding standards, architecture decision records, and API documentation belong here. These pages should be highly polished, formally reviewed, and clearly owned. Target keeping this tier to under 50 core pages that form the backbone of team operations.
+Tier 1 - Evergreen Reference includes pages that change infrequently and apply to everyone. Your deployment procedures, coding standards, architecture decision records, and API documentation belong here. These pages should be highly polished, formally reviewed, and clearly owned. Target keeping this tier to under 50 core pages that form the backbone of team operations.
 
-Tier 2: Team-Specific Guides covers information relevant to specific subteams or workflows. Backend debugging procedures, design system usage, and sprint retrospective formats live here. This tier grows naturally as teams specialize, and each subteam should have an identified owner responsible for periodic review.
+Tier 2 - Team-Specific Guides covers information relevant to specific subteams or workflows. Backend debugging procedures, design system usage, and sprint retrospective formats live here. This tier grows naturally as teams specialize, and each subteam should have an identified owner responsible for periodic review.
 
-Tier 3: Project Documentation contains transient content that becomes outdated quickly. Feature specifications, project postmortems, and experiment results fall into this category. These pages should have clear archival or deletion policies, typically archiving within three months of project completion.
+Tier 3 - Project Documentation contains transient content that becomes outdated quickly. Feature specifications, project postmortems, and experiment results fall into this category. These pages should have clear archival or deletion policies, typically archiving within three months of project completion.
 
-Tier 4: Historical Archives preserves institutional knowledge without cluttering active searches. When pages in Tier 2 or Tier 3 become outdated, move them here rather than deleting. Use a separate search index or clearly marked sections so team members understand these are historical records, not current guidance.
+Tier 4 - Historical Archives preserves institutional knowledge without cluttering active searches. When pages in Tier 2 or Tier 3 become outdated, move them here rather than deleting. Use a separate search index or clearly marked sections so team members understand these are historical records, not current guidance.
 
 Implement this structure explicitly rather than hoping organic organization emerges. Add front matter fields to categorize each page into tiers, create landing pages for each tier that explain its purpose and expected maintenance, and build navigation that makes the hierarchy obvious.
 
@@ -154,13 +154,13 @@ Onboarding velocity measures how quickly new hires become productive. While docu
 
 Set up dashboards tracking these metrics and review them monthly. Documentation scaling is ongoing work, not an one-time project, continuous measurement enables continuous improvement.
 
-Real-World Implementation: Case Studies
+Real-World Implementation - Case Studies
 
-Case Study 1: Growing from 15 to 30 People
+Case Study 1 - Growing from 15 to 30 People
 
-Initial state: 150 pages, flat structure, no clear ownership, search often returns irrelevant results.
+Initial state - 150 pages, flat structure, no clear ownership, search often returns irrelevant results.
 
-Problem identified: New hires complaining "I can't find the deployment guide," search for "deploy" returned pages about feature deployment, scaling deployment, API deployment, no clarity.
+Problem identified - New hires complaining "I can't find the deployment guide," search for "deploy" returned pages about feature deployment, scaling deployment, API deployment, no clarity.
 
 Intervention:
 - Implemented tiered structure: Tier 1 (core), Tier 2 (team-specific), Tier 3 (projects)
@@ -173,13 +173,13 @@ Results (after 3 months):
 - New hire onboarding time dropped from 2 weeks to 1.2 weeks
 - Contributor count increased (people stopped being intimidated by the size)
 
-Key lesson: Adding structure before you're drowning is easier than fixing it after. The 30-person size is the inflection point where flat structures break.
+Key lesson - Adding structure before you're drowning is easier than fixing it after. The 30-person size is the inflection point where flat structures break.
 
-Case Study 2: Enterprise Knowledge Base Scaling (150+ people)
+Case Study 2 - Enterprise Knowledge Base Scaling (150+ people)
 
-Initial state: 1200+ pages, outdated content mixed with current, multiple sections contradicting each other, dedicated documentation team struggling.
+Initial state - 1200+ pages, outdated content mixed with current, multiple sections contradicting each other, dedicated documentation team struggling.
 
-Problem identified: Team members googling external resources instead of using internal KB (signal that internal search wasn't working). Duplicate documentation in multiple sections. New project documentation never made it into the KB.
+Problem identified - Team members googling external resources instead of using internal KB (signal that internal search wasn't working). Duplicate documentation in multiple sections. New project documentation never made it into the KB.
 
 Intervention:
 - Implemented dedicated documentation ownership model
@@ -193,7 +193,7 @@ Results (6 months):
 - Search quality improved from "I'll just ask in Slack" to "I found it in KB first"
 - Documentation contribution distribution broadened (used to be 5% of team, now 25%)
 
-Key lesson: At 100+ people, documentation needs its own ownership structure. Can't be volunteer-run or bottlenecked through a single team.
+Key lesson - At 100+ people, documentation needs its own ownership structure. Can't be volunteer-run or bottlenecked through a single team.
 
 Common Pitfalls to Avoid
 
@@ -201,43 +201,43 @@ Several approaches seem helpful but often create more problems than they solve.
 
 Over-categorization creates complex hierarchies that mirror organizational charts but frustrate users who don't know which bucket contains what. If your navigation has 8+ top-level categories, you're doing it wrong. Prefer flat structures with powerful search over deep hierarchies.
 
-Implementation: Start with 4-5 broad categories. Use tags and search refinement rather than hierarchies. Example:
+Implementation - Start with 4-5 broad categories. Use tags and search refinement rather than hierarchies. Example:
 - Wrong: 12 categories including "Tools/Deployment/Infrastructure/AWS/EC2/Instance Setup"
 - Right: 4 categories + Tags: "deployment-tools", "aws", "instance-configuration"
 
 Perfectionism requirements slow documentation and discourage contribution. Accept that first drafts can be imperfect and improve over time. The best documentation is documentation that exists and gets used, not documentation that's perfect but never written.
 
-Implementation: Version your contribution standards. Tier 1 docs require review. Tier 2 docs get basic review (30 minutes). Tier 3 docs can publish draft. This differentiates effort by content importance.
+Implementation - Version your contribution standards. Tier 1 docs require review. Tier 2 docs get basic review (30 minutes). Tier 3 docs can publish draft. This differentiates effort by content importance.
 
 Gatekeeping review processes that require approval before publishing create bottlenecks. Consider lightweight review for critical content while allowing faster iteration on less critical pages.
 
-Implementation: Pre-approval for Tier 1 (architecture, core processes). Async review for Tier 2 (team-specific). Self-publish for Tier 3 (project work). Set review SLA at 24 hours max.
+Implementation - Pre-approval for Tier 1 (architecture, core processes). Async review for Tier 2 (team-specific). Self-publish for Tier 3 (project work). Set review SLA at 24 hours max.
 
 Ignoring non-technical contributors when selecting tools or designing workflows. If your team includes product managers, designers, or other non-developers, their needs matter. Documentation that only developers can contribute to misses their valuable perspective.
 
-Implementation: If using Git-based documentation, provide a simple web editor. Test your tool with non-technical team members. Ensure they can contribute without learning Git/Markdown.
+Implementation - If using Git-based documentation, provide a simple web editor. Test your tool with non-technical team members. Ensure they can contribute without learning Git/Markdown.
 
 Assuming all content has the same lifespan. Project documentation becomes stale in 3 months. Architecture decision records should last years. Treating them the same breaks your review process.
 
-Implementation: Set different review cycles by tier. Tier 1: 12-month review. Tier 2: 6-month review. Tier 3: 3-month archive by default.
+Implementation - Set different review cycles by tier. Tier 1: 12-month review. Tier 2: 6-month review. Tier 3: 3-month archive by default.
 
 Evolution Path for Growing Teams
 
 This is how documentation scaling typically evolves:
 
-Stage 1 (5-10 people): Simple wiki or Google Drive folder, no structure needed, everything in shared docs.
+Stage 1 (5-10 people) - Simple wiki or Google Drive folder, no structure needed, everything in shared docs.
 
-Stage 2 (10-20 people): Basic categorization appears (Frontend, Backend, DevOps), some duplication but manageable.
+Stage 2 (10-20 people) - Basic categorization appears (Frontend, Backend, DevOps), some duplication but manageable.
 
-Stage 3 (20-40 people): Scaling problems hit hard. Search sucks. Duplicates abound. Time to implement tiered structure + ownership model.
+Stage 3 (20-40 people) - Scaling problems hit hard. Search sucks. Duplicates abound. Time to implement tiered structure + ownership model.
 
-Stage 4 (40-100 people): Dedicated documentation tooling needed. Consider tools like Confluence or Notion with search. Implement formal ownership + review processes.
+Stage 4 (40-100 people) - Dedicated documentation tooling needed. Consider tools like Confluence or Notion with search. Implement formal ownership + review processes.
 
-Stage 5 (100+ people): Distributed ownership model essential. Each team maintains their section. Central team focuses on tooling, search, onboarding integration, archival.
+Stage 5 (100+ people) - Distributed ownership model essential. Each team maintains their section. Central team focuses on tooling, search, onboarding integration, archival.
 
 Scaling documentation effectively requires ongoing attention, appropriate tools, and realistic expectations. The strategies in this guide form a foundation, but adapt them to your team's specific context, size, and technical comfort level.
 
-Documentation Health Audit: Finding Your Current State
+Documentation Health Audit - Finding Your Current State
 
 Before implementing scaling strategies, understand where you are:
 
@@ -275,9 +275,9 @@ Create a spreadsheet tracking:
 - Usage (views, searches that land here)
 - Relevance (still accurate?)
 
-Patterns will emerge: outdated sections, missing owners, stale pages, over-categorization.
+Patterns will emerge - outdated sections, missing owners, stale pages, over-categorization.
 
-Tool Migration Guide: When to Switch
+Tool Migration Guide - When to Switch
 
 You'll eventually outgrow your current tool. Recognize the signs:
 
@@ -303,7 +303,7 @@ Migration process:
 6. Sunset old tool: Stop accepting updates there, send traffic to new tool
 7. Archive old tool: Keep for historical reference
 
-Monitoring Documentation Health: Ongoing Metrics
+Monitoring Documentation Health - Ongoing Metrics
 
 Set up monthly tracking to prevent future scaling crises:
 
@@ -317,7 +317,7 @@ Set up monthly tracking to prevent future scaling crises:
 
 If any metric hits "Warning," investigate. If it hits "Critical," that's your sprint focus.
 
-Checklist: Is Your Documentation Ready to Scale?
+Checklist - Is Your Documentation Ready to Scale?
 
 Use this to assess whether you're ready to implement scaling strategies:
 
@@ -334,19 +334,19 @@ Use this to assess whether you're ready to implement scaling strategies:
 
 If you've checked 4+, it's time to implement scaling strategies. Don't wait until all 8 are checked, that's too late.
 
-Quick Start: Implement the Most Important Fix First
+Quick Start - Implement the Most Important Fix First
 
 Too much to do? Prioritize this way:
 
-Week 1: Implement tiered structure (separate Tier 1, 2, 3 content). Takes 2 hours, has immediate impact on discoverability.
+Week 1 - Implement tiered structure (separate Tier 1, 2, 3 content). Takes 2 hours, has immediate impact on discoverability.
 
-Week 2-3: Add ownership model. Assign clear owner to major sections. Takes 4 hours, prevents content decay.
+Week 2-3 - Add ownership model. Assign clear owner to major sections. Takes 4 hours, prevents content decay.
 
-Week 4-5: Implement stale-page alerts. Automate notifications of pages not reviewed in 6 months. Takes 2 hours, ongoing maintenance.
+Week 4-5 - Implement stale-page alerts. Automate notifications of pages not reviewed in 6 months. Takes 2 hours, ongoing maintenance.
 
-Month 2: Integrate documentation into onboarding. Make it part of the new hire checklist.
+Month 2 - Integrate documentation into onboarding. Make it part of the new hire checklist.
 
-Month 3: Set up search analytics. Start reviewing what people search for that returns no results.
+Month 3 - Set up search analytics. Start reviewing what people search for that returns no results.
 
 After these five steps, your documentation scaling is under control. Everything else is optimization.
 
@@ -358,7 +358,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -370,7 +370,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

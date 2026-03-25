@@ -43,7 +43,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Establishing Feedback Categories
+Step 1 - Establishing Feedback Categories
 
 Not all feedback needs the same urgency or format. Divide your feedback into three categories to match the right medium to the message.
 
@@ -53,7 +53,7 @@ Daily feedback addresses questions, clarifications, and quick updates. Async too
 
 Deep feedback encompasses performance reviews, project retrospectives, and architectural decisions. These require thoughtful, detailed responses best delivered through documented async channels. Code review comments, written project postmortems, and career development discussions belong here.
 
-Step 2: The Async Code Review Framework
+Step 2 - The Async Code Review Framework
 
 For developer teams, code reviews represent the most frequent feedback opportunity. A well-structured async code review process sets the foundation for your broader feedback culture.
 
@@ -76,13 +76,13 @@ Constructive Code Review Comments
 Structure feedback using the CODI framework (Context, Observation, Demonstration, Impact):
 
 ```python
-Instead of: "This function is wrong."
+Instead of - "This function is wrong."
 
 Use CODI format:
 Context: When processing user authentication tokens
-Observation: The function doesn't handle expired tokens gracefully
-Demonstration: See line 45 - token expiry exception bubbles up uncaught
-Impact: Users see 500 errors instead of helpful login prompts
+Observation - The function doesn't handle expired tokens gracefully
+Demonstration - See line 45 - token expiry exception bubbles up uncaught
+Impact - Users see 500 errors instead of helpful login prompts
 def authenticate_user(token):
     try:
         user = validate_token(token)
@@ -94,7 +94,7 @@ def authenticate_user(token):
 
 This format transforms vague criticism into actionable improvement suggestions.
 
-Step 3: Written Feedback Templates
+Step 3 - Written Feedback Templates
 
 Create templates that guide team members toward effective async feedback. These reduce the friction of writing feedback and ensure consistency.
 
@@ -103,7 +103,7 @@ Pull Request Feedback Template
 ```markdown
 Review Summary
 
-Overall impression: [Approve / Request Changes / Comment]
+Overall impression - [Approve / Request Changes / Comment]
 
 What Works Well
 - [Specific positive observations with line references]
@@ -121,11 +121,11 @@ Nitpicks (Optional)
 Peer Feedback Template
 
 ```markdown
-Step 4: Peer Feedback: [Project/Week]
+Step 4 - Peer Feedback: [Project/Week]
 
-Feedback for: [Name]
-Given by: [Name]
-Date: [YYYY-MM-DD]
+Feedback for - [Name]
+Given by - [Name]
+Date - [YYYY-MM-DD]
 
 Strengths Observed
 1. [Specific example of effective work]
@@ -139,7 +139,7 @@ Appreciation
 [Something they did that added value to the team]
 ```
 
-Step 5: Build Psychological Safety
+Step 5 - Build Psychological Safety
 
 An async feedback culture only works when team members feel safe receiving criticism. Without psychological safety, feedback becomes performative, people say what they think others want to hear rather than what needs to be said.
 
@@ -147,7 +147,7 @@ Leaders set the tone by receiving feedback gracefully. When a senior developer p
 
 Create feedback rituals that reinforce safety. Weekly team shoutouts in async updates, recognition channels where peers celebrate each other's contributions, and blameless postmortems all contribute to an environment where honest feedback thrives.
 
-Step 6: Implementing Feedback Loops
+Step 6 - Implementing Feedback Loops
 
 Structured feedback loops ensure consistent growth conversations happen without relying on memory or individual initiative.
 
@@ -177,7 +177,7 @@ Quarterly Feedback Cycles
 
 Quarterly reviews work well for feedback covering multiple dimensions, technical skills, collaboration, communication, and career progression. Use a structured rubric that both parties complete independently, then discuss discrepancies during a sync call.
 
-Step 7: Tools That Support Async Feedback
+Step 7 - Tools That Support Async Feedback
 
 The right tools amplify your feedback culture. Choose platforms that support asynchronous interaction, preserve context, and integrate with existing workflows.
 
@@ -189,7 +189,7 @@ Knowledge bases in Notion, Confluence, or GitBook preserve institutional knowled
 
 Dedicated feedback tools like 15Five or Culture Amp scale feedback collection across larger organizations while maintaining consistency.
 
-Step 8: Measuring Feedback Culture Health
+Step 8 - Measuring Feedback Culture Health
 
 Track indicators that reveal whether your async feedback culture functions effectively.
 
@@ -198,7 +198,7 @@ Track indicators that reveal whether your async feedback culture functions effec
 - Sentiment scores: Regular pulse surveys asking about psychological safety and feedback helpfulness.
 - Promotion-ready assessments: Do managers have sufficient information to evaluate growth without relying solely on recent sync conversations?
 
-Step 9: Scaling Feedback Tools to Different Team Sizes
+Step 9 - Scaling Feedback Tools to Different Team Sizes
 
 Small teams (3-8 people):
 - Use GitHub PR comments and Slack threads as primary feedback channels
@@ -217,30 +217,30 @@ Established teams (20+ people):
 - Track feedback metrics (participation rate, completion time)
 - Regular feedback training for managers and senior engineers
 
-Step 10: Build Feedback Into Your Development Workflow
+Step 10 - Build Feedback Into Your Development Workflow
 
 Integrate feedback collection into existing processes rather than adding separate channels:
 
 ```javascript
 // .github/pr-template.md - Feedback collection embedded in PR process
-Step 11: Changes Made
+Step 11 - Changes Made
 [Description]
 
-Step 12: Feedback Requested
+Step 12 - Feedback Requested
 - [ ] Does the approach make sense?
 - [ ] Are there edge cases I missed?
 - [ ] Performance improvements?
 - [ ] Documentation clarity?
 
-Step 13: Feedback I'm Providing to Others
+Step 13 - Feedback I'm Providing to Others
 - [Link to PR where I'm reviewing]
 ```
 
 This embeds feedback seeking into the normal development cycle.
 
-Step 14: Handling Difficult Feedback Scenarios
+Step 14 - Handling Difficult Feedback Scenarios
 
-Scenario 1: Feedback that's too critical
+Scenario 1 - Feedback that's too critical
 
 When you receive harsh feedback:
 1. Don't respond immediately
@@ -248,21 +248,21 @@ When you receive harsh feedback:
 3. Ask for clarification if unclear: "Help me understand what you observed"
 4. Focus on the behavior, not the person: "I heard criticism about the approach, not about me"
 
-Scenario 2: Feedback that's ignored
+Scenario 2 - Feedback that's ignored
 
 When your feedback gets no response:
 1. Follow up with a direct question: "Did you get a chance to review my feedback?"
 2. Check if it was lost in Slack noise, repeat in a new message
 3. Offer sync discussion: "Happy to discuss this on a call if it helps"
 
-Scenario 3: Feedback that creates conflict
+Scenario 3 - Feedback that creates conflict
 
 When feedback sparks disagreement:
 1. Acknowledge valid points: "You're right that [specific point]"
 2. Propose async discussion: "Let's think about this separately and discuss Thursday"
 3. Escalate if needed: "This requires leadership input, I'll loop in [manager]"
 
-Step 15: Feedback Effectiveness Scoring
+Step 15 - Feedback Effectiveness Scoring
 
 After 30 days of implementing async feedback, score how well it's working:
 
@@ -291,14 +291,14 @@ Efficiency
 - Response times are reasonable: ____
 - Feedback doesn't create bottlenecks: ____
 
-Average Score: ____
+Average Score - ____
 
-Scores below 3.5: Focus on psychological safety first
-Scores 3.5-4.0: Improve feedback specificity and timeliness
-Scores above 4.0: Maintain current approach and expand to new areas
+Scores below 3.5 - Focus on psychological safety first
+Scores 3.5-4.0 - Improve feedback specificity and timeliness
+Scores above 4.0 - Maintain current approach and expand to new areas
 ```
 
-Step 16: Common Pitfalls to Avoid
+Step 16 - Common Pitfalls to Avoid
 
 Async feedback cultures fail when teams neglect the human element. Purely text-based communication loses nuance, re-read messages with empathy before assuming negative intent. Avoid the trap of feedback overload by respecting category boundaries, don't send deep feedback through daily channels.
 

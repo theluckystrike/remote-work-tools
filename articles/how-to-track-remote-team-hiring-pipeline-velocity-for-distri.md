@@ -27,7 +27,7 @@ Table of Contents
 - [Automating Velocity Alerts](#automating-velocity-alerts)
 - [Visualizing the Pipeline](#visualizing-the-pipeline)
 - [Optimizing for Remote Velocity](#optimizing-for-remote-velocity)
-- [Candidate Handoff: Jane Doe](#candidate-handoff-jane-doe)
+- [Candidate Handoff - Jane Doe](#candidate-handoff-jane-doe)
 - [Comparing ATS Tools for Distributed Hiring Velocity](#comparing-ats-tools-for-distributed-hiring-velocity)
 - [Detecting Timezone Bottlenecks Programmatically](#detecting-timezone-bottlenecks-programmatically)
 - [Building a Pipeline Velocity Scorecard](#building-a-pipeline-velocity-scorecard)
@@ -196,7 +196,7 @@ Create timezone-aware scheduling blocks. Group interviews by region. If you have
 Document handoff protocols. When a recruiter in one timezone hands off to a hiring manager in another, use structured handoff documents:
 
 ```markdown
-Candidate Handoff: Jane Doe
+Candidate Handoff - Jane Doe
 - Technical level: Senior
 - Remote experience: 4 years
 - Key strength: Distributed team collaboration
@@ -263,9 +263,9 @@ Offer | 41 hrs | 24 hrs | WARN
 ------------------+------------+--------+--------
 End-to-End | 26 days | 21 days| WARN
 
-Top Bottleneck: Technical stage (+20 hrs over target)
-Root Cause: UTC-5 / UTC+8 timezone pair. no APAC coverage
-Action: Schedule 2x async take-home assessments this week
+Top Bottleneck - Technical stage (+20 hrs over target)
+Root Cause - UTC-5 / UTC+8 timezone pair. no APAC coverage
+Action - Schedule 2x async take-home assessments this week
 ```
 
 This format forces weekly accountability and surfaces bottlenecks before they compound. Assign a recruiting lead to own the scorecard and present findings in your weekly all-hands or team standup.

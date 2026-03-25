@@ -36,7 +36,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand EU Social Security Coordination
+Step 1 - Understand EU Social Security Coordination
 
 The EU has coordinated social security systems through regulations that determine which country's rules apply when you work across borders. The core principle is that you typically pay social security in only one country at a time, even if you work in multiple EU nations.
 
@@ -44,7 +44,7 @@ When you're employed by a company in one EU country and temporarily work from an
 
 The key regulation is EC Regulation 883/2004, which governs social security coordination across EU member states. This regulation ensures that workers don't lose coverage when moving between countries and prevents duplicate contributions.
 
-Step 2: The 90-Day Rule Explained
+Step 2 - The 90-Day Rule Explained
 
 The most critical timeframe for remote workers is 90 days. If you work remotely from an EU country other than your home country, you can typically remain covered by your home country's social security system for up to 90 days, provided certain conditions are met.
 
@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
 This script helps you monitor your presence in any EU country. Run it regularly or integrate it with calendar automation to track your actual work locations.
 
-Step 3: The A1 Certificate: Your Key Document
+Step 3 - The A1 Certificate: Your Key Document
 
 When working remotely from another EU country while remaining employed in your home country, you need an A1 certificate. This document proves you're covered by your home country's social security system and don't need to contribute in the host country.
 
@@ -151,30 +151,30 @@ A1_APPLICATION/
  bank_statements.pdf          # Proof of salary payments (if self-employed)
 ```
 
-Step 4: Practical Scenarios for Developers
+Step 4 - Practical Scenarios for Developers
 
-Scenario 1: Short-Term Client Project in Berlin
+Scenario 1 - Short-Term Client Project in Berlin
 
 You're a freelance developer based in Amsterdam, and a client in Berlin needs you on-site for a three-week project. Your Dutch social security coverage continues through the A1 certificate. After 90 days in Germany, you'd need to register with German social security.
 
-Scenario 2: Extended Family Visit in Portugal
+Scenario 2 - Extended Family Visit in Portugal
 
 You're employed full-time remotely by a Spanish company, living in Poland. You plan to stay with family in Portugal for two months. Your Spanish employer should obtain an A1 certificate covering your Portugal stay. After 90 days, Portugal's social security rules would apply.
 
-Scenario 3: Digital Nomad Lifestyle
+Scenario 3 - Digital Nomad Lifestyle
 
 You work remotely for an US company while traveling through multiple EU countries. Each country has different rules. Your US employer's social security contributions don't cover you in the EU. You need to either maintain coverage in one EU country (where you have residency or significant presence) or arrange private insurance that meets local requirements.
 
-Step 5: What Happens If You Exceed the 90 Days
+Step 5 - What Happens If You Exceed the 90 Days
 
 If you work beyond 90 days in an EU country without proper arrangements, several consequences may apply:
 
 - Back payments: You may be required to pay social security contributions retroactively to the host country, often at higher rates than your home country.
 - Gaps in coverage: Your home country may no longer provide coverage, leaving you in a gap between systems.
-- Penalties: Some countries impose fines for non-compliance, though enforcement varies significantly.
+- Penalties - Some countries impose fines for non-compliance, though enforcement varies significantly.
 - Legal complications: Continued work without proper registration could affect your legal status for future visa or residency applications.
 
-Step 6: Self-Employed Developers: Additional Considerations
+Step 6 - Self-Employed Developers: Additional Considerations
 
 If you're self-employed and working remotely from an EU country, the rules differ slightly. You remain responsible for your own social security contributions in your home country or the country where your business is registered. The 90-day rule still applies, but you're directly accountable for compliance.
 
@@ -197,61 +197,61 @@ Complex situations benefit from professional guidance:
 
 A social security consultant or international tax advisor can review your specific situation and ensure you're compliant. The cost of professional advice typically far outweighs the potential penalties and stress of non-compliance.
 
-Step 7: Country-Specific Guidance
+Step 7 - Country-Specific Guidance
 
 Social security rules vary by EU country. Here's practical information for common destinations:
 
-Portugal: Digital nomad visas don't automatically qualify for social security coverage. Remote workers on this visa typically need to register with Portuguese social security (Segurança Social) if staying beyond 90 days, even with an A1 certificate from another country. Cost: approximately 11-13% of income in contributions.
+Portugal - Digital nomad visas don't automatically qualify for social security coverage. Remote workers on this visa typically need to register with Portuguese social security (Segurança Social) if staying beyond 90 days, even with an A1 certificate from another country. Cost - approximately 11-13% of income in contributions.
 
-Spain: Workers from other EU countries can remain on home country coverage for up to two years under certain conditions. After that, Spanish social security (Seguridad Social) becomes mandatory. The registration process is straightforward but requires Spanish-language documentation.
+Spain - Workers from other EU countries can remain on home country coverage for up to two years under certain conditions. After that, Spanish social security (Seguridad Social) becomes mandatory. The registration process is straightforward but requires Spanish-language documentation.
 
-France: France's social security system is complex for remote workers. If you work for a non-French employer while physically present in France for more than 30 days, you generally need French social security registration. This can happen relatively quickly, some freelancers have triggered requirements within weeks of arriving.
+France - France's social security system is complex for remote workers. If you work for a non-French employer while physically present in France for more than 30 days, you generally need French social security registration. This can happen relatively quickly, some freelancers have triggered requirements within weeks of arriving.
 
-Germany: Germany treats remote work similarly to physical presence. After 90 days, German social insurance becomes applicable. However, Germany has favorable agreements with many non-EU countries, potentially offering exemptions depending on your home country.
+Germany - Germany treats remote work similarly to physical presence. After 90 days, German social insurance becomes applicable. However, Germany has favorable agreements with many non-EU countries, potentially offering exemptions depending on your home country.
 
-Netherlands: Dutch social security registration is straightforward for those legally living in the country. Remote workers with valid residence arrangements rarely face complications. The process is digital-friendly and typically faster than other EU countries.
+Netherlands - Dutch social security registration is straightforward for those legally living in the country. Remote workers with valid residence arrangements rarely face complications. The process is digital-friendly and typically faster than other EU countries.
 
-Italy: Italy's approach varies based on your visa status. EU nationals have favorable treatment, but documentation requirements can be strict. Expect to provide detailed proof of remote work arrangements and employer verification.
+Italy - Italy's approach varies based on your visa status. EU nationals have favorable treatment, but documentation requirements can be strict. Expect to provide detailed proof of remote work arrangements and employer verification.
 
 For any country-specific guidance, contact the national social security authority (listed below) directly or hire an international tax advisor who specializes in your origin country + destination country combinations.
 
-Step 8: National Social Security Authority Contact Information
+Step 8 - National Social Security Authority Contact Information
 
 ```
-Portugal: Segurança Social
-- Website: https://www.seg-social.pt/
+Portugal - Segurança Social
+- Website - https://www.seg-social.pt/
 - International enquiries: +351 21 012 30 00
 
-Spain: Seguridad Social
-- Website: https://www.seg-social.es/
+Spain - Seguridad Social
+- Website - https://www.seg-social.es/
 - Contact form available online
 
-France: Sécurité Sociale
-- Website: https://www.securite-sociale.fr/
+France - Sécurité Sociale
+- Website - https://www.securite-sociale.fr/
 - English support: https://www.ameli.fr/english
 
-Germany: Deutsche Rentenversicherung
-- Website: https://www.deutsche-rentenversicherung.de/
+Germany - Deutsche Rentenversicherung
+- Website - https://www.deutsche-rentenversicherung.de/
 - International enquiries available
 
-Netherlands: SVM (Sociale Verzekeringsbank)
-- Website: https://www.svb.nl/
+Netherlands - SVM (Sociale Verzekeringsbank)
+- Website - https://www.svb.nl/
 - English language support available
 
-Italy: INPS (Istituto Nazionale della Previdenza Sociale)
-- Website: https://www.inps.it/
+Italy - INPS (Istituto Nazionale della Previdenza Sociale)
+- Website - https://www.inps.it/
 - English translations available online
 ```
 
-Step 9: Tax Implications Beyond Social Security
+Step 9 - Tax Implications Beyond Social Security
 
 Social security contributions are only part of the picture. Remote work from EU countries may trigger tax obligations independent of social security:
 
-Personal income tax: Many EU countries tax income earned by residents, regardless of where the employer is based. A 60-day stay might not trigger tax residency, but working full-time while residing in a country often creates tax obligations.
+Personal income tax - Many EU countries tax income earned by residents, regardless of where the employer is based. A 60-day stay might not trigger tax residency, but working full-time while residing in a country often creates tax obligations.
 
-VAT/GST registration: Self-employed developers may need to register for VAT in the host country if providing services to EU customers. This is separate from social security and creates additional administrative burden.
+VAT/GST registration - Self-employed developers may need to register for VAT in the host country if providing services to EU customers. This is separate from social security and creates additional administrative burden.
 
-Reporting requirements: Your home country may require you to disclose foreign work income. Some countries tax income regardless of where earned. Others only tax income sourced domestically. Understand your home country's rules before working remotely from the EU.
+Reporting requirements - Your home country may require you to disclose foreign work income. Some countries tax income regardless of where earned. Others only tax income sourced domestically. Understand your home country's rules before working remotely from the EU.
 
 These tax implications often exceed social security considerations in complexity. Consult a tax professional familiar with your specific home and host country combination before extended remote work from any EU country.
 
@@ -292,21 +292,21 @@ Hidden Costs of Non-Compliance
 
 Beyond penalties, non-compliance creates ripple effects:
 
-Visa complications: Working without proper social security registration can violate visa terms, potentially causing revocation and difficulty obtaining future visas.
+Visa complications - Working without proper social security registration can violate visa terms, potentially causing revocation and difficulty obtaining future visas.
 
-Residency challenges: If you ever apply for residency or citizenship in any EU country, social security gaps create complications during background checks.
+Residency challenges - If you ever apply for residency or citizenship in any EU country, social security gaps create complications during background checks.
 
-Healthcare coverage gaps: Missing contributions may invalidate your healthcare coverage. If you face a medical emergency during a coverage gap, costs fall entirely on you.
+Healthcare coverage gaps - Missing contributions may invalidate your healthcare coverage. If you face a medical emergency during a coverage gap, costs fall entirely on you.
 
-Pension contributions: Years without proper social security contributions mean reduced pension eligibility or lower retirement payouts decades later.
+Pension contributions - Years without proper social security contributions mean reduced pension eligibility or lower retirement payouts decades later.
 
-Bank account restrictions: Some banks ask about income sources during account opening. Non-compliant working arrangements may trigger account closure.
+Bank account restrictions - Some banks ask about income sources during account opening. Non-compliant working arrangements may trigger account closure.
 
-Client liability: If your client discovers you're working without proper authorization, they may face fines or penalties, potentially ending the work relationship.
+Client liability - If your client discovers you're working without proper authorization, they may face fines or penalties, potentially ending the work relationship.
 
 The financial impact of non-compliance extends far beyond immediate penalties.
 
-Step 10: Planning for Success
+Step 10 - Planning for Success
 
 Remote work from EU countries is entirely viable with proper planning:
 

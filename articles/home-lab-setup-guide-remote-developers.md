@@ -19,20 +19,20 @@ A home lab gives you a real infrastructure environment to experiment with, a pla
 
 Table of Contents
 
-- [Hardware: What to Buy in 2026](#hardware-what-to-buy-in-2026)
-- [Hypervisor: Proxmox VE](#hypervisor-proxmox-ve)
+- [Hardware - What to Buy in 2026](#hardware-what-to-buy-in-2026)
+- [Hypervisor - Proxmox VE](#hypervisor-proxmox-ve)
 - [Create Your First VM](#create-your-first-vm)
-- [Network: VLANs for Isolation](#network-vlans-for-isolation)
-- [DNS: pi-hole + Unbound](#dns-pi-hole-unbound)
+- [Network - VLANs for Isolation](#network-vlans-for-isolation)
+- [DNS - pi-hole + Unbound](#dns-pi-hole-unbound)
 - [Services Worth Running in a Home Lab](#services-worth-running-in-a-home-lab)
 - [SSH Config for Lab Access](#ssh-config-for-lab-access)
 - [Remote Access via Tailscale](#remote-access-via-tailscale)
-- [Backups: The Step Most People Skip](#backups-the-step-most-people-skip)
+- [Backups - The Step Most People Skip](#backups-the-step-most-people-skip)
 - [Related Reading](#related-reading)
 
-This guide covers: hardware choice, hypervisor installation, network setup, and the services worth running in a home lab for development work.
+This guide covers - hardware choice, hypervisor installation, network setup, and the services worth running in a home lab for development work.
 
-Hardware: What to Buy in 2026
+Hardware - What to Buy in 2026
 
 The sweet spot for a developer home lab is a small form factor PC or repurposed workstation. Avoid consumer NAS devices. they limit your software options.
 
@@ -45,11 +45,11 @@ Recommended builds:
 | Full dev cluster | 2x HP EliteDesk 800 G3 (used), 32GB each | ~$250 total |
 | Repurposed workstation | Used Lenovo ThinkStation P320, 64GB ECC RAM | ~$200 used |
 
-Key specs to prioritize: RAM (you need at least 32GB for running multiple VMs), SSD storage (spinning disk kills VM performance), and CPU virtualization support (check with `grep -E 'vmx|svm' /proc/cpuinfo`).
+Key specs to prioritize - RAM (you need at least 32GB for running multiple VMs), SSD storage (spinning disk kills VM performance), and CPU virtualization support (check with `grep -E 'vmx|svm' /proc/cpuinfo`).
 
 Power consumption matters for always-on hardware. The Beelink mini PC draws around 15-25W under load. roughly $2-3/month in electricity at average US rates. Compare that to a full tower workstation at 150W+ idle, which runs $15-20/month continuously. For a 24/7 lab, mini PCs and NUCs win on running costs, and the noise level is also significantly lower. important if the lab lives in a home office or bedroom.
 
-Hypervisor: Proxmox VE
+Hypervisor - Proxmox VE
 
 Proxmox is the standard home lab hypervisor. It runs KVM virtual machines and LXC containers, has a web UI, and is free with optional paid support.
 
@@ -59,7 +59,7 @@ Flash to USB
 sudo dd if=proxmox-ve_8.2-1.iso of=/dev/sdX bs=4M status=progress
 
 Boot from USB and follow installer
-Set static IP during install: e.g., 192.168.1.100
+Set static IP during install - e.g., 192.168.1.100
 Access web UI at https://192.168.1.100:8006
 ```
 
@@ -79,7 +79,7 @@ echo "deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription" \
 apt update && apt dist-upgrade -y
 ```
 
-Alternatives to Proxmox: If you prefer something lighter, consider:
+Alternatives to Proxmox - If you prefer something lighter, consider:
 - XCP-ng. another open-source KVM hypervisor, closer to VMware's interface
 - Incus. LXC/VM management for those who prefer the LXD lineage without the Canonical dependency
 - libvirt + virt-manager. bare metal KVM with a desktop GUI, ideal if you prefer managing VMs from a Linux workstation
@@ -121,15 +121,15 @@ ssh devuser@192.168.1.101
 
 Cloud-init VMs boot with your SSH key already installed. no password needed.
 
-Network: VLANs for Isolation
+Network - VLANs for Isolation
 
 Keep lab traffic separate from your home network. Most managed switches (TP-Link TL-SG108E, ~$30) support VLANs.
 
 ```
-VLAN 1 (untagged): home network. laptops, phones
-VLAN 10: lab management. Proxmox web UI access
-VLAN 20: lab services. VMs, containers
-VLAN 30: IoT (optional)
+VLAN 1 (untagged) - home network. laptops, phones
+VLAN 10 - lab management. Proxmox web UI access
+VLAN 20 - lab services. VMs, containers
+VLAN 30 - IoT (optional)
 ```
 
 In Proxmox, add a VLAN bridge:
@@ -149,7 +149,7 @@ iface vmbr0 inet static
 
 VLAN isolation provides two practical benefits for developers: your lab experiments cannot accidentally DDoS your home router, and you can simulate realistic network topologies (frontend subnet, backend subnet, database subnet) without physical hardware.
 
-DNS: pi-hole + Unbound
+DNS - pi-hole + Unbound
 
 Pi-hole handles ad blocking and local DNS resolution. Unbound adds a recursive resolver so DNS queries go directly to root nameservers. not Google or Cloudflare.
 
@@ -294,7 +294,7 @@ With the subnet route approved, your work laptop reaches `192.168.1.101` through
 
 Tailscale's free tier supports up to 3 users and 100 devices, more than enough for a personal lab. The Magic DNS feature (tailscale.net hostnames) adds another layer of naming convenience on top of your Pi-hole local DNS.
 
-Backups: The Step Most People Skip
+Backups - The Step Most People Skip
 
 A home lab without backups is a lab you will eventually rebuild from scratch. Proxmox Backup Server (PBS) is free and designed for this use case:
 
@@ -302,9 +302,9 @@ A home lab without backups is a lab you will eventually rebuild from scratch. Pr
 Install PBS on a second machine or separate VM
 Then configure a backup job in Proxmox web UI:
 Datacenter > Backup > Add
-Schedule: daily at 02:00
-Mode: Snapshot (no downtime)
-Retention: 7 daily, 4 weekly
+Schedule - daily at 02:00
+Mode - Snapshot (no downtime)
+Retention - 7 daily, 4 weekly
 ```
 
 For offsite backup, Restic against a Backblaze B2 bucket costs roughly $0.006/GB/month. A 500GB backup set costs about $3/month. worth it to protect weeks of configuration work.

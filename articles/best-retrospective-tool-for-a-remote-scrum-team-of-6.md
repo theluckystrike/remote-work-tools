@@ -27,7 +27,7 @@ Table of Contents
 - [Integration with Your Development Workflow](#integration-with-your-development-workflow)
 - [Managing Remote Team Dynamics](#managing-remote-team-dynamics)
 - [Measuring Retro Effectiveness](#measuring-retro-effectiveness)
-- [Real-World Retro Scripts: Word-for-Word Examples](#real-world-retro-scripts-word-for-word-examples)
+- [Real-World Retro Scripts - Word-for-Word Examples](#real-world-retro-scripts-word-for-word-examples)
 - [Running Retros Asynchronously for Maximum Engagement](#running-retros-asynchronously-for-maximum-engagement)
 - [Tool Deep Dives](#tool-deep detailed looks)
 - [Scaling From 6 People to 12+](#scaling-from-6-people-to-12)
@@ -67,21 +67,21 @@ Dedicated Retro Tools vs. Generic Alternatives
 | EasyRetro | Lightweight, no account needed | Quick ad-hoc retros, low friction | Free or $79/month |
 | Metro Retro | Self-hosted option | Teams with privacy concerns | Free (self-hosted) |
 | FunRetro | Lightweight, emoji-friendly | Teams wanting fun/engagement | Free or paid |
-| Confluence + templates | Generic tool | Teams already in Confluence ecosystem | Included in Confluence license |
+| Confluence + templates | Generic tool | Teams already in Confluence environment | Included in Confluence license |
 | Miro + retro templates | Flexible whiteboarding | Teams wanting visual, collaborative retros | $120-1920/year |
 
 For a 6-person team, Retrium or EasyRetro are the most practical. Retrium if your team values professional structure; EasyRetro if you want minimal friction and low cost.
 
 Step-by-Step Setup for a 6-Person Team
 
-Week 1: Tool Selection and First Retro
+Week 1 - Tool Selection and First Retro
 
 1. Pick a tool (recommend EasyRetro for simplicity or Retrium for full-featured)
 2. Schedule your first retro, 30-45 minutes is standard
 3. Use the "Start, Stop, Continue" format (most intuitive for new teams)
 4. Send link + schedule to team before the meeting
 
-Week 2: Execution
+Week 2 - Execution
 ```
 Actual flow for a 6-person remote retro:
 
@@ -102,7 +102,7 @@ Actual flow for a 6-person remote retro:
    - Archive the retro for future reference
 ```
 
-Week 3+: Continuous Improvement
+Week 3+ - Continuous Improvement
 Track which improvements actually get implemented. In the next retro, review what actions were completed. This feedback loop is what separates high-performing teams from teams that retro just to retro.
 
 Common Retro Formats and When to Use Them
@@ -112,21 +112,21 @@ Start, Stop, Continue (Default)
 - What to stop doing: Counterproductive habits or processes
 - What to continue doing: What's already working
 
-Best for: Teams new to retros or transitioning from unstructured feedback
+Best for - Teams new to retros or transitioning from unstructured feedback
 
 Glad, Sad, Mad
 - Glad: What made you happy
 - Sad: What disappointed you
 - Mad: What frustrated you
 
-Best for: Teams where morale is a concern; more emotionally honest
+Best for - Teams where morale is a concern; more emotionally honest
 
 Helped, Hindered, Hopes
 - Helped: What actions or behaviors helped us succeed
 - Hindered: What blocked us
 - Hopes: What we want to achieve next sprint
 
-Best for: Goal-oriented teams focused on outcomes
+Best for - Goal-oriented teams focused on outcomes
 
 4Ls: Liked, Learned, Lacked, Longed for
 - Liked: What you enjoyed
@@ -134,7 +134,7 @@ Best for: Goal-oriented teams focused on outcomes
 - Lacked: What was missing
 - Longed for: What you wish happened
 
-Best for: Learning-focused teams in high-growth environments
+Best for - Learning-focused teams in high-growth environments
 
 Rotate formats quarterly to keep retros fresh and to get different perspectives on the same problems.
 
@@ -162,7 +162,7 @@ Remote retros with async submission help here. Introverts who'd stay quiet in li
 Time Zone Challenges
 A 6-person team might span 8+ time zones. Async submission solves this: people contribute when it works for them. Live meeting for sync discussion + voting can happen at a reasonable compromise time (e.g., 8am US Pacific = 11am US Eastern = 4pm UK = midnight India, not perfect, but better).
 
-For truly global teams: run two separate retro sessions 12 hours apart, then synthesize findings.
+For truly global teams - run two separate retro sessions 12 hours apart, then synthesize findings.
 
 Attendance and Engagement
 Send retro reminders 48 hours before. Include the time in the invitation, not just a zoom link. Some teams make retros optional for async contributors who submitted ideas; core team still does live meeting.
@@ -171,14 +171,14 @@ Measuring Retro Effectiveness
 
 Not all retros are created equal. Track these metrics:
 
-1. Action Item Completion Rate: What % of retro-driven improvements actually get done by the next retro? Target: >70%
-2. Participation Rate: What % of team members actively contribute (either async or sync)? Target: >90%
-3. Time to Value: How long between identifying a problem and shipping a fix? Track for the top 3 retro items per sprint.
-4. Sentiment Trend: Are team members getting happier? Use eNPS (employee Net Promoter Score) or a simple 1-5 satisfaction question at the end of each retro.
+1. Action Item Completion Rate - What % of retro-driven improvements actually get done by the next retro? Target: >70%
+2. Participation Rate - What % of team members actively contribute (either async or sync)? Target: >90%
+3. Time to Value - How long between identifying a problem and shipping a fix? Track for the top 3 retro items per sprint.
+4. Sentiment Trend - Are team members getting happier? Use eNPS (employee Net Promoter Score) or a simple 1-5 satisfaction question at the end of each retro.
 
 Teams that track these metrics improve faster than those who just run retros mechanically.
 
-Real-World Retro Scripts: Word-for-Word Examples
+Real-World Retro Scripts - Word-for-Word Examples
 
 The 45-Minute Retro (Tight Timeline)
 ```
@@ -218,11 +218,11 @@ Same as above but with:
 The 90-Minute Retro (Deep Dive)
 ```
 0:00 - Warm-up (5 minutes)
-Icebreaker: "One word to describe this sprint?"
+Icebreaker - "One word to describe this sprint?"
 Builds psychological safety before diving into problems.
 
 0:05 - Context setting (5 minutes)
-Metrics: velocity, bug count, deploy count, team sentiment
+Metrics - velocity, bug count, deploy count, team sentiment
 Frames discussion around data, not just feelings.
 
 0:10 - Silent submission (25 minutes)
@@ -245,7 +245,7 @@ Capture 2-3 ideas, don't over-design.
 Vote on solutions. Assign owners. Create tickets.
 
 1:30 - Retrospective of the retrospective (2 minutes)
-Quick: "How was that retro for you?" Gives early signal if format needs changing.
+Quick - "How was that retro for you?" Gives early signal if format needs changing.
 
 1:32 - End
 ```
@@ -254,13 +254,13 @@ Running Retros Asynchronously for Maximum Engagement
 
 For truly distributed teams, try a fully async format that runs over 2-3 days:
 
-Day 1: Submission Window
-- Announcement: "Retro is live. Submit by end of day tomorrow."
+Day 1 - Submission Window
+- Announcement - "Retro is live. Submit by end of day tomorrow."
 - Team members contribute at their own time, in their own time zone
 - No pressure to respond immediately
 - Anonymous and signed options available
 
-Day 2: Review Window
+Day 2 - Review Window
 - Facilitator groups feedback into themes
 - Posts summary: "Voting and Action Items
 - One-day voting window (all team members vote simultaneously)
@@ -268,18 +268,18 @@ Day 2: Review Window
 - Facilitator assigns owners based on volunteers or team input
 - Creates Jira tickets or action log
 
-Advantage: Introverts have time to think. Timezone-scattered teams all participate fully. Quality is often higher because people aren't speaking off the top of their head.
+Advantage - Introverts have time to think. Timezone-scattered teams all participate fully. Quality is often higher because people aren't speaking off the top of their head.
 
-Disadvantage: Takes 3 days instead of 45 minutes. Some team connection is lost without the real-time sync.
+Disadvantage - Takes 3 days instead of 45 minutes. Some team connection is lost without the real-time sync.
 
 Tool Deep Dives
 
-Retrium: Most Professional
-Best for: Teams that want turnkey, high-quality experience
+Retrium - Most Professional
+Best for - Teams that want turnkey, high-quality experience
 
-Setup: 5 minutes (create account, add team, choose template)
+Setup - 5 minutes (create account, add team, choose template)
 
-Default templates: Start/Stop/Continue, Glad/Sad/Mad, Sailboat, 4Ls
+Default templates - Start/Stop/Continue, Glad/Sad/Mad, Sailboat, 4Ls
 
 Features that matter:
 - Video prompts for each phase (explains what to do)
@@ -287,12 +287,12 @@ Features that matter:
 - Automated action item export to Jira/Azure
 - Multi-retro insights (trends across sprints)
 
-Cost: $49/month (up to 10 people), $99/month (unlimited)
+Cost - $49/month (up to 10 people), $99/month (unlimited)
 
-EasyRetro: Minimal Friction
-Best for: Teams tired of tool sprawl; want lightweight, cheap
+EasyRetro - Minimal Friction
+Best for - Teams tired of tool sprawl; want lightweight, cheap
 
-Setup: 1 minute (no account needed; generate random URL)
+Setup - 1 minute (no account needed; generate random URL)
 
 No templates, just three columns you name yourself
 
@@ -302,14 +302,14 @@ Features that matter:
 - Anonymous contribution support
 - Simple, beautiful UI (no learning curve)
 
-Cost: Free (basic) or $79/month (premium for teams)
+Cost - Free (basic) or $79/month (premium for teams)
 
 Generate a new unique URL each retro. No ongoing account to manage. Perfect for teams that forget login credentials.
 
-Metro Retro: Open Source & Self-Hosted
-Best for: Teams with privacy concerns; want to own their tool
+Metro Retro - Open Source & Self-Hosted
+Best for - Teams with privacy concerns; want to own their tool
 
-Setup: 15-30 minutes (Docker or manual install)
+Setup - 15-30 minutes (Docker or manual install)
 
 Features:
 - All data stays in your infrastructure (no cloud)
@@ -317,43 +317,43 @@ Features:
 - Can customize templates
 - Limited but functional integrations
 
-Cost: Free (self-hosted) or managed hosting available
+Cost - Free (self-hosted) or managed hosting available
 
-Trade-off: You own the uptime. If server goes down before a retro, you're scrambling.
+Trade-off - You own the uptime. If server goes down before a retro, you're scrambling.
 
 Scaling From 6 People to 12+
 
 What works for 6 breaks at 12. Changes needed:
 
-At 8 people: Silent submission time increases 20 minutes → 25 minutes. More voices = more noise.
+At 8 people - Silent submission time increases 20 minutes → 25 minutes. More voices = more noise.
 
-At 10+ people: Split into two retros (5-person groups) or use Slack threads for async, then synthesize. One 45-minute meeting becomes unmanageable.
+At 10+ people - Split into two retros (5-person groups) or use Slack threads for async, then synthesize. One 45-minute meeting becomes unmanageable.
 
-At 15+ people: Parallel retros by team (frontend, backend, data science) with managers synthesizing themes monthly. The all-hands retro becomes a status update, not a working session.
+At 15+ people - Parallel retros by team (frontend, backend, data science) with managers synthesizing themes monthly. The all-hands retro becomes a status update, not a working session.
 
 For a 6-person team, you can run synchronous retros. At 12+, you're almost forced into async-heavy workflows.
 
 Common Failure Modes and Fixes
 
-Failure Mode 1: Action Items Vanish After Retro
-Symptom: Team identifies improvements, but by next retro, nothing was done.
-Fix: Create Jira tickets IN the retro meeting. Assign owner immediately. Add to sprint backlog. Track completion rate monthly.
+Failure Mode 1 - Action Items Vanish After Retro
+Symptom - Team identifies improvements, but by next retro, nothing was done.
+Fix - Create Jira tickets IN the retro meeting. Assign owner immediately. Add to sprint backlog. Track completion rate monthly.
 
-Failure Mode 2: Retro Becomes Complaint Session
-Symptom: Team brings up problems but never solutions.
-Fix: For every complaint, require a proposed improvement. Use facilitation: "That's a real issue. What would fix it?"
+Failure Mode 2 - Retro Becomes Complaint Session
+Symptom - Team brings up problems but never solutions.
+Fix - For every complaint, require a proposed improvement. Use facilitation: "That's a real issue. What would fix it?"
 
-Failure Mode 3: Same Issues Every Retro
-Symptom: "Slow deployments" comes up sprint 1, sprint 2, sprint 3...
-Fix: Revisit previous retro notes. Ask: "We identified this last time. What prevented us from fixing it?" Dig into blockers.
+Failure Mode 3 - Same Issues Every Retro
+Symptom - "Slow deployments" comes up sprint 1, sprint 2, sprint 3...
+Fix - Revisit previous retro notes. Ask - "We identified this last time. What prevented us from fixing it?" Dig into blockers.
 
-Failure Mode 4: Dominant Personalities Control Retro
-Symptom: One or two people talk; others stay silent.
-Fix: Enforce silent submission phase first. Use voting that prevents one person from steering outcomes. In discussion, use "popcorn style", one person speaks, then hand off to someone quiet.
+Failure Mode 4 - Dominant Personalities Control Retro
+Symptom - One or two people talk; others stay silent.
+Fix - Enforce silent submission phase first. Use voting that prevents one person from steering outcomes. In discussion, use "popcorn style", one person speaks, then hand off to someone quiet.
 
-Failure Mode 5: Timezone Attendance is Terrible
-Symptom: You schedule at a reasonable time; half the team is in a terrible timezone.
-Fix: Rotate retro times. This month 8am PT, next month 4pm PT. Share the pain fairly. Or go fully async.
+Failure Mode 5 - Timezone Attendance is Terrible
+Symptom - You schedule at a reasonable time; half the team is in a terrible timezone.
+Fix - Rotate retro times. This month 8am PT, next month 4pm PT. Share the pain fairly. Or go fully async.
 
 Frequently Asked Questions
 
@@ -363,7 +363,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -375,7 +375,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

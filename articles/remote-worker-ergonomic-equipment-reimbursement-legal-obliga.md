@@ -18,7 +18,7 @@ voice-checked: true
 
 As remote work becomes permanent for many organizations, employers face increasing questions about their legal obligations regarding ergonomic equipment reimbursement. This guide breaks down what you need to know as an employer or HR professional managing remote teams in 2026.
 
-The Legal Framework: What Mandates Reimbursement?
+The Legal Framework - What Mandates Reimbursement?
 
 Understanding the legal market requires examining multiple regulatory layers. In the United States, there is no federal mandate requiring employers to reimburse remote workers for home office equipment. However, several states have enacted laws that change this calculation.
 
@@ -238,7 +238,7 @@ Moving Forward
 
 As remote work continues to evolve, expect more states to introduce ergonomic equipment reimbursement requirements. The trend clearly moves toward employer responsibility for remote worker setups.
 
-The smart approach: implement a compliant policy now, even if not legally required in your current locations. This positions your organization well for future requirements while improving employee satisfaction and productivity.
+The smart approach - implement a compliant policy now, even if not legally required in your current locations. This positions your organization well for future requirements while improving employee satisfaction and productivity.
 
 Start by auditing your current remote work policies, identifying gaps in equipment reimbursement, and developing a phased implementation plan. Your developers and power users will thank you, and your legal team will appreciate the proactive approach.
 ---

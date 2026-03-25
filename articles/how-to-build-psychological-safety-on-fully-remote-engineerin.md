@@ -38,7 +38,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Pattern 1: Normalize Asking Questions Publicly
+Step 1 - Pattern 1: Normalize Asking Questions Publicly
 
 One of the most powerful interventions is creating channels where asking questions is expected and celebrated. Many remote teams inadvertently create fear through their documentation patterns, existing answers make asking feel like a failure.
 
@@ -54,12 +54,12 @@ Use:
 
 This framing transforms asking from admission of ignorance into a collaborative act. Consider adding a weekly "stupid questions" thread in your team standup, explicitly labeling it to reduce friction.
 
-Step 2: Pattern 2: Structure Feedback Around Growth, Not Judgment
+Step 2 - Pattern 2: Structure Feedback Around Growth, Not Judgment
 
 Unstructured feedback in async channels reads harsher than intended. The gap between message sent and response received amplifies perceived criticism. Combat this by establishing feedback templates that contextualize intent:
 
 ```markdown
-Step 3: Feedback: [Feature Name]
+Step 3 - Feedback: [Feature Name]
 
 What worked well
 - The test coverage is thorough
@@ -74,24 +74,24 @@ Questions for discussion
 
 This structure separates observation from interpretation, acknowledges the author's agency, and invites dialogue rather than mandating change. For remote teams, this scaffolding prevents misinterpretation and keeps feedback constructive.
 
-Step 4: Pattern 3: Share Your Mistakes First
+Step 4 - Pattern 3: Share Your Mistakes First
 
 Leader and senior engineer behavior sets the psychological safety baseline. When technical leaders publicly share their mistakes, misjudgments, and learning moments, they normalize vulnerability for everyone else.
 
 Consider starting team meetings or writing async updates with a brief "fails of the week" segment:
 
 ```markdown
-Step 5: This Week's Learning
+Step 5 - This Week's Learning
 
 I spent 3 hours debugging only to discover I was looking at the wrong environment.
 always verify your `KUBECONTEXT` before debugging production issues.
 
-What I learned: I need better visual differentiation between my local and staging configs.
+What I learned - I need better visual differentiation between my local and staging configs.
 ```
 
 This practice accomplishes several things, it demonstrates that mistakes happen to everyone, it models appropriate emotional response (frustration followed by learning), and it often sparks others to share similar experiences, building collective resilience.
 
-Step 6: Pattern 4: Create Explicit "No Blame" Zones for Incidents
+Step 6 - Pattern 4: Create Explicit "No Blame" Zones for Incidents
 
 Production incidents are psychological safety flashpoints. The natural instinct to find who caused a problem conflicts directly with creating an environment where people admit errors. Remote teams should explicitly establish blameless postmortem practices:
 
@@ -100,20 +100,20 @@ Production incidents are psychological safety flashpoints. The natural instinct 
 3. Assign action items to teams, not individuals, distribute improvement responsibility
 
 ```markdown
-Incident Postmortem: API Timeout 2026-03-15
+Incident Postmortem - API Timeout 2026-03-15
 
-Step 7: Root Cause
+Step 7 - Root Cause
 A missing database index on the orders table caused query timeouts under load.
 
-Step 8: What went well
+Step 8 - What went well
 - Alert triggered within 2 minutes
 - Rollback completed in 4 minutes
 - Customer communication was proactive
 
-Step 9: Where we got lucky
+Step 9 - Where we got lucky
 - Incident occurred during lower-traffic window
 
-Step 10: Action items
+Step 10 - Action items
 - [ ] Add index on orders.user_id (Team: Backend). due: 2026-03-20
 - [ ] Add query performance testing to CI (Team: Platform). due: 2026-03-25
 - [ ] Review alert thresholds for early detection (Team: SRE). due: 2026-03-22
@@ -121,7 +121,7 @@ Step 10: Action items
 
 The action item assignment to teams rather than individuals reinforces that incidents are system failures, not human failures.
 
-Step 11: Pattern 5: Use Async Video for Sensitive Conversations
+Step 11 - Pattern 5: Use Async Video for Sensitive Conversations
 
 Some conversations are too nuanced for text. When giving constructive feedback on performance, discussing conflict, or delivering difficult news, async video provides tone that text lacks while maintaining the asynchronous benefits.
 
@@ -133,12 +133,12 @@ Tools like Loom let you record short video messages with screen share. The key i
 
 This approach preserves the async nature of remote work while adding the human element that text-only communication loses.
 
-Step 12: Pattern 6: Establish Clear Response Time Expectations
+Step 12 - Pattern 6: Establish Clear Response Time Expectations
 
 Ambiguity about when to expect responses creates anxiety. When a developer posts a question and receives no reply for 8 hours, they may interpret silence as judgment or disinterest. Clear norms reduce this:
 
 ```markdown
-Step 13: Team Communication Norms
+Step 13 - Team Communication Norms
 
 - Direct questions in Slack: expect response within 4 hours during work hours
 - RFC comments: expect response within 24 hours
@@ -150,7 +150,7 @@ If something is urgent, @channel or use the urgent tag, reserve for production i
 
 These norms prevent the anxiety of uncertain response times and make it safe to ask questions because you know when to expect engagement.
 
-Step 14: Measuring Psychological Safety
+Step 14 - Measuring Psychological Safety
 
 While psychological safety is inherently qualitative, you can track proxy indicators:
 
@@ -162,13 +162,13 @@ While psychological safety is inherently qualitative, you can track proxy indica
 
 Survey your team quarterly using questions like "I feel safe admitting when I don't know something" or "I feel comfortable challenging ideas without fear of retaliation." Track changes over time and investigate when patterns shift negatively.
 
-Step 15: Build Safety Takes Consistent Effort
+Step 15 - Build Safety Takes Consistent Effort
 
 Psychological safety in remote engineering teams does not emerge from a single policy or tool. It accumulates through hundreds of small interactions, each reinforcing that vulnerability is strength and questions are valued. The patterns above provide starting points, but adapt them to your team's specific dynamics.
 
 Start with one pattern this week. Ask a question you already know the answer to. Share a mistake you made. Watch how the team responds, your behavior signals what is acceptable more powerfully than any written policy.
 
-Step 16: Practical Implementation Tools
+Step 16 - Practical Implementation Tools
 
 Making psychological safety concrete requires tools and systems:
 
@@ -177,7 +177,7 @@ Safe Communication Frameworks
 Use these templates in code reviews and feedback:
 
 ```markdown
-Step 17: Code Review Feedback Template (Psychological Safety Version)
+Step 17 - Code Review Feedback Template (Psychological Safety Version)
 
 What worked well here
 - [Specific positive: good naming, clear logic, test coverage]
@@ -202,7 +202,7 @@ Create explicit channels that normalize vulnerability:
 ```
 #learning-in-public
 → Share what you're learning, questions you're exploring
-→ Usage: "Still figuring out how Auth0 token refresh works..."
+→ Usage - "Still figuring out how Auth0 token refresh works..."
 
 #mistakes-and-learning
 → Share mistakes and what you learned
@@ -214,24 +214,24 @@ Create explicit channels that normalize vulnerability:
 
 #research-and-exploration
 → Share interesting technical explorations that might not ship
-→ Usage: "Spent 2 hours exploring Rust, probably won't use it, but..."
+→ Usage - "Spent 2 hours exploring Rust, probably won't use it, but..."
 ```
 
 These channels make vulnerability a team norm, not an individual risk.
 
-Step 18: Real-World Safety Audit
+Step 18 - Real-World Safety Audit
 
 Run this audit monthly to assess psychological safety in your team:
 
 Behavioral Indicators (Observe in meetings and async)
 
-Check: Do junior engineers...
+Check - Do junior engineers...
 - Ask clarifying questions without apologizing? YES/NO
 - Challenge senior engineer assumptions? YES/NO
 - Share mistakes in public channels? YES/NO
 - Suggest ideas that differ from team consensus? YES/NO
 
-Check: Do senior engineers...
+Check - Do senior engineers...
 - Admit when they don't know something? YES/NO
 - Ask for feedback on their own work? YES/NO
 - Discuss their failures in team meetings? YES/NO
@@ -259,71 +259,71 @@ Good trends
 - PR participation increasing, not concentrated in 2-3 people
 ```
 
-Step 19: Build Safety in Asynchronous Standups
+Step 19 - Build Safety in Asynchronous Standups
 
 Many remote teams use async standups. This format can either build or destroy safety:
 
 Unsafe Async Standup (Kills Psychological Safety)
 ```
-Alice: "Worked on payment API"
-Bob: "API stuff too"
-Carol: "Debugging test failures"
+Alice - "Worked on payment API"
+Bob - "API stuff too"
+Carol - "Debugging test failures"
 ```
 
 Observers (especially junior devs) think: "I can't ask for help publicly because everyone's probably too busy."
 
 Safe Async Standup (Builds Psychological Safety)
 ```
-Alice: "Worked on payment API. Hit interesting issue with OAuth token refresh
+Alice - "Worked on payment API. Hit interesting issue with OAuth token refresh
   where library doesn't handle edge case X. Still figuring out. If anyone
   has seen this pattern, thoughts welcome!"
 
-Bob: "Also working on API integration. Got blocked on database connection
+Bob - "Also working on API integration. Got blocked on database connection
   pooling yesterday, now unblocked. Turns out we needed to adjust
   max_conns parameter. Full debugging journey in #debugging-notes."
 
-Carol: "Helping QA team troubleshoot test failures. Identified weird race
+Carol - "Helping QA team troubleshoot test failures. Identified weird race
   condition in test setup. Created RFC to propose different testing approach.
   Would love ideas from anyone who's seen this pattern."
 ```
 
-The difference: safe standups show:
+The difference - safe standups show:
 - Challenges are normal
 - Asking for help is expected
 - Sharing learning is valued
 - Debugging openly is encouraged
 
-Step 20: Quarterly Psychological Safety Retrospective
+Step 20 - Quarterly Psychological Safety Retrospective
 
 Every quarter, dedicate a team meeting to assessing and improving safety. Use this format:
 
 ```markdown
 Psychological Safety Check-In (60 minutes)
 
-Step 21: Anonymous Survey (10 min)
+Step 21 - Anonymous Survey (10 min)
 - On scale 1-10: I feel safe speaking up with a different opinion
 - On scale 1-10: I feel safe admitting when I don't know something
 - On scale 1-10: My mistakes are treated as learning opportunities
 - Free text: What made me feel unsafe this quarter?
 - Free text: What made me feel safe this quarter?
 
-Step 22: Results Review (20 min)
+Step 22 - Results Review (20 min)
 - Share aggregate results (show trends, not individual responses)
 - Read a few key free-text responses
 - Discuss patterns
 
-Step 23: Action Items (20 min)
+Step 23 - Action Items (20 min)
 - Pick 1 thing to improve
 - Assign owner to track it
 - Example actions: "Start weekly blameless postmortems" or
   "Create #learning-in-public channel"
 
-Step 24: Next Quarter (10 min)
+Step 24 - Next Quarter (10 min)
 - Briefly review last quarter's action item (did we do it?)
 - What helped? What didn't?
 ```
 
-Step 25: Safety as a Competitive Advantage
+Step 25 - Safety as a Competitive Advantage
 
 Psychologically safe engineering teams outperform unsafe teams on every metric:
 

@@ -30,7 +30,7 @@ Table of Contents
 - [Automation Integration](#automation-integration)
 - [Channel Strategy](#channel-strategy)
 - [Incident Management Tool Comparison](#incident-management-tool-comparison)
-- [Step-by-Step: Building Your Escalation System](#step-by-step-building-your-escalation-system)
+- [Step-by-Step - Building Your Escalation System](#step-by-step-building-your-escalation-system)
 - [Escalation Anti-Patterns to Avoid](#escalation-anti-patterns-to-avoid)
 - [Escalation Decision Tree](#escalation-decision-tree)
 - [Escalation Communication Across Timezones](#escalation-communication-across-timezones)
@@ -68,25 +68,25 @@ Create a Slack-friendly template that your team can copy, fill, and paste quickl
 ```markdown
 INCIDENT ESCALATION - SEV-{severity_level}
 
-Affected Service: {service_name}
-Impact: {customer_impact_description}
-Current Status: {what_is_happening_right_now}
-Started: {timestamp_in-utc}
+Affected Service - {service_name}
+Impact - {customer_impact_description}
+Current Status - {what_is_happening_right_now}
+Started - {timestamp_in-utc}
 
 What I've Tried:
 - {attempt_1}
 - {attempt_2}
 
-What I Need: {specific_request}
-Response Needed By: {time_in-utc}
+What I Need - {specific_request}
+Response Needed By - {time_in-utc}
 
 Resources:
 - Runbook: {link}
 - Dashboard: {link}
 - Logs: {link}
 
-Contacted: @current_oncall
-Escalating To: @next_oncall
+Contacted - @current_oncall
+Escalating To - @next_oncall
 ```
 
 Replace the placeholders with your specific situation details. The template format remains constant, which reduces cognitive load during incidents.
@@ -118,10 +118,10 @@ Handoff Checklist (Outgoing to Incoming)
 - Outstanding questions captured
 - Customer impact still accurate
 
-Handoff complete when: Incoming engineer replies "Got it" or "Need clarification on X"
+Handoff complete when - Incoming engineer replies "Got it" or "Need clarification on X"
 ```
 
-The key rule: never assume handoff is complete until you receive acknowledgment. In asynchronous remote settings, silence does not equal understanding.
+The key rule - never assume handoff is complete until you receive acknowledgment. In asynchronous remote settings, silence does not equal understanding.
 
 Real-World Example
 
@@ -130,26 +130,26 @@ Here is how the template looks when filled out for a real incident:
 ```markdown
 INCIDENT ESCALATION - SEV2
 
-Affected Service: payment-api
-Impact: Users cannot complete purchases. ~200 failures/minute observed
-Current Status: Payment service returning 500 errors. Database connections exhausted
-Started: 2026-03-16 03:42 UTC
+Affected Service - payment-api
+Impact - Users cannot complete purchases. ~200 failures/minute observed
+Current Status - Payment service returning 500 errors. Database connections exhausted
+Started - 2026-03-16 03:42 UTC
 
 What I've Tried:
 - Restarted payment-api pods (no improvement)
 - Checked database connection pool (at max)
 - Reviewed recent deployments (none in last 4 hours)
 
-What I Need: Help identifying the connection leak or approve rollback
-Response Needed By: 04:00 UTC (15 min)
+What I Need - Help identifying the connection leak or approve rollback
+Response Needed By - 04:00 UTC (15 min)
 
 Resources:
 - Runbook: /wiki/payment-incidents
 - Dashboard: grafana.io/d/payments
 - Logs: kibana.io/app/logs
 
-Contacted: @sarah-oncall
-Escalating To: @mike-techlead
+Contacted - @sarah-oncall
+Escalating To - @mike-techlead
 ```
 
 This format gives the recipient everything needed to start working immediately without asking follow-up questions.
@@ -165,21 +165,21 @@ def generate_escalation_message(incident):
 
     return f"""INCIDENT ESCALATION - SEV{2 if severity == 'HIGH' else 3}
 
-Affected Service: {service}
-Impact: {incident.get('title', 'No description')}
-Current Status: {incident.get('status', 'triggered')}
-Started: {incident.get('created_at', 'N/A')}
+Affected Service - {service}
+Impact - {incident.get('title', 'No description')}
+Current Status - {incident.get('status', 'triggered')}
+Started - {incident.get('created_at', 'N/A')}
 
 What I've Tried:
 - Initial investigation in progress
 
-What I Need: Immediate attention
-Response Needed By: 15 minutes
+What I Need - Immediate attention
+Response Needed By - 15 minutes
 
 Resources:
 - Incident: {incident.get('html_url', '#')}
 
-Escalating To: @oncall-team
+Escalating To - @oncall-team
 """
 ```
 
@@ -205,9 +205,9 @@ Different tools handle escalation and on-call routing in meaningfully different 
 | Rootly | Scheduling + on-call reports | Policy-based | Deep integration | $15/user/mo |
 | Manual (Slack + wiki) | Wiki rotation table | Human-enforced | Native (it is Slack) | Free |
 
-PagerDuty dominates in large engineering organizations because of its deep integration ecosystem. OpsGenie is the cost-effective alternative for teams that need the same core features at lower per-seat cost. Manual Slack-based escalation works for teams under 10 engineers where everyone knows the rotation. the template structure above applies regardless of which tool you use.
+PagerDuty dominates in large engineering organizations because of its deep integration environment. OpsGenie is the cost-effective alternative for teams that need the same core features at lower per-seat cost. Manual Slack-based escalation works for teams under 10 engineers where everyone knows the rotation. the template structure above applies regardless of which tool you use.
 
-Step-by-Step: Building Your Escalation System
+Step-by-Step - Building Your Escalation System
 
 Step 1. Define your severity levels. Write down SEV1 through SEV4 definitions in plain language with concrete examples from your own stack. Ambiguous severity levels cause engineers to under-escalate during incidents.
 
@@ -292,10 +292,10 @@ When on-call crosses timezones, escalation templates must include timezone conte
 ```markdown
 INCIDENT ESCALATION - SEV2
 
-Affected Service: payment-api
-Impact: ~50 failed transactions/min, users in EU affected
-Current Status: Database connection pool exhausted
-Started: 2026-03-16 07:42 UTC (2:42 AM PST, 8:42 AM CET)
+Affected Service - payment-api
+Impact - ~50 failed transactions/min, users in EU affected
+Current Status - Database connection pool exhausted
+Started - 2026-03-16 07:42 UTC (2:42 AM PST, 8:42 AM CET)
 
 Current Time Context:
 - PST: 2:42 AM (night shift)
@@ -313,12 +313,12 @@ What I've Tried:
 - Reviewed recent deployments (none in 2 hours)
 - Attempted slow query analysis (inconclusive)
 
-What I Need: Help with either:
+What I Need - Help with either:
 1. Identifying the connection leak source
 2. Deciding on rollback strategy
 3. Database connection pool expansion
 
-Response Needed By: 07:57 UTC (15 minutes to assess customer impact)
+Response Needed By - 07:57 UTC (15 minutes to assess customer impact)
 
 Escalation Path if no response:
 - T+10 min: @bob-secondary on PST timezone
@@ -331,7 +331,7 @@ Integration with Incident Management Systems
 While templates work, automation handles the repetitive parts:
 
 ```python
-PagerDuty Integration: Auto-generate escalation summary
+PagerDuty Integration - Auto-generate escalation summary
 
 from pagerduty import PDClient
 
@@ -344,23 +344,23 @@ def generate_escalation_from_incident(incident_id):
 
     template = f"""INCIDENT ESCALATION - SEV{incident.urgency}
 
-Affected Service: {incident.service.name}
-Impact: {incident.title}
-Current Status: Triggered - awaiting responder
-Started: {incident.created_at}
+Affected Service - {incident.service.name}
+Impact - {incident.title}
+Current Status - Triggered - awaiting responder
+Started - {incident.created_at}
 
 What I've Tried:
 - Initial investigation pending
 
-What I Need: Immediate attention
+What I Need - Immediate attention
 
 Resources:
 - Incident: {incident.html_url}
 - Service: {incident.service.html_url}
 - Recent deploys: [link to deploy system]
 
-Contacted: {incident.first_responder}
-Next escalation: {incident.escalation_policy}
+Contacted - {incident.first_responder}
+Next escalation - {incident.escalation_policy}
 """
     return template
 ```
@@ -372,10 +372,10 @@ Product-Facing Escalation (for customer-impacting issues)
 ```markdown
 ESCALATION ALERT - P{priority}
 
-Affected Users: {count} users, {region}
-Service Impact: {brief description}
-Customer Notification: [Has customer been notified? Y/N]
-Public Status Page: [Updated? Y/N]
+Affected Users - {count} users, {region}
+Service Impact - {brief description}
+Customer Notification - [Has customer been notified? Y/N]
+Public Status Page - [Updated? Y/N]
 
 What Users Are Seeing:
 [Concrete example: "Error: 'Payment processing temporarily unavailable'"]
@@ -383,7 +383,7 @@ What Users Are Seeing:
 What We're Doing:
 [Current investigation/action items]
 
-ETA for Resolution: {estimate}
+ETA for Resolution - {estimate}
 
 If Resolution Delayed:
 - Fallback plan: [if any]
@@ -395,9 +395,9 @@ Internal Infrastructure Escalation (for engineering-focused)
 ```markdown
 ESCALATION - INFRASTRUCTURE SEV{level}
 
-Affected Systems: [service1, service2, service3]
-Root Cause Hypothesis: {early assessment}
-Blast Radius: {which teams/services are impacted}
+Affected Systems - [service1, service2, service3]
+Root Cause Hypothesis - {early assessment}
+Blast Radius - {which teams/services are impacted}
 
 Incident Timeline:
 - T+0: Alert triggered
@@ -443,9 +443,9 @@ When de-escalating, communicate clearly:
 
 INCIDENT UPDATE - De-escalation
 
-Previous: SEV1 (complete outage)
-New: SEV2 (degraded service)
-Changed At: {timestamp}
+Previous - SEV1 (complete outage)
+New - SEV2 (degraded service)
+Changed At - {timestamp}
 
 What changed:
 - Issue was [original problem]

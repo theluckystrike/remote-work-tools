@@ -25,13 +25,13 @@ Table of Contents
 - [Key Considerations for Developers and Remote Workers](#key-considerations-for-developers-and-remote-workers)
 - [Practical Steps to Secure Coverage](#practical-steps-to-secure-coverage)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
-- [Cost Example: Real-World Scenarios](#cost-example-real-world-scenarios)
+- [Cost Example - Real-World Scenarios](#cost-example-real-world-scenarios)
 - [Managing Claims and Reimbursement](#managing-claims-and-reimbursement)
 - [Coverage Gaps and Exclusions](#coverage-gaps-and-exclusions)
 - [Multi-Country Considerations](#multi-country-considerations)
 - [Building a Health Baseline](#building-a-health-baseline)
 - [Integration with Remote Work Taxes](#integration-with-remote-work-taxes)
-- [Returning Home: Transition Planning](#returning-home-transition-planning)
+- [Returning Home - Transition Planning](#returning-home-transition-planning)
 
 This guide walks through your options, practical steps, and cost considerations to help you make informed decisions about health insurance while working from Thailand.
 
@@ -129,7 +129,7 @@ International hospitals in Thailand often bill directly with major insurers (cas
 
 Practical Steps to Secure Coverage
 
-Step 1: Assess Your Needs
+Step 1 - Assess Your Needs
 
 Evaluate your health requirements:
 - Do you need regular checkups or prescriptions?
@@ -137,7 +137,7 @@ Evaluate your health requirements:
 - Do you plan to travel internationally frequently?
 - What's your budget for monthly premiums?
 
-Step 2: Research and Compare
+Step 2 - Research and Compare
 
 Use comparison platforms like International Medical Insurance or GoodInsure to compare plans. Read policy documents carefully, pay attention to:
 - Coverage limits per condition
@@ -145,35 +145,35 @@ Use comparison platforms like International Medical Insurance or GoodInsure to c
 - Exclusions list
 - Claim process requirements
 
-Step 3: Get Quotes and Apply
+Step 3 - Get Quotes and Apply
 
 Request quotes from at least 3-4 providers. Most allow online applications with:
 - Personal details and medical history
 - Desired coverage start date
 - Payment method (credit card or bank transfer)
 
-Step 4: Understand Your Visa Requirements
+Step 4 - Understand Your Visa Requirements
 
 Thailand's Long-Term Resident (LTR) visa category (launched in 2024) requires health insurance coverage of at least $50,000 for outpatient and $100,000 for inpatient care. If you're applying for LTR, ensure your policy meets these minimums.
 
 Common Mistakes to Avoid
 
-Waiting until you need care: Insurance doesn't cover pre-existing conditions that develop before your coverage starts. Get covered before any health issues arise.
+Waiting until you need care - Insurance doesn't cover pre-existing conditions that develop before your coverage starts. Get covered before any health issues arise.
 
-Choosing based solely on price: The cheapest plan often has high deductibles or numerous exclusions. Calculate your actual out-of-pocket exposure.
+Choosing based solely on price - The cheapest plan often has high deductibles or numerous exclusions. Calculate your actual out-of-pocket exposure.
 
-Ignoring renewal terms: Some policies increase premiums significantly at renewal based on claims history. Check whether the insurer offers guaranteed renewal.
+Ignoring renewal terms - Some policies increase premiums significantly at renewal based on claims history. Check whether the insurer offers guaranteed renewal.
 
-Not disclosing everything: Failing to declare health conditions voids your policy when you need to claim.
+Not disclosing everything - Failing to declare health conditions voids your policy when you need to claim.
 
-Cost Example: Real-World Scenarios
+Cost Example - Real-World Scenarios
 
 Here's what coverage might look like in practice:
 
 ```
-Scenario: 32-year-old software developer, healthy, working remotely from Chiang Mai
+Scenario - 32-year-old software developer, healthy, working remotely from Chiang Mai
 
-Plan: International health insurance with $500 deductible
+Plan - International health insurance with $500 deductible
 - Monthly premium: $135
 - Annual premium: $1,620
 
@@ -260,7 +260,7 @@ A typical screening for a remote worker includes:
 - Fitness assessment
 - Dental check-up
 
-Cost for a screening: 5,000-10,000 THB ($140-280 USD). Having this baseline prevents insurance disputes later, you have documentation of your health status at policy start.
+Cost for a screening - 5,000-10,000 THB ($140-280 USD). Having this baseline prevents insurance disputes later, you have documentation of your health status at policy start.
 
 Integration with Remote Work Taxes
 
@@ -268,7 +268,7 @@ Digital nomads often work in murky tax territories. Health insurance choices aff
 
 Consult a tax accountant familiar with digital nomads before choosing your insurance plan. In some cases, employer-provided coverage creates different tax implications than self-purchased international insurance. The few hundred dollars in accountant fees now prevents expensive problems at tax time.
 
-Returning Home: Transition Planning
+Returning Home - Transition Planning
 
 When you leave Thailand, your international insurance typically continues if your plan is truly global. However, switching back to domestic coverage can create gaps if not planned carefully.
 

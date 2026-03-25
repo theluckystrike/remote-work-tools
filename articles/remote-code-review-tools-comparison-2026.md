@@ -82,7 +82,7 @@ Checklist
 ```
 
 ```yaml
-Branch protection: require reviews before merge
+Branch protection - require reviews before merge
 Settings → Branches → Add rule for "main"
 - Require a pull request before merging
 - Required approvals: 2
@@ -165,7 +165,7 @@ docker run -d \
   gerritcodereview/gerrit:3.9-ubuntu22
 
 Access at http://localhost:8080
-Default admin: admin / secret
+Default admin - admin / secret
 
 Push for review (gerrit uses a different push convention)
 git push origin HEAD:refs/for/main
@@ -221,7 +221,7 @@ workflows:
         then: $fail("PR description is required")
 ```
 
-Reviewpad enforces PR hygiene: small/large labels based on diff size, auto-assignment by changed files, and failing checks for empty descriptions.
+Reviewpad enforces PR hygiene - small/large labels based on diff size, auto-assignment by changed files, and failing checks for empty descriptions.
 
 Tool Comparison
 
@@ -238,7 +238,7 @@ Tool Comparison
 Best Practices for Async Code Review
 
 ```bash
-PR size target: under 400 lines changed
+PR size target - under 400 lines changed
 Check your last 10 PRs
 git log --oneline --since="30 days ago" | while read hash msg; do
   git diff ${hash}^..${hash} --stat | tail -1

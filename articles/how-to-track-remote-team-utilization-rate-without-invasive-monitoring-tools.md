@@ -37,13 +37,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Use vs. Activity
+Step 1 - Understand Use vs. Activity
 
 Before implementing any tracking system, distinguish between activity and use. Activity measures whether someone is working; use measures whether that work contributes to team goals. The distinction matters because tracking activity feels invasive while tracking use feels useful.
 
 Instead of monitoring keystrokes or capturing screenshots, focus on outputs and outcomes. Developers produce code, documentation, code reviews, and communication. These artifacts represent genuine work without requiring surveillance.
 
-Step 2: GitHub Activity as a Use Signal
+Step 2 - GitHub Activity as a Use Signal
 
 If your team uses GitHub, you already have a rich data source for understanding use patterns. The GitHub API provides commit history, pull request metrics, issue activity, and review patterns. This data reflects actual work without monitoring personal behavior.
 
@@ -99,7 +99,7 @@ for member, data in metrics.items():
 
 This approach surfaces contribution patterns without monitoring when someone works, how long they spend on tasks, or any personal behavior. The data represents public work products.
 
-Step 3: Project Management Integration
+Step 3 - Project Management Integration
 
 If your team uses project management tools like Linear, Jira, or Asana, ticket velocity and cycle time provide use signals. Track story points completed per sprint or tickets resolved per week. These metrics reflect work throughput.
 
@@ -153,7 +153,7 @@ def get_team_velocity(team_id, weeks=4):
     return 0
 ```
 
-Step 4: Communication-Based Use Patterns
+Step 4 - Communication-Based Use Patterns
 
 Asynchronous communication patterns reveal use without real-time surveillance. Track metrics like PR review turnaround time, response latency in team channels, or documentation updates. These indicate engagement levels without requiring constant availability.
 
@@ -203,7 +203,7 @@ Pluralsight Flow (formerly GitPrime) remains popular at larger enterprises. It e
 
 For teams not ready to invest in a dedicated tool, GitHub Insights (available on GitHub Enterprise) provides a reasonable free alternative covering commits, PRs, and review activity.
 
-Step 5: Build a Use Dashboard
+Step 5 - Build a Use Dashboard
 
 Combine these data sources into a single view. Use a simple approach with Google Sheets or a custom dashboard:
 
@@ -226,7 +226,7 @@ def generate_utilization_report():
 
 This composite view shows whether the team is delivering work without tracking individual minute-by-minute activity. Focus on trends: Is velocity improving? Are reviews happening? Is communication healthy?
 
-Step 6: Setting Healthy Use Benchmarks
+Step 6 - Setting Healthy Use Benchmarks
 
 Avoid targeting specific use percentages. Instead, establish baselines and look for significant changes. A healthy remote team shows consistent output with natural variation.
 
@@ -239,7 +239,7 @@ Good benchmarks to track:
 
 When use drops significantly below baseline, investigate root causes rather than assuming laziness. Often the issue is blocked resources, unclear requirements, or process problems.
 
-Step 7: Pro Tips from Engineering Managers Who Got This Right
+Step 7 - Pro Tips from Engineering Managers Who Got This Right
 
 The managers who succeed with non-invasive usage tracking share a few common practices.
 
@@ -280,7 +280,7 @@ How do you track usage for non-engineering roles?
 
 The same output-over-activity principle applies. For product managers, track PRDs completed and user interviews conducted. For designers, track design iterations shipped to staging. For customer success, track tickets resolved and customer health scores. Every role produces artifacts; measure those.
 
-Step 8: Respectful Implementation Principles
+Step 8 - Respectful Implementation Principles
 
 Follow these principles to keep use tracking ethical:
 

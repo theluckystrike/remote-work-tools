@@ -24,8 +24,8 @@ Table of Contents
 - [Document Structure and Standards](#document-structure-and-standards)
 - [Searchability Optimization](#searchability-optimization)
 - [Prerequisites](#prerequisites)
-- [Step 1: Prepare Release Branch](#step-1-prepare-release-branch)
-- [Step 2: Run Production Deployment](#step-2-run-production-deployment)
+- [Step 1 - Prepare Release Branch](#step-1-prepare-release-branch)
+- [Step 2 - Run Production Deployment](#step-2-run-production-deployment)
 - [Maintaining Knowledge Base Currency](#maintaining-knowledge-base-currency)
 - [Knowledge Base for Async Work](#knowledge-base-for-async-work)
 - [Context](#context)
@@ -33,9 +33,9 @@ Table of Contents
 - [Rationale](#rationale)
 - [Implementation Timeline](#implementation-timeline)
 - [Related](#related)
-- [Day 1: Setup (4 hours)](#day-1-setup-4-hours)
-- [Day 2: Codebase Orientation (3 hours)](#day-2-codebase-orientation-3-hours)
-- [Week 1: Infrastructure Access (2 hours)](#week-1-infrastructure-access-2-hours)
+- [Day 1 - Setup (4 hours)](#day-1-setup-4-hours)
+- [Day 2 - Codebase Orientation (3 hours)](#day-2-codebase-orientation-3-hours)
+- [Week 1 - Infrastructure Access (2 hours)](#week-1-infrastructure-access-2-hours)
 - [Knowledge Base Governance](#knowledge-base-governance)
 - [Tools Integration Strategy](#tools-integration-strategy)
 - [Documentation](#documentation)
@@ -79,9 +79,9 @@ Weaknesses:
 - Pricing scales quickly (team plans $12/month per member)
 - API limitations for programmatic automation
 
-Best for: Small to medium remote teams (10-50 people) with diverse content types.
+Best for - Small to medium remote teams (10-50 people) with diverse content types.
 
-Cost: Free (up to 10 members), $12/member/month (team plan).
+Cost - Free (up to 10 members), $12/member/month (team plan).
 
 Confluence
 
@@ -98,11 +98,11 @@ Weaknesses:
 - Steeper learning curve than Notion
 - Self-hosted option requires infrastructure maintenance
 - Page hierarchy can become unwieldy (50+ pages per space)
-- Macro ecosystem increases complexity
+- Macro environment increases complexity
 
-Best for: Large technical teams (50+ people) with existing Atlassian ecosystem (Jira, GitHub).
+Best for - Large technical teams (50+ people) with existing Atlassian environment (Jira, GitHub).
 
-Cost: $5-10/user/month (cloud), self-hosted ~$50k/year licensing.
+Cost - $5-10/user/month (cloud), self-hosted ~$50k/year licensing.
 
 GitBook
 
@@ -121,9 +121,9 @@ Weaknesses:
 - Requires Git familiarity for advanced features
 - Overkill for non-technical knowledge management
 
-Best for: Engineering teams documenting APIs, architecture, deployment processes.
+Best for - Engineering teams documenting APIs, architecture, deployment processes.
 
-Cost: Free (public docs), $10/user/month (team plans).
+Cost - Free (public docs), $10/user/month (team plans).
 
 Slite
 
@@ -142,13 +142,13 @@ Weaknesses:
 - Less suitable for deeply technical documentation
 - Limited third-party integrations
 
-Best for: Small distributed teams (10-30 people) prioritizing simplicity and Slack integration.
+Best for - Small distributed teams (10-30 people) prioritizing simplicity and Slack integration.
 
-Cost: $8/user/month or ~$90/month for unlimited members.
+Cost - $8/user/month or ~$90/month for unlimited members.
 
 Document Structure and Standards
 
-Foundation: Document Templates
+Foundation - Document Templates
 
 Create templates for common document types to ensure consistency:
 
@@ -188,7 +188,7 @@ Naming Conventions
 
 Establish consistent naming to improve searchability:
 
-Format: `[Type] [Subject] - [Context]`
+Format - `[Type] [Subject] - [Context]`
 
 Examples:
 - `Process: Deploy to Production - TypeScript Services`
@@ -264,10 +264,10 @@ Prerequisites
 - AWS credentials configured
 - Merge approval from code review
 
-Step 1: Prepare Release Branch
+Step 1 - Prepare Release Branch
 ...
 
-Step 2: Run Production Deployment
+Step 2 - Run Production Deployment
 ...
 ```
 
@@ -284,13 +284,13 @@ Tagging System
 
 Implement consistent tags for filtering:
 
-By Role: `engineering`, `product`, `design`, `operations`
+By Role - `engineering`, `product`, `design`, `operations`
 
-By Topic: `deployment`, `architecture`, `api`, `database`, `security`
+By Topic - `deployment`, `architecture`, `api`, `database`, `security`
 
-By Complexity: `beginner`, `intermediate`, `advanced`
+By Complexity - `beginner`, `intermediate`, `advanced`
 
-By Status: `current`, `deprecated`, `draft`
+By Status - `current`, `deprecated`, `draft`
 
 Process document tagged as `engineering`, `deployment`, `current` appears when engineers search for deployment information.
 
@@ -306,7 +306,7 @@ Knowledge bases degrade over time:
 
 Decay Prevention
 
-Assign ownership: Each document has a named owner responsible for quarterly review.
+Assign ownership - Each document has a named owner responsible for quarterly review.
 
 ```
 Every quarter (Jan 1, Apr 1, Jul 1, Oct 1):
@@ -316,26 +316,26 @@ Every quarter (Jan 1, Apr 1, Jul 1, Oct 1):
 - Flag any broken links or dependencies
 ```
 
-Link to source of truth: When documentation references configuration, link directly rather than copying.
+Link to source of truth - When documentation references configuration, link directly rather than copying.
 
 ```
  Don't: "The API timeout is set to 30 seconds" (copy that becomes stale)
  Do: "The API timeout is configured in config.yaml (currently 30 seconds)"
 ```
 
-Deprecation strategy: When processes change, don't delete old documentation.
+Deprecation strategy - When processes change, don't delete old documentation.
 
 ```
 [DEPRECATED as of 2026-03-21]
 
 This process has been replaced by [New Process Name].
-See migration guide: [link].
+See migration guide - [link].
 
 Old content below preserved for reference during transition period (until 2026-04-21):
 ...
 ```
 
-Automated checks: In technical knowledge bases (GitBook, code-hosted docs), add CI checks:
+Automated checks - In technical knowledge bases (GitBook, code-hosted docs), add CI checks:
 - Broken links detection
 - Updated "Last Modified" date verification
 - Syntax validation for code examples
@@ -347,11 +347,11 @@ Documenting Decision Context
 Remote teams make decisions asynchronously. Document decisions with full context:
 
 ```
-Decision: Adopt TypeScript for All New Frontend Projects
+Decision - Adopt TypeScript for All New Frontend Projects
 
-Date: 2026-03-15
-Decided by: Engineering Team Lead
-Status: Implemented
+Date - 2026-03-15
+Decided by - Engineering Team Lead
+Status - Implemented
 
 Context
 - Recent incidents traced to type errors in JavaScript
@@ -387,7 +387,7 @@ Remote onboarding must be self-service. Create step-by-step checklists:
 ```
 New Developer Onboarding Checklist
 
-Day 1: Setup (4 hours)
+Day 1 - Setup (4 hours)
 - [ ] Access GitHub repositories and code
 - [ ] Clone monorepo: `git clone [repo]`
 - [ ] Install development dependencies: `./scripts/setup-dev-environment.sh`
@@ -395,13 +395,13 @@ Day 1: Setup (4 hours)
 - [ ] Create Slack account and join #engineering channel
 - [ ] Schedule 1:1 with engineering lead (15 min)
 
-Day 2: Codebase Orientation (3 hours)
+Day 2 - Codebase Orientation (3 hours)
 - [ ] Read [Codebase Architecture Overview](/engineering/architecture/)
 - [ ] Review [Deployment Pipeline Diagram](/engineering/deployment/)
 - [ ] Complete 5-minute walkthrough video [Frontend Architecture](link)
 - [ ] Setup IDE: [VS Code Configuration Guide](/engineering/guides/vscode-setup/)
 
-Week 1: Infrastructure Access (2 hours)
+Week 1 - Infrastructure Access (2 hours)
 - [ ] Request AWS credentials (send request to ops-team@company.com)
 - [ ] Setup AWS CLI: [AWS Setup Guide](/operations/aws-setup/)
 - [ ] Verify database access to staging
@@ -414,11 +414,11 @@ Knowledge Base Governance
 
 Who Can Contribute
 
-For small teams (5-20 people): Everyone contributes to knowledge base. Minimal review needed.
+For small teams (5-20 people) - Everyone contributes to knowledge base. Minimal review needed.
 
-For medium teams (20-50 people): Subject matter experts own sections, others submit PRs for approval.
+For medium teams (20-50 people) - Subject matter experts own sections, others submit PRs for approval.
 
-For large teams (50+ people): Centralized documentation team reviews contributions, engineers submit PRs.
+For large teams (50+ people) - Centralized documentation team reviews contributions, engineers submit PRs.
 
 Contribution Process
 
@@ -454,14 +454,14 @@ Slack Integration
 
 Connect knowledge base to Slack to reduce context-switching:
 
-Notion: Use Slack bot to search and preview documents
-Slite: Native Slack integration, post/search directly in Slack
-GitBook: Webhook integration to announce updated documentation
+Notion - Use Slack bot to search and preview documents
+Slite - Native Slack integration, post/search directly in Slack
+GitBook - Webhook integration to announce updated documentation
 
 Example Slack workflow:
 ```
-Engineer in #general: "How do I deploy to production?"
-Bot response: "See [Process: Deploy to Production](/engineering/deployment/)"
+Engineer in #general - "How do I deploy to production?"
+Bot response - "See [Process: Deploy to Production](/engineering/deployment/)"
 with preview of first section
 ```
 

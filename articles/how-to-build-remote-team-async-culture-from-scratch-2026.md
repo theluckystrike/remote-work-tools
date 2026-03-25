@@ -21,17 +21,17 @@ Table of Contents
 
 - [The Async Mindset](#the-async-mindset)
 - [Core Tool Stack](#core-tool-stack)
-- [Decision: Migrate from MongoDB to PostgreSQL (Decision #42)](#decision-migrate-from-mongodb-to-postgresql-decision-42)
+- [Decision - Migrate from MongoDB to PostgreSQL (Decision #42)](#decision-migrate-from-mongodb-to-postgresql-decision-42)
 - [Communication Protocols](#communication-protocols)
-- [Status: Week of March 17-21](#status-week-of-march-17-21)
+- [Status - Week of March 17-21](#status-week-of-march-17-21)
 - [Meeting Reduction Strategies](#meeting-reduction-strategies)
 - [Documentation Templates](#documentation-templates)
 - [Week 1](#week-1)
 - [Week 2](#week-2)
 - [Ongoing](#ongoing)
-- [Decision: [Title]](#decision-title)
-- [Loom: [link] (5-minute video explaining the situation)](#loom-link-5-minute-video-explaining-the-situation)
-- [Discussion Doc: [link]](#discussion-doc-link)
+- [Decision - [Title]](#decision-title)
+- [Loom - [link] (5-minute video explaining the situation)](#loom-link-5-minute-video-explaining-the-situation)
+- [Discussion Doc - [link]](#discussion-doc-link)
 - [Async Execution Workflow](#async-execution-workflow)
 - [Pitfalls to Avoid](#pitfalls-to-avoid)
 - [Measuring Async Health](#measuring-async-health)
@@ -55,7 +55,7 @@ Knowledge Base (Required)
 
 You cannot run async without a centralized knowledge base. Without it, decisions scatter across Slack threads, Google Docs, and email, context is lost, and onboarding becomes nightmare fuel.
 
-Recommended: Confluence, GitBook, or Outline (depending on team size and technical level; see the companion article on knowledge bases).
+Recommended - Confluence, GitBook, or Outline (depending on team size and technical level; see the companion article on knowledge bases).
 
 What lives here:
 - Company handbook (values, PTO policy, expense rules).
@@ -68,7 +68,7 @@ When a new engineer joins, they read the onboarding guide in the wiki, not wait 
 
 Communication Hub (Required)
 
-Choose one: Slack or an async-native alternative (Discord, Mattermost). Avoid email as your primary tool; it doesn't scale to teams over 10 people.
+Choose one - Slack or an async-native alternative (Discord, Mattermost). Avoid email as your primary tool; it doesn't scale to teams over 10 people.
 
 Slack setup for async:
 - Use threads aggressively. A Slack message without a threaded reply is an interruption. If you're responding to something, use thread-reply, not a top-level message.
@@ -96,25 +96,25 @@ Async Meetings Tool (Required)
 
 For decisions that need input from multiple people, use async-native tools instead of Zoom:
 
-Loom or Vidyard: Record a 5-minute screen recording explaining the decision you need to make. Team members watch on their own time and leave comments. Total turnaround: 24-48 hours instead of scheduling a 1-hour meeting.
+Loom or Vidyard - Record a 5-minute screen recording explaining the decision you need to make. Team members watch on their own time and leave comments. Total turnaround: 24-48 hours instead of scheduling a 1-hour meeting.
 
-Product manager records: "We're considering moving from email notifications to SMS. Here's the cost impact, here's the user research. What are your thoughts?" Engineers watch, leave Loom comments, decision is made by EOD without a meeting.
+Product manager records - "We're considering moving from email notifications to SMS. Here's the cost impact, here's the user research. What are your thoughts?" Engineers watch, leave Loom comments, decision is made by EOD without a meeting.
 
-Slack Huddles (built-in): Small teams use Slack Huddles for optional, 10-minute quick syncs. No prep, just real-time chat with recording. For async teams, use sparingly (once per week max).
+Slack Huddles (built-in) - Small teams use Slack Huddles for optional, 10-minute quick syncs. No prep, just real-time chat with recording. For async teams, use sparingly (once per week max).
 
 Documentation Tool (Required)
 
 Google Docs or Notion for short-term collaborative writing. Longer-term docs go in the wiki.
 
-Use: Drafting proposals, RFCs (Request for Comments), meeting notes, project plans. Once a doc is finalized, move it to the wiki.
+Use - Drafting proposals, RFCs (Request for Comments), meeting notes, project plans. Once a doc is finalized, move it to the wiki.
 
-Process: Post a link in Slack, set a comment deadline (48 hours), collect feedback, finalize. Async without a deadline is chaos.
+Process - Post a link in Slack, set a comment deadline (48 hours), collect feedback, finalize. Async without a deadline is chaos.
 
 Task Manager (Required)
 
 Jira, Linear, Asana, or Notion databases. Pair with Slack notifications so people know when tasks are assigned.
 
-Async discipline: Never assign a task and Slack the person immediately. Assign the task, they see it in the tool.
+Async discipline - Never assign a task and Slack the person immediately. Assign the task, they see it in the tool.
 
 Decision Log (Required)
 
@@ -124,15 +124,15 @@ Template:
 ```
 Decision Log
 
-Decision: Migrate from MongoDB to PostgreSQL (Decision #42)
+Decision - Migrate from MongoDB to PostgreSQL (Decision #42)
 - Date: 2026-03-15
 - Owner: Backend Lead
 - Status: In Progress (target completion 2026-05-01)
-- Context: MongoDB queries are slow; Postgres schema is better for our use case.
+- Context - MongoDB queries are slow; Postgres schema is better for our use case.
 - Alternatives considered: CockroachDB, DuckDB.
-- Decision: PostgreSQL.
-- Impact: 3-week migration, 2 engineers assigned.
-- Reversibility: High (can revert to MongoDB if performance doesn't improve).
+- Decision - PostgreSQL.
+- Impact - 3-week migration, 2 engineers assigned.
+- Reversibility - High (can revert to MongoDB if performance doesn't improve).
 ```
 
 Communication Protocols
@@ -141,30 +141,30 @@ Written Decision-Making
 
 The RFC (Request for Comments) Format:
 
-1. Problem: 2-3 sentences. What are we solving?
-2. Proposed Solution: 1 paragraph. What else did we consider? Why not those?
-4. Impact: Who is affected? What changes?
+1. Problem - 2-3 sentences. What are we solving?
+2. Proposed Solution - 1 paragraph. What else did we consider? Why not those?
+4. Impact - Who is affected? What changes?
 5. Timeline: When?
-6. Owner: Who's responsible?
+6. Owner - Who's responsible?
 7. Comment deadline: 48 hours.
 
 Example RFC (Slack post with Google Doc link):
 ```
-Title: Migrate CI/CD from Jenkins to GitHub Actions
+Title - Migrate CI/CD from Jenkins to GitHub Actions
 
-Problem: Jenkins is unmaintained; we spend 2 hours/week on CI debugging.
+Problem - Jenkins is unmaintained; we spend 2 hours/week on CI debugging.
 
-Proposed Solution: Move all 30 workflows to GitHub Actions. Estimated effort: 40 hours over 2 weeks.
+Proposed Solution - Move all 30 workflows to GitHub Actions. Estimated effort: 40 hours over 2 weeks.
 
-Alternatives: GitLab CI (too expensive), CircleCI (less integration with GitHub).
+Alternatives - GitLab CI (too expensive), CircleCI (less integration with GitHub).
 
-Impact: All engineers use GitHub Actions; no Jenkins server maintenance.
+Impact - All engineers use GitHub Actions; no Jenkins server maintenance.
 
-Timeline: Weeks of March 24-April 7.
+Timeline - Weeks of March 24-April 7.
 
-Owner: @ci-lead
+Owner - @ci-lead
 
-Comment deadline: March 17, 5pm PT. Comments in the linked Google Doc.
+Comment deadline - March 17, 5pm PT. Comments in the linked Google Doc.
 ```
 
 Team members read during their working hours, leave comments, you respond to concerns, decision is made asynchronously.
@@ -175,7 +175,7 @@ Replace daily standups with async status updates. Each person writes 5 minutes o
 
 Format:
 ```
-Status: Week of March 17-21
+Status - Week of March 17-21
 
 What I Did
 - Reviewed 3 PRs
@@ -286,81 +286,81 @@ Ongoing
 Decision Log Entry
 
 ```markdown
-Decision: [Title]
+Decision - [Title]
 
 - Date: YYYY-MM-DD
-- Owner: Name
+- Owner - Name
 - Status: [Pending, Decided, Implemented, Reversed]
-- Context: Why are we making this decision?
-- Options Considered: What alternatives did we evaluate?
-- Decision: What did we choose and why?
-- Impact: Who is affected? What changes?
-- Reversibility: Can we undo this easily?
+- Context - Why are we making this decision?
+- Options Considered - What alternatives did we evaluate?
+- Decision - What did we choose and why?
+- Impact - Who is affected? What changes?
+- Reversibility - Can we undo this easily?
 - Feedback deadline: YYYY-MM-DD HH:MM TZ
 ```
 
 Async Meeting Agenda
 
 ```markdown
-Topic: [Title]
+Topic - [Title]
 
-Owner: Name
-Duration: 48 hours (comment deadline is YYYY-MM-DD HH:MM TZ)
-Format: Loom video + Google Doc comments
+Owner - Name
+Duration - 48 hours (comment deadline is YYYY-MM-DD HH:MM TZ)
+Format - Loom video + Google Doc comments
 
-Loom: [link] (5-minute video explaining the situation)
+Loom - [link] (5-minute video explaining the situation)
 
-Discussion Doc: [link]
+Discussion Doc - [link]
 Comment with:
 - Questions
 - Concerns
 - Suggestions
 - Approval
 
-Deadline: Tuesday EOD. Owner will summarize feedback and post decision Wednesday morning.
+Deadline - Tuesday EOD. Owner will summarize feedback and post decision Wednesday morning.
 ```
 
 Async Execution Workflow
 
 A Project Lifecycle (Async)
 
-Phase 1: Pitch (Async, 1 day)
+Phase 1 - Pitch (Async, 1 day)
 - Owner writes 1-page project brief: what, why, who, timeline.
 - Post in `#announce`, comment deadline 24 hours.
 - Team leaves feedback (concerns, suggestions).
 
-Phase 2: Detailed Plan (Async, 3 days)
+Phase 2 - Detailed Plan (Async, 3 days)
 - Owner writes detailed project plan: milestones, dependencies, blockers, resource needs.
 - Post in wiki and #engineering, comment deadline 48 hours.
 - Collect feedback from affected teams.
 
-Phase 3: Execution (Async, weeks/months)
+Phase 3 - Execution (Async, weeks/months)
 - Owner creates project tasks in Linear.
 - Assign tasks to team members.
 - Weekly status updates in #status-eng.
 - Blockers posted in #engineering for async help.
 
-Phase 4: Retrospective (Sync, 1 hour)
+Phase 4 - Retrospective (Sync, 1 hour)
 - What went well? What didn't? What would we do differently?
 - Owner documents lessons in decision log.
 
-Total synchronous time: 1 hour. Everything else is async.
+Total synchronous time - 1 hour. Everything else is async.
 
 Pitfalls to Avoid
 
-Pitfall 1: Async Isn't Silent
+Pitfall 1 - Async Isn't Silent
 Async doesn't mean no communication. It means written, asynchronous communication. Post updates frequently; leave comments; seek feedback. More writing, not less talking.
 
-Pitfall 2: Time Zone Hell
+Pitfall 2 - Time Zone Hell
 With distributed teams, someone is always offline. Document everything. Post decisions in writing. Record meetings. Don't expect everyone to attend live calls.
 
-Pitfall 3: Notification Overload
+Pitfall 3 - Notification Overload
 Mute aggressively. Use threads so you're not spammed. Set "do not disturb" hours. Async culture dies if people are pinged constantly.
 
-Pitfall 4: No Feedback Loop
+Pitfall 4 - No Feedback Loop
 Async decisions can feel one-way. Force feedback. Set deadlines. Ask explicitly: "Thoughts?" Without feedback loops, people feel unheard.
 
-Pitfall 5: Over-Documenting
+Pitfall 5 - Over-Documenting
 Document decisions, not every conversation. Not every Slack thread needs to be in the wiki. Use judgment: wiki for repeatable knowledge (how to deploy), Slack for one-off coordination.
 
 Measuring Async Health
@@ -368,7 +368,7 @@ Measuring Async Health
 Track these metrics:
 
 - Time to decision: How long from "we need to decide X" to decision is made? Target: 2-3 days.
-- Meeting hours per week: Target: 2-4 hours (includes 1:1s, monthly retros, quarterly planning).
+- Meeting hours per week: Target - 2-4 hours (includes 1:1s, monthly retros, quarterly planning).
 - Wiki engagement: Are people actually reading docs? (Check wiki analytics.)
 - Slack message volume: Is it growing? If so, people are asking in Slack instead of reading docs.
 - New hire ramp-up time: How long until a new engineer ships their first PR? Target: 2 weeks.

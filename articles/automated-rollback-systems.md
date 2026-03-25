@@ -20,7 +20,7 @@ A deployment that breaks at 3 AM and waits for an on-call engineer to wake up an
 
 ---
 
-Kubernetes: Built-In Rollback with Health Gates
+Kubernetes - Built-In Rollback with Health Gates
 
 Kubernetes has rollback built in via `kubectl rollout undo`. The automation goal is to trigger it based on health conditions, not manual observation.
 
@@ -110,7 +110,7 @@ echo "Deployment successful: $IMAGE"
 
 ---
 
-Kubernetes: Prometheus-Based Rollback
+Kubernetes - Prometheus-Based Rollback
 
 Roll back based on error rate crossing a threshold after deploy. more reliable than timeouts alone:
 
@@ -149,7 +149,7 @@ echo "Error rate OK. deployment accepted"
 
 ---
 
-Docker Compose: Health-Check Rollback
+Docker Compose - Health-Check Rollback
 
 For non-Kubernetes deployments with Docker Compose:
 
@@ -212,7 +212,7 @@ exit 1
 
 ---
 
-Lambda: Version Aliases with Automatic Traffic Shift
+Lambda - Version Aliases with Automatic Traffic Shift
 
 AWS Lambda supports weighted aliases. Deploy to a new version, shift traffic gradually, roll back if error rate rises:
 
@@ -311,7 +311,7 @@ echo "Deployment complete: version $NEW_VERSION at 100%"
 
 ---
 
-GitHub Actions: Automated Rollback Gate in CI/CD
+GitHub Actions - Automated Rollback Gate in CI/CD
 
 Integrating rollback directly into your GitHub Actions pipeline catches failures before they fully propagate:
 

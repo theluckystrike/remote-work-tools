@@ -169,7 +169,7 @@ Detailed Pricing Comparison
 RescueTime Pricing
 
 - Free: Basic tracking, daily summaries, limited reports
-- Premium: $9/month (or $80/year). detailed analytics, goal setting, team reports
+- Premium - $9/month (or $80/year). detailed analytics, goal setting, team reports
 - Team: Custom pricing for organizational accounts
 
 For individual developers exploring time habits, the Free tier provides real value. The $80/year Premium tier is economical for freelancers tracking billable hours.
@@ -191,7 +191,7 @@ RescueTime: $0 free or $80/year premium
 - Best if: exploring time habits, want passive tracking
 - ROI: discovers time sinks quickly
 
-Toggl Track: $0 free or $9/month for calendar sync
+Toggl Track - $0 free or $9/month for calendar sync
 - Best if: precise project tracking, billing rates matter
 - ROI: improved accuracy for client billing
 
@@ -200,7 +200,7 @@ For teams:
 RescueTime Team: $300+/year for team reports
 - Only valuable if company needs aggregate time visibility
 
-Toggl Track Team: $9-19/person/month
+Toggl Track Team - $9-19/person/month
 - More valuable if team billing or client allocation matters
 
 Most developers save money with Toggl Track free tier for personal use.
@@ -317,7 +317,7 @@ Tracking Patterns for Different Developer Workflows
 
 Freelancers and Consultants
 
-Best tool: Toggl Track
+Best tool - Toggl Track
 
 Setup:
 1. Create project per client
@@ -327,7 +327,7 @@ Setup:
 
 Workflow:
 ```bash
-Morning: start work on client project
+Morning - start work on client project
 toggl start "Client A - Backend API development" -p "ClientA"
 
 ... work for 2 hours ...
@@ -336,19 +336,19 @@ Switch projects
 toggl stop
 toggl start "Client B - UX review and feedback" -p "ClientB"
 
-End of day: export billable hours
+End of day - export billable hours
 toggl export --format=csv --start=today
 ```
 
-Value: Precise client billing, clear project breakdown, works offline
+Value - Precise client billing, clear project breakdown, works offline
 
 Full-Time Developers (Self-Awareness)
 
-Best tool: RescueTime Free
+Best tool - RescueTime Free
 
-Setup: Install, configure app/website categories, let it run
+Setup - Install, configure app/website categories, let it run
 
-Value: Discover where your day actually goes without overhead
+Value - Discover where your day actually goes without overhead
 
 Typical insights:
 - "I spend 2 hours daily in Slack" (not perceived before)
@@ -357,19 +357,19 @@ Typical insights:
 
 Salary Researchers and Negotiators
 
-Best tool: Toggl Track
+Best tool - Toggl Track
 
-Reason: Precise tracking shows what you actually accomplish per week, useful data for annual review discussions and salary negotiation.
+Reason - Precise tracking shows what you actually accomplish per week, useful data for annual review discussions and salary negotiation.
 
-Talking point: "I consistently deliver 30 hours of focused coding per week (tracked via Toggl), equivalent to 25% above my full-time salary commitment"
+Talking point - "I consistently deliver 30 hours of focused coding per week (tracked via Toggl), equivalent to 25% above my full-time salary commitment"
 
 Managers and Leads Tracking Team Time
 
-Best tool: RescueTime Team or Toggl Track Team
+Best tool - RescueTime Team or Toggl Track Team
 
-Use case: Understand where team spends time, identify meeting overload, spot bottlenecks
+Use case - Understand where team spends time, identify meeting overload, spot bottlenecks
 
-Caution: Use sparingly and transparently. Excessive time tracking damages trust. Better approach: spot-check trends and discuss problems directly.
+Caution - Use sparingly and transparently. Excessive time tracking damages trust. Better approach: spot-check trends and discuss problems directly.
 
 Building Your Personal Time Audit
 
@@ -385,16 +385,16 @@ Week 1-2 Audit Steps
 
 Common Audit Discoveries
 
-Meeting load: "I thought I had 3 hours of meetings daily. I actually have 7."
+Meeting load - "I thought I had 3 hours of meetings daily. I actually have 7."
 → Action: Negotiate meeting attendance, remove optional meetings
 
-Productivity dips: "I'm most productive 9-11am but schedule deep work 2-5pm"
+Productivity dips - "I'm most productive 9-11am but schedule deep work 2-5pm"
 → Action: Protect 9-11am for focus work, move meetings to afternoon
 
-Time waste: "I spend 90 minutes daily context switching between Slack and code"
+Time waste - "I spend 90 minutes daily context switching between Slack and code"
 → Action: Batch Slack checks to 3 times daily instead of continuous
 
-Commute equivalence: "Remote work saves 1.5 hours daily vs. office"
+Commute equivalence - "Remote work saves 1.5 hours daily vs. office"
 → Action: Reinvest in learning, exercise, or billable work
 
 Choosing Based on Your Primary Goal

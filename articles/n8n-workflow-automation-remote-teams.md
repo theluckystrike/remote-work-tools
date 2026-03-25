@@ -17,7 +17,7 @@ tags: [remote-work-tools, workflow, remote-work, automation]
 
 n8n is an open-source workflow automation tool that self-hosts. Unlike Zapier or Make, you run it on your own server, pay nothing per workflow execution, and keep your data in your own infrastructure. For remote teams handling sensitive client data or running high-volume automations, n8n eliminates per-task pricing and data residency concerns.
 
-This guide covers: self-hosted n8n setup, five practical remote team workflows, and error handling to make automations reliable.
+This guide covers - self-hosted n8n setup, five practical remote team workflows, and error handling to make automations reliable.
 
 Install n8n with Docker
 
@@ -84,7 +84,7 @@ volumes:
   postgres_data: {}
 ```
 
-Workflow 1: GitHub PR to Slack Notification with Context
+Workflow 1 - GitHub PR to Slack Notification with Context
 
 The default GitHub → Slack integration only sends a link. This workflow sends a formatted message with reviewer names, labels, and a direct link to the diff.
 
@@ -152,13 +152,13 @@ The default GitHub → Slack integration only sends a link. This workflow sends 
 }
 ```
 
-Workflow 2: Daily Standup Reminder with Auto-Summary
+Workflow 2 - Daily Standup Reminder with Auto-Summary
 
 ```
-Trigger: Schedule. 9:00 AM Mon-Fri
-Step 1: GitHub node. fetch commits from last 24 hours per developer
-Step 2: Code node. format into standup summary
-Step 3: Slack node. post to #standup channel
+Trigger - Schedule. 9:00 AM Mon-Fri
+Step 1 - GitHub node. fetch commits from last 24 hours per developer
+Step 2 - Code node. format into standup summary
+Step 3 - Slack node. post to #standup channel
 ```
 
 ```javascript
@@ -181,15 +181,15 @@ const message = Object.entries(byAuthor)
 return [{ json: { message: message || 'No commits in the last 24 hours.' } }];
 ```
 
-Workflow 3: New Notion Page → Slack Alert
+Workflow 3 - New Notion Page → Slack Alert
 
 When anyone creates a new page in a specific Notion database (e.g., the Engineering Decisions database), notify the team immediately.
 
 ```
-Trigger: Webhook (Notion webhook via Zapier or Notion API polling)
+Trigger - Webhook (Notion webhook via Zapier or Notion API polling)
 OR: Schedule. poll Notion API every 5 minutes
 
-Step 1: HTTP Request. Notion API
+Step 1 - HTTP Request. Notion API
   GET https://api.notion.com/v1/databases/DATABASE_ID/query
   Headers: Authorization: Bearer NOTION_TOKEN
   Body: {
@@ -201,30 +201,30 @@ Step 1: HTTP Request. Notion API
     }
   }
 
-Step 2: IF. results exist
+Step 2 - IF. results exist
   conditions: {{ $json.results.length > 0 }}
 
-Step 3: Split in Batches. one notification per new page
+Step 3 - Split in Batches. one notification per new page
 
-Step 4: Slack. post to #decisions
+Step 4 - Slack. post to #decisions
   "New decision logged: {{ $json.properties.Name.title[0].text.content }}"
   "Author: {{ $json.created_by.name }}"
   "Link: {{ $json.url }}"
 ```
 
-Workflow 4: Failed CI Build to Linear Issue
+Workflow 4 - Failed CI Build to Linear Issue
 
 Automatically create a bug ticket when a CI build fails on `main`.
 
 ```
-Trigger: Webhook (GitHub Actions calls this webhook on failure)
-Step 1: HTTP Request. check if issue already exists in Linear
+Trigger - Webhook (GitHub Actions calls this webhook on failure)
+Step 1 - HTTP Request. check if issue already exists in Linear
   GET https://api.linear.app/graphql
   Query: issues with title containing the workflow name
 
-Step 2: IF. no duplicate issue
+Step 2 - IF. no duplicate issue
 
-Step 3: HTTP Request. create Linear issue
+Step 3 - HTTP Request. create Linear issue
   POST https://api.linear.app/graphql
   Headers: Authorization: YOUR_LINEAR_API_KEY
   Body: {
@@ -232,7 +232,7 @@ Step 3: HTTP Request. create Linear issue
     "variables": {
       "input": {
         "title": "CI Failed: {{ $json.body.workflow }} on main",
-        "description": "Branch: main\nCommit: {{ $json.body.commit_sha }}\nWorkflow: [View run]({{ $json.body.run_url }})",
+        "description": "Branch - main\nCommit: {{ $json.body.commit_sha }}\nWorkflow: [View run]({{ $json.body.run_url }})",
         "teamId": "YOUR_TEAM_ID",
         "priority": 2,
         "labelIds": ["BUG_LABEL_ID"]
@@ -255,23 +255,23 @@ In your GitHub Actions workflow, call the n8n webhook on failure
       }'
 ```
 
-Workflow 5: Weekly Team Metrics Digest
+Workflow 5 - Weekly Team Metrics Digest
 
 ```
-Trigger: Schedule. Friday 5:00 PM
+Trigger - Schedule. Friday 5:00 PM
 
-Step 1: GitHub. fetch open PRs older than 48 hours
+Step 1 - GitHub. fetch open PRs older than 48 hours
   GET /repos/:owner/:repo/pulls?state=open
 
-Step 2: GitHub. fetch merged PRs this week
+Step 2 - GitHub. fetch merged PRs this week
   GET /repos/:owner/:repo/pulls?state=closed&since=<monday_date>
 
-Step 3: Linear. fetch completed issues this week
+Step 3 - Linear. fetch completed issues this week
   GraphQL query with date filter
 
-Step 4: Code node. format weekly digest message
+Step 4 - Code node. format weekly digest message
 
-Step 5: Slack. post to #engineering-metrics
+Step 5 - Slack. post to #engineering-metrics
 ```
 
 Error Handling for Reliable Workflows
@@ -297,7 +297,7 @@ return [{
     details: [
       `Error: ${error.execution.error?.message || 'Unknown'}`,
       `Node: ${error.execution.lastNodeExecuted || 'Unknown'}`,
-      `Time: ${new Date(error.execution.startedAt).toISOString()}`,
+      `Time - ${new Date(error.execution.startedAt).toISOString()}`,
       `<https://automation.yourdomain.com/workflow/${error.workflow.id}|View Workflow>`,
     ].join('\n'),
   }

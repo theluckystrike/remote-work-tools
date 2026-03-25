@@ -28,7 +28,7 @@ A CASB provides four core functions that matter for remote teams:
 
 For a remote team with 30+ SaaS apps, manual monitoring is impossible. A CASB automates security policy enforcement across your entire toolchain.
 
-Deployment Models: Proxy vs API
+Deployment Models - Proxy vs API
 
 Understanding the deployment model is critical, it affects what you can protect and how you deploy.
 
@@ -67,13 +67,13 @@ Proxy deployment works well for:
 - Session-level access control
 - Inline data loss prevention
 
-Many organizations use both: API CASB for governance and compliance, proxy CASB for real-time threat protection.
+Many organizations use both - API CASB for governance and compliance, proxy CASB for real-time threat protection.
 
 Key CASB Solutions for Remote Teams
 
 Microsoft Defender for Cloud Apps
 
-Formerly Cloud App Security, Microsoft's CASB integrates deeply with Microsoft 365 and extends to 100+ third-party SaaS apps. For teams already in the Microsoft ecosystem, this provides unified threat protection.
+Formerly Cloud App Security, Microsoft's CASB integrates deeply with Microsoft 365 and extends to 100+ third-party SaaS apps. For teams already in the Microsoft environment, this provides unified threat protection.
 
 Strengths:
 - Native integration with Azure AD conditional access
@@ -131,7 +131,7 @@ Considerations:
 
 Implementing CASB for Remote Teams
 
-Step 1: Discover Your SaaS Footprint
+Step 1 - Discover Your SaaS Footprint
 
 Before selecting a CASB, understand what you're protecting. Use API-based discovery or network traffic analysis.
 
@@ -155,7 +155,7 @@ saas_inventory = discover_saas_from_oauth_logs(idp_logs)
 print(f"Discovered {len(saas_inventory)} SaaS applications")
 ```
 
-Step 2: Classify Your Data
+Step 2 - Classify Your Data
 
 Remote teams handle various data types, customer data, code, credentials, PII. Classify data before enabling DLP, or you'll generate noise.
 
@@ -184,12 +184,12 @@ actions:
     - log_access
 ```
 
-Step 3: Implement Zero Trust Access
+Step 3 - Implement Zero Trust Access
 
 Combine your CASB with zero-trust principles. Every SaaS access request should be authenticated, authorized, and monitored.
 
 ```hcl
-Terraform: Conditional access policy for SaaS access
+Terraform - Conditional access policy for SaaS access
 resource "azuread_conditional_access_policy" "saas_mfa_required" {
   display_name = "Require MFA for all SaaS applications"
   enabled      = true

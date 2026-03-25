@@ -53,7 +53,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Ergonomic Fundamentals for Laptop Coders
+Step 1 - Ergonomic Fundamentals for Laptop Coders
 
 Height and Angle Matter
 
@@ -67,7 +67,7 @@ Traditional keyboards force your hands to angle inward (pronation), which strain
 
 If you're not ready to switch keyboards, at least be mindful of your hand position. Keep your wrists straight and your elbows close to your body.
 
-Step 2: Keyboard Shortcuts: Your Wrists' Best Friend
+Step 2 - Keyboard Shortcuts: Your Wrists' Best Friend
 
 Every keystroke you avoid is one less strain on your wrists. Learning keyboard shortcuts is one of the most effective ways to reduce repetitive typing motions.
 
@@ -120,11 +120,11 @@ alias ll="ls -la"
 
 Small changes like these compound over thousands of command executions per week.
 
-Step 3: IDE and Editor Configurations
+Step 3 - IDE and Editor Configurations
 
 Enable Vim Mode (Carefully)
 
-Vim keybindings let you navigate and edit code without leaving the home row. This reduces hand movement significantly. VS Code has a Vim extension, and many developers find it transformative.
+Vim keybindings let you navigate and edit code without leaving the home row. This reduces hand movement significantly. VS Code has a Vim extension, and many developers find it changing.
 
 However, Vim can be counterintuitive. Start with the basics, navigation with `h`, `j`, `k`, `l`, and gradually add more commands as you build muscle memory.
 
@@ -147,7 +147,7 @@ Most modern IDEs support code snippets. Configure your editor to expand common p
 }
 ```
 
-Step 4: Movement and Stretching Routines
+Step 4 - Movement and Stretching Routines
 
 The 20-20-20 Rule for Wrists
 
@@ -165,7 +165,7 @@ Take Real Breaks
 
 Using the Pomodoro technique helps build regular breaks into your workflow. Set a timer for 25 minutes of work, then take a 5-minute break. During your break, stand up, stretch, and shake out your hands.
 
-Step 5: Software Tools for Wrist Health
+Step 5 - Software Tools for Wrist Health
 
 AutoHotkey for Windows
 
@@ -195,11 +195,11 @@ If you experience persistent numbness, tingling, or pain that doesn't improve wi
 
 A physical therapist can teach you specific exercises tailored to your situation and may recommend a wrist brace for during typing sessions.
 
-Step 6: Build Sustainable Habits
+Step 6 - Build Sustainable Habits
 
 Reducing wrist pain requires consistency. Start with one or two changes, perhaps adding a keyboard shortcut or setting up a Pomodoro timer, and build from there. Your wrists will thank you after years of coding ahead.
 
-Step 7: Ergonomic Equipment Recommendations
+Step 7 - Ergonomic Equipment Recommendations
 
 Investing in the right equipment pays long-term dividends. Here are practical options across price ranges:
 
@@ -227,13 +227,13 @@ Wrist Supports and Braces
 
 Braces reduce median nerve pressure during typing:
 
-- Wrist Rest Pads: Gel pads ($15-40) positioned under your wrist while typing. prevents extension strain
+- Wrist Rest Pads - Gel pads ($15-40) positioned under your wrist while typing. prevents extension strain
 - Wrist Braces: Neoprene or fabric ($20-50) worn during work for passive support
 - Medical-Grade Braces: Prescribed by physical therapists ($80-200) for carpal tunnel or tendonitis
 
 Braces work best as temporary support during flare-ups, not permanent solutions. Use them while addressing underlying posture issues.
 
-Step 8: Professional Interventions
+Step 8 - Professional Interventions
 
 When self-care strategies don't resolve persistent pain, professional help becomes necessary.
 
@@ -267,7 +267,7 @@ If conservative measures fail after 4-6 weeks, consult a physician. Red flags wa
 
 Physicians can order nerve conduction studies to confirm carpal tunnel syndrome or rule out other conditions. Early intervention for actual nerve compression is critical, waiting increases risk of permanent damage.
 
-Step 9: Alternative Input Methods
+Step 9 - Alternative Input Methods
 
 For severe cases where typing causes pain, explore alternatives:
 
@@ -286,7 +286,7 @@ Foot Pedals
 
 Programmable foot switches (like Kinesis FootSwitches) let you execute common commands without hands. Useful for triggering mouse clicks or keyboard combinations that would cause pain.
 
-Step 10: Monitor and Prevention Going Forward
+Step 10 - Monitor and Prevention Going Forward
 
 Once you've addressed acute pain, monitoring for recurrence matters:
 
@@ -307,7 +307,7 @@ Community Resources
 
 Join developer communities discussing RSI prevention. Online forums like the Repetitive Strain Injury Discord or Reddit's r/RSI provide peer support and latest strategies.
 
-Step 11: The Long View
+Step 11 - The Long View
 
 Preventing wrist pain is ultimately an investment in your career longevity. Developers unable to code due to severe RSI have seen their careers disrupted. The cumulative cost of preventive measures, a $100 keyboard, ergonomic chair, regular breaks, is trivial compared to years away from development.
 

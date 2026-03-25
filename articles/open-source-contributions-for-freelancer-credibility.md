@@ -29,7 +29,7 @@ Table of Contents
 - [Making Contributions Visible](#making-contributions-visible)
 - [Contribution Timeline and Realistic Expectations](#contribution-timeline-and-realistic-expectations)
 - [Contribution Strategy by Career Stage](#contribution-strategy-by-career-stage)
-- [Platform Strategy: Where to Build Presence](#platform-strategy-where-to-build-presence)
+- [Platform Strategy - Where to Build Presence](#platform-strategy-where-to-build-presence)
 - [What makes this different](#what-makes-this-different)
 - [For Freelance Clients](#for-freelance-clients)
 - [Monetizing Open Source Credibility](#monetizing-open-source-credibility)
@@ -155,27 +155,27 @@ Link this page from your proposal templates and email signature. When clients as
 
 Contribution Timeline and Realistic Expectations
 
-Most freelancers ask: How long until contributions impact my business? Here's the realistic timeline:
+Most freelancers ask - How long until contributions impact my business? Here's the realistic timeline:
 
-Month 1: Skill Building Phase
+Month 1 - Skill Building Phase
 - Make 3-5 small contributions (docs, typos, minor bugs)
 - Learn GitHub workflow and project communication norms
 - Build confidence navigating unfamiliar codebases
 - No business impact yet, that's okay
 
-Month 2-3: Pattern Establishment
+Month 2-3 - Pattern Establishment
 - Contribute 1-2 meaningful features or bug fixes
 - Start getting recognized by project maintainers
 - Begin mentioning contributions in proposals
 - Early-stage potential clients notice GitHub profile
 
-Month 4-6: Portfolio Differentiation
+Month 4-6 - Portfolio Differentiation
 - 8-15 meaningful contributions across 2-3 projects
 - Some contributions have measurable impact (users, downloads, citations)
 - LinkedIn and portfolio explicitly highlight open source work
 - Clients actively verify your GitHub during qualification
 
-Month 7-12: Credibility Multiplier
+Month 7-12 - Credibility Multiplier
 - 20+ contributions or 3+ maintained packages
 - Speaking opportunities at local meetups or conferences
 - Freelance rates increase by 20-40% based on track record
@@ -187,12 +187,12 @@ For Junior Developers (0-2 years experience)
 Focus on breadth. Contribute to 5-10 projects, staying within "good first issue" territory. Your goal isn't code quality (you'll improve over time) but demonstrating willingness to learn and ship code.
 
 Target projects:
-- Node.js ecosystem (JavaScript): Docusaurus, Next.js, Zod
+- Node.js environment (JavaScript): Docusaurus, Next.js, Zod
 - Python: Django, FastAPI, Pydantic
-- React: React itself, Next.js, Remix
+- React - React itself, Next.js, Remix
 - Go: Golang tools, Kubernetes, Docker
 
-Expected contributions: Documentation fixes, test additions, small feature work
+Expected contributions - Documentation fixes, test additions, small feature work
 
 For Mid-Level Developers (2-5 years experience)
 Focus on depth. Contribute substantially to 2-3 projects that align with your niche. Become someone known for solving hard problems in your domain.
@@ -202,7 +202,7 @@ Target projects:
 - If frontend: UI component libraries, CSS frameworks you use professionally
 - If DevOps: Infrastructure tools, cloud SDKs, CI/CD platforms
 
-Expected contributions: Architecture improvements, performance optimizations, significant bug fixes
+Expected contributions - Architecture improvements, performance optimizations, significant bug fixes
 
 For Senior Developers (5+ years experience)
 Focus on use. Maintain 1-2 packages, contribute leadership to larger projects. Your value is guidance and decision-making, not just code.
@@ -213,7 +213,7 @@ Effective approaches:
 - Author RFCs and architecture discussions for major projects
 - Mentor junior contributors
 
-Platform Strategy: Where to Build Presence
+Platform Strategy - Where to Build Presence
 
 GitHub
 GitHub is non-negotiable. Your profile is your freelance resume. Optimize it:
@@ -233,7 +233,7 @@ project-name
 
 [Brief one-liner about what this solves]
 
-Stats: 500+ downloads/month, maintained by [your name]
+Stats - 500+ downloads/month, maintained by [your name]
 
 What makes this different
 - Performance: 10x faster than alternatives

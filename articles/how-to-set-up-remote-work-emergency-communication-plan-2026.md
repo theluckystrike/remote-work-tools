@@ -28,31 +28,31 @@ This guide covers building an emergency communication plan that keeps your remot
 
 The Three Tiers of Communication Breakdown
 
-Tier 1: Partial Outage
+Tier 1 - Partial Outage
 - Slack works but is slow
 - Zoom/video calls are laggy
 - Email is fine
 
-Action: Use text-based comms (Slack, email). Avoid video calls. Shift to async.
+Action - Use text-based comms (Slack, email). Avoid video calls. Shift to async.
 
-Tier 2: Major Outage
+Tier 2 - Major Outage
 - Slack completely down (status: slack.com/status)
 - Zoom/video unreliable
 - Email still works
 
-Action: Switch to SMS + email. Activate Status Page. Broadcast to all channels we're switching.
+Action - Switch to SMS + email. Activate Status Page. Broadcast to all channels we're switching.
 
-Tier 3: Catastrophic
+Tier 3 - Catastrophic
 - Multiple platforms down (Slack + Zoom + email)
 - Cloud services failing
 
-Action: Activate phone tree. Use public status pages (Twitter, status pages, SMS). Call critical stakeholders.
+Action - Activate phone tree. Use public status pages (Twitter, status pages, SMS). Call critical stakeholders.
 
 Emergency Communication Plan Template
 
 1. Communication Hierarchy
 
-Primary Channel (normal times): Slack #general, #incidents
+Primary Channel (normal times) - Slack #general, #incidents
 
 Secondary Channel (if Slack down): Email (Gmail, Outlook, or company email)
 
@@ -79,22 +79,22 @@ Build a phone tree for the last-resort scenario:
 
 Level 1 (Company Leadership)
 ```
-CEO/Executive: [name] [phone] [backup phone]
-COO/Operations: [name] [phone] [backup phone]
-CTO/Head of Eng: [name] [phone] [backup phone]
+CEO/Executive - [name] [phone] [backup phone]
+COO/Operations - [name] [phone] [backup phone]
+CTO/Head of Eng - [name] [phone] [backup phone]
 ```
 
 Level 2 (Department Heads)
 ```
-Engineering Lead: [name] [phone] [backup phone]
-Product Lead: [name] [phone] [backup phone]
-Sales Lead: [name] [phone] [backup phone]
-Finance Lead: [name] [phone] [backup phone]
+Engineering Lead - [name] [phone] [backup phone]
+Product Lead - [name] [phone] [backup phone]
+Sales Lead - [name] [phone] [backup phone]
+Finance Lead - [name] [phone] [backup phone]
 ```
 
 Level 3 (Team Managers)
 ```
-Each manager: [name] [phone] [backup phone]
+Each manager - [name] [phone] [backup phone]
 ```
 
 Protocol:
@@ -146,21 +146,21 @@ Example incident post:
 ```
 Slack Integration Down. IDENTIFIED
 
-Started: 2026-03-21 14:30 UTC
-Status: IDENTIFIED
+Started - 2026-03-21 14:30 UTC
+Status - IDENTIFIED
 
 We've identified an issue with our Slack integration. Messages are not syncing to the app.
-Workaround: Use the web app directly until resolved.
+Workaround - Use the web app directly until resolved.
 
 For updates, follow @[company_status] on Twitter or check this page.
 
-ETA: 15:45 UTC
-Updated: 14:45 UTC
+ETA - 15:45 UTC
+Updated - 14:45 UTC
 ```
 
 Integration with Incident Response:
 ```yaml
-- Tool: StatusPage.io
+- Tool - StatusPage.io
 - Update trigger: PagerDuty alert escalation
 - Notification: Auto-notify subscribers via email
 - Message template: Pre-written for common incidents
@@ -183,18 +183,18 @@ critical-path@company.com. customer-facing teams
 exec@company.com. executive team
 ```
 
-Template: Incident Notification Email
+Template - Incident Notification Email
 
 ```
-Subject: INCIDENT: [Service] - [Status]
+Subject - INCIDENT: [Service] - [Status]
 
 Hi Team,
 
 [PRIMARY ISSUE]
-Service: [name]
-Impact: [number] users affected
-Started: [time UTC]
-Status: [investigating/identified/monitoring]
+Service - [name]
+Impact - [number] users affected
+Started - [time UTC]
+Status - [investigating/identified/monitoring]
 
 [WHAT'S HAPPENING]
 We've detected [issue]. We are actively investigating.
@@ -208,11 +208,11 @@ In the meantime, users can [workaround]. Normal access will be restored as soon 
 - Email reply or SMS [phone] for urgent issues
 
 [CONTACT]
-On-call engineer: [name] [phone]
-Engineering manager: [name] [phone]
+On-call engineer - [name] [phone]
+Engineering manager - [name] [phone]
 
-Updated: [time UTC]
-Next update: [time + 15 min]
+Updated - [time UTC]
+Next update - [time + 15 min]
 ```
 
 5. SMS Tree for Critical Alerts
@@ -230,8 +230,8 @@ SMS Distribution List (keep small, 5-10 people):
 SMS Template:
 
 ```
-INCIDENT: [Service] down as of 14:30 UTC. Impact: [customers/internal].
-Status: investigating. Updates: [status-page-url] or Twitter @[company].
+INCIDENT - [Service] down as of 14:30 UTC. Impact - [customers/internal].
+Status - investigating. Updates - [status-page-url] or Twitter @[company].
 Reply HELP for contact.
 ```
 
@@ -243,10 +243,10 @@ Set up monitoring that doesn't depend on the broken system.
 
 Synthetic monitoring (e.g., Datadog Synthetic):
 ```
-Check #1: Can we reach api.example.com?
-Check #2: Is the homepage loading?
-Check #3: Can we reach Slack API?
-Check #4: Can we reach email servers?
+Check #1 - Can we reach api.example.com?
+Check #2 - Is the homepage loading?
+Check #3 - Can we reach Slack API?
+Check #4 - Can we reach email servers?
 
 Run every 10 seconds during normal times.
 If 2+ checks fail → trigger incident alert
@@ -263,7 +263,7 @@ If ANY of these show "incident", assume external problem.
 Don't assume it's your infrastructure.
 ```
 
-7. Decision Tree: Is It an Outage or Local Issue?
+7. Decision Tree - Is It an Outage or Local Issue?
 
 When Slack is down, follow this decision tree:
 
@@ -306,7 +306,7 @@ Sample Incident Log:
 14:30 UTC. INCIDENT DETECTED: Users report Slack integration not working
 14:32. Severity: Tier 2 (Slack partially degraded)
 14:32. Incident Commander: [name]
-14:33. Status: Investigating. Switched to email notifications.
+14:33. Status - Investigating. Switched to email notifications.
 14:35. Root cause identified: Redis cluster failed
 14:40. Fix deployed. Monitoring recovery.
 14:45. All systems recovered. Incident closed.
@@ -314,23 +314,23 @@ Sample Incident Log:
 
 9. For Distributed Teams Across Time Zones
 
-Problem: Team spans US, Europe, Asia. Phone tree calls may miss sleeping people.
+Problem - Team spans US, Europe, Asia. Phone tree calls may miss sleeping people.
 
-Solution: Async-first escalation
+Solution - Async-first escalation
 
 ```
-Tier 1 (Async): StatusPage + Email to [team@company.com]
-Tier 2 (SMS): Alert on-call engineer (always awake, rotates)
-Tier 3 (Phone): If Tier 2 can't reach anyone, escalate to manager on-call
-Tier 4 (Public): Tweet from company account + update status page
+Tier 1 (Async) - StatusPage + Email to [team@company.com]
+Tier 2 (SMS) - Alert on-call engineer (always awake, rotates)
+Tier 3 (Phone) - If Tier 2 can't reach anyone, escalate to manager on-call
+Tier 4 (Public) - Tweet from company account + update status page
 ```
 
 On-call Schedule Example:
 
 ```
-Week 1: US engineer on-call (covers US/EMEA handoff)
-Week 2: EMEA engineer on-call (covers EMEA/APAC handoff)
-Week 3: APAC engineer on-call (covers APAC/US handoff)
+Week 1 - US engineer on-call (covers US/EMEA handoff)
+Week 2 - EMEA engineer on-call (covers EMEA/APAC handoff)
+Week 3 - APAC engineer on-call (covers APAC/US handoff)
 ```
 
 Rotate every week so one person is always available within 30 minutes.
@@ -345,7 +345,7 @@ We're currently experiencing an issue with [service]
 and are actively investigating. Updates:
 [status-page-url]
 
-ETA for resolution: [time]. We apologize for the disruption.
+ETA for resolution - [time]. We apologize for the disruption.
 ```
 
 Update Twitter every 15 minutes during incident. This ensures customers see updates even if your main services are down.
@@ -362,11 +362,11 @@ Retrospective Template:
 
 ```
 INCIDENT RETROSPECTIVE
-Date: March 21, 2026
+Date - March 21, 2026
 
 SUMMARY
 Redis cluster failure caused 30-minute Slack integration outage.
-Impacted: Internal team, not customer-facing.
+Impacted - Internal team, not customer-facing.
 
 TIMELINE
 14:30 - First alert: "Slack integration timeout"
@@ -397,13 +397,13 @@ ACTION ITEMS
 Quarterly Emergency Drill (30 minutes):
 
 ```
-Scenario: Slack completely down
+Scenario - Slack completely down
 
-Step 1 (5 min): Simulate Slack outage
-Step 2 (5 min): Incident commander activates protocol
-Step 3 (10 min): Team communicates via email instead
-Step 4 (5 min): Debrief: what worked? what didn't?
-Step 5 (5 min): Update plan based on learnings
+Step 1 (5 min) - Simulate Slack outage
+Step 2 (5 min) - Incident commander activates protocol
+Step 3 (10 min) - Team communicates via email instead
+Step 4 (5 min) - Debrief - what worked? what didn't?
+Step 5 (5 min) - Update plan based on learnings
 ```
 
 Document results in a shared Google Sheet:
@@ -436,14 +436,14 @@ Create this checklist and review quarterly:
 Recommended Stack:
 - Primary: Slack (normal times)
 - Secondary: Gmail/Office 365 (backup email)
-- Tertiary: Twilio ($0.0075 per SMS) or Amazon SNS (SMS)
-- Status Page: StatusPage.io ($25/month) or Incident.io (free)
+- Tertiary - Twilio ($0.0075 per SMS) or Amazon SNS (SMS)
+- Status Page - StatusPage.io ($25/month) or Incident.io (free)
 - Phone: Standard mobile phones (no special tool needed)
 - Monitoring: Datadog Synthetic Monitoring ($10/month) or Better Uptime ($10/month)
 
-Total cost: ~$50-100/month for tools
+Total cost - ~$50-100/month for tools
 
-Setup time: 4-6 hours (one-time)
+Setup time - 4-6 hours (one-time)
 
 15. Sample Emergency Communication Plan Document
 
@@ -457,7 +457,7 @@ IF SLACK IS DOWN:
 2. If Slack incident: check email for updates
 3. If no email: wait for SMS or call
 4. Check [status-page-url]
-5. Twitter: @[company]
+5. Twitter - @[company]
 
 IF EMAIL IS DOWN:
 1. Check Gmail status
@@ -473,9 +473,9 @@ IF EVERYTHING IS DOWN:
 
 CONTACT:
 On-call (24/7): [name] [phone]
-Incident commander: [name] [email]
-Status page: [url]
-Twitter: @[company]
+Incident commander - [name] [email]
+Status page - [url]
+Twitter - @[company]
 ```
 
 Print this and send it to all employees. Make it an one-pager so people actually read it.
@@ -498,7 +498,7 @@ For teams > 100:
 - Dedicated incident commander role
 - Quarterly drills
 
-Most important: Have a plan written down and share it with your entire team. Plans that exist only in someone's head are useless when that person is asleep or traveling.
+Most important - Have a plan written down and share it with your entire team. Plans that exist only in someone's head are useless when that person is asleep or traveling.
 
 Test your plan once per quarter. Update phone numbers and escalation paths quarterly. You'll never regret being over-prepared for communication breakdowns.
 

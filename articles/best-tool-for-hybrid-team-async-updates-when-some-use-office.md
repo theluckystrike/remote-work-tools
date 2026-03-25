@@ -23,7 +23,7 @@ Table of Contents
 - [The Hybrid Communication Gap](#the-hybrid-communication-gap)
 - [Approaches to Async Updates in Hybrid Teams](#approaches-to-async-updates-in-hybrid-teams)
 - [Implementation Strategy](#implementation-strategy)
-- [Async Update: [Topic]](#async-update-topic)
+- [Async Update - [Topic]](#async-update-topic)
 - [Automating Update Distribution](#automating-update-distribution)
 - [Practical Workflow Example](#practical-workflow-example)
 - [Tool Selection Considerations](#tool-selection-considerations)
@@ -37,7 +37,7 @@ Table of Contents
 - [Remote Team Involvement](#remote-team-involvement)
 - [Tool Use](#tool-use)
 - [Async Updates as Remote Inclusion Mechanism](#async-updates-as-remote-inclusion-mechanism)
-- [Proposed: Migrate to Service A from Service B](#proposed-migrate-to-service-a-from-service-b)
+- [Proposed - Migrate to Service A from Service B](#proposed-migrate-to-service-a-from-service-b)
 - [Handling Disagreement in Async Updates](#handling-disagreement-in-async-updates)
 
 The Hybrid Communication Gap
@@ -73,10 +73,10 @@ Regardless of which tool you choose, implementing async updates requires establi
 Create a standardized update template:
 
 ```markdown
-Async Update: [Topic]
-Date: 2026-03-16
-Author: @username
-Attendees: @in-office-team
+Async Update - [Topic]
+Date - 2026-03-16
+Author - @username
+Attendees - @in-office-team
 
 Discussion Summary
 [2-3 sentence summary of what was discussed]
@@ -130,13 +130,13 @@ Practical Workflow Example
 
 A typical workflow for a hybrid team using async updates might look like this:
 
-Morning (Office Team): Team members working in the office hold an ad-hoc whiteboard session to troubleshoot a technical issue. One person photographs the whiteboard and takes notes.
+Morning (Office Team) - Team members working in the office hold an ad-hoc whiteboard session to troubleshoot a technical issue. One person photographs the whiteboard and takes notes.
 
-Post-Session (15 minutes): The session lead writes an async update following the template, including the whiteboard photo, explaining decisions made, and noting questions for remote team members.
+Post-Session (15 minutes) - The session lead writes an async update following the template, including the whiteboard photo, explaining decisions made, and noting questions for remote team members.
 
-Afternoon (Remote Team): Remote team members review the update during their workday. They add comments with questions or alternative perspectives. If significant disagreement emerges, a short sync meeting gets scheduled,  but often async discussion suffices.
+Afternoon (Remote Team) - Remote team members review the update during their workday. They add comments with questions or alternative perspectives. If significant disagreement emerges, a short sync meeting gets scheduled,  but often async discussion suffices.
 
-Follow-Up: Action items get created in the team's task system, with links back to the async update for context.
+Follow-Up - Action items get created in the team's task system, with links back to the async update for context.
 
 This pattern reduces meeting time by 30-50% for many teams while maintaining alignment.
 
@@ -146,11 +146,11 @@ When evaluating tools for your team, consider these factors:
 
 Integration with existing workflows: Does the tool connect to your current task manager, version control, or communication platform? integration reduces friction and increases adoption.
 
-Mobile accessibility: Team members should be able to view and contribute to async updates from mobile devices when away from desks.
+Mobile accessibility - Team members should be able to view and contribute to async updates from mobile devices when away from desks.
 
-Searchability: Updates should be searchable so team members can find previous discussions on specific topics.
+Searchability - Updates should be searchable so team members can find previous discussions on specific topics.
 
-Version history: Maintaining edit history helps teams understand how thinking evolved over time.
+Version history - Maintaining edit history helps teams understand how thinking evolved over time.
 
 Common Pitfalls to Avoid
 
@@ -158,13 +158,13 @@ Many teams struggle with async updates because they fall into predictable traps.
 
 Over-documenting trivial decisions: Not every conversation requires formal async documentation. Save structured updates for significant discussions that need persistent records.
 
-Ignoring remote input: Async updates only work when remote team members contribute. Build in explicit pauses where remote feedback gets requested and valued.
+Ignoring remote input - Async updates only work when remote team members contribute. Build in explicit pauses where remote feedback gets requested and valued.
 
 Using async for time-sensitive decisions: Some decisions need synchronous discussion. Don't force async communication when real-time conversation would be more effective.
 
 Declining to include whiteboard photos: Even low-quality photos are better than nothing. Remote team members can see the visual thinking even if text isn't legible. Include high-quality photos of any important diagrams.
 
-Not timing responses: Set explicit response deadlines. "Please provide feedback by EOD tomorrow" beats open-ended requests. Most remote teams benefit from 24-hour feedback windows that respect different timezones.
+Not timing responses - Set explicit response deadlines. "Please provide feedback by EOD tomorrow" beats open-ended requests. Most remote teams benefit from 24-hour feedback windows that respect different timezones.
 
 Treating async as a replacement for all meetings: Some discussions genuinely need synchronous time. Architecture decisions affecting multiple teams, conflict resolution, and urgent priority shifts need real-time input.
 
@@ -241,16 +241,16 @@ Async Updates as Remote Inclusion Mechanism
 
 Structured async updates serve a larger purpose than just documentation, they're the primary vehicle for including remote team members in decision-making. Without this structure, remote people become information second-class citizens.
 
-The inclusion problem: When office people naturally collaborate and make informal decisions, remote people find out afterwards. By then, reversing decisions requires more coordination than was invested initially. Remote people feel uninformed and excluded.
+The inclusion problem - When office people naturally collaborate and make informal decisions, remote people find out afterwards. By then, reversing decisions requires more coordination than was invested initially. Remote people feel uninformed and excluded.
 
-Async updates as solution: By requiring office teams to document decisions in writing with explicit feedback windows, you force remote people into the decision-making process. They see proposals before implementation and can influence outcomes.
+Async updates as solution - By requiring office teams to document decisions in writing with explicit feedback windows, you force remote people into the decision-making process. They see proposals before implementation and can influence outcomes.
 
 Example documentation that works for inclusion:
 
 ```markdown
-Proposed: Migrate to Service A from Service B
+Proposed - Migrate to Service A from Service B
 
-Context: Current service growing expensive, Service A offers better pricing/features
+Context - Current service growing expensive, Service A offers better pricing/features
 
 Timeline:
 - Proposal posted: 2026-03-20
@@ -298,7 +298,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -310,7 +310,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

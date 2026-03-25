@@ -22,12 +22,12 @@ Hybrid work culture breaks down when in-office employees accumulate more informa
 Table of Contents
 
 - [The Hybrid Culture Challenge](#the-hybrid-culture-challenge)
-- [Strategy One: Unified Communication Channels](#strategy-one-unified-communication-channels)
-- [Strategy Two: Equitable Meeting Design](#strategy-two-equitable-meeting-design)
-- [Strategy Three: Intentional In-Person Time](#strategy-three-intentional-in-person-time)
-- [Strategy Four: Transparent Decision Documentation](#strategy-four-transparent-decision-documentation)
-- [ADR-042: Adoption of Feature Flag System](#adr-042-adoption-of-feature-flag-system)
-- [Strategy Five: Culture Documentation and Evolution](#strategy-five-culture-documentation-and-evolution)
+- [Strategy One - Unified Communication Channels](#strategy-one-unified-communication-channels)
+- [Strategy Two - Equitable Meeting Design](#strategy-two-equitable-meeting-design)
+- [Strategy Three - Intentional In-Person Time](#strategy-three-intentional-in-person-time)
+- [Strategy Four - Transparent Decision Documentation](#strategy-four-transparent-decision-documentation)
+- [ADR-042 - Adoption of Feature Flag System](#adr-042-adoption-of-feature-flag-system)
+- [Strategy Five - Culture Documentation and Evolution](#strategy-five-culture-documentation-and-evolution)
 - [How We Work](#how-we-work)
 - [Measuring Culture Health](#measuring-culture-health)
 - [Putting It All Together](#putting-it-all-together)
@@ -35,8 +35,8 @@ Table of Contents
 - [Context](#context)
 - [Decision](#decision)
 - [Consequences](#consequences)
-- [Async Review Period: 7 days](#async-review-period-7-days)
-- [Measuring Culture Health: Specific Metrics](#measuring-culture-health-specific-metrics)
+- [Async Review Period - 7 days](#async-review-period-7-days)
+- [Measuring Culture Health - Specific Metrics](#measuring-culture-health-specific-metrics)
 - [Recovery Strategies If Culture Is Breaking](#recovery-strategies-if-culture-is-breaking)
 - [Seasonal Culture Activities](#seasonal-culture-activities)
 - [Documenting Culture Evolution](#documenting-culture-evolution)
@@ -49,11 +49,11 @@ Hybrid work creates a fundamental tension: team members physically present in th
 
 The solution involves treating culture infrastructure as critical as your codebase. Every process, tool, and meeting either bridges the gap or widens it.
 
-Strategy One: Unified Communication Channels
+Strategy One - Unified Communication Channels
 
 Create a single source of truth for team information that works equally well for remote and in-office workers. Avoid creating separate channels or processes for different locations.
 
-Implementation: Shared Async Updates
+Implementation - Shared Async Updates
 
 Replace location-specific standups with asynchronous video updates that everyone consumes on their own schedule. Use a simple structure that includes blockers, wins, and learning.
 
@@ -74,11 +74,11 @@ const asyncUpdate = {
 
 Store these updates in a searchable format. This allows new team members to onboard by reading historical updates and catching up on team context without scheduling dozens of intro meetings.
 
-Strategy Two: Equitable Meeting Design
+Strategy Two - Equitable Meeting Design
 
 Meetings are where hybrid teams either thrive or fracture. The key principle: every meeting must work just as well for a participant calling in from their kitchen as for someone in the conference room.
 
-Implementation: The Hybrid Meeting Protocol
+Implementation - The Hybrid Meeting Protocol
 
 ```yaml
 .meeting-protocol.yaml example
@@ -101,11 +101,11 @@ meeting_guidelines:
 
 Install these guidelines as a team contract. Review and iterate quarterly based on feedback from both in-office and remote participants.
 
-Strategy Three: Intentional In-Person Time
+Strategy Three - Intentional In-Person Time
 
 Not all collaboration needs face-to-face interaction, but certain activities genuinely benefit from physical presence. Strategic in-person time should focus on relationship building, complex brainstorming, and conflict resolution.
 
-Implementation: Structured Team Gatherings
+Implementation - Structured Team Gatherings
 
 ```python
 Sample gathering rotation for a team of 8
@@ -130,14 +130,14 @@ team_gathering_schedule = {
 
 The weekly coffee chats are particularly valuable. Randomly pair team members across locations each week for brief, low-stakes conversations. This builds the personal relationships that make professional collaboration smoother.
 
-Strategy Four: Transparent Decision Documentation
+Strategy Four - Transparent Decision Documentation
 
 Remote team members often miss context that flows through office hallways. Combat this by documenting decisions with their reasoning accessible to everyone.
 
-Implementation: Decision Records
+Implementation - Decision Records
 
 ```markdown
-ADR-042: Adoption of Feature Flag System
+ADR-042 - Adoption of Feature Flag System
 
 Status
 Accepted
@@ -161,11 +161,11 @@ Async Feedback Period
 
 This approach ensures remote team members can participate in decisions without being present for hallway conversations. Set a standard that important decisions require an async feedback period before finalization.
 
-Strategy Five: Culture Documentation and Evolution
+Strategy Five - Culture Documentation and Evolution
 
 Explicitly document your team norms, values, and working agreements. Written culture becomes the reference point when ambiguity arises.
 
-Implementation: Living Culture Handbook
+Implementation - Living Culture Handbook
 
 Structure your handbook around practical scenarios rather than abstract values:
 
@@ -207,7 +207,7 @@ Putting It All Together
 
 Start with communication channels that treat all locations equally, design meetings that work for everyone, use in-person time strategically, document decisions transparently, and maintain a living handbook of team norms.
 
-Your first action this week: audit one recurring meeting for location equity. Identify one specific improvement you can implement by next sprint.
+Your first action this week - audit one recurring meeting for location equity. Identify one specific improvement you can implement by next sprint.
 
 Practical Tools for Culture Implementation
 
@@ -223,10 +223,10 @@ Notion template for culture docs:
 
 GitHub ADR template (if already on GitHub):
 ```
-ADR-XXX: [Decision Title]
+ADR-XXX - [Decision Title]
 
-Date: YYYY-MM-DD
-Status: Accepted
+Date - YYYY-MM-DD
+Status - Accepted
 
 Context
 [Why this decision matters]
@@ -237,13 +237,13 @@ Decision
 Consequences
 [What changes as a result]
 
-Async Review Period: 7 days
+Async Review Period - 7 days
 [Link to Slack discussion thread]
 ```
 
-Calendly feature: Set up recurring "random coffee chat" meetings that pair team members randomly each week. Automate the pairing logic with a simple Python script.
+Calendly feature - Set up recurring "random coffee chat" meetings that pair team members randomly each week. Automate the pairing logic with a simple Python script.
 
-Measuring Culture Health: Specific Metrics
+Measuring Culture Health - Specific Metrics
 
 Retention tracking:
 - Pull HR data: Separation rate (remote vs. in-office)
@@ -255,17 +255,17 @@ Promotion equity:
 - In-office should not have disproportionate advancement
 - Review quarterly, adjust if imbalanced
 
-Meeting participation: Use Slack analytics
+Meeting participation - Use Slack analytics
 - Who speaks in meetings (watch that remote people aren't silent)
 - Meeting attendance patterns
 - Conference attendance split by location
 
-Async contribution: GitHub/Slack metrics
+Async contribution - GitHub/Slack metrics
 - Pull request review time (should be similar regardless of location)
 - Async document views and comments
 - Cross-location collaboration frequency
 
-Bad signals: If in-office employees consistently get interesting projects, speak more in meetings, or advance faster, your hybrid culture is failing despite good policy.
+Bad signals - If in-office employees consistently get interesting projects, speak more in meetings, or advance faster, your hybrid culture is failing despite good policy.
 
 Recovery Strategies If Culture Is Breaking
 
@@ -293,13 +293,13 @@ Seasonal Culture Activities
 
 Combat hybrid fatigue by building in seasonal activities:
 
-Q1 (January-March): New year planning. All-hands offsite if budget allows.
+Q1 (January-March) - New year planning. All-hands offsite if budget allows.
 
-Q2 (April-June): Team cohesion month. Weekly virtual coffee pairings. Monthly team online games.
+Q2 (April-June) - Team cohesion month. Weekly virtual coffee pairings. Monthly team online games.
 
-Q3 (July-September): Summer slump prevention. Flexible hours + good comms. Extra async content.
+Q3 (July-September) - Summer slump prevention. Flexible hours + good comms. Extra async content.
 
-Q4 (October-December): Celebration and reflection. Highlight wins, plan next year.
+Q4 (October-December) - Celebration and reflection. Highlight wins, plan next year.
 
 Annual in-person offsite (if budget allows): 1-2 days, optional attendance, focus on relationship building not meetings.
 
@@ -320,16 +320,16 @@ Watch for these warning signs:
 Sign 1: Remote employees leaving more often
 If 60%+ of departures are remote workers, your culture is broken. Conduct exit interviews to understand why. Usually it's "I felt out of the loop" or "career growth only happens in office."
 
-Sign 2: In-office employees get better projects
+Sign 2 - In-office employees get better projects
 If all the interesting work goes to people in the office, remote workers will leave. Track project assignments by location.
 
-Sign 3: Meetings happen offline
+Sign 3 - Meetings happen offline
 If important decisions happen in-office conversations without documentation, remote people are excluded. Meetings that happen without async documentation are communication failures.
 
-Sign 4: Async communication dies
+Sign 4 - Async communication dies
 If Slack channels go silent or documents aren't updated, people are shifting to hallway conversations. You've recreated the office remoteness problem online.
 
-Sign 5: Remote workers skip optional events
+Sign 5 - Remote workers skip optional events
 If all-hands meetings, offsite events, or team hangouts are sparsely attended by remote people, the friction is too high. They're opting out.
 
 Any three of these signs suggest immediate culture intervention is needed.

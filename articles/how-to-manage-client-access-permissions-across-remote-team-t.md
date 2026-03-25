@@ -28,13 +28,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand the Permission Management Challenge
+Step 1 - Understand the Permission Management Challenge
 
 Remote teams typically use a stack of tools: project management (Linear, Asana, Jira), communication (Slack, Discord), documentation (Notion, Confluence), code hosting (GitHub, GitLab), and file storage (Google Drive, Dropbox). Each platform has its own permission model, and clients often need access to some, but not all, of these tools.
 
 The core problems emerge quickly: permissions drift as team members add new tools, onboarding new clients requires manual configuration across each platform, and offboarding becomes a security risk when access isn't systematically revoked.
 
-Step 2: Build a Centralized Permission Matrix
+Step 2 - Build a Centralized Permission Matrix
 
 Start by documenting your permission requirements in a structured format. This becomes your source of truth for both manual configuration and programmatic implementation.
 
@@ -71,7 +71,7 @@ roles:
 
 This YAML structure serves two purposes: it documents your intended permissions and can be processed by automation scripts to configure new client accounts.
 
-Step 3: Automate Provisioning with Scripted Onboarding
+Step 3 - Automate Provisioning with Scripted Onboarding
 
 Manual provisioning across five or more tools introduces errors and inconsistencies. A simple script can iterate through your tools and apply the correct permissions based on the assigned role.
 
@@ -156,7 +156,7 @@ if __name__ == "__main__":
 
 This script demonstrates the pattern, you'll need to adapt it to your specific tool versions and APIs. The key principle is centralizing role definitions and applying them consistently.
 
-Step 4: Implement Time-Bounded Access
+Step 4 - Implement Time-Bounded Access
 
 Client projects have natural lifecycles, and permissions should expire automatically. Most enterprise tools support temporal access controls.
 
@@ -205,7 +205,7 @@ async function reviewClientAccess() {
 }
 ```
 
-Step 5: Audit and Monitor Access Patterns
+Step 5 - Audit and Monitor Access Patterns
 
 Regular access audits catch permission drift before it becomes a security issue. Set up quarterly reviews that check three things: whether active clients still need access, whether permissions match their current role, and whether departed clients have been fully removed.
 
@@ -238,7 +238,7 @@ echo "## Notion External Shares"
 Use Notion API to list pages shared externally
 ```
 
-Step 6: Document Your Permission Strategy
+Step 6 - Document Your Permission Strategy
 
 Create an internal reference document that answers these questions for each tool:
 
@@ -249,7 +249,7 @@ Create an internal reference document that answers these questions for each tool
 
 This documentation prevents knowledge silos and ensures consistent security practices regardless of who performs onboarding.
 
-Step 7: Offboarding Automation Script
+Step 7 - Offboarding Automation Script
 
 Client offboarding is where security risks concentrate:
 

@@ -32,13 +32,13 @@ Choose Volunteer Activities That Translate to Remote Work
 
 Not all volunteering translates well to virtual environments. Focus on activities with existing digital infrastructure:
 
-Open Source Contributions: Many nonprofits need developers for bug fixes, documentation improvements, or feature work. Platforms like Good First Issue curate projects suitable for beginners. Assign a team lead to identify repositories matching your team's skillset.
+Open Source Contributions - Many nonprofits need developers for bug fixes, documentation improvements, or feature work. Platforms like Good First Issue curate projects suitable for beginners. Assign a team lead to identify repositories matching your team's skillset.
 
-Virtual Mentoring: Organizations like SCORE and MentorcliQ connect mentors with small business owners or career changers. Prepare a 30-minute curriculum covering topics your team can teach effectively.
+Virtual Mentoring - Organizations like SCORE and MentorcliQ connect mentors with small business owners or career changers. Prepare a 30-minute curriculum covering topics your team can teach effectively.
 
-Remote Tutoring: Platforms like Khan Academy and Tutor.com enable volunteers to help students with subjects matching your expertise. Schedule 1-hour sessions with built-in breaks.
+Remote Tutoring - Platforms like Khan Academy and Tutor.com enable volunteers to help students with subjects matching your expertise. Schedule 1-hour sessions with built-in breaks.
 
-Digital Accessibility Audits: Audit websites for WCAG compliance using tools like axe DevTools. Document issues and submit accessibility improvement reports to nonprofits.
+Digital Accessibility Audits - Audit websites for WCAG compliance using tools like axe DevTools. Document issues and submit accessibility improvement reports to nonprofits.
 
 Build a Scheduling System That Handles Time Zones
 
@@ -75,11 +75,11 @@ Create Asynchronous Participation Tracks
 
 Maximize participation by offering asynchronous options. Team members can contribute on their own schedules while still feeling part of a collective effort.
 
-Pre-Event Preparation: Share reading materials, tutorial videos, or setup instructions one week before the event. Team members complete preparation independently.
+Pre-Event Preparation - Share reading materials, tutorial videos, or setup instructions one week before the event. Team members complete preparation independently.
 
-Contribution Windows: Designate 48-hour contribution windows rather than single event times. Track contributions in a shared spreadsheet or GitHub project board.
+Contribution Windows - Designate 48-hour contribution windows rather than single event times. Track contributions in a shared spreadsheet or GitHub project board.
 
-Documentation Updates: Maintain a living document where participants log their activities, hours, and impact metrics. This creates accountability and generates content for internal communications.
+Documentation Updates - Maintain a living document where participants log their activities, hours, and impact metrics. This creates accountability and generates content for internal communications.
 
 Set Up Coordination Infrastructure
 
@@ -138,20 +138,20 @@ logContribution("Carol", "Accessibility", 4, "Audited 10 pages");
 // Generate summary report
 const totalHours = contributions.reduce((sum, c) => sum + c.hours, 0);
 console.log(`Total volunteer hours: ${totalHours}`);
-console.log(`Participants: ${contributions.length}`);
+console.log(`Participants - ${contributions.length}`);
 ```
 
 Share results in your team communication tool and company newsletter. Highlight individual contributions (with permission) to recognize effort publicly.
 
 Handle Common Challenges
 
-Low Engagement: If participation drops, survey the team about barriers. Common issues include lack of perceived impact, scheduling conflicts, or unclear instructions. Address specific concerns in follow-up communications.
+Low Engagement - If participation drops, survey the team about barriers. Common issues include lack of perceived impact, scheduling conflicts, or unclear instructions. Address specific concerns in follow-up communications.
 
-Time Zone Fatigue: Rotating event times distributes inconvenience fairly. Track who accommodates inconvenient hours and rotate hosting responsibilities.
+Time Zone Fatigue - Rotating event times distributes inconvenience fairly. Track who accommodates inconvenient hours and rotate hosting responsibilities.
 
-Technical Barriers: Prepare offline alternatives for participants with limited internet connectivity. Download resources in advance and provide PDF guides.
+Technical Barriers - Prepare offline alternatives for participants with limited internet connectivity. Download resources in advance and provide PDF guides.
 
-Activity Quality: Vet organizations before committing. Reach out to verify they can meaningfully use volunteer contributions. Poorly planned activities frustrate participants and waste time.
+Activity Quality - Vet organizations before committing. Reach out to verify they can meaningfully use volunteer contributions. Poorly planned activities frustrate participants and waste time.
 
 Make It a Recurring Initiative
 
@@ -245,10 +245,10 @@ For internal mentoring (team members mentoring each other or external contacts),
 ```markdown
 Mentoring Session Template
 
-Mentor: [Name]
-Mentee: [Name]
-Topic: [Skill or Career Area]
-Duration: 30 minutes
+Mentor - [Name]
+Mentee - [Name]
+Topic - [Skill or Career Area]
+Duration - 30 minutes
 
 Preparation (Pre-Session)
 - Mentee provides 2-3 specific questions or challenges
@@ -329,9 +329,9 @@ Provide a template for submitting audit reports:
 ```markdown
 Accessibility Audit Report
 
-Website: [URL]
-Audit Date: [Date]
-Auditor: [Name]
+Website - [URL]
+Audit Date - [Date]
+Auditor - [Name]
 
 Critical Issues (Blocks Access)
 - [ ] Issue 1
@@ -353,23 +353,23 @@ Scaling Your Event
 
 As virtual volunteering events mature, consider scaling:
 
-From Quarterly to Monthly: Monthly events increase team habit formation and allow for smaller, more focused activities. Monthly mentoring cohorts or standing open-source contribution sessions create ongoing impact beyond one-off events.
+From Quarterly to Monthly - Monthly events increase team habit formation and allow for smaller, more focused activities. Monthly mentoring cohorts or standing open-source contribution sessions create ongoing impact beyond one-off events.
 
-From 15 to 100+ Participants: At larger scales, delegate coordination to activity leads. Each lead owns their volunteer track: open source, mentoring, tutoring, or accessibility. They handle signup, participant communication, and impact tracking within their activity.
+From 15 to 100+ Participants - At larger scales, delegate coordination to activity leads. Each lead owns their volunteer track: open source, mentoring, tutoring, or accessibility. They handle signup, participant communication, and impact tracking within their activity.
 
-International Expansion: Partner with volunteer organizations in key regions where your team operates. What works for an US-based tech team may need adaptation for Asian or European contexts.
+International Expansion - Partner with volunteer organizations in key regions where your team operates. What works for an US-based tech team may need adaptation for Asian or European contexts.
 
-Integration with Hiring: Use volunteering events as recruitment channels. Outstanding volunteer participants demonstrate initiative, collaboration, and values alignment, valuable signals for hiring decisions.
+Integration with Hiring - Use volunteering events as recruitment channels. Outstanding volunteer participants demonstrate initiative, collaboration, and values alignment, valuable signals for hiring decisions.
 
 Measuring Long-Term Impact
 
 Beyond immediate metrics, track:
 
 - Volunteer Satisfaction: Post-event surveys asking if volunteers felt their contribution mattered
-- Participant Retention: What percentage participates in successive volunteering events?
-- Team Culture Impact: Do volunteer event participants report higher engagement and belonging in subsequent company surveys?
-- Organizational Relationships: Are volunteer partnerships strengthening? Do organizations request your team for future projects?
-- Individual Growth: Do volunteers report skill development or career clarity from mentoring relationships?
+- Participant Retention - What percentage participates in successive volunteering events?
+- Team Culture Impact - Do volunteer event participants report higher engagement and belonging in subsequent company surveys?
+- Organizational Relationships - Are volunteer partnerships strengthening? Do organizations request your team for future projects?
+- Individual Growth - Do volunteers report skill development or career clarity from mentoring relationships?
 
 These metrics guide iterative improvements and justify continued investment in the program.
 

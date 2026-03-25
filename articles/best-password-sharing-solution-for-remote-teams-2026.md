@@ -24,7 +24,7 @@ Table of Contents
 - [Bitwarden Organizations. Best for Cost-Conscious Teams](#bitwarden-organizations-best-for-cost-conscious-teams)
 - [LastPass Teams. Not Recommended, But Common](#lastpass-teams-not-recommended-but-common)
 - [Dashlane Business. Best for Large Non-Technical Teams](#dashlane-business-best-for-large-non-technical-teams)
-- [Comparison Table: Which to Choose](#comparison-table-which-to-choose)
+- [Comparison Table - Which to Choose](#comparison-table-which-to-choose)
 - [Implementation Sequence for New Teams](#implementation-sequence-for-new-teams)
 - [Security Best Practices Regardless of Tool](#security-best-practices-regardless-of-tool)
 - [Recommendation by Team Size](#recommendation-by-team-size)
@@ -51,9 +51,9 @@ Comparing personal password managers (LastPass free, Bitwarden free) to team ver
 
 1Password Teams. Best Overall for Technical Teams
 
-Pricing: $3.99/user/month (annual) for Teams plan. Business plan at $7.99/user/month adds advanced features.
+Pricing - $3.99/user/month (annual) for Teams plan. Business plan at $7.99/user/month adds advanced features.
 
-Best for: Engineering teams with complex access control needs. Great if you already use 1Password personally.
+Best for - Engineering teams with complex access control needs. Great if you already use 1Password personally.
 
 Setup and Access Control
 
@@ -83,7 +83,7 @@ Item-level sharing:
 ```bash
 Fetch secrets from 1Password without exposing them
 op item get "production-db-password" --fields password
-Output: (hidden until piped to secure tool)
+Output - (hidden until piped to secure tool)
 
 Rotate a password daily
 #!/bin/bash
@@ -129,7 +129,7 @@ Audit Logging
 }
 ```
 
-Limitations: Can't see logs before 90 days ago on Teams plan. Business plan extends to 1 year.
+Limitations - Can't see logs before 90 days ago on Teams plan. Business plan extends to 1 year.
 
 Team Favorites Feature
 
@@ -149,9 +149,9 @@ Start with Teams. If you hit 40+ people and spending becomes high, compare with 
 
 Bitwarden Organizations. Best for Cost-Conscious Teams
 
-Pricing: $3/user/month (annual) for Teams Organization plan. Enterprise at $6/user/month.
+Pricing - $3/user/month (annual) for Teams Organization plan. Enterprise at $6/user/month.
 
-Best for: Teams on a budget. Companies using Bitwarden personally. Organizations that like open-source options.
+Best for - Teams on a budget. Companies using Bitwarden personally. Organizations that like open-source options.
 
 Setup
 
@@ -183,7 +183,7 @@ Organization:
 
 SSO (Enterprise Plan Only)
 
-Limitation: SAML SSO is enterprise-only ($6/user/month), not on Teams plan.
+Limitation - SAML SSO is enterprise-only ($6/user/month), not on Teams plan.
 
 If you need SSO on a budget:
 - Use Bitwarden free for personal vaults
@@ -194,7 +194,7 @@ This creates a two-tool situation, which isn't ideal.
 
 Self-Hosted Option
 
-Unique to Bitwarden: you can self-host.
+Unique to Bitwarden - you can self-host.
 
 ```yaml
 docker-compose.yml for self-hosted Bitwarden
@@ -221,7 +221,7 @@ Self-hosting gives you:
 - No cloud dependency for password storage
 - Lower long-term cost if you have DevOps expertise
 
-Downside: You manage security updates, backups, and uptime.
+Downside - You manage security updates, backups, and uptime.
 
 Audit Logging
 
@@ -271,7 +271,7 @@ For teams <20 people without SSO requirement: Bitwarden Teams. For teams >50 nee
 
 LastPass Teams. Not Recommended, But Common
 
-Pricing: $4/user/month for Teams plan.
+Pricing - $4/user/month for Teams plan.
 
 Avoid because:
 1. LastPass has had major security breaches (2022, 2023). Reputation hasn't recovered.
@@ -292,9 +292,9 @@ Most technical teams have moved away from LastPass. Don't start with it.
 
 Dashlane Business. Best for Large Non-Technical Teams
 
-Pricing: $5/user/month for Teams plan.
+Pricing - $5/user/month for Teams plan.
 
-Best for: Large enterprises (>100 people) with non-technical users. Companies using Dashlane personally.
+Best for - Large enterprises (>100 people) with non-technical users. Companies using Dashlane personally.
 
 Strengths
 
@@ -342,7 +342,7 @@ Pricing Analysis
 
 $5/user/month for basic features. Expensive compared to Bitwarden Teams at same feature level. Only use if your team is already Dashlane users.
 
-Comparison Table: Which to Choose
+Comparison Table - Which to Choose
 
 | Feature | 1Password Teams | Bitwarden Teams | Dashlane Teams | LastPass Teams |
 |---------|--------|-----------|-----------|----------|
@@ -358,7 +358,7 @@ Comparison Table: Which to Choose
 
 Implementation Sequence for New Teams
 
-Week 1: Choose and Deploy
+Week 1 - Choose and Deploy
 
 1. Decide based on your needs:
  - Engineering, granular access, SSO needed? → 1Password
@@ -370,7 +370,7 @@ Week 1: Choose and Deploy
 
 3. Generate list of credentials to share (GitHub, database, AWS, etc.)
 
-Week 2: Migrate and Configure
+Week 2 - Migrate and Configure
 
 4. Create vaults/collections matching your teams (engineering, ops, finance, etc.)
 
@@ -380,7 +380,7 @@ Week 2: Migrate and Configure
 
 7. Require MFA on all accounts
 
-Week 3: Automation and Audit
+Week 3 - Automation and Audit
 
 8. Set up CLI for engineering team (1Password or Bitwarden)
 

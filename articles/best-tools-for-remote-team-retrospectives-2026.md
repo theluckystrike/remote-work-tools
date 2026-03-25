@@ -21,13 +21,13 @@ Remote team retrospectives require tools that help asynchronous input, reduce me
 Table of Contents
 
 - [Why Dedicated Retro Tools Matter](#why-dedicated-retro-tools-matter)
-- [Retrium: Best for Structured Team Retros](#retrium-best-for-structured-team-retros)
-- [EasyRetro: Best for Budget-Conscious Teams](#easyretro-best-for-budget-conscious-teams)
-- [Parabol: Best for Agile Team Integration](#parabol-best-for-agile-team-integration)
-- [Metro Retro: Best for Facilitation and Engagement](#metro-retro-best-for-facilitation-and-engagement)
-- [FunRetro: Best for Lightweight and Fast Retros](#funretro-best-for-lightweight-and-fast-retros)
+- [Retrium - Best for Structured Team Retros](#retrium-best-for-structured-team-retros)
+- [EasyRetro - Best for Budget-Conscious Teams](#easyretro-best-for-budget-conscious-teams)
+- [Parabol - Best for Agile Team Integration](#parabol-best-for-agile-team-integration)
+- [Metro Retro - Best for Facilitation and Engagement](#metro-retro-best-for-facilitation-and-engagement)
+- [FunRetro - Best for Lightweight and Fast Retros](#funretro-best-for-lightweight-and-fast-retros)
 - [Comparison Table](#comparison-table)
-- [Async Retrospectives: When Everyone Can't Meet](#async-retrospectives-when-everyone-cant-meet)
+- [Async Retrospectives - When Everyone Can't Meet](#async-retrospectives-when-everyone-cant-meet)
 - [Common Retrospective Anti-Patterns](#common-retrospective-anti-patterns)
 - [Recommended Setup by Team Size](#recommended-setup-by-team-size)
 - [Implementation Checklist](#implementation-checklist)
@@ -44,7 +44,7 @@ Teams often resort to generic tools like Google Docs or Miro for retrospectives.
 
 Dedicated retro tools solve these problems with built-in templates, voting mechanisms, action item tracking, and async-first workflows.
 
-Retrium: Best for Structured Team Retros
+Retrium - Best for Structured Team Retros
 
 Retrium is purpose-built for retrospectives. It offers multiple retro formats, voting, action item tracking, and integrations with project management tools.
 
@@ -53,7 +53,7 @@ Pricing:
 - Plus: $99/month (up to 50 participants, unlimited sessions)
 - Premium: $249/month (advanced reporting, SSO, data export)
 
-Best For: Teams wanting structured retros with professional-grade features.
+Best For - Teams wanting structured retros with professional-grade features.
 
 Core Features:
 - Multiple retro formats (Start/Stop/Continue, Glad/Sad/Mad, 4Ls, Custom)
@@ -112,7 +112,7 @@ Retrium Weaknesses:
 - Requires license for large teams
 - Limited async-first workflow (better for scheduled sessions)
 
-EasyRetro: Best for Budget-Conscious Teams
+EasyRetro - Best for Budget-Conscious Teams
 
 EasyRetro is the lean alternative to Retrium. Free tier is actually generous, good for startups and small teams.
 
@@ -121,7 +121,7 @@ Pricing:
 - Pro: $89/month (unlimited participants, data export)
 - Enterprise: Custom pricing
 
-Best For: Bootstrapped teams, startups, teams under 10 people.
+Best For - Bootstrapped teams, startups, teams under 10 people.
 
 Core Features:
 - Start/Stop/Continue, Glad/Sad/Mad, 4Ls formats
@@ -144,10 +144,10 @@ Setting Up:
 Real-World Example (8-person startup team):
 
 ```
-Session: Sprint 12 Retrospective
-Duration: 30 minutes
-Participants: 8
-Session ID: retro-2026-03-20
+Session - Sprint 12 Retrospective
+Duration - 30 minutes
+Participants - 8
+Session ID - retro-2026-03-20
 
 IDEAS GENERATED:
 [Start] "Move deployment to Thursday instead of Friday" (5 votes) ← Top voted
@@ -179,7 +179,7 @@ EasyRetro Weaknesses:
 - Limited customization of formats
 - Basic reporting features
 
-Parabol: Best for Agile Team Integration
+Parabol - Best for Agile Team Integration
 
 Parabol integrates deeply with Jira, Azure DevOps, and GitHub. If you want retrospective action items to automatically create tickets in your project management tool, Parabol is the best choice.
 
@@ -188,7 +188,7 @@ Pricing:
 - Team: $25/user/month (7-day free trial)
 - Org: Custom pricing with SSO
 
-Best For: Teams using Jira or Azure DevOps, wanting tight agile integration.
+Best For - Teams using Jira or Azure DevOps, wanting tight agile integration.
 
 Core Features:
 - Tight Jira/Azure DevOps integration (action items auto-create tickets)
@@ -228,7 +228,7 @@ Parabol Weaknesses:
 - Most expensive for small teams
 - Requires Jira/ADO to unlock full value
 
-Metro Retro: Best for Facilitation and Engagement
+Metro Retro - Best for Facilitation and Engagement
 
 Metro Retro emphasizes the facilitator experience. Great for scrum masters who want advanced features for running structured retros.
 
@@ -237,7 +237,7 @@ Pricing:
 - Pro: $299/year per team (unlimited retros, 1-3 teams)
 - Enterprise: Custom pricing
 
-Best For: Scrum masters managing retros, teams valuing engagement and discussion.
+Best For - Scrum masters managing retros, teams valuing engagement and discussion.
 
 Core Features:
 - Grouped idea theme recognition (AI groups similar ideas)
@@ -250,23 +250,23 @@ Core Features:
 Metro Retro Workflow (Full Example):
 
 ```
-Phase 1: Idea Collection (15 minutes)
+Phase 1 - Idea Collection (15 minutes)
 - Team members add ideas anonymously
 - Metro groups similar ideas in real-time
 - "Database migration delays sprint" and "Database schema changes slow us down"
   → Auto-grouped under "Database Schema Issues"
 
-Phase 2: Discussion (15 minutes)
+Phase 2 - Discussion (15 minutes)
 - Discuss each grouped theme
 - Facilitator can expand timer if discussion still active
 - Team talks through root causes
 
-Phase 3: Action Items (10 minutes)
+Phase 3 - Action Items (10 minutes)
 - For each important theme, create concrete action item
 - Format: "By [date], [owner] will [specific action] to address [theme]"
 - "By next sprint, DBA will create schema change guidelines"
 
-Phase 4: Commitment (5 minutes)
+Phase 4 - Commitment (5 minutes)
 - Team commits to attending next retro
 - Mood check-in on how meeting went
 ```
@@ -283,7 +283,7 @@ Metro Retro Weaknesses:
 - Interface less polished than competitors
 - Limited mobile experience
 
-FunRetro: Best for Lightweight and Fast Retros
+FunRetro - Best for Lightweight and Fast Retros
 
 FunRetro prioritizes speed and simplicity. No account needed, just create a session and share the link. Great for teams not wanting to manage yet another tool.
 
@@ -291,7 +291,7 @@ Pricing:
 - Free: Unlimited retros, no login required
 - Pro: €39/month (real-time notifications, export, Slack integration)
 
-Best For: Teams wanting zero friction, informal retros, bootstrapped companies.
+Best For - Teams wanting zero friction, informal retros, bootstrapped companies.
 
 Core Features:
 - No signup required (just create session and share link)
@@ -303,19 +303,19 @@ Core Features:
 FunRetro Speed Comparison:
 
 ```
-Retrium: Sign up → Create account → Create session → Add participants → Start
+Retrium - Sign up → Create account → Create session → Add participants → Start
          ~5 minutes
 
-EasyRetro: Sign up → Create session → Add participants → Start
+EasyRetro - Sign up → Create session → Add participants → Start
            ~3 minutes
 
-Parabol: Sign up → Connect Jira → Create team → Create retro → Start
+Parabol - Sign up → Connect Jira → Create team → Create retro → Start
          ~10 minutes
 
-Metro Retro: Sign up → Create session → Add participants → Start
+Metro Retro - Sign up → Create session → Add participants → Start
              ~4 minutes
 
-FunRetro: Go to funretro.io → Create session → Share link → Start
+FunRetro - Go to funretro.io → Create session → Share link → Start
           ~2 minutes (no signup!)
 ```
 
@@ -347,7 +347,7 @@ Comparison Table
 | Mood Tracking | Yes | No | Yes | Limited | No |
 | Best For | Professional teams | Startups | Jira teams | Scrum masters | No friction |
 
-Async Retrospectives: When Everyone Can't Meet
+Async Retrospectives - When Everyone Can't Meet
 
 Some teams cannot synchronize real-time retros due to time zones or schedules. Most tools support asynchronous workflows:
 
@@ -364,11 +364,11 @@ Team members check in asynchronously:
 - Day 2, 2 PM: Founder adds thoughts
 - Day 2, 4:30 PM: Intern adds first experience feedback
 
-Day 2, 5 PM: Ideas close, voting begins
+Day 2, 5 PM - Ideas close, voting begins
 - 5:00 PM: Voting window opens (everyone votes on top 3 ideas)
 - Day 3, 2 PM: Voting closes
 
-Day 3, 2 PM: Discussion (synchronous or async chat)
+Day 3, 2 PM - Discussion (synchronous or async chat)
 - Top 3 ideas discussed in Slack thread
 - Action items created from discussion
 - Owners assigned via Slack
@@ -382,23 +382,23 @@ Best Tools for Async:
 
 Common Retrospective Anti-Patterns
 
-Anti-Pattern 1: Retro Without Action Items
+Anti-Pattern 1 - Retro Without Action Items
 - Problem: Ideas discussed but never acted on
 - Solution: Every retro must create 2-4 action items with owners and dates
 
-Anti-Pattern 2: Same Retro Format Every Time
+Anti-Pattern 2 - Same Retro Format Every Time
 - Problem: Team gets bored, stops participating
 - Solution: Rotate between 3-4 different formats (SSCW one sprint, 4Ls next sprint)
 
-Anti-Pattern 3: Retro Too Long
+Anti-Pattern 3 - Retro Too Long
 - Problem: Valuable discussion gets lost in 60+ minute meetings
 - Solution: Cap retro at 45 minutes for 12-person team (3 minutes per person)
 
-Anti-Pattern 4: Skipping Retros Before Busy Periods
+Anti-Pattern 4 - Skipping Retros Before Busy Periods
 - Problem: No reflection when team most needs it
 - Solution: Shorter retro (20 min) if busy, not skipping entirely
 
-Anti-Pattern 5: No Follow-up on Action Items
+Anti-Pattern 5 - No Follow-up on Action Items
 - Problem: Team creates action items but never checks status
 - Solution: Start next retro by reviewing previous sprint's action items
 
@@ -447,7 +447,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -459,7 +459,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

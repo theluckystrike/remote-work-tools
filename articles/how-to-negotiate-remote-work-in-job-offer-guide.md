@@ -21,15 +21,15 @@ Negotiating remote work before accepting a job offer is far easier than requesti
 Table of Contents
 
 - [Why Remote Work Negotiation Matters](#why-remote-work-negotiation-matters)
-- [Pre-Offer Phase: Signal Your Preference Early](#pre-offer-phase-signal-your-preference-early)
-- [The Offer: Negotiation Timing and Approach](#the-offer-negotiation-timing-and-approach)
+- [Pre-Offer Phase - Signal Your Preference Early](#pre-offer-phase-signal-your-preference-early)
+- [The Offer - Negotiation Timing and Approach](#the-offer-negotiation-timing-and-approach)
 - [Negotiation Frameworks](#negotiation-frameworks)
 - [Conversation Scripts by Scenario](#conversation-scripts-by-scenario)
 - [Email Scripts for Formal Negotiation](#email-scripts-for-formal-negotiation)
 - [Negotiation Red Flags](#negotiation-red-flags)
 - [When to Walk Away](#when-to-walk-away)
-- [Post-Offer: Getting It in Writing](#post-offer-getting-it-in-writing)
-- [First 90 Days: Proving Remote Success](#first-90-days-proving-remote-success)
+- [Post-Offer - Getting It in Writing](#post-offer-getting-it-in-writing)
+- [First 90 Days - Proving Remote Success](#first-90-days-proving-remote-success)
 
 Why Remote Work Negotiation Matters
 
@@ -37,7 +37,7 @@ The difference between "fully remote" and "office required" is often worth $10,0
 
 The negotiation conversation doesn't need to be confrontational. Framed correctly, remote work arrangements benefit both parties: you gain flexibility, the company retains talent without relocation expenses, and you remain productive.
 
-Pre-Offer Phase: Signal Your Preference Early
+Pre-Offer Phase - Signal Your Preference Early
 
 Before an offer exists, signal your remote work preference during interviews without making it a dealbreaker.
 
@@ -46,9 +46,9 @@ First Screening Call
 This is the moment to mention it casually, not urgently. When asked about work location:
 
 ```
-Recruiter: "Where are you based, and are you open to relocating?"
+Recruiter - "Where are you based, and are you open to relocating?"
 
-Your response: "I'm based in [city]. I'm enthusiastic about this role and team,
+Your response - "I'm based in [city]. I'm enthusiastic about this role and team,
 and I've had great success working remotely in previous positions. If there's
 flexibility around location, that would be ideal for me. What does the typical
 arrangement look like for this team?"
@@ -83,11 +83,11 @@ Questions to ask:
 
 These questions frame remote work as a practical question, not a demand.
 
-The Offer: Negotiation Timing and Approach
+The Offer - Negotiation Timing and Approach
 
 The ideal remote work conversation happens within 24 hours of receiving the written offer, before you've formally accepted.
 
-Step 1: Express Genuine Enthusiasm
+Step 1 - Express Genuine Enthusiasm
 
 Before negotiating anything, confirm you're excited about the role:
 
@@ -104,7 +104,7 @@ Would you have time for a brief call this week?"
 
 This positions remote work as a logistics detail to discuss, not a dealbreaker condition.
 
-Step 2: The Negotiation Call
+Step 2 - The Negotiation Call
 
 Schedule a call (not email) for the negotiation. Email can create misunderstandings and feels more formal/adversarial. Phones allow nuance.
 
@@ -125,12 +125,12 @@ Response interpretation:
 - "We prefer in-office, but it's negotiable" → Proceed to flexible framework below.
 - "It's required to be in-office" → Ask about exceptions before accepting.
 
-Step 3: If They Say "Office Required"
+Step 3 - If They Say "Office Required"
 
 Don't accept this at face value. Most policies have exceptions.
 
 ```
-Your response: "I understand. A few clarifying questions:
+Your response - "I understand. A few clarifying questions:
 
 1. Are there circumstances where remote could work? (Individual contributor roles,
    proven productivity track record, etc.)
@@ -148,12 +148,12 @@ Most "office required" policies are actually "office preferred for new hires." Y
 
 Negotiation Frameworks
 
-Framework 1: Hybrid Ramp-Down
+Framework 1 - Hybrid Ramp-Down
 
 This works when the company wants to onboard you in-office, and you're willing to commute temporarily.
 
 ```
-Your proposal: "I appreciate that onboarding in-office makes sense. How about
+Your proposal - "I appreciate that onboarding in-office makes sense. How about
 this structure:
 
 - Months 1-2: In-office (Monday-Friday) for intensive onboarding
@@ -164,9 +164,9 @@ This gives the team time to know me, and I can contribute remotely once I'm
 productive. How does that sound?"
 ```
 
-Why this works: You're not refusing the office, you're proposing a timeline. Companies can't object without sounding unreasonable.
+Why this works - You're not refusing the office, you're proposing a timeline. Companies can't object without sounding unreasonable.
 
-Framework 2: Trial Period
+Framework 2 - Trial Period
 
 If the company resists remote work entirely, propose evidence-based negotiation:
 
@@ -186,7 +186,7 @@ together. Fair?"
 
 This removes their risk. You're offering to prove yourself.
 
-Framework 3: Hybrid Permanent
+Framework 3 - Hybrid Permanent
 
 If the company needs in-office presence but has flexibility:
 
@@ -205,7 +205,7 @@ from home. What would be the minimum in-office days for this role?"
 
 The specificity, naming specific days, makes this feel concrete and manageable.
 
-Framework 4: Geographic Compromise
+Framework 4 - Geographic Compromise
 
 If they want you in a specific city but you're remote:
 
@@ -225,9 +225,9 @@ This shows you understand their need for in-person connection while maintaining 
 
 Conversation Scripts by Scenario
 
-Scenario 1: They're Open but Unsure
+Scenario 1 - They're Open but Unsure
 
-Company signal: "We could probably do remote, but we'd need to see how
+Company signal - "We could probably do remote, but we'd need to see how
 you settle in first."
 
 Your response:
@@ -240,9 +240,9 @@ productive working remotely?"
 
 This clarifies expectations and creates mutual accountability.
 
-Scenario 2: They Mention "Company Culture"
+Scenario 2 - They Mention "Company Culture"
 
-Company signal: "We need people in-office to maintain our culture."
+Company signal - "We need people in-office to maintain our culture."
 
 Your response:
 ```
@@ -256,9 +256,9 @@ relationship-building."
 
 This acknowledges their concern while proposing a solution.
 
-Scenario 3: They Cite Job Requirements
+Scenario 3 - They Cite Job Requirements
 
-Company signal: "This role requires hands-on, in-office presence because..."
+Company signal - "This role requires hands-on, in-office presence because..."
 
 Your response:
 ```
@@ -272,10 +272,10 @@ This forces them to examine the constraint and often reveals flexibility.
 
 Email Scripts for Formal Negotiation
 
-Email 1: Initial Request
+Email 1 - Initial Request
 
 ```
-Subject: Remote Work Arrangement Discussion
+Subject - Remote Work Arrangement Discussion
 
 Hi [Hiring Manager],
 
@@ -298,10 +298,10 @@ Thanks,
 [Your name]
 ```
 
-Email 2: After Phone Discussion (Confirming Hybrid)
+Email 2 - After Phone Discussion (Confirming Hybrid)
 
 ```
-Subject: Following Up on Remote Work Discussion
+Subject - Following Up on Remote Work Discussion
 
 Hi [Hiring Manager],
 
@@ -321,10 +321,10 @@ Looking forward to starting!
 [Your name]
 ```
 
-Email 3: After Phone Discussion (Trial Period)
+Email 3 - After Phone Discussion (Trial Period)
 
 ```
-Subject: 30-Day Remote Work Trial Proposal
+Subject - 30-Day Remote Work Trial Proposal
 
 Hi [Hiring Manager],
 
@@ -369,7 +369,7 @@ Remote work negotiation sometimes reveals that the company isn't a good fit:
 
 These are all reasons to keep interviewing elsewhere. A company that's rigid about location usually is rigid about other things too.
 
-Post-Offer: Getting It in Writing
+Post-Offer - Getting It in Writing
 
 Once you've verbally agreed on a remote arrangement:
 
@@ -380,7 +380,7 @@ Once you've verbally agreed on a remote arrangement:
 
 Written confirmation prevents misunderstandings after you've started.
 
-First 90 Days: Proving Remote Success
+First 90 Days - Proving Remote Success
 
 If you negotiated a trial period or have concerns the company might reverse the arrangement:
 

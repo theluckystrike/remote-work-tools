@@ -194,14 +194,14 @@ React Native Build Runbook
 Common Build Failures and Solutions
 
 iOS Code Signing Issues
-Problem: Xcode fails with "Code signing identity" error
+Problem - Xcode fails with "Code signing identity" error
 Solution:
 1. Run `fastlane match development` to regenerate certificates
 2. Clear derived data: `rm -rf ~/Library/Developer/Xcode/DerivedData/*`
 3. Rebuild
 
 Android Keystore Problems
-Problem: Signed APK fails with "keystore password was incorrect"
+Problem - Signed APK fails with "keystore password was incorrect"
 Solution:
 1. Verify keystore exists at expected path
 2. Check gradle.properties has correct password
@@ -229,9 +229,9 @@ Create GitHub issue templates for common build problems:
 ```markdown
 Build Issue Report
 
-Affected Platform: iOS | Android | Both
+Affected Platform - iOS | Android | Both
 
-Build System: GitHub Actions | Codemagic | CircleCI
+Build System - GitHub Actions | Codemagic | CircleCI
 
 Error Message:
 [Paste full error output here]
@@ -248,7 +248,7 @@ Environment:
 - React Native version: [grep react-native package.json]
 - Platform versions: [iOS/Android versions affected]
 
-Time Zone: [Your time zone] (for follow-up scheduling)
+Time Zone - [Your time zone] (for follow-up scheduling)
 ```
 
 Cost Comparison and Tool Selection Matrix
@@ -267,27 +267,27 @@ Selecting the Right Tool Stack
 
 The optimal tool combination depends on team size, budget, and existing workflows.
 
-Small teams (1-5 developers): Start with GitHub Actions for CI/CD (free with public repos), Firebase Test Lab for Android testing, and Fastlane for publishing. Total cost: $0-50/month. This configuration requires minimal setup but demands strong documentation to avoid knowledge silos.
+Small teams (1-5 developers) - Start with GitHub Actions for CI/CD (free with public repos), Firebase Test Lab for Android testing, and Fastlane for publishing. Total cost: $0-50/month. This configuration requires minimal setup but demands strong documentation to avoid knowledge silos.
 
-Growing teams (5-15 developers): Add Doppler for secrets management ($15-25/month) and consider BrowserStack ($99/month) for broader device coverage. Upgrade to Codemagic if GitHub Actions becomes too complex. Total investment: $200-300/month for strong infrastructure.
+Growing teams (5-15 developers) - Add Doppler for secrets management ($15-25/month) and consider BrowserStack ($99/month) for broader device coverage. Upgrade to Codemagic if GitHub Actions becomes too complex. Total investment: $200-300/month for strong infrastructure.
 
-Enterprise teams (15+ developers): Invest in solutions. Codemagic ($300-500/month) handles iOS and Android with minimal configuration. Firebase Device Lab ($5000+/month) provides extensive device coverage. Dedicated secret management (Doppler or HashiCorp Vault) becomes essential. Total: $5500-7000/month.
+Enterprise teams (15+ developers): Invest in solutions. Codemagic ($300-500/month) handles iOS and Android with minimal configuration. Firebase Device Lab ($5000+/month) provides extensive device coverage. Dedicated secret management (Doppler or HashiCorp Vault) becomes essential. Total - $5500-7000/month.
 
 Implementation Timeline
 
 A typical rollout for a new remote React Native team follows this sequence:
 
-Week 1: Audit current build process. Document manual steps, certificate management, and testing approaches.
+Week 1 - Audit current build process. Document manual steps, certificate management, and testing approaches.
 
-Week 2: Set up CI/CD with GitHub Actions or Codemagic. Start with a basic test and build pipeline, ignoring deployment initially.
+Week 2 - Set up CI/CD with GitHub Actions or Codemagic. Start with a basic test and build pipeline, ignoring deployment initially.
 
-Week 3: Add code signing and certificate management. Implement Fastlane with match for iOS.
+Week 3 - Add code signing and certificate management. Implement Fastlane with match for iOS.
 
-Week 4: Integrate device testing. Start with Firebase Test Lab for Android, add BrowserStack if budget allows.
+Week 4 - Integrate device testing. Start with Firebase Test Lab for Android, add BrowserStack if budget allows.
 
-Week 5: Establish async communication patterns. Create build runbooks, issue templates, and escalation procedures.
+Week 5 - Establish async communication patterns. Create build runbooks, issue templates, and escalation procedures.
 
-Week 6: Iterate based on team feedback. Refine build speed, improve failure notifications, expand test coverage.
+Week 6 - Iterate based on team feedback. Refine build speed, improve failure notifications, expand test coverage.
 
 Monitoring and Maintenance
 
@@ -307,11 +307,11 @@ Common issues specific to remote teams:
 
 Certificate synchronization failures: Developers working in different time zones may regenerate certificates simultaneously. Use Fastlane match exclusively, never check certificates directly into git.
 
-Inconsistent build environments: Different Node versions produce different Metro bundler outputs. Lock Node version in `.nvmrc` and enforce it in your CI setup.
+Inconsistent build environments - Different Node versions produce different Metro bundler outputs. Lock Node version in `.nvmrc` and enforce it in your CI setup.
 
-Timezone-related testing gaps: iOS TestFlight review differs by region. Have geographically distributed team members test on actual devices if targeting multiple regions.
+Timezone-related testing gaps - iOS TestFlight review differs by region. Have geographically distributed team members test on actual devices if targeting multiple regions.
 
-Slow international CI builds: If your CI infrastructure is geographically distant, use caching aggressively. Store CocoaPods and Gradle caches to reduce dependency download time for remote team members.
+Slow international CI builds - If your CI infrastructure is geographically distant, use caching aggressively. Store CocoaPods and Gradle caches to reduce dependency download time for remote team members.
 
 Regardless of the specific tools chosen, remote React Native teams should prioritize three principles: standardization through automated builds on consistent infrastructure, accessibility through cloud-based tools that don't require local setup, and async-friendliness through detailed logging and artifact sharing capabilities. Implementing these principles enables distributed teams to coordinate iOS and Android builds as effectively as co-located teams while enjoying the benefits of remote work flexibility.
 
@@ -323,7 +323,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -335,7 +335,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

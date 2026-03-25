@@ -63,7 +63,7 @@ Power on machines and watch for POST (Power-On Self-Test) errors. Access BIOS/UE
 After the OS loads, immediately run system updates. Extended dormancy means security patches released during the idle period are missing.
 
 ```powershell
-Windows: Force update check and install all pending updates
+Windows - Force update check and install all pending updates
 Run as Administrator in PowerShell
 Install-Module PSWindowsUpdate -Force
 Import-Module PSWindowsUpdate
@@ -71,7 +71,7 @@ Get-WindowsUpdate -Category "Security Updates" -Install -AcceptAll -AutoReboot:$
 ```
 
 ```bash
-Linux (Debian/Ubuntu): Full system upgrade
+Linux (Debian/Ubuntu) - Full system upgrade
 sudo apt update && sudo apt full-upgrade -y
 sudo reboot
 ```

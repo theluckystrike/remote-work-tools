@@ -85,7 +85,7 @@ Sync with hiring managers to gather:
 
 Create a shared spreadsheet tracking each new hire's status.
 
-Week 1: Foundation Building
+Week 1 - Foundation Building
 
 Day 1 - Welcome and Logistics
 
@@ -138,7 +138,7 @@ Schedule focused sessions:
 - Company overview presentation ( works well for consistency)
 - First project introduction
 
-Weeks 2-4: Integration and Performance
+Weeks 2-4 - Integration and Performance
 
 Structured Check-ins
 
@@ -189,11 +189,11 @@ For solo HR managers, use automation to multiply your effectiveness:
 A simple Zapier workflow can handle welcome notifications:
 
 ```
-Trigger: New row added to "New Hires" spreadsheet
-Action 1: Send welcome email via Gmail
-Action 2: Create Trello card in "Onboarding" board
-Action 3: Add to Slack onboarding channel
-Action 4: Schedule calendar invites for first-week meetings
+Trigger - New row added to "New Hires" spreadsheet
+Action 1 - Send welcome email via Gmail
+Action 2 - Create Trello card in "Onboarding" board
+Action 3 - Add to Slack onboarding channel
+Action 4 - Schedule calendar invites for first-week meetings
 ```
 
 Tracking and Accountability

@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Example Handbook Outline
+Step 1 - Example Handbook Outline
 
 ```
 Remote Team Handbook
@@ -49,11 +49,11 @@ A quality handbook:
 - Serves as asynchronous communication replacement (people don't wait for synchronous answers)
 - Reduces management overhead (teams self-serve policies)
 
-Step 2: Build the Structure
+Step 2 - Build the Structure
 
 Start with a table of contents that reflects how people search for information. Avoid generic "Welcome" sections; instead, organize by the actual questions new hires ask.
 
-Part 1: Essential First Week
+Part 1 - Essential First Week
 
 This section answers immediate onboarding needs. Include:
 
@@ -75,14 +75,14 @@ Policies
 - Sick leave policy (notification procedures)
 - Hardware and software purchasing (approval limits, procurement process)
 
-Part 2: Tool Documentation
+Part 2 - Tool Documentation
 
 Document every tool your team uses with setup instructions. This prevents tribal knowledge where only specific people know workflows.
 
 ```
-Step 3: Slack
+Step 3 - Slack
 
-Setup: Workspace created during onboarding. Download apps for desktop, iOS, Android.
+Setup - Workspace created during onboarding. Download apps for desktop, iOS, Android.
 
 Channel Norms:
 - #general: Announcements and team-wide updates
@@ -90,11 +90,11 @@ Channel Norms:
 - #help-<topic>: Topic-specific help channels
 - #<project-name>: Project-specific conversations
 
-Response Expectations: 4 hours during work hours, asynchronous overnight.
+Response Expectations - 4 hours during work hours, asynchronous overnight.
 
-Disable Notifications: Work/life boundary is critical. Disable notifications after 6 PM.
+Disable Notifications - Work/life boundary is critical. Disable notifications after 6 PM.
 
-Step 4: Google Workspace / Microsoft 365
+Step 4 - Google Workspace / Microsoft 365
 
 Calendar Setup:
 - Set your timezone (Settings → General → Timezone)
@@ -107,7 +107,7 @@ Calendar Etiquette:
 - Decline meetings with 24 hours notice if possible
 - Mark "Do Not Disturb" for focus time blocks
 
-Step 5: GitHub / GitLab / Bitbucket
+Step 5 - GitHub / GitLab / Bitbucket
 
 Workflow:
 1. Create feature branch from develop
@@ -122,7 +122,7 @@ Standards:
 - Pull requests: Include "why" not just "what"
 - Code reviews: Respond within 24 hours
 
-Step 6: Asana / Monday.com / Linear
+Step 6 - Asana / Monday.com / Linear
 
 Project Management:
 - Sprint planning every Monday 10 AM UTC
@@ -144,7 +144,7 @@ Each tool section should include:
 - Troubleshooting common issues
 - Who to contact for technical support
 
-Part 3: Communication Norms
+Part 3 - Communication Norms
 
 Explicit communication guidelines prevent misunderstandings across time zones. Include:
 
@@ -186,7 +186,7 @@ When a team member requests feedback:
 4. Execute decision
 5. Document final decision in decision log
 
-Step 7: Part 4: Work Culture and Expectations
+Step 7 - Part 4: Work Culture and Expectations
 
 Document the culture you want, not the default culture that emerges. Include:
 
@@ -201,22 +201,22 @@ Remote Work Principles
 Work Hours and Flexibility
 
 ```
-Step 8: Work Hours Policy
+Step 8 - Work Hours Policy
 
-Core hours: 9 AM - 3 PM your local timezone (when you must be available for meetings)
+Core hours - 9 AM - 3 PM your local timezone (when you must be available for meetings)
 
-Flexible hours: Before 9 AM and after 3 PM available for focus work, async tasks
+Flexible hours - Before 9 AM and after 3 PM available for focus work, async tasks
 
-Time zone spanning: Teams covering multiple time zones rotate meeting times monthly
+Time zone spanning - Teams covering multiple time zones rotate meeting times monthly
 
 Example (UTC+0, UTC+5, UTC-8 team):
 - Month 1: Meetings 2 PM UTC (covers all zones 9 AM - 6 PM local)
 - Month 2: Meetings 7 PM UTC (rotates burden of early/late meetings)
 - Month 3: Meetings 10 PM UTC
 
-Vacation flexibility: Time off accumulated and used flexibly. Minimum 2 weeks advanced notice.
+Vacation flexibility - Time off accumulated and used flexibly. Minimum 2 weeks advanced notice.
 
-Burnout prevention: Monthly 1:1 checkins include workload discussion. Overwork is failure of management.
+Burnout prevention - Monthly 1:1 checkins include workload discussion. Overwork is failure of management.
 ```
 
 Performance Expectations
@@ -232,10 +232,10 @@ Sabbatical and Extended Time Off
 Remote workers often experience burnout without natural breaks. Include:
 
 ```
-Step 9: Sabbatical Policy
+Step 9 - Sabbatical Policy
 
-After 3 years: Eligible for 2-week paid sabbatical (can be split)
-After 5 years: Eligible for 4-week paid sabbatical (can be split)
+After 3 years - Eligible for 2-week paid sabbatical (can be split)
+After 5 years - Eligible for 4-week paid sabbatical (can be split)
 
 Process:
 1. Discuss timing with manager 3 months in advance
@@ -245,7 +245,7 @@ Process:
 5. Return to no backlog (sabbatical isn't prep for buried inbox)
 ```
 
-Step 10: Part 5: Technical Standards
+Step 10 - Part 5: Technical Standards
 
 Document the standards that prevent tribal knowledge and reduce onboarding friction.
 
@@ -269,12 +269,12 @@ Data and Privacy
 - Compliance requirements (what laws apply to your data?)
 - Data deletion policies (retention periods for different data types)
 
-Step 11: Part 6: Onboarding Checklist
+Step 11 - Part 6: Onboarding Checklist
 
 Create a concrete checklist for managers to follow, referencing handbook sections.
 
 ```
-Step 12: Week 1 (Manager completes by Friday)
+Step 12 - Week 1 (Manager completes by Friday)
 
 - [ ] Create email account and grant group access
 - [ ] Send handbook and highlight first-week sections
@@ -284,7 +284,7 @@ Step 12: Week 1 (Manager completes by Friday)
 - [ ] Share project overview document
 - [ ] Assign one task from backlog (small, non-critical)
 
-Step 13: Week 2 (First Monday 1:1)
+Step 13 - Week 2 (First Monday 1:1)
 
 - [ ] Review handbook understanding
 - [ ] Clarify team communication norms
@@ -292,20 +292,20 @@ Step 13: Week 2 (First Monday 1:1)
 - [ ] Assign 2 small tasks
 - [ ] Schedule 30-min pair programming session
 
-Step 14: Weeks 3-4
+Step 14 - Weeks 3-4
 
 - [ ] Assign first meaningful project (2-3 days estimated)
 - [ ] Code review feedback session (how we review, standards)
 - [ ] Team stand-in: Share what you've learned in 5 min
 
-Step 15: Month 1 (Month-end 1:1)
+Step 15 - Month 1 (Month-end 1:1)
 
 - [ ] How are things going feedback session
 - [ ] Clarify goals for months 2-3
 - [ ] Adjust role if initial expectations mismatched
 ```
 
-Step 16: Maintaining the Handbook
+Step 16 - Maintaining the Handbook
 
 A stale handbook is worse than no handbook. Assign ownership:
 
@@ -324,38 +324,38 @@ Annual Rewrite
 - Solicit feedback from all teams
 - Update based on what changed in the year
 
-Step 17: Platform Recommendations
+Step 17 - Platform Recommendations
 
-For small teams (under 50): Use Google Docs or Notion
+For small teams (under 50) - Use Google Docs or Notion
 - Notion structure: Database with sections as collections
 - Google Docs: Folder hierarchy with table of contents
 - Pro: Simple, free, searchable
 - Con: Can become disorganized without discipline
 
-For medium teams (50-200): Use Confluence or Notion with stricter governance
+For medium teams (50-200) - Use Confluence or Notion with stricter governance
 - Create review calendar (who approves changes?)
 - Tag outdated sections (flag for annual review)
 - Template standardized sections
 
-For large teams (200+): Use dedicated wiki with version control
+For large teams (200+) - Use dedicated wiki with version control
 - GitBook integrates with GitHub
 - wiki.js self-hosted
 - Gitbook: Pro: integrated with development workflow
 - Con: Requires technical comfort
 
-Step 18: Common Handbook Mistakes
+Step 18 - Common Handbook Mistakes
 
-Too detailed: A 100-page handbook no one reads is useless. Keep primary handbook to 20-30 pages. Reference external docs for tool-specific details.
+Too detailed - A 100-page handbook no one reads is useless. Keep primary handbook to 20-30 pages. Reference external docs for tool-specific details.
 
-Aspirational writing: "Our culture is collaboration and innovation!" No one finds this useful. Write specific behaviors: "We pair program on features. Average pairing is 4 hours per week."
+Aspirational writing - "Our culture is collaboration and innovation!" No one finds this useful. Write specific behaviors: "We pair program on features. Average pairing is 4 hours per week."
 
-Forgetting asynchronous: Include "How to communicate across time zones" not just "We use Slack." How do you schedule 5-timezone meetings? How do you handle urgency across time zones?
+Forgetting asynchronous - Include "How to communicate across time zones" not just "We use Slack." How do you schedule 5-timezone meetings? How do you handle urgency across time zones?
 
-No enforcement mechanism: If handbook says "respond within 4 hours" but no one does, the handbook damaged trust. Ensure policies are realistic and enforceable.
+No enforcement mechanism - If handbook says "respond within 4 hours" but no one does, the handbook damaged trust. Ensure policies are realistic and enforceable.
 
-Orphaned decisions: Decisions get made but never document. Create a "Decisions" section in handbook and link relevant sections to decisions. Example: "We use React (decided 2024-Q2, see decision log)"
+Orphaned decisions - Decisions get made but never document. Create a "Decisions" section in handbook and link relevant sections to decisions. Example: "We use React (decided 2024-Q2, see decision log)"
 
-Step 19: Example Handbook Outline
+Step 19 - Example Handbook Outline
 
 ```
 Remote Team Handbook
@@ -397,12 +397,12 @@ Remote Team Handbook
 7. Onboarding Checklist
 ```
 
-Step 20: Implementation Timeline
+Step 20 - Implementation Timeline
 
-Week 1: Outline sections and assign one section per team member
-Week 2: Draft section, review with manager
-Week 3: Compile into living document, make searchable
-Week 4: First team read-through, incorporate feedback
+Week 1 - Outline sections and assign one section per team member
+Week 2 - Draft section, review with manager
+Week 3 - Compile into living document, make searchable
+Week 4 - First team read-through, incorporate feedback
 
 A good handbook takes 4 weeks and pays dividends for years.
 

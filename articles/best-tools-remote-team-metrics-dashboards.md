@@ -40,7 +40,7 @@ Table of Contents
 | 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
 
 
-Slack integration: daily digest
+Slack integration - daily digest
 LinearB Settings > Notifications > Daily Digest > #engineering-metrics
 ```
 
@@ -73,8 +73,8 @@ Team Health:
 
 1. Grafana (Best All-Around)
 
-Cost: Free (self-hosted), $8/user/month (Cloud)
-Best for: Infrastructure, app metrics, mixed data sources
+Cost - Free (self-hosted), $8/user/month (Cloud)
+Best for - Infrastructure, app metrics, mixed data sources
 
 Deploy with Docker:
 
@@ -141,8 +141,8 @@ scrape_configs:
 
 2. Metabase (Best for Non-Technical Teams)
 
-Cost: Free (self-hosted), $500/month (Cloud)
-Best for: Business KPIs, SQL-based dashboards, stakeholder sharing
+Cost - Free (self-hosted), $500/month (Cloud)
+Best for - Business KPIs, SQL-based dashboards, stakeholder sharing
 
 ```bash
 Docker deployment
@@ -231,8 +231,8 @@ echo "Change failure rate: ${CFR}% ($FAILED failures / $TOTAL total)"
 
 4. LinearB (Purpose-Built Engineering Metrics)
 
-Cost: Free tier available, ~$15/user/month
-Best for: DORA metrics without building your own
+Cost - Free tier available, ~$15/user/month
+Best for - DORA metrics without building your own
 
 LinearB connects to GitHub/GitLab and surfaces:
 - PR cycle time breakdown (time to first review, review time, time to merge)
@@ -248,7 +248,7 @@ Connect via LinearB dashboard (no self-hosting needed)
 2. Map repos to teams
 3. Set targets: deployment frequency > daily, lead time < 48h
 
-Slack integration: daily digest
+Slack integration - daily digest
 LinearB Settings > Notifications > Daily Digest > #engineering-metrics
 ```
 
@@ -324,18 +324,18 @@ Dashboard Layout for Remote Teams
 Weekly team metrics page structure:
 
 ```
-Row 1: DORA Overview (4 stats)
+Row 1 - DORA Overview (4 stats)
  - Deployment Frequency (this week vs last week)
  - Lead Time (median, last 30 PRs)
  - Change Failure Rate (last 30 days %)
  - MTTR (avg incident resolution time)
 
-Row 2: Current Sprint
+Row 2 - Current Sprint
  - Burndown chart
  - PR queue depth
  - Stale PRs > 2 days
 
-Row 3: Service Health
+Row 3 - Service Health
  - Error rate by service (time series)
  - P95 latency by service
  - Active incidents

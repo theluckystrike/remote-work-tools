@@ -32,17 +32,17 @@ Real remote productivity metrics measure outcomes, not activity. Better metrics 
 
 The Metrics That Don't Work (But Everyone Still Uses)
 
-Hours logged in tools: Completely unreliable. Someone can spend 8 hours at their desk and ship nothing. Conversely, someone can work 4 focused hours and complete major features.
+Hours logged in tools - Completely unreliable. Someone can spend 8 hours at their desk and ship nothing. Conversely, someone can work 4 focused hours and complete major features.
 
-Meetings attended: Inverse productivity indicator in many cases. More meetings often means less execution time. Async work cultures with fewer meetings ship faster.
+Meetings attended - Inverse productivity indicator in many cases. More meetings often means less execution time. Async work cultures with fewer meetings ship faster.
 
-Lines of code written: Rewards verbose code and penalizes refactoring. A developer who deletes 200 lines of useless code and writes 50 production lines should score higher than someone padding their PR with comments.
+Lines of code written - Rewards verbose code and penalizes refactoring. A developer who deletes 200 lines of useless code and writes 50 production lines should score higher than someone padding their PR with comments.
 
-Pull request count: Measures activity, not quality. Twenty small PRs aren't equivalent to one large, well-architected PR.
+Pull request count - Measures activity, not quality. Twenty small PRs aren't equivalent to one large, well-architected PR.
 
-Chat message volume: Indicates communication frequency, not quality. Quiet channels often contain the most valuable async decisions.
+Chat message volume - Indicates communication frequency, not quality. Quiet channels often contain the most valuable async decisions.
 
-Keyboard/mouse activity: Detectable with tools like teDesk or Hubstaff. Completely gamed (leave mouse moving, appear active). Destroys trust and employee morale. Don't do this.
+Keyboard/mouse activity - Detectable with tools like teDesk or Hubstaff. Completely gamed (leave mouse moving, appear active). Destroys trust and employee morale. Don't do this.
 
 Metrics That Actually Work
 
@@ -73,12 +73,12 @@ Red flags:
 
 Example tracking:
 ```
-Feature: User dashboard redesign
-Issue created: March 1
-PR opened: March 5 (4-day spike time)
-PR merged: March 8 (3-day review time)
-Deployed to prod: March 9 (1-day deployment time)
-Total cycle time: 8 days
+Feature - User dashboard redesign
+Issue created - March 1
+PR opened - March 5 (4-day spike time)
+PR merged - March 8 (3-day review time)
+Deployed to prod - March 9 (1-day deployment time)
+Total cycle time - 8 days
 ```
 
 2. Deployment Frequency: Small, Safe Releases
@@ -101,9 +101,9 @@ Or track via CI/CD pipeline
 AWS CodeDeploy, GitHub Actions, CircleCI all log deployment times
 ```
 
-Why it matters: Frequent deployments correlate with faster bug fixes, shorter feedback loops, and better team morale. Teams that deploy weekly fix production issues faster than teams that deploy monthly.
+Why it matters - Frequent deployments correlate with faster bug fixes, shorter feedback loops, and better team morale. Teams that deploy weekly fix production issues faster than teams that deploy monthly.
 
-3. Lead Time for Changes: How Fast Can You Respond?
+3. Lead Time for Changes - How Fast Can You Respond?
 
 Separate from cycle time, this measures deployment speed once code is ready. A feature can have short cycle time but slow lead time if your infrastructure can't handle frequent releases.
 
@@ -145,7 +145,7 @@ What causes high failure rate:
 - Inadequate staging environment
 - Insufficient monitoring
 
-5. Mean Time to Recovery: How Fast Can You Fix It?
+5. Mean Time to Recovery - How Fast Can You Fix It?
 
 When incidents happen (they always do), how quickly does the team respond and restore service?
 
@@ -155,15 +155,15 @@ Healthy ranges:
 - 1-4 hours: Acceptable
 - 4+ hours: Poor
 
-Why it matters: MTTR reveals incident response capability more than MTBF (mean time between failures). A team that detects and fixes issues in 15 minutes is more effective than a team that causes issues infrequently but takes 6 hours to fix them.
+Why it matters - MTTR reveals incident response capability more than MTBF (mean time between failures). A team that detects and fixes issues in 15 minutes is more effective than a team that causes issues infrequently but takes 6 hours to fix them.
 
 Tracking example:
 ```
-Incident: Database connection pool exhausted (March 8, 2:45 PM)
-Detected: 3:02 PM (17 minutes)
-Fix deployed: 3:18 PM (33 minutes from detection)
-Service restored: 3:19 PM (34 minutes total)
-MTTR: 34 minutes
+Incident - Database connection pool exhausted (March 8, 2:45 PM)
+Detected - 3:02 PM (17 minutes)
+Fix deployed - 3:18 PM (33 minutes from detection)
+Service restored - 3:19 PM (34 minutes total)
+MTTR - 34 minutes
 ```
 
 Tools for tracking:
@@ -177,13 +177,13 @@ Measure how much work the team completes per sprint or iteration. Track this ove
 
 How to measure (Scrum/Agile):
 ```
-Sprint 1 (2 weeks): 34 story points completed
-Sprint 2 (2 weeks): 38 story points completed
-Sprint 3 (2 weeks): 32 story points completed
-Average velocity: 35 story points per sprint
+Sprint 1 (2 weeks) - 34 story points completed
+Sprint 2 (2 weeks) - 38 story points completed
+Sprint 3 (2 weeks) - 32 story points completed
+Average velocity - 35 story points per sprint
 ```
 
-Why it matters: Enables realistic deadline estimation. If your team averages 35 points/sprint and the roadmap requires 140 points, that's 4 sprints (8 weeks). Predict conservatively; use historical velocity, not optimistic estimates.
+Why it matters - Enables realistic deadline estimation. If your team averages 35 points/sprint and the roadmap requires 140 points, that's 4 sprints (8 weeks). Predict conservatively; use historical velocity, not optimistic estimates.
 
 Red flags:
 - Velocity declining over time (indicates burnout or scope creep)
@@ -230,9 +230,9 @@ Healthy debt ratio:
 
 Tools for Remote Productivity Metrics
 
-LinearB: Engineering Metrics Platform
+LinearB - Engineering Metrics Platform
 
-Cost: $10-50/user/month
+Cost - $10-50/user/month
 
 Metrics it tracks:
 - Cycle time breakdown (planning, development, review, merge, deploy)
@@ -241,7 +241,7 @@ Metrics it tracks:
 - Code review quality (comment volume, iteration count)
 - DORA metrics (deploy frequency, MTTR, change failure rate)
 
-Integrations: GitHub, GitLab, Jira, Slack
+Integrations - GitHub, GitLab, Jira, Slack
 
 Strengths:
 - DORA metric tracking
@@ -254,9 +254,9 @@ Weaknesses:
 - Can feel invasive (focuses heavily on individual metrics)
 - Expensive for large teams
 
-Jellyfish: Engineering Insights
+Jellyfish - Engineering Insights
 
-Cost: $25-75/user/month
+Cost - $25-75/user/month
 
 Metrics it tracks:
 - Developer efficiency (time spent in meetings, coding, code review)
@@ -264,7 +264,7 @@ Metrics it tracks:
 - Collaboration patterns
 - Individual contributor insights
 
-Integrations: GitHub, GitLab, Jira, Linear, Slack
+Integrations - GitHub, GitLab, Jira, Linear, Slack
 
 Strengths:
 - Excellent visualization of how developers spend time
@@ -277,9 +277,9 @@ Weaknesses:
 - Can feel like surveillance to developers
 - Requires careful communication (trust-building)
 
-Pluralsight Flow: Developer Experience
+Pluralsight Flow - Developer Experience
 
-Cost: $15-40/user/month
+Cost - $15-40/user/month
 
 Metrics it tracks:
 - Flow states (uninterrupted coding time)
@@ -287,7 +287,7 @@ Metrics it tracks:
 - Collaboration load (meetings, code review time)
 - Delivery metrics
 
-Integrations: GitHub, VS Code, JetBrains IDEs
+Integrations - GitHub, VS Code, JetBrains IDEs
 
 Strengths:
 - Focuses on developer well-being (flow states)
@@ -307,16 +307,16 @@ Create a simple dashboard your team actually looks at:
 ```
 Weekly Metrics Report
 
-Cycle Time: 6.2 days (↓0.5 from last week) 
-Deployment Frequency: 12 deploys (↑3 from last week) 
-Change Failure Rate: 4% (↓2% from last week) 
-MTTR: 28 minutes (↑10 min, incident-related) 
-Code Review Time: 18 hours average (↑6 hours, team on vacation) 
-Team Velocity: 38 points (↑4 from sprint average) 
+Cycle Time - 6.2 days (↓0.5 from last week) 
+Deployment Frequency - 12 deploys (↑3 from last week) 
+Change Failure Rate - 4% (↓2% from last week) 
+MTTR - 28 minutes (↑10 min, incident-related) 
+Code Review Time - 18 hours average (↑6 hours, team on vacation) 
+Team Velocity - 38 points (↑4 from sprint average) 
 
-Red Flags: None
+Red Flags - None
 
-Next Week Focus: Continue improving code review velocity
+Next Week Focus - Continue improving code review velocity
 ```
 
 Share this weekly. Discuss trends, not individual metrics.

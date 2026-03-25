@@ -37,10 +37,10 @@ Table of Contents
 - [Additional Strategies for Managing Background Noise](#additional-strategies-for-managing-background-noise)
 - [Advanced Audio Setup for Remote Parents](#advanced-audio-setup-for-remote-parents)
 - [Detailed Product Recommendations with Pricing](#detailed-product-recommendations-with-pricing)
-- [Software-Based Approach: Apps and Browser Tools](#software-based-approach-apps-and-browser-tools)
+- [Software-Based Approach - Apps and Browser Tools](#software-based-approach-apps-and-browser-tools)
 - [Noise Masking Science for Remote Professionals](#noise-masking-science-for-remote-professionals)
 - [Positioning and Placement Optimization](#positioning-and-placement-optimization)
-- [Cost-Benefit Analysis: Investment vs. Productivity Gain](#cost-benefit-analysis-investment-vs-productivity-gain)
+- [Cost-Benefit Analysis - Investment vs. Productivity Gain](#cost-benefit-analysis-investment-vs-productivity-gain)
 - [Troubleshooting Common Issues](#troubleshooting-common-issues)
 
 Why Portable White Noise Speakers Matter for Remote Parents
@@ -185,14 +185,14 @@ For serious audio quality improvement, combine white noise with additional tools
 Three-Layer Audio Strategy:
 
 Layer 1: White noise speaker (primary noise masking)
-Layer 2: Noise-canceling headphones (microphone-level isolation)
-Layer 3: Software noise gate (digital suppression)
+Layer 2 - Noise-canceling headphones (microphone-level isolation)
+Layer 3 - Software noise gate (digital suppression)
 
 Using all three layers creates professional audio quality even with chaotic household activity.
 
 Detailed Product Recommendations with Pricing
 
-Best Overall: LectroFan Classic ($60-75)
+Best Overall - LectroFan Classic ($60-75)
 - 10 distinct sound options (white, pink, brown noise + fan variations)
 - Non-repeating algorithms ensure it doesn't feel like looping
 - Compact desktop footprint (5" x 5" x 3")
@@ -200,7 +200,7 @@ Best Overall: LectroFan Classic ($60-75)
 - AC power only (minor limitation for portability)
 - Best for: Developers with dedicated desk space who need consistent professional audio
 
-Best Portable: Dohm Classic ($75-85)
+Best Portable - Dohm Classic ($75-85)
 - Mechanical fan generates authentic white noise (no digital artifacts)
 - Two-speed control (low/high)
 - Completely silent except for fan operation
@@ -208,14 +208,14 @@ Best Portable: Dohm Classic ($75-85)
 - Small footprint, extremely reliable
 - Best for: Developers who move between spaces or need ultra-reliable audio
 
-Best Hybrid: LectroFan Classic Plus ($99-129)
+Best Hybrid - LectroFan Classic Plus ($99-129)
 - Digital white noise machine + Bluetooth speaker
 - USB charging port (powers phone during calls)
 - Compact and portable with battery operation
 - Good middle ground between dedicated machines and general speakers
 - Best for: Developers who want flexibility to use different sound profiles
 
-Best Value: Basic Bluetooth Speaker with Noise Apps ($40-60)
+Best Value - Basic Bluetooth Speaker with Noise Apps ($40-60)
 - Use apps like myNoise.net or Noisli on your phone/laptop
 - Stream through affordable Bluetooth speaker
 - Infinitely customizable sound profiles
@@ -223,14 +223,14 @@ Best Value: Basic Bluetooth Speaker with Noise Apps ($40-60)
 - Drawback: Requires device management and app stability
 - Best for: Cost-conscious developers willing to manage software approach
 
-Premium Option: Marpac Dohm Elite ($150-180)
+Premium Option - Marpac Dohm Elite ($150-180)
 - Enhanced version with adjustable sound color
 - Premium materials and construction
 - Dual fan systems for richer sound
 - Warranted for 10+ years of reliable operation
 - Best for: Parents planning long-term use who value durability
 
-Software-Based Approach: Apps and Browser Tools
+Software-Based Approach - Apps and Browser Tools
 
 For developers hesitant to invest in hardware, software solutions offer similar benefits:
 
@@ -306,9 +306,9 @@ Do:
 
 Acoustic physics matters. A well-positioned speaker in a room with soft furnishings (curtains, carpet, furniture) masks significantly better than identical speaker in bare room.
 
-Cost-Benefit Analysis: Investment vs. Productivity Gain
+Cost-Benefit Analysis - Investment vs. Productivity Gain
 
-Scenario 1: Parent with 15 calls per week
+Scenario 1 - Parent with 15 calls per week
 - Cost of white noise solution: $75 (LectroFan Classic)
 - Annual salary (working parent): $60,000
 - Cost per call: $75 / (15 calls * 52 weeks) = $0.58 per call
@@ -316,7 +316,7 @@ Scenario 1: Parent with 15 calls per week
 - Annual value: 750-1,500 minutes saved = 12.5-25 hours recovered annually
 - ROI: Positive within 1-2 months
 
-Scenario 2: Parent with occasional calls
+Scenario 2 - Parent with occasional calls
 - Cost: $75
 - Value: Minimal if used infrequently
 - ROI: Slower but still positive over 2-3 year investment horizon
@@ -325,17 +325,17 @@ For any parent taking more than 10 calls weekly from home, white noise speakers 
 
 Troubleshooting Common Issues
 
-Problem: White noise makes me drowsy
-Solution: Use pink noise or brown noise instead (lower frequency content feels less stimulating). LectroFan offers multiple variants specifically for this.
+Problem - White noise makes me drowsy
+Solution - Use pink noise or brown noise instead (lower frequency content feels less stimulating). LectroFan offers multiple variants specifically for this.
 
-Problem: Kids complain white noise is annoying
-Solution: Position speaker away from their play areas. Involve them in choosing which sound profiles ("rain" or "ocean waves" sometimes more acceptable than generic white noise).
+Problem - Kids complain white noise is annoying
+Solution - Position speaker away from their play areas. Involve them in choosing which sound profiles ("rain" or "ocean waves" sometimes more acceptable than generic white noise).
 
-Problem: Partner complains about white noise sound
-Solution: Direct speaker output toward your workspace only. Use headphone-based approach instead (noise-canceling headphones let you hear yourself while blocking ambient sounds).
+Problem - Partner complains about white noise sound
+Solution - Direct speaker output toward your workspace only. Use headphone-based approach instead (noise-canceling headphones let you hear yourself while blocking ambient sounds).
 
-Problem: White noise in background of my calls bothers callers
-Solution: Position speaker away from microphone (6+ feet), use noise gate in audio software to suppress sounds below certain threshold, or rely more on noise-canceling headphones than room-level white noise.
+Problem - White noise in background of my calls bothers callers
+Solution - Position speaker away from microphone (6+ feet), use noise gate in audio software to suppress sounds below certain threshold, or rely more on noise-canceling headphones than room-level white noise.
 
 Frequently Asked Questions
 

@@ -136,17 +136,17 @@ Workflow Optimization for Distributed Teams
 
 Beyond tool selection, optimizing your CAD review workflow requires process changes:
 
-Establish review rhythms: Schedule regular CAD review sessions at times that rotate between time zones. This prevents burnout and ensures all team members share the burden of inconvenient meeting times.
+Establish review rhythms - Schedule regular CAD review sessions at times that rotate between time zones. This prevents burnout and ensures all team members share the burden of inconvenient meeting times.
 
-Create annotation standards: Define consistent annotation prefixes and color coding. For example, use red for blocking issues, yellow for clarifications, and green for approved elements.
+Create annotation standards - Define consistent annotation prefixes and color coding. For example, use red for blocking issues, yellow for clarifications, and green for approved elements.
 
-Implement gating: Require sign-off from specific disciplines before models progress to the next design phase. This prevents downstream conflicts that become expensive to resolve.
+Implement gating - Require sign-off from specific disciplines before models progress to the next design phase. This prevents downstream conflicts that become expensive to resolve.
 
-Document decisions: Store meeting recordings and annotated screenshots in your project documentation system. Future team members will need context for design decisions.
+Document decisions - Store meeting recordings and annotated screenshots in your project documentation system. Future team members will need context for design decisions.
 
 Looking Ahead
 
-The remote architecture collaboration tool ecosystem continues to evolve. Emerging capabilities include AI-powered clash detection that runs automatically when models update, augmented reality overlays for site coordination, and enhanced real-time rendering that approaches native CAD software quality.
+The remote architecture collaboration tool environment continues to evolve. Emerging capabilities include AI-powered clash detection that runs automatically when models update, augmented reality overlays for site coordination, and enhanced real-time rendering that approaches native CAD software quality.
 
 Teams that establish solid remote CAD review practices now will be better positioned to adopt these advances as they mature.
 
@@ -183,11 +183,11 @@ Hardware requirements
 - Monitor upgrade for CAD review (high-res): $500-2,000 per workstation
 - Network optimization: may require enterprise internet upgrade
 
-Real cost for team of 8: $15,000-25,000 first year; $5,000-8,000 annually thereafter
+Real cost for team of 8 - $15,000-25,000 first year; $5,000-8,000 annually thereafter
 
 Advanced CAD Review Workflow Templates
 
-Template 1: Multi-Discipline Design Review
+Template 1 - Multi-Discipline Design Review
 
 Used when architectural, structural, MEP, and client stakeholders must review simultaneously:
 
@@ -211,9 +211,9 @@ Workflow Phases:
      Sign-off via platform workflow
 ```
 
-Timeline: 1 week per review cycle
+Timeline - 1 week per review cycle
 
-Template 2: Client Presentation & Approval
+Template 2 - Client Presentation & Approval
 
 Used when presenting to non-technical stakeholders:
 
@@ -236,9 +236,9 @@ Workflow Phases:
      Formal approval documented
 ```
 
-Timeline: Single session + 1-2 weeks for formal approval
+Timeline - Single session + 1-2 weeks for formal approval
 
-Template 3: Rapid Issue Resolution
+Template 3 - Rapid Issue Resolution
 
 Used when quick decision-making is critical (value engineering, budget cuts):
 
@@ -261,7 +261,7 @@ Workflow Phases:
      Action items assigned
 ```
 
-Timeline: 25 minutes total, can be repeated multiple times daily
+Timeline - 25 minutes total, can be repeated multiple times daily
 
 Annotation Standards and Documentation
 
@@ -353,7 +353,7 @@ OFFICE-2026_MEP_DD_20260310_v01.rvt
 
 Components:
 - ProjectCode: Unique project identifier
-- Discipline: Arch, Struct, MEP, etc.
+- Discipline - Arch, Struct, MEP, etc.
 - Phase: SD (Schematic Design), DD (Design Development), CD (Construction Docs)
 - Date: YYYYMMDD format
 - Version: Sequential number indicating model iteration
@@ -413,22 +413,22 @@ Access Control Levels
 Define clear permission tiers:
 
 ```
-Level 1: View Only
+Level 1 - View Only
  Client stakeholders
  Senior management
  Regulatory reviewers
 
-Level 2: Comment/Annotate
+Level 2 - Comment/Annotate
  Design team members
  Discipline leads
  Consultants
 
-Level 3: Edit/Modify
+Level 3 - Edit/Modify
  Project lead architect
  Senior designers
  CAD coordinators
 
-Level 4: Admin/Publishing
+Level 4 - Admin/Publishing
  Project principals
  IT administrators
 ```

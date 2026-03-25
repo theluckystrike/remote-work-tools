@@ -25,10 +25,10 @@ Table of Contents
 - [Evaluating Existing Tools](#evaluating-existing-tools)
 - [Optimizing Your Meeting Strategy](#optimizing-your-meeting-strategy)
 - [Tools That Actually Calculate Overlap](#tools-that-actually-calculate-overlap)
-- [Real-World Scheduling: Global Team Examples](#real-world-scheduling-global-team-examples)
+- [Real-World Scheduling - Global Team Examples](#real-world-scheduling-global-team-examples)
 - [Handling Daylight Saving Time Transitions](#handling-daylight-saving-time-transitions)
 - [Building a Team Scheduling Culture](#building-a-team-scheduling-culture)
-- [Advanced: Building a Custom Scheduling Tool](#advanced-building-a-custom-scheduling-tool)
+- [Advanced - Building a Custom Scheduling Tool](#advanced-building-a-custom-scheduling-tool)
 
 The Core Problem
 
@@ -125,13 +125,13 @@ Handling Edge Cases
 
 Real-world implementation requires handling several complexities:
 
-1. Daylight Saving Time: Always use timezone-aware datetime objects. The `ZoneInfo` module in Python 3.9+ handles this automatically.
+1. Daylight Saving Time - Always use timezone-aware datetime objects. The `ZoneInfo` module in Python 3.9+ handles this automatically.
 
-2. Flexible Working Hours: Some team members prefer starting earlier or later. Allow configuration of individual work schedules.
+2. Flexible Working Hours - Some team members prefer starting earlier or later. Allow configuration of individual work schedules.
 
-3. Meeting Recurrence: Weekly recurring meetings may shift relative to UTC during DST transitions. Account for this in your calculation.
+3. Meeting Recurrence - Weekly recurring meetings may shift relative to UTC during DST transitions. Account for this in your calculation.
 
-4. Working Days: Not everyone works Monday through Friday. Support individual day configurations.
+4. Working Days - Not everyone works Monday through Friday. Support individual day configurations.
 
 Integrating with Calendar Systems
 
@@ -204,9 +204,9 @@ For teams with consistent working hours, a simple spreadsheet handles overlap ca
 
 ```python
 Google Sheets formula to find overlap
-Column A: Team member names
-Column B: UTC offset (e.g., -5 for EST)
-Columns C-J: Hours 0-23 UTC time
+Column A - Team member names
+Column B - UTC offset (e.g., -5 for EST)
+Columns C-J - Hours 0-23 UTC time
 
 In each time cell, formula:
 =IF(AND(MOD(COLUMN()-2+B2,24)>=9, MOD(COLUMN()-2+B2,24)<17), "AVAILABLE", "")
@@ -218,9 +218,9 @@ Then visually scan for columns where all team members show AVAILABLE
 Slack Integration (Free/$10/month):
 Many Slack workspaces integrate time zone overlaps. The Slack app "When2Meet" automates availability collection from team members' calendars.
 
-Real-World Scheduling: Global Team Examples
+Real-World Scheduling - Global Team Examples
 
-Example 1: 3-Person US Team (Pacific, Central, Eastern)
+Example 1 - 3-Person US Team (Pacific, Central, Eastern)
 
 Team:
 - Alice (PST, UTC-8, works 9 AM, 6 PM)
@@ -236,11 +236,11 @@ When it's 12 PM PST (Alice's midday), it's:
 - 2 PM CST (Bob, working)
 - 3 PM EST (Charlie, working)
 
-Optimal windows: 9 AM PST, 12 PM PST (2-hour window with all available)
+Optimal windows - 9 AM PST, 12 PM PST (2-hour window with all available)
 
-Decision: Schedule standing meetings at 10 AM PST, which is 12 PM CST / 1 PM EST. Everyone is in their workday and focus time.
+Decision - Schedule standing meetings at 10 AM PST, which is 12 PM CST / 1 PM EST. Everyone is in their workday and focus time.
 
-Example 2: Europe + Asia Split (4 People)
+Example 2 - Europe + Asia Split (4 People)
 
 Team:
 - Sarah (CET, UTC+1, works 9 AM, 6 PM)
@@ -260,7 +260,7 @@ When it's 10 AM CET, times are:
 - 2:30 PM IST (Priya, working)
 - 6 PM JST (Kai, end of day)
 
-Analysis: There is NO time when all four are in their 9, 5 working hours simultaneously. Europe and Australia are nearly 12 hours apart, opposite sides of the globe.
+Analysis - There is NO time when all four are in their 9, 5 working hours simultaneously. Europe and Australia are nearly 12 hours apart, opposite sides of the globe.
 
 Solution options:
 1. Rotate meeting times: Monday/Wednesday at 10 AM CET (inconvenient for Asia), Thursday at 4 PM CET (early morning for Asia)
@@ -268,9 +268,9 @@ Solution options:
 3. Ask Marcus (Australia) to extend hours to 7, 8 PM AEST for critical meetings (1 hour overlap)
 4. Split into regional meetings: Europe + Asia subgroups, then async coordination
 
-Decision: For this team, async-first communication with recorded decisions and written updates works better than forced synchronous meetings.
+Decision - For this team, async-first communication with recorded decisions and written updates works better than forced synchronous meetings.
 
-Example 3: Americas Spanning (5 People)
+Example 3 - Americas Spanning (5 People)
 
 Team:
 - James (PST, UTC-8, works 9 AM, 6 PM)
@@ -287,9 +287,9 @@ When it's 9 AM PST:
 - 2 PM BRT (Ana, working)
 - 11 AM Mexico City (Carlos, working)
 
-Optimal windows: 9 AM, 12 PM PST covers all team members' working hours.
+Optimal windows - 9 AM, 12 PM PST covers all team members' working hours.
 
-Decision: Schedule standing meetings at 10 AM PST / 12 PM EST / 11 AM CST and Mexico City. Ana (Brazil) attends at 2 PM, which is mid-afternoon but still in her workday.
+Decision - Schedule standing meetings at 10 AM PST / 12 PM EST / 11 AM CST and Mexico City. Ana (Brazil) attends at 2 PM, which is mid-afternoon but still in her workday.
 
 Handling Daylight Saving Time Transitions
 
@@ -305,7 +305,7 @@ Fall back (gaining an hour):
 - Critical: Update recurring meetings that cross DST boundaries
 - Check 2 weeks before to identify conflicts
 
-Best practice: Schedule recurring meetings at an UTC time rather than local time. This prevents DST confusion:
+Best practice - Schedule recurring meetings at an UTC time rather than local time. This prevents DST confusion:
 - Instead of "10 AM PST every Monday"
 - Use "18:00 UTC every Monday" (which is 10 AM PST in winter, 11 AM PDT in summer)
 
@@ -313,17 +313,17 @@ Building a Team Scheduling Culture
 
 Once you've solved the timezone math, establish communication norms:
 
-Document core hours: "Our team has core working hours 1 PM, 4 PM UTC (varies by timezone). We schedule synchronous meetings during this window. Outside core hours, communication is asynchronous."
+Document core hours - "Our team has core working hours 1 PM, 4 PM UTC (varies by timezone). We schedule synchronous meetings during this window. Outside core hours, communication is asynchronous."
 
-Rotate burden: If meetings must occur outside some team members' preferred hours, rotate who bears that burden. Don't make the same person always join at 7 AM.
+Rotate burden - If meetings must occur outside some team members' preferred hours, rotate who bears that burden. Don't make the same person always join at 7 AM.
 
-Respect personal time: A 7 AM meeting is rough, but a 10 PM meeting is worse. Avoid meeting times after 8 PM or before 7 AM for anyone.
+Respect personal time - A 7 AM meeting is rough, but a 10 PM meeting is worse. Avoid meeting times after 8 PM or before 7 AM for anyone.
 
-Document decisions async: Any critical decision made in synchronous meetings should be documented and shared asynchronously for team members who couldn't attend.
+Document decisions async - Any critical decision made in synchronous meetings should be documented and shared asynchronously for team members who couldn't attend.
 
-Provide recordings: Record important synchronous sessions and share with team members who attended outside core hours.
+Provide recordings - Record important synchronous sessions and share with team members who attended outside core hours.
 
-Advanced: Building a Custom Scheduling Tool
+Advanced - Building a Custom Scheduling Tool
 
 For teams with complex, recurring needs, a custom tool might be worth 8, 10 hours of development time:
 

@@ -190,7 +190,7 @@ class GitHubNormalizer:
 
 AI-Powered Synthesis
 
-Now comes the core value: using an LLM to synthesize all this data into a coherent status report:
+Now comes the core value - using an LLM to synthesize all this data into a coherent status report:
 
 ```python
 import openai
@@ -291,11 +291,11 @@ Deployment Considerations
 
 For production use, add these essential features:
 
-Rate Limiting: Most APIs impose rate limits. Implement exponential backoff and cache responses where possible.
+Rate Limiting - Most APIs impose rate limits. Implement exponential backoff and cache responses where possible.
 
-Authentication Security: Store API tokens in environment variables or a secrets manager. Never commit credentials to version control.
+Authentication Security - Store API tokens in environment variables or a secrets manager. Never commit credentials to version control.
 
-Scheduling: Use a cron job or GitHub Actions workflow to run the generator weekly:
+Scheduling - Use a cron job or GitHub Actions workflow to run the generator weekly:
 
 ```yaml
 name: Weekly Status Report
@@ -320,7 +320,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 ```
 
-Customization: The prompt in `StatusReportGenerator` can be modified to match your team's specific format requirements. Some teams prefer bullet points, others prefer paragraphs.
+Customization - The prompt in `StatusReportGenerator` can be modified to match your team's specific format requirements. Some teams prefer bullet points, others prefer paragraphs.
 
 Adding Notion and Linear Connectors
 

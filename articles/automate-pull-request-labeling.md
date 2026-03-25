@@ -20,7 +20,7 @@ Labels tell your team what a pull request is before they open it. Without automa
 
 ---
 
-Approach 1: GitHub's Official Labeler Action
+Approach 1 - GitHub's Official Labeler Action
 
 `.github/labeler.yml`
 
@@ -95,7 +95,7 @@ jobs:
 
 ---
 
-Approach 2: Label by PR Size
+Approach 2 - Label by PR Size
 
 ```yaml
 name: PR Size Label
@@ -163,7 +163,7 @@ jobs:
 
 ---
 
-Approach 3: Label by Conventional Commit Title
+Approach 3 - Label by Conventional Commit Title
 
 ```yaml
 name: Conventional PR Labels
@@ -258,7 +258,7 @@ echo "Labels created in $REPO"
 
 ---
 
-Approach 4: Composite Labeling (Files + Size + Convention)
+Approach 4 - Composite Labeling (Files + Size + Convention)
 
 Combine all three approaches in one workflow that runs a single script:
 

@@ -25,7 +25,7 @@ Table of Contents
 - [The Async-Friendly Dashboard Panel](#the-async-friendly-dashboard-panel)
 - [Deploy Annotations](#deploy-annotations)
 - [Alerting Configuration for Remote Teams](#alerting-configuration-for-remote-teams)
-- [Slack Digest: Daily Health Report](#slack-digest-daily-health-report)
+- [Slack Digest - Daily Health Report](#slack-digest-daily-health-report)
 - [Shareable Panel Links](#shareable-panel-links)
 - [Dashboard-as-Code with Grafonnet](#dashboard-as-code-with-grafonnet)
 - [Grafana vs. Alternatives for Remote Teams](#grafana-vs-alternatives-for-remote-teams)
@@ -106,7 +106,7 @@ datasources:
       timeInterval: "15s"
 ```
 
-The `allowUiUpdates: true` setting lets engineers iterate on dashboards through the UI, but changes should be exported and committed back to git. Add a comment to the provisioning folder's README: "If you change a dashboard in the UI, export the JSON and commit it. otherwise your changes will be overwritten on next deploy."
+The `allowUiUpdates - true` setting lets engineers iterate on dashboards through the UI, but changes should be exported and committed back to git. Add a comment to the provisioning folder's README: "If you change a dashboard in the UI, export the JSON and commit it. otherwise your changes will be overwritten on next deploy."
 
 Team Dashboard Structure
 
@@ -200,12 +200,12 @@ In your GitHub Actions deploy workflow:
 - name: Post Grafana annotation
   run: |
     curl -X POST "https://grafana.internal/api/annotations" \
-      -H "Authorization: Bearer ${{ secrets.GRAFANA_API_KEY }}" \
+      -H "Authorization - Bearer ${{ secrets.GRAFANA_API_KEY }}" \
       -H "Content-Type: application/json" \
       -d "{
         \"time\": $(date +%s%3N),
         \"tags\": [\"deploy\", \"production\"],
-        \"text\": \"Deploy: ${{ github.ref_name }} by ${{ github.actor }}\"
+        \"text\": \"Deploy - ${{ github.ref_name }} by ${{ github.actor }}\"
       }"
 ```
 
@@ -249,7 +249,7 @@ Nested policy (P1 severity):
 
 The repeat interval for critical alerts should be short enough that an on-call engineer is not waiting 4 hours for a reminder, but long enough that the channel does not flood during a sustained incident.
 
-Slack Digest: Daily Health Report
+Slack Digest - Daily Health Report
 
 Instead of requiring engineers to check Grafana, send a daily digest to Slack:
 
@@ -394,7 +394,7 @@ Grafana vs. Alternatives for Remote Teams
 
 | Tool | Strength | Weakness | Best for |
 |---|---|---|---|
-| Grafana | Flexible, open source, massive plugin ecosystem | Complex to configure well | Teams with Prometheus/Loki already running |
+| Grafana | Flexible, open source, massive plugin environment | Complex to configure well | Teams with Prometheus/Loki already running |
 | Datadog | Excellent APM, easy setup | $15-23/host/month | Teams willing to pay for convenience |
 | New Relic | Strong distributed tracing | Per-user pricing adds up | APM-focused teams |
 | Honeycomb | Best-in-class for distributed tracing and high-cardinality queries | Expensive at scale | Microservices-heavy teams |

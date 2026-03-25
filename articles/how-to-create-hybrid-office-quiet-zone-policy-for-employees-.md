@@ -220,13 +220,13 @@ Create a policy template that allows teams to customize their own quiet hours wi
 ```markdown
 Team Quiet Hours Agreement
 
-Team: [Team Name]
-Default Org Policy: 9 AM - 12 PM Monday-Friday
-Our Customized Policy: [Customize below if different]
+Team - [Team Name]
+Default Org Policy - 9 AM - 12 PM Monday-Friday
+Our Customized Policy - [Customize below if different]
 
-Primary Quiet Hours: [9 AM - 12 PM] / [Different time]
+Primary Quiet Hours - [9 AM - 12 PM] / [Different time]
 Secondary Quiet Hours (if applicable): [2 PM - 4 PM] / [None]
-Exceptions: [List exceptions: On-call, client meetings, incident response]
+Exceptions - [List exceptions: On-call, client meetings, incident response]
 
 Enforcement Approach:
 - [ ] Calendar blocks for all team members
@@ -234,7 +234,7 @@ Enforcement Approach:
 - [ ] Gentle reminders from team lead
 - [ ] Escalation procedure for violations
 
-Review Cadence: Monthly team check-in, quarterly feedback survey
+Review Cadence - Monthly team check-in, quarterly feedback survey
 ```
 
 Providing Alternatives for Employees Who Can't Use Office Quiet Zones
@@ -248,7 +248,7 @@ Not all remote workers can attend the office during quiet hours. Ensure distribu
 
 Enforcing Quiet Zones Without Creating Guilt Culture
 
-A common failure mode: Quiet zone policies become punitive rather than supportive. Prevent this with a culture-first approach:
+A common failure mode - Quiet zone policies become punitive rather than supportive. Prevent this with a culture-first approach:
 
 What doesn't work:
 - Publicly shaming people who violate quiet hours
@@ -267,31 +267,31 @@ Technology Alternatives to Quiet Zones (If Policies Don't Stick)
 
 If your team can't maintain a quiet zone policy, consider structural alternatives:
 
-Collaboration-Day Model: Instead of daily quiet hours, designate 2-3 "collaboration days" per week when all meetings and interruptions happen, leaving remaining days completely meeting-free. This is more extreme but often more reliable than hour-based quiet zones.
+Collaboration-Day Model - Instead of daily quiet hours, designate 2-3 "collaboration days" per week when all meetings and interruptions happen, leaving remaining days completely meeting-free. This is more extreme but often more reliable than hour-based quiet zones.
 
-Async-Everything Weeks: One week per month is strictly async (Slack only, no calls except emergencies). The remaining weeks are normal collaboration mode. This gives teams a predictable deep-work window.
+Async-Everything Weeks - One week per month is strictly async (Slack only, no calls except emergencies). The remaining weeks are normal collaboration mode. This gives teams a predictable deep-work window.
 
-Focus Room Booking: Rather than office-wide quiet hours, maintain 2-3 focus rooms where anyone can book 1-2 hour slots for uninterrupted work. This doesn't require entire team buy-in; individuals use as needed.
+Focus Room Booking - Rather than office-wide quiet hours, maintain 2-3 focus rooms where anyone can book 1-2 hour slots for uninterrupted work. This doesn't require entire team buy-in; individuals use as needed.
 
-Core Hours + Flexible: Instead of specific quiet hours, define when "core hours" are (typically 10 AM - 3 PM) and allow flexible quiet hour arrangement outside that window. Teams coordinate their own deep work blocks.
+Core Hours + Flexible - Instead of specific quiet hours, define when "core hours" are (typically 10 AM - 3 PM) and allow flexible quiet hour arrangement outside that window. Teams coordinate their own deep work blocks.
 
 When Quiet Zones Fail and How to Recover
 
 If quiet zone policies aren't working after 4-6 weeks, investigate root causes:
 
-Cause: Too many exceptions
+Cause - Too many exceptions
 - Fix: Tighten what qualifies as exceptions; review and veto non-essential meetings
 - Alternative: Reduce quiet hours from 3 hours to 2 hours daily
 
-Cause: Calendar system doesn't enforce blocks
+Cause - Calendar system doesn't enforce blocks
 - Fix: Switch to calendar system with better enforcement (Outlook's focus time, Google Calendar event blocking)
 - Alternative: Use external tool like When2Meet to show availability, then manually respect quiet hours
 
-Cause: Certain teams don't believe in quiet time
+Cause - Certain teams don't believe in quiet time
 - Fix: Let those teams opt-out and measure their productivity; share comparison metrics
 - Alternative: Make quiet time team-specific rather than organization-wide
 
-Cause: One manager consistently schedules over quiet hours
+Cause - One manager consistently schedules over quiet hours
 - Fix: Address directly with that manager; explain impact on team productivity
 - Alternative: Remove that manager's meeting scheduling privileges temporarily, reinstate after 30 days of compliance
 

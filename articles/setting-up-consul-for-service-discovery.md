@@ -22,10 +22,10 @@ Hardcoded service addresses are a maintenance nightmare as infrastructure scales
 Architecture
 
 Consul runs in two modes:
-- Server: Maintains the cluster state. Run 3 or 5 for fault tolerance.
-- Client/Agent: Runs on every host, registers services, proxies requests to servers.
+- Server - Maintains the cluster state. Run 3 or 5 for fault tolerance.
+- Client/Agent - Runs on every host, registers services, proxies requests to servers.
 
-Minimum production setup: 3 Consul servers + Consul agents on each application host.
+Minimum production setup - 3 Consul servers + Consul agents on each application host.
 
 ---
 
@@ -283,7 +283,7 @@ consul watch \
 ```
 
 ```python
-Python: watch KV and update in-memory config
+Python - watch KV and update in-memory config
 import consul
 import threading
 

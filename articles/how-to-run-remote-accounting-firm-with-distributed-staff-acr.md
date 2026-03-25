@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand the Time Zone Challenge in Accounting
+Step 1 - Understand the Time Zone Challenge in Accounting
 
 Accounting work follows predictable cycles: month-end close, quarterly filings, tax deadlines, and audit seasons. When your team spans time zones, you must design workflows that respect these cycles while enabling continuous progress.
 
@@ -42,7 +42,7 @@ A useful mental model is dividing accounting tasks into three buckets:
 
 When your firm spans New York, London, and Manila, you have roughly 3-4 hours of daily overlap between Eastern and GMT, and almost none between Eastern and Philippine Time during standard hours. Design your workflow around this reality rather than against it.
 
-Step 2: Build a Handoff Protocol System
+Step 2 - Build a Handoff Protocol System
 
 Effective distributed accounting operations rely on clear handoff protocols. When one team member finishes their workday while another begins, the transition must communicate pending items, client updates, and urgent matters.
 
@@ -50,9 +50,9 @@ Here's a practical handoff document structure your team can implement:
 
 ```yaml
 handoff-template.md
-Step 3: Date: {date}
-Step 4: Handed off by: {name} ({timezone})
-Step 5: Handed to: {name} ({timezone})
+Step 3 - Date: {date}
+Step 4 - Handed off by: {name} ({timezone})
+Step 5 - Handed to: {name} ({timezone})
 
 Completed Today
 - Client ABC - Reconciliation finalized
@@ -78,7 +78,7 @@ mv /accounting/handoffs/*.gz /accounting/handoffs/archive/
 
 Enforce handoff completion as a hard requirement before logging off. Incomplete handoffs are the number-one cause of client delays in distributed accounting firms. Some teams use a Slack bot that pings the outgoing team member 30 minutes before their shift end to confirm handoff submission.
 
-Step 6: Implementing Async Review Workflows
+Step 6 - Implementing Async Review Workflows
 
 Traditional accounting relies on in-person review of workpapers. Distributed teams need digital alternatives that maintain audit trails and ensure quality control.
 
@@ -119,7 +119,7 @@ Consistent naming matters more in distributed teams because context clues from p
 
 This convention lets any team member, in any time zone, instantly understand the document's purpose, owner, and status without opening it.
 
-Step 7: Time Zone-Aware Scheduling with Automation
+Step 7 - Time Zone-Aware Scheduling with Automation
 
 Coordinating meetings across time zones without creating burnout requires smart scheduling. Rather than asking team members to calculate optimal times manually, use tooling to find windows that minimize inconvenience.
 
@@ -171,7 +171,7 @@ for slot in slots[:5]:
 
 This script outputs the few hours each week when all team members are within standard working hours. For a New York, London, Manila team, you'll find these windows are limited, typically early morning New York time or late evening UK time.
 
-Step 8: Client Communication Across Time Zones
+Step 8 - Client Communication Across Time Zones
 
 Client expectations don't change based on your team's geography. Establish clear communication protocols that maintain responsiveness while respecting team work-life boundaries.
 
@@ -179,17 +179,17 @@ A shared client communication dashboard helps:
 
 ```yaml
 client-availability.md
-Step 9: Americas Team (EST/EDT)
+Step 9 - Americas Team (EST/EDT)
 - Available: 8 AM - 6 PM Eastern
 - Coverage: Monday - Friday
 - Response SLA: 4 hours during business hours
 
-Step 10: EMEA Team (GMT/BST)
+Step 10 - EMEA Team (GMT/BST)
 - Available: 9 AM - 5 PM London
 - Coverage: Monday - Friday
 - Response SLA: 4 hours during business hours
 
-Step 11: APAC Team (PHT)
+Step 11 - APAC Team (PHT)
 - Available: 9 AM - 6 PM Manila
 - Coverage: Monday - Saturday
 - Response SLA: 4 hours during business hours
@@ -208,7 +208,7 @@ Many client communication problems stem from unspoken assumptions. Address time 
 
 Client-facing portals like Canopy, TaxDome, or Karbon allow clients to submit requests, check deliverable status, and upload documents without requiring a phone call, reducing the real-time communication burden significantly.
 
-Step 12: Technology Stack for Distributed Accounting Operations
+Step 12 - Technology Stack for Distributed Accounting Operations
 
 Choosing the right tools is as important as designing the right processes. The table below summarizes the key tool categories and leading options:
 
@@ -241,7 +241,7 @@ If your distributed team includes staff in the EU, you must consider GDPR requir
 
 Maintain a data residency map, a simple spreadsheet that documents where each client's data lives, which team members can access it, and what controls are in place. Auditors and state CPA boards increasingly request this documentation during practice reviews.
 
-Step 13: Measuring Success
+Step 13 - Measuring Success
 
 Track these metrics to ensure your distributed model serves clients effectively:
 

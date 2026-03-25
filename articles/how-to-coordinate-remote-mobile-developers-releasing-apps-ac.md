@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Establishing a Shared Release cadence
+Step 1 - Establishing a Shared Release cadence
 
 The foundation of coordinated mobile releases is a predictable release cadence. When everyone knows when releases happen, coordination becomes significantly easier. Most successful mobile teams adopt either a time-based release schedule (bi-weekly or monthly) or a milestone-based approach tied to feature completion.
 
@@ -44,15 +44,15 @@ For remote teams, document your release schedule in a shared location every team
 Here's a practical example of a two-week release cycle timeline:
 
 ```
-Week 1, Monday: Feature freeze, start internal testing
-Week 1, Wednesday: Bugfixes only, final QA builds
-Week 1, Friday: Code complete, submit to App Stores
-Week 2, Monday: Monitor for issues, address critical bugs
-Week 2, Wednesday: Release to 10% of users (if using staged rollout)
-Week 2, Friday: Full release if no critical issues
+Week 1, Monday - Feature freeze, start internal testing
+Week 1, Wednesday - Bugfixes only, final QA builds
+Week 1, Friday - Code complete, submit to App Stores
+Week 2, Monday - Monitor for issues, address critical bugs
+Week 2, Wednesday - Release to 10% of users (if using staged rollout)
+Week 2, Friday - Full release if no critical issues
 ```
 
-Step 2: Version Control Strategy for Multi-Platform Releases
+Step 2 - Version Control Strategy for Multi-Platform Releases
 
 Managing iOS and Android codebases requires thoughtful version control. You have two primary approaches: shared repository with platform-specific directories, or separate repositories per platform.
 
@@ -81,7 +81,7 @@ A simple version tracking file in your coordinator repository might look like:
 
 Each developer updates their platform's status as they progress through the release. This provides a single source of truth that anyone on the team can check asynchronously.
 
-Step 3: Configure CI/CD Pipeline Coordination
+Step 3 - Configure CI/CD Pipeline Coordination
 
 Automated pipelines reduce manual coordination overhead significantly. Both iOS and Android benefit from similar pipeline stages, but the tooling differs.
 
@@ -151,7 +151,7 @@ upload_testflight:
     - altool --upload-app -f ./output/App.ipa -t ios
 ```
 
-Step 4: Async Communication Protocols
+Step 4 - Async Communication Protocols
 
 When your iOS developer in Tokyo and Android developer in Berlin need to coordinate a release, synchronous communication becomes a bottleneck. Implement async communication protocols that work across time zones.
 
@@ -167,7 +167,7 @@ Create a dedicated Slack or Teams channel specifically for release coordination.
 A standardized update might look like:
 
 ```
-Step 5: Release 2.4.0 Status
+Step 5 - Release 2.4.0 Status
 
 iOS:
 - [x] Build created
@@ -181,8 +181,8 @@ Android:
 - [x] Submitted to Play Store
 - [x] Released to production
 
-Blockers: None
-Notes: Waiting on iOS review, expect 24-48 hours
+Blockers - None
+Notes - Waiting on iOS review, expect 24-48 hours
 ```
 
 Handoff Documentation
@@ -190,12 +190,12 @@ Handoff Documentation
 When one developer needs to hand off work to another (perhaps across time zones), create a standardized handoff format:
 
 ```markdown
-Step 6: Handoff: Login Feature
+Step 6 - Handoff: Login Feature
 
-Status: Complete, needs verification
-Platform: iOS
-Branch: feature/login-overhaul
-Tests: Added 12 new unit tests
+Status - Complete, needs verification
+Platform - iOS
+Branch - feature/login-overhaul
+Tests - Added 12 new unit tests
 
 What works:
 - Email/password login
@@ -210,7 +210,7 @@ Notes for next developer:
 Test on device with notch. Simulator works but has display issues.
 ```
 
-Step 7: Handling Cross-Platform Dependencies
+Step 7 - Handling Cross-Platform Dependencies
 
 Many features require coordination between iOS and Android, shared API endpoints, feature flags, or synchronized feature rollouts. Establish clear protocols for these dependencies.
 
@@ -245,7 +245,7 @@ Backend changes often affect both mobile apps. Establish these rules:
 3. Maintain backward compatibility for at least one previous API version
 4. Document API changes in a shared changelog visible to all developers
 
-Step 8: Emergency Release Procedures
+Step 8 - Emergency Release Procedures
 
 Sometimes bugs require hotfixes outside your normal release cycle. Prepare emergency procedures in advance.
 

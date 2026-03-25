@@ -20,14 +20,14 @@ Table of Contents
 
 - [Why Colombia for Software Developers](#why-colombia-for-software-developers)
 - [Eligibility Requirements](#eligibility-requirements)
-- [Step 1: Prepare Your Documents](#step-1-prepare-your-documents)
-- [Step 2: Create Your Colombian Immigration Account](#step-2-create-your-colombian-immigration-account)
-- [Step 3: Complete the Visa Application Form](#step-3-complete-the-visa-application-form)
-- [Step 4: Upload Supporting Documents](#step-4-upload-supporting-documents)
-- [Step 5: Pay the Application Fee](#step-5-pay-the-application-fee)
-- [Step 6: Submit and Track Your Application](#step-6-submit-and-track-your-application)
-- [Step 7: Receive Visa Approval](#step-7-receive-visa-approval)
-- [Step 8: Enter Colombia and Register](#step-8-enter-colombia-and-register)
+- [Step 1 - Prepare Your Documents](#step-1-prepare-your-documents)
+- [Step 2 - Create Your Colombian Immigration Account](#step-2-create-your-colombian-immigration-account)
+- [Step 3 - Complete the Visa Application Form](#step-3-complete-the-visa-application-form)
+- [Step 4 - Upload Supporting Documents](#step-4-upload-supporting-documents)
+- [Step 5 - Pay the Application Fee](#step-5-pay-the-application-fee)
+- [Step 6 - Submit and Track Your Application](#step-6-submit-and-track-your-application)
+- [Step 7 - Receive Visa Approval](#step-7-receive-visa-approval)
+- [Step 8 - Enter Colombia and Register](#step-8-enter-colombia-and-register)
 - [Banking and Finance for Developers](#banking-and-finance-for-developers)
 - [Healthcare Options](#healthcare-options)
 - [Tax Considerations](#tax-considerations)
@@ -54,7 +54,7 @@ Before starting your application, confirm you meet these requirements:
 3. Health insurance: Coverage valid in Colombia with minimum $50,000 in medical evacuation and hospitalization
 4. Passport validity: At least 6 months beyond your intended stay
 
-Step 1: Prepare Your Documents
+Step 1 - Prepare Your Documents
 
 Gather these documents before creating your online application:
 
@@ -90,7 +90,7 @@ Additional Documents
 - Passport-sized photo (white background)
 - Criminal background check (apostilled from your country of residence)
 
-Step 2: Create Your Colombian Immigration Account
+Step 2 - Create Your Colombian Immigration Account
 
 Navigate to the Colombian immigration portal at migracioncolombia.gov.co:
 
@@ -100,7 +100,7 @@ Navigate to the Colombian immigration portal at migracioncolombia.gov.co:
 
 Use Chrome or Firefox with English or Spanish interface. The system works best with these browsers.
 
-Step 3: Complete the Visa Application Form
+Step 3 - Complete the Visa Application Form
 
 Once logged in:
 
@@ -115,7 +115,7 @@ Tips for the application form:
 - Provide a valid email address, the consulate uses this for all communication
 - Under "activity to perform," specify software development or remote tech work
 
-Step 4: Upload Supporting Documents
+Step 4 - Upload Supporting Documents
 
 Upload PDFs of all required documents through the portal. Each file must be under 5MB:
 
@@ -134,7 +134,7 @@ documents = {
 
 Ensure documents are either in Spanish or accompanied by official translations.
 
-Step 5: Pay the Application Fee
+Step 5 - Pay the Application Fee
 
 The visa application fee is approximately $52 USD (subject to change). Payment methods include:
 
@@ -143,7 +143,7 @@ The visa application fee is approximately $52 USD (subject to change). Payment m
 
 Save your payment receipt, you'll need it for reference.
 
-Step 6: Submit and Track Your Application
+Step 6 - Submit and Track Your Application
 
 After completing all sections:
 
@@ -157,7 +157,7 @@ Processing timelines:
 - Peak season (December-March): Up to 45 business days
 - Some applications require additional documentation, extending processing time
 
-Step 7: Receive Visa Approval
+Step 7 - Receive Visa Approval
 
 You'll receive an email notification when your visa is approved. The approval document is an electronic entry permit. Options for obtaining your visa stamp:
 
@@ -166,7 +166,7 @@ You'll receive an email notification when your visa is approved. The approval do
 
 The entry permit is valid for 90 days from the approval date, you must enter Colombia within this window.
 
-Step 8: Enter Colombia and Register
+Step 8 - Enter Colombia and Register
 
 Upon arrival in Colombia:
 

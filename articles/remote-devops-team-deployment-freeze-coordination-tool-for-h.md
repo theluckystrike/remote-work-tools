@@ -42,19 +42,19 @@ During the freeze period, implement a daily brief check-in. This does not need t
 
 If something requires deployment during the freeze, the request should follow a clear escalation path. The team lead or senior engineer should approve all exceptions. Document these approvals so the entire team can see what was authorized and why.
 
-Practical Workflow Example: Pre-Holiday Freeze
+Practical Workflow Example - Pre-Holiday Freeze
 
 A remote DevOps team spanning US and European time zones follows this workflow before December holidays:
 
-Two weeks before the freeze: The team lead announces the freeze dates in the team channel and adds them to the shared calendar. All non-critical feature branches are merged or marked for post-holiday work.
+Two weeks before the freeze - The team lead announces the freeze dates in the team channel and adds them to the shared calendar. All non-critical feature branches are merged or marked for post-holiday work.
 
-One week before the freeze: The team completes all planned deployments for the cycle. Any in-progress migrations are paused or completed. Team members update their out-of-office schedules so others know their availability.
+One week before the freeze - The team completes all planned deployments for the cycle. Any in-progress migrations are paused or completed. Team members update their out-of-office schedules so others know their availability.
 
-First day of freeze: The team lead posts a confirmation that the freeze is active. Monitoring dashboards are reviewed to confirm all systems are healthy. Rollback documentation is shared as a reminder.
+First day of freeze - The team lead posts a confirmation that the freeze is active. Monitoring dashboards are reviewed to confirm all systems are healthy. Rollback documentation is shared as a reminder.
 
-During the freeze: Monitoring continues as normal, but no routine deployments occur. Only critical incidents that affect customer experience are eligible for hotfix deployment, and those require approval from two team members.
+During the freeze - Monitoring continues as normal, but no routine deployments occur. Only critical incidents that affect customer experience are eligible for hotfix deployment, and those require approval from two team members.
 
-After the freeze: A synchronous meeting or recorded walkthrough covers what was deferred and prioritizes it for the first week back.
+After the freeze - A synchronous meeting or recorded walkthrough covers what was deferred and prioritizes it for the first week back.
 
 This workflow keeps the team aligned without requiring constant check-ins during time off.
 

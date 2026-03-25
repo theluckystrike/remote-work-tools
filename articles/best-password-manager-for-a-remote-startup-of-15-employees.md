@@ -31,7 +31,7 @@ Table of Contents
 - [Risk Mitigation During Migration](#risk-mitigation-during-migration)
 - [Red Flags in Password Manager Selection](#red-flags-in-password-manager-selection)
 - [Making the Decision](#making-the-decision)
-- [Incident Response: Credential Breach Checklist](#incident-response-credential-breach-checklist)
+- [Incident Response - Credential Breach Checklist](#incident-response-credential-breach-checklist)
 
 What Remote Startups Actually Need
 
@@ -108,16 +108,16 @@ Security Considerations
 
 The password manager becomes a single point of failure, that's intentional. Protecting it properly means:
 
-Master Password Hygiene: Require 20+ character master passwords. Use a passphrase approach:
+Master Password Hygiene - Require 20+ character master passwords. Use a passphrase approach:
 
 ```bash
 Generate a memorable passphrase
 head -c 256 /dev/urandom | base64 | cut -d' ' -f1 | tr '[:upper:]' '[:lower:]'
 ```
 
-Two-Factor Authentication: Every team member should enable 2FA. Hardware keys (YubiKey, Solo) provide the strongest protection, but TOTP apps work well.
+Two-Factor Authentication - Every team member should enable 2FA. Hardware keys (YubiKey, Solo) provide the strongest protection, but TOTP apps work well.
 
-Session Management: Configure session timeouts appropriate to your team's work patterns. Remote teams often benefit from longer sessions with strong device-level protections.
+Session Management - Configure session timeouts appropriate to your team's work patterns. Remote teams often benefit from longer sessions with strong device-level protections.
 
 Common Pitfalls to Avoid
 
@@ -261,13 +261,13 @@ Avoid these pitfalls:
 
 No encryption evidence: If a provider doesn't explain their encryption architecture clearly, question whether they understand zero-knowledge systems.
 
-Proprietary encryption: Open standards (AES-256) are more trustworthy than claims of "military-grade custom encryption."
+Proprietary encryption - Open standards (AES-256) are more trustworthy than claims of "military-grade custom encryption."
 
-No audit logs: For a team, audit logs are essential. If the provider doesn't offer them, you lack visibility.
+No audit logs - For a team, audit logs are essential. If the provider doesn't offer them, you lack visibility.
 
-Unclear ownership transitions: What happens to credentials when someone leaves? Can you rapidly revoke access? Poor answers here create future problems.
+Unclear ownership transitions - What happens to credentials when someone leaves? Can you rapidly revoke access? Poor answers here create future problems.
 
-No CLI for developers: If your development team can't integrate with their workflow, adoption fails. CLI support is non-negotiable for technical teams.
+No CLI for developers - If your development team can't integrate with their workflow, adoption fails. CLI support is non-negotiable for technical teams.
 
 Making the Decision
 
@@ -277,7 +277,7 @@ Whatever you choose, the key is commitment. A password manager only works when e
 
 Start the evaluation with your team's specific workflow. Identify which integrations matter most, test the CLI if developers will drive adoption, and pick the solution that fits your culture while meeting security requirements.
 
-Incident Response: Credential Breach Checklist
+Incident Response - Credential Breach Checklist
 
 If a credential is exposed, follow this process:
 

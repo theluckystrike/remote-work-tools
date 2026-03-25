@@ -32,11 +32,11 @@ For teams using GitHub, the native dependency graph provides a solid starting po
 .github/dependabot.yml
 version: 2
 updates:
-  - package-ecosystem: "npm"
+  - package-environment: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
-  - package-ecosystem: "pip"
+  - package-environment: "pip"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -173,7 +173,7 @@ spec:
 
 Backstage's service catalog captures not just dependencies but also ownership, APIs, documentation links, and runbook locations. The platform integrates with GitHub, providing a centralized hub where remote team members discover how services connect without asking in chat.
 
-The primary drawback: Backstage requires significant infrastructure to deploy and maintain. Smaller teams may find the overhead excessive compared to simpler alternatives.
+The primary drawback - Backstage requires significant infrastructure to deploy and maintain. Smaller teams may find the overhead excessive compared to simpler alternatives.
 
 Dependency Track for Security and License Compliance
 
@@ -239,8 +239,8 @@ Regardless of tool choice, establish processes that work across time zones:
 
 ```python
 user_service.py
-Dependencies: See docs/architecture/system-dependencies.yaml
-Related ADRs: docs/adr/004-user-service-architecture.md
+Dependencies - See docs/architecture/system-dependencies.yaml
+Related ADRs - docs/adr/004-user-service-architecture.md
 class UserService:
     """Handles user management and authentication.
 
@@ -274,7 +274,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -286,7 +286,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

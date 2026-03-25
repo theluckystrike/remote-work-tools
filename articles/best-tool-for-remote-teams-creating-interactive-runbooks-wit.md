@@ -21,13 +21,13 @@ Table of Contents
 
 - [What Makes Runbooks Interactive](#what-makes-runbooks-interactive)
 - [Choosing the Right Tool for Your Team](#choosing-the-right-tool-for-your-team)
-- [Practical Example: Database Migration Runbook](#practical-example-database-migration-runbook)
+- [Practical Example - Database Migration Runbook](#practical-example-database-migration-runbook)
 - [Terminal Integration Patterns](#terminal-integration-patterns)
 - [Security Considerations](#security-considerations)
 - [Building a Runbook Library](#building-a-runbook-library)
 - [Measuring Runbook Effectiveness](#measuring-runbook-effectiveness)
-- [Runbook Platform Comparison: Tools for Interactive Execution](#runbook-platform-comparison-tools-for-interactive-execution)
-- [Emergency: Production Database Under Load](#emergency-production-database-under-load)
+- [Runbook Platform Comparison - Tools for Interactive Execution](#runbook-platform-comparison-tools-for-interactive-execution)
+- [Emergency - Production Database Under Load](#emergency-production-database-under-load)
 - [Steps](#steps)
 - [Rollback (if needed)](#rollback-if-needed)
 - [Runbook Template Library for Common Operations](#runbook-template-library-for-common-operations)
@@ -64,7 +64,7 @@ Remote teams need visibility into who created and modified runbooks, version his
 
 Runbooks should capture command output and make it available for debugging. Tools that display terminal output inline help team members verify each step before proceeding.
 
-Practical Example: Database Migration Runbook
+Practical Example - Database Migration Runbook
 
 Here's how an interactive runbook might look for a database migration scenario:
 
@@ -182,7 +182,7 @@ Track these metrics to improve your runbook practice:
 
 Regular review sessions where team members walk through runbooks together catch outdated steps and identify gaps.
 
-Runbook Platform Comparison: Tools for Interactive Execution
+Runbook Platform Comparison - Tools for Interactive Execution
 
 Several platforms offer different approaches to making runbooks interactive. Each balances convenience, security, and team needs differently.
 
@@ -256,9 +256,9 @@ spec:
 
 Runwayml provides a web interface where authorized users can fill in variables, review the command sequence, and execute with audit logging. Output streams in real-time to the browser with color-coded success/failure markers.
 
-Strengths: Built-in approval workflows, variable validation, timeout enforcement, audit logging stored for 90 days.
+Strengths - Built-in approval workflows, variable validation, timeout enforcement, audit logging stored for 90 days.
 
-Limitations: Requires Runwayml-specific YAML syntax; limited to their execution infrastructure; pricing scales with execution minutes.
+Limitations - Requires Runwayml-specific YAML syntax; limited to their execution infrastructure; pricing scales with execution minutes.
 
 Teleport ($0 enterprise, self-hosted)
 
@@ -297,9 +297,9 @@ tctl exec -f /tmp/runbook.yaml -p VERSION=v2.3.1 -p NAMESPACE=production
 
 Teleport maintains an audit log of every command execution with user identity, timestamp, and full session recording. Teams can replay sessions for incident investigation or compliance audits.
 
-Strengths: Zero-trust architecture, session recording with playback, works with any SSH-accessible server, self-hosted option eliminates cloud dependency.
+Strengths - Zero-trust architecture, session recording with playback, works with any SSH-accessible server, self-hosted option eliminates cloud dependency.
 
-Limitations: Steeper learning curve; requires infrastructure changes (agent deployment on servers); free tier limited to single cluster.
+Limitations - Steeper learning curve; requires infrastructure changes (agent deployment on servers); free tier limited to single cluster.
 
 GitHub Actions (Free-$21/month for enterprise runners)
 
@@ -331,10 +331,10 @@ jobs:
       - name: Acknowledge incident
         run: |
           echo "Incident ID: ${{ github.event.inputs.incident_id }}"
-          echo "Severity: ${{ github.event.inputs.severity }}"
+          echo "Severity - ${{ github.event.inputs.severity }}"
           # Notify incident management system
           curl -X POST https://incidents.example.com/api/acknowledge \
-            -H "Authorization: Bearer ${{ secrets.INCIDENT_API_KEY }}" \
+            -H "Authorization - Bearer ${{ secrets.INCIDENT_API_KEY }}" \
             -d '{
               "incident_id": "${{ github.event.inputs.incident_id }}",
               "acknowledged_by": "${{ github.actor }}",
@@ -358,7 +358,7 @@ jobs:
 In your runbook documentation, embed a button users click to execute:
 
 ```markdown
-Emergency: Production Database Under Load
+Emergency - Production Database Under Load
 
 If the production database exceeds 85% CPU for 5+ minutes:
 
@@ -373,11 +373,11 @@ After triggering, provide:
 - Severity level (critical if customer-facing)
 ```
 
-Strengths: Free for public repos; integrates with GitHub-based workflows; natural audit trail through GitHub Actions logs.
+Strengths - Free for public repos; integrates with GitHub-based workflows; natural audit trail through GitHub Actions logs.
 
-Limitations: Execution limited to GitHub infrastructure; less suitable for real-time interactive terminals.
+Limitations - Execution limited to GitHub infrastructure; less suitable for real-time interactive terminals.
 
-Self-Hosted Approach: Markdown + Script Generation
+Self-Hosted Approach - Markdown + Script Generation
 
 For maximum control and minimal external dependencies:
 
@@ -450,7 +450,7 @@ pg_isready -h $DB_HOST -p $DB_PORT
 psql -h $DB_HOST -U postgres -d postgres -c "SELECT version();"
 ```
 
-Expected output: Should return PostgreSQL version without connection errors.
+Expected output - Should return PostgreSQL version without connection errors.
 
 2. Create Backup
 
@@ -468,7 +468,7 @@ This command may take 5-30 minutes depending on database size.
 psql -h $DB_HOST -U $DB_USER -d $DB_NAME < migrations/001_add_users_table.sql
 ```
 
-Success: Table created, no errors in output.
+Success - Table created, no errors in output.
 
 4. Verify Schema Changes
 
@@ -494,10 +494,10 @@ Runbook Template Library for Common Operations
 Deployment Runbook
 
 ```yaml
-Title: Blue-Green Deployment
-Purpose: Deploy new version with zero downtime
-Estimated Duration: 15 minutes
-Rollback Duration: 5 minutes
+Title - Blue-Green Deployment
+Purpose - Deploy new version with zero downtime
+Estimated Duration - 15 minutes
+Rollback Duration - 5 minutes
 
 Steps:
  1. Health Check Green (Standby) Environment
@@ -510,16 +510,16 @@ Steps:
  8. Route 100% to Green
  9. Decommission Blue Environment
 
-Rollback Trigger: Error rate > 0.1% or response time > 2s
-Rollback Action: Immediately route 100% back to Blue
+Rollback Trigger - Error rate > 0.1% or response time > 2s
+Rollback Action - Immediately route 100% back to Blue
 ```
 
 Incident Response Runbook
 
 ```yaml
-Title: Production API Outage Response
-Purpose: Rapid diagnosis and remediation
-Estimated Duration: 10 minutes to mitigation
+Title - Production API Outage Response
+Purpose - Rapid diagnosis and remediation
+Estimated Duration - 10 minutes to mitigation
 
 Steps:
  1. Page on-call engineer
@@ -534,15 +534,15 @@ Steps:
  7. Create incident timeline
  8. Schedule post-mortem
 
-Escalation: If unresolved after 5 minutes, page incident commander
+Escalation - If unresolved after 5 minutes, page incident commander
 ```
 
 Onboarding Runbook
 
 ```yaml
-Title: New Developer Environment Setup
-Purpose: Bootstrap development environment
-Estimated Duration: 45 minutes
+Title - New Developer Environment Setup
+Purpose - Bootstrap development environment
+Estimated Duration - 45 minutes
 
 Steps:
  1. Clone repository with SSH keys
@@ -554,7 +554,7 @@ Steps:
  7. Run test suite
  8. Create personal feature branch
 
-Validation: Developer can run tests locally without errors
+Validation - Developer can run tests locally without errors
 ```
 
 Integrating Runbooks into Incident Response Workflow

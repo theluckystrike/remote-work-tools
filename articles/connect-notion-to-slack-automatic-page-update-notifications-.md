@@ -20,15 +20,15 @@ Connecting Notion to Slack for automatic page update notifications keeps your te
 Table of Contents
 
 - [Why Connect Notion to Slack](#why-connect-notion-to-slack)
-- [Method 1: Notion's Native Slack Integration](#method-1-notions-native-slack-integration)
-- [Method 2: Custom API Solution for Advanced Control](#method-2-custom-api-solution-for-advanced-control)
-- [Method 3: Zapier or Make for No-Code Automation](#method-3-zapier-or-make-for-no-code-automation)
+- [Method 1 - Notion's Native Slack Integration](#method-1-notions-native-slack-integration)
+- [Method 2 - Custom API Solution for Advanced Control](#method-2-custom-api-solution-for-advanced-control)
+- [Method 3 - Zapier or Make for No-Code Automation](#method-3-zapier-or-make-for-no-code-automation)
 - [Choosing the Right Method](#choosing-the-right-method)
 - [Best Practices for Implementation](#best-practices-for-implementation)
 - [Advanced Filtering for Notification Precision](#advanced-filtering-for-notification-precision)
 - [Slack Message Formatting for Better Notifications](#slack-message-formatting-for-better-notifications)
 - [Deployment Architecture for Production](#deployment-architecture-for-production)
-- [Cost Comparison: Which Method Makes Sense?](#cost-comparison-which-method-makes-sense)
+- [Cost Comparison - Which Method Makes Sense?](#cost-comparison-which-method-makes-sense)
 - [Troubleshooting Common Issues](#troubleshooting-common-issues)
 
 Why Connect Notion to Slack
@@ -37,7 +37,7 @@ Notion serves as a central knowledge base for many remote teams, but staying cur
 
 The benefits extend beyond convenience. Engineering teams tracking RFCs, product teams monitoring specifications, and operations teams managing runbooks all benefit from real-time awareness of document changes. Rather than asking "has this been updated?" repeatedly, team members receive notifications automatically.
 
-Method 1: Notion's Native Slack Integration
+Method 1 - Notion's Native Slack Integration
 
 Notion provides built-in Slack connectivity that handles basic notification scenarios without writing code.
 
@@ -54,7 +54,7 @@ Setup Steps:
 
 This method works well for monitoring individual pages or databases. However, it lacks flexibility for complex notification rules or cross-page automation.
 
-Method 2: Custom API Solution for Advanced Control
+Method 2 - Custom API Solution for Advanced Control
 
 When you need granular control over which updates trigger notifications, building a custom integration using the Notion API provides the most flexibility.
 
@@ -64,11 +64,11 @@ Prerequisites:
 - Slack webhook URL or Slack Bot Token
 - A server or serverless function to run the polling script
 
-Step 1: Set Up Notion Integration
+Step 1 - Set Up Notion Integration
 
 Create a new integration at notion.so/my-integrations and copy the internal integration token. Share the target database or pages with your integration by opening each page, clicking the three-dot menu, selecting Connect to, and choosing your integration.
 
-Step 2: Create the Notification Script
+Step 2 - Create the Notification Script
 
 This Python script polls Notion for recent page updates and sends notifications to Slack:
 
@@ -136,7 +136,7 @@ if __name__ == "__main__":
     main()
 ```
 
-Step 3: Deploy and Run
+Step 3 - Deploy and Run
 
 Install dependencies:
 
@@ -156,7 +156,7 @@ python notifier.py
 
 For production deployment, consider running this as a containerized service on AWS Lambda, Google Cloud Functions, or a simple VPS with systemd.
 
-Method 3: Zapier or Make for No-Code Automation
+Method 3 - Zapier or Make for No-Code Automation
 
 If writing code feels excessive for your needs, automation platforms like Zapier or Make provide visual interfaces for connecting Notion to Slack.
 
@@ -186,9 +186,9 @@ For simple use cases monitoring a handful of pages, Notion's native integration 
 
 Consider these factors when choosing:
 
-- Volume: How many pages need monitoring?
-- Filtering: Do you need to filter updates by author, property, or content?
-- Latency: How quickly must notifications arrive?
+- Volume - How many pages need monitoring?
+- Filtering - Do you need to filter updates by author, property, or content?
+- Latency - How quickly must notifications arrive?
 - Cost: Budget constraints may favor the native integration or custom solution over platform subscriptions
 
 Best Practices for Implementation
@@ -325,7 +325,7 @@ volumes:
 
 Use Redis to track which updates you've already notified on, preventing duplicate messages during restarts.
 
-Cost Comparison: Which Method Makes Sense?
+Cost Comparison - Which Method Makes Sense?
 
 | Method | Setup Time | Monthly Cost | Best For | Scalability |
 |--------|-----------|----------|----------|-------------|
@@ -338,7 +338,7 @@ For a team with 20+ pages needing monitoring, the custom API approach ($10/month
 
 Troubleshooting Common Issues
 
-Problem: Duplicate notifications appearing
+Problem - Duplicate notifications appearing
 ```python
 Add deduplication logic
 def deduplicate_updates(updates):
@@ -350,12 +350,12 @@ def deduplicate_updates(updates):
     return list(seen.values())
 ```
 
-Problem: Notifications arriving 5-10 minutes late
+Problem - Notifications arriving 5-10 minutes late
 - Increase polling frequency (but watch API rate limits)
 - Use webhooks instead of polling (Notion doesn't support yet, but check for new features)
 - Deploy multiple instances of your notifier script for redundancy
 
-Problem: Slack token expiring and stopping notifications
+Problem - Slack token expiring and stopping notifications
 - Use long-lived bot tokens from Slack workspace settings
 - Implement token refresh logic if using OAuth
 - Monitor for 401 errors and alert operators

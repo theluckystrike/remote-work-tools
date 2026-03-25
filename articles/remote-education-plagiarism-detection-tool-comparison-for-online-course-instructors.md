@@ -22,11 +22,11 @@ Table of Contents
 
 - [Understanding Detection Methods](#understanding-detection-methods)
 - [Quick Comparison](#quick-comparison)
-- [Turnitin: The Enterprise Standard](#turnitin-the-enterprise-standard)
-- [Copyscape: Web Content Focus](#copyscape-web-content-focus)
-- [Grammarly: Integrated Writing Assistance](#grammarly-integrated-writing-assistance)
-- [Copyleaks: AI-Powered Detection](#copyleaks-ai-powered-detection)
-- [Quetext: Developer-Friendly API](#quetext-developer-friendly-api)
+- [Turnitin - The Enterprise Standard](#turnitin-the-enterprise-standard)
+- [Copyscape - Web Content Focus](#copyscape-web-content-focus)
+- [Grammarly - Integrated Writing Assistance](#grammarly-integrated-writing-assistance)
+- [Copyleaks - AI-Powered Detection](#copyleaks-ai-powered-detection)
+- [Quetext - Developer-Friendly API](#quetext-developer-friendly-api)
 - [Tool Comparison Summary](#tool-comparison-summary)
 - [Building a Custom Integration](#building-a-custom-integration)
 - [Setting Similarity Thresholds](#setting-similarity-thresholds)
@@ -49,7 +49,7 @@ Quick Comparison
 | API Access | Available | Available |
 | Automation | Workflow support | Workflow support |
 
-Turnitin: The Enterprise Standard
+Turnitin - The Enterprise Standard
 
 Turnitin dominates academic institutions with over 2 billion archived papers. Their Feedback Studio provides rubric-based grading, peer review workflows, and detailed similarity reports.
 
@@ -91,7 +91,7 @@ Turnitin's primary advantage is database depth. Their student paper repository i
 
 The limitations are integration friction and pricing. Turnitin's API requires LTI (Learning Tools Interoperability) integration, which adds complexity if you're building a custom platform rather than using Canvas or Blackboard. For independent instructors or smaller platforms, the contract structure makes it impractical.
 
-Copyscape: Web Content Focus
+Copyscape - Web Content Focus
 
 Copyscape excels at detecting copied web content. Their API returns match percentages and source URLs, making it useful for verifying original submissions.
 
@@ -127,7 +127,7 @@ Copyscape offers pay-per-check pricing at $0.03 per 100 words, making it accessi
 
 Copyscape is best used as a supplementary check rather than a primary academic tool. It catches students who copy blog posts, Wikipedia articles, or other public web content, but it has no student paper database. Pair it with Copyleaks or Turnitin for full coverage.
 
-Grammarly: Integrated Writing Assistance
+Grammarly - Integrated Writing Assistance
 
 Grammarly's plagiarism checker comes bundled with their writing feedback tools. While not as complete as Turnitin for academic work, it provides real-time checking during the writing process.
 
@@ -158,7 +158,7 @@ Grammarly's pricing starts at $12/month for individuals, with institutional plan
 
 The key use case for Grammarly in an educational context is assignment drafting, not post-submission checking. Instructors who require students to draft within a Grammarly-embedded editor can see the writing process and verify that work was written, not pasted. This is a different detection approach from similarity scoring.
 
-Copyleaks: AI-Powered Detection
+Copyleaks - AI-Powered Detection
 
 Copyleaks uses AI to detect paraphrased content and translated plagiarism. Their API supports multiple languages and provides detailed source attribution.
 
@@ -206,7 +206,7 @@ Copyleaks offers flexible pricing: $9.99/month for 500 pages, or custom enterpri
 
 Copyleaks is particularly strong for multilingual courses. If your platform serves students in multiple languages, Copyleaks can detect cross-language plagiarism. for example, a student who translates a Spanish article and submits it as original English work. This capability is rare and meaningfully differentiates it from English-only tools.
 
-Quetext: Developer-Friendly API
+Quetext - Developer-Friendly API
 
 Quetext provides a straightforward API with good documentation. Their DeepSearch technology combines fuzzy matching with citation detection.
 
@@ -321,13 +321,13 @@ Selecting Your Tool
 
 Consider these factors when choosing a plagiarism detection solution:
 
-Database Size: Turnitin offers the largest academic database. For web content detection, Copyscape leads. Copyleaks provides good coverage across both.
+Database Size - Turnitin offers the largest academic database. For web content detection, Copyscape leads. Copyleaks provides good coverage across both.
 
-Integration Complexity: Copyscape and Copyleaks offer REST APIs with clear documentation. Turnitin requires more complex setup and institutional agreements.
+Integration Complexity - Copyscape and Copyleaks offer REST APIs with clear documentation. Turnitin requires more complex setup and institutional agreements.
 
-Budget: Copyscape and Quetext offer pay-per-use models ideal for smaller operations. Turnitin requires annual contracts suited for institutions.
+Budget - Copyscape and Quetext offer pay-per-use models ideal for smaller operations. Turnitin requires annual contracts suited for institutions.
 
-Real-Time Feedback: Grammarly provides the best writing-time feedback. For post-submission analysis, Turnitin and Copyleaks offer more detailed reporting.
+Real-Time Feedback - Grammarly provides the best writing-time feedback. For post-submission analysis, Turnitin and Copyleaks offer more detailed reporting.
 
 The right tool depends on your specific requirements. Many platforms use multiple tools for coverage, Copyscape for web content, Turnitin for academic papers, and Copyleaks for AI-detected paraphrasing.
 

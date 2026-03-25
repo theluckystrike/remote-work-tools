@@ -223,9 +223,9 @@ The built-in shelf concept lets you group multiple books under a department or p
 
 Maintenance Workflow
 
-Assign page ownership: Every page has one owner. Notion: Person property. Confluence: label `owner::alice`. Outline: tag with `@alice`.
+Assign page ownership - Every page has one owner. Notion - Person property. Confluence - label `owner::alice`. Outline - tag with `@alice`.
 
-Quarterly review cycle: Run stale-page scripts every 13 weeks. File GitHub issues for each stale page assigned to the owner:
+Quarterly review cycle - Run stale-page scripts every 13 weeks. File GitHub issues for each stale page assigned to the owner:
 
 ```bash
 gh issue create \
@@ -235,7 +235,7 @@ gh issue create \
   --label "documentation,maintenance"
 ```
 
-Archive before deleting: Move to an `Archive` collection with a deprecation notice:
+Archive before deleting - Move to an `Archive` collection with a deprecation notice:
 
 ```markdown
 > DEPRECATED as of 2026-03-22. See [replacement page] for current information.
@@ -247,7 +247,7 @@ Automation Across All Tools
 
 Regardless of which wiki platform you use, these automation patterns apply universally.
 
-Ownership enforcement in CI: If your documentation lives in a Git repository (or syncs to one), add a CODEOWNERS check that verifies every new file has an assigned owner:
+Ownership enforcement in CI - If your documentation lives in a Git repository (or syncs to one), add a CODEOWNERS check that verifies every new file has an assigned owner:
 
 ```bash
 #!/bin/bash
@@ -263,7 +263,7 @@ done
 
 Dead link detection should run weekly, not just on PR. Internal tools move, APIs deprecate, and team members leave. A link to `https://internal.company.com/old-service` returns 404 the same week the team decommissions that service. catching it in a weekly scan prevents the next person to read that page from hitting a dead end.
 
-Version-aware documentation: When your codebase has multiple maintained versions, tag documentation with the version it applies to and automate alerts when a new version ships without a corresponding doc update:
+Version-aware documentation - When your codebase has multiple maintained versions, tag documentation with the version it applies to and automate alerts when a new version ships without a corresponding doc update:
 
 ```yaml
 .github/workflows/docs-version-check.yml

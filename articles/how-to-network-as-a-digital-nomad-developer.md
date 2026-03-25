@@ -28,13 +28,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Digital Nomad Networking Mindset
+Step 1 - The Digital Nomad Networking Mindset
 
 Traditional networking assumes physical proximity. You attend meetups, grab coffee with colleagues, and run into people at conferences. As a digital nomad, you replace geographic convenience with asynchronous communication and intentional community building.
 
 Your network becomes your anchor. Developers who thrive as nomads treat networking as an ongoing practice rather than a transactional activity. Quality connections with a dozen engaged professionals prove more valuable than hundreds of superficial contacts.
 
-Step 2: Finding Your Nomad Developer Community
+Step 2 - Finding Your Nomad Developer Community
 
 Coworking Spaces and Coliving
 
@@ -58,7 +58,7 @@ Remote OK includes aDiscord community where developers share tips about location
 
 GitHub Community discussions can connect you with maintainers and contributors in your specialty.
 
-Step 3: Technical Projects as Networking Vehicles
+Step 3 - Technical Projects as Networking Vehicles
 
 Contributing to open source serves dual purposes: it builds your portfolio while connecting you with developers worldwide. Start with projects that align with your interests and expertise.
 
@@ -80,7 +80,7 @@ Organize a local hackathon or workshop when you arrive in a new city. Even a sma
 
 Offer to teach something you know well, TypeScript patterns, Docker optimization, or testing strategies. Teaching establishes credibility and attracts developers interested in similar topics.
 
-Step 4: Use Your Existing Network
+Step 4 - Use Your Existing Network
 
 Reactivating Dormant Connections
 
@@ -94,7 +94,7 @@ Alumni Networks
 
 Your bootcamp or university alumni network often spans globally. Many alumni groups organize local meetups or happy hours. Search for "[your school] alumni [city]" on LinkedIn or Facebook.
 
-Step 5: Conference Strategy for Nomads
+Step 5 - Conference Strategy for Nomads
 
 Conferences provide concentrated networking opportunities. As a digital nomad, you can attend events in different regions throughout the year.
 
@@ -114,7 +114,7 @@ Approach conferences with a clear goal: meet three specific types of people. Bef
 
 Follow up within 24 hours while memories remain fresh. A personalized message referencing your conversation increases response rates significantly.
 
-Step 6: Async-First Relationship Building
+Step 6 - Async-First Relationship Building
 
 Not all networking happens in real time. Async communication lets you maintain relationships across time zones and schedules.
 
@@ -145,7 +145,7 @@ Sharing Your Journey
 
 Document your nomad experience through blog posts, Twitter threads, or YouTube videos. Sharing your experiences attracts like-minded developers and creates natural conversation starters.
 
-Step 7: Build Your Local Reputation
+Step 7 - Build Your Local Reputation
 
 When staying in a city long-term, focus on becoming a known quantity in the local tech scene:
 
@@ -154,23 +154,23 @@ When staying in a city long-term, focus on becoming a known quantity in the loca
 3. Help organize events, volunteering creates deeper connections
 4. Mentor local junior developers who appreciate guidance from experienced engineers
 
-Step 8: Common Networking Mistakes to Avoid
+Step 8 - Common Networking Mistakes to Avoid
 
-Being too transactional: Nobody enjoys being approached only when you need something. Lead with value before asking for favors.
+Being too transactional - Nobody enjoys being approached only when you need something. Lead with value before asking for favors.
 
-Ignoring local communities: Don't only connect with other nomads. Local developers understand the regional tech scene and can provide insider knowledge.
+Ignoring local communities - Don't only connect with other nomads. Local developers understand the regional tech scene and can provide insider knowledge.
 
-Overcommitting: It's better to maintain ten strong relationships than a hundred weak ones. Be realistic about your capacity.
+Overcommitting - It's better to maintain ten strong relationships than a hundred weak ones. Be realistic about your capacity.
 
-Neglecting async etiquette: When reaching across time zones, be respectful of others' schedules. Leave clear, complete messages that don't require immediate responses.
+Neglecting async etiquette - When reaching across time zones, be respectful of others' schedules. Leave clear, complete messages that don't require immediate responses.
 
 Practical Next Steps
 
 Start with one community this week. Join their Discord, introduce yourself in the introductions channel, and engage with at least one discussion daily. Within a month, you'll have genuine connections rather than just memberships.
 
-Remember: networking as a digital nomad requires more intentionality than traditional office-based networking. Your efforts compound over time. The connections you build today become the collaborators, mentors, and friends who enrich your career and travels for years to come.
+Remember - networking as a digital nomad requires more intentionality than traditional office-based networking. Your efforts compound over time. The connections you build today become the collaborators, mentors, and friends who enrich your career and travels for years to come.
 
-Step 9: Slack Automation with Workflows and Webhooks
+Step 9 - Slack Automation with Workflows and Webhooks
 
 Automating Slack notifications reduces manual status updates and keeps teams synchronized without extra meetings.
 
@@ -214,7 +214,7 @@ Schedule via cron:
 
 Webhooks are simpler than bot tokens for one-way notifications. Use Slack's Block Kit Builder (api.slack.com/block-kit/building) to design rich message layouts.
 
-Step 10: Slack Search Operators for Remote Teams
+Step 10 - Slack Search Operators for Remote Teams
 
 Advanced search operators cut through Slack noise to find decisions, files, and context quickly.
 
@@ -229,7 +229,7 @@ Slack CLI for programmatic search (requires Slack CLI installed):
 slack search messages --query "from:@alice deployment" --channel engineering
 
 Export search results via API:
-curl -s "https://slack.com/api/search.messages"   -H "Authorization: Bearer xoxp-YOUR-TOKEN"   --data-urlencode "query=deployment hotfix in:#engineering"   --data-urlencode "count=20" | python3 -m json.tool | grep -A3 '"text"'
+curl -s "https://slack.com/api/search.messages"   -H "Authorization - Bearer xoxp-YOUR-TOKEN"   --data-urlencode "query=deployment hotfix in:#engineering"   --data-urlencode "count=20" | python3 -m json.tool | grep -A3 '"text"'
 ```
 
 Bookmark searches you run repeatedly as saved searches in the Slack sidebar. This is faster than rebuilding the query each time for recurring audit needs.

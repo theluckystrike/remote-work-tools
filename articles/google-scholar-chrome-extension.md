@@ -30,7 +30,7 @@ Unpaywall. Finds legally free PDF versions of papers. Works on Scholar results a
 
 Open Access Button. Similar to Unpaywall, but also lets you request a copy from the author directly when no open access version exists.
 
-Connected Papers. Build visual citation graphs. Not a Scholar extension per se, but integrates via DOI and helps map the research landscape around a paper.
+Connected Papers. Build visual citation graphs. Not a Scholar extension per se, but integrates via DOI and helps map the research field around a paper.
 
 Building a Custom Scholar Extension with Manifest V3
 
@@ -86,7 +86,7 @@ Manifest V3 Configuration
 }
 ```
 
-Content Script: Extracting Paper Metadata
+Content Script - Extracting Paper Metadata
 
 The content script runs on Scholar pages and extracts structured metadata from search results:
 
@@ -222,7 +222,7 @@ document.getElementById('export-csv').addEventListener('click', async () => {
   if (response?.success) {
     status.textContent = 'CSV downloaded successfully'
   } else {
-    status.textContent = 'Error: are you on a Scholar results page?'
+    status.textContent = 'Error - are you on a Scholar results page?'
   }
 })
 
@@ -268,7 +268,7 @@ Manual loading for development:
 3. Click "Load unpacked"
 4. Select your extension directory
 
-For production: package as .crx or submit to Chrome Web Store
+For production - package as .crx or submit to Chrome Web Store
 ```
 
 Handling Scholar's Dynamic Content

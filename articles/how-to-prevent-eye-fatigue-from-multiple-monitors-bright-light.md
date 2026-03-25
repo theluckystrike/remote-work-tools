@@ -21,21 +21,21 @@ Reduce monitor brightness to match ambient lighting, use blue light filters, and
 Table of Contents
 
 - [Understanding the Problem](#understanding-the-problem)
-- [Solution 1: Reduce Monitor Brightness Systematically](#solution-1-reduce-monitor-brightness-systematically)
-- [Solution 2: Use Night Light and Blue Light Filters](#solution-2-use-night-light-and-blue-light-filters)
-- [Solution 3: Optimize Monitor Positioning and Lighting](#solution-3-optimize-monitor-positioning-and-lighting)
-- [Solution 4: Implement the 20-20-20 Rule](#solution-4-implement-the-20-20-20-rule)
-- [Solution 5: Use Anti-Glare Solutions](#solution-5-use-anti-glare-solutions)
-- [Solution 6: Configure Color Temperature Settings](#solution-6-configure-color-temperature-settings)
-- [Solution 7: Take Regular Breaks](#solution-7-take-regular-breaks)
-- [Solution 8: Ergonomic Additions for Eye Health](#solution-8-ergonomic-additions-for-eye-health)
+- [Solution 1 - Reduce Monitor Brightness Systematically](#solution-1-reduce-monitor-brightness-systematically)
+- [Solution 2 - Use Night Light and Blue Light Filters](#solution-2-use-night-light-and-blue-light-filters)
+- [Solution 3 - Optimize Monitor Positioning and Lighting](#solution-3-optimize-monitor-positioning-and-lighting)
+- [Solution 4 - Implement the 20-20-20 Rule](#solution-4-implement-the-20-20-20-rule)
+- [Solution 5 - Use Anti-Glare Solutions](#solution-5-use-anti-glare-solutions)
+- [Solution 6 - Configure Color Temperature Settings](#solution-6-configure-color-temperature-settings)
+- [Solution 7 - Take Regular Breaks](#solution-7-take-regular-breaks)
+- [Solution 8 - Ergonomic Additions for Eye Health](#solution-8-ergonomic-additions-for-eye-health)
 - [Quick Setup Checklist](#quick-setup-checklist)
 - [Multi-Monitor Calibration Workflow](#multi-monitor-calibration-workflow)
 - [Eye Strain Symptom Tracking](#eye-strain-symptom-tracking)
 - [Baseline (Before Changes)](#baseline-before-changes)
-- [After Change 1: Reduce brightness to 60%](#after-change-1-reduce-brightness-to-60)
-- [After Change 2: Add blue light filter (Night Shift)](#after-change-2-add-blue-light-filter-night-shift)
-- [After Change 3: Implement 20-20-20 rule](#after-change-3-implement-20-20-20-rule)
+- [After Change 1 - Reduce brightness to 60%](#after-change-1-reduce-brightness-to-60)
+- [After Change 2 - Add blue light filter (Night Shift)](#after-change-2-add-blue-light-filter-night-shift)
+- [After Change 3 - Implement 20-20-20 rule](#after-change-3-implement-20-20-20-rule)
 - [Gaming Monitor vs Productivity Monitor for Multi-Screen Setup](#gaming-monitor-vs-productivity-monitor-for-multi-screen-setup)
 - [Automated Brightness Adjustment Script](#automated-brightness-adjustment-script)
 - [Three-Monitor Positioning Ergonomics](#three-monitor-positioning-ergonomics)
@@ -54,7 +54,7 @@ The American Optometric Association estimates that up to 90% of people who work 
 
 A developer working a standard eight-hour day across three monitors is exposing their eyes to the equivalent of staring at roughly 90,000 candelas of cumulative screen luminance, more than many people encounter in outdoor environments. The visual system is simply not evolved for this level of sustained artificial light exposure.
 
-Solution 1: Reduce Monitor Brightness Systematically
+Solution 1 - Reduce Monitor Brightness Systematically
 
 The most immediate fix is reducing your monitor brightness to match your ambient lighting. Here's a Python script to help you calculate optimal brightness:
 
@@ -94,7 +94,7 @@ for monitors in [2, 3, 4]:
 
 This script helps you understand the relationship between your environment and optimal brightness settings. For a practical calibration, use your phone's light meter app to measure ambient lux in your workspace at different times of day, then set brightness accordingly. Most remote workers find their workspace lux drops from around 500 during midday to under 200 by late afternoon as natural light fades, which means your brightness settings should shift downward as the day progresses.
 
-Solution 2: Use Night Light and Blue Light Filters
+Solution 2 - Use Night Light and Blue Light Filters
 
 Most operating systems now include built-in blue light reduction:
 
@@ -118,7 +118,7 @@ For multi-monitor setups on macOS, Night Shift applies to all connected displays
 
 Third-party tools like f.lux and Iris offer per-monitor control and more granular color temperature curves, which matters when your setup mixes an older TN panel with newer IPS monitors that have different baseline emissions.
 
-Solution 3: Optimize Monitor Positioning and Lighting
+Solution 3 - Optimize Monitor Positioning and Lighting
 
 The physical arrangement of your monitors relative to ambient light sources matters significantly:
 
@@ -131,7 +131,7 @@ The physical arrangement of your monitors relative to ambient light sources matt
 
 For three-monitor setups specifically, the outer monitors should be angled inward at 15-30 degrees to reduce the lateral eye movement required to scan between them. Wider angles force your eyes to track across a larger horizontal arc, accelerating fatigue. If your outer monitors are large, consider moving them slightly farther back than the center display to normalize the apparent size difference and keep all content at roughly the same focal distance.
 
-Solution 4: Implement the 20-20-20 Rule
+Solution 4 - Implement the 20-20-20 Rule
 
 Regardless of your monitor setup, follow the 20-20-20 rule:
 
@@ -161,7 +161,7 @@ if __name__ == "__main__":
 
 The 20-20-20 rule works because it forces the ciliary muscles in your eye to relax. These muscles contract to focus on close objects and can fatigue from sustained contraction just like any other muscle. Periodic relaxation prevents cumulative tension buildup that leads to headaches and blurry vision by mid-afternoon.
 
-Solution 5: Use Anti-Glare Solutions
+Solution 5 - Use Anti-Glare Solutions
 
 Reduce reflected glare from multiple monitors:
 
@@ -172,7 +172,7 @@ Reduce reflected glare from multiple monitors:
 
 For remote workers in rooms with south-facing windows, glare is a significant problem during winter months when the sun sits lower in the sky and shines directly onto desk surfaces and screens. Cellular blinds that diffuse rather than block light maintain room brightness while eliminating direct glare, which is usually a better tradeoff than heavy curtains that make the room dim and require higher monitor brightness to compensate.
 
-Solution 6: Configure Color Temperature Settings
+Solution 6 - Configure Color Temperature Settings
 
 For a three-monitor setup, ensure consistent color temperature across all displays:
 
@@ -195,7 +195,7 @@ monitor_settings:
 
 Color temperature inconsistency between monitors is a major but often overlooked driver of eye fatigue. When your primary monitor is calibrated to 6500K and your secondary is running at its factory default of 9300K, your visual system constantly adapts to the temperature difference as your gaze shifts. This adaptation is involuntary and taxing. Use a colorimeter tool like the Datacolor Spyder or X-Rite i1Display to calibrate all monitors to a common target.
 
-Solution 7: Take Regular Breaks
+Solution 7 - Take Regular Breaks
 
 Beyond the 20-20-20 rule, incorporate longer breaks:
 
@@ -205,7 +205,7 @@ Beyond the 20-20-20 rule, incorporate longer breaks:
 
 Remote workers often struggle more with break discipline than office workers because there are no natural interruptions, no hallway conversations, no commute to the kitchen, no colleague stopping by. Build breaks into your calendar as recurring blocks. Treat a 5-minute hourly break like a standing meeting that cannot be cancelled.
 
-Solution 8: Ergonomic Additions for Eye Health
+Solution 8 - Ergonomic Additions for Eye Health
 
 Beyond the screen itself, the broader ergonomic environment affects eye strain:
 
@@ -289,47 +289,47 @@ Identify which specific setup changes most improve your eye comfort:
 Eye Strain Tracking Log
 
 Baseline (Before Changes)
-Date: March 15, 2026
-Setup: 3 monitors, 100% brightness, no filters
+Date - March 15, 2026
+Setup - 3 monitors, 100% brightness, no filters
 End-of-day symptoms:
   - Headache: moderate (4/10)
   - Eye dryness: moderate (4/10)
   - Blurred vision: mild (2/10)
   - General fatigue: moderate (4/10)
 
-After Change 1: Reduce brightness to 60%
-Date: March 17, 2026
+After Change 1 - Reduce brightness to 60%
+Date - March 17, 2026
 End-of-day symptoms:
-  - Headache: mild (2/10)  ← Improved!
+  - Headache - mild (2/10)  ← Improved!
   - Eye dryness: moderate (4/10)
   - Blurred vision: mild (2/10)
   - General fatigue: mild (2/10)  ← Improved!
 
-After Change 2: Add blue light filter (Night Shift)
-Date: March 19, 2026
+After Change 2 - Add blue light filter (Night Shift)
+Date - March 19, 2026
 End-of-day symptoms:
   - Headache: mild (2/10)
   - Eye dryness: mild (3/10)  ← Improved!
   - Blurred vision: mild (2/10)
   - General fatigue: mild (2/10)
 
-After Change 3: Implement 20-20-20 rule
-Date: March 24, 2026
+After Change 3 - Implement 20-20-20 rule
+Date - March 24, 2026
 End-of-day symptoms:
-  - Headache: minimal (1/10)  ← Major improvement!
+  - Headache - minimal (1/10)  ← Major improvement!
   - Eye dryness: mild (2/10)  ← Improved!
   - Blurred vision: minimal (1/10)
   - General fatigue: minimal (1/10)  ← Major improvement!
 
-Conclusion: Brightness + blue light + regular breaks = 75% symptom reduction
-Best ROI changes: brightness reduction and 20-20-20 rule
+Conclusion - Brightness + blue light + regular breaks = 75% symptom reduction
+Best ROI changes - brightness reduction and 20-20-20 rule
 ```
 
 Track symptoms to identify which changes actually help your specific situation.
 
 Gaming Monitor vs Productivity Monitor for Multi-Screen Setup
 
-Counter-intuitive: gaming monitors sometimes better for eye health:
+Counter-intuitive - gaming monitors sometimes better for eye health:
 
 | Specification | Gaming Monitor | Productivity Monitor | Eye Health Winner |
 |---|---|---|---|

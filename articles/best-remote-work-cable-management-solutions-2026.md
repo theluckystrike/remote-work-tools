@@ -46,59 +46,59 @@ Cable Tray Systems
 
 Cable trays (also called cable baskets) mount under or above desks and hold cables in bundled runs.
 
-Best: IKEA Signum Cable Tray
+Best - IKEA Signum Cable Tray
 
-Price: $24.99 USD
+Price - $24.99 USD
 
-Dimensions: 70 cm wide (27.5 inches), 9 cm depth
+Dimensions - 70 cm wide (27.5 inches), 9 cm depth
 
-Installation: Screws or adhesive. Requires 2-3 wall anchors or a sturdy mounting surface under the desk.
+Installation - Screws or adhesive. Requires 2-3 wall anchors or a sturdy mounting surface under the desk.
 
 Signum is the cheapest entry point to cable organization. It's shallow (cables run alongside the tray, not inside), but functional. Real-world use: fits 8-10 cables comfortably. Does not handle large barrel connectors well (power supplies that are 2+ inches wide).
 
-Install time: 15 minutes. Wall-mounted above monitor or desk-mounted underneath.
+Install time - 15 minutes. Wall-mounted above monitor or desk-mounted underneath.
 
-Weakness: adhesive fails over time. Screw mounting is more reliable but requires a stud or heavy-duty wall anchors.
+Weakness - adhesive fails over time. Screw mounting is more reliable but requires a stud or heavy-duty wall anchors.
 
 Best budget option for basic setups. Ideal for renters who can't use heavy screws.
 
-Mid-Range: Bluelounge CableTie
+Mid-Range - Bluelounge CableTie
 
-Price: $34.99 USD
+Price - $34.99 USD
 
-Dimensions: 16.5 inches wide, 3 inches deep (cable basket depth)
+Dimensions - 16.5 inches wide, 3 inches deep (cable basket depth)
 
-Installation: Screws or adhesive. Clips to desk edge or wall-mounts.
+Installation - Screws or adhesive. Clips to desk edge or wall-mounts.
 
 CableTie is deeper than Signum, so cables sit inside the tray rather than alongside it. Better containment. Handles larger connectors. Comes in multiple colors (white, black, aluminum).
 
-Real-world: fits 10-12 cables. The rubber feet prevent scratching desk surfaces. Solid metal construction.
+Real-world - fits 10-12 cables. The rubber feet prevent scratching desk surfaces. Solid metal construction.
 
-Install time: 10 minutes. Mounting hardware included.
+Install time - 10 minutes. Mounting hardware included.
 
-Strength: deeper tray means neater appearance. Removable clips work with any desk material.
+Strength - deeper tray means neater appearance. Removable clips work with any desk material.
 
-Weakness: pricier than Signum. Less aesthetically minimal if you prefer a thin profile.
+Weakness - pricier than Signum. Less aesthetically minimal if you prefer a thin profile.
 
 Best for visible desks where cable neatness matters. Worth the premium.
 
-Premium: Humanscale Cable Management Kit
+Premium - Humanscale Cable Management Kit
 
-Price: $89-129 USD depending on size
+Price - $89-129 USD depending on size
 
-Dimensions: 24-48 inches width options, industrial aluminum construction
+Dimensions - 24-48 inches width options, industrial aluminum construction
 
-Installation: Professional mounting recommended. Requires wall studs or serious anchors.
+Installation - Professional mounting recommended. Requires wall studs or serious anchors.
 
 Humanscale is a workspace design company. Their cable trays are overkill for home offices but bulletproof. Aluminum frame, rubber-lined interior, supports 20+ cables easily.
 
-Real-world: these are what corporate offices use. Over-engineered for home setups but unbreakable. Modular, you can extend them later.
+Real-world - these are what corporate offices use. Over-engineered for home setups but unbreakable. Modular, you can extend them later.
 
-Install time: 30-45 minutes (or hire an installer, ~$100-150 labor).
+Install time - 30-45 minutes (or hire an installer, ~$100-150 labor).
 
-Strength: professional appearance. Expandable. Handles any cable type.
+Strength - professional appearance. Expandable. Handles any cable type.
 
-Weakness: expensive. Overspecified for home use. Overkill unless you have 20+ cables.
+Weakness - expensive. Overspecified for home use. Overkill unless you have 20+ cables.
 
 Only if your desk is ultra-professional or you have an extreme cable situation.
 
@@ -106,43 +106,43 @@ Raceways (Cable Concealment Tubes)
 
 Raceways are enclosed tubes that hide cables completely. Cables run inside the tube rather than in an open basket.
 
-Best: D-Line Mini Cable Raceway
+Best - D-Line Mini Cable Raceway
 
-Price: $15-20 USD (per 3-meter/10-foot section)
+Price - $15-20 USD (per 3-meter/10-foot section)
 
-Dimensions: 20mm x 10mm cross-section (cable opening)
+Dimensions - 20mm x 10mm cross-section (cable opening)
 
-Installation: Adhesive backing or small screws. Mounts to walls or desk underside. Comes in white, black, grey.
+Installation - Adhesive backing or small screws. Mounts to walls or desk underside. Comes in white, black, grey.
 
 D-Line is the consumer standard. Cables feed through the tube end. Simple plastic construction but durable.
 
-Real-world: holds 4-6 cables per meter depending on cable gauge. Can chain multiple sections. Curved corner pieces available.
+Real-world - holds 4-6 cables per meter depending on cable gauge. Can chain multiple sections. Curved corner pieces available.
 
-Install time: 5 minutes (adhesive) or 15 minutes (screws).
+Install time - 5 minutes (adhesive) or 15 minutes (screws).
 
-Strength: completely hides cables. Cleanest aesthetic. Affordable.
+Strength - completely hides cables. Cleanest aesthetic. Affordable.
 
-Weakness: cables are harder to access (you pull the whole bundle to swap one cable). Not ideal if you rearrange frequently. Adhesive can fail if desk is oily/dusty.
+Weakness - cables are harder to access (you pull the whole bundle to swap one cable). Not ideal if you rearrange frequently. Adhesive can fail if desk is oily/dusty.
 
 Best for stable setups where you don't need to access cables often. Ideal for behind-monitor cable runs.
 
-Alternative: Legrand On-Q Cable Raceway
+Alternative - Legrand On-Q Cable Raceway
 
-Price: $25-35 USD per section
+Price - $25-35 USD per section
 
-Dimensions: 32mm x 25mm (larger opening)
+Dimensions - 32mm x 25mm (larger opening)
 
-Installation: Screw mount (more reliable than adhesive). Comes with snap-on covers.
+Installation - Screw mount (more reliable than adhesive). Comes with snap-on covers.
 
 On-Q is more professional than D-Line. Larger opening means easier cable insertion/removal. Metal-reinforced plastic.
 
-Real-world: holds 8-10 cables. Snap covers make it look finished even with thick cables. Easier to modify later.
+Real-world - holds 8-10 cables. Snap covers make it look finished even with thick cables. Easier to modify later.
 
-Install time: 20 minutes.
+Install time - 20 minutes.
 
-Strength: easier access than D-Line. Professional appearance. More durable mounting.
+Strength - easier access than D-Line. Professional appearance. More durable mounting.
 
-Weakness: pricier. More visible than a concealment tube if the cover is off.
+Weakness - pricier. More visible than a concealment tube if the cover is off.
 
 For setups with frequent cable changes or professional appearance. Worth the extra cost.
 
@@ -150,43 +150,43 @@ Desk Grommets (Desktop Pass-Through)
 
 A grommet is a hole in your desk with a ring insert that lets cables pass through. Divides cables above/below desktop.
 
-Best: Staples Desk Grommet Kit
+Best - Staples Desk Grommet Kit
 
-Price: $18-25 USD
+Price - $18-25 USD
 
-Dimensions: 2.5-inch diameter opening (typically)
+Dimensions - 2.5-inch diameter opening (typically)
 
-Installation: Drill a 2.5-inch hole in desk. Insert rubber grommet ring. Cables thread through.
+Installation - Drill a 2.5-inch hole in desk. Insert rubber grommet ring. Cables thread through.
 
 Staples kits come with the grommet ring and a drill bit. If you don't own a drill, rent or borrow one (~$20 rental cost, 1-hour job).
 
-Real-world: fits 6-8 cables per grommet. You can install 2-3 grommets on a desk for a super-clean look.
+Real-world - fits 6-8 cables per grommet. You can install 2-3 grommets on a desk for a super-clean look.
 
-Install time: 30 minutes if drilling, 5 minutes if hole pre-drilled.
+Install time - 30 minutes if drilling, 5 minutes if hole pre-drilled.
 
-Strength: cables are out of sight. Clean desktop aesthetic. Cables don't tangle.
+Strength - cables are out of sight. Clean desktop aesthetic. Cables don't tangle.
 
-Weakness: requires drilling. Can't be undone (hole remains). Not suitable for rental desks without permission.
+Weakness - requires drilling. Can't be undone (hole remains). Not suitable for rental desks without permission.
 
 Best for permanent home office setups where you own the desk. Creates the cleanest cable aesthetic.
 
-Premium: Herman Miller Freestanding Cable Management
+Premium - Herman Miller Freestanding Cable Management
 
-Price: $150+ USD
+Price - $150+ USD
 
-Dimensions: Standalone tower with internal cable channels
+Dimensions - Standalone tower with internal cable channels
 
-Installation: No drilling. Sits on floor or desktop.
+Installation - No drilling. Sits on floor or desktop.
 
 Herman Miller makes freestanding cable hubs,  a structured box that organizes cables. Over-engineered but eliminates the need to drill.
 
-Real-world: holds 15-20 cables. Aesthetically matches high-end desks. Modular add-ons available.
+Real-world - holds 15-20 cables. Aesthetically matches high-end desks. Modular add-ons available.
 
-Install time: 10 minutes unboxing and positioning.
+Install time - 10 minutes unboxing and positioning.
 
-Strength: no drilling required. Professional appearance. Expandable.
+Strength - no drilling required. Professional appearance. Expandable.
 
-Weakness: takes up space. Expensive. Unnecessary for most home setups.
+Weakness - takes up space. Expensive. Unnecessary for most home setups.
 
 Only for high-end desk setups or if drilling is not an option.
 
@@ -204,7 +204,7 @@ Comparison Table
 
 Real-World Installation Guide
 
-Scenario 1: Desk-Mounted Tray (Most Common)
+Scenario 1 - Desk-Mounted Tray (Most Common)
 
 1. Locate cable entry point (usually behind monitor or desk edge).
 2. Measure the width you need to cover.
@@ -212,9 +212,9 @@ Scenario 1: Desk-Mounted Tray (Most Common)
 4. Bundle cables with velcro ties (never zip ties, you need flexibility).
 5. Label cables with tape at both ends so you know which is which.
 
-Time: 20 minutes. Cost: $35-50 total (tray + velcro ties).
+Time - 20 minutes. Cost - $35-50 total (tray + velcro ties).
 
-Scenario 2: Raceway Along Wall
+Scenario 2 - Raceway Along Wall
 
 1. Plan the route from power source to monitor/device.
 2. Use a level to mark the line.
@@ -222,9 +222,9 @@ Scenario 2: Raceway Along Wall
 4. Thread cables through. Feed extras at one end for future adjustments.
 5. Snap on the cover.
 
-Time: 25 minutes. Cost: $15-40 depending on length.
+Time - 25 minutes. Cost - $15-40 depending on length.
 
-Scenario 3: Desk Grommet
+Scenario 3 - Desk Grommet
 
 1. Mark the hole location on the underside of the desk. Mark at least 4 inches from any desk edge.
 2. Use a 2.5-inch hole saw. Drill slowly to prevent splintering.
@@ -232,11 +232,11 @@ Scenario 3: Desk Grommet
 4. Insert the grommet ring.
 5. Feed cables through from below.
 
-Time: 30-45 minutes. Cost: $20-25. Requires drill.
+Time - 30-45 minutes. Cost: $20-25. Requires drill.
 
 Cost-Benefit Breakdown
 
-No cable management: Free. Desk looks chaotic. Troubleshooting takes 3x longer.
+No cable management - Free. Desk looks chaotic. Troubleshooting takes 3x longer.
 
 Budget setup (Signum + velcro ties): $30. 15 minutes install. Eliminates 80% of visible clutter.
 
@@ -266,7 +266,7 @@ Typical home office (monitor, laptop, external drive, headphones): Bluelounge Ca
 
 Complex setup (dual monitors, docking station, multiple peripherals): Bluelounge CableTie ($35) + Staples grommet ($25) + On-Q raceway ($35). Total $95. Takes 1 hour. Best appearance.
 
-Rental apartment: IKEA Signum with adhesive ($25). Non-destructive, can take it with you.
+Rental apartment - IKEA Signum with adhesive ($25). Non-destructive, can take it with you.
 
 Verdict
 
@@ -274,7 +274,7 @@ Cable management isn't just aesthetics, it's functional. Organize cables once, a
 
 Start with a desk tray ($25-35) and velcro ties ($8). If your setup grows, add a raceway ($20-35) for the monitor run. If you own your desk, add a grommet ($20) to hide power cables underneath.
 
-Total investment: $50-75 for a professional-looking setup that takes 1 hour to install. Worth it.
+Total investment - $50-75 for a professional-looking setup that takes 1 hour to install. Worth it.
 
 Frequently Asked Questions
 

@@ -24,10 +24,10 @@ Table of Contents
 - [Building Your School Bus Time Block System](#building-your-school-bus-time-block-system)
 - [Automating Your Calendar Workflow](#automating-your-calendar-workflow)
 - [Protecting Your Time Blocks from Meeting Invites](#protecting-your-time-blocks-from-meeting-invites)
-- [Handling Exceptions: Snow Days and Early Release](#handling-exceptions-snow-days-and-early-release)
+- [Handling Exceptions - Snow Days and Early Release](#handling-exceptions-snow-days-and-early-release)
 - [Building a School-Year Productivity Tracker](#building-a-school-year-productivity-tracker)
 - [Seasonal Adjustments](#seasonal-adjustments)
-- [Advanced: Integrated Family Calendar](#advanced-integrated-family-calendar)
+- [Advanced - Integrated Family Calendar](#advanced-integrated-family-calendar)
 - [Team Communication Around School Schedule](#team-communication-around-school-schedule)
 - [Measuring Your Success](#measuring-your-success)
 - [The Compound Effect](#the-compound-effect)
@@ -42,7 +42,7 @@ Time blocking around school bus times works because it creates hard boundaries. 
 
 Building Your School Bus Time Block System
 
-Step 1: Map Your Fixed Points
+Step 1 - Map Your Fixed Points
 
 Start by identifying your non-negotiable time anchors. For most parents with school-age children, these include:
 
@@ -53,7 +53,7 @@ Start by identifying your non-negotiable time anchors. For most parents with sch
 
 In your calendar, create recurring events for these anchors. Treat them with the same respect you'd give a meeting with your CEO.
 
-Step 2: Create Deep Work Blocks
+Step 2 - Create Deep Work Blocks
 
 With your anchors mapped, carve out deep work blocks between them. If your children leave at 7:45 AM and return at 3:15 PM, you have approximately 7 hours of potential focus time, minus lunch, meetings, and transitions.
 
@@ -68,7 +68,7 @@ A typical block structure might look like:
 3:00 PM - 3:15 PM: Transition buffer (prepare for kids arriving)
 ```
 
-Step 3: Use Buffer Zones Strategically
+Step 3 - Use Buffer Zones Strategically
 
 The 15 minutes before and after bus times serve critical functions. The pre-bus buffer lets you transition from work mode to parent mode without stress. The post-bus buffer acknowledges that children need attention immediately upon arrival, coding while managing a hungry child rarely works well.
 
@@ -157,7 +157,7 @@ Set expectations proactively. Send a message to your team explaining your schedu
 
 > Our school schedule creates predictable focus windows. I protect 7:45-9:30 AM and 10:00 AM-3:15 PM for deep work. I'm happy to meet outside those hours or async for non-urgent items.
 
-Handling Exceptions: Snow Days and Early Release
+Handling Exceptions - Snow Days and Early Release
 
 The school bus schedule isn't perfectly predictable. Snow days, early release, and teacher in-service days disrupt even the best time blocking system.
 
@@ -267,9 +267,9 @@ Summer:
 - Day camps: Different schedule, shorter blocks
 - Plan backup childcare: Essential for maintaining income
 
-Mitigation strategy: Build 15-20% capacity buffer during unpredictable months (December, April, May).
+Mitigation strategy - Build 15-20% capacity buffer during unpredictable months (December, April, May).
 
-Advanced: Integrated Family Calendar
+Advanced - Integrated Family Calendar
 
 Share calendar visibility to maintain family coordination:
 
@@ -335,7 +335,7 @@ Track your productivity during school bus windows using a simple metric:
 
 After 2-3 weeks, you'll have data to optimize your blocks. Maybe morning hours work better for code reviews while afternoons suit debugging. Adjust accordingly.
 
-Goal: Achieve 28-32 deep work hours during school weeks, which compounds to 140-160 hours monthly, competitive with traditional office workers despite the constraint.
+Goal - Achieve 28-32 deep work hours during school weeks, which compounds to 140-160 hours monthly, competitive with traditional office workers despite the constraint.
 
 The Compound Effect
 

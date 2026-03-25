@@ -21,7 +21,7 @@ Working from home during summer months presents a unique challenge: maintaining 
 Table of Contents
 
 - [Prerequisites](#prerequisites)
-- [Advanced Thermal Analysis: The Thermal Envelope](#advanced-thermal-analysis-the-thermal-envelope)
+- [Advanced Thermal Analysis - The Thermal Envelope](#advanced-thermal-analysis-the-thermal-envelope)
 - [When to Give Up and Use AC](#when-to-give-up-and-use-ac)
 - [Troubleshooting](#troubleshooting)
 
@@ -37,7 +37,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Your Thermal Environment
+Step 1 - Understand Your Thermal Environment
 
 Before implementing solutions, you need to understand where the heat originates. Run a simple script to monitor temperature trends throughout the day:
 
@@ -69,21 +69,21 @@ except ImportError:
 
 This helps identify peak heat hours so you can schedule demanding tasks during cooler periods. Most offices see temperatures spike between 11 AM and 4 PM.
 
-Step 2: Strategic Setup: Positioning and Airflow
+Step 2 - Strategic Setup: Positioning and Airflow
 
 The cheapest cooling starts with positioning. Heat rises, so if possible, set up your workspace in the lowest floor of your home. Basements naturally stay 5-10°C cooler than upper floors.
 
 Create cross-ventilation by positioning a fan opposite an open window:
 
 ```bash
-Quick check: verify your window positions
+Quick check - verify your window positions
 On macOS, use built-in tools
 open -a Weather
 ```
 
 The goal is drawing cooler outside air across your workspace. Place a box fan in your window frame, facing outward to pull hot air out, then position a second fan to direct fresh air toward your desk. This creates a continuous airflow loop that can reduce perceived temperature by 3-5°C.
 
-Step 3: Smart Monitoring with Home Automation
+Step 3 - Smart Monitoring with Home Automation
 
 If you have a Raspberry Pi or similar single-board computer, build a temperature monitoring system that alerts you when conditions become suboptimal:
 
@@ -123,7 +123,7 @@ Run this as a cron job every 15 minutes
 
 Set up automated actions like turning on fans when temperature exceeds a threshold using Home Assistant or similar platforms.
 
-Step 4: DIY Evaporative Cooling
+Step 4 - DIY Evaporative Cooling
 
 Evaporative cooling works by passing air over water-soaked material. While commercial swamp coolers cost money, you can create a basic version:
 
@@ -143,7 +143,7 @@ For a more permanent solution, build a personal evaporative cooler:
 
 Cut a hole in the container lid for the fan, line the bottom with damp paper towels, place ice packs on top, and position the fan to draw air through the wet material. This can reduce incoming air temperature by 4-7°C in dry climates.
 
-Step 5: Optimizing Your Development Environment
+Step 5 - Optimizing Your Development Environment
 
 Your hardware generates significant heat. Reduce this thermal load:
 
@@ -153,14 +153,14 @@ Your hardware generates significant heat. Reduce this thermal load:
 - Consider water cooling if your desktop runs hot
 
 ```bash
-Linux: Check current throttling status
+Linux - Check current throttling status
 cat /sys/class/thermal/thermal_zone*/temp
 
 View CPU frequency
 watch -n 1 "grep MHz /proc/cpuinfo"
 ```
 
-Step 6: Cooling Your Workspace at Night
+Step 6 - Cooling Your Workspace at Night
 
 Night cooling can pre-cool your office for the next day:
 
@@ -169,7 +169,7 @@ Night cooling can pre-cool your office for the next day:
 3. Close blinds and curtains before sunset to block heat gain
 4. Freeze water bottles and place them in front of fans during day
 
-Step 7: When All Else Fails: The Emergency Setup
+Step 7 - When All Else Fails: The Emergency Setup
 
 For extreme heat days, create a dedicated cooling station:
 
@@ -178,7 +178,7 @@ For extreme heat days, create a dedicated cooling station:
 - Take breaks at this station during the hottest hours
 - Use a cooling vest (available from workwear suppliers)
 
-Step 8: Measuring Success
+Step 8 - Measuring Success
 
 Track your productivity alongside temperature readings:
 
@@ -189,7 +189,7 @@ Track your productivity alongside temperature readings:
 | 28-30°C | Noticeable decline |
 | 31°C+ | Significant impact |
 
-Advanced Thermal Analysis: The Thermal Envelope
+Advanced Thermal Analysis - The Thermal Envelope
 
 Your office's thermal characteristics determine which cooling strategies will be most effective. Assess these factors:
 
@@ -232,7 +232,7 @@ print(f"Equivalent to {result['equivalent_hair_dryers']} running hair dryers")
 
 Understanding your thermal load helps prioritize interventions. If windows account for 60% of your heat gain, reflective window treatments will have outsized impact compared to other cooling methods.
 
-Step 9: External Heat Dissipation: Pushing Heat Outside
+Step 9 - External Heat Dissipation: Pushing Heat Outside
 
 Traditional cooling brings cold air in. Heat dissipation focuses on actively removing heat from your workspace:
 
@@ -243,7 +243,7 @@ Evaporative cooling efficiency varies by climate: Evaporative cooling works by e
 
 If you live in humid climates, evaporative cooling provides minimal benefit. Focus instead on ventilation and direct cooling methods.
 
-Thermosiphon ventilation: This passive method uses temperature differences to drive air circulation without fans:
+Thermosiphon ventilation - This passive method uses temperature differences to drive air circulation without fans:
 
 1. Position intake vents low (cold air is heavier)
 2. Position exhaust vents high (hot air rises)
@@ -252,7 +252,7 @@ Thermosiphon ventilation: This passive method uses temperature differences to dr
 
 You can measure effectiveness by checking humidity recovery time. After ventilating overnight, how quickly does indoor temperature rise during the day? If it takes 4+ hours to heat back up to 26°C, your thermal mass is functioning well.
 
-Step 10: Behavioral Strategies: Scheduling Work Around Temperature
+Step 10 - Behavioral Strategies: Scheduling Work Around Temperature
 
 Rather than fighting heat, adapt your schedule to temperature patterns:
 
@@ -260,30 +260,30 @@ Compile-intensive work during cool hours: Compilation and rendering jobs generat
 
 ```bash
 Schedule heavy CPU tasks for cool hours
-Run in crontab: 0 2 * * * /path/to/compile.sh
+Run in crontab - 0 2 * * * /path/to/compile.sh
 Execute at 2 AM when ambient temp is lowest
 
-For macOS: Use launchd instead
-Create: ~/Library/LaunchAgents/com.user.nightcompile.plist
+For macOS - Use launchd instead
+Create - ~/Library/LaunchAgents/com.user.nightcompile.plist
 ```
 
-Stagger focus work: Deep focus work (code review, design work) requires cognitive energy. Morning work when cool is more productive than afternoon work at peak temperature. Shift routine tasks (email, documentation) to hot afternoon hours.
+Stagger focus work - Deep focus work (code review, design work) requires cognitive energy. Morning work when cool is more productive than afternoon work at peak temperature. Shift routine tasks (email, documentation) to hot afternoon hours.
 
 Take active breaks in cooler zones: If your office is unavoidably warm, identify the coolest area in your home (basement, north-facing room) and spend 10 minutes every 2 hours there. Even brief cooling breaks restore cognitive function.
 
-Step 11: Hardware-Specific Cooling
+Step 11 - Hardware-Specific Cooling
 
 Different devices generate different thermal profiles:
 
-GPU-intensive work: GPUs run much hotter than CPUs. If you're running machine learning workloads, CUDA compilation, or rendering:
+GPU-intensive work - GPUs run much hotter than CPUs. If you're running machine learning workloads, CUDA compilation, or rendering:
 - Isolate GPU compute to specific machines if possible
 - Reduce precision requirements (FP32 → FP16) to lower heat output
 - Schedule heavy GPU work for overnight/cool hours
 - Consider cloud-based rendering to avoid local heat generation
 
-Laptop vs desktop trade-offs: Laptops concentrate heat in a small volume, creating uncomfortable workstation heat. Desktops with proper airflow dissipate heat more effectively. If possible, use an external display and detach your laptop to improve ventilation around your primary work area.
+Laptop vs desktop trade-offs - Laptops concentrate heat in a small volume, creating uncomfortable workstation heat. Desktops with proper airflow dissipate heat more effectively. If possible, use an external display and detach your laptop to improve ventilation around your primary work area.
 
-Step 12: Measuring and Tracking: Building a Thermal Baseline
+Step 12 - Measuring and Tracking: Building a Thermal Baseline
 
 Once you implement cooling strategies, measure their effectiveness:
 

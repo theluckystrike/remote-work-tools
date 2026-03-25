@@ -33,7 +33,7 @@ Table of Contents
 - [Weekly OKR Update Template](#weekly-okr-update-template)
 - [Weekly OKR Update - [Name]](#weekly-okr-update-name)
 - [Avoiding the "Weight of OKRs" Problem](#avoiding-the-weight-of-okrs-problem)
-- [Feedback Loop: Quarterly Review Meeting](#feedback-loop-quarterly-review-meeting)
+- [Feedback Loop - Quarterly Review Meeting](#feedback-loop-quarterly-review-meeting)
 
 Structuring OKRs for a 12-Person Product Team
 
@@ -48,7 +48,7 @@ For a product team of 12, you probably have 2-3 sub-teams (engineering, design, 
 Sample OKR Structure
 
 ```
-Company Objective: Launch Mobile App v2.0 with 50% Retention
+Company Objective - Launch Mobile App v2.0 with 50% Retention
 
   Team: Engineering
     KR1: Reduce app load time from 3.2s to under 1.5s
@@ -99,8 +99,8 @@ Use a shared doc or Slack thread for weekly updates:
 ```
 Week of [Date] OKR Updates
 
-Objective: [Name]
-Owner: @person
+Objective - [Name]
+Owner - @person
 
 | Key Result | Target | Current | Progress | Notes |
 |------------|--------|---------|----------|-------|
@@ -108,8 +108,8 @@ Owner: @person
 | KR2 | 50 | 30 | 60% | Need design support |
 | KR3 | 10 | 2 | 20% | Blocked - waiting on API |
 
-Blockers: [Any impediments]
-Help needed: [Specific requests]
+Blockers - [Any impediments]
+Help needed - [Specific requests]
 ```
 
 This format takes under 10 minutes per person to complete and keeps the entire team informed without synchronous meetings.
@@ -198,37 +198,37 @@ A 12-person team has an advantage here: small enough that direct communication c
 
 Detailed Implementation Timeline for Your First OKR Cycle
 
-Week 1: Setup and Planning Kickoff
+Week 1 - Setup and Planning Kickoff
 - Send team a calendar invite for planning sessions (async and sync components)
 - Share the OKR framework guide with everyone
 - Create shared workspace (Notion, Airtable, or Confluence)
 - Ask each team member to reflect on personal growth goals for the quarter
 
-Week 2: Company-Level OKR Definition
+Week 2 - Company-Level OKR Definition
 - Leadership team (CEO, product, engineering leads) drafts company OKRs
 - Document the strategic thinking behind each objective
 - Share draft in team channel for async feedback (48-hour window)
 - Refine based on feedback and publish final company OKRs
 
-Week 3: Team and Individual OKR Drafting
+Week 3 - Team and Individual OKR Drafting
 - Engineering team meets (sync) to brainstorm OKRs supporting company goals
 - Product team drafts their OKRs in parallel
 - Each team creates 2-3 draft OKRs with associated key results
 - Publish drafts for cross-team review
 
-Week 4: Alignment and Finalization
+Week 4 - Alignment and Finalization
 - Review for dependencies and conflicts
 - Sync meeting with all teams to discuss any cross-team concerns
 - Document aligned OKRs in final form
 - Each individual claims ownership of specific key results
 
-Weeks 5-12: Execution with Weekly Updates
+Weeks 5-12 - Execution with Weekly Updates
 - Friday: OKR owner posts weekly update on progress (15 minutes per person)
 - Monday morning: Leadership reviews updates and identifies blockers
 - Tuesday: Address any blockers or strategic adjustments needed
 - Continue throughout the quarter
 
-Week 13: Quarterly Review and Scoring
+Week 13 - Quarterly Review and Scoring
 - Each OKR owner prepares a retrospective (5 pages max)
 - Team meeting to discuss results and learnings
 - Score each KR on the 0.0-1.0 scale
@@ -240,7 +240,7 @@ Real OKR Example for a 12-Person Product Team
 
 Here's a complete Q2 2026 set for a product team building a developer tool:
 
-Company Objective: Improve Product-Market Fit
+Company Objective - Improve Product-Market Fit
 - Owner: CEO
 - OKR Status: Main company objective
 
@@ -252,13 +252,13 @@ OKR 1: Increase API Response Performance
 - KR2: Achieve 99.95% API uptime (up from 99.5%)
 - KR3: Reduce database query time by 40% through query optimization
 
-OKR 2: Improve Developer Experience
+OKR 2 - Improve Developer Experience
 - Owner: Senior Engineer (Sarah)
 - KR1: Reduce new developer onboarding time from 3 days to 1 day
 - KR2: Achieve 95% test coverage on core modules (currently 78%)
 - KR3: Complete documentation for 5 major API endpoints
 
-OKR 3: Enable Faster Product Iteration
+OKR 3 - Enable Faster Product Iteration
 - Owner: Senior Engineer (Marcus)
 - KR1: Reduce deployment time from 20 minutes to 5 minutes
 - KR2: Implement CI/CD for all service repos (currently 60%)
@@ -272,7 +272,7 @@ OKR 1: Validate Product-Market Fit for Enterprise Segment
 - KR2: Close 3 enterprise pilots (letters of intent)
 - KR3: Achieve >50 NPS from pilot customers
 
-OKR 2: Increase User Retention
+OKR 2 - Increase User Retention
 - Owner: Product Designer + PM
 - KR1: Improve 30-day retention from 52% to 65%
 - KR2: Reduce churn rate from 8% to 4% for long-term customers
@@ -296,9 +296,9 @@ Standardizing update format makes tracking easier:
 
 ```markdown
 Weekly OKR Update - [Name]
-Week of: [Date]
+Week of - [Date]
 
-OKR 1: [Objective Name]
+OKR 1 - [Objective Name]
 
 Key Results:
 | KR | Target | Current Progress | Status | Notes |
@@ -320,7 +320,7 @@ Next week:
 - Begin enterprise feature implementation
 - Follow up on security approval
 
-OKR 2: [Other Objective if applicable]
+OKR 2 - [Other Objective if applicable]
 [Same format repeated]
 
 Help Needed:
@@ -349,7 +349,7 @@ Preventing this:
 
 OKRs work best when they create focus without creating stress. If your team feels pressure and dread around OKRs, recalibrate your culture around them.
 
-Feedback Loop: Quarterly Review Meeting
+Feedback Loop - Quarterly Review Meeting
 
 End your quarter with a structured meeting (90 minutes for a 12-person team):
 

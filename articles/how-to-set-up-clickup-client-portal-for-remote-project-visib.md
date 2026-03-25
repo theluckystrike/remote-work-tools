@@ -16,7 +16,7 @@ tags: [remote-work-tools, remote-work]
 
 To set up a ClickUp client portal, create a dedicated space with guest access configured to specific lists, then use ClickUp's API to automate guest provisioning and filter client-facing views. This approach gives remote development teams visibility into project progress while keeping internal technical discussions private.
 
-Guest Access vs. Client Portal: Understanding Your Options
+Guest Access vs. Client Portal - Understanding Your Options
 
 ClickUp offers two primary mechanisms for external client visibility:
 
@@ -73,7 +73,7 @@ Client Projects/
   Internal_Discussions (Team Only)
 ```
 
-The key principle: curate spaces explicitly for clients rather than exposing your entire workspace. Clients should see milestones, deliverables, and status, not sprint planning, bug backlogs, or internal code review discussions.
+The key principle - curate spaces explicitly for clients rather than exposing your entire workspace. Clients should see milestones, deliverables, and status, not sprint planning, bug backlogs, or internal code review discussions.
 
 Custom Views for Client Visibility
 
@@ -131,12 +131,12 @@ const generateClientDigest = async (clientEmail, projectId) => {
 
  return {
  to: clientEmail,
- subject: `Project Update: ${completed.length} tasks completed this week`,
+ subject: `Project Update - ${completed.length} tasks completed this week`,
  body: `
-Completed: ${completed.map(t => t.name).join(", ")}
-In Progress: ${inProgress.map(t => t.name).join(", ")}
+Completed - ${completed.map(t => t.name).join(", ")}
+In Progress - ${inProgress.map(t => t.name).join(", ")}
 
-View full details: ${dashboardUrl}
+View full details - ${dashboardUrl}
  `
  };
 };

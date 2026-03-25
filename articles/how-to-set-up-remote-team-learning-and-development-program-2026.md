@@ -39,9 +39,9 @@ Budget Planning and Allocation
 Start with a baseline per-employee budget based on company size and industry:
 
 ```
-Team size: 15 people
-Industry: Software engineering
-Budget model: $30/person/month × 15 people × 12 months = $5,400 annual
+Team size - 15 people
+Industry - Software engineering
+Budget model - $30/person/month × 15 people × 12 months = $5,400 annual
 
 Budget allocation:
  Learning platform subscriptions: 70% = $3,780
@@ -57,10 +57,10 @@ Budget allocation:
 Scale the budget based on role seniority:
 
 ```
-Graduate/Junior engineer: $25/month (foundational skills)
-Mid-level engineer: $35/month (specialization + leadership prep)
-Senior engineer: $40/month (advanced topics, mentorship training)
-Engineering manager: $45/month (leadership, team dynamics)
+Graduate/Junior engineer - $25/month (foundational skills)
+Mid-level engineer - $35/month (specialization + leadership prep)
+Senior engineer - $40/month (advanced topics, mentorship training)
+Engineering manager - $45/month (leadership, team dynamics)
 
 Total for 15-person mixed team:
 (4 junior × $25) + (7 mid × $35) + (3 senior × $40) + (1 manager × $45)
@@ -76,9 +76,9 @@ Platform Comparison and Selection
 Udemy Business
 
 
-Best for: Breadth of content across technical, soft skills, and hobbies. Lowest cost for large teams.
+Best for - Breadth of content across technical, soft skills, and hobbies. Lowest cost for large teams.
 
-Pricing: $25-35/person/month for team subscriptions (10+ licenses)
+Pricing - $25-35/person/month for team subscriptions (10+ licenses)
 
 Content coverage:
 - 8,000+ courses in programming, data science, cloud platforms
@@ -112,7 +112,7 @@ Drawbacks:
 - Limited instructor interaction (pre-recorded video only)
 - Analytics are basic; hard to correlate learning to job performance
 
-Best use case: Engineers with self-directed learning habits, broad skill-building, foundational training.
+Best use case - Engineers with self-directed learning habits, broad skill-building, foundational training.
 ---
 
 LinkedIn Learning
@@ -124,9 +124,9 @@ Table of Contents
 - [Implementation Timeline](#implementation-timeline)
 - [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
 
-Best for: Professional development tied to career advancement. Integrates with LinkedIn profiles.
+Best for - Professional development tied to career advancement. Integrates with LinkedIn profiles.
 
-Pricing: $8-15/person/month for team subscriptions
+Pricing - $8-15/person/month for team subscriptions
 
 Content coverage:
 - Business skills (communication, leadership, strategy)
@@ -159,15 +159,15 @@ Drawbacks:
 - Certificates less recognized in technical hiring than AWS/GCP certifications
 - Limited community/peer interaction
 
-Best use case: Soft skills development, management training, career transition support.
+Best use case - Soft skills development, management training, career transition support.
 
 ---
 
 Coursera
 
-Best for: Formal degree programs, professional certificates recognized by industry. Higher cost.
+Best for - Formal degree programs, professional certificates recognized by industry. Higher cost.
 
-Pricing: $50-180/person/month for degree tracks; $39-79/course for single certifications
+Pricing - $50-180/person/month for degree tracks; $39-79/course for single certifications
 
 Content coverage:
 - University-partnered degrees (Masters in computer science, MBA)
@@ -186,17 +186,17 @@ Setup for corporate programs:
 
 AWS certification program for engineering team:
 ```
-Employees: 6 engineers
-Target certification: AWS Certified Solutions Architect
-Timeline: 12 weeks
+Employees - 6 engineers
+Target certification - AWS Certified Solutions Architect
+Timeline - 12 weeks
 
-Week 1-4: Coursera "AWS Fundamentals" specialization
-Week 5-8: Hands-on labs in AWS sandbox environment
-Week 9-11: Practice exams
-Week 12: Final exam
+Week 1-4 - Coursera "AWS Fundamentals" specialization
+Week 5-8 - Hands-on labs in AWS sandbox environment
+Week 9-11 - Practice exams
+Week 12 - Final exam
 
-Cost per employee: $49/month × 3 months = $147
-Cost per person passing exam: $347 (includes exam fee)
+Cost per employee - $49/month × 3 months = $147
+Cost per person passing exam - $347 (includes exam fee)
 ```
 
 Tracking:
@@ -214,7 +214,7 @@ Drawbacks:
 - Less suitable for exploratory, self-directed learning
 - Limited content in niche technical areas
 
-Best use case: Career-critical certifications, structured skill progression, external validation.
+Best use case - Career-critical certifications, structured skill progression, external validation.
 
 ---
 
@@ -223,7 +223,7 @@ Hybrid Model (Recommended)
 Combine platforms for maximum coverage and cost efficiency:
 
 ```
-Annual budget: $6,120 (for 15-person team)
+Annual budget - $6,120 (for 15-person team)
 
 Allocation:
  Udemy Business: $1,500 (10 licenses × $12.50/month × 12 months)
@@ -257,22 +257,22 @@ Onboarding Curriculum
 New hires follow a structured learning path during first 90 days:
 
 ```
-Week 1: Company and team onboarding
+Week 1 - Company and team onboarding
  [Udemy] Professional communication for remote teams
  [Internal] Company culture and values
  [Internal] Team architecture and codebase overview
 
-Week 2-3: Technical fundamentals
+Week 2-3 - Technical fundamentals
  [Coursera] Relevant certifications (AWS if cloud-native company)
  [Udemy] Codebase and specific frameworks
  [Internal] Pairing sessions with senior engineers
 
-Week 4-6: Individual contributions
+Week 4-6 - Individual contributions
  [LinkedIn Learning] Remote work best practices
  [Udemy] Advanced topics in specialization area
  [Internal] Mentoring from assigned buddy
 
-Week 8-12: Professional development
+Week 8-12 - Professional development
  [Coursera] Second certification or specialization
  [Internal] Public speaking or writing workshop
  [Internal] 30-60-90 day career planning with manager
@@ -287,15 +287,15 @@ Each employee sets quarterly learning goals with their manager:
 ```
 Q1 2026 Goals - Sarah (Senior Backend Engineer):
 
-Priority 1 (Critical for role): Kubernetes Advanced Concepts
+Priority 1 (Critical for role) - Kubernetes Advanced Concepts
  Current: Basic k8s knowledge (deployed 1 cluster)
  Target: CKA certification or equivalent
  Learning path: Coursera "Kubernetes for Developers"
- Timeline: 12 weeks (Jan-Mar)
+ Timeline - 12 weeks (Jan-Mar)
  Success metric: Pass CKA exam OR complete labs with 90% score
  Budget impact: $147
 
-Priority 2 (Career growth): Engineering Leadership
+Priority 2 (Career growth) - Engineering Leadership
  Current: Individual contributor
  Target: Prepare for tech lead role next year
  Learning path: LinkedIn Learning "Technical Leadership" path
@@ -303,7 +303,7 @@ Priority 2 (Career growth): Engineering Leadership
  Success metric: Apply 2 leadership practices in code reviews
  Budget impact: $10 (included in subscription)
 
-Priority 3 (Exploration): AI/ML fundamentals
+Priority 3 (Exploration) - AI/ML fundamentals
  Current: No experience
  Target: Basic understanding for future projects
  Learning path: Udemy "Machine Learning for Engineers"
@@ -311,7 +311,7 @@ Priority 3 (Exploration): AI/ML fundamentals
  Success metric: Complete course, build small project
  Budget impact: $15 (per-course purchase)
 
-Total quarterly budget: $172
+Total quarterly budget - $172
 ```
 
 Mandatory vs. Optional Training
@@ -343,7 +343,7 @@ Measuring Learning ROI
 
 Simple metrics are misleading (hours spent, courses completed). Track application and impact:
 
-Tier 1: Completion (Vanity Metric)
+Tier 1 - Completion (Vanity Metric)
 
 Track but don't over-weight:
 ```
@@ -355,7 +355,7 @@ Track but don't over-weight:
 
 Completion rates tell you about engagement and course quality, not impact.
 
-Tier 2: Skill Application
+Tier 2 - Skill Application
 
 Measure learned skills applied to actual work:
 
@@ -372,22 +372,22 @@ AWS Learning Program (Q1 2026):
  ROI calculation: Investment $882 (6 employees × $147), Return $15K/quarter
 ```
 
-Tier 3: Career Progression
+Tier 3 - Career Progression
 
 Tie learning to promotions and retention:
 
 ```
-Tracking: Over 12 months, measure employees promoted or retained
+Tracking - Over 12 months, measure employees promoted or retained
 
 Examples:
 - Sarah completed AWS + Leadership training → promoted to Tech Lead (retention value: $40K+)
 - Mike completed GCP certification → landed better projects → renewed contract (retention: $100K+)
 - Jessica learned modern data analytics → transitioned to analytics-heavy project → engaged (retention benefit)
 
-Retention improvement: Employees with structured learning 2× more likely to stay (industry data)
+Retention improvement - Employees with structured learning 2× more likely to stay (industry data)
 ```
 
-Tier 4: Team Knowledge
+Tier 4 - Team Knowledge
 
 Measure knowledge spread and team capability:
 
@@ -432,7 +432,7 @@ RETENTION
  Status: GREEN
 
 ROI
- Investment: $6,120 + manager time ($2,000 est.)
+ Investment - $6,120 + manager time ($2,000 est.)
  Return: Cost savings ($15K) + retention benefit (calculated as 2% payroll savings)
  Net: +$8,880 (conservative estimate)
  Status: POSITIVE
@@ -445,7 +445,7 @@ Next quarter adjustments:
 
 Implementation Timeline
 
-Month 1: Planning and Setup
+Month 1 - Planning and Setup
 
 ```
 Week 1-2:
@@ -461,7 +461,7 @@ Week 3-4:
 - Launch onboarding curriculum for new hires
 ```
 
-Month 2-3: Enablement
+Month 2-3 - Enablement
 
 ```
 - Employees set Q1 learning goals with managers
@@ -470,7 +470,7 @@ Month 2-3: Enablement
 - Create #learning Slack channel for course discussions
 ```
 
-Month 4+: Optimization and Measurement
+Month 4+ - Optimization and Measurement
 
 ```
 Every month:
@@ -492,7 +492,7 @@ Annually:
 
 Common Pitfalls and Solutions
 
-Pitfall 1: Learning becomes optional busywork
+Pitfall 1 - Learning becomes optional busywork
 ```
 Solution:
 - Make learning part of regular workflow (designated "learning time" during work hours)
@@ -501,7 +501,7 @@ Solution:
 - Track and celebrate completions publicly
 ```
 
-Pitfall 2: Employees choose unrelated courses
+Pitfall 2 - Employees choose unrelated courses
 ```
 Solution:
 - Set guidelines: prioritize role-critical skills, then career growth, then exploration
@@ -510,7 +510,7 @@ Solution:
 - Provide curated learning paths, not unlimited choice
 ```
 
-Pitfall 3: No application or transfer of learning
+Pitfall 3 - No application or transfer of learning
 ```
 Solution:
 - Require practical project application within 90 days
@@ -519,7 +519,7 @@ Solution:
 - Track and measure skill application in reviews
 ```
 
-Pitfall 4: Budget spent, little measurement
+Pitfall 4 - Budget spent, little measurement
 ```
 Solution:
 - Track completions weekly (automate dashboard from platform APIs)

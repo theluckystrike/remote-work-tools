@@ -36,18 +36,18 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Build a Scalable Skip-Level Meeting Program
+Step 1 - Build a Scalable Skip-Level Meeting Program
 
-Phase 1: Define Your Structure
+Phase 1 - Define Your Structure
 
 Start by mapping your org chart and identifying where communication gaps exist. A typical structure for a growing remote company might look like:
 
 ```
-Level 1: Individual Contributors
-Level 2: Team Leads / Senior ICs
-Level 3: Managers
-Level 4: Directors
-Level 5: VP / C-Suite
+Level 1 - Individual Contributors
+Level 2 - Team Leads / Senior ICs
+Level 3 - Managers
+Level 4 - Directors
+Level 5 - VP / C-Suite
 ```
 
 Skip-level meetings typically connect Level 1 with Level 3, or Level 2 with Level 4. The key principle: skip at least one management layer.
@@ -123,13 +123,13 @@ for pair in pairs:
 
 Running this script produces skip-level pairs that you can use to build meeting schedules.
 
-Phase 2: Establish Cadence and Format
+Phase 2 - Establish Cadence and Format
 
 For remote teams, quarterly skip-level meetings work well. Monthly can feel too frequent for leaders managing multiple teams, while biannual allows problems to fester too long. Here's a suggested format:
 
-Meeting Duration: 30-45 minutes
-Frequency: Quarterly
-Setting: 1:1 or small group (3-5 ICs with one leader)
+Meeting Duration - 30-45 minutes
+Frequency - Quarterly
+Setting - 1:1 or small group (3-5 ICs with one leader)
 
 Sample Agenda:
 1. Opening (2 min): Leader explains the purpose and confidentiality boundaries
@@ -140,7 +140,7 @@ Sample Agenda:
 
 Send the agenda in advance and ask participants to prepare one thing they want to discuss. This ensures the meeting isn't just small talk.
 
-Phase 3: Create Psychological Safety
+Phase 3 - Create Psychological Safety
 
 The biggest failure mode for skip-level meetings is participants holding back because they fear retaliation from their direct manager. Address this explicitly:
 
@@ -148,7 +148,7 @@ The biggest failure mode for skip-level meetings is participants holding back be
 - Follow up publicly: If you commit to action items, complete them and share the outcome
 - Protect participants: Make clear that participation is expected and that opting out won't be held against anyone
 
-Phase 4: Handle Time Zones
+Phase 4 - Handle Time Zones
 
 Remote teams spread across time zones need thoughtful scheduling. A skip-level meeting that forces someone to attend at 3 AM defeats the purpose. Use a simple rotation system:
 
@@ -176,7 +176,7 @@ def find_optimal_meeting_time(participant_timezones, preferred_window=(9, 17)):
 
 This ensures fairness over time. If someone always meets at an inconvenient hour, rotate the schedule quarterly.
 
-Step 2: Measuring Effectiveness
+Step 2 - Measuring Effectiveness
 
 Track whether skip-level meetings actually help:
 
@@ -185,17 +185,17 @@ Track whether skip-level meetings actually help:
 3. Participant satisfaction: Anonymous surveys after each session
 4. Retention correlation: Do employees who participate in skip-levels stay longer?
 
-Step 3: Common Pitfalls to Avoid
+Step 3 - Common Pitfalls to Avoid
 
 Don't make it a performance review: Skip-levels aren't for evaluating ICs. Leaders should listen, not judge.
 
-Don't skip preparation: Without an agenda and pre-work, meetings become wasted time.
+Don't skip preparation - Without an agenda and pre-work, meetings become wasted time.
 
-Don't ignore outcomes: If nothing changes after skip-level discussions, participants will stop engaging.
+Don't ignore outcomes - If nothing changes after skip-level discussions, participants will stop engaging.
 
-Don't over-schedule: More than quarterly per person creates meeting fatigue and diminishes returns.
+Don't over-schedule - More than quarterly per person creates meeting fatigue and diminishes returns.
 
-Step 4: Automation with Slack
+Step 4 - Automation with Slack
 
 For ongoing skip-level communication, consider async supplements. A private Slack channel for skip-level participants can maintain connection between meetings:
 
@@ -247,18 +247,18 @@ Where can I get help if I run into issues?
 
 Start with the official documentation for each tool mentioned. Stack Overflow and GitHub Issues are good next steps for specific error messages. Community forums and Discord servers for the relevant tools often have active members who can help with setup problems.
 
-Step 5: Skip-Level Meeting Template
+Step 5 - Skip-Level Meeting Template
 
 Use this structure for every skip-level meeting:
 
 ```markdown
 Skip-Level Meeting Template
 
-Step 6: Pre-Meeting (Send 3 days before)
+Step 6 - Pre-Meeting (Send 3 days before)
 
-Subject: Skip-Level Chat - [Your Name] & [IC Name]
-Time: [30 minutes, specific timezone]
-Agenda: [Send in advance]
+Subject - Skip-Level Chat - [Your Name] & [IC Name]
+Time - [30 minutes, specific timezone]
+Agenda - [Send in advance]
 
 Hi [IC Name],
 
@@ -274,7 +274,7 @@ Come prepared to discuss:
 All of this is confidential between us. Feel free to be honest.
 See you [day/time]!
 
-Step 7: Meeting Format (30 minutes)
+Step 7 - Meeting Format (30 minutes)
 
 Opening (2 min)
 - Thanks for the time
@@ -302,61 +302,61 @@ Close (2 min)
 - Summarize action items (if any)
 - Next skip-level timing (quarterly)
 
-Step 8: Post-Meeting Synthesis
+Step 8 - Post-Meeting Synthesis
 
-During meeting: Take notes (share screen or write visible notes so IC sees you taking them seriously)
+During meeting - Take notes (share screen or write visible notes so IC sees you taking them seriously)
 
-Within 24 hours: Write summary
+Within 24 hours - Write summary
 - Key themes from conversation
 - Action items with owners
 - Follow-up date if needed
 
-Within 1 week: Share summary with:
+Within 1 week - Share summary with:
 - Direct manager (with IC's consent on what to share)
 - Other skip-level leads (anonymized, themes only)
 
-Within 2 weeks: Act on agreed items
+Within 2 weeks - Act on agreed items
 - If you promised something, deliver
 - Share progress publicly in team channel
 ```
 
-Step 9: Sample Skip-Level Meeting Notes
+Step 9 - Sample Skip-Level Meeting Notes
 
 Here's what good notes look like:
 
 ```markdown
-Skip-Level Notes: Alice (Engineer) & Carol (VP Eng)
-Date: March 20, 2026
-Duration: 30 minutes
+Skip-Level Notes - Alice (Engineer) & Carol (VP Eng)
+Date - March 20, 2026
+Duration - 30 minutes
 
-Step 10: What's Working
+Step 10 - What's Working
 - Enjoys the peer code review process
 - Appreciates flexibility on work hours
 - Likes recent project work on notifications feature
 
-Step 11: Challenges
+Step 11 - Challenges
 - Onboarding to CI/CD was confusing, docs outdated
 - Feels pressure to be available for interrupts
 - Concerned about career growth path to senior engineer
 
-Step 12: Ideas
+Step 12 - Ideas
 - Create CI/CD documentation video walkthrough
 - Establish "core hours" vs. flexible hours
 - Define senior engineer expectations and skill gaps
 
-Step 13: Action Items
+Step 13 - Action Items
 - Carol to update CI/CD docs (by April 10)
 - Carol to discuss senior engineer path with Alice's manager, feedback in 2 weeks
 - Alice to suggest "core hours" policy to team
 
-Step 14: Observations
+Step 14 - Observations
 - High performer, good attitude
 - Slightly burnt out from interrupts
 - Wants to grow within company (retention signal)
 - Straightforward communicator
 ```
 
-Step 15: Skip-Level Program Rollout Phases
+Step 15 - Skip-Level Program Rollout Phases
 
 Implement this phased approach to avoid overwhelming your org:
 
@@ -403,14 +403,14 @@ phase_4_systematic:
   key_success_factor: "Executive commitment to acting on insights"
 ```
 
-Step 16: Handling Difficult Conversations in Skip-Levels
+Step 16 - Handling Difficult Conversations in Skip-Levels
 
 Prepare for challenging scenarios:
 
 ```markdown
-Step 17: Scenario 1: IC Complains About Direct Manager
+Step 17 - Scenario 1: IC Complains About Direct Manager
 
-IC says: "My manager never gives me feedback and doesn't care about development"
+IC says - "My manager never gives me feedback and doesn't care about development"
 
 You should:
 1. Listen without defending the manager
@@ -428,9 +428,9 @@ You should NOT:
 - Share the feedback without asking first
 - Make it weird for the IC to speak up
 
-Step 18: Scenario 2: IC Reveals Major Problem
+Step 18 - Scenario 2: IC Reveals Major Problem
 
-IC says: "I'm looking to leave - I need better compensation"
+IC says - "I'm looking to leave - I need better compensation"
 
 You should:
 1. Take it seriously (not just venting)
@@ -443,9 +443,9 @@ You should:
 
 Retention conversations often need follow-up with compensation/team, not just listening
 
-Step 19: Scenario 3: IC Seems Disengaged/Unhappy
+Step 19 - Scenario 3: IC Seems Disengaged/Unhappy
 
-Observation: Quiet, short answers, seems unmotivated
+Observation - Quiet, short answers, seems unmotivated
 
 You should:
 1. Notice the pattern (don't ignore it)
@@ -456,9 +456,9 @@ You should:
 6. Offer real support
 7. Follow up frequently
 
-Step 20: Scenario 4: IC Criticizes Leadership Direction
+Step 20 - Scenario 4: IC Criticizes Leadership Direction
 
-IC says: "I don't agree with the new product direction"
+IC says - "I don't agree with the new product direction"
 
 You should:
 1. Ask why - understand their concerns
@@ -471,7 +471,7 @@ You should:
 This is valuable input, not insubordination
 ```
 
-Step 21: Quarterly Skip-Level Themes
+Step 21 - Quarterly Skip-Level Themes
 
 Focus each quarter on specific topics:
 

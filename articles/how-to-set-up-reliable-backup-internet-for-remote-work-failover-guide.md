@@ -22,7 +22,7 @@ Table of Contents
 - [Why Backup Internet Matters for Remote Work](#why-backup-internet-matters-for-remote-work)
 - [Prerequisites](#prerequisites)
 - [Cost Comparison](#cost-comparison)
-- [Advanced: Monitoring and Alerts](#advanced-monitoring-and-alerts)
+- [Advanced - Monitoring and Alerts](#advanced-monitoring-and-alerts)
 - [Troubleshooting](#troubleshooting)
 
 Why Backup Internet Matters for Remote Work
@@ -45,7 +45,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Mobile Hotspot as Primary Backup
+Step 1 - Mobile Hotspot as Primary Backup
 
 A mobile hotspot on your smartphone provides emergency backup that requires no new equipment. Most developers already have phones with data plans.
 
@@ -66,11 +66,11 @@ Limitations:
 - Signal strength varies with location and time of day
 - Automatic failover is manual (you must manually switch networks)
 
-Cost: Usually included in existing phone plan (included data) or $15/month for dedicated hotspot add-on.
+Cost - Usually included in existing phone plan (included data) or $15/month for dedicated hotspot add-on.
 
-Best for: Emergency-only backup; adequate for unexpected 2-3 hour outages.
+Best for - Emergency-only backup; adequate for unexpected 2-3 hour outages.
 
-Step 2: Mobile Hotspot Enhancement: Dedicated Hotspot Device
+Step 2 - Mobile Hotspot Enhancement: Dedicated Hotspot Device
 
 A dedicated mobile hotspot device (not your primary phone) provides more reliable, always-ready backup with dedicated battery and data plan.
 
@@ -102,11 +102,11 @@ Mount the device on a shelf or desk with good signal reception (avoid placing it
 Automatic failover:
 Most dedicated hotspot devices can trigger automatic failover through a custom mobile router (discussed below). Without a smart router, failover is manual.
 
-Cost: $80-600 for device + $25-40/month for data plan = $40-70 monthly total.
+Cost - $80-600 for device + $25-40/month for data plan = $40-70 monthly total.
 
-Best for: Remote workers who need reliable backup with automatic failover capability.
+Best for - Remote workers who need reliable backup with automatic failover capability.
 
-Step 3: Secondary Wired ISP (Best Reliability)
+Step 3 - Secondary Wired ISP (Best Reliability)
 
 Installing a second fiber or cable connection from a different provider (if available) provides the most reliable backup. This approach requires new infrastructure but offers superior performance.
 
@@ -141,11 +141,11 @@ Performance characteristics:
 - Stability: Excellent; different infrastructure means independent failures
 - Automatic failover: Seconds (router detects primary failure and switches automatically)
 
-Cost: $50-70/month primary + $40-60/month secondary = $90-130 total. Premium compared to mobile backup, but most reliable.
+Cost - $50-70/month primary + $40-60/month secondary = $90-130 total. Premium compared to mobile backup, but most reliable.
 
-Best for: Businesses or developers whose income depends on continuous connectivity (freelancers, customer support, streaming).
+Best for - Businesses or developers whose income depends on continuous connectivity (freelancers, customer support, streaming).
 
-Step 4: Dual-WAN Router for Automatic Failover
+Step 4 - Dual-WAN Router for Automatic Failover
 
 A dual-WAN router manages multiple internet connections and switches between them automatically when the primary fails. This is essential for true backup reliability.
 
@@ -200,17 +200,17 @@ add chain=srcnat out-interface=WAN2 action=masquerade
 
 This configuration routes traffic through WAN1 (primary ISP), but automatically switches to WAN2 if WAN1 becomes unavailable.
 
-Failover timing: Most dual-WAN routers detect connection loss within 5-30 seconds and switch automatically. This is sufficient to maintain Zoom/Teams calls and email, though you'll notice brief audio dropout.
+Failover timing - Most dual-WAN routers detect connection loss within 5-30 seconds and switch automatically. This is sufficient to maintain Zoom/Teams calls and email, though you'll notice brief audio dropout.
 
-Cost: $50-350 for router hardware (one-time) + existing ISP costs.
+Cost - $50-350 for router hardware (one-time) + existing ISP costs.
 
-Best for: Developers with secondary ISP or mobile hotspot who want automatic failover without manual intervention.
+Best for - Developers with secondary ISP or mobile hotspot who want automatic failover without manual intervention.
 
-Step 5: Load Balancing Configuration (Advanced)
+Step 5 - Load Balancing Configuration (Advanced)
 
 Beyond simple failover, some routers support load balancing: distributing traffic across multiple connections simultaneously. This increases available bandwidth for backup connectivity.
 
-Use case: If your primary connection is 200 Mbps and secondary is 50 Mbps, load balancing provides up to 250 Mbps aggregate bandwidth. This is useful if you run video calls while others in your household use internet simultaneously.
+Use case - If your primary connection is 200 Mbps and secondary is 50 Mbps, load balancing provides up to 250 Mbps aggregate bandwidth. This is useful if you run video calls while others in your household use internet simultaneously.
 
 Configuration (MikroTik):
 ```
@@ -225,9 +225,9 @@ add dst-address=0.0.0.0/0 gateway=10.0.1.1 routing-mark=conn-wan2 distance=10
 
 This distributes traffic based on source IP, so devices 192.168.0.2 and 192.168.0.3 use different uplinks simultaneously.
 
-Trade-off: Load balancing reduces latency consistency (some packets take different routes). For video calls, simple failover is better than load balancing because consistent latency matters more than total bandwidth.
+Trade-off - Load balancing reduces latency consistency (some packets take different routes). For video calls, simple failover is better than load balancing because consistent latency matters more than total bandwidth.
 
-Step 6: Backup Power: Uninterruptible Power Supply (UPS)
+Step 6 - Backup Power: Uninterruptible Power Supply (UPS)
 
 Backup internet is useless if your modem and router lose power. An UPS keeps equipment running during power failures.
 
@@ -246,27 +246,27 @@ APC Back-UPS Pro 1500 ($180):
 - Better for sensitive equipment
 
 Setup:
-Plug modem and primary router into UPS. Leave WiFi router on backup power only if space allows. Prioritize: modem > primary router > secondary router.
+Plug modem and primary router into UPS. Leave WiFi router on backup power only if space allows. Prioritize - modem > primary router > secondary router.
 
-Runtime calculation: A modem (50W) and router (30W) use 80W combined. A 1500 VA UPS provides roughly 1000W at 120V, so ~12 hours of runtime at 80W load (before battery depletion). Actual runtime: 4-6 hours depending on load and battery age.
+Runtime calculation - A modem (50W) and router (30W) use 80W combined. A 1500 VA UPS provides roughly 1000W at 120V, so ~12 hours of runtime at 80W load (before battery depletion). Actual runtime: 4-6 hours depending on load and battery age.
 
-Cost: $130-180 one-time, plus modest electricity cost to keep battery charged.
+Cost - $130-180 one-time, plus modest electricity cost to keep battery charged.
 
-Best for: All remote workers. Backup power ensures backup internet remains available during power failures.
+Best for - All remote workers. Backup power ensures backup internet remains available during power failures.
 
-Step 7: Practical Implementation Roadmap
+Step 7 - Practical Implementation Roadmap
 
-Phase 1 (Week 1): Enable mobile hotspot on your phone. Test connection immediately by actually using it for email and Slack. Verify it works in your office.
+Phase 1 (Week 1) - Enable mobile hotspot on your phone. Test connection immediately by actually using it for email and Slack. Verify it works in your office.
 
-Phase 2 (Week 2-3): If primary ISP has reliability issues or you depend heavily on connectivity, purchase a dedicated mobile hotspot device ($80-300). Set up a mobile data plan.
+Phase 2 (Week 2-3) - If primary ISP has reliability issues or you depend heavily on connectivity, purchase a dedicated mobile hotspot device ($80-300). Set up a mobile data plan.
 
-Phase 3 (Month 2): Research secondary ISP availability. If available and budget allows, install a second connection.
+Phase 3 (Month 2) - Research secondary ISP availability. If available and budget allows, install a second connection.
 
-Phase 4 (Month 2-3): Purchase a dual-WAN router. Configure automatic failover. Test by unplugging your primary modem and verifying failover to secondary connection.
+Phase 4 (Month 2-3) - Purchase a dual-WAN router. Configure automatic failover. Test by unplugging your primary modem and verifying failover to secondary connection.
 
-Phase 5 (Month 3+): Add an UPS to keep modem and router running during power failures.
+Phase 5 (Month 3+) - Add an UPS to keep modem and router running during power failures.
 
-Step 8: Test Your Backup Setup
+Step 8 - Test Your Backup Setup
 
 Create a regular testing schedule (monthly):
 
@@ -287,38 +287,38 @@ Cost Comparison
 
 Choose based on your income level and remote work criticality. A $5,000/month freelancer should implement complete backup ($300 investment + $130/month cost is negligible insurance). A part-time remote worker might start with mobile hotspot only.
 
-Step 9: Real-World Outage Scenarios
+Step 9 - Real-World Outage Scenarios
 
-Scenario 1: ISP Fiber Cut
+Scenario 1 - ISP Fiber Cut
 Primary fiber line damaged during construction. Time to detect: 15 seconds. With dual-WAN router, failover to secondary cable connection is automatic. User experiences brief (5 second) audio drop on Zoom call but continues working. Issue resolved by ISP in 6 hours. Total impact: minimal.
 
-Without backup: User offline for 6 hours. If this occurs during critical client meeting, reputational damage could exceed $10,000 in lost business.
+Without backup - User offline for 6 hours. If this occurs during critical client meeting, reputational damage could exceed $10,000 in lost business.
 
-Scenario 2: Power Failure
+Scenario 2 - Power Failure
 Lightning strike knocks out power. Primary modem and router powered off immediately. With UPS-backed backup system: modem and router continue running on battery. Failover to secondary ISP or mobile hotspot occurs automatically. User remains online for 4-6 hours until power restored.
 
-Without UPS: User offline for duration of power outage (typically 2-4 hours in urban areas, 8+ hours in rural areas).
+Without UPS - User offline for duration of power outage (typically 2-4 hours in urban areas, 8+ hours in rural areas).
 
-Scenario 3: Cascading ISP Failures
+Scenario 3 - Cascading ISP Failures
 Primary ISP has widespread outage affecting thousands of users. Secondary ISP is unaffected (different infrastructure). Dual-WAN router automatically detects primary failure and switches to secondary. User continues working at normal speed while competitors' employees are offline.
 
 This scenario happens 1-2 times per decade and creates significant competitive advantage for prepared workers.
 
-Step 10: Monitor Your Backup Internet Quality
+Step 10 - Monitor Your Backup Internet Quality
 
 Beyond testing, continuously monitor your backup connection quality. Track these metrics monthly:
 
-Primary uptime: Percentage of month primary connection was available. Target: 99.9% (maximum 1 hour downtime/month).
+Primary uptime - Percentage of month primary connection was available. Target: 99.9% (maximum 1 hour downtime/month).
 
-Failover time: How many seconds from primary failure to secondary becoming active. Measure by unplugging modem and checking when secondary light illuminates on router. Target: under 30 seconds.
+Failover time - How many seconds from primary failure to secondary becoming active. Measure by unplugging modem and checking when secondary light illuminates on router. Target - under 30 seconds.
 
-Secondary speed: During testing, measure secondary connection speed using speedtest.net. If slower than advertised, contact ISP to verify configuration.
+Secondary speed - During testing, measure secondary connection speed using speedtest.net. If slower than advertised, contact ISP to verify configuration.
 
-Battery backup duration: Time UPS can maintain modem and router at full load. Test annually by unplugging power and noting time until battery warning appears. Target: 4+ hours.
+Battery backup duration - Time UPS can maintain modem and router at full load. Test annually by unplugging power and noting time until battery warning appears. Target: 4+ hours.
 
 Use a spreadsheet to track these metrics. Trends reveal problems (increasing failover time suggests router firmware issues, declining battery duration suggests battery aging).
 
-Advanced: Monitoring and Alerts
+Advanced - Monitoring and Alerts
 
 For business-critical setups, implement automatic monitoring:
 

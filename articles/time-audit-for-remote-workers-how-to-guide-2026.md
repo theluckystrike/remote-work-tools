@@ -20,20 +20,20 @@ A time audit is not about tracking every second of your day. It is about underst
 Table of Contents
 
 - [Why Remote Workers Need a Time Audit](#why-remote-workers-need-a-time-audit)
-- [Step 1: Collect Raw Time Data](#step-1-collect-raw-time-data)
+- [Step 1 - Collect Raw Time Data](#step-1-collect-raw-time-data)
 - [Understanding What a Time Audit Actually Measures](#understanding-what-a-time-audit-actually-measures)
-- [Step 2: Categorize Your Activities](#step-2-categorize-your-activities)
-- [Step 3: Identify Patterns and Waste](#step-3-identify-patterns-and-waste)
-- [Step 4: Implement Changes and Re-Measure](#step-4-implement-changes-and-re-measure)
+- [Step 2 - Categorize Your Activities](#step-2-categorize-your-activities)
+- [Step 3 - Identify Patterns and Waste](#step-3-identify-patterns-and-waste)
+- [Step 4 - Implement Changes and Re-Measure](#step-4-implement-changes-and-re-measure)
 - [A Minimal Audit Without Specialized Tools](#a-minimal-audit-without-specialized-tools)
-- [Advanced Analysis: Finding Hidden Patterns](#advanced-analysis-finding-hidden-patterns)
+- [Advanced Analysis - Finding Hidden Patterns](#advanced-analysis-finding-hidden-patterns)
 - [Different Audit Approaches for Different Goals](#different-audit-approaches-for-different-goals)
 - [Creating a Time Audit Report](#creating-a-time-audit-report)
 - [Current Distribution](#current-distribution)
 - [Key Findings](#key-findings)
 - [Implemented Changes](#implemented-changes)
 - [Measurable Goals](#measurable-goals)
-- [From Audit to System: Building Sustainable Time Management](#from-audit-to-system-building-sustainable-time-management)
+- [From Audit to System - Building Sustainable Time Management](#from-audit-to-system-building-sustainable-time-management)
 
 This guide walks you through performing a practical time audit using tools developers and power users already have at their disposal. No expensive subscriptions, no complex project management platforms. Just data, scripts, and practical recommendations.
 
@@ -43,7 +43,7 @@ Remote work offers flexibility, but that flexibility comes with a cost. Without 
 
 The goal of a time audit is not to optimize every moment. The goal is to identify the three or four biggest time sinks that, when addressed, create the most significant improvement in your output and work-life balance.
 
-Step 1: Collect Raw Time Data
+Step 1 - Collect Raw Time Data
 
 Before you can analyze your time, you need to track it. For developers and power users, automatic tracking tools work better than manual logging because manual logging becomes tedious within days.
 
@@ -84,7 +84,7 @@ rat report --today
 
 Understanding What a Time Audit Actually Measures
 
-Before collecting data, clarify what you're measuring. Time spent in VS Code isn't equivalent to productive coding time, you might be reading documentation, waiting for builds, or reviewing code. Same with Slack: some conversations drive decisions; others are pure noise.
+Before collecting data, clarify what you're measuring. Time spent in VS Code isn't equivalent to productive coding time, you might be reading documentation, waiting for builds, or reviewing code. Same with Slack - some conversations drive decisions; others are pure noise.
 
 an useful time audit measures outcome categories, not just application usage:
 
@@ -97,7 +97,7 @@ an useful time audit measures outcome categories, not just application usage:
 
 Effective audits distinguish between these categories rather than treating all work time as equivalent.
 
-Step 2: Categorize Your Activities
+Step 2 - Categorize Your Activities
 
 Once you have collected raw data, the next step is categorization. Raw activity logs show you spent time in Slack, VS Code, and Chrome, but they do not tell you whether that time was productive or wasted.
 
@@ -147,17 +147,17 @@ for cat, minutes in sorted(categories.items(), key=lambda x: x[1], reverse=True)
 
 This script gives you a quick breakdown of where your time went, categorized by the type of work.
 
-Step 3: Identify Patterns and Waste
+Step 3 - Identify Patterns and Waste
 
 With categorized data in hand, look for three specific patterns:
 
-Communication overhead: Remote workers often underestimate how much time Slack and meetings consume. If communication exceeds 25% of your work day, evaluate whether you can batch messages into specific time blocks or reduce meeting frequency.
+Communication overhead - Remote workers often underestimate how much time Slack and meetings consume. If communication exceeds 25% of your work day, evaluate whether you can batch messages into specific time blocks or reduce meeting frequency.
 
-Context-switching cost: Rapid switching between applications fragment your attention. The data will show you if you have dozens of short sessions rather than sustained blocks. Developers typically need 15-20 minutes to regain full context after an interruption.
+Context-switching cost - Rapid switching between applications fragment your attention. The data will show you if you have dozens of short sessions rather than sustained blocks. Developers typically need 15-20 minutes to regain full context after an interruption.
 
-Time of day patterns: Your data may reveal that you are most productive in the morning but waste afternoons on low-value tasks. Protect your peak hours for deep work and schedule administrative tasks for low-energy periods.
+Time of day patterns - Your data may reveal that you are most productive in the morning but waste afternoons on low-value tasks. Protect your peak hours for deep work and schedule administrative tasks for low-energy periods.
 
-Step 4: Implement Changes and Re-Measure
+Step 4 - Implement Changes and Re-Measure
 
 A time audit has no value if it remains an academic exercise. After identifying your biggest time sinks, implement one or two concrete changes:
 
@@ -179,17 +179,17 @@ gcalcli calw --calendar "Work" --tsv | head -50
 
 Even a rough manual audit often reveals surprising insights. The act of categorizing your calendar events forces you to confront how much time goes to meetings versus actual work.
 
-Advanced Analysis: Finding Hidden Patterns
+Advanced Analysis - Finding Hidden Patterns
 
 After collecting and categorizing data, look for subtle patterns that simple percentages miss:
 
-Meeting clustering: Do you have four meetings back-to-back on certain days? This creates context-switching costs that compound. Solution: Spread meetings across multiple days or cluster them into specific "meeting days."
+Meeting clustering - Do you have four meetings back-to-back on certain days? This creates context-switching costs that compound. Solution - Spread meetings across multiple days or cluster them into specific "meeting days."
 
-Decision paralysis time: Track how much time you spend in discussion without making decisions. Slow decision-making compounds, a 10-minute discussion that repeats weekly becomes 8 hours per year. Solution: Implement decision deadlines.
+Decision paralysis time - Track how much time you spend in discussion without making decisions. Slow decision-making compounds, a 10-minute discussion that repeats weekly becomes 8 hours per year. Solution - Implement decision deadlines.
 
-Interrupt recovery time: After being interrupted, how long before you regain focus? Most developers need 15-25 minutes. If you're interrupted five times daily, that's 75-125 minutes of recovery time, nearly two hours lost. Solution: Batch interruption windows.
+Interrupt recovery time - After being interrupted, how long before you regain focus? Most developers need 15-25 minutes. If you're interrupted five times daily, that's 75-125 minutes of recovery time, nearly two hours lost. Solution - Batch interruption windows.
 
-Velocity patterns: Do you ship more code on days with fewer meetings? Measure your commits and lines merged on low-meeting versus high-meeting days. This data justifies protecting deep work time.
+Velocity patterns - Do you ship more code on days with fewer meetings? Measure your commits and lines merged on low-meeting versus high-meeting days. This data justifies protecting deep work time.
 
 ```python
 #!/usr/bin/env python3
@@ -229,7 +229,7 @@ Your time audit approach depends on what you're trying to optimize:
 
 If you want to increase billable hours: Focus on reducing non-billable activities (administrative overhead, tool context-switching, procrastination). Even 5 hours more billable time per week is $200-500 more income monthly.
 
-If you want more deep work time: Track interruptions and focus sessions. Identify when you're most focused and protect those hours aggressively. Minimize back-to-back meetings on the same day.
+If you want more deep work time - Track interruptions and focus sessions. Identify when you're most focused and protect those hours aggressively. Minimize back-to-back meetings on the same day.
 
 If you want better work-life balance: Track total time spent on work including evenings/weekends. Many remote workers discover they're working 50+ hour weeks without realizing it. The audit reveals actual hours being spent.
 
@@ -273,21 +273,21 @@ Measurable Goals
 
 This format helps you track whether changes actually stick and produce results.
 
-From Audit to System: Building Sustainable Time Management
+From Audit to System - Building Sustainable Time Management
 
 an one-time audit provides a snapshot. Building sustainable productivity requires systems:
 
 Protect deep work time ruthlessly: Calendar blocking for focus time is essential, not optional. Treat these blocks as unmovable commitments. Use "do not disturb" signals in your communication tools.
 
-Batch communication: Checking Slack constantly fragments attention. Instead: check at 9 AM, 12 PM, and 4 PM daily. Communicate response expectations to your team so they understand you're not available constantly.
+Batch communication - Checking Slack constantly fragments attention. Instead - check at 9 AM, 12 PM, and 4 PM daily. Communicate response expectations to your team so they understand you're not available constantly.
 
 Use time audit data for priority setting: When you know communication takes 30% of your time, you can make an informed decision about whether that's appropriate. If not, actively work to reduce it through async communication and decision documentation.
 
-Automate routine tasks: Scripts and automation save hours monthly. If you perform the same task twice weekly, invest 30 minutes in automation. The payoff compounds.
+Automate routine tasks - Scripts and automation save hours monthly. If you perform the same task twice weekly, invest 30 minutes in automation. The payoff compounds.
 
-Review weekly, not annually: A time audit done once per year has limited value. Weekly 10-minute reviews of how you spent your time keep you aligned with your goals. Ask: "Did this week match my priorities? What will I change?"
+Review weekly, not annually - A time audit done once per year has limited value. Weekly 10-minute reviews of how you spent your time keep you aligned with your goals. Ask - "Did this week match my priorities? What will I change?"
 
-Expect gradual improvement: Time management isn't something you "fix" once. It's an ongoing practice that requires constant adjustment as priorities change and new tools emerge.
+Expect gradual improvement - Time management isn't something you "fix" once. It's an ongoing practice that requires constant adjustment as priorities change and new tools emerge.
 
 The best time audit isn't the initial data collection, it's the sustained practice of reviewing how you spend time and iterating toward better allocation.
 

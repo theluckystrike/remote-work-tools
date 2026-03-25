@@ -193,7 +193,7 @@ Specific Desk Models for 2026
 
 Budget Category ($200-400)
 
-Manual Crank Desks: VIVO Electric Standing Desk Base (V003, $250-350)
+Manual Crank Desks - VIVO Electric Standing Desk Base (V003, $250-350)
 - Height range: 28-48 inches
 - Weight capacity: 140 lbs
 - Motor type: Dual motor with slow-motion release
@@ -201,7 +201,7 @@ Manual Crank Desks: VIVO Electric Standing Desk Base (V003, $250-350)
 - Stability: Good for single monitor or light dual-monitor setup
 - Estimated lifespan: 4-6 years
 
-Setup for developers: Pair with a 48" or 60" solid wood top ($150-250). Total investment: $400-600 for a complete standing desk. Sufficient for laptop + 1 external monitor.
+Setup for developers - Pair with a 48" or 60" solid wood top ($150-250). Total investment: $400-600 for a complete standing desk. Sufficient for laptop + 1 external monitor.
 
 Mid-Range Category ($400-800)
 
@@ -283,33 +283,33 @@ The cost-per-year metric reveals that premium desks, while expensive upfront, sp
 
 Real Developer Workflows
 
-Workflow 1: Software Engineer (4 Monitors)
+Workflow 1 - Software Engineer (4 Monitors)
 
-Setup: Autonomous SmartDesk Pro + 60" bamboo top + monitor arms
+Setup - Autonomous SmartDesk Pro + 60" bamboo top + monitor arms
 
 Weight breakdown:
 - 4x 24" monitors: 80 lbs
 - Dual monitor arms: 20 lbs
 - Laptop dock + keyboard + mouse + peripherals: 30 lbs
 - Desk surface: 50 lbs (60" bamboo)
-Total: 180 lbs  Well within capacity
+Total - 180 lbs  Well within capacity
 
 Optimal heights:
 - Sitting: 28 inches (measured from floor to keyboard surface)
 - Standing: 40 inches
 - Memory preset 3: 32 inches (quick standing stretch position)
 
-Workflow 2: Designer (1 Large Monitor + Tablet)
+Workflow 2 - Designer (1 Large Monitor + Tablet)
 
-Setup: Flexispot E7 Pro + 48" walnut top + single monitor arm + tablet stand
+Setup - Flexispot E7 Pro + 48" walnut top + single monitor arm + tablet stand
 
-Weight: ~100 lbs total
+Weight - ~100 lbs total
 
-Advantage: Lighter weight allows faster motor operation and better stability at standing height. Can comfortably work at any height between 25-47 inches.
+Advantage - Lighter weight allows faster motor operation and better stability at standing height. Can comfortably work at any height between 25-47 inches.
 
-Workflow 3: Home Office Manager (3 Monitors + Phone Station)
+Workflow 3 - Home Office Manager (3 Monitors + Phone Station)
 
-Setup: Autonomous SmartDesk Pro + 72" top (widest option)
+Setup - Autonomous SmartDesk Pro + 72" top (widest option)
 
 Considerations:
 - Center of gravity shifts with 72" width
@@ -323,7 +323,7 @@ Budget desks typically require 45-60 minutes self-assembly. Mid-range and premiu
 - Desktop pre-drilled for leg attachment
 - White-glove delivery for desks over $800 (most premium models)
 
-For developers who value time: Pay the $100-150 delivery/assembly fee. A 2-hour desk assembly is worth $100-200 in opportunity cost for knowledge workers.
+For developers who value time - Pay the $100-150 delivery/assembly fee. A 2-hour desk assembly is worth $100-200 in opportunity cost for knowledge workers.
 
 Integration with Existing Setups
 

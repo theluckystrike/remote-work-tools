@@ -90,7 +90,7 @@ Run a compliance check with a simple script:
 compliance-check.sh - Verify access controls
 
 echo "Checking MFA compliance..."
-NON_MFA=$(grep -L "mfa_enabled: true" team-members.yaml)
+NON_MFA=$(grep -L "mfa_enabled - true" team-members.yaml)
 if [ -n "$NON_MFA" ]; then
   echo "WARNING: Non-MFA users found: $NON_MFA"
   exit 1
@@ -314,7 +314,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Quarterly Audit Preparation Checklist
+Step 1 - Quarterly Audit Preparation Checklist
 
 Run through this checklist before each quarterly audit:
 

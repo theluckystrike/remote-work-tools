@@ -155,7 +155,7 @@ Structuring the Meeting for Maximum Engagement
 
 With 200 participants, engagement requires deliberate design. A 90-minute meeting with passive listening will lose your audience. Structure your quarterly meeting in distinct phases:
 
-Phase 1: Opening (5 minutes)
+Phase 1 - Opening (5 minutes)
 
 Start with clear audio and visual framing. Display the meeting title and your company branding on the shared screen. Use this time to confirm audio levels and remind participants of interaction rules:
 
@@ -167,7 +167,7 @@ Meeting Protocol:
 - Recording in progress
 ```
 
-Phase 2: Business Updates (30 minutes)
+Phase 2 - Business Updates (30 minutes)
 
 For company updates, consider using a pre-recorded video segment. This provides several advantages:
 
@@ -185,7 +185,7 @@ Share system audio with screen share
 3. Check "Share sound" in the bottom left
 ```
 
-Phase 3: Department Highlights (25 minutes)
+Phase 3 - Department Highlights (25 minutes)
 
 Rotate through department heads with concise updates. Limit each presenter to 3-4 minutes. Use a shared timer visible on screen to keep everyone accountable:
 
@@ -198,15 +198,15 @@ Rotate through department heads with concise updates. Limit each presenter to 3-
 
 Enforce the time limits. At 200-person scale, a presenter running 3 minutes over costs 600 person-minutes of attention. the equivalent of losing 10 people's full-day productivity. Assign a moderator whose only job is signaling presenters when they hit 30 seconds remaining.
 
-Phase 4: Q&A Session (20 minutes)
+Phase 4 - Q&A Session (20 minutes)
 
 The Q&A requires structured help at 200-person scale. Use one of these approaches:
 
-Chat-Based Q&A: Participants submit questions in chat. A moderator curates and reads questions to the speaker. This works well for async participation.
+Chat-Based Q&A - Participants submit questions in chat. A moderator curates and reads questions to the speaker. This works well for async participation.
 
-Slido Integration: Embed Slido directly in Zoom for live polling and upvoting. Questions with most votes get addressed first.
+Slido Integration - Embed Slido directly in Zoom for live polling and upvoting. Questions with most votes get addressed first.
 
-Written Questions Only: For sensitive topics, allow only written questions that presenters answer directly.
+Written Questions Only - For sensitive topics, allow only written questions that presenters answer directly.
 
 For a 200-person all-hands, the Slido approach consistently produces better Q&A quality than open chat. Upvoting surfaces the questions most people want answered and deprioritizes niche individual questions that would otherwise derail the group session.
 
@@ -214,17 +214,17 @@ Technical Backup Procedures
 
 Large meetings require contingency planning. Prepare for common failure scenarios:
 
-Scenario 1: Zoom service outage
+Scenario 1 - Zoom service outage
 - Have a backup platform ready (Google Meet, Microsoft Teams)
 - Send calendar invites with both links
 - Test backup platform 24 hours before meeting
 
-Scenario 2: Presenter no-show
+Scenario 2 - Presenter no-show
 - Record a backup video message in advance
 - Designate an emergency presenter who can cover
 - Keep a "canned" update ready for each section
 
-Scenario 3: Audio issues
+Scenario 3 - Audio issues
 - Require all presenters to use wired headsets
 - Have a dedicated audio coordinator on standby
 - Prepare a dial-in phone number as fallback
@@ -282,7 +282,7 @@ Zoom cloud recordings land as flat MP4 files without chapter markers. Before dis
 ```markdown
 Q1 2026 All-Hands Recording
 
-Total Duration: 1:28:14
+Total Duration - 1:28:14
 
 Chapters:
 - 0:00. Opening and logistics
@@ -294,7 +294,7 @@ Chapters:
 - 52:00. Q&A session
 - 1:20:00. Closing remarks
 
-Recording available at: [intranet link]
+Recording available at - [intranet link]
 ```
 
 This index lets employees who missed the live meeting jump directly to the sections most relevant to their role, dramatically increasing recording viewership compared to a raw file with no navigation.

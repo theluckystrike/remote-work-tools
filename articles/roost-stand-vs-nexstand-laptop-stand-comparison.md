@@ -21,8 +21,8 @@ When you're spending 8+ hours daily at a desk, the difference between a good and
 Table of Contents
 
 - [Why Laptop Elevation Matters for Developers](#why-laptop-elevation-matters-for-developers)
-- [Design Philosophy: Two Approaches](#design-philosophy-two-approaches)
-- [Height Adjustability: The Critical Factor](#height-adjustability-the-critical-factor)
+- [Design Philosophy - Two Approaches](#design-philosophy-two-approaches)
+- [Height Adjustability - The Critical Factor](#height-adjustability-the-critical-factor)
 - [Portability and Travel Use](#portability-and-travel-use)
 - [Build Quality and Durability](#build-quality-and-durability)
 - [Thermal Considerations](#thermal-considerations)
@@ -44,9 +44,9 @@ Why Laptop Elevation Matters for Developers
 
 Developers face unique challenges that generic office workers don't. You're likely working with external monitors, switching between sitting and standing, and dealing with thermal management issues that affect performance.
 
-The core problem: most laptops position the screen at eye level only when you're slouching or hunching forward. A proper laptop stand solves this by elevating the screen to your natural eye line, which research links to reduced neck strain and improved posture.
+The core problem - most laptops position the screen at eye level only when you're slouching or hunching forward. A proper laptop stand solves this by elevating the screen to your natural eye line, which research links to reduced neck strain and improved posture.
 
-Design Philosophy: Two Approaches
+Design Philosophy - Two Approaches
 
 Roost Stand
 
@@ -80,7 +80,7 @@ Nexstand Dimensions:
 
 The key difference is the adjustable height mechanism, you're not limited to a single elevation angle.
 
-Height Adjustability: The Critical Factor
+Height Adjustability - The Critical Factor
 
 For developers, height adjustability isn't a luxury, it's often the deciding factor between a stand that works and one that creates new problems.
 
@@ -118,7 +118,7 @@ Portability and Travel Use
 
 If you're a developer who travels or works from multiple locations, portability becomes crucial.
 
-Roost Stand: The Winner for Mobility
+Roost Stand - The Winner for Mobility
 
 The Roost stands out in this category:
 
@@ -129,7 +129,7 @@ The Roost stands out in this category:
 
 For developers working from cafes, co-working spaces, or traveling between offices, this matters. You're already carrying a laptop, charger, and possibly other gear, the stand should add minimal weight and bulk.
 
-Nexstand: Desk-Based Use
+Nexstand - Desk-Based Use
 
 The Nexstand doesn't collapse as elegantly. While it does fold partially, it remains a more substantial object. It's better suited for a permanent or semi-permanent desk setup rather than daily transportation.
 
@@ -245,17 +245,17 @@ Standing Desk Integration
 
 If you use an electric standing desk with multiple height presets:
 
-Roost Stand approach: Works adequately because the fixed angle remains consistent across desk heights. However, your seated eye level may differ from your standing eye level, requiring posture adjustment at each transition. Some developers add a desk riser or keyboard wedge to compensate.
+Roost Stand approach - Works adequately because the fixed angle remains consistent across desk heights. However, your seated eye level may differ from your standing eye level, requiring posture adjustment at each transition. Some developers add a desk riser or keyboard wedge to compensate.
 
-Nexstand approach: Shines in this scenario. Adjust the stand height to match both your sitting and standing desk presets. Save two configurations, one for sitting (typically 28-30 inches desktop), one for standing (typically 40-42 inches). The ability to match exact heights eliminates ergonomic compromise.
+Nexstand approach - Shines in this scenario. Adjust the stand height to match both your sitting and standing desk presets. Save two configurations, one for sitting (typically 28-30 inches desktop), one for standing (typically 40-42 inches). The ability to match exact heights eliminates ergonomic compromise.
 
 External Monitor Setups
 
 Most developers use external monitors while the laptop serves as auxiliary display.
 
-Roost Stand benefit: Takes minimal desk real estate (3x8 inches), leaving room for the monitor, keyboard, and mouse. Optimal for small desks or those who switch locations frequently.
+Roost Stand benefit - Takes minimal desk real estate (3x8 inches), leaving room for the monitor, keyboard, and mouse. Optimal for small desks or those who switch locations frequently.
 
-Nexstand challenge: Larger footprint (10x9 inches) competes with monitor space on smaller desks. Better suited for larger desk setups where you can arrange equipment comfortably.
+Nexstand challenge - Larger footprint (10x9 inches) competes with monitor space on smaller desks. Better suited for larger desk setups where you can arrange equipment comfortably.
 
 Reliability and Support Considerations
 
@@ -275,34 +275,34 @@ For developers prioritizing peace-of-mind, the Nexstand's support and warranty o
 
 Use Case Scenarios
 
-Scenario 1: Remote Developer Working from Home Office
+Scenario 1 - Remote Developer Working from Home Office
 Nexstand
 - Fixed desk height you control
 - Can optimize height precisely for your chair
 - Don't need portability
 - Support value appreciated for long-term investment
 
-Scenario 2: Consultant Traveling Between Client Sites
+Scenario 2 - Consultant Traveling Between Client Sites
 Roost
 - Minimal weight and volume in bag
 - Consistent setup regardless of desk height
 - Reliability of no mechanical components
 - Easy to pack/unpack 10+ times weekly
 
-Scenario 3: Hybrid Worker (3 Days Office, 2 Days Home)
+Scenario 3 - Hybrid Worker (3 Days Office, 2 Days Home)
 Two stands, one of each
 - Roost in the office bag (portable for commuting)
 - Nexstand at home for precision adjustment
 - Cost is higher but workflow efficiency justifies it
 
-Scenario 4: Van Life or Travel-Heavy Remote Worker
+Scenario 4 - Van Life or Travel-Heavy Remote Worker
 Roost
 - Absolute minimum footprint and weight
 - Works on any surface without adjustment
 - Survives bumpy travel conditions
 - Easy to replace if damaged
 
-Scenario 5: Team of Developers Standardizing Setup
+Scenario 5 - Team of Developers Standardizing Setup
 Nexstand
 - Consistent ergonomic positioning across team
 - HR/safety team can verify proper heights

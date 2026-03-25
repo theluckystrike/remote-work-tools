@@ -20,14 +20,14 @@ Table of Contents
 
 - [Understanding the Time Zone Gap](#understanding-the-time-zone-gap)
 - [The Overlap Formula](#the-overlap-formula)
-- [Practical Example: Asia-Americas Team Scheduling](#practical-example-asia-americas-team-scheduling)
+- [Practical Example - Asia-Americas Team Scheduling](#practical-example-asia-americas-team-scheduling)
 - [Strategies for Maximizing Collaboration](#strategies-for-maximizing-collaboration)
 - [Using Timezone Libraries](#using-timezone-libraries)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
-- [Real-World Examples: Common Asia-Americas Configurations](#real-world-examples-common-asia-americas-configurations)
+- [Real-World Examples - Common Asia-Americas Configurations](#real-world-examples-common-asia-americas-configurations)
 - [Implementing Overlap Calculations in Production Code](#implementing-overlap-calculations-in-production-code)
 - [Scheduling Tools That Handle Timezone Complexity](#scheduling-tools-that-handle-timezone-complexity)
-- [Measuring Success: Assessing Your Overlap Strategy](#measuring-success-assessing-your-overlap-strategy)
+- [Measuring Success - Assessing Your Overlap Strategy](#measuring-success-assessing-your-overlap-strategy)
 
 Understanding the Time Zone Gap
 
@@ -87,7 +87,7 @@ console.log(calculateOverlap(tokyo, sanFrancisco));
 // Output shows the overlap window
 ```
 
-Practical Example: Asia-Americas Team Scheduling
+Practical Example - Asia-Americas Team Scheduling
 
 Let's walk through a concrete scenario involving three team locations: Singapore, Bangalore, and Austin.
 
@@ -140,13 +140,13 @@ Strategies for Maximizing Collaboration
 
 Once you understand your overlap windows, several strategies help maximize team productivity:
 
-Rotate Meeting Times: Distribute the inconvenience by rotating meeting times across time zones. If your overlap window falls at 4:00 PM in one location, schedule some meetings at that time and others at a more reasonable hour for other team members.
+Rotate Meeting Times - Distribute the inconvenience by rotating meeting times across time zones. If your overlap window falls at 4:00 PM in one location, schedule some meetings at that time and others at a more reasonable hour for other team members.
 
-Asynchronous-First Communication: Reduce reliance on synchronous meetings by documenting decisions thoroughly. Use collaborative tools that support async workflows, allowing team members to contribute on their own schedules.
+Asynchronous-First Communication - Reduce reliance on synchronous meetings by documenting decisions thoroughly. Use collaborative tools that support async workflows, allowing team members to contribute on their own schedules.
 
-Core Collaboration Windows: Designate a smaller "core hours" window where everyone should be available, typically 1-2 hours, and protect this time for high-bandwidth collaboration like code reviews or planning sessions.
+Core Collaboration Windows - Designate a smaller "core hours" window where everyone should be available, typically 1-2 hours, and protect this time for high-bandwidth collaboration like code reviews or planning sessions.
 
-Flexible Working Hours: Allow team members to adjust their schedules within reasonable bounds. Someone in Tokyo might start at 10:00 AM instead of 9:00 AM to align better with the Americas team.
+Flexible Working Hours - Allow team members to adjust their schedules within reasonable bounds. Someone in Tokyo might start at 10:00 AM instead of 9:00 AM to align better with the Americas team.
 
 Using Timezone Libraries
 
@@ -185,11 +185,11 @@ Common Pitfalls to Avoid
 
 When calculating timezone overlaps, watch for these frequent mistakes:
 
-- Ignoring Daylight Saving Time: Always use IANA timezone identifiers (like "Asia/Tokyo" or "America/Los_Angeles") rather than fixed UTC offsets, as DST changes affect offsets throughout the year.
-- Assuming Same Working Hours: Not all teams work 9-to-5. Confirm actual working hours with team members, as flexibility varies by culture and role.
-- Forgetting Weekends: Some team members might work weekends occasionally. Factor in weekend preferences when scheduling recurring meetings.
+- Ignoring Daylight Saving Time - Always use IANA timezone identifiers (like "Asia/Tokyo" or "America/Los_Angeles") rather than fixed UTC offsets, as DST changes affect offsets throughout the year.
+- Assuming Same Working Hours - Not all teams work 9-to-5. Confirm actual working hours with team members, as flexibility varies by culture and role.
+- Forgetting Weekends - Some team members might work weekends occasionally. Factor in weekend preferences when scheduling recurring meetings.
 
-Real-World Examples: Common Asia-Americas Configurations
+Real-World Examples - Common Asia-Americas Configurations
 
 Tokyo + San Francisco (Most Common Tech Hub Pairing)
 - Tokyo: 9 AM - 6 PM JST (UTC+9)
@@ -215,7 +215,7 @@ Sydney + London (Surprisingly Good Overlap)
 Bangalore + San Francisco
 - Bangalore: 9:30 AM - 6:30 PM IST (UTC+5:30)
 - San Francisco: 9 AM - 6 PM PST (UTC-8)
-- Overlap: Bangalore 11 PM - 6:30 AM + San Francisco 8 AM - 3 PM = 7.5 hours
+- Overlap - Bangalore 11 PM - 6:30 AM + San Francisco 8 AM - 3 PM = 7.5 hours
 - Best window: 8 AM - 9 AM San Francisco (11 PM - 12 AM Bangalore)
 - Strategy: Bangalore evening aligns with San Francisco morning; good for handoffs
 
@@ -324,7 +324,7 @@ Rather than building your own, consider these tools that automate overlap calcul
 - Calendly Pro ($16/mo). Includes timezone-aware scheduling and overlap visualization
 - Google Calendar ($0 if you have Google Workspace). Add all teams' calendars; use color-coding to spot overlaps visually
 
-Measuring Success: Assessing Your Overlap Strategy
+Measuring Success - Assessing Your Overlap Strategy
 
 Track these metrics to evaluate whether your timezone strategy is working:
 

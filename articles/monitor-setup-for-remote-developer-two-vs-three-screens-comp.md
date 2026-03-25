@@ -35,7 +35,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Your Development Workflow
+Step 1 - Understand Your Development Workflow
 
 Before deciding on a monitor count, analyze how you actually work. Most development tasks fall into a few categories: writing code, reading documentation, running tests, debugging, and communicating with teammates. Each of these activities has different visibility requirements.
 
@@ -54,7 +54,7 @@ Quick Comparison
 | Ease of Use | Moderate learning curve | Moderate learning curve |
 | Automation | Workflow support | Workflow support |
 
-Step 2: Two-Monitor Setup: The Practical Choice
+Step 2 - Two-Monitor Setup: The Practical Choice
 
 A two-monitor configuration remains the most common choice among remote developers for several reasons. First, it provides sufficient screen real estate for most workflows without overwhelming your desk space. Second, it fits comfortably on standard desks that are 48 to 60 inches wide. Third, the cost is lower, allowing you to invest in higher-quality displays rather than more of them.
 
@@ -79,7 +79,7 @@ const secondaryMonitor = {
 
 This setup handles most development scenarios well. You can have your code editor on one screen and Stack Overflow, API documentation, or your test runner on the other.
 
-Step 3: Three-Monitor Setup: When More Screen Real Estate Helps
+Step 3 - Three-Monitor Setup: When More Screen Real Estate Helps
 
 A three-monitor configuration shines in specific scenarios. If you frequently work with multiple applications simultaneously, such as debugging tools, database clients, API testers, and communication platforms, a third screen reduces window management overhead. Full-stack developers who need to monitor frontend, backend, and database simultaneously often benefit from the extra display.
 
@@ -104,7 +104,7 @@ const developmentWorkflow = {
 
 This configuration works particularly well for complex debugging sessions where you need to watch logs, inspect variables, and navigate code simultaneously.
 
-Step 4: Space and Ergonomic Considerations
+Step 4 - Space and Ergonomic Considerations
 
 Desk space often determines whether a three-monitor setup is practical. Three 24-inch monitors require a desk at least 60 inches wide, and larger monitors demand even more space. Ensure your desk can accommodate the depth of multiple displays without crowding your keyboard and mouse area.
 
@@ -120,39 +120,39 @@ A three-monitor setup adds another $200 to $400 for the third display, plus pote
 
 Consider whether the productivity gains justify the extra cost. If you can complete your work efficiently with two monitors, the additional expense may not provide proportional value.
 
-Step 5: Monitor Specifications and Recommendations
+Step 5 - Monitor Specifications and Recommendations
 
 Two-Monitor Configuration
 
-Primary monitor: 27-32 inches, 1440p or 4K resolution
+Primary monitor - 27-32 inches, 1440p or 4K resolution
 - Recommended models: Dell S2721DGF ($270-320), LG 27GP850 ($280-330), BenQ PD2700U ($400+)
 - High pixel density shows more code without scrolling
 - Wide enough for side-by-side code and editor windows
 
-Secondary monitor: 24-27 inches, 1080p or 1440p
+Secondary monitor - 24-27 inches, 1080p or 1440p
 - Recommended models: Dell S2422HZ ($200-250), LG 24UD58 ($220-280)
 - Slightly lower resolution on secondary is acceptable since you're reading docs, not coding
 - Matches height with primary monitor when properly mounted
 
-Total cost: $500-750 for quality monitors
+Total cost - $500-750 for quality monitors
 
 Three-Monitor Configuration
 
-Central monitor: 27-32 inches, 1440p or 4K (same as above)
+Central monitor - 27-32 inches, 1440p or 4K (same as above)
 
-Side monitors: Two 24-inch displays, 1440p preferred
+Side monitors - Two 24-inch displays, 1440p preferred
 - Recommended models: BenQ SW240 ($300-400 each), Dell S2422HZ ($200-250 each)
 - Consistency in height and brightness matters more than resolution
 - 1440p on side monitors reduces the feeling of "lesser" displays
 
-Total cost: $900-1200 for all three monitors
+Total cost - $900-1200 for all three monitors
 
 Cable and connectivity requirements:
 - Modern laptops support maximum 2 external displays via USB-C/Thunderbolt
 - Desktops with dedicated graphics cards can handle 3+ displays easily
 - Consider a Thunderbolt docking station ($150-250) for cleaner cable management with laptops
 
-Step 6: Development Workflow Analysis
+Step 6 - Development Workflow Analysis
 
 Evaluate your typical day to determine monitor needs:
 
@@ -168,7 +168,7 @@ Data-heavy workflows (data engineering, database development):
 - Three monitors minimum: Query editor, results, and documentation/reference
 - Consider ultrawide (38-49 inch) single monitor as alternative to three standard displays
 
-Step 7: Ultrawide Monitor Alternative
+Step 7 - Ultrawide Monitor Alternative
 
 Rather than three standard monitors, consider a single ultrawide display (3440x1440 or 5120x1440):
 
@@ -184,11 +184,11 @@ Disadvantages:
 - Expensive ($600-1200)
 - No height adjustability across sections (one monitor curve for entire width)
 
-Popular ultrawide models: LG 38WN95C ($1100), Samsung CRG9 ($800-1000), Asus PA348CCV ($700).
+Popular ultrawide models - LG 38WN95C ($1100), Samsung CRG9 ($800-1000), Asus PA348CCV ($700).
 
 Ultrawides work best for developers who prefer horizontal screen real estate (side-by-side code and docs) over vertical depth. Traditional three monitors provide more flexibility for varied workflows.
 
-Step 8: Monitor Arm Setup
+Step 8 - Monitor Arm Setup
 
 Regardless of monitor count, invest in quality mounting:
 
@@ -196,14 +196,14 @@ Monitor arms ($60-150 each):
 - Ergonomic Studies show monitor arms reduce neck strain by 30-40%
 - Provide desk space by elevating monitors above work surface
 - Allow easy height and angle adjustments throughout the day
-- Recommended: Humanscale M8.1 ($130-170), Ergotron LX ($200-250)
+- Recommended - Humanscale M8.1 ($130-170), Ergotron LX ($200-250)
 
 Arm mounting logistics:
 - Two monitors need two separate arms (one arm + dual mount isn't practical)
 - Three monitors: Either three separate arms or hybrid setup with two arms + monitor stand
 - Verify arm weight capacity: 5-8 lbs per monitor is typical, ensure monitor weight fits
 
-Step 9: Making Your Decision
+Step 9 - Making Your Decision
 
 The right choice depends on your specific situation. Choose a two-monitor setup if:
 - Your desk space is limited (less than 72 inches wide)

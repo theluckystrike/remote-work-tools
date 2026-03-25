@@ -20,32 +20,32 @@ Remote workers spend 8+ hours daily at their desk, but most focus spending on mo
 
 Table of Contents
 
-- [Cable Management: BlueLounge CableBox vs Alternatives](#cable-management-bluelounge-cablebox-vs-alternatives)
-- [Monitor Risers: Creating Desk Real Estate and Ergonomics](#monitor-risers-creating-desk-real-estate-and-ergonomics)
-- [Desk Mats and Desk Pads: Protecting Surfaces and Defining Space](#desk-mats-and-desk-pads-protecting-surfaces-and-defining-space)
-- [Phone Stands: Getting Screens to Eye Level for Video Calls](#phone-stands-getting-screens-to-eye-level-for-video-calls)
-- [USB Hubs: Consolidating Ports Without Adapter Hell](#usb-hubs-consolidating-ports-without-adapter-hell)
-- [Keyboard Accessories: Wrist Rests and Ergonomic Additions](#keyboard-accessories-wrist-rests-and-ergonomic-additions)
-- [Task Lighting: Reducing Eye Strain from Screen Glare](#task-lighting-reducing-eye-strain-from-screen-glare)
-- [Document Holder: Reducing Neck Strain When Referencing Materials](#document-holder-reducing-neck-strain-when-referencing-materials)
-- [Complete Under-$50 Desk Setup: Total Cost](#complete-under-50-desk-setup-total-cost)
+- [Cable Management - BlueLounge CableBox vs Alternatives](#cable-management-bluelounge-cablebox-vs-alternatives)
+- [Monitor Risers - Creating Desk Real Estate and Ergonomics](#monitor-risers-creating-desk-real-estate-and-ergonomics)
+- [Desk Mats and Desk Pads - Protecting Surfaces and Defining Space](#desk-mats-and-desk-pads-protecting-surfaces-and-defining-space)
+- [Phone Stands - Getting Screens to Eye Level for Video Calls](#phone-stands-getting-screens-to-eye-level-for-video-calls)
+- [USB Hubs - Consolidating Ports Without Adapter Hell](#usb-hubs-consolidating-ports-without-adapter-hell)
+- [Keyboard Accessories - Wrist Rests and Ergonomic Additions](#keyboard-accessories-wrist-rests-and-ergonomic-additions)
+- [Task Lighting - Reducing Eye Strain from Screen Glare](#task-lighting-reducing-eye-strain-from-screen-glare)
+- [Document Holder - Reducing Neck Strain When Referencing Materials](#document-holder-reducing-neck-strain-when-referencing-materials)
+- [Complete Under-$50 Desk Setup - Total Cost](#complete-under-50-desk-setup-total-cost)
 - [Buying Strategy and Longevity](#buying-strategy-and-longevity)
-- [Keyboard Stands: Proper Typing Height and Posture](#keyboard-stands-proper-typing-height-and-posture)
-- [Ergonomic Mat: Standing Desk Comfort](#ergonomic-mat-standing-desk-comfort)
-- [Desk Lamp Positioning: Reducing Screen Glare Properly](#desk-lamp-positioning-reducing-screen-glare-properly)
+- [Keyboard Stands - Proper Typing Height and Posture](#keyboard-stands-proper-typing-height-and-posture)
+- [Ergonomic Mat - Standing Desk Comfort](#ergonomic-mat-standing-desk-comfort)
+- [Desk Lamp Positioning - Reducing Screen Glare Properly](#desk-lamp-positioning-reducing-screen-glare-properly)
 - [Cable Management After Accessories Install](#cable-management-after-accessories-install)
-- [The Complete Desk Setup: Month-by-Month](#the-complete-desk-setup-month-by-month)
-- [Maintenance: Keeping Accessories in Good Condition](#maintenance-keeping-accessories-in-good-condition)
+- [The Complete Desk Setup - Month-by-Month](#the-complete-desk-setup-month-by-month)
+- [Maintenance - Keeping Accessories in Good Condition](#maintenance-keeping-accessories-in-good-condition)
 
-Cable Management: BlueLounge CableBox vs Alternatives
+Cable Management - BlueLounge CableBox vs Alternatives
 
 Cables create visual clutter and make desk changes difficult. Proper cable management isn't aesthetic, it's practical. When you need to unplug your laptop quickly, tangled cables slow you down.
 
-BlueLounge CableBox Pro: $35-42
+BlueLounge CableBox Pro - $35-42
 
 The CableBox Pro is a molded rubber organizer that holds 5-8 cables while keeping them tidy underneath or behind the desk. It's purpose-built to prevent cable tangles and costs far less than expensive cable trays.
 
-Why it works: The cable slots are deep enough that cables don't slip out, but shallow enough that you can reach them without disassembling everything. Unlike cheap velcro cable ties that fray, this is durable.
+Why it works - The cable slots are deep enough that cables don't slip out, but shallow enough that you can reach them without disassembling everything. Unlike cheap velcro cable ties that fray, this is durable.
 
 Alternatives and tradeoffs:
 
@@ -70,19 +70,19 @@ Desk setup requiring cable management:
 - Desk lamp
 = 6 cables total
 
-Solution: CableBox Pro ($38) holds all six cables, eliminating visible clutter
-Cost: $38 | Time to setup: 5 minutes | Result: Clean desk, quick unplugging
+Solution - CableBox Pro ($38) holds all six cables, eliminating visible clutter
+Cost - $38 | Time to setup: 5 minutes | Result: Clean desk, quick unplugging
 ```
 
-Monitor Risers: Creating Desk Real Estate and Ergonomics
+Monitor Risers - Creating Desk Real Estate and Ergonomics
 
 Monitor risers solve two problems: raising screens to eye level (reducing neck strain) and creating storage space underneath for keyboard, documents, or small items.
 
-Best Option: AmazonBasics Monitor Stand Riser with Storage: $25-30
+Best Option - AmazonBasics Monitor Stand Riser with Storage: $25-30
 
 This simple wooden riser raises monitors 4 inches, creating substantial space underneath. Unlike expensive ergonomic risers, it's purely functional, no motorization, no bells, just solid construction.
 
-Measurements: 16.5" W × 9" D × 4.5" H. Supports monitors up to 55 lbs.
+Measurements - 16.5" W × 9" D × 4.5" H. Supports monitors up to 55 lbs.
 
 What fits underneath:
 - Mechanical keyboard (with monitor at proper height)
@@ -115,11 +115,11 @@ Monitor on 4" riser + 1-2" monitor stand feet → top of screen at eye level
 Head stays neutral, no cervical spine strain
 ```
 
-Desk Mats and Desk Pads: Protecting Surfaces and Defining Space
+Desk Mats and Desk Pads - Protecting Surfaces and Defining Space
 
 A quality desk mat serves multiple purposes: protects the desk surface, reduces noise when moving items, and visually defines your workspace.
 
-Best Option: Grifiti Desk Pad Large: $22-28
+Best Option - Grifiti Desk Pad Large: $22-28
 
 This is a 24" × 14" natural rubber mat that's thin enough for easy mouse movement but thick enough to dampen sound and provide wrist support. Real leather alternatives cost $80+; this offers 90% of the value at 30% of the cost.
 
@@ -140,13 +140,13 @@ Alternatives:
 
 Grifiti Desk Pad Large ($24) for standard work setups.
 
-Phone Stands: Getting Screens to Eye Level for Video Calls
+Phone Stands - Getting Screens to Eye Level for Video Calls
 
 Working from home means video calls dominate your day. Phone stands position your face at the correct angle, eye level rather than looking down at a flat screen.
 
-Best Option: Lamicall Phone Stand: $8-12
+Best Option - Lamicall Phone Stand: $8-12
 
-This is a simple aluminum stand that works with phones of any width (4-7 inches). It's stable, lightweight, and adjusts to portrait or landscape.
+This is a simple aluminum stand that works with phones of any width (4-7 inches). It's stable, lightweight, and adjusts to portrait or field.
 
 Why it matters for video calls:
 - Phone at eye level = camera sees your face straight on, not looking down
@@ -177,13 +177,13 @@ Phone at eye level, 18-24" from face
 Face directly to camera, professional appearance, better framing
 ```
 
-USB Hubs: Consolidating Ports Without Adapter Hell
+USB Hubs - Consolidating Ports Without Adapter Hell
 
 Modern laptops have limited USB ports. A single hub multiplies connectivity without creating cable tangles.
 
-Best Option: Anker PowerExpand 7-in-1 Hub: $35-45
+Best Option - Anker PowerExpand 7-in-1 Hub: $35-45
 
-This hub adds 7 ports: 4× USB 3.0, 1× USB-C (for charging), SD card reader, and microSD reader. The aluminum build feels premium without the $100+ price tag of Thunderbolt alternatives.
+This hub adds 7 ports - 4× USB 3.0, 1× USB-C (for charging), SD card reader, and microSD reader. The aluminum build feels premium without the $100+ price tag of Thunderbolt alternatives.
 
 What you actually use:
 - 4 USB ports for: wireless mouse, keyboard, external drive, printer
@@ -214,15 +214,15 @@ Usage needs:
 - Wireless mouse (no native port)
 - Keyboard (no native port)
 
-Without hub: Only 0 free ports, must unplug to connect peripherals
-With Anker hub ($40): Plugs into single USB-C port, provides 7 connections
+Without hub - Only 0 free ports, must unplug to connect peripherals
+With Anker hub ($40) - Plugs into single USB-C port, provides 7 connections
 ```
 
-Keyboard Accessories: Wrist Rests and Ergonomic Additions
+Keyboard Accessories - Wrist Rests and Ergonomic Additions
 
 Mechanical keyboards are popular with remote workers, but they create tension without proper wrist support. Adding ergonomic accessories costs far less than replacing a $150 keyboard.
 
-Best Option: Kinesis Ergonomic Wrist Pad: $18-25
+Best Option - Kinesis Ergonomic Wrist Pad: $18-25
 
 This is a gel-filled pad that sits in front of your keyboard. Unlike foam pads, gel maintains firmness over months of use. It cradles your wrist at the correct angle, reducing strain during long typing sessions.
 
@@ -240,11 +240,11 @@ Alternatives:
 
 Kinesis Gel Pad ($22) for any keyboard + daily typing setup.
 
-Task Lighting: Reducing Eye Strain from Screen Glare
+Task Lighting - Reducing Eye Strain from Screen Glare
 
 Remote work offices often lack proper lighting. Screen glare causes eye fatigue. A dedicated task light reduces contrast between your screen and surroundings.
 
-Best Option: BenQ e-Reading Lamp: $40-50
+Best Option - BenQ e-Reading Lamp: $40-50
 
 This lamp is specifically designed for screen work. It has a large diffuser that reduces glare and creates soft illumination. It doesn't blind you with point-source brightness like typical desk lamps.
 
@@ -268,11 +268,11 @@ Alternatives:
 
 BenQ e-Reading Lamp ($45) if you work 8+ hours daily. IKEA HEKTAR ($18) for budget-conscious setups.
 
-Document Holder: Reducing Neck Strain When Referencing Materials
+Document Holder - Reducing Neck Strain When Referencing Materials
 
 If you frequently reference documents, a document holder positions materials at your peripheral vision without turning your head.
 
-Best Option: 3M Document Holder: $12-16
+Best Option - 3M Document Holder: $12-16
 
 This is a simple acrylic panel that holds 8-10 sheets of paper at a 20-degree angle, positioned between your keyboard and monitor. It's invisible (doesn't clutter your desk) but invaluable when transcribing or following printed instructions.
 
@@ -292,7 +292,7 @@ Alternatives:
 
 3M Document Holder ($14) if you reference docs weekly; skip otherwise.
 
-Complete Under-$50 Desk Setup: Total Cost
+Complete Under-$50 Desk Setup - Total Cost
 
 ```
 Priority accessories for complete setup:
@@ -301,14 +301,14 @@ Essential (creates immediate impact):
 - Monitor Riser (AmazonBasics): $26
 - Desk Pad (Grifiti): $24
 - USB Hub (Anker): $40
-Subtotal: $90 (over budget, so prioritize riser + hub)
+Subtotal - $90 (over budget, so prioritize riser + hub)
 
 Core setup (recommended):
 - Monitor Riser: $26
 - USB Hub: $40
 - Phone Stand: $10
 - Wrist Pad: $22
-Subtotal: $98 (split across 2-3 months)
+Subtotal - $98 (split across 2-3 months)
 
 Complete setup (if buying all):
 - Monitor Riser: $26
@@ -319,7 +319,7 @@ Complete setup (if buying all):
 - Cable Management: $38
 - Task Light: $45
 - Document Holder: $14
-Total: $219 (buy in priority order)
+Total - $219 (buy in priority order)
 ```
 
 Buying Strategy and Longevity
@@ -344,11 +344,11 @@ Durability ranking:
 
 All recommendations avoid cheap materials that degrade quickly. A $24 desk pad that lasts 3 years ($8/year) is better value than a $8 pad that deteriorates in 6 months ($16/year).
 
-Keyboard Stands: Proper Typing Height and Posture
+Keyboard Stands - Proper Typing Height and Posture
 
 Many remote workers type at the wrong height. Laptop keyboards are too low; desktop keyboards often sit too high. A keyboard stand or tray positions your keyboard at the correct height, elbows at 90 degrees, wrists neutral.
 
-Best Option: Adjustable Keyboard Tray: $28-35
+Best Option - Adjustable Keyboard Tray: $28-35
 
 A simple mechanical keyboard tray mounts under your desk and adjusts to the right height. It costs far less than an ergonomic desk.
 
@@ -360,10 +360,10 @@ Why proper keyboard height matters:
 
 Setup example:
 ```
-Wrong: Keyboard on desk, elbows at 60 degrees (too high)
+Wrong - Keyboard on desk, elbows at 60 degrees (too high)
 Shoulder strain, wrist tension
 
-Right: Keyboard on adjustable tray at elbow height (90 degrees)
+Right - Keyboard on adjustable tray at elbow height (90 degrees)
 Relaxed shoulders, neutral wrists, proper typing
 ```
 
@@ -378,11 +378,11 @@ Alternatives:
 
 Adjustable keyboard tray ($32) for under-desk mounting. If you're using a laptop, pair with an external keyboard rather than trying to use the laptop keyboard at the right height.
 
-Ergonomic Mat: Standing Desk Comfort
+Ergonomic Mat - Standing Desk Comfort
 
 If you use a standing desk or stand periodically, an anti-fatigue mat reduces leg and foot strain. Even standing still requires your feet to work; a cushioned mat distributes pressure better.
 
-Best Option: Vive Anti-Fatigue Mat: $25-32
+Best Option - Vive Anti-Fatigue Mat: $25-32
 
 This is a 3/4-inch foam mat designed for standing work. It's not as thick as industrial mats, but sufficient for 1-2 hour standing sessions.
 
@@ -409,7 +409,7 @@ Standing desk workflow:
 = Balanced throughout day, legs stay fresh
 ```
 
-Desk Lamp Positioning: Reducing Screen Glare Properly
+Desk Lamp Positioning - Reducing Screen Glare Properly
 
 Earlier, we discussed task lighting. But lamp positioning is equally important. Improper placement causes screen glare, defeating the purpose.
 
@@ -438,12 +438,12 @@ Combining Task Light with Ambient Light
 
 Proper desk lighting combines two sources:
 
-Ambient (room) lighting: 200-300 lumens
+Ambient (room) lighting - 200-300 lumens
 - Ceiling lights or indirect overhead
 - Reduces contrast between screen and surroundings
 - Prevents eye strain from over-bright screen in dark room
 
-Task lighting (desk lamp): 300-500 lumens
+Task lighting (desk lamp) - 300-500 lumens
 - Focused on desk surface
 - Illuminates documents, keyboard
 - Creates proper working area contrast
@@ -465,41 +465,41 @@ Each slot is labeled, cables don't tangle, you can grab
 any cable in 2 seconds without disrupting others
 ```
 
-The Complete Desk Setup: Month-by-Month
+The Complete Desk Setup - Month-by-Month
 
 Building an ergonomic desk doesn't happen overnight. This plan spreads purchases across 3 months:
 
-Month 1: Ergonomics ($50)
+Month 1 - Ergonomics ($50)
 - Monitor riser: $26
 - Phone stand: $10
 - Wrist pad: $14
 ```
-Impact: Neck and wrist support, improves video call appearance
-Time: 15 minutes to set up
+Impact - Neck and wrist support, improves video call appearance
+Time - 15 minutes to set up
 ```
 
-Month 2: Cable Management + Efficiency ($50)
+Month 2 - Cable Management + Efficiency ($50)
 - CableBox Pro: $38
 - Cable clips: $6
 - USB hub: $6 (if not already owned)
 ```
-Impact: Eliminates desk clutter, faster to switch devices
-Time: 30 minutes to organize
+Impact - Eliminates desk clutter, faster to switch devices
+Time - 30 minutes to organize
 ```
 
-Month 3: Lighting + Ergonomic Refinement ($50)
+Month 3 - Lighting + Ergonomic Refinement ($50)
 - Task light: $35
 - Keyboard tray or desk mat: $15
 ```
-Impact: Reduced eye strain, better typing posture
-Time: 1 hour to install
+Impact - Reduced eye strain, better typing posture
+Time - 1 hour to install
 ```
 
-Total spent over 3 months: $150
+Total spent over 3 months - $150
 
 This is less than many people spend on a single high-end ergonomic chair, and the combined effect is often more impactful.
 
-Maintenance: Keeping Accessories in Good Condition
+Maintenance - Keeping Accessories in Good Condition
 
 These accessories last years if maintained:
 

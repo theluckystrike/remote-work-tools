@@ -20,7 +20,7 @@ Migrating from HipChat to Slack represents a significant shift in how remote tea
 
 Understanding Your Starting Point
 
-HipChat came in two flavors: HipChat Server (self-hosted) and HipChat Cloud (hosted). The migration path differs slightly depending on which version you're coming from, but the core challenges remain consistent across both.
+HipChat came in two flavors - HipChat Server (self-hosted) and HipChat Cloud (hosted). The migration path differs slightly depending on which version you're coming from, but the core challenges remain consistent across both.
 
 Before initiating any migration, audit your current HipChat usage. Run this against your HipChat API to get a snapshot of active rooms and users:
 
@@ -93,16 +93,16 @@ HipChat room names often followed project codes or team names. Slack channels us
 ```bash
 Recommended Slack channel naming structure
 
-Team channels (prefix: team-, eng-, product-)
+Team channels (prefix - team-, eng-, product-)
 team-engineering
 team-design
 product-frontend
 
-Project channels (prefix: proj-)
+Project channels (prefix - proj-)
 proj-website-redesign
 proj-mobile-app-v2
 
-Function channels (prefix: support-, ops-, dev-)
+Function channels (prefix - support-, ops-, dev-)
 support-frontend
 ops-infrastructure
 dev-ci-cd
@@ -130,7 +130,7 @@ Create a spreadsheet mapping HipChat usernames to email addresses. Slack user pr
 
 ```bash
 Bulk invite users to Slack using CSV
-Format: email,first_name,last_name
+Format - email,first_name,last_name
 save as users.csv
 
 slackcli users import --channels "#general,#team-engineering" users.csv
@@ -196,7 +196,7 @@ HipChat slash commands map to Slack slash commands. The implementation differs b
 
 ```bash
 Slack slash command setup
-Create in: Apps > Custom Integration > Slash Commands
+Create in - Apps > Custom Integration > Slash Commands
 Point to your existing endpoint that handled HipChat commands
 Most code can be reused with minor header adjustments
 ```

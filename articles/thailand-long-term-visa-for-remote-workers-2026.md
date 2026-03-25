@@ -20,9 +20,9 @@ The LTR (Long-Term Resident) visa is the best option for remote workers in Thail
 
 Table of Contents
 
-- [Understanding Thailand's Visa ecosystem for Remote Workers](#understanding-thailands-visa-ecosystem-for-remote-workers)
-- [LTR Visa: The Primary Choice for Remote Workers](#ltr-visa-the-primary-choice-for-remote-workers)
-- [Smart Visa: For Tech Professionals](#smart-visa-for-tech-professionals)
+- [Understanding Thailand's Visa environment for Remote Workers](#understanding-thailands-visa-environment-for-remote-workers)
+- [LTR Visa - The Primary Choice for Remote Workers](#ltr-visa-the-primary-choice-for-remote-workers)
+- [Smart Visa - For Tech Professionals](#smart-visa-for-tech-professionals)
 - [Practical Tips for Developers](#practical-tips-for-developers)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 - [Financial Planning for Long-Term Stay](#financial-planning-for-long-term-stay)
@@ -35,7 +35,7 @@ Table of Contents
 - [Practical First Month Checklist](#practical-first-month-checklist)
 - [When to Renew, Extend, or Move On](#when-to-renew-extend-or-move-on)
 
-Understanding Thailand's Visa ecosystem for Remote Workers
+Understanding Thailand's Visa environment for Remote Workers
 
 Thailand offers several visa pathways for long-term stays, but not all are suitable for remote workers. The key options in 2026 include:
 
@@ -46,7 +46,7 @@ Thailand offers several visa pathways for long-term stays, but not all are suita
 
 For most developers and digital nomads, the LTR visa or Smart Visa will be the most practical choices. Both allow legal remote work for foreign employers without requiring local employment.
 
-LTR Visa: The Primary Choice for Remote Workers
+LTR Visa - The Primary Choice for Remote Workers
 
 The LTR visa, launched in 2023 and refined through 2026, specifically targets remote workers, digital nomads, and location-independent professionals. Here's what makes it attractive:
 
@@ -87,7 +87,7 @@ THAILAND_LTR_DOCS=(
 
 Processing typically takes 20-60 business days, though expedited processing is available for an additional fee.
 
-Smart Visa: For Tech Professionals
+Smart Visa - For Tech Professionals
 
 The Smart Visa program offers an alternative pathway, particularly for those in the technology sector. It includes four categories:
 
@@ -178,7 +178,7 @@ Understanding the cost of living helps with visa planning:
 | Transportation (motorcycle) | 3,000-5,000 THB |
 | Healthcare (insurance) | 3,000-8,000 THB |
 
-Total monthly budget: 25,000-46,000 THB ($700-$1,300 USD)
+Total monthly budget - 25,000-46,000 THB ($700-$1,300 USD)
 
 When to Consider Alternative Destinations
 
@@ -262,7 +262,7 @@ Bangkok
 - SawaOffice: Affordable option popular with developers
 - myNex: Spacious, multiple locations, occasional freelancer burnout from overuse
 
-Rates: 3,000-8,000 THB/month or 400-800 THB day pass
+Rates - 3,000-8,000 THB/month or 400-800 THB day pass
 
 Chiang Mai
 
@@ -270,7 +270,7 @@ Chiang Mai
 - The Punspace: Established, reliable, multiple locations
 - CO.WORK Chiang Mai: Newer option with good facilities
 
-Rates: 2,000-3,500 THB/month
+Rates - 2,000-3,500 THB/month
 
 Phuket
 

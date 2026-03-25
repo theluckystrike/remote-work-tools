@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Bali's Power Infrastructure
+Step 1 - Understand Bali's Power Infrastructure
 
 Bali operates on 230V/50Hz electrical current, matching European standards. Most modern apartments in tourist areas like Canggu, Seminyak, and Ubud provide relatively stable power, but older buildings and rural areas may experience fluctuations, outages, or inconsistent grounding.
 
@@ -40,7 +40,7 @@ The primary challenges you'll encounter include:
 
 Before signing a lease, request to test the power quality. A simple voltage meter costs around $15 and provides immediate insights into the electrical stability.
 
-Step 2: Essential Equipment for Reliable Power
+Step 2 - Essential Equipment for Reliable Power
 
 Uninterruptible Power Supply (UPS)
 
@@ -49,8 +49,8 @@ For developers, an UPS serves two critical functions: battery backup during outa
 ```bash
 Calculate your power requirements
 Developer workstation setup
-Monitor: 30W, Desktop: 400W, Router: 10W, Lights: 20W
-Total: ~460W, recommended UPS: 800VA+ (provides 15-30 min backup)
+Monitor - 30W, Desktop: 400W, Router: 10W, Lights: 20W
+Total - ~460W, recommended UPS: 800VA+ (provides 15-30 min backup)
 ```
 
 For a typical developer setup with one monitor and desktop computer, a 600-800VA UPS provides 15-30 minutes of runtime, sufficient to save work and gracefully shut down systems during outages.APC Back-UPS 600 or similar units are widely available in Bali through Tokopedia or local electronics markets.
@@ -60,7 +60,7 @@ Voltage Stabilizers
 If your rental shows consistent voltage fluctuations (measuring below 210V or above 250V), a voltage stabilizer becomes essential. These devices automatically adjust output to maintain consistent 230V:
 
 ```python
-Pseudocode: Monitor voltage with Raspberry Pi + voltage sensor
+Pseudocode - Monitor voltage with Raspberry Pi + voltage sensor
 import board
 import adafruit_veml7700
 
@@ -82,11 +82,11 @@ Bali uses Type C and Type F European plugs (two round pins). Prepare:
 - Type C to Type A/B adapters if bringing US equipment
 - USB-C PD charging hub for mobile devices
 
-Step 3: Network Connectivity Solutions
+Step 3 - Network Connectivity Solutions
 
 Reliable power directly impacts network stability. Here's how to ensure continuous connectivity:
 
-Primary Internet: Fiber or Stable DSL
+Primary Internet - Fiber or Stable DSL
 
 Canggu and Seminyak areas have fiber internet available through providers like:
 
@@ -102,7 +102,7 @@ Always maintain a backup connection:
 
 ```bash
 Configure automatic failover on Linux using ifmetric
-Install: sudo apt install ifmetric
+Install - sudo apt install ifmetric
 
 /etc/network/interfaces configuration
 auto eth0
@@ -117,7 +117,7 @@ iface wlan0 inet dhcp
 
 A mobile hotspot with a local SIM (Telkomsel, XL, or Indosat) provides failover. Local SIM cards with 20-30GB data plans cost approximately $10-15 monthly.
 
-Step 4: Workspace Layout and Ergonomics
+Step 4 - Workspace Layout and Ergonomics
 
 Power Distribution
 
@@ -147,14 +147,14 @@ Bali's humidity and temperature affect both comfort and equipment longevity. Air
 
 Position your desk away from direct sunlight to reduce monitor glare and minimize cooling requirements.
 
-Step 5: Developer-Specific Configurations
+Step 5 - Developer-Specific Configurations
 
 Power Loss Protection
 
 Configure your systems to handle unexpected shutdowns:
 
 ```bash
-Linux: Enable UPS monitoring with NUT (Network UPS Tools)
+Linux - Enable UPS monitoring with NUT (Network UPS Tools)
 sudo apt install nut
 
 /etc/nut/ups.conf
@@ -172,7 +172,7 @@ Automated Backup During Outages
 Set up automated cloud backups that trigger on power events:
 
 ```python
-Python script: Trigger backup on power status change
+Python script - Trigger backup on power status change
 import subprocess
 import threading
 
@@ -187,7 +187,7 @@ def on_power_restore():
 
 Services like Dropbox, Google Drive, or rclone with cloud storage provide automatic file synchronization.
 
-Step 6: Practical Checklist
+Step 6 - Practical Checklist
 
 Before moving into your Bali rental:
 
@@ -200,7 +200,7 @@ Before moving into your Bali rental:
 - [ ] Set up automated backup systems
 - [ ] Configure network failover
 
-Step 7: Cost Breakdown: Monthly Home Office in Bali
+Step 7 - Cost Breakdown: Monthly Home Office in Bali
 
 | Item | Monthly Cost (USD) | Notes |
 |------|-------------------|-------|
@@ -214,7 +214,7 @@ Step 7: Cost Breakdown: Monthly Home Office in Bali
 
 A coworking space membership serves as your backup workspace when power or internet problems persist at home.
 
-Step 8: Handling Extended Power Outages
+Step 8 - Handling Extended Power Outages
 
 For outages lasting more than 30 minutes:
 
@@ -229,7 +229,7 @@ sudo shutdown -h now
 
 Trigger this automatically when your UPS reports low battery via NUT monitoring.
 
-Step 9: Rainy Season Considerations
+Step 9 - Rainy Season Considerations
 
 Bali's rainy season (November through March) brings more frequent power outages. Plan for:
 

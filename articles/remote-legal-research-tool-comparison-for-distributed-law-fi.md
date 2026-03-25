@@ -50,11 +50,11 @@ API Capabilities:
 - Citation lookup endpoints
 - Webhook support for document updates
 
-Pricing Model: Per-seat licensing with AI add-ons starting around $150/user/month for basic access
+Pricing Model - Per-seat licensing with AI add-ons starting around $150/user/month for basic access
 
-Strengths: primary law database, established reputation in Big Law, citator services
+Strengths - primary law database, established reputation in Big Law, citator services
 
-Weaknesses: API documentation lacks developer-friendly examples, limited customization for workflows
+Weaknesses - API documentation lacks developer-friendly examples, limited customization for workflows
 
 Westlaw Edge + AI
 
@@ -66,11 +66,11 @@ API Capabilities:
 - Natural language search translation
 - Document delivery with format options (PDF, HTML, XML)
 
-Pricing Model: Similar to LexisNexis, enterprise pricing requires sales consultation
+Pricing Model - Similar to LexisNexis, enterprise pricing requires sales consultation
 
-Strengths: Superior citation accuracy, excellent secondary sources, strong integration with drafting tools
+Strengths - Superior citation accuracy, excellent secondary sources, strong integration with drafting tools
 
-Weaknesses: Complex pricing structure, API rate limits can constrain bulk operations
+Weaknesses - Complex pricing structure, API rate limits can constrain bulk operations
 
 Casetext with CoCounsel
 
@@ -82,11 +82,11 @@ API Capabilities:
 - Document upload and analysis endpoints
 - Webhook integrations for workflow automation
 
-Pricing Model: Starting around $50/user/month for individual attorneys, with team plans available
+Pricing Model - Starting around $50/user/month for individual attorneys, with team plans available
 
-Strengths: Modern API design, strong AI features at competitive price point, excellent developer documentation
+Strengths - Modern API design, strong AI features at competitive price point, excellent developer documentation
 
-Weaknesses: Smaller database than legacy platforms, less international coverage
+Weaknesses - Smaller database than legacy platforms, less international coverage
 
 ROSS Intelligence (Bankruptcy Protection Status)
 

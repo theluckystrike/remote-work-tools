@@ -41,7 +41,7 @@ The Capacity Planning Model
 ```
 Capacity = Available days × Focus ratio
 
-Engineer: 10 days in sprint
+Engineer - 10 days in sprint
   Minus: 1 day meetings + admin
   Minus: 0.5 days on-call rotation
   Minus: 0.5 days PTO
@@ -72,11 +72,11 @@ calculate_capacity "Carlos"  10 2 0   0.12
 
 1. Linear (Best for Engineering Teams)
 
-Cost: $8/user/month
-Best for: Sprint-based engineering with cycle tracking
+Cost - $8/user/month
+Best for - Sprint-based engineering with cycle tracking
 
 ```bash
-Linear API: get current cycle capacity
+Linear API - get current cycle capacity
 curl -X POST "https://api.linear.app/graphql" \
   -H "Authorization: Bearer $LINEAR_API_KEY" \
   -H "Content-Type: application/json" \
@@ -121,7 +121,7 @@ Member settings:
   Bob:     10 pts/cycle capacity
   Carlos:  8 pts/cycle (30% on other team)
 
-Auto-limit: Warn when member exceeds their capacity target
+Auto-limit - Warn when member exceeds their capacity target
 ```
 
 2. Notion Capacity Tracker
@@ -131,7 +131,7 @@ For teams already in Notion, a database works well:
 ```markdown
 Sprint Capacity Database Properties:
 
-Sprint (Select): Sprint 42
+Sprint (Select) - Sprint 42
 Engineer (Person)
 Sprint Days (Number)
 PTO Days (Number)
@@ -153,11 +153,11 @@ Status (Formula):
 
 3. Float (Best for Agencies and Multi-Project)
 
-Cost: $6/user/month
-Best for: Teams working across multiple projects with billable hour tracking
+Cost - $6/user/month
+Best for - Teams working across multiple projects with billable hour tracking
 
 ```bash
-Float API: get team availability for next 2 weeks
+Float API - get team availability for next 2 weeks
 curl "https://api.float.com/v3/people" \
   -H "Authorization: Bearer $FLOAT_API_TOKEN" | \
   jq '.[] | {name: .name, department: .department, hours_per_day: .work_days.hours}'
@@ -302,7 +302,7 @@ team = [
 
 capacity = quarterly_capacity(team, 2026, 2)
 print(json.dumps(capacity, indent=2))
-Total team capacity: sum of effective_days
+Total team capacity - sum of effective_days
 ```
 
 Weekly Async Capacity Update Template
@@ -310,7 +310,7 @@ Weekly Async Capacity Update Template
 ```markdown
 Capacity Update. Week of March 23
 
-Post in: #capacity-planning by Monday 10am
+Post in - #capacity-planning by Monday 10am
 
 Format:
 @[name]: [available days this week] days | Focus: [primary project]
@@ -383,7 +383,7 @@ Beyond sprint-level planning, remote engineering teams benefit from a quarterly 
 
 ```markdown
 Q2 Capacity Review. Async Template
-Due: April 1, post in Notion before EOD
+Due - April 1, post in Notion before EOD
 
 Team Capacity Overview
 - Total team-days in Q2: [run quarterly-capacity.py]

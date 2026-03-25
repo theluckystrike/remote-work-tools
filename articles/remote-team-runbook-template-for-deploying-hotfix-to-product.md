@@ -39,9 +39,9 @@ Before initiating any hotfix deployment, verify these conditions:
 
 If all conditions are met, proceed to the deployment workflow.
 
-Phase 1: Immediate Response (0-5 minutes)
+Phase 1 - Immediate Response (0-5 minutes)
 
-Trigger: Production incident confirmed via monitoring or customer report
+Trigger - Production incident confirmed via monitoring or customer report
 
 Actions:
 
@@ -78,7 +78,7 @@ curl -X POST "$SLACK_WEBHOOK_URL" \
   }"
 ```
 
-Phase 2: Fix Development and Initial Review (5-20 minutes)
+Phase 2 - Fix Development and Initial Review (5-20 minutes)
 
 Create a dedicated hotfix branch and implement your fix. Use a naming convention that makes the purpose obvious:
 
@@ -87,11 +87,11 @@ git checkout -b hotfix/critical-login-timeout-fix
 Implement your fix
 git commit -m "Fix: Resolve login timeout for expired sessions
 
-Root cause: Session cleanup runs before token validation
-Fix: Reorder validation logic in auth middleware
+Root cause - Session cleanup runs before token validation
+Fix - Reorder validation logic in auth middleware
 
-Risk: Low - affects only expired sessions
-Tested: Unit tests pass, verified in staging"
+Risk - Low - affects only expired sessions
+Tested - Unit tests pass, verified in staging"
 ```
 
 Async Approval Protocol:
@@ -112,8 +112,8 @@ Code Snippet. Hotfix PR Template:
 ```markdown
 Hotfix Pull Request
 
-Severity: [Critical / High / Medium]
-Incident Reference: [Link to incident]
+Severity - [Critical / High / Medium]
+Incident Reference - [Link to incident]
 
 Root Cause
 [Explain what caused the bug]
@@ -136,7 +136,7 @@ Approval
 - [ ] Explicit approval: ___________
 ```
 
-Phase 3: Deployment Execution (20-30 minutes)
+Phase 3 - Deployment Execution (20-30 minutes)
 
 Once approval is obtained, execute the deployment:
 
@@ -190,16 +190,16 @@ for path in "/login" "/dashboard" "/api/critical"; do
 done
 ```
 
-Phase 4: Post-Incident Documentation (30-60 minutes)
+Phase 4 - Post-Incident Documentation (30-60 minutes)
 
 After the hotfix is verified stable, document the incident:
 
 ```markdown
-Incident Report: [Title]
+Incident Report - [Title]
 
-Date: [ISO timestamp]
-Duration: [start to resolution]
-Severity: SEV1
+Date - [ISO timestamp]
+Duration - [start to resolution]
+Severity - SEV1
 
 What Happened
 [Brief description of the incident]

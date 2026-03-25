@@ -244,7 +244,7 @@ Without Residency
 
 Practical Steps to Establish Residency
 
-Step 1: Evaluate Your Priorities
+Step 1 - Evaluate Your Priorities
 
 Consider these factors:
 
@@ -261,7 +261,7 @@ FACTORS=(
 )
 ```
 
-Step 2: Assess Eligibility
+Step 2 - Assess Eligibility
 
 Gather documentation proving:
 
@@ -270,7 +270,7 @@ Gather documentation proving:
 - Clean background (police clearance certificates)
 - Health status (insurance, medical exams if required)
 
-Step 3: Application Preparation
+Step 3 - Application Preparation
 
 Most applications require:
 
@@ -280,7 +280,7 @@ Most applications require:
 4. Accommodation evidence: Rental agreement or property deed
 5. Background checks: Apostilled criminal records
 
-Step 4: Application Submission
+Step 4 - Application Submission
 
 Process varies by country:
 

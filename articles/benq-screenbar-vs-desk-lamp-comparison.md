@@ -43,9 +43,9 @@ The fundamental distinction between these two lighting approaches lies in how th
 
 For developers working with multiple monitors, this difference becomes particularly significant. Screen glare interferes with code readability, especially when working with dark themes where reflections are more noticeable. The ScreenBar's design specifically addresses this issue by keeping light off the display while illuminating your keyboard and desk area.
 
-Physical design implications: The ScreenBar's asymmetric lenses bend light downward at specific angles, creating an illumination pattern that brightens your workspace while leaving the monitor dark. A desk lamp, even when positioned optimally, can't achieve this because it radiates light in all directions. Some light inevitably bounces off your monitor screen, creating glare.
+Physical design implications - The ScreenBar's asymmetric lenses bend light downward at specific angles, creating an illumination pattern that brightens your workspace while leaving the monitor dark. A desk lamp, even when positioned optimally, can't achieve this because it radiates light in all directions. Some light inevitably bounces off your monitor screen, creating glare.
 
-Video call lighting: For developers on frequent video calls, the ScreenBar provides consistent front-facing illumination that works naturally on camera. Side-mounted desk lamps create uneven lighting on your face and can cast shadows. If you're on 5-10 video calls per week, the ScreenBar's lighting consistency provides measurable value beyond just reducing eye strain.
+Video call lighting - For developers on frequent video calls, the ScreenBar provides consistent front-facing illumination that works naturally on camera. Side-mounted desk lamps create uneven lighting on your face and can cast shadows. If you're on 5-10 video calls per week, the ScreenBar's lighting consistency provides measurable value beyond just reducing eye strain.
 
 Light Quality and Eye Comfort
 
@@ -78,9 +78,9 @@ The ScreenBar eliminates this concern entirely. By mounting on the monitor bezel
 
 However, monitor compatibility matters. The ScreenBar works best with monitors between 10mm and 45mm thick. Curved monitors, ultrawide displays, and monitors with non-standard bezels may require additional mounting solutions or may not be compatible at all.
 
-Ultrawide monitor compatibility: Ultrawide monitors (3440x1440 and larger) present challenges. The standard ScreenBar only covers the center portion of the display. Remote workers with ultrawides often pair a BenQ ScreenBar with an additional desk lamp positioned at an angle to cover the edges. This hybrid setup costs more ($200+) but still saves desk space compared to dual side lamps.
+Ultrawide monitor compatibility - Ultrawide monitors (3440x1440 and larger) present challenges. The standard ScreenBar only covers the center portion of the display. Remote workers with ultrawides often pair a BenQ ScreenBar with an additional desk lamp positioned at an angle to cover the edges. This hybrid setup costs more ($200+) but still saves desk space compared to dual side lamps.
 
-Multiple monitor setups: With three 27-inch monitors, a single ScreenBar on the center monitor leaves the side displays inadequately lit. Options:
+Multiple monitor setups - With three 27-inch monitors, a single ScreenBar on the center monitor leaves the side displays inadequately lit. Options:
 1. ScreenBar on center + desk lamp for sides ($150-200 total)
 2. Three individual ScreenBars ($300+ total, excessive for most workflows)
 3. Single wide desk lamp arc ($120-180) positioned above all monitors
@@ -135,19 +135,19 @@ Ergonomic Setup Guidelines
 
 Proper lighting placement prevents long-term neck and eye strain. Here's a setup checklist for either option:
 
-Monitor Height: Top of your primary monitor should be at or slightly below eye level when sitting normally. This positioning, combined with properly placed lighting, minimizes neck rotation.
+Monitor Height - Top of your primary monitor should be at or slightly below eye level when sitting normally. This positioning, combined with properly placed lighting, minimizes neck rotation.
 
-Lighting Distance: Task lighting should be positioned 12-18 inches from your keyboard surface. For the ScreenBar, this is automatic. For desk lamps, measure the height from the lamp to your keyboard, too close causes harsh shadows, too far reduces effectiveness.
+Lighting Distance - Task lighting should be positioned 12-18 inches from your keyboard surface. For the ScreenBar, this is automatic. For desk lamps, measure the height from the lamp to your keyboard, too close causes harsh shadows, too far reduces effectiveness.
 
-Angle of Incidence: Light should approach your work surface at approximately 45 degrees. This angle minimizes glare on your screen while adequately illuminating your keyboard and documentation.
+Angle of Incidence - Light should approach your work surface at approximately 45 degrees. This angle minimizes glare on your screen while adequately illuminating your keyboard and documentation.
 
-Multiple Monitor Considerations: If using three monitors, a single desk lamp cannot evenly light all screens. The ScreenBar's centered position works better for multi-monitor setups because it illuminates the area under all displays without directional bias.
+Multiple Monitor Considerations - If using three monitors, a single desk lamp cannot evenly light all screens. The ScreenBar's centered position works better for multi-monitor setups because it illuminates the area under all displays without directional bias.
 
 Long-Term Durability and Value
 
-BenQ ScreenBar lifespan: LED technology lasts 30,000+ hours. At eight hours daily use, expect 10+ years of operation. The USB connection degrades over time if frequently plugged and unplugged. Estimate replacement every 5-7 years for daily-use professionals.
+BenQ ScreenBar lifespan - LED technology lasts 30,000+ hours. At eight hours daily use, expect 10+ years of operation. The USB connection degrades over time if frequently plugged and unplugged. Estimate replacement every 5-7 years for daily-use professionals.
 
-Traditional lamp lifespan: LED bulbs last similarly long, but the mechanical arm components may fail first. Heavy-use professionals replace lamps every 3-5 years on average.
+Traditional lamp lifespan - LED bulbs last similarly long, but the mechanical arm components may fail first. Heavy-use professionals replace lamps every 3-5 years on average.
 
 Over a decade, the ScreenBar's higher upfront cost amortizes to reasonable per-year expense. The lower maintenance overhead (no positioning adjustments, consistent performance) adds value beyond the initial price.
 
@@ -196,9 +196,9 @@ Long-term Cost of Ownership
 
 Beyond initial purchase price, consider total cost of ownership:
 
-ScreenBar: Initial cost $99-130. Replacement every 7-10 years. LED lasts 30,000+ hours (8 years at 8 hours daily). Minimal maintenance. Total decade cost: ~$150-180.
+ScreenBar - Initial cost $99-130. Replacement every 7-10 years. LED lasts 30,000+ hours (8 years at 8 hours daily). Minimal maintenance. Total decade cost: ~$150-180.
 
-Quality desk lamp: Initial cost $50-150. Replacement every 4-6 years. Bulb replacement every 2-3 years (~$15 per replacement). Basic maintenance required. Total decade cost: ~$200-250.
+Quality desk lamp - Initial cost $50-150. Replacement every 4-6 years. Bulb replacement every 2-3 years (~$15 per replacement). Basic maintenance required. Total decade cost: ~$200-250.
 
 ScreenBar breaks down roughly to: $15-18 per year
 Desk lamp breaks down roughly to: $20-25 per year
@@ -211,24 +211,24 @@ Troubleshooting Common Setup Issues
 
 Even optimal lighting setups encounter problems. Here's how to diagnose and fix common issues:
 
-Problem: ScreenBar too bright or too dim
+Problem - ScreenBar too bright or too dim
 - Check if the autolight sensor is clean (dust reduces responsiveness)
 - Verify the brightness slider in settings matches your preference
 - Try manual mode if automatic adjustment feels erratic
 - Test in different ambient lighting conditions (evening vs. daylight)
 
-Problem: Inconsistent brightness across monitors
+Problem - Inconsistent brightness across monitors
 - Single ScreenBar on center monitor won't light outer displays equally
 - Solution: Add a side desk lamp with warm color temperature (3000K) for outer edges
 - Cost-effective hybrid approach: ScreenBar center (~$99) + budget desk lamp side (~$40)
 
-Problem: Screen glare still visible
+Problem - Screen glare still visible
 - Verify the ScreenBar is mounted perpendicular to the desk
 - Adjust monitor tilt angle, even 5 degrees affects glare perception
 - Check for window reflections competing with artificial light
 - Consider an anti-glare monitor protector as supplementary solution
 
-Problem: USB cable too short
+Problem - USB cable too short
 - ScreenBar connects via short USB cable (typically 6-8 feet)
 - Solution: Use a monitor with USB hub (ScreenBar plugs into hub instead of PC)
 - Or: Extend with an USB extension cable positioned along monitor stand
@@ -237,8 +237,8 @@ Integration with Standing Desks
 
 If your monitor height changes throughout the day, lighting positioning becomes complicated:
 
-ScreenBar advantage: Mounted on the monitor, it moves with monitor height automatically
-Desk lamp disadvantage: Fixed height lamp no longer aligns properly when monitor raises/lowers
+ScreenBar advantage - Mounted on the monitor, it moves with monitor height automatically
+Desk lamp disadvantage - Fixed height lamp no longer aligns properly when monitor raises/lowers
 
 For standing desk users, the ScreenBar's automatic adjustment to monitor position represents significant practical value. You don't have to reposition lighting when switching between sit and stand modes.
 

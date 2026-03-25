@@ -69,9 +69,9 @@ Background
 
 Start with sufficient context that any team member can understand why this project matters. Include the business reason, not just the technical task.
 
-Weak: "Update the auth system."
+Weak - "Update the auth system."
 
-Strong: "Our current authentication uses MD5 for password hashing, which failed our latest security audit. We need to migrate to bcrypt to meet SOC2 compliance requirements by Q2."
+Strong - "Our current authentication uses MD5 for password hashing, which failed our latest security audit. We need to migrate to bcrypt to meet SOC2 compliance requirements by Q2."
 
 Requirements
 
@@ -132,10 +132,10 @@ Success Criteria
 
 Practical Examples
 
-Example 1: Feature Request Brief
+Example 1 - Feature Request Brief
 
 ```markdown
-Feature Brief: Dark Mode Toggle
+Feature Brief - Dark Mode Toggle
 
 Background
 User research shows 67% of our users work late hours. Currently, our app forces light mode, causing eye strain for users in low-light environments. This is tracked in issue #1234.
@@ -170,10 +170,10 @@ Acceptance Criteria
 - [ ] Both themes pass accessibility audit
 ```
 
-Example 2: Bug Fix Brief
+Example 2 - Bug Fix Brief
 
 ```markdown
-Bug Brief: Payment Processing Timeout
+Bug Brief - Payment Processing Timeout
 
 Impact
 Users on European servers experience timeout errors when processing payments over $500. Approximately 15% of high-value transactions fail. Customer support tickets increased 40% this month.

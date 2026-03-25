@@ -17,7 +17,7 @@ voice-checked: true
 
 Architecture Decision Records (ADRs) solve a specific remote work problem: when you make a technical decision asynchronously, the reasoning evaporates unless it's written down. In 8 months, nobody remembers why you chose Kafka over RabbitMQ. This guide compares the three practical approaches for async ADR workflows in remote teams.
 
-Option 1: Log4brains (In-Repo, Browsable)
+Option 1 - Log4brains (In-Repo, Browsable)
 
 Log4brains stores ADRs as Markdown files in your repository and generates a browsable web interface. The decision history is version-controlled alongside the code that implements it.
 
@@ -56,7 +56,7 @@ Create a new ADR:
 
 ```bash
 log4brains adr new "Use PostgreSQL over DynamoDB for user data"
-Creates: docs/adr/YYYYMMDD-use-postgresql-over-dynamodb-for-user-data.md
+Creates - docs/adr/YYYYMMDD-use-postgresql-over-dynamodb-for-user-data.md
 ```
 
 ADR template (Log4brains default + async additions):
@@ -65,7 +65,7 @@ ADR template (Log4brains default + async additions):
 Use PostgreSQL over DynamoDB for user data
 
 - Status: [proposed | accepted | deprecated | superseded]
-- Date: 2026-03-22
+- Date - 2026-03-22
 - Deciders: @alice, @bob, @carol
 - Reviewed-by: @david (async review, closed 2026-03-25)
 
@@ -88,9 +88,9 @@ Considered Options
 
 Decision Outcome
 
-Chosen option: PostgreSQL on RDS
+Chosen option - PostgreSQL on RDS
 
-Primary reason: team expertise and query flexibility outweigh DynamoDB's
+Primary reason - team expertise and query flexibility outweigh DynamoDB's
 operational simplicity at our scale. DynamoDB's query model would require
 significant data modeling effort for our analytics requirements.
 
@@ -108,7 +108,7 @@ Negative Consequences
 
 Async Review Notes
 
-Review period: 2026-03-22 to 2026-03-25
+Review period - 2026-03-22 to 2026-03-25
 
 @david (2026-03-23): Agree on PostgreSQL. One question: have we evaluated
 Aurora Serverless to reduce operational overhead on RDS?
@@ -118,7 +118,7 @@ migrate to it if connection management becomes a burden. Adding as a follow-up i
 
 @bob: Voted: approve 
 
-@carol: Voted: approve . Note: document connection limit as known constraint.
+@carol: Voted: approve . Note - document connection limit as known constraint.
 ```
 
 Build and view:
@@ -131,13 +131,13 @@ Build static site for hosting
 log4brains build
 
 Deploy to GitHub Pages (add to CI)
-Output: out/ directory
+Output - out/ directory
 ```
 
-Strengths: Version history matches code history; searchable; PR-based review works naturally.
-Weaknesses: Engineers need to know the CLI; no WYSIWYG editing.
+Strengths - Version history matches code history; searchable; PR-based review works naturally.
+Weaknesses - Engineers need to know the CLI; no WYSIWYG editing.
 
-Option 2: GitHub Discussions
+Option 2 - GitHub Discussions
 
 GitHub Discussions provides a structured forum directly in your repository without extra tooling.
 
@@ -146,17 +146,17 @@ Setup:
 ```
 Repo Settings → Features → Discussions → Enable
 
-Create category: "Architecture Decisions"
-Description: "Proposed and accepted ADRs for [project name]"
-Format: Announcement (only maintainers can create, others reply)
+Create category - "Architecture Decisions"
+Description - "Proposed and accepted ADRs for [project name]"
+Format - Announcement (only maintainers can create, others reply)
 ```
 
 ADR as a Discussion:
 
 ```markdown
-Title: [ADR-042] Use OpenTelemetry over Datadog native SDK
+Title - [ADR-042] Use OpenTelemetry over Datadog native SDK
 
-Status: Proposed → Under Review → Accepted
+Status - Proposed → Under Review → Accepted
 
 Context:
 We're adding distributed tracing. We can use Datadog's native tracing SDK
@@ -174,15 +174,15 @@ Dissent / Alternatives considered:
 @marcus raised that the Datadog native SDK has richer auto-instrumentation
 for Python than OTel currently. We accept this tradeoff.
 
-Review: Open until 2026-03-29. Comment with your vote or concerns.
+Review - Open until 2026-03-29. Comment with your vote or concerns.
 ```
 
 Teammates vote with emoji reactions ( approve,  concerns) and comment in threads.
 
-Strengths: Zero setup; everyone already uses GitHub; easy to link from PRs.
-Weaknesses: No structured browsing (only search); no static site output; easy to lose decisions in a long Discussions list.
+Strengths - Zero setup; everyone already uses GitHub; easy to link from PRs.
+Weaknesses - No structured browsing (only search); no static site output; easy to lose decisions in a long Discussions list.
 
-Option 3: Notion
+Option 3 - Notion
 
 Notion works best when your team already uses it for documentation and wants ADRs integrated with other knowledge.
 
@@ -211,10 +211,10 @@ Notion ADR template:
 ```
 [ADR-NNN] Title
 
-Status: Proposed
-Date: 2026-03-22
-Deciders: @person, @person
-Review Deadline: 2026-03-29
+Status - Proposed
+Date - 2026-03-22
+Deciders - @person, @person
+Review Deadline - 2026-03-29
 ---
 
 Context
@@ -228,12 +228,12 @@ Table of Contents
 - [Related Reading](#related-reading)
 
 Options Considered
-Option A: ...
-Option B: ...
+Option A - ...
+Option B - ...
 
 Decision
-Chosen: [option]
-Rationale: [why]
+Chosen - [option]
+Rationale - [why]
 
 Consequences
 [What becomes easier? What becomes harder?]
@@ -245,8 +245,8 @@ Use the @comments below. Vote with  or  and close with "Approved " or "Concerns 
 all engineers review by [deadline]. @mention someone if you need their specific input.
 ```
 
-Strengths: Rich formatting; linked with other docs; non-engineers can read and comment easily.
-Weaknesses: Not version-controlled; editable after acceptance (can lose history); costs money.
+Strengths - Rich formatting; linked with other docs; non-engineers can read and comment easily.
+Weaknesses - Not version-controlled; editable after acceptance (can lose history); costs money.
 
 Comparison
 
@@ -262,11 +262,11 @@ Comparison
 
 The Right Choice
 
-Use Log4brains if: your team is engineering-heavy, ADRs should live with code, and you want version-controlled decisions.
+Use Log4brains if - your team is engineering-heavy, ADRs should live with code, and you want version-controlled decisions.
 
-Use GitHub Discussions if: you want zero-setup, your team is already in GitHub all day, and you don't need structured browsing.
+Use GitHub Discussions if - you want zero-setup, your team is already in GitHub all day, and you don't need structured browsing.
 
-Use Notion if: non-technical stakeholders need to read or comment on ADRs, or your team already uses Notion for all documentation.
+Use Notion if - non-technical stakeholders need to read or comment on ADRs, or your team already uses Notion for all documentation.
 
 Running the Async Review Process
 
@@ -274,15 +274,15 @@ Whichever tool you pick, the async review process matters more than the tooling.
 
 A practical async review workflow:
 
-Step 1: Author publishes the ADR as "Proposed" and posts in Slack with a clear deadline: "ADR-043: Use Redis for session storage. Review open until Friday EOD. Comments on the Notion page / GitHub Discussion / PR."
+Step 1 - Author publishes the ADR as "Proposed" and posts in Slack with a clear deadline: "ADR-043: Use Redis for session storage. Review open until Friday EOD. Comments on the Notion page / GitHub Discussion / PR."
 
-Step 2: Set a 3-5 day review window. Shorter than 3 days doesn't give distributed team members across time zones a fair chance to review. Longer than 5 days causes context loss.
+Step 2 - Set a 3-5 day review window. Shorter than 3 days doesn't give distributed team members across time zones a fair chance to review. Longer than 5 days causes context loss.
 
-Step 3: Require explicit votes, not just silence. Default approval (no objection = approved) works poorly in remote teams where people miss notifications. Ask each named reviewer to explicitly comment with their vote. Use the "Deciders" field to track who needs to respond.
+Step 3 - Require explicit votes, not just silence. Default approval (no objection = approved) works poorly in remote teams where people miss notifications. Ask each named reviewer to explicitly comment with their vote. Use the "Deciders" field to track who needs to respond.
 
-Step 4: Resolve dissent in writing. If a reviewer raises a concern, the author responds in the ADR document itself (not Slack), updating the "alternatives considered" section if the dissent surfaces a new option. This keeps the decision reasoning in one place.
+Step 4 - Resolve dissent in writing. If a reviewer raises a concern, the author responds in the ADR document itself (not Slack), updating the "alternatives considered" section if the dissent surfaces a new option. This keeps the decision reasoning in one place.
 
-Step 5: Author changes status to "Accepted" once the review period closes and all deciders have voted. Link the PR that implements the decision from the ADR.
+Step 5 - Author changes status to "Accepted" once the review period closes and all deciders have voted. Link the PR that implements the decision from the ADR.
 
 The most common gap in ADR processes is step 4. dissent gets handled in Slack and the ADR stays unchanged. Over time this creates a false picture where every decision looks consensus-based and easy. Write disagreements and minority positions into the document explicitly, so engineers joining the team six months later understand what tradeoffs were consciously accepted and what concerns were noted but overruled. An ADR without documented dissent is often an incomplete record of the actual decision.
 

@@ -31,7 +31,7 @@ Why Miro specifically (vs. Figma, Lucidchart, or Google Docs):
 - Board remains accessible for future reference and updates
 - Free tier supports up to 3 boards, sufficient for many teams
 
-Compared to in-person workshops: Miro's asynchronous compatibility lets team members participate during their work hours rather than requiring everyone at the same time. Distributed teams in different timezones can add input over a few hours or days, then synchronize for the prioritization phase. In-person help would require scheduling around 5+ timezones.
+Compared to in-person workshops - Miro's asynchronous compatibility lets team members participate during their work hours rather than requiring everyone at the same time. Distributed teams in different timezones can add input over a few hours or days, then synchronize for the prioritization phase. In-person help would require scheduling around 5+ timezones.
 
 Prerequisites
 
@@ -43,7 +43,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Preparing Your Miro Board Setup
+Step 1 - Preparing Your Miro Board Setup
 
 Before bringing your team together, you'll need to prepare the Miro board structure. Start by creating a new board specifically for your values exercise, giving it a clear name like "Team Values Wall" or "Our Core Values." This signals the importance of the exercise and creates a dedicated space that won't get lost among other projects.
 
@@ -51,7 +51,7 @@ Set up three main sections on your board using Miro's framing or container tools
 
 Within the brainstorming section, create individual sticky notes for each team member. Use different colors for different roles or departments if that makes sense for your team, but avoid making anyone feel singled out. The goal is inclusive participation, not competitive suggestion-making.
 
-Step 2: Helping the Values Generation Session
+Step 2 - Helping the Values Generation Session
 
 Schedule a synchronous session where everyone can gather in the Miro board at the same time. Even though your team works asynchronously, this exercise benefits from real-time collaboration. The interaction and visible contributions from colleagues spark ideas and energy that asynchronous work sometimes lacks. Typical sessions run 60-90 minutes and should be scheduled during overlap hours when most team members are working.
 
@@ -70,21 +70,21 @@ Give everyone five to ten minutes to add their sticky notes without discussion y
 
 After everyone has contributed, go through the sticky notes together as a group. Read each one aloud and allow the contributor to briefly explain their thinking. This validation matters, people want to feel heard, and having their idea acknowledged publicly reinforces that their perspective matters. During this phase, ask clarifying questions like "What does this look like in practice?" to deepen understanding.
 
-Step 3: Clustering and Organizing Values
+Step 3 - Clustering and Organizing Values
 
 Once everyone has contributed, move to the clustering phase. This is where the real synthesis happens. Look for values that overlap or express similar ideas. For example, "respect," "trust," and "transparency" might all relate to how team members treat each other. Group these together on the board.
 
 Use Miro's ability to draw connection lines between related items. These visual connections help the team see patterns in their values. Often, what seems like a long list of disconnected ideas reveals a smaller set of core themes when grouped together.
 
-How to help clustering: Suggest groupings and ask if the team agrees. For example: "I see several ideas about communication style, transparency, over-communication, sharing knowledge. Should these cluster together?" Let the team refine your suggestions. This participatory approach helps everyone understand how values relate.
+How to help clustering - Suggest groupings and ask if the team agrees. For example: "I see several ideas about communication style, transparency, over-communication, sharing knowledge. Should these cluster together?" Let the team refine your suggestions. This participatory approach helps everyone understand how values relate.
 
 During this phase, encourage discussion about what makes certain values essential versus nice-to-have. Some values might feel universal, things your team couldn't function without. Others might be aspirational, things you want to work toward but don't always achieve. Both types have value, but distinguishing between them helps prioritize.
 
 The clustering process sometimes reveals tensions within the team. One person might value "fast iteration" while another values "thorough review." These tensions aren't problems; they're opportunities to discuss what tradeoffs your team is willing to make. Surfacing these differences openly leads to more honest and functional values.
 
-Handling disagreements: If team members strongly disagree about whether a value belongs in one cluster or another, that's valuable signal. It often indicates that the value's meaning is ambiguous. Use that moment to discuss what the value actually means to different people. You might discover that "fast iteration" for one person means "shipping features quickly" while another person means "short feedback loops on decisions." Clarifying these meanings prevents values from becoming meaningless platitudes.
+Handling disagreements - If team members strongly disagree about whether a value belongs in one cluster or another, that's valuable signal. It often indicates that the value's meaning is ambiguous. Use that moment to discuss what the value actually means to different people. You might discover that "fast iteration" for one person means "shipping features quickly" while another person means "short feedback loops on decisions." Clarifying these meanings prevents values from becoming meaningless platitudes.
 
-Step 4: Narrowing Down to Core Values
+Step 4 - Narrowing Down to Core Values
 
 Most teams find they have twenty or thirty values after clustering, which is too many to be meaningful. The final step is narrowing down to a small number, typically five to seven values that will become your team's core commitments.
 
@@ -94,7 +94,7 @@ After voting, count the results together and discuss. Sometimes the top-voted va
 
 Place the final values prominently in the "Our Values" section of your board. Use larger sticky notes or, if you're comfortable with Miro's design tools, create visually distinct cards for each value. Make them big enough to include a brief explanation of what the value means in practice.
 
-Step 5: Adding Context and Examples
+Step 5 - Adding Context and Examples
 
 A list of values without context rarely influences behavior. Your values wall should include concrete examples of what each value looks like in action. This is where the abstract becomes practical.
 
@@ -102,7 +102,7 @@ For each value, add sticky notes or text boxes with examples specific to your te
 
 Ask team members to contribute real examples from their experience. What have they seen someone do that perfectly embodied a team value? These concrete stories make the values memorable and give new team members clear models to follow.
 
-Step 6: From Values to Decision Framework
+Step 6 - From Values to Decision Framework
 
 A values wall becomes truly powerful when it drives actual decision-making. Without implementation, values become motivational posters on the wall, noticed during onboarding, forgotten in daily work.
 
@@ -115,7 +115,7 @@ Document 2-3 concrete decisions your team has made using your values. Examples:
 
 These real-world examples make values tangible and show that they actually influence decisions.
 
-Step 7: Documenting and Sharing Your Values
+Step 7 - Documenting and Sharing Your Values
 
 Once your Miro board is complete, export or document the values somewhere permanent. Miro boards can be exported as PDFs or images, but also consider adding your values to a more accessible location like a team handbook, wiki, or company documentation.
 
@@ -136,25 +136,25 @@ Miro board best practices for sharing:
 
 Share the Miro board link widely and reference it regularly. Values only matter if they inform daily work. When making decisions, ask "which value applies here?" When onboarding new team members, start by sharing the values wall and discussing what each value means to the team. Record a 5-minute video walkthrough of your values board and include it in onboarding materials.
 
-Step 8: Use Values in Decision-Making
+Step 8 - Use Values in Decision-Making
 
 Create a decision filter that explicitly references values during important team discussions:
 
-Hiring decisions: Which candidate embodies our values? If one value is "continuous learning," you might prioritize candidates who've invested in skill development. If another value is "mentorship," you might prioritize candidates with teaching experience.
+Hiring decisions - Which candidate embodies our values? If one value is "continuous learning," you might prioritize candidates who've invested in skill development. If another value is "mentorship," you might prioritize candidates with teaching experience.
 
-Feature prioritization: Does this feature align with our stated values? If your team values "low cognitive load for users," you might reject a feature with powerful functionality but steep learning curve.
+Feature prioritization - Does this feature align with our stated values? If your team values "low cognitive load for users," you might reject a feature with powerful functionality but steep learning curve.
 
-Process changes: When considering shifting from synchronous to async standups, reference values: "We value asynchronous communication and respect for deep work. This change aligns with both."
+Process changes - When considering shifting from synchronous to async standups, reference values: "We value asynchronous communication and respect for deep work. This change aligns with both."
 
-Conflict resolution: When two team members disagree, reference values to find common ground rather than arguing positions.
+Conflict resolution - When two team members disagree, reference values to find common ground rather than arguing positions.
 
 Performance and promotion decisions: Values guide who gets promoted into leadership. If a value is "enabling others," someone who accumulates individual contributions but doesn't mentor teammates might not be the right promotion candidate. Conversely, someone building team capability aligns with that value.
 
-Step 9: Create Behavioral Accountability Frameworks
+Step 9 - Create Behavioral Accountability Frameworks
 
 Once your team has defined values, create concrete accountability mechanisms tied to those values. This prevents them from becoming meaningless posters.
 
-Value-based feedback form: During performance reviews, ask questions aligned with each value:
+Value-based feedback form - During performance reviews, ask questions aligned with each value:
 
 - "How did this person demonstrate our 'continuous learning' value?"
 - "Give an example of them embodying 'respect for deep work'"
@@ -162,7 +162,7 @@ Value-based feedback form: During performance reviews, ask questions aligned wit
 
 Recording these examples throughout the year creates a feedback loop where people know they're being evaluated against stated values, not arbitrary criteria. They can point to the values wall and say "I'm doing exactly what we committed to."
 
-Quarterly value reflections: Schedule 30-minute team discussions where you pick one value each quarter and reflect:
+Quarterly value reflections - Schedule 30-minute team discussions where you pick one value each quarter and reflect:
 
 1. Did we live this value well this quarter?
 2. Where did we fall short?
@@ -170,7 +170,7 @@ Quarterly value reflections: Schedule 30-minute team discussions where you pick 
 
 Document these reflections in your Miro board or a separate wiki page. Over time, this creates a narrative of your team's values evolution. When you hire new people or conduct retrospectives, you can show "here's how we've developed and refined our values over 18 months."
 
-Step 10: Scaling Values Across Remote Teams
+Step 10 - Scaling Values Across Remote Teams
 
 If you manage multiple teams, your organization's values wall becomes an unifying artifact. Create a parent values wall at the organizational level, then have each team create their own board that details how they implement those values.
 
@@ -193,11 +193,11 @@ Product Team Values (Miro Board 3):
 
 This structure prevents teams from developing misaligned values while allowing department-specific interpretation. You can link the Miro boards together, creating a transparent organizational hierarchy of values.
 
-Step 11: Conflict Resolution Using the Values Wall
+Step 11 - Conflict Resolution Using the Values Wall
 
 When team members disagree on priorities or approaches, use your values wall as a neutral arbiter. For example:
 
-Scenario: One engineer wants to spend a sprint refactoring legacy code. Another wants to ship new features.
+Scenario - One engineer wants to spend a sprint refactoring legacy code. Another wants to ship new features.
 
 Resolution using values:
 1. Pull up your values wall in the meeting
@@ -208,9 +208,9 @@ Resolution using values:
 
 The values wall transforms conflicts from "who's right?" to "what do we value, and what are we willing to sacrifice?" This type of principled discussion builds team maturity and trust.
 
-Step 12: Maintaining and Evolving Your Values Wall
+Step 12 - Maintaining and Evolving Your Values Wall
 
-Step 13: Technical Setup in Miro
+Step 13 - Technical Setup in Miro
 
 For teams new to Miro, a quick setup refresher:
 
@@ -226,7 +226,7 @@ Teams change, and values may need to evolve over time. Schedule periodic reviews
 
 Miro makes this easy because the board remains a living document. You can add new sticky notes, move things around, and update examples at any time. Treat your values wall as a reference document that grows with your team rather than a fixed artifact from a single moment.
 
-Step 14: Tips for Remote Teams Using Miro
+Step 14 - Tips for Remote Teams Using Miro
 
 A few practical tips can make your Miro values session more successful. First, ensure everyone has a Miro account and knows basic Miro navigation before the session. Technical difficulties waste valuable collaborative time.
 
@@ -236,7 +236,7 @@ Third, assign a facilitator who can keep the discussion on track. Without someon
 
 Finally, make it enjoyable. Values creation should feel like a celebration of what makes your team great, not a bureaucratic exercise. Play some music, start with positive stories about the team, and acknowledge the effort everyone is putting into making the team better.
 
-Step 15: Translating Values Into Hiring Criteria
+Step 15 - Translating Values Into Hiring Criteria
 
 Once your values are defined, use them in the hiring process. This ensures new team members are aligned from day one.
 
@@ -254,11 +254,11 @@ Onboarding with values:
 
 On day one, walk the new hire through the values wall. Ask each team member to share one story about a time they lived each value well. This creates immediate cultural immersion and makes the values tangible rather than abstract.
 
-Step 16: Preventing Values from Becoming Platitudes
+Step 16 - Preventing Values from Becoming Platitudes
 
 The biggest risk with values walls is that they become posters everyone ignores. Here's how to prevent that:
 
-Monthly values spotlight: Pick one value each month for team discussion. Ask: "How did we embody this value last month? What are we committing to this month?" This keeps values at the forefront of discussion.
+Monthly values spotlight - Pick one value each month for team discussion. Ask - "How did we embody this value last month? What are we committing to this month?" This keeps values at the forefront of discussion.
 
 Link performance reviews to values: During reviews, don't just discuss projects and deliverables. Ask specific questions:
 - "Which of our values do you feel you demonstrated most strongly?"
@@ -269,18 +269,18 @@ Tie bonuses and promotions to values: If your org has performance bonuses, expli
 
 Values violations warrant discussion: If someone consistently violates stated values, address it in real-time. If your value is "transparency" and someone makes a decision in secret, that's a culture issue worth raising.
 
-Step 17: Exporting and Sharing Your Values
+Step 17 - Exporting and Sharing Your Values
 
 After your Miro session, document the output in multiple formats for accessibility:
 
-PDF format: Export the board as PDF for sharing with executives or prospective hires
-Markdown format: Put values in your team handbook or wiki for easy searching
-Video format: Record a 5-minute walkthrough of the values board to include in onboarding
-Slack integration: Create a Slack custom emoji for each value, use them in discussions
+PDF format - Export the board as PDF for sharing with executives or prospective hires
+Markdown format - Put values in your team handbook or wiki for easy searching
+Video format - Record a 5-minute walkthrough of the values board to include in onboarding
+Slack integration - Create a Slack custom emoji for each value, use them in discussions
 
 The more formats you use, the more likely values stay visible and referenced.
 
-Step 18: Real-World Example: Engineering Team Values
+Step 18 - Real-World Example: Engineering Team Values
 
 Here's what a mature values wall might look like for an engineering team:
 

@@ -19,7 +19,7 @@ voice-checked: true
 
 Manage work-life balance as a remote developer by enforcing three systems: time-block your calendar so deep work and meetings never overlap, automate your end-of-day shutdown with a script that closes Slack, email, and work apps at a fixed time, and set explicit communication windows shared with your team so response-time expectations are clear. These three pillars--time management, environmental design, and automated boundary enforcement--prevent the chronic overwork that remote developers fall into when willpower is the only guardrail. Below are the specific scripts, schedules, and techniques to implement each one.
 
-The Core Challenge: Boundary Erosion
+The Core Challenge - Boundary Erosion
 
 When your office is your home, work can easily consume waking hours. The absence of a commute removes natural transition time, and the convenience of your desk makes it tempting to check "just one more thing" at 10 PM. Research consistently shows that remote workers work longer hours than their office counterparts, often without realizing it.
 
@@ -42,7 +42,7 @@ schedule = {
 }
 ```
 
-The key insight: context switching costs 20-40% of productivity. By grouping meetings and shallow work into specific blocks, you protect deep work hours for complex problem-solving.
+The key insight - context switching costs 20-40% of productivity. By grouping meetings and shallow work into specific blocks, you protect deep work hours for complex problem-solving.
 
 The Pomodoro Technique for Developer Focus
 
@@ -65,7 +65,7 @@ pomodoro() {
 }
 ```
 
-Environmental Design: Separating Work from Life
+Environmental Design - Separating Work from Life
 
 Your physical environment significantly impacts mental separation. Ideally, have a dedicated workspace, but even without a separate room, you can create psychological boundaries.
 
@@ -177,7 +177,7 @@ crontab entry to disable work apps after 6 PM
 0 18 * * 1-5 /path/to/disable-work-apps.sh
 ```
 
-Practical Example: A Full Day Structure
+Practical Example - A Full Day Structure
 
 Here's how these practices combine into a typical day:
 
@@ -193,11 +193,11 @@ Here's how these practices combine into a typical day:
 
 Common Pitfalls to Avoid
 
-The "just checking" trap: Opening work apps "quickly" after hours often leads to 30+ minute detours into tasks. Avoid entirely or batch into a specific evening slot.
+The "just checking" trap - Opening work apps "quickly" after hours often leads to 30+ minute detours into tasks. Avoid entirely or batch into a specific evening slot.
 
-Guilt-driven overwork: Remote workers sometimes overcompensate to prove productivity. Track actual output, not hours logged.
+Guilt-driven overwork - Remote workers sometimes overcompensate to prove productivity. Track actual output, not hours logged.
 
-Isolation creep: Loneliness undermines long-term performance. Schedule regular virtual coffees and maintain non-work social connections.
+Isolation creep - Loneliness undermines long-term performance. Schedule regular virtual coffees and maintain non-work social connections.
 
 Making It Stick
 

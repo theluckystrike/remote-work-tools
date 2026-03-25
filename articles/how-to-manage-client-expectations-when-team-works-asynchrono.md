@@ -52,13 +52,13 @@ Communication Guidelines
 - Urgent issues: Response within 8 hours during team operating hours
 - Critical emergencies: Dedicated escalation path defined per project
 
-Team operating hours: 9 AM - 6 PM in their respective time zones
-Current team distribution: UTC-8 (Americas), UTC+1 (Europe), UTC+9 (Asia-Pacific)
+Team operating hours - 9 AM - 6 PM in their respective time zones
+Current team distribution - UTC-8 (Americas), UTC+1 (Europe), UTC+9 (Asia-Pacific)
 ```
 
 This manages expectations immediately. Clients who agree to these terms cannot reasonably expect midnight responses. Put this in writing in your contract or project charter. a verbal agreement is easy to forget when someone is anxious about a deadline.
 
-One practical tip: frame your response windows in terms of business value rather than team preference. "We maintain 24-hour response windows because it gives us time to research your question thoroughly and get the right person to answer it" lands better than "we don't work nights."
+One practical tip - frame your response windows in terms of business value rather than team preference. "We maintain 24-hour response windows because it gives us time to research your question thoroughly and get the right person to answer it" lands better than "we don't work nights."
 
 Use Status Pages and Public Calendars
 
@@ -67,7 +67,7 @@ Transparency reduces anxiety. When clients can see your team's availability, the
 Create a simple status page or team availability document:
 
 ```javascript
-// Example: availability-api.js - Simple endpoint for team status
+// Example - availability-api.js - Simple endpoint for team status
 const teamMembers = [
   { name: "Alex", timezone: "America/Los_Angeles", hours: "9AM-6PM PT" },
   { name: "Jordan", timezone: "Europe/Berlin", hours: "9AM-6PM CET" },
@@ -137,7 +137,7 @@ Text updates feel impersonal and can misinterpret tone. Async video tools like L
 
 A 2-minute Loom explaining a technical decision accomplishes more than five back-and-forth emails. Clients see your face, hear your reasoning, and feel connected despite async workflows.
 
-The format that works best: start with an one-sentence summary of what the video covers, record a screen share with brief narration, and end with explicit next steps or questions for the client. Keep videos under 5 minutes. Clients are more likely to watch a 3-minute video than a 12-minute one, and a video they don't watch provides zero value.
+The format that works best - start with an one-sentence summary of what the video covers, record a screen share with brief narration, and end with explicit next steps or questions for the client. Keep videos under 5 minutes. Clients are more likely to watch a 3-minute video than a 12-minute one, and a video they don't watch provides zero value.
 
 Create a shared folder (Google Drive, Notion, or Loom workspace) where all project videos accumulate. Clients can review past updates, share them with stakeholders who missed the original send, and reference decisions that were explained weeks ago. This archive prevents the common situation where a client claims they didn't know about a decision that was clearly communicated.
 
@@ -192,7 +192,7 @@ What does NOT qualify as urgent:
 - Minor bugs
 - Questions answerable in documentation
 
-Emergency contact: [phone number] - Only call for qualifying issues
+Emergency contact - [phone number] - Only call for qualifying issues
 ```
 
 This protects your team from constant "urgent" requests that actually aren't. When you receive an "urgent" request that doesn't meet the criteria, acknowledge it promptly within your normal window and explain when it will be addressed. Prompt acknowledgment of non-urgent issues prevents clients from escalating prematurely.

@@ -21,7 +21,7 @@ PagerDuty ($1,499/month for small teams) is the industry standard with the best 
 Table of Contents
 
 - [Prerequisites](#prerequisites)
-- [PagerDuty: The Enterprise Standard](#pagerduty-the-enterprise-standard)
+- [PagerDuty - The Enterprise Standard](#pagerduty-the-enterprise-standard)
 - [Feature Comparison](#feature-comparison)
 - [Troubleshooting](#troubleshooting)
 
@@ -35,7 +35,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Remote On-Call Challenge
+Step 1 - The Remote On-Call Challenge
 
 Remote teams face unique on-call complexities. Traditional single-time-zone on-call shifts don't work across distributed teams. A 4am incident notification to your San Francisco team while Asia team sleeps violates fairness. Without structured rotation policies, senior engineers shoulder disproportionate load. Without automated escalation, incidents wait minutes for humans to notice and acknowledge.
 
@@ -43,7 +43,7 @@ Effective on-call for remote teams requires: (1) timezone-aware scheduling ensur
 
 The cost of poor on-call structure exceeds subscription fees. A team of 8 engineers where 2 senior people handle 70% of incidents faces attrition risk. One burnout-driven resignation costs $150k+ in replacement and ramp time. A tool preventing that risk costs $500-1,500/month, trivial by comparison.
 
-PagerDuty: The Enterprise Standard
+PagerDuty - The Enterprise Standard
 
 PagerDuty costs roughly $1,499/month for teams of 10-20 engineers (advanced features like schedule overrides, escalation policies, and analytics). The cost is high, but PagerDuty's escalation engine prevents incidents from cascading into chaos.
 
@@ -82,9 +82,9 @@ The schedule override feature prevents rigid rotation. "I'm on vacation next wee
 
 Integration with Slack, email, phone, SMS, and webhooks ensures on-call engineers notice alerts across their preferred notification channels. A critical database alert triggers phone call + SMS + Slack mention + app push simultaneously.
 
-Limitations: PagerDuty costs $1,500+/month (expensive for smaller teams). Setup requires careful escalation policy design; misconfigured policies become worse than no automation. The platform carries complexity that small teams don't need.
+Limitations - PagerDuty costs $1,500+/month (expensive for smaller teams). Setup requires careful escalation policy design; misconfigured policies become worse than no automation. The platform carries complexity that small teams don't need.
 
-Step 2: OpsGenie: Cost-Effective Alternative
+Step 2 - OpsGenie: Cost-Effective Alternative
 
 OpsGenie (part of Atlassian, costs $29/user/month, roughly $290-580/month for 10-20 engineers) provides 85% of PagerDuty functionality at half the cost. It's the smarter choice for most remote teams.
 
@@ -110,9 +110,9 @@ Slack integration shows on-call status directly in your workspace. Type `/opsgen
 
 OpsGenie's mobile app is nearly identical to PagerDuty's, push notifications, incident context, ack/resolve actions work equally well. The phone number-to-call flows just as smoothly.
 
-Limitations: OpsGenie's analytics are weaker than PagerDuty. Identifying on-call load per person requires manual report generation rather than built-in dashboards. For tracking burnout risk across the team, PagerDuty's metrics shine.
+Limitations - OpsGenie's analytics are weaker than PagerDuty. Identifying on-call load per person requires manual report generation rather than built-in dashboards. For tracking burnout risk across the team, PagerDuty's metrics shine.
 
-Step 3: Grafana OnCall: Free Option for Grafana-Heavy Teams
+Step 3 - Grafana OnCall: Free Option for Grafana-Heavy Teams
 
 Grafana OnCall is free (or $60/month for team instance with premium support) for teams already using Grafana for monitoring. If your alert stack is Prometheus + Grafana, OnCall integrates natively, alerts route directly from Grafana to escalation policies without additional configuration.
 
@@ -128,9 +128,9 @@ Prometheus alert fires
 -> Post-incident review stored with Grafana data
 ```
 
-Limitations: Grafana OnCall lacks depth in enterprise escalation scenarios, schedule override workflows, and post-incident analytics. It's sufficient for teams with straightforward on-call needs but insufficient for organizations requiring sophisticated policy management. Integration only works within Grafana ecosystem; if you use other monitoring tools (Datadog, New Relic), you need different routing.
+Limitations - Grafana OnCall lacks depth in enterprise escalation scenarios, schedule override workflows, and post-incident analytics. It's sufficient for teams with straightforward on-call needs but insufficient for organizations requiring sophisticated policy management. Integration only works within Grafana environment; if you use other monitoring tools (Datadog, New Relic), you need different routing.
 
-Step 4: Build an Effective Rotation Schedule
+Step 4 - Build an Effective Rotation Schedule
 
 The scheduling strategy prevents burnout more than any tool feature:
 
@@ -158,7 +158,7 @@ For truly distributed teams (8+ time zones), consider three smaller rotations:
 
 Each region handles incidents during their business hours when possible, reducing 4am wake-ups.
 
-Step 5: Measuring On-Call Load and Burnout Risk
+Step 5 - Measuring On-Call Load and Burnout Risk
 
 Most on-call burnout occurs invisibly. Senior engineers take extra shifts, skip rotations to cover for underperformers, volunteer for "just one more week." Without metrics, management doesn't see the load until resignation.
 
@@ -203,9 +203,9 @@ Feature Comparison
 | Complexity | High | Medium | Low |
 | Best for | Enterprise | Most teams | Grafana teams |
 
-Step 6: Real-World Use Case: 12-Engineer Distributed Team
+Step 6 - Real-World Use Case: 12-Engineer Distributed Team
 
-Team structure: 4 US engineers, 4 Europe engineers, 4 Asia engineers. Services: API, Database, Frontend, Infrastructure. Incident SLA: P1 (critical) resolution within 30 minutes, P2 (major) within 2 hours.
+Team structure - 4 US engineers, 4 Europe engineers, 4 Asia engineers. Services - API, Database, Frontend, Infrastructure. Incident SLA: P1 (critical) resolution within 30 minutes, P2 (major) within 2 hours.
 
 Solution with OpsGenie:
 - Create 3 on-call schedules (APAC, EMEA, Americas)
@@ -214,11 +214,11 @@ Solution with OpsGenie:
 - Escalation: 15 minutes to secondary, 15 minutes to team lead, 15 minutes to VP
 - Monitoring: Monthly load report per engineer, burnout flag if single engineer exceeds 2x average
 
-Cost: $30/user/month × 12 engineers = $360/month
+Cost - $30/user/month × 12 engineers = $360/month
 
-Outcome: No engineer pages during sleep hours. Incidents handled by region during business hours when possible. If APAC engineer on vacation, shift to EMEA engineer rather than forcing US team to cover. Load tracked monthly, preventing silent burnout.
+Outcome - No engineer pages during sleep hours. Incidents handled by region during business hours when possible. If APAC engineer on vacation, shift to EMEA engineer rather than forcing US team to cover. Load tracked monthly, preventing silent burnout.
 
-Step 7: Implementation Checklist
+Step 7 - Implementation Checklist
 
 - Set up escalation policies (define timeouts, levels, notification methods)
 - Configure on-call schedules with timezone awareness
@@ -230,33 +230,33 @@ Step 7: Implementation Checklist
 - Run quarterly rotation reviews (detect unfair load distribution)
 - Automate schedule updates to calendar (Google Calendar, Outlook)
 
-Step 8: Common On-Call Mistakes and How Tools Prevent Them
+Step 8 - Common On-Call Mistakes and How Tools Prevent Them
 
-Mistake 1: Senior engineers get paged for all severity levels
+Mistake 1 - Senior engineers get paged for all severity levels
 Without escalation policies, every alert goes to senior people. They carry disproportionate load, burn out, leave.
-Solution: Configure escalation routing non-critical alerts to on-call engineer, critical only to senior. OpsGenie/PagerDuty enable severity-based routing.
+Solution - Configure escalation routing non-critical alerts to on-call engineer, critical only to senior. OpsGenie/PagerDuty enable severity-based routing.
 
-Mistake 2: Alerts fire but nobody responds
+Mistake 2 - Alerts fire but nobody responds
 Alerts sit in queue or are missed. No escalation path means critical incidents go unaddressed.
-Solution: Escalation policies with multiple notification channels (SMS, phone, Slack, app) ensure someone notices within 15 minutes.
+Solution - Escalation policies with multiple notification channels (SMS, phone, Slack, app) ensure someone notices within 15 minutes.
 
-Mistake 3: On-call load goes untracked
+Mistake 3 - On-call load goes untracked
 Management doesn't see which engineers handle 3x incident load until they resign.
-Solution: Monthly metrics reports identify burnout risk early. Rotate fairly before someone breaks.
+Solution - Monthly metrics reports identify burnout risk early. Rotate fairly before someone breaks.
 
-Mistake 4: Timezone mismatch causes unfair load
+Mistake 4 - Timezone mismatch causes unfair load
 Asia engineers on-call during US peak incident hours (late US night = Asia morning). They get paged constantly while other regions sleep.
-Solution: Schedule rotations respecting timezones. Asia on-call during Asia business hours, etc.
+Solution - Schedule rotations respecting timezones. Asia on-call during Asia business hours, etc.
 
-Mistake 5: Schedule overrides fail silently
+Mistake 5 - Schedule overrides fail silently
 Engineer on vacation forgets to update on-call rotation. Critical incident happens at 3am, wrong person gets paged.
-Solution: Tools enforce schedule overrides with approval workflows. Rotation cannot proceed without valid override.
+Solution - Tools enforce schedule overrides with approval workflows. Rotation cannot proceed without valid override.
 
-Mistake 6: Post-incident learning doesn't happen
+Mistake 6 - Post-incident learning doesn't happen
 Incident resolves, on-call engineer moves on. No structured review means same issue repeats weekly.
-Solution: Jira/PagerDuty integration auto-creates incident tickets. Team reviews, documents root cause, prevents recurrence.
+Solution - Jira/PagerDuty integration auto-creates incident tickets. Team reviews, documents root cause, prevents recurrence.
 
-Step 9: Build On-Call Culture Beyond Tools
+Step 9 - Build On-Call Culture Beyond Tools
 
 Tools are infrastructure, but sustainable on-call requires team culture:
 
@@ -287,7 +287,7 @@ Automate what you can:
 - Auto-rollback deployments if health checks fail
 - Database failover automation reducing manual incident response
 
-Step 10: Comparative Success: Team A vs Team B
+Step 10 - Comparative Success: Team A vs Team B
 
 Team A (no on-call tool):
 - 8 engineers, shared on-call "whoever feels like responding"
@@ -306,21 +306,21 @@ Team B (OpsGenie, structured rotation):
 - Cost: $290/month ($3,480/year)
 - ROI on preventing 1 resignation: $150k+ (42x tool cost)
 
-The math is simple: invest in tools and structure. The cost is negligible compared to the value of preventing burnout-driven attrition.
+The math is simple - invest in tools and structure. The cost is negligible compared to the value of preventing burnout-driven attrition.
 
-Step 11: Plan Incident Response Runbook Template
+Step 11 - Plan Incident Response Runbook Template
 
 Structure post-incident learning with tools:
 
 ```
-Incident: Database connection pool exhaustion (March 20, 2026)
-Severity: P1 (1-hour outage)
-On-call response time: 8 minutes (excellent)
-Resolution time: 47 minutes
-Customer impact: Checkout unavailable for 47 minutes (~$50k revenue impact)
+Incident - Database connection pool exhaustion (March 20, 2026)
+Severity - P1 (1-hour outage)
+On-call response time - 8 minutes (excellent)
+Resolution time - 47 minutes
+Customer impact - Checkout unavailable for 47 minutes (~$50k revenue impact)
 
-Root cause: Application connection pooling set to 10, actual peak traffic required 35 connections.
-Why this wasn't caught: Load testing used 5% of peak production traffic. Connection pool exhaustion only surfaces above 25% load.
+Root cause - Application connection pooling set to 10, actual peak traffic required 35 connections.
+Why this wasn't caught - Load testing used 5% of peak production traffic. Connection pool exhaustion only surfaces above 25% load.
 
 Preventive actions:
 1. Increase connection pool to 50 (99th percentile capacity) - 1 day
@@ -328,16 +328,16 @@ Preventive actions:
 3. Update load testing to simulate 50% peak traffic - 3 days
 4. Document connection pool tuning guide for engineers - 2 days
 
-Implemented by: Engineering manager
-Completion target: March 27, 2026
-Verified: April 1, 2026 (load test confirms fix)
+Implemented by - Engineering manager
+Completion target - March 27, 2026
+Verified - April 1, 2026 (load test confirms fix)
 
-Lesson: On-call response time was excellent. Root cause was insufficient testing, not incident response. Investing in testing infrastructure prevents more incidents than improving on-call process.
+Lesson - On-call response time was excellent. Root cause was insufficient testing, not incident response. Investing in testing infrastructure prevents more incidents than improving on-call process.
 ```
 
 This structure ensures post-incident learning actually prevents recurrence. Without formal runbooks, lessons evaporate within days.
 
-Step 12: Making Your Choice
+Step 12 - Making Your Choice
 
 Use OpsGenie for most teams. It costs half of PagerDuty, provides nearly equivalent functionality, and integrates with Jira/Slack. The Jira integration justifies the choice alone if your team uses Jira.
 

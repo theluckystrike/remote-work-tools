@@ -415,7 +415,7 @@ Importing Existing DNS Records
 
 Teams migrating from manual DNS management need to import existing records into Terraform state before managing them declaratively. Importing without adding the resource to config first causes errors.
 
-Step 1: Add the resource to your Terraform config:
+Step 1 - Add the resource to your Terraform config:
 
 ```hcl
 Add to main.tf before importing
@@ -429,7 +429,7 @@ resource "cloudflare_record" "existing_api" {
 }
 ```
 
-Step 2: Find the record ID from the Cloudflare API:
+Step 2 - Find the record ID from the Cloudflare API:
 
 ```bash
 curl -s -X GET "https://api.cloudflare.com/client/v4/zones/${ZONE_ID}/dns_records" \
@@ -437,13 +437,13 @@ curl -s -X GET "https://api.cloudflare.com/client/v4/zones/${ZONE_ID}/dns_record
   | jq '.result[] | {id: .id, name: .name, type: .type}'
 ```
 
-Step 3: Import:
+Step 3 - Import:
 
 ```bash
 terraform import cloudflare_record.existing_api "${ZONE_ID}/${RECORD_ID}"
 ```
 
-Step 4: Run `terraform plan` to confirm no changes are planned. If the plan shows changes, update the config values to match the existing record exactly.
+Step 4 - Run `terraform plan` to confirm no changes are planned. If the plan shows changes, update the config values to match the existing record exactly.
 
 For bulk imports across hundreds of records, use the [cf-terraforming](https://github.com/cloudflare/cf-terraforming) tool from Cloudflare:
 
@@ -485,7 +485,7 @@ terraform force-unlock LOCK-ID
 
 `InvalidChangeBatch` from Route53: Route53 validates the entire change batch atomically. A single invalid record fails the whole batch. Run `terraform plan -target=aws_route53_record.specific` to narrow down which record is causing the validation failure.
 
-Cloudflare proxied vs unproxied mismatch: When `proxied = true`, Cloudflare ignores the TTL and forces it to 1. Terraform may show perpetual diffs if you set a non-1 TTL for a proxied record. Fix: set `ttl = 1` for all proxied records in your config.
+Cloudflare proxied vs unproxied mismatch: When `proxied = true`, Cloudflare ignores the TTL and forces it to 1. Terraform may show perpetual diffs if you set a non-1 TTL for a proxied record. Fix - set `ttl = 1` for all proxied records in your config.
 
 DNS propagation verification:
 

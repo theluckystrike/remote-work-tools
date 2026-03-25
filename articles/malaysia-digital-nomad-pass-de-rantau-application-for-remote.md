@@ -47,23 +47,23 @@ Required Documents
 
 Gathering the required documents is a critical step in the application process. Here's what you need to prepare:
 
-Proof of Income: Bank statements showing regular deposits totaling at least USD 2,000 per month for the past three months, or an employment contract with an overseas company showing your salary. Self-employed applicants should provide client invoices and payment receipts.
+Proof of Income - Bank statements showing regular deposits totaling at least USD 2,000 per month for the past three months, or an employment contract with an overseas company showing your salary. Self-employed applicants should provide client invoices and payment receipts.
 
-Employment or Client Documentation: A letter from your employer confirming your remote work arrangement, or contracts with freelance clients demonstrating ongoing work relationships. If you run your own business, provide business registration documents and client agreements.
+Employment or Client Documentation - A letter from your employer confirming your remote work arrangement, or contracts with freelance clients demonstrating ongoing work relationships. If you run your own business, provide business registration documents and client agreements.
 
-Health Insurance: A valid health insurance policy that covers Malaysia for the entire pass duration. The policy should cover medical treatment and hospitalization.
+Health Insurance - A valid health insurance policy that covers Malaysia for the entire pass duration. The policy should cover medical treatment and hospitalization.
 
-Passport: A clear copy of your passport's biographical page and any previous visas.
+Passport - A clear copy of your passport's biographical page and any previous visas.
 
-Application Form: Completed DE Rantau application forms, which are available through the Malaysia Digital Economy Corporation (MDEC) website.
+Application Form - Completed DE Rantau application forms, which are available through the Malaysia Digital Economy Corporation (MDEC) website.
 
-Recent Photograph: A passport-sized photo taken within the last three months.
+Recent Photograph - A passport-sized photo taken within the last three months.
 
 Application Process Timeline and Details
 
 The complete application process takes 4-8 weeks from start to entry. Here's a detailed breakdown:
 
-Step 1: Prepare Your Documents (Week 1)
+Step 1 - Prepare Your Documents (Week 1)
 
 Before starting your application, ensure all documents are current and properly certified if required. English translations may be needed for documents in other languages. This prep phase is critical, incomplete applications get rejected.
 
@@ -112,7 +112,7 @@ Document Preparation Tips:
 - Name files clearly: "Passport_Page1.pdf", "BankStatement_Jan2026.pdf"
 - Keep originals safe; these are only for submission
 
-Step 2: Submit Online Application (Week 1-2)
+Step 2 - Submit Online Application (Week 1-2)
 
 The application is submitted through MDEC's official portal at de-rantau.mdec.my
 
@@ -133,7 +133,7 @@ Submission Tips:
 - Don't submit with incomplete documents; better to submit fully prepared
 - Keep your reference number and email confirmation for follow-up
 
-Step 3: Pay Application Fee (Week 2)
+Step 3 - Pay Application Fee (Week 2)
 
 The application fee is approximately USD 120-150, depending on processing speed:
 - Standard processing: USD 120 (4 weeks)
@@ -146,7 +146,7 @@ Payment made through the online portal using:
 
 The system generates a payment link after submission. Keep the payment receipt for your records.
 
-Step 4: Track Application Status (Week 2-4/6)
+Step 4 - Track Application Status (Week 2-4/6)
 
 After payment, your application enters processing. The portal shows status updates:
 - "Application Received"
@@ -162,7 +162,7 @@ Check your email for specific requests. This might be:
 
 Respond within 5 business days. Delays in responding can extend processing.
 
-Step 5: Receive Approval (Week 4-6)
+Step 5 - Receive Approval (Week 4-6)
 
 Once approved, you receive:
 - Electronic approval letter via email (PDF)
@@ -171,7 +171,7 @@ Once approved, you receive:
 
 This email is your entry permission. Download and keep it safe.
 
-Step 6: Complete Pass Issuance Upon Arrival (Day 1-2 in Malaysia)
+Step 6 - Complete Pass Issuance Upon Arrival (Day 1-2 in Malaysia)
 
 With your approval letter, proceed to immigration upon arrival:
 - Airport immigration counter (fastest option, 20-30 minutes)
@@ -205,12 +205,12 @@ Create a simple invoice template that clearly shows:
 ```
 INVOICE #[Date]-[ClientID]
 To: [Client Company Name]
-From: [Your Name]
-Invoice Date: [Date]
-For Services: [Description, e.g., "React Development - January 2026"]
-Hours/Rate: [e.g., "80 hours @ USD 50/hour = USD 4,000"]
-Total: [Amount in USD]
-Payment Received: [Yes/Date] - [Payment method, e.g., "PayPal"]
+From - [Your Name]
+Invoice Date - [Date]
+For Services - [Description, e.g., "React Development - January 2026"]
+Hours/Rate - [e.g., "80 hours @ USD 50/hour = USD 4,000"]
+Total - [Amount in USD]
+Payment Received - [Yes/Date] - [Payment method, e.g., "PayPal"]
 ```
 
 Send 3-6 invoices with this format. The clarity helps immigration verify genuine remote income.

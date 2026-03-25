@@ -21,7 +21,7 @@ Managing communication for a distributed research team of 12 scientists requires
 Table of Contents
 
 - [Understanding Research Team Communication Patterns](#understanding-research-team-communication-patterns)
-- [Synchronous Communication: Video and Chat](#synchronous-communication-video-and-chat)
+- [Synchronous Communication - Video and Chat](#synchronous-communication-video-and-chat)
 - [Asynchronous Documentation Systems](#asynchronous-documentation-systems)
 - [Specialized Scientific Communication Tools](#specialized-scientific-communication-tools)
 - [Weekly Meeting Rhythm for Research Teams](#weekly-meeting-rhythm-for-research-teams)
@@ -52,7 +52,7 @@ Your communication infrastructure must support several workflows:
 
 The size of 12 people creates a sweet spot: enough diversity in expertise to need structured communication, but small enough that everyone can know each other's work context. Avoid enterprise tools that scale for hundreds, you'll pay for features you don't need while losing the agility that smaller teams enjoy.
 
-Synchronous Communication: Video and Chat
+Synchronous Communication - Video and Chat
 
 For real-time communication, research teams need tools that handle both casual conversation and screen sharing for data review. Avoid tools designed for corporate offices, research teams have different needs. You need:
 
@@ -86,7 +86,7 @@ Zoom or Jitsi handle video calls. Jitsi offers self-hosting options if your inst
 
 Loom provides asynchronous video for situations where written communication fails. Record a quick screen share explaining a data visualization or demonstrating a technique, then share the link. This reduces meeting frequency significantly while maintaining context-rich communication.
 
-Pricing note: Slack Standard tier $10.50/user/month, Zoom Pro $15.99/month for host, Jitsi free or $5-50/month for cloud hosting, Loom $14.99/month for premium features.
+Pricing note - Slack Standard tier $10.50/user/month, Zoom Pro $15.99/month for host, Jitsi free or $5-50/month for cloud hosting, Loom $14.99/month for premium features.
 
 Asynchronous Documentation Systems
 
@@ -145,22 +145,22 @@ Weekly Meeting Rhythm for Research Teams
 
 A typical weekly cadence prevents meetings from consuming all time while maintaining alignment:
 
-Monday 9am UTC: Team standup (15 min)
+Monday 9am UTC - Team standup (15 min)
 - What did you accomplish last week?
 - What are you working on this week?
 - Any blockers?
 
-Wednesday 2pm UTC: Journal club (60 min)
+Wednesday 2pm UTC - Journal club (60 min)
 - Team reads selected papers beforehand
 - One person leads discussion
 - Rotate leadership weekly
 
-Friday 8am UTC: Lab update (30 min)
+Friday 8am UTC - Lab update (30 min)
 - Progress on active experiments
 - Equipment issues
 - Administrative announcements
 
-Ad hoc: Project-specific meetings as needed
+Ad hoc - Project-specific meetings as needed
 - Research team leads can schedule sub-team meetings
 - Protect calendar blocks for deep work (no meetings Tues-Thurs mornings)
 
@@ -207,7 +207,7 @@ For a 12-person research team in 2026, typical monthly costs:
 - Zotero Group: Free with basic features, $120/year ($10/month) for premium
 - Loom: Free with basic recordings, $10-15/month for business features
 
-Total budget: $500-1000+ per month covers strong communication infrastructure for a 12-person team. This breaks down to $40-85 per person monthly, expensive relative to typical office expenses but essential for remote research collaboration.
+Total budget - $500-1000+ per month covers strong communication infrastructure for a 12-person team. This breaks down to $40-85 per person monthly, expensive relative to typical office expenses but essential for remote research collaboration.
 
 If budget is constrained, prioritize in this order:
 1. Slack or Teams (essential for group communication)
@@ -254,7 +254,7 @@ Survey your research team quarterly on communication effectiveness:
 3. "Do you feel connected to the wider team?" (Target: 70%+ agree strongly)
 4. "Are notifications/interruptions manageable?" (Target: 60%+ agree)
 
-Low scores indicate problems: unclear documentation, too many meetings, or notification overload. High scores suggest your communication infrastructure is working.
+Low scores indicate problems - unclear documentation, too many meetings, or notification overload. High scores suggest your communication infrastructure is working.
 
 Sample Communication Setup for 12-Person Research Team
 
@@ -277,7 +277,7 @@ Research-specific:
 - Benchling for lab notebooks if regulated research ($50-200/month)
 - Total: $0-200/month
 
-Grand total: $287-487/month for a fully-equipped research team
+Grand total - $287-487/month for a fully-equipped research team
 
 This breaks down to $24-41 per person monthly. For reference, in-person lab space costs 10x this amount per person.
 
@@ -285,13 +285,13 @@ Building Scientific Collaboration Culture
 
 Beyond tools, research teams need explicit norms around communication:
 
-Transparency over privacy: Research progresses through sharing findings, not gatekeeping. Establish norms where team members share work-in-progress, failed experiments, and hypothesis development openly. Anonymous Slack channels or shared documents help researchers feel psychologically safe sharing "unsuccessful" work.
+Transparency over privacy - Research progresses through sharing findings, not gatekeeping. Establish norms where team members share work-in-progress, failed experiments, and hypothesis development openly. Anonymous Slack channels or shared documents help researchers feel psychologically safe sharing "unsuccessful" work.
 
-Written over verbal: Since team members work independently on experiments, written documentation becomes institutional memory. Every experiment should have a documented protocol. Every analytical decision should be recorded. Make this the norm from day one.
+Written over verbal - Since team members work independently on experiments, written documentation becomes institutional memory. Every experiment should have a documented protocol. Every analytical decision should be recorded. Make this the norm from day one.
 
-Async-first for knowledge: Resist the urge to explain findings in synchronous meetings. Instead, require written summaries before synchronous discussions. The synchronous meeting becomes discussion of written materials, not presentation of raw findings.
+Async-first for knowledge - Resist the urge to explain findings in synchronous meetings. Instead, require written summaries before synchronous discussions. The synchronous meeting becomes discussion of written materials, not presentation of raw findings.
 
-Cross-team exposure: Researchers naturally specialize in their area. Combat silos by:
+Cross-team exposure - Researchers naturally specialize in their area. Combat silos by:
 - Rotating lab-wide journal club facilitation
 - Having non-specialists present others' work
 - Requiring all team members to understand core findings from each project
@@ -300,11 +300,11 @@ Handling Remote Lab Equipment
 
 If your research team has shared equipment (mass spectrometers, microscopes, computational clusters), add to your communication infrastructure:
 
-Equipment scheduling: Use shared calendar for booking. Some teams add request workflows: research scientist requests equipment access, equipment custodian approves/denies based on availability and training status.
+Equipment scheduling - Use shared calendar for booking. Some teams add request workflows: research scientist requests equipment access, equipment custodian approves/denies based on availability and training status.
 
-Equipment failures: Create dedicated Slack channel (#equipment-issues) for reporting breakdowns. Equipment custodian monitors this channel and responds within 2 hours. This prevents delays where researchers work around broken equipment instead of reporting.
+Equipment failures - Create dedicated Slack channel (#equipment-issues) for reporting breakdowns. Equipment custodian monitors this channel and responds within 2 hours. This prevents delays where researchers work around broken equipment instead of reporting.
 
-Data from equipment: Establish protocols for data management. Where do raw instrument outputs get stored? Who has access? Who backs them up? These questions matter more for remote teams where you can't just walk over to the lab.
+Data from equipment - Establish protocols for data management. Where do raw instrument outputs get stored? Who has access? Who backs them up? These questions matter more for remote teams where you can't just walk over to the lab.
 
 Frequently Asked Questions
 

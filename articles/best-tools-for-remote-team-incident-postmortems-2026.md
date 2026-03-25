@@ -85,7 +85,7 @@ What Could Improve
 - Database capacity planning needs quarterly review
 ```
 
-Best For: Startups, small to mid-size engineering teams, Slack-first workflows.
+Best For - Startups, small to mid-size engineering teams, Slack-first workflows.
 
 FireHydrant
 
@@ -130,7 +130,7 @@ FireHydrant pulls:
 
 Postmortem engine analyzes and structures this into coherent timeline.
 
-Best For: Enterprise teams, complex distributed systems, DevOps-heavy organizations.
+Best For - Enterprise teams, complex distributed systems, DevOps-heavy organizations.
 
 Jeli
 
@@ -146,12 +146,12 @@ Strengths:
 Weaknesses:
 - Requires cultural shift toward systems thinking
 - Less automated than FireHydrant/Incident.io
-- Smaller integration ecosystem
+- Smaller integration environment
 
 Narrative Postmortem Example:
 
 ```
-Incident: User authentication service down for 23 minutes
+Incident - User authentication service down for 23 minutes
 
 Narrative:
 At 9:15 AM, the auth service deployment pipeline automatically
@@ -187,7 +187,7 @@ Learning Questions Jeli Prompts:
 - How was uncertainty handled during the incident?
 - What did we learn about our systems?
 
-Best For: Teams focused on organizational learning, safety-critical systems, mature engineering cultures.
+Best For - Teams focused on organizational learning, safety-critical systems, mature engineering cultures.
 
 PagerDuty
 
@@ -209,9 +209,9 @@ Weaknesses:
 Postmortem Features:
 
 ```
-Incident: Database failover took longer than expected
+Incident - Database failover took longer than expected
 
-Severity: P2 (User impact: 15 minutes, partial degradation)
+Severity - P2 (User impact: 15 minutes, partial degradation)
 
 Timeline (auto-captured):
 - 10:47 Primary database unresponsive
@@ -234,7 +234,7 @@ Action Items (linked to Jira):
 - [JIRA-484] Add replication lag monitoring (Assigned: Platform eng, Due: 3 weeks)
 ```
 
-Best For: Teams already using PagerDuty, on-call focused teams, enterprises with existing ServiceNow/Jira.
+Best For - Teams already using PagerDuty, on-call focused teams, enterprises with existing ServiceNow/Jira.
 
 Feature Comparison Table
 
@@ -245,7 +245,7 @@ Feature Comparison Table
 | Timeline reconstruction | Good | Excellent | Good | Good |
 | Action item tracking | Good | Excellent | Good | Excellent |
 | Learning database | Basic | Advanced | Advanced | Good |
-| Integration ecosystem | Good | Excellent | Good | Excellent |
+| Integration environment | Good | Excellent | Good | Excellent |
 | Pricing (small team) | $50/mo | $400/mo | $400/mo | $100+/mo |
 | Pricing (large org) | $500/mo | $2000+/mo | $1500+/mo | $10k+/mo |
 | Customization | Limited | Advanced | Moderate | Advanced |

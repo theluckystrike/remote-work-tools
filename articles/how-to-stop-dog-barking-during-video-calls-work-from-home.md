@@ -30,13 +30,13 @@ Understanding Why Dogs Bark During Video Calls
 
 Before implementing solutions, understanding the triggers helps you address the root cause. Dogs bark for several reasons during video calls:
 
-Attention and Context Confusion: Dogs often don't understand why you're staring at a screen and not interacting with them. They may bark to get your attention, thinking the video call is a situation that requires their protective or interactive presence.
+Attention and Context Confusion - Dogs often don't understand why you're staring at a screen and not interacting with them. They may bark to get your attention, thinking the video call is a situation that requires their protective or interactive presence.
 
-Environmental Triggers: External sounds, doorbells, other dogs barking, delivery trucks, can trigger alert barking. Your dog may perceive these sounds as threats or opportunities during your calls.
+Environmental Triggers - External sounds, doorbells, other dogs barking, delivery trucks, can trigger alert barking. Your dog may perceive these sounds as threats or opportunities during your calls.
 
-Anxiety and Stress: Some dogs become anxious when they sense you're engaged in something that excludes them. This anxiety manifests as barking, whining, or destructive behavior.
+Anxiety and Stress - Some dogs become anxious when they sense you're engaged in something that excludes them. This anxiety manifests as barking, whining, or destructive behavior.
 
-Routine Disruptions: If your dog is used to certain activity levels during your work hours, video calls that require extra quiet can clash with their expectations of interaction.
+Routine Disruptions - If your dog is used to certain activity levels during your work hours, video calls that require extra quiet can clash with their expectations of interaction.
 
 Immediate Solutions for Video Calls
 
@@ -230,7 +230,7 @@ nettop -P -n -l 1 | sort -k3 -rn | head -10
 sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder
 
 5. Force 5GHz WiFi band (avoid 2.4GHz congestion)
-In macOS: System Settings > Network > WiFi > Preferred Networks
+In macOS - System Settings > Network > WiFi > Preferred Networks
 Move your 5GHz SSID to the top of the list
 ```
 

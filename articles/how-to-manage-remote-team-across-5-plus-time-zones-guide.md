@@ -18,7 +18,7 @@ intent-checked: true
 
 Managing a team across 5+ time zones is hard. When your team spans UTC-8 to UTC+5, no meeting time works for everyone. Communication lags 12+ hours. Context gets lost. But it's solvable with the right processes. This guide covers strategies that work in practice, not theory.
 
-Real scenario: your team is in San Francisco (UTC-8), Austin (UTC-6), London (UTC+0), Berlin (UTC+1), and Delhi (UTC+5:30). That's 13.5 hours of spread. A decision made in SF at 9 AM doesn't reach Delhi until 10:30 PM. By the time Delhi responds the next morning, SF is moving on different assumptions.
+Real scenario - your team is in San Francisco (UTC-8), Austin (UTC-6), London (UTC+0), Berlin (UTC+1), and Delhi (UTC+5:30). That's 13.5 hours of spread. A decision made in SF at 9 AM doesn't reach Delhi until 10:30 PM. By the time Delhi responds the next morning, SF is moving on different assumptions.
 
 Prerequisites
 
@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Core Problem: Synchronous Work Doesn't Scale
+Step 1 - The Core Problem: Synchronous Work Doesn't Scale
 
 Your instinct is to schedule one sync meeting that works for everyone. It doesn't exist. The best you can do is optimize partial overlap.
 
@@ -46,13 +46,13 @@ Example overlap matrix for 5 zones:
 
 There is no time where all five are in reasonable working hours (8 AM to 6 PM). Best case: you can hit 4/5 people. But Delhi would be starting at 7:30 PM, which burns out engineers.
 
-Solution: Async-first operations. Sync meetings happen once weekly for the team to align. Everything else runs async.
+Solution - Async-first operations. Sync meetings happen once weekly for the team to align. Everything else runs async.
 
-Step 2: Strategy 1: Async Communication as Default
+Step 2 - Strategy 1: Async Communication as Default
 
 Slack/Discord Guidelines
 
-Rule 1: Write in threads. Never post one-liners. Write complete thoughts. Include context.
+Rule 1 - Write in threads. Never post one-liners. Write complete thoughts. Include context.
 
 Bad:
 ```
@@ -64,12 +64,12 @@ Good:
 "We need to change the API response format for the /users endpoint. Currently it returns [id, name, email]
 but the mobile team can't display it cleanly. They need [id, name, email, avatarUrl].
 I'm proposing we add avatarUrl to the response object. The avatar service already provides this data.
-Expected timeline: 2 days to implement. Any blockers?"
+Expected timeline - 2 days to implement. Any blockers?"
 ```
 
 With bad communication, London responds "why?" Delhi responds 6 hours later "which endpoint?" Everyone loses 1-2 days. With good communication, responses are actionable without clarification.
 
-Rule 2: Summarize decisions in writing. If you discuss something synchronously, write the summary in Slack immediately. Pin it. Give people 24 hours to object. This catches misunderstandings before they become problems.
+Rule 2 - Summarize decisions in writing. If you discuss something synchronously, write the summary in Slack immediately. Pin it. Give people 24 hours to object. This catches misunderstandings before they become problems.
 
 ```
 DECISION SUMMARY (from today's call)
@@ -80,7 +80,7 @@ We decided to:
 Objections? Reply in thread by EOD tomorrow. Otherwise we're locked in.
 ```
 
-Rule 3: Set expectations on response time. Define SLAs.
+Rule 3 - Set expectations on response time. Define SLAs.
 
 - Urgent decisions (production outage, security issue): 1-hour response expected
 - Important decisions (design changes, major features): 4-hour response expected
@@ -118,17 +118,17 @@ When someone asks "what's our on-call rotation?", they find it in the wiki. No n
 Keep a "decision log" with timestamps:
 
 ```
-DECISION: Support Python 3.11+
-Date: 2026-03-15
-Owner: SF team
-Status: Approved 2026-03-16
-Context: Python 3.10 EOL in October 2026. We need to migrate.
-Details: Full migration planned for Q2. Testing environment ready by April 1.
+DECISION - Support Python 3.11+
+Date - 2026-03-15
+Owner - SF team
+Status - Approved 2026-03-16
+Context - Python 3.10 EOL in October 2026. We need to migrate.
+Details - Full migration planned for Q2. Testing environment ready by April 1.
 ```
 
 This log prevents re-arguing old decisions.
 
-Step 3: Strategy 2: Weekly Synchronous Sync (The One Meeting That Matters)
+Step 3 - Strategy 2: Weekly Synchronous Sync (The One Meeting That Matters)
 
 One 60-minute meeting per week. Same time. Mandatory.
 
@@ -152,9 +152,9 @@ What it doesn't cover:
 
 Keep it tight. End at 60 minutes. People will love a meeting that respects their time.
 
-Recording & Transcript: Record and transcribe (use Otter, Fireflies, or built-in tools). Post transcript to Slack. People in wrong time zones can catch up asynchronously.
+Recording & Transcript - Record and transcribe (use Otter, Fireflies, or built-in tools). Post transcript to Slack. People in wrong time zones can catch up asynchronously.
 
-Step 4: Strategy 3: Split Team Sync Meetings (For Specific Regions)
+Step 4 - Strategy 3: Split Team Sync Meetings (For Specific Regions)
 
 Not everything needs the whole team. SF and Austin teams have morning overlap (8 AM Austin, 6 AM SF). Berlin and London have afternoon overlap (3 PM Berlin, 2 PM London).
 
@@ -166,7 +166,7 @@ Use split syncs for work that's regional:
 
 This gives regional teams more touchpoints without burning out people in inconvenient zones.
 
-Step 5: Strategy 4: Overlap Hours and Office Hours
+Step 5 - Strategy 4: Overlap Hours and Office Hours
 
 Designate office hours. "Berlin team is on a daily 9-10 AM call available for questions. Delhi team is on a Slack call 8-9 PM for real-time debugging."
 
@@ -181,7 +181,7 @@ Office hour strategy:
 
 People check the office hours calendar and join if they have questions. Real-time, but optional.
 
-Step 6: Strategy 5: Async Code Review and CI/CD
+Step 6 - Strategy 5: Async Code Review and CI/CD
 
 Don't wait for synchronous code review. Use async review tools:
 
@@ -192,23 +192,23 @@ GitHub/GitLab approach:
 - Engineer responds asynchronously
 - Merge when approved
 
-Set expectations: "Code review will happen within 8 hours. We batch them 3x daily (9 AM SF, 9 AM London, 9 AM Delhi)."
+Set expectations - "Code review will happen within 8 hours. We batch them 3x daily (9 AM SF, 9 AM London, 9 AM Delhi)."
 
 This prevents the "I'm waiting for review" blocker.
 
-Deployment windows: Deploy during overlap hours. If you deploy at 3 PM London (when 4 people are online), you have immediate help if something breaks. Don't deploy at 6 AM SF when only SF is awake and everyone else can't help.
+Deployment windows - Deploy during overlap hours. If you deploy at 3 PM London (when 4 people are online), you have immediate help if something breaks. Don't deploy at 6 AM SF when only SF is awake and everyone else can't help.
 
-Step 7: Strategy 6: Rotating Responsibilities
+Step 7 - Strategy 6: Rotating Responsibilities
 
 Distribute on-call, meeting facilitation, and standby across time zones instead of concentrating it.
 
 On-call rotation:
 ```
-Week 1: SF on-call (covers Monday-Wednesday US business hours)
-Week 2: Austin on-call (covers Tuesday-Thursday US business hours)
-Week 3: London on-call (covers Wednesday-Friday EU business hours)
-Week 4: Berlin on-call (covers Thursday-Friday EU business hours)
-Week 5: Delhi on-call (covers Friday-Monday Asia business hours)
+Week 1 - SF on-call (covers Monday-Wednesday US business hours)
+Week 2 - Austin on-call (covers Tuesday-Thursday US business hours)
+Week 3 - London on-call (covers Wednesday-Friday EU business hours)
+Week 4 - Berlin on-call (covers Thursday-Friday EU business hours)
+Week 5 - Delhi on-call (covers Friday-Monday Asia business hours)
 Cycle repeats
 ```
 
@@ -217,57 +217,57 @@ Everyone is on-call ~2 weeks per quarter, not 2 weeks every 5 weeks. Fairer dist
 Meeting facilitation:
 Rotate who runs the weekly global sync. Delhi team leads the call once monthly. SF team leads once monthly. This shares the burden of agenda-setting and time-zone awkwardness.
 
-Step 8: Strategy 7: Async Standups
+Step 8 - Strategy 7: Async Standups
 
 Replace daily standups with async check-ins posted in a dedicated Slack channel.
 
 Format (posted by 9 AM local time):
 ```
 [SF] Monday check-in
-Yesterday: Merged API changes, ran load tests
-Today: Finishing database migration, code review for London
-Blockers: None
+Yesterday - Merged API changes, ran load tests
+Today - Finishing database migration, code review for London
+Blockers - None
 ```
 
 Scan the channel in the morning (London does at 2 PM London time, which is 6 AM SF). You know what everyone did, what's today, blockers. No meeting.
 
 If someone is blocked, they flag it. Owner of the blocker responds within 4 hours. Works async without meetings.
 
-Step 9: Strategy 8: Timezone-Friendly Scheduling Tools
+Step 9 - Strategy 8: Timezone-Friendly Scheduling Tools
 
 Use tools that show everyone's timezone:
 
-- Calendly: Set your timezone. People scheduling with you see their local time and your availability simultaneously.
+- Calendly - Set your timezone. People scheduling with you see their local time and your availability simultaneously.
 - When2Meet: Create a poll for meeting times. Shows which times work for most people.
 - Timezone.io: Paste everyone's timezone, see a visual timeline of business hours.
 
 Before scheduling any meeting, check these tools. Don't schedule at 9 PM for anyone without a very good reason.
 
-Step 10: Strategy 9: Transparent Async Decision-Making
+Step 10 - Strategy 9: Transparent Async Decision-Making
 
 When someone makes a decision async (e.g., "We're using Postgres for this service"), document it and give people 24 hours to object.
 
 Post in Slack:
 ```
-DECISION: We're using Postgres for the new search service (not Elasticsearch)
-Owner: London team
-Proposed: Today
-Decision window: 24 hours (until 3 PM London tomorrow, which is 7 AM SF / 9 AM Austin / 4 PM Berlin / 8:30 PM Delhi)
-Reasoning: Lower operational overhead, sufficient for our query patterns, better for full-text search than our current setup.
+DECISION - We're using Postgres for the new search service (not Elasticsearch)
+Owner - London team
+Proposed - Today
+Decision window - 24 hours (until 3 PM London tomorrow, which is 7 AM SF / 9 AM Austin / 4 PM Berlin / 8:30 PM Delhi)
+Reasoning - Lower operational overhead, sufficient for our query patterns, better for full-text search than our current setup.
 Objections? Reply here.
 ```
 
 After 24 hours, unless there are serious objections, it's decided. This keeps things moving without waiting weeks for a meeting.
 
-Step 11: Strategy 10: Timezone Awareness in Hiring and Compensation
+Step 11 - Strategy 10: Timezone Awareness in Hiring and Compensation
 
 When hiring globally, set expectations:
 
-- Salary: Adjust for local cost of living. London and SF are expensive. Delhi is cheaper. Don't pay SF wages to Delhi, it's unfair locally and unsustainable. Research local market rates.
-- Hours: State clearly. "Core hours are 12 PM-6 PM London time" or "You set your own hours as long as you overlap with global sync once weekly."
-- Travel: If you want occasional in-person meetings, budget for it. Delhi to London is expensive. Offer annual travel budget.
+- Salary - Adjust for local cost of living. London and SF are expensive. Delhi is cheaper. Don't pay SF wages to Delhi, it's unfair locally and unsustainable. Research local market rates.
+- Hours - State clearly. "Core hours are 12 PM-6 PM London time" or "You set your own hours as long as you overlap with global sync once weekly."
+- Travel - If you want occasional in-person meetings, budget for it. Delhi to London is expensive. Offer annual travel budget.
 
-Step 12: Practical Workflow Example
+Step 12 - Practical Workflow Example
 
 Monday:
 - 7 AM SF: Delhi team posts async standup
@@ -308,7 +308,7 @@ Common Mistakes to Avoid
 
 7. Underestimating response time. Planning a 24-hour decision window when half your team sleeps during that window won't work. Use 48 hours instead.
 
-Step 13: Tools That Help
+Step 13 - Tools That Help
 
 - Slack: For async communication with threads
 - GitHub/GitLab: For async code review
@@ -318,16 +318,16 @@ Step 13: Tools That Help
 - Calendly: For timezone-aware scheduling
 - Otter.ai: For meeting transcription
 
-Step 14: Metrics to Track
+Step 14 - Metrics to Track
 
 Monitor your team's health:
 
-- Merge time: How long from PR open to merge? Target: < 24 hours.
+- Merge time: How long from PR open to merge? Target - < 24 hours.
 - Decision latency: How long from "decision needed" to "decided"? Target: < 2 days.
-- On-call alert response: How long to acknowledge a production alert? Target: < 15 min on average.
+- On-call alert response: How long to acknowledge a production alert? Target - < 15 min on average.
 - Team satisfaction: Poll quarterly on meeting load and timezone awkwardness. Adjust based on feedback.
 
-Step 15: Final Guidance
+Step 15 - Final Guidance
 
 5+ timezones is hard, but it's solved with:
 

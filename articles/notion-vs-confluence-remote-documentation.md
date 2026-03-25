@@ -28,14 +28,14 @@ Table of Contents
 - [Pricing (2026)](#pricing-2026)
 - [Which to Choose](#which-to-choose)
 - [Migrating Between the Two](#migrating-between-the-two)
-- [Content Lifecycle: How Notion and Confluence Handle Documentation Decay](#content-lifecycle-how-notion-and-confluence-handle-documentation-decay)
-- [Permission Model Complexity: When Simple Doesn't Work](#permission-model-complexity-when-simple-doesnt-work)
+- [Content Lifecycle - How Notion and Confluence Handle Documentation Decay](#content-lifecycle-how-notion-and-confluence-handle-documentation-decay)
+- [Permission Model Complexity - When Simple Doesn't Work](#permission-model-complexity-when-simple-doesnt-work)
 - [The Search Problem at Scale](#the-search-problem-at-scale)
-- [Expense Approval Documentation: Use Case Example](#expense-approval-documentation-use-case-example)
-- [Integration Ecosystem: Choosing Based on Your Tech Stack](#integration-ecosystem-choosing-based-on-your-tech-stack)
+- [Expense Approval Documentation - Use Case Example](#expense-approval-documentation-use-case-example)
+- [Integration environment - Choosing Based on Your Tech Stack](#integration-environment-choosing-based-on-your-tech-stack)
 - [Total Cost of Ownership (TCO) Over 3 Years](#total-cost-of-ownership-tco-over-3-years)
 - [Training and Onboarding Time](#training-and-onboarding-time)
-- [Making the Final Decision: Decision Matrix](#making-the-final-decision-decision-matrix)
+- [Making the Final Decision - Decision Matrix](#making-the-final-decision-decision-matrix)
 - [Related Reading](#related-reading)
 
 This is not a feature list comparison. It is an evaluation of how each tool performs in the specific conditions of remote work.
@@ -132,7 +132,7 @@ Notion:
 
 Notion permissions work at the workspace and page level. Each page can be shared publicly, with the workspace, or with specific people or groups. Inheritance flows down unless overridden.
 
-The weakness: granular per-page permissions become a management burden at scale. There is no fine-grained control over who can comment vs. edit vs. view within complex nested structures.
+The weakness - granular per-page permissions become a management burden at scale. There is no fine-grained control over who can comment vs. edit vs. view within complex nested structures.
 
 Confluence:
 
@@ -180,7 +180,7 @@ Choose Confluence if:
 - Your documentation is technical and needs powerful search
 - You need fine-grained permission control at scale
 
-The failure mode to avoid: Choosing Notion for its flexibility without establishing naming conventions, page ownership, and an information architecture. Both tools fail equally with teams that will not maintain structure over time.
+The failure mode to avoid - Choosing Notion for its flexibility without establishing naming conventions, page ownership, and an information architecture. Both tools fail equally with teams that will not maintain structure over time.
 
 Migrating Between the Two
 
@@ -199,7 +199,7 @@ Then use Confluence's Markdown importer (limited. expects Confluence wiki markup
 
 Neither migration is clean. Plan for manual restructuring time: roughly 2-3 hours per 100 pages.
 
-Content Lifecycle: How Notion and Confluence Handle Documentation Decay
+Content Lifecycle - How Notion and Confluence Handle Documentation Decay
 
 Documentation rots. Both tools struggle with stale content, but in different ways:
 
@@ -251,7 +251,7 @@ Confluence's Decay Problem
 
 Confluence is better for preventing stale documentation, but requires discipline to use review features.
 
-Permission Model Complexity: When Simple Doesn't Work
+Permission Model Complexity - When Simple Doesn't Work
 
 For teams larger than ~15 people, both tools' default permission models break down:
 
@@ -272,22 +272,22 @@ The Search Problem at Scale
 
 Most teams underestimate how important search is until they have 500+ pages:
 
-Notion Search Weakness: Doesn't search inside linked databases
+Notion Search Weakness - Doesn't search inside linked databases
 You create a "Runbooks" database linked from a "Systems" page. Notion searches the Systems page but not the linked Runbooks content.
 
-Confluence Search Strength: Full-text search everywhere, including macro content
+Confluence Search Strength - Full-text search everywhere, including macro content
 You can search for "database migration" and find it in runbooks, decision records, and comments all at once.
 
 If your documentation is procedural (runbooks, checklists, how-tos), Confluence search is worth the price. If your documentation is organizational (roadmaps, goals, brainstorming), Notion's search is adequate.
 
-Pro tip for Notion: Create a "search aid" database with manual tags:
+Pro tip for Notion - Create a "search aid" database with manual tags:
 ```
-Tag: database-migration
-Links to pages: [Runbook 1, ADR 2, Incident Report 3]
+Tag - database-migration
+Links to pages - [Runbook 1, ADR 2, Incident Report 3]
 ```
 This creates a searchable index of related content.
 
-Expense Approval Documentation: Use Case Example
+Expense Approval Documentation - Use Case Example
 
 To illustrate the difference, imagine documenting your expense approval process:
 
@@ -300,7 +300,7 @@ Expenses Database (table view)
  Recent requests (filtered database view)
 ```
 
-Flexibility: Anyone can modify the structure. Danger: Structure decays without governance.
+Flexibility - Anyone can modify the structure. Danger - Structure decays without governance.
 
 In Confluence:
 ```
@@ -312,11 +312,11 @@ Finance Space
  Archive space for old policies
 ```
 
-Structure: Enforced. Danger: Can't easily branch for experimentation.
+Structure - Enforced. Danger - Can't easily branch for experimentation.
 
 For a finance team of 3, Notion is faster. For a company-wide policy, Confluence's structure prevents chaos.
 
-Integration Ecosystem: Choosing Based on Your Tech Stack
+Integration environment - Choosing Based on Your Tech Stack
 
 Modern teams use dozens of tools. Documentation tools should integrate with them:
 
@@ -343,7 +343,7 @@ Datadog/monitoring tools
 - Confluence has better integration with ops tools
 - Notion requires workarounds (screenshot + paste)
 
-If your core tool stack is Jira, GitHub, Slack: Confluence wins for integration depth. If you're using modern tools (Linear, Notion, Figma), Notion integrations are more natural.
+If your core tool stack is Jira, GitHub, Slack - Confluence wins for integration depth. If you're using modern tools (Linear, Notion, Figma), Notion integrations are more natural.
 
 Total Cost of Ownership (TCO) Over 3 Years
 
@@ -368,19 +368,19 @@ Training and Onboarding Time
 
 New hires spending time figuring out your documentation tool is expensive:
 
-Notion onboarding: "Here's a Notion workspace, figure it out"
+Notion onboarding - "Here's a Notion workspace, figure it out"
 - Self-directed learning time: 2-4 hours
 - Some employees miss important docs, ask redundant questions
 - Upside: People familiar with Notion personal productivity
 
-Confluence onboarding: "Here are the spaces and here's how we organize docs"
+Confluence onboarding - "Here are the spaces and here's how we organize docs"
 - Guided tour: 15-30 minutes
 - Consistent navigation, people find info quickly
 - Downside: People think Confluence is just for work (no personal use case)
 
 Confluence wins on onboarding friction and consistency. Notion requires more explicit training.
 
-Making the Final Decision: Decision Matrix
+Making the Final Decision - Decision Matrix
 
 | Factor | Weight | Notion Score | Confluence Score |
 |--------|--------|--------------|------------------|

@@ -20,7 +20,7 @@ Copy this expense reimbursement template directly into your handbook: list eligi
 Table of Contents
 
 - [Policy Structure Overview](#policy-structure-overview)
-- [Template: Expense Reimbursement Policy](#template-expense-reimbursement-policy)
+- [Template - Expense Reimbursement Policy](#template-expense-reimbursement-policy)
 - [Expense Reimbursement Policy](#expense-reimbursement-policy)
 - [Implementation Tips for Remote Teams](#implementation-tips-for-remote-teams)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
@@ -48,7 +48,7 @@ Every expense policy needs six core components:
 Below is a template you can copy into your handbook. Adjust amounts, thresholds, and approval limits to match your organization's size and culture.
 ---
 
-Template: Expense Reimbursement Policy
+Template - Expense Reimbursement Policy
 
 ```markdown
 Expense Reimbursement Policy
@@ -133,7 +133,7 @@ Integrate your expense system with Slack or Teams to reduce friction:
 const expenseReminder = {
   trigger: "monthly on the 25th",
   channel: "#expenses",
-  message: " Reminder: Submit your February expenses by the 5th! " +
+  message: " Reminder - Submit your February expenses by the 5th! " +
            "Submit at https://expenses.company.com or email finance@company.com"
 };
 ```
@@ -213,9 +213,9 @@ Your choice of expense platform directly impacts compliance speed and team adopt
 | Rydoo | $3-5/user/month | Mobile-first design, multi-currency, policy automation | Remote teams across multiple countries |
 | Divvy | Free (card required) | Virtual card limits per employee, real-time approval, accounting sync | Teams wanting spending controls, not just reimbursement |
 | Wave | Free | Basic expense tracking, unlimited users, accounting integration | Lean startups, simple workflows |
-| Zoho Expense | $1-3/user/month | Part of Zoho suite, integration with other Zoho tools | Organizations already using Zoho ecosystem |
+| Zoho Expense | $1-3/user/month | Part of Zoho suite, integration with other Zoho tools | Organizations already using Zoho environment |
 
-Critical integration factor: Ensure your expense platform integrates with your accounting software (QuickBooks, Xero, Stripe) and payroll system. Integration failures create manual entry bottlenecks that undermine your policy's efficiency.
+Critical integration factor - Ensure your expense platform integrates with your accounting software (QuickBooks, Xero, Stripe) and payroll system. Integration failures create manual entry bottlenecks that undermine your policy's efficiency.
 
 ---
 
@@ -261,27 +261,27 @@ Handling Edge Cases That Slow Down Finance Teams
 
 Real expenses don't fit neatly into categories. Document these scenarios in your handbook to prevent finance teams from being bottlenecked by unusual requests:
 
-Home Office Equipment: Purchase vs. Rental
+Home Office Equipment - Purchase vs. Rental
 
-Problem: Employee asks to reimburse a desk. Is it capital equipment or an expense? At what price threshold?
+Problem - Employee asks to reimburse a desk. Is it capital equipment or an expense? At what price threshold?
 
-Solution: Define clear rules in your handbook:
+Solution - Define clear rules in your handbook:
 - Equipment under $500 is an expense (reimbursed immediately)
 - Equipment $500-$2,000 is capitalized but can be requested as an one-time reimbursement if the employee funds it upfront
 - Equipment over $2,000 requires founder approval and corporate ownership
 
 Partial-Use Equipment
 
-Problem: Employee buys a laptop stand ($150) for both home office and personal gaming setup.
+Problem - Employee buys a laptop stand ($150) for both home office and personal gaming setup.
 
-Solution: Add this FAQ:
+Solution - Add this FAQ:
 > "If equipment has dual personal/business use, estimate the work percentage and expense only that portion. A standing desk used 80% for work and 20% for personal gaming is 80% reimbursable ($120 of $150). Document this estimate in your submission."
 
 Software Trial Periods and Refunds
 
-Problem: Employee submits receipt for software ($99/year), but cancels after 30 days and gets a refund. Do they need to resubmit?
+Problem - Employee submits receipt for software ($99/year), but cancels after 30 days and gets a refund. Do they need to resubmit?
 
-Solution: Clarify in policy:
+Solution - Clarify in policy:
 > "Software refunds must be submitted within 30 days of the original expense submission. Update your original expense report with the refund amount, and we'll adjust your reimbursement accordingly. Do not submit new expense reports for the same transaction."
 
 ---

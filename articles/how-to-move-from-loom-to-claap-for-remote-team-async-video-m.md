@@ -20,7 +20,7 @@ Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Migrating Your Video Content](#migrating-your-video-content)
-- [Advanced Integration: Automating Video Distribution](#advanced-integration-automating-video-distribution)
+- [Advanced Integration - Automating Video Distribution](#advanced-integration-automating-video-distribution)
 - [Troubleshooting Common Integration Issues](#troubleshooting-common-integration-issues)
 
 Prerequisites
@@ -33,13 +33,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand the Key Differences
+Step 1 - Understand the Key Differences
 
 Before migrating, it's worth understanding what distinguishes these two platforms. Loom pioneered async video for professional teams, offering screen recording with webcam overlay, automatic transcription, and deep integrations with productivity tools. Claap positions itself as a simpler alternative with a focus on team collaboration features like comments, reactions, and threading directly on videos.
 
-For developers, the difference often comes down to API access and automation capabilities. Loom provides a more mature developer ecosystem with a documented API, while Claap emphasizes real-time collaboration features that some teams find more intuitive for daily async communication.
+For developers, the difference often comes down to API access and automation capabilities. Loom provides a more mature developer environment with a documented API, while Claap emphasizes real-time collaboration features that some teams find more intuitive for daily async communication.
 
-Step 2: Preparing Your Team for Migration
+Step 2 - Preparing Your Team for Migration
 
 Successful migration starts with preparation. Here's a practical checklist:
 
@@ -66,7 +66,7 @@ curl -s -H "Authorization: Bearer ${LOOM_API_KEY}" \
 echo "Exported $(wc -l < loom-export-$(date +%Y%m%d).json) videos"
 ```
 
-Step 3: Set Up Claap for Your Team
+Step 3 - Set Up Claap for Your Team
 
 Once you've prepared your migration plan, setting up Claap involves creating your workspace and configuring the essential features. Visit the Claap website, create your organization, and invite team members via email or link.
 
@@ -152,7 +152,7 @@ Establish a consistent naming convention early. For developer teams, consider or
 
 This structure makes content discoverable and aligns with how teams already organize repositories and documentation.
 
-Step 4: Training Your Team
+Step 4 - Training Your Team
 
 Adoption success depends on how quickly your team feels comfortable with the new tool. Schedule a brief onboarding session covering:
 
@@ -163,7 +163,7 @@ Adoption success depends on how quickly your team feels comfortable with the new
 
 Most teams find that after the first week, recording async updates becomes second nature. The key is consistency, encourage team members to use video for regular updates rather than defaulting to synchronous meetings.
 
-Step 5: Measuring Success
+Step 5 - Measuring Success
 
 Track these metrics in the first month post-migration:
 
@@ -172,7 +172,7 @@ Track these metrics in the first month post-migration:
 - Meeting reduction - Have synchronous meetings decreased?
 - Search usage - How often do team members find and watch older videos?
 
-Step 6: Common Pitfalls to Avoid
+Step 6 - Common Pitfalls to Avoid
 
 Teams frequently encounter these challenges during migration:
 
@@ -181,7 +181,7 @@ Teams frequently encounter these challenges during migration:
 - No clear usage guidelines - Establish conventions for when to use video vs. written communication
 - Forcing adoption - Give teams time to adjust naturally
 
-Advanced Integration: Automating Video Distribution
+Advanced Integration - Automating Video Distribution
 
 Once you're comfortable with Claap, automate how videos reach your team. Webhooks and APIs can trigger notifications across your existing tools:
 
@@ -228,7 +228,7 @@ def post_claap_video_to_slack(video_url, video_title, channel):
 
 This keeps video updates front-and-center in your team chat without requiring manual sharing.
 
-Step 7: Handling Different Content Types During Migration
+Step 7 - Handling Different Content Types During Migration
 
 Not all Loom videos serve the same purpose. Develop a content-specific migration strategy:
 
@@ -246,7 +246,7 @@ Client-Facing Materials (proposals, walkthroughs, training):
 - Update thumbnails and descriptions for professional appearance
 - Test playback across different network speeds
 
-Step 8: Build a Video Knowledge Base
+Step 8 - Build a Video Knowledge Base
 
 Organize migrated content into a searchable knowledge base. Claap's tagging system enables this:
 
@@ -260,7 +260,7 @@ Tags to implement:
 
 Document these tags in a shared Wiki so team members tag consistently.
 
-Step 9: Measuring Migration Success Beyond Adoption Rate
+Step 9 - Measuring Migration Success Beyond Adoption Rate
 
 Track these metrics to evaluate whether the switch is working:
 
@@ -284,16 +284,16 @@ Setup a simple dashboard tracking these weekly. Share it with your team to celeb
 
 Troubleshooting Common Integration Issues
 
-Problem: Videos fail to transcribe accurately
-Solution: Claap transcription works best in quiet environments at normal speaking speed. Encourage team members to record in controlled conditions and speak clearly. Review transcripts before publishing for accuracy.
+Problem - Videos fail to transcribe accurately
+Solution - Claap transcription works best in quiet environments at normal speaking speed. Encourage team members to record in controlled conditions and speak clearly. Review transcripts before publishing for accuracy.
 
-Problem: Video playback stutters in certain regions
-Solution: Claap uses CDN distribution, but some regions experience delays. Test playback quality from team members' actual locations. If persistent, consider downloading and hosting on your own CDN as a fallback.
+Problem - Video playback stutters in certain regions
+Solution - Claap uses CDN distribution, but some regions experience delays. Test playback quality from team members' actual locations. If persistent, consider downloading and hosting on your own CDN as a fallback.
 
-Problem: Old Loom videos stop working (URL rot)
-Solution: Before fully committing to the switch, verify Loom's data export timeline. Many teams maintain a Loom archive for 60-90 days post-migration, allowing time to re-export any missed content before links die.
+Problem - Old Loom videos stop working (URL rot)
+Solution - Before fully committing to the switch, verify Loom's data export timeline. Many teams maintain a Loom archive for 60-90 days post-migration, allowing time to re-export any missed content before links die.
 
-Step 10: Rollback Planning
+Step 10 - Rollback Planning
 
 Despite best intentions, sometimes a migration doesn't work. Have a rollback plan:
 

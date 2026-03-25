@@ -28,13 +28,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Eye Strain in Remote Work
+Step 1 - Understand Eye Strain in Remote Work
 
 Eye strain occurs when your eyes tire from intense use. For developers, the culprits are well-known: prolonged screen time, inadequate lighting, poor display settings, and insufficient breaks. Unlike acute injuries, eye strain builds gradually. You might notice symptoms like dry eyes, headaches, blurred vision, or neck pain after hours of coding.
 
 The challenge for remote developers is that your workspace often lacks the ergonomic setup of a professional office. You control your environment, but that means you're responsible for optimizing it. Fortunately, small adjustments yield significant improvements.
 
-Step 2: Display Settings That Protect Your Eyes
+Step 2 - Display Settings That Protect Your Eyes
 
 Your monitor settings form the first line of defense against eye strain. Most operating systems now include built-in tools to reduce blue light and adjust color temperature.
 
@@ -70,7 +70,7 @@ Enable font ligatures in your editor. Ligatures like `->`, `=>`, and `!=` render
 }
 ```
 
-Step 3: Terminal Colors and Contrast
+Step 3 - Terminal Colors and Contrast
 
 Your terminal affects your eyes more than you might realize. High contrast without being harsh reduces strain during long debugging sessions.
 
@@ -86,9 +86,9 @@ colorscheme solarized
 
 Consider using low-contrast color schemes specifically designed for extended use. Solarized, Gruvbox, and Nord themes balance readability with reduced eye fatigue.
 
-Step 4: The 20-20-20 Rule and Scheduled Breaks
+Step 4 - The 20-20-20 Rule and Scheduled Breaks
 
-The 20-20-20 rule is simple: every 20 minutes, look at something 20 feet away for 20 seconds. This gives your eye muscles a chance to relax from focusing on close-up code.
+The 20-20-20 rule is simple - every 20 minutes, look at something 20 feet away for 20 seconds. This gives your eye muscles a chance to relax from focusing on close-up code.
 
 For developers, this rule integrates well with productivity techniques. Use the Pomodoro Technique with a twist:
 
@@ -103,7 +103,7 @@ done
 
 Tools like Stretchly, BreakTimer, or VS Code extensions like Standup reminder automate these breaks. Some developers use smart LED bulbs that gradually dim to signal break times.
 
-Step 5: Lighting Your Workspace Properly
+Step 5 - Lighting Your Workspace Properly
 
 Proper lighting eliminates the contrast between your screen and surroundings. A dim screen in a bright room or a bright screen in a dark room creates eye strain.
 
@@ -117,7 +117,7 @@ Avoid working in darkness. Ambient light at roughly half your screen brightness 
 
 Some developers invest in bias lighting, LED strips behind the monitor that illuminate the wall behind the screen. This reduces the stark brightness difference between your screen and the dark wall.
 
-Step 6: Blue Light and Screen Filters
+Step 6 - Blue Light and Screen Filters
 
 Blue light contributes to digital eye strain. While research on blue light's long-term effects continues, reducing exposure certainly helps during evening coding sessions.
 
@@ -128,24 +128,24 @@ macOS: Schedule Night Shift
 System Preferences > Displays > Night Shift
 From sunset to sunrise
 
-Linux: Use Redshift
-Install: brew install redshift (macOS) or sudo apt install redshift (Ubuntu)
-Run: redshift -O 3500K
+Linux - Use Redshift
+Install - brew install redshift (macOS) or sudo apt install redshift (Ubuntu)
+Run - redshift -O 3500K
 ```
 
 For browser-based work, extensions like f.lux or built-in dark modes help. Many code editors and terminals support dark themes by default.
 
-Step 7: Consider Hardware Solutions
+Step 7 - Consider Hardware Solutions
 
 While software solutions help, hardware improvements offer lasting benefits.
 
-Monitor size and resolution: A larger monitor at a comfortable distance reduces eye strain compared to squinting at a small screen. For developers, 27-inch monitors at 1440p or 4K resolutions strike a good balance.
+Monitor size and resolution - A larger monitor at a comfortable distance reduces eye strain compared to squinting at a small screen. For developers, 27-inch monitors at 1440p or 4K resolutions strike a good balance.
 
-Anti-glare screens: Matte screen protectors reduce reflections, especially in rooms with windows.
+Anti-glare screens - Matte screen protectors reduce reflections, especially in rooms with windows.
 
-Quality displays: IPS panels generally offer better viewing angles and color accuracy than TN panels, reducing the need to tilt your head or strain to see content.
+Quality displays - IPS panels generally offer better viewing angles and color accuracy than TN panels, reducing the need to tilt your head or strain to see content.
 
-Step 8: Eye Care Habits for Developers
+Step 8 - Eye Care Habits for Developers
 
 Beyond environmental adjustments, develop habits that protect your vision.
 
@@ -154,7 +154,7 @@ Beyond environmental adjustments, develop habits that protect your vision.
 - Annual eye exams: Regular checkups catch issues early. Discuss your screen time with your eye doctor.
 - Correct prescription: Outdated prescriptions force your eyes to work harder. Update glasses or contacts as needed.
 
-Step 9: Specialized Eyewear for Screen Work
+Step 9 - Specialized Eyewear for Screen Work
 
 Consider investing in computer-specific eyewear. These lenses include blue light filtering and are optimized for the distance at which you work (usually 60-70 cm away):
 
@@ -170,7 +170,7 @@ Developer-specific frames from tech companies:
 
 For contact lens users, consider specialized daily disposables designed for extended screen time. Dailies Aqua Comfort Plus and Acuvue Oasys specifically market reduced eye strain from improved moisture retention.
 
-Step 10: Monitor Distance and Positioning
+Step 10 - Monitor Distance and Positioning
 
 The 20-20-20 rule works better when your monitor position is ergonomic:
 
@@ -184,7 +184,7 @@ If you use multiple monitors, position your primary (most-used) monitor directly
 
 ```bash
 Quick setup validation script
-Measure distance: arm length should equal comfortable working distance
+Measure distance - arm length should equal comfortable working distance
 Use a ruler or phone measure app to verify 50-70cm
 
 Check eye level alignment:
@@ -212,7 +212,7 @@ Matte screens reduce reflections and glare, particularly important for home offi
 4K Resolution at 27" or Larger:
 Smaller text on 1080p 24" monitors forces harder focusing. Moving to 1440p or 2160p allows you to increase IDE font size while maintaining more code on screen. The Dell U2720Q ($600-700) offers excellent 4K ergonomics for developers.
 
-Step 11: Software Configuration Beyond Display Settings
+Step 11 - Software Configuration Beyond Display Settings
 
 Your IDE and terminal settings can significantly impact eye strain:
 
@@ -246,19 +246,19 @@ For terminal work:
 
 ```bash
 iTerm2 color preset with developer-friendly contrast
-Use: iTerm2 > Preferences > Profiles > Colors > Color Presets
-Recommended: "Dracula" or "Nord" - both balance contrast with reduced harshness
+Use - iTerm2 > Preferences > Profiles > Colors > Color Presets
+Recommended - "Dracula" or "Nord" - both balance contrast with reduced harshness
 
 Enable transparency for aesthetic break (does not increase strain)
 Preferences > Profiles > Window > Transparency: 15%
 
-Font: Monospace fonts designed for extended reading
+Font - Monospace fonts designed for extended reading
 Monaco (built-in) with size 13-14
 Source Code Pro (free from Adobe) size 13
 Inconsolata (free) size 13
 ```
 
-Step 12: Lighting Optimization in Detail
+Step 12 - Lighting Optimization in Detail
 
 Beyond basic ambient lighting, consider these advanced setups:
 
@@ -268,9 +268,9 @@ LED strips behind your monitor match your screen's color temperature. The Nanole
 Configuration:
 ```bash
 Set bias light to match your monitor's color temperature
-At 3000K (warm): roughly sunset color, reduces eye strain in evening
-At 4000K (neutral): comfortable for full-day work
-At 5600K (cool): similar to daylight, use earlier in day
+At 3000K (warm) - roughly sunset color, reduces eye strain in evening
+At 4000K (neutral) - comfortable for full-day work
+At 5600K (cool) - similar to daylight, use earlier in day
 ```
 
 Smart Lighting Schedule:
@@ -290,17 +290,17 @@ schedule = {
 Correlates with circadian rhythm, reducing eye strain throughout day
 ```
 
-Step 13: Break Automation Tools
+Step 13 - Break Automation Tools
 
 Manual breaks fail because they interrupt flow. Use tools that interrupt at scheduled times:
 
-Stretchly ($0 open-source): Local app that enforces breaks with customizable timers. Microbreaks (30 seconds) every 20 minutes, longer breaks (5 minutes) every 60 minutes.
+Stretchly ($0 open-source) - Local app that enforces breaks with customizable timers. Microbreaks (30 seconds) every 20 minutes, longer breaks (5 minutes) every 60 minutes.
 
-Stand Up! ($0 free version): Similar to Stretchly, lightweight system tray app with voice reminders.
+Stand Up! ($0 free version) - Similar to Stretchly, lightweight system tray app with voice reminders.
 
 eyeCare ($0-2.99 Mac App Store): Minimal design, integrates with system notifications, prevents snoozing.
 
-VS Code Extension: Break Time ($0): Adds break reminders directly in your editor. When timer fires, overlay covers your screen forcing you to look away.
+VS Code Extension - Break Time ($0): Adds break reminders directly in your editor. When timer fires, overlay covers your screen forcing you to look away.
 
 Configuration example:
 ```bash
@@ -317,7 +317,7 @@ Stretchly configuration (typically ~/.config/stretchly/config.json)
 }
 ```
 
-Step 14: Nutritional Support for Eye Health
+Step 14 - Nutritional Support for Eye Health
 
 While not directly related to workplace ergonomics, nutrition affects eye function:
 
@@ -329,22 +329,22 @@ Supplements that support eye health:
 
 None of these are magic bullets, but combined with proper ergonomics, they support your eyes through long coding sessions.
 
-Step 15: Test Your Current Setup
+Step 15 - Test Your Current Setup
 
 Before investing in hardware, audit your current situation:
 
 ```bash
 Create a baseline of your eye strain experience
 
-Day 1: Track current symptoms
-Document: eyes feel tired, blurred vision onset time, headaches, dry feeling
-Record: monitor distance, display settings, lighting conditions, break frequency
+Day 1 - Track current symptoms
+Document - eyes feel tired, blurred vision onset time, headaches, dry feeling
+Record - monitor distance, display settings, lighting conditions, break frequency
 
-Week 1: Implement software changes only
+Week 1 - Implement software changes only
 Night Shift/f.lux enabled, VS Code settings optimized, break reminders set
 Document any improvement in symptoms
 
-Week 2: Adjust physical setup
+Week 2 - Adjust physical setup
 Monitor repositioned, ambient lighting added, break frequency increased
 Compare against baseline
 

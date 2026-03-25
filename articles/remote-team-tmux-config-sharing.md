@@ -181,7 +181,7 @@ Pre-defined session layouts so the team starts with consistent workspace structu
 ```bash
 #!/bin/bash
 dev.sh. standard development session
-Usage: bash tmux/sessions/dev.sh [project-path]
+Usage - bash tmux/sessions/dev.sh [project-path]
 
 SESSION="dev"
 PROJECT="${1:-$HOME/projects/myapp}"
@@ -191,19 +191,19 @@ tmux has-session -t "$SESSION" 2>/dev/null && tmux attach -t "$SESSION" && exit
 
 tmux new-session -d -s "$SESSION" -c "$PROJECT" -n "editor"
 
-Window 1: Editor
+Window 1 - Editor
 tmux send-keys -t "${SESSION}:editor" "nvim ." Enter
 
-Window 2: Dev server split. top runs server, bottom runs terminal
+Window 2 - Dev server split. top runs server, bottom runs terminal
 tmux new-window -t "$SESSION" -n "server" -c "$PROJECT"
 tmux split-window -t "${SESSION}:server" -v -p 30
 tmux send-keys -t "${SESSION}:server.1" "npm run dev" Enter
 
-Window 3: Git
+Window 3 - Git
 tmux new-window -t "$SESSION" -n "git" -c "$PROJECT"
 tmux send-keys -t "${SESSION}:git" "git status" Enter
 
-Window 4: Tests (split: watch mode left, test output right)
+Window 4 - Tests (split: watch mode left, test output right)
 tmux new-window -t "$SESSION" -n "tests" -c "$PROJECT"
 tmux split-window -t "${SESSION}:tests" -h -p 40
 
@@ -319,27 +319,27 @@ tmux has-session -t "$SESSION" 2>/dev/null && tmux attach -t "$SESSION" && exit
 
 tmux new-session -d -s "$SESSION" -n "logs"
 
-Window 1: Log tailing split
-Top: app logs, Bottom: system logs
+Window 1 - Log tailing split
+Top - app logs, Bottom: system logs
 tmux send-keys -t "${SESSION}:logs" \
   "ssh deploy@app-01.internal 'tail -f /var/log/app/app.log'" Enter
 tmux split-window -t "${SESSION}:logs" -v -p 30
 tmux send-keys -t "${SESSION}:logs.2" \
   "ssh deploy@app-01.internal 'journalctl -f -u myapp'" Enter
 
-Window 2: Metrics. Prometheus queries
+Window 2 - Metrics. Prometheus queries
 tmux new-window -t "$SESSION" -n "metrics"
 tmux send-keys -t "${SESSION}:metrics" \
   "watch -n5 'curl -s http://prometheus.internal:9090/api/v1/query \
   --data-urlencode \"query=rate(http_requests_total[5m])\" | jq .'" Enter
 
-Window 3: Kubernetes
+Window 3 - Kubernetes
 tmux new-window -t "$SESSION" -n "k8s"
 tmux split-window -t "${SESSION}:k8s" -h
 tmux send-keys -t "${SESSION}:k8s.1" "watch kubectl get pods -n production" Enter
 tmux send-keys -t "${SESSION}:k8s.2" "kubectl events -n production --watch" Enter
 
-Window 4: SSH + runbook
+Window 4 - SSH + runbook
 tmux new-window -t "$SESSION" -n "shell"
 
 tmux select-window -t "${SESSION}:logs"

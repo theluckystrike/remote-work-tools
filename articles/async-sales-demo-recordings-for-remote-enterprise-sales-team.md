@@ -52,7 +52,7 @@ After recording, the video requires processing before distribution. A typical pi
 - Transcript generation using speech-to-text services
 - CDN upload for fast delivery
 
-Implementation: Building the Recording Automation
+Implementation - Building the Recording Automation
 
 This Python script demonstrates a basic async demo recording pipeline using FFmpeg for video processing:
 

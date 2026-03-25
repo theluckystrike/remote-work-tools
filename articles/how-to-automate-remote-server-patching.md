@@ -34,16 +34,16 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Strategy: Layers of Automation
+Step 1 - Strategy: Layers of Automation
 
 ```
-Layer 1: unattended-upgrades (security-only, automatic)
-Layer 2: Ansible playbook (full patching, scheduled)
-Layer 3: Reboot policy (during defined maintenance window)
-Layer 4: Notification (Slack alert after patching)
+Layer 1 - unattended-upgrades (security-only, automatic)
+Layer 2 - Ansible playbook (full patching, scheduled)
+Layer 3 - Reboot policy (during defined maintenance window)
+Layer 4 - Notification (Slack alert after patching)
 ```
 
-Step 2: Layer 1: unattended-upgrades (Ubuntu)
+Step 2 - Layer 1: unattended-upgrades (Ubuntu)
 
 Install on every server to handle security patches automatically:
 
@@ -96,7 +96,7 @@ Run immediately
 sudo unattended-upgrade -v
 ```
 
-Step 3: Layer 2: Ansible Full Patch Playbook
+Step 3 - Layer 2: Ansible Full Patch Playbook
 
 ```yaml
 playbooks/patch.yml
@@ -183,7 +183,7 @@ playbooks/patch.yml
       when: slack_webhook is defined
 ```
 
-Step 4: Run the Patch Playbook
+Step 4 - Run the Patch Playbook
 
 ```bash
 Dry run first. see what would change
@@ -212,7 +212,7 @@ ansible-playbook playbooks/patch.yml \
   -e "enforce_maintenance_window=false"
 ```
 
-Step 5: RHEL/CentOS Patching
+Step 5 - RHEL/CentOS Patching
 
 ```yaml
 tasks/patch-rhel.yml
@@ -236,7 +236,7 @@ tasks/patch-rhel.yml
   failed_when: false  # returns 1 if restart needed
 ```
 
-Step 6: Scheduled Cron Job
+Step 6 - Scheduled Cron Job
 
 ```bash
 /etc/cron.d/ansible-patching
@@ -283,7 +283,7 @@ fi
 Patch Compliance Reporting
 
 ```bash
-Generate report: which hosts need patches
+Generate report - which hosts need patches
 cat > playbooks/patch-report.yml << 'EOF'
 ---
 - name: Patch compliance report
@@ -315,7 +315,7 @@ ansible-playbook playbooks/patch-report.yml
 cat /tmp/patch-report.csv | column -t -s,
 ```
 
-Step 7: Handling Reboot Coordination Across Distributed Teams
+Step 7 - Handling Reboot Coordination Across Distributed Teams
 
 Rebooting production servers across multiple time zones without notice is how outages happen at 4am for someone. Build a reboot coordination workflow:
 
@@ -334,7 +334,7 @@ playbooks/reboot-notify.yml
           text: |
             :warning: *Scheduled reboot in 30 minutes*
             Hosts: {{ groups[target_group] | join(', ') }}
-            Window: {{ ansible_date_time.date }} {{ ansible_date_time.hour }}:{{ ansible_date_time.minute }} UTC
+            Window - {{ ansible_date_time.date }} {{ ansible_date_time.hour }}:{{ ansible_date_time.minute }} UTC
             Reason: Post-patch kernel update
             Owner: {{ lookup('env', 'USER') }}
             React with :white_check_mark: to acknowledge or :x: to delay.
@@ -348,7 +348,7 @@ playbooks/reboot-notify.yml
 
 For fully automated overnight patching, skip the pause and rely on the maintenance window enforcement in the playbook to prevent accidental daytime reboots.
 
-Step 8: Inventory Management for Heterogeneous Fleets
+Step 8 - Inventory Management for Heterogeneous Fleets
 
 Real fleets mix Ubuntu, RHEL, Debian, and Amazon Linux. Structure your inventory to handle this cleanly:
 
@@ -390,7 +390,7 @@ kernel_update_pkg: kernel
 
 This structure lets you run the same playbook across mixed OS environments without conditionals scattered throughout the tasks.
 
-Step 9: Kernel Live Patching for Zero-Downtime Security Fixes
+Step 9 - Kernel Live Patching for Zero-Downtime Security Fixes
 
 For servers that cannot tolerate any reboot, kernel live patching applies security fixes to the running kernel without a restart. On Ubuntu:
 
@@ -421,7 +421,7 @@ sudo kpatch install /usr/lib/kpatch/$(uname -r)/kpatch-*.ko
 
 Live patching does not replace traditional patching. it handles critical CVEs between maintenance windows, not a permanent substitute. Schedule full reboots quarterly even for live-patched servers to apply accumulated package updates.
 
-Step 10: Integrate Patch Status with Your Monitoring Stack
+Step 10 - Integrate Patch Status with Your Monitoring Stack
 
 Patching without observability means you do not know when it breaks something. Push patch results to your monitoring:
 
@@ -451,7 +451,7 @@ In Grafana, build a "Patch Compliance" dashboard with:
 
 Set an alert on the red panel that fires to `#ops` if any production host exceeds 30 days without a patch run. This gives your security team a live compliance view without manual spreadsheet updates.
 
-Step 11: Test Patches in a Staging Pipeline
+Step 11 - Test Patches in a Staging Pipeline
 
 Never patch production without a staging run. Add a sequential pipeline:
 

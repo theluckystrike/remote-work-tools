@@ -78,9 +78,9 @@ APN Configuration for European Carriers
 Different carriers use specific Access Point Names (APN). Before traveling, obtain the correct APN settings from your carrier or MVNO. You can configure these manually on most devices:
 
 ```
-APN: internet.carrier.com
-Authentication: CHAP
-IP Type: IPv4v6
+APN - internet.carrier.com
+Authentication - CHAP
+IP Type - IPv4v6
 ```
 
 Managing Data Usage
@@ -88,13 +88,13 @@ Managing Data Usage
 Monitor consumption to avoid unexpected throttling. Most hotspots provide built-in data tracking, but you can also use system-level monitoring:
 
 ```bash
-Linux: Monitor network usage per interface
+Linux - Monitor network usage per interface
 nload -i wlan0
 
 macOS: Check interface statistics
 netstat -I en0 -w
 
-Windows: View adapter statistics
+Windows - View adapter statistics
 netsh interface ipv4 show interfaces
 ```
 
@@ -106,11 +106,11 @@ Data Plan Considerations for Multi-Country Travel
 
 Several strategies work well for European travel:
 
-eSIM Solutions: Many modern devices support eSIM, allowing you to purchase data plans digitally before arrival. Providers like Airalo, Holafly, and local carrier eSIMs offer varying data limits and validity periods.
+eSIM Solutions - Many modern devices support eSIM, allowing you to purchase data plans digitally before arrival. Providers like Airalo, Holafly, and local carrier eSIMs offer varying data limits and validity periods.
 
-MVNO Plans: Mobile Virtual Network Operators often provide better rates than flagship carriers. Research options specific to your destination countries.
+MVNO Plans - Mobile Virtual Network Operators often provide better rates than flagship carriers. Research options specific to your destination countries.
 
-Data Roaming Regulations: The EU eliminated roaming surcharges within the European Economic Area. However, "fair use" policies may apply after extended use in a single country. Verify your plan's terms before relying heavily on data.
+Data Roaming Regulations - The EU eliminated roaming surcharges within the European Economic Area. However, "fair use" policies may apply after extended use in a single country. Verify your plan's terms before relying heavily on data.
 
 Security Considerations for Remote Work
 
@@ -142,27 +142,27 @@ Document any issues and contact carrier support before your trip. Many problems 
 
 Common Pitfalls and How to Avoid Them
 
-Overlooking Band Lock Issues: Some carriers lock devices to specific bands, limiting compatibility. Purchase unlocked devices or verify unlock policies.
+Overlooking Band Lock Issues - Some carriers lock devices to specific bands, limiting compatibility. Purchase unlocked devices or verify unlock policies.
 
-Ignoring Peak Hour Performance: Cellular networks slow significantly during business hours in urban areas. Test during peak times to establish realistic expectations.
+Ignoring Peak Hour Performance - Cellular networks slow significantly during business hours in urban areas. Test during peak times to establish realistic expectations.
 
-Underestimating Data Needs: A single Zoom call uses 500MB-1GB per hour. Video calls, automated deployments, and cloud IDE usage add up quickly. Plan for at least 10GB monthly for moderate professional use.
+Underestimating Data Needs - A single Zoom call uses 500MB-1GB per hour. Video calls, automated deployments, and cloud IDE usage add up quickly. Plan for at least 10GB monthly for moderate professional use.
 
 Device Recommendations by Use Case
 
-Budget-Conscious Travelers: TP-Link M7010 or Netgear Nighthawk MR6150
+Budget-Conscious Travelers - TP-Link M7010 or Netgear Nighthawk MR6150
 - Price: $100-150
 - Bands: Supports essential European LTE bands
 - Battery: 4,000mAh (8-10 hours)
 - Limitation: No 5G, slower in congested areas
 
-Professional Developers: GlocalMe G4 Pro or Netgear Nighthawk MR7450
+Professional Developers - GlocalMe G4 Pro or Netgear Nighthawk MR7450
 - Price: $200-300
 - Bands: 4G/5G support across Europe
 - Battery: 5,000mAh+ (10-12 hours)
 - Benefit: Dual-SIM capability, enterprise-grade speeds
 
-Power Users and Teams: Huawei B535-232 or Netgear Nighthawk Pro MR7500
+Power Users and Teams - Huawei B535-232 or Netgear Nighthawk Pro MR7500
 - Price: $250-400
 - Bands: Full 4G/5G spectrum, often supports satellite backup
 - Battery: 5,000+mAh with USB-C charging
@@ -178,11 +178,11 @@ Pre-travel hotspot verification script
 
 echo "1. Verify band support..."
 Check device specifications against target countries
-Document: BANDS_SUPPORTED=$(lsusb -v | grep "bcdDevice")
+Document - BANDS_SUPPORTED=$(lsusb -v | grep "bcdDevice")
 
 echo "2. Obtain carrier APNs..."
 Collect APN settings for each carrier you plan to use
-Save to: ~/hotspot_configs/apn_settings.txt
+Save to - ~/hotspot_configs/apn_settings.txt
 
 echo "3. Backup current configuration..."
 Export current device settings
@@ -194,8 +194,8 @@ Test simultaneous connections
 
 echo "5. Run speed tests at various times..."
 Baseline performance before traveling
-Peak hours: 6-10 PM
-Off-peak: 2-4 AM
+Peak hours - 6-10 PM
+Off-peak - 2-4 AM
 
 echo "6. Create failover playlist..."
 Download offline documentation, code references
@@ -223,7 +223,7 @@ Understanding actual data consumption helps you select appropriate plans:
 | Casual browsing | 30-100 MB | News, documentation sites |
 | Streaming (Netflix) | 1-3 GB | Per hour, varies with quality |
 
-Monthly Budget for Developers: 50-100 GB recommended for heavy use, 20-30 GB for moderate use.
+Monthly Budget for Developers - 50-100 GB recommended for heavy use, 20-30 GB for moderate use.
 
 Switching Between Carriers Mid-Trip
 
@@ -247,22 +247,22 @@ For physical SIM devices:
 
 Troubleshooting Connection Issues
 
-Symptoms: Connected to network but no data
+Symptoms - Connected to network but no data
 - Cause: Incorrect APN settings
 - Solution: Manually enter APN from carrier documentation
 - Test: ping 8.8.8.8
 
-Symptoms: Data works but extremely slow (< 1 Mbps)
+Symptoms - Data works but extremely slow (< 1 Mbps)
 - Cause: Network congestion or wrong band lock
 - Solution: Toggle airplane mode, force 4G-only mode, move location
 - Test: Use speedtest-cli to measure actual speeds
 
-Symptoms: Device won't find network
+Symptoms - Device won't find network
 - Cause: Device not compatible with local bands
 - Solution: Check device band compatibility against carrier frequencies
 - Contact: Carrier support for alternative bands in your area
 
-Symptoms: Battery drains rapidly
+Symptoms - Battery drains rapidly
 - Cause: 5G searching, high TX power, multiple devices connected
 - Solution: Limit to 4G mode, reduce connected devices, increase transmit power management
 - Test: Monitor battery degradation over known time period

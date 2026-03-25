@@ -24,7 +24,7 @@ Table of Contents
 - [Platform Comparison Overview](#platform-comparison-overview)
 - [Platform Comparison](#platform-comparison)
 - [Making Your Decision](#making-your-decision)
-- [Zero-Trust Network Access: Beyond Traditional IAM](#zero-trust-network-access-beyond-traditional-iam)
+- [Zero-Trust Network Access - Beyond Traditional IAM](#zero-trust-network-access-beyond-traditional-iam)
 - [Implementation Best Practices](#implementation-best-practices)
 
 This guide compares leading IAM platforms with practical implementation examples to help developers and power users choose the right solution for their remote workforce.
@@ -103,7 +103,7 @@ Azure AD (Microsoft Entra ID)
 Microsoft's identity platform has evolved significantly, rebranded as Microsoft Entra ID. For organizations already invested in Microsoft 365, Azure AD provides integration with Teams, SharePoint, and Windows devices.
 
 Strengths:
-- Deep Microsoft ecosystem integration
+- Deep Microsoft environment integration
 - Conditional Access policies with granular controls
 - Entitlement management for access packages
 
@@ -240,7 +240,7 @@ Choose your IAM platform based on your team's composition and technical maturity
 
 For early-stage remote companies with fewer than 50 employees, JumpCloud's pricing model and cross-platform support often provide the best value. Companies scaling past 100 employees with complex compliance requirements tend to migrate to Okta despite the cost, because the integration catalog and support quality reduce operational overhead.
 
-Zero-Trust Network Access: Beyond Traditional IAM
+Zero-Trust Network Access - Beyond Traditional IAM
 
 Modern remote-first security extends IAM into network access control. Pairing your IAM platform with a zero-trust network access (ZTNA) solution replaces traditional VPNs with identity-aware proxies.
 

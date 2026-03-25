@@ -199,7 +199,7 @@ Rules
 
 ---
 
-Tooling: Danger for Automated Checks
+Tooling - Danger for Automated Checks
 
 Danger runs automated checks on every PR before human reviewers see it, catching the mechanical items and freeing reviewers for judgment-based work:
 

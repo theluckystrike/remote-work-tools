@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Pre-Workshop Preparation
+Step 1 - Pre-Workshop Preparation
 
 The success of any remote workshop starts before the meeting begins. Skip the prep work, and you'll waste everyone's time.
 
@@ -39,10 +39,10 @@ Every workshop needs a specific, measurable outcome. Vague goals like "improve c
 A well-structured objective follows this pattern:
 
 ```markdown
-Step 2: Workshop Objectives
-- Decision: [What decision will we make?]
-- Output: [What artifact will we create?]
-- Alignment: [What shared understanding will we build?]
+Step 2 - Workshop Objectives
+- Decision - [What decision will we make?]
+- Output - [What artifact will we create?]
+- Alignment - [What shared understanding will we build?]
 ```
 
 For example, instead of "discuss our API strategy," use "decide on the GraphQL vs REST migration approach and create a decision document with rationale."
@@ -52,7 +52,7 @@ Create the Agenda with Time Boxing
 Time boxing prevents workshops from running over and keeps participants focused. Build your agenda with explicit durations for each segment, and share it before the workshop.
 
 ```markdown
-Workshop Agenda: Database Migration Planning
+Workshop Agenda - Database Migration Planning
 
 | Time | Segment | Lead | Output |
 |------|---------|------|--------|
@@ -64,7 +64,7 @@ Workshop Agenda: Database Migration Planning
 
 Send this agenda at least 24 hours in advance. Include any pre-work that participants need to complete, such as reading documentation or gathering data.
 
-Step 3: Tool Selection for Remote Workshops
+Step 3 - Tool Selection for Remote Workshops
 
 Your workshop tools directly impact engagement and productivity. Choose based on the type of interaction you need.
 
@@ -93,7 +93,7 @@ const workshopInput = {
 
 Tools like GitHub Issues, Notion, or Coda work well for collecting structured input before the workshop.
 
-Step 4: Help Techniques That Work
+Step 4 - Help Techniques That Work
 
 helping remote workshops requires different skills than in-person sessions. Without physical presence, you need to be more explicit with communication and engagement management.
 
@@ -115,7 +115,7 @@ Use Round-Robin for Equal Participation
 In remote settings, certain voices naturally dominate. Round-robin techniques ensure everyone contributes:
 
 ```
-Facilitator: "Let's go round-robin. Alex, start with your perspective on the migration approach."
+Facilitator - "Let's go round-robin. Alex, start with your perspective on the migration approach."
 [After each person speaks, acknowledge their input explicitly]
 "Got it, Alex is leaning toward incremental migration. Jordan, what's your take?"
 ```
@@ -129,7 +129,7 @@ Topics that arise but aren't relevant to the current workshop should go into a "
 Create a dedicated space in your whiteboard or document:
 
 ```
-Step 5: Parking Lot
+Step 5 - Parking Lot
 - [ ] Authentication migration timeline
 - [ ] Client notification strategy
 - [ ] Documentation updates
@@ -137,7 +137,7 @@ Step 5: Parking Lot
 
 At the end of the workshop, review the parking lot and assign owners for follow-up.
 
-Step 6: Run Technical Workshops
+Step 6 - Run Technical Workshops
 
 Technical workshops have specific requirements around code, architecture, and systems. Here are approaches that work well for developer-focused sessions.
 
@@ -147,13 +147,13 @@ When working through code examples, use a tool that allows participants to follo
 
 ```bash
 Set up a shared development environment
-Option 1: VS Code Live Share
+Option 1 - VS Code Live Share
 code --install-extension ms-vsliveshare.vsliveshare
 
-Option 2: Gitpod for browser-based collaboration
+Option 2 - Gitpod for browser-based collaboration
 Share the workspace URL with participants
 
-Option 3: REPL-based sessions
+Option 3 - REPL-based sessions
 Use a shared REPL.it or Deepnote for Python/JavaScript
 ```
 
@@ -178,41 +178,41 @@ Decision Documentation in Real-Time
 Document decisions as they happen rather than trying to reconstruct them afterward. Assign a scribe role explicitly:
 
 ```markdown
-Step 7: Decision Log - [Workshop Name]
+Step 7 - Decision Log - [Workshop Name]
 2026-03-15
 
-Decision 1: Migration approach
+Decision 1 - Migration approach
 - Choice: Incremental migration starting with read-only endpoints
 - Rationale: Lower risk, allows gradual testing
 - Concers to monitor: Data consistency during transition
 - Owner: @sarah
 - Ticket: PROJ-1234
 
-Decision 2: Timeline
+Decision 2 - Timeline
 - Go-live: Q2 2026
 - Key milestones: [list]
 ```
 
 This directly creates the artifact your team needs to move forward.
 
-Step 8: Post-Workshop Follow-Through
+Step 8 - Post-Workshop Follow-Through
 
 The work doesn't end when the video call closes. Without proper follow-through, workshops become expensive meetings that produce no results.
 
-Step 9: Date: [Date]
-Step 10: Participants: [List]
+Step 9 - Date: [Date]
+Step 10 - Participants: [List]
 
-Step 11: Decisions Made
+Step 11 - Decisions Made
 1. [Decision with rationale]
 2. [Decision with rationale]
 
-Step 12: Action Items
+Step 12 - Action Items
 | Task | Owner | Due Date |
 |------|-------|----------|
 | Create migration plan | @alex | 2026-03-20 |
 | Set up staging environment | @jordan | 2026-03-22 |
 
-Step 13: Parking Lot Items (addressed separately)
+Step 13 - Parking Lot Items (addressed separately)
 - [List of items moved to future discussions]
 
 Next Steps
@@ -233,7 +233,7 @@ gh issue create \
 
 Include a link back to the workshop summary in each ticket's description.
 
-Step 14: Common Pitfalls to Avoid
+Step 14 - Common Pitfalls to Avoid
 
 Even experienced facilitators run into problems. Here are traps that undermine workshop effectiveness:
 

@@ -29,12 +29,12 @@ score: 8
 Table of Contents
 
 - [Why GitHub Discussions for Engineering Proposals](#why-github-discussions-for-engineering-proposals)
-- [Step 1: Enable and Configure GitHub Discussions](#step-1-enable-and-configure-github-discussions)
-- [Step 2: Create the Proposal Template](#step-2-create-the-proposal-template)
-- [Step 3: Set Up Review Workflow Automation](#step-3-set-up-review-workflow-automation)
-- [Step 4: Running the Proposal Process](#step-4-running-the-proposal-process)
+- [Step 1 - Enable and Configure GitHub Discussions](#step-1-enable-and-configure-github-discussions)
+- [Step 2 - Create the Proposal Template](#step-2-create-the-proposal-template)
+- [Step 3 - Set Up Review Workflow Automation](#step-3-set-up-review-workflow-automation)
+- [Step 4 - Running the Proposal Process](#step-4-running-the-proposal-process)
 - [Decision Summary](#decision-summary)
-- [Step 5: Automate Status Updates](#step-5-automate-status-updates)
+- [Step 5 - Automate Status Updates](#step-5-automate-status-updates)
 - [Best Practices for Effective Async Proposals](#best-practices-for-effective-async-proposals)
 - [Measuring Proposal Process Effectiveness](#measuring-proposal-process-effectiveness)
 
@@ -51,7 +51,7 @@ GitHub Discussions keeps proposals in the same namespace as the work they produc
 
 GitHub Discussions also has built-in features that map well to async proposal workflows: upvotes for sentiment, the "Answer" marker for resolved questions, pinning for active proposals, and label-based categorization for filtering.
 
-Step 1: Enable and Configure GitHub Discussions
+Step 1 - Enable and Configure GitHub Discussions
 
 Navigate to your repository Settings, scroll to the Features section, and enable Discussions. Once enabled, go to the Discussions tab and create a dedicated category:
 
@@ -63,7 +63,7 @@ Create additional categories if useful:
 - ADRs (Architecture Decision Records). for final, approved decisions worth preserving
 - Explorations. for early-stage ideas that aren't formal proposals yet
 
-Step 2: Create the Proposal Template
+Step 2 - Create the Proposal Template
 
 GitHub Discussions supports Discussion templates via `.github/DISCUSSION_TEMPLATE/` directory. Create a file at `.github/DISCUSSION_TEMPLATE/engineering-proposal.yml`:
 
@@ -126,7 +126,7 @@ body:
 
 This template guarantees every proposal follows a reviewable structure and prevents the most common failure mode: sparse proposals that get sparse feedback.
 
-Step 3: Set Up Review Workflow Automation
+Step 3 - Set Up Review Workflow Automation
 
 Create a GitHub Actions workflow to manage proposal lifecycle. Save as `.github/workflows/proposal-review.yml`:
 
@@ -169,11 +169,11 @@ jobs:
 
 This workflow automatically labels new proposals and pins them for visibility.
 
-Step 4: Running the Proposal Process
+Step 4 - Running the Proposal Process
 
 With infrastructure in place, here's how to run an actual proposal:
 
-Phase 1: Draft and Submit
+Phase 1 - Draft and Submit
 
 1. Create a new Discussion using the Engineering Proposal template
 2. Fill in all sections thoroughly. sparse proposals get sparse feedback
@@ -181,7 +181,7 @@ Phase 1: Draft and Submit
 4. Set a review deadline (typically 5-7 business days)
 5. Post a link in your team's Slack channel with a brief one-line summary
 
-Phase 2: Async Review
+Phase 2 - Async Review
 
 Reviewers engage on their own schedules. Encourage them to use:
 
@@ -192,7 +192,7 @@ Reviewers engage on their own schedules. Encourage them to use:
 
 Reviewers from different time zones will engage at different points in the review window. This is fine. async proposals are designed to accumulate feedback over time, not demand simultaneous attention.
 
-Phase 3: Collect Decisions
+Phase 3 - Collect Decisions
 
 After the review period, the proposal author summarizes feedback as a pinned comment:
 
@@ -209,12 +209,12 @@ Open Items Requiring Follow-up
 
 Final Decision
 Approved with the conditions above. Moving to implementation.
-Implementation tracking: [Link to GitHub Issue]
+Implementation tracking - [Link to GitHub Issue]
 ```
 
 Marking this comment as the Answer closes the proposal cleanly and makes the decision findable later.
 
-Step 5: Automate Status Updates
+Step 5 - Automate Status Updates
 
 Track proposal status by creating a simple label-based system:
 
@@ -255,8 +255,8 @@ Set Clear Deadlines
 Without explicit deadlines, proposals drift indefinitely. Include:
 
 ```markdown
-Review period: March 16-23, 2026
-Decision target: March 24, 2026
+Review period - March 16-23, 2026
+Decision target - March 24, 2026
 ```
 
 Follow up with a Slack reminder two days before the deadline if key reviewers haven't weighed in.

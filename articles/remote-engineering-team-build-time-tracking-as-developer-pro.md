@@ -191,13 +191,13 @@ module.exports = {
 Multi-stage Docker builds and layer caching help:
 
 ```dockerfile
-Bad: Every layer changes
+Bad - Every layer changes
 FROM node:18
 COPY . .
 RUN npm install
 RUN npm run build
 
-Good: Dependencies cached separately
+Good - Dependencies cached separately
 FROM node:18 AS deps
 WORKDIR /app
 COPY package*.json ./
@@ -331,7 +331,7 @@ Template for a weekly build health message:
 • Total build minutes consumed: 12,400 (budget: 15,000)
 • P95 within SLO (8m): YES
 
-Action items: Investigate integration-test parallelization before next sprint.
+Action items - Investigate integration-test parallelization before next sprint.
 ```
 
 Sending this in a dedicated #engineering-metrics channel every Monday takes five minutes and prevents the common pattern where build time regressions go unnoticed for weeks because no one thought to check.

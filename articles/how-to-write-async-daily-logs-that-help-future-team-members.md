@@ -45,7 +45,7 @@ When you write daily logs with future readers in mind, you're building instituti
 - Decision history becomes clear: Future developers understand why certain choices were made, even years later
 - You help your future self: When you return to a project after months, your logs refresh your memory instantly
 
-The key insight is this: you're not writing for today. You're writing for someone who needs to understand your work six months from now, possibly while you're on vacation or have left the team.
+The key insight is this - you're not writing for today. You're writing for someone who needs to understand your work six months from now, possibly while you're on vacation or have left the team.
 
 What Makes a Daily Log Helpful
 
@@ -58,7 +58,7 @@ Future readers need to understand not just what you did, but why. Record the con
 ```
 March 18, 2026
 
-Decision: Chose PostgreSQL over MongoDB for user data storage
+Decision - Chose PostgreSQL over MongoDB for user data storage
 
 Reasoning:
 - Needed ACID compliance for financial transactions
@@ -66,7 +66,7 @@ Reasoning:
 - Query patterns are relational (user → orders → items)
 - Considered: MongoDB for flexibility, but schema validation complexity outweighed benefits
 
-Status: Implemented in PR #234
+Status - Implemented in PR #234
 ```
 
 2. Context That Would Be Lost Otherwise
@@ -83,7 +83,7 @@ Context discovered during implementation:
 - Their documentation is misleading on this point (confirmed via support)
 - Our current implementation is conservative; could increase limits safely
 
-Recommendation for future: Test actual limits before implementing aggressive throttling
+Recommendation for future - Test actual limits before implementing aggressive throttling
 ```
 
 3. Links to Evidence
@@ -108,7 +108,7 @@ Record things you learned that others might find useful:
 ```
 March 18, 2026
 
-Discovery: Vercel's ISR has a 60-second timeout
+Discovery - Vercel's ISR has a 60-second timeout
 
 Learned while debugging deployment failures:
 - Incremental Static Regeneration fails silently if generation takes >60s
@@ -182,7 +182,7 @@ Detailed Tool Comparison for Daily Logs
 
 Choosing the right platform matters because adoption requires minimal friction. Here's what actually works in practice:
 
-Notion (Pricing: Free - $12/month per user)
+Notion (Pricing - Free - $12/month per user)
 
 Notion's database features make it ideal for teams wanting searchable logs with rich filtering. Create a database where each entry is a page with properties like:
 
@@ -191,23 +191,23 @@ Notion's database features make it ideal for teams wanting searchable logs with 
 - Related PRs (relation field linking to a PRs database)
 - Assignees (if documenting decisions others need to know)
 
-Advantage: Powerful search, database relations let you cross-reference decisions with their implementation PRs, great for future onboarding.
+Advantage - Powerful search, database relations let you cross-reference decisions with their implementation PRs, great for future onboarding.
 
-Disadvantage: Notion can feel slow when updating frequently, and the learning curve is steeper for less technical team members.
+Disadvantage - Notion can feel slow when updating frequently, and the learning curve is steeper for less technical team members.
 
-Best for: Teams already invested in Notion; engineering teams wanting to correlate decisions with code changes.
+Best for - Teams already invested in Notion; engineering teams wanting to correlate decisions with code changes.
 
-GitHub Discussions (Pricing: Free)
+GitHub Discussions (Pricing - Free)
 
 For engineering teams already on GitHub, using Discussions as a daily log platform keeps documentation close to the code it describes. Create a team discussion per sprint, then reply with daily entries.
 
 ```
-Title: "Q1 Sprint 3 Daily Logs - Arch Team"
+Title - "Q1 Sprint 3 Daily Logs - Arch Team"
 
 Each day, reply with:
 March 18, 2026
 
-Decision: API caching strategy changed from Redis to in-process LRU cache
+Decision - API caching strategy changed from Redis to in-process LRU cache
 
 Reasoning:
 - Measured Redis latency at p99 = 45ms
@@ -218,11 +218,11 @@ Reasoning:
 PR: https://github.com/team/repo/pull/4521
 ```
 
-Advantage: Integrated with code review workflow, no additional tool to learn, search works well within GitHub.
+Advantage - Integrated with code review workflow, no additional tool to learn, search works well within GitHub.
 
-Disadvantage: Less structured than a database, not ideal if you need to query across multiple sprints easily.
+Disadvantage - Less structured than a database, not ideal if you need to query across multiple sprints easily.
 
-Best for: Engineering teams, especially those using GitHub for issue tracking.
+Best for - Engineering teams, especially those using GitHub for issue tracking.
 
 Obsidian + Shared Git Repo (Pricing: Free)
 
@@ -242,23 +242,23 @@ daily-logs/
 
 Each file contains the day's entry. Git history shows the evolution of your thinking, and `git log --grep="Decision"` surfaces all past decisions.
 
-Advantage: Offline-first, supports linking between entries naturally, version control gives you full history, zero cost.
+Advantage - Offline-first, supports linking between entries naturally, version control gives you full history, zero cost.
 
-Disadvantage: Requires team discipline to commit regularly, search across entries is manual, no web UI.
+Disadvantage - Requires team discipline to commit regularly, search across entries is manual, no web UI.
 
-Best for: Distributed teams comfortable with Git, or teams wanting maximum control.
+Best for - Distributed teams comfortable with Git, or teams wanting maximum control.
 
-Linear (Pricing: $10-$100/month depending on users)
+Linear (Pricing - $10-$100/month depending on users)
 
 Linear is an issue tracker built for speed. Create a "Daily Log" project and use the comment/update feature to build logs over time. Each day's entry becomes a searchable issue update.
 
-Advantage: Issues sync with your existing Linear workflow, search integrates with your project data, clean UI.
+Advantage - Issues sync with your existing Linear workflow, search integrates with your project data, clean UI.
 
-Disadvantage: Overkill if you're not using Linear for project management.
+Disadvantage - Overkill if you're not using Linear for project management.
 
-Best for: Teams already standardized on Linear.
+Best for - Teams already standardized on Linear.
 
-Slack Threads (Pricing: Included with Slack)
+Slack Threads (Pricing - Included with Slack)
 
 Create a dedicated channel `#daily-logs-engineering` and post daily summaries as threaded messages. Slack's search works across threads, making logs discoverable.
 
@@ -267,15 +267,15 @@ Main message (3/18/2026):
 
 Thread:
 - Decision: Chose PostgreSQL...
-- Reasoning: ACID compliance needed...
+- Reasoning - ACID compliance needed...
 - PR: https://...
 ```
 
-Advantage: Quick to write, visible to team without switching apps, integrates with existing Slack culture.
+Advantage - Quick to write, visible to team without switching apps, integrates with existing Slack culture.
 
-Disadvantage: Slack search can be slow, harder to preserve logs long-term, not ideal for permanent reference.
+Disadvantage - Slack search can be slow, harder to preserve logs long-term, not ideal for permanent reference.
 
-Best for: Small, fast-moving teams; good as a starting point before migrating to formal documentation.
+Best for - Small, fast-moving teams; good as a starting point before migrating to formal documentation.
 
 Real-World Onboarding Example
 
@@ -297,13 +297,13 @@ Pair daily logs with automated PR summaries. When a PR merges, add a note to you
 ```
 March 18, 2026
 
-Merged: Stripe webhook signature verification
+Merged - Stripe webhook signature verification
 
 PR: #452
-Problem: Webhooks were being accepted without signature verification
-Solution: Implemented Stripe's recommended HMAC validation
-Deployment: Rollout complete by 11 AM UTC
-Impact: Closes security gap identified in March 8 audit
+Problem - Webhooks were being accepted without signature verification
+Solution - Implemented Stripe's recommended HMAC validation
+Deployment - Rollout complete by 11 AM UTC
+Impact - Closes security gap identified in March 8 audit
 ```
 
 This gives future engineers the full context without them having to reconstruct it from commit messages.

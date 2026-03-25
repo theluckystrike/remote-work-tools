@@ -33,7 +33,7 @@ Nginx Unit collapses this into one system with one configuration API. Some speci
 - Atomic path swaps: Point Unit at a new directory and in-flight requests finish against the old code while new requests go to the new code. No brief window of 502 errors.
 - No glue code: Unit handles process management, signal handling, logging, and TLS. You do not need to write a systemd service for each app.
 
-The tradeoff: Unit's community is smaller than Gunicorn's or PM2's. When something breaks, the debugging path is less well-documented. This guide includes a troubleshooting section to cover the common cases.
+The tradeoff - Unit's community is smaller than Gunicorn's or PM2's. When something breaks, the debugging path is less well-documented. This guide includes a troubleshooting section to cover the common cases.
 
 ---
 

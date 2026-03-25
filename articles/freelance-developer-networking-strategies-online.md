@@ -92,7 +92,7 @@ Social platforms require different approaches. Twitter works for technical conve
 
 LinkedIn proves more effective for direct client outreach and thought leadership. Publish articles about technical challenges you've solved, framed as educational content. This positions you as an expert while remaining helpful, never salesy.
 
-The key on both platforms: lead with value. Share insights, celebrate others' work, and contribute to discussions before promoting yourself.
+The key on both platforms - lead with value. Share insights, celebrate others' work, and contribute to discussions before promoting yourself.
 
 Communities That Generate Opportunities
 
@@ -152,7 +152,7 @@ Existing clients represent your best referral source. Make it easy for them to r
 2. Stay top-of-mind through periodic check-ins after project completion
 3. Make referrals frictionless by providing a clear description of your ideal client
 
-Ask directly but respectfully: "If you know any other companies or individuals who might benefit from my services, I'd genuinely appreciate an introduction."
+Ask directly but respectfully - "If you know any other companies or individuals who might benefit from my services, I'd genuinely appreciate an introduction."
 
 Maintaining Professional Relationships
 
@@ -206,9 +206,9 @@ Table of Contents
 - [Systematizing Network Maintenance](#systematizing-network-maintenance)
 - [Networking for Different Freelance Specialties](#networking-for-different-freelance-specialties)
 - [Outreach Message Templates That Work](#outreach-message-templates-that-work)
-- [Template 1: Re-engagement (Someone you used to know)](#template-1-re-engagement-someone-you-used-to-know)
-- [Template 2: Community connection (Someone from a community you participate in)](#template-2-community-connection-someone-from-a-community-you-participate-in)
-- [Template 3: Referral follow-up](#template-3-referral-follow-up)
+- [Template 1 - Re-engagement (Someone you used to know)](#template-1-re-engagement-someone-you-used-to-know)
+- [Template 2 - Community connection (Someone from a community you participate in)](#template-2-community-connection-someone-from-a-community-you-participate-in)
+- [Template 3 - Referral follow-up](#template-3-referral-follow-up)
 - [Paid Outreach vs Organic Networking](#paid-outreach-vs-organic-networking)
 
 Are there any hidden costs I should know about?
@@ -297,7 +297,7 @@ Q4: Capitalize
 - Network leveraging: Reach out to 30+ people from year's content
 - Year review: Content performance analysis
 
-Strategic focus: Not volume, but relevance. 4 excellent blog posts beat 20 mediocre ones.
+Strategic focus - Not volume, but relevance. 4 excellent blog posts beat 20 mediocre ones.
 ```
 
 Building a Personal Brand as a Freelancer
@@ -320,22 +320,22 @@ STRONG BRAND:
 
 Building recognizable brand (12-month timeline):
 
-Month 1-3: Define niche and voice
+Month 1-3 - Define niche and voice
   - Write 5 articles about your specialization
   - Build GitHub profile showing your best work
   - Create consistent bio across Twitter, LinkedIn, website
 
-Month 4-6: Establish authority
+Month 4-6 - Establish authority
   - Publish regularly (1 article per week)
   - Engage in 2-3 communities with meaningful contributions
   - Attend 1 conference or meetup
 
-Month 7-9: Expand reach
+Month 7-9 - Expand reach
   - Guest post on larger publications
   - Build email list (even 50 subscribers is a start)
   - Connect with other specialists in adjacent areas
 
-Month 10-12: Use brand
+Month 10-12 - Use brand
   - Inbound inquiries from content and community presence
   - Referrals from connections made during year
   - Speaking opportunities from visibility
@@ -350,7 +350,7 @@ Many freelancers build great networks but let relationships decay. Create system
 Network maintenance automation
 
 Quarterly relationship review
-File: network-review.sh
+File - network-review.sh
 
 function quarterly_review() {
     echo "=== Q$(date +%q) Network Review ==="
@@ -375,19 +375,19 @@ Monthly networking tasks
 cat > ~/cron/networking.sh << 'EOF'
 #!/bin/bash
 
-Week 1: Outreach
+Week 1 - Outreach
 Send 2-3 messages to people in your network
 Not asking for work, just reconnecting
 
-Week 2: Content
-Publish something: blog post, tweet, or GitHub project
+Week 2 - Content
+Publish something - blog post, tweet, or GitHub project
 Share with relevant community members
 
-Week 3: Community
+Week 3 - Community
 Engage in 5 discussions in your niche communities
 Answer questions, share insights (not self-promotion)
 
-Week 4: Follow-up
+Week 4 - Follow-up
 Respond to any conversations from weeks 1-3
 Track what resulted in engagement
 EOF
@@ -399,28 +399,28 @@ Networking for Different Freelance Specialties
 Your networking approach should match your specialty:
 
 ```
-SPECIALTY: Web Development (Common)
-- Primary: GitHub portfolio, dev.to articles
+SPECIALTY - Web Development (Common)
+- Primary - GitHub portfolio, dev.to articles
 - Secondary: Twitter tech discussions
 - Tertiary: Dev community forums (Reddit r/webdev)
 - Events: Meetups, virtual conferences
 - Time investment: 5-10 hours/week for serious inbound
 
-SPECIALTY: Performance Engineering
+SPECIALTY - Performance Engineering
 - Primary: Blog posts about optimization techniques
 - Secondary: Twitter threads on performance debugging
 - Tertiary: Close relationships with 5-10 key people in performance community
 - Events: Specialty conferences (PerfNow, ReactConf)
 - Time investment: 3-5 hours/week focused and deep
 
-SPECIALTY: DevOps / Infrastructure
+SPECIALTY - DevOps / Infrastructure
 - Primary: GitHub (good infrastructure examples)
 - Secondary: In-depth technical blog posts
 - Tertiary: Specialized communities (Cloud Native, Kubernetes)
 - Events: Infrastructure conferences
 - Time investment: 4-8 hours/week (often consulting-heavy anyway)
 
-SPECIALTY: Data Science / ML
+SPECIALTY - Data Science / ML
 - Primary: GitHub notebooks, Kaggle competitions
 - Secondary: Blog posts on techniques
 - Tertiary: Research paper summaries on LinkedIn/Twitter
@@ -433,9 +433,9 @@ Outreach Message Templates That Work
 Successful outreach is specific, low-ask, and value-focused:
 
 ```markdown
-Template 1: Re-engagement (Someone you used to know)
+Template 1 - Re-engagement (Someone you used to know)
 
-Subject: [Project you worked on together]
+Subject - [Project you worked on together]
 
 Hi [name],
 
@@ -456,9 +456,9 @@ low-pressure ask, value-focused]
 ```
 
 ```markdown
-Template 2: Community connection (Someone from a community you participate in)
+Template 2 - Community connection (Someone from a community you participate in)
 
-Subject: [Specific project/article they created]
+Subject - [Specific project/article they created]
 
 Hi [name],
 
@@ -478,9 +478,9 @@ establishes common ground, no hard ask]
 ```
 
 ```markdown
-Template 3: Referral follow-up
+Template 3 - Referral follow-up
 
-Subject: Thanks for the intro!
+Subject - Thanks for the intro!
 
 Hi [person who made intro],
 
@@ -502,7 +502,7 @@ Paid Outreach vs Organic Networking
 Should you pay for opportunities?
 
 ```
-PAID PLATFORMS (Cost: $50-500/month)
+PAID PLATFORMS (Cost - $50-500/month)
 - Toptal, Gun.io, Gun.io, Hired: Pre-vetted, vetted, client screening
 - Upwork Pro: Higher-tier freelancer profiles
 - LinkedIn Recruiter: Find prospects who are hiring
@@ -515,7 +515,7 @@ PAID PLATFORMS (Cost: $50-500/month)
 - Commoditized (client chooses based on price first)
 - Competing with many other freelancers
 
-ORGANIC NETWORKING (Cost: time investment)
+ORGANIC NETWORKING (Cost - time investment)
 - Community engagement: Free (just requires consistency)
 - Content creation: Free (blogging) to $100s (courses)
 - Conferences: $500-2000 per attendance

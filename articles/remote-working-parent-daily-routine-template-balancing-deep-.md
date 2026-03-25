@@ -63,9 +63,9 @@ The 4-Block Daily Routine Template
 
 This template divides your workday into four distinct blocks, each with a specific purpose:
 
-Block 1: Morning Setup (7:00 AM - 8:30 AM)
+Block 1 - Morning Setup (7:00 AM - 8:30 AM)
 
-Purpose: Prepare both kids and yourself for the day
+Purpose - Prepare both kids and yourself for the day
 
 This block is for transition time, getting kids fed, dressed, and settled while you handle morning emails and standup prep. Don't attempt deep work here. You're running a morning shift.
 
@@ -75,15 +75,15 @@ Activities:
 - Quick email triage (no lengthy responses)
 - Review today's priorities
 
-Automation tip: Use a smart speaker to set transition timers:
+Automation tip - Use a smart speaker to set transition timers:
 
 ```
 "Hey Google, start 15-minute timer for kids' breakfast"
 ```
 
-Block 2: Protected Deep Work (8:30 AM - 11:30 AM)
+Block 2 - Protected Deep Work (8:30 AM - 11:30 AM)
 
-Purpose: Your highest-value coding hours
+Purpose - Your highest-value coding hours
 
 This is your sacred time. Treat it like an important meeting, because it is. During these three hours, you focus exclusively on complex coding tasks, architecture decisions, or bug fixes that require sustained concentration.
 
@@ -116,7 +116,7 @@ function startFocusSession(minutes, task) {
   }, 1000);
 }
 
-// Usage: node focus-timer.js 90 "Fix authentication bug"
+// Usage - node focus-timer.js 90 "Fix authentication bug"
 const task = process.argv[3] || "Deep work";
 const duration = parseInt(process.argv[2]) || 25;
 startFocusSession(duration, task);
@@ -128,9 +128,9 @@ startFocusSession(duration, task);
 - Play-doh
 - Suction cup toys for the window
 
-Block 3: Midday Maintenance (11:30 AM - 2:00 PM)
+Block 3 - Midday Maintenance (11:30 AM - 2:00 PM)
 
-Purpose: Handle meetings, emails, and lower-energy tasks
+Purpose - Handle meetings, emails, and lower-energy tasks
 
 This block accommodates the chaos that typically accompanies lunch and afternoon schedules. Schedule your meetings here, video calls, standups, and code reviews all fit this window.
 
@@ -141,16 +141,16 @@ Activities:
 - Lunch with family
 - Outdoor time or physical activity with kids
 
-GitHub integration for meetings: Keep your async work visible:
+GitHub integration for meetings - Keep your async work visible:
 
 ```bash
 Quick status update alias for your shell
 alias gh-status='echo "Today\\c" && gh run list --limit 3 --json name,status,conclusion --jq ".[].name + \" - \" + .[].status"'
 ```
 
-Block 4: Afternoon Wrap-Up (2:00 PM - 5:00 PM)
+Block 4 - Afternoon Wrap-Up (2:00 PM - 5:00 PM)
 
-Purpose: Complete tasks and prepare for tomorrow
+Purpose - Complete tasks and prepare for tomorrow
 
 Your energy may flag by afternoon, making this ideal for finishing touches: documentation, smaller bug fixes, or preparing tomorrow's code.
 

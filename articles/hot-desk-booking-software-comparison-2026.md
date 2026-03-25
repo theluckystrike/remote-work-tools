@@ -22,9 +22,9 @@ Table of Contents
 
 - [What Developers Need From Desk Booking Systems](#what-developers-need-from-desk-booking-systems)
 - [Quick Comparison](#quick-comparison)
-- [Teem: API-First Desk Management](#teem-api-first-desk-management)
-- [Robin: Floor Plan Integration](#robin-floor-plan-integration)
-- [Envys: Developer-Friendly API](#envys-developer-friendly-api)
+- [Teem - API-First Desk Management](#teem-api-first-desk-management)
+- [Robin - Floor Plan Integration](#robin-floor-plan-integration)
+- [Envys - Developer-Friendly API](#envys-developer-friendly-api)
 - [Custom Implementation Options](#custom-implementation-options)
 - [Key Evaluation Criteria](#key-evaluation-criteria)
 - [Integration Patterns for Power Users](#integration-patterns-for-power-users)
@@ -48,7 +48,7 @@ Quick Comparison
 | API Access | Available | Available |
 | Automation | Workflow support | Workflow support |
 
-Teem: API-First Desk Management
+Teem - API-First Desk Management
 
 Teem (now part of Envoy) offers a well-documented API that handles the core desk booking operations. The API supports CRUD operations for desks, floors, and bookings, making it suitable for custom integrations.
 
@@ -62,9 +62,9 @@ curl -X GET "https://api.teem.io/v1/desks?location_id=nyc-office" \
 
 The response includes desk attributes like amenities, position coordinates for floor plan visualization, and current availability status. Teem's webhook system notifies your systems when bookings are created, modified, or cancelled, essential for keeping internal dashboards synchronized.
 
-One consideration: Teem's API rate limits may require implementation of request caching if your application handles high booking volumes during peak hours.
+One consideration - Teem's API rate limits may require implementation of request caching if your application handles high booking volumes during peak hours.
 
-Robin: Floor Plan Integration
+Robin - Floor Plan Integration
 
 Robin emphasizes floor plan visualization and provides a SDK for embedding interactive maps into your internal portals. Their API allows querying desk availability with time-based filters, which is useful for building custom availability dashboards.
 
@@ -88,9 +88,9 @@ def get_available_desks(office_id, start_time, end_time):
     return response.json()
 ```
 
-Robin's strength lies in its integration ecosystem, they offer native integrations with calendar systems, Slack for booking notifications, and building management systems. If your team already uses Robin for room booking, extending to desk management provides an unified experience.
+Robin's strength lies in its integration environment, they offer native integrations with calendar systems, Slack for booking notifications, and building management systems. If your team already uses Robin for room booking, extending to desk management provides an unified experience.
 
-Envys: Developer-Friendly API
+Envys - Developer-Friendly API
 
 Envys (formerly Teem) provides a GraphQL API alongside REST endpoints, giving developers flexible query options. GraphQL proves particularly useful when you need to fetch desk details with related data, like floor information, amenity lists, and user preferences, in a single request.
 
@@ -181,15 +181,15 @@ Key Evaluation Criteria
 
 When comparing solutions, focus on these technical factors:
 
-API Rate Limits: Check whether limits scale with your organization size. High-volume check-in systems may hit rate limits during peak morning hours.
+API Rate Limits - Check whether limits scale with your organization size. High-volume check-in systems may hit rate limits during peak morning hours.
 
-Webhook Reliability: Examine webhook delivery guarantees and retry policies. Some vendors use eventually-consistent models that introduce latency between booking actions and external system notifications.
+Webhook Reliability - Examine webhook delivery guarantees and retry policies. Some vendors use eventually-consistent models that introduce latency between booking actions and external system notifications.
 
-SSO Compatibility: Verify SAML or OIDC support matches your identity provider. Desk booking systems handle sensitive location data, proper authentication matters.
+SSO Compatibility - Verify SAML or OIDC support matches your identity provider. Desk booking systems handle sensitive location data, proper authentication matters.
 
-Data Export: Confirm you can export booking history for analytics. Some vendors restrict exports to paid tiers, affecting your ability to build internal reporting.
+Data Export - Confirm you can export booking history for analytics. Some vendors restrict exports to paid tiers, affecting your ability to build internal reporting.
 
-Mobile API Quality: If users book from mobile devices, test the mobile API response times and error handling. Poor mobile support creates friction during spontaneous desk selection.
+Mobile API Quality - If users book from mobile devices, test the mobile API response times and error handling. Poor mobile support creates friction during spontaneous desk selection.
 
 Integration Patterns for Power Users
 

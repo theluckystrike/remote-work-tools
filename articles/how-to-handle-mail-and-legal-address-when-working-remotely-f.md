@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Core Problem: Why Your Address Matters
+Step 1 - The Core Problem: Why Your Address Matters
 
 Your home country address serves multiple critical functions:
 
@@ -42,7 +42,7 @@ Your home country address serves multiple critical functions:
 
 When you're in Portugal, Thailand, or Colombia for six months, you cannot simply ignore these communications. The solution involves a combination of digital forwarding services, trusted contacts, and strategic use of registered agents.
 
-Step 2: Mail Forwarding Services: The Foundation
+Step 2 - Mail Forwarding Services: The Foundation
 
 Commercial mail forwarding services solve the physical problem by receiving your mail and converting it to digital format or forwarding it internationally.
 
@@ -101,7 +101,7 @@ async function getUrgentMail() {
 
 The main tradeoff with these services: they add a layer between you and your mail, which can introduce delays for time-sensitive documents.
 
-Step 3: Trusted Person Proxy: Lower Cost Alternative
+Step 3 - Trusted Person Proxy: Lower Cost Alternative
 
 If you have a trusted family member or friend in your home country, designating them as your authorized agent provides a free alternative. This works well for:
 
@@ -114,7 +114,7 @@ Bank proxy authorization letter template
 (Consult a lawyer for your specific jurisdiction)
 
 To: [Bank Name]
-Date: [Current Date]
+Date - [Current Date]
 
 I, [Your Full Legal Name], hereby authorize [Proxy Name]
 to receive and handle correspondence on my behalf.
@@ -132,7 +132,7 @@ Authorized activities:
 
 This approach requires someone reliable and introduces privacy considerations, your proxy has access to your financial mail.
 
-Step 4: Banking Considerations for Extended Travel
+Step 4 - Banking Considerations for Extended Travel
 
 Banks increasingly scrutinize customers who appear to live abroad while maintaining domestic accounts. Proactive communication prevents account freezes or closures.
 
@@ -162,7 +162,7 @@ Maintain minimum activity requirements. Some banks close inactive accounts. Set 
 
 Keep a domestic phone number for 2FA. Many banks require SMS or call-based authentication. Services like Google Voice (for US numbers) or number forwarding services maintain your domestic presence for verification codes.
 
-Step 5: Legal Address for Tax and Voting
+Step 5 - Legal Address for Tax and Voting
 
 Your legal address determines tax residency in most countries. For US citizens, the IRS considers factors beyond just where you receive mail, the centers of your life matter. However, maintaining a home country address helps establish tax home documentation.
 
@@ -190,7 +190,7 @@ def estimate_state_tax(income, state, filing_status="single"):
 
 For voting, most states require physical presence or intent to return. A mail forwarding address typically satisfies voter registration requirements, but check your specific state's rules.
 
-Step 6: Practical Setup: Putting It Together
+Step 6 - Practical Setup: Putting It Together
 
 A mail and address strategy for long-term remote work typically includes:
 

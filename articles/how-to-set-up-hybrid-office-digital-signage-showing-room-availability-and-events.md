@@ -265,13 +265,13 @@ Deployment Considerations
 
 When deploying room availability signage, consider these operational factors:
 
-Network topology: Place displays on a wired network when possible. WiFi congestion in busy offices causes content to stutter or fail loading. If using WiFi, ensure displays connect to the same VLAN as your API servers.
+Network topology - Place displays on a wired network when possible. WiFi congestion in busy offices causes content to stutter or fail loading. If using WiFi, ensure displays connect to the same VLAN as your API servers.
 
-Update frequency: Fetch calendar data every 1-5 minutes. Calendar systems rate-limit API calls, so balance freshness against quota limits. Cache responses server-side and serve cached data to displays.
+Update frequency - Fetch calendar data every 1-5 minutes. Calendar systems rate-limit API calls, so balance freshness against quota limits. Cache responses server-side and serve cached data to displays.
 
-Fallback content: Always have a default view showing static information (building map, company values, or a clock) when the API is unreachable. Displays showing "loading" or blank screens look broken.
+Fallback content - Always have a default view showing static information (building map, company values, or a clock) when the API is unreachable. Displays showing "loading" or blank screens look broken.
 
-Timezone handling: Meeting rooms often display times in the local timezone, but your API server may run in UTC. Explicitly handle timezone conversion so meeting times match what users expect.
+Timezone handling - Meeting rooms often display times in the local timezone, but your API server may run in UTC. Explicitly handle timezone conversion so meeting times match what users expect.
 
 Frequently Asked Questions
 

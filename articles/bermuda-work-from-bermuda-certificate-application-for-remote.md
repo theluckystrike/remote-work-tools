@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Bermuda Work From Bermuda Certificate"
-description: "Bermuda Work From Bermuda Certificate: Application Guide.. practical guide for remote teams and distributed workers with tools, tips, and workflows"
+description: "Bermuda Work From Bermuda Certificate - Application Guide.. practical guide for remote teams and distributed workers with tools, tips, and workflows"
 date: 2026-03-16
 author: theluckystrike
 permalink: /bermuda-work-from-bermuda-certificate-application-for-remote/
@@ -24,17 +24,17 @@ Table of Contents
 - [Application Process](#application-process)
 - [Tax Considerations for Remote Tech Professionals](#tax-considerations-for-remote-tech-professionals)
 - [Practical Considerations for Tech Professionals](#practical-considerations-for-tech-professionals)
-- [Code Snippet: Setting Up Your Remote Work Environment](#code-snippet-setting-up-your-remote-work-environment)
+- [Code Snippet - Setting Up Your Remote Work Environment](#code-snippet-setting-up-your-remote-work-environment)
 - [Renewal and Long-Term Options](#renewal-and-long-term-options)
 - [Detailed Document Checklist with File Names](#detailed-document-checklist-with-file-names)
 - [Income Verification Letter Template](#income-verification-letter-template)
 - [Tax Planning Considerations by Country](#tax-planning-considerations-by-country)
 - [Complete Monthly Budget for Bermuda Remote Worker](#complete-monthly-budget-for-bermuda-remote-worker)
 - [Step-by-Step Application Process with Timelines](#step-by-step-application-process-with-timelines)
-- [Week 1: Initial Submission](#week-1-initial-submission)
-- [Week 2-4: Processing](#week-2-4-processing)
-- [Week 5-6: Decision](#week-5-6-decision)
-- [Post-Approval: Arrival Preparation](#post-approval-arrival-preparation)
+- [Week 1 - Initial Submission](#week-1-initial-submission)
+- [Week 2-4 - Processing](#week-2-4-processing)
+- [Week 5-6 - Decision](#week-5-6-decision)
+- [Post-Approval - Arrival Preparation](#post-approval-arrival-preparation)
 
 What Is the Bermuda Work From Bermuda Certificate?
 
@@ -64,7 +64,7 @@ Application Process
 
 The application involves several steps. Here's a practical breakdown:
 
-Step 1: Gather Documentation
+Step 1 - Gather Documentation
 
 Prepare the following documents before starting your application:
 
@@ -81,7 +81,7 @@ documents/
  bermuda_accommodation_proof.pdf
 ```
 
-Step 2: Submit Online Application
+Step 2 - Submit Online Application
 
 The Bermuda Department of Immigration manages the application through their online portal. The form requires:
 
@@ -91,15 +91,15 @@ The Bermuda Department of Immigration manages the application through their onli
 - Accommodation details in Bermuda
 - Emergency contact information
 
-Step 3: Pay Application Fee
+Step 3 - Pay Application Fee
 
 The application fee is approximately BMD 263 (equivalent to USD). Payment is processed through the online portal using credit card or bank transfer.
 
-Step 4: Wait for Processing
+Step 4 - Wait for Processing
 
 Processing typically takes 4-6 weeks, though this can vary. During this time, the immigration department may request additional documentation.
 
-Step 5: Receive Certificate
+Step 5 - Receive Certificate
 
 Upon approval, you receive your Work From Bermuda certificate via email. Print a copy for your records and carry it alongside your passport when traveling.
 
@@ -181,23 +181,23 @@ Bermuda has excellent private healthcare facilities. Ensure your insurance expli
 - International outpatient visits
 - Prescription medications
 
-Code Snippet: Setting Up Your Remote Work Environment
+Code Snippet - Setting Up Your Remote Work Environment
 
 Once you've secured your Bermuda certificate, here's a practical setup for maintaining your development workflow:
 
 ```bash
-Recommended: Development environment setup for Bermuda-based remote work
+Recommended - Development environment setup for Bermuda-based remote work
 Using a cloud IDE or remote development environment
 
-Option 1: VS Code Remote SSH to your home cloud machine
+Option 1 - VS Code Remote SSH to your home cloud machine
 This keeps your dev environment independent of physical location
 ssh -T -C -c aes256-gcm@openssh.com user@your-cloud-vm
 
-Option 2: GitHub Codespaces or Gitpod for transient environments
+Option 2 - GitHub Codespaces or Gitpod for transient environments
 Works well with intermittent connectivity
 gh codespace create --repo your-company/repo
 
-Option 3: Local development with git push to cloud CI/CD
+Option 3 - Local development with git push to cloud CI/CD
 Commit locally, push when connectivity is stable
 git config --global user.name "Your Name"
 git config --global user.email "you@company.com"
@@ -294,8 +294,8 @@ as [Position Title] with an annual compensation of [USD Amount].
 including Bermuda, and performs all duties via electronic communication
 and cloud-based systems.
 
-Employment dates: [Start Date] to [End Date/Present]
-Employment type: [Full-time/Part-time/Contractor]
+Employment dates - [Start Date] to [End Date/Present]
+Employment type - [Full-time/Part-time/Contractor]
 
 We confirm that [Your Name]'s annual compensation meets or exceeds
 USD 100,000.
@@ -421,27 +421,27 @@ Step-by-Step Application Process with Timelines
 Here's exactly what happens when you apply:
 
 ```markdown
-Week 1: Initial Submission
+Week 1 - Initial Submission
 
-Day 1: Prepare
+Day 1 - Prepare
 - Gather all documents (see checklist)
 - Create account on Bermuda Immigration portal
 - Fill out online application form
 - Upload all PDF documents
 
-Days 2-3: Review Your Application
+Days 2-3 - Review Your Application
 - Check spelling and accuracy
 - Verify all required fields completed
 - Confirm document file sizes acceptable
 - Review submission one more time
 
-Day 4: Submit
+Day 4 - Submit
 - Payment of BMD $263 (approximately USD $300)
 - Confirm all documents uploaded
 - Receive confirmation email with reference number
 - Save confirmation email
 
-Week 2-4: Processing
+Week 2-4 - Processing
 
 What Immigration Does
 - Reviews your employment/income docs
@@ -460,7 +460,7 @@ Typical Turnaround
 - Requires clarification: 4-6 weeks
 - Complex cases: 6+ weeks
 
-Week 5-6: Decision
+Week 5-6 - Decision
 
 Approval Scenarios
 - Standard approval: Issued certificate valid 1 year
@@ -473,7 +473,7 @@ Approval Email Includes
 - Validity dates
 - Renewal instructions
 
-Post-Approval: Arrival Preparation
+Post-Approval - Arrival Preparation
 
 Before Traveling
 - Print certificate

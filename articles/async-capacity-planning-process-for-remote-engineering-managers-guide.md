@@ -42,7 +42,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Set Up Your Capacity Data Foundation
+Step 1 - Set Up Your Capacity Data Foundation
 
 Before implementing an async process, ensure you have the right data infrastructure in place. Capacity planning requires accurate information about several factors:
 
@@ -60,14 +60,14 @@ Scope uncertainty factors. Different work types require different capacity buffe
 - Infrastructure and tech debt: 15-25% buffer
 - On-call rotation impact: Factor in recovery time after incidents
 
-Step 2: Designing Your Async Capacity Planning Workflow
+Step 2 - Designing Your Async Capacity Planning Workflow
 
-Phase 1: Data Collection (Week 1 of Sprint)
+Phase 1 - Data Collection (Week 1 of Sprint)
 
 Three days before sprint planning, send a structured async request to your team. Use a shared document or form rather than email so responses are centralized:
 
 ```
-Step 3: Sprint [N] Capacity Input
+Step 3 - Sprint [N] Capacity Input
 
 Please complete by [DATE]:
 
@@ -92,7 +92,7 @@ Please complete by [DATE]:
    - Suggested capacity (story points or tickets): [ ]
 ```
 
-Phase 2: Aggregation and Analysis
+Phase 2 - Aggregation and Analysis
 
 Once responses come in, compile them into a summary view. Your goal is to calculate total team capacity while identifying any red flags:
 
@@ -128,16 +128,16 @@ def calculate_sprint_capacity(team_data, sprint_days=10):
     }
 ```
 
-Phase 3: Documentation and Communication
+Phase 3 - Documentation and Communication
 
 Create a capacity summary document that becomes part of your sprint planning archive:
 
 ```markdown
 Sprint [N] Capacity Summary
 
-Team Capacity: 320 hours (85% of maximum)
-Historical Velocity: 45 story points/sprint
-Recommended Commitment: 35-40 points
+Team Capacity - 320 hours (85% of maximum)
+Historical Velocity - 45 story points/sprint
+Recommended Commitment - 35-40 points
 
 Team Member Breakdown:
 - Alice: 38h available (100%)
@@ -154,7 +154,7 @@ Risk Factors:
 Conservative commitment of 35 points to account for unexpected work
 ```
 
-Step 4: Integrate with Sprint Planning
+Step 4 - Integrate with Sprint Planning
 
 Async capacity planning should feed directly into your sprint planning process, whether you're using Scrum, Kanban, or a hybrid approach.
 
@@ -179,7 +179,7 @@ For teams that still need a synchronous planning session (many do for commitment
 
 The async prep work makes the synchronous meeting dramatically more efficient. You're no longer debating availability; you're selecting work that fits the known capacity.
 
-Step 5: Handling Common Challenges
+Step 5 - Handling Common Challenges
 
 New Team Members
 
@@ -209,7 +209,7 @@ One of the biggest threats to capacity planning is scope change. Establish a cle
 - Changes must be documented in the sprint board
 - Capacity is re-calculated when scope changes
 
-Step 6: Automate the Process
+Step 6 - Automate the Process
 
 As your team matures, consider automating parts of the capacity calculation:
 
@@ -236,7 +236,7 @@ jobs:
 
 Integration with tools like Jira, Linear, or GitHub Projects allows capacity data to appear alongside work items, making planning visible to everyone.
 
-Step 7: Measuring Your Process
+Step 7 - Measuring Your Process
 
 Track these metrics to improve your async capacity planning over time:
 
@@ -247,7 +247,7 @@ Track these metrics to improve your async capacity planning over time:
 
 Iterate on your process based on feedback. The first version won't be perfect, and that's okay.
 
-Step 8: Common Pitfalls to Avoid
+Step 8 - Common Pitfalls to Avoid
 
 Over-committing. It's tempting to fill 100% of capacity, but unexpected work always appears. Leave buffer.
 

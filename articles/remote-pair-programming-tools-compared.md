@@ -38,9 +38,9 @@ VS Code Live Share
 
 Live Share is Microsoft's free pair programming extension for VS Code. Both developers work in their own VS Code instance, sharing a session. The guest can navigate files independently without the host needing to scroll.
 
-Best for: Teams using VS Code who want free, built-in pairing without installing additional apps.
+Best for - Teams using VS Code who want free, built-in pairing without installing additional apps.
 
-Pricing: Free.
+Pricing - Free.
 
 Setup
 
@@ -56,11 +56,11 @@ Start a session
 3. Session link copies to clipboard automatically
 
 Share terminal (allows guest to run commands in your terminal)
-Command Palette → "Live Share: Share Terminal"
+Command Palette → "Live Share - Share Terminal"
 
 Share server (allows guest to access localhost:3000)
-Command Palette → "Live Share: Share Server"
-Enter port: 3000
+Command Palette → "Live Share - Share Server"
+Enter port - 3000
 ```
 
 Features:
@@ -70,7 +70,7 @@ Features:
 - Shared server: guest can access `localhost:3000` through the tunnel
 - Voice chat via Live Share Audio extension (separate install)
 
-Limitations: Voice requires a separate extension or tool (Slack/Discord huddle + Live Share is the common setup). Session quality depends on internet connection.
+Limitations - Voice requires a separate extension or tool (Slack/Discord huddle + Live Share is the common setup). Session quality depends on internet connection.
 
 Recommended setup for a pairing session:
 
@@ -82,16 +82,16 @@ Recommended setup for a pairing session:
 
 Keyboard shortcut to start Live Share
 macOS: Cmd+Shift+P → "Live Share: Start Collaboration Session"
-Windows/Linux: Ctrl+Shift+P → same
+Windows/Linux - Ctrl+Shift+P → same
 ```
 
 Tuple
 
 Tuple is a purpose-built pair programming app for macOS (with Linux beta support). It focuses on extremely low latency and high resolution. noticeably better than Zoom screen sharing for code.
 
-Best for: Teams that pair frequently (daily) and want the best possible audio/video quality for code.
+Best for - Teams that pair frequently (daily) and want the best possible audio/video quality for code.
 
-Pricing: $35/person/month. 14-day free trial.
+Pricing - $35/person/month. 14-day free trial.
 
 How Tuple Works
 
@@ -111,22 +111,22 @@ Starting a session
 3. Both users can request cursor control at any time
 
 Keyboard shortcuts (macOS)
-Request cursor control: Ctrl+Option+R
-Release cursor control: Ctrl+Option+R again
-Rewind (replay last 30s): Ctrl+Option+Z  ← unique feature
+Request cursor control - Ctrl+Option+R
+Release cursor control - Ctrl+Option+R again
+Rewind (replay last 30s) - Ctrl+Option+Z  ← unique feature
 ```
 
-Rewind feature: Tuple records the last 30 seconds continuously. If something interesting happened and you want to see it again, hit rewind without having started a recording. Useful for "wait, what did you just type?" moments.
+Rewind feature - Tuple records the last 30 seconds continuously. If something interesting happened and you want to see it again, hit rewind without having started a recording. Useful for "wait, what did you just type?" moments.
 
-Limitations: macOS-native only (Linux in beta, no Windows). Expensive for teams where pairing is occasional.
+Limitations - macOS-native only (Linux in beta, no Windows). Expensive for teams where pairing is occasional.
 
 Pop (by Screenhero founders)
 
 Pop is a browser and app-based screen sharing tool with bi-directional control, making it closer to Tuple than Zoom. Works on all platforms.
 
-Best for: Cross-platform teams (Mac + Windows + Linux) who want better-than-Zoom screen sharing without the Tuple price.
+Best for - Cross-platform teams (Mac + Windows + Linux) who want better-than-Zoom screen sharing without the Tuple price.
 
-Pricing: Free for up to 45-minute sessions. $15/person/month (Starter). $25/person/month (Pro, unlimited).
+Pricing - Free for up to 45-minute sessions. $15/person/month (Starter). $25/person/month (Pro, unlimited).
 
 ```bash
 No install required. web-based
@@ -134,8 +134,8 @@ Go to pop.com → start session → share link
 
 Desktop app for better performance
 macOS: brew install --cask pop
-Windows: download from pop.com
-Linux: download AppImage
+Windows - download from pop.com
+Linux - download AppImage
 ```
 
 Features:
@@ -149,20 +149,20 @@ tmux SSH Sharing
 For terminal-only work (code review, debugging, writing scripts), tmux session sharing over SSH is zero-cost and has no latency overhead.
 
 ```bash
-Method 1: Multi-user tmux session (same user)
-Host: create a session with a socket
+Method 1 - Multi-user tmux session (same user)
+Host - create a session with a socket
 tmux new-session -s pair -S /tmp/tmux-pair.sock
 chmod 777 /tmp/tmux-pair.sock
 
-Guest: attach to the same session (requires SSH access to the host machine)
+Guest - attach to the same session (requires SSH access to the host machine)
 ssh -t user@host "tmux attach -t pair -S /tmp/tmux-pair.sock"
 Both users see identical view, share control of the same pane
 
-Method 2: Zellij shared session (simpler)
-Host: start a session
+Method 2 - Zellij shared session (simpler)
+Host - start a session
 zellij --session pair
 
-Guest: join
+Guest - join
 ssh -t user@host "zellij attach pair"
 ```
 
@@ -211,43 +211,43 @@ Pair Programming at Different Scales
 
 Pairing effectiveness varies with team size and context:
 
-Small teams (2-4 people): Can pair daily on complex problems. Use VS Code Live Share or Tuple for zero friction.
+Small teams (2-4 people) - Can pair daily on complex problems. Use VS Code Live Share or Tuple for zero friction.
 
-Medium teams (5-10 people): Pair 2-3 times per week. Reserve for architectural decisions, complex refactoring, or onboarding.
+Medium teams (5-10 people) - Pair 2-3 times per week. Reserve for architectural decisions, complex refactoring, or onboarding.
 
-Large teams (15+ people): Pair weekly or less, but target high-impact sessions. Pair programming is expensive at scale, so focus on situations where it provides the most value.
+Large teams (15+ people) - Pair weekly or less, but target high-impact sessions. Pair programming is expensive at scale, so focus on situations where it provides the most value.
 
 Async Pair Programming Alternatives
 
 Not every situation requires synchronous pairing. For asynchronous collaboration:
 
-Recorded walkthroughs: Driver records themselves working through a problem (Loom or Screen Studio), navigator watches and leaves comments.
+Recorded walkthroughs - Driver records themselves working through a problem (Loom or Screen Studio), navigator watches and leaves comments.
 
 Async PR reviews with suggestions: Reviewer leaves detailed comments with code suggestions, author commits changes and explains their reasoning in replies.
 
-Mob programming recordings: Record a full session with multiple developers, share as reference material.
+Mob programming recordings - Record a full session with multiple developers, share as reference material.
 
 These approaches scale better for large teams but lose the real-time problem-solving benefits of live pairing.
 
 Performance Tips for Each Tool
 
-VS Code Live Share: Disable extensions on the guest (Extensions: Disable All) if experiencing latency. Reduces network overhead significantly. For slow networks, share terminal but not the whole editor.
+VS Code Live Share - Disable extensions on the guest (Extensions - Disable All) if experiencing latency. Reduces network overhead significantly. For slow networks, share terminal but not the whole editor.
 
-Tuple: Run on ethernet if possible. Ensure both machines have sufficient CPU available. Close background apps, Tuple prioritizes screen refresh over other applications.
+Tuple - Run on ethernet if possible. Ensure both machines have sufficient CPU available. Close background apps, Tuple prioritizes screen refresh over other applications.
 
-Pop: For cross-platform teams, the browser-based version is fastest because it doesn't require installation. Desktop app is better if you have stable network.
+Pop - For cross-platform teams, the browser-based version is fastest because it doesn't require installation. Desktop app is better if you have stable network.
 
 tmux SSH: Ensure low-latency SSH connection (use mosh for better mobile connectivity). Consider a dedicated server in geographic middle of both participants for lowest latency.
 
 Handling Difficult Pairing Situations
 
-Knowledge imbalance: When one person knows vastly more, they feel limited as driver, but navigator struggles to navigate. Solution: Driver creates scaffolding (empty functions, test structure), then switches so the junior developer drives with senior navigator.
+Knowledge imbalance - When one person knows vastly more, they feel limited as driver, but navigator struggles to navigate. Solution - Driver creates scaffolding (empty functions, test structure), then switches so the junior developer drives with senior navigator.
 
-Personality clash: Some developers pair well; others don't. Rotating pairs and allowing people to opt out of pairing with certain teammates reduces friction.
+Personality clash - Some developers pair well; others don't. Rotating pairs and allowing people to opt out of pairing with certain teammates reduces friction.
 
-Time zone spread: If pair programmers span significant timezones, async pairing (recorded walkthroughs) often works better than forcing a synchronous session at an awkward time.
+Time zone spread - If pair programmers span significant timezones, async pairing (recorded walkthroughs) often works better than forcing a synchronous session at an awkward time.
 
-Onboarding a new engineer: Pairing is valuable here, but be mindful of cognitive overload. Short pairing sessions (45 min) on specific problems work better than all-day pairing during first weeks.
+Onboarding a new engineer - Pairing is valuable here, but be mindful of cognitive overload. Short pairing sessions (45 min) on specific problems work better than all-day pairing during first weeks.
 
 Pair Programming Health Checks
 

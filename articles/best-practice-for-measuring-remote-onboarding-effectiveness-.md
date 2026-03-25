@@ -187,10 +187,10 @@ When data reveals bottlenecks, address them directly:
 ```markdown
 Onboarding Improvements Based on Q1 TTFC Analysis
 
-Issue: Developers taking >14 days to first commit
-Root Cause: Local environment setup lacked clear troubleshooting steps
-Action: Create environment setup script with embedded diagnostics
-Expected Impact: Reduce average TTFC by 5-7 days
+Issue - Developers taking >14 days to first commit
+Root Cause - Local environment setup lacked clear troubleshooting steps
+Action - Create environment setup script with embedded diagnostics
+Expected Impact - Reduce average TTFC by 5-7 days
 ```
 
 This pattern, measure, identify, improve, remeasure, creates a feedback loop that continuously refines your onboarding process.

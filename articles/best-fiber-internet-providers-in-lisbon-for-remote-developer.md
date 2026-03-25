@@ -30,7 +30,7 @@ Table of Contents
 - [Provider-Specific Optimization Tips](#provider-specific-optimization-tips)
 - [Performance Testing Benchmarks](#performance-testing-benchmarks)
 - [Long-Term Reliability Expectations](#long-term-reliability-expectations)
-- [Choosing Between Providers: Decision Matrix](#choosing-between-providers-decision-matrix)
+- [Choosing Between Providers - Decision Matrix](#choosing-between-providers-decision-matrix)
 
 Understanding Your Internet Requirements as a Developer
 
@@ -123,13 +123,13 @@ Run this diagnostic during peak hours (evening, 7-10 PM) and off-peak hours to u
 
 Practical Recommendations by Use Case
 
-General development work: MEO or NOS 500 Mbps plans provide reliable performance at reasonable prices. Both offer good coverage and consistent speeds for typical development workflows including Git operations, CI/CD pipelines, and video conferencing.
+General development work - MEO or NOS 500 Mbps plans provide reliable performance at reasonable prices. Both offer good coverage and consistent speeds for typical development workflows including Git operations, CI/CD pipelines, and video conferencing.
 
 Real-time applications and gaming: If you maintain WebSocket servers or play latency-sensitive games, prioritize providers with lower jitter. Vodafone showed the most consistent latency patterns in testing, with jitter below 2ms.
 
-Running home labs or servers: Request a static IP from your provider. MEO and Vodafone make this straightforward, while NOS charges additional fees. Ensure your terms of service allow running servers, most residential contracts have restrictions.
+Running home labs or servers - Request a static IP from your provider. MEO and Vodafone make this straightforward, while NOS charges additional fees. Ensure your terms of service allow running servers, most residential contracts have restrictions.
 
-Teams with multiple developers: Consider business-grade plans from any provider. These typically include priority support, Service Level Agreements (SLAs), and better upload speeds. MEO's business fiber packages start at €50/month with 500/250 Mbps speeds.
+Teams with multiple developers - Consider business-grade plans from any provider. These typically include priority support, Service Level Agreements (SLAs), and better upload speeds. MEO's business fiber packages start at €50/month with 500/250 Mbps speeds.
 
 Troubleshooting Common Issues
 
@@ -142,9 +142,9 @@ Identify latency bottlenecks
 traceroute -I github.com
 ```
 
-Inconsistent speeds: Contact your provider to verify your line is provisioned correctly. Run speed tests at different times over several days and keep logs. ISP infrastructure upgrades sometimes cause temporary degradation.
+Inconsistent speeds - Contact your provider to verify your line is provisioned correctly. Run speed tests at different times over several days and keep logs. ISP infrastructure upgrades sometimes cause temporary degradation.
 
-Packet loss: Check your local network equipment first, old routers or damaged Ethernet cables cause packet loss. If the problem persists, contact your provider with specific test results.
+Packet loss - Check your local network equipment first, old routers or damaged Ethernet cables cause packet loss. If the problem persists, contact your provider with specific test results.
 
 Complete Provider Pricing and Performance Table
 
@@ -199,26 +199,26 @@ MEO fiber setup optimization script
 MEO should automatically detect your service
 
 2. Configure router
-MEO provides: Netcomm NB16WV or similar
-Login: admin / admin (change immediately!)
-Access: http://192.168.1.1
+MEO provides - Netcomm NB16WV or similar
+Login - admin / admin (change immediately!)
+Access - http://192.168.1.1
 
 3. Enable bridge mode for better control
 Settings > Network > Bridge Mode
 This lets your own router manage networking
 
 4. Configure WAN settings
-Connection type: PPPoE
-Username: your_email@meo.pt
-Password: [provided by MEO]
+Connection type - PPPoE
+Username - your_email@meo.pt
+Password - [provided by MEO]
 
 5. Test connection
 curl -s https://www.meo.pt > /dev/null && echo "Connection OK"
 
 6. Optimize DNS (important for GitHub/npm operations)
 Use Cloudflare DNS for speed
-Primary: 1.1.1.1
-Secondary: 1.0.0.1
+Primary - 1.1.1.1
+Secondary - 1.0.0.1
 ```
 
 Linux Network Configuration
@@ -245,9 +245,9 @@ macOS Network Setup
 
 ```bash
 System Preferences > Network > PPPoE (under Wi-Fi or Ethernet)
-Account name: your_username@meo.pt
-Password: [from MEO]
-Service name: MEO
+Account name - your_username@meo.pt
+Password - [from MEO]
+Service name - MEO
 
 Verify DNS configuration
 networksetup -getdnsservers Wi-Fi
@@ -332,7 +332,7 @@ Long-Term Reliability Expectations
 
 Based on developer experiences in Lisbon:
 
-Typical Availability: 99.5-99.7% monthly for all providers
+Typical Availability - 99.5-99.7% monthly for all providers
 - 2-3 brief outages per month (5-30 minutes each)
 - Scheduled maintenance: Usually Thursday nights, 1-2 hours
 
@@ -346,7 +346,7 @@ Historic Incidents:
 - NOS experiences occasional scheduled maintenance
 - Vodafone and Nowo have excellent reliability track records
 
-Choosing Between Providers: Decision Matrix
+Choosing Between Providers - Decision Matrix
 
 ```
 Speed requirement?

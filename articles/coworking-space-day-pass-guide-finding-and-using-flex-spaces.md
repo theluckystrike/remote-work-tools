@@ -21,7 +21,7 @@ Day passes for coworking spaces represent one of the most flexible options for r
 Table of Contents
 
 - [Prerequisites](#prerequisites)
-- [Coworking Platform Comparison: Features and Pricing](#coworking-platform-comparison-features-and-pricing)
+- [Coworking Platform Comparison - Features and Pricing](#coworking-platform-comparison-features-and-pricing)
 - [Advanced Strategies for Power Users](#advanced-strategies-for-power-users)
 - [Troubleshooting](#troubleshooting)
 
@@ -35,13 +35,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Day Pass Economics
+Step 1 - Understand Day Pass Economics
 
 Coworking day pass prices typically range from $25 to $75 depending on location, amenities, and demand. Major chains like WeWork, Regus, and local independents offer day passes with varying terms. The key advantage for developers is paying only for days you actually use the space, a model that beats monthly memberships when you need office access fewer than 15 days per month.
 
 Most spaces calculate break-even differently, but the general rule is straightforward: if you need dedicated workspace more than 10-12 days monthly, a monthly membership usually costs less. Day passes make sense for project-based work, client meetings, or when your home internet fails.
 
-Step 2: Finding Day Passes: Practical Approaches
+Step 2 - Finding Day Passes: Practical Approaches
 
 Direct Search Methods
 
@@ -88,7 +88,7 @@ findDayPasses('Austin', 40).then(spaces => {
 
 This approach becomes valuable when you frequently work from different cities and need to compare options quickly.
 
-Step 3: Evaluating Spaces: What Matters for Developers
+Step 3 - Evaluating Spaces: What Matters for Developers
 
 Not all coworking spaces serve developers equally. Focus evaluation on these practical factors:
 
@@ -118,7 +118,7 @@ Quiet Zones vs. Open Areas
 
 Many spaces segment into phone booth zones, open work areas, and meeting rooms. Developers needing focus time should verify quiet zone availability. Some spaces offer "developer floors" with noise management policies.
 
-Step 4: Maximizing Your Day Pass Experience
+Step 4 - Maximizing Your Day Pass Experience
 
 Time Optimization Strategies
 
@@ -136,11 +136,11 @@ Handling Common Situations
 
 Power outages or internet issues: Have a backup plan. Identify nearby cafes or libraries. Some day passes include access to multiple locations, use that flexibility.
 
-Meeting rooms: Book early. Day pass holders often get lower priority than members. Use apps like Calendly integrated with space booking systems when available.
+Meeting rooms - Book early. Day pass holders often get lower priority than members. Use apps like Calendly integrated with space booking systems when available.
 
-Package handling: If expecting deliveries, clarify with staff. Day pass holders typically cannot receive packages without advance notice.
+Package handling - If expecting deliveries, clarify with staff. Day pass holders typically cannot receive packages without advance notice.
 
-Step 5: Day Pass Alternatives Worth Considering
+Step 5 - Day Pass Alternatives Worth Considering
 
 For developers with variable schedules, several alternatives exist:
 
@@ -152,7 +152,7 @@ For developers with variable schedules, several alternatives exist:
 
 4. Restaurant workspaces - Certain cafes and restaurants market toward remote workers with day passes. Examples include Spokes in Portland or Desklight spaces.
 
-Step 6: Quick Decision Framework
+Step 6 - Quick Decision Framework
 
 Use this decision tree for choosing day passes vs. alternatives:
 
@@ -166,13 +166,13 @@ Use this decision tree for choosing day passes vs. alternatives:
 | Traveling < 1 week | Day passes or platform subscriptions |
 | Working from coffee shops already | Day passes for critical work only |
 
-Coworking Platform Comparison: Features and Pricing
+Coworking Platform Comparison - Features and Pricing
 
 Deskpass
 
-Pricing model: Day pass subscription ($99-$299/month for unlimited passes at partner spaces)
+Pricing model - Day pass subscription ($99-$299/month for unlimited passes at partner spaces)
 
-Coverage: 1000+ spaces globally, strong in major US cities and Europe
+Coverage - 1000+ spaces globally, strong in major US cities and Europe
 
 Key features:
 - Mobile app for easy browsing and booking
@@ -180,32 +180,32 @@ Key features:
 - Reviews and ratings from other users
 - First-time user coupon (typically $25 off first pass)
 
-Best for: Nomads rotating between cities, needing flexibility across multiple spaces
+Best for - Nomads rotating between cities, needing flexibility across multiple spaces
 
 Typical day pass cost through Deskpass: $20-35 per day
 
 Croissant
 
-Pricing model: Pay-per-use with partnerships at spaces in Croissant network
+Pricing model - Pay-per-use with partnerships at spaces in Croissant network
 
-Coverage: 300+ spaces, strong in Europe and growing in US
+Coverage - 300+ spaces, strong in Europe and growing in US
 
 Key features:
 - Day pass search filtered by amenities (WiFi speed, standing desk, quiet zone)
 - Community ratings and photos
 - Ability to book nearby spaces if preferred space is full
 
-Best for: Developers prioritizing space quality and amenities, willing to research ahead
+Best for - Developers prioritizing space quality and amenities, willing to research ahead
 
-Typical day pass cost: $25-40 per day
+Typical day pass cost - $25-40 per day
 
 WeWork
 
-Pricing model: Day pass without subscription
+Pricing model - Day pass without subscription
 
-Coverage: 800+ locations globally
+Coverage - 800+ locations globally
 
-Cost: $45-85 per day pass (higher than platform pricing but include premium amenities)
+Cost - $45-85 per day pass (higher than platform pricing but include premium amenities)
 
 Key features:
 - Professional environment geared toward corporate users
@@ -213,24 +213,24 @@ Key features:
 - Consistent quality across locations
 - Month-to-month or annual membership discounts
 
-Best for: Client meetings, professional image priority, consistency across locations
+Best for - Client meetings, professional image priority, consistency across locations
 
 Regus (IWG)
 
-Pricing model: Day pass or monthly membership
+Pricing model - Day pass or monthly membership
 
-Coverage: 3000+ locations globally (largest network)
+Coverage - 3000+ locations globally (largest network)
 
-Cost: $30-60 per day pass; memberships from $150-500/month
+Cost - $30-60 per day pass; memberships from $150-500/month
 
 Key features:
 - Largest global footprint
 - Virtual office addresses available
 - Business support services (mail handling, call answering)
 
-Best for: Established businesses, client meetings, mail forwarding needs
+Best for - Established businesses, client meetings, mail forwarding needs
 
-Step 7: Decision Matrix: Subscription vs. Pay-as-You-Go
+Step 7 - Decision Matrix - Subscription vs. Pay-as-You-Go
 
 Use this matrix to determine whether day passes or monthly membership saves money:
 
@@ -266,7 +266,7 @@ console.log(calculateBestOption(15));  // Membership - save $25/month
 console.log(calculateBestOption(20));  // Membership - save $150/month
 ```
 
-Step 8: Evaluating Spaces: Technical Deep-Dive
+Step 8 - Evaluating Spaces: Technical Deep-Dive
 
 Network Performance Requirements for Developers
 
@@ -319,19 +319,19 @@ Stacking Multiple Platforms
 Some developers use combinations:
 
 ```
-Deskpass membership ($99/month): Primary rotation
+Deskpass membership ($99/month) - Primary rotation
 + Croissant occasional bookings: Backup for crowded days
 + Local library day passes: Free alternative when not in network area
 ```
 
-Cost: $100/month, but provides maximum flexibility and backup options.
+Cost - $100/month, but provides maximum flexibility and backup options.
 
 Negotiating Monthly Rates on Day Passes
 
 If visiting the same space 2-3 days per week for months:
 
 1. Ask to speak with space manager (not front desk)
-2. Propose: "I'm coming 8 days this month. Can you offer a package rate?"
+2. Propose - "I'm coming 8 days this month. Can you offer a package rate?"
 3. Common offer: 10 day passes for $250 (vs. $350 retail)
 
 This captures some membership pricing benefits without commitment.
@@ -346,9 +346,9 @@ Consistent day pass users often receive:
 
 Treat staff as humans, be consistent, and you'll develop informal perks over time.
 
-Step 9: Handling Common Day Pass Scenarios
+Step 9 - Handling Common Day Pass Scenarios
 
-Scenario 1: Internet Goes Down Mid-Day
+Scenario 1 - Internet Goes Down Mid-Day
 
 Preparation:
 - Identify nearby alternative: coffee shop, library, McDonald's with WiFi
@@ -364,7 +364,7 @@ Recovery:
 - If space can't restore quickly, negotiate credit for failed service
 - Document outage (helps justify future membership vs. pay-as-you-go)
 
-Scenario 2: Space Unexpectedly Closes
+Scenario 2 - Space Unexpectedly Closes
 
 Red flags to watch:
 - Staff turnover or unusual staffing
@@ -377,7 +377,7 @@ Contingency:
 - Don't store anything important at day pass spaces
 - Maintain flexibility in schedule
 
-Scenario 3: Noise Disruption During Critical Work
+Scenario 3 - Noise Disruption During Critical Work
 
 Preventative:
 - Use noise-canceling headphones
@@ -389,7 +389,7 @@ Solutions:
 - Try different space location same company
 - Shift work to early morning or evening
 
-Step 10: Coworking Space Quality Metrics
+Step 10 - Coworking Space Quality Metrics
 
 Track your experience across spaces:
 
@@ -406,14 +406,14 @@ Track your experience across spaces:
 
 After visiting 10+ spaces, patterns emerge about which operators run better spaces.
 
-Step 11: Seasonal Coworking Patterns
+Step 11 - Seasonal Coworking Patterns
 
 Coworking demand varies seasonally:
 
-Summer (June-August): Slower demand, better availability, potential for summer discounts
-Fall (Sept-Oct): Back-to-school and new projects, higher demand and pricing
-Winter (Dec-Jan): Holiday closures, varying staff, call ahead
-Spring (Mar-May): Moderate demand, Q2 budget spending by startups
+Summer (June-August) - Slower demand, better availability, potential for summer discounts
+Fall (Sept-Oct) - Back-to-school and new projects, higher demand and pricing
+Winter (Dec-Jan) - Holiday closures, varying staff, call ahead
+Spring (Mar-May) - Moderate demand, Q2 budget spending by startups
 
 Book summer day passes in bulk if you're planning that season. Avoid December 20-January 5 when spaces have reduced hours.
 

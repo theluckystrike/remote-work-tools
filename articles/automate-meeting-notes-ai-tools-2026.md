@@ -25,9 +25,9 @@ Fathom
 
 Fathom records, transcribes, and summarizes Zoom, Google Meet, and Teams calls. The free tier is surprisingly generous. unlimited recordings for Zoom.
 
-Best for: Individual contributors and small teams who want free, unlimited recording on Zoom.
+Best for - Individual contributors and small teams who want free, unlimited recording on Zoom.
 
-Pricing: Free (unlimited Zoom recordings). $15/month for Fathom Team Edition (Slack + CRM integrations).
+Pricing - Free (unlimited Zoom recordings). $15/month for Fathom Team Edition (Slack + CRM integrations).
 
 Setup:
 1. Install the Fathom Chrome extension or desktop app
@@ -44,9 +44,9 @@ Fireflies.ai
 
 Fireflies is a meeting bot that joins your calls and works across Zoom, Meet, Teams, and Webex. It stores everything in a searchable database.
 
-Best for: Teams that want a central searchable repository of all meeting content and CRM sync.
+Best for - Teams that want a central searchable repository of all meeting content and CRM sync.
 
-Pricing: Free (800 min/seat). $18/seat/month for Pro (unlimited). $29/seat/month for Business (CRM integrations).
+Pricing - Free (800 min/seat). $18/seat/month for Pro (unlimited). $29/seat/month for Business (CRM integrations).
 
 Setup via API:
 
@@ -71,9 +71,9 @@ Otter.ai
 
 Otter is the transcription-first tool. It focuses on accurate transcripts with real-time captions during the meeting.
 
-Best for: Accessibility-focused teams and anyone who needs verbatim transcripts for legal, compliance, or research.
+Best for - Accessibility-focused teams and anyone who needs verbatim transcripts for legal, compliance, or research.
 
-Pricing: Free (300 min/month). $10/user/month for Pro. $20/user/month for Business.
+Pricing - Free (300 min/month). $10/user/month for Pro. $20/user/month for Business.
 
 Setup:
 1. Create account at `otter.ai`
@@ -138,9 +138,9 @@ Grain
 
 Grain focuses on video highlights and is popular with sales teams and customer success. It clips important moments from calls and turns them into shareable videos.
 
-Best for: Customer-facing teams who want to share call clips with stakeholders or create highlight reels from discovery calls.
+Best for - Customer-facing teams who want to share call clips with stakeholders or create highlight reels from discovery calls.
 
-Pricing: Free (basic). $15/month Starter. $33/month Business.
+Pricing - Free (basic). $15/month Starter. $33/month Business.
 
 Setting Up Auto-Distribution to Slack
 
@@ -164,7 +164,7 @@ Make.com Automation (Any Tool)
 For more control, use Make.com (formerly Integromat) to customize the workflow:
 
 ```
-Trigger: Fireflies webhook (new transcript ready)
+Trigger - Fireflies webhook (new transcript ready)
   → Extract: title, summary, action items, speakers
   → Format: Slack Block Kit message
   → Post: to #meeting-notes channel

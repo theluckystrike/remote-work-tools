@@ -21,23 +21,23 @@ Remote teams often struggle to build genuine connections beyond video calls and 
 Table of Contents
 
 - [Why Virtual Craft Workshops Work for Remote Teams](#why-virtual-craft-workshops-work-for-remote-teams)
-- [Workshop Idea 1: Collaborative Pixel Art Sessions](#workshop-idea-1-collaborative-pixel-art-sessions)
-- [Workshop Idea 2: Code-Themed origami](#workshop-idea-2-code-themed-origami)
-- [Workshop Idea 3: Virtual Pottery with Tinkercad](#workshop-idea-3-virtual-pottery-with-tinkercad)
-- [Workshop Idea 4: Collaborative Story Building](#workshop-idea-4-collaborative-story-building)
-- [Story Branch: The Mysterious Production Outage](#story-branch-the-mysterious-production-outage)
-- [Workshop Idea 5: Custom Emoji Design Session](#workshop-idea-5-custom-emoji-design-session)
+- [Workshop Idea 1 - Collaborative Pixel Art Sessions](#workshop-idea-1-collaborative-pixel-art-sessions)
+- [Workshop Idea 2 - Code-Themed origami](#workshop-idea-2-code-themed-origami)
+- [Workshop Idea 3 - Virtual Pottery with Tinkercad](#workshop-idea-3-virtual-pottery-with-tinkercad)
+- [Workshop Idea 4 - Collaborative Story Building](#workshop-idea-4-collaborative-story-building)
+- [Story Branch - The Mysterious Production Outage](#story-branch-the-mysterious-production-outage)
+- [Workshop Idea 5 - Custom Emoji Design Session](#workshop-idea-5-custom-emoji-design-session)
 - [Practical Tips for Running Virtual Craft Workshops](#practical-tips-for-running-virtual-craft-workshops)
 - [Measuring Success](#measuring-success)
-- [Workshop Idea 6: Collaborative Music Creation](#workshop-idea-6-collaborative-music-creation)
-- [Workshop Idea 7: Virtual Escape Room Design](#workshop-idea-7-virtual-escape-room-design)
-- [Workshop Idea 8: Collaborative Cooking Session](#workshop-idea-8-collaborative-cooking-session)
-- [Workshop Idea 9: Photo Challenge and Gallery](#workshop-idea-9-photo-challenge-and-gallery)
-- [Workshop Idea 10: Collaborative Worldbuilding](#workshop-idea-10-collaborative-worldbuilding)
+- [Workshop Idea 6 - Collaborative Music Creation](#workshop-idea-6-collaborative-music-creation)
+- [Workshop Idea 7 - Virtual Escape Room Design](#workshop-idea-7-virtual-escape-room-design)
+- [Workshop Idea 8 - Collaborative Cooking Session](#workshop-idea-8-collaborative-cooking-session)
+- [Workshop Idea 9 - Photo Challenge and Gallery](#workshop-idea-9-photo-challenge-and-gallery)
+- [Workshop Idea 10 - Collaborative Worldbuilding](#workshop-idea-10-collaborative-worldbuilding)
 - [Managing Participant Anxiety](#managing-participant-anxiety)
 - [Measuring Workshop Engagement Long-Term](#measuring-workshop-engagement-long-term)
 - [Scaling Craft Workshops for Large Teams](#scaling-craft-workshops-for-large-teams)
-- [Advanced: Building a Craft Workshop Calendar](#advanced-building-a-craft-workshop-calendar)
+- [Advanced - Building a Craft Workshop Calendar](#advanced-building-a-craft-workshop-calendar)
 
 Why Virtual Craft Workshops Work for Remote Teams
 
@@ -45,7 +45,7 @@ Traditional team-building events often feel forced or awkward in virtual setting
 
 The key advantage is that these activities require no special equipment. Most workshops can use materials found around the house, paper, scissors, pens, yarn, or even digital tools for those who prefer screen-based creativity.
 
-Workshop Idea 1: Collaborative Pixel Art Sessions
+Workshop Idea 1 - Collaborative Pixel Art Sessions
 
 Pixel art combines technology theme with creative expression, making it perfect for developer teams. Use collaborative drawing tools where team members work on a shared canvas simultaneously.
 
@@ -82,11 +82,11 @@ console.log(createTeams(teamMembers, groupSize));
 
 After the creation phase, each group presents their section and explains their design choices. Vote on the best elements and combine them into a final team piece.
 
-Workshop Idea 2: Code-Themed origami
+Workshop Idea 2 - Code-Themed origami
 
 This creative twist appeals directly to technical teams. Challenge participants to fold origami shapes while incorporating code concepts into the instructions.
 
-Simple project: origami "bug" fix
+Simple project - origami "bug" fix
 
 Provide participants with folding instructions that include code-style comments:
 
@@ -109,7 +109,7 @@ crease both sides to center
 
 This approach makes the activity feel familiar to developers while keeping hands busy and minds engaged. The absurdity of "debugging" an origami fold creates humor and lowers barriers to participation.
 
-Workshop Idea 3: Virtual Pottery with Tinkercad
+Workshop Idea 3 - Virtual Pottery with Tinkercad
 
 For teams interested in 3D design, Tinkercad offers a free browser-based pottery simulation. Participants create virtual clay objects together in real-time.
 
@@ -125,11 +125,11 @@ Challenge prompts:
 
 This activity produces tangible digital artifacts that can be exported and kept as team mementos.
 
-Workshop Idea 4: Collaborative Story Building
+Workshop Idea 4 - Collaborative Story Building
 
 Not all craft workshops involve physical materials. Collaborative story building exercises creativity while requiring zero supplies.
 
-Method: Exquisite Corpse for Tech Teams
+Method - Exquisite Corpse for Tech Teams
 
 The traditional Exquisite Corpse game translates well to remote settings:
 
@@ -141,7 +141,7 @@ Tech team variation:
 Use GitHub Issues or a shared Google Doc to create "story branches":
 
 ```markdown
-Story Branch: The Mysterious Production Outage
+Story Branch - The Mysterious Production Outage
 
 Commit 1 - @alice
 The started screaming at 3 AM. Red lights blinked across every screen in the operations center.
@@ -155,7 +155,7 @@ Little did they know, the culprit wasn't a server failure, it was a rogue cron j
 
 This format resonates with developers while encouraging imagination and humor.
 
-Workshop Idea 5: Custom Emoji Design Session
+Workshop Idea 5 - Custom Emoji Design Session
 
 Create team-specific emojis or stickers that can be used in Slack, Discord, or other communication tools. This practical workshop produces assets the team actually uses daily.
 
@@ -212,7 +212,7 @@ The goal isn't artistic excellence, it's creating conditions where team members 
 
 Virtual craft workshops represent one of the most effective approaches to remote team bonding. They require minimal investment, appeal to diverse interests, and produce lasting benefits for team cohesion. Start with one of these ideas and observe how your team's dynamics shift toward more authentic connection.
 
-Workshop Idea 6: Collaborative Music Creation
+Workshop Idea 6 - Collaborative Music Creation
 
 Music creation doesn't require musical training. Free tools like Soundtrap or BeatMaker allow non-musicians to compose simple pieces collaboratively.
 
@@ -223,7 +223,7 @@ Setup:
 
 This approach is particularly engaging for teams with musicians who can share tips, making it inclusive while celebrating musical talent.
 
-Workshop Idea 7: Virtual Escape Room Design
+Workshop Idea 7 - Virtual Escape Room Design
 
 Rather than playing commercial escape rooms, create one as a team:
 
@@ -233,13 +233,13 @@ Rather than playing commercial escape rooms, create one as a team:
 
 This generates repeated engagement without repeated costs. Designs get increasingly complex as people understand what works.
 
-Workshop Idea 8: Collaborative Cooking Session
+Workshop Idea 8 - Collaborative Cooking Session
 
 Schedule a "cook along" workshop where everyone makes the same simple recipe simultaneously:
 
 ```markdown
-Team Cooking Workshop: Homemade Pizza
-Time: 60 minutes
+Team Cooking Workshop - Homemade Pizza
+Time - 60 minutes
 Required ingredients:
 - Pre-made pizza dough (or use store-bought)
 - Tomato sauce
@@ -251,13 +251,13 @@ Schedule:
 05:00 - 45:00: Bake (talk about projects while waiting)
 45:00 - 60:00: Eat together and discuss what worked
 
-Benefits: Actual takeaway (everyone eats), casual conversation
+Benefits - Actual takeaway (everyone eats), casual conversation
 reduces work stress, creates shared memory
 ```
 
 Food-based workshops work particularly well for remote teams because everyone walks away with actual sustenance.
 
-Workshop Idea 9: Photo Challenge and Gallery
+Workshop Idea 9 - Photo Challenge and Gallery
 
 Issue a weekly photo challenge with a theme, then create a gallery of submissions:
 
@@ -271,7 +271,7 @@ Use a simple Google Photos shared album. Vote anonymously on favorite entries. W
 
 This low-effort activity generates consistent engagement without requiring blocks of time.
 
-Workshop Idea 10: Collaborative Worldbuilding
+Workshop Idea 10 - Collaborative Worldbuilding
 
 For creative teams or those interested in fiction, collaborative worldbuilding is endlessly engaging:
 
@@ -321,7 +321,7 @@ For teams larger than 10 people, adjust your approach:
 
 This maintains the intimacy of smaller groups while building company-wide connection through shared participation.
 
-Advanced: Building a Craft Workshop Calendar
+Advanced - Building a Craft Workshop Calendar
 
 Create a quarterly calendar of rotating workshops:
 

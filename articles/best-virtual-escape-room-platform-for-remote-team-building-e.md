@@ -28,10 +28,10 @@ Table of Contents
 - [Platform Pricing Comparison](#platform-pricing-comparison)
 - [Detailed Platform Evaluation Framework](#detailed-platform-evaluation-framework)
 - [Evaluation Checklist](#evaluation-checklist)
-- [Running a Successful Event: Detailed Timeline](#running-a-successful-event-detailed-timeline)
+- [Running a Successful Event - Detailed Timeline](#running-a-successful-event-detailed-timeline)
 - [Asynchronous Escape Room Strategies](#asynchronous-escape-room-strategies)
 - [Troubleshooting Common Event Issues](#troubleshooting-common-event-issues)
-- [Decision Tree: Which Platform to Choose](#decision-tree-which-platform-to-choose)
+- [Decision Tree - Which Platform to Choose](#decision-tree-which-platform-to-choose)
 - [Making the Decision](#making-the-decision)
 
 What Technical Teams Need From Virtual Escape Rooms
@@ -119,13 +119,13 @@ Practical Implementation Tips
 
 Running a successful virtual escape room event requires more than selecting a platform. Consider these operational details:
 
-Session length: Plan for 60-90 minutes of actual puzzle time plus 15-30 minutes for briefing and debrief. Technical teams appreciate clear time boundaries.
+Session length - Plan for 60-90 minutes of actual puzzle time plus 15-30 minutes for briefing and debrief. Technical teams appreciate clear time boundaries.
 
-Team composition: Mix experience levels and roles. Developers, designers, and product managers bring different problem-solving approaches that complement each other.
+Team composition - Mix experience levels and roles. Developers, designers, and product managers bring different problem-solving approaches that complement each other.
 
-Help: Designate someone to monitor progress, provide hints when teams struggle, and keep the event on schedule. This role requires familiarity with the specific platform.
+Help - Designate someone to monitor progress, provide hints when teams struggle, and keep the event on schedule. This role requires familiarity with the specific platform.
 
-Follow-up: Schedule a short async discussion afterward. What communication patterns emerged? Who took leadership roles? These observations translate to workplace insights.
+Follow-up - Schedule a short async discussion afterward. What communication patterns emerged? Who took leadership roles? These observations translate to workplace insights.
 
 Platform Pricing Comparison
 
@@ -174,7 +174,7 @@ Logistics (10% weight)
 
 Score each platform honestly. A platform scoring 4.5/5 on technical but 2/5 on user experience may disappoint less technical team members.
 
-Running a Successful Event: Detailed Timeline
+Running a Successful Event - Detailed Timeline
 
 Pre-Event (2 weeks before)
 
@@ -236,30 +236,30 @@ Self-Paced Variant:
 
 Troubleshooting Common Event Issues
 
-Issue: Someone's internet drops mid-event
+Issue - Someone's internet drops mid-event
 - Solution: Have a "reserve player" ready to jump in, or pre-record rules so dropouts can rejoin without briefing
 - Prevention: Send connection test 1 hour before event
 
-Issue: Puzzle too hard, team gives up
+Issue - Puzzle too hard, team gives up
 - Solution: Provide hints liberally; frustration kills engagement faster than making it easy
 - Prevention: Test with an external group to gauge difficulty
 
-Issue: Puzzle too easy, team finishes early
+Issue - Puzzle too easy, team finishes early
 - Solution: Keep a bonus round ready; it feels like a reward rather than the event ending abruptly
 - Prevention: Test with expert players to find optimal difficulty
 
-Issue: Dominant personalities monopolize problem-solving
+Issue - Dominant personalities monopolize problem-solving
 - Solution: Assign roles (one person per station/puzzle); rotate every 15 minutes
 - Prevention: Brief the facilitator on rotation frequency during pre-event call
 
-Issue: Disengaged participants (lurkers)
+Issue - Disengaged participants (lurkers)
 - Solution: Use pair programming style, assign two people per puzzle
 - Prevention: Keep team size small (8-12 max) for full participation
 
-Decision Tree: Which Platform to Choose
+Decision Tree - Which Platform to Choose
 
 ```
-Start: Is your team mostly engineers?
+Start - Is your team mostly engineers?
  YES: Did you recently have successful Miro collaboration?
    YES → Custom Miro template (save cost, full control)
    NO → Browser-based platform like Cipher Escape (technical transparency)
@@ -288,7 +288,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -300,7 +300,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

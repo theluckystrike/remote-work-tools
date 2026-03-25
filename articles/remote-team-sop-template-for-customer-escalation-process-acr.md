@@ -43,7 +43,7 @@ The Escalation Workflow Structure
 
 Here's a template workflow that maintains continuity across shift boundaries:
 
-Step 1: Initial Triage (Any Shift)
+Step 1 - Initial Triage (Any Shift)
 
 When a customer submits a critical ticket, the first responder performs immediate triage:
 
@@ -64,15 +64,15 @@ def triage_escalation(ticket):
 
 This code runs automatically on ticket creation, but human reviewers should verify the classification. The SOP should specify who has authority to override the automated assignment.
 
-Step 2: Incident Documentation
+Step 2 - Incident Documentation
 
 Every escalation requires a structured handoff document. Use a template like this:
 
 ```markdown
-Incident Handoff: #{ticket_id}
-Severity: #{severity} | Status: #{status}
-Reporter: #{customer_name} | Account: #{account_id}
-Time Zone: #{customer_timezone}
+Incident Handoff - #{ticket_id}
+Severity - #{severity} | Status: #{status}
+Reporter - #{customer_name} | Account: #{account_id}
+Time Zone - #{customer_timezone}
 
 Issue Summary
 [Brief description of the reported problem]
@@ -100,7 +100,7 @@ Handoff Notes
 
 Store this in your shared documentation system (Notion, Confluence, GitHub Wiki) so the incoming shift can immediately understand the current state.
 
-Step 3: Shift Handoff Protocol
+Step 3 - Shift Handoff Protocol
 
 For issues spanning multiple shifts, enforce a strict handoff procedure:
 
@@ -115,7 +115,7 @@ Communication Templates for Escalations
 Standardize your communication to reduce ambiguity. Here's a template for notifying stakeholders:
 
 ```markdown
-Escalation Alert: #{ticket_id}
+Escalation Alert - #{ticket_id}
 - Severity: #{severity_level}
 - Customer: #{account_name} (#{account_tier})
 - Issue: #{brief_summary}
@@ -197,7 +197,7 @@ The best escalation processes feel invisible, team members execute them automati
 
 Implementing this SOP template requires upfront investment, but the payoff is immediate. Your team spends less time firefighting miscommunication and more time solving customer problems. Customers receive consistent, professional escalation handling that builds trust in your support organization.
 
-Start with the basics: define your severity levels, create your handoff template, and document your escalation workflow. Add automation and refine metrics as your team grows comfortable with the process.
+Start with the basics - define your severity levels, create your handoff template, and document your escalation workflow. Add automation and refine metrics as your team grows comfortable with the process.
 
 Escalation Training and Drills
 
@@ -206,8 +206,8 @@ Documentation alone doesn't create competent escalation handling. Regular traini
 Quarterly Escalation Drill (1 hour)
 - Define a realistic scenario (e.g., "Major feature broken for enterprise customer")
 - Run it like an actual incident with time pressure
-- Measure: Did team follow SOP? Did they respond in target time?
-- Debrief: What was unclear? What worked well?
+- Measure - Did team follow SOP? Did they respond in target time?
+- Debrief - What was unclear? What worked well?
 - Update SOP based on lessons learned
 
 New Team Member Escalation Onboarding (2-3 hours)

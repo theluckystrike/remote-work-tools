@@ -20,7 +20,7 @@ The Technical Debt Crisis in Remote Teams
 
 Remote teams accumulate technical debt faster than they pay it down. Why? No pressure to maintain quality standards when you're not in the room. Feature work always takes priority in sprint planning. Async decision-making makes it hard to move debt work forward.
 
-The result: six months into a contract, you've shipped 20 features but the codebase is unmaintainable. Tests are missing. Dependencies are outdated. Performance has degraded 30%. Now every feature takes twice as long to ship.
+The result - six months into a contract, you've shipped 20 features but the codebase is unmaintainable. Tests are missing. Dependencies are outdated. Performance has degraded 30%. Now every feature takes twice as long to ship.
 
 Managing technical debt in distributed teams requires:
 1. Visible tracking: Everyone knows what debt exists and why it matters
@@ -44,11 +44,11 @@ Most teams don't formally track technical debt. Work lives in:
 
 Debt is invisible. Engineers can't advocate for it. When deadline pressure hits, debt is first to be cut.
 
-The solution: Make debt visible, quantified, and scheduled like feature work.
+The solution - Make debt visible, quantified, and scheduled like feature work.
 
 ---
 
-Step 1: Inventory Your Technical Debt
+Step 1 - Inventory Your Technical Debt
 
 Start by identifying and categorizing all technical debt.
 
@@ -87,12 +87,12 @@ Architecture Debt
 - Legacy database schemas blocking feature work
 - Inefficient data flows (excess replication/redundancy)
 
-Tool: Use Asana / Jira
+Tool - Use Asana / Jira
 
 Create a dedicated "Technical Debt" project. For each piece of debt, create a task with:
 
 ```
-Task: "Reduce API latency on /products endpoint"
+Task - "Reduce API latency on /products endpoint"
  Category: Performance
  Current State: "p95 latency = 850ms"
  Desired State: "p95 latency < 200ms"
@@ -113,11 +113,11 @@ Async Inventory Process:
 4. Weekly 30-min async AMA: "What debt did we miss?" (posted doc, people comment)
 5. Export Asana view, share with leadership
 
-Expected result: 30-50 identified pieces of debt (varies by team size/age).
+Expected result - 30-50 identified pieces of debt (varies by team size/age).
 
 ---
 
-Step 2: Prioritize Async
+Step 2 - Prioritize Async
 
 Don't argue about priorities in synchronous meetings. Use weighted scoring.
 
@@ -147,7 +147,7 @@ Priority Score = (Impact × 2 + Urgency × 2 - Effort) / 4
 "Fix flaky test that reruns 10% of the time" = (3×2 + 4×2 - 2) / 4 = 5.0 (medium-high)
 ```
 
-Tool: Asana or Linear custom fields
+Tool - Asana or Linear custom fields
 
 Add fields to each debt task:
 - Impact (dropdown: 1-5)
@@ -158,30 +158,30 @@ Add fields to each debt task:
 Async Voting Process:
 
 1. PM creates Asana view: "Technical Debt Backlog (Unsorted)"
-2. Posts in Slack: "Rate each debt by commenting Impact, Effort, Urgency. Format: Impact:5, Effort:2, Urgency:4"
+2. Posts in Slack - "Rate each debt by commenting Impact, Effort, Urgency. Format: Impact:5, Effort:2, Urgency:4"
 3. Engineers vote async (over 3-5 days)
 4. PM aggregates scores (average or median per dimension)
 5. Auto-sort by Priority Score
 6. Publish sorted list: "Here's our ranked technical debt"
 
-Output: Ranked Backlog
+Output - Ranked Backlog
 
 ```
-Rank 1: Upgrade PostgreSQL (Score: 8.5). 10 days, blocks new replication feature
-Rank 2: Fix API latency (Score: 7.2). 3 days, cart abandonment impact
-Rank 3: Increase test coverage (Score: 6.8). 8 days, reduces defect rate
-Rank 4: Refactor auth module (Score: 5.1). 5 days, prep for OIDC migration
-Rank 5: Update security dependencies (Score: 4.9). 2 days, routine maintenance
+Rank 1 - Upgrade PostgreSQL (Score: 8.5). 10 days, blocks new replication feature
+Rank 2 - Fix API latency (Score: 7.2). 3 days, cart abandonment impact
+Rank 3 - Increase test coverage (Score: 6.8). 8 days, reduces defect rate
+Rank 4 - Refactor auth module (Score: 5.1). 5 days, prep for OIDC migration
+Rank 5 - Update security dependencies (Score: 4.9). 2 days, routine maintenance
 ...
 ```
 
 ---
 
-Step 3: Reserve Capacity in Sprint Planning
+Step 3 - Reserve Capacity in Sprint Planning
 
 The biggest mistake remote teams make: treating debt work as "whatever fits after features." It never fits.
 
-Standard Model: 20% Debt, 80% Feature Work
+Standard Model - 20% Debt, 80% Feature Work
 
 For a 2-week sprint:
 - Team velocity = 40 story points (example)
@@ -224,7 +224,7 @@ This keeps planning lightweight while ensuring debt is committed.
 
 ---
 
-Step 4: Track Progress and Visibility
+Step 4 - Track Progress and Visibility
 
 Remote teams lose momentum on debt work because progress isn't visible. Make it obvious.
 
@@ -238,7 +238,7 @@ Weekly Technical Debt Update (Week of Mar 18)
 Completed This Week:
  Update dependencies (3 pts). Alina
  Fix flaky auth test (3 pts). Bob
-Total: 6 pts completed
+Total - 6 pts completed
 
 In Progress:
 → Refactor payment validation (2 pts). Carol [50% done]
@@ -264,8 +264,8 @@ Create a view showing:
 Example dashboard:
 
 ```
-Total Debt Backlog: 43 pieces (down from 67 in January)
-Debt Completed (Last 12 Weeks): 24 pieces
+Total Debt Backlog - 43 pieces (down from 67 in January)
+Debt Completed (Last 12 Weeks) - 24 pieces
 
 By Category:
  Dependency Debt: 8 completed 
@@ -281,7 +281,7 @@ Post the dashboard in #engineering and link in README. Engineers see: "Debt work
 
 ---
 
-Step 5: Handle Exceptions and Blockers
+Step 5 - Handle Exceptions and Blockers
 
 Sometimes feature work breaks the 80/20 rule (critical bug, security incident). Track this.
 
@@ -292,25 +292,25 @@ Week of Mar 18:
 - Production incident (payment processor down): 16 hours stolen from debt sprints
 - Emergency security patch: 8 hours
 
-Impact: 1 debt task (Update dependencies) pushed to next sprint
+Impact - 1 debt task (Update dependencies) pushed to next sprint
 
 Week of Mar 25:
 - Normal week (no interruptions)
 ```
 
-Show this monthly: "We lost 8% of debt capacity to unplanned work."
+Show this monthly - "We lost 8% of debt capacity to unplanned work."
 
 Escalation for Debt Blockers:
 
 If a debt task is blocked on something outside the team:
 
 ```
-Task: "Upgrade PostgreSQL"
-Status: Blocked
-Blocked by: "Infrastructure team to provision new RDS instance"
-Requested: Mar 15
-Expected: Mar 25
-Escalation: Posted in #infrastructure, pinged Mike (VP Eng)
+Task - "Upgrade PostgreSQL"
+Status - Blocked
+Blocked by - "Infrastructure team to provision new RDS instance"
+Requested - Mar 15
+Expected - Mar 25
+Escalation - Posted in #infrastructure, pinged Mike (VP Eng)
 ```
 
 Async escalation beats waiting for next sync meeting.
@@ -322,9 +322,9 @@ Tools & Workflows
 Asana Setup (Recommended for Most Teams)
 
 ```
-Project: "Technical Debt Backlog"
+Project - "Technical Debt Backlog"
  Section: "Backlog" (prioritized, high to low)
-   Task: "Reduce API latency" [Priority: 8.5, Effort: 3d, Impact: 5]
+   Task - "Reduce API latency" [Priority: 8.5, Effort: 3d, Impact: 5]
  Section: "Current Sprint" (8-10 points)
    Task: "Update dependencies" [Assigned: Alina, Due: Mar 22]
  Section: "In Progress"
@@ -332,7 +332,7 @@ Project: "Technical Debt Backlog"
  Section: "Completed" (weekly archive)
     Task: "Refactor auth module" [Completed: Mar 19]
 
-Monthly Dashboard: "Debt Burn-Down"
+Monthly Dashboard - "Debt Burn-Down"
  Chart: Backlog size over 12 weeks
  Chart: Debt completed per sprint
  Table: Debt by category
@@ -341,7 +341,7 @@ Monthly Dashboard: "Debt Burn-Down"
 Linear Setup (For Eng Teams)
 
 ```
-Team: "Technical Debt"
+Team - "Technical Debt"
  Cycle: Q1 (past)
    12 debt items completed
  Cycle: Q2 (current)
@@ -357,9 +357,9 @@ Google Sheets Fallback
 If you can't access Asana/Linear:
 
 ```
-Sheet: "Technical Debt Backlog"
-Columns: ID, Title, Category, Impact, Effort, Urgency, Score, Status, Owner, Sprint
-Rows: Each debt item, sorted by score (descending)
+Sheet - "Technical Debt Backlog"
+Columns - ID, Title, Category, Impact, Effort, Urgency, Score, Status, Owner, Sprint
+Rows - Each debt item, sorted by score (descending)
 
 Each Monday, update "Status" and "Owner" columns
 Share link in Slack
@@ -403,15 +403,15 @@ Don't let debt work get deprioritized every sprint. If 20% is the rule, enforce 
 
 Bad pattern:
 ```
-Sprint 1: 15% debt (feature work overflowed)
-Sprint 2: 12% debt (feature work overflowed again)
-Sprint 3: 8% debt (debt gets smaller each sprint)
+Sprint 1 - 15% debt (feature work overflowed)
+Sprint 2 - 12% debt (feature work overflowed again)
+Sprint 3 - 8% debt (debt gets smaller each sprint)
 → After 6 months, you're doing 5% debt, codebase rots
 ```
 
 Good pattern:
 ```
-Sprint 1-10: 20% debt every sprint, no exceptions
+Sprint 1-10 - 20% debt every sprint, no exceptions
 → Debt backlog shrinks over time
 → Quality improves, feature velocity increases
 ```
@@ -420,11 +420,11 @@ Sprint 1-10: 20% debt every sprint, no exceptions
 Engineers care about code quality. But leaders care about business impact. Frame debt accordingly:
 
 ```
-Bad: "Refactor payment module (technical debt, 5 days)"
-Good: "Refactor payment module to reduce fraud false positives by 30% (5 days)"
+Bad - "Refactor payment module (technical debt, 5 days)"
+Good - "Refactor payment module to reduce fraud false positives by 30% (5 days)"
 
-Bad: "Upgrade PostgreSQL (technical debt)"
-Good: "Upgrade PostgreSQL to enable replication feature (10 days, unblocks $2M revenue feature)"
+Bad - "Upgrade PostgreSQL (technical debt)"
+Good - "Upgrade PostgreSQL to enable replication feature (10 days, unblocks $2M revenue feature)"
 ```
 
 ---
@@ -444,7 +444,7 @@ Q: Can junior engineers work on technical debt?
 A: Yes, but pair them with seniors. Debt work often touches architecture, which is good mentoring.
 
 Q: How do we handle "nice to have" debt (not blocking anything)?
-A: Put it in Backlog, score low (Impact: 1-2), and revisit quarterly. If it's still not blocking anything in 6 months, delete it.
+A: Put it in Backlog, score low (Impact - 1-2), and revisit quarterly. If it's still not blocking anything in 6 months, delete it.
 
 ---
 

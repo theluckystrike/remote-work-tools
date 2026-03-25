@@ -85,9 +85,9 @@ Setting Up VPN Access
 
 A VPN protects your traffic when using untrusted networks and often required for accessing company resources. For home office setups, you have two scenarios:
 
-Client VPN: You connect to your employer's network from home. Configure your VPN client with the settings your IT team provides. Test the connection thoroughly before relying on it for critical work, verify DNS resolution works correctly and you can access internal tools.
+Client VPN - You connect to your employer's network from home. Configure your VPN client with the settings your IT team provides. Test the connection thoroughly before relying on it for critical work, verify DNS resolution works correctly and you can access internal tools.
 
-Site-to-Site VPN: You connect your home network to a cloud VPC or office network. This allows devices on your home network to access remote resources transparently. WireGuard offers excellent performance with minimal configuration:
+Site-to-Site VPN - You connect your home network to a cloud VPC or office network. This allows devices on your home network to access remote resources transparently. WireGuard offers excellent performance with minimal configuration:
 
 ```bash
 Example WireGuard server configuration
@@ -184,7 +184,7 @@ Network Switches (Wired Expansion)
 If your router lacks enough Ethernet ports, add a managed switch:
 - TP-Link TL-SG108PE (8 ports): $35-50. Simple, reliable PoE support
 - Netgear MS510TX (5 ports): $60-80. Managed switch with VLAN support
-- Ubiquiti UniFi Switch (16 ports): $150+. Enterprise-grade, integrates with UniFi ecosystem
+- Ubiquiti UniFi Switch (16 ports): $150+. Enterprise-grade, integrates with UniFi environment
 
 For most remote workers, a good consumer WiFi 6 router ($100-150) plus a basic managed switch ($50-80) covers 95% of real-world needs. Don't overspend on hardware if your network design is solid.
 

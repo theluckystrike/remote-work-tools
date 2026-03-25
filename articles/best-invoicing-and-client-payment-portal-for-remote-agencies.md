@@ -31,7 +31,7 @@ Before examining specific tools, identify the capabilities that matter most for 
 - Payment reminders and late fee automation
 - Expense categorization for project-based work
 
-Stripe: Developer-First Payment Infrastructure
+Stripe - Developer-First Payment Infrastructure
 
 Stripe dominates the developer-first payment space. While it's primarily a payment processor rather than a full invoicing solution, Stripe Invoicing provides functionality for agencies with technical resources.
 
@@ -69,9 +69,9 @@ async function createInvoice(customerEmail, lineItems) {
 
 Stripe's strength lies in its extensive API. You can build custom invoicing workflows, integrate with your existing project management tools, and handle complex billing scenarios. The client portal feature lets customers view and pay invoices without requiring login credentials.
 
-Pricing: 2.9% + $0.30 per successful card payment. Invoicing adds $0 per invoice.
+Pricing - 2.9% + $0.30 per successful card payment. Invoicing adds $0 per invoice.
 
-Quaderno: Automated Tax Compliance for International Clients
+Quaderno - Automated Tax Compliance for International Clients
 
 If your remote agency serves clients globally, tax compliance becomes a significant burden. Quaderno specializes in automated tax calculation and invoice generation across jurisdictions.
 
@@ -110,9 +110,9 @@ def create_invoice_with_tax(client_details, items, currency='USD'):
 
 Quaderno automatically handles VAT, GST, and US sales tax calculations. It generates compliant invoices and maintains audit-ready records. This proves essential for agencies working with EU clients or US customers in states with economic nexus.
 
-Pricing: Starts at $29/month for up to 100 invoices.
+Pricing - Starts at $29/month for up to 100 invoices.
 
-HoneyBook: All-in-One Client Management
+HoneyBook - All-in-One Client Management
 
 HoneyBook combines invoicing with client flow management, offering a platform specifically designed for service-based businesses. It handles proposals, contracts, and payments in one place.
 
@@ -147,9 +147,9 @@ The iframe embed code integrates with your agency website:
 </script>
 ```
 
-Pricing: $40/month for the core plan, $60/month for professional features.
+Pricing - $40/month for the core plan, $60/month for professional features.
 
-Chargebee: Subscription Management for Retainer Models
+Chargebee - Subscription Management for Retainer Models
 
 Remote agencies often work on retainer arrangements. Chargebee provides subscription management with invoicing capabilities, making it ideal for agencies with recurring revenue.
 
@@ -185,9 +185,9 @@ async function setupRetainer(customer, planId, billingCycle = 'month') {
 
 Chargebee handles proration when scope changes, automated renewal failures, and dunning management. The self-service portal lets clients update payment methods, view invoice history, and manage their subscription tier.
 
-Pricing: Starts at $99/month for the Launch plan.
+Pricing - Starts at $99/month for the Launch plan.
 
-FreshBooks: Time Tracking Integration
+FreshBooks - Time Tracking Integration
 
 FreshBooks prioritizes time tracking integration, making it natural for agencies billing hourly. The mobile app allows remote team members to log time from anywhere, which flows directly into client invoices.
 
@@ -229,7 +229,7 @@ def log_time_and_invoice(project_id, hours, description, billable=True):
 
 FreshBooks also offers unlimited invoice customization, expense categorization, and project profitability reports.
 
-Pricing: $15/month for the Lite plan, $30/month for Plus (includes time tracking).
+Pricing - $15/month for the Lite plan, $30/month for Plus (includes time tracking).
 
 Choosing the Right Solution
 

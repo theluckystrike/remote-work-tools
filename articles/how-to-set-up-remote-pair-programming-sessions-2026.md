@@ -38,11 +38,11 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: VS Code Live Share. Best for Simplicity
+Step 1 - VS Code Live Share. Best for Simplicity
 
 Live Share is built into VS Code and works with one-click session sharing. Zero learning curve for developers already using VS Code.
 
-Pricing: Free (included with VS Code).
+Pricing - Free (included with VS Code).
 
 Strengths:
 - Invites generated with one click, work via link or code
@@ -53,11 +53,11 @@ Strengths:
 - Works offline (if no internet, falls back to local network)
 - Supports VS Code extensions (only shared extensions load for guest)
 
-Setup Time: 2 minutes.
+Setup Time - 2 minutes.
 
 Installation:
 
-1. Install VS Code Extension: `ms-vsliveshare.vsliveshare` (Ctrl+P or Cmd+P, type `ext install ms-vsliveshare.vsliveshare`)
+1. Install VS Code Extension - `ms-vsliveshare.vsliveshare` (Ctrl+P or Cmd+P, type `ext install ms-vsliveshare.vsliveshare`)
 2. Sign in with GitHub/Microsoft account
 3. Click "Live Share" button in sidebar
 4. Share the generated link with your pair
@@ -77,13 +77,13 @@ Both now see:
  Shared output terminal
  Chat panel below
 
-Session runs: 45 minutes
+Session runs - 45 minutes
 Live Share automatically times out after 2 hours of inactivity
 ```
 
-Latency: Sub-100ms on good connections. Acceptable for most pairing.
+Latency - Sub-100ms on good connections. Acceptable for most pairing.
 
-Best For: Teams already using VS Code, quick pair programming sessions, onboarding new developers.
+Best For - Teams already using VS Code, quick pair programming sessions, onboarding new developers.
 
 Workflow Example:
 
@@ -99,11 +99,11 @@ Workflow Example:
 9. Session ends, code ready to commit
 ```
 
-Step 2: Tuple. Best for Experienced Pair Programmers
+Step 2 - Tuple. Best for Experienced Pair Programmers
 
 Tuple is purpose-built for pair programming with low-latency HD video and optimized cursor tracking.
 
-Pricing: $300/year per person ($25/month).
+Pricing - $300/year per person ($25/month).
 
 Strengths:
 - 60 FPS cursor tracking (nearly perfect latency)
@@ -114,7 +114,7 @@ Strengths:
 - Session recordings available (great for async reviews)
 - Works across Mac/Linux/Windows
 
-Latency: 15-30ms typical (best-in-class).
+Latency - 15-30ms typical (best-in-class).
 
 Setup Steps:
 
@@ -146,17 +146,17 @@ Pair works for 90 minutes
  Bob can review code changes later
 ```
 
-Best For: Professional development teams, complex algorithm work, teams where latency matters.
+Best For - Professional development teams, complex algorithm work, teams where latency matters.
 
 Cost for 3-person team pairing daily:
 - 3 people × $300/year = $900/year ($75/month)
 - Tuple Premium (better recording, more participants): $600/year per person
 
-Step 3: Pop. Best for Video Quality and Presence
+Step 3 - Pop. Best for Video Quality and Presence
 
 Pop emphasizes video presence and screen sharing with lightweight operation. Better for situations where you're not just focused on code.
 
-Pricing: Free tier (3 sessions/month, 30 min each); Pro at $9/month (unlimited sessions).
+Pricing - Free tier (3 sessions/month, 30 min each); Pro at $9/month (unlimited sessions).
 
 Strengths:
 - Lightweight, minimal CPU impact
@@ -166,7 +166,7 @@ Strengths:
 - Recording support
 - Works with any editor or IDE
 
-Latency: 100-200ms (acceptable but noticeable).
+Latency - 100-200ms (acceptable but noticeable).
 
 Setup Steps:
 
@@ -190,22 +190,22 @@ Bob clicks join link
  Audio quality clear, minimal lag
  Can toggle between screen share and just video
 
-Use case: Debugging production issue
+Use case - Debugging production issue
  Alice shares terminal window
  Bob provides guidance ("Try grep for error logs")
  Minimal latency, easy to see Alice's actions
  Session recorded for on-call team review
 ```
 
-Best For: Casual pair programming, onboarding, debugging sessions where presence matters.
+Best For - Casual pair programming, onboarding, debugging sessions where presence matters.
 
 Pop works great for mixed use cases (not pure code pairing). perfect for pair code reviews.
 
-Step 4: CodeTogether. Best for IDE Flexibility
+Step 4 - CodeTogether. Best for IDE Flexibility
 
 CodeTogether works with VS Code, JetBrains IDEs, and web-based editors. True cross-IDE support.
 
-Pricing: Free tier (limited features); Pro at $8/month (unlimited sessions, recordings).
+Pricing - Free tier (limited features); Pro at $8/month (unlimited sessions, recordings).
 
 Strengths:
 - Works with VS Code, IntelliJ, WebStorm, PyCharm, RubyMine, etc.
@@ -215,7 +215,7 @@ Strengths:
 - Session recordings
 - Can drive from either participant
 
-Latency: 100-150ms (good for cross-IDE use).
+Latency - 100-150ms (good for cross-IDE use).
 
 Setup Steps:
 
@@ -238,7 +238,7 @@ Bob (IntelliJ user) clicks URL
  Both see shared editor
  Cursor positions sync across VS Code ↔ IntelliJ
 
-Scenario: Alice uses VS Code, Bob uses PyCharm
+Scenario - Alice uses VS Code, Bob uses PyCharm
  Alice opens Python file in VS Code
  Bob opens same file in PyCharm
  Both see each other's cursors and selections
@@ -246,7 +246,7 @@ Scenario: Alice uses VS Code, Bob uses PyCharm
  Terminal sharing works for both
 ```
 
-Best For: Teams with mixed IDE preferences, cross-team pairing (frontend/backend using different tools).
+Best For - Teams with mixed IDE preferences, cross-team pairing (frontend/backend using different tools).
 
 Latency Comparison Table
 
@@ -257,7 +257,7 @@ Latency Comparison Table
 | Pop | 100-200ms | Good | HD | Free-$9/month |
 | CodeTogether | 100-150ms | Good | Good | Free-$8/month |
 
-Step 5: Driver/Navigator Workflow Template
+Step 5 - Driver/Navigator Workflow Template
 
 Effective pair programming follows this pattern:
 
@@ -282,7 +282,7 @@ Session structure (2 hours):
 - 75-110 min: Final driver/navigator for wrap-up
 - 110-120 min: Code review and next steps
 
-Step 6: Real Setup Guide: Full Stack Pairing Session
+Step 6 - Real Setup Guide: Full Stack Pairing Session
 
 Tools needed:
 - VS Code Live Share (free) or Tuple ($25/month)
@@ -310,7 +310,7 @@ Session recording workflow (Tuple example):
 4. Share recording with team for knowledge transfer
 ```
 
-Step 7: Productivity Metrics
+Step 7 - Productivity Metrics
 
 Teams doing consistent remote pair programming report:
 - Code quality: 25-40% fewer bugs in production
@@ -319,7 +319,7 @@ Teams doing consistent remote pair programming report:
 - Morale: Notably higher in teams pairing weekly
 - Time cost: Net positive (faster implementation, fewer bugs)
 
-Step 8: Recommendations by Use Case
+Step 8 - Recommendations by Use Case
 
 - Quick code review: Pop (free, video-focused)
 - Onboarding new developer: VS Code Live Share (free, low friction)

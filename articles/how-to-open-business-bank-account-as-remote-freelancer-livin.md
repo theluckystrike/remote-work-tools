@@ -28,11 +28,11 @@ Table of Contents
 - [Common Challenges and Solutions](#common-challenges-and-solutions)
 - [Setup Timeline and Expected Costs](#setup-timeline-and-expected-costs)
 - [Practical Recommendations](#practical-recommendations)
-- [Technical Developers: API and Automation Opportunities](#technical-developers-api-and-automation-opportunities)
+- [Technical Developers - API and Automation Opportunities](#technical-developers-api-and-automation-opportunities)
 - [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
 - [International Alternatives if Portuguese Banks Reject You](#international-alternatives-if-portuguese-banks-reject-you)
-- [Long-Term: Growing Beyond Sole Trader](#long-term-growing-beyond-sole-trader)
-- [Final Checklist: You're Ready to Open an Account](#final-checklist-youre-ready-to-open-an-account)
+- [Long-Term - Growing Beyond Sole Trader](#long-term-growing-beyond-sole-trader)
+- [Final Checklist - You're Ready to Open an Account](#final-checklist-youre-ready-to-open-an-account)
 
 Understanding Your Business Structure
 
@@ -68,7 +68,7 @@ Not all banks serve freelancers equally. Here's a comparison of options popular 
 | Wise Business | €0 + 0.5% transfer fee | 30 minutes | €0 | Multi-currency, competitive rates, 24/7 support | International payments, budget-optimized |
 | N26 Business | €0-10 | 10 minutes | €0 | Digital-only, no Portuguese integration | Quick setup, minimal tax compliance |
 
-For developers and tech users: If you prefer a fully digital experience, Bunq or Wise (available in Portugal) offer quick account setup entirely online with English support. Bunq especially provides API access and real-time notifications ideal for automation. However, traditional banks like Millennium BCP often provide better integration with Portuguese tax systems and accounting software like Softland, Ploomes, or Invoicex, critical for Portuguese tax compliance.
+For developers and tech users - If you prefer a fully digital experience, Bunq or Wise (available in Portugal) offer quick account setup entirely online with English support. Bunq especially provides API access and real-time notifications ideal for automation. However, traditional banks like Millennium BCP often provide better integration with Portuguese tax systems and accounting software like Softland, Ploomes, or Invoicex, critical for Portuguese tax compliance.
 
 Monthly cost analysis for solo freelancers:
 - Budget tier ($0-5/month): Caixa Geral, Wise + transfers
@@ -77,19 +77,19 @@ Monthly cost analysis for solo freelancers:
 
 The Application Process
 
-Step 1: Gather Your Documentation
+Step 1 - Gather Your Documentation
 
 Ensure all documents are current and, if originally in another language, translated by a certified translator. Banks in Portugal are strict about proof of address, utility bills in your name are preferred.
 
-Step 2: Schedule an Appointment
+Step 2 - Schedule an Appointment
 
 Most Portuguese banks require in-person appointments for business accounts. Book through the bank's website or by calling their business banking line. Bring originals and copies of all documents.
 
-Step 3: Initial Interview
+Step 3 - Initial Interview
 
 During the appointment, a bank representative will ask about your business activities, expected monthly transactions, and income sources. Be prepared to explain your remote work setup and show client contracts or invoices.
 
-Step 4: Account Activation
+Step 4 - Account Activation
 
 If approved, your account is typically activated within 5-10 business days. You'll receive your IBAN, debit card, and online banking credentials by mail.
 
@@ -114,14 +114,14 @@ You can integrate this into your invoicing system or connect your bank API to ca
 
 Common Challenges and Solutions
 
-Problem: Banks reject proof of income from foreign clients.
-Solution: Provide translated contracts and bank statements showing incoming payments from international clients. Some banks are more flexible than others, Millennium BCP and Novo Banco are typically more accommodating.
+Problem - Banks reject proof of income from foreign clients.
+Solution - Provide translated contracts and bank statements showing incoming payments from international clients. Some banks are more flexible than others, Millennium BCP and Novo Banco are typically more accommodating.
 
-Problem: You're not a Portuguese tax resident yet.
-Solution: You'll need to obtain a NIF first by registering as a tax resident. This requires proof of address in Portugal. Until then, some digital banks like Wise allow you to open accounts with just a passport and NIF from your home country.
+Problem - You're not a Portuguese tax resident yet.
+Solution - You'll need to obtain a NIF first by registering as a tax resident. This requires proof of address in Portugal. Until then, some digital banks like Wise allow you to open accounts with just a passport and NIF from your home country.
 
-Problem: High minimum balance requirements.
-Solution: Some business accounts require a minimum deposit or maintain a minimum balance. Compare options carefully, Millennium BCP's business account has no minimum balance but charges a monthly fee.
+Problem - High minimum balance requirements.
+Solution - Some business accounts require a minimum deposit or maintain a minimum balance. Compare options carefully, Millennium BCP's business account has no minimum balance but charges a monthly fee.
 
 Setup Timeline and Expected Costs
 
@@ -159,7 +159,7 @@ Invoice generated (Softland)
 
 This automation reduces year-end tax filing from 8-16 hours to 2-3 hours.
 
-Technical Developers: API and Automation Opportunities
+Technical Developers - API and Automation Opportunities
 
 Developers can use bank APIs for financial automation:
 
@@ -229,7 +229,7 @@ Wise API for Multi-Currency:
 If using Wise for international payments, their API allows automated reconciliation:
 
 ```python
-Wise: Track exchange rates on international invoices
+Wise - Track exchange rates on international invoices
 def calculate_eur_equivalent(amount_usd, date):
     """Convert USD invoices to EUR at historic rate"""
     # Wise provides historical rates via API
@@ -247,22 +247,22 @@ def calculate_eur_equivalent(amount_usd, date):
 
 Common Pitfalls and Solutions
 
-Problem: Rapid rejection from traditional banks
+Problem - Rapid rejection from traditional banks
 Portuguese banks are increasingly cautious about remote freelancers, particularly those working with foreign clients. They view it as higher risk for money laundering.
 
-Solution: Provide concrete evidence:
+Solution - Provide concrete evidence:
 - Bank statements from your home country showing regular freelance income
 - Signed client contracts (redacted if necessary)
 - Portfolio or website demonstrating your services
 - Tax registration proof if available from your home country
 - Written explanation of your business model
 
-Problem: Minimum balance requirements
+Problem - Minimum balance requirements
 Some bank tiers require you maintain €1,000-5,000 minimum balance to avoid monthly fees.
 
-Solution: Compare banks carefully. Caixa Geral and Bunq have zero minimum balances. If you have excess cash, investing the excess in a Portuguese savings account earns 3-4% interest while meeting minimum balance requirements.
+Solution - Compare banks carefully. Caixa Geral and Bunq have zero minimum balances. If you have excess cash, investing the excess in a Portuguese savings account earns 3-4% interest while meeting minimum balance requirements.
 
-Problem: Language barrier
+Problem - Language barrier
 Portuguese bank staff may not speak English fluently for specialized business account questions.
 
 Solution:
@@ -271,7 +271,7 @@ Solution:
 - Schedule calls during business hours (9 AM - 1 PM is typically slowest)
 - Bring a Portuguese-speaking friend if possible
 
-Problem: No history of Portuguese tax presence
+Problem - No history of Portuguese tax presence
 Banks want to see you're a legitimate resident/business. If you just arrived, you have no history.
 
 Solution:
@@ -308,27 +308,27 @@ If you're invoicing primarily international clients, Stripe Connect handles paym
 
 None of these are ideal if you need tax compliance integration with Portuguese systems, but they're functional backup options.
 
-Long-Term: Growing Beyond Sole Trader
+Long-Term - Growing Beyond Sole Trader
 
 As your freelance income grows (€50k+/year), you may want to restructure as a company for tax optimization:
 
 ```markdown
 Evolution Path for Growing Freelancers
 
-Year 1: Sole Trader (Trabalhador Independente)
+Year 1 - Sole Trader (Trabalhador Independente)
 - Cost: €0 setup
 - Complexity: Low (tax filing uses solo tax form)
 - Tax rate: Progressive (you're taxed as individual)
 - Ideal for: Single person earning up to €50k/year
 
-Year 2-3: Limited Company (Lda)
+Year 2-3 - Limited Company (Lda)
 - Cost: €350-700 setup
 - Complexity: Medium (corporate tax return required)
 - Tax rate: 21% corporate tax (generally better at €50k+ annual income)
 - Benefits: Liability separation, professional credibility, easier to add employees
 - Ideal for: Growing freelancers with multiple clients or employees
 
-Year 4+: Multiple entities
+Year 4+ - Multiple entities
 - Holding company: Owns IP and licenses to operating companies
 - Operating company: Takes on client work
 - Benefits: Tax optimization, IP protection, scalability
@@ -338,7 +338,7 @@ Year 4+: Multiple entities
 
 Don't over-complicate this initially. Sole trader is correct for 95% of freelancers starting out.
 
-Final Checklist: You're Ready to Open an Account
+Final Checklist - You're Ready to Open an Account
 
 - [ ] NIF obtained and verified
 - [ ] Passport or EU ID card obtained

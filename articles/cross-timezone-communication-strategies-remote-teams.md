@@ -21,12 +21,12 @@ Shift to async-first communication, define explicit response-time windows for ev
 Table of Contents
 
 - [Asynchronous-First Communication](#asynchronous-first-communication)
-- [Update: Feature Flag Rollout](#update-feature-flag-rollout)
+- [Update - Feature Flag Rollout](#update-feature-flag-rollout)
 - [Response Time Expectations](#response-time-expectations)
 - [Finding and Using Overlap Windows](#finding-and-using-overlap-windows)
 - [Automating Cross Timezone Workflows](#automating-cross-timezone-workflows)
 - [Handoff Documentation](#handoff-documentation)
-- [Handoff: [Feature/Task Name]](#handoff-featuretask-name)
+- [Handoff - [Feature/Task Name]](#handoff-featuretask-name)
 - [Tool Recommendations by Team Size](#tool-recommendations-by-team-size)
 - [Handling Urgent Issues Across Timezones](#handling-urgent-issues-across-timezones)
 - [Measuring Whether Your Strategy Is Working](#measuring-whether-your-strategy-is-working)
@@ -41,10 +41,10 @@ Writing Effective Async Updates
 Replace real-time status updates with documented async messages. When someone in Tokyo needs context from someone in California, they shouldn't wait for working hours.
 
 ```
-Update: Feature Flag Rollout
-Status: Complete
-Author: @developer (PST)
-Timestamp: 2026-03-15 14:30 PST
+Update - Feature Flag Rollout
+Status - Complete
+Author - @developer (PST)
+Timestamp - 2026-03-15 14:30 PST
 
 What Changed
 Enabled feature flag `new-checkout-flow` for 10% of users.
@@ -94,14 +94,14 @@ Most teams overestimate their overlap. True overlap excludes:
 - Meeting buffer time
 
 ```
-Team: San Francisco (PST, UTC-8), Berlin (CET, UTC+1), Tokyo (JST, UTC+9)
+Team - San Francisco (PST, UTC-8), Berlin (CET, UTC+1), Tokyo (JST, UTC+9)
 
 Real overlap calculation:
 - SF 9am-5pm = 17:00-01:00 UTC
 - Berlin 9am-5pm = 08:00-16:00 UTC
 - Tokyo 9am-5pm = 00:00-08:00 UTC
 
-Actual overlap: 08:00-08:00 UTC = 0 hours
+Actual overlap - 08:00-08:00 UTC = 0 hours
 ```
 
 This is why strict overlap rarely works globally. Instead, use rotating overlap windows.
@@ -238,10 +238,10 @@ When teams work in sequence across time zones, clear handoff documentation preve
 Handoff Template
 
 ```
-Handoff: [Feature/Task Name]
-From: [Name] ([Outgoing Region])
+Handoff - [Feature/Task Name]
+From - [Name] ([Outgoing Region])
 To: [Name] ([Incoming Region])
-Date: YYYY-MM-DD
+Date - YYYY-MM-DD
 
 Current Status
 [One sentence: what's done, what's pending]

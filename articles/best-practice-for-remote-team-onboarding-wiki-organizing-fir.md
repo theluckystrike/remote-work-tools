@@ -56,30 +56,30 @@ Developer Onboarding
 
 Developers need immediate access to the development environment, codebases, and testing infrastructure. Structure their first week around environment setup, codebase navigation, and first contribution.
 
-Day 1: Environment and Access
+Day 1 - Environment and Access
 - Configure local development machine with required tools
 - Request access to GitHub/GitLab organization
 - Set up 2FA and SSH keys for repository access
 - Join relevant Slack channels (#engineering, #code-reviews, #incidents)
 
-Day 2: Codebase Overview
+Day 2 - Codebase Overview
 - Clone primary repositories
 - Review architecture documentation
 - Run the application locally following the README
 - Complete a trivial fix (typo, formatting) to test the PR workflow
 
-Day 3: Development Workflow
+Day 3 - Development Workflow
 - Understand the code review process
 - Learn testing conventions and how to run test suites
 - Review CI/CD pipeline configuration
 - Set up local environment variables from the example config
 
-Day 4: Feature Development
+Day 4 - Feature Development
 - Pick up a beginner-friendly issue from the backlog
 - Implement the feature following team coding standards
 - Submit PR and respond to review feedback
 
-Day 5: Integration and Deployment
+Day 5 - Integration and Deployment
 - Deploy code to staging environment
 - Participate in deployment process
 - Attend sprint planning or team standup
@@ -115,27 +115,27 @@ Product Manager Onboarding
 
 Product managers focus on understanding the product roadmap, stakeholder relationships, and analytics tools. Their first week emphasizes communication patterns and product knowledge.
 
-Day 1: Company and Product Overview
+Day 1 - Company and Product Overview
 - Review company mission and values
 - Explore current product features
 - Understand target customers and market positioning
 
-Day 2: Tools and Data Access
+Day 2 - Tools and Data Access
 - Set up access to product analytics (Amplitude, Mixpanel, or similar)
 - Configure project management tools (Jira, Linear, Asana)
 - Access customer feedback systems and support dashboards
 
-Day 3: Roadmap and Process
+Day 3 - Roadmap and Process
 - Review current product roadmap
 - Understand the product development lifecycle
 - Shadow a sprint planning session
 
-Day 4: Stakeholder Introduction
+Day 4 - Stakeholder Introduction
 - Meet with key stakeholders from engineering, design, and sales
 - Understand inter-team communication patterns
 - Review pending decisions and priorities
 
-Day 5: First Contribution
+Day 5 - First Contribution
 - Review feature specification format
 - Draft first product requirement document
 - Present at product sync meeting
@@ -144,17 +144,17 @@ Designer Onboarding
 
 Designers need access to design systems, brand guidelines, and collaboration tools. The emphasis shifts to understanding visual standards and design-to-development workflows.
 
-Day 1: Tools Setup
+Day 1 - Tools Setup
 - Install design tools (Figma, Sketch, or Adobe CC)
 - Access design file libraries
 - Configure handoff tools (Zeplin, Figma Dev Mode)
 
-Day 2: Brand and Design System
+Day 2 - Brand and Design System
 - Review brand guidelines
 - Explore component library
 - Understand design tokens and naming conventions
 
-Day 3: Design Workflow
+Day 3 - Design Workflow
 - Review design review process
 - Learn design-to-development handoff procedures
 - Understand accessibility requirements
@@ -205,7 +205,7 @@ Create a simple feedback mechanism at the bottom of each wiki page:
 Feedback
 
 Was this page helpful? [Yes/No]
-Suggestions for improvement: ___________
+Suggestions for improvement - ___________
 
 *Last updated: March 2026*
 ```
@@ -222,7 +222,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -234,7 +234,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

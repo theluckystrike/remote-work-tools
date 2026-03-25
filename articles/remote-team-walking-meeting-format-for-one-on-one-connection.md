@@ -21,10 +21,10 @@ Use virtual walking meetings via video call while walking alone to maintain conn
 Table of Contents
 
 - [Why Walking Meetings Work for Remote One-on-Ones](#why-walking-meetings-work-for-remote-one-on-ones)
-- [Core Format: The 30-Minute Structure](#core-format-the-30-minute-structure)
-- [Technical Setup: Audio and Connectivity](#technical-setup-audio-and-connectivity)
+- [Core Format - The 30-Minute Structure](#core-format-the-30-minute-structure)
+- [Technical Setup - Audio and Connectivity](#technical-setup-audio-and-connectivity)
 - [Scheduling and Calendar Integration](#scheduling-and-calendar-integration)
-- [Practical Examples: Meeting Templates](#practical-examples-meeting-templates)
+- [Practical Examples - Meeting Templates](#practical-examples-meeting-templates)
 - [Environment Considerations](#environment-considerations)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 - [Implementation Checklist](#implementation-checklist)
@@ -35,11 +35,11 @@ Research consistently shows that walking improves cognitive function and creativ
 
 For development teams specifically, walking meetings create space for the kind of exploratory conversation that rarely happens in status-focused meetings. A developer might mention a technical challenge during a walk that they would never bring up in a formal one-on-one. The informal setting lowers the barrier to discussing problems, ideas, or career questions.
 
-Core Format: The 30-Minute Structure
+Core Format - The 30-Minute Structure
 
 The most effective walking meeting format for one-on-one connections follows a predictable structure that participants can internalize over time.
 
-Minutes 1-3: Check-in (Standing or Walking Slowly)
+Minutes 1-3 - Check-in (Standing or Walking Slowly)
 
 Start with a brief personal check-in. This is not the project status update, it's a genuine check on how the person is doing. In a remote context, this might sound like:
 
@@ -47,7 +47,7 @@ Start with a brief personal check-in. This is not the project status update, it'
 
 This opening serves a practical purpose: it gives both parties a moment to settle into the call before the pace increases.
 
-Minutes 4-20: Main Discussion (Walking at Moderate Pace)
+Minutes 4-20 - Main Discussion (Walking at Moderate Pace)
 
 This is the core of the meeting. Depending on your agenda, cover one or two topics in depth. The key is to prioritize depth over breadth. If someone mentions a frustration during the check-in, explore it here rather than deferring it.
 
@@ -58,15 +58,15 @@ For engineering contexts, this section often includes:
 - Project blockers that require your advocacy
 - Cross-team coordination issues
 
-Minutes 21-28: Forward Look (Walking at Steady Pace)
+Minutes 21-28 - Forward Look (Walking at Steady Pace)
 
 Shift from reflection to planning. Discuss what comes next, any decisions that need to be made, and commitments for the coming week. This section prevents the meeting from becoming purely conversational without actionable outcomes.
 
-Minutes 29-30: Wrap-up (Slowing Down or Stopping)
+Minutes 29-30 - Wrap-up (Slowing Down or Stopping)
 
 Conclude with a brief summary and confirm any follow-up items. End by agreeing on the next meeting time if it's not already scheduled.
 
-Technical Setup: Audio and Connectivity
+Technical Setup - Audio and Connectivity
 
 Walking meetings introduce audio challenges that seated calls do not. Wind noise, ambient sounds, and variable network conditions require more preparation than a standard video call.
 
@@ -104,10 +104,10 @@ Walking meetings require more scheduling discipline than standard calls because 
 
 ```
 Walking Meeting - [Name]
-When: Tuesday 10:00 AM - 10:30 AM
-Where: Each person walks in their neighborhood
-Audio: Bluetooth headset required
-Backup: Phone call if connection fails
+When - Tuesday 10:00 AM - 10:30 AM
+Where - Each person walks in their neighborhood
+Audio - Bluetooth headset required
+Backup - Phone call if connection fails
 ```
 
 Suggested Meeting Frequencies
@@ -119,9 +119,9 @@ For different relationship types:
 - Cross-functional partnerships: Monthly, 30-45 minutes
 - Skip-level meetings: Monthly, 30 minutes
 
-Practical Examples: Meeting Templates
+Practical Examples - Meeting Templates
 
-Template A: The Career Development Walk
+Template A - The Career Development Walk
 
 Designed for quarterly or bi-annual career conversations.
 
@@ -146,7 +146,7 @@ Close (2 min):
 - Any blockers to address before then
 ```
 
-Template B: The Project Sync Walk
+Template B - The Project Sync Walk
 
 Designed for weekly engineering one-on-ones focused on project progress.
 
@@ -171,7 +171,7 @@ Close (2 min):
 - Next meeting confirmation
 ```
 
-Template C: The Problem-Solving Walk
+Template C - The Problem-Solving Walk
 
 Designed for ad-hoc meetings when someone needs to discuss a complex issue.
 
@@ -205,19 +205,19 @@ For teams with members in different climates, acknowledge that walking condition
 
 Common Mistakes to Avoid
 
-Mistake 1: Trying to take notes while walking
+Mistake 1 - Trying to take notes while walking
 
 Your attention belongs on the conversation, not on capturing every detail. Either accept that you won't capture everything, or record the audio (with permission) for later transcription.
 
-Mistake 2: Scheduling too frequently
+Mistake 2 - Scheduling too frequently
 
 Walking meetings feel different from video calls, and that novelty wears off. Once a week for key relationships is optimal. More than twice weekly and the format loses its special quality.
 
-Mistake 3: Treating it like a regular meeting with movement
+Mistake 3 - Treating it like a regular meeting with movement
 
 The format only works if you actually embrace the walking pace. Don't schedule a walking meeting and then spend the entire time discussing urgent issues at a pace that would be better handled via chat.
 
-Mistake 4: Ignoring audio quality
+Mistake 4 - Ignoring audio quality
 
 Nothing kills a walking meeting faster than not being able to hear the other person clearly. Invest in good audio equipment and test it before each call.
 

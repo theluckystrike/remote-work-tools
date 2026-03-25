@@ -39,7 +39,7 @@ Building Your DevSecOps Toolchain
 
 A complete DevSecOps toolchain spans multiple stages of your CI/CD pipeline. Each stage addresses different security concerns and uses complementary tools.
 
-Stage 1: Secret Detection and Prevention
+Stage 1 - Secret Detection and Prevention
 
 The first line of defense prevents secrets from entering your repository. Tools like GitLeaks, TruffleHog, or GitHub's native secret scanning can detect credentials accidentally committed to code.
 
@@ -72,7 +72,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-Stage 2: Static Application Security Testing (SAST)
+Stage 2 - Static Application Security Testing (SAST)
 
 SAST tools analyze source code for vulnerabilities without executing it. For remote teams, SAST provides immediate feedback on security issues in every pull request.
 
@@ -107,7 +107,7 @@ rules:
       - python
 ```
 
-Stage 3: Software Composition Analysis (SCA)
+Stage 3 - Software Composition Analysis (SCA)
 
 Remote teams frequently depend on open source packages. SCA tools identify vulnerabilities in your dependencies before they become problems.
 
@@ -117,12 +117,12 @@ Dependabot automatically scans dependencies and creates pull requests for update
 .github/dependabot.yml
 version: 2
 updates:
-  - package-ecosystem: "npm"
+  - package-environment: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 10
-  - package-ecosystem: "pip"
+  - package-environment: "pip"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -140,7 +140,7 @@ For more scanning, integrate OWASP Dependency-Check into your pipeline:
     scan-path: '.'
 ```
 
-Stage 4: Dynamic Application Security Testing (DAST)
+Stage 4 - Dynamic Application Security Testing (DAST)
 
 DAST tools test running applications for vulnerabilities by simulating attacks. Integrate DAST scanning into your staging environment deployment:
 
@@ -160,7 +160,7 @@ For APIs, use OWASP ZAP's API scan:
     target: 'https://api.yourapp.com/openapi.json'
 ```
 
-Stage 5: Container Security
+Stage 5 - Container Security
 
 If your team uses containers, scan images for vulnerabilities before deployment:
 
@@ -236,7 +236,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -248,7 +248,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

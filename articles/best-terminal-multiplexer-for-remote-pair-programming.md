@@ -22,18 +22,18 @@ Table of Contents
 
 - [How Remote Pair Programming Over SSH Actually Works](#how-remote-pair-programming-over-ssh-actually-works)
 - [tmux: Full Configuration for Pair Programming](#tmux-full-configuration-for-pair-programming)
-- [Multi-User tmux: Read-Only Observer Mode](#multi-user-tmux-read-only-observer-mode)
-- [Zellij: Pair Programming with Minimal Setup](#zellij-pair-programming-with-minimal-setup)
+- [Multi-User tmux - Read-Only Observer Mode](#multi-user-tmux-read-only-observer-mode)
+- [Zellij - Pair Programming with Minimal Setup](#zellij-pair-programming-with-minimal-setup)
 - [tmate: The Simplest SSH Sharing (No Server Required)](#tmate-the-simplest-ssh-sharing-no-server-required)
 - [Performance Comparison](#performance-comparison)
-- [Handling Conflicts: When Both People Type](#handling-conflicts-when-both-people-type)
+- [Handling Conflicts - When Both People Type](#handling-conflicts-when-both-people-type)
 - [Persisting Session State Across Reconnects](#persisting-session-state-across-reconnects)
 - [Security Considerations for Shared SSH Sessions](#security-considerations-for-shared-ssh-sessions)
 - [Comparing tmux vs Zellij for Pair Programming](#comparing-tmux-vs-zellij-for-pair-programming)
 
 How Remote Pair Programming Over SSH Actually Works
 
-The core mechanic: both developers SSH into the same server, attach to the same multiplexer session. Both see identical output and can type simultaneously. No screen sharing lag, no video call codec artifacts on code. just raw terminal at the speed of the server's connection.
+The core mechanic - both developers SSH into the same server, attach to the same multiplexer session. Both see identical output and can type simultaneously. No screen sharing lag, no video call codec artifacts on code. just raw terminal at the speed of the server's connection.
 
 ```
 Developer A                    Server (VPS or dev box)
@@ -82,7 +82,7 @@ bind j select-pane -D
 bind k select-pane -U
 bind l select-pane -R
 
-Easy split panes (memorable: | for vertical, - for horizontal)
+Easy split panes (memorable - | for vertical, - for horizontal)
 bind | split-window -h -c "#{pane_current_path}"
 bind - split-window -v -c "#{pane_current_path}"
 unbind '"'
@@ -110,11 +110,11 @@ set-option -g mouse on
 Don't rename windows automatically
 set-option -g allow-rename off
 
-Aggressive resize: fit to smallest attached client
+Aggressive resize - fit to smallest attached client
 setw -g aggressive-resize on
 ```
 
-Multi-User tmux: Read-Only Observer Mode
+Multi-User tmux - Read-Only Observer Mode
 
 When a junior developer or interviewee should watch but not type:
 
@@ -141,7 +141,7 @@ observer's ~/.bashrc. auto-attach read-only on login
 echo 'tmux -S /tmp/pair-readonly attach-session -t pair -r; exit' >> /home/observer/.bashrc
 ```
 
-Zellij: Pair Programming with Minimal Setup
+Zellij - Pair Programming with Minimal Setup
 
 Zellij is the right choice when you don't want to invest time in configuration:
 
@@ -158,10 +158,10 @@ brew install zellij
 Zellij has built-in session sharing. Both developers join the same named session:
 
 ```bash
-Developer A: create session
+Developer A - create session
 zellij --session pair-session
 
-Developer B: join
+Developer B - join
 zellij attach pair-session
 
 List available sessions
@@ -219,7 +219,7 @@ ssh session: ssh abc123@lon1.tmate.io
 web session: https://tmate.io/t/abc123
 
 Share the SSH string with your pair partner
-They connect with: ssh abc123@lon1.tmate.io
+They connect with - ssh abc123@lon1.tmate.io
 ```
 
 tmate is ideal for quick pairing sessions without infrastructure setup. The downside: session data routes through tmate.io servers. For sensitive code, self-host tmate-ssh-server on your own VPS.
@@ -227,19 +227,19 @@ tmate is ideal for quick pairing sessions without infrastructure setup. The down
 Performance Comparison
 
 ```
-Latency test: keypress to screen update, developer 2 observer
+Latency test - keypress to screen update, developer 2 observer
 (Both developers on US-East-1 VPS, pair partner in EU, ~80ms RTT to server)
 
 tmux:          82ms median, 95ms p99
 Zellij:        85ms median, 102ms p99
 tmate:         84ms median, 98ms p99
-VS Code Share: 180ms median, 250ms p99  (for reference)
+VS Code Share - 180ms median, 250ms p99  (for reference)
 Tuple:         190ms median, 220ms p99  (for reference, screen sharing)
 ```
 
 Terminal multiplexers win on latency over screen sharing tools because they transmit text only. no video encoding. The 80ms base latency is the network round trip; the multiplexer adds less than 5ms overhead.
 
-Handling Conflicts: When Both People Type
+Handling Conflicts - When Both People Type
 
 Two people typing simultaneously in the same pane creates chaos. Set up a convention:
 
@@ -331,7 +331,7 @@ Comparing tmux vs Zellij for Pair Programming
 | Performance overhead | Minimal | Slightly higher (Rust runtime) |
 | Windows/macOS client | Via SSH | Via SSH |
 
-The practical decision: use tmux if your team already knows it or if you need read-only observer mode for code reviews. Use Zellij for onboarding pairs who haven't used terminal multiplexers before. the guided UI eliminates the learning curve that tmux imposes on new users.
+The practical decision - use tmux if your team already knows it or if you need read-only observer mode for code reviews. Use Zellij for onboarding pairs who haven't used terminal multiplexers before. the guided UI eliminates the learning curve that tmux imposes on new users.
 
 Frequently Asked Questions
 

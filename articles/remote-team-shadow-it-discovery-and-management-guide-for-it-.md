@@ -30,13 +30,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Shadow IT in Remote Contexts
+Step 1 - Understand Shadow IT in Remote Contexts
 
 Shadow IT isn't inherently malicious. Developers and power users often adopt tools because official options are slow, restrictive, or simply don't meet their needs. A remote team member might sign up for a SaaS productivity tool, use a personal cloud storage account for work files, or run development tools on their personal machine because the approved alternatives won't work with their setup.
 
 The challenge for IT administrators is twofold: you need visibility into what's running, and you need processes that channel this energy constructively rather than simply banning everything.
 
-Step 2: Detection Methods for Remote Teams
+Step 2 - Detection Methods for Remote Teams
 
 Network-Based Discovery
 
@@ -121,7 +121,7 @@ def find_unauthorized_oauth(access_logs):
     return unauthorized
 ```
 
-Step 3: Risk Assessment Framework
+Step 3 - Risk Assessment Framework
 
 Not all shadow IT carries equal risk. Use a simple assessment matrix to prioritize your response:
 
@@ -144,7 +144,7 @@ Shadow IT Register
 | Personal S3 | 2026-03-01 | DevOps | Backups | High | Migrate to company bucket |
 ```
 
-Step 4: Build Constructive Governance
+Step 4 - Build Constructive Governance
 
 Establish a Tool Request Process
 
@@ -153,25 +153,25 @@ Instead of blocking tool adoption, create a clear path for approval:
 ```markdown
 Tool Request Template
 
-Step 5: Requestor Information
+Step 5 - Requestor Information
 - Name:
 - Team:
 - Role:
 
-Step 6: Proposed Tool
+Step 6 - Proposed Tool
 - Name:
 - Vendor:
 - Website:
 
-Step 7: Use Case
+Step 7 - Use Case
 What problem does this solve? Why do existing tools not work?
 
-Step 8: Data Handling
+Step 8 - Data Handling
 - What data will be stored/accessed?
 - Who will have access?
 - What's the retention policy?
 
-Step 9: Security Questions
+Step 9 - Security Questions
 - [ ] Does vendor provide SOC2 certification?
 - [ ] Is data encrypted at rest and in transit?
 - [ ] What's the vendor's incident response process?
@@ -184,22 +184,22 @@ Publish an internal list of approved tools with categories:
 ```markdown
 Approved Tool Catalog
 
-Step 10: Development
+Step 10 - Development
 - GitHub (code hosting)
 - VS Code (editor)
 - Docker (containers)
 
-Step 11: Communication
+Step 11 - Communication
 - Slack (team chat)
 - Zoom (video calls)
 - Loom (async video)
 
-Step 12: Project Management
+Step 12 - Project Management
 - Linear (issue tracking)
 - Notion (documentation)
 
-Step 13: Submit Request
-To propose a new tool: [Internal form link]
+Step 13 - Submit Request
+To propose a new tool - [Internal form link]
 ```
 
 This transparency reduces shadow IT because people know what's already available and how to request exceptions.
@@ -230,7 +230,7 @@ access_controls:
     require: mdm_enrolled
 ```
 
-Step 14: Practical Response Workflow
+Step 14 - Practical Response Workflow
 
 When you discover shadow IT, follow this practical workflow:
 
@@ -240,7 +240,7 @@ When you discover shadow IT, follow this practical workflow:
 4. Categorize: Approve, migrate, or decommission
 5. Iterate: Update your approved catalog based on findings
 
-Step 15: Monitor and Continuous Discovery
+Step 15 - Monitor and Continuous Discovery
 
 Shadow IT is never "solved" once, it's an ongoing challenge. Set up recurring scans:
 

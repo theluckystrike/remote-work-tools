@@ -46,7 +46,7 @@ Weaknesses:
 - 30fps limit is noticeable when you move quickly
 - Autofocus is adequate but slower than Sony-equipped competitors
 
-Who it's for: Anyone upgrading from a built-in camera who wants a no-fuss improvement under $150.
+Who it's for - Anyone upgrading from a built-in camera who wants a no-fuss improvement under $150.
 
 ---
 
@@ -69,14 +69,14 @@ Weaknesses:
 Config tip. set a custom profile for low-light home office in Camera Hub:
 
 ```
-Exposure: Manual, 1/30s
-ISO: 6400
-Noise Reduction: High
-White Balance: 4500K (warm room lighting)
-Sharpness: 4/10 (reduces noise halo)
+Exposure - Manual, 1/30s
+ISO - 6400
+Noise Reduction - High
+White Balance - 4500K (warm room lighting)
+Sharpness - 4/10 (reduces noise halo)
 ```
 
-Who it's for: Developers and designers who do recorded demos or tutorials and want the sharpest possible image in a lit setup.
+Who it's for - Developers and designers who do recorded demos or tutorials and want the sharpest possible image in a lit setup.
 
 ---
 
@@ -108,7 +108,7 @@ curl -X POST http://127.0.0.1:8080/osc/commands/execute \
   -d '{"name": "camera.setOptions", "parameters": {"tracking": "desk"}}'
 ```
 
-Who it's for: Remote workers who stand at a standing desk, pace while on calls, or present to whiteboards.
+Who it's for - Remote workers who stand at a standing desk, pace while on calls, or present to whiteboards.
 
 ---
 
@@ -131,28 +131,28 @@ Weaknesses:
 Low-light configuration in Opal Composer:
 
 ```
-Auto Exposure: On
-Face Priority: On
-Noise Reduction: Aggressive
-Background Blur: Off (use real depth of field instead)
-Color Temp: Auto
+Auto Exposure - On
+Face Priority - On
+Noise Reduction - Aggressive
+Background Blur - Off (use real depth of field instead)
+Color Temp - Auto
 ```
 
-Who it's for: Mac users working in dark home offices who want the best-looking video without studio lighting.
+Who it's for - Mac users working in dark home offices who want the best-looking video without studio lighting.
 
 ---
 
-Side-by-Side: Key Decision Factors
+Side-by-Side - Key Decision Factors
 
-Budget under $150: Logitech Brio 500. No contest.
+Budget under $150 - Logitech Brio 500. No contest.
 
-Best sharpness in daylight: Elgato Facecam Pro.
+Best sharpness in daylight - Elgato Facecam Pro.
 
-You move around on calls: Insta360 Link 2.
+You move around on calls - Insta360 Link 2.
 
 Dark room, no ring light, Mac user: Opal C1.
 
-You need it to work with Linux: Brio 500 or Facecam Pro (both UVC-compliant with no driver).
+You need it to work with Linux - Brio 500 or Facecam Pro (both UVC-compliant with no driver).
 
 ---
 
@@ -180,17 +180,17 @@ Lighting Matters More Than the Camera
 
 A $50 LED panel in front of you will improve your image more than upgrading from a Brio 500 to an Opal C1 in the same dark room. Put light on your face, not behind you.
 
-Simple test: take a screenshot from your current camera. If your face is darker than your background, fix the lighting first.
+Simple test - take a screenshot from your current camera. If your face is darker than your background, fix the lighting first.
 
 Home Office Lighting Setup for Video Calls
 
 Professional-looking video calls start with lighting. Here's a practical setup:
 
-Key Light (Main): Position a soft light (ring light or LED panel) 3-4 feet in front of you, slightly above eye level. This becomes your primary source.
+Key Light (Main) - Position a soft light (ring light or LED panel) 3-4 feet in front of you, slightly above eye level. This becomes your primary source.
 
-Fill Light (Optional): Place a softer light at 45 degrees to reduce harsh shadows. You can use a white foam board as a reflector instead of a second light.
+Fill Light (Optional) - Place a softer light at 45 degrees to reduce harsh shadows. You can use a white foam board as a reflector instead of a second light.
 
-Backlight (Accent): A light behind you, facing the background, separates you from the background and adds dimension.
+Backlight (Accent) - A light behind you, facing the background, separates you from the background and adds dimension.
 
 Practical Setup for $100-200:
 - One Neewer RGB LED panel ($60-80)
@@ -199,24 +199,24 @@ Practical Setup for $100-200:
 
 Adjust color temperature to match your room's existing lighting. Mixing cool (5500K) key light with warm (3200K) fill creates dimensional, flattering results.
 
-Test before important calls: record a 30-second test with your intended lighting and review it.
+Test before important calls - record a 30-second test with your intended lighting and review it.
 
 Integrating Webcams with Productivity Tools
 
 Most webcams work as simple video input, but better integration unlocks useful features:
 
-OBS (Open Broadcaster Software) Integration: Use OBS as your camera source instead of the native app. This lets you add overlays, virtual backgrounds, and scene switching without expensive software.
+OBS (Open Broadcaster Software) Integration - Use OBS as your camera source instead of the native app. This lets you add overlays, virtual backgrounds, and scene switching without expensive software.
 
 ```bash
 macOS example: Add camera to OBS
 Open OBS → Sources → Add → Video Capture Device → Select your camera
 ```
 
-Zoom Virtual Backgrounds: Most modern cameras work fine with Zoom's virtual background feature, though it's CPU-intensive. Test with your specific camera before relying on it for important calls.
+Zoom Virtual Backgrounds - Most modern cameras work fine with Zoom's virtual background feature, though it's CPU-intensive. Test with your specific camera before relying on it for important calls.
 
-Microsoft Teams Blur: Teams has built-in background blur that works with any UVC camera. This is usually better quality than full virtual backgrounds because it's less aggressive processing.
+Microsoft Teams Blur - Teams has built-in background blur that works with any UVC camera. This is usually better quality than full virtual backgrounds because it's less aggressive processing.
 
-Stream Deck Integration: If you stream or need quick camera switching, Elgato's Stream Deck integrates with Facecam Pro for one-click scene changes.
+Stream Deck Integration - If you stream or need quick camera switching, Elgato's Stream Deck integrates with Facecam Pro for one-click scene changes.
 
 Resolution and Platform Compatibility
 
@@ -235,13 +235,13 @@ Camera Mounting and Positioning
 
 Proper positioning matters as much as camera quality:
 
-Monitor-Top Mounting: Traditional laptop positioning. Place camera at eye level or slightly above. If camera is below eye level, you'll look down at the camera (unflattering).
+Monitor-Top Mounting - Traditional laptop positioning. Place camera at eye level or slightly above. If camera is below eye level, you'll look down at the camera (unflattering).
 
-Arm Mount: Allows repositioning for different desk setups. Useful if you rotate between sitting and standing.
+Arm Mount - Allows repositioning for different desk setups. Useful if you rotate between sitting and standing.
 
-Monitor Bracket: Mounts camera precisely on top of monitor, ensuring camera and screen align (reducing eye-contact illusions).
+Monitor Bracket - Mounts camera precisely on top of monitor, ensuring camera and screen align (reducing eye-contact illusions).
 
-Cable Management: Velcro ties or clips keep cables organized. A neat setup signals professionalism on video calls.
+Cable Management - Velcro ties or clips keep cables organized. A neat setup signals professionalism on video calls.
 
 Test camera positioning before important meetings: record a short clip and verify the framing works.
 

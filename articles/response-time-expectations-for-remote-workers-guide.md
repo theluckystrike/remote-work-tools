@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Core Principle: Async-First Communication
+Step 1 - The Core Principle: Async-First Communication
 
 Remote work thrives on asynchronous communication. When you send a message and expect an immediate response, you're treating remote work like an office, which defeats the purpose of distributed teams. Instead, establish clear expectations about when responses are needed and when they are not.
 
@@ -43,7 +43,7 @@ The key is distinguishing between channels based on urgency:
 
 These are guidelines, not rules. Adjust based on your team culture and role requirements.
 
-Step 2: Set Up Your Status and Availability
+Step 2 - Set Up Your Status and Availability
 
 One of the simplest ways to manage expectations is through your communication tool status. Most tools let you set custom status messages that indicate when you'll respond.
 
@@ -84,7 +84,7 @@ updateStatus('focus'); // When deep working
 
 This approach gives your team visual cues about your availability without requiring constant manual updates.
 
-Step 3: Defining Your Working Hours
+Step 3 - Defining Your Working Hours
 
 Your working hours should be explicitly documented and communicated. This doesn't mean you're unavailable outside these hours, it means responses are not expected.
 
@@ -93,21 +93,21 @@ Create a simple `.availability.md` file in your project docs or personal wiki:
 ```markdown
 My Availability
 
-Step 4: Core Hours (Guaranteed Response)
+Step 4 - Core Hours (Guaranteed Response)
 - 10:00 AM - 12:00 PM (UTC)
 - 2:00 PM - 4:00 PM (UTC)
 
-Step 5: Flexible Hours (Best Effort Response)
+Step 5 - Flexible Hours (Best Effort Response)
 - 7:00 AM - 10:00 AM (UTC)
 - 4:00 PM - 7:00 PM (UTC)
 
-Step 6: Communication Preferences
+Step 6 - Communication Preferences
 - Urgent: Phone call (only for production incidents)
 - Quick questions: Slack DM
 - Detailed questions: Slack thread with context
 - Documentation: Notion/Confluence with 48hr response
 
-Step 7: Response Time Commitments
+Step 7 - Response Time Commitments
 - Slack: Within 4 hours during core hours
 - Email: Within 24 hours
 - Pull Requests: Within 24 hours
@@ -116,7 +116,7 @@ Step 7: Response Time Commitments
 
 This clarity prevents misunderstandings and helps teammates know exactly when to expect responses from you.
 
-Step 8: Handling Urgent Requests
+Step 8 - Handling Urgent Requests
 
 Despite best efforts at async communication, urgent situations arise. Establish a clear protocol for what constitutes "urgent" in your team context. Common definitions include:
 
@@ -155,14 +155,14 @@ Example usage:
 
 Use these tools sparingly. Overusing urgent channels breeds alarm fatigue and reduces trust in your escalation system.
 
-Step 9: Timezone Considerations
+Step 9 - Timezone Considerations
 
 Working across timezones requires intentional communication about response times. When your teammate in Tokyo sends a message at their 9 AM, it might be your 6 PM. Neither of you should expect immediate responses.
 
 Start by finding the 2, 4 hours when everyone on your team is awake and reserving that window for synchronous discussions. When referencing deadlines, avoid clock times like "by 5pm" in favor of "by EOD your time" or "by my Thursday morning." For everything else, use daily standup documents or weekly reports that account for different timezones:
 
 ```markdown
-Step 10: Daily Update - March 15
+Step 10 - Daily Update - March 15
 
 Yesterday
 - Completed API integration for user authentication
@@ -180,7 +180,7 @@ Availability
 - Deep work blocks: 16:00-20:00 UTC
 ```
 
-Step 11: Automate Response Expectations
+Step 11 - Automate Response Expectations
 
 You can automate much of the expectation-setting using tools like Slack's scheduled messages, email auto-responses, or custom Slackbots:
 
@@ -204,44 +204,44 @@ app.message(async ({ message, say }) => {
 });
 ```
 
-Step 12: Communication Matrix by Urgency
+Step 12 - Communication Matrix by Urgency
 
 Create a clear matrix so teammates know exactly how to reach you based on urgency:
 
 ```markdown
 Communication Urgency Matrix
 
-Step 13: Severity 1: Critical (Production Down / Security Issue)
-Response Time: Immediate (within 15 min)
+Step 13 - Severity 1: Critical (Production Down / Security Issue)
+Response Time - Immediate (within 15 min)
 Channels:
 - Slack emergency mention + phone call
 - PagerDuty/on-call system
-Escalation: Contact manager if engineer doesn't respond
+Escalation - Contact manager if engineer doesn't respond
 
-Step 14: Severity 2: High (Blocking Active Work)
-Response Time: Within 1-2 hours during core hours
+Step 14 - Severity 2: High (Blocking Active Work)
+Response Time - Within 1-2 hours during core hours
 Channels:
 - Slack DM
 - Thread reply in public channel
-Escalation: If not responded in 2 hours, contact manager
+Escalation - If not responded in 2 hours, contact manager
 
-Step 15: Severity 3: Medium (Important but Not Blocking)
-Response Time: Within 4-8 hours during core hours
+Step 15 - Severity 3: Medium (Important but Not Blocking)
+Response Time - Within 4-8 hours during core hours
 Channels:
 - Slack message
 - GitHub comment
 - Jira ticket mention
-Escalation: None needed, follows up next day
+Escalation - None needed, follows up next day
 
-Step 16: Severity 4: Low (General Discussion / Nice to Discuss)
-Response Time: Within 24-48 hours
+Step 16 - Severity 4: Low (General Discussion / Nice to Discuss)
+Response Time - Within 24-48 hours
 Channels:
 - Email
 - GitHub discussion
 - Notion comment
-Escalation: None needed, group will follow up
+Escalation - None needed, group will follow up
 
-Step 17: Example Usage
+Step 17 - Example Usage
 Developer asking for PR review (Severity 2):
 "@engineer, this PR is blocking our release. Can you review? Need feedback within 2 hours if possible."
 
@@ -251,17 +251,17 @@ Team member sharing interesting article (Severity 4):
 
 This clarity prevents misunderstandings where someone expects immediate response for a low-urgency ask.
 
-Step 18: Template: Team Response Time SLA
+Step 18 - Template: Team Response Time SLA
 
 Formalize response time expectations in your team documentation:
 
 ```markdown
 Team Response Time SLA
 
-Step 19: Our Commitment
+Step 19 - Our Commitment
 We respond predictably so teammates across timezones can plan work effectively.
 
-Step 20: Response Time Targets
+Step 20 - Response Time Targets
 
 Pull Request Reviews
 - Standard PRs: 24 hours
@@ -283,20 +283,20 @@ Email
 - Non-urgent: 48 hours
 - Personal/admin: 1 week acceptable
 
-Step 21: Exceptions & Escalation
+Step 21 - Exceptions & Escalation
 - Production incidents: Always immediate
 - Security vulnerabilities: Immediate
 - Client escalations: Within 1 hour
 - Meeting invites with hard deadline: 24 hours
 
-Step 22: What This Means
+Step 22 - What This Means
 We work asynchronously. Response delays are expected and normal.
 Missing a 4-hour window is okay. Missing 48 hours without communication is a problem.
 ```
 
 Written SLAs prevent the "why didn't you respond instantly" pressure.
 
-Step 23: Handling Context-Switching
+Step 23 - Handling Context-Switching
 
 When people ask for responses, help them batch efficiently:
 
@@ -306,7 +306,7 @@ When people ask for responses, help them batch efficiently:
 // During deep work: Auto-response
 "Currently in deep work block until 3 PM.
 I'll respond to messages then.
-For urgent matters: [@manager on-call signal]"
+For urgent matters - [@manager on-call signal]"
 
 // After deep work: Batch processing
 "Available for messages/code review now.
@@ -319,7 +319,7 @@ Anything urgent for tomorrow? Please flag in #urgent-channel."
 
 This prevents the "I'll respond to one message and get distracted for 30 minutes" pattern.
 
-Step 24: Build Trust Through Consistency
+Step 24 - Build Trust Through Consistency
 
 The most effective response time strategy is reliability. When you commit to responding within a timeframe, meet that commitment consistently. Your reputation as a remote worker builds on predictable behavior more than rapid responses.
 

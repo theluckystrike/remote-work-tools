@@ -29,10 +29,10 @@ Table of Contents
 - [Setting Up a Figma Design System](#setting-up-a-figma-design-system)
 - [Design Token Export Configuration](#design-token-export-configuration)
 - [Async Design Review Workflow Template](#async-design-review-workflow-template)
-- [Phase 1: Designer Shares (Day 1, morning)](#phase-1-designer-shares-day-1-morning)
-- [Phase 2: Team Reviews (Day 1-2)](#phase-2-team-reviews-day-1-2)
-- [Phase 3: Designer Responds (Day 3, morning)](#phase-3-designer-responds-day-3-morning)
-- [Phase 4: Group Sync (Optional, 30 min)](#phase-4-group-sync-optional-30-min)
+- [Phase 1 - Designer Shares (Day 1, morning)](#phase-1-designer-shares-day-1-morning)
+- [Phase 2 - Team Reviews (Day 1-2)](#phase-2-team-reviews-day-1-2)
+- [Phase 3 - Designer Responds (Day 3, morning)](#phase-3-designer-responds-day-3-morning)
+- [Phase 4 - Group Sync (Optional, 30 min)](#phase-4-group-sync-optional-30-min)
 - [Metrics](#metrics)
 - [Component Library Maintenance Schedule](#component-library-maintenance-schedule)
 - [Developer Handoff Checklist](#developer-handoff-checklist)
@@ -40,7 +40,7 @@ Table of Contents
 - [Figma Inspect Panel Setup](#figma-inspect-panel-setup)
 - [Documentation](#documentation)
 - [Communication](#communication)
-- [Cost Analysis: DIY vs Tool-Based Design System](#cost-analysis-diy-vs-tool-based-design-system)
+- [Cost Analysis - DIY vs Tool-Based Design System](#cost-analysis-diy-vs-tool-based-design-system)
 
 Why Consider Figma Alternatives
 
@@ -82,7 +82,7 @@ const tokens = await response.json();
 
 Penpot's SVG-native architecture is its most technically distinctive feature. Because designs are stored as SVG rather than a proprietary format, exporting assets is lossless and predictable. Frontend engineers appreciate not having to debug export discrepancies between what the design tool renders and what the browser renders.
 
-Best for: Teams with data residency requirements, government contractors, healthcare companies, and any organization that cannot store design files in US-based cloud infrastructure.
+Best for - Teams with data residency requirements, government contractors, healthcare companies, and any organization that cannot store design files in US-based cloud infrastructure.
 
 2. Sketch: The Developer-Friendly Classic
 
@@ -91,7 +91,7 @@ Sketch has evolved beyond macOS-only constraints with web-based collaboration to
 - Native design system management with shared libraries
 - Cloud documents with version history
 - Integrated inspect panel generating CSS, Swift, and Kotlin code
-- Plugin ecosystem with over 700 extensions
+- Plugin environment with over 700 extensions
 
 Exporting assets via CLI:
 ```bash
@@ -106,7 +106,7 @@ Remote teams appreciate Sketch's "Follow" mode for synchronous reviews and comme
 
 Sketch's shared library system is genuinely mature. Design systems managers can publish component updates that propagate to every file using the library, with clear notification to designers about available updates. This workflow reduces the coordination overhead that plagues large design teams, instead of Slack announcements about updated button states, the tool handles the notification and approval flow.
 
-Best for: macOS-heavy development shops, teams building native iOS or macOS apps, and organizations with established Sketch plugin workflows they don't want to rebuild.
+Best for - macOS-heavy development shops, teams building native iOS or macOS apps, and organizations with established Sketch plugin workflows they don't want to rebuild.
 
 3. InVision Freehand: Async Design Collaboration
 
@@ -131,7 +131,7 @@ POST https://api.invisionapp.com/v3/reviews
 
 The async critique workflow removes a common bottleneck for distributed teams: the design review meeting. Instead of scheduling a 60-minute call across five timezones, a designer uploads a walkthrough video, stakeholders comment with timestamped feedback on their own schedule, and the designer iterates before the next cycle. InVision Freehand is built specifically for this loop.
 
-Best for: Design agencies with distributed clients, teams doing heavy user research synthesis, and organizations standardizing async design review to reduce meeting load.
+Best for - Design agencies with distributed clients, teams doing heavy user research synthesis, and organizations standardizing async design review to reduce meeting load.
 
 4. Miro: Visual Collaboration Beyond Design
 
@@ -154,7 +154,7 @@ Embedding Miro boards in documentation:
 
 Miro's value for UX teams isn't in pixel-perfect design work, it's in the research and planning phases where fidelity matters less than collaboration. Affinity mapping from user interviews, service blueprinting, and design system documentation all fit naturally on Miro's infinite canvas. Teams that use both Miro and a dedicated design tool get the best of both: collaborative discovery in Miro, precise execution in their design tool.
 
-Best for: Teams doing heavy UX research, design thinking workshops, and cross-functional planning that involves non-designers.
+Best for - Teams doing heavy UX research, design thinking workshops, and cross-functional planning that involves non-designers.
 
 5. Lunacy: Free Vector Editor with Assets
 
@@ -174,7 +174,7 @@ lunacy export component.svg --format=react --output=./components
 
 Lunacy reads and writes Sketch files, making it a viable free alternative for teams locked into Sketch-format design systems. Designers on Windows, historically underserved by Sketch's macOS-only heritage, find Lunacy particularly useful. The icon library integration means UI designers spend less time hunting for icon assets and more time on actual layout work.
 
-Best for: Freelancers, small teams on tight budgets, Windows-based designers, and teams that need Sketch compatibility without Sketch licensing costs.
+Best for - Freelancers, small teams on tight budgets, Windows-based designers, and teams that need Sketch compatibility without Sketch licensing costs.
 
 Integration Comparison for Developer Workflows
 
@@ -194,11 +194,11 @@ Async Collaboration Workflows for Distributed UX Teams
 
 The tool choice matters, but the workflow patterns around the tool matter more for distributed teams. A few approaches that work well regardless of which platform you choose:
 
-Loom-integrated design reviews: Record a 5-minute walkthrough of the design file, share the link in your team's communication channel, and collect written comments over 48 hours before a brief synchronous discussion. This cuts design review meetings from 90 minutes to 20.
+Loom-integrated design reviews - Record a 5-minute walkthrough of the design file, share the link in your team's communication channel, and collect written comments over 48 hours before a brief synchronous discussion. This cuts design review meetings from 90 minutes to 20.
 
-Version-tagged milestones: Create named snapshots at each design milestone (wireframes, low-fidelity, high-fidelity, developer-ready). Link these snapshots in your project tracker so stakeholders know which version they approved.
+Version-tagged milestones - Create named snapshots at each design milestone (wireframes, low-fidelity, high-fidelity, developer-ready). Link these snapshots in your project tracker so stakeholders know which version they approved.
 
-Feedback format standardization: Enforce a consistent feedback format, screen location, specific concern, suggested direction, to reduce round-trips. A comment that says "the button feels off" requires a follow-up conversation. A comment that says "top-right CTA button, the label 'Submit' doesn't convey urgency, consider 'Book Now'" is immediately actionable.
+Feedback format standardization - Enforce a consistent feedback format, screen location, specific concern, suggested direction, to reduce round-trips. A comment that says "the button feels off" requires a follow-up conversation. A comment that says "top-right CTA button, the label 'Submit' doesn't convey urgency, consider 'Book Now'" is immediately actionable.
 
 Implementation Recommendations
 
@@ -206,10 +206,10 @@ For Open-Source Teams
 Deploy Penpot on your infrastructure for complete data control. Use the API to sync design tokens with your build system:
 
 ```yaml
-CI pipeline: Sync design tokens
+CI pipeline - Sync design tokens
 - name: Fetch Design Tokens
   run: |
-    curl -H "Authorization: Bearer ${{ secrets.PENPOT_TOKEN }}" \
+    curl -H "Authorization - Bearer ${{ secrets.PENPOT_TOKEN }}" \
       https://api.penpot.io/v1/tokens \
       > design-tokens.json
 ```
@@ -268,7 +268,7 @@ Tailor your design system infrastructure to your team:
 - Secondary: Miro pro for complex research/workshops
 - Critique: Structured design review process + async feedback
 - Design system: Dedicated design tokens library (Tokens Studio or Penpot API)
-- Handoff: Automated design-to-code pipeline (Framer, Builder.io, or custom)
+- Handoff - Automated design-to-code pipeline (Framer, Builder.io, or custom)
 
 30+ person team:
 - Primary tool: Figma + Multi-file design system
@@ -401,7 +401,7 @@ Structured async reviews replace time-consuming meetings:
 ```markdown
 Design Review Template (Async Process)
 
-Phase 1: Designer Shares (Day 1, morning)
+Phase 1 - Designer Shares (Day 1, morning)
 
 1. Post design in Figma/Penpot with clear link
 2. Record a 5-minute walkthrough video (Loom):
@@ -413,7 +413,7 @@ Phase 1: Designer Shares (Day 1, morning)
 3. Post video + Figma link to team (Slack)
 4. Message: "Design review open through end of day Wednesday"
 
-Phase 2: Team Reviews (Day 1-2)
+Phase 2 - Team Reviews (Day 1-2)
 
 Each reviewer spends 20 minutes:
 1. Watch the designer's walkthrough video
@@ -431,7 +431,7 @@ Comment format:
 - Suggestion: [Specific alternative if you have one]
 ```
 
-Phase 3: Designer Responds (Day 3, morning)
+Phase 3 - Designer Responds (Day 3, morning)
 
 1. Review all comments (20 min)
 2. Identify patterns (similar feedback = stronger signal)
@@ -440,7 +440,7 @@ Phase 3: Designer Responds (Day 3, morning)
    - Update design if accepting feedback
    - Ask clarifying questions if needed
 
-Phase 4: Group Sync (Optional, 30 min)
+Phase 4 - Group Sync (Optional, 30 min)
 
 Only if major disagreement or complex decisions remain.
 This sync is focused on resolving specific points, not re-reviewing.
@@ -526,12 +526,12 @@ Communication
 
 Thorough handoff prevents the "looks different in code" surprises.
 
-Cost Analysis: DIY vs Tool-Based Design System
+Cost Analysis - DIY vs Tool-Based Design System
 
 Compare the true cost of different approaches:
 
 ```
-Approach: Self-hosted Penpot + Custom Tokens
+Approach - Self-hosted Penpot + Custom Tokens
 
 Setup (one-time):
   - Penpot server: $100-200 (initial setup)
@@ -545,7 +545,7 @@ Recurring (annual, 5-person team):
   - Design tokens dev time: 4-5 hours/quarter = ~$2000/year
   Total: $3600-4200/year
 
-Approach: Figma + Tokens Studio Plugin
+Approach - Figma + Tokens Studio Plugin
 
 Setup (one-time):
   - Figma setup: 4 hours = $400

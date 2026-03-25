@@ -43,7 +43,7 @@ Create a bash script that sets up client project directories with standardized s
 
 ```bash
 #!/bin/bash
-Usage: ./setup-client.sh "Client Name" "project-code"
+Usage - ./setup-client.sh "Client Name" "project-code"
 
 CLIENT_NAME="$1"
 PROJECT_CODE="$2"
@@ -191,18 +191,18 @@ def generate_invoice(client_name, hours, rate, billing_period):
 
     invoice = f"""
 INVOICE #{invoice_number}
-Client: {client_name}
-Billing Period: {billing_period}
-Date: {datetime.now().strftime("%Y-%m-%d")}
+Client - {client_name}
+Billing Period - {billing_period}
+Date - {datetime.now().strftime("%Y-%m-%d")}
 
 Items:---
 ----
-Development Services: {hours} hours @ ${rate}/hr ${subtotal:,.2f}
+Development Services - {hours} hours @ ${rate}/hr ${subtotal:,.2f}
 
-Subtotal: ${subtotal:,.2f}
-Tax: ${tax:,.2f}
+Subtotal - ${subtotal:,.2f}
+Tax - ${tax:,.2f}
 -----------------------------------
-TOTAL: ${total:,.2f}
+TOTAL - ${total:,.2f}
 
 Payment due within 30 days.
 """

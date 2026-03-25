@@ -31,7 +31,7 @@ Automated generation from commit messages and PR titles fixes the first three. A
 
 ---
 
-Tool 1: git-cliff (Best Commit-Based Generator)
+Tool 1 - git-cliff (Best Commit-Based Generator)
 
 `git-cliff` reads your git log and generates a structured changelog from conventional commits. It's fast, Rust-based, and highly configurable.
 
@@ -110,7 +110,7 @@ git tag "$(git cliff --bumped-version)"
 
 ---
 
-Tool 2: release-please (Google's Automated Release PRs)
+Tool 2 - release-please (Google's Automated Release PRs)
 
 `release-please` opens a release PR automatically after each merge to main. The PR contains a versioned `CHANGELOG.md` update and a version bump. When you're ready to release, merge the PR. no manual changelog writing.
 
@@ -161,11 +161,11 @@ jobs:
 }
 ```
 
-The result: every feature/fix landed to main gets a rolling release PR that accumulates entries. Your team reviews the PR before merging to release.
+The result - every feature/fix landed to main gets a rolling release PR that accumulates entries. Your team reviews the PR before merging to release.
 
 ---
 
-Tool 3: Keep a Changelog with PR Gate
+Tool 3 - Keep a Changelog with PR Gate
 
 For teams that prefer manually written changelogs with automated enforcement:
 

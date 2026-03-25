@@ -96,7 +96,7 @@ PROJECT_NAME="client-platform-upgrade"
 RECIPIENT="client@example.com"
 
 echo "=== Weekly Status Update ===" > /tmp/status.txt
-echo "Date: $(date +%Y-%m-%d)" >> /tmp/status.txt
+echo "Date - $(date +%Y-%m-%d)" >> /tmp/status.txt
 echo "" >> /tmp/status.txt
 echo "## Completed This Week" >> /tmp/status.txt
 echo "- Authentication flow implemented" >> /tmp/status.txt
@@ -139,19 +139,19 @@ Tools for Client Relationship and Communication Management
 
 CRM Options for Tracking Client Preferences:
 
-HubSpot CRM: Free tier covers basics. $50-3,200/month for paid tiers.
+HubSpot CRM - Free tier covers basics. $50-3,200/month for paid tiers.
 - Track communication preferences, meeting history, personal notes
 - Automate follow-up reminders (check-ins, next touchpoint)
 - Store all client interactions in one place
 - Best for teams managing multiple clients simultaneously
 
-Notion Client Database: $10/month for Team plan ($120/year).
+Notion Client Database - $10/month for Team plan ($120/year).
 - Custom database tracking client preferences, project history, personal notes
 - Simpler than HubSpot, no learning curve
 - Perfect for freelancers or small teams with <20 clients
 - Less automation but full flexibility
 
-Airtable: $10-20/month for small teams ($120-240/year).
+Airtable - $10-20/month for small teams ($120-240/year).
 - Visual database interface, easy relationship tracking
 - Automations tie events to reminders (check-in dates, milestone reviews)
 - Works well if you already use Airtable for other business needs
@@ -270,24 +270,24 @@ print(check_in)
 
 Get conversation starters before meeting
 talking_points = client.get_talking_points()
-Use these naturally: "How's the Austin market launch planning going?"
+Use these naturally - "How's the Austin market launch planning going?"
 ```
 
 Communication Strategy Template by Client Type
 
-Client Type: Risk-Averse Executive (Prefers In-Person)
+Client Type - Risk-Averse Executive (Prefers In-Person)
 - Strategy: Annual in-person kickoff + quarterly milestone visits
 - Between visits: Weekly async status emails (very detailed)
 - Communication style: Formal, documented, explicit timelines
 - Cadence: Email updates every Friday + optional video calls
 
-Client Type: Collaborative (Open to Hybrid)
+Client Type - Collaborative (Open to Hybrid)
 - Strategy: Quarterly in-person + weekly video syncs
 - Between: Slack channel with daily async updates
 - Communication style: Partnership approach, collaborative decisions
 - Cadence: Wednesday video syncs + Slack as needed
 
-Client Type: Technical (Prefers Remote)
+Client Type - Technical (Prefers Remote)
 - Strategy: Annual in-person offsite + GitHub/Slack primary
 - Between: Async documentation, pull request discussions
 - Communication style: Data-driven, technical depth expected
@@ -299,7 +299,7 @@ Practical Next Steps
 
 Start by having an honest conversation with your client about their preferences:
 
-Opening question: "I'd love to understand what would make you feel most confident about our working relationship. Is in-person time important, or is there something specific you want to feel comfortable about?"
+Opening question - "I'd love to understand what would make you feel most confident about our working relationship. Is in-person time important, or is there something specific you want to feel comfortable about?"
 
 Listen for:
 - Trust concerns: "I want to see the work is progressing"
@@ -315,7 +315,7 @@ Address each concern:
 
 Then build a communication strategy that addresses their underlying needs for transparency, responsiveness, and connection.
 
-Remember: the goal isn't to convince clients that remote work is superior. It's to build enough trust that they feel comfortable with your chosen work style. When clients see you're genuinely invested in their success and willing to meet them partway, their preference for in-person meetings becomes a manageable challenge rather than an insurmountable barrier.
+Remember - the goal isn't to convince clients that remote work is superior. It's to build enough trust that they feel comfortable with your chosen work style. When clients see you're genuinely invested in their success and willing to meet them partway, their preference for in-person meetings becomes a manageable challenge rather than an insurmountable barrier.
 
 The investment you make in understanding and accommodating client preferences pays dividends through longer relationships, referrals, repeat business, and collaborative projects that clients want to continue.
 ---

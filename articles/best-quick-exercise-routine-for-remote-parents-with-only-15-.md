@@ -29,7 +29,7 @@ Table of Contents
 - [Overcoming Common Barriers](#overcoming-common-barriers)
 - [Building Long-Term Habits](#building-long-term-habits)
 - [Advanced Routine Variations for Different Fitness Levels](#advanced-routine-variations-for-different-fitness-levels)
-- [Scheduling Strategies: Calendar Optimization](#scheduling-strategies-calendar-optimization)
+- [Scheduling Strategies - Calendar Optimization](#scheduling-strategies-calendar-optimization)
 - [Accountability and Habit Formation](#accountability-and-habit-formation)
 - [Scaling for Different Family Situations](#scaling-for-different-family-situations)
 - [Tracking Performance and Adapting](#tracking-performance-and-adapting)
@@ -37,7 +37,7 @@ Table of Contents
 - [Month 1 (vs Baseline)](#month-1-vs-baseline)
 - [Nutrition Timing Around Exercise](#nutrition-timing-around-exercise)
 - [Managing Common Barriers Revisited with Advanced Strategies](#managing-common-barriers-revisited-with-advanced-strategies)
-- [Long-Term Habit Success: The 90-Day Protocol](#long-term-habit-success-the-90-day-protocol)
+- [Long-Term Habit Success - The 90-Day Protocol](#long-term-habit-success-the-90-day-protocol)
 
 This guide provides a practical exercise routine specifically designed for remote parents who need quick, effective movement without special equipment or a gym membership. The routines work in your home office, require no changing of clothes, and can be done while your child is occupied or during a conference call that permits movement.
 
@@ -149,7 +149,7 @@ Building Long-Term Habits
 
 The goal is consistency over intensity. Three 15-minute sessions per day equals 45 minutes of movement, matching the standard recommendation for daily exercise. Over a week, that accumulates to over 5 hours of physical activity integrated into your work routine.
 
-Start with a manageable target: one 15-minute session per day for your first week. Add a second session in week two. Adjust based on your schedule and energy levels. The routine should serve your life, not complicate it.
+Start with a manageable target - one 15-minute session per day for your first week. Add a second session in week two. Adjust based on your schedule and energy levels. The routine should serve your life, not complicate it.
 
 Remote parents face real constraints on their time. Fifteen minutes between meetings does not need to mean fifteen minutes of sitting. With a simple routine and intentional scheduling, you can build movement into your workday without sacrificing productivity or family time.
 
@@ -159,7 +159,7 @@ Beginner Routine (Less Intense)
 
 For remote parents new to structured exercise or returning after time away:
 
-Warm-up: 2 minutes gentle movement
+Warm-up - 2 minutes gentle movement
 - Arm circles (30 seconds)
 - Leg swings (30 seconds)
 - Marching in place (60 seconds)
@@ -171,7 +171,7 @@ Main Circuit (10 minutes, 30 seconds per exercise with 30 seconds rest):
 4. Plank hold (wall or incline). Builds core strength safely
 5. Walking lunges. Slower pace for balance
 
-Cool-down: 3 minutes
+Cool-down - 3 minutes
 - Standing stretches
 - Deep breathing
 - Hydration break
@@ -180,7 +180,7 @@ This routine keeps heart rate moderate while building confidence and habit.
 
 Intermediate Routine (Standard Pace)
 
-Warm-up: 2 minutes
+Warm-up - 2 minutes
 - Marching with high knees (1 minute)
 - Arm circles and shoulder rolls (1 minute)
 
@@ -191,9 +191,9 @@ Main Circuit (10 minutes, 40 seconds per exercise with 20 seconds transition):
 4. High knees (running in place). Cardio burst
 5. Tricep dips on chair. Arms and shoulders
 
-Optional second round: If energy permits, repeat the circuit
+Optional second round - If energy permits, repeat the circuit
 
-Cool-down: 3 minutes
+Cool-down - 3 minutes
 - Static stretching
 - Heart rate recovery
 
@@ -201,7 +201,7 @@ This standard routine delivers cardiovascular and strength benefits.
 
 Advanced Routine (High Intensity)
 
-Warm-up: 90 seconds
+Warm-up - 90 seconds
 - Dynamic stretches
 - Fast marching with arm movements
 
@@ -212,13 +212,13 @@ Main Circuit (10 minutes, 45 seconds per exercise with 15 seconds transition):
 4. Push-ups with rotation. Power and balance
 5. High knees with sprinting motion. Maximum cardio
 
-Cool-down: 4 minutes
+Cool-down - 4 minutes
 - Extended stretching
 - Deep breathing to lower heart rate
 
 Advanced routines deliver maximum fitness gains in minimal time.
 
-Scheduling Strategies: Calendar Optimization
+Scheduling Strategies - Calendar Optimization
 
 The Meeting-to-Movement Protocol
 
@@ -248,7 +248,7 @@ Time-Zone Considerations for Remote Distributed Teams
 
 If your team spans multiple time zones, use exercise as a respite during inconvenient meeting times:
 
-Scenario: Your distributed team meeting happens at 7 AM your time
+Scenario - Your distributed team meeting happens at 7 AM your time
 - 6:55 AM: Final email check
 - 7:00-8:00 AM: Team standup (you're mostly listening)
 - 8:00-8:15 AM: Exercise session
@@ -263,7 +263,7 @@ The Buddy System
 Partner with one teammate for accountability:
 
 ```
-Monday: "Completed 3x 15-min sessions"
+Monday - "Completed 3x 15-min sessions"
 "Great! Did you hit your squats?"
 "Yes, full sets today"
 "Nice. same tomorrow?"
@@ -299,9 +299,9 @@ Scaling for Different Family Situations
 
 Single Parent with Young Children
 
-Time constraint: Interruptions every few minutes during exercise
+Time constraint - Interruptions every few minutes during exercise
 
-Solution: Micro-sessions
+Solution - Micro-sessions
 - Do 2-3 minute bursts throughout the day
 - 15 squats while coffee brews
 - 10 push-ups on the desk
@@ -312,18 +312,18 @@ Five micro-sessions of 3 minutes each = 15 minutes total movement without needin
 
 Partnered Parent with Shared Responsibilities
 
-Time constraint: Fixed schedule with childcare handoffs
+Time constraint - Fixed schedule with childcare handoffs
 
-Solution: Coordinated timing
+Solution - Coordinated timing
 - Partner A: 3:00-3:15 PM exercise (Partner B watches kids)
 - Partner B: 4:00-4:15 PM exercise (Partner A has kids)
 - Creates accountability, prevents scheduling conflicts
 
 Multi-Kid Household
 
-Time constraint: Competing demands from multiple children
+Time constraint - Competing demands from multiple children
 
-Solution: Family movement time
+Solution - Family movement time
 - Make exercise a game: "Everyone does 10 squats!"
 - Include kids in the routine
 - Older kids can do modified versions
@@ -410,7 +410,7 @@ Exercise likely helps, not hurts:
 
 "I feel self-conscious doing exercises at home/in office"
 
-Home option: Close your office door; no one sees you
+Home option - Close your office door; no one sees you
 
 Office option:
 - Many coworkers secretly want to exercise too
@@ -418,23 +418,23 @@ Office option:
 - Conference rooms available for quick sessions
 - Brief walk outside accomplishes the same goal
 
-Long-Term Habit Success: The 90-Day Protocol
+Long-Term Habit Success - The 90-Day Protocol
 
 Research shows habit formation takes 66-90 days. Follow this progression:
 
-Days 1-30: Establishment Phase
+Days 1-30 - Establishment Phase
 - Focus: Just show up consistently
 - Effort: Use the routine you find easiest
 - Tracking: Mark calendar daily (visible progress)
 - Expectation: Might not *feel* good yet
 
-Days 31-60: Momentum Phase
+Days 31-60 - Momentum Phase
 - Focus: Increase slightly in intensity or frequency
 - Effort: Try intermediate variations
 - Tracking: Notice improved recovery between sessions
 - Expectation: Habit starts feeling automatic
 
-Days 61-90: Integration Phase
+Days 61-90 - Integration Phase
 - Focus: Expand to multiple sessions or advanced routines
 - Effort: Mix beginner, intermediate, and advanced days
 - Tracking: Measure performance improvements

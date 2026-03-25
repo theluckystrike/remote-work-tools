@@ -27,7 +27,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The 8+ Timezone Reality
+Step 1 - The 8+ Timezone Reality
 
 With team members spanning Mumbai (UTC+5:30) to San Francisco (UTC-8), that's a 13.5-hour difference. There's no natural overlap where everyone's awake during normal working hours.
 
@@ -42,9 +42,9 @@ Overlap windows:
 - London + Mumbai: 10:30am-1pm Mumbai (6am-8:30am London, bad for both)
 - Mumbai + Singapore: 10:30am-11am Mumbai (1pm-2pm Singapore)
 
-Reality: Everyone has a window where they're productive, but those windows don't align. Traditional synchronous team meetings don't work.
+Reality - Everyone has a window where they're productive, but those windows don't align. Traditional synchronous team meetings don't work.
 
-Step 2: Build an Async-First Culture
+Step 2 - Build an Async-First Culture
 
 The most successful 8+ timezone teams treat synchronous communication as a premium resource to be used strategically, not as the default.
 
@@ -53,10 +53,10 @@ Documentation as the Single Source of Truth
 Documentation isn't optional in async-first teams; it's the core infrastructure. Every decision, technical design, process, and context should be captured in writing.
 
 What must be documented:
-- Decisions: Why was choice X selected over Y? (Decision logs)
-- Architecture: How do systems work? (Technical design documents)
-- Processes: How do we deploy, onboard, handle incidents? (Runbooks)
-- Context: Why are we building this? What's the business goal? (Project briefs)
+- Decisions - Why was choice X selected over Y? (Decision logs)
+- Architecture - How do systems work? (Technical design documents)
+- Processes - How do we deploy, onboard, handle incidents? (Runbooks)
+- Context - Why are we building this? What's the business goal? (Project briefs)
 
 Documentation structure:
 Create a central document repository (Notion, Confluence, or GitHub Wiki) with sections for:
@@ -68,11 +68,11 @@ Create a central document repository (Notion, Confluence, or GitHub Wiki) with s
 
 Good documentation examples:
 ```
-DECISION: Migrate auth system from custom solution to Auth0
+DECISION - Migrate auth system from custom solution to Auth0
 
-Date: 2026-03-15
-Decision Maker: Engineering Lead
-Context: Custom auth had 3 security vulnerabilities, taking 15 hours/week to maintain.
+Date - 2026-03-15
+Decision Maker - Engineering Lead
+Context - Custom auth had 3 security vulnerabilities, taking 15 hours/week to maintain.
 Options considered:
   1. Fix custom auth (estimated 60 hours, temporary fix)
   2. Migrate to Auth0 (estimated 120 hours, long-term solution)
@@ -85,12 +85,12 @@ Reasoning:
   - Reduces long-term maintenance burden
   - Developer experience is excellent (saved 10+ hours in integration)
 
-Timeline: 8 weeks
-Migration plan: [link to detailed plan]
-Risks: [link to risk assessment]
+Timeline - 8 weeks
+Migration plan - [link to detailed plan]
+Risks - [link to risk assessment]
 
-Decision reviewed by: @security-lead, @backend-lead
-Approved: 2026-03-16
+Decision reviewed by - @security-lead, @backend-lead
+Approved - 2026-03-16
 ```
 
 Asynchronous Decision-Making
@@ -107,7 +107,7 @@ Decision process for non-critical decisions (turnaround time: 48 hours):
 
 Example structure:
 ```
-DECISION NEEDED: Should we use TypeScript or Python for new microservice?
+DECISION NEEDED - Should we use TypeScript or Python for new microservice?
 
 CONTEXT:
 - New service for processing data imports (CSV uploads, 10,000+ files/day)
@@ -133,8 +133,8 @@ PLEASE PROVIDE:
 - Constraints from your area (data pipeline, deployment, etc.)
 - Timeline flexibility (can you adjust your work if we choose option X?)
 
-INPUT DEADLINE: March 23, 11:59pm UTC
-Decision will be made: March 24, and announced March 25
+INPUT DEADLINE - March 23, 11:59pm UTC
+Decision will be made - March 24, and announced March 25
 ```
 
 For critical decisions (security, major architecture, customer impact):
@@ -161,9 +161,9 @@ Don't use overlap windows for:
 - Recurring check-ins (async document instead)
 - Information sharing that could be written (async first)
 
-The rule: "If this could be written, write it. Only meet if talking is more efficient than writing."
+The rule - "If this could be written, write it. Only meet if talking is more efficient than writing."
 
-Step 3: Communication Norms for Async Teams
+Step 3 - Communication Norms for Async Teams
 
 Response Time Expectations
 
@@ -183,19 +183,19 @@ Mark urgency in communication tool. Slack tip: use threads, not @channel. Escala
 
 Communication Tools by Use Case
 
-Slack: Real-time chat for synchronous collaboration and quick questions
+Slack - Real-time chat for synchronous collaboration and quick questions
 - Use for: Questions that need < 1 hour response, casual discussion
 - Don't use for: Decisions (decisions should be in documents), documentation
 
-Email: Async with lower expectation of immediate response
+Email - Async with lower expectation of immediate response
 - Use for: Updates that need to reach all team members, formal decisions
 - Don't use for: Time-sensitive issues
 
-Docs/Wiki: Long-form async communication
+Docs/Wiki - Long-form async communication
 - Use for: Decisions, design docs, processes, lessons learned
 - Don't use for: Quick questions (use Slack)
 
-Video: Reserved for high-value real-time interaction
+Video - Reserved for high-value real-time interaction
 - Use for: Onboarding, complex technical discussions, relationship building
 - Don't use for: Status updates, information distribution
 
@@ -203,10 +203,10 @@ Timezone-Aware Scheduling
 
 When meetings are necessary, schedule them thoughtfully.
 
-Bad: 9am SF (5pm London, 2:30am Mumbai, 1pm Singapore)
+Bad - 9am SF (5pm London, 2:30am Mumbai, 1pm Singapore)
 Everyone participates, but Mumbai person is at 2:30am. This burns people out.
 
-Better: Rotate meeting times
+Better - Rotate meeting times
 - Monday: 9am SF (works for SF, London, Europe)
 - Wednesday: 8pm SF / 4am London / 11:30am Mumbai / 1pm Singapore (works for India/APAC, harsh for SF)
 - Friday: Async updates
@@ -219,11 +219,11 @@ Best practice:
 - When cross-timezone meetings are needed, rotate timing
 - Record all meetings for async viewing
 
-Step 4: Practical Tooling for 8+ Timezone Teams
+Step 4 - Practical Tooling for 8+ Timezone Teams
 
 Task Management with Timezone Context
 
-Tool recommendations: Linear, Asana, Jira
+Tool recommendations - Linear, Asana, Jira
 
 Key features:
 - Explicit ownership (who's responsible)
@@ -234,10 +234,10 @@ Key features:
 
 Example task structure:
 ```
-Task: Implement user authentication flow
-Owner: @alice (Singapore)
-Status: In Progress
-Description: Implement OAuth2 flow for mobile app
+Task - Implement user authentication flow
+Owner - @alice (Singapore)
+Status - In Progress
+Description - Implement OAuth2 flow for mobile app
 Details:
 - API endpoint for token generation [link to design doc]
 - Mobile app integration [link to PR]
@@ -248,17 +248,17 @@ Progress updates:
 2026-03-20 3pm SGT: Waiting on mobile team feedback from @bob (SF)
 2026-03-21 1am SGT: Responded with fixes, pushed updated API branch
 
-Blockers: Mobile team needs API response time < 200ms, current implementation 250ms
-Blocked by: [nothing]
+Blockers - Mobile team needs API response time < 200ms, current implementation 250ms
+Blocked by - [nothing]
 
-Due: 2026-03-25 midnight UTC
+Due - 2026-03-25 midnight UTC
 ```
 
 Video and Async Recording
 
 For distributed teams, meeting recordings are critical. Asynchronous video allows people in sleeping hours to catch up.
 
-Tools: Loom (best for async), Google Meet (good recording), Zoom (acceptable)
+Tools - Loom (best for async), Google Meet (good recording), Zoom (acceptable)
 
 Best practice:
 - Record all meetings by default
@@ -272,7 +272,7 @@ Persistent Chat with Threading
 
 Slack or similar tools should enforce threading to keep conversations organized.
 
-Rule: Top-level messages only for announcements. Discussion goes in threads.
+Rule - Top-level messages only for announcements. Discussion goes in threads.
 
 This allows people to check in asynchronously without being overwhelmed by notifications.
 
@@ -292,7 +292,7 @@ Minimum sections:
 4. Decision log (major decisions with reasoning)
 5. Current projects (status of active work)
 
-Step 5: Example Weekly Structure for 8+ Timezone Team
+Step 5 - Example Weekly Structure for 8+ Timezone Team
 
 Monday (Europe/US overlap window)
 - 1 all-hands meeting in Europe morning / US morning
@@ -309,33 +309,33 @@ Friday (APAC morning / Europe evening / US midnight-6am)
 - Europe has opportunity to read/respond to their work
 - Async weekly updates written up (what we shipped, what's next, blockers)
 
-Step 6: Avoiding Common Pitfalls
+Step 6 - Avoiding Common Pitfalls
 
-Pitfall 1: Favoring Synchronous Over Async
+Pitfall 1 - Favoring Synchronous Over Async
 
-Problem: Team defaults to Slack discussion instead of documenting decisions. Result: decisions disappear in Slack thread, same decisions re-debated weekly.
+Problem - Team defaults to Slack discussion instead of documenting decisions. Result - decisions disappear in Slack thread, same decisions re-debated weekly.
 
-Solution: Create decision template. Any decision that affects multiple people → must be documented in decision log.
+Solution - Create decision template. Any decision that affects multiple people → must be documented in decision log.
 
-Pitfall 2: Always Scheduling During Someone's Night
+Pitfall 2 - Always Scheduling During Someone's Night
 
-Problem: 8-9am SF meeting every day means Mumbai team joins at 2:30am. They eventually burn out or leave.
+Problem - 8-9am SF meeting every day means Mumbai team joins at 2:30am. They eventually burn out or leave.
 
-Solution: Rotate meeting times. Some meetings at 8am SF (bad for APAC), some at 8pm SF (bad for SF/Europe). Distribute the pain.
+Solution - Rotate meeting times. Some meetings at 8am SF (bad for APAC), some at 8pm SF (bad for SF/Europe). Distribute the pain.
 
-Pitfall 3: Treating Async as "No Communication"
+Pitfall 3 - Treating Async as "No Communication"
 
-Problem: Assuming async means people are on their own. Result: isolation, lack of direction, projects diverge.
+Problem - Assuming async means people are on their own. Result - isolation, lack of direction, projects diverge.
 
-Solution: Async-first doesn't mean isolated. It means communication is written and asynchronous, not that communication is rare. Increase written communication, decrease real-time meetings.
+Solution - Async-first doesn't mean isolated. It means communication is written and asynchronous, not that communication is rare. Increase written communication, decrease real-time meetings.
 
-Pitfall 4: Over-Documentation
+Pitfall 4 - Over-Documentation
 
-Problem: Every thought gets documented, creating 500+ pages of documentation that nobody reads.
+Problem - Every thought gets documented, creating 500+ pages of documentation that nobody reads.
 
-Solution: Document decisions, architecture, processes, and context. Don't document every brainstorm or conversation. Aim for "someone joining now should understand context in 2 hours of reading."
+Solution - Document decisions, architecture, processes, and context. Don't document every brainstorm or conversation. Aim for "someone joining now should understand context in 2 hours of reading."
 
-Step 7: Metrics for Timezone-Distributed Teams
+Step 7 - Metrics for Timezone-Distributed Teams
 
 Track these to ensure async-first is working:
 
@@ -356,7 +356,7 @@ Track these to ensure async-first is working:
 
 If decisions are taking > 72 hours, team isn't doing async well. If people are attending 3+ meetings per week outside core hours, schedule is broken.
 
-Step 8: Hiring for Timezone-Distributed Teams
+Step 8 - Hiring for Timezone-Distributed Teams
 
 Async-first teams require different skills than co-located teams.
 
@@ -373,7 +373,7 @@ Red flags:
 
 Async-first culture is a feature, not a bug. It attracts people who like autonomy and work-life balance. It repels people who need constant collaboration and real-time interaction.
 
-Step 9: The Outcome: Why It Works
+Step 9 - The Outcome: Why It Works
 
 Teams that execute async-first well across 8+ timezones move faster than single-timezone teams because:
 

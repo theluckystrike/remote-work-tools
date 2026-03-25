@@ -21,13 +21,13 @@ Table of Contents
 
 - [Why Zero Trust Matters for Remote Teams](#why-zero-trust-matters-for-remote-teams)
 - [Prerequisites](#prerequisites)
-- [Step 1: Configure Your Identity Provider](#step-1-configure-your-identity-provider)
-- [Step 2: Set Up Application Tunnels](#step-2-set-up-application-tunnels)
-- [Step 3: Create Access Policies](#step-3-create-access-policies)
-- [Step 4: Configure Browser-Based Access](#step-4-configure-browser-based-access)
-- [Step 5: Set Up SSH and Database Access](#step-5-set-up-ssh-and-database-access)
-- [Step 6: Monitor and Audit Access](#step-6-monitor-and-audit-access)
-- [Step 7: Implement Device Posture Checks](#step-7-implement-device-posture-checks)
+- [Step 1 - Configure Your Identity Provider](#step-1-configure-your-identity-provider)
+- [Step 2 - Set Up Application Tunnels](#step-2-set-up-application-tunnels)
+- [Step 3 - Create Access Policies](#step-3-create-access-policies)
+- [Step 4 - Configure Browser-Based Access](#step-4-configure-browser-based-access)
+- [Step 5 - Set Up SSH and Database Access](#step-5-set-up-ssh-and-database-access)
+- [Step 6 - Monitor and Audit Access](#step-6-monitor-and-audit-access)
+- [Step 7 - Implement Device Posture Checks](#step-7-implement-device-posture-checks)
 - [Practical Tips for Implementation](#practical-tips-for-implementation)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 
@@ -50,24 +50,24 @@ Before starting, gather the following:
 - Domain configured with Cloudflare DNS
 - Internal applications or resources you want to protect
 
-Step 1: Configure Your Identity Provider
+Step 1 - Configure Your Identity Provider
 
 Cloudflare Access integrates with your existing identity provider to authenticate users. Setting this up takes a few minutes but provides the foundation for your zero trust implementation.
 
 First, navigate to the Cloudflare dashboard and select "Access" from the sidebar. Go to "Authentication" and add your identity provider. The most common choice is Google Workspace:
 
 ```yaml
-Provider: Google
-Auth Domain: yourcompany-admin.google.com
-Client ID: your-client-id-from-google-cloud-console
-Client Secret: your-client-secret
+Provider - Google
+Auth Domain - yourcompany-admin.google.com
+Client ID - your-client-id-from-google-cloud-console
+Client Secret - your-client-secret
 ```
 
 For Azure AD or Okta, select the appropriate provider type and enter the details from your IdP configuration. Cloudflare supports SAML and OAuth protocols, so most major identity providers work.
 
 After connecting your IdP, create an authentication policy that requires users to authenticate before accessing any protected resource. This ensures every request gets validated against your identity provider.
 
-Step 2: Set Up Application Tunnels
+Step 2 - Set Up Application Tunnels
 
 Cloudflare Access uses application tunnels to expose internal services without exposing them to the public internet. Instead of opening ports in your firewall, your services connect to Cloudflare through a lightweight daemon.
 
@@ -112,16 +112,16 @@ cloudflared tunnel --config tunnel.yaml run remote-access-tunnel
 
 Your internal services are now accessible through Cloudflare without being exposed to the public internet.
 
-Step 3: Create Access Policies
+Step 3 - Create Access Policies
 
 Access policies define who can reach your protected resources. Cloudflare Access provides fine-grained control over these policies.
 
 Create a policy from the "Applications" section:
 
 ```yaml
-Application name: Internal Dashboard
-Session duration: 24 hours
-Domain: dashboard.yourcompany.com
+Application name - Internal Dashboard
+Session duration - 24 hours
+Domain - dashboard.yourcompany.com
 
 Policy rules:
   - Rule name: Engineering Team
@@ -142,7 +142,7 @@ This policy grants engineering team members access while requiring company email
 
 Cloudflare evaluates policies top-down, so order matters. Place more specific rules before general ones.
 
-Step 4: Configure Browser-Based Access
+Step 4 - Configure Browser-Based Access
 
 For browser-based access to internal tools, Cloudflare Access provides a zero-client solution. Users navigate to your internal URL and get redirected to authenticate with your IdP.
 
@@ -158,7 +158,7 @@ To enable this for a web application:
 
 Users now access git.internal.yourcompany.com, authenticate through your company login, and reach your internal Git server without any VPN software.
 
-Step 5: Set Up SSH and Database Access
+Step 5 - Set Up SSH and Database Access
 
 Remote developers often need SSH access to servers or direct database connections. Cloudflare Access supports these use cases through its zero trust tunneling.
 
@@ -186,7 +186,7 @@ ssh user@production-server
 
 The proxy command intercepts the connection, authenticates the user through your IdP, and establishes the tunnel. Database connections work similarly using the TCP proxy mode.
 
-Step 6: Monitor and Audit Access
+Step 6 - Monitor and Audit Access
 
 Zero trust requires visibility into who accesses what and when. Cloudflare Access provides logging and analytics out of the box.
 
@@ -207,7 +207,7 @@ Key metrics to monitor:
 
 Set up alerts for suspicious activity through Cloudflare's integration with your SIEM or notification tools.
 
-Step 7: Implement Device Posture Checks
+Step 7 - Implement Device Posture Checks
 
 For enhanced security, verify that devices meet your security requirements before granting access. Cloudflare Access supports device posture checks:
 

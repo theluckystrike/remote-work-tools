@@ -20,18 +20,18 @@ The essential return to office tools for hybrid teams are a desk booking system 
 
 Table of Contents
 
-- [The Core Problem: Coordination Across Locations](#the-core-problem-coordination-across-locations)
+- [The Core Problem - Coordination Across Locations](#the-core-problem-coordination-across-locations)
 - [Essential Categories of Return to Office Tools](#essential-categories-of-return-to-office-tools)
 - [Integration Considerations](#integration-considerations)
 - [Practical Implementation Tips](#practical-implementation-tips)
 - [Building Custom Solutions](#building-custom-solutions)
-- [Tool Comparison: Major Platforms](#tool-comparison-major-platforms)
-- [Real-World Scenario: Implementing Desk Booking](#real-world-scenario-implementing-desk-booking)
+- [Tool Comparison - Major Platforms](#tool-comparison-major-platforms)
+- [Real-World Scenario - Implementing Desk Booking](#real-world-scenario-implementing-desk-booking)
 - [Building Space Analytics Dashboards](#building-space-analytics-dashboards)
 - [Policy Templates for Common Scenarios](#policy-templates-for-common-scenarios)
 - [Measuring Hybrid Success Metrics](#measuring-hybrid-success-metrics)
 
-The Core Problem: Coordination Across Locations
+The Core Problem - Coordination Across Locations
 
 Hybrid teams face a fundamental challenge: ensuring people can work effectively whether they're at home or in the office. This isn't just about booking desks, it's about creating consistent experiences where location becomes irrelevant for productivity. The right tools handle the logistics so your team can focus on writing code, reviewing PRs, and shipping products.
 
@@ -173,7 +173,7 @@ For developer teams, building custom integrations often provides better results 
 
 If your team has development capacity, investing in custom tooling can pay dividends in user experience and operational efficiency.
 
-Tool Comparison: Major Platforms
+Tool Comparison - Major Platforms
 
 Here's how the dominant platforms compare for teams evaluating options:
 
@@ -187,32 +187,32 @@ Here's how the dominant platforms compare for teams evaluating options:
 
 For most remote-first companies under 100 people, Robin or a custom API solution wins. For enterprise environments with legacy systems, Serraview is worth the investment.
 
-Real-World Scenario: Implementing Desk Booking
+Real-World Scenario - Implementing Desk Booking
 
 Let's walk through a practical implementation. You're a team of 15 engineers, mostly remote, wanting hybrid flexibility:
 
-Week 1: Planning
+Week 1 - Planning
 - Define policy: Engineers book desks by 9 AM on the day they'll be in office
 - Establish core hours: Tuesday-Thursday in-office
 - Assign hot desks: 8 desks for 15 engineers (53% capacity)
 - Plan space: Kitchen, 2 phone booths, 1 large meeting room
 
-Week 2: Tool selection
+Week 2 - Tool selection
 - Evaluate Robin (Slack integration) and Envoy (simple web interface)
 - Pilot with 5 engineers
 - Gather feedback on booking workflow
 
-Week 3: Integration
+Week 3 - Integration
 - Set up Slack bot to display available desks
 - Create calendar integration (Google Calendar)
 - Configure access card provisioning
 
-Week 4: Launch & iterate
+Week 4 - Launch & iterate
 - Roll out to full team
 - Monitor adoption metrics
 - Adjust policies based on feedback
 
-Timeline impact: 4 weeks from decision to full production, assuming existing building infrastructure.
+Timeline impact - 4 weeks from decision to full production, assuming existing building infrastructure.
 
 Building Space Analytics Dashboards
 

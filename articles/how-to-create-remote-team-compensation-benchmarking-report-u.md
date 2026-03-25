@@ -28,13 +28,13 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand the Data Sources
+Step 1 - Understand the Data Sources
 
 International salary survey data comes from several reliable sources. The Stack Overflow Developer Survey provides tech role compensation across 180+ countries. GitHub's Octoverse includes global developer trends. Glassdoor and Payscale offer localized data with remote-specific filters. For government-level accuracy, the OECD and World Bank provide purchasing power parity calculations.
 
 The key is combining multiple sources to create a weighted view of your talent market. A senior engineer in Poland competes with opportunities in Germany, the UK, and US remote positions. Your benchmark should reflect this reality.
 
-Step 2: Structuring Your Compensation Framework
+Step 2 - Structuring Your Compensation Framework
 
 Before collecting data, define your compensation philosophy. Remote teams typically use one of three approaches:
 
@@ -46,7 +46,7 @@ Each approach has trade-offs. Location-agnostic creates equity but strains budge
 
 Choose your approach first, then build your data collection around it.
 
-Step 3: Collecting and Normalizing Salary Data
+Step 3 - Collecting and Normalizing Salary Data
 
 Start by gathering raw salary data from your chosen sources. Export data in a consistent format, CSV or JSON works well for processing.
 
@@ -80,7 +80,7 @@ def adjust_for_ppp(df, ppp_rates):
 
 Normalize the data by converting all salaries to a common currency and adjusting for purchasing power parity. A developer earning $80,000 in San Francisco has different purchasing power than one earning $80,000 in Lisbon. PPP adjustment provides an apples-to-apples comparison.
 
-Step 4: Create Role Buckets and Leveling
+Step 4 - Create Role Buckets and Leveling
 
 Group your positions into compensation bands. Define clear criteria for each level:
 
@@ -112,7 +112,7 @@ def calculate_compensation_bands(df, role, experience_years):
     }
 ```
 
-Step 5: Handling Remote Work Premiums
+Step 5 - Handling Remote Work Premiums
 
 Remote work affects compensation in complex ways. Some companies pay a geographic differential. Others offer location-agnostic rates. Your benchmark should show both scenarios.
 
@@ -124,7 +124,7 @@ Remote Premium = (Remote Median Salary - On-site Median Salary) / On-site Median
 
 For tech roles, remote premiums vary from -5% to +15% depending on role seniority and company type. Startups often pay premiums for remote talent. Large enterprises sometimes pay less for remote roles.
 
-Step 6: Build the Report Structure
+Step 6 - Build the Report Structure
 
 Your final benchmarking report should include these sections:
 
@@ -169,7 +169,7 @@ def create_benchmark_chart(internal_data, market_data):
     return fig
 ```
 
-Step 7: Updating and Maintaining the Report
+Step 7 - Updating and Maintaining the Report
 
 Compensation benchmarking is not an one-time exercise. Plan for quarterly updates:
 
@@ -180,7 +180,7 @@ Compensation benchmarking is not an one-time exercise. Plan for quarterly update
 
 Automate as much of the data collection as possible. Write scripts that pull from APIs or parse downloaded CSV files. The less manual work required, the more likely you'll maintain the report consistently.
 
-Step 8: Common Pitfalls to Avoid
+Step 8 - Common Pitfalls to Avoid
 
 Several mistakes undermine compensation benchmarking efforts:
 
@@ -190,19 +190,19 @@ Several mistakes undermine compensation benchmarking efforts:
 - Outdated data: Tech salaries change quickly, aim for current year data
 - Over-weighting big companies: Startup compensation often differs significantly
 
-Practical Example: Building a Simple Benchmark
+Practical Example - Building a Simple Benchmark
 
 For a concrete example, consider benchmarking a remote frontend developer with 4 years of experience based in Argentina.
 
-First, gather data: Stack Overflow shows $40,000-65,000 for this profile globally. GitHub data suggests $45,000-70,000. Local Argentine surveys show $25,000-40,000.
+First, gather data - Stack Overflow shows $40,000-65,000 for this profile globally. GitHub data suggests $45,000-70,000. Local Argentine surveys show $25,000-40,000.
 
-Second, apply PPP: Argentina's PPP factor is approximately 0.4, meaning $1 in the US equals roughly 0.4 Argentine pesos in purchasing power. Your $50,000 benchmark becomes $125,000 Argentine pesos in local purchasing power.
+Second, apply PPP - Argentina's PPP factor is approximately 0.4, meaning $1 in the US equals roughly 0.4 Argentine pesos in purchasing power. Your $50,000 benchmark becomes $125,000 Argentine pesos in local purchasing power.
 
-Third, apply remote adjustment: If remote work carries a 10% premium in your industry, adjust accordingly.
+Third, apply remote adjustment - If remote work carries a 10% premium in your industry, adjust accordingly.
 
-The final recommendation: Position this role at $50,000-60,000 (US dollars) or equivalent local currency with PPP adjustment. This reflects global market rates while accounting for remote work value.
+The final recommendation - Position this role at $50,000-60,000 (US dollars) or equivalent local currency with PPP adjustment. This reflects global market rates while accounting for remote work value.
 
-Step 9: Equity vs Market Rate Tensions
+Step 9 - Equity vs Market Rate Tensions
 
 Organizations struggle with a fundamental question: should all employees doing the same work earn the same amount (equity), or should compensation reflect local market rates (market-based)?
 
@@ -240,7 +240,7 @@ Example with market-based approach:
 
 Same person performing same work, different compensation. This feels unfair until you add context: $52,000 in Argentina has approximately the same purchasing power as $130,000 in San Francisco.
 
-Hybrid: Location-Adjusted Framework
+Hybrid - Location-Adjusted Framework
 
 Most mature remote organizations use a hybrid:
 
@@ -291,7 +291,7 @@ def calculate_compensation_band(base_salary, location, adjustment_factor):
 Example usage
 compensation = calculate_compensation_band('mid', 'eastern_europe', 1.0)
 print(f"Mid-level engineer in Eastern Europe: ${compensation['base_salary']:,}")
-Output: Mid-level engineer in Eastern Europe: $42,500
+Output - Mid-level engineer in Eastern Europe: $42,500
 ```
 
 This approach:
@@ -300,12 +300,12 @@ This approach:
 - Feels fairer than raw market rates (acknowledges global base)
 - Remains administratively manageable
 
-Step 10: Benefits and Total Compensation
+Step 10 - Benefits and Total Compensation
 
 Salary represents only part of total compensation. Remote organizations must account for:
 
 ```markdown
-Step 11: Total Compensation Calculator
+Step 11 - Total Compensation Calculator
 
 Cash Compensation:
 - Base salary (from benchmarking)
@@ -332,7 +332,7 @@ Some locations require legally mandated benefits:
 - Canada: Provincial health insurance variations
 ```
 
-When benchmarking, ask: does your data include these extras, or only base salary?
+When benchmarking, ask - does your data include these extras, or only base salary?
 
 Survey data often shows salary only. Account for benefits when calculating true competitiveness:
 
@@ -366,7 +366,7 @@ def calculate_total_comp_vs_benchmark(salary, benefits, survey_benchmark):
     }
 ```
 
-Step 12: Retention Analysis
+Step 12 - Retention Analysis
 
 Compensation benchmarking predicts which employees might leave:
 
@@ -409,39 +409,39 @@ def identify_retention_risk(employee_data, market_benchmark):
 
 Run this analysis annually to identify flight risks before people start job hunting.
 
-Step 13: Timing and Communication Strategy
+Step 13 - Timing and Communication Strategy
 
 Compensation adjustments create company-wide emotion. Plan announcements carefully:
 
 ```markdown
-Step 14: Communication Timeline
+Step 14 - Communication Timeline
 
-T-4 weeks: Board/executive approval of new comp bands
+T-4 weeks - Board/executive approval of new comp bands
 
-T-2 weeks: HR/Manager training on new structure
+T-2 weeks - HR/Manager training on new structure
 - Explain methodology and fairness
 - Practice conversations with leaders
 
-T-1 week: Prepare individual conversations
+T-1 week - Prepare individual conversations
 - Calculate impact for each person
 - Prepare retroactive payment timing
 
-T+0 day: Individual conversations
+T+0 day - Individual conversations
 - Manager meets 1:1 with each report
 - Explain their new band, rationale, effective date
 - Get questions, document concerns
 
-T+1 week: All-hands explanation
+T+1 week - All-hands explanation
 - Present compensation philosophy
 - Share new band ranges (without individual names)
 - Explain regional variations and why
 
-T+4 weeks: Follow-up 1:1s
+T+4 weeks - Follow-up 1:1s
 - Check in on reactions
 - Address concerns that surfaced
 - Reinforce fairness of process
 
-T+12 weeks: Review and adjust
+T+12 weeks - Review and adjust
 - Have any concerns surfaced in exit interviews?
 - Did benchmark prove accurate?
 - Plan next year's adjustments

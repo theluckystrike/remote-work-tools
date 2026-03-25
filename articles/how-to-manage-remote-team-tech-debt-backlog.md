@@ -27,7 +27,7 @@ A good remote tech debt system needs:
 - Visibility (any engineer can see the current backlog and its priority)
 - Time allocation that's explicit, not ad-hoc
 
-Tool Choice: GitHub Issues with Labels
+Tool Choice - GitHub Issues with Labels
 
 GitHub Issues works better than Jira or Linear for tech debt because it lives in the same repository as the code. When an engineer notices debt while working on a PR, they can file an issue in seconds.
 
@@ -114,12 +114,12 @@ Effort Estimate
 
 Score (filled in during async review)
 <!-- Impact (1-5) × Frequency (1-5) ÷ Effort (1-5) -->
-Score: TBD
+Score - TBD
 ```
 
 Scoring System (Async, No Meeting Required)
 
-Use a simple formula: Score = (Impact × Frequency) ÷ Effort
+Use a simple formula - Score = (Impact × Frequency) ÷ Effort
 
 Score each dimension 1-5:
 - Impact: 1=minor nuisance, 5=incident risk or blocks multiple teams
@@ -152,16 +152,16 @@ jobs:
 
 Please score this item by replying with your assessment (any team member can score):
 
-Impact (1-5): How severely does this affect users or engineering velocity?
+Impact (1-5) - How severely does this affect users or engineering velocity?
 1 = minor | 3 = moderate | 5 = critical/incident risk
 
-Frequency (1-5): How often do engineers encounter this?
+Frequency (1-5) - How often do engineers encounter this?
 1 = rare | 3 = weekly | 5 = daily for most engineers
 
-Effort (1-5): How much work to fix? (1=easy, 5=large)
+Effort (1-5) - How much work to fix? (1=easy, 5=large)
 1 = days | 3 = weeks | 5 = months
 
-Reply with: Impact: X | Frequency: X | Effort: X
+Reply with - Impact: X | Frequency: X | Effort: X
 
 I'll aggregate scores after 48 hours.`
  });
@@ -185,8 +185,8 @@ Top 5 by score (action required)
 2. Score 7.1. [DEBT] Search uses full table scan (#412). scoring complete, needs owner
 3. Score 6.8. [DEBT] Deploy script has hardcoded prod secrets (#399). CRITICAL, @security-team
 
-This week's debt time budget: 8 engineer-hours
-Current allocation: [#398 auth tests. 4h] [#412 search. 4h pending]
+This week's debt time budget - 8 engineer-hours
+Current allocation - [#398 auth tests. 4h] [#412 search. 4h pending]
 
 Needs owner (reply by Friday)
 - #412 Search optimization (4h estimated). any takers?
@@ -222,20 +222,20 @@ GitHub Project Board Setup
 Create a project board for tech debt
 gh project create --owner @org --title "Tech Debt Backlog" --format table
 
-Add columns: Scored, Scheduled, In Progress, Done
+Add columns - Scored, Scheduled, In Progress, Done
 Fields to add:
 - Score (number)
 - Quarter (select: Q1/Q2/Q3/Q4)
 - Owner (person)
 
-Filter view: sorted by Score descending, open items only
+Filter view - sorted by Score descending, open items only
 This is the primary view for weekly review
 ```
 
 Metrics to Track Monthly
 
 ```bash
-GitHub CLI: count debt items by status
+GitHub CLI - count debt items by status
 gh issue list --label "tech-debt" --state open --json number,labels,createdAt \
  | jq 'length'
 

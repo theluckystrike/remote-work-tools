@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Week 1-2: Legal and Financial Foundation
+Step 1 - Week 1-2: Legal and Financial Foundation
 
 Before writing any code for clients, set up your business infrastructure. This phase prevents headaches later and establishes professional credibility.
 
@@ -36,9 +36,9 @@ Entity Structure
 
 Most freelance developers start as sole proprietors, but consider these factors:
 
-- Sole Proprietor: Simplest setup, but personal liability exposure. File Schedule C with your personal tax return.
+- Sole Proprietor - Simplest setup, but personal liability exposure. File Schedule C with your personal tax return.
 - LLC (Limited Liability Company): Separates personal and business assets. Costs $50-800 to form depending on your state. Recommended once you have your first client.
-- S-Corp Election: If projected income exceeds $80,000/year, consult a CPA about potential tax savings.
+- S-Corp Election - If projected income exceeds $80,000/year, consult a CPA about potential tax savings.
 
 ```bash
 Quick checklist for Week 1:
@@ -57,7 +57,7 @@ Insurance Considerations
 
 General liability insurance ($300-500/year) protects against client property damage or bodily injury claims. Professional liability insurance (errors and omissions) covers legal costs if a client claims your work caused financial losses.
 
-Step 2: Week 3-4: Positioning and Client Acquisition
+Step 2 - Week 3-4: Positioning and Client Acquisition
 
 With infrastructure in place, focus on defining your niche and attracting your first clients.
 
@@ -65,7 +65,7 @@ Defining Your Positioning
 
 Vague positioning leads to commodity pricing. Specialize instead:
 
-- Technology Stack: "React and Node.js developer specializing in e-commerce"
+- Technology Stack - "React and Node.js developer specializing in e-commerce"
 - Industry Vertical: "SaaS developer for B2B startups"
 - Problem Focus: "Developer helping agencies scale legacy migrations"
 
@@ -96,11 +96,11 @@ First Client Acquisition Channels
 Priority order for new freelance developers:
 
 1. Existing Network: Past colleagues, managers, LinkedIn connections
-2. Freelance Platforms: Upwork, Toptal, Gun.io (build profiles, expect initial low rates)
+2. Freelance Platforms - Upwork, Toptal, Gun.io (build profiles, expect initial low rates)
 3. Job Boards: We Work Remotely, RemoteOK, Hacker News Hire
 4. Cold Outreach: Target 10 companies per week with personalized messages
 
-Step 3: Month 2: Onboarding Clients and Establishing Processes
+Step 3 - Month 2: Onboarding Clients and Establishing Processes
 
 With your first clients secured, focus on delivery excellence and operational efficiency.
 
@@ -110,13 +110,13 @@ Standardize your onboarding to save time and set professional expectations:
 
 ```yaml
 client-onboarding-checklist.md
-Step 4: Pre-project
+Step 4 - Pre-project
 - [ ] Signed contract (with deposit terms)
 - [ ] Signed NDA if applicable
 - [ ] Project brief and scope document
 - [ ] Communication preferences documented
 
-Step 5: First Week
+Step 5 - First Week
 - [ ] Development environment setup documented
 - [ ] Code review process agreed
 - [ ] Deployment pipeline access granted
@@ -133,7 +133,7 @@ Establish communication norms in writing:
 - Working hours and availability
 
 ```markdown
-Step 6: Communication Protocol
+Step 6 - Communication Protocol
 - Slack/Teams: For quick questions during agreed hours
 - Email: For non-urgent matters and documentation
 - Video Calls: Scheduled meetings only, 24-hour notice minimum
@@ -152,7 +152,7 @@ Test different pricing models early to find what works:
 
 Starting with hourly builds experience with client management. Transition to fixed-price or retainer as you improve estimation skills.
 
-Step 7: Month 3: Systems and Scaling
+Step 7 - Month 3: Systems and Scaling
 
 Move beyond trading time for money by building systems that generate value independent of your direct involvement.
 
@@ -192,19 +192,19 @@ The freelance trap is trading all time for money. Work toward revenue streams th
 - Templates and Tools: Sellable digital products
 - Referral Fees: Establish relationships with agencies and consultants
 
-Advanced: Contract Templates and Legal Frameworks
+Advanced - Contract Templates and Legal Frameworks
 
 Professional contracts protect both you and your clients. Create standard templates for different engagement types to save time during negotiations:
 
 ```markdown
-Step 8: Standard Service Agreement
+Step 8 - Standard Service Agreement
 
 This agreement ("Agreement") is made between [Your Company] ("Consultant") and [Client Name] ("Client").
 
 Scope of Work
 Consultant agrees to provide [specific deliverables] as detailed in the Statement of Work (SOW).
-Scope is limited to: [List specifically what IS included]
-Scope excludes: [List what IS NOT included]
+Scope is limited to - [List specifically what IS included]
+Scope excludes - [List what IS NOT included]
 
 Compensation
 - Rate: [hourly/fixed price structure]
@@ -224,7 +224,7 @@ Termination
 
 Confidentiality
 Consultant agrees not to disclose Client's proprietary information during or after engagement.
-Non-disclosure period: [1 year / indefinite]
+Non-disclosure period - [1 year / indefinite]
 ```
 
 Create separate templates for:
@@ -237,7 +237,7 @@ Continuous Learning Investment
 
 Dedicate 10% of billable hours to skill development. This maintains competitive advantage and prevents stagnation.
 
-Step 9: Automation: Key Tools to Reduce Time-Wasting
+Step 9 - Automation: Key Tools to Reduce Time-Wasting
 
 After your first few clients, your biggest bottleneck becomes admin overhead. Automate these workflows:
 
@@ -277,7 +277,7 @@ tracking:
 
 These tools should cost $20-80/month combined but save 5-8 hours weekly, freeing capacity for billable work.
 
-Step 10: Month 3+ Strategy: Moving Beyond Commodity Rates
+Step 10 - Month 3+ Strategy: Moving Beyond Commodity Rates
 
 After three months, evaluate your positioning. Are you competing on price or value?
 
@@ -296,7 +296,7 @@ Example rate progression:
 - Month 6-12: $100-150/hr (specialization premium)
 - Year 2+: Fixed-price projects at $2k-10k (not hourly)
 
-Step 11: What to Prioritize in Your First 90 Days
+Step 11 - What to Prioritize in Your First 90 Days
 
 The overwhelm of freelance independence catches many developers off guard. Focus on these priorities in order:
 

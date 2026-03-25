@@ -45,7 +45,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Structuring Your Delay Communication
+Step 1 - Structuring Your Delay Communication
 
 Every delay notification should contain four elements: what changed, why it happened, what you are doing about it, and what the new timeline looks like. This structure works whether you are sending a quick Slack message or writing a formal status update.
 
@@ -104,7 +104,7 @@ The Detailed Update Template
 After the initial notification, provide an update. Use this template structure:
 
 ```markdown
-Step 2: Project Delay Notification: [Project Name]
+Step 2 - Project Delay Notification: [Project Name]
 
 Current Status
 [One-sentence summary of where the project stands]
@@ -134,7 +134,7 @@ How You Can Help
 
 Adapt this template based on your project management system. If you use Jira, include issue links. If you use Linear, reference the relevant items. The format matters less than including all four key elements consistently.
 
-Step 3: Real-World Example: API Integration Delay
+Step 3 - Real-World Example: API Integration Delay
 
 Consider a scenario where your team is building a payment API integration. Three weeks before launch, a third-party API deprecation notice arrives. Your team needs additional time to refactor.
 
@@ -156,7 +156,7 @@ Follow-up email:
 
 This example demonstrates several best practices. It names the specific vendor problem, quantifies the work involved, provides a revised date, and makes a clear ask. Stakeholders can make informed decisions because they have concrete information.
 
-Step 4: Automate Status Updates
+Step 4 - Automate Status Updates
 
 For ongoing projects with multiple stakeholders, consider automating regular status reports. This reduces the manual work of communication while ensuring stakeholders receive consistent updates.
 
@@ -170,7 +170,7 @@ def generate_status_update(project_name, milestones, blockers, next_steps):
     week_ago = today - timedelta(days=7)
 
     update = f"""## {project_name} - Status Update
-Week of: {today.strftime('%B %d, %Y')}
+Week of - {today.strftime('%B %d, %Y')}
 
 Completed This Week
 """
@@ -230,12 +230,12 @@ Always include a next step or ask. Every update should tell stakeholders what ha
 
 Match the channel to the severity. A minor one-day delay might warrant a quick Slack message. A major milestone slip warrants a video call or detailed email with time for questions.
 
-Step 5: Build a Communication Workflow
+Step 5 - Build a Communication Workflow
 
 For teams that handle multiple projects, create a standardized workflow for delay communication. This ensures consistency and reduces the cognitive load of remembering what to communicate.
 
-1. Detection: Identify the delay as soon as possible through daily standups, issue tracking, or automated alerts.
-2. Assessment: Determine the scope and impact within four hours of detection.
+1. Detection - Identify the delay as soon as possible through daily standups, issue tracking, or automated alerts.
+2. Assessment - Determine the scope and impact within four hours of detection.
 3. Initial notification: Send a brief heads-up to stakeholders within the same business day.
 4. Detailed update: Follow up within 24 hours with full details and revised timeline.
 5. Regular updates: Provide status updates on at least a weekly basis until the project returns to its original timeline or a new one is agreed upon.

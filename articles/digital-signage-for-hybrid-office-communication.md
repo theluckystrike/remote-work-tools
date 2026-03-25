@@ -44,7 +44,7 @@ Table of Contents
 - [Display Hardware Considerations](#display-hardware-considerations)
 - [Content Management Best Practices](#content-management-best-practices)
 - [Deployment Architecture](#deployment-architecture)
-- [Production Deployment: Real Implementation Patterns](#production-deployment-real-implementation-patterns)
+- [Production Deployment - Real Implementation Patterns](#production-deployment-real-implementation-patterns)
 - [Measuring Signage Effectiveness](#measuring-signage-effectiveness)
 
 Why Digital Signage Matters for Hybrid Teams
@@ -153,7 +153,7 @@ def update_incident_display(signage_client, incident_data):
         {
             "type": "alert",
             "title": f"Incident: {incident_data['title']}",
-            "body": f"Status: {incident_data['status'].upper()}\nTeam: {incident_data['assignee']}",
+            "body": f"Status - {incident_data['status'].upper()}\nTeam: {incident_data['assignee']}",
             "background_color": "#FF4444" if incident_data['severity'] == 'critical' else "#FFAA00"
         }
     ]
@@ -256,7 +256,7 @@ What is the learning curve like?
 
 Most tools discussed here can be used productively within a few hours. Mastering advanced features takes 1-2 weeks of regular use. Focus on the 20% of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
 
-Production Deployment: Real Implementation Patterns
+Production Deployment - Real Implementation Patterns
 
 Deploying signage in a hybrid office requires solving problems beyond the API level. Here's what actually works:
 
@@ -293,7 +293,7 @@ For lobby showcase (aesthetic priority):
 
 Mixing hardware types based on location needs saves 50% vs all-commercial setups. The Raspberry Pi running Chromium in fullscreen mode handles 90% of office signage use cases.
 
-Reliability: Keeping Displays Online
+Reliability - Keeping Displays Online
 
 The biggest deployment issue isn't the software, it's displays going offline mysteriously:
 
@@ -306,7 +306,7 @@ Common failure modes:
    → Solution: Local caching + fallback playlist bundled in display itself
 
 3. Display firmware bugs: Proprietary OS crashes, requires manual restart
-   → Solution: Use open-source display OS (e.g., Raspberry Pi + Linux) or build auto-restart
+   → Solution - Use open-source display OS (e.g., Raspberry Pi + Linux) or build auto-restart
 
 4. Thermal throttling: Display overheats in enclosed cabinet, dims or blanks
    → Solution: Mount displays vertically with airflow behind, avoid closed cabinets
@@ -331,7 +331,7 @@ def monitor_display_health(signage_client, display_ids):
 
 Add these to your monitoring dashboard alongside app/infrastructure metrics.
 
-Content Server Architecture: The Missing Piece
+Content Server Architecture - The Missing Piece
 
 Most guide focus on display hardware or APIs. The content server, the middle layer, is where you actually solve the hybrid office problem:
 
@@ -402,23 +402,23 @@ def get_content(display_id):
 
 This pattern ensures displays keep showing useful content even when integrations fail.
 
-Integration Maintenance: Calendar Sync Case Study
+Integration Maintenance - Calendar Sync Case Study
 
 Google Calendar API + digital signage is common. Here's what actually breaks:
 
 ```
-Month 1: Calendar sync works perfectly
-Month 3: API hit rate limits (you made 100K requests)
-Month 6: Admin disabled API access (security audit)
-Month 9: Calendar event format changed (new Google Workspace feature)
-Month 12: Integration quietly stops working (credentials expired)
+Month 1 - Calendar sync works perfectly
+Month 3 - API hit rate limits (you made 100K requests)
+Month 6 - Admin disabled API access (security audit)
+Month 9 - Calendar event format changed (new Google Workspace feature)
+Month 12 - Integration quietly stops working (credentials expired)
 ```
 
 Defensive implementation:
 
 ```python
 def sync_calendar_safe(calendar_api, room_email):
-    """Robust calendar sync with error recovery."""
+    """strong calendar sync with error recovery."""
     try:
         # Try primary API
         events = calendar_api.events().list(

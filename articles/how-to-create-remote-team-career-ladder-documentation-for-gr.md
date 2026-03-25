@@ -22,9 +22,9 @@ Table of Contents
 
 - [Why Remote Engineering Teams Need Explicit Career Ladders](#why-remote-engineering-teams-need-explicit-career-ladders)
 - [Structuring Your Career Ladder Framework](#structuring-your-career-ladder-framework)
-- [Practical Example: Engineering Level Definitions](#practical-example-engineering-level-definitions)
+- [Practical Example - Engineering Level Definitions](#practical-example-engineering-level-definitions)
 - [Implementation Steps for Remote Teams](#implementation-steps-for-remote-teams)
-- [Promotion Criteria: Senior Engineer](#promotion-criteria-senior-engineer)
+- [Promotion Criteria - Senior Engineer](#promotion-criteria-senior-engineer)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Handling Specialized Career Paths](#handling-specialized-career-paths)
 - [Compensation Philosophy Documentation](#compensation-philosophy-documentation)
@@ -63,7 +63,7 @@ Organizational Impact encompasses scope of influence, mentorship, and cross-func
 
 Communication Effectiveness becomes the third pillar for remote work. This includes documentation skills, async communication clarity, timezone awareness, and the ability to deliver feedback constructively through written channels.
 
-Practical Example: Engineering Level Definitions
+Practical Example - Engineering Level Definitions
 
 Below is a YAML structure that defines engineering levels with the three dimensions discussed above:
 
@@ -120,20 +120,20 @@ This YAML structure provides machine-readable career ladder data that you can re
 
 Implementation Steps for Remote Teams
 
-Step 1: Audit Current Team Compositions
+Step 1 - Audit Current Team Compositions
 
 Before defining levels, analyze your existing team. Create a matrix mapping current engineers to their perceived levels based on scope of work, technical complexity handled, and mentorship activities. This baseline helps ensure your career ladder reflects reality rather than theoretical frameworks.
 
-Step 2: Gather Compensation Data
+Step 2 - Gather Compensation Data
 
 Compile compensation data ensuring you account for geographic location adjustments. Remote work often means hiring across cost-of-living zones, so your compensation bands should reflect this reality. Tools likelevels.fyiprovide market data for remote engineering roles.
 
-Step 3: Define Transition Criteria
+Step 3 - Define Transition Criteria
 
 Career ladders fail when they describe levels without explaining how engineers progress between them. Create explicit criteria for promotions:
 
 ```markdown
-Promotion Criteria: Senior Engineer
+Promotion Criteria - Senior Engineer
 
 Technical Requirements:
 - Delivered 3+ projects with minimal guidance in past 12 months
@@ -151,7 +151,7 @@ Communication Requirements:
 - Zero escalations related to communication issues in past 12 months
 ```
 
-Step 4: Publish and Socialize
+Step 4 - Publish and Socialize
 
 Remote teams require deliberate communication. Share the career ladder through multiple channels:
 
@@ -160,7 +160,7 @@ Remote teams require deliberate communication. Share the career ladder through m
 - Host optional live Q&A session for timezone accessibility
 - Create short video walkthrough for asynchronous consumption
 
-Step 5: Review and Iterate
+Step 5 - Review and Iterate
 
 Set a quarterly review cycle for your career ladder. Remote engineering evolves rapidly, technologies, team structures, and role expectations change. Your documentation should reflect these shifts.
 
@@ -267,8 +267,8 @@ After implementation, track:
 
 1. Promotion rate: Are engineers progressing at reasonable pace? (target: 5-10% of engineers per year)
 2. Compensation equity: Are engineers at the same level paid similarly? (measure: standard deviation of salaries at same level)
-3. Retention: Do engineers stay longer after promotion? (track: compare tenure before/after promotion)
-4. Satisfaction: "Do you understand what it takes to advance?" (target: >80% agree/strongly agree)
+3. Retention - Do engineers stay longer after promotion? (track: compare tenure before/after promotion)
+4. Satisfaction - "Do you understand what it takes to advance?" (target: >80% agree/strongly agree)
 
 If promotion rates are too low, your ladder may be too stringent. If compensation equity is high variance, individual negotiation may be overriding your framework.
 

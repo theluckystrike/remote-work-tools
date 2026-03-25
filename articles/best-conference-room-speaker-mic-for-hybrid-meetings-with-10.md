@@ -20,7 +20,7 @@ For 10-person hybrid conference rooms, a ceiling-mounted cardioid microphone wit
 Table of Contents
 
 - [The 10-Person Room Challenge](#the-10-person-room-challenge)
-- [Speakerphone Units: The All-in-One Solution](#speakerphone-units-the-all-in-one-solution)
+- [Speakerphone Units - The All-in-One Solution](#speakerphone-units-the-all-in-one-solution)
 - [USB Conference Speaker-Mic Systems](#usb-conference-speaker-mic-systems)
 - [Beamforming Ceiling Microphone Arrays](#beamforming-ceiling-microphone-arrays)
 - [Digital Signal Processing Considerations](#digital-signal-processing-considerations)
@@ -33,7 +33,7 @@ A 10-person hybrid meeting room presents specific acoustic problems that differ 
 
 Room dimensions typically range from 12x15 feet to 16x20 feet for 10-person capacity. These rooms often have one long wall with a display, a conference table seating 8-10 people, and acoustic characteristics that range from treated to bare walls with hard surfaces. Your speaker-mic choice must account for table width (usually 4-6 feet) and the typical speaker positions around it.
 
-Speakerphone Units: The All-in-One Solution
+Speakerphone Units - The All-in-One Solution
 
 For 10-person rooms, speakerphones remain the most practical starting point. These devices combine a speaker and microphone in a single unit, typically placed in the center of the conference table.
 
@@ -120,7 +120,7 @@ Microphone gain should be set so that normal conversation peaks around -12dB to 
 
 ```python
 Calculating appropriate microphone gain
-Assuming: 94dB SPL at 1 foot = 0dB input (standard calibration)
+Assuming - 94dB SPL at 1 foot = 0dB input (standard calibration)
 
 import math
 
@@ -146,10 +146,10 @@ Software Integration
 Your speaker-mic system integrates with video conferencing platforms through standard drivers. Here's a typical configuration workflow:
 
 ```bash
-Linux: Verify audio device recognition
+Linux - Verify audio device recognition
 pactl list sources short | grep -i conference
 
-Windows: Check device properties
+Windows - Check device properties
 Settings > Sound > Device Properties > Additional device properties
 
 macOS: Audio MIDI Setup

@@ -339,7 +339,7 @@ Caregiving creates administrative requirements:
 - Living will: Documents elder's preferences for end-of-life care
 - HIPAA authorization: Allows doctors to discuss health with you
 
-Costs: $200-500 from online services like LegalZoom, or $500-2,000 from attorney
+Costs - $200-500 from online services like LegalZoom, or $500-2,000 from attorney
 
 Have these conversations:
 - Where are important documents? (Passwords, financial accounts, insurance)

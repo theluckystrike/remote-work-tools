@@ -36,7 +36,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Preparing Your Miro Board for Client Workshops
+Step 1 - Preparing Your Miro Board for Client Workshops
 
 Before the workshop begins, create a dedicated Miro board with all the necessary components. A well-structured board guides the session flow and keeps participants focused.
 
@@ -50,7 +50,7 @@ Start by setting up these essential sections:
 
 For a typical 60-minute client workshop, structure your board with clear visual sections that participants can navigate easily.
 
-Step 2: Set Up Interactive Workshop Elements
+Step 2 - Set Up Interactive Workshop Elements
 
 Miro offers numerous interactive features that transform passive viewers into active participants. Use these elements strategically throughout your workshop:
 
@@ -79,7 +79,7 @@ Timer Widget
 
 The timer widget keeps sessions on track. Set appropriate time limits for each activity and display the countdown visibly to maintain momentum.
 
-Step 3: Help Techniques for Remote Workshops
+Step 3 - Help Techniques for Remote Workshops
 
 Effective help makes the difference between a productive session and a wasted meeting. Apply these techniques when running remote client workshops:
 
@@ -140,19 +140,19 @@ After the session, take these steps to maintain momentum:
 3. Schedule follow-up sessions if needed
 4. Update your workshop template based on lessons learned
 
-Step 4: Common Pitfalls to Avoid
+Step 4 - Common Pitfalls to Avoid
 
 Remote client workshops can fall flat if you overlook these common issues:
 
-Overloading the Board: Too many elements confuse participants. Keep frames simple and focused on one topic each.
+Overloading the Board - Too many elements confuse participants. Keep frames simple and focused on one topic each.
 
-Talking Too Much: The advantage of Miro is collaboration. Resist the urge to dominate discussions, encourage client participation.
+Talking Too Much - The advantage of Miro is collaboration. Resist the urge to dominate discussions, encourage client participation.
 
-Skipping Icebreakers: Even brief introductions help participants feel comfortable using the interactive features.
+Skipping Icebreakers - Even brief introductions help participants feel comfortable using the interactive features.
 
-Ignoring Time Zones: For workshops, record sessions and share exports with those who couldn't attend live.
+Ignoring Time Zones - For workshops, record sessions and share exports with those who couldn't attend live.
 
-Step 5: Measuring Workshop Success
+Step 5 - Measuring Workshop Success
 
 Track these metrics to improve future sessions:
 
@@ -165,13 +165,13 @@ Regularly reviewing these metrics helps you refine your workshop approach and de
 
 Running effective remote client workshops using Miro Board requires preparation, the right interactive elements, and skilled help. By structuring your sessions thoughtfully and using Miro's collaborative features, you can create engaging virtual experiences that produce meaningful outcomes for your clients.
 
-Step 6: Miro Pricing and Workspace Configuration
+Step 6 - Miro Pricing and Workspace Configuration
 
 Miro Pricing Models
 
 - Free tier: Unlimited boards, 3 boards editable, basic shapes and templates
-- Team: $8/member/month (minimum 3 members). unlimited editable boards, real-time collaboration, basic integrations
-- Business: $16/member/month. advanced integrations, team management, 500+ templates
+- Team - $8/member/month (minimum 3 members). unlimited editable boards, real-time collaboration, basic integrations
+- Business - $16/member/month. advanced integrations, team management, 500+ templates
 
 For client workshops, the Free tier works for one-off sessions. The Team tier ($24/month for 3 people) is cost-effective for agencies or consultancies running regular workshops.
 
@@ -180,7 +180,7 @@ Workspace Organization for Client Work
 Set up a dedicated workspace structure for managing multiple workshops:
 
 ```
-Workspace: "Client Workshops"
+Workspace - "Client Workshops"
   Team: workshop-facilitators
 
   Boards:
@@ -229,7 +229,7 @@ Pre-built frame templates accelerate setup:
 
 A typical workshop template with 6-8 frames takes 15 minutes to customize versus 45 minutes to build from scratch.
 
-Step 7: Facilitation Techniques Specific to Remote Workshops
+Step 7 - Facilitation Techniques Specific to Remote Workshops
 
 Managing Cross-Time-Zone Workshops
 
@@ -315,7 +315,7 @@ Miro setup:
 - Frame 3: "What could improve" responses
 - Frame 4: "Action items" with owner assignment grid
 
-Step 8: Client Feedback and Iteration
+Step 8 - Client Feedback and Iteration
 
 Collecting Workshop Feedback
 

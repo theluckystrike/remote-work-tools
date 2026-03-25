@@ -155,13 +155,13 @@ Understanding which features work in which clients saves debugging time:
 | Media queries | Limited | No | Limited | No | Limited |
 | Multiple columns | Table-only | Table-only | Limited | Table-only | Table-only |
 
-The pattern is clear: use HTML tables with inline CSS, and you're safe across all clients.
+The pattern is clear - use HTML tables with inline CSS, and you're safe across all clients.
 
 Complete Newsletter Design Workflow with Tools
 
 Here's a realistic end-to-end workflow combining multiple extensions:
 
-Step 1: Write HTML with Styles
+Step 1 - Write HTML with Styles
 Use VS Code with an InlineStyle linter:
 
 ```html
@@ -195,7 +195,7 @@ Use VS Code with an InlineStyle linter:
 </html>
 ```
 
-Step 2: Inline All Styles
+Step 2 - Inline All Styles
 Use the Inliner extension or Premailer:
 
 ```bash
@@ -204,7 +204,7 @@ npm install -g premailer
 premailer template.html > template-inlined.html
 ```
 
-Step 3: Test Across Clients
+Step 3 - Test Across Clients
 Use Email on Acid or similar to generate previews:
 
 ```bash
@@ -215,7 +215,7 @@ curl -X POST https://api.emailonacid.com/api/email/test \
   -F "test_name=Newsletter_Jan2026"
 ```
 
-Step 4: Validate HTML
+Step 4 - Validate HTML
 Use a validator to catch common errors:
 
 ```bash
@@ -224,7 +224,7 @@ npm install -g email-validator
 email-validator validate template-inlined.html
 ```
 
-Step 5: Deploy
+Step 5 - Deploy
 Copy the inlined HTML to your email marketing platform.
 
 Dark Mode Handling Strategies
@@ -284,7 +284,7 @@ templates/
  README.md
 ```
 
-Template Example: Reusable CTA Button
+Template Example - Reusable CTA Button
 
 ```html
 <!-- Store this in components/cta-button.html -->
@@ -344,8 +344,8 @@ Check your newsletter's spam score using a tool:
 
 ```bash
 Test email for spam signals
-Services: MXToolbox, CheckTLS, or your email provider's testing tool
-Look for: Authentication failures, URL flagging, content warnings
+Services - MXToolbox, CheckTLS, or your email provider's testing tool
+Look for - Authentication failures, URL flagging, content warnings
 ```
 
 Performance Metrics for Newsletters

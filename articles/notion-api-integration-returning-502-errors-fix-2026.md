@@ -36,11 +36,11 @@ For remote teams, this issue often stems from network configuration, rate limiti
 
 Step-by-Step Troubleshooting Process
 
-Step 1: Verify Notion API Status
+Step 1 - Verify Notion API Status
 
 Before debugging your integration, confirm that Notion's API services are operational. Notion provides a status page at status.notion.so. Check for any ongoing incidents affecting the API. If Notion is experiencing outages, there's nothing you can do on your end except wait and monitor for updates.
 
-Step 2: Check Your Network Configuration
+Step 2 - Check Your Network Configuration
 
 Remote workers often connect through VPNs, corporate firewalls, or restrictive networks that may block API requests. Try these diagnostic steps:
 
@@ -49,7 +49,7 @@ Remote workers often connect through VPNs, corporate firewalls, or restrictive n
 - Test the connection using a simple curl command: `curl -I https://api.notion.com/v1`
 - If you're behind a corporate proxy, configure your integration to use the proxy settings
 
-Step 3: Verify Your API Key and Integration Settings
+Step 3 - Verify Your API Key and Integration Settings
 
 Incorrect authentication is a common cause of connection failures. For Notion API integrations:
 
@@ -58,7 +58,7 @@ Incorrect authentication is a common cause of connection failures. For Notion AP
 - Check that your integration has the necessary permissions for the databases and pages you're accessing
 - Regenerate your API key if you suspect it has been compromised
 
-Step 4: Implement Proper Rate Limiting Handling
+Step 4 - Implement Proper Rate Limiting Handling
 
 Notion's API enforces rate limits. Exceeding these limits results in 502 errors or other HTTP 5xx responses. The current limits include 3 requests per second on average and 90 requests per 30 seconds. To handle this:
 
@@ -91,7 +91,7 @@ def make_notion_request(url, headers, max_retries=3):
     return None
 ```
 
-Step 5: Check Your Middleware and Proxy Settings
+Step 5 - Check Your Middleware and Proxy Settings
 
 If you use a reverse proxy, API gateway, or middleware layer between your application and Notion, this could be causing 502 errors:
 
@@ -100,7 +100,7 @@ If you use a reverse proxy, API gateway, or middleware layer between your applic
 - Check that your proxy correctly forwards WebSocket connections if using real-time features
 - Verify your proxy isn't imposing additional rate limits
 
-Step 6: Review Request Headers and Payload Size
+Step 6 - Review Request Headers and Payload Size
 
 Large requests or incorrect headers can cause Notion to reject connections:
 
@@ -109,7 +109,7 @@ Large requests or incorrect headers can cause Notion to reject connections:
 - Remove any unnecessary custom headers that might conflict with Notion's requirements
 - Validate your JSON payload is properly formatted
 
-Step 7: Update Your Integration Client
+Step 7 - Update Your Integration Client
 
 Outdated API clients often cause connectivity issues:
 
@@ -120,15 +120,15 @@ Outdated API clients often cause connectivity issues:
 
 Common Scenarios for Remote Teams
 
-Scenario 1: Team Members Using Different Networks
+Scenario 1 - Team Members Using Different Networks
 
 When team members work from various locations, network differences can cause inconsistent behavior. Standardize your integration's network configuration by using a centralized server or ensuring all team members have similar network setups.
 
-Scenario 2: Shared Integration Credentials
+Scenario 2 - Shared Integration Credentials
 
 If multiple team members use the same integration token, you may hit rate limits more quickly. Create separate integrations for different team functions to distribute the load.
 
-Scenario 3: Heavy Automation Scripts
+Scenario 3 - Heavy Automation Scripts
 
 Automated workflows that sync data between Notion and other tools can overwhelm API limits. Schedule these operations during off-peak hours and implement proper queuing mechanisms.
 

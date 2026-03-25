@@ -29,7 +29,7 @@ Table of Contents
 - [Practical Tips for Success](#practical-tips-for-success)
 - [Measuring Habit Success](#measuring-habit-success)
 - [Troubleshooting Common Habit Failures](#troubleshooting-common-habit-failures)
-- [Advanced: Creating Accountability](#advanced-creating-accountability)
+- [Advanced - Creating Accountability](#advanced-creating-accountability)
 - [When to Restart Your Tracker](#when-to-restart-your-tracker)
 
 Why Developers Need Structured Habit Tracking
@@ -48,10 +48,10 @@ Habits Database
 
 Create a database with these properties:
 
-- Name: The habit name (e.g., "Code commit", "Read technical documentation")
+- Name - The habit name (e.g., "Code commit", "Read technical documentation")
 - Category: Select property with options like Coding, Learning, Health, Communication
 - Frequency: Select property with Daily, Weekly, Custom options
-- Target Count: Number property for habits measured in quantity (e.g., 3 pull requests)
+- Target Count - Number property for habits measured in quantity (e.g., 3 pull requests)
 - Streak: Rollup property counting consecutive completions
 - Started: Date property marking when you began tracking
 
@@ -62,7 +62,7 @@ This database records each day's completion status:
 - Date: Date property
 - Habit: Relation connecting to the Habits database
 - Completed: Checkbox property
-- Notes: Text property for context (e.g., "Skipped due to on-call emergency")
+- Notes - Text property for context (e.g., "Skipped due to on-call emergency")
 - Quality: Select property with Excellent, Good, Fair options
 
 Implementing the Tracker
@@ -257,9 +257,9 @@ Set up daily Slack reminders to log habits:
 
 ```
 /workflow builder
-Trigger: Scheduled time (8am daily)
-Action 1: Post message to @your-slack-handle
-Action 2: Remind user to log habits in Notion
+Trigger - Scheduled time (8am daily)
+Action 1 - Post message to @your-slack-handle
+Action 2 - Remind user to log habits in Notion
 ```
 
 Alternatively, use Make or Zapier to post a daily Notion reminder link directly in Slack, reducing friction further.
@@ -279,19 +279,19 @@ Review your tracker every Sunday evening. This 15-minute habit review helps you 
 
 Make logging frictionless. Keep your Notion workspace easily accessible on all devices. The less effort required to mark completion, the more likely you maintain the habit during busy periods. Ideally, logging should take under 10 seconds per habit.
 
-The mobile shortcut trick: On iOS, add your Notion Daily Log database as a widget using Notion's widget support. On Android, use third-party launchers that support Notion widgets, or create a shortcut URL to your specific Notion database view. Reducing the tap count from "log habit" thought to "habit logged" from 8 taps to 2 measurably improves daily consistency.
+The mobile shortcut trick - On iOS, add your Notion Daily Log database as a widget using Notion's widget support. On Android, use third-party launchers that support Notion widgets, or create a shortcut URL to your specific Notion database view. Reducing the tap count from "log habit" thought to "habit logged" from 8 taps to 2 measurably improves daily consistency.
 
 Measuring Habit Success
 
 Track these metrics over time:
 
-Consistency Rate: Percentage of days you complete each habit. Aim for 70%+ consistency. perfection leads to burnout.
+Consistency Rate - Percentage of days you complete each habit. Aim for 70%+ consistency. perfection leads to burnout.
 
-Streak Length: How many consecutive days have you maintained a habit? Celebrate milestones: 7 days, 30 days, 100 days.
+Streak Length - How many consecutive days have you maintained a habit? Celebrate milestones: 7 days, 30 days, 100 days.
 
-Quality Improvement: Beyond checking boxes, are you improving? If your habit is "daily code reviews," track whether your review comments are becoming more substantive over time.
+Quality Improvement - Beyond checking boxes, are you improving? If your habit is "daily code reviews," track whether your review comments are becoming more substantive over time.
 
-Impact on Work: Do habits correlate with better performance? Developers who maintain high consistency on "daily code commits" and "code reviews" typically see performance reviews improve within 6-12 months.
+Impact on Work - Do habits correlate with better performance? Developers who maintain high consistency on "daily code commits" and "code reviews" typically see performance reviews improve within 6-12 months.
 
 Research on habit formation suggests:
 - Simple habits (exercise, meditation) take ~66 days to become automatic
@@ -300,37 +300,37 @@ Research on habit formation suggests:
 
 Troubleshooting Common Habit Failures
 
-Tracker becomes unused: Too many habits, too much friction, unclear purpose
-- Solution: Reset to 1-2 habits, make them your top priorities. Add complexity only after consistency builds.
+Tracker becomes unused - Too many habits, too much friction, unclear purpose
+- Solution - Reset to 1-2 habits, make them your top priorities. Add complexity only after consistency builds.
 
-Habits feel forced: They're not aligned with your values or goals
-- Solution: Reframe habits as means to an end (habit: code reviews → end goal: become better engineer). Connect daily habits to yearly goals.
+Habits feel forced - They're not aligned with your values or goals
+- Solution - Reframe habits as means to an end (habit: code reviews → end goal: become better engineer). Connect daily habits to yearly goals.
 
-Perfectionism spiral: Missing one day derails tracking
-- Solution: Acknowledge that 70% consistency is success, restart immediately if you miss a day. Missing one day doesn't erase previous progress.
+Perfectionism spiral - Missing one day derails tracking
+- Solution - Acknowledge that 70% consistency is success, restart immediately if you miss a day. Missing one day doesn't erase previous progress.
 
-Habit confusion: You're not sure if you completed a habit or what "completion" means
-- Solution: Define completion criteria explicitly (e.g., "code commit" = one commit pushed to production, not abandoned branches; "code review" = substantive feedback on at least 2 PRs).
+Habit confusion - You're not sure if you completed a habit or what "completion" means
+- Solution - Define completion criteria explicitly (e.g., "code commit" = one commit pushed to production, not abandoned branches; "code review" = substantive feedback on at least 2 PRs).
 
-Competing habits: You can only do one of two habits daily
-- Solution: Create a "Choose" habit type: "Code review OR blog post." Notion checkbox still counts as completion for either choice.
+Competing habits - You can only do one of two habits daily
+- Solution - Create a "Choose" habit type: "Code review OR blog post." Notion checkbox still counts as completion for either choice.
 
-External blockers: Can't complete habit due to circumstances beyond your control
-- Solution: Create an "Excuse" category in Quality field. Some days you skip not from laziness but from legitimate constraints (on-call incident, sick day, vacation).
+External blockers - Can't complete habit due to circumstances beyond your control
+- Solution - Create an "Excuse" category in Quality field. Some days you skip not from laziness but from legitimate constraints (on-call incident, sick day, vacation).
 
-Advanced: Creating Accountability
+Advanced - Creating Accountability
 
 If motivation wavers, add social accountability:
 
-Share progress weekly: Post your habit tracker link in a team Slack channel. Public tracking increases consistency (research shows 20-30% improvement).
+Share progress weekly - Post your habit tracker link in a team Slack channel. Public tracking increases consistency (research shows 20-30% improvement).
 
-Peer tracking: Find a colleague with similar habits. Check in weekly on progress. Friendly competition increases consistency.
+Peer tracking - Find a colleague with similar habits. Check in weekly on progress. Friendly competition increases consistency.
 
-Monthly retrospectives: Share your 4-week habit review with a mentor or peer. Discuss patterns and adjustments for next month.
+Monthly retrospectives - Share your 4-week habit review with a mentor or peer. Discuss patterns and adjustments for next month.
 
 These external structures prevent the habit tracker from becoming a solitary endeavor that's easy to abandon.
 
-One concrete implementation: create a shared Notion page visible to your accountability partner that shows only your habit consistency rates for the past 30 days. not the daily log details, just the summary. This gives your partner enough to ask meaningful questions ("Your code review habit dropped to 40% this month. what happened?") without requiring them to read your daily notes.
+One concrete implementation - create a shared Notion page visible to your accountability partner that shows only your habit consistency rates for the past 30 days. not the daily log details, just the summary. This gives your partner enough to ask meaningful questions ("Your code review habit dropped to 40% this month. what happened?") without requiring them to read your daily notes.
 
 When to Restart Your Tracker
 

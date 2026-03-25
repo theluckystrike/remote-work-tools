@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Supply Chain Risks in CI/CD
+Step 1 - Understand Supply Chain Risks in CI/CD
 
 Supply chain attacks targeting CI/CD pipelines exploit the trust relationships between your pipeline stages, external services, and dependencies. Attackers compromise build tools, dependency registries, or pipeline configurations to inject malicious code into your software delivery process.
 
@@ -44,19 +44,19 @@ Common attack vectors include:
 
 Remote teams face additional challenges because developers work from varied network environments and may use personal devices that lack enterprise security controls.
 
-Step 2: Practical Steps to Secure Your Pipeline
+Step 2 - Practical Steps to Secure Your Pipeline
 
 1. Implement Dependency Pinning and Verification
 
 Always pin dependencies to specific versions rather than using floating version ranges. This prevents unexpected changes from introducing vulnerabilities.
 
 ```yaml
-Bad: vulnerable to dependency confusion
+Bad - vulnerable to dependency confusion
 dependencies:
   package-a: "*"
   package-b: ">=2.0.0"
 
-Good: pinned versions
+Good - pinned versions
 dependencies:
   package-a: "2.1.0"
   package-b: "2.4.1"
@@ -243,7 +243,7 @@ permissions:
 
 Review and audit which integrations have access to your repositories regularly.
 
-Step 3: Continuous Monitoring and Response
+Step 3 - Continuous Monitoring and Response
 
 Security requires ongoing attention. Set up alerts for unusual pipeline behavior:
 
@@ -271,7 +271,7 @@ function checkPipelineModifications() {
 
 Create an incident response plan specifically for pipeline compromises. Know how to revoke tokens, rebuild from known-good commits, and notify affected users.
 
-Step 4: SBOM Generation for Supply Chain Transparency
+Step 4 - SBOM Generation for Supply Chain Transparency
 
 Generate a Software Bill of Materials automatically:
 
@@ -299,7 +299,7 @@ Add this to your CI pipeline:
 
 When a CVE drops, search your SBOM to determine if you are affected without manually checking lockfiles.
 
-Step 5: Supply Chain Security Checklist
+Step 5 - Supply Chain Security Checklist
 
 | Check | Frequency | Tool |
 |-------|-----------|------|

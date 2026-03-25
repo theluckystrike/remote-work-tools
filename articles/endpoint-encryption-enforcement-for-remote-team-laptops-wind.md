@@ -48,7 +48,7 @@ For individual machines, administrators can enable BitLocker through the manage-
 Check BitLocker status on all drives
 manage-bde -status
 
-Enable BitLocker on C: drive with TPM and PIN
+Enable BitLocker on C - drive with TPM and PIN
 manage-bde -on C: -TPMAndPIN
 
 Enable with TPM and startup key (useful for remote scenarios)
@@ -90,7 +90,7 @@ Microsoft BitLocker Administration and Monitoring (MBAM) provides recovery key e
 
 macOS FileVault Implementation
 
-Apple's FileVault provides full disk encryption for Mac systems. Unlike BitLocker's enterprise-focused deployment, FileVault integrates smoothly with Apple's ecosystem while still supporting centralized management through MDM.
+Apple's FileVault provides full disk encryption for Mac systems. Unlike BitLocker's enterprise-focused deployment, FileVault integrates smoothly with Apple's environment while still supporting centralized management through MDM.
 
 Enabling FileVault via Command Line
 

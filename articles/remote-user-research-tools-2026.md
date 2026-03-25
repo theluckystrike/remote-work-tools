@@ -30,7 +30,7 @@ Setting up a test:
 ```
 UserTesting → Create Test → Prototype Test
 
-Study type: Unmoderated
+Study type - Unmoderated
 Tasks:
   1. "You want to update your billing address. Show me how you would do that."
   2. "You just received an error on checkout. What would you do?"
@@ -40,8 +40,8 @@ Screener questions:
   - Do you shop online at least twice per month? [Must answer Yes]
   - Age: 25-55 [Required range]
 
-Participants: 5-8 (optimal for finding 80% of usability issues)
-Devices: Mobile OR Desktop (separate tests for each)
+Participants - 5-8 (optimal for finding 80% of usability issues)
+Devices - Mobile OR Desktop (separate tests for each)
 ```
 
 Interpreting recordings:
@@ -55,7 +55,7 @@ Maze integrates directly with Figma, Sketch, and Adobe XD. Share a prototype lin
 ```
 Maze → New Study → Usability Test
 
-Import prototype: Figma prototype URL
+Import prototype - Figma prototype URL
 Add tasks:
   Task 1: "Find the settings page"
     → Set: Expected screen = Settings screen
@@ -86,15 +86,15 @@ Respondent provides a panel of B2B and B2C participants screened by job title, i
 ```
 Respondent → Create Study
 
-Study type: Unmoderated test
-Incentive: $30 (auto-distributed via Respondent)
+Study type - Unmoderated test
+Incentive - $30 (auto-distributed via Respondent)
 Screener:
   - Industry: SaaS software [Required]
   - Job title: Product Manager OR UX Designer OR Developer [Required]
   - Company size: 50-500 employees [Required]
   - Uses project management software daily [Must answer Yes]
 
-Duration: 30 minutes
+Duration - 30 minutes
 ```
 
 User Interviews ($45-200/participant)
@@ -109,14 +109,14 @@ For lean teams, recruiting from existing users is more valid than a panel. you g
 In-app intercept recruiting (via Hotjar or similar)
 Show a survey to users after a key action
 
-Survey trigger: after "task completed" event
-Message: "We're improving [feature]. Would you join a 20-min research session?"
-Link: Calendly booking link filtered by screener
-Incentive: Amazon gift card ($25)
+Survey trigger - after "task completed" event
+Message - "We're improving [feature]. Would you join a 20-min research session?"
+Link - Calendly booking link filtered by screener
+Incentive - Amazon gift card ($25)
 
 Email recruiting from your user list
-Subject: "Help us improve [product]. 20 minutes, $25 gift card"
-Target: users who completed onboarding but have not used Feature X
+Subject - "Help us improve [product]. 20 minutes, $25 gift card"
+Target - users who completed onboarding but have not used Feature X
 ```
 
 Session Recording and Heatmaps
@@ -180,10 +180,10 @@ Typeform's conversational survey format gets completion rates significantly high
 ```
 Typeform → New Form → Survey
 
-Q1 (scale): "How satisfied are you with our onboarding experience?" 1-10
-Q2 (shown only if Q1 ≤ 6): "What made the experience frustrating?"
-Q3 (shown only if Q1 ≥ 7): "What did we do well?"
-Q4 (open text): "What one thing would you change?"
+Q1 (scale) - "How satisfied are you with our onboarding experience?" 1-10
+Q2 (shown only if Q1 ≤ 6) - "What made the experience frustrating?"
+Q3 (shown only if Q1 ≥ 7) - "What did we do well?"
+Q4 (open text) - "What one thing would you change?"
 ```
 
 Tally (free)
@@ -247,7 +247,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -259,6 +259,6 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 {% endraw %}

@@ -50,7 +50,7 @@ ssh-copy-id -i ~/.ssh/id_ed25519.pub user@server.example.com
 
 Verify server only allows key auth (no passwords)
 ssh user@server.example.com "sudo grep PasswordAuthentication /etc/ssh/sshd_config"
-Should show: PasswordAuthentication no
+Should show - PasswordAuthentication no
 
 Harden server sshd_config
 sudo tee /etc/ssh/sshd_config.d/hardening.conf > /dev/null << 'EOF'
@@ -123,7 +123,7 @@ macOS. FileVault:
 ```bash
 Check FileVault status
 sudo fdesetup status
-Should show: FileVault is On.
+Should show - FileVault is On.
 
 Enable if off
 sudo fdesetup enable
@@ -152,7 +152,7 @@ Firewall Configuration
 ```bash
 macOS. check firewall status
 sudo /usr/libexec/ApplicationFirewall/socketfilterfw --getglobalstate
-Enable: sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
+Enable - sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 
 Linux (UFW)
 Check status
@@ -185,10 +185,10 @@ Plain DNS leaks which domains you visit. Use encrypted DNS, especially on untrus
 ```bash
 macOS: use Cloudflare's 1.1.1.1 with DoH
 System Preferences → Network → Advanced → DNS
-Add: 1.1.1.1 and 1.0.0.1
-Enable DoH in macOS 14+: System Settings → Privacy & Security → Local Network Privacy
+Add - 1.1.1.1 and 1.0.0.1
+Enable DoH in macOS 14+ - System Settings → Privacy & Security → Local Network Privacy
 
-Linux: configure systemd-resolved with DoH
+Linux - configure systemd-resolved with DoH
 sudo tee /etc/systemd/resolved.conf.d/doh.conf > /dev/null << 'EOF'
 [Resolve]
 DNS=1.1.1.1#cloudflare-dns.com 1.0.0.1#cloudflare-dns.com
@@ -202,7 +202,7 @@ Verify DNS is working
 resolvectl status | grep "DNS Server"
 resolvectl query github.com
 
-Alternative: dnscrypt-proxy (more control)
+Alternative - dnscrypt-proxy (more control)
 sudo apt-get install dnscrypt-proxy
 Configure /etc/dnscrypt-proxy/dnscrypt-proxy.toml
 Set server_names = ['cloudflare', 'cloudflare-ipv6']
@@ -215,13 +215,13 @@ Never store secrets in dotfiles, shell history, or environment variables in plai
 ```bash
 Check shell history for accidental secret exposure
 grep -E "(password|token|secret|key|api)" ~/.bash_history ~/.zsh_history 2>/dev/null | head -20
-If anything appears: clear specific entries or the full history
+If anything appears - clear specific entries or the full history
 
 Clear Bash history of secrets
 HISTFILE=/dev/null  # disable history for current session
 history -c           # clear in-memory history
 
-Better: use a secrets manager
+Better - use a secrets manager
 1Password CLI
 eval $(op signin)
 export GITHUB_TOKEN=$(op read "op://Work/GitHub PAT/token")
@@ -265,7 +265,7 @@ Public WiFi Precautions
 
 ```bash
 Check if you have a VPN running before connecting to public WiFi
-Quick check: is your traffic going through a VPN?
+Quick check - is your traffic going through a VPN?
 curl https://ipinfo.io | python3 -m json.tool
 Compare IP to your actual location. if it's different, VPN is active
 

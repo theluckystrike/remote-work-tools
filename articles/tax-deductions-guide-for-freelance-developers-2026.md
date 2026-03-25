@@ -47,7 +47,7 @@ def calculate_home_office_deduction(square_footage):
 150 sq ft home office
 deduction = calculate_home_office_deduction(150)
 print(f"Home office deduction: ${deduction}")
-Output: Home office deduction: $750
+Output - Home office deduction: $750
 ```
 
 To qualify, your home office must be used exclusively and regularly for business. A dedicated corner of your living room typically doesn't qualify. The regular method often yields higher deductions if your home office occupies a significant portion of your home.
@@ -180,7 +180,7 @@ def calculate_sep_contribution(net_income):
 net_income = 120000  # After expenses
 contribution = calculate_sep_contribution(net_income)
 print(f"Maximum SEP IRA contribution: ${contribution}")
-Output: Maximum SEP IRA contribution: $30000
+Output - Maximum SEP IRA contribution: $30000
 ```
 
 Contributions to these accounts reduce your taxable income significantly. The SEP IRA is particularly attractive because you can contribute until the tax filing deadline.
@@ -226,7 +226,7 @@ def calculate_quarterly_tax(income, deductions, tax_rate=0.25):
 $150,000 gross, $30,000 deductions
 quarterly = calculate_quarterly_tax(150000, 30000)
 print(f"Estimated quarterly payment: ${quarterly:.2f}")
-Output: Estimated quarterly payment: $7500.00
+Output - Estimated quarterly payment: $7500.00
 ```
 
 Frequently Asked Questions

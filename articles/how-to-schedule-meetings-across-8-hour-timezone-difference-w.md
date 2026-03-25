@@ -35,7 +35,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Calculate Your Actual Overlap Hours
+Step 1 - Calculate Your Actual Overlap Hours
 
 Before scheduling anything, you need to know your true overlap window. An 8-hour difference doesn't mean zero overlap, it means you need to find the hours that work for both groups.
 
@@ -50,12 +50,12 @@ San Francisco 6pm = Berlin 3am  (SF evening, Berlin sleeping)
 Berlin 9am = San Francisco 12am (Berlin morning, SF midnight)
 Berlin 6pm = San Francisco 9am (Berlin evening, SF morning)
 
-Optimal overlap: SF 9am-12pm = Berlin 6pm-9pm
+Optimal overlap - SF 9am-12pm = Berlin 6pm-9pm
 ```
 
 For most teams with an 8-hour spread, you'll find a 2-4 hour overlap in the morning for the western team and evening for the eastern team. This window becomes your sacred synchronous time.
 
-Step 2: Rotate Meeting Times Equitably
+Step 2 - Rotate Meeting Times Equitably
 
 If you always meet at the convenience of one timezone, that team will burn out. A rotation system ensures fairness:
 
@@ -72,9 +72,9 @@ const rotation = {
 };
 ```
 
-The key principle: no single person should consistently take the "pain" slot (early morning or late evening).
+The key principle - no single person should consistently take the "pain" slot (early morning or late evening).
 
-Step 3: Default to Async, Use Sync Rarely
+Step 3 - Default to Async, Use Sync Rarely
 
 The most sustainable approach treats synchronous meetings as exceptions, not defaults. For an 8-hour timezone spread, you should aim for:
 
@@ -89,7 +89,7 @@ Types of meetings worth synchronizing across 8 hours:
 
 Everything else, status updates, code reviews, planning, works better async.
 
-Step 4: Implement Asynchronous-First Alternatives
+Step 4 - Implement Asynchronous-First Alternatives
 
 Replace common synchronous patterns with async equivalents:
 
@@ -105,7 +105,7 @@ Record a 5-minute demo using Loom or similar. Team members watch when convenient
 Decision-Making → RFCs with Async Approval
 Use Request for Comments documents. Stakeholders review and comment asynchronously. A brief sync resolves conflicts, not the entire discussion.
 
-Step 5: Build a Time Zone Respect Policy
+Step 5 - Build a Time Zone Respect Policy
 
 Document explicit norms around timezone-aware collaboration:
 
@@ -121,7 +121,7 @@ Team Timezone Guidelines:
 
 This removes ambiguity and gives everyone permission to decline meetings outside acceptable hours.
 
-Step 6: Use the Right Tools
+Step 6 - Use the Right Tools
 
 Several tools help manage timezone complexity:
 
@@ -136,10 +136,10 @@ For developers, consider timezone-aware automation:
 Convert meeting times for each timezone
 Using date command for quick conversion
 date -v+9H -v9M "2026-03-16 10:00 PST" "+%Y-%m-%d %H:%M %Z"
-Output: 2026-03-17 04:00 CET
+Output - 2026-03-17 04:00 CET
 ```
 
-Step 7: Monitor for Burnout Signals
+Step 7 - Monitor for Burnout Signals
 
 Even with good systems in place, watch for signs of timezone fatigue:
 
@@ -154,7 +154,7 @@ When you see these, it's time to:
 3. Add more async buffer time
 4. Check if certain meetings can be eliminated entirely
 
-Step 8: The Core Principle: Respect Trumps Convenience
+Step 8 - The Core Principle: Respect Trumps Convenience
 
 The fundamental shift is viewing timezone differences as a constraint to work around, not a problem to solve with sacrifice. Your team chose remote work for flexibility, not for living in a constant state of jet lag.
 
@@ -230,7 +230,7 @@ finder.print_overlap_report()
 
 Output example:
 ```
-Overlapping work hours for: US/Pacific, Europe/London, Asia/Singapore
+Overlapping work hours for - US/Pacific, Europe/London, Asia/Singapore
 
 UTC 15:00 → US/Pacific: 07:00 AM | Europe/London: 03:00 PM | Asia/Singapore: 11:00 PM
 UTC 16:00 → US/Pacific: 08:00 AM | Europe/London: 04:00 PM | Asia/Singapore: 12:00 AM
@@ -238,33 +238,33 @@ UTC 16:00 → US/Pacific: 08:00 AM | Europe/London: 04:00 PM | Asia/Singapore: 1
 
 This reveals that true overlap (all teams in working hours) is often impossible with 8+ hour differences. Planning for "least bad" time is more realistic than seeking perfect overlap.
 
-Step 9: Async Communication Patterns for Deep Work
+Step 9 - Async Communication Patterns for Deep Work
 
 Async Decision-Making with RFC (Request for Comments)
 
 For complex decisions that typically require meetings:
 
 ```markdown
-RFC: Migrate to [new technology]
+RFC - Migrate to [new technology]
 
-Author: Engineering Lead
-Status: Open (ends March 28)
-Decision Deadline: March 29
+Author - Engineering Lead
+Status - Open (ends March 28)
+Decision Deadline - March 29
 
-Step 10: Problem Statement
+Step 10 - Problem Statement
 Current system has [specific limitation]. This RFC proposes [solution].
 
-Step 11: Proposed Solution
+Step 11 - Proposed Solution
 - [Detail 1]
 - [Detail 2]
 - [Tradeoff analysis]
 
-Step 12: Timeline
+Step 12 - Timeline
 - Week 1: Team review and comment
 - Week 2: Sync discussion (30 min) to resolve conflicts
 - Week 3: Decision communicated
 
-Step 13: How to Contribute
+Step 13 - How to Contribute
 1. Read this RFC
 2. Add comments by March 28 (async)
 3. Attend optional sync on March 29 if you have concerns
@@ -304,7 +304,7 @@ record_standup
 
 Team members watch videos during their own morning. Comments in Slack if they need clarification. This gives async teams full visibility without mandatory meeting time.
 
-Step 14: Timezone Fairness Metrics
+Step 14 - Timezone Fairness Metrics
 
 Track fairness to prevent one timezone bearing the burden:
 
@@ -348,7 +348,7 @@ const calculateTimezoneFairness = (schedule) => {
 
 Review this monthly. If one timezone's fairness score is significantly higher, you're overloading them.
 
-Step 15: Technology Stack for Timezone-Distributed Teams
+Step 15 - Technology Stack for Timezone-Distributed Teams
 
 | Tool | Purpose | Cost | Why It Helps |
 |------|---------|------|-------------|
@@ -360,22 +360,22 @@ Step 15: Technology Stack for Timezone-Distributed Teams
 
 For distributed teams, Slack Scheduled Send + Reclaim.ai + Loom covers 80% of timezone coordination needs.
 
-Step 16: Recognition and Fairness Practices
+Step 16 - Recognition and Fairness Practices
 
 Rotating Convenors, Not Victims
 
 Rather than always asking the same timezone to take inconvenient times, rotate who helps:
 
 ```
-Week 1-2: PST-friendly times
+Week 1-2 - PST-friendly times
     → EU attendees take evening slots
     → APAC attendees take early morning
 
-Week 3-4: EU-friendly times
+Week 3-4 - EU-friendly times
     → PST attendees take early morning
     → APAC takes late evening
 
-Week 5-6: APAC-friendly times
+Week 5-6 - APAC-friendly times
     → PST takes late evening
     → EU takes early morning
 ```

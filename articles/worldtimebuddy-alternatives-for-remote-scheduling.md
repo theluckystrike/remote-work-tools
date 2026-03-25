@@ -20,12 +20,12 @@ The best WorldTimeBuddy alternatives for remote scheduling are Every Time Zone f
 Table of Contents
 
 - [When WorldTimeBuddy Falls Short](#when-worldtimebuddy-falls-short)
-- [Every Time Zone: The Minimalist Alternative](#every-time-zone-the-minimalist-alternative)
-- [Timezone.io: Team Availability Tracking](#timezoneio-team-availability-tracking)
-- [Cronofy: Calendar-Native Scheduling](#cronofy-calendar-native-scheduling)
+- [Every Time Zone - The Minimalist Alternative](#every-time-zone-the-minimalist-alternative)
+- [Timezone.io - Team Availability Tracking](#timezoneio-team-availability-tracking)
+- [Cronofy - Calendar-Native Scheduling](#cronofy-calendar-native-scheduling)
 - [Slack Native Solutions](#slack-native-solutions)
-- [World Clock API: Programmatic Timezone Data](#world-clock-api-programmatic-timezone-data)
-- [Luxon: Modern Timezone Library](#luxon-modern-timezone-library)
+- [World Clock API - Programmatic Timezone Data](#world-clock-api-programmatic-timezone-data)
+- [Luxon - Modern Timezone Library](#luxon-modern-timezone-library)
 - [Selecting Your Alternative](#selecting-your-alternative)
 
 When WorldTimeBuddy Falls Short
@@ -40,7 +40,7 @@ Teams requiring more than occasional scheduling quickly outgrow WorldTimeBuddy's
 
 For these use cases, the alternatives below provide the programmatic access and automation capabilities that WorldTimeBuddy lacks.
 
-Every Time Zone: The Minimalist Alternative
+Every Time Zone - The Minimalist Alternative
 
 Every Time Zone offers a cleaner, faster alternative to WorldTimeBuddy's visual approach. The interface presents a single slider that adjusts time across all configured zones simultaneously, move the slider, and every timezone updates instantly.
 
@@ -62,9 +62,9 @@ teamZones.forEach(tz => {
 });
 ```
 
-The tradeoff: Every Time Zone shares WorldTimeBuddy's limitation of no API or automation support. It excels as a quick reference tool but doesn't integrate into developer workflows.
+The tradeoff - Every Time Zone shares WorldTimeBuddy's limitation of no API or automation support. It excels as a quick reference tool but doesn't integrate into developer workflows.
 
-Timezone.io: Team Availability Tracking
+Timezone.io - Team Availability Tracking
 
 Timezone.io shifts focus from individual timezone conversion to team-level availability management. You create a team, add members with their respective timezones, and the dashboard displays current local time and working hours status for each person.
 
@@ -100,7 +100,7 @@ const isAvailable = (member) => {
 
 Timezone.io works well for teams wanting visibility into colleague availability without building custom solutions from scratch.
 
-Cronofy: Calendar-Native Scheduling
+Cronofy - Calendar-Native Scheduling
 
 Cronofy targets a specific problem: scheduling meetings across different calendar providers (Google Calendar, Outlook, Apple Calendar) while handling timezone complexity automatically. For teams already living in their calendars, Cronofy provides the deepest integration.
 
@@ -194,7 +194,7 @@ async function suggestBestContactTime(targetUserId, teamTimezones) {
 
 While Slack won't replace dedicated timezone tools for complex scheduling, it handles basic coordination elegantly.
 
-World Clock API: Programmatic Timezone Data
+World Clock API - Programmatic Timezone Data
 
 For developers building custom scheduling tools, the World Clock API provides straightforward HTTP endpoints returning timezone data:
 
@@ -250,7 +250,7 @@ def get_regional_times():
 
 The free tier handles reasonable request volumes. For production systems, implement caching since timezone data changes minimally.
 
-Luxon: Modern Timezone Library
+Luxon - Modern Timezone Library
 
 For applications requiring timezone display, Luxon provides a modern JavaScript library as an alternative to the aging Moment Timezone:
 

@@ -56,11 +56,11 @@ When you're woken up at 3 AM, cognitive load is your enemy. Your runbook must mi
 
 ```
 IF error rate > 5% AND single service
-THEN follow: service-specific runbook
+THEN follow - service-specific runbook
 ELSE IF error rate > 5% AND all services
-THEN follow: infrastructure runbook
+THEN follow - infrastructure runbook
 ELSE IF latency only
-THEN check: recent deploys correlation
+THEN check - recent deploys correlation
 ```
 
 This branching logic removes ambiguity. The responder reads the current state, matches it to a bucket, and follows the corresponding path.
@@ -114,18 +114,18 @@ Watch Items
 - Payment success rate trending down slightly
 - Database CPU at 75%, may need scaling discussion
 
-Handoff Acknowledged By: ___________
+Handoff Acknowledged By - ___________
 ```
 
 Testing Your Runbooks
 
 A runbook that hasn't been tested is just documentation. Build testing into your routine:
 
-Tabletop exercises: Walk through a scenario without executing. Identify gaps in your runbooks where the written instructions don't match reality.
+Tabletop exercises - Walk through a scenario without executing. Identify gaps in your runbooks where the written instructions don't match reality.
 
-Game days: Deliberately trigger non-production incidents and follow the runbook end-to-end. Time how long each step takes. If step 3 requires SSH access and you don't have keys configured, you'll discover this during a game day, not during a real incident.
+Game days - Deliberately trigger non-production incidents and follow the runbook end-to-end. Time how long each step takes. If step 3 requires SSH access and you don't have keys configured, you'll discover this during a game day, not during a real incident.
 
-Chaos engineering: If you use tools like Chaos Monkey or Gremlin, use the same runbooks you'd use in production. The real test is whether your documentation survives real conditions.
+Chaos engineering - If you use tools like Chaos Monkey or Gremlin, use the same runbooks you'd use in production. The real test is whether your documentation survives real conditions.
 
 Automating Runbook Steps
 
@@ -173,7 +173,7 @@ Several patterns reduce runbook effectiveness in distributed teams:
 - Over-linking: If your runbook is "click here for the full guide" repeated five times, you're creating navigation overhead. Include critical steps inline.
 - Assumed context: Never assume the responder knows which dashboard, which repo, or which account. Every resource needs explicit identification.
 - Single points of failure: If one person wrote all your runbooks and leaves, you have a knowledge gap. Distribute runbook ownership across the team.
-- Perfectionism: A good runbook that exists beats a perfect runbook that doesn't. Start with the basics and iterate.
+- Perfectionism - A good runbook that exists beats a perfect runbook that doesn't. Start with the basics and iterate.
 
 Runbook Template and Examples
 
@@ -201,7 +201,7 @@ Immediate Actions (First 60 Seconds)
 2. Check deployment status: `./scripts/check-deploy-status.sh`
 3. Review last 10 commits: `git log --oneline -10`
 4. Measure current error rate and latency
-5. Decide: Is this a rollback situation?
+5. Decide - Is this a rollback situation?
 
 Decision Tree
 ```
@@ -229,7 +229,7 @@ git log --oneline | head -5
 
 Trigger rollback
 ./deploy.sh --service=[service] --version=[previous-stable] --env=prod
-Wait for: "Deployment successful"
+Wait for - "Deployment successful"
 
 Verify health
 kubectl rollout status deployment/[service] -n production

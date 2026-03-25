@@ -19,7 +19,7 @@ Table of Contents
 
 - [Why Handoff Documentation Matters](#why-handoff-documentation-matters)
 - [Complete Handoff Checklist](#complete-handoff-checklist)
-- [Notion Template: Project Handoff Master](#notion-template-project-handoff-master)
+- [Notion Template - Project Handoff Master](#notion-template-project-handoff-master)
 - [30-Second Overview](#30-second-overview)
 - [What Does This Project Do?](#what-does-this-project-do)
 - [Architecture Diagram](#architecture-diagram)
@@ -33,10 +33,10 @@ Table of Contents
 - [Monitoring & Alerts](#monitoring-alerts)
 - [Transition Notes](#transition-notes)
 - [Handoff Sign-Off](#handoff-sign-off)
-- [Confluence Template: Structured Handoff](#confluence-template-structured-handoff)
+- [Confluence Template - Structured Handoff](#confluence-template-structured-handoff)
 - [Async Video Walkthrough Best Practices](#async-video-walkthrough-best-practices)
 - [Async Handoff Workflow](#async-handoff-workflow)
-- [Google Sheets: Rapid Handoff Tracker](#google-sheets-rapid-handoff-tracker)
+- [Google Sheets - Rapid Handoff Tracker](#google-sheets-rapid-handoff-tracker)
 - [Remote Handoff Dos and Don'ts](#remote-handoff-dos-and-donts)
 - [Critical Documents to Always Include](#critical-documents-to-always-include)
 - [Measuring Handoff Success](#measuring-handoff-success)
@@ -74,7 +74,7 @@ Post-Handoff (Week After)
 - [ ] Archive handoff docs in central location
 - [ ] Ensure monitoring/alerting transfers to new person
 
-Notion Template: Project Handoff Master
+Notion Template - Project Handoff Master
 
 Create a Notion database for all handoffs:
 
@@ -92,12 +92,12 @@ Project Handoff Page Template:
 ```
 [Project Name] Handoff
 
-Project: [Name]
-Outgoing Owner: [Name]
-Incoming Owner: [Name]
-Handoff Date: [Date]
-Complexity: Simple / Medium / Complex
-Status: In Progress / Complete
+Project - [Name]
+Outgoing Owner - [Name]
+Incoming Owner - [Name]
+Handoff Date - [Date]
+Complexity - Simple / Medium / Complex
+Status - In Progress / Complete
 
 30-Second Overview
 
@@ -125,11 +125,11 @@ API -> ETL Workers -> PostgreSQL -> Dashboard -> Users
 
 Access & Credentials
 
-Production Dashboard: https://dashboard.prod.example.com (Okta SSO)
-Database: prod-analytics.us-east-1.rds.amazonaws.com (use AWS Secrets Manager)
-Monitoring: Datadog dashboard https://app.datadoghq.com/dash/[id]
-Alert Channel: #analytics-alerts in Slack
-Runbook: [link to runbook in Confluence]
+Production Dashboard - https://dashboard.prod.example.com (Okta SSO)
+Database - prod-analytics.us-east-1.rds.amazonaws.com (use AWS Secrets Manager)
+Monitoring - Datadog dashboard https://app.datadoghq.com/dash/[id]
+Alert Channel - #analytics-alerts in Slack
+Runbook - [link to runbook in Confluence]
 
 [NOTE: Store actual credentials in 1Password, Vault, or encrypted secret manager. Never paste credentials in Notion.]
 
@@ -166,9 +166,9 @@ Recurring Tasks Schedule
 
 Common Issues & Solutions
 
-Issue: Job fails with "API rate limit exceeded"
+Issue - Job fails with "API rate limit exceeded"
 
-Root Cause: One of the 5 external APIs has rate limits we sometimes hit.
+Root Cause - One of the 5 external APIs has rate limits we sometimes hit.
 
 Solution:
 1. Check which API failed in CloudWatch logs: `grep "rate_limit" /logs/etl-prod.log`
@@ -176,11 +176,11 @@ Solution:
 3. If still failing, scale up worker instances in Terraform: `aws ecs update-service --cluster prod --service etl --desired-count 10`
 4. Notify [api-team@company.com] that we're hitting limits
 
-Prevention: Set up monitoring for API response times (Datadog metric: `etl.api_latency`)
+Prevention - Set up monitoring for API response times (Datadog metric: `etl.api_latency`)
 
-Issue: Reports are missing data from yesterday
+Issue - Reports are missing data from yesterday
 
-Root Cause: One of the data sources didn't emit data, or a transformation failed silently.
+Root Cause - One of the data sources didn't emit data, or a transformation failed silently.
 
 Solution:
 1. Check data freshness: `SELECT MAX(created_at) FROM raw_events;`
@@ -188,11 +188,11 @@ Solution:
 3. Check Postgres replication lag: `SELECT * FROM pg_stat_replication;`
 4. If replication is behind, contact DBA in #database-support
 
-Prevention: Set up alert in Datadog for "data older than 2 hours"
+Prevention - Set up alert in Datadog for "data older than 2 hours"
 
-Issue: Dashboard is slow or showing stale data
+Issue - Dashboard is slow or showing stale data
 
-Root Cause: Materialized views need refresh, or query is inefficient.
+Root Cause - Materialized views need refresh, or query is inefficient.
 
 Solution:
 1. Refresh materialized views: `REFRESH MATERIALIZED VIEW CONCURRENTLY analytics.dashboard_summary;`
@@ -200,7 +200,7 @@ Solution:
 3. Escalate to DBAs if query time > 5 seconds
 4. Contact Frontend team if dashboard UI is slow (might be a JS issue)
 
-Prevention: Set refresh schedule to every 30 minutes (cron job in Airflow)
+Prevention - Set refresh schedule to every 30 minutes (cron job in Airflow)
 
 Video Walkthrough
 
@@ -213,16 +213,16 @@ Recording covers:
 - 12:00 - Where to find dashboards
 - 14:00 - Q&A
 
-Video Duration: 15 minutes
-Recording Date: [Date]
-Tools Used: CloudWatch, Datadog, Postgres CLI
+Video Duration - 15 minutes
+Recording Date - [Date]
+Tools Used - CloudWatch, Datadog, Postgres CLI
 
 Knowledge Base Articles
 
 - [ETL Troubleshooting Guide](https://wiki.company.com/etl-troubleshooting)
 - [API Integration Docs](https://api-docs.company.com)
 - [Postgres Best Practices](https://wiki.company.com/postgres-best-practices)
-- [Runbook: Incident Response](https://wiki.company.com/incident-response)
+- [Runbook - Incident Response](https://wiki.company.com/incident-response)
 
 Who to Contact
 
@@ -265,12 +265,12 @@ Next 30 Days Priorities:
 
 Handoff Sign-Off
 
-Outgoing Owner: [Name]. Date: ___
-Incoming Owner: [Name]. Date: ___
-Manager Approval: [Name]. Date: ___
+Outgoing Owner - [Name]. Date: ___
+Incoming Owner - [Name]. Date: ___
+Manager Approval - [Name]. Date: ___
 ---
 
-Feedback: How can we improve this handoff? [Anonymous feedback form](https://forms.company.com)
+Feedback - How can we improve this handoff? [Anonymous feedback form](https://forms.company.com)
 
 Frequently Asked Questions
 
@@ -308,7 +308,7 @@ This template captures everything needed for a smooth transition. Customize sect
 
 
 
-Confluence Template: Structured Handoff
+Confluence Template - Structured Handoff
 
 For larger organizations using Confluence:
 
@@ -349,7 +349,7 @@ Create template using Confluence macros:
 
 Async Video Walkthrough Best Practices
 
-Format: Loom or ScreenFlow
+Format - Loom or ScreenFlow
 
 Benefits over synchronous meetings:
 - People watch at their own pace
@@ -363,7 +363,7 @@ Structure (15-minute walkthrough):
 "Hi [name], this project handles [business purpose]. It's critical for [stakeholder team] because [impact]. The most important thing you'll do is [one key task]."
 
 1:00-3:00 High-level Architecture
-Show diagram. Explain: "Data flows from [source] → [processing] → [output]. The main components are [3-4 major pieces]."
+Show diagram. Explain - "Data flows from [source] → [processing] → [output]. The main components are [3-4 major pieces]."
 
 3:00-7:00 Tour the Tools
 Walk through actual dashboards, logs, databases:
@@ -396,32 +396,32 @@ Technical Tips:
 
 Async Handoff Workflow
 
-Day 1: Preparation
+Day 1 - Preparation
 - Create Notion page from template
 - Record 15-minute video
 - List 5 common issues with solutions
 - Send to incoming person for review
 
-Day 2-3: Async Q&A
+Day 2-3 - Async Q&A
 - Incoming person watches video, posts questions in Slack thread
 - Outgoing person answers async (within 24h)
 - Update documentation with new Q&A
 
-Day 4-5: One Sync Call
+Day 4-5 - One Sync Call
 - 30-minute call covering: clarifications + live demo of one complex task
 - Schedule a second call for Day 7-8 (after first solo attempt)
 
-Day 7: First Independent Task
+Day 7 - First Independent Task
 - Incoming person completes a task alone
 - Reports back: what was unclear?
 - Document the gaps
 
-Day 10: Feedback & Archive
+Day 10 - Feedback & Archive
 - Ask for feedback: "What was missing from the docs?"
 - Update Notion page with new information
 - Mark handoff as complete in database
 
-Google Sheets: Rapid Handoff Tracker
+Google Sheets - Rapid Handoff Tracker
 
 For teams that prefer simple spreadsheets:
 

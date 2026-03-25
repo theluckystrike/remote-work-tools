@@ -260,11 +260,11 @@ Select your review system based on team size and complexity:
 
 Common Pitfalls and Troubleshooting
 
-Low completion rates: If self-assessment completion drops below 80%, the review window is too short or reminders are insufficient. Shorten the self-assessment phase to 5 days and add a Slack reminder 72 hours before close in addition to the automated email.
+Low completion rates - If self-assessment completion drops below 80%, the review window is too short or reminders are insufficient. Shorten the self-assessment phase to 5 days and add a Slack reminder 72 hours before close in addition to the automated email.
 
 Calibration drift across locations: When managers in different offices rate similarly-performing employees differently, the calibration process is not structured enough. Add a forced ranking step where managers submit tentative ratings before the calibration call, making divergence visible before the meeting rather than during it.
 
-Peer feedback is generic: Vague questions ("Is this person a team player?") produce vague answers. Replace rating scales with specific behavioral prompts: "Describe one situation where this person's contribution unblocked a critical deliverable" produces more actionable data.
+Peer feedback is generic - Vague questions ("Is this person a team player?") produce vague answers. Replace rating scales with specific behavioral prompts: "Describe one situation where this person's contribution unblocked a critical deliverable" produces more actionable data.
 
 Tool adoption failure after launch: If employees are not engaging with the platform, the UX is likely too complex for infrequent use. Performance review tools are used 2-4 times per year; the interface must be self-explanatory without any training for casual users.
 

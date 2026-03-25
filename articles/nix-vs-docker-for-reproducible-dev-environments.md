@@ -158,7 +158,7 @@ Docker provides stronger isolation. Containers run independently of the host sys
 
 Nix provides finer-grained control over individual packages. You can have multiple Python versions coexisting without conflicts, each with its own isolated package set. This matters when working on projects with conflicting dependency requirements.
 
-Consider a practical scenario: your project requires Python 3.11 with Django 4.2, while another project needs Python 3.10 with Django 3.2. Docker solves this by running each project in its own container. Nix solves this by creating isolated environments for each project:
+Consider a practical scenario - your project requires Python 3.11 with Django 4.2, while another project needs Python 3.10 with Django 3.2. Docker solves this by running each project in its own container. Nix solves this by creating isolated environments for each project:
 
 ```bash
 Project A
@@ -220,7 +220,7 @@ This approach gives you Nix's reproducible builds inside Docker's portable conta
 
 Practical Decision Framework
 
-Start with Docker if your primary concern is environment parity across developer machines running different operating systems. The learning curve is gentler, and the ecosystem around Docker Compose handles most development scenarios.
+Start with Docker if your primary concern is environment parity across developer machines running different operating systems. The learning curve is gentler, and the environment around Docker Compose handles most development scenarios.
 
 Choose Nix if you need precise control over build tooling, work on projects with complex dependency constraints, or want to reproduce entire development environments including specific compiler and library versions.
 

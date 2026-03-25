@@ -28,7 +28,7 @@ Table of Contents
 - [Documentation Requirements](#documentation-requirements)
 - [Excess Advance Returns](#excess-advance-returns)
 - [Eligibility](#eligibility)
-- [Expense Categories: What Qualifies and What Doesn't](#expense-categories-what-qualifies-and-what-doesnt)
+- [Expense Categories - What Qualifies and What Doesn't](#expense-categories-what-qualifies-and-what-doesnt)
 - [Practical Implementation Examples](#practical-implementation-examples)
 - [Internet Reimbursement Calculation](#internet-reimbursement-calculation)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
@@ -54,7 +54,7 @@ Non-Accountable Plan (Taxable)
 
 If you don't require documentation or don't have a written policy meeting IRS standards, the entire stipend becomes taxable income. Employees must report it as wages, and you owe payroll taxes on the full amount.
 
-The difference is stark: a $500 monthly stipend under an accountable plan costs your employee $500 in take-home value. Under a non-accountable plan, after taxes, they might only see $350.
+The difference is stark - a $500 monthly stipend under an accountable plan costs your employee $500 in take-home value. Under a non-accountable plan, after taxes, they might only see $350.
 
 Why Accountable Plans Matter for Your Bottom Line
 
@@ -115,8 +115,8 @@ Define who qualifies and how the stipend scales:
 ```markdown
 Eligibility
 
-Full-time remote employees: $200/month
-Part-time remote employees: $100/month
+Full-time remote employees - $200/month
+Part-time remote employees - $100/month
 Hybrid employees (2+ days remote): $100/month
 
 New employees receive prorated amounts based on start date.
@@ -126,7 +126,7 @@ New employees receive prorated amounts based on start date.
 
 The IRS looks favorably on stipends tied to specific business purposes. Avoid vague "cost of living" payments. Instead, frame everything as business expense reimbursement.
 
-Expense Categories: What Qualifies and What Doesn't
+Expense Categories - What Qualifies and What Doesn't
 
 The IRS is specific about what qualifies as a deductible business expense for remote work. Here's the practical breakdown:
 
@@ -153,7 +153,7 @@ Clearly Disqualifying (Never Include):
 - Meals and coffee: even if consumed while working
 - Commute costs: parking, transit (remote employees shouldn't have these)
 
-The key test: Would this expense be deductible if incurred in a traditional office? If yes, it qualifies for remote work. If it's primarily for home comfort rather than business purpose, it doesn't qualify.
+The key test - Would this expense be deductible if incurred in a traditional office? If yes, it qualifies for remote work. If it's primarily for home comfort rather than business purpose, it doesn't qualify.
 
 Practical Implementation Examples
 
@@ -204,23 +204,23 @@ Standard Method
 
 Common Mistakes to Avoid
 
-Mistake 1: No Written Policy
+Mistake 1 - No Written Policy
 
 Without a documented policy, the IRS automatically treats stipends as taxable wages. This single oversight creates tax liability for employees and payroll tax burden for employers. The IRS looks for evidence that your stipend structure meets the three-pronged accountable plan test: business connection, substantiation, and excess return. A missing policy means you fail the first test immediately.
 
-Mistake 2: Vague Eligibility
+Mistake 2 - Vague Eligibility
 
 "Remote employees receive a stipend" is too vague. Specify amounts, eligibility windows, and documentation requirements. Ambiguity invites audit scrutiny. Your policy should state explicitly: who qualifies, which job categories are included, what percentage of remote work triggers eligibility, and whether contractors receive different treatment. For example, "Full-time remote employees working 100% from home receive $200/month. Hybrid employees working 2-3 days remote receive $100/month. Contractors are not eligible" is clear and defensible.
 
-Mistake 3: Allowing Cash Advances Without Reconciliation
+Mistake 3 - Allowing Cash Advances Without Reconciliation
 
 Accountable plans require returning excess advances. If you give employees $500/month and never ask for documentation or returns, you've created a non-accountable plan by default. Even if you intended to create compliant structure, the IRS doesn't care about intent, only actual practice. If employees routinely keep unused stipend balances without reconciliation, you've functionally created a taxable arrangement.
 
-Mistake 4: Mixing Personal and Business Expenses
+Mistake 4 - Mixing Personal and Business Expenses
 
 Encourage employees to maintain separate accounts or clearly track business percentages. When personal and business expenses commingle, the entire amount becomes taxable. This is why requiring employees to submit detailed expense reports (not just totals) matters. The detail shows business connection clearly.
 
-Mistake 5: Not Updating for Law Changes
+Mistake 5 - Not Updating for Law Changes
 
 Tax law around stipends evolves. The $1,200/year home office equipment allowance I mentioned has specific qualifications. Some states have additional rules. Auditing your policy annually ensures you remain compliant as laws change.
 
@@ -265,10 +265,10 @@ Sample Annual Rollout
 
 Start with equipment stipends, they're the easiest to document and defend. As you build comfort with the process, expand:
 
-Month 1-2: Launch equipment stipend program
-Month 3-4: Add internet reimbursement component
-Month 5-6: Expand to software and subscriptions
-Month 7+: Maintain and optimize based on employee feedback
+Month 1-2 - Launch equipment stipend program
+Month 3-4 - Add internet reimbursement component
+Month 5-6 - Expand to software and subscriptions
+Month 7+ - Maintain and optimize based on employee feedback
 
 This phased approach lets you perfect your processes before expanding scope.
 

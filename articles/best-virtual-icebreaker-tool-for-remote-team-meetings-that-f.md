@@ -26,9 +26,9 @@ Table of Contents
 - [Opening Question](#opening-question)
 - [Tools That Support Natural Icebreakers](#tools-that-support-natural-icebreakers)
 - [Quick Team Poll](#quick-team-poll)
-- [Running Effective Icebreakers: Practical Tips](#running-effective-icebreakers-practical-tips)
+- [Running Effective Icebreakers - Practical Tips](#running-effective-icebreakers-practical-tips)
 - [When to Skip the Icebreaker](#when-to-skip-the-icebreaker)
-- [Tool Comparison: Software Solutions](#tool-comparison-software-solutions)
+- [Tool Comparison - Software Solutions](#tool-comparison-software-solutions)
 - [Icebreaker Question Library](#icebreaker-question-library)
 - [Implementation by Meeting Type](#implementation-by-meeting-type)
 - [Weekly Sync Agenda](#weekly-sync-agenda)
@@ -68,9 +68,9 @@ Ask a question tied to the meeting's purpose. If you're having a planning meetin
 
 ```markdown
 Opening Question
-For planning meetings: "What's one project you're looking forward to working on?"
-For retrospectives: "What's one thing that went well this week?"
-For standups: "What's your biggest priority today?"
+For planning meetings - "What's one project you're looking forward to working on?"
+For retrospectives - "What's one thing that went well this week?"
+For standups - "What's your biggest priority today?"
 ```
 
 Tools That Support Natural Icebreakers
@@ -93,7 +93,7 @@ If your team uses Slite, Notion, or similar collaboration tools, create a quick 
 ```javascript
 // Example: Simple poll structure in your team wiki
 Quick Team Poll
-- Question: What's your coding environment setup?
+- Question - What's your coding environment setup?
 - Options:
   - Dual monitor
   - Single ultrawide
@@ -136,7 +136,7 @@ def post_daily_icebreaker():
 Run this function daily via cron or scheduled task
 ```
 
-Running Effective Icebreakers: Practical Tips
+Running Effective Icebreakers - Practical Tips
 
 Timing Matters
 
@@ -164,7 +164,7 @@ Not every meeting needs an icebreaker. Skip it when:
 
 Trust your instincts. An icebreaker should add energy, not feel like a box to check.
 
-Tool Comparison: Software Solutions
+Tool Comparison - Software Solutions
 
 Not every team needs software for icebreakers, but some tools remove friction. Here's comparison for different team sizes and preferences:
 
@@ -202,38 +202,38 @@ Pre-vetted questions that work across different team types. Rotate through these
 
 Technical Teams
 ```
-Week 1: "What's your most-used keyboard shortcut?"
-Week 2: "What's one tool you recently switched to or discovered?"
-Week 3: "How many monitors do you ideally work with and why?"
-Week 4: "What's a debugging technique that surprised you?"
-Week 5: "What's your preferred development environment setup?"
+Week 1 - "What's your most-used keyboard shortcut?"
+Week 2 - "What's one tool you recently switched to or discovered?"
+Week 3 - "How many monitors do you ideally work with and why?"
+Week 4 - "What's a debugging technique that surprised you?"
+Week 5 - "What's your preferred development environment setup?"
 ```
 
 Creative/Design Teams
 ```
-Week 1: "What's a design that surprised you recently?"
-Week 2: "What's your current aesthetic or design direction?"
-Week 3: "What's a design pattern you've seen everywhere?"
-Week 4: "What's something you sketched this week (even trivial)?"
-Week 5: "What design tool would you build if you could?"
+Week 1 - "What's a design that surprised you recently?"
+Week 2 - "What's your current aesthetic or design direction?"
+Week 3 - "What's a design pattern you've seen everywhere?"
+Week 4 - "What's something you sketched this week (even trivial)?"
+Week 5 - "What design tool would you build if you could?"
 ```
 
 Remote-First Teams (Any role)
 ```
-Week 1: "What's your view/setup where you work?"
-Week 2: "What's something you wear regularly for comfort?"
-Week 3: "What's a drink you always have during work?"
-Week 4: "What's one thing about remote work you'd never give up?"
-Week 5: "What's your ideal commute to work?"
+Week 1 - "What's your view/setup where you work?"
+Week 2 - "What's something you wear regularly for comfort?"
+Week 3 - "What's a drink you always have during work?"
+Week 4 - "What's one thing about remote work you'd never give up?"
+Week 5 - "What's your ideal commute to work?"
 ```
 
 Department-Agnostic (Always works)
 ```
-Week 1: "What's a small win from this week?"
-Week 2: "What's something you learned recently (any topic)?"
-Week 3: "What's on your to-do list that you're excited about?"
-Week 4: "What's something you're grateful for?"
-Week 5: "What's the last compliment you gave a colleague?"
+Week 1 - "What's a small win from this week?"
+Week 2 - "What's something you learned recently (any topic)?"
+Week 3 - "What's on your to-do list that you're excited about?"
+Week 4 - "What's something you're grateful for?"
+Week 5 - "What's the last compliment you gave a colleague?"
 ```
 
 Implementation by Meeting Type
@@ -246,10 +246,10 @@ Weekly Sync (8-12 people)
 
 ```markdown
 Weekly Sync Agenda
-Icebreaker (2 min): "One word describing your week"
+Icebreaker (2 min) - "One word describing your week"
 (Each person says one word, no explanation)
 
-Standup (15 min): Updates
+Standup (15 min) - Updates
 ...
 ```
 
@@ -280,7 +280,7 @@ All-Hands Meeting (20+ people)
 
 ```markdown
 1-on-1 Conversation Starters
-Instead of jumping to work: "How was your weekend?" or "What's something you're excited about this week?"
+Instead of jumping to work - "How was your weekend?" or "What's something you're excited about this week?"
 
 Keep it genuine. If they say "nothing," move forward.
 ```
@@ -293,9 +293,9 @@ Sprint Planning/Retro (team-specific)
 
 ```markdown
 Sprint Kick-off Icebreaker
-Question: "One thing you want to ship this sprint"
-Format: Everyone writes on a sticky note
-Display: Put all on Miro board, theme the week's energy
+Question - "One thing you want to ship this sprint"
+Format - Everyone writes on a sticky note
+Display - Put all on Miro board, theme the week's energy
 ```
 
 Building Your Team's Icebreaker Practice
@@ -304,12 +304,12 @@ The best approach is to experiment and iterate. Try different question types, ti
 
 4-Week Experiment Plan
 ```
-Week 1: Try 3 different questions, measure engagement
-Week 2: Pick the top 2, repeat them
-Week 3: Add 2 new questions, create rotation
-Week 4: Standardize your weekly question for this quarter
+Week 1 - Try 3 different questions, measure engagement
+Week 2 - Pick the top 2, repeat them
+Week 3 - Add 2 new questions, create rotation
+Week 4 - Standardize your weekly question for this quarter
 
-Measurement: Ask "Did the icebreaker help you feel ready?" in retrospective
+Measurement - Ask "Did the icebreaker help you feel ready?" in retrospective
 ```
 
 Signs Your Icebreaker Works
@@ -351,7 +351,7 @@ What We've Learned
 - Same 5 questions on rotation feels stale, refresh quarterly
 ```
 
-Remember: the goal isn't entertainment or forced vulnerability. It's creating a brief moment where everyone present feels seen and ready to contribute. That small investment pays dividends in meeting engagement and team cohesion.
+Remember - the goal isn't entertainment or forced vulnerability. It's creating a brief moment where everyone present feels seen and ready to contribute. That small investment pays dividends in meeting engagement and team cohesion.
 
 Start with something simple this week:
 1. Pick one question from the library above
@@ -371,7 +371,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -383,7 +383,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

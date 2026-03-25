@@ -34,9 +34,9 @@ Core Requirements for Hybrid Office Visitor Management
 
 Before implementing a solution, identify the fundamental capabilities your system needs. Hybrid office visitor management requires more than signing in visitors, it demands real-time tracking, integration with access control systems, and automated notifications.
 
-Real-time occupancy visibility: You need to know current headcount, who is present, and their location within the building. This requires connecting your visitor management system with access control logs, badge scans, and check-in data.
+Real-time occupancy visibility - You need to know current headcount, who is present, and their location within the building. This requires connecting your visitor management system with access control logs, badge scans, and check-in data.
 
-Pre-registration workflows: Visitors should be registered before arrival through calendar integrations or self-service portals. This reduces wait times and provides security teams advance notice.
+Pre-registration workflows - Visitors should be registered before arrival through calendar integrations or self-service portals. This reduces wait times and provides security teams advance notice.
 
 Automated check-in and check-out: Manual sign-in sheets are insufficient for hybrid offices. Implement QR code scanning, badge taps, or mobile app check-ins that automatically record arrival and departure times.
 
@@ -189,11 +189,11 @@ Commercial Solutions Worth Considering
 
 Several established platforms offer visitor management without requiring custom development:
 
-Envoy: Provides visitor registration, badge printing, and integrations with access control systems. Their API enables custom workflows, though pricing scales with visitor volume.
+Envoy - Provides visitor registration, badge printing, and integrations with access control systems. Their API enables custom workflows, though pricing scales with visitor volume.
 
-Proxyclick: Offers enterprise-grade features including watchlist screening and NDA management. Strong integration with Microsoft ecosystem makes it suitable for organizations using Microsoft 365.
+Proxyclick - Offers enterprise-grade features including watchlist screening and NDA management. Strong integration with Microsoft environment makes it suitable for organizations using Microsoft 365.
 
-Greet: Emphasizes touchless check-in with QR codes and mobile credentials. Provides real-time dashboards for occupancy tracking.
+Greet - Emphasizes touchless check-in with QR codes and mobile credentials. Provides real-time dashboards for occupancy tracking.
 
 When evaluating commercial solutions, prioritize API flexibility, your system will likely need custom integrations with internal tools that vendors cannot anticipate.
 
@@ -201,13 +201,13 @@ Security Considerations
 
 Visitor management systems handle sensitive personal data. Implement these security practices:
 
-Data encryption: Encrypt visitor data at rest and in transit. Visitor PII (personally identifiable information) should never be logged in plain text.
+Data encryption - Encrypt visitor data at rest and in transit. Visitor PII (personally identifiable information) should never be logged in plain text.
 
-Retention policies: Automatically purge visitor records after a defined period (typically 90 days) unless legally required to retain longer.
+Retention policies - Automatically purge visitor records after a defined period (typically 90 days) unless legally required to retain longer.
 
-Access logging: Maintain audit trails of all system access, including who checked in visitors and when badge assignments changed.
+Access logging - Maintain audit trails of all system access, including who checked in visitors and when badge assignments changed.
 
-Badge voiding: Implement automated processes to void badges when visitors fail to check out, preventing orphaned access credentials.
+Badge voiding - Implement automated processes to void badges when visitors fail to check out, preventing orphaned access credentials.
 
 Practical Implementation Checklist
 

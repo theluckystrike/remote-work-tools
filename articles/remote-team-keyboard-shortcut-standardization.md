@@ -168,7 +168,7 @@ For teams using tmux, standardize the config:
 TEAM STANDARD KEYBINDINGS
 ========================
 
-Prefix: Ctrl+A (more ergonomic than Ctrl+B)
+Prefix - Ctrl+A (more ergonomic than Ctrl+B)
 set -g prefix C-a
 unbind C-b
 bind C-a send-prefix

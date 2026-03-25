@@ -26,7 +26,7 @@ Table of Contents
 - [Making the Tradeoffs](#making-the-tradeoffs)
 - [Maintenance and Longevity](#maintenance-and-longevity)
 - [Specific Product Recommendations with Real Pricing](#specific-product-recommendations-with-real-pricing)
-- [Comparison Table: Kitchen Table Stands](#comparison-table-kitchen-table-stands)
+- [Comparison Table - Kitchen Table Stands](#comparison-table-kitchen-table-stands)
 - [Ergonomic Specifications Deep Dive](#ergonomic-specifications-deep detailed look)
 - [Kitchen-Specific Installation Considerations](#kitchen-specific-installation-considerations)
 - [Multi-Child Household Positioning Strategy](#multi-child-household-positioning-strategy)
@@ -152,7 +152,7 @@ Specific Product Recommendations with Real Pricing
 
 Based on parent feedback and testing in kitchen table environments:
 
-Best Overall: Rain Design mStand
+Best Overall - Rain Design mStand
 - Price: $35-45
 - Weight: 1.5 lbs
 - Adjustment: Fixed at 7 angles (0, 5, 10, 15, 20, 25, 30 degrees)
@@ -160,7 +160,7 @@ Best Overall: Rain Design mStand
 - Best for: Parents wanting simplicity without adjustment controls
 - Limitation: Fixed angles mean less customization but zero setup complexity
 
-Best Adjustable: Roost Stand v3
+Best Adjustable - Roost Stand v3
 - Price: $50-60
 - Weight: 0.85 lbs (aluminum, extremely light)
 - Adjustment: Continuous adjustment from 0-40 degrees, up to 15" height
@@ -168,7 +168,7 @@ Best Adjustable: Roost Stand v3
 - Best for: Parents needing flexible height adjustment, small storage spaces
 - Limitation: Somewhat more delicate than metal-heavy stands
 
-Best Budget: AmazonBasics Portable Laptop Stand
+Best Budget - AmazonBasics Portable Laptop Stand
 - Price: $15-25
 - Weight: 1.8 lbs
 - Adjustment: Fixed positions (6-9 inches height)
@@ -176,7 +176,7 @@ Best Budget: AmazonBasics Portable Laptop Stand
 - Best for: Occasional kitchen table work, budget-conscious parents
 - Limitation: Less stable in aggressive household, adjustment limited
 
-Best Stability: BOX Aluminum Laptop Stand
+Best Stability - BOX Aluminum Laptop Stand
 - Price: $40-50
 - Weight: 2.2 lbs
 - Adjustment: Tool-free height adjustment via sliding mechanism
@@ -184,7 +184,7 @@ Best Stability: BOX Aluminum Laptop Stand
 - Best for: Homes with frequent table bumping (active toddlers)
 - Limitation: Heaviest option, storage requires larger space
 
-Best for Supervision: 360 Degree Stand (AmazonBasics rotating model)
+Best for Supervision - 360 Degree Stand (AmazonBasics rotating model)
 - Price: $25-35
 - Weight: 1.9 lbs
 - Adjustment: 360-degree rotation, 6-inch height
@@ -192,7 +192,7 @@ Best for Supervision: 360 Degree Stand (AmazonBasics rotating model)
 - Best for: Parents needing to rotate laptop to face different directions
 - Limitation: Fixed height, rotation mechanism adds complexity
 
-Comparison Table: Kitchen Table Stands
+Comparison Table - Kitchen Table Stands
 
 | Stand | Price | Weight | Setup Time | Adjustability | Stability | Lifespan |
 |-------|-------|--------|-----------|---------------|-----------|----------|
@@ -266,7 +266,7 @@ Typical space available during work:
 - Usable keyboard space: 6-10 inches
 - Cup/water bottle: 3-4 inches
 
-Total required width: 27-37 inches. This leaves 9-21 inches of table visible for meals. Plan accordingly. Some parents keep their laptop stand permanently on a side table, moving just the laptop to the kitchen table for work sessions.
+Total required width - 27-37 inches. This leaves 9-21 inches of table visible for meals. Plan accordingly. Some parents keep their laptop stand permanently on a side table, moving just the laptop to the kitchen table for work sessions.
 
 Cable Management in Kitchen Environments
 Kitchen work creates unique cable chaos:

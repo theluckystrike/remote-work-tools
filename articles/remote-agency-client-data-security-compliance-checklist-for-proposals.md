@@ -119,12 +119,12 @@ Key elements to include:
 
 ```bash
 Incident Response Timeline
-T+0: Detection - automated alerts trigger
-T+15min: Initial assessment completed
-T+1hr: Client notification sent
-T+4hr: Containment measures implemented
-T+24hr: Full incident report delivered
-T+72hr: Post-incident review scheduled
+T+0 - Detection - automated alerts trigger
+T+15min - Initial assessment completed
+T+1hr - Client notification sent
+T+4hr - Containment measures implemented
+T+24hr - Full incident report delivered
+T+72hr - Post-incident review scheduled
 ```
 
 5. Compliance Framework Alignment

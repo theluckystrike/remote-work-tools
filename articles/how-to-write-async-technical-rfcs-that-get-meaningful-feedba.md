@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Core Problem with Most Technical RFCs
+Step 1 - The Core Problem with Most Technical RFCs
 
 Most RFCs fail not because the ideas are bad, but because the document itself is difficult to engage with. A typical problematic RFC might say:
 
@@ -38,11 +38,11 @@ This statement leaves reviewers with no context, no data, and no clear way to re
 
 Instead, your RFC should frame every claim with evidence, every decision with context, and every recommendation with clear alternatives considered. The goal is to make reviewing your proposal the easiest path for busy engineers.
 
-Step 2: Structuring Your RFC for Async Review
+Step 2 - Structuring Your RFC for Async Review
 
 An effective technical RFC follows a consistent structure that reviewers can quickly navigate. Use these sections in order:
 
-Step 3: Writing Techniques That Generate Better Feedback
+Step 3 - Writing Techniques That Generate Better Feedback
 
 Use Concrete Examples
 
@@ -80,7 +80,7 @@ Define what "success" looks like for your proposal:
 
 Concrete metrics give reviewers something concrete to evaluate against.
 
-Step 4: Manage the Async Review Process
+Step 4 - Manage the Async Review Process
 
 Writing a great RFC is only half the battle, you also need to manage the review process effectively.
 
@@ -104,7 +104,7 @@ Some feedback requires back-and-forth. Plan for this from the start by:
 - Creating a living document where you can incorporate feedback
 - Scheduling an optional sync call if the discussion gets complex
 
-Step 5: Common Async RFC Mistakes to Avoid
+Step 5 - Common Async RFC Mistakes to Avoid
 
 The Wall of Text
 
@@ -128,40 +128,40 @@ Forgetting the "Why"
 
 The most common failure mode is explaining what you want to do without explaining why this is the right thing to do. Every technical decision should connect back to business goals, user needs, or engineering constraints.
 
-Step 6: Example RFC Template
+Step 6 - Example RFC Template
 
 Here's a practical template you can adapt:
 
 ```markdown
-RFC: [Short Title]
+RFC - [Short Title]
 
-Step 7: Motivation
+Step 7 - Motivation
 [Specific problem this solves, with concrete examples]
 
-Step 8: Proposed Solution
+Step 8 - Proposed Solution
 [Detailed technical approach with code examples]
 
-Step 9: Alternatives
+Step 9 - Alternatives
 - Option A: [description]. Rejected because [reason]
 - Option B: [description]. Rejected because [reason]
 
-Step 10: Open Questions
+Step 10 - Open Questions
 - [Specific question for reviewers]
 - [Another area needing input]
 
-Step 11: Success Criteria
+Step 11 - Success Criteria
 - [Measurable outcome 1]
 - [Measurable outcome 2]
 
-Step 12: Timeline
+Step 12 - Timeline
 - Week 1: [milestone]
 - Week 2: [milestone]
 
-Step 13: Feedback Requested By
+Step 13 - Feedback Requested By
 [Date and tagged reviewers]
 ```
 
-Step 14: Slack Automation with Workflows and Webhooks
+Step 14 - Slack Automation with Workflows and Webhooks
 
 Automating Slack notifications reduces manual status updates and keeps teams synchronized without extra meetings.
 
@@ -205,7 +205,7 @@ Schedule via cron:
 
 Webhooks are simpler than bot tokens for one-way notifications. Use Slack's Block Kit Builder (api.slack.com/block-kit/building) to design rich message layouts.
 
-Step 15: Slack Search Operators for Remote Teams
+Step 15 - Slack Search Operators for Remote Teams
 
 Advanced search operators cut through Slack noise to find decisions, files, and context quickly.
 
@@ -220,7 +220,7 @@ Slack CLI for programmatic search (requires Slack CLI installed):
 slack search messages --query "from:@alice deployment" --channel engineering
 
 Export search results via API:
-curl -s "https://slack.com/api/search.messages"   -H "Authorization: Bearer xoxp-YOUR-TOKEN"   --data-urlencode "query=deployment hotfix in:#engineering"   --data-urlencode "count=20" | python3 -m json.tool | grep -A3 '"text"'
+curl -s "https://slack.com/api/search.messages"   -H "Authorization - Bearer xoxp-YOUR-TOKEN"   --data-urlencode "query=deployment hotfix in:#engineering"   --data-urlencode "count=20" | python3 -m json.tool | grep -A3 '"text"'
 ```
 
 Bookmark searches you run repeatedly as saved searches in the Slack sidebar. This is faster than rebuilding the query each time for recurring audit needs.

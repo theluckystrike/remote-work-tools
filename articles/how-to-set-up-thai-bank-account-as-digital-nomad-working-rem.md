@@ -28,7 +28,7 @@ Table of Contents
 - [Maximizing Your Thai Banking Experience](#maximizing-your-thai-banking-experience)
 - [Thai Bank Selection Comparison](#thai-bank-selection-comparison)
 - [First 30-Day Financial Setup Priorities](#first-30-day-financial-setup-priorities)
-- [Visa Requirements and Banking: Integration Points](#visa-requirements-and-banking-integration-points)
+- [Visa Requirements and Banking - Integration Points](#visa-requirements-and-banking-integration-points)
 - [Tax Filing Considerations for Remote Developers](#tax-filing-considerations-for-remote-developers)
 
 Understanding Thai Banking Requirements for Foreigners
@@ -53,7 +53,7 @@ Some banks may also request:
 
 Step-by-Step Process
 
-Step 1: Choose Your Bank
+Step 1 - Choose Your Bank
 
 For digital nomads, SCB (Siam Commercial Bank) and Krungsri offer excellent mobile banking apps with English language support. KBANK is also popular among expatriates.
 
@@ -63,13 +63,13 @@ Consider these factors when selecting:
 - ATM network coverage
 - Customer service availability in English
 
-Step 2: Visit the Bank Branch
+Step 2 - Visit the Bank Branch
 
 Schedule a visit to your chosen bank branch. Here's a practical tip: visit branches in tourist-heavy areas like Sukhumvit in Bangkok or near Patong in Phuket. These branches are more experienced with foreign clients and often have English-speaking staff.
 
 Bring all your documents and be prepared to fill out forms in Thai (staff will assist you).
 
-Step 3: Complete the Application
+Step 3 - Complete the Application
 
 The bank representative will guide you through:
 
@@ -131,15 +131,15 @@ Thai ATMs charge 150-220 THB per withdrawal for foreign cards. To minimize fees:
 
 Common Challenges and Solutions
 
-Challenge 1: No Thai Address
+Challenge 1 - No Thai Address
 
 If you're staying in hotels or hostels, request a letter from your accommodation confirming your stay. Most hotels provide this free of charge for guests.
 
-Challenge 2: Language Barriers
+Challenge 2 - Language Barriers
 
 Download the bank's mobile app before your branch visit. SCB and KBANK have excellent English interfaces, and having the app set up demonstrates your capability to manage the account.
 
-Challenge 3: Initial Deposit Requirements
+Challenge 3 - Initial Deposit Requirements
 
 If you're arriving with minimal funds, some banks allow initial deposits as low as 300 THB. Call ahead to confirm current requirements.
 
@@ -152,7 +152,7 @@ Once your account is active, set up these features:
 3. FD (Fixed Deposit), Some banks offer higher interest rates for FD accounts
 4. Cross-border payments, Link your account to Wise for international transfers
 
-For developers working remotely, integrating banking APIs can automate invoice payments and expense tracking. Thailand's banking API ecosystem is growing, with services like PromptPay enabling instant fund transfers between Thai bank accounts.
+For developers working remotely, integrating banking APIs can automate invoice payments and expense tracking. Thailand's banking API environment is growing, with services like PromptPay enabling instant fund transfers between Thai bank accounts.
 
 Thai Bank Selection Comparison
 
@@ -200,15 +200,15 @@ Days 11-30:
 - Explore Promptpay for peer-to-peer transfers within Thailand
 - Open supplementary savings account for interest income (2-3% rates available)
 
-Visa Requirements and Banking: Integration Points
+Visa Requirements and Banking - Integration Points
 
 Opening a Thai bank account doesn't require a long-term visa, but certain visa types offer advantages:
 
-Elite Visa (10+ year residency): Opens fastest with banks, preferential interest rates
+Elite Visa (10+ year residency) - Opens fastest with banks, preferential interest rates
 Education Visa (extension-based): Requires proof of study, full account access available
-Non-Immigrant B Visa (business): Most common for remote workers, enables account opening
-Tourist Visa: Bank accounts possible but with limitations; may require minimum balance higher than resident requirement
-Visa Exempt Entry: Same-day account opening not always possible; visit tourist-friendly branches
+Non-Immigrant B Visa (business) - Most common for remote workers, enables account opening
+Tourist Visa - Bank accounts possible but with limitations; may require minimum balance higher than resident requirement
+Visa Exempt Entry - Same-day account opening not always possible; visit tourist-friendly branches
 
 Digital nomads on tourist visas or visa exemptions should expect to visit branches in Chiang Mai, Bangkok, or Phuket where staff are experienced with foreigners. Interior branches sometimes refuse accounts to non-residents.
 

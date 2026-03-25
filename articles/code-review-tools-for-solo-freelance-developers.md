@@ -29,7 +29,7 @@ Table of Contents
 - [Building Professional Habits](#building-professional-habits)
 - [Setting Up Your First Code Review Pipeline](#setting-up-your-first-code-review-pipeline)
 - [Code Quality Metrics You Should Track](#code-quality-metrics-you-should-track)
-- [Client Communication: How to Explain Code Quality Work](#client-communication-how-to-explain-code-quality-work)
+- [Client Communication - How to Explain Code Quality Work](#client-communication-how-to-explain-code-quality-work)
 - [Common Pitfalls for Solo Developers](#common-pitfalls-for-solo-developers)
 - [Building a Code Review Culture (Even Solo)](#building-a-code-review-culture-even-solo)
 - [When to Invest More](#when-to-invest-more)
@@ -202,13 +202,13 @@ Setting Up Your First Code Review Pipeline
 
 Here's a step-by-step implementation for a JavaScript/TypeScript project:
 
-Step 1: Install dependencies (5 minutes)
+Step 1 - Install dependencies (5 minutes)
 ```bash
 npm install --save-dev eslint prettier eslint-config-prettier husky lint-staged
 npx husky install
 ```
 
-Step 2: Configure ESLint (.eslintrc.json)
+Step 2 - Configure ESLint (.eslintrc.json)
 ```json
 {
   "extends": ["eslint:recommended", "prettier"],
@@ -228,7 +228,7 @@ Step 2: Configure ESLint (.eslintrc.json)
 }
 ```
 
-Step 3: Configure Prettier (.prettierrc)
+Step 3 - Configure Prettier (.prettierrc)
 ```json
 {
   "semi": true,
@@ -238,12 +238,12 @@ Step 3: Configure Prettier (.prettierrc)
 }
 ```
 
-Step 4: Add pre-commit hook
+Step 4 - Add pre-commit hook
 ```bash
 npx husky add .husky/pre-commit "npx lint-staged"
 ```
 
-Step 5: Configure lint-staged (.lintstagedrc.json)
+Step 5 - Configure lint-staged (.lintstagedrc.json)
 ```json
 {
   "*.{js,ts}": "eslint --fix",
@@ -331,7 +331,7 @@ print(tracker.trend_report())
 
 Run this weekly to see whether your code quality is improving or degrading.
 
-Client Communication: How to Explain Code Quality Work
+Client Communication - How to Explain Code Quality Work
 
 Clients don't see linters or pre-commit hooks. They see bills. Here's how to communicate the value:
 
@@ -348,35 +348,35 @@ Clients appreciate professionalism. Demonstrating code quality separates you fro
 
 Common Pitfalls for Solo Developers
 
-Pitfall 1: Endless tool configuration
+Pitfall 1 - Endless tool configuration
 Solo developers often spend weeks perfecting ESLint configuration that adds marginal value. Stop at good enough. You can refine tools after shipping.
 
-Pitfall 2: Over-optimization on small projects
+Pitfall 2 - Over-optimization on small projects
 A 3-page website doesn't need enterprise code review infrastructure. Match tooling to project scope. A simple Prettier pass on commit is probably sufficient.
 
-Pitfall 3: Skipping testing because you're alone
+Pitfall 3 - Skipping testing because you're alone
 "It works on my machine" is the solo developer's trap. Write tests. They save you from refactoring horror and prove to clients that code works.
 
-Pitfall 4: Never revisiting old code
+Pitfall 4 - Never revisiting old code
 If you're not revisiting and improving old projects, code quality doesn't improve. Schedule 1 hour per month to improve one old project, run your quality tools, fix violations, refactor poorly written sections.
 
-Pitfall 5: Tools become busywork
+Pitfall 5 - Tools become busywork
 Don't run 10 different analysis tools on every commit. Pick 3-4 that provide real value, configure them once, then ignore them unless they fail. Tools should be invisible infrastructure, not visible overhead.
 
 Building a Code Review Culture (Even Solo)
 
 Create regular rhythms around quality:
 
-Weekly review: Every Friday, spend 30 minutes reviewing code you wrote this week. Ask:
+Weekly review - Every Friday, spend 30 minutes reviewing code you wrote this week. Ask:
 - Is there anything I'm ashamed of?
 - What would I change if I revisited this?
 - Am I repeating patterns I could abstract?
 
-Monthly refactoring: Spend 2 hours per month improving one area of an old project.
+Monthly refactoring - Spend 2 hours per month improving one area of an old project.
 
-Quarterly audit: Run your full tool suite on everything. Let results sit for a few days. Come back and address top 5 violations.
+Quarterly audit - Run your full tool suite on everything. Let results sit for a few days. Come back and address top 5 violations.
 
-Annual reflection: Review code from a year ago. You'll notice improvement, which is motivating.
+Annual reflection - Review code from a year ago. You'll notice improvement, which is motivating.
 
 These practices ensure code quality is a discipline, not an afterthought.
 
@@ -408,7 +408,7 @@ Over 6 months:
 - Time investment in setup: 6 hours
 - Ongoing maintenance: <1 hour/month
 
-ROI: 333x-666x
+ROI - 333x-666x
 
 This isn't unique. Code quality tooling for solo developers almost always pays for itself through reduced bugs and faster delivery.
 

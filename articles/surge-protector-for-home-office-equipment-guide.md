@@ -27,10 +27,10 @@ Table of Contents
 - [Choosing the Right Configuration](#choosing-the-right-configuration)
 - [Maintenance and Replacement](#maintenance-and-replacement)
 - [Specific Surge Protector Product Recommendations (2026)](#specific-surge-protector-product-recommendations-2026)
-- [Testing Your Surge Protector: How to Know If It's Working](#testing-your-surge-protector-how-to-know-if-its-working)
+- [Testing Your Surge Protector - How to Know If It's Working](#testing-your-surge-protector-how-to-know-if-its-working)
 - [When Power Issues Are NOT Surge Protector Problems](#when-power-issues-are-not-surge-protector-problems)
 - [Calculating Actual Power Needs (Watts and Amps)](#calculating-actual-power-needs-watts-and-amps)
-- [Documentation: Track Your Surge Protection Setup](#documentation-track-your-surge-protection-setup)
+- [Documentation - Track Your Surge Protection Setup](#documentation-track-your-surge-protection-setup)
 - [Surge Protector 1](#surge-protector-1)
 - [Surge Protector 2](#surge-protector-2)
 - [Network Protection](#network-protection)
@@ -105,7 +105,7 @@ echo "Total wattage: $TOTAL_WATTS W"
 echo "At 120V: $((TOTAL_WATTS / 120)) A"
 ```
 
-Advanced: Whole-Office Protection
+Advanced - Whole-Office Protection
 
 For more protection, consider installing a whole-house surge protector at your electrical panel. These units protect everything in your home from the main power line, catching surges before they enter your building wiring. They're typically installed by an electrician and cost $200-500 including installation.
 
@@ -188,9 +188,9 @@ Most surge protectors include a status light indicating whether protection is ac
 Recommended replacement schedule
 Based on typical usage and surge frequency
 
-Standard environment: Replace every 3-5 years
-High-surge area: Replace every 1-2 years
-After major event: Always replace point-of-use units
+Standard environment - Replace every 3-5 years
+High-surge area - Replace every 1-2 years
+After major event - Always replace point-of-use units
 ```
 
 Specific Surge Protector Product Recommendations (2026)
@@ -222,9 +222,9 @@ UPS + Surge Protection Combo ($200-500)
 - CyberPower CP1500AVRLCD: $250-300, 1500VA capacity, sine wave output
 - Belkin UPS 1000VA: $200-250, entry-level UPS with integrated surge protection
 
-Reality Check: Don't overthink this. A $40-50 surge protector with 2500-3000 joules protects 95% of home office setups adequately. The $80-100 premium options add marginal benefit unless you have particularly valuable or sensitive equipment.
+Reality Check - Don't overthink this. A $40-50 surge protector with 2500-3000 joules protects 95% of home office setups adequately. The $80-100 premium options add marginal benefit unless you have particularly valuable or sensitive equipment.
 
-Testing Your Surge Protector: How to Know If It's Working
+Testing Your Surge Protector - How to Know If It's Working
 
 Surge protectors degrade silently. Regular testing helps:
 
@@ -237,25 +237,25 @@ you can verify basic functionality
 echo "Surge Protector Health Check"
 echo "=============================="
 
-Test 1: Outlet voltage (requires multimeter)
-Normal US voltage: 115-125V
+Test 1 - Outlet voltage (requires multimeter)
+Normal US voltage - 115-125V
 echo "Step 1: Using multimeter, test outlet voltage"
 echo "Expected: 115-125V"
 echo ""
 
-Test 2: Status light check
+Test 2 - Status light check
 echo "Step 2: Check status light on surge protector"
 echo "Green/lit = Protection active"
 echo "Red/off = Protection has failed, replace immediately"
 echo ""
 
-Test 3: Plug load test
+Test 3 - Plug load test
 Plug in a lamp and verify power
 echo "Step 3: Plug in test lamp"
 echo "Lamp should turn on immediately, no flickering"
 echo ""
 
-Test 4: Age check
+Test 4 - Age check
 echo "Step 4: Check purchase date (look on device or receipt)"
 echo "If older than 5 years and heavy use: replacement recommended"
 echo ""
@@ -335,21 +335,21 @@ calc.add_device('Phone Charger', 15)
 print(f"Simultaneous load: {calc.calculate_simultaneous_load()}W")
 print(f"Standby load: {calc.calculate_standby_load()}W")
 print(f"Safety margin: {calc.calculate_outlet_safety_margin()}")
-Output: 237W simultaneous, well under 1440W limit
+Output - 237W simultaneous, well under 1440W limit
 Your setup is safe on a single outlet with surge protection
 ```
 
 Most home office setups draw 150-300W simultaneously, well under a single circuit capacity. Multiple surge protectors on the same circuit is more about organization than necessity.
 
-Documentation: Track Your Surge Protection Setup
+Documentation - Track Your Surge Protection Setup
 
 Keep a record of what's protected where:
 
 ```markdown
 Home Office Surge Protection Setup
 
-Installed: [Date]
-Last Replaced: [Date]
+Installed - [Date]
+Last Replaced - [Date]
 
 Surge Protector 1
 - Location: Under desk, right side

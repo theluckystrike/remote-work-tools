@@ -31,7 +31,7 @@ Async decision tools capture intent, document rationale, and let people think be
 Decision-Making Patterns
 
 RFC (Request for Comments) Model
-Best for: Major decisions (architecture, hiring, product changes)
+Best for - Major decisions (architecture, hiring, product changes)
 
 Workflow:
 1. Author writes RFC doc with context, options, and proposed decision
@@ -39,28 +39,28 @@ Workflow:
 3. Author integrates feedback
 4. Final decision with explicit approval/rejection reasoning
 
-Tools that enable this: Google Docs (free), Notion ($8/user/month), Slite ($240/year), Confluence (Jira Cloud)
+Tools that enable this - Google Docs (free), Notion ($8/user/month), Slite ($240/year), Confluence (Jira Cloud)
 
-Decision quality: High. Forcing writing improves clarity. Feedback loop captures mistakes before implementation.
+Decision quality - High. Forcing writing improves clarity. Feedback loop captures mistakes before implementation.
 
-Time cost: 4-6 hours (including feedback integration)
+Time cost - 4-6 hours (including feedback integration)
 
 Async Voting + Thumbs-Up/Down
-Best for: Quick decisions (tool choice, meeting time, feature priority)
+Best for - Quick decisions (tool choice, meeting time, feature priority)
 
 Workflow:
 1. Decision maker posts options in Slack/Discord/Threads
 2. 24 hours for reactions ( / )
 3. Tally votes, decide by plurality or weighted voting
 
-Tools: Slack polls (free), Polly ($10/month), Mentimeter ($600/year), Slido ($300/month)
+Tools - Slack polls (free), Polly ($10/month), Mentimeter ($600/year), Slido ($300/month)
 
-Decision quality: Low for complex issues, high for preference-based decisions.
+Decision quality - Low for complex issues, high for preference-based decisions.
 
-Time cost: 15 minutes
+Time cost - 15 minutes
 
 Decision Matrix (Scored Evaluation)
-Best for: Comparing 3+ options (vendor selection, tech choices, hire rankings)
+Best for - Comparing 3+ options (vendor selection, tech choices, hire rankings)
 
 Workflow:
 1. Author lists criteria (cost, team fit, learning curve, vendor stability)
@@ -68,17 +68,17 @@ Workflow:
 3. Team scores each option per criterion (1-5)
 4. Sum weighted scores, select highest
 
-Tools: Google Sheets (free), Airtable ($200/month), Notion (included)
+Tools - Google Sheets (free), Airtable ($200/month), Notion (included)
 
-Decision quality: High. Quantitative framework eliminates bias.
+Decision quality - High. Quantitative framework eliminates bias.
 
-Time cost: 2-4 hours (setup + scoring)
+Time cost - 2-4 hours (setup + scoring)
 
 Tools Comparison
 
 Notion
-Price: Free (basic), $8/user/month (Team)
-Best for: RFC documents, multi-format decisions
+Price - Free (basic), $8/user/month (Team)
+Best for - RFC documents, multi-format decisions
 
 Strengths:
 - Database view: Create table of decisions with status (proposed, approved, rejected)
@@ -97,11 +97,11 @@ Workflow:
 3. Set status field (Proposed → Feedback → Approved)
 4. Comments auto-notify team
 
-Cost analysis: $8/user/month × 20 people = $160/month. Justified for large teams, overkill for 5-person startups.
+Cost analysis - $8/user/month × 20 people = $160/month. Justified for large teams, overkill for 5-person startups.
 
 Google Docs + Google Sheets
-Price: Free (Google Workspace free tier), $6/user/month (Business)
-Best for: RFC + decision matrix combined
+Price - Free (Google Workspace free tier), $6/user/month (Business)
+Best for - RFC + decision matrix combined
 
 Strengths:
 - Comment threads with @mentions
@@ -120,11 +120,11 @@ Workflow:
 3. Use Sheets for decision matrices (easy scoring)
 4. Link to both in team wiki
 
-Cost analysis: Free for most teams, $6/month for some storage/features. Lowest cost, acceptable quality.
+Cost analysis - Free for most teams, $6/month for some storage/features. Lowest cost, acceptable quality.
 
 Slite
-Price: $240/year per workspace
-Best for: Knowledge base + async decisions combined
+Price - $240/year per workspace
+Best for - Knowledge base + async decisions combined
 
 Strengths:
 - Native voting blocks (poll/survey)
@@ -143,11 +143,11 @@ Workflow:
 3. 48-hour vote window
 4. Auto-publish decision with outcome
 
-Cost analysis: $240/year ÷ 12 = $20/month baseline. Fair for 10+ person teams.
+Cost analysis - $240/year ÷ 12 = $20/month baseline. Fair for 10+ person teams.
 
 Slack Threads + Reactions
-Price: Free (Slack, up to 90-day history)
-Best for: Quick decisions under 24 hours
+Price - Free (Slack, up to 90-day history)
+Best for - Quick decisions under 24 hours
 
 Strengths:
 - Lowest friction (already where team lives)
@@ -165,11 +165,11 @@ Workflow:
 3. After 24h, post tally
 4. Pin to channel, link in team wiki
 
-Cost analysis: Free if you're on Slack anyway. Best ROI for quick decisions.
+Cost analysis - Free if you're on Slack anyway. Best ROI for quick decisions.
 
 Loom + Async Video
-Price: Free (basic), $15/month (Pro)
-Best for: Complex decisions needing context (architecture reviews, product strategy)
+Price - Free (basic), $15/month (Pro)
+Best for - Complex decisions needing context (architecture reviews, product strategy)
 
 Strengths:
 - Record 5-min explanation of decision + options
@@ -187,11 +187,11 @@ Workflow:
 3. Team watches async, comments with concerns
 4. Author responds with Q&A video
 
-Cost analysis: $15/month (Pro) for unlimited recordings. Worth it for 2-3 decisions/week.
+Cost analysis - $15/month (Pro) for unlimited recordings. Worth it for 2-3 decisions/week.
 
 Decision Matrix for Tool Selection
 
-Criteria weights: Team size (20%), decision frequency (20%), async timeline (15%), document lifespan (15%), ease of use (15%), cost (15%)
+Criteria weights - Team size (20%), decision frequency (20%), async timeline (15%), document lifespan (15%), ease of use (15%), cost (15%)
 
 | Tool | Team Size Fit | Frequency | Timeline | Lifespan | Ease | Cost | Score |
 |------|---|---|---|---|---|---|---|
@@ -205,12 +205,12 @@ Use Google Docs + Slack Threads + Loom three-tier stack. Google Docs for RFCs (p
 
 Real-World Decision Examples
 
-Architecture Decision: Monolith vs Microservices
+Architecture Decision - Monolith vs Microservices
 
-Setup: RFC in Google Docs, 48-hour feedback window
+Setup - RFC in Google Docs, 48-hour feedback window
 
 Document structure:
-1. Context: Team size (8), deployment frequency (3x/day), SLA (99.9%)
+1. Context - Team size (8), deployment frequency (3x/day), SLA (99.9%)
 2. Options:
    - Monolith (Node.js, single deploy): 2-week setup, faster onboarding
    - Microservices (Kubernetes): 8-week setup, independent scaling
@@ -219,35 +219,35 @@ Document structure:
    - Operational burden: Monolith 4/5, Microservices 2/5
    - Team growth friction: Monolith 2/5, Microservices 4/5
 
-Feedback integration: Backend lead worried about deploy lock (monolith bottleneck). Added constraint: "max 5-minute deploys before escalating to microservices."
+Feedback integration - Backend lead worried about deploy lock (monolith bottleneck). Added constraint: "max 5-minute deploys before escalating to microservices."
 
-Decision: Monolith for 2 years, revisit when team reaches 15 engineers.
+Decision - Monolith for 2 years, revisit when team reaches 15 engineers.
 
-Record: Linked in wiki with rationale, constraints, and review date (2 years from now).
+Record - Linked in wiki with rationale, constraints, and review date (2 years from now).
 
-Tech Stack Vote: TypeScript vs Go
+Tech Stack Vote - TypeScript vs Go
 
-Setup: Slack poll, 24-hour reaction vote
+Setup - Slack poll, 24-hour reaction vote
 
 Options:
 - TypeScript (type safety, faster iteration)
 - Go (performance, simpler deployments)
 - Stay on Python (learning debt)
 
-Vote results: TS 8, Go 5, Python 2
+Vote results - TS 8, Go 5, Python 2
 
 Async feedback (Slack thread over 24h):
 - "TS is slower for startup code" (Go advocate)
 - "TS has better AWS SDK tooling" (AWS ops)
 - "Either beats Python if we want serious ops" (consensus)
 
-Decision: TypeScript, with Go for one critical backend service.
+Decision - TypeScript, with Go for one critical backend service.
 
-Record: Slack message pinned, context linked in #decisions database.
+Record - Slack message pinned, context linked in #decisions database.
 
-Hiring Decision: Rank Three Candidates
+Hiring Decision - Rank Three Candidates
 
-Setup: Decision matrix in Google Sheets, scores by team (engineering, product, operations)
+Setup - Decision matrix in Google Sheets, scores by team (engineering, product, operations)
 
 Scoring:
 - Technical: 30%
@@ -265,37 +265,37 @@ Async feedback (Google Sheets comments):
 - Product noted: "B's communication is critical for feature discussions"
 - Engineering proposed: "Hire both A and B if budget allows"
 
-Decision: Hire A (technical), hire B (communication). Skip C due to culture fit concerns.
+Decision - Hire A (technical), hire B (communication). Skip C due to culture fit concerns.
 
-Record: Sheets linked in hiring board, with review date (6 months post-hire for performance check).
+Record - Sheets linked in hiring board, with review date (6 months post-hire for performance check).
 
 Async Decision Antipatterns
 
-Anti-pattern 1: No Feedback Deadline
+Anti-pattern 1 - No Feedback Deadline
 
-Wrong: "Please give feedback whenever you want"
-Right: "Feedback deadline: Friday 5pm PT. Final decision Monday."
+Wrong - "Please give feedback whenever you want"
+Right - "Feedback deadline: Friday 5pm PT. Final decision Monday."
 
 Without deadline, decisions languish. Async works only with hard cutoffs.
 
-Anti-pattern 2: Not Recording the Rationale
+Anti-pattern 2 - Not Recording the Rationale
 
-Wrong: "We decided on TypeScript. Moving forward."
-Right: "We decided on TypeScript because (1) faster iteration, (2) AWS SDK maturity, (3) team skill overlap with JavaScript. Re-evaluate in 2 years if Go shows clear wins."
+Wrong - "We decided on TypeScript. Moving forward."
+Right - "We decided on TypeScript because (1) faster iteration, (2) AWS SDK maturity, (3) team skill overlap with JavaScript. Re-evaluate in 2 years if Go shows clear wins."
 
 Without rationale, future teams ask "why did we even choose this?"
 
-Anti-pattern 3: Async Without Ownership
+Anti-pattern 3 - Async Without Ownership
 
-Wrong: "Engineering, product, and ops, please decide on database"
-Right: "Backend Lead (Chris) proposes PostgreSQL. Engineering feedback by Thu, final call Friday."
+Wrong - "Engineering, product, and ops, please decide on database"
+Right - "Backend Lead (Chris) proposes PostgreSQL. Engineering feedback by Thu, final call Friday."
 
 Ownerless decisions stall. Clear owner + deadline = velocity.
 
-Anti-pattern 4: No Escalation Path
+Anti-pattern 4 - No Escalation Path
 
-Wrong: "Vote on it. Majority wins."
-Right: "Vote on it. If tied, Engineering Lead breaks tie. If critical ops concern exists, ops escalates to CTO."
+Wrong - "Vote on it. Majority wins."
+Right - "Vote on it. If tied, Engineering Lead breaks tie. If critical ops concern exists, ops escalates to CTO."
 
 Pure democracy fails when someone has domain expertise or veto power.
 

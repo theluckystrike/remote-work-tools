@@ -20,20 +20,20 @@ Build an async customer feedback synthesis workflow by routing all feedback sour
 Table of Contents
 
 - [Why Async Feedback Synthesis Works](#why-async-feedback-synthesis-works)
-- [Step 1: Establish Unified Feedback Collection Channels](#step-1-establish-unified-feedback-collection-channels)
-- [Step 2: Create a Standardized Feedback Template](#step-2-create-a-standardized-feedback-template)
+- [Step 1 - Establish Unified Feedback Collection Channels](#step-1-establish-unified-feedback-collection-channels)
+- [Step 2 - Create a Standardized Feedback Template](#step-2-create-a-standardized-feedback-template)
 - [Feedback Entry](#feedback-entry)
-- [Step 3: Implement Regular Async Review Cycles](#step-3-implement-regular-async-review-cycles)
+- [Step 3 - Implement Regular Async Review Cycles](#step-3-implement-regular-async-review-cycles)
 - [Week of [Date] - Feedback Synthesis](#week-of-date-feedback-synthesis)
-- [Step 4: Build Feedback Analysis Scripts](#step-4-build-feedback-analysis-scripts)
-- [Step 5: Close the Loop with Customers](#step-5-close-the-loop-with-customers)
-- [Step 6: Integrate with Product Planning](#step-6-integrate-with-product-planning)
-- [Feature: Improved API Rate Limiting](#feature-improved-api-rate-limiting)
+- [Step 4 - Build Feedback Analysis Scripts](#step-4-build-feedback-analysis-scripts)
+- [Step 5 - Close the Loop with Customers](#step-5-close-the-loop-with-customers)
+- [Step 6 - Integrate with Product Planning](#step-6-integrate-with-product-planning)
+- [Feature - Improved API Rate Limiting](#feature-improved-api-rate-limiting)
 - [Handling Common Challenges](#handling-common-challenges)
 - [Practical Tips for Remote Product Managers](#practical-tips-for-remote-product-managers)
 - [Tools for Feedback Synthesis at Each Step](#tools-for-feedback-synthesis-at-each-step)
-- [Advanced: Building a Feedback Search Engine](#advanced-building-a-feedback-search-engine)
-- [Real Company Example: How SaaS Product Team Processes Feedback](#real-company-example-how-saas-product-team-processes-feedback)
+- [Advanced - Building a Feedback Search Engine](#advanced-building-a-feedback-search-engine)
+- [Real Company Example - How SaaS Product Team Processes Feedback](#real-company-example-how-saas-product-team-processes-feedback)
 - [When to Escalate Feedback to Synchronous Discussion](#when-to-escalate-feedback-to-synchronous-discussion)
 - [Preventing Feedback Fatigue](#preventing-feedback-fatigue)
 - [Measuring ROI of Async Feedback Process](#measuring-roi-of-async-feedback-process)
@@ -44,7 +44,7 @@ Synchronous feedback review meetings work for small teams with overlapping hours
 
 An async workflow shifts feedback synthesis from event-driven to continuous. Team members contribute insights when convenient, feedback gets processed in batches, and decisions emerge from documented threads rather than verbal discussions. This approach respects time zones, creates an auditable record of reasoning, and scales without adding more meeting time.
 
-Step 1: Establish Unified Feedback Collection Channels
+Step 1 - Establish Unified Feedback Collection Channels
 
 Before synthesizing feedback, you need structured input streams. Most organizations have feedback scattered across platforms, Zendesk tickets in one place, Intercom conversations elsewhere, G2 reviews somewhere else, and Slack mentions scattered throughout.
 
@@ -70,18 +70,18 @@ def process_feedback_webhook(payload):
 
 Tag each feedback entry with product area (authentication, billing, dashboard, etc.) and sentiment (positive, negative, neutral) at the point of collection. This tagging happens automatically for structured inputs or gets added manually for qualitative sources like user interviews.
 
-Step 2: Create a Standardized Feedback Template
+Step 2 - Create a Standardized Feedback Template
 
 Feedback variety makes synthesis difficult. A support ticket might contain detailed reproduction steps, while a G2 review includes a star rating but lacks context. Create a template that normalizes feedback into consistent fields:
 
 ```markdown
 Feedback Entry
 
-Source: [support / survey / interview / review / social]
-Date: YYYY-MM-DD
-Customer Segment: [e.g., enterprise, startup, free tier]
-Product Area: [feature or module name]
-Sentiment: [positive / neutral / negative]
+Source - [support / survey / interview / review / social]
+Date - YYYY-MM-DD
+Customer Segment - [e.g., enterprise, startup, free tier]
+Product Area - [feature or module name]
+Sentiment - [positive / neutral / negative]
 
 The Feedback
 [Direct quote or summary of what the customer said]
@@ -90,7 +90,7 @@ Context
 [Any background: company size, use case, timeline]
 
 Impact Assessment
-- Frequency: [how many customers experiencing this?]
+- Frequency - [how many customers experiencing this?]
 - Severity: [blocker / significant / minor]
 - Workaround: [yes/no and description]
 
@@ -100,22 +100,22 @@ Potential Root Cause
 
 This template forces consistency regardless of the original feedback source. When team members log feedback using this format, synthesis becomes straightforward.
 
-Step 3: Implement Regular Async Review Cycles
+Step 3 - Implement Regular Async Review Cycles
 
 Schedule feedback review sessions that don't require real-time participation. A typical cadence works like this:
 
-Daily (15 minutes): One team member scans new feedback entries, applies product area tags, and flags anything urgent. They leave comments on entries requiring attention.
+Daily (15 minutes) - One team member scans new feedback entries, applies product area tags, and flags anything urgent. They leave comments on entries requiring attention.
 
-Weekly (30-45 minutes): The product team reviews flagged items and high-volume feedback themes. Instead of meeting synchronously, use a shared document or GitHub issue where team members add comments asynchronously throughout the week.
+Weekly (30-45 minutes) - The product team reviews flagged items and high-volume feedback themes. Instead of meeting synchronously, use a shared document or GitHub issue where team members add comments asynchronously throughout the week.
 
-Sprint-boundary (60 minutes): Review feedback against planned work. Identify overlaps between incoming feedback and planned features. This session can remain synchronous since it aligns with existing ceremony.
+Sprint-boundary (60 minutes) - Review feedback against planned work. Identify overlaps between incoming feedback and planned features. This session can remain synchronous since it aligns with existing ceremony.
 
 For the weekly async review, use a structured format that keeps discussion focused:
 
 ```markdown
 Week of [Date] - Feedback Synthesis
 
-Theme 1: [e.g., Onboarding friction]
+Theme 1 - [e.g., Onboarding friction]
 - Evidence: 12 support tickets, 8 survey responses
 - Customer pain: [summary]
 - Proposed action: [ticket number or spec reference]
@@ -124,13 +124,13 @@ Theme 1: [e.g., Onboarding friction]
   - @pm1: "I saw this in user interviews too"
   - @engineer: "This relates to the login refactor we're planning"
 
-Theme 2: [next theme]
+Theme 2 - [next theme]
 ...
 ```
 
 Team members add their perspectives as comments over 2-3 days. By the review deadline, a clear picture emerges without anyone attending a meeting.
 
-Step 4: Build Feedback Analysis Scripts
+Step 4 - Build Feedback Analysis Scripts
 
 Manual synthesis becomes unsustainable as feedback volume grows. Build simple scripts that surface patterns automatically.
 
@@ -172,17 +172,17 @@ def detect_emerging_themes(current_week, previous_weeks):
 
 This helps you catch growing issues before they become widespread complaints.
 
-Step 5: Close the Loop with Customers
+Step 5 - Close the Loop with Customers
 
 Feedback synthesis only creates value when it influences product decisions and when customers learn their input mattered. Close the loop through:
 
-Public updates: When feedback leads to changes, announce it. "Based on your feedback, we've improved the export feature" validates customer effort.
+Public updates - When feedback leads to changes, announce it. "Based on your feedback, we've improved the export feature" validates customer effort.
 
-Personal responses: For significant issues, have support or the product team reach out directly. "We saw your report about the API timeouts and are deploying a fix today."
+Personal responses - For significant issues, have support or the product team reach out directly. "We saw your report about the API timeouts and are deploying a fix today."
 
-Aggregate reporting: Share synthesis summaries in your changelog or community forum. Customers see patterns rather than just individual acknowledgments.
+Aggregate reporting - Share synthesis summaries in your changelog or community forum. Customers see patterns rather than just individual acknowledgments.
 
-Step 6: Integrate with Product Planning
+Step 6 - Integrate with Product Planning
 
 Feedback synthesis must connect to your roadmap. Create explicit links:
 
@@ -195,7 +195,7 @@ Feedback synthesis must connect to your roadmap. Create explicit links:
 A simple integration uses your existing issue tracker:
 
 ```markdown
-Feature: Improved API Rate Limiting
+Feature - Improved API Rate Limiting
 
 Customer Feedback (linked)
 - #feedback-1423: "Hitting rate limits during batch jobs"
@@ -209,13 +209,13 @@ All from enterprise segment. Root cause: 1000 req/min too low.
 
 Handling Common Challenges
 
-Feedback overload: Prioritize by frequency and severity. Not all feedback deserves equal attention. Focus on patterns affecting many customers or blocking key use cases.
+Feedback overload - Prioritize by frequency and severity. Not all feedback deserves equal attention. Focus on patterns affecting many customers or blocking key use cases.
 
-Conflicting feedback: Two customers wanting opposite things is common. Document both perspectives, note customer segments, and let your roadmap prioritization logic resolve conflicts.
+Conflicting feedback - Two customers wanting opposite things is common. Document both perspectives, note customer segments, and let your roadmap prioritization logic resolve conflicts.
 
-Attribution accuracy: Tagging feedback correctly requires judgment. When uncertain, mark the uncertainty explicitly rather than forcing a tag.
+Attribution accuracy - Tagging feedback correctly requires judgment. When uncertain, mark the uncertainty explicitly rather than forcing a tag.
 
-Time zone distribution: Ensure feedback review doesn't depend on any single time zone. Rotate who starts the weekly synthesis document.
+Time zone distribution - Ensure feedback review doesn't depend on any single time zone. Rotate who starts the weekly synthesis document.
 
 Practical Tips for Remote Product Managers
 
@@ -240,7 +240,7 @@ Tools for Feedback Synthesis at Each Step
 | | Manual tagging | MonkeyLearn | Sentiment/categorization |
 | Distribution | Slack (Slack threads) | Dovetail, UserBit | Searchable library |
 
-Advanced: Building a Feedback Search Engine
+Advanced - Building a Feedback Search Engine
 
 For teams with hundreds of monthly feedback items, make feedback searchable:
 
@@ -297,9 +297,9 @@ class FeedbackSearch:
 
 Build a simple web UI around this search (Flask + Jinja templates) and you have a feedback search engine that costs almost nothing to run.
 
-Real Company Example: How SaaS Product Team Processes Feedback
+Real Company Example - How SaaS Product Team Processes Feedback
 
-Company: 20-person SaaS, 100+ customers, $2M ARR
+Company - 20-person SaaS, 100+ customers, $2M ARR
 
 Feedback Sources:
 - Zendesk tickets (60% of volume)
@@ -335,13 +335,13 @@ Preventing Feedback Fatigue
 
 Processing hundreds of feedback items can demoralize teams. Prevent burnout by:
 
-Celebrating wins: When you ship something driven by feedback, explicitly call it out. "This came from three customer requests in March."
+Celebrating wins - When you ship something driven by feedback, explicitly call it out. "This came from three customer requests in March."
 
-Acknowledging patterns: "We've heard from 12 customers about this. It's on our roadmap for Q3." Acknowledgment alone often satisfies customers.
+Acknowledging patterns - "We've heard from 12 customers about this. It's on our roadmap for Q3." Acknowledgment alone often satisfies customers.
 
-Setting expectations clearly: "We process feedback weekly and share themes company-wide. Shipping changes takes 4-12 weeks depending on complexity."
+Setting expectations clearly - "We process feedback weekly and share themes company-wide. Shipping changes takes 4-12 weeks depending on complexity."
 
-Rotating who processes feedback: Don't make it one person's job forever. Product manager one month, engineering lead next month.
+Rotating who processes feedback - Don't make it one person's job forever. Product manager one month, engineering lead next month.
 
 Measuring ROI of Async Feedback Process
 

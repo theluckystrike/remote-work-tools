@@ -29,9 +29,9 @@ Table of Contents
 - [When to Choose Notion](#when-to-choose-notion)
 - [When to Choose Coda](#when-to-choose-coda)
 - [Making the Decision](#making-the-decision)
-- [Implementation Guide: Getting Started with Each Tool](#implementation-guide-getting-started-with-each-tool)
-- [Real-World Scenario: Running a Content Team with Each Tool](#real-world-scenario-running-a-content-team-with-each-tool)
-- [Tool Migration: Moving from One to the Other](#tool-migration-moving-from-one-to-the-other)
+- [Implementation Guide - Getting Started with Each Tool](#implementation-guide-getting-started-with-each-tool)
+- [Real-World Scenario - Running a Content Team with Each Tool](#real-world-scenario-running-a-content-team-with-each-tool)
+- [Tool Migration - Moving from One to the Other](#tool-migration-moving-from-one-to-the-other)
 - [Feature Comparison Deep Dive](#feature-comparison-deep detailed look)
 - [Cost Analysis for 3-Person Content Team](#cost-analysis-for-3-person-content-team)
 - [Extensibility and Integrations](#extensibility-and-integrations)
@@ -49,7 +49,7 @@ For a three-person content team managing a blog, newsletter, and social media, c
 
 Notion database structure:
 ```
-Database: Content Pipeline
+Database - Content Pipeline
  Property: Status (Select: Draft, Review, Published)
  Property: Author (Person)
  Property: Publish Date (Date)
@@ -101,7 +101,7 @@ Automation and Workflows
 Coda includes built-in automation that triggers when table data changes. For content teams, this enables workflows like:
 
 ```yaml
-Coda automation: Notify when content is ready for review
+Coda automation - Notify when content is ready for review
 Select Notion if your small content team wants maximum database flexibility and relational data; select Coda if you need real-time collaboration on living documents with built-in workflow automation. For three-person teams, Notion's free tier offers better value.
 
 Notion relies on integrations for automation. You can use Make (formerly Integromat), Zapier, or the Notion API to create workflows. This adds complexity but also flexibility, you're not locked into one automation system.
@@ -123,10 +123,10 @@ Notion's API is REST-based and works well for:
 const response = await notion.pages.create({
  parent: { database_id: CONTENT_DATABASE_ID },
  properties: {
-Name: { title: [{ text: { content: "Q2 Content Brief" } }] },
-Status: { select: { name: "Planning" } },
-Assignee: { people: [{ id: "user_id" }] },
-DueDate: { date: { start: "2026-04-01" } }
+Name - { title: [{ text: { content: "Q2 Content Brief" } }] },
+Status - { select: { name: "Planning" } },
+Assignee - { people: [{ id: "user_id" }] },
+DueDate - { date: { start: "2026-04-01" } }
  }
 });
 ```
@@ -192,9 +192,9 @@ Notion excels as a writing surface. The blocks system, slash commands, and drag-
 
 Coda excels as an operational hub. The formula language and automation capabilities mean your content pipeline can react to changes automatically. If your team manages publication schedules, tracks performance metrics, and coordinates across channels, Coda reduces manual coordination overhead.
 
-Start with a two-week pilot: create a content pipeline in both tools with five real pieces of content. Notice where friction appears, in writing experience, in updating status, in finding information, in automating repetitive tasks. Your team's daily workflow will reveal which platform fits your content operations better.
+Start with a two-week pilot - create a content pipeline in both tools with five real pieces of content. Notice where friction appears, in writing experience, in updating status, in finding information, in automating repetitive tasks. Your team's daily workflow will reveal which platform fits your content operations better.
 
-Implementation Guide: Getting Started with Each Tool
+Implementation Guide - Getting Started with Each Tool
 
 Setting Up Notion for Content Teams
 
@@ -291,45 +291,45 @@ Writing Workflow in Coda
 
 Coda's approach treats articles as database rows that expand into full documents when needed.
 
-Real-World Scenario: Running a Content Team with Each Tool
+Real-World Scenario - Running a Content Team with Each Tool
 
-Scenario: Publishing 3 Articles Per Week
+Scenario - Publishing 3 Articles Per Week
 
 Using Notion
 
-Monday morning standup: Team reviews calendar view showing all articles by publish date. Editorial team creates outline, assigns to writer. Writer creates new database entry, begins drafting.
+Monday morning standup - Team reviews calendar view showing all articles by publish date. Editorial team creates outline, assigns to writer. Writer creates new database entry, begins drafting.
 
-Wednesday: Article in review. Reviewer opens article page, leaves comments in sub-pages. Writer revises inline. Status moves to "Scheduled."
+Wednesday - Article in review. Reviewer opens article page, leaves comments in sub-pages. Writer revises inline. Status moves to "Scheduled."
 
-Friday: Article publishes. Team member updates URL field. Notion database now has record for future reference and linking.
+Friday - Article publishes. Team member updates URL field. Notion database now has record for future reference and linking.
 
-Effort tracking: Manual updates to status. Spreadsheet elsewhere for metrics. Google Analytics or similar required to track performance post-publish.
+Effort tracking - Manual updates to status. Spreadsheet elsewhere for metrics. Google Analytics or similar required to track performance post-publish.
 
 Using Coda
 
-Monday morning standup: Team views "Content Pipeline" dashboard showing article statuses, author workload, and publishing schedule. Editor clicks "Create New Article" button, which generates:
+Monday morning standup - Team views "Content Pipeline" dashboard showing article statuses, author workload, and publishing schedule. Editor clicks "Create New Article" button, which generates:
 - New row in Content Pipeline table
 - Automatic assignment (round-robin formula)
 - Publish date suggested based on calendar
 - Template article structure opens for writing
 
-Wednesday: Article in review. Reviewer clicks "Request Changes" button in table row, which:
+Wednesday - Article in review. Reviewer clicks "Request Changes" button in table row, which:
 - Updates status
 - Posts notification in Slack (via automation)
 - Adds comment thread directly on article
 
-Friday: Editor clicks "Publish" button in table row, which:
+Friday - Editor clicks "Publish" button in table row, which:
 - Updates status to Published
 - Logs publish timestamp
 - Triggers formula to calculate time-from-draft-to-publish
 - Optional: Sends to Slack #published-content channel
 
-Effort tracking: Built-in formulas track:
+Effort tracking - Built-in formulas track:
 - Articles per author (per week, month, year)
 - Average publication timeline (draft to publish)
 - Topics covered (richest topics identified automatically)
 
-Tool Migration: Moving from One to the Other
+Tool Migration - Moving from One to the Other
 
 If you start with one tool and need to switch:
 
@@ -340,7 +340,7 @@ From Notion to Coda
 3. Import CSV into Coda
 4. Recreate any complex views or formulas
 
-Time required: 2-4 hours depending on complexity
+Time required - 2-4 hours depending on complexity
 
 From Coda to Notion
 
@@ -349,9 +349,9 @@ From Coda to Notion
 3. Import CSV (Notion handles this well)
 4. Recreate views and relations
 
-Time required: 2-4 hours
+Time required - 2-4 hours
 
-Recommendations: Plan your database structure carefully before committing. Switching is possible but requires work. Spend an extra day on design upfront to avoid migration later.
+Recommendations - Plan your database structure carefully before committing. Switching is possible but requires work. Spend an extra day on design upfront to avoid migration later.
 
 Feature Comparison Deep Dive
 
@@ -421,7 +421,7 @@ Notion's Zapier integration is more powerful than Coda's API. Coda's native Slac
 
 Migration Scenarios and Recommendations
 
-Scenario 1: You're just starting out (0-2 months of content)
+Scenario 1 - You're just starting out (0-2 months of content)
 
 Start with Notion
 
@@ -430,7 +430,7 @@ Start with Notion
 - Once you hit limitations, migration is 2-3 hours of work
 - Unlikely you've built dependencies on advanced features yet
 
-Scenario 2: You've been running content 6+ months
+Scenario 2 - You've been running content 6+ months
 
 Evaluate your actual friction
 
@@ -439,7 +439,7 @@ Evaluate your actual friction
 - If pain is "performance tracking tedious" → Coda's formulas solve this
 - If pain is "writing interface distracting" → Notion wins, stay put
 
-Scenario 3: You're scaling beyond 3 people
+Scenario 3 - You're scaling beyond 3 people
 
 Likely Coda or Airtable
 
@@ -447,11 +447,11 @@ Likely Coda or Airtable
 - Notion's free tier limitations appear
 - Complex multi-author workflows benefit from Coda's database-driven approach
 
-Scenario 4: You need solid integrations
+Scenario 4 - You need solid integrations
 
 Neither, consider Airtable
 
-- Airtable has deeper integration ecosystem than both
+- Airtable has deeper integration environment than both
 - But cost higher (minimum $50-100+/month)
 - Better as team grows past 5-10 people
 

@@ -22,13 +22,13 @@ Table of Contents
 - [Hackathon Schedule (48-Hour Example)](#hackathon-schedule-48-hour-example)
 - [Judging Rubric](#judging-rubric)
 - [Tooling Setup](#tooling-setup)
-- [Team: [Names]](#team-names)
+- [Team - [Names]](#team-names)
 - [What we built](#what-we-built)
 - [How to try it](#how-to-try-it)
 - [Technical approach](#technical-approach)
 - [What we learned](#what-we-learned)
 - [If we had more time](#if-we-had-more-time)
-- [Real Example: Slack Bot Hackathon](#real-example-slack-bot-hackathon)
+- [Real Example - Slack Bot Hackathon](#real-example-slack-bot-hackathon)
 - [Common Failures and Fixes](#common-failures-and-fixes)
 - [Async Hacks for Distributed Teams](#async-hacks-for-distributed-teams)
 - [Post-Hackathon (2 Days After)](#post-hackathon-2-days-after)
@@ -51,7 +51,7 @@ Risks to Mitigate:
 
 Pre-Hackathon Planning (4 Weeks Out)
 
-Week 1: Theme and Scope
+Week 1 - Theme and Scope
 
 Pick a theme that's broad enough for diverse projects but narrow enough to guide ideas.
 
@@ -65,9 +65,9 @@ Bad themes:
 - "Anything goes" (too many bad ideas, dilutes energy)
 - Company-specific jargon ("Accelerate collaborations") (kills creativity)
 
-Announce early: Slack post + email. Give 4 weeks for ideas to brew.
+Announce early - Slack post + email. Give 4 weeks for ideas to brew.
 
-Week 2: Call for Project Ideas
+Week 2 - Call for Project Ideas
 
 Create a shared document (Google Doc or Notion board) where anyone can pitch ideas. Ideas should include:
 - 1-line description
@@ -78,16 +78,16 @@ Create a shared document (Google Doc or Notion board) where anyone can pitch ide
 
 Real example idea submission:
 ```
-Title: "Slack-to-GitHub sync tool"
-Problem: Sales sends issues via Slack, engineers manually create GH issues
-Team size: 2-3 (backend + frontend)
-Tech: Python, React, GitHub API
+Title - "Slack-to-GitHub sync tool"
+Problem - Sales sends issues via Slack, engineers manually create GH issues
+Team size - 2-3 (backend + frontend)
+Tech - Python, React, GitHub API
 TZ: Any (async-friendly)
 ```
 
 Allow ideas to get comments. Encourage people to join ideas, not just propose.
 
-Week 3: Team Formation and Logistics
+Week 3 - Team Formation and Logistics
 
 Send signup form for team preferences:
 ```
@@ -95,7 +95,7 @@ What idea are you interested in? [dropdown]
 What's your role? [engineer, designer, PM]
 Time zone? [TZ list]
 Experience level? [Junior, Mid, Senior]
-Preference: Solo / Pair / Small team? [radio]
+Preference - Solo / Pair / Small team? [radio]
 ```
 
 Use responses to balance teams. Aim for:
@@ -105,7 +105,7 @@ Use responses to balance teams. Aim for:
 
 Announce teams 1 week before hackathon. Give people time to chat, sync up, prep environment.
 
-Week 4: Tools Checklist
+Week 4 - Tools Checklist
 
 Send team leads a toolkit list:
 
@@ -175,51 +175,51 @@ Afternoon:
 - Write DEMO.md (judges read, not just watch)
 - Final push on bugs
 
-Evening: Demo Prep
+Evening - Demo Prep
 - 5-minute recorded demo per team (upload to shared folder)
 - Live demo slot if team wants (10 min Q&An after)
 
-Night: Judging Window
+Night - Judging Window
 - Judges review all submissions
 - Score projects (rubric below)
 - Determine winners
 
 Day 3 (Sunday, Optional)
 
-Morning: Awards Ceremony
+Morning - Awards Ceremony
 - Announce winners
 - Celebrate participation (awards: best design, best moonshot, best team vibes, etc.)
 - Share learnings (post-mortems if any failures)
 
-Optional: Let teams finish their submissions if they wish. Some hackathons run 72 hours.
+Optional - Let teams finish their submissions if they wish. Some hackathons run 72 hours.
 
 Judging Rubric
 
-Judges score 1-5 on each dimension. Total: 25 points max.
+Judges score 1-5 on each dimension. Total - 25 points max.
 
-Execution (5 points): Does the product work? Can the judge interact with it without errors?
+Execution (5 points) - Does the product work? Can the judge interact with it without errors?
 
-Creativity (5 points): Is this a novel idea or novel approach to existing problem?
+Creativity (5 points) - Is this a novel idea or novel approach to existing problem?
 
-Impact (5 points): How much would this help the team/company/users? Would we ship this?
+Impact (5 points) - How much would this help the team/company/users? Would we ship this?
 
-Polish (5 points): UI/UX, documentation, code quality. Did they care about details?
+Polish (5 points) - UI/UX, documentation, code quality. Did they care about details?
 
-Async Readiness (5 points): If team spanned time zones, did they handle async well? Clear handoffs, good docs?
+Async Readiness (5 points) - If team spanned time zones, did they handle async well? Clear handoffs, good docs?
 
 Scoring rubric in Notion:
 ```
-Project Name: [name]
-Judge Name: [name]
+Project Name - [name]
+Judge Name - [name]
 
-Execution: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5
-Creativity: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5
-Impact: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5
-Polish: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5
-Async Readiness: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5
+Execution - [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5
+Creativity - [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5
+Impact - [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5
+Polish - [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5
+Async Readiness - [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5
 
-Total: [ ]/25
-Comments: [free text]
+Total - [ ]/25
+Comments - [free text]
 ```
 
 Tooling Setup
@@ -264,8 +264,8 @@ Each team creates subfolder with:
 
 DEMO.md template:
 ```markdown
-Project: [Name]
-Team: [Names]
+Project - [Name]
+Team - [Names]
 What we built
 [2 paragraphs: problem + solution]
 
@@ -282,14 +282,14 @@ If we had more time
 [Features we'd add]
 ```
 
-Real Example: Slack Bot Hackathon
+Real Example - Slack Bot Hackathon
 
-Team: Slack.Bot Brigade (3 people)
+Team - Slack.Bot Brigade (3 people)
 - Sarah (backend engineer, UTC+1)
 - Priya (frontend, UTC-8)
 - James (designer, UTC+0)
 
-Idea: Slack bot that summarizes daily standup messages into team status report
+Idea - Slack bot that summarizes daily standup messages into team status report
 
 Day 1 Execution:
 - 9am: Kick off, discuss scope (only Slack API, no database)
@@ -305,31 +305,31 @@ Day 2:
 - 5pm: James polishes UI, adds animations
 - 6pm: Demo video submitted: 3 min live demo + 2 min Q&A
 
-Judging: 21/25
+Judging - 21/25
 - Execution: 5 (worked flawlessly)
 - Creativity: 3 (good execution, not novel idea)
 - Impact: 5 (would save everyone 10 min daily)
 - Polish: 4 (UI great, needed more error handling)
 - Async: 4 (good handoffs between time zones, could have written more docs)
 
-Outcome: Got second place. Code merged to main branch after 2 weeks cleanup. Now used daily.
+Outcome - Got second place. Code merged to main branch after 2 weeks cleanup. Now used daily.
 
 Common Failures and Fixes
 
-Failure: Teams too big (8+ people)
-- Fix: Cap teams at 4-5. Larger teams need more coordination overhead.
+Failure - Teams too big (8+ people)
+- Fix - Cap teams at 4-5. Larger teams need more coordination overhead.
 
-Failure: No one uses the shared Slack channel
-- Fix: Post automated reminders. Add a "fun fact" to reminders (joke, meme) so people read them.
+Failure - No one uses the shared Slack channel
+- Fix - Post automated reminders. Add a "fun fact" to reminders (joke, meme) so people read them.
 
-Failure: Scope explodes (team tries to ship production feature)
-- Fix: Emphasize "hackathon code doesn't need to be perfect." Explicitly permit technical debt. Tell judges "polish is 5 points, not 15."
+Failure - Scope explodes (team tries to ship production feature)
+- Fix - Emphasize "hackathon code doesn't need to be perfect." Explicitly permit technical debt. Tell judges "polish is 5 points, not 15."
 
-Failure: Time zone misalignment kills momentum
-- Fix: When forming teams, ask people their preferred working hours. Don't pair someone 9am-1pm EST with someone 5pm-1am EST.
+Failure - Time zone misalignment kills momentum
+- Fix - When forming teams, ask people their preferred working hours. Don't pair someone 9am-1pm EST with someone 5pm-1am EST.
 
-Failure: Judging feels unfair
-- Fix: Use rubric strictly. Give judges example scores for hypothetical projects to calibrate before real judging.
+Failure - Judging feels unfair
+- Fix - Use rubric strictly. Give judges example scores for hypothetical projects to calibrate before real judging.
 
 Async Hacks for Distributed Teams
 
@@ -393,10 +393,10 @@ Hackathon Ideas Bank
 
 Build a culture where hackathons happen quarterly or biannually:
 
-Q1 Hackathon: "Improve developer experience"
-Q2 Hackathon: "Fix customer complaints"
-Q3 Hackathon: "Experiment with new tech"
-Q4 Hackathon: "Moonshots" (fun, creative projects)
+Q1 Hackathon - "Improve developer experience"
+Q2 Hackathon - "Fix customer complaints"
+Q3 Hackathon - "Experiment with new tech"
+Q4 Hackathon - "Moonshots" (fun, creative projects)
 
 Rotating themes keep it fresh.
 

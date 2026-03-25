@@ -66,7 +66,7 @@ Recommended project hierarchy:
 
 The numbered prefix (01, 02, 03) keeps folders in logical order. Each design project follows the same structure so anyone on the team knows exactly where to look.
 
-Name files with the pattern: `[Feature]-[Screen]-[Version]`:
+Name files with the pattern - `[Feature]-[Screen]-[Version]`:
 
 ```
 Dashboard-v2-FINAL.svg        # Bad - unclear
@@ -132,7 +132,7 @@ Remote teams need granular access control. Developers should see designs but not
 Configure project-level settings:
 
 ```yaml
-Project: Product-Design
+Project - Product-Design
  Team Library (internal team only)
     Edit access: Product-Design-Leads
     View access: None (library only)
@@ -242,7 +242,7 @@ Establish your Figma structure before scaling beyond eight people. The habits yo
 - [ ] Install essential plugins team-wide
 - [ ] Schedule weekly library maintenance
 
-The key insight: structure enables autonomy. When everyone knows where files live, how to name them, and what permissions they need, designers can work independently without constantly asking "where is that component?" or "who has edit access?"
+The key insight - structure enables autonomy. When everyone knows where files live, how to name them, and what permissions they need, designers can work independently without constantly asking "where is that component?" or "who has edit access?"
 ---
 
 

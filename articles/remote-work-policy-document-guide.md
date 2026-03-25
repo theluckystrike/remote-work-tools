@@ -39,7 +39,7 @@ A complete policy addresses seven areas:
 6. Performance standards. how remote work is evaluated
 7. Policy violations. what happens when rules are not followed
 
-Section 1: Eligibility
+Section 1 - Eligibility
 
 ```markdown
 1. Eligibility
@@ -57,7 +57,7 @@ Employees on a performance improvement plan are not eligible for remote work
 until the plan is successfully completed.
 ```
 
-Section 2: Work Location
+Section 2 - Work Location
 
 ```markdown
 2. Approved Work Locations
@@ -92,7 +92,7 @@ Short-term travel (under 14 days) does not require pre-approval but must not
 conflict with attendance requirements.
 ```
 
-Section 3: Availability and Communication
+Section 3 - Availability and Communication
 
 ```markdown
 3. Availability Expectations
@@ -122,7 +122,7 @@ Employees must update their calendar with working hours and vacation days so
 teammates can see availability without asking.
 ```
 
-Section 4: Equipment and Expenses
+Section 4 - Equipment and Expenses
 
 ```markdown
 4. Equipment and Expense Policy
@@ -151,7 +151,7 @@ approval and a receipt. Monthly co-working memberships up to $300/month require
 advance manager approval.
 ```
 
-Section 5: Security
+Section 5 - Security
 
 ```markdown
 5. Security Requirements
@@ -181,7 +181,7 @@ Lost or stolen devices must be reported to IT within 2 hours of discovery.
 IT will initiate a remote wipe. Reporting delays may result in disciplinary action.
 ```
 
-Section 6: Performance Standards
+Section 6 - Performance Standards
 
 ```markdown
 6. Performance and Accountability
@@ -207,7 +207,7 @@ Employees must complete:
 - Quarterly goal review with manager
 ```
 
-Section 7: Policy Violations
+Section 7 - Policy Violations
 
 ```markdown
 7. Policy Violations
@@ -215,8 +215,8 @@ Section 7: Policy Violations
 Violations of this policy are handled through the company's standard progressive
 discipline process:
 
-First violation: Verbal discussion with manager, coaching on expectations
-Second violation: Written warning, documented in employee file
+First violation - Verbal discussion with manager, coaching on expectations
+Second violation - Written warning, documented in employee file
 Serious violations (security incidents, unauthorized international work,
 data mishandling): may result in immediate escalation to termination review,
 regardless of prior history
@@ -237,7 +237,7 @@ For a lightweight approach:
 3. Send via Slack or email with required completion deadline
 4. Export responses for HR records
 
-Review cycle: review and update the policy annually
+Review cycle - review and update the policy annually
 Flag changes to employees when the policy is updated
 ```
 

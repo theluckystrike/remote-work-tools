@@ -34,7 +34,7 @@ The best smart lighting for home office developers offers three key capabilities
 
 Top Smart Lighting Options with Pricing
 
-Philips Hue: The Ecosystem Champion
+Philips Hue - The environment Champion
 
 Philips Hue remains the gold standard for developer-friendly smart lighting. The extensive API documentation and local network control make it ideal for custom integrations.
 
@@ -58,9 +58,9 @@ Key advantages:
 - REST API for custom automation
 - Reliability: established platform since 2012
 
-Best for: Developers committed to long-term automation, multiple rooms, integration-heavy setups
+Best for - Developers committed to long-term automation, multiple rooms, integration-heavy setups
 
-LIFX: The Brightness Leader (No Hub)
+LIFX - The Brightness Leader (No Hub)
 
 LIFX bulbs deliver higher lumens than Hue alternatives without requiring a hub. Each bulb connects directly to WiFi, simplifying setup for smaller deployments.
 
@@ -85,7 +85,7 @@ curl -X PUT "http://[LIFX-IP]:56700/api/v1/lights/state" \
 
 This direct control eliminates bridge hardware and provides sub-100ms response times for instant feedback during automation.
 
-Best for: Developers wanting bridge-free setup, renters, minimalists, high brightness needs
+Best for - Developers wanting bridge-free setup, renters, minimalists, high brightness needs
 
 Brightness comparison:
 - Standard incandescent equivalent A19: 800 lm
@@ -93,7 +93,7 @@ Brightness comparison:
 - Hue A19: 800 lm (equivalent)
 - LIFX BR30: 1600 lm (excellent for ceiling fixtures)
 
-Nanoleaf: The Visual Workstation Companion
+Nanoleaf - The Visual Workstation Companion
 
 Nanoleaf shapes and lines serve dual purposes: ambient lighting and decorative elements visible during video calls. The hexagonal or triangular panels create distinctive backdrops that impress on Zoom while providing diffused light.
 
@@ -104,9 +104,9 @@ Nanoleaf shapes and lines serve dual purposes: ambient lighting and decorative e
 | Shapes Triangles (9-pack) | 9 units | $180-220 | 16M | Large installation |
 | Nanoleaf Lines | Wall-mounted | $200-300 | 16M | Architectural look |
 
-Nanoleaf supports HomeKit, Google Home, and Matter, giving you flexibility in your smart home ecosystem choice.
+Nanoleaf supports HomeKit, Google Home, and Matter, giving you flexibility in your smart home environment choice.
 
-Best for: Developers wanting visible aesthetic lighting, video call backgrounds, RGB ambiance
+Best for - Developers wanting visible aesthetic lighting, video call backgrounds, RGB ambiance
 
 Setup comparison:
 - Essentials: Simplest, most affordable, minimal aesthetic
@@ -151,19 +151,19 @@ Connect motion sensor updates to lighting adjustments that match the time of day
 
 Practical Implementation Strategy
 
-Phase 1: Start small ($50-100)
+Phase 1 - Start small ($50-100)
 - Buy 2-3 LIFX A19 White bulbs ($10-15 each) OR
 - Buy 1 Hue Bridge + 1 White Ambiance bulb ($50-70)
 - Place in overhead fixture above desk
 - Set time-based brightness: 50% (morning) → 80% (midday) → 30% (evening)
 
-Phase 2: Expand desktop lighting ($50-80)
+Phase 2 - Expand desktop lighting ($50-80)
 - Add task lighting: Hue desk lamp or LIFX bulb in desk lamp
 - Position at 45 degrees to eliminate monitor glare
 - Color temperature: 5000K (cool) during focus time
 - Automate: Trigger "focus mode" when calendar shows deep work
 
-Phase 3: Complete room ($80-150)
+Phase 3 - Complete room ($80-150)
 - Add 2-3 more bulbs for ceiling fixtures (side/back illumination)
 - Position: Reduce shadows, improve video call appearance
 - Optional: Nanoleaf light strip behind monitor ($50-60)
@@ -217,7 +217,7 @@ Cost per bulb comparison:
 - LIFX White: $10-15 (no hub needed, higher wattage)
 - Hue White: $15-20 (requires $45 hub, lower wattage)
 - LIFX Color: $30-40 (premium pricing, versatile)
-- Hue Color: $50-60 (premium, ecosystem advantage)
+- Hue Color: $50-60 (premium, environment advantage)
 - Nanoleaf Essentials: $25 per panel (decorative + functional)
 
 The return on investment manifests through reduced eye strain, improved video call quality, and automation that handles lighting without manual adjustment. Most developers report noticeable productivity improvements within the first week of proper smart lighting installation.

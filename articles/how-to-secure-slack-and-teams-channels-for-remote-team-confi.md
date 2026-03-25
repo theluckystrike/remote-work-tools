@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Identifying What Needs Protection
+Step 1 - Identifying What Needs Protection
 
 Before configuring permissions, identify the types of discussions requiring enhanced security:
 
@@ -40,7 +40,7 @@ Before configuring permissions, identify the types of discussions requiring enha
 
 Each category warrants different access controls and retention policies. Creating dedicated channels with explicit security configurations ensures conversations remain private.
 
-Step 2: Secure Slack Channels
+Step 2 - Secure Slack Channels
 
 Private Channels for Sensitive Discussions
 
@@ -105,7 +105,7 @@ Two-Factor Authentication Requirements
 
 Enforce 2FA for all team members accessing sensitive channels. In Workspace Settings > Security, require two-factor authentication and consider hardware security keys (YubiKey or similar) for accounts with access to highly sensitive discussions.
 
-Step 3: Secure Microsoft Teams Channels
+Step 3 - Secure Microsoft Teams Channels
 
 Private Channels vs Shared Channels
 
@@ -178,7 +178,7 @@ When conducting video calls for sensitive matters:
 
 Configure these in Teams admin center > Meetings > Meeting policies.
 
-Step 4: Cross-Platform Security Patterns
+Step 4 - Cross-Platform Security Patterns
 
 Audit Logging and Monitoring
 
@@ -236,7 +236,7 @@ Implement quarterly access reviews:
 3. Remove departed employees within 24 hours
 4. Document review findings for compliance
 
-Step 5: Implementation Checklist
+Step 5 - Implementation Checklist
 
 Use this checklist to verify your configuration:
 

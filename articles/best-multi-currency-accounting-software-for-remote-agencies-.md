@@ -26,7 +26,7 @@ Table of Contents
 - [Making Your Decision](#making-your-decision)
 - [Setting Up Your Accounting Workflow for EUR/USD Billing](#setting-up-your-accounting-workflow-for-eurusd-billing)
 - [Pricing Comparison for 5-Person Agencies](#pricing-comparison-for-5-person-agencies)
-- [Advanced Scenario: Agency with Multiple Currencies](#advanced-scenario-agency-with-multiple-currencies)
+- [Advanced Scenario - Agency with Multiple Currencies](#advanced-scenario-agency-with-multiple-currencies)
 - [Common Mistakes and How to Avoid Them](#common-mistakes-and-how-to-avoid-them)
 - [When to Consider Hiring a Bookkeeper](#when-to-consider-hiring-a-bookkeeper)
 - [Tools That Integrate with Your Accounting System](#tools-that-integrate-with-your-accounting-system)
@@ -35,7 +35,7 @@ Why Multi-Currency Matters for Remote Agencies
 
 When you bill an US client $10,000 and your expenses are in euros, every invoice creates a foreign exchange exposure. Your bank might convert at 1.08 EUR/USD today, but by the time payment arrives 30 days later, the rate could shift significantly. Proper multi-currency accounting tracks these gains and losses accurately in your books.
 
-The core requirement is simple: your accounting system must record transactions in their original currency while maintaining accurate EUR and USD equivalents for reporting.
+The core requirement is simple - your accounting system must record transactions in their original currency while maintaining accurate EUR and USD equivalents for reporting.
 
 Key Technical Requirements
 
@@ -172,27 +172,27 @@ Setting Up Your Accounting Workflow for EUR/USD Billing
 
 For a practical step-by-step setup, assume you're a 5-person remote agency based in Germany billing both German clients in EUR and US clients in USD:
 
-Step 1: Bank account structure
+Step 1 - Bank account structure
 - Open an EUR business account (with your German bank)
 - Open an USD business account (with Wise, Revolut Business, or US banking service)
 - In your accounting system, configure these as separate bank accounts with different currencies
 
-Step 2: Invoice configuration
+Step 2 - Invoice configuration
 - Set your primary currency to EUR (or whichever represents 60%+ of your billing)
 - Configure invoice templates to allow per-invoice currency selection
 - Build automation that captures exchange rates from your API at invoice creation time
 
-Step 3: Payment processing
+Step 3 - Payment processing
 - When an US client pays in dollars, direct them to your USD bank account
 - When a German client pays in euros, direct them to your EUR account
 - Configure your accounting software to automatically categorize payments by account
 
-Step 4: Month-end reconciliation
+Step 4 - Month-end reconciliation
 - Reconcile each account separately in your accounting system
 - Record exchange rate variances in a dedicated "foreign exchange" account
 - Generate reports showing both EUR and USD profitability
 
-Step 5: Tax reporting
+Step 5 - Tax reporting
 Your accountant will need:
 - All invoices with original currency and exchange rate used
 - All received payments with actual received amount and currency
@@ -203,17 +203,17 @@ This setup typically takes 4, 6 hours initially, then 2, 3 hours monthly for rec
 
 Pricing Comparison for 5-Person Agencies
 
-Xero: £20, 50/month depending on features. Excellent EUR support, strong API, multi-currency nominal ledger. Total annual cost: £240, 600.
+Xero - £20, 50/month depending on features. Excellent EUR support, strong API, multi-currency nominal ledger. Total annual cost: £240, 600.
 
-QuickBooks Online: $30, 200/month depending on plan. Extensive integrations, good API, decent multi-currency handling. Total annual cost: $360, 2,400.
+QuickBooks Online - $30, 200/month depending on plan. Extensive integrations, good API, decent multi-currency handling. Total annual cost: $360, 2,400.
 
-Wave: Free. Basic multi-currency support, limited reporting. Best if you're cash-flow limited but will outgrow it quickly.
+Wave - Free. Basic multi-currency support, limited reporting. Best if you're cash-flow limited but will outgrow it quickly.
 
-Invoice Ninja: $20/month for 5-person team (self-hosted is free). Modern API, clean interface, less mature reporting. Total annual cost: $240 self-hosted (just server costs).
+Invoice Ninja - $20/month for 5-person team (self-hosted is free). Modern API, clean interface, less mature reporting. Total annual cost: $240 self-hosted (just server costs).
 
 For most agencies, Xero's mid-range plan ($35/month) provides the best combination of features and cost, roughly $420 annually for solid multi-currency handling and excellent EUR support.
 
-Advanced Scenario: Agency with Multiple Currencies
+Advanced Scenario - Agency with Multiple Currencies
 
 What if your agency works with clients in EUR, USD, GBP, and AUD? The requirements become more complex:
 
@@ -239,23 +239,23 @@ This scenario requires more sophisticated accounting practices but remains manag
 
 Common Mistakes and How to Avoid Them
 
-Mistake 1: Recording invoices without capturing exchange rates
-Solution: Use an automated system that locks the exchange rate at invoice creation. Never allow invoices to be recorded without an explicit rate.
+Mistake 1 - Recording invoices without capturing exchange rates
+Solution - Use an automated system that locks the exchange rate at invoice creation. Never allow invoices to be recorded without an explicit rate.
 
-Mistake 2: Converting all payments to your primary currency immediately
-Solution: Keep payments in their original currency for 30, 60 days. This allows clients in different currencies to pay naturally and reduces conversion fees.
+Mistake 2 - Converting all payments to your primary currency immediately
+Solution - Keep payments in their original currency for 30, 60 days. This allows clients in different currencies to pay naturally and reduces conversion fees.
 
-Mistake 3: Trusting bank conversion rates
-Solution: Many banks provide terrible exchange rates. Use Wise, OFX, or other specialist providers to convert larger amounts at better rates.
+Mistake 3 - Trusting bank conversion rates
+Solution - Many banks provide terrible exchange rates. Use Wise, OFX, or other specialist providers to convert larger amounts at better rates.
 
-Mistake 4: Ignoring realized vs. unrealized gains/losses
-Realized: When you convert EUR to USD at your bank, the difference between invoice rate and conversion rate is realized loss.
-Unrealized: When an outstanding EUR invoice hasn't been paid yet but EUR has declined relative to USD, you have unrealized loss.
+Mistake 4 - Ignoring realized vs. unrealized gains/losses
+Realized - When you convert EUR to USD at your bank, the difference between invoice rate and conversion rate is realized loss.
+Unrealized - When an outstanding EUR invoice hasn't been paid yet but EUR has declined relative to USD, you have unrealized loss.
 
 Your accountant needs both to calculate proper tax liability.
 
-Mistake 5: Not planning quarterly tax payments
-Solution: Calculate estimated tax quarterly, accounting for foreign exchange impacts. This prevents massive surprises at year-end.
+Mistake 5 - Not planning quarterly tax payments
+Solution - Calculate estimated tax quarterly, accounting for foreign exchange impacts. This prevents massive surprises at year-end.
 
 When to Consider Hiring a Bookkeeper
 
@@ -270,15 +270,15 @@ For a 5-person agency crossing six figures in revenue, this is a worthwhile inve
 
 Tools That Integrate with Your Accounting System
 
-Stripe: Automatically categorizes multi-currency payments, integrates with Xero and QuickBooks.
+Stripe - Automatically categorizes multi-currency payments, integrates with Xero and QuickBooks.
 
-PayPal: Provides currency conversion, though at premium rates. Still useful for clients preferring PayPal.
+PayPal - Provides currency conversion, though at premium rates. Still useful for clients preferring PayPal.
 
-Wise Business: Offers bank accounts in multiple currencies with favorable rates. Integrates with accounting systems.
+Wise Business - Offers bank accounts in multiple currencies with favorable rates. Integrates with accounting systems.
 
-Zapier/Make: Automate invoice creation and payment recording across systems.
+Zapier/Make - Automate invoice creation and payment recording across systems.
 
-Custom scripts: If your workflow is unique, Python scripts using the accounting API can automate repetitive tasks.
+Custom scripts - If your workflow is unique, Python scripts using the accounting API can automate repetitive tasks.
 ---
 
 

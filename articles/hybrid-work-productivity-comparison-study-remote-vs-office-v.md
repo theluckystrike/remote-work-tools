@@ -28,7 +28,7 @@ Before examining comparisons, let's establish clear definitions:
 
 The "hybrid days" model has emerged as the most common implementation in 2026, with companies standardizing specific in-office days for collaboration while protecting remote days for deep work.
 
-Productivity Metrics: What the Data Shows
+Productivity Metrics - What the Data Shows
 
 Deep Work Capacity
 
@@ -84,7 +84,7 @@ Average Weekly Meeting Hours:
 
 Hybrid workers often attend meetings twice, once in person and once to include remote colleagues, effectively doubling their meeting load on office days.
 
-Hybrid Days: Finding the Optimal Balance
+Hybrid Days - Finding the Optimal Balance
 
 The most effective hybrid implementations protect specific days for specific work types:
 

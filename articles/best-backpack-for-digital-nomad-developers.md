@@ -132,7 +132,7 @@ Budget Options ($60-120)
 
 Affordable, lightweight, functional
 Limited organization, basic materials, durability questions
-Use case: Weekend nomads, 1-2 week trips, testing before premium purchase
+Use case - Weekend nomads, 1-2 week trips, testing before premium purchase
 
 Mid-Range Options ($120-250)
 
@@ -145,7 +145,7 @@ Mid-Range Options ($120-250)
 
 Better materials, thoughtful design, reasonable durability
 Higher cost, heavier options, learning curve for organization systems
-Use case: 3-6 month nomads, developers valuing organization, regular travelers
+Use case - 3-6 month nomads, developers valuing organization, regular travelers
 
 Premium Options ($250-500+)
 
@@ -158,7 +158,7 @@ Premium Options ($250-500+)
 
 Exceptional durability, top-tier materials, lifetime support
 Significant investment, heavier models, slower shipping
-Use case: Serious nomads, rough travel conditions, long-term commitment
+Use case - Serious nomads, rough travel conditions, long-term commitment
 
 Making Your Selection
 
@@ -408,13 +408,13 @@ Test WiFi Quality Before You Start Working
 
 ```bash
 Test WiFi speed from the terminal before settling in to work
-Install: brew install speedtest-cli  or  pip install speedtest-cli
+Install - brew install speedtest-cli  or  pip install speedtest-cli
 
 speedtest-cli --simple
 Expected output:
 Ping: 12.34 ms
-Download: 85.42 Mbit/s
-Upload: 42.18 Mbit/s
+Download - 85.42 Mbit/s
+Upload - 42.18 Mbit/s
 
 Check latency to common dev services (should be < 50ms for smooth work)
 ping -c 5 github.com

@@ -80,7 +80,7 @@ The ADR Template
 Use this template for async technical discussions in distributed teams:
 
 ```markdown
-ADR-[NUMBER]: [Decision Title]
+ADR-[NUMBER] - [Decision Title]
 
 Status
 [Proposed | Accepted | Deprecated | Superseded by ADR-XXX]
@@ -106,10 +106,10 @@ Workarounds
 [Any known ways to mitigate negative consequences]
 
 Alternatives Considered
-Option 1: [Name]
+Option 1 - [Name]
 [Why this was rejected]
 
-Option 2: [Name]
+Option 2 - [Name]
 [Why this was rejected]
 
 Reviewers
@@ -124,12 +124,12 @@ Async Workflow for ADR Creation
 
 Implementing ADRs in a remote team requires a structured async workflow that ensures thorough discussion without real-time meetings.
 
-Step 1: Proposal Draft
+Step 1 - Proposal Draft
 
 One team member creates the ADR draft in your team's documentation repository. They fill in the Context and Decision sections, listing at least two alternatives considered. The draft gets submitted as a pull request or shared in your async discussion channel.
 
 ```markdown
-ADR-042: Implement Caching Layer with Redis
+ADR-042 - Implement Caching Layer with Redis
 
 Status
 Proposed
@@ -163,17 +163,17 @@ Workarounds
 - Use shorter TTLs for rapidly changing data
 ```
 
-Step 2: Async Review Period
+Step 2 - Async Review Period
 
 Leave the ADR open for 48-72 hours to accommodate team members across time zones. Use a structured feedback format:
 
 ```markdown
 Feedback from @sarah-engineer
 
-Question on cache invalidation: How will we handle the race condition
+Question on cache invalidation - How will we handle the race condition
 when a user updates their profile while the cached version is being served?
 
-Suggestion: Consider using write-through caching to ensure consistency.
+Suggestion - Consider using write-through caching to ensure consistency.
 
 Response from @proposal-author
 
@@ -181,7 +181,7 @@ Good point. I'll add a write-through mechanism for profile updates. This
 adds some latency on writes but ensures users never see stale data.
 ```
 
-Step 3: Decision Finalization
+Step 3 - Decision Finalization
 
 After the review period, the ADR author summarizes feedback and updates the status:
 
@@ -215,7 +215,7 @@ Maintain a running count of ADRs in your repository. This creates an accessible 
 ```bash
 Find the next ADR number
 ls -1 adrs/ | grep "^ADR-" | sort -V | tail -1
-Output: ADR-041.md
+Output - ADR-041.md
 Next ADR should be ADR-042
 ```
 
@@ -224,8 +224,8 @@ Link ADRs to Code
 Connect your ADRs to the implementation through code comments and commit messages:
 
 ```python
-Implemented per ADR-042: Redis caching layer
-See: /docs/adr/042-redis-caching-layer.md
+Implemented per ADR-042 - Redis caching layer
+See - /docs/adr/042-redis-caching-layer.md
 class UserProfileCache:
     pass
 ```
@@ -240,20 +240,20 @@ Schedule a quarterly review of active ADRs to identify:
 
 Common Pitfalls to Avoid
 
-Vague context: "We needed a database" provides no useful information. Instead, specify the actual constraints: "Our application requires sub-10ms query times for real-time dashboards while handling 10,000 concurrent connections."
+Vague context - "We needed a database" provides no useful information. Instead, specify the actual constraints: "Our application requires sub-10ms query times for real-time dashboards while handling 10,000 concurrent connections."
 
-Missing alternatives: A decision without considered alternatives lacks rigor. Even if you ultimately choose the obvious option, document what else was evaluated and why it was rejected.
+Missing alternatives - A decision without considered alternatives lacks rigor. Even if you ultimately choose the obvious option, document what else was evaluated and why it was rejected.
 
-Stale status: An ADR marked "Proposed" from six months ago creates confusion. Update status promptly or archive inactive proposals.
+Stale status - An ADR marked "Proposed" from six months ago creates confusion. Update status promptly or archive inactive proposals.
 
 Real-World ADR Examples
 
-Example 1: Adopting Event-Driven Architecture
+Example 1 - Adopting Event-Driven Architecture
 
 This ADR demonstrates how to document a major architectural shift:
 
 ```markdown
-ADR-053: Adopt Event-Driven Architecture for Order Processing
+ADR-053 - Adopt Event-Driven Architecture for Order Processing
 
 Status
 Accepted
@@ -297,13 +297,13 @@ Workarounds
 - Set up monitoring alerts for dead letter queues
 
 Alternatives Considered
-Option 1: Optimize Database Queries
+Option 1 - Optimize Database Queries
 We could optimize existing synchronous queries with better indexing and caching. However, this doesn't address the latency from external services (payment provider, email service). Estimated 10-20% improvement max.
 
-Option 2: Increase Timeout Limits
+Option 2 - Increase Timeout Limits
 Simply allowing longer timeouts pushes the problem to users (longer wait times). Doesn't solve cascading failures.
 
-Option 3: Thread Pool Isolation (Hystrix)
+Option 3 - Thread Pool Isolation (Hystrix)
 Isolate each external service call in separate thread pools with independent timeouts. This prevents cascading failures but doesn't reduce latency for users. Also adds memory overhead.
 
 Reviewers
@@ -319,12 +319,12 @@ Notes
 - Performance testing results: 8x improvement in p99 latency
 ```
 
-Example 2: Frontend Framework Selection
+Example 2 - Frontend Framework Selection
 
 This ADR shows how to document tool selection decisions:
 
 ```markdown
-ADR-051: Migrate from AngularJS to React 18
+ADR-051 - Migrate from AngularJS to React 18
 
 Status
 Accepted (supersedes ADR-024)
@@ -335,7 +335,7 @@ Date
 Context
 Our frontend codebase uses AngularJS (1.6), which reached end-of-life in 2022. Security patches are no longer issued, and recruiting developers with AngularJS expertise has become nearly impossible. We need a modern framework that:
 - Supports TypeScript out of the box
-- Has a strong ecosystem of third-party libraries
+- Has a strong environment of third-party libraries
 - Allows gradual migration (important: we have 200+ active frontend developers)
 - Provides good devtool support
 
@@ -362,14 +362,14 @@ Workarounds
 - Use Create React App to reduce build configuration burden
 
 Alternatives Considered
-Option 1: Vue 3
-Vue has gentler learning curve and smaller bundle size. However, ecosystem is smaller. Rejected because several team members had concerns about hiring Vue expertise.
+Option 1 - Vue 3
+Vue has gentler learning curve and smaller bundle size. However, environment is smaller. Rejected because several team members had concerns about hiring Vue expertise.
 
-Option 2: Svelte
+Option 2 - Svelte
 Excellent performance and minimal bundle size. But very young framework (risk of future breaking changes). Rejected due to maturity concerns for a 10-year-old product.
 
-Option 3: Upgrade to AngularJS 2+
-Keep AngularJS ecosystem but upgrade to modern versions. However, this is essentially a rewrite, and AngularJS 2+ has not gained the market adoption of React. Rejected.
+Option 3 - Upgrade to AngularJS 2+
+Keep AngularJS environment but upgrade to modern versions. However, this is essentially a rewrite, and AngularJS 2+ has not gained the market adoption of React. Rejected.
 
 Reviewers
 - @frontend-lead - Framework expertise

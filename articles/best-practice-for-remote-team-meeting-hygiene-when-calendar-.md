@@ -27,7 +27,7 @@ Table of Contents
 - [Meeting Notes](#meeting-notes)
 - [Scaling Strategies for Meeting Hygiene](#scaling-strategies-for-meeting-hygiene)
 - [Measuring Meeting Hygiene Success](#measuring-meeting-hygiene-success)
-- [The Meeting Debt Audit: Running a Quarterly Calendar Review](#the-meeting-debt-audit-running-a-quarterly-calendar-review)
+- [The Meeting Debt Audit - Running a Quarterly Calendar Review](#the-meeting-debt-audit-running-a-quarterly-calendar-review)
 - [Using Async Video to Replace Low-Value Status Meetings](#using-async-video-to-replace-low-value-status-meetings)
 - [Handling the "But I Like Meetings" Resistance](#handling-the-but-i-like-meetings-resistance)
 
@@ -53,15 +53,15 @@ Categorize your meetings into three tiers:
 ```markdown
 Meeting Tier System
 
-Tier 1: Essential Synchronous (max 2 per week per team)
+Tier 1 - Essential Synchronous (max 2 per week per team)
 - Daily standup (15 min, same time daily)
 - Sprint planning (bi-weekly, timeboxed)
 
-Tier 2: Periodic Syncs (as needed, max 2 per week)
+Tier 2 - Periodic Syncs (as needed, max 2 per week)
 - Feature review sessions
 - Retrospectives
 
-Tier 3: Async-First (default for most discussions)
+Tier 3 - Async-First (default for most discussions)
 - Design reviews
 - RFC discussions
 - Post-incident reviews
@@ -97,7 +97,7 @@ Finding and Flagging Overlapping Meetings
 #!/usr/bin/env python3
 """
 calendar-cleanup.py - Identify overlapping meetings across your calendar
-Run as: python calendar-cleanup.py
+Run as - python calendar-cleanup.py
 """
 
 from datetime import datetime, timedelta
@@ -160,8 +160,8 @@ Reduce redundant meetings by requiring async pre-work:
 #!/bin/bash
 generate-meeting-template.sh - Creates async-first meeting prep
 
-TEMPLATE="# Meeting: $1
-Date: $(date +%Y-%m-%d)
+TEMPLATE="# Meeting - $1
+Date - $(date +%Y-%m-%d)
 Attendees:
 Goal:
 
@@ -258,7 +258,7 @@ metrics:
  measurement: "Calendar audit"
 ```
 
-The Meeting Debt Audit: Running a Quarterly Calendar Review
+The Meeting Debt Audit - Running a Quarterly Calendar Review
 
 Calendar bloat accumulates gradually. A quarterly audit surfaces meetings that no longer have a clear purpose. Schedule a 30-minute solo review every quarter using this process:
 
@@ -343,7 +343,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -355,7 +355,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

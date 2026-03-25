@@ -167,17 +167,17 @@ Security Trade-offs
 
 Split tunneling requires careful consideration of security implications:
 
-Risk: Split tunneling can accidentally expose internal services if misconfigured.
+Risk - Split tunneling can accidentally expose internal services if misconfigured.
 
-Mitigation: Use deny-by-default configurations. Only allow access to explicitly defined internal resources.
+Mitigation - Use deny-by-default configurations. Only allow access to explicitly defined internal resources.
 
-Risk: DNS leaks can bypass split tunneling.
+Risk - DNS leaks can bypass split tunneling.
 
-Mitigation: Configure your VPN client to use the company's DNS servers for internal domain resolution.
+Mitigation - Configure your VPN client to use the company's DNS servers for internal domain resolution.
 
-Risk: Split tunnels can create asymmetric routing.
+Risk - Split tunnels can create asymmetric routing.
 
-Mitigation: Ensure your internal services can handle responses returning through different paths.
+Mitigation - Ensure your internal services can handle responses returning through different paths.
 
 Most modern VPN solutions handle these concerns well, but you should verify your configuration before deployment.
 
@@ -203,9 +203,9 @@ VPN Solution Comparison Table
 
 Troubleshooting Split Tunneling Issues
 
-Issue: VPN connects but internal services are unreachable
+Issue - VPN connects but internal services are unreachable
 
-Check: Is the internal IP range in AllowedIPs?
+Check - Is the internal IP range in AllowedIPs?
 ```ini
 Check your config
 [Peer]
@@ -213,21 +213,21 @@ AllowedIPs = 10.0.0.0/8, 192.168.100.0/24
 If missing your internal range, add it
 ```
 
-Solution: Add the missing range and reconnect.
+Solution - Add the missing range and reconnect.
 
-Issue: DNS resolution broken for internal domains
+Issue - DNS resolution broken for internal domains
 
-Check: Is your DNS server specified?
+Check - Is your DNS server specified?
 ```ini
 [Interface]
 DNS = 10.0.0.1, 8.8.8.8  # Internal DNS first, fallback to public
 ```
 
-Solution: Use your company's internal DNS server first, then a public fallback.
+Solution - Use your company's internal DNS server first, then a public fallback.
 
-Issue: Split tunnel not working; all traffic going through VPN
+Issue - Split tunnel not working; all traffic going through VPN
 
-Check: Are you using the correct routing rules?
+Check - Are you using the correct routing rules?
 
 For WireGuard:
 -  `AllowedIPs = 0.0.0.0/0` routes everything
@@ -237,11 +237,11 @@ For OpenVPN:
 -  `pull "redirect-gateway"` routes everything
 -  `pull "route 10.0.0.0 255.255.255.0"` routes specific ranges
 
-Solution: Verify your configuration excludes the routes you don't want through the tunnel.
+Solution - Verify your configuration excludes the routes you don't want through the tunnel.
 
-Issue: Some developers experience different performance than others
+Issue - Some developers experience different performance than others
 
-Cause: Different internet connections, local network congestion, VPN server selection.
+Cause - Different internet connections, local network congestion, VPN server selection.
 
 Solution:
 - Profile actual performance on different machines

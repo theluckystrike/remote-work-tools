@@ -21,18 +21,18 @@ Choose Herman Miller if you want a chair that conforms to your body during long 
 Table of Contents
 
 - [The Problem Space](#the-problem-space)
-- [Herman Miller: The Embody and Aeron Approach](#herman-miller-the-embody-and-aeron-approach)
-- [Steelcase: The Leap and Gesture Approach](#steelcase-the-leap-and-gesture-approach)
+- [Herman Miller - The Embody and Aeron Approach](#herman-miller-the-embody-and-aeron-approach)
+- [Steelcase - The Leap and Gesture Approach](#steelcase-the-leap-and-gesture-approach)
 - [Technical Comparison for Developers](#technical-comparison-for-developers)
 - [Practical Recommendations](#practical-recommendations)
 - [Making the Decision](#making-the-decision)
 - [Real-World Testing Protocol](#real-world-testing-protocol)
-- [Extended Comparison: Real-World Scenarios](#extended-comparison-real-world-scenarios)
+- [Extended Comparison - Real-World Scenarios](#extended-comparison-real-world-scenarios)
 - [Price-to-Features Analysis](#price-to-features-analysis)
 - [The Warranty Deep Dive](#the-warranty-deep detailed look)
-- [Size Matters: The Critical Detail Everyone Misses](#size-matters-the-critical-detail-everyone-misses)
+- [Size Matters - The Critical Detail Everyone Misses](#size-matters-the-critical-detail-everyone-misses)
 - [Where to Buy and Pricing Strategy](#where-to-buy-and-pricing-strategy)
-- [Hybrid Approach: Combining Chairs](#hybrid-approach-combining-chairs)
+- [Hybrid Approach - Combining Chairs](#hybrid-approach-combining-chairs)
 - [Long-Term Ownership and Resale Value](#long-term-ownership-and-resale-value)
 
 The Problem Space
@@ -41,7 +41,7 @@ As a developer working remotely, you likely spend 6-10 hours daily seated. Poor 
 
 The question isn't which brand is objectively better, it's which design philosophy aligns with your specific work patterns and body type.
 
-Herman Miller: The Embody and Aeron Approach
+Herman Miller - The Embody and Aeron Approach
 
 Herman Miller offers two primary chairs relevant to developers: the Embody and the Aeron. Both have become almost synonymous with startup culture.
 
@@ -58,7 +58,7 @@ Estimating chair investment ROI for remote work
 def calculate_chair_roi(hours_per_day, years=5):
     """
     Rough ROI calculation for premium chair investment.
-    Consider: reduced back pain, fewer sick days, better focus.
+    Consider - reduced back pain, fewer sick days, better focus.
     """
     daily_hours = hours_per_day
     annual_cost = daily_hours * 260  # working days
@@ -90,7 +90,7 @@ The Aeron takes a different approach with its iconic mesh design. It comes in th
 
 The mesh back provides excellent breathability, which matters if you work in warmer climates or tend to run hot during intense debugging sessions. The Aeron also features adjustable armrests that move in multiple directions, allowing you to find the exact position that keeps your shoulders relaxed while typing.
 
-Steelcase: The Leap and Gesture Approach
+Steelcase - The Leap and Gesture Approach
 
 Steelcase takes a more traditional approach to ergonomic support, with the Leap and Gesture being their most popular models for developers.
 
@@ -149,10 +149,10 @@ Real-World Testing Protocol
 
 Before making your final decision, establish a systematic testing approach:
 
-Week 1: Baseline Measurement
+Week 1 - Baseline Measurement
 Start by recording your current discomfort levels. Track back pain intensity on a scale of 1-10, average session length before needing a break, and posture-related issues. Take photos of your current posture from the side at your desk, this baseline makes improvements quantifiable.
 
-Week 2-3: In-Store Testing
+Week 2-3 - In-Store Testing
 Visit retailers carrying both brands. Spend at least 20 minutes in each chair, not just 2-3 minutes. Simulate your actual work: lean forward to code, recline for documentation reading, adjust armrests. Test with your normal keyboard and mouse if possible. Many developers notice postural issues only after 30+ minutes of real work.
 
 Documentation Template
@@ -167,40 +167,40 @@ Create a simple spreadsheet to track your testing:
 | Gesture | | | | | |
 ```
 
-Extended Comparison: Real-World Scenarios
+Extended Comparison - Real-World Scenarios
 
-Scenario 1: Deep Coding Sessions (8+ hours)
+Scenario 1 - Deep Coding Sessions (8+ hours)
 Herman Miller Embody excels here. The forward-lean support and conforming backrest minimize fatigue during extended focus work. The Aeron requires more postural discipline, you need to actively maintain good posture rather than having the chair support it. Steelcase Leap adapts well but feels less specialized for pure forward-leaning work. Gesture requires more frequent position adjustments.
 
-Scenario 2: Mixed Work (coding + meetings + reviews)
+Scenario 2 - Mixed Work (coding + meetings + reviews)
 Steelcase Gesture wins this scenario. The 360-degree armrests adapt instantly when you shift between typing and holding a tablet for code review. Herman Miller Embody requires deliberate armrest readjustment. The Leap works well but less elegantly handles the transition between postures.
 
-Scenario 3: Warm Environments
+Scenario 3 - Warm Environments
 Herman Miller Aeron dominates. The mesh construction provides unmatched breathability. In testing across summer months, developers reported significantly better comfort in warm offices or climates without AC. Steelcase models run noticeably warmer, particularly during extended sessions. Embody's fabric backing increases heat retention compared to Aeron.
 
-Scenario 4: Variable Height Desk Users
+Scenario 4 - Variable Height Desk Users
 Steelcase Leap and Gesture handle sit-stand transitions more smoothly thanks to their fluid movement. Herman Miller Embody requires greater conscious adjustment when transitioning between heights. Aeron works adequately but the lack of forward tilt limits options at standing height.
 
 Price-to-Features Analysis
 
 Beyond raw cost, consider total cost of ownership:
 
-Herman Miller Embody: $1,400-1,600 initial | $0 annual | 12-year lifespan = ~$115/year
+Herman Miller Embody - $1,400-1,600 initial | $0 annual | 12-year lifespan = ~$115/year
 - High resale value (typically 60-70% of original price after 3 years)
 - Replacement cushions available but expensive ($250+)
 - Most expensive initially but lowest per-year cost if kept long-term
 
-Herman Miller Aeron: $1,200-1,500 | $0 annual | 12-year lifespan = ~$100-125/year
+Herman Miller Aeron - $1,200-1,500 | $0 annual | 12-year lifespan = ~$100-125/year
 - Excellent resale market due to ubiquity
 - Replacement cushions more affordable ($150-200)
 - Best entry point for ergonomic chairs
 
-Steelcase Leap: $1,000-1,400 | $0 annual | 12-year lifespan = ~$85-115/year
+Steelcase Leap - $1,000-1,400 | $0 annual | 12-year lifespan = ~$85-115/year
 - Lower initial cost than Herman Miller
 - Slightly better resale value than Gesture
 - Easier warranty claims through Steelcase dealers
 
-Steelcase Gesture: $1,300-1,600 | $0 annual | 12-year lifespan = ~$110-135/year
+Steelcase Gesture - $1,300-1,600 | $0 annual | 12-year lifespan = ~$110-135/year
 - Premium pricing for additional features
 - More specialized use case (multi-device workers)
 - Lower resale value than Leap
@@ -209,19 +209,19 @@ The Warranty Deep Dive
 
 Both brands offer 12-year warranties, but what they cover differs:
 
-Herman Miller: Covers manufacturing defects, structural failures, and the proprietary mechanisms. Cosmetic issues (worn upholstery) aren't covered. Repairs typically happen through authorized dealers. Average repair time: 2-3 weeks. Many developers report never needing warranty service despite 10+ years of use.
+Herman Miller - Covers manufacturing defects, structural failures, and the proprietary mechanisms. Cosmetic issues (worn upholstery) aren't covered. Repairs typically happen through authorized dealers. Average repair time: 2-3 weeks. Many developers report never needing warranty service despite 10+ years of use.
 
-Steelcase: Similarly warranty with excellent dealer network support. Steelcase actively encourages refurbishment and remanufacturing, used Steelcase chairs often get overhauled and resold at lower prices through official channels. This creates a healthy secondary market.
+Steelcase - Similarly warranty with excellent dealer network support. Steelcase actively encourages refurbishment and remanufacturing, used Steelcase chairs often get overhauled and resold at lower prices through official channels. This creates a healthy secondary market.
 
-Size Matters: The Critical Detail Everyone Misses
+Size Matters - The Critical Detail Everyone Misses
 
 Chair sizing is vastly underestimated in importance. An Aeron Size an on someone 6'2" will never feel right, no matter how good the mechanism. Conversely, a Size C on someone 5'4" creates unnecessary pressure.
 
-For Developers Under 5'5": Aeron Size an is essential. Herman Miller Embody comes in one size but works better for average heights. Steelcase Leap and Gesture work across sizes but may feel large.
+For Developers Under 5'5" - Aeron Size an is essential. Herman Miller Embody comes in one size but works better for average heights. Steelcase Leap and Gesture work across sizes but may feel large.
 
-For Developers 5'5" to 5'10": Most chairs work well. Aeron Size B is the sweet spot. Embody fits well throughout this range.
+For Developers 5'5" to 5'10" - Most chairs work well. Aeron Size B is the sweet spot. Embody fits well throughout this range.
 
-For Developers Over 5'10": Aeron Size C is necessary. Embody works but some tall developers report the seat pan being slightly short. Steelcase models accommodate taller frames better, particularly the Leap with its deeper seat.
+For Developers Over 5'10" - Aeron Size C is necessary. Embody works but some tall developers report the seat pan being slightly short. Steelcase models accommodate taller frames better, particularly the Leap with its deeper seat.
 
 Where to Buy and Pricing Strategy
 
@@ -230,7 +230,7 @@ Direct Manufacturer Purchases
 - Steelcase Direct: Full price, volume discounts available, business account benefits
 
 Authorized Retailers
-- Herman Miller: Design Within Reach, Hermanmiller.com, select office furniture stores
+- Herman Miller - Design Within Reach, Hermanmiller.com, select office furniture stores
 - Steelcase: Steelcase.com, authorized dealer network, often slightly discounted
 - Average retail: 10-15% discount off manufacturer price
 
@@ -244,10 +244,10 @@ Financing Options
 Many retailers offer 12-month financing with 0% interest, making monthly cost manageable:
 
 ```
-FINANCING EXAMPLE: Herman Miller Aeron ($1,395)
+FINANCING EXAMPLE - Herman Miller Aeron ($1,395)
 
-Without financing: $1,395 upfront
-With 12-month 0% APR: $116/month
+Without financing - $1,395 upfront
+With 12-month 0% APR - $116/month
 24-month option (if available): $58/month
 
 Total cost same, but spread across budget
@@ -259,7 +259,7 @@ Timing and Seasonal Discounts
 - New model releases: Previous generation discounted 10-15%
 - End-of-fiscal-year (company budgets): March-April often sees sales
 
-Hybrid Approach: Combining Chairs
+Hybrid Approach - Combining Chairs
 
 Some developers use different chairs for different work types:
 

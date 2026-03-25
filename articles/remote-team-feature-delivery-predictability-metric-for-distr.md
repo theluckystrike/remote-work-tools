@@ -26,7 +26,7 @@ Table of Contents
 - [Interpreting Results](#interpreting-results)
 - [Setting Realistic Targets](#setting-realistic-targets)
 - [Jira Integration for Automated Metrics](#jira-integration-for-automated-metrics)
-- [Tools Comparison: Delivery Metrics Platforms](#tools-comparison-delivery-metrics-platforms)
+- [Tools Comparison - Delivery Metrics Platforms](#tools-comparison-delivery-metrics-platforms)
 - [The Predictability Improvement Playbook](#the-predictability-improvement-playbook)
 - [Building Predictability Over Time](#building-predictability-over-time)
 
@@ -36,7 +36,7 @@ Why Predictability Matters for Distributed Teams
 
 When your team spans multiple time zones, predictability enables stakeholders to plan releases, marketing campaigns, and customer commitments with confidence. A team that delivers 8 out of 10 planned features consistently provides far more value than one that delivers anywhere from 3 to 12 features depending on the sprint.
 
-The core problem: distributed teams face unique challenges that distort traditional velocity metrics. A feature planned for a two-week sprint might stall for days waiting for review feedback from a teammate in a different time zone. Weekend work in one region becomes Monday blockers in another. These delays compound, making prediction based on raw story points unreliable.
+The core problem - distributed teams face unique challenges that distort traditional velocity metrics. A feature planned for a two-week sprint might stall for days waiting for review feedback from a teammate in a different time zone. Weekend work in one region becomes Monday blockers in another. These delays compound, making prediction based on raw story points unreliable.
 
 Instead of fighting these realities, measure them directly using delivery predictability metrics that account for async workflows.
 
@@ -54,7 +54,7 @@ def commitment_accuracy(completed_points, committed_points):
 
 Team completed 34 story points out of 40 committed
 accuracy = commitment_accuracy(34, 40)
-print(f"Commitment Accuracy: {accuracy:.1f}%")  # Output: 85.0%
+print(f"Commitment Accuracy - {accuracy:.1f}%")  # Output: 85.0%
 ```
 
 Track this weekly or per-sprint. A healthy target for distributed teams sits between 75-90%. Below 60% indicates systematic over-commitment; above 95% suggests the team is sandbagging estimates.
@@ -71,7 +71,7 @@ def calculate_cycle_time(start_date, end_date):
     end = datetime.fromisoformat(end_date)
     return (end - start).days
 
-Example feature: started March 1, deployed March 9
+Example feature - started March 1, deployed March 9
 cycle_time = calculate_cycle_time("2026-03-01", "2026-03-09")
 print(f"Cycle Time: {cycle_time} days")  # Output: 8 days
 ```
@@ -150,7 +150,7 @@ def get_github_cycle_time(owner, repo, token):
 
 Usage
 metrics = get_github_cycle_time("your-org", "your-repo", "ghp_your_token")
-print(f"Avg Cycle Time: {metrics['avg_cycle_time']:.1f} days")
+print(f"Avg Cycle Time - {metrics['avg_cycle_time']:.1f} days")
 print(f"Features Delivered: {metrics['features_delivered']}")
 ```
 
@@ -180,7 +180,7 @@ jobs:
           committed = 40
           accuracy = (completed / committed) * 100
 
-          print(f'Commitment Accuracy: {accuracy:.1f}%')
+          print(f'Commitment Accuracy - {accuracy:.1f}%')
           print(f'::set-output name=accuracy::{accuracy}')
           "
 
@@ -264,7 +264,7 @@ print(f"Sprint accuracy: {result['accuracy']:.1f}%")
 
 For Jira users, the Jira Dashboards Burndown Chart widget displays commitment accuracy out of the box. Complement it with a Velocity Chart (Jira Software → Reports → Velocity Chart) to track consistency across sprints. Linear users get equivalent data through Linear's Cycles analytics view.
 
-Tools Comparison: Delivery Metrics Platforms
+Tools Comparison - Delivery Metrics Platforms
 
 Different teams track predictability with different toolchains. Here is how the major options compare:
 
@@ -283,11 +283,11 @@ The Predictability Improvement Playbook
 
 After measuring for 8-12 weeks, teams typically fall into one of three patterns:
 
-Pattern 1: Low accuracy, high variance (accuracy 40-60%, cycle time varies 2x-5x)
+Pattern 1 - Low accuracy, high variance (accuracy 40-60%, cycle time varies 2x-5x)
 
-Root cause is usually poor estimation or undefined scope at sprint start. Fix: introduce a Definition of Ready (DoR). no issue enters a sprint without acceptance criteria, a size estimate, and dependency review. Re-measure after four sprints.
+Root cause is usually poor estimation or undefined scope at sprint start. Fix - introduce a Definition of Ready (DoR). no issue enters a sprint without acceptance criteria, a size estimate, and dependency review. Re-measure after four sprints.
 
-Pattern 2: Good accuracy, long cycle times (accuracy 80%+, cycle time 15+ days)
+Pattern 2 - Good accuracy, long cycle times (accuracy 80%+, cycle time 15+ days)
 
 The team is reliably slow. Root cause is often review bottlenecks. PRs sitting for 24-48 hours in async review. Fix: add a team agreement that PRs under 200 lines receive review within one working day, and instrument PR age in your metrics:
 
@@ -299,7 +299,7 @@ def pr_review_lag(created_at, first_review_at):
     return (reviewed - created).total_seconds() / 3600
 ```
 
-Pattern 3: Improving accuracy, stable cycle time
+Pattern 3 - Improving accuracy, stable cycle time
 
 This is the target state. The team is calibrated. Shift focus from predictability repair to throughput improvement: can you reduce cycle time by 20% without sacrificing accuracy?
 

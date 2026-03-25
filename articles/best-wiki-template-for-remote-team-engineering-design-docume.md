@@ -33,8 +33,8 @@ Here is a battle-tested template you can adapt for your team's wiki:
 
 Problem Statement
 - Current State: Describe the existing behavior or gap
-- Impact: Who is affected and how?
-- Why Now: What changed that makes this necessary?
+- Impact - Who is affected and how?
+- Why Now - What changed that makes this necessary?
 
 Goals and Non-Goals
 Goals
@@ -73,11 +73,11 @@ Alternatives Considered
 | Option B    | ...  | ...  | ...               |
 
 Implementation Plan
-Phase 1: [Name]
+Phase 1 - [Name]
 - [ ] Task breakdown item
 - [ ] Task breakdown item
 
-Phase 2: [Name]
+Phase 2 - [Name]
 - [ ] Task breakdown item
 
 Success Metrics
@@ -95,9 +95,9 @@ Integrating Async Review Workflow
 
 The template above includes dedicated sections for reviewers because async review requires explicit ownership. For distributed teams, establish clear conventions:
 
-Review Assignment: Assign reviewers based on expertise areas. The template's reviewer section makes this explicit and helps authors identify necessary stakeholders before publishing.
+Review Assignment - Assign reviewers based on expertise areas. The template's reviewer section makes this explicit and helps authors identify necessary stakeholders before publishing.
 
-Comment Conventions: Use a consistent format for feedback:
+Comment Conventions - Use a consistent format for feedback:
 
 ```markdown
 Review Comments
@@ -114,9 +114,9 @@ Questions (Clarification needed)
 
 This structure helps authors distinguish between issues that require changes and suggestions they can choose to address. It also speeds up response time because everyone understands the priority level of each comment.
 
-Response Time Expectations: Document your team's SLA for review responses. For most remote teams, a 24-hour initial response and 72-hour resolution window works well. Add these expectations to your wiki's contribution guidelines.
+Response Time Expectations - Document your team's SLA for review responses. For most remote teams, a 24-hour initial response and 72-hour resolution window works well. Add these expectations to your wiki's contribution guidelines.
 
-Practical Example: API Design Review
+Practical Example - API Design Review
 
 Consider a team implementing a new feature endpoint. Using the template, the author documents:
 
@@ -143,9 +143,9 @@ The reviewer can then assess whether the goals are appropriate, check if non-goa
 
 Tips for Effective Remote Design Reviews
 
-Start with a draft: Before requesting formal review, share a preliminary draft in your team's async discussion channel. This catches fundamental misunderstandings early and saves everyone time.
+Start with a draft - Before requesting formal review, share a preliminary draft in your team's async discussion channel. This catches fundamental misunderstandings early and saves everyone time.
 
-Use visual aids: Include architecture diagrams, sequence charts, or mockups. A picture often resolves confusion that paragraphs of text cannot. Tools like Mermaid diagrams render directly in most wikis:
+Use visual aids - Include architecture diagrams, sequence charts, or mockups. A picture often resolves confusion that paragraphs of text cannot. Tools like Mermaid diagrams render directly in most wikis:
 
 ```mermaid
 graph LR
@@ -155,9 +155,9 @@ graph LR
     C --> E[Push Provider]
 ```
 
-Keep proposals focused: If your design document exceeds 2000 words, consider splitting it. Smaller, focused documents review faster and attract more thorough feedback.
+Keep proposals focused - If your design document exceeds 2000 words, consider splitting it. Smaller, focused documents review faster and attract more thorough feedback.
 
-Track decisions explicitly: Once review concludes, update your document with final decisions and rationale. Future team members will thank you.
+Track decisions explicitly - Once review concludes, update your document with final decisions and rationale. Future team members will thank you.
 
 Adapting the Template for Your Team
 
@@ -175,7 +175,7 @@ Confluence-Specific Considerations
 Confluence natively supports decision tracking and voting. use these features:
 
 ```
-Design Document: [Title]
+Design Document - [Title]
 
 {toc}
 
@@ -197,8 +197,8 @@ Decision Log
 
 {decision:decision-123}
 Chosen Option A for scalability
-Decided by: @architect
-Date: 2026-03-15
+Decided by - @architect
+Date - 2026-03-15
 ```
 
 Confluence-specific plugins that enhance templates:
@@ -285,51 +285,51 @@ Alternatives Considered
 
 Real-World Implementation Examples
 
-Example 1: Startup Scale-Up Design Doc
+Example 1 - Startup Scale-Up Design Doc
 A Series B startup needed to document their move from monolith to microservices:
 
-Original approach: Lengthy 50-page document, nobody read it
-Fixed approach: Split into 3 focused design docs:
+Original approach - Lengthy 50-page document, nobody read it
+Fixed approach - Split into 3 focused design docs:
 1. Service decomposition strategy (5 pages)
 2. Event streaming architecture (4 pages)
 3. API gateway and routing layer (3 pages)
 
 Reviewers actually completed feedback in 72 hours instead of 3 weeks.
 
-Example 2: Enterprise API Standardization
+Example 2 - Enterprise API Standardization
 Enterprise team standardizing 100+ APIs across divisions:
 
-Challenge: Previous template required too much detail, killed adoption
-Solution: Create tiered templates:
+Challenge - Previous template required too much detail, killed adoption
+Solution - Create tiered templates:
 - Tier 1 (simple CRUD APIs): 1-page minimal template
 - Tier 2 (complex integrations): Standard full template
 - Tier 3 (critical infrastructure): Extended template with security audit
 
 Adoption increased from 20% to 85% within 2 months.
 
-Example 3: Distributed Team Async Review
+Example 3 - Distributed Team Async Review
 Global team across 4 time zones needed to review designs without blocking:
 
-Challenge: Real-time discussions didn't work; async reviews were slow
-Solution: Added review phases with explicit time windows:
+Challenge - Real-time discussions didn't work; async reviews were slow
+Solution - Added review phases with explicit time windows:
 
 ```
-Phase 1: Author Draft (48 hours)
+Phase 1 - Author Draft (48 hours)
 → Submit via wiki
 
-Phase 2: Async Feedback (72 hours)
+Phase 2 - Async Feedback (72 hours)
 → Reviewer 1 and 2 leave comments
 → Use comment threads per section
 
-Phase 3: Response (48 hours)
+Phase 3 - Response (48 hours)
 → Author responds to each thread
 → Marks "Addressed," "Deferred," or "Disagree + Discussion"
 
-Phase 4: Resolution (24 hours)
+Phase 4 - Resolution (24 hours)
 → Reviewers confirm resolution or escalate
 → Decision log updated
 
-Total: 7 days vs. weeks of back-and-forth
+Total - 7 days vs. weeks of back-and-forth
 ```
 
 Template Customization Checklist

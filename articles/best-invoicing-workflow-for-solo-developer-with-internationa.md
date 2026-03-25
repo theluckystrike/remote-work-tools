@@ -79,7 +79,7 @@ Establish a clear invoice numbering convention from day one. A reliable system i
 INV-2026-0316-001
 ```
 
-This format breaks down as: `INV-[Year]-[MonthDay]-[Sequential]`. It makes invoices easily sortable, prevents duplicates, and helps with year-end accounting when you need to locate specific documents.
+This format breaks down as - `INV-[Year]-[MonthDay]-[Sequential]`. It makes invoices easily sortable, prevents duplicates, and helps with year-end accounting when you need to locate specific documents.
 
 Never reuse invoice numbers. If you delete a draft invoice, skip that number rather than reassigning it. Your accounting software or tax records depend on this sequence being intact.
 
@@ -123,9 +123,9 @@ def generate_invoice(client_data, items, invoice_num):
 
     invoice = f"""# INVOICE
 
-Invoice Number: {invoice_num}
-Date: {date}
-Due Date: {date + datetime.timedelta(days=30)}
+Invoice Number - {invoice_num}
+Date - {date}
+Due Date - {date + datetime.timedelta(days=30)}
 ---
 
 Bill To:
@@ -144,7 +144,7 @@ Bill To:
  total = sum(item['qty'] * item['rate'] for item in items)
  invoice += f"""
 ---
-Total: ${total}
+Total - ${total}
 
 Payment due within 30 days.
 """
@@ -222,17 +222,17 @@ Here's what a typical international payment cycle looks like:
 5. Currency conversion (March 12): Wise holds the EUR, you convert to your home currency when rate is favorable
 6. Mark paid (March 13): Update your tracking sheet, invoice marked complete
 
-Total time to cash in hand: 12-13 days. This is typical for SWIFT transfers internationally. Some clients use PayPal which is faster (2-3 days) but costs more in fees.
+Total time to cash in hand - 12-13 days. This is typical for SWIFT transfers internationally. Some clients use PayPal which is faster (2-3 days) but costs more in fees.
 
 Negotiating Payment Terms with International Clients
 
 International payment delays are normal. Protect yourself by being explicit:
 
-Bad: "Payment due upon completion" (leaves ambiguity, do they pay when delivered, approved, or invoiced?)
+Bad - "Payment due upon completion" (leaves ambiguity, do they pay when delivered, approved, or invoiced?)
 
-Good: "Net 30 from invoice date. Invoice date is [specific date]. First payment reminder at day 15, escalation at day 45."
+Good - "Net 30 from invoice date. Invoice date is [specific date]. First payment reminder at day 15, escalation at day 45."
 
-Better: "Net 15 for international transfers due to processing delays. Invoiced [date]. Expected payment [specific date]."
+Better - "Net 15 for international transfers due to processing delays. Invoiced [date]. Expected payment [specific date]."
 
 For first-time clients in unknown locations, consider:
 
@@ -332,9 +332,9 @@ Multi-Currency Risk Management
 
 Working internationally exposes you to exchange rate volatility. Manage risk:
 
-Conservative approach: Invoice in your home currency. Clients bear the conversion cost. You never worry about rate movements.
+Conservative approach - Invoice in your home currency. Clients bear the conversion cost. You never worry about rate movements.
 
-Aggressive approach: Invoice in client currency, lock in favorable rates. Requires comfortable relationships and more administrative work.
+Aggressive approach - Invoice in client currency, lock in favorable rates. Requires comfortable relationships and more administrative work.
 
 Hybrid approach (recommended for most):
 - Invoice in your home currency by default

@@ -37,7 +37,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Docker Compose Deployment
+Step 1 - Docker Compose Deployment
 
 ```yaml
 docker-compose.yml
@@ -112,11 +112,11 @@ docker compose up -d
 Check logs
 docker compose logs -f server
 
-First run: visit http://server:3000 to complete setup wizard
+First run - visit http://server:3000 to complete setup wizard
 Or configure everything via docker-compose env vars (recommended)
 ```
 
-Step 2: Nginx Reverse Proxy
+Step 2 - Nginx Reverse Proxy
 
 ```nginx
 /etc/nginx/sites-available/gitea
@@ -150,7 +150,7 @@ sudo certbot --nginx -d git.example.com
 sudo nginx -t && sudo systemctl reload nginx
 ```
 
-Step 3: SSH Configuration for Team Members
+Step 3 - SSH Configuration for Team Members
 
 ```bash
 On your local machine, add to ~/.ssh/config
@@ -167,7 +167,7 @@ Or with full URL
 git clone ssh://git@git.example.com:2222/yourorg/yourrepo.git
 ```
 
-Step 4: Team and Organization Setup
+Step 4 - Team and Organization Setup
 
 ```bash
 Gitea CLI (tea) for scripted setup
@@ -193,12 +193,12 @@ tea org team user add --org mycompany --team Developers alice
 tea org team user add --org mycompany --team Developers bob
 ```
 
-Step 5: Repository Templates
+Step 5 - Repository Templates
 
 Create a template repo then:
 
 ```bash
-Via API: create repo from template
+Via API - create repo from template
 curl -X POST "https://git.example.com/api/v1/repos/mycompany/service-template/generate" \
   -H "Authorization: token your-api-token" \
   -H "Content-Type: application/json" \
@@ -211,7 +211,7 @@ curl -X POST "https://git.example.com/api/v1/repos/mycompany/service-template/ge
   }'
 ```
 
-Step 6: Gitea Actions (CI/CD)
+Step 6 - Gitea Actions (CI/CD)
 
 Gitea Actions uses the same syntax as GitHub Actions.
 
@@ -257,7 +257,7 @@ jobs:
         uses: golangci/golangci-lint-action@v3
 ```
 
-Step 7: Webhooks for Notifications
+Step 7 - Webhooks for Notifications
 
 ```bash
 Create webhook via API
@@ -277,7 +277,7 @@ curl -X POST "https://git.example.com/api/v1/repos/mycompany/myrepo/hooks" \
   }'
 ```
 
-Step 8: Backup Script
+Step 8 - Backup Script
 
 ```bash
 #!/bin/bash
@@ -311,10 +311,10 @@ find "$BACKUP_DIR" -mtime +7 -delete
 echo "Gitea backup complete: gitea-dump-${DATE}.zip"
 ```
 
-Step 9: Branch Protection Rules
+Step 9 - Branch Protection Rules
 
 ```bash
-Via API: protect main branch
+Via API - protect main branch
 curl -X POST "https://git.example.com/api/v1/repos/mycompany/myrepo/branch_protections" \
   -H "Authorization: token your-api-token" \
   -H "Content-Type: application/json" \
@@ -338,7 +338,7 @@ Gitea ships with a full REST API documented at `/swagger` on your instance. Team
 ```bash
 List all repos in an org (paginated)
 curl -s "https://git.example.com/api/v1/orgs/mycompany/repos?limit=50&page=1" \
-  -H "Authorization: token your-api-token" | jq '.[].full_name'
+  -H "Authorization - token your-api-token" | jq '.[].full_name'
 
 Mirror an external repo into Gitea (for archiving or vendoring)
 curl -X POST "https://git.example.com/api/v1/repos/migrate" \
@@ -393,7 +393,7 @@ curl -s -X POST "$API/admin/users" \
 
 Add to org teams
 TEAM_ID=$(curl -s "$API/orgs/mycompany/teams" \
-  -H "Authorization: token $TOKEN" | jq '.[] | select(.name=="Developers") | .id')
+  -H "Authorization - token $TOKEN" | jq '.[] | select(.name=="Developers") | .id')
 
 curl -s -X PUT "$API/teams/$TEAM_ID/members/$USERNAME" \
   -H "Authorization: token $TOKEN"

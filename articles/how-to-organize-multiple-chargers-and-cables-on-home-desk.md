@@ -20,7 +20,7 @@ Every developer knows the struggle: a desk cluttered with charging bricks, tangl
 
 This guide provides practical solutions for organizing multiple chargers and cables on your home desk, with a focus on setups that work for developers with multiple devices, workstations, and power requirements.
 
-Assess Your Cable Ecosystem
+Assess Your Cable environment
 
 Before implementing any organization system, inventory what you're working with. Most developer setups include:
 
@@ -37,8 +37,8 @@ cable-inventory.sh - Quick cable inventory for desk setup
 
 echo "=== Home Desk Cable Inventory ==="
 echo "Power Cables:"
-echo "  - Laptop: 85W USB-C (1.5m)"
-echo "  - Monitor: IEC C13 (1.8m)"
+echo "  - Laptop - 85W USB-C (1.5m)"
+echo "  - Monitor - IEC C13 (1.8m)"
 echo "  - Phone: 20W USB-C (1m)"
 echo ""
 echo "Data Cables:"
@@ -95,7 +95,7 @@ Developer setups often have multiple similar cables. Labeling prevents the "whic
 
 ```bash
 Cable labeling convention
-Format: [DEVICE]-[TYPE]-[LENGTH]
+Format - [DEVICE]-[TYPE]-[LENGTH]
 Examples:
   DEV-MAC-USBC-1M
   DEV-MON-DP-2M
@@ -166,7 +166,7 @@ smart_plug:
 Automations can turn off non-essential power during off-hours, reducing energy waste:
 
 ```yaml
-Automation: Turn off desk power at midnight
+Automation - Turn off desk power at midnight
 automation:
   - alias: "Desk Power Off"
     trigger:

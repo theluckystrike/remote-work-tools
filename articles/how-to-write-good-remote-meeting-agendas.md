@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Core Components of an Effective Agenda
+Step 1 - The Core Components of an Effective Agenda
 
 Every solid meeting agenda needs five elements: a clear purpose, time bounds, specific topics with owners, expected outcomes, and prep materials.
 
@@ -37,11 +37,11 @@ A straightforward agenda format in markdown looks like this:
 ```markdown
 Weekly Engineering Sync. March 15, 2026
 
-Purpose: Align on sprint progress and unblock items
-Duration: 30 minutes
-Facilitator: Sarah
+Purpose - Align on sprint progress and unblock items
+Duration - 30 minutes
+Facilitator - Sarah
 
-Step 2: Agenda
+Step 2 - Agenda
 
 | Topic | Owner | Time | Outcome |
 |-------|-------|------|---------|
@@ -50,7 +50,7 @@ Step 2: Agenda
 | Incident post-mortem | Alex | 10 min | Document action items |
 | Open discussion | All | 5 min | Address questions |
 
-Step 3: Prep
+Step 3 - Prep
 
 - Review [PR #234](https://github.com/team/repo/pull/234)
 - Read the API redesign doc
@@ -58,7 +58,7 @@ Step 3: Prep
 
 This structure shows attendees what to expect, who owns each topic, and what they need to prepare.
 
-Step 4: Writing Agenda Items That Drive Discussion
+Step 4 - Writing Agenda Items That Drive Discussion
 
 Vague agenda items create vague meetings. Instead of "Discuss API," write "Review REST-to-GraphQL migration proposal. decide on timeline for Q2." The difference matters because the second version tells attendees what decision they'll make and when.
 
@@ -67,18 +67,18 @@ For technical discussions, include links to specs, pull requests, or design docu
 A well-structured technical agenda item follows this pattern:
 
 ```markdown
-Topic: Implement Redis caching layer
+Topic - Implement Redis caching layer
 
 - Owner: Jordan
 - Time: 15 minutes
-- Context: [Design doc](https://docs.example.com/redis-cache-design)
+- Context - [Design doc](https://docs.example.com/redis-cache-design)
 - Current state: Queries averaging 200ms on user lookups
 - Proposal: Add 5-minute TTL cache, expect 80% hit rate
 - Decision needed: Approval to proceed with implementation
 - Dependencies: DevOps team availability for Redis cluster setup
 ```
 
-Step 5: Automate Agenda Creation
+Step 5 - Automate Agenda Creation
 
 For recurring meetings, scripts can generate agendas from templates and issue tracker data. This approach saves time and ensures consistency.
 
@@ -106,7 +106,7 @@ def generate_agenda(issues, filename="agenda.md"):
     with open(filename, "w") as f:
         f.write(f"# Sprint Sync. {date_str}\n\n")
         f.write(f"Purpose: Sprint progress and blockers\n")
-        f.write(f"Duration: 30 minutes\n\n")
+        f.write(f"Duration - 30 minutes\n\n")
         f.write("## Agenda\n\n")
         for issue in issues:
             f.write(f"- [{issue['number']}](https://github.com/org/repo/issues/{issue['number']}): ")
@@ -121,14 +121,14 @@ if __name__ == "__main__":
 
 This script pulls relevant issues and formats them into a readable agenda. You can extend it to pull from Linear, Jira, or any other project management tool your team uses.
 
-Step 6: Time Boxing and Real-Time Management
+Step 6 - Time Boxing and Real-Time Management
 
 Remote meetings require strict time management. Without visual cues about how much time remains, discussions can run over and waste everyone's schedule. Time boxing each agenda item keeps meetings on track.
 
 Add explicit time allocations to your agenda:
 
 ```markdown
-Step 7: Agenda
+Step 7 - Agenda
 
 1. Blockers and escalations. 5 min (all)
 2. Sprint metrics review. 5 min (scrum master)
@@ -138,34 +138,34 @@ Step 7: Agenda
 
 If a topic needs more time than allocated, the facilitator should decide whether to extend the meeting (and get explicit agreement) or defer the remaining discussion to async communication or a follow-up meeting.
 
-Step 8: Pre-Meeting and Post-Meeting Workflows
+Step 8 - Pre-Meeting and Post-Meeting Workflows
 
 The agenda is most effective when integrated into a broader meeting workflow. Send the agenda at least 24 hours in advance for important meetings. This gives participants time to prepare responses, gather data, or flag topics that need more time.
 
 After the meeting, publish notes within a few hours while the discussion is fresh. Include action items with assignees and deadlines. This closes the loop and makes the meeting valuable even for those who couldn't attend live.
 
 ```markdown
-Meeting Notes: API Design Review. March 15, 2026
+Meeting Notes - API Design Review. March 15, 2026
 
-Step 9: Attendees
+Step 9 - Attendees
 - Sarah, Marcus, Jordan, Alex
 
-Step 10: Decisions
+Step 10 - Decisions
 -  Approved GraphQL migration for user endpoints
 -  Deferred payment integration redesign to Q3
 
-Step 11: Action Items
+Step 11 - Action Items
 | Action | Owner | Due |
 |--------|-------|-----|
 | Create GraphQL schema draft | Jordan | March 18 |
 | Update API documentation | Marcus | March 20 |
 | Set up staging environment | DevOps | March 22 |
 
-Step 12: Recording
+Step 12 - Recording
 [Link to recording]. available for async review
 ```
 
-Step 13: Key Principles to Remember
+Step 13 - Key Principles to Remember
 
 Writing good remote meeting agendas comes down to four principles. First, be specific about decisions needed. vague agendas produce vague outcomes. Second, provide context upfront. link specs, documents, and background materials. Third, respect time. allocate realistic durations and enforce them. Fourth, close the loop. document decisions and action items immediately after the meeting.
 
@@ -173,17 +173,17 @@ Remote teams that adopt structured agendas typically see fewer meetings, shorter
 
 Write the agenda before sending the invite, then evaluate whether the meeting is still necessary. Sometimes a well-written agenda reveals the meeting itself isn't needed.
 
-Step 14: Agenda Management Tools
+Step 14 - Agenda Management Tools
 
-Option 1: Google Docs (Free)
+Option 1 - Google Docs (Free)
 - Shared document, everyone can comment/edit
 - Easy to share, no new tool to learn
 - Version history built-in
 - Drawback: Not structured; often becomes messy
 
-Best practice: Use template (keep consistent format)
+Best practice - Use template (keep consistent format)
 
-Option 2: Notion (Free to $10/month)
+Option 2 - Notion (Free to $10/month)
 - Database of meetings with agenda as property
 - Search past agendas easily
 - Templates for recurring meetings
@@ -200,7 +200,7 @@ Template properties:
 - Recording (link)
 - Action items (database link)
 
-Option 3: Otter.ai (Note + Transcription)
+Option 3 - Otter.ai (Note + Transcription)
 - Cost: Free basic, $10-30/month paid
 - Automatically transcribes meeting
 - Creates notes automatically
@@ -208,7 +208,7 @@ Option 3: Otter.ai (Note + Transcription)
 - Records and stores recording
 - Best for: Teams that want auto-generated notes
 
-Option 4: Fellow (Purpose-Built)
+Option 4 - Fellow (Purpose-Built)
 - Cost: $8-15/user/month
 - Agenda + notes + action tracking
 - Integration: Slack, Jira, Linear
@@ -216,7 +216,7 @@ Option 4: Fellow (Purpose-Built)
 - 1-on-1 focused features
 - Best for: Engineering leaders managing multiple meetings
 
-Option 5: HubSpot Meetings (Free)
+Option 5 - HubSpot Meetings (Free)
 - Meeting scheduling + lightweight agenda
 - Sync to HubSpot CRM
 - Simple agenda format
@@ -224,17 +224,17 @@ Option 5: HubSpot Meetings (Free)
 
 For most teams, Google Docs + template (free) or Notion (if already using) is best choice.
 
-Step 15: Agenda Templates by Meeting Type
+Step 15 - Agenda Templates by Meeting Type
 
 Daily Standup (15 minutes)
 ```
 Daily Standup. [Date]
 
-Attendees: [Team list]
-Facilitator: [Name]
-Timekeeper: [Name]
+Attendees - [Team list]
+Facilitator - [Name]
+Timekeeper - [Name]
 
-Step 16: Format
+Step 16 - Format
 - Each person: 1 minute (what shipped, blocked, focus)
 - Team blockers: 2-3 minutes (escalations)
 - Announcement: 1 minute (if any)
@@ -246,10 +246,10 @@ Weekly Sprint Planning (60 minutes)
 ```
 Sprint Planning. Week of [Date]
 
-Facilitator: Product Manager
-Attendees: Engineering team, design, product
+Facilitator - Product Manager
+Attendees - Engineering team, design, product
 
-Step 17: Agenda
+Step 17 - Agenda
 
 | Item | Owner | Time | Outcome |
 |------|-------|------|---------|
@@ -259,7 +259,7 @@ Step 17: Agenda
 | Story point voting | Team | 15 min | Estimate capacity |
 | Sprint start confirmation | PM | 5 min | Commit to sprint |
 
-Step 18: Prep
+Step 18 - Prep
 - Review top 10 backlog items before meeting
 - Have story point reference (previous sprints)
 ```
@@ -268,10 +268,10 @@ Weekly Team Sync (30 minutes)
 ```
 Weekly Team Sync. [Team], [Day]
 
-Facilitator: [Manager]
-Attendees: [Team list]
+Facilitator - [Manager]
+Attendees - [Team list]
 
-Step 19: Agenda (Timekeeper keeps pace)
+Step 19 - Agenda (Timekeeper keeps pace)
 
 1. Wins (3 min). What shipped/accomplished
 2. Blockers (5 min). What's stuck, needs unblocking
@@ -279,7 +279,7 @@ Step 19: Agenda (Timekeeper keeps pace)
 4. People/Culture (5 min). Team health check, announcements
 5. Open discussion (5 min). Q&A, misc topics
 
-Step 20: Prep
+Step 20 - Prep
 - Come ready to share 1 win from your area
 - Flag blockers in advance if possible
 ```
@@ -288,10 +288,10 @@ Engineering Design Review (45 minutes)
 ```
 Design Review. [Feature/Project]
 
-Facilitator: Tech Lead
-Context: [Link to design doc/RFC]
+Facilitator - Tech Lead
+Context - [Link to design doc/RFC]
 
-Step 21: Agenda
+Step 21 - Agenda
 
 | Item | Owner | Time | Outcome |
 |------|-------|------|---------|
@@ -301,7 +301,7 @@ Step 21: Agenda
 | Team discussion | All | 10 min | Open feedback |
 | Next steps | Tech lead | 5 min | Document decisions |
 
-Step 22: Prep Required
+Step 22 - Prep Required
 - Read design doc (5 min)
 - Review related code/architecture (5 min)
 - Prepare questions or concerns
@@ -311,9 +311,9 @@ Monthly 1-on-1 (30 minutes)
 ```
 1-on-1. [Employee], [Date]
 
-Facilitator: Manager
+Facilitator - Manager
 
-Step 23: Agenda (Flexible; employee leads)
+Step 23 - Agenda (Flexible; employee leads)
 
 1. How are you feeling? (5 min). General mood check
 2. Work topics (15 min). Projects, goals, progress
@@ -321,7 +321,7 @@ Step 23: Agenda (Flexible; employee leads)
 4. Manager feedback (3 min). Manager perspective
 5. Next month focus (2 min). 1-3 priorities for next month
 
-Step 24: Prep
+Step 24 - Prep
 - Employee: Prepare update on ongoing projects
 - Manager: Review previous month's notes
 ```
@@ -330,10 +330,10 @@ Client Kickoff (60 minutes)
 ```
 Project Kickoff. [Client], [Project]
 
-Facilitator: Project Manager
-Attendees: Client stakeholders, project team
+Facilitator - Project Manager
+Attendees - Client stakeholders, project team
 
-Step 25: Agenda
+Step 25 - Agenda
 
 1. Introductions (5 min)
    - Team members + roles
@@ -364,12 +364,12 @@ Step 25: Agenda
    - Client questions
    - Team clarifications
 
-Step 26: Prep
+Step 26 - Prep
 - Client: Read project brief
 - Team: Have project plan, timeline visible
 ```
 
-Step 27: Automate Agenda Generation from Data
+Step 27 - Automate Agenda Generation from Data
 
 For recurring meetings, automate agenda creation:
 
@@ -398,7 +398,7 @@ def generate_sprint_agenda(repo_name, sprint_label, output_file='agenda.md'):
         f.write(f"# Sprint Planning. {datetime.now().strftime('%Y-%m-%d')}\n\n")
         f.write(f"Sprint: {sprint_label}\n")
         f.write(f"Total Issues: {issues.totalCount}\n")
-        f.write(f"Total Points: {sum([issue.labels[0].name for issue in issues])}\n\n")
+        f.write(f"Total Points - {sum([issue.labels[0].name for issue in issues])}\n\n")
 
         f.write("## Issues for Review\n\n")
         for issue in issues:
@@ -413,7 +413,7 @@ if __name__ == '__main__':
 
 This auto-generates the agenda 1 hour before the meeting, ensuring it's always current.
 
-Step 28: Agenda Review Before Meeting
+Step 28 - Agenda Review Before Meeting
 
 Implement a pre-meeting QA check:
 

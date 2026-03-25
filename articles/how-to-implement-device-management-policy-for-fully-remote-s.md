@@ -210,7 +210,7 @@ Device Loss Response Procedure
 
 1. Immediate Reporting (within 1 hour)
    - Notify IT security team via dedicated channel
-   - Email: security@company.com
+   - Email - security@company.com
    - Slack: #security-incidents
 
 2. Remote Wipe Initiation

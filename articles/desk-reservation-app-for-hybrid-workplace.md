@@ -151,7 +151,7 @@ Hybrid teams often live in their calendars. Integrating with Google Calendar or 
 ```javascript
 async function createCalendarEvent(reservation, accessToken) {
   const event = {
-    summary: `Desk Reservation: ${reservation.deskId}`,
+    summary: `Desk Reservation - ${reservation.deskId}`,
     start: {
       dateTime: `${reservation.date}T${reservation.startTime}:00`,
       timeZone: 'UTC'

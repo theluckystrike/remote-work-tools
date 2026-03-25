@@ -286,12 +286,12 @@ Remote teams often use many SaaS tools. Document vendor security:
 ```markdown
 Vendor Security Review Template
 
-Vendor: [Name]
-Data handled: [What data they access]
-Security certifications: [SOC 2, ISO 27001, etc.]
-DPA in place: [Yes/No]
-Last review: [Date]
-Risk assessment: [Low/Medium/High]
+Vendor - [Name]
+Data handled - [What data they access]
+Security certifications - [SOC 2, ISO 27001, etc.]
+DPA in place - [Yes/No]
+Last review - [Date]
+Risk assessment - [Low/Medium/High]
 ```
 
 Employee Training

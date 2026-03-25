@@ -179,13 +179,13 @@ Handling Edge Cases
 
 International teams must account for several complications:
 
-Daylight Saving Time: Always use IANA time zone identifiers (like "America/New_York") rather than fixed offsets. Libraries like Luxon handle DST transitions automatically.
+Daylight Saving Time - Always use IANA time zone identifiers (like "America/New_York") rather than fixed offsets. Libraries like Luxon handle DST transitions automatically.
 
-Flexible Hours: Some team members work non-standard schedules. Allow participants to specify their actual availability rather than assuming 9-6.
+Flexible Hours - Some team members work non-standard schedules. Allow participants to specify their actual availability rather than assuming 9-6.
 
-One-Time vs Recurring: A tool should distinguish between finding a single slot (more flexibility) and establishing a recurring meeting (needs long-term stability).
+One-Time vs Recurring - A tool should distinguish between finding a single slot (more flexibility) and establishing a recurring meeting (needs long-term stability).
 
-Public Holidays: For monthly or quarterly planning, factor in regional holidays that affect availability in specific time zones.
+Public Holidays - For monthly or quarterly planning, factor in regional holidays that affect availability in specific time zones.
 
 Tool Comparison Table
 

@@ -24,13 +24,13 @@ This guide provides templates for three core playbook types: incident response, 
 Incident Response Playbook Template
 
 ```markdown
-Incident: [INCIDENT-NAME]
+Incident - [INCIDENT-NAME]
 
-Severity: P1 / P2 / P3
-Status: Active / Resolved
-Incident Commander: @[owner]
-Started: YYYY-MM-DD HH:MM UTC
-Resolved: YYYY-MM-DD HH:MM UTC (fill when resolved)
+Severity - P1 / P2 / P3
+Status - Active / Resolved
+Incident Commander - @[owner]
+Started - YYYY-MM-DD HH:MM UTC
+Resolved - YYYY-MM-DD HH:MM UTC (fill when resolved)
 
 ---
 
@@ -38,11 +38,11 @@ What Is Happening
 
 One paragraph plain-language description of the incident. What is affected? Who is affected? What is the user-visible impact?
 
-> Example: "The payments API is returning 502 errors for ~40% of checkout attempts. Approximately 200 users per hour are unable to complete purchases. The error started at 14:23 UTC."
+> Example - "The payments API is returning 502 errors for ~40% of checkout attempts. Approximately 200 users per hour are unable to complete purchases. The error started at 14:23 UTC."
 
 Current Status
 
-> Example: "Identified root cause (database connection pool exhausted). Implementing fix. ETA 30 minutes."
+> Example - "Identified root cause (database connection pool exhausted). Implementing fix. ETA 30 minutes."
 
 Timeline
 
@@ -110,13 +110,13 @@ Follow-up Actions
 Deployment Playbook Template
 
 ```markdown
-Deployment: [SERVICE-NAME] v[VERSION]
+Deployment - [SERVICE-NAME] v[VERSION]
 
-Deployer: @[name]
-Date: YYYY-MM-DD
-Environment: staging / production
-Deploy type: Standard / Hotfix / Rollback
-PR / Release: [link]
+Deployer - @[name]
+Date - YYYY-MM-DD
+Environment - staging / production
+Deploy type - Standard / Hotfix / Rollback
+PR / Release - [link]
 
 ---
 
@@ -152,9 +152,9 @@ Deployment Steps
 Post in #deployments Slack channel:
 ```
 Deploying [service] v[version] to production.
-Changes: [brief summary]
-Risk: Low / Medium / High
-Rollback ready: yes
+Changes - [brief summary]
+Risk - Low / Medium / High
+Rollback ready - yes
 ```
 
 2. Deploy
@@ -210,8 +210,8 @@ kubectl describe deployment/[service] -n production | grep Image
 
 Post in #deployments:
 ```
-ROLLBACK: [service] rolled back to v[previous_version].
-Reason: [brief explanation]
+ROLLBACK - [service] rolled back to v[previous_version].
+Reason - [brief explanation]
 Investigation ongoing in #incidents
 ```
 ```
@@ -221,17 +221,17 @@ Investigation ongoing in #incidents
 Onboarding Playbook Template
 
 ```markdown
-Onboarding: [ENGINEER_NAME]
+Onboarding - [ENGINEER_NAME]
 
-Start Date: YYYY-MM-DD
-Role: [role]
-Manager: @[manager]
-Buddy: @[buddy]
-Team: [team name]
+Start Date - YYYY-MM-DD
+Role - [role]
+Manager - @[manager]
+Buddy - @[buddy]
+Team - [team name]
 
 ---
 
-Week 1: Foundation
+Week 1 - Foundation
 
 Day 1. Access and Setup
 
@@ -273,7 +273,7 @@ Day 4-5. Process and Context
 
 ---
 
-Week 2: Contributing
+Week 2 - Contributing
 
 - [ ] First PR merged to main
 - [ ] Attended or watched team retro recording
@@ -283,7 +283,7 @@ Week 2: Contributing
 
 ---
 
-Ongoing: 30/60/90 Day Goals
+Ongoing - 30/60/90 Day Goals
 
 30 Days
 - Ship 3 non-trivial PRs
@@ -322,11 +322,11 @@ Playbooks rot if they're not maintained. The best storage is wherever your team 
 
 ```bash
 Notion database with properties
-Title: [text]
-Type: [Incident / Deployment / Onboarding / Process]
-Owner: [person]
-Last Reviewed: [date]
-Status: [Active / Draft / Archived]
+Title - [text]
+Type - [Incident / Deployment / Onboarding / Process]
+Owner - [person]
+Last Reviewed - [date]
+Status - [Active / Draft / Archived]
 
 GitHub Wiki (version-controlled)
 docs/

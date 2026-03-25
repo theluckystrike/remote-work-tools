@@ -30,7 +30,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Recognizing Knowledge Silo Warning Signs
+Step 1 - Recognizing Knowledge Silo Warning Signs
 
 Knowledge silos develop gradually, but certain indicators signal their emergence. Watch for these patterns in remote engineering teams:
 
@@ -42,7 +42,7 @@ Onboarding time increases linearly. When new engineers require increasingly long
 
 "Let me check with..." responses. When simple questions require relaying through multiple people because the answer holder works in a different time zone, knowledge distribution has become inefficient.
 
-Step 2: Strategy 1: Structured Documentation Practices
+Step 2 - Strategy 1: Structured Documentation Practices
 
 Documentation is the foundation of distributed knowledge. However, sporadic wikis and outdated README files do not count as effective documentation. Implement structured practices that keep knowledge accessible.
 
@@ -51,22 +51,22 @@ Living Documentation with Code Examples
 Create living documents that evolve with your codebase. A good starting point is establishing decision records for architectural choices:
 
 ```markdown
-ADR-042: Implementing Rate Limiting
+ADR-042 - Implementing Rate Limiting
 
-Step 3: Status
+Step 3 - Status
 Accepted
 
-Step 4: Context
+Step 4 - Context
 Our API experiences traffic spikes causing downstream service degradation.
 
-Step 5: Decision
+Step 5 - Decision
 We will implement token bucket rate limiting at the API gateway level.
 
-Step 6: Consequences
+Step 6 - Consequences
 - Positive: Protects backend services, provides consistent user experience
 - Negative: Requires Redis cluster, introduces latency for rate-limited requests
 
-Step 7: Review Date
+Step 7 - Review Date
 2026-06-01
 ```
 
@@ -89,14 +89,14 @@ Runbooks for Operational Knowledge
 Operational knowledge, what to do when things break, often resides only in senior engineers' heads. Create runbooks for common incidents:
 
 ```markdown
-Runbook: Database Connection Pool Exhaustion
+Runbook - Database Connection Pool Exhaustion
 
-Step 8: Symptoms
+Step 8 - Symptoms
 - Application returns 503 errors
 - Database connections remain in "idle in transaction" state
 - Logs show "too many connections" errors
 
-Step 9: Immediate Actions
+Step 9 - Immediate Actions
 1. Check current connection count: `SELECT count(*) FROM pg_stat_activity;`
 2. Identify long-running queries: `SELECT pid, query, state, duration FROM pg_stat_activity WHERE state = 'active';`
 3. Kill problematic connections if needed:
@@ -107,13 +107,13 @@ WHERE state = 'idle in transaction'
 AND query_start < now() - interval '10 minutes';
  ```
 
-Step 10: Prevention
+Step 10 - Prevention
 - Set `statement_timeout` to 30 seconds
 - Implement connection pooling with PgBouncer
 - Add monitoring alerts at 80% pool capacity
 ```
 
-Step 11: Strategy 2: Cross-Functional Knowledge Sharing Sessions
+Step 11 - Strategy 2: Cross-Functional Knowledge Sharing Sessions
 
 Remote work reduces spontaneous hallway conversations. Replace them with deliberate knowledge exchange formats.
 
@@ -153,7 +153,7 @@ schedule:
     date: "2026-05-20"
 ```
 
-Step 12: Strategy 3: Pair Programming and Mob Programming
+Step 12 - Strategy 3: Pair Programming and Mob Programming
 
 Direct collaboration transfers knowledge more effectively than documentation alone. For remote teams, pair programming sessions via screen sharing become essential.
 
@@ -177,26 +177,26 @@ Swarm Sessions for Complex Problems
 When tackling complex issues, bring multiple perspectives together:
 
 ```markdown
-Swarm Session: Payment Service Latency
+Swarm Session - Payment Service Latency
 
-Step 13: Participants
+Step 13 - Participants
 - Backend team lead
 - Database specialist
 - Frontend developer
 
-Step 14: Agenda
+Step 14 - Agenda
 1. Problem statement (5 min)
 2. Individual investigation (20 min)
 3. Shared findings (15 min)
 4. Solution proposal (20 min)
 
-Step 15: Action Items
+Step 15 - Action Items
 - [ ] Database query optimization: @maria
 - [ ] Cache implementation: @james
 - [ ] Frontend timeout handling: @alex
 ```
 
-Step 16: Strategy 4: Accessible Expertise Directories
+Step 16 - Strategy 4: Accessible Expertise Directories
 
 Create and maintain searchable records of who knows what in your organization.
 
@@ -242,7 +242,7 @@ Weekly Office Hours Schedule
 | Lisa Park     | Frontend/React    | Wed 22:00-23:00   |
 ```
 
-Step 17: Implementation Roadmap
+Step 17 - Implementation Roadmap
 
 Start with documentation practices, add structured knowledge sharing, then establish expertise directories. Each layer builds on the previous:
 
@@ -253,7 +253,7 @@ Start with documentation practices, add structured knowledge sharing, then estab
 5. Month 5: Establish office hours for key knowledge areas
 6. Month 6: Review and iterate based on team feedback
 
-Step 18: Measuring Success
+Step 18 - Measuring Success
 
 Track these metrics to gauge knowledge silo reduction:
 

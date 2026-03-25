@@ -61,78 +61,78 @@ Channel-by-Channel SLA
 ```markdown
 Team Communication SLA
 
-Version: 2.0
-Effective: 2026-03-22
-Owner: @engineering-leads
+Version - 2.0
+Effective - 2026-03-22
+Owner - @engineering-leads
 
 ---
 
 Slack
 
 #incidents
-Purpose: Active production incidents only
-Response time: < 5 minutes during business hours
-Response time (off-hours): Via PagerDuty page only. do not expect Slack monitoring
-Who responds: On-call engineer + team lead
-Rule: Tag @on-call for immediate attention; post status updates every 15 minutes
+Purpose - Active production incidents only
+Response time - < 5 minutes during business hours
+Response time (off-hours) - Via PagerDuty page only. do not expect Slack monitoring
+Who responds - On-call engineer + team lead
+Rule - Tag @on-call for immediate attention; post status updates every 15 minutes
 
 #deployments
-Purpose: Deployment notifications (automated + manual)
-Response time: Informational only. no response required
-Rule: Automated posts only. For deploy questions, use #engineering
+Purpose - Deployment notifications (automated + manual)
+Response time - Informational only. no response required
+Rule - Automated posts only. For deploy questions, use #engineering
 
 #engineering
-Purpose: Technical questions, code review requests, architecture discussion
-Response time: < 4 hours during business hours
-Rule: Use threads. Tag specific people if you need a response by EOD.
+Purpose - Technical questions, code review requests, architecture discussion
+Response time - < 4 hours during business hours
+Rule - Use threads. Tag specific people if you need a response by EOD.
 
 #general
-Purpose: Company-wide announcements, non-urgent team chat
-Response time: Best effort, same business day
-Rule: Not a support channel. Announcements get reactions, not replies.
+Purpose - Company-wide announcements, non-urgent team chat
+Response time - Best effort, same business day
+Rule - Not a support channel. Announcements get reactions, not replies.
 
 Direct Messages
-Purpose: Personal matters, quick questions when you know the person is online
-Response time: < 2 hours during stated working hours
-Rule: Check someone's status before messaging. Respect DND settings.
-Escalation: If no response in 2h, use @mention in relevant channel.
+Purpose - Personal matters, quick questions when you know the person is online
+Response time - < 2 hours during stated working hours
+Rule - Check someone's status before messaging. Respect DND settings.
+Escalation - If no response in 2h, use @mention in relevant channel.
 
 ---
 
 Email
 
 Distribution lists (team@, eng@)
-Response time: < 1 business day
-Rule: Use for external communications, formal requests, and non-urgent cross-team needs.
+Response time - < 1 business day
+Rule - Use for external communications, formal requests, and non-urgent cross-team needs.
 
 Personal email
-Response time: < 1 business day during working hours
-Rule: Not for urgent issues. Use Slack for same-day needs.
+Response time - < 1 business day during working hours
+Rule - Not for urgent issues. Use Slack for same-day needs.
 
 ---
 
 GitHub / Gitea
 
 Pull Request Reviews
-Response time: First review comment within 1 business day of assignment
-Response time: Blocking review (changes requested) resolved within 4h of author response
-Rule: PRs unreviewed for > 1 business day get auto-escalated via bot
+Response time - First review comment within 1 business day of assignment
+Response time - Blocking review (changes requested) resolved within 4h of author response
+Rule - PRs unreviewed for > 1 business day get auto-escalated via bot
 
 Issues
-Response time: Triage within 2 business days; assignment within 1 week
-Rule: Issues idle for > 2 weeks get a status comment from assignee
+Response time - Triage within 2 business days; assignment within 1 week
+Rule - Issues idle for > 2 weeks get a status comment from assignee
 
 ---
 
 Video Calls
 
 Scheduled meetings
-Rule: Join within 3 minutes of start time. After 5 minutes, proceed without.
-Recording: All recurring team meetings are recorded; links shared in meeting channel within 1h.
+Rule - Join within 3 minutes of start time. After 5 minutes, proceed without.
+Recording - All recurring team meetings are recorded; links shared in meeting channel within 1h.
 
 Requested calls
-Response time: Respond to meeting invite within 4 business hours
-Rule: Decline with explanation if you can't attend. Don't ghost invites.
+Response time - Respond to meeting invite within 4 business hours
+Rule - Decline with explanation if you can't attend. Don't ghost invites.
 ```
 
 Timezone Coverage Matrix
@@ -168,7 +168,7 @@ Good async message:
 ```
 Hey @Alice. quick question about the auth service token refresh flow.
 
-Context: I'm building the mobile client and seeing 401s after token expiry.
+Context - I'm building the mobile client and seeing 401s after token expiry.
 Looking at the refresh endpoint, I'm not sure whether I should be sending
 the refresh token in the Authorization header or the body.
 
@@ -316,12 +316,12 @@ SLA summary card for new hires:
 ```markdown
 Communication Quick Reference
 
-Urgent (production down): #incidents + PagerDuty
-Need code review: #engineering + tag reviewer in PR
-Quick question: DM (check their status first)
-Non-urgent question: #engineering (expect 4h reply)
-Meeting needed: Calendar invite + 24h notice
-After hours: PagerDuty only. never expect Slack
+Urgent (production down) - #incidents + PagerDuty
+Need code review - #engineering + tag reviewer in PR
+Quick question - DM (check their status first)
+Non-urgent question - #engineering (expect 4h reply)
+Meeting needed - Calendar invite + 24h notice
+After hours - PagerDuty only. never expect Slack
 
 Do:
 - Always include context and deadline in your message

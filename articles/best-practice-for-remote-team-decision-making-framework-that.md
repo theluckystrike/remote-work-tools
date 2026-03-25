@@ -63,13 +63,13 @@ The Four-Tier Decision Framework
 
 A practical starting point is a four-tier structure based on reversibility and organizational impact:
 
-Tier 1. Individual decisions: Reversible decisions with limited scope. A developer choosing which library to use for an utility function, or a designer picking an icon style. These need no approval; document them in commit messages or design notes if relevant.
+Tier 1. Individual decisions - Reversible decisions with limited scope. A developer choosing which library to use for an utility function, or a designer picking an icon style. These need no approval; document them in commit messages or design notes if relevant.
 
-Tier 2. Team decisions: Reversible decisions affecting the whole team. Changing a code review process, adopting a new linting rule, scheduling a recurring team meeting. Team lead decides or team consensus within 24, 48 hours.
+Tier 2. Team decisions - Reversible decisions affecting the whole team. Changing a code review process, adopting a new linting rule, scheduling a recurring team meeting. Team lead decides or team consensus within 24, 48 hours.
 
-Tier 3. Cross-team decisions: Harder to reverse, affecting multiple teams or significant resources. Architecture changes, hiring decisions, major process shifts. Require structured proposals and involve senior stakeholders, with a 72-hour to one-week window.
+Tier 3. Cross-team decisions - Harder to reverse, affecting multiple teams or significant resources. Architecture changes, hiring decisions, major process shifts. Require structured proposals and involve senior stakeholders, with a 72-hour to one-week window.
 
-Tier 4. Strategic decisions: High-impact, hard-to-reverse decisions that define company direction. Product pivots, large vendor contracts, organizational restructuring. Executive-level with two-week deliberation windows.
+Tier 4. Strategic decisions - High-impact, hard-to-reverse decisions that define company direction. Product pivots, large vendor contracts, organizational restructuring. Executive-level with two-week deliberation windows.
 
 Store this tier definition in a `decisions/FRAMEWORK.md` file that every team member can reference. When someone asks "who should decide this?", the answer should be findable in under a minute.
 
@@ -78,7 +78,7 @@ Documenting Decisions as Code
 The most effective teams treat decisions like code: version-controlled, reviewable, and searchable. Architectural Decision Records (ADRs) are the standard pattern:
 
 ```markdown
-ADR-042: Migrate from REST to GraphQL for Client API
+ADR-042 - Migrate from REST to GraphQL for Client API
 
 Status
 Proposed
@@ -245,19 +245,19 @@ async function processDecision(request: DecisionRequest): Promise<Decision> {
 }
 ```
 
-The critical part: if no decision-maker responds within the time-box, implement auto-escalation or default-to-yes behavior. Decisions should not die in limbo.
+The critical part - if no decision-maker responds within the time-box, implement auto-escalation or default-to-yes behavior. Decisions should not die in limbo.
 
 Common Failure Patterns to Avoid
 
 Even well-designed frameworks break down in practice. Watch for these anti-patterns:
 
-The invisible blocker: A decision sits in someone's queue because they aren't sure it's their call. Fix this by adding a "decision owner" field to every proposal and requiring an explicit acknowledgment within 24 hours of assignment.
+The invisible blocker - A decision sits in someone's queue because they aren't sure it's their call. Fix this by adding a "decision owner" field to every proposal and requiring an explicit acknowledgment within 24 hours of assignment.
 
-The permission seeker: Team members escalate tier-1 decisions to leaders who then feel obligated to weigh in on everything. Fix this by publishing the tier definitions prominently and praising team members who make tier-1 decisions independently.
+The permission seeker - Team members escalate tier-1 decisions to leaders who then feel obligated to weigh in on everything. Fix this by publishing the tier definitions prominently and praising team members who make tier-1 decisions independently.
 
-The retroactive veto: A leader overturns a decision after it's implemented because they weren't consulted. Fix this by ensuring the RACI matrix is clear on who needs to be informed versus consulted, and by making decision records easy to find before implementation begins.
+The retroactive veto - A leader overturns a decision after it's implemented because they weren't consulted. Fix this by ensuring the RACI matrix is clear on who needs to be informed versus consulted, and by making decision records easy to find before implementation begins.
 
-The endless discussion: Async threads on a decision stretch for two weeks without resolution. Fix this with explicit decision deadlines: every proposal has a "decide by" date, after which the proposer has authority to implement with the information available.
+The endless discussion - Async threads on a decision stretch for two weeks without resolution. Fix this with explicit decision deadlines: every proposal has a "decide by" date, after which the proposer has authority to implement with the information available.
 
 Measuring Framework Effectiveness
 
@@ -298,7 +298,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -310,7 +310,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

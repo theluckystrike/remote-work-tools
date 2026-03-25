@@ -46,11 +46,11 @@ Create a reusable incident communication template:
 ```markdown
 Incident Update #[number] - [service name]
 
-Status: [Investigating / Identified / Monitoring / Resolved]
-Impact: [What systems/users are affected]
-Severity: [SEV1/SEV2/SEV3]
-Started: [timestamp in UTC]
-Next Update: [timestamp in UTC]
+Status - [Investigating / Identified / Monitoring / Resolved]
+Impact - [What systems/users are affected]
+Severity - [SEV1/SEV2/SEV3]
+Started - [timestamp in UTC]
+Next Update - [timestamp in UTC]
 
 What's Happening
 [Brief description of the issue in plain English]
@@ -135,7 +135,7 @@ A common failure mode in remote incidents: one person fixes the problem while ev
 Use a collaborative document (Google Doc, Notion page, or dedicated incident.io page) as the single source of truth. Structure it with:
 
 ```markdown
-Incident: [Title]
+Incident - [Title]
 
 Timeline (UTC)
 | Time | Action | Who |
@@ -155,7 +155,7 @@ Resource Links
 - [Customer Impact Map](link)
 ```
 
-This serves three purposes: keeps everyone aligned, creates the foundation for post-mortems, and proves you were actively managing the incident.
+This serves three purposes - keeps everyone aligned, creates the foundation for post-mortems, and proves you were actively managing the incident.
 
 Set Update Cadences and Stick to Them
 
@@ -230,7 +230,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -242,7 +242,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

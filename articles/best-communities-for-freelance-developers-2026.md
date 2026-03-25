@@ -24,7 +24,7 @@ Table of Contents
 - [Building Your Community Strategy](#building-your-community-strategy)
 - [Avoiding Common Pitfalls](#avoiding-common-pitfalls)
 - [Measuring Community Value](#measuring-community-value)
-- [Platform Comparison: Where Developers Actually Hang Out](#platform-comparison-where-developers-actually-hang-out)
+- [Platform Comparison - Where Developers Actually Hang Out](#platform-comparison-where-developers-actually-hang-out)
 - [Content Strategy for Community Participation](#content-strategy-for-community-participation)
 - [Revenue from Community Participation](#revenue-from-community-participation)
 - [Building Your Own Community](#building-your-own-community)
@@ -116,7 +116,7 @@ Document your involvement. Maintain records of community contributions, especial
 
 Build relationships individually. Identify active, helpful members and connect personally. These relationships often prove more valuable than general community participation.
 
-Code Snippet Example: Community Contribution
+Code Snippet Example - Community Contribution
 
 Contributing code examples demonstrates expertise and helps others. A helpful pattern for technical communities:
 
@@ -142,7 +142,7 @@ const session = calculateBillableHours(
   30 // 30 minute lunch break
 );
 console.log(session);
-// Output: { total: 8.5, billable: 8, hourlyRate: 0 }
+// Output - { total: 8.5, billable: 8, hourlyRate: 0 }
 ```
 
 Sharing practical utilities like this establishes credibility and starts conversations.
@@ -151,11 +151,11 @@ Avoiding Common Pitfalls
 
 Communities can waste time or create negative experiences without intentional participation:
 
-Spamming promotional content: Self-promotion without relationship building damages reputation. Most communities have specific channels or rules for promotional content.
+Spamming promotional content - Self-promotion without relationship building damages reputation. Most communities have specific channels or rules for promotional content.
 
-Parasocial relationships: Remember that connections remain online unless you cultivate them through deeper interaction. Surface-level participation produces surface-level relationships.
+Parasocial relationships - Remember that connections remain online unless you cultivate them through deeper interaction. Surface-level participation produces surface-level relationships.
 
-Information overload: Joining too many communities spreads thin. Focus on two or three active communities rather than passively joining dozens.
+Information overload - Joining too many communities spreads thin. Focus on two or three active communities rather than passively joining dozens.
 
 Comparing yourself to highlight members: Community leaders often represent extreme outcomes. Their success stories may not reflect typical results.
 
@@ -175,7 +175,7 @@ Building community takes time. The developers who benefit most treat community i
 
 Finding the right communities transforms freelance development from solitary work into connected career. The best communities for freelance developers in 2026 offer genuine connection, practical resources, and opportunity. Your task is to engage authentically, contribute value, and build relationships that support your independent career.
 
-Platform Comparison: Where Developers Actually Hang Out
+Platform Comparison - Where Developers Actually Hang Out
 
 Not all communities are equal. Here's where real freelance developers spend time and why:
 
@@ -188,31 +188,31 @@ Not all communities are equal. Here's where real freelance developers spend time
 | Mastermind groups | 6-12 | High; very focused | Deep accountability, mentorship | $200-500/month |
 | Twitter/X | Millions | High; algorithm-dependent | Visibility, thought leadership | Free |
 
-For most freelancers: join DEV Discord (free, instant community) + Reddit r/freelance (reliable advice) + one niche community matching your tech stack. Three communities > ten passive memberships.
+For most freelancers - join DEV Discord (free, instant community) + Reddit r/freelance (reliable advice) + one niche community matching your tech stack. Three communities > ten passive memberships.
 
 Content Strategy for Community Participation
 
 Showing up passively produces zero benefits. Here's how successful freelancers participate strategically:
 
-Month 1: Observation
+Month 1 - Observation
 - Lurk in communities, understand norms
 - Note which discussions get engagement
 - Identify 2-3 topics you can reliably contribute on
 - Zero posts; 100% reading
 
-Month 2: Small Contributions
+Month 2 - Small Contributions
 - Answer 1-2 beginner questions per week in your areas of expertise
 - Comment on threads where you have genuine perspective
 - No self-promotion; focus on value
 - Target: 5-10 substantive contributions
 
-Month 3: Visibility
+Month 3 - Visibility
 - Share one original post or project (GitHub repo, blog post, tool)
 - Reference the project subtly in answers without hard-selling
 - Build pattern: "I solved similar problem with [your solution]"
 - Track which content generates engagement
 
-Month 4+: Relationship Building
+Month 4+ - Relationship Building
 - Direct message 1-2 active members monthly
 - Offer concrete help: "I see you're building X, I've solved that, happy to chat"
 - Extract private conversation from public channels
@@ -222,7 +222,7 @@ This 4-month pattern replaces the "post in 50 communities hoping something stick
 
 Revenue from Community Participation
 
-Be realistic: communities generate revenue indirectly. Track these pathways:
+Be realistic - communities generate revenue indirectly. Track these pathways:
 
 1. Credibility for rates (indirect): Established community members command 20-30% higher rates
 2. Direct project leads (3-6 months in): Someone asks "anyone available for [project]?"
@@ -260,7 +260,7 @@ Focus: Learning and credibility-building
 - Timeline to first lead: 12-18 months
 
 Mid-level developers (3-8 years):
-Focus: Building professional network and visibility
+Focus - Building professional network and visibility
 - Provide tactical advice to juniors; engage in technical debates
 - Share case studies from your work (anonymized as needed)
 - Relationship goal: Build peer network; find collaborators for subcontracting

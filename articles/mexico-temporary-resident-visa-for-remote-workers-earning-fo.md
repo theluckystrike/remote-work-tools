@@ -32,7 +32,7 @@ Table of Contents
 - [Banking and Financial Setup for Remote Workers](#banking-and-financial-setup-for-remote-workers)
 - [Healthcare Access and Insurance Options](#healthcare-access-and-insurance-options)
 - [Comparison with Other Latin American Digital Nomad Visas](#comparison-with-other-latin-american-digital-nomad-visas)
-- [Advanced: Tax Planning for US Citizens and Expats](#advanced-tax-planning-for-us-citizens-and-expats)
+- [Advanced - Tax Planning for US Citizens and Expats](#advanced-tax-planning-for-us-citizens-and-expats)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 
 Understanding Mexico's Temporary Resident Visa
@@ -60,7 +60,7 @@ monthly_incomes = [4200, 3800, 4500, 4100, 3900, 4400, 4200, 4600, 4000, 4300, 4
 average_income = sum(monthly_incomes) / len(monthly_incomes)
 
 print(f"Average monthly income: ${average_income:.2f} USD")
-Output: Average monthly income: $4216.67 USD
+Output - Average monthly income: $4216.67 USD
 ```
 
 This average comfortably exceeds the minimum requirement, giving you strong documentation for your application.
@@ -82,19 +82,19 @@ Application Process
 
 The application process involves several steps:
 
-Step 1: Schedule Your Consulate Appointment
+Step 1 - Schedule Your Consulate Appointment
 
 Mexican consulates in the United States, Canada, and other countries handle visa applications. Book your appointment well in advance, as wait times can extend to several weeks. The nearest consulate to your location typically handles your case, though some consulates have specific jurisdictional rules.
 
-Step 2: Prepare Your Documentation
+Step 2 - Prepare Your Documentation
 
 Organize all required documents before your appointment. Create digital copies of everything and keep originals accessible. Missing documents result in delayed processing or outright rejection.
 
-Step 3: Attend Your Interview
+Step 3 - Attend Your Interview
 
 At the consulate, you'll answer questions about your intended stay in Mexico. Be honest about your remote work situation. Officers are familiar with digital nomads and understand that foreign income is legitimate.
 
-Step 4: Pay the Fee and Wait
+Step 4 - Pay the Fee and Wait
 
 After the interview, pay the visa fee and receive instructions for passport pickup. Processing typically takes 2-4 weeks, though this varies by consulate and time of year.
 
@@ -195,7 +195,7 @@ Visa Application Checklist and Timeline
 
 Use this structured timeline to prevent missing deadlines and documentation:
 
-Month 1: Preparation Phase
+Month 1 - Preparation Phase
 - [ ] Request criminal background check from home country
 - [ ] Gather 12 months of bank statements
 - [ ] Collect or request employer letter
@@ -203,7 +203,7 @@ Month 1: Preparation Phase
 - [ ] Take official passport photos (50x40mm)
 - [ ] Begin gathering personal ID documents
 
-Month 2: Documentation Assembly
+Month 2 - Documentation Assembly
 - [ ] Complete IMM-NMC-2 form online (available on consulate website)
 - [ ] Translate critical documents to Spanish if required
 - [ ] Create organized document folder with PDF copies
@@ -211,7 +211,7 @@ Month 2: Documentation Assembly
 - [ ] Prepare income documentation summary letter
 - [ ] Contact nearest Mexican consulate for appointment
 
-Month 3: Application Submission
+Month 3 - Application Submission
 - [ ] Attend consulate appointment with all originals
 - [ ] Pay visa application fee
 - [ ] Receive processing timeline confirmation
@@ -267,7 +267,7 @@ Private Healthcare (Recommended for Remote Workers)
 - GNP. Strong dental and specialist coverage
 - Medex. International expat-focused plans
 
-Cost range: $200-500 USD monthly for coverage depending on age and location.
+Cost range - $200-500 USD monthly for coverage depending on age and location.
 
 Prescription and Dental Costs
 
@@ -291,7 +291,7 @@ Comparison with Other Latin American Digital Nomad Visas
 
 Mexico's advantage is the highest visa duration (4 years) with clear extension pathways, despite having a higher income threshold than most regional competitors.
 
-Advanced: Tax Planning for US Citizens and Expats
+Advanced - Tax Planning for US Citizens and Expats
 
 If you're an US citizen, you have additional considerations:
 

@@ -390,7 +390,7 @@ Always verify idempotency before team rollout:
 Run twice and confirm no changes on second pass
 ansible-playbook playbooks/site.yml | grep -E "changed|failed"
 ansible-playbook playbooks/site.yml | grep -E "changed|failed"
-Second run should show: changed=0 failed=0
+Second run should show - changed=0 failed=0
 ```
 
 Dynamic Inventory for Cloud Infrastructure
@@ -467,7 +467,7 @@ Key AWX capabilities for distributed teams:
 | Webhooks | Trigger playbooks automatically from GitHub merges |
 | Notifications | Slack or email alerts on job success or failure |
 
-A typical team workflow: engineer opens a PR with playbook changes, CI runs `ansible-lint` and `--check` mode, team reviews the diff in the PR, and on merge AWX automatically triggers the playbook against production via GitHub webhook.
+A typical team workflow - engineer opens a PR with playbook changes, CI runs `ansible-lint` and `--check` mode, team reviews the diff in the PR, and on merge AWX automatically triggers the playbook against production via GitHub webhook.
 
 ---
 

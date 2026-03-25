@@ -86,7 +86,7 @@ Converting Section Logic
 In Google Forms, your branching might look like:
 
 ```
-Section 1: General Questions
+Section 1 - General Questions
   Q: "Are you satisfied with your role?"
     → If Yes: Go to Section 3
     → If No: Go to Section 2
@@ -186,11 +186,11 @@ Handling Historical Data
 
 Migrating existing survey data requires careful planning. Typeform doesn't import Google Forms responses directly, so you have two approaches:
 
-Option 1: CSV Import
+Option 1 - CSV Import
 
 Export Google Sheets as CSV, then import as a Typeform dataset. This preserves response data but loses the survey context.
 
-Option 2: Parallel Storage
+Option 2 - Parallel Storage
 
 Maintain Google Sheets as your historical archive while routing new responses to Typeform. Use the webhook approach above to populate both systems during transition:
 

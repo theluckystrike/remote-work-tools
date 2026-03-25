@@ -21,7 +21,7 @@ Effective desk organization for a developer home office starts with three founda
 Table of Contents
 
 - [The Developer Workspace Challenge](#the-developer-workspace-challenge)
-- [Cable Management: The Foundation of a Clean Desk](#cable-management-the-foundation-of-a-clean-desk)
+- [Cable Management - The Foundation of a Clean Desk](#cable-management-the-foundation-of-a-clean-desk)
 - [Monitor Stands and Vertical Storage](#monitor-stands-and-vertical-storage)
 - [Drawer Systems and Modular Storage](#drawer-systems-and-modular-storage)
 - [The Developer-Specific Gear Station](#the-developer-specific-gear-station)
@@ -40,7 +40,7 @@ Your desk likely hosts multiple monitors, a mechanical keyboard, a development m
 
 The key principle for 2026 remains simple: every item should have a designated place, and that place should minimize friction in your daily work.
 
-Cable Management: The Foundation of a Clean Desk
+Cable Management - The Foundation of a Clean Desk
 
 Cable management is often the first and most impactful improvement you can make. Here are three approaches that work well for developer setups:
 
@@ -128,7 +128,7 @@ A pegboard wall panel behind your desk keeps frequently used items visible and a
 - Cable adapters
 - Small monitor stand or phone holder
 
-IKEA SKÅDIS is the most convenient pegboard system for a home office because it attaches with concealed brackets and the accessory ecosystem is extensive. However, the accessories are plastic and can feel flimsy. For a more strong build, a 1/4-inch hardboard pegboard with metal hooks from a hardware store costs the same and holds more weight.
+IKEA SKÅDIS is the most convenient pegboard system for a home office because it attaches with concealed brackets and the accessory environment is extensive. However, the accessories are plastic and can feel flimsy. For a more strong build, a 1/4-inch hardboard pegboard with metal hooks from a hardware store costs the same and holds more weight.
 
 Command Center Setup
 
@@ -260,23 +260,23 @@ Real-World Desk Audit Example
 
 Here's how a developer might audit and improve an actual setup:
 
-Before: Chaotic desk
+Before - Chaotic desk
 - Multiple monitor cables routed randomly under desk
 - Phone charger permanently plugged in, taking socket space
 - USB hub sitting on top of desk consuming valuable real estate
 - Notebooks and notepads scattered across surface
 - Spare cables in a drawer with no organization
 
-After: Optimized setup
+After - Optimized setup
 1. Under-desk cable tray: Consolidates 8 cables, frees up visual space
 2. Drawer dividers: USB hub, adapters, and spare cables each get compartments
 3. Wireless phone charging pad: Eliminates cable clutter, saves socket
 4. Pegboard on wall: Headphones, notebook, and frequently-used adapter within arm's reach
 5. Monitor arm with storage: Moves monitors up, creates storage underneath
 
-Time investment: 3 hours initial setup, 15 minutes quarterly maintenance
+Time investment - 3 hours initial setup, 15 minutes quarterly maintenance
 
-Productivity impact: ~2 hours per week saved from reduced friction and visual distraction
+Productivity impact - ~2 hours per week saved from reduced friction and visual distraction
 
 Maintenance Checklist
 

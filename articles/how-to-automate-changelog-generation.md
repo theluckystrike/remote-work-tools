@@ -100,7 +100,7 @@ git cliff --unreleased --strip header
 
 ---
 
-GitHub Actions: Automated Release on Tag
+GitHub Actions - Automated Release on Tag
 
 Trigger changelog generation and GitHub Release creation on every version tag:
 
@@ -204,7 +204,7 @@ release-please works well for library/package maintainers. For application deplo
 
 ---
 
-conventional-changelog-cli (npm Ecosystem)
+conventional-changelog-cli (npm environment)
 
 For JavaScript projects already using npm, `conventional-changelog-cli` integrates into your existing workflow:
 

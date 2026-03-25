@@ -23,9 +23,9 @@ Zoom is the best screen sharing tool for a remote tutoring team of 6, offering b
 Table of Contents
 
 - [Understanding Tutoring-Specific Requirements](#understanding-tutoring-specific-requirements)
-- [Zoom: The Industry Standard for Education](#zoom-the-industry-standard-for-education)
-- [Google Meet: Free Tier Advantage](#google-meet-free-tier-advantage)
-- [Discord: Community and Flexibility](#discord-community-and-flexibility)
+- [Zoom - The Industry Standard for Education](#zoom-the-industry-standard-for-education)
+- [Google Meet - Free Tier Advantage](#google-meet-free-tier-advantage)
+- [Discord - Community and Flexibility](#discord-community-and-flexibility)
 - [Where Specialized Tutoring Tools Fit](#where-specialized-tutoring-tools-fit)
 - [Network and Infrastructure Recommendations](#network-and-infrastructure-recommendations)
 - [Recommendation for Six-Person Teams](#recommendation-for-six-person-teams)
@@ -43,7 +43,7 @@ Remote tutoring creates unique screen sharing demands compared to general busine
 
 The six-person constraint is actually advantageous, most video conferencing platforms scale beyond this, but teams at this size can often qualify for business tier features at reasonable prices. You also have enough team members to benefit from shared workflows and team licensing, but few enough that coordination remains manageable.
 
-Zoom: The Industry Standard for Education
+Zoom - The Industry Standard for Education
 
 Zoom remains the most widely adopted solution for remote tutoring, and for good reason. The screen sharing quality is consistent across bandwidth conditions, and the host controls allow switching between participants.
 
@@ -69,7 +69,7 @@ Latency Considerations
 
 Zoom's adaptive bitrate encoding handles variable connection speeds well. In testing across typical home internet connections (25-100 Mbps down, 5-20 Mbps up), screen sharing latency remains under 200ms, imperceptible for tutoring demonstrations. The 1080p option suffices for showing code, documents, or educational software.
 
-Google Meet: Free Tier Advantage
+Google Meet - Free Tier Advantage
 
 For budget-conscious tutoring teams, Google Meet offers surprising capability at no cost. The integration with Google Workspace provides calendar scheduling, automatic recording to Google Drive, and collaboration features.
 
@@ -87,7 +87,7 @@ Google Meet's screen sharing includes presenter's notes visibility, which helps 
 
 The primary limitation is annotation, Google Meet lacks native annotation tools. For tutoring scenarios requiring real-time markup, you need to share a Google Doc or use a third-party whiteboard integration. This drawback is significant for math, programming, or visual subjects where highlighting specific screen regions matters.
 
-Discord: Community and Flexibility
+Discord - Community and Flexibility
 
 Discord has emerged as a popular alternative, particularly for tech-savvy tutoring teams. The screen sharing quality matches paid alternatives, and the community features help with student communication.
 
@@ -96,7 +96,7 @@ Voice Channel Architecture
 Discord's voice channels map naturally to tutoring workflows:
 
 ```
-Server: "Tutoring Team"
+Server - "Tutoring Team"
  Category: Private Sessions
     Voice Channel: Tutor 1 - Student A
     Voice Channel: Tutor 2 - Student B
@@ -140,7 +140,7 @@ Some tutoring scenarios benefit from a whiteboard-first approach. Tools like Mir
 | Tool | Best For | Per-Month Cost (Team of 6) |
 |------|----------|---------------------------|
 | Zoom | General tutoring, reliability | $95.94 |
-| Google Meet | Budget teams, Google ecosystem | $0 |
+| Google Meet | Budget teams, Google environment | $0 |
 | Discord | Community building, tech subjects | $9.99 |
 | VS Code Live Share | Programming tutoring | $0 (requires VS Code) |
 | Miro | Visual subjects, design tutoring | $48 |
@@ -291,7 +291,7 @@ Each room has:
 - Chat log preserved (students can review questions)
 ```
 
-The key: each tutor owns their Zoom meeting room, eliminating scheduling conflicts and maintaining session continuity. Students always connect to the same URL.
+The key - each tutor owns their Zoom meeting room, eliminating scheduling conflicts and maintaining session continuity. Students always connect to the same URL.
 
 Advanced Annotation and Whiteboarding Techniques
 
@@ -367,17 +367,17 @@ Backup and Redundancy Strategy for Six-Tutor Teams
 Operating reliably means having fallback plans:
 
 ```
-Primary: Zoom
+Primary - Zoom
  Success rate: 99.9% (industry standard)
  Typical issue: WiFi dropout on tutor side
  Recovery: 5-15 second reconnection
 
-Secondary: Google Meet
+Secondary - Google Meet
  Dial-in via phone if internet fails
  Preserves audio-only tutoring capability
  Chat continues even if video drops
 
-Tertiary: Discord (community building)
+Tertiary - Discord (community building)
  Quick transition if both fail
  Student messaging continues
  Asynchronous tutoring via screen recordings
@@ -426,7 +426,7 @@ zoom_settings=(
 
 2. Recording storage
 echo "Checking recording storage location..."
-Should be: /secure/tutoring-recordings/ on encrypted NAS
+Should be - /secure/tutoring-recordings/ on encrypted NAS
 
 3. Retention policy
 echo "Enforcing 90-day retention on student data..."
@@ -447,7 +447,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -459,7 +459,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

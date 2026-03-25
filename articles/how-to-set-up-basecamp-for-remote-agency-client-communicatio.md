@@ -137,7 +137,7 @@ Clients often need to review deliverables, design mockups, documentation, video 
          Ongoing notes
 ```
 
-The key insight: use separate folders for client-accessible content. This prevents accidental exposure of internal discussions while keeping everything in one place.
+The key insight - use separate folders for client-accessible content. This prevents accidental exposure of internal discussions while keeping everything in one place.
 
 Integrating with Your Existing Workflow
 

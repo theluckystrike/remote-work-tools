@@ -23,8 +23,8 @@ Table of Contents
 - [Implementing Batching in Your Team](#implementing-batching-in-your-team)
 - [Measuring Batching Success](#measuring-batching-success)
 - [Detailed Tool Setup Guide](#detailed-tool-setup-guide)
-- [Advanced Batching: Role-Based Routing](#advanced-batching-role-based-routing)
-- [Handling Interruptions: The Exception Process](#handling-interruptions-the-exception-process)
+- [Advanced Batching - Role-Based Routing](#advanced-batching-role-based-routing)
+- [Handling Interruptions - The Exception Process](#handling-interruptions-the-exception-process)
 - [When to Interrupt Someone's Focus Time](#when-to-interrupt-someones-focus-time)
 - [Measuring and Iterating on Batching](#measuring-and-iterating-on-batching)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
@@ -48,7 +48,7 @@ Priority-Based Filtering
 
 Not all notifications deserve equal attention. Implementing a tiered system helps team members focus on what matters most while batching lower-priority items for later review.
 
-Create clear categories: urgent (requires response within one hour), normal (response expected same day), and low priority (can wait 24-48 hours). Most async tools support routing notifications based on keywords, sender, or project tags. This means genuinely important messages break through immediately while newsletters, bot updates, and casual chats wait for batched review.
+Create clear categories - urgent (requires response within one hour), normal (response expected same day), and low priority (can wait 24-48 hours). Most async tools support routing notifications based on keywords, sender, or project tags. This means genuinely important messages break through immediately while newsletters, bot updates, and casual chats wait for batched review.
 
 Contextual Notification Windows
 
@@ -92,10 +92,10 @@ Email remains powerful because it inherently supports asynchronous communication
 
 Gmail automation example:
 ```
-Label: Team-Updates
-Archive if: from:slack@slack.com
-Keep in inbox if: Contains: "URGENT" OR "your_name"
-Batch review time: 2 PM daily
+Label - Team-Updates
+Archive if - from:slack@slack.com
+Keep in inbox if - Contains: "URGENT" OR "your_name"
+Batch review time - 2 PM daily
 ```
 
 Asana, ClickUp, Monday.com:
@@ -160,12 +160,12 @@ Slack Configuration
 
 Slack's native features support batching without additional tools:
 
-Step 1: Enable Do Not Disturb Schedules
+Step 1 - Enable Do Not Disturb Schedules
 Settings → Notifications → Do Not Disturb
 - Enable for 10 AM - 2 PM (peak deep work time)
 - Except: Keywords like #urgent-alert, @channel, direct mentions
 
-Step 2: Create Notification Rules
+Step 2 - Create Notification Rules
 Settings → Notifications → Customize notifications
 - Mute channels by default except #critical-alerts and #all-hands
 - Set Slack to email-only for lower-priority channels
@@ -173,35 +173,35 @@ Settings → Notifications → Customize notifications
 
 Example workflow:
 ```
-Trigger: Message contains #urgent
-Action 1: Post to #critical-alerts immediately
-Action 2: Send browser notification to message author's team lead
-Action 3: Ignore other channels' notification rules
+Trigger - Message contains #urgent
+Action 1 - Post to #critical-alerts immediately
+Action 2 - Send browser notification to message author's team lead
+Action 3 - Ignore other channels' notification rules
 ```
 
-Step 3: Use Scheduled Messages
+Step 3 - Use Scheduled Messages
 Draft all-hands announcements and schedule them for 9 AM when team members are checking messages. This ensures timing aligns with batching windows.
 
 Gmail Configuration
 
 Email remains powerful for batching because it's inherently asynchronous:
 
-Step 1: Create Labels and Filters
+Step 1 - Create Labels and Filters
 - Create labels: Urgent, Team-Updates, News, Low-Priority
 - Auto-label messages from specific senders or containing keywords
 
-Step 2: Set Up Archive Rules
+Step 2 - Set Up Archive Rules
 For Gmail:
 ```
-Filter: from:slack@slack.com AND NOT (subject:urgent OR from:engineering-leads)
-Action: Apply label "Slack-Digest", Skip inbox
+Filter - from:slack@slack.com AND NOT (subject:urgent OR from:engineering-leads)
+Action - Apply label "Slack-Digest", Skip inbox
 ```
 
 This moves routine Slack notifications to a digest folder while keeping urgent items in inbox.
 
-Step 3: Enable Scheduled Send
+Step 3 - Enable Scheduled Send
 Compose an email → Click Send button dropdown → Schedule send
-Common batching schedule: Send at 9 AM daily so recipients batch review
+Common batching schedule - Send at 9 AM daily so recipients batch review
 
 ClickUp / Asana / Monday Setup
 
@@ -223,7 +223,7 @@ Monday.com Notifications:
 - Frequency: Daily digest
 - Time: Morning (first thing when employees check messages)
 
-Advanced Batching: Role-Based Routing
+Advanced Batching - Role-Based Routing
 
 Different roles need different notification cadences. Implement role-specific batching:
 
@@ -244,7 +244,7 @@ Support Team:
 
 Implement by creating Slack channels by urgency level or configuring project management tool filters by role.
 
-Handling Interruptions: The Exception Process
+Handling Interruptions - The Exception Process
 
 Even strong batching needs exception handling. Define when messages break through:
 
@@ -299,41 +299,41 @@ Success Indicators (after 2 weeks of batching):
 
 Common Mistakes to Avoid
 
-Mistake 1: Batching everything including escalations
+Mistake 1 - Batching everything including escalations
 Some teams get so zealous about batching that critical production alerts get queued. Don't batch escalations. Have a separate urgent channel that always breaks through.
 
-Mistake 2: Expecting immediate adoption
+Mistake 2 - Expecting immediate adoption
 Teams need 3-4 weeks to adjust to batching. The first week feels strange. By week 3, it's normal. Don't abandon the system because adoption feels slow.
 
-Mistake 3: Setting batching windows that conflict with team collaboration
+Mistake 3 - Setting batching windows that conflict with team collaboration
 If you batch between 9-11 AM and 1-3 PM, but your team's primary collaboration time is 11 AM - 1 PM, the system fails. Align batching windows with your actual collaboration patterns.
 
-Mistake 4: Not training team members
+Mistake 4 - Not training team members
 Many teams implement batching tools without explaining why. Without education, people revert to checking messages constantly. Spend 30 minutes explaining the research behind notification batching and how it benefits individual productivity.
 
-Mistake 5: Ignoring people who resist
+Mistake 5 - Ignoring people who resist
 Some team members thrive with constant messages. Don't force uniform batching. Offer it as an option: "Try batching for one week and see if your focus improves. If it doesn't work, we'll adjust."
 
 Transitioning to Batching
 
 If your team is currently checking messages continuously, introduce batching gradually:
 
-Week 1: Awareness
+Week 1 - Awareness
 - Share research on notification batching and context-switching costs
 - Survey team about notification frustration
-- Ask: "How much time do you spend on notifications daily?"
+- Ask - "How much time do you spend on notifications daily?"
 
-Week 2: Pilot
+Week 2 - Pilot
 - Volunteers try batching for one week
 - They set three check-in times and use Do Not Disturb
 - They report back on focus improvement
 
-Week 3: Team Implementation
+Week 3 - Team Implementation
 - Based on pilot feedback, set batching windows for the whole team
 - Create documentation and train new processes
 - Set up tool configuration (Slack DND, email digests, etc.)
 
-Week 4: Refinement
+Week 4 - Refinement
 - Survey the team on experience
 - Adjust timing or channels based on feedback
 - Iterate on the system

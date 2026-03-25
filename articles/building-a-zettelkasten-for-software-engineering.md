@@ -21,7 +21,7 @@ To build a Zettelkasten for software engineering, create one atomic markdown not
 
 Table of Contents
 
-- [Atomic Notes: The Foundation](#atomic-notes-the-foundation)
+- [Atomic Notes - The Foundation](#atomic-notes-the-foundation)
 - [Use Case](#use-case)
 - [The Three Note Types](#the-three-note-types)
 - [Linking Strategies](#linking-strategies)
@@ -29,8 +29,8 @@ Table of Contents
 - [Query-Based Workflows](#query-based-workflows)
 - [Building the Habit](#building-the-habit)
 - [Example: Tracking API Patterns](#example-tracking-api-patterns)
-- [Tool Comparison: Zettelkasten Apps for Engineers](#tool-comparison-zettelkasten-apps-for-engineers)
-- [Step-by-Step: Setting Up an Engineering Zettelkasten in Obsidian](#step-by-step-setting-up-an-engineering-zettelkasten-in-obsidian)
+- [Tool Comparison - Zettelkasten Apps for Engineers](#tool-comparison-zettelkasten-apps-for-engineers)
+- [Step-by-Step - Setting Up an Engineering Zettelkasten in Obsidian](#step-by-step-setting-up-an-engineering-zettelkasten-in-obsidian)
 - [Integrating Your Zettelkasten with Engineering Workflows](#integrating-your-zettelkasten-with-engineering-workflows)
 - [Getting Started](#getting-started)
 - [Zettelkasten Template Examples](#zettelkasten-template-examples)
@@ -55,7 +55,7 @@ Table of Contents
 - [Flows](#flows)
 - [Tool Recommendations for Different Team Sizes](#tool-recommendations-for-different-team-sizes)
 
-Atomic Notes: The Foundation
+Atomic Notes - The Foundation
 
 The core principle of a Zettelkasten is atomicity. each note should contain one idea, one concept, or one piece of information. This makes notes reusable and linkable across contexts.
 
@@ -185,13 +185,13 @@ Imagine you're building a Zettelkasten around API design. Over months, you accum
 
 When you need to design a new API, querying your Zettelkasten surfaces all relevant context: conventions to follow, pitfalls to avoid, and security measures to implement. The system becomes greater than the sum of its parts.
 
-Tool Comparison: Zettelkasten Apps for Engineers
+Tool Comparison - Zettelkasten Apps for Engineers
 
 Choosing the right tool determines how much friction you add to the daily capture habit. These five tools represent the realistic choices for a software engineer in 2026:
 
 | Tool | Storage | Linking | Query/Search | Git-friendly | Best for |
 |------|---------|---------|--------------|-------------|----------|
-| Obsidian | Local markdown | Wikilinks + backlinks | Dataview plugin, full-text | Yes. plain .md files | Engineers who want full control and plugin ecosystem |
+| Obsidian | Local markdown | Wikilinks + backlinks | Dataview plugin, full-text | Yes. plain .md files | Engineers who want full control and plugin environment |
 | Logseq | Local markdown or git | Block-level bidirectional links | Built-in queries | Yes. outputs standard markdown | Engineers who prefer outline-first thinking |
 | Foam | VS Code + local markdown | Wikilinks, graph view | VS Code search | Yes. lives in your editor | Devs who spend all day in VS Code already |
 | Roam Research | Cloud (proprietary) | Block-level bidirectional links | Powerful but non-standard | No | Researchers who prioritize linking power over portability |
@@ -199,7 +199,7 @@ Choosing the right tool determines how much friction you add to the daily captur
 
 The Foam option deserves special mention for remote developers: your notes live in a VS Code workspace that you can open via Remote SSH. Your Zettelkasten follows you to any machine in your fleet without a sync subscription.
 
-Step-by-Step: Setting Up an Engineering Zettelkasten in Obsidian
+Step-by-Step - Setting Up an Engineering Zettelkasten in Obsidian
 
 Step 1. Create the vault. Open Obsidian, click "Create new vault", point it at a directory in your home folder. Name it something durable like `engineering-notes` rather than `my-vault`.
 
@@ -207,7 +207,7 @@ Step 2. Install essential plugins. Open Settings, then Community Plugins, and in
 
 Step 3. Create your inbox template. Use Templater to define a fleeting-note template that pre-fills the date and a `status: fleeting` tag. Ctrl+N with the template selected creates a new note in under two seconds.
 
-Step 4. Create a permanent-note template. Include: a unique ID (YYYYMMDD-slug format), a tags array, a "Links to" section for outgoing links, and a "Linked from" section that Obsidian populates automatically via backlinks.
+Step 4. Create a permanent-note template. Include - a unique ID (YYYYMMDD-slug format), a tags array, a "Links to" section for outgoing links, and a "Linked from" section that Obsidian populates automatically via backlinks.
 
 Step 5. Set up the folder structure. Create `00-inbox`, `10-permanent`, `20-projects`, and `30-archive`. Configure Obsidian to save new notes to `00-inbox` by default.
 
@@ -233,10 +233,10 @@ How long does it take before a Zettelkasten becomes useful?
 Expect minimal value for the first 50 notes. By note 100 you start finding unexpected connections. By note 300 you have a knowledge graph that actively accelerates problem-solving. Most engineers who quit do so in the first two weeks before the compound interest kicks in. Commit to 90 days of daily capture before evaluating.
 
 Should I keep code snippets in the Zettelkasten or a snippet manager?
-Both, with a link between them. Keep the conceptual explanation in the Zettelkasten: what the pattern is, when to use it, and why it exists. Keep runnable snippets in a tool like Raycast Snippets, Dash, or VS Code user snippets. Link the note to the snippet location.
+Both, with a link between them. Keep the conceptual explanation in the Zettelkasten - what the pattern is, when to use it, and why it exists. Keep runnable snippets in a tool like Raycast Snippets, Dash, or VS Code user snippets. Link the note to the snippet location.
 
 How do I handle notes that become outdated?
-Add an `obsolete: true` tag and write a note explaining what replaced the concept. Do not delete the note. the history of how your mental model evolved has real value. Dataview queries can filter out obsolete notes from active views.
+Add an `obsolete - true` tag and write a note explaining what replaced the concept. Do not delete the note. the history of how your mental model evolved has real value. Dataview queries can filter out obsolete notes from active views.
 
 Can a team share a Zettelkasten?
 Shared Zettelkastens work for teams of two to four people using a git repo as the backend. Beyond four people, merge conflicts and loss of personal voice make a shared wiki more appropriate. The Zettelkasten excels as a personal tool that feeds into the team wiki, not as a replacement for it.

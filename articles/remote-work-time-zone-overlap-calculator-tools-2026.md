@@ -27,11 +27,11 @@ Table of Contents
 - [Recommended Workflows by Team Size](#recommended-workflows-by-team-size)
 - [Decision Framework](#decision-framework)
 - [Implementation Checklist](#implementation-checklist)
-- [Real Example: 24/7 Team Coverage](#real-example-247-team-coverage)
+- [Real Example - 24/7 Team Coverage](#real-example-247-team-coverage)
 
 The Time Zone Problem
 
-Without tools, you calculate: NYC is EST (UTC-5), London is GMT (UTC+0), Singapore is SGT (UTC+8), Sydney is AEDT (UTC+11). A 9am EST call is 2pm GMT, 10pm SGT, and 1am next day Sydney. Is that workable? Someone's sleeping. You repeat this math for every meeting, every week, wasting 5-10 minutes per decision. Distributed teams need automated solutions.
+Without tools, you calculate - NYC is EST (UTC-5), London is GMT (UTC+0), Singapore is SGT (UTC+8), Sydney is AEDT (UTC+11). A 9am EST call is 2pm GMT, 10pm SGT, and 1am next day Sydney. Is that workable? Someone's sleeping. You repeat this math for every meeting, every week, wasting 5-10 minutes per decision. Distributed teams need automated solutions.
 
 Tool Comparison
 
@@ -39,7 +39,7 @@ Tool Comparison
 
 The most popular time zone tool. Shows multiple clocks side-by-side with color-coded working hours.
 
-Cost: Free version (up to 5 zones), $2.99/month Pro (unlimited).
+Cost - Free version (up to 5 zones), $2.99/month Pro (unlimited).
 
 Features:
 - Real-time clock grid for multiple cities
@@ -57,18 +57,18 @@ Workflow:
 4. Click "Find a time" → tool suggests best 1-hour windows
 5. Copy link and share with team
 
-Best for: Quick lookups, ad-hoc meeting scheduling, visual learners.
+Best for - Quick lookups, ad-hoc meeting scheduling, visual learners.
 
-Limitations: No Slack integration, no calendar sync, requires manual entry each time.
+Limitations - No Slack integration, no calendar sync, requires manual entry each time.
 
-Link: https://www.worldtimebuddy.com
+Link - https://www.worldtimebuddy.com
 ---
 
 2. Every Time Zone
 
 Minimalist, focused tool designed for quick sharing.
 
-Cost: Free.
+Cost - Free.
 
 Features:
 - Enter time once, see all time zones instantly
@@ -88,14 +88,14 @@ Workflow:
 Example Use Case:
 - Standup at 10am PST
 - Generate link
-- Paste in Slack: "Standup at 10am PST (see all zones: everytimezone.com/...)"
+- Paste in Slack - "Standup at 10am PST (see all zones: everytimezone.com/...)"
 - Team clicks, sees: 1pm EST, 6pm GMT, 3am+1 JST
 
-Best for: Ad-hoc sharing, async communication, zero friction.
+Best for - Ad-hoc sharing, async communication, zero friction.
 
-Limitations: No meeting finder, no recurrence, stateless (no saved teams).
+Limitations - No meeting finder, no recurrence, stateless (no saved teams).
 
-Link: https://www.everytimezone.com
+Link - https://www.everytimezone.com
 
 ---
 
@@ -103,7 +103,7 @@ Link: https://www.everytimezone.com
 
 Lightweight clock-based calculator with quick team presets.
 
-Cost: Free version, $4/month for presets and calendar features.
+Cost - Free version, $4/month for presets and calendar features.
 
 Features:
 - Save team presets (NYC, London, Singapore, Sydney)
@@ -119,11 +119,11 @@ Workflow:
 3. Toggle between AM/PM, adjust time with slider
 4. Find green window (all zones working)
 
-Best for: Teams with fixed rosters, multiple daily standups, office environments.
+Best for - Teams with fixed rosters, multiple daily standups, office environments.
 
-Limitations: No sharing/link generation, no calendar integration, basic UI.
+Limitations - No sharing/link generation, no calendar integration, basic UI.
 
-Link: https://www.timezone.io
+Link - https://www.timezone.io
 
 ---
 
@@ -131,13 +131,13 @@ Link: https://www.timezone.io
 
 Build meeting schedulers directly in Slack using Slack Workflows and apps.
 
-Cost: Free (Slack Workflow Automation).
+Cost - Free (Slack Workflow Automation).
 
 Setup (in Slack Workspace):
 
 ```
 Slack → Tools → Workflow Builder
-Create New Workflow: "Find Meeting Time"
+Create New Workflow - "Find Meeting Time"
 
 Triggers:
 - Keyword: "find meeting"
@@ -145,10 +145,10 @@ Triggers:
 
 Steps:
 1. Ask users: "Who should attend?" (select from list)
-2. Ask: "When would you prefer?" (options: 9am, 2pm, 6pm)
+2. Ask - "When would you prefer?" (options: 9am, 2pm, 6pm)
 3. Ask: "How long?" (options: 30 min, 1 hour, 2 hours)
 
-Action: Send message with recommended times
+Action - Send message with recommended times
 - Fetch team time zone data (stored in Slack canvas or pinned message)
 - Call external API (optional) or calculate manually
 ```
@@ -165,7 +165,7 @@ Slack Apps for Time Zones:
 Example Workflow:
 
 ```
-User: "@bot find meeting for standup"
+User - "@bot find meeting for standup"
 Bot responds:
   "Team time zones:
    - NYC: 9:00 AM EDT
@@ -181,9 +181,9 @@ Suggested times:
       NYC  London  Singapore  Sydney (early)
 ```
 
-Best for: Teams already deep in Slack, async scheduling, repeated standups.
+Best for - Teams already deep in Slack, async scheduling, repeated standups.
 
-Limitations: Requires workflow setup, limited customization, depends on Slack tier.
+Limitations - Requires workflow setup, limited customization, depends on Slack tier.
 
 ---
 
@@ -214,7 +214,7 @@ Limitations:
 - Requires all team members to keep calendars updated
 - Overhead for large teams
 
-Best for: Teams with strong calendar discipline, Google Workspace organizations.
+Best for - Teams with strong calendar discipline, Google Workspace organizations.
 
 ---
 
@@ -268,12 +268,12 @@ def find_meeting(ack, body):
     best_time = find_best_overlap(zones_data)
 
     message = f"""*Available Meeting Times:*
-NYC: {zones_data['nyc']['time']} {'' if zones_data['nyc']['working'] else ''}
-London: {zones_data['london']['time']} {'' if zones_data['london']['working'] else ''}
-Singapore: {zones_data['sg']['time']} {'' if zones_data['sg']['working'] else ''}
-Sydney: {zones_data['sydney']['time']} {'' if zones_data['sydney']['working'] else ''}
+NYC - {zones_data['nyc']['time']} {'' if zones_data['nyc']['working'] else ''}
+London - {zones_data['london']['time']} {'' if zones_data['london']['working'] else ''}
+Singapore - {zones_data['sg']['time']} {'' if zones_data['sg']['working'] else ''}
+Sydney - {zones_data['sydney']['time']} {'' if zones_data['sydney']['working'] else ''}
 
-Best time: {best_time}"""
+Best time - {best_time}"""
 
     app.client.chat_postMessage(channel=body["channel_id"], text=message)
 
@@ -298,7 +298,7 @@ heroku config:set SLACK_BOT_TOKEN=xoxb-...
 git push heroku main
 ```
 
-Best for: Teams with developers, custom workflows, integration requirements.
+Best for - Teams with developers, custom workflows, integration requirements.
 
 ---
 
@@ -319,7 +319,7 @@ Recommended Workflows by Team Size
 
 Small Teams (3-5 people)
 
-Use: Every Time Zone + simple team agreement.
+Use - Every Time Zone + simple team agreement.
 
 Workflow:
 ```
@@ -330,13 +330,13 @@ Workflow:
 5. Done
 ```
 
-Cost: $0
+Cost - $0
 
 ---
 
 Mid Teams (5-15 people)
 
-Use: World Time Buddy + Slack reminder bot.
+Use - World Time Buddy + Slack reminder bot.
 
 Workflow:
 ```
@@ -347,13 +347,13 @@ Workflow:
 5. Scheduling becomes one-click
 ```
 
-Cost: $3/month + Slack (usually free tier)
+Cost - $3/month + Slack (usually free tier)
 
 ---
 
 Large Teams (15+ distributed)
 
-Use: Custom Slack Bot + Google Calendar + Calendly.
+Use - Custom Slack Bot + Google Calendar + Calendly.
 
 Workflow:
 ```
@@ -365,7 +365,7 @@ Workflow:
 6. Async: Bot posts morning standup reminders per zone
 ```
 
-Cost: $10-50/month (hosting, services)
+Cost - $10-50/month (hosting, services)
 
 ---
 
@@ -415,7 +415,7 @@ Implementation Checklist
 
 ---
 
-Real Example: 24/7 Team Coverage
+Real Example - 24/7 Team Coverage
 
 A team with Sydney, London, and SF can achieve nearly 24/7 coverage:
 
@@ -429,7 +429,7 @@ Overlap windows:
 - London + SF: 5pm-6pm UTC (1 hour)
 - Sydney + SF: Consecutive, no overlap
 
-Solution: Use rotating standup times:
+Solution - Use rotating standup times:
 - 8am London (2am Sydney next day, skip it; 12am SF, skip it)
 - 5pm London (3am Sydney next day, skip it; 9am SF, attend)
 - 2am London (join async; 6pm Sydney, attend; 6pm SF previous day, skip)

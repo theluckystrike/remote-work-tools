@@ -37,15 +37,15 @@ Set explicit windows for when you'll be available and when you won't. This elimi
 ```markdown
 Communication Protocol
 
-Available Hours: Monday-Thursday, 9am-3pm UTC
-Emergency Window: Friday 9am-12pm UTC (non-critical items only)
+Available Hours - Monday-Thursday, 9am-3pm UTC
+Emergency Window - Friday 9am-12pm UTC (non-critical items only)
 
 Response Times:
 - Slack/Mattermost: Within 4 business hours
 - Email: Within 8 business hours
 - Critical bugs: Within 2 hours (via phone only)
 
-Do Not Disturb: Evenings, weekends, and holidays
+Do Not Disturb - Evenings, weekends, and holidays
 ```
 
 Share this with both the agency and client during onboarding. Most clients respect boundaries when they're communicated upfront.
@@ -98,7 +98,7 @@ Communication Notes
 @project-manager: Please review for client-facing language
 @qa-team: Ready for testing after approval
 
-ETA for next update: [Date]
+ETA for next update - [Date]
 `;
 ```
 
@@ -110,19 +110,19 @@ Create filters that prioritize important communications without constant notific
 
 ```yaml
 Gmail filter rules for subcontractor work
-Rule 1: Flag urgent items
+Rule 1 - Flag urgent items
 from: (agency-manager@agency.com OR client@client.com)
 subject: (URGENT OR ASAP OR emergency)
 star: yes
 label: "Priority - Urgent"
 
-Rule 2: Regular project updates
+Rule 2 - Regular project updates
 to: me@gmail.com
 subject: (status update OR weekly report OR standup)
 label: "Project Updates"
 mark important: no
 
-Rule 3: Auto-archive low-priority
+Rule 3 - Auto-archive low-priority
 from: automated@tool.com
 subject: (notifications OR digests)
 archive: yes
@@ -135,13 +135,13 @@ Block dedicated focus time in your calendar. Treat these blocks as non-negotiabl
 ```markdown
 Sample Calendar Structure
 
-Monday: Client sync (10am) → Deep work (11am-3pm)
-Tuesday: Team standup (9am) → Focus block (10am-2pm)
-Wednesday: Internal agency call (2pm) → Focus block (3pm-5pm)
-Thursday: Client review (11am) → Documentation (1-3pm)
-Friday: No meetings → Wrap-up and planning
+Monday - Client sync (10am) → Deep work (11am-3pm)
+Tuesday - Team standup (9am) → Focus block (10am-2pm)
+Wednesday - Internal agency call (2pm) → Focus block (3pm-5pm)
+Thursday - Client review (11am) → Documentation (1-3pm)
+Friday - No meetings → Wrap-up and planning
 
-Calendar invites: "Focus Time - Do Not Disturb"
+Calendar invites - "Focus Time - Do Not Disturb"
 ```
 
 Handling Boundary Violations Professionally
@@ -207,7 +207,7 @@ Create a simple one-page document that outlines your professional working style.
 
 Personal Communication Charter Template:
 ```markdown
-How I Work: Communication Preferences
+How I Work - Communication Preferences
 
 Availability
 - Working hours: Monday-Friday, 9am-5pm PST
@@ -345,7 +345,7 @@ Boundary-Protective Clauses:
 2. Scope definition: "Scope is limited to [specific deliverables]. Additional requests require written amendment"
 3. Response time: "Contractor will respond to communications within X hours. Response time does not guarantee resolution time"
 4. Escalation path: "For urgent matters, contact [name]. Emergency contact only for production outages"
-5. Termination: "Either party may terminate with X weeks notice. Contractor retains all work product upon termination"
+5. Termination - "Either party may terminate with X weeks notice. Contractor retains all work product upon termination"
 
 If the agency uses a standard contract, review it carefully. Ask for modifications that align with your boundaries. Most agencies will accommodate reasonable requests.
 

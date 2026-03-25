@@ -45,7 +45,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Core Metrics to Track
+Step 1 - Core Metrics to Track
 
 Focus on these primary metrics when monitoring web-based tools:
 
@@ -58,7 +58,7 @@ Focus on these primary metrics when monitoring web-based tools:
 
 P95 matters more than averages for identifying user-impacting slowness. A tool with 200ms average but 4,000ms P95 is creating a frustrating experience for one in twenty requests, even though the average looks fine.
 
-Step 2: Simple cURL-Based Monitoring
+Step 2 - Simple cURL-Based Monitoring
 
 The most accessible approach uses standard command-line tools. Create a monitoring script that tests tool responsiveness periodically:
 
@@ -92,7 +92,7 @@ Add to crontab
 
 cURL's `-w` format string supports many useful fields: `time_namelookup`, `time_connect`, `time_starttransfer` (equivalent to TTFB), and `time_total`. Breaking these down reveals whether slowness is DNS, TCP handshake, or server processing.
 
-Step 3: Use Python for Advanced Monitoring
+Step 3 - Use Python for Advanced Monitoring
 
 Python offers more sophisticated analysis capabilities. The following script tests multiple endpoints and calculates statistics:
 
@@ -127,7 +127,7 @@ def analyze_endpoint(name, url):
     if times:
         print(f"{name}:")
         print(f"  Mean:   {mean(times):.3f}s")
-        print(f"  Median: {median(times):.3f}s")
+        print(f"  Median - {median(times):.3f}s")
         print(f"  StdDev: {stdev(times):.3f}s" if len(times) > 1 else "")
         print(f"  Min:    {min(times):.3f}s")
         print(f"  Max:    {max(times):.3f}s")
@@ -141,7 +141,7 @@ if __name__ == "__main__":
 
 Running this script reveals performance patterns. Consistent high latency (above 2-3 seconds for API calls) signals tools worth investigating further. High standard deviation, where some requests are fast and others slow, indicates rate limiting or backend instability.
 
-Step 4: Browser-Based Performance Testing
+Step 4 - Browser-Based Performance Testing
 
 For browser-accessible tools, the browser developer tools Network tab provides immediate insights. However, for systematic testing, Puppeteer-based automation gives repeatable measurements:
 
@@ -185,19 +185,19 @@ async function measureTool(name, url) {
 
 This script loads each tool and measures actual page load time including all resources. Sorting results immediately surfaces which tools are slowest for your team.
 
-Step 5: Identifying Bottleneck Apps
+Step 5 - Identifying Bottleneck Apps
 
 Once you have baseline data, analyzing for bottlenecks involves looking for:
 
-Consistent High Latency: Tools that regularly exceed 3 seconds for basic operations. This often indicates server-side issues or geographic distance from your team. Check the tool's status page (statuspage.io is common) and compare against your measurements to see if the problem is known.
+Consistent High Latency - Tools that regularly exceed 3 seconds for basic operations. This often indicates server-side issues or geographic distance from your team. Check the tool's status page (statuspage.io is common) and compare against your measurements to see if the problem is known.
 
-High Variance: Tools with wildly inconsistent response times suggest infrastructure instability or aggressive rate limiting. If you measure 200ms on Monday and 4,000ms on Tuesday for the same endpoint, the tool has reliability problems beyond simple latency.
+High Variance - Tools with wildly inconsistent response times suggest infrastructure instability or aggressive rate limiting. If you measure 200ms on Monday and 4,000ms on Tuesday for the same endpoint, the tool has reliability problems beyond simple latency.
 
-Correlation with Team Feedback: Cross-reference your data with team complaints about specific tools. Objective data plus subjective experience creates compelling cases for tool changes. A Slack channel dedicated to "tool performance reports" can surface issues you haven't instrumented yet.
+Correlation with Team Feedback - Cross-reference your data with team complaints about specific tools. Objective data plus subjective experience creates compelling cases for tool changes. A Slack channel dedicated to "tool performance reports" can surface issues you haven't instrumented yet.
 
-Time-of-Day Patterns: Many tools slow during business hours when server loads peak. If your team works across time zones, this data helps optimize work schedules, scheduling tasks requiring slow tools for off-peak hours, or flagging that a tool vendor needs to scale their infrastructure.
+Time-of-Day Patterns - Many tools slow during business hours when server loads peak. If your team works across time zones, this data helps optimize work schedules, scheduling tasks requiring slow tools for off-peak hours, or flagging that a tool vendor needs to scale their infrastructure.
 
-Step 6: Build a Monitoring Dashboard
+Step 6 - Build a Monitoring Dashboard
 
 For ongoing tracking, visualize your data. A simple approach uses a SQLite database with Python:
 

@@ -21,7 +21,7 @@ A team wiki is the difference between asking "who knows how we do X?" and having
 Table of Contents
 
 - [Why Your Remote Team Needs a Wiki](#why-your-remote-team-needs-a-wiki)
-- [Platform Comparison: Notion vs Confluence vs GitBook vs Outline](#platform-comparison-notion-vs-confluence-vs-gitbook-vs-outline)
+- [Platform Comparison - Notion vs Confluence vs GitBook vs Outline](#platform-comparison-notion-vs-confluence-vs-gitbook-vs-outline)
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Prerequisites](#prerequisites)
@@ -39,7 +39,7 @@ A wiki solves this by making knowledge persistent, searchable, and decoupled fro
 Real cost of missing documentation:
 
 ```
-Scenario: New engineer joins your team
+Scenario - New engineer joins your team
 
 Without wiki:
 - Day 1: Asks "how do we deploy to production?"
@@ -54,22 +54,22 @@ With wiki:
 - Gets it right first time
 - Cost: 15 minutes of new person's time + one-time setup cost
 
-Over 5 new hires: 20 hours saved
+Over 5 new hires - 20 hours saved
 ```
 
-Platform Comparison: Notion vs Confluence vs GitBook vs Outline
+Platform Comparison - Notion vs Confluence vs GitBook vs Outline
 
 Each platform has fundamentally different architecture. Choice depends on team size, budget, and technical comfort.
 
-Notion: Flexible, All-Purpose, Database-Driven
+Notion - Flexible, All-Purpose, Database-Driven
 
 Notion is a workspace where documentation lives alongside databases, templates, and project management. It's like having a wiki + project tracker + CRM in one tool.
 
-Pricing: Free (basic), $10/user/month (Team), $20/user/month (Business)
+Pricing - Free (basic), $10/user/month (Team), $20/user/month (Business)
 
-Best for: Teams under 20 people, teams wanting wiki + task tracking in one place
+Best for - Teams under 20 people, teams wanting wiki + task tracking in one place
 
-Architecture: Notion uses workspaces containing pages. Pages have sub-pages (infinite nesting). Content includes text, databases (tables), toggle blocks, and embeds.
+Architecture - Notion uses workspaces containing pages. Pages have sub-pages (infinite nesting). Content includes text, databases (tables), toggle blocks, and embeds.
 
 Strengths:
 - Powerful databases for structured information (deployment checklist = database)
@@ -83,17 +83,17 @@ Weaknesses:
 - Slower for documentation-heavy teams (lag when opening large pages)
 - Database queries sometimes feel fragile
 
-Permission model: Workspace-wide access control (all or nothing on shared spaces), or per-page sharing. This creates permission management overhead for large teams.
+Permission model - Workspace-wide access control (all or nothing on shared spaces), or per-page sharing. This creates permission management overhead for large teams.
 
-Confluence: Enterprise Documentation, Wiki-Focused
+Confluence - Enterprise Documentation, Wiki-Focused
 
 Confluence is Atlassian's documentation tool. It's designed specifically for documentation, with strong collaboration features and permission controls.
 
-Pricing: Free (up to 10 users), $225/year for 50 users (Cloud), $1600+/year (Server/Data Center)
+Pricing - Free (up to 10 users), $225/year for 50 users (Cloud), $1600+/year (Server/Data Center)
 
-Best for: Teams 15+, organizations with compliance requirements, teams using Jira
+Best for - Teams 15+, organizations with compliance requirements, teams using Jira
 
-Architecture: Confluence uses spaces (namespaces for teams/projects) containing pages with hierarchical structure. Pages support comments, mentions, and linked issues from Jira.
+Architecture - Confluence uses spaces (namespaces for teams/projects) containing pages with hierarchical structure. Pages support comments, mentions, and linked issues from Jira.
 
 Strengths:
 - Purpose-built for documentation (best search, best organization)
@@ -108,17 +108,17 @@ Weaknesses:
 - Fewer database/template features than Notion
 - Requires Atlassian administration overhead
 
-Permission model: Sophisticated. Control access at space level, page level, or by user groups. Essential for teams with confidential information.
+Permission model - Sophisticated. Control access at space level, page level, or by user groups. Essential for teams with confidential information.
 
-GitBook: Developer-Focused, Version Controlled
+GitBook - Developer-Focused, Version Controlled
 
 GitBook is documentation built for technical teams. It syncs with git repositories, supports versioning, and renders markdown.
 
-Pricing: Free (basic), $8/user/month (Pro), $15/user/month (Team)
+Pricing - Free (basic), $8/user/month (Pro), $15/user/month (Team)
 
-Best for: Technical teams, teams wanting documentation as code, open-source projects
+Best for - Technical teams, teams wanting documentation as code, open-source projects
 
-Architecture: GitBook syncs with GitHub/GitLab repositories. Pages are markdown files. Structure mirrors your git folder structure.
+Architecture - GitBook syncs with GitHub/GitLab repositories. Pages are markdown files. Structure mirrors your git folder structure.
 
 Strengths:
 - Treats documentation as code (version control, code review)
@@ -133,17 +133,17 @@ Weaknesses:
 - No real-time collaboration (pull request workflow)
 - Limited database/structured data features
 
-Permission model: GitHub-based (anyone with repository access can edit). Good for open teams, awkward for confidential information.
+Permission model - GitHub-based (anyone with repository access can edit). Good for open teams, awkward for confidential information.
 
-Outline: Open-Source, Fast, Wiki-Focused
+Outline - Open-Source, Fast, Wiki-Focused
 
 Outline is a modern, self-hosted wiki platform. It's free and open-source but requires hosting.
 
-Pricing: Free (self-hosted), $8/user/month (managed hosting)
+Pricing - Free (self-hosted), $8/user/month (managed hosting)
 
-Best for: Technical teams, teams wanting control over data, privacy-conscious organizations
+Best for - Technical teams, teams wanting control over data, privacy-conscious organizations
 
-Architecture: Outline is a standalone application you install on your server or use their managed hosting. It functions like Confluence but with simpler interface.
+Architecture - Outline is a standalone application you install on your server or use their managed hosting. It functions like Confluence but with simpler interface.
 
 Strengths:
 - Fast (optimized for wiki performance)
@@ -155,11 +155,11 @@ Strengths:
 
 Weaknesses:
 - Requires self-hosting or paying for managed hosting
-- Smaller ecosystem (fewer integrations)
+- Smaller environment (fewer integrations)
 - Smaller community (fewer third-party features)
 - Not suitable for teams wanting integrated project management
 
-Permission model: Simple, invite users, they get access. Can restrict specific collections. Best for smaller teams.
+Permission model - Simple, invite users, they get access. Can restrict specific collections. Best for smaller teams.
 
 Platform Comparison Table
 
@@ -171,13 +171,13 @@ Platform Comparison Table
 | Permissions | Basic | Excellent | Git-based | Simple |
 | Cost (10 people) | $10/month | $225/year | $0/month | $80/month |
 | Cost (50 people) | $500/month | $1600+/year | $400/month | $400/month |
-| Integration ecosystem | Excellent | Excellent | Good | Fair |
+| Integration environment | Excellent | Excellent | Good | Fair |
 | Team project management | Yes | No | No | No |
 | Self-hosting | No | Yes (Data Center) | No | Yes |
 
 Recommendation for most remote teams: Confluence if you have budget and want granular permissions, Notion if you want simplicity and integrated project management, Outline if you want speed and privacy.
 
-Step 1: Wiki Structure: Building Architecture That Works
+Step 1 - Wiki Structure: Building Architecture That Works
 
 Regardless of platform, structure determines usability. Poor structure means good information stays hidden.
 
@@ -232,34 +232,34 @@ Decision Record Template:
 ```
 [Decision Title]
 
-Date: March 21, 2026
-Decided by: [Name]
-Participants: [List people in discussion]
+Date - March 21, 2026
+Decided by - [Name]
+Participants - [List people in discussion]
 
-Step 2: The Problem
+Step 2 - The Problem
 [What are we trying to solve? Why does this matter?]
 
-Step 3: Options Considered
+Step 3 - Options Considered
 
-Option A: [Name]
+Option A - [Name]
 [Benefits]
 [Drawbacks]
-Cost: [Time/money]
+Cost - [Time/money]
 
-Option B: [Name]
+Option B - [Name]
 [Benefits]
 [Drawbacks]
-Cost: [Time/money]
+Cost - [Time/money]
 
-Step 4: Decision
+Step 4 - Decision
 We chose Option A because [rationale].
 
-Step 5: Consequences
+Step 5 - Consequences
 - [What changes as a result]
 - [What we'll need to do next]
 - [What we won't do anymore]
 
-Step 6: Revisit Date
+Step 6 - Revisit Date
 [When we'll reconsider this decision, e.g., "Q3 2026"]
 ```
 
@@ -268,9 +268,9 @@ Process Template:
 ```
 [Process Name]
 
-Owner: [Person responsible for keeping this current]
-Last Updated: March 21, 2026
-Frequency: [How often this happens: daily, per deployment, quarterly]
+Owner - [Person responsible for keeping this current]
+Last Updated - March 21, 2026
+Frequency - [How often this happens: daily, per deployment, quarterly]
 
 Overview
 [What is this process for? Why do we do it?]
@@ -280,7 +280,7 @@ Prerequisites
 - [Who needs to approve]
 - [What tools you need access to]
 
-Step 7: Step-by-Step
+Step 7 - Step-by-Step
 
 1. [First step]
    - [Sub-step if needed]
@@ -290,40 +290,40 @@ Step 7: Step-by-Step
    - [Sub-step]
    - [Expected outcome]
 
-Step 8: Approval
+Step 8 - Approval
 
 - [ ] [Name] approves
 - [ ] [Name] verifies
 
-Step 9: Rollback
+Step 9 - Rollback
 If something goes wrong, [steps to undo].
 
-Step 10: Common Questions
+Step 10 - Common Questions
 - Q: What if X happens?
   A: [Answer]
 ```
 
-Decision + Process example: Deployment
+Decision + Process example - Deployment
 
 ```
 DECISION LOG:
 We decided to use blue-green deployments (Decision #47, Jan 2025)
-Why: Reduces risk of production outages
+Why - Reduces risk of production outages
 
 PROCESS PAGE:
 How to Deploy to Production
-Step 1: Prepare blue environment with new code
-Step 2: Run tests against blue
-Step 3: Switch traffic to blue
-Step 4: Monitor green for 30 minutes
-Step 5: Tear down green
+Step 1 - Prepare blue environment with new code
+Step 2 - Run tests against blue
+Step 3 - Switch traffic to blue
+Step 4 - Monitor green for 30 minutes
+Step 5 - Tear down green
 ```
 
 The Decision Log explains why we do it this way. The Process page explains how.
 
-Step 11: Implementation: Week-by-Week Setup
+Step 11 - Implementation: Week-by-Week Setup
 
-Week 1: Foundation (2-3 hours)
+Week 1 - Foundation (2-3 hours)
 
 1. Choose platform
  - Team preferences → Notion (easiest), Confluence (best for large teams), Outline (privacy)
@@ -341,7 +341,7 @@ Week 1: Foundation (2-3 hours)
  - Test that search works across all pages
  - Configure search to be discoverable on home page
 
-Week 2: Critical Documentation (4-5 hours)
+Week 2 - Critical Documentation (4-5 hours)
 
 Focus on documentation people need immediately:
 
@@ -373,11 +373,11 @@ Focus on documentation people need immediately:
  - Run tests
  - Common setup problems + solutions
 
-Week 3: Filling Gaps (3-4 hours)
+Week 3 - Filling Gaps (3-4 hours)
 
 1. Capture decisions that are already made
- - Ask: "Why do we use X tool?" → Document the decision
- - Ask: "How did we decide our code style?" → Document it
+ - Ask - "Why do we use X tool?" → Document the decision
+ - Ask - "How did we decide our code style?" → Document it
  - These decisions already exist in people's heads; write them down
 
 2. Add to Getting Started section
@@ -390,7 +390,7 @@ Week 3: Filling Gaps (3-4 hours)
  - Incident response (who to call, what to do)
  - Monitoring and alerts
 
-Week 4: Quality and Maintenance (2-3 hours)
+Week 4 - Quality and Maintenance (2-3 hours)
 
 1. Assign owners
  - Each major section should have an owner
@@ -406,15 +406,15 @@ Week 4: Quality and Maintenance (2-3 hours)
  - Monthly review: engineering team reviews dev setup
  - Add calendar reminders for owners
 
-Step 12: Real Example: Deployment Documentation
+Step 12 - Real Example: Deployment Documentation
 
 Here's what excellent deployment documentation looks like in practice:
 
 ```
 DEPLOYMENT GUIDE (Process)
 
-Owner: [DevOps Lead]
-Last Updated: March 21, 2026
+Owner - [DevOps Lead]
+Last Updated - March 21, 2026
 
 Prerequisites
 - [ ] Code is merged to main branch
@@ -422,7 +422,7 @@ Prerequisites
 - [ ] A second engineer reviews the changes
 - [ ] You have AWS console access
 
-Step 13: Deploy ment Steps
+Step 13 - Deploy ment Steps
 
 1. Create deployment ticket in Jira
    Expected: Jira ticket created with timestamp
@@ -452,7 +452,7 @@ Step 13: Deploy ment Steps
 
 7. Close deployment ticket
 
-Step 14: Rollback (If something is wrong)
+Step 14 - Rollback (If something is wrong)
 $ ./scripts/deploy.sh --env=production --rollback
 $ # Manually verify rollback worked
 
@@ -467,42 +467,42 @@ A: Check the deployment checklist dashboard (link) showing latest test results a
 See decision #47 for the reasoning behind this approach.
 ```
 
-Step 15: Permission Model for Growing Teams
+Step 15 - Permission Model for Growing Teams
 
 As your team grows, permission management becomes important.
 
 Small Team (< 15 people)
-Model: Everyone has edit access
+Model - Everyone has edit access
 
 ```
-Product: Read + Write
-Engineering: Read + Write
-Operations: Read + Write
+Product - Read + Write
+Engineering - Read + Write
+Operations - Read + Write
 ```
 
 Simple, anyone can fix errors
 Risk of accidental edits, no audit trail
 
 Medium Team (15-50 people)
-Model: Role-based editing
+Model - Role-based editing
 
 ```
-Product docs: Product team writes, others read
-Engineering docs: Engineering team writes, others read
-Company policies: CEO/HR writes, others read
-Decision Log: Decision maker writes, others read
+Product docs - Product team writes, others read
+Engineering docs - Engineering team writes, others read
+Company policies - CEO/HR writes, others read
+Decision Log - Decision maker writes, others read
 
-Everyone: Read access everywhere
+Everyone - Read access everywhere
 ```
 
 Clear ownership, prevents accidental changes
 Takes time to route changes to owners
 
 Large Team (50+ people)
-Model: Granular permissions + approval workflow
+Model - Granular permissions + approval workflow
 
 ```
-Public docs (everyone reads): Engineering guide, company values
+Public docs (everyone reads) - Engineering guide, company values
 Team docs (team reads, team writes): Team-specific processes
 Internal docs (leadership reads): Compensation, hiring decisions
 Decision Log (decision maker writes, all read): Decisions
@@ -513,7 +513,7 @@ Contributors propose changes → owner reviews → publishes
 Prevents misinformation, audit trail, controls access to sensitive docs
 Slower updates, requires coordination
 
-Step 16: Maintaining Quality Over Time
+Step 16 - Maintaining Quality Over Time
 
 A wiki degrades over time. Stale docs create more confusion than no docs.
 
@@ -539,10 +539,10 @@ Prevent Degradation
  - Keep decision log clean, but searchable history remains
  - Mark decisions with "revisit date" (decision made in Q1, revisit Q3)
 
-Real Example: Quarterly Maintenance
+Real Example - Quarterly Maintenance
 
 ```
-March 21, 2026: Quarterly Documentation Review
+March 21, 2026 - Quarterly Documentation Review
 
 Operations Team:
 - On-Call Guide (owner: Sarah) → last updated March 2025 → update
@@ -557,7 +557,7 @@ Engineering Team:
 
 Owners spend 30 min each reviewing and updating. Takes 2 hours total for quarterly maintenance.
 
-Step 17: Common Pitfalls and Solutions
+Step 17 - Common Pitfalls and Solutions
 
 | Pitfall | Solution |
 |---------|----------|
@@ -569,7 +569,7 @@ Step 17: Common Pitfalls and Solutions
 | Too much process (wiki feels bureaucratic) | Document what you actually do, not ideal process |
 | Decisions get lost (no way to find old decisions) | Decision log with consistent format |
 
-Step 18: Integration with Other Tools
+Step 18 - Integration with Other Tools
 
 A wiki works better when connected to other tools.
 

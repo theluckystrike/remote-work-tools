@@ -27,8 +27,8 @@ Table of Contents
 - [Handling Edge Cases](#handling-edge-cases)
 - [Best Practices](#best-practices)
 - [Handling VPN and Proxy Traffic](#handling-vpn-and-proxy-traffic)
-- [Anomaly Detection: Location Velocity Checks](#anomaly-detection-location-velocity-checks)
-- [Infrastructure Considerations: Caching and Rate Limits](#infrastructure-considerations-caching-and-rate-limits)
+- [Anomaly Detection - Location Velocity Checks](#anomaly-detection-location-velocity-checks)
+- [Infrastructure Considerations - Caching and Rate Limits](#infrastructure-considerations-caching-and-rate-limits)
 - [Compliance and Audit Logging](#compliance-and-audit-logging)
 
 Understanding Geo-Fencing for Access Control
@@ -255,7 +255,7 @@ def vpn_policy(vpn_type: VPNType) -> AccessDecision:
 
 Maintaining the `CORPORATE_VPN_EXITS` list requires coordination with your IT team but dramatically reduces false positives for legitimate remote workers.
 
-Anomaly Detection: Location Velocity Checks
+Anomaly Detection - Location Velocity Checks
 
 Static geo-fencing based on allowed country lists misses a common attack pattern: credential theft from within an allowed country. A user's credentials stolen by an attacker located in an allowed region defeats pure country-based controls entirely.
 
@@ -295,7 +295,7 @@ def check_location_velocity(
 
 Store the last known location and timestamp for each authenticated session in your user store. On each new authentication, run the velocity check and trigger a mandatory MFA challenge if the movement is implausible. Most legitimate users traveling internationally will complete the MFA without friction; it's an one-time step that prevents the compromise from succeeding silently.
 
-Infrastructure Considerations: Caching and Rate Limits
+Infrastructure Considerations - Caching and Rate Limits
 
 IP geolocation lookups should not happen synchronously on every request for authenticated sessions. The latency cost is real, and external API rate limits can become a bottleneck under load.
 

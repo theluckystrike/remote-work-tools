@@ -28,28 +28,28 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Understand Bandwidth vs. Latency vs. Jitter
+Step 1 - Understand Bandwidth vs. Latency vs. Jitter
 
 Before examining specific tasks, clarify three network metrics:
 
-Bandwidth (Mbps): Total data throughput available. Think of it as the width of the pipe.
+Bandwidth (Mbps) - Total data throughput available. Think of it as the width of the pipe.
 - Measured in megabits per second (Mbps) or gigabits per second (Gbps)
 - 1 Gbps = 1,000 Mbps
 - Bandwidth cap: if download speed is 50 Mbps, you cannot exceed 50 Mbps regardless of task
 
-Latency (milliseconds): Round-trip time for data to travel from your computer to the server and back.
+Latency (milliseconds) - Round-trip time for data to travel from your computer to the server and back.
 - Measured in milliseconds (ms)
 - < 20ms = excellent (LAN or local cloud)
 - 20-50ms = good (typical broadband)
 - 50-100ms = acceptable for most tasks
 - > 100ms = noticeable delays in video calls, interactive tools
 
-Jitter (variance in latency): Fluctuation in latency over time.
+Jitter (variance in latency) - Fluctuation in latency over time.
 - If latency swings between 30ms and 200ms every few seconds, jitter is high
 - High jitter causes call drops, lag spikes, timeout failures in CI/CD
 - Target: jitter < 20ms for video calls, < 50ms for development
 
-Test your connection: `speedtest.net` or `fast.com` (bandwidth), `ping 8.8.8.8` (latency).
+Test your connection - `speedtest.net` or `fast.com` (bandwidth), `ping 8.8.8.8` (latency).
 
 Specific Bandwidth Requirements by Task
 
@@ -141,8 +141,8 @@ Performance comparison:
 ```
 Latency 20ms:  Typing feels local; terminal commands instant
 Latency 50ms:  Minor delay after each keystroke; terminal lag noticeable
-Latency 100ms: Typing feels like over SSH; frustrating for development
-Latency 150ms+: Essentially unusable for real-time development
+Latency 100ms - Typing feels like over SSH; frustrating for development
+Latency 150ms+ - Essentially unusable for real-time development
 ```
 
 Minimum connection for cloud IDE work: 10 Mbps down, 5 Mbps up, < 50ms latency.
@@ -153,8 +153,8 @@ Docker pulls are bandwidth-heavy but latency-insensitive. A 2 GB image pulls the
 
 Pulling a typical base image (Ubuntu, Node.js):
 - Size: 200-500 MB
-- Speed at 25 Mbps: 65-160 seconds (1-2.5 minutes)
-- Speed at 50 Mbps: 32-80 seconds (0.5-1.3 minutes)
+- Speed at 25 Mbps - 65-160 seconds (1-2.5 minutes)
+- Speed at 50 Mbps - 32-80 seconds (0.5-1.3 minutes)
 - Speed at 100 Mbps: 16-40 seconds
 
 Pulling a large ML/AI image (PyTorch, TensorFlow):
@@ -168,14 +168,14 @@ Practical example:
 Pulling nvidia/cuda:12.0-runtime-ubuntu22.04 (3.2 GB)
 time docker pull nvidia/cuda:12.0-runtime-ubuntu22.04
 
-On 50 Mbps connection: ~10 minutes
-On 25 Mbps connection: ~20 minutes
-On 10 Mbps connection: ~45 minutes
+On 50 Mbps connection - ~10 minutes
+On 25 Mbps connection - ~20 minutes
+On 10 Mbps connection - ~45 minutes
 ```
 
-Bandwidth requirement: Aim for at least 25 Mbps download speed if you pull Docker images regularly. If your ISP advertises 50 Mbps, actual throughput is often 40-45 Mbps (good enough).
+Bandwidth requirement - Aim for at least 25 Mbps download speed if you pull Docker images regularly. If your ISP advertises 50 Mbps, actual throughput is often 40-45 Mbps (good enough).
 
-Latency impact: Negligible. A 50ms latency won't affect Docker pull speed.
+Latency impact - Negligible. A 50ms latency won't affect Docker pull speed.
 
 Git Operations (Clone, Push, Pull, Large File Handling)
 
@@ -197,14 +197,14 @@ Pushing code changes (typically < 10 MB):
 
 Shallow clone to save time:
 ```bash
-Full clone: 5 GB at 25 Mbps = 27 minutes
+Full clone - 5 GB at 25 Mbps = 27 minutes
 git clone https://github.com/kubernetes/kubernetes
 
 Shallow clone (recent 10 commits only): ~200 MB at 25 Mbps = 1 minute
 git clone --depth 10 https://github.com/kubernetes/kubernetes
 ```
 
-Bandwidth requirement: 10 Mbps minimum. If you frequently work with monorepos, 25-50 Mbps recommended to avoid lengthy clones.
+Bandwidth requirement - 10 Mbps minimum. If you frequently work with monorepos, 25-50 Mbps recommended to avoid lengthy clones.
 
 Live Streaming / Broadcasting Development (Twitch, YouTube)
 
@@ -221,61 +221,61 @@ If you stream your development work (coding tutorials, pair programming):
 - Recommended: 15 Mbps upload (streaming platforms add adaptive bitrate)
 - Real example: YouTube Gaming recommends 12-51 Mbps for 1080p 60 fps depending on audio/complexity
 
-Observation: Most home ISPs have terrible upload speeds. If you stream, test upload with `speedtest.net`. If upload is < 5 Mbps, streaming at 720p will be choppy.
+Observation - Most home ISPs have terrible upload speeds. If you stream, test upload with `speedtest.net`. If upload is < 5 Mbps, streaming at 720p will be choppy.
 
-Step 2: Real-World Scenarios
+Step 2 - Real-World Scenarios
 
-Scenario 1: Typical Knowledge Worker
+Scenario 1 - Typical Knowledge Worker
 - Task: Email, Slack, one 720p video call, screen sharing, Google Docs
 - Total bandwidth needed: 10 Mbps down, 5 Mbps up
 - ISP requirement: 25 Mbps down / 5 Mbps up
 - Most residential broadband is overkill for this
 
-Scenario 2: Software Developer
+Scenario 2 - Software Developer
 - Task: Code editor (cloud IDE), git operations, Docker pulls, 720p video call with screen share
 - Total bandwidth needed: 25 Mbps down, 8 Mbps up
 - ISP requirement: 50 Mbps down / 10 Mbps up
 - Latency critical: < 50ms for responsive editing
 
-Scenario 3: Simultaneously with Family
+Scenario 3 - Simultaneously with Family
 - Your tasks: Video call, screen share, git clone
 - Family tasks: Netflix 4K (25 Mbps), YouTube (5 Mbps), gaming (2 Mbps)
 - Combined bandwidth: 50+ Mbps down
 - ISP requirement: 100 Mbps down to avoid congestion
 - Budget for WiFi: Use 5 GHz band, position close to router
 
-Step 3: Test Your Connection
+Step 3 - Test Your Connection
 
-Step 1: Test bandwidth
+Step 1 - Test bandwidth
 ```bash
-Option 1: Online
+Option 1 - Online
 Visit fast.com or speedtest.net
 
-Option 2: CLI
+Option 2 - CLI
 macOS/Linux:
 brew install speedtest-cli
 speedtest-cli
 
 Expected output:
 Download: 45.23 Mbps
-Upload: 9.87 Mbps
+Upload - 9.87 Mbps
 ```
 
-Step 2: Test latency
+Step 2 - Test latency
 ```bash
 Ping a public server
 ping -c 10 8.8.8.8
 
 Look for round-trip time (RTT)
-Good: < 30ms
-Acceptable: 30-100ms
-Poor: > 100ms
+Good - < 30ms
+Acceptable - 30-100ms
+Poor - > 100ms
 
 Check jitter (variation between pings)
-Good: < 10ms difference between fastest and slowest
+Good - < 10ms difference between fastest and slowest
 ```
 
-Step 3: Test under load
+Step 3 - Test under load
 ```bash
 Run a video call while pulling a Docker image
 If video freezes or drops, bandwidth is insufficient
@@ -284,7 +284,7 @@ Run speedtest while on an active video call
 If download speed drops > 50%, your connection can't handle simultaneous tasks
 ```
 
-Step 4: Monitor WiFi vs. Ethernet
+Step 4 - Monitor WiFi vs. Ethernet
 ```bash
 Connect to WiFi, run speedtest
 Connect to Ethernet, run speedtest
@@ -292,7 +292,7 @@ Difference > 20% means WiFi interference or weak signal
 If WiFi is significantly slower, use Ethernet for critical work
 ```
 
-Step 4: Recommendations by ISP Speed Tier
+Step 4 - Recommendations by ISP Speed Tier
 
 25 Mbps down / 3 Mbps up (basic broadband):
 - Suitable for: Email, Slack, audio calls, light web browsing
@@ -312,7 +312,7 @@ Step 4: Recommendations by ISP Speed Tier
 - Suitable for: Everything, including 4K video streaming, large file transfers, no bottleneck
 - Overkill for: Solo remote work (not necessary)
 
-Step 5: Minimizing Bandwidth Usage
+Step 5 - Minimizing Bandwidth Usage
 
 If your ISP connection is limited (< 25 Mbps), optimize:
 

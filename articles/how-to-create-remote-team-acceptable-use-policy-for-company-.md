@@ -204,7 +204,7 @@ Writing policy language is only half the job. You need tooling that enforces the
 
 Jamf Pro is the gold standard for macOS-heavy teams. It allows you to push configuration profiles, enforce disk encryption, lock down the App Store to approved apps, and trigger remote wipes. Pricing starts at roughly $4/device/month for Jamf Now (SMB) and scales to custom enterprise contracts for Jamf Pro.
 
-Microsoft Intune integrates deeply into the Microsoft 365 ecosystem. If your team runs Windows devices and uses Azure AD for identity, Intune is the natural choice. It enforces compliance policies, manages software deployment, and produces audit reports that satisfy SOC 2 auditors. Intune is included in Microsoft 365 Business Premium and E3/E5 plans.
+Microsoft Intune integrates deeply into the Microsoft 365 environment. If your team runs Windows devices and uses Azure AD for identity, Intune is the natural choice. It enforces compliance policies, manages software deployment, and produces audit reports that satisfy SOC 2 auditors. Intune is included in Microsoft 365 Business Premium and E3/E5 plans.
 
 Kandji has emerged as a strong macOS-focused MDM with an excellent blueprint system that lets you template device configurations. It supports automated remediation, if a device falls out of compliance, Kandji can push corrections automatically rather than waiting for an IT ticket.
 
@@ -244,7 +244,7 @@ Making Policy Accessible
 Avoid creating a document that nobody reads. For technical teams, consider a condensed version:
 
 ```markdown
-Quick Reference: Remote Device Do's and Don'ts
+Quick Reference - Remote Device Do's and Don'ts
 
 DO:
 - Lock your screen when stepping away (Cmd/Ctrl + L)

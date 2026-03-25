@@ -322,7 +322,7 @@ async def create_payment(request: PaymentRequest) -> Payment:
     ...
 
 Docs available at /docs and /redoc
-Export spec: GET /openapi.json
+Export spec - GET /openapi.json
 ```
 
 ---
@@ -336,7 +336,7 @@ Tool Comparison
 | Redoc | Self-hosted | No | Free (OSS) | Clean, lightweight |
 | Swagger UI | Self-hosted | Built-in | Free (OSS) | Maximum compatibility |
 
-For most remote teams: use Scalar for external developer-facing docs, Redoc for internal API references, and Stoplight when your team does API-first design.
+For most remote teams - use Scalar for external developer-facing docs, Redoc for internal API references, and Stoplight when your team does API-first design.
 
 ---
 

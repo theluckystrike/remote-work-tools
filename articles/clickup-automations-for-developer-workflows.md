@@ -30,7 +30,7 @@ Table of Contents
 - [ClickUp Pricing and Value Assessment](#clickup-pricing-and-value-assessment)
 - [Integration Patterns with GitHub and CI/CD](#integration-patterns-with-github-and-cicd)
 - [ClickUp Automation Troubleshooting Guide](#clickup-automation-troubleshooting-guide)
-- [Decision Framework: When to Automate vs. When to Use Templates](#decision-framework-when-to-automate-vs-when-to-use-templates)
+- [Decision Framework - When to Automate vs. When to Use Templates](#decision-framework-when-to-automate-vs-when-to-use-templates)
 - [Scaling Automations Across Multiple Teams](#scaling-automations-across-multiple-teams)
 
 Setting Up Your First Automation
@@ -38,8 +38,8 @@ Setting Up Your First Automation
 Automations in ClickUp follow a simple trigger-action pattern. You define when something should happen (the trigger), and what should occur (the action). Here's a practical example for managing bug triage:
 
 ```
-Trigger: Task status changes to "Bug Reported"
-Action: Set priority to "High" and assign to "Bug Triage Team"
+Trigger - Task status changes to "Bug Reported"
+Action - Set priority to "High" and assign to "Bug Triage Team"
 ```
 
 This automation ensures that newly reported bugs immediately get flagged appropriately, rather than sitting in a queue until someone manually reviews them.
@@ -49,10 +49,10 @@ Automating Code Review Workflows
 Code reviews are essential but can create administrative overhead. Here's how to automate the hand-off between pull request creation and review assignment:
 
 ```
-Trigger: Task status changes to "PR Ready for Review"
-Action: Assign to "Code Reviewers" list based on round-robin
-Action: Set due date to +2 days
-Action: Add comment: "Please review within 48 hours"
+Trigger - Task status changes to "PR Ready for Review"
+Action - Assign to "Code Reviewers" list based on round-robin
+Action - Set due date to +2 days
+Action - Add comment: "Please review within 48 hours"
 ```
 
 For teams using GitHub or GitLab integrations, you can extend this further. When a pull request is marked as approved in your Git platform, ClickUp can automatically move the corresponding task to "Merged" status:
@@ -80,18 +80,18 @@ Sprint planning and cleanup often involve repetitive task modifications. Automat
 At sprint start, you might want to automatically set appropriate statuses:
 
 ```
-Trigger: Task moved to "Current Sprint" folder
-Action: Set status to "In Progress" if assignee exists
-Action: Set start date to today
+Trigger - Task moved to "Current Sprint" folder
+Action - Set status to "In Progress" if assignee exists
+Action - Set start date to today
 ```
 
 At sprint end, finding outstanding work becomes simpler with:
 
 ```
-Trigger: Sprint end date passes
-Action: Move incomplete tasks to "Backlog"
-Action: Add comment: "Deferred to next sprint"
-Action: Remove sprint assignment
+Trigger - Sprint end date passes
+Action - Move incomplete tasks to "Backlog"
+Action - Add comment: "Deferred to next sprint"
+Action - Remove sprint assignment
 ```
 
 This keeps your sprint boards clean while preserving the history of incomplete work.
@@ -101,18 +101,18 @@ Notifications That Actually Help
 Instead of flooding team channels with every update, use targeted notifications triggered by specific conditions:
 
 ```
-Trigger: Task priority changed to "Urgent"
-Action: Notify #dev-team channel in Slack
-Action: Add emoji reaction  to task
+Trigger - Task priority changed to "Urgent"
+Action - Notify #dev-team channel in Slack
+Action - Add emoji reaction  to task
 ```
 
 For blocked tasks, automated alerts prevent work from stalling silently:
 
 ```
-Trigger: Status changes to "Blocked"
-Action: Notify assignee's manager
-Action: Create subtask: "Unblock [Task Name]"
-Action: Set due date to +1 day
+Trigger - Status changes to "Blocked"
+Action - Notify assignee's manager
+Action - Create subtask: "Unblock [Task Name]"
+Action - Set due date to +1 day
 ```
 
 These automations ensure that blockers get attention quickly without requiring manual escalation.
@@ -124,19 +124,19 @@ Developer workflows often involve tracking specific metadata. Custom fields comb
 Consider a workflow where task type determines the processing:
 
 ```
-Trigger: Task created with Field "Task Type" = "Technical Debt"
-Action: Add to "Technical Debt" view
-Action: Set priority based on estimated impact
-Action: Add tag "debt"
+Trigger - Task created with Field "Task Type" = "Technical Debt"
+Action - Add to "Technical Debt" view
+Action - Set priority based on estimated impact
+Action - Add tag "debt"
 ```
 
 For feature flags or experiment tracking:
 
 ```
-Trigger: Field "Feature Flag" is set to enabled
-Action: Create subtask: "Monitor metrics for [Task Name]"
-Action: Add to "Feature Flagged" view
-Action: Set due date to +7 days for review
+Trigger - Field "Feature Flag" is set to enabled
+Action - Create subtask: "Monitor metrics for [Task Name]"
+Action - Add to "Feature Flagged" view
+Action - Set due date to +7 days for review
 ```
 
 Practical Integration Example
@@ -148,10 +148,10 @@ Many teams integrate ClickUp with their CI/CD pipelines. Here's a pattern for tr
 3. When deployment fails: set status to "Deployment Failed", assign to last commit author
 
 ```
-Trigger: Webhook received from deployment system (status: success)
-Action: Update custom field "Deploy Time" with current timestamp
-Action: Change status to "Deployed"
-Action: Post to #releases: " Deployed: [Task Name] to [Environment]"
+Trigger - Webhook received from deployment system (status: success)
+Action - Update custom field "Deploy Time" with current timestamp
+Action - Change status to "Deployed"
+Action - Post to #releases: " Deployed: [Task Name] to [Environment]"
 ```
 
 This creates a clear audit trail without developers manually updating deployment status.
@@ -173,12 +173,12 @@ Testing Workflow Automation
 For teams managing test coverage and quality metrics:
 
 ```
-Trigger: Task created with field "Type" = "Test Task"
-Action: Add to "QA Review" view
-Action: Set custom field "Test Coverage" = 0%
-Action: Create subtask: "Update test metrics"
-Action: Tag with "quality-initiative"
-Action: Notify #qa-team channel
+Trigger - Task created with field "Type" = "Test Task"
+Action - Add to "QA Review" view
+Action - Set custom field "Test Coverage" = 0%
+Action - Create subtask: "Update test metrics"
+Action - Tag with "quality-initiative"
+Action - Notify #qa-team channel
 ```
 
 This ensures test tasks are immediately visible and never fall through cracks due to miscategorization.
@@ -188,12 +188,12 @@ Release Management Automation
 Coordinate releases across multiple components:
 
 ```
-Trigger: Custom field "Release Version" is set
-Action: Create subtask for each component in release
-Action: Set due dates: -7 days for code freeze, -3 days for QA sign-off
-Action: Add to "Release [version]" folder
-Action: Create linked task in #releases Slack channel
-Action: Generate pre-deployment checklist subtask
+Trigger - Custom field "Release Version" is set
+Action - Create subtask for each component in release
+Action - Set due dates: -7 days for code freeze, -3 days for QA sign-off
+Action - Add to "Release [version]" folder
+Action - Create linked task in #releases Slack channel
+Action - Generate pre-deployment checklist subtask
 ```
 
 This creates a complete release structure automatically when you set a version number, eliminating manual task creation.
@@ -203,11 +203,11 @@ Dependency Management
 Track cross-team dependencies automatically:
 
 ```
-Trigger: Task created with field "Blocks" = specified task
-Action: Add comment on blocking task: "Blocked by [Task Name]"
-Action: Notify assignee of blocking task
-Action: Set priority of blocking task to "High"
-Action: Create calendar event 3 days before this task's due date
+Trigger - Task created with field "Blocks" = specified task
+Action - Add comment on blocking task: "Blocked by [Task Name]"
+Action - Notify assignee of blocking task
+Action - Set priority of blocking task to "High"
+Action - Create calendar event 3 days before this task's due date
 ```
 
 This ensures blocking tasks get immediate attention and don't silently delay downstream work.
@@ -219,26 +219,26 @@ Pricing Structure
 ClickUp offers several tiers:
 
 - Free: Unlimited tasks, basic automation (3 automations max), limited integrations
-- Unlimited: $5/user/month (billed annually). unlimited automations, integrations, custom fields
-- Business: $12/user/month. advanced reporting, team management, priority support
-- Enterprise: Custom pricing. dedicated support, advanced security
+- Unlimited - $5/user/month (billed annually). unlimited automations, integrations, custom fields
+- Business - $12/user/month. advanced reporting, team management, priority support
+- Enterprise - Custom pricing. dedicated support, advanced security
 
 For a team of 10 developers:
 - Free: $0 (good for trying automations)
-- Unlimited: $600/year ($50/month). highly cost-effective
-- Business: $1,440/year ($120/month). if advanced reporting matters
+- Unlimited - $600/year ($50/month). highly cost-effective
+- Business - $1,440/year ($120/month). if advanced reporting matters
 
 Automation ROI Calculator
 
 Estimate time saved by automations:
 
 ```
-Manual task: Bug triage and assignment = 2 minutes per bug
-Automations eliminate: 80% of manual effort
-Bugs per sprint: ~15
-Time saved per sprint: 15 × 2 min × 0.8 = 24 minutes
-Annual savings: 26 sprints × 24 min = 624 minutes = 10.4 hours
-Value at $50/hour billing rate: $520
+Manual task - Bug triage and assignment = 2 minutes per bug
+Automations eliminate - 80% of manual effort
+Bugs per sprint - ~15
+Time saved per sprint - 15 × 2 min × 0.8 = 24 minutes
+Annual savings - 26 sprints × 24 min = 624 minutes = 10.4 hours
+Value at $50/hour billing rate - $520
 
 Unlimited tier costs $600/year = essentially ROI-positive from automation alone
 ```
@@ -290,11 +290,11 @@ Deployment Status Updates
 Track deployments in real-time:
 
 ```
-Trigger: Webhook from CI/CD system (Jenkins, GitHub Actions, CircleCI)
-Condition: Deployment status = "succeeded"
-Action: Update task status to "Deployed"
-Action: Add comment with deployment timestamp and environment
-Action: Notify #deployments channel with success message
+Trigger - Webhook from CI/CD system (Jenkins, GitHub Actions, CircleCI)
+Condition - Deployment status = "succeeded"
+Action - Update task status to "Deployed"
+Action - Add comment with deployment timestamp and environment
+Action - Notify #deployments channel with success message
 ```
 
 This creates an audit trail showing exactly when features reached production, useful for debugging and incident response.
@@ -306,15 +306,15 @@ Automation Not Triggering
 Common issues and fixes:
 
 Problem: Automation set for "Task created with field X = Y" never triggers
-Solution: Verify the custom field is actually being set when creating tasks. ClickUp only triggers on field changes if the field is explicitly set during task creation. Use a secondary automation on a different field, or manually set the first field initially.
+Solution - Verify the custom field is actually being set when creating tasks. ClickUp only triggers on field changes if the field is explicitly set during task creation. Use a secondary automation on a different field, or manually set the first field initially.
 
-Problem: Automation runs but creates duplicate subtasks
-Solution: ClickUp automations can trigger multiple times if parent task structure changes. Disable automation briefly while bulk-creating parent tasks, then re-enable.
+Problem - Automation runs but creates duplicate subtasks
+Solution - ClickUp automations can trigger multiple times if parent task structure changes. Disable automation briefly while bulk-creating parent tasks, then re-enable.
 
-Problem: Slack notifications go to wrong channel
-Solution: ClickUp Slack integration needs explicit channel configuration per automation. Double-check channel names in ClickUp Settings > Integrations > Slack.
+Problem - Slack notifications go to wrong channel
+Solution - ClickUp Slack integration needs explicit channel configuration per automation. Double-check channel names in ClickUp Settings > Integrations > Slack.
 
-Decision Framework: When to Automate vs. When to Use Templates
+Decision Framework - When to Automate vs. When to Use Templates
 
 Not every repetitive task needs automation. Here's when each approach makes sense:
 

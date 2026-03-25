@@ -34,7 +34,7 @@ Table of Contents
 - [Documentation Standards](#documentation-standards)
 - [Where Decisions Live](#where-decisions-live)
 - [Onboarding New Team Members Using the Playbook](#onboarding-new-team-members-using-the-playbook)
-- [New Manager Onboarding: Communication Playbook](#new-manager-onboarding-communication-playbook)
+- [New Manager Onboarding - Communication Playbook](#new-manager-onboarding-communication-playbook)
 - [Measuring Communication Health](#measuring-communication-health)
 - [Transitioning to Autonomy](#transitioning-to-autonomy)
 - [Signs Your Playbook Is Working](#signs-your-playbook-is-working)
@@ -49,7 +49,7 @@ The playbook you create addresses this gap by making implicit knowledge explicit
 
 Building Your Communication Playbook
 
-Step 1: Audit Existing Communication Patterns
+Step 1 - Audit Existing Communication Patterns
 
 Before creating new rules, observe how your team currently communicates. Spend your first two weeks documenting the following:
 
@@ -69,7 +69,7 @@ Create a simple table mapping your observations:
 | Urgent issues   | Direct messages        | Unclear escalation       |
 ```
 
-Step 2: Define Communication Channels and Their Purposes
+Step 2 - Define Communication Channels and Their Purposes
 
 Your playbook should clearly specify which channel serves which purpose. This reduces the cognitive load on team members who otherwise must decide how to communicate each message.
 
@@ -86,9 +86,9 @@ A practical channel matrix looks like this:
 | Email          | External contacts, formal records | 24 hours       |
 ```
 
-Establish clear boundaries: if someone posts a complex technical question in #general expecting quick answers, they will be disappointed. The channel purpose document prevents this mismatch.
+Establish clear boundaries - if someone posts a complex technical question in #general expecting quick answers, they will be disappointed. The channel purpose document prevents this mismatch.
 
-Step 3: Establish Response Time Expectations
+Step 3 - Establish Response Time Expectations
 
 Async work requires explicit agreements about when responses are expected. Without these agreements, team members either over-communicate (checking constantly for responses) or under-communicate (waiting too long to respond, leaving others blocked).
 
@@ -114,7 +114,7 @@ For most distributed teams, a tiered approach works well:
 - Normal (questions, feedback requests): 8 hours
 - Low priority (announcements, FYI messages): 24 hours
 
-Step 4: Document Decision-Making Processes
+Step 4 - Document Decision-Making Processes
 
 Remote teams frequently struggle with decision visibility. When everyone works in the same office, you can observe who made what decision. Remote work requires explicit documentation.
 
@@ -123,28 +123,28 @@ Include a decision-making framework in your playbook:
 ```markdown
 Decision Documentation Template
 
-Question: [What are we deciding?]
+Question - [What are we deciding?]
 
-Context: [Why does this matter? What background do we need?]
+Context - [Why does this matter? What background do we need?]
 
 Options considered:
 - Option A: [Description]
 - Option B: [Description]
 
-Decision: [What did we choose?]
+Decision - [What did we choose?]
 
-Rationale: [Why this option?]
+Rationale - [Why this option?]
 
-Owner: [Who is accountable?]
+Owner - [Who is accountable?]
 
-Timeline: [When does this take effect?]
+Timeline - [When does this take effect?]
 
-Review date: [When should we revisit?]
+Review date - [When should we revisit?]
 ```
 
 This template ensures decisions remain accessible even when team members work different hours. Anyone can search for past decisions and understand the reasoning behind them.
 
-Step 5: Create Meeting Protocols
+Step 5 - Create Meeting Protocols
 
 Meetings in distributed teams require extra structure. Without careful design, they exclude participants in certain time zones or create fatigue from excessive video calls.
 
@@ -173,7 +173,7 @@ Meeting Guidelines
    - Send summary within 2 hours of meeting end
 ```
 
-Step 6: Implement Regular Async Check-ins
+Step 6 - Implement Regular Async Check-ins
 
 Replace or supplement daily standups with async check-ins that respect time zone differences. A simple text-based format works well:
 
@@ -360,7 +360,7 @@ Onboarding New Team Members Using the Playbook
 The playbook becomes your onboarding tool:
 
 ```markdown
-New Manager Onboarding: Communication Playbook
+New Manager Onboarding - Communication Playbook
 
 Week 1:
 1. Read communication playbook (30 min)
@@ -370,7 +370,7 @@ Week 1:
 
 Week 2:
 1. Schedule individual conversations with each report
-2. Ask: "How do you prefer to communicate about [topic]?"
+2. Ask - "How do you prefer to communicate about [topic]?"
 3. Document any personal preferences in their profile
 4. Share how you'll communicate major changes
 

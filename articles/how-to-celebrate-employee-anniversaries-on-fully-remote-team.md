@@ -22,7 +22,7 @@ Why Anniversary Recognition Matters for Remote Teams
 
 Retention data consistently shows that employees who feel recognized at work are more likely to stay. A work anniversary is a natural touchpoint, a moment to reflect on contributions, reinforce company culture, and strengthen personal connections across distance. For remote teams, this becomes even more critical because informal recognition happens less frequently.
 
-The challenge: coordinating celebration across time zones, ensuring the recognition feels personal rather than automated, and building traditions that don't require synchronous presence.
+The challenge - coordinating celebration across time zones, ensuring the recognition feels personal rather than automated, and building traditions that don't require synchronous presence.
 
 Prerequisites
 
@@ -34,7 +34,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Build an Anniversary Tracking System
+Step 1 - Build an Anniversary Tracking System
 
 The foundation of any anniversary program is accurate data. You need a reliable way to track hire dates and trigger recognition at the right time.
 
@@ -65,7 +65,7 @@ Store anniversary data in a structured format your team can query. A JSON file w
 
 This structure gives you the flexibility to build notifications, generate reports, and personalize messages based on employee timezone or tenure.
 
-Step 2: Automate Anniversary Notifications with Slack
+Step 2 - Automate Anniversary Notifications with Slack
 
 Slack remains the communication hub for most remote teams. Building a simple anniversary bot keeps recognition consistent without requiring manual tracking.
 
@@ -124,7 +124,7 @@ def check_and_notify():
 
 Run this script daily via cron or a GitHub Action to catch upcoming anniversaries. The key is scheduling it to run at a consistent time that works across your team's time zones.
 
-Step 3: Create Personal Recognition Experiences
+Step 3 - Create Personal Recognition Experiences
 
 Automation handles consistency, but personalization makes recognition memorable. The best remote teams combine both.
 
@@ -146,12 +146,12 @@ Asynchronous video has become a powerful tool for remote recognition. Instead of
 Collecting video files for compilation
 mkdir -p anniversary-videos/2026-03
 Team members upload their recordings to this folder
-Use ffmpeg to concatenate: ffmpeg -f concat -i list.txt -c copy final.mp4
+Use ffmpeg to concatenate - ffmpeg -f concat -i list.txt -c copy final.mp4
 ```
 
 Tools like Loom or Vidly make recording and sharing video messages frictionless. Compile these into a montage that gets shared on the anniversary day.
 
-Step 4: Making Recognition Part of Your Workflow
+Step 4 - Making Recognition Part of Your Workflow
 
 The best anniversary programs integrate into existing processes rather than adding separate tasks.
 
@@ -173,17 +173,17 @@ Engineering teams often appreciate different recognition styles than sales or su
 
 This keeps recognition relevant to actual work rather than generic praise.
 
-Step 5: Avoiding Common Pitfalls
+Step 5 - Avoiding Common Pitfalls
 
 Several patterns undermine anniversary recognition programs:
 
-Forgetting time zones: If your Singapore-based employee hits their anniversary at 2 AM their time, posting in an US-centric Slack channel misses the moment. Schedule notifications to account for recipient time zones, or use async messages.
+Forgetting time zones - If your Singapore-based employee hits their anniversary at 2 AM their time, posting in an US-centric Slack channel misses the moment. Schedule notifications to account for recipient time zones, or use async messages.
 
-Generic automation: A bot posting "Happy 3rd work anniversary!" without context feels hollow. Include specific achievements, projects, or contributions in the message.
+Generic automation - A bot posting "Happy 3rd work anniversary!" without context feels hollow. Include specific achievements, projects, or contributions in the message.
 
-Inconsistent follow-through: Starting an anniversary program and then abandoning it damages trust more than never starting. Begin with a simple system you can maintain.
+Inconsistent follow-through - Starting an anniversary program and then abandoning it damages trust more than never starting. Begin with a simple system you can maintain.
 
-Step 6: Measuring Impact
+Step 6 - Measuring Impact
 
 Track a few key metrics to understand if your program works:
 
@@ -193,7 +193,7 @@ Track a few key metrics to understand if your program works:
 
 You don't need complex analytics, simple observation over a few quarters reveals patterns.
 
-Step 7: Build Team Traditions
+Step 7 - Build Team Traditions
 
 Over time, anniversary recognition becomes part of your team culture. Some traditions that work well for remote teams:
 
@@ -204,7 +204,7 @@ Over time, anniversary recognition becomes part of your team culture. Some tradi
 
 The specific tradition matters less than consistency. Teams that recognize milestones regularly build stronger connections across distance.
 
-Step 8: Implementation Quick Start
+Step 8 - Implementation Quick Start
 
 Here's a minimal path to launching an anniversary program:
 

@@ -20,15 +20,15 @@ Scaling incident response for remote teams requires evolving from informal ad-ho
 Table of Contents
 
 - [Understanding the Growth Challenge](#understanding-the-growth-challenge)
-- [Phase 1: Startup (1-10 Engineers)](#phase-1-startup-1-10-engineers)
+- [Phase 1 - Startup (1-10 Engineers)](#phase-1-startup-1-10-engineers)
 - [Incident Ownership Matrix](#incident-ownership-matrix)
-- [Phase 2: Growth (10-30 Engineers)](#phase-2-growth-10-30-engineers)
+- [Phase 2 - Growth (10-30 Engineers)](#phase-2-growth-10-30-engineers)
 - [Symptoms](#symptoms)
 - [Diagnosis](#diagnosis)
 - [Resolution](#resolution)
 - [Post-Incident](#post-incident)
 - [Severity Definitions](#severity-definitions)
-- [Phase 3: Mid-Size (30-100+ Engineers)](#phase-3-mid-size-30-100-engineers)
+- [Phase 3 - Mid-Size (30-100+ Engineers)](#phase-3-mid-size-30-100-engineers)
 - [Incident Commander Responsibilities](#incident-commander-responsibilities)
 - [Incident Summary](#incident-summary)
 - [Timeline](#timeline)
@@ -44,7 +44,7 @@ Remote teams face unique incident response challenges that amplify as you scale.
 
 The solution is intentional evolution of your incident response process at each growth stage, not waiting until things break to add structure.
 
-Phase 1: Startup (1-10 Engineers)
+Phase 1 - Startup (1-10 Engineers)
 
 At startup scale, your incident response should be lightweight and human-centered. Focus on clear ownership and fast communication rather than elaborate tooling.
 
@@ -94,7 +94,7 @@ The first person to notice an incident posts immediately:
 
 This lightweight approach works because everyone knows each other, communication is direct, and no one needs permission to act.
 
-Phase 2: Growth (10-30 Engineers)
+Phase 2 - Growth (10-30 Engineers)
 
 As your team hits 10-15 engineers, the startup approach breaks down. Too many people receive notifications, incidents lack clear ownership, and tribal knowledge creates single points of failure.
 
@@ -105,7 +105,7 @@ Runbooks document the exact steps for handling recurring incidents. They reduce 
 Create runbooks in a centralized location:
 
 ```markdown
-Runbook: High CPU on Production Server
+Runbook - High CPU on Production Server
 
 Symptoms
 - Alert from monitoring: CPU > 90% for 5 minutes
@@ -204,7 +204,7 @@ SEV4 - Low
 - Regular sprint priority
 ```
 
-Phase 3: Mid-Size (30-100+ Engineers)
+Phase 3 - Mid-Size (30-100+ Engineers)
 
 At mid-size, you need formal incident management processes, cross-team coordination, and reliable automation.
 

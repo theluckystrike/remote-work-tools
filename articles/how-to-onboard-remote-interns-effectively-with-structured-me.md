@@ -43,7 +43,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Build the Mentorship Program Framework
+Step 1 - Build the Mentorship Program Framework
 
 A well-designed remote internship program consists of four core components: onboarding sequence, weekly cadences, project milestones, and feedback loops. Let's examine each.
 
@@ -51,7 +51,7 @@ A well-designed remote internship program consists of four core components: onbo
 
 The first week sets the tone for the entire internship. Use this time to establish context, not just complete setup tasks.
 
-Day 1-2: Environment Setup
+Day 1-2 - Environment Setup
 Provide automated setup scripts rather than lengthy documentation:
 
 ```bash
@@ -75,31 +75,31 @@ git config user.email "intern@company.com"
 echo "Environment ready! Check your onboardingNotion page for next steps."
 ```
 
-Day 3-4: Architecture Overview
+Day 3-4 - Architecture Overview
 Schedule a 90-minute walkthrough covering:
 - System architecture diagram (live annotation encouraged)
 - Key service dependencies and communication patterns
 - Where the intern's team fits in the broader org chart
 - Common failure modes and debugging approaches the team uses
 
-Day 5: First Contribution
+Day 5 - First Contribution
 Assign a "good first issue", a small, self-contained task that requires navigating the codebase. Common examples include updating documentation, adding a test case, or fixing a minor bug. The goal isn't complexity; it's completing the full git workflow: branch, commit, PR, code review, merge.
 
 2. Weekly Cadence Structure
 
 Regular check-ins prevent problems from compounding. Here's a recommended weekly structure:
 
-Monday: Week Planning (30 min)
+Monday - Week Planning (30 min)
 - Mentor and intern sync on priorities
 - Identify blockers from the previous week
 - Set realistic goals for the current week
 
-Wednesday: Mid-Week Check-in (15 min)
+Wednesday - Mid-Week Check-in (15 min)
 - Quick async update via Slack or team chat
 - "What's working / what's not" pulse check
 - Adjust timeline if needed
 
-Friday: Week Recap (30 min)
+Friday - Week Recap (30 min)
 - Review completed work
 - Demo new features or fixes
 - Document lessons learned
@@ -107,7 +107,7 @@ Friday: Week Recap (30 min)
 Weekly Template for Async Updates:
 
 ```
-Step 2: Week X Update
+Step 2 - Week X Update
 
 Accomplished
 -
@@ -144,9 +144,9 @@ Sample 12-Week Internship Timeline:
 
 Continuous feedback prevents end-of-internship surprises. Implement three feedback channels:
 
-Weekly: Informal async feedback on PRs and commits
-Bi-weekly: 30-minute synchronous session covering soft skills, communication, and technical growth
-End-of-internship: Formal review with manager and mentor
+Weekly - Informal async feedback on PRs and commits
+Bi-weekly - 30-minute synchronous session covering soft skills, communication, and technical growth
+End-of-internship - Formal review with manager and mentor
 
 Mentorship Best Practices for Remote Contexts
 
@@ -158,7 +158,7 @@ Create safe failure paths. Your intern will break things. Have a staging environ
 
 Pair strategically. Match interns with mentors who have bandwidth, not just seniority. An overwhelmed senior engineer makes a poor mentor.
 
-Step 3: Adapting the Template to Your Team
+Step 3 - Adapting the Template to Your Team
 
 Every team has unique needs. Modify this framework by:
 
@@ -170,23 +170,23 @@ The key principle remains constant: structure replaces the ambient learning that
 
 A structured mentorship program requires more upfront planning than ad-hoc onboarding, but the results speak for themselves, interns who contribute meaningfully, mentors who grow through teaching, and teams that scale their knowledge effectively across distance.
 
-Step 4: Handling Mentorship Challenges
+Step 4 - Handling Mentorship Challenges
 
 Even well-designed programs hit friction points. Here's how to address common challenges:
 
-Challenge: Mentor is too busy to respond timely
+Challenge - Mentor is too busy to respond timely
 This kills remote internships. Set explicit availability norms: "Mentor responds to Slack within 4 hours during business hours, schedules calls within 24 hours." If the assigned mentor cannot meet this, reassign before the relationship breaks. A responsive junior engineer makes a better mentor than an overloaded senior.
 
-Challenge: Intern feels isolated despite meetings
+Challenge - Intern feels isolated despite meetings
 Supplement one-on-one mentorship with team exposure. Include interns in team standups, code review sessions, and team chats. Assign a "buddy" for non-technical questions, someone to grab "lunch" with via Zoom, join random chat conversations, learn about company culture.
 
-Challenge: Work quality stagnates after week 4
+Challenge - Work quality stagnates after week 4
 This signals that projects lack clarity. Revisit week 5-6 milestones. Break them into smaller deliverables. Provide more code review feedback earlier, catching quality issues before they accumulate.
 
-Challenge: Intern proposes to extend and you cannot hire
+Challenge - Intern proposes to extend and you cannot hire
 Plan this conversation early. If you love an intern but cannot extend, start reaching out to companies in your network weeks before their end date. Make warm introductions to recruiters or hiring managers. Help them find their next role actively, your credibility in their success carries enormous weight for their career.
 
-Step 5: Scaling Mentorship to Multiple Interns
+Step 5 - Scaling Mentorship to Multiple Interns
 
 When you have 2-3 interns per cycle, maintain structure but reduce redundancy:
 
@@ -219,23 +219,23 @@ Cohort_Mentorship_Model:
 
 This model scales to 4-5 interns without proportionally increasing mentor burden.
 
-Step 6: Documentation as Mentorship
+Step 6 - Documentation as Mentorship
 
 The best mentorship combines synchronous interaction with asynchronous documentation. As interns ask questions, capture answers in team wikis:
 
 ```markdown
 Intern FAQ - Growing document as interns join
 
-Step 7: "How do I set up my development environment?"
-See: [Setup Guide for macOS/Linux/Windows](setup-guide.md)
-Last updated: 2026-03-01
+Step 7 - "How do I set up my development environment?"
+See - [Setup Guide for macOS/Linux/Windows](setup-guide.md)
+Last updated - 2026-03-01
 
-Step 8: "What's the code review process?"
-PR workflow: fork → branch → commit → push → open PR → address feedback → merge
-Review SLA: Feedback within 24 hours (working hours)
-See: [Code Review Standards](code-review-standards.md)
+Step 8 - "What's the code review process?"
+PR workflow - fork → branch → commit → push → open PR → address feedback → merge
+Review SLA - Feedback within 24 hours (working hours)
+See - [Code Review Standards](code-review-standards.md)
 
-Step 9: "How do I know if my code is ready to merge?"
+Step 9 - "How do I know if my code is ready to merge?"
 Checklist:
 - [ ] Tests pass locally
 - [ ] Linter passes (run `npm run lint`)
@@ -243,18 +243,18 @@ Checklist:
 - [ ] All feedback addressed
 - [ ] Squash commits before merging
 
-Step 10: "Where is the architectural documentation?"
-See: [Architecture Decision Records](adr/)
+Step 10 - "Where is the architectural documentation?"
+See - [Architecture Decision Records](adr/)
 Start with ADR-001 for overview
 
-Step 11: "What if I break something in production?"
-Don't panic. See: [Incident Response Guide](incident-response.md)
+Step 11 - "What if I break something in production?"
+Don't panic. See - [Incident Response Guide](incident-response.md)
 Reach out to mentor or on-call engineer immediately.
 ```
 
 This documentation answers 80% of intern questions without requiring mentor time.
 
-Step 12: Mentoring Across Time Zones
+Step 12 - Mentoring Across Time Zones
 
 For distributed teams with interns in different zones, establish clear timezone boundaries:
 
@@ -262,7 +262,7 @@ For distributed teams with interns in different zones, establish clear timezone 
 def create_mentor_schedule(mentor_tz, intern_tz, sync_minutes=60):
     """
     Find reasonable sync times across time zones.
-    Rule: Don't schedule outside 8am-6pm for either party.
+    Rule - Don't schedule outside 8am-6pm for either party.
     """
     # Calculate overlap windows
     # Prefer: mentor's morning (intern's evening) or mentor's evening (intern's morning)
@@ -278,7 +278,7 @@ def create_mentor_schedule(mentor_tz, intern_tz, sync_minutes=60):
 
 For maximum timezone separation (e.g., San Francisco to Tokyo), you might schedule syncs only 2-3 times weekly and rely heavily on async communication otherwise.
 
-Step 13: Alumni Network and Internship Outcomes
+Step 13 - Alumni Network and Internship Outcomes
 
 After interns complete their tenure, maintain relationships. Former interns become:
 
@@ -289,7 +289,7 @@ After interns complete their tenure, maintain relationships. Former interns beco
 
 Create an alumni channel in your Slack and maintain quarterly alumni newsletters. Invite alumni to company events. This builds long-term relationships that strengthen your recruiting pipeline.
 
-Step 14: Internship Program Evaluation
+Step 14 - Internship Program Evaluation
 
 After each cohort completes, evaluate program effectiveness:
 

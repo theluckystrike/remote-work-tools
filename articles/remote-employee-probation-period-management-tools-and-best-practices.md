@@ -120,7 +120,7 @@ These check-ins serve dual purposes: they give managers visibility into how new 
 
 Building the Probation Workflow
 
-Week 1: Foundation Setting
+Week 1 - Foundation Setting
 
 The first week focuses on access, onboarding, and initial relationship building. Managers should schedule:
 
@@ -131,7 +131,7 @@ The first week focuses on access, onboarding, and initial relationship building.
 
 Document all setup completed in a shared checklist. This becomes the baseline for the first review point.
 
-Week 2-4: Skill Verification
+Week 2-4 - Skill Verification
 
 During weeks two through four, focus shifts to actual work delivery. New employees should have completed at least one meaningful task or project. Managers evaluate:
 
@@ -171,13 +171,13 @@ Action Items
 3.
 ```
 
-Week 8: Mid-Point Check
+Week 8 - Mid-Point Check
 
 By week eight, new employees should be operating with greater independence. This review focuses on trajectory, are they trending toward success, or are there persistent issues that need addressing?
 
 This is also the time for constructive feedback. Remote employees may not pick up on subtle cues that would be obvious in person. Be explicit about what's working and what needs improvement.
 
-Week 12: Final Evaluation
+Week 12 - Final Evaluation
 
 The final review determines whether the employee continues beyond probation. Include:
 

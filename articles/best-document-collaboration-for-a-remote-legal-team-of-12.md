@@ -16,7 +16,7 @@ voice-checked: true
 
 {% raw %}
 
-For a remote legal team of 12, use a Git-backed document management system paired with a real-time collaboration layer like Etherpad or Google Docs for active drafting sessions. This hybrid approach gives you the version history and audit trails that legal compliance demands, while still supporting concurrent editing across matters. Teams already in the Microsoft ecosystem should use SharePoint with Information Rights Management instead.
+For a remote legal team of 12, use a Git-backed document management system paired with a real-time collaboration layer like Etherpad or Google Docs for active drafting sessions. This hybrid approach gives you the version history and audit trails that legal compliance demands, while still supporting concurrent editing across matters. Teams already in the Microsoft environment should use SharePoint with Information Rights Management instead.
 
 Table of Contents
 
@@ -269,7 +269,7 @@ Select tools based on your team's technical comfort and existing infrastructure:
 | Git + Netlify CMS | Teams with developer resources | Requires technical setup |
 | Notion + GitHub Sync | Teams already in Notion | Limited offline access |
 | Dropbox Spaces + Audit API | Teams wanting simplicity | Less version control granularity |
-| Microsoft 365 + SharePoint | Teams using Microsoft ecosystem | Vendor lock-in |
+| Microsoft 365 + SharePoint | Teams using Microsoft environment | Vendor lock-in |
 
 A team of 12 benefits from Git-backed collaboration because the overhead remains manageable while the version control capabilities exceed what most cloud-only solutions provide.
 

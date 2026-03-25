@@ -21,14 +21,14 @@ Remote system design sessions require whiteboarding tools that handle complex ar
 Table of Contents
 
 - [What Remote Architects Need from Whiteboarding Tools](#what-remote-architects-need-from-whiteboarding-tools)
-- [Excalidraw: The Developer-Favorite Choice](#excalidraw-the-developer-favorite-choice)
-- [Miro: Enterprise-Grade Collaboration](#miro-enterprise-grade-collaboration)
-- [Mermaid.js: Code-First Diagramming](#mermaidjs-code-first-diagramming)
-- [Figma: Design-to-Architecture Workflow](#figma-design-to-architecture-workflow)
+- [Excalidraw - The Developer-Favorite Choice](#excalidraw-the-developer-favorite-choice)
+- [Miro - Enterprise-Grade Collaboration](#miro-enterprise-grade-collaboration)
+- [Mermaid.js - Code-First Diagramming](#mermaidjs-code-first-diagramming)
+- [Figma - Design-to-Architecture Workflow](#figma-design-to-architecture-workflow)
 - [Comparing the Options](#comparing-the-options)
 - [Practical Recommendation for Remote Architecture Teams](#practical-recommendation-for-remote-architecture-teams)
 - [Running Effective Remote System Design Sessions](#running-effective-remote-system-design-sessions)
-- [Workflow Integration: From Sketch to Production](#workflow-integration-from-sketch-to-production)
+- [Workflow Integration - From Sketch to Production](#workflow-integration-from-sketch-to-production)
 - [Caching Architecture Design](#caching-architecture-design)
 - [Keyboard Shortcuts That Save Time](#keyboard-shortcuts-that-save-time)
 - [Handling Large Architecture Diagrams](#handling-large-architecture-diagrams)
@@ -46,7 +46,7 @@ System design sessions differ from typical brainstorming. You need precise diagr
 
 The tool must support both synchronous sessions with cursor tracking and asynchronous review for team members in different time zones.
 
-Excalidraw: The Developer-Favorite Choice
+Excalidraw - The Developer-Favorite Choice
 
 Excalidraw has become the go-to tool for remote architects who want hand-drawn-style diagrams with keyboard-driven workflows. It runs entirely in the browser with no account required for basic use.
 
@@ -79,7 +79,7 @@ Limitations
 
 Excalidraw lacks native sequence diagram support. Architects typically draw these manually or use a separate tool like Mermaid.js for complex sequence flows.
 
-Miro: Enterprise-Grade Collaboration
+Miro - Enterprise-Grade Collaboration
 
 Miro serves teams requiring enterprise features, templates, and integrations with tools like Jira, Confluence, and Slack. The platform handles complex system design sessions with its extensive shape library and template marketplace.
 
@@ -101,7 +101,7 @@ Considerations
 
 Miro's free tier limits team size to three members. Full system design capabilities require the Business plan at $10 per user monthly. The interface feels less keyboard-driven compared to Excalidraw, which developers often cite as a friction point.
 
-Mermaid.js: Code-First Diagramming
+Mermaid.js - Code-First Diagramming
 
 For architects who prefer describing diagrams in code, Mermaid.js offers a text-to-diagram approach that integrates directly into documentation, READMEs, and wikis.
 
@@ -149,7 +149,7 @@ Tradeoffs
 
 Mermaid requires writing code rather than drawing, which appeals to developers but creates a learning curve for less technical stakeholders. Complex diagrams can become difficult to read as the code grows lengthy.
 
-Figma: Design-to-Architecture Workflow
+Figma - Design-to-Architecture Workflow
 
 Figma, primarily an UI design tool, has gained adoption among architects who need polished, presentation-ready system diagrams. The recent FigJam addition provides whiteboarding features alongside the core design capabilities.
 
@@ -196,23 +196,23 @@ Regardless of tool choice, establish a session structure:
 
 Document decisions alongside diagrams. Connect architecture choices to ADRs (Architecture Decision Records) so future team members understand the reasoning behind each design element.
 
-Workflow Integration: From Sketch to Production
+Workflow Integration - From Sketch to Production
 
 Most teams work with multiple tools in their design workflow. A practical integration:
 
-Design phase: Excalidraw for rapid ideation (team sketches together, iterates)
-Documentation phase: Mermaid.js for formal documentation (diagram code lives in markdown)
-Presentation phase: Figma export for polished stakeholder presentations
-Reference phase: GitHub wiki or Notion with embedded diagrams for ongoing reference
+Design phase - Excalidraw for rapid ideation (team sketches together, iterates)
+Documentation phase - Mermaid.js for formal documentation (diagram code lives in markdown)
+Presentation phase - Figma export for polished stakeholder presentations
+Reference phase - GitHub wiki or Notion with embedded diagrams for ongoing reference
 
 Example workflow:
 
 ```markdown
 Caching Architecture Design
 
-Status: In Review (Decision pending)
-Team: Platform Architecture
-Created: 2026-03-16
+Status - In Review (Decision pending)
+Team - Platform Architecture
+Created - 2026-03-16
 
 Problem
 API response times at p99 are 800ms without caching strategy.
@@ -220,7 +220,7 @@ API response times at p99 are 800ms without caching strategy.
 Solution Overview
 [Excalidraw diagram embedded or linked]
 
-Sequence: Cache Hit vs Miss
+Sequence - Cache Hit vs Miss
 \`\`\`mermaid
 sequenceDiagram
     participant Client
@@ -257,7 +257,7 @@ Excalidraw:
 - `R`: Rectangle tool
 - Arrow keys: Fine-position selected element
 
-Mermaid: Use a VS Code extension with live preview. Type diagram code in VS Code, see rendered diagram in split pane instantly. Much faster than GUI for complex diagrams.
+Mermaid - Use a VS Code extension with live preview. Type diagram code in VS Code, see rendered diagram in split pane instantly. Much faster than GUI for complex diagrams.
 
 Figma:
 - `Ctrl/Cmd + /`: Search components and actions
@@ -269,22 +269,22 @@ Handling Large Architecture Diagrams
 
 System design sometimes requires truly complex diagrams (20+ components). Single-view diagrams become unreadable.
 
-Strategy: Layered documentation
+Strategy - Layered documentation
 
-Layer 1 - Overview: High-level boxes showing main components and data flow
+Layer 1 - Overview - High-level boxes showing main components and data flow
 ```
 [Client] -> [Load Balancer] -> [API Servers]
 [API Servers] -> [Cache]
 [API Servers] -> [Database]
 ```
 
-Layer 2 - Service details: Zoom into each service with internal architecture
+Layer 2 - Service details - Zoom into each service with internal architecture
 ```
 API Service breakdown:
 [Router] -> [Auth Middleware] -> [Request Handler] -> [Database Client]
 ```
 
-Layer 3 - Data flow: Sequence diagrams showing specific operations (login, data retrieval, etc.)
+Layer 3 - Data flow - Sequence diagrams showing specific operations (login, data retrieval, etc.)
 
 This approach keeps any single diagram readable while documenting full complexity.
 
@@ -311,7 +311,7 @@ Treat diagrams as living documents:
 For GitHub-based workflows, commit diagram files to your repo:
 
 ```bash
-Good practice: Store diagram as JSON or code
+Good practice - Store diagram as JSON or code
 diagrams/
  auth-system-v1.excalidraw
  auth-system-v2.excalidraw (current)
@@ -336,7 +336,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -348,7 +348,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

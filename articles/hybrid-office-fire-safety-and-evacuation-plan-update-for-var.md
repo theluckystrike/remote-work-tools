@@ -281,7 +281,7 @@ def generate_evacuation_message(occupancy, affected_areas, active_routes):
 
 Practical Implementation Steps
 
-Step 1: Audit Current Systems
+Step 1 - Audit Current Systems
 
 Start by documenting your existing infrastructure:
 
@@ -290,7 +290,7 @@ Start by documenting your existing infrastructure:
 - How are emergency communications currently handled?
 - What fire safety equipment exists (extinguishers, alarms, sprinklers)?
 
-Step 2: Establish Data Pipeline
+Step 2 - Establish Data Pipeline
 
 Create reliable occupancy tracking:
 
@@ -298,7 +298,7 @@ Create reliable occupancy tracking:
 - Build real-time occupancy dashboard for facilities team
 - Set up alerts for unusual occupancy patterns
 
-Step 3: Update Evacuation Documentation
+Step 3 - Update Evacuation Documentation
 
 Translate dynamic capabilities into clear procedures:
 
@@ -307,7 +307,7 @@ Translate dynamic capabilities into clear procedures:
 - Define assembly point activation rules
 - Train floor wardens on checking real-time occupancy during emergencies
 
-Step 4: Test and Iterate
+Step 4 - Test and Iterate
 
 Fire safety requires regular testing:
 

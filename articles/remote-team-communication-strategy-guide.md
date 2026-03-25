@@ -23,7 +23,7 @@ Table of Contents
 
 - [Establishing Communication Channels](#establishing-communication-channels)
 - [Asynchronous-First Documentation](#asynchronous-first-documentation)
-- [Meeting: [Title]](#meeting-title)
+- [Meeting - [Title]](#meeting-title)
 - [Status Updates That Actually Work](#status-updates-that-actually-work)
 - [Context-Rich Communication](#context-rich-communication)
 - [Handling Sensitive Discussions](#handling-sensitive-discussions)
@@ -65,9 +65,9 @@ Meeting Notes Template
 Create a standard template for all meeting notes that captures decisions and action items:
 
 ```markdown
-Meeting: [Title]
-Date: YYYY-MM-DD
-Attendees: @name1, @name2
+Meeting - [Title]
+Date - YYYY-MM-DD
+Attendees - @name1, @name2
 
 Discussion Points
 - Topic 1: [Summary]
@@ -96,10 +96,10 @@ Traditional daily standups often become repetitive rituals that provide little v
 Async Status Format
 
 ```markdown
-Yesterday: Completed API integration for user auth module
-Today: Working on database migration scripts
-Blockers: Waiting on AWS credentials from DevOps
-Availability: Deep work 1-3pm, available for questions after 4pm
+Yesterday - Completed API integration for user auth module
+Today - Working on database migration scripts
+Blockers - Waiting on AWS credentials from DevOps
+Availability - Deep work 1-3pm, available for questions after 4pm
 ```
 
 Team members post these in a dedicated channel by a specific time, then review asynchronously. This approach respects different time zones and work styles while maintaining visibility.
@@ -118,14 +118,14 @@ The RESH Framework
 
 When starting a conversation, include these elements:
 
-- Request: What exactly do you need?
-- Expectation: What's the timeline or urgency?
-- Scope: What's in and out of scope?
-- Handoff: What have you already tried or considered?
+- Request - What exactly do you need?
+- Expectation - What's the timeline or urgency?
+- Scope - What's in and out of scope?
+- Handoff - What have you already tried or considered?
 
 > Request: Need review on PR #247 before merging
-> Expectation: Can you review by EOD tomorrow? Not urgent otherwise
-> Scope: Focus on the auth module changes in auth.py
+> Expectation - Can you review by EOD tomorrow? Not urgent otherwise
+> Scope - Focus on the auth module changes in auth.py
 > Handoff: Tests pass locally, already reviewed by @teammate
 
 Context as a Multiplier
@@ -234,7 +234,7 @@ function shouldNotify(message, userStatus) {
 }
 ```
 
-Connect your tools: link pull requests to tasks, automate status updates from CI/CD pipelines, and create alerts that respect notification preferences. When your deployment pipeline posts to #deploys automatically, you eliminate a manual step and give the whole team visibility without requiring anyone to remember to announce it.
+Connect your tools - link pull requests to tasks, automate status updates from CI/CD pipelines, and create alerts that respect notification preferences. When your deployment pipeline posts to #deploys automatically, you eliminate a manual step and give the whole team visibility without requiring anyone to remember to announce it.
 
 The deeper integration opportunity is bi-directional: configure your project management tool to automatically update Slack threads when ticket status changes. This reduces the need for "any update on X?" messages that interrupt deep work and generate low-value context switching. The fewer times a developer has to pull status from a human, the more time that human has for actual work.
 ---

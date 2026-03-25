@@ -38,9 +38,9 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Structuring Your Skip Level Meeting Process
+Step 1 - Structuring Your Skip Level Meeting Process
 
-Phase 1: Async Preparation
+Phase 1 - Async Preparation
 
 Before any meeting, send a brief async prompt to the engineer. This serves two purposes: it makes the meeting more productive, and it reduces anxiety for introverted engineers who need time to formulate thoughts.
 
@@ -59,17 +59,17 @@ No need for long responses, bullet points are great. See you Tuesday!
 
 This approach respects engineers' time and gives you context to prepare specific questions.
 
-Phase 2: The Meeting Itself
+Phase 2 - The Meeting Itself
 
 For remote engineering teams, 30 minutes works well for most conversations. Save longer sessions for when an engineer has significant concerns to discuss.
 
 Here's a help structure that balances conversation flow with practical outcomes:
 
-Minutes 0-5: Check-in and rapport building
+Minutes 0-5 - Check-in and rapport building
 
 Start with something low-pressure. Ask about their current project or a recent achievement you've noticed. This builds connection before exploring challenges.
 
-Minutes 5-15: Engineer-driven discussion
+Minutes 5-15 - Engineer-driven discussion
 
 Ask open-ended questions and listen more than you talk. Effective prompts include:
 
@@ -78,7 +78,7 @@ Ask open-ended questions and listen more than you talk. Effective prompts includ
 - "What's something you wish leadership understood better about your role?"
 - "Are there any tools or systems that are slowing you down?"
 
-Minutes 15-25: Action items and commitments
+Minutes 15-25 - Action items and commitments
 
 This is where you demonstrate that meetings lead to outcomes. For each issue raised, identify:
 
@@ -88,11 +88,11 @@ This is where you demonstrate that meetings lead to outcomes. For each issue rai
 
 Document these commitments during the meeting. Engineers notice when you write things down, it signals you take their input seriously.
 
-Minutes 25-30: Close and next steps
+Minutes 25-30 - Close and next steps
 
 Summarize what you'll do differently based on this conversation. Confirm any follow-up timeline.
 
-Phase 3: Follow-up and Accountability
+Phase 3 - Follow-up and Accountability
 
 The most critical phase happens after the meeting. Without follow-through, skip level meetings become another hollow leadership ritual.
 
@@ -136,13 +136,13 @@ Thanks for our conversation! Here's what I'm actioning:
 If anything else comes up before our next sync, feel free to ping me directly.
 ```
 
-Step 2: Common Challenges and Solutions
+Step 2 - Common Challenges and Solutions
 
-Challenge: Time Zone Coordination
+Challenge - Time Zone Coordination
 
 Remote engineering teams often span multiple time zones. Forcing everyone to meet at an inconvenient hour creates resentment.
 
-The solution: rotate meeting times fairly. If one engineer always meets at 7am their time, the next skip level should be scheduled when that engineer is in their workday.
+The solution - rotate meeting times fairly. If one engineer always meets at 7am their time, the next skip level should be scheduled when that engineer is in their workday.
 
 A simple rotation script helps:
 
@@ -167,19 +167,19 @@ function findOptimalTime(participants) {
 }
 ```
 
-Challenge: Engineering-Specific Topics
+Challenge - Engineering-Specific Topics
 
 Engineering conversations often involve technical details that leaders may not understand. This is actually an opportunity, not a problem.
 
 When an engineer describes a technical blocker, ask clarifying questions. "Help me understand why this is difficult" or "What would the ideal solution look like?" demonstrates interest without requiring you to be the expert.
 
-Challenge: Making Time for Regular Meetings
+Challenge - Making Time for Regular Meetings
 
 Engineering managers are busy. It's tempting to deprioritize skip level meetings when sprint deadlines loom.
 
 Protect these meetings on your calendar as you would a board meeting or customer demo. The ROI is measurable: teams with regular skip level meetings report higher engagement scores and lower voluntary turnover.
 
-Step 3: Measuring Effectiveness
+Step 3 - Measuring Effectiveness
 
 Track a few simple metrics to understand if your skip level program works:
 
@@ -188,7 +188,7 @@ Track a few simple metrics to understand if your skip level program works:
 - Meeting effectiveness survey: After each meeting, ask: "Was this valuable? What would make it more useful?"
 - Engagement correlation: Compare engagement scores for engineers who've had skip levels vs. those who haven't
 
-Step 4: Create Your Skip Level Program Calendar
+Step 4 - Create Your Skip Level Program Calendar
 
 Develop a sustainable rotation that covers your team:
 
@@ -240,37 +240,37 @@ const scheduler = new SkipLevelScheduler(engineers, 'quarterly');
 const q2Schedule = scheduler.generateSchedule(new Date('2026-04-01'));
 ```
 
-Step 5: Structured Action Item Tracking
+Step 5 - Structured Action Item Tracking
 
 After meetings, systematically track what you committed to:
 
 ```markdown
 Skip Level Action Items
 
-Step 6: Status Overview
+Step 6 - Status Overview
 - Open: 8
 - In Progress: 3
 - Completed: 24
 
-Step 7: By Engineer
+Step 7 - By Engineer
 
-Alex Chen (Last meeting: 2026-03-15)
+Alex Chen (Last meeting - 2026-03-15)
 - [ ] OPEN - Discuss API documentation issue with platform team (Due: 2026-03-22)
 - [x] COMPLETED - Connected with Sarah about performance optimization (Completed: 2026-03-19)
 - [ ] BLOCKED - Waiting on infrastructure team's input on caching strategy
 
-Jordan Kim (Last meeting: 2026-03-10)
+Jordan Kim (Last meeting - 2026-03-10)
 - [ ] OPEN - Research async testing framework options (Due: 2026-03-24)
 - [x] COMPLETED - Brought up code review process at eng leadership (Completed: 2026-03-17)
 
-Step 8: Leadership Follow-up
-This week: 2 action items to update, 1 needs escalation
-Next week: Quarterly review of open items - close or re-prioritize
+Step 8 - Leadership Follow-up
+This week - 2 action items to update, 1 needs escalation
+Next week - Quarterly review of open items - close or re-prioritize
 ```
 
-Step 9: Common Skip Level Meeting Scenarios and Responses
+Step 9 - Common Skip Level Meeting Scenarios and Responses
 
-Scenario: Engineer mentions they're job hunting
+Scenario - Engineer mentions they're job hunting
 
 Response approach:
 1. Don't panic or get defensive
@@ -279,7 +279,7 @@ Response approach:
 4. Be honest about constraints: "I can't control [X], but I can fix [Y]"
 5. Follow up within week with concrete changes
 
-Scenario: Engineer reports direct manager isn't responsive
+Scenario - Engineer reports direct manager isn't responsive
 
 Response approach:
 1. Take detailed notes on specific incidents
@@ -294,7 +294,7 @@ Response approach:
 4. If transfer isn't viable, discuss career growth in current role
 5. Set timeline for follow-up
 
-Scenario: Engineer shares sensitive information (discrimination, harassment)
+Scenario - Engineer shares sensitive information (discrimination, harassment)
 
 Response approach:
 1. Take it seriously, don't minimize
@@ -303,7 +303,7 @@ Response approach:
 4. Don't investigate yourself, let proper channels handle it
 5. Maintain confidentiality while getting support in place
 
-Step 10: Build a Sustainable Program
+Step 10 - Build a Sustainable Program
 
 Start small. Pick two or three engineers to pilot skip level meetings over two months. Learn what works, refine your process, then expand to the full team.
 
@@ -316,33 +316,33 @@ Example sustainable schedule for growing team:
 
 The key is consistency. Engineers quickly learn whether skip level meetings lead to real change or just leadership theater. When they see action on their feedback, the meetings become something they look forward to rather than dread.
 
-Step 11: Measuring Long-term Impact
+Step 11 - Measuring Long-term Impact
 
 After 6 months of skip level meetings, measure their ROI:
 
 ```markdown
 Skip Level Program Impact Analysis
 
-Step 12: Retention
+Step 12 - Retention
 - Q1 voluntary attrition: 8% (3 people)
 - Q2 voluntary attrition: 5% (1 person)
 - Improvement: -60% attrition rate
 
-Step 13: Issues Surfaced
+Step 13 - Issues Surfaced
 - Critical blockers identified: 12
 - Resolved without escalation: 8 (67%)
 - Required executive intervention: 4 (33%)
 
-Step 14: Engagement Scores
+Step 14 - Engagement Scores
 - Engineering team NPS: +45 (pre-program: 32, post-program: 77)
 - "I feel heard by leadership" score: 3.2 → 4.1 (1-5 scale)
 
-Step 15: Team Improvements
+Step 15 - Team Improvements
 - Code review process improvements: 3 implemented
 - Tooling requests: 5 (2 approved and implemented)
 - Career development: 4 engineers in formal mentorship
 
-Step 16: Time Investment
+Step 16 - Time Investment
 - Total hours: 18 hours (1-2 per engineer × 12 engineers)
 - Cost per retention prevented: ~$25K (assuming replacement cost $150K)
 - ROI: 6:1 on time invested

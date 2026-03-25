@@ -22,9 +22,9 @@ Table of Contents
 - [Why Converters Beat Full Desks](#why-converters-beat-full-desks)
 - [Top Converters for Developers (Under $300)](#top-converters-for-developers-under-300)
 - [Comparison Table](#comparison-table)
-- [Setup for Developers: Optimal Configurations](#setup-for-developers-optimal-configurations)
+- [Setup for Developers - Optimal Configurations](#setup-for-developers-optimal-configurations)
 - [Installation and Cable Management](#installation-and-cable-management)
-- [Health Monitoring: Validate Your Setup](#health-monitoring-validate-your-setup)
+- [Health Monitoring - Validate Your Setup](#health-monitoring-validate-your-setup)
 - [Real-World Setup Examples](#real-world-setup-examples)
 - [Maximizing Converter Life](#maximizing-converter-life)
 - [Budget Decision Tree](#budget-decision-tree)
@@ -43,7 +43,7 @@ Top Converters for Developers (Under $300)
 
 Fully Jarvis Bamboo Converter ($199)
 
-Best for: Minimalist aesthetics, keyboard-driven workflow
+Best for - Minimalist aesthetics, keyboard-driven workflow
 
 The Jarvis is the gold standard among developers. Pre-wired with both sit and stand heights, single-button activation, and genuine bamboo construction that looks professional on video calls.
 
@@ -64,11 +64,11 @@ Specs:
 - Not ideal for 3+ monitors
 - Slightly pricey for a converter
 
-Developer feedback: "I have two 27-inch monitors on mine. At maximum height, there's minor wobble, but nothing that affects typing accuracy. The preset buttons are the killer feature, I don't think about switching; my muscle memory just hits the button."
+Developer feedback - "I have two 27-inch monitors on mine. At maximum height, there's minor wobble, but nothing that affects typing accuracy. The preset buttons are the killer feature, I don't think about switching; my muscle memory just hits the button."
 
 ApexDesk Elite Lite ($149)
 
-Best for: Budget-conscious, dual-monitor setups
+Best for - Budget-conscious, dual-monitor setups
 
 The ApexDesk delivers 90% of Jarvis functionality at $50 less. Same motor, motor quality, and adjustment speeds, but with basic aesthetics (laminate vs. bamboo).
 
@@ -89,11 +89,11 @@ Specs:
 - Takes longer to adjust (1 inch/second)
 - Doesn't look as polished on video
 
-Developer feedback: "Works identically to desks 2x the price. I preset buttons for 5'10" sitting, 5'10" standing, and two custom heights for specific tasks (meetings, deep work). Zero regrets."
+Developer feedback - "Works identically to desks 2x the price. I preset buttons for 5'10" sitting, 5'10" standing, and two custom heights for specific tasks (meetings, deep work). Zero regrets."
 
 Monoprice Workstream ($249)
 
-Best for: Larger monitors and weight capacity
+Best for - Larger monitors and weight capacity
 
 Monoprice's converter handles heavier loads than competitors, crucial if you're running 3 monitors or a side-by-side laptop setup.
 
@@ -114,7 +114,7 @@ Specs:
 - Bulkier footprint
 - Louder motor (63dB)
 
-Developer feedback: "I have 34-inch ultrawide + iPad + keyboard + recording mic arm. No wobble at any height. The dual motors were the deciding factor. This thing is built like a tank."
+Developer feedback - "I have 34-inch ultrawide + iPad + keyboard + recording mic arm. No wobble at any height. The dual motors were the deciding factor. This thing is built like a tank."
 
 Comparison Table
 
@@ -126,38 +126,38 @@ Comparison Table
 | FlexiSpot Pro | $189 | 40 lbs | 5.5"-17.5" | 1.5"/s | 2 | 5 years |
 | Yamazaki Home Wide | $179 | 30 lbs | 5"-17" | Manual | None | 1 year |
 
-Setup for Developers: Optimal Configurations
+Setup for Developers - Optimal Configurations
 
 Single Monitor Setup
 
 ```
 Converter Height:  12-14 inches (eye level when standing)
-Monitor Position: Center desk, 20-26 inches from eyes
-Keyboard: On converter surface
-Mouse: Same level as keyboard
-Standing Time: 20-30 min per hour
+Monitor Position - Center desk, 20-26 inches from eyes
+Keyboard - On converter surface
+Mouse - Same level as keyboard
+Standing Time - 20-30 min per hour
 ```
 
 Dual Monitor Setup
 
 ```
 Converter Height:  14-15 inches
-Primary Monitor: Center, 24" away
-Secondary: 30-40 degrees angled
-Keyboard: Converter center
-Mouse: Right of keyboard
-Standing Time: 15-20 min per hour
+Primary Monitor - Center, 24" away
+Secondary - 30-40 degrees angled
+Keyboard - Converter center
+Mouse - Right of keyboard
+Standing Time - 15-20 min per hour
 Monitor arm mounts save converter weight capacity
 ```
 
 Laptop + External Monitor
 
 ```
-Converter Height: 10-12 inches (laptop screen at eye level)
-External Monitor: On monitor arm (not on converter)
-Keyboard: Laptop keyboard or external if space allows
-Standing Time: 20 min per hour
-Benefit: Portable, remove laptop when standing
+Converter Height - 10-12 inches (laptop screen at eye level)
+External Monitor - On monitor arm (not on converter)
+Keyboard - Laptop keyboard or external if space allows
+Standing Time - 20 min per hour
+Benefit - Portable, remove laptop when standing
 ```
 
 Installation and Cable Management
@@ -181,40 +181,40 @@ Routing:
 - Label cables at ends (USB-Mon, USB-KB, etc.)
 ```
 
-Health Monitoring: Validate Your Setup
+Health Monitoring - Validate Your Setup
 
 Before investing, try a converter at a coworking space or borrow one for a week. Track:
 
-Pain reduction: Days until back pain improves (typically 3-7 days)
-Standing tolerance: How long before fatigue (start at 10 min, build to 30 min)
-Posture improvement: Video yourself, better head alignment visible within 2 weeks
+Pain reduction - Days until back pain improves (typically 3-7 days)
+Standing tolerance - How long before fatigue (start at 10 min, build to 30 min)
+Posture improvement - Video yourself, better head alignment visible within 2 weeks
 
 Real-World Setup Examples
 
-Configuration 1: Corporate Remote (Dual 27-inch)
+Configuration 1 - Corporate Remote (Dual 27-inch)
 
 ```
-Desk: Standard 48" wide IKEA Bekant
-Converter: Fully Jarvis Bamboo ($199)
-Monitors: Two Dell U2723DE (27-inch, ~25 lbs total)
-Keyboard: Keychron K3 Pro
-Mouse: Logitech MX Master
-Cost: ~$350 (converter + peripherals)
-Daily routine: 45 min sit, 15 min stand (3x per day)
+Desk - Standard 48" wide IKEA Bekant
+Converter - Fully Jarvis Bamboo ($199)
+Monitors - Two Dell U2723DE (27-inch, ~25 lbs total)
+Keyboard - Keychron K3 Pro
+Mouse - Logitech MX Master
+Cost - ~$350 (converter + peripherals)
+Daily routine - 45 min sit, 15 min stand (3x per day)
 Back pain reduced 60% in 2 weeks
 ```
 
-Configuration 2: Creative Multi-Tool (34-inch Ultrawide)
+Configuration 2 - Creative Multi-Tool (34-inch Ultrawide)
 
 ```
-Desk: 60" standing desk (existing)
-Converter: Monoprice Workstream ($249)
-Monitor: Dell S3423DWC (34", ~28 lbs)
-Keyboard: Kinesis Advantage Pro
-Mouse: Trackpad (less weight)
-Setup Add-on: Monitor arm ($40)
-Total weight on converter: 40 lbs (keyboard + accessories)
-Daily routine: 30 min sit, 20 min stand
+Desk - 60" standing desk (existing)
+Converter - Monoprice Workstream ($249)
+Monitor - Dell S3423DWC (34", ~28 lbs)
+Keyboard - Kinesis Advantage Pro
+Mouse - Trackpad (less weight)
+Setup Add-on - Monitor arm ($40)
+Total weight on converter - 40 lbs (keyboard + accessories)
+Daily routine - 30 min sit, 20 min stand
 Neck strain eliminated, posture improved
 ```
 

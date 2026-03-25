@@ -136,13 +136,13 @@ Practical Zone Layout Recommendations
 
 When designing collaboration zone layouts, consider these proven arrangements that support developer workflows:
 
-Pair Programming Stations: Configure spaces with two monitors, comfortable seating for two, and sufficient desk space for reference materials. Position these near collaboration zones but not within them to allow focused pairing sessions without disrupting broader team activities.
+Pair Programming Stations - Configure spaces with two monitors, comfortable seating for two, and sufficient desk space for reference materials. Position these near collaboration zones but not within them to allow focused pairing sessions without disrupting broader team activities.
 
-War Room Configuration: Large collaboration spaces should accommodate full team gatherings for sprint planning and retrospectives. Include a primary display for screen sharing, a whiteboard for brainstorming, and comfortable seating that allows rotation between sitting and standing.
+War Room Configuration - Large collaboration spaces should accommodate full team gatherings for sprint planning and retrospectives. Include a primary display for screen sharing, a whiteboard for brainstorming, and comfortable seating that allows rotation between sitting and standing.
 
-Phone Booth Pods: Small enclosed spaces for video calls protect meeting privacy and prevent office ambient noise from disrupting calls. These work well for one-on-one meetings, interview sessions, and focused calls with clients or external partners.
+Phone Booth Pods - Small enclosed spaces for video calls protect meeting privacy and prevent office ambient noise from disrupting calls. These work well for one-on-one meetings, interview sessions, and focused calls with clients or external partners.
 
-Social Connection Areas: Kitchen areas, lounge spaces, and casual seating arrangements encourage the informal interactions that build team cohesion. These zones don't require booking systems but should be visually distinct from work zones.
+Social Connection Areas - Kitchen areas, lounge spaces, and casual seating arrangements encourage the informal interactions that build team cohesion. These zones don't require booking systems but should be visually distinct from work zones.
 
 Managing Zone Usage Through Policy
 
@@ -219,7 +219,7 @@ Phone Booth Specifications
 
 For one-on-one calls or focused work interruptions:
 
-- Size: Minimum 1m x 1.5m for comfort (larger feels less claustrophobic)
+- Size - Minimum 1m x 1.5m for comfort (larger feels less claustrophobic)
 - Acoustic treatment: 80mm acoustic foam panels on walls and ceiling to prevent sound escape
 - Ventilation: Proper HVAC access, enclosed spaces need good air circulation
 - Technology: Power outlets (dual USB-C preferred), CAT6 jack, video camera/monitor hook-up
@@ -250,7 +250,7 @@ This reduces interruptions and helps teams find available spaces.
 ```javascript
 // Room display API endpoint
 GET /api/zones/{zoneId}/status
-Response: {
+Response - {
   "occupancy": "5 of 8 people",
   "status": "occupied",
   "currentBooking": {
@@ -349,41 +349,41 @@ Track zone effectiveness quarterly:
 
 Metrics to Monitor
 
-1. Utilization Rate: Booked hours / available hours. Target: 60-75% (higher suggests scarcity, lower suggests over-provisioning)
+1. Utilization Rate - Booked hours / available hours. Target: 60-75% (higher suggests scarcity, lower suggests over-provisioning)
 
-2. Session Duration: Average hours per booking. Helps identify whether zones match intended use (pair programming should average 2-3 hours, meetings 1 hour)
+2. Session Duration - Average hours per booking. Helps identify whether zones match intended use (pair programming should average 2-3 hours, meetings 1 hour)
 
-3. Team Satisfaction: "Do collaboration zones support your work?" Survey quarterly. Target: 75%+ agreement.
+3. Team Satisfaction - "Do collaboration zones support your work?" Survey quarterly. Target - 75%+ agreement.
 
-4. Remote Participation: Percentage of in-person team members with remote participants joining. For hybrid to work, this should be 30-50% of meetings.
+4. Remote Participation - Percentage of in-person team members with remote participants joining. For hybrid to work, this should be 30-50% of meetings.
 
-5. Booking Conflicts: Failed bookings due to unavailability. More than 5% suggests you need more space.
+5. Booking Conflicts - Failed bookings due to unavailability. More than 5% suggests you need more space.
 
-6. Equipment Failures: Technical issues per month. Target: zero recurring issues.
+6. Equipment Failures - Technical issues per month. Target - zero recurring issues.
 
 Adjust your zone mix annually. If pair programming demand dominates, allocate more stations. If meetings cluster, expand war room capacity.
 
 Common Implementation Pitfalls and Solutions
 
-Pitfall 1: Under-equipped Collaboration Spaces
+Pitfall 1 - Under-equipped Collaboration Spaces
 
 Teams cheap out on audio/video, resulting in frustrating hybrid meetings. Budget $5,000-10,000 per collaboration zone for quality AV equipment. Poor technology defeats the purpose.
 
-Pitfall 2: Over-Booking During Transition
+Pitfall 2 - Over-Booking During Transition
 
-When moving to hybrid, teams often keep the same meeting frequency but in-person now. Collaboration zones immediately become bottleneck. Solution: Reduce meeting frequency first, then observe if zones become overused.
+When moving to hybrid, teams often keep the same meeting frequency but in-person now. Collaboration zones immediately become bottleneck. Solution - Reduce meeting frequency first, then observe if zones become overused.
 
-Pitfall 3: Neglecting Remote Experience
+Pitfall 3 - Neglecting Remote Experience
 
-Focus on in-person experience while remote participants use cell phone mics and their laptop cameras. Creates two-tier experience. Solution: Test every video conference from a remote location.
+Focus on in-person experience while remote participants use cell phone mics and their laptop cameras. Creates two-tier experience. Solution - Test every video conference from a remote location.
 
-Pitfall 4: No Fallback Options
+Pitfall 4 - No Fallback Options
 
-Single war room becomes single point of failure. Teams with one large collaboration space gridlock when it's booked. Solution: Design redundancy, two smaller rooms often beat one large room.
+Single war room becomes single point of failure. Teams with one large collaboration space gridlock when it's booked. Solution - Design redundancy, two smaller rooms often beat one large room.
 
-Pitfall 5: Ignoring Acoustic Design
+Pitfall 5 - Ignoring Acoustic Design
 
-Open collaboration zones near focus areas create noise problems. Developers in focus zones become frustrated by constant interruptions. Solution: Physical separation (doors, separate floors) or aggressive sound damping.
+Open collaboration zones near focus areas create noise problems. Developers in focus zones become frustrated by constant interruptions. Solution - Physical separation (doors, separate floors) or aggressive sound damping.
 
 Long-Term Maintenance
 

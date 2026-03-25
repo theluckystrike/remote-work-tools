@@ -173,16 +173,16 @@ Implementing Your Charter
 
 Creating the document is only the start. Follow these steps for adoption:
 
-Week 1: Draft with Input
+Week 1 - Draft with Input
 Share a rough draft in your team channel. Ask for feedback specifically on:
 - Are the response times realistic for your time zone distribution?
 - Did we miss any critical communication scenarios?
 - Are the decision processes too heavy or too light?
 
-Week 2: Baseline Version
+Week 2 - Baseline Version
 Merge the charter to your main branch. Put it in `/docs/communication-charter.md` or a dedicated `/.charter/` directory. Add a reference in your README.
 
-Week 3: Onboarding Reference
+Week 3 - Onboarding Reference
 Update your onboarding checklist to include reading the charter. New team members should acknowledge it during their first week.
 
 Monthly Review
@@ -195,8 +195,8 @@ Here's a complete starter template you can copy into your project:
 ```markdown
 Project Communication Charter
 
-Last Updated: [DATE]
-Team: [PROJECT NAME]
+Last Updated - [DATE]
+Team - [PROJECT NAME]
 
 Our Communication Principles
 1. [Principle 1 - e.g., "Default to async"]

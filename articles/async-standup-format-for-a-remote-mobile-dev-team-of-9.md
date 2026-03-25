@@ -73,11 +73,11 @@ Recommended Tools
 
 For a team of nine, you need tools that support threading and don't get lost in noise:
 
-Slack Channel (Recommended): Create a dedicated `#daily-standup` channel. Use a daily thread for each day's updates. Team members post their updates as replies to the daily thread. This keeps everything organized by date.
+Slack Channel (Recommended) - Create a dedicated `#daily-standup` channel. Use a daily thread for each day's updates. Team members post their updates as replies to the daily thread. This keeps everything organized by date.
 
-Notion Database: Some teams prefer a Notion database with properties for developer name, date, status, and blockers. This works well if you want to track patterns over time.
+Notion Database - Some teams prefer a Notion database with properties for developer name, date, status, and blockers. This works well if you want to track patterns over time.
 
-Dedicated Bots: Tools like Standuply or GeekBot can prompt team members and collect responses automatically. However, for a nine-person team, a simple Slack workflow often works better without additional cost.
+Dedicated Bots - Tools like Standuply or GeekBot can prompt team members and collect responses automatically. However, for a nine-person team, a simple Slack workflow often works better without additional cost.
 
 Implementation Workflow
 
@@ -115,7 +115,7 @@ Mobile-Specific Considerations
 
 Mobile teams face unique challenges that deserve specific attention in async standups:
 
-Platform-Specific Issues: Android and iOS developers should flag platform-specific bugs or behavior differences. Include a field for "Platform notes" in your template:
+Platform-Specific Issues - Android and iOS developers should flag platform-specific bugs or behavior differences. Include a field for "Platform notes" in your template:
 
 ```
 Platform notes
@@ -124,16 +124,16 @@ Platform notes
 - [ ] Both affected
 ```
 
-App Store Release Timing: If your team manages app releases, include a quick note about App Store review status or pending releases. This helps everyone understand the current release context.
+App Store Release Timing - If your team manages app releases, include a quick note about App Store review status or pending releases. This helps everyone understand the current release context.
 
-Device Testing: Mobile testing often requires specific devices. Include a note about device coverage needs:
+Device Testing - Mobile testing often requires specific devices. Include a note about device coverage needs:
 
 ```
 Device needs this week
 -
 ```
 
-Build/CI Status: Mobile CI builds can be slow and flaky. A quick note about current build health helps team members prioritize accordingly:
+Build/CI Status - Mobile CI builds can be slow and flaky. A quick note about current build health helps team members prioritize accordingly:
 
 ```
 Build status
@@ -172,10 +172,10 @@ Timezone Distribution Strategy
 
 With nine team members, you'll likely have three or four different timezone clusters. Here's how to handle this:
 
-Cluster 1 (APAC): Tokyo, Singapore. posts morning local time
-Cluster 2 (EU): London, Berlin, Amsterdam. posts mid-morning local time
-Cluster 3 (US East): New York, Boston. posts early morning local time
-Cluster 4 (US West): San Francisco, Seattle. posts late afternoon local time
+Cluster 1 (APAC) - Tokyo, Singapore. posts morning local time
+Cluster 2 (EU) - London, Berlin, Amsterdam. posts mid-morning local time
+Cluster 3 (US East) - New York, Boston. posts early morning local time
+Cluster 4 (US West) - San Francisco, Seattle. posts late afternoon local time
 
 The 9 AM UTC window works because it captures:
 - Late afternoon for US West (around 2 AM local, too late, so they post the day before)
@@ -189,31 +189,31 @@ Measuring Success
 
 Track these metrics to ensure your async standup is working:
 
-Completion Rate: What percentage of the team posts updates? Target: 90%+
-Response Time: How long after the prompt do updates appear? Target: within 2 hours
-Blocker Resolution: How quickly do blockers get addressed? Track from posted to resolved
+Completion Rate - What percentage of the team posts updates? Target: 90%+
+Response Time - How long after the prompt do updates appear? Target: within 2 hours
+Blocker Resolution - How quickly do blockers get addressed? Track from posted to resolved
 
 Common Pitfalls to Avoid
 
-Over-Formalization: Don't create a 50-field template. Keep it simple. Three to five questions maximum.
+Over-Formalization - Don't create a 50-field template. Keep it simple. Three to five questions maximum.
 
-Ghosting: If updates become optional, participation drops. Make posting updates a team expectation while being understanding of circumstances.
+Ghosting - If updates become optional, participation drops. Make posting updates a team expectation while being understanding of circumstances.
 
-Noise: With nine people posting daily, the channel gets busy. Use threading strictly to keep each day's updates grouped together.
+Noise - With nine people posting daily, the channel gets busy. Use threading strictly to keep each day's updates grouped together.
 
-No Follow-Up: Async standups work only if someone actually reads and acts on the information. Designate a "standup owner" who summarizes blockers and ensures nothing falls through the cracks.
+No Follow-Up - Async standups work only if someone actually reads and acts on the information. Designate a "standup owner" who summarizes blockers and ensures nothing falls through the cracks.
 
 Tool Recommendations for Nine-Person Teams
 
 Standuply ($15-35/month for teams): Prompts team members at a set time, collects responses, and posts a daily summary thread. Integrates with Slack and provides analytics on who participates and response times. Works well for teams wanting structure without custom engineering.
 
-Geekbot ($3-10/month): Lightweight standup bot with customizable questions. Stores historical responses in a dashboard accessible to the whole team. Useful for tracking patterns over weeks and months.
+Geekbot ($3-10/month) - Lightweight standup bot with customizable questions. Stores historical responses in a dashboard accessible to the whole team. Useful for tracking patterns over weeks and months.
 
-GitHub Discussions (free): For developer teams, use GitHub Discussions instead of Slack. Create a discussion thread for each day's standup. Keeps standup data alongside code discussions and pull requests.
+GitHub Discussions (free) - For developer teams, use GitHub Discussions instead of Slack. Create a discussion thread for each day's standup. Keeps standup data alongside code discussions and pull requests.
 
-Notion Database (free): Set up a database with fields for Team Member, Date, Yesterday's Work, Today's Work, and Blockers. Use Notion's database views to filter by date or person. Requires manual updates but integrates with other team documentation.
+Notion Database (free) - Set up a database with fields for Team Member, Date, Yesterday's Work, Today's Work, and Blockers. Use Notion's database views to filter by date or person. Requires manual updates but integrates with other team documentation.
 
-Slack-native workflow (free): For minimal overhead, use a Slack workflow with a scheduled reminder and a linked Google Form. Form responses auto-post to the standup channel with consistent formatting.
+Slack-native workflow (free) - For minimal overhead, use a Slack workflow with a scheduled reminder and a linked Google Form. Form responses auto-post to the standup channel with consistent formatting.
 
 Running Effective Standup Reviews
 
@@ -271,13 +271,13 @@ Consider splitting into:
 2. Async standups with live clarification: Post standups async, then have a 20-minute optional "blockers only" standup call for questions
 3. Multiple time windows: Different clusters post at different times, with async feedback rather than response requirement
 
-The principle remains: protect deep work time while maintaining visibility and unblocking obstacles quickly.
+The principle remains - protect deep work time while maintaining visibility and unblocking obstacles quickly.
 
 Review vs. Just-in-Time Communication
 
 One advantage of async standups is that they create a written record. Use this to your benefit:
 
-Weekly review (Friday morning): The standup owner spends 15-20 minutes reviewing the week's updates:
+Weekly review (Friday morning) - The standup owner spends 15-20 minutes reviewing the week's updates:
 - What patterns emerged? (repeated blockers, areas needing help)
 - What went well? (fast delivery, smooth collaboration)
 - What needs attention? (flaky tests, slow reviews, unclear requirements)
@@ -309,17 +309,17 @@ Handling Async Standup in Peak Crunch Periods
 
 During critical releases or production incidents, async standups sometimes need temporary adjustment:
 
-Option 1: More frequent standup window (instead of daily, post updates as needed)
+Option 1 - More frequent standup window (instead of daily, post updates as needed)
 - Slack channel with topic threads for each day
 - Update threads whenever you have progress to share
 - Not on a schedule, just when there's news
 
-Option 2: Brief sync standup for critical week (daily, 10 minutes max)
+Option 2 - Brief sync standup for critical week (daily, 10 minutes max)
 - Switch to a short synchronous standup during the incident window
 - Revert to async when crisis ends
 - Explicitly communicate "Temporary sync standups during release week"
 
-Option 3: Enhanced async with escalation protocol
+Option 3 - Enhanced async with escalation protocol
 - Async standups continue normally
 - Critical blockers go to a dedicated `#standups-urgent` channel with `@here` mention
 - These get addressed immediately, no waiting for the next async cycle
@@ -330,23 +330,23 @@ Document which approach your team uses and when you switch modes. Clear expectat
 
 To bring this all together, here's what a typical week looks like:
 
-Monday 9 AM UTC: Standup prompt posted
+Monday 9 AM UTC - Standup prompt posted
 - Updates due by 11 AM UTC
 - APAC team posts before their day ends (6 PM local)
 - US East team posts early morning (5 AM local)
 - EU team posts at 10 AM local
 
-Monday 11 AM UTC: Standup "closed"
+Monday 11 AM UTC - Standup "closed"
 - All updates in thread for the day
 - Anyone needing blockers addressed has 1 hour to escalate
 
-Monday 12 PM UTC: Standup owner reviews
+Monday 12 PM UTC - Standup owner reviews
 - Scans for blockers, highlights critical ones
 - Posts summary in thread: "Blocker alert: iOS builds timing out, impact: 3 devs stuck"
 
-Tuesday-Thursday: Repeat daily cycle
+Tuesday-Thursday - Repeat daily cycle
 
-Friday 2 PM UTC: Weekly summary
+Friday 2 PM UTC - Weekly summary
 - Owner posts retrospective: wins, patterns, action items
 - Team reviews and comments async
 - Becomes reference for sprint retrospective

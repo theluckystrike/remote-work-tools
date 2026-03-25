@@ -22,7 +22,7 @@ For remote teams, manual update procedures are especially costly. An update that
 
 ---
 
-Approach 1: Watchtower (Pull-Based Auto-Update)
+Approach 1 - Watchtower (Pull-Based Auto-Update)
 
 Watchtower watches running containers, polls their registries, and restarts them when new images appear. It's the simplest path for non-orchestrated Docker hosts.
 
@@ -84,7 +84,7 @@ Watchtower's label-based opt-in (`WATCHTOWER_LABEL_ENABLE: "true"`) is important
 
 ---
 
-Approach 2: Diun (Notification Only, Manual Pull)
+Approach 2 - Diun (Notification Only, Manual Pull)
 
 Diun watches registries and sends notifications when new images are available, without auto-updating. Use this when you want human approval before deploying.
 
@@ -118,7 +118,7 @@ For regulated environments or services with strict change management requirement
 
 ---
 
-Approach 3: Shell Script with Health Check and Rollback
+Approach 3 - Shell Script with Health Check and Rollback
 
 For teams that want full control without external tools:
 
@@ -207,7 +207,7 @@ The 2 AM UTC scheduling works well for teams with North America and Europe cover
 
 ---
 
-Approach 4: GitHub Actions Webhook Trigger
+Approach 4 - GitHub Actions Webhook Trigger
 
 Push a new image from CI/CD and have the production host pull immediately:
 
@@ -232,7 +232,7 @@ jobs:
 
       - name: Trigger Watchtower update
         run: |
-          curl -H "Authorization: Bearer ${{ secrets.WATCHTOWER_TOKEN }}" \
+          curl -H "Authorization - Bearer ${{ secrets.WATCHTOWER_TOKEN }}" \
             https://prod.yourcompany.com:8080/v1/update
 ```
 

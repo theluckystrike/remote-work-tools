@@ -146,7 +146,7 @@ For teams using Slack's Huddles feature, Around serves as a complementary option
 
 Practical Migration Steps
 
-Phase 1: Pilot with a Single Team
+Phase 1 - Pilot with a Single Team
 
 Start by migrating one development team that handles most of your ad-hoc calls. This team should:
 
@@ -157,7 +157,7 @@ Start by migrating one development team that handles most of your ad-hoc calls. 
 
 During the pilot, track metrics that matter for your team: call startup time, audio quality complaints, and how often the participant limit becomes a constraint. For most engineering teams with fewer than eight regular collaborators on any given call, the free tier accommodates typical usage without issue.
 
-Phase 2: Update Integration Points
+Phase 2 - Update Integration Points
 
 Review your existing tooling and update integration configurations:
 
@@ -176,7 +176,7 @@ video_call_service:
 
 If your team uses calendar integrations, update Google Calendar or Outlook settings to default to Around for new events. Google Calendar supports custom video conferencing add-ons. Around provides a Calendar integration that automatically attaches an Around room link when you create events with video conferencing enabled.
 
-Phase 3: Establish Usage Guidelines
+Phase 3 - Establish Usage Guidelines
 
 Document when to use Around versus other tools:
 
@@ -189,21 +189,21 @@ Handling Edge Cases
 
 Several scenarios require consideration during migration:
 
-External stakeholders: Clients or contractors without Around accounts can still join via browser without creating accounts. Share the meeting link directly rather than relying on calendar invites.
+External stakeholders - Clients or contractors without Around accounts can still join via browser without creating accounts. Share the meeting link directly rather than relying on calendar invites.
 
-Recording needs: Around offers limited recording capabilities compared to Zoom's cloud storage. If your team requires meeting recordings, either use Zoom for those specific calls or explore third-party screen recording tools. Loom and Grain both integrate well with lightweight meeting workflows when you need to capture and share call content asynchronously.
+Recording needs - Around offers limited recording capabilities compared to Zoom's cloud storage. If your team requires meeting recordings, either use Zoom for those specific calls or explore third-party screen recording tools. Loom and Grain both integrate well with lightweight meeting workflows when you need to capture and share call content asynchronously.
 
-Network constraints: Around performs well on moderate bandwidth, but teams in regions with unstable connections may experience better reliability with Zoom's adaptive bitrate technology. Teams in Southeast Asia or parts of Africa frequently report more consistent Zoom quality due to its broader CDN infrastructure.
+Network constraints - Around performs well on moderate bandwidth, but teams in regions with unstable connections may experience better reliability with Zoom's adaptive bitrate technology. Teams in Southeast Asia or parts of Africa frequently report more consistent Zoom quality due to its broader CDN infrastructure.
 
-Large group situations: If your engineering team grows beyond eight people for all-hands calls or architecture reviews, Around's free tier becomes a constraint. For these cases, keeping Google Meet or Zoom as a secondary tool for larger gatherings works well while Around handles the majority of smaller calls.
+Large group situations - If your engineering team grows beyond eight people for all-hands calls or architecture reviews, Around's free tier becomes a constraint. For these cases, keeping Google Meet or Zoom as a secondary tool for larger gatherings works well while Around handles the majority of smaller calls.
 
 Performance Considerations
 
 For developers running resource-constrained environments, Around's lighter client offers tangible benefits:
 
 ```
-Zoom desktop app (idle): ~200-300 MB RAM
-Around desktop app (idle): ~80-120 MB RAM
+Zoom desktop app (idle) - ~200-300 MB RAM
+Around desktop app (idle) - ~80-120 MB RAM
 
 Zoom startup time (from icon click to call active): 8-15 seconds
 Around startup time (from icon click to call active): 2-4 seconds

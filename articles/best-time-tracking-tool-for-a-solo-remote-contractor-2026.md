@@ -22,15 +22,15 @@ Table of Contents
 
 - [What Solo Contractors Actually Need](#what-solo-contractors-actually-need)
 - [CLI-Based Tracking:Wrangler and Others](#cli-based-trackingwrangler-and-others)
-- [Desktop Apps: Kimai and Clockify](#desktop-apps-kimai-and-clockify)
-- [Automatic Context Tracking: RescueTime and Others](#automatic-context-tracking-rescuetime-and-others)
+- [Desktop Apps - Kimai and Clockify](#desktop-apps-kimai-and-clockify)
+- [Automatic Context Tracking - RescueTime and Others](#automatic-context-tracking-rescuetime-and-others)
 - [Code-Integrated Tracking](#code-integrated-tracking)
 - [Making Your Choice](#making-your-choice)
 - [Detailed Tool Comparison Matrix](#detailed-tool-comparison-matrix)
-- [Time Tracking Psychology: Making It Stick](#time-tracking-psychology-making-it-stick)
+- [Time Tracking Psychology - Making It Stick](#time-tracking-psychology-making-it-stick)
 - [Invoicing Integration Patterns](#invoicing-integration-patterns)
 - [Advanced Analytics from Tracking Data](#advanced-analytics-from-tracking-data)
-- [Client Communication: Transparently Showing Time Tracking](#client-communication-transparently-showing-time-tracking)
+- [Client Communication - Transparently Showing Time Tracking](#client-communication-transparently-showing-time-tracking)
 - [Time Tracking Transparency](#time-tracking-transparency)
 - [Integration with Project Management](#integration-with-project-management)
 - [Tax and Accounting Considerations](#tax-and-accounting-considerations)
@@ -65,9 +65,9 @@ wrangler report --format csv
 
 This outputs a CSV you can send directly to your accountant or import into FreshBooks. The entire database lives in your repo, which means your time data version-controls alongside your code.
 
-The limitation: CLI tools assume you're comfortable in the terminal and want to manually start/stop timers. If you prefer automatic tracking based on what application you're using, look elsewhere.
+The limitation - CLI tools assume you're comfortable in the terminal and want to manually start/stop timers. If you prefer automatic tracking based on what application you're using, look elsewhere.
 
-Desktop Apps: Kimai and Clockify
+Desktop Apps - Kimai and Clockify
 
 For a more traditional GUI experience with powerful reporting, Kimai stands out as a self-hosted option. You run it on your own server (even a $5 DigitalOcean droplet works), and it provides:
 
@@ -91,7 +91,7 @@ Once running, you access it at `localhost:8001`, create your clients and project
 
 Clockify offers a hosted alternative with a generous free tier (up to three users). The browser extension tracks active tab time, though this tends to inflate numbers compared to intentional tracking. For solo contractors, Clockify's main value is its invoice integration, connect your Stripe account and generate invoices directly from tracked hours.
 
-Automatic Context Tracking: RescueTime and Others
+Automatic Context Tracking - RescueTime and Others
 
 If manual tracking consistently fails for you, automatic tracking monitors your application usage and assigns time to projects based on what you're doing. RescueTime runs in the background and categorizes your activity:
 
@@ -161,7 +161,7 @@ Complete specifications for 2026 time tracking options:
 | Toggl Track | Low | Cloud-hosted | Free/$9-40/mo | CSV/JSON/Sheets | Excellent | Partial |
 | Harvest | Moderate | Cloud-hosted | $12-17/mo | CSV/PDF/Xero/QB | Excellent | Yes |
 
-Time Tracking Psychology: Making It Stick
+Time Tracking Psychology - Making It Stick
 
 Research shows 70% of people abandon time tracking tools within 3 months. The failure isn't the tool, it's the friction. Successful tracking requires one key factor: activation energy below your decision threshold.
 
@@ -178,7 +178,7 @@ End of day
 track report
 ```
 
-Activation energy: 5 seconds. Zero context switching. Success rate: 85%+
+Activation energy - 5 seconds. Zero context switching. Success rate: 85%+
 
 Clockify Web Example (Moderate friction):
 1. Open browser or app
@@ -186,14 +186,14 @@ Clockify Web Example (Moderate friction):
 3. Find current project
 4. Click start
 
-Activation energy: 15-20 seconds. Success rate: 60-70%
+Activation energy - 15-20 seconds. Success rate: 60-70%
 
 RescueTime Example (Passive, no activation):
 1. Install once
 2. Background monitoring
 3. Review weekly
 
-Activation energy: 0 (runs automatically). Success rate: 90% for tracking, but accuracy concerns.
+Activation energy - 0 (runs automatically). Success rate: 90% for tracking, but accuracy concerns.
 
 Invoicing Integration Patterns
 
@@ -331,7 +331,7 @@ def analyze_time_patterns(tracking_data_csv):
     print(recurring_tasks.groupby('task_type')['hours'].mean())
 ```
 
-Client Communication: Transparently Showing Time Tracking
+Client Communication - Transparently Showing Time Tracking
 
 For clients who question billing:
 
@@ -370,7 +370,7 @@ Link time tracking to project management for complete visibility:
 
 ```yaml
 GitHub Issues with time tracking
-Issue: "Implement user authentication module"
+Issue - "Implement user authentication module"
  Estimated: 8 hours (from historical data)
  Tracked time:
    Research (2h)
@@ -380,7 +380,7 @@ Issue: "Implement user authentication module"
  Total: 8.5 hours (met estimate)
 
 Jira with time tracking
-Story: "API rate limiting implementation"
+Story - "API rate limiting implementation"
  Story points: 5
  Estimated hours: 6
  Logged time: 5h 45m
@@ -429,7 +429,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -441,7 +441,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

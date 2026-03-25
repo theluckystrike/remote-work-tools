@@ -24,7 +24,7 @@ The problem compounds at scale. A 10-person co-located team can function on trib
 
 The Search-First Architecture
 
-The core principle: structure your knowledge base around how people search, not how information is organized in a filesystem. Developers think in queries, not folders.
+The core principle - structure your knowledge base around how people search, not how information is organized in a filesystem. Developers think in queries, not folders.
 
 New hires in particular do not browse documentation hierarchically. They hit a problem, they search for the error message or the tool name, and they expect results. If your search returns nothing useful, they ask in Slack. If they ask in Slack five times in a week, senior engineers start to resent the interruptions even though the fix is organizational, not personal.
 
@@ -56,7 +56,7 @@ Organize information into three distinct layers:
 1. Getting Started (Day 1-7)
 This tier contains everything a new hire needs to survive the first week. Include setup guides, environment configuration, accessing internal tools, and team communication norms. Keep this section deliberately narrow. resist the urge to add everything here.
 
-The most common mistake is making the Getting Started tier too comprehensive. When a new hire opens a 40-page onboarding document, they don't know which parts are essential and which are reference material. Limit Day 1 docs to the minimum viable path: get their machine working, get them access to the systems they need, and show them where everything else lives.
+The most common mistake is making the Getting Started tier too complete. When a new hire opens a 40-page onboarding document, they don't know which parts are essential and which are reference material. Limit Day 1 docs to the minimum viable path: get their machine working, get them access to the systems they need, and show them where everything else lives.
 
 2. Core Documentation (Week 2-4)
 Architecture decisions, coding standards, code review processes, deployment procedures. This is the reference material developers consult daily while learning the codebase.
@@ -123,10 +123,10 @@ Include Expected Outputs and Error Messages
 Troubleshooting guides should include actual error messages your team encounters:
 
 ```
-Error: AUTH_TOKEN_EXPIRED
-Message: "Your session has expired. Please re-authenticate using:
+Error - AUTH_TOKEN_EXPIRED
+Message - "Your session has expired. Please re-authenticate using:
   teamctl auth refresh"
-Resolution: Run `teamctl auth status` to check token validity
+Resolution - Run `teamctl auth status` to check token validity
 ```
 
 Copy the exact error text from your logs. New hires will search for this exact string when they encounter it. If the doc uses a paraphrase ("authentication error") instead of the exact message, the search won't surface it.
@@ -147,7 +147,7 @@ DATABASE_URL=postgresql://staging-db.internal/app_staging
 REDIS_URL=redis://staging-redis.internal:6379
 
 Production (never set manually. injected via Vault)
-See: 03-reference/secrets-management.md
+See - 03-reference/secrets-management.md
 ```
 
 The note about production configuration points to another document and explains why it's different. This prevents new hires from spending time trying to configure production credentials locally.
@@ -178,9 +178,9 @@ Make ownership visible in the document itself, not just in configuration. Add a 
 
 ```markdown
 ---
-Owner: @alice
-Last reviewed: 2026-03-01
-Review due: 2026-06-01
+Owner - @alice
+Last reviewed - 2026-03-01
+Review due - 2026-06-01
 ```
 
 When a new hire sees a potentially outdated page, they immediately know who to ask for a correction without opening a separate ownership registry.
@@ -254,9 +254,9 @@ Measuring Success
 
 Track these metrics to understand if your knowledge base works:
 
-- Time to First Commit: How long until a new developer makes their first contribution?
-- Repeat Question Rate: Are team members asking the same questions repeatedly?
-- Search Success Rate: What percentage of searches result in useful findings?
+- Time to First Commit - How long until a new developer makes their first contribution?
+- Repeat Question Rate - Are team members asking the same questions repeatedly?
+- Search Success Rate - What percentage of searches result in useful findings?
 
 The Repeat Question Rate is the most actionable metric. Run a monthly review of your team's Slack channels and count how many questions were asked that have an existing doc answer. Each one is a findability failure. either the doc doesn't exist, can't be found, or is wrong. Work backward from each failure to fix the root cause.
 
@@ -287,7 +287,7 @@ Should we use a wiki tool or a Git repository?
 Both have tradeoffs. Git-based wikis (like a `docs/` folder in your repo) make documentation changes part of code review, which improves quality but slows contribution. Hosted wikis (Notion, Outline) lower the barrier to contribution but risk diverging from the actual codebase state. Hybrid approaches. a Git-based source of truth that publishes to a hosted wiki. work well at scale.
 
 How do we prevent the knowledge base from growing too large to navigate?
-Prune actively. Archive any document that hasn't been updated in 18 months and isn't part of active onboarding. A smaller, accurate knowledge base is more valuable than a comprehensive one where the accurate-to-stale ratio is unclear.
+Prune actively. Archive any document that hasn't been updated in 18 months and isn't part of active onboarding. A smaller, accurate knowledge base is more valuable than a complete one where the accurate-to-stale ratio is unclear.
 
 ---
 

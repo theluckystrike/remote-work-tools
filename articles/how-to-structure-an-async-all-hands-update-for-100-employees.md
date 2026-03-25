@@ -22,16 +22,16 @@ Structure your async all-hands around five consistent sections (company overview
 Table of Contents
 
 - [Why Async All-Hands Works at Scale](#why-async-all-hands-works-at-scale)
-- [Step 1: Define Your Update Sections](#step-1-define-your-update-sections)
-- [Step 2: Use a Template System](#step-2-use-a-template-system)
+- [Step 1 - Define Your Update Sections](#step-1-define-your-update-sections)
+- [Step 2 - Use a Template System](#step-2-use-a-template-system)
 - [Company Overview](#company-overview)
 - [Department Highlights](#department-highlights)
 - [Recognition](#recognition)
 - [Coming Up](#coming-up)
 - [Q&A](#qa)
-- [Step 3: Automate Collection and Formatting](#step-3-automate-collection-and-formatting)
-- [Step 4: Time Your Distribution Strategically](#step-4-time-your-distribution-strategically)
-- [Step 5: Handle Questions Asynchronously](#step-5-handle-questions-asynchronously)
+- [Step 3 - Automate Collection and Formatting](#step-3-automate-collection-and-formatting)
+- [Step 4 - Time Your Distribution Strategically](#step-4-time-your-distribution-strategically)
+- [Step 5 - Handle Questions Asynchronously](#step-5-handle-questions-asynchronously)
 - [Measuring Engagement](#measuring-engagement)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Tools That Support Async All-Hands](#tools-that-support-async-all-hands)
@@ -46,7 +46,7 @@ Async updates respect individual work rhythms. Team members consume the update w
 
 The challenge shifts from scheduling to structure. Without the constraint of real-time attention, you must create content compelling enough to hold interest and organized enough to navigate quickly.
 
-Step 1: Define Your Update Sections
+Step 1 - Define Your Update Sections
 
 Every async all-hands update needs consistent sections your team learns to expect. Consistency reduces cognitive load, readers know where to find what they need.
 
@@ -60,7 +60,7 @@ Structure your update with these five components:
 
 Keep each section under 200 words. At 100 employees, you have limited attention budget, brevity signals respect for their time.
 
-Step 2: Use a Template System
+Step 2 - Use a Template System
 
 Create a reusable template that authors fill in consistently. This ensures nothing gets missed and makes comparison across updates easy.
 
@@ -97,7 +97,7 @@ Q&A
 
 Distribute this template to department heads at least 5 business days before the update deadline. This lead time prevents rushed, low-quality submissions.
 
-Step 3: Automate Collection and Formatting
+Step 3 - Automate Collection and Formatting
 
 Manually collecting updates from 5-7 departments becomes a coordination nightmare at scale. Build a lightweight automation pipeline using familiar tools.
 
@@ -141,7 +141,7 @@ if __name__ == "__main__":
 
 This approach scales to any number of departments without additional manual effort. Each department owns their filename, the script assembles the final document.
 
-Step 4: Time Your Distribution Strategically
+Step 4 - Time Your Distribution Strategically
 
 The timing of your async all-hands significantly impacts engagement. Send updates at the start of a work week (Tuesday or Wednesday) to avoid Monday backlog and Friday wind-down.
 
@@ -149,7 +149,7 @@ Choose a consistent day each month. Team members internalize the rhythm and chec
 
 Pair the update with a clear call-to-action: "Please review and submit questions by Thursday" or "React with  if you've read this." Simple engagement triggers boost completion rates without adding friction.
 
-Step 5: Handle Questions Asynchronously
+Step 5 - Handle Questions Asynchronously
 
 The Q&A section distinguishes a true async all-hands from an one-way broadcast. Collect questions in advance through a simple form (Google Forms, Typeform, or a dedicated Slack channel).
 
@@ -202,14 +202,14 @@ Instead of collecting from 7 departments directly, designate a tier-two owner fo
 
 ```yaml
 Structure for 150-person organization
-Company Overview: CEO (writes directly)
+Company Overview - CEO (writes directly)
 Engineering:
   - Platform Team Lead (collects from 5 engineers)
   - Product Team Lead (collects from 4 engineers)
   - Infrastructure Team Lead (collects from 3 engineers)
-Product: VP Product (collects from 3 product managers)
-Sales: VP Sales (collects from sales & customer success)
-Operations: COO (collects from finance, legal, HR)
+Product - VP Product (collects from 3 product managers)
+Sales - VP Sales (collects from sales & customer success)
+Operations - COO (collects from finance, legal, HR)
 ```
 
 This prevents information bottlenecks while keeping the update focused and readable.

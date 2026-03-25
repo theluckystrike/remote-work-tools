@@ -20,7 +20,7 @@ Outdated dependencies are the leading source of known vulnerabilities in applica
 
 ---
 
-Approach 1: Dependabot (GitHub Native)
+Approach 1 - Dependabot (GitHub Native)
 
 Dependabot is built into GitHub and requires zero infrastructure. Enable it with a config file and it opens PRs for outdated packages automatically.
 
@@ -30,7 +30,7 @@ Dependabot is built into GitHub and requires zero infrastructure. Enable it with
 version: 2
 updates:
   # npm / Node.js
-  - package-ecosystem: "npm"
+  - package-environment: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -53,7 +53,7 @@ updates:
           - "patch"
 
   # Python
-  - package-ecosystem: "pip"
+  - package-environment: "pip"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -63,14 +63,14 @@ updates:
       - "dependencies"
 
   # Go
-  - package-ecosystem: "gomod"
+  - package-environment: "gomod"
     directory: "/"
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 5
 
   # Docker base images
-  - package-ecosystem: "docker"
+  - package-environment: "docker"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -79,7 +79,7 @@ updates:
       - "docker"
 
   # GitHub Actions
-  - package-ecosystem: "github-actions"
+  - package-environment: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -123,9 +123,9 @@ jobs:
 
 ---
 
-Approach 2: Renovate (More Powerful)
+Approach 2 - Renovate (More Powerful)
 
-Renovate opens PRs for every ecosystem (Docker, Helm, Terraform, Ansible, etc.) with more grouping and scheduling options than Dependabot.
+Renovate opens PRs for every environment (Docker, Helm, Terraform, Ansible, etc.) with more grouping and scheduling options than Dependabot.
 
 `renovate.json` at repo root:
 
@@ -208,13 +208,13 @@ jobs:
 
 ---
 
-Approach 3: Custom Audit Script (Any CI)
+Approach 3 - Custom Audit Script (Any CI)
 
 For organizations without GitHub, a custom script audits dependencies and posts results to Slack:
 
 ```bash
 #!/bin/bash
-audit-deps.sh. multi-ecosystem dependency audit
+audit-deps.sh. multi-environment dependency audit
 set -euo pipefail
 
 SLACK_HOOK="${SLACK_WEBHOOK_URL:-}"
@@ -286,7 +286,7 @@ exit $EXIT_CODE
 
 ---
 
-Approach 4: Dependency Review on PRs
+Approach 4 - Dependency Review on PRs
 
 For catching new vulnerable dependencies before they merge, use GitHub's Dependency Review Action:
 
@@ -355,7 +355,7 @@ fi
 echo "Dependency audit passed"
 ```
 
-Install as a git hook: `cp hooks/pre-merge-audit.sh .git/hooks/pre-merge`
+Install as a git hook - `cp hooks/pre-merge-audit.sh .git/hooks/pre-merge`
 
 ---
 

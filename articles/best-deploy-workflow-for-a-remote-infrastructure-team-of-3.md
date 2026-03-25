@@ -42,12 +42,12 @@ Structuring Your Deployment Pipeline
 
 A practical deployment pipeline for a small infrastructure team uses staged gates that escalate appropriately based on change risk.
 
-Stage 1: Local Validation
+Stage 1 - Local Validation
 
 Every deployment starts with developer workstations running identical validation:
 
 ```bash
-Pre-commit hook: validate changes before they enter version control
+Pre-commit hook - validate changes before they enter version control
 #!/bin/bash
 set -e
 
@@ -63,7 +63,7 @@ ansible-playbook --check playbook.yml
 
 This catches basic errors before code reaches version control, reducing review cycles.
 
-Stage 2: Automated Testing in CI
+Stage 2 - Automated Testing in CI
 
 Your continuous integration pipeline runs checks on every branch:
 
@@ -92,7 +92,7 @@ jobs:
 
 Generate plan output as a pull request artifact. When reviewing infrastructure changes, teammates can examine the exact resource modifications before approval.
 
-Stage 3: Staged Deployment
+Stage 3 - Staged Deployment
 
 Deploy to production-facing environments in controlled steps:
 
@@ -127,7 +127,7 @@ else
 fi
 ```
 
-Stage 4: Production Approval Gate
+Stage 4 - Production Approval Gate
 
 For a three-person team, require at least one peer approval for production changes:
 
@@ -172,7 +172,7 @@ Deployment rotation. Rotate deployment responsibility weekly. Each team member o
 Async runbooks. Maintain deployment runbooks as markdown files in your infrastructure repository:
 
 ```markdown
-Deployment Runbook: Application Server
+Deployment Runbook - Application Server
 
 Prerequisites
 - [ ] Incident channel created in Slack
@@ -185,7 +185,7 @@ Pre-deployment
 
 Execution
 1. Run: `./deploy.sh production <version>`
-2. Monitor: `tail -f deployment.log`
+2. Monitor - `tail -f deployment.log`
 3. Verify: `./scripts/ smoke-tests.sh`
 
 Rollback

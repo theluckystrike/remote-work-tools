@@ -127,7 +127,7 @@ def find_optimal_announcement_time(team_tzs):
     return True
 ```
 
-A practical rule: aim for announcement times between 8 AM and 6 PM local time for the majority of your team.
+A practical rule - aim for announcement times between 8 AM and 6 PM local time for the majority of your team.
 
 E. Enable Two-Way Dialogue
 
@@ -137,11 +137,11 @@ Schedule a live Q&A format:
 
 ```
  Policy Q&A Session
-Date: Thursday, March 20
-Time: 10:00 AM PT / 1:00 PM ET / 6:00 PM London / Friday 3:00 AM Tokyo
+Date - Thursday, March 20
+Time - 10:00 AM PT / 1:00 PM ET / 6:00 PM London / Friday 3:00 AM Tokyo
 
 We'll walk through the changes and answer your questions live.
-Submit questions in advance: https://wiki.company.com/policy-qa
+Submit questions in advance - https://wiki.company.com/policy-qa
 
 Recording will be available for those who cannot attend.
 ```
@@ -153,7 +153,7 @@ Practical Communication Templates
 For Hybrid Policy Introductions
 
 ```
-Subject: Upcoming Changes to Our Work Format
+Subject - Upcoming Changes to Our Work Format
 
 Hi everyone,
 
@@ -182,7 +182,7 @@ Best,
 For Stricter Remote-Only Policies
 
 ```
-Subject: Update to Remote Work Guidelines
+Subject - Update to Remote Work Guidelines
 
 Team,
 

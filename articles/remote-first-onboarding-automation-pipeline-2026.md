@@ -23,11 +23,11 @@ Table of Contents
 
 - [The Cost of Manual Onboarding](#the-cost-of-manual-onboarding)
 - [Building Your Onboarding Stack](#building-your-onboarding-stack)
-- [Complete Automation Example: First Week Flow](#complete-automation-example-first-week-flow)
+- [Complete Automation Example - First Week Flow](#complete-automation-example-first-week-flow)
 - [Tools to Build This System](#tools-to-build-this-system)
 - [Onboarding Documentation Template](#onboarding-documentation-template)
 - [Your First 24 Hours](#your-first-24-hours)
-- [Week 1: Get Oriented](#week-1-get-oriented)
+- [Week 1 - Get Oriented](#week-1-get-oriented)
 - [This Quarter](#this-quarter)
 - [Important Links](#important-links)
 - [Need Help?](#need-help)
@@ -48,12 +48,12 @@ Manual onboarding per employee:
 - Engineering sending dev environment setup: 25 min
 - Multiple people answering questions: 2 hours
 
-Total: ~4 hours per hire
+Total - ~4 hours per hire
 
-Cost per hire: 4 hours × $50/hour = $200
-For 10 hires/year: $2,000 lost to onboarding overhead
+Cost per hire - 4 hours × $50/hour = $200
+For 10 hires/year - $2,000 lost to onboarding overhead
 
-Plus: New employees are less productive the first 2 weeks,
+Plus - New employees are less productive the first 2 weeks,
 losing $500-1,000 per employee in productivity
 ```
 
@@ -69,7 +69,7 @@ Core Components
 4. Documentation Hub: Embedded video + written guides
 5. Task Tracking: Linear, Asana, or GitHub Issues
 
-Step 1: Design Your Onboarding Checklist
+Step 1 - Design Your Onboarding Checklist
 
 Create a master template covering all phases:
 
@@ -117,14 +117,14 @@ MONTH 3
    Submit PR for documentation improvement
 ```
 
-Step 2: Automate Account Creation
+Step 2 - Automate Account Creation
 
 Use Zapier or Make.com to automatically create accounts when someone is added to your HR system.
 
 Example Zapier workflow:
 
 ```
-Trigger: New employee record created in HR system
+Trigger - New employee record created in HR system
 
 Actions:
 1. Create Google Workspace account
@@ -156,44 +156,44 @@ Actions:
 
 This single trigger event creates accounts across all systems in <2 minutes.
 
-Step 3: Build a Welcome Sequence
+Step 3 - Build a Welcome Sequence
 
 Email automation delivers content at the right time without manual sending:
 
 ```
-Day -7: Welcome email with logistics
+Day -7 - Welcome email with logistics
 "Hi [Name], excited to have you join! Your start date is [date].
 Here's what to expect:
 - Equipment shipping to [address]
 - First day schedule: 9am welcome call
 - Please complete company security training at [link]"
 
-Day 0 (Start of day): First day welcome
+Day 0 (Start of day) - First day welcome
 "Welcome! You're officially starting today 
 9am PT/12pm ET: Welcome call with CEO
 11am: 1-on-1 with [Manager Name]
-Here's a quick guide: [link]"
+Here's a quick guide - [link]"
 
-Day 1: Dev environment setup reminder
-"Today: Set up your development environment!
-Watch this guide: [Loom video, 12 min]
+Day 1 - Dev environment setup reminder
+"Today - Set up your development environment!
+Watch this guide - [Loom video, 12 min]
 Get stuck? Reply here or ping #dev-help"
 
-Day 3: Check-in from manager
+Day 3 - Check-in from manager
 "[Manager] here! How's your first few days going?
 Any blockers? Questions? Let's sync: [calendar link]"
 
-Day 5: Week 1 wrap-up
+Day 5 - Week 1 wrap-up
 "End of week 1! You've made great progress.
-This week: Architecture overview (async video)
-Next: Start on first real task with [Mentor Name]"
+This week - Architecture overview (async video)
+Next - Start on first real task with [Mentor Name]"
 
-Day 14: Two-week check-in
+Day 14 - Two-week check-in
 "Halfway through onboarding! Please fill out this quick form
 to give us feedback: [Google Form]
 What's been helpful? What could be better?"
 
-Day 30: One-month survey
+Day 30 - One-month survey
 "You've completed your first month! Please share feedback:
 - Was onboarding clear?
 - Did documentation help?
@@ -206,7 +206,7 @@ Tool options:
 - Zapier email integration
 - Custom script + Gmail drafts
 
-Step 4: Create Async Documentation
+Step 4 - Create Async Documentation
 
 Centralize all onboarding materials in one place:
 
@@ -252,19 +252,19 @@ Documentation Structure (Notion or GitHub Wiki):
      Week 4: Independent contributor
 ```
 
-Step 5: Automate Task Creation and Tracking
+Step 5 - Automate Task Creation and Tracking
 
 Create a Linear (or GitHub Issues) board for each new employee:
 
 ```
-Linear Board: "Onboarding: [Employee Name]"
+Linear Board - "Onboarding: [Employee Name]"
 
-Task: Complete Welcome Call
+Task - Complete Welcome Call
 - Due: Day 0
 - Assigned to: CEO/Manager
 - Description: Introduce company mission, answer questions
 
-Task: Dev Environment Setup
+Task - Dev Environment Setup
 - Due: Day 1
 - Assigned to: New Employee
 - Checklist:
@@ -274,28 +274,28 @@ Task: Dev Environment Setup
    Run first application locally
    Push test commit to demonstrate access
 
-Task: Code Review on GitHub
+Task - Code Review on GitHub
 - Due: Day 3
 - Assigned to: Mentor
 - Description: Review new employee's first PR (trivial change)
 
-Task: First Real Task
+Task - First Real Task
 - Due: Day 5
 - Assigned to: New Employee
 - Scoped: Small feature or bug fix with clear acceptance criteria
 
-Task: Pair Programming Session
+Task - Pair Programming Session
 - Due: Day 7
 - Assigned to: Mentor and New Employee
 - Record session for future onboarding
 
-Task: Week 2 Checklist Review
+Task - Week 2 Checklist Review
 - Due: Day 10
 - Assigned to: Manager
 - Checklist of week 1 completions
 ```
 
-Step 6: Create Metrics Dashboard
+Step 6 - Create Metrics Dashboard
 
 Track onboarding effectiveness:
 
@@ -317,10 +317,10 @@ Actions on gaps:
 - "Documentation gaps" → Update guides based on feedback
 ```
 
-Complete Automation Example: First Week Flow
+Complete Automation Example - First Week Flow
 
 ```
-DAY -7: HR input
+DAY -7 - HR input
 - New employee added to HR system
 
 ZAPIER TRIGGER FIRES (Automatic):
@@ -331,22 +331,22 @@ ZAPIER TRIGGER FIRES (Automatic):
 - 12pm: Watch dev setup video
 - 2pm: Scheduled 1-on-1 with manager
 
-DAY 1: First technical work
+DAY 1 - First technical work
 - Async: Watch "Architecture Overview" video (13 min)
 - Async: Complete "Dev Environment Setup" checklist
 - Live chat with dev mentor: "Got your env set up? Great! Here's a trivial task"
 
-DAY 2: First PR
+DAY 2 - First PR
 - New employee submits first PR (trivial: adding name to team page)
 - Mentor reviews within 2 hours
 - Employee merges and celebrates first contribution
 
-DAY 3: Light real work
+DAY 3 - Light real work
 - Async: Watch "Codebase Tour" video
 - Real task: Fix a simple bug with clear acceptance criteria
 - Assigned to experienced mentor for pairing if stuck
 
-DAY 5: Week 1 wrap
+DAY 5 - Week 1 wrap
 - Manager sends async check-in: "How's the first week?"
 - Employee submits 2-minute Loom video about experience
 - Team watches and identifies gaps
@@ -362,8 +362,8 @@ Zapier ($20/month)
 + Loom (free tier or $12/user/month)
 + Linear ($10/user/month for growing teams)
 
-Total: ~$150-200/month setup cost
-Saves: ~2 hours per hire = $100 per hire (breaks even quickly)
+Total - ~$150-200/month setup cost
+Saves - ~2 hours per hire = $100 per hire (breaks even quickly)
 ```
 
 Custom automation (for larger companies):
@@ -374,8 +374,8 @@ API integrations in your backend:
 - Send welcome email via SendGrid
 - Log to audit system
 
-Cost: 40 hours development + maintenance
-Best for: Companies hiring >20 people per year
+Cost - 40 hours development + maintenance
+Best for - Companies hiring >20 people per year
 ```
 
 No-code option (simplest):
@@ -386,9 +386,9 @@ Zapier workflow alone:
 - HR → Slack
 - HR → Task creation
 
-Cost: $20/month Zapier
-Covers: 80% of automation
-Best for: Startups <25 people
+Cost - $20/month Zapier
+Covers - 80% of automation
+Best for - Startups <25 people
 ```
 
 Onboarding Documentation Template
@@ -415,7 +415,7 @@ Day 1:
 - [ ] 3pm: Dev setup workshop
 - [ ] 5pm: First Slack message to team
 
-Week 1: Get Oriented
+Week 1 - Get Oriented
 
 We'll focus on understanding our systems, culture, and codebase.
 
@@ -452,15 +452,15 @@ We're here to help you succeed!
 
 Common Mistakes
 
-Over-automating: Email overload (20 emails in first week) defeats the purpose. Send 2-3 key emails.
+Over-automating - Email overload (20 emails in first week) defeats the purpose. Send 2-3 key emails.
 
-Documentation lock-in: If docs are behind company passwords, new employees can't access them. Make public docs searchable.
+Documentation lock-in - If docs are behind company passwords, new employees can't access them. Make public docs searchable.
 
-No feedback loop: Ask every new hire "What could we improve in onboarding?" and actually implement suggestions.
+No feedback loop - Ask every new hire "What could we improve in onboarding?" and actually implement suggestions.
 
-Forgetting about remote: Video calls at 9am PT exclude your Tokyo team. Record everything and share asynchronously.
+Forgetting about remote - Video calls at 9am PT exclude your Tokyo team. Record everything and share asynchronously.
 
-Too rigid: Every person learns differently. Provide options (video or text, self-paced or structured).
+Too rigid - Every person learns differently. Provide options (video or text, self-paced or structured).
 
 Measuring Onboarding Success
 
@@ -471,8 +471,8 @@ Track these after each new hire:
 2. Time to First Deploy: Days until code in production
 3. Onboarding Survey Score: Self-reported satisfaction (1-5)
 4. Documentation Gaps: Issues noted in feedback
-5. Manager Satisfaction: Did onboarding help?
-6. New Hire Retention: Still here after 6 months?
+5. Manager Satisfaction - Did onboarding help?
+6. New Hire Retention - Still here after 6 months?
 ```
 
 A well-designed onboarding system is the fastest way to improve new employee productivity and retention. Invest time upfront to save hours per hire.

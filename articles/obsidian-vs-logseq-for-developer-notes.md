@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Obsidian vs Logseq for Developer Notes"
-description: "Choose Obsidian if you want explicit folder-and-file organization, a massive plugin ecosystem (1,500+ community plugins including Dataview for advanced"
+description: "Choose Obsidian if you want explicit folder-and-file organization, a massive plugin environment (1,500+ community plugins including Dataview for advanced"
 date: 2026-03-15
 last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
@@ -17,9 +17,9 @@ tags: [remote-work-tools, comparison]
 
 {% raw %}
 
-Choose Obsidian if you want explicit folder-and-file organization, a massive plugin ecosystem (1,500+ community plugins including Dataview for advanced queries), and the ability to publish notes as a static site. Choose Logseq if you prefer an outliner workflow where every bullet is a referenceable block, want native Git auto-commit without a plugin, and value block-level bidirectional linking over file-level linking. Both store notes as local markdown files, so you keep full data ownership either way. This comparison breaks down how each tool handles the developer-specific use cases that matter most: code snippets, API documentation, decision logs, backlinks, and cross-project knowledge graphs.
+Choose Obsidian if you want explicit folder-and-file organization, a massive plugin environment (1,500+ community plugins including Dataview for advanced queries), and the ability to publish notes as a static site. Choose Logseq if you prefer an outliner workflow where every bullet is a referenceable block, want native Git auto-commit without a plugin, and value block-level bidirectional linking over file-level linking. Both store notes as local markdown files, so you keep full data ownership either way. This comparison breaks down how each tool handles the developer-specific use cases that matter most: code snippets, API documentation, decision logs, backlinks, and cross-project knowledge graphs.
 
-Core Philosophy: Pull vs Push
+Core Philosophy - Pull vs Push
 
 Obsidian operates as a pull-based system. You create notes manually, organize them into folders, and establish links between them. The graph view visualizes connections, but the responsibility for structuring knowledge rests with you.
 
@@ -47,7 +47,7 @@ function fetchUserData(userId) {
 }
 ```
 
-The community plugin ecosystem extends code handling further. The Code Block Enhancer plugin adds features like line numbers, copy buttons, and filename display.
+The community plugin environment extends code handling further. The Code Block Enhancer plugin adds features like line numbers, copy buttons, and filename display.
 
 Logseq Code Blocks
 
@@ -122,7 +122,7 @@ Logseq's plugin system is newer and growing. Core features work well without plu
 - Block properties and aliases
 - PDF annotation support
 
-Plugins like Logseq Plugin Defer (deferred blocks) and Logseq Plugin Flashcards extend specific workflows, but the ecosystem remains leaner than Obsidian's.
+Plugins like Logseq Plugin Defer (deferred blocks) and Logseq Plugin Flashcards extend specific workflows, but the environment remains leaner than Obsidian's.
 
 Data Ownership and Sync
 
@@ -143,7 +143,7 @@ Sync Considerations
 
 Developers preferring explicit version control may favor Logseq's built-in Git workflow, while those wanting managed sync might consider Obsidian's paid service.
 
-Use Case: API Documentation
+Use Case - API Documentation
 
 Here's how each tool handles documenting an API endpoint:
 
@@ -167,7 +167,7 @@ Response
 - 201: User created
 - 400: Validation error
 
-Related: [[Authentication]], [[Error Codes]]
+Related - [[Authentication]], [[Error Codes]]
 ```
 
 In Logseq

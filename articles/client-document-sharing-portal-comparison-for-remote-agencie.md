@@ -21,10 +21,10 @@ Remote agencies face unique challenges when sharing client deliverables. Unlike 
 Table of Contents
 
 - [Core Requirements for Remote Agency Document Portals](#core-requirements-for-remote-agency-document-portals)
-- [Google Drive: The Flexible Default](#google-drive-the-flexible-default)
-- [Dropbox: The Developer-Friendly Option](#dropbox-the-developer-friendly-option)
-- [Box: Enterprise-Grade Security](#box-enterprise-grade-security)
-- [SharePoint: Microsoft Ecosystem Integration](#sharepoint-microsoft-ecosystem-integration)
+- [Google Drive - The Flexible Default](#google-drive-the-flexible-default)
+- [Dropbox - The Developer-Friendly Option](#dropbox-the-developer-friendly-option)
+- [Box - Enterprise-Grade Security](#box-enterprise-grade-security)
+- [SharePoint - Microsoft environment Integration](#sharepoint-microsoft-environment-integration)
 - [Structuring Folders for Multi-Client Agencies](#structuring-folders-for-multi-client-agencies)
 - [Onboarding Clients to Your Chosen Portal](#onboarding-clients-to-your-chosen-portal)
 - [Decision Framework](#decision-framework)
@@ -39,7 +39,7 @@ When evaluating any portal, also consider the client experience. A technically s
 
 The tools evaluated below are Google Drive, Dropbox, Box, and Microsoft SharePoint. Each serves the purpose but offers different developer experiences.
 
-Google Drive: The Flexible Default
+Google Drive - The Flexible Default
 
 Google Drive remains popular because most clients already have Google accounts. For remote agencies, the real power lies in the Drive API.
 
@@ -78,9 +78,9 @@ Google Drive excels at real-time collaboration, clients can comment directly on 
 
 One common friction point is Drive's "Request access" behavior: if a client accidentally navigates to a parent folder they were not explicitly shared on, they see a wall instead of their files. Structure your folder hierarchy carefully and share at the correct level from the start.
 
-Cost: Free for basic use; Google Workspace starts at $12/user/month.
+Cost - Free for basic use; Google Workspace starts at $12/user/month.
 
-Dropbox: The Developer-Friendly Option
+Dropbox - The Developer-Friendly Option
 
 Dropbox positions itself as the professional choice, and their API reflects this focus. The Dropbox API v2 offers straightforward token-based authentication and endpoint coverage.
 
@@ -115,9 +115,9 @@ Dropbox Paper provides collaborative document editing, though it's less feature-
 
 Dropbox Business also includes transfer logs and version history by default, which helps when a client claims they never received a deliverable or disputes what version was approved.
 
-Cost: Professional plans start at $15/user/month.
+Cost - Professional plans start at $15/user/month.
 
-Box: Enterprise-Grade Security
+Box - Enterprise-Grade Security
 
 Box targets enterprises requiring compliance features. For remote agencies handling sensitive client data, legal documents, financial reports, healthcare deliverables, Box provides the security infrastructure most agencies cannot build themselves.
 
@@ -154,9 +154,9 @@ Box excels at security and compliance but feels enterprise-heavy. The interface 
 
 The most compelling argument for Box is not the product itself, it's the compliance documentation. When a potential enterprise client asks whether their data is HIPAA-compliant, pointing to a Box BAA closes that question immediately. For agencies targeting regulated industries, this is worth the premium.
 
-Cost: Business plans start at $25/user/month.
+Cost - Business plans start at $25/user/month.
 
-SharePoint: Microsoft Ecosystem Integration
+SharePoint - Microsoft environment Integration
 
 If your agency lives in Microsoft 365, SharePoint provides tight integration with Teams, Outlook, and Office documents. The recent SharePoint Online improvements address many historical usability complaints.
 
@@ -195,11 +195,11 @@ async function uploadClientDeliverable(client, filename, content) {
 
 Strengths and Limitations
 
-SharePoint works best within the Microsoft ecosystem. Outside it, the experience degrades significantly. Client-facing portals often require guest account setup, adding friction. The admin experience remains complex compared to consumer-focused tools.
+SharePoint works best within the Microsoft environment. Outside it, the experience degrades significantly. Client-facing portals often require guest account setup, adding friction. The admin experience remains complex compared to consumer-focused tools.
 
 If your clients are Microsoft shops themselves, the experience is easy, they access files through their existing Teams interface with no new account required. If they are not, expect onboarding friction.
 
-Cost: Microsoft 365 Business Basic ($12/user/month) includes SharePoint.
+Cost - Microsoft 365 Business Basic ($12/user/month) includes SharePoint.
 
 Structuring Folders for Multi-Client Agencies
 

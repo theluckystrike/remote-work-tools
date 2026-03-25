@@ -138,7 +138,7 @@ When a new image is available, Keel posts to `#infra-approvals`:
 
 ```
 :rocket: Approval needed: myapp:1.3.0 in namespace production
-Current: 1.2.0 → New: 1.3.0
+Current - 1.2.0 → New: 1.3.0
 React with :white_check_mark: to approve or :x: to reject
 ```
 
@@ -355,7 +355,7 @@ Keel reads emoji reactions, not message replies. The bot must be a member of the
 
 Keel updated a Deployment I did not want auto-updated
 
-Remove or set `keel.sh/policy: ""` on the Deployment. Keel only manages workloads that explicitly opt in via annotation. If a workload was added without an annotation and Keel still updated it, check if it is part of a Helm release that has Keel values configured.
+Remove or set `keel.sh/policy - ""` on the Deployment. Keel only manages workloads that explicitly opt in via annotation. If a workload was added without an annotation and Keel still updated it, check if it is part of a Helm release that has Keel values configured.
 
 Image pull backoff after Keel update
 
@@ -367,7 +367,7 @@ If polling is set to `@every 3m` but your CI publishes multiple images per hour,
 
 ---
 
-Keel vs. ArgoCD: When to Use Each
+Keel vs. ArgoCD - When to Use Each
 
 | Concern | Keel | ArgoCD |
 |---------|------|--------|
@@ -377,7 +377,7 @@ Keel vs. ArgoCD: When to Use Each
 | Rollback | Manual (re-tag or annotate) | Git revert → auto-sync |
 | Complexity | Low | Higher |
 
-Run both: Keel for staging instant-deploy, ArgoCD for production GitOps. Use Keel's webhook trigger at the end of the CI pipeline to update staging immediately, and let ArgoCD manage production through pull requests merged to a GitOps repository.
+Run both - Keel for staging instant-deploy, ArgoCD for production GitOps. Use Keel's webhook trigger at the end of the CI pipeline to update staging immediately, and let ArgoCD manage production through pull requests merged to a GitOps repository.
 
 ---
 

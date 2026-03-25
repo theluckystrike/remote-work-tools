@@ -22,11 +22,11 @@ Table of Contents
 - [Why Correlation Matters for Remote Teams](#why-correlation-matters-for-remote-teams)
 - [Key Features for Distributed Team Observability](#key-features-for-distributed-team-observability)
 - [Platform Comparison for Remote Teams](#platform-comparison-for-remote-teams)
-- [Practical Workflow: Investigating a Production Incident](#practical-workflow-investigating-a-production-incident)
+- [Practical Workflow - Investigating a Production Incident](#practical-workflow-investigating-a-production-incident)
 - [Implementation Tips for Remote Teams](#implementation-tips-for-remote-teams)
 - [Comparison of Major Observability Platforms](#comparison-of-major-observability-platforms)
 - [Implementing Automatic Correlation Across Services](#implementing-automatic-correlation-across-services)
-- [Workflow Template: Multi-Zone Incident Investigation](#workflow-template-multi-zone-incident-investigation)
+- [Workflow Template - Multi-Zone Incident Investigation](#workflow-template-multi-zone-incident-investigation)
 - [Practical Configuration Examples](#practical-configuration-examples)
 - [Choosing the Right Platform](#choosing-the-right-platform)
 - [SLO Tracking for Async Team Accountability](#slo-tracking-for-async-team-accountability)
@@ -71,7 +71,7 @@ Honeycomb focuses specifically on trace-based debugging and excels at high-cardi
 
 New Relic provides a full-stack view with a free tier generous enough for small teams. Its AI correlation engine automatically groups related alerts into a single incident, reducing notification noise. The query language (NRQL) has a learning curve but enables powerful ad-hoc analysis.
 
-Practical Workflow: Investigating a Production Incident
+Practical Workflow - Investigating a Production Incident
 
 Consider this real-world scenario: A remote team's payment service starts returning 500 errors, and customers in various regions report issues. a scheduled batch job that runs during business hours in one timezone but triggers at an odd hour elsewhere. The trace provides the evidence needed to escalate to the team responsible for the batch job.
 
@@ -166,7 +166,7 @@ Create Shared Dashboards for Team Visibility
 
 Remote teams benefit from shared visibility without requiring synchronous meetings. Create dashboards that show key service health metrics accessible to everyone. When something breaks, teammates in other time zones can check the dashboard before the on-call engineer wakes up and provide context in the incident channel.
 
-Structure dashboards in layers: a top-level business health view (orders per minute, error rates, p99 latency), a per-service deep detailed look view, and per-deployment comparison views that show before/after metric overlays for every release.
+Structure dashboards in layers - a top-level business health view (orders per minute, error rates, p99 latency), a per-service deep detailed look view, and per-deployment comparison views that show before/after metric overlays for every release.
 
 Document Investigation Patterns
 
@@ -189,7 +189,7 @@ Implementing Automatic Correlation Across Services
 
 For remote teams, automatic correlation is non-negotiable. Manual correlation takes too long and creates bottlenecks when on-call engineers must wait for teammates in other zones. Here's how to implement it:
 
-Step 1: Standardize on Trace Context Propagation
+Step 1 - Standardize on Trace Context Propagation
 
 Use W3C Trace Context standard across all services:
 
@@ -220,7 +220,7 @@ app.use((req, res, next) => {
 
 This ensures trace IDs flow through every service boundary automatically.
 
-Step 2: Embed Correlation IDs in Logs
+Step 2 - Embed Correlation IDs in Logs
 
 Every log entry should include the current trace ID:
 
@@ -250,31 +250,31 @@ logger.addHandler(handler)
 
 Now every log, metric, and trace shares a common identifier across systems.
 
-Workflow Template: Multi-Zone Incident Investigation
+Workflow Template - Multi-Zone Incident Investigation
 
 When your on-call engineer in Tokyo is investigating a payment processing failure affecting San Francisco customers, here's the workflow:
 
-Minute 0: Alert Triggered
+Minute 0 - Alert Triggered
 1. Observability platform detects error rate spike (>5% of transactions)
 2. Alert sends to PagerDuty with critical severity
 3. Tokyo engineer receives alert at 11 PM (SF is 3 PM same day)
 
-Minute 2: Initial Diagnosis
+Minute 2 - Initial Diagnosis
 1. Tokyo engineer opens observability dashboard
 2. Clicks error rate graph, traces spike to payment-gateway service
 3. Searches for transaction ID from customer report
 4. Finds trace spanning 8 services, latency spike in database tier
 
-Minute 5: Context Gathering
+Minute 5 - Context Gathering
 1. Engineer queries logs filtered by trace ID
 2. Sees 150 failed transactions all timing out on same database query
 3. Checks metrics: connection pool exhausted at 2:45 PM SF time
 4. Posts summary in #incidents channel for SF team to review
 
-Minute 10: Documentation and Handoff
+Minute 10 - Documentation and Handoff
 1. Engineer documents findings in incident wiki
 2. Posts video walkthrough of investigation steps for team review
-3. Notes: "Connection pool issue appears tied to batch job. Recommend checking scheduler."
+3. Notes - "Connection pool issue appears tied to batch job. Recommend checking scheduler."
 4. SF team wakes up with full context, can immediately investigate batch job
 
 This workflow takes 10 minutes because correlation is automatic. Without it, Tokyo engineer would need to check five different tools, wait for logs to load, and potentially wait for SF team to debug from their side.
@@ -393,7 +393,7 @@ Successful observability for distributed teams requires both good tooling and go
 Create team-specific runbooks for common issues:
 
 ```markdown
-Runbook: Database Connection Pool Exhaustion
+Runbook - Database Connection Pool Exhaustion
 
 Detection
 - Latency spikes across all services

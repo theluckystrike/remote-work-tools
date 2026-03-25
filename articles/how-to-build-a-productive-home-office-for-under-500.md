@@ -28,32 +28,32 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The $500 Office Budget Breakdown
+Step 1 - The $500 Office Budget Breakdown
 
 Essential Tier ($450-500 total)
 
-Monitor: $150-200
+Monitor - $150-200
 - Buy: Used 27" 1080p IPS monitor ($100-150) or new 24" 1080p ($150-180)
 - Alternative: Existing TV or laptop screen (saves $150)
 - Why: Coding on a single small screen creates eye strain and reduces productivity
 
-Chair: $150-200
+Chair - $150-200
 - Buy: Used office chair from office furniture liquidators ($80-120) or new budget ergonomic ($150-200)
 - Avoid: Cheap gaming chairs, marketing gimmick without actual ergonomic support
 - Where to look: Facebook Marketplace, Craigslist, local office furniture recyclers
 - Why: You'll sit here 8+ hours daily; bad chair causes back pain
 
-Desk: $80-150
+Desk - $80-150
 - Buy: IKEA Bekant or similar basic desk ($70-100) or secondhand sturdy desk ($40-80)
 - DIY alternative: Old door + 2x4s + sawhorses ($30-50)
 - Why: You need a flat surface; cheap desks work fine
 
-Keyboard & Mouse: $40-80
+Keyboard & Mouse - $40-80
 - Buy: Mechanical keyboard refurb ($40-60) + budget ergonomic mouse ($20-40)
 - Alternative: Reuse laptop keyboard + trackpad (free)
 - Why: You interact with these 8 hours daily; budget here means hand fatigue
 
-Internet upgrade: $0
+Internet upgrade - $0
 - Assumption: You have broadband already
 - If upgrading, negotiate with ISP ($50-100/month)
 
@@ -61,7 +61,7 @@ Budget Reality Check
 
 This totals approximately $420-580. The range depends on your location and willingness to hunt deals. Key strategy: Buy used furniture, new input devices.
 
-Step 2: Smart Shopping Strategies
+Step 2 - Smart Shopping Strategies
 
 Where to Find Budget Office Furniture
 
@@ -97,26 +97,26 @@ Negotiation Tactics
 When buying used furniture locally:
 
 ```
-Strategy 1: Ask "Is your price negotiable?"
+Strategy 1 - Ask "Is your price negotiable?"
 - Most sellers expect negotiation on items over $100
 - Offer 80-85% of asking price; settle at 85-90%
 
-Strategy 2: Offer cash for immediate pickup
+Strategy 2 - Offer cash for immediate pickup
 - Eliminates shipping hassle for seller
 - Justifies lower price
 - Works especially well for heavy furniture
 
-Strategy 3: Check for bulk discounts
+Strategy 3 - Check for bulk discounts
 - Buying desk + chair from same seller?
 - "What if I take both for $300?"
 
-Strategy 4: Point out minor issues
+Strategy 4 - Point out minor issues
 - Worn upholstery, scratches, missing components
 - Use as negotiation use
 - But be honest, don't manufacture problems
 ```
 
-Step 3: Build Your Own Desk ($30-50)
+Step 3 - Build Your Own Desk ($30-50)
 
 For minimalists, a DIY desk works well:
 
@@ -137,13 +137,13 @@ Assembly:
 4. Add wood stain if desired (aesthetic improvement, no functionality change)
 5. Mount monitor arm to underside for cable management
 
-Cost: $40-60 including minimal finishing
-Height: Adjust leg height to maintain 90° elbow angle (critical for posture)
+Cost - $40-60 including minimal finishing
+Height - Adjust leg height to maintain 90° elbow angle (critical for posture)
 ```
 
-This approach works well if you need a simple, sturdy desk. Weakness: Difficult to relocate; better suited to long-term setups.
+This approach works well if you need a simple, sturdy desk. Weakness - Difficult to relocate; better suited to long-term setups.
 
-Step 4: The $500+ Office Component Breakdown
+Step 4 - The $500+ Office Component Breakdown
 
 | Component | Budget | Mid-Range | Premium | Notes |
 |-----------|--------|-----------|---------|-------|
@@ -156,87 +156,87 @@ Step 4: The $500+ Office Component Breakdown
 | Lamp | $20-40 (task lamp) | $60-100 | $150+ | Any 20W+ task lamp provides adequate light |
 | Cable management | $15-25 | $40-60 | $100+ | Budget options work equally well |
 
-Step 5: Specific Product Recommendations
+Step 5 - Specific Product Recommendations
 
-Monitor: Refurbished Dell S2422HZ (24", 1080p, IPS) - $110-140
+Monitor - Refurbished Dell S2422HZ (24", 1080p, IPS) - $110-140
 - Clean colors for long sessions
 - VESA mountable
 - Available refurbished from Dell directly
 - Save $40-60 over new
 
-Chair: Used Steelcase or Herman Miller - $100-150
+Chair - Used Steelcase or Herman Miller - $100-150
 - Facebook Marketplace search: "Steelcase" or "Herman Miller"
 - These brands last 15+ years; used ones outlast cheap new chairs
 - Test before purchasing (critical for back comfort)
 
-Desk: IKEA Bekant (47"x24") + Monitor arm - $95-130 total
+Desk - IKEA Bekant (47"x24") + Monitor arm - $95-130 total
 - Solid construction despite particle board
 - Easy to assemble (30 minutes)
 - Monitor arm frees desk space ($25-40)
 
-Keyboard: Keychron K2 Pro (refurbished) - $45-70
+Keyboard - Keychron K2 Pro (refurbished) - $45-70
 - Mechanical with hot-swappable switches
 - Quiet enough for shared spaces (not all mechanical keyboards are)
 - Refurbished directly from Keychron or Amazon Renewed
 
-Mouse: Logitech MX Anywhere 2S (refurbished) - $25-45
+Mouse - Logitech MX Anywhere 2S (refurbished) - $25-45
 - Compact, ergonomic, fast scrolling
 - Works with laptop + desktop
 - Refurbished from Amazon Renewed
 
-Lamp: DEWALT LED Task Lamp - $28-35
+Lamp - DEWALT LED Task Lamp - $28-35
 - Professional-grade build quality
 - 1,000 lumens (bright enough for all conditions)
 - Tool brand, not office brand, but excellent specs
 
-Headphones: Monoprice BT600ANC - $50-70
+Headphones - Monoprice BT600ANC - $50-70
 - Active noise cancellation
 - Bluetooth + wired options
 - Professional meeting quality
 
-Total estimated cost: $450-480
+Total estimated cost - $450-480
 
-Step 6: Budget Office Setup Assembly Timeline
+Step 6 - Budget Office Setup Assembly Timeline
 
-Week 1: Core furniture
+Week 1 - Core furniture
 - Find and secure used chair and desk ($200-250)
 - Pick up or arrange delivery
 
-Week 2: Display and input
+Week 2 - Display and input
 - Source monitor ($100-150)
 - Buy keyboard and mouse ($40-80)
 - Set up basic desk
 
-Week 3: Optimization
+Week 3 - Optimization
 - Add lamp, headphones, cable management
 - Arrange for comfort (desk height, monitor distance, lighting)
 - Test for 2-3 days before finalizing positioning
 
-Week 4: Refinement
+Week 4 - Refinement
 - Make adjustments based on actual use
 - Add storage or organization if needed ($20-40)
 - Your productive office is now complete
 
-Step 7: Free/Cheap Upgrades to Maximize Productivity
+Step 7 - Free/Cheap Upgrades to Maximize Productivity
 
-Ambient lighting: Position desk near window + use overhead lighting
+Ambient lighting - Position desk near window + use overhead lighting
 - Cost: $0 (if window exists)
 - Alternative: Budget lamp ($25-35)
 
-Plants: Add small desk plant (spider plant, pothos) - $8-15
+Plants - Add small desk plant (spider plant, pothos) - $8-15
 - Psychological boost and improved air quality
 - No maintenance required
 
-Document holder: Print and tape important reference next to monitor - $0
+Document holder - Print and tape important reference next to monitor - $0
 - Reduces neck strain from looking down at desk
 
-Monitor stand/riser: Stack books, use adjustable arm - $0-25
+Monitor stand/riser - Stack books, use adjustable arm - $0-25
 - Top of monitor should align with eye level when sitting
 
-Acoustic panel (DIY): Hang blanket/towel for echo reduction - $0
+Acoustic panel (DIY) - Hang blanket/towel for echo reduction - $0
 - Creates professional video call appearance
 
-Step 8: Footer
+Step 8 - Footer
 
 Building a productive office on $500 requires one non-negotiable: your comfort. Invest in a decent chair (you spend more time sitting than anywhere else) and a monitor that reduces eye strain. Everything else is negotiable and can be upgraded over time. Your productivity is directly correlated with physical comfort, a $100 chair that causes back pain costs you far more in lost productivity than the price difference to a $200 quality chair. Plan your budget accordingly, prioritize ruthlessly, and upgrade components one at a time as your budget improves.
 

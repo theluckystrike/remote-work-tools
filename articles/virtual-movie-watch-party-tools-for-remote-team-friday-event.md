@@ -19,12 +19,12 @@ Remote team Friday events need reliable synchronization to recreate the cinema e
 Table of Contents
 
 - [Understanding Sync Play Requirements](#understanding-sync-play-requirements)
-- [Browser Extensions: Quick Setup, Limited Features](#browser-extensions-quick-setup-limited-features)
-- [Dedicated Platforms: Full-Featured Solutions](#dedicated-platforms-full-featured-solutions)
-- [Self-Hosted Options: Maximum Control](#self-hosted-options-maximum-control)
+- [Browser Extensions - Quick Setup, Limited Features](#browser-extensions-quick-setup-limited-features)
+- [Dedicated Platforms - Full-Featured Solutions](#dedicated-platforms-full-featured-solutions)
+- [Self-Hosted Options - Maximum Control](#self-hosted-options-maximum-control)
 - [Practical Recommendations by Use Case](#practical-recommendations-by-use-case)
 - [Optimizing the Remote Movie Night Experience](#optimizing-the-remote-movie-night-experience)
-- [Advanced Setup: Multi-Screen Theater Experience](#advanced-setup-multi-screen-theater-experience)
+- [Advanced Setup - Multi-Screen Theater Experience](#advanced-setup-multi-screen-theater-experience)
 - [Troubleshooting Common Watch Party Issues](#troubleshooting-common-watch-party-issues)
 - [Integrating Movie Nights Into Your Remote Culture](#integrating-movie-nights-into-your-remote-culture)
 - [Cost-Benefit Analysis by Platform](#cost-benefit-analysis-by-platform)
@@ -35,7 +35,7 @@ Real-time synchronization demands three components: video playback control, audi
 
 For developers building custom solutions, the fundamental challenge is maintaining sub-200ms synchronization across participants. Standard WebRTC implementations introduce variable delays, so dedicated sync-play services use deterministic timing protocols instead of relying on native video element behavior.
 
-Browser Extensions: Quick Setup, Limited Features
+Browser Extensions - Quick Setup, Limited Features
 
 Teleparty (formerly Netflix Party) dominates this category for simplicity. Install the Chrome or Firefox extension, open a supported streaming service, and share a link. Everyone's player stays synchronized automatically.
 
@@ -56,7 +56,7 @@ docker run -d -p 8999:8999 --name syncplay-server \
 
 The trade-off is setup time. You need a server accessible to all participants, which means configuring firewall rules, TLS certificates, and potentially dealing with corporate VPN restrictions. For teams with DevOps capacity, this provides the most flexibility.
 
-Dedicated Platforms: Full-Featured Solutions
+Dedicated Platforms - Full-Featured Solutions
 
 Karaoke PARTY (no relation to the singing platform) offers polished synchronization with chat, reactions, and screen sharing. The browser-based interface requires no installation, making it accessible for less technical team members. However, the free tier limits rooms to three participants, fine for small team gatherings, restrictive for company-wide events.
 
@@ -80,7 +80,7 @@ console.log(`Share this link: ${room.inviteUrl}`);
 
 This approach suits teams building internal tools or wanting integration with existing collaboration platforms.
 
-Self-Hosted Options: Maximum Control
+Self-Hosted Options - Maximum Control
 
 Organizations with strong privacy requirements or existing infrastructure benefit from self-hosted alternatives. These require more setup but eliminate subscription costs and data sharing concerns.
 
@@ -103,7 +103,7 @@ Plex offers native Watch Together functionality for Plex Pass subscribers. The i
 3. Share the generated link
 4. Participants join through their Plex accounts
 
-The limitation is the subscription requirement and locked ecosystem, works well only if everyone in your organization already has Plex accounts.
+The limitation is the subscription requirement and locked environment, works well only if everyone in your organization already has Plex accounts.
 
 Practical Recommendations by Use Case
 
@@ -149,7 +149,7 @@ Bandwidth considerations affect international teams. Syncplay's server-side stre
 
 Accessibility matters. Enable closed captions for hearing-impaired team members, ensure subtitle encoding supports international languages, and test display scaling for participants using unusual monitor configurations.
 
-Advanced Setup: Multi-Screen Theater Experience
+Advanced Setup - Multi-Screen Theater Experience
 
 For larger teams wanting a premium experience, build a dedicated watch party infrastructure. Stream to multiple devices simultaneously while maintaining precise synchronization:
 

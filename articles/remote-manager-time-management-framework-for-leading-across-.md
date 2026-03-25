@@ -424,9 +424,9 @@ Effective remote managers organize their team's time zones into "stacks" that mi
 For example, with a team spanning US West Coast, US East Coast, UK, and India:
 
 ```
-Stack 1: US West Coast + US East Coast (overlap: 6 hours)
-Stack 2: UK + India (overlap: 5-6 hours)
-Stack 3: All-hands (rotate meeting times bi-weekly)
+Stack 1 - US West Coast + US East Coast (overlap: 6 hours)
+Stack 2 - UK + India (overlap: 5-6 hours)
+Stack 3 - All-hands (rotate meeting times bi-weekly)
 ```
 
 Rotate meeting times so no single region consistently bears the burden of early morning or late evening calls. Track these rotations using a simple rotation schedule:
@@ -449,13 +449,13 @@ Building Communication Rhythms
 
 Instead of daily standups, implement structured async check-ins that respect time zone boundaries. The following rhythm works well for globally distributed teams:
 
-Daily: Team Slack channel update with completed work, planned work, and blockers (posted by 10 AM in each team member's local timezone)
+Daily - Team Slack channel update with completed work, planned work, and blockers (posted by 10 AM in each team member's local timezone)
 
-Weekly: Written team summary published every Friday, highlighting wins, challenges, and the coming week's priorities
+Weekly - Written team summary published every Friday, highlighting wins, challenges, and the coming week's priorities
 
-Bi-weekly: Synchronous team meeting rotated through different time zones, focusing on cross-team collaboration and social connection
+Bi-weekly - Synchronous team meeting rotated through different time zones, focusing on cross-team collaboration and social connection
 
-Monthly: One-on-one meetings between managers and direct reports, scheduled during each employee's preferred hours
+Monthly - One-on-one meetings between managers and direct reports, scheduled during each employee's preferred hours
 
 Use world clock tools that display multiple time zones simultaneously. Tools like World Time Buddy or simply configuring your system clock to show multiple zones help prevent the cognitive load of constant timezone conversion.
 
@@ -470,21 +470,21 @@ When your team spans five time zones, institutional knowledge becomes critical. 
 ```markdown
 Example Decision Log Entry
 
-Date: 2026-03-10
-Topic: Choosing PostgreSQL over MongoDB for User Data
+Date - 2026-03-10
+Topic - Choosing PostgreSQL over MongoDB for User Data
 
-Decision: PostgreSQL
+Decision - PostgreSQL
 
 Rationale:
 - Stronger ACID compliance for financial transactions
 - Team has more PostgreSQL experience
 - Better tooling for complex queries
 
-Alternatives considered: MongoDB, MySQL
+Alternatives considered - MongoDB, MySQL
 
-Status: Approved, implementation starting Sprint 12
+Status - Approved, implementation starting Sprint 12
 
-Owner: @senior-backend-developer
+Owner - @senior-backend-developer
 ```
 
 Time Blocking for Managers
@@ -556,7 +556,7 @@ Table of Contents
 - [Real-World Time Zone Stack Examples](#real-world-time-zone-stack-examples)
 - [Manager Daily Time Block Template (Global Team)](#manager-daily-time-block-template-global-team)
 - [Asynchronous Decision Log Template](#asynchronous-decision-log-template)
-- [Decision: [Title]](#decision-title)
+- [Decision - [Title]](#decision-title)
 - [Background](#background)
 - [Alternatives Considered](#alternatives-considered)
 - [Implications](#implications)
@@ -660,61 +660,61 @@ Protect specific hours for specific time zones to prevent burnout:
 ```
 Manager Daily Schedule (Multi-Timezone Team)
 
-TIME: 6:00 AM - 7:00 AM (Your timezone)
-ZONE: APAC focus
+TIME - 6:00 AM - 7:00 AM (Your timezone)
+ZONE - APAC focus
 - Read overnight updates from Asia team
 - Respond to blockers asynchronously
 - Prepare questions for sync
 
-TIME: 7:00 AM - 8:30 AM
-ZONE: Personal + planning
+TIME - 7:00 AM - 8:30 AM
+ZONE - Personal + planning
 - Breakfast, morning routine
 - Review calendar and priorities
 - Plan day's async communications
 
-TIME: 8:30 AM - 10:30 AM
-ZONE: AMER deep work
+TIME - 8:30 AM - 10:30 AM
+ZONE - AMER deep work
 - Strategic work without interruptions
 - Project planning, hiring tasks
 - No meetings this block
 
-TIME: 10:30 AM - 12:00 PM
-ZONE: AMER collaboration
+TIME - 10:30 AM - 12:00 PM
+ZONE - AMER collaboration
 - Synchronous meetings with US teams
 - 1:1s with AMER direct reports
 - Cross-team collaboration calls
 
-TIME: 12:00 PM - 1:00 PM
-ZONE: Lunch break
+TIME - 12:00 PM - 1:00 PM
+ZONE - Lunch break
 - Away from desk, no work
 - Non-negotiable boundary
 
-TIME: 1:00 PM - 2:30 PM
-ZONE: EMEA + AMER overlap
+TIME - 1:00 PM - 2:30 PM
+ZONE - EMEA + AMER overlap
 - Meetings with European teams
 - Code review feedback
 - Decision-making on proposals
 
-TIME: 2:30 PM - 4:00 PM
-ZONE: Deep work + documentation
+TIME - 2:30 PM - 4:00 PM
+ZONE - Deep work + documentation
 - Writing decisions logs
 - Updating project status
 - Async communication catch-up
 
-TIME: 4:00 PM - 5:30 PM
-ZONE: EMEA evening (their 12-1 AM)
+TIME - 4:00 PM - 5:30 PM
+ZONE - EMEA evening (their 12-1 AM)
 - Final 1:1s with Europe team
 - Closing conversations that started earlier
 - Tomorrow's priorities briefing
 
-TIME: 5:30 PM - 6:00 PM
-ZONE: Transition
+TIME - 5:30 PM - 6:00 PM
+ZONE - Transition
 - Wrap-up, next day prep
 - Evening message: "Off for the day"
 - Explicit "not available" status
 ```
 
-The key: cluster same-timezone activities together to minimize context switching, protect deep work time, and maintain explicit boundaries.
+The key - cluster same-timezone activities together to minimize context switching, protect deep work time, and maintain explicit boundaries.
 
 Asynchronous Decision Log Template
 
@@ -723,7 +723,7 @@ When you lead globally, every decision needs to be documented so people in other
 ```markdown
 Decision Log - [Team Name]
 
-Decision: [Title]
+Decision - [Title]
 - Date: 2026-03-20
 - Decision: [What was decided]
 - Owner: [Who made it]

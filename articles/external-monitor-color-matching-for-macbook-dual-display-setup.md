@@ -36,15 +36,15 @@ Common built-in profiles include:
 
 For color matching, you'll typically want both displays using the same profile or profiles calibrated to the same standard.
 
-Quick Fix: Matching Color Profiles
+Quick Fix - Matching Color Profiles
 
 The fastest way to reduce color mismatch is forcing both displays to use identical color profiles.
 
-Step 1: Select a Target Profile
+Step 1 - Select a Target Profile
 
 Choose a color profile that works for both displays. sRGB provides the most consistent experience across devices since it's the web standard, though it may limit color depth on wide-gamut displays.
 
-Step 2: Apply to Both Displays
+Step 2 - Apply to Both Displays
 
 ```bash
 List available color profiles
@@ -78,8 +78,8 @@ Calibration Process
 1. Connect both displays and position your MacBook lid open (or closed if using only external monitors)
 
 2. Install calibration software
- - For X-Rite: Download i1Profiler from xrite.com
- - For Datacolor: Download SpyderX Elite from datacolor.com
+ - For X-Rite - Download i1Profiler from xrite.com
+ - For Datacolor - Download SpyderX Elite from datacolor.com
 
 3. Run the calibration wizard
  - Select "Dual Display" or "Multiple Monitors" mode
@@ -179,7 +179,7 @@ Create `~/Library/LaunchAgents/com.display-profile.schedule.plist`:
 </plist>
 ```
 
-Load with: `launchctl load ~/Library/LaunchAgents/com.display-profile.schedule.plist`
+Load with - `launchctl load ~/Library/LaunchAgents/com.display-profile.schedule.plist`
 
 Matching Different Monitor Types
 
@@ -217,13 +217,13 @@ Online Test Resources
 
 Common Issues and Solutions
 
-Problem: Colors look washed out on external monitor
-- Solution: Check the color profile is set to a non-limited range option. Enable "Use Full Range" in display settings.
+Problem - Colors look washed out on external monitor
+- Solution - Check the color profile is set to a non-limited range option. Enable "Use Full Range" in display settings.
 
-Problem: One display is noticeably warmer
-- Solution: Manually adjust white point on the warmer display using the Calibrator Assistant.
+Problem - One display is noticeably warmer
+- Solution - Manually adjust white point on the warmer display using the Calibrator Assistant.
 
-Problem: Profiles reset after sleep
+Problem - Profiles reset after sleep
 - Solution: Create a LaunchAgent that reapplies profiles after wake:
 
 ```bash
@@ -232,8 +232,8 @@ Reapply profiles on wake
 /usr/local/bin/displayplacer "id:EXTERNAL_ID color profile:Dell-U2723QE-Custom"
 ```
 
-Problem: HDR content breaks color matching
-- Solution: Disable HDR for desktop use. Go to System Settings → Displays → Advanced and disable HDR.
+Problem - HDR content breaks color matching
+- Solution - Disable HDR for desktop use. Go to System Settings → Displays → Advanced and disable HDR.
 
 Frequently Asked Questions
 

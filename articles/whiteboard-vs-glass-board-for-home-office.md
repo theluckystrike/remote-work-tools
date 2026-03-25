@@ -50,9 +50,9 @@ Glass boards offer a non-porous surface that resists staining significantly bett
 
 For developers who use their board daily for system design, API planning, or algorithm visualization, the maintenance difference matters. A glass board reduces the mental overhead of caring for your workspace tool.
 
-Practical maintenance reality: Most developers underestimate how frequently they'll clean whiteboards. Testing shows that after 6-12 months of daily use, developers stop cleaning because the ghosting feels inevitable. This degrades the board's effectiveness. Glass boards stay pristine with minimal care, maintaining their utility indefinitely. The psychological benefit of a clean workspace shouldn't be overlooked, a ghosted whiteboard signals neglect, while a clear glass board maintains professional appearance.
+Practical maintenance reality - Most developers underestimate how frequently they'll clean whiteboards. Testing shows that after 6-12 months of daily use, developers stop cleaning because the ghosting feels inevitable. This degrades the board's effectiveness. Glass boards stay pristine with minimal care, maintaining their utility indefinitely. The psychological benefit of a clean workspace shouldn't be overlooked, a ghosted whiteboard signals neglect, while a clear glass board maintains professional appearance.
 
-Marker choice matters: Whiteboard markers vary widely in quality. Cheap markers ($0.50) clog easily and produce streaky writing. Quality markers ($1.50-2.00 per marker) maintain smooth flow and erase more cleanly. Glass boards work with standard whiteboard markers without special requirements, but some premium glass-specific markers ($2.50-3.00) claim superior erase-ability. In practice, the glass surface is forgiving enough that expensive markers offer minimal advantage.
+Marker choice matters - Whiteboard markers vary widely in quality. Cheap markers ($0.50) clog easily and produce streaky writing. Quality markers ($1.50-2.00 per marker) maintain smooth flow and erase more cleanly. Glass boards work with standard whiteboard markers without special requirements, but some premium glass-specific markers ($2.50-3.00) claim superior erase-ability. In practice, the glass surface is forgiving enough that expensive markers offer minimal advantage.
 
 Writing Experience and Visibility
 
@@ -86,19 +86,19 @@ Detailed Product Comparisons
 
 Whiteboard Options
 
-Budget: IKEA FLADIS ($25-35). Basic melamine surface, plastic frame, functional but shows wear quickly. Adequate for occasional use, poor for daily heavy use.
+Budget - IKEA FLADIS ($25-35). Basic melamine surface, plastic frame, functional but shows wear quickly. Adequate for occasional use, poor for daily heavy use.
 
-Mid-Range: Quartet Premium ($80-120). Porcelain-on-steel surface resists ghosting better than melamine, aluminum frame, includes magnetic capability, 5-year warranty. Excellent value for developers who use boards daily.
+Mid-Range - Quartet Premium ($80-120). Porcelain-on-steel surface resists ghosting better than melamine, aluminum frame, includes magnetic capability, 5-year warranty. Excellent value for developers who use boards daily.
 
-Premium: Ghent Impression ($180-250). High-end porcelain, superior finish, optional magnetic backing, 10-year warranty. Suitable for professional home offices with significant daily use.
+Premium - Ghent Impression ($180-250). High-end porcelain, superior finish, optional magnetic backing, 10-year warranty. Suitable for professional home offices with significant daily use.
 
 Glass Board Options
 
-Mid-Range: Verre ($220-280). Tempered glass, minimalist frame, adequate thickness, basic mounting hardware. Good for home offices where aesthetics matter.
+Mid-Range - Verre ($220-280). Tempered glass, minimalist frame, adequate thickness, basic mounting hardware. Good for home offices where aesthetics matter.
 
-Premium: Clarus Magnetic Glass Whiteboard ($300-450). Tempered glass with magnetic backing, premium mounting system, includes glass cleaner and markers, lifetime warranty. Best option if magnetic functionality is required.
+Premium - Clarus Magnetic Glass Whiteboard ($300-450). Tempered glass with magnetic backing, premium mounting system, includes glass cleaner and markers, lifetime warranty. Best option if magnetic functionality is required.
 
-Designer: Luxor ($350-500). High-end materials, professional mounting, multiple finish options, excellent for video call backgrounds.
+Designer - Luxor ($350-500). High-end materials, professional mounting, multiple finish options, excellent for video call backgrounds.
 
 Cost Comparison
 
@@ -119,9 +119,9 @@ Integrating with Video Calls
 
 Both whiteboards and glass boards can serve as professional backgrounds during video calls:
 
-Whiteboard advantage: Dynamic content during calls. You can sketch concepts in real-time while explaining them. Team members see your thinking process develop.
+Whiteboard advantage - Dynamic content during calls. You can sketch concepts in real-time while explaining them. Team members see your thinking process develop.
 
-Glass board advantage: Pristine, professional appearance. No ghosting or staining that signals neglect. Clean background projects executive presence on camera. For pair programming, client presentations, or architecture discussions, the glass board's clean appearance provides measurable value.
+Glass board advantage - Pristine, professional appearance. No ghosting or staining that signals neglect. Clean background projects executive presence on camera. For pair programming, client presentations, or architecture discussions, the glass board's clean appearance provides measurable value.
 
 If your board will be visible on video calls regularly, the glass board's professional appearance becomes an asset. A ghosted whiteboard might undermine credibility in client-facing contexts.
 
@@ -129,9 +129,9 @@ Installation and Wall Considerations
 
 Wall preparation matters significantly:
 
-For whiteboards: Standard wall mounting using picture hanging hardware is adequate for most whiteboards, which weigh 15-30 lbs. Most home office walls can handle this easily.
+For whiteboards - Standard wall mounting using picture hanging hardware is adequate for most whiteboards, which weigh 15-30 lbs. Most home office walls can handle this easily.
 
-For glass boards: Tempered glass is heavier (30-50 lbs), requiring studs for secure mounting. Drywall anchors alone may fail under the combined weight of glass and mounting hardware. Professional installation is recommended, adding $100-150 to the project cost.
+For glass boards - Tempered glass is heavier (30-50 lbs), requiring studs for secure mounting. Drywall anchors alone may fail under the combined weight of glass and mounting hardware. Professional installation is recommended, adding $100-150 to the project cost.
 
 Space requirements:
 - 24x36 (small): Suitable for corner placement, fits above narrow shelving

@@ -258,7 +258,7 @@ def estimate_quarterly_tax(income, se_rate=0.153, income_rate=0.22):
 
 income = get_quarterly_income(1, 2026)
 est = estimate_quarterly_tax(income)
-print(f"Q1 Income: ${income:,.2f}")
+print(f"Q1 Income - ${income:,.2f}")
 print(f"Estimated payment: ${est['total_quarterly_payment']:,.2f}")
 ```
 

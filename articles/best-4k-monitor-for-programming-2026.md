@@ -25,7 +25,7 @@ Table of Contents
 - [Setting Up Your Development Display](#setting-up-your-development-display)
 - [The Programming Setup Hierarchy](#the-programming-setup-hierarchy)
 - [Future-Proofing Considerations](#future-proofing-considerations)
-- [Monitor Comparison: Side-by-Side](#monitor-comparison-side-by-side)
+- [Monitor Comparison - Side-by-Side](#monitor-comparison-side-by-side)
 - [Testing Monitors Before Buying](#testing-monitors-before-buying)
 - [Multiple 4K Monitor Setup](#multiple-4k-monitor-setup)
 - [Cable and Connector Considerations](#cable-and-connector-considerations)
@@ -73,7 +73,7 @@ Ergonomics
 
 Monitor Recommendations by Use Case
 
-Best Overall: Dell UltraSharp U2723QE
+Best Overall - Dell UltraSharp U2723QE
 
 The Dell U2723QE remains a top choice for developers in 2026. Its IPS Black panel delivers improved contrast over traditional IPS while maintaining excellent color accuracy.
 
@@ -89,9 +89,9 @@ Key Specifications:
 
 The USB-C connectivity simplifies desk setup, a single cable handles video, data, and 90W laptop charging. For developers with laptops, this eliminates dock clutter.
 
-Practical advantage: The 27-inch size at 4K provides 163 PPI, sharp enough for extended coding without requiring scaling that breaks some applications.
+Practical advantage - The 27-inch size at 4K provides 163 PPI, sharp enough for extended coding without requiring scaling that breaks some applications.
 
-Best for Dark Mode Coders: ASUS ProArt PA32UCXR
+Best for Dark Mode Coders - ASUS ProArt PA32UCXR
 
 If your workflow centers on dark-mode editors, the ASUS ProArt PA32UCXR delivers exceptional performance. Its Mini-LED backlight with 2,000+ local dimming zones produces deep blacks without the burn-in risk of OLED.
 
@@ -107,7 +107,7 @@ Key Specifications:
 
 The high brightness handles well-lit offices, while local dimming preserves contrast in dark environments. For developers working late nights, this flexibility reduces eye strain.
 
-Best Ultrawide Alternative: LG 34WN80C-B
+Best Ultrawide Alternative - LG 34WN80C-B
 
 Some developers prefer ultrawide displays for horizontal space. The LG 34WN80C-B offers a 34-inch curved display at 3440 × 1440, not quite 4K, but excellent for those wanting maximum width.
 
@@ -122,7 +122,7 @@ Key Specifications:
 
 This suits developers who prioritize wide terminal layouts or want to replace dual-monitor setups with a single curved display.
 
-Budget Option: Philips 27E1N5900E
+Budget Option - Philips 27E1N5900E
 
 Not everyone needs premium features. The Philips 27E1N5900E delivers solid 4K performance at a reasonable price:
 
@@ -163,11 +163,11 @@ OS-Level Scaling
 
 Most operating systems handle 4K displays well now:
 
-Windows: Set scaling to 150% for 27-inch displays. Test applications, older Win32 programs may need individual DPI settings.
+Windows - Set scaling to 150% for 27-inch displays. Test applications, older Win32 programs may need individual DPI settings.
 
 macOS: Retina displays handle scaling automatically. The "Default for display" option usually works well.
 
-Linux: GNOME handles HiDPI well. For KDE, adjust DPI in System Settings → Display and Monitor → Display Configuration.
+Linux - GNOME handles HiDPI well. For KDE, adjust DPI in System Settings → Display and Monitor → Display Configuration.
 
 Multi-Monitor Considerations
 
@@ -198,7 +198,7 @@ Monitor technology evolves slowly. A quality 4K display lasts 5-7 years. Conside
 
 Avoid early adoption of emerging technologies (micro-LED consumer displays) unless budget allows. Current IPS and Mini-LED panels satisfy developer needs excellently.
 
-Monitor Comparison: Side-by-Side
+Monitor Comparison - Side-by-Side
 
 For developers making a purchase decision:
 
@@ -222,25 +222,25 @@ Testing Monitors Before Buying
 
 Most retailers allow 30-day returns. Use this period to verify:
 
-Day 1-2: Setup & Basics
+Day 1-2 - Setup & Basics
 - Install monitor, position at eye level
 - Verify USB-C charging if that's critical
 - Check that scaling works well with your OS
 - Open your IDE and verify text clarity
 
-Day 3-4: Work Simulation
+Day 3-4 - Work Simulation
 - Spend 2-4 hours working normally
 - Notice any eye strain or neck tension
 - Test window management across screen
 - Run resource-intensive apps (Docker, VMs, IDEs)
 
-Day 5-7: Color & Detail
+Day 5-7 - Color & Detail
 - Open some color-rich images
 - Verify they look good without weird color casts
 - Check reflection and glare from different angles
 - Inspect power cable and USB ports for build quality
 
-Day 8+: Decision
+Day 8+ - Decision
 Return if:
 - Text is blurry even after OS scaling adjustment
 - Noticeable dead pixels
@@ -258,9 +258,9 @@ Multiple 4K Monitor Setup
 Some developers prefer dual 4K displays. Considerations:
 
 ```
-Configuration: 2× 27" 4K side-by-side
+Configuration - 2× 27" 4K side-by-side
 
-Actual usable space: 76.8" wide × 21.6" tall pixels
+Actual usable space - 76.8" wide × 21.6" tall pixels
 That's 1,658,880 pixels total per screen real estate
 
 Equivalent to:

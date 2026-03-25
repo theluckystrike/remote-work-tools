@@ -40,7 +40,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Preparing Your Miro Board Before the Workshop
+Step 1 - Preparing Your Miro Board Before the Workshop
 
 Success starts before anyone joins the call. A well-prepared board gives clients confidence in your professionalism and gives you a clear roadmap for the session.
 
@@ -76,7 +76,7 @@ For workshops with new clients, include a simple icebreaker in the main workspac
 2. Add a "One Word Check-In" sticky note cluster where everyone places a single word describing their mood
 3. These take two minutes but establish the board as a shared space
 
-Step 2: Help Techniques for Remote Workshops
+Step 2 - Help Techniques for Remote Workshops
 
 Running a workshop remotely requires deliberate communication patterns that you can ignore in person.
 
@@ -118,34 +118,34 @@ When more than three clients attend, designate one as the "primary decision make
 2. Select "Follow" to sync your viewport to theirs
 3. This keeps everyone on the same page without verbal navigation cues
 
-Step 3: Practical Template: Discovery Workshop
+Step 3 - Practical Template: Discovery Workshop
 
 Here is a proven board structure for initial client discovery sessions:
 
-Frame 1: Problem Space
+Frame 1 - Problem Space
 
 - Left column: "Current Challenges". sticky notes where clients describe problems
 - Right column: "Success Metrics". how they will measure project success
 - Center: Empty space for grouping related challenges
 
-Frame 2: Solution Space
+Frame 2 - Solution Space
 
 - Top row: "Must Have" features (red dots for priority)
 - Middle row: "Nice to Have" features (yellow dots)
 - Bottom row: "Out of Scope" items (grey notes)
 
-Frame 3: Timeline View
+Frame 3 - Timeline View
 
 - Horizontal timeline with milestone markers
 - Drag-and-drop task cards for scheduling
 - Color-coded by project phase
 
-Frame 4: Budget and Resources
+Frame 4 - Budget and Resources
 
 - Simple table frame with columns for: Item, Estimated Cost, Actual Cost, Variance
 - Keeps financial discussions visible without leaving the board
 
-Step 4: Handling Difficult Workshop Scenarios
+Step 4 - Handling Difficult Workshop Scenarios
 
 When a Client Goes Off-Topic
 
@@ -168,7 +168,7 @@ Always have a fallback:
 - Designate a note-taker who can make edits if you lose connection
 - Keep a PDF backup of the board state in your shared drive
 
-Step 5: Post-Workshop Follow-Up Workflow
+Step 5 - Post-Workshop Follow-Up Workflow
 
 The workshop value compounds when you follow up effectively:
 
@@ -178,7 +178,7 @@ The workshop value compounds when you follow up effectively:
 
 Miro's built-in export features handle the PDF generation. Navigate to the board settings and select "Export" to generate a high-resolution PDF or image sequence.
 
-Step 6: Integrate Miro with Your Existing Tools
+Step 6 - Integrate Miro with Your Existing Tools
 
 Connect your workshop outputs to your project management system:
 
@@ -263,36 +263,36 @@ Warning signals:
 
 If you see warning signals, pause and ask: "Let's take a breath. What questions do you have about what we've done so far?" This resets attention.
 
-Step 7: Pre-Workshop Client Preparation
+Step 7 - Pre-Workshop Client Preparation
 
 Send this to clients 48 hours before the workshop:
 
 ```markdown
 Workshop Prep Guide
 
-Step 8: Logistics
+Step 8 - Logistics
 - Time: [Date/Time with timezone]
 - Link: [Miro board link] (Join 5 min early to test video)
 - Duration: 60 minutes
 - Camera: Please have it on (helps group connection)
 
-Step 9: Preparation (10 minutes, optional but helpful)
+Step 9 - Preparation (10 minutes, optional but helpful)
 - Have your team brainstorm 3-5 biggest challenges before we start
 - Look at the attached "Workshop Agenda" document
 - Prepare 1-2 questions about our goals together
 
-Step 10: During the Workshop
+Step 10 - During the Workshop
 - We'll move between silent work and group discussion
 - There's no bad ideas, we're here to explore possibilities
 - Expect to see a rough board that evolves; we'll refine it after
 
-Step 11: After the Workshop
+Step 11 - After the Workshop
 - You'll get a PDF of the board same-day
 - We'll send a summary document within 24 hours
 - Follow-up call: [Date] to confirm next steps
 ```
 
-Step 12: Workshop Facilitation Checklist
+Step 12 - Workshop Facilitation Checklist
 
 Use this checklist 30 minutes before each workshop:
 
@@ -306,7 +306,7 @@ Use this checklist 30 minutes before each workshop:
 - [ ] Mute your notifications (prevent interruptions)
 - [ ] Have client names displayed on Miro board in intro section
 
-Step 13: Post-Workshop Delivery Timeline
+Step 13 - Post-Workshop Delivery Timeline
 
 Same day (by 5 PM):
 - Export board as PDF or image sequence
@@ -336,13 +336,13 @@ Next day:
 
 One week later:
 - Quick 15-minute follow-up call
-- Check: "What's been easy to implement? What's been challenging?"
+- Check - "What's been easy to implement? What's been challenging?"
 - Unblock any stuck items
 
-Step 14: Handling Difficult Personalities in Workshops
+Step 14 - Handling Difficult Personalities in Workshops
 
 The Dominator (talks 70% of the time):
-- Technique: "Thanks for that perspective. Let's hear from folks who haven't spoken yet."
+- Technique - "Thanks for that perspective. Let's hear from folks who haven't spoken yet."
 - Redirect: Use silent sticky note time to force his/her silence
 - Validate: Make sure their contribution is documented even if you limit their airtime
 
@@ -352,8 +352,8 @@ The Silent One (hasn't spoken in 30 min):
 - Alternative: "Let's do a sticky note round, everyone adds one idea silently"
 
 The Skeptic (dismisses ideas):
-- Curiosity: "Tell me more about your concern, what specifically worries you?"
-- Reframe: "That's valid caution. How might we design around that risk?"
+- Curiosity - "Tell me more about your concern, what specifically worries you?"
+- Reframe - "That's valid caution. How might we design around that risk?"
 - Don't argue; document: "We'll note that and keep it in mind"
 
 The Distracted One (checking email, camera off):
@@ -361,7 +361,7 @@ The Distracted One (checking email, camera off):
 - Task assignment: "I need someone to track our decisions on the board. Can you do that?"
 - Gives them a role that forces engagement
 
-Step 15: Tool Alternatives for Different Workshop Types
+Step 15 - Tool Alternatives for Different Workshop Types
 
 | Workshop Type | Ideal Tool | Why |
 |---|---|---|

@@ -91,11 +91,11 @@ For Twilio SIP Trunking:
 
 ```bash
 Configure via Twilio Console, then add trunk in FreePBX:
-Trunk Type: SIP
-Outbound CallerID: +15551234567
-SIP Server: your-subdomain.pstn.twilio.com
-Username: your_twilio_account_sid
-Secret: your_twilio_auth_token
+Trunk Type - SIP
+Outbound CallerID - +15551234567
+SIP Server - your-subdomain.pstn.twilio.com
+Username - your_twilio_account_sid
+Secret - your_twilio_auth_token
 ```
 
 Extension Configuration
@@ -151,11 +151,11 @@ Settings to configure in Linphone:
 ```
 Preferences > SIP Accounts > Add Account
 
-SIP Address: "sip:101@your-pbx.example.com"
+SIP Address - "sip:101@your-pbx.example.com"
 SIP Password:      str0ng-ext-password
-SIP Server: "your-pbx.example.com:5060"
+SIP Server - "your-pbx.example.com:5060"
 Transport:         TLS (recommended)
-STUN server: "stun.l.google.com:19302"
+STUN server - "stun.l.google.com:19302"
 Enable ICE:        Yes
 SRTP:              Mandatory
 ```
@@ -163,14 +163,14 @@ SRTP:              Mandatory
 Zoiper Mobile Configuration
 
 ```
-Account Type: SIP
-Username: 102
-Password: str0ng-ext-password-2
-Domain: your-pbx.example.com
-Port: 5061
-Transport: TLS
-SRTP: Required
-STUN: stun.l.google.com
+Account Type - SIP
+Username - 102
+Password - str0ng-ext-password-2
+Domain - your-pbx.example.com
+Port - 5061
+Transport - TLS
+SRTP - Required
+STUN - stun.l.google.com
 ```
 
 Router QoS Configuration
@@ -244,18 +244,18 @@ asterisk -rx "rtp set debug off"
 
 Network latency check for VoIP (must be <150ms for good quality)
 ping -i 0.2 -c 50 your-pbx.example.com | tail -1
-Target: avg < 80ms, max < 150ms
+Target - avg < 80ms, max < 150ms
 ```
 
 Hunt Groups and IVR
 
 ```bash
-In FreePBX: Applications > Ring Groups
-Ring Group Number: 600
-Ring Strategy: ringall
-Ring Time: 20 seconds
-Extensions: 101-102-103
-Destination if no answer: Voicemail
+In FreePBX - Applications > Ring Groups
+Ring Group Number - 600
+Ring Strategy - ringall
+Ring Time - 20 seconds
+Extensions - 101-102-103
+Destination if no answer - Voicemail
 
 IVR via Applications > IVR
 Press 1 -> Extension 101 (Sales)
@@ -278,7 +278,7 @@ Add to crontab -e
 
 SIP trunk registration status
 asterisk -rx "sip show registry"
-Output: Host: atlanta1.voip.ms    State: Registered
+Output - Host: atlanta1.voip.ms    State: Registered
 ```
 
 Related Reading

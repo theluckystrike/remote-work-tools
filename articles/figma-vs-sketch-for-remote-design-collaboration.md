@@ -30,7 +30,7 @@ Table of Contents
 - [Practical Recommendations](#practical-recommendations)
 - [Feature Depth Comparison for Developer Handoff](#feature-depth-comparison-for-developer-handoff)
 - [Recommendation Framework](#recommendation-framework)
-- [Plugin and Extension Ecosystem Comparison](#plugin-and-extension-ecosystem-comparison)
+- [Plugin and Extension environment Comparison](#plugin-and-extension-environment-comparison)
 - [Real-World Implementation Examples](#real-world-implementation-examples)
 - [Migration Checklist for Teams Considering Figma](#migration-checklist-for-teams-considering-figma)
 
@@ -86,7 +86,7 @@ Developers building internal design systems need programmatic access to design d
 Sketch offers a Python API through third-party tools, but it's not as accessible as Figma's web-based approach. For teams using CI/CD pipelines to generate style guides, Figma's API integration requires less ceremony:
 
 ```yaml
-GitHub Actions: Sync Figma tokens to your codebase
+GitHub Actions - Sync Figma tokens to your codebase
 name: Sync Design Tokens
 on:
   push:
@@ -100,7 +100,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Fetch Figma Tokens
         run: |
-          curl -H "X-Figma-Token: ${{ secrets.FIGMA_TOKEN }}" \
+          curl -H "X-Figma-Token - ${{ secrets.FIGMA_TOKEN }}" \
             "https://api.figma.com/v1/files/${{ secrets.FILE_KEY }}" \
             > figma-data.json
       - name: Generate CSS Variables
@@ -196,7 +196,7 @@ Choose Sketch if:
 
 The best approach is evaluating your specific constraints: team geography, existing tool investments, and integration requirements with your development pipeline. Both tools produce excellent design outputs, the difference lies in how your team collaborates to get there.
 
-Plugin and Extension Ecosystem Comparison
+Plugin and Extension environment Comparison
 
 Figma Plugins (3,000+ available):
 - Design system management (Supernova, Zeplin)
@@ -205,7 +205,7 @@ Figma Plugins (3,000+ available):
 - Accessibility checkers
 - AI-powered design assistance (recent additions)
 
-Most Figma plugins are free or under $50/month. The ecosystem is mature and well-documented, making custom plugin development straightforward for developers familiar with JavaScript.
+Most Figma plugins are free or under $50/month. The environment is mature and well-documented, making custom plugin development straightforward for developers familiar with JavaScript.
 
 Sketch Plugins (800+ available):
 - Excellent design-to-code plugins (Anima, Avocode)
@@ -213,7 +213,7 @@ Sketch Plugins (800+ available):
 - Workflow automation
 - Animation tools
 
-Sketch's plugin ecosystem is more curated but smaller. Some popular plugins are Mac-only and require native development knowledge. Plugin costs typically range $0-100/year, comparable to Figma.
+Sketch's plugin environment is more curated but smaller. Some popular plugins are Mac-only and require native development knowledge. Plugin costs typically range $0-100/year, comparable to Figma.
 
 For remote design teams using Sketch, the limited cross-platform plugin support becomes a real limitation when developers on Windows or Linux need design tool access.
 
@@ -243,10 +243,10 @@ Migration Checklist for Teams Considering Figma
 If moving from Sketch to Figma:
 
 Week 1: Audit existing Sketch files, identify critical assets (icons, components, patterns)
-Week 2: Recreate 20% of most-used components in Figma (design tokens, color systems)
-Week 3: Run test sprint with mixed Figma/Sketch workflows
-Week 4: Full migration of remaining components
-Week 5-6: Retire Sketch files after validation period
+Week 2 - Recreate 20% of most-used components in Figma (design tokens, color systems)
+Week 3 - Run test sprint with mixed Figma/Sketch workflows
+Week 4 - Full migration of remaining components
+Week 5-6 - Retire Sketch files after validation period
 
 Most teams report 3-4 week transition time with zero productivity loss. The upfront investment pays off immediately through faster collaboration and fewer versioning headaches.
 

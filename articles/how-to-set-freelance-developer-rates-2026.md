@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Calculate Your Minimum Viable Rate
+Step 1 - Calculate Your Minimum Viable Rate
 
 Before looking at market data, determine your personal floor. Your rate must cover three components: business expenses, taxes, and personal income needs.
 
@@ -50,7 +50,7 @@ Example calculation:
 
 This baseline tells you nothing about market rates, but it prevents accepting work that actively loses money.
 
-Step 2: Factor in Your Experience and Specialization
+Step 2 - Factor in Your Experience and Specialization
 
 Experience directly impacts rates, but the relationship isn't linear. Junior developers (1-2 years) typically charge $50-80/hour. Mid-level developers (3-5 years) command $80-150/hour. Senior developers (7+ years) with specialized skills can exceed $200/hour.
 
@@ -63,19 +63,19 @@ Specialization amplifies your value. Generalist full-stack developers face more 
 
 A developer who combines two or more of these specializations can command significant premiums over generalist rates.
 
-Step 3: Research Market Rates Effectively
+Step 3 - Research Market Rates Effectively
 
 Raw market data helps calibrate your expectations. Several approaches provide useful signals:
 
-Platform benchmarks: Upwork, Toptal, and similar platforms publish rate data. Toptal's 2026 developer rates show hourly ranges from $50-$200+ depending on seniority and specialization. Upwork's data tends to show lower averages ($30-$100) due to broader market access.
+Platform benchmarks - Upwork, Toptal, and similar platforms publish rate data. Toptal's 2026 developer rates show hourly ranges from $50-$200+ depending on seniority and specialization. Upwork's data tends to show lower averages ($30-$100) due to broader market access.
 
-Job postings: Indeed, LinkedIn, and specialized job boards list contract rates. Filter for "contract" or "1099" positions to find rate information rather than salary data.
+Job postings - Indeed, LinkedIn, and specialized job boards list contract rates. Filter for "contract" or "1099" positions to find rate information rather than salary data.
 
-Peer networks: Speaking with other freelancers in similar niches reveals actual negotiated rates. Discord communities, Reddit's r/freelance and r/webdev, and local meetups provide informal but valuable intelligence.
+Peer networks - Speaking with other freelancers in similar niches reveals actual negotiated rates. Discord communities, Reddit's r/freelance and r/webdev, and local meetups provide informal but valuable intelligence.
 
-Direct client feedback: When you lose a deal to pricing, ask for feedback. Clients will often share what they paid the winning bidder.
+Direct client feedback - When you lose a deal to pricing, ask for feedback. Clients will often share what they paid the winning bidder.
 
-Step 4: Choose Your Pricing Model
+Step 4 - Choose Your Pricing Model
 
 Freelance developers typically use three pricing structures: hourly, fixed-project, and value-based. Each has trade-offs.
 
@@ -83,13 +83,13 @@ Hourly Pricing
 
 Simple and transparent. You track time and bill incrementally. The risk: clients may cap hours, limiting your earnings on complex work. The benefit: you're compensated for scope expansion.
 
-Best for: Ongoing retainers, undefined scope work, consulting engagements.
+Best for - Ongoing retainers, undefined scope work, consulting engagements.
 
 Fixed Project Pricing
 
 You quote a single price for the entire deliverable. The risk: scope creep erodes your effective hourly rate. The benefit: upside potential if you complete work faster than estimated.
 
-Best for: Well-defined projects with clear specifications, repeat engagements with known complexity.
+Best for - Well-defined projects with clear specifications, repeat engagements with known complexity.
 
 Value-Based Pricing
 
@@ -97,17 +97,17 @@ You price based on the business value you deliver, not your time. This requires 
 
 A feature that increases client revenue by $100,000/year might justify a $25,000 fixed fee, far exceeding your hourly equivalent.
 
-Best for: High-impact projects where you can measure business outcomes.
+Best for - High-impact projects where you can measure business outcomes.
 
-Step 5: Implement Rate Increases
+Step 5 - Implement Rate Increases
 
 Your rates should increase over time. Strategies include:
 
-Annual increases: Increase rates by 5-10% for existing clients at contract renewal. Frame it as covering increased costs and reflecting market adjustments.
+Annual increases - Increase rates by 5-10% for existing clients at contract renewal. Frame it as covering increased costs and reflecting market adjustments.
 
-Milestone increases: Raise rates when you complete significant projects or acquire new certifications.
+Milestone increases - Raise rates when you complete significant projects or acquire new certifications.
 
-Tiered pricing: Offer entry-level, standard, and premium service tiers. Clients self-select, and you capture more value from those wanting premium support.
+Tiered pricing - Offer entry-level, standard, and premium service tiers. Clients self-select, and you capture more value from those wanting premium support.
 
 Code snippet for tracking rate history:
 
@@ -136,7 +136,7 @@ projected_income = my_rate.calculate_annual_income(1200)
 print(f"Projected annual income: ${projected_income:,.2f}")
 ```
 
-Step 6: Handle Rate Negotiations
+Step 6 - Handle Rate Negotiations
 
 When clients push back on rates, have responses ready:
 
@@ -151,19 +151,19 @@ When clients push back on rates, have responses ready:
 
 The key is never to immediately lower your rate. Instead, explore what's driving the negotiation and find creative solutions.
 
-Step 7: Position for Premium Rates
+Step 7 - Position for Premium Rates
 
 Higher rates attract better clients. Positioning strategies include:
 
-Specialized portfolios: Show work in your specific niche, not generic projects. A security-focused developer should showcase security implementations, not landing pages.
+Specialized portfolios - Show work in your specific niche, not generic projects. A security-focused developer should showcase security implementations, not landing pages.
 
-Thought leadership: Write about your specialty. Publish articles, speak at conferences, contribute to open source. Authority justifies premium pricing.
+Thought leadership - Write about your specialty. Publish articles, speak at conferences, contribute to open source. Authority justifies premium pricing.
 
-Selective prospecting: Don't chase every lead. Qualify rigorously. Clients who value expertise will pay for it; those shopping solely on price never become good clients.
+Selective prospecting - Don't chase every lead. Qualify rigorously. Clients who value expertise will pay for it; those shopping solely on price never become good clients.
 
-Premium service levels: Respond within hours, not days. Provide clear documentation. Deliver ahead of schedule when possible. Act like a premium vendor.
+Premium service levels - Respond within hours, not days. Provide clear documentation. Deliver ahead of schedule when possible. Act like a premium vendor.
 
-Step 8: Understand Your Market Position
+Step 8 - Understand Your Market Position
 
 Before setting rates, understand where you fall in the competitive world. Your market position affects pricing power significantly.
 
@@ -173,24 +173,24 @@ Specialized services (security implementation, AI integration, compliance automa
 
 Hybrid models (you sell fixed projects, not hours) allow you to capture more value than hourly rates alone. If a project normally takes 40 hours at $100/hour ($4,000), you might quote $6,000 fixed. This rewards efficiency and caps the client's exposure to cost overruns.
 
-Step 9: Common Freelance Rate Mistakes
+Step 9 - Common Freelance Rate Mistakes
 
-Mistake 1: Matching competitor rates without understanding their positioning.
+Mistake 1 - Matching competitor rates without understanding their positioning.
 If another developer charges $50/hour, you don't know whether they are profitable, busy, or desperate for work. Matching their rate without understanding your own economics is dangerous.
 
-Mistake 2: Basing rates on salary equivalents.
+Mistake 2 - Basing rates on salary equivalents.
 "I made $120,000 as an employee, so I need $60/hour as a freelancer" is flawed math. You need to account for unpaid hours (prospecting, admin, downtime) and self-employment taxes. A developer making $120,000 salary needs $100-120/hour as a freelancer to maintain income.
 
-Mistake 3: Accepting the first offer without negotiation.
+Mistake 3 - Accepting the first offer without negotiation.
 Clients often come in low. If a client offers $40/hour and you normally charge $85/hour, negotiate. Split the difference at $60/hour or propose fixed pricing. Many clients will meet you in the middle if you have strong positioning.
 
-Mistake 4: Not raising rates for returning clients.
+Mistake 4 - Not raising rates for returning clients.
 After 2-3 projects together, raise your rate. Long-term clients understand your value. Propose rate increases as "reflecting our working relationship maturity" or "current market rates for your project complexity."
 
-Mistake 5: Conflating time spent with value delivered.
+Mistake 5 - Conflating time spent with value delivered.
 A project that takes 20 hours isn't necessarily worth less than one taking 40 hours. If both deliver $100,000 in client value, your efficiency shouldn't reduce your compensation. Value-based pricing captures this properly.
 
-Step 10: Seasonal Rate Adjustments
+Step 10 - Seasonal Rate Adjustments
 
 Freelance work has seasonal patterns. During slow seasons (November-December, July-August), reducing rates slightly fills your calendar. During peak seasons, you can raise rates since demand exceeds supply.
 
@@ -225,12 +225,12 @@ slow_rate = seasonal_rate(100, 40, "slow")  # $80.75/hour
 
 This approach keeps your calendar full during slow seasons while capturing peak-season demand.
 
-Step 11: Communicating Your Rate
+Step 11 - Communicating Your Rate
 
 How you present your rate affects acceptance rates significantly.
 
-Poor: "My rate is $85/hour."
-Better: "Based on your project scope, I estimate 120 hours of work, totaling $10,200."
+Poor - "My rate is $85/hour."
+Better - "Based on your project scope, I estimate 120 hours of work, totaling $10,200."
 
 The second framing anchors on total value rather than hourly cost. Clients often think "$85/hour sounds expensive" but accept "$10,200 to solve my problem" more readily.
 
@@ -242,28 +242,28 @@ For proposals, use this structure:
 
 This positions you as a problem-solver delivering results, not a contractor selling hours.
 
-Step 12: Rate Tiers for Different Client Types
+Step 12 - Rate Tiers for Different Client Types
 
 Consider offering rate tiers based on client type rather than a single fixed rate:
 
-Tier 1: Premium clients ($150-200+/hour)
+Tier 1 - Premium clients ($150-200+/hour)
 - Established companies with real budgets
 - Long-term retainer relationships
 - High-impact projects with significant business value
 
-Tier 2: Standard clients ($85-125/hour)
+Tier 2 - Standard clients ($85-125/hour)
 - Mid-market companies
 - Clear scope projects
 - 4-12 week engagements
 
-Tier 3: Focused niches ($60-85/hour)
+Tier 3 - Focused niches ($60-85/hour)
 - Non-profits, startups, or niche communities
 - Smaller projects or limited scope
 - Used when you're developing expertise in a new area
 
-Document the differences: premium clients get faster response times, standard clients get reliable turnaround, focused niches get flexible scheduling. This justifies rate differences while being transparent.
+Document the differences - premium clients get faster response times, standard clients get reliable turnaround, focused niches get flexible scheduling. This justifies rate differences while being transparent.
 
-Step 13: Build Your Rate Narrative
+Step 13 - Build Your Rate Narrative
 
 When clients ask "Why $X/hour?", have a 2-minute explanation ready:
 

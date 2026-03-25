@@ -26,7 +26,7 @@ A 20-person team typically means 3-5 Scrum teams working toward a shared product
 
 Effective sprint planning at this scale requires three things: clear product backlog prioritization before the ceremony, structured async preparation so meeting time focuses on decisions rather than information gathering, and cross-team dependency tracking that happens automatically rather than through manual status updates.
 
-Linear: Structured Sprints with API Automation
+Linear - Structured Sprints with API Automation
 
 Linear provides a well-designed interface for sprint planning with strong API capabilities that allow teams to automate repetitive tasks. The service treats issues as first-class objects with relationships, labels, and cycle tracking built in.
 
@@ -62,7 +62,7 @@ Blocker concerns
 
 Teams paste this into Linear issues or project documents 24 hours before the planning meeting. Everyone arrives prepared.
 
-Jira: Enterprise Scale with Complex Workflows
+Jira - Enterprise Scale with Complex Workflows
 
 Jira remains the standard for larger organizations with complex workflow requirements. The platform handles 20-person teams through its portfolio management features, which aggregate work across multiple projects and teams.
 
@@ -105,7 +105,7 @@ For distributed teams, enable Jira's sprint capacity planning:
 }
 ```
 
-GitHub Projects: Lightweight Sprint Management
+GitHub Projects - Lightweight Sprint Management
 
 For teams already living in GitHub, Projects provides sprint-like functionality without additional tooling. Use labels for sprint assignment and milestones for time-boxing.
 
@@ -134,7 +134,7 @@ The GitHub Projects beta (or the new ProjectsV2) offers views that function like
 
 This approach works well for teams that want minimal tooling overhead. The limitation: capacity planning and velocity tracking require manual calculation or additional scripts.
 
-Shortcut: Engineering-Focused Planning
+Shortcut - Engineering-Focused Planning
 
 Shortcut (formerly Clubhouse) targets engineering teams specifically. The interface prioritizes story points, sprints, and epic tracking without enterprise bloat.
 

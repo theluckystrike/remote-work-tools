@@ -20,15 +20,15 @@ Sprint planning in remote teams fails when it tries to replicate in-person plann
 Table of Contents
 
 - [The Async-First Sprint Planning Workflow](#the-async-first-sprint-planning-workflow)
-- [Tool 1: Linear](#tool-1-linear)
+- [Tool 1 - Linear](#tool-1-linear)
 - [Sprint Start Checklist](#sprint-start-checklist)
-- [Tool 2: Jira](#tool-2-jira)
-- [Tool 3: Notion for Sprint Documentation](#tool-3-notion-for-sprint-documentation)
+- [Tool 2 - Jira](#tool-2-jira)
+- [Tool 3 - Notion for Sprint Documentation](#tool-3-notion-for-sprint-documentation)
 - [Team Capacity](#team-capacity)
 - [Sprint Scope (committed)](#sprint-scope-committed)
 - [Sprint Decision Log](#sprint-decision-log)
 - [Post-Sprint Review (filled in after sprint)](#post-sprint-review-filled-in-after-sprint)
-- [Tool Comparison: Linear vs Jira vs Height](#tool-comparison-linear-vs-jira-vs-height)
+- [Tool Comparison - Linear vs Jira vs Height](#tool-comparison-linear-vs-jira-vs-height)
 - [Estimation Anti-Patterns](#estimation-anti-patterns)
 - [PlanningPoker.com for Async Estimation](#planningpokercom-for-async-estimation)
 - [Async Estimation Challenges and Solutions](#async-estimation-challenges-and-solutions)
@@ -43,15 +43,15 @@ The Async-First Sprint Planning Workflow
 The pattern that works for most remote teams:
 
 ```
-Day -3 (Monday): Product manager publishes sprint candidates in the backlog tool
-Day -2 (Tuesday): Engineers async-review stories, ask clarifying questions, flag risks
-Day -1 (Wednesday): Engineers async-estimate (poker or t-shirt sizing)
-Day 0 (Thursday): 30-minute sync call to confirm sprint scope and resolve disagreements
+Day -3 (Monday) - Product manager publishes sprint candidates in the backlog tool
+Day -2 (Tuesday) - Engineers async-review stories, ask clarifying questions, flag risks
+Day -1 (Wednesday) - Engineers async-estimate (poker or t-shirt sizing)
+Day 0 (Thursday) - 30-minute sync call to confirm sprint scope and resolve disagreements
 ```
 
 The sync call should not be estimating stories from scratch. It should be "here's the sprint, does anyone have objections or concerns?"
 
-Tool 1: Linear
+Tool 1 - Linear
 
 Linear is the best choice for engineering-focused remote teams that want speed and simplicity.
 
@@ -74,7 +74,7 @@ Linear async estimation via keyboard shortcuts:
 3. Use labels for confidence: "needs-discussion", "ready-to-ship"
 4. Flag blockers with a comment: @pm-name what's the expected API response for null state?
 
-Estimation scale: Fibonacci (1, 2, 3, 5, 8, 13)
+Estimation scale - Fibonacci (1, 2, 3, 5, 8, 13)
 - 1: < 2 hours
 - 2: half day
 - 3: 1 day
@@ -112,7 +112,7 @@ Linear's built-in cycle reports show:
 - Individual contributor velocity (useful for capacity planning, not performance review)
 
 ```bash
-Linear API: fetch velocity data for last 5 cycles
+Linear API - fetch velocity data for last 5 cycles
 curl -X POST https://api.linear.app/graphql \
   -H "Authorization: $LINEAR_API_KEY" \
   -H "Content-Type: application/json" \
@@ -137,7 +137,7 @@ curl -X POST https://api.linear.app/graphql \
   }'
 ```
 
-Tool 2: Jira
+Tool 2 - Jira
 
 Jira is the default for larger organizations and teams that need compliance, reporting, or Jira-integrated workflows.
 
@@ -181,7 +181,7 @@ Jira sprint reports to track:
 
 Check the sprint report in your retrospective, not the burndown in daily standups. daily burndown obsession leads to gaming the system.
 
-Tool 3: Notion for Sprint Documentation
+Tool 3 - Notion for Sprint Documentation
 
 Notion isn't a sprint management tool, but it's the right place for sprint documentation: goals, decisions, retrospective notes, and the sprint narrative.
 
@@ -190,7 +190,7 @@ Sprint page template:
 ```markdown
 Sprint 42. 2026-03-22 to 2026-04-04
 
-Goal: Ship the new checkout flow with new payment methods
+Goal - Ship the new checkout flow with new payment methods
 
 Team Capacity
 | Engineer | Days available | Notes |
@@ -199,10 +199,10 @@ Team Capacity
 | @bob | 10 | |
 | @carol | 8 | On-call Wednesday |
 
-Total capacity: 27 engineer-days
+Total capacity - 27 engineer-days
 
 Sprint Scope (committed)
-Estimated: 34 points (based on 12pt/engineer avg × 3 engineers)
+Estimated - 34 points (based on 12pt/engineer avg × 3 engineers)
 
 Must complete (committed):
 - [PLAT-456] Stripe Apple Pay integration (5pt)
@@ -218,12 +218,12 @@ Sprint Decision Log
 | Defer PLAT-465 (Google Pay) | Blocked on API access | 2026-03-22 |
 
 Post-Sprint Review (filled in after sprint)
-Completed: X points (Y%)
-Not completed: [issues]
-Carry-over: [issues]
+Completed - X points (Y%)
+Not completed - [issues]
+Carry-over - [issues]
 ```
 
-Tool Comparison: Linear vs Jira vs Height
+Tool Comparison - Linear vs Jira vs Height
 
 Choosing the right tool matters more for remote teams than co-located ones. friction in async workflows compounds. Here is how the main options compare across the factors that matter most:
 
@@ -241,11 +241,11 @@ Linear wins for developer experience. Jira wins when you need integration with e
 
 Estimation Anti-Patterns
 
-Planning poker by video: 8 engineers in a Zoom call showing cards is painful. Use PlanningPoker.com or Linear's built-in estimation. engineers submit estimates independently, then compare.
+Planning poker by video - 8 engineers in a Zoom call showing cards is painful. Use PlanningPoker.com or Linear's built-in estimation. engineers submit estimates independently, then compare.
 
-Relative estimation drift: After 6 months, your "3 points" inflates to what used to be "5 points." Recalibrate quarterly by comparing current 3-point stories to historical ones.
+Relative estimation drift - After 6 months, your "3 points" inflates to what used to be "5 points." Recalibrate quarterly by comparing current 3-point stories to historical ones.
 
-Estimating everything: Not every story needs a point estimate. Bugs and operational tasks (security updates, dependency bumps) don't need estimation. they go into a time budget (e.g., "10% of sprint capacity for ops"). Only estimate feature work.
+Estimating everything - Not every story needs a point estimate. Bugs and operational tasks (security updates, dependency bumps) don't need estimation. they go into a time budget (e.g., "10% of sprint capacity for ops"). Only estimate feature work.
 
 Velocity as a performance metric: Velocity is a capacity planning tool, not a productivity metric. Publishing individual velocity data creates story-padding behavior.
 
@@ -264,12 +264,12 @@ For teams that want consensus estimation without a meeting:
 
 Async Estimation Challenges and Solutions
 
-Challenge 1: Wide variance in estimates
+Challenge 1 - Wide variance in estimates
 
 When engineers estimate asynchronously, you often see 3-point estimates and 13-point estimates for the same story. This indicates the story isn't clear.
 
 ```
-Solution: Require comments on wide spreads
+Solution - Require comments on wide spreads
 - If range > 1 Fibonacci level, flag for discussion
 - If you see [3, 3, 8, 5, 5], ask 8-point estimator why
 - Often reveals missing information or scope
@@ -281,12 +281,12 @@ Slack message template:
 Estimate converges after clarification
 ```
 
-Challenge 2: Estimation confidence
+Challenge 2 - Estimation confidence
 
 Engineers estimate fast but aren't confident when they haven't seen all dependencies.
 
 ```
-Solution: Confidence tracking (High/Medium/Low)
+Solution - Confidence tracking (High/Medium/Low)
 Use three fields in Linear/Jira:
 - Points estimate
 - Confidence level (radio button)
@@ -298,12 +298,12 @@ Triage decisions:
 - Medium confidence: Assign tech lead to pair first day
 ```
 
-Challenge 3: Blocked stories that slip through
+Challenge 3 - Blocked stories that slip through
 
 A story gets estimated but has a dependency on another team's work that's not scheduled yet.
 
 ```
-Solution: Dependency blocking workflow
+Solution - Dependency blocking workflow
 
 Before sprint confirmation:
 1. Filter all stories to show "depends_on" field
@@ -315,20 +315,20 @@ Before sprint confirmation:
 
 Example story with dependency:
 Title: "Implement Stripe payment processing"
-Depends on: [BILLING-456] "Design payment status API"
-Owner: @billing-team
-Committed delivery: March 29, 2026
-Risk: If BILLING-456 slips, this blocks implementation
+Depends on - [BILLING-456] "Design payment status API"
+Owner - @billing-team
+Committed delivery - March 29, 2026
+Risk - If BILLING-456 slips, this blocks implementation
 ```
 
 Velocity Anti-Patterns and Fixes
 
-Anti-pattern 1: Velocity inflation
+Anti-pattern 1 - Velocity inflation
 
 Velocity starts at 28 points/sprint, creeps to 45 points/sprint over months. But actual feature output doesn't increase. The points are inflating.
 
 ```
-Root cause: Story size definition drifts over time
+Root cause - Story size definition drifts over time
 Fix:
 1. Recalibrate every 6 months
 2. Compare current "5-point" story to "5-point" story from 6 months ago
@@ -336,19 +336,19 @@ Fix:
 
 Example recalibration:
 Old baseline: "5 points = 1 day of a senior engineer"
-New baseline: "5 points = 6-8 hours of a senior engineer" (drifted to larger)
+New baseline - "5 points = 6-8 hours of a senior engineer" (drifted to larger)
 
-Reset: Divide all old estimates by 1.3, recalibrate new baseline
+Reset - Divide all old estimates by 1.3, recalibrate new baseline
 ```
 
-Anti-pattern 2: Velocity used for performance evaluation
+Anti-pattern 2 - Velocity used for performance evaluation
 
-Manager says: "You committed 32 points, only completed 24. Why?"
+Manager says - "You committed 32 points, only completed 24. Why?"
 
 This creates story-padding behavior where engineers estimate conservatively.
 
 ```
-Fix: Separate velocity (planning tool) from performance (individual evaluation)
+Fix - Separate velocity (planning tool) from performance (individual evaluation)
 Metrics for performance:
 - Code quality (review comments, bug rate)
 - Delivery reliability (on-time completion rates)

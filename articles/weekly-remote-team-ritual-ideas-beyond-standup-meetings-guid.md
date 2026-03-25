@@ -20,21 +20,21 @@ Remote teams that rely only on the daily standup miss most of what makes a team 
 
 Table of Contents
 
-- [Ritual 1: Async Team Wins Board](#ritual-1-async-team-wins-board)
+- [Ritual 1 - Async Team Wins Board](#ritual-1-async-team-wins-board)
 - [Team Wins. Week of 2026-03-17](#team-wins-week-of-2026-03-17)
-- [Ritual 2: Weekly Async Retrospective](#ritual-2-weekly-async-retrospective)
+- [Ritual 2 - Weekly Async Retrospective](#ritual-2-weekly-async-retrospective)
 - [Sprint 42 Retrospective. Closes Wednesday 2026-03-19](#sprint-42-retrospective-closes-wednesday-2026-03-19)
 - [Start](#start)
 - [Stop](#stop)
 - [Continue](#continue)
 - [Change](#change)
-- [Ritual 3: Friday Team Wins Recognition](#ritual-3-friday-team-wins-recognition)
-- [Ritual 4: Bi-Weekly Code Review Swap](#ritual-4-bi-weekly-code-review-swap)
-- [Ritual 3: Code Review Swap](#ritual-3-code-review-swap)
-- [Ritual 4: Weekly Tech Talk](#ritual-4-weekly-tech-talk)
+- [Ritual 3 - Friday Team Wins Recognition](#ritual-3-friday-team-wins-recognition)
+- [Ritual 4 - Bi-Weekly Code Review Swap](#ritual-4-bi-weekly-code-review-swap)
+- [Ritual 3 - Code Review Swap](#ritual-3-code-review-swap)
+- [Ritual 4 - Weekly Tech Talk](#ritual-4-weekly-tech-talk)
 - [Tech Talk Schedule](#tech-talk-schedule)
-- [Ritual 5: Monthly Show-and-Tell for Side Projects](#ritual-5-monthly-show-and-tell-for-side-projects)
-- [Ritual 6: Weekly Tech Talk + Deep Dive Rotation](#ritual-6-weekly-tech-talk-deep detailed look-rotation)
+- [Ritual 5 - Monthly Show-and-Tell for Side Projects](#ritual-5-monthly-show-and-tell-for-side-projects)
+- [Ritual 6 - Weekly Tech Talk + Deep Dive Rotation](#ritual-6-weekly-tech-talk-deep detailed look-rotation)
 - [Building Your Ritual Calendar](#building-your-ritual-calendar)
 - [Measuring Whether Your Rituals Are Working](#measuring-whether-your-rituals-are-working)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
@@ -42,12 +42,12 @@ Table of Contents
 - [Building Psychological Safety Through Rituals](#building-psychological-safety-through-rituals)
 - [Troubleshooting Ritual Problems](#troubleshooting-ritual-problems)
 - [Measuring Ritual Success](#measuring-ritual-success)
-- [Advanced Ritual Patterns: For Mature Teams](#advanced-ritual-patterns-for-mature-teams)
+- [Advanced Ritual Patterns - For Mature Teams](#advanced-ritual-patterns-for-mature-teams)
 - [Calendar and Time Zone Considerations](#calendar-and-time-zone-considerations)
-- [Resource Requirements: What You'll Need](#resource-requirements-what-youll-need)
-- [Starting Your Ritual Program: Implementation Path](#starting-your-ritual-program-implementation-path)
+- [Resource Requirements - What You'll Need](#resource-requirements-what-youll-need)
+- [Starting Your Ritual Program - Implementation Path](#starting-your-ritual-program-implementation-path)
 
-Ritual 1: Async Team Wins Board
+Ritual 1 - Async Team Wins Board
 
 Celebrating successes matters even more in remote environments where accomplishments can disappear into Slack threads unnoticed. An async wins board surfaces positive signals automatically without requiring a synchronous meeting.
 
@@ -93,7 +93,7 @@ jobs:
 
 The wins board creates a searchable history of team momentum. During performance reviews or difficult sprints, looking back at three months of wins resets perspective.
 
-Ritual 2: Weekly Async Retrospective
+Ritual 2 - Weekly Async Retrospective
 
 Running a retrospective asynchronously is more thoughtful than a rushed 30-minute call. Give team members 48 hours to add items, then spend 30 minutes synthesizing and assigning action items.
 
@@ -119,23 +119,23 @@ Change
 
 Close the retrospective issue each week and archive the data. Over time, this creates a valuable dataset for identifying team patterns. Review monthly to see if the same issues surface repeatedly, this indicates systemic problems worth addressing.
 
-Ritual 3: Friday Team Wins Recognition
+Ritual 3 - Friday Team Wins Recognition
 
 Create a lightweight async ritual where team members celebrate weekly accomplishments. Set up a dedicated Slack channel (#team-wins) or wiki page. Every Friday at 3 PM (or async-friendly time), team members post one win from the week: shipped features, resolved bugs, learned something new, helped a teammate unblock.
 
-The structure matters: keep it to one paragraph maximum. This keeps it fast while giving people recognition. Wins don't need to be huge, "finally figured out the memory leak in the API" counts as much as "shipped feature X."
+The structure matters - keep it to one paragraph maximum. This keeps it fast while giving people recognition. Wins don't need to be huge, "finally figured out the memory leak in the API" counts as much as "shipped feature X."
 
 For remote teams especially, this ritual surfaces work that otherwise goes unrecognized. Someone spending the week fixing tech debt might not mention it in standup, but they'll share it in #team-wins.
 
-Ritual 4: Bi-Weekly Code Review Swap
+Ritual 4 - Bi-Weekly Code Review Swap
 
 Pair team members to review each other's code in depth outside the PR process. Person A reviews Person B's last week of commits; Person B reviews Person A's. Instead of rushing through PRs, they spend 45 minutes looking for patterns, asking "why did you choose this approach?"
 
 This ritual achieves multiple goals: knowledge transfer about each other's coding style, early detection of architectural issues, and human connection over actual work rather than forced fun.
 
-Set expectations: the goal isn't finding bugs (code review already does that). The goal is understanding each other's thinking. "I noticed you always extract helper functions early. Why?" or "This error handling seems defensive, are you worried about something specific?"
+Set expectations - the goal isn't finding bugs (code review already does that). The goal is understanding each other's thinking. "I noticed you always extract helper functions early. Why?" or "This error handling seems defensive, are you worried about something specific?"
 
-Ritual 3: Code Review Swap
+Ritual 3 - Code Review Swap
 
 Technical debt conversations go better when engineers experience the codebase from different angles. A weekly code review swap pairs engineers who don't normally work together on the same ticket.
 
@@ -162,7 +162,7 @@ for reviewer, author in pairs:
 
 Run this script on Mondays and post the pairs in your team channel. The rotating reviewer adds a fresh perspective on code that the original author may have lost objectivity about.
 
-Ritual 4: Weekly Tech Talk
+Ritual 4 - Weekly Tech Talk
 
 A 15, 30 minute knowledge-sharing slot, either live or pre-recorded, builds technical depth across the team. The format works well async: the presenter records a screen share walking through a concept, and teammates comment with questions.
 
@@ -185,7 +185,7 @@ Tech Talk Schedule
 
 A rolling schedule with two weeks of advance notice gives presenters time to prepare without the ritual feeling burdensome.
 
-Ritual 5: Monthly Show-and-Tell for Side Projects
+Ritual 5 - Monthly Show-and-Tell for Side Projects
 
 Encourage innovation by creating space for team members to share personal projects or experiments. This could be something they built on company time (learning projects, tooling improvements) or personal projects they want feedback on.
 
@@ -203,9 +203,9 @@ This ritual surfaces:
 - Potential internal projects (if multiple people built similar solutions independently, maybe it's worth pooling effort)
 - Collaboration opportunities (discovering shared interests outside normal work)
 
-Async alternative: If time zones make live demos impossible, create a shared folder where people post screenshots, videos, or descriptions of their projects. Let team members comment and ask questions asynchronously.
+Async alternative - If time zones make live demos impossible, create a shared folder where people post screenshots, videos, or descriptions of their projects. Let team members comment and ask questions asynchronously.
 
-Ritual 6: Weekly Tech Talk + Deep Dive Rotation
+Ritual 6 - Weekly Tech Talk + Deep Dive Rotation
 
 Rotate presentation responsibility so different people share technical knowledge. Each week, one person leads a 20-30 minute discussion on a tool, architecture decision, debugging technique, or industry trend relevant to the team.
 
@@ -232,11 +232,11 @@ Sample Calendar Implementation
 
 ```bash
 Slack reminders or calendar automation
-Mondays 9 AM: Async retrospective opens
-Wednesdays 4 PM: Code review swap assignments
-Thursdays 2 PM: Tech talk (live or async video available)
-Fridays 3 PM: Team wins collection period opens
-Last Friday of month: Show-and-tell session
+Mondays 9 AM - Async retrospective opens
+Wednesdays 4 PM - Code review swap assignments
+Thursdays 2 PM - Tech talk (live or async video available)
+Fridays 3 PM - Team wins collection period opens
+Last Friday of month - Show-and-tell session
 
 Notion database to track speakers/topics:
 - Tech Talk March 1: Alice (Database optimization)
@@ -250,11 +250,11 @@ Rituals that provide no measurable value should be dropped. A quarterly ritual a
 
 Track three signals for each ritual:
 
-Participation rate: For async rituals, what percentage of the team contributes each week? If fewer than 60% participate over four consecutive weeks, the ritual needs redesign or removal.
+Participation rate - For async rituals, what percentage of the team contributes each week? If fewer than 60% participate over four consecutive weeks, the ritual needs redesign or removal.
 
-Action rate: For retrospectives, what percentage of identified action items get completed before the next retro? Below 50% means the retrospective is generating cynicism rather than improvement.
+Action rate - For retrospectives, what percentage of identified action items get completed before the next retro? Below 50% means the retrospective is generating cynicism rather than improvement.
 
-Self-reported value: A quick monthly Slack poll with one question. "Rate the value of [ritual] this month: 1-5". provides a lightweight feedback loop. If average scores trend below 3, investigate with a brief async discussion before cancelling.
+Self-reported value - A quick monthly Slack poll with one question. "Rate the value of [ritual] this month: 1-5". provides a lightweight feedback loop. If average scores trend below 3, investigate with a brief async discussion before cancelling.
 
 Build a simple tracking spreadsheet:
 
@@ -279,15 +279,15 @@ For distributed teams, avoid creating a calendar where everything happens at a s
 
 Common Pitfalls to Avoid
 
-Too many synchronous meetings: Start with two async rituals and one optional sync event. Only add more if the team actively wants them. Each synchronous meeting costs 8 hours per 10-person team (accounting for multiple time zones).
+Too many synchronous meetings - Start with two async rituals and one optional sync event. Only add more if the team actively wants them. Each synchronous meeting costs 8 hours per 10-person team (accounting for multiple time zones).
 
-Ritual fatigue: If a ritual stops providing value, kill it. Quarterly reviews of your ritual calendar help maintain relevance. Ask: "Is anyone actually participating? Do people get value?" If the answer is "no," discontinue it guilt-free.
+Ritual fatigue - If a ritual stops providing value, kill it. Quarterly reviews of your ritual calendar help maintain relevance. Ask - "Is anyone actually participating? Do people get value?" If the answer is "no," discontinue it guilt-free.
 
 Mandatory participation pressure: Frame all rituals as optional, especially when introducing them. "This week we're trying a Friday wins channel, no pressure to participate, but we'd love it if you shared something." Forced enthusiasm kills authentic engagement.
 
 No follow-through on retrospectives: A retrospective without action items creates cynicism. After collecting feedback, designate one person to synthesize it, identify the top 3 issues, assign owners, set deadlines. Review these items in future retrospectives to show progress.
 
-Comparing participation numbers: Don't use participation as a metric for ritual health. A consistently 60% participation rate on optional events is normal and healthy. Some people will prefer focused work over social rituals, that's fine.
+Comparing participation numbers - Don't use participation as a metric for ritual health. A consistently 60% participation rate on optional events is normal and healthy. Some people will prefer focused work over social rituals, that's fine.
 
 Forgetting the quiet team members: Async rituals benefit introverts and non-native English speakers. They get time to compose thoughts rather than improvising on camera. Protect this by keeping async options available even for rituals you sometimes run synchronously.
 
@@ -295,27 +295,27 @@ Ritual Variations for Different Team Types
 
 Engineering Teams
 
-Code Quality Ritual: Bi-weekly detailed looks on code quality. One engineer presents code they're proud of and explains their decisions. Focus is learning, not criticism.
+Code Quality Ritual - Bi-weekly detailed looks on code quality. One engineer presents code they're proud of and explains their decisions. Focus is learning, not criticism.
 
-Incident Retrospective Ritual: After every production incident, run a lightweight async retro (not a blame session). Focus on system improvement, not individual error.
+Incident Retrospective Ritual - After every production incident, run a lightweight async retro (not a blame session). Focus on system improvement, not individual error.
 
-Architecture Evolution Ritual: Monthly async discussion of one architectural decision. Why did we choose it? Are we still happy? Would we choose differently today?
+Architecture Evolution Ritual - Monthly async discussion of one architectural decision. Why did we choose it? Are we still happy? Would we choose differently today?
 
 Product/Design Teams
 
-User Insight Ritual: Weekly sharing of user research, interview notes, or feedback. One person presents what they learned this week about users. No internal opinions, just what users said.
+User Insight Ritual - Weekly sharing of user research, interview notes, or feedback. One person presents what they learned this week about users. No internal opinions, just what users said.
 
-Design Critique Ritual: Async design review where designers share work-in-progress and collect feedback. Make it safe to show unfinished work.
+Design Critique Ritual - Async design review where designers share work-in-progress and collect feedback. Make it safe to show unfinished work.
 
-Roadmap Sync: Monthly async update on priorities shifting, new customer requests, strategic changes. Keeps product aligned across teams.
+Roadmap Sync - Monthly async update on priorities shifting, new customer requests, strategic changes. Keeps product aligned across teams.
 
 Leadership/Manager Teams
 
-Manager Peer Group: Monthly optional call where managers discuss challenges, share approaches, ask advice. Creates mutual support without mandatory attendance.
+Manager Peer Group - Monthly optional call where managers discuss challenges, share approaches, ask advice. Creates mutual support without mandatory attendance.
 
-Cultural Pulse Check: Quarterly conversation about team health signals, concerns, things going well. Helps leaders stay aware of cultural issues.
+Cultural Pulse Check - Quarterly conversation about team health signals, concerns, things going well. Helps leaders stay aware of cultural issues.
 
-Strategy Evolution: Async discussion of company/team direction, market changes, strategic questions. Creates transparency about decision-making.
+Strategy Evolution - Async discussion of company/team direction, market changes, strategic questions. Creates transparency about decision-making.
 
 Building Psychological Safety Through Rituals
 
@@ -325,25 +325,25 @@ Normalizing Failure
 
 Design your retrospectives to specifically ask "What didn't work?" Make it a category, not an afterthought. Show that discussing failures is how teams improve.
 
-Share leadership failures: In team meetings, leaders should mention mistakes they made and what they learned. This sets the tone that failure is normal.
+Share leadership failures - In team meetings, leaders should mention mistakes they made and what they learned. This sets the tone that failure is normal.
 
-Celebrate debugging stories: In tech talks or team wins, celebrate the time someone debugged something for 6 hours and finally figured it out. Make struggle visible.
+Celebrate debugging stories - In tech talks or team wins, celebrate the time someone debugged something for 6 hours and finally figured it out. Make struggle visible.
 
 Encouraging Vulnerability
 
-Anonymous feedback channels: Offer async feedback options where people can ask questions or raise concerns without attribution. Read these to your team to signal openness.
+Anonymous feedback channels - Offer async feedback options where people can ask questions or raise concerns without attribution. Read these to your team to signal openness.
 
-Ask explicitly: "What could I (the leader) do better?" and "What's something we're avoiding talking about?" Create space for hard conversations.
+Ask explicitly - "What could I (the leader) do better?" and "What's something we're avoiding talking about?" Create space for hard conversations.
 
 Make skip-level conversations optional: Let team members talk to your boss if they want to, without it being required or monitored.
 
 Creating Equity
 
-Rotate help: Different people lead different rituals. This distributes power and shows confidence in diverse people.
+Rotate help - Different people lead different rituals. This distributes power and shows confidence in diverse people.
 
-Async-first design: Introverts, non-native English speakers, and people with different working styles benefit from async. This signals inclusion.
+Async-first design - Introverts, non-native English speakers, and people with different working styles benefit from async. This signals inclusion.
 
-Explicit invitation: For optional rituals, don't assume people know they're invited. Send calendar invites, mention in chat. Make joining easy.
+Explicit invitation - For optional rituals, don't assume people know they're invited. Send calendar invites, mention in chat. Make joining easy.
 
 Troubleshooting Ritual Problems
 
@@ -414,7 +414,7 @@ Skip vanity metrics like "attendance numbers." Instead, track qualitative signal
 - Does psychological safety feel higher (easier to ask questions, share failures)?
 - When crisis happens, do people actually pull together, or is there conflict?
 
-Check in quarterly: "Are these rituals still valuable?" If three people independently mention a ritual works well, keep it. If no one mentions it, consider discontinuing.
+Check in quarterly - "Are these rituals still valuable?" If three people independently mention a ritual works well, keep it. If no one mentions it, consider discontinuing.
 
 Red Flags That a Ritual Is Failing
 
@@ -428,33 +428,33 @@ Red Flags That a Ritual Is Failing
 
 If you see multiple red flags, it's time to pause and redesign the ritual.
 
-Advanced Ritual Patterns: For Mature Teams
+Advanced Ritual Patterns - For Mature Teams
 
 Once you have basic rituals working, consider these advanced patterns:
 
 Rituals That Build Specific Skills
 
-Technical Depth Ritual: Monthly detailed look where one engineer presents a problem they solved, explaining their decision-making. Focus: learning senior-level thinking.
+Technical Depth Ritual - Monthly detailed look where one engineer presents a problem they solved, explaining their decision-making. Focus - learning senior-level thinking.
 
-Decision-Making Ritual: Bi-weekly async discussion of a significant decision. "Here's the decision we're considering. What should we decide?" Forces cross-team input.
+Decision-Making Ritual - Bi-weekly async discussion of a significant decision. "Here's the decision we're considering. What should we decide?" Forces cross-team input.
 
-Career Conversations: Optional 1:1 time (or small groups) between junior and senior engineers. Focuses on growth, not just work.
+Career Conversations - Optional 1:1 time (or small groups) between junior and senior engineers. Focuses on growth, not just work.
 
 Rituals That Strengthen Relationships
 
-Vulnerability Share: Monthly optional call where people share something non-work. "What are you working on outside of work?" or "What's a recent failure you learned from?" Creates authentic connection.
+Vulnerability Share - Monthly optional call where people share something non-work. "What are you working on outside of work?" or "What's a recent failure you learned from?" Creates authentic connection.
 
-Pairing Lottery: Quarterly, randomly assign pairs to pair-program for a day on each other's code. Spreads knowledge, builds relationships.
+Pairing Lottery - Quarterly, randomly assign pairs to pair-program for a day on each other's code. Spreads knowledge, builds relationships.
 
-Mentor Speed Dating: Monthly 10-minute 1:1s where junior people rotate through senior people. Quick relationships, broad exposure.
+Mentor Speed Dating - Monthly 10-minute 1:1s where junior people rotate through senior people. Quick relationships, broad exposure.
 
 Rituals That Improve Process
 
-Operational Review: Monthly 30-minute review of metrics: incident count, deployment frequency, onboarding time. Identify trends, celebrate improvements.
+Operational Review - Monthly 30-minute review of metrics: incident count, deployment frequency, onboarding time. Identify trends, celebrate improvements.
 
-Tool Evaluation Ritual: Every 6 months, someone evaluates whether a tool is still serving us. "Is this Slack integration helping or creating noise?"
+Tool Evaluation Ritual - Every 6 months, someone evaluates whether a tool is still serving us. "Is this Slack integration helping or creating noise?"
 
-Retrospective of Retrospectives: Quarterly review of whether your rituals are working. "Should we change anything about how we work?"
+Retrospective of Retrospectives - Quarterly review of whether your rituals are working. "Should we change anything about how we work?"
 
 Calendar and Time Zone Considerations
 
@@ -487,7 +487,7 @@ FRIDAY:
 
 This respects all time zones while maintaining ritual regularity.
 
-Resource Requirements: What You'll Need
+Resource Requirements - What You'll Need
 
 Different rituals require different resources:
 
@@ -502,23 +502,23 @@ Different rituals require different resources:
 
 For a team of 6-8, you're looking at 6-8 hours per week for all rituals combined. That's reasonable (1-2% of team capacity).
 
-Starting Your Ritual Program: Implementation Path
+Starting Your Ritual Program - Implementation Path
 
-Week 1: Launch one ritual
+Week 1 - Launch one ritual
 - Pick the one that would have highest impact for your team
 - Most teams start with weekly retrospectives or async team wins
 - Set it up, run it once, gather feedback
 
-Week 2-3: Evaluate and adjust
+Week 2-3 - Evaluate and adjust
 - Did people find value?
 - What would make it better?
 - Make one change and run again
 
-Week 4: Add a second ritual (if wanted)
+Week 4 - Add a second ritual (if wanted)
 - If first ritual worked, add something complementary
 - Or pause and solidify the first one
 
-Month 2+: Add thoughtfully
+Month 2+ - Add thoughtfully
 - Only add rituals if team actively wants them
 - Don't add more than one per month
 - Review quarterly to kill low-value ones

@@ -20,9 +20,9 @@ If you spend 8+ hours daily at a desk, the interaction between your chair caster
 
 Table of Contents
 
-- [The Fundamental Problem: Surface Incompatibility](#the-fundamental-problem-surface-incompatibility)
+- [The Fundamental Problem - Surface Incompatibility](#the-fundamental-problem-surface-incompatibility)
 - [Material Comparison](#material-comparison)
-- [Thickness: The Critical Specification](#thickness-the-critical-specification)
+- [Thickness - The Critical Specification](#thickness-the-critical-specification)
 - [Practical Selection Criteria](#practical-selection-criteria)
 - [Automated Comparison Script](#automated-comparison-script)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
@@ -30,10 +30,10 @@ Table of Contents
 - [Advanced Selection Framework](#advanced-selection-framework)
 - [Measuring Mat Performance Over Time](#measuring-mat-performance-over-time)
 - [The Physics of Caster-Surface Interaction](#the-physics-of-caster-surface-interaction)
-- [Budget-Conscious Approach: Two-Zone Strategy](#budget-conscious-approach-two-zone-strategy)
+- [Budget-Conscious Approach - Two-Zone Strategy](#budget-conscious-approach-two-zone-strategy)
 - [Making Your Decision](#making-your-decision)
 
-The Fundamental Problem: Surface Incompatibility
+The Fundamental Problem - Surface Incompatibility
 
 Chair casters (the wheels on your office chair) are designed for specific surface types. Standard carpet casters feature larger, softer wheels that distribute weight across carpet fibers. Hard floor casters use smaller, harder wheels optimized for smooth surfaces. Using the wrong mat creates friction, causes rolling resistance, and accelerates wear on both your chair and flooring.
 
@@ -65,7 +65,7 @@ Hard floor mats use PVC, thermoplastic elastomer (TPE), or natural rubber. These
 
 TPE has become the premium choice for hard floors because it contains no harmful plasticizers and maintains flexibility in temperature extremes.
 
-Thickness: The Critical Specification
+Thickness - The Critical Specification
 
 Thickness directly impacts chair maneuverability and floor protection:
 
@@ -158,13 +158,13 @@ This approach demonstrates how to systematically evaluate options, useful when c
 
 Common Mistakes to Avoid
 
-Using a carpet mat on hardwood: The gripper backing will scratch and damage hard flooring surfaces.
+Using a carpet mat on hardwood - The gripper backing will scratch and damage hard flooring surfaces.
 
 Using a thin hard floor mat on thick carpet: The mat will sink into the carpet, creating an uneven surface and defeating its purpose.
 
 Choosing aesthetics over function: Transparent mats look sleek but may show scratches and wear more visibly.
 
-Ignouncing caster compatibility: Not all chair mats work with all chair types. Some require standard stem casters; others need roller-bar casters for thick carpet.
+Ignouncing caster compatibility - Not all chair mats work with all chair types. Some require standard stem casters; others need roller-bar casters for thick carpet.
 
 Maintenance and Longevity
 
@@ -276,7 +276,7 @@ class ChairMatRecommender:
 Example usage
 recommender = ChairMatRecommender()
 
-User scenario: hardwood floor, budget-conscious, 180lb user
+User scenario - hardwood floor, budget-conscious, 180lb user
 recommendations = recommender.get_recommendation(
     floor_type="hardwood",
     budget=True,
@@ -288,7 +288,7 @@ recommendations = recommender.get_recommendation(
 print("Top recommendations for hardwood floor:")
 for i, rec in enumerate(recommendations, 1):
     print(f"\n{i}. {rec['material'].replace('_', ' ').title()}")
-    print(f"   Score: {rec['score']:.0f}")
+    print(f"   Score - {rec['score']:.0f}")
     print(f"   Durability: {rec['durability_years']} years")
     print(f"   Weight capacity: {rec['weight_capacity']} lbs")
     print(f"   Cost level: {'$' * rec['relative_cost']}")
@@ -326,9 +326,9 @@ Hardwood Mats (TPE or Rubber):
 - Non-slip backing prevents mat sliding during use
 - Caster roll resistance depends on surface smoothness and hardness
 
-The key physics principle: match surface hardness to caster hardness. Hard casters on hard floors slide smoothly. Soft casters on soft carpet sinks in and creates friction.
+The key physics principle - match surface hardness to caster hardness. Hard casters on hard floors slide smoothly. Soft casters on soft carpet sinks in and creates friction.
 
-Budget-Conscious Approach: Two-Zone Strategy
+Budget-Conscious Approach - Two-Zone Strategy
 
 For mixed-flooring spaces, consider a hybrid approach:
 

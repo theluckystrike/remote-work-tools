@@ -28,7 +28,7 @@ voice-checked: true
 
 Secure client tax document handling requires full-disk encryption, multi-factor authentication, and secure file transfer protocols, not email attachments. Remote accountants must implement a defense-in-depth approach combining encryption at rest and in transit, access controls, and compliant storage solutions. This guide provides practical, actionable security practices matching IRS Publication 4557 requirements and state-level compliance standards for handling sensitive tax documents from home offices in 2026.
 
-Understanding the Threat ecosystem
+Understanding the Threat environment
 
 Tax documents contain some of the most sensitive personal data: Social Security numbers, bank account details, income statements, and investment records. Remote accountants face threats ranging from phishing attacks targeting accounting software credentials to physical security risks from working in shared spaces or public locations.
 
@@ -98,7 +98,7 @@ Access Control and Authentication
 
 Multi-Factor Authentication Requirements
 
-Enforce MFA everywhere: email, cloud storage, accounting software, and client portals. In 2026, SMS-based MFA is increasingly considered insufficient due to SIM-swapping attacks. Hardware security keys (YubiKey, Google Titan) provide the strongest protection:
+Enforce MFA everywhere - email, cloud storage, accounting software, and client portals. In 2026, SMS-based MFA is increasingly considered insufficient due to SIM-swapping attacks. Hardware security keys (YubiKey, Google Titan) provide the strongest protection:
 
 ```yaml
 Tailscale ACL requiring MFA for sensitive resources
@@ -194,12 +194,12 @@ When disposing of tax documents, standard file deletion is insufficient. Use sec
 macOS: Secure empty trash (note: deprecated in newer macOS)
 Instead, use srm for sensitive files
 
-Linux: Using shred for secure deletion
+Linux - Using shred for secure deletion
 shred -u -z -n 3 client_tax_2024_draft.pdf
 
 Verify deletion
 ls -la client_tax_2024_draft.pdf
-Should return: No such file or directory
+Should return - No such file or directory
 ```
 
 Incident Response Preparation
@@ -234,7 +234,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -246,7 +246,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

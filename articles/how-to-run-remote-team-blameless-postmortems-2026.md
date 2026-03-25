@@ -23,7 +23,7 @@ Table of Contents
 - [Why Blameless Postmortems Fail](#why-blameless-postmortems-fail)
 - [The Blameless Principle](#the-blameless-principle)
 - [Pre-Postmortem Preparation (Critical)](#pre-postmortem-preparation-critical)
-- [Postmortem Pre-Prep: INC-2026-0847](#postmortem-pre-prep-inc-2026-0847)
+- [Postmortem Pre-Prep - INC-2026-0847](#postmortem-pre-prep-inc-2026-0847)
 - [Running the Postmortem Meeting (60-90 minutes)](#running-the-postmortem-meeting-60-90-minutes)
 - [Post-Postmortem Follow-Up](#post-postmortem-follow-up)
 - [Summary](#summary)
@@ -46,14 +46,14 @@ Blameless doesn't mean ignoring mistakes. It means:
 - Prevent defensiveness that hides root causes
 - Build culture where incidents are learning events, not career risks
 
-Bad framing: "Why did you not catch the bug in code review?"
-Blameless framing: "What in our code review process allowed this bug to ship? How do we prevent similar bugs?"
+Bad framing - "Why did you not catch the bug in code review?"
+Blameless framing - "What in our code review process allowed this bug to ship? How do we prevent similar bugs?"
 
 ---
 
 Pre-Postmortem Preparation (Critical)
 
-Phase 1: Timeline Reconstruction (Within 24 hours)
+Phase 1 - Timeline Reconstruction (Within 24 hours)
 
 The incident tool (PagerDuty, Incident.io) should auto-capture timeline. If not, reconstruct manually:
 
@@ -66,7 +66,7 @@ The incident tool (PagerDuty, Incident.io) should auto-capture timeline. If not,
 
 14:27 UTC - Root cause identified: New deployment broke connection pooling
           - Logs reviewed, deployment history checked
-          - Decision: Rollback vs. forward fix? (chose rollback)
+          - Decision - Rollback vs. forward fix? (chose rollback)
 
 14:28 UTC - Status page updated, rollback initiated
           - Communication to customers began
@@ -81,12 +81,12 @@ The incident tool (PagerDuty, Incident.io) should auto-capture timeline. If not,
           - No further escalation needed
 ```
 
-Phase 2: Pre-Meeting Async Input (24-48 hours before meeting)
+Phase 2 - Pre-Meeting Async Input (24-48 hours before meeting)
 
 Use a template in GitHub/Confluence. Each participant adds perspective:
 
 ```markdown
-Postmortem Pre-Prep: INC-2026-0847
+Postmortem Pre-Prep - INC-2026-0847
 
 Timeline (Verified)
 [Auto-captured from incident tool - reviewed and corrected]
@@ -106,15 +106,15 @@ On-call Manager (alice.wong):
 
 What Went Well
 - [Each person adds 2-3 items]
-Engineer: "Alert fired immediately, gave us fast MTTR"
-Manager: "Timeline auto-captured, very clear for review"
-DevOps: "Deployment had no automated rollback, but manual was quick"
+Engineer - "Alert fired immediately, gave us fast MTTR"
+Manager - "Timeline auto-captured, very clear for review"
+DevOps - "Deployment had no automated rollback, but manual was quick"
 
 What Could Be Better
 - [Root cause analysis without blame]
-Engineer: "Code review process didn't catch connection limit config"
-DevOps: "No integration test checking connection pool under load"
-Manager: "Status page updates could be more frequent (we did every 5min, target 2min)"
+Engineer - "Code review process didn't catch connection limit config"
+DevOps - "No integration test checking connection pool under load"
+Manager - "Status page updates could be more frequent (we did every 5min, target 2min)"
 
 Questions Before Meeting
 [Async discussion - answers posted in thread]
@@ -157,28 +157,28 @@ Ground rules:
 Go through timeline, sentence by sentence. Stop at decision points.
 
 14:27 UTC: "New deployment broke connection pooling. Why was this deployed?"
-Engineer: "Code was reviewed by two people, tests passed locally"
-Facilitator: "Did our tests include connection pool load testing?" [No]
+Engineer - "Code was reviewed by two people, tests passed locally"
+Facilitator - "Did our tests include connection pool load testing?" [No]
 [Document: Need load testing in pre-deploy checks]
 
 14:28 UTC: "Chose rollback instead of forward fix. Why?"
-Engineer: "We didn't know if it was connection pooling or something else"
-Facilitator: "How quickly could we have diagnosed further vs. rollback?" [Rollback was faster]
-[Document: Debug process vs. rollback tradeoff was correct]
+Engineer - "We didn't know if it was connection pooling or something else"
+Facilitator - "How quickly could we have diagnosed further vs. rollback?" [Rollback was faster]
+[Document - Debug process vs. rollback tradeoff was correct]
 ```
 
 20-50 min: Root Cause Analysis (The 5 Whys)
 ```
 Root cause is never "engineer made a mistake" or "code wasn't reviewed"
 
-Incident: Connection pool broke in production
+Incident - Connection pool broke in production
 Why? New code didn't test connection limits
 Why? No automated load testing in CI/CD
 Why? Load testing takes 5+ minutes, CI/CD would be 2x slower
 Why? Load testing framework wasn't integrated with our pipeline
 
-Root cause: System design (no automated load testing), not person
-Solution: Integrate load testing, accept slower CI/CD or parallelize
+Root cause - System design (no automated load testing), not person
+Solution - Integrate load testing, accept slower CI/CD or parallelize
 ```
 
 50-75 min: Action Items
@@ -197,14 +197,14 @@ Action Item Validation:
 
 75-90 min: Cultural Debrief
 ```
-Facilitator: "Before we close, I want to acknowledge..."
+Facilitator - "Before we close, I want to acknowledge..."
 
 Affirm specific people who responded well:
 - "John's decision to rollback instead of debug was exactly right given info"
 - "Alice's status page updates kept customers informed"
 - "DevOps team's monitoring detected this instantly"
 
-Celebrate: "This is how we want incidents to go. Fast detection, clear communication."
+Celebrate - "This is how we want incidents to go. Fast detection, clear communication."
 ```
 
 ---
@@ -218,10 +218,10 @@ GitHub/Confluence format:
 ```markdown
 Incident Postmortem INC-2026-0847
 
-Severity: Critical (unavailable for 12 minutes)
-Impact: 2.3% of users, ~15K affected
-Duration: 12 minutes (14:23-14:35 UTC)
-Date: 2026-03-22
+Severity - Critical (unavailable for 12 minutes)
+Impact - 2.3% of users, ~15K affected
+Duration - 12 minutes (14:23-14:35 UTC)
+Date - 2026-03-22
 
 Timeline
 [Full timeline from incident tool]
@@ -271,7 +271,7 @@ Tracking Action Items
 In GitHub Projects or Jira
 [Link postmortem to action items]
 
-Issue: "Add automated connection pool load testing"
+Issue - "Add automated connection pool load testing"
 - Postmortem: INC-2026-0847
 - Priority: P0
 - Target: 2026-03-29
@@ -317,18 +317,18 @@ For teams across 5+ timezones, consider async postmortem:
 Async Postmortem Flow:
 
 ```
-Day 1: Timeline reconstruction (incident tool auto-captures)
-Day 2: Pre-prep forms submitted (24h deadline)
-Day 3: Async discussion thread
+Day 1 - Timeline reconstruction (incident tool auto-captures)
+Day 2 - Pre-prep forms submitted (24h deadline)
+Day 3 - Async discussion thread
        - Facilitator posts timeline summary
        - Each person responds to key decision points
        - Root cause analysis in thread
        - Action items proposed + voted
-Day 4: Facilitator compiles final postmortem
+Day 4 - Facilitator compiles final postmortem
        - Publish document
        - Announce action items + owners
        - Optional: 30-min optional sync call for questions
-Day 5+: Track action items (same as sync postmortem)
+Day 5+ - Track action items (same as sync postmortem)
 ```
 
 Works for any timezone, permanent written record, thoughtful responses

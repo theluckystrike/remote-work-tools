@@ -33,7 +33,7 @@ Training Program Curriculum Overview
 | Module 3 | 2 hours | Meeting facilitation for mixed locations |
 | Module 4 | 3 hours | Performance management across distances |
 
-Module 1: Foundations of Hybrid Team Dynamics
+Module 1 - Foundations of Hybrid Team Dynamics
 
 Learning Objectives
 - Understand the three hybrid team archetypes (hub-and-spoke, split, flexible)
@@ -46,7 +46,7 @@ Hybrid teams typically fall into one of three structures. The hub-and-spoke mode
 
 Each structure requires different management approaches. For partially distributed teams, the flexible model has gained traction in 2026, but it demands coordination protocols.
 
-Practical Exercise: Team Topology Mapping
+Practical Exercise - Team Topology Mapping
 
 Have managers diagram their current team structure using this template:
 
@@ -80,7 +80,7 @@ module.exports = { analyzeHybridBalance };
 
 This simple analysis helps managers understand their team's actual distribution rather than assuming they know it.
 
-Module 2: Asynchronous Communication Mastery
+Module 2 - Asynchronous Communication Mastery
 
 Learning Objectives
 - Write clear asynchronous updates that keep everyone informed
@@ -121,7 +121,7 @@ communication_norms:
 
 Managers should customize this charter with their team and revisit it quarterly.
 
-Practical Exercise: Converting a Meeting to Async
+Practical Exercise - Converting a Meeting to Async
 
 Take a typical 30-minute status meeting and convert it to an async format. The team member writes a brief update covering:
 - What they accomplished last week
@@ -131,7 +131,7 @@ Take a typical 30-minute status meeting and convert it to an async format. The t
 
 This practice typically reduces meeting load by 30-50% while improving information sharing.
 
-Module 3: Meeting Help for Mixed Locations
+Module 3 - Meeting Help for Mixed Locations
 
 Learning Objectives
 - Design meetings that work equally well for in-person and remote participants
@@ -181,7 +181,7 @@ def run_round_robin(participants, topic, speaking_time=60):
 
 Round-robin formats prevent the common problem where extroverted in-office participants dominate discussions while remote members stay silent.
 
-Module 4: Performance Management Across Distances
+Module 4 - Performance Management Across Distances
 
 Learning Objectives
 - Adapt performance review processes for hybrid contexts

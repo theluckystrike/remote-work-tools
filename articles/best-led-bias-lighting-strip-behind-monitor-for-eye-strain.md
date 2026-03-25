@@ -74,11 +74,11 @@ Govee RGBIC strips stand out with their individual addressable LED chips, allowi
 - May be too colorful for pure productivity use
 - Requires app setup for best experience
 
-Best for: Users who want versatility between productivity bias lighting and ambient room decoration.
+Best for - Users who want versatility between productivity bias lighting and ambient room decoration.
 
 2. Philips Hue Lightstrip Plus
 
-Philips Hue remains the gold standard for smart lighting, and their Lightstrip Plus delivers premium quality. While more expensive than alternatives, the reliability, ecosystem integration, and smooth dimming make it worth the investment for serious remote workers.
+Philips Hue remains the gold standard for smart lighting, and their Lightstrip Plus delivers premium quality. While more expensive than alternatives, the reliability, environment integration, and smooth dimming make it worth the investment for serious remote workers.
 
 - Excellent color accuracy and consistency
 - integration with smart home ecosystems
@@ -88,7 +88,7 @@ Philips Hue remains the gold standard for smart lighting, and their Lightstrip P
 - Higher price point
 - Requires Hue Bridge for full features
 
-Best for: Users already invested in smart home ecosystems or those willing to invest in premium lighting.
+Best for - Users already invested in smart home ecosystems or those willing to invest in premium lighting.
 
 3. BenQ ScreenBar Plus
 
@@ -102,7 +102,7 @@ Designed specifically for monitor use, the BenQ ScreenBar Plus is a desk lamp ra
 - Illuminates from above rather than behind
 - Higher price than strip options
 
-Best for: Users who prefer lamp-style lighting or have limited wall space behind their monitor.
+Best for - Users who prefer lamp-style lighting or have limited wall space behind their monitor.
 
 4. LumiShape LED Light Strip
 
@@ -116,11 +116,11 @@ LumiShape offers an excellent balance of features and affordability. With high-d
 - App experience is not as polished as premium options
 - Limited smart home integration
 
-Best for: Budget-conscious users seeking reliable bias lighting without complexity.
+Best for - Budget-conscious users seeking reliable bias lighting without complexity.
 
 5. Elgato Light Strip
 
-Elgato, known for streaming equipment, offers a premium light strip that integrates excellently with their ecosystem. If you stream, do video calls, or record content, this integrates smoothly with Elgato's other products.
+Elgato, known for streaming equipment, offers a premium light strip that integrates excellently with their environment. If you stream, do video calls, or record content, this integrates smoothly with Elgato's other products.
 
 - Excellent build quality
 - Deep integration with Elgato Stream Deck
@@ -130,31 +130,31 @@ Elgato, known for streaming equipment, offers a premium light strip that integra
 - Limited length options
 - Higher cost than basic alternatives
 
-Best for: Content creators and streamers who already use Elgato equipment.
+Best for - Content creators and streamers who already use Elgato equipment.
 
 How to Install LED Bias Lighting Behind Your Monitor
 
-Step 1: Measure Your Monitor
+Step 1 - Measure Your Monitor
 
 Before purchasing, measure the perimeter or the back of your monitor where you plan to install the strip. Most strips come in various lengths, so choose one that fits comfortably with some overlap for corners.
 
-Step 2: Clean the Surface
+Step 2 - Clean the Surface
 
 Clean the back of your monitor and the wall behind it with isopropyl alcohol. This ensures the adhesive bonds properly and doesn't peel off over time.
 
-Step 3: Plan Your Route
+Step 3 - Plan Your Route
 
 Decide whether you'll run the strip around the entire monitor bezel or just along the sides and top. Some users prefer a three-sided installation (bottom, left, right) for even illumination.
 
-Step 4: Install the Strip
+Step 4 - Install the Strip
 
 Peel off the adhesive backing and carefully apply the strip, pressing firmly along the entire length. For corners, you may need to cut and reconnect or use corner connectors.
 
-Step 5: Manage Cables
+Step 5 - Manage Cables
 
 Use cable clips or adhesive cable management strips to keep power cables organized. If using USB power, ensure you have an available port or a powered USB hub.
 
-Step 6: Test and Adjust
+Step 6 - Test and Adjust
 
 Power on the lights and adjust the brightness and color temperature to your preference. The goal is subtle illumination that reduces screen contrast without being distracting.
 
@@ -162,11 +162,11 @@ Optimal Settings for Eye Strain Reduction
 
 Finding the right bias lighting settings is personal, but here are some guidelines:
 
-Brightness: Start at 10-15% of maximum and adjust until you notice a reduction in eye strain without the lighting distracting from your screen content.
+Brightness - Start at 10-15% of maximum and adjust until you notice a reduction in eye strain without the lighting distracting from your screen content.
 
-Color Temperature: 2700K-3500K (warm white) is ideal for evening work, while 4000K-5000K works well during daytime hours. Some smart strips can automatically adjust throughout the day.
+Color Temperature - 2700K-3500K (warm white) is ideal for evening work, while 4000K-5000K works well during daytime hours. Some smart strips can automatically adjust throughout the day.
 
-Position: The lights should create even illumination across the wall behind your monitor. Avoid concentrating light in one spot, which can create new contrast issues.
+Position - The lights should create even illumination across the wall behind your monitor. Avoid concentrating light in one spot, which can create new contrast issues.
 
 Automating Color Temperature with Home Assistant
 

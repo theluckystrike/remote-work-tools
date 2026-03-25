@@ -44,8 +44,8 @@ Warp Drive lets teams share:
 Create a shared workflow:
 
 ```bash
-In Warp: cmd+P > "Save as Workflow"
-Name: "Deploy to staging"
+In Warp - cmd+P > "Save as Workflow"
+Name - "Deploy to staging"
 Command:
 kubectl set image deployment/{{SERVICE_NAME}} \
   {{SERVICE_NAME}}={{IMAGE_REPO}}/{{SERVICE_NAME}}:{{IMAGE_TAG}} \
@@ -55,7 +55,7 @@ kubectl rollout status deployment/{{SERVICE_NAME}} -n staging
 
 Team members use the workflow with tab-completed variable prompts.
 
-Performance benchmark: Warp renders at ~144fps on a Retina display. GPU-accelerated rendering means large log files don't lag.
+Performance benchmark - Warp renders at ~144fps on a Retina display. GPU-accelerated rendering means large log files don't lag.
 
 Downsides:
 - Requires account/login (blocks full offline use)
@@ -270,7 +270,7 @@ Regardless of terminal choice, pair it with tmux for session persistence:
 ~/.tmux.conf
 Remote-work optimized settings
 
-Prefix: ctrl-a (easier than ctrl-b)
+Prefix - ctrl-a (easier than ctrl-b)
 set -g prefix C-a
 unbind C-b
 bind C-a send-prefix

@@ -28,14 +28,14 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Layout Strategies That Actually Work
+Step 1 - Layout Strategies That Actually Work
 
 The most effective small-room layouts use vertical space and corner positioning.
 - A single incident of: serious back or neck pain can cost $5,000-15,000 in physical therapy or medical treatment.
 - Quality ergonomic equipment ($1,200-2,000: initial investment) pays for itself within 12 months if it prevents one significant injury.
 - Your eyes naturally work: better with slightly off-center positioning, and it frees desk depth for other uses.
 
-Step 2: Understand Your Space Constraints
+Step 2 - Understand Your Space Constraints
 
 Before purchasing any equipment, you need accurate measurements of your room. A tiny room typically means anything under 100 square feet, or a space where the desk area competes with storage, other furniture, or movement paths.
 
@@ -59,7 +59,7 @@ For both to coexist, you need a minimum of 60 inches (5 feet) of clear wall spac
 2. Motorized standing desk with programmable height memory, eliminating the need to keep both at desk height simultaneously
 3. Desk placement in a corner, using diagonal space
 
-Step 3: Layout Strategies That Actually Work
+Step 3 - Layout Strategies That Actually Work
 
 The most effective small-room layouts use vertical space and corner positioning. A corner desk uses typically wasted wall space and provides more depth for monitor placement without impeding walkways.
 
@@ -67,7 +67,7 @@ For a 10x10 foot room, position your desk in the corner opposite the door. This 
 
 A corner L-desk configuration works well for developers using multiple monitors. The extended surface area accommodates a primary display, secondary monitor, and still leaves room for keyboard and mouse without reaching.
 
-Step 4: The Dual-Zone Approach
+Step 4 - The Dual-Zone Approach
 
 Consider organizing your small workspace into two distinct zones: an active work zone and a storage zone. The active work zone contains your desk and chair, while the storage zone holds equipment, cables, and personal items.
 
@@ -75,7 +75,7 @@ Use wall-mounted shelves above your desk to store items that would otherwise occ
 
 Cable management becomes critical in small spaces. Use a cable tray under your desk or a wall-mounted cable channel to keep power cords off the floor. This prevents cables from becoming obstacles when rolling your chair or walking past the desk.
 
-Step 5: Space Planning with Code
+Step 5 - Space Planning with Code
 
 Developers can use a simple Python script to visualize and plan their room layout before purchasing equipment. This approach removes the guesswork from fitting ergonomic furniture into tight spaces.
 
@@ -141,7 +141,7 @@ if __name__ == "__main__":
 
 Run this script to get baseline measurements for your specific room. Adjust the parameters based on your actual chair and desk dimensions.
 
-Step 6: Chair and Desk Selection for Small Spaces
+Step 6 - Chair and Desk Selection for Small Spaces
 
 When selecting an ergonomic chair for a tiny room, prioritize these features:
 
@@ -154,7 +154,7 @@ For standing desks, a motorized sit-stand desk provides the flexibility to raise
 
 Some compact standing desks offer a desktop converter that sits on top of a regular desk. This option works if you already have a desk but want standing capability without replacing your existing furniture.
 
-Step 7: Practical Setup Example
+Step 7 - Practical Setup Example
 
 In a 7x9 foot bedroom, here's a configuration that works:
 
@@ -166,7 +166,7 @@ In a 7x9 foot bedroom, here's a configuration that works:
 
 This setup leaves a clear 30-inch path from the door to the closet while providing full ergonomic functionality.
 
-Step 8: Maintaining Ergonomics in Limited Space
+Step 8 - Maintaining Ergonomics in Limited Space
 
 Even with space constraints, proper ergonomics remain achievable. Your monitor should be at eye level, your keyboard at elbow height, and your feet flat on the floor or a footrest. In a small room, you might need to adjust your chair height more frequently as you switch between sitting and standing.
 
@@ -174,7 +174,7 @@ A programmable standing desk makes transitions smooth. Set memory positions for 
 
 The key to fitting ergonomic furniture in a tiny room is measuring twice and buying once. Use the code provided to plan your layout, verify your room dimensions against furniture specifications, and prioritize adjustability in your equipment choices. A well-planned small workspace can be just as ergonomic as a large office.
 
-Step 9: Recommended Compact Equipment for Tiny Rooms
+Step 9 - Recommended Compact Equipment for Tiny Rooms
 
 When space is limited, equipment choice becomes critical. These options work well in rooms under 100 square feet:
 
@@ -199,7 +199,7 @@ Cable Management
 - Adhesive cable clips: $10-15, keeps cables off the floor
 - Magnetic cable organizer: $15-25, reduces cable mess
 
-Step 10: Cost-Benefit Analysis for Small Spaces
+Step 10 - Cost-Benefit Analysis for Small Spaces
 
 Investing in proper ergonomic furniture now prevents medical costs later. A single incident of serious back or neck pain can cost $5,000-15,000 in physical therapy or medical treatment. Quality ergonomic equipment ($1,200-2,000 initial investment) pays for itself within 12 months if it prevents one significant injury.
 
@@ -212,19 +212,19 @@ This math justifies even premium equipment choices for developers who spend 8+ h
 
 Troubleshooting Common Small-Room Setup Problems
 
-Problem: Monitor arm blocks chair movement
-Solution: Position monitor arm to the side of the desk rather than center, or use a fully extending arm (Ergotron LX extends 20+ inches) that tucks against the wall when not in use.
+Problem - Monitor arm blocks chair movement
+Solution - Position monitor arm to the side of the desk rather than center, or use a fully extending arm (Ergotron LX extends 20+ inches) that tucks against the wall when not in use.
 
-Problem: Standing desk is too deep for the room
-Solution: Use a desk converter (sit-on-top standing solution) instead of a full standing desk. Converters like Autonomous SmartDesk Lite Mini (30 inches deep) fit in tighter spaces than full desks.
+Problem - Standing desk is too deep for the room
+Solution - Use a desk converter (sit-on-top standing solution) instead of a full standing desk. Converters like Autonomous SmartDesk Lite Mini (30 inches deep) fit in tighter spaces than full desks.
 
-Problem: Keyboard tray takes up too much space
-Solution: Use a mechanical keyboard with built-in wrist rest (Kinesis Advantage) or a compact wireless keyboard that stores away when not in use (Keychron K2).
+Problem - Keyboard tray takes up too much space
+Solution - Use a mechanical keyboard with built-in wrist rest (Kinesis Advantage) or a compact wireless keyboard that stores away when not in use (Keychron K2).
 
-Problem: Cable clutter makes the space feel smaller
-Solution: Use a cable management box ($15-30) that hides power strips and cable adapters entirely.
+Problem - Cable clutter makes the space feel smaller
+Solution - Use a cable management box ($15-30) that hides power strips and cable adapters entirely.
 
-Step 11: Small Room Setup Checklist
+Step 11 - Small Room Setup Checklist
 
 Before purchasing any equipment, work through this checklist:
 
@@ -239,7 +239,7 @@ Before purchasing any equipment, work through this checklist:
 
 Complete this checklist before ordering anything, it prevents expensive mistakes like buying a desk that won't fit or a chair that can't roll.
 
-Step 12: Desk Configuration Tips for Maximum Space Efficiency
+Step 12 - Desk Configuration Tips for Maximum Space Efficiency
 
 Once you have your furniture, configuration choices matter as much as equipment choices.
 
@@ -255,12 +255,12 @@ Under-desk cable trays ($30-50) keep cables completely off the floor, making the
 Vertical Storage
 Use wall-mounted shelves above the desk to store peripherals, documentation, or books. A single 24-inch floating shelf above your desk adds storage without consuming floor space. Position it 18-24 inches above your monitor so it doesn't interfere with your sight line.
 
-Step 13: The Standing Desk Height Dilemma
+Step 13 - The Standing Desk Height Dilemma
 
 Standing desks solve the chair depth problem but create a new one: what height works for both sitting and standing?
 
-Sitting height needs: Elbows at 90 degrees, typically 28-30 inches off the ground
-Standing height needs: Elbows at 90 degrees, typically 40-46 inches off the ground
+Sitting height needs - Elbows at 90 degrees, typically 28-30 inches off the ground
+Standing height needs - Elbows at 90 degrees, typically 40-46 inches off the ground
 
 A motorized sit-stand desk solves this by adjusting between heights. Program preset buttons:
 - Sitting position: Your calculated sitting height (usually 28-29 inches)
@@ -273,22 +273,22 @@ If a motorized desk is too expensive, consider:
 - Two separate desks: One for sitting, one for standing (more space required, but lowest total cost)
 - Keyboard tray system: Adjustable under-desk tray lets you shift keyboard height without moving the entire desk
 
-Step 14: Potential Problems and Solutions
+Step 14 - Potential Problems and Solutions
 
-Problem: Monitor arm won't extend far enough
+Problem - Monitor arm won't extend far enough
 Some monitor arms have limited reach. Before purchasing, verify extension length. Ergotron LX extends 20 inches, good for small spaces. Cheaper arms extend only 10-12 inches.
 
-Solution: Mount the monitor arm at the furthest back corner of the desk, angling it forward. This effectively adds 6-8 inches of reach.
+Solution - Mount the monitor arm at the furthest back corner of the desk, angling it forward. This effectively adds 6-8 inches of reach.
 
-Problem: Chair wheel movement is restricted by walls
+Problem - Chair wheel movement is restricted by walls
 If your chair is against a wall and can't roll backward, use a hard floor protector mat that extends 4 feet from the desk. This creates space for chair movement without requiring extra floor space.
 
-Problem: Desk surface too small for keyboard, mouse, and monitor
-Solution: Mount monitor on arm, store keyboard in drawer, and use only keyboard and mouse when working. Return keyboard to drawer when not in use. This takes discipline but works.
+Problem - Desk surface too small for keyboard, mouse, and monitor
+Solution - Mount monitor on arm, store keyboard in drawer, and use only keyboard and mouse when working. Return keyboard to drawer when not in use. This takes discipline but works.
 
-Step 15: Small-Room Workspace in Action
+Step 15 - Small-Room Workspace in Action
 
-Real example: 8x9 foot bedroom
+Real example - 8x9 foot bedroom
 
 ```
 [Wall]
@@ -310,7 +310,7 @@ Measurements:
 
 This configuration provides full ergonomic functionality in a room where it might seem impossible.
 
-Step 16: Budget Progression: Upgrade Path for Tiny Rooms
+Step 16 - Budget Progression: Upgrade Path for Tiny Rooms
 
 If you're starting with zero ergonomic setup, upgrade strategically:
 

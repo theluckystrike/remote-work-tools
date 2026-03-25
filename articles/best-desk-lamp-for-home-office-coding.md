@@ -168,8 +168,8 @@ Heat output matters for long sessions. LED lamps stay cool to the touch, critica
 ```bash
 Monitor power consumption across a year
 Assuming 250 work days, 8 hours per day, $0.12 per kWh
-LED (10W): 250 * 8 * 10/1000 * 0.12 = $2.40/year
-Halogen (50W): 250 * 8 * 50/1000 * 0.12 = $12/year
+LED (10W) - 250 * 8 * 10/1000 * 0.12 = $2.40/year
+Halogen (50W) - 250 * 8 * 50/1000 * 0.12 = $12/year
 Keep LED lamps for both savings and environmental benefit
 ```
 
@@ -188,11 +188,11 @@ Advanced Smart Lamp Integration
 
 Beyond the basic Node.js example provided earlier, developers can integrate desk lamps with broader home automation systems:
 
-HomeKit Integration (for Apple ecosystem):
+HomeKit Integration (for Apple environment):
 ```bash
 Control LIFX or Nanoleaf lamps via HomeKit Secure Router
 Add to Siri voice commands for hands-free control during calls
-Create automations: "When I join this WiFi network, dim the lamp to 50%"
+Create automations - "When I join this WiFi network, dim the lamp to 50%"
 ```
 
 Home Assistant Integration (open-source):
@@ -239,21 +239,21 @@ Common Lamp Setup Mistakes
 
 Placing the lamp too close to your monitor: Creates reflection glare. Position lamps 18-24 inches away from your main monitor, angled downward.
 
-Using full brightness all day: Your eyes adapt to whatever baseline you set. Start at 60% brightness and increase only if you experience fatigue. Many developers find 50-70% brightness ideal for 8+ hour coding sessions.
+Using full brightness all day - Your eyes adapt to whatever baseline you set. Start at 60% brightness and increase only if you experience fatigue. Many developers find 50-70% brightness ideal for 8+ hour coding sessions.
 
-Ignoring the diffuser: Some lamps come with frosted diffusers that scatter light more evenly. Always use them, direct LED light can be surprisingly harsh.
+Ignoring the diffuser - Some lamps come with frosted diffusers that scatter light more evenly. Always use them, direct LED light can be surprisingly harsh.
 
 Single light source for two monitors: If you have side-by-side monitors, mounting one light bar may shadow one side. Either mount two smaller lights or position one central light higher to illuminate both surfaces.
 
 Troubleshooting Common Issues
 
-Flickering lights: Indicates either loose connections or interference from other electronics. Try repositioning the lamp away from microwave ovens, routers, or wireless chargers.
+Flickering lights - Indicates either loose connections or interference from other electronics. Try repositioning the lamp away from microwave ovens, routers, or wireless chargers.
 
-Inconsistent color temperature: LED bulbs in dimmer circuits sometimes color-shift. Use smart bulbs specifically rated for dimming to avoid this.
+Inconsistent color temperature - LED bulbs in dimmer circuits sometimes color-shift. Use smart bulbs specifically rated for dimming to avoid this.
 
-Screen reflections: Use a monitor hood or angle your lamp to eliminate glare. Anti-glare monitor filters can help but shouldn't be your primary solution.
+Screen reflections - Use a monitor hood or angle your lamp to eliminate glare. Anti-glare monitor filters can help but shouldn't be your primary solution.
 
-Blue light keeping you awake: Systematically reduce color temperature after 5 PM. Try 4500K (4-6 PM), 3500K (6-8 PM), and 2700K (8 PM onward).
+Blue light keeping you awake - Systematically reduce color temperature after 5 PM. Try 4500K (4-6 PM), 3500K (6-8 PM), and 2700K (8 PM onward).
 
 Frequently Asked Questions
 

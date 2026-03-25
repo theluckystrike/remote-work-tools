@@ -1937,6 +1937,9 @@
 
 
 
+
+
+
 layout: default
 title: "Remote Team Manager Peer Feedback Exchange Template"
 description: "A practical peer feedback exchange template designed for remote team managers leading distributed leadership teams. Includes JSON templates, async"
@@ -1951,6 +1954,9 @@ score: 9
 intent-checked: true
 voice-checked: true
 ---
+
+
+
 
 
 
@@ -3923,7 +3929,7 @@ The Template Structure
 
 Every effective peer feedback exchange consists of four components: the request, the response, the follow-up, and the review. Below is a template you can adapt for your leadership team.
 
-Component 1: The Feedback Request
+Component 1 - The Feedback Request
 
 The feedback request initiates the exchange. It should clearly state who is requesting feedback, what type of feedback they are seeking, and when they need the response. For asynchronous teams, deadlines are critical because they create accountability without requiring synchronous communication.
 
@@ -3945,7 +3951,7 @@ The feedback request initiates the exchange. It should clearly state who is requ
 }
 ```
 
-Component 2: The Feedback Response
+Component 2 - The Feedback Response
 
 The person providing feedback needs structure too. Ambiguous requests produce ambiguous responses. By providing specific questions, you ensure the feedback you receive is actionable and useful.
 
@@ -3965,7 +3971,7 @@ The person providing feedback needs structure too. Ambiguous requests produce am
 }
 ```
 
-Component 3: The Follow-Up
+Component 3 - The Follow-Up
 
 Feedback without follow-up is just noise. After receiving feedback, the requester should acknowledge what they heard, commit to specific changes, and establish a timeline for checking in again. This closes the loop and demonstrates that feedback leads to growth.
 
@@ -3984,7 +3990,7 @@ Feedback without follow-up is just noise. After receiving feedback, the requeste
 }
 ```
 
-Component 4: The Review
+Component 4 - The Review
 
 Periodically, leadership teams should review aggregated feedback patterns. This is not about identifying the "best" or "worst" leader, it is about understanding systemic issues and improving the team's overall effectiveness.
 
@@ -4204,31 +4210,31 @@ Aggregation and Analysis Process
 Compiling raw feedback into actionable insights requires a structured process:
 
 ```
-Step 1: Collect Responses
+Step 1 - Collect Responses
 - Close form at deadline
 - Export all responses
 - Count ratings; track distribution (1-5)
 
-Step 2: Identify Patterns
+Step 2 - Identify Patterns
 Create a frequency table:
 
 Leadership Effectiveness:
 - Mentioned as strength: 5/5 respondents → Clear pattern
 - Mentioned as weakness: 2/5 respondents → Minority view
 
-Step 3: Weight by Relevance
+Step 3 - Weight by Relevance
 - Direct reports: 2x weight (work with them daily)
 - Peers: 1x weight (occasional collaboration)
 - Skip anyone who didn't respond to key questions
 
-Step 4: Create Summary Document
+Step 4 - Create Summary Document
 
 [Manager] Feedback Summary - 2026 Q1
 
 Overall Assessment:
 Rating average: 4.1/5
-Trend: +0.4 from last cycle (improvement)
-Respondents: 5 (high participation)
+Trend - +0.4 from last cycle (improvement)
+Respondents - 5 (high participation)
 
 Key Strengths (consensus):
 1. Clear communication (mentioned by all 5 respondents)
@@ -4252,7 +4258,7 @@ Questions Needing Clarification:
 - One respondent said "hard to reach" while others said "very responsive"
   → May indicate they see manager differently based on team assignment
 
-Step 5: Schedule Feedback Conversation
+Step 5 - Schedule Feedback Conversation
 [Deliver feedback using delivery framework below]
 ```
 
@@ -4275,7 +4281,7 @@ working and one area where growth would have real impact."
 
 Share Strengths (5 minutes):
 "Your team and peers consistently mention [strength 1] and [strength 2].
-Here are specific examples: [quote 1], [quote 2].
+Here are specific examples - [quote 1], [quote 2].
 This is a genuine differentiator for your leadership."
 
 Pause for acknowledgment.
@@ -4325,9 +4331,9 @@ After feedback, structured check-ins keep the commitment alive:
 ```markdown
 Monthly Peer Development Check-In
 
-Person: [Manager Name]
-Growth Area: [What they committed to improve]
-Check-In Date: [Monthly, on calendar]
+Person - [Manager Name]
+Growth Area - [What they committed to improve]
+Check-In Date - [Monthly, on calendar]
 
 Progress This Month
 [Manager shares: What did you do to work on this?]

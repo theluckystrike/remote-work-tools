@@ -20,27 +20,27 @@ Remote teams often hit a communication wall around the 15-person mark. Before th
 
 Table of Contents
 
-- [The 15-Person Threshold: Why It Happens](#the-15-person-threshold-why-it-happens)
-- [Warning Sign 1: Response Time Creep](#warning-sign-1-response-time-creep)
-- [Warning Sign 2: Increased Meeting Frequency](#warning-sign-2-increased-meeting-frequency)
-- [Warning Sign 3: Context Fragmentation](#warning-sign-3-context-fragmentation)
-- [Warning Sign 4: Silent Team Members](#warning-sign-4-silent-team-members)
-- [Warning Sign 5: Assumption-Based Coordination](#warning-sign-5-assumption-based-coordination)
-- [Warning Sign 6: Channel Proliferation](#warning-sign-6-channel-proliferation)
+- [The 15-Person Threshold - Why It Happens](#the-15-person-threshold-why-it-happens)
+- [Warning Sign 1 - Response Time Creep](#warning-sign-1-response-time-creep)
+- [Warning Sign 2 - Increased Meeting Frequency](#warning-sign-2-increased-meeting-frequency)
+- [Warning Sign 3 - Context Fragmentation](#warning-sign-3-context-fragmentation)
+- [Warning Sign 4 - Silent Team Members](#warning-sign-4-silent-team-members)
+- [Warning Sign 5 - Assumption-Based Coordination](#warning-sign-5-assumption-based-coordination)
+- [Warning Sign 6 - Channel Proliferation](#warning-sign-6-channel-proliferation)
 - [Practical Countermeasures](#practical-countermeasures)
-- [Decision Record: [Brief Title]](#decision-record-brief-title)
-- [Detecting Warning Signs: Practical Metrics](#detecting-warning-signs-practical-metrics)
-- [Implementing Fixes: Concrete Steps](#implementing-fixes-concrete-steps)
+- [Decision Record - [Brief Title]](#decision-record-brief-title)
+- [Detecting Warning Signs - Practical Metrics](#detecting-warning-signs-practical-metrics)
+- [Implementing Fixes - Concrete Steps](#implementing-fixes-concrete-steps)
 - [Response Time Expectations](#response-time-expectations)
 - [Channel Usage](#channel-usage)
 - [Synchronous Meeting Guidelines](#synchronous-meeting-guidelines)
 - [Communication Latency Guidelines](#communication-latency-guidelines)
-- [ADR-042: Migrating from REST to GraphQL](#adr-042-migrating-from-rest-to-graphql)
+- [ADR-042 - Migrating from REST to GraphQL](#adr-042-migrating-from-rest-to-graphql)
 - [Measuring Improvement](#measuring-improvement)
 
 This guide helps you identify when your remote team's communication is breaking down and provides actionable strategies to address each symptom before it compounds.
 
-The 15-Person Threshold: Why It Happens
+The 15-Person Threshold - Why It Happens
 
 When a remote team has fewer than 15 members, everyone shares enough context that brief messages convey complete ideas. A short Slack message like "the API is failing" triggers immediate understanding because all team members worked on that system recently.
 
@@ -48,11 +48,11 @@ At 15-plus people, the math changes. Multiple projects run simultaneously. Team 
 
 Research on team dynamics suggests that stable effective communication networks max out around 12-15 people in distributed settings. Beyond this, teams need intentional communication architecture that replaces organic informal exchange.
 
-Warning Sign 1: Response Time Creep
+Warning Sign 1 - Response Time Creep
 
 One of the earliest indicators is lengthening response times across channels. A question that once received answers within minutes now sits for hours. Important messages get buried in notification fatigue.
 
-How to detect it: Track average first-response time in your primary communication tools over monthly periods. Use Slack's analytics or integrate with a simple monitoring script:
+How to detect it - Track average first-response time in your primary communication tools over monthly periods. Use Slack's analytics or integrate with a simple monitoring script:
 
 ```bash
 #!/bin/bash
@@ -72,39 +72,39 @@ echo "$messages" | jq -s 'map(select(.reply_count > 2)) | length'
 
 If your count of multi-reply threads drops consistently, team engagement is declining.
 
-Warning Sign 2: Increased Meeting Frequency
+Warning Sign 2 - Increased Meeting Frequency
 
 When written communication becomes unclear, teams default to meetings. You might notice the calendar filling with "sync" calls that previously happened in quick Slack threads.
 
-How to detect it: Track meeting hours per person per week. A healthy remote team typically operates with 2-4 hours of meetings weekly for individual contributors. Spikes above 6 hours often indicate communication failure elsewhere.
+How to detect it - Track meeting hours per person per week. A healthy remote team typically operates with 2-4 hours of meetings weekly for individual contributors. Spikes above 6 hours often indicate communication failure elsewhere.
 
 This pattern creates a negative feedback loop: more meetings mean less focused work time, which leads to more misunderstandings, which triggers more meetings.
 
-Warning Sign 3: Context Fragmentation
+Warning Sign 3 - Context Fragmentation
 
 Important discussions happen in multiple channels, making it impossible to reconstruct decisions. Someone asks "why did we choose this approach?" and the answer lives in a private DM from six weeks ago.
 
-How to detect it: Monitor how often team members ask questions that were already answered in other channels. Create a simple tracking spreadsheet with columns for: Question Asked, Channel Where Answered, Person Asking, Person Who Knew the Answer.
+How to detect it - Monitor how often team members ask questions that were already answered in other channels. Create a simple tracking spreadsheet with columns for: Question Asked, Channel Where Answered, Person Asking, Person Who Knew the Answer.
 
 When the same patterns repeat, your knowledge management is failing.
 
-Warning Sign 4: Silent Team Members
+Warning Sign 4 - Silent Team Members
 
 Some team members stop contributing to discussions. They attend meetings but don't speak. They receive messages but rarely reply. This often indicates they feel overwhelmed by the communication volume or excluded from the conversation context.
 
-How to detect it: Review participation metrics in meetings and channel activity. Look for team members whose contribution frequency has dropped more than 50% over two months. Follow up privately, don't assume their silence is voluntary.
+How to detect it - Review participation metrics in meetings and channel activity. Look for team members whose contribution frequency has dropped more than 50% over two months. Follow up privately, don't assume their silence is voluntary.
 
-Warning Sign 5: Assumption-Based Coordination
+Warning Sign 5 - Assumption-Based Coordination
 
 Team members stop confirming assumptions and start acting on unverified expectations. Code gets written based on misunderstood requirements. Features ship missing pieces because "I thought you were handling that."
 
-How to detect it: Track the frequency of mid-sprint scope changes or implementation pivots. Review incident postmortems for communication-related root causes. When people consistently misalign, the communication system needs redesign.
+How to detect it - Track the frequency of mid-sprint scope changes or implementation pivots. Review incident postmortems for communication-related root causes. When people consistently misalign, the communication system needs redesign.
 
-Warning Sign 6: Channel Proliferation
+Warning Sign 6 - Channel Proliferation
 
 New channels spawn weekly. There's a channel for project A, another for project A's frontend, another for project A's API, and a fourth for "off-topic" within project A. Team members can't keep track of where discussions should happen.
 
-How to detect it: Audit your communication channels monthly. If channel count grows faster than team size, your information architecture is failing.
+How to detect it - Audit your communication channels monthly. If channel count grows faster than team size, your information architecture is failing.
 
 Practical Countermeasures
 
@@ -115,11 +115,11 @@ Establish communication working agreements. Define expected response times by ur
 Create asynchronous-first documentation habits. Require that significant decisions get recorded in a searchable location within 24 hours. Use templates that force context inclusion:
 
 ```markdown
-Decision Record: [Brief Title]
+Decision Record - [Brief Title]
 
-Date: YYYY-MM-DD
-Authors: @person1, @person2
-Status: [Proposed/Accepted/Deprecated]
+Date - YYYY-MM-DD
+Authors - @person1, @person2
+Status - [Proposed/Accepted/Deprecated]
 
 Context
 [Why is this decision being made? What problem does it solve?]
@@ -139,7 +139,7 @@ Implement tiered communication protocols. Not everything needs immediate attenti
 
 Schedule explicit coordination points. Rather than relying on ad-hoc communication, build regular touchpoints into the calendar. Weekly async status updates, bi-weekly planning sessions, monthly retrospectives, structure these intentionally rather than treating them as fallback for poor daily communication.
 
-Detecting Warning Signs: Practical Metrics
+Detecting Warning Signs - Practical Metrics
 
 The warning signs above are real but abstract. Here's how to measure them concretely:
 
@@ -224,11 +224,11 @@ Create a spreadsheet to track decision-making patterns:
 
 After 20-30 entries, patterns emerge. If the same question appears multiple times, documentation is missing. If information lives in private conversations, context isn't being shared.
 
-Implementing Fixes: Concrete Steps
+Implementing Fixes - Concrete Steps
 
 Once you've identified warning signs, implement fixes in this order:
 
-Phase 1: Communication Working Agreements (Week 1-2)
+Phase 1 - Communication Working Agreements (Week 1-2)
 
 Bring the team together (async is fine) and establish explicit agreements:
 
@@ -260,24 +260,24 @@ Communication Latency Guidelines
 
 Post this somewhere permanent (wiki, pinned in Slack). Review and update quarterly.
 
-Phase 2: Decision Documentation System (Week 3-4)
+Phase 2 - Decision Documentation System (Week 3-4)
 
 Implement lightweight decision logging:
 
 ```markdown
-ADR-042: Migrating from REST to GraphQL
+ADR-042 - Migrating from REST to GraphQL
 
-Date: 2024-04-15
-Authors: @alice, @bob
-Status: Accepted
-Decision Made By: Engineering team consensus in RFC-042
+Date - 2024-04-15
+Authors - @alice, @bob
+Status - Accepted
+Decision Made By - Engineering team consensus in RFC-042
 
 Context
 REST API response times were degrading with query complexity. Frontend teams requested ability to request specific fields.
 
 Alternatives Considered
 1. Optimize REST with field filtering, harder to implement consistently
-2. GraphQL, industry standard, active ecosystem
+2. GraphQL, industry standard, active environment
 3. gRPC, overkill for web frontend
 
 Decision
@@ -295,7 +295,7 @@ Reassess in 2 months (Mid-June 2024). Revisit if adoption lags.
 
 Create a searchable repository of these records. When someone asks "why GraphQL?", you link to the ADR instead of explaining again.
 
-Phase 3: Tiered Meeting Schedule (Week 5-6)
+Phase 3 - Tiered Meeting Schedule (Week 5-6)
 
 Restructure recurring meetings intentionally:
 
@@ -326,7 +326,7 @@ Friday (Async):
 
 This gives each person enough context without 15+ hours/week in meetings.
 
-Phase 4: Search and Navigation Overhaul (Week 7-8)
+Phase 4 - Search and Navigation Overhaul (Week 7-8)
 
 Make information findable:
 

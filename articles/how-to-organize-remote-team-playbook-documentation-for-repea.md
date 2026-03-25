@@ -21,11 +21,11 @@ The Core Structure Every Playbook Needs
 
 Every playbook should follow a consistent template that reduces cognitive load when switching between different processes. The most effective structure includes five key sections:
 
-1. Trigger: When does this playbook activate?
-2. Context: What background information does the reader need?
+1. Trigger - When does this playbook activate?
+2. Context - What background information does the reader need?
 3. Steps: Numbered, actionable instructions
-4. Verification: How do you confirm success?
-5. Rollback: What if things go wrong?
+4. Verification - How do you confirm success?
+5. Rollback - What if things go wrong?
 
 This structure works because it mirrors how developers think about functions: inputs, processing, outputs, and error handling.
 
@@ -59,19 +59,19 @@ Break each step into its smallest logical unit. A step should be completable wit
 ```markdown
 Deployment Rollback Playbook
 
-Step 1: Verify Current Deployment State
+Step 1 - Verify Current Deployment State
 Run the following command to confirm the currently deployed version:
 
 curl -s https://api.example.com/health | jq '.version'
 
 Note the version string displayed in the output.
 
-Step 2: Initiate Rollback
+Step 2 - Initiate Rollback
 Execute the rollback script with the previous version:
 
 ./scripts/rollback.sh <previous-version>
 
-Step 3: Verify Rollback Success
+Step 3 - Verify Rollback Success
 After rollback completes, verify:
 - Health endpoint returns expected version
 - Key user flows respond correctly
@@ -170,7 +170,7 @@ Keeping Playbooks Concise
 
 Playbooks fail in two directions: too thin to be useful, or too detailed to navigate quickly under pressure. The right balance places essential information in the playbook itself and links to deeper documentation for background context.
 
-A useful test: can an experienced team member not familiar with this specific process execute the playbook in real time, reading it for the first time, during an incident? If steps require background knowledge that isn't in the playbook, add that context. If sections require reading through paragraphs of explanation before reaching actionable instructions, restructure them.
+A useful test - can an experienced team member not familiar with this specific process execute the playbook in real time, reading it for the first time, during an incident? If steps require background knowledge that isn't in the playbook, add that context. If sections require reading through paragraphs of explanation before reaching actionable instructions, restructure them.
 
 Use visual formatting to create clear information hierarchy. Code blocks for exact commands, bullet lists for verification criteria, tables for decision trees. These formatting choices help readers scan quickly rather than read linearly.
 
@@ -237,7 +237,7 @@ Investigation (5-30 minutes)
 - Check [monitoring dashboard link]
 - Review recent changes: [link to deployment tracker]
 - Check [specific logs location]
-- Ask: "Did we change X, Y, or Z recently?"
+- Ask - "Did we change X, Y, or Z recently?"
 
 Common Resolutions
 - Resolution A: Steps with exact commands
@@ -270,9 +270,9 @@ Pre-Rollout Checklist
 - [ ] Support team briefed
 
 Rollout Strategy
-Phase 1: [X]% of users, [duration]
-Phase 2: [X]% of users, [duration]
-Phase 3: [X]% of users (full rollout)
+Phase 1 - [X]% of users, [duration]
+Phase 2 - [X]% of users, [duration]
+Phase 3 - [X]% of users (full rollout)
 
 Monitoring During Rollout
 Key metrics to watch:
@@ -287,7 +287,7 @@ At each phase, decide whether to:
 - Hold and investigate metrics
 - Rollback immediately
 
-Criteria for rollback: [specific metrics]
+Criteria for rollback - [specific metrics]
 
 Rollback Procedure
 1. [Exact steps]
@@ -312,7 +312,7 @@ Pre-Engagement
 - [ ] Kickoff scheduled for [date/time]
 
 Kickoff Call (Day 1)
-Attendees: [CSM], [Engineer], [Product], Customer
+Attendees - [CSM], [Engineer], [Product], Customer
 1. Customer goals: [facilitate discussion]
 2. Your platform overview: [standard deck]
 3. Integration requirements: [technical discussion]

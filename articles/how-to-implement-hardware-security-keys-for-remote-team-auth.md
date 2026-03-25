@@ -197,7 +197,7 @@ Deploying hardware keys to a distributed team requires planning around shipping,
 
 Phased Rollout
 
-Start with high-risk users: administrators, developers with production access, and anyone with elevated permissions. These users face the greatest threat from credential theft, and they're typically more comfortable with new technology.
+Start with high-risk users - administrators, developers with production access, and anyone with elevated permissions. These users face the greatest threat from credential theft, and they're typically more comfortable with new technology.
 
 ```javascript
 // Example: Check if user is in high-risk group
@@ -249,11 +249,11 @@ async function canUsePasswordAuth(user) {
 
 Common Implementation Challenges
 
-Browser compatibility: All modern browsers support WebAuthn, but older browsers need fallbacks. Check `window.PublicKeyCredential` to detect support.
+Browser compatibility - All modern browsers support WebAuthn, but older browsers need fallbacks. Check `window.PublicKeyCredential` to detect support.
 
-Key management: Users lose keys. Build administrative interfaces for credential revocation and consider implementing credential migration for users switching between organizations.
+Key management - Users lose keys. Build administrative interfaces for credential revocation and consider implementing credential migration for users switching between organizations.
 
-Mobile support: Mobile devices can use hardware keys via NFC (most modern phones) or Lightning/USB-C connections. Test thoroughly with your team's device mix.
+Mobile support - Mobile devices can use hardware keys via NFC (most modern phones) or Lightning/USB-C connections. Test thoroughly with your team's device mix.
 
 Security Considerations
 

@@ -19,15 +19,15 @@ Remote QA teams can't rely on face-to-face handoffs or shared physical test devi
 
 Table of Contents
 
-- [Test Management: TestRail vs Plane vs Spreadsheets](#test-management-testrail-vs-plane-vs-spreadsheets)
-- [Browser Testing: Playwright (Best)](#browser-testing-playwright-best)
+- [Test Management - TestRail vs Plane vs Spreadsheets](#test-management-testrail-vs-plane-vs-spreadsheets)
+- [Browser Testing - Playwright (Best)](#browser-testing-playwright-best)
 - [CI Integration with Playwright](#ci-integration-with-playwright)
-- [API Testing: Bruno in CI](#api-testing-bruno-in-ci)
-- [Visual Regression: Chromatic](#visual-regression-chromatic)
-- [Mobile Testing: BrowserStack](#mobile-testing-browserstack)
-- [Bug Reporting: Screen Recording + Templates](#bug-reporting-screen-recording-templates)
-- [Load Testing: k6](#load-testing-k6)
-- [Contract Testing: Pact for API Compatibility](#contract-testing-pact-for-api-compatibility)
+- [API Testing - Bruno in CI](#api-testing-bruno-in-ci)
+- [Visual Regression - Chromatic](#visual-regression-chromatic)
+- [Mobile Testing - BrowserStack](#mobile-testing-browserstack)
+- [Bug Reporting - Screen Recording + Templates](#bug-reporting-screen-recording-templates)
+- [Load Testing - k6](#load-testing-k6)
+- [Contract Testing - Pact for API Compatibility](#contract-testing-pact-for-api-compatibility)
 - [Async QA Workflows for Distributed Teams](#async-qa-workflows-for-distributed-teams)
 - [Related Reading](#related-reading)
 
@@ -41,7 +41,7 @@ Table of Contents
 | 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
 
 
-Test Management: TestRail vs Plane vs Spreadsheets
+Test Management - TestRail vs Plane vs Spreadsheets
 
 TestRail is the standard for structured test case management:
 
@@ -73,7 +73,7 @@ Edit .env with your settings
 docker compose -f docker-compose.yaml up -d
 ```
 
-Browser Testing: Playwright (Best)
+Browser Testing - Playwright (Best)
 
 ```bash
 Install
@@ -210,7 +210,7 @@ jobs:
           retention-days: 3
 ```
 
-API Testing: Bruno in CI
+API Testing - Bruno in CI
 
 ```bash
 Bruno collection structure (in git)
@@ -228,7 +228,7 @@ Run in CI
 bru run --env staging tests/api/ --reporter junit --output api-results.xml
 ```
 
-Visual Regression: Chromatic
+Visual Regression - Chromatic
 
 ```bash
 Install
@@ -242,7 +242,7 @@ In CI:
   run: npx chromatic --project-token ${{ secrets.CHROMATIC_TOKEN }} --exit-zero-on-changes
 ```
 
-Mobile Testing: BrowserStack
+Mobile Testing - BrowserStack
 
 ```python
 conftest.py - Playwright with BrowserStack
@@ -266,7 +266,7 @@ BROWSERSTACK_USERNAME=your-username
 BROWSERSTACK_ACCESS_KEY=your-key
 ```
 
-Bug Reporting: Screen Recording + Templates
+Bug Reporting - Screen Recording + Templates
 
 Good bug reports from remote QA need video + logs:
 
@@ -274,7 +274,7 @@ Good bug reports from remote QA need video + logs:
 macOS: record screen to file
 screencapture -V 60 /tmp/bug-recording.mp4
 
-Linux: record with ffmpeg
+Linux - record with ffmpeg
 ffmpeg -video_size 1920x1080 \
   -framerate 30 \
   -f x11grab -i :0.0 \
@@ -285,7 +285,7 @@ ffmpeg -video_size 1920x1080 \
 Bug report template in your issue tracker:
 
 ```markdown
-Environment: Staging | Browser: Chrome 122 | OS: macOS 14.3
+Environment - Staging | Browser - Chrome 122 | OS: macOS 14.3
 
 Steps to reproduce:
 1. Go to /checkout
@@ -293,20 +293,20 @@ Steps to reproduce:
 3. Click "Proceed to payment"
 4. Fill in card: 4000 0000 0000 0002 (decline test card)
 
-Expected: Error message "Your card was declined"
-Actual: Page spins indefinitely, no error shown
+Expected - Error message "Your card was declined"
+Actual - Page spins indefinitely, no error shown
 
-Severity: High (payment flow blocking)
+Severity - High (payment flow blocking)
 
 Attachments:
 - Screen recording: [link]
 - Console logs: [paste]
 - Network HAR: [attach]
 
-Affected tickets: #234, #235
+Affected tickets - #234, #235
 ```
 
-Load Testing: k6
+Load Testing - k6
 
 ```javascript
 // load-test.js
@@ -350,7 +350,7 @@ Output results to InfluxDB for Grafana
 k6 run --out influxdb=http://localhost:8086/k6 load-test.js
 ```
 
-Contract Testing: Pact for API Compatibility
+Contract Testing - Pact for API Compatibility
 
 When a remote team has separate frontend and backend squads, contract testing prevents the classic problem where both sides pass their own tests but break each other in integration. Pact lets consumers define what they expect from an API, and providers verify they meet those expectations. without requiring both sides to be running at the same time.
 

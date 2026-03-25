@@ -43,7 +43,7 @@ Structured log (JSON). every field is queryable
 
 With structured logs, a query like "all errors for user 12345 in the payment service in the last hour" takes seconds. With plain text, it requires brittle regex.
 
-Node.js: Pino Structured Logger
+Node.js - Pino Structured Logger
 
 ```bash
 npm install pino pino-pretty
@@ -96,7 +96,7 @@ try {
 }
 ```
 
-Python: structlog
+Python - structlog
 
 ```bash
 pip install structlog
@@ -139,7 +139,7 @@ structlog.contextvars.bind_contextvars(
 log.info("payment_started", cart_total=cart.total, item_count=len(cart.items))
 ```
 
-OpenTelemetry: Add Distributed Tracing
+OpenTelemetry - Add Distributed Tracing
 
 OpenTelemetry is the standard for distributed tracing. It propagates trace context across service boundaries so you can follow a request through multiple services.
 
@@ -313,9 +313,9 @@ In Grafana, set up a data link from Loki log lines to Tempo traces using `trace_
 
 ```
 Grafana → Loki data source → Derived Fields
-Field name: trace_id
-Regex: "trace_id":"(\w+)"
-URL: /explore?orgId=1&left=...&right={"datasource":"Tempo","queries":[{"query":"${__value.raw}"}]}
+Field name - trace_id
+Regex - "trace_id":"(\w+)"
+URL - /explore?orgId=1&left=...&right={"datasource":"Tempo","queries":[{"query":"${__value.raw}"}]}
 ```
 
 Clicking a `trace_id` in a log line opens the full distributed trace in Grafana Tempo. no copying and pasting.

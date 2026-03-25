@@ -20,8 +20,8 @@ A single ISP connection is a single point of failure. For engineers on customer 
 Table of Contents
 
 - [The Core Setup](#the-core-setup)
-- [Hardware Option 1: GL.iNet Flint 2 (Budget)](#hardware-option-1-glinet-flint-2-budget)
-- [Hardware Option 2: Peplink Balance One ($299)](#hardware-option-2-peplink-balance-one-299)
+- [Hardware Option 1 - GL.iNet Flint 2 (Budget)](#hardware-option-1-glinet-flint-2-budget)
+- [Hardware Option 2 - Peplink Balance One ($299)](#hardware-option-2-peplink-balance-one-299)
 - [4G/5G Backup Modem Recommendations](#4g5g-backup-modem-recommendations)
 - [Testing Failover Behavior](#testing-failover-behavior)
 - [Application-Level Failover Gaps](#application-level-failover-gaps)
@@ -53,7 +53,7 @@ Secondary ISP (4G/5G cellular)
 
 Hardware that supports this natively: Firewalla Gold Plus, GL.iNet Flint 2, Peplink Balance One (prosumer), or a Mikrotik RouterOS setup.
 
-Hardware Option 1: GL.iNet Flint 2 (Budget)
+Hardware Option 1 - GL.iNet Flint 2 (Budget)
 
 The GL-MT6000 runs OpenWrt and supports WAN failover out of the box for ~$100.
 
@@ -67,7 +67,7 @@ uci show network.wan6
 
 Configure the secondary WAN (USB tethering from phone or USB modem)
 Flint 2 supports USB tethering natively through the UI
-Go to: Network → Internet → Add → USB Tethering
+Go to - Network → Internet → Add → USB Tethering
 ```
 
 Failover configuration via OpenWrt UCI:
@@ -126,12 +126,12 @@ EOF
 service mwan3 restart
 ```
 
-Hardware Option 2: Peplink Balance One ($299)
+Hardware Option 2 - Peplink Balance One ($299)
 
 Purpose-built for dual-WAN failover with a simpler UI. Plug in both connections, enable SpeedFusion health checks, done.
 
 Key settings:
-- Health Check: HTTP/HTTPS to `www.gstatic.com` every 5 seconds
+- Health Check - HTTP/HTTPS to `www.gstatic.com` every 5 seconds
 - Failover to secondary when primary misses 3 consecutive checks
 - Recovery: switch back to primary after 8 consecutive successes
 
@@ -158,11 +158,11 @@ or: apt install mtr-tiny  # Linux
 Watch the path to Google DNS in real time
 sudo mtr 8.8.8.8 --report-cycles 1000 --interval 0.5
 
-Simulate primary failure: unplug the cable or disable WAN1 in router UI
+Simulate primary failure - unplug the cable or disable WAN1 in router UI
 Watch mtr. you should see packet loss for 15-30 seconds, then recovery via WAN2
 ```
 
-Monitor the transition time. Acceptable: under 30 seconds. Unacceptable: over 90 seconds (indicates health check intervals are too long or recovery threshold is too high).
+Monitor the transition time. Acceptable - under 30 seconds. Unacceptable - over 90 seconds (indicates health check intervals are too long or recovery threshold is too high).
 
 Application-Level Failover Gaps
 
@@ -199,11 +199,11 @@ fi
 EOF
 chmod +x /usr/local/bin/check-internet.sh
 
-Add to crontab: check every minute
+Add to crontab - check every minute
 echo "* * * * * /usr/local/bin/check-internet.sh >> /var/log/internet-uptime.log" | crontab -
 
 Calculate monthly uptime
-awk '/DOWN/ {down++} /OK/ {up++} END {print "Uptime: " up/(up+down)*100 "%"}' /var/log/internet-uptime.log
+awk '/DOWN/ {down++} /OK/ {up++} END {print "Uptime - " up/(up+down)*100 "%"}' /var/log/internet-uptime.log
 ```
 
 Budget Breakdown
@@ -309,7 +309,7 @@ Add to crontab
 echo "*/2 * * * * /usr/local/bin/wan-monitor.sh" | crontab -
 
 Subscribe to notifications on your phone via the ntfy app
-Channel: your-unique-channel-name (use a hard-to-guess string)
+Channel - your-unique-channel-name (use a hard-to-guess string)
 ```
 
 This gives you a historical log of failover events and real-time mobile notifications. After a week, review `/var/log/wan-failover.log` to identify patterns in your ISP's reliability.
@@ -344,27 +344,27 @@ Failover Testing Methodology
 Systematic testing ensures your failover setup works when it matters most, during actual internet disruption.
 
 ```bash
-Step 1: Baseline connectivity test
+Step 1 - Baseline connectivity test
 ping -c 10 8.8.8.8 | grep -E "min|avg|max"  # Record these numbers
 
-Step 2: Simulate primary WAN failure
-For GL.iNet Flint 2: SSH into the router
+Step 2 - Simulate primary WAN failure
+For GL.iNet Flint 2 - SSH into the router
 ssh root@192.168.8.1
 Disable WAN interface
 ifconfig wan down
 
-Step 3: Monitor failover transition
+Step 3 - Monitor failover transition
 mtr -r 8.8.8.8 --report-cycles 100 &
 sleep 2
 Count packets lost during transition
 Watch for packet loss spike followed by recovery
 
-Step 4: Verify secondary WAN is handling traffic
+Step 4 - Verify secondary WAN is handling traffic
 Check gateway routing
 ip route
 Should show 4G/5G interface as active route
 
-Step 5: Re-enable primary WAN
+Step 5 - Re-enable primary WAN
 ifconfig wan up
 Verify automatic fallback within your configured threshold
 ```

@@ -20,8 +20,8 @@ Choose a ring light if you want quick, plug-and-play setup with even, shadowless
 Table of Contents
 
 - [The Core Technical Difference](#the-core-technical-difference)
-- [Ring Lights: Characteristics and Use Cases](#ring-lights-characteristics-and-use-cases)
-- [Panel Lights: Characteristics and Use Cases](#panel-lights-characteristics-and-use-cases)
+- [Ring Lights - Characteristics and Use Cases](#ring-lights-characteristics-and-use-cases)
+- [Panel Lights - Characteristics and Use Cases](#panel-lights-characteristics-and-use-cases)
 - [Practical Considerations for Developers](#practical-considerations-for-developers)
 - [Specific Product Recommendations and Pricing](#specific-product-recommendations-and-pricing)
 - [Making Your Decision](#making-your-decision)
@@ -37,7 +37,7 @@ Ring lights and panel lights fundamentally differ in their light emission patter
 
 For video calls specifically, this distinction matters because each creates distinctly different visual characteristics on camera.
 
-Ring Lights: Characteristics and Use Cases
+Ring Lights - Characteristics and Use Cases
 
 Ring lights produce a characteristic circular catchlight in your eyes, which many find flattering for portraits. The circular design creates even, wrap-around illumination that minimizes facial shadows, particularly useful if your desk setup has uneven ambient lighting from monitors or windows.
 
@@ -55,14 +55,14 @@ def ring_light_distance(focal_length_mm, subject_distance_m):
 
 For a typical desk setup with camera 0.6m away
 print(ring_light_distance(50, 0.6))
-Output: Recommended ring diameter: 200mm - 300mm
+Output - Recommended ring diameter: 200mm - 300mm
 ```
 
 Ring lights typically range from 10 inches to 18 inches in diameter. For desk-based video calls, a 12-14 inch ring light usually provides adequate coverage without overwhelming your workspace.
 
 The main limitation of ring lights is their size and the distinctive circular reflection they create. If you use the light simultaneously for desk work and video calls, the circular catchlight may appear distracting to some viewers. Additionally, ring lights can interfere with wide-angle webcam lenses, causing unwanted reflections at the edges of your frame.
 
-Panel Lights: Characteristics and Use Cases
+Panel Lights - Characteristics and Use Cases
 
 LED panel lights offer greater versatility through adjustable brightness, color temperature, and often directional control. Modern panels range from small on-camera units to larger panels suitable for studio setups.
 
@@ -160,10 +160,10 @@ Understanding Color Temperature Matching
 Your lighting should match your monitor and ambient light to appear natural on camera:
 
 ```
-Monitor Color Temp: Typically 6500K (daylight)
-Warm Room Lighting: 3200K-4000K
+Monitor Color Temp - Typically 6500K (daylight)
+Warm Room Lighting - 3200K-4000K
 Mixed Room (window + artificial): 4500K-5500K
-Optimal Video Setup: Match ambient + boost to 5500K
+Optimal Video Setup - Match ambient + boost to 5500K
 
 If your room has warm 3200K ambient light but your monitor is 6500K:
 - Use 5000K lighting to create balanced appearance (compromise)
@@ -206,22 +206,22 @@ Adjust your monitor or laptop height so your camera lens aligns with your eye le
 
 Troubleshooting Common Lighting Issues
 
-Issue: Harsh shadows under eyes
+Issue - Harsh shadows under eyes
 - Solution: Add fill light (reflector or second light) opposite key light
 - Or: Bounce key light off white ceiling instead of direct
 - Or: Move key light further away to soften shadows
 
-Issue: Blown-out face (overexposed)
+Issue - Blown-out face (overexposed)
 - Solution: Reduce light intensity (dim if dimmable, move farther away)
 - Or: Add ND (neutral density) filter between light and you
 - Or: Reduce light output to 50% instead of 100%
 
-Issue: Circular catchlight distracting in ring light
+Issue - Circular catchlight distracting in ring light
 - Solution: Position ring light slightly off-center instead of directly front
 - Or: Accept catchlight (many find it flattering)
 - Or: Switch to panel light for less distinctive catchlight
 
-Issue: Colors look unnatural on camera
+Issue - Colors look unnatural on camera
 - Solution: Adjust color temperature to match your room
 - Or: Adjust white balance in your camera settings
 - Or: Record test video and compare on different monitors
@@ -294,22 +294,22 @@ Setup:
 
 Common Lighting Mistakes
 
-Mistake 1: Light directly overhead
+Mistake 1 - Light directly overhead
 Creates shadows under eyes and nose. Unflattering. Position light at 45-degree angle slightly above eye level.
 
-Mistake 2: Too much light intensity
+Mistake 2 - Too much light intensity
 Overexposed, washed-out appearance. Dim to 50-70% intensity for natural look.
 
-Mistake 3: Mismatched color temperatures
+Mistake 3 - Mismatched color temperatures
 Warm natural light (3200K) + cool artificial light (5600K) creates unnatural, sickly appearance. Match all lights to same temperature.
 
-Mistake 4: Light positioned too close
+Mistake 4 - Light positioned too close
 Creates harsh shadows and potential discomfort. Position at least 3-4 feet away from your face.
 
-Mistake 5: Ignoring camera height
+Mistake 5 - Ignoring camera height
 Light positioning is useless if camera is too low. Adjust monitor height so camera is at eye level.
 
-Real-World Setup Guide: Ring Light Installation
+Real-World Setup Guide - Ring Light Installation
 
 1. Place 10-12" ring light on sturdy tripod with laptop on desk behind it
 2. Position camera lens through ring light center (minimal obstruction)
@@ -318,7 +318,7 @@ Real-World Setup Guide: Ring Light Installation
 5. Cost: Light ($40-50) + tripod ($25-35) = $65-85 total
 6. Setup time: 5 minutes
 
-Real-World Setup Guide: Panel Light Installation
+Real-World Setup Guide - Panel Light Installation
 
 1. Position panel 45 degrees to the side and slightly above seated eye level
 2. Mount on light stand with 5/8" grip head, aimed at face (not directly overhead)

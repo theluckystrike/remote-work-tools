@@ -29,7 +29,7 @@ Table of Contents
 - [Send an Invoice](#send-an-invoice)
 - [Mark an Invoice Paid](#mark-an-invoice-paid)
 - [Automate Monthly Recurring Invoices](#automate-monthly-recurring-invoices)
-- [Self-Hosted Alternative: Invoice Ninja](#self-hosted-alternative-invoice-ninja)
+- [Self-Hosted Alternative - Invoice Ninja](#self-hosted-alternative-invoice-ninja)
 - [Adding Tax Calculation](#adding-tax-calculation)
 - [Late Payment Follow-Up Automation](#late-payment-follow-up-automation)
 - [Generating Annual Revenue Reports](#generating-annual-revenue-reports)
@@ -106,7 +106,7 @@ const path = require("path");
 const yaml = require("js-yaml");
 
 const args = process.argv.slice(2);
-// Usage: node send-invoice.js acme "Website redesign" 4500 1 --send
+// Usage - node send-invoice.js acme "Website redesign" 4500 1 --send
 
 const [clientSlug, description, rate, quantity, flag] = args;
 const send = flag === "--send";
@@ -218,7 +218,7 @@ Run on the 1st of each month at 8am
 0 8 1 * * cd ~/invoices && node send-invoice.js globex "Monthly retainer" 200 10 --send >> ~/invoices/logs/cron.log 2>&1
 ```
 
-Self-Hosted Alternative: Invoice Ninja
+Self-Hosted Alternative - Invoice Ninja
 
 For a full GUI with online payment and client portal, Invoice Ninja is free when self-hosted:
 

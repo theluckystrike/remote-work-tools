@@ -31,11 +31,11 @@ Table of Contents
 - [Scope Changes](#scope-changes)
 - [Termination](#termination)
 - [Confidentiality](#confidentiality)
-- [Code Sample: Automated Invoice Generator (Python)](#code-sample-automated-invoice-generator-python)
+- [Code Sample - Automated Invoice Generator (Python)](#code-sample-automated-invoice-generator-python)
 - [Contract Best Practices for Developers](#contract-best-practices-for-developers)
 - [Avoiding Late Payments](#avoiding-late-payments)
 - [Tax Preparation with These Tools](#tax-preparation-with-these-tools)
-- [Decision Tree: Which Tool?](#decision-tree-which-tool)
+- [Decision Tree - Which Tool?](#decision-tree-which-tool)
 
 Why Contract + Invoice Integration Matters
 
@@ -66,7 +66,7 @@ Top Tools for Developers
 
 HoneyBook ($99-299/month)
 
-Best for: Web/design agencies, developers with 5+ clients
+Best for - Web/design agencies, developers with 5+ clients
 
 HoneyBook combines contracts, invoicing, proposals, and scheduling. It's the most developer-friendly for managing client relationships end-to-end.
 
@@ -93,11 +93,11 @@ Pricing structure:
 - Template customization requires their form builder (not free-form editing)
 - Not ideal for hourly billing (better for fixed-rate projects)
 
-Developer feedback: "HoneyBook killed my invoice follow-up problem. Used to send invoices and forget about them. Now it auto-reminds clients at day 7 and day 14. Late payments dropped from 25% to 5%."
+Developer feedback - "HoneyBook killed my invoice follow-up problem. Used to send invoices and forget about them. Now it auto-reminds clients at day 7 and day 14. Late payments dropped from 25% to 5%."
 
 Wave ($0-60/month)
 
-Best for: Solo developers, tight budgets, simple invoicing
+Best for - Solo developers, tight budgets, simple invoicing
 
 Wave is free invoicing software with payment collection. It's barebones but perfect for developers who just need professional invoices without contract complexity.
 
@@ -127,11 +127,11 @@ Pricing:
 - No project management features
 - Reporting is basic (export to CSV for analysis)
 
-Developer feedback: "Wave is what invoicing should cost. I use it for invoicing, export to QuickBooks for accounting. Saved me $1200/year vs. FreshBooks."
+Developer feedback - "Wave is what invoicing should cost. I use it for invoicing, export to QuickBooks for accounting. Saved me $1200/year vs. FreshBooks."
 
 Zoho Books ($99-499/month)
 
-Best for: Developers with multiple clients and complex billing
+Best for - Developers with multiple clients and complex billing
 
 Zoho Books is designed for small businesses and freelancers who need invoicing, expense tracking, and tax reporting in one place.
 
@@ -160,11 +160,11 @@ Pricing:
 - Overkill for solo developers with 2-3 clients
 - Support is slower (Zoho is large, not specialized)
 
-Developer feedback: "Zoho is the Swiss Army knife of invoicing. I see exactly how much each client costs me, which work is profitable, and what needs repricing."
+Developer feedback - "Zoho is the Swiss Army knife of invoicing. I see exactly how much each client costs me, which work is profitable, and what needs repricing."
 
 Stripe Invoicing (Free)
 
-Best for: Developers already using Stripe for payments
+Best for - Developers already using Stripe for payments
 
 Stripe offers invoicing directly in your Stripe account. It's integrated with payment collection, so when a client pays an invoice, it's immediately reflected in your Stripe dashboard.
 
@@ -192,7 +192,7 @@ Pricing:
 - No project tracking
 - Reporting is minimal
 
-Developer feedback: "If you're already on Stripe, use Stripe invoicing. No extra tool, no learning curve. Great for retainer work."
+Developer feedback - "If you're already on Stripe, use Stripe invoicing. No extra tool, no learning curve. Great for retainer work."
 
 Tool Comparison Table
 
@@ -210,7 +210,7 @@ Tool Comparison Table
 
 Recommended Stack by Developer Type
 
-Scenario 1: Solo Freelancer, 2-3 Regular Clients
+Scenario 1 - Solo Freelancer, 2-3 Regular Clients
 
 ```
 Tools:
@@ -219,9 +219,9 @@ Tools:
 3. Toggl Track (time tracking) - Free tier
 4. Stripe (payment collection)
 
-Cost: $0-15/month
-Workflow: Track time in Toggl → Manual invoice in Wave → Stripe payment link
-Benefit: Minimal overhead, free invoicing, all pieces work independently
+Cost - $0-15/month
+Workflow - Track time in Toggl → Manual invoice in Wave → Stripe payment link
+Benefit - Minimal overhead, free invoicing, all pieces work independently
 ```
 
 Contract template for this setup:
@@ -236,9 +236,9 @@ Developer will [specific deliverables: build React component library,
 implement payment integration, etc.] as outlined in Appendix A.
 
 Timeline
-Start: [DATE]
-Delivery: [DATE] (or [DAYS] days from project start)
-Milestone payments: [dates and amounts]
+Start - [DATE]
+Delivery - [DATE] (or [DAYS] days from project start)
+Milestone payments - [dates and amounts]
 
 Rate
 Developer charges $[RATE]/hour or $[AMOUNT] for complete project.
@@ -250,7 +250,7 @@ Remaining balance due within [7/14/30] days of delivery.
 
 Scope Changes
 Any changes to scope require written amendment and may affect timeline/cost.
-Additional work at hourly rate: $[RATE]/hour.
+Additional work at hourly rate - $[RATE]/hour.
 
 Termination
 Either party may terminate with [7/14] days written notice.
@@ -261,10 +261,10 @@ Both parties keep project details confidential for [1/2] years.
 
 Signed:
 Developer: _________________ Date: _______
-Client: ____________________ Date: _______
+Client - ____________________ Date: _______
 ```
 
-Scenario 2: Growing Agency, 10-15 Clients
+Scenario 2 - Growing Agency, 10-15 Clients
 
 ```
 Tools:
@@ -272,13 +272,13 @@ Tools:
 2. Toggl Track (time tracking) - Free-$10/month
 3. QuickBooks Self-Employed (accounting) - $15/month
 
-Cost: ~$230/month
-Workflow: Contracts → Toggl time tracking → HoneyBook invoice → Payment → QuickBooks
-Benefit: Professional contracts reduce disputes, auto payment reminders reduce late payments,
+Cost - ~$230/month
+Workflow - Contracts → Toggl time tracking → HoneyBook invoice → Payment → QuickBooks
+Benefit - Professional contracts reduce disputes, auto payment reminders reduce late payments,
 QuickBooks tax prep done automatically
 ```
 
-Scenario 3: Specialized Development, Project-Based Billing
+Scenario 3 - Specialized Development, Project-Based Billing
 
 ```
 Tools:
@@ -286,14 +286,14 @@ Tools:
 2. Zoho Projects (time tracking, project management) - $55/month
 3. Zoho Books (invoicing, accounting) - $99/month
 
-Cost: ~$350/month
-Workflow: Contracts → Zoho Projects (track time by project) → Zoho Books auto-invoices →
+Cost - ~$350/month
+Workflow - Contracts → Zoho Projects (track time by project) → Zoho Books auto-invoices →
 Reporting shows project profitability
-Benefit: See exactly which projects/clients are profitable, detailed time analysis,
+Benefit - See exactly which projects/clients are profitable, detailed time analysis,
 tax-ready reports
 ```
 
-Code Sample: Automated Invoice Generator (Python)
+Code Sample - Automated Invoice Generator (Python)
 
 For developers who want to build custom invoicing:
 
@@ -353,8 +353,8 @@ Written agreements prevent misunderstandings. A 10-minute contract saves weeks o
 2. Define scope clearly
 
 ```
-Bad: "Build a website"
-Good: "Build a 5-page React website with:
+Bad - "Build a website"
+Good - "Build a 5-page React website with:
   - Home page (hero, features section, CTA)
   - Product pages (3 pages, product database)
   - Contact form with email notifications
@@ -362,7 +362,7 @@ Good: "Build a 5-page React website with:
   - Google Analytics integration
   - SSL certificate and deployment
 
-NOT INCLUDED: SEO optimization, copywriting, ongoing support"
+NOT INCLUDED - SEO optimization, copywriting, ongoing support"
 ```
 
 3. Set revision limits
@@ -407,7 +407,7 @@ Tools that auto-organize this:
 - Wave: CSV export, works with TurboTax/TaxAct
 - QuickBooks: Complete tax prep built-in
 
-Decision Tree: Which Tool?
+Decision Tree - Which Tool?
 
 "I just need to invoice and get paid"
 → Wave (free) or Stripe invoicing (free)
@@ -432,7 +432,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -444,7 +444,7 @@ AI tools evolve rapidly, with major updates every few months. Feature comparison
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

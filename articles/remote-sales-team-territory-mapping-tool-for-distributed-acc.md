@@ -145,7 +145,7 @@ This algorithm prioritizes capacity first, then quota performance. Reps who are 
 
 Visualizing Territory Coverage
 
-For remote teams, visual representations help everyone understand the ecosystem. Generate a territory map using data visualization libraries:
+For remote teams, visual representations help everyone understand the environment. Generate a territory map using data visualization libraries:
 
 ```javascript
 // territory-visualization.js

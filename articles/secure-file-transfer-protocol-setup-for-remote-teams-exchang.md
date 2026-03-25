@@ -36,7 +36,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Set Up the SFTP Server
+Step 1 - Set Up the SFTP Server
 
 Most Linux distributions ship with OpenSSH, which includes SFTP support out of the box. If you need to install or verify:
 
@@ -83,7 +83,7 @@ Restart the SSH service to apply changes:
 sudo systemctl restart sshd
 ```
 
-Step 2: Configure Key-Based Authentication
+Step 2 - Configure Key-Based Authentication
 
 Password-based SFTP access creates security risks and operational friction. Key-based authentication eliminates both while making automation straightforward.
 
@@ -112,7 +112,7 @@ command="/usr/lib/openssh/sftp-server" ssh-ed25519 AAAA... user@workstation
 
 This forces SFTP-only access even if someone obtains the key, preventing interactive shell access.
 
-Step 3: Manage Large File Transfers
+Step 3 - Manage Large File Transfers
 
 SFTP handles large files well, but remote teams benefit from optimized transfer strategies. Here are practical approaches for different scenarios.
 
@@ -184,7 +184,7 @@ Run every night at 2 AM
 0 2 * * * /home/developer/scripts/sync-builds.sh >> /var/log/sftp-sync.log 2>&1
 ```
 
-Step 4: Security Hardening for Production
+Step 4 - Security Hardening for Production
 
 Beyond basic configuration, apply these hardening measures to protect your SFTP server.
 
@@ -268,7 +268,7 @@ sudo edquota -u developer1
 
 Set soft and hard limits appropriate to your storage capacity and use cases.
 
-Step 5: Choose the Right Transfer Tool
+Step 5 - Choose the Right Transfer Tool
 
 Your team has several client options depending on workflow:
 

@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Remote Mentoring Challenge
+Step 1 - The Remote Mentoring Challenge
 
 Mentoring in distributed teams is harder than colocation. Informal hallway conversations don't happen. Mentors and mentees across timezones struggle to find meeting times. Without structure, mentoring becomes ad-hoc and inconsistent.
 
@@ -42,16 +42,16 @@ Successful remote mentoring requires:
 
 Unstructured mentoring rarely succeeds remotely. Without structure, meetings get canceled, relationships fizzle.
 
-Step 2: Mentoring Program Architecture
+Step 2 - Mentoring Program Architecture
 
-Tier 1: One-on-One Structured Mentoring (Primary)
+Tier 1 - One-on-One Structured Mentoring (Primary)
 
 Most impactful tier. Dedicated mentor-mentee pair, 30-60 minutes bi-weekly.
 
 Program structure:
 ```
-Duration: 6 months
-Cadence: 30-min call every 2 weeks (13 calls total)
+Duration - 6 months
+Cadence - 30-min call every 2 weeks (13 calls total)
 Format:
 - First 10 min: Mentee reports progress on goals
 - 15 min: Mentor shares advice, asks clarifying questions
@@ -69,14 +69,14 @@ Exit criteria:
 - Graduation: Mentee becomes mentor in Tier 2
 ```
 
-Tier 2: Peer Mentoring (Mutual Growth)
+Tier 2 - Peer Mentoring (Mutual Growth)
 
 Two people at similar levels mentor each other on different domains.
 
 Program structure:
 ```
-Duration: 3 months (shorter, lower commitment)
-Cadence: 30-min call weekly (12 calls total)
+Duration - 3 months (shorter, lower commitment)
+Cadence - 30-min call weekly (12 calls total)
 Format:
 - Session 1: Mentee A teaches Mentee B on expertise area
 - Session 2: Mentee B teaches Mentee A on expertise area
@@ -88,14 +88,14 @@ Example pairing:
 - Backend engineer mentors Frontend on system design
 ```
 
-Tier 3: Reverse Mentoring (Generational Knowledge Transfer)
+Tier 3 - Reverse Mentoring (Generational Knowledge Transfer)
 
 Junior mentors senior on new technologies; senior mentors junior on domain expertise.
 
 Program structure:
 ```
-Duration: 3 months
-Cadence: 1 hour monthly (3 calls)
+Duration - 3 months
+Cadence - 1 hour monthly (3 calls)
 
 Example pairing:
 - Junior engineer (2 years) mentors VP Engineering (15 years) on latest frontend frameworks
@@ -106,7 +106,7 @@ Value:
 - Senior: Stays current with technology changes
 ```
 
-Step 3: Mentor-Mentee Matching Algorithm
+Step 3 - Mentor-Mentee Matching Algorithm
 
 Successful pairing drives program outcomes. Random matching fails 40% of the time. Algorithmic matching succeeds 85%+ of the time.
 
@@ -125,21 +125,21 @@ Mentor Pool Qualifications:
 - James (score: 70): System design 8/10, Leadership 3/10, Python 9/10
 - Sarah (score: 88): System design 7/10, Leadership 8/10, Python 8/10
 
-Best match: Maria (covers all three domains at expert level)
-Second best: Sarah (covers all three domains, one level down)
-Avoid: James (leadership gap for mentee's goal)
+Best match - Maria (covers all three domains at expert level)
+Second best - Sarah (covers all three domains, one level down)
+Avoid - James (leadership gap for mentee's goal)
 ```
 
 2. Availability and Timezone Overlap
 
 ```
-Mentee timezone: US Pacific (PST, UTC-8)
-Mentee available: Mon/Wed/Thu 5-6pm PST
+Mentee timezone - US Pacific (PST, UTC-8)
+Mentee available - Mon/Wed/Thu 5-6pm PST
 
-Mentor timezone: UK (GMT, UTC+0)
-Mentor available: Mon 2-3pm GMT (6am PST!), Thu 4-5pm GMT (8am PST!)
+Mentor timezone - UK (GMT, UTC+0)
+Mentor available - Mon 2-3pm GMT (6am PST!), Thu 4-5pm GMT (8am PST!)
 
-Match score: 50% (only Thursday works)
+Match score - 50% (only Thursday works)
 ```
 
 Availability overlap <50% = failed pairing. Require minimum 2 hours/week overlap.
@@ -147,7 +147,7 @@ Availability overlap <50% = failed pairing. Require minimum 2 hours/week overlap
 3. Experience Gap
 
 ```
-Optimal gap: 5-8 years
+Optimal gap - 5-8 years
 
 Gap too small (1-2 years):
 - Mentee doesn't see sufficient growth trajectory
@@ -157,7 +157,7 @@ Gap too large (15+ years):
 - Mentor's knowledge feels outdated to mentee
 - Communication gap (senior remembers obsolete tools)
 
-Ideal: Mentor 5-8 years ahead, recent enough to remember mentee's challenges
+Ideal - Mentor 5-8 years ahead, recent enough to remember mentee's challenges
 ```
 
 4. Complementary Personality Profiles
@@ -165,11 +165,11 @@ Ideal: Mentor 5-8 years ahead, recent enough to remember mentee's challenges
 ```
 Use personality assessment (MBTI, DiSC, StrengthsFinder):
 
-Mentee: INTJ (Strategic planner, independent thinker)
-Mentor A: INTJ (same type, may clash on same weaknesses)
-Mentor B: ENFP (different type, complements mentee's gaps)
+Mentee - INTJ (Strategic planner, independent thinker)
+Mentor A - INTJ (same type, may clash on same weaknesses)
+Mentor B - ENFP (different type, complements mentee's gaps)
 
-Match: Mentor B (different personality = learning new approaches)
+Match - Mentor B (different personality = learning new approaches)
 ```
 
 Matching Algorithm Pseudocode
@@ -225,7 +225,7 @@ def match_mentor_mentee(mentee, mentor_pool):
 
 Mentoring Tools Comparison
 
-MentorcliQ: Automated Enterprise Platform
+MentorcliQ - Automated Enterprise Platform
 
 MentorcliQ automates matching, tracks progress, and generates ROI analytics.
 
@@ -272,7 +272,7 @@ Cost-benefit analysis ($2500 annual cost):
 - 2 promotions saved = $20K in external hiring cost
 - ROI: 23x
 
-Together: Social Learning + Mentoring
+Together - Social Learning + Mentoring
 
 Together emphasizes community and peer learning alongside formal mentoring.
 
@@ -287,9 +287,9 @@ Pricing:
 - $500-2000/year
 - Includes all mentoring + learning features
 
-Best fit: Companies wanting to build strong peer learning culture alongside formal mentoring.
+Best fit - Companies wanting to build strong peer learning culture alongside formal mentoring.
 
-DIY Approach: Slack + Spreadsheets
+DIY Approach - Slack + Spreadsheets
 
 For teams <50 people or budget-constrained:
 
@@ -319,68 +319,68 @@ Tools needed:
 - Google Forms (free)
 - Calendar integration (free)
 
-Total cost: $0 (if Slack already used)
-HR time: 5 hours/month
-Scalable to: ~30-40 people
+Total cost - $0 (if Slack already used)
+HR time - 5 hours/month
+Scalable to - ~30-40 people
 ```
 
-Step 4: Measurement and ROI Framework
+Step 4 - Measurement and ROI Framework
 
-Metric 1: Program Completion Rate
+Metric 1 - Program Completion Rate
 
 ```
 Percentage of mentee-mentor pairs who complete full program
 
-Target: 70%+
+Target - 70%+
 
 Calculation:
 Completed pairs: 12
-Total pairs: 15
-Completion rate: 80%
+Total pairs - 15
+Completion rate - 80%
 
 Good indicators for failures:
 - Timezone mismatch (90% failure rate)
 - Missing mentee goals clarity (70% failure rate)
 - No structured agendas (65% failure rate)
 
-Action: Address root causes in next cohort
+Action - Address root causes in next cohort
 ```
 
-Metric 2: Goal Achievement Rate
+Metric 2 - Goal Achievement Rate
 
 ```
 Percentage of mentees achieving their stated learning goals
 
-Target: 65%+
+Target - 65%+
 
-Goal: "Master system design for distributed systems"
-Measurement: Pass internal system design review (simulated interview)
+Goal - "Master system design for distributed systems"
+Measurement - Pass internal system design review (simulated interview)
 
-Goal: "Develop leadership skills"
-Measurement: 360-degree feedback score improvement >10%
+Goal - "Develop leadership skills"
+Measurement - 360-degree feedback score improvement >10%
 
-Goal: "Learn Rust programming"
-Measurement: Complete 2-3 substantial Rust projects with mentor feedback
+Goal - "Learn Rust programming"
+Measurement - Complete 2-3 substantial Rust projects with mentor feedback
 ```
 
-Metric 3: Skill Acquisition Velocity
+Metric 3 - Skill Acquisition Velocity
 
 ```
-Baseline: Mentee pre-program skill assessment (1-10 scale)
+Baseline - Mentee pre-program skill assessment (1-10 scale)
 6-month check: Mentee post-program skill assessment
 
-Pre: System design skill = 3/10
-Post: System design skill = 6.5/10
-Improvement: +3.5 points in 6 months = 0.58 points/month
+Pre - System design skill = 3/10
+Post - System design skill = 6.5/10
+Improvement - +3.5 points in 6 months = 0.58 points/month
 
 Velocity shows learning speed vs. mentee baseline.
 ```
 
-Metric 4: Retention Impact
+Metric 4 - Retention Impact
 
 ```
-Treatment group: Engineers in mentoring program
-Control group: Similar engineers NOT in program
+Treatment group - Engineers in mentoring program
+Control group - Similar engineers NOT in program
 
 1-year retention rate:
 - Treatment: 94%
@@ -390,11 +390,11 @@ Control group: Similar engineers NOT in program
 Value:
 7% × average salary ($80K) × headcount (15) = $84,000 saved on replacement costs
 
-Program cost: $2,500
-ROI: 33x
+Program cost - $2,500
+ROI - 33x
 ```
 
-Metric 5: Promotion and Salary Growth
+Metric 5 - Promotion and Salary Growth
 
 ```
 Tracking for 1 year post-program:
@@ -415,9 +415,9 @@ Mentoring program impact:
 - Lateral move rate: 20% vs 7% (+13 points)
 ```
 
-Step 5: Real Program Implementation: Case Study
+Step 5 - Real Program Implementation: Case Study
 
-Company: 120-person tech company, distributed across 4 continents
+Company - 120-person tech company, distributed across 4 continents
 
 Challenge:
 - High burnout on individual contributors
@@ -425,38 +425,38 @@ Challenge:
 - Knowledge hoarding (seniors rarely mentored)
 - 18% annual attrition rate
 
-Solution: Launch formal mentoring program
+Solution - Launch formal mentoring program
 
 Timeline:
 
 ```
-Month 1: Planning
+Month 1 - Planning
 - Define program tiers (1:1, peer, reverse)
 - Set learning goal categories
 - Train managers on mentee nomination
 
-Month 2: Recruitment & Matching
+Month 2 - Recruitment & Matching
 - 40 mentees nominated (33% of IC population)
 - 25 mentors identified (21% of population)
 - Run matching algorithm
 - Send pairing notifications
 
-Month 3: Program Launch
+Month 3 - Program Launch
 - 18 mentor-mentee pairs confirmed (matching yield: 72%)
 - First cohort meetings scheduled
 - MentorcliQ system goes live with agendas
 
-Month 4-8: Program Execution
+Month 4-8 - Program Execution
 - Bi-weekly 30-min meetings
 - Monthly progress updates via MentorcliQ
 - Mid-program feedback at 3 months
 
-Month 9: Cohort 1 Completion
+Month 9 - Cohort 1 Completion
 - 14 of 18 pairs completed (78% completion rate)
 - 11 of 14 achieved stated goals (79% goal achievement)
 - Skill assessment shows avg +2.5 point improvement
 
-Month 10: Alumni + Cohort 2
+Month 10 - Alumni + Cohort 2
 - Month 9 completers become mentors (8 new mentors)
 - Program scales: Cohort 2 launches with 25 pairs
 - Mentoring pool expands 3x (8 alumni mentors)
@@ -470,33 +470,33 @@ Month 10: Alumni + Cohort 2
 - ROI: 27x
 ```
 
-Step 6: Common Pitfalls and How to Avoid Them
+Step 6 - Common Pitfalls and How to Avoid Them
 
-Pitfall 1: No Structured Goals
+Pitfall 1 - No Structured Goals
 
-Problem: Mentee and mentor meet but lack clear objectives. Meetings become unfocused chats about general career topics. No measurable progress.
+Problem - Mentee and mentor meet but lack clear objectives. Meetings become unfocused chats about general career topics. No measurable progress.
 
 Solution:
 ```
 Required goal framework:
 Each mentee sets 2-3 SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound):
 
-GOOD: "Master system design for distributed systems by month 6.
-Measurement: Design a resilient payment service handling 1M transactions/day."
+GOOD - "Master system design for distributed systems by month 6.
+Measurement - Design a resilient payment service handling 1M transactions/day."
 
-BAD: "Get better at technical skills"
+BAD - "Get better at technical skills"
 (unmeasurable, too vague)
 
-GOOD: "Develop presentation skills.
-Measurement: Deliver 3 tech talks to 20+ people by month 6."
+GOOD - "Develop presentation skills.
+Measurement - Deliver 3 tech talks to 20+ people by month 6."
 
-BAD: "Improve as a leader"
+BAD - "Improve as a leader"
 (too broad, no success criteria)
 ```
 
-Pitfall 2: Timezone Misalignment
+Pitfall 2 - Timezone Misalignment
 
-Problem: Mentor in US, mentee in India. Only viable meeting time is 6am-7am mentee time. Mentee consistently misses meetings. Program fails.
+Problem - Mentor in US, mentee in India. Only viable meeting time is 6am-7am mentee time. Mentee consistently misses meetings. Program fails.
 
 Solution:
 ```
@@ -504,12 +504,12 @@ Minimum timezone overlap requirement: 2 hours/week during business hours
 
 Check during matching:
 Mentee timezone: IST (UTC+5:30)
-Mentee hours: 9am-6pm IST = 11:30pm-3:30am UTC
+Mentee hours - 9am-6pm IST = 11:30pm-3:30am UTC
 
-Mentor timezone: PST (UTC-8)
-Mentor hours: 9am-6pm PST = 5pm-2am UTC (same day)
+Mentor timezone - PST (UTC-8)
+Mentor hours - 9am-6pm PST = 5pm-2am UTC (same day)
 
-Overlap: 11:30pm-2am UTC = impossible
+Overlap - 11:30pm-2am UTC = impossible
 Do NOT match this pair
 
 Alternative:
@@ -517,9 +517,9 @@ Find mentor in timezone with IST overlap (UTC+3 to UTC+9)
 - London mentor: 9am-5pm GMT = 2:30pm-10:30pm IST (good overlap)
 ```
 
-Pitfall 3: Mismatched Mentor Skill Level
+Pitfall 3 - Mismatched Mentor Skill Level
 
-Problem: Mentee is mid-level engineer, but assigned mentor is very junior (only 2 years experience). Mentor lacks depth to advise. Mentee frustrated.
+Problem - Mentee is mid-level engineer, but assigned mentor is very junior (only 2 years experience). Mentor lacks depth to advise. Mentee frustrated.
 
 Solution:
 ```
@@ -530,24 +530,24 @@ If mentee is 3 years experienced:
 - Minimum mentor: 7 years
 - Avoid: 5-year mentors (too close)
 
-Exception: Reverse mentoring (intentional, different goals)
+Exception - Reverse mentoring (intentional, different goals)
 ```
 
-Pitfall 4: No Structured Agendas
+Pitfall 4 - No Structured Agendas
 
-Problem: Mentor and mentee meet, chat for 30 minutes without plan. No documentation of discussions. Nothing actionable emerges.
+Problem - Mentor and mentee meet, chat for 30 minutes without plan. No documentation of discussions. Nothing actionable emerges.
 
 Solution:
 ```
 Required agenda template (fill before each meeting):
 
 ===== MENTORING SESSION AGENDA =====
-Mentee: [Name]
-Mentor: [Name]
-Date: [Date]
-Duration: 30 min
+Mentee - [Name]
+Mentor - [Name]
+Date - [Date]
+Duration - 30 min
 
-Last session action items: [List what was promised]
+Last session action items - [List what was promised]
 - Action 1: Status [Done/In Progress/Blocked]
 - Action 2: Status
 
@@ -564,12 +564,12 @@ Action items for next session:
 1. Mentee: [specific action]
 2. Mentor: [specific action]
 
-Next session: [Date and time]
+Next session - [Date and time]
 ```
 
-Pitfall 5: No Accountability Mechanism
+Pitfall 5 - No Accountability Mechanism
 
-Problem: Mentee misses 2-3 meetings without consequence. Program drifts. Mentor loses trust.
+Problem - Mentee misses 2-3 meetings without consequence. Program drifts. Mentor loses trust.
 
 Solution:
 ```
@@ -586,7 +586,7 @@ Failure path:
 - Or rate relationship <5/10 at mid-point
 → Reassignment available (one-time) or program exit
 
-Default: Program ends after 6 months
+Default - Program ends after 6 months
 (Clean exit, no indefinite "weak relationship" dragging on)
 ```
 

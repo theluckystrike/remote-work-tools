@@ -19,23 +19,23 @@ Quarterly planning for a single remote team is challenging. Quarterly planning a
 
 Table of Contents
 
-- [The Core Framework: Three-Phase Async Planning](#the-core-framework-three-phase-async-planning)
-- [Retrospective: Q2 2026](#retrospective-q2-2026)
+- [The Core Framework - Three-Phase Async Planning](#the-core-framework-three-phase-async-planning)
+- [Retrospective - Q2 2026](#retrospective-q2-2026)
 - [Capacity Assessment](#capacity-assessment)
 - [Proposed Objectives for Q3](#proposed-objectives-for-q3)
 - [Top-Level Objectives](#top-level-objectives)
 - [Team Commitments](#team-commitments)
 - [Cross-Team Dependencies](#cross-team-dependencies)
 - [Risks and Mitigations](#risks-and-mitigations)
-- [Scaling the Process: What Changes at Higher Team Counts](#scaling-the-process-what-changes-at-higher-team-counts)
+- [Scaling the Process - What Changes at Higher Team Counts](#scaling-the-process-what-changes-at-higher-team-counts)
 - [Quarterly Planning Tool Recommendations](#quarterly-planning-tool-recommendations)
 - [Planning Document Template (Copy & Use)](#planning-document-template-copy-use)
-- [Part 1: Retrospective](#part-1-retrospective)
-- [Part 2: Q3 Capacity Planning](#part-2-q3-capacity-planning)
-- [Part 3: Q3 Objectives](#part-3-q3-objectives)
-- [Part 4: Cross-Team Dependencies](#part-4-cross-team-dependencies)
-- [Part 5: Risks & Mitigation](#part-5-risks-mitigation)
-- [Part 6: How We Measure Success](#part-6-how-we-measure-success)
+- [Part 1 - Retrospective](#part-1-retrospective)
+- [Part 2 - Q3 Capacity Planning](#part-2-q3-capacity-planning)
+- [Part 3 - Q3 Objectives](#part-3-q3-objectives)
+- [Part 4 - Cross-Team Dependencies](#part-4-cross-team-dependencies)
+- [Part 5 - Risks & Mitigation](#part-5-risks-mitigation)
+- [Part 6 - How We Measure Success](#part-6-how-we-measure-success)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Planning Cadence and Calendar](#planning-cadence-and-calendar)
 - [Measuring Planning Process Quality](#measuring-planning-process-quality)
@@ -48,11 +48,11 @@ Table of Contents
 
 This guide provides a structured approach to quarterly planning that scales across multiple remote teams while keeping async workflows intact and meeting time to a minimum.
 
-The Core Framework: Three-Phase Async Planning
+The Core Framework - Three-Phase Async Planning
 
 Effective quarterly planning at scale follows three distinct phases: individual team preparation, cross-team synchronization, and final consolidation. Each phase operates asynchronously, allowing team members to contribute on their own schedules while producing documented artifacts that serve as reference throughout the quarter.
 
-Phase 1: Individual Team Preparation (Weeks 1-2)
+Phase 1 - Individual Team Preparation (Weeks 1-2)
 
 Each team starts by conducting their own quarterly planning internally. This involves reviewing the previous quarter's outcomes, identifying capacity constraints, and proposing objectives for the upcoming quarter.
 
@@ -61,7 +61,7 @@ The key artifact produced during this phase is a Team Planning Document. Here's 
 ```markdown
 Q3 2026 Planning - [Team Name]
 
-Retrospective: Q2 2026
+Retrospective - Q2 2026
 - What did we accomplish?
 - What blocked us?
 - What surprised us?
@@ -83,13 +83,13 @@ Proposed Objectives for Q3
 
 Teams should publish these documents to a shared location (GitHub, Notion, Confluence) by the end of week two. This creates visibility across the organization before any cross-team discussions begin.
 
-Phase 2: Cross-Team Synchronization (Weeks 2-3)
+Phase 2 - Cross-Team Synchronization (Weeks 2-3)
 
 Once all teams have published their planning documents, the synchronization phase begins. This is where dependency conflicts surface, resource conflicts get resolved, and organizational priorities get negotiated.
 
 Rather than scheduling a massive all-hands meeting, use a structured async review process:
 
-Step 1: Dependency Mapping
+Step 1 - Dependency Mapping
 
 Create a simple dependency matrix using a shared spreadsheet or GitHub project. Each team lists their proposed objectives and identifies dependencies on other teams:
 
@@ -101,7 +101,7 @@ Create a simple dependency matrix using a shared spreadsheet or GitHub project. 
 | Checkout | Cart abandonment flow | Payments | - |
 ```
 
-Step 2: Conflict Resolution Window
+Step 2 - Conflict Resolution Window
 
 After dependency mapping completes, open a 5-day window where teams can flag conflicts. A conflict exists when:
 
@@ -111,7 +111,7 @@ After dependency mapping completes, open a 5-day window where teams can flag con
 
 Use a dedicated Slack channel or GitHub discussion for each conflict. The goal is async resolution, only escalate to a sync call if async discussion stalls after 48 hours.
 
-Step 3: Priority Alignment
+Step 3 - Priority Alignment
 
 For organizations with a product leadership team, this phase involves ranking initiatives across teams when total demand exceeds capacity. The ranking should consider:
 
@@ -120,7 +120,7 @@ For organizations with a product leadership team, this phase involves ranking in
 - Risk reduction
 - Enabling work for other teams
 
-Phase 3: Final Consolidation (Week 4)
+Phase 3 - Final Consolidation (Week 4)
 
 The final phase produces the canonical quarterly plan. This document becomes the source of truth for the quarter and gets shared organization-wide.
 
@@ -155,7 +155,7 @@ Risks and Mitigations
 - Risk: Platform team bandwidth → Mitigation: Deferred non-essential OKRs
 ```
 
-Scaling the Process: What Changes at Higher Team Counts
+Scaling the Process - What Changes at Higher Team Counts
 
 The framework above works well for 3-5 teams. As you scale beyond that, introduce these adjustments:
 
@@ -214,11 +214,11 @@ Planning Document Template (Copy & Use)
 ```markdown
 Q3 2026 Quarterly Plan. [Team Name]
 
-Prepared by: [Name] | Date: 2026-03-14
-Team Members: [List of people with roles]
-Reviewing Manager: [Name]
+Prepared by - [Name] | Date: 2026-03-14
+Team Members - [List of people with roles]
+Reviewing Manager - [Name]
 
-Part 1: Retrospective
+Part 1 - Retrospective
 
 Q2 2026 Accomplishments
 -  Shipped feature X (saved customer Y 2 hours/month)
@@ -235,7 +235,7 @@ What Surprised Us
 - Customer demand for feature Z exceeded expectations
 - Technical debt paid dividends when added async support
 
-Part 2: Q3 Capacity Planning
+Part 2 - Q3 Capacity Planning
 
 Team Composition:
 - 5 engineers (3 senior, 2 junior)
@@ -244,9 +244,9 @@ Team Composition:
 
 Available Capacity Calculation:
 ```
-Base weeks: 13 weeks × 5 engineers = 65 weeks
-Minus: PTO (4 weeks), onboarding (2 weeks), infrastructure maintenance (3 weeks)
-Available: 56 engineering weeks
+Base weeks - 13 weeks × 5 engineers = 65 weeks
+Minus - PTO (4 weeks), onboarding (2 weeks), infrastructure maintenance (3 weeks)
+Available - 56 engineering weeks
 ```
 
 Planned Time Commitments:
@@ -255,45 +255,45 @@ Planned Time Commitments:
 - Meetings/planning: 15% of capacity (includes this planning)
 - Available for new work: ~29 weeks
 
-Part 3: Q3 Objectives
+Part 3 - Q3 Objectives
 
-Objective 1: User Retention Improvement
-Owner: @Sarah (PM)
-Impact: Revenue protection (estimated $500k impact)
-Target Metric: Reduce 30-day churn from 15% to 12%
+Objective 1 - User Retention Improvement
+Owner - @Sarah (PM)
+Impact - Revenue protection (estimated $500k impact)
+Target Metric - Reduce 30-day churn from 15% to 12%
 
 Key Results:
 - [ ] Implement retention email sequence (2 weeks)
 - [ ] A/B test on-boarding flow (3 weeks)
 - [ ] Ship early-warning dashboard for support (2 weeks)
 
-Total estimate: 7 weeks | Dependencies: None
+Total estimate - 7 weeks | Dependencies: None
 
-Objective 2: API Performance Optimization
-Owner: @Mike (Tech Lead)
-Impact: Platform stability, enables 10x scale
-Target Metric: p99 latency < 100ms at 10x current traffic
+Objective 2 - API Performance Optimization
+Owner - @Mike (Tech Lead)
+Impact - Platform stability, enables 10x scale
+Target Metric - p99 latency < 100ms at 10x current traffic
 
 Key Results:
 - [ ] Implement caching strategy (4 weeks)
 - [ ] Database indexing audit & fixes (2 weeks)
 - [ ] Load testing at target scale (1 week)
 
-Total estimate: 7 weeks | Dependencies: Infrastructure team completes CDN setup (Week 2)
+Total estimate - 7 weeks | Dependencies: Infrastructure team completes CDN setup (Week 2)
 
-Objective 3: Mobile Experience Parity
-Owner: @Jordan (Mobile Lead)
-Impact: Capture 40% of new mobile users
-Target Metric: Feature parity with web; mobile app adoption >20%
+Objective 3 - Mobile Experience Parity
+Owner - @Jordan (Mobile Lead)
+Impact - Capture 40% of new mobile users
+Target Metric - Feature parity with web; mobile app adoption >20%
 
 Key Results:
 - [ ] Offline-first architecture for core flows (5 weeks)
 - [ ] Push notification system (3 weeks)
 - [ ] Native performance profiling (1 week)
 
-Total estimate: 9 weeks | Dependencies: Design team completes mobile specs (Week 1)
+Total estimate - 9 weeks | Dependencies: Design team completes mobile specs (Week 1)
 
-Part 4: Cross-Team Dependencies
+Part 4 - Cross-Team Dependencies
 
 Outbound Dependencies (We Need From Others)
 
@@ -310,24 +310,24 @@ Inbound Dependencies (We Provide To Others)
 | API rate limiting | Payments team | Week 4 | Blocks their Q3 launch (high priority) |
 | Async event streaming | Notifications team | Week 3 | Nice to have, lower priority |
 
-Part 5: Risks & Mitigation
+Part 5 - Risks & Mitigation
 
-Risk 1: Underestimated Mobile Work
-Probability: 60% | Impact: High (core objective)
-Mitigation: Start mobile work first; descope optional features week 2 if falling behind
-Owner: @Jordan
+Risk 1 - Underestimated Mobile Work
+Probability - 60% | Impact: High (core objective)
+Mitigation - Start mobile work first; descope optional features week 2 if falling behind
+Owner - @Jordan
 
-Risk 2: Production Incidents During Planning
-Probability: 40% | Impact: Medium
-Mitigation: Allocate 15% of capacity as buffer (already factored above)
-Owner: @Sarah
+Risk 2 - Production Incidents During Planning
+Probability - 40% | Impact: Medium
+Mitigation - Allocate 15% of capacity as buffer (already factored above)
+Owner - @Sarah
 
-Risk 3: API Migration Complexity (Lesson from Q2)
-Probability: 30% | Impact: High
-Mitigation: Prototype caching strategy in week 1; use results to refine estimate
-Owner: @Mike
+Risk 3 - API Migration Complexity (Lesson from Q2)
+Probability - 30% | Impact: High
+Mitigation - Prototype caching strategy in week 1; use results to refine estimate
+Owner - @Mike
 
-Part 6: How We Measure Success
+Part 6 - How We Measure Success
 
 Quarterly health check (happens week 7-8):
 - [ ] Completed 70%+ of committed objectives
@@ -345,19 +345,19 @@ End of quarter review:
 
 Common Pitfalls to Avoid
 
-Pitfall 1: Over-Planning Detail
+Pitfall 1 - Over-Planning Detail
 
 Resist the urge to break every objective into week-by-week tasks during quarterly planning. Quarterly plans should define what gets accomplished, not how, week by week. Leave execution detail to sprint planning.
 
-Pitfall 2: Ignoring Capacity Reality
+Pitfall 2 - Ignoring Capacity Reality
 
 Always account for holidays, onboarding time, conference attendance, and planned time off. A team of five engineers doesn't have 500 engineering weeks available, they likely have 350-400 after accounting for meetings, code reviews, and PTO.
 
-Pitfall 3: No Mid-Quarter Checkpoints
+Pitfall 3 - No Mid-Quarter Checkpoints
 
 A quarterly plan isn't set-and-forget. Build in a mid-quarter sync (around week 6-7) where teams report progress, flag risks, and can reprioritize if circumstances changed. This prevents the "we knew at week 2 but didn't say anything" problem.
 
-Pitfall 4: Treating Planning as a Top-Down Exercise
+Pitfall 4 - Treating Planning as a Top-Down Exercise
 
 The most effective quarterly planning processes combine bottom-up input (what teams believe they can accomplish) with top-down direction (strategic priorities from leadership). Teams that feel ownership over their commitments perform better than teams that receive mandates.
 
@@ -381,7 +381,7 @@ For Q2 2026 Planning (April):
 - Apr 14: Approval
 - Apr 15: All hands
 
-Pattern: Planning starts ~4 weeks before quarter start.
+Pattern - Planning starts ~4 weeks before quarter start.
 
 Measuring Planning Process Quality
 
@@ -464,10 +464,10 @@ Plans change. Process for handling this:
 ```
 MID-QUARTER CHANGE REQUEST
 
-Requesting team: [Name]
-Current objective: [Objective from Q3 plan]
-Proposed change: [New objective or adjustment]
-Reason: [Business reason for change]
+Requesting team - [Name]
+Current objective - [Objective from Q3 plan]
+Proposed change - [New objective or adjustment]
+Reason - [Business reason for change]
 
 Impact if we don't change:
 [What breaks or what opportunity we miss]
@@ -475,8 +475,8 @@ Impact if we don't change:
 Impact of change:
 [What objective gets deprioritized?]
 
-Decision: [Approved / Denied / Needs discussion]
-Approved by: [Manager]
+Decision - [Approved / Denied / Needs discussion]
+Approved by - [Manager]
 ```
 
 Only allow 1-2 material changes mid-quarter. More than that indicates poor initial planning.
@@ -506,7 +506,7 @@ Approval
 - [x] Approved with revisions (see above)
 - [ ] Needs revision before approval
 
-Next steps: Address questions, resubmit by [date]
+Next steps - Address questions, resubmit by [date]
 ```
 
 This feedback loop prevents unrealistic plans from being approved.
@@ -521,7 +521,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -533,7 +533,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

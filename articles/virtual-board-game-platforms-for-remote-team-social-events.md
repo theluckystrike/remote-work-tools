@@ -84,10 +84,10 @@ async function createGameSession(calendarId, gameDetails) {
   const calendar = google.calendar({ version: 'v3', auth });
 
   const event = {
-    summary: `Game Night: ${gameDetails.title}`,
+    summary: `Game Night - ${gameDetails.title}`,
     description: `
-      Game: ${gameDetails.title}
-      Max Players: ${gameDetails.maxPlayers}
+      Game - ${gameDetails.title}
+      Max Players - ${gameDetails.maxPlayers}
       Join link: ${gameDetails.joinUrl}
     `.trim(),
     start: {

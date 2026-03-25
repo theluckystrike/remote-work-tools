@@ -77,7 +77,7 @@ This visa is specifically for non-EU/EEA nationals. Citizens of EU countries can
 
 Application Process
 
-Step 1: Gather Required Documents
+Step 1 - Gather Required Documents
 
 Prepare the following documentation:
 
@@ -89,7 +89,7 @@ Prepare the following documentation:
 - Completed visa application form
 - Passport-sized photos
 
-Step 2: Submit Application
+Step 2 - Submit Application
 
 You can submit your application:
 
@@ -98,7 +98,7 @@ You can submit your application:
 
 The processing time typically takes 20-60 days.
 
-Step 3: Visa Approval
+Step 3 - Visa Approval
 
 Once approved, you'll receive a TIE (Tarjeta de Identidad de Extranjero) - the foreigner identity card.
 

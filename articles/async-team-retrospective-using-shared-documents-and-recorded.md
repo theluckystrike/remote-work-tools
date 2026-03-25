@@ -57,24 +57,24 @@ Here's a practical template structure:
 ```markdown
 Team Retrospective. [Sprint/Week/Month: Name]
 
-Period: [Start Date] to [End Date]
-Facilitator: [Name]
+Period - [Start Date] to [End Date]
+Facilitator - [Name]
 ---
 
 What Went Well
-Prompt: Describe specific things that worked well this period. Include examples.
+Prompt - Describe specific things that worked well this period. Include examples.
 
 1. [Team member]: [Response]
 2. [Team member]: [Response]
 
 What Could Improve
-Prompt: Identify challenges, blockers, or things that didn't work as expected.
+Prompt - Identify challenges, blockers, or things that didn't work as expected.
 
 1. [Team member]: [Response]
 2. [Team member]: [Response]
 
 Action Items
-Prompt: What concrete actions should we take based on this retrospective?
+Prompt - What concrete actions should we take based on this retrospective?
 
 | Action | Owner | Due Date |
 |--------|-------|----------|

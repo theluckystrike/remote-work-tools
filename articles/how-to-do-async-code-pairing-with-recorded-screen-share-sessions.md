@@ -1950,6 +1950,8 @@
 
 
 
+
+
 layout: default
 title: "How to Do Async Code Pairing with Recorded Screen Share"
 description: "Learn how to conduct effective async code pairing sessions using recorded screen shares. Complete 2026 guide for remote development teams"
@@ -1973,6 +1975,8 @@ score: 9
 intent-checked: true
 voice-checked: true
 ---
+
+
 
 
 
@@ -3957,7 +3961,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Set Up Your Recording Environment
+Step 1 - Set Up Your Recording Environment
 
 Before starting async code pairing sessions, ensure your recording setup produces clear, professional content.
 
@@ -3993,7 +3997,7 @@ Clear audio distinguishes useful recordings from frustrating ones:
 - Speak clearly and at a consistent volume
 - Consider using a pop filter to reduce plosive sounds
 
-Step 2: Structuring Your Async Code Pairing Session
+Step 2 - Structuring Your Async Code Pairing Session
 
 Effective async code sessions follow a deliberate structure that helps reviewers follow along and provide meaningful feedback.
 
@@ -4058,7 +4062,7 @@ Keep Sessions Focused
 
 Aim for 15-30 minute recordings. Longer sessions become difficult to review; break complex topics into multiple shorter sessions.
 
-Step 3: Code Examples: Async Code Pairing Workflow
+Step 3 - Code Examples: Async Code Pairing Workflow
 
 Here's how to structure an async code pairing workflow using common tools:
 
@@ -4096,11 +4100,11 @@ Async Code Review Integration
 
 ```yaml
 GitHub PR description template
-Step 4: Async Code Pairing Session
+Step 4 - Async Code Pairing Session
 
-Goal: Implement user session refresh token handling
+Goal - Implement user session refresh token handling
 
-Recording: [Loom Link](https://loom.com/...)
+Recording - [Loom Link](https://loom.com/...)
 
 Timestamps:
 - 0:00 - Introduction and goal
@@ -4121,7 +4125,7 @@ Related files:
 - `tests/auth/token-service.test.ts`
 ```
 
-Step 5: Tools for Async Collaboration
+Step 5 - Tools for Async Collaboration
 
 Beyond recording, several tools enhance the async code pairing workflow:
 
@@ -4140,25 +4144,25 @@ Link recordings in:
 - Onboarding documentation for team processes
 - Ticket comments for complex implementations
 
-Step 6: Common Challenges and Solutions
+Step 6 - Common Challenges and Solutions
 
-Challenge: Recordings Feel One-Way
+Challenge - Recordings Feel One-Way
 
-Solution: Ask specific questions throughout and explicitly request feedback. End sessions with 2-3 specific questions reviewers should address.
+Solution - Ask specific questions throughout and explicitly request feedback. End sessions with 2-3 specific questions reviewers should address.
 
-Challenge: Time Zone Coordination Still Difficult
+Challenge - Time Zone Coordination Still Difficult
 
-Solution: Establish "office hours" for async response. Even if sessions are async, agree on SLA for feedback (e.g., "review within 24 hours").
+Solution - Establish "office hours" for async response. Even if sessions are async, agree on SLA for feedback (e.g., "review within 24 hours").
 
-Challenge: Recordings Get Lost
+Challenge - Recordings Get Lost
 
-Solution: Maintain a central index of async code pairing recordings. Use consistent naming conventions and link recordings to issues/PRs.
+Solution - Maintain a central index of async code pairing recordings. Use consistent naming conventions and link recordings to issues/PRs.
 
-Challenge: Quality Inconsistency
+Challenge - Quality Inconsistency
 
-Solution: Create a brief recording guide for your team. Share examples of effective sessions as models.
+Solution - Create a brief recording guide for your team. Share examples of effective sessions as models.
 
-Step 7: Measuring Async Code Pairing Success
+Step 7 - Measuring Async Code Pairing Success
 
 Track these metrics to improve your async collaboration:
 

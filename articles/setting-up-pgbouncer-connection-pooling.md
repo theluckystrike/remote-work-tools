@@ -59,7 +59,7 @@ The main config file is `/etc/pgbouncer/pgbouncer.ini`:
 
 ```ini
 [databases]
-; Syntax: alias = host=... port=... dbname=... user=...
+; Syntax - alias = host=... port=... dbname=... user=...
 myapp = host=localhost port=5432 dbname=myapp
 myapp_readonly = host=replica.yourcompany.internal port=5432 dbname=myapp user=readonly_user
 
@@ -123,7 +123,7 @@ pgBouncer uses `userlist.txt` for authentication. Generate entries with a helper
 ```bash
 #!/bin/bash
 scripts/pgbouncer-add-user.sh
-Usage: ./pgbouncer-add-user.sh username password
+Usage - ./pgbouncer-add-user.sh username password
 
 USER=$1
 PASS=$2

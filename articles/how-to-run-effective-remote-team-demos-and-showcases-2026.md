@@ -40,7 +40,7 @@ Good demo culture also drives work quality. If you know your work will be demoed
 
 The Synchronous Live Demo
 
-The simplest format: everyone joins a call, someone shares their screen, demo runs for 10-15 minutes, Q&A for 5 minutes.
+The simplest format - everyone joins a call, someone shares their screen, demo runs for 10-15 minutes, Q&A for 5 minutes.
 
 When to use live demos:
 
@@ -92,9 +92,9 @@ Recording tools:
 
 Loom: $10/month. Best-in-class for quick screen recordings. Click, record, share. Auto-generates transcripts. Built-in feedback features.
 
-Screenflow (Mac): One-time purchase, $13. High quality, simple interface. No built-in sharing; use Slack or Google Drive.
+Screenflow (Mac) - One-time purchase, $13. High quality, simple interface. No built-in sharing; use Slack or Google Drive.
 
-OBS (Open Broadcaster Software): Free. More complex, more powerful. Overkill for most demos but good if you want polished production.
+OBS (Open Broadcaster Software) - Free. More complex, more powerful. Overkill for most demos but good if you want polished production.
 
 How to record an effective async demo:
 
@@ -185,25 +185,25 @@ Organizing feedback:
 
 Don't just collect; organize. After a showcase event, summarize feedback by theme.
 
-Create a simple spreadsheet: demo, feedback category, response needed, owner. Share it with presenters.
+Create a simple spreadsheet - demo, feedback category, response needed, owner. Share it with presenters.
 
 Close the loop. If you collect feedback and don't act on it, future feedback won't come. If feedback led to a change, tell people: "Based on demo feedback, we're changing X."
 
 Real-World Examples
 
-Example 1: Weekly Demo Days (Colocated-ish Team)
+Example 1 - Weekly Demo Days (Colocated-ish Team)
 
 Team is 70% US-based, 30% Europe. Scheduling at 4pm US Eastern (9pm UK) works.
 
-Monday 4pm ET: Zoom call, 10 attendees. Sarah demos a new dashboard feature. 10 minutes of demo, 5 minutes of Q&A. Live poll: "Rate this feature: 1-5." Scores average 4.2. Comment: "The date filter is confusing." Noted.
+Monday 4pm ET - Zoom call, 10 attendees. Sarah demos a new dashboard feature. 10 minutes of demo, 5 minutes of Q&A. Live poll: "Rate this feature: 1-5." Scores average 4.2. Comment - "The date filter is confusing." Noted.
 
-Recorded: Sarah records a version with text overlay showing "click to filter by date" and posts to #demos.
+Recorded - Sarah records a version with text overlay showing "click to filter by date" and posts to #demos.
 
-Feedback: 5 people comment on Loom with specific feedback. Sarah responds: "Based on feedback, moving the date filter here [screenshot]. See next week's update."
+Feedback - 5 people comment on Loom with specific feedback. Sarah responds: "Based on feedback, moving the date filter here [screenshot]. See next week's update."
 
-Impact: Demo took 20 minutes total time. Feedback led to a small UX change. Sarah felt celebrated. The team sees work in progress, not just finished features.
+Impact - Demo took 20 minutes total time. Feedback led to a small UX change. Sarah felt celebrated. The team sees work in progress, not just finished features.
 
-Example 2: Monthly Showcase (Distributed Across Timezones)
+Example 2 - Monthly Showcase (Distributed Across Timezones)
 
 Global team, 50 people. Showcase on the last Thursday of each month, 6pm UTC (covers 8am-3pm across major locations).
 
@@ -214,31 +214,31 @@ Format:
 - 6:45-7pm: Closing remarks, highlight themes
 - Recording posted by next morning with feedback form
 
-Feedback collection: Form with 4 questions:
+Feedback collection - Form with 4 questions:
 1. What impressed you most?
 2. What would you add or change?
 3. Do you want to collaborate on any of these projects?
 4. Topic ideas for next month's showcase?
 
-Response rate: 30-40% (good for async feedback). Feedback summarized in shared doc, shared with presenters.
+Response rate - 30-40% (good for async feedback). Feedback summarized in shared doc, shared with presenters.
 
-Impact: Showcases build culture. New engineers see what's happening across the company. Teams find collaboration opportunities through the feedback. The structured format (same time, same format) creates a ritual.
+Impact - Showcases build culture. New engineers see what's happening across the company. Teams find collaboration opportunities through the feedback. The structured format (same time, same format) creates a ritual.
 
-Example 3: Async Demo Rotation (Highly Distributed Team)
+Example 3 - Async Demo Rotation (Highly Distributed Team)
 
 Team spanning 15+ timezones. No good overlap time exists. Weekly async demos instead.
 
 Schedule:
 - Monday morning: Post demo from whoever's presenting. Loom video, 5-10 minutes.
-- Monday-Wednesday: Feedback collected via form.
-- Thursday: Presenter reads feedback, responds.
-- Friday: Team syncs on feedback in async Slack thread.
+- Monday-Wednesday - Feedback collected via form.
+- Thursday - Presenter reads feedback, responds.
+- Friday - Team syncs on feedback in async Slack thread.
 
-Advantage: Everyone sees everything. No time pressure to watch live. Feedback is organized (form vs. scattered Slack). Presenter has time to thoughtfully respond.
+Advantage - Everyone sees everything. No time pressure to watch live. Feedback is organized (form vs. scattered Slack). Presenter has time to thoughtfully respond.
 
-Disadvantage: Less spontaneous interaction. Less of the "live energy."
+Disadvantage - Less spontaneous interaction. Less of the "live energy."
 
-Make it work: Have monthly or quarterly live showcases to maintain synchronous connection, even if most demos are async.
+Make it work - Have monthly or quarterly live showcases to maintain synchronous connection, even if most demos are async.
 
 Tools for Remote Demos
 
@@ -276,15 +276,15 @@ Mentor new presenters. If someone's not great at demos, help them practice. This
 
 Running Demos in Different Business Contexts
 
-For product teams: Demo new features, show customer feedback, explain trade-off decisions.
+For product teams - Demo new features, show customer feedback, explain trade-off decisions.
 
-For engineering teams: Demo infrastructure improvements, architectural changes, refactoring payoffs.
+For engineering teams - Demo infrastructure improvements, architectural changes, refactoring payoffs.
 
-For design teams: Demo design systems, new components, usability research findings.
+For design teams - Demo design systems, new components, usability research findings.
 
-For data teams: Demo dashboards, query performance improvements, data pipeline changes.
+For data teams - Demo dashboards, query performance improvements, data pipeline changes.
 
-For support/ops teams: Demo new processes, documentation improvements, tooling changes.
+For support/ops teams - Demo new processes, documentation improvements, tooling changes.
 
 Each context has different audiences. Tailor the demo to what matters to them. Engineers care about architecture and performance. Product cares about user impact. Leadership cares about business outcomes.
 

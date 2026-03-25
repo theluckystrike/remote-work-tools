@@ -23,7 +23,7 @@ Table of Contents
 - [Prerequisites](#prerequisites)
 - [Knowledge Transfer Tools Comparison](#knowledge-transfer-tools-comparison)
 - [Screen Recording Best Practices for Knowledge Handoff](#screen-recording-best-practices-for-knowledge-handoff)
-- [Advanced Handoff Documentation: Runbooks](#advanced-handoff-documentation-runbooks)
+- [Advanced Handoff Documentation - Runbooks](#advanced-handoff-documentation-runbooks)
 - [Troubleshooting](#troubleshooting)
 
 Prerequisites
@@ -36,7 +36,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Start the Handoff Process Early
+Step 1 - Start the Handoff Process Early
 
 The most critical factor in successful knowledge handoff is timing. As soon as you know a developer is leaving, initiate the process. Ideally, provide two to three weeks for knowledge transfer. Rushed handoffs result in gaps that surface as production issues weeks later.
 
@@ -50,7 +50,7 @@ Begin with a knowledge audit. Work with the departing developer to identify:
 
 Create a prioritized list based on business impact. Critical systems that only one person understands demand immediate attention.
 
-Step 2: Documenting Technical Knowledge
+Step 2 - Documenting Technical Knowledge
 
 Technical knowledge falls into two categories: current state documentation and historical context. Both matter, but teams often focus on the former while ignoring the why behind decisions.
 
@@ -80,13 +80,13 @@ Identify areas of the codebase where the departing developer has unique expertis
 
 Record these sessions. Screen recordings with audio commentary become invaluable references for future developers.
 
-Step 3: Create a Handoff Document
+Step 3 - Create a Handoff Document
 
 A structured handoff document ensures nothing falls through the cracks. Here's a template you can adapt:
 
 ```markdown
 Developer Handoff Document
-Step 4: [Developer Name] - Last Day: [Date]
+Step 4 - [Developer Name] - Last Day: [Date]
 
 Systems Owned
 | System | Criticality | Documentation Status |
@@ -117,7 +117,7 @@ Why we chose PostgreSQL over MongoDB: [explanation]
 Decision to refactor auth in 2024: [explanation]
 ```
 
-Step 5: Transferring Institutional Knowledge
+Step 5 - Transferring Institutional Knowledge
 
 Technical documentation captures what systems do, but institutional knowledge covers how your team works. This context often exists only in people's heads.
 
@@ -149,36 +149,36 @@ Remote developers often build relationships with external contacts. Note:
 - Open source maintainers they interact with
 - Internal stakeholders in other departments
 
-Step 6: Use Knowledge Management Tools
+Step 6 - Use Knowledge Management Tools
 
 Several tools help capture and preserve knowledge effectively.
 
-Wikis and Documentation Sites: GitBook, Notion, or Confluence serve as centralized knowledge bases. Encourage developers to maintain living documents rather than static files.
+Wikis and Documentation Sites - GitBook, Notion, or Confluence serve as centralized knowledge bases. Encourage developers to maintain living documents rather than static files.
 
 Architecture Decision Records (ADRs): A lightweight practice for documenting technical decisions. Each ADR follows a standard format:
 
 ```markdown
-ADR-001: Use PostgreSQL for Primary Database
+ADR-001 - Use PostgreSQL for Primary Database
 
-Step 7: Status
+Step 7 - Status
 Accepted
 
-Step 8: Context
+Step 8 - Context
 We need a database for the core application that handles user data, transactions, and reporting.
 
-Step 9: Decision
+Step 9 - Decision
 We will use PostgreSQL as our primary database.
 
-Step 10: Consequences
+Step 10 - Consequences
 - Pro: Strong ACID compliance for transactions
 - Pro: Excellent JSON support for flexible schemas
 - Con: Requires more setup than SQLite
 - Con: Horizontal scaling requires more effort
 ```
 
-Video Documentation: Loom and similar tools enable quick video walkthroughs. A 10-minute screen recording explaining a complex process often communicates more than pages of written documentation.
+Video Documentation - Loom and similar tools enable quick video walkthroughs. A 10-minute screen recording explaining a complex process often communicates more than pages of written documentation.
 
-Step 11: Post-Departure Validation
+Step 11 - Post-Departure Validation
 
 After a developer leaves, verify your knowledge base actually works. Assign someone to:
 
@@ -188,7 +188,7 @@ After a developer leaves, verify your knowledge base actually works. Assign some
 
 This validation catches gaps while they're fixable. Create a feedback loop where the person covering these responsibilities documents what was missing.
 
-Step 12: Build a Culture of Documentation
+Step 12 - Build a Culture of Documentation
 
 The best handoff is one that's unnecessary because knowledge was captured incrementally. Encourage documentation as part of daily work:
 
@@ -243,7 +243,7 @@ Example structure for a 5-minute walkthrough on database migration:
 [240-300s] Monitoring and validation after migration complete
 ```
 
-Advanced Handoff Documentation: Runbooks
+Advanced Handoff Documentation - Runbooks
 
 A runbook is a script for handling recurring operational tasks. Unlike general documentation, runbooks format tasks as step-by-step procedures that anyone can follow.
 
@@ -252,69 +252,69 @@ Runbooks work best for high-stakes, low-frequency tasks that must be executed co
 Example runbook structure for a payment system outage:
 
 ```markdown
-RUNBOOK: Payment Service Outage Response
+RUNBOOK - Payment Service Outage Response
 
-Step 13: Severity: Critical
+Step 13 - Severity: Critical
 
-Step 14: Trigger Conditions
+Step 14 - Trigger Conditions
 - Payment success rate drops below 95% for 5+ minutes
 - Payment processing latency exceeds 10 seconds
 - Customer complaints arrive faster than 10/minute in Slack
 
-Step 15: Pre-Steps (Do these before escalating)
+Step 15 - Pre-Steps (Do these before escalating)
 1. Check Datadog dashboard: /links/payment-system-health
 2. Query last 100 failed transactions: `SELECT * FROM payment_errors LIMIT 100`
 3. Check for recent deployments: `git log --oneline origin/main -10`
 
-Step 16: If Database Connection Timeout
+Step 16 - If Database Connection Timeout
 1. SSH to payment-db-primary
 2. Run: `show processlist` to check active connections
 3. If >800 connections, kill idle: `KILL QUERY <process_id>`
 
-Step 17: If Service Unavailable
+Step 17 - If Service Unavailable
 1. Check deployment status: `kubectl get deployment payment-api`
 2. If pods stuck terminating, force: `kubectl delete pod <pod-name> --grace-period=0 --force`
 
-Step 18: Escalation
-Call on-call engineer: ${ONCALL_ENGINEER_PHONE}
+Step 18 - Escalation
+Call on-call engineer - ${ONCALL_ENGINEER_PHONE}
 ```
 
 Runbooks reduce decision-making during high-stress situations. The departing developer's knowledge, encoded as a procedure, becomes executable by their replacement.
 
-Step 19: Knowledge Audit Template
+Step 19 - Knowledge Audit Template
 
 Before the handoff meeting with the departing developer, use this template to ensure nothing gets missed:
 
 ```markdown
-Knowledge Audit: [Developer Name]
+Knowledge Audit - [Developer Name]
 
-Step 20: Critical Path Systems (Will cause revenue impact if down)
+Step 20 - Critical Path Systems (Will cause revenue impact if down)
 - [ ] System: [Name]
   - Owner: [Developer Name]
   - Backup: [Assigned to]
   - Monitoring dashboard: [URL]
   - Escalation contact: [Name/Phone]
 
-Step 21: High Maintenance Systems (Frequent operational overhead)
+Step 21 - High Maintenance Systems (Frequent operational overhead)
 - [ ] System: [Name]
   - Frequency of intervention: [Daily/Weekly/Monthly]
   - Common issues: [List]
   - Typical resolution time: [X minutes]
 
-Step 22: Knowledge Held by One Person Only
+Step 22 - Knowledge Held by One Person Only
 - [ ] Technical area: [Name]
   - Why only one person? [Decision context]
   - Documented where? [URL]
   - Can be owned by: [Name] (starting date)
 
-Step 23: External Dependencies (Vendor relationships, API keys)
+Step 23 - External Dependencies (Vendor relationships, API keys)
 - [ ] Service: [Name]
   - Account owner: [Developer Name]
   - Key contact: [Vendor name/email]
   - Auth method: [OAuth/API key/...]
   - Renewal date: [Date]
 
-Step 24: Recent Decision Making
+Step 24 - Recent Decision Making
 - [ ] Major decision: [What changed]
   - Made by: [Developer Name]
   - Decision record: [URL to ADR or Slack thread]
@@ -323,19 +323,19 @@ Step 24: Recent Decision Making
 
 Complete this audit collaboratively with the departing developer. Their input on what matters most prevents you from over-documenting low-stakes areas.
 
-Step 25: Measuring Handoff Success: 30-60-90 Days
+Step 25 - Measuring Handoff Success: 30-60-90 Days
 
 Don't assume the handoff worked just because the developer left. Measure success through a structured follow-up process:
 
-Day 30: The replacement developer can answer basic questions about the systems without consulting external resources.
+Day 30 - The replacement developer can answer basic questions about the systems without consulting external resources.
 
-Day 60: The replacement has made at least one independent decision in the domain (bug fix, minor feature, infrastructure adjustment) that didn't require approval from other senior engineers.
+Day 60 - The replacement has made at least one independent decision in the domain (bug fix, minor feature, infrastructure adjustment) that didn't require approval from other senior engineers.
 
-Day 90: The replacement is confident enough to handle that domain solo during on-call shifts.
+Day 90 - The replacement is confident enough to handle that domain solo during on-call shifts.
 
 If you don't hit these milestones, schedule additional mentoring sessions or pair programming. It's far cheaper than having two people context-switching back to the old developer's systems.
 
-Step 26: Build Preventive Documentation Practices
+Step 26 - Build Preventive Documentation Practices
 
 The best handoff is one that's unnecessary because knowledge was captured continuously:
 

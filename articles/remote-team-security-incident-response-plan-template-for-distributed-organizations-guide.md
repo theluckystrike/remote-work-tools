@@ -43,7 +43,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Incident Severity Classification
+Step 1 - Incident Severity Classification
 
 Before defining workflows, establish clear severity levels. This prevents over-response to minor issues and under-response to critical incidents.
 
@@ -87,9 +87,9 @@ severity_levels:
       - "Security scan findings"
 ```
 
-Step 2: The Incident Response Workflow
+Step 2 - The Incident Response Workflow
 
-Phase 1: Detection and Triage (0-15 minutes)
+Phase 1 - Detection and Triage (0-15 minutes)
 
 When an alert fires, the first responder follows this process:
 
@@ -123,7 +123,7 @@ def handle_security_alert(alert):
     return incident
 ```
 
-Phase 2: Containment (15 minutes - 1 hour)
+Phase 2 - Containment (15 minutes - 1 hour)
 
 Once a responder is engaged, containment takes priority over root cause analysis. In distributed teams, containment decisions often need to be made by whoever is available and qualified, not necessarily the most senior person.
 
@@ -166,16 +166,16 @@ echo " Containment complete for $INCIDENT_ID
 - Enhanced logging enabled
 - Forensic snapshots taken
 
-Next: Awaiting forensics assignment." | \
+Next - Awaiting forensics assignment." | \
   webhook_send --channel "#security-incidents"
 ```
 
-Phase 3: Investigation and Communication
+Phase 3 - Investigation and Communication
 
 For remote teams, investigation documentation is critical because your teammates might be asleep when you discover the issue. Everything should be traceable from the incident record.
 
 ```
-Step 3: Incident Investigation Template
+Step 3 - Incident Investigation Template
 
 What We Know So Far
 [Document confirmed facts with timestamps]
@@ -200,12 +200,12 @@ Updates (post chronologically)
 - 15:10 UTC: Engaged AWS support for additional visibility
 ```
 
-Phase 4: Resolution and Post-Incident
+Phase 4 - Resolution and Post-Incident
 
 After containment and investigation, document the resolution and conduct a post-incident review. For distributed teams, this review should happen asynchronously to give everyone time to contribute thoughtful input.
 
 ```markdown
-Step 4: Post-Incident Review Template
+Step 4 - Post-Incident Review Template
 
 Incident Overview
 What happened?
@@ -240,17 +240,17 @@ Lessons Learned
 [Any process or tooling improvements that emerged]
 ```
 
-Step 5: Communication Templates for Distributed Teams
+Step 5 - Communication Templates for Distributed Teams
 
 Initial Alert Message
 
 ```
  SECURITY INCIDENT: [Brief Title]
 
-Severity: P[1-4] - [Critical/High/Medium/Low]
-Status: Investigating
-Affected: [Systems/Services]
-Responder: @[username]
+Severity - P[1-4] - [Critical/High/Medium/Low]
+Status - Investigating
+Affected - [Systems/Services]
+Responder - @[username]
 
 We're investigating a potential security incident. No immediate action required for most team members.
 
@@ -264,15 +264,15 @@ Status Update Template
 ```
  INCIDENT UPDATE - [Timestamp]
 
-Current Status: [Investigating/Containment/Resolved]
-What's New: [What changed since last update]
-Next Steps: [What's happening next]
-ETA for Next Update: [Time or "Will update when significant changes occur"]
+Current Status - [Investigating/Containment/Resolved]
+What's New - [What changed since last update]
+Next Steps - [What's happening next]
+ETA for Next Update - [Time or "Will update when significant changes occur"]
 
-Questions?: Reply in thread or DM @responder
+Questions? - Reply in thread or DM @responder
 ```
 
-Step 6: Key Automation Recommendations
+Step 6 - Key Automation Recommendations
 
 For remote teams, automation reduces the burden of incident response and ensures consistent handling:
 
@@ -281,7 +281,7 @@ For remote teams, automation reduces the burden of incident response and ensures
 3. Runbook linking: Map alerts to relevant runbooks so responders know what to do immediately
 4. Timeline logging: Automatically log all actions to the incident timeline to maintain the audit trail
 
-Step 7: Test Your Plan
+Step 7 - Test Your Plan
 
 A plan that isn't tested is just a document. For distributed teams, test your incident response through:
 

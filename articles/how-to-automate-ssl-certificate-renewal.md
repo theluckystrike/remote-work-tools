@@ -269,7 +269,7 @@ jobs:
       - name: Notify deployment servers
         run: |
           curl -X POST \
-            -H "Authorization: Bearer ${{ secrets.DEPLOY_TOKEN }}" \
+            -H "Authorization - Bearer ${{ secrets.DEPLOY_TOKEN }}" \
             https://deploy.yourcompany.com/api/reload-ssl
 ```
 

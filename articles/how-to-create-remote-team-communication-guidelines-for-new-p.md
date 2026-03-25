@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ADR-003: Use PostgreSQL for Primary Data Store"
+title: "ADR-003 - Use PostgreSQL for Primary Data Store"
 description: "A practical guide for developers and technical teams to establish effective communication protocols when launching new remote projects in 2026"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -21,8 +21,8 @@ Table of Contents
 - [Why Communication Guidelines Matter for New Remote Projects](#why-communication-guidelines-matter-for-new-remote-projects)
 - [Core Components of Remote Team Communication Guidelines](#core-components-of-remote-team-communication-guidelines)
 - [Communication Channels](#communication-channels)
-- [Feature: User Authentication Flow](#feature-user-authentication-flow)
-- [Status: Accepted](#status-accepted)
+- [Feature - User Authentication Flow](#feature-user-authentication-flow)
+- [Status - Accepted](#status-accepted)
 - [Context](#context)
 - [Decision](#decision)
 - [Consequences](#consequences)
@@ -88,16 +88,16 @@ Required context in every message:
 Example of a well-structured async update:
 
 ```markdown
-Feature: User Authentication Flow
+Feature - User Authentication Flow
 
-Status: In Progress
-Blockers: None
-Updates: Completed API endpoint for login; currently working on session token refresh
+Status - In Progress
+Blockers - None
+Updates - Completed API endpoint for login; currently working on session token refresh
 
-Question for reviewer: Should session tokens refresh on every request or only after 1 hour of activity? [Link to mockups]
+Question for reviewer - Should session tokens refresh on every request or only after 1 hour of activity? [Link to mockups]
 
-Tomorrow: Complete password reset flow
-Link: [Figma designs] [API spec]
+Tomorrow - Complete password reset flow
+Link - [Figma designs] [API spec]
 ```
 
 3. Meeting Protocol for Synchronous Sessions
@@ -159,9 +159,9 @@ Required documentation artifacts:
 Example ADR format for remote teams:
 
 ```markdown
-ADR-003: Use PostgreSQL for Primary Data Store
+ADR-003 - Use PostgreSQL for Primary Data Store
 
-Status: Accepted
+Status - Accepted
 
 Context
 Need persistent storage for user data and session state.
@@ -231,9 +231,9 @@ Adapting Guidelines Over Time
 
 Communication guidelines for new projects should include a built-in review cadence. Schedule explicit discussions to adjust norms as the project matures.
 
-Week 1: Confirm guidelines work, make quick adjustments
-End of Month 1: Full review, incorporate lessons learned
-Quarterly: Compare with other projects, share what works
+Week 1 - Confirm guidelines work, make quick adjustments
+End of Month 1 - Full review, incorporate lessons learned
+Quarterly - Compare with other projects, share what works
 
 Frequently Asked Questions
 

@@ -19,8 +19,8 @@ Hybrid sprint ceremonies require deliberate infrastructure and cultural changes 
 
 Table of Contents
 
-- [The Core Problem: Participation Asymmetry](#the-core-problem-participation-asymmetry)
-- [Infrastructure Setup: Equalize the Experience](#infrastructure-setup-equalize-the-experience)
+- [The Core Problem - Participation Asymmetry](#the-core-problem-participation-asymmetry)
+- [Infrastructure Setup - Equalize the Experience](#infrastructure-setup-equalize-the-experience)
 - [Sprint Ceremony-Specific Strategies](#sprint-ceremony-specific-strategies)
 - [Cultural Norms That Make or Break Hybrid Ceremonies](#cultural-norms-that-make-or-break-hybrid-ceremonies)
 - [When to Go Fully Async](#when-to-go-fully-async)
@@ -33,13 +33,13 @@ Table of Contents
 - [Common Hybrid Ceremony Pitfalls and Fixes](#common-hybrid-ceremony-pitfalls-and-fixes)
 - [Measuring Hybrid Ceremony Health Beyond Participation Time](#measuring-hybrid-ceremony-health-beyond-participation-time)
 
-The Core Problem: Participation Asymmetry
+The Core Problem - Participation Asymmetry
 
 When half your team joins from a conference room and the other half from their home offices, several things go wrong quickly. Remote participants struggle to interject during sidebar conversations. In-office team members unconsciously default to speaking with whoever is physically nearby. The facilitator naturally makes eye contact with the room rather than the camera. Over time, remote developers disengage, speak less frequently in retrospectives, and feel like second-class citizens in their own team's ceremonies.
 
 The fix requires deliberate infrastructure decisions, help techniques, and cultural norms that treat remote participation as a first-class concern.
 
-Infrastructure Setup: Equalize the Experience
+Infrastructure Setup - Equalize the Experience
 
 Your technical setup determines whether hybrid ceremonies work at all. The goal is eliminating any advantage to being in the office.
 
@@ -69,7 +69,7 @@ This guarantees equal airtime and forces the group to listen rather than interru
 
 Sprint Ceremony-Specific Strategies
 
-Daily Standups: Timeboxed and Asynchronous
+Daily Standups - Timeboxed and Asynchronous
 
 The daily standup is the ceremony most damaged by hybrid dysfunction. The typical 15-minute meeting becomes a 25-minute ordeal when half the team participates remotely. Consider moving to a hybrid approach:
 
@@ -92,7 +92,7 @@ const standupPrompt = {
 
 Run a very short (10 minute) synchronous standup only for blockers that genuinely require discussion. Everyone posts their update in writing first, then the synchronous meeting addresses only cross-functional blockers. This respects everyone's time and ensures async team members in different time zones can contribute meaningfully.
 
-Sprint Planning: Split the Session
+Sprint Planning - Split the Session
 
 Full-day sprint planning sessions exhaust remote participants. Break sprint planning into two shorter sessions:
 
@@ -101,7 +101,7 @@ Full-day sprint planning sessions exhaust remote participants. Break sprint plan
 
 Between sessions, allow asynchronous clarification questions in your project management tool. Remote team members often think more clearly when they can write out their questions rather than improvising them on the spot.
 
-Retrospectives: Anonymous Input First
+Retrospectives - Anonymous Input First
 
 Retrospectives expose the worst hybrid dynamics. In-office team members riff on ideas verbally while remote participants type into a collaborative document. The verbal contributors shape the narrative before remote voices are heard.
 
@@ -113,7 +113,7 @@ Start every retrospective with an anonymous async phase:
 
 This reverses the typical power dynamic and ensures quiet contributors have equal influence.
 
-Sprint Review: Equal Demonstration Opportunities
+Sprint Review - Equal Demonstration Opportunities
 
 For sprint reviews where developers demonstrate completed work, ensure remote team members have equal showcase time. If you're using screen sharing, switch between in-office demos and remote demos deliberately. Better yet, have remote developers demonstrate their work first. this signals that remote contributions are valued equally.
 
@@ -121,11 +121,11 @@ Cultural Norms That Make or Break Hybrid Ceremonies
 
 Technical infrastructure solves the easy problems. The harder work is establishing cultural norms that make remote participation feel equitable.
 
-The "Remote First" Rule: When making any decision during a ceremony, explicitly ask "What did our remote team members think?" before moving on. This simple practice forces consideration of perspectives that might otherwise be overlooked.
+The "Remote First" Rule - When making any decision during a ceremony, explicitly ask "What did our remote team members think?" before moving on. This simple practice forces consideration of perspectives that might otherwise be overlooked.
 
-Chat as a First-Class Channel: designate someone (rotate this role) to monitor the video conferencing chat and read questions aloud. Remote participants often type questions rather than interrupting, but those questions disappear if no one actively surfaces them.
+Chat as a First-Class Channel - designate someone (rotate this role) to monitor the video conferencing chat and read questions aloud. Remote participants often type questions rather than interrupting, but those questions disappear if no one actively surfaces them.
 
-Documentation Accountability: Assign a rotating note-taker role, but explicitly include remote participants in this rotation. When remote team members are responsible for capturing decisions, they engage more deeply and the documentation improves.
+Documentation Accountability - Assign a rotating note-taker role, but explicitly include remote participants in this rotation. When remote team members are responsible for capturing decisions, they engage more deeply and the documentation improves.
 
 When to Go Fully Async
 
@@ -168,24 +168,24 @@ Equipment Purchasing Guide and Budget
 Setting up an effective hybrid meeting room requires investment. Here's a realistic breakdown for a team of 8-10 people:
 
 Budget-Conscious Setup ($1,500-$2,500)
-- Webcam: Logitech C920 HD ($100-150). entry-level but adequate for small groups
-- Microphone: Audio-Technica AT2020 with USB adapter ($150). captures remote voices clearly
-- Display: 55" 4K TV ($400-600). sufficient for seeing remote participants from distance
-- Lighting: 2x LED panels ($200-300). inexpensive but effective for video clarity
+- Webcam - Logitech C920 HD ($100-150). entry-level but adequate for small groups
+- Microphone - Audio-Technica AT2020 with USB adapter ($150). captures remote voices clearly
+- Display - 55" 4K TV ($400-600). sufficient for seeing remote participants from distance
+- Lighting - 2x LED panels ($200-300). inexpensive but effective for video clarity
 - Connection: USB hub with ethernet adapter ($50-100)
 - Miscellaneous: cables, HDMI switcher, cable management ($100-200)
 
-Total: ~$1,500-1,500
+Total - ~$1,500-1,500
 
 Mid-Range Professional Setup ($3,000-$5,000)
-- Webcam: Logitech Rally ($800-900). 90-degree field of view, auto-framing
-- Microphone: Shure MV7 ($300). professional podcast-grade audio
-- Speaker: Harman Kardon Citation Studio ($200). quality audio for remote voices
+- Webcam - Logitech Rally ($800-900). 90-degree field of view, auto-framing
+- Microphone - Shure MV7 ($300). professional podcast-grade audio
+- Speaker - Harman Kardon Citation Studio ($200). quality audio for remote voices
 - Display: 65" 4K TV or projector with screen ($1,000-1,500)
 - Lighting: 4x professional LED lights with stands ($400-600)
 - Connection: Dedicated meeting room computer with docking ($800-1,200)
 
-Total: ~$4,000-4,500
+Total - ~$4,000-4,500
 
 Enterprise Setup ($7,000+)
 - Camera system: Cisco Room Kit ($4,000+). multi-camera framing, auto-zoom
@@ -276,17 +276,17 @@ Async Retrospectives with Anonymous Input First
 
 Common Hybrid Ceremony Pitfalls and Fixes
 
-Pitfall: In-office team members naturally cluster conversations at the whiteboard while remote team sits silent.
-Fix: Ban whiteboards in hybrid meetings. Use shared Miro board instead, requiring all thinking to be visible to remote participants.
+Pitfall - In-office team members naturally cluster conversations at the whiteboard while remote team sits silent.
+Fix - Ban whiteboards in hybrid meetings. Use shared Miro board instead, requiring all thinking to be visible to remote participants.
 
-Pitfall: Remote participant unmute to ask a question but in-office person is already talking.
-Fix: Implement hand-raise in video conference. Facilitator explicitly calls on remote participants with raised hands.
+Pitfall - Remote participant unmute to ask a question but in-office person is already talking.
+Fix - Implement hand-raise in video conference. Facilitator explicitly calls on remote participants with raised hands.
 
-Pitfall: Meeting ends and someone says "We'll handle that offline." Remote people miss the decision.
-Fix: Establish norm: "No offline decisions about sprint. Everything documented in Jira or Miro before meeting ends."
+Pitfall - Meeting ends and someone says "We'll handle that offline." Remote people miss the decision.
+Fix - Establish norm: "No offline decisions about sprint. Everything documented in Jira or Miro before meeting ends."
 
-Pitfall: Remote participant drops due to connection issue, missed 5 minutes of standup, feels excluded.
-Fix: Record all ceremonies. Person who disconnects watches the 5-minute segment asynchronously.
+Pitfall - Remote participant drops due to connection issue, missed 5 minutes of standup, feels excluded.
+Fix - Record all ceremonies. Person who disconnects watches the 5-minute segment asynchronously.
 
 Measuring Hybrid Ceremony Health Beyond Participation Time
 

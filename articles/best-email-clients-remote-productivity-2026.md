@@ -66,7 +66,7 @@ Preferences → Keyboard Shortcuts → enable Gmail-style shortcuts:
   ?     → keyboard shortcut help
 ```
 
-Best for: Mac-only professionals who live in Gmail and want a native, fast interface.
+Best for - Mac-only professionals who live in Gmail and want a native, fast interface.
 
 Superhuman ($30/mo)
 
@@ -78,13 +78,13 @@ Workflow setup:
 
 ```
 Settings → Snippets → New snippet
-Name: thankscc
-Body: Thanks, confirmed. I'll follow up by end of week.
+Name - thankscc
+Body - Thanks, confirmed. I'll follow up by end of week.
 
-To trigger: type /thankscc in compose → Tab to expand
+To trigger - type /thankscc in compose → Tab to expand
 ```
 
-Best for: founders, executives, or anyone whose inbox is genuinely their primary work surface.
+Best for - founders, executives, or anyone whose inbox is genuinely their primary work surface.
 
 Thunderbird (free, open source)
 
@@ -113,7 +113,7 @@ Tools → Add-ons → search for:
   - "X-unsent". draft safety net
 ```
 
-Best for: developers and privacy-focused remote workers who want full control, no subscription, and local storage of all email.
+Best for - developers and privacy-focused remote workers who want full control, no subscription, and local storage of all email.
 
 Airmail 5 (macOS/iOS, $30 one-time)
 
@@ -123,20 +123,20 @@ Sample automation rule:
 
 ```
 Settings → Actions → New Action
-Condition: Sender contains "@stripe.com"
+Condition - Sender contains "@stripe.com"
 Actions:
   → Mark as read
   → Move to label "Payments"
   → Forward to receipts@yourapp.com
 ```
 
-Best for: freelancers managing multiple clients who want email to trigger actions in other tools automatically.
+Best for - freelancers managing multiple clients who want email to trigger actions in other tools automatically.
 
 Apple Mail + MailMate (macOS)
 
 Apple Mail handles the basics with zero friction on macOS. For power users who need IMAP-level control, MailMate pairs with it or replaces it.
 
-MailMate is terminal-influenced: everything is configurable via text files, keyboard shortcuts are completely remappable, and it handles mailing lists better than any other client.
+MailMate is terminal-influenced - everything is configurable via text files, keyboard shortcuts are completely remappable, and it handles mailing lists better than any other client.
 
 ```bash
 Install MailMate
@@ -151,7 +151,7 @@ Sample binding. archive with 'a'
 }
 ```
 
-Best for: developers who want a keyboard-first, mailing-list-aware client and are comfortable editing config files.
+Best for - developers who want a keyboard-first, mailing-list-aware client and are comfortable editing config files.
 
 Proton Mail (web + desktop, free / $4-10/mo)
 
@@ -164,13 +164,13 @@ Install Proton Mail Bridge (routes Proton through IMAP to any client)
 brew install --cask protonmail-bridge
 
 Bridge listens locally on 127.0.0.1
-IMAP: 127.0.0.1:1143 (SSL)
-SMTP: 127.0.0.1:1025 (SSL)
+IMAP - 127.0.0.1:1143 (SSL)
+SMTP - 127.0.0.1:1025 (SSL)
 
 Then add to Thunderbird or Apple Mail as a local IMAP account
 ```
 
-Best for: remote workers in legal, finance, healthcare, or any field where email confidentiality is a compliance requirement.
+Best for - remote workers in legal, finance, healthcare, or any field where email confidentiality is a compliance requirement.
 
 Gmail Web (free)
 
@@ -181,17 +181,17 @@ Essential filters to create:
 ```
 Settings → See all settings → Filters and Blocked Addresses → Create new filter
 
-Filter 1: Mute automated notifications
-From: (noreply OR no-reply OR notifications@)
-Action: Skip Inbox, apply label "Automated"
+Filter 1 - Mute automated notifications
+From - (noreply OR no-reply OR notifications@)
+Action - Skip Inbox, apply label "Automated"
 
-Filter 2: Flag client emails
-From: (@clientdomain.com)
-Action: Star, never send to spam
+Filter 2 - Flag client emails
+From - (@clientdomain.com)
+Action - Star, never send to spam
 
-Filter 3: Archive newsletters
-Has the words: unsubscribe
-Action: Skip Inbox, apply label "Newsletters"
+Filter 3 - Archive newsletters
+Has the words - unsubscribe
+Action - Skip Inbox, apply label "Newsletters"
 ```
 
 Comparison by Use Case
@@ -253,10 +253,10 @@ The Inbox Zero Variant for Remote Work
 
 Traditional inbox zero works for support teams managing 200+ daily emails. Remote workers with 30-50 daily emails need a different model:
 
-Workflow: Triage → Act → Archive within 48 hours
+Workflow - Triage → Act → Archive within 48 hours
 
 ```
-Day 1: Email arrives
+Day 1 - Email arrives
   → Quick scan (< 30 seconds per email)
   → Sort into:
      • Act today (reply now, takes < 2 minutes)
@@ -264,7 +264,7 @@ Day 1: Email arrives
      • Reference (archive with star)
      • FYI (archive immediately)
 
-Day 2: Snoozed emails resurface
+Day 2 - Snoozed emails resurface
   → Process accumulated replies
   → Handle week-long tasks
   → Archive batch (10-30 at once, way faster than individual)
@@ -281,9 +281,9 @@ Superhuman's split inbox (important vs everything else) is a concept you can imp
 Using Gmail labels + filters:
 
 ```
-Create a label: "Important - Action Needed"
+Create a label - "Important - Action Needed"
 Create filter:
-  From: (boss@company.com OR key_client@domain.com OR me@myfreelance.com)
+  From - (boss@company.com OR key_client@domain.com OR me@myfreelance.com)
   To: important
   Action: Apply label, star, alert sound enabled
 ```
@@ -323,9 +323,9 @@ Multi-Client Inbox Separation
 Instead of one inbox handling client work + personal + business development, split by account:
 
 ```
-Gmail Account 1: Client A + Client B (shared contract work)
-Gmail Account 2: Personal + Community (open source, mentoring)
-Gmail Account 3: Freelance admin (invoicing, proposals, accounting)
+Gmail Account 1 - Client A + Client B (shared contract work)
+Gmail Account 2 - Personal + Community (open source, mentoring)
+Gmail Account 3 - Freelance admin (invoicing, proposals, accounting)
 
 Airmail settings:
   Client A + B → Sync now (5 minute check-in)
@@ -342,17 +342,17 @@ Automatic Invoice and Receipt Handling
 Airmail's automation rules can route financial emails to external systems:
 
 ```
-Rule 1: Incoming invoice
-  From: contains @stripe.com OR @square.com
+Rule 1 - Incoming invoice
+  From - contains @stripe.com OR @square.com
   Actions:
     • Mark as read
     • Forward to receipts@notion.email (auto-save to Notion DB)
     • Move to "Payments" label
     • No notification (it's handled)
 
-Rule 2: Receipt pattern
+Rule 2 - Receipt pattern
   Subject: contains "receipt" OR "invoice" OR "order confirmation"
-  From: NOT (boss@company.com)
+  From - NOT (boss@company.com)
   Actions:
     • Forward to accountant@taxprep.com (auto-forward for bookkeeping)
     • Archive
@@ -419,7 +419,7 @@ Encrypted clients (Proton Mail):
 - Slower, but required for legal/medical/finance industry compliance
 - Separate Proton account just for confidential work makes sense
 
-For hybrid approaches: Thunderbird for sensitive client work, Superhuman for high-volume team coordination.
+For hybrid approaches - Thunderbird for sensitive client work, Superhuman for high-volume team coordination.
 
 
 Related Articles

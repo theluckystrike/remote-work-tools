@@ -23,10 +23,10 @@ Table of Contents
 - [Understanding RSI in Programming](#understanding-rsi-in-programming)
 - [Essential Wrist Exercises for Developers](#essential-wrist-exercises-for-developers)
 - [Ergonomic Adjustments for Your Workspace](#ergonomic-adjustments-for-your-workspace)
-- [Break Reminders: Code Snippets](#break-reminders-code-snippets)
+- [Break Reminders - Code Snippets](#break-reminders-code-snippets)
 - [Building a Prevention Routine](#building-a-prevention-routine)
 - [When to Seek Professional Help](#when-to-seek-professional-help)
-- [Advanced Prevention: The 20-20-20 Rule and Beyond](#advanced-prevention-the-20-20-20-rule-and-beyond)
+- [Advanced Prevention - The 20-20-20 Rule and Beyond](#advanced-prevention-the-20-20-20-rule-and-beyond)
 - [Measuring Your Progress](#measuring-your-progress)
 - [Ergonomic Keyboard and Mouse Selection](#ergonomic-keyboard-and-mouse-selection)
 - [Exercises for Specific Programming Tasks](#exercises-for-specific-programming-tasks)
@@ -51,39 +51,39 @@ Perform these exercises during short breaks throughout your day. Each takes less
 
 1. Wrist Circles
 
-How to do it: Extend your arms in front of you. Make fists and rotate your wrists in circular motions, 10 circles clockwise, then 10 counterclockwise.
+How to do it - Extend your arms in front of you. Make fists and rotate your wrists in circular motions, 10 circles clockwise, then 10 counterclockwise.
 
-Why it helps: Lubricates the wrist joints and promotes blood flow to the tendons.
+Why it helps - Lubricates the wrist joints and promotes blood flow to the tendons.
 
 2. Finger Spreads
 
-How to do it: Spread your fingers wide apart, hold for 5 seconds, then make a tight fist. Repeat 10 times.
+How to do it - Spread your fingers wide apart, hold for 5 seconds, then make a tight fist. Repeat 10 times.
 
-Why it helps: Counteracts the repetitive gripping motion of typing and mouse usage.
+Why it helps - Counteracts the repetitive gripping motion of typing and mouse usage.
 
 3. Wrist Flexor Stretch
 
-How to do it: Extend one arm forward with palm facing up. Use your other hand to gently pull your fingers downward until you feel a stretch in your forearm. Hold for 15-20 seconds, then switch arms.
+How to do it - Extend one arm forward with palm facing up. Use your other hand to gently pull your fingers downward until you feel a stretch in your forearm. Hold for 15-20 seconds, then switch arms.
 
-Why it helps: Stretches the muscles and tendons on the underside of your forearm that are most stressed during typing.
+Why it helps - Stretches the muscles and tendons on the underside of your forearm that are most stressed during typing.
 
 4. Prayer Stretch
 
-How to do it: Press your palms together in front of your chest in a prayer position. Slowly lower your hands while keeping palms pressed together until you feel a gentle stretch in your wrists. Hold for 15-20 seconds.
+How to do it - Press your palms together in front of your chest in a prayer position. Slowly lower your hands while keeping palms pressed together until you feel a gentle stretch in your wrists. Hold for 15-20 seconds.
 
-Why it helps: Stretches both the flexor and extensor muscles in your wrists and forearms.
+Why it helps - Stretches both the flexor and extensor muscles in your wrists and forearms.
 
 5. Thumb Touches
 
-How to do it: Touch your thumb to each fingertip in a sequential pattern (index to pinky and back), making an "O" shape with each touch. Repeat 10 times.
+How to do it - Touch your thumb to each fingertip in a sequential pattern (index to pinky and back), making an "O" shape with each touch. Repeat 10 times.
 
-Why it helps: Maintains dexterity and mobility in your thumb, a critical digit for mouse navigation.
+Why it helps - Maintains dexterity and mobility in your thumb, a critical digit for mouse navigation.
 
 6. Shake It Out
 
-How to do it: Simply shake your hands loosely for 10-15 seconds. Let your wrists go limp.
+How to do it - Simply shake your hands loosely for 10-15 seconds. Let your wrists go limp.
 
-Why it helps: Releases tension and encourages blood flow. This is particularly useful when you feel early symptoms of strain.
+Why it helps - Releases tension and encourages blood flow. This is particularly useful when you feel early symptoms of strain.
 
 Ergonomic Adjustments for Your Workspace
 
@@ -101,7 +101,7 @@ Typing Technique
 
 Avoid resting your wrists on hard desk edges while typing. If you need a palm rest for brief pauses, use a soft padded one, but avoid resting your wrists continuously during typing, as this can compress nerves.
 
-Break Reminders: Code Snippets
+Break Reminders - Code Snippets
 
 Regular breaks are essential. Here are some tools to remind you.
 
@@ -167,13 +167,13 @@ The most effective approach combines exercises, ergonomic setup, and consistent 
 
 - Every 20-30 minutes: Take a 30-second break. Shake out your hands and do wrist circles.
 - Every hour: Perform the full set of exercises (wrist circles, finger spreads, stretches).
-- Daily: Assess your symptoms. Early intervention prevents chronic problems.
+- Daily - Assess your symptoms. Early intervention prevents chronic problems.
 
 When to Seek Professional Help
 
 If you experience persistent pain, numbness, or weakness that doesn't improve with self-care, consult a healthcare professional. Physical therapists specializing in repetitive strain injuries can provide personalized exercises and treatment options. Ignoring symptoms can lead to permanent nerve damage.
 
-Advanced Prevention: The 20-20-20 Rule and Beyond
+Advanced Prevention - The 20-20-20 Rule and Beyond
 
 The standard recommendation is the 20-20-20 rule: every 20 minutes, take a 20-second break and look at something 20 feet away. But for programmers, this isn't aggressive enough. Here's a more effective regime:
 

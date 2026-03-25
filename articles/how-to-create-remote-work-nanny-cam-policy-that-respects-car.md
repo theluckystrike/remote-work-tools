@@ -20,7 +20,7 @@ Remote work has blurred the lines between home and office, leading many professi
 
 Table of Contents
 
-- [Understanding the Legal and Ethical Landscape](#understanding-the-legal-and-ethical-landscape)
+- [Understanding the Legal and Ethical field](#understanding-the-legal-and-ethical-field)
 - [Core Policy Components](#core-policy-components)
 - [Consent Documentation Best Practices](#consent-documentation-best-practices)
 - [Annual Consent Review Checklist](#annual-consent-review-checklist)
@@ -34,7 +34,7 @@ Table of Contents
 - [Alternatives to Nanny Cams](#alternatives-to-nanny-cams)
 - [Handling Camera-Related Conflict](#handling-camera-related-conflict)
 
-Understanding the Legal and Ethical Landscape
+Understanding the Legal and Ethical field
 
 Before deploying any camera system, understand that caregiver privacy laws vary significantly by jurisdiction. In many US states, recording someone without consent in private spaces constitutes wiretapping or privacy violation. Even in states with single-party consent, informing caregivers about cameras remains both legally prudent and ethically necessary.
 
@@ -51,16 +51,16 @@ Your policy must clearly state that cameras exist, where they are located, and w
 ```markdown
 Camera Disclosure Agreement
 
-Location: [ ] Living Room  [ ] Kitchen  [ ] Nursery  [ ] Backyard
-Active Hours: [ ] During Work Hours  [ ] 24/7  [ ] Custom: ____________
-Audio Recording: [ ] Yes  [ ] No
-Remote Access: [ ] Yes  [ ] No
+Location - [ ] Living Room  [ ] Kitchen  [ ] Nursery  [ ] Backyard
+Active Hours - [ ] During Work Hours  [ ] 24/7  [ ] Custom: ____________
+Audio Recording - [ ] Yes  [ ] No
+Remote Access - [ ] Yes  [ ] No
 
 I acknowledge that surveillance cameras are present in the listed locations
 during the specified hours. I understand that I may request a copy of the
 recorded footage upon request.
 
-Signature: _______________  Date: ___________
+Signature - _______________  Date: ___________
 ```
 
 Access Control Implementation
@@ -207,21 +207,21 @@ Two-party consent states (California, Florida, Illinois, Maryland, etc.): Record
 
 One-party consent states (most others): You can record audio if you're a party to the conversation. Still, inform caregivers transparently.
 
-Private space restrictions: Most states prevent recording in bathrooms or changing areas regardless of consent.
+Private space restrictions - Most states prevent recording in bathrooms or changing areas regardless of consent.
 
 Talk to an employment lawyer (30-minute consultation costs $75-150). This prevents expensive mistakes later. Many firms offer free initial consultations.
 
 Hardware Recommendations
 
-Wyze Cam v3: $30-50 per unit. Budget option with local storage capability.
+Wyze Cam v3 - $30-50 per unit. Budget option with local storage capability.
 - Cheap, reliable, local storage prevents cloud dependency
 - 1080p resolution, limited integration options
 
-Ubiquiti UniFi Protect: $100-150 per unit. Professional option with local NVR.
+Ubiquiti UniFi Protect - $100-150 per unit. Professional option with local NVR.
 - Enterprise-grade, local only (no cloud), scalable
 - Higher upfront cost, more complex setup
 
-Logitech Circle View: $80-120 per unit. Consumer-friendly with privacy controls.
+Logitech Circle View - $80-120 per unit. Consumer-friendly with privacy controls.
 - Easy setup, privacy-first design, BYOD-friendly
 - Cloud-dependent, recurring subscription cost
 
@@ -231,11 +231,11 @@ Creating a Caregiver Handbook
 
 Bundle your camera policy into a broader caregiver handbook:
 
-Policy section: Camera locations, hours, access controls
-Technical section: How to connect WiFi, report issues
-Privacy section: Data handling, how long footage is kept
-Rights section: Caregiver can request footage, can view certain feeds
-Dispute resolution: How to address concerns or violations
+Policy section - Camera locations, hours, access controls
+Technical section - How to connect WiFi, report issues
+Privacy section - Data handling, how long footage is kept
+Rights section - Caregiver can request footage, can view certain feeds
+Dispute resolution - How to address concerns or violations
 
 A professional handbook signals you take the relationship seriously and aren't sneaking cameras in.
 
@@ -266,15 +266,15 @@ Alternatives to Nanny Cams
 
 Before deploying cameras, consider less invasive monitoring:
 
-Regular check-in calls: Call during the day and listen to background. Hearing happy child sounds costs nothing.
+Regular check-in calls - Call during the day and listen to background. Hearing happy child sounds costs nothing.
 
-Photo/video sharing: Ask caregiver to send 2-3 photos or short videos daily. Creates documentation without surveillance feel.
+Photo/video sharing - Ask caregiver to send 2-3 photos or short videos daily. Creates documentation without surveillance feel.
 
-Trial period with supervision: Have the caregiver work while you're present (or nearby) for the first 2-3 days. Assess comfort before committing.
+Trial period with supervision - Have the caregiver work while you're present (or nearby) for the first 2-3 days. Assess comfort before committing.
 
 References and background checks: Talk to previous families they've worked with. Most issues surface from references.
 
-Gut instinct: If you don't trust someone enough to care for your child, no camera policy will fix that.
+Gut instinct - If you don't trust someone enough to care for your child, no camera policy will fix that.
 
 Cameras are a tool when trust gaps exist but can't be fully resolved. They're not a substitute for hiring the right person.
 
@@ -282,13 +282,13 @@ Handling Camera-Related Conflict
 
 If a caregiver objects to cameras:
 
-Don't dismiss their concerns: They're often valid. Privacy during lunch break is reasonable.
+Don't dismiss their concerns - They're often valid. Privacy during lunch break is reasonable.
 
-Propose compromises: Cameras in living areas, not bedrooms. Active only during work hours. They can request breaks without being filmed.
+Propose compromises - Cameras in living areas, not bedrooms. Active only during work hours. They can request breaks without being filmed.
 
-Clarify your specific needs: "I want to make sure my child is safe and content." vs. "I want to monitor whether you're working hard." Different concerns justify different camera policies.
+Clarify your specific needs - "I want to make sure my child is safe and content." vs. "I want to monitor whether you're working hard." Different concerns justify different camera policies.
 
-Respect decisions: If they refuse and you can't compromise, it may not be the right fit. That's okay.
+Respect decisions - If they refuse and you can't compromise, it may not be the right fit. That's okay.
 
 The best policies result from negotiation, not unilateral decisions.
 ---

@@ -40,7 +40,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Core Components of Your Buddy Program Template
+Step 1 - Core Components of Your Buddy Program Template
 
 An effective remote onboarding buddy program needs several structural elements. Let's build each component.
 
@@ -57,7 +57,7 @@ Not every experienced employee makes a good buddy. Select buddies based on:
 Consider creating a buddy nomination form:
 
 ```markdown
-Step 2: Buddy Nomination Form
+Step 2 - Buddy Nomination Form
 
 Name:
 Team:
@@ -78,25 +78,25 @@ Areas you can help new hires with:
 
 Structure the buddy relationship around clear phases. Here's a 30-day template:
 
-Days 1-3: Introduction Phase
+Days 1-3 - Introduction Phase
 - Schedule a 30-minute video call to establish rapport
 - Share your communication preferences and availability
 - Walk through team communication channels (Slack, email, meetings)
 - Provide a list of key people and their roles
 
-Days 4-7: Setup Phase
+Days 4-7 - Setup Phase
 - Assist with development environment configuration
 - Review access provisioning and permissions
 - Explain code repository structure and branching strategy
 - Introduce CI/CD pipelines and deployment processes
 
-Days 8-14: Integration Phase
+Days 8-14 - Integration Phase
 - Pair on a small starter task or code review
 - Discuss team coding standards and review processes
 - Walk through documentation resources
 - Explain how to find help and escalate issues
 
-Days 15-30: Independence Phase
+Days 15-30 - Independence Phase
 - Check in weekly to address emerging questions
 - Introduce the new hire to other team members
 - Provide feedback on the onboarding experience
@@ -109,33 +109,33 @@ Create a checklist buddies can follow:
 ```markdown
 Remote Onboarding Buddy Checklist
 
-Step 3: Pre-Arrival (Day Before)
+Step 3 - Pre-Arrival (Day Before)
 - [ ] Review new hire's background and role
 - [ ] Prepare welcome message with first-day instructions
 - [ ] Ensure all accounts and access are provisioned
 - [ ] Share your schedule for the first week
 
-Step 4: First Day
+Step 4 - First Day
 - [ ] Morning video call (15-30 minutes)
 - [ ] Walk through team chat rooms and notification settings
 - [ ] Explain standing meetings and calendar conventions
 - [ ] Share team norms for async vs sync communication
 - [ ] Introduce to at least 2-3 team members personally
 
-Step 5: First Week
+Step 5 - First Week
 - [ ] Daily 15-minute check-ins
 - [ ] Development environment debugging assistance
 - [ ] Codebase architecture overview (shared screen)
 - [ ] Review team's testing and deployment practices
 - [ ] Discuss code review culture and feedback style
 
-Step 6: First Two Weeks
+Step 6 - First Two Weeks
 - [ ] Pair on a small feature or bug fix
 - [ ] Explain documentation locations and contribution guidelines
 - [ ] Cover incident response procedures
 - [ ] Share team rituals and social traditions
 
-Step 7: First Month
+Step 7 - First Month
 - [ ] Weekly check-ins (can become bi-weekly)
 - [ ] Collect feedback on onboarding experience
 - [ ] Connect with new hire's manager if helpful
@@ -158,8 +158,8 @@ Here's what to expect:
 - Feel free to ping me anytime in [Slack channel] or DM
 - No question is too silly, that's what I'm here for
 
-My availability: [Days/Times]
-Best way to reach me: [Slack DM / Email]
+My availability - [Days/Times]
+Best way to reach me - [Slack DM / Email]
 
 Looking forward to meeting you!
 ```
@@ -177,7 +177,7 @@ I'd love to hear how things are feeling:
 No pressure for long responses, quick thoughts work great.
 ```
 
-Step 8: Measuring Program Success
+Step 8 - Measuring Program Success
 
 Track your buddy program's effectiveness with these metrics:
 
@@ -190,7 +190,7 @@ Track your buddy program's effectiveness with these metrics:
 Create a simple survey to collect feedback:
 
 ```markdown
-Step 9: Onboarding Experience Survey (Day 30)
+Step 9 - Onboarding Experience Survey (Day 30)
 
 1. On a scale of 1-10, how prepared did you feel for your role?
 2. How helpful was your buddy? (1-10)
@@ -199,7 +199,7 @@ Step 9: Onboarding Experience Survey (Day 30)
 5. Any suggestions for improving the buddy program?
 ```
 
-Step 10: Automate Buddy Assignment
+Step 10 - Automate Buddy Assignment
 
 For teams using ticketing systems or automation, consider a simple assignment workflow. This Python script demonstrates the concept:
 
@@ -243,7 +243,7 @@ Do recognize buddy contributions. Acknowledge buddies publicly and consider smal
 
 Do iterate on the program. Collect feedback from both buddies and new hires quarterly. Update your templates based on real experience.
 
-Step 11: Implementing Your Template
+Step 11 - Implementing Your Template
 
 Start small. Pilot your buddy program with one team, gather feedback, refine your templates, then expand. The goal is creating genuine human connection in a remote environment, not bureaucratic overhead.
 

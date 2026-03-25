@@ -332,7 +332,7 @@ Tool Selection Guide
 | Prism | Contract validation | OpenAPI spec enforcement |
 | MSW | Frontend development and unit tests | Network-level interception, no proxy |
 
-For most remote teams: use MSW for frontend unit tests, Mockoon for shared team mocks during API development, and WireMock for integration test suites in CI.
+For most remote teams - use MSW for frontend unit tests, Mockoon for shared team mocks during API development, and WireMock for integration test suites in CI.
 
 ---
 

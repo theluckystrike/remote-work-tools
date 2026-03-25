@@ -20,20 +20,20 @@ Remote teams face a unique challenge when it comes to design handoff: the lack o
 
 Table of Contents
 
-- [Foundation: What Makes Remote Design Handoff Difficult](#foundation-what-makes-remote-design-handoff-difficult)
-- [Step 1: Choose Your Design Handoff Tool](#step-1-choose-your-design-handoff-tool)
-- [Step 2: Establish Design System Documentation](#step-2-establish-design-system-documentation)
-- [Step 3: Create a Handoff Checklist](#step-3-create-a-handoff-checklist)
-- [Step 4: Structure Your Design File for Handoff](#step-4-structure-your-design-file-for-handoff)
-- [Step 5: Implement Handoff Communication Workflow](#step-5-implement-handoff-communication-workflow)
-- [Step 6: Automate Asset Delivery](#step-6-automate-asset-delivery)
+- [Foundation - What Makes Remote Design Handoff Difficult](#foundation-what-makes-remote-design-handoff-difficult)
+- [Step 1 - Choose Your Design Handoff Tool](#step-1-choose-your-design-handoff-tool)
+- [Step 2 - Establish Design System Documentation](#step-2-establish-design-system-documentation)
+- [Step 3 - Create a Handoff Checklist](#step-3-create-a-handoff-checklist)
+- [Step 4 - Structure Your Design File for Handoff](#step-4-structure-your-design-file-for-handoff)
+- [Step 5 - Implement Handoff Communication Workflow](#step-5-implement-handoff-communication-workflow)
+- [Step 6 - Automate Asset Delivery](#step-6-automate-asset-delivery)
 - [Handling Edge Cases in Remote Handoff](#handling-edge-cases-in-remote-handoff)
 - [Design Update Changelog - Sprint 23](#design-update-changelog-sprint-23)
 - [Measuring Handoff Efficiency](#measuring-handoff-efficiency)
 
 This guide walks you through setting up a design handoff process that works for distributed teams, with practical tools and workflows you can implement immediately.
 
-Foundation: What Makes Remote Design Handoff Difficult
+Foundation - What Makes Remote Design Handoff Difficult
 
 The core challenge in remote design handoff is context loss. When designers and developers sit together, a quick question gets answered instantly. Remote teams lose that immediacy, and without proper documentation, developers spend hours reverse-engineering design decisions.
 
@@ -45,7 +45,7 @@ A good remote design handoff addresses three key areas:
 
 Without all three, you will experience the common pattern of endless clarification messages in Slack or recurring meetings that defeat the purpose of async work.
 
-Step 1: Choose Your Design Handoff Tool
+Step 1 - Choose Your Design Handoff Tool
 
 Your choice of tool shapes the entire workflow. For remote teams, you need something that provides:
 
@@ -70,7 +70,7 @@ Figma has become the standard for remote teams due to its inspect panel, real-ti
 
 If you use other tools, ensure they provide similar capabilities. Sketch offers Cloud, and Adobe XD has design specs, but Figma's browser-based nature makes it particularly suitable for fully distributed teams.
 
-Step 2: Establish Design System Documentation
+Step 2 - Establish Design System Documentation
 
 Before any handoff occurs, your team needs a shared design system. This includes:
 
@@ -108,7 +108,7 @@ Create a living document or a dedicated Figma library that defines:
 
 When developers can reference design tokens instead of asking designers for every hex value, the handoff accelerates significantly.
 
-Step 3: Create a Handoff Checklist
+Step 3 - Create a Handoff Checklist
 
 Every design file should meet certain criteria before being marked as "ready for development." Create a checklist that your team agrees upon:
 
@@ -125,7 +125,7 @@ Pre-Handoff Verification
 
 This checklist prevents the common back-and-forth where developers discover missing information after starting implementation.
 
-Step 4: Structure Your Design File for Handoff
+Step 4 - Structure Your Design File for Handoff
 
 How you organize your Figma or design file directly impacts developer efficiency. Structure files with developers as the audience:
 
@@ -150,7 +150,7 @@ Page Organization
 
 Within each screen frame, add text annotations or use sticky notes to explain non-obvious decisions. For example, explain why a particular padding was chosen or why a button color differs from the standard.
 
-Step 5: Implement Handoff Communication Workflow
+Step 5 - Implement Handoff Communication Workflow
 
 Tools alone do not solve the problem. You need a process that defines how handoff actually happens:
 
@@ -201,7 +201,7 @@ When developers add comments in Figma, use a consistent prefix system:
 
 This system helps designers prioritize responses and track resolved issues.
 
-Step 6: Automate Asset Delivery
+Step 6 - Automate Asset Delivery
 
 Manual asset export wastes time and creates inconsistency. Set up automation to improve this process:
 

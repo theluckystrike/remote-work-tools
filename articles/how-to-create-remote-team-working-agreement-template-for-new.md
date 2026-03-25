@@ -137,11 +137,11 @@ merge_strategy: "Squash and merge"
 branch_lifetime: "Maximum 7 days for active PRs"
 ```
 
-Building Your Template: A Step-by-Step Process
+Building Your Template - A Step-by-Step Process
 
 Creating a working agreement shouldn't be a top-down dictate. The process of building it creates buy-in and surfaces important discussions.
 
-Step 1: Individual Reflection
+Step 1 - Individual Reflection
 
 Before group discussion, each team member answers these questions individually:
 
@@ -150,22 +150,22 @@ Before group discussion, each team member answers these questions individually:
 - What frustrates you about remote collaboration?
 - What communication style helps you perform best?
 
-Step 2: Group Discussion and Consensus
+Step 2 - Group Discussion and Consensus
 
 Schedule a dedicated meeting to discuss each section. The goal isn't voting on preferences but understanding different needs and finding overlaps that work for everyone.
 
 Start with the most contentious areas. If your team spans significantly different time zones, availability discussions often reveal the most assumptions. Use the flexibility to find solutions rather than defaults.
 
-Step 3: Document and Version
+Step 3 - Document and Version
 
 Write your agreement in a format that's easy to update. Treat it as a living document that evolves as your team learns what works.
 
 ```markdown
 Team Working Agreement
 
-Version: 1.0
-Last Updated: 2026-03-16
-Next Review: 2026-06-16
+Version - 1.0
+Last Updated - 2026-03-16
+Next Review - 2026-06-16
 
 Communication
 [Document your channel and response expectations]
@@ -198,7 +198,7 @@ Table of Contents
 - [Agreement Review](#agreement-review)
 - [Making It Work](#making-it-work)
 
-Step 4: Trial and Refine
+Step 4 - Trial and Refine
 
 Your first version won't be perfect. Schedule a check-in after two weeks to discuss what's working and what needs adjustment. The agreement should make your team more effective, not add bureaucracy.
 
@@ -206,13 +206,13 @@ Common Pitfalls to Avoid
 
 Several mistakes frequently derail working agreement efforts.
 
-Over-specification: Don't try to document every possible scenario. Focus on the most important expectations and trust team members to handle specifics reasonably.
+Over-specification - Don't try to document every possible scenario. Focus on the most important expectations and trust team members to handle specifics reasonably.
 
-Ignoring time zones: If your team spans multiple time zones, availability and meeting policies must account for this explicitly. Rotating meeting times distributes the burden fairly.
+Ignoring time zones - If your team spans multiple time zones, availability and meeting policies must account for this explicitly. Rotating meeting times distributes the burden fairly.
 
-No enforcement mechanism: An agreement without accountability becomes optional. Define simple consequences for consistent violations, starting with friendly reminders.
+No enforcement mechanism - An agreement without accountability becomes optional. Define simple consequences for consistent violations, starting with friendly reminders.
 
-Treating it as complete: Your agreement should evolve. A quarterly review cadence keeps it relevant as your team grows and circumstances change.
+Treating it as complete - Your agreement should evolve. A quarterly review cadence keeps it relevant as your team grows and circumstances change.
 
 Practical Template You Can Use Today
 

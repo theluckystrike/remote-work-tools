@@ -40,7 +40,7 @@ Table of Contents
 - [Dispute Resolution](#dispute-resolution)
 - [Communication and Response Times](#communication-and-response-times)
 - [Communication](#communication)
-- [Practical Example: Complete Clauses Section](#practical-example-complete-clauses-section)
+- [Practical Example - Complete Clauses Section](#practical-example-complete-clauses-section)
 - [3. Project Timeline](#3-project-timeline)
 - [4. Acceptance Criteria](#4-acceptance-criteria)
 - [Negotiating Contract Terms as a Freelancer](#negotiating-contract-terms-as-a-freelancer)
@@ -57,13 +57,13 @@ Include a detailed breakdown of all deliverables:
 ```markdown
 Scope of Work
 
-Phase 1: Backend API Development
+Phase 1 - Backend API Development
 - RESTful API endpoints for user authentication (register, login, logout, password reset)
 - CRUD operations for project management resources
 - Integration with Stripe payment gateway
 - API documentation using OpenAPI 3.0 specification
 
-Phase 2: Frontend Development
+Phase 2 - Frontend Development
 - React-based dashboard with authentication flow
 - Real-time notification system using WebSockets
 - Responsive design for mobile and desktop
@@ -264,7 +264,7 @@ Mediation
 If negotiation fails, parties agree to mediation before a mutually agreed mediator. Costs shared equally.
 
 Arbitration
-If mediation fails, disputes resolved through binding arbitration under AAA Commercial Rules. Location: Developer's primary residence.
+If mediation fails, disputes resolved through binding arbitration under AAA Commercial Rules. Location - Developer's primary residence.
 
 Injunctive Relief
 Despite above, either party may seek injunctive relief in court to protect intellectual property or confidential information.
@@ -292,7 +292,7 @@ Meetings
 - Call recordings available upon request
 ```
 
-Practical Example: Complete Clauses Section
+Practical Example - Complete Clauses Section
 
 Here's how these clauses fit together in a real contract:
 
@@ -307,7 +307,7 @@ Here's how these clauses fit together in a real contract:
 | M4 | UAT passed | Week 10 |. |
 | M5 | Production deployment | Week 12 | $6,100 |
 
-Total: $15,100
+Total - $15,100
 
 4. Acceptance Criteria
 
@@ -340,9 +340,9 @@ Implement a formal change order process for anything that modifies scope, timeli
 ```markdown
 Change Order #001
 
-Date: 2026-03-20
-Project: Client Dashboard v2
-Requested By: @client-name
+Date - 2026-03-20
+Project - Client Dashboard v2
+Requested By - @client-name
 
 Change Description
 Add CSV export functionality to the data table component.
@@ -365,13 +365,13 @@ Common Contract Disputes and How to Prevent Them
 
 Most freelance contract disputes fall into one of four categories. Understanding each helps you write tighter contracts from the start.
 
-Scope creep disputes arise when deliverables are loosely defined. Prevention: Use the scope definition template in this guide, and explicitly list items that are out of scope. "Out of scope" sections are often more valuable than scope definitions.
+Scope creep disputes arise when deliverables are loosely defined. Prevention - Use the scope definition template in this guide, and explicitly list items that are out of scope. "Out of scope" sections are often more valuable than scope definitions.
 
-Payment disputes most often involve milestone definitions. the client believes the milestone was not hit; the developer believes it was. Prevention: Define milestones with acceptance criteria, not just deliverable names. "Backend API complete" is ambiguous. "All API endpoints documented in the attached spec return correct responses as verified by client" is not.
+Payment disputes most often involve milestone definitions. the client believes the milestone was not hit; the developer believes it was. Prevention - Define milestones with acceptance criteria, not just deliverable names. "Backend API complete" is ambiguous. "All API endpoints documented in the attached spec return correct responses as verified by client" is not.
 
-IP ownership disputes occur when pre-existing code is used in a client project without explicit licensing terms. Prevention: Include an IP inventory as an exhibit to your contract, listing any libraries, frameworks, or code components you are bringing to the project.
+IP ownership disputes occur when pre-existing code is used in a client project without explicit licensing terms. Prevention - Include an IP inventory as an exhibit to your contract, listing any libraries, frameworks, or code components you are bringing to the project.
 
-Timeline disputes happen when both parties have different expectations about revision time. Prevention: Build review periods into your timeline explicitly. "Phase 2 complete: March 15. Client review period: March 15-19. Revisions complete: March 25" leaves no room for misunderstanding.
+Timeline disputes happen when both parties have different expectations about revision time. Prevention - Build review periods into your timeline explicitly. "Phase 2 complete: March 15. Client review period: March 15-19. Revisions complete: March 25" leaves no room for misunderstanding.
 
 Frequently Asked Questions
 

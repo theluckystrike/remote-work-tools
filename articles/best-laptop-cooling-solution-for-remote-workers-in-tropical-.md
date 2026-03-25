@@ -26,10 +26,10 @@ Table of Contents
 - [Hardware Considerations for Tropical Work](#hardware-considerations-for-tropical-work)
 - [Building Your Tropical Workstation](#building-your-tropical-workstation)
 - [Monitoring Your Setup](#monitoring-your-setup)
-- [Product Comparison: Cooling Solutions](#product-comparison-cooling-solutions)
-- [Temperature Profiling: Establishing Your Baseline](#temperature-profiling-establishing-your-baseline)
+- [Product Comparison - Cooling Solutions](#product-comparison-cooling-solutions)
+- [Temperature Profiling - Establishing Your Baseline](#temperature-profiling-establishing-your-baseline)
 - [Workflow Optimization for Thermal Constraints](#workflow-optimization-for-thermal-constraints)
-- [Advanced: DIY Cooling System](#advanced-diy-cooling-system)
+- [Advanced - DIY Cooling System](#advanced-diy-cooling-system)
 - [Measuring Cooling Effectiveness](#measuring-cooling-effectiveness)
 
 Understanding Thermal Throttling in Tropical Conditions
@@ -38,7 +38,7 @@ Tropical climates create a double thermal burden. Ambient temperatures often exc
 
 Modern processors from Intel and AMD start thermal throttling around 85-100°C, reducing clock speeds by 20-50% when those thresholds hit. For developers running compilation tasks, Docker containers, or virtual machines, this directly translates to slower build times and unresponsive development environments.
 
-A practical example: running a React Native build with a full Android emulator on a laptop in 32°C ambient temperature might take 3x longer than in air-conditioned conditions. The processor spends more time throttled than actually working.
+A practical example - running a React Native build with a full Android emulator on a laptop in 32°C ambient temperature might take 3x longer than in air-conditioned conditions. The processor spends more time throttled than actually working.
 
 Active Cooling Solutions
 
@@ -174,7 +174,7 @@ Compare readings across different configurations to find your optimal setup. Tem
 
 Working in tropical climates requires proactive thermal management, but the right combination of hardware and software strategies keeps your development machine running at full speed. Start with environmental improvements, add active cooling, then tune software settings for your specific workload. The investment in finding your optimal setup pays dividends in daily productivity.
 
-Product Comparison: Cooling Solutions
+Product Comparison - Cooling Solutions
 
 Here's how major cooling solutions compare for tropical environments:
 
@@ -188,7 +188,7 @@ Here's how major cooling solutions compare for tropical environments:
 
 For most developers, the "Laptop stand + fan" offers best value. It's affordable, effective, and lasts years.
 
-Temperature Profiling: Establishing Your Baseline
+Temperature Profiling - Establishing Your Baseline
 
 Before investing in cooling solutions, measure your actual thermal situation:
 
@@ -361,13 +361,13 @@ Development workflow during cool hours:
 
 This scheduling alone can reduce your throttling by 30-40%.
 
-Advanced: DIY Cooling System
+Advanced - DIY Cooling System
 
 For developers comfortable with hardware, building a custom cooling solution is cheaper than commercial alternatives:
 
 ```python
 DIY laptop cooling system using Raspberry Pi
-Hardware: Raspberry Pi, DHT22 sensor, 4x 120mm fans, relay module, USB power hub
+Hardware - Raspberry Pi, DHT22 sensor, 4x 120mm fans, relay module, USB power hub
 
 import Adafruit_DHT
 import RPi.GPIO as GPIO
@@ -464,7 +464,7 @@ echo "Compare build times and final CPU temps above."
 echo "Good solution should reduce build time by 20-40%."
 ```
 
-The proof is measurable: faster builds during the same task = working cooling.
+The proof is measurable - faster builds during the same task = working cooling.
 
 Frequently Asked Questions
 

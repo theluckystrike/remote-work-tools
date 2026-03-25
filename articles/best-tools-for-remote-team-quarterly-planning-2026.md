@@ -20,7 +20,7 @@ The Quarterly Planning Problem at Scale
 
 Remote teams struggle with quarterly planning. In-office teams had a war room. Everyone synced in real time. Remote teams spread across time zones need async-first workflows, but async discussions on OKRs meander and lose momentum.
 
-The challenge: align 50+ distributed engineers on quarterly goals, capacity, dependencies, and trade-offs without synchronous drama or analysis paralysis.
+The challenge - align 50+ distributed engineers on quarterly goals, capacity, dependencies, and trade-offs without synchronous drama or analysis paralysis.
 
 Most tools aren't built for this. Slack threads devolve. Google Docs become conflict zones. Spreadsheets lag and confuse. Teams default to painful all-hands meetings across 6 time zones.
 
@@ -30,9 +30,9 @@ This guide compares the top tools for remote quarterly planning. Each tool serve
 
 Notion (Free/Pro $8-10/month per user)
 
-Best For: Async pre-work, goal templates, team knowledge base
-Setup Time: 30 minutes (templates available)
-Learning Curve: Gentle
+Best For - Async pre-work, goal templates, team knowledge base
+Setup Time - 30 minutes (templates available)
+Learning Curve - Gentle
 
 Notion excels at the async pre-work phase. Engineers can independently document what they accomplished last quarter and what they propose for Q2.
 
@@ -58,7 +58,7 @@ Weaknesses:
 
 Example Setup:
 ```
-Database: Team OKRs
+Database - Team OKRs
  Objective (Title): "Reduce API latency p99 to <50ms"
  Key Result 1: "p99 latency <50ms in 75% of regions"
  Owner: [Relation → Engineers]
@@ -70,15 +70,15 @@ Database: Team OKRs
  Status: Draft / Proposed / Approved / In Progress
 ```
 
-Cost: Free for smaller teams, Pro $8/user/month for shared Notion spaces. For 10-person team: $80-100/month.
+Cost - Free for smaller teams, Pro $8/user/month for shared Notion spaces. For 10-person team: $80-100/month.
 
 ---
 
-Lattice (Pricing: $8-12/user/month)
+Lattice (Pricing - $8-12/user/month)
 
-Best For: Goal management, real-time collaboration, 1:1 integration
-Setup Time: 2 hours (guided onboarding)
-Learning Curve: Moderate
+Best For - Goal management, real-time collaboration, 1:1 integration
+Setup Time - 2 hours (guided onboarding)
+Learning Curve - Moderate
 
 Lattice is built specifically for goal-setting and planning. It's the most purpose-built tool on this list for quarterly cycles.
 
@@ -109,15 +109,15 @@ Real Features:
 - "Alignment Graph": Visual map of which goals support which strategic pillars
 - "Discussion Threads": Per-goal comments (unlike Notion, context-aware)
 
-Cost: $8-12/user/month. For 12-person team: $96-144/month.
+Cost - $8-12/user/month. For 12-person team: $96-144/month.
 
 ---
 
-Miro (Pricing: Free/Pro $12-18/month)
+Miro (Pricing - Free/Pro $12-18/month)
 
-Best For: Real-time visual planning sessions, dependency mapping, brainstorming
-Setup Time: 15 minutes (template library)
-Learning Curve: Very gentle
+Best For - Real-time visual planning sessions, dependency mapping, brainstorming
+Setup Time - 15 minutes (template library)
+Learning Curve - Very gentle
 
 Miro shines for real-time planning sessions. Distributed teams can brainstorm live on an infinite canvas. Async pre-work can happen in separate frames.
 
@@ -155,17 +155,17 @@ Weaknesses:
 - Can feel chaotic with 50+ people (too many voices)
 - Requires synchronous session for full effectiveness
 
-Best Practice: Use Miro for 2-3 hour real-time planning session (async pre-work in Notion). Record and share playback for zones that couldn't attend.
+Best Practice - Use Miro for 2-3 hour real-time planning session (async pre-work in Notion). Record and share playback for zones that couldn't attend.
 
-Cost: Free (limited), Pro $12-18/user/month. For larger teams, use shared workspace (~$25-50/month for collaborative planning).
+Cost - Free (limited), Pro $12-18/user/month. For larger teams, use shared workspace (~$25-50/month for collaborative planning).
 
 ---
 
-Asana (Pricing: Free/Pro $10.99/user/month)
+Asana (Pricing - Free/Pro $10.99/user/month)
 
-Best For: Capacity planning, dependency tracking, execution phase
-Setup Time: 1 hour
-Learning Curve: Gentle
+Best For - Capacity planning, dependency tracking, execution phase
+Setup Time - 1 hour
+Learning Curve - Gentle
 
 Asana bridges planning and execution. Goals live in the same system as tasks and timelines. Capacity becomes visible (can Bob take on Project X if he's 80% allocated to Project Y?).
 
@@ -199,15 +199,15 @@ Engineering Manager Lisa uses Asana to see:
 - Rebalance: Move "testing framework" to next quarter
 - Track: Weekly task completion shows progress toward goals
 
-Cost: Pro $10.99/user/month. For 12-person team: ~$130/month.
+Cost - Pro $10.99/user/month. For 12-person team: ~$130/month.
 
 ---
 
-Linear (Pricing: Free/Pro $8/user/month)
+Linear (Pricing - Free/Pro $8/user/month)
 
-Best For: Eng teams with high velocity, issue tracking + quarterly goals
-Setup Time: 30 minutes
-Learning Curve: Very gentle (especially for engineers)
+Best For - Eng teams with high velocity, issue tracking + quarterly goals
+Setup Time - 30 minutes
+Learning Curve - Very gentle (especially for engineers)
 
 Linear is lighter than Asana. Teams that live in Linear (issue tracking) can extend it for quarterly planning without tool switching.
 
@@ -232,7 +232,7 @@ Weaknesses:
 - OKR structure not as rich as Lattice/15Five
 
 ```
-Cycle: Q2 2026
+Cycle - Q2 2026
  Goal: Reduce API latency p99 <50ms
    Issue: Profile gRPC serialization (Eng 1)
    Issue: Implement caching layer (Eng 2, 3)
@@ -244,7 +244,7 @@ Cycle: Q2 2026
     Issue: Design DB schema for analytics
 ```
 
-Cost: Free for smaller teams, Pro $8/user/month. For 10 engineers: $80/month.
+Cost - Free for smaller teams, Pro $8/user/month. For 10 engineers: $80/month.
 
 ---
 
@@ -262,31 +262,31 @@ Comparison Table
 
 Recommended Setup for Remote Teams
 
-Phase 1: Pre-Work (Weeks 1-2)
+Phase 1 - Pre-Work (Weeks 1-2)
 - Use Notion template: each leader submits proposed goals, capacity constraints, risks
 - Async comments on each goal (dependencies, conflicts)
 
-Phase 2: Synthesis (Week 3)
+Phase 2 - Synthesis (Week 3)
 - PM synthesizes Notion input into alignment doc
 - Highlights conflicts and unknowns
 
-Phase 3: Real-Time Discussion (4-hour session)
+Phase 3 - Real-Time Discussion (4-hour session)
 - Use Miro for interactive dependency mapping and prioritization
 - Sticky notes: goals, initiatives, risks
 - Connectors: show dependencies
 - Vote on which goals to commit vs. defer
 - Record for async teams
 
-Phase 4: Finalization (Week 4)
+Phase 4 - Finalization (Week 4)
 - Move approved goals into Lattice (or Asana if you're already using it)
 - Assign owners, link to initiatives and projects
 - Set success metrics and confidence scores
 
-Phase 5: Execution (Q2)
+Phase 5 - Execution (Q2)
 - Track progress in Asana (or Linear for eng teams)
 - Weekly updates in Slack
 
-Total Cost (10-person team): $100 (Notion) + $50 (Miro) + $80 (Linear) = $230/month. Lattice alone = $100-120/month but might offset Notion + Linear.
+Total Cost (10-person team) - $100 (Notion) + $50 (Miro) + $80 (Linear) = $230/month. Lattice alone = $100-120/month but might offset Notion + Linear.
 
 ---
 

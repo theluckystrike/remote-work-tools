@@ -28,7 +28,7 @@ Table of Contents
 - [Slack Norms](#slack-norms)
 - [Reducing Notification Anxiety at Scale](#reducing-notification-anxiety-at-scale)
 - [Slack Alternatives Worth Knowing](#slack-alternatives-worth-knowing)
-- [Analytics: Identifying Noise Channels](#analytics-identifying-noise-channels)
+- [Analytics - Identifying Noise Channels](#analytics-identifying-noise-channels)
 - [Advanced Workflow Builder Patterns](#advanced-workflow-builder-patterns)
 - [Notification Audit Framework](#notification-audit-framework)
 - [Slack Notification Audit Checklist](#slack-notification-audit-checklist)
@@ -57,9 +57,9 @@ Recommended prefix system:
 #ext-{client}      . External/shared channels (ext-acme-corp)
 ```
 
-Archive vs delete: Archive channels when projects end; never delete them. Decisions and context from #proj-payment-redesign may be referenced 18 months later.
+Archive vs delete - Archive channels when projects end; never delete them. Decisions and context from #proj-payment-redesign may be referenced 18 months later.
 
-Enforcement: Assign a Slack admin who reviews new channel requests weekly. Any channel not matching the taxonomy gets renamed or archived. This sounds bureaucratic but it takes 10 minutes a week and prevents 400-channel entropy.
+Enforcement - Assign a Slack admin who reviews new channel requests weekly. Any channel not matching the taxonomy gets renamed or archived. This sounds bureaucratic but it takes 10 minutes a week and prevents 400-channel entropy.
 
 Notification Policy
 
@@ -91,7 +91,7 @@ Keyword notifications setup:
 
 ```
 Preferences → Notifications → My keywords
-Add: [your name], [your team], [system names you own], outage, urgent, on-call
+Add - [your name], [your team], [system names you own], outage, urgent, on-call
 ```
 
 @here and @channel governance: Remove `@here` and `@channel` posting permission from all non-admin users in channels with more than 50 members. In a 200-person engineering org, a carelessly placed `@here` in #general interrupts 200 people simultaneously. The only legitimate use case at scale is a true emergency announcement.
@@ -124,11 +124,11 @@ Aim for 8-12 channels in each engineer's sidebar. More than 20 is a sign of chan
 
 Workflow Builder Automations
 
-Workflow 1: Standup collector
+Workflow 1 - Standup collector
 
 ```
-Trigger: Scheduled, Mon-Fri 9:30am (adjust per timezone)
-Channel: #team-{name}
+Trigger - Scheduled, Mon-Fri 9:30am (adjust per timezone)
+Channel - #team-{name}
 Steps:
   1. Send a form with 3 questions:
      - What did you do yesterday?
@@ -142,11 +142,11 @@ Variables to set:
   - Post summary: 11:30am same day
 ```
 
-Workflow 2: Incident channel creator
+Workflow 2 - Incident channel creator
 
 ```
-Trigger: Shortcut (add to #eng-incidents)
-Name: "Declare Incident"
+Trigger - Shortcut (add to #eng-incidents)
+Name - "Declare Incident"
 Steps:
   1. Collect: Incident name, severity (P1/P2/P3), initial responder
   2. Create a new channel: #inc-{today's date}-{incident-name}
@@ -155,10 +155,10 @@ Steps:
   5. Post in #eng-incidents: "New incident: #inc-... - [Name] is IC"
 ```
 
-Workflow 3: RFC announcement
+Workflow 3 - RFC announcement
 
 ```
-Trigger: Message shortcut on an RFC post
+Trigger - Message shortcut on an RFC post
 Steps:
   1. Collect: RFC title, author, review deadline
   2. Post to #eng-architecture: "New RFC: [title] by @author. feedback needed by [date]"
@@ -168,11 +168,11 @@ Steps:
 To create these in Slack:
 - Go to your workspace → Tools → Workflow Builder → Create
 
-Workflow 4: On-call handoff
+Workflow 4 - On-call handoff
 
 ```
-Trigger: Scheduled, every Monday 9am
-Channel: #eng-on-call
+Trigger - Scheduled, every Monday 9am
+Channel - #eng-on-call
 Steps:
   1. Post a form: "Who is on-call this week? Who is secondary?"
   2. Wait for response from on-call rotation manager
@@ -188,11 +188,11 @@ Every channel must have a description. Undescribed channels get archived after 9
 ```
 Template:
 [Purpose in one sentence] | Owner: @{person} | Created: {date} |
-Posting: [who can post / what kinds of posts] |
-Archive policy: [auto-archive date or condition]
+Posting - [who can post / what kinds of posts] |
+Archive policy - [auto-archive date or condition]
 
 "All deployment notifications from CI/CD. Automated posts only.
-Owner: @platform-team | Created: 2026-01 | Archive: never (permanent record)"
+Owner - @platform-team | Created: 2026-01 | Archive: never (permanent record)"
 ```
 
 Async-First Norms to Codify
@@ -204,7 +204,7 @@ Slack Norms
 
 1. No hello messages. Don't send "hey" and wait for a response.
    State your question or request in the first message.
-   Bad: "Hey Mike, got a minute?"
+   Bad - "Hey Mike, got a minute?"
    Good: "Mike. can you review PR #342 before EOD? It blocks the deploy."
 
 2. Thread everything. Replies to a message go in its thread.
@@ -221,13 +221,13 @@ Slack Norms
    DMs should be for sensitive topics only.
 ```
 
-The response time contract: Define expected response times explicitly. A common structure for remote engineering teams:
+The response time contract - Define expected response times explicitly. A common structure for remote engineering teams:
 
 ```
-DMs to specific person: 4 hours during working hours
+DMs to specific person - 4 hours during working hours
 @mentions in team channels: 4 hours during working hours
 @mentions in other channels: next working day
-Urgent prefix in message: 30 minutes during working hours
+Urgent prefix in message - 30 minutes during working hours
 ```
 
 Post this in your onboarding doc and in the channel description of #help-onboarding. Undefined response time expectations are a major source of anxiety in remote teams.
@@ -247,11 +247,11 @@ Working hours configuration:
 
 ```
 Preferences → Notifications → Allow notifications from...
-Set your working hours: e.g., 9am, 6pm Mon-Fri (your local time)
+Set your working hours - e.g., 9am, 6pm Mon-Fri (your local time)
 Others see "In a meeting" or "Outside working hours" badge
 ```
 
-The mute everything approach: Some engineers mute all channels except direct messages and their primary team channel. They check muted channels once in the morning and once in the afternoon. This feels counterintuitive but is consistent with how high-output async teams work. Slack becomes a mailbox, not a real-time chat room.
+The mute everything approach - Some engineers mute all channels except direct messages and their primary team channel. They check muted channels once in the morning and once in the afternoon. This feels counterintuitive but is consistent with how high-output async teams work. Slack becomes a mailbox, not a real-time chat room.
 
 Slack Alternatives Worth Knowing
 
@@ -259,15 +259,15 @@ If your team is evaluating whether Slack is the right tool:
 
 | Tool | Strength | Weakness | Best for |
 |---|---|---|---|
-| Slack | Best ecosystem, most integrations | Expensive at scale ($8.75/user/mo Pro) | Teams needing deep tool integration |
+| Slack | Best environment, most integrations | Expensive at scale ($8.75/user/mo Pro) | Teams needing deep tool integration |
 | Discord | Free, good threads, voice channels | Consumer UX, poor enterprise controls | Small teams, open source projects |
 | Linear | Issue tracking + minimal comms | Not a Slack replacement | Engineering-only teams |
-| Twist | Thread-first design, async-native | Smaller ecosystem, fewer integrations | Fully async remote teams |
+| Twist | Thread-first design, async-native | Smaller environment, fewer integrations | Fully async remote teams |
 | Teams | Included in M365 | Poor developer experience | Teams already paying for M365 |
 
-For engineering teams of 50+, Slack Pro or Business+ is generally the right answer despite the cost. The integration ecosystem. GitHub, PagerDuty, Grafana, Jira, Datadog. is unmatched and worth the premium for engineering productivity.
+For engineering teams of 50+, Slack Pro or Business+ is generally the right answer despite the cost. The integration environment. GitHub, PagerDuty, Grafana, Jira, Datadog. is unmatched and worth the premium for engineering productivity.
 
-Analytics: Identifying Noise Channels
+Analytics - Identifying Noise Channels
 
 Slack Analytics (Admin console → Analytics) shows message and member counts per channel. Any channel with:
 - >500 messages/month but <5 active posters → bot/noise channel
@@ -280,10 +280,10 @@ Advanced Workflow Builder Patterns
 
 Beyond the basic workflows, Slack Workflow Builder supports sophisticated automation. Here are templates for common remote team scenarios:
 
-Workflow 4: Auto-assign on-call rotation
+Workflow 4 - Auto-assign on-call rotation
 
 ```
-Trigger: Scheduled (every Sunday 5pm)
+Trigger - Scheduled (every Sunday 5pm)
 Steps:
   1. Get next person from rotation schedule
   2. Update user status: " On-call: [week of date]"
@@ -292,10 +292,10 @@ Steps:
   5. Message [person]: "You're on-call this week. runbook: [link]"
 ```
 
-Workflow 5: Incident channel auto-cleanup
+Workflow 5 - Incident channel auto-cleanup
 
 ```
-Trigger: Scheduled (daily 11pm UTC)
+Trigger - Scheduled (daily 11pm UTC)
 Steps:
   1. List all channels matching "inc-YYYY-MM-DD-*"
   2. For each channel older than 7 days without messages
@@ -304,10 +304,10 @@ Steps:
   5. Archive the channel
 ```
 
-Workflow 6: Weekly team wins collector
+Workflow 6 - Weekly team wins collector
 
 ```
-Trigger: Scheduled (Friday 4pm each team's timezone)
+Trigger - Scheduled (Friday 4pm each team's timezone)
 Steps:
   1. Send form: "What's a win worth celebrating this week?"
   2. Collect 5 responses
@@ -360,7 +360,7 @@ Bots can reduce noise or increase it. Use this decision framework:
 | Social | Birthday reminders | Team connection | Frivolous distraction |
 | Tools | GitHub search in Slack | Convenience | Creates duplicate sources of truth |
 
-General rule: One bot per critical function, nothing more. For teams with >50 engineers, audit your bots monthly and remove any with <50% adoption.
+General rule - One bot per critical function, nothing more. For teams with >50 engineers, audit your bots monthly and remove any with <50% adoption.
 
 Building a Distributed Thread Culture
 
@@ -395,7 +395,7 @@ Examples:
  ↳ @bob: I agree, here's why [in thread]
  ↳ @charlie: Performance context [in thread]
  ↳ @alice: Great, let's do it [in thread]
-Decision summary posted to channel: "Decided: Rust for service X. See thread for context."
+Decision summary posted to channel: "Decided - Rust for service X. See thread for context."
 ```
 
 Channel posts are for:
@@ -445,19 +445,19 @@ As your team grows, your Slack structure needs deliberate changes:
 
 Common Slack Mistakes to Avoid
 
-Mistake 1: Treating Slack as persistent email
+Mistake 1 - Treating Slack as persistent email
 
 Teams often migrate to Slack and recreate email's dysfunction (everyone copied, formal tone, permanent expectations). Slack should be fast, informal, and temporary. Permanent decisions go in docs/tickets, not Slack.
 
-Mistake 2: Using DMs for work
+Mistake 2 - Using DMs for work
 
 Work discussions in DMs are invisible to the rest of the team. Public > private always. DMs only for sensitive topics (salary, personal issues, confidential business).
 
-Mistake 3: Overloading one channel
+Mistake 3 - Overloading one channel
 
 The #general channel shouldn't be the dumping ground for everything. Even with good structure, important announcements get lost.
 
-Mistake 4: Notifications as primary alerting
+Mistake 4 - Notifications as primary alerting
 
 Slack alerts should never be your primary incident notification. Use a real alerting system (PagerDuty, OpsGenie) that pages people directly. Slack is a coordination channel, not a pager.
 

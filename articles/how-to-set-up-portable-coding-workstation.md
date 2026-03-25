@@ -19,12 +19,12 @@ A portable coding workstation lets you work from home, a co-working space, or an
 
 Table of Contents
 
-- [The Core Constraint: 5-Minute Setup](#the-core-constraint-5-minute-setup)
+- [The Core Constraint - 5-Minute Setup](#the-core-constraint-5-minute-setup)
 - [Laptop](#laptop)
-- [The Hub: The Center of the Setup](#the-hub-the-center-of-the-setup)
+- [The Hub - The Center of the Setup](#the-hub-the-center-of-the-setup)
 - [Portable Monitor](#portable-monitor)
 - [Keyboard and Mouse](#keyboard-and-mouse)
-- [Software: Making Any Machine Home](#software-making-any-machine-home)
+- [Software - Making Any Machine Home](#software-making-any-machine-home)
 - [The Bag](#the-bag)
 - [Location Setup Checklist](#location-setup-checklist)
 - [Power Management on Portable Setups](#power-management-on-portable-setups)
@@ -32,11 +32,11 @@ Table of Contents
 - [Network Optimization for Portable Work](#network-optimization-for-portable-work)
 - [Portable Setup Productivity Tips](#portable-setup-productivity-tips)
 - [Handling Common Portable Work Issues](#handling-common-portable-work-issues)
-- [Comparison: Different Portability Approaches](#comparison-different-portability-approaches)
+- [Comparison - Different Portability Approaches](#comparison-different-portability-approaches)
 - [Security Considerations for Portable Work](#security-considerations-for-portable-work)
 - [Related Reading](#related-reading)
 
-The Core Constraint: 5-Minute Setup
+The Core Constraint - 5-Minute Setup
 
 If your portable setup takes 20 minutes to assemble, you'll stop using it. The goal is: open bag, plug in one or two cables, open laptop, start working.
 
@@ -55,9 +55,9 @@ Minimum specs for comfortable development:
 - 512GB SSD
 - Any current generation Apple Silicon
 
-Windows alternatives: ThinkPad X1 Carbon Gen 12 or Dell XPS 13 with 32GB RAM. Both are 1.1-1.2kg.
+Windows alternatives - ThinkPad X1 Carbon Gen 12 or Dell XPS 13 with 32GB RAM. Both are 1.1-1.2kg.
 
-The Hub: The Center of the Setup
+The Hub - The Center of the Setup
 
 A quality Thunderbolt hub is the most important component:
 
@@ -96,19 +96,19 @@ Best options:
 | LG Gram +view 16 | 16" | 2560x1600 | 0.8kg | $250 |
 | Samsung M8 (32") | 32" | 4K | 6.4kg | $700 |
 
-For travel: 16" IPS portable monitor powered by USB-C (no separate power brick).
+For travel - 16" IPS portable monitor powered by USB-C (no separate power brick).
 
-For a hotel desk: any monitor + your hub works fine since you're not carrying it.
+For a hotel desk - any monitor + your hub works fine since you're not carrying it.
 
 ```bash
 macOS: arrange displays via command line for consistent setup
-Install displayplacer: https://github.com/jakehilborn/displayplacer
+Install displayplacer - https://github.com/jakehilborn/displayplacer
 brew install jakehilborn/jakehilborn/displayplacer
 
 Save your current arrangement
 displayplacer list
 
-Output: something like:
+Output - something like:
 displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 res:2560x1600 ..."
 "id:6CF5E21E-18CF-4E28-AEF7-C53ADE7FC476 res:2560x1600 ..."
 
@@ -133,11 +133,11 @@ Best portable keyboards:
 | Logitech MX Keys Mini | 75% | Compact | Rechargeable | $100 |
 | Apple Magic Keyboard | 75% | Compact | Rechargeable | $99 |
 
-For a mouse: Logitech MX Anywhere 3 ($60). works on any surface including glass, rechargeable, small enough for a bag.
+For a mouse - Logitech MX Anywhere 3 ($60). works on any surface including glass, rechargeable, small enough for a bag.
 
 Use the Logi Bolt USB receiver (not Bluetooth) for keyboard + mouse. Plug the receiver into your hub. one less pairing to do at each new location.
 
-Software: Making Any Machine Home
+Software - Making Any Machine Home
 
 The second half of a portable setup is your environment being identical everywhere you go.
 
@@ -149,7 +149,7 @@ sh -c "$(curl -fsLS get.chezmoi.io)"
 chezmoi init https://github.com/yourusername/dotfiles.git
 chezmoi apply
 
-This restores: shell config, git config, vim/neovim, tmux, etc.
+This restores - shell config, git config, vim/neovim, tmux, etc.
 ```
 
 Development environments with mise:
@@ -160,7 +160,7 @@ curl https://mise.run | sh
 eval "$(~/.local/bin/mise activate zsh)"
 
 Your .mise.toml in each project specifies exact versions
-On a new machine: cd project && mise install
+On a new machine - cd project && mise install
 ```
 
 Cloud-synced state:
@@ -169,7 +169,7 @@ Cloud-synced state:
 1Password for secrets (never store in dotfiles)
 brew install 1password-cli
 eval $(op signin)
-Use: op read "op://Private/AWS/access-key-id"
+Use - op read "op://Private/AWS/access-key-id"
 
 SSH keys via 1Password SSH agent (no key files to sync)
 Add to ~/.ssh/config:
@@ -206,7 +206,7 @@ What NOT to include:
 - Display adapters (buy one per location or use hub's port)
 ```
 
-Bag recommendation: Peak Design Everyday Backpack 20L or Knomo Harpsden 14". Both have laptop sleeves with padding and organized pockets.
+Bag recommendation - Peak Design Everyday Backpack 20L or Knomo Harpsden 14". Both have laptop sleeves with padding and organized pockets.
 
 Location Setup Checklist
 
@@ -273,20 +273,20 @@ Portable setups often involve different display arrangements (hotel room, coffee
 
 ```bash
 macOS: Create display profiles for different locations
-Using displayplacer (install: brew install jakehilborn/jakehilborn/displayplacer)
+Using displayplacer (install - brew install jakehilborn/jakehilborn/displayplacer)
 
 Get current setup
 displayplacer list > ~/display_profiles.txt
 
 Save three common configurations
-Config 1: Just laptop screen (no external monitor)
+Config 1 - Just laptop screen (no external monitor)
 displayplacer "id:37D8832A res:1728x1117 hz:60 color_depth:8 scaling:on origin:(0,0)"
 
-Config 2: Laptop + portable monitor (hotel desk)
+Config 2 - Laptop + portable monitor (hotel desk)
 displayplacer "id:37D8832A res:1728x1117 hz:60 color_depth:8 scaling:on origin:(0,0)" \
               "id:6CF5E21E res:2560x1600 hz:60 color_depth:8 scaling:on origin:(1728,0)"
 
-Config 3: Laptop only, mirrored (conference room presenting)
+Config 3 - Laptop only, mirrored (conference room presenting)
 displayplacer --mirrors active
 
 Create aliases for quick switching
@@ -335,7 +335,7 @@ chmod +x ~/bin/network-check.sh
 
 Portable Setup Productivity Tips
 
-Context switching overhead: Moving between locations takes mental energy. Minimize it:
+Context switching overhead - Moving between locations takes mental energy. Minimize it:
 
 ```bash
 Startup routine (save as shell script)
@@ -379,7 +379,7 @@ Handling Common Portable Work Issues
 | Can't wake from sleep | System doesn't respond after hibernation | Check USB dongle connection, restart hub |
 | File sync issues | Changes not syncing to cloud | Check network connection, verify sync app is running |
 
-Comparison: Different Portability Approaches
+Comparison - Different Portability Approaches
 
 | Approach | Setup Time | Productivity | Network Dependency | Cost |
 |----------|-----------|--------------|-------------------|------|
@@ -389,7 +389,7 @@ Comparison: Different Portability Approaches
 | Remote dev server (SSH) | 5-10 min | 8/10 (depends on server power) | High | $50-200/mo |
 | Portable desktop setup (full hub) | 15-20 min | 9/10 (near-desktop performance) | Moderate | $400-600 |
 
-For most engineers: laptop + portable monitor hits the productivity/friction sweet spot.
+For most engineers - laptop + portable monitor hits the productivity/friction sweet spot.
 
 Security Considerations for Portable Work
 

@@ -22,14 +22,14 @@ Table of Contents
 
 - [The Skip-Level Meeting Problem](#the-skip-level-meeting-problem)
 - [Why Skip-Levels Matter](#why-skip-levels-matter)
-- [Pre-Meeting: Scheduling & Framing](#pre-meeting-scheduling-framing)
-- [During Meeting: Conversation Framework](#during-meeting-conversation-framework)
-- [Psychological Safety: The Hidden Layer](#psychological-safety-the-hidden-layer)
-- [Follow-Up: Where Most Skip-Levels Fail](#follow-up-where-most-skip-levels-fail)
-- [Scheduling at Scale: Multi-Team Leaders](#scheduling-at-scale-multi-team-leaders)
+- [Pre-Meeting - Scheduling & Framing](#pre-meeting-scheduling-framing)
+- [During Meeting - Conversation Framework](#during-meeting-conversation-framework)
+- [Psychological Safety - The Hidden Layer](#psychological-safety-the-hidden-layer)
+- [Follow-Up - Where Most Skip-Levels Fail](#follow-up-where-most-skip-levels-fail)
+- [Scheduling at Scale - Multi-Team Leaders](#scheduling-at-scale-multi-team-leaders)
 - [Skip-Level Meeting Agenda Template](#skip-level-meeting-agenda-template)
 - [Red Flags to Listen For](#red-flags-to-listen-for)
-- [Comparison: Different Skip-Level Formats](#comparison-different-skip-level-formats)
+- [Comparison - Different Skip-Level Formats](#comparison-different-skip-level-formats)
 - [Tools to Support Skip-Levels](#tools-to-support-skip-levels)
 
 Skip-level meetings (manager meets directly with their manager's reports) are critical for large organizations. They're early warning systems: Do people want to leave? Are projects at risk? Is communication breaking down? Is leadership aligned with ground truth?
@@ -57,13 +57,13 @@ Skip-level meetings serve three purposes:
 
 Remote work makes all three harder. That's why structure matters.
 
-Pre-Meeting: Scheduling & Framing
+Pre-Meeting - Scheduling & Framing
 
-Step 1: Set Expectations
+Step 1 - Set Expectations
 Send an invite email 1 week before. Template:
 
 ```
-Subject: Skip-level meeting with [Your Name]
+Subject - Skip-level meeting with [Your Name]
 
 Hi [Report Name],
 
@@ -89,13 +89,13 @@ This framing:
 - Promises confidentiality (without secrecy, see below)
 - Sets psychological safety tone
 
-Step 2: Calendar Setup
+Step 2 - Calendar Setup
 - 30 minutes (not 1 hour, feels too formal)
 - Timezone-friendly (if distributed globally, rotate burden)
 - Same time each month (predictability matters)
 - 1 week advance notice minimum (people prep, it shows respect)
 
-Step 3: Async Prep
+Step 3 - Async Prep
 The night before, send a Slack message:
 ```
 Quick reminder, we're meeting tomorrow at [Time].
@@ -104,7 +104,7 @@ No prep needed, just come with whatever's on your mind.
 
 This reduces anxiety ("Will I have the right things to say?").
 
-During Meeting: Conversation Framework
+During Meeting - Conversation Framework
 
 Setup (2 minutes)
 - Confirm camera on (connection matters)
@@ -116,11 +116,11 @@ Ask an open-ended question:
 
 Option 1 (Broad): "How are things going?"
 
-Option 2 (Specific): "How are things with [recent project]?"
+Option 2 (Specific) - "How are things with [recent project]?"
 
-Option 3 (Relationship-focused): "How's your relationship with your team and [Direct Manager]?"
+Option 3 (Relationship-focused) - "How's your relationship with your team and [Direct Manager]?"
 
-Don't ask: "Are you happy?" (binary, defensive). Do ask: "What's energizing? What's draining?" (actionable).
+Don't ask - "Are you happy?" (binary, defensive). Do ask: "What's energizing? What's draining?" (actionable).
 
 Active Listening (20 minutes)
 This is where most skip-levels fail. Managers talk too much.
@@ -138,13 +138,13 @@ If the person is quiet, use silence. Silence creates space for deeper thinking. 
 Closing (5 minutes)
 Wrap with:
 1. Summarize: "[bullet points]"
-2. Ask: "Did I get that right? Anything else?"
-3. Commit: "I'll think about how we can help with [specific issue]. I'll follow up next week."
-4. Gratitude: "Thanks for being honest. This helps me lead better."
+2. Ask - "Did I get that right? Anything else?"
+3. Commit - "I'll think about how we can help with [specific issue]. I'll follow up next week."
+4. Gratitude - "Thanks for being honest. This helps me lead better."
 
-Don't end with: "Tell your manager what you told me." (Creates tension with direct manager.)
+Don't end with - "Tell your manager what you told me." (Creates tension with direct manager.)
 
-Psychological Safety: The Hidden Layer
+Psychological Safety - The Hidden Layer
 
 Skip-level meetings only work if people believe they're safe. This requires active protection:
 
@@ -161,15 +161,15 @@ After the meeting:
 - Debrief with the direct manager (not the individual): "I met with [Report]. They're excited about [Project], concerned about [Issue], and want to grow in [Area]. Can we talk about how we support them?"
 - Never surprise the direct manager with skip-level feedback. Alignment is everything.
 
-Follow-Up: Where Most Skip-Levels Fail
+Follow-Up - Where Most Skip-Levels Fail
 
 After the meeting, you have 48 hours to act. This is critical.
 
-Step 1: Send a recap email (24 hours after)
+Step 1 - Send a recap email (24 hours after)
 Template:
 
 ```
-Subject: Thanks for the skip-level chat
+Subject - Thanks for the skip-level chat
 
 Hi [Report Name],
 
@@ -191,11 +191,11 @@ This email:
 - Confirms follow-up actions
 - Demonstrates the conversation wasn't private gossip (you're telling them what you'll share)
 
-Step 2: Debrief with direct manager (1, 2 days after)
+Step 2 - Debrief with direct manager (1, 2 days after)
 15-minute conversation. Template:
 
 ```
-Manager: "I had a skip-level with [Report]. Three things came up:
+Manager - "I had a skip-level with [Report]. Three things came up:
 1. [Issue 1]. they want [outcome]
 2. [Issue 2]. they're concerned about [risk]
 3. [Positive observation]. they're excited about [project]
@@ -205,22 +205,22 @@ What's your read on these? How can we help?"
 
 Frame this as alliance-building, not criticism. The direct manager should see this as help, not surveillance.
 
-Step 3: Create action items (within 1 week)
+Step 3 - Create action items (within 1 week)
 If a genuine issue emerged, do something visible:
 
-Issue: Reports feel excluded from decisions
-Action: Add one report to monthly planning meeting
-Timeline: Starting next month
-Communication: Direct manager announces in team meeting ("I'm adding [Report] to planning calls. We want better input from the team.")
+Issue - Reports feel excluded from decisions
+Action - Add one report to monthly planning meeting
+Timeline - Starting next month
+Communication - Direct manager announces in team meeting ("I'm adding [Report] to planning calls. We want better input from the team.")
 
-Issue: Career growth is unclear
-Action: Schedule career conversation with [Direct Manager] + you
-Timeline: This month
-Communication: "Let's set up time to talk about your path. I want to make sure we're giving you opportunities to grow."
+Issue - Career growth is unclear
+Action - Schedule career conversation with [Direct Manager] + you
+Timeline - This month
+Communication - "Let's set up time to talk about your path. I want to make sure we're giving you opportunities to grow."
 
 Invisible follow-up = wasted skip-level.
 
-Scheduling at Scale: Multi-Team Leaders
+Scheduling at Scale - Multi-Team Leaders
 
 If you lead 30, 50 people, you can't skip-level everyone monthly. Use a rotation:
 
@@ -242,7 +242,7 @@ Use this as your default structure:
 
 ```
 30-minute skip-level with [Report Name]
-Date: [Date]
+Date - [Date]
 
 0, 2 min: Setup & small talk
 2, 5 min: Set context ("I want to hear what's really happening")
@@ -301,7 +301,7 @@ Career stagnation:
 
 For each red flag, follow up with the direct manager and/or create an action item.
 
-Comparison: Different Skip-Level Formats
+Comparison - Different Skip-Level Formats
 
 | Format | Duration | Frequency | Best For | Risk |
 |--------|----------|-----------|----------|------|
@@ -348,16 +348,16 @@ Q: Can I do skip-levels over Slack or email instead of video?
 A: No. Tone, eye contact, and presence matter. Schedule 30 minutes of video. If async is absolutely necessary (time zones), do a written exchange, but follow up with a video call.
 
 Q: What if I discover something illegal or unethical?
-A: That's no longer a skip-level. That's an HR matter. Don't promise confidentiality on violations. Say: "I need to involve HR." Then do it immediately.
+A: That's no longer a skip-level. That's an HR matter. Don't promise confidentiality on violations. Say - "I need to involve HR." Then do it immediately.
 
 Q: Should I tell people what other reports said?
 A: No. "Someone on your team mentioned..." will create paranoia and destroy trust. Keep individual meetings confidential. Share themes with direct managers only ("A few people mentioned concerns about sprint planning").
 
 Q: What if someone asks me to keep something secret from their manager?
-A: Don't agree. Say: "I won't surprise your manager, but I'll need to bring this up. We can discuss how to frame it together." This protects both of you.
+A: Don't agree. Say - "I won't surprise your manager, but I'll need to bring this up. We can discuss how to frame it together." This protects both of you.
 
 Q: How do I handle a report who complains but doesn't want anything to change?
-A: Clarify: "I hear [frustration]. What would you like us to do about it?" If they say "Nothing, I just wanted to vent," that's fine. But make clear the meeting is about learning and improving, not just venting.
+A: Clarify - "I hear [frustration]. What would you like us to do about it?" If they say "Nothing, I just wanted to vent," that's fine. But make clear the meeting is about learning and improving, not just venting.
 
 Q: Should I do skip-levels with direct reports of my direct reports (skip-level-skip-level)?
 A: Only in large orgs (500+ people). For most teams, one level of skip-level is enough. More than that feels like surveillance.

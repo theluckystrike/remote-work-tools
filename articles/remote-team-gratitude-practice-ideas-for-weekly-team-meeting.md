@@ -35,7 +35,7 @@ Practical Gratitude Formats for Weekly Meetings
 
 The Round-Robin Shoutout
 
-The simplest approach: go around the virtual room and have each person shout out one colleague.
+The simplest approach - go around the virtual room and have each person shout out one colleague.
 
 Format:
 ```
@@ -48,7 +48,7 @@ Example statements:
 - "Thanks to Sarah for debugging that race condition in the payment flow. I was stuck for hours."
 - "Appreciate Marcus for staying late to review my PR before the sprint ended."
 
-Why it works: Specificity matters. "Great job" is nice, but "Thanks for fixing that specific bug" carries more weight because it shows you noticed the actual work.
+Why it works - Specificity matters. "Great job" is nice, but "Thanks for fixing that specific bug" carries more weight because it shows you noticed the actual work.
 
 The Two-Sentence Rule
 
@@ -56,12 +56,12 @@ For teams that find round-robins too time-consuming, try this condensed format:
 
 Format:
 ```
-Meeting leader asks: "Who deserves appreciation this week?"
+Meeting leader asks - "Who deserves appreciation this week?"
 Everyone types 2-sentence shoutouts in chat (60 seconds)
 Meeting leader reads 3-5 highlights aloud
 ```
 
-Automation example: Use a simple Slack workflow to collect these:
+Automation example - Use a simple Slack workflow to collect these:
 
 ```javascript
 // Slack app: gratitude-collector.js
@@ -97,7 +97,7 @@ Workflow:
 
 Digital Tools for Gratitude Automation
 
-Slack Integration: Kudos Bot
+Slack Integration - Kudos Bot
 
 Build a simple kudos system that tracks appreciation over time:
 
@@ -153,7 +153,7 @@ Slack command usage:
 /kudos @sarah "for debugging that hairy concurrency issue"
 ```
 
-GitHub Integration: Auto-Recognize PR Reviews
+GitHub Integration - Auto-Recognize PR Reviews
 
 Automatically recognize code review contributions:
 
@@ -205,15 +205,15 @@ Making Gratitude Stick
 
 Gratitude practices fail when they're mandatory or performative. Here are patterns that work:
 
-Keep it short: 5 minutes maximum. Longer sessions feel like meetings about meetings.
+Keep it short - 5 minutes maximum. Longer sessions feel like meetings about meetings.
 
-Make it optional: Some people are uncomfortable with public recognition. Allow silent participation or written alternatives only.
+Make it optional - Some people are uncomfortable with public recognition. Allow silent participation or written alternatives only.
 
-Be specific: Train the team to mention concrete actions, not just names. "Thanks for the code review" is okay; "Thanks for the thorough code review on the auth refactor. you caught a security issue" is better.
+Be specific - Train the team to mention concrete actions, not just names. "Thanks for the code review" is okay; "Thanks for the thorough code review on the auth refactor. you caught a security issue" is better.
 
-Rotate help: Don't make one person own the gratitude segment forever. Share the responsibility.
+Rotate help - Don't make one person own the gratitude segment forever. Share the responsibility.
 
-Track over time: A leaderboard or simple log helps people see patterns of appreciation and recognizes consistent contributors.
+Track over time - A leaderboard or simple log helps people see patterns of appreciation and recognizes consistent contributors.
 
 Overcoming Common Obstacles
 

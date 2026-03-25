@@ -26,7 +26,7 @@ Table of Contents
 - [Automation and API Access](#automation-and-api-access)
 - [Pricing for 25-Person Teams](#pricing-for-25-person-teams)
 - [Views and Reporting](#views-and-reporting)
-- [Integration Ecosystem](#integration-ecosystem)
+- [Integration environment](#integration-environment)
 - [When to Choose Basecamp](#when-to-choose-basecamp)
 - [When to Choose ClickUp](#when-to-choose-clickup)
 - [Making the Decision](#making-the-decision)
@@ -91,7 +91,7 @@ ClickUp's Docs feature offers collaborative documents with real-time editing, si
 
 For client collaboration, both platforms offer shared access:
 
-- Basecamp: Invite clients to specific projects with controlled access. They see to-dos, schedules, and can comment on documents.
+- Basecamp - Invite clients to specific projects with controlled access. They see to-dos, schedules, and can comment on documents.
 - ClickUp: Guest access with granular permissions. You can restrict clients to specific tasks, views, or documents.
 
 Automation and API Access
@@ -101,7 +101,7 @@ This is where the platforms diverge significantly for developers building integr
 Basecamp offers a REST API with webhooks for event-driven workflows. You can create automations through integrations like Zapier or Make, or build custom solutions:
 
 ```ruby
-Ruby example: Creating a Basecamp to-do via API
+Ruby example - Creating a Basecamp to-do via API
 require 'basecamp3'
 
 Configure with your OAuth token
@@ -122,10 +122,10 @@ todo = client.todos.create(
 ClickUp provides both REST and GraphQL APIs, giving developers more query flexibility. The platform also offers native automations without code:
 
 ```
-Trigger: Task status changes to "Client Review"
-Action: Notify @client via email
-Action: Set due date to +3 days
-Action: Create subtask "Collect feedback"
+Trigger - Task status changes to "Client Review"
+Action - Notify @client via email
+Action - Set due date to +3 days
+Action - Create subtask "Collect feedback"
 ```
 
 For agencies with development resources, ClickUp's API enables sophisticated reporting, pulling data for client invoices, use tracking, or custom dashboards:
@@ -133,7 +133,7 @@ For agencies with development resources, ClickUp's API enables sophisticated rep
 ```python
 import requests
 
-ClickUp: Get all tasks in a list with time tracking
+ClickUp - Get all tasks in a list with time tracking
 url = f"https://api.clickup.com/api/v2/list/{list_id}/task"
 headers = {"Authorization": CLICKUP_API_KEY}
 
@@ -186,7 +186,7 @@ ClickUp offers (with custom views):
 
 For a 25-person agency, ClickUp's Workload view helps creative directors see who has capacity during crunch times. Basecamp lacks this built-in resource view.
 
-Integration Ecosystem
+Integration environment
 
 Basecamp integrates with the essentials:
 - Slack notifications
@@ -225,7 +225,7 @@ Making the Decision
 
 For a 25-person remote creative agency, the choice often comes down to team preference and workflow complexity. Basecamp wins on simplicity and price. ClickUp wins on flexibility and feature depth.
 
-Consider a pilot test: create two real client projects, assign three team members to each tool, and run them parallel for a month. Measure actual usage, friction points, and client feedback. Your team's response to each platform's philosophy will reveal the better choice.
+Consider a pilot test - create two real client projects, assign three team members to each tool, and run them parallel for a month. Measure actual usage, friction points, and client feedback. Your team's response to each platform's philosophy will reveal the better choice.
 
 The right tool is the one your team actually uses consistently. A simpler tool used well outperforms a powerful tool configured poorly.
 

@@ -28,7 +28,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: The Problem with Surveillance-Based Monitoring
+Step 1 - The Problem with Surveillance-Based Monitoring
 
 Surveillance software creates a toxic dynamic where team members feel treated as potential underperformers rather than trusted professionals. Developers, in particular, experience decreased job satisfaction when their every keystroke is logged. The data these tools collect rarely correlates with meaningful business outcomes.
 
@@ -36,7 +36,7 @@ Consider what surveillance actually measures: time spent at a keyboard, mouse mo
 
 Instead of surveillance, focus on outcomes and behaviors that genuinely indicate healthy team performance.
 
-Step 2: Outcome-Based Metrics That Work
+Step 2 - Outcome-Based Metrics That Work
 
 Delivery Velocity and Cycle Time
 
@@ -97,7 +97,7 @@ Example team OKR:
  - Achieve 99.9% uptime for core services
  - Complete incident response training for all team members
 
-Step 3: Process Health Indicators
+Step 3 - Process Health Indicators
 
 Beyond output metrics, monitor process health indicators that predict future performance.
 
@@ -153,7 +153,7 @@ Monitor for early warning signs of team burnout:
 - Rising defect rates or technical debt
 - Decreased engagement in non-required activities
 
-Step 4: Build Trust Through Transparency
+Step 4 - Build Trust Through Transparency
 
 The most effective productivity measurement systems work because teams understand and trust them. Implement these practices:
 
@@ -191,7 +191,7 @@ Implement peer-to-peer recognition that values collaboration and quality:
 
 This approach measures and rewards the behaviors that actually make teams effective.
 
-Step 5: Practical Implementation Steps
+Step 5 - Practical Implementation Steps
 
 Start implementing trust-based productivity measurement:
 
@@ -201,7 +201,7 @@ Start implementing trust-based productivity measurement:
 4. Build dashboards: Create shared visibility into team performance
 5. Iterate and refine: Adjust metrics based on what actually improves outcomes
 
-Step 6: Beyond Individual Metrics: Team Health Signals
+Step 6 - Beyond Individual Metrics: Team Health Signals
 
 Focus on indicators that predict team success across multiple dimensions:
 
@@ -255,7 +255,7 @@ Simple knowledge distribution audit
 Count who can explain critical systems without docs
 
 If only 1 person can explain payment processing: high risk
-If 3+ people can explain it: knowledge is distributed
+If 3+ people can explain it - knowledge is distributed
 
 Track this quarterly
 echo "Can explain deployment process: Alice, Bob, Charlie"
@@ -266,20 +266,20 @@ Imbalance (one person knowing everything) = problem
 Even distribution = healthy team
 ```
 
-Step 7: Handling Productivity Discussions
+Step 7 - Handling Productivity Discussions
 
 When discussing productivity metrics with your team, follow this approach:
 
-Opening frame: "We want to understand how we're delivering value and where we can improve. Here's what we're tracking and why."
+Opening frame - "We want to understand how we're delivering value and where we can improve. Here's what we're tracking and why."
 
 Discussion topics:
 - Are these metrics actually measuring what matters?
 - What are we missing?
 - Do metrics create perverse incentives? (e.g., shipping faster but with more bugs)
 
-Adjustment process: If metrics are off, fix them collaboratively rather than forcing them on the team.
+Adjustment process - If metrics are off, fix them collaboratively rather than forcing them on the team.
 
-Step 8: Red Flags That Metrics Are Wrong
+Step 8 - Red Flags That Metrics Are Wrong
 
 Adjust your metrics if you notice:
 
@@ -290,7 +290,7 @@ Adjust your metrics if you notice:
 
 When you see these signals, pause metrics, understand the root cause, and redesign.
 
-Step 9: Async-First Productivity Measurement
+Step 9 - Async-First Productivity Measurement
 
 Remote teams relying on async communication need metrics adjusted for that context:
 
@@ -310,7 +310,7 @@ output_availability:
 
 Async teams thrive when metrics reward clear communication and thoughtful decision-making, not busyness.
 
-Step 10: Measuring Psychological Safety
+Step 10 - Measuring Psychological Safety
 
 The strongest predictor of team performance is psychological safety, the belief that you can take interpersonal risks without punishment. Measure it through anonymous pulse surveys:
 
@@ -325,17 +325,17 @@ Rate your agreement (1-5 scale):
 
 Teams with average scores above 4.0 consistently outperform those with lower scores, regardless of individual contributor metrics.
 
-Step 11: Transition Plan: From Surveillance to Trust
+Step 11 - Transition Plan: From Surveillance to Trust
 
 If you're currently using surveillance tools, this transition requires careful change management:
 
-Month 1: Announce the shift. Explain why trust-based measurement is healthier. Phase out keyboard loggers and screenshot tools.
+Month 1 - Announce the shift. Explain why trust-based measurement is healthier. Phase out keyboard loggers and screenshot tools.
 
-Month 2: Introduce outcome-based metrics. Run them alongside old metrics if needed (don't switch all at once).
+Month 2 - Introduce outcome-based metrics. Run them alongside old metrics if needed (don't switch all at once).
 
-Month 3: Conduct retrospectives. What's working? What needs adjustment?
+Month 3 - Conduct retrospectives. What's working? What needs adjustment?
 
-Month 4+: Iterate based on team feedback. Adjust metrics monthly if needed.
+Month 4+ - Iterate based on team feedback. Adjust metrics monthly if needed.
 
 The transition typically surfaces anxiety from both managers and team members. Acknowledge it openly. Trust isn't naive, it's built on clear expectations and transparent measurement.
 

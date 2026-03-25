@@ -19,7 +19,7 @@ Canary deployments route a small percentage of traffic to a new version while th
 
 ---
 
-Option 1: Argo Rollouts (Kubernetes)
+Option 1 - Argo Rollouts (Kubernetes)
 
 Argo Rollouts extends Kubernetes deployments with progressive delivery strategies.
 
@@ -156,7 +156,7 @@ kubectl argo rollouts abort payments-service
 
 ---
 
-Option 2: Flagger (Kubernetes + Service Mesh)
+Option 2 - Flagger (Kubernetes + Service Mesh)
 
 Flagger automates canary analysis using Istio, Linkerd, or Nginx ingress for traffic splitting.
 
@@ -236,7 +236,7 @@ kubectl describe canary payments-service -n production
 
 ---
 
-Option 3: Nginx Weighted Routing (Simple)
+Option 3 - Nginx Weighted Routing (Simple)
 
 No Kubernetes? Use Nginx with a split_clients module for simple canary routing:
 

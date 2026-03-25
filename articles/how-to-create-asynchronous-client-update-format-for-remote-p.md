@@ -27,7 +27,7 @@ Table of Contents
 - [Best Practices for Remote Update Formats](#best-practices-for-remote-update-formats)
 - [Adapting Formats to Your Context](#adapting-formats-to-your-context)
 - [Update - March 16, 2026](#update-march-16-2026)
-- [Real-World Implementation: Setting Up Your Update Pipeline](#real-world-implementation-setting-up-your-update-pipeline)
+- [Real-World Implementation - Setting Up Your Update Pipeline](#real-world-implementation-setting-up-your-update-pipeline)
 - [Frequency and Timing Guidelines](#frequency-and-timing-guidelines)
 - [Handling Difficult Conversations in Writing](#handling-difficult-conversations-in-writing)
 
@@ -37,7 +37,7 @@ Remote projects face a unique challenge: not everyone is available at the same t
 
 An effective asynchronous client update format must accomplish three things: provide sufficient context for someone to understand the current state, clearly identify what decisions or actions are needed, and establish clear ownership for next steps.
 
-Consider a real scenario: a distributed agency team is building an e-commerce platform for a retail client. The engineering team is based in Berlin, the design lead is in Vancouver, and the client's product owner is in Singapore. Without a structured async update format, the client would receive a patchwork of Slack messages, email threads, and Notion comments, none of which tell a coherent story. With a defined format, the Berlin team publishes one update each Friday that the Singapore stakeholder reads first thing Monday morning with full context and no follow-up questions needed.
+Consider a real scenario - a distributed agency team is building an e-commerce platform for a retail client. The engineering team is based in Berlin, the design lead is in Vancouver, and the client's product owner is in Singapore. Without a structured async update format, the client would receive a patchwork of Slack messages, email threads, and Notion comments, none of which tell a coherent story. With a defined format, the Berlin team publishes one update each Friday that the Singapore stakeholder reads first thing Monday morning with full context and no follow-up questions needed.
 
 Designing Your Update Structure
 
@@ -190,7 +190,7 @@ Not every project needs the full JSON implementation. A simple markdown format w
 ```markdown
 Update - March 16, 2026
 
-Status: On Track
+Status - On Track
 
 Accomplished
 - Deployed bug fixes for dashboard loading issues (#123)
@@ -222,14 +222,14 @@ How do we handle scope changes in the update format? Add a "Scope Change Alert" 
 What tools support async update workflows? Linear and Jira both support weekly digest reports. Notion databases can act as structured update logs. Tools like Loom, Claap, and Descript cover video update workflows. For document-heavy clients, a shared Google Slides deck that teams update weekly gives stakeholders a visual snapshot alongside the written narrative.
 ---
 
-Real-World Implementation: Setting Up Your Update Pipeline
+Real-World Implementation - Setting Up Your Update Pipeline
 
 Email Template for Weekly Client Updates
 
 The most reliable async format remains email for formal client communication. Here's a template that translates the JSON structure into readable prose:
 
 ```
-Subject: Project Update. [Project Name]. Week of [Date]
+Subject - Project Update. [Project Name]. Week of [Date]
 
 Dear [Client Name],
 
@@ -246,7 +246,7 @@ WORK IN PROGRESS:
 
 TIMELINE STATUS:
 Current milestone: [X] - completion [on track/at risk/blocked]
-Next milestone: [Y] - scheduled for [date]
+Next milestone - [Y] - scheduled for [date]
 
 BLOCKERS & RISKS:
 [If none, explicitly state "No blockers this week."]
@@ -262,7 +262,7 @@ METRICS:
 - Quality: [test pass rate/defect backlog/performance metric]
 - Risk score: [Your own rating - green/yellow/red with explanation]
 
-Next update: [Day and date of next scheduled update]
+Next update - [Day and date of next scheduled update]
 
 Best regards,
 [Your name]

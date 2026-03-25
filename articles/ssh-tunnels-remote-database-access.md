@@ -27,7 +27,7 @@ Table of Contents
 - [Shell Aliases for Quick Tunnel Management](#shell-aliases-for-quick-tunnel-management)
 - [Configure GUI Database Tools](#configure-gui-database-tools)
 - [Using SSH Tunnels with ORMs and Application Code](#using-ssh-tunnels-with-orms-and-application-code)
-- [Tunnel Comparison: Manual SSH vs autossh vs GUI Built-in](#tunnel-comparison-manual-ssh-vs-autossh-vs-gui-built-in)
+- [Tunnel Comparison - Manual SSH vs autossh vs GUI Built-in](#tunnel-comparison-manual-ssh-vs-autossh-vs-gui-built-in)
 - [Verify and Debug Tunnels](#verify-and-debug-tunnels)
 
 This guide covers local port forwarding for databases, jump hosts, persistent tunnels with autossh, and configuring GUI database tools to use them.
@@ -222,7 +222,7 @@ DBeaver
 2. In connection dialog, go to `SSH` tab
 3. Enable SSH Tunnel
 4. Host: `db.example.com`, Port: `22`
-5. Auth Method: Public Key, Private Key: path to `~/.ssh/id_ed25519`
+5. Auth Method - Public Key, Private Key: path to `~/.ssh/id_ed25519`
 6. Main tab: Host: `localhost`, Port: `5432`
 
 pgAdmin 4
@@ -269,7 +269,7 @@ def start_tunnel(ssh_host, remote_db_port, local_port):
     time.sleep(1)  # Brief wait for tunnel to establish
     return proc
 
-Usage: tunnel to dev DB before running migrations
+Usage - tunnel to dev DB before running migrations
 tunnel = start_tunnel('ubuntu@db.staging.example.com', 5432, 5433)
 conn = psycopg2.connect(
     host='127.0.0.1',
@@ -282,7 +282,7 @@ conn = psycopg2.connect(
 
 For Rails applications, the `sshtunnel` gem provides equivalent functionality and integrates cleanly with `database.yml`. Node.js projects can use the `tunnel-ssh` npm package, which wraps the same SSH forwarding logic.
 
-Tunnel Comparison: Manual SSH vs autossh vs GUI Built-in
+Tunnel Comparison - Manual SSH vs autossh vs GUI Built-in
 
 | Method | Best For | Reconnects | Extra Deps | Persistent |
 |--------|----------|-----------|-----------|-----------|
@@ -316,7 +316,7 @@ lsof -ti:5433 | xargs kill  # kill whatever is using port 5433
 
 "channel 3: open failed: connect failed"
 The remote host can't reach the destination (firewall or wrong address)
-Test on the remote server: telnet localhost 5432
+Test on the remote server - telnet localhost 5432
 ```
 
 A useful diagnostic when the tunnel establishes but database connections fail: SSH to the remote server directly and attempt `psql -h localhost -p 5432`. If that fails, the issue is on the remote server (database not listening, pg_hba.conf blocking local connections), not the tunnel itself.

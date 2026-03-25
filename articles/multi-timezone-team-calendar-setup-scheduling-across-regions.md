@@ -19,18 +19,18 @@ Scheduling meetings across timezones is the unsolved problem of distributed team
 
 Table of Contents
 
-- [The Core Problem: Why Standard Calendars Fail](#the-core-problem-why-standard-calendars-fail)
-- [Step 1: Map Your Timezone Overlap](#step-1-map-your-timezone-overlap)
-- [Step 2: Configure Calendar Tools for Timezone Clarity](#step-2-configure-calendar-tools-for-timezone-clarity)
-- [Step 3: Implement Timezone Rotation Strategy](#step-3-implement-timezone-rotation-strategy)
-- [Step 4: Create "Core Hours" Overlap Window](#step-4-create-core-hours-overlap-window)
-- [Step 5: Structure Meetings to Respect Timezone Costs](#step-5-structure-meetings-to-respect-timezone-costs)
-- [Step 6: Async-First Meeting Alternatives](#step-6-async-first-meeting-alternatives)
-- [Step 7: Tools for Scheduling Across Timezones](#step-7-tools-for-scheduling-across-timezones)
-- [Real-World Scenario: 7-Person Team Across 4 Timezones](#real-world-scenario-7-person-team-across-4-timezones)
+- [The Core Problem - Why Standard Calendars Fail](#the-core-problem-why-standard-calendars-fail)
+- [Step 1 - Map Your Timezone Overlap](#step-1-map-your-timezone-overlap)
+- [Step 2 - Configure Calendar Tools for Timezone Clarity](#step-2-configure-calendar-tools-for-timezone-clarity)
+- [Step 3 - Implement Timezone Rotation Strategy](#step-3-implement-timezone-rotation-strategy)
+- [Step 4 - Create "Core Hours" Overlap Window](#step-4-create-core-hours-overlap-window)
+- [Step 5 - Structure Meetings to Respect Timezone Costs](#step-5-structure-meetings-to-respect-timezone-costs)
+- [Step 6 - Async-First Meeting Alternatives](#step-6-async-first-meeting-alternatives)
+- [Step 7 - Tools for Scheduling Across Timezones](#step-7-tools-for-scheduling-across-timezones)
+- [Real-World Scenario - 7-Person Team Across 4 Timezones](#real-world-scenario-7-person-team-across-4-timezones)
 - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 
-The Core Problem: Why Standard Calendars Fail
+The Core Problem - Why Standard Calendars Fail
 
 When your team spans Pacific (UTC-8), Europe (UTC+1), and India (UTC+5:30), a "9 AM meeting" needs clarification. Calendar apps show wall-clock times, not the sacrifice required. A 9 AM Pacific call means 12:30 AM India time, unworkable.
 
@@ -40,13 +40,13 @@ Successful distributed teams need:
 3. Strategic sync windows where overlap exists
 4. Protected focus time so no timezone is constantly sacrificing
 
-Step 1: Map Your Timezone Overlap
+Step 1 - Map Your Timezone Overlap
 
 First, identify which timezones overlap and by how much.
 
 ```bash
 Create a timezone overlap matrix
-For 5-person team: Pacific, Mountain, Europe, India, SE Asia
+For 5-person team - Pacific, Mountain, Europe, India, SE Asia
 
 Use this script to find best overlap window
 cat > find_overlap.py << 'EOF'
@@ -120,26 +120,26 @@ UTC 14:00 → 3 people awake
   India: 19:30 
 ```
 
-Finding: 2-hour window (UTC 13-15) works for everyone. Pacific pays 6-8 AM cost. India gets 18:30-20:30 which is reasonable.
+Finding - 2-hour window (UTC 13-15) works for everyone. Pacific pays 6-8 AM cost. India gets 18:30-20:30 which is reasonable.
 
-Step 2: Configure Calendar Tools for Timezone Clarity
+Step 2 - Configure Calendar Tools for Timezone Clarity
 
 Google Calendar Team Setup
 
 Create separate calendar entries for "Timezone Cost":
 
 ```
-Meeting: Product Standup
-Time: 2:00 PM Europe time (Tuesday)
+Meeting - Product Standup
+Time - 2:00 PM Europe time (Tuesday)
 
 Description:---
-Pacific: 6:00 AM (early, consider recording)
-Mountain: 7:00 AM
-Europe: 2:00 PM  (best time)
-India: 7:30 PM
-SE Asia: 8:00 PM 
+Pacific - 6:00 AM (early, consider recording)
+Mountain - 7:00 AM
+Europe - 2:00 PM  (best time)
+India - 7:30 PM
+SE Asia - 8:00 PM 
 
-TIMEZONE ROTATION: This month Pacific pays the cost.
+TIMEZONE ROTATION - This month Pacific pays the cost.
 Next month we'll move to 8:00 AM Europe time so India gets better slot.
 ---
 ```
@@ -154,19 +154,19 @@ Set calendar availability by timezone:
 ```
 Google Calendar → Settings → Working Hours
 
-Patrick (Pacific): 10 AM - 7 PM PT
-Elena (Europe): 9 AM - 6 PM CET
-Rajesh (India): 10 AM - 7 PM IST
+Patrick (Pacific) - 10 AM - 7 PM PT
+Elena (Europe) - 9 AM - 6 PM CET
+Rajesh (India) - 10 AM - 7 PM IST
 ```
 
-Key: Block "unavailable" hours (when someone would be sleeping) so meeting invites can't be sent then.
+Key - Block "unavailable" hours (when someone would be sleeping) so meeting invites can't be sent then.
 
 Outlook Calendar Setup
 
 Use the "Suggested Times" feature with timezone mapping:
 
 ```
-When scheduling: Outlook → New Event → Suggested Times
+When scheduling - Outlook → New Event → Suggested Times
 → Add attendees
 → Timezone dropdown: Set each person's home timezone
 → See suggested windows with all timezones displayed
@@ -185,7 +185,7 @@ Slack Integration for Timezone Awareness
 Automate timezone reminders:
 
 ```
-Slack workflow: Every meeting has timezone cost summary
+Slack workflow - Every meeting has timezone cost summary
 /reminder "Product standup in 30 min: 6 AM Pacific | 2 PM Europe | 7:30 PM India"
 ```
 
@@ -201,32 +201,32 @@ Bot adds to every meeting:
  Rajesh (India): 7:30 PM (okay)
 ```
 
-Step 3: Implement Timezone Rotation Strategy
+Step 3 - Implement Timezone Rotation Strategy
 
 Don't rotate randomly. Use a quarterly schedule so people know when their sacrifice month is coming.
 
 ```
-Q1 (Jan-Mar): Pacific-first rotation
+Q1 (Jan-Mar) - Pacific-first rotation
  Weekly all-hands: 6 PM Pacific = 2 AM Europe (recorded, async)
  Standups: 9 AM Pacific = 5 PM Europe
  1:1s: Flexible, scheduled individually
 
-Q2 (Apr-Jun): Europe-first rotation
+Q2 (Apr-Jun) - Europe-first rotation
  Weekly all-hands: 8 AM Europe = midnight Pacific (recorded)
  Standups: 4 PM Europe = 7 AM Pacific
 
-Q3 (Jul-Sep): India-first rotation
+Q3 (Jul-Sep) - India-first rotation
  Weekly all-hands: 3 PM India = 5:30 AM Europe = 9 PM Pacific (recorded)
  Standups: 11 AM India = 1:30 AM Europe (async standup instead)
 ```
 
 Share this publicly on your team wiki. People accept 6 AM calls if they know it's 3 months and it rotates.
 
-Step 4: Create "Core Hours" Overlap Window
+Step 4 - Create "Core Hours" Overlap Window
 
 Define the absolute sync window where everyone attends live.
 
-For Pacific/Europe/India team: UTC 13:00-15:00 (2-hour window)
+For Pacific/Europe/India team - UTC 13:00-15:00 (2-hour window)
 
 During core hours only:
 - Pair programming sessions
@@ -238,14 +238,14 @@ Everything else is async:
 - Project planning (RFC documents + Slack consensus)
 - Code review (GitHub + async feedback)
 
-Step 5: Structure Meetings to Respect Timezone Costs
+Step 5 - Structure Meetings to Respect Timezone Costs
 
 Meeting Agenda Template for Distributed Teams
 
 ```
-Meeting: Q1 Planning
-Time: 6 AM Pacific | 2 PM Europe | 7:30 PM India
-Duration: 90 minutes
+Meeting - Q1 Planning
+Time - 6 AM Pacific | 2 PM Europe | 7:30 PM India
+Duration - 90 minutes
 
 AGENDA (sent 24h before):
 1. [RECORDING + ASYNC] CEO vision (15 min) - Watch async or attend live
@@ -276,9 +276,9 @@ Time Pacific Europe India Record?
  = Optimal (during business hours)
 ```
 
-Rule: If any timezone gets red, recording is mandatory and attendance is optional.
+Rule - If any timezone gets red, recording is mandatory and attendance is optional.
 
-Step 6: Async-First Meeting Alternatives
+Step 6 - Async-First Meeting Alternatives
 
 Replace sync meetings with async equivalents when possible:
 
@@ -316,7 +316,7 @@ People add:
 -  with questions/concerns
 -  to indicate approval
 
-Wednesday morning: Discuss only contentious items.
+Wednesday morning - Discuss only contentious items.
 Most planning is done async via doc comments.
 ```
 
@@ -334,9 +334,9 @@ Patrick (Pacific) + Rajesh (India):
  Frequency: Every 2 weeks (less frequent due to poor overlap)
 ```
 
-Step 7: Tools for Scheduling Across Timezones
+Step 7 - Tools for Scheduling Across Timezones
 
-Primary Tool: Calendly with Timezone Intelligence
+Primary Tool - Calendly with Timezone Intelligence
 
 ```
 Calendly settings for distributed team:
@@ -349,20 +349,20 @@ Calendly settings for distributed team:
 Example Calendly link:
 ```
 https://calendly.com/team/1-1-meeting
-Available: Mon-Fri 11 AM - 4 PM my time
-Shows attendee: "11 AM Pacific = 7 PM Europe = 4:30 AM India"
+Available - Mon-Fri 11 AM - 4 PM my time
+Shows attendee - "11 AM Pacific = 7 PM Europe = 4:30 AM India"
 ```
 
-Backup Tool: When.com (Timezone Meeting Finder)
+Backup Tool - When.com (Timezone Meeting Finder)
 
 ```
 when.com/patrick-elena-rajesh
-Shows: All hours in each timezone
-Color-codes: Green (working hours), Yellow (extended), Red (sleeping)
-Suggests: Best 3 windows that work for all
+Shows - All hours in each timezone
+Color-codes - Green (working hours), Yellow (extended), Red (sleeping)
+Suggests - Best 3 windows that work for all
 ```
 
-Automated Tool: Timezone-aware Slack Bot
+Automated Tool - Timezone-aware Slack Bot
 
 ```bash
 npm install slack-timezone-helper
@@ -375,19 +375,19 @@ npm install slack-timezone-helper
  Times: 4-6 AM Pacific | 12-2 PM Europe | 7:30-9:30 PM India
 ```
 
-Real-World Scenario: 7-Person Team Across 4 Timezones
+Real-World Scenario - 7-Person Team Across 4 Timezones
 
 Team composition:
 - 2 Pacific, 2 Europe, 2 India, 1 SE Asia
 
 Solution implemented:
 ```
-All-hands meeting: Rotates monthly
+All-hands meeting - Rotates monthly
  Month 1: 6 PM Pacific (2 AM Europe - recorded)
  Month 2: 2 PM Europe (6 AM Pacific - recorded)
  Month 3: 3 PM India (5 AM Europe - recorded)
 
-Daily standups: Async via Slack
+Daily standups - Async via Slack
  9 AM PT, 5 PM CET, 2:30 AM IST local times
  Posted to #standup channel
  15-min live resolution call at 12 PM Europe if blockers
@@ -397,7 +397,7 @@ Daily standups: Async via Slack
  Pacific ↔ India: Every other week, 8:30 PM IST
  Europe ↔ India: 6 PM CET / 11:30 PM IST
 
-Core sync hours: None (not enough overlap for all 7)
+Core sync hours - None (not enough overlap for all 7)
  Instead: Async decision-making with RFC documents
 ```
 

@@ -27,7 +27,7 @@ Table of Contents
 - [Productivity Enhancers](#productivity-enhancers)
 - [Extension Stack Recommendations by Workflow](#extension-stack-recommendations-by-workflow)
 - [Performance Monitoring Extension Impact](#performance-monitoring-extension-impact)
-- [Advanced: Custom Extension Creation](#advanced-custom-extension-creation)
+- [Advanced - Custom Extension Creation](#advanced-custom-extension-creation)
 - [Extension Audit Checklist](#extension-audit-checklist)
 - [Q2 Extension Audit (March 2026)](#q2-extension-audit-march-2026)
 - [Extension Management Best Practices](#extension-management-best-practices)
@@ -62,7 +62,7 @@ OneTab takes a different approach, consolidating all open tabs into a single lis
 For teams using the Todoist browser extension, creating tab-based task workflows becomes straightforward. Save URLs to specific projects directly from your browser:
 
 ```
-Project: Development Tasks
+Project - Development Tasks
 - API Documentation → Docs project
 - GitHub Issues → Bugs project
 - Code Review → Reviews project
@@ -84,7 +84,7 @@ EditThisCookie extends your browser's cookie management capabilities. You can vi
 // Example: Inspect session cookie after login
 // In EditThisCookie, look for:
 // Name: session_id
-// Value: eyJhbGciOiJIUzI1NiIs...
+// Value - eyJhbGciOiJIUzI1NiIs...
 // Domain: yourapp.com
 // HttpOnly: true
 // Secure: true
@@ -174,8 +174,8 @@ Minimal Stack (React/Frontend Developer):
 3. uBlock Origin ($0)
 4. Dark Reader ($0)
 
-Total annual cost: $0
-Time savings: ~2 hours/week (context switching, JSON parsing, readability)
+Total annual cost - $0
+Time savings - ~2 hours/week (context switching, JSON parsing, readability)
 
 Full Stack (Full-stack engineer + DevOps):
 1. React Developer Tools ($0)
@@ -187,8 +187,8 @@ Full Stack (Full-stack engineer + DevOps):
 7. Dark Reader ($0)
 8. Raindrop.io ($0 basic, $48/year pro)
 
-Total annual cost: $0-48
-Time savings: ~5 hours/week (documentation lookup, API testing, code navigation)
+Total annual cost - $0-48
+Time savings - ~5 hours/week (documentation lookup, API testing, code navigation)
 
 Power User Stack (Including productivity & distraction blocking):
 1. All above
@@ -198,8 +198,8 @@ Power User Stack (Including productivity & distraction blocking):
 5. Todoist ($0-56/year)
 6. SourceGraph ($0-200/month for enterprise)
 
-Total annual cost: $0-240
-Time savings: ~8 hours/week (tab management, focus, task capture)
+Total annual cost - $0-240
+Time savings - ~8 hours/week (tab management, focus, task capture)
 
 Performance Monitoring Extension Impact
 
@@ -221,7 +221,7 @@ Use this simple script to measure extension overhead:
 // If full stack > baseline + 30%, consider trimming least-used extensions
 ```
 
-Advanced: Custom Extension Creation
+Advanced - Custom Extension Creation
 
 For power users, simple browser extensions automate repetitive tasks:
 
@@ -291,11 +291,11 @@ Extension Management Best Practices
 
 Managing multiple extensions requires deliberate organization.
 
-Quarterly Review: Review your extensions quarterly and remove anything you haven't used in the past month. Each extension runs in your browser's background, potentially consuming memory and creating security surface area. The cost-benefit should be obvious for each one.
+Quarterly Review - Review your extensions quarterly and remove anything you haven't used in the past month. Each extension runs in your browser's background, potentially consuming memory and creating security surface area. The cost-benefit should be obvious for each one.
 
-Browser Profiles: Create browser profiles for different contexts. Use one profile for development with all your dev tools, another for general browsing with minimal extensions, and a third for accessing sensitive production systems with zero extensions. Profile switching keeps your environments clean and focused.
+Browser Profiles - Create browser profiles for different contexts. Use one profile for development with all your dev tools, another for general browsing with minimal extensions, and a third for accessing sensitive production systems with zero extensions. Profile switching keeps your environments clean and focused.
 
-Testing: Test new extensions in a separate profile first. This prevents problematic extensions from affecting your primary workflow and gives you time to evaluate whether the extension adds genuine value. Use the 2-week rule: if you haven't used it by day 14, uninstall it.
+Testing - Test new extensions in a separate profile first. This prevents problematic extensions from affecting your primary workflow and gives you time to evaluate whether the extension adds genuine value. Use the 2-week rule: if you haven't used it by day 14, uninstall it.
 
 Security Considerations
 

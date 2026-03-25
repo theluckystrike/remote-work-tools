@@ -45,7 +45,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: System Architecture Overview
+Step 1 - System Architecture Overview
 
 A production wayfinding system consists of these components:
 
@@ -88,7 +88,7 @@ class WayfindingService {
 }
 ```
 
-Step 2: Beacon Deployment Strategy
+Step 2 - Beacon Deployment Strategy
 
 Proper beacon placement determines system accuracy. Deploy beacons in a grid pattern with 10-15 meter spacing. Position them at ceiling height (2.5-3 meters) and avoid placing them near metal objects or large glass surfaces, which cause signal reflection.
 
@@ -127,7 +127,7 @@ Follow this step-by-step process when deploying beacons to a new floor:
 4. Run a coverage heat map. Use a free tool like IndoorAtlas or HeatMapper to walk the floor with a beacon scanner app and verify signal coverage. Gaps larger than 15 meters between detectable beacons require an additional beacon.
 5. Update the backend registry. Push the finalized JSON to your backend and confirm the mobile app resolves positions correctly for five distinct test locations on the floor.
 
-Step 3: Mobile Application Implementation
+Step 3 - Mobile Application Implementation
 
 The mobile client handles beacon scanning, trilateration for position calculation, and map rendering. Here's a React Native example for beacon ranging:
 
@@ -179,7 +179,7 @@ Infrequent office visitors need simple, landmark-based directions rather than pr
 
 Implement a landmark layer in your floor plan data that annotates key decision points. elevator banks, kitchens, reception desks, and restrooms. and use these as waypoints when generating turn-by-turn directions.
 
-Step 4: Integration with Room and Desk Systems
+Step 4 - Integration with Room and Desk Systems
 
 Wayfinding becomes powerful when connected to your existing workplace tools. Most offices use systems like Robin, Teem, or custom solutions. Create an integration layer that pulls real-time availability:
 
@@ -226,7 +226,7 @@ The most impactful wayfinding feature for infrequent visitors is pre-arrival gui
 
 Implement this as a calendar webhook or Google Workspace add-on. When a meeting with a physical room location is accepted, trigger the wayfinding link generation and deliver it via Slack or email.
 
-Step 5: Practical Deployment Considerations
+Step 5 - Practical Deployment Considerations
 
 When deploying your wayfinding system, start small. Choose one floor or building section as a pilot. Measure actual accuracy by having test users walk known routes and compare estimated positions against ground truth.
 

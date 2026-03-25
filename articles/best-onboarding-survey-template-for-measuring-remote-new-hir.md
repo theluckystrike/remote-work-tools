@@ -397,7 +397,7 @@ Cohort 3 (After improvements based on surveys):
 - Avg 30-day survey score: 4.3/5
 - Year-1 retention: 85%
 
-Insight: Every 0.5 point improvement in 30-day survey predicts ~2-3% better retention.
+Insight - Every 0.5 point improvement in 30-day survey predicts ~2-3% better retention.
 
 Most valuable insights:
 - Role clarity (most predictive of retention)
@@ -407,35 +407,35 @@ Most valuable insights:
 
 Common Pitfalls When Implementing Surveys
 
-Pitfall 1: Surveys become busywork
+Pitfall 1 - Surveys become busywork
 
 New hires feel like they're filling out forms instead of being welcomed.
 
-Fix: Keep surveys to <10 minutes, deliver results, and show action taken.
+Fix - Keep surveys to <10 minutes, deliver results, and show action taken.
 
-Pitfall 2: Surveys at wrong times
+Pitfall 2 - Surveys at wrong times
 
 Sending 60-day survey at day 55, then analyzing day 90+ means feedback arrives too late.
 
-Fix: Automate scheduling based on hire date. Send survey slightly early (28-29 days).
+Fix - Automate scheduling based on hire date. Send survey slightly early (28-29 days).
 
-Pitfall 3: Survey fatigue
+Pitfall 3 - Survey fatigue
 
 Sending surveys every week burns out new hires.
 
-Fix: Stick to 30-60-90 milestones only. Don't add extra check-ins.
+Fix - Stick to 30-60-90 milestones only. Don't add extra check-ins.
 
-Pitfall 4: Ignored feedback
+Pitfall 4 - Ignored feedback
 
 Survey repeatedly shows "unclear expectations" but nothing changes.
 
-Fix: Assign each survey result an owner (manager, team lead, IT director) with action item.
+Fix - Assign each survey result an owner (manager, team lead, IT director) with action item.
 
-Pitfall 5: Anonymous surveys hide actionable detail
+Pitfall 5 - Anonymous surveys hide actionable detail
 
 Anonymous responses mean you can't follow up on individual blockers.
 
-Fix: Use named surveys (it's safe. 30 days in, people trust the process). Allow anonymous comments if preferred.
+Fix - Use named surveys (it's safe. 30 days in, people trust the process). Allow anonymous comments if preferred.
 
 Related Articles
 

@@ -26,7 +26,7 @@ Remote work introduces unique challenges that make postmortem-derived guides ess
 
 A well-built troubleshooting guide captures institutional knowledge, reduces mean time to recovery (MTTR), and helps on-call engineers to resolve issues without waiting for the "expert" to wake up.
 
-Step 1: Standardize Your Postmortem Format
+Step 1 - Standardize Your Postmortem Format
 
 Before extracting useful patterns, your postmortems need consistent structure. Create a template your team agrees to use:
 
@@ -55,7 +55,7 @@ List alert names that fired (or failed to fire).
 
 Store this template in your team repository and link it from your incident response runbook. When every postmortem follows this structure, extracting patterns becomes straightforward.
 
-Step 2: Extract Recurring Patterns
+Step 2 - Extract Recurring Patterns
 
 Review your last 20-30 incidents and categorize them. Look for:
 
@@ -100,7 +100,7 @@ if __name__ == "__main__":
 
 This script helps you identify which categories deserve the most attention in your troubleshooting guide.
 
-Step 3: Build a Searchable Knowledge Base
+Step 3 - Build a Searchable Knowledge Base
 
 A troubleshooting guide is only useful if people can find it. Consider these approaches:
 
@@ -154,7 +154,7 @@ function searchTroubleshooting(query) {
 }
 ```
 
-Step 4: Create Decision Trees
+Step 4 - Create Decision Trees
 
 Rather than long narrative documents, build decision trees that guide engineers to solutions:
 
@@ -173,7 +173,7 @@ Rather than long narrative documents, build decision trees that guide engineers 
 
 Document these decision trees in your wiki or as interactive scripts that junior engineers can run.
 
-Step 5: Automate Runbook Generation
+Step 5 - Automate Runbook Generation
 
 As your team resolves incidents, generate runbooks programmatically from ticket data:
 
@@ -218,7 +218,7 @@ ${runbook.prevention}
 }
 ```
 
-Step 6: Maintain and Update
+Step 6 - Maintain and Update
 
 A troubleshooting guide is not an one-time project. Build these maintenance practices:
 
@@ -227,7 +227,7 @@ A troubleshooting guide is not an one-time project. Build these maintenance prac
 - Track usage: Add analytics to see which guides are actually consulted
 - Reward contributions: Recognize team members who improve documentation
 
-Practical Example: Building the Guide
+Practical Example - Building the Guide
 
 Here's a minimal working example to get started:
 

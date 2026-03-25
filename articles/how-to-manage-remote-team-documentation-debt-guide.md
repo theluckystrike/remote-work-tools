@@ -22,12 +22,12 @@ Table of Contents
 
 - [How to Manage Remote Team Documentation Debt: Complete Guide (2026)](#how-to-manage-remote-team-documentation-debt-complete-guide-2026)
 - [Understanding Documentation Debt](#understanding-documentation-debt)
-- [Step 1: Audit Your Current Documentation](#step-1-audit-your-current-documentation)
-- [Step 2: Measure Documentation Debt Quantitatively](#step-2-measure-documentation-debt-quantitatively)
-- [Step 3: Create a Documentation Strategy](#step-3-create-a-documentation-strategy)
-- [Step 4: Tools Comparison for Remote Documentation](#step-4-tools-comparison-for-remote-documentation)
+- [Step 1 - Audit Your Current Documentation](#step-1-audit-your-current-documentation)
+- [Step 2 - Measure Documentation Debt Quantitatively](#step-2-measure-documentation-debt-quantitatively)
+- [Step 3 - Create a Documentation Strategy](#step-3-create-a-documentation-strategy)
+- [Step 4 - Tools Comparison for Remote Documentation](#step-4-tools-comparison-for-remote-documentation)
 - [Tools Comparison Table](#tools-comparison-table)
-- [Step 5: Documentation Templates](#step-5-documentation-templates)
+- [Step 5 - Documentation Templates](#step-5-documentation-templates)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Verification](#verification)
@@ -43,9 +43,9 @@ Table of Contents
 - [Decision](#decision)
 - [Consequences](#consequences)
 - [References](#references)
-- [Step 6: Establish Documentation Maintenance Schedule](#step-6-establish-documentation-maintenance-schedule)
-- [Step 7: Automation and Integration](#step-7-automation-and-integration)
-- [Real Example: Reducing Documentation Debt](#real-example-reducing-documentation-debt)
+- [Step 6 - Establish Documentation Maintenance Schedule](#step-6-establish-documentation-maintenance-schedule)
+- [Step 7 - Automation and Integration](#step-7-automation-and-integration)
+- [Real Example - Reducing Documentation Debt](#real-example-reducing-documentation-debt)
 - [Measuring Success](#measuring-success)
 
 Documentation debt accumulates silently in remote teams. Unlike in-office settings where knowledge passes through casual conversations and hallway interactions, distributed teams depend entirely on written documentation. When documentation lags behind product changes, onboarding becomes painful, context gets lost, and knowledge silos form. This guide provides frameworks to identify, quantify, and systematically reduce documentation debt.
@@ -68,7 +68,7 @@ Documentation debt costs:
 - Team friction: "Why wasn't I told about this?" conflicts
 - Technical debt compounding: Undocumented code is harder to refactor
 
-Step 1: Audit Your Current Documentation
+Step 1 - Audit Your Current Documentation
 
 Before improving documentation, understand what exists. This audit identifies gaps and inventory size.
 
@@ -123,8 +123,8 @@ Real Inventory Example (10-Person Remote Team)
 ```
 Location Breakdown:
 - GitHub Wiki: 25 pages (Average quality: 4.2)
-- Confluence: 18 pages (Average quality: 2.1)
-- Google Drive: 12 pages (Average quality: 1.8)
+- Confluence - 18 pages (Average quality: 2.1)
+- Google Drive - 12 pages (Average quality: 1.8)
 - Slack threads: Uncounted pages (Average quality: 1.0)
 - Local developer notes: Scattered
 
@@ -136,7 +136,7 @@ Findings:
 - Quality average: 2.6/5.0 (Below acceptable)
 ```
 
-Step 2: Measure Documentation Debt Quantitatively
+Step 2 - Measure Documentation Debt Quantitatively
 
 Convert qualitative assessment into measurable metrics.
 
@@ -172,7 +172,7 @@ Freshness = (Documents updated in last 90 days / Total documents) * 100
 - Updated in last 90 days: 15
 - Freshness = (15 / 47) * 100 = 31.9%
 
-Target: 60%+ freshness (indicates active maintenance)
+Target - 60%+ freshness (indicates active maintenance)
 ```
 
 Coverage Gap Analysis
@@ -199,7 +199,7 @@ Missing Documentation (High Priority):
 4. Team meeting processes
 ```
 
-Step 3: Create a Documentation Strategy
+Step 3 - Create a Documentation Strategy
 
 Define what documentation your team actually needs.
 
@@ -240,14 +240,14 @@ Deployment | @grace | @henry | Per release |
 Processes | @ivy | @jake | Biannually |
 ```
 
-Step 4: Tools Comparison for Remote Documentation
+Step 4 - Tools Comparison for Remote Documentation
 
 Different tools serve different purposes. Choose based on your team's needs.
 
-Option 1: GitHub Wiki / Pages (Best for Development Teams)
-Cost: Free (if using GitHub)
-Best for: Technical documentation, version control, developer teams
-Learning curve: Low (if team knows Git)
+Option 1 - GitHub Wiki / Pages (Best for Development Teams)
+Cost - Free (if using GitHub)
+Best for - Technical documentation, version control, developer teams
+Learning curve - Low (if team knows Git)
 
 Strengths:
 - Lives with code (same repository)
@@ -277,9 +277,9 @@ Repository structure:
  - troubleshooting.md
 ```
 
-Option 2: Confluence (Best for Enterprise)
-Cost: $6/user/month (Cloud, or $1,600/year on-prem)
-Best for: Large teams, non-technical documentation, mixed audiences
+Option 2 - Confluence (Best for Enterprise)
+Cost - $6/user/month (Cloud, or $1,600/year on-prem)
+Best for - Large teams, non-technical documentation, mixed audiences
 
 Strengths:
 - Rich editor (not just Markdown)
@@ -297,7 +297,7 @@ Weaknesses:
 
 Template example:
 ```
-Confluence Space: Engineering
+Confluence Space - Engineering
 
 Parent Pages:
 - Getting Started
@@ -314,9 +314,9 @@ Parent Pages:
  - Incident Response
 ```
 
-Option 3: Notion (Best for Mixed Content)
-Cost: $8-10/user/month (Team plan)
-Best for: Cross-functional teams, mixed documentation and task management
+Option 3 - Notion (Best for Mixed Content)
+Cost - $8-10/user/month (Team plan)
+Best for - Cross-functional teams, mixed documentation and task management
 
 Strengths:
 - Beautiful UI
@@ -333,7 +333,7 @@ Weaknesses:
 
 Setup example:
 ```
-Notion Workspace: Company Knowledge Base
+Notion Workspace - Company Knowledge Base
 
 Databases:
 - Documentation Library (with properties: author, last-updated, tags, status)
@@ -342,9 +342,9 @@ Databases:
 - Architecture Decisions (with properties: date, impact, status)
 ```
 
-Option 4: Obsidian (Best for Individual/Small Team)
-Cost: Free (or $10/vault for team sync)
-Best for: Knowledge management, individual docs, note-taking approach
+Option 4 - Obsidian (Best for Individual/Small Team)
+Cost - Free (or $10/vault for team sync)
+Best for - Knowledge management, individual docs, note-taking approach
 
 Strengths:
 - Zero cost for local use
@@ -356,12 +356,12 @@ Strengths:
 Weaknesses:
 - Limited real-time collaboration
 - Requires self-hosting for team sync
-- Small ecosystem
+- Small environment
 - Limited search compared to commercial tools
 
 Vault structure example:
 ```
-Obsidian Vault: Team Docs
+Obsidian Vault - Team Docs
 
 - Architecture/
  - System Overview.md
@@ -374,9 +374,9 @@ Obsidian Vault: Team Docs
  - [[Getting Started]]
 ```
 
-Option 5: Markdown + Git (Most Flexible)
-Cost: Free
-Best for: Technical teams, version control prioritization, portability
+Option 5 - Markdown + Git (Most Flexible)
+Cost - Free
+Best for - Technical teams, version control prioritization, portability
 
 Strengths:
 - Zero vendor lock-in
@@ -419,7 +419,7 @@ Tools Comparison Table
 
 GitHub Wiki/Pages for development teams (free, integrated). Confluence for large enterprises (cost justified by features). Notion for mixed teams (good balance). Markdown+Git for maximum flexibility and version control.
 
-Step 5: Documentation Templates
+Step 5 - Documentation Templates
 
 Use templates to standardize documentation quality. This reduces the effort to write good docs.
 
@@ -433,9 +433,9 @@ Prerequisites
 - [System requirements]
 
 Installation
-Step 1: [First step with command examples]
-Step 2: [Second step]
-Step 3: [Third step]
+Step 1 - [First step with command examples]
+Step 2 - [Second step]
+Step 3 - [Third step]
 
 Verification
 [How to verify installation worked]
@@ -453,9 +453,9 @@ API Reference Template
 ```markdown
 Endpoint Name
 
-Method: GET/POST/PUT/DELETE
-Path: /api/v1/resource/{id}
-Authentication: Bearer token
+Method - GET/POST/PUT/DELETE
+Path - /api/v1/resource/{id}
+Authentication - Bearer token
 
 Parameters
 | Name | Type | Required | Description |
@@ -479,7 +479,7 @@ Rate Limits
 Architecture Decision Record (ADR) Template
 
 ```markdown
-ADR-001: [Decision title]
+ADR-001 - [Decision title]
 
 Context
 [Why this decision needed]
@@ -500,15 +500,15 @@ References
 [Links to related docs]
 ```
 
-Step 6: Establish Documentation Maintenance Schedule
+Step 6 - Establish Documentation Maintenance Schedule
 
 Documentation debt grows without active maintenance. Establish regular update cycles.
 
 Quarterly Documentation Review
 
-Schedule: Every 3 months
-Owner: Documentation lead or PM
-Duration: 2-4 hours depending on size
+Schedule - Every 3 months
+Owner - Documentation lead or PM
+Duration - 2-4 hours depending on size
 
 Quarterly checklist:
 - [ ] Review all documentation for accuracy
@@ -544,7 +544,7 @@ For active documentation:
 
 Assign 30 minutes monthly to verify ~5 docs.
 
-Step 7: Automation and Integration
+Step 7 - Automation and Integration
 
 Reduce manual documentation maintenance through automation.
 
@@ -603,9 +603,9 @@ jobs:
  git push
 ```
 
-Real Example: Reducing Documentation Debt
+Real Example - Reducing Documentation Debt
 
-Scenario: 15-Person Team, High Turnover
+Scenario - 15-Person Team, High Turnover
 
 Initial state (Audit results):
 - Total docs: 42 pages
@@ -621,21 +621,21 @@ Problems identified:
 
 3-Month Improvement Plan
 
-Month 1: Foundation ($0 cost)
+Month 1 - Foundation ($0 cost)
 - Consolidate docs to single location (GitHub Pages)
 - Write onboarding guide (8 hours)
 - Update architecture diagrams (6 hours)
 - Update deployment runbook (4 hours)
 - Total: 18 hours
 
-Month 2: Organize and Enhance
+Month 2 - Organize and Enhance
 - Add troubleshooting guides (6 hours)
 - Create API reference (8 hours)
 - Add team process docs (4 hours)
 - Establish review schedule
 - Total: 18 hours
 
-Month 3: Maintain and Validate
+Month 3 - Maintain and Validate
 - Monthly review process
 - Test onboarding with new hire
 - Refine based on feedback
@@ -655,7 +655,7 @@ ROI calculation:
 - Second new hire onboards in 2 weeks vs 4 weeks
 - Incident response faster (10% of outages < 5 min resolution)
 
-Total first-year savings: 30 hours onboarding + 100 hours support reduction + incident response gains = ~$6,500 benefit from $2,300 investment = 282% ROI
+Total first-year savings - 30 hours onboarding + 100 hours support reduction + incident response gains = ~$6,500 benefit from $2,300 investment = 282% ROI
 
 Measuring Success
 

@@ -20,15 +20,15 @@ Choppy Zoom calls from your home office are frustrating when you are trying to c
 Table of Contents
 
 - [Understanding Why Home WiFi Causes Choppy Calls](#understanding-why-home-wifi-causes-choppy-calls)
-- [Step 1: Run a Speed Test to Establish Baseline Performance](#step-1-run-a-speed-test-to-establish-baseline-performance)
-- [Step 2: Position Your Router Optimally](#step-2-position-your-router-optimally)
-- [Step 3: Reduce WiFi Congestion During Calls](#step-3-reduce-wifi-congestion-during-calls)
-- [Step 4: Switch to 5GHz WiFi Band](#step-4-switch-to-5ghz-wifi-band)
-- [Step 5: Update Router Firmware and Zoom App](#step-5-update-router-firmware-and-zoom-app)
-- [Step 6: Configure Zoom Settings for Low Bandwidth](#step-6-configure-zoom-settings-for-low-bandwidth)
-- [Step 6.75: Test Your Setup Before Important Calls](#step-675-test-your-setup-before-important-calls)
-- [Step 7: Consider Wired Ethernet Connection](#step-7-consider-wired-ethernet-connection)
-- [Step 8: Upgrade Your Internet Plan if Necessary](#step-8-upgrade-your-internet-plan-if-necessary)
+- [Step 1 - Run a Speed Test to Establish Baseline Performance](#step-1-run-a-speed-test-to-establish-baseline-performance)
+- [Step 2 - Position Your Router Optimally](#step-2-position-your-router-optimally)
+- [Step 3 - Reduce WiFi Congestion During Calls](#step-3-reduce-wifi-congestion-during-calls)
+- [Step 4 - Switch to 5GHz WiFi Band](#step-4-switch-to-5ghz-wifi-band)
+- [Step 5 - Update Router Firmware and Zoom App](#step-5-update-router-firmware-and-zoom-app)
+- [Step 6 - Configure Zoom Settings for Low Bandwidth](#step-6-configure-zoom-settings-for-low-bandwidth)
+- [Step 6.75 - Test Your Setup Before Important Calls](#step-675-test-your-setup-before-important-calls)
+- [Step 7 - Consider Wired Ethernet Connection](#step-7-consider-wired-ethernet-connection)
+- [Step 8 - Upgrade Your Internet Plan if Necessary](#step-8-upgrade-your-internet-plan-if-necessary)
 - [Advanced Network Diagnostics](#advanced-network-diagnostics)
 - [Hardware Upgrades for Persistent Problems](#hardware-upgrades-for-persistent-problems)
 - [Long-Term Solutions for Remote Workers](#long-term-solutions-for-remote-workers)
@@ -49,13 +49,13 @@ Zoom compresses video and audio into packets. When packets drop, Zoom either ret
 
 Home WiFi latency varies moment-to-moment, unlike wired connections which maintain consistent latency. This variability (called jitter) causes the buffering and speed fluctuations that make calls choppy. Your device must constantly re-buffer video and re-sync audio, creating the stuttering effect you experience.
 
-Step 1: Run a Speed Test to Establish Baseline Performance
+Step 1 - Run a Speed Test to Establish Baseline Performance
 
 Before making any changes, run a speed test to understand your current connection quality. Visit a site like speedtest.net and run both download and upload tests. For smooth Zoom calls, you need at least 3 Mbps download and 3 Mbps upload for standard video quality, though 10 Mbps both directions provides headroom for HD video and screen sharing.
 
 Also note your latency and jitter readings. Latency under 50ms is ideal for real-time calls, while jitter above 30ms can cause audio artifacts even with adequate bandwidth. If your results fall significantly below these thresholds, your internet service plan may simply be insufficient for your household's demands.
 
-Step 2: Position Your Router Optimally
+Step 2 - Position Your Router Optimally
 
 Router placement significantly affects WiFi signal quality in your home office. If your router sits in a corner of your home far from your workspace, signals must travel through walls and distance, degrading performance.
 
@@ -63,7 +63,7 @@ Place your router as centrally as possible within your home, elevated on a shelf
 
 If your workspace is far from your router and running Ethernet cable is impractical, consider a WiFi extender or mesh network system. These devices rebroadcast your WiFi signal to areas where it weakens, providing more consistent coverage for your calls.
 
-Step 3: Reduce WiFi Congestion During Calls
+Step 3 - Reduce WiFi Congestion During Calls
 
 Bandwidth competition is a major cause of choppy calls. When multiple people in your household use the internet simultaneously, video calls suffer. Coordinate with household members to minimize other internet usage during important calls.
 
@@ -71,7 +71,7 @@ Pause large downloads, streaming services, software updates, and cloud backups b
 
 If you cannot control other users' internet habits, explore Quality of Service (QoS) settings on your router. Many modern routers let you prioritize video conferencing traffic over other types of traffic, ensuring your Zoom calls get bandwidth priority even when the network is busy.
 
-Step 4: Switch to 5GHz WiFi Band
+Step 4 - Switch to 5GHz WiFi Band
 
 Most modern routers broadcast on two frequency bands: 2.4GHz and 5GHz. The 2.4GHz band offers longer range but faces more interference from other devices and networks. The 5GHz band provides faster speeds and less congestion but does not penetrate walls as well.
 
@@ -79,13 +79,13 @@ Access your computer's WiFi settings and look for your network name with a 5GHz 
 
 Check your router's admin settings to confirm both bands are enabled and broadcasting with distinct names so you can choose between them deliberately.
 
-Step 5: Update Router Firmware and Zoom App
+Step 5 - Update Router Firmware and Zoom App
 
 Outdated router firmware often contains performance bugs and security vulnerabilities that affect network stability. Access your router's admin panel through its IP address (commonly 192.168.0.1 or 192.168.1.1) and look for a firmware update option. If available, update to the latest version.
 
 Similarly, keep your Zoom client updated to the newest version. Zoom regularly releases updates that improve audio and video processing, connection handling, and bug fixes. Open Zoom, click your profile picture, and select "Check for Updates" to ensure you have the latest version.
 
-Step 6: Configure Zoom Settings for Low Bandwidth
+Step 6 - Configure Zoom Settings for Low Bandwidth
 
 Zoom includes built-in settings that reduce bandwidth requirements for calls. These adjustments can significantly improve call quality on struggling connections.
 
@@ -102,7 +102,7 @@ Bandwidth optimization hierarchy (start at top):
 
 During choppy call situations, disable video first. Most information transfer happens through audio and screen sharing. Visual presence matters less than clear communication.
 
-Step 6.5: Disable Background Processing
+Step 6.5 - Disable Background Processing
 
 Zoom's beauty filter, touch up appearance, and virtual background features all add processing overhead:
 1. Settings > Video > Advanced
@@ -113,7 +113,7 @@ Zoom's beauty filter, touch up appearance, and virtual background features all a
 
 This processing burden particularly affects older laptops with weak processors, compounding network issues with computational bottlenecks.
 
-Step 6.75: Test Your Setup Before Important Calls
+Step 6.75 - Test Your Setup Before Important Calls
 
 Zoom provides a test meeting feature that simulates a real call without participants:
 
@@ -135,7 +135,7 @@ echo "=== Network Diagnostic for Zoom ==="
 
 Check bandwidth
 echo "Checking internet speed..."
-Using speedtest-cli: pip install speedtest-cli
+Using speedtest-cli - pip install speedtest-cli
 speedtest-cli --simple
 
 Check packet loss
@@ -160,7 +160,7 @@ Latency variance <20ms = Good
 
 If any metric fails these thresholds, troubleshoot before your important call.
 
-Step 7: Consider Wired Ethernet Connection
+Step 7 - Consider Wired Ethernet Connection
 
 WiFi, no matter how well optimized, introduces latency and potential interference that does not exist with wired connections. If your router is within reasonable distance, connecting your computer directly via Ethernet cable provides the most reliable connection for important calls.
 
@@ -168,7 +168,7 @@ Run an Ethernet cable along baseboards or under rugs if aesthetics are a concern
 
 For the most critical calls, having a wired backup option ensures you will not be caught off guard by WiFi issues.
 
-Step 8: Upgrade Your Internet Plan if Necessary
+Step 8 - Upgrade Your Internet Plan if Necessary
 
 Sometimes the problem lies not with your home network but with your internet service plan itself. If you have tried all previous steps and still experience choppy calls consistently, your available bandwidth may simply be insufficient for your household's usage patterns.
 
@@ -199,7 +199,7 @@ Beyond speed tests, measure the consistency of your connection:
 
 ```bash
 MTR (My Traceroute) shows latency and loss across your entire path
-Install: brew install mtr (macOS) or apt install mtr (Linux)
+Install - brew install mtr (macOS) or apt install mtr (Linux)
 mtr -c 50 8.8.8.8
 
 Look for:
@@ -223,7 +223,7 @@ Look for your SSID and note the RSSI (signal strength)
 -50 to -60 dBm: Good
 -60 to -70 dBm: Fair
 -70 to -80 dBm: Weak
-Below -80 dBm: Very weak (expect connection problems)
+Below -80 dBm - Very weak (expect connection problems)
 ```
 
 If your signal falls below -70 dBm at your desk, repositioning the router or adding a WiFi extender should be your next step.
@@ -246,11 +246,11 @@ Mesh Network Systems
 
 Single-router setups fail in larger homes or when obstacles block signals. Mesh networks solve this by creating an unified network across multiple nodes:
 
-- Eero Pro: Tri-band system with dedicated backhaul channel. Works excellently for video calls ($250 for 3-pack).
-- Netgear Orbi: Enterprise-grade mesh with extensive management features ($300-400 for 3-pack).
-- TP-Link Deco: Budget-friendly mesh option with solid performance ($80-120 per node).
+- Eero Pro - Tri-band system with dedicated backhaul channel. Works excellently for video calls ($250 for 3-pack).
+- Netgear Orbi - Enterprise-grade mesh with extensive management features ($300-400 for 3-pack).
+- TP-Link Deco - Budget-friendly mesh option with solid performance ($80-120 per node).
 
-Deploy mesh nodes strategically: one near your internet entry point, one in your home office, one in areas with weak signal. This ensures consistent connectivity wherever you work.
+Deploy mesh nodes strategically - one near your internet entry point, one in your home office, one in areas with weak signal. This ensures consistent connectivity wherever you work.
 
 Wired Backhaul Configuration
 
@@ -269,7 +269,7 @@ ISP-Level Optimization
 Beyond your own network, optimizing your relationship with your internet service provider pays dividends:
 
 - Ask about IPv6 support: Modern networks use IPv6, which sometimes offers better performance than older IPv4. Enable IPv6 in your router settings if available.
-- Use your ISP's DNS or switch to Cloudflare: Some ISP DNS servers are slower than others. Try 1.1.1.1 (Cloudflare) or 8.8.8.8 (Google) in your router's DNS settings.
+- Use your ISP's DNS or switch to Cloudflare - Some ISP DNS servers are slower than others. Try 1.1.1.1 (Cloudflare) or 8.8.8.8 (Google) in your router's DNS settings.
 - Monitor for line noise: When connection quality degrades mysteriously, contact your ISP for line quality tests. Degraded lines develop quality issues over time.
 
 Emergency Solutions When You're on a Call

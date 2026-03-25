@@ -37,7 +37,7 @@ Table of Contents
 - [Background](#background)
 - [Problem](#problem)
 - [Alternatives Evaluated](#alternatives-evaluated)
-- [Decision: Hybrid (Option 2)](#decision-hybrid-option-2)
+- [Decision - Hybrid (Option 2)](#decision-hybrid-option-2)
 - [Implementation Status](#implementation-status)
 - [Metrics Post-Launch](#metrics-post-launch)
 - [Metrics That Matter](#metrics-that-matter)
@@ -52,9 +52,9 @@ General-purpose documentation platforms (Confluence, Notion, wiki systems) force
 What you actually need:
 
 1. Experiment Tracking Integration: Links between documentation and MLOps tools (MLflow, Weights & Biases, Neptune)
-2. Data Lineage Visibility: Where did this dataset come from? Which transformations were applied? What's the training data version?
+2. Data Lineage Visibility - Where did this dataset come from? Which transformations were applied? What's the training data version?
 3. Reproducibility by Default: Documentation that connects to actual code versions, data versions, and hyperparameters
-4. Computational Context: What hardware ran this? How long did it take? What resources does it need?
+4. Computational Context - What hardware ran this? How long did it take? What resources does it need?
 
 Without these, your "documentation" is narrative storytelling divorced from reality.
 
@@ -97,46 +97,46 @@ Obsidian + Obsidian Dataview
 GitHub Wiki + Issues + Project Boards
 - Strengths: Already where your code lives; free if using GitHub; integration with code repos
 - Weaknesses: Primitive compared to modern documentation platforms; experiment tracking requires custom tooling
-- Best for: Code-first teams already heavily in GitHub ecosystem
+- Best for: Code-first teams already heavily in GitHub environment
 - Cost: Free or $4-21/month depending on GitHub tier
 
 Recommended Configurations by Team Structure
 
-Config 1: Research-Heavy Team (70% experiments, 30% production)
-Use: Weights & Biases + Notion
+Config 1 - Research-Heavy Team (70% experiments, 30% production)
+Use - Weights & Biases + Notion
 - W&B for experiment tracking and model registry
 - Notion for decision documentation, research context, background knowledge
 - Workflow: Scientists log experiments in W&B automatically; write summaries in Notion linking to W&B runs
 
-Cost: $0-600/month depending on W&B project count
+Cost - $0-600/month depending on W&B project count
 
-Config 2: Production-Heavy Team (30% research, 70% operations)
-Use: GitHub + MLflow + Notion (light)
+Config 2 - Production-Heavy Team (30% research, 70% operations)
+Use - GitHub + MLflow + Notion (light)
 - MLflow in your deployment environment for model tracking
 - GitHub for code and operational documentation
 - Notion for cross-team decisions and onboarding
 - Workflow: CI/CD pipelines register models in MLflow; documentation lives in git
 
-Cost: $0-100/month for Notion (GitHub likely already paid)
+Cost - $0-100/month for Notion (GitHub likely already paid)
 
-Config 3: Strict Data Privacy (On-Prem Deployment)
-Use: Obsidian + Guild AI (self-hosted) + GitLab
+Config 3 - Strict Data Privacy (On-Prem Deployment)
+Use - Obsidian + Guild AI (self-hosted) + GitLab
 - Everything runs on your infrastructure
 - Markdown-based documentation + local git syncing
 - Guild AI for experiment tracking (self-hosted)
 - Workflow: Scientists push code to GitLab; experiments logged to self-hosted Guild; docs in Obsidian synced via git
 
-Cost: Self-hosting costs (VPS ~$100-300/month) + engineering time
+Cost - Self-hosting costs (VPS ~$100-300/month) + engineering time
 
 Implementation Framework for 15-Person Teams
 
-Phase 1: Tool Selection (1 week)
+Phase 1 - Tool Selection (1 week)
 - Get 3 people (1 ML engineer, 1 researcher, 1 production engineer) to test 2-3 platforms with a real experiment
 - Have each person document the same 2 experiments using the test platform
 - Rate on: time to log, time to retrieve info later, integration with your ML stack
 - Winner is whatever felt fastest and least friction, not the most feature-complete
 
-Phase 2: Pilot Rollout (2 weeks)
+Phase 2 - Pilot Rollout (2 weeks)
 - Deploy platform with the 3-person pilot team
 - Have them establish documentation standards:
  - What gets tracked in experiments vs. what goes in narrative docs
@@ -144,11 +144,11 @@ Phase 2: Pilot Rollout (2 weeks)
  - When to update documentation (during experiment, after validation, before deployment)
 - Document these standards in your main wiki
 
-Phase 3: Team Training (1 week)
+Phase 3 - Team Training (1 week)
 - 1-hour interactive walkthrough for the full team
 - Focus on the workflow, not the tool: "required; writing markdown summaries: optional but encouraged)
 
-Phase 4: Enforcement and Refinement (Ongoing)
+Phase 4 - Enforcement and Refinement (Ongoing)
 - Monthly review: What's working? What's creating friction?
 - Track adoption metrics: What % of experiments are logged? How many people are writing docs?
 - Adjust standards based on feedback, don't be religious about processes that aren't working
@@ -157,7 +157,7 @@ Critical Workflows for Data Science Documentation
 
 Experiment Reproducibility
 ```
-Goal: Explain why model performance changed
+Goal - Explain why model performance changed
 
 Workflow in Weights & Biases or Neptune:
 1. Run experiment with automatic logging (hyperparams, code version, data version, metrics)
@@ -165,12 +165,12 @@ Workflow in Weights & Biases or Neptune:
 3. Compare across time: Did accuracy improve? What changed?
 4. Export comparison table and paste into Notion for the team
 
-Without this: Scientists re-run experiments saying "what did we change last time?"
+Without this - Scientists re-run experiments saying "what did we change last time?"
 ```
 
 Data Lineage Documentation
 ```
-Goal: Know which dataset version trained which model
+Goal - Know which dataset version trained which model
 
 Documentation needed:
 - Raw data source (S3 path, collection date)
@@ -183,12 +183,12 @@ Platform support needed:
 - Notion tables link datasets → models
 - Git tracks transformation code versions
 
-Without this: "I have no idea which data trained model-v7. Let's retrain."
+Without this - "I have no idea which data trained model-v7. Let's retrain."
 ```
 
 Decision Documentation
 ```
-Goal: Answer "Why did we switch from Algorithm A to Algorithm B?"
+Goal - Answer "Why did we switch from Algorithm A to Algorithm B?"
 
 Documentation needed in Notion:
 - What was the problem with Algorithm A?
@@ -203,38 +203,38 @@ This prevents debates being refought six months later.
 
 Common Pitfalls and Solutions
 
-Pitfall 1: Documentation Overhead Exceeds Value
-Symptom: Scientists spend 30 minutes writing docs for every 1-hour experiment.
+Pitfall 1 - Documentation Overhead Exceeds Value
+Symptom - Scientists spend 30 minutes writing docs for every 1-hour experiment.
 
-Solution: Automate what you can. Use experiment logging that's automatic (code-integrated logging in W&B, not manual entries). Require human-written docs only for decision-relevant experiments or model changes.
+Solution - Automate what you can. Use experiment logging that's automatic (code-integrated logging in W&B, not manual entries). Require human-written docs only for decision-relevant experiments or model changes.
 
-Pitfall 2: Nobody Trusts the Documentation
-Symptom: Team checks docs, then re-runs experiments anyway because they don't believe the results.
+Pitfall 2 - Nobody Trusts the Documentation
+Symptom - Team checks docs, then re-runs experiments anyway because they don't believe the results.
 
-Solution: Make documentation authoritative by linking directly to code versions and data versions. If someone questions a result, you can instantly show: here's the exact code, data, hardware, and random seed. Reproducibility increases trust.
+Solution - Make documentation authoritative by linking directly to code versions and data versions. If someone questions a result, you can instantly show: here's the exact code, data, hardware, and random seed. Reproducibility increases trust.
 
-Pitfall 3: Tool Becomes a Second Job
-Symptom: One team member becomes the documentation admin, manually aggregating info.
+Pitfall 3 - Tool Becomes a Second Job
+Symptom - One team member becomes the documentation admin, manually aggregating info.
 
-Solution: Avoid manual aggregation. Use tools with APIs so data flows automatically. If you're manually typing experiment results into a spreadsheet or database, your setup is wrong.
+Solution - Avoid manual aggregation. Use tools with APIs so data flows automatically. If you're manually typing experiment results into a spreadsheet or database, your setup is wrong.
 
-Pitfall 4: Onboarding Takes 3+ Weeks
-Symptom: New hires can't find prior work; can't understand what's been tried.
+Pitfall 4 - Onboarding Takes 3+ Weeks
+Symptom - New hires can't find prior work; can't understand what's been tried.
 
-Solution: Invest in onboarding documentation separate from operational docs. Create a "30-Day Plan
+Solution - Invest in onboarding documentation separate from operational docs. Create a "30-Day Plan
 
-Week 1: Tool Selection and Trial Setup
+Week 1 - Tool Selection and Trial Setup
 ```
-Monday: Demo Weights & Biases for experiment tracking
-Tuesday: Demo Neptune.ai and Guild AI
-Wednesday: Demo Notion for general knowledge management
-Thursday: Have 3 data scientists test W&B for a real experiment
-Friday: Decision meeting, pick your stack
+Monday - Demo Weights & Biases for experiment tracking
+Tuesday - Demo Neptune.ai and Guild AI
+Wednesday - Demo Notion for general knowledge management
+Thursday - Have 3 data scientists test W&B for a real experiment
+Friday - Decision meeting, pick your stack
 ```
 
-Outcome: You've chosen a tool and two team members are familiar with it.
+Outcome - You've chosen a tool and two team members are familiar with it.
 
-Week 2: Standard Setting
+Week 2 - Standard Setting
 Create your first "documentation style guide":
 
 ```markdown
@@ -263,7 +263,7 @@ Major decisions go here:
 - Date decided + date reviewed
 ```
 
-Week 3: Pilot Rollout
+Week 3 - Pilot Rollout
 Two data scientists document their current project end-to-end:
 1. Upload their data to W&B (or Neptune)
 2. Create a Notion page explaining the data and transformations
@@ -272,18 +272,18 @@ Two data scientists document their current project end-to-end:
 
 Rough edges found here inform team-wide rollout.
 
-Week 4: Full Team Training + Enforcement
+Week 4 - Full Team Training + Enforcement
 - 1-hour training for all 15 people (30 minutes tool demo, 30 minutes workflow walkthrough)
 - Make it clear: logging experiments is required, beautiful documentation is appreciated but not required
 - Start measuring: track what % of experiments are logged
 
 Real Documentation Examples
 
-Example 1: Customer Churn Prediction Project
+Example 1 - Customer Churn Prediction Project
 
 In Weights & Biases:
 ```
-Experiment: churn_baseline_lr_v1
+Experiment - churn_baseline_lr_v1
 - Dataset: customer_events_2024_q1
 - Algorithm: LogisticRegression
 - Hyperparams: {C: 0.1, solver: 'lbfgs', max_iter: 1000}
@@ -318,17 +318,17 @@ Transformations
 
 Baseline Model
 LogisticRegression achieves 78% accuracy.
-Performance: [Link to W&B dashboard]
+Performance - [Link to W&B dashboard]
 
 Next Steps
 Try gradient boosting models (XGBoost, LightGBM) to improve precision.
 ```
 
-Example 2: Recommendation System Project
+Example 2 - Recommendation System Project
 
 Decision Document in Notion:
 ```markdown
-Decision: Switch from Collaborative Filtering to Content-Based + CF Hybrid
+Decision - Switch from Collaborative Filtering to Content-Based + CF Hybrid
 
 Background
 Our recommendation system was pure collaborative filtering (user-user similarity).
@@ -354,7 +354,7 @@ Alternatives Evaluated
    - 10x more compute, hard to debug
    - Metrics: [Experiment link]
 
-Decision: Hybrid (Option 2)
+Decision - Hybrid (Option 2)
 - Lower latency than pure CF
 - Solves cold start better than pure content
 - Simpler than deep learning
@@ -374,11 +374,11 @@ Metrics That Matter
 
 Track these to know if your documentation system is working:
 
-1. Experiment Logging Rate: What % of model training runs are logged? Target: >95%
-2. Documentation Currency: What % of datasets have been updated in the last 3 months? Target: >80%
-3. Search Effectiveness: When someone asks "did we try approach X?", how quickly can you find the answer? Target: <5 minutes
-4. New Hire Ramp Time: How long before a new data scientist can understand prior work and contribute? Target: <2 weeks
-5. Decision Reversals: How often do you redebate the same architecture choice? Target: <1 per quarter
+1. Experiment Logging Rate - What % of model training runs are logged? Target: >95%
+2. Documentation Currency - What % of datasets have been updated in the last 3 months? Target: >80%
+3. Search Effectiveness - When someone asks "did we try approach X?", how quickly can you find the answer? Target: <5 minutes
+4. New Hire Ramp Time - How long before a new data scientist can understand prior work and contribute? Target: <2 weeks
+5. Decision Reversals - How often do you redebate the same architecture choice? Target: <1 per quarter
 
 Scaling Documentation for Growth
 
@@ -386,7 +386,7 @@ At 6 Data Scientists
 You can use shared Notion and manual experiment tracking. Low overhead, works fine.
 
 At 15 Data Scientists
-You need structure: defined standards, automatic logging, searchable history. One person (0.2 FTE) maintains the documentation system.
+You need structure - defined standards, automatic logging, searchable history. One person (0.2 FTE) maintains the documentation system.
 
 At 30+ Data Scientists
 Dedicated documentation/tools person becomes full-time. You might need:
@@ -404,7 +404,7 @@ Typical Setup Costs (15-person team)
 - Notion: $150-200/month (15 people × $10-12)
 - Internal documentation infrastructure: 0.2 FTE engineer (~$50K/year)
 
-Total: ~$5K-7K/month
+Total - ~$5K-7K/month
 
 Return on Investment
 Teams with strong documentation report:

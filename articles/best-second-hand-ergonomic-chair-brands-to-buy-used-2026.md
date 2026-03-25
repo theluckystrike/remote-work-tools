@@ -56,7 +56,7 @@ Herman Miller chairs, particularly the Aeron and Embody, dominate the ergonomic 
 
 What to look for:
 - Gen2 (2016) or Remapped (2020) models. better lumbar support than original
-- Size: Size A (small), B (medium), or C (large). match your body type
+- Size - Size A (small), B (medium), or C (large). match your body type
 - Condition of the mesh. should have no tears or sagging
 - Functionality of all adjustment levers
 
@@ -99,7 +99,7 @@ Sayl (Herman Miller's Budget Line)
 
 The Sayl offers many Herman Miller ergonomic features at a lower price point. While not as premium as the Aeron, the Sayl provides solid ergonomics for budget-conscious buyers.
 
-Expected pricing (2026): $200-350
+Expected pricing (2026) - $200-350
 
 The Sayl uses a suspension back with Y-shaped towers. Inspect that these aren't broken and that the back frame hasn't cracked.
 
@@ -205,7 +205,7 @@ Once you have a quality chair, maximize its benefits with proper setup:
 ```bash
 Terminal-based posture reminder for developers
 Run this cron job to remind you to check your posture
-Install: brew install terminal-notifier
+Install - brew install terminal-notifier
 
 Add to crontab -e
 */60 * * * * /usr/local/bin/terminal-notifier -message "Check your posture" -title "Ergonomics" 2>/dev/null
@@ -268,7 +268,7 @@ Price Negotiation for Used Chairs
 Successful used furniture buyers negotiate down from initial asking price:
 
 ```
-Typical asking price: $600
+Typical asking price - $600
 Your offer strategy:
 
 1. Research fair market value for that model/year
@@ -388,22 +388,22 @@ Chair Setup for Different Desk Heights
 Not all desks are the same. Adapt your chair setup:
 
 ```
-DESK HEIGHT: 28 inches (standard)
+DESK HEIGHT - 28 inches (standard)
 → Chair seat height: 16-18 inches
 → Arm height: 25-27 inches
 → Monitor top: 20-22 inches
 
-DESK HEIGHT: 30 inches (standing desk, high)
+DESK HEIGHT - 30 inches (standing desk, high)
 → Chair seat height: 18-20 inches (or standing desk converter)
 → Arm height: 27-29 inches
 → Monitor top: 22-24 inches
 
-DESK HEIGHT: 26 inches (vintage desk, low)
+DESK HEIGHT - 26 inches (vintage desk, low)
 → Chair seat height: 14-16 inches
 → Arm height: 23-25 inches
 → Monitor top: 18-20 inches
 
-Quick test: Elbows at 90 degrees, wrists neutral (not bent up)
+Quick test - Elbows at 90 degrees, wrists neutral (not bent up)
 If you can't achieve this, add a monitor arm or standing converter.
 ```
 
@@ -412,19 +412,19 @@ Long-Term Value Analysis
 Over time, a used ergonomic chair often costs less than poor ergonomic choices:
 
 ```
-SCENARIO 1: Buy new budget chair ($200)
-Year 1-2: Comfortable enough ($200)
-Year 2-5: Back pain develops ($500+ in healthcare)
-Total cost: $700+ + chronic pain
+SCENARIO 1 - Buy new budget chair ($200)
+Year 1-2 - Comfortable enough ($200)
+Year 2-5 - Back pain develops ($500+ in healthcare)
+Total cost - $700+ + chronic pain
 
-SCENARIO 2: Buy used Aeron ($600)
-Year 1-5: Excellent support, no pain ($600)
-Year 5-10: Still comfortable, minimal maintenance ($50 repairs)
-Total cost: $650 + good health
+SCENARIO 2 - Buy used Aeron ($600)
+Year 1-5 - Excellent support, no pain ($600)
+Year 5-10 - Still comfortable, minimal maintenance ($50 repairs)
+Total cost - $650 + good health
 
-SCENARIO 3: Buy new Herman Miller ($1,400)
-Year 1-10: Premium support, long lifespan ($1,400 + battery replacement $50)
-Total cost: $1,450 + best health
+SCENARIO 3 - Buy new Herman Miller ($1,400)
+Year 1-10 - Premium support, long lifespan ($1,400 + battery replacement $50)
+Total cost - $1,450 + best health
 
 Used chairs offer the best value: 60-70% discount from new, 90%+ of the comfort and lifespan.
 ```

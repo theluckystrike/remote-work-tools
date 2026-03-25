@@ -26,7 +26,7 @@ Table of Contents
 - [4. AWS Cost Health Check](#4-aws-cost-health-check)
 - [5. Grafana Alerting Summary](#5-grafana-alerting-summary)
 - [Consolidated Morning Digest Script](#consolidated-morning-digest-script)
-- [Tool Comparison: Async Standup Options](#tool-comparison-async-standup-options)
+- [Tool Comparison - Async Standup Options](#tool-comparison-async-standup-options)
 - [Related Reading](#related-reading)
 
 
@@ -126,8 +126,8 @@ For teams that want a hosted option, Better Uptime ($20/month) and Pingdom ($15/
 
 2. Geekbot (Async Standup)
 
-Cost: $2.50/user/month
-Best for: Replacing synchronous standups with async check-ins
+Cost - $2.50/user/month
+Best for - Replacing synchronous standups with async check-ins
 
 ```
 Geekbot question template for daily health check:
@@ -221,7 +221,7 @@ curl -X POST "$SLACK_WEBHOOK" \
 ```
 
 ```bash
-Cron: weekdays at 9am
+Cron - weekdays at 9am
 0 9 * * 1-5 /opt/scripts/github-morning-digest.sh
 ```
 
@@ -282,7 +282,7 @@ if __name__ == "__main__":
     pct_change = ((cost - avg) / avg) * 100
 
     icon = ":white_check_mark:" if abs(pct_change) < 10 else ":warning:"
-    msg = f"{icon} *AWS Cost Health*. Yesterday: ${cost:.2f} | 7-day avg: ${avg:.2f} | Change: {pct_change:+.1f}%"
+    msg = f"{icon} *AWS Cost Health*. Yesterday: ${cost:.2f} | 7-day avg: ${avg:.2f} | Change - {pct_change:+.1f}%"
 
     if pct_change > 20:
         msg += f"\n:rotating_light: Cost spike detected! +{pct_change:.0f}% above average. Check Cost Explorer."
@@ -316,7 +316,7 @@ This surfaces "EC2 cost jumped $40 yesterday" rather than "total cost jumped $40
 
 ```yaml
 grafana alert rule: daily health digest contact point
-In Grafana: Alerting > Contact Points > Add Contact Point
+In Grafana - Alerting > Contact Points > Add Contact Point
 
 Morning summary webhook that posts to Slack
 Grafana alerting fires on thresholds, not schedules
@@ -380,7 +380,7 @@ Scheduling and Reliability
 Run the consolidated digest at a fixed time every weekday. The cron below targets 9am UTC; adjust to match the first hour of your primary timezone:
 
 ```bash
-Cron: weekdays at 9am UTC
+Cron - weekdays at 9am UTC
 0 9 * * 1-5 /opt/scripts/morning-digest.sh >> /var/log/morning-digest.log 2>&1
 ```
 
@@ -388,7 +388,7 @@ Log the output. When the digest fails silently, the team doesn't notice until th
 
 If uptime matters for the digest script itself, run it on the same host as Uptime Kuma and add the digest endpoint as a monitor. If the digest stops posting, Uptime Kuma alerts on the silence.
 
-Tool Comparison: Async Standup Options
+Tool Comparison - Async Standup Options
 
 | Tool | Price | Timezone Support | Slack Integration | Self-Hosted Option |
 |---|---|---|---|---|

@@ -21,11 +21,11 @@ Solo freelance developers juggle multiple client projects, invoicing deadlines, 
 Table of Contents
 
 - [The Solo Developer's PM Challenge](#the-solo-developers-pm-challenge)
-- [Todoist: Simple, Fast, Affordable](#todoist-simple-fast-affordable)
-- [Linear: Engineering-Focused, Professional](#linear-engineering-focused-professional)
-- [Notion: Flexible, Customizable, All-in-One](#notion-flexible-customizable-all-in-one)
-- [GitHub Projects: Free, Lightweight, Already There](#github-projects-free-lightweight-already-there)
-- [ClickUp: Free Tier for Freelancers](#clickup-free-tier-for-freelancers)
+- [Todoist - Simple, Fast, Affordable](#todoist-simple-fast-affordable)
+- [Linear - Engineering-Focused, Professional](#linear-engineering-focused-professional)
+- [Notion - Flexible, Customizable, All-in-One](#notion-flexible-customizable-all-in-one)
+- [GitHub Projects - Free, Lightweight, Already There](#github-projects-free-lightweight-already-there)
+- [ClickUp - Free Tier for Freelancers](#clickup-free-tier-for-freelancers)
 - [Comparison Table](#comparison-table)
 - [Recommended Freelance Stack by Budget](#recommended-freelance-stack-by-budget)
 - [My Recommendation for Solo Freelancers](#my-recommendation-for-solo-freelancers)
@@ -41,9 +41,9 @@ Unlike teams using enterprise PM tools, solo developers need:
 
 Most enterprise PM tools (Jira, Monday.com) are overkill and expensive. Most simple task managers (Apple Reminders, Sticky Notes) lack time tracking. The sweet spot exists between Todoist and Linear.
 
-Todoist: Simple, Fast, Affordable
+Todoist - Simple, Fast, Affordable
 
-Pricing: Free | $4/month (Pro) | $6/month (Business)
+Pricing - Free | $4/month (Pro) | $6/month (Business)
 
 Pro tier includes:
 - Unlimited projects (free is 5 projects max)
@@ -74,21 +74,21 @@ Real-world workflow for solo freelancer:
 4. Use Todoist timer while coding (manual start/stop; no integration with external time trackers)
 5. End of month: manually tally hours per client using Todoist's reports
 
-The gap: No way to link hours tracked to invoicing. You'll still need a spreadsheet or separate invoicing tool.
+The gap - No way to link hours tracked to invoicing. You'll still need a spreadsheet or separate invoicing tool.
 
 Monthly cost for solo developer using Todoist Pro:
 ```
-Todoist Pro: $4/month
+Todoist Pro - $4/month
 Integrations needed (time tracking plugin): $0 (manual tracking) or +$5-10/month (Toggl integration via Zapier)
-Total: $4-14/month
-Time saved annually: ~8-12 hours (manual invoice prep reduced)
+Total - $4-14/month
+Time saved annually - ~8-12 hours (manual invoice prep reduced)
 ```
 
-Best for: Developers who prefer simplicity, don't need native time tracking, and are comfortable with manual invoicing links.
+Best for - Developers who prefer simplicity, don't need native time tracking, and are comfortable with manual invoicing links.
 
-Linear: Engineering-Focused, Professional
+Linear - Engineering-Focused, Professional
 
-Pricing: Free | $10/month (Pro, per member) | Custom (scale)
+Pricing - Free | $10/month (Pro, per member) | Custom (scale)
 
 Pro tier includes:
 - Unlimited projects and issues
@@ -121,23 +121,23 @@ Real-world workflow for solo freelancer:
 5. Use Cycles to group 2-week sprints and estimate points
 6. Export issues at month-end for invoicing (no native invoice export)
 
-The gap: No time tracking or invoice generation. You're relying on Linear for organization, not billing.
+The gap - No time tracking or invoice generation. You're relying on Linear for organization, not billing.
 
 Monthly cost:
 ```
-Linear Pro: $10/month
+Linear Pro - $10/month
 Time tracking plugin (Toggl, Harvest): $8-15/month
 Invoicing tool (Wave, Stripe Invoicing): $0-10/month
-Total: $18-35/month
+Total - $18-35/month
 ```
 
 For a freelancer billing $100-150/hour, the time savings from fast issue management justify this cost, but Linear doesn't reduce invoicing overhead.
 
-Best for: Developers with GitHub-heavy workflows who want professional issue tracking but are willing to use separate tools for time tracking and invoicing.
+Best for - Developers with GitHub-heavy workflows who want professional issue tracking but are willing to use separate tools for time tracking and invoicing.
 
-Notion: Flexible, Customizable, All-in-One
+Notion - Flexible, Customizable, All-in-One
 
-Pricing: Free | $10/month (Plus) | $20/month (Business)
+Pricing - Free | $10/month (Plus) | $20/month (Business)
 
 Free tier includes:
 - Unlimited blocks and databases
@@ -198,19 +198,19 @@ Then generate an invoice from this data using Notion's export or a Zapier integr
 
 Monthly cost:
 ```
-Notion Plus: $10/month
+Notion Plus - $10/month
 Time tracking plugin (manual or Toggl): $0-15/month
 Invoicing integration (Zapier to Wave): $0-10/month
-Total: $10-35/month
+Total - $10-35/month
 ```
 
 Notion is the most flexible option but requires initial setup (4-8 hours to build a professional structure).
 
-Best for: Developers who want a single tool for all freelance operations and are willing to spend setup time configuring it.
+Best for - Developers who want a single tool for all freelance operations and are willing to spend setup time configuring it.
 
-GitHub Projects: Free, Lightweight, Already There
+GitHub Projects - Free, Lightweight, Already There
 
-Pricing: Free (included with GitHub)
+Pricing - Free (included with GitHub)
 
 Features:
 - Issue board view (Kanban)
@@ -242,23 +242,23 @@ Real-world workflow:
 5. Use GitHub Projects board to visualize current work
 6. Export issues at month-end (manual copy into invoice)
 
-The gap: This only works if your client work is in GitHub repos. If you're building things without version control, GitHub Projects adds no value.
+The gap - This only works if your client work is in GitHub repos. If you're building things without version control, GitHub Projects adds no value.
 
 Monthly cost:
 ```
-GitHub Projects: $0/month
-Time tracking (manual): $0/month
-Invoicing (spreadsheet): $0/month
-Total: $0/month
+GitHub Projects - $0/month
+Time tracking (manual) - $0/month
+Invoicing (spreadsheet) - $0/month
+Total - $0/month
 ```
 
 True zero cost, but manual invoicing and time tracking offset the savings.
 
-Best for: Developers who already manage client work in GitHub repos and want to avoid additional SaaS subscriptions.
+Best for - Developers who already manage client work in GitHub repos and want to avoid additional SaaS subscriptions.
 
-ClickUp: Free Tier for Freelancers
+ClickUp - Free Tier for Freelancers
 
-Pricing: Free | $10/month (Unlimited) | $19/month (Business)
+Pricing - Free | $10/month (Unlimited) | $19/month (Business)
 
 Free tier includes:
 - Unlimited tasks and spaces
@@ -301,16 +301,16 @@ Real-world workflow:
 
 Monthly cost:
 ```
-ClickUp Unlimited: $10/month
-Native time tracking: $0 (included)
+ClickUp Unlimited - $10/month
+Native time tracking - $0 (included)
 Invoicing integration (Zapier + Wave): $10/month
-Total: $20/month
-Time saved vs. manual tracking: 2-3 hours/month (invoicing automation)
+Total - $20/month
+Time saved vs. manual tracking - 2-3 hours/month (invoicing automation)
 ```
 
 ClickUp's free tier is competitive, but reaching full freelance functionality requires the Unlimited tier and a Zapier subscription.
 
-Best for: Freelancers who want native time tracking without upgrading beyond $10-20/month, and don't mind dealing with reporting that's less polished than competitors.
+Best for - Freelancers who want native time tracking without upgrading beyond $10-20/month, and don't mind dealing with reporting that's less polished than competitors.
 
 Comparison Table
 
@@ -360,7 +360,7 @@ For the majority of solo developers, Todoist Pro + Toggl Time Tracking + Wave In
 - Toggl ($9/month personal) for time tracking with professional reports
 - Wave ($0) for free invoicing with Todoist/Toggl integration via Zapier
 
-Total: ~$14/month with clear separation of concerns and professional-grade output.
+Total - ~$14/month with clear separation of concerns and professional-grade output.
 
 If you want everything in one tool and don't mind setup time, Notion Plus ($10) with time-tracking scripts offers the best long-term value.
 
@@ -374,7 +374,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -386,7 +386,7 @@ AI tools evolve rapidly, with major updates every few months. Feature comparison
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

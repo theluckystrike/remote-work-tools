@@ -20,7 +20,7 @@ A cluttered desk with cables tangling behind your monitor isn't just an eyesore,
 
 Table of Contents
 
-- [The Developer Perspective: Why Cable Management Matters](#the-developer-perspective-why-cable-management-matters)
+- [The Developer Perspective - Why Cable Management Matters](#the-developer-perspective-why-cable-management-matters)
 - [Essential Cable Management Techniques](#essential-cable-management-techniques)
 - [Advanced Solutions for Complex Setups](#advanced-solutions-for-complex-setups)
 - [Build Your Own Cable Management System](#build-your-own-cable-management-system)
@@ -32,7 +32,7 @@ Table of Contents
 
 This guide covers practical approaches to organizing cables in your home office, from simple desk setups to complex multi-monitor configurations.
 
-The Developer Perspective: Why Cable Management Matters
+The Developer Perspective - Why Cable Management Matters
 
 When you're debugging at 2 AM or rushing through a code review, the last thing you need is a rat's nest of cables preventing you from quickly accessing a port or identifying which cable goes where. Beyond aesthetics, proper cable management offers concrete benefits:
 
@@ -49,7 +49,7 @@ For any setup with more than three cables, labels are invaluable. This applies e
 
 ```bash
 Use a label maker or print labels with this simple script
-Requires: brew install cups-pdf (macOS) or appropriate Linux alternatives
+Requires - brew install cups-pdf (macOS) or appropriate Linux alternatives
 Or simply use Brother P-touch Editor software
 
 Quick labeling workflow:
@@ -150,8 +150,8 @@ Useful 3D print files for cable management ( Thingiverse):
 
 Print settings:
 Material: PLA or PETG
-Infill: 20% (functional parts don't need strength)
-Supports: Only where necessary
+Infill - 20% (functional parts don't need strength)
+Supports - Only where necessary
 ```
 
 Maintenance and Scalability
@@ -189,7 +189,7 @@ Management approach:
 - Label the dock cable end "Laptop" for quick identification
 ```
 
-Implementation cost: $15, 30 (label maker, cable ties, small adhesive clips).
+Implementation cost - $15, 30 (label maker, cable ties, small adhesive clips).
 
 Dual Monitor + Docking Station (Complex Setup)
 
@@ -218,7 +218,7 @@ Management approach:
 6. Use cable covers for exposed runs across desk surface
 ```
 
-Implementation cost: $80, 150 (monitor arms with cable routing, cable tray, power strips, labels, ties).
+Implementation cost - $80, 150 (monitor arms with cable routing, cable tray, power strips, labels, ties).
 
 Full Workstation Setup (8+ Devices)
 
@@ -260,7 +260,7 @@ Management approach:
    - Labels on both ends of every cable
 ```
 
-Implementation cost: $200, 400 (professional tray systems, patch panel, organized power strips, labeling).
+Implementation cost - $200, 400 (professional tray systems, patch panel, organized power strips, labeling).
 
 Example vertical cable management build:
 
@@ -274,7 +274,7 @@ Materials needed:
 - Label maker and labels: $30
 - High-quality surge protectors: $60
 
-Total: ~$315 for professional-grade setup
+Total - ~$315 for professional-grade setup
 
 Installation steps:
 1. Mount cable tray under desk (keep 12" clearance for legs)
@@ -291,11 +291,11 @@ Beyond aesthetics, proper cable management reduces physical strain:
 
 Reduced repetitive motion strain: Quick access to cables means less reaching and twisting when adjusting equipment.
 
-Improved desk posture: An uncluttered desk allows better monitor and keyboard positioning without cables getting in the way.
+Improved desk posture - An uncluttered desk allows better monitor and keyboard positioning without cables getting in the way.
 
-Better airflow: Organized cables don't obstruct cooling vents on equipment or surge protectors.
+Better airflow - Organized cables don't obstruct cooling vents on equipment or surge protectors.
 
-Reduced eye strain: A clean, organized workspace reduces cognitive load, helping you focus on work rather than visual clutter.
+Reduced eye strain - A clean, organized workspace reduces cognitive load, helping you focus on work rather than visual clutter.
 
 Cable Management for Hot Desking Environments
 
@@ -314,7 +314,7 @@ Portable cable management kit:
 - Portable power strip (3, 4 outlets) ($20)
 - Cable sleeve or wrap ($10)
 
-Total portable setup: $100, 130
+Total portable setup - $100, 130
 
 Benefits:
 - Set up in any location in under 5 minutes

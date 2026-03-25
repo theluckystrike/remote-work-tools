@@ -394,7 +394,7 @@ Idempotency Key Generation on the Client
 
 Client-side key generation strategies significantly affect your system's safety properties. Poorly generated keys cause either unintended duplicates (too short, possible collision) or unnecessary uniqueness (new key per retry, defeating the purpose).
 
-The best strategy: generate the key when the user initiates an action, not when the request is sent. Store the key in memory for the duration of the operation. Only generate a new key if the user explicitly starts a new transaction:
+The best strategy - generate the key when the user initiates an action, not when the request is sent. Store the key in memory for the duration of the operation. Only generate a new key if the user explicitly starts a new transaction:
 
 ```javascript
 class PaymentForm {

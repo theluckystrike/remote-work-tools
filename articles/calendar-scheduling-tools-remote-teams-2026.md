@@ -36,7 +36,7 @@ Table of Contents
 - [When to Use Calendar vs. Slack](#when-to-use-calendar-vs-slack)
 - [Scheduling Practices](#scheduling-practices)
 - [Buffer Time](#buffer-time)
-- [The Ultimate Test: Can You Take Vacation?](#the-ultimate-test-can-you-take-vacation)
+- [The Ultimate Test - Can You Take Vacation?](#the-ultimate-test-can-you-take-vacation)
 - [Related Reading](#related-reading)
 
 This guide covers the tools that actually solve remote scheduling problems in 2026.
@@ -57,7 +57,7 @@ docker run -d \
   -e NEXTAUTH_URL=https://cal.yourdomain.com \
   calcom/cal.com:latest
 
-Or use Cal.com cloud (free plan: 1 calendar, unlimited bookings)
+Or use Cal.com cloud (free plan - 1 calendar, unlimited bookings)
 Sign up at cal.com
 ```
 
@@ -66,11 +66,11 @@ Configure a team booking page:
 ```
 Cal.com → Teams → New Team → "Engineering Interviews"
 
-Add members: all engineers who conduct interviews
-Round-robin: yes (auto-assigns the next available interviewer)
-Meeting duration: 45 minutes
-Buffer time: 15 minutes before and after
-Minimum notice: 24 hours
+Add members - all engineers who conduct interviews
+Round-robin - yes (auto-assigns the next available interviewer)
+Meeting duration - 45 minutes
+Buffer time - 15 minutes before and after
+Minimum notice - 24 hours
 ```
 
 The round-robin scheduling is particularly useful for remote teams where interview load should be distributed evenly.
@@ -100,14 +100,14 @@ Workflow automation config:
 ```
 Calendly → Event Types → [Your Event] → Workflows
 
-Trigger: Invitee Schedules
+Trigger - Invitee Schedules
 Actions:
   1. Send confirmation email (custom template)
   2. Send 24-hour reminder email
   3. Send 1-hour reminder SMS (requires Calendly Business)
 
-Redirect after booking: yes
-URL: https://yoursite.com/thank-you-for-booking
+Redirect after booking - yes
+URL - https://yoursite.com/thank-you-for-booking
 ```
 
 Routing forms (Calendly Teams plan): Ask qualifying questions before showing the calendar, then route to the appropriate team member or event type based on answers. Useful for support teams, sales, and tiered service offerings.
@@ -121,22 +121,22 @@ Setup:
 ```
 Reclaim → Habits → New Habit
 
-Name: Deep Work
-Duration: 2 hours
-Frequency: daily
-Ideal time: 9am - 12pm
-Defend: high (will only move for high-priority meetings)
+Name - Deep Work
+Duration - 2 hours
+Frequency - daily
+Ideal time - 9am - 12pm
+Defend - high (will only move for high-priority meetings)
 ```
 
 ```
 Reclaim → Tasks → Import from Linear/Asana/Jira
-Auto-schedule: yes
-Due date awareness: yes (tasks due soon get scheduled first)
+Auto-schedule - yes
+Due date awareness - yes (tasks due soon get scheduled first)
 ```
 
 Reclaim's smart 1:1 feature finds the optimal recurring 1:1 slot with a teammate based on both calendars, then moves the meeting when either person has a conflict. without anyone manually rescheduling.
 
-Best for: Developers and knowledge workers who want automation around protecting maker time, not just booking external meetings.
+Best for - Developers and knowledge workers who want automation around protecting maker time, not just booking external meetings.
 
 Motion ($19-34/user/mo)
 
@@ -144,9 +144,9 @@ Motion combines task management with calendar scheduling and AI prioritization. 
 
 ```
 Motion → Projects → New Project
-Name: Feature Launch Q2
-Tasks: [create tasks with time estimates]
-Deadline: 2026-05-31
+Name - Feature Launch Q2
+Tasks - [create tasks with time estimates]
+Deadline - 2026-05-31
 
 Motion will:
 - Schedule each task into available calendar slots
@@ -154,7 +154,7 @@ Motion will:
 - Alert when the deadline becomes at risk
 ```
 
-Best for: Remote workers who struggle with the gap between a task list and when tasks actually get done.
+Best for - Remote workers who struggle with the gap between a task list and when tasks actually get done.
 
 SavvyCal ($12-20/user/mo)
 
@@ -162,14 +162,14 @@ SavvyCal's standout feature is that invitees can overlay their own calendar when
 
 ```
 SavvyCal → Links → New Link
-Name: 30-min call
-Availability: Mon-Fri, 9am-5pm CET
-Minimum notice: 2 hours
-Enable calendar overlay: yes (invitees can overlay their own calendar)
-Buffer: 15 min after
+Name - 30-min call
+Availability - Mon-Fri, 9am-5pm CET
+Minimum notice - 2 hours
+Enable calendar overlay - yes (invitees can overlay their own calendar)
+Buffer - 15 min after
 ```
 
-Best for: Consultants and PMs who meet external clients frequently and want to give invitees a premium scheduling experience.
+Best for - Consultants and PMs who meet external clients frequently and want to give invitees a premium scheduling experience.
 
 Comparison by Use Case
 
@@ -187,12 +187,12 @@ Time Zone Handling
 All tools listed above show availability in the invitee's local time zone automatically. For internal team scheduling, configure your calendar events to always display in UTC alongside local time.
 
 ```bash
-Google Calendar: Settings → Time Zone
-Primary time zone: your local zone
-Show secondary time zone: UTC
-World clock: add team members' time zones
+Google Calendar - Settings → Time Zone
+Primary time zone - your local zone
+Show secondary time zone - UTC
+World clock - add team members' time zones
 
-Outlook: Calendar → View → Change View → Add Time Zone
+Outlook - Calendar → View → Change View → Add Time Zone
 ```
 
 ```
@@ -214,7 +214,7 @@ Decision to schedule a meeting checklist:
 - [ ] The meeting has a clear agenda and owner
 - [ ] Attendees have context to participate (no "context setting" meetings)
 
-If any of these are unchecked: default to async
+If any of these are unchecked - default to async
 ```
 
 Advanced Scheduling Patterns for Remote Teams
@@ -224,10 +224,10 @@ The Rotating Host Model
 Instead of one person owning all scheduling, rotate responsibility:
 
 ```
-Week 1: Alice hosts all external client calls
-Week 2: Bob hosts all external client calls
-Week 3: Charlie hosts all external client calls
-Week 4: Rotate back to Alice
+Week 1 - Alice hosts all external client calls
+Week 2 - Bob hosts all external client calls
+Week 3 - Charlie hosts all external client calls
+Week 4 - Rotate back to Alice
 
 Benefits:
 - Builds relationship diversity (clients interact with multiple people)
@@ -245,9 +245,9 @@ Automatically insert buffer time between calls to prevent back-to-back meeting f
 ```yaml
 Cal.com buffer configuration:
 Minimum buffer before meeting: 15 minutes
-Minimum buffer after meeting: 10 minutes
-Buffer before lunch: 30 minutes
-Buffer before end-of-day: 15 minutes (prevents working late)
+Minimum buffer after meeting - 10 minutes
+Buffer before lunch - 30 minutes
+Buffer before end-of-day - 15 minutes (prevents working late)
 
 Calendar looks less packed, improves focus time
 ```
@@ -259,11 +259,11 @@ Meeting-Free Days
 Block entire days where no meetings can be scheduled:
 
 ```
-Monday: Meetings OK (team alignment day)
-Tuesday: MEETING FREE (deep work)
-Wednesday: Meetings OK
-Thursday: MEETING FREE (deep work)
-Friday: Meetings OK (client wrap-ups)
+Monday - Meetings OK (team alignment day)
+Tuesday - MEETING FREE (deep work)
+Wednesday - Meetings OK
+Thursday - MEETING FREE (deep work)
+Friday - Meetings OK (client wrap-ups)
 
 This pattern ensures 2/5 days are protected for focused work
 while keeping client-facing time concentrated in 3 days
@@ -357,7 +357,7 @@ Green zones:
 Red zones indicate your process needs redesign
 ```
 
-If metrics degrade, investigate: Is the tool limiting you? Is your process broken? Do you need different templates or buffer policies?
+If metrics degrade, investigate - Is the tool limiting you? Is your process broken? Do you need different templates or buffer policies?
 
 Calendar Onboarding for New Team Members
 
@@ -397,7 +397,7 @@ Buffer Time
 
 Clear norms prevent calendar chaos as teams grow.
 
-The Ultimate Test: Can You Take Vacation?
+The Ultimate Test - Can You Take Vacation?
 
 The real measure of a good scheduling system is whether you can take time off without worrying about meetings:
 
@@ -432,7 +432,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -444,6 +444,6 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 {% endraw %}

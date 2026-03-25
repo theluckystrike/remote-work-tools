@@ -27,9 +27,9 @@ Table of Contents
 - [Cable Management Strategy](#cable-management-strategy)
 - [Final Setup Checklist](#final-setup-checklist)
 - [Closet Office Equipment Budget Breakdown](#closet-office-equipment-budget-breakdown)
-- [Closet Office: Success Metrics and Maintenance](#closet-office-success-metrics-and-maintenance)
+- [Closet Office - Success Metrics and Maintenance](#closet-office-success-metrics-and-maintenance)
 - [Closet Office Success Stories and Failure Points](#closet-office-success-stories-and-failure-points)
-- [Comparison: Closet Office vs. Alternatives](#comparison-closet-office-vs-alternatives)
+- [Comparison - Closet Office vs. Alternatives](#comparison-closet-office-vs-alternatives)
 
 Why a Closet Office Works
 
@@ -41,9 +41,9 @@ Electrical and Connectivity Planning
 
 Power availability often determines closet viability. Most closets include a single outlet, which works for basic setups but creates limitations for developers running multiple monitors, external drives, and charging stations. Consider these options:
 
-Power strip installation: Install a surge-protected power strip inside the closet, mounted to the back panel or inside a cabinet. Use a model with at least six AC outlets and two USB-C charging ports.
+Power strip installation - Install a surge-protected power strip inside the closet, mounted to the back panel or inside a cabinet. Use a model with at least six AC outlets and two USB-C charging ports.
 
-Network connectivity: Hardwired ethernet provides more stable connections than WiFi for development work. If your closet is near an ethernet jack, run a flat ethernet cable along the baseboard using cable clips. For distant closets, powerline adapters using your existing electrical wiring often deliver sufficient bandwidth:
+Network connectivity - Hardwired ethernet provides more stable connections than WiFi for development work. If your closet is near an ethernet jack, run a flat ethernet cable along the baseboard using cable clips. For distant closets, powerline adapters using your existing electrical wiring often deliver sufficient bandwidth:
 
 ```bash
 Test your network latency from the closet
@@ -56,9 +56,9 @@ Lighting Solutions
 
 Standard closet lighting, typically a single overhead bulb, creates harsh shadows and inadequate illumination for screen work. Developers spending hours in front of monitors need better solutions:
 
-Ambient lighting: Install a dimmable LED light bar on the back wall above your monitor. Phillips Hue lightstrips (approx. $50-80 for a 2-meter starter kit) or similar bias lighting reduce eye strain during extended coding sessions. Budget alternatives include Nanoleaf Essentials ($40 for an 3-pack) which offer RGB adjustability and app control.
+Ambient lighting - Install a dimmable LED light bar on the back wall above your monitor. Phillips Hue lightstrips (approx. $50-80 for a 2-meter starter kit) or similar bias lighting reduce eye strain during extended coding sessions. Budget alternatives include Nanoleaf Essentials ($40 for an 3-pack) which offer RGB adjustability and app control.
 
-Task lighting: A desk lamp with adjustable color temperature (2700K-6500K) provides focused illumination for paperwork and keyboard work. Look for models with USB-C charging built into the base. Popular options include:
+Task lighting - A desk lamp with adjustable color temperature (2700K-6500K) provides focused illumination for paperwork and keyboard work. Look for models with USB-C charging built into the base. Popular options include:
 - BenQ e-Reading Lamp ($80-100): Flicker-free, auto-dimming sensor, USB-C power
 - Anker Lumos X ($35-45): Compact, dimmable, built-in USB charging
 - LEDGLE Desk Lamp ($25-35): Budget-friendly, adjustable color temperature, good reviews from developers
@@ -95,14 +95,14 @@ Desk and Seating Configuration
 
 Standard desks rarely fit inside closets. Developers typically choose between three approaches:
 
-Floating wall-mounted desk: Install a wall-mounted drop-leaf desk or floating shelf at standing height (around 42-44 inches). This maximizes floor space and works well for seated or standing configurations. Quality options include:
+Floating wall-mounted desk - Install a wall-mounted drop-leaf desk or floating shelf at standing height (around 42-44 inches). This maximizes floor space and works well for seated or standing configurations. Quality options include:
 - Flexispot Dual-Motor Standing Desk (30"x48", $300-400): Motorized height adjustment, quiet operation
 - IKEA Bekant Wall-Mounted Desk (40"x20", $60-80): Budget option, simple assembly
 - Autonomous Premium Desk (48"x24", $400-500): Dual motors, programmable height presets
 
-Custom millwork: Build or commission a shallow-depth desk (12-15 inches) that follows the closet's interior contours. This approach maximizes workspace while maintaining door clearance. Local woodworkers typically charge $400-800 for a custom-fitted desk.
+Custom millwork - Build or commission a shallow-depth desk (12-15 inches) that follows the closet's interior contours. This approach maximizes workspace while maintaining door clearance. Local woodworkers typically charge $400-800 for a custom-fitted desk.
 
-Rolling cart: A rolling office cart provides flexibility, allowing you to move your entire setup outside the closet when not working. This solves ventilation issues but sacrifices the dedicated-space benefit. The AmazonBasics 3-Tier Rolling Cart ($40-50) fits most closets and accommodates monitors up to 24 inches.
+Rolling cart - A rolling office cart provides flexibility, allowing you to move your entire setup outside the closet when not working. This solves ventilation issues but sacrifices the dedicated-space benefit. The AmazonBasics 3-Tier Rolling Cart ($40-50) fits most closets and accommodates monitors up to 24 inches.
 
 For seating, a compact stool or folding chair stored outside the closet works for minimal setups. Folding options under $100 include the Cosco Commercial Folding Stool ($35-50) and the Impact Folding Chair ($40-60). If you need full ergonomic support, consider a compact task chair that fits within the closet dimensions when rolled under the desk. The Autonomous Ergonomic Chair ($200-300) and Steelcase Series 1 ($275-350) compress under standard desks for closet-office compatibility.
 
@@ -161,9 +161,9 @@ Complete Developer Setup (~$1,500-2,500):
 - Network equipment (Wifi 6 mesh or hardline): $200-400
 - Premium cable management and clips: $100-150
 
-Cost comparison: A closet office (minimal: $600-800) costs significantly less than renting or converting a bedroom ($1,500-5,000+), making it ideal for budget-conscious remote workers.
+Cost comparison - A closet office (minimal: $600-800) costs significantly less than renting or converting a bedroom ($1,500-5,000+), making it ideal for budget-conscious remote workers.
 
-Closet Office: Success Metrics and Maintenance
+Closet Office - Success Metrics and Maintenance
 
 After 2-Week Trial Period, Evaluate:
 - Network stability: 99.5%+ uptime, consistent latency
@@ -188,14 +188,14 @@ Most successful closet offices require 2-3 months of optimization before settlin
 
 Closet Office Success Stories and Failure Points
 
-Success Case: San Francisco Developer, Studio Apartment
+Success Case - San Francisco Developer, Studio Apartment
 - Setup: 3.5'x5' coat closet → full standing desk office
 - Total investment: $1,200 (motorized desk, monitor arms, lighting)
 - Monthly cost: Minimal (all equipment purchased upfront)
 - Key success factors: Aggressive ventilation approach, standing-focused workflow, high-speed fiber internet available
 - Maintained sustainable 8-hour workdays for 4+ years
 
-Failure Case: New York Developer, Older Building
+Failure Case - New York Developer, Older Building
 - Setup: 2.5'x4' closet → attempted seated desk
 - Issues: Inadequate electrical supply (frequent circuit breaker trips), poor ventilation (overheating after 3 hours), network instability (WiFi signal blocked by walls), insufficient depth for proper monitor positioning
 - Abandoned after 2 weeks, reverted to kitchen table setup
@@ -210,7 +210,7 @@ Key Differentiators Between Success and Failure:
 
 If your closet doesn't meet these baseline requirements, consider alternatives like converting a corner of a larger room instead.
 
-Comparison: Closet Office vs. Alternatives
+Comparison - Closet Office vs. Alternatives
 
 Closet Office:
 - Cost: $600-2,500

@@ -22,19 +22,19 @@ This guide walks you through creating a practical remote team operations handboo
 
 Engineering Onboarding Checklist
 
-Step 4: Day 1
+Step 4 - Day 1
 - [ ] Set up GitHub account and request org access
 - [ ] Configure 2FA on all critical services
 - [ ] Join #engineering, #incidents, and #standup Slack channels
 - [ ] Complete HR paperwork through BambooHR
 
-Step 5: Day 2
+Step 5 - Day 2
 - [ ] Clone production repositories
 - [ ] Run local development environment setup
 - [ ] Complete security training module
 - [ ] Meet with your onboarding buddy (schedule 30-min intro)
 
-Step 6: Day 3-5
+Step 6 - Day 3-5
 - [ ] Complete first trivial PR (docs fix or dependency update)
 - [ ] Review codebase architecture documentation
 - [ ] Shadow a code review session
@@ -43,12 +43,12 @@ Step 6: Day 3-5
 
 The checkbox format gives new hires a sense of progress and ensures nothing gets skipped. Update this checklist whenever someone gets stuck during their first week.
 
-Step 7: Define Communication Standards Explicitly
+Step 7 - Define Communication Standards Explicitly
 
 Remote teams suffer most when communication expectations remain implicit. Write down exactly what you expect:
 
 ```markdown
-Step 8: Response Time Expectations
+Step 8 - Response Time Expectations
 
 | Channel Type | Expected Response | Maximum Response |
 |--------------|-------------------|-------------------|
@@ -69,7 +69,7 @@ When to Use Each Channel
 
 These specifics eliminate ambiguity. When someone asks "how quickly should I respond to X," you link to the handbook instead of explaining again.
 
-Step 9: Create Process Runbooks for Common Tasks
+Step 9 - Create Process Runbooks for Common Tasks
 
 Developers should never have to guess how to handle routine operational tasks. Create runbooks that walk through procedures step by step:
 
@@ -81,7 +81,7 @@ Prerequisites
 - At least one approving code review
 - No blocking GitHub issues tagged for this release
 
-Step 10: Deploy ment Steps
+Step 10 - Deploy ment Steps
 
 1. Ensure you're on the main branch and have pulled latest:
    ```bash
@@ -102,7 +102,7 @@ Step 10: Deploy ment Steps
 5. Test critical user flows on staging environment
 6. Merge release branch back to main
 
-Step 11: Rollback Procedure
+Step 11 - Rollback Procedure
 
 If issues are detected after staging deployment:
 
@@ -114,7 +114,7 @@ If issues are detected after staging deployment:
 
 Runbooks reduce support burden and enable team members to handle tasks independently. Review and test these quarterly, outdated runbooks are worse than none at all.
 
-Step 12: Automate Handbook Maintenance
+Step 12 - Automate Handbook Maintenance
 
 A handbook that rots becomes useless. Set up automated checks to catch issues:
 
@@ -151,7 +151,7 @@ jobs:
 
 This workflow catches broken links and outdated references automatically. Without automation, maintaining documentation feels like additional work that always gets deprioritized.
 
-Step 13: Version Control Your Handbook
+Step 13 - Version Control Your Handbook
 
 Treat your handbook like code. Store it in the same repository as your projects, use branches for updates, and require reviews before merging changes. This approach brings several advantages:
 
@@ -177,28 +177,28 @@ Building Decision-Making Frameworks in Your Handbook
 One section of your handbook should document how your team makes decisions. Clear decision frameworks prevent endless debate:
 
 ```markdown
-Decision Framework: When to Use Customer Feature vs. Technical Debt
+Decision Framework - When to Use Customer Feature vs. Technical Debt
 
-Decision Type 1: Small Bugs (< 4 hours work)
+Decision Type 1 - Small Bugs (< 4 hours work)
 - Owner: Engineer who found it
 - Process: Create issue, fix in same sprint
 - Communication: Post in #bugs when fixed
 - No meeting required
 
-Decision Type 2: Medium Features (1-2 weeks work)
+Decision Type 2 - Medium Features (1-2 weeks work)
 - Owner: Product Manager
 - Process: Sketch RFC in #product-discuss, collect feedback 48 hours
 - Communication: Async discussion, document decision in wiki
 - One sync call only if consensus isn't clear
 
-Decision Type 3: Major Architectural Decisions (> 2 weeks)
+Decision Type 3 - Major Architectural Decisions (> 2 weeks)
 - Owner: Tech Lead + Product Manager (joint)
 - Process: Full RFC with technical analysis, implementation plan, rollback strategy
 - Communication: Async RFC review window, one sync call to finalize
 - Publish decision document to handbook before implementation
 - Quarterly review: evaluate if decision still makes sense
 
-Decision Type 4: Urgent (Production Down, Security Issue)
+Decision Type 4 - Urgent (Production Down, Security Issue)
 - Owner: On-call engineer + Manager
 - Process: Fix immediately, document post-incident
 - Communication: Sync call only if more than 2 people involved

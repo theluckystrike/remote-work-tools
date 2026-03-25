@@ -344,7 +344,7 @@ netdata-claim.sh \
   -url=https://app.netdata.cloud
 ```
 
-Get your claim token from: Netdata Cloud > Space Settings > Nodes > Connect Nodes
+Get your claim token from - Netdata Cloud > Space Settings > Nodes > Connect Nodes
 
 Once claimed, the node appears in your cloud space and is accessible to all team members with room access. no VPN or SSH tunnels required.
 

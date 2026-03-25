@@ -21,13 +21,13 @@ Choosing the right business structure is one of the first significant decisions 
 Table of Contents
 
 - [Understanding the Two Structures](#understanding-the-two-structures)
-- [Liability Protection: What Actually Happens](#liability-protection-what-actually-happens)
-- [Tax Implications: More Complex Than You Might Expect](#tax-implications-more-complex-than-you-might-expect)
-- [Cost and Paperwork: The Hidden Differences](#cost-and-paperwork-the-hidden-differences)
+- [Liability Protection - What Actually Happens](#liability-protection-what-actually-happens)
+- [Tax Implications - More Complex Than You Might Expect](#tax-implications-more-complex-than-you-might-expect)
+- [Cost and Paperwork - The Hidden Differences](#cost-and-paperwork-the-hidden-differences)
 - [What Clients Actually Care About](#what-clients-actually-care-about)
 - [Making Your Decision](#making-your-decision)
 - [Transitioning Between Structures](#transitioning-between-structures)
-- [Real Numbers: Tax Comparison Example](#real-numbers-tax-comparison-example)
+- [Real Numbers - Tax Comparison Example](#real-numbers-tax-comparison-example)
 - [State-Specific LLC Considerations](#state-specific-llc-considerations)
 - [Client Perception and Credibility Analysis](#client-perception-and-credibility-analysis)
 - [Retirement Savings Advantages by Structure](#retirement-savings-advantages-by-structure)
@@ -45,25 +45,25 @@ A sole proprietorship is the simplest business structure. There's no legal separ
 
 An LLC (Limited Liability Company) creates a legal separation between you personally and your business. The LLC is its own legal entity that can own bank accounts, sign contracts, and hold assets. If someone sues your business, your personal assets (house, car, personal bank accounts) are generally protected, unlike in a sole proprietorship where your personal and business liabilities are the same.
 
-Liability Protection: What Actually Happens
+Liability Protection - What Actually Happens
 
 For most freelance developers, the primary reason to consider an LLC is liability protection. Let's examine two realistic scenarios:
 
-Scenario 1: Client Project Dispute
+Scenario 1 - Client Project Dispute
 You're building a custom web application for a client. Due to a bug in your code, the application experiences downtime that causes your client to lose $50,000 in e-commerce revenue. The client sues for damages.
 
-- Sole Proprietor: Your personal assets are at risk. The plaintiff can go after your bank accounts, car, and potentially your home to satisfy a judgment.
+- Sole Proprietor - Your personal assets are at risk. The plaintiff can go after your bank accounts, car, and potentially your home to satisfy a judgment.
 - LLC: Only the business assets are typically at risk. Your personal assets remain protected (assuming you maintain proper separation between personal and business finances).
 
-Scenario 2: Developer Injury
+Scenario 2 - Developer Injury
 A subcontractor you hired for a project gets injured on the job and files a workers' compensation claim.
 
-- Sole Proprietor: Your personal assets could be exposed.
+- Sole Proprietor - Your personal assets could be exposed.
 - LLC: The LLC's assets provide a layer of protection, though this varies by state.
 
 Realistically, many freelance developers work on projects where the financial stakes don't warrant extensive liability protection. However, if you're handling client data, working on financial systems, or building software with significant business impact, the LLC protection becomes more valuable.
 
-Tax Implications: More Complex Than You Might Expect
+Tax Implications - More Complex Than You Might Expect
 
 Both structures have pass-through taxation, business income passes through to your personal tax return, avoiding the double taxation that corporations face. However, differences exist in how you handle certain situations.
 
@@ -111,7 +111,7 @@ category = categorize_expense(expense)
 print(f"Category: {category}")  # Output: Category: software
 ```
 
-Cost and Paperwork: The Hidden Differences
+Cost and Paperwork - The Hidden Differences
 
 Sole Proprietor Costs
 - Registration: Often $0-50 (DBA filing if using a trade name)
@@ -155,11 +155,11 @@ Transitioning Between Structures
 
 One advantage of starting as a sole proprietor: you can always form an LLC later. Many developers begin as sole proprietors, build up client relationships and income, then make the switch when it makes financial sense. The IRS allows you to elect LLC treatment retroactively in some cases, though this requires careful documentation.
 
-Real Numbers: Tax Comparison Example
+Real Numbers - Tax Comparison Example
 
 Let's work through a practical example with a freelance developer earning $75,000 annually:
 
-Scenario: Freelancer earning $75,000 gross, $20,000 business expenses
+Scenario - Freelancer earning $75,000 gross, $20,000 business expenses
 
 Sole Proprietor:
 - Net business income: $55,000
@@ -168,10 +168,10 @@ Sole Proprietor:
 - Total tax burden: ~$17,215
 - Take-home: ~$37,785
 
-LLC filing status: Default (treated as sole proprietor):
+LLC filing status - Default (treated as sole proprietor):
 - Same as above: $17,215 in taxes
 
-LLC filing status: S-corp election:
+LLC filing status - S-corp election:
 - Salary (must be "reasonable"): $50,000
 - Salary-based SE tax: $7,650
 - Distribution/dividend: $5,000
@@ -181,7 +181,7 @@ LLC filing status: S-corp election:
 - Take-home: ~$39,850
 - Difference: +$2,635 vs sole proprietor
 
-The catch: S-corp election requires:
+The catch - S-corp election requires:
 - Additional Form 2553 filing ($0, but requires accuracy)
 - Quarterly payroll processing even if you're the only employee ($500-1,500/year via service)
 - More complex tax return ($1,500-2,500 CPA cost vs. $300-500 for sole proprietor)
@@ -219,7 +219,7 @@ The preference skews heavily toward client size: enterprise procurement departme
 This doesn't mean sole proprietors lose business. It means your contract and portfolio matter more than incorporation status. However, if you're targeting enterprise work or large agencies, incorporating signals maturity and reduces procurement friction.
 
 Example enterprise procurement conversation:
-- Their: "We can only contract with incorporated vendors."
+- Their - "We can only contract with incorporated vendors."
 - You (sole proprietor): "I can form an LLC in 48 hours for $100-200."
 - You (already incorporated): "Here's my EIN."
 

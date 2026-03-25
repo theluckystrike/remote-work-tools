@@ -35,9 +35,9 @@ Before drafting any offer letter, you must determine how the worker will be clas
 
 Employee vs Independent Contractor
 
-Full-time employee: Works exclusively for your company, follows your schedule, uses your equipment. Your company bears responsibility for payroll taxes, social contributions, and statutory benefits.
+Full-time employee - Works exclusively for your company, follows your schedule, uses your equipment. Your company bears responsibility for payroll taxes, social contributions, and statutory benefits.
 
-Independent contractor: Controls their own schedule, uses their own tools, invoices for completed work. They handle their own tax obligations. Misclassification carries significant penalties.
+Independent contractor - Controls their own schedule, uses their own tools, invoices for completed work. They handle their own tax obligations. Misclassification carries significant penalties.
 
 Here's a quick decision framework:
 
@@ -72,9 +72,9 @@ Every international offer letter should include these sections:
 ```markdown
 This Employment Offer Letter ("Offer") is made between [Company Name] ("Employer") and [Candidate Full Legal Name] ("Employee").
 
-Effective Date: [Start Date]
-Employment Type: Full-time / Part-time
-Work Location: [Country] (Remote)
+Effective Date - [Start Date]
+Employment Type - Full-time / Part-time
+Work Location - [Country] (Remote)
 ```
 
 2. Compensation Structure
@@ -82,13 +82,13 @@ Work Location: [Country] (Remote)
 Be explicit about how compensation will be handled across borders:
 
 ```markdown
-Base Salary: [Amount] [Currency] per [year/month]
-Payment Schedule: [Bi-monthly/Monthly] via [bank transfer method]
-Withholding: Tax withholdings will be managed according to [Country] regulations
-Additional Benefits: [List applicable benefits]
+Base Salary - [Amount] [Currency] per [year/month]
+Payment Schedule - [Bi-monthly/Monthly] via [bank transfer method]
+Withholding - Tax withholdings will be managed according to [Country] regulations
+Additional Benefits - [List applicable benefits]
 ```
 
-Critical consideration: Will you pay in local currency or your home currency? Exchange rate fluctuations can significantly impact take-home pay. Most companies either:
+Critical consideration - Will you pay in local currency or your home currency? Exchange rate fluctuations can significantly impact take-home pay. Most companies either:
 - Pay in local currency with annual adjustments
 - Pay in home currency with periodic reviews
 - Use a third-party employer of record (EOR) service
@@ -96,8 +96,8 @@ Critical consideration: Will you pay in local currency or your home currency? Ex
 3. Working Hours and Time Zone
 
 ```markdown
-Standard Working Hours: [X] hours per week
-Time Zone: Employee agrees to maintain overlapping hours of [X hours] with [Company HQ Time Zone]
+Standard Working Hours - [X] hours per week
+Time Zone - Employee agrees to maintain overlapping hours of [X hours] with [Company HQ Time Zone]
 ```
 
 4. Probation Period
@@ -105,8 +105,8 @@ Time Zone: Employee agrees to maintain overlapping hours of [X hours] with [Comp
 Many countries mandate probation periods in writing:
 
 ```markdown
-Probation Period: [X] months from effective date
-During probation: [Notice period length] notice required
+Probation Period - [X] months from effective date
+During probation - [Notice period length] notice required
 ```
 
 5. Termination Clauses
@@ -114,9 +114,9 @@ During probation: [Notice period length] notice required
 Termination requirements vary dramatically by country. Research local laws carefully:
 
 ```markdown
-Termination Notice: [Country minimum] days/weeks written notice
-Severance: As required by [Country] labor law
-Immediate termination: For cause as defined by [Country] employment law
+Termination Notice - [Country minimum] days/weeks written notice
+Severance - As required by [Country] labor law
+Immediate termination - For cause as defined by [Country] employment law
 ```
 
 Country-Specific Considerations
@@ -203,10 +203,10 @@ Customize based on jurisdiction and EOR requirements
 
 EMPLOYMENT OFFER LETTER
 
-Date: [Offer Date]
+Date - [Offer Date]
 
-Candidate: [Full Legal Name]
-Address: [International Address]
+Candidate - [Full Legal Name]
+Address - [International Address]
 
 Dear [Candidate Name],
 

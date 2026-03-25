@@ -21,10 +21,10 @@ Use Notion for flexible formatting and permission controls, Confluence if your t
 Table of Contents
 
 - [Key Requirements for Customer Support Wikis](#key-requirements-for-customer-support-wikis)
-- [Solution 1: Notion. The Flexible All-Rounder](#solution-1-notion-the-flexible-all-rounder)
-- [Solution 2: GitBook. Developer-Friendly Documentation](#solution-2-gitbook-developer-friendly-documentation)
-- [Solution 3: Confluence. Enterprise Scale](#solution-3-confluence-enterprise-scale)
-- [Solution 4: Outline. Open-Source Wiki](#solution-4-outline-open-source-wiki)
+- [Solution 1 - Notion. The Flexible All-Rounder](#solution-1-notion-the-flexible-all-rounder)
+- [Solution 2 - GitBook. Developer-Friendly Documentation](#solution-2-gitbook-developer-friendly-documentation)
+- [Solution 3 - Confluence. Enterprise Scale](#solution-3-confluence-enterprise-scale)
+- [Solution 4 - Outline. Open-Source Wiki](#solution-4-outline-open-source-wiki)
 - [Decision Framework](#decision-framework)
 - [Integrating Your Wiki with Zendesk](#integrating-your-wiki-with-zendesk)
 - [Structuring Your Knowledge Base for a Support Team](#structuring-your-knowledge-base-for-a-support-team)
@@ -44,7 +44,7 @@ A 40-person remote support team has distinct needs that differ from engineering 
 - Search speed: Agents cannot wait seconds for results during live chats
 - Content formatting: Support teams need tables, checklists, and media embedding more than code blocks
 
-Solution 1: Notion. The Flexible All-Rounder
+Solution 1 - Notion. The Flexible All-Rounder
 
 Notion provides the most versatile option for support teams already using productivity tools. Its database features enable sophisticated knowledge organization, and the API supports custom integrations with support platforms.
 
@@ -81,7 +81,7 @@ async function createWikiPage(title, content, parentId) {
 
 Notion's strengths include rapid page creation, inline databases for tagging articles by product area, and real-time collaboration. The downside: search requires the Notion interface, which means context-switching for agents. Enterprise pricing starts at $10 per user monthly.
 
-Solution 2: GitBook. Developer-Friendly Documentation
+Solution 2 - GitBook. Developer-Friendly Documentation
 
 GitBook suits teams comfortable with Git workflows. It treats documentation as code, enabling pull request reviews for content changes, useful when you want structured approval processes for support procedures.
 
@@ -101,7 +101,7 @@ gitbook build ./support-docs
 
 GitBook offers excellent markdown support, version control through Git, and embedding code snippets. Integration options include Slack notifications when docs update and GitHub sync. The primary limitation: non-technical support agents may struggle with Git workflows without training.
 
-Solution 3: Confluence. Enterprise Scale
+Solution 3 - Confluence. Enterprise Scale
 
 At 40 people, you likely encounter Atlassian tools. Confluence provides enterprise-grade permissions, audit logs, and deep integration with Jira, valuable when support tickets link directly to documentation.
 
@@ -132,7 +132,7 @@ api.createPage({
 
 Confluence excels at scale and compliance requirements. The interface feels dated, and search performance degrades with large knowledge bases. Pricing matches Notion's Enterprise tier.
 
-Solution 4: Outline. Open-Source Wiki
+Solution 4 - Outline. Open-Source Wiki
 
 For teams wanting self-hosted solutions, Outline provides an open-source wiki with excellent collaboration features. It supports authentication via Google, Slack, and OIDC, fitting for organizations with existing identity providers.
 
@@ -172,7 +172,7 @@ Choose based on your team's existing tools and technical capacity:
 | Zendesk integration | Via Zapier | Limited | Native app | Custom API |
 | Offline access | No | No | No | No |
 
-For most 40-person remote support teams, Notion provides the fastest path to productivity. Teams with strong Git practices benefit from GitBook's review workflows. Organizations already in the Atlassian ecosystem should use Confluence's integration advantages.
+For most 40-person remote support teams, Notion provides the fastest path to productivity. Teams with strong Git practices benefit from GitBook's review workflows. Organizations already in the Atlassian environment should use Confluence's integration advantages.
 
 Integrating Your Wiki with Zendesk
 
@@ -304,7 +304,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -316,6 +316,6 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 {% endraw %}

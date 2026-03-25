@@ -25,12 +25,12 @@ Table of Contents
 - [Foam Density and Thickness Recommendations](#foam-density-and-thickness-recommendations)
 - [Mounting Approaches and Installation Guide](#mounting-approaches-and-installation-guide)
 - [Validation and Iteration](#validation-and-iteration)
-- [Advanced: Measuring with Software](#advanced-measuring-with-software)
+- [Advanced - Measuring with Software](#advanced-measuring-with-software)
 - [Testing Your Setup Before Purchasing Expensive Foam](#testing-your-setup-before-purchasing-expensive-foam)
 - [Common Issues and Fixes](#common-issues-and-fixes)
 - [Integration with Remote Meeting Software](#integration-with-remote-meeting-software)
 - [Acoustic Foam in Different Room Types](#acoustic-foam-in-different-room-types)
-- [Acoustic Treatment Beyond Foam: Complementary Approaches](#acoustic-treatment-beyond-foam-complementary-approaches)
+- [Acoustic Treatment Beyond Foam - Complementary Approaches](#acoustic-treatment-beyond-foam-complementary-approaches)
 - [Acoustic Foam FAQs and Common Misconceptions](#acoustic-foam-faqs-and-common-misconceptions)
 
 How Acoustic Foam Works
@@ -47,7 +47,7 @@ Measure your desk setup dimensions and note where hard surfaces exist. Walls beh
 
 Primary Placement Zones
 
-Zone 1: Behind the Microphone
+Zone 1 - Behind the Microphone
 
 The area directly behind your microphone captures the most reflected sound. Place foam panels on the wall behind your desk, extending at least two feet on either side of your mic position. This zone handles the first reflection point, sound traveling from your mouth to the wall and bouncing back to the microphone.
 
@@ -60,19 +60,19 @@ For foam wedges or pyramids, mount them at ear height when seated. If using flat
       [ You ]→ [ Mic ]
 ```
 
-Zone 2: Side Walls at Reflection Points
+Zone 2 - Side Walls at Reflection Points
 
 Extend your arm while seated and point at your microphone, that line represents sound traveling to your mic. Mark where that line intersects your side walls. These are your primary reflection points and should receive foam treatment.
 
 Most desks place these reflection points 3-4 feet from your head. A panel 2 feet wide at each intersection significantly reduces lateral reflections. If your room has windows or glass panels in these positions, foam becomes even more critical, glass reflects high frequencies sharply and creates harsh artifacts in your voice capture.
 
-Zone 3: Ceiling Above Your Seating Position
+Zone 3 - Ceiling Above Your Seating Position
 
 Ceiling reflections often go unnoticed but contribute to a "distant" or "hollow" quality in your voice. If you have standard 8-foot ceilings, a single ceiling panel (2x2 feet) directly above your head absorbs upward reflections.
 
 For ceiling mounting, use adhesive squares designed for picture hanging or construct a simple wire grid frame. Some acoustic foam panels come with adhesive backing, test on a sample piece first, as adhesive can damage foam over time.
 
-Zone 4: Behind Your Monitor
+Zone 4 - Behind Your Monitor
 
 Your monitor reflects sound downward toward your desk and then to your microphone. Placing foam strips or a small panel behind your monitor breaks this reflection path. This is especially effective if you sit close to your monitor (within 24 inches), which is common with modern large displays.
 
@@ -120,19 +120,19 @@ Command Strips and Adhesive (Rental-Friendly, $15-25)
 
 For temporary setups or rental spaces, adhesive hanging strips work well. Apply two strips per panel (top corners) and press firmly for 30 seconds. This method allows repositioning and leaves no wall damage.
 
-Best for: Renters, temporary setups, easily repositionable testing
-Installation time: 2-3 minutes per panel
-Failure rate: Low if wall is clean and dry (>90% success rate)
-Cost: Command strips $0.50-1.00 per panel
+Best for - Renters, temporary setups, easily repositionable testing
+Installation time - 2-3 minutes per panel
+Failure rate - Low if wall is clean and dry (>90% success rate)
+Cost - Command strips $0.50-1.00 per panel
 
 Picture Hanging Wire and Hooks (Semi-Permanent, $20-40)
 
 For a more permanent setup, thread picture hanging wire through foam and hang from wall-mounted hooks. This approach accommodates angled positioning and supports heavier panels.
 
-Best for: Home offices, permanent installations, precise angle control
-Installation time: 10-15 minutes per panel
-Failure rate: Very low (<5%), supports up to 10 lbs per hook
-Cost: Wire and hooks $2-3 per panel + professional installation if desired
+Best for - Home offices, permanent installations, precise angle control
+Installation time - 10-15 minutes per panel
+Failure rate - Very low (<5%), supports up to 10 lbs per hook
+Cost - Wire and hooks $2-3 per panel + professional installation if desired
 
 Installation steps:
 1. Mark hook positions 12-18" from edges
@@ -145,26 +145,26 @@ Acoustic Panel Frames (Professional, $40-80)
 
 Metal or plastic frames designed to hold foam panels provide cleaner aesthetics and easier repositioning. Some frames include built-in angle adjustment.
 
-Best for: Professional appearance, frequent repositioning, multi-panel configurations
-Installation time: 5-10 minutes per panel
-Cost: Frames $30-50 per panel, mounting hardware $10-15
+Best for - Professional appearance, frequent repositioning, multi-panel configurations
+Installation time - 5-10 minutes per panel
+Cost - Frames $30-50 per panel, mounting hardware $10-15
 
 Desktop Mounts and Stands (Portable, $50-100)
 
 If wall mounting is impractical, desktop foam panels sit on stands behind your microphone. These work for very small spaces but are less effective than wall mounting since they cannot break the reflection path as cleanly.
 
-Best for: Desks that can't handle wall drilling, temporary testing
-Effectiveness: 60-70% of wall mounting (closer distance limits coverage)
-Cost: Stands $40-80, foam panels $15-30
-Downside: Takes valuable desk space, less coverage area
+Best for - Desks that can't handle wall drilling, temporary testing
+Effectiveness - 60-70% of wall mounting (closer distance limits coverage)
+Cost - Stands $40-80, foam panels $15-30
+Downside - Takes valuable desk space, less coverage area
 
 DIY Mounting Solution (Budget, $10-20)
 
 Stack panels using small wooden brackets or metal L-brackets attached to walls.
 
-Best for: Creative solutions, custom angles, budget constraints
-Installation time: 20-30 minutes setup plus planning
-Cost: Brackets $5-15, fasteners $5-10
+Best for - Creative solutions, custom angles, budget constraints
+Installation time - 20-30 minutes setup plus planning
+Cost - Brackets $5-15, fasteners $5-10
 Use 3/4" plywood backing for panel support and angle adjustment
 
 Validation and Iteration
@@ -179,7 +179,7 @@ If problems persist, check these common issues:
 
 Iterate gradually. Acoustic treatment is additive, you can always add more, but removing incorrectly placed foam wastes effort.
 
-Advanced: Measuring with Software
+Advanced - Measuring with Software
 
 For developers comfortable with CLI tools, measure your room's RT60 (reverberation time) using software like Room EQ Wizard (REW). Connect a test microphone, play a sweep tone, and analyze the decay curve. Target RT60 values under 0.3 seconds for voice applications.
 
@@ -200,21 +200,21 @@ Position test foam using temporary mounting (painters tape on command strips) so
 
 Common Issues and Fixes
 
-Problem: Voice sounds hollow or distant after foam installation
-- Cause: Over-treatment. You've absorbed too many reflections.
-- Fix: Remove panels starting with the ceiling panel, retest after each removal.
+Problem - Voice sounds hollow or distant after foam installation
+- Cause - Over-treatment. You've absorbed too many reflections.
+- Fix - Remove panels starting with the ceiling panel, retest after each removal.
 
-Problem: Sibilance (harsh "S" sounds) still present
-- Cause: The foam thickness may be insufficient for high-frequency control, or microphone placement puts sibilant sounds directly into the pickup pattern.
-- Fix: Upgrade to thicker foam (3-inch panels) or angle your microphone 15-20 degrees away from your mouth's sibilant direction.
+Problem - Sibilance (harsh "S" sounds) still present
+- Cause - The foam thickness may be insufficient for high-frequency control, or microphone placement puts sibilant sounds directly into the pickup pattern.
+- Fix - Upgrade to thicker foam (3-inch panels) or angle your microphone 15-20 degrees away from your mouth's sibilant direction.
 
-Problem: People on calls say they hear background hum or buzz
-- Cause: Acoustic foam doesn't block low-frequency noise (hum from HVAC, refrigerators, computer fans). It only absorbs mid-to-high frequencies.
-- Fix: Identify the source of the hum and address it directly, position a fan away from your microphone, upgrade your computer cooling, or add bass traps (thicker, denser foam designed for low frequencies) in corners.
+Problem - People on calls say they hear background hum or buzz
+- Cause - Acoustic foam doesn't block low-frequency noise (hum from HVAC, refrigerators, computer fans). It only absorbs mid-to-high frequencies.
+- Fix - Identify the source of the hum and address it directly, position a fan away from your microphone, upgrade your computer cooling, or add bass traps (thicker, denser foam designed for low frequencies) in corners.
 
-Problem: Installation damage occurred to walls
-- Cause: Improper adhesive or weight exceeding wall-mounting capacity.
-- Fix: Use lightweight foam only, test adhesive on inconspicuous wall first, or switch to picture-hanging wire and hooks which cause minimal damage.
+Problem - Installation damage occurred to walls
+- Cause - Improper adhesive or weight exceeding wall-mounting capacity.
+- Fix - Use lightweight foam only, test adhesive on inconspicuous wall first, or switch to picture-hanging wire and hooks which cause minimal damage.
 
 Integration with Remote Meeting Software
 
@@ -260,7 +260,7 @@ Shared Office Space
 
 If you work in a co-working space or shared office, portable foam panels with stands provide protection without permanent installation. These cost $50-100 per panel but move easily and don't violate facility rules.
 
-Acoustic Treatment Beyond Foam: Complementary Approaches
+Acoustic Treatment Beyond Foam - Complementary Approaches
 
 For rooms where foam alone isn't sufficient (very large or highly reflective), combine foam with other strategies:
 
@@ -307,25 +307,25 @@ A balanced approach for different room types:
 
 Acoustic Foam FAQs and Common Misconceptions
 
-Myth: You need to treat every surface
+Myth - You need to treat every surface
 - False. Treating the most reflective 40-50% of surfaces (behind mic, side walls, ceiling) solves 80%+ of problems
 
-Myth: Thicker foam is always better
+Myth - Thicker foam is always better
 - Partially true. Beyond 3 inches, returns diminish. 2-3 inch foam handles voice frequencies well. For bass (HVAC, fan noise), go thicker.
 
-Myth: Open-cell foam is superior to closed-cell
+Myth - Open-cell foam is superior to closed-cell
 - Depends on use. Open-cell (Melamine, pyramids) absorbs better. Closed-cell (denser) is more durable. For temporary home office, open-cell is fine.
 
-Myth: You need expensive "professional" foam
+Myth - You need expensive "professional" foam
 - Not true. Budget brands (Amazon Basics, Arrowzoom) have similar NRC ratings to premium brands. What matters is thickness and NRC rating, not brand name.
 
-Myth: Acoustic foam blocks sound transmission to neighbors
+Myth - Acoustic foam blocks sound transmission to neighbors
 - False. Foam absorbs, it doesn't block. Your neighbors will still hear you. If you need sound isolation from neighbors, you need mass (drywall, insulation), not foam.
 
-Myth: Once foam is installed, it's permanent
+Myth - Once foam is installed, it's permanent
 - False. Command strips fail over time in humidity. Re-check mounting every 6 months; reapply adhesive as needed.
 
-Reality: Audio quality improves incrementally
+Reality - Audio quality improves incrementally
 - Expect 20-30% improvement with basic treatment (4-6 panels)
 - Expect 50-70% improvement with treatment (8-12 panels + other strategies)
 - Expect 80%+ improvement with professional-grade treatment (foam + bass traps + diffusion + isolation)

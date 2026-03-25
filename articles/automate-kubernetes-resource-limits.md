@@ -22,11 +22,11 @@ Setting Kubernetes resource limits manually means guessing, and guessing wrong i
 
 Why Manual Limits Fail
 
-A developer writes `requests: memory: 256Mi, cpu: 100m` because those are round numbers. Three months later the service handles 10x the traffic, gets OOMKilled weekly, and nobody knows why because the resource requests haven't changed. The answer is to measure real usage and automate the limits from that data.
+A developer writes `requests - memory: 256Mi, cpu: 100m` because those are round numbers. Three months later the service handles 10x the traffic, gets OOMKilled weekly, and nobody knows why because the resource requests haven't changed. The answer is to measure real usage and automate the limits from that data.
 
 ---
 
-Approach 1: Vertical Pod Autoscaler (VPA). Recommendation Mode
+Approach 1 - Vertical Pod Autoscaler (VPA). Recommendation Mode
 
 VPA watches pod resource usage over time and generates recommendations. In `Off` mode it only recommends. you can review and apply changes in your own process. In `Auto` mode it updates the pod spec and restarts pods.
 
@@ -123,7 +123,7 @@ done
 
 ---
 
-Approach 2: Goldilocks Dashboard
+Approach 2 - Goldilocks Dashboard
 
 Goldilocks runs VPA in recommendation mode for every deployment in a namespace and provides a web UI showing current vs. recommended limits.
 
@@ -149,7 +149,7 @@ Goldilocks shows a table per deployment with current requests/limits and VPA rec
 
 ---
 
-Approach 3: LimitRange. Enforce Defaults
+Approach 3 - LimitRange. Enforce Defaults
 
 LimitRange automatically injects default resource requests and limits into any pod that doesn't specify them. It prevents unbounded pods from consuming all cluster resources.
 
@@ -189,7 +189,7 @@ kubectl describe limitrange default-limits -n production
 
 ---
 
-Approach 4: ResourceQuota. Namespace-Level Budget
+Approach 4 - ResourceQuota. Namespace-Level Budget
 
 Set a hard ceiling on total resource consumption per namespace:
 

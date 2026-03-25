@@ -31,7 +31,7 @@ Table of Contents
 - [Timeline](#timeline)
 - [Implementing an RFC Workflow](#implementing-an-rfc-workflow)
 - [Decision](#decision)
-- [Practical Example: Database Migration Decision](#practical-example-database-migration-decision)
+- [Practical Example - Database Migration Decision](#practical-example-database-migration-decision)
 - [Problem Statement](#problem-statement)
 - [Proposed Solution](#proposed-solution)
 - [Alternatives Considered](#alternatives-considered)
@@ -81,7 +81,7 @@ Structuring an RFC Document
 A well-structured RFC contains specific sections that guide both the author and reviewers through the decision-making process.
 
 ```markdown
-RFC: [Short Title]
+RFC - [Short Title]
 
 Problem Statement
 Why is this change needed? What problem does it address?
@@ -111,7 +111,7 @@ Implementing an RFC Workflow
 
 Establishing a clear workflow prevents RFCs from languishing in review limbo. Define explicit time frames for each phase.
 
-Phase 1: Draft and Initial Feedback
+Phase 1 - Draft and Initial Feedback
 
 The author creates the RFC and requests initial feedback. Use labels to track status:
 
@@ -124,7 +124,7 @@ gh label create rfc-approved --color "0e8a16" --description "RFC approved"
 gh label create rfc-closed --color "6e6e6e" --description "RFC not approved"
 ```
 
-Phase 2: Review Period
+Phase 2 - Review Period
 
 Set a minimum review period, 72 hours works well for global teams to accommodate different time zones. During this phase, reviewers add comments, suggest modifications, or express concerns.
 
@@ -135,14 +135,14 @@ Encourage reviewers to use specific markers:
 - Concern: Potential issue requiring resolution
 - Approval: Agreement with the proposal
 
-Phase 3: Decision and Documentation
+Phase 3 - Decision and Documentation
 
 After the review period, a designated decision-maker (often a tech lead or architect) summarizes feedback and renders a decision. Document the outcome clearly:
 
 ```markdown
 Decision
 
-Status: Approved / Rejected / Deferred
+Status - Approved / Rejected / Deferred
 
 Summary of Key Feedback:
 - [Feedback point 1]
@@ -153,12 +153,12 @@ Action Items:
 - [ ] Item 2
 ```
 
-Practical Example: Database Migration Decision
+Practical Example - Database Migration Decision
 
 Consider a team deciding whether to migrate from PostgreSQL 13 to PostgreSQL 16. An RFC document captures this decision:
 
 ```markdown
-RFC: Upgrade PostgreSQL 13 to 16
+RFC - Upgrade PostgreSQL 13 to 16
 
 Problem Statement
 PostgreSQL 13 reaches end-of-life in November 2025. Running unsupported database versions introduces security risks and prevents access to performance improvements.
@@ -251,10 +251,10 @@ Create a pull request for the RFC. GitHub labels and review process handle:
 
 Real RFC Examples
 
-Example 1: Microservices Migration (Complex, Cross-Team Impact)
+Example 1 - Microservices Migration (Complex, Cross-Team Impact)
 
 ```markdown
-RFC: Migrate from Monolith to Microservices
+RFC - Migrate from Monolith to Microservices
 
 Problem Statement
 Our monolithic Rails app has reached 200K LOC. Deployments take 45 minutes.
@@ -297,10 +297,10 @@ Success Metrics
 - Measure at end of each service extraction
 ```
 
-Example 2: Engineering Process Change (Moderate Impact, Cross-Team)
+Example 2 - Engineering Process Change (Moderate Impact, Cross-Team)
 
 ```markdown
-RFC: Implement Code Review SLA
+RFC - Implement Code Review SLA
 
 Problem Statement
 Code reviews currently take 24-72 hours. This blocks feature development
@@ -322,11 +322,11 @@ Implementation Details
 
 Risks & Mitigation
 - Risk: Forcing fast reviews reduces quality
-  Mitigation: "Fast review" doesn't mean "thorough review." Use draft PRs
+  Mitigation - "Fast review" doesn't mean "thorough review." Use draft PRs
   and request feedback earlier. Measurement shows quality unchanged.
 
 - Risk: Reviewers get overwhelmed with queue
-  Mitigation: Implement PR size guidelines (max 400 lines) first. Large PRs
+  Mitigation - Implement PR size guidelines (max 400 lines) first. Large PRs
   get assigned earlier in week.
 
 Success Metrics
@@ -369,9 +369,9 @@ Learning from Decisions
 
 Every approved RFC is a learning opportunity. Monthly, pick one approved RFC and:
 
-1. Review: Was implementation aligned with the RFC?
-2. Measure: Did we achieve success metrics?
-3. Reflect: What worked? What surprised us? What would we do differently?
+1. Review - Was implementation aligned with the RFC?
+2. Measure - Did we achieve success metrics?
+3. Reflect - What worked? What surprised us? What would we do differently?
 4. Document: Add a "Results" section to the RFC with learnings
 
 This practice creates organizational learning that compounds over time. New team members can read old RFCs and understand not just decisions, but the outcomes of those decisions.

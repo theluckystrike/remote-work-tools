@@ -296,13 +296,13 @@ function exportToCOBie(utilizationData, floorInfo) {
       ZoneName: floorInfo.name,
       ZoneCategory: 'Floor',
       ZoneType: 'Office',
-      Description: `Floor ${floorInfo.id} - ${floorInfo.zone}`
+      Description - `Floor ${floorInfo.id} - ${floorInfo.zone}`
     },
-    Space: utilizationData.desks.map(desk => ({
+    Space - utilizationData.desks.map(desk => ({
       SpaceName: desk.deskId,
       SpaceType: 'Desk',
       ZoneName: floorInfo.name,
-      Description: `Desk ${desk.deskId} in ${floorInfo.zone}`,
+      Description - `Desk ${desk.deskId} in ${floorInfo.zone}`,
       NominalFloorArea: floorInfo.deskAreaSqFt
     }))
   };

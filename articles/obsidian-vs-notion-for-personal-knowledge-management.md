@@ -20,7 +20,7 @@ Choose Obsidian if you want local-first data ownership, markdown-native editing,
 - [Quick Comparison](#quick-comparison)
 - [Editor Experience and Markdown](#editor-experience-and-markdown)
 - [Linking and Knowledge Graph](#linking-and-knowledge-graph)
-- [Plugin Ecosystem](#plugin-ecosystem)
+- [Plugin environment](#plugin-environment)
 - [Data Ownership and Portability](#data-ownership-and-portability)
 - [Mobile Experience](#mobile-experience)
 - [Real-World Usage Patterns](#real-world-usage-patterns)
@@ -31,11 +31,11 @@ Choose Obsidian if you want local-first data ownership, markdown-native editing,
 - [Feature Comparison Table](#feature-comparison-table)
 - [Real-World Scenarios](#real-world-scenarios)
 - [Sync Strategies for Cross-Device Use](#sync-strategies-for-cross-device-use)
-- [Plugin Ecosystem Deep Dive](#plugin-ecosystem-deep detailed look)
+- [Plugin environment Deep Dive](#plugin-environment-deep detailed look)
 - [Cost-Benefit Analysis](#cost-benefit-analysis)
 - [Migration Path](#migration-path)
 
-Architecture: Local-First vs Cloud-Native
+Architecture - Local-First vs Cloud-Native
 
 Obsidian stores everything as plain markdown files on your local filesystem. Your vault is a folder. Every note is a `.md` file. This architecture provides several advantages: your notes work offline, you own your data completely, and version control integrates naturally with Git.
 
@@ -100,9 +100,9 @@ Notion offers `[[` linking as well, but the graph visualization remains less cen
 
 For knowledge management specifically, Obsidian's graph-native approach often feels more natural. You build a second brain by connecting ideas, not by structuring database fields.
 
-Plugin Ecosystem
+Plugin environment
 
-Obsidian's plugin ecosystem is mature and developer-friendly. The plugin directory includes hundreds of community plugins. You find plugins for:
+Obsidian's plugin environment is mature and developer-friendly. The plugin directory includes hundreds of community plugins. You find plugins for:
 
 - Dataview: query your notes with a JavaScript-like syntax
 - Templater: advanced template functionality with variables and functions
@@ -132,7 +132,7 @@ Data Ownership and Portability
 
 Obsidian's data lives in your vault. If Obsidian disappears tomorrow, your notes remain accessible, every `.md` file opens in any text editor or IDE. You can migrate to another tool without friction.
 
-Notion's data requires export. The export process works, but it's an extra step. Your notes exist in Notion's ecosystem by default. If Notion changes pricing, modifies features, or shuts down, you face migration challenges.
+Notion's data requires export. The export process works, but it's an extra step. Your notes exist in Notion's environment by default. If Notion changes pricing, modifies features, or shuts down, you face migration challenges.
 
 For developers who value data sovereignty, Obsidian's local-first architecture provides peace of mind. Your knowledge base doesn't depend on a service's continued operation.
 
@@ -226,7 +226,7 @@ Feature Comparison Table
 
 Real-World Scenarios
 
-Scenario 1: Building a coding knowledge base
+Scenario 1 - Building a coding knowledge base
 
 Obsidian wins here:
 
@@ -259,11 +259,11 @@ WHERE contains(content, "async")
 
 Notion makes this harder because database relations require setup, and you lose the linked graph visualization.
 
-Scenario 2: Team project tracking
+Scenario 2 - Team project tracking
 
 Notion wins here. A project database with Properties for Status, Assignee, Due Date, and Relations to other projects is native to Notion. Multiple team members can collaborate simultaneously without file-sync complexity.
 
-Scenario 3: Personal journal + learning
+Scenario 3 - Personal journal + learning
 
 Obsidian wins. Daily notes with `[[date]]` links create a navigable personal history. Dataview can query entries by tag:
 
@@ -275,7 +275,7 @@ WHERE dateformat(file.mtime, "yyyy-MM") = "2026-03"
 SORT file.mtime DESC
 ```
 
-Scenario 4: Team wiki with embedded media
+Scenario 4 - Team wiki with embedded media
 
 Notion wins. Rich embedding (YouTube, Figma, PDFs) works . Shared Notion pages with comment threads are easier for distributed teams than managing a Git-based Obsidian vault.
 
@@ -283,23 +283,23 @@ Sync Strategies for Cross-Device Use
 
 If you choose Obsidian but need cross-device sync:
 
-Option 1: Obsidian Sync ($10/month)
+Option 1 - Obsidian Sync ($10/month)
 - Encrypted sync across all devices
 - Version history available
 - Simplest option, official support
 
-Option 2: iCloud/OneDrive/Google Drive (Free if you already use)
+Option 2 - iCloud/OneDrive/Google Drive (Free if you already use)
 - Store vault folder in cloud drive
 - Works, but occasional sync conflicts
 - No version history without separate backup
 
-Option 3: Git + GitHub (Free)
+Option 3 - Git + GitHub (Free)
 - Vault as Git repo, push/pull from GitHub
 - Version history built-in
 - Requires comfort with Git
 - No auto-sync, requires manual push/pull
 
-Option 4: Syncthing (Free, open source)
+Option 4 - Syncthing (Free, open source)
 - Peer-to-peer sync between devices
 - No cloud dependency
 - More complex setup, but powerful
@@ -307,21 +307,21 @@ Option 4: Syncthing (Free, open source)
 
 For power users, Git-based sync aligns naturally with development workflows. For everyone else, Obsidian Sync is worth the $10/month.
 
-Plugin Ecosystem Deep Dive
+Plugin environment Deep Dive
 
 Obsidian's extensibility is a primary differentiator. Critical plugins for developers:
 
-Dataview: Query your vault like a database. Most powerful plugin, enables custom views of notes without restructuring them.
+Dataview - Query your vault like a database. Most powerful plugin, enables custom views of notes without restructuring them.
 
-Templater: Create template notes with variables and functions. Auto-generate notes with metadata, date stamps, random IDs.
+Templater - Create template notes with variables and functions. Auto-generate notes with metadata, date stamps, random IDs.
 
-Excalidraw: Embed sketches directly in notes. Draw architecture, mind maps, or quick diagrams without leaving Obsidian.
+Excalidraw - Embed sketches directly in notes. Draw architecture, mind maps, or quick diagrams without leaving Obsidian.
 
-Git: Version-control your vault. Every morning, auto-commit your changes. See commit history in-app.
+Git - Version-control your vault. Every morning, auto-commit your changes. See commit history in-app.
 
-Advanced Tables: Spreadsheet-like editing inside markdown tables.
+Advanced Tables - Spreadsheet-like editing inside markdown tables.
 
-Periodic Notes: Daily notes, weekly reviews, monthly reflections, with navigation between them.
+Periodic Notes - Daily notes, weekly reviews, monthly reflections, with navigation between them.
 
 These plugins transform Obsidian from a note app into a custom personal knowledge system. Notion provides equivalent functionality only through its database and formula features, which are more limited.
 

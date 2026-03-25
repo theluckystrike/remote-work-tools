@@ -32,7 +32,7 @@ Table of Contents
 - [Building Historical Trends Dashboard](#building-historical-trends-dashboard)
 - [Employee Communication Around Air Quality](#employee-communication-around-air-quality)
 - [Integration with Employee Wellness Programs](#integration-with-employee-wellness-programs)
-- [Holistic Office Environment Checklist](#holistic-office-environment-checklist)
+- [complete Office Environment Checklist](#complete-office-environment-checklist)
 
 Understanding Air Quality Metrics
 
@@ -40,11 +40,11 @@ Before implementing a monitoring system, you need to understand which metrics ac
 
 Particulate Matter (PM2.5 and PM10): These microscopic particles penetrate deep into lungs and can trigger respiratory issues. PM2.5 particles are especially concerning because they can enter the bloodstream. For office spaces, target levels below 35 µg/m³ for PM2.5 and below 150 µg/m³ for PM10.
 
-Carbon Dioxide (CO2): Elevated CO2 levels cause drowsiness, reduced concentration, and headaches. Indoor CO2 concentrations above 1000 ppm indicate poor ventilation. The EPA recommends maintaining levels below 1000 ppm, with optimal performance below 600 ppm.
+Carbon Dioxide (CO2) - Elevated CO2 levels cause drowsiness, reduced concentration, and headaches. Indoor CO2 concentrations above 1000 ppm indicate poor ventilation. The EPA recommends maintaining levels below 1000 ppm, with optimal performance below 600 ppm.
 
 Volatile Organic Compounds (VOCs): Emitted by furniture, cleaning supplies, and electronics, VOCs can cause headaches and long-term health issues. Total VOC levels should stay below 500 ppb for healthy indoor air.
 
-Temperature and Humidity: While not directly air quality metrics, these affect comfort and mold growth. Maintain humidity between 30-60% to prevent both dry air irritation and mold proliferation.
+Temperature and Humidity - While not directly air quality metrics, these affect comfort and mold growth. Maintain humidity between 30-60% to prevent both dry air irritation and mold proliferation.
 
 Hardware Selection for Office Deployment
 
@@ -224,7 +224,7 @@ Document sensor locations and calibration schedules in your facilities managemen
 
 Sensor Technology Recommendations
 
-Best Budget Option: Aranet4 (Standalone)
+Best Budget Option - Aranet4 (Standalone)
 - Price: $280-320
 - Measures: CO2, temperature, humidity, air quality (CAQI)
 - Display: Small screen, non-wifi
@@ -232,15 +232,15 @@ Best Budget Option: Aranet4 (Standalone)
 - Best for: Small offices, meeting rooms, single location
 - Deployment: Portable, can move between rooms
 
-Best Connected Option: Ubibot WS1 Pro
+Best Connected Option - Ubibot WS1 Pro
 - Price: $400-500
 - Measures: CO2, PM2.5, PM10, temperature, humidity, light
 - WiFi: Yes, cloud dashboard
-- Accuracy: ±30 ppm CO2, ±5% PM2.5
+- Accuracy - ±30 ppm CO2, ±5% PM2.5
 - Best for: Multi-room monitoring, data history
 - Deployment: Fixed mounting, cloud integration
 
-Best DIY Option: ESP32 + Sensirion SEN54
+Best DIY Option - ESP32 + Sensirion SEN54
 - Price: $80-150 total components
 - Measures: PM1, PM2.5, PM10, NOx, VOCs, temperature, humidity
 - WiFi: Yes (ESP32)
@@ -249,7 +249,7 @@ Best DIY Option: ESP32 + Sensirion SEN54
 - Deployment: Requires assembly, soldering
 - Pro: Can integrate with Home Assistant, custom automation
 
-Enterprise Option: Daikin Sensibo Air Quality Monitor
+Enterprise Option - Daikin Sensibo Air Quality Monitor
 - Price: $500-700
 - Measures: CO2, PM2.5, VOCs, temperature, humidity
 - Integration: Works with smart home systems
@@ -281,18 +281,18 @@ PM2.5 > 35 µg/m³ (Unhealthy)
 - Action: Check HVAC filters, activate air purifiers
 - Owner: Facilities manager
 - Timeline: Within 30 min
-- Investigation: Is outdoor pollution high? Are filters clogged?
-- Communication: "Air quality is moderate. Air purifiers activated."
+- Investigation - Is outdoor pollution high? Are filters clogged?
+- Communication - "Air quality is moderate. Air purifiers activated."
 
 PM2.5 > 100 µg/m³ (Very Unhealthy)
 - Action: Send team home, close office, investigate source
 - Owner: Facilities manager + leadership
 - Timeline: Immediate
 - Investigation: Source? How long will it persist?
-- Communication: "Building air quality compromised. Office closed today. Work from home."
+- Communication - "Building air quality compromised. Office closed today. Work from home."
 
 VOC > 500 ppb (Elevated)
-- Action: Identify source (new furniture? cleaning supplies?)
+- Action - Identify source (new furniture? cleaning supplies?)
 - Owner: Facilities manager + office manager
 - Timeline: Within 1 hour
 - Remediation: Remove source if possible, increase ventilation
@@ -343,7 +343,7 @@ Making air quality visible can affect perception. Here's how to communicate effe
 Transparency Approach (Recommended):
 - Public dashboard showing real-time air quality
 - Weekly summary: "This week, CO2 averaged 650 ppm (optimal). PM2.5 remained healthy."
-- When issues occur: "We detected elevated CO2 yesterday. Actions taken: [increased ventilation]. Status: [resolved/ongoing]."
+- When issues occur: "We detected elevated CO2 yesterday. Actions taken: [increased ventilation]. Status - [resolved/ongoing]."
 - Builds trust and demonstrates care for employee health
 
 Selective Sharing (Moderate):
@@ -360,7 +360,7 @@ Integration with Employee Wellness Programs
 Air quality monitoring connects to broader workplace wellness:
 
 ```
-Holistic Office Environment Checklist
+complete Office Environment Checklist
 
  Air Quality Monitoring
   - CO2 levels tracked

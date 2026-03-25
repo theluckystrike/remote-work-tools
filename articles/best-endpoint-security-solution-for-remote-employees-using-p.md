@@ -24,9 +24,9 @@ Table of Contents
 - [Understanding the BYOD Security Challenge](#understanding-the-byod-security-challenge)
 - [Core Components of Remote Endpoint Security](#core-components-of-remote-endpoint-security)
 - [Implementation Strategy for Small Teams](#implementation-strategy-for-small-teams)
-- [Evaluating Solutions: What Matters](#evaluating-solutions-what-matters)
+- [Evaluating Solutions - What Matters](#evaluating-solutions-what-matters)
 - [Endpoint Security Tool Comparison](#endpoint-security-tool-comparison)
-- [Configuration Template: Practical BYOD Policy](#configuration-template-practical-byod-policy)
+- [Configuration Template - Practical BYOD Policy](#configuration-template-practical-byod-policy)
 - [Device Requirements](#device-requirements)
 - [What We Monitor](#what-we-monitor)
 - [Data Protection](#data-protection)
@@ -144,25 +144,25 @@ For teams under 20 people without dedicated security staff, the implementation a
 
 Tiered Security Implementation
 
-Tier 1: Essential (Start Here)
+Tier 1 - Essential (Start Here)
 - Enable MFA on all accounts
 - Deploy a password manager with team sharing
 - Use a ZTNA solution for application access
 - Implement device encryption requirements
 
-Tier 2: Enhanced (Add Within 30 Days)
+Tier 2 - Enhanced (Add Within 30 Days)
 - Deploy MDM with basic device policies
 - Enable endpoint DLP for work containers
 - Implement email security with anti-phishing
 - Configure mobile device management for phones
 
-Tier 3: Advanced (Add Within 90 Days)
+Tier 3 - Advanced (Add Within 90 Days)
 - Deploy EDR on critical devices
 - Implement network segmentation
 - Add mobile threat defense
 - Configure automated incident response
 
-Configuration Example: MDM Profile for Personal Devices
+Configuration Example - MDM Profile for Personal Devices
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -196,7 +196,7 @@ Configuration Example: MDM Profile for Personal Devices
 
 This selective container approach keeps work and personal data separate on personal devices, a critical requirement for BYOD success.
 
-Evaluating Solutions: What Matters
+Evaluating Solutions - What Matters
 
 When evaluating endpoint security solutions for remote employees using personal devices, prioritize these criteria:
 
@@ -225,7 +225,7 @@ Endpoint Security Tool Comparison
 
 For teams under 20, Kandji and JumpCloud offer the best balance of features, ease, and affordability.
 
-Configuration Template: Practical BYOD Policy
+Configuration Template - Practical BYOD Policy
 
 Here's a policy that balances security with employee autonomy:
 
@@ -314,14 +314,14 @@ Making the Trade-offs
 
 No solution perfectly balances security and convenience. BYOD inherently involves trade-offs:
 
-Security vs. Privacy: More invasive monitoring provides better security but erodes employee trust. Find solutions that maximize security within privacy-preserving boundaries.
+Security vs. Privacy - More invasive monitoring provides better security but erodes employee trust. Find solutions that maximize security within privacy-preserving boundaries.
 
-Control vs. Adoption: Strict device requirements increase security but decrease enrollment rates. Consider what requirements are truly necessary versus nice-to-have.
+Control vs. Adoption - Strict device requirements increase security but decrease enrollment rates. Consider what requirements are truly necessary versus nice-to-have.
 
-Cost vs. Coverage: solutions cost more but provide better protection. Start with essential protections and layer additional security as budget allows.
+Cost vs. Coverage - solutions cost more but provide better protection. Start with essential protections and layer additional security as budget allows.
 
 The best endpoint security solution for remote employees using personal devices is one your team will actually use. A deployed, moderate solution outperforms an ideal, unenforced one every time.
-Mobile vs. Desktop: Personal phones need different security approaches than laptops. Don't over-secure phones (limits usability) or under-secure laptops (increases risk).
+Mobile vs. Desktop - Personal phones need different security approaches than laptops. Don't over-secure phones (limits usability) or under-secure laptops (increases risk).
 
 The best endpoint security solution for remote employees using personal devices is one your team will actually use. A deployed, moderate solution outperforms an ideal, unenforced one every time. Focus on policies that people accept rather than controls that breed resentment.
 
@@ -346,9 +346,9 @@ Metric Tracking
 - Incident response time: Track as audit trail
 
 Adjustments
-If enrollment is <95%: Policy is too strict or tool is too difficult
-If compliance is <90%: Requirements are misaligned with actual work needs
-If users complain constantly: Recalibrate monitoring to reduce intrusion
+If enrollment is <95% - Policy is too strict or tool is too difficult
+If compliance is <90% - Requirements are misaligned with actual work needs
+If users complain constantly - Recalibrate monitoring to reduce intrusion
 ```
 
 Regular reviews prevent security theater (restrictions without real protection) and over-engineering.

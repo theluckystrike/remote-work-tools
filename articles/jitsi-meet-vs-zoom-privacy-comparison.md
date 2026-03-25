@@ -150,7 +150,7 @@ Zoom's data retention policies mean your meeting data may persist on their serve
 
 Self-Hosting and Control
 
-Jitsi Meet: Full Control
+Jitsi Meet - Full Control
 
 One of Jitsi's strongest advantages for privacy-conscious developers is the ability to self-host:
 
@@ -185,7 +185,7 @@ const config = {
 
 A self-hosted Jitsi instance on a single t3.medium AWS instance handles around 15-20 concurrent participants reliably. For larger meetings, you scale by adding Jitsi Videobridge (JVB) instances horizontally. This architecture is well-documented and the community support on GitHub and the Jitsi community forums is strong.
 
-Zoom: Limited Control
+Zoom - Limited Control
 
 Zoom operates as a SaaS platform, meaning you cannot self-host. All meetings route through Zoom's infrastructure. While Zoom offers admin controls for data retention and privacy settings, you ultimately rely on their policies and cannot audit the full system.
 

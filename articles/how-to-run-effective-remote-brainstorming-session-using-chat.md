@@ -33,7 +33,7 @@ Consider these advantages:
 
 Setting Up Your Chat Brainstorming Session
 
-Step 1: Choose Your Tool and Create a Dedicated Space
+Step 1 - Choose Your Tool and Create a Dedicated Space
 
 For technical teams, Slack, Discord, or Teams work well. Create a dedicated channel specifically for the brainstorming session:
 
@@ -44,7 +44,7 @@ Create a Slack channel structure
 /channel add @design-team @engineering @product
 ```
 
-Step 2: Define the Problem Statement Clearly
+Step 2 - Define the Problem Statement Clearly
 
 The most critical factor in successful brainstorming is a well-crafted problem statement. Post this at the beginning of your session:
 
@@ -57,7 +57,7 @@ to the settings panel. Currently, it takes 5 clicks and 12 seconds.
  GOAL: Reduce to 2 clicks or less, under 4 seconds total.
 ```
 
-Step 3: Establish Ground Rules and Timing
+Step 3 - Establish Ground Rules and Timing
 
 Set clear expectations before starting:
 
@@ -77,10 +77,10 @@ The Round-Robin Approach
 When you need input from specific people, use structured rounds:
 
 ```
-ROUND 1: @sarah @mike @jordan - Please share ONE technical constraint
+ROUND 1 - @sarah @mike @jordan - Please share ONE technical constraint
 we should consider for this feature.
 
-ROUND 2: Everyone - Build on the constraints above with ONE solution idea.
+ROUND 2 - Everyone - Build on the constraints above with ONE solution idea.
 ```
 
 Thread Organization
@@ -112,7 +112,7 @@ Hours 4-8 - Clarification Phase
 ```
 @channel Clarification round! If you have questions about any idea
 or need more detail, reply in that idea's thread.
-Original poster: please respond within 4 hours.
+Original poster - please respond within 4 hours.
 ```
 
 Hours 8-20 - Building and Combining
@@ -186,9 +186,9 @@ Table of Contents
 - [Chat Brainstorming Tool Comparison](#chat-brainstorming-tool-comparison)
 - [Facilitator Toolkit](#facilitator-toolkit)
 - [Brainstorming Success Metrics](#brainstorming-success-metrics)
-- [Hybrid Approach: Async + Sync Brainstorming](#hybrid-approach-async-sync-brainstorming)
+- [Hybrid Approach - Async + Sync Brainstorming](#hybrid-approach-async-sync-brainstorming)
 - [Converting Ideas to Specifications](#converting-ideas-to-specifications)
-- [Idea: One-Click Settings Shortcut](#idea-one-click-settings-shortcut)
+- [Idea - One-Click Settings Shortcut](#idea-one-click-settings-shortcut)
 - [Building a Brainstorm Archive](#building-a-brainstorm-archive)
 - [When NOT to Use Chat Brainstorming](#when-not-to-use-chat-brainstorming)
 
@@ -209,7 +209,7 @@ Facilitator Toolkit
 
 As the person running a brainstorm, use these tools to amplify participation:
 
-Tool 1: The "Seed Idea"
+Tool 1 - The "Seed Idea"
 Post your own mediocre idea first. This signals that ideas don't need to be perfect, lowering the barrier for others to contribute.
 
 ```
@@ -221,7 +221,7 @@ doesn't work, but maybe there's something there..."
 
 Paradoxically, starting with a weak idea generates better ideas than starting with a strong one.
 
-Tool 2: The "Build-On" Technique
+Tool 2 - The "Build-On" Technique
 Explicitly ask people to combine ideas:
 
 ```
@@ -233,11 +233,11 @@ What would that hybrid look like?
 
 This prevents idea paralysis and forces synthesis.
 
-Tool 3: The "Constraint Push"
+Tool 3 - The "Constraint Push"
 When ideas get too abstract, add constraints:
 
 ```
-Quick constraint: How would we solve this
+Quick constraint - How would we solve this
 if users only had a mobile phone with 3G connection?
 ```
 
@@ -257,14 +257,14 @@ Measure whether your brainstorm actually generated value:
 
 If follow-up implementation is zero, your brainstorm generated busywork, not strategy. Measure against action taken.
 
-Hybrid Approach: Async + Sync Brainstorming
+Hybrid Approach - Async + Sync Brainstorming
 
 Some teams benefit from combining text-based async with brief sync sessions:
 
-Day 1-2: Async generation (everyone posts ideas in Slack)
-Day 2: Slack reactions vote (emoji voting narrows top 10)
-Day 3: 60-min sync call (discuss top ideas, decide direction)
-Day 4: Async follow-up (document decisions, next steps)
+Day 1-2 - Async generation (everyone posts ideas in Slack)
+Day 2 - Slack reactions vote (emoji voting narrows top 10)
+Day 3 - 60-min sync call (discuss top ideas, decide direction)
+Day 4 - Async follow-up (document decisions, next steps)
 
 This balances the strengths of both approaches: async gives time to think, sync provides real-time clarity.
 
@@ -273,11 +273,11 @@ Converting Ideas to Specifications
 After brainstorming, document the best ideas clearly:
 
 ```markdown
-Idea: One-Click Settings Shortcut
+Idea - One-Click Settings Shortcut
 
 Problem It Solves
 Users must click 5 times to reach account settings,
-taking 12 seconds. Current: 5 clicks, 12 seconds. Goal: 1 click, 2 seconds.
+taking 12 seconds. Current - 5 clicks, 12 seconds. Goal - 1 click, 2 seconds.
 
 How It Works
 - Hover over user avatar in top-right corner

@@ -94,7 +94,7 @@ Generic goals like "improve communication" fail remote employees because they la
 Consider this example targeting a mid-level backend developer aiming toward senior responsibilities:
 
 ```
-Q1 Objective: Design and implement a new microservice
+Q1 Objective - Design and implement a new microservice
 - Success metric: Service handles 10k requests/second with <50ms p99 latency
 - Deliverable: Production-ready code with full test coverage
 - Mentorship: Weekly sync with senior engineer
@@ -110,8 +110,8 @@ Build lightweight check-ins that don't require synchronous meetings. A simple we
 ```markdown
 Weekly Progress Update
 
-Name: [Employee Name]
-Week of: [Date]
+Name - [Employee Name]
+Week of - [Date]
 
 What I accomplished:
 - [Task 1 with link to PR/issue]
@@ -177,11 +177,11 @@ When you promote someone, announce it in writing with specific examples of their
 Your career development plan should include explicit timezone considerations:
 
 ```
-Timezone: UTC+2 (Berlin)
-Manager timezone: UTC-8 (San Francisco)
-Overlap hours: 14:00-16:00 UTC
-Preferred async tools: Slack, Notion
-Meeting scheduling: Use Calendly link with 48-hour minimum notice
+Timezone - UTC+2 (Berlin)
+Manager timezone - UTC-8 (San Francisco)
+Overlap hours - 14:00-16:00 UTC
+Preferred async tools - Slack, Notion
+Meeting scheduling - Use Calendly link with 48-hour minimum notice
 ```
 
 This transparency helps employees understand the constraints and plan accordingly.

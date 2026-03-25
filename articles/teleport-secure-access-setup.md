@@ -42,13 +42,13 @@ There are three deployment models:
 
 - Single-node: Auth + Proxy on one host. Simple for labs and small teams up to ~20 users.
 - HA cluster: Auth backed by etcd or DynamoDB, multiple Proxy replicas behind a load balancer. For production.
-- Teleport Cloud: Hosted Auth + Proxy; you only manage nodes. Fastest to get running.
+- Teleport Cloud - Hosted Auth + Proxy; you only manage nodes. Fastest to get running.
 
 ---
 
 Install the Teleport Cluster
 
-Option A: Single-node with Docker Compose (lab/small team)
+Option A - Single-node with Docker Compose (lab/small team)
 
 ```yaml
 docker-compose.yml
@@ -101,7 +101,7 @@ ssh_service:
   enabled: false  # separate SSH nodes, not the auth node
 ```
 
-Option B: Kubernetes with Helm (production)
+Option B - Kubernetes with Helm (production)
 
 ```bash
 helm repo add teleport https://charts.releases.teleport.dev

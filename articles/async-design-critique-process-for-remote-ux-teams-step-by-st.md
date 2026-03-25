@@ -20,14 +20,14 @@ Run effective async design critiques with five key steps: prepare designs with c
 Table of Contents
 
 - [What Makes Async Design Critique Effective](#what-makes-async-design-critique-effective)
-- [Step 1: Prepare Your Design for Review](#step-1-prepare-your-design-for-review)
-- [Design Review: [Feature Name]](#design-review-feature-name)
-- [Step 2: Define Your Review Timeline](#step-2-define-your-review-timeline)
-- [Step 3: Organize Feedback Collection](#step-3-organize-feedback-collection)
-- [Feedback for: Login Screen Redesign](#feedback-for-login-screen-redesign)
-- [Step 4: Respond and Iterate](#step-4-respond-and-iterate)
+- [Step 1 - Prepare Your Design for Review](#step-1-prepare-your-design-for-review)
+- [Design Review - [Feature Name]](#design-review-feature-name)
+- [Step 2 - Define Your Review Timeline](#step-2-define-your-review-timeline)
+- [Step 3 - Organize Feedback Collection](#step-3-organize-feedback-collection)
+- [Feedback for - Login Screen Redesign](#feedback-for-login-screen-redesign)
+- [Step 4 - Respond and Iterate](#step-4-respond-and-iterate)
 - [Feedback Summary](#feedback-summary)
-- [Step 5: Close the Loop](#step-5-close-the-loop)
+- [Step 5 - Close the Loop](#step-5-close-the-loop)
 - [Practical Tips for Remote UX Teams](#practical-tips-for-remote-ux-teams)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Design Critique Tool Comparison](#design-critique-tool-comparison)
@@ -37,7 +37,7 @@ Table of Contents
 - [What's NOT up for critique this round](#whats-not-up-for-critique-this-round)
 - [Review deadline](#review-deadline)
 - [Provide feedback in format:](#provide-feedback-in-format)
-- [Automation: Keeping Critique On Schedule](#automation-keeping-critique-on-schedule)
+- [Automation - Keeping Critique On Schedule](#automation-keeping-critique-on-schedule)
 - [Feedback Synthesis Workflow](#feedback-synthesis-workflow)
 - [Critique Summary - [Feature Name]](#critique-summary-feature-name)
 - [Measuring Critique Quality Over Time](#measuring-critique-quality-over-time)
@@ -56,19 +56,19 @@ The core principle behind async design critique is structured documentation. Unl
 
 Effective async critique also relies on clear prompts that guide reviewers toward actionable feedback. Vague requests like "what do you think?" rarely yield useful results. Specific questions about usability, consistency, or edge cases produce much higher quality input.
 
-Step 1: Prepare Your Design for Review
+Step 1 - Prepare Your Design for Review
 
 Before requesting feedback, structure your design documentation so reviewers have everything they need. Include:
 
 - Context: What problem does this design solve? Who is the target user?
 - Success criteria: What does success look like for this feature?
-- Variations: If you're comparing multiple approaches, present each clearly.
+- Variations - If you're comparing multiple approaches, present each clearly.
 - Known concerns: Highlight areas where you specifically want feedback.
 
 Use a consistent format for presenting designs. Many teams use a simple markdown template:
 
 ```markdown
-Design Review: [Feature Name]
+Design Review - [Feature Name]
 
 Problem Statement
 [One paragraph explaining the user problem]
@@ -89,7 +89,7 @@ Links
 
 This structure ensures reviewers understand the context before exploring feedback.
 
-Step 2: Define Your Review Timeline
+Step 2 - Define Your Review Timeline
 
 Async critique only works when participants know when to respond. Set a clear deadline, typically 24 to 48 hours for most teams. This gives people enough time to review thoroughly without letting the feedback loop stretch indefinitely.
 
@@ -99,9 +99,9 @@ Communicate the deadline explicitly in your request. Include:
 - When you need feedback by
 - When you plan to implement feedback
 
-For example: "Please review by Wednesday 5 PM PT. I will consolidate feedback Thursday morning."
+For example - "Please review by Wednesday 5 PM PT. I will consolidate feedback Thursday morning."
 
-Step 3: Organize Feedback Collection
+Step 3 - Organize Feedback Collection
 
 Use a dedicated tool or method for collecting async feedback. Options include:
 
@@ -113,7 +113,7 @@ Use a dedicated tool or method for collecting async feedback. Options include:
 For technical teams, a simple approach uses structured markdown in a shared document:
 
 ```markdown
-Feedback for: Login Screen Redesign
+Feedback for - Login Screen Redesign
 
 @reviewer1
 - Overall: Solid approach to the forgot password flow
@@ -128,7 +128,7 @@ Feedback for: Login Screen Redesign
 
 This format separates feedback by reviewer, making it easy to track who said what.
 
-Step 4: Respond and Iterate
+Step 4 - Respond and Iterate
 
 After the feedback window closes, synthesize the input. Not all feedback requires action, part of running effective async critique is knowing when to push back respectfully.
 
@@ -150,7 +150,7 @@ Not Addressing
 
 This transparency builds trust and encourages future participation.
 
-Step 5: Close the Loop
+Step 5 - Close the Loop
 
 Always close the feedback loop by sharing what changed as a result of the critique. This reinforces that async critique produces real outcomes and motivates team members to provide thoughtful feedback in future sessions.
 
@@ -177,9 +177,9 @@ Rotate Reviewers
 Not everyone needs to review everything. Rotating reviewers across features ensures diverse perspectives while preventing burnout. Some teams use a simple rotation schedule:
 
 ```markdown
-Week 1: @alex, @jordan
-Week 2: @taylor, @casey
-Week 3: @jordan, @alex
+Week 1 - @alex, @jordan
+Week 2 - @taylor, @casey
+Week 3 - @jordan, @alex
 ```
 
 Track Critique Health
@@ -215,12 +215,12 @@ Real-World Critique Template
 This markdown template, saved as a reusable document, structures critique requests so reviewers know exactly what to focus on:
 
 ```markdown
-Design Critique: [Feature Name]
+Design Critique - [Feature Name]
 
 Context
-User problem: [One sentence]
-Timeline: Launch [Date]
-Scope: This critique covers [specific screens/flows]
+User problem - [One sentence]
+Timeline - Launch [Date]
+Scope - This critique covers [specific screens/flows]
 
 Specific Questions
 1. Is the [interaction type] clear without explanation?
@@ -244,7 +244,7 @@ Provide feedback in format:
 
 Store this as a GitHub issue template if using Issues, or as a reusable Notion template. Consistency in format saves reviewers cognitive load, they know exactly where to look for your actual question.
 
-Automation: Keeping Critique On Schedule
+Automation - Keeping Critique On Schedule
 
 Real teams automate critique reminders to prevent deadline drift. A simple Slack reminder helps:
 
@@ -314,9 +314,9 @@ If participation drops below 60%, your timeline is too aggressive or reviewers l
 
 Scaling Async Critique in Growing Teams
 
-At 3 designers: full critique on major features, lightweight on minor changes.
+At 3 designers - full critique on major features, lightweight on minor changes.
 
-At 6+ designers: introduce critique tiers. Tier 1 (core flows): full team review, 24-48 hour deadline. Tier 2 (refinements): 2-3 designated reviewers, 24 hours. Tier 3 (polish passes): designer + 1 peer review only.
+At 6+ designers - introduce critique tiers. Tier 1 (core flows): full team review, 24-48 hour deadline. Tier 2 (refinements): 2-3 designated reviewers, 24 hours. Tier 3 (polish passes): designer + 1 peer review only.
 
 This prevents critique from becoming a bottleneck while maintaining quality gates on important work.
 
@@ -324,13 +324,13 @@ Tools Comparison Deep Dive
 
 Selecting the right tool prevents friction that kills participation. Here's how established teams evaluate options:
 
-Figma for design-heavy teams works best when designs already live in Figma (avoid tool-switching overhead). The native commenting system threads well, and the UI is familiar to designers. Cost ($12-45/editor monthly) is negligible compared to lost time in poorly-adopted systems. Drawback: file becomes sluggish at 50+ comments, requiring archival of older feedback.
+Figma for design-heavy teams works best when designs already live in Figma (avoid tool-switching overhead). The native commenting system threads well, and the UI is familiar to designers. Cost ($12-45/editor monthly) is negligible compared to lost time in poorly-adopted systems. Drawback - file becomes sluggish at 50+ comments, requiring archival of older feedback.
 
-GitHub Issues for engineering-adjacent teams (developers reviewing UX, product managers driving design) bridges the tools you already use. Zero switching cost if your team lives in GitHub. Issues link directly to code implementation, reducing the gap between design decision and dev execution. Drawback: requires uploading design images separately, losing context of Figma's real-time state.
+GitHub Issues for engineering-adjacent teams (developers reviewing UX, product managers driving design) bridges the tools you already use. Zero switching cost if your team lives in GitHub. Issues link directly to code implementation, reducing the gap between design decision and dev execution. Drawback - requires uploading design images separately, losing context of Figma's real-time state.
 
 Linear offers a middle ground, clean interface, integrates with dev workflows, but still has the "document upload" problem that GitHub Issues has. Best for teams that adopted Linear as their primary task management tool.
 
-Notion excels for organizations building permanent design documentation libraries. Each critique becomes a searchable record. Works well for design systems and pattern libraries, where teams reference past decisions. Drawback: clunky for marking up images and spatial annotations.
+Notion excels for organizations building permanent design documentation libraries. Each critique becomes a searchable record. Works well for design systems and pattern libraries, where teams reference past decisions. Drawback - clunky for marking up images and spatial annotations.
 
 Slack threads should be avoided for anything important. Feedback gets buried, context is lost, and there's no reliable search. Use Slack to announce critique deadlines and link to the actual feedback location.
 
@@ -343,8 +343,8 @@ When feedback contradicts itself: Two reviewers suggest incompatible solutions. 
 ```markdown
 Conflicting Feedback Resolution
 
-Reviewer A: Suggests a toggle control for this option
-Reviewer B: Suggests a dropdown menu
+Reviewer A - Suggests a toggle control for this option
+Reviewer B - Suggests a dropdown menu
 
 Decision
 Selected dropdown (Reviewer B's suggestion) because:
@@ -378,7 +378,7 @@ For distributed teams spanning multiple continents, async is necessary but deadl
 
 Set deadlines in UTC with explicit local time zones: "Friday 19:00 UTC (3 PM EST, 12 PM PST, 9 PM CET)." This prevents confusion about whose Friday.
 
-Accept staggered feedback: If your team spans 10 time zones, expect some reviewers to miss the deadline. Plan for 80% participation and treat late feedback as bonus input.
+Accept staggered feedback - If your team spans 10 time zones, expect some reviewers to miss the deadline. Plan for 80% participation and treat late feedback as bonus input.
 
 Designate timezone leads for synthesis: Have someone in the UTC+8 region check in with Asia-based reviewers, someone in UTC-8 with Americas reviewers. Distributed leadership ensures no region feels ignored.
 
@@ -395,13 +395,13 @@ Async Critique for Non-Design Decisions
 
 The async structure works beyond UI/UX design. Apply these principles to:
 
-Product strategy critique: Share quarterly roadmap proposals, request feedback from team leads on feasibility and priority alignment. Set 48-hour deadline. Synthesize and share revised roadmap.
+Product strategy critique - Share quarterly roadmap proposals, request feedback from team leads on feasibility and priority alignment. Set 48-hour deadline. Synthesize and share revised roadmap.
 
-API design critique: Technical leads reviewing new API proposals. Use GitHub with PR comments, apply the same threaded structure, set merge deadline after feedback window closes.
+API design critique - Technical leads reviewing new API proposals. Use GitHub with PR comments, apply the same threaded structure, set merge deadline after feedback window closes.
 
-Documentation critique: Write docs, request review from 2-3 colleagues, collect feedback in shared doc, iterate, publish. Prevents documentation that only the author understands.
+Documentation critique - Write docs, request review from 2-3 colleagues, collect feedback in shared doc, iterate, publish. Prevents documentation that only the author understands.
 
-Architecture critique: Proposal for new infrastructure component. Share design doc, open comments for 24 hours, synthesize, implement. Catches architectural issues before costly refactoring.
+Architecture critique - Proposal for new infrastructure component. Share design doc, open comments for 24 hours, synthesize, implement. Catches architectural issues before costly refactoring.
 
 Frequently Asked Questions
 

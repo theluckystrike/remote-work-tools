@@ -44,7 +44,7 @@ Before you begin, make sure you have the following ready:
 - A stable internet connection for downloading tools
 
 
-Step 1: Method 1: Desk Clamp Mounts (Most Popular)
+Step 1 - Method 1: Desk Clamp Mounts (Most Popular)
 
 Desk clamp mounts represent the most stable no-drill option for most desk types. These clamps attach to the desk edge and grip the underside, providing substantial support without holes.
 
@@ -67,7 +67,7 @@ Standard desk thicknesses:
 
 Most quality clamp mounts support monitors up to 32 inches and 20-30 pounds per arm. For dual 27-inch monitors, a sturdy dual-monitor arm with separate clamps or a single wide base works well.
 
-Step 2: Method 2: Adhesive Mounting Solutions
+Step 2 - Method 2: Adhesive Mounting Solutions
 
 For glass desks, thin particle board, or situations where clamps won't fit, adhesive mounting plates offer an alternative. These use industrial-strength adhesive strips to create a mounting surface.
 
@@ -78,9 +78,9 @@ Installation Best Practices
 3. Wait 24-72 hours before mounting any weight (curing time varies by product)
 4. Start with lighter monitors to test the bond
 
-The main drawback: adhesive solutions generally support lighter monitors (under 15 pounds each) and perform best with smaller displays. They're less suitable for heavy professional monitors.
+The main drawback - adhesive solutions generally support lighter monitors (under 15 pounds each) and perform best with smaller displays. They're less suitable for heavy professional monitors.
 
-Step 3: Method 3: Weighted Base Stands
+Step 3 - Method 3: Weighted Base Stands
 
 Free-standing monitor bases with weighted feet provide complete portability. These sit on your desk surface and don't attach to anything, a perfect solution for renters or those who frequently reconfigure their workspace.
 
@@ -93,7 +93,7 @@ Key Advantages
 
 The trade-off is desk space, they occupy some footprint where a clamp mount would not. For developers with larger desks, this often isn't a concern.
 
-Step 4: Method 4: Monitor Arm Adapters for Existing Stands
+Step 4 - Method 4: Monitor Arm Adapters for Existing Stands
 
 If your monitors came with factory stands, consider monitor arm adapters that attach to existing monitor bases. These convert fixed stands into adjustable arms without requiring desk mounting.
 
@@ -118,7 +118,7 @@ console.log(layout);
 // { totalWidth: 56, sidePadding: 2, recommended: false }
 ```
 
-Step 5: Ergonomic Positioning for Development Work
+Step 5 - Ergonomic Positioning for Development Work
 
 Proper monitor placement reduces neck strain and eye fatigue, critical for developers spending long hours at the desk.
 
@@ -152,7 +152,7 @@ Weight Distribution
 
 For heavy monitor combinations, ensure your clamp or base is rated for the total weight. Undersized mounts sag over time or fail suddenly.
 
-Step 6: Making the Right Choice
+Step 6 - Making the Right Choice
 
 Consider these factors when selecting your no-drill monitor arm solution:
 
@@ -179,7 +179,7 @@ Monitor Arm Product Comparison
 
 Most clamp mounts support 17-32 inch monitors. Choose based on your specific monitor weight, larger displays often exceed 25 pounds.
 
-Step 7: Desk Preparation and Thickness Verification
+Step 7 - Desk Preparation and Thickness Verification
 
 Before ordering, accurately measure your desk:
 
@@ -199,12 +199,12 @@ Metal frame          Variable            Check clamp compatibility
 
 Measure at least three points along your desk edge to confirm consistency. Particle board desks benefit from felt pads under clamp feet to prevent surface damage.
 
-Step 8: Step-by-Step Installation Procedure
+Step 8 - Step-by-Step Installation Procedure
 
 For Clamp-Based Mounts
 
 ```
-Time required: 15-20 minutes for dual setup
+Time required - 15-20 minutes for dual setup
 
 1. Locate clamp position on desk edge
    - Primary monitor 12-18 inches from center line
@@ -247,7 +247,7 @@ Time required: 15-20 minutes for dual setup
 For Adhesive Mounting Solutions
 
 ```
-Time required: 5 minutes application, 24-72 hours curing
+Time required - 5 minutes application, 24-72 hours curing
 
 1. Clean surface thoroughly
    - Use isopropyl alcohol on lint-free cloth
@@ -278,7 +278,7 @@ Limitations:
 For Weighted Base Stands
 
 ```
-Time required: 5 minutes (no installation)
+Time required - 5 minutes (no installation)
 
 1. Position stand on desk surface
    - Allow 2-3 inches clearance from desk edge
@@ -302,18 +302,18 @@ Advantages:
 - Easy to reposition or remove
 ```
 
-Step 9: Optimizing Monitor Layout for Development Work
+Step 9 - Optimizing Monitor Layout for Development Work
 
 Developers benefit from specific monitor arrangements:
 
 ```
-Layout 1: Side-by-Side (Most Common)
+Layout 1 - Side-by-Side (Most Common)
   
   Code/IDE      Documentation
                 or Browser  
   
 
-Layout 2: Stacked (For Tall Content)
+Layout 2 - Stacked (For Tall Content)
    
      Code/IDE   
    
@@ -321,7 +321,7 @@ Layout 2: Stacked (For Tall Content)
     Debugging   
    
 
-Layout 3: Primary + Angled Secondary
+Layout 3 - Primary + Angled Secondary
      
        Code/IDE     
       (Primary)      Slack/  
@@ -339,34 +339,34 @@ For pair programming or code review, side-by-side layout allows both developers 
 
 Troubleshooting and Adjustments
 
-Problem: Monitor sags or drifts lower over time
+Problem - Monitor sags or drifts lower over time
 - Tighten all arm joints monthly
 - Check clamp pressure on desk (may have relaxed)
 - Verify monitor VESA plate bolts are secure
 - Heavy monitors may require reinforcement bracket
 
-Problem: Glare or reflections on screens
+Problem - Glare or reflections on screens
 - Adjust tilt to reduce window/light reflection
 - Position primary monitor perpendicular to windows
 - Consider secondary monitor at opposite angle to primary
 
-Problem: Neck strain despite proper positioning
+Problem - Neck strain despite proper positioning
 - Measure eye-to-screen distance (should be 20-30 inches)
 - Adjust monitor height: top of screen should align with eye level
 - For bifocal users, slightly lower positioning reduces neck extension
 
-Problem: Clamp marks or damage on desk
+Problem - Clamp marks or damage on desk
 - Place felt pads under clamp feet
 - Use wood shims under clamp if desk is uneven
 - Apply protective tape on desk edges before clamping
 
-Problem: Cable interference or connection drops
+Problem - Cable interference or connection drops
 - Check cable paths for pinching or sharp bends
 - Secure cables with clips every 12-18 inches
 - For USB data cables, ensure clamp isn't applying pressure to cable connectors
 - Use shielded cables for USB 3.0 if experiencing interference
 
-Step 10: Health Benefits of Proper Monitor Positioning
+Step 10 - Health Benefits of Proper Monitor Positioning
 
 Correct monitor arm setup directly impacts remote worker health:
 

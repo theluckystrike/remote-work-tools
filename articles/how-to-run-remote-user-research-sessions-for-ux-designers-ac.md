@@ -20,11 +20,11 @@ Running remote user research sessions across time zones presents unique challeng
 
 Table of Contents
 
-- [The Core Challenge: Time Zone Overlap](#the-core-challenge-time-zone-overlap)
-- [Strategy 1: Asynchronous Recorded Sessions](#strategy-1-asynchronous-recorded-sessions)
-- [Session: [Participant Name] - [Date]](#session-participant-name-date)
-- [Strategy 2: Staggered Live Sessions with Handoffs](#strategy-2-staggered-live-sessions-with-handoffs)
-- [Strategy 3: Hybrid Synchronous Windows](#strategy-3-hybrid-synchronous-windows)
+- [The Core Challenge - Time Zone Overlap](#the-core-challenge-time-zone-overlap)
+- [Strategy 1 - Asynchronous Recorded Sessions](#strategy-1-asynchronous-recorded-sessions)
+- [Session - [Participant Name] - [Date]](#session-participant-name-date)
+- [Strategy 2 - Staggered Live Sessions with Handoffs](#strategy-2-staggered-live-sessions-with-handoffs)
+- [Strategy 3 - Hybrid Synchronous Windows](#strategy-3-hybrid-synchronous-windows)
 - [Managing Participant Recruitment Across Regions](#managing-participant-recruitment-across-regions)
 - [Documentation and Synthesis](#documentation-and-synthesis)
 - [Synthesis Template](#synthesis-template)
@@ -39,13 +39,13 @@ Table of Contents
 - [Common Implementation Errors and Solutions](#common-implementation-errors-and-solutions)
 - [Building Research Culture in Remote Teams](#building-research-culture-in-remote-teams)
 
-The Core Challenge: Time Zone Overlap
+The Core Challenge - Time Zone Overlap
 
 The fundamental problem with remote user research is finding time slots that work for participants across multiple regions. A session convenient for your London team excludes your Tokyo users. A time that works for San Francisco participants forces European team members into awkward evening hours.
 
 Successful async-first research requires rethinking the entire workflow. Instead of forcing everyone into simultaneous sessions, distribute the research process across time using three primary approaches: asynchronous recorded sessions, staggered live sessions with handoffs, and hybrid models that combine both methods.
 
-Strategy 1: Asynchronous Recorded Sessions
+Strategy 1 - Asynchronous Recorded Sessions
 
 Asynchronous recorded sessions form the backbone of time zone-friendly user research. One team member conducts a live interview while recording it. Other team members watch the recording later and contribute feedback through structured channels.
 
@@ -68,8 +68,8 @@ Structuring Async Feedback Collection
 After recording, upload the session to a shared location and create a structured feedback template. Use a format like this:
 
 ```markdown
-Session: [Participant Name] - [Date]
-Timestamp: [0:00 - Introduction]
+Session - [Participant Name] - [Date]
+Timestamp - [0:00 - Introduction]
 
 Observations:
 - Participant hesitation at [timestamp]
@@ -84,7 +84,7 @@ Recommendations:
 
 Distribute this template to team members with a 24-48 hour response window. This approach lets designers in Tokyo review sessions recorded by their colleagues in New York without any real-time coordination.
 
-Strategy 2: Staggered Live Sessions with Handoffs
+Strategy 2 - Staggered Live Sessions with Handoffs
 
 When you need live interaction but cannot find overlapping time slots, use a staggered handoff approach. One team member starts the session with participants in their time zone, then hands off observation duties to colleagues in other regions for subsequent sessions.
 
@@ -121,7 +121,7 @@ For staggered sessions, use collaboration tools that support async observation:
 - Notion: Use a database that tags observations by participant, session number, and research question
 - Slack: Set up a dedicated channel for live session observations with timestamped updates
 
-Strategy 3: Hybrid Synchronous Windows
+Strategy 3 - Hybrid Synchronous Windows
 
 If your team has even a small window of overlap, protect that time for high-value synchronous activities. Use the 2-3 hour overlap for synthesis sessions, stakeholder presentations, and sensitive interviews that require real-time rapport building.
 
@@ -180,13 +180,13 @@ After completing all sessions, schedule a synthesis session using your overlap w
 ```markdown
 Synthesis Template
 
-Research Question: [Your question here]
+Research Question - [Your question here]
 
-Key Finding 1: [Summary]
+Key Finding 1 - [Summary]
 - Supporting observation: [Quote or description]
 - Design implication: [What this means for design]
 
-Key Finding 2: [Summary]
+Key Finding 2 - [Summary]
 - Supporting observation: [Quote or description]
 - Design implication: [What this means for design]
 ```
@@ -227,7 +227,7 @@ For professional-grade research, invest in:
 - External webcam ($100-200): Higher resolution and better autofocus than laptop camera
 - Lavalier microphone for participant ($30-100): Crisp audio capture even with background noise
 
-Total setup cost: $200-500 for quality baseline. This investment pays for itself through research efficiency and findings quality.
+Total setup cost - $200-500 for quality baseline. This investment pays for itself through research efficiency and findings quality.
 
 Recruiting Participants Across Time Zones
 
@@ -246,9 +246,9 @@ Compensation Strategy
 Adjust compensation for cost-of-living differences:
 
 ```
-Participant in US: $50-75/hour
-Participant in India: $10-15/hour (local purchasing power equivalent)
-Participant in UK: $35-50/hour
+Participant in US - $50-75/hour
+Participant in India - $10-15/hour (local purchasing power equivalent)
+Participant in UK - $35-50/hour
 ```
 
 Fair compensation based on local economics, not arbitrary global rate.
@@ -311,8 +311,8 @@ Batching Strategy
 Don't analyze individually; batch sessions for synthesis:
 
 ```
-Weeks 1-2: Conduct 8 sessions (staggered across time zones)
-Week 3: Team synthesis workshop (all 8 sessions analyzed together)
+Weeks 1-2 - Conduct 8 sessions (staggered across time zones)
+Week 3 - Team synthesis workshop (all 8 sessions analyzed together)
 ```
 
 Batching reveals patterns across participants that individual session analysis misses.
@@ -322,17 +322,17 @@ Synthesis Workshop Template
 2-3 hour workshop with full team:
 
 ```
-Hour 1: Review key quotes and moments
+Hour 1 - Review key quotes and moments
 - Play 3-5 minute highlights from each session
 - Team identifies common patterns
-- Discussion: "What surprised you?"
+- Discussion - "What surprised you?"
 
-Hour 2: Affinity mapping
+Hour 2 - Affinity mapping
 - Sticky notes on Miro with quotes and observations
 - Group into themes
 - Vote on most important insights
 
-Hour 3: Recommendations
+Hour 3 - Recommendations
 - Map themes to design implications
 - Discuss priority of changes
 - Assign follow-up actions
@@ -397,10 +397,10 @@ Distributed research can actually produce higher-quality insights with right app
 
 Quality Indicators
 
-- Insight Actionability: Can you extract concrete design changes from findings?
-- Team Alignment: Do synthesis discussions surface shared understanding?
-- Participant Authenticity: Did comfortable environment encourage honest feedback?
-- Bias Awareness: Did distributed team catch perspectives a single researcher would miss?
+- Insight Actionability - Can you extract concrete design changes from findings?
+- Team Alignment - Do synthesis discussions surface shared understanding?
+- Participant Authenticity - Did comfortable environment encourage honest feedback?
+- Bias Awareness - Did distributed team catch perspectives a single researcher would miss?
 
 When to Repeat Research
 
@@ -411,25 +411,25 @@ If findings are unclear or team skeptical, repeat rather than forcing conclusion
 
 Common Implementation Errors and Solutions
 
-Error 1: Recording only lead researcher
+Error 1 - Recording only lead researcher
 
-Mitigation: Position camera to capture participant, not just researcher. Facial expressions and body language matter.
+Mitigation - Position camera to capture participant, not just researcher. Facial expressions and body language matter.
 
-Error 2: Async observers never actually watch
+Error 2 - Async observers never actually watch
 
-Mitigation: Set clear expectation that async observation includes 30-minute review. Make this part of people's formal workload.
+Mitigation - Set clear expectation that async observation includes 30-minute review. Make this part of people's formal workload.
 
-Error 3: Synthesis happening only with researchers present
+Error 3 - Synthesis happening only with researchers present
 
-Mitigation: Schedule synthesis workshop as mandatory team meeting. Include non-researchers, diverse perspectives strengthen insights.
+Mitigation - Schedule synthesis workshop as mandatory team meeting. Include non-researchers, diverse perspectives strengthen insights.
 
-Error 4: Insights documented but never acted on
+Error 4 - Insights documented but never acted on
 
-Mitigation: Link research findings to design sprints or product roadmap. Create explicit follow-up tasks tied to key findings.
+Mitigation - Link research findings to design sprints or product roadmap. Create explicit follow-up tasks tied to key findings.
 
-Error 5: Same people conducting research repeatedly
+Error 5 - Same people conducting research repeatedly
 
-Mitigation: Rotate research responsibilities. Each team member should help at least one session quarterly. Prevents gatekeeping of insights.
+Mitigation - Rotate research responsibilities. Each team member should help at least one session quarterly. Prevents gatekeeping of insights.
 
 Building Research Culture in Remote Teams
 

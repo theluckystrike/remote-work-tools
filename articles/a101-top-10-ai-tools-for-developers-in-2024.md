@@ -52,7 +52,7 @@ Key Features:
 - Explanation of code blocks and suggested implementations
 - Chat interface for asking coding questions directly within the IDE
 
-Pricing: Individual plans start at $10/month, with free tiers available for students and open-source maintainers.
+Pricing - Individual plans start at $10/month, with free tiers available for students and open-source maintainers.
 
 ```python
 Copilot suggests function implementation
@@ -82,7 +82,7 @@ Key Features:
 - Architecture and design pattern recommendations
 - Support for multiple programming languages
 
-Pricing: Free tier available; Plus plan at $20/month provides GPT-4 access and faster responses.
+Pricing - Free tier available; Plus plan at $20/month provides GPT-4 access and faster responses.
 
 ```bash
 Using ChatGPT API for code review
@@ -111,7 +111,7 @@ Key Features:
 - Helpful for refactoring and explaining legacy code
 - Claude Code CLI for terminal-based coding assistance
 
-Pricing: Free tier available; Pro plan at $20/month; Team and Enterprise plans for organizations.
+Pricing - Free tier available; Pro plan at $20/month; Team and Enterprise plans for organizations.
 
 Claude excels at understanding large codebases and providing explanations. Its "thinking" capability allows it to work through complex problems step-by-step before generating solutions.
 
@@ -125,7 +125,7 @@ Key Features:
 - Security scanning for common vulnerabilities
 - AWS service integration
 
-Pricing: Free for individual developers; CodeWhisperer Professional for teams at $19/month per user.
+Pricing - Free for individual developers; CodeWhisperer Professional for teams at $19/month per user.
 
 ```python
 CodeWhisperer helping with AWS Lambda handler
@@ -163,7 +163,7 @@ Key Features:
 - Learns from your coding patterns
 - Enterprise version with custom model training
 
-Pricing: Free tier available; Pro at $12/month; Team and Enterprise plans.
+Pricing - Free tier available; Pro at $12/month; Team and Enterprise plans.
 
 Tabnine differentiates itself by offering full local processing, making it attractive for developers working with sensitive codebases who can't use cloud-based alternatives.
 
@@ -177,7 +177,7 @@ Key Features:
 - Smart code completion and refactoring
 - Terminal integration
 
-Pricing: Free tier available; Plus at $20/month; Business at $40/month per user.
+Pricing - Free tier available; Plus at $20/month; Business at $40/month per user.
 
 ```javascript
 // Example: Using Cursor's AI edit command
@@ -213,7 +213,7 @@ Key Features:
 - Project scaffolding and boilerplate generation
 - Collaboration features
 
-Pricing: Free tier available; Pro at $10/month; Teams at $20/month per user.
+Pricing - Free tier available; Pro at $10/month; Teams at $20/month per user.
 
 8. Barde (Google)
 
@@ -225,9 +225,9 @@ Key Features:
 - Strong support for web development (HTML, CSS, JavaScript)
 - Android and Flutter development assistance
 
-Pricing: Free to use.
+Pricing - Free to use.
 
-Bard is particularly useful when working with Google's ecosystem of tools and services, offering contextual suggestions based on Google best practices.
+Bard is particularly useful when working with Google's environment of tools and services, offering contextual suggestions based on Google best practices.
 
 9. Cody (Sourcegraph)
 
@@ -239,7 +239,7 @@ Key Features:
 - Customizable commands for common tasks
 - Enterprise-friendly with private deployment options
 
-Pricing: Free for individuals; Team and Enterprise plans available.
+Pricing - Free for individuals; Team and Enterprise plans available.
 
 ```typescript
 // Example: Using Cody to find similar code patterns
@@ -279,7 +279,7 @@ Key Features:
 - Free for individual developers
 - VS Code, JetBrains, and other editor integrations
 
-Pricing: Free for individuals; Team and Enterprise plans available.
+Pricing - Free for individuals; Team and Enterprise plans available.
 
 Choosing the Right AI Tool
 

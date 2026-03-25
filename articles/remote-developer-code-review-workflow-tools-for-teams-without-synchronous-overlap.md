@@ -67,7 +67,7 @@ Choosing Between Git Platforms for Async Teams
 
 While GitHub dominates, evaluate based on your team's needs:
 
-GitHub: Best for most async teams
+GitHub - Best for most async teams
 - Strong PR system with threading and conversation resolution
 - Native to open-source culture
 - Excellent for GitHub-centric workflows
@@ -75,17 +75,17 @@ GitHub: Best for most async teams
 - Enterprise option with audit logs and advanced security
 - Best for: Tech-forward teams, open source projects, startups
 
-GitLab: Strong alternative with better built-in features
+GitLab - Strong alternative with better built-in features
 - Integrated CI/CD (GitLab Runner) reduces tool sprawl
 - Native merge request approvals with more granular control
 - Better for regulated industries (audit trails built-in)
 - Self-hosting option for data sovereignty
 - Best for: Enterprise teams, regulated industries, teams wanting integrated tooling
 
-Bitbucket: Often overlooked but solid
+Bitbucket - Often overlooked but solid
 - Deep Jira integration if your team uses Jira
 - Pull request review features competitive with GitHub
-- Best for: Teams already in Atlassian ecosystem
+- Best for: Teams already in Atlassian environment
 
 For most async-first distributed teams, GitHub remains the best choice. Its simplicity and wide adoption mean less friction onboarding and hiring developers familiar with the workflow.
 
@@ -212,11 +212,11 @@ Practical Workflow for Time-Zone-Dispersed Teams
 
 Implement a structured weekly rhythm that accommodates asynchronous collaboration:
 
-Monday: Review queue reset. Developers review any pending PRs from the previous week, triaging based on priority and dependencies.
+Monday - Review queue reset. Developers review any pending PRs from the previous week, triaging based on priority and dependencies.
 
-Tuesday-Thursday: Primary review days. Focus time for thorough code examination without meetings interrupting deep work.
+Tuesday-Thursday - Primary review days. Focus time for thorough code examination without meetings interrupting deep work.
 
-Friday: Review follow-up. Address feedback received during the week, push updates, and prepare for the next cycle.
+Friday - Review follow-up. Address feedback received during the week, push updates, and prepare for the next cycle.
 
 This cadence ensures reviews don't stagnate while respecting that different time zones have different peak productivity hours.
 
@@ -256,11 +256,11 @@ GitHub's native analytics provide baseline metrics; integrate with tools like St
 ```markdown
 February Code Review Metrics
 
-Average cycle time: 48 hours (target: 48-72)
-PRs requiring revisions: 45%
-Reviewer load (most loaded): 12 PRs/week
-Average PR size: 180 lines
-Approval rate first submission: 55%
+Average cycle time - 48 hours (target: 48-72)
+PRs requiring revisions - 45%
+Reviewer load (most loaded) - 12 PRs/week
+Average PR size - 180 lines
+Approval rate first submission - 55%
 ```
 
 Share these metrics with the team. They create accountability for both authors (to write better PRs) and reviewers (to review promptly).

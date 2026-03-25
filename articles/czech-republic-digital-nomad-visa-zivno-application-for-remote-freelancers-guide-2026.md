@@ -39,21 +39,21 @@ Understanding the Zivno Pathway
 
 The Zivno is not specifically a "digital nomad visa". it's a Czech trade license that foreign nationals can obtain to operate as self-employed individuals. When combined with a long-term residency permit, it becomes a viable option for remote freelancers wanting to live in Prague or other Czech cities while working for international clients.
 
-The key advantage: no minimum investment, no local company partnership required, and you retain full control over your business activities. The downside: you must demonstrate genuine business activity and maintain Czech health insurance and tax compliance.
+The key advantage - no minimum investment, no local company partnership required, and you retain full control over your business activities. The downside: you must demonstrate genuine business activity and maintain Czech health insurance and tax compliance.
 
 Eligibility Requirements for Remote Freelancers
 
 To qualify for a Zivno-based residency permit, you must meet these core requirements:
 
-Business Activity Requirement: You must demonstrate active business operations. This means having clients, contracts, or projects that generate income. The Czech authorities want proof that you're genuinely conducting business, not just using the visa for passive residency.
+Business Activity Requirement - You must demonstrate active business operations. This means having clients, contracts, or projects that generate income. The Czech authorities want proof that you're genuinely conducting business, not just using the visa for passive residency.
 
-Financial Threshold: Show proof of sufficient funds. typically around 5,000 EUR in a blocked account or equivalent savings. Some applicants use a combination of savings plus evidence of regular client income.
+Financial Threshold - Show proof of sufficient funds. typically around 5,000 EUR in a blocked account or equivalent savings. Some applicants use a combination of savings plus evidence of regular client income.
 
-Health Insurance: Mandatory Czech public or private health insurance coverage for the entire visa duration. Private insurance for visa purposes costs approximately 1,500, 3,000 CZK (60, 120 EUR) monthly.
+Health Insurance - Mandatory Czech public or private health insurance coverage for the entire visa duration. Private insurance for visa purposes costs approximately 1,500, 3,000 CZK (60, 120 EUR) monthly.
 
-Clean Record: No criminal record in your country of origin or residence.
+Clean Record - No criminal record in your country of origin or residence.
 
-Registered Address: You need a Czech address for mail. this can be a virtual office, rented apartment, or friend's address. Many freelancers use virtual office services in Prague starting at 1,500 CZK monthly.
+Registered Address - You need a Czech address for mail. this can be a virtual office, rented apartment, or friend's address. Many freelancers use virtual office services in Prague starting at 1,500 CZK monthly.
 
 Required Documents
 
@@ -71,19 +71,19 @@ Gather these documents before starting your application:
 
 Step-by-Step Application Process
 
-Step 1: Prepare Your Documentation
+Step 1 - Prepare Your Documentation
 
 Start collecting documents 2-3 months before your planned application. The criminal record certificate often takes the longest to obtain. Get apostille stamps on documents requiring legalization.
 
-Step 2: Apply at Czech Embassy
+Step 2 - Apply at Czech Embassy
 
 Submit your residency application at the Czech embassy in your country of residence. Processing times vary from 30 to 90 days. Some embassies require an interview where you'll explain your business model.
 
-Step 3: Enter Czech Republic
+Step 3 - Enter Czech Republic
 
 Once your visa is approved, you have 60 days to enter Czech Republic. Upon arrival, register your address at the Foreign Police within 3 business days.
 
-Step 4: Obtain Zivno Trade License
+Step 4 - Obtain Zivno Trade License
 
 Apply for your trade license at any Czech Trade Licensing Office (Živnostenský úřad). The process is straightforward:
 
@@ -97,7 +97,7 @@ Required information for Zivno application:
 
 The license can be issued the same day for simple business types. For IT services, you'll typically select "poskytování software a poradenství v oblasti informatiky" (provision of software and IT consulting).
 
-Step 5: Register with Czech Institutions
+Step 5 - Register with Czech Institutions
 
 After receiving your Zivno, register for:
 
@@ -120,7 +120,7 @@ Taxes work on a "sole proprietor" basis. You'll pay income tax plus mandatory so
 
 Practical Tips for Developers
 
-Invoice Automation: Set up automated invoicing early. Use tools like Fakturoid or client invoicing platforms that generate Czech-compliant invoices with proper tax stamps:
+Invoice Automation - Set up automated invoicing early. Use tools like Fakturoid or client invoicing platforms that generate Czech-compliant invoices with proper tax stamps:
 
 ```javascript
 // Example invoice header structure for Czech compliance
@@ -141,21 +141,21 @@ Invoice Automation: Set up automated invoicing early. Use tools like Fakturoid o
 }
 ```
 
-Client Contracts: Have contracts ready showing you're providing services to non-Czech clients. This demonstrates genuine business activity and supports your visa renewal.
+Client Contracts - Have contracts ready showing you're providing services to non-Czech clients. This demonstrates genuine business activity and supports your visa renewal.
 
-Banking: Czech banks (ČSOB, KB, Moneta) open accounts for Zivno holders. Bring your Zivno, passport, and proof of address. Some banks require an in-person appointment.
+Banking - Czech banks (ČSOB, KB, Moneta) open accounts for Zivno holders. Bring your Zivno, passport, and proof of address. Some banks require an in-person appointment.
 
-Accounting Software: Consider Czech accounting tools like Online Pohoda or Flexibee for proper record-keeping. They integrate with Czech tax requirements and can generate reports in required formats.
+Accounting Software - Consider Czech accounting tools like Online Pohoda or Flexibee for proper record-keeping. They integrate with Czech tax requirements and can generate reports in required formats.
 
 Common Pitfalls to Avoid
 
-Insufficient Proof of Business: Don't apply with empty bank accounts and no contracts. Immigration officers scrutinize business activity claims. Have at least 2-3 client relationships documented.
+Insufficient Proof of Business - Don't apply with empty bank accounts and no contracts. Immigration officers scrutinize business activity claims. Have at least 2-3 client relationships documented.
 
-Skipping Health Insurance: Mandatory from day one. Gaps in coverage can complicate visa renewals and result in fines.
+Skipping Health Insurance - Mandatory from day one. Gaps in coverage can complicate visa renewals and result in fines.
 
-Ignoring Tax Deadlines: Quarterly advance payments are required. Missing deadlines triggers penalties and can jeopardize your residency.
+Ignoring Tax Deadlines - Quarterly advance payments are required. Missing deadlines triggers penalties and can jeopardize your residency.
 
-Virtual Address Issues: Some landlords don't allow registration. Confirm with your landlord or virtual office provider before signing.
+Virtual Address Issues - Some landlords don't allow registration. Confirm with your landlord or virtual office provider before signing.
 
 Practical Setup Timeline and Budget Planning
 
@@ -189,7 +189,7 @@ Understanding Czech Tax System for Remote Workers
 
 The Czech tax system requires careful attention for freelancers:
 
-Paušální Daň (Flat-Rate Tax): If you earn below 1,000,000 CZK annually (approximately $40,000 USD), you can opt for flat-rate taxation. This simplifies calculations significantly:
+Paušální Daň (Flat-Rate Tax) - If you earn below 1,000,000 CZK annually (approximately $40,000 USD), you can opt for flat-rate taxation. This simplifies calculations significantly:
 - 15% flat income tax
 - Fixed monthly social contributions regardless of actual earnings
 - Minimal documentation requirements
@@ -243,25 +243,25 @@ Setting Up Your First Days in Czech Republic
 
 Once your visa is approved, you have 60 days to enter. Here's what the first week looks like:
 
-Day 1-3: Registration at Foreign Police
+Day 1-3 - Registration at Foreign Police
 - Visit the nearest Foreign Police office (Cizinecká policie)
 - Register your address within 3 business days of arrival
 - You'll receive a confirmation document (essential for opening bank accounts)
 - Bring: passport, visa approval letter, proof of address (rental contract or virtual office contract)
 
-Day 4-5: Tax Registration
+Day 4-5 - Tax Registration
 - Visit the local tax office (Finanční úřad) in your district
 - Request a tax ID (DIČ. daňové identifikační číslo)
 - This is needed before you can apply for the Zivno trade license
 - Processing is usually same-day for straightforward applications
 
-Day 6-7: Zivno Application
+Day 6-7 - Zivno Application
 - Go to your district's Trade Licensing Office (Živnostenský úřad)
 - Complete the application form for your business type (IT services, software development, consulting)
 - Bring: completed application, proof of address, tax ID confirmation, passport
 - Many offices issue the Zivno the same day for simple applications
 
-Week 2: Health Insurance and Banking
+Week 2 - Health Insurance and Banking
 - Contact a health insurance provider (VZP is the largest public option)
 - Or choose a private provider: Penta, Maxima, or Allianz Czech
 - Open a business bank account with your new Zivno trade license

@@ -19,8 +19,8 @@ Choosing between Trello and GitHub Projects for a five-person open source team c
 
 Table of Contents
 
-- [GitHub Projects: Native Code Integration](#github-projects-native-code-integration)
-- [Trello: Flexibility and Visual Simplicity](#trello-flexibility-and-visual-simplicity)
+- [GitHub Projects - Native Code Integration](#github-projects-native-code-integration)
+- [Trello - Flexibility and Visual Simplicity](#trello-flexibility-and-visual-simplicity)
 - [Comparing the Two](#comparing-the-two)
 - [Practical Decision Framework](#practical-decision-framework)
 - [Hybrid Approach](#hybrid-approach)
@@ -31,12 +31,12 @@ Table of Contents
 - [Use Case Recommendations](#use-case-recommendations)
 - [Hybrid Implementation Strategy](#hybrid-implementation-strategy)
 - [Real-World Decision Tree](#real-world-decision-tree)
-- [Implementation Walkthrough: GitHub Projects](#implementation-walkthrough-github-projects)
-- [Implementation Walkthrough: Trello](#implementation-walkthrough-trello)
-- [Migration Path: Starting Small and Scaling](#migration-path-starting-small-and-scaling)
+- [Implementation Walkthrough - GitHub Projects](#implementation-walkthrough-github-projects)
+- [Implementation Walkthrough - Trello](#implementation-walkthrough-trello)
+- [Migration Path - Starting Small and Scaling](#migration-path-starting-small-and-scaling)
 - [Monitoring and Metrics](#monitoring-and-metrics)
 
-GitHub Projects: Native Code Integration
+GitHub Projects - Native Code Integration
 
 GitHub Projects lives inside your repository. This means issue tracking, pull requests, and project boards share the same context without manual syncing.
 
@@ -68,7 +68,7 @@ jobs:
 
 The automation possibilities through GitHub Actions give you flexibility to customize how cards move between columns. You can trigger moves based on labels, assignees, or milestone changes.
 
-Trello: Flexibility and Visual Simplicity
+Trello - Flexibility and Visual Simplicity
 
 Trello offers a more traditional project management experience with drag-and-drop boards that feel intuitive immediately. The power lies in its Butler automation, which lets you create rules without writing code.
 
@@ -155,7 +155,7 @@ Start with GitHub Projects if your open source work centers on code. Expand to T
 
 Detailed Feature Analysis
 
-GitHub Projects: Integration Excellence
+GitHub Projects - Integration Excellence
 
 GitHub Projects' strength lies in integration with your code workflow:
 
@@ -191,11 +191,11 @@ created:>2026-03-01 sort:created-asc
 
 You can find any card instantly with sophisticated queries. Trello's search is basic text-matching only.
 
-Trello: Flexibility and Visual Simplicity
+Trello - Flexibility and Visual Simplicity
 
 Trello's strength lies in flexibility and ease of use:
 
-Power-Ups ecosystem:
+Power-Ups environment:
 - Slack integration: Post Trello updates to team channels
 - Google Drive: Attach files and documents to cards
 - Figma: Embed design mockups directly
@@ -205,7 +205,7 @@ Power-Ups ecosystem:
 Custom fields:
 Create any data structure your team needs:
 ```
-Card: "Implement OAuth flow"
+Card - "Implement OAuth flow"
  Priority: High
  Points: 8
  Type: Feature
@@ -286,25 +286,25 @@ Hybrid Implementation Strategy
 
 Many open source projects use both tools successfully:
 
-GitHub Projects: Code workflow
+GitHub Projects - Code workflow
 ```
-GitHub Project: "v2.0 Release"
+GitHub Project - "v2.0 Release"
  Bug fixes (tracked as issues)
  Features (tracked as issues)
  Performance improvements (tracked as issues)
  Documentation updates (tracked as issues)
 ```
 
-Trello: Non-code workflow
+Trello - Non-code workflow
 ```
-Trello Board: "Community & Release"
+Trello Board - "Community & Release"
  Marketing (v2.0 announcement)
  Blog posts (tutorials for new features)
  Community outreach (conferences)
  Sponsors & partners (coordination)
 ```
 
-Integration: Zapier connects the two:
+Integration - Zapier connects the two:
 ```
 When GitHub issue is labeled "release-blog-candidate"
 Create Trello card in "Community & Release" board
@@ -334,9 +334,9 @@ Start by answering these questions:
  - Yes → Trello (more Power-Ups)
  - No → GitHub Projects (simpler setup)
 
-Implementation Walkthrough: GitHub Projects
+Implementation Walkthrough - GitHub Projects
 
-Step 1: Create Project in Repository
+Step 1 - Create Project in Repository
 
 ```
 1. Go to your GitHub repository
@@ -346,7 +346,7 @@ Step 1: Create Project in Repository
 5. Name: "v2.0 Development"
 ```
 
-Step 2: Set Up Columns
+Step 2 - Set Up Columns
 
 Default columns for a code project:
 ```
@@ -357,16 +357,16 @@ Default columns for a code project:
 5. Done. Merged and released
 ```
 
-Step 3: Configure Automation
+Step 3 - Configure Automation
 
 ```yaml
 Link issues to project automatically
-Automation: "Auto-add new issues"
-Trigger: Issues created in this repo
-Action: Add to "Backlog" column
+Automation - "Auto-add new issues"
+Trigger - Issues created in this repo
+Action - Add to "Backlog" column
 ```
 
-Step 4: Invite Team
+Step 4 - Invite Team
 
 ```
 1. Go to Project Settings
@@ -375,9 +375,9 @@ Step 4: Invite Team
 4. They'll see the board in their repo view
 ```
 
-Implementation Walkthrough: Trello
+Implementation Walkthrough - Trello
 
-Step 1: Create Board
+Step 1 - Create Board
 
 ```
 1. Go to Trello.com
@@ -386,7 +386,7 @@ Step 1: Create Board
 4. Set to "Public" (for contributors to view)
 ```
 
-Step 2: Create Lists (Columns)
+Step 2 - Create Lists (Columns)
 
 ```
 Lists:
@@ -397,34 +397,34 @@ Lists:
 5. Done
 ```
 
-Step 3: Create Template Cards
+Step 3 - Create Template Cards
 
 ```
-Template: Bug Report
+Template - Bug Report
  Priority: [dropdown]
  Reproduction steps: [checklist]
  Expected behavior: [text]
  GitHub issue: [link]
 
-Template: Feature Request
+Template - Feature Request
  Use case: [text]
  Acceptance criteria: [checklist]
  GitHub issue: [link]
 ```
 
-Step 4: Set Up Automations
+Step 4 - Set Up Automations
 
 ```
 Automation 1:
 When: Card moved to "Done"
-Then: Post to Slack #announcements
+Then - Post to Slack #announcements
 
 Automation 2:
 When: Card due date is tomorrow
-Then: Notify assignee via email
+Then - Notify assignee via email
 ```
 
-Step 5: Invite Team
+Step 5 - Invite Team
 
 ```
 1. Click "Share board" button
@@ -433,20 +433,20 @@ Step 5: Invite Team
 4. Invite contributors via link
 ```
 
-Migration Path: Starting Small and Scaling
+Migration Path - Starting Small and Scaling
 
-Month 1: GitHub Projects Trial
+Month 1 - GitHub Projects Trial
 - Use GitHub Projects for code tracking
 - Keep informal issue discussion via comments
 - Track velocity (cards moved to Done per week)
 - Assess fit with your workflow
 
-Month 2: Add Trello (if needed)
+Month 2 - Add Trello (if needed)
 - If non-code work accumulates in GitHub, add Trello board
 - Use Zapier to sync critical items
 - Continue evaluating
 
-Month 3: Decision Point
+Month 3 - Decision Point
 - Keep GitHub Projects only: Most open source projects don't need Trello
 - Use Trello + GitHub Projects: Complex projects with multiple workstreams benefit from separation
 - Switch entirely to Trello: Rare, but teams with minimal code work or non-GitHub contributors

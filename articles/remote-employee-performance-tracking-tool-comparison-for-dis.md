@@ -21,7 +21,7 @@ Table of Contents
 - [Core Categories for Remote Performance Tracking](#core-categories-for-remote-performance-tracking)
 - [Quick Comparison](#quick-comparison)
 - [Tool Comparison for Distributed Managers](#tool-comparison-for-distributed-managers)
-- [Choosing Between Tools: A Decision Guide](#choosing-between-tools-a-decision-guide)
+- [Choosing Between Tools - A Decision Guide](#choosing-between-tools-a-decision-guide)
 - [What Good Metrics Look Like for Remote Teams](#what-good-metrics-look-like-for-remote-teams)
 - [Implementation Recommendations](#implementation-recommendations)
 - [Building a Custom Dashboard](#building-a-custom-dashboard)
@@ -57,7 +57,7 @@ Toggl Track
 
 Toggl remains popular for its simplicity and API. The time tracking data exports cleanly, making it suitable for teams that need straightforward hour logging without invasive monitoring.
 
-API capabilities: Toggl offers a well-documented REST API that supports creating time entries, generating reports, and managing projects. Here's a basic example of logging time via their API:
+API capabilities - Toggl offers a well-documented REST API that supports creating time entries, generating reports, and managing projects. Here's a basic example of logging time via their API:
 
 ```bash
 curl -v -X POST https://api.track.toggl.com/api/v9/workspaces/{workspace_id}/time_entries \
@@ -71,15 +71,15 @@ curl -v -X POST https://api.track.toggl.com/api/v9/workspaces/{workspace_id}/tim
   }'
 ```
 
-Strengths: Clean API, cross-platform mobile apps, minimal friction for team adoption.
+Strengths - Clean API, cross-platform mobile apps, minimal friction for team adoption.
 
-Limitations: Limited built-in analytics for distributed team patterns, no native integration with most issue trackers beyond basic connections.
+Limitations - Limited built-in analytics for distributed team patterns, no native integration with most issue trackers beyond basic connections.
 
 Clockify
 
 Clockify provides a free tier that makes it attractive for small teams, with time tracking that integrates with common project management tools.
 
-API capabilities: Clockify's API allows programmatic time entry creation and report generation. For teams with custom workflows, you can create automation scripts:
+API capabilities - Clockify's API allows programmatic time entry creation and report generation. For teams with custom workflows, you can create automation scripts:
 
 ```javascript
 // Clockify API integration example
@@ -104,15 +104,15 @@ async function logTime(clockifyApiKey, workspaceId, userId, projectId, start, du
 }
 ```
 
-Strengths: Generous free tier, extensive integrations, good reporting features.
+Strengths - Generous free tier, extensive integrations, good reporting features.
 
-Limitations: Activity tracking features push toward surveillance-oriented monitoring that may harm team trust.
+Limitations - Activity tracking features push toward surveillance-oriented monitoring that may harm team trust.
 
 Linear
 
 While primarily an issue tracker, Linear has emerged as a performance tracking tool for engineering teams by focusing on cycle metrics, issue velocity, and cycle time, the time from issue creation to completion.
 
-API capabilities: Linear provides a GraphQL API that enables sophisticated queries:
+API capabilities - Linear provides a GraphQL API that enables sophisticated queries:
 
 ```graphql
 query TeamCycleMetrics($teamId: String!, $cycleNumber: Int!) {
@@ -135,9 +135,9 @@ query TeamCycleMetrics($teamId: String!, $cycleNumber: Int!) {
 
 This query extracts cycle completion data, allowing you to calculate throughput and cycle time metrics without invasive monitoring.
 
-Strengths: Excellent cycle analytics, native GitHub integration, developer-first UX.
+Strengths - Excellent cycle analytics, native GitHub integration, developer-first UX.
 
-Limitations: Requires teams to adopt Linear as their primary issue tracker; no standalone time tracking.
+Limitations - Requires teams to adopt Linear as their primary issue tracker; no standalone time tracking.
 
 GitHub Projects + Custom Metrics
 
@@ -170,7 +170,7 @@ console.log(`Average PR cycle time: ${avgCycleTime.toFixed(1)} days`);
 
 This approach calculates average cycle time from PR creation to merge, giving distributed managers insight into team velocity without requiring time tracking adoption.
 
-Choosing Between Tools: A Decision Guide
+Choosing Between Tools - A Decision Guide
 
 The right tool depends on what your team primarily needs to track and how technically capable your team is at setting up integrations.
 
@@ -203,13 +203,13 @@ Implementation Recommendations
 
 When selecting a remote employee performance tracking tool for your distributed team, consider these factors:
 
-API integration requirements: If your team uses custom tooling, prioritize tools with APIs. Linear and GitHub-based solutions offer the most flexibility for developers who want to build custom dashboards.
+API integration requirements - If your team uses custom tooling, prioritize tools with APIs. Linear and GitHub-based solutions offer the most flexibility for developers who want to build custom dashboards.
 
-Team culture alignment: Activity-based tracking tools often create tension in remote teams. Output-based approaches focusing on deliverables and cycle metrics generally yield better results for engineering teams.
+Team culture alignment - Activity-based tracking tools often create tension in remote teams. Output-based approaches focusing on deliverables and cycle metrics generally yield better results for engineering teams.
 
-Automation potential: Tools that support API-based automation allow you to build performance dashboards that update automatically. This reduces manual data entry burden and improves data accuracy.
+Automation potential - Tools that support API-based automation allow you to build performance dashboards that update automatically. This reduces manual data entry burden and improves data accuracy.
 
-Scalability: Consider whether the tool handles your team's growth. Some tools tier pricing based on features or seat counts, which impacts long-term costs.
+Scalability - Consider whether the tool handles your team's growth. Some tools tier pricing based on features or seat counts, which impacts long-term costs.
 
 Building a Custom Dashboard
 

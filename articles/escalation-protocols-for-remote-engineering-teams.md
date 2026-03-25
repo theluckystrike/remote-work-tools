@@ -26,10 +26,10 @@ Table of Contents
 - [Handling Time Zone Handoffs](#handling-time-zone-handoffs)
 - [Handoff Notes - [Date]](#handoff-notes-date)
 - [Communication Channels for Each Escalation Stage](#communication-channels-for-each-escalation-stage)
-- [Runbooks: The Bridge Between Escalation and Resolution](#runbooks-the-bridge-between-escalation-and-resolution)
+- [Runbooks - The Bridge Between Escalation and Resolution](#runbooks-the-bridge-between-escalation-and-resolution)
 - [Automating the Escalation Chain](#automating-the-escalation-chain)
 - [Tools for Escalation Protocol Implementation](#tools-for-escalation-protocol-implementation)
-- [Configuration Template: PagerDuty Setup for Multi-Timezone Team](#configuration-template-pagerduty-setup-for-multi-timezone-team)
+- [Configuration Template - PagerDuty Setup for Multi-Timezone Team](#configuration-template-pagerduty-setup-for-multi-timezone-team)
 - [Practical Runbook Template for Common Scenarios](#practical-runbook-template-for-common-scenarios)
 - [Detection Indicators](#detection-indicators)
 - [Immediate Assessment (First 2 minutes)](#immediate-assessment-first-2-minutes)
@@ -37,7 +37,7 @@ Table of Contents
 - [Remediation Steps (in order)](#remediation-steps-in-order)
 - [Escalation Criteria](#escalation-criteria)
 - [Post-Incident](#post-incident)
-- [Post-Incident Review: Closing the Loop](#post-incident-review-closing-the-loop)
+- [Post-Incident Review - Closing the Loop](#post-incident-review-closing-the-loop)
 - [Timeline](#timeline)
 - [Escalation Assessment](#escalation-assessment)
 - [Improvements for Next Time](#improvements-for-next-time)
@@ -127,13 +127,13 @@ When paging someone, provide context in the initial message:
 @on-call-engineer
 
  INCIDENT: Payment service 502 errors
-Severity: SEV-1
-Affected: Checkout flow, subscription renewals
-Current Impact: ~15% of transactions failing
-Action Needed: Investigate immediately, coordinate with #payments-team if needed
+Severity - SEV-1
+Affected - Checkout flow, subscription renewals
+Current Impact - ~15% of transactions failing
+Action Needed - Investigate immediately, coordinate with #payments-team if needed
 ```
 
-Runbooks: The Bridge Between Escalation and Resolution
+Runbooks - The Bridge Between Escalation and Resolution
 
 Escalation gets the right people in the room. Runbooks help them fix the problem. Each critical service should have a runbook with:
 
@@ -184,11 +184,11 @@ Tools for Escalation Protocol Implementation
 
 Different tools handle escalation differently. Here's a comparison:
 
-PagerDuty: $50-100+/month (pricing scales with team size). Industry standard for incident management. Provides escalation policies, on-call scheduling, integration with monitoring systems, and post-incident documentation. Learning curve is significant, but the feature depth is unmatched. Best for teams where incident management is critical to operations.
+PagerDuty - $50-100+/month (pricing scales with team size). Industry standard for incident management. Provides escalation policies, on-call scheduling, integration with monitoring systems, and post-incident documentation. Learning curve is significant, but the feature depth is unmatched. Best for teams where incident management is critical to operations.
 
-OpsGenie (Atlassian): $6-40/user/month. Similar to PagerDuty but more integration-friendly if you're already in the Atlassian ecosystem. Slightly cheaper for small teams, comparable for larger ones.
+OpsGenie (Atlassian) - $6-40/user/month. Similar to PagerDuty but more integration-friendly if you're already in the Atlassian environment. Slightly cheaper for small teams, comparable for larger ones.
 
-Grafana OnCall: Free tier covers basic escalation. Paid tier $10/user/month. Modern interface, integrates tightly with Grafana monitoring. Good choice if you're already using Grafana for observability.
+Grafana OnCall - Free tier covers basic escalation. Paid tier $10/user/month. Modern interface, integrates tightly with Grafana monitoring. Good choice if you're already using Grafana for observability.
 
 Opsgenie vs. PagerDuty vs. Grafana OnCall for a 15-person engineering team:
 - PagerDuty: ~$100/month ($1,200/year)
@@ -196,10 +196,10 @@ Opsgenie vs. PagerDuty vs. Grafana OnCall for a 15-person engineering team:
 - Grafana OnCall: ~$0-50/month depending on escalations ($0-600/year)
 
 Free/low-cost alternatives if you're automating with existing tools:
-- Slack + Lambda: Use Slack channels and AWS Lambda to trigger escalations. Free if you're already on AWS. Requires engineering time to build and maintain.
+- Slack + Lambda - Use Slack channels and AWS Lambda to trigger escalations. Free if you're already on AWS. Requires engineering time to build and maintain.
 - GitHub + CircleCI: Route escalations through GitHub issues and CircleCI workflows. Free/low-cost if already using these tools. Less polished but functional.
 
-Configuration Template: PagerDuty Setup for Multi-Timezone Team
+Configuration Template - PagerDuty Setup for Multi-Timezone Team
 
 ```yaml
 escalation-policy.yaml for PagerDuty
@@ -271,7 +271,7 @@ Practical Runbook Template for Common Scenarios
 Create runbooks for your top 5 failure scenarios. Here's a template:
 
 ```markdown
-Runbook: Database Connection Pool Exhaustion
+Runbook - Database Connection Pool Exhaustion
 
 Detection Indicators
 - Alert: "DB connection pool usage > 90%"
@@ -289,12 +289,12 @@ Immediate Assessment (First 2 minutes)
 
 If Abnormal Connection Usage
 - Check recent deployments: "Did we deploy in the last hour?"
-- Check for long-running queries: Typical: <5 seconds. Alert if > 60 seconds.
+- Check for long-running queries: Typical - <5 seconds. Alert if > 60 seconds.
 - Check application logs for "connection timeout" errors
 
 Remediation Steps (in order)
 
-Step 1: Quick Kill (safest, try first)
+Step 1 - Quick Kill (safest, try first)
 ```bash
 Kill idle connections from specific app
 psql $DB_HOST -c "
@@ -306,20 +306,20 @@ AND state_change < now() - interval '5 minutes'
 ;"
 ```
 
-Step 2: Restart application service (if Step 1 didn't work)
+Step 2 - Restart application service (if Step 1 didn't work)
 ```bash
 kubectl rollout restart deployment/api-server -n production
 Wait 2 minutes for connections to stabilize
 Check if issue resolved
 ```
 
-Step 3: Scale horizontally (if Steps 1-2 didn't work)
+Step 3 - Scale horizontally (if Steps 1-2 didn't work)
 ```bash
 Increase replicas to distribute connection load
 kubectl scale deployment/api-server --replicas=4 -n production
 ```
 
-Step 4: RDS restart (last resort, causes brief outage)
+Step 4 - RDS restart (last resort, causes brief outage)
 ```bash
 Only if all above failed and incident severity warrants it
 aws rds reboot-db-instance --db-instance-identifier production-db
@@ -339,17 +339,17 @@ Document:
 - Monitoring gaps (why didn't we catch this earlier?)
 ```
 
-Post-Incident Review: Closing the Loop
+Post-Incident Review - Closing the Loop
 
 Every significant incident should have a review within 72 hours. This isn't about blame, it's about improving your escalation protocol and runbooks.
 
 Create a template for consistency:
 
 ```markdown
-Incident Review: INC-2024-0315
+Incident Review - INC-2024-0315
 
-Date: 2026-03-15 (Incident)
-Reviewed: 2026-03-16
+Date - 2026-03-15 (Incident)
+Reviewed - 2026-03-16
 
 Timeline
 - 14:32 UTC: Alert triggered (DB connections at 95%)
@@ -358,8 +358,8 @@ Timeline
 - 15:02 UTC: Service restarted, connections dropped to 40%
 - 15:05 UTC: Full recovery
 
-Total Duration: 33 minutes
-Customer Impact: 5 customers reported slow checkout, recovered after 20 minutes
+Total Duration - 33 minutes
+Customer Impact - 5 customers reported slow checkout, recovered after 20 minutes
 
 Escalation Assessment
 - Did the right person get paged first? YES

@@ -42,7 +42,7 @@ Flexibility in Work Styles. Supporting employees who thrive in different environ
 
 Training Program Structure
 
-Module 1: Foundations of Hybrid Work (2 hours)
+Module 1 - Foundations of Hybrid Work (2 hours)
 
 Start with the psychological foundation. Many managers transition from fully co-located or fully remote environments into hybrid leadership without understanding why hybrid work is fundamentally different.
 
@@ -51,7 +51,7 @@ Key Topics:
 - Why hybrid creates more management complexity than either fully remote or fully in-office
 - Common failure modes: proximity bias, meeting inequity, documentation debt
 
-Exercise: Audit Your Current Practices
+Exercise - Audit Your Current Practices
 
 Have managers track their communication patterns for one week. Create a simple log template:
 
@@ -61,11 +61,11 @@ Have managers track their communication patterns for one week. Create a simple l
 |      |                   |              |             |         |          |
 ```
 
-After collecting data, analyze: How many conversations happened spontaneously (hallway, lunch)? Were remote team members included? Where were decisions made?
+After collecting data, analyze - How many conversations happened spontaneously (hallway, lunch)? Were remote team members included? Where were decisions made?
 
 This audit reveals the invisible infrastructure of information flow that managers rarely consciously design.
 
-Module 2: Communication Systems for Hybrid Teams (3 hours)
+Module 2 - Communication Systems for Hybrid Teams (3 hours)
 
 Hybrid teams need explicit communication protocols. The informal chatter that keeps co-located teams aligned simply doesn't happen organically when some members work remotely.
 
@@ -78,7 +78,7 @@ Create a documented communication matrix that answers:
 3. What are expected response times across different channels?
 4. How are meetings structured to include remote participants equitably?
 
-Template: Meeting Equity Checklist
+Template - Meeting Equity Checklist
 
 Before every meeting, managers should verify:
 
@@ -116,7 +116,7 @@ Async feedback welcome
 
 This format works across time zones and creates a searchable archive of team progress.
 
-Module 3: Managing Performance Without Proximity (2.5 hours)
+Module 3 - Managing Performance Without Proximity (2.5 hours)
 
 Performance management in hybrid environments requires shifting from activity-based oversight to outcome-based evaluation. Managers who transitioned from traditional offices often struggle because they no longer "see" their team working.
 
@@ -142,7 +142,7 @@ Proximity bias occurs when managers unconsciously favor employees they see more 
 
 The training should include exercises where managers examine their own patterns:
 
-Exercise: The Invisibility Test
+Exercise - The Invisibility Test
 
 For each team member, answer:
 1. When did I last give them positive feedback?
@@ -152,7 +152,7 @@ For each team member, answer:
 
 The goal isn't guilt, it's awareness. Managers who understand their natural patterns can consciously correct for bias.
 
-Module 4: Building Culture Across Locations (2 hours)
+Module 4 - Building Culture Across Locations (2 hours)
 
 Culture doesn't happen automatically in hybrid environments. Managers must be intentional about creating shared experiences and values that transcend physical location.
 
@@ -165,7 +165,7 @@ Create rituals that don't require physical presence:
 - Async celebrate: recognizing milestones through video messages or written shoutouts
 - Digital water cooler: a Slack channel for non-work conversations
 
-Exercise: The Culture Document
+Exercise - The Culture Document
 
 Have teams collaboratively create a living document answering:
 - What do we celebrate?
@@ -176,7 +176,7 @@ Have teams collaboratively create a living document answering:
 
 This document becomes the reference point for cultural decisions and onboarding.
 
-Module 5: Tools and Technology (1.5 hours)
+Module 5 - Tools and Technology (1.5 hours)
 
 Practical tool training ensures managers can actually implement what they've learned.
 

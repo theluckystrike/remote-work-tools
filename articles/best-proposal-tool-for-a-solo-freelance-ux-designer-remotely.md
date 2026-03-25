@@ -28,16 +28,16 @@ Table of Contents
 - [Project Scope](#project-scope)
 - [Automating Your Workflow](#automating-your-workflow)
 - [Decision Framework](#decision-framework)
-- [Advanced Proposal Strategy: The Multi-Proposal Approach](#advanced-proposal-strategy-the-multi-proposal-approach)
+- [Advanced Proposal Strategy - The Multi-Proposal Approach](#advanced-proposal-strategy-the-multi-proposal-approach)
 - [Handling Proposal Objections](#handling-proposal-objections)
-- [Proposal Psychology: What Actually Converts](#proposal-psychology-what-actually-converts)
+- [Proposal Psychology - What Actually Converts](#proposal-psychology-what-actually-converts)
 - [Creating Evergreen Case Studies](#creating-evergreen-case-studies)
 - [The Proposal Follow-Up Sequence](#the-proposal-follow-up-sequence)
 - [Negotiating Scope Creep Before It Starts](#negotiating-scope-creep-before-it-starts)
 - [What's Included](#whats-included)
 - [What's NOT Included](#whats-not-included)
 - [Building a Personal Brand in Proposals](#building-a-personal-brand-in-proposals)
-- [Automation: Reducing Proposal Creation Time](#automation-reducing-proposal-creation-time)
+- [Automation - Reducing Proposal Creation Time](#automation-reducing-proposal-creation-time)
 - [Tracking Proposal Performance](#tracking-proposal-performance)
 
 This guide evaluates proposal tools specifically for solo remote UX designers who need efficiency without enterprise complexity.
@@ -54,7 +54,7 @@ Before examining specific tools, let's establish the criteria that matter for yo
 
 Comparing the Best Proposal Tools
 
-PandaDoc: The All-Rounder with Strong UX Integration
+PandaDoc - The All-Rounder with Strong UX Integration
 
 PandaDoc offers one of the most feature-complete proposal platforms available. For UX designers, the template system is particularly strong, you can embed interactive mockups, link to Figma prototypes, and include video explanations directly in your proposals.
 
@@ -76,7 +76,7 @@ Sending a proposal with embedded Figma prototype:
 </a>
 ```
 
-Qwilr: The Visual-First Choice
+Qwilr - The Visual-First Choice
 
 Qwilr positions itself as "proposals that look like websites." For an UX designer, this philosophy resonates, you already care deeply about visual presentation. Qwilr proposals render as beautiful web pages that clients can navigate, making your proposal itself a demonstration of your design sensibility.
 
@@ -89,7 +89,7 @@ Standout features:
 
 Pricing starts at $29/month for individuals, making it slightly more expensive than PandaDoc for solo use.
 
-Proposal Page: The Minimalist Alternative
+Proposal Page - The Minimalist Alternative
 
 Proposal Page focuses on simplicity over features. If you prefer a tool that gets out of your way, this deserves consideration. It strips away complexity in favor of fast proposal creation with clean, professional output.
 
@@ -100,9 +100,9 @@ Best for designers who:
 - Prefer Markdown or simple WYSIWYG editing
 - Need basic eSignature only
 
-Pricing: $15/month for the Pro plan.
+Pricing - $15/month for the Pro plan.
 
-Bonsai: The Freelancer Business Suite
+Bonsai - The Freelancer Business Suite
 
 Bonsai takes a different approach, instead of a standalone proposal tool, it offers proposals as part of a complete freelancer business management suite. If you're not already using separate tools for proposals, contracts, time tracking, and invoicing, Bonsai consolidates these into one platform.
 
@@ -113,7 +113,7 @@ Integration benefits:
 - Invoicing auto-generates from approved proposals
 - Client management across the entire freelance workflow
 
-Pricing: $19/month for the full suite (which represents good value if you'd otherwise pay for multiple tools).
+Pricing - $19/month for the full suite (which represents good value if you'd otherwise pay for multiple tools).
 
 Making Your Proposal Stand Out
 
@@ -159,9 +159,9 @@ Project Scope
 - Usability testing: 8 hours
 - Final design delivery: 16 hours
 
-Total: 56 hours @ $[rate]/hour = $[total]
+Total - 56 hours @ $[rate]/hour = $[total]
 
-Timeline: 4 weeks from kickoff to delivery
+Timeline - 4 weeks from kickoff to delivery
 ```
 
 Automating Your Workflow
@@ -214,23 +214,23 @@ Here's a quick way to choose:
 
 Consider starting with PandaDoc or Qwilr, both offer free trials long enough to test with real clients. The time investment in learning one tool pays dividends across every proposal you send.
 
-Advanced Proposal Strategy: The Multi-Proposal Approach
+Advanced Proposal Strategy - The Multi-Proposal Approach
 
 Not all clients are the same. Create different proposal templates for different types:
 
-Template 1: Discovery-Heavy Project
+Template 1 - Discovery-Heavy Project
 - Emphasizes user research phase
 - Longer timeline (8-12 weeks)
 - Higher cost (research-intensive)
 - Best for: Established companies with budget
 
-Template 2: Rapid Design Sprint
+Template 2 - Rapid Design Sprint
 - Emphasizes speed and iteration
 - Shorter timeline (4-6 weeks)
 - Moderate cost (faster turnaround)
 - Best for: Startups, time-sensitive projects
 
-Template 3: Audit-Only Project
+Template 3 - Audit-Only Project
 - Focuses on analysis and recommendations
 - Shortest timeline (2-3 weeks)
 - Lowest cost (no implementation)
@@ -242,18 +242,18 @@ Handling Proposal Objections
 
 Clients often raise concerns about price or scope. Prepare responses:
 
-Objection: "Your price is higher than other designers"
-Response: "The difference comes from [specific value-add: testing, documentation, implementation support]. This prevents costly design mistakes down the line. Can we talk through what's most important to you?"
+Objection - "Your price is higher than other designers"
+Response - "The difference comes from [specific value-add: testing, documentation, implementation support]. This prevents costly design mistakes down the line. Can we talk through what's most important to you?"
 
-Objection: "Can you do this in half the timeline?"
-Response: "I could compress to 3 weeks, but this would mean skipping user testing. Would you prefer I deliver faster with lower confidence in user validation, or stick with 4 weeks including testing?"
+Objection - "Can you do this in half the timeline?"
+Response - "I could compress to 3 weeks, but this would mean skipping user testing. Would you prefer I deliver faster with lower confidence in user validation, or stick with 4 weeks including testing?"
 
-Objection: "Can you lower your rate?"
-Response: "I'm confident in my pricing based on [specific credentials, case studies, or results]. If budget is the constraint, we could reduce scope, like removing the testing phase or limiting revisions to 2 rounds instead of 3. Which would work better for you?"
+Objection - "Can you lower your rate?"
+Response - "I'm confident in my pricing based on [specific credentials, case studies, or results]. If budget is the constraint, we could reduce scope, like removing the testing phase or limiting revisions to 2 rounds instead of 3. Which would work better for you?"
 
 These responses reframe price objections toward value discussion instead of haggling.
 
-Proposal Psychology: What Actually Converts
+Proposal Psychology - What Actually Converts
 
 Research shows proposal acceptance depends on:
 
@@ -269,10 +269,10 @@ Creating Evergreen Case Studies
 Document past work systematically:
 
 ```markdown
-Case Study: EdTech Platform UX Redesign
+Case Study - EdTech Platform UX Redesign
 
-Client: Online Learning Platform
-Challenge: New users abandoned during signup (40% drop-off)
+Client - Online Learning Platform
+Challenge - New users abandoned during signup (40% drop-off)
 
 Research phase:
 - 12 user interviews (identifying confusion points)
@@ -284,10 +284,10 @@ Outcome:
 - Signup time dropped 2.5 minutes
 - NPS increased 15 points
 
-Timeline: 8 weeks
-Investment: $[amount]
+Timeline - 8 weeks
+Investment - $[amount]
 
-Key insight: [Something specific you learned that's valuable to new clients]
+Key insight - [Something specific you learned that's valuable to new clients]
 ```
 
 These specific, results-focused case studies trump generic portfolio images. Include them in every proposal sent to similar industry clients.
@@ -296,10 +296,10 @@ The Proposal Follow-Up Sequence
 
 If a client doesn't respond to the initial proposal:
 
-Day 1: Send proposal
-Day 4: Light follow-up: "Wanted to check if you have questions about the scope or timeline?"
-Day 8: Second follow-up: "Still interested? I'm available for a call to discuss."
-Day 12: Final follow-up: "Last reach-out, if the timing doesn't work, I'm here whenever you're ready."
+Day 1 - Send proposal
+Day 4 - Light follow-up: "Wanted to check if you have questions about the scope or timeline?"
+Day 8 - Second follow-up: "Still interested? I'm available for a call to discuss."
+Day 12 - Final follow-up: "Last reach-out, if the timing doesn't work, I'm here whenever you're ready."
 
 Most freelancers stop at day 1. Following up increases close rate by 40% without being pushy.
 
@@ -338,7 +338,7 @@ Your proposal is a marketing document. Use it to build brand:
 
 Clients remember freelancers with consistent, distinctive personal brands. Bland proposals blend together.
 
-Automation: Reducing Proposal Creation Time
+Automation - Reducing Proposal Creation Time
 
 Once you have templates, automation saves time:
 
@@ -361,17 +361,17 @@ Tracking Proposal Performance
 Monitor what works:
 
 ```
-Proposals sent this quarter: 8
-Proposals accepted: 3
-Acceptance rate: 37.5%
+Proposals sent this quarter - 8
+Proposals accepted - 3
+Acceptance rate - 37.5%
 
 Which templates won:
 - Discovery-Heavy: 2 out of 3 accepted
 - Rapid Sprint: 1 out of 3 accepted
 - Audit-Only: 0 out of 2 accepted
 
-Insight: Clients prefer discovery-heavy approach (highest acceptance).
-Next quarter: Lead with discovery-heavy template more often.
+Insight - Clients prefer discovery-heavy approach (highest acceptance).
+Next quarter - Lead with discovery-heavy template more often.
 ```
 
 Track metrics monthly. Update templates based on what's winning. Your best proposal tool is the one informed by actual client response data.
@@ -384,7 +384,7 @@ Free tiers work for basic tasks and evaluation, but paid plans typically offer h
 
 How do I evaluate which tool fits my workflow?
 
-Run a practical test: take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
+Run a practical test - take a real task from your daily work and try it with 2-3 tools. Compare output quality, speed, and how naturally each tool fits your process. A week-long trial with actual work gives better signal than feature comparison charts.
 
 Do these tools work offline?
 
@@ -396,7 +396,7 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Should I switch tools if something better comes out?
 
-Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
+Switching costs are real - learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific problem you experience regularly. Marginal improvements rarely justify the transition overhead.
 
 Related Articles
 

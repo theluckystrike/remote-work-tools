@@ -21,14 +21,14 @@ Implement a structured peer feedback process using a rotating feedback schedule,
 Table of Contents
 
 - [Why Peer Feedback Fails in Remote Settings](#why-peer-feedback-fails-in-remote-settings)
-- [Step 1: Establish a Feedback Framework](#step-1-establish-a-feedback-framework)
+- [Step 1 - Establish a Feedback Framework](#step-1-establish-a-feedback-framework)
 - [Peer Feedback Categories](#peer-feedback-categories)
-- [Step 2: Use Async Templates That Guide Responders](#step-2-use-async-templates-that-guide-responders)
+- [Step 2 - Use Async Templates That Guide Responders](#step-2-use-async-templates-that-guide-responders)
 - [Peer Feedback for [Name]](#peer-feedback-for-name)
-- [Step 3: Implement a Rotation System](#step-3-implement-a-rotation-system)
-- [Step 4: Automate Collection Without Losing Personalization](#step-4-automate-collection-without-losing-personalization)
-- [Step 5: Set Clear Expectations and Boundaries](#step-5-set-clear-expectations-and-boundaries)
-- [Step 6: Handle Difficult Responses Graceantly](#step-6-handle-difficult-responses-graceantly)
+- [Step 3 - Implement a Rotation System](#step-3-implement-a-rotation-system)
+- [Step 4 - Automate Collection Without Losing Personalization](#step-4-automate-collection-without-losing-personalization)
+- [Step 5 - Set Clear Expectations and Boundaries](#step-5-set-clear-expectations-and-boundaries)
+- [Step 6 - Handle Difficult Responses Graceantly](#step-6-handle-difficult-responses-graceantly)
 - [Measuring Success](#measuring-success)
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Building a Feedback Culture](#building-a-feedback-culture)
@@ -48,7 +48,7 @@ A successful remote peer feedback system addresses these challenges by:
 3. Building trust gradually through consistent, low-stakes interactions
 4. Normalizing feedback as a regular team practice, not a special event
 
-Step 1: Establish a Feedback Framework
+Step 1 - Establish a Feedback Framework
 
 Before collecting any feedback, define what you're measuring. Vague requests like "give feedback on John's work" produce vague responses. A clear framework ensures consistency and makes feedback comparable over time.
 
@@ -65,7 +65,7 @@ Peer Feedback Categories
 
 Share this framework with your team before the first feedback cycle. When everyone knows the criteria, feedback becomes more objective and less personal.
 
-Step 2: Use Async Templates That Guide Responders
+Step 2 - Use Async Templates That Guide Responders
 
 The biggest mistake teams make is asking open-ended questions like "Any feedback for this person?" This puts the burden on the responder to figure out what to say. Instead, provide structured prompts that guide specific, actionable responses.
 
@@ -96,7 +96,7 @@ One thing they'd benefit from learning:
 
 The "specific example" requirement is crucial. It transforms vague praise or criticism into actionable information. It's much easier to act on "When you wrote the API documentation, the examples made it easy to integrate" than "Great documentation skills."
 
-Step 3: Implement a Rotation System
+Step 3 - Implement a Rotation System
 
 Randomly assigning feedback pairs creates inconsistency. Some people receive feedback from colleagues they barely know while others stick to the same comfortable partners. A rotation system ensures everyone participates and gradually builds cross-team relationships.
 
@@ -147,7 +147,7 @@ Cycle 2:
 
 Each person gives and receives feedback from different teammates across cycles, building a broader network of trust.
 
-Step 4: Automate Collection Without Losing Personalization
+Step 4 - Automate Collection Without Losing Personalization
 
 Manual feedback collection becomes a chore quickly. Use tools to automate reminders and collection while keeping responses personalized.
 
@@ -176,7 +176,7 @@ notifications:
 
 For teams using project management tools, create a lightweight "feedback" issue type that moves through "To Do" (collection), "In Progress" (review by recipient), and "Done."
 
-Step 5: Set Clear Expectations and Boundaries
+Step 5 - Set Clear Expectations and Boundaries
 
 Feedback only works when participants understand how to give it constructively. Establish guidelines that everyone agrees to:
 
@@ -187,7 +187,7 @@ Feedback only works when participants understand how to give it constructively. 
 
 Consider having the team collaboratively draft these guidelines. When people help create the rules, they're more likely to follow them.
 
-Step 6: Handle Difficult Responses Graceantly
+Step 6 - Handle Difficult Responses Graceantly
 
 Sometimes feedback stings. Recipients might read something that feels unfair or harsh. Prepare them for this possibility by framing feedback as data, not judgment.
 
@@ -206,7 +206,7 @@ Track a few key metrics to know if your process is working:
 
 - Participation rate: Are people completing feedback? Target 90%+.
 - Response quality: Are examples specific? Vague responses indicate template improvements are needed.
-- Sentiment: Do team members feel the feedback was helpful? A simple survey after each cycle works.
+- Sentiment - Do team members feel the feedback was helpful? A simple survey after each cycle works.
 - Behavior change: Do recipients show improvement in areas identified? Follow up after 2-3 cycles.
 
 Common Pitfalls to Avoid

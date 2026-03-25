@@ -26,7 +26,7 @@ Manual setup processes are error-prone and difficult to reproduce. When you conf
 
 Automation solves these problems by codifying your environment as version-controlled configuration. When your setup lives in code, you can review changes through pull requests, roll back problematic updates, and apply identical configurations across any number of machines. New team members can go from zero to a fully configured development environment in minutes rather than days.
 
-Starting Simple: Shell Scripts
+Starting Simple - Shell Scripts
 
 The most accessible approach to environment automation uses shell scripts. Even basic bash scripts that automate package installation significantly reduce setup time and ensure consistency.
 
@@ -204,7 +204,7 @@ An Ansible playbook for development machine setup:
 
 Run this playbook with `ansible-playbook development.yml` and Ansible ensures your machine matches the specification. The idempotent nature means running the playbook multiple times produces the same result, safe for repeated application or CI/CD pipelines.
 
-Dotfiles: Personal Configuration Management
+Dotfiles - Personal Configuration Management
 
 Beyond project-specific tools, developers accumulate personal configuration through dotfiles, hidden configuration files like `.bashrc`, `.zshrc`, `.vimrc`, and `.gitconfig`. Managing these as a dotfiles repository provides portable personal environments.
 

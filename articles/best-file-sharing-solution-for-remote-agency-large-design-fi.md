@@ -19,26 +19,26 @@ Remote design agencies face a unique challenge: moving massive creative assets a
 
 Table of Contents
 
-- [The Core Problem: Latency and Version Control](#the-core-problem-latency-and-version-control)
-- [Dropbox: Selective Sync at Scale](#dropbox-selective-sync-at-scale)
-- [Google Drive: Native Integration, Moderate Limits](#google-drive-native-integration-moderate-limits)
-- [Box: Enterprise-Grade Security](#box-enterprise-grade-security)
-- [Rclone: The Developer-First Approach](#rclone-the-developer-first-approach)
+- [The Core Problem - Latency and Version Control](#the-core-problem-latency-and-version-control)
+- [Dropbox - Selective Sync at Scale](#dropbox-selective-sync-at-scale)
+- [Google Drive - Native Integration, Moderate Limits](#google-drive-native-integration-moderate-limits)
+- [Box - Enterprise-Grade Security](#box-enterprise-grade-security)
+- [Rclone - The Developer-First Approach](#rclone-the-developer-first-approach)
 - [Which Solution Fits Your Agency?](#which-solution-fits-your-agency)
 - [SFTP-Based File Sharing for Maximum Control](#sftp-based-file-sharing-for-maximum-control)
 - [Handling Oversized Files (10GB+)](#handling-oversized-files-10gb)
 - [Version Control for Design Files](#version-control-for-design-files)
 - [Multi-Cloud Redundancy Strategy](#multi-cloud-redundancy-strategy)
 - [Bandwidth Optimization for Global Teams](#bandwidth-optimization-for-global-teams)
-- [Security: Permission Granularity](#security-permission-granularity)
+- [Security - Permission Granularity](#security-permission-granularity)
 - [Measuring File Sharing Efficiency](#measuring-file-sharing-efficiency)
-- [Transition Strategy: Migrating Between Providers](#transition-strategy-migrating-between-providers)
+- [Transition Strategy - Migrating Between Providers](#transition-strategy-migrating-between-providers)
 
-The Core Problem: Latency and Version Control
+The Core Problem - Latency and Version Control
 
 Design files differ fundamentally from code. A Figma export might be 500MB; a video render could hit 10GB. Standard cloud drives attempt to sync these files globally, often resulting in team members working with stale versions or burning bandwidth on constant re-uploads. The best solutions for remote agencies address three concerns: selective sync for bandwidth management, version history, and direct integration with creative tools.
 
-Dropbox: Selective Sync at Scale
+Dropbox - Selective Sync at Scale
 
 Dropbox remains a solid choice for agencies prioritizing bandwidth efficiency. Its selective sync feature allows team members to choose which folders sync locally, preventing 50GB folders from filling laptop SSDs. The Smart Sync feature automatically keeps recently accessed files available offline while streaming older assets on demand.
 
@@ -80,9 +80,9 @@ def upload_large_file(file_path, destination):
 
 Dropbox lacks granular role-based access controls compared to enterprise alternatives, and its collaboration features are more suited to file sharing than live design feedback.
 
-Google Drive: Native Integration, Moderate Limits
+Google Drive - Native Integration, Moderate Limits
 
-Google Drive works well for agencies already embedded in the Google Workspace ecosystem. Its real-time collaboration on Google Docs and Sheets transfers to shared folders, and the integration with Figma and other web-based tools is. However, individual file size limits (5TB for single files) can constrain large video or 3D asset workflows.
+Google Drive works well for agencies already embedded in the Google Workspace environment. Its real-time collaboration on Google Docs and Sheets transfers to shared folders, and the integration with Figma and other web-based tools is. However, individual file size limits (5TB for single files) can constrain large video or 3D asset workflows.
 
 Drive's API enables programmatic file management:
 
@@ -119,9 +119,9 @@ async function findLargeFiles(folderId) {
 }
 ```
 
-The limitation: Google Drive's sync client can struggle with thousands of small files, and its version history (limited to 30 days on most plans) may not satisfy agencies requiring longer audit trails.
+The limitation - Google Drive's sync client can struggle with thousands of small files, and its version history (limited to 30 days on most plans) may not satisfy agencies requiring longer audit trails.
 
-Box: Enterprise-Grade Security
+Box - Enterprise-Grade Security
 
 Box positions itself as the enterprise file management solution, with compliance certifications that matter for agencies handling client work under NDA. Its granular permissions, watermarking, and detailed audit logs exceed what Dropbox or Google Drive provide out of the box.
 
@@ -176,7 +176,7 @@ def generate_expiring_links(folder_id, expiry_hours=24):
 
 Box's drawback is its steeper learning curve and less intuitive interface compared to consumer-focused alternatives. The sync client also consumes more system resources.
 
-Rclone: The Developer-First Approach
+Rclone - The Developer-First Approach
 
 For technical teams comfortable with command-line tools, rclone offers unparalleled flexibility. This open-source CLI tool connects to over 70 cloud storage providers, allowing agencies to bridge multiple storage backends without committing to a single vendor.
 
@@ -206,7 +206,7 @@ The mount feature lets creative applications access cloud storage directly, thou
 
 Which Solution Fits Your Agency?
 
-Choose Dropbox if your team prioritizes simplicity and cross-platform sync with selective folder control. Select Google Drive if you're already embedded in Google's ecosystem and need real-time document collaboration alongside design assets. Pick Box when compliance requirements demand enterprise-grade security and audit trails. Opt for rclone when you need to bridge multiple storage providers or want CLI-driven automation.
+Choose Dropbox if your team prioritizes simplicity and cross-platform sync with selective folder control. Select Google Drive if you're already embedded in Google's environment and need real-time document collaboration alongside design assets. Pick Box when compliance requirements demand enterprise-grade security and audit trails. Opt for rclone when you need to bridge multiple storage providers or want CLI-driven automation.
 
 For most remote design agencies, a hybrid approach works best: Dropbox or Google Drive for active projects requiring collaboration, with rclone scripts handling archival to cheaper cold storage. The key is ensuring your file sharing solution supports selective sync, maintains reliable version history, and integrates with your existing creative tooling without forcing workflow changes.
 
@@ -218,7 +218,7 @@ For agencies handling confidential work under strict NDAs, SFTP provides complet
 #!/bin/bash
 SFTP-based project folder with automated cleanup
 
-Setup: Create SFTP user with chroot jail to project folders
+Setup - Create SFTP user with chroot jail to project folders
 sudo useradd -m -d /projects/client-name client-sftp
 sudo usermod -s /sbin/nologin client-sftp
 
@@ -325,7 +325,7 @@ aws s3 sync s3://agency-eu-designs/ s3://agency-us-designs/ \
 
 This reduces latency for large file access and improves performance during collaborative work.
 
-Security: Permission Granularity
+Security - Permission Granularity
 
 Different clients and projects require different access levels:
 
@@ -358,14 +358,14 @@ file_sharing_metrics = {
     'client_satisfaction_with_delivery_process': 4.8
 }
 
-Green zone: metrics above
-Yellow zone: download time > 120s, sync latency > 15 min
-Red zone: permission disputes, access incidents
+Green zone - metrics above
+Yellow zone - download time > 120s, sync latency > 15 min
+Red zone - permission disputes, access incidents
 ```
 
 If metrics degrade, investigate root cause. Often it's not the tool, it's that team members are using workarounds (email, USB drives) because the official system is cumbersome.
 
-Transition Strategy: Migrating Between Providers
+Transition Strategy - Migrating Between Providers
 
 When switching file sharing providers:
 
