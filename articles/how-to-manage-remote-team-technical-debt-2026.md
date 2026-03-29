@@ -2,8 +2,8 @@
 title: "How to Manage Remote Team Technical Debt in 2026"
 description: "Tech debt tracking, prioritization frameworks, sprint allocation strategies, and tools for distributed engineering teams."
 author: "Remote Work Tools Guide"
-date: "2026-03-22"
-updated: "2026-03-22"
+date: 2026-03-22
+updated: 2026-03-22
 reviewed: true
 score: 9
 voice-checked: true
