@@ -3,6 +3,7 @@ layout: default
 title: "Git Branching Strategy for Remote Teams"
 description: "Choose and implement the right Git branching strategy for distributed remote teams. Covers trunk-based development, GitHub Flow, Gitflow, and branch protection"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /git-branching-strategy-remote-teams/
 categories: [guides]

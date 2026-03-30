@@ -3,6 +3,7 @@ layout: default
 title: "How to Optimize Slack for Large Remote Teams"
 description: "Configure Slack for 50-500 person remote engineering teams. channel architecture, notification policies, Workflow Builder automations, and async norms"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-optimize-slack-for-large-remote-teams/
 categories: [guides]

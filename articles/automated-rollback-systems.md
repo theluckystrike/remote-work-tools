@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Automated Rollback Systems"
 description: "Build automated rollback systems for Kubernetes, Docker Compose, and Lambda deployments using health checks, Prometheus metrics, and GitHub Actions."
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /automated-rollback-systems/
 categories: [guides]

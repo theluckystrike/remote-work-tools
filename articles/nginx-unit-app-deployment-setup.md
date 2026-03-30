@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Nginx Unit for App Deployment"
 description: "Deploy Python, Node.js, and Go apps with Nginx Unit using its REST API for zero-downtime config changes, TLS termination, and process isolation on remote infra"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /nginx-unit-app-deployment-setup/
 categories: [guides]

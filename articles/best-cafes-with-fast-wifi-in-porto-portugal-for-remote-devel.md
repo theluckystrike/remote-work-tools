@@ -3,6 +3,7 @@ layout: default
 title: "Test WiFi speed using speedtest-cli"
 description: "Discover the top cafes in Porto with reliable high-speed WiFi, power outlets, and great coffee, perfect for remote developers working abroad"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/
 reviewed: true

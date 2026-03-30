@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Traefik Reverse Proxy"
 description: "Deploy Traefik as a reverse proxy with automatic SSL, Docker service discovery, and dashboard access for remote infrastructure teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-traefik-reverse-proxy/
 categories: [guides]

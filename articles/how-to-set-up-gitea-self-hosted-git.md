@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Gitea for Self-Hosted Git"
 description: "Deploy Gitea with Docker for a lightweight self-hosted GitHub alternative with SSH, webhooks, Actions CI, and team access controls"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-gitea-self-hosted-git/
 categories: [guides]

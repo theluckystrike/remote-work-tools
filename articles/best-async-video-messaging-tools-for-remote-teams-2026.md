@@ -3,6 +3,7 @@ title: "Best Async Video Messaging Tools for Remote Teams 2026"
 description: "Compare Loom, Vimeo Record, Tella, and Screencastify for async video messaging. Include pricing, recording limits, integrations, and analytics for"
 author: Remote Work Tools Guide
 date: 2026-03-21
+last_modified_at: 2026-03-21
 reviewed: true
 score: 9
 voice-checked: true

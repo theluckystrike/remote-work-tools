@@ -3,6 +3,7 @@ layout: default
 title: "Automate Expense Reports for Remote Workers"
 description: "Automate expense report creation and submission using scripts, receipt OCR, and free tools. Covers CSV generation, PDF reports, and email delivery without SaaS"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /automate-expense-reports-remote-workers/
 categories: [guides]

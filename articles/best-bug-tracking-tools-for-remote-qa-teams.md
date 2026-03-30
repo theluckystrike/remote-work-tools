@@ -3,6 +3,7 @@ layout: default
 title: "Best Bug Tracking Tools for Remote QA Teams"
 description: "Linear is the best bug tracking tool for most remote QA teams thanks to its fast keyboard-driven interface, tight GitHub integration, and workflow automation"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-bug-tracking-tools-for-remote-qa-teams/
 reviewed: true

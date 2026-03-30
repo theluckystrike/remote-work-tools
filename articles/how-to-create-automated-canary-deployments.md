@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Automated Canary Deployments"
 description: "Implement automated canary deployments with Argo Rollouts, Flagger, or Nginx weighted routing to reduce deployment risk for remote teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-automated-canary-deployments/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Teleport for Secure Access"
 description: "Deploy Teleport to give remote teams zero-trust SSH, Kubernetes, and database access with short-lived certificates, audit logs, and no VPN required"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /teleport-secure-access-setup/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Best Calendar Scheduling Tools for Remote Teams 2026"
 description: "Compare the top calendar scheduling tools for remote teams in 2026. Covers Cal.com, Calendly, Reclaim, Motion, and SavvyCal with config examples and team use"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /calendar-scheduling-tools-remote-teams-2026/
 categories: [guides]

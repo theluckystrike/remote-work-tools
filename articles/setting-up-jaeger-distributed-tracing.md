@@ -3,6 +3,7 @@ layout: default
 title: "Setting Up Jaeger for Distributed Tracing"
 description: "Deploy Jaeger for distributed tracing across microservices with OpenTelemetry instrumentation, Elasticsearch storage, and Grafana dashboards"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /setting-up-jaeger-distributed-tracing/
 categories: [guides]

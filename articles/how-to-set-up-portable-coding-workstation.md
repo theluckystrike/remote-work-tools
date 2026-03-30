@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up a Portable Coding Workstation"
 description: "Build a portable coding workstation for remote engineers. laptop, hub, portable monitor, keyboard, and cloud sync setup that works from any location"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-portable-coding-workstation/
 categories: [guides]

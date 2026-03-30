@@ -3,6 +3,7 @@ layout: default
 title: "Best Password Manager for Remote Development Teams"
 description: "Find the best password manager for remote development teams with CLI integration, team sharing features, and security features developers need"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-password-manager-for-remote-development-teams/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Fluentd for Log Collection"
 description: "Deploy Fluentd to aggregate logs from Docker containers, applications, and servers into Elasticsearch, S3, or a centralized log store for remote teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-fluentd-for-log-collection/
 categories: [guides]

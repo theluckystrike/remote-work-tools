@@ -3,6 +3,7 @@ layout: default
 title: "Setting Up Harbor for Container Registry"
 description: "Deploy Harbor as a self-hosted container registry with image scanning, replication, LDAP auth, and robot accounts for remote DevOps teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /setting-up-harbor-for-container-registry/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Renovate for Dependency Updates"
 description: "Configure Renovate Bot to automate dependency updates across remote team repos with grouping, scheduling, and auto-merge for patch releases"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-renovate-dependency-updates/
 categories: [guides]

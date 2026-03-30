@@ -9,6 +9,7 @@ score: 9
 voice-checked: true
 intent-checked: true
 date: 2026-03-21
+last_modified_at: 2026-03-21
 tags: [remote-work-tools, best-of, remote-work]
 permalink: /best-tools-for-remote-team-knowledge-base-2026/
 ---

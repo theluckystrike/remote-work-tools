@@ -3,6 +3,7 @@ layout: default
 title: "Best Practice for Remote Team Product Demo Day Format That"
 description: "Product demo days become exponentially harder as your remote engineering team grows. What works flawlessly with 10 engineers becomes a logistical nightmare at"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-product-demo-day-format-that-s/
 categories: [guides]

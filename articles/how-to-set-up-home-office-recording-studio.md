@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up a Home Office Recording Studio"
 description: "Build a home office recording setup for async video demos, screencasts, and team presentations. mic, room treatment, camera, and software for engineers"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-home-office-recording-studio/
 categories: [guides]

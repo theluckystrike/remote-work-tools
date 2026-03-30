@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Post-Mortems"
 description: "Run effective async post-mortems with distributed teams using Notion, GitHub Issues, Jeli, and structured templates. with timelines, action items, and."
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-post-mortem-tools/
 categories: [guides]

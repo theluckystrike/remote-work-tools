@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Style Guides"
 description: "Build engineering style guides for remote teams. code style, API design conventions, commit messages, and PR templates with enforcement tooling"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-remote-team-style-guides/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Remote Team Documentation Culture in 2026"
 description: "Build documentation-first culture for distributed teams. Tools, templates, async decision records, knowledge management, and onboarding patterns."
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-team-documentation-culture-2026/
 categories: [guides]

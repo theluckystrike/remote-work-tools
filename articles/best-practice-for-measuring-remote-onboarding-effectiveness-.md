@@ -3,6 +3,7 @@ layout: default
 title: "Find the first commit by a specific author"
 description: "Measuring remote onboarding effectiveness requires metrics that actually tell you whether new developers are becoming productive members of your team. Time to"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/
 categories: [guides]

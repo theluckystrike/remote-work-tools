@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Internet Redundancy Setup Guide"
 description: "Build a failover internet setup for remote engineers using 4G/5G backup, router failover configuration, and tools that minimize connection disruption"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-work-internet-redundancy-setup-guide/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Best Monitor Height for Bifocal Glasses Wearing Developers"
 description: "Position your monitor center 3-6 inches lower than standard ergonomic guidelines so your natural gaze passes through the intermediate zone of your bifocal"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-monitor-height-for-bifocal-glasses-wearing-developers-setup/
 reviewed: true

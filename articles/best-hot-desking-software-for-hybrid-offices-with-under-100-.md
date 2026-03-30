@@ -3,6 +3,7 @@ layout: default
 title: "Best Hot Desking Software for Hybrid Offices with Under 100"
 description: "Find the best hot desking software for small hybrid teams. Compare features, pricing, API capabilities, and implementation considerations for offices"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-hot-desking-software-for-hybrid-offices-with-under-100-employees-2026/
 categories: [guides]

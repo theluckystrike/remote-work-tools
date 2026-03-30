@@ -1,6 +1,7 @@
 ---
 title: "How to Run a Remote Team Hackathon 2026"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 reviewed: true
 score: 9

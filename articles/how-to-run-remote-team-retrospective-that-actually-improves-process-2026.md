@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Remote Team Retrospective That Actually Improves"
 description: "Retro formats for remote teams. Learn Miro/FigJam templates, async retro workflows, action item tracking, and facilitation scripts that produce results."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-team-retrospective-that-actually-improves-process-2026/
 categories: [guides]

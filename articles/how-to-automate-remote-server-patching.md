@@ -3,6 +3,7 @@ layout: default
 title: "How to Automate Remote Server Patching"
 description: "Automate OS patching across remote Linux servers with Ansible, unattended-upgrades, and scheduled maintenance windows for distributed teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-automate-remote-server-patching/
 categories: [guides]

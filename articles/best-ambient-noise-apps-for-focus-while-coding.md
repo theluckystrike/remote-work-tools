@@ -3,6 +3,7 @@ layout: default
 title: "Best Ambient Noise Apps for Focus While Coding"
 description: "Discover the best ambient noise apps for focus while coding. Find tools and techniques to block distractions and enter flow state"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /best-ambient-noise-apps-for-focus-while-coding/
 categories: [guides]

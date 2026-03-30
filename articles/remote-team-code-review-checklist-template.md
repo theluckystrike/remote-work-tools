@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Code Review Checklist Template"
 description: "A practical code review checklist template for remote teams covering correctness, security, performance, and async review etiquette"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-code-review-checklist-template/
 categories: [guides]

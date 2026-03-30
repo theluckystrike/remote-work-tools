@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Remote Engineering Standups That Work"
 description: "Design async and synchronous standup formats for remote engineering teams. tools, timing, templates, and anti-patterns for 5-20 person distributed teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-run-remote-engineering-standups/
 categories: [guides]

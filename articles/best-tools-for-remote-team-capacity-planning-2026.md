@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Capacity Planning in 2026"
 description: "Compare Forecast, Float, Teamdeck, and Resource Guru for distributed team capacity planning. Pricing, features, integrations with Jira/Monday, and setup guides."
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: "Remote Work Tools Guide"
 permalink: /best-tools-for-remote-team-capacity-planning-2026/
 categories: [guides]

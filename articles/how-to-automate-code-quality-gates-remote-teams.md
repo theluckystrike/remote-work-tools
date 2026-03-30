@@ -3,6 +3,7 @@ layout: default
 title: "How to Automate Code Quality Gates for Remote Teams"
 description: "Enforce code quality across distributed teams with SonarQube, GitHub Actions, pre-commit hooks, and branch protection rules that block bad merges"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-automate-code-quality-gates-remote-teams/
 categories: [guides]

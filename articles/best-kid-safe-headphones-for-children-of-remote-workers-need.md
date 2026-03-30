@@ -3,6 +3,7 @@ layout: default
 title: "Simple volume check script for testing headphones"
 description: "Find the safest headphones for children that help remote workers maintain quiet during important calls. Features, volume limiting, and practical setup"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-kid-safe-headphones-for-children-of-remote-workers-need/
 categories: [guides]

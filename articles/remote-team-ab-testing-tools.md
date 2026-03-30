@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team A/B Testing"
 description: "Compare GrowthBook, Flagsmith, Unleash, and LaunchDarkly for remote team A/B testing with feature flag setup, experiment configs, and SDK integration examples"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-ab-testing-tools/
 categories: [guides]

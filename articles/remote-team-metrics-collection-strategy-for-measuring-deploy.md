@@ -5,6 +5,7 @@ layout: default
 title: "Remote Team Metrics Collection Strategy for Measuring"
 description: "Learn how to collect and analyze deployment lead time metrics across distributed teams. Practical strategies and workflow examples for remote teams"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-metrics-collection-strategy-for-measuring-deploy/
 categories: [guides]

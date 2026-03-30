@@ -3,6 +3,7 @@ layout: default
 title: "Optimize Docker for Slow Connections When Working Remotely"
 description: "Cut Docker image pull times and build speeds on slow or metered connections. Covers layer caching, local registries, BuildKit options, and pull-through cache"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /docker-optimize-slow-connection-remote-work/
 categories: [guides]

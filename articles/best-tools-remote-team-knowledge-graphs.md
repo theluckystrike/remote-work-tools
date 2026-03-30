@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Knowledge Graphs"
 description: "Top knowledge graph tools remote teams use to map relationships between concepts, people, and systems. with setup for Obsidian, Logseq, and Memgraph"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-tools-remote-team-knowledge-graphs/
 categories: [guides]

@@ -4,6 +4,7 @@ layout: default
 title: "Best Data Collection Tools for Remote User Research Teams"
 description: "Discover the best data collection tools for remote user research teams. Compare features, workflows, and implementation patterns for gathering feedback"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /best-data-collection-tool-for-remote-user-research-teams-gat/
 reviewed: true

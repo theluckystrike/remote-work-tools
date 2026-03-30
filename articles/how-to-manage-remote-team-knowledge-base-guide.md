@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage Remote Team Knowledge Base: Complete Guide"
 description: "Build and maintain effective team knowledge bases for remote teams. Compare tools, document standards, searchability strategies, and best practices for"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-remote-team-knowledge-base-guide/
 categories: [guides]

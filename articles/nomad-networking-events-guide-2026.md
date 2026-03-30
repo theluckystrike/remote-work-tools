@@ -4,6 +4,7 @@ layout: default
 title: "Nomad Networking Events Guide 2026"
 description: "A practical guide to networking events for digital nomads in 2026. Learn about tools, strategies, and code examples for remote developers."
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /nomad-networking-events-guide-2026/
 reviewed: true

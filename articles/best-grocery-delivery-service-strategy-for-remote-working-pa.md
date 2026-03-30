@@ -3,6 +3,7 @@ layout: default
 title: "Best Grocery Delivery Service Strategy for Remote Working"
 description: "Discover practical grocery delivery strategies for remote working parents. Learn automation scripts, scheduling techniques, and workflow optimization"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-grocery-delivery-service-strategy-for-remote-working-pa/
 categories: [guides]

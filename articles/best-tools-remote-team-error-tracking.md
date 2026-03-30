@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Error Tracking"
 description: "Compare Sentry, Glitchtip, Rollbar, and Honeybadger for error tracking and alerting in distributed remote teams shipping to production continuously"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-tools-remote-team-error-tracking/
 categories: [guides]

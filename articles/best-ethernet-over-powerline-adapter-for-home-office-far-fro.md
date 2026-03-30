@@ -3,6 +3,7 @@ layout: default
 title: "Best Ethernet Over Powerline Adapter for Home Office Far"
 description: "Running ethernet cable through walls and ceilings is impractical for most home offices. Whether you're in a rented apartment, a multi-story house, or simply"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-ethernet-over-powerline-adapter-for-home-office-far-fro/
 categories: [guides]

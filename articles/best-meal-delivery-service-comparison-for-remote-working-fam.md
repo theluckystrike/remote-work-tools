@@ -3,6 +3,7 @@ layout: default
 title: "Best Meal Delivery Service Comparison for Remote Working"
 description: "A practical comparison of meal delivery services for remote working families. Compare HelloFresh, Blue Apron, Factor, Home Chef and more to save"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-meal-delivery-service-comparison-for-remote-working-fam/
 categories: [guides]

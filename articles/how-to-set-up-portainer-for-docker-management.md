@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Portainer for Docker Management"
 description: "Deploy Portainer CE for visual Docker management, stack deployments, and remote access across multiple container hosts for distributed teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-portainer-for-docker-management/
 categories: [guides]

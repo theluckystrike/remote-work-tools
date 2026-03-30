@@ -3,6 +3,7 @@ layout: default
 title: "Redshift - Linux/Unix blue light filter"
 description: "The best home office setup for software developers starts with a 60-inch height-adjustable desk, a 27-inch 4K primary monitor on an arm mount, an ergonomic"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-home-office-setup-for-software-developers/
 reviewed: true

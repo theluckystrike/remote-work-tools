@@ -3,6 +3,7 @@ layout: default
 title: "How to Organize Remote Team Playbook Documentation for"
 description: "A practical guide for developers and power users on structuring remote team playbooks that scale. Learn documentation patterns, tooling choices, and"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /how-to-organize-remote-team-playbook-documentation-for-repea/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Remote DevOps Team Dependency Update Workflow for"
 description: "Learn practical dependency update workflows for remote DevOps teams managing multiple repositories. Real-world examples for distributed teams in 2026."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /remote-devops-team-dependency-update-workflow-for-coordinati/
 categories: [guides]

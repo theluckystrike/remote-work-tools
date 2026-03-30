@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Architecture Decision Records"
 description: "Compare Log4brains, GitHub Discussions, and Notion for async ADR workflows in remote engineering teams. setup, search, and review process for each"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-tools-for-remote-architecture-decision-records/
 categories: [guides]

@@ -3,6 +3,7 @@ title: "How to Set Up Remote Pair Programming Sessions in 2026"
 description: "Guide to VS Code Live Share, Tuple, Pop, and CodeTogether for pair programming. Pricing, latency comparison, driver/navigator workflows."
 author: Remote Work Tools Guide
 date: 2026-03-22
+last_modified_at: 2026-03-22
 reviewed: true
 score: 9
 voice-checked: true

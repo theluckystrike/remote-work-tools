@@ -3,6 +3,7 @@ layout: default
 title: "Remote DevOps Team Deployment Freeze Coordination Tool for Holiday and Migration Periods"
 description: "Learn how to coordinate deployment freezes effectively across distributed DevOps teams during holidays, system migrations, and high-risk periods."
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-devops-team-deployment-freeze-coordination-tool-for-h/
 reviewed: true

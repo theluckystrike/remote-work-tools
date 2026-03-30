@@ -3,6 +3,7 @@ layout: default
 title: "Best Noise Gate Microphone Setting for Remote Parents"
 description: "Practical noise gate configuration guide for remote workers with children. Filter out playground noise, toys, and household sounds during video calls"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-noise-gate-microphone-setting-for-remote-parents-with-k/
 categories: [guides]

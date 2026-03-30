@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Git Hooks Standardization Guide"
 description: "Standardize Git hooks across distributed teams using Husky, pre-commit, and Lefthook to enforce code quality at commit time"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-git-hooks-standardization-guide/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Microphone Comparison Guide 2026"
 description: "Compare the Rode PodMic USB, Shure MV7+, Blue Yeti X, and DJI Mic 2 for remote work calls. with gain settings, room treatment tips, and software config"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-work-microphone-comparison-2026/
 categories: [guides]

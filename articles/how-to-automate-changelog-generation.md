@@ -3,6 +3,7 @@ layout: default
 title: "How to Automate Changelog Generation"
 description: "Automate changelog generation from conventional commits using git-cliff, release-please, and GitHub Actions for consistent release documentation"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-automate-changelog-generation/
 categories: [guides]

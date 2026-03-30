@@ -3,6 +3,7 @@ layout: default
 title: "Async Team Retrospective Using Shared Documents and Recorded"
 description: "A practical guide to running async team retrospectives using shared documents and recorded summaries. Eliminate meeting fatigue while capturing"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /async-team-retrospective-using-shared-documents-and-recorded/
 categories: [guides]

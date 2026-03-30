@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Secret Sharing"
 description: "Compare Vault, Doppler, 1Password Teams, and SOPS for sharing secrets across remote teams. with setup examples, access controls, and audit trail config"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-secret-sharing-tools/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Best Mobile Presentation Remote App for Remote Speakers"
 description: "Discover the best mobile presentation remote apps for remote speakers. Control your slides from your phone during virtual meetings, webinars, and client"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /best-mobile-presentation-remote-app-for-remote-speakers-cont/
 categories: [guides]

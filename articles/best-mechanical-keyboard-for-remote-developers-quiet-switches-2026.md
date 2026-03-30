@@ -3,6 +3,7 @@ layout: default
 title: "Best Mechanical Keyboard for Remote Developers"
 description: "Compare quiet mechanical keyboards for remote work. Cherry MX Silent Red, Gateron Silent Brown, Keychron Q1, Leopold FC660M with noise benchmarks"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /best-mechanical-keyboard-for-remote-developers-quiet-switches-2026/
 categories: [guides]

@@ -4,6 +4,7 @@ layout: default
 title: "Remote Work Distraction Elimination Guide 2026"
 description: "Eliminate remote work distractions: app blockers, time-boxing methods, workspace design, and notification management strategies tested in 2026."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /remote-work-distraction-elimination-guide-2026/
 categories: [guides]

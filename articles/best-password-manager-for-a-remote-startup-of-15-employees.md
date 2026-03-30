@@ -3,6 +3,7 @@ layout: default
 title: "Best Password Manager for a Remote Startup of 15 Employees"
 description: "A practical guide to choosing password management solutions for small remote teams. Compare features, security models, and implementation strategies"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-password-manager-for-a-remote-startup-of-15-employees/
 reviewed: true

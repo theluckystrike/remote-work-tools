@@ -3,6 +3,7 @@ layout: default
 title: "Best Business Intelligence Tool for Small Remote Teams"
 description: "Discover the best business intelligence tool for small remote teams without a dedicated data analyst. Compare self-service BI platforms that empower"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /best-business-intelligence-tool-for-small-remote-teams-witho/
 categories: [guides]

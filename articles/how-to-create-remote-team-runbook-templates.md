@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Runbook Templates"
 description: "Build reusable runbook templates for remote engineering teams covering incident response, deployments, and database procedures with checklist automation"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-remote-team-runbook-templates/
 categories: [guides]

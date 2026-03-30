@@ -5,6 +5,7 @@ layout: default
 title: "Switching from Zoom to Around for Lightweight Remote Team"
 description: "A practical guide for developers and power users transitioning from Zoom to Around for lightweight remote team video calls in 2026. Compare features, API"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /switching-from-zoom-to-around-for-lightweight-remote-team-vi/
 categories: [guides]

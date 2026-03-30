@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Power Backup and UPS Guide"
 description: "Choose and configure a UPS for home office power protection. sizing calculations, runtime estimates, and integration with NAS and network gear for remote"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-work-power-backup-ups-guide/
 categories: [guides]

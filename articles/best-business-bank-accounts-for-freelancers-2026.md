@@ -3,6 +3,7 @@ layout: default
 title: "Best Business Bank Accounts for Freelancers 2026"
 description: "Choosing the right business bank account ranks among the most consequential financial decisions for freelance developers. Your business banking directly"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /best-business-bank-accounts-for-freelancers-2026/
 categories: [guides]

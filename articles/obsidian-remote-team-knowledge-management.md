@@ -3,6 +3,7 @@ layout: default
 title: "Obsidian for Remote Team Knowledge Management"
 description: "Use Obsidian as a shared knowledge base for remote teams. Covers vault syncing, folder conventions, templates, graph linking, and publishing internal docs."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /obsidian-remote-team-knowledge-management/
 categories: [guides]

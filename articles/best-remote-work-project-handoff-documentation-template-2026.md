@@ -3,6 +3,7 @@ title: "Best Remote Work Project Handoff Documentation Template"
 description: "Templates for handing off projects between remote team members. Notion and Confluence templates, async handoff checklists, video walkthrough best practices"
 author: Remote Work Tools Guide
 date: 2026-03-21
+last_modified_at: 2026-03-21
 permalink: /best-remote-work-project-handoff-documentation-template-2026/
 reviewed: true
 score: 9

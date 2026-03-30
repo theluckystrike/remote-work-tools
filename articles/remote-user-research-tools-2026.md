@@ -3,6 +3,7 @@ layout: default
 title: "Best Remote User Research Tools 2026"
 description: "Compare the top remote user research tools in 2026. Covers unmoderated testing, participant recruitment, session recording, heatmaps, and survey tools."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /remote-user-research-tools-2026/
 categories: [guides]

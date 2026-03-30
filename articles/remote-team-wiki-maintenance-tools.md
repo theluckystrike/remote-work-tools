@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Wiki Maintenance"
 description: "Compare Notion, Outline, Confluence, and Bookstack for remote team wikis with automation scripts for link checking, stale page detection, and ownership..."
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-wiki-maintenance-tools/
 categories: [guides]

@@ -4,6 +4,7 @@ layout: default
 title: "Best Open Source Screen Recording Tools for Remote Team"
 description: "Discover the top open source screen recording tools that enable asynchronous communication for remote development teams. Compare features, integrations"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /best-open-source-screen-recording-tool-for-remote-team-async/
 reviewed: true

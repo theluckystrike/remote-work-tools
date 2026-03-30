@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Remote Mob Programming Sessions"
 description: "Set up effective remote mob programming with VS Code Live Share, Tuple, and structured rotation. roles, timing, and anti-patterns to avoid"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-run-remote-mob-programming-sessions/
 categories: [guides]

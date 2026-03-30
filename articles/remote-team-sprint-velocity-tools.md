@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Sprint Velocity"
 description: "Track sprint velocity across a distributed team using Linear, Jira, and custom GitHub scripts. with burndown charts, capacity formulas, and async."
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-sprint-velocity-tools/
 categories: [guides]

@@ -4,6 +4,7 @@ layout: default
 title: "Best Knowledge Base Platform for Remote Support Team"
 description: "Discover the top knowledge base platforms ideal for remote support teams creating customer-facing articles. Compare features, pricing, and integration"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /best-knowledge-base-platform-for-remote-support-team-customer-facing-articles/
 reviewed: true

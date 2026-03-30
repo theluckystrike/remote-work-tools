@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Collaboration Quality Framework (2026)"
 description: "Learn how to measure remote team collaboration effectiveness using actionable metrics, code-based tools, and practical frameworks that go beyond simple"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-framework-for-evaluating-remote-team-collaboration-qual/
 reviewed: true

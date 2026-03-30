@@ -3,6 +3,7 @@ layout: default
 title: "Migrating from Slack Huddles to Discord Stage Channels for"
 description: "A practical guide for developers moving from Slack huddles to Discord stage channels. Learn how to set up stage channels, manage permissions, and optimize"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /migrating-from-slack-huddles-to-discord-stage-channels-for-r/
 categories: [guides]

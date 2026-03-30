@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up ArgoCD for GitOps Workflows"
 description: "Deploy ArgoCD on Kubernetes to sync cluster state from a Git repository. with App of Apps pattern, RBAC, SSO, automated sync policies, and multi-cluster setup"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /argocd-gitops-workflow-setup/
 categories: [guides]

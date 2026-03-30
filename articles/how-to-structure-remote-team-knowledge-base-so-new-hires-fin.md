@@ -4,6 +4,7 @@ layout: default
 title: "How to Structure a Remote Team Knowledge Base So New Hires Find Answers Fast"
 description: "A practical guide for developers and power users to build a knowledge base that helps new team members find information quickly in remote teams."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-structure-remote-team-knowledge-base-so-new-hires-find-answers-fast/
 reviewed: true

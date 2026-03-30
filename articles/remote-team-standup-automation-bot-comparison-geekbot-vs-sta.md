@@ -4,6 +4,7 @@ layout: default
 title: "Remote Team Standup Automation Bot Comparison: Geekbot vs"
 description: "Compare Geekbot, Standuply, and Dailybot for remote team standup automation. Find the best async standup tool for your distributed team in 2026."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /remote-team-standup-automation-bot-comparison-geekbot-vs-sta/
 categories: [guides]

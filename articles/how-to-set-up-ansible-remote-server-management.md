@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Ansible for Remote Server Management"
 description: "Configure Ansible to manage remote servers securely with inventory files, roles, and vaults for distributed infrastructure teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-ansible-remote-server-management/
 categories: [guides]

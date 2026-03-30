@@ -3,6 +3,7 @@ layout: default
 title: "Asynchronous Team Retrospective Tools Methods Process"
 description: "Guide to running effective async retrospectives with Miro, Retrium, and Google Docs, proven methods for distributed teams across timezones"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /asynchronous-team-retrospective-tools-methods-process/
 categories: [guides]

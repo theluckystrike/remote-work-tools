@@ -3,6 +3,7 @@ layout: default
 title: "Automation Tools for Freelance Business Operations"
 description: "The best automation tools for freelance business operations are Zapier and Make for workflow integration, custom bash and Python scripts for client onboarding"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /automation-tools-for-freelance-business-operations/
 reviewed: true

@@ -3,6 +3,7 @@ layout: default
 title: "Best Adjustable Laptop Stand for Eye Level on Standing Desk"
 description: "A practical guide for developers and power users finding the optimal laptop stand for eye-level use with standing desks. Covers height range, stability"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-adjustable-laptop-stand-for-eye-level-on-standing-desk/
 categories: [guides]

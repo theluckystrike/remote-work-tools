@@ -3,6 +3,7 @@ layout: default
 title: "Best Mouse Pad for Wrist Support During Long Coding Sessions"
 description: "Developers who spend hours coding know the importance of every piece of their workstation. While many invest in high-end mechanical keyboards and ergonomic"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-mouse-pad-for-wrist-support-during-long-coding-sessions/
 categories: [guides]

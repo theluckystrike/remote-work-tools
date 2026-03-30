@@ -3,6 +3,7 @@ layout: default
 title: "Async Sales Demo Recordings for Remote Enterprise Sales Team"
 description: "Build an async sales demo workflow by having sales engineers record product demonstrations once, processing them through an automated pipeline (transcoding"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /async-sales-demo-recordings-for-remote-enterprise-sales-team/
 categories: [guides]

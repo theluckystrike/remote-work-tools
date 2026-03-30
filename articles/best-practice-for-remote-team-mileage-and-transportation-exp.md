@@ -3,6 +3,7 @@ layout: default
 title: "Best Practice for Remote Team Mileage and Transportation"
 description: "To maximize mileage and transportation deductions for remote teams, use the 2026 IRS standard mileage rate of 67 cents per mile for business travel and track"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-remote-team-mileage-and-transportation-exp/
 reviewed: true

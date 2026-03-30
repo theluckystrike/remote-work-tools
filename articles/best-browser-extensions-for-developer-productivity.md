@@ -3,6 +3,7 @@ layout: default
 title: "Best Browser Extensions for Developer Productivity"
 description: "Browser extensions can transform your development workflow, saving hours of repetitive tasks and improving how you interact with web applications. This guide"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /best-browser-extensions-for-developer-productivity/
 categories: [guides]

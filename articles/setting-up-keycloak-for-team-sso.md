@@ -3,6 +3,7 @@ layout: default
 title: "Setting Up Keycloak for Team SSO"
 description: "Deploy Keycloak for self-hosted team SSO with OIDC, configure app clients, sync with LDAP or Google, and enforce MFA for remote teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /setting-up-keycloak-for-team-sso/
 categories: [guides]

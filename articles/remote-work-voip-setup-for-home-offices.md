@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work VoIP Setup for Home Offices"
 description: "Configure a reliable VoIP system for remote home offices using FreePBX, Linphone, and quality-of-service settings for clear business calls"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-work-voip-setup-for-home-offices/
 categories: [guides]

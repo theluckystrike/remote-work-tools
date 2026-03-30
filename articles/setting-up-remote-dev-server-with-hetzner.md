@@ -3,6 +3,7 @@ layout: default
 title: "Setting Up a Remote Dev Server with Hetzner"
 description: "Provision a Hetzner Cloud dev server with code-server, Tailscale, and automated snapshots. a complete setup for remote development with VS Code in the browser"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /setting-up-remote-dev-server-with-hetzner/
 categories: [guides]

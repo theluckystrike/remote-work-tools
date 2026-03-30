@@ -3,6 +3,7 @@ layout: default
 title: "Prometheus Monitoring Setup for Remote Infrastructure"
 description: "Set up Prometheus and Grafana to monitor remote servers, containers, and services. Covers exporters, alerting rules, and dashboard config for distributed infra."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /prometheus-monitoring-remote-infrastructure/
 categories: [guides]

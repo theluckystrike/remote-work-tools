@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Caddy for Internal Tools"
 description: "Deploy Caddy as a reverse proxy for internal remote team tools with automatic HTTPS, auth middleware, and zero-downtime reloads"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-caddy-for-internal-tools/
 categories: [guides]

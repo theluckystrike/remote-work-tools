@@ -3,6 +3,7 @@ layout: default
 title: "Automate Invoice Generation for Freelancers"
 description: "Automate invoice creation, numbering, and delivery using scripts and free tools. Covers CLI invoice generation, PDF output, email delivery, and payment"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /automate-invoice-generation-freelancers/
 categories: [guides]

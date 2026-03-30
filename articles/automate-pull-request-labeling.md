@@ -3,6 +3,7 @@ layout: default
 title: "How to Automate Pull Request Labeling"
 description: "Auto-label GitHub pull requests by changed files, PR size, branch name, and title patterns using Actions workflows, Labeler, and custom scripts for remote teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /automate-pull-request-labeling/
 categories: [guides]

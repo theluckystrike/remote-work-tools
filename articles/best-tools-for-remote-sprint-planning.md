@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Sprint Planning"
 description: "Compare Linear, Jira, and Notion for async sprint planning in remote engineering teams. backlog refinement, estimation, and velocity tracking workflows"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-tools-for-remote-sprint-planning/
 categories: [guides]

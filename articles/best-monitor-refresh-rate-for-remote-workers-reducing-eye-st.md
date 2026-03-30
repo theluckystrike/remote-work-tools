@@ -4,6 +4,7 @@ layout: default
 title: "Best Monitor Refresh Rate for Remote Workers: Reducing Eye"
 description: "A practical guide to choosing the optimal monitor refresh rate for remote work, with specific recommendations for developers and power users who spend"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /best-monitor-refresh-rate-for-remote-workers-reducing-eye-strain-during-video-calls/
 reviewed: true

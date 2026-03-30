@@ -3,6 +3,7 @@ title: "Best Tools for Remote Team Sprint Planning (2026)"
 description: "Compare sprint planning tools for distributed teams: Jira, Linear, Shortcut, ClickUp. Async estimation, capacity planning, velocity tracking."
 author: "Remote Work Tools Guide"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 updated: 2026-03-22
 reviewed: true
 score: 9

@@ -4,6 +4,7 @@ layout: default
 title: "Nomad Slack Communities Guide 2026"
 description: "A practical guide to finding and maximizing value from Slack communities for digital nomads and remote workers in 2026."
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /nomad-slack-communities-guide-2026/
 reviewed: true

@@ -3,6 +3,7 @@ layout: default
 title: "Best All-in-One Tool for a 5 Person Remote Nonprofit"
 description: "Finding the right productivity platform for a small remote nonprofit is about balancing functionality with budget constraints. A 5-person team needs tools that"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-all-in-one-tool-for-a-5-person-remote-nonprofit/
 categories: [guides]

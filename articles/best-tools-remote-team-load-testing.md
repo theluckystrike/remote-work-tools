@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Load Testing"
 description: "Compare k6, Gatling, Locust, and Artillery for load testing distributed APIs and services with remote teams running tests in CI pipelines"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-tools-remote-team-load-testing/
 categories: [guides]

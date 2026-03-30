@@ -4,6 +4,7 @@ layout: default
 title: "Migrating from HipChat Legacy to Slack for Remote Teams"
 description: "A practical guide for developers and power users moving from HipChat Server or HipChat Cloud to Slack. Covers data export, channel mapping, bot migration"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /migrating-from-hipchat-legacy-to-slack-for-remote-teams-still-on-old-platform/
 categories: [guides]

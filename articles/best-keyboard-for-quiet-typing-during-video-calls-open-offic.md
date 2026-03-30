@@ -3,6 +3,7 @@ layout: default
 title: "Best Keyboard for Quiet Typing During Video Calls in Open"
 description: "Find the quietest keyboard for video calls in open offices. Compare mechanical switches, membrane keyboards, and silent solutions with practical"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-keyboard-for-quiet-typing-during-video-calls-open-offic/
 categories: [guides]

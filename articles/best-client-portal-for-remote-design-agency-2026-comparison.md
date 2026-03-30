@@ -3,6 +3,7 @@ layout: default
 title: "Best Client Portal for Remote Design Agency 2026 Comparison"
 description: "A technical comparison of the best client portals for remote design agencies in 2026. Features, pricing, integrations, and implementation guidance"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-client-portal-for-remote-design-agency-2026-comparison/
 categories: [comparisons]

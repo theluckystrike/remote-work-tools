@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Automated API Health Dashboards"
 description: "Build automated API health dashboards with Prometheus, Grafana, and synthetic monitors so remote teams see outages before users do"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-automated-api-health-dashboards/
 categories: [guides]

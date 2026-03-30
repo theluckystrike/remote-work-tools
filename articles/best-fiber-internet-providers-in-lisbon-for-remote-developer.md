@@ -3,6 +3,7 @@ layout: default
 title: "Best Fiber Internet Providers in Lisbon for Remote"
 description: "A practical guide to fiber internet providers in Lisbon for remote developers needing low latency connections. Compare speeds, latency, and real-world"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-fiber-internet-providers-in-lisbon-for-remote-developer/
 categories: [guides]

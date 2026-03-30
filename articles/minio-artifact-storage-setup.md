@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up MinIO for Artifact Storage"
 description: "Deploy MinIO as a self-hosted S3-compatible artifact store for CI/CD build outputs, Terraform state, and ML datasets with lifecycle rules, RBAC, and TLS"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /minio-artifact-storage-setup/
 categories: [guides]

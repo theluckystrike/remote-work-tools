@@ -4,6 +4,7 @@ layout: default
 title: "Best Payment Collection Automation for Remote Businesses"
 description: "A practical guide to automating payment collection and invoice reminders for remote teams and distributed businesses."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /best-payment-collection-automation-for-remote-businesses-sending-invoice-reminders-2026/
 reviewed: true

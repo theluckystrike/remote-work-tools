@@ -3,6 +3,7 @@ layout: default
 title: "Best External Display for MacBook Air M4 Home Office Setup"
 description: "The MacBook Air M4 delivers impressive performance in a thin, lightweight design. However, for developers and remote workers who spend 8+ hours coding, a"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-external-display-for-macbook-air-m4-home-office-setup/
 categories: [guides]

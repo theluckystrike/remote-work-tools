@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage Remote Team Tech Debt Backlog"
 description: "Build an async-friendly tech debt tracking system with GitHub Issues, scoring frameworks, and weekly async review workflows for distributed engineering teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-manage-remote-team-tech-debt-backlog/
 categories: [guides]

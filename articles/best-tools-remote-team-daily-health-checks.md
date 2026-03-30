@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Daily Health Checks"
 description: "Top tools for automating remote team status checks covering service uptime, deployment health, budget alerts, and async standup alternatives"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-tools-remote-team-daily-health-checks/
 categories: [guides]

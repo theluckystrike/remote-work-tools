@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Deployment Pipeline Best Practices"
 description: "Design a deployment pipeline for remote engineering teams with async approvals, deployment windows, rollback automation, and on-call handoff procedures"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-deployment-pipeline-best-practices/
 categories: [guides]

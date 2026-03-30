@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Terminal Emulator Comparison 2026"
 description: "Compare Warp, Ghostty, WezTerm, and Alacritty for remote developer productivity with multiplexing, SSH, and team collaboration features"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-terminal-emulator-comparison/
 categories: [guides]

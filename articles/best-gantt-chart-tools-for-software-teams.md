@@ -3,6 +3,7 @@ layout: default
 title: "Best Gantt Chart Tools for Software Teams: A Practical Guide"
 description: "A practical comparison of Gantt chart tools for software development teams. Includes API integrations, automation examples, and implementation patterns"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-gantt-chart-tools-for-software-teams/
 reviewed: true

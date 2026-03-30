@@ -3,6 +3,7 @@ layout: default
 title: "Best Async Collaboration Tools for Designers 2026"
 description: "Compare Figma, Loom, and Notion for async design workflows. async feedback, design reviews, handoff, and annotation tools for distributed design teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-async-collaboration-tools-for-designers/
 categories: [guides]

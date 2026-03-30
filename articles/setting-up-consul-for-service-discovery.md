@@ -3,6 +3,7 @@ layout: default
 title: "Setting Up Consul for Service Discovery"
 description: "Deploy HashiCorp Consul for service discovery, health checking, and dynamic configuration across distributed remote team infrastructure"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /setting-up-consul-for-service-discovery/
 categories: [guides]

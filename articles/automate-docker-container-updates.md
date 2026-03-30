@@ -3,6 +3,7 @@ layout: default
 title: "How to Automate Docker Container Updates"
 description: "Use Watchtower, Diun, and shell scripts to automate Docker container updates with rollback safety, Slack notifications, and minimal downtime for remote infra"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /automate-docker-container-updates/
 categories: [guides]

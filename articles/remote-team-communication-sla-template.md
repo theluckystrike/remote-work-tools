@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Communication SLA Template"
 description: "Define response time expectations, channel norms, and escalation paths for distributed teams with a practical communication SLA framework"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-communication-sla-template/
 categories: [guides]

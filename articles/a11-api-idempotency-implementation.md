@@ -3,6 +3,7 @@ layout: default
 title: "API Idempotency Implementation Guide for Distributed Systems"
 description: "Implement API idempotency: idempotency key patterns, database-backed dedup, Redis locks, and retry-safe endpoint design with code examples."
 date: 2026-03-18
+last_modified_at: 2026-03-18
 author: theluckystrike
 permalink: /a11-api-idempotency-implementation/
 categories: [guides]

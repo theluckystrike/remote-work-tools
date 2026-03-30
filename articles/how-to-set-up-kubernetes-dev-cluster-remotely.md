@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up a Kubernetes Dev Cluster Remotely"
 description: "Spin up a remote Kubernetes dev cluster with k3s, configure kubeconfig for team access, and deploy apps with Helm and Skaffold"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-kubernetes-dev-cluster-remotely/
 categories: [guides]

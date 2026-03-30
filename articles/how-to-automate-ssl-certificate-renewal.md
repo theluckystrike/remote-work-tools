@@ -3,6 +3,7 @@ layout: default
 title: "How to Automate SSL Certificate Renewal"
 description: "Automate Let's Encrypt SSL certificate renewal with Certbot, acme.sh, and GitHub Actions for zero-downtime certificate management"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-automate-ssl-certificate-renewal/
 categories: [guides]

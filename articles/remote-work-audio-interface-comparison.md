@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Audio Interface Comparison"
 description: "Compare the Focusrite Scarlett Solo, SSL 2, M-Audio AIR 192|4, and Universal Audio Volt 176 for remote work calls and recording with gain settings and..."
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-work-audio-interface-comparison/
 categories: [guides]

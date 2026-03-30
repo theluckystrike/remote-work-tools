@@ -3,6 +3,7 @@ layout: default
 title: "Prometheus Alerting for Remote Infrastructure"
 description: "Configure Prometheus alerting rules, Alertmanager routing, and PagerDuty/Slack integrations to catch remote infra failures before users notice"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /prometheus-alerting-remote-infra-setup/
 categories: [guides]

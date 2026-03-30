@@ -5,6 +5,7 @@ layout: default
 title: "Best Knowledge Base Search Tool for Remote Teams with Docs"
 description: "Find the best knowledge base search tool for remote teams managing documentation across multiple platforms. Compare search capabilities, integrations, and"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /best-knowledge-base-search-tool-for-remote-teams-with-docs-across-multiple-platforms/
 categories: [guides]

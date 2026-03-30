@@ -3,6 +3,7 @@ title: "Best Tools for Remote Team Async Standups in 2026"
 description: "Compare Geekbot, Standuply, Range, and DailyBot for asynchronous standup meetings. Pricing, Slack integration, and reporting features analyzed."
 author: Remote Work Tools Guide
 date: 2026-03-22
+last_modified_at: 2026-03-22
 reviewed: true
 score: 8
 voice-checked: true

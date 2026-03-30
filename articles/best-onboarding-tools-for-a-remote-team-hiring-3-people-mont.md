@@ -3,6 +3,7 @@ layout: default
 title: "Best Onboarding Tools for a Remote Team Hiring 3 People"
 description: "When your remote team brings in three new hires every month, manual onboarding processes quickly become a bottleneck. Each new team member needs access to"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/
 categories: [guides]

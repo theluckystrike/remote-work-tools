@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Dependency Tracking"
 description: "Compare Renovate, Dependabot, OWASP Dependency-Check, and Snyk for automated dependency updates and vulnerability tracking in remote teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-tools-remote-team-dependency-tracking/
 categories: [guides]

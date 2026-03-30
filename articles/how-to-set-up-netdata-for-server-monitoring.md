@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Netdata for Server Monitoring"
 description: "Install and configure Netdata for real-time server monitoring with alerting, dashboards, and remote team access for distributed infrastructure"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-netdata-for-server-monitoring/
 categories: [guides]

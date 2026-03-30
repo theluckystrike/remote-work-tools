@@ -3,6 +3,7 @@ layout: default
 title: "Recommended equipment configuration for hybrid meeting rooms"
 description: "Hybrid sprint ceremonies require deliberate infrastructure and cultural changes to ensure remote and in-office participants have equal standing. Mandate"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/
 categories: [guides]

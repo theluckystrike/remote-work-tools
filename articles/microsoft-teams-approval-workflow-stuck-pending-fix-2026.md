@@ -3,6 +3,7 @@ layout: default
 title: "Microsoft Teams Approval Workflow Stuck in Pending. Fix"
 description: "Struggling with Microsoft Teams approval workflow stuck on pending? This step-by-step troubleshooting guide helps remote workers and distributed teams"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /microsoft-teams-approval-workflow-stuck-pending-fix-2026/
 categories: [guides]

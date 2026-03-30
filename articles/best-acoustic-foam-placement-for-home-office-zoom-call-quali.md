@@ -3,6 +3,7 @@ layout: default
 title: "Best Acoustic Foam Placement for Home Office Zoom Call"
 description: "A practical technical guide for developers and power users optimizing acoustic foam placement to improve Zoom call quality in home offices"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-acoustic-foam-placement-for-home-office-zoom-call-quali/
 categories: [guides]

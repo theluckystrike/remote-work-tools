@@ -3,6 +3,7 @@ layout: default
 title: "Best Music for Coding and Focus: A Developer's Guide"
 description: "Discover the best music for coding and focus. Explore genre-specific recommendations, playlists, and tools to enhance your developer productivity"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /best-music-for-coding-and-focus/
 categories: [guides]

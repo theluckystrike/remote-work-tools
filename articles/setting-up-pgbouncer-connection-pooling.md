@@ -3,6 +3,7 @@ layout: default
 title: "Setting Up pgBouncer for Connection Pooling"
 description: "Install and configure pgBouncer to reduce PostgreSQL connection overhead, improve throughput, and support high-concurrency workloads for remote teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /setting-up-pgbouncer-for-connection-pooling/
 categories: [guides]

@@ -4,6 +4,7 @@ layout: default
 title: "How to Organize Remote Team Retrospective Learnings"
 description: "A practical guide to capturing, structuring, and preserving retrospective insights from remote teams. Includes templates, code examples, and workflow"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-organize-remote-team-retrospective-learnings-document/
 reviewed: true

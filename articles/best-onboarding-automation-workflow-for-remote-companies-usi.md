@@ -3,6 +3,7 @@ layout: default
 title: "Best Onboarding Automation Workflow for Remote Companies"
 description: "Automating employee onboarding for remote teams eliminates repetitive manual tasks, ensures consistency across hires, and helps new team members feel welcomed"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/
 categories: [guides]

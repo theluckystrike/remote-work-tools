@@ -3,6 +3,7 @@ layout: default
 title: "Best Clipboard Manager for Developers"
 description: "Discover the best clipboard manager for developers. Compare top tools with practical examples, code snippets, and implementation guidance for boosting"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-clipboard-manager-for-developers/
 categories: [guides]

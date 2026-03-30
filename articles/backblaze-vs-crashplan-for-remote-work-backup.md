@@ -3,6 +3,7 @@ layout: default
 title: "Backblaze vs CrashPlan for Remote Work Backup"
 description: "A practical comparison of Backblaze vs CrashPlan for remote work backup. Learn about pricing, features, Linux support, and which solution fits your"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /backblaze-vs-crashplan-for-remote-work-backup/
 categories: [guides]

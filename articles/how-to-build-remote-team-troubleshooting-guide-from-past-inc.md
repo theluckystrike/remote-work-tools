@@ -4,6 +4,7 @@ layout: default
 title: "How to Build a Remote Team Troubleshooting Guide from Past"
 description: "Learn how to build a troubleshooting guide for remote teams using past incident postmortems. Practical examples and code snippets for developers and power"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-build-remote-team-troubleshooting-guide-from-past-inc/
 categories: [guides]

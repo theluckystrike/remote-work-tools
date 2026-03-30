@@ -3,6 +3,7 @@ title: "How to Set up Remote Work Emergency Communication Plan"
 description: "Emergency communication strategies when primary tools fail. Backup channels, phone trees, status page monitoring, incident response for distributed teams, and"
 author: Remote Work Tools Guide
 date: 2026-03-21
+last_modified_at: 2026-03-21
 permalink: /how-to-set-up-remote-work-emergency-communication-plan-2026/
 reviewed: true
 score: 9

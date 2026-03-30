@@ -3,6 +3,7 @@ layout: default
 title: "How to Automate Database Backup Verification"
 description: "Automate PostgreSQL and MySQL backup verification with restore tests, row count checks, and alerting so backup integrity is proven not assumed"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-automate-database-backup-verification/
 categories: [guides]

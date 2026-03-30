@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Keyboard Shortcut Standardization"
 description: "Standardize keyboard shortcuts across your remote team's IDEs, terminals, and tools with shared configs, dotfile repos, and onboarding checklists"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-keyboard-shortcut-standardization/
 categories: [guides]

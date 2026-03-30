@@ -3,6 +3,7 @@ title: "How to Set Up Remote Team Incident Response Process 2026"
 description: "Complete guide to incident management for distributed teams. Includes on-call rotation, PagerDuty/OpsGenie setup, runbook templates, post-mortem formats"
 author: Remote Work Tools Guide
 date: 2026-03-21
+last_modified_at: 2026-03-21
 reviewed: true
 score: 9
 voice-checked: true

@@ -3,6 +3,7 @@ layout: default
 title: "Linux Server Hardening Guide for Remote Developers"
 description: "Harden a Linux VPS or home lab server for remote development use. Covers SSH key auth, UFW firewall, fail2ban, unattended upgrades, and audit logging setup."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /linux-server-hardening-remote-developers/
 categories: [guides]

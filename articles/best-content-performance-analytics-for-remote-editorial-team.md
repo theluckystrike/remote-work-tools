@@ -4,6 +4,7 @@ layout: default
 title: "Best Content Performance Analytics for Remote Editorial"
 description: "A practical guide to tracking and improving article engagement for distributed editorial teams. Learn which metrics matter and how to implement analytics"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /best-content-performance-analytics-for-remote-editorial-team/
 reviewed: true

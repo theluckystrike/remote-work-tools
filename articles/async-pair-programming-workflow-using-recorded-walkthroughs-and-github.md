@@ -3,6 +3,7 @@ layout: default
 title: "Async Pair Programming Workflow Using Recorded Walkthroughs"
 description: "Async pair programming via recorded walkthroughs and GitHub: screen recording setup, PR annotation, review turnaround, and feedback workflows."
 date: 2026-03-18
+last_modified_at: 2026-03-18
 author: theluckystrike
 permalink: /async-pair-programming-workflow-using-recorded-walkthroughs-and-github/
 categories: [guides]

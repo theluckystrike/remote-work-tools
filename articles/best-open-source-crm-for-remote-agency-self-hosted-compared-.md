@@ -3,6 +3,7 @@ layout: default
 title: "Best Open Source CRM for Remote Agency Self-Hosted Compared"
 description: "Compare the best open source CRM solutions for remote agencies in 2026. Self-hosted options with Docker deployment, API capabilities, and developer-friendly"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /best-open-source-crm-for-remote-agency-self-hosted-compared-/
 categories: [guides]

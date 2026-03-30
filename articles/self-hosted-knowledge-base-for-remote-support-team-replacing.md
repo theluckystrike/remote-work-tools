@@ -4,6 +4,7 @@ layout: default
 title: "Self-Hosted Knowledge Base for Remote Support Team"
 description: "A practical guide to building a self-hosted knowledge base for remote support teams migrating from Zendesk. Covers open-source tools, architecture"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /self-hosted-knowledge-base-for-remote-support-team-replacing/
 categories: [guides]

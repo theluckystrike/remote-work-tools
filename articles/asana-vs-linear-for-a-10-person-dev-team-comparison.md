@@ -3,6 +3,7 @@ layout: default
 title: "Asana vs Linear for a 10-Person Dev Team Comparison"
 description: "A technical comparison of Asana and Linear for managing a 10-person development team. Features, API access, GitHub integration, and implementation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /asana-vs-linear-for-a-10-person-dev-team-comparison/
 categories: [comparisons]

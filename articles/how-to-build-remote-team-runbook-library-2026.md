@@ -3,6 +3,7 @@ title: "How to Build a Remote Team Runbook Library 2026"
 description: "Runbook templates, tools (Notion, Confluence, GitBook), incident response integration, on-call procedures, and version control for team playbooks."
 author: "Remote Work Tools Guide"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 reviewed: true
 score: 9
 voice-checked: true

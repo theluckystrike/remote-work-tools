@@ -3,6 +3,7 @@ layout: default
 title: "Example: Tracking exchange rates for optimal conversion"
 description: "A practical guide to currency exchange strategies for developers and remote workers earning USD while living in Thailand. Includes banking solutions"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-currency-exchange-strategy-for-remote-workers-paid-in-u/
 reviewed: true

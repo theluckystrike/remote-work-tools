@@ -3,6 +3,7 @@ layout: default
 title: "Best Desk Lamp for Home Office Coding: A Developer's Guide"
 description: "Find the ideal desk lamp for coding with our guide covering color temperature, brightness, smart integration, and ergonomic placement"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-desk-lamp-for-home-office-coding/
 reviewed: true

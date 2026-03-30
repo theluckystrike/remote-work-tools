@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Changelog Review"
 description: "Automate changelog generation and review for remote teams using git-cliff, release-please, and Keep a Changelog workflows. with PR gates and Slack summaries"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-team-changelog-review-tools/
 categories: [guides]

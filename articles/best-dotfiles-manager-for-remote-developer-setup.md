@@ -3,6 +3,7 @@ layout: default
 title: "Best Dotfiles Manager for Remote Developer Setup"
 description: "Discover the best dotfiles manager for remote developer setup with practical examples, Git-based workflows, and implementation patterns for"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /best-dotfiles-manager-for-remote-developer-setup/
 reviewed: true

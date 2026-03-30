@@ -3,6 +3,7 @@ layout: default
 title: "Best Phishing Simulation Tool for Training Distributed"
 description: "Phishing remains the primary attack vector for security breaches, and remote teams present unique challenges: employees work from various networks, use"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-phishing-simulation-tool-for-training-distributed-remot/
 categories: [guides]

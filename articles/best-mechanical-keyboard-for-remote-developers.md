@@ -3,6 +3,7 @@ layout: default
 title: "Best Mechanical Keyboard for Remote Developers: Discover"
 description: "Discover the best mechanical keyboard for remote developers. Learn about switch types, layouts, programming features, and how to choose the right board"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-mechanical-keyboard-for-remote-developers/
 reviewed: true

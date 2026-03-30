@@ -3,6 +3,7 @@ layout: default
 title: "Accessible Remote Handbook for Neurodiverse Teams"
 description: "Design an accessible remote team handbook for neurodiverse employees with clear navigation, multiple format options, consistent structure, and explicit"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /how-to-design-accessible-remote-team-handbook-for-neurodiver/
 categories: [guides]

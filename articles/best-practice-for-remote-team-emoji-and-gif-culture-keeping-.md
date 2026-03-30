@@ -8,6 +8,7 @@ score: 9
 intent-checked: true
 voice-checked: true
 date: 2026-03-16
+last_modified_at: 2026-03-16
 categories: [troubleshooting]
 permalink: /best-practice-for-remote-team-emoji-and-gif-culture-keeping-/
 tags: [remote-work-tools, best-of, remote-work]

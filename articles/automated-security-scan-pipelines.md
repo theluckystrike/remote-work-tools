@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Automated Security Scan Pipelines"
 description: "Build GitHub Actions pipelines that run SAST, dependency audits, container scans, and secret detection on every PR using Trivy, Semgrep, and Gitleaks configs"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /automated-security-scan-pipelines/
 categories: [guides]

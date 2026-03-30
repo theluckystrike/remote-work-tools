@@ -3,6 +3,7 @@ layout: default
 title: "How to Automate AWS Lambda Deployments"
 description: "Automate AWS Lambda deployments with SAM, GitHub Actions, and versioned aliases for zero-downtime remote team release workflows"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-automate-aws-lambda-deployments/
 categories: [guides]

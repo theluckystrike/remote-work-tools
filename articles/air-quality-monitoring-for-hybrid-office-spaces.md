@@ -3,6 +3,7 @@ layout: default
 title: "Air Quality Monitoring for Hybrid Office Spaces"
 description: "Learn how to implement air quality monitoring systems in hybrid office spaces. Covers sensors, APIs, automation rules, and code examples for developers"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /air-quality-monitoring-for-hybrid-office-spaces/
 categories: [guides]

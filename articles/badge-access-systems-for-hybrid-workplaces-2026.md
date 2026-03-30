@@ -3,6 +3,7 @@ layout: default
 title: "Badge Access Systems for Hybrid Workplaces 2026"
 description: "Hybrid workplaces require badge access systems that handle flexible schedules, multiple entry points, and distributed teams. Modern systems go beyond simple"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /badge-access-systems-for-hybrid-workplaces-2026/
 categories: [guides]

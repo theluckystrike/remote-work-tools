@@ -3,6 +3,7 @@ layout: default
 title: "How to Create a Remote Dev Environment Template"
 description: "Build a reproducible dev environment template with Devcontainers, Nix flakes, or a Makefile bootstrap that works for every remote team member"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-a-remote-dev-environment-template/
 categories: [guides]

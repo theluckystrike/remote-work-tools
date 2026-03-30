@@ -3,6 +3,7 @@ layout: default
 title: "Best CRM for Solo Consultant Managing 30 Active Clients"
 description: "Find the best CRM for solo consultant managing 30 active clients remotely. Compare solutions with API examples, automation patterns, and implementation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-crm-for-solo-consultant-managing-30-active-clients-remo/
 categories: [guides]

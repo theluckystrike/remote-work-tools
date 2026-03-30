@@ -4,6 +4,7 @@ layout: default
 title: "Migrating from AWS CodeCommit to GitHub for Remote Team"
 description: "A practical guide for developers and remote teams moving from AWS CodeCommit to GitHub. Includes migration scripts, workflow changes, and configuration"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /migrating-from-aws-codecommit-to-github-for-remote-team-code/
 reviewed: true

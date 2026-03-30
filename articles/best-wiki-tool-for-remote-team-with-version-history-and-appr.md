@@ -3,6 +3,7 @@ layout: default
 title: "Best Wiki Tool for Remote Team with Version History and"
 description: "Discover the best wiki tool for remote teams with version history and approval workflows. Compare solutions, see implementation examples, and find the"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /best-wiki-tool-for-remote-team-with-version-history-and-appr/
 reviewed: true

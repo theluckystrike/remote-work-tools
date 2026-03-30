@@ -3,6 +3,7 @@ layout: default
 title: "Automate Meeting Notes with AI Tools 2026"
 description: "Set up automated AI meeting notes with Otter.ai, Fireflies, Grain, and Fathom. Covers integrations, summary prompts, and async distribution workflows for"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /automate-meeting-notes-ai-tools-2026/
 categories: [guides]

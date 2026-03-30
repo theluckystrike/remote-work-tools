@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Backup Strategy for Developers"
 description: "A practical 3-2-1 backup strategy for remote developers covering dotfiles, code, databases, and cloud sync with automated scripts and verification"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-work-backup-strategy-for-developers/
 categories: [guides]

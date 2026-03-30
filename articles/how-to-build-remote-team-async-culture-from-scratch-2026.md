@@ -9,6 +9,7 @@ score: 9
 voice-checked: true
 intent-checked: true
 date: 2026-03-21
+last_modified_at: 2026-03-21
 permalink: /how-to-build-remote-team-async-culture-from-scratch-2026/
 tags: [remote-work-tools, remote-work]
 ---

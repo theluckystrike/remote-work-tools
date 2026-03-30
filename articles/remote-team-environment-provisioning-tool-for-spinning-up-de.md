@@ -4,6 +4,7 @@ layout: default
 title: "Remote Team Environment Provisioning Tool for Spinning Up"
 description: "Discover how remote teams can provision development environments on demand. Learn about tools, workflows, and best practices for distributed teams in 2026."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /remote-team-environment-provisioning-tool-for-spinning-up-de/
 tags: [remote-work-tools, remote-work]

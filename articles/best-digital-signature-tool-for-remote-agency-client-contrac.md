@@ -3,6 +3,7 @@ layout: default
 title: "Best Digital Signature Tool for Remote Agency Client"
 description: "A practical comparison of digital signature tools for remote agencies. Learn which APIs and integrations work best for automating client contract"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-digital-signature-tool-for-remote-agency-client-contrac/
 categories: [guides]

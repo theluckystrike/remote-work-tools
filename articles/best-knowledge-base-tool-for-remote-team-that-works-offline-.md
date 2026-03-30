@@ -3,6 +3,7 @@ layout: default
 title: "Best Knowledge Base Tool for Remote Team That Works Offline"
 description: "Find the best offline-capable knowledge base tool for remote teams in 2026. Compare mobile-first solutions with offline sync, Git-backed wikis, and"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /best-knowledge-base-tool-for-remote-team-that-works-offline-/
 categories: [guides]

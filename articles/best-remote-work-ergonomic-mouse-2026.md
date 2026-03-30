@@ -3,6 +3,7 @@ layout: default
 title: "Best Remote Work Ergonomic Mouse 2026"
 description: "Find the best ergonomic mouse for remote developers and knowledge workers. Compare vertical mice, trackballs, and hybrid ergonomic designs with real prices and"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /best-remote-work-ergonomic-mouse-2026/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Best Lighting Setup for Video Calls in Basement Home Office"
 description: "Discover the best lighting setup for video calls in basement home office. Learn practical solutions with color temperature guidelines, three-point"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-lighting-setup-for-video-calls-in-basement-home-office/
 categories: [guides]

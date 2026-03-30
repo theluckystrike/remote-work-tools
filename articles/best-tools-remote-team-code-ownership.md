@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Code Ownership"
 description: "Compare CODEOWNERS, Backstage, Sourcegraph, and OpsLevel for enforcing code ownership in distributed engineering teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-tools-remote-team-code-ownership/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Best Free Tools for Solo Developer Managing Side Projects"
 description: "A practical guide to free tools for solo developers managing side projects remotely. Includes code examples, setup guides, and implementation patterns"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-free-tools-for-solo-developer-managing-side-projects-re/
 categories: [guides]

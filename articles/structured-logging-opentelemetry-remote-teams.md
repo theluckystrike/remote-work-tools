@@ -3,6 +3,7 @@ layout: default
 title: "Structured Logging and OpenTelemetry for Remote Teams"
 description: "Set up structured logging and distributed tracing with OpenTelemetry for remote engineering teams. Covers log formats, trace propagation, exporters, and"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /structured-logging-opentelemetry-remote-teams/
 categories: [guides]

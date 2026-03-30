@@ -3,6 +3,7 @@ layout: default
 title: "Best Deploy Workflow for a Remote Infrastructure Team of 3"
 description: "A practical guide to building deploy workflows for small remote infrastructure teams. Learn CI/CD patterns, automation strategies, and team coordination"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-deploy-workflow-for-a-remote-infrastructure-team-of-3/
 categories: [guides]

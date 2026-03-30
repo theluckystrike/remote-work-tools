@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Automated Status Pages"
 description: "Build automated status pages with Upptime, Freshping, or Gatus that update on every incident without manual intervention from your team"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-automated-status-pages/
 categories: [guides]

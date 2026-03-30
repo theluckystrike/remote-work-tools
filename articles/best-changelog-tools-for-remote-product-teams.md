@@ -3,6 +3,7 @@ layout: default
 title: "Best Changelog Tools for Remote Product Teams"
 description: "GitHub Releases is the best changelog tool for most remote product teams because it ties directly to your existing git tags and CI/CD pipeline with zero"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-changelog-tools-for-remote-product-teams/
 reviewed: true

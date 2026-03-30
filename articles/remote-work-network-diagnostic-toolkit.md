@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Network Diagnostic Toolkit"
 description: "Essential network diagnostic tools and commands for remote workers to identify VPN issues, latency spikes, packet loss, and DNS failures fast"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-work-network-diagnostic-toolkit/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Semaphore CI for Remote Teams"
 description: "Configure Semaphore CI pipelines with parallel jobs, secrets management, and promotion workflows for distributed engineering teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-semaphore-ci-for-remote-teams/
 categories: [guides]

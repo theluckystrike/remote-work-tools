@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Woodpecker CI for Self-Hosted"
 description: "Deploy and configure Woodpecker CI for self-hosted continuous integration with Gitea, GitHub, or GitLab on your own infrastructure"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-woodpecker-ci-for-self-hosted/
 categories: [guides]

@@ -3,6 +3,7 @@ title: "Best Tools for Remote Team Technical Interviews 2026"
 description: "Compare CoderPad, HackerRank, CodeSignal for remote technical interviews. Pricing, features, candidate experience, and integration with hiring workflows."
 author: "Remote Work Tools Guide"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 reviewed: true
 score: 9
 voice-checked: true

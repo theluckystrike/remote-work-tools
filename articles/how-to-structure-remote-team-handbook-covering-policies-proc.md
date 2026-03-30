@@ -3,6 +3,7 @@ layout: default
 title: "How to Structure Remote Team Handbook: Policies, Processes"
 description: "A practical guide for developers and power users on structuring a remote team handbook. Includes templates, code examples, and implementation patterns for 2026."
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-structure-remote-team-handbook-covering-policies-proc/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Remote Lightning Talks Effectively"
 description: "Structure, schedule, and help remote lightning talks that keep presenters brief and audiences engaged across time zones with async follow-up"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-run-remote-lightning-talks-effectively/
 categories: [guides]

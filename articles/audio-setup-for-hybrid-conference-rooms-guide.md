@@ -3,6 +3,7 @@ layout: default
 title: "Audio Setup for Hybrid Conference Rooms: A Technical Guide"
 description: "A practical guide for developers and power users setting up audio in hybrid conference rooms. Covers microphone types, acoustic treatment, DSP"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /audio-setup-for-hybrid-conference-rooms-guide/
 reviewed: true

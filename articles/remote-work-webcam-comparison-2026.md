@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Webcam Comparison Guide 2026"
 description: "Compare the Logitech Brio 500, Elgato Facecam Pro, Insta360 Link 2, and Opal C1 for remote work video calls. specs, low-light results, and who each suits"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /remote-work-webcam-comparison-2026/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "How to Automate Infrastructure Cost Alerts"
 description: "Set up AWS, GCP, and Azure cost alerts with budget thresholds, anomaly detection, and Slack notifications to prevent cloud bill surprises"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-automate-infrastructure-cost-alerts/
 categories: [guides]

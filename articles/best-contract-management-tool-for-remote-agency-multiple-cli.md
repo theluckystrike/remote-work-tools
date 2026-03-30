@@ -3,6 +3,7 @@ layout: default
 title: "Best Contract Management Tool for Remote Agency Multiple"
 description: "Use a CLI-based contract repository with Git version control if your team prefers automation and developer workflows, or choose Airtable plus automated"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "theluckystrike"
 permalink: /best-contract-management-tool-for-remote-agency-multiple-cli/
 categories: [guides]

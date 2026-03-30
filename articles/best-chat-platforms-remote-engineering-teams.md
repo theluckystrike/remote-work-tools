@@ -3,6 +3,7 @@ layout: default
 title: "Best Chat Platforms for Remote Engineering Teams"
 description: "Compare Slack, Discord, Linear Chat, Zulip, and Mattermost for remote engineering teams. Threading models, integrations, pricing, and migration considerations."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /best-chat-platforms-remote-engineering-teams/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Async Design Critique Process for Remote Ux Teams Step by St"
 description: "Learn how to run effective asynchronous design critiques with remote UX teams. Practical examples and code snippets included"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /async-design-critique-process-for-remote-ux-teams-step-by-st/
 reviewed: true

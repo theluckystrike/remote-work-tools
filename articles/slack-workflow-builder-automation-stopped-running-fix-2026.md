@@ -3,6 +3,7 @@ layout: default
 title: "Slack Workflow Builder Automation Stopped Running Fix 2026"
 description: "Troubleshooting guide for Slack Workflow Builder automation issues. Practical step-by-step solutions for remote workers and distributed teams in 2026."
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /slack-workflow-builder-automation-stopped-running-fix-2026/
 categories: [guides]

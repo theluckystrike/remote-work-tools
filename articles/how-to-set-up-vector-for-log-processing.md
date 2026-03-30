@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Vector for Log Processing"
 description: "Deploy Vector as a high-performance log aggregation and processing pipeline to collect, transform, and route logs for distributed remote teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-vector-for-log-processing/
 categories: [guides]

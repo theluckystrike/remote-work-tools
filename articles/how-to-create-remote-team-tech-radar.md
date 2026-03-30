@@ -3,6 +3,7 @@ layout: default
 title: "How to Create a Remote Team Tech Radar"
 description: "Build a living technology radar for distributed teams using Thoughtworks format with Backstage or a static generator to track adopt, trial, and hold decisions"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-remote-team-tech-radar/
 categories: [guides]

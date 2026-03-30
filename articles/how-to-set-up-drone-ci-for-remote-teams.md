@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Drone CI for Remote Teams"
 description: "Deploy Drone CI on your own infrastructure for self-hosted continuous integration with Docker-native pipelines and multi-architecture builds"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-drone-ci-for-remote-teams/
 categories: [guides]

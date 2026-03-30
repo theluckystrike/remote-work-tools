@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Capacity Planning"
 description: "Top tools remote engineering managers use for capacity planning across sprints, quarters, and headcount with async-friendly visibility into workload"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /best-tools-remote-team-capacity-planning-2026/
 categories: [guides]

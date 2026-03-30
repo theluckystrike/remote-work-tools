@@ -3,6 +3,7 @@ layout: default
 title: "Setting Up Grafana Dashboards for Remote Teams"
 description: "Configure Grafana with async-friendly team dashboards. shared views, alerting, annotations, and dashboard-as-code workflows for distributed engineering teams"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /setting-up-grafana-dashboards-for-remote-teams/
 categories: [guides]

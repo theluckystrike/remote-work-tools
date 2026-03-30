@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Playbook Templates"
 description: "Build reusable playbook templates for incidents, deployments, and onboarding that remote teams can execute asynchronously without coordination overhead"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-create-remote-team-playbook-templates/
 categories: [guides]

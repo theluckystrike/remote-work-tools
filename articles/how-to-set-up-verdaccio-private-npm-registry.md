@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Verdaccio Private npm Registry"
 description: "Deploy Verdaccio as a private npm registry for remote teams to publish internal packages with scoped access, S3 storage, and npm/yarn/pnpm support"
 date: 2026-03-22
+last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /how-to-set-up-verdaccio-private-npm-registry/
 categories: [guides]

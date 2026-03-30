@@ -3,6 +3,7 @@ layout: default
 title: "Best Client Intake Form Builder for Remote Agency Onboarding"
 description: "Remote agencies face a unique challenge: gathering detailed client information without the benefit of in-person conversations. A well-designed client intake"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-client-intake-form-builder-for-remote-agency-onboarding/
 categories: [guides]
