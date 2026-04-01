@@ -114,7 +114,7 @@ Key Features:
 
 Pricing - Free tier available; Pro plan at $20/month; Team and Enterprise plans for organizations.
 
-Claude excels at understanding large codebases and providing explanations. Its "thinking" capability allows it to work through complex problems step-by-step before generating solutions.
+Claude excels at understanding large codebases and providing explanations. Its "thinking" capability allows it to work through complex problems step-by-step before generating solutions. If you want to try the terminal-based Claude Code CLI, this <a href="https://claudecodeguides.com/claude-code-for-beginners-complete-getting-started-2026/">complete getting started guide</a> walks through installation, API key setup, and practical workflows for everyday development tasks.
 
 4. Amazon CodeWhisperer
 

@@ -244,6 +244,7 @@ Maintain Human Connection
 - Include brief personal updates at the start of recordings
 - Celebrate completed work in team channels
 - Consider occasional live pairing sessions for relationship building
+- For teams using AI pair programming tools like Claude Code or Cursor alongside async workflows, this <a href="https://claudecodeguides.com/claude-code-vs-devin-ai-agent-comparison-2026/">comparison of Claude Code and Devin as AI coding agents</a> can help you decide which tool fits best into your recorded walkthrough process
 
 Iterate and Improve
 

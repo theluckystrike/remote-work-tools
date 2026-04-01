@@ -294,7 +294,7 @@ Managing multiple extensions requires deliberate organization.
 
 Quarterly Review - Review your extensions quarterly and remove anything you haven't used in the past month. Each extension runs in your browser's background, potentially consuming memory and creating security surface area. The cost-benefit should be obvious for each one.
 
-Browser Profiles - Create browser profiles for different contexts. Use one profile for development with all your dev tools, another for general browsing with minimal extensions, and a third for accessing sensitive production systems with zero extensions. Profile switching keeps your environments clean and focused.
+Browser Profiles - Create browser profiles for different contexts. Use one profile for development with all your dev tools, another for general browsing with minimal extensions, and a third for accessing sensitive production systems with zero extensions. Profile switching keeps your environments clean and focused. If you run multiple Chrome profiles for development and they start consuming excessive disk space, this <a href="https://claudecodeguides.com/chrome-profile-too-large/">guide to fixing oversized Chrome profiles</a> explains which folders to clean up without losing important settings.
 
 Testing - Test new extensions in a separate profile first. This prevents problematic extensions from affecting your primary workflow and gives you time to evaluate whether the extension adds genuine value. Use the 2-week rule: if you haven't used it by day 14, uninstall it.
 
