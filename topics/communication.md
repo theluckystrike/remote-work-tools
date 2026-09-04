@@ -16,4 +16,6 @@ Guides and comparisons for team communication tools, video conferencing, and asy
 - [{{ p.title }}]({{ p.url }})
 {% endif %}{% endfor %}
 
+- [Running a Distributed Team on Telegram: Async Standups, Reminders and Time Zones](/running-a-distributed-team-on-telegram-async-standups-reminders-and-time-zones/)
+
 [Back to home](/)
